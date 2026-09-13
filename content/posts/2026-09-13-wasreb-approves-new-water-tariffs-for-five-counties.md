@@ -1,20 +1,19 @@
 ---
 title: "WASREB Approves New Water Tariffs for Five Counties"
 slug: "wasreb-approves-new-water-tariffs-for-five-counties"
-description: "Households and businesses across Kirinyaga, Mandera, Kiambu, Homa Bay, and Nyeri will see higher utility bills starting next month after the Water."
+description: "wasreb approves new water tariffs for: Households and businesses across Kirinyaga, Mandera, Kiambu, Homa Bay, and Nyeri will see higher utility bills starting"
 excerpt: "Households and businesses across Kirinyaga, Mandera, Kiambu, Homa Bay, and Nyeri will see higher utility bills starting next month after the Water."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/water-tap.jpg.webp?itok=BDIMEo3t"
 category: "News"
+tags: ["wasreb approves new water tariffs for five counties", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/wasreb-approves-new-water-tariffs-for-five-counties"
 date: "2026-09-13T10:18:50Z"
 dateModified: "2026-09-13T10:18:50Z"
 focusKeyword: "wasreb approves new water tariffs for"
 schema: "NewsArticle"
-county: "Eldoret"
-readTime: "3"
-source: "https://kenyans.co.ke/news/127017-wasreb-approves-new-water-tariffs-five-counties"
-stylePreset: "Event Report"
 ---
+
 Households and businesses across Kirinyaga, Mandera, Kiambu, Homa Bay, and Nyeri will see higher utility bills starting next month after the Water Services Regulatory Board (WASREB) approved a fresh multi-year tariff review for local supply companies.
 
 ### What we know
