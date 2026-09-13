@@ -1,19 +1,18 @@
 ---
 title: "Bien Aime Baraza claims a global stage at Afro+ Fest in Maryland"
 slug: "bien-aime-baraza-claims-a-global-stage-at-afro-fest-in-maryland"
-description: "bien aime baraza claims global stage: What we know - Bien Aime Baraza performed at the Afro+ Fest in Maryland on September 5, marking a significant entry for a"
+description: "What we know - Bien Aime Baraza performed at the Afro+ Fest in Maryland on September 5, marking a significant entry for a Kenyan artist into the global."
 excerpt: "What we know - Bien Aime Baraza performed at the Afro+ Fest in Maryland on September 5, marking a significant entry for a Kenyan artist into the global."
 author: "Martin Kihara"
 image: "https://i.ibb.co/7xrJQwLG/5b7a78b30f19.webp"
 category: "Showbiz"
 tags: ["showbiz", "entertainment", "kenya"]
-canonical: "https://zandani.co.ke/article/bien-aime-baraza-claims-a-global-stage-at-afro-fest-in-maryland"
 date: "2026-09-10T10:40:00Z"
 dateModified: "2026-09-10T10:40:00Z"
 focusKeyword: "bien aime baraza claims global stage"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/bien-aime-baraza-claims-a-global-stage-at-afro-fest-in-maryland"
 ---
-
 Bien Aime Baraza performed at the Afro+ Fest in Maryland on September 5, marking a significant entry for a Kenyan artist into the global festival circuit. Sharing the Fan Up Unity Stage with international heavyweights like Tems and Sarkodie, the former Sauti Sol frontman moved beyond the traditional East African touring circuit. The festival, which ran from September 4 to 6, draws thousands of fans of Afrobeats, hip-hop, and amapiano.
 
 His set arrived amidst a broader strategy to solidify his solo career following the hiatus of his former band. By aligning his performance with global names like Davido and Wizkid, Bien is positioning his catalogue in front of diverse audiences who have historically focused on Nigerian or South African exports.
