@@ -1,18 +1,19 @@
 ---
 title: "NLC Issues New Land Acquisition Notice for Naivasha-Kisumu-Malaba SGR"
 slug: "nlc-issues-new-land-acquisition-notice-for-naivasha-kisumu-malaba-sgr"
-description: "NAIROBI — Kenya’s land regulator has launched a fresh wave of compulsory land acquisitions, targeting more than 300 parcels along the western corridor to."
+description: "nlc issues new land acquisition notice: NAIROBI — Kenya’s land regulator has launched a fresh wave of compulsory land acquisitions, targeting more than 300"
 excerpt: "NAIROBI — Kenya’s land regulator has launched a fresh wave of compulsory land acquisitions, targeting more than 300 parcels along the western corridor to."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/sgr-ruto.jpg.webp?itok=kNkWcQM3"
 category: "News"
 tags: ["nlc issues new land acquisition notice for naivasha kisumu malaba sgr", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/nlc-issues-new-land-acquisition-notice-for-naivasha-kisumu-malaba-sgr"
 date: "2026-09-12T18:22:09Z"
 dateModified: "2026-09-12T18:22:09Z"
 focusKeyword: "nlc issues new land acquisition notice"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/nlc-issues-new-land-acquisition-notice-for-naivasha-kisumu-malaba-sgr"
 ---
+
 **NAIROBI** - Kenya’s land regulator has launched a fresh wave of compulsory land acquisitions, targeting more than 300 parcels along the western corridor to clear the path for the Ksh700 billion Naivasha-Kisumu-Malaba Standard Gauge Railway extension.
 
 ### What we know
