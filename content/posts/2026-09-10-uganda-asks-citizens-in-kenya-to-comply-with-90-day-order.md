@@ -1,18 +1,19 @@
 ---
 title: "Uganda Asks Citizens in Kenya to Comply With 90-Day Order"
 slug: "uganda-asks-citizens-in-kenya-to-comply-with-90-day-order"
-description: "Uganda’s First Deputy Prime Minister Rebecca Kadaga has told thousands of her compatriots working across Kenya to visit their High Commission in Nairobi."
+description: "uganda asks citizens kenya comply with: Uganda’s First Deputy Prime Minister Rebecca Kadaga has told thousands of her compatriots working across Kenya to visit"
 excerpt: "Uganda’s First Deputy Prime Minister Rebecca Kadaga has told thousands of her compatriots working across Kenya to visit their High Commission in Nairobi."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/museveni_ruto_2023.jpg.webp?itok=ek9Ro37p"
 category: "News"
 tags: ["uganda asks citizens in kenya to comply with 90 day order", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/uganda-asks-citizens-in-kenya-to-comply-with-90-day-order"
 date: "2026-09-09T22:33:52Z"
 dateModified: "2026-09-09T22:33:52Z"
 focusKeyword: "uganda asks citizens kenya comply with"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/uganda-asks-citizens-in-kenya-to-comply-with-90-day-order"
 ---
+
 Uganda’s First Deputy Prime Minister Rebecca Kadaga has told thousands of her compatriots working across Kenya to visit their High Commission in Nairobi and regularise their immigration papers, responding directly to State House’s three-month ultimatum targeting undocumented foreign nationals and informal traders.
 
 **What we know**
