@@ -1,18 +1,19 @@
 ---
 title: "Environmentalists Isaac Kalua Urges Govt to Verify Survival of Over 981M Trees"
 slug: "environmentalists-isaac-kalua-urges-govt-to-verify-survival-of-over-98"
-description: "Green Africa Foundation Chief Steward Dr Isaac Kalua Green has challenged the Kenyan government and conservation agencies to overhaul national."
+description: "environmentalists isaac kalua urges govt verify: Green Africa Foundation Chief Steward Dr Isaac Kalua Green has challenged the Kenyan government and"
 excerpt: "Green Africa Foundation Chief Steward Dr Isaac Kalua Green has challenged the Kenyan government and conservation agencies to overhaul national."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/book-rrr.jpg.webp?itok=t-GiS3vz"
 category: "News"
 tags: ["environmentalists isaac kalua urges govt to verify survival of over 98", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/environmentalists-isaac-kalua-urges-govt-to-verify-survival-of-over-98"
 date: "2026-09-13T18:13:29Z"
 dateModified: "2026-09-13T18:13:29Z"
 focusKeyword: "environmentalists isaac kalua urges govt verify"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/environmentalists-isaac-kalua-urges-govt-to-verify-survival-of-over-98"
 ---
+
 Green Africa Foundation Chief Steward Dr Isaac Kalua Green has challenged the Kenyan government and conservation agencies to overhaul national afforestation metrics, a shift that promises taxpayers, communities, and climate financiers genuine returns on ecological investments by measuring seedling survival rather than ceremonial planting tallies.
 
 ### What we know
