@@ -544,10 +544,10 @@
     "47c8eaf1da71bd464747568b622c1e3d",
     "bc777947b69d698a5d7b9ab1df89c3dd",
     "f0cf1e129b1433231aaca5c0292eace7",
-    "04a6ff5d4b18bb55ff555aba0fb6deaa"
+    "04a6ff5d4b18bb55ff555aba0fb6deaa",
+    "893e059e2aaea58e2494aeaf5a58c2e1"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -576,7 +576,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -705,7 +706,8 @@
     "https://kenyans.co.ke/news/127017-wasreb-approves-new-water-tariffs-five-counties",
     "https://kenyans.co.ke/news/127026-kuccps-clarifies-how-first-year-students-can-change-university-courses",
     "https://kenyans.co.ke/news/127028-tana-river-senator-danston-mungatana-announces-death-last-born-daughter",
-    "https://kenyans.co.ke/news/127031-multi-billion-lake-victoria-ring-road-project-kick-november-ruto-announces"
+    "https://kenyans.co.ke/news/127031-multi-billion-lake-victoria-ring-road-project-kick-november-ruto-announces",
+    "https://kenyans.co.ke/news/127033-environmentalists-pile-pressure-govt-verify-survival-over-981m-trees"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -756,7 +758,8 @@
     "wasreb approves water tariffs five counties",
     "kuccps clarifies first year students can change university courses",
     "tana river senator danston mungatana announces death last born daughter",
-    "multi billion lake victoria ring road project kick off november ruto announces"
+    "multi billion lake victoria ring road project kick off november ruto announces",
+    "environmentalists isaac kalua urges govt verify survival 981m trees"
   ],
   "topic_keys": [
     "news tracker",
