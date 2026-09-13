@@ -1,19 +1,18 @@
 ---
 title: "Willy Paul Left in Shock After Female Fan Tattoos His Name on Her"
 slug: "willy-paul-left-in-shock-after-female-fan-tattoos-his-name-on-her"
-description: "willy paul left shock after female: NAIROBI — Kenyan recording artist Wilson Abubakar Radido, professionally known as Willy Paul, has publicly questioned the"
+description: "NAIROBI — Kenyan recording artist Wilson Abubakar Radido, professionally known as Willy Paul, has publicly questioned the intent of a female fan who."
 excerpt: "NAIROBI — Kenyan recording artist Wilson Abubakar Radido, professionally known as Willy Paul, has publicly questioned the intent of a female fan who."
 author: "Martin Kihara"
 image: "https://i.ibb.co/4nQj1TgD/fe4463eac304.webp"
 category: "Showbiz"
 tags: ["showbiz", "entertainment", "kenya"]
-canonical: "https://zandani.co.ke/article/willy-paul-left-in-shock-after-female-fan-tattoos-his-name-on-her"
 date: "2026-09-11T22:46:57Z"
 dateModified: "2026-09-11T22:46:57Z"
 focusKeyword: "willy paul left shock after female"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/willy-paul-left-in-shock-after-female-fan-tattoos-his-name-on-her"
 ---
-
 NAIROBI - Kenyan recording artist Wilson Abubakar Radido, professionally known as Willy Paul, has publicly questioned the intent of a female fan who permanently inked the singer’s name onto her body.
 
 **What we know:**

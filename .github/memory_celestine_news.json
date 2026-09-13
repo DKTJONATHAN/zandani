@@ -545,10 +545,10 @@
     "bc777947b69d698a5d7b9ab1df89c3dd",
     "f0cf1e129b1433231aaca5c0292eace7",
     "04a6ff5d4b18bb55ff555aba0fb6deaa",
-    "893e059e2aaea58e2494aeaf5a58c2e1"
+    "893e059e2aaea58e2494aeaf5a58c2e1",
+    "7eaa0f12cf255f1aaadd989b5b38e588"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -577,7 +577,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -707,7 +708,8 @@
     "https://kenyans.co.ke/news/127026-kuccps-clarifies-how-first-year-students-can-change-university-courses",
     "https://kenyans.co.ke/news/127028-tana-river-senator-danston-mungatana-announces-death-last-born-daughter",
     "https://kenyans.co.ke/news/127031-multi-billion-lake-victoria-ring-road-project-kick-november-ruto-announces",
-    "https://kenyans.co.ke/news/127033-environmentalists-pile-pressure-govt-verify-survival-over-981m-trees"
+    "https://kenyans.co.ke/news/127033-environmentalists-pile-pressure-govt-verify-survival-over-981m-trees",
+    "https://kenyans.co.ke/news/127032-visa-free-entry-does-not-exempt-eac-citizens-kenyas-work-laws"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -759,7 +761,8 @@
     "kuccps clarifies first year students can change university courses",
     "tana river senator danston mungatana announces death last born daughter",
     "multi billion lake victoria ring road project kick off november ruto announces",
-    "environmentalists isaac kalua urges govt verify survival 981m trees"
+    "environmentalists isaac kalua urges govt verify survival 981m trees",
+    "visa free entry does exempt eac citizens work laws"
   ],
   "topic_keys": [
     "news tracker",
