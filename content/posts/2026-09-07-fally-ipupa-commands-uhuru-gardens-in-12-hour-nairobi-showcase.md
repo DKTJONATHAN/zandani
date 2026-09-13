@@ -1,18 +1,19 @@
 ---
 title: "Fally Ipupa commands Uhuru Gardens in 12-hour Nairobi showcase"
 slug: "fally-ipupa-commands-uhuru-gardens-in-12-hour-nairobi-showcase"
-description: "Congolese superstar Fally Ipupa headlined a marathon 12-hour concert at Uhuru Gardens this past weekend, blending Congolese rhumba with regional Amapiano."
+description: "fally ipupa commands uhuru gardens hour: Congolese superstar Fally Ipupa headlined a marathon 12-hour concert at Uhuru Gardens this past weekend, blending"
 excerpt: "Congolese superstar Fally Ipupa headlined a marathon 12-hour concert at Uhuru Gardens this past weekend, blending Congolese rhumba with regional Amapiano."
 author: "Martin Kihara"
 image: "https://i.ibb.co/Z6G8764T/07629e551ee8.webp"
 category: "Showbiz"
 tags: ["showbiz", "entertainment", "kenya"]
+canonical: "https://zandani.co.ke/article/fally-ipupa-commands-uhuru-gardens-in-12-hour-nairobi-showcase"
 date: "2026-09-07T16:44:41Z"
 dateModified: "2026-09-07T16:44:41Z"
 focusKeyword: "fally ipupa commands uhuru gardens hour"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/fally-ipupa-commands-uhuru-gardens-in-12-hour-nairobi-showcase"
 ---
+
 Congolese superstar Fally Ipupa headlined a marathon 12-hour concert at Uhuru Gardens this past weekend, blending Congolese rhumba with regional Amapiano and Kenyan sounds. The event ran from 3:00 PM on Saturday to 3:00 AM on Sunday, drawing thousands of fans to the Langata venue despite current economic constraints.
 
 The event moved away from Za Ndani stage-and-speaker format. Organizers built out "lifestyle zones" throughout the grounds at Uhuru Gardens. Guests accessed curated brand booths where they received complimentary hand lotions and grooming kits. These areas remained active throughout the afternoon, allowing for a festival-style atmosphere rather than a sprint to the main act.
