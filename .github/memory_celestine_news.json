@@ -542,10 +542,10 @@
     "9a56f3e07c064b68c7ce83081ae35916",
     "ce566298c2191bd99aeef772d01ea15a",
     "47c8eaf1da71bd464747568b622c1e3d",
-    "bc777947b69d698a5d7b9ab1df89c3dd"
+    "bc777947b69d698a5d7b9ab1df89c3dd",
+    "f0cf1e129b1433231aaca5c0292eace7"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -574,7 +574,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -701,7 +702,8 @@
     "https://kenyans.co.ke/news/127010-nps-warns-tough-action-after-violence-kindikis-embu-meeting",
     "https://kenyans.co.ke/news/127015-huduma-kenya-clarifies-id-registration-rules-kenyans-without-birth-certificates",
     "https://kenyans.co.ke/news/127017-wasreb-approves-new-water-tariffs-five-counties",
-    "https://kenyans.co.ke/news/127026-kuccps-clarifies-how-first-year-students-can-change-university-courses"
+    "https://kenyans.co.ke/news/127026-kuccps-clarifies-how-first-year-students-can-change-university-courses",
+    "https://kenyans.co.ke/news/127028-tana-river-senator-danston-mungatana-announces-death-last-born-daughter"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -750,7 +752,8 @@
     "nps warns tough action violence kindiki embu meeting",
     "huduma clarifies registration rules without birth certificates",
     "wasreb approves water tariffs five counties",
-    "kuccps clarifies first year students can change university courses"
+    "kuccps clarifies first year students can change university courses",
+    "tana river senator danston mungatana announces death last born daughter"
   ],
   "topic_keys": [
     "news tracker",
