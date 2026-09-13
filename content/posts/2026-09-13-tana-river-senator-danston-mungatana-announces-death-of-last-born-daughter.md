@@ -1,18 +1,19 @@
 ---
 title: "Tana River Senator Danston Mungatana Announces Death of Last Born Daughter"
 slug: "tana-river-senator-danston-mungatana-announces-death-of-last-born-daug"
-description: "Tana River Senator Danson Mungatana and his wife, Deputy Government Spokesperson Mwanaisha Chidzuga, are in mourning following the death of their."
+description: "tana river senator danston mungatana announces: Tana River Senator Danson Mungatana and his wife, Deputy Government Spokesperson Mwanaisha Chidzuga, are in"
 excerpt: "Tana River Senator Danson Mungatana and his wife, Deputy Government Spokesperson Mwanaisha Chidzuga, are in mourning following the death of their."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/The%20Parliament%20Building%20in%20Nairobi..jpg.webp?itok=ejILmoUM"
 category: "News"
 tags: ["tana river senator danston mungatana announces death of last born daug", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/tana-river-senator-danston-mungatana-announces-death-of-last-born-daug"
 date: "2026-09-13T14:28:15Z"
 dateModified: "2026-09-13T14:28:15Z"
 focusKeyword: "tana river senator danston mungatana announces"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/tana-river-senator-danston-mungatana-announces-death-of-last-born-daug"
 ---
+
 Tana River Senator Danson Mungatana and his wife, Deputy Government Spokesperson Mwanaisha Chidzuga, are in mourning following the death of their eight-year-old daughter, Amal Mghoi Mungatana, who succumbed to a long-term illness at Gertrude’s Children’s Hospital in Muthaiga, Nairobi, on Sunday morning.
 
 ### What we know

@@ -1,18 +1,19 @@
 ---
 title: "NPS Warns of Tough Action After Violence at Kindiki's Embu Meeting"
 slug: "nps-warns-of-tough-action-after-violence-at-kindiki-s-embu-meeting"
-description: "One person is dead and six vehicles have been reduced to charred shells after violent clashes forced security teams to evacuate Deputy President Kithure."
+description: "nps warns tough action after violence: One person is dead and six vehicles have been reduced to charred shells after violent clashes forced security teams to"
 excerpt: "One person is dead and six vehicles have been reduced to charred shells after violent clashes forced security teams to evacuate Deputy President Kithure."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/teargas-at-uda-meeting-embu-county-september-2026.jpg.webp?itok=4lmGEB1G"
 category: "News"
 tags: ["nps warns of tough action after violence at kindiki s embu meeting", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/nps-warns-of-tough-action-after-violence-at-kindiki-s-embu-meeting"
 date: "2026-09-13T04:46:45Z"
 dateModified: "2026-09-13T04:46:45Z"
 focusKeyword: "nps warns tough action after violence"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/nps-warns-of-tough-action-after-violence-at-kindiki-s-embu-meeting"
 ---
+
 One person is dead and six vehicles have been reduced to charred shells after violent clashes forced security teams to evacuate Deputy President Kithure Kindiki from a chaotic ruling party rally in Embu County on Saturday.
 
 ### What we know
