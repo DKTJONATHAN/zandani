@@ -1,18 +1,19 @@
 ---
 title: "Pastor Kanyari mourns former girlfriend he once planned to marry"
 slug: "pastor-kanyari-mourns-former-girlfriend-he-once-planned-to-marry"
-description: "NAIROBI — Pastor Victor Kanyari has publicly confirmed the passing of a former partner with whom he had previously intended to settle down, marking a."
+description: "pastor kanyari mourns former girlfriend once: NAIROBI — Pastor Victor Kanyari has publicly confirmed the passing of a former partner with whom he had"
 excerpt: "NAIROBI — Pastor Victor Kanyari has publicly confirmed the passing of a former partner with whom he had previously intended to settle down, marking a."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/j9NxGNHw/55ac1485ace9.png"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
+canonical: "https://zandani.co.ke/article/pastor-kanyari-mourns-former-girlfriend-he-once-planned-to-marry"
 date: "2026-09-10T18:29:14Z"
 dateModified: "2026-09-10T18:29:14Z"
 focusKeyword: "pastor kanyari mourns former girlfriend once"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/pastor-kanyari-mourns-former-girlfriend-he-once-planned-to-marry"
 ---
+
 NAIROBI - Pastor Victor Kanyari has publicly confirmed the passing of a former partner with whom he had previously intended to settle down, marking a moment of personal reflection shared during a church service held on Wednesday, September 9, 2026.
 
 Addressing his congregation, the preacher disclosed that the woman, who had been battling cancer, was a significant figure during the formative years of his ministry before his rise to national prominence. Kanyari stated that she had provided essential support during his period of financial hardship, noting, “I don’t forget my friends. Even if they have married or not married, I always remember my friends.”

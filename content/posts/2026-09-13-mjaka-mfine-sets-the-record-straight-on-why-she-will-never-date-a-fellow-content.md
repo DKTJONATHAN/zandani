@@ -1,20 +1,19 @@
 ---
 title: "Mjaka Mfine Sets the Record Straight on Why She Will Never Date a Fellow Content Creator"
 slug: "mjaka-mfine-sets-the-record-straight-on-why-she-will-never-date-a-fell"
-description: "NAIROBI — Content creator Mjaka Mfine has publicly dismissed recent speculation regarding her romantic life, asserting that she has never pursued a."
+description: "mjaka mfine sets the record straight: NAIROBI — Content creator Mjaka Mfine has publicly dismissed recent speculation regarding her romantic life, asserting"
 excerpt: "NAIROBI — Content creator Mjaka Mfine has publicly dismissed recent speculation regarding her romantic life, asserting that she has never pursued a."
 author: "Martin Kihara"
-authorUrl: "https://zandani.co.ke/author/martin-kihara"
 image: "https://i.ibb.co/mC4v223D/a2657f1954a0.webp"
 category: "Showbiz"
 tags: ["showbiz", "entertainment", "kenya"]
+canonical: "https://zandani.co.ke/article/mjaka-mfine-sets-the-record-straight-on-why-she-will-never-date-a-fell"
 date: "2026-09-13T08:32:42Z"
 dateModified: "2026-09-13T08:32:42Z"
 focusKeyword: "mjaka mfine sets the record straight"
 schema: "NewsArticle"
-county: "Nairobi"
-stylePreset: "Statement Report"
 ---
+
 NAIROBI - Content creator Mjaka Mfine has publicly dismissed recent speculation regarding her romantic life, asserting that she has never pursued a relationship with a fellow public figure or entertainment personality.
 
 Speaking during an interview with radio host Alex Mwakideu, Mjaka stated that she consciously avoids romantic entanglements within the entertainment industry to maintain a necessary level of privacy.
