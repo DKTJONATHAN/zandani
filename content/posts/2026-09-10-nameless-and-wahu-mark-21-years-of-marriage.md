@@ -1,18 +1,19 @@
 ---
 title: "Nameless and Wahu mark 21 years of marriage"
 slug: "nameless-and-wahu-mark-21-years-of-marriage"
-description: "What we know - David Mathenge and Rosemary Wahu Kagwi celebrate 21 years of marriage today, September 10. - The Mathenges began their journey as."
+description: "nameless and wahu mark years marriage: What we know - David Mathenge and Rosemary Wahu Kagwi celebrate 21 years of marriage today, September 10. - The"
 excerpt: "What we know - David Mathenge and Rosemary Wahu Kagwi celebrate 21 years of marriage today, September 10. - The Mathenges began their journey as."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/hxqSz3vK/8b00524852f8.png"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
+canonical: "https://zandani.co.ke/article/nameless-and-wahu-mark-21-years-of-marriage"
 date: "2026-09-10T10:39:41Z"
 dateModified: "2026-09-10T10:39:41Z"
 focusKeyword: "nameless and wahu mark years marriage"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/nameless-and-wahu-mark-21-years-of-marriage"
 ---
+
 David Mathenge and Rosemary Wahu Kagwi celebrate 21 years of marriage today, September 10. The music icons marked the anniversary of their 2005 Lake Naivasha wedding with tributes reflecting on two decades in the public eye. The couple, who met as students at the University of Nairobi, continues to reside in Nairobi while raising their three daughters, Tumiso, Nyakio, and Shiru.
 
 The Mathenges began their journey as undergraduates, with Nameless studying Architecture and Wahu focusing on Mathematics. Their courtship spanned eight years before the couple held an African-themed ceremony on the shores of Lake Naivasha. Since then, they have navigated the shift from the early 2000s music scene to becoming prominent fixtures in Kenyan pop culture.
