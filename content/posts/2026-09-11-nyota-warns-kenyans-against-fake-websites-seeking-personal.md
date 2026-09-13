@@ -1,19 +1,18 @@
 ---
 title: "NYOTA Warns Kenyans Against Fake Websites Seeking Personal"
 slug: "nyota-warns-kenyans-against-fake-websites-seeking-personal"
-description: "nyota warns kenyans against fake websites: NAIROBI — Administrators of the National Youth Opportunities Towards Advancement (NYOTA) project have issued an"
+description: "NAIROBI — Administrators of the National Youth Opportunities Towards Advancement (NYOTA) project have issued an urgent fraud alert cautioning Kenyan youth."
 excerpt: "NAIROBI — Administrators of the National Youth Opportunities Towards Advancement (NYOTA) project have issued an urgent fraud alert cautioning Kenyan youth."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/ruto-nyota_0.jpg.webp?itok=IDgzqz-h"
 category: "News"
 tags: ["nyota warns kenyans against fake websites seeking personal", "news", "kenya news"]
-canonical: "https://zandani.co.ke/article/nyota-warns-kenyans-against-fake-websites-seeking-personal"
 date: "2026-09-11T09:41:46Z"
 dateModified: "2026-09-11T09:41:46Z"
 focusKeyword: "nyota warns kenyans against fake websites"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/nyota-warns-kenyans-against-fake-websites-seeking-personal"
 ---
-
 NAIROBI - Administrators of the National Youth Opportunities Towards Advancement (NYOTA) project have issued an urgent fraud alert cautioning Kenyan youth against sophisticated online scams designed to steal personal data under the guise of offering government business grants.
 
 ### What we know
