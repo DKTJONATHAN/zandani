@@ -538,10 +538,10 @@
     "ab27d239e01f32229232a2a0d0d7e14d",
     "e437434f36ab09f50f41023ee9d6ce5b",
     "d18ee3e507d84ac35ff246875aa03b6e",
-    "95c485055775aae1e2d966bc97a6e473"
+    "95c485055775aae1e2d966bc97a6e473",
+    "9a56f3e07c064b68c7ce83081ae35916"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -570,7 +570,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -693,7 +694,8 @@
     "https://kenyans.co.ke/news/127005-mass-layoff-registrar-companies-dissolves-176-firms-targets-155-more",
     "https://kenyans.co.ke/news/127009-nlc-issues-new-land-acquisition-notice-naivasha-kisumu-malaba-sgr",
     "https://kenyans.co.ke/news/127007-css-cj-koome-make-new-appointments-lorna-ogolla-joins-nca",
-    "https://kenyans.co.ke/news/127006-kindiki-directs-embu-uda-leaders-assess-damage-after-deadly-clashes"
+    "https://kenyans.co.ke/news/127006-kindiki-directs-embu-uda-leaders-assess-damage-after-deadly-clashes",
+    "https://kenyans.co.ke/news/127010-nps-warns-tough-action-after-violence-kindikis-embu-meeting"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -738,7 +740,8 @@
     "mass layoff registrar companies dissolves 176 firms targets 155 more",
     "nlc issues land acquisition notice naivasha kisumu malaba sgr",
     "css koome make appointments lorna ogolla joins nca",
-    "kindiki directs embu uda leaders assess damage deadly clashes"
+    "kindiki directs embu uda leaders assess damage deadly clashes",
+    "nps warns tough action violence kindiki embu meeting"
   ],
   "topic_keys": [
     "news tracker",
