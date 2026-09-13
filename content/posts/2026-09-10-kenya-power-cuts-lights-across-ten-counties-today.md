@@ -1,19 +1,18 @@
 ---
 title: "Kenya Power Cuts Lights Across Ten Counties Today"
 slug: "kenya-power-cuts-lights-across-ten-counties-today"
-description: "kenya power cuts lights across ten: What we know - Kenya Power has initiated a massive wave of scheduled maintenance shutdowns impacting residential and"
+description: "What we know - Kenya Power has initiated a massive wave of scheduled maintenance shutdowns impacting residential and industrial hubs across ten counties."
 excerpt: "What we know - Kenya Power has initiated a massive wave of scheduled maintenance shutdowns impacting residential and industrial hubs across ten counties."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/zhdgdxwR/3b1fbadc39d8.jpg"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
-canonical: "https://zandani.co.ke/article/kenya-power-cuts-lights-across-ten-counties-today"
 date: "2026-09-10T08:04:58Z"
 dateModified: "2026-09-10T08:04:58Z"
 focusKeyword: "kenya power cuts lights across ten"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/kenya-power-cuts-lights-across-ten-counties-today"
 ---
-
 Kenya Power has initiated a massive wave of scheduled maintenance shutdowns impacting residential and industrial hubs across ten counties. From the leafy suburbs of Nairobi to the coastal tourism strips of Nyali and Watamu, homes and businesses face an eight-hour blackout today, September 10. The utility company confirmed the interruptions will run primarily from 9.00 a.m. to 5.00 p.m. to facilitate network upgrades.
 
 Nairobi residents in Hardy, Karen, and the Spring Valley corridor face a long day without power. The industrial sector is also hit hard, with Bamburi Road and Enterprise Road facing a total cutoff. Outside the capital, Kiambu is seeing significant disruption around Juja Farm and the PCEA Thogoto Hospital area, while Mombasa’s Nyali district is effectively shuttered, affecting major hospitality players like City Mall and several beach resorts.

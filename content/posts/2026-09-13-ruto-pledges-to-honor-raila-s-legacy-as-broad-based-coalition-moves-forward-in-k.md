@@ -1,19 +1,18 @@
 ---
 title: "Ruto Pledges To Honor Raila's Legacy As Broad-Based Coalition Moves Forward In Kisumu"
 slug: "ruto-pledges-to-honor-raila-s-legacy-as-broad-based-coalition-moves-fo"
-description: "ruto pledges honor raila's legacy broad: Mamboleo, Kisumu — President William Ruto arrived at the Voice of Salvation and Healing Church this Sunday to solidify"
+description: "Mamboleo, Kisumu — President William Ruto arrived at the Voice of Salvation and Healing Church this Sunday to solidify the ruling administration’s."
 excerpt: "Mamboleo, Kisumu — President William Ruto arrived at the Voice of Salvation and Healing Church this Sunday to solidify the ruling administration’s."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/pV7zNcW/8c037e9e440f.png"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
-canonical: "https://zandani.co.ke/article/ruto-pledges-to-honor-raila-s-legacy-as-broad-based-coalition-moves-fo"
 date: "2026-09-13T13:48:33Z"
 dateModified: "2026-09-13T13:48:33Z"
 focusKeyword: "ruto pledges honor raila's legacy broad"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/ruto-pledges-to-honor-raila-s-legacy-as-broad-based-coalition-moves-fo"
 ---
-
 Mamboleo, Kisumu - President William Ruto arrived at the Voice of Salvation and Healing Church this Sunday to solidify the ruling administration’s partnership with ODM, positioning his government as the primary custodian of the late Raila Odinga’s development vision.
 
 The President opened the service by framing the UDA and ODM union as a formal, long-term collaboration. Addressing the congregation, Ruto characterized himself as a former student of the late opposition leader, pledging that the current broad-based coalition would prioritize the late statesman’s unfinished agenda for Nyanza.
