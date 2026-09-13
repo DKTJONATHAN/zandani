@@ -1,18 +1,19 @@
 ---
 title: "TikToker Victor Karanja Forced to Remove Earrings at Strathmore"
 slug: "tiktoker-victor-karanja-forced-to-remove-earrings-at-strathmore"
-description: "NAIROBI — Content creator Victor Karanja was denied entry to the Strathmore University campus on Friday morning after security personnel mandated the."
+description: "tiktoker victor karanja forced remove earrings: NAIROBI — Content creator Victor Karanja was denied entry to the Strathmore University campus on Friday morning"
 excerpt: "NAIROBI — Content creator Victor Karanja was denied entry to the Strathmore University campus on Friday morning after security personnel mandated the."
 author: "Martin Kihara"
 image: "https://i.ibb.co/0RVbXQYv/d0217de4aeb9.webp"
 category: "Showbiz"
 tags: ["showbiz", "entertainment", "kenya"]
+canonical: "https://zandani.co.ke/article/tiktoker-victor-karanja-forced-to-remove-earrings-at-strathmore"
 date: "2026-09-11T18:33:17Z"
 dateModified: "2026-09-11T18:33:17Z"
 focusKeyword: "tiktoker victor karanja forced remove earrings"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/tiktoker-victor-karanja-forced-to-remove-earrings-at-strathmore"
 ---
+
 NAIROBI - Content creator Victor Karanja was denied entry to the Strathmore University campus on Friday morning after security personnel mandated the removal of his earrings, an incident that has triggered a sharp divide regarding dress codes in Kenyan higher education.
 
 **What we know:**
