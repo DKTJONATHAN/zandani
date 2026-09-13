@@ -1,19 +1,18 @@
 ---
 title: "Dry Taps Ahead for Nairobi and Kisumu in Massive Water Cut"
 slug: "dry-taps-ahead-for-nairobi-and-kisumu-in-massive-water-cut"
-description: "dry taps ahead for nairobi and: Nairobi City Water and Sewerage Company and Kisumu Water and Sanitation Company have issued notices warning millions of"
+description: "Nairobi City Water and Sewerage Company and Kisumu Water and Sanitation Company have issued notices warning millions of residents across both cities of."
 excerpt: "Nairobi City Water and Sewerage Company and Kisumu Water and Sanitation Company have issued notices warning millions of residents across both cities of."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/people-lining-for-water.jpg.webp?itok=1LSGarzo"
 category: "News"
 tags: ["dry taps ahead for nairobi and kisumu in massive water cut", "news", "kenya news"]
-canonical: "https://zandani.co.ke/article/dry-taps-ahead-for-nairobi-and-kisumu-in-massive-water-cut"
 date: "2026-09-10T10:39:55Z"
 dateModified: "2026-09-10T10:39:55Z"
 focusKeyword: "dry taps ahead for nairobi and"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/dry-taps-ahead-for-nairobi-and-kisumu-in-massive-water-cut"
 ---
-
 Nairobi City Water and Sewerage Company and Kisumu Water and Sanitation Company have issued notices warning millions of residents across both cities of major water supply disruptions starting Friday. Engineers will shut main treatment plants and distribution lines to carry out emergency pipe repairs and install new meters.
 
 ### What we know
