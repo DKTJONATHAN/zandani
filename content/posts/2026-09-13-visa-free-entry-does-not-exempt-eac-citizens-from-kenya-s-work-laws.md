@@ -1,20 +1,19 @@
 ---
 title: "Visa-Free Entry Does Not Exempt EAC Citizens From Kenya’s Work Laws"
 slug: "visa-free-entry-does-not-exempt-eac-citizens-from-kenya-s-work-laws"
-description: "East African Community citizens crossing into Kenya without a visa still face the full weight of local labour and commercial regulations before setting up."
+description: "visa free entry does not exempt: East African Community citizens crossing into Kenya without a visa still face the full weight of local labour and commercial"
 excerpt: "East African Community citizens crossing into Kenya without a visa still face the full weight of local labour and commercial regulations before setting up."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/burundi-nationals.jpg.webp?itok=8X2wjyh8"
 category: "News"
+tags: ["visa free entry does not exempt eac citizens from kenya s work laws", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/visa-free-entry-does-not-exempt-eac-citizens-from-kenya-s-work-laws"
 date: "2026-09-13T20:47:23Z"
 dateModified: "2026-09-13T20:47:23Z"
 focusKeyword: "visa free entry does not exempt"
 schema: "NewsArticle"
-county: "Nairobi"
-readTime: "3"
-source: "https://kenyans.co.ke/news/127032-visa-free-entry-does-not-exempt-eac-citizens-kenyas-work-laws"
-stylePreset: "Event Report"
 ---
+
 East African Community citizens crossing into Kenya without a visa still face the full weight of local labour and commercial regulations before setting up shop or taking up formal employment, immigration authorities have reaffirmed.
 
 ### What we know

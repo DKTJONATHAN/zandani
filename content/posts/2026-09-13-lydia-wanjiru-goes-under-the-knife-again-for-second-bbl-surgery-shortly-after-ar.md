@@ -1,18 +1,19 @@
 ---
 title: "Lydia Wanjiru Goes Under the Knife Again for Second BBL Surgery Shortly After Arm Lipo"
 slug: "lydia-wanjiru-goes-under-the-knife-again-for-second-bbl-surgery-shortl"
-description: "NAIROBI — Content creator Lydia Wanjiru has undergone a second Brazilian Butt Lift (BBL) procedure, marking another significant milestone in her ongoing."
+description: "lydia wanjiru goes under the knife: NAIROBI — Content creator Lydia Wanjiru has undergone a second Brazilian Butt Lift (BBL) procedure, marking another"
 excerpt: "NAIROBI — Content creator Lydia Wanjiru has undergone a second Brazilian Butt Lift (BBL) procedure, marking another significant milestone in her ongoing."
 author: "Martin Kihara"
 image: "https://i.ibb.co/LdCNHqtY/3b070c7c501d.webp"
 category: "Showbiz"
 tags: ["showbiz", "entertainment", "kenya"]
+canonical: "https://zandani.co.ke/article/lydia-wanjiru-goes-under-the-knife-again-for-second-bbl-surgery-shortl"
 date: "2026-09-13T19:44:01Z"
 dateModified: "2026-09-13T19:44:01Z"
 focusKeyword: "lydia wanjiru goes under the knife"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/lydia-wanjiru-goes-under-the-knife-again-for-second-bbl-surgery-shortl"
 ---
+
 NAIROBI - Content creator Lydia Wanjiru has undergone a second Brazilian Butt Lift (BBL) procedure, marking another significant milestone in her ongoing series of body enhancement surgeries. The influencer shared footage from her hospital room late this week, showing her interacting with medical staff and engaging in mandatory post-operative movement.
 
 In updates posted to her social media platforms, Wanjiru confirmed she is stable and currently focused on the initial healing phase of the operation. This procedure follows a recent liposuction treatment on her arms, which she also documented extensively for her followers.
