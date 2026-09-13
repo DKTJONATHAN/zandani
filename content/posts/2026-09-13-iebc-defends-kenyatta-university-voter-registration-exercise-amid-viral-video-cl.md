@@ -1,20 +1,19 @@
 ---
 title: "IEBC Defends Kenyatta University Voter Registration Exercise Amid Viral Video Claims"
 slug: "iebc-defends-kenyatta-university-voter-registration-exercise-amid-vira"
-description: "Kenyatta University became the focus of intense scrutiny this Sunday following the circulation of a viral video alleging procedural irregularities during."
+description: "iebc defends kenyatta university voter registration: Kenyatta University became the focus of intense scrutiny this Sunday following the circulation of a viral"
 excerpt: "Kenyatta University became the focus of intense scrutiny this Sunday following the circulation of a viral video alleging procedural irregularities during."
 author: "Wanjiku Kuria"
-authorUrl: "https://zandani.co.ke/author/wanjiku-kuria"
 image: "https://i.ibb.co/MxbFnPFN/40c82e5272f6.jpg"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
+canonical: "https://zandani.co.ke/article/iebc-defends-kenyatta-university-voter-registration-exercise-amid-vira"
 date: "2026-09-13T04:47:20Z"
 dateModified: "2026-09-13T04:47:20Z"
 focusKeyword: "iebc defends kenyatta university voter registration"
 schema: "NewsArticle"
-county: "Nairobi"
-stylePreset: "Event Report"
 ---
+
 Kenyatta University became the focus of intense scrutiny this Sunday following the circulation of a viral video alleging procedural irregularities during a localized voter registration drive. The Independent Electoral and Boundaries Commission (IEBC) has since moved to dismiss the claims, affirming that the exercise remains strictly within the bounds of the law.
 
 The sequence of events began late Saturday when footage surfaced on social media platforms, suggesting unauthorized registration activity on the university grounds. Observers questioned the deployment of mobile kits, prompting a direct response from the commission. IEBC Chairperson Erastus Edung Ethekon maintained that the activity was a standard component of the Continuous Voter Registration (CVR) framework, designed specifically to capture the youth demographic at high-density institutions.
