@@ -1,18 +1,19 @@
 ---
 title: "Kenya Targets New Chinese Financing for New Expressway & JKIA"
 slug: "kenya-targets-new-chinese-financing-for-new-expressway-jkia"
-description: "As Kenya turns its gaze back toward Beijing for its next wave of megaprojects, Prime Cabinet Secretary Musalia Mudavadi’s high-stakes meeting with Asian."
+description: "kenya targets new chinese financing for: As Kenya turns its gaze back toward Beijing for its next wave of megaprojects, Prime Cabinet Secretary Musalia"
 excerpt: "As Kenya turns its gaze back toward Beijing for its next wave of megaprojects, Prime Cabinet Secretary Musalia Mudavadi’s high-stakes meeting with Asian."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/ruto%20jkia.jpg.webp?itok=vNQd-6aY"
 category: "News"
 tags: ["kenya targets new chinese financing for new expressway jkia", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/kenya-targets-new-chinese-financing-for-new-expressway-jkia"
 date: "2026-09-11T08:01:28Z"
 dateModified: "2026-09-11T08:01:28Z"
 focusKeyword: "kenya targets new chinese financing for"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/kenya-targets-new-chinese-financing-for-new-expressway-jkia"
 ---
+
 As Kenya turns its gaze back toward Beijing for its next wave of megaprojects, Prime Cabinet Secretary Musalia Mudavadi’s high-stakes meeting with Asian Infrastructure Investment Bank (AIIB) President Zou Jiayi signals a quiet pivot in how Nairobi intends to fund its heavily congested trade corridors. Tapping the Beijing-backed lender for the 243-kilometre Mau Summit-Malaba expressway, airport upgrades at JKIA, and a proposed Ksh64 billion Panda Bond points to an ambitious-and toll-reliant-infrastructure playbook that places the financing burden directly on the freight operators and motorists driving toward the border.
 
 ### What we know
