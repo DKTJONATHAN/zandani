@@ -1,19 +1,18 @@
 ---
 title: "Baba Talisha Sets Record Straight On KSh 6 Million Court Ruling"
 slug: "baba-talisha-sets-record-straight-on-ksh-6-million-court-ruling"
-description: "baba talisha sets record straight ksh: NAIROBI, September 11, 2026 — Content creator Baba Talisha has formally refuted widespread online allegations suggesting"
+description: "NAIROBI, September 11, 2026 — Content creator Baba Talisha has formally refuted widespread online allegations suggesting he solicited loans to finance a."
 excerpt: "NAIROBI, September 11, 2026 — Content creator Baba Talisha has formally refuted widespread online allegations suggesting he solicited loans to finance a."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/XrsLvpfF/640e99e7a0a2.png"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
-canonical: "https://zandani.co.ke/article/baba-talisha-sets-record-straight-on-ksh-6-million-court-ruling"
 date: "2026-09-11T04:39:50Z"
 dateModified: "2026-09-11T04:39:50Z"
 focusKeyword: "baba talisha sets record straight ksh"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/baba-talisha-sets-record-straight-on-ksh-6-million-court-ruling"
 ---
-
 **NAIROBI, September 11, 2026** - Content creator Baba Talisha has formally refuted widespread online allegations suggesting he solicited loans to finance a high-end lifestyle, following a wave of public speculation sparked by the conclusion of a long-standing court case.
 
 The digital personality addressed the matter through a detailed statement issued on Thursday, September 10, 2026, in which he categorized the claims as a deliberate distortion of facts surrounding a legal judgment. According to Baba Talisha, recent social media narratives incorrectly interpreted a court-ordered payment of KSh 6 million as evidence of personal debt, rather than the resolution of a legal dispute that has been ongoing since 2024.
