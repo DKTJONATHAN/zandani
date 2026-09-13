@@ -1,19 +1,18 @@
 ---
 title: "KAA Bans Bundled Baggage at JKIA to Curb Tax Evasion"
 slug: "kaa-bans-bundled-baggage-at-jkia-to-curb-tax-evasion"
-description: "kaa bans bundled baggage jkia curb: The Kenya Airports Authority has outlawed the practice of bundling multiple passengers' luggage together on inbound flights"
+description: "The Kenya Airports Authority has outlawed the practice of bundling multiple passengers' luggage together on inbound flights to Jomo Kenyatta International."
 excerpt: "The Kenya Airports Authority has outlawed the practice of bundling multiple passengers' luggage together on inbound flights to Jomo Kenyatta International."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/jkia_2_0.jpg.webp?itok=cFcATfiv"
 category: "News"
 tags: ["kaa bans bundled baggage at jkia to curb tax evasion", "news", "kenya news"]
-canonical: "https://zandani.co.ke/article/kaa-bans-bundled-baggage-at-jkia-to-curb-tax-evasion"
 date: "2026-09-09T17:10:22Z"
 dateModified: "2026-09-09T17:10:22Z"
 focusKeyword: "kaa bans bundled baggage jkia curb"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/kaa-bans-bundled-baggage-at-jkia-to-curb-tax-evasion"
 ---
-
 The Kenya Airports Authority has outlawed the practice of bundling multiple passengers' luggage together on inbound flights to Jomo Kenyatta International Airport. Travellers caught arriving with tied-together bags will have their luggage separated and returned at their own expense, following a directive aimed at halting commercial cargo smuggling masquerading as personal baggage.
 
 **What we know**
