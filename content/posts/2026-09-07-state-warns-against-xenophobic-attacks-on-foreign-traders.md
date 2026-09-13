@@ -1,19 +1,18 @@
 ---
 title: "State Warns Against Xenophobic Attacks on Foreign Traders"
 slug: "state-warns-against-xenophobic-attacks-on-foreign-traders"
-description: "state warns against xenophobic attacks foreign: Government Spokesperson Charles Owino ordered security agencies on Monday morning, September 07, 2026, at 10:00"
+description: "Government Spokesperson Charles Owino ordered security agencies on Monday morning, September 07, 2026, at 10:00 AM EAT in Nairobi, to arrest individuals."
 excerpt: "Government Spokesperson Charles Owino ordered security agencies on Monday morning, September 07, 2026, at 10:00 AM EAT in Nairobi, to arrest individuals."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/burundi-nationals-hrrasssment-charles-owino-22.jpg.webp?itok=5d88RxgK"
 category: "News"
 tags: ["state warns against xenophobic attacks on foreign traders", "news", "kenya news"]
-canonical: "https://zandani.co.ke/article/state-warns-against-xenophobic-attacks-on-foreign-traders"
 date: "2026-09-07T20:20:40Z"
 dateModified: "2026-09-07T20:20:40Z"
 focusKeyword: "state warns against xenophobic attacks foreign"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/state-warns-against-xenophobic-attacks-on-foreign-traders"
 ---
-
 Government Spokesperson Charles Owino ordered security agencies on Monday morning, September 07, 2026, at 10:00 AM EAT in Nairobi, to arrest individuals harassing foreign informal traders. The directive followed violent incidents across Nairobi County after a state ban on foreign hawkers took effect today.
 
 **What we know**

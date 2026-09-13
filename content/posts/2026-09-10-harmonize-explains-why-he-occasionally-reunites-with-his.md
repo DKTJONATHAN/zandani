@@ -1,19 +1,18 @@
 ---
 title: "Harmonize Explains Why He Occasionally Reunites With His"
 slug: "harmonize-explains-why-he-occasionally-reunites-with-his"
-description: "harmonize explains why occasionally reunites with: Tanzanian recording artist Harmonize has addressed the nature of his past romantic relationships, citing a"
+description: "Tanzanian recording artist Harmonize has addressed the nature of his past romantic relationships, citing a preference for the comfort of familiarity when."
 excerpt: "Tanzanian recording artist Harmonize has addressed the nature of his past romantic relationships, citing a preference for the comfort of familiarity when."
 author: "Martin Kihara"
 image: "https://i.ibb.co/ynSmpq2X/23318b400e39.webp"
 category: "Showbiz"
 tags: ["showbiz", "entertainment", "kenya"]
-canonical: "https://zandani.co.ke/article/harmonize-explains-why-he-occasionally-reunites-with-his"
 date: "2026-09-10T20:01:57Z"
 dateModified: "2026-09-10T20:01:57Z"
 focusKeyword: "harmonize explains why occasionally reunites with"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/harmonize-explains-why-he-occasionally-reunites-with-his"
 ---
-
 Tanzanian recording artist Harmonize has addressed the nature of his past romantic relationships, citing a preference for the comfort of familiarity when discussing his history of high-profile reunions with former partners.
 
 **What we know:**
