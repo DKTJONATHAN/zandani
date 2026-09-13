@@ -1,19 +1,18 @@
 ---
 title: "Health Ministry Prepares 18 High-Risk Counties for El Niño"
 slug: "health-ministry-prepares-18-high-risk-counties-for-el-ni-o"
-description: "health ministry prepares high risk counties: What we know - Public Health Principal Secretary Mary Muthoni has announced a nationwide El Niño response plan"
+description: "What we know - Public Health Principal Secretary Mary Muthoni has announced a nationwide El Niño response plan targeting 18 high-risk counties across."
 excerpt: "What we know - Public Health Principal Secretary Mary Muthoni has announced a nationwide El Niño response plan targeting 18 high-risk counties across."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/rains_1.jpg.webp?itok=JrFXound"
 category: "News"
 tags: ["health ministry prepares 18 high risk counties for el ni o", "news", "kenya news"]
-canonical: "https://zandani.co.ke/article/health-ministry-prepares-18-high-risk-counties-for-el-ni-o"
 date: "2026-09-09T09:27:48Z"
 dateModified: "2026-09-09T09:27:48Z"
 focusKeyword: "health ministry prepares high risk counties"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/health-ministry-prepares-18-high-risk-counties-for-el-ni-o"
 ---
-
 ### What we know
 
 - Public Health Principal Secretary Mary Muthoni has announced a nationwide El Niño response plan targeting 18 high-risk counties across Kenya. - * Public Health PS Mary Muthoni confirmed 18 counties face imminent flood and health risks. - Addressing health partners during planning for the Kenya Public Health International Conference, PS Muthoni explained that the ministry is coordinating with donor agencies to stock temporary medical structures, water purification systems, and basic drugs. - Data from the Interior Ministry singles out urban estates in Nairobi along clogged riverways, alongside coastal zones in Kwale, Kilifi, Lamu, Tana River, and Mombasa.

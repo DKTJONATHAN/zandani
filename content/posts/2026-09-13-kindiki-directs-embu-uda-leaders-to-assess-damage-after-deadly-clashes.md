@@ -1,19 +1,18 @@
 ---
 title: "Kindiki Directs Embu UDA Leaders to Assess Damage After Deadly Clashes"
 slug: "kindiki-directs-embu-uda-leaders-to-assess-damage-after-deadly-clashes"
-description: "kindiki directs embu uda leaders assess: Deputy President Kithure Kindiki has ordered United Democratic Alliance officials in Embu to conduct an immediate"
+description: "Deputy President Kithure Kindiki has ordered United Democratic Alliance officials in Embu to conduct an immediate audit of property destroyed during."
 excerpt: "Deputy President Kithure Kindiki has ordered United Democratic Alliance officials in Embu to conduct an immediate audit of property destroyed during."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/kindiki-11.jpg.webp?itok=NGrOJS5j"
 category: "News"
 tags: ["kindiki directs embu uda leaders to assess damage after deadly clashes", "news", "kenya news"]
-canonical: "https://zandani.co.ke/article/kindiki-directs-embu-uda-leaders-to-assess-damage-after-deadly-clashes"
 date: "2026-09-12T21:27:55Z"
 dateModified: "2026-09-12T21:27:55Z"
 focusKeyword: "kindiki directs embu uda leaders assess"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/kindiki-directs-embu-uda-leaders-to-assess-damage-after-deadly-clashes"
 ---
-
 Deputy President Kithure Kindiki has ordered United Democratic Alliance officials in Embu to conduct an immediate audit of property destroyed during chaotic scenes at Nembure Stadium on Saturday, where running battles forced his emergency evacuation and left a trail of smouldering vehicles.
 
 ### What we know
