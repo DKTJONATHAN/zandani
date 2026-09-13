@@ -1,19 +1,18 @@
 ---
 title: "CUBE Studio Brings Hollywood-Grade Virtual Production Technology to Nairobi"
 slug: "cube-studio-brings-hollywood-grade-virtual-production-technology-to-na"
-description: "cube studio brings hollywood grade virtual: NAIROBI, Kenya — Sunday, September 13, 2026 — Virtual production firm CUBE Studio has officially launched its"
+description: "NAIROBI, Kenya — Sunday, September 13, 2026 — Virtual production firm CUBE Studio has officially launched its Nairobi operations, marking a significant."
 excerpt: "NAIROBI, Kenya — Sunday, September 13, 2026 — Virtual production firm CUBE Studio has officially launched its Nairobi operations, marking a significant."
 author: "Martin Kihara"
 image: "https://i.ibb.co/TD0gDPRC/42bb2047884e.webp"
 category: "Showbiz"
 tags: ["showbiz", "entertainment", "kenya"]
-canonical: "https://zandani.co.ke/article/cube-studio-brings-hollywood-grade-virtual-production-technology-to-na"
 date: "2026-09-13T17:03:46Z"
 dateModified: "2026-09-13T17:03:46Z"
 focusKeyword: "cube studio brings hollywood grade virtual"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/cube-studio-brings-hollywood-grade-virtual-production-technology-to-na"
 ---
-
 **NAIROBI, Kenya - Sunday, September 13, 2026** - Virtual production firm CUBE Studio has officially launched its Nairobi operations, marking a significant push to bring high-end LED volume technology to the local creative sector. Co-founded by James Hakesley and Kenyan-born Roy Kimani, the venture aims to provide local storytellers with real-time digital rendering tools previously exclusive to major international film franchises like Lucasfilm’s *The Mandalorian*.
 
 The expansion follows the company’s success in markets across the UK, the Middle East, and Pakistan, where it has executed over 150 projects for clients including FIFA, the Za Ndani, and major corporate entities. The studio utilizes LED walls to generate immersive, interactive environments on set, eliminating the need for traditional post-production green screens.
