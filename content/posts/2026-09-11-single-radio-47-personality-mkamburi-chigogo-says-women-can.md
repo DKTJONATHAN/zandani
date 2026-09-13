@@ -1,18 +1,19 @@
 ---
 title: "Single Radio 47 personality, Mkamburi Chigogo says women can"
 slug: "single-radio-47-personality-mkamburi-chigogo-says-women-can"
-description: "NAIROBI — Radio 47 personality Mkamburi Chigogo has sparked fresh debate regarding marital expectations, asserting that excessive verbal communication by."
+description: "single radio personality mkamburi chigogo says: NAIROBI — Radio 47 personality Mkamburi Chigogo has sparked fresh debate regarding marital expectations,"
 excerpt: "NAIROBI — Radio 47 personality Mkamburi Chigogo has sparked fresh debate regarding marital expectations, asserting that excessive verbal communication by."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/cSbVPdB8/1c156ba2e150.jpg"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
+canonical: "https://zandani.co.ke/article/single-radio-47-personality-mkamburi-chigogo-says-women-can"
 date: "2026-09-11T17:02:11Z"
 dateModified: "2026-09-11T17:02:11Z"
 focusKeyword: "single radio personality mkamburi chigogo says"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/single-radio-47-personality-mkamburi-chigogo-says-women-can"
 ---
+
 NAIROBI - Radio 47 personality Mkamburi Chigogo has sparked fresh debate regarding marital expectations, asserting that excessive verbal communication by men is a primary factor that may lead women to terminate relationships.
 
 In remarks addressing personality dynamics within partnerships, the presenter suggested that men who dominate conversations in private settings risk losing their partners to others who exhibit more reserved temperaments.

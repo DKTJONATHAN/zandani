@@ -1,18 +1,19 @@
 ---
 title: "Hata Unikatae': Chuka Kenyan Prince Refuses to Give Up on Sheryl"
 slug: "hata-unikatae-chuka-kenyan-prince-refuses-to-give-up-on-sheryl"
-description: "NAIROBI, September 11, 2026 — Social media personality Chuka Kenyan Prince has reignited public discourse surrounding his pursuit of influencer Sheryl."
+description: "hata unikatae' chuka kenyan prince refuses: NAIROBI, September 11, 2026 — Social media personality Chuka Kenyan Prince has reignited public discourse"
 excerpt: "NAIROBI, September 11, 2026 — Social media personality Chuka Kenyan Prince has reignited public discourse surrounding his pursuit of influencer Sheryl."
 author: "Martin Kihara"
 image: "https://i.ibb.co/GQ7JmG97/49489e3dcc77.webp"
 category: "Showbiz"
 tags: ["showbiz", "entertainment", "kenya"]
+canonical: "https://zandani.co.ke/article/hata-unikatae-chuka-kenyan-prince-refuses-to-give-up-on-sheryl"
 date: "2026-09-10T22:46:04Z"
 dateModified: "2026-09-10T22:46:04Z"
 focusKeyword: "hata unikatae' chuka kenyan prince refuses"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/hata-unikatae-chuka-kenyan-prince-refuses-to-give-up-on-sheryl"
 ---
+
 **NAIROBI, September 11, 2026** - Social media personality Chuka Kenyan Prince has reignited public discourse surrounding his pursuit of influencer Sheryl Gabriella, releasing a video in which he reasserts his romantic interest despite her previously stated refusal.
 
 **What we know:**
