@@ -1,18 +1,19 @@
 ---
 title: "Moja Expressway Closes Section of Westlands Exit Overpass for"
 slug: "moja-expressway-closes-section-of-westlands-exit-overpass-for"
-description: "Moja Expressway Company has announced a 12-day partial closure of the Nairobi Expressway at the Westlands Exit beginning Tuesday, September 8, 2026, to."
+description: "moja expressway closes section westlands exit: Moja Expressway Company has announced a 12-day partial closure of the Nairobi Expressway at the Westlands Exit"
 excerpt: "Moja Expressway Company has announced a 12-day partial closure of the Nairobi Expressway at the Westlands Exit beginning Tuesday, September 8, 2026, to."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/the-westlands-toll-station-of-the-nairobi-expressway.jpg.webp?itok=e-fa_YEC"
 category: "News"
 tags: ["moja expressway closes section of westlands exit overpass for", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/moja-expressway-closes-section-of-westlands-exit-overpass-for"
 date: "2026-09-07T10:14:33Z"
 dateModified: "2026-09-07T10:14:33Z"
 focusKeyword: "moja expressway closes section westlands exit"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/moja-expressway-closes-section-of-westlands-exit-overpass-for"
 ---
+
 Moja Expressway Company has announced a 12-day partial closure of the Nairobi Expressway at the Westlands Exit beginning Tuesday, September 8, 2026, to conduct structural maintenance and civil works along the elevated overpass deck.
 
 ### What we know
