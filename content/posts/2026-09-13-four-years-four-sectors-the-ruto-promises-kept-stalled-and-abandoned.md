@@ -1,20 +1,19 @@
 ---
 title: "Four Years, Four Sectors: The Ruto Promises Kept, Stalled and Abandoned"
 slug: "four-years-four-sectors-the-ruto-promises-kept-stalled-and-abandoned"
-description: "Exactly four years after President William Ruto took the oath of office at Kasarani on September 13, 2022, his administration's expansive policy blueprint."
+description: "four years four sectors the ruto: Exactly four years after President William Ruto took the oath of office at Kasarani on September 13, 2022, his"
 excerpt: "Exactly four years after President William Ruto took the oath of office at Kasarani on September 13, 2022, his administration's expansive policy blueprint."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/ruto-at-4.jpg.webp?itok=9e6mFg6y"
 category: "News"
+tags: ["four years four sectors the ruto promises kept stalled and abandoned", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/four-years-four-sectors-the-ruto-promises-kept-stalled-and-abandoned"
 date: "2026-09-13T20:50:20Z"
 dateModified: "2026-09-13T20:50:20Z"
 focusKeyword: "four years four sectors the ruto"
 schema: "NewsArticle"
-county: "Nairobi"
-readTime: "3"
-source: "https://kenyans.co.ke/news/127018-four-years-four-sectors-ruto-promises-kept-stalled-and-abandoned"
-stylePreset: "Desk Take"
 ---
+
 Exactly four years after President William Ruto took the oath of office at Kasarani on September 13, 2022, his administration's expansive policy blueprint finds itself suspended between tangible sectoral gains and an expanding register of postponed deadlines.
 
 ### What we know
