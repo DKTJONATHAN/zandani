@@ -1,18 +1,19 @@
 ---
 title: "No ban on foreign traders: Kenya explains new business and"
 slug: "no-ban-on-foreign-traders-kenya-explains-new-business-and"
-description: "Nairobi, September 11, 2026 — The State House has officially pivoted to a policy of strict regulatory compliance regarding foreign traders, effectively."
+description: "ban foreign traders kenya explains new: Nairobi, September 11, 2026 — The State House has officially pivoted to a policy of strict regulatory compliance"
 excerpt: "Nairobi, September 11, 2026 — The State House has officially pivoted to a policy of strict regulatory compliance regarding foreign traders, effectively."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/tTJPLwhc/2028afcd7463.jpg"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
+canonical: "https://zandani.co.ke/article/no-ban-on-foreign-traders-kenya-explains-new-business-and"
 date: "2026-09-11T08:01:05Z"
 dateModified: "2026-09-11T08:01:05Z"
 focusKeyword: "ban foreign traders kenya explains new"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/no-ban-on-foreign-traders-kenya-explains-new-business-and"
 ---
+
 Nairobi, September 11, 2026 - The State House has officially pivoted to a policy of strict regulatory compliance regarding foreign traders, effectively quashing rumors of a blanket expulsion of non-Kenyan business owners.
 
 The directive, issued jointly by Prime Cabinet Secretary Musalia Mudavadi and Foreign Affairs Principal Secretary Korir Sing’oei, establishes that while Kenya remains an open market, all foreign nationals-including East African Community (EAC) citizens-must now operate within a rigid legal framework. The government maintains that the issue is one of administrative legitimacy rather than nationality, focusing on the mandatory requirement for valid residency permits, formal business registration, and sector-specific licenses.
