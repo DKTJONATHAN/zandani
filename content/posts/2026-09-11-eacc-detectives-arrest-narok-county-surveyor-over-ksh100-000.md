@@ -1,19 +1,18 @@
 ---
 title: "EACC Detectives Arrest Narok County Surveyor Over Ksh100,000"
 slug: "eacc-detectives-arrest-narok-county-surveyor-over-ksh100-000"
-description: "eacc detectives arrest narok county surveyor: Detectives from the Ethics and Anti-Corruption Commission (EACC) on Friday pounced on a Narok County surveyor"
+description: "Detectives from the Ethics and Anti-Corruption Commission (EACC) on Friday pounced on a Narok County surveyor inside her office, arresting her as she."
 excerpt: "Detectives from the Ethics and Anti-Corruption Commission (EACC) on Friday pounced on a Narok County surveyor inside her office, arresting her as she."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/a%20man%20with%20handcuffs.jpg.webp?h=43b45004&itok=9raehVBf"
 category: "News"
 tags: ["eacc detectives arrest narok county surveyor over ksh100 000", "news", "kenya news"]
-canonical: "https://zandani.co.ke/article/eacc-detectives-arrest-narok-county-surveyor-over-ksh100-000"
 date: "2026-09-11T12:50:04Z"
 dateModified: "2026-09-11T12:50:04Z"
 focusKeyword: "eacc detectives arrest narok county surveyor"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/eacc-detectives-arrest-narok-county-surveyor-over-ksh100-000"
 ---
-
 Detectives from the Ethics and Anti-Corruption Commission (EACC) on Friday pounced on a Narok County surveyor inside her office, arresting her as she pocketed a Ksh50,000 cash instalment to mark boundary beacons on private land.
 
 ### What we know

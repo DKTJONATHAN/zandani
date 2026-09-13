@@ -1,19 +1,18 @@
 ---
 title: "Eric Omondi Arrested in Nairobi Over 8-County Referendum"
 slug: "eric-omondi-arrested-nairobi-referendum-signatures"
-description: "Eric Omondi Arrested in Nairobi Over 8-County Referendum: Eric Omondi Arrested in Nairobi Over 8 County Referendum Signature Drive Comedian turned activist"
+description: "Eric Omondi Arrested in Nairobi Over 8 County Referendum Signature Drive Comedian turned activist Eric Omondi was arrested by plainclothes p"
 excerpt: "Eric Omondi Arrested in Nairobi Over 8 County Referendum Signature Drive Comedian turned activist Eric Omondi was arrested by plainclothes p"
 author: "Celestine Nzioka"
 image: "https://i.ibb.co/5WBW06PT/5b49823b4fe9.webp"
 category: "News"
 tags: ["Eric Omondi", "Kenya Referendum", "Nairobi CBD", "Police Arrest", "Devolution Kenya"]
-canonical: "https://zandani.co.ke/article/eric-omondi-arrested-nairobi-referendum-signatures"
 date: "2026-09-07T06:57:06Z"
 dateModified: "2026-09-07T06:57:06Z"
 focusKeyword: "Eric Omondi Arrested in Nairobi Over 8-County Referendum"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/eric-omondi-arrested-nairobi-referendum-signatures"
 ---
-
 Comedian-turned-activist Eric Omondi was arrested by plainclothes police officers outside the Nairobi National Archives on Monday morning while collecting citizen signatures for a constitutional referendum petition aimed at downsizing Kenya's 47 counties to eight.
 
 ### What we know

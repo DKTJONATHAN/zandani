@@ -1,19 +1,18 @@
 ---
 title: "Why Airport Ground Vehicles Are Painted Yellow"
 slug: "why-airport-vehicles-are-painted-yellow"
-description: "Why Airport Ground Vehicles Are Painted Yellow: Airport Operators and Regulators Standardise Yellow Fleet Colouring to Prevent Apron Collisions Aviation"
+description: "Airport Operators and Regulators Standardise Yellow Fleet Colouring to Prevent Apron Collisions Aviation authorities and aerodrome operators"
 excerpt: "Airport Operators and Regulators Standardise Yellow Fleet Colouring to Prevent Apron Collisions Aviation authorities and aerodrome operators"
 author: "Celestine Nzioka"
 image: "https://i.ibb.co/ynhZFt2b/0ba1a7f01554.webp"
 category: "News"
 tags: ["Aviation Safety", "Airport Operations", "ICAO", "Kenya Aviation", "Runway Safety"]
-canonical: "https://zandani.co.ke/article/why-airport-vehicles-are-painted-yellow"
 date: "2026-09-06T22:51:39Z"
 dateModified: "2026-09-06T22:51:39Z"
 focusKeyword: "Why Airport Ground Vehicles Are Painted Yellow"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/why-airport-vehicles-are-painted-yellow"
 ---
-
 Aviation authorities and aerodrome operators across Kenya and global transit hubs are enforcing strict high-visibility yellow colour schemes and flashing amber beacons on ground service fleets to minimise collision hazards around active aircraft.Ground vehicles, including baggage tugs, fuel bowsers, belt loaders, and pushback tractors, operate in close quarters with commercial airliners on busy airport aprons. These zones present constant operational hazards where poor weather, heavy rainfall, fuel exhaust haze, and nighttime conditions can obscure ground equipment from the sightlines of taxiing pilots and control tower personnel.
 
 ### International Civil Aviation Organisation Guidelines

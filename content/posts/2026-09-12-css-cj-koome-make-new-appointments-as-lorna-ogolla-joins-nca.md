@@ -1,19 +1,18 @@
 ---
 title: "CSs, CJ Koome Make New Appointments as Lorna Ogolla Joins NCA"
 slug: "css-cj-koome-make-new-appointments-as-lorna-ogolla-joins-nca"
-description: "css koome make new appointments lorna: Interior Cabinet Secretary Kipchumba Murkomen alongside fellow Cabinet Secretaries and Chief Justice Martha Koome has"
+description: "Interior Cabinet Secretary Kipchumba Murkomen alongside fellow Cabinet Secretaries and Chief Justice Martha Koome has handed technocrats, professionals."
 excerpt: "Interior Cabinet Secretary Kipchumba Murkomen alongside fellow Cabinet Secretaries and Chief Justice Martha Koome has handed technocrats, professionals."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/collage-of-lorna-ogolla-omondi-and-late-cdf-francis-omondi-ogolla.jpg.webp?itok=8UOmjeEu"
 category: "News"
 tags: ["css cj koome make new appointments as lorna ogolla joins nca", "news", "kenya news"]
-canonical: "https://zandani.co.ke/article/css-cj-koome-make-new-appointments-as-lorna-ogolla-joins-nca"
 date: "2026-09-12T19:21:09Z"
 dateModified: "2026-09-12T19:21:09Z"
 focusKeyword: "css koome make new appointments lorna"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/css-cj-koome-make-new-appointments-as-lorna-ogolla-joins-nca"
 ---
-
 Interior Cabinet Secretary Kipchumba Murkomen alongside fellow Cabinet Secretaries and Chief Justice Martha Koome has handed technocrats, professionals, and strategic figures influential state agency roles, benefiting vital sectors spanning national cybersecurity, energy transmission, and university governance.
 
 ### What we know
