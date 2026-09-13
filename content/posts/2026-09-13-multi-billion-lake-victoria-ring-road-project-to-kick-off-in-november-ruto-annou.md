@@ -1,20 +1,19 @@
 ---
 title: "Multi-Billion Lake Victoria Ring Road Project to Kick off in November, Ruto Announces"
 slug: "multi-billion-lake-victoria-ring-road-project-to-kick-off-in-november"
-description: "President William Ruto has set November 2026 for the groundbreaking of the Ksh60 billion first phase of the Lake Victoria Ring Road, placing a firm."
+description: "multi billion lake victoria ring road: President William Ruto has set November 2026 for the groundbreaking of the Ksh60 billion first phase of the Lake"
 excerpt: "President William Ruto has set November 2026 for the groundbreaking of the Ksh60 billion first phase of the Lake Victoria Ring Road, placing a firm."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/the%20nairobi-kisumu%20highway%20at%20nyamasaria..jpg.webp?itok=PKyahfin"
 category: "News"
+tags: ["multi billion lake victoria ring road project to kick off in november", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/multi-billion-lake-victoria-ring-road-project-to-kick-off-in-november"
 date: "2026-09-13T17:25:26Z"
 dateModified: "2026-09-13T17:25:26Z"
 focusKeyword: "multi billion lake victoria ring road"
 schema: "NewsArticle"
-county: "Kisumu"
-readTime: "3"
-source: "https://kenyans.co.ke/news/127031-multi-billion-lake-victoria-ring-road-project-kick-november-ruto-announces"
-stylePreset: "Desk Take"
 ---
+
 President William Ruto has set November 2026 for the groundbreaking of the Ksh60 billion first phase of the Lake Victoria Ring Road, placing a firm timeline on a 612-kilometre littoral corridor that has lingered in state planning pipelines for fifteen years.
 
 ### What we know
