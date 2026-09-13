@@ -1,18 +1,19 @@
 ---
 title: "Shimoni Fish Port shifts local economy beyond artisanal fishing"
 slug: "shimoni-fish-port-shifts-local-economy-beyond-artisanal-fishing"
-description: "What we know - Asman Ambeta and his fellow youth in Shimoni are pivoting from traditional, small-scale fishing toward the formal blue economy following."
+description: "shimoni fish port shifts local economy: What we know - Asman Ambeta and his fellow youth in Shimoni are pivoting from traditional, small-scale fishing toward"
 excerpt: "What we know - Asman Ambeta and his fellow youth in Shimoni are pivoting from traditional, small-scale fishing toward the formal blue economy following."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/SXCBkVZs/43354248c0d0.jpg"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
+canonical: "https://zandani.co.ke/article/shimoni-fish-port-shifts-local-economy-beyond-artisanal-fishing"
 date: "2026-09-09T19:16:22Z"
 dateModified: "2026-09-09T19:16:22Z"
 focusKeyword: "shimoni fish port shifts local economy"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/shimoni-fish-port-shifts-local-economy-beyond-artisanal-fishing"
 ---
+
 Asman Ambeta and his fellow youth in Shimoni are pivoting from traditional, small-scale fishing toward the formal blue economy following the completion of the Ksh2.6 billion Shimoni Fish Port. The facility, finalized by the Kenya Ports Authority in 2025, features a 75-metre jetty and advanced cold storage designed to process 50,000 tonnes of fish annually.
 
 The port infrastructure includes an ice-making plant and reefer stations intended to stabilize prices and reduce post-harvest losses. For years, fishermen in the region struggled with decaying catches and limited access to lucrative export markets. The new installation aims to retain the value of fish processing within the local economy rather than exporting raw products to external hubs.

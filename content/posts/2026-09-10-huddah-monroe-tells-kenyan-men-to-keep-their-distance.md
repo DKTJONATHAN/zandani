@@ -1,18 +1,19 @@
 ---
 title: "Huddah Monroe tells Kenyan men to keep their distance"
 slug: "huddah-monroe-tells-kenyan-men-to-keep-their-distance"
-description: "What we know - Socialite and entrepreneur Huddah Monroe has issued a firm directive to men approaching her in public spaces. - Huddah claimed that."
+description: "huddah monroe tells kenyan men keep: What we know - Socialite and entrepreneur Huddah Monroe has issued a firm directive to men approaching her in public"
 excerpt: "What we know - Socialite and entrepreneur Huddah Monroe has issued a firm directive to men approaching her in public spaces. - Huddah claimed that."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/zWsPT8bX/a5c3f027fb5d.jpg"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
+canonical: "https://zandani.co.ke/article/huddah-monroe-tells-kenyan-men-to-keep-their-distance"
 date: "2026-09-09T22:30:45Z"
 dateModified: "2026-09-09T22:30:45Z"
 focusKeyword: "huddah monroe tells kenyan men keep"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/huddah-monroe-tells-kenyan-men-to-keep-their-distance"
 ---
+
 Socialite and entrepreneur Huddah Monroe has issued a firm directive to men approaching her in public spaces. In a video posted to her social media platforms this week, the businesswoman stated she no longer wishes to be accosted by strangers. She cited a persistent lack of respect and inappropriate comments as her primary motivation for demanding personal space.
 
 Huddah claimed that interactions with men in Nairobi often lack the basic formalities she has grown accustomed to while traveling abroad. She described a preference for environments where men seek explicit permission before initiating a conversation. According to her, this buffer allows a woman the agency to refuse engagement before an interaction turns sour.

@@ -1,18 +1,19 @@
 ---
 title: "Why Uganda Asks Citizens in Kenya to Comply With 90-Day Order"
 slug: "why-uganda-asks-citizens-in-kenya-to-comply-with-90-day-order"
-description: "State House is asking the impossible of the street vendor, and the result will not be more tax revenue, but more hungry families on the streets of Nairobi."
+description: "why uganda asks citizens kenya comply: State House is asking the impossible of the street vendor, and the result will not be more tax revenue, but more hungry"
 excerpt: "State House is asking the impossible of the street vendor, and the result will not be more tax revenue, but more hungry families on the streets of Nairobi."
 author: "Jaj"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/museveni_ruto_2023.jpg.webp?itok=ek9Ro37p"
 category: "Opinions"
 tags: ["why uganda asks citizens in kenya to comply with 90 day order", "opinions", "kenya news"]
+canonical: "https://zandani.co.ke/article/why-uganda-asks-citizens-in-kenya-to-comply-with-90-day-order"
 date: "2026-09-10T10:39:14Z"
 dateModified: "2026-09-10T10:39:14Z"
 focusKeyword: "why uganda asks citizens kenya comply"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/why-uganda-asks-citizens-in-kenya-to-comply-with-90-day-order"
 ---
+
 State House is asking the impossible of the street vendor, and the result will not be more tax revenue, but more hungry families on the streets of Nairobi.
 
 Hussein Mohamed, the spokesperson at the House on the Hill, has issued a 90-day ultimatum for all foreign nationals to formalise their stay and their businesses. Uganda’s First Deputy Prime Minister Rebecca Kadaga is now playing the good soldier. She is telling her people to head to the High Commission on Riverside Drive to get their papers in order. She says it is about sovereignty and the rule of law. But look at the ground. Look at the reality of how trade actually happens in this city.
