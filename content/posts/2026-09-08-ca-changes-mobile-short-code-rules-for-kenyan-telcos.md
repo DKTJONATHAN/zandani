@@ -1,18 +1,19 @@
 ---
 title: "CA Changes Mobile Short Code Rules for Kenyan Telcos"
 slug: "ca-changes-mobile-short-code-rules-for-kenyan-telcos"
-description: "The Communications Authority of Kenya issued a fresh regulatory directive in Nairobi on Tuesday, September 8, 2026, at 9:00 AM EAT. The regulator changed."
+description: "changes mobile short code rules for: The Communications Authority of Kenya issued a fresh regulatory directive in Nairobi on Tuesday, September 8, 2026, at"
 excerpt: "The Communications Authority of Kenya issued a fresh regulatory directive in Nairobi on Tuesday, September 8, 2026, at 9:00 AM EAT. The regulator changed."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/phone_2.jpg.webp?itok=px-0v_zc"
 category: "News"
 tags: ["ca changes mobile short code rules for kenyan telcos", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/ca-changes-mobile-short-code-rules-for-kenyan-telcos"
 date: "2026-09-08T08:12:13Z"
 dateModified: "2026-09-08T08:12:13Z"
 focusKeyword: "changes mobile short code rules for"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/ca-changes-mobile-short-code-rules-for-kenyan-telcos"
 ---
+
 The Communications Authority of Kenya issued a fresh regulatory directive in Nairobi on Tuesday, September 8, 2026, at 9:00 AM EAT. The regulator changed how telecommunications short codes are allocated across the country. Mobile numbers for special services will now depend on the service offered rather than the mobile network operator hosting them.
 
 What we know:
