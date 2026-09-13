@@ -1,20 +1,19 @@
 ---
 title: "Sifuna’s Linda Mwananchi Rally Draws Crowds as Nairobi Mobilisation Begins"
 slug: "sifuna-s-linda-mwananchi-rally-draws-crowds-as-nairobi-mobilisation-be"
-description: "Nairobi Senator Edwin Sifuna is leading a city-wide mobilisation tour today, Sunday, September 13, 2026, under the Linda Mwananchi movement, drawing large."
+description: "sifuna linda mwananchi rally draws crowds: Nairobi Senator Edwin Sifuna is leading a city-wide mobilisation tour today, Sunday, September 13, 2026, under the"
 excerpt: "Nairobi Senator Edwin Sifuna is leading a city-wide mobilisation tour today, Sunday, September 13, 2026, under the Linda Mwananchi movement, drawing large."
 author: "Wanjiku Kuria"
-authorUrl: "https://zandani.co.ke/author/wanjiku-kuria"
 image: "https://i.ibb.co/N2Nqg2y4/d76c48dd3422.png"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
+canonical: "https://zandani.co.ke/article/sifuna-s-linda-mwananchi-rally-draws-crowds-as-nairobi-mobilisation-be"
 date: "2026-09-13T08:15:49Z"
 dateModified: "2026-09-13T08:15:49Z"
 focusKeyword: "sifuna linda mwananchi rally draws crowds"
 schema: "NewsArticle"
-county: "Nairobi"
-stylePreset: "Hard Showbiz Lead"
 ---
+
 Nairobi Senator Edwin Sifuna is leading a city-wide mobilisation tour today, Sunday, September 13, 2026, under the Linda Mwananchi movement, drawing large crowds to the Central Business District and surrounding markets.
 
 Supporters began gathering in the city centre as early as 8:00 a.m., congregating near Tom Mboya Street and outside All Saints Cathedral. The day’s schedule commenced with a church service at the cathedral, followed by a planned procession through Marikiti, Gikomba, and Burma markets. The movement is expected to traverse Stage 17, B Centre, and Manyanja, eventually proceeding along Jogoo Road to conclude with a rally at Jacaranda Grounds at 2:00 p.m.

@@ -1,20 +1,19 @@
 ---
 title: "Huduma Kenya Clarifies ID Registration Rules for Kenyans Without Birth Certificates"
 slug: "huduma-kenya-clarifies-id-registration-rules-for-kenyans-without-birth"
-description: "Huduma Kenya has slammed the door on a decades-old administrative workaround that allowed undocumented Kenyans to acquire national identity cards without."
+description: "huduma kenya clarifies registration rules for: Huduma Kenya has slammed the door on a decades-old administrative workaround that allowed undocumented Kenyans"
 excerpt: "Huduma Kenya has slammed the door on a decades-old administrative workaround that allowed undocumented Kenyans to acquire national identity cards without."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/birth-certificates.jpg.webp?itok=Y1k5CGvv"
 category: "News"
+tags: ["huduma kenya clarifies id registration rules for kenyans without birth", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/huduma-kenya-clarifies-id-registration-rules-for-kenyans-without-birth"
 date: "2026-09-13T08:16:53Z"
 dateModified: "2026-09-13T08:16:53Z"
 focusKeyword: "huduma kenya clarifies registration rules for"
 schema: "NewsArticle"
-county: "Nairobi"
-readTime: "3"
-source: "https://kenyans.co.ke/news/127015-huduma-kenya-clarifies-id-registration-rules-kenyans-without-birth-certificates"
-stylePreset: "Desk Take"
 ---
+
 Huduma Kenya has slammed the door on a decades-old administrative workaround that allowed undocumented Kenyans to acquire national identity cards without primary birth records, declaring the birth certificate an absolute prerequisite for citizen registration.
 
 ### What we know
