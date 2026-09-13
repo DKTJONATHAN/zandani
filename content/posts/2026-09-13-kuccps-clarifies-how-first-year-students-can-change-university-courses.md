@@ -1,18 +1,19 @@
 ---
 title: "KUCCPS Clarifies How First-Year Students Can Change University Courses"
 slug: "kuccps-clarifies-how-first-year-students-can-change-university-courses"
-description: "The Kenya Universities and Colleges Central Placement Service (KUCCPS) declared on Sunday that individual universities retain exclusive authority over."
+description: "kuccps clarifies how first year students: The Kenya Universities and Colleges Central Placement Service (KUCCPS) declared on Sunday that individual"
 excerpt: "The Kenya Universities and Colleges Central Placement Service (KUCCPS) declared on Sunday that individual universities retain exclusive authority over."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/kuccps%20ceo%20march.jpg.webp?itok=VfTfgNWP"
 category: "News"
 tags: ["kuccps clarifies how first year students can change university courses", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/kuccps-clarifies-how-first-year-students-can-change-university-courses"
 date: "2026-09-13T13:48:42Z"
 dateModified: "2026-09-13T13:48:42Z"
 focusKeyword: "kuccps clarifies how first year students"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/kuccps-clarifies-how-first-year-students-can-change-university-courses"
 ---
+
 The Kenya Universities and Colleges Central Placement Service (KUCCPS) declared on Sunday that individual universities retain exclusive authority over internal course adjustments, handing immediate administrative relief to thousands of newly admitted first-year students eager to realign their academic paths without central agency red tape.
 
 ### What we know
