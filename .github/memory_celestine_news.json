@@ -540,10 +540,10 @@
     "d18ee3e507d84ac35ff246875aa03b6e",
     "95c485055775aae1e2d966bc97a6e473",
     "9a56f3e07c064b68c7ce83081ae35916",
-    "ce566298c2191bd99aeef772d01ea15a"
+    "ce566298c2191bd99aeef772d01ea15a",
+    "47c8eaf1da71bd464747568b622c1e3d"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -572,7 +572,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -697,7 +698,8 @@
     "https://kenyans.co.ke/news/127007-css-cj-koome-make-new-appointments-lorna-ogolla-joins-nca",
     "https://kenyans.co.ke/news/127006-kindiki-directs-embu-uda-leaders-assess-damage-after-deadly-clashes",
     "https://kenyans.co.ke/news/127010-nps-warns-tough-action-after-violence-kindikis-embu-meeting",
-    "https://kenyans.co.ke/news/127015-huduma-kenya-clarifies-id-registration-rules-kenyans-without-birth-certificates"
+    "https://kenyans.co.ke/news/127015-huduma-kenya-clarifies-id-registration-rules-kenyans-without-birth-certificates",
+    "https://kenyans.co.ke/news/127017-wasreb-approves-new-water-tariffs-five-counties"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -744,7 +746,8 @@
     "css koome make appointments lorna ogolla joins nca",
     "kindiki directs embu uda leaders assess damage deadly clashes",
     "nps warns tough action violence kindiki embu meeting",
-    "huduma clarifies registration rules without birth certificates"
+    "huduma clarifies registration rules without birth certificates",
+    "wasreb approves water tariffs five counties"
   ],
   "topic_keys": [
     "news tracker",
