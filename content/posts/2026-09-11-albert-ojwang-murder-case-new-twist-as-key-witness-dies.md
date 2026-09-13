@@ -1,19 +1,18 @@
 ---
 title: "Albert Ojwang Murder Case: New Twist As Key Witness Dies"
 slug: "albert-ojwang-murder-case-new-twist-as-key-witness-dies"
-description: "albert ojwang murder case new twist: NAIROBI, September 11, 2026 — The high-profile murder trial of teacher Albert Ojwang faces a major procedural hurdle"
+description: "NAIROBI, September 11, 2026 — The high-profile murder trial of teacher Albert Ojwang faces a major procedural hurdle following the sudden death of."
 excerpt: "NAIROBI, September 11, 2026 — The high-profile murder trial of teacher Albert Ojwang faces a major procedural hurdle following the sudden death of."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/PZ6hhdRB/644e8bcf9016.jpg"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
-canonical: "https://zandani.co.ke/article/albert-ojwang-murder-case-new-twist-as-key-witness-dies"
 date: "2026-09-10T22:31:31Z"
 dateModified: "2026-09-10T22:31:31Z"
 focusKeyword: "albert ojwang murder case new twist"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/albert-ojwang-murder-case-new-twist-as-key-witness-dies"
 ---
-
 NAIROBI, September 11, 2026 - The high-profile murder trial of teacher Albert Ojwang faces a major procedural hurdle following the sudden death of Corporal Stephen Maina Nderitu, a key prosecution witness who was expected to provide testimony regarding the alleged tampering of evidence at the Central Police Station.
 
 Corporal Nderitu, who was under witness protection, collapsed at his Nairobi home shortly after completing his shift on Wednesday. A postmortem examination conducted on the officer attributed his death to a combination of acute ulcers, cardiac arrest, and depression. Burial arrangements for the late officer have been scheduled for September 18.

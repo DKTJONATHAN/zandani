@@ -1,19 +1,18 @@
 ---
 title: "Rose Muhando opens up about being forced out of family home after"
 slug: "rose-muhando-opens-up-about-being-forced-out-of-family-home-after"
-description: "rose muhando opens about being forced: Gospel artist Rose Muhando has publicly disclosed that she and her mother were evicted from their family home by"
+description: "Gospel artist Rose Muhando has publicly disclosed that she and her mother were evicted from their family home by relatives immediately following the death."
 excerpt: "Gospel artist Rose Muhando has publicly disclosed that she and her mother were evicted from their family home by relatives immediately following the death."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/5x1M91j0/dd76152ff869.jpg"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
-canonical: "https://zandani.co.ke/article/rose-muhando-opens-up-about-being-forced-out-of-family-home-after"
 date: "2026-09-11T09:42:04Z"
 dateModified: "2026-09-11T09:42:04Z"
 focusKeyword: "rose muhando opens about being forced"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/rose-muhando-opens-up-about-being-forced-out-of-family-home-after"
 ---
-
 Gospel artist Rose Muhando has publicly disclosed that she and her mother were evicted from their family home by relatives immediately following the death of her father.
 
 The singer, known for her prominent career in East African gospel music, detailed a period of extreme personal hardship during which she and her mother were rendered homeless. Muhando stated that following her father’s burial, relatives seized the property, forcing her mother to relocate with the family under dire conditions.
