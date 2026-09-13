@@ -1,19 +1,18 @@
 ---
 title: "State crackdown on foreign traders triggers anxiety"
 slug: "state-crackdown-on-foreign-traders-triggers-anxiety"
-description: "state crackdown foreign traders triggers anxiety: What we know - President William Ruto ordered the closure of small-scale businesses operated by foreign"
+description: "What we know - President William Ruto ordered the closure of small-scale businesses operated by foreign nationals on September 2, sparking a nationwide."
 excerpt: "What we know - President William Ruto ordered the closure of small-scale businesses operated by foreign nationals on September 2, sparking a nationwide."
 author: "Martin Kihara"
 image: "https://i.ibb.co/kL1X5vs/1de75f89b8bf.webp"
 category: "Showbiz"
 tags: ["showbiz", "entertainment", "kenya"]
-canonical: "https://zandani.co.ke/article/state-crackdown-on-foreign-traders-triggers-anxiety"
 date: "2026-09-09T18:51:18Z"
 dateModified: "2026-09-09T18:51:18Z"
 focusKeyword: "state crackdown foreign traders triggers anxiety"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/state-crackdown-on-foreign-traders-triggers-anxiety"
 ---
-
 President William Ruto ordered the closure of small-scale businesses operated by foreign nationals on September 2, sparking a nationwide scramble. The directive restricts informal retail and unskilled labor to Kenyan citizens. Following the announcement, hundreds of Burundian, Ugandan, and Rwandan traders began shuttering their kiosks and stalls, fearing immediate deportation.
 
 Tension peaked on Monday outside the Burundian embassy in Nairobi. Young men clutching suitcases formed long queues to seek clarity on their status. According to U.N. data, approximately 16,000 Burundian refugees reside in Kenya, with many operating coffee carts or second-hand clothing businesses in city estates. Munezero Farnke, an 18-year-old trader, expressed his confusion while waiting for travel documentation. He stated that he had lived in the country for three years and lacked the resources for an immediate return to Burundi.
