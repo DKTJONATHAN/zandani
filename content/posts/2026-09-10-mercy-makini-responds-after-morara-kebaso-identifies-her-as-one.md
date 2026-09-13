@@ -1,19 +1,18 @@
 ---
 title: "Mercy Makini responds after Morara Kebaso identifies her as one"
 slug: "mercy-makini-responds-after-morara-kebaso-identifies-her-as-one"
-description: "mercy makini responds after morara kebaso: NAIROBI — Mercy Makini, the estranged wife of activist and politician Morara Kebaso, has formally disassociated"
+description: "NAIROBI — Mercy Makini, the estranged wife of activist and politician Morara Kebaso, has formally disassociated herself from his public declarations of."
 excerpt: "NAIROBI — Mercy Makini, the estranged wife of activist and politician Morara Kebaso, has formally disassociated herself from his public declarations of."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/fV1Z5PQz/175b0e6e71cf.png"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
-canonical: "https://zandani.co.ke/article/mercy-makini-responds-after-morara-kebaso-identifies-her-as-one"
 date: "2026-09-10T16:59:51Z"
 dateModified: "2026-09-10T16:59:51Z"
 focusKeyword: "mercy makini responds after morara kebaso"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/mercy-makini-responds-after-morara-kebaso-identifies-her-as-one"
 ---
-
 NAIROBI - Mercy Makini, the estranged wife of activist and politician Morara Kebaso, has formally disassociated herself from his public declarations of polygamy, citing a history of domestic violence as the primary cause for their separation.
 
 The statement, issued by Makini on Tuesday, September 10, 2026, serves as a direct rebuttal to recent comments made by Kebaso, in which he identified her as one of his two wives. Makini, who shares three children with the activist, asserted that she exited the marriage on March 2, 2026, and is no longer a party to his personal arrangements.

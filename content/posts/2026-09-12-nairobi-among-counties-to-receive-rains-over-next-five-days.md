@@ -1,19 +1,18 @@
 ---
 title: "Nairobi Among Counties to Receive Rains Over Next Five Days"
 slug: "nairobi-among-counties-to-receive-rains-over-next-five-days"
-description: "nairobi among counties receive rains over: Nairobi and vast stretches of the country will plunge into a five-day spell of moderate to heavy rainfall alongside"
+description: "Nairobi and vast stretches of the country will plunge into a five-day spell of moderate to heavy rainfall alongside biting night temperatures starting."
 excerpt: "Nairobi and vast stretches of the country will plunge into a five-day spell of moderate to heavy rainfall alongside biting night temperatures starting."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/rains%20%20%281%29.jpg.webp?itok=uUrTG_0N"
 category: "News"
 tags: ["nairobi among counties to receive rains over next five days", "news", "kenya news"]
-canonical: "https://zandani.co.ke/article/nairobi-among-counties-to-receive-rains-over-next-five-days"
 date: "2026-09-12T07:54:01Z"
 dateModified: "2026-09-12T07:54:01Z"
 focusKeyword: "nairobi among counties receive rains over"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/nairobi-among-counties-to-receive-rains-over-next-five-days"
 ---
-
 Nairobi and vast stretches of the country will plunge into a five-day spell of moderate to heavy rainfall alongside biting night temperatures starting Sunday, September 13, weather authorities warned today.
 
 ### What we know

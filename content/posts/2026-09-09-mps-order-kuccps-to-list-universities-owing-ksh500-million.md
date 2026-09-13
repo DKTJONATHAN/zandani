@@ -1,19 +1,18 @@
 ---
 title: "MPs Order KUCCPS to List Universities Owing KSh500 Million"
 slug: "mps-order-kuccps-to-list-universities-owing-ksh500-million"
-description: "mps order kuccps list universities owing: Members of Parliament have ordered the Kenya Universities and Colleges Central Placement Service to submit a list of"
+description: "Members of Parliament have ordered the Kenya Universities and Colleges Central Placement Service to submit a list of higher learning institutions."
 excerpt: "Members of Parliament have ordered the Kenya Universities and Colleges Central Placement Service to submit a list of higher learning institutions."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/kuccps_6.jpg.webp?itok=qPxKT7Ux"
 category: "News"
 tags: ["mps order kuccps to list universities owing ksh500 million", "news", "kenya news"]
-canonical: "https://zandani.co.ke/article/mps-order-kuccps-to-list-universities-owing-ksh500-million"
 date: "2026-09-09T15:39:08Z"
 dateModified: "2026-09-09T15:39:08Z"
 focusKeyword: "mps order kuccps list universities owing"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/mps-order-kuccps-to-list-universities-owing-ksh500-million"
 ---
-
 Members of Parliament have ordered the Kenya Universities and Colleges Central Placement Service to submit a list of higher learning institutions withholding KSh500 million in placement fees. CEO Mercy Wahome faced the National Assembly Education Committee in Parliament Buildings, Nairobi, over unremitted funds collected from thousands of government-sponsored students.
 
 **What we know**

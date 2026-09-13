@@ -1,19 +1,18 @@
 ---
 title: "Ruto at 4: Fertiliser Prices Fall as Unga Stays Above Target"
 slug: "ruto-at-4-fertiliser-prices-fall-as-unga-stays-above-target"
-description: "ruto fertiliser prices fall unga stays: According to official government performance audits and Ministry of Agriculture directives, President William Ruto’s"
+description: "According to official government performance audits and Ministry of Agriculture directives, President William Ruto’s four-year policy shift toward."
 excerpt: "According to official government performance audits and Ministry of Agriculture directives, President William Ruto’s four-year policy shift toward."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/ruto-unga-sufuaria.jpg.webp?itok=JHfjl7Hr"
 category: "News"
 tags: ["ruto at 4 fertiliser prices fall as unga stays above target", "news", "kenya news"]
-canonical: "https://zandani.co.ke/article/ruto-at-4-fertiliser-prices-fall-as-unga-stays-above-target"
 date: "2026-09-12T15:18:07Z"
 dateModified: "2026-09-12T15:18:07Z"
 focusKeyword: "ruto fertiliser prices fall unga stays"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/ruto-at-4-fertiliser-prices-fall-as-unga-stays-above-target"
 ---
-
 According to official government performance audits and Ministry of Agriculture directives, President William Ruto’s four-year policy shift toward production subsidies has delivered major cost relief to smallholder grain farmers across the country, even as ordinary consumers wait for retail maize flour prices to drop to the administration’s promised Ksh100 mark.
 
 ### What we know

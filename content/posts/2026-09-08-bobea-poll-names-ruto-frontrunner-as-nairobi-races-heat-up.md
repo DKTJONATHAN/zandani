@@ -1,19 +1,18 @@
 ---
 title: "Bobea Poll Names Ruto Frontrunner as Nairobi Races Heat Up"
 slug: "bobea-poll-names-ruto-frontrunner-as-nairobi-races-heat-up"
-description: "bobea poll names ruto frontrunner nairobi: What we know - President William Ruto holds a 16.1 percent lead over his closest challenger as the 2027 General"
+description: "What we know - President William Ruto holds a 16.1 percent lead over his closest challenger as the 2027 General Election cycle kicks into gear. - Edwin."
 excerpt: "What we know - President William Ruto holds a 16.1 percent lead over his closest challenger as the 2027 General Election cycle kicks into gear. - Edwin."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/FbdMwXKM/ec5ebe0e6a09.jpg"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
-canonical: "https://zandani.co.ke/article/bobea-poll-names-ruto-frontrunner-as-nairobi-races-heat-up"
 date: "2026-09-08T08:12:04Z"
 dateModified: "2026-09-08T08:12:04Z"
 focusKeyword: "bobea poll names ruto frontrunner nairobi"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/bobea-poll-names-ruto-frontrunner-as-nairobi-races-heat-up"
 ---
-
 President William Ruto holds a 16.1 percent lead over his closest challenger as the 2027 General Election cycle kicks into gear. Data released this Tuesday morning, September 8, 2026, by the Bobea Report, places the Head of State at 35.2 percent support. Field researchers conducted the survey across Kenya between August 26 and September 2, collecting views from markets and estates to gauge the mood ahead of the vote.
 
 Edwin Sifuna follows the President with 19.1 percent, while former Cabinet Secretary Fred Matiang’i polls at 14.0 percent. Wiper leader Kalonzo Musyoka trails at 9.0 percent. The survey highlights a massive undecided block, with 17.7 percent of Kenyans surveyed yet to declare their preference. Researchers maintained a 95 percent confidence level with a margin of error of +/- 3.1 percent.

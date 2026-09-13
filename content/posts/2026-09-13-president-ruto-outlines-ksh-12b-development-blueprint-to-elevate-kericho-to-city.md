@@ -1,19 +1,18 @@
 ---
 title: "President Ruto Outlines KSh 12B Development Blueprint To Elevate Kericho To City Status"
 slug: "president-ruto-outlines-ksh-12b-development-blueprint-to-elevate-keric"
-description: "president ruto outlines ksh 12b development: KERICHO — President William Ruto has officially set the machinery in motion to elevate Kericho town to city"
+description: "KERICHO — President William Ruto has officially set the machinery in motion to elevate Kericho town to city status, pledging a KSh 12 billion investment."
 excerpt: "KERICHO — President William Ruto has officially set the machinery in motion to elevate Kericho town to city status, pledging a KSh 12 billion investment."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/mrcs5sQc/8bfa152db50d.jpg"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
-canonical: "https://zandani.co.ke/article/president-ruto-outlines-ksh-12b-development-blueprint-to-elevate-keric"
 date: "2026-09-13T18:14:06Z"
 dateModified: "2026-09-13T18:14:06Z"
 focusKeyword: "president ruto outlines ksh 12b development"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/president-ruto-outlines-ksh-12b-development-blueprint-to-elevate-keric"
 ---
-
 **KERICHO** - President William Ruto has officially set the machinery in motion to elevate Kericho town to city status, pledging a KSh 12 billion investment package aimed at meeting strict urban development mandates.
 
 The announcement follows a two-day presidential tour of the county concluded on September 11, where the head of state outlined a roadmap to overhaul the municipality’s infrastructure to align with the Urban Areas and Cities Act.

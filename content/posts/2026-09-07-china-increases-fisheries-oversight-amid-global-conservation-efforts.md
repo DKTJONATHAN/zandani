@@ -1,19 +1,18 @@
 ---
 title: "China Has Increased Fisheries Oversight Amid Global Conservation"
 slug: "china-increases-fisheries-oversight-amid-global-conservation-efforts"
-description: "China Increases Fisheries Oversight Amid Global Conservation Effo: The Maritime Divide in the Indian Ocean The waters surrounding the Kenyan coastline"
+description: "The Maritime Divide in the Indian Ocean The waters surrounding the Kenyan coastline represent far more than a simple commercial artery."
 excerpt: "The Maritime Divide in the Indian Ocean The waters surrounding the Kenyan coastline represent far more than a simple commercial artery."
 author: "Jonathan Mwaniki"
 image: "https://i.ibb.co/cS9tHK6q/9941956c88a4.webp"
 category: "Opinions"
 tags: ["kenya news", "maritime security", "china fishing", "marine conservation", "iuu fishing", "indian ocean"]
-canonical: "https://zandani.co.ke/article/china-increases-fisheries-oversight-amid-global-conservation-efforts"
 date: "2026-09-06T22:30:09Z"
 dateModified: "2026-09-06T22:30:09Z"
 focusKeyword: "China Increases Fisheries Oversight Amid Global Conservation Effo"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/china-increases-fisheries-oversight-amid-global-conservation-efforts"
 ---
-
 The waters surrounding the Kenyan coastline represent far more than a simple commercial artery. Today, these seas serve as a critical landscape for the protection of national sovereignty and ecological health. While stakeholders recently convened in Mombasa to commit to a framework for shared maritime stewardship, the absence of an official endorsement from Beijing has created a significant disconnect. This letter serves as an appeal to policymakers in China to align their global maritime posture with the urgent needs of the Indian Ocean region.To the policymakers in Beijing,
 
 Your recent diplomatic trajectory regarding global fisheries management is documented and acknowledged. By participating in eight Regional Fisheries Management Organizations and deploying China Coast Guard patrols in the North Pacific, you have demonstrated a clear investment in the image of a global maritime leader. , your accession to the 85-party Port State Measures Agreement signals a technical awareness of the need to prevent illicit catches from entering the legitimate supply chain across your 23 designated ports. However, these specific internal measures appear inconsistent when viewed alongside your decision to withhold support for the Mombasa Declaration during the 11th Our Ocean Conference.

@@ -1,19 +1,18 @@
 ---
 title: "NSSF Sets Rules for Kenyans Relocating Abroad to Cash Out Savings"
 slug: "nssf-sets-rules-for-kenyans-relocating-abroad-to-cash-out-savings"
-description: "nssf sets rules for kenyans relocating: The National Social Security Fund has issued clear conditions for Kenyan workers relocating abroad permanently to claim"
+description: "The National Social Security Fund has issued clear conditions for Kenyan workers relocating abroad permanently to claim their accumulated pensions before."
 excerpt: "The National Social Security Fund has issued clear conditions for Kenyan workers relocating abroad permanently to claim their accumulated pensions before."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/nssf%20building%20%281%29.jpg.webp?itok=KiQL91KO"
 category: "News"
 tags: ["nssf sets rules for kenyans relocating abroad to cash out savings", "news", "kenya news"]
-canonical: "https://zandani.co.ke/article/nssf-sets-rules-for-kenyans-relocating-abroad-to-cash-out-savings"
 date: "2026-09-09T09:24:35Z"
 dateModified: "2026-09-09T09:24:35Z"
 focusKeyword: "nssf sets rules for kenyans relocating"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/nssf-sets-rules-for-kenyans-relocating-abroad-to-cash-out-savings"
 ---
-
 The National Social Security Fund has issued clear conditions for Kenyan workers relocating abroad permanently to claim their accumulated pensions before reaching retirement age. The Fund directed applicants to show valid migration visas outside the East African Community, sworn affidavits, and termination papers to unlock their savings through Electronic Funds Transfer.
 
 **What we know:**

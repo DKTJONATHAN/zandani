@@ -1,19 +1,18 @@
 ---
 title: "Why The Bubble That Breaks the Journey"
 slug: "why-the-bubble-that-breaks-the-journey"
-description: "Why The Bubble That Breaks the Journey: There is a specific kind of silence that falls over a Nairobi highway when the rubber finally gives up. It isn’t the"
+description: "There is a specific kind of silence that falls over a Nairobi highway when the rubber finally gives up. It isn’t the polite hiss of a slow leak; it is a."
 excerpt: "There is a specific kind of silence that falls over a Nairobi highway when the rubber finally gives up. It isn’t the polite hiss of a slow leak; it is a."
 author: "Jaj"
 image: "https://i.ibb.co/ymbMKyq9/4b091c53e0f0.webp"
 category: "Opinions"
 tags: ["why the bubble that breaks the journey", "opinions", "kenya news"]
-canonical: "https://zandani.co.ke/article/why-the-bubble-that-breaks-the-journey"
 date: "2026-09-07T08:14:36Z"
 dateModified: "2026-09-07T08:14:36Z"
 focusKeyword: "Why The Bubble That Breaks the Journey"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/why-the-bubble-that-breaks-the-journey"
 ---
-
 There is a specific kind of silence that falls over a Nairobi highway when the rubber finally gives up. It isn’t the polite hiss of a slow leak; it is a violent, percussive thwack that sounds like a gunshot, followed by the frantic flapping of shredded rubber against tarmac. By then, it is too late. The car is dancing a jagged rhythm, the steering wheel is fighting you for control, and you are suddenly part of the roadside scenery you spent the last hour trying to ignore.
 
 We are a nation of commuters who treat our vehicles like indestructible beasts of burden. We load them with bags of maize, sacks of charcoal, and the collective hopes of our extended families heading upcountry. We navigate the craters of our urban roads with a sort of resigned expertise, dodging one pothole only to settle into the embrace of the next. But lately, I have been watching the way we treat our tyres, and it is clear that we are losing the war against our own negligence.

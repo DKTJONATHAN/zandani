@@ -1,19 +1,18 @@
 ---
 title: "Jacky Vike celebrates birthday with viral kuku kienyeji cake"
 slug: "jacky-vike-celebrates-birthday-with-viral-kuku-kienyeji-cake"
-description: "jacky vike celebrates birthday with viral: What we know - Entertainer Jacky Vike marked her birthday by unveiling a custom cake designed to mirror a roasted"
+description: "What we know - Entertainer Jacky Vike marked her birthday by unveiling a custom cake designed to mirror a roasted indigenous chicken. - The cake featured."
 excerpt: "What we know - Entertainer Jacky Vike marked her birthday by unveiling a custom cake designed to mirror a roasted indigenous chicken. - The cake featured."
 author: "Martin Kihara"
 image: "https://i.ibb.co/TBBR1HmM/872f7ec66626.webp"
 category: "Showbiz"
 tags: ["showbiz", "entertainment", "kenya"]
-canonical: "https://zandani.co.ke/article/jacky-vike-celebrates-birthday-with-viral-kuku-kienyeji-cake"
 date: "2026-09-09T21:56:18Z"
 dateModified: "2026-09-09T21:56:18Z"
 focusKeyword: "jacky vike celebrates birthday with viral"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/jacky-vike-celebrates-birthday-with-viral-kuku-kienyeji-cake"
 ---
-
 Entertainer Jacky Vike marked her birthday by unveiling a custom cake designed to mirror a roasted indigenous chicken. The Nairobi-based actress shared images of the hyper-realistic dessert on Instagram, drawing thousands of reactions from fans and fellow celebrities across the country. The post, which accompanied her call for birthday gifts, quickly became a trending topic on local social media.
 
 The cake featured detailed textures and golden-brown coloring intended to replicate a traditional *kuku kienyeji*. Fans were quick to engage with the visuals, with some questioning the realism of the design. User @graceouma14 asked if the birthday girl was planning to eat the chicken raw, while others used the imagery to lean into cultural tropes. Comments referencing the Luhya community's affinity for chicken, locally known as *ingoho*, flooded the thread.
