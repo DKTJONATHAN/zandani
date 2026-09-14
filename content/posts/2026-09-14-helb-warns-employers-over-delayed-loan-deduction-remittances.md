@@ -1,20 +1,19 @@
 ---
 title: "HELB Warns Employers Over Delayed Loan Deduction Remittances"
 slug: "helb-warns-employers-over-delayed-loan-deduction-remittances"
-description: "According to the Higher Education Loans Board, thousands of university loan beneficiaries across Kenya stand to safeguard their credit ratings and."
+description: "helb warns employers over delayed loan: According to the Higher Education Loans Board, thousands of university loan beneficiaries across Kenya stand to"
 excerpt: "According to the Higher Education Loans Board, thousands of university loan beneficiaries across Kenya stand to safeguard their credit ratings and."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/helb_loan.jpg.webp?itok=d2633oRZ"
 category: "News"
+tags: ["helb warns employers over delayed loan deduction remittances", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/helb-warns-employers-over-delayed-loan-deduction-remittances"
 date: "2026-09-14T07:56:10Z"
 dateModified: "2026-09-14T07:56:10Z"
 focusKeyword: "helb warns employers over delayed loan"
 schema: "NewsArticle"
-county: "Nairobi"
-readTime: "3"
-source: "https://kenyans.co.ke/news/127038-helb-warns-employers-over-delayed-loan-deduction-remittances"
-stylePreset: "Statement Report"
 ---
+
 According to the Higher Education Loans Board, thousands of university loan beneficiaries across Kenya stand to safeguard their credit ratings and clearance status after the state fund ordered all public and private employers to surrender monthly payroll deductions by the 15th day of every month.
 
 ### What we know

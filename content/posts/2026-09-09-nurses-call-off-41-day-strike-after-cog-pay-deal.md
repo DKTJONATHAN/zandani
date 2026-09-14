@@ -1,18 +1,19 @@
 ---
 title: "Nurses Call Off 41-Day Strike After CoG Pay Deal"
 slug: "nurses-call-off-41-day-strike-after-cog-pay-deal"
-description: "Nurses across Kenya have called off their 41-day strike after union leaders signed a pay agreement with county governors in Nairobi. The Kenya National."
+description: "nurses call off day strike after: Nurses across Kenya have called off their 41-day strike after union leaders signed a pay agreement with county governors in"
 excerpt: "Nurses across Kenya have called off their 41-day strike after union leaders signed a pay agreement with county governors in Nairobi. The Kenya National."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/nurses-strike-on-august-25.jpg.webp?itok=XodTpBmp"
 category: "News"
 tags: ["nurses call off 41 day strike after cog pay deal", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/nurses-call-off-41-day-strike-after-cog-pay-deal"
 date: "2026-09-09T12:58:15Z"
 dateModified: "2026-09-09T12:58:15Z"
 focusKeyword: "nurses call off day strike after"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/nurses-call-off-41-day-strike-after-cog-pay-deal"
 ---
+
 Nurses across Kenya have called off their 41-day strike after union leaders signed a pay agreement with county governors in Nairobi. The Kenya National Union of Nurses and Midwives instructed its members to return to public hospitals immediately, ending a five-week standoff that had completely grounded healthcare services in 47 counties.
 
 ### What we know
