@@ -553,10 +553,10 @@
     "45944a85e346337013ccd059f00e6014",
     "2658d1eeb3d009df0f2ff7fe59dea0c7",
     "08edebd3c3f3b2e1f02e0cdc513aaef4",
-    "cb55ad1e183dd2eba41bd6628238bcc5"
+    "cb55ad1e183dd2eba41bd6628238bcc5",
+    "ae902bfaddcebe6a303d7e43378969bc"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
@@ -585,7 +585,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -723,7 +724,8 @@
     "https://kenyans.co.ke/news/127040-kenya-heightens-ebola-surveillance-mpox-cases-spread-40-counties",
     "https://kenyans.co.ke/news/127045-employment-authority-reveals-two-checks-kenyans-must-make-taking-jobs-abroad",
     "https://kenyans.co.ke/news/127050-governor-nyongo-proposes-law-ban-petrol-motorbikes-cities",
-    "https://kenyans.co.ke/news/127051-man-recounts-losing-wife-daughter-and-three-relatives-gilgil-crash"
+    "https://kenyans.co.ke/news/127051-man-recounts-losing-wife-daughter-and-three-relatives-gilgil-crash",
+    "https://kenyans.co.ke/news/127047-churches-security-departments-among-institutions-owing-nairobi-ksh27b"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -783,7 +785,8 @@
     "heightens ebola surveillance mpox cases spread counties",
     "employment authority reveals two checks must make before taking jobs abroad",
     "governor nyong proposes law ban petrol motorbikes cities",
-    "man recounts losing wife daughter three relatives kikopey crash"
+    "man recounts losing wife daughter three relatives kikopey crash",
+    "churches security departments among institutions owing nairobi ksh2"
   ],
   "topic_keys": [
     "news tracker",

@@ -1,19 +1,18 @@
 ---
 title: "Malindi Road upgrade: How better roads are changing life for Tuk Tuk drivers"
 slug: "malindi-road-upgrade-how-better-roads-are-changing-life-for-tuk-tuk-dr"
-description: "malindi road upgrade how better roads: MALINDI — The ongoing Ksh15 billion upgrade of the Mombasa–Malindi road corridor is yielding immediate operational"
+description: "MALINDI — The ongoing Ksh15 billion upgrade of the Mombasa–Malindi road corridor is yielding immediate operational shifts for local transport operators."
 excerpt: "MALINDI — The ongoing Ksh15 billion upgrade of the Mombasa–Malindi road corridor is yielding immediate operational shifts for local transport operators."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/JW4zW8g1/a59cc5dd2bc5.jpg"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
-canonical: "https://zandani.co.ke/article/malindi-road-upgrade-how-better-roads-are-changing-life-for-tuk-tuk-dr"
 date: "2026-09-12T15:31:06Z"
 dateModified: "2026-09-12T15:31:06Z"
 focusKeyword: "malindi road upgrade how better roads"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/malindi-road-upgrade-how-better-roads-are-changing-life-for-tuk-tuk-dr"
 ---
-
 **MALINDI** - The ongoing Ksh15 billion upgrade of the Mombasa-Malindi road corridor is yielding immediate operational shifts for local transport operators, as expanded road capacity significantly reduces travel times along the busy northern coastline route.
 
 For commercial operators like Patrick, a tuk-tuk driver with a decade of experience on the route, the completion of initial road sections has translated into increased trip frequency. Improved surface quality and wider lanes have mitigated the chronic congestion and mechanical wear previously associated with the road’s narrow, pothole-ridden layout.
