@@ -1,18 +1,19 @@
 ---
 title: "Njambi Fever Addresses Infidelity Rumors While Confirming She Is Still Legally Married"
 slug: "njambi-fever-addresses-infidelity-rumors-while-confirming-she-is-still"
-description: "NAIROBI, September 14, 2026 — Kenyan content creator Njambi Fever has publicly clarified her marital status, confirming that while she and her husband are."
+description: "njambi fever addresses infidelity rumors while: NAIROBI, September 14, 2026 — Kenyan content creator Njambi Fever has publicly clarified her marital status,"
 excerpt: "NAIROBI, September 14, 2026 — Kenyan content creator Njambi Fever has publicly clarified her marital status, confirming that while she and her husband are."
 author: "Martin Kihara"
 image: "https://i.ibb.co/Zzfc9GTQ/353744c9d267.webp"
 category: "Showbiz"
 tags: ["showbiz", "entertainment", "kenya"]
+canonical: "https://zandani.co.ke/article/njambi-fever-addresses-infidelity-rumors-while-confirming-she-is-still"
 date: "2026-09-14T06:18:06Z"
 dateModified: "2026-09-14T06:18:06Z"
 focusKeyword: "njambi fever addresses infidelity rumors while"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/njambi-fever-addresses-infidelity-rumors-while-confirming-she-is-still"
 ---
+
 **NAIROBI, September 14, 2026** - Kenyan content creator Njambi Fever has publicly clarified her marital status, confirming that while she and her husband are currently separated, the pair remain legally married. The digital personality addressed her followers during a TikTok live session, seeking to dispel ongoing speculation regarding the state of her domestic life and potential divorce proceedings.
 
 During the broadcast, Njambi addressed the complexities of their cohabitation, acknowledging that their living situation remains fluid within their three-bedroom home. "Sometimes we live in the same house, sometimes we don't," she stated, noting that the arrangement is dictated by daily circumstances and the couple's moods. She emphasized that while the relationship is under significant strain, the couple has not initiated formal divorce proceedings.

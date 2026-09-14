@@ -1,20 +1,19 @@
 ---
 title: "Man Recounts Losing Wife, Daughter, and Three Relatives in Kikopey Crash"
 slug: "man-recounts-losing-wife-daughter-and-three-relatives-in-kikopey-crash"
-description: "A solitary descent along the notorious Kikopey stretch of the Gilgil-Nakuru highway wiped out an entire family unit on Sunday night, turning a routine."
+description: "man recounts losing wife daughter and: A solitary descent along the notorious Kikopey stretch of the Gilgil-Nakuru highway wiped out an entire family unit on"
 excerpt: "A solitary descent along the notorious Kikopey stretch of the Gilgil-Nakuru highway wiped out an entire family unit on Sunday night, turning a routine."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/kikopey-accident-september-13-2026.jpg.webp?itok=duRgDWos"
 category: "News"
+tags: ["man recounts losing wife daughter and three relatives in kikopey crash", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/man-recounts-losing-wife-daughter-and-three-relatives-in-kikopey-crash"
 date: "2026-09-14T18:39:45Z"
 dateModified: "2026-09-14T18:39:45Z"
 focusKeyword: "man recounts losing wife daughter and"
 schema: "NewsArticle"
-county: "Nairobi"
-readTime: "3"
-source: "https://kenyans.co.ke/news/127051-man-recounts-losing-wife-daughter-and-three-relatives-gilgil-crash"
-stylePreset: "Desk Take"
 ---
+
 A solitary descent along the notorious Kikopey stretch of the Gilgil-Nakuru highway wiped out an entire family unit on Sunday night, turning a routine trip into a five-fatality horror when an out-of-control long-distance bus rammed head-on into a small hatchback.
 
 ### What we know
