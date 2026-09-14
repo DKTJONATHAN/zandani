@@ -1,19 +1,18 @@
 ---
 title: "Idris Elba Targets Global Markets for Kenyan Creatives"
 slug: "idris-elba-targets-global-markets-for-kenyan-creatives"
-description: "idris elba targets global markets for: What we know - British actor Idris Elba has engaged with Foreign Affairs Principal Secretary Abraham Korir Sing’Oei to"
+description: "What we know - British actor Idris Elba has engaged with Foreign Affairs Principal Secretary Abraham Korir Sing’Oei to draft a roadmap for Kenya’s."
 excerpt: "What we know - British actor Idris Elba has engaged with Foreign Affairs Principal Secretary Abraham Korir Sing’Oei to draft a roadmap for Kenya’s."
 author: "Martin Kihara"
 image: "https://i.ibb.co/dsDdS0Sq/3d54ebd1e2da.webp"
 category: "Showbiz"
 tags: ["showbiz", "entertainment", "kenya"]
-canonical: "https://zandani.co.ke/article/idris-elba-targets-global-markets-for-kenyan-creatives"
 date: "2026-09-10T13:06:31Z"
 dateModified: "2026-09-10T13:06:31Z"
 focusKeyword: "idris elba targets global markets for"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/idris-elba-targets-global-markets-for-kenyan-creatives"
 ---
-
 British actor Idris Elba has engaged with Foreign Affairs Principal Secretary Abraham Korir Sing’Oei to draft a roadmap for Kenya’s creative sector. The virtual meeting centered on bridging the gap between local artistry and international markets. Elba, through his Akuna Group, aims to provide young Kenyan creators with the institutional support often missing in the current economy.
 
 The collaboration seeks to address structural hurdles that plague Nairobi’s growing creative hub. Despite Kenya’s creative economy contributing over 5 percent of the national GDP, estimated at roughly 490 billion shillings, most individual artists struggle to scale their work into consistent income streams. Elba emphasized that raw talent is insufficient without reliable payment systems, professional networks, and advanced technological infrastructure.
