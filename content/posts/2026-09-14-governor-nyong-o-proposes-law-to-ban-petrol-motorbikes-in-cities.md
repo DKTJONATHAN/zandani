@@ -1,18 +1,19 @@
 ---
 title: "Governor Nyong’o Proposes Law to Ban Petrol Motorbikes in Cities"
 slug: "governor-nyong-o-proposes-law-to-ban-petrol-motorbikes-in-cities"
-description: "Kisumu Governor Anyang’ Nyong’o has announced plans to push for a national legal framework that will systematically phase out petrol-powered motorcycles."
+description: "governor nyong proposes law ban petrol: Kisumu Governor Anyang’ Nyong’o has announced plans to push for a national legal framework that will systematically"
 excerpt: "Kisumu Governor Anyang’ Nyong’o has announced plans to push for a national legal framework that will systematically phase out petrol-powered motorcycles."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/boda-boda-ntsa.jpg.webp?itok=w77S9y5M"
 category: "News"
 tags: ["governor nyong o proposes law to ban petrol motorbikes in cities", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/governor-nyong-o-proposes-law-to-ban-petrol-motorbikes-in-cities"
 date: "2026-09-14T15:53:59Z"
 dateModified: "2026-09-14T15:53:59Z"
 focusKeyword: "governor nyong proposes law ban petrol"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/governor-nyong-o-proposes-law-to-ban-petrol-motorbikes-in-cities"
 ---
+
 Kisumu Governor Anyang’ Nyong’o has announced plans to push for a national legal framework that will systematically phase out petrol-powered motorcycles in urban areas, a policy shift that stands to heavily benefit green energy investors and domestic electric vehicle assemblers.
 
 ### What we know
