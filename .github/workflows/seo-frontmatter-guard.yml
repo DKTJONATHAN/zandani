@@ -1,36 +1,41 @@
 name: SEO Frontmatter Guard
 
 on:
-  pull_request:
-    paths:
-      - 'content/posts/**'
   push:
+    branches: [ main ]
     paths:
-      - 'content/posts/**'
+      - "content/posts/*.md"
+      - "scripts/normalize_posts_seo.py"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  guard:
+  normalize-seo:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
-      - uses: actions/setup-python@v6
+      - name: Checkout
+        uses: actions/checkout@v5
         with:
-          python-version: '3.12'
-      - name: Check frontmatter
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Normalize Post SEO Frontmatter
+        run: python scripts/normalize_posts_seo.py
+
+      - name: Commit Changes
         run: |
-          python - <<'PY'
-          import pathlib, re, sys
-          bad = []
-          for p in pathlib.Path('content/posts').glob('*.md'):
-              t = p.read_text(encoding='utf-8', errors='replace')
-              if not t.startswith('---'):
-                  bad.append(f'{p}: no frontmatter')
-                  continue
-              if 'title:' not in t[:500]:
-                  bad.append(f'{p}: missing title')
-          if bad:
-              print('\n'.join(bad))
-              sys.exit(1)
-          print('OK')
-          PY
+          if git diff --quiet; then
+            echo "No SEO normalization changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/posts/*.md
+          git commit -m "chore(seo): normalize generated post metadata"
+          git push
