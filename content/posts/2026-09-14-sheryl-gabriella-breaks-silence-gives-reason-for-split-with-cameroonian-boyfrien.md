@@ -1,20 +1,19 @@
 ---
 title: "Sheryl Gabriella Breaks Silence, Gives Reason for Split With Cameroonian Boyfriend"
 slug: "sheryl-gabriella-breaks-silence-gives-reason-for-split-with-cameroonia"
-description: "Kenyan content creator Sheryl Gabriella has officially attributed the breakdown of her relationship with her Cameroonian partner, Chapeau, to the intense."
+description: "sheryl gabriella breaks silence gives reason: Kenyan content creator Sheryl Gabriella has officially attributed the breakdown of her relationship with her"
 excerpt: "Kenyan content creator Sheryl Gabriella has officially attributed the breakdown of her relationship with her Cameroonian partner, Chapeau, to the intense."
 author: "Martin Kihara"
 image: "https://i.ibb.co/4ZSv0r2v/c1d0a5d0fb1e.webp"
 category: "Showbiz"
+tags: ["sheryl gabriella breaks silence gives reason for split with cameroonia", "showbiz", "kenya news"]
+canonical: "https://zandani.co.ke/article/sheryl-gabriella-breaks-silence-gives-reason-for-split-with-cameroonia"
 date: "2026-09-14T14:34:14Z"
 dateModified: "2026-09-14T14:34:14Z"
 focusKeyword: "sheryl gabriella breaks silence gives reason"
 schema: "NewsArticle"
-county: "Nairobi"
-readTime: "3"
-source: "https://www.mpasho.co.ke/entertainment/2026-09-14-sheryl-gabriella-breaks-silence-on-split"
-stylePreset: "Statement Report"
 ---
+
 Kenyan content creator Sheryl Gabriella has officially attributed the breakdown of her relationship with her Cameroonian partner, Chapeau, to the intense public scrutiny and unrelenting pressure from Kenyan social media users.
 
 Speaking on the split, Gabriella stated that the constant influx of opinions from netizens became a primary factor in their decision to part ways. She noted that while she felt the need to address their audience, Chapeau has chosen to remain silent, a move she attributed to his reserved personality. "The constant opinions and pressure from Kenyans affected our relationship," Gabriella explained, suggesting that the weight of being a public couple proved unsustainable.
