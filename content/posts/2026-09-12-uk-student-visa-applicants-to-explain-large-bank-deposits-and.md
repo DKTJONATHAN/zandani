@@ -1,19 +1,18 @@
 ---
 title: "UK Student Visa Applicants to Explain Large Bank Deposits and"
 slug: "uk-student-visa-applicants-to-explain-large-bank-deposits-and"
-description: "student visa applicants explain large bank: Kenyan scholars and mid-career professionals preparing their files for British universities must now reckon with an"
+description: "Kenyan scholars and mid-career professionals preparing their files for British universities must now reckon with an intrusive new filter at the visa desk."
 excerpt: "Kenyan scholars and mid-career professionals preparing their files for British universities must now reckon with an intrusive new filter at the visa desk."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/uk-visa-sample-iiiiiii.jpg.webp?itok=vtLoB4W9"
 category: "News"
 tags: ["uk student visa applicants to explain large bank deposits and", "news", "kenya news"]
-canonical: "https://zandani.co.ke/article/uk-student-visa-applicants-to-explain-large-bank-deposits-and"
 date: "2026-09-12T05:48:06Z"
 dateModified: "2026-09-12T05:48:06Z"
 focusKeyword: "student visa applicants explain large bank"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/uk-student-visa-applicants-to-explain-large-bank-deposits-and"
 ---
-
 Kenyan scholars and mid-career professionals preparing their files for British universities must now reckon with an intrusive new filter at the visa desk: an obligation to account for every sudden lump sum in their bank accounts and justify any break in their academic timeline. The directive, issued by the United Kingdom government on Friday, places the burden of proof squarely on applicants to submit formal cover letters and paper trails explaining unexplained cash injections and study pauses, disrupting a long-standing culture where family networks often pool emergency funds at the eleventh hour to satisfy foreign residency thresholds.
 
 **What we know:**
