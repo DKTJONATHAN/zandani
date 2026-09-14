@@ -1,18 +1,19 @@
 ---
 title: "Nikita Kering Recalls Facing Backlash From Teachers Over Her"
 slug: "nikita-kering-recalls-facing-backlash-from-teachers-over-her"
-description: "NAIROBI — Kenyan recording artist Nikita Kering has publicly disclosed the extent to which academic faculty discouraged her artistic ambitions during her."
+description: "nikita kering recalls facing backlash from: NAIROBI — Kenyan recording artist Nikita Kering has publicly disclosed the extent to which academic faculty"
 excerpt: "NAIROBI — Kenyan recording artist Nikita Kering has publicly disclosed the extent to which academic faculty discouraged her artistic ambitions during her."
 author: "Martin Kihara"
 image: "https://i.ibb.co/Mk81fp6Y/305034f618a4.webp"
 category: "Showbiz"
 tags: ["showbiz", "entertainment", "kenya"]
+canonical: "https://zandani.co.ke/article/nikita-kering-recalls-facing-backlash-from-teachers-over-her"
 date: "2026-09-11T08:18:36Z"
 dateModified: "2026-09-11T08:18:36Z"
 focusKeyword: "nikita kering recalls facing backlash from"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/nikita-kering-recalls-facing-backlash-from-teachers-over-her"
 ---
+
 NAIROBI - Kenyan recording artist Nikita Kering has publicly disclosed the extent to which academic faculty discouraged her artistic ambitions during her formative years, describing a period of emotional strain that influenced her professional trajectory.
 
 **What we know:**
