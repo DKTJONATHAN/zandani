@@ -1,19 +1,18 @@
 ---
 title: "PPDT Nullifies Moitalel Ole Kenta’s Appointment as Jubilee"
 slug: "ppdt-nullifies-moitalel-ole-kenta-s-appointment-as-jubilee"
-description: "ppdt nullifies moitalel ole kenta appointment: The Political Parties Disputes Tribunal has nullified Moitalel Ole Kenta’s installation as Jubilee Party"
+description: "The Political Parties Disputes Tribunal has nullified Moitalel Ole Kenta’s installation as Jubilee Party Secretary-General, handing an immediate legal."
 excerpt: "The Political Parties Disputes Tribunal has nullified Moitalel Ole Kenta’s installation as Jubilee Party Secretary-General, handing an immediate legal."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/kioni-matiang-i-jubilee.jpg.webp?itok=k-4kDvzB"
 category: "News"
 tags: ["ppdt nullifies moitalel ole kenta s appointment as jubilee", "news", "kenya news"]
-canonical: "https://zandani.co.ke/article/ppdt-nullifies-moitalel-ole-kenta-s-appointment-as-jubilee"
 date: "2026-09-11T22:34:23Z"
 dateModified: "2026-09-11T22:34:23Z"
 focusKeyword: "ppdt nullifies moitalel ole kenta appointment"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/ppdt-nullifies-moitalel-ole-kenta-s-appointment-as-jubilee"
 ---
-
 The Political Parties Disputes Tribunal has nullified Moitalel Ole Kenta’s installation as Jubilee Party Secretary-General, handing an immediate legal victory to internal reform petitioners led by former Nyeri Town MP Ngunjiri Wambugu while leaving party leader-allied executives facing an administrative vacuum ahead of the 2027 General Elections.
 
 ### What we know
