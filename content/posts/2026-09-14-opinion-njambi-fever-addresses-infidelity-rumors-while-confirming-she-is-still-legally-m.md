@@ -1,19 +1,18 @@
 ---
 title: "Njambi Fever Addresses Infidelity Rumors While Confirming She Is Still Legally Married"
 slug: "njambi-fever-addresses-infidelity-rumors-while-confirming-she-is-still"
-description: "njambi fever addresses infidelity rumors while: If you’re waiting for the death certificate of Njambi Fever’s marriage, stop holding your breath—the lady says"
+description: "If you’re waiting for the death certificate of Njambi Fever’s marriage, stop holding your breath—the lady says the ink is still wet and the certificate is."
 excerpt: "If you’re waiting for the death certificate of Njambi Fever’s marriage, stop holding your breath—the lady says the ink is still wet and the certificate is."
 author: "Jaj"
 image: "https://i.ibb.co/Zzfc9GTQ/353744c9d267.webp"
 category: "Opinions"
 tags: ["njambi fever addresses infidelity rumors while confirming she is still", "opinions", "kenya news"]
-canonical: "https://zandani.co.ke/article/njambi-fever-addresses-infidelity-rumors-while-confirming-she-is-still"
 date: "2026-09-14T11:00:27Z"
 dateModified: "2026-09-14T11:00:27Z"
 focusKeyword: "njambi fever addresses infidelity rumors while"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/njambi-fever-addresses-infidelity-rumors-while-confirming-she-is-still"
 ---
-
 If you’re waiting for the death certificate of Njambi Fever’s marriage, stop holding your breath-the lady says the ink is still wet and the certificate is safely tucked in a drawer, even if the house currently feels like a transit lounge at JKIA.
 
 First off, let’s stop pretending that "separated but living in the same three-bedroom house" is a marital status; it’s a tactical standoff. You don’t get to claim the "married" label on the internet for the clout while treating your cohabitation like a chaotic game of musical chairs depending on who woke up on the wrong side of the bed. It’s either a home or a hotel, and frankly, Nairobi’s economy is tough, but not "let’s play hide-and-seek with my spouse" tough.
