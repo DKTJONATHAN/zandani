@@ -1,18 +1,19 @@
 ---
 title: "KRA to Replace Its Cargo Tracking Seals With New Vendor System by"
 slug: "kra-to-replace-its-cargo-tracking-seals-with-new-vendor-system-by"
-description: "The Kenya Revenue Authority (KRA) has ordered transporters, importers, and clearing agents to procure their own electronic cargo seals from 15 private."
+description: "kra replace its cargo tracking seals: The Kenya Revenue Authority (KRA) has ordered transporters, importers, and clearing agents to procure their own"
 excerpt: "The Kenya Revenue Authority (KRA) has ordered transporters, importers, and clearing agents to procure their own electronic cargo seals from 15 private."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/truck-kpa-mombasa.jpg.webp?itok=hW64jqM5"
 category: "News"
 tags: ["kra to replace its cargo tracking seals with new vendor system by", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/kra-to-replace-its-cargo-tracking-seals-with-new-vendor-system-by"
 date: "2026-09-11T18:33:16Z"
 dateModified: "2026-09-11T18:33:16Z"
 focusKeyword: "kra replace its cargo tracking seals"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/kra-to-replace-its-cargo-tracking-seals-with-new-vendor-system-by"
 ---
+
 The Kenya Revenue Authority (KRA) has ordered transporters, importers, and clearing agents to procure their own electronic cargo seals from 15 private vendors, ending years of state-issued tracking hardware that frequently paralyzed clearance lines at the Port of Mombasa.
 
 **What we know:**

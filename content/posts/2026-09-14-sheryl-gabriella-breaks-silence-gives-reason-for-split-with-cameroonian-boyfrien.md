@@ -1,20 +1,19 @@
 ---
 title: "Sheryl Gabriella Breaks Silence, Gives Reason for Split With Cameroonian Boyfriend"
 slug: "sheryl-gabriella-breaks-silence-gives-reason-for-split-with-cameroonia"
-description: "NAIROBI — Content creator Sheryl Gabriella has confirmed the end of her cross-border relationship with Cameroonian partner Chapeau, citing relentless."
+description: "sheryl gabriella breaks silence gives reason: NAIROBI — Content creator Sheryl Gabriella has confirmed the end of her cross-border relationship with"
 excerpt: "NAIROBI — Content creator Sheryl Gabriella has confirmed the end of her cross-border relationship with Cameroonian partner Chapeau, citing relentless."
 author: "Martin Kihara"
 image: "https://i.ibb.co/cXyd3J5m/794c5c51e25c.webp"
 category: "Showbiz"
+tags: ["sheryl gabriella breaks silence gives reason for split with cameroonia", "showbiz", "kenya news"]
+canonical: "https://zandani.co.ke/article/sheryl-gabriella-breaks-silence-gives-reason-for-split-with-cameroonia"
 date: "2026-09-14T14:29:58Z"
 dateModified: "2026-09-14T14:29:58Z"
 focusKeyword: "sheryl gabriella breaks silence gives reason"
 schema: "NewsArticle"
-county: "Nairobi"
-readTime: "3"
-source: "https://www.mpasho.co.ke/entertainment/2026-09-14-sheryl-gabriella-breaks-silence-on-split"
-stylePreset: "Event Report"
 ---
+
 NAIROBI - Content creator Sheryl Gabriella has confirmed the end of her cross-border relationship with Cameroonian partner Chapeau, citing relentless digital pressure and public scrutiny as primary drivers for the split. The announcement follows a turbulent period for the TikToker, characterized by significant financial restructuring and the loss of multiple brand endorsements earlier this year.
 
 Gabriella addressed the breakup via social media, defending Chapeau's decision to remain silent as a personality trait while acknowledging the weight of Kenyan netizens' opinions. The relationship, which gained significant traction through frequent online collaborations, reportedly buckled under the "constant opinions" of followers who tracked the couple across national borders.

@@ -1,18 +1,19 @@
 ---
 title: "Kenya Heightens Ebola Surveillance as Mpox Cases Spread to 40 Counties"
 slug: "kenya-heightens-ebola-surveillance-as-mpox-cases-spread-to-40-counties"
-description: "Kenya's public health machinery is currently fighting on multiple fronts, stretching screening teams along key transport corridors as an Mpox surge."
+description: "kenya heightens ebola surveillance mpox cases: Kenya's public health machinery is currently fighting on multiple fronts, stretching screening teams along key"
 excerpt: "Kenya's public health machinery is currently fighting on multiple fronts, stretching screening teams along key transport corridors as an Mpox surge."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/ebola-kenya-1.jpg.webp?itok=sotNoHcF"
 category: "News"
 tags: ["kenya heightens ebola surveillance as mpox cases spread to 40 counties", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/kenya-heightens-ebola-surveillance-as-mpox-cases-spread-to-40-counties"
 date: "2026-09-14T08:51:43Z"
 dateModified: "2026-09-14T08:51:43Z"
 focusKeyword: "kenya heightens ebola surveillance mpox cases"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/kenya-heightens-ebola-surveillance-as-mpox-cases-spread-to-40-counties"
 ---
+
 Kenya's public health machinery is currently fighting on multiple fronts, stretching screening teams along key transport corridors as an Mpox surge reaches 40 counties while health officials simultaneously prepare for potential Ebola threats along the western border.
 
 ### What we know
