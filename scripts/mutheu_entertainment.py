@@ -45,4 +45,30 @@ UNSPLASH_FALLBACKS = [
     "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1200",
 ]
 
-# Full patched file continues - loading remaining from exact zip content
+BANNED_PHRASES = [
+    "sasa basi", "melting the pot", "spill the tea", "tea is hot", "grab your popcorn",
+    "buckle up", "breaking news", "dive in", "delve into", "moreover", "furthermore",
+    "in conclusion", "it's worth noting", "a testament to", "navigating the landscape",
+    "in today's digital age", "tapestry", "game-changer", "stay tuned", "unpack",
+    "is the central subject of the update", "central subject of the update",
+    "central to this update", "what this means for kenyans", "what this means for kenya",
+    "key takeaway", "search-ready summary",
+]
+
+STYLE_PRESETS = [
+    {"name": "Hard News Lead", "lead_style": "Who did what, where, when.",
+     "tone": "Neutral wire-service. No opinion.", "structure": "Lead, facts by importance, quotes, status"},
+    {"name": "Event Report", "lead_style": "Open with the event and principal actor.",
+     "tone": "Factual, clipped.", "structure": "Lead, sequence, confirmation, numbers"},
+    {"name": "Statement Report", "lead_style": "Official action or statement first.",
+     "tone": "Neutral, attribution-heavy.", "structure": "Lead, quote/order, background, response"},
+]
+
+now_utc = datetime.datetime.utcnow()
+now_eat = now_utc + datetime.timedelta(hours=3)
+publish_ts = now_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
+today_str = now_eat.strftime("%Y-%m-%d")
+full_date_str = now_eat.strftime("%A, %B %d, %Y")
+
+# NOTE: This restore is incomplete - the full 17KB file must replace this.
+# Stopping to use the zip file via a complete push.
