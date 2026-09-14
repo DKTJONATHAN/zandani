@@ -1,18 +1,19 @@
 ---
 title: "Yassin Osen Rebuilds Digital Empire from Kakamega"
 slug: "yassin-osen-rebuilds-digital-empire-from-kakamega"
-description: "What we know - Kakamega-born content creator Yassin Osen has reclaimed his footprint in the Kenyan digital space, amassing over 250,000 followers on a new."
+description: "yassin osen rebuilds digital empire from: What we know - Kakamega-born content creator Yassin Osen has reclaimed his footprint in the Kenyan digital space,"
 excerpt: "What we know - Kakamega-born content creator Yassin Osen has reclaimed his footprint in the Kenyan digital space, amassing over 250,000 followers on a new."
 author: "Martin Kihara"
 image: "https://i.ibb.co/4wDDrys2/76df093d1d2b.webp"
 category: "Showbiz"
 tags: ["showbiz", "entertainment", "kenya"]
+canonical: "https://zandani.co.ke/article/yassin-osen-rebuilds-digital-empire-from-kakamega"
 date: "2026-09-10T08:23:41Z"
 dateModified: "2026-09-10T08:23:41Z"
 focusKeyword: "yassin osen rebuilds digital empire from"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/yassin-osen-rebuilds-digital-empire-from-kakamega"
 ---
+
 Kakamega-born content creator Yassin Osen has reclaimed his footprint in the Kenyan digital space, amassing over 250,000 followers on a new TikTok account following the permanent ban of his original platform. Now managed by Smartboy Management, Osen-popularly known as Mr Handsome Official Live-restarted his career after losing a million-strong audience, proving his resilience in an industry prone to unpredictable account purges.
 
 Osen entered the scene in 2023, initially struggling to find an audience before shifting his focus to videos rooted in Luhya culture and language in 2024. His content, defined by a distinct brand of sarcastic, deadpan delivery, helped him secure the Digital Creator Inspiration Award last month. This recognition underscores his transition from a niche creator to a prominent figure in the local live-streaming circuit.

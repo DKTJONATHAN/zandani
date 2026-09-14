@@ -1,18 +1,19 @@
 ---
 title: "Amber Ray Reveals Secrets to Fast Healing After 3 Cosmetic"
 slug: "amber-ray-reveals-secrets-to-fast-healing-after-3-cosmetic"
-description: "NAIROBI, Kenya — Socialite Amber Ray has publicly addressed skepticism regarding her recent medical procedures in Turkey, confirming she underwent three."
+description: "amber ray reveals secrets fast healing: NAIROBI, Kenya — Socialite Amber Ray has publicly addressed skepticism regarding her recent medical procedures in"
 excerpt: "NAIROBI, Kenya — Socialite Amber Ray has publicly addressed skepticism regarding her recent medical procedures in Turkey, confirming she underwent three."
 author: "Martin Kihara"
 image: "https://i.ibb.co/b5zDsCh8/3321bee8f6b3.webp"
 category: "Showbiz"
 tags: ["showbiz", "entertainment", "kenya"]
+canonical: "https://zandani.co.ke/article/amber-ray-reveals-secrets-to-fast-healing-after-3-cosmetic"
 date: "2026-09-11T17:09:59Z"
 dateModified: "2026-09-11T17:09:59Z"
 focusKeyword: "amber ray reveals secrets fast healing"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/amber-ray-reveals-secrets-to-fast-healing-after-3-cosmetic"
 ---
+
 **NAIROBI, Kenya** - Socialite Amber Ray has publicly addressed skepticism regarding her recent medical procedures in Turkey, confirming she underwent three distinct surgeries and dental work. The public response follows online discourse questioning her rapid post-operative mobility as captured on her social media platforms.
 
 **What we know:**
