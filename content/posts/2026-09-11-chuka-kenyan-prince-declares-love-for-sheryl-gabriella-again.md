@@ -1,18 +1,19 @@
 ---
 title: "Chuka Kenyan Prince declares love for Sheryl Gabriella again"
 slug: "chuka-kenyan-prince-declares-love-for-sheryl-gabriella-again"
-description: "Content creator Chuka Kenyan Prince has reignited public discourse surrounding his romantic intentions after posting a fresh declaration of affection for."
+description: "chuka kenyan prince declares love for: Content creator Chuka Kenyan Prince has reignited public discourse surrounding his romantic intentions after posting a"
 excerpt: "Content creator Chuka Kenyan Prince has reignited public discourse surrounding his romantic intentions after posting a fresh declaration of affection for."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/4ZgWMzvS/92aedf8ed564.png"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
+canonical: "https://zandani.co.ke/article/chuka-kenyan-prince-declares-love-for-sheryl-gabriella-again"
 date: "2026-09-11T18:33:59Z"
 dateModified: "2026-09-11T18:33:59Z"
 focusKeyword: "chuka kenyan prince declares love for"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/chuka-kenyan-prince-declares-love-for-sheryl-gabriella-again"
 ---
+
 Content creator Chuka Kenyan Prince has reignited public discourse surrounding his romantic intentions after posting a fresh declaration of affection for fellow personality Sheryl Gabriella, notwithstanding her prior public rejection of his advances.
 
 In a video disseminated across social media platforms this Friday, Chuka was captured holding a photograph of Ms. Gabriella while affirming that his sentiments remain unchanged despite her previous decision to decline his pursuits. “Sheryl Gabriella nilisema nakupenda ukanikataa… hata unikatae bado nakupenda,” Chuka stated in the clip.
