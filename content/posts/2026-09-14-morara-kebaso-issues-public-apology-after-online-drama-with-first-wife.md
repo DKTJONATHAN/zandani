@@ -1,18 +1,19 @@
 ---
 title: "Morara Kebaso Issues Public Apology After Online Drama With First Wife"
 slug: "morara-kebaso-issues-public-apology-after-online-drama-with-first-wife"
-description: "NAIROBI — Activist and politician Morara Kebaso has issued a formal public apology following weeks of acrimonious disputes involving his first wife, Mercy."
+description: "morara kebaso issues public apology after: NAIROBI — Activist and politician Morara Kebaso has issued a formal public apology following weeks of acrimonious"
 excerpt: "NAIROBI — Activist and politician Morara Kebaso has issued a formal public apology following weeks of acrimonious disputes involving his first wife, Mercy."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/bRv97Kf4/d8186f34e9fe.jpg"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
+canonical: "https://zandani.co.ke/article/morara-kebaso-issues-public-apology-after-online-drama-with-first-wife"
 date: "2026-09-14T06:18:07Z"
 dateModified: "2026-09-14T06:18:07Z"
 focusKeyword: "morara kebaso issues public apology after"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/morara-kebaso-issues-public-apology-after-online-drama-with-first-wife"
 ---
+
 NAIROBI - Activist and politician Morara Kebaso has issued a formal public apology following weeks of acrimonious disputes involving his first wife, Mercy Makini, signaling a shift toward ending the publicized domestic conflict.
 
 In a statement posted to his official social media channels on Sunday, September 13, Kebaso acknowledged his role in the escalating tensions. While he did not explicitly identify the individuals involved, the message served as a direct address to the controversies that have defined his personal life throughout September 2026.
