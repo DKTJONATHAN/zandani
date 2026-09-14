@@ -548,10 +548,10 @@
     "893e059e2aaea58e2494aeaf5a58c2e1",
     "7eaa0f12cf255f1aaadd989b5b38e588",
     "0454e39382436d5e18c09d03f52ec3b3",
-    "43e824fa2e02b119f799101bcec31058"
+    "43e824fa2e02b119f799101bcec31058",
+    "1e5997fca246e2ca909311f3d5824558"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -580,7 +580,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -713,7 +714,8 @@
     "https://kenyans.co.ke/news/127033-environmentalists-pile-pressure-govt-verify-survival-over-981m-trees",
     "https://kenyans.co.ke/news/127032-visa-free-entry-does-not-exempt-eac-citizens-kenyas-work-laws",
     "https://kenyans.co.ke/news/127018-four-years-four-sectors-ruto-promises-kept-stalled-and-abandoned",
-    "https://kenyans.co.ke/news/127037-kajiado-governor-joseph-ole-lenku-demands-ksh13-billion-tata-chemicals-magadi-reopening"
+    "https://kenyans.co.ke/news/127037-kajiado-governor-joseph-ole-lenku-demands-ksh13-billion-tata-chemicals-magadi-reopening",
+    "https://kenyans.co.ke/news/127038-helb-warns-employers-over-delayed-loan-deduction-remittances"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -768,7 +770,8 @@
     "environmentalists isaac kalua urges govt verify survival 981m trees",
     "visa free entry does exempt eac citizens work laws",
     "four years four sectors ruto promises kept stalled abandoned",
-    "kajiado governor joseph ole lenku demands ksh13 billion tata chemicals before magadi reopening"
+    "kajiado governor joseph ole lenku demands ksh13 billion tata chemicals before magadi reopening",
+    "helb warns employers delayed loan deduction remittances"
   ],
   "topic_keys": [
     "news tracker",
