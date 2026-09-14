@@ -1,23 +1,24 @@
 ---
 title: "Sheryl Gabriella Breaks Silence, Gives Reason for Split With Cameroonian Boyfriend"
 slug: "sheryl-gabriella-breaks-silence-gives-reason-for-split-with-cameroonia"
-description: "sheryl gabriella breaks silence gives reason: NAIROBI — Content creator Sheryl Gabriella has confirmed the end of her cross-border relationship with"
-excerpt: "NAIROBI — Content creator Sheryl Gabriella has confirmed the end of her cross-border relationship with Cameroonian partner Chapeau, citing relentless."
+description: "Kenyan content creator Sheryl Gabriella has officially attributed the breakdown of her relationship with her Cameroonian partner, Chapeau, to the intense."
+excerpt: "Kenyan content creator Sheryl Gabriella has officially attributed the breakdown of her relationship with her Cameroonian partner, Chapeau, to the intense."
 author: "Martin Kihara"
-image: "https://i.ibb.co/cXyd3J5m/794c5c51e25c.webp"
+image: "https://i.ibb.co/4ZSv0r2v/c1d0a5d0fb1e.webp"
 category: "Showbiz"
-tags: ["sheryl gabriella breaks silence gives reason for split with cameroonia", "showbiz", "kenya news"]
-canonical: "https://zandani.co.ke/article/sheryl-gabriella-breaks-silence-gives-reason-for-split-with-cameroonia"
-date: "2026-09-14T14:29:58Z"
-dateModified: "2026-09-14T14:29:58Z"
+date: "2026-09-14T14:34:14Z"
+dateModified: "2026-09-14T14:34:14Z"
 focusKeyword: "sheryl gabriella breaks silence gives reason"
 schema: "NewsArticle"
+county: "Nairobi"
+readTime: "3"
+source: "https://www.mpasho.co.ke/entertainment/2026-09-14-sheryl-gabriella-breaks-silence-on-split"
+stylePreset: "Statement Report"
 ---
+Kenyan content creator Sheryl Gabriella has officially attributed the breakdown of her relationship with her Cameroonian partner, Chapeau, to the intense public scrutiny and unrelenting pressure from Kenyan social media users.
 
-NAIROBI - Content creator Sheryl Gabriella has confirmed the end of her cross-border relationship with Cameroonian partner Chapeau, citing relentless digital pressure and public scrutiny as primary drivers for the split. The announcement follows a turbulent period for the TikToker, characterized by significant financial restructuring and the loss of multiple brand endorsements earlier this year.
+Speaking on the split, Gabriella stated that the constant influx of opinions from netizens became a primary factor in their decision to part ways. She noted that while she felt the need to address their audience, Chapeau has chosen to remain silent, a move she attributed to his reserved personality. "The constant opinions and pressure from Kenyans affected our relationship," Gabriella explained, suggesting that the weight of being a public couple proved unsustainable.
 
-Gabriella addressed the breakup via social media, defending Chapeau's decision to remain silent as a personality trait while acknowledging the weight of Kenyan netizens' opinions. The relationship, which gained significant traction through frequent online collaborations, reportedly buckled under the "constant opinions" of followers who tracked the couple across national borders.
+The duo’s romance had become a staple of local social media feeds, drawing interest both for their collaborative content and the cross-border nature of their union. However, the breakup follows a turbulent period for Gabriella, who reportedly lost five lucrative brand contracts in March 2026. This financial shift forced the creator to downsize her living arrangements to manage a previous KSh 200,000 monthly expenditure.
 
-This personal setback follows a March 2026 financial downturn for the creator. Gabriella confirmed she lost five lucrative brand contracts during that month, forcing a move from a KSh 200,000-a-month residence to more modest housing to manage living expenses. The downsizing became a point of public contention, coinciding with a viral video from "Chuka Kenyan Prince" declaring unrequited love for the creator.
-
-Further scrutiny hit the creator during her father’s recent burial. Netizens questioned the humble state of the family home, contrasting it with Gabriella's previous public claims regarding property development for her parents. While Gabriella has chosen to address these controversies head-on to explain the impact of online pressure, Chapeau has maintained total silence on the matter.
+The creator has also had to defend herself against recent criticism regarding her late father’s residence. After images of a humble home surfaced during his burial, netizens questioned Gabriella's prior claims of constructing a house for her parents. Amidst the breakup, other social media personalities, including Chuka Kenyan Prince, have attempted to capitalize on her single status by publicly declaring their interest via viral videos.
