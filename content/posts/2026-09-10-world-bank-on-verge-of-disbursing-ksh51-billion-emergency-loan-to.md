@@ -1,19 +1,18 @@
 ---
 title: "World Bank on Verge of Disbursing Ksh51 Billion Emergency Loan to"
 slug: "world-bank-on-verge-of-disbursing-ksh51-billion-emergency-loan-to"
-description: "world bank verge disbursing ksh51 billion: NAIROBI — Kenya is set to receive an emergency cash injection of Sh51 billion from the World Bank within the next"
+description: "NAIROBI — Kenya is set to receive an emergency cash injection of Sh51 billion from the World Bank within the next six weeks, securing a crucial fiscal."
 excerpt: "NAIROBI — Kenya is set to receive an emergency cash injection of Sh51 billion from the World Bank within the next six weeks, securing a crucial fiscal."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/ruto%20world%20bank_0.jpg.webp?itok=O8n41Rhp"
 category: "News"
 tags: ["world bank on verge of disbursing ksh51 billion emergency loan to", "news", "kenya news"]
-canonical: "https://zandani.co.ke/article/world-bank-on-verge-of-disbursing-ksh51-billion-emergency-loan-to"
 date: "2026-09-10T18:28:35Z"
 dateModified: "2026-09-10T18:28:35Z"
 focusKeyword: "world bank verge disbursing ksh51 billion"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/world-bank-on-verge-of-disbursing-ksh51-billion-emergency-loan-to"
 ---
-
 NAIROBI - Kenya is set to receive an emergency cash injection of Sh51 billion from the World Bank within the next six weeks, securing a crucial fiscal buffer as the country braces for the dual threat of climate-induced flooding, escalating global oil prices, and cross-border disease outbreaks.
 
 **What we know:**
