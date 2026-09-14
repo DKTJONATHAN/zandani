@@ -48,268 +48,352 @@ DEFAULT_STYLES = [
         "structure": "Lead, facts, quotes, commentary heading",
         "sentence_mix": "Short and medium",
         "closing": "A take, not a prediction",
+        "commentary_heading": "Why it matters",
     },
     {
-        "name": "Context First",
-        "format": "News report",
-        "lead_style": "Why this matters before the bare fact.",
-        "tone": "Explanatory, still sharp.",
-        "angle": "Why it matters",
-        "structure": "Context, facts, quotes, commentary heading",
+        "name": "Event Report",
+        "format": "Event report",
+        "lead_style": "Open with the event and principal actor.",
+        "tone": "Factual, then street-level reading.",
+        "angle": "Sequence of events",
+        "structure": "Lead, sequence, numbers, commentary heading",
+        "sentence_mix": "Short",
+        "closing": "Who is left standing",
+        "commentary_heading": "The Nairobi read",
+    },
+    {
+        "name": "Statement Report",
+        "format": "Statement report",
+        "lead_style": "Official action or statement first.",
+        "tone": "Attribution first, then who benefits.",
+        "angle": "What was said or ordered",
+        "structure": "Lead, quote/order, background, commentary heading",
         "sentence_mix": "Medium",
-        "closing": "What to watch next",
+        "closing": "Cost to the reader",
+        "commentary_heading": "What it costs you",
     },
     {
-        "name": "Quote-Led",
-        "format": "News report",
-        "lead_style": "Open on a strong quote, then ground it.",
-        "tone": "Voice-forward reporting",
-        "angle": "Who said what",
-        "structure": "Quote, facts, reaction, commentary heading",
-        "sentence_mix": "Short and medium",
-        "closing": "The line that lingers",
+        "name": "Desk Take",
+        "format": "Reported feature",
+        "lead_style": "Scene or consequence first, then the actor.",
+        "tone": "Curious, specific, not snarky.",
+        "angle": "Why a Kenyan should care",
+        "structure": "Lead, evidence, names, commentary heading",
+        "sentence_mix": "Short then one long",
+        "closing": "One clean judgment",
+        "commentary_heading": "The take",
     },
 ]
 
 
-def now_eat():
-    return datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=3)))
+def strip_spam(text):
+    return strip_banned(text)
 
 
-def load_memory(path):
-    if not os.path.exists(path):
-        return {"published_hashes": [], "style_history": [], "angle_history": []}
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception:
-        return {"published_hashes": [], "style_history": [], "angle_history": []}
+def run_writer(cfg):
+    author = cfg["author_name"]
+    category = cfg["category"]
+    source_url = cfg["source_url"]
+    source_domain = cfg["source_domain"]
+    posts_dir = os.environ.get("POSTS_DIR", "content/posts")
+    memory_file = os.environ.get("MEMORY_FILE", cfg["memory_file"])
+    styles = cfg.get("styles") or DEFAULT_STYLES
+    role = cfg.get("role", f"{category.lower()} correspondent")
+    extra_path_hints = cfg.get("path_hints", ["article", "news", "story", "post", "/20"])
+    opinion_mode = bool(cfg.get("opinion_mode"))
 
+    now_utc = datetime.datetime.utcnow()
+    now_eat = now_utc + datetime.timedelta(hours=3)
+    publish_ts = now_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
+    today_str = now_eat.strftime("%Y-%m-%d")
+    full_date_str = now_eat.strftime("%A, %B %d, %Y")
 
-def save_memory(memory, path):
-    memory["published_hashes"] = memory.get("published_hashes", [])[-200:]
-    memory["style_history"] = memory.get("style_history", [])[-40:]
-    memory["angle_history"] = memory.get("angle_history", [])[-40:]
-    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(memory, f, indent=2)
-
-
-def scrub_brands(text):
-    out = text or ""
-    for b in BRANDS_TO_SCRUB:
-        out = re.sub(re.escape(b), "", out, flags=re.I)
-    return re.sub(r"\s{2,}", " ", out).strip()
-
-
-def pick_style(memory):
-    recent = set(memory.get("style_history", [])[-6:])
-    choices = [s for s in DEFAULT_STYLES if s["name"] not in recent] or DEFAULT_STYLES
-    return random.choice(choices)
-
-
-def story_hash(title, url):
-    return hashlib.sha1(f"{title}|{url}".encode("utf-8")).hexdigest()
-
-
-def already_published(memory, title, url):
-    return story_hash(title, url) in set(memory.get("published_hashes", []))
-
-
-def fetch_list_links(list_url, link_selector, max_links=12):
-    try:
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
-            page = browser.new_page()
-            page.goto(list_url, wait_until="domcontentloaded", timeout=60000)
-            page.wait_for_timeout(1500)
-            html = page.content()
-            browser.close()
-        soup = BeautifulSoup(html, "html.parser")
-        links = []
-        for a in soup.select(link_selector):
-            href = a.get("href") or ""
-            if not href or href.startswith("#"):
-                continue
-            full = urllib.parse.urljoin(list_url, href)
-            if full not in links:
-                links.append(full)
-            if len(links) >= max_links:
-                break
-        return links
-    except Exception as e:
-        print(f"List fetch failed: {e}")
-        return []
-
-
-def fetch_article(url):
-    try:
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
-            page = browser.new_page()
-            page.goto(url, wait_until="domcontentloaded", timeout=60000)
-            page.wait_for_timeout(1200)
-            html = page.content()
-            browser.close()
-        soup = BeautifulSoup(html, "html.parser")
-
-        fresh, age_h = is_fresh_enough(soup, max_hours=FRESH_HOURS)
-        if not fresh:
-            if age_h is None:
-                print("Skipping, no usable publish-date signal found (fail-closed)")
-            else:
-                print(f"Skipping, age {age_h:.1f}h")
-            return "", ""
-
-        og = ""
-        for prop in ("og:image", "og:image:secure_url", "twitter:image", "twitter:image:src"):
-            tag = soup.find("meta", property=prop) or soup.find("meta", attrs={"name": prop})
-            if tag and tag.get("content"):
-                og = tag["content"]
-                break
-        for tag in soup(["script", "style", "nav", "footer", "aside"]):
-            tag.decompose()
-        paragraphs = [
-            p.get_text(" ", strip=True)
-            for p in soup.select("p")
-            if len(p.get_text(strip=True)) > 40
-        ]
-        body = "\n\n".join(paragraphs[:18])
-        body = scrub_brands(body)[:6000]
-        if mentions_stale_year(body, now_eat().year):
-            print("Skipping, source body cites an older year (likely a retrospective/reshare)")
-            return "", ""
-        return body, og
-    except Exception as e:
-        print(f"Fetch article error: {e}")
-        return "", ""
-
-
-def rewrite_with_gemini(title, body, author, desk, style, category="News"):
-    client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY"))
-    date_str = now_eat().strftime("%A, %d %B %Y")
-    prompt = news_prompt(
-        author=author,
-        date_str=date_str,
-        style=style,
-        title=title,
-        body=body,
-        desk=desk,
-    )
-    last_err = None
-    for model in MODELS_TO_TRY:
+    def load_memory():
+        if not os.path.exists(memory_file):
+            return {"published_hashes": [], "style_history": [], "angle_history": []}
         try:
-            resp = client.models.generate_content(
-                model=model,
-                contents=prompt,
-                config=types.GenerateContentConfig(temperature=0.7, max_output_tokens=4096),
-            )
-            text = (resp.text or "").strip()
-            if model_skipped(text):
-                print(f"Model skipped story ({model})")
-                return None
-            if is_spam(text) or should_skip_story(text, category):
-                print(f"Rejected as spam/off-desk ({model})")
-                return None
-            text = polish_body(text, category, title)
-            return text
+            with open(memory_file, "r", encoding="utf-8") as f:
+                raw = json.load(f)
+            if isinstance(raw, list):
+                return {"published_hashes": raw[-500:], "style_history": [], "angle_history": []}
+            if isinstance(raw, dict):
+                raw.setdefault("published_hashes", [])
+                raw.setdefault("style_history", [])
+                raw.setdefault("angle_history", [])
+                raw["style_history"] = [
+                    (h.get("stylePreset") or h.get("name") or "") if isinstance(h, dict) else str(h)
+                    for h in raw["style_history"]
+                ]
+                raw["style_history"] = [h for h in raw["style_history"] if h]
+                return raw
         except Exception as e:
-            last_err = e
-            print(f"Model {model} failed: {e}")
-            time.sleep(1.2)
-    print(f"All models failed: {last_err}")
-    return None
+            print(f"Memory load error: {e}")
+        return {"published_hashes": [], "style_history": [], "angle_history": []}
 
+    def save_memory(mem):
+        os.makedirs(os.path.dirname(memory_file) or ".", exist_ok=True)
+        mem["published_hashes"] = mem.get("published_hashes", [])[-500:]
+        mem["style_history"] = mem.get("style_history", [])[-30:]
+        mem["angle_history"] = mem.get("angle_history", [])[-80:]
+        with open(memory_file, "w", encoding="utf-8") as f:
+            json.dump(mem, f, indent=2)
 
-def slugify(title):
-    s = re.sub(r"[^a-z0-9]+", "-", (title or "").lower()).strip("-")
-    return s[:80] or "post"
+    memory = load_memory()
 
+    def pick_style(history):
+        recent = set(list(history)[-2:])
+        candidates = [s for s in styles if s["name"] not in recent] or styles
+        return random.choice(candidates)
 
-def write_markdown(title, body, author, category, image, out_dir="content/posts"):
-    fields = seo_fields(title, body, category, author)
-    slug = slugify(fields["title"])
-    ts = now_eat()
-    fname = f"{ts.strftime('%Y-%m-%d')}-{slug}.md"
-    path = os.path.join(out_dir, fname)
-    os.makedirs(out_dir, exist_ok=True)
-    front = {
-        "title": fields["title"],
-        "slug": slug,
-        "description": fields["description"],
-        "excerpt": fields["excerpt"],
-        "author": author,
-        "authorUrl": f"https://zandani.co.ke/author/{slugify(author)}",
-        "image": image or "",
-        "category": category,
-        "tags": [category.lower(), "kenya"],
-        "date": ts.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "dateModified": ts.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "focusKeyword": " ".join(fields["title"].split()[:5]).lower(),
-        "schema": fields["schema"],
-        "county": fields["county"],
-        "stylePreset": "News",
-    }
-    lines = ["---"]
-    for k, v in front.items():
-        if isinstance(v, list):
-            lines.append(f"{k}: {json.dumps(v)}")
-        else:
-            lines.append(f'{k}: "{str(v).replace(chr(34), chr(39))}"')
-    lines.append("---")
-    lines.append(body.strip())
-    lines.append("")
-    with open(path, "w", encoding="utf-8") as f:
-        f.write("\n".join(lines))
-    print(f"Wrote {path}")
-    return path
+    def content_hash(title, body):
+        raw = (title + "|" + body[:800]).lower()
+        raw = re.sub(r"\s+", " ", raw)
+        return hashlib.sha256(raw.encode()).hexdigest()[:24]
 
+    def scrub_brands(text):
+        for b in BRANDS_TO_SCRUB:
+            text = re.sub(re.escape(b), "", text, flags=re.I)
+        return text
 
-def run_desk(
-    *,
-    author,
-    desk,
-    category,
-    list_url,
-    link_selector,
-    memory_path,
-    max_tries=8,
-):
-    memory = load_memory(memory_path)
-    links = fetch_list_links(list_url, link_selector)
-    if not links:
-        print("No links found")
+    def scrape_source():
+        stories = []
+        try:
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
+                page = browser.new_page()
+                page.goto(source_url, wait_until="domcontentloaded", timeout=45000)
+                page.wait_for_timeout(2500)
+                html = page.content()
+                browser.close()
+            soup = BeautifulSoup(html, "html.parser")
+            for a in soup.select("a[href]")[:80]:
+                href = a.get("href") or ""
+                title = a.get_text(" ", strip=True)
+                if len(title) < 25 or len(title) > 140:
+                    continue
+                if not any(x in href for x in extra_path_hints):
+                    continue
+                if href.startswith("/"):
+                    href = urllib.parse.urljoin(source_url, href)
+                if source_domain not in href:
+                    continue
+                stories.append({"title": title, "url": href})
+            seen = set()
+            uniq = []
+            for s in stories:
+                if s["url"] in seen:
+                    continue
+                seen.add(s["url"])
+                uniq.append(s)
+            uniq.sort(key=lambda s: kenya_score(s["title"]), reverse=True)
+            return uniq[:12]
+        except Exception as e:
+            print(f"Scrape error: {e}")
+            return []
+
+    def is_good_image(url):
+        if not url or not isinstance(url, str):
+            return False
+        u = url.strip()
+        if not u.startswith("http"):
+            return False
+        low = u.lower()
+        if any(x in low for x in ("placeholder", "default-og", "logo.png", "1x1", "pixel", "spacer", "data:image")):
+            return False
+        return True
+
+    def resolve_image(raw, page_url):
+        if not raw:
+            return ""
+        u = raw.strip()
+        if u.startswith("//"):
+            u = "https:" + u
+        elif u.startswith("/"):
+            u = urllib.parse.urljoin(page_url, u)
+        return u if is_good_image(u) else ""
+
+    def unsplash_fallback(query):
+        key = (os.environ.get("UNSPLASH_ACCESS_KEY") or "").strip()
+        if not key:
+            return ""
+        try:
+            import urllib.request
+            q = urllib.parse.quote((query or "kenya nairobi")[:80])
+            req = urllib.request.Request(
+                f"https://api.unsplash.com/photos/random?query={q}&orientation=landscape",
+                headers={"Authorization": f"Client-ID {key}", "Accept-Version": "v1"},
+            )
+            with urllib.request.urlopen(req, timeout=12) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            url = (data.get("urls") or {}).get("regular") or (data.get("urls") or {}).get("full") or ""
+            return url if is_good_image(url) else ""
+        except Exception as e:
+            print(f"Unsplash fallback failed: {e}")
+            return ""
+
+    def fetch_article(url):
+        try:
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
+                page = browser.new_page()
+                page.goto(url, wait_until="domcontentloaded", timeout=40000)
+                page.wait_for_timeout(1500)
+                html = page.content()
+                browser.close()
+            soup = BeautifulSoup(html, "html.parser")
+
+            fresh, age_h = is_fresh_enough(soup, max_hours=FRESH_HOURS)
+            if not fresh:
+                if age_h is None:
+                    print("Skipping, no usable publish-date signal found (fail-closed)")
+                else:
+                    print(f"Skipping, age {age_h:.1f}h")
+                return "", ""
+
+            og = ""
+            for prop in ("og:image", "og:image:secure_url", "twitter:image", "twitter:image:src"):
+                tag = soup.find("meta", property=prop) or soup.find("meta", attrs={"name": prop})
+                if tag and tag.get("content"):
+                    og = resolve_image(tag["content"], url)
+                    if og:
+                        break
+            if not og:
+                img = soup.select_one("article img[src], .article-image img[src], figure img[src], img.wp-post-image")
+                if img and img.get("src"):
+                    og = resolve_image(img.get("src"), url)
+            for t in soup(["script", "style", "nav", "footer", "aside"]):
+                t.decompose()
+            paragraphs = [
+                p.get_text(" ", strip=True)
+                for p in soup.select("p")
+                if len(p.get_text(strip=True)) > 40
+            ]
+            body = "\n\n".join(paragraphs[:18])
+            body = scrub_brands(body)[:6000]
+            if mentions_stale_year(body, now_eat.year):
+                print("Skipping, source body cites an older year (likely a retrospective/reshare)")
+                return "", ""
+            return body, og
+        except Exception as e:
+            print(f"Fetch article error: {e}")
+            return "", ""
+
+    def call_gemini(prompt):
+        api_key = (
+            os.environ.get("GEMINI_API_KEY")
+            or os.environ.get("GOOGLE_API_KEY")
+            or os.environ.get("GEMINI_WRITE_KEY")
+        )
+        if not api_key:
+            raise RuntimeError("No GEMINI_API_KEY")
+        client = genai.Client(api_key=api_key)
+        last_err = None
+        for model in MODELS_TO_TRY:
+            try:
+                resp = client.models.generate_content(
+                    model=model,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(
+                        temperature=0.62 if not opinion_mode else 0.82,
+                        max_output_tokens=4096,
+                    ),
+                )
+                text = (resp.text or "").strip()
+                if text:
+                    return text, model
+            except Exception as e:
+                last_err = e
+                print(f"Model {model} failed: {e}")
+                time.sleep(1)
+        raise RuntimeError(f"All models failed: {last_err}")
+
+    def slugify(title):
+        s = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
+        return s[:80]
+
+    def write_post(title, body_md, style_name, source, image=""):
+        body_md = polish_body(body_md, category, title)
+        seo = seo_fields(title, body_md, category, author)
+        if not is_good_image(image):
+            image = unsplash_fallback(seo.get("title") or title) or ""
+        slug = f"{today_str}-{slugify(seo['title'])}"
+        path = os.path.join(posts_dir, f"{slug}.md")
+        os.makedirs(posts_dir, exist_ok=True)
+        img = image if is_good_image(image) else ""
+        fm = f"""---
+title: "{seo['title']}"
+slug: "{slugify(seo['title'])}"
+description: "{seo['description']}"
+excerpt: "{seo['excerpt']}"
+date: {publish_ts}
+dateModified: {publish_ts}
+author: "{author}"
+category: "{category}"
+county: "{seo['county']}"
+image: "{img}"
+readTime: {max(3, len(body_md.split()) // 180)}
+source: "{source}"
+stylePreset: "{style_name}"
+schema: "NewsArticle"
+---
+
+{body_md}
+"""
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(fm)
+        print(f"Wrote {path} kenya_score={kenya_score(seo['title'] + ' ' + body_md)} image={'yes' if img else 'none'}")
+        return slug
+
+    print(f"[{author}] Kenya-first run {category} @ {publish_ts}")
+    stories = scrape_source()
+    if not stories:
+        print("No stories found")
         return
-    random.shuffle(links)
-    style = pick_style(memory)
-    for url in links[:max_tries]:
-        body, image = fetch_article(url)
-        if not body or len(body) < 200:
+    style = pick_style(memory.get("style_history", []))
+    print(f"Style: {style['name']}")
+    for story in stories:
+        if should_skip_story(story["title"], category):
+            print(f"Skip (not Kenya-first): {story['title'][:80]}")
             continue
-        title_guess = url.rstrip("/").split("/")[-1].replace("-", " ").title()
-        if already_published(memory, title_guess, url):
-            print(f"Already published: {title_guess}")
+        body, image = fetch_article(story["url"])
+        if len(body) < 200:
             continue
-        if should_skip_story(body, category):
-            print("Skip non-Kenya story")
+        if should_skip_story(story["title"] + " " + body, category):
+            print(f"Skip body (not Kenya-first): {story['title'][:80]}")
             continue
-        article = rewrite_with_gemini(title_guess, body, author, desk, style, category)
-        if not article:
+        avoid = " | ".join((memory.get("angle_history") or [])[-8:])
+        prompt = news_prompt(
+            author, full_date_str, style, story["title"], body,
+            role=role, opinion=opinion_mode, desk=category, avoid=avoid,
+        )
+        try:
+            article, model_used = call_gemini(prompt)
+            print(f"Used {model_used}")
+        except Exception as e:
+            print(f"Generation failed: {e}")
             continue
-        # Prefer a clean title from the first line if the model put one
-        first = article.splitlines()[0].strip()
-        if first.startswith("#"):
-            title = re.sub(r"^#+\s*", "", first).strip()
-            article = "\n".join(article.splitlines()[1:]).strip()
-        else:
-            title = title_guess
-        h = story_hash(title, url)
-        write_markdown(title, article, author, category, image)
+        if model_skipped(article):
+            print("Model skipped foreign story")
+            continue
+        article = polish_body(scrub_brands(article), category, story["title"])
+        if is_spam(article):
+            print("Rejected: spam or too short")
+            continue
+        h = content_hash(story["title"], article)
+        if h in memory.get("published_hashes", []):
+            print("Duplicate hash, skip")
+            continue
+        title = story["title"]
+        if article.startswith("#"):
+            first = article.split("\n", 1)[0]
+            title = re.sub(r"^#+\s*", "", first).strip() or title
+            article = article.split("\n", 1)[-1].strip()
+        write_post(title, article, style["name"], story["url"], image)
         memory.setdefault("published_hashes", []).append(h)
         memory.setdefault("style_history", []).append(style["name"])
         lede = " ".join(article.split()[:12])
         memory.setdefault("angle_history", []).append(lede)
-        save_memory(memory, memory_path)
+        save_memory(memory)
         print("Memory updated")
         return
     print("No suitable Kenya-first story published this run")
