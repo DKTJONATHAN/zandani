@@ -1,19 +1,18 @@
 ---
 title: "Churches, Security Departments Among Institutions Owing Nairobi Ksh2.7B"
 slug: "churches-security-departments-among-institutions-owing-nairobi-ksh2-7b"
-description: "churches security departments among institutions owing: NAIROBI, Kenya — September 14, 2026 — Nairobi County is aggressively pursuing Ksh2.7 billion in"
+description: "NAIROBI, Kenya — September 14, 2026 — Nairobi County is aggressively pursuing Ksh2.7 billion in uncollected revenues from defaulting institutions."
 excerpt: "NAIROBI, Kenya — September 14, 2026 — Nairobi County is aggressively pursuing Ksh2.7 billion in uncollected revenues from defaulting institutions."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/sakaja-speaking-1.jpg.webp?itok=b50AZOQP"
 category: "News"
 tags: ["churches security departments among institutions owing nairobi ksh2 7b", "news", "kenya news"]
-canonical: "https://zandani.co.ke/article/churches-security-departments-among-institutions-owing-nairobi-ksh2-7b"
 date: "2026-09-14T20:19:29Z"
 dateModified: "2026-09-14T20:19:29Z"
 focusKeyword: "churches security departments among institutions owing"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/churches-security-departments-among-institutions-owing-nairobi-ksh2-7b"
 ---
-
 **NAIROBI, Kenya - September 14, 2026** - Nairobi County is aggressively pursuing Ksh2.7 billion in uncollected revenues from defaulting institutions, including churches and government security departments, as City Hall moves to plug budget holes through tighter enforcement. Appearing before the Senate Investment, Trade and Industrialisation Committee, Governor Johnson Sakaja revealed that long-standing tax defaults across high-profile institutions continue to hamper the capital’s effort to expand its internal revenue base.
 
 ### What we know
