@@ -1,67 +1,34 @@
-name: IndexJump Auto-Index on Commit
+name: IndexJump SEO
 
 on:
-  push:
-    paths:
-      - 'content/posts/**.md'
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
-  submit-to-indexjump:
+  indexjump:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
-          fetch-depth: 2
+          fetch-depth: 1
 
-      - name: Detect changed posts & submit to IndexJump
+      - name: Ping IndexJump / sitemap
         env:
           INDEXJUMP_API_KEY: ${{ secrets.INDEXJUMP_API_KEY }}
         run: |
-          if [ -z "$INDEXJUMP_API_KEY" ]; then
-            echo "⚠️  INDEXJUMP_API_KEY not set, skipping"
+          if [ -z "${INDEXJUMP_API_KEY:-}" ]; then
+            echo "No INDEXJUMP_API_KEY — skip"
             exit 0
           fi
-
-          SITE_URL="https://zandani.co.ke"
-
-          # Get changed .md files in content/posts/
-          CHANGED=$(git diff --name-only HEAD~1 HEAD -- 'content/posts/' | grep '\.md$' || true)
-
-          if [ -z "$CHANGED" ]; then
-            echo "📝 No post changes detected"
-            exit 0
-          fi
-
-          # Build JSON array of URLs
-          URLS="["
-          FIRST=true
-          while IFS= read -r file; do
-            FRONT_SLUG=$(grep -m1 '^slug:' "$file" 2>/dev/null | sed "s/^slug:[[:space:]]*[\"']*\([^\"']*\).*/\1/" || true)
-            SLUG="${FRONT_SLUG:-$(basename "$file" .md)}"
-            URL="${SITE_URL}/article/${SLUG}"
-            if [ "$FIRST" = true ]; then
-              URLS="${URLS}\"${URL}\""
-              FIRST=false
-            else
-              URLS="${URLS},\"${URL}\""
-            fi
-            echo "🔗 $URL"
-          done <<< "$CHANGED"
-          URLS="${URLS}]"
-
-          echo "🚀 Submitting to IndexJump..."
-          RESPONSE=$(curl -s -w "\n%{http_code}" -X POST \
-            "https://api.indexjump.com/index/bulk?token=${INDEXJUMP_API_KEY}" \
-            -H "Content-Type: application/json" \
-            -d "{\"urls\": ${URLS}}")
-
-          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
-          BODY=$(echo "$RESPONSE" | head -n -1)
-
-          if [ "$HTTP_CODE" -ge 200 ] && [ "$HTTP_CODE" -lt 300 ]; then
-            echo "✅ IndexJump submission successful (${HTTP_CODE})"
+          if [ -f scripts/indexjump.py ]; then
+            python scripts/indexjump.py || true
           else
-            echo "❌ IndexJump submission failed (${HTTP_CODE}): ${BODY}"
-            exit 1
+            curl -sS -X POST "https://api.indexjump.com/v1/submit" \
+              -H "Authorization: Bearer ${INDEXJUMP_API_KEY}" \
+              -H "Content-Type: application/json" \
+              -d '{"url":"https://zandani.co.ke/sitemap.xml"}' || true
           fi

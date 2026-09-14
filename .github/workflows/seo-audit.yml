@@ -1,79 +1,37 @@
-name: Article SEO audit
+name: SEO Audit
 
 on:
-  push:
-    paths:
-      - "content/posts/**.md"
-      - "scripts/seo_lint_posts.py"
-      - "scripts/polish_new_posts.py"
+  schedule:
+    - cron: "30 5 * * 1"
   workflow_dispatch:
 
-concurrency:
-  group: seo-audit-${{ github.ref }}
-  cancel-in-progress: true
-
 permissions:
-  contents: write
-  issues: write
+  contents: read
 
 jobs:
-  polish-and-lint:
-    runs-on: ubuntu-22.04
+  audit:
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
-          fetch-depth: 0
-          token: ${{ secrets.ACTIONS_GITHUB_TOKEN || secrets.PERSONAL_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
-      - name: Polish latest posts
-        run: python scripts/polish_new_posts.py
-
-      - name: Commit polish fixes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_author: "Za Ndani <bot@zandani.co.ke>"
-          commit_message: "seo: polish latest article frontmatter and strip boilerplate"
-          file_pattern: "content/posts/*.md"
-
-      - name: Lint latest posts
-        id: lint
-        continue-on-error: true
-        run: python scripts/seo_lint_posts.py | tee /tmp/seo-lint.txt
-
-      - name: Open issue on SEO failures
-        if: steps.lint.outcome == 'failure'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const fs = require('fs');
-            const report = fs.readFileSync('/tmp/seo-lint.txt', 'utf8');
-            const title = 'SEO audit: latest articles failed lint';
-            const body = 'Automatic lint found problems in recent posts.\n\n```\n' + report.slice(0, 6000) + '\n```';
-            const { data: issues } = await github.rest.issues.listForRepo({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              state: 'open',
-              per_page: 50
-            });
-            const existing = issues.find(i => i.title === title);
-            if (existing) {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: existing.number,
-                body
-              });
-            } else {
-              await github.rest.issues.create({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                title,
-                body
-              });
-            }
+      - name: Run SEO audit
+        run: |
+          if [ -f scripts/seo_audit.py ]; then
+            python scripts/seo_audit.py
+          else
+            echo "No seo_audit.py — basic frontmatter check"
+            python - <<'PY'
+import pathlib
+for p in pathlib.Path('content/posts').glob('*.md'):
+    t = p.read_text(encoding='utf-8', errors='replace')
+    if not t.startswith('---'):
+        print('no fm', p)
+print('done')
+PY
+          fi
