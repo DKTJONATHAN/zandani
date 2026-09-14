@@ -26,7 +26,15 @@ POSTS_DIR = os.environ.get("POSTS_DIR", "content/posts")
 MEMORY_FILE = os.environ.get("MEMORY_FILE", ".github/memory_martin_mpasho.json")
 MAX_CANDIDATES = 30
 MAX_SCRAPE_TRIES = 12
-FRESH_HOURS = 24  # was 12; Mpasho often has sparse date meta
+FRESH_HOURS = 24
+
+# Category listing pages that SSR the article links (homepage is mostly client-rendered)
+LISTING_URLS = [
+    "https://www.mpasho.co.ke/entertainment",
+    "https://www.mpasho.co.ke/relationships",
+    "https://www.mpasho.co.ke/exclusives",
+    "https://www.mpasho.co.ke/",
+]
 
 MODELS_TO_TRY = [
     "gemini-3.1-pro-preview",
@@ -60,6 +68,12 @@ STYLE_PRESETS = [
     {"name": "Statement Report", "lead_style": "Official action or statement first.",
      "tone": "Neutral, attribution-heavy.", "structure": "Lead, quote/order, background, response"},
 ]
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 
 now_utc = datetime.datetime.utcnow()
 now_eat = now_utc + datetime.timedelta(hours=3)
@@ -114,76 +128,126 @@ def is_spam(text):
     return any(m in low for m in ["central subject of the update", "what this means for kenyans", "key takeaway"])
 
 def _is_article_path(path: str) -> bool:
-    """Prefer real article paths over category / author / tag pages."""
     if not path or path in ("/", ""):
         return False
     bad = ("/author/", "/tag/", "/category/", "/page/", "/feed/", "/comment-", "/search", "/about", "/contact")
     if any(b in path for b in bad):
         return False
-    # Prefer entertainment / showbiz / relationships / exclusives style paths
-    good = ("/entertainment", "/relationships", "/exclusives", "/lifestyle", "/showbiz", "/celebrity")
+    # Date-prefixed slug is the reliable article pattern on this CMS
+    if re.search(r"/20\d{2}-\d{2}-\d{2}-[a-z0-9-]{10,}", path):
+        return True
+    good = ("/entertainment/", "/relationships/", "/exclusives/", "/lifestyle/", "/showbiz/", "/celebrity/")
     if any(g in path for g in good):
-        return True
-    # Date-prefixed slugs are almost always articles on this CMS
-    if re.search(r"/20\d{2}-\d{2}-\d{2}-", path):
-        return True
-    # Long hyphenated slug as last segment
-    slug = path.rstrip("/").split("/")[-1]
-    return len(slug) > 25 and "-" in slug
+        slug = path.rstrip("/").split("/")[-1]
+        return len(slug) > 20 and "-" in slug
+    return False
+
+def _extract_links_from_html(html: str, seen: set) -> list:
+    urls = []
+    soup = BeautifulSoup(html, "html.parser")
+    for a in soup.select("a[href]"):
+        href = (a.get("href") or "").strip()
+        if not href:
+            continue
+        if href.startswith("/"):
+            href = urllib.parse.urljoin(SOURCE_URL, href)
+        if SOURCE_DOMAIN not in href:
+            continue
+        path = urllib.parse.urlparse(href).path or ""
+        if not _is_article_path(path):
+            continue
+        if href in seen:
+            continue
+        seen.add(href)
+        urls.append(href)
+    return urls
 
 def get_target_urls():
-    urls = []
+    """Prefer plain requests on category listings (SSR). Playwright only as fallback."""
     seen = set()
-    try:
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
-            page = browser.new_page()
-            page.goto(SOURCE_URL, wait_until="domcontentloaded", timeout=45000)
-            page.wait_for_timeout(2500)
-            # Light scroll so lazy sections load
-            for _ in range(2):
-                page.evaluate("window.scrollBy(0, 1200)")
-                page.wait_for_timeout(800)
-            html = page.content()
-            browser.close()
-        soup = BeautifulSoup(html, "html.parser")
-        for a in soup.select("a[href]"):
-            href = (a.get("href") or "").strip()
-            title = a.get_text(" ", strip=True)
-            if len(title) < 20 or len(title) > 160:
-                continue
-            if href.startswith("/"):
-                href = urllib.parse.urljoin(SOURCE_URL, href)
-            if SOURCE_DOMAIN not in href:
-                continue
-            path = urllib.parse.urlparse(href).path or ""
-            if not _is_article_path(path):
-                continue
-            if href in seen:
-                continue
-            seen.add(href)
-            urls.append(href)
+    urls = []
+
+    # 1) Fast path: requests on category pages that contain the date-slug links
+    for list_url in LISTING_URLS:
+        try:
+            r = requests.get(list_url, headers=HEADERS, timeout=20)
+            r.raise_for_status()
+            found = _extract_links_from_html(r.text, seen)
+            urls.extend(found)
+            print(f"requests {list_url} → +{len(found)} links (total {len(urls)})")
             if len(urls) >= MAX_CANDIDATES:
                 break
-        print(f"Discovered {len(urls)} candidate article links")
+        except Exception as e:
+            print(f"requests failed on {list_url}: {e}")
+
+    if urls:
+        # Prefer newest-looking date slugs first
+        def date_key(u):
+            m = re.search(r"/(20\d{2})-(\d{2})-(\d{2})-", u)
+            return int(m.group(1) + m.group(2) + m.group(3)) if m else 0
+        urls = sorted(urls, key=date_key, reverse=True)[:MAX_CANDIDATES]
+        print(f"Discovered {len(urls)} candidate article links (requests)")
         return urls
+
+    # 2) Fallback: Playwright (needed if listings become fully client-rendered)
+    print("No links via requests — falling back to Playwright")
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(
+                headless=True,
+                args=["--no-sandbox", "--disable-dev-shm-usage", "--disable-blink-features=AutomationControlled"],
+            )
+            context = browser.new_context(
+                user_agent=HEADERS["User-Agent"],
+                viewport={"width": 1280, "height": 900},
+            )
+            page = context.new_page()
+            for list_url in LISTING_URLS[:2]:
+                try:
+                    page.goto(list_url, wait_until="domcontentloaded", timeout=45000)
+                    page.wait_for_timeout(3000)
+                    for _ in range(2):
+                        page.evaluate("window.scrollBy(0, 1400)")
+                        page.wait_for_timeout(1000)
+                    found = _extract_links_from_html(page.content(), seen)
+                    urls.extend(found)
+                    print(f"playwright {list_url} → +{len(found)} links (total {len(urls)})")
+                except Exception as e:
+                    print(f"playwright page error on {list_url}: {e}")
+            browser.close()
     except Exception as e:
-        print(f"List scrape error: {e}")
-        return []
+        print(f"List scrape error (playwright): {e}")
+
+    if urls:
+        def date_key(u):
+            m = re.search(r"/(20\d{2})-(\d{2})-(\d{2})-", u)
+            return int(m.group(1) + m.group(2) + m.group(3)) if m else 0
+        urls = sorted(urls, key=date_key, reverse=True)[:MAX_CANDIDATES]
+    print(f"Discovered {len(urls)} candidate article links")
+    return urls
 
 def scrape_article(url):
     try:
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
-            page = browser.new_page()
-            page.goto(url, wait_until="domcontentloaded", timeout=40000)
-            page.wait_for_timeout(1500)
-            html = page.content()
-            browser.close()
+        # Prefer fast requests first; many article pages still SSR enough body
+        html = None
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=25)
+            if r.status_code == 200 and len(r.text) > 2000:
+                html = r.text
+        except Exception as e:
+            print(f"requests article fetch failed: {e}")
+
+        if not html:
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
+                page = browser.new_page()
+                page.goto(url, wait_until="domcontentloaded", timeout=40000)
+                page.wait_for_timeout(2000)
+                html = page.content()
+                browser.close()
+
         soup = BeautifulSoup(html, "html.parser")
 
-        # Soft freshness: fail-closed only when we *do* have a date and it is old.
-        # Many Mpasho pages omit usable meta; those are allowed if body is solid and not a retrospective.
         fresh, age_h = is_fresh_enough(soup, max_hours=FRESH_HOURS)
         if age_h is not None and not fresh:
             print(f"Skipping (dated, age {age_h:.1f}h > {FRESH_HOURS}h): {url}")
@@ -198,14 +262,26 @@ def scrape_article(url):
                 title = title.split(sep)[0].strip()
 
         text = ""
-        for sel in ["article", ".post-content", ".entry-content", "main article", ".content", ".article-body", ".td-post-content"]:
+        for sel in [
+            "article", ".post-content", ".entry-content", "main article",
+            ".content", ".article-body", ".td-post-content", "[class*='article']",
+            "[class*='post-content']", "[class*='story']",
+        ]:
             c = soup.select_one(sel)
             if c:
-                text = "\n\n".join(p.get_text(" ", strip=True) for p in c.find_all("p") if len(p.get_text(strip=True)) > 30)
+                text = "\n\n".join(
+                    p.get_text(" ", strip=True)
+                    for p in c.find_all("p")
+                    if len(p.get_text(strip=True)) > 30
+                )
                 if len(text) > 400:
                     break
         if len(text) < 400:
-            text = "\n\n".join(p.get_text(" ", strip=True) for p in soup.find_all("p") if len(p.get_text(strip=True)) > 30)
+            text = "\n\n".join(
+                p.get_text(" ", strip=True)
+                for p in soup.find_all("p")
+                if len(p.get_text(strip=True)) > 30
+            )
 
         if len(text) < 250:
             print(f"Body too short ({len(text)} chars): {url}")
@@ -290,7 +366,7 @@ def main():
     print(f"[{AUTHOR_NAME}] hard-news run @ {publish_ts}")
     links = get_target_urls()
     if not links:
-        print("No links discovered — check Playwright / site structure")
+        print("No links discovered — check requests/Playwright / site structure")
         return 0
     style = pick_style(memory.get("style_history", []))
     print(f"Style: {style['name']}")
