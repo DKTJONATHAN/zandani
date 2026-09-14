@@ -1,19 +1,18 @@
 ---
 title: "Sifuna Faces Major Political Test as Linda Mwananchi Takes Rally to Nairobi"
 slug: "sifuna-faces-major-political-test-as-linda-mwananchi-takes-rally-to-na"
-description: "sifuna faces major political test linda: Nairobi Senator Edwin Sifuna is set to navigate a significant political milestone this Sunday as the Linda Mwananchi"
+description: "Nairobi Senator Edwin Sifuna is set to navigate a significant political milestone this Sunday as the Linda Mwananchi Movement stages a comprehensive."
 excerpt: "Nairobi Senator Edwin Sifuna is set to navigate a significant political milestone this Sunday as the Linda Mwananchi Movement stages a comprehensive."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/RTvBMcZN/51ab871832af.png"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
-canonical: "https://zandani.co.ke/article/sifuna-faces-major-political-test-as-linda-mwananchi-takes-rally-to-na"
 date: "2026-09-13T10:18:46Z"
 dateModified: "2026-09-13T10:18:46Z"
 focusKeyword: "sifuna faces major political test linda"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/sifuna-faces-major-political-test-as-linda-mwananchi-takes-rally-to-na"
 ---
-
 Nairobi Senator Edwin Sifuna is set to navigate a significant political milestone this Sunday as the Linda Mwananchi Movement stages a comprehensive mobilization campaign across the capital, culminating in a rally at the Jacaranda Grounds.
 
 The senator has framed the day’s events as a blend of spiritual reflection and political strategy. According to the senator, the itinerary begins with a service at All Saints Cathedral at 9 a.m., followed by a series of engagements at Marikiti, Gikomba, and Burma markets. In a message issued to his supporters, Sifuna stated, “Programme ya Sunday ni fupi sana… kwanza maombi ndio Mungu aongezee mahasidi na wale wa roho mbaya confusion… alafu tuingie kiwanja pale Jacaranda. Excuse yako ni gani?”
