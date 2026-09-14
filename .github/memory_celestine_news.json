@@ -552,10 +552,10 @@
     "1e5997fca246e2ca909311f3d5824558",
     "45944a85e346337013ccd059f00e6014",
     "2658d1eeb3d009df0f2ff7fe59dea0c7",
-    "08edebd3c3f3b2e1f02e0cdc513aaef4"
+    "08edebd3c3f3b2e1f02e0cdc513aaef4",
+    "cb55ad1e183dd2eba41bd6628238bcc5"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -584,7 +584,8 @@
     "Statement Report",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -721,7 +722,8 @@
     "https://kenyans.co.ke/news/127038-helb-warns-employers-over-delayed-loan-deduction-remittances",
     "https://kenyans.co.ke/news/127040-kenya-heightens-ebola-surveillance-mpox-cases-spread-40-counties",
     "https://kenyans.co.ke/news/127045-employment-authority-reveals-two-checks-kenyans-must-make-taking-jobs-abroad",
-    "https://kenyans.co.ke/news/127050-governor-nyongo-proposes-law-ban-petrol-motorbikes-cities"
+    "https://kenyans.co.ke/news/127050-governor-nyongo-proposes-law-ban-petrol-motorbikes-cities",
+    "https://kenyans.co.ke/news/127051-man-recounts-losing-wife-daughter-and-three-relatives-gilgil-crash"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -780,7 +782,8 @@
     "helb warns employers delayed loan deduction remittances",
     "heightens ebola surveillance mpox cases spread counties",
     "employment authority reveals two checks must make before taking jobs abroad",
-    "governor nyong proposes law ban petrol motorbikes cities"
+    "governor nyong proposes law ban petrol motorbikes cities",
+    "man recounts losing wife daughter three relatives kikopey crash"
   ],
   "topic_keys": [
     "news tracker",
