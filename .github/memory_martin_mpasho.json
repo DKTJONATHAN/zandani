@@ -82,10 +82,10 @@
     "ee8d8b6e758669b0326baae2",
     "eb2ae31f090ebee8917de8eb",
     "c253c5bd74310040187de8e4",
-    "c98505ceed8558389e6d082a"
+    "c98505ceed8558389e6d082a",
+    "be1cfcdbf9c4089311765f3c"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard Showbiz Lead",
     "Event Report",
@@ -114,13 +114,18 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [],
   "recent_stories": [
     {
       "key": "2026-09-14-sheryl-gabriella-breaks-silence-on-split",
       "ts": "2026-09-14T15:28:27Z"
+    },
+    {
+      "key": "2026-09-14-vybz-kartel-talks-kenya-concert",
+      "ts": "2026-09-14T18:39:19Z"
     }
   ]
 }
