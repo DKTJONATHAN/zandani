@@ -81,10 +81,10 @@
     "c8217c628fca29ac224a259a",
     "ee8d8b6e758669b0326baae2",
     "eb2ae31f090ebee8917de8eb",
-    "c253c5bd74310040187de8e4"
+    "c253c5bd74310040187de8e4",
+    "c98505ceed8558389e6d082a"
   ],
   "style_history": [
-    "Hard Showbiz Lead",
     "Event Report",
     "Statement Report",
     "Hard Showbiz Lead",
@@ -113,7 +113,14 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
-  "angle_history": []
+  "angle_history": [],
+  "recent_stories": [
+    {
+      "key": "2026-09-14-sheryl-gabriella-breaks-silence-on-split",
+      "ts": "2026-09-14T15:28:27Z"
+    }
+  ]
 }
