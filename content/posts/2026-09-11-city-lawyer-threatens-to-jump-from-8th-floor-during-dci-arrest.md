@@ -1,18 +1,19 @@
 ---
 title: "City Lawyer Threatens to Jump From 8th Floor During DCI Arrest"
 slug: "city-lawyer-threatens-to-jump-from-8th-floor-during-dci-arrest"
-description: "According to the Directorate of Criminal Investigations, a Nairobi-based advocate dramatically threatened to plunge from the eighth floor of a Westlands."
+description: "city lawyer threatens jump from 8th: According to the Directorate of Criminal Investigations, a Nairobi-based advocate dramatically threatened to plunge from"
 excerpt: "According to the Directorate of Criminal Investigations, a Nairobi-based advocate dramatically threatened to plunge from the eighth floor of a Westlands."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/nairobi-city-and-dci.jpg.webp?itok=F1mRmxB_"
 category: "News"
 tags: ["city lawyer threatens to jump from 8th floor during dci arrest", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/city-lawyer-threatens-to-jump-from-8th-floor-during-dci-arrest"
 date: "2026-09-11T04:39:44Z"
 dateModified: "2026-09-11T04:39:44Z"
 focusKeyword: "city lawyer threatens jump from 8th"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/city-lawyer-threatens-to-jump-from-8th-floor-during-dci-arrest"
 ---
+
 According to the Directorate of Criminal Investigations, a Nairobi-based advocate dramatically threatened to plunge from the eighth floor of a Westlands office block on Thursday to evade arrest over an alleged Ksh150 million document fraud scheme.
 
 ### What we know
