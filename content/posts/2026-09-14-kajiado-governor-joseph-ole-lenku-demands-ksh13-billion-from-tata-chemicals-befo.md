@@ -1,20 +1,19 @@
 ---
 title: "Kajiado Governor Joseph Ole Lenku Demands Ksh13 Billion From Tata Chemicals Before Magadi Reopening"
 slug: "kajiado-governor-joseph-ole-lenku-demands-ksh13-billion-from-tata-chem"
-description: "Kajiado Governor Joseph Ole Lenku has set a Ksh13 billion condition for the reopening of Tata Chemicals Magadi Limited, demanding the multinational clear."
+description: "kajiado governor joseph ole lenku demands: Kajiado Governor Joseph Ole Lenku has set a Ksh13 billion condition for the reopening of Tata Chemicals Magadi"
 excerpt: "Kajiado Governor Joseph Ole Lenku has set a Ksh13 billion condition for the reopening of Tata Chemicals Magadi Limited, demanding the multinational clear."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/tata-chemicals-magadi-plant-entrance-sign-kajiado-kenya-scaled.jpg.webp?itok=P1J3xwtP"
 category: "News"
+tags: ["kajiado governor joseph ole lenku demands ksh13 billion from tata chem", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/kajiado-governor-joseph-ole-lenku-demands-ksh13-billion-from-tata-chem"
 date: "2026-09-14T06:18:10Z"
 dateModified: "2026-09-14T06:18:10Z"
 focusKeyword: "kajiado governor joseph ole lenku demands"
 schema: "NewsArticle"
-county: "Nairobi"
-readTime: "3"
-source: "https://kenyans.co.ke/news/127037-kajiado-governor-joseph-ole-lenku-demands-ksh13-billion-tata-chemicals-magadi-reopening"
-stylePreset: "Hard News Lead"
 ---
+
 Kajiado Governor Joseph Ole Lenku has set a Ksh13 billion condition for the reopening of Tata Chemicals Magadi Limited, demanding the multinational clear historical land rate arrears and surrender nearly 190,000 acres of unutilised territory before its suspended operations can resume.
 
 ### What we know
