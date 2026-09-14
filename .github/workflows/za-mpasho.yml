@@ -57,9 +57,6 @@ jobs:
           POSTS_DIR: ${{ env.POSTS_DIR }}
           MEMORY_FILE: ${{ env.MEMORY_FILE }}
         run: |
-          if [ -f scripts/_restore_martin_mpasho.py ]; then
-            python scripts/_restore_martin_mpasho.py
-          fi
           if [ -f scripts/martin_mpasho.py ]; then
             python scripts/martin_mpasho.py
           else
