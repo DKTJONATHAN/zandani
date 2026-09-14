@@ -24,9 +24,9 @@ SOURCE_URL = "https://www.mpasho.co.ke/"
 SOURCE_DOMAIN = "mpasho.co.ke"
 POSTS_DIR = os.environ.get("POSTS_DIR", "content/posts")
 MEMORY_FILE = os.environ.get("MEMORY_FILE", ".github/memory_martin_mpasho.json")
-MAX_CANDIDATES = 25
-MAX_SCRAPE_TRIES = 10
-FRESH_HOURS = 12
+MAX_CANDIDATES = 30
+MAX_SCRAPE_TRIES = 12
+FRESH_HOURS = 24  # was 12; Mpasho often has sparse date meta
 
 MODELS_TO_TRY = [
     "gemini-3.1-pro-preview",
@@ -113,29 +113,60 @@ def is_spam(text):
     low = text.lower()
     return any(m in low for m in ["central subject of the update", "what this means for kenyans", "key takeaway"])
 
+def _is_article_path(path: str) -> bool:
+    """Prefer real article paths over category / author / tag pages."""
+    if not path or path in ("/", ""):
+        return False
+    bad = ("/author/", "/tag/", "/category/", "/page/", "/feed/", "/comment-", "/search", "/about", "/contact")
+    if any(b in path for b in bad):
+        return False
+    # Prefer entertainment / showbiz / relationships / exclusives style paths
+    good = ("/entertainment", "/relationships", "/exclusives", "/lifestyle", "/showbiz", "/celebrity")
+    if any(g in path for g in good):
+        return True
+    # Date-prefixed slugs are almost always articles on this CMS
+    if re.search(r"/20\d{2}-\d{2}-\d{2}-", path):
+        return True
+    # Long hyphenated slug as last segment
+    slug = path.rstrip("/").split("/")[-1]
+    return len(slug) > 25 and "-" in slug
+
 def get_target_urls():
     urls = []
+    seen = set()
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
+            browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
             page = browser.new_page()
             page.goto(SOURCE_URL, wait_until="domcontentloaded", timeout=45000)
-            page.wait_for_timeout(2000)
+            page.wait_for_timeout(2500)
+            # Light scroll so lazy sections load
+            for _ in range(2):
+                page.evaluate("window.scrollBy(0, 1200)")
+                page.wait_for_timeout(800)
             html = page.content()
             browser.close()
         soup = BeautifulSoup(html, "html.parser")
-        for a in soup.select("a[href]")[:80]:
-            href = a.get("href") or ""
+        for a in soup.select("a[href]"):
+            href = (a.get("href") or "").strip()
             title = a.get_text(" ", strip=True)
-            if len(title) < 25 or len(title) > 140:
+            if len(title) < 20 or len(title) > 160:
                 continue
             if href.startswith("/"):
                 href = urllib.parse.urljoin(SOURCE_URL, href)
             if SOURCE_DOMAIN not in href:
                 continue
-            if href not in urls:
-                urls.append(href)
-        return urls[:MAX_CANDIDATES]
+            path = urllib.parse.urlparse(href).path or ""
+            if not _is_article_path(path):
+                continue
+            if href in seen:
+                continue
+            seen.add(href)
+            urls.append(href)
+            if len(urls) >= MAX_CANDIDATES:
+                break
+        print(f"Discovered {len(urls)} candidate article links")
+        return urls
     except Exception as e:
         print(f"List scrape error: {e}")
         return []
@@ -143,27 +174,31 @@ def get_target_urls():
 def scrape_article(url):
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
+            browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
             page = browser.new_page()
             page.goto(url, wait_until="domcontentloaded", timeout=40000)
             page.wait_for_timeout(1500)
             html = page.content()
             browser.close()
         soup = BeautifulSoup(html, "html.parser")
+
+        # Soft freshness: fail-closed only when we *do* have a date and it is old.
+        # Many Mpasho pages omit usable meta; those are allowed if body is solid and not a retrospective.
         fresh, age_h = is_fresh_enough(soup, max_hours=FRESH_HOURS)
-        if not fresh:
-            if age_h is None:
-                print("Skipping, no usable publish-date signal found (fail-closed)")
-            else:
-                print(f"Skipping, age {age_h:.1f}h")
+        if age_h is not None and not fresh:
+            print(f"Skipping (dated, age {age_h:.1f}h > {FRESH_HOURS}h): {url}")
             return None, None, None
+        if age_h is None:
+            print(f"No publish-date meta (soft-pass for Mpasho): {url}")
+
         t = soup.find("title")
         title = t.get_text(strip=True) if t else ""
         for sep in [" | ", " - "]:
             if sep in title:
                 title = title.split(sep)[0].strip()
+
         text = ""
-        for sel in ["article", ".post-content", ".entry-content", "main article", ".content", ".article-body"]:
+        for sel in ["article", ".post-content", ".entry-content", "main article", ".content", ".article-body", ".td-post-content"]:
             c = soup.select_one(sel)
             if c:
                 text = "\n\n".join(p.get_text(" ", strip=True) for p in c.find_all("p") if len(p.get_text(strip=True)) > 30)
@@ -171,6 +206,11 @@ def scrape_article(url):
                     break
         if len(text) < 400:
             text = "\n\n".join(p.get_text(" ", strip=True) for p in soup.find_all("p") if len(p.get_text(strip=True)) > 30)
+
+        if len(text) < 250:
+            print(f"Body too short ({len(text)} chars): {url}")
+            return None, None, None
+
         img = ""
         for m in soup.find_all("meta"):
             prop = m.get("property") or m.get("name") or ""
@@ -178,9 +218,11 @@ def scrape_article(url):
                 img = m.get("content", "")
                 if img:
                     break
+
         if mentions_stale_year(text, now_eat.year):
             print("Skipping, source body cites an older year (likely a retrospective/reshare)")
             return None, None, None
+
         return text, img, title
     except Exception as e:
         print(f"Scrape failed: {e}")
@@ -248,16 +290,18 @@ def main():
     print(f"[{AUTHOR_NAME}] hard-news run @ {publish_ts}")
     links = get_target_urls()
     if not links:
-        print("No links")
+        print("No links discovered — check Playwright / site structure")
         return 0
     style = pick_style(memory.get("style_history", []))
     print(f"Style: {style['name']}")
     for link in links[:MAX_SCRAPE_TRIES]:
+        print(f"Trying: {link}")
         text, img, ttl = scrape_article(link)
         if not text or len(text) < 200:
             continue
         blob = ttl or ""
         if should_skip_story(blob + " " + text, CATEGORY):
+            print("should_skip_story=True")
             continue
         try:
             prompt = news_prompt(AUTHOR_NAME, full_date_str, style, ttl or "", text, role="correspondent", desk=CATEGORY)
