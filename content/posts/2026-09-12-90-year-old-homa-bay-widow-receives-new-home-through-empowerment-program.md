@@ -1,18 +1,19 @@
 ---
 title: "90-Year-Old Homa Bay Widow Receives New Home Through Empowerment Program"
 slug: "90-year-old-homa-bay-widow-receives-new-home-through-empowerment-progr"
-description: "KANYADOTA, HOMA BAY — A 90-year-old widow, Elena Adera Opundo, has been relocated into a newly constructed permanent home following a successful."
+description: "year old homa bay widow receives: KANYADOTA, HOMA BAY — A 90-year-old widow, Elena Adera Opundo, has been relocated into a newly constructed permanent home"
 excerpt: "KANYADOTA, HOMA BAY — A 90-year-old widow, Elena Adera Opundo, has been relocated into a newly constructed permanent home following a successful."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/d8bJfdQ/9b4064565fb4.png"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
+canonical: "https://zandani.co.ke/article/90-year-old-homa-bay-widow-receives-new-home-through-empowerment-progr"
 date: "2026-09-12T19:21:07Z"
 dateModified: "2026-09-12T19:21:07Z"
 focusKeyword: "year old homa bay widow receives"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/90-year-old-homa-bay-widow-receives-new-home-through-empowerment-progr"
 ---
+
 KANYADOTA, HOMA BAY - A 90-year-old widow, Elena Adera Opundo, has been relocated into a newly constructed permanent home following a successful intervention by the Widows Empowerment Program, an initiative overseen by Internal Security Principal Secretary Dr. Raymond Omollo.
 
 The handover ceremony, held this Saturday, marked the conclusion of a project that community leaders describe as a critical welfare effort for Homa Bay’s vulnerable elderly population. According to representatives involved in the program, the initiative was launched after local assessments identified Opundo as living in precarious conditions while acting as the primary guardian for her 13 grandchildren.
