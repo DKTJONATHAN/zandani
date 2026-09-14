@@ -1,18 +1,19 @@
 ---
 title: "Harmonize Addresses His Romantic History on Obinna TV"
 slug: "harmonize-addresses-his-romantic-history-on-obinna-tv"
-description: "What we know - Tanzanian musician Harmonize sat down with Oga Obinna in a candid interview on Obinna TV Extra to discuss his high-profile romantic past. -."
+description: "harmonize addresses his romantic history obinna: What we know - Tanzanian musician Harmonize sat down with Oga Obinna in a candid interview on Obinna TV Extra"
 excerpt: "What we know - Tanzanian musician Harmonize sat down with Oga Obinna in a candid interview on Obinna TV Extra to discuss his high-profile romantic past. -."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/XZNYSQs7/40c8d7665065.jpg"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
+canonical: "https://zandani.co.ke/article/harmonize-addresses-his-romantic-history-on-obinna-tv"
 date: "2026-09-10T12:55:10Z"
 dateModified: "2026-09-10T12:55:10Z"
 focusKeyword: "harmonize addresses his romantic history obinna"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/harmonize-addresses-his-romantic-history-on-obinna-tv"
 ---
+
 Tanzanian musician Harmonize sat down with Oga Obinna in a candid interview on Obinna TV Extra to discuss his high-profile romantic past. The Konde Music Worldwide CEO reflected on his previous relationships, including his ties to Italian model Sarah Michelotti, actress Frida Kajala, and Jacqueline Wolper, while explaining why he chooses not to rank his ex-partners.
 
 The singer deflected attempts to name a favorite woman, asserting that he holds all his past partners in high regard. He noted that publicly naming one favorite could trigger unnecessary drama or disrespect the current partners of these women. He prioritized maintaining professional distance rather than engaging in public comparisons that might complicate the lives of those he once loved.

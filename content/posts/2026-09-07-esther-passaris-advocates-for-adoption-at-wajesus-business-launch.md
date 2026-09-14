@@ -1,18 +1,19 @@
 ---
 title: "Esther Passaris Advocates For Adoption At WaJesus Business Launch"
 slug: "esther-passaris-advocates-for-adoption-at-wajesus-business-launch"
-description: "Esther Passaris took the stage at the ESMANDA Baby Shop opening to pivot away from the typical influencer family planning narrative. By championing."
+description: "esther passaris advocates for adoption wajesus: Esther Passaris took the stage at the ESMANDA Baby Shop opening to pivot away from the typical influencer"
 excerpt: "Esther Passaris took the stage at the ESMANDA Baby Shop opening to pivot away from the typical influencer family planning narrative. By championing."
 author: "Martin Kihara"
 image: "https://i.ibb.co/Tqh79KV4/1cf04bd742ee.webp"
 category: "Gossip"
 tags: ["esther passaris", "wajesus family", "kenyan news", "adoption", "nairobi business", "celebrity news"]
+canonical: "https://zandani.co.ke/article/esther-passaris-advocates-for-adoption-at-wajesus-business-launch"
 date: "2026-09-06T22:30:40Z"
 dateModified: "2026-09-06T22:30:40Z"
 focusKeyword: "esther passaris advocates for adoption wajesus"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/esther-passaris-advocates-for-adoption-at-wajesus-business-launch"
 ---
+
 Esther Passaris took the stage at the ESMANDA Baby Shop opening to pivot away from the typical influencer family planning narrative. By championing adoption, she highlighted the jarring disconnect between the glamorous aesthetic of parenting and the grueling reality of Kenyan bureaucratic procedures.### The Legislative Hurdle versus the Instagram Aesthetic
 
 The WaJesus family frequently shares their journey of family expansion for an audience that consumes parenthood as a performative aesthetic. During the recent launch on Biashara Street, the conversation shifted from baby products to the mechanics of growing a family. While the public often views adoption through a sentimental lens, the legal framework under the Children Act remains a rigid, complex obstacle course.
