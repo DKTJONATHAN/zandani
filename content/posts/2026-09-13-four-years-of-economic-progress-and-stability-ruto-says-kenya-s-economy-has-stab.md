@@ -1,19 +1,18 @@
 ---
 title: "Four Years of Economic Progress and Stability: Ruto Says Kenya’s Economy Has Stabilised, Road"
 slug: "four-years-of-economic-progress-and-stability-ruto-says-kenya-s-econom"
-description: "four years economic progress and stability: NAIROBI — President William Ruto marked his four-year tenure in office on Sunday by declaring the national economy"
+description: "NAIROBI — President William Ruto marked his four-year tenure in office on Sunday by declaring the national economy stabilized, citing a significant."
 excerpt: "NAIROBI — President William Ruto marked his four-year tenure in office on Sunday by declaring the national economy stabilized, citing a significant."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/hxSzZhsr/72c0d28389d1.jpg"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
-canonical: "https://zandani.co.ke/article/four-years-of-economic-progress-and-stability-ruto-says-kenya-s-econom"
 date: "2026-09-13T14:28:18Z"
 dateModified: "2026-09-13T14:28:18Z"
 focusKeyword: "four years economic progress and stability"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/four-years-of-economic-progress-and-stability-ruto-says-kenya-s-econom"
 ---
-
 NAIROBI - President William Ruto marked his four-year tenure in office on Sunday by declaring the national economy stabilized, citing a significant buildup in foreign exchange reserves and the resumption of major infrastructure projects nationwide.
 
 Addressing the state of the economy, the President stated that Kenya has moved past the fiscal volatility inherited at the start of his term, characterized by high inflation and a precarious debt burden. According to official data presented by the President, foreign exchange reserves have grown two-and-a-half times over the last four years, contributing to the country’s current standing as the sixth-largest economy in Africa.
