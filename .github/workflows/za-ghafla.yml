@@ -1,10 +1,8 @@
 name: Wanjiku Kuria — Ghafla
 
-# August-style: this desk owns its own schedule. No universal dispatcher cron.
 on:
   schedule:
-    # Hourly 06:08–23:08 EAT (UTC+3)
-    - cron: "8 3-20 * * *"
+    - cron: "23 3-20 * * *"
   workflow_call:
   workflow_dispatch: {}
 
@@ -18,7 +16,7 @@ permissions:
 env:
   DEFAULT_BRANCH: main
   POSTS_DIR: content/posts
-  MEMORY_FILE: .github/memory_wanjiku_ghafla.json
+  MEMORY_FILE: .github/memory_wanjiku.json
   TZ: Africa/Nairobi
 
 jobs:
@@ -26,7 +24,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
           ref: ${{ env.DEFAULT_BRANCH }}
@@ -34,12 +32,12 @@ jobs:
           persist-credentials: true
 
       - name: Set up Python 3.11
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
       - name: Cache Playwright browsers
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ~/.cache/ms-playwright
           key: ${{ runner.os }}-playwright-chromium
@@ -79,6 +77,6 @@ jobs:
             echo "No article or memory changes to commit"
             exit 0
           fi
-          git commit -m "content: Wanjiku Kuria Ghafla"
+          git commit -m "content: Wanjiku Kuria ghafla"
           git pull --rebase origin "${DEFAULT_BRANCH}" || git pull origin "${DEFAULT_BRANCH}" --no-rebase || true
           git push origin HEAD:"${DEFAULT_BRANCH}"
