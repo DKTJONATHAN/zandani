@@ -1,18 +1,19 @@
 ---
 title: "Why US Fugitive Cornered in Runda Over Fatal Drunk-Driving Case"
 slug: "why-us-fugitive-cornered-in-runda-over-fatal-drunk-driving-case"
-description: "For thirteen years, a quiet driveway in Runda served as a monument to the fragility of justice Coverage from Nairobi and across Kenya."
+description: "why fugitive cornered runda over fatal: For thirteen years, a quiet driveway in Runda served as a monument to the fragility of justice Coverage from Nairobi"
 excerpt: "For thirteen years, a quiet driveway in Runda served as a monument to the fragility of justice Coverage from Nairobi and across Kenya."
 author: "Jaj"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/arrest_latest_0_0.jpeg.webp?itok=q6NaZT4V"
 category: "Opinions"
 tags: ["why us fugitive cornered in runda over fatal drunk driving case", "opinions", "kenya news"]
+canonical: "https://zandani.co.ke/article/why-us-fugitive-cornered-in-runda-over-fatal-drunk-driving-case"
 date: "2026-09-10T15:13:11Z"
 dateModified: "2026-09-10T15:13:11Z"
 focusKeyword: "why fugitive cornered runda over fatal"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/why-us-fugitive-cornered-in-runda-over-fatal-drunk-driving-case"
 ---
+
 For thirteen years, a quiet driveway in Runda served as a monument to the fragility of justice. While the victim’s family in Madera County endured a decade of frozen grief, a man convicted of gross vehicular manslaughter walked among us, shielded by the anonymity that our high-walled suburbs so effectively provide. The arrest of this fugitive is not merely a win for international law enforcement; it is a long-overdue reckoning for a society that often confuses physical security with moral immunity.
 
 The evidence presented in the Milimani Law Courts paints a stark picture of a man who treated international borders as a personal escape hatch. After being convicted of a fatal DUI in California, he skipped his sentencing hearing in 2013, effectively betting that a change of continent would render a life taken irrelevant. For six years, the trail went cold, until the United States Department of Justice finally knocked on our door in 2019. Even then, the bureaucratic crawl that followed-a seven-year delay from flight to arrest-reveals a systemic weakness in how we handle cross-border criminal accountability.

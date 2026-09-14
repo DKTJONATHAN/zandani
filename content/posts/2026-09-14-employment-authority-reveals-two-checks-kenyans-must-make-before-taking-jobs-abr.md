@@ -1,18 +1,19 @@
 ---
 title: "Employment Authority Reveals Two Checks Kenyans Must Make Before Taking Jobs Abroad"
 slug: "employment-authority-reveals-two-checks-kenyans-must-make-before-takin"
-description: "The National Employment Authority (NEA) has issued a strict two-step verification directive for Kenyans pursuing overseas jobs, ordering prospective."
+description: "employment authority reveals two checks kenyans: The National Employment Authority (NEA) has issued a strict two-step verification directive for Kenyans"
 excerpt: "The National Employment Authority (NEA) has issued a strict two-step verification directive for Kenyans pursuing overseas jobs, ordering prospective."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/qatar%20jobs_0_0.jpg.webp?itok=e7vRlEZ2"
 category: "News"
 tags: ["employment authority reveals two checks kenyans must make before takin", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/employment-authority-reveals-two-checks-kenyans-must-make-before-takin"
 date: "2026-09-14T12:56:19Z"
 dateModified: "2026-09-14T12:56:19Z"
 focusKeyword: "employment authority reveals two checks kenyans"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/employment-authority-reveals-two-checks-kenyans-must-make-before-takin"
 ---
+
 The National Employment Authority (NEA) has issued a strict two-step verification directive for Kenyans pursuing overseas jobs, ordering prospective migrant workers to confirm both recruiter accreditation and specific job orders before parting with any money.
 
 ### What we know
