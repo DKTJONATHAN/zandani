@@ -1,18 +1,19 @@
 ---
 title: "PLO Lumumba Goes Viral After Walking Off Stage After His Speech"
 slug: "plo-lumumba-goes-viral-after-walking-off-stage-after-his-speech"
-description: "Lumumba exited the stage abruptly at the Mama Grace Onyango Cultural and Social Centre on Friday, following a request by event organizers to suspend his."
+description: "plo lumumba goes viral after walking: Lumumba exited the stage abruptly at the Mama Grace Onyango Cultural and Social Centre on Friday, following a request by"
 excerpt: "Lumumba exited the stage abruptly at the Mama Grace Onyango Cultural and Social Centre on Friday, following a request by event organizers to suspend his."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/kCH315v/9f4e457f0a8b.jpg"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
+canonical: "https://zandani.co.ke/article/plo-lumumba-goes-viral-after-walking-off-stage-after-his-speech"
 date: "2026-09-11T12:48:56Z"
 dateModified: "2026-09-11T12:48:56Z"
 focusKeyword: "plo lumumba goes viral after walking"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/plo-lumumba-goes-viral-after-walking-off-stage-after-his-speech"
 ---
+
 **KISUMU** - Legal scholar and orator Prof. P.L.O. Lumumba exited the stage abruptly at the Mama Grace Onyango Cultural and Social Centre on Friday, following a request by event organizers to suspend his keynote address to facilitate the arrival of Kisumu Governor Anyang’ Nyong’o.
 
 The interruption occurred during the 18th TICH Annual Scientific Conference, where Prof. Lumumba was speaking on the challenges facing African access to research materials. As organizers moved to pause the session for the governor’s entry, Prof. Lumumba paused his delivery, citing his discomfort with the disruption of intellectual proceedings in favor of political protocol.
