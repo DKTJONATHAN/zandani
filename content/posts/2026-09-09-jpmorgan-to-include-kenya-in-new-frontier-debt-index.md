@@ -1,18 +1,19 @@
 ---
 title: "JPMorgan to Include Kenya in New Frontier Debt Index"
 slug: "jpmorgan-to-include-kenya-in-new-frontier-debt-index"
-description: "What we know - Cheaper global cash could soon flow into Kenya's domestic bond market because Wall Street giant JPMorgan is listing the country in a new."
+description: "jpmorgan include kenya new frontier debt: What we know - Cheaper global cash could soon flow into Kenya's domestic bond market because Wall Street giant"
 excerpt: "What we know - Cheaper global cash could soon flow into Kenya's domestic bond market because Wall Street giant JPMorgan is listing the country in a new."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/mbadi-ruto.jpg.webp?itok=OfsdkMpG"
 category: "News"
 tags: ["jpmorgan to include kenya in new frontier debt index", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/jpmorgan-to-include-kenya-in-new-frontier-debt-index"
 date: "2026-09-09T19:47:37Z"
 dateModified: "2026-09-09T19:47:37Z"
 focusKeyword: "jpmorgan include kenya new frontier debt"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/jpmorgan-to-include-kenya-in-new-frontier-debt-index"
 ---
+
 ### What we know
 
 - Cheaper global cash could soon flow into Kenya's domestic bond market because Wall Street giant JPMorgan is listing the country in a new frontier-market local-currency debt index. - * JPMorgan is structuring a new local-currency frontier debt index to give foreign funds a standard benchmark for investing in domestic government bonds. - The plan by the New York-based investment bank aims to solve a long-standing headache for fund managers. - Data reveals Kenya is a massive player in this space compared to its regional peers.
