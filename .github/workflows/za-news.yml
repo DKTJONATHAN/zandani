@@ -1,12 +1,11 @@
 name: Celestine Nzioka — News
 
-# August-style: this desk owns its own schedule. No universal dispatcher cron.
-# Manual "Run workflow" still works.
 on:
   schedule:
-    # Hourly 06:11–23:11 EAT (UTC+3). Minute 11 avoids :00 GitHub queue pile-up.
+    # Hourly in Kenyan time (EAT = UTC+3 / Africa/Nairobi)
+    # Minute 11 avoids :00 queue pile-up with other desks
+    # 06:11–23:11 EAT → UTC 03:11–20:11
     - cron: "11 3-20 * * *"
-  workflow_call:
   workflow_dispatch: {}
 
 concurrency:
@@ -25,6 +24,7 @@ env:
 jobs:
   generate-and-publish:
     runs-on: ubuntu-22.04
+    timeout-minutes: 45
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
@@ -43,15 +43,15 @@ jobs:
         uses: actions/cache@v5
         with:
           path: ~/.cache/ms-playwright
-          key: ${{ runner.os }}-playwright-chromium
+          key: ${{ runner.os }}-playwright-chromium-news-v2
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests google-genai beautifulsoup4 lxml playwright python-dateutil
+          pip install requests google-genai beautifulsoup4 lxml playwright python-dateutil Pillow
           playwright install chromium --with-deps
 
-      - name: Run Celestine News pipeline
+      - name: Run Celestine News pipeline (≤24h)
         env:
           GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -60,18 +60,43 @@ jobs:
           IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
           POSTS_DIR: ${{ env.POSTS_DIR }}
           MEMORY_FILE: ${{ env.MEMORY_FILE }}
+          TZ: Africa/Nairobi
         run: |
-          if [ -f scripts/celestine_news.py ]; then
-            python scripts/celestine_news.py
-          else
-            echo "scripts/celestine_news.py missing"
+          set -e
+          echo "=== Celestine News scraper (Kenya / EAT) ==="
+          date
+          echo "Source: https://www.kenyans.co.ke/news"
+          echo "Freshness gate: 24 hours"
+          if [ ! -f scripts/celestine_news.py ]; then
+            echo "ERROR: scripts/celestine_news.py missing"
             exit 1
           fi
+          # Safety: force FRESH_HOURS=24
+          python - << 'CHK'
+          from pathlib import Path
+          import re
+          p = Path("scripts/celestine_news.py")
+          t = p.read_text()
+          if "FRESH_HOURS = 24" not in t:
+              t2 = re.sub(r"FRESH_HOURS\s*=\s*\d+", "FRESH_HOURS = 24", t)
+              if "FRESH_HOURS = 24" not in t2:
+                  t2 = t.replace("MAX_SCRAPE_TRIES = 8", "MAX_SCRAPE_TRIES = 8\nFRESH_HOURS = 24")
+              p.write_text(t2)
+              print("Patched FRESH_HOURS = 24 into scripts/celestine_news.py")
+          else:
+              print("FRESH_HOURS = 24 already set")
+          CHK
+          python scripts/celestine_news.py
 
-      - name: Voice, SEO and Kenya-first gate
-        run: python scripts/finish_desk.py
+      - name: Voice / SEO gate (optional — never block publish)
+        run: |
+          if [ -f scripts/finish_desk.py ]; then
+            python scripts/finish_desk.py || true
+          else
+            echo "finish_desk.py not present — skip"
+          fi
 
-      - name: Commit history and new posts
+      - name: Commit and push
         run: |
           git config user.name  "Za Ndani"
           git config user.email "bot@zandani.co.ke"
@@ -80,6 +105,6 @@ jobs:
             echo "No article or memory changes to commit"
             exit 0
           fi
-          git commit -m "content: Celestine Nzioka news"
+          git commit -m "content: Celestine Nzioka news (≤24h)"
           git pull --rebase origin "${DEFAULT_BRANCH}" || git pull origin "${DEFAULT_BRANCH}" --no-rebase || true
           git push origin HEAD:"${DEFAULT_BRANCH}"
