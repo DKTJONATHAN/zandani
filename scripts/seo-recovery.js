@@ -63,22 +63,19 @@ robotsFiles.forEach(file => {
   }
 });
 
-// 4. Check for Cache-Control headers that prevent indexing
-console.log('\n4️⃣ Checking Vercel cache headers...');
-const vercelJson = path.join(__dirname, '../vercel.json');
-if (fs.existsSync(vercelJson)) {
-  const vercelConfig = JSON.parse(fs.readFileSync(vercelJson, 'utf-8'));
-  const headers = vercelConfig.headers || [];
-  
-  headers.forEach(h => {
-    if (h.source === '/(.*)')  {
-      const cacheControl = h.headers.find(hdr => hdr.key === 'Cache-Control');
-      if (cacheControl && cacheControl.value.includes('max-age=0')) {
-        console.log(`   ⚠️  WARNING: Homepage has Cache-Control: ${cacheControl.value}`);
-        console.log('      This prevents Google from caching pages. Should be: public, max-age=3600');
-      }
-    }
-  });
+// 4. Check Cloudflare edge headers (public/_headers)
+console.log('\n4️⃣ Checking Cloudflare cache headers (public/_headers)...');
+const headersFile = path.join(__dirname, '../public/_headers');
+if (fs.existsSync(headersFile)) {
+  const content = fs.readFileSync(headersFile, 'utf-8');
+  if (content.includes('max-age=0') && content.includes('Cache-Control')) {
+    console.log('   ⚠️  WARNING: Found max-age=0 in Cache-Control');
+    console.log('      Prefer public, max-age=3600 (or longer) for HTML that should be cached');
+  } else {
+    console.log('   ✅ public/_headers present');
+  }
+} else {
+  console.log('   ⚠️  public/_headers not found');
 }
 
 // 5. Verify article frontmatter has no noindex
@@ -119,7 +116,7 @@ const checklist = [
   {
     priority: 'HIGH',
     task: 'Fix Cache-Control headers',
-    action: 'Change homepage Cache-Control from max-age=0 to max-age=3600'
+    action: 'Review public/_headers and Cloudflare cache rules'
   },
   {
     priority: 'HIGH',
