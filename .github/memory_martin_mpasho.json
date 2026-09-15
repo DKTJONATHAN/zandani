@@ -85,10 +85,10 @@
     "c98505ceed8558389e6d082a",
     "be1cfcdbf9c4089311765f3c",
     "f9da9473b504aa8563a2eb1f",
-    "32a7d092b3c7d45fb1590839"
+    "32a7d092b3c7d45fb1590839",
+    "7cb01e8416d521c7b9fbc831"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard Showbiz Lead",
     "Event Report",
@@ -117,7 +117,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [],
   "recent_stories": [
@@ -136,6 +137,10 @@
     {
       "key": "2026-09-15-dr-ofweneke-why-muslims-beat-christians-in-matters-of-religious-unity",
       "ts": "2026-09-15T07:20:44Z"
+    },
+    {
+      "key": "2026-09-15-guardian-angels-unique-way-of-attracting-tenants-to-hi-mabati-rentals",
+      "ts": "2026-09-15T07:49:30Z"
     }
   ]
 }
