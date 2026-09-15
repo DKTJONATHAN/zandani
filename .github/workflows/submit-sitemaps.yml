@@ -1,10 +1,11 @@
-name: Auto-submit sitemaps
+name: Verify and submit sitemaps
 
 on:
   push:
     paths:
       - "content/posts/**.md"
       - "scripts/generate-seo.js"
+      - "scripts/inject-meta.js"
       - "public/sitemap.xml"
       - "public/news-sitemap.xml"
   schedule:
@@ -16,74 +17,50 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  ping:
+  verify:
     runs-on: ubuntu-22.04
     steps:
-      - name: Wait for Cloudflare build to publish the new sitemap
+      - name: Wait for Cloudflare deployment
         if: github.event_name == 'push'
-        run: |
-          echo "Waiting 3 minutes so the Cloudflare deploy can finish."
-          sleep 180
+        run: sleep 60
 
-      - name: Confirm live sitemaps
-        id: live
+      - name: Verify live sitemap index
+        shell: bash
         run: |
-          set -e
-          for url in https://zandani.co.ke/sitemap.xml https://zandani.co.ke/news-sitemap.xml; do
-            code=$(curl -s -o /tmp/sm.xml -w "%{http_code}" "$url")
-            echo "$url -> $code"
-            if [ "$code" != "200" ]; then
-              echo "Sitemap not live yet: $url"
-              exit 1
-            fi
+          set -euo pipefail
+          for attempt in 1 2 3 4 5; do
+            code=$(curl -L -sS -o /tmp/sitemap.xml -w "%{http_code}" https://zandani.co.ke/sitemap.xml)
+            if [ "$code" = "200" ]; then break; fi
+            echo "sitemap.xml returned $code; retry $attempt/5"
+            sleep 30
           done
-          urls=$(grep -o '<loc>[^<]*</loc>' /tmp/sm.xml | wc -l)
-          echo "news-sitemap loc tags: $urls"
+          test "$code" = "200"
+          grep -q 'sitemap-articles.xml' /tmp/sitemap.xml
+          grep -q 'news-sitemap.xml' /tmp/sitemap.xml
 
-      - name: Ping Google and Bing sitemap endpoints
+      - name: Verify live news sitemap
         run: |
-          set +e
-          for sm in https://zandani.co.ke/sitemap.xml https://zandani.co.ke/news-sitemap.xml; do
-            echo "Google ping $sm"
-            curl -sS -o /tmp/g.txt -w "google %{http_code}\n" "https://www.google.com/ping?sitemap=${sm}"
-            echo "Bing ping $sm"
-            curl -sS -o /tmp/b.txt -w "bing %{http_code}\n" "https://www.bing.com/indexnow?url=${sm}"
-            curl -sS -o /tmp/b2.txt -w "bing-ping %{http_code}\n" "https://www.bing.com/ping?sitemap=${sm}"
-          done
-          exit 0
+          set -euo pipefail
+          code=$(curl -L -sS -o /tmp/news-sitemap.xml -w "%{http_code}" https://zandani.co.ke/news-sitemap.xml)
+          test "$code" = "200"
+          grep -q 'news.google.com' /tmp/news-sitemap.xml || grep -q 'schemas/sitemap-news/0.9' /tmp/news-sitemap.xml
 
-      - name: Submit sitemaps through Search Console API
+      - name: Submit sitemap index to Google Search Console
         env:
           GSC_KEY_RAW: ${{ secrets.GSC_JSON_KEY }}
         run: |
-          if [ -z "$GSC_KEY_RAW" ]; then
-            echo "GSC_JSON_KEY not set. Ping endpoints already ran."
+          if [ -z "${GSC_KEY_RAW:-}" ]; then
+            echo "GSC_JSON_KEY is not configured; sitemap remains discoverable via robots.txt."
             exit 0
           fi
           npm install googleapis --no-save
-          node << 'NODE'
+          node <<'NODE'
           const { google } = require('googleapis');
-          async function run() {
-            const keys = JSON.parse(process.env.GSC_KEY_RAW);
-            keys.private_key = keys.private_key.replace(/\\n/g, '\n');
-            const auth = new google.auth.GoogleAuth({
-              credentials: keys,
-              scopes: ['https://www.googleapis.com/auth/webmasters']
-            });
-            const searchconsole = google.searchconsole({ version: 'v1', auth });
-            const siteUrl = 'https://zandani.co.ke/';
-            const feeds = [
-              'https://zandani.co.ke/sitemap.xml',
-              'https://zandani.co.ke/news-sitemap.xml'
-            ];
-            for (const feedpath of feeds) {
-              try {
-                await searchconsole.sitemaps.submit({ siteUrl, feedpath });
-                console.log('GSC accepted', feedpath);
-              } catch (err) {
-                console.log('GSC submit failed for', feedpath, err.message);
-              }
-            }
-          }
-          run();
+          const keys = JSON.parse(process.env.GSC_KEY_RAW);
+          keys.private_key = keys.private_key.replace(/\\n/g, '\n');
+          const auth = new google.auth.GoogleAuth({ credentials: keys, scopes: ['https://www.googleapis.com/auth/webmasters'] });
+          const searchconsole = google.searchconsole({ version: 'v1', auth });
+          searchconsole.sitemaps.submit({ siteUrl: 'https://zandani.co.ke/', feedpath: 'https://zandani.co.ke/sitemap.xml' })
+            .then(() => console.log('Google Search Console sitemap submitted.'))
+            .catch((error) => { console.error(error.message); process.exitCode = 1; });
           NODE
