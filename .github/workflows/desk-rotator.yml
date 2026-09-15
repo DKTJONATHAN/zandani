@@ -1,25 +1,18 @@
 name: Desk Rotator
 
-# Independent dispatcher. All timing decisions use East Africa Time (EAT).
-# GitHub cron is UTC-only; logic below converts to Africa/Nairobi before acting.
-#
-# EAT schedule:
-# - Every hour 06:00–23:00 EAT → fire za-news, za-ghafla, za-mpasho
-# - Every even EAT hour 06:00–22:00 → fire one random desk from the pool
-#   (no repeats until the pool is exhausted, then reset and cycle again)
+# Manual emergency/rotation tool only. Automatic publishing is owned by the
+# individual desk schedules and the scheduled-post publisher. Keeping this
+# workflow manual prevents duplicate desk runs and competing writes to main.
 
 on:
-  schedule:
-    # Minute 17 every UTC hour → minute 17 every EAT hour (UTC+3).
-    - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
       mode:
-        description: "hourly = news/ghafla/mpasho only | rotate = one random desk | both = default"
+        description: "hourly = news/ghafla/mpasho only | rotate = one desk | both = both"
         required: false
         default: "both"
       force_desk:
-        description: "Optional: force one rotation desk (e.g. entertainment, sports). Empty = random."
+        description: "Optional: force one rotation desk"
         required: false
         default: ""
 
@@ -43,189 +36,45 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0
           ref: ${{ env.DEFAULT_BRANCH }}
           token: ${{ secrets.ACTIONS_GITHUB_TOKEN || secrets.PERSONAL_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           persist-credentials: true
 
-      - name: Decide and fire workflows (EAT clock)
+      - name: Decide and fire workflows
         env:
-          TZ: Africa/Nairobi
           GH_TOKEN: ${{ secrets.ACTIONS_GITHUB_TOKEN || secrets.PERSONAL_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
-          MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || 'both' }}
-          FORCE_DESK: ${{ github.event_name == 'workflow_dispatch' && inputs.force_desk || '' }}
+          MODE: ${{ inputs.mode || 'both' }}
+          FORCE_DESK: ${{ inputs.force_desk || '' }}
         run: |
           set -euo pipefail
-
-          # Force EAT for every date(1) call in this job
           export TZ=Africa/Nairobi
-
-          EAT_H=$(date +%H)
-          EAT_M=$(date +%M)
-          EAT_DAY=$(date +%F)
           EAT_NOW=$(date '+%Y-%m-%d %H:%M %Z')
-          H=$((10#$EAT_H))
-          M=$((10#$EAT_M))
-
-          echo "Desk Rotator | EAT $EAT_NOW | mode=${MODE}"
-
-          # Desk hours in EAT (same window as other za-* desks)
-          # Outside this window, scheduled runs no-op (manual dispatch still works).
-          IN_DESK_HOURS=0
-          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
-            IN_DESK_HOURS=1
-          elif [ "$H" -ge 6 ] && [ "$H" -le 23 ]; then
-            IN_DESK_HOURS=1
-          fi
-
-          if [ "$IN_DESK_HOURS" -ne 1 ]; then
-            echo "Outside EAT desk hours (06:00–23:59). Skipping."
-            {
-              echo "## Desk Rotator"
-              echo "**EAT:** $EAT_NOW"
-              echo "Outside desk hours — no workflows fired."
-            } >> "$GITHUB_STEP_SUMMARY"
-            exit 0
-          fi
-
-          # Rotation pool (excludes news/g: news / ghafla / mpasho)
-          POOL=(
-            entertainment
-            africa
-            agriculture
-            business
-            lifestyle
-            opinions
-            sports
-            technology
-            diano
-            jaj
-          )
-
+          POOL=(entertainment africa agriculture business lifestyle opinions sports technology diano jaj)
           desk_to_workflow() {
             case "$1" in
-              news) echo "za-news.yml" ;;
-              ghafla) echo "za-ghafla.yml" ;;
-              mpasho) echo "za-mpasho.yml" ;;
-              entertainment) echo "za-entertainment.yml" ;;
-              africa) echo "za-africa.yml" ;;
-              agriculture) echo "za-agriculture.yml" ;;
-              business) echo "za-business.yml" ;;
-              lifestyle) echo "za-lifestyle.yml" ;;
-              opinions) echo "za-opinions.yml" ;;
-              sports) echo "za-sports.yml" ;;
-              technology) echo "za-technology.yml" ;;
-              diano) echo "za-diano.yml" ;;
-              jaj) echo "za-jaj.yml" ;;
-              *) echo "" ;;
+              news) echo "za-news.yml";; ghafla) echo "za-ghafla.yml";; mpasho) echo "za-mpasho.yml";;
+              entertainment) echo "za-entertainment.yml";; africa) echo "za-africa.yml";; agriculture) echo "za-agriculture.yml";;
+              business) echo "za-business.yml";; lifestyle) echo "za-lifestyle.yml";; opinions) echo "za-opinions.yml";;
+              sports) echo "za-sports.yml";; technology) echo "za-technology.yml";; diano) echo "za-diano.yml";; jaj) echo "za-jaj.yml";; *) return 1;;
             esac
           }
+          fire() { local wf; wf=$(desk_to_workflow "$1"); echo "Triggering $wf ($1) at $EAT_NOW"; gh workflow run "$wf" --ref "$DEFAULT_BRANCH"; }
 
-          fire_workflow() {
-            local desk="$1"
-            local wf
-            wf=$(desk_to_workflow "$desk")
-            if [ -z "$wf" ]; then
-              echo "Unknown desk: $desk" >&2
-              return 1
-            fi
-            echo "→ Triggering $wf ($desk) [EAT $EAT_NOW]"
-            gh workflow run "$wf" --ref "$DEFAULT_BRANCH" \
-              && echo "  fired $wf" \
-              || echo "  WARN: failed to fire $wf" >&2
-          }
-
-          mkdir -p "$(dirname "$ROTATION_LEDGER")"
-          [ -f "$ROTATION_LEDGER" ] || touch "$ROTATION_LEDGER"
-
-          FIRED_HOURLY=()
-          FIRED_ROTATE=""
-
-          # --- Every EAT hour: news + ghafla + mpasho ---
+          mkdir -p "$(dirname "$ROTATION_LEDGER")"; touch "$ROTATION_LEDGER"
           if [ "$MODE" = "hourly" ] || [ "$MODE" = "both" ]; then
-            for d in news ghafla mpasho; do
-              fire_workflow "$d"
-              FIRED_HOURLY+=("$d")
-            done
+            fire news; fire ghafla; fire mpasho
           fi
-
-          # --- Every 2 EAT hours (even hour): one random unused desk ---
-          # Even EAT hours: 06, 08, 10, 12, 14, 16, 18, 20, 22
-          DO_ROTATE=0
-          if [ "$MODE" = "rotate" ]; then
-            DO_ROTATE=1
-          elif [ "$MODE" = "both" ] && [ $((H % 2)) -eq 0 ]; then
-            DO_ROTATE=1
-          fi
-
-          if [ "$DO_ROTATE" -eq 1 ]; then
+          if [ "$MODE" = "rotate" ] || [ "$MODE" = "both" ]; then
             REMAINING=()
-            for d in "${POOL[@]}"; do
-              if ! grep -qxF "$d" "$ROTATION_LEDGER" 2>/dev/null; then
-                REMAINING+=("$d")
-              fi
-            done
-
-            if [ "${#REMAINING[@]}" -eq 0 ]; then
-              echo "Rotation cycle complete at EAT $EAT_NOW — resetting ledger"
-              : > "$ROTATION_LEDGER"
-              REMAINING=("${POOL[@]}")
-            fi
-
-            PICK=""
-            if [ -n "${FORCE_DESK:-}" ] && [ "$FORCE_DESK" != "null" ]; then
-              desk=$(echo "$FORCE_DESK" | tr '[:upper:]' '[:lower:]' | sed 's/\.yml$//; s/^za-//; s/^za //')
-              PICK="$desk"
-            else
-              IDX=$((RANDOM % ${#REMAINING[@]}))
-              PICK="${REMAINING[$IDX]}"
-            fi
-
-            VALID=0
-            for d in "${POOL[@]}"; do
-              [ "$d" = "$PICK" ] && VALID=1 && break
-            done
-            if [ "$VALID" -ne 1 ]; then
-              echo "Invalid rotation desk: $PICK" >&2
-              exit 1
-            fi
-
-            fire_workflow "$PICK"
-            FIRED_ROTATE="$PICK"
-
-            if ! grep -qxF "$PICK" "$ROTATION_LEDGER" 2>/dev/null; then
-              echo "$PICK" >> "$ROTATION_LEDGER"
-            fi
-
-            git config user.name  "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
+            for desk in "${POOL[@]}"; do grep -qxF "$desk" "$ROTATION_LEDGER" || REMAINING+=("$desk"); done
+            if [ "${#REMAINING[@]}" -eq 0 ]; then : > "$ROTATION_LEDGER"; REMAINING=("${POOL[@]}"); fi
+            if [ -n "$FORCE_DESK" ]; then PICK=$(echo "$FORCE_DESK" | tr '[:upper:]' '[:lower:]' | sed 's/\.yml$//; s/^za-//'); else PICK="${REMAINING[$((RANDOM % ${#REMAINING[@]}))]}"; fi
+            printf '%s\n' "${POOL[@]}" | grep -qxF "$PICK" || { echo "Invalid rotation desk: $PICK" >&2; exit 1; }
+            fire "$PICK"
+            grep -qxF "$PICK" "$ROTATION_LEDGER" || echo "$PICK" >> "$ROTATION_LEDGER"
+            git config user.name "github-actions[bot]"; git config user.email "github-actions[bot]@users.noreply.github.com"
+            git fetch origin "$DEFAULT_BRANCH"; git rebase "origin/$DEFAULT_BRANCH"
             git add "$ROTATION_LEDGER"
-            if ! git diff --staged --quiet; then
-              git commit -m "chore: desk rotation ledger (+$PICK) EAT $EAT_DAY ${EAT_H}:${EAT_M}"
-              git pull --rebase origin "$DEFAULT_BRANCH" || true
-              git push origin HEAD:"$DEFAULT_BRANCH" || true
-            fi
-          else
-            echo "Skip rotation (EAT hour $H is odd — next even EAT hour)"
+            if ! git diff --staged --quiet; then git commit -m "chore: record manual desk rotation"; git push origin HEAD:"$DEFAULT_BRANCH"; fi
           fi
-
-          {
-            echo "## Desk Rotator (EAT)"
-            echo "**EAT now:** $EAT_NOW"
-            echo "**Mode:** $MODE"
-            echo "**EAT hour:** $H (even = rotation slot)"
-            if [ "${#FIRED_HOURLY[@]}" -gt 0 ]; then
-              echo "**Hourly fired:** ${FIRED_HOURLY[*]}"
-            else
-              echo "**Hourly fired:** (none this run)"
-            fi
-            if [ -n "$FIRED_ROTATE" ]; then
-              echo "**Rotation fired:** $FIRED_ROTATE"
-              echo "**Ledger:**"
-              echo '```'
-              cat "$ROTATION_LEDGER" || true
-              echo '```'
-            else
-              echo "**Rotation fired:** (skipped)"
-            fi
-          } >> "$GITHUB_STEP_SUMMARY"
