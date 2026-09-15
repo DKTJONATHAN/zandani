@@ -89,10 +89,10 @@
     "7cb01e8416d521c7b9fbc831",
     "a8fd5a11990db3659d782b12",
     "0ca5460292f98449dc5764c6",
-    "f3e9d99acbf2743fcf63c2f9"
+    "f3e9d99acbf2743fcf63c2f9",
+    "0d3bd1076b33c6c9e223ff3f"
   ],
   "style_history": [
-    "Statement Report",
     "Hard Showbiz Lead",
     "Event Report",
     "Statement Report",
@@ -121,7 +121,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [],
   "recent_stories": [
@@ -156,6 +157,10 @@
     {
       "key": "2026-09-15-how-khaligraph-jones-rocked-christie-sevens-finale",
       "ts": "2026-09-15T17:26:15Z"
+    },
+    {
+      "key": "2026-09-15-lupita-nyongo-returns-to-new-york-stage-in-pre-existing-condition",
+      "ts": "2026-09-15T20:35:01Z"
     }
   ]
 }
