@@ -1,11 +1,9 @@
 name: SEO Frontmatter Guard
 
+# SEO normalization is part of the build pipeline. This workflow is manual
+# for emergency repair only, so it cannot race a writer or trigger extra builds.
+
 on:
-  push:
-    branches: [ main ]
-    paths:
-      - "content/posts/*.md"
-      - "scripts/normalize_posts_seo.py"
   workflow_dispatch:
 
 permissions:
@@ -29,13 +27,18 @@ jobs:
         run: python scripts/normalize_posts_seo.py
 
       - name: Commit Changes
+        shell: bash
         run: |
-          if git diff --quiet; then
+          set -euo pipefail
+          if git diff --quiet -- content/posts; then
             echo "No SEO normalization changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git rebase origin/main
           git add content/posts/*.md
+          git diff --staged --quiet && exit 0
           git commit -m "chore(seo): normalize generated post metadata"
-          git push
+          git push origin HEAD:main
