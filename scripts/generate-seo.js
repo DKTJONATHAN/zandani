@@ -11,7 +11,14 @@ const publicDir = path.resolve(process.cwd(), 'public');
 const distDir = path.resolve(process.cwd(), 'dist');
 const SITE_ORIGIN = new URL(SITE_URL).origin;
 
-function escapeXml(value) { return String(value ?? '').replace(/&/g, '&').replace(/</g, '<').replace(/>/g, '>').replace(/"/g, '"').replace(/'/g, '''); }
+function escapeXml(value) {
+  return String(value ?? '')
+    .replace(/&/g, '&' + 'amp;')
+    .replace(/</g, '&' + 'lt;')
+    .replace(/>/g, '&' + 'gt;')
+    .replace(/"/g, '&' + 'quot;')
+    .replace(/'/g, '&' + 'apos;');
+}
 function slugify(value) { return String(value || '').toLowerCase().trim().replace(/[%']/g, ' ').replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, ''); }
 function dateValue(value) { const d = new Date(String(value || '')); return Number.isNaN(d.getTime()) ? null : d; }
 function publishedAt(data) { return dateValue(data.publishDate || data.date); }
