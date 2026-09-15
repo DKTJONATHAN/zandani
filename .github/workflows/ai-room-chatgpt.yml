@@ -1,0 +1,63 @@
+name: AI Room — ChatGPT
+
+on:
+  workflow_dispatch:
+    inputs:
+      chat_id:
+        description: "Chat id to process"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  chatgpt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Resolve chat file
+        id: resolve
+        env:
+          CHAT_ID: ${{ inputs.chat_id }}
+        run: |
+          python - <<'PY'
+          import glob, json, os
+          wanted = os.environ["CHAT_ID"]
+          for path in glob.glob("data/ai-chats/*.json"):
+              data = json.load(open(path, encoding="utf-8"))
+              if data.get("id") == wanted:
+                  open(os.environ["GITHUB_OUTPUT"], "a").write(f"path={path}\n")
+                  break
+          else:
+              raise SystemExit(f"Chat {wanted} not found")
+          PY
+
+      - name: Run ChatGPT
+        env:
+          CHATGPT_API_KEY: ${{ secrets.CHATGPT_API_KEY }}
+          CHATGPT_MODEL: gpt-5.6-luna
+        run: python scripts/ai-room-agent.py chatgpt "${{ steps.resolve.outputs.path }}"
+
+      - name: Commit ChatGPT response
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "${{ steps.resolve.outputs.path }}"
+          git diff --cached --quiet || git commit -m "ai-room: ChatGPT response"
+          git push origin main
+
+      - name: Hand off to Gemini
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          status=$(python -c 'import json; print(json.load(open("${{ steps.resolve.outputs.path }}"))["status"])')
+          if [ "$status" = "awaiting_gemini_counter" ]; then
+            gh workflow run ai-room-gemini.yml --ref main --field chat_id="${{ inputs.chat_id }}"
+          fi
