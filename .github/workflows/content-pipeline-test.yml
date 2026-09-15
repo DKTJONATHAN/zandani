@@ -1,0 +1,47 @@
+name: Content Pipeline Test
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "content/posts/**"
+      - "scripts/**"
+      - "src/**"
+      - ".github/workflows/**"
+      - "package.json"
+      - "package-lock.json"
+  push:
+    branches: ["fix/content-publishing-20260915"]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "20"
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Build site and publication manifest
+        run: npm run build:dev
+      - name: Verify publication manifest
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const manifest = JSON.parse(fs.readFileSync('public/posts-manifest.json', 'utf8'));
+          const now = Date.now();
+          const future = manifest.filter(p => p.publishDate && new Date(p.publishDate).getTime() > now);
+          if (future.length) throw new Error(`Future posts leaked into manifest: ${future.map(p => p.slug).join(', ')}`);
+          const bad = manifest.filter(p => !p.title || !p.slug || !p.category || !p.author || !p.date || !p.publishDate);
+          if (bad.length) throw new Error(`Posts missing publication metadata: ${bad.map(p => p.slug).join(', ')}`);
+          const technology = manifest.filter(p => String(p.category).toLowerCase() === 'technology');
+          console.log(`Manifest OK: ${manifest.length} published posts; ${technology.length} Technology posts.`);
+          NODE
+      - name: Typecheck
+        run: npx tsc --noEmit
