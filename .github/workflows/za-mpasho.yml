@@ -1,1 +1,105 @@
-LOADING
+name: Martin Kihara — Mpasho / Showbiz
+
+on:
+  schedule:
+    # Every 2 hours EAT 09:00–20:00 (EAT = UTC+3 → 06,08,10,12,14,16,17 UTC)
+    - cron: "0 6,8,10,12,14,16,17 * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: zandani-desk-za-mpasho
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  DEFAULT_BRANCH: main
+  POSTS_DIR: content/posts
+  MEMORY_FILE: .github/memory_martin_mpasho.json
+  TZ: Africa/Nairobi
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 45
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          ref: ${{ env.DEFAULT_BRANCH }}
+          token: ${{ secrets.ACTIONS_GITHUB_TOKEN || secrets.PERSONAL_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+          persist-credentials: true
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v5
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-chromium-mpasho-v2
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests google-genai beautifulsoup4 lxml playwright python-dateutil Pillow
+          playwright install chromium --with-deps
+
+      - name: Run Mpasho pipeline (landing → listings → full articles ≤24h)
+        env:
+          GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY1: ${{ secrets.GEMINI_API_KEY1 }}
+          IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
+          POSTS_DIR: ${{ env.POSTS_DIR }}
+          MEMORY_FILE: ${{ env.MEMORY_FILE }}
+        run: |
+          set -e
+          echo "=== Mpasho scraper ==="
+          echo "Source: https://www.mpasho.co.ke/ (+ /entertainment /relationships /exclusives)"
+          echo "Freshness gate: 24 hours"
+          if [ ! -f scripts/martin_mpasho.py ]; then
+            echo "ERROR: scripts/martin_mpasho.py missing"
+            exit 1
+          fi
+          # Safety: force FRESH_HOURS=24 in case script was edited
+          python - << 'CHK'
+          from pathlib import Path
+          p = Path("scripts/martin_mpasho.py")
+          t = p.read_text()
+          if "FRESH_HOURS = 24" not in t:
+              import re
+              t2 = re.sub(r"FRESH_HOURS\s*=\s*\d+", "FRESH_HOURS = 24", t)
+              if "FRESH_HOURS = 24" not in t2:
+                  t2 = t.replace("MAX_SCRAPE_TRIES = 12", "MAX_SCRAPE_TRIES = 12\nFRESH_HOURS = 24")
+              p.write_text(t2)
+              print("Patched FRESH_HOURS = 24 into scripts/martin_mpasho.py")
+          else:
+              print("FRESH_HOURS = 24 already set")
+          CHK
+          python scripts/martin_mpasho.py
+
+      - name: Voice / SEO gate (optional)
+        run: |
+          if [ -f scripts/finish_desk.py ]; then
+            python scripts/finish_desk.py || true
+          else
+            echo "finish_desk.py not present — skip"
+          fi
+
+      - name: Commit and push
+        run: |
+          git config user.name  "Za Ndani"
+          git config user.email "bot@zandani.co.ke"
+          git add -A "${MEMORY_FILE}" content/posts || true
+          if git diff --cached --quiet; then
+            echo "No article or memory changes to commit"
+            exit 0
+          fi
+          git commit -m "content: Martin Kihara showbiz (Mpasho ≤24h)"
+          git pull --rebase origin "${DEFAULT_BRANCH}" || git pull origin "${DEFAULT_BRANCH}" --no-rebase || true
+          git push origin HEAD:"${DEFAULT_BRANCH}"
