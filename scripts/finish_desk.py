@@ -16,9 +16,11 @@ from voice_guard import is_spam, polish_body, should_skip_story
 POSTS = pathlib.Path("content/posts")
 MAX_AGE_SEC = 40 * 60
 REQUIRED_FIELDS = {"title", "slug", "date", "category", "author", "image"}
+# Canonical desks + aliases used by writers (frontend maps showbiz/gossip → Entertainment)
 CANONICAL_CATEGORIES = {
     "news", "entertainment", "sports", "business", "technology", "agriculture",
     "africa", "lifestyle", "opinions", "opinion", "diano", "jaj",
+    "showbiz", "gossip", "celebrity", "music",
 }
 
 
