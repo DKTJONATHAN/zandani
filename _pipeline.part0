@@ -1,1 +1,227 @@
-PLACEHOLDER0
+import os, json, datetime, requests, re, time, sys, hashlib, itertools, base64, random, io
+from dateutil import parser as date_parser
+from google import genai
+from google.genai import types
+from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright
+from playwright_stealth import stealth_sync
+from PIL import Image
+
+# -- CONFIG ---------------------------------------------------------------------
+publish_timestamp = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+today_str         = datetime.datetime.utcnow().strftime('%Y-%m-%d')
+full_date_str     = datetime.datetime.utcnow().strftime('%A, %B %d, %Y')
+current_year      = datetime.datetime.utcnow().strftime('%Y')
+SITE_BASE_URL     = 'https://zandani.co.ke'
+SITE_URL          = 'https://www.mpasho.co.ke/'
+SITE_DOMAIN       = 'mpasho.co.ke'
+SOURCE_NAME       = 'Mpasho'
+YOUR_SITE_NAME    = 'Za Ndani'
+MAX_AGE_HOURS     = 24
+
+# March 2026 Model Pipeline Update
+MODELS_TO_TRY = [
+    "gemini-3.1-pro-preview",
+    "gemini-3.1-flash-lite-preview",
+    "gemini-3-flash-preview",
+    "gemini-2.5-pro",
+    "gemini-2.5-flash"
+]
+
+BANNED_PHRASES = [
+    'sasa basi', 'melting the pot', 'spill the tea', 'tea is hot',
+    'grab your popcorn', 'buckle up', 'breaking news', 'dive in',
+    'delve into', 'moreover', 'furthermore', 'in conclusion',
+    "it's worth noting", 'a testament to', 'navigating the landscape',
+    "in today's digital age", 'tapestry', 'shocking', 'massive',
+    'jaw-dropping', 'explosive', 'you won\'t believe', 'what happened next',
+    'read on', 'netizens', 'social media is buzzing'
+]
+
+BANNED_URL_PATHS = [
+    '/author/', '/tag/', '/page/', '/feed/', '/comment-',
+    '/category/', '/terms', '/about', '/privacy', '/contact',
+    '/advertise', '/policy', '/disclaimer'
+]
+
+HYPE_TITLE_WORDS = [
+    'shocking', 'massive', 'explosive', 'heartbreaking', 'urgent',
+    'breaking news', 'drama', 'truth', 'full story', 'revealed',
+    'exposed', 'uncovered', 'stuns', 'sparks fresh chatter'
+]
+
+GENERIC_FILLER_PATTERNS = [
+    r'what this means for kenyans',
+    r'key facts',
+    r'faq',
+    r'follow official updates',
+    r'verify changes through official channels',
+]
+
+# -- STYLE PRESETS --------------------------------------------------------------
+STYLE_PRESETS = {
+    "reported_news": {
+        "name": "reported_news",
+        "format": "straight entertainment news",
+        "lead_style": "one clear sentence answering who, what, where, when, and why it matters",
+        "tone": "calm, specific, newsroom-clean, Kenyan reader aware",
+        "angle": "lead with the verifiable development and its immediate context",
+        "structure": "lede -> confirmed facts -> relevant context -> reaction only if sourced -> next known step",
+        "sentence_mix": "mostly concise sentences with one context sentence per section",
+        "closing": "end on the latest verified status, not a teaser"
+    },
+    "context_brief": {
+        "name": "context_brief",
+        "format": "explainer / backgrounder",
+        "lead_style": "context first, then the latest development in the same paragraph",
+        "tone": "authoritative, plain-spoken, useful",
+        "angle": "explain why the development matters without overstating certainty",
+        "structure": "why it matters -> latest development -> background -> known impact -> what remains unclear",
+        "sentence_mix": "medium-length sentences with no rhetorical questions",
+        "closing": "state what is confirmed and what readers should watch next"
+    },
+    "timeline_brief": {
+        "name": "timeline_brief",
+        "format": "chronological narrative",
+        "lead_style": "open with the latest confirmed point, then move backward only where useful",
+        "tone": "precise, chronological, restrained",
+        "angle": "show the sequence of confirmed events that explains the update",
+        "structure": "latest status -> timeline -> context -> unresolved questions",
+        "sentence_mix": "short factual sentences for sequence, longer sentences for context",
+        "closing": "where things stand right now"
+    },
+    "reaction_context": {
+        "name": "reaction_context",
+        "format": "reaction / opinion roundup",
+        "lead_style": "summarize the verified development before describing reaction",
+        "tone": "measured, conversational, source-aware",
+        "angle": "explain the range of public response without treating chatter as fact",
+        "structure": "event summary -> sourced reaction -> context -> what is confirmed",
+        "sentence_mix": "varied but restrained, no quote-heavy imitation",
+        "closing": "return to the confirmed facts"
+    },
+    "profile_led": {
+        "name": "profile_led",
+        "format": "profile / character-led feature",
+        "lead_style": "introduce the key person as if the reader has never heard of them",
+        "tone": "feature magazine - warm, professional, fair",
+        "angle": "who the person is and why this verified development matters",
+        "structure": "person intro -> why they're in the news -> background -> current story -> significance",
+        "sentence_mix": "longer flowing sentences broken by short punchy standalone facts",
+        "closing": "what is known about the person's current trajectory"
+    }
+}
+PRESET_NAMES = list(STYLE_PRESETS.keys())
+
+# -- MEMORY (auto-migrate flat array -> dict) ------------------------------------
+def load_memory(path):
+    if not os.path.exists(path):
+        return {"published_hashes": [], "style_history": []}
+    raw = json.loads(open(path).read())
+    if isinstance(raw, list):
+        print("[memory] Migrating flat array -> new dict format")
+        return {"published_hashes": raw, "style_history": []}
+    raw.setdefault("published_hashes", [])
+    raw.setdefault("style_history", [])
+    return raw
+
+def save_memory(path, mem):
+    mem["published_hashes"] = mem["published_hashes"][-300:]
+    mem["style_history"]    = mem["style_history"][-20:]
+    with open(path, 'w') as f:
+        json.dump(mem, f, indent=2, ensure_ascii=False)
+
+# -- STYLE ROTATION -------------------------------------------------------------
+def pick_style_preset(style_history):
+    if len(style_history) >= 3:
+        last3 = [h.get("stylePreset") for h in style_history[-3:]]
+        if len(set(last3)) == 1 and last3[0] in PRESET_NAMES:
+            available = [p for p in PRESET_NAMES if p != last3[0]]
+            return random.choice(available)
+    return random.choice(PRESET_NAMES)
+
+# -- GEMINI CLIENT WITH KEY ROTATION + RETRY ------------------------------------
+raw_keys   = [os.environ.get(k) for k in ['GEMINI_WRITE_KEY', 'GEMINI_API_KEY', 'GEMINI_API_KEY1'] if os.environ.get(k)]
+if not raw_keys:
+    print('No Gemini keys found'); sys.exit(1)
+key_cycle   = itertools.cycle(raw_keys)
+current_key = next(key_cycle)
+client      = genai.Client(api_key=current_key)
+
+def gemini_generate(prompt, label='', temperature=0.7, max_tokens=2048, use_search=False):
+    global current_key, client
+    for model in MODELS_TO_TRY:
+        for attempt in range(6):
+            try:
+                gen_config = types.GenerateContentConfig(
+                    temperature=temperature,
+                    max_output_tokens=max_tokens,
+                )
+                if use_search:
+                    gen_config = types.GenerateContentConfig(
+                        tools=[types.Tool(google_search=types.GoogleSearch())],
+                        temperature=temperature,
+                        max_output_tokens=max_tokens,
+                    )
+                resp      = client.models.generate_content(model=model, contents=prompt, config=gen_config)
+                candidate = resp.candidates[0] if resp.candidates else None
+                if candidate and candidate.content and candidate.content.parts:
+                    result = ''.join(
+                        p.text for p in candidate.content.parts
+                        if hasattr(p, 'text') and p.text
+                    ).strip()
+                else:
+                    result = (resp.text or '').strip()
+                print(f'[gemini] OK ({model}, temp={temperature}): {label}')
+                return result
+            except Exception as e:
+                err = str(e).lower()
+                if any(x in err for x in ['429', 'quota', 'rate', '503', 'unavailable', '500', 'overloaded', 'resource_exhausted']):
+                    print(f'[gemini] Rate limit on {model} - rotating key')
+                    time.sleep(random.uniform(20, 35))
+                    current_key = next(key_cycle)
+                    client      = genai.Client(api_key=current_key)
+                    continue
+                elif any(x in err for x in ['not found', 'not support', 'not_found', 'deprecated']):
+                    break
+                else:
+                    print(f'[gemini] Error ({model}, attempt {attempt+1}): {e}')
+                    time.sleep(3)
+                    continue
+    return None
+
+# -- IMGBB UPLOAD (unchanged) ---------------------------------------------------
+def upload_to_imgbb(image_url):
+    api_key = os.environ.get('IMGBB_API_KEY')
+    if not api_key or not image_url:
+        return image_url
+    try:
+        img_data = requests.get(image_url, timeout=15).content
+        img = Image.open(io.BytesIO(img_data))
+        if img.mode in ('RGBA', 'LA', 'P'):
+            img = img.convert('RGB')
+        webp_buf = io.BytesIO()
+        img.save(webp_buf, format='WEBP', quality=82)
+        webp_buf.seek(0)
+        b64  = base64.b64encode(webp_buf.read()).decode('utf-8')
+        res  = requests.post('https://api.imgbb.com/1/upload',
+                             data={'key': api_key, 'image': b64}, timeout=20)
+        if res.status_code == 200:
+            new_url = res.json()['data']['url']
+            print(f'[imgbb] Re-hosted as WebP: {new_url}')
+            return new_url
+        print(f'[imgbb] Failed: {res.text}')
+        return image_url
+    except Exception as e:
+        print(f'[imgbb] Error: {e}')
+        return image_url
+
+# -- SCRAPER (unchanged logic) --------------------------------------------------
+def get_target_urls():
+    urls = set()
+    print(f'[scrape] Scanning {SITE_URL}...')
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(
+                headless=True,
+                args=['--no-sandbox', '--disab
