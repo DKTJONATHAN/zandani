@@ -38,6 +38,7 @@ const AuthorProfilePage = lazy(() => import("./pages/AuthorProfilePage"));
 const HubPage = lazy(() => import("./pages/HubPage"));
 const SearchPage = lazy(() => import("./pages/SearchPage"));
 const NewsletterPage = lazy(() => import("./pages/NewsletterPage"));
+const AiDebateRoom = lazy(() => import("./pages/AiDebateRoom"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const queryClient = new QueryClient({
@@ -67,39 +68,19 @@ const ErrorFallback = ({ onRetry }: { onRetry: () => void }) => (
   </div>
 );
 
-interface ErrorBoundaryProps {
-  children: ReactNode;
-  fallback?: ReactNode;
-}
-
-interface ErrorBoundaryState {
-  hasError: boolean;
-}
+interface ErrorBoundaryProps { children: ReactNode; fallback?: ReactNode; }
+interface ErrorBoundaryState { hasError: boolean; }
 
 class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
-  constructor(props: ErrorBoundaryProps) {
-    super(props);
-    this.state = { hasError: false };
-  }
-
-  static getDerivedStateFromError(): ErrorBoundaryState {
-    return { hasError: true };
-  }
-
+  constructor(props: ErrorBoundaryProps) { super(props); this.state = { hasError: false }; }
+  static getDerivedStateFromError(): ErrorBoundaryState { return { hasError: true }; }
   componentDidCatch(error: Error, errorInfo: ErrorInfo) {
     console.error("Page error:", error, errorInfo);
     reportError(error, { source: "ErrorBoundary", componentStack: errorInfo.componentStack });
   }
-
-  handleRetry = () => {
-    this.setState({ hasError: false });
-    window.location.reload();
-  };
-
+  handleRetry = () => { this.setState({ hasError: false }); window.location.reload(); };
   render() {
-    if (this.state.hasError) {
-      return this.props.fallback || <ErrorFallback onRetry={this.handleRetry} />;
-    }
+    if (this.state.hasError) return this.props.fallback || <ErrorFallback onRetry={this.handleRetry} />;
     return this.props.children;
   }
 }
@@ -109,9 +90,7 @@ const GlobalErrorHandler = ({ children }: { children: ReactNode }) => {
     const handleUnhandledRejection = (event: PromiseRejectionEvent) => {
       console.error("Unhandled promise rejection:", event.reason);
       reportError(event.reason, { source: "unhandledrejection" });
-      if (event.reason?.message?.includes("Failed to fetch dynamically imported module")) {
-        window.location.reload();
-      }
+      if (event.reason?.message?.includes("Failed to fetch dynamically imported module")) window.location.reload();
     };
     window.addEventListener("unhandledrejection", handleUnhandledRejection);
     return () => window.removeEventListener("unhandledrejection", handleUnhandledRejection);
@@ -133,6 +112,7 @@ const App = () => (
                 <Route path="/article/:slug" element={<ArticlePage />} />
                 <Route path="/search" element={<SearchPage />} />
                 <Route path="/newsletter" element={<NewsletterPage />} />
+                <Route path="/ai-room" element={<AiDebateRoom />} />
                 <Route path="/category/:slug" element={<CategoryPage />} />
                 <Route path="/trending" element={<Trending />} />
                 <Route path="/live" element={<LiveWirePage />} />
