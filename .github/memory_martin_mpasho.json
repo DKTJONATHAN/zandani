@@ -87,10 +87,10 @@
     "f9da9473b504aa8563a2eb1f",
     "32a7d092b3c7d45fb1590839",
     "7cb01e8416d521c7b9fbc831",
-    "a8fd5a11990db3659d782b12"
+    "a8fd5a11990db3659d782b12",
+    "0ca5460292f98449dc5764c6"
   ],
   "style_history": [
-    "Hard Showbiz Lead",
     "Event Report",
     "Statement Report",
     "Hard Showbiz Lead",
@@ -119,7 +119,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [],
   "recent_stories": [
@@ -146,6 +147,10 @@
     {
       "key": "2026-09-15-inside-2026s-biggest-solo-concerts",
       "ts": "2026-09-15T08:13:47Z"
+    },
+    {
+      "key": "2026-09-15-is-it-real-or-ai-fans-react-to-bradley-marongos-romantic-photos",
+      "ts": "2026-09-15T12:57:49Z"
     }
   ]
 }
