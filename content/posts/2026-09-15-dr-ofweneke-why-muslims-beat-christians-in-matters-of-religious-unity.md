@@ -1,19 +1,18 @@
 ---
 title: "Dr Ofweneke: Why Muslims Beat Christians in Matters of Religious Unity"
 slug: "dr-ofweneke-why-muslims-beat-christians-in-matters-of-religious-unity"
-description: "ofweneke why muslims beat christians matters: NAIROBI — Media personality and preacher Dr Coverage from Nairobi, Kenya Coverage from Nairobi and across Kenya"
-excerpt: "NAIROBI — Media personality and preacher Dr Coverage from Nairobi, Kenya Coverage from Nairobi and across Kenya."
+description: "NAIROBI — Media personality and preacher Dr Coverage from Nairobi, Kenya Coverage from Nairobi and across Kenya Coverage from Nairobi and across Kenya."
+excerpt: "NAIROBI — Media personality and preacher Dr Coverage from Nairobi, Kenya Coverage from Nairobi and across Kenya Coverage from Nairobi and across Kenya."
 author: "Martin Kihara"
 image: "https://i.ibb.co/tMhmST5h/f5384215f0d9.webp"
 category: "Showbiz"
 tags: ["dr ofweneke why muslims beat christians in matters of religious unity", "showbiz", "kenya news"]
-canonical: "https://zandani.co.ke/article/dr-ofweneke-why-muslims-beat-christians-in-matters-of-religious-unity"
 date: "2026-09-15T07:20:44Z"
 dateModified: "2026-09-15T07:20:44Z"
 focusKeyword: "ofweneke why muslims beat christians matters"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/dr-ofweneke-why-muslims-beat-christians-in-matters-of-religious-unity"
 ---
-
 NAIROBI - Media personality and preacher Dr. Ofweneke has publicly criticized local church leaders for suspending congregants who attended the recent Rhema Fest at Uhuru Park, characterizing the disciplinary actions as evidence of a fractured Christian community.
 
 In his address, Dr. Ofweneke argued that the internal divisions within the church contrast sharply with the cohesion seen in other religious groups. He contended that the focus on denominational loyalty is antithetical to the concept of the "body of Christ," urging leaders to move away from exclusionary tactics.
