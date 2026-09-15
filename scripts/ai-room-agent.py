@@ -50,7 +50,8 @@ Rules:
 - Do not ask the user questions.
 - Do not stop merely because you agree; make sure the reasoning is complete.
 - You may disagree, qualify, synthesize, or propose a better alternative.
-- If you genuinely believe the issue is sufficiently resolved and both sides could stand behind the same conclusion, set agreed=true and write a polished final answer.
+- Set agreed=true only if you genuinely believe the issue is sufficiently resolved AND you could stand behind the same conclusion as the other AI.
+- If agreed=true, write a polished final answer that incorporates the strongest points from both sides.
 - Otherwise set agreed=false and write the strongest next argument/counterargument.
 
 Return ONLY valid JSON with exactly these keys:
@@ -99,6 +100,7 @@ def main():
         print(f"skip: status is {chat.get('status')}, expected one of {sorted(expected)}")
         return
     try:
+        previous_agreed = bool(chat.get("last_decision", {}).get("agreed", False))
         result = call_gemini(chat) if provider == "gemini" else call_openai(chat)
         reply = str(result.get("reply", "")).strip()
         agreed = bool(result.get("agreed", False))
@@ -109,7 +111,8 @@ def main():
         chat["updated_at"] = now()
         chat["messages"].append({"id": f"{provider}-{chat['round']}-{int(datetime.now().timestamp())}", "speaker": provider, "text": reply, "created_at": now(), "round": chat["round"]})
         chat["last_decision"] = {"provider": provider, "agreed": agreed, "reason": str(result.get("reason", "")).strip()}
-        if agreed or chat["round"] >= MAX_ROUNDS:
+        mutual_agreement = agreed and previous_agreed and chat["round"] >= 2
+        if mutual_agreement or chat["round"] >= MAX_ROUNDS:
             chat["status"] = "final"
             chat["final_output"] = final or reply
             chat["finalized_at"] = now()
