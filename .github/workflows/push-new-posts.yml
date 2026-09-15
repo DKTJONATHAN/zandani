@@ -11,6 +11,9 @@ concurrency:
   group: push-notifications
   cancel-in-progress: false
 
+permissions:
+  contents: write
+
 jobs:
   notify:
     runs-on: ubuntu-latest
@@ -18,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - uses: actions/setup-node@v5
         with:
@@ -35,13 +38,18 @@ jobs:
         run: node scripts/send_push_notifications.js
 
       - name: Commit pruned dead subscriptions (if any)
+        shell: bash
         run: |
-          if git diff --quiet data/push_subscriptions.json; then
+          set -euo pipefail
+          if git diff --quiet -- data/push_subscriptions.json; then
             echo "no subscription changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git rebase origin/main
           git add data/push_subscriptions.json
-          git commit -m "chore(push): prune expired subscriptions" || true
-          git push || true
+          git diff --staged --quiet && exit 0
+          git commit -m "chore(push): prune expired subscriptions"
+          git push origin HEAD:main

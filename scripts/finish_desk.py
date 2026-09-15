@@ -1,4 +1,9 @@
-"""Post-write gate: polish SEO, inject What we know on hard news only, drop Hollywood."""
+"""Post-write gate for every Za Ndani desk.
+
+The gate is intentionally fail-closed for malformed production posts. It never
+silently converts missing metadata into fake defaults; invalid posts stop the
+publishing workflow before they can reach main.
+"""
 from __future__ import annotations
 
 import pathlib
@@ -10,6 +15,11 @@ from voice_guard import is_spam, polish_body, should_skip_story
 
 POSTS = pathlib.Path("content/posts")
 MAX_AGE_SEC = 40 * 60
+REQUIRED_FIELDS = {"title", "slug", "date", "category", "author", "image"}
+CANONICAL_CATEGORIES = {
+    "news", "entertainment", "sports", "business", "technology", "agriculture",
+    "africa", "lifestyle", "opinions", "opinion", "diano", "jaj",
+}
 
 
 def split_fm(text: str):
@@ -21,18 +31,52 @@ def split_fm(text: str):
     return parts[1], parts[2]
 
 
-def category_of(fm: str) -> str:
+def fields_of(fm: str) -> dict[str, str]:
+    result: dict[str, str] = {}
     for line in fm.splitlines():
-        if line.lower().startswith("category:"):
-            return line.split(":", 1)[1].strip().strip('"').strip("'")
-    return "News"
+        if not line.strip() or line.lstrip().startswith("#") or ":" not in line:
+            continue
+        key, value = line.split(":", 1)
+        result[key.strip()] = value.strip().strip('"').strip("'")
+    return result
+
+
+def category_of(fm: str) -> str:
+    return fields_of(fm).get("category", "News")
 
 
 def title_of(fm: str) -> str:
-    for line in fm.splitlines():
-        if line.lower().startswith("title:"):
-            return line.split(":", 1)[1].strip().strip('"').strip("'")
-    return ""
+    return fields_of(fm).get("title", "")
+
+
+def validate_post(path: pathlib.Path, fm: str, body: str) -> list[str]:
+    data = fields_of(fm)
+    errors = []
+    missing = sorted(k for k in REQUIRED_FIELDS if not data.get(k))
+    if missing:
+        errors.append("missing: " + ", ".join(missing))
+    category = data.get("category", "").lower().strip()
+    if category and category not in CANONICAL_CATEGORIES:
+        errors.append(f"unsupported category: {category}")
+    try:
+        if data.get("date"):
+            from datetime import datetime
+            datetime.fromisoformat(data["date"].replace("Z", "+00:00"))
+    except ValueError:
+        errors.append("invalid ISO date")
+    if data.get("publishDate"):
+        try:
+            from datetime import datetime
+            datetime.fromisoformat(data["publishDate"].replace("Z", "+00:00"))
+        except ValueError:
+            errors.append("invalid ISO publishDate")
+    if len((body or "").split()) < 180 and category not in {"opinions", "opinion"}:
+        errors.append("body below 180 words")
+    if not body.strip():
+        errors.append("empty body")
+    if not data.get("image") or data.get("image", "").lower().endswith("placeholder.jpg"):
+        errors.append("missing real image")
+    return errors
 
 
 def main() -> int:
@@ -46,11 +90,17 @@ def main() -> int:
 
     dropped = 0
     touched = 0
+    invalid = 0
     for path in POSTS.glob("*.md"):
         if now - path.stat().st_mtime > MAX_AGE_SEC:
             continue
         text = path.read_text(encoding="utf-8")
         fm, body = split_fm(text)
+        errors = validate_post(path, fm, body)
+        if errors:
+            print(f"ERROR publication validation failed: {path.name}: {'; '.join(errors)}")
+            invalid += 1
+            continue
         cat = category_of(fm)
         title = title_of(fm)
         blob = title + "\n" + body
@@ -60,7 +110,7 @@ def main() -> int:
             dropped += 1
             continue
         cleaned = polish_body(body, cat, title)
-        if is_spam(cleaned, min_words=180) and cat.lower() not in {"opinions"}:
+        if is_spam(cleaned, min_words=180) and cat.lower() not in {"opinions", "opinion"}:
             print(f"DROP spam/thin: {path.name}")
             path.unlink()
             dropped += 1
@@ -68,8 +118,9 @@ def main() -> int:
         if cleaned != body:
             path.write_text("---" + fm + "---\n" + cleaned.lstrip("\n"), encoding="utf-8")
             touched += 1
-    print(f"finish_desk: touched={touched} dropped={dropped}")
-    return 0
+
+    print(f"finish_desk: touched={touched} dropped={dropped} invalid={invalid}")
+    return 1 if invalid else 0
 
 
 if __name__ == "__main__":

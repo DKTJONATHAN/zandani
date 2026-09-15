@@ -6,75 +6,39 @@ const OUTPUT_FILE = path.join(process.cwd(), 'public/posts-manifest.json');
 const RAW_POSTS_DIR = path.join(process.cwd(), 'public/raw-posts');
 
 function extractFrontmatter(content) {
-  const frontmatterRegex = /^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/;
-  const match = content.match(frontmatterRegex);
+  const match = content.match(/^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/);
   if (!match) return { data: {}, bodyContent: content };
-
-  const yamlContent = match[1];
-  const bodyContent = match[2];
   const data = {};
-  const lines = yamlContent.split('\n');
-
-  for (const line of lines) {
+  for (const line of match[1].split('\n')) {
     const colonIndex = line.indexOf(':');
     if (colonIndex === -1) continue;
     const key = line.slice(0, colonIndex).trim();
     let value = line.slice(colonIndex + 1).trim();
-
-    if (value.startsWith('[') && value.endsWith(']')) {
-      value = value.slice(1, -1).split(',').map(item => item.trim().replace(/^["']|["']$/g, '')).filter(Boolean);
-    } else if (value === 'true') {
-      value = true;
-    } else if (value === 'false') {
-      value = false;
-    } else if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
-      value = value.slice(1, -1);
-    }
-
+    if (value.startsWith('[') && value.endsWith(']')) value = value.slice(1, -1).split(',').map(item => item.trim().replace(/^["']|["']$/g, '')).filter(Boolean);
+    else if (value === 'true') value = true;
+    else if (value === 'false') value = false;
+    else if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) value = value.slice(1, -1);
     data[key] = value;
   }
-
-  return { data, bodyContent };
+  return { data, bodyContent: match[2] };
 }
 
-function calculateReadTime(content) {
-  const wordsPerMinute = 200;
-  const wordCount = (content || '').split(/\s+/).filter(Boolean).length;
-  return Math.max(1, Math.ceil(wordCount / wordsPerMinute));
-}
+function calculateReadTime(content) { return Math.max(1, Math.ceil((content || '').split(/\s+/).filter(Boolean).length / 200)); }
 
 function stripMarkdown(text) {
-  return String(text || '')
-    .replace(/!\[[^\]]*\]\([^)]+\)/g, ' ')
-    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/^[#>\-\*\d\.\s]+/gm, '')
-    .replace(/[`*_~]/g, '')
-    .replace(/\s+/g, ' ')
-    .trim();
+  return String(text || '').replace(/!\[[^\]]*\]\([^)]+\)/g, ' ').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/<[^>]+>/g, ' ').replace(/^[#>\-*\d\.\s]+/gm, '').replace(/[`*_~]/g, '').replace(/\s+/g, ' ').trim();
 }
 
 function stripWhatWeKnow(body) {
   if (!body || !/what we know/i.test(body)) return body || '';
-  const lines = body.split('\n');
-  const out = [];
-  let skipping = false;
-  for (const line of lines) {
+  const out = []; let skipping = false;
+  for (const line of body.split('\n')) {
     const stripped = line.trim();
-    if (/^#{2,3}\s*What we know:?\s*$/i.test(stripped)) {
-      skipping = true;
-      continue;
-    }
+    if (/^#{2,3}\s*What we know:?\s*$/i.test(stripped)) { skipping = true; continue; }
     if (skipping) {
       if (!stripped || /^[-*+]\s+/.test(stripped)) continue;
-      if (/^#{2,3}\s+/.test(stripped)) {
-        skipping = false;
-        out.push(line);
-        continue;
-      }
+      if (/^#{2,3}\s+/.test(stripped)) { skipping = false; out.push(line); continue; }
       skipping = false;
-      out.push(line);
-      continue;
     }
     out.push(line);
   }
@@ -82,91 +46,57 @@ function stripWhatWeKnow(body) {
 }
 
 function truncateSnippet(text, maxLength = 155) {
-  const cleaned = stripMarkdown(text);
-  if (!cleaned) return '';
+  const cleaned = stripMarkdown(text); if (!cleaned) return '';
   if (cleaned.length <= maxLength) return cleaned;
-
   const sliced = cleaned.slice(0, maxLength + 1);
-  const lastSentence = Math.max(
-    sliced.lastIndexOf('. '),
-    sliced.lastIndexOf('! '),
-    sliced.lastIndexOf('? ')
-  );
-  if (lastSentence >= 90) {
-    return sliced.slice(0, lastSentence + 1).trim();
-  }
+  const lastSentence = Math.max(sliced.lastIndexOf('. '), sliced.lastIndexOf('! '), sliced.lastIndexOf('? '));
+  if (lastSentence >= 90) return sliced.slice(0, lastSentence + 1).trim();
   const lastSpace = sliced.lastIndexOf(' ');
   return `${sliced.slice(0, lastSpace > 80 ? lastSpace : maxLength).trim()}...`;
 }
 
 function buildSnippet(data, bodyContent) {
-  const explicit = [data.description, data.excerpt].find(
-    value => typeof value === 'string' && value.trim() && !/what we know/i.test(value)
-  );
+  const explicit = [data.description, data.excerpt].find(v => typeof v === 'string' && v.trim() && !/what we know/i.test(v));
   if (explicit) return truncateSnippet(explicit);
-
-  const cleanedBody = stripWhatWeKnow(bodyContent || '');
-  const paragraphs = cleanedBody
-    .split(/\n\s*\n/)
-    .map(p => stripMarkdown(p))
-    .filter(p => p && !p.startsWith('##') && !/^what we know/i.test(p) && p.length > 40);
-
-  return truncateSnippet(paragraphs[0] || cleanedBody || '');
+  const paragraphs = stripWhatWeKnow(bodyContent || '').split(/\n\s*\n/).map(p => stripMarkdown(p)).filter(p => p && !p.startsWith('##') && !/^what we know/i.test(p) && p.length > 40);
+  return truncateSnippet(paragraphs[0] || bodyContent || '');
 }
 
 function getSafeTime(dateStr) {
   if (!dateStr) return 0;
-  let time = new Date(dateStr).getTime();
-  if (!isNaN(time)) return time;
-  time = new Date(String(dateStr).replace(/-/g, '/').replace('T', ' ')).getTime();
-  return isNaN(time) ? 0 : time;
+  const time = new Date(dateStr).getTime();
+  return Number.isNaN(time) ? 0 : time;
 }
 
-if (!fs.existsSync(POSTS_DIR)) {
-  console.error(`Posts directory not found: ${POSTS_DIR}`);
-  process.exit(1);
-}
-
+const now = Date.now();
+if (!fs.existsSync(POSTS_DIR)) { console.error(`Posts directory not found: ${POSTS_DIR}`); process.exit(1); }
 const files = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.md'));
-
-if (files.length === 0) {
-  console.warn('No markdown files found in content/posts/');
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify([]));
-  process.exit(0);
-}
-
+fs.rmSync(RAW_POSTS_DIR, { recursive: true, force: true });
 fs.mkdirSync(RAW_POSTS_DIR, { recursive: true });
 
-const manifest = files.map(file => {
+const manifest = [];
+for (const file of files) {
   const src = path.join(POSTS_DIR, file);
-  const content = fs.readFileSync(src, 'utf-8');
+  const raw = fs.readFileSync(src, 'utf-8');
+  const { data, bodyContent } = extractFrontmatter(raw);
+  const publishDate = data.publishDate || data.publish_date || data.date;
+  const publishTime = getSafeTime(publishDate);
+  if (!publishTime || publishTime > now) continue;
+
   fs.copyFileSync(src, path.join(RAW_POSTS_DIR, file));
-  const { data, bodyContent } = extractFrontmatter(content);
-
-  let image = data.image || '/images/placeholder.jpg';
-  if (typeof image === 'string' && (!image.startsWith('http') || /placeholder/i.test(image))) {
-    image = '/images/placeholder.jpg';
-  }
-
-  return {
-    title: data.title || 'Untitled',
-    slug: data.slug || file.replace('.md', ''),
-    sourceFile: file,
-    date: data.date || new Date().toISOString(),
-    category: data.category || 'News',
-    author: data.author || 'Za Ndani',
-    authorImage: data.authorImage || data.author_image || '',
-    excerpt: buildSnippet(data, bodyContent),
-    description: buildSnippet(data, bodyContent),
-    image,
-    tags: Array.isArray(data.tags) ? data.tags : (data.tags ? [data.tags] : []),
-    readTime: calculateReadTime(bodyContent),
+  const image = typeof data.image === 'string' && data.image.trim() ? data.image.trim() : '/images/placeholder.jpg';
+  const description = buildSnippet(data, bodyContent);
+  manifest.push({
+    title: data.title || 'Untitled', slug: data.slug || file.replace(/\.md$/, ''), sourceFile: file,
+    date: data.date || publishDate, publishDate, category: data.category || 'News', author: data.author || 'Za Ndani',
+    authorImage: data.authorImage || data.author_image || '', excerpt: description, description, image,
+    tags: Array.isArray(data.tags) ? data.tags : (data.tags ? [data.tags] : []), readTime: calculateReadTime(bodyContent),
     featured: data.featured === true || data.featured === 'true',
-    dateModified: data.dateModified || data.updated || data.modified || data.lastmod || data.date || new Date().toISOString(),
-    focusKeyword: data.focusKeyword || data.focus_keyword || '',
-    wordCount: stripMarkdown(bodyContent).split(/\s+/).filter(Boolean).length,
-  };
-}).sort((a, b) => getSafeTime(b.date) - getSafeTime(a.date));
+    dateModified: data.dateModified || data.updated || data.modified || data.lastmod || data.date || publishDate,
+    focusKeyword: data.focusKeyword || data.focus_keyword || '', wordCount: stripMarkdown(bodyContent).split(/\s+/).filter(Boolean).length,
+  });
+}
 
+manifest.sort((a, b) => getSafeTime(b.publishDate) - getSafeTime(a.publishDate));
 fs.writeFileSync(OUTPUT_FILE, JSON.stringify(manifest, null, 2));
-console.log(`Processed ${manifest.length} posts into manifest and public/raw-posts.`);
+console.log(`Published ${manifest.length} due posts into manifest; future posts remain hidden.`);

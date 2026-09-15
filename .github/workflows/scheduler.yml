@@ -1,11 +1,8 @@
 name: Scheduled Posts Publisher
 
-# Runs every hour. When a post's publishDate arrives, commits a state
-# file — that push triggers Vercel's auto-deploy and the site renders the post.
-
 on:
   schedule:
-    - cron: "9 * * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
     inputs:
       reason:
@@ -15,7 +12,7 @@ on:
 
 concurrency:
   group: scheduled-publisher
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -24,78 +21,85 @@ env:
   DEFAULT_BRANCH: main
   POSTS_DIR: content/posts
   STATE_FILE: .github/scheduler_state.txt
+  TZ: Africa/Nairobi
 
 jobs:
   check-and-publish:
     runs-on: ubuntu-22.04
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0
           ref: ${{ env.DEFAULT_BRANCH }}
           token: ${{ secrets.ACTIONS_GITHUB_TOKEN || secrets.PERSONAL_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           persist-credentials: true
 
       - name: Check for posts due to publish
         id: check
+        shell: bash
         run: |
-          NOW=$(date -u +"%Y%m%d%H%M%S")
-          STATE="${{ env.STATE_FILE }}"
-          POSTS="${{ env.POSTS_DIR }}"
+          set -euo pipefail
+          export TZ=UTC
+          NOW_EPOCH=$(date +%s)
+          STATE="${STATE_FILE}"
+          POSTS="${POSTS_DIR}"
           DUE_COUNT=0
-
           mkdir -p "$(dirname "$STATE")"
-          [ -f "$STATE" ] || touch "$STATE"
+          touch "$STATE"
 
           for filepath in "$POSTS"/*.md; do
             [ -f "$filepath" ] || continue
             FNAME=$(basename "$filepath")
             grep -qxF "$FNAME" "$STATE" && continue
-            PUB_LINE=$(grep -m 1 "^publishDate:" "$filepath" 2>/dev/null || true)
-            [ -z "$PUB_LINE" ] && continue
-            PUB_COMPACT=$(echo "$PUB_LINE" \
-              | sed "s/publishDate://" \
-              | tr -d ' "'\''' \
-              | sed 's/[-:TZ]//g' \
-              | cut -c1-14)
-            [ -z "$PUB_COMPACT" ] && continue
-            if [ "$PUB_COMPACT" -le "$NOW" ] 2>/dev/null; then
-              echo "  DUE: $FNAME  (publishDate compact: $PUB_COMPACT | now: $NOW)"
+
+            PUB_VALUE=$(awk -F: '/^publishDate:/ {sub(/^publishDate:[[:space:]]*/, ""); print; exit}' "$filepath" || true)
+            if [ -z "$PUB_VALUE" ]; then
+              PUB_VALUE=$(awk -F: '/^date:/ {sub(/^date:[[:space:]]*/, ""); print; exit}' "$filepath" || true)
+            fi
+            [ -n "$PUB_VALUE" ] || continue
+
+            PUB_VALUE=$(echo "$PUB_VALUE" | sed 's/^['"'"']//; s/['"'"']$//')
+            PUB_EPOCH=$(date -d "$PUB_VALUE" +%s 2>/dev/null || true)
+            if [ -z "$PUB_EPOCH" ]; then
+              echo "WARN: invalid publication date in $FNAME: $PUB_VALUE" >&2
+              continue
+            fi
+
+            if [ "$PUB_EPOCH" -le "$NOW_EPOCH" ]; then
+              echo "DUE: $FNAME | publish=$PUB_VALUE"
               echo "$FNAME" >> "$STATE"
               DUE_COUNT=$((DUE_COUNT + 1))
             fi
           done
 
+          sort -u "$STATE" -o "$STATE"
           echo "due_count=$DUE_COUNT" >> "$GITHUB_OUTPUT"
-          if [ "$DUE_COUNT" -gt 0 ]; then
-            echo "has_due_posts=true" >> "$GITHUB_OUTPUT"
-            echo "$DUE_COUNT post(s) are newly due."
-          else
-            echo "has_due_posts=false" >> "$GITHUB_OUTPUT"
-            echo "No posts due yet. Nothing to do."
-          fi
+          echo "has_due_posts=$([ "$DUE_COUNT" -gt 0 ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+          echo "EAT now: $(TZ=Africa/Nairobi date '+%Y-%m-%d %H:%M:%S %Z')"
 
-      - name: Commit state and trigger Vercel rebuild
+      - name: Commit state and trigger rebuild
         if: steps.check.outputs.has_due_posts == 'true'
+        shell: bash
         run: |
-          git config user.name  "github-actions[bot]"
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "${{ env.STATE_FILE }}"
-          git diff --staged --quiet && echo "Nothing to commit." && exit 0
-          git commit -m "chore: activate ${{ steps.check.outputs.due_count }} scheduled post(s)"
-          git push origin ${{ env.DEFAULT_BRANCH }}
-          echo "Pushed. Vercel will now rebuild and the post(s) will go live."
+          git fetch origin "$DEFAULT_BRANCH"
+          git rebase "origin/$DEFAULT_BRANCH"
+          git add "$STATE_FILE"
+          if git diff --staged --quiet; then
+            echo "No state changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: activate scheduled posts"
+          git push origin HEAD:"$DEFAULT_BRANCH"
 
       - name: Job summary
         if: always()
         run: |
           {
             echo "## Scheduled Posts Publisher"
-            if [ "${{ steps.check.outputs.has_due_posts }}" = "true" ]; then
-              echo ":white_check_mark: **${{ steps.check.outputs.due_count }} post(s) activated — Vercel rebuild triggered.**"
-            else
-              echo ":clock1: No posts due yet. Next check in ~1 hour."
-            fi
+            echo "**EAT:** $(TZ=Africa/Nairobi date '+%Y-%m-%d %H:%M:%S %Z')"
+            echo "**Due:** ${{ steps.check.outputs.due_count || '0' }}"
           } >> "$GITHUB_STEP_SUMMARY"
