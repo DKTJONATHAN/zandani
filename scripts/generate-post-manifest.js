@@ -14,9 +14,8 @@ function extractFrontmatter(content) {
     if (colonIndex === -1) continue;
     const key = line.slice(0, colonIndex).trim();
     let value = line.slice(colonIndex + 1).trim();
-    if (value.startsWith('[') && value.endsWith(']')) {
-      value = value.slice(1, -1).split(',').map(item => item.trim().replace(/^["']|["']$/g, '')).filter(Boolean);
-    } else if (value === 'true') value = true;
+    if (value.startsWith('[') && value.endsWith(']')) value = value.slice(1, -1).split(',').map(item => item.trim().replace(/^["']|["']$/g, '')).filter(Boolean);
+    else if (value === 'true') value = true;
     else if (value === 'false') value = false;
     else if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) value = value.slice(1, -1);
     data[key] = value;
@@ -24,9 +23,7 @@ function extractFrontmatter(content) {
   return { data, bodyContent: match[2] };
 }
 
-function calculateReadTime(content) {
-  return Math.max(1, Math.ceil((content || '').split(/\s+/).filter(Boolean).length / 200));
-}
+function calculateReadTime(content) { return Math.max(1, Math.ceil((content || '').split(/\s+/).filter(Boolean).length / 200)); }
 
 function stripMarkdown(text) {
   return String(text || '').replace(/!\[[^\]]*\]\([^)]+\)/g, ' ').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/<[^>]+>/g, ' ').replace(/^[#>\-*\d\.\s]+/gm, '').replace(/[`*_~]/g, '').replace(/\s+/g, ' ').trim();
@@ -34,8 +31,8 @@ function stripMarkdown(text) {
 
 function stripWhatWeKnow(body) {
   if (!body || !/what we know/i.test(body)) return body || '';
-  const lines = body.split('\n'); const out = []; let skipping = false;
-  for (const line of lines) {
+  const out = []; let skipping = false;
+  for (const line of body.split('\n')) {
     const stripped = line.trim();
     if (/^#{2,3}\s*What we know:?\s*$/i.test(stripped)) { skipping = true; continue; }
     if (skipping) {
@@ -74,6 +71,7 @@ function getSafeTime(dateStr) {
 const now = Date.now();
 if (!fs.existsSync(POSTS_DIR)) { console.error(`Posts directory not found: ${POSTS_DIR}`); process.exit(1); }
 const files = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.md'));
+fs.rmSync(RAW_POSTS_DIR, { recursive: true, force: true });
 fs.mkdirSync(RAW_POSTS_DIR, { recursive: true });
 
 const manifest = [];
@@ -83,31 +81,19 @@ for (const file of files) {
   const { data, bodyContent } = extractFrontmatter(raw);
   const publishDate = data.publishDate || data.publish_date || data.date;
   const publishTime = getSafeTime(publishDate);
-
-  // Future scheduled posts stay in content/posts but are not exposed to the site.
   if (!publishTime || publishTime > now) continue;
 
   fs.copyFileSync(src, path.join(RAW_POSTS_DIR, file));
   const image = typeof data.image === 'string' && data.image.trim() ? data.image.trim() : '/images/placeholder.jpg';
   const description = buildSnippet(data, bodyContent);
   manifest.push({
-    title: data.title || 'Untitled',
-    slug: data.slug || file.replace(/\.md$/, ''),
-    sourceFile: file,
-    date: data.date || publishDate,
-    publishDate,
-    category: data.category || 'News',
-    author: data.author || 'Za Ndani',
-    authorImage: data.authorImage || data.author_image || '',
-    excerpt: description,
-    description,
-    image,
-    tags: Array.isArray(data.tags) ? data.tags : (data.tags ? [data.tags] : []),
-    readTime: calculateReadTime(bodyContent),
+    title: data.title || 'Untitled', slug: data.slug || file.replace(/\.md$/, ''), sourceFile: file,
+    date: data.date || publishDate, publishDate, category: data.category || 'News', author: data.author || 'Za Ndani',
+    authorImage: data.authorImage || data.author_image || '', excerpt: description, description, image,
+    tags: Array.isArray(data.tags) ? data.tags : (data.tags ? [data.tags] : []), readTime: calculateReadTime(bodyContent),
     featured: data.featured === true || data.featured === 'true',
     dateModified: data.dateModified || data.updated || data.modified || data.lastmod || data.date || publishDate,
-    focusKeyword: data.focusKeyword || data.focus_keyword || '',
-    wordCount: stripMarkdown(bodyContent).split(/\s+/).filter(Boolean).length,
+    focusKeyword: data.focusKeyword || data.focus_keyword || '', wordCount: stripMarkdown(bodyContent).split(/\s+/).filter(Boolean).length,
   });
 }
 
