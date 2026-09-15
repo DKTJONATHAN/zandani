@@ -90,10 +90,10 @@
     "a8fd5a11990db3659d782b12",
     "0ca5460292f98449dc5764c6",
     "f3e9d99acbf2743fcf63c2f9",
-    "0d3bd1076b33c6c9e223ff3f"
+    "0d3bd1076b33c6c9e223ff3f",
+    "c4c73dfb394a47ab8c3ed90e"
   ],
   "style_history": [
-    "Hard Showbiz Lead",
     "Event Report",
     "Statement Report",
     "Hard Showbiz Lead",
@@ -122,7 +122,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [],
   "recent_stories": [
@@ -161,6 +162,10 @@
     {
       "key": "2026-09-15-lupita-nyongo-returns-to-new-york-stage-in-pre-existing-condition",
       "ts": "2026-09-15T20:35:01Z"
+    },
+    {
+      "key": "2026-09-15-aliko-dangotes-net-worth-soars-to-513-billion",
+      "ts": "2026-09-15T23:16:42Z"
     }
   ]
 }
