@@ -8,11 +8,14 @@ on:
       - "scripts/**"
       - "src/**"
       - ".github/workflows/**"
+      - "wrangler.jsonc"
       - "package.json"
       - "bun.lock"
       - "bun.lockb"
   push:
-    branches: ["fix/content-publishing-20260915"]
+    branches:
+      - "fix/content-publishing-20260915"
+      - "fix/seo-recovery-cloudflare-20260915"
 
 permissions:
   contents: read
@@ -20,7 +23,7 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v5
 
@@ -31,8 +34,8 @@ jobs:
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
-      - name: Build site and publication manifest
-        run: bun run build:dev
+      - name: Build complete production site
+        run: bun run build
 
       - name: Verify publication manifest
         run: |
@@ -48,5 +51,35 @@ jobs:
           console.log(`Manifest OK: ${manifest.length} published posts; ${technology.length} Technology posts.`);
           NODE
 
+      - name: Verify SEO build artifacts
+        run: |
+          test -f dist/index.html
+          test -f dist/404.html
+          test -f dist/robots.txt
+          test -f dist/sitemap.xml
+          test -f dist/sitemap-articles.xml
+          test -f dist/news-sitemap.xml
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const manifest = JSON.parse(fs.readFileSync('public/posts-manifest.json', 'utf8'));
+          const sitemap = fs.readFileSync('dist/sitemap-articles.xml', 'utf8');
+          const missing = manifest.filter(p => !sitemap.includes(`/article/${encodeURIComponent(p.slug)}`));
+          if (missing.length) throw new Error(`Published posts missing from article sitemap: ${missing.slice(0, 10).map(p => p.slug).join(', ')}`);
+          const robots = fs.readFileSync('dist/robots.txt', 'utf8');
+          if (!robots.includes('Sitemap: https://zandani.co.ke/sitemap.xml')) throw new Error('robots.txt does not reference sitemap.xml');
+          const article = manifest[0];
+          if (article) {
+            const htmlPath = `dist/article/${article.slug}/index.html`;
+            if (!fs.existsSync(htmlPath)) throw new Error(`Missing prerendered article: ${htmlPath}`);
+            const html = fs.readFileSync(htmlPath, 'utf8');
+            if (!html.includes(`<h1>${article.title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</h1>`)) throw new Error('Article HTML does not contain the published headline');
+            if (!html.includes('class="article-body"')) throw new Error('Article HTML does not contain prerendered body content');
+          }
+          console.log('SEO artifacts OK.');
+          NODE
+
       - name: Typecheck
         run: bunx tsc --noEmit
+
+      - name: Lint
+        run: bun run lint
