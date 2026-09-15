@@ -2,8 +2,8 @@ name: Martin Kihara — Mpasho / Showbiz
 
 on:
   schedule:
-    # Every 2 hours EAT 09:00–20:00 (EAT = UTC+3 → 06,08,10,12,14,16,17 UTC)
-    - cron: "0 6,8,10,12,14,16,17 * * *"
+    # Hourly (every hour, all day)
+    - cron: "0 * * * *"
   workflow_dispatch: {}
 
 concurrency:
