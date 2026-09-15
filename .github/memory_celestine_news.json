@@ -556,10 +556,10 @@
     "cb55ad1e183dd2eba41bd6628238bcc5",
     "ae902bfaddcebe6a303d7e43378969bc",
     "98304ddf6538ffc60c92e34da9b18f1d",
-    "c3f28d08978bd7c34ee7ee19c98d14db"
+    "c3f28d08978bd7c34ee7ee19c98d14db",
+    "0486a8d2a4ada1696a92a182d3a27d90"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Desk Take",
     "Hard News Lead",
@@ -588,7 +588,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -729,7 +730,8 @@
     "https://kenyans.co.ke/news/127051-man-recounts-losing-wife-daughter-and-three-relatives-gilgil-crash",
     "https://kenyans.co.ke/news/127047-churches-security-departments-among-institutions-owing-nairobi-ksh27b",
     "https://kenyans.co.ke/news/127073-uhuru-clears-way-jubilee-leadership-handover-after-court-ruling",
-    "https://kenyans.co.ke/news/127071-nairobi-beats-london-rome-and-munich-host-2029-world-athletics-championships"
+    "https://kenyans.co.ke/news/127071-nairobi-beats-london-rome-and-munich-host-2029-world-athletics-championships",
+    "https://kenyans.co.ke/news/127087-babu-owino-takes-break-linda-mwananchi-rallies-focus-nairobi-gubernatorial-race"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -792,7 +794,8 @@
     "man recounts losing wife daughter three relatives kikopey crash",
     "churches security departments among institutions owing nairobi ksh2",
     "uhuru clears way jubilee leadership handover court ruling",
-    "nairobi beats london rome munich host 2029 world athletics championships"
+    "nairobi beats london rome munich host 2029 world athletics championships",
+    "babu owino takes break linda mwananchi rallies focus nairobi gubernatorial race"
   ],
   "topic_keys": [
     "news tracker",
