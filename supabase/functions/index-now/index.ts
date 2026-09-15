@@ -40,7 +40,7 @@ const handler = async (req: Request): Promise<Response> => {
     const results: { url: string; success: boolean; error?: string }[] = [];
 
     for (const url of urls) {
-      const fullUrl = url.startsWith('http') ? url : `https://thescoopkenya.vercel.app${url}`;
+      const fullUrl = url.startsWith('http') ? url : `https://zandani.co.ke${url}`;
       
       try {
         const indexUrl = `https://api.indexjump.com/index?url=${encodeURIComponent(fullUrl)}&token=${apiKey}`;
