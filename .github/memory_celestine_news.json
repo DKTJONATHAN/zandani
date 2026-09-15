@@ -554,10 +554,10 @@
     "2658d1eeb3d009df0f2ff7fe59dea0c7",
     "08edebd3c3f3b2e1f02e0cdc513aaef4",
     "cb55ad1e183dd2eba41bd6628238bcc5",
-    "ae902bfaddcebe6a303d7e43378969bc"
+    "ae902bfaddcebe6a303d7e43378969bc",
+    "98304ddf6538ffc60c92e34da9b18f1d"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -586,7 +586,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -725,7 +726,8 @@
     "https://kenyans.co.ke/news/127045-employment-authority-reveals-two-checks-kenyans-must-make-taking-jobs-abroad",
     "https://kenyans.co.ke/news/127050-governor-nyongo-proposes-law-ban-petrol-motorbikes-cities",
     "https://kenyans.co.ke/news/127051-man-recounts-losing-wife-daughter-and-three-relatives-gilgil-crash",
-    "https://kenyans.co.ke/news/127047-churches-security-departments-among-institutions-owing-nairobi-ksh27b"
+    "https://kenyans.co.ke/news/127047-churches-security-departments-among-institutions-owing-nairobi-ksh27b",
+    "https://kenyans.co.ke/news/127073-uhuru-clears-way-jubilee-leadership-handover-after-court-ruling"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -786,7 +788,8 @@
     "employment authority reveals two checks must make before taking jobs abroad",
     "governor nyong proposes law ban petrol motorbikes cities",
     "man recounts losing wife daughter three relatives kikopey crash",
-    "churches security departments among institutions owing nairobi ksh2"
+    "churches security departments among institutions owing nairobi ksh2",
+    "uhuru clears way jubilee leadership handover court ruling"
   ],
   "topic_keys": [
     "news tracker",
