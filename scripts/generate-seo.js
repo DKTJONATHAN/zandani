@@ -11,7 +11,7 @@ const publicDir = path.resolve(process.cwd(), 'public');
 const distDir = path.resolve(process.cwd(), 'dist');
 const SITE_ORIGIN = new URL(SITE_URL).origin;
 
-function escapeXml(value) { return String(value ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;'); }
+function escapeXml(value) { return String(value ?? '').replace(/&/g, '&').replace(/</g, '<').replace(/>/g, '>').replace(/"/g, '"').replace(/'/g, '''); }
 function slugify(value) { return String(value || '').toLowerCase().trim().replace(/[%']/g, ' ').replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, ''); }
 function dateValue(value) { const d = new Date(String(value || '')); return Number.isNaN(d.getTime()) ? null : d; }
 function publishedAt(data) { return dateValue(data.publishDate || data.date); }
@@ -63,7 +63,7 @@ function sitemapIndex(posts) {
   const latest = posts.reduce((max, p) => Math.max(max, (p.lastmod || p.date).getTime()), 0);
   const now = new Date(latest || Date.now()).toISOString();
   const files = ['sitemap-static.xml', 'sitemap-categories.xml', 'sitemap-articles.xml', 'sitemap-tags.xml', 'news-sitemap.xml'];
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${files.map((file) => `  <sitemap><loc>${escapeXml(assertCanonical(`/${file}`))}</loc><lastmod>${now}</lastmod></sitemap>`).join('\n')}\n</sitemapindex>\n`;
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${files.map((file) => `  <sitemap><loc>${escapeXml(assertCanonical(canonicalUrl(`/${file}`)))}</loc><lastmod>${now}</lastmod></sitemap>`).join('\n')}\n</sitemapindex>\n`;
 }
 function rss(posts) { const items = posts.slice(0, 100).map((p) => { const url = canonicalUrl(`/article/${encodeURIComponent(p.slug)}`); return `    <item><title><![CDATA[${p.title}]]></title><link>${url}</link><guid isPermaLink="true">${url}</guid><pubDate>${p.date.toUTCString()}</pubDate><dc:creator><![CDATA[${p.author}]]></dc:creator><description><![CDATA[${p.description}]]></description></item>`; }).join('\n'); return `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>${escapeXml(PUBLICATION_NAME)}</title><link>${SITE_URL}</link><description>Kenya and world news, politics, sports and entertainment.</description><language>en-KE</language><atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="${SITE_URL}/feed.xml" rel="self" type="application/rss+xml"/>\n${items}\n</channel></rss>\n`; }
 function robots() { return `User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /search\nDisallow: /admin\nDisallow: /newsletter\n\nUser-agent: Googlebot\nAllow: /\n\nUser-agent: Bingbot\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\nSitemap: ${SITE_URL}/news-sitemap.xml\n`; }
