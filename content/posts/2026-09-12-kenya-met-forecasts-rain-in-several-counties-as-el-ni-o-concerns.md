@@ -1,19 +1,18 @@
 ---
 title: "Kenya Met forecasts rain in several counties as El Niño concerns"
 slug: "kenya-met-forecasts-rain-in-several-counties-as-el-ni-o-concerns"
-description: "kenya met forecasts rain several counties: Nairobi, September 12, 2026 — The Kenya Meteorological Department has issued a 24-hour weather advisory as anxiety"
+description: "Nairobi, September 12, 2026 — The Kenya Meteorological Department has issued a 24-hour weather advisory as anxiety intensifies over the looming El Niño."
 excerpt: "Nairobi, September 12, 2026 — The Kenya Meteorological Department has issued a 24-hour weather advisory as anxiety intensifies over the looming El Niño."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/fVQKHv45/19212d98bea3.jpg"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
-canonical: "https://zandani.co.ke/article/kenya-met-forecasts-rain-in-several-counties-as-el-ni-o-concerns"
 date: "2026-09-12T05:48:15Z"
 dateModified: "2026-09-12T05:48:15Z"
 focusKeyword: "kenya met forecasts rain several counties"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/kenya-met-forecasts-rain-in-several-counties-as-el-ni-o-concerns"
 ---
-
 Nairobi, September 12, 2026 - The Kenya Meteorological Department has issued a 24-hour weather advisory as anxiety intensifies over the looming El Niño phenomenon, with the state placing the probability of the weather event at 81 percent.
 
 While the acting director, Edward Muriuki, reports that most of the country will remain generally dry through this evening, active rainfall is expected across thirteen specific counties. The wet weather is concentrated in the western highlands-including Kericho, Kakamega, Vihiga, Nandi, Uasin Gishu, Bungoma, and Trans Nzoia-and along the coast in Mombasa, Lamu, Kilifi, and Kwale.

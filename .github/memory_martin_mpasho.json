@@ -86,10 +86,10 @@
     "be1cfcdbf9c4089311765f3c",
     "f9da9473b504aa8563a2eb1f",
     "32a7d092b3c7d45fb1590839",
-    "7cb01e8416d521c7b9fbc831"
+    "7cb01e8416d521c7b9fbc831",
+    "a8fd5a11990db3659d782b12"
   ],
   "style_history": [
-    "Statement Report",
     "Hard Showbiz Lead",
     "Event Report",
     "Statement Report",
@@ -118,7 +118,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [],
   "recent_stories": [
@@ -141,6 +142,10 @@
     {
       "key": "2026-09-15-guardian-angels-unique-way-of-attracting-tenants-to-hi-mabati-rentals",
       "ts": "2026-09-15T07:49:30Z"
+    },
+    {
+      "key": "2026-09-15-inside-2026s-biggest-solo-concerts",
+      "ts": "2026-09-15T08:13:47Z"
     }
   ]
 }
