@@ -558,10 +558,10 @@
     "98304ddf6538ffc60c92e34da9b18f1d",
     "c3f28d08978bd7c34ee7ee19c98d14db",
     "0486a8d2a4ada1696a92a182d3a27d90",
-    "fbeb1ca7e21bc68c6c9c515f8a228efe"
+    "fbeb1ca7e21bc68c6c9c515f8a228efe",
+    "1006e6054fe93ec5748462914bb5639a"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -590,7 +590,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -733,7 +734,8 @@
     "https://kenyans.co.ke/news/127073-uhuru-clears-way-jubilee-leadership-handover-after-court-ruling",
     "https://kenyans.co.ke/news/127071-nairobi-beats-london-rome-and-munich-host-2029-world-athletics-championships",
     "https://kenyans.co.ke/news/127087-babu-owino-takes-break-linda-mwananchi-rallies-focus-nairobi-gubernatorial-race",
-    "https://kenyans.co.ke/news/127086-kenya-takes-13-mega-projects-global-investors-south-korea"
+    "https://kenyans.co.ke/news/127086-kenya-takes-13-mega-projects-global-investors-south-korea",
+    "https://kenyans.co.ke/news/127088-kenya-railways-explains-little-known-meaning-coffin-casings-sgr-lines"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -798,7 +800,8 @@
     "uhuru clears way jubilee leadership handover court ruling",
     "nairobi beats london rome munich host 2029 world athletics championships",
     "babu owino takes break linda mwananchi rallies focus nairobi gubernatorial race",
-    "takes mega projects global investors south korea"
+    "takes mega projects global investors south korea",
+    "railways explains little known meaning coffin like casings sgr lines"
   ],
   "topic_keys": [
     "news tracker",
