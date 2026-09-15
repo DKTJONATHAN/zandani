@@ -88,10 +88,10 @@
     "32a7d092b3c7d45fb1590839",
     "7cb01e8416d521c7b9fbc831",
     "a8fd5a11990db3659d782b12",
-    "0ca5460292f98449dc5764c6"
+    "0ca5460292f98449dc5764c6",
+    "f3e9d99acbf2743fcf63c2f9"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard Showbiz Lead",
     "Event Report",
@@ -120,7 +120,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [],
   "recent_stories": [
@@ -151,6 +152,10 @@
     {
       "key": "2026-09-15-is-it-real-or-ai-fans-react-to-bradley-marongos-romantic-photos",
       "ts": "2026-09-15T12:57:49Z"
+    },
+    {
+      "key": "2026-09-15-how-khaligraph-jones-rocked-christie-sevens-finale",
+      "ts": "2026-09-15T17:26:15Z"
     }
   ]
 }
