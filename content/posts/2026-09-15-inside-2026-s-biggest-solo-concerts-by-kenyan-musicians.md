@@ -17,12 +17,6 @@ stylePreset: "Statement Report"
 ---
 Nairobi’s entertainment landscape in 2026 has undergone a definitive shift, as local digital creators, comedians, and musicians increasingly pivot from internet-based content to headlining high-capacity, independent live productions across the country.
 
-### What we know
-* The industry is maturing as entertainers move beyond viral clips to monetize their brands through large-scale, self-produced solo performances at major venues.
-* Internal friction within production teams suggests that as these solo acts grow into corporate entities, disputes over brand ownership and creative control are becoming inevitable.
-* Regional and international collaborations remain a strategic pillar for local headliners looking to elevate their stage presence and attract diverse audience demographics.
-* The rise of solo stand-up and anniversary showcases signals a departure from traditional collaborative comedy duos toward individual artistic autonomy and specialized storytelling.
-
 The trend gained significant momentum this year, with notable milestones including Decin’s tenth-anniversary showcase at the Kenyatta International Convention Centre (KICC). The event, which integrated popular online characters like Choke Jingli with a lineup featuring regional heavyweights such as Jose Chameleone, Bebe Cool, Jua Cali, and Wyre, highlighted the scale of current local productions.
 
 However, the transition has not been without operational challenges. Reports from August 2026 indicate that a major production proceeded without co-founder Osoro Cyprian, triggering a public dispute regarding brand management. Despite such friction, other performers have successfully navigated the solo route; for instance, a prominent comedian recently performed a solo act at the Sarit Centre Expo Hall, focusing on relationship politics and everyday Kenyan life, independent of his former creative partner, Celestine Ndinda.
