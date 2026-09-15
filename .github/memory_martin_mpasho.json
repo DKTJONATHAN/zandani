@@ -84,10 +84,10 @@
     "c253c5bd74310040187de8e4",
     "c98505ceed8558389e6d082a",
     "be1cfcdbf9c4089311765f3c",
-    "f9da9473b504aa8563a2eb1f"
+    "f9da9473b504aa8563a2eb1f",
+    "32a7d092b3c7d45fb1590839"
   ],
   "style_history": [
-    "Hard Showbiz Lead",
     "Event Report",
     "Statement Report",
     "Hard Showbiz Lead",
@@ -116,7 +116,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [],
   "recent_stories": [
@@ -131,6 +132,10 @@
     {
       "key": "2026-09-14-coolkid-reclaims-girlfriends-mercedes-benz",
       "ts": "2026-09-14T20:12:15Z"
+    },
+    {
+      "key": "2026-09-15-dr-ofweneke-why-muslims-beat-christians-in-matters-of-religious-unity",
+      "ts": "2026-09-15T07:20:44Z"
     }
   ]
 }

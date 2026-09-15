@@ -1,19 +1,18 @@
 ---
 title: "Adekunle Gold urges people with sickle cell to prioritise"
 slug: "adekunle-gold-urges-people-with-sickle-cell-to-prioritise"
-description: "adekunle gold urges people with sickle: Nigerian Afrobeats star Adekunle Gold has ignited a heated debate on romantic pragmatism, asserting that genotype"
+description: "Nigerian Afrobeats star Adekunle Gold has ignited a heated debate on romantic pragmatism, asserting that genotype compatibility must take precedence over."
 excerpt: "Nigerian Afrobeats star Adekunle Gold has ignited a heated debate on romantic pragmatism, asserting that genotype compatibility must take precedence over."
 author: "Wanjiku Kuria"
 image: "https://i.ibb.co/0pJthfqS/bb11c0d49be3.jpg"
 category: "Gossip"
 tags: ["gossip", "showbiz", "kenya"]
-canonical: "https://zandani.co.ke/article/adekunle-gold-urges-people-with-sickle-cell-to-prioritise"
 date: "2026-09-11T14:27:01Z"
 dateModified: "2026-09-11T14:27:01Z"
 focusKeyword: "adekunle gold urges people with sickle"
 schema: "NewsArticle"
+canonical: "https://zandani.co.ke/article/adekunle-gold-urges-people-with-sickle-cell-to-prioritise"
 ---
-
 Nigerian Afrobeats star Adekunle Gold has ignited a heated debate on romantic pragmatism, asserting that genotype compatibility must take precedence over emotional attachment for individuals living with sickle cell disease.
 
 Speaking during a recent guest appearance on the One54 Podcast, the singer, who manages the condition himself, argued that prospective parents have a moral obligation to prioritize the health of their future offspring above romantic inclinations. He maintained that entering a relationship without first verifying a partner’s status is a risk that potentially condemns children to a life of chronic illness.
