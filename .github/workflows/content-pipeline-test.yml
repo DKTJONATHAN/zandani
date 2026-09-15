@@ -11,11 +11,9 @@ on:
       - "wrangler.jsonc"
       - "package.json"
       - "bun.lock"
-      - "bun.lockb"
   push:
     branches:
-      - "fix/content-publishing-20260915"
-      - "fix/seo-recovery-cloudflare-20260915"
+      - "fix/seo-cloudflare-indexing-20260915"
 
 permissions:
   contents: read
@@ -31,8 +29,8 @@ jobs:
         with:
           bun-version: latest
 
-      - name: Install dependencies
-        run: bun install
+      - name: Install dependencies from lockfile
+        run: bun install --frozen-lockfile
 
       - name: Build complete production site
         run: bun run build
@@ -66,7 +64,9 @@ jobs:
           const missing = manifest.filter(p => !sitemap.includes(`/article/${encodeURIComponent(p.slug)}`));
           if (missing.length) throw new Error(`Published posts missing from article sitemap: ${missing.slice(0, 10).map(p => p.slug).join(', ')}`);
           const robots = fs.readFileSync('dist/robots.txt', 'utf8');
+          if (!robots.includes('User-agent: Googlebot') || !robots.includes('User-agent: Bingbot')) throw new Error('robots.txt is missing explicit Googlebot/Bingbot groups');
           if (!robots.includes('Sitemap: https://zandani.co.ke/sitemap.xml')) throw new Error('robots.txt does not reference sitemap.xml');
+          if (/https?:\/\/(?!zandani\.co\.ke)[^\s<]+/i.test(sitemap)) throw new Error('Article sitemap contains a non-canonical hostname');
           const article = manifest[0];
           if (article) {
             const htmlPath = `dist/article/${article.slug}/index.html`;
@@ -75,6 +75,8 @@ jobs:
             const safeTitle = article.title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
             if (!html.includes(`<h1>${safeTitle}</h1>`)) throw new Error('Article HTML does not contain the published headline');
             if (!html.includes('class="article-body"')) throw new Error('Article HTML does not contain prerendered body content');
+            if (!html.includes(`rel="canonical" href="https://zandani.co.ke/article/${encodeURIComponent(article.slug)}"`)) throw new Error('Article HTML has an incorrect canonical URL');
+            if (!html.includes('application/ld+json')) throw new Error('Article HTML is missing structured data');
           }
           console.log('SEO artifacts OK.');
           NODE
