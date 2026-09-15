@@ -4,7 +4,7 @@
  * Build-time script that submits post URLs to IndexJump.
  *
  * Goals:
- * - Work reliably on Vercel (even with shallow clones)
+ * - Work on Cloudflare Workers Builds / CI (including shallow clones)
  * - Submit URLs for BOTH new posts and edited posts
  * - Fall back to submitting all posts if we can't determine a diff
  */
@@ -60,9 +60,13 @@ async function submitSingle(url) {
 }
 
 function getChangedMarkdownFilesFromGit() {
-  // Prefer Vercel-provided SHAs when available.
-  const prev = process.env.VERCEL_GIT_PREVIOUS_SHA;
-  const curr = process.env.VERCEL_GIT_COMMIT_SHA;
+  // Prefer CF / CI SHAs when available, then fall back to HEAD~1.
+  const prev = process.env.CF_PAGES_COMMIT_SHA
+    ? null
+    : (process.env.GITHUB_EVENT_BEFORE || null);
+  const curr = process.env.CF_PAGES_COMMIT_SHA
+    || process.env.GITHUB_SHA
+    || null;
 
   const candidates = [];
   if (prev && curr) {
