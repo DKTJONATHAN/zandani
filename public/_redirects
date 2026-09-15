@@ -1,6 +1,5 @@
-# SPA fallback is handled in wrangler.jsonc:
-# assets.not_found_handling = single-page-application
-# Do not add /* /index.html 200 here — Workers rejects it as an infinite loop
-# when Pretty URLs strip .html / index.
-#
-# GSC verification files are served by worker.js (run_worker_first).
+# Cloudflare redirects for legacy URLs.
+# Article redirects migrated from the retired Vercel configuration.
+/article/2026-04-24-airtel-kenya-earn-ksh100-per-referral-on-myairtel-app /article/2026-04-25-airtel-kenya-launches-ksh100-refer-and-earn-on-myairtel-app 301
+/article/2026-04-29-george-clooney-reacts-to-his-lake-como-villa-appearing-in-the-devil- /article/2026-05-04-director-explains-devil-wears-prada-2-death-scene-twist 301
+/rss.xml /feed.xml 301
