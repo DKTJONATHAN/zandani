@@ -1,18 +1,19 @@
 ---
 title: "Twelve Arrested in Siaya Over Attack on Rachel Ruto Convoy"
 slug: "twelve-arrested-in-siaya-over-attack-on-rachel-ruto-convoy"
-description: "What we know - Police cells in Siaya hold twelve young men this Wednesday morning after detectives rounded them up for pelting stones at First Lady Rachel."
+description: "twelve arrested siaya over attack rachel: What we know - Police cells in Siaya hold twelve young men this Wednesday morning after detectives rounded them up"
 excerpt: "What we know - Police cells in Siaya hold twelve young men this Wednesday morning after detectives rounded them up for pelting stones at First Lady Rachel."
 author: "Celestine Nzioka"
 image: "https://www.kenyans.co.ke/files/styles/article_style/public/images/media/SH.jpg.webp?itok=Czo-NPZQ"
 category: "News"
 tags: ["twelve arrested in siaya over attack on rachel ruto convoy", "news", "kenya news"]
+canonical: "https://zandani.co.ke/article/twelve-arrested-in-siaya-over-attack-on-rachel-ruto-convoy"
 date: "2026-09-09T08:41:08Z"
 dateModified: "2026-09-09T08:41:08Z"
 focusKeyword: "twelve arrested siaya over attack rachel"
 schema: "NewsArticle"
-canonical: "https://zandani.co.ke/article/twelve-arrested-in-siaya-over-attack-on-rachel-ruto-convoy"
 ---
+
 ### What we know
 
 - Police cells in Siaya hold twelve young men this Wednesday morning after detectives rounded them up for pelting stones at First Lady Rachel Ruto’s motorcade on Tuesday afternoon, September 8, 2026, right outside the Kenya Medical Training College grounds in Siaya town. - * Directorate of Criminal Investigations officers detained 12 suspects on Tuesday evening following violent confrontations at KMTC Siaya. - The trouble started just as the official motorcade prepared to leave the Kenya Medical Training College venue for a waiting helicopter. - When security officers held the line, rocks flew toward the convoy.
