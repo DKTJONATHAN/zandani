@@ -2,7 +2,9 @@ name: Martin Kihara — Mpasho / Showbiz
 
 on:
   schedule:
-    # Hourly (every hour, all day)
+    # Hourly in Kenyan time (EAT = UTC+3 / Africa/Nairobi)
+    # Runs at the top of every EAT hour: 00:00, 01:00, … 23:00 EAT
+    # GitHub cron is UTC → 21,22,23,0,1,…20 UTC maps to those EAT hours
     - cron: "0 * * * *"
   workflow_dispatch: {}
 
@@ -57,9 +59,11 @@ jobs:
           IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
           POSTS_DIR: ${{ env.POSTS_DIR }}
           MEMORY_FILE: ${{ env.MEMORY_FILE }}
+          TZ: Africa/Nairobi
         run: |
           set -e
-          echo "=== Mpasho scraper ==="
+          echo "=== Mpasho scraper (Kenya / EAT) ==="
+          date
           echo "Source: https://www.mpasho.co.ke/ (+ /entertainment /relationships /exclusives)"
           echo "Freshness gate: 24 hours"
           if [ ! -f scripts/martin_mpasho.py ]; then
