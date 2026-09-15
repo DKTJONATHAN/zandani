@@ -32,7 +32,7 @@ jobs:
           bun-version: latest
 
       - name: Install dependencies
-        run: bun install --frozen-lockfile
+        run: bun install
 
       - name: Build complete production site
         run: bun run build
@@ -72,7 +72,8 @@ jobs:
             const htmlPath = `dist/article/${article.slug}/index.html`;
             if (!fs.existsSync(htmlPath)) throw new Error(`Missing prerendered article: ${htmlPath}`);
             const html = fs.readFileSync(htmlPath, 'utf8');
-            if (!html.includes(`<h1>${article.title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</h1>`)) throw new Error('Article HTML does not contain the published headline');
+            const safeTitle = article.title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            if (!html.includes(`<h1>${safeTitle}</h1>`)) throw new Error('Article HTML does not contain the published headline');
             if (!html.includes('class="article-body"')) throw new Error('Article HTML does not contain prerendered body content');
           }
           console.log('SEO artifacts OK.');
