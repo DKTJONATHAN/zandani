@@ -95,10 +95,10 @@
     "8611b7484be6584f51513c05",
     "5ad1331c23fe3c880f3738ca",
     "e2343b7873f323ad0dff6392",
-    "29f57a1dba929a2702af2e5a"
+    "29f57a1dba929a2702af2e5a",
+    "3d4184a6854fea74b046c7dd"
   ],
   "style_history": [
-    "Statement Report",
     "Hard Showbiz Lead",
     "Event Report",
     "Statement Report",
@@ -127,7 +127,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [],
   "recent_stories": [
@@ -186,6 +187,10 @@
     {
       "key": "2026-09-16-bolo-bespoke-and-mueni-reveal-their-new-home-to-fans",
       "ts": "2026-09-16T17:22:09Z"
+    },
+    {
+      "key": "2026-09-16-chuka-kenyan-prince-releases-a-song-dedicated-to-sheryl-gabriella",
+      "ts": "2026-09-16T20:33:40Z"
     }
   ]
 }
