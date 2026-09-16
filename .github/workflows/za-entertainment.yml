@@ -18,6 +18,10 @@ env:
   POSTS_DIR: content/posts
   MEMORY_FILE: .github/memory_mutheu.json
   TZ: Africa/Nairobi
+  WRITER_PROMPT_FILE: scripts/zandani_writer_prompt.txt
+  WRITER_MAX_AGE_HOURS: "24"
+  FRESH_HOURS: "24"
+  WRITE_EVERY_ELIGIBLE_STORY: "1"
 
 jobs:
   generate-and-publish:
@@ -48,6 +52,17 @@ jobs:
           pip install requests google-genai beautifulsoup4 lxml playwright python-dateutil
           playwright install chromium --with-deps
 
+      - name: Enforce 24h freshness and angle-gap writer (entertainment)
+        env:
+          WRITER_DESK: entertainment
+        run: |
+          set -e
+          echo "Desk entertainment: angle-gap JSON writer, 24h source max-age"
+          echo "Eligible stories are written. Skip only if older than 24h or unusable."
+          test -f scripts/zandani_writer_prompt.txt
+          python scripts/enforce_writer_contract.py
+          python -c "from pathlib import Path; import re; p=Path('scripts/mutheu_entertainment.py'); t=p.read_text(); t2=re.sub(r'FRESH_HOURS\\s*=\\s*\\d+', 'FRESH_HOURS = 24', t); p.write_text(t2) if t2!=t else None; print('Freshness pin checked')"
+
       - name: Run Mutheu Ann pipeline
         env:
           GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
@@ -57,6 +72,10 @@ jobs:
           IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
           POSTS_DIR: ${{ env.POSTS_DIR }}
           MEMORY_FILE: ${{ env.MEMORY_FILE }}
+          WRITER_PROMPT_FILE: ${{ env.WRITER_PROMPT_FILE }}
+          WRITER_MAX_AGE_HOURS: "24"
+          FRESH_HOURS: "24"
+          WRITE_EVERY_ELIGIBLE_STORY: "1"
         run: |
           if [ -f scripts/mutheu_entertainment.py ]; then
             python scripts/mutheu_entertainment.py
