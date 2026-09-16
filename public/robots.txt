@@ -3,8 +3,20 @@ Allow: /
 Disallow: /api/
 Disallow: /search
 Disallow: /search?
+Disallow: /admin
+Disallow: /newsletter
+Disallow: /*?page=
+Disallow: /tag/
 
 User-agent: Googlebot
+Allow: /
+Disallow: /search
+Disallow: /admin
+Disallow: /newsletter
+Disallow: /api/
+Disallow: /tag/
+
+User-agent: Bingbot
 Allow: /
 
 Sitemap: https://zandani.co.ke/sitemap.xml
