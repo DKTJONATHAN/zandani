@@ -93,10 +93,10 @@
     "0d3bd1076b33c6c9e223ff3f",
     "c4c73dfb394a47ab8c3ed90e",
     "8611b7484be6584f51513c05",
-    "5ad1331c23fe3c880f3738ca"
+    "5ad1331c23fe3c880f3738ca",
+    "e2343b7873f323ad0dff6392"
   ],
   "style_history": [
-    "Hard Showbiz Lead",
     "Event Report",
     "Statement Report",
     "Hard Showbiz Lead",
@@ -125,7 +125,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [],
   "recent_stories": [
@@ -176,6 +177,10 @@
     {
       "key": "2026-09-16-nikita-kering-speaks-after-starring-in-crazy-kennars-co-parenting-skit",
       "ts": "2026-09-16T07:13:33Z"
+    },
+    {
+      "key": "2026-09-16-buy-her-a-car-or-stay-away-kenyan-prince-to-men",
+      "ts": "2026-09-16T12:55:10Z"
     }
   ]
 }
