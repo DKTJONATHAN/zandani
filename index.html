@@ -18,7 +18,13 @@
       html { color-scheme: dark; }
       body { background-color: #050505; color: #f3ece2; margin: 0; font-family: sans-serif; }
       #root { min-height: 100vh; background: #050505; color: #f3ece2; }
+      /* Hide prerendered unstyled SEO HTML until CSS + React paint.
+         Crawlers still read the snapshot in the source. */
+      html:not(.app-ready) #root { visibility: hidden; }
     </style>
+    <noscript>
+      <style>html:not(.app-ready) #root { visibility: visible; }</style>
+    </noscript>
 
     <!-- CRITICAL: wsrv.nl preconnect first — fixes LCP request discovery -->
     <link rel="preconnect" href="https://wsrv.nl" crossorigin />

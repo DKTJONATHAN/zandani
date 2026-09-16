@@ -8,6 +8,10 @@ import { installGlobalErrorHandlers } from "./lib/errors";
 
 installGlobalErrorHandlers();
 
+function markAppReady() {
+  document.documentElement.classList.add("app-ready");
+}
+
 // Register service worker for offline + push
 if (typeof window !== "undefined" && "serviceWorker" in navigator) {
   window.addEventListener("load", () => {
@@ -26,3 +30,8 @@ createRoot(document.getElementById("root")!).render(
     </HelmetProvider>
   </React.StrictMode>
 );
+
+// Reveal after the first paint so prerendered unstyled HTML never flashes.
+requestAnimationFrame(() => {
+  requestAnimationFrame(markAppReady);
+});
