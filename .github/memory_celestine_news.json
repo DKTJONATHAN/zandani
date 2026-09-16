@@ -563,10 +563,10 @@
     "ccba88fae960f7797767cb6ca7401101",
     "6cd9790b44264e3ffefb17e8b205b9c7",
     "f013159e3828b8186541fd6241c63e07",
-    "fb30e458cd520d71c3977646a54b41e1"
+    "fb30e458cd520d71c3977646a54b41e1",
+    "e0bd5f5d728731ff65da3a78f265cfc7"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -595,7 +595,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -743,7 +744,8 @@
     "https://kenyans.co.ke/news/127083-kaa-says-passengers-must-present-id-retrieve-items-left-planes",
     "https://kenyans.co.ke/news/127100-mudavadi-mutua-ag-oduor-face-senate-over-recruitment-kenyans-russian-military",
     "https://kenyans.co.ke/news/127123-kenya-secures-aiib-grant-mau-summit-malaba-road-preparations",
-    "https://kenyans.co.ke/news/127122-ageyo-kitili-smart-get-new-roles-nation-media-reshuffles-editors"
+    "https://kenyans.co.ke/news/127122-ageyo-kitili-smart-get-new-roles-nation-media-reshuffles-editors",
+    "https://kenyans.co.ke/news/127120-court-appeal-bars-kra-delaying-tax-decisions-over-pending-cases"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -813,7 +815,8 @@
     "kaa passengers must present retrieve items left planes",
     "mudavadi mutua oduor face senate recruitment russian military",
     "secures aiib grant mau summit malaba road preparations",
-    "ageyo kitili smart get roles nation media reshuffles editors"
+    "ageyo kitili smart get roles nation media reshuffles editors",
+    "court appeal rebukes kra administrative stalls sends ksh168 million vat refund battle back high court"
   ],
   "topic_keys": [
     "news tracker",
