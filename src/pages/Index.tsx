@@ -1,8 +1,8 @@
-import React, { useEffect, useState, useMemo, useCallback, useRef } from "react";
+import React, { useEffect, useState, useMemo, useCallback } from "react";
 import { Layout } from "@/components/layout/Layout";
-import { getAllPosts, type PostMetadata } from "@/lib/markdown";
+import { getAllPosts } from "@/lib/markdown";
 import { Link } from "react-router-dom";
-import { ArrowRight, TrendingUp, Flame, Clock, Eye, Radio, Mail, Tv, Sparkles } from "lucide-react";
+import { ArrowRight, TrendingUp, Flame, Clock, Eye, Radio, Mail, Tv, Sparkles, ChevronDown, ChevronUp } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import AdUnit from "@/components/AdUnit";
 import { LiveUpdatesTimeline } from "@/components/news/LiveUpdatesTimeline";
@@ -10,10 +10,9 @@ import { ForYouRail } from "@/components/articles/ForYouRail";
 import { NewsletterForm } from "@/components/NewsletterForm";
 import { timeAgo } from "@/lib/utils";
 
-const INITIAL_LOAD = 12;
-const LOAD_MORE_COUNT = 12;
 const SITE_URL = "https://zandani.co.ke";
 const DEFAULT_OG_IMAGE = `${SITE_URL}/images/default-og.jpg`;
+const FORTY_EIGHT_HOURS = 48 * 60 * 60 * 1000;
 
 function img(url: string, w = 800): string {
   if (!url) return "/images/placeholder.jpg";
@@ -37,7 +36,6 @@ function catBorder(_cat: string): string {
 
 type Post = ReturnType<typeof getAllPosts>[0];
 
-/** Light local preference used only as a same-day tiebreaker */
 function kenyaScore(post: Post): number {
   const blob = `${post.title || ""} ${post.excerpt || ""} ${post.category || ""} ${post.author || ""} ${(post.tags || []).join(" ")}`.toLowerCase();
   let score = 0;
@@ -57,7 +55,20 @@ function matchesCat(post: Post, names: string[]): boolean {
   return names.some((n) => cat.includes(n));
 }
 
-const RAW_POSTS = getAllPosts().slice(0, 80);
+const RAW_POSTS = getAllPosts().slice(0, 200);
+
+function InFeedAd({ slot }: { slot: number }) {
+  return (
+    <div className="border-b border-border py-4">
+      <div className="lg:hidden">
+        <AdUnit type={slot % 2 === 0 ? "horizontal" : "inarticle"} />
+      </div>
+      <div className="hidden lg:block">
+        <AdUnit type="inarticle" />
+      </div>
+    </div>
+  );
+}
 
 const MostReadMobile = React.memo(({ posts }: { posts: Post[] }) => (
   <div className="border border-border bg-card px-4 py-4">
@@ -130,11 +141,10 @@ const FeedCard = React.memo(({ post, views }: { post: Post; views: number }) => 
 ));
 
 const Index = () => {
-  const [visibleCount, setVisibleCount] = useState(INITIAL_LOAD);
   const [activeCategory, setActiveCategory] = useState("all");
+  const [showOlder, setShowOlder] = useState(false);
   const [viewCounts, setViewCounts] = useState<Record<string, number>>({});
   const [adsReady, setAdsReady] = useState(false);
-  const loaderRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     fetch("/api/get-views").then(r => r.ok ? r.json() : {}).then(setViewCounts).catch(() => {});
@@ -146,7 +156,7 @@ const Index = () => {
   }, [viewCounts]);
 
   useEffect(() => {
-    const t = setTimeout(() => setAdsReady(true), 4000);
+    const t = setTimeout(() => setAdsReady(true), 2500);
     return () => clearTimeout(t);
   }, []);
 
@@ -159,30 +169,26 @@ const Index = () => {
   }, []);
   const heroLead = rankedPosts[0];
   const heroSecondary = rankedPosts.slice(1, 5);
+  const cutoff = Date.now() - FORTY_EIGHT_HOURS;
 
   const categories = useMemo(() => {
     const cats = Array.from(new Set(RAW_POSTS.map(p => p.category?.toLowerCase()).filter(Boolean)));
     return ["all", ...cats];
   }, []);
 
-  const feedSource = useMemo(() => {
-    const base = rankedPosts.slice(5);
-    if (activeCategory === "all") return base;
-    return base.filter(p => p.category?.toLowerCase() === activeCategory);
-  }, [activeCategory, rankedPosts]);
+  const { recentFeed, olderFeed } = useMemo(() => {
+    const used = new Set([heroLead?.slug, ...heroSecondary.map((p) => p.slug)].filter(Boolean));
+    let base = rankedPosts.filter((p) => !used.has(p.slug));
+    if (activeCategory !== "all") {
+      base = base.filter((p) => p.category?.toLowerCase() === activeCategory);
+    }
+    return {
+      recentFeed: base.filter((p) => postTime(p) >= cutoff),
+      olderFeed: base.filter((p) => postTime(p) < cutoff),
+    };
+  }, [activeCategory, rankedPosts, heroLead, heroSecondary, cutoff]);
 
-  const displayedPosts = feedSource.slice(0, visibleCount);
-  const hasMore = visibleCount < feedSource.length;
-
-  useEffect(() => {
-    if (!loaderRef.current || !hasMore) return;
-    const obs = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) setVisibleCount(prev => prev + LOAD_MORE_COUNT); },
-      { rootMargin: "400px" }
-    );
-    obs.observe(loaderRef.current);
-    return () => obs.disconnect();
-  }, [hasMore]);
+  const displayedPosts = showOlder ? [...recentFeed, ...olderFeed] : recentFeed;
 
   const mostRead = useMemo(() => {
     const withViews = RAW_POSTS.filter(p => getViews(p.slug) > 0);
@@ -205,7 +211,7 @@ const Index = () => {
 
   const handleCategoryChange = useCallback((cat: string) => {
     setActiveCategory(cat);
-    setVisibleCount(INITIAL_LOAD);
+    setShowOlder(false);
   }, []);
 
   const heroImageSrcSet = heroLead
@@ -304,6 +310,11 @@ const Index = () => {
                   </Link>
                 ))}
               </div>
+              {adsReady && (
+                <div className="lg:hidden">
+                  <AdUnit type="horizontal" />
+                </div>
+              )}
             </div>
 
             <div className="hidden lg:grid lg:grid-cols-2 lg:items-center lg:gap-10">
@@ -345,6 +356,12 @@ const Index = () => {
         </Link>
       </div>
 
+      {adsReady && (
+        <div className="container max-w-7xl mx-auto px-3 sm:px-4 pb-4">
+          <AdUnit type="horizontal" />
+        </div>
+      )}
+
       <section className="container max-w-7xl mx-auto px-3 sm:px-4 pb-6">
         <LiveUpdatesTimeline maxItems={8} />
       </section>
@@ -352,6 +369,12 @@ const Index = () => {
       <section className="container max-w-7xl mx-auto px-3 sm:px-4 pb-2">
         <ForYouRail limit={6} />
       </section>
+
+      {adsReady && (
+        <div className="container max-w-7xl mx-auto px-3 sm:px-4 pb-6 lg:hidden">
+          <AdUnit type="inarticle" />
+        </div>
+      )}
 
       <section className="container max-w-7xl mx-auto px-3 sm:px-4 pb-12">
         <div className="flex flex-wrap items-center gap-2 mb-4 overflow-x-auto">
@@ -372,12 +395,39 @@ const Index = () => {
               <Flame className="w-4 h-4 text-primary" />
               <h2 className="text-sm font-black uppercase tracking-widest">Latest from Kenya</h2>
               <div className="h-px flex-1 bg-border" />
+              <span className="text-[10px] uppercase tracking-wider text-muted-foreground">Last 48 hours</span>
             </div>
-            {displayedPosts.map(post => (
-              <FeedCard key={post.slug} post={post} views={getViews(post.slug)} />
+
+            {displayedPosts.length === 0 && (
+              <p className="text-sm text-muted-foreground py-6">No stories in this window. Open Show more for earlier posts.</p>
+            )}
+
+            {displayedPosts.map((post, i) => (
+              <React.Fragment key={post.slug}>
+                <FeedCard post={post} views={getViews(post.slug)} />
+                {adsReady && (i + 1) % 3 === 0 && i !== displayedPosts.length - 1 && <InFeedAd slot={i} />}
+              </React.Fragment>
             ))}
-            <div ref={loaderRef} className="h-8" />
-            {!hasMore && <p className="text-center text-sm text-muted-foreground py-6">You are caught up.</p>}
+
+            {olderFeed.length > 0 && (
+              <div className="py-6 flex flex-col items-center gap-3">
+                <button
+                  type="button"
+                  onClick={() => setShowOlder((v) => !v)}
+                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-primary text-sm font-bold uppercase tracking-wider text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
+                >
+                  {showOlder ? (
+                    <>
+                      Show less <ChevronUp className="w-4 h-4" />
+                    </>
+                  ) : (
+                    <>
+                      Show more <span className="font-semibold normal-case tracking-normal">({olderFeed.length} older)</span> <ChevronDown className="w-4 h-4" />
+                    </>
+                  )}
+                </button>
+              </div>
+            )}
           </div>
 
           <aside className="lg:col-span-4 space-y-6">
