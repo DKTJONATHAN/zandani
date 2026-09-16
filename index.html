@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Dark-only: prevent light flash / black-on-black before React hydrates -->
     <script>
       (function () {
         try {
@@ -18,23 +17,13 @@
       html { color-scheme: dark; }
       body { background-color: #050505; color: #f3ece2; margin: 0; font-family: sans-serif; }
       #root { min-height: 100vh; background: #050505; color: #f3ece2; }
-      /* Hide prerendered unstyled SEO HTML until CSS + React paint.
-         Crawlers still read the snapshot in the source. */
-      html:not(.app-ready) #root { visibility: hidden; }
     </style>
-    <noscript>
-      <style>html:not(.app-ready) #root { visibility: visible; }</style>
-    </noscript>
 
-    <!-- CRITICAL: wsrv.nl preconnect first — fixes LCP request discovery -->
     <link rel="preconnect" href="https://wsrv.nl" crossorigin />
     <link rel="dns-prefetch" href="https://wsrv.nl" />
-
-    <!-- Supabase preconnect -->
     <link rel="preconnect" href="https://nkcnslswfbxrcvvlqxpy.supabase.co" crossorigin />
     <link rel="dns-prefetch" href="https://nkcnslswfbxrcvvlqxpy.supabase.co" />
 
-    <!-- Fonts — non-blocking, trimmed weights -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -47,7 +36,6 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;600&display=swap" />
     </noscript>
 
-    <!-- PWA / Web App Manifest -->
     <link rel="manifest" href="/manifest.json" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -58,73 +46,29 @@
     <meta name="theme-color" content="#050505" />
     <meta name="color-scheme" content="dark" />
 
-    <!-- Verification -->
     <meta name="google-adsense-account" content="ca-pub-9291176772735390" />
     <meta name="google-site-verification" content="VNTfdKk2KxWc62YlzrqHmf9u9zjtric-Fz8nXpdhqr4" />
     <meta name="msvalidate.01" content="2B25BAB72961CD0D4AD6B6FBB1A66B2F" />
 
-    <!-- Robots -->
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="googlebot-news" content="index, follow, max-image-preview:large" />
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 
-    <!-- News keywords -->
     <meta name="news_keywords" content="Kenya news, Nairobi gossip, entertainment Kenya, breaking news Kenya, politics Kenya, sports Kenya, celebrity news, trending stories" />
-
-    <!-- Publisher only — author removed (each article page sets its own via Helmet) -->
     <meta name="publisher" content="Za Ndani" />
 
-    <!--
-      NO hardcoded canonical here.
-      A global canonical pointing to the homepage makes Google treat every
-      SPA route (/article/*, /category/*, etc.) as a duplicate of the homepage,
-      overriding per-route canonicals set by react-helmet-async.
-      The Homepage component must declare its own canonical via <Helmet>.
-    -->
-
-    <!-- hreflang — site-wide, safe to keep here -->
-    <link rel="alternate" hreflang="en" href="https://zandani.co.ke" />
-    <link rel="alternate" hreflang="en-KE" href="https://zandani.co.ke" />
-    <link rel="alternate" hreflang="x-default" href="https://zandani.co.ke" />
-
-    <!-- RSS Feed -->
     <link rel="alternate" type="application/rss+xml" title="Za Ndani RSS Feed" href="/feed.xml" />
 
-    <!--
-      Default title & description — Helmet overrides these on every inner route.
-      Title kept under 60 chars to prevent Google SERP truncation.
-    -->
     <title>Za Ndani | Kenya News, Gossip & Entertainment</title>
     <meta name="description" content="Breaking Kenyan news, celebrity gossip, entertainment, politics and sports — delivered daily by Za Ndani." />
-    <meta name="keywords" content="latest news in Kenya today, breaking news Kenya, Kenyan entertainment news, Nairobi gossip, trending news Kenya, Kenya politics, celebrity gossip Kenya, sports news Kenya, Za Ndani, exclusive Kenyan scoops, current affairs Kenya" />
 
-    <!-- Open Graph — Helmet replaces ALL og: tags on article/inner pages -->
-    <meta property="og:title" content="Za Ndani | Kenya News, Gossip & Entertainment" />
-    <meta property="og:description" content="Breaking Kenyan news, celebrity gossip, entertainment, politics and sports — delivered daily by Za Ndani." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://zandani.co.ke" />
-    <meta property="og:image" content="https://zandani.co.ke/logo.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Za Ndani - Kenya News & Entertainment" />
-    <meta property="og:image:type" content="image/png" />
     <meta property="og:site_name" content="Za Ndani" />
     <meta property="og:locale" content="en_KE" />
-    <meta property="og:locale:alternate" content="en_US" />
 
-    <!-- Twitter Card — Helmet overrides on article pages -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@zandanikenya" />
-    <meta name="twitter:creator" content="@zandanikenya" />
-    <meta name="twitter:title" content="Za Ndani | Kenya News, Gossip & Entertainment" />
-    <meta name="twitter:description" content="Breaking Kenyan news, celebrity gossip, entertainment, politics and sports — delivered daily by Za Ndani." />
-    <meta name="twitter:image" content="https://zandani.co.ke/logo.png" />
-    <meta name="twitter:image:alt" content="Za Ndani - Kenya News & Entertainment" />
 
-    <!--
-      JSON-LD: Organization
-      ethicsPolicy + correctionsPolicy restored — /ethics and /corrections pages exist.
-    -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -159,50 +103,20 @@
     }
     </script>
 
-    <!-- JSON-LD: WebSite — safe in base HTML, describes the site globally -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Za Ndani",
-      "url": "https://zandani.co.ke",
-      "description": "Breaking Kenyan news, entertainment gossip, politics, and sports.",
-      "inLanguage": "en-KE",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://zandani.co.ke/search?q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      }
-    }
-    </script>
-
-    <!-- Preconnect for analytics and ads -->
     <link rel="preconnect" href="https://www.googletagmanager.com" />
     <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
     <link rel="dns-prefetch" href="https://www.google-analytics.com" />
   </head>
   <body>
     <div id="root"></div>
-
-    <!-- App loads first — nothing above this competes with it -->
     <script type="module" src="/src/main.tsx"></script>
-
-    <!-- Register Service Worker for PWA -->
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js').catch(err => {
-            console.log('ServiceWorker registration failed: ', err);
-          });
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
         });
       }
     </script>
-
-    <!-- AdSense — loads only on first user interaction OR after 8s.
-         Lighthouse never triggers this so it does NOT count toward TBT. -->
     <script>
       function loadAds() {
         if (window._adsLoaded) return;
@@ -218,8 +132,6 @@
       });
       setTimeout(loadAds, 8000);
     </script>
-
-    <!-- Google Analytics — deferred, never blocks paint -->
     <script>
       setTimeout(function() {
         var s = document.createElement('script');
