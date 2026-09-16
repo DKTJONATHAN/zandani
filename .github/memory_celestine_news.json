@@ -561,10 +561,10 @@
     "fbeb1ca7e21bc68c6c9c515f8a228efe",
     "1006e6054fe93ec5748462914bb5639a",
     "ccba88fae960f7797767cb6ca7401101",
-    "6cd9790b44264e3ffefb17e8b205b9c7"
+    "6cd9790b44264e3ffefb17e8b205b9c7",
+    "f013159e3828b8186541fd6241c63e07"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -593,7 +593,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -739,7 +740,8 @@
     "https://kenyans.co.ke/news/127086-kenya-takes-13-mega-projects-global-investors-south-korea",
     "https://kenyans.co.ke/news/127088-kenya-railways-explains-little-known-meaning-coffin-casings-sgr-lines",
     "https://kenyans.co.ke/news/127083-kaa-says-passengers-must-present-id-retrieve-items-left-planes",
-    "https://kenyans.co.ke/news/127100-mudavadi-mutua-ag-oduor-face-senate-over-recruitment-kenyans-russian-military"
+    "https://kenyans.co.ke/news/127100-mudavadi-mutua-ag-oduor-face-senate-over-recruitment-kenyans-russian-military",
+    "https://kenyans.co.ke/news/127123-kenya-secures-aiib-grant-mau-summit-malaba-road-preparations"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -807,7 +809,8 @@
     "takes mega projects global investors south korea",
     "railways explains little known meaning coffin like casings sgr lines",
     "kaa passengers must present retrieve items left planes",
-    "mudavadi mutua oduor face senate recruitment russian military"
+    "mudavadi mutua oduor face senate recruitment russian military",
+    "secures aiib grant mau summit malaba road preparations"
   ],
   "topic_keys": [
     "news tracker",
