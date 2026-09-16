@@ -12,21 +12,10 @@ try:
 except ImportError:  # pragma: no cover - dateutil is a pipeline dependency
     _date_parser = None
 
-# Years older than the current one that we've actually seen leak through as
-# "breaking news" (stale retrospectives, anniversary pieces, reposts with no
-# usable publish-date meta). Kept as a belt-and-suspenders check alongside
-# the date-based gate below, since many source CMSs omit publish-date meta
-# entirely on these pages.
 _STALE_YEAR_RE = re.compile(r"\b(19\d{2}|20\d{2})\b")
 
 
 def extract_published_dt(soup) -> Optional["_dt.datetime"]:
-    """Best-effort publish-date extraction from a scraped article page.
-
-    Tries, in order: OpenGraph/article meta tags, common non-OG meta names,
-    the first <time datetime=\"...\"> tag, and JSON-LD `datePublished`.
-    Returns a tz-aware datetime, or None if nothing usable was found.
-    """
     if soup is None or _date_parser is None:
         return None
 
@@ -68,15 +57,6 @@ def extract_published_dt(soup) -> Optional["_dt.datetime"]:
 
 
 def is_fresh_enough(soup, max_hours: int = 24):
-    """Fail-closed freshness gate.
-
-    Returns (is_fresh, age_hours). Unlike a bare
-    ``if meta and age > max: reject`` check, this treats a page where we
-    could not find ANY usable publish-date signal as NOT fresh, rather than
-    silently letting it through. That silent pass-through is what let a
-    stale, undated retrospective get rewritten and published as breaking
-    news. When in doubt, skip the story rather than publish it.
-    """
     pt = extract_published_dt(soup)
     if pt is None:
         return False, None
@@ -85,11 +65,6 @@ def is_fresh_enough(soup, max_hours: int = 24):
 
 
 def mentions_stale_year(text: str, current_year: int) -> bool:
-    """Secondary safety net: flag body text that explicitly cites an older
-    year (e.g. an anniversary/retrospective piece) and never mentions the
-    current year at all. Source CMS date meta is inconsistent enough across
-    these sites that a single signal isn't enough on its own.
-    """
     if not text:
         return False
     years = {int(y) for y in _STALE_YEAR_RE.findall(text)}
@@ -157,6 +132,8 @@ def should_skip_story(text: str, category: str = "") -> bool:
 
 def model_skipped(text: str) -> bool:
     t = text or ""
+    if re.search(r"SKIP:\s*NO UNIQUE ANGLE", t, re.I):
+        return True
     if len(t) < 180 and re.search(r"\b(skip|not kenya|cannot rewrite|refuse)\b", t, re.I):
         return True
     return False
@@ -178,7 +155,6 @@ def news_prompt(
     structure = style.get("structure", "") if isinstance(style, dict) else ""
     mode = "opinion column" if opinion else "news report"
     avoid_line = f"Avoid repeating these recent angles: {avoid}" if avoid else ""
-    # Commentary-style "What we know" — original synthesis, not body copy
     know = (
         "Do NOT include a 'What we know' section. This is not a hard-news brief."
         if opinion or (desk or "").lower() in {"opinions", "opinion", "lifestyle", "entertainment", "gossip"}
@@ -188,9 +164,9 @@ def news_prompt(
             "context for a busy reader (who / what shifted / why it matters).\n"
             "Rules for the bullets:\n"
             "- Do NOT copy or lightly rephrase sentences from the article body.\n"
-            "- Write like a desk editor briefing a colleague — crisp, confident, conversational.\n"
-            "- One idea per bullet, 12–28 words, end with a period.\n"
-            "- No first person, no clickbait, no 'What this means for Kenyans' clichés."
+            "- Write like a desk editor briefing a colleague.\n"
+            "- One idea per bullet, 12-28 words, end with a period.\n"
+            "- No first person, no clickbait."
         )
     )
     return f"""You are {author}, {role} for Za Ndani ({desk}).
@@ -201,11 +177,19 @@ Write original Kenyan-first {mode} in clean Markdown. No brand names of rival ou
 {know}
 {avoid_line}
 
+UNIQUENESS GATE:
+The source below is a tip sheet, not a draft. Nation, Standard, Citizen and Tuko likely already ran the same facts.
+Do not rewrite their lede, quote stack or paragraph order.
+Before writing, name one unused angle: cost to a Nairobi reader this week; what the circular/gazette/fixture actually changes; the official line that does not add up; the question the presser skipped; second-day consequence.
+If you cannot name that angle, output only: SKIP: NO UNIQUE ANGLE
+Never invent quotes, crowds or official comments.
+Do not open with the source headline restated.
+
 SOURCE TITLE: {title}
 SOURCE BODY:
 {body[:3500]}
 
-Output the article only. Start with a sharp lede paragraph (no H1 title line)."""
+Output the article only. Start with a sharp lede that is NOT the source lede (no H1 title line)."""
 
 
 def guess_county(text: str) -> str:
@@ -217,15 +201,9 @@ def guess_county(text: str) -> str:
 
 
 def seo_fields(title: str, body: str, category: str, author: str) -> dict:
-    """
-    Build SEO fields for a post.
-    Titles: keep complete headlines. Soft cap at 100 chars on a word boundary only —
-    never hard-chop at 65 (that was producing incomplete titles site-wide).
-    Descriptions: natural lede sentence, no keyword-stuffed prefixes.
-    """
     clean = re.sub(r"^#+\s*", "", title or "").strip()
     clean = re.sub(r"\s+", " ", clean)
-    clean = re.sub(r"\s*[|:\-–—…]+\s*$", "", clean).strip()
+    clean = re.sub(r"\s*[|:\-\u2013\u2014\u2026]+\s*$", "", clean).strip()
     if len(clean) > 100:
         cut = clean[:101]
         m = list(re.finditer(r"\b(?:after|amid|over|as|for|from|with|on|in|at|and|to)\b", cut, flags=re.I))
@@ -255,7 +233,7 @@ def seo_fields(title: str, body: str, category: str, author: str) -> dict:
                 continue
             out.append(line)
         source = "\n".join(out)
-    source = re.sub(r"(?im)^\s*what we know\b[:\-–—]?\s*", "", source)
+    source = re.sub(r"(?im)^\s*what we know\b[:\-\u2013\u2014]?\s*", "", source)
     plain = re.sub(r"[#*_>`]", "", source)
     plain = re.sub(r"\s+", " ", plain).strip()
     plain = re.sub(
@@ -335,18 +313,12 @@ def strip_know_block(body: str) -> str:
 
 
 def inject_know_if_missing(body: str, category: str = "News", title: str = "") -> str:
-    """No longer lifts body sentences into a fake brief.
-
-    'What we know' must come from the model as original commentary.
-    If the model omitted it, leave the body alone (or strip for non-news desks).
-    """
     if not should_have_know(category, title):
         return strip_know_block(body or "")
     return body or ""
 
 
 def strip_date_lede(body: str) -> str:
-    """Strip clock/date ledes like 'On Monday morning, 12 September 2026. '."""
     if not body:
         return body or ""
     return re.sub(
