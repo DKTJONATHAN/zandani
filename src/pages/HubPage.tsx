@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import { Link, useParams } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Clock } from "lucide-react";
 import { Layout } from "@/components/layout/Layout";
 import { PageHero } from "@/components/layout/PageHero";
@@ -25,22 +25,11 @@ const HUBS: Record<string, { title: string; intro: string; kicker: string; keywo
     intro: "Lending rates, forex, bonds and the bank notices that move household money. One board for the week’s market.",
     keywords: ["kcb", "bank", "forex", "bonds", "economy", "cbk", "loan", "interest"]
   },
-  sports: {
-    title: "Kenya sports news",
-    kicker: "Harambee · KPL · track",
-    intro: "Harambee Stars, Gor Mahia, AFC Leopards and the athletes Kenya actually argues about. Scores, then the read.",
-    keywords: ["football", "premier league", "harambee", "sports", "athletics", "match", "league"]
-  },
-  entertainment: {
-    title: "Kenya entertainment news",
-    kicker: "Showbiz · music · juice",
-    intro: "The Nairobi circuit: drops, beefs, gigs and the receipts. Fast, specific, never cruel about children.",
-    keywords: ["celebrity", "gossip", "music", "artist", "entertainment", "viral", "showbiz"]
-  }
 };
 
 export default function HubPage() {
-  const { hub } = useParams<{ hub: string }>();
+  const { pathname } = useLocation();
+  const hub = pathname.replace(/^\//, "").split("/")[0];
   const config = hub ? HUBS[hub] : undefined;
   const posts = getAllPosts();
   const filtered = config
@@ -53,6 +42,9 @@ export default function HubPage() {
   if (!config) {
     return (
       <Layout>
+        <Helmet>
+          <meta name="robots" content="noindex, follow" />
+        </Helmet>
         <PageHero kicker="404" title="Hub not found" dek="That desk does not exist on Za Ndani." />
       </Layout>
     );
@@ -68,6 +60,7 @@ export default function HubPage() {
         <title>{config.title} | Za Ndani</title>
         <meta name="description" content={config.intro.slice(0, 155)} />
         <link rel="canonical" href={canonical} />
+        <meta name="robots" content={filtered.length ? "index, follow" : "noindex, follow"} />
       </Helmet>
       <PageHero
         kicker={config.kicker}
