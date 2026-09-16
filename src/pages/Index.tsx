@@ -59,25 +59,6 @@ function matchesCat(post: Post, names: string[]): boolean {
 
 const RAW_POSTS = getAllPosts().slice(0, 80);
 
-const MobileTopCard = React.memo(({ post, views }: { post: Post; views: number }) => (
-  <Link to={`/article/${post.slug}`} className="group block">
-    <article>
-      <div className={`relative aspect-[4/3] overflow-hidden bg-muted border-t-[3px] ${catBorder(post.category)}`}>
-        <div className="absolute top-2 right-2 z-10 flex items-center gap-1 text-[10px] text-foreground bg-background/70 px-1.5 py-0.5">
-          <Eye className="w-3 h-3" />
-          {views > 999 ? `${(views / 1000).toFixed(1)}k` : views}
-        </div>
-        <img src={img(post.image, 360)} alt={post.title} loading="lazy" decoding="async" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-      </div>
-      <div className="pt-2">
-        <span className={`inline-block text-[8px] font-black tracking-widest uppercase px-1.5 py-0.5 mb-1 ${catColor(post.category)}`}>{post.category}</span>
-        <h3 className="font-serif font-bold text-foreground group-hover:text-primary transition-colors line-clamp-2 text-[13px] leading-snug">{post.title}</h3>
-        <span className="text-[10px] text-muted-foreground flex items-center gap-1 mt-1"><Clock className="w-2.5 h-2.5" />{timeAgo(post.date)}</span>
-      </div>
-    </article>
-  </Link>
-));
-
 const MostReadMobile = React.memo(({ posts }: { posts: Post[] }) => (
   <div className="border border-border bg-card px-4 py-4">
     <div className="flex items-center gap-2 mb-3">
@@ -385,7 +366,7 @@ const Index = () => {
           ))}
         </div>
 
-        <div className="grid lg:grid-cols-12 gap-8 items-start">
+        <div className="grid lg:grid-cols-12 gap-8">
           <div className="lg:col-span-8">
             <div className="flex items-center gap-2 mb-2">
               <Flame className="w-4 h-4 text-primary" />
@@ -399,7 +380,7 @@ const Index = () => {
             {!hasMore && <p className="text-center text-sm text-muted-foreground py-6">You are caught up.</p>}
           </div>
 
-          <aside className="lg:col-span-4 space-y-6 lg:sticky lg:top-24">
+          <aside className="lg:col-span-4 space-y-6">
             <MostReadMobile posts={mostRead} />
 
             {adsReady && <AdUnit type="inarticle" />}
@@ -411,15 +392,6 @@ const Index = () => {
               posts={showbiz}
             />
 
-            <div className="border border-primary/30 bg-primary text-primary-foreground px-4 py-5 rounded-xl">
-              <div className="flex items-center gap-2 mb-2">
-                <Mail className="w-4 h-4" />
-                <h3 className="text-xs font-black uppercase tracking-widest">Evening brief</h3>
-              </div>
-              <p className="text-sm mb-3 text-primary-foreground/90">Three Kenya-first stories, 19:00 EAT. Free.</p>
-              <NewsletterForm tone="onAccent" compact />
-            </div>
-
             <SidebarStoryList
               title="Sports desk"
               href="/sports"
@@ -427,21 +399,30 @@ const Index = () => {
               posts={sports}
             />
 
-            <Link to="/tv" className="flex items-center justify-between gap-3 border border-border bg-card px-4 py-3 hover:border-primary/50 transition-colors">
-              <span className="flex items-center gap-2 text-sm font-bold">
-                <Tv className="w-4 h-4 text-primary" /> Live Kenyan TV
-              </span>
-              <ArrowRight className="w-4 h-4 text-primary" />
-            </Link>
-
-            {adsReady && <AdUnit type="inarticle" />}
-
             <SidebarStoryList
               title="Opinion"
               href="/opinions"
               icon={<TrendingUp className="w-4 h-4 text-primary" />}
               posts={opinion}
             />
+
+            <div className="lg:sticky lg:top-24 space-y-4 bg-background pt-1">
+              {adsReady && <AdUnit type="inarticle" />}
+              <div className="border border-primary/30 bg-primary text-primary-foreground px-4 py-5 rounded-xl">
+                <div className="flex items-center gap-2 mb-2">
+                  <Mail className="w-4 h-4" />
+                  <h3 className="text-xs font-black uppercase tracking-widest">Evening brief</h3>
+                </div>
+                <p className="text-sm mb-3 text-primary-foreground/90">Three Kenya-first stories, 19:00 EAT. Free.</p>
+                <NewsletterForm tone="onAccent" compact />
+              </div>
+              <Link to="/tv" className="flex items-center justify-between gap-3 border border-border bg-card px-4 py-3 hover:border-primary/50 transition-colors">
+                <span className="flex items-center gap-2 text-sm font-bold">
+                  <Tv className="w-4 h-4 text-primary" /> Live Kenyan TV
+                </span>
+                <ArrowRight className="w-4 h-4 text-primary" />
+              </Link>
+            </div>
           </aside>
         </div>
       </section>
