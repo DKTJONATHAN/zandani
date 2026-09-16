@@ -9,7 +9,7 @@ from typing import Optional
 
 try:
     from dateutil import parser as _date_parser
-except ImportError:  # pragma: no cover - dateutil is a pipeline dependency
+except ImportError:
     _date_parser = None
 
 _STALE_YEAR_RE = re.compile(r"\b(19\d{2}|20\d{2})\b")
@@ -18,23 +18,18 @@ _STALE_YEAR_RE = re.compile(r"\b(19\d{2}|20\d{2})\b")
 def extract_published_dt(soup) -> Optional["_dt.datetime"]:
     if soup is None or _date_parser is None:
         return None
-
     candidates = []
-
     for prop in ("article:published_time", "og:published_time", "article:modified_time"):
         tag = soup.find("meta", property=prop)
         if tag and tag.get("content"):
             candidates.append(tag["content"])
-
     for name in ("date", "pubdate", "publish-date", "sailthru.date", "parsely-pub-date", "publishdate"):
         tag = soup.find("meta", attrs={"name": name})
         if tag and tag.get("content"):
             candidates.append(tag["content"])
-
     time_tag = soup.find("time")
     if time_tag and time_tag.get("datetime"):
         candidates.append(time_tag["datetime"])
-
     for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
         try:
             data = _json.loads(script.string or "")
@@ -44,7 +39,6 @@ def extract_published_dt(soup) -> Optional["_dt.datetime"]:
         for item in items:
             if isinstance(item, dict) and item.get("datePublished"):
                 candidates.append(item["datePublished"])
-
     for raw in candidates:
         try:
             pt = _date_parser.parse(raw)
@@ -112,22 +106,17 @@ def is_spam(text: str, min_words: int = 120) -> bool:
     if len(words) < min_words:
         return True
     low = (text or "").lower()
-    hits = sum(1 for p in BANNED_PHRASES if p in low)
-    return hits >= 3
+    return sum(1 for p in BANNED_PHRASES if p in low) >= 3
 
 
 def kenya_score(text: str) -> int:
     blob = text or ""
-    score = len(KENYA_HINTS.findall(blob)) * 3
-    score -= len(FOREIGN_HINTS.findall(blob)) * 2
-    return score
+    return len(KENYA_HINTS.findall(blob)) * 3 - len(FOREIGN_HINTS.findall(blob)) * 2
 
 
 def should_skip_story(text: str, category: str = "") -> bool:
     blob = text or ""
-    if kenya_score(blob) <= 0 and FOREIGN_HINTS.search(blob):
-        return True
-    return False
+    return kenya_score(blob) <= 0 and bool(FOREIGN_HINTS.search(blob))
 
 
 def model_skipped(text: str) -> bool:
@@ -155,41 +144,91 @@ def news_prompt(
     structure = style.get("structure", "") if isinstance(style, dict) else ""
     mode = "opinion column" if opinion else "news report"
     avoid_line = f"Avoid repeating these recent angles: {avoid}" if avoid else ""
-    know = (
-        "Do NOT include a 'What we know' section. This is not a hard-news brief."
-        if opinion or (desk or "").lower() in {"opinions", "opinion", "lifestyle", "entertainment", "gossip"}
-        else (
-            "After the lede, add a '### What we know' section with 3-5 short bullets.\n"
-            "Each bullet must be an ORIGINAL editorial commentary line that synthesises "
-            "context for a busy reader (who / what shifted / why it matters).\n"
-            "Rules for the bullets:\n"
-            "- Do NOT copy or lightly rephrase sentences from the article body.\n"
-            "- Write like a desk editor briefing a colleague.\n"
-            "- One idea per bullet, 12-28 words, end with a period.\n"
-            "- No first person, no clickbait."
-        )
-    )
-    return f"""You are {author}, {role} for Za Ndani ({desk}).
+    return f"""SYSTEM / MASTER PROMPT FOR GEMINI
+You are a newsroom-quality news writer for Za Ndani. You are {author}, {role} on the {desk} desk.
 Date: {date_str}
 Mode: {mode}
-Style: {style_name}. Tone: {tone}. Structure: {structure}.
-Write original Kenyan-first {mode} in clean Markdown. No brand names of rival outlets.
-{know}
+House style: {style_name}. Tone: {tone}. Structure: {structure}.
 {avoid_line}
 
-UNIQUENESS GATE:
-The source below is a tip sheet, not a draft. Nation, Standard, Citizen and Tuko likely already ran the same facts.
-Do not rewrite their lede, quote stack or paragraph order.
-Before writing, name one unused angle: cost to a Nairobi reader this week; what the circular/gazette/fixture actually changes; the official line that does not add up; the question the presser skipped; second-day consequence.
-If you cannot name that angle, output only: SKIP: NO UNIQUE ANGLE
-Never invent quotes, crowds or official comments.
-Do not open with the source headline restated.
+Your task is NOT to rewrite, paraphrase, or lightly edit the source article.
+Your task is to analyze the source, infer the likely dominant angle already used across competing coverage, identify a meaningful angle gap, and write a fresh news article that fills that gap while staying about the same event, same key people, and same factual situation.
+
+GENERAL RULES
+- Do not rewrite sentence-by-sentence.
+- Do not mirror the structure of the source article.
+- Do not use a different-wording-of-the-same-story approach.
+- Keep the story news-like and publication-ready.
+- Preserve factual accuracy. Do not invent facts, quotes, crowds or official comments.
+- Do not add claims that are not supported by the source material or clearly implied context.
+- Do not include explanations of your reasoning in the article body.
+- Do not mention angle gap, competitor angle, source article, or rewritten from.
+- Do not produce generic opinion writing.
+- Do not produce feature-style storytelling unless the source event clearly supports it.
+- Most inputs are news stories, so the result must usually read like a proper news article.
+
+ANGLE-GAP TASK
+1. Understand the scraped article.
+2. Extract the main event, key actors, stakes, timing, location, and strongest factual signals.
+3. Infer the obvious or dominant angle competing desks would emphasize.
+4. Identify what is underplayed, missing, weakly developed, or insufficiently clarified.
+5. Choose the single best newsworthy angle gap.
+6. Build the new article around filling that gap.
+7. Keep the same event and central characters; let framing, headline, lead and paragraph order be driven by the gap.
+8. The gap-filled angle must sound like legitimate news coverage, not clickbait.
+
+NEWSROOM STANDARDS
+- Lead with the most newsworthy gap-filled development.
+- Use a strong hard-news intro.
+- Prioritize clarity, consequence, timing, accountability, impact, tension or unresolved stakes.
+- Natural journalistic tone. No exaggerated language, cliche intros, AI filler or moralizing.
+- Quotes from the source only when relevant and accurate.
+- If certainty is limited, write with caution.
+
+UNIQUENESS RULES
+- Distinct editorial framing without changing the underlying event.
+- Fresh headline built from the same real actors and event.
+- Title must be keyword-rich, search-friendly and natural.
+- Do not output examples of possible unique angles.
+- Do not mention any uniqueness formula.
+- If you cannot name a real angle gap, set chosen_angle_gap to "SKIP: NO UNIQUE ANGLE" and leave body_markdown empty.
+
+SEO RULES
+- Keep the same major searchable names and entities.
+- Unique title, still rich in relevant keywords.
+- Discoverable for the same topic cluster. No keyword stuffing.
 
 SOURCE TITLE: {title}
 SOURCE BODY:
 {body[:3500]}
 
-Output the article only. Start with a sharp lede that is NOT the source lede (no H1 title line)."""
+OUTPUT
+Return JSON only, no markdown fences, in this exact shape:
+{{
+  "analysis": {{
+    "main_event": "",
+    "key_entities": [],
+    "dominant_likely_competitor_angle": "",
+    "chosen_angle_gap": "",
+    "gap_rationale": "",
+    "editorial_focus": "",
+    "risk_checks": {{
+      "invented_facts_risk": "",
+      "source_dependency_risk": "",
+      "news_tone_risk": ""
+    }}
+  }},
+  "article": {{
+    "title": "",
+    "dek": "",
+    "slug": "",
+    "seo_keywords": [],
+    "body_markdown": ""
+  }}
+}}
+
+body_markdown rules: clean paragraphs; no bullets unless the source genuinely requires a list; usually 400 to 800 words; opening paragraph must reflect the chosen angle gap, not the source framing; end cleanly with no self-reference.
+"""
 
 
 def guess_county(text: str) -> str:
@@ -236,13 +275,6 @@ def seo_fields(title: str, body: str, category: str, author: str) -> dict:
     source = re.sub(r"(?im)^\s*what we know\b[:\-\u2013\u2014]?\s*", "", source)
     plain = re.sub(r"[#*_>`]", "", source)
     plain = re.sub(r"\s+", " ", plain).strip()
-    plain = re.sub(
-        r"^([a-z0-9][a-z0-9\s\-]{8,80}?):\s+",
-        "",
-        plain,
-        count=1,
-        flags=re.I,
-    )
     sentences = re.split(r"(?<=[.!?])\s+", plain)
     lede = ""
     for s in sentences:
@@ -250,8 +282,6 @@ def seo_fields(title: str, body: str, category: str, author: str) -> dict:
         if len(s) < 40:
             continue
         if re.match(r"^(what we know|key takeaway|in conclusion)\b", s, re.I):
-            continue
-        if s.count(" ") < 4 and ":" in s[:40]:
             continue
         lede = s
         break
@@ -331,6 +361,38 @@ def strip_date_lede(body: str) -> str:
     )
 
 
+def unwrap_writer_json(text: str) -> str:
+    raw = (text or "").strip()
+    if not raw:
+        return ""
+    if raw.startswith("```"):
+        raw = re.sub(r"^```(?:json)?\s*", "", raw, flags=re.I)
+        raw = re.sub(r"\s*```$", "", raw)
+    blob = raw
+    if not blob.startswith("{ " ) and not blob.startswith("{\n") and not blob.startswith("{"):
+        m = re.search(r"\{[\s\S]*\}", blob)
+        if not m:
+            return text or ""
+        blob = m.group(0)
+    try:
+        data = _json.loads(blob)
+    except Exception:
+        return text or ""
+    if not isinstance(data, dict):
+        return text or ""
+    art = data.get("article") if isinstance(data.get("article"), dict) else {}
+    analysis = data.get("analysis") if isinstance(data.get("analysis"), dict) else {}
+    gap = str(analysis.get("chosen_angle_gap") or "")
+    body = str(art.get("body_markdown") or art.get("body") or "").strip()
+    title = str(art.get("title") or "").strip()
+    if (not body) or re.search(r"NO UNIQUE ANGLE", gap + " " + body, re.I) or body.upper().startswith("SKIP"):
+        return "SKIP: NO UNIQUE ANGLE"
+    if title:
+        return f"# {title}\n\n{body}"
+    return body
+
+
 def polish_body(body: str, category: str = "News", title: str = "") -> str:
-    cleaned = strip_date_lede(strip_banned(body or ""))
+    body = unwrap_writer_json(body or "")
+    cleaned = strip_date_lede(strip_banned(body))
     return inject_know_if_missing(cleaned, category, title)
