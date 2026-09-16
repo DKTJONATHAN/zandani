@@ -96,10 +96,10 @@
     "5ad1331c23fe3c880f3738ca",
     "e2343b7873f323ad0dff6392",
     "29f57a1dba929a2702af2e5a",
-    "3d4184a6854fea74b046c7dd"
+    "3d4184a6854fea74b046c7dd",
+    "f85c16a3016b59938e648022"
   ],
   "style_history": [
-    "Hard Showbiz Lead",
     "Event Report",
     "Statement Report",
     "Hard Showbiz Lead",
@@ -128,7 +128,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [],
   "recent_stories": [
@@ -191,6 +192,10 @@
     {
       "key": "2026-09-16-chuka-kenyan-prince-releases-a-song-dedicated-to-sheryl-gabriella",
       "ts": "2026-09-16T20:33:40Z"
+    },
+    {
+      "key": "2026-09-16-tecno-unveils-next-gen-bezelless-concept-phone-1",
+      "ts": "2026-09-16T23:21:22Z"
     }
   ]
 }
