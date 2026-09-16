@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Search, Clock, ArrowLeft } from "lucide-react";
@@ -22,9 +22,21 @@ function timeAgo(dateStr: string): string {
 }
 
 export default function SearchPage() {
-  const [params] = useSearchParams();
+  const [params, setParams] = useSearchParams();
   const q = (params.get("q") || "").trim();
   const results = useMemo(() => (q.length >= 2 ? searchPosts(q, 50) : []), [q]);
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    inputRef.current?.focus();
+  }, []);
+
+  function onQueryChange(value: string) {
+    const next = new URLSearchParams(params);
+    if (value.trim()) next.set("q", value);
+    else next.delete("q");
+    setParams(next, { replace: true });
+  }
 
   return (
     <Layout>
@@ -41,7 +53,7 @@ export default function SearchPage() {
           <ArrowLeft className="w-4 h-4" /> Home
         </Link>
 
-        <h1 className="font-serif text-2xl md:text-3xl font-bold text-foreground mb-2 flex items-center gap-2">
+        <h1 className="font-serif text-2xl md:text-3xl font-bold text-foreground mb-4 flex items-center gap-2">
           <Search className="w-6 h-6 text-primary" />
           {q ? (
             <>
@@ -51,9 +63,36 @@ export default function SearchPage() {
             "Search Za Ndani"
           )}
         </h1>
+
+        <form
+          className="mb-6"
+          role="search"
+          onSubmit={(e) => {
+            e.preventDefault();
+            inputRef.current?.blur();
+          }}
+        >
+          <label htmlFor="site-search" className="sr-only">
+            Search stories
+          </label>
+          <div className="relative">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground pointer-events-none" />
+            <input
+              id="site-search"
+              ref={inputRef}
+              type="search"
+              value={params.get("q") || ""}
+              onChange={(e) => onQueryChange(e.target.value)}
+              placeholder="Search news, names, teams…"
+              autoComplete="off"
+              className="w-full h-12 pl-10 pr-4 rounded-lg border border-border bg-muted/40 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/60"
+            />
+          </div>
+        </form>
+
         <p className="text-sm text-muted-foreground mb-8">
           {q.length < 2
-            ? "Type at least 2 characters in the search box above."
+            ? "Type at least 2 characters to search."
             : `${results.length} stor${results.length === 1 ? "y" : "ies"} found`}
         </p>
 
