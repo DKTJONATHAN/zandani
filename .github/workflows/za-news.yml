@@ -2,9 +2,6 @@ name: Celestine Nzioka — News
 
 on:
   schedule:
-    # Hourly in Kenyan time (EAT = UTC+3 / Africa/Nairobi)
-    # Minute 11 avoids :00 queue pile-up with other desks
-    # 06:11–23:11 EAT → UTC 03:11–20:11
     - cron: "11 3-20 * * *"
   workflow_dispatch: {}
 
@@ -20,6 +17,10 @@ env:
   POSTS_DIR: content/posts
   MEMORY_FILE: .github/memory_celestine_news.json
   TZ: Africa/Nairobi
+  WRITER_PROMPT_FILE: scripts/zandani_writer_prompt.txt
+  WRITER_MAX_AGE_HOURS: "24"
+  FRESH_HOURS: "24"
+  WRITE_EVERY_ELIGIBLE_STORY: "1"
 
 jobs:
   generate-and-publish:
@@ -51,6 +52,16 @@ jobs:
           pip install requests google-genai beautifulsoup4 lxml playwright python-dateutil Pillow
           playwright install chromium --with-deps
 
+      - name: Enforce 24h freshness and angle-gap writer (news)
+        env:
+          WRITER_DESK: news
+        run: |
+          set -e
+          echo "Desk news: angle-gap JSON writer, 24h source max-age"
+          echo "Eligible stories are written. Skip only if older than 24h or unusable."
+          test -f scripts/zandani_writer_prompt.txt
+          python scripts/enforce_writer_contract.py
+
       - name: Run Celestine News pipeline (≤24h)
         env:
           GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
@@ -60,32 +71,15 @@ jobs:
           IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
           POSTS_DIR: ${{ env.POSTS_DIR }}
           MEMORY_FILE: ${{ env.MEMORY_FILE }}
+          WRITER_PROMPT_FILE: ${{ env.WRITER_PROMPT_FILE }}
+          WRITER_MAX_AGE_HOURS: "24"
+          FRESH_HOURS: "24"
+          WRITE_EVERY_ELIGIBLE_STORY: "1"
           TZ: Africa/Nairobi
         run: |
           set -e
-          echo "=== Celestine News scraper (Kenya / EAT) ==="
-          date
-          echo "Source: https://www.kenyans.co.ke/news"
           echo "Freshness gate: 24 hours"
-          if [ ! -f scripts/celestine_news.py ]; then
-            echo "ERROR: scripts/celestine_news.py missing"
-            exit 1
-          fi
-          # Safety: force FRESH_HOURS=24
-          python - << 'CHK'
-          from pathlib import Path
-          import re
-          p = Path("scripts/celestine_news.py")
-          t = p.read_text()
-          if "FRESH_HOURS = 24" not in t:
-              t2 = re.sub(r"FRESH_HOURS\s*=\s*\d+", "FRESH_HOURS = 24", t)
-              if "FRESH_HOURS = 24" not in t2:
-                  t2 = t.replace("MAX_SCRAPE_TRIES = 8", "MAX_SCRAPE_TRIES = 8\nFRESH_HOURS = 24")
-              p.write_text(t2)
-              print("Patched FRESH_HOURS = 24 into scripts/celestine_news.py")
-          else:
-              print("FRESH_HOURS = 24 already set")
-          CHK
+          test -f scripts/celestine_news.py
           python scripts/celestine_news.py
 
       - name: Voice / SEO gate (optional — never block publish)
