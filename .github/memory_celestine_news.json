@@ -560,10 +560,10 @@
     "0486a8d2a4ada1696a92a182d3a27d90",
     "fbeb1ca7e21bc68c6c9c515f8a228efe",
     "1006e6054fe93ec5748462914bb5639a",
-    "ccba88fae960f7797767cb6ca7401101"
+    "ccba88fae960f7797767cb6ca7401101",
+    "6cd9790b44264e3ffefb17e8b205b9c7"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
@@ -592,7 +592,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -737,7 +738,8 @@
     "https://kenyans.co.ke/news/127087-babu-owino-takes-break-linda-mwananchi-rallies-focus-nairobi-gubernatorial-race",
     "https://kenyans.co.ke/news/127086-kenya-takes-13-mega-projects-global-investors-south-korea",
     "https://kenyans.co.ke/news/127088-kenya-railways-explains-little-known-meaning-coffin-casings-sgr-lines",
-    "https://kenyans.co.ke/news/127083-kaa-says-passengers-must-present-id-retrieve-items-left-planes"
+    "https://kenyans.co.ke/news/127083-kaa-says-passengers-must-present-id-retrieve-items-left-planes",
+    "https://kenyans.co.ke/news/127100-mudavadi-mutua-ag-oduor-face-senate-over-recruitment-kenyans-russian-military"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -804,7 +806,8 @@
     "babu owino takes break linda mwananchi rallies focus nairobi gubernatorial race",
     "takes mega projects global investors south korea",
     "railways explains little known meaning coffin like casings sgr lines",
-    "kaa passengers must present retrieve items left planes"
+    "kaa passengers must present retrieve items left planes",
+    "mudavadi mutua oduor face senate recruitment russian military"
   ],
   "topic_keys": [
     "news tracker",
