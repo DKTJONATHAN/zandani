@@ -2,11 +2,12 @@ import React, { useEffect, useState, useMemo, useCallback, useRef } from "react"
 import { Layout } from "@/components/layout/Layout";
 import { getAllPosts, type PostMetadata } from "@/lib/markdown";
 import { Link } from "react-router-dom";
-import { ArrowRight, TrendingUp, Flame, Clock, Eye, Radio } from "lucide-react";
+import { ArrowRight, TrendingUp, Flame, Clock, Eye, Radio, Mail, Tv, Sparkles } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import AdUnit from "@/components/AdUnit";
 import { LiveUpdatesTimeline } from "@/components/news/LiveUpdatesTimeline";
 import { ForYouRail } from "@/components/articles/ForYouRail";
+import { NewsletterForm } from "@/components/NewsletterForm";
 import { timeAgo } from "@/lib/utils";
 
 const INITIAL_LOAD = 12;
@@ -51,6 +52,11 @@ function postTime(post: Post): number {
   return isNaN(t) ? 0 : t;
 }
 
+function matchesCat(post: Post, names: string[]): boolean {
+  const cat = (post.category || "").toLowerCase();
+  return names.some((n) => cat.includes(n));
+}
+
 const RAW_POSTS = getAllPosts().slice(0, 80);
 
 const MobileTopCard = React.memo(({ post, views }: { post: Post; views: number }) => (
@@ -92,6 +98,33 @@ const MostReadMobile = React.memo(({ posts }: { posts: Post[] }) => (
     </div>
   </div>
 ));
+
+const SidebarStoryList = React.memo(({ title, icon, posts, href }: { title: string; icon: React.ReactNode; posts: Post[]; href: string }) => {
+  if (!posts.length) return null;
+  return (
+    <div className="border border-border bg-card px-4 py-4">
+      <div className="flex items-center gap-2 mb-3">
+        {icon}
+        <h3 className="text-xs font-black uppercase tracking-widest">{title}</h3>
+        <div className="h-px flex-1 bg-border" />
+        <Link to={href} className="text-[10px] font-bold uppercase tracking-wider text-primary hover:underline">All</Link>
+      </div>
+      <div className="space-y-3">
+        {posts.map((post) => (
+          <Link key={post.slug} to={`/article/${post.slug}`} className="group flex gap-3">
+            <img src={img(post.image, 160)} alt="" loading="lazy" className="h-14 w-20 shrink-0 rounded-sm object-cover" />
+            <div className="min-w-0">
+              <h4 className="text-xs font-bold leading-snug line-clamp-2 group-hover:text-primary">{post.title}</h4>
+              <span className="text-[10px] text-muted-foreground flex items-center gap-1 mt-1">
+                <Clock className="w-2.5 h-2.5" />{timeAgo(post.date)}
+              </span>
+            </div>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+});
 
 const FeedCard = React.memo(({ post, views }: { post: Post; views: number }) => (
   <article className="group flex gap-3 sm:gap-4 border-b border-border py-4">
@@ -136,7 +169,6 @@ const Index = () => {
     return () => clearTimeout(t);
   }, []);
 
-  // Rank primarily by recency (newest first). Kenya preference is only a same-day tiebreaker.
   const rankedPosts = useMemo(() => {
     return [...RAW_POSTS].sort((a, b) => {
       const timeDiff = postTime(b) - postTime(a);
@@ -176,6 +208,19 @@ const Index = () => {
     if (withViews.length === 0) return rankedPosts.slice(0, 5);
     return [...withViews].sort((a, b) => getViews(b.slug) - getViews(a.slug)).slice(0, 5);
   }, [viewCounts, getViews, rankedPosts]);
+
+  const showbiz = useMemo(
+    () => rankedPosts.filter((p) => matchesCat(p, ["entertainment", "showbiz", "lifestyle"])).slice(0, 4),
+    [rankedPosts]
+  );
+  const sports = useMemo(
+    () => rankedPosts.filter((p) => matchesCat(p, ["sport"])).slice(0, 4),
+    [rankedPosts]
+  );
+  const opinion = useMemo(
+    () => rankedPosts.filter((p) => matchesCat(p, ["opinion", "column"])).slice(0, 3),
+    [rankedPosts]
+  );
 
   const handleCategoryChange = useCallback((cat: string) => {
     setActiveCategory(cat);
@@ -340,7 +385,7 @@ const Index = () => {
           ))}
         </div>
 
-        <div className="grid lg:grid-cols-12 gap-8">
+        <div className="grid lg:grid-cols-12 gap-8 items-start">
           <div className="lg:col-span-8">
             <div className="flex items-center gap-2 mb-2">
               <Flame className="w-4 h-4 text-primary" />
@@ -354,9 +399,49 @@ const Index = () => {
             {!hasMore && <p className="text-center text-sm text-muted-foreground py-6">You are caught up.</p>}
           </div>
 
-          <aside className="lg:col-span-4 space-y-6">
+          <aside className="lg:col-span-4 space-y-6 lg:sticky lg:top-24">
             <MostReadMobile posts={mostRead} />
-            {adsReady && <AdUnit slot="home-sidebar" />}
+
+            {adsReady && <AdUnit type="inarticle" />}
+
+            <SidebarStoryList
+              title="Showbiz"
+              href="/entertainment"
+              icon={<Sparkles className="w-4 h-4 text-primary" />}
+              posts={showbiz}
+            />
+
+            <div className="border border-primary/30 bg-primary text-primary-foreground px-4 py-5 rounded-xl">
+              <div className="flex items-center gap-2 mb-2">
+                <Mail className="w-4 h-4" />
+                <h3 className="text-xs font-black uppercase tracking-widest">Evening brief</h3>
+              </div>
+              <p className="text-sm mb-3 text-primary-foreground/90">Three Kenya-first stories, 19:00 EAT. Free.</p>
+              <NewsletterForm tone="onAccent" compact />
+            </div>
+
+            <SidebarStoryList
+              title="Sports desk"
+              href="/sports"
+              icon={<Flame className="w-4 h-4 text-primary" />}
+              posts={sports}
+            />
+
+            <Link to="/tv" className="flex items-center justify-between gap-3 border border-border bg-card px-4 py-3 hover:border-primary/50 transition-colors">
+              <span className="flex items-center gap-2 text-sm font-bold">
+                <Tv className="w-4 h-4 text-primary" /> Live Kenyan TV
+              </span>
+              <ArrowRight className="w-4 h-4 text-primary" />
+            </Link>
+
+            {adsReady && <AdUnit type="inarticle" />}
+
+            <SidebarStoryList
+              title="Opinion"
+              href="/opinions"
+              icon={<TrendingUp className="w-4 h-4 text-primary" />}
+              posts={opinion}
+            />
           </aside>
         </div>
       </section>
