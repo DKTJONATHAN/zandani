@@ -18,6 +18,10 @@ env:
   POSTS_DIR: content/posts
   MEMORY_FILE: .github/memory_grace.json
   TZ: Africa/Nairobi
+  WRITER_PROMPT_FILE: scripts/zandani_writer_prompt.txt
+  WRITER_MAX_AGE_HOURS: "24"
+  FRESH_HOURS: "24"
+  WRITE_EVERY_ELIGIBLE_STORY: "1"
 
 jobs:
   generate-and-publish:
@@ -48,6 +52,16 @@ jobs:
           pip install requests google-genai beautifulsoup4 lxml playwright python-dateutil
           playwright install chromium --with-deps
 
+      - name: Enforce 24h freshness and angle-gap writer (business)
+        env:
+          WRITER_DESK: business
+        run: |
+          set -e
+          echo "Desk business: angle-gap JSON writer, 24h source max-age"
+          echo "Eligible stories are written. Skip only if older than 24h or unusable."
+          test -f scripts/zandani_writer_prompt.txt
+          python scripts/enforce_writer_contract.py
+
       - name: Run Grace Mkamburi pipeline
         env:
           GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
@@ -57,6 +71,10 @@ jobs:
           IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
           POSTS_DIR: ${{ env.POSTS_DIR }}
           MEMORY_FILE: ${{ env.MEMORY_FILE }}
+          WRITER_PROMPT_FILE: ${{ env.WRITER_PROMPT_FILE }}
+          WRITER_MAX_AGE_HOURS: "24"
+          FRESH_HOURS: "24"
+          WRITE_EVERY_ELIGIBLE_STORY: "1"
         run: |
           if [ -f scripts/grace_business.py ]; then
             python scripts/grace_business.py
