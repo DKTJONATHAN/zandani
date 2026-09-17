@@ -1,0 +1,84 @@
+{
+  "timezone": "Africa/Nairobi",
+  "use_admin_scheduler": true,
+  "desks": {
+    "news": {
+      "label": "News",
+      "workflow": "za-news.yml",
+      "cron": "0 * * * *",
+      "cadence": "every hour"
+    },
+    "sports": {
+      "label": "Sports",
+      "workflow": "za-sports.yml",
+      "cron": "0 * * * *",
+      "cadence": "every hour"
+    },
+    "business": {
+      "label": "Business",
+      "workflow": "za-business.yml",
+      "cron": "0 * * * *",
+      "cadence": "every hour"
+    },
+    "africa": {
+      "label": "East Africa",
+      "workflow": "za-africa.yml",
+      "cron": "0 * * * *",
+      "cadence": "every hour"
+    },
+    "agriculture": {
+      "label": "Agriculture",
+      "workflow": "za-agriculture.yml",
+      "cron": "0 * * * *",
+      "cadence": "every hour"
+    },
+    "technology": {
+      "label": "Technology",
+      "workflow": "za-technology.yml",
+      "cron": "0 * * * *",
+      "cadence": "every hour"
+    },
+    "opinions": {
+      "label": "Opinions",
+      "workflow": "za-opinions.yml",
+      "cron": "0 * * * *",
+      "cadence": "every hour"
+    },
+    "diano": {
+      "label": "George Diano",
+      "workflow": "za-diano.yml",
+      "cron": "0 * * * *",
+      "cadence": "every hour"
+    },
+    "jaj": {
+      "label": "Jaj",
+      "workflow": "za-jaj.yml",
+      "cron": "0 * * * *",
+      "cadence": "every hour"
+    },
+    "entertainment": {
+      "label": "Entertainment",
+      "workflow": "za-entertainment.yml",
+      "cron": "0 */2 * * *",
+      "cadence": "every 2 hours"
+    },
+    "mpasho": {
+      "label": "Mpasho",
+      "workflow": "za-mpasho.yml",
+      "cron": "0 */2 * * *",
+      "cadence": "every 2 hours"
+    },
+    "lifestyle": {
+      "label": "Lifestyle",
+      "workflow": "za-lifestyle.yml",
+      "cron": "0 */2 * * *",
+      "cadence": "every 2 hours"
+    },
+    "ghafla": {
+      "label": "Ghafla",
+      "workflow": "za-ghafla.yml",
+      "cron": "0 */2 * * *",
+      "cadence": "every 2 hours"
+    }
+  }
+}

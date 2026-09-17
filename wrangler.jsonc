@@ -3,6 +3,9 @@
   "name": "zandani",
   "compatibility_date": "2026-09-15",
   "main": "./worker.js",
+  "triggers": {
+    "crons": ["* * * * *"]
+  },
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
@@ -13,7 +16,9 @@
       "/google4a7d26b466f41330",
       "/968a6d115d3240a3acbc3448c398978d.txt",
       "/api/subscribe",
-      "/api/unsubscribe"
+      "/api/unsubscribe",
+      "/api/github",
+      "/api/scheduler/*"
     ]
   }
 }
