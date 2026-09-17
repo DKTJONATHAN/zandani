@@ -291,7 +291,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0
           ref: ${{ env.DEFAULT_BRANCH }}
           token: ${{ secrets.ACTIONS_GITHUB_TOKEN || secrets.PERSONAL_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           persist-credentials: true
@@ -299,7 +299,7 @@ jobs:
         with:
           name: new-slots
           path: /tmp/slots
-      - name: Append fired slots
+      - name: Append fired slots safely
         run: |
           set -euo pipefail
           SLOTFILE=$(find /tmp/slots -type f | head -1 || true)
@@ -314,5 +314,10 @@ jobs:
           git add "$LEDGER"
           git diff --staged --quiet && exit 0
           git commit -m "chore: record dispatcher slots"
-          git pull --rebase origin "$DEFAULT_BRANCH" || true
-          git push origin HEAD:"$DEFAULT_BRANCH"
+          for attempt in 1 2 3 4 5; do
+            git fetch origin "$DEFAULT_BRANCH"
+            git rebase "origin/$DEFAULT_BRANCH"
+            if git push origin HEAD:"$DEFAULT_BRANCH"; then exit 0; fi
+            sleep $((attempt * 2))
+          done
+          exit 1
