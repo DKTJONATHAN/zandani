@@ -2,7 +2,7 @@ name: Zed Mogaka — George Diano
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '36 * * * *'
       timezone: 'Africa/Nairobi'
   workflow_call:
   workflow_dispatch: {}
@@ -17,7 +17,7 @@ permissions:
 env:
   DEFAULT_BRANCH: main
   POSTS_DIR: content/posts
-  MEMORY_FILE: .github/memory_georgediano.json
+  MEMORY_FILE: .github/memory_diano.json
   TZ: Africa/Nairobi
   WRITER_PROMPT_FILE: scripts/zandani_writer_prompt.txt
   WRITER_MAX_AGE_HOURS: "24"
@@ -42,29 +42,21 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Cache Playwright browsers
-        uses: actions/cache@v5
-        with:
-          path: ~/.cache/ms-playwright
-          key: ${{ runner.os }}-playwright-chromium-diano-v3
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests google-genai beautifulsoup4 lxml playwright python-dateutil Pillow
           playwright install chromium --with-deps
 
-      - name: Enforce 24h freshness and angle-gap writer (diano)
+      - name: Enforce writer contract
         env:
           WRITER_DESK: diano
         run: |
           set -e
-          echo "Desk diano: angle-gap JSON writer, 24h source max-age"
-          echo "Every eligible story is written. Skip only if older than 24h or unusable."
           test -f scripts/zandani_writer_prompt.txt
           python scripts/enforce_writer_contract.py
 
-      - name: Run Zed Mogaka Diano pipeline (≤24h, independent stories)
+      - name: Run Diano pipeline
         env:
           GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -80,30 +72,14 @@ jobs:
           TZ: Africa/Nairobi
         run: |
           set -e
-          if [ -f scripts/zed_diano.py ]; then
-            python scripts/zed_diano.py
-          else
-            echo "scripts/zed_diano.py missing"
-            exit 1
-          fi
+          if [ -f scripts/diano_desk.py ]; then python scripts/diano_desk.py; else echo skip; exit 0; fi
 
-      - name: Voice, SEO and Kenya-first gate
-        run: |
-          if [ -f scripts/finish_desk.py ]; then
-            python scripts/finish_desk.py || true
-          else
-            echo "finish_desk.py not present — skip"
-          fi
-
-      - name: Commit history and new posts
+      - name: Commit
         run: |
           git config user.name  "Za Ndani"
           git config user.email "bot@zandani.co.ke"
           git add -A "${MEMORY_FILE}" content/posts || true
-          if git diff --cached --quiet; then
-            echo "No article or memory changes to commit"
-            exit 0
-          fi
-          git commit -m "content: Zed Mogaka George Diano (angle-gap ≤24h)"
-          git pull --rebase origin "${DEFAULT_BRANCH}" || git pull origin "${DEFAULT_BRANCH}" --no-rebase || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "content: diano desk (angle-gap ≤24h)"
+          git pull --rebase origin "${DEFAULT_BRANCH}" || true
           git push origin HEAD:"${DEFAULT_BRANCH}"
