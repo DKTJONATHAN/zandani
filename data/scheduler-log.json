@@ -1,4 +1,15 @@
 {
-  "updated": null,
-  "logs": []
+  "updated": "2026-09-17T08:28:27.690Z",
+  "logs": [
+    {
+      "id": "news-1789633707342",
+      "desk": "news",
+      "scheduledFor": "2026-09-17T08:28:26.964Z",
+      "dispatchedAt": "2026-09-17T08:28:26.964Z",
+      "status": 403,
+      "ok": false,
+      "error": "Resource not accessible by personal access token",
+      "source": "manual"
+    }
+  ]
 }
