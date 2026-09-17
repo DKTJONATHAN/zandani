@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-17T13:22:25.799Z",
+  "updated": "2026-09-17T13:25:56.650Z",
   "logs": [
+    {
+      "id": "mpasho-1789651556355",
+      "desk": "mpasho",
+      "scheduledFor": "2026-09-17T13:25:54.869Z",
+      "dispatchedAt": "2026-09-17T13:25:54.869Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "manual"
+    },
     {
       "id": "news-1789651345491",
       "desk": "news",
