@@ -573,10 +573,10 @@
     "747f4f9cc5e3dd3ba125eb7c4bde4cea",
     "1268db71f3de28dc3c36134b2f50aaac",
     "db1545f561216aa857bc37398f430cb7",
-    "cc27afe185b69a5332e45ed6428423e6"
+    "cc27afe185b69a5332e45ed6428423e6",
+    "8d02a0b08f800c1c6a265eb3e0cc7bfb"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -605,7 +605,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -763,7 +764,8 @@
     "https://kenyans.co.ke/news/127150-sakaja-warns-nairobi-businesses-against-using-middlemen-licences",
     "https://kenyans.co.ke/news/127148-govt-projects-face-uncertainty-high-court-declares-sections-ppp-act-unconstitutional",
     "https://kenyans.co.ke/news/127147-sifuna-blocked-jkuat-gate-student-forum-cancelled",
-    "https://kenyans.co.ke/news/127146-kenha-announces-temporary-closure-thika-kilimambogo-road-section"
+    "https://kenyans.co.ke/news/127146-kenha-announces-temporary-closure-thika-kilimambogo-road-section",
+    "https://kenyans.co.ke/news/127154-postmortem-confirms-gunshot-injuries-killed-two-men-nembure-stadium"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -843,7 +845,8 @@
     "nairobi sets day clock enforcement overhaul cut out impostors permit brokers",
     "parliament faces six month clock overhaul ppp law high court oversight ruling",
     "jkuat gate lockdown signals growing campus nervousness student political discourse",
-    "pavement failure gatuanyaga forces kenha critical fix kiambu agro corridor"
+    "pavement failure gatuanyaga forces kenha critical fix kiambu agro corridor",
+    "embu stadium fatalities autopsy findings shift focus police accountability live round protocols"
   ],
   "topic_keys": [
     "news tracker",
