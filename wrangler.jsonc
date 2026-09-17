@@ -6,6 +6,7 @@
   "triggers": {
     "crons": ["* * * * *"]
   },
+  "vars": {},
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
