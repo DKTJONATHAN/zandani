@@ -13,21 +13,18 @@ const FROM_DEFAULT = "Za Ndani <onboarding@resend.dev>";
 const TZ = "Africa/Nairobi";
 
 const DESKS = {
-  // Hourly desks — staggered minutes (Africa/Nairobi)
   news: { label: "News", workflow: "za-news.yml", cron: "0 * * * *", cadence: "hourly at :00" },
-  africa: { label: "East Africa", workflow: "za-africa.yml", cron: "12 * * * *", cadence: "hourly at :12" },
-  agriculture: { label: "Agriculture", workflow: "za-agriculture.yml", cron: "24 * * * *", cadence: "hourly at :24" },
-  diano: { label: "George Diano", workflow: "za-diano.yml", cron: "36 * * * *", cadence: "hourly at :36" },
-  jaj: { label: "Jaj", workflow: "za-jaj.yml", cron: "48 * * * *", cadence: "hourly at :48" },
-  // Every 2 hours — staggered away from news
-  sports: { label: "Sports", workflow: "za-sports.yml", cron: "6 */2 * * *", cadence: "every 2h at :06" },
-  business: { label: "Business", workflow: "za-business.yml", cron: "18 */2 * * *", cadence: "every 2h at :18" },
-  technology: { label: "Technology", workflow: "za-technology.yml", cron: "30 */2 * * *", cadence: "every 2h at :30" },
-  opinions: { label: "Opinions", workflow: "za-opinions.yml", cron: "42 */2 * * *", cadence: "every 2h at :42" },
-  // Entertainment cluster — every 2 hours, different minutes
+  africa: { label: "East Africa", workflow: "za-africa.yml", cron: "0 6,14,20 * * *", cadence: "3× daily (06/14/20)" },
+  agriculture: { label: "Agriculture", workflow: "za-agriculture.yml", cron: "0 7 * * *", cadence: "once daily (07:00)" },
+  diano: { label: "George Diano", workflow: "za-diano.yml", cron: "0 9,17 * * *", cadence: "2× daily (09/17)" },
+  jaj: { label: "Jaj", workflow: "za-jaj.yml", cron: "0 10 * * *", cadence: "once daily (10:00)" },
+  sports: { label: "Sports", workflow: "za-sports.yml", cron: "0 8,15,21 * * *", cadence: "3× daily (08/15/21)" },
+  business: { label: "Business", workflow: "za-business.yml", cron: "30 8,13,18 * * *", cadence: "3× daily (:30 at 08/13/18)" },
+  technology: { label: "Technology", workflow: "za-technology.yml", cron: "0 11,19 * * *", cadence: "2× daily (11/19)" },
+  opinions: { label: "Opinions", workflow: "za-opinions.yml", cron: "0 16 * * *", cadence: "once daily (16:00)" },
   entertainment: { label: "Entertainment", workflow: "za-entertainment.yml", cron: "8 */2 * * *", cadence: "every 2h at :08" },
   mpasho: { label: "Mpasho", workflow: "za-mpasho.yml", cron: "20 */2 * * *", cadence: "every 2h at :20" },
-  lifestyle: { label: "Lifestyle", workflow: "za-lifestyle.yml", cron: "32 */2 * * *", cadence: "every 2h at :32" },
+  lifestyle: { label: "Lifestyle", workflow: "za-lifestyle.yml", cron: "0 12,19 * * *", cadence: "2× daily (12/19)" },
   ghafla: { label: "Ghafla", workflow: "za-ghafla.yml", cron: "44 */2 * * *", cadence: "every 2h at :44" },
 };
 
@@ -267,7 +264,6 @@ function useAdminScheduler(env) {
 async function runDueDesks(env) {
   if (!useAdminScheduler(env)) return { triggered: [], skipped: true };
   const parts = nairobiParts();
-  // Staggered minutes — any minute can fire via cronMatches
   let state = { desks: {} };
   try {
     const cur = await readGithubJson(env, SCHED_STATE_PATH);
@@ -470,20 +466,31 @@ async function handleSchedulerStatus(env) {
     state = cur.data || { desks: {} };
   } catch (_) {}
   const now = nairobiParts();
-  const desks = Object.entries(DESKS).map(([id, desk]) => ({
-    id,
-    label: desk.label,
-    workflow: desk.workflow,
-    cron: desk.cron,
-    cadence: desk.cadence,
-    nextRun: nextRunIso(desk.cron),
-    last: state.desks?.[id] || null,
-  }));
+  const enabled = useAdminScheduler(env);
+  const desks = Object.entries(DESKS).map(([id, desk]) => {
+    const last = state.desks?.[id] || {};
+    return {
+      id,
+      label: desk.label,
+      workflow: desk.workflow,
+      cron: desk.cron,
+      cadence: desk.cadence,
+      nextRun: nextRunIso(desk.cron),
+      nextRunAt: nextRunIso(desk.cron),
+      lastTriggeredAt: last.lastTriggeredAt || null,
+      lastStatus: last.lastStatus || null,
+      lastError: last.lastError || null,
+      lastSource: last.lastSource || null,
+      last: last || null,
+    };
+  });
   return json({
     ok: true,
     timezone: TZ,
     nairobiNow: now.display,
-    adminScheduler: useAdminScheduler(env),
+    nowNairobi: now.display,
+    adminScheduler: enabled,
+    useAdminScheduler: enabled,
     desks,
   });
 }
