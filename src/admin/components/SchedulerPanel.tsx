@@ -84,6 +84,9 @@ export function SchedulerPanel() {
     );
   }
 
+  // Default PRIMARY when flag is missing/undefined (admin scheduler on by default)
+  const isPrimary = status?.useAdminScheduler !== false;
+
   const pageLogs = logs.slice(logPage * pageSize, logPage * pageSize + pageSize);
   const pages = Math.max(1, Math.ceil(logs.length / pageSize));
 
@@ -101,8 +104,8 @@ export function SchedulerPanel() {
             </p>
             <p className="text-zinc-500 text-sm mt-2">
               Autonomous desk dispatcher ·{" "}
-              <span className={status?.useAdminScheduler ? "text-emerald-400" : "text-amber-400"}>
-                {status?.useAdminScheduler ? "PRIMARY" : "STANDBY"}
+              <span className={isPrimary ? "text-emerald-400" : "text-amber-400"}>
+                {isPrimary ? "PRIMARY" : "STANDBY"}
               </span>
               {" "}(GitHub Actions cron remains as fallback)
             </p>

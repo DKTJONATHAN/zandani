@@ -6,7 +6,9 @@
   "triggers": {
     "crons": ["* * * * *"]
   },
-  "vars": {},
+  "vars": {
+    "USE_ADMIN_SCHEDULER": "true"
+  },
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
