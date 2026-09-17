@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-17T08:28:29.091Z",
+  "updated": "2026-09-17T08:28:39.594Z",
   "desks": {
     "news": {
-      "lastTriggeredAt": "2026-09-17T08:28:26.964Z",
+      "lastTriggeredAt": "2026-09-17T08:28:37.565Z",
       "lastStatus": "failed",
       "lastError": "Resource not accessible by personal access token",
       "lastSource": "manual"
