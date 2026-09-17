@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T09:30:44.244Z",
+  "updated": "2026-09-17T09:33:36.902Z",
   "desks": {
     "news": {
       "lastTriggeredAt": "2026-09-17T09:12:05.586Z",
@@ -9,10 +9,10 @@
       "lastSlot": "2026-09-17T12:00"
     },
     "sports": {
-      "lastTriggeredAt": "2026-09-17T09:00:44.261Z",
+      "lastTriggeredAt": "2026-09-17T09:33:34.035Z",
       "lastStatus": "ok",
       "lastError": null,
-      "lastSource": "cron",
+      "lastSource": "manual",
       "lastSlot": "2026-09-17T12:00"
     },
     "business": {
