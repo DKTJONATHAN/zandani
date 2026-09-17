@@ -1,23 +1,23 @@
 ---
 title: "Beyond the Spotlight: The Quiet Toll of Caregiving in DJ Shiti’s Family Loss"
-slug: "beyond-the-spotlight-the-quiet-toll-of-caregiving-in-dj-shiti-s-family-loss"
+slug: "beyond-the-spotlight-the-quiet-toll-of-caregiving-in-dj-shiti-s-family"
 description: "For seven years, the life of Kenyan comedian DJ Shiti was defined by two parallel realities: the high-energy, public-facing world of The Real Househelps."
 excerpt: "For seven years, the life of Kenyan comedian DJ Shiti was defined by two parallel realities: the high-energy, public-facing world of The Real Househelps."
-date: 2026-09-17T14:02:46Z
-dateModified: 2026-09-17T14:02:46Z
 author: "Martin Kihara"
-category: "Showbiz"
-county: "Nairobi"
 image: "https://i.ibb.co/21r2CsZ7/ebf4502501fa.webp"
-readTime: 3
+category: "Showbiz"
+date: "2026-09-17T14:02:46Z"
+dateModified: "2026-09-17T14:02:46Z"
+focusKeyword: "beyond the spotlight the quiet toll"
+schema: "NewsArticle"
+county: "Nairobi"
+readTime: "3"
 source: "https://www.mpasho.co.ke/entertainment/2026-09-17-dj-shiti-mourns-father-after-seven-year-battle-with-cancer"
 stylePreset: "Statement Report"
-schema: "NewsArticle"
 ---
-
 For seven years, the life of Kenyan comedian DJ Shiti was defined by two parallel realities: the high-energy, public-facing world of *The Real Househelps of Kawangware* and the quiet, exhausting endurance of a family caregiver. The recent passing of his father, Richard Ndede Mbanda, following a prolonged battle with cancer, has brought the latter into sharp focus.
 
-While the entertainment industry and his legion of fans have rallied to offer condolences, the loss marks the end of a grueling chapter that is becoming increasingly common for Kenyan families. A seven-year illness—a duration that spans nearly the entire arc of many professional careers—places a unique, often invisible, strain on households. It involves not just the emotional weight of watching a loved one decline, but the compounding financial and logistical pressures of navigating long-term medical care in a system where chronic disease management remains a significant hurdle for most citizens.
+While the entertainment industry and his legion of fans have rallied to offer condolences, the loss marks the end of a grueling chapter that is becoming increasingly common for Kenyan families. A seven-year illness-a duration that spans nearly the entire arc of many professional careers-places a unique, often invisible, strain on households. It involves not just the emotional weight of watching a loved one decline, but the compounding financial and logistical pressures of navigating long-term medical care in a system where chronic disease management remains a significant hurdle for most citizens.
 
 For public figures like DJ Shiti, the challenge is compounded by the expectation to remain a source of joy for an audience. The contrast between the persona of a comedian and the reality of a family member managing a terminal diagnosis is stark. Shiti’s experience mirrors the struggle of thousands of Kenyans who balance their professional obligations with the role of primary support for relatives navigating complex, long-term health battles.
 
