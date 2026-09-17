@@ -8,7 +8,7 @@ on:
   workflow_dispatch: {}
 
 concurrency:
-  group: zandani-desk-za-mpasho
+  group: zandani-main-content-writer
   cancel-in-progress: false
 
 permissions:
@@ -155,12 +155,47 @@ jobs:
           print("ImgBB rehost done")
           EOF
 
-      - name: Commit
+      - name: Commit and push safely
+        shell: bash
         run: |
-          git config user.name  "Za Ndani"
+          set -euo pipefail
+          git config user.name "Za Ndani"
           git config user.email "bot@zandani.co.ke"
-          git add -A "${MEMORY_FILE}" content/posts || true
-          if git diff --cached --quiet; then exit 0; fi
+
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit"
+            exit 0
+          fi
           git commit -m "content: mpasho desk (angle-gap <=24h)"
-          git pull --rebase origin "${DEFAULT_BRANCH}" || true
-          git push origin HEAD:"${DEFAULT_BRANCH}"
+
+          # The working tree must be clean before every rebase. If anything
+          # remains unstaged, preserve it and include it after synchronization.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin "${DEFAULT_BRANCH}"
+            STASHED=0
+            if ! git diff --quiet || ! git diff --cached --quiet; then
+              git stash push -u -m "zandani: preserve generated changes before sync"
+              STASHED=1
+            fi
+
+            git rebase "origin/${DEFAULT_BRANCH}"
+
+            if [ "$STASHED" = "1" ]; then
+              git stash pop
+              git add -A
+              if ! git diff --cached --quiet; then
+                git commit -m "content: mpasho desk follow-up"
+              fi
+            fi
+
+            if git push origin HEAD:"${DEFAULT_BRANCH}"; then
+              echo "Push succeeded on attempt ${attempt}"
+              exit 0
+            fi
+            echo "Remote advanced during push; retrying (${attempt}/5)"
+            sleep $((attempt * 2))
+          done
+
+          echo "Unable to push after 5 attempts" >&2
+          exit 1
