@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-17T13:51:55.714Z",
+  "updated": "2026-09-17T13:52:03.451Z",
   "logs": [
+    {
+      "id": "news-1789653123126",
+      "desk": "news",
+      "scheduledFor": "2026-09-17T13:52:01.309Z",
+      "dispatchedAt": "2026-09-17T13:52:01.309Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "manual"
+    },
     {
       "id": "africa-1789653115389",
       "desk": "africa",
