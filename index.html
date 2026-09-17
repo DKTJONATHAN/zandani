@@ -14,9 +14,66 @@
       })();
     </script>
     <style>
-      html { color-scheme: dark; }
-      body { background-color: #050505; color: #f3ece2; margin: 0; font-family: sans-serif; }
-      #root { min-height: 100vh; background: #050505; color: #f3ece2; }
+      /* Critical path: match production theme so nothing unstyled flashes */
+      html {
+        color-scheme: dark;
+        background-color: #050505;
+      }
+      body {
+        margin: 0;
+        background-color: #050505;
+        color: #f3ece2;
+        font-family: Inter, system-ui, -apple-system, sans-serif;
+      }
+      /* Hide React tree until JS marks html.app-ready (after first paint with CSS) */
+      #root {
+        min-height: 100vh;
+        background: #050505;
+        color: #f3ece2;
+        opacity: 0;
+      }
+      html.app-ready #root {
+        opacity: 1;
+        transition: opacity 0.12s ease-out;
+      }
+      /* Full-screen branded shell while CSS + JS load */
+      #boot-shell {
+        position: fixed;
+        inset: 0;
+        z-index: 99999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        background: #050505;
+        color: #f3ece2;
+        pointer-events: none;
+      }
+      html.app-ready #boot-shell {
+        display: none !important;
+      }
+      #boot-shell .boot-mark {
+        width: 40px;
+        height: 3px;
+        background: #e85d04;
+        border-radius: 2px;
+      }
+      #boot-shell .boot-title {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 1.35rem;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        margin: 0;
+      }
+      #boot-shell .boot-sub {
+        margin: 0;
+        font-size: 0.7rem;
+        font-weight: 700;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: #9a9388;
+      }
     </style>
 
     <link rel="preconnect" href="https://wsrv.nl" crossorigin />
@@ -108,6 +165,11 @@
     <link rel="dns-prefetch" href="https://www.google-analytics.com" />
   </head>
   <body>
+    <div id="boot-shell" aria-hidden="true">
+      <div class="boot-mark"></div>
+      <p class="boot-title">Za Ndani</p>
+      <p class="boot-sub">News · Culture</p>
+    </div>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
     <script>
