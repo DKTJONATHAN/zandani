@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-17T14:00:27.478Z",
+  "updated": "2026-09-17T14:00:33.550Z",
   "logs": [
+    {
+      "id": "diano-1789653633190",
+      "desk": "diano",
+      "scheduledFor": "2026-09-17 17:00:24",
+      "dispatchedAt": "2026-09-17T14:00:31.660Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "news-1789653627196",
       "desk": "news",
