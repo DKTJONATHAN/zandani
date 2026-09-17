@@ -8,7 +8,7 @@ on:
   workflow_dispatch: {}
 
 concurrency:
-  group: zandani-desk-za-africa
+  group: zandani-main-content-writer
   cancel-in-progress: false
 
 permissions:
@@ -93,74 +93,60 @@ jobs:
               raise SystemExit(0)
           cache = {}
           def upload(url):
-              if not url or not url.startswith("http"):
+              if not url or not url.startswith("http") or "ibb.co" in url or "imgbb.com" in url:
                   return url
-              if "ibb.co" in url or "imgbb.com" in url:
-                  return url
-              if url in cache:
-                  return cache[url]
+              if url in cache: return cache[url]
               try:
                   r = requests.get(url, timeout=25, headers={"User-Agent": "ZaNdani/1.0"})
-                  r.raise_for_status()
-                  raw = r.content
-                  if len(raw) < 400:
-                      return url
+                  r.raise_for_status(); raw = r.content
+                  if len(raw) < 400: return url
                   b64 = None
                   if Image is not None:
                       try:
                           img = Image.open(io.BytesIO(raw))
-                          if img.mode in ("RGBA", "LA", "P"):
-                              img = img.convert("RGB")
+                          if img.mode in ("RGBA", "LA", "P"): img = img.convert("RGB")
                           if img.width > 1400:
                               ratio = 1400 / float(img.width)
                               img = img.resize((1400, max(1, int(img.height * ratio))), Image.LANCZOS)
-                          buf = io.BytesIO()
-                          img.save(buf, format="WEBP", quality=82, method=4)
+                          buf = io.BytesIO(); img.save(buf, format="WEBP", quality=82, method=4)
                           b64 = base64.b64encode(buf.getvalue()).decode()
-                      except Exception as e:
-                          print("webp fail", e)
-                  if not b64:
-                      b64 = base64.b64encode(raw).decode()
+                      except Exception as e: print("webp fail", e)
+                  if not b64: b64 = base64.b64encode(raw).decode()
                   res = requests.post("https://api.imgbb.com/1/upload", data={"key": API, "image": b64}, timeout=30)
                   if res.status_code == 200:
-                      data = res.json().get("data") or {}
-                      new = data.get("url") or data.get("display_url") or ""
-                      if new:
-                          print("hosted", url[:80], "->", new)
-                          cache[url] = new
-                          return new
+                      data = res.json().get("data") or {}; new = data.get("url") or data.get("display_url") or ""
+                      if new: cache[url] = new; return new
                   print("imgbb fail", res.status_code, res.text[:160])
-              except Exception as e:
-                  print("rehost error", e)
-              cache[url] = url
-              return url
+              except Exception as e: print("rehost error", e)
+              cache[url] = url; return url
           files = sorted(glob.glob(os.path.join(POSTS, "*.md")), key=os.path.getmtime, reverse=True)[:12]
           for path in files:
-              with open(path, encoding="utf-8") as f:
-                  text = f.read()
+              with open(path, encoding="utf-8") as f: text = f.read()
               orig = text
               m = re.search(r'(?m)^image:\s*"([^"]*)"', text)
               if m and m.group(1):
-                  hosted = upload(m.group(1))
-                  text = text[:m.start(1)] + hosted + text[m.end(1):]
-              def repl(mm):
-                  return mm.group(1) + upload(mm.group(2)) + mm.group(3)
+                  hosted = upload(m.group(1)); text = text[:m.start(1)] + hosted + text[m.end(1):]
+              def repl(mm): return mm.group(1) + upload(mm.group(2)) + mm.group(3)
               text = re.sub(r'(!\[[^\]]*\]\()(https?://[^)\s]+)(\))', repl, text)
               text = re.sub(r'(<img[^>]+src=["\'])(https?://[^"\']+)(["\'])', repl, text)
               if text != orig:
-                  with open(path, "w", encoding="utf-8") as f:
-                      f.write(text)
-                  print("updated", path)
+                  with open(path, "w", encoding="utf-8") as f: f.write(text)
               time.sleep(0.2)
-          print("ImgBB rehost done")
           EOF
 
-      - name: Commit
+      - name: Commit and push safely
+        shell: bash
         run: |
-          git config user.name  "Za Ndani"
+          set -euo pipefail
+          git config user.name "Za Ndani"
           git config user.email "bot@zandani.co.ke"
-          git add -A "${MEMORY_FILE}" content/posts || true
+          git add -A
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "content: Amara Ndlovu africa (angle-gap <=24h)"
-          git pull --rebase origin "${DEFAULT_BRANCH}" || true
-          git push origin HEAD:"${DEFAULT_BRANCH}"
+          for attempt in 1 2 3 4 5; do
+            git fetch origin "${DEFAULT_BRANCH}"
+            git rebase "origin/${DEFAULT_BRANCH}"
+            if git push origin HEAD:"${DEFAULT_BRANCH}"; then exit 0; fi
+            sleep $((attempt * 2))
+          done
+          exit 1
