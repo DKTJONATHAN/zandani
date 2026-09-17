@@ -574,10 +574,10 @@
     "1268db71f3de28dc3c36134b2f50aaac",
     "db1545f561216aa857bc37398f430cb7",
     "cc27afe185b69a5332e45ed6428423e6",
-    "8d02a0b08f800c1c6a265eb3e0cc7bfb"
+    "8d02a0b08f800c1c6a265eb3e0cc7bfb",
+    "5e62be8387d70b3b173d1d344f1d520e"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Desk Take",
     "Hard News Lead",
@@ -606,7 +606,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -765,7 +766,8 @@
     "https://kenyans.co.ke/news/127148-govt-projects-face-uncertainty-high-court-declares-sections-ppp-act-unconstitutional",
     "https://kenyans.co.ke/news/127147-sifuna-blocked-jkuat-gate-student-forum-cancelled",
     "https://kenyans.co.ke/news/127146-kenha-announces-temporary-closure-thika-kilimambogo-road-section",
-    "https://kenyans.co.ke/news/127154-postmortem-confirms-gunshot-injuries-killed-two-men-nembure-stadium"
+    "https://kenyans.co.ke/news/127154-postmortem-confirms-gunshot-injuries-killed-two-men-nembure-stadium",
+    "https://kenyans.co.ke/news/127151-odm-mombasa-leaders-demand-disciplinary-action-against-uda-sg-hassan-omar"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -846,7 +848,8 @@
     "parliament faces six month clock overhaul ppp law high court oversight ruling",
     "jkuat gate lockdown signals growing campus nervousness student political discourse",
     "pavement failure gatuanyaga forces kenha critical fix kiambu agro corridor",
-    "embu stadium fatalities autopsy findings shift focus police accountability live round protocols"
+    "embu stadium fatalities autopsy findings shift focus police accountability live round protocols",
+    "mombasa turf war puts ruto broad based alliance test"
   ],
   "topic_keys": [
     "news tracker",
