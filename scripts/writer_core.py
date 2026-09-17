@@ -21,7 +21,7 @@ from voice_guard import (
     strip_banned,
 )
 
-FRESH_HOURS = 24
+FRESH_HOURS = int(os.environ.get("FRESH_HOURS") or os.environ.get("WRITER_MAX_AGE_HOURS") or 24)
 
 MODELS_TO_TRY = [
     "gemini-3.1-pro-preview",
@@ -166,7 +166,7 @@ def run_writer(cfg):
                 html = page.content()
                 browser.close()
             soup = BeautifulSoup(html, "html.parser")
-            for a in soup.select("a[href]")[:80]:
+            for a in soup.select("a[href]")[:120]:
                 href = a.get("href") or ""
                 title = a.get_text(" ", strip=True)
                 if len(title) < 25 or len(title) > 140:
@@ -186,7 +186,8 @@ def run_writer(cfg):
                 seen.add(s["url"])
                 uniq.append(s)
             uniq.sort(key=lambda s: kenya_score(s["title"]), reverse=True)
-            return uniq[:12]
+            print(f"Scraped {len(uniq)} candidate links from {source_domain}")
+            return uniq[:15]
         except Exception as e:
             print(f"Scrape error: {e}")
             return []
@@ -244,11 +245,12 @@ def run_writer(cfg):
 
             fresh, age_h = is_fresh_enough(soup, max_hours=FRESH_HOURS)
             if not fresh:
-                if age_h is None:
-                    print("Skipping, no usable publish-date signal found (fail-closed)")
-                else:
-                    print(f"Skipping, age {age_h:.1f}h")
+                print(f"Skipping, age {age_h:.1f}h exceeds {FRESH_HOURS}h")
                 return "", ""
+            if age_h is None:
+                print("No structured date — allowing (unknown age)")
+            else:
+                print(f"Source age ~{age_h:.1f}h")
 
             og = ""
             for prop in ("og:image", "og:image:secure_url", "twitter:image", "twitter:image:src"):
@@ -351,12 +353,16 @@ schema: "NewsArticle"
         return
     style = pick_style(memory.get("style_history", []))
     print(f"Style: {style['name']}")
+    written = 0
+    max_posts = int(os.environ.get("MAX_POSTS_PER_RUN", "3") or 3)
+    write_every = os.environ.get("WRITE_EVERY_ELIGIBLE_STORY", "1") in ("1", "true", "yes")
     for story in stories:
         if should_skip_story(story["title"], category):
             print(f"Skip (not Kenya-first): {story['title'][:80]}")
             continue
         body, image = fetch_article(story["url"])
         if len(body) < 200:
+            print(f"Skip thin body: {story['title'][:60]}")
             continue
         if should_skip_story(story["title"] + " " + body, category):
             print(f"Skip body (not Kenya-first): {story['title'][:80]}")
@@ -395,5 +401,13 @@ schema: "NewsArticle"
         memory.setdefault("angle_history", []).append(lede)
         save_memory(memory)
         print("Memory updated")
-        return
-    print("No suitable Kenya-first story published this run")
+        written += 1
+        if not write_every:
+            return
+        if written >= max_posts:
+            print(f"Hit MAX_POSTS_PER_RUN={written}")
+            return
+    if written:
+        print(f"Published {written} post(s) this run")
+    else:
+        print("No suitable Kenya-first story published this run")
