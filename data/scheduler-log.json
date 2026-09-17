@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-17T13:51:31.894Z",
+  "updated": "2026-09-17T13:51:55.714Z",
   "logs": [
+    {
+      "id": "africa-1789653115389",
+      "desk": "africa",
+      "scheduledFor": "2026-09-17T13:51:53.916Z",
+      "dispatchedAt": "2026-09-17T13:51:53.916Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "manual"
+    },
     {
       "id": "mpasho-1789653091516",
       "desk": "mpasho",
