@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-17T13:44:23.477Z",
+  "updated": "2026-09-17T13:51:31.894Z",
   "logs": [
+    {
+      "id": "mpasho-1789653091516",
+      "desk": "mpasho",
+      "scheduledFor": "2026-09-17T13:51:30.093Z",
+      "dispatchedAt": "2026-09-17T13:51:30.093Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "manual"
+    },
     {
       "id": "ghafla-1789652663192",
       "desk": "ghafla",
