@@ -13,19 +13,22 @@ const FROM_DEFAULT = "Za Ndani <onboarding@resend.dev>";
 const TZ = "Africa/Nairobi";
 
 const DESKS = {
-  news: { label: "News", workflow: "za-news.yml", cron: "0 * * * *", cadence: "every hour" },
-  sports: { label: "Sports", workflow: "za-sports.yml", cron: "0 * * * *", cadence: "every hour" },
-  business: { label: "Business", workflow: "za-business.yml", cron: "0 * * * *", cadence: "every hour" },
-  africa: { label: "East Africa", workflow: "za-africa.yml", cron: "0 * * * *", cadence: "every hour" },
-  agriculture: { label: "Agriculture", workflow: "za-agriculture.yml", cron: "0 * * * *", cadence: "every hour" },
-  technology: { label: "Technology", workflow: "za-technology.yml", cron: "0 * * * *", cadence: "every hour" },
-  opinions: { label: "Opinions", workflow: "za-opinions.yml", cron: "0 * * * *", cadence: "every hour" },
-  diano: { label: "George Diano", workflow: "za-diano.yml", cron: "0 * * * *", cadence: "every hour" },
-  jaj: { label: "Jaj", workflow: "za-jaj.yml", cron: "0 * * * *", cadence: "every hour" },
-  entertainment: { label: "Entertainment", workflow: "za-entertainment.yml", cron: "0 */2 * * *", cadence: "every 2 hours" },
-  mpasho: { label: "Mpasho", workflow: "za-mpasho.yml", cron: "0 */2 * * *", cadence: "every 2 hours" },
-  lifestyle: { label: "Lifestyle", workflow: "za-lifestyle.yml", cron: "0 */2 * * *", cadence: "every 2 hours" },
-  ghafla: { label: "Ghafla", workflow: "za-ghafla.yml", cron: "0 */2 * * *", cadence: "every 2 hours" },
+  // Hourly desks — staggered minutes (Africa/Nairobi)
+  news: { label: "News", workflow: "za-news.yml", cron: "0 * * * *", cadence: "hourly at :00" },
+  africa: { label: "East Africa", workflow: "za-africa.yml", cron: "12 * * * *", cadence: "hourly at :12" },
+  agriculture: { label: "Agriculture", workflow: "za-agriculture.yml", cron: "24 * * * *", cadence: "hourly at :24" },
+  diano: { label: "George Diano", workflow: "za-diano.yml", cron: "36 * * * *", cadence: "hourly at :36" },
+  jaj: { label: "Jaj", workflow: "za-jaj.yml", cron: "48 * * * *", cadence: "hourly at :48" },
+  // Every 2 hours — staggered away from news
+  sports: { label: "Sports", workflow: "za-sports.yml", cron: "6 */2 * * *", cadence: "every 2h at :06" },
+  business: { label: "Business", workflow: "za-business.yml", cron: "18 */2 * * *", cadence: "every 2h at :18" },
+  technology: { label: "Technology", workflow: "za-technology.yml", cron: "30 */2 * * *", cadence: "every 2h at :30" },
+  opinions: { label: "Opinions", workflow: "za-opinions.yml", cron: "42 */2 * * *", cadence: "every 2h at :42" },
+  // Entertainment cluster — every 2 hours, different minutes
+  entertainment: { label: "Entertainment", workflow: "za-entertainment.yml", cron: "8 */2 * * *", cadence: "every 2h at :08" },
+  mpasho: { label: "Mpasho", workflow: "za-mpasho.yml", cron: "20 */2 * * *", cadence: "every 2h at :20" },
+  lifestyle: { label: "Lifestyle", workflow: "za-lifestyle.yml", cron: "32 */2 * * *", cadence: "every 2h at :32" },
+  ghafla: { label: "Ghafla", workflow: "za-ghafla.yml", cron: "44 */2 * * *", cadence: "every 2h at :44" },
 };
 
 function validEmail(raw) {
@@ -264,7 +267,7 @@ function useAdminScheduler(env) {
 async function runDueDesks(env) {
   if (!useAdminScheduler(env)) return { triggered: [], skipped: true };
   const parts = nairobiParts();
-  if (parts.minute !== 0) return { triggered: [], minute: parts.minute };
+  // Staggered minutes — any minute can fire via cronMatches
   let state = { desks: {} };
   try {
     const cur = await readGithubJson(env, SCHED_STATE_PATH);
@@ -453,55 +456,57 @@ async function handleGithubApi(request, env) {
       return json({ ok: true });
     }
     return json({ error: "Unknown action" }, 400);
-  } catch (e) {
-    return json({ error: e.message || "GitHub error" }, e.status || 500);
+  } catch (error) {
+    console.error("github api", error);
+    const status = error.status === 503 ? 503 : error.status === 401 || error.status === 403 ? 403 : 500;
+    return json({ error: String(error.message || "GitHub error"), github_status: error.status || null }, status);
   }
 }
 
 async function handleSchedulerStatus(env) {
-  const parts = nairobiParts();
   let state = { desks: {} };
   try {
     const cur = await readGithubJson(env, SCHED_STATE_PATH);
     state = cur.data || { desks: {} };
   } catch (_) {}
-  const desks = Object.entries(DESKS).map(([id, d]) => {
-    const s = state.desks?.[id] || {};
-    return {
-      id,
-      label: d.label,
-      workflow: d.workflow,
-      cron: d.cron,
-      cadence: d.cadence,
-      lastTriggeredAt: s.lastTriggeredAt || null,
-      lastStatus: s.lastStatus || "never",
-      lastError: s.lastError || null,
-      nextRunAt: nextRunIso(d.cron),
-    };
+  const now = nairobiParts();
+  const desks = Object.entries(DESKS).map(([id, desk]) => ({
+    id,
+    label: desk.label,
+    workflow: desk.workflow,
+    cron: desk.cron,
+    cadence: desk.cadence,
+    nextRun: nextRunIso(desk.cron),
+    last: state.desks?.[id] || null,
+  }));
+  return json({
+    ok: true,
+    timezone: TZ,
+    nairobiNow: now.display,
+    adminScheduler: useAdminScheduler(env),
+    desks,
   });
-  return json({ nowNairobi: parts.display, timezone: TZ, useAdminScheduler: useAdminScheduler(env), desks });
 }
 
-async function handleSchedulerLogs(request, env) {
-  const url = new URL(request.url);
-  const limit = Math.min(200, Math.max(1, Number(url.searchParams.get("limit") || 50)));
-  let logs = [];
+async function handleSchedulerLogs(env, url) {
+  const limit = Math.min(100, Math.max(1, Number(url.searchParams.get("limit") || 50)));
   try {
     const cur = await readGithubJson(env, SCHED_LOG_PATH);
-    logs = Array.isArray(cur.data?.logs) ? cur.data.logs : [];
-  } catch (_) {}
-  return json({ logs: logs.slice(0, limit) });
+    const logs = Array.isArray(cur.data?.logs) ? cur.data.logs.slice(0, limit) : [];
+    return json({ ok: true, logs });
+  } catch (e) {
+    return json({ ok: true, logs: [], error: String(e.message || e) });
+  }
 }
 
 async function handleSchedulerTrigger(request, env, deskId) {
   if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: corsHeaders() });
   if (request.method !== "POST") return json({ error: "POST only" }, 405);
-  if (!DESKS[deskId]) return json({ error: "Unknown desk" }, 404);
   try {
     const result = await triggerDesk(env, deskId, "manual");
     return json(result, result.ok ? 200 : 502);
   } catch (e) {
-    return json({ error: e.message || "Trigger failed" }, e.status || 500);
+    return json({ ok: false, error: String(e.message || e) }, e.status || 500);
   }
 }
 
@@ -510,39 +515,36 @@ async function handleSchedulerTick(env) {
     const result = await runDueDesks(env);
     return json({ ok: true, ...result });
   } catch (e) {
-    return json({ error: e.message || "Tick failed" }, 500);
+    return json({ ok: false, error: String(e.message || e) }, 500);
   }
 }
 
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     const url = new URL(request.url);
     const path = url.pathname;
+
     if (path === "/google4a7d26b466f41330.html" || path === "/google4a7d26b466f41330") {
-      return new Response(GSC_HTML, {
-        status: 200,
-        headers: { "content-type": "text/html; charset=utf-8", "cache-control": "public, max-age=300", "x-robots-tag": "noindex" },
-      });
+      return new Response(GSC_HTML, { headers: { "Content-Type": "text/html; charset=utf-8" } });
     }
     if (path === "/968a6d115d3240a3acbc3448c398978d.txt") {
-      return new Response(GSC_TXT, {
-        status: 200,
-        headers: { "content-type": "text/plain; charset=utf-8", "cache-control": "public, max-age=300", "x-robots-tag": "noindex" },
-      });
+      return new Response(GSC_TXT, { headers: { "Content-Type": "text/plain; charset=utf-8" } });
     }
+
     if (path === "/api/subscribe") return handleSubscribe(request, env);
     if (path === "/api/unsubscribe") return handleUnsubscribe(request, env);
     if (path === "/api/github") return handleGithubApi(request, env);
+
     if (path === "/api/scheduler/status") return handleSchedulerStatus(env);
-    if (path === "/api/scheduler/logs") return handleSchedulerLogs(request, env);
+    if (path === "/api/scheduler/logs") return handleSchedulerLogs(env, url);
     if (path === "/api/scheduler/tick") return handleSchedulerTick(env);
-    if (path.startsWith("/api/scheduler/trigger/")) {
-      const deskId = path.replace("/api/scheduler/trigger/", "").replace(/\/$/, "");
-      return handleSchedulerTrigger(request, env, deskId);
-    }
+    const triggerMatch = path.match(/^\/api\/scheduler\/trigger\/([a-z0-9-]+)$/i);
+    if (triggerMatch) return handleSchedulerTrigger(request, env, triggerMatch[1].toLowerCase());
+
     if (env.ASSETS) return env.ASSETS.fetch(request);
     return new Response("Not found", { status: 404 });
   },
+
   async scheduled(event, env, ctx) {
     ctx.waitUntil(
       runDueDesks(env).then((r) => console.log("scheduler tick", JSON.stringify(r))).catch((e) => console.error("scheduler", e))

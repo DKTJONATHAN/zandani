@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T09:00:51.129Z",
+  "updated": "2026-09-17T09:01:06.457Z",
   "desks": {
     "news": {
       "lastTriggeredAt": "2026-09-17T09:00:40.059Z",
@@ -17,6 +17,34 @@
     },
     "business": {
       "lastTriggeredAt": "2026-09-17T09:00:48.056Z",
+      "lastStatus": "ok",
+      "lastError": null,
+      "lastSource": "cron",
+      "lastSlot": "2026-09-17T12:00"
+    },
+    "africa": {
+      "lastTriggeredAt": "2026-09-17T09:00:51.782Z",
+      "lastStatus": "ok",
+      "lastError": null,
+      "lastSource": "cron",
+      "lastSlot": "2026-09-17T12:00"
+    },
+    "agriculture": {
+      "lastTriggeredAt": "2026-09-17T09:00:55.477Z",
+      "lastStatus": "ok",
+      "lastError": null,
+      "lastSource": "cron",
+      "lastSlot": "2026-09-17T12:00"
+    },
+    "technology": {
+      "lastTriggeredAt": "2026-09-17T09:00:59.296Z",
+      "lastStatus": "ok",
+      "lastError": null,
+      "lastSource": "cron",
+      "lastSlot": "2026-09-17T12:00"
+    },
+    "opinions": {
+      "lastTriggeredAt": "2026-09-17T09:01:03.121Z",
       "lastStatus": "ok",
       "lastError": null,
       "lastSource": "cron",

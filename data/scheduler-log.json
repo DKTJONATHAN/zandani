@@ -1,6 +1,46 @@
 {
-  "updated": "2026-09-17T09:00:49.301Z",
+  "updated": "2026-09-17T09:01:04.306Z",
   "logs": [
+    {
+      "id": "opinions-1789635664114",
+      "desk": "opinions",
+      "scheduledFor": "2026-09-17 12:00:39",
+      "dispatchedAt": "2026-09-17T09:01:03.121Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
+    {
+      "id": "technology-1789635660437",
+      "desk": "technology",
+      "scheduledFor": "2026-09-17 12:00:39",
+      "dispatchedAt": "2026-09-17T09:00:59.296Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
+    {
+      "id": "agriculture-1789635656672",
+      "desk": "agriculture",
+      "scheduledFor": "2026-09-17 12:00:39",
+      "dispatchedAt": "2026-09-17T09:00:55.477Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
+    {
+      "id": "africa-1789635652914",
+      "desk": "africa",
+      "scheduledFor": "2026-09-17 12:00:39",
+      "dispatchedAt": "2026-09-17T09:00:51.782Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "business-1789635649096",
       "desk": "business",
