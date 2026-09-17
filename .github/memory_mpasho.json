@@ -1,14 +1,20 @@
 {
   "published_hashes": [
-    "c6c5970ee7b908373cb92fb3"
+    "c6c5970ee7b908373cb92fb3",
+    "01e96da32c3a2b33cc55bb3e"
   ],
   "style_history": [
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "recent_stories": [
     {
       "key": "2026-09-17-dj-shiti-mourns-father-after-seven-year-battle-with-cancer",
       "ts": "2026-09-17T14:02:46Z"
+    },
+    {
+      "key": "2026-09-17-magix-enga-announces-split-from-new-wife",
+      "ts": "2026-09-17T14:21:39Z"
     }
   ]
 }
