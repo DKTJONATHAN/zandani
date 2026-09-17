@@ -1,8 +1,10 @@
 """Post-write gate for every Za Ndani desk.
 
-Validates and polishes recently touched posts. Invalid/thin posts are logged
-and skipped (or dropped when spam/not Kenya-first) but never fail the whole
-desk job — otherwise one short legacy file blocks every concurrent desk.
+Validates and polishes recently touched posts. Revamped posts are treated as
+editorially final: they keep their source-faithful angle, selected images and
+natural newsroom copy instead of being passed through the legacy normalizer.
+Invalid/thin posts are logged and skipped (or dropped when spam/not Kenya-first)
+but never fail the whole desk job.
 """
 from __future__ import annotations
 
@@ -16,7 +18,6 @@ from voice_guard import is_spam, polish_body, should_skip_story
 POSTS = pathlib.Path("content/posts")
 MAX_AGE_SEC = 40 * 60
 REQUIRED_FIELDS = {"title", "slug", "date", "category", "author", "image"}
-# Canonical desks + aliases used by writers (frontend maps showbiz/gossip → Entertainment)
 CANONICAL_CATEGORIES = {
     "news", "entertainment", "sports", "business", "technology", "agriculture",
     "africa", "lifestyle", "opinions", "opinion", "diano", "jaj",
@@ -49,6 +50,11 @@ def category_of(fm: str) -> str:
 
 def title_of(fm: str) -> str:
     return fields_of(fm).get("title", "")
+
+
+def is_revamped(fm: str) -> bool:
+    data = fields_of(fm)
+    return bool(data.get("editorialAngle") or data.get("selectedImages"))
 
 
 def validate_post(path: pathlib.Path, fm: str, body: str) -> list[str]:
@@ -86,44 +92,66 @@ def main() -> int:
     if not POSTS.exists():
         print("No posts dir")
         return 0
+
+    # Legacy polishing is useful for ordinary desk output, but it must not
+    # rewrite an article that the new editorial revamp has already finalized.
     polish = pathlib.Path("scripts/polish_new_posts.py")
     if polish.exists():
-        subprocess.run([sys.executable, str(polish)], check=False)
+        legacy_paths = []
+        for path in POSTS.glob("*.md"):
+            try:
+                if now - path.stat().st_mtime > MAX_AGE_SEC:
+                    continue
+                text = path.read_text(encoding="utf-8")
+                fm, _ = split_fm(text)
+                if not is_revamped(fm):
+                    legacy_paths.append(str(path))
+            except Exception:
+                continue
+        if legacy_paths:
+            subprocess.run([sys.executable, str(polish), *legacy_paths], check=False)
 
     dropped = 0
     touched = 0
     invalid = 0
     for path in POSTS.glob("*.md"):
-        if now - path.stat().st_mtime > MAX_AGE_SEC:
-            continue
-        text = path.read_text(encoding="utf-8")
-        fm, body = split_fm(text)
-        errors = validate_post(path, fm, body)
-        if errors:
-            print(f"WARN publication validation: {path.name}: {'; '.join(errors)}")
+        try:
+            if now - path.stat().st_mtime > MAX_AGE_SEC:
+                continue
+            text = path.read_text(encoding="utf-8")
+            fm, body = split_fm(text)
+            revamped = is_revamped(fm)
+            errors = validate_post(path, fm, body)
+            if errors:
+                print(f"WARN publication validation: {path.name}: {'; '.join(errors)}")
+                invalid += 1
+                continue
+            cat = category_of(fm)
+            title = title_of(fm)
+            blob = title + "\n" + body
+            if should_skip_story(blob, cat) and cat.lower() not in {"opinions", "opinion"}:
+                print(f"DROP not Kenya-first: {path.name}")
+                path.unlink()
+                dropped += 1
+                continue
+            # Revamped articles have already passed source-fidelity, angle and
+            # image selection. Keep their copy byte-for-byte intact here.
+            if revamped:
+                continue
+            cleaned = polish_body(body, cat, title)
+            if is_spam(cleaned, min_words=180) and cat.lower() not in {"opinions", "opinion"}:
+                print(f"DROP spam/thin: {path.name}")
+                path.unlink()
+                dropped += 1
+                continue
+            if cleaned != body:
+                path.write_text("---" + fm + "---\n" + cleaned.lstrip("\n"), encoding="utf-8")
+                touched += 1
+        except Exception as exc:
+            print(f"WARN publication validation error: {path.name}: {exc}")
             invalid += 1
-            # Do not fail the desk — thin/legacy posts must not block publish.
-            continue
-        cat = category_of(fm)
-        title = title_of(fm)
-        blob = title + "\n" + body
-        if should_skip_story(blob, cat) and cat.lower() not in {"opinions", "opinion"}:
-            print(f"DROP not Kenya-first: {path.name}")
-            path.unlink()
-            dropped += 1
-            continue
-        cleaned = polish_body(body, cat, title)
-        if is_spam(cleaned, min_words=180) and cat.lower() not in {"opinions", "opinion"}:
-            print(f"DROP spam/thin: {path.name}")
-            path.unlink()
-            dropped += 1
-            continue
-        if cleaned != body:
-            path.write_text("---" + fm + "---\n" + cleaned.lstrip("\n"), encoding="utf-8")
-            touched += 1
 
     print(f"finish_desk: touched={touched} dropped={dropped} invalid={invalid}")
-    # Always succeed so Commit step runs for valid new articles.
     return 0
 
 
