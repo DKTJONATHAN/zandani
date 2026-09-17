@@ -10,7 +10,17 @@ import sys
 
 import celestine_news as base
 from article_intelligence import extract_article_images, format_image_candidates, recent_angle_context
-from voice_guard import news_prompt, seo_fields, is_fresh_enough, mentions_stale_year, should_skip_story, model_skipped, is_spam as vg_is_spam, polish_body
+from voice_guard import (
+    news_prompt,
+    seo_fields,
+    is_fresh_enough,
+    mentions_stale_year,
+    should_skip_story,
+    model_skipped,
+    is_spam as vg_is_spam,
+    polish_body,
+    extract_published_dt,
+)
 
 MAX_IMAGES = 12
 MAX_SELECTED_IMAGES = 3
@@ -33,7 +43,10 @@ def scrape_article_v2(url):
         return None
     fresh, age_h = is_fresh_enough(soup, max_hours=base.FRESH_HOURS)
     if not fresh:
-        print(f"Skipping stale story: {age_h:.1f}h")
+        if age_h is None:
+            print("Skipping stale story: no usable publish-date signal")
+        else:
+            print(f"Skipping stale story: {age_h:.1f}h")
         return None
     root = article_root(soup)
     title_tag = soup.find("title")
@@ -55,7 +68,7 @@ def scrape_article_v2(url):
             featured = meta.get("content", "")
             break
     published = ""
-    pt = base.extract_published_dt(soup)
+    pt = extract_published_dt(soup)
     if pt:
         published = pt.isoformat()
     return {"title": title, "text": text, "images": images, "featured": featured, "published": published}
