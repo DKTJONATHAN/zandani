@@ -63,7 +63,7 @@ jobs:
           IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
           POSTS_DIR: ${{ env.POSTS_DIR }}
           MEMORY_FILE: ${{ env.MEMORY_FILE }}
-          REVAMP_CATEGORY: Opinion
+          REVAMP_CATEGORY: Opinions
           REVAMP_AUTHOR: Jaj
           FRESH_HOURS: "24"
         run: python scripts/article_revamp.py
