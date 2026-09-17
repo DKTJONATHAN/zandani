@@ -3,20 +3,21 @@
 
 Takes the fresh post produced by an existing desk writer, re-reads its source,
 extracts article-local images with their ALT/caption/context, and asks Gemini to
-rebuild the article around a materially different Zandani angle. The original
-desk scraper/writer remains responsible for source discovery and desk identity.
+rebuild the article around a materially different but fully supported Zandani
+editorial angle. The original desk scraper/writer remains responsible for
+source discovery and desk identity.
 """
 from __future__ import annotations
 
 import base64
 import glob
-import hashlib
 import io
 import json
 import os
 import re
 import time
 import urllib.parse
+import datetime
 
 import requests
 from bs4 import BeautifulSoup
@@ -25,7 +26,7 @@ from google.genai import types
 from playwright.sync_api import sync_playwright
 
 from article_intelligence import extract_article_images, format_image_candidates, recent_angle_context
-from voice_guard import extract_published_dt, is_fresh_enough, mentions_stale_year, polish_body, should_skip_story, seo_fields, model_skipped, is_spam
+from voice_guard import extract_published_dt, is_fresh_enough, mentions_stale_year, polish_body, should_skip_story, seo_fields
 
 POSTS_DIR = os.environ.get("POSTS_DIR", "content/posts")
 MEMORY_FILE = os.environ.get("MEMORY_FILE", "")
@@ -102,7 +103,7 @@ def scrape_source(url):
         page.wait_for_timeout(1600)
         soup = BeautifulSoup(page.content(), "html.parser")
         browser.close()
-    fresh, age = is_fresh_enough(soup, max_hours=MAX_AGE)
+    fresh, _age = is_fresh_enough(soup, max_hours=MAX_AGE)
     if not fresh:
         return None
     root = article_root(soup)
@@ -110,7 +111,8 @@ def scrape_source(url):
     body = "\n\n".join(paragraphs)
     if len(body) < 500:
         body = "\n\n".join(p.get_text(" ", strip=True) for p in soup.find_all("p") if len(p.get_text(strip=True)) > 30)
-    if len(body) < 500 or mentions_stale_year(body, __import__("datetime").datetime.utcnow().year + 3):
+    current_year = datetime.datetime.utcnow().year
+    if len(body) < 500 or mentions_stale_year(body, current_year):
         return None
     images = extract_article_images(soup, url, root, limit=MAX_IMAGES)
     featured = ""
@@ -151,7 +153,7 @@ def gemini(prompt):
                 response = client.models.generate_content(
                     model=model,
                     contents=prompt,
-                    config=types.GenerateContentConfig(temperature=0.72, max_output_tokens=6000),
+                    config=types.GenerateContentConfig(temperature=0.58, max_output_tokens=6000),
                 )
                 text = (response.text or "").strip()
                 if text:
@@ -267,12 +269,47 @@ def find_target_post():
     return candidates[0] if candidates else None
 
 
+# Strong verbs require explicit or near-explicit support in the source.
+# This is deliberately conservative: an uncertain headline is rejected rather than published.
+STRONG_HEADLINE_TERMS = {
+    "discard": ("discard", "discarded", "discarding"),
+    "scrap": ("scrap", "scrapped", "scrapping"),
+    "cancel": ("cancel", "cancelled", "canceled", "cancellation"),
+    "reject": ("reject", "rejected", "rejection"),
+    "ban": ("ban", "banned", "banning"),
+    "shut": ("shut", "shutdown", "closed", "closure"),
+    "terminate": ("terminate", "terminated", "termination"),
+    "force": ("force", "forced", "forcing", "order", "ordered", "orders"),
+    "fire": ("fire", "fired", "sack", "sacked", "dismiss", "dismissed"),
+    "arrest": ("arrest", "arrested", "detain", "detained"),
+    "lose": ("lose", "lost", "loss"),
+}
+
+
+def headline_is_overstated(title, source_body):
+    low = (title or "").lower()
+    src = (source_body or "").lower()
+    for stem, variants in STRONG_HEADLINE_TERMS.items():
+        if re.search(r"\b" + re.escape(stem) + r"\w*\b", low):
+            if not any(v in src for v in variants):
+                return True, f"headline uses '{stem}' without source support"
+    # Absolute language is risky unless the source itself contains it.
+    for term in ("all", "none", "never", "every", "completely", "entirely", "no longer"):
+        if re.search(r"\b" + re.escape(term) + r"\b", low) and term not in src:
+            return True, f"headline uses unsupported absolute '{term}'"
+    return False, ""
+
+
 def rewrite_post(path, fm, old_body, source, result):
     article = result.get("article") if isinstance(result.get("article"), dict) else {}
     analysis = result.get("analysis") if isinstance(result.get("analysis"), dict) else {}
     title = str(article.get("title") or fm.get("title") or "").strip()
     body = str(article.get("body_markdown") or "").strip()
     if not title or len(re.findall(r"\w+", body)) < 220:
+        return False
+    overstated, reason = headline_is_overstated(title, source.get("body", ""))
+    if overstated:
+        print(f"Rejected headline: {reason}")
         return False
     body = polish_body(body)
     seo = seo_fields(title, body, CATEGORY, AUTHOR)
@@ -335,19 +372,33 @@ def main():
     candidates = format_image_candidates(source["images"])
     prompt = f"""You are the senior editor of Za Ndani. Rebuild the supplied source material into an original {CATEGORY} article.
 
-SOURCE IS RESEARCH, NOT A TEMPLATE.
-- Do not paraphrase paragraph by paragraph, translate, mirror the source order, or reuse its headline structure.
+EDITORIAL STANDARD: REPORTING, NOT AI PARAPHRASING.
+- The source is research material. Do not paraphrase it paragraph by paragraph, translate it, mirror its paragraph order, or imitate its headline.
+- Do not try to sound different by making the story more dramatic. Difference must come from a different factual editorial question or reporting lens.
 - First identify the source's dominant likely coverage angle.
-- Generate several possible editorial angles internally, then choose ONE that is materially different from that dominant angle and from recent Za Ndani angles.
-- A new angle must change the editorial question or lens: consequence, money, accountability, people affected, local impact, timing, practical change, institutional pressure, unresolved factual issue, or another concrete lens supported by the supplied facts.
-- Never invent facts to create an angle. If a tempting angle is unsupported, reject it.
-- Avoid generic formulaic openings and repeated newsroom filler. Write with specific nouns, active verbs, varied sentence length and short/medium paragraphs.
-- Report first, observe second, remain useful throughout. Do not write like a content spinner.
+- Generate several possible angles internally. Choose ONE that is materially different from that dominant angle and from recent Za Ndani angles, but only if the supplied facts genuinely support it.
+- Good angle changes include: who is affected, what changes operationally, what readers must do next, timing, money, accountability, local impact, an overlooked factual detail, an official clarification, an unresolved factual question, or a concrete consequence directly supported by the source.
+- If no genuinely different supported angle exists, return status=skip. Do not manufacture an angle merely to satisfy uniqueness.
+- Never strengthen a source claim. For example, archived is not discarded; delayed is not cancelled; criticism is not proof; a warning is not an order; a possibility is not an outcome.
+- Every strong factual claim in the headline must be explicitly supported by the source material. Prefer precise verbs such as said, announced, introduced, required, archived, opened, reported, confirmed or explained when those are what the source supports.
+- Do not use sensational compression such as "X destroys", "X wipes out", "X crushes", "X discards all", or similar language unless the supplied source explicitly supports that wording.
+- The headline must be written AFTER the reporting angle and article are established. It must accurately summarize the article, not manufacture a hook.
+- Lead with a concrete fact, action, person, place, time or consequence. Avoid theatrical openings and generic AI introductions.
+- Use ordinary newsroom language. Prefer specific nouns and active verbs. Vary sentence length naturally. Use short and medium paragraphs. Do not make every paragraph follow the same cadence.
+- Do not write "This comes as", "The development marks", "In a significant move", "Against this backdrop", "As the country", or similar filler unless genuinely necessary.
+- Do not end with a generic summary or moral. End when the useful reporting is complete.
 - Do not mention the source publication or say you are rewriting it.
-- Use only facts supported by the supplied source material.
+- Use only facts supported by the supplied source material. No invented quotes, motives, statistics, dates, consequences, experts or reactions.
+
+SOURCE-FIDELITY CHECK BEFORE RETURNING JSON:
+1. What exactly does the source say happened?
+2. What does the source NOT say?
+3. Does the headline use any stronger verb than the source supports? If yes, rewrite it.
+4. Is the chosen angle genuinely a different lens, or just the same story with more dramatic wording? If the latter, skip or choose another supported lens.
+5. Could a reader verify every important factual sentence from the supplied source? If not, remove it.
 
 IMAGE EDITOR:
-The source article's INTERNAL images are supplied below with their original ALT text, caption, context and dimensions. Decide which images actually belong in the new article. Do not choose an image merely because it is first or attractive. Avoid logos, icons, adverts, social-share graphics, decorative images and duplicates. You may select zero images. For every selected image, give a concise ALT text describing what the image shows in the context of this article. Preserve the source index.
+The source article's INTERNAL images are supplied below with their original ALT text, caption, context and dimensions. Decide which images actually belong in the new article. Do not choose an image merely because it is first or attractive. Avoid logos, icons, adverts, social-share graphics, decorative images and duplicates. You may select zero images. For every selected image, give concise ALT text describing what the image shows in the context of this article. Preserve the source index.
 
 RECENT ZA NDANI ANGLES TO AVOID:
 {recent}
@@ -376,6 +427,7 @@ Return ONLY valid JSON matching this exact shape:
     "chosen_angle_gap": "",
     "angle_type": "",
     "editorial_focus": "",
+    "evidence_basis": "",
     "opening_pattern": "",
     "structure_pattern": ""
   }},
@@ -385,7 +437,8 @@ Return ONLY valid JSON matching this exact shape:
 """
     for attempt in range(3):
         try:
-            result = parse_json(gemini(prompt + ("\n\nRETRY: materially change the editorial angle; do not merely change wording or headline.\n" if attempt else "")))
+            retry = "\n\nRETRY: Your previous draft was too close to the source or too interpretive. Rebuild from verified facts. Do not intensify wording. If no supported angle exists, return status=skip.\n" if attempt else ""
+            result = parse_json(gemini(prompt + retry))
         except Exception as exc:
             print(f"Gemini error: {exc}")
             return 0
@@ -393,18 +446,34 @@ Return ONLY valid JSON matching this exact shape:
             return 0
         analysis = result.get("analysis") if isinstance(result.get("analysis"), dict) else {}
         angle = str(analysis.get("chosen_angle_gap") or "").strip()
+        dominant = str(analysis.get("dominant_likely_coverage_angle") or "").strip()
         title = str((result.get("article") or {}).get("title") or "").strip()
-        if not angle or not title:
+        evidence = str(analysis.get("evidence_basis") or "").strip()
+        if not angle or not title or not evidence:
+            continue
+        if dominant and similarity(angle, dominant) > 0.58:
+            print("Rejected: chosen angle remains too close to source angle")
             continue
         if any(similarity(title, str(x.get("title", ""))) > 0.78 or similarity(angle, str(x.get("angle", ""))) > 0.58 for x in recent_angles if isinstance(x, dict)):
             continue
         if similarity(title, str(fm.get("title", ""))) > 0.86:
             continue
+        overstated, reason = headline_is_overstated(title, source.get("body", ""))
+        if overstated:
+            print(f"Rejected: {reason}")
+            continue
         if rewrite_post(path, fm, raw, source, result):
-            memory.setdefault("revamp_angles", []).append({"title": title, "angle": angle, "angle_type": str(analysis.get("angle_type", "")), "source": source_url, "published_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
+            memory.setdefault("revamp_angles", []).append({
+                "title": title,
+                "angle": angle,
+                "angle_type": str(analysis.get("angle_type", "")),
+                "evidence_basis": evidence,
+                "source": source_url,
+                "published_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+            })
             write_memory(memory)
             return 0
-    print("No acceptable unique angle produced")
+    print("No acceptable unique, source-faithful angle produced")
     return 0
 
 
