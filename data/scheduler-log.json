@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-17T08:28:27.690Z",
+  "updated": "2026-09-17T08:28:38.297Z",
   "logs": [
+    {
+      "id": "news-1789633717920",
+      "desk": "news",
+      "scheduledFor": "2026-09-17T08:28:37.565Z",
+      "dispatchedAt": "2026-09-17T08:28:37.565Z",
+      "status": 403,
+      "ok": false,
+      "error": "Resource not accessible by personal access token",
+      "source": "manual"
+    },
     {
       "id": "news-1789633707342",
       "desk": "news",
