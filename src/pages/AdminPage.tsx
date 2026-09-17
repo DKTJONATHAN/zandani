@@ -20,7 +20,6 @@ import { generateSlug } from "@/admin/utils/helpers";
 import { ConfirmDialog } from "@/admin/components/ConfirmDialog";
 import { SchedulerPanel } from "@/admin/components/SchedulerPanel";
 
-// ─── HELPERS ─────────────────────────────────────────────────────────────────
 function catColor(_cat: string): string {
   return "bg-primary text-primary-foreground";
 }
@@ -56,7 +55,6 @@ export default function AdminPage() {
   const [viewsLoading, setViewsLoading] = useState(true);
   const [editingPost, setEditingPost] = useState<PostMetadata | null>(null);
   const [categories, setCategories] = useState<{ name: string; slug: string }[]>([]);
-  const [isCustomCategory, setIsCustomCategory] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
   const [filterCategory, setFilterCategory] = useState("All");
   const [showDeleteConfirm, setShowDeleteConfirm] = useState<string | null>(null);
@@ -103,32 +101,10 @@ export default function AdminPage() {
   const analytics = useMemo(() => {
     const totalViews = postsWithViews.reduce((s, p) => s + p.views, 0);
     const topPosts = [...postsWithViews].sort((a, b) => b.views - a.views).slice(0, 5);
-    const byCategory: Record<string, { count: number; views: number }> = {};
-    postsWithViews.forEach(p => {
-      const cat = p.category || "Other";
-      if (!byCategory[cat]) byCategory[cat] = { count: 0, views: 0 };
-      byCategory[cat].count++;
-      byCategory[cat].views += p.views;
-    });
-    const catStats = Object.entries(byCategory).map(([name, s]) => ({ name, ...s })).sort((a, b) => b.views - a.views);
-    const byAuthor: Record<string, { count: number; views: number }> = {};
-    postsWithViews.forEach(p => {
-      const a = p.author || "Unknown";
-      if (!byAuthor[a]) byAuthor[a] = { count: 0, views: 0 };
-      byAuthor[a].count++;
-      byAuthor[a].views += p.views;
-    });
-    const authorStats = Object.entries(byAuthor).map(([name, s]) => ({ name, ...s })).sort((a, b) => b.views - a.views);
     const sevenDaysAgo = Date.now() - 7 * 86400000;
     const recentCount = posts.filter(p => new Date(p.date).getTime() > sevenDaysAgo).length;
-    const noTraction = postsWithViews.filter(p => p.views === 0).slice(0, 5);
-    return { totalViews, topPosts, catStats, authorStats, recentCount, noTraction };
-  }, [postsWithViews]);
-
-  useEffect(() => {
-    if (newPost.category && !categories.some(c => c.name === newPost.category)) setIsCustomCategory(true);
-    else setIsCustomCategory(false);
-  }, [newPost.category, categories]);
+    return { totalViews, topPosts, recentCount };
+  }, [postsWithViews, posts]);
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
@@ -160,13 +136,6 @@ export default function AdminPage() {
         const sha = await getGithubFileSha('content/authors.json');
         await pushToGithub('content/authors.json', JSON.stringify(updatedAuthors, null, 2), `Add author: ${inlineAuthor.name}`, sha || undefined);
         setAuthors(updatedAuthors);
-      }
-      if (newPost.category && !categories.some(c => c.name === newPost.category)) {
-        const newSlug = generateSlug(newPost.category);
-        const newCats = [...categories, { name: newPost.category, slug: newSlug }];
-        const sha = await getGithubFileSha('content/categories.json');
-        await pushToGithub('content/categories.json', JSON.stringify(newCats, null, 2), `Add category: ${newPost.category}`, sha);
-        setCategories(newCats);
       }
       const postSlug = newPost.slug || generateSlug(newPost.title);
       const filePath = `content/posts/${postSlug}.md`;
@@ -340,9 +309,7 @@ export default function AdminPage() {
           </div>
 
           <div className="p-6">
-            {activeTab === "scheduler" && (
-              <SchedulerPanel />
-            )}
+            {activeTab === "scheduler" && <SchedulerPanel />}
 
             {activeTab === "authors" && (
               <AuthorsManager onAuthorsLoaded={setAuthors} />
@@ -404,10 +371,8 @@ export default function AdminPage() {
 
             {activeTab === "manage" && (
               <div className="space-y-4">
-                <div className="flex gap-3">
-                  <input className="flex-1 bg-zinc-900 border border-zinc-800 text-white px-4 py-2 text-sm" placeholder="Search posts…"
-                    value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
-                </div>
+                <input className="w-full bg-zinc-900 border border-zinc-800 text-white px-4 py-2 text-sm" placeholder="Search posts…"
+                  value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
                 <div className="space-y-2">
                   {filteredPosts.slice(0, 50).map(p => (
                     <div key={p.slug} className="flex items-center justify-between bg-zinc-900 border border-zinc-800 px-4 py-3">
@@ -429,12 +394,12 @@ export default function AdminPage() {
       </div>
 
       <ConfirmDialog
-        open={!!showDeleteConfirm}
-        onOpenChange={(o) => !o && setShowDeleteConfirm(null)}
+        isOpen={!!showDeleteConfirm}
+        onCancel={() => setShowDeleteConfirm(null)}
         title="Delete post?"
         description="This removes the markdown file from the repository."
         onConfirm={confirmDeletePost}
-        loading={isDeleting}
+        isLoading={isDeleting}
       />
     </Layout>
   );
