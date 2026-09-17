@@ -16,8 +16,10 @@ on:
         required: false
         default: ""
 
+# The rotator writes the same branch as every content writer. It must share
+# their lock so its ledger commit cannot race a writer's commit/push.
 concurrency:
-  group: desk-rotator
+  group: zandani-main-content-writer
   cancel-in-progress: false
 
 permissions:
@@ -74,7 +76,15 @@ jobs:
             fire "$PICK"
             grep -qxF "$PICK" "$ROTATION_LEDGER" || echo "$PICK" >> "$ROTATION_LEDGER"
             git config user.name "github-actions[bot]"; git config user.email "github-actions[bot]@users.noreply.github.com"
-            git fetch origin "$DEFAULT_BRANCH"; git rebase "origin/$DEFAULT_BRANCH"
             git add "$ROTATION_LEDGER"
-            if ! git diff --staged --quiet; then git commit -m "chore: record manual desk rotation"; git push origin HEAD:"$DEFAULT_BRANCH"; fi
+            if ! git diff --staged --quiet; then
+              git commit -m "chore: record manual desk rotation"
+              for attempt in 1 2 3 4 5; do
+                git fetch origin "$DEFAULT_BRANCH"
+                git rebase "origin/$DEFAULT_BRANCH"
+                if git push origin HEAD:"$DEFAULT_BRANCH"; then exit 0; fi
+                sleep $((attempt * 2))
+              done
+              exit 1
+            fi
           fi
