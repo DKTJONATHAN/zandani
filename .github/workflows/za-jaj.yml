@@ -1,10 +1,9 @@
 name: Jaj — Opinion column
 
-# August-style: this desk owns its own schedule. No universal dispatcher cron.
-# Column cadence: Mon + Thu only, several slots those days.
 on:
   schedule:
-    - cron: "52 5,8,11,14,17 * * 1,4"
+    - cron: '0 * * * *'
+      timezone: 'Africa/Nairobi'
   workflow_call:
     inputs:
       max_articles:

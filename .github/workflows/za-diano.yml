@@ -1,9 +1,9 @@
 name: Zed Mogaka — George Diano
 
-# August-style: this desk owns its own schedule. No universal dispatcher cron.
 on:
   schedule:
-    - cron: "48 3-20 * * *"
+    - cron: '0 * * * *'
+      timezone: 'Africa/Nairobi'
   workflow_call:
   workflow_dispatch: {}
 

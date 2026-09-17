@@ -2,7 +2,8 @@ name: Timothy Muli — Agriculture
 
 on:
   schedule:
-    - cron: "41 3-20 * * *"
+    - cron: '0 * * * *'
+      timezone: 'Africa/Nairobi'
   workflow_call:
   workflow_dispatch: {}
 

@@ -2,7 +2,8 @@ name: Mutheu Ann — Entertainment
 
 on:
   schedule:
-    - cron: "29 3-20 * * *"
+    - cron: '0 */2 * * *'
+      timezone: 'Africa/Nairobi'
   workflow_call:
   workflow_dispatch: {}
 

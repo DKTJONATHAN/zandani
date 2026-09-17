@@ -2,7 +2,8 @@ name: Celestine Nzioka — News
 
 on:
   schedule:
-    - cron: "11 3-20 * * *"
+    - cron: '0 * * * *'
+      timezone: 'Africa/Nairobi'
   workflow_call:
   workflow_dispatch: {}
 
