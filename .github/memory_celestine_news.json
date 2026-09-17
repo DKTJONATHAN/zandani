@@ -576,10 +576,10 @@
     "cc27afe185b69a5332e45ed6428423e6",
     "8d02a0b08f800c1c6a265eb3e0cc7bfb",
     "5e62be8387d70b3b173d1d344f1d520e",
-    "1007df53c9b3d3a9faaf59aae32d1266"
+    "1007df53c9b3d3a9faaf59aae32d1266",
+    "2e40f5aa6638f1eba351399b39bba277"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -608,7 +608,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -769,7 +770,8 @@
     "https://kenyans.co.ke/news/127146-kenha-announces-temporary-closure-thika-kilimambogo-road-section",
     "https://kenyans.co.ke/news/127154-postmortem-confirms-gunshot-injuries-killed-two-men-nembure-stadium",
     "https://kenyans.co.ke/news/127151-odm-mombasa-leaders-demand-disciplinary-action-against-uda-sg-hassan-omar",
-    "https://kenyans.co.ke/news/127155-sha-introduces-new-system-healthcare-provider-contracting"
+    "https://kenyans.co.ke/news/127155-sha-introduces-new-system-healthcare-provider-contracting",
+    "https://kenyans.co.ke/news/127156-dci-recovers-over-500-phones-motherboards-kisii-raid"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -852,7 +854,8 @@
     "pavement failure gatuanyaga forces kenha critical fix kiambu agro corridor",
     "embu stadium fatalities autopsy findings shift focus police accountability live round protocols",
     "mombasa turf war puts ruto broad based alliance test",
-    "sha resets hospital contracting discards all pre launch applications"
+    "sha resets hospital contracting discards all pre launch applications",
+    "kisii raid exposes repair shop backdoor stripping security locks off financed phones"
   ],
   "topic_keys": [
     "news tracker",
@@ -870,6 +873,15 @@
       "structure": "Lead on the reset, list the four funds affected, explain the archiving decision, detail the requirements for successful registration, and close on the high stakes for patients and hospital operations.",
       "source": "https://kenyans.co.ke/news/127155-sha-introduces-new-system-healthcare-provider-contracting",
       "published_at": "2026-09-17T14:33:51Z"
+    },
+    {
+      "title": "Kisii Raid Exposes Repair Shop Backdoor Stripping Security Locks Off Financed Phones",
+      "angle": "The commercial vulnerability of asset-financed smartphones and how illicit repair hubs bypass digital lock systems to push stolen devices back into the grey market.",
+      "angle_type": "practical change",
+      "opening": "Focusing on the operational compromise of hire-purchase smartphone security controls in regional trade centers.",
+      "structure": "Lead on asset-finance security bypass -> Details of the Market Plaza joint operation -> Technical breakdown of phone components and motherboards -> Pattern of urban grey-market crackdowns -> Unresolved supply chain tracing.",
+      "source": "https://kenyans.co.ke/news/127156-dci-recovers-over-500-phones-motherboards-kisii-raid",
+      "published_at": "2026-09-17T14:58:08Z"
     }
   ]
 }
