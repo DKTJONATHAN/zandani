@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-17T14:00:33.550Z",
+  "updated": "2026-09-17T14:21:29.581Z",
   "logs": [
+    {
+      "id": "news-1789654888957",
+      "desk": "news",
+      "scheduledFor": "2026-09-17T14:21:27.193Z",
+      "dispatchedAt": "2026-09-17T14:21:27.193Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "manual"
+    },
     {
       "id": "diano-1789653633190",
       "desk": "diano",
