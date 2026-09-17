@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T15:20:27.225Z",
+  "updated": "2026-09-17T15:24:36.669Z",
   "desks": {
     "news": {
       "lastTriggeredAt": "2026-09-17T15:00:27.261Z",
@@ -58,10 +58,10 @@
       "lastSlot": "2026-09-17T18:20"
     },
     "ghafla": {
-      "lastTriggeredAt": "2026-09-17T13:44:21.865Z",
-      "lastStatus": "ok",
-      "lastError": null,
-      "lastSource": "cron",
+      "lastTriggeredAt": "2026-09-17T15:24:34.547Z",
+      "lastStatus": "failed",
+      "lastError": "Workflow does not have 'workflow_dispatch' trigger",
+      "lastSource": "manual",
       "lastSlot": "2026-09-17T16:44"
     },
     "entertainment": {
