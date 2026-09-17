@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-17T15:08:23.199Z",
+  "updated": "2026-09-17T15:12:17.691Z",
   "logs": [
+    {
+      "id": "diano-1789657937352",
+      "desk": "diano",
+      "scheduledFor": "2026-09-17T15:12:16.885Z",
+      "dispatchedAt": "2026-09-17T15:12:16.885Z",
+      "status": 422,
+      "ok": false,
+      "error": "Workflow does not have 'workflow_dispatch' trigger",
+      "source": "manual"
+    },
     {
       "id": "entertainment-1789657702901",
       "desk": "entertainment",
