@@ -2,7 +2,7 @@ name: Jona Munyi — Sports
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '6 */2 * * *'
       timezone: 'Africa/Nairobi'
   workflow_call:
   workflow_dispatch: {}
@@ -60,7 +60,6 @@ jobs:
         run: |
           set -e
           echo "Desk sports: angle-gap JSON writer, 24h source max-age"
-          echo "Every eligible story is written. Skip only if older than 24h or unusable."
           test -f scripts/zandani_writer_prompt.txt
           python scripts/enforce_writer_contract.py
 
