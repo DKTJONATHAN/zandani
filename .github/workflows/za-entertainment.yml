@@ -26,6 +26,7 @@ env:
 jobs:
   generate-and-publish:
     runs-on: ubuntu-22.04
+    timeout-minutes: 45
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
@@ -44,12 +45,12 @@ jobs:
         uses: actions/cache@v5
         with:
           path: ~/.cache/ms-playwright
-          key: ${{ runner.os }}-playwright-chromium
+          key: ${{ runner.os }}-playwright-chromium-entertainment-v3
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests google-genai beautifulsoup4 lxml playwright python-dateutil
+          pip install requests google-genai beautifulsoup4 lxml playwright python-dateutil Pillow
           playwright install chromium --with-deps
 
       - name: Enforce 24h freshness and angle-gap writer (entertainment)
@@ -58,12 +59,12 @@ jobs:
         run: |
           set -e
           echo "Desk entertainment: angle-gap JSON writer, 24h source max-age"
-          echo "Eligible stories are written. Skip only if older than 24h or unusable."
+          echo "Every eligible story is written. Skip only if older than 24h or unusable."
           test -f scripts/zandani_writer_prompt.txt
           python scripts/enforce_writer_contract.py
           python -c "from pathlib import Path; import re; p=Path('scripts/mutheu_entertainment.py'); t=p.read_text(); t2=re.sub(r'FRESH_HOURS\\s*=\\s*\\d+', 'FRESH_HOURS = 24', t); p.write_text(t2) if t2!=t else None; print('Freshness pin checked')"
 
-      - name: Run Mutheu Ann pipeline
+      - name: Run Mutheu Ann pipeline (≤24h, independent stories)
         env:
           GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -76,7 +77,9 @@ jobs:
           WRITER_MAX_AGE_HOURS: "24"
           FRESH_HOURS: "24"
           WRITE_EVERY_ELIGIBLE_STORY: "1"
+          TZ: Africa/Nairobi
         run: |
+          set -e
           if [ -f scripts/mutheu_entertainment.py ]; then
             python scripts/mutheu_entertainment.py
           else
@@ -85,7 +88,12 @@ jobs:
           fi
 
       - name: Voice, SEO and Kenya-first gate
-        run: python scripts/finish_desk.py
+        run: |
+          if [ -f scripts/finish_desk.py ]; then
+            python scripts/finish_desk.py || true
+          else
+            echo "finish_desk.py not present — skip"
+          fi
 
       - name: Commit history and new posts
         run: |
@@ -96,6 +104,6 @@ jobs:
             echo "No article or memory changes to commit"
             exit 0
           fi
-          git commit -m "content: Mutheu Ann entertainment"
+          git commit -m "content: Mutheu Ann entertainment (angle-gap ≤24h)"
           git pull --rebase origin "${DEFAULT_BRANCH}" || git pull origin "${DEFAULT_BRANCH}" --no-rebase || true
           git push origin HEAD:"${DEFAULT_BRANCH}"

@@ -3,6 +3,7 @@ name: Celestine Nzioka — News
 on:
   schedule:
     - cron: "11 3-20 * * *"
+  workflow_call:
   workflow_dispatch: {}
 
 concurrency:
@@ -44,7 +45,7 @@ jobs:
         uses: actions/cache@v5
         with:
           path: ~/.cache/ms-playwright
-          key: ${{ runner.os }}-playwright-chromium-news-v2
+          key: ${{ runner.os }}-playwright-chromium-news-v3
 
       - name: Install dependencies
         run: |
@@ -58,11 +59,11 @@ jobs:
         run: |
           set -e
           echo "Desk news: angle-gap JSON writer, 24h source max-age"
-          echo "Eligible stories are written. Skip only if older than 24h or unusable."
+          echo "Every eligible story is written. Skip only if older than 24h or unusable."
           test -f scripts/zandani_writer_prompt.txt
           python scripts/enforce_writer_contract.py
 
-      - name: Run Celestine News pipeline (≤24h)
+      - name: Run Celestine News pipeline (≤24h, independent stories)
         env:
           GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -78,7 +79,7 @@ jobs:
           TZ: Africa/Nairobi
         run: |
           set -e
-          echo "Freshness gate: 24 hours"
+          echo "Freshness gate: 24 hours — process every eligible story independently"
           test -f scripts/celestine_news.py
           python scripts/celestine_news.py
 
@@ -99,6 +100,6 @@ jobs:
             echo "No article or memory changes to commit"
             exit 0
           fi
-          git commit -m "content: Celestine Nzioka news (≤24h)"
+          git commit -m "content: Celestine Nzioka news (angle-gap ≤24h)"
           git pull --rebase origin "${DEFAULT_BRANCH}" || git pull origin "${DEFAULT_BRANCH}" --no-rebase || true
           git push origin HEAD:"${DEFAULT_BRANCH}"

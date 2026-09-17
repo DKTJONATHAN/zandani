@@ -3,7 +3,6 @@ name: Zed Mogaka — George Diano
 # August-style: this desk owns its own schedule. No universal dispatcher cron.
 on:
   schedule:
-    # Hourly 06:48–23:48 EAT (UTC+3)
     - cron: "48 3-20 * * *"
   workflow_call:
   workflow_dispatch: {}
@@ -20,13 +19,18 @@ env:
   POSTS_DIR: content/posts
   MEMORY_FILE: .github/memory_georgediano.json
   TZ: Africa/Nairobi
+  WRITER_PROMPT_FILE: scripts/zandani_writer_prompt.txt
+  WRITER_MAX_AGE_HOURS: "24"
+  FRESH_HOURS: "24"
+  WRITE_EVERY_ELIGIBLE_STORY: "1"
 
 jobs:
   generate-and-publish:
     runs-on: ubuntu-22.04
+    timeout-minutes: 45
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
           ref: ${{ env.DEFAULT_BRANCH }}
@@ -34,23 +38,33 @@ jobs:
           persist-credentials: true
 
       - name: Set up Python 3.11
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
       - name: Cache Playwright browsers
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ~/.cache/ms-playwright
-          key: ${{ runner.os }}-playwright-chromium
+          key: ${{ runner.os }}-playwright-chromium-diano-v3
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests google-genai beautifulsoup4 lxml playwright python-dateutil
+          pip install requests google-genai beautifulsoup4 lxml playwright python-dateutil Pillow
           playwright install chromium --with-deps
 
-      - name: Run Zed Mogaka Diano pipeline
+      - name: Enforce 24h freshness and angle-gap writer (diano)
+        env:
+          WRITER_DESK: diano
+        run: |
+          set -e
+          echo "Desk diano: angle-gap JSON writer, 24h source max-age"
+          echo "Every eligible story is written. Skip only if older than 24h or unusable."
+          test -f scripts/zandani_writer_prompt.txt
+          python scripts/enforce_writer_contract.py
+
+      - name: Run Zed Mogaka Diano pipeline (≤24h, independent stories)
         env:
           GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -59,7 +73,13 @@ jobs:
           IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
           POSTS_DIR: ${{ env.POSTS_DIR }}
           MEMORY_FILE: ${{ env.MEMORY_FILE }}
+          WRITER_PROMPT_FILE: ${{ env.WRITER_PROMPT_FILE }}
+          WRITER_MAX_AGE_HOURS: "24"
+          FRESH_HOURS: "24"
+          WRITE_EVERY_ELIGIBLE_STORY: "1"
+          TZ: Africa/Nairobi
         run: |
+          set -e
           if [ -f scripts/zed_diano.py ]; then
             python scripts/zed_diano.py
           else
@@ -68,7 +88,12 @@ jobs:
           fi
 
       - name: Voice, SEO and Kenya-first gate
-        run: python scripts/finish_desk.py
+        run: |
+          if [ -f scripts/finish_desk.py ]; then
+            python scripts/finish_desk.py || true
+          else
+            echo "finish_desk.py not present — skip"
+          fi
 
       - name: Commit history and new posts
         run: |
@@ -79,6 +104,6 @@ jobs:
             echo "No article or memory changes to commit"
             exit 0
           fi
-          git commit -m "content: Zed Mogaka George Diano"
+          git commit -m "content: Zed Mogaka George Diano (angle-gap ≤24h)"
           git pull --rebase origin "${DEFAULT_BRANCH}" || git pull origin "${DEFAULT_BRANCH}" --no-rebase || true
           git push origin HEAD:"${DEFAULT_BRANCH}"

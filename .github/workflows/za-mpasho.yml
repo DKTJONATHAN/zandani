@@ -2,10 +2,8 @@ name: Martin Kihara — Mpasho / Showbiz
 
 on:
   schedule:
-    # Hourly in Kenyan time (EAT = UTC+3 / Africa/Nairobi)
-    # Runs at the top of every EAT hour: 00:00, 01:00, … 23:00 EAT
-    # GitHub cron is UTC → 21,22,23,0,1,…20 UTC maps to those EAT hours
     - cron: "0 * * * *"
+  workflow_call:
   workflow_dispatch: {}
 
 concurrency:
@@ -20,6 +18,10 @@ env:
   POSTS_DIR: content/posts
   MEMORY_FILE: .github/memory_martin_mpasho.json
   TZ: Africa/Nairobi
+  WRITER_PROMPT_FILE: scripts/zandani_writer_prompt.txt
+  WRITER_MAX_AGE_HOURS: "24"
+  FRESH_HOURS: "24"
+  WRITE_EVERY_ELIGIBLE_STORY: "1"
 
 jobs:
   generate-and-publish:
@@ -43,13 +45,23 @@ jobs:
         uses: actions/cache@v5
         with:
           path: ~/.cache/ms-playwright
-          key: ${{ runner.os }}-playwright-chromium-mpasho-v2
+          key: ${{ runner.os }}-playwright-chromium-mpasho-v3
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests google-genai beautifulsoup4 lxml playwright python-dateutil Pillow
           playwright install chromium --with-deps
+
+      - name: Enforce 24h freshness and angle-gap writer (mpasho)
+        env:
+          WRITER_DESK: mpasho
+        run: |
+          set -e
+          echo "Desk mpasho: angle-gap JSON writer, 24h source max-age"
+          echo "Every eligible story is written. Skip only if older than 24h or unusable."
+          test -f scripts/zandani_writer_prompt.txt
+          python scripts/enforce_writer_contract.py
 
       - name: Run Mpasho pipeline (landing → listings → full articles ≤24h)
         env:
@@ -59,27 +71,30 @@ jobs:
           IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
           POSTS_DIR: ${{ env.POSTS_DIR }}
           MEMORY_FILE: ${{ env.MEMORY_FILE }}
+          WRITER_PROMPT_FILE: ${{ env.WRITER_PROMPT_FILE }}
+          WRITER_MAX_AGE_HOURS: "24"
+          FRESH_HOURS: "24"
+          WRITE_EVERY_ELIGIBLE_STORY: "1"
           TZ: Africa/Nairobi
         run: |
           set -e
           echo "=== Mpasho scraper (Kenya / EAT) ==="
           date
           echo "Source: https://www.mpasho.co.ke/ (+ /entertainment /relationships /exclusives)"
-          echo "Freshness gate: 24 hours"
+          echo "Freshness gate: 24 hours — process every eligible story independently"
           if [ ! -f scripts/martin_mpasho.py ]; then
             echo "ERROR: scripts/martin_mpasho.py missing"
             exit 1
           fi
-          # Safety: force FRESH_HOURS=24 in case script was edited
           python - << 'CHK'
           from pathlib import Path
+          import re
           p = Path("scripts/martin_mpasho.py")
           t = p.read_text()
-          if "FRESH_HOURS = 24" not in t:
-              import re
-              t2 = re.sub(r"FRESH_HOURS\s*=\s*\d+", "FRESH_HOURS = 24", t)
-              if "FRESH_HOURS = 24" not in t2:
-                  t2 = t.replace("MAX_SCRAPE_TRIES = 12", "MAX_SCRAPE_TRIES = 12\nFRESH_HOURS = 24")
+          t2 = re.sub(r"FRESH_HOURS\s*=\s*\d+", "FRESH_HOURS = 24", t)
+          if "FRESH_HOURS = 24" not in t2:
+              t2 = t.replace("MAX_SCRAPE_TRIES = 12", "MAX_SCRAPE_TRIES = 12\nFRESH_HOURS = 24")
+          if t2 != t:
               p.write_text(t2)
               print("Patched FRESH_HOURS = 24 into scripts/martin_mpasho.py")
           else:
@@ -104,6 +119,6 @@ jobs:
             echo "No article or memory changes to commit"
             exit 0
           fi
-          git commit -m "content: Martin Kihara showbiz (Mpasho ≤24h)"
+          git commit -m "content: Martin Kihara showbiz (Mpasho angle-gap ≤24h)"
           git pull --rebase origin "${DEFAULT_BRANCH}" || git pull origin "${DEFAULT_BRANCH}" --no-rebase || true
           git push origin HEAD:"${DEFAULT_BRANCH}"
