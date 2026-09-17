@@ -14,23 +14,45 @@ except ImportError:
     _date_parser = None
 
 _STALE_YEAR_RE = re.compile(r"\b(19\d{2}|20\d{2})\b")
+_RELATIVE_AGE_RE = re.compile(
+    r"\b(\d{1,3})\s*(minute|min|hour|hr|h|day|d)s?\s+ago\b",
+    re.I,
+)
 
 
 def extract_published_dt(soup) -> Optional["_dt.datetime"]:
-    if soup is None or _date_parser is None:
+    if soup is None:
         return None
     candidates = []
-    for prop in ("article:published_time", "og:published_time", "article:modified_time"):
-        tag = soup.find("meta", property=prop)
+    for prop in (
+        "article:published_time",
+        "og:published_time",
+        "article:modified_time",
+        "og:updated_time",
+        "datePublished",
+        "dateModified",
+    ):
+        tag = soup.find("meta", property=prop) or soup.find("meta", attrs={"name": prop})
         if tag and tag.get("content"):
             candidates.append(tag["content"])
-    for name in ("date", "pubdate", "publish-date", "sailthru.date", "parsely-pub-date", "publishdate"):
+    for name in (
+        "date",
+        "pubdate",
+        "publish-date",
+        "publishdate",
+        "sailthru.date",
+        "parsely-pub-date",
+        "cXenseParse:recs:publishtime",
+        "DC.date.issued",
+    ):
         tag = soup.find("meta", attrs={"name": name})
         if tag and tag.get("content"):
             candidates.append(tag["content"])
-    time_tag = soup.find("time")
-    if time_tag and time_tag.get("datetime"):
-        candidates.append(time_tag["datetime"])
+    for time_tag in soup.find_all("time"):
+        if time_tag.get("datetime"):
+            candidates.append(time_tag["datetime"])
+        elif time_tag.get_text(strip=True):
+            candidates.append(time_tag.get_text(" ", strip=True))
     for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
         try:
             data = _json.loads(script.string or "")
@@ -38,11 +60,40 @@ def extract_published_dt(soup) -> Optional["_dt.datetime"]:
             continue
         items = data if isinstance(data, list) else [data]
         for item in items:
-            if isinstance(item, dict) and item.get("datePublished"):
-                candidates.append(item["datePublished"])
+            if not isinstance(item, dict):
+                continue
+            for key in ("datePublished", "dateModified", "uploadDate"):
+                if item.get(key):
+                    candidates.append(item[key])
+            graph = item.get("@graph")
+            if isinstance(graph, list):
+                for g in graph:
+                    if isinstance(g, dict):
+                        for key in ("datePublished", "dateModified"):
+                            if g.get(key):
+                                candidates.append(g[key])
+    # Relative ages in visible text ("3 hours ago")
+    try:
+        blob = soup.get_text(" ", strip=True)[:2500]
+        m = _RELATIVE_AGE_RE.search(blob)
+        if m:
+            n = int(m.group(1))
+            unit = m.group(2).lower()
+            now = _dt.datetime.now(_dt.timezone.utc)
+            if unit.startswith("m"):
+                return now - _dt.timedelta(minutes=n)
+            if unit.startswith("h"):
+                return now - _dt.timedelta(hours=n)
+            if unit.startswith("d"):
+                return now - _dt.timedelta(days=n)
+    except Exception:
+        pass
+
+    if _date_parser is None:
+        return None
     for raw in candidates:
         try:
-            pt = _date_parser.parse(raw)
+            pt = _date_parser.parse(str(raw), fuzzy=True)
             if pt.tzinfo is None:
                 pt = pt.replace(tzinfo=_dt.timezone.utc)
             return pt
@@ -52,9 +103,16 @@ def extract_published_dt(soup) -> Optional["_dt.datetime"]:
 
 
 def is_fresh_enough(soup, max_hours: int = 24):
+    """Return (fresh, age_hours). Prefer real timestamps; relative ages OK.
+
+    If no date signal at all, allow the story through with age=None and let
+    the model / body year checks drop true retros. Fail-closed only when we
+    *have* a date older than max_hours.
+    """
     pt = extract_published_dt(soup)
     if pt is None:
-        return False, None
+        # Unknown age — do not hard-skip (many EA outlets omit structured dates).
+        return True, None
     age_h = (_dt.datetime.now(_dt.timezone.utc) - pt).total_seconds() / 3600
     return age_h <= max_hours, age_h
 
@@ -82,7 +140,9 @@ BANNED_PHRASES = [
 
 KENYA_HINTS = re.compile(
     r"\b(kenya|kenyan|nairobi|mombasa|kisumu|nakuru|eldoret|ruto|gachagua|raila|"
-    r"safaricom|m-?pesa|iebc|odm|uda|azimio|westlands|kasarani|kiambu|kakamega)\b",
+    r"safaricom|m-?pesa|iebc|odm|uda|azimio|westlands|kasarani|kiambu|kakamega|"
+    r"tanzania|uganda|rwanda|burundi|ethiopia|somalia|sudan|eac|east africa|"
+    r"dar es salaam|kampala|kigali|addis|mogadishu|juba)\b",
     re.I,
 )
 
@@ -117,6 +177,7 @@ def kenya_score(text: str) -> int:
 
 def should_skip_story(text: str, category: str = "") -> bool:
     blob = text or ""
+    # Only skip when clearly foreign *and* zero regional/Kenya signal
     return kenya_score(blob) <= 0 and bool(FOREIGN_HINTS.search(blob))
 
 
