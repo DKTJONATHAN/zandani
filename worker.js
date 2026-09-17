@@ -176,15 +176,34 @@ async function writeGithubJson(env, path, obj, sha, message) {
 }
 
 async function dispatchWorkflow(env, workflowFile) {
-  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/${workflowFile}/dispatches`;
+  const headers = ghHeaders(env);
+  const listUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows?per_page=100`;
+  const list = await githubJson(listUrl, { headers });
+  const expectedPath = `.github/workflows/${workflowFile}`;
+  const workflows = Array.isArray(list.workflows) ? list.workflows : [];
+  const workflow = workflows.find((item) => String(item.path || "") === expectedPath);
+  if (!workflow?.id) {
+    return {
+      ok: false,
+      status: 404,
+      error: `Canonical workflow not found: ${expectedPath}`,
+    };
+  }
+
+  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/${workflow.id}/dispatches`;
   const res = await fetch(url, {
     method: "POST",
-    headers: ghHeaders(env),
+    headers,
     body: JSON.stringify({ ref: GITHUB_BRANCH }),
   });
-  if (res.status === 204 || res.ok) return { ok: true, status: res.status };
+  if (res.status === 204 || res.ok) return { ok: true, status: res.status, workflowId: workflow.id };
   const body = await res.json().catch(() => ({}));
-  return { ok: false, status: res.status, error: body.message || `GitHub ${res.status}` };
+  return {
+    ok: false,
+    status: res.status,
+    error: body.message || `GitHub ${res.status}`,
+    workflowId: workflow.id,
+  };
 }
 
 async function appendLog(env, entry) {
@@ -308,14 +327,7 @@ async function writeSubscribers(env, subscribers, sha, message) {
 }
 
 function welcomeHtml() {
-  return `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Za Ndani</title></head>
-<body style="margin:0;background:#050505;color:#f3ece2;font-family:Georgia,serif;">
-<div style="max-width:520px;margin:40px auto;padding:28px;background:#111;">
-<p style="color:#e85d04;font-size:11px;letter-spacing:.28em;font-weight:800;">YOU'RE ON THE LIST · EAT</p>
-<h1 style="font-size:28px;">The evening brief, every night at 7.</h1>
-<p style="color:#9a9388;font-family:Arial,sans-serif;font-size:14px;">Three Kenya-first stories. No Hollywood filler.</p>
-<a href="${SITE}" style="display:inline-block;background:#e85d04;color:#050505;padding:12px 18px;text-decoration:none;font-weight:800;font-size:12px;">OPEN ZA NDANI</a>
-</div></body></html>`;
+  return `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Za Ndani</title></head>\n<body style="margin:0;background:#050505;color:#f3ece2;font-family:Georgia,serif;">\n<div style="max-width:520px;margin:40px auto;padding:28px;background:#111;">\n<p style="color:#e85d04;font-size:11px;letter-spacing:.28em;font-weight:800;">YOU'RE ON THE LIST · EAT</p>\n<h1 style="font-size:28px;">The evening brief, every night at 7.</h1>\n<p style="color:#9a9388;font-family:Arial,sans-serif;font-size:14px;">Three Kenya-first stories. No Hollywood filler.</p>\n<a href="${SITE}" style="display:inline-block;background:#e85d04;color:#050505;padding:12px 18px;text-decoration:none;font-weight:800;font-size:12px;">OPEN ZA NDANI</a>\n</div></body></html>`;
 }
 
 async function sendWelcome(env, email) {
@@ -405,13 +417,7 @@ async function deactivate(env, email) {
 }
 
 function thanksPage() {
-  return `<!doctype html><html lang="en"><meta charset="utf-8"><title>Unsubscribed · Za Ndani</title>
-<body style="margin:0;background:#050505;color:#f3ece2;font-family:Georgia,serif;">
-<div style="max-width:420px;margin:64px auto;text-align:center;">
-<div style="height:3px;background:#e85d04;margin-bottom:28px;"></div>
-<h1>You're off the evening brief.</h1>
-<p style="color:#9a9388;font-family:Arial,sans-serif;font-size:14px;"><a href="${SITE}" style="color:#e85d04;">Back to Za Ndani</a></p>
-</div></body></html>`;
+  return `<!doctype html><html lang="en"><meta charset="utf-8"><title>Unsubscribed · Za Ndani</title>\n<body style="margin:0;background:#050505;color:#f3ece2;font-family:Georgia,serif;">\n<div style="max-width:420px;margin:64px auto;text-align:center;">\n<div style="height:3px;background:#e85d04;margin-bottom:28px;"></div>\n<h1>You're off the evening brief.</h1>\n<p style="color:#9a9388;font-family:Arial,sans-serif;font-size:14px;"><a href="${SITE}" style="color:#e85d04;">Back to Za Ndani</a></p>\n</div></body></html>`;
 }
 
 async function handleUnsubscribe(request, env) {
