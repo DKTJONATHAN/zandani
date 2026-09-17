@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-17T18:00:37.214Z",
+  "updated": "2026-09-17T19:00:29.331Z",
   "logs": [
+    {
+      "id": "news-1789671629037",
+      "desk": "news",
+      "scheduledFor": "2026-09-17 22:00:26",
+      "dispatchedAt": "2026-09-17T19:00:26.679Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "sports-1789668036325",
       "desk": "sports",
