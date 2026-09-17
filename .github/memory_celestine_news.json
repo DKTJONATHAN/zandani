@@ -570,10 +570,10 @@
     "66b3a71e821d1e09b2562705fefa3ce1",
     "57f9496c8d3240d77d206f424e75b2c4",
     "3622ea3a378ea5d7b2f1c657c286e855",
-    "747f4f9cc5e3dd3ba125eb7c4bde4cea"
+    "747f4f9cc5e3dd3ba125eb7c4bde4cea",
+    "1268db71f3de28dc3c36134b2f50aaac"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -602,7 +602,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -757,7 +758,8 @@
     "https://kenyans.co.ke/news/127139-us-approves-ksh1-trillion-investment-package-expand-digital-infrastructure-africa",
     "https://kenyans.co.ke/news/127138-thousands-kenyans-unable-access-funds-after-investment-platform-freezes-withdrawals",
     "https://kenyans.co.ke/news/127144-roads-blocked-protests-erupt-isiolo-over-killing-5-people",
-    "https://kenyans.co.ke/news/127150-sakaja-warns-nairobi-businesses-against-using-middlemen-licences"
+    "https://kenyans.co.ke/news/127150-sakaja-warns-nairobi-businesses-against-using-middlemen-licences",
+    "https://kenyans.co.ke/news/127148-govt-projects-face-uncertainty-high-court-declares-sections-ppp-act-unconstitutional"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -834,7 +836,8 @@
     "digital infrastructure funding collides metered billing debate",
     "unlicensed investment freeze exposes regulatory gaps debt exposure among public servants",
     "isiolo highway blockade exposes burning anger unchecked domestic banditry",
-    "nairobi sets day clock enforcement overhaul cut out impostors permit brokers"
+    "nairobi sets day clock enforcement overhaul cut out impostors permit brokers",
+    "parliament faces six month clock overhaul ppp law high court oversight ruling"
   ],
   "topic_keys": [
     "news tracker",
