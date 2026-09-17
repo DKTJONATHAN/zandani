@@ -566,10 +566,10 @@
     "fb30e458cd520d71c3977646a54b41e1",
     "e0bd5f5d728731ff65da3a78f265cfc7",
     "16aebe109b1e26b1b1b5a3db6c987003",
-    "ac9f08209c39b29b54a68d6f30cb431e"
+    "ac9f08209c39b29b54a68d6f30cb431e",
+    "66b3a71e821d1e09b2562705fefa3ce1"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -598,7 +598,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -749,7 +750,8 @@
     "https://kenyans.co.ke/news/127122-ageyo-kitili-smart-get-new-roles-nation-media-reshuffles-editors",
     "https://kenyans.co.ke/news/127120-court-appeal-bars-kra-delaying-tax-decisions-over-pending-cases",
     "https://kenyans.co.ke/news/127119-kra-uncovers-hidden-chamber-manufacturing-illicit-beverages-during-north-rift",
-    "https://kenyans.co.ke/news/127136-ig-douglas-kanja-face-sentencing-over-nairobi-road-barricades"
+    "https://kenyans.co.ke/news/127136-ig-douglas-kanja-face-sentencing-over-nairobi-road-barricades",
+    "https://kenyans.co.ke/news/127139-us-approves-ksh1-trillion-investment-package-expand-digital-infrastructure-africa"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -822,7 +824,8 @@
     "ageyo kitili smart get roles nation media reshuffles editors",
     "court appeal rebukes kra administrative stalls sends ksh168 million vat refund battle back high court",
     "baringo underground chamber exposes shifting tactics illicit ethanol trade",
-    "high court rejection police defense strategy leaves top command exposed court directives"
+    "high court rejection police defense strategy leaves top command exposed court directives",
+    "digital infrastructure funding collides metered billing debate"
   ],
   "topic_keys": [
     "news tracker",
