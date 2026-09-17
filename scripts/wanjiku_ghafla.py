@@ -24,7 +24,7 @@ POSTS_DIR = os.environ.get("POSTS_DIR", "content/posts")
 MEMORY_FILE = os.environ.get("MEMORY_FILE", ".github/memory_wanjiku.json")
 MAX_CANDIDATES = 25
 MAX_SCRAPE_TRIES = 10
-FRESH_HOURS = 12
+FRESH_HOURS = 24
 
 MODELS_TO_TRY = [
     "gemini-2.5-pro",

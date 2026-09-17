@@ -23,7 +23,7 @@ POSTS_DIR = os.environ.get("POSTS_DIR", "content/posts")
 MEMORY_FILE = os.environ.get("MEMORY_FILE", ".github/memory_celestine_news.json")
 MAX_CANDIDATES = 20
 MAX_SCRAPE_TRIES = 8
-FRESH_HOURS = 18
+FRESH_HOURS = 24
 
 MODELS_TO_TRY = [
     "gemini-3.8-flash", "gemini-3.7-flash", "gemini-3.6-flash", "gemini-3.5-flash",
