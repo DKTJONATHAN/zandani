@@ -1,0 +1,70 @@
+name: Deploy Za Ndani to Cloudflare
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "docs/**"
+      - "README.md"
+      - "LICENSE"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: zandani-cloudflare-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Validate canonical desk workflows
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import path from 'node:path';
+
+          const required = [
+            'za-news.yml', 'za-africa.yml', 'za-agriculture.yml', 'za-diano.yml',
+            'za-jaj.yml', 'za-sports.yml', 'za-business.yml', 'za-technology.yml',
+            'za-opinions.yml', 'za-entertainment.yml', 'za-mpasho.yml',
+            'za-lifestyle.yml', 'za-ghafla.yml'
+          ];
+          const root = '.github/workflows';
+          const missing = [];
+          const invalid = [];
+          for (const file of required) {
+            const full = path.join(root, file);
+            if (!fs.existsSync(full)) { missing.push(file); continue; }
+            const text = fs.readFileSync(full, 'utf8');
+            if (!/workflow_dispatch\s*:/.test(text)) invalid.push(`${file}: missing workflow_dispatch`);
+            if (!/workflow_call\s*:/.test(text)) invalid.push(`${file}: missing workflow_call`);
+          }
+          if (missing.length || invalid.length) {
+            throw new Error([...missing.map(x => `missing ${x}`), ...invalid].join('\n'));
+          }
+          console.log(`Canonical desk workflow contract OK: ${required.length} workflows.`);
+          NODE
+
+      - name: Build production assets
+        run: bun run build
+
+      - name: Deploy Worker and assets
+        run: bunx wrangler deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
