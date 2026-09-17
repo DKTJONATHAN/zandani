@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T15:24:39.320Z",
+  "updated": "2026-09-17T15:30:28.048Z",
   "desks": {
     "news": {
       "lastTriggeredAt": "2026-09-17T15:00:27.261Z",
@@ -16,9 +16,9 @@
       "lastSlot": "2026-09-17T15:00"
     },
     "business": {
-      "lastTriggeredAt": "2026-09-17T10:30:40.020Z",
-      "lastStatus": "ok",
-      "lastError": null,
+      "lastTriggeredAt": "2026-09-17T15:30:25.384Z",
+      "lastStatus": "failed",
+      "lastError": "Workflow does not have 'workflow_dispatch' trigger",
       "lastSource": "cron",
       "lastSlot": "2026-09-17T12:18"
     },
