@@ -1,57 +1,54 @@
-# Trailing slashes: permanent 301s (Cloudflare default 307 is a GSC redirect error).
-/article/:slug/ https://zandani.co.ke/article/:slug 301
-/tag/:slug/ https://zandani.co.ke/tag/:slug 301
-/author/:slug/ https://zandani.co.ke/author/:slug 301
-/news/ https://zandani.co.ke/news 301
-/entertainment/ https://zandani.co.ke/entertainment 301
-/sports/ https://zandani.co.ke/sports 301
-/business/ https://zandani.co.ke/business 301
-/lifestyle/ https://zandani.co.ke/lifestyle 301
-/trending/ https://zandani.co.ke/trending 301
-/about/ https://zandani.co.ke/about 301
-/contact/ https://zandani.co.ke/contact 301
-/privacy/ https://zandani.co.ke/privacy 301
-/terms/ https://zandani.co.ke/terms 301
-/ethics/ https://zandani.co.ke/ethics 301
-/corrections/ https://zandani.co.ke/corrections 301
-/authors/ https://zandani.co.ke/authors 301
-/podcast/ https://zandani.co.ke/podcast 301
-/tv/ https://zandani.co.ke/tv 301
-/live/ https://zandani.co.ke/live 301
+# Trailing slashes: permanent 301s (Cloudflare Workers requires relative URLs).
+/article/:slug/ /article/:slug 301
+/tag/:slug/ /tag/:slug 301
+/author/:slug/ /author/:slug 301
+/news/ /news 301
+/entertainment/ /entertainment 301
+/sports/ /sports 301
+/business/ /business 301
+/lifestyle/ /lifestyle 301
+/trending/ /trending 301
+/about/ /about 301
+/contact/ /contact 301
+/privacy/ /privacy 301
+/terms/ /terms 301
+/ethics/ /ethics 301
+/corrections/ /corrections 301
+/authors/ /authors 301
+/podcast/ /podcast 301
+/tv/ /tv 301
+/live/ /live 301
 
 # One URL per desk — /category/* is a duplicate of the section pages.
-/category/news https://zandani.co.ke/news 301
-/category/news/ https://zandani.co.ke/news 301
-/category/politics https://zandani.co.ke/news 301
-/category/politics/ https://zandani.co.ke/news 301
-/category/opinions https://zandani.co.ke/news 301
-/category/opinions/ https://zandani.co.ke/news 301
-/category/showbiz https://zandani.co.ke/entertainment 301
-/category/showbiz/ https://zandani.co.ke/entertainment 301
-/category/entertainment https://zandani.co.ke/entertainment 301
-/category/entertainment/ https://zandani.co.ke/entertainment 301
-/category/gossip https://zandani.co.ke/entertainment 301
-/category/gossip/ https://zandani.co.ke/entertainment 301
-/category/sports https://zandani.co.ke/sports 301
-/category/sports/ https://zandani.co.ke/sports 301
-/category/business https://zandani.co.ke/business 301
-/category/business/ https://zandani.co.ke/business 301
-/category/lifestyle https://zandani.co.ke/lifestyle 301
-/category/lifestyle/ https://zandani.co.ke/lifestyle 301
-/category/:slug https://zandani.co.ke/news 301
-/category/:slug/ https://zandani.co.ke/news 301
+/category/news /news 301
+/category/news/ /news 301
+/category/politics /news 301
+/category/politics/ /news 301
+/category/opinions /news 301
+/category/opinions/ /news 301
+/category/showbiz /entertainment 301
+/category/showbiz/ /entertainment 301
+/category/entertainment /entertainment 301
+/category/entertainment/ /entertainment 301
+/category/gossip /entertainment 301
+/category/gossip/ /entertainment 301
+/category/sports /sports 301
+/category/sports/ /sports 301
+/category/business /business 301
+/category/business/ /business 301
+/category/lifestyle /lifestyle 301
+/category/lifestyle/ /lifestyle 301
+/category/:slug /news 301
+/category/:slug/ /news 301
 
 # Duplicate policy URL
-/privacy-policy https://zandani.co.ke/privacy 301
-/privacy-policy/ https://zandani.co.ke/privacy 301
+/privacy-policy /privacy 301
+/privacy-policy/ /privacy 301
 
 # Feeds
-/rss.xml https://zandani.co.ke/feed.xml 301
-/rss https://zandani.co.ke/feed.xml 301
-
-# www → apex if that hostname is ever pointed here
-https://www.zandani.co.ke/* https://zandani.co.ke/:splat 301
+/rss.xml /feed.xml 301
+/rss /feed.xml 301
 
 # Old slugs whose targets 404'd
-/article/2026-04-24-airtel-kenya-earn-ksh100-per-referral-on-myairtel-app https://zandani.co.ke/news 301
-/article/2026-04-29-george-clooney-reacts-to-his-lake-como-villa-appearing-in-the-devil- https://zandani.co.ke/entertainment 301
+/article/2026-04-24-airtel-kenya-earn-ksh100-per-referral-on-myairtel-app /news 301
+/article/2026-04-29-george-clooney-reacts-to-his-lake-como-villa-appearing-in-the-devil- /entertainment 301
