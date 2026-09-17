@@ -1,20 +1,20 @@
 ---
 title: "Magix Enga Confirms Split Weeks After Defending Marriage Against Online Critics"
-slug: "magix-enga-confirms-split-weeks-after-defending-marriage-against-online-critics"
+slug: "magix-enga-confirms-split-weeks-after-defending-marriage-against-onlin"
 description: "Music producer Magix Enga has confirmed he is single, ending a brief marriage to his wife, Jojo, that was characterized by public defiance against rumors."
 excerpt: "Music producer Magix Enga has confirmed he is single, ending a brief marriage to his wife, Jojo, that was characterized by public defiance against rumors."
-date: 2026-09-17T14:21:39Z
-dateModified: 2026-09-17T14:21:39Z
 author: "Martin Kihara"
-category: "Showbiz"
-county: "Nakuru"
 image: "https://i.ibb.co/j938d6Zq/16a0d233c19d.webp"
-readTime: 3
+category: "Showbiz"
+date: "2026-09-17T14:21:39Z"
+dateModified: "2026-09-17T14:21:39Z"
+focusKeyword: "magix enga confirms split weeks after"
+schema: "NewsArticle"
+county: "Nakuru"
+readTime: "3"
 source: "https://www.mpasho.co.ke/entertainment/2026-09-17-magix-enga-announces-split-from-new-wife"
 stylePreset: "Event Report"
-schema: "NewsArticle"
 ---
-
 Music producer Magix Enga has confirmed he is single, ending a brief marriage to his wife, Jojo, that was characterized by public defiance against rumors of instability.
 
 The announcement, made via a video shared on Thursday, September 17, represents a swift pivot for the producer. Only two weeks ago, on September 3, Enga was actively shielding Jojo from social media criticism. At that time, he labeled critics as hypocrites, claiming that individuals who insulted his wife in public were the same ones privately soliciting him for financial help.
