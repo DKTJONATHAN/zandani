@@ -5,9 +5,28 @@ const GITHUB_OWNER = "DKTJONATHAN";
 const GITHUB_REPO = "zandani";
 const GITHUB_BRANCH = "main";
 const SUBS_PATH = "data/subscribers.json";
+const SCHED_STATE_PATH = "data/scheduler-state.json";
+const SCHED_LOG_PATH = "data/scheduler-log.json";
 const RESEND = "https://api.resend.com";
 const SITE = "https://zandani.co.ke";
 const FROM_DEFAULT = "Za Ndani <onboarding@resend.dev>";
+const TZ = "Africa/Nairobi";
+
+const DESKS = {
+  news: { label: "News", workflow: "za-news.yml", cron: "0 * * * *", cadence: "every hour" },
+  sports: { label: "Sports", workflow: "za-sports.yml", cron: "0 * * * *", cadence: "every hour" },
+  business: { label: "Business", workflow: "za-business.yml", cron: "0 * * * *", cadence: "every hour" },
+  africa: { label: "East Africa", workflow: "za-africa.yml", cron: "0 * * * *", cadence: "every hour" },
+  agriculture: { label: "Agriculture", workflow: "za-agriculture.yml", cron: "0 * * * *", cadence: "every hour" },
+  technology: { label: "Technology", workflow: "za-technology.yml", cron: "0 * * * *", cadence: "every hour" },
+  opinions: { label: "Opinions", workflow: "za-opinions.yml", cron: "0 * * * *", cadence: "every hour" },
+  diano: { label: "George Diano", workflow: "za-diano.yml", cron: "0 * * * *", cadence: "every hour" },
+  jaj: { label: "Jaj", workflow: "za-jaj.yml", cron: "0 * * * *", cadence: "every hour" },
+  entertainment: { label: "Entertainment", workflow: "za-entertainment.yml", cron: "0 */2 * * *", cadence: "every 2 hours" },
+  mpasho: { label: "Mpasho", workflow: "za-mpasho.yml", cron: "0 */2 * * *", cadence: "every 2 hours" },
+  lifestyle: { label: "Lifestyle", workflow: "za-lifestyle.yml", cron: "0 */2 * * *", cadence: "every 2 hours" },
+  ghafla: { label: "Ghafla", workflow: "za-ghafla.yml", cron: "0 */2 * * *", cadence: "every 2 hours" },
+};
 
 function validEmail(raw) {
   const email = String(raw || "").trim().toLowerCase();
@@ -48,7 +67,6 @@ function fromBase64(b64) {
 
 function ghHeaders(env) {
   let token = String(env.PERSONAL_GITHUB_TOKEN || "").trim();
-  // Allow accidental "Bearer xxx" paste
   if (/^bearer\s+/i.test(token)) token = token.replace(/^bearer\s+/i, "").trim();
   if (!token) {
     const err = new Error("PERSONAL_GITHUB_TOKEN is not configured");
@@ -60,7 +78,7 @@ function ghHeaders(env) {
     Accept: "application/vnd.github+json",
     "X-GitHub-Api-Version": "2022-11-28",
     "Content-Type": "application/json",
-    "User-Agent": "zandani-subscribe",
+    "User-Agent": "zandani-worker",
   };
 }
 
@@ -78,6 +96,191 @@ async function githubJson(url, init) {
     throw err;
   }
   return body;
+}
+
+function nairobiParts(date = new Date()) {
+  const fmt = new Intl.DateTimeFormat("en-GB", {
+    timeZone: TZ,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: false,
+    weekday: "short",
+  });
+  const map = {};
+  for (const p of fmt.formatToParts(date)) {
+    if (p.type !== "literal") map[p.type] = p.value;
+  }
+  const hour = Number(map.hour);
+  const minute = Number(map.minute);
+  const dowMap = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 };
+  return {
+    year: Number(map.year),
+    month: Number(map.month),
+    day: Number(map.day),
+    hour,
+    minute,
+    second: Number(map.second),
+    dow: dowMap[map.weekday] ?? 0,
+    display: `${map.year}-${map.month}-${map.day} ${map.hour}:${map.minute}:${map.second}`,
+    slotKey: `${map.year}-${map.month}-${map.day}T${map.hour}:${map.minute}`,
+  };
+}
+
+function cronMatches(expr, parts) {
+  const fields = String(expr || "").trim().split(/\s+/);
+  if (fields.length !== 5) return false;
+  const [minF, hourF] = fields;
+  const matchField = (field, value) => {
+    if (field === "*") return true;
+    if (field.startsWith("*/")) {
+      const step = Number(field.slice(2));
+      return Number.isFinite(step) && step > 0 && value % step === 0;
+    }
+    return field.split(",").some((tok) => Number(tok) === value);
+  };
+  return matchField(minF, parts.minute) && matchField(hourF, parts.hour);
+}
+
+function nextRunIso(cron, from = new Date()) {
+  for (let i = 1; i <= 48 * 60; i += 1) {
+    const d = new Date(from.getTime() + i * 60_000);
+    if (cronMatches(cron, nairobiParts(d))) return d.toISOString();
+  }
+  return null;
+}
+
+async function readGithubJson(env, path) {
+  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}?ref=${GITHUB_BRANCH}`;
+  try {
+    const data = await githubJson(url, { headers: ghHeaders(env) });
+    return { sha: data.sha, data: JSON.parse(fromBase64(data.content)) };
+  } catch (e) {
+    if (e.status === 404) return { sha: null, data: null };
+    throw e;
+  }
+}
+
+async function writeGithubJson(env, path, obj, sha, message) {
+  const payload = {
+    message,
+    branch: GITHUB_BRANCH,
+    content: toBase64(JSON.stringify(obj, null, 2) + "\n"),
+  };
+  if (sha) payload.sha = sha;
+  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`;
+  return githubJson(url, { method: "PUT", headers: ghHeaders(env), body: JSON.stringify(payload) });
+}
+
+async function dispatchWorkflow(env, workflowFile) {
+  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/${workflowFile}/dispatches`;
+  const res = await fetch(url, {
+    method: "POST",
+    headers: ghHeaders(env),
+    body: JSON.stringify({ ref: GITHUB_BRANCH }),
+  });
+  if (res.status === 204 || res.ok) return { ok: true, status: res.status };
+  const body = await res.json().catch(() => ({}));
+  return { ok: false, status: res.status, error: body.message || `GitHub ${res.status}` };
+}
+
+async function appendLog(env, entry) {
+  let sha = null;
+  let logs = [];
+  try {
+    const cur = await readGithubJson(env, SCHED_LOG_PATH);
+    sha = cur.sha;
+    logs = Array.isArray(cur.data?.logs) ? cur.data.logs : [];
+  } catch (e) {
+    console.error("read log", e);
+  }
+  logs.unshift(entry);
+  logs = logs.slice(0, 200);
+  try {
+    await writeGithubJson(env, SCHED_LOG_PATH, { updated: new Date().toISOString(), logs }, sha, "scheduler: append dispatch log");
+  } catch (e) {
+    if (e.status === 409 || e.status === 422) {
+      const cur = await readGithubJson(env, SCHED_LOG_PATH);
+      const merged = [entry, ...(Array.isArray(cur.data?.logs) ? cur.data.logs : [])].slice(0, 200);
+      await writeGithubJson(env, SCHED_LOG_PATH, { updated: new Date().toISOString(), logs: merged }, cur.sha, "scheduler: append dispatch log (retry)");
+    } else console.error("write log", e);
+  }
+}
+
+async function updateDeskState(env, deskId, patch) {
+  let sha = null;
+  let state = { desks: {} };
+  try {
+    const cur = await readGithubJson(env, SCHED_STATE_PATH);
+    sha = cur.sha;
+    state = cur.data && typeof cur.data === "object" ? cur.data : { desks: {} };
+    if (!state.desks) state.desks = {};
+  } catch (e) {
+    console.error("read state", e);
+  }
+  state.desks[deskId] = { ...(state.desks[deskId] || {}), ...patch };
+  state.updated = new Date().toISOString();
+  try {
+    await writeGithubJson(env, SCHED_STATE_PATH, state, sha, `scheduler: state ${deskId}`);
+  } catch (e) {
+    console.error("write state", e);
+  }
+  return state;
+}
+
+async function triggerDesk(env, deskId, source = "cron", scheduledFor = null) {
+  const desk = DESKS[deskId];
+  if (!desk) return { ok: false, error: "Unknown desk" };
+  const dispatchedAt = new Date().toISOString();
+  const result = await dispatchWorkflow(env, desk.workflow);
+  const logEntry = {
+    id: `${deskId}-${Date.now()}`,
+    desk: deskId,
+    scheduledFor: scheduledFor || dispatchedAt,
+    dispatchedAt,
+    status: result.status ?? null,
+    ok: !!result.ok,
+    error: result.error || null,
+    source,
+  };
+  await appendLog(env, logEntry);
+  await updateDeskState(env, deskId, {
+    lastTriggeredAt: dispatchedAt,
+    lastStatus: result.ok ? "ok" : "failed",
+    lastError: result.error || null,
+    lastSource: source,
+  });
+  return { ...result, desk: deskId };
+}
+
+function useAdminScheduler(env) {
+  const flag = String(env.USE_ADMIN_SCHEDULER ?? "true").toLowerCase();
+  return flag !== "false" && flag !== "0" && flag !== "off";
+}
+
+async function runDueDesks(env) {
+  if (!useAdminScheduler(env)) return { triggered: [], skipped: true };
+  const parts = nairobiParts();
+  if (parts.minute !== 0) return { triggered: [], minute: parts.minute };
+  let state = { desks: {} };
+  try {
+    const cur = await readGithubJson(env, SCHED_STATE_PATH);
+    state = cur.data || { desks: {} };
+  } catch (_) {}
+  const triggered = [];
+  for (const [id, desk] of Object.entries(DESKS)) {
+    if (!cronMatches(desk.cron, parts)) continue;
+    const slot = parts.slotKey;
+    const lastSlot = state.desks?.[id]?.lastSlot;
+    if (lastSlot === slot) continue;
+    const res = await triggerDesk(env, id, "cron", parts.display);
+    await updateDeskState(env, id, { lastSlot: slot });
+    if (res.ok) triggered.push(id);
+  }
+  return { triggered, now: parts.display };
 }
 
 async function readSubscribers(env) {
@@ -98,60 +301,22 @@ async function writeSubscribers(env, subscribers, sha, message) {
   const payload = {
     message,
     branch: GITHUB_BRANCH,
-    content: toBase64(
-      JSON.stringify({ updated: new Date().toISOString(), subscribers }, null, 2) + "\n"
-    ),
+    content: toBase64(JSON.stringify({ updated: new Date().toISOString(), subscribers }, null, 2) + "\n"),
   };
   if (sha) payload.sha = sha;
   const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${SUBS_PATH}`;
-  return githubJson(url, {
-    method: "PUT",
-    headers: ghHeaders(env),
-    body: JSON.stringify(payload),
-  });
+  return githubJson(url, { method: "PUT", headers: ghHeaders(env), body: JSON.stringify(payload) });
 }
 
 function welcomeHtml() {
-  return `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>You're on the Za Ndani evening brief</title>
-</head>
-<body style="margin:0;padding:0;background:#050505;color:#f3ece2;">
-  <div style="display:none;max-height:0;overflow:hidden;opacity:0;">
-    You're on the list. Three Kenya-first stories every evening at 19:00 EAT.
-  </div>
-  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#050505;">
-    <tr>
-      <td align="center" style="padding:32px 16px;">
-        <table role="presentation" width="520" cellspacing="0" cellpadding="0" style="width:100%;max-width:520px;background:#111111;">
-          <tr><td style="height:3px;background:#e85d04;font-size:0;line-height:0;">&nbsp;</td></tr>
-          <tr>
-            <td style="padding:28px 28px 8px;">
-              <img src="${SITE}/logo.png" alt="Za Ndani" width="56" height="56" style="display:block;border:0;width:56px;height:56px;border-radius:4px;">
-              <p style="margin:18px 0 6px;font-size:11px;letter-spacing:0.28em;font-weight:800;color:#e85d04;font-family:Arial,Helvetica,sans-serif;">YOU'RE ON THE LIST · EAT</p>
-              <h1 style="margin:0 0 12px;font-size:30px;line-height:1.12;font-family:Georgia,'Times New Roman',serif;color:#f3ece2;font-weight:700;">The evening brief, every night at 7.</h1>
-              <p style="margin:0 0 22px;font-size:15px;line-height:1.65;color:#9a9388;font-family:Arial,Helvetica,sans-serif;">
-                Three Kenya-first stories. News, sport and the gossip desks. No Hollywood filler, no American morning.
-              </p>
-              <a href="${SITE}" style="display:inline-block;background:#e85d04;color:#050505;text-decoration:none;padding:13px 20px;font-weight:800;font-size:12px;letter-spacing:0.14em;font-family:Arial,Helvetica,sans-serif;">OPEN ZA NDANI</a>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding:28px;border-top:1px solid #262626;">
-              <p style="margin:0;font-size:11px;color:#6a655c;font-family:Arial,Helvetica,sans-serif;">
-                Za Ndani · Nairobi newsroom · <a href="${SITE}" style="color:#6a655c;">zandani.co.ke</a>
-              </p>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-</body>
-</html>`;
+  return `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Za Ndani</title></head>
+<body style="margin:0;background:#050505;color:#f3ece2;font-family:Georgia,serif;">
+<div style="max-width:520px;margin:40px auto;padding:28px;background:#111;">
+<p style="color:#e85d04;font-size:11px;letter-spacing:.28em;font-weight:800;">YOU'RE ON THE LIST · EAT</p>
+<h1 style="font-size:28px;">The evening brief, every night at 7.</h1>
+<p style="color:#9a9388;font-family:Arial,sans-serif;font-size:14px;">Three Kenya-first stories. No Hollywood filler.</p>
+<a href="${SITE}" style="display:inline-block;background:#e85d04;color:#050505;padding:12px 18px;text-decoration:none;font-weight:800;font-size:12px;">OPEN ZA NDANI</a>
+</div></body></html>`;
 }
 
 async function sendWelcome(env, email) {
@@ -160,16 +325,8 @@ async function sendWelcome(env, email) {
   const from = String(env.RESEND_FROM || "").trim() || FROM_DEFAULT;
   const res = await fetch(`${RESEND}/emails`, {
     method: "POST",
-    headers: {
-      Authorization: `Bearer ${key}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      from,
-      to: [email],
-      subject: "You're on the Za Ndani evening brief",
-      html: welcomeHtml(),
-    }),
+    headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json" },
+    body: JSON.stringify({ from, to: [email], subject: "You're on the Za Ndani evening brief", html: welcomeHtml() }),
   });
   const body = await res.json().catch(() => ({}));
   if (!res.ok) {
@@ -181,100 +338,39 @@ async function sendWelcome(env, email) {
 }
 
 async function handleSubscribe(request, env) {
-  if (request.method === "OPTIONS") {
-    return new Response(null, { status: 204, headers: corsHeaders() });
-  }
-  if (request.method !== "POST") {
-    return json({ error: "POST only" }, 405);
-  }
-
+  if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: corsHeaders() });
+  if (request.method !== "POST") return json({ error: "POST only" }, 405);
   try {
     let body;
-    try {
-      body = await request.json();
-    } catch {
-      return json({ error: "Enter a valid email." }, 400);
-    }
-
+    try { body = await request.json(); } catch { return json({ error: "Enter a valid email." }, 400); }
     const email = validEmail(body?.email);
     if (!email) return json({ error: "Enter a valid email." }, 400);
-
-    let saved = false;
-    let already = false;
+    let saved = false, already = false;
     for (let attempt = 0; attempt < 3; attempt += 1) {
       const current = await readSubscribers(env);
-      const existing = current.subscribers.find(
-        (row) => String(row.email || "").toLowerCase() === email
-      );
-      if (existing && existing.active !== false) {
-        already = true;
-        saved = true;
-        break;
-      }
+      const existing = current.subscribers.find((row) => String(row.email || "").toLowerCase() === email);
+      if (existing && existing.active !== false) { already = true; saved = true; break; }
       const next = existing
         ? current.subscribers.map((row) =>
             String(row.email || "").toLowerCase() === email
-              ? {
-                  ...row,
-                  active: true,
-                  subscribed_at: row.subscribed_at || new Date().toISOString(),
-                }
-              : row
-          )
-        : current.subscribers.concat([
-            { email, subscribed_at: new Date().toISOString(), active: true },
-          ]);
+              ? { ...row, active: true, subscribed_at: row.subscribed_at || new Date().toISOString() }
+              : row)
+        : current.subscribers.concat([{ email, subscribed_at: new Date().toISOString(), active: true }]);
       try {
-        await writeSubscribers(
-          env,
-          next,
-          current.sha,
-          existing ? "newsletter: reactivate subscriber" : "newsletter: new subscriber"
-        );
-        saved = true;
-        break;
+        await writeSubscribers(env, next, current.sha, existing ? "newsletter: reactivate subscriber" : "newsletter: new subscriber");
+        saved = true; break;
       } catch (e) {
         if (e.status === 409 || e.status === 422) continue;
         throw e;
       }
     }
-
-    if (!saved) {
-      return json({ error: "Could not save just then. Try once more." }, 409);
-    }
-
-    if (!already) {
-      try {
-        await sendWelcome(env, email);
-      } catch (mailErr) {
-        console.error("welcome mail", mailErr);
-      }
-    }
-
-    return json({
-      ok: true,
-      already,
-      message: already
-        ? "Already subscribed."
-        : "Subscribed. Watch your inbox tonight at 19:00 EAT.",
-    });
+    if (!saved) return json({ error: "Could not save just then. Try once more." }, 409);
+    if (!already) { try { await sendWelcome(env, email); } catch (mailErr) { console.error("welcome mail", mailErr); } }
+    return json({ ok: true, already, message: already ? "Already subscribed." : "Subscribed. Watch your inbox tonight at 19:00 EAT." });
   } catch (error) {
     console.error("subscribe", error);
     const status = error.status === 503 ? 503 : error.status === 401 || error.status === 403 ? 403 : 500;
-    const msg = String(error.message || "Could not subscribe. Try again.");
-    // Safe hints — never echo the token
-    let hint = msg;
-    if (status === 503) {
-      hint = "Add PERSONAL_GITHUB_TOKEN as a Worker secret on the zandani Worker.";
-    } else if (error.status === 401) {
-      hint = "GitHub token rejected (401). Recreate the PAT and set Worker secret PERSONAL_GITHUB_TOKEN again.";
-    } else if (error.status === 403) {
-      hint =
-        "GitHub token forbidden (403). Token needs Contents: Read and write on DKTJONATHAN/zandani (fine-grained) or repo scope (classic).";
-    } else if (error.status === 404) {
-      hint = "GitHub path not found. Check repo access for data/subscribers.json.";
-    }
-    return json({ error: hint, github_status: error.status || null }, status === 503 ? 503 : status === 403 ? 403 : 500);
+    return json({ error: String(error.message || "Could not subscribe."), github_status: error.status || null }, status);
   }
 }
 
@@ -298,14 +394,11 @@ async function deactivate(env, email) {
     message: "newsletter: unsubscribe",
     branch: GITHUB_BRANCH,
     sha: data.sha,
-    content: toBase64(
-      JSON.stringify({ updated: new Date().toISOString(), subscribers: next }, null, 2) + "\n"
-    ),
+    content: toBase64(JSON.stringify({ updated: new Date().toISOString(), subscribers: next }, null, 2) + "\n"),
   };
-  const put = await fetch(
-    `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${SUBS_PATH}`,
-    { method: "PUT", headers: ghHeaders(env), body: JSON.stringify(payload) }
-  );
+  const put = await fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${SUBS_PATH}`, {
+    method: "PUT", headers: ghHeaders(env), body: JSON.stringify(payload),
+  });
   if (!put.ok) {
     const body = await put.json().catch(() => ({}));
     throw new Error(body.message || "GitHub write failed");
@@ -313,91 +406,146 @@ async function deactivate(env, email) {
 }
 
 function thanksPage() {
-  return `<!doctype html>
-<html lang="en">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Unsubscribed · Za Ndani</title>
+  return `<!doctype html><html lang="en"><meta charset="utf-8"><title>Unsubscribed · Za Ndani</title>
 <body style="margin:0;background:#050505;color:#f3ece2;font-family:Georgia,serif;">
-  <table role="presentation" width="100%"><tr><td align="center" style="padding:64px 20px;">
-    <div style="height:3px;background:#e85d04;max-width:420px;margin:0 auto 28px;"></div>
-    <img src="${SITE}/logo.png" alt="Za Ndani" width="48" height="48" style="display:block;margin:0 auto 20px;border:0;">
-    <h1 style="margin:0 0 12px;font-size:28px;">You're off the evening brief.</h1>
-    <p style="color:#9a9388;font-family:Arial,Helvetica,sans-serif;font-size:14px;">
-      We will not mail this address again. <a href="${SITE}" style="color:#e85d04;">Back to Za Ndani</a>
-    </p>
-  </td></tr></table>
-</body>
-</html>`;
+<div style="max-width:420px;margin:64px auto;text-align:center;">
+<div style="height:3px;background:#e85d04;margin-bottom:28px;"></div>
+<h1>You're off the evening brief.</h1>
+<p style="color:#9a9388;font-family:Arial,sans-serif;font-size:14px;"><a href="${SITE}" style="color:#e85d04;">Back to Za Ndani</a></p>
+</div></body></html>`;
 }
 
 async function handleUnsubscribe(request, env) {
   const url = new URL(request.url);
   let email = validEmail(url.searchParams.get("email"));
   if (!email && request.method === "POST") {
-    try {
-      const body = await request.json();
-      email = validEmail(body?.email);
-    } catch {
-      /* ignore */
-    }
+    try { const body = await request.json(); email = validEmail(body?.email); } catch { /* */ }
   }
   if (!email) return json({ error: "Missing email" }, 400);
-
-  try {
-    await deactivate(env, email);
-  } catch (e) {
-    console.error("unsubscribe", e);
-  }
-
+  try { await deactivate(env, email); } catch (e) { console.error("unsubscribe", e); }
   if (request.method === "GET") {
-    return new Response(thanksPage(), {
-      status: 200,
-      headers: corsHeaders({ "Content-Type": "text/html; charset=utf-8" }),
-    });
+    return new Response(thanksPage(), { status: 200, headers: corsHeaders({ "Content-Type": "text/html; charset=utf-8" }) });
   }
   return json({ ok: true });
+}
+
+async function handleGithubApi(request, env) {
+  if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: corsHeaders() });
+  if (request.method !== "POST") return json({ error: "POST only" }, 405);
+  try {
+    const body = await request.json();
+    const action = body.action;
+    const path = body.path;
+    const base = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`;
+    if (action === "GET_SHA" || action === "GET_CONTENT") {
+      const data = await githubJson(`${base}?ref=${GITHUB_BRANCH}`, { headers: ghHeaders(env) });
+      return json({ sha: data.sha, content: data.content });
+    }
+    if (action === "PUSH") {
+      const payload = { message: body.message || "admin update", branch: GITHUB_BRANCH, content: body.content };
+      if (body.sha) payload.sha = body.sha;
+      const data = await githubJson(base, { method: "PUT", headers: ghHeaders(env), body: JSON.stringify(payload) });
+      return json({ ok: true, content: data.content });
+    }
+    if (action === "DELETE") {
+      const payload = { message: body.message || "admin delete", branch: GITHUB_BRANCH, sha: body.sha };
+      await githubJson(base, { method: "DELETE", headers: ghHeaders(env), body: JSON.stringify(payload) });
+      return json({ ok: true });
+    }
+    return json({ error: "Unknown action" }, 400);
+  } catch (e) {
+    return json({ error: e.message || "GitHub error" }, e.status || 500);
+  }
+}
+
+async function handleSchedulerStatus(env) {
+  const parts = nairobiParts();
+  let state = { desks: {} };
+  try {
+    const cur = await readGithubJson(env, SCHED_STATE_PATH);
+    state = cur.data || { desks: {} };
+  } catch (_) {}
+  const desks = Object.entries(DESKS).map(([id, d]) => {
+    const s = state.desks?.[id] || {};
+    return {
+      id,
+      label: d.label,
+      workflow: d.workflow,
+      cron: d.cron,
+      cadence: d.cadence,
+      lastTriggeredAt: s.lastTriggeredAt || null,
+      lastStatus: s.lastStatus || "never",
+      lastError: s.lastError || null,
+      nextRunAt: nextRunIso(d.cron),
+    };
+  });
+  return json({ nowNairobi: parts.display, timezone: TZ, useAdminScheduler: useAdminScheduler(env), desks });
+}
+
+async function handleSchedulerLogs(request, env) {
+  const url = new URL(request.url);
+  const limit = Math.min(200, Math.max(1, Number(url.searchParams.get("limit") || 50)));
+  let logs = [];
+  try {
+    const cur = await readGithubJson(env, SCHED_LOG_PATH);
+    logs = Array.isArray(cur.data?.logs) ? cur.data.logs : [];
+  } catch (_) {}
+  return json({ logs: logs.slice(0, limit) });
+}
+
+async function handleSchedulerTrigger(request, env, deskId) {
+  if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: corsHeaders() });
+  if (request.method !== "POST") return json({ error: "POST only" }, 405);
+  if (!DESKS[deskId]) return json({ error: "Unknown desk" }, 404);
+  try {
+    const result = await triggerDesk(env, deskId, "manual");
+    return json(result, result.ok ? 200 : 502);
+  } catch (e) {
+    return json({ error: e.message || "Trigger failed" }, e.status || 500);
+  }
+}
+
+async function handleSchedulerTick(env) {
+  try {
+    const result = await runDueDesks(env);
+    return json({ ok: true, ...result });
+  } catch (e) {
+    return json({ error: e.message || "Tick failed" }, 500);
+  }
 }
 
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     const path = url.pathname;
-
     if (path === "/google4a7d26b466f41330.html" || path === "/google4a7d26b466f41330") {
       return new Response(GSC_HTML, {
         status: 200,
-        headers: {
-          "content-type": "text/html; charset=utf-8",
-          "cache-control": "public, max-age=300",
-          "x-robots-tag": "noindex",
-        },
+        headers: { "content-type": "text/html; charset=utf-8", "cache-control": "public, max-age=300", "x-robots-tag": "noindex" },
       });
     }
-
     if (path === "/968a6d115d3240a3acbc3448c398978d.txt") {
       return new Response(GSC_TXT, {
         status: 200,
-        headers: {
-          "content-type": "text/plain; charset=utf-8",
-          "cache-control": "public, max-age=300",
-          "x-robots-tag": "noindex",
-        },
+        headers: { "content-type": "text/plain; charset=utf-8", "cache-control": "public, max-age=300", "x-robots-tag": "noindex" },
       });
     }
-
-    if (path === "/api/subscribe") {
-      return handleSubscribe(request, env);
+    if (path === "/api/subscribe") return handleSubscribe(request, env);
+    if (path === "/api/unsubscribe") return handleUnsubscribe(request, env);
+    if (path === "/api/github") return handleGithubApi(request, env);
+    if (path === "/api/scheduler/status") return handleSchedulerStatus(env);
+    if (path === "/api/scheduler/logs") return handleSchedulerLogs(request, env);
+    if (path === "/api/scheduler/tick") return handleSchedulerTick(env);
+    if (path.startsWith("/api/scheduler/trigger/")) {
+      const deskId = path.replace("/api/scheduler/trigger/", "").replace(/\/$/, "");
+      return handleSchedulerTrigger(request, env, deskId);
     }
-
-    if (path === "/api/unsubscribe") {
-      return handleUnsubscribe(request, env);
-    }
-
-    if (env.ASSETS) {
-      return env.ASSETS.fetch(request);
-    }
-
+    if (env.ASSETS) return env.ASSETS.fetch(request);
     return new Response("Not found", { status: 404 });
+  },
+  async scheduled(event, env, ctx) {
+    ctx.waitUntil(
+      runDueDesks(env).then((r) => console.log("scheduler tick", JSON.stringify(r))).catch((e) => console.error("scheduler", e))
+    );
   },
 };
