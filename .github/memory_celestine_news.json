@@ -567,10 +567,10 @@
     "e0bd5f5d728731ff65da3a78f265cfc7",
     "16aebe109b1e26b1b1b5a3db6c987003",
     "ac9f08209c39b29b54a68d6f30cb431e",
-    "66b3a71e821d1e09b2562705fefa3ce1"
+    "66b3a71e821d1e09b2562705fefa3ce1",
+    "57f9496c8d3240d77d206f424e75b2c4"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -599,7 +599,8 @@
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -751,7 +752,8 @@
     "https://kenyans.co.ke/news/127120-court-appeal-bars-kra-delaying-tax-decisions-over-pending-cases",
     "https://kenyans.co.ke/news/127119-kra-uncovers-hidden-chamber-manufacturing-illicit-beverages-during-north-rift",
     "https://kenyans.co.ke/news/127136-ig-douglas-kanja-face-sentencing-over-nairobi-road-barricades",
-    "https://kenyans.co.ke/news/127139-us-approves-ksh1-trillion-investment-package-expand-digital-infrastructure-africa"
+    "https://kenyans.co.ke/news/127139-us-approves-ksh1-trillion-investment-package-expand-digital-infrastructure-africa",
+    "https://kenyans.co.ke/news/127138-thousands-kenyans-unable-access-funds-after-investment-platform-freezes-withdrawals"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -825,7 +827,8 @@
     "court appeal rebukes kra administrative stalls sends ksh168 million vat refund battle back high court",
     "baringo underground chamber exposes shifting tactics illicit ethanol trade",
     "high court rejection police defense strategy leaves top command exposed court directives",
-    "digital infrastructure funding collides metered billing debate"
+    "digital infrastructure funding collides metered billing debate",
+    "unlicensed investment freeze exposes regulatory gaps debt exposure among public servants"
   ],
   "topic_keys": [
     "news tracker",
