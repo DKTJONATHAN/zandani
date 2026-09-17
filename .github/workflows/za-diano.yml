@@ -63,7 +63,7 @@ jobs:
           IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
           POSTS_DIR: ${{ env.POSTS_DIR }}
           MEMORY_FILE: ${{ env.MEMORY_FILE }}
-          REVAMP_CATEGORY: George Diano
+          REVAMP_CATEGORY: Entertainment
           REVAMP_AUTHOR: Zed Mogaka
           FRESH_HOURS: "24"
         run: python scripts/article_revamp.py
