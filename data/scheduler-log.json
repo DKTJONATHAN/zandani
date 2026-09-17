@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-17T09:30:41.814Z",
+  "updated": "2026-09-17T09:33:35.565Z",
   "logs": [
+    {
+      "id": "sports-1789637615334",
+      "desk": "sports",
+      "scheduledFor": "2026-09-17T09:33:34.035Z",
+      "dispatchedAt": "2026-09-17T09:33:34.035Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "manual"
+    },
     {
       "id": "technology-1789637441625",
       "desk": "technology",
