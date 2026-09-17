@@ -10,9 +10,11 @@ installGlobalErrorHandlers();
 
 function markAppReady() {
   document.documentElement.classList.add("app-ready");
+  const shell = document.getElementById("boot-shell");
+  if (shell) shell.setAttribute("aria-hidden", "true");
 }
 
-// Register service worker for offline + push
+// Single SW registration (index.html also registers; keep one path for clarity)
 if (typeof window !== "undefined" && "serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("/sw.js").catch((err) => {
@@ -31,7 +33,10 @@ createRoot(document.getElementById("root")!).render(
   </React.StrictMode>
 );
 
-// Reveal after the first paint so prerendered unstyled HTML never flashes.
+// Wait two frames so Tailwind/CSS from this module is applied before we reveal #root.
 requestAnimationFrame(() => {
   requestAnimationFrame(markAppReady);
 });
+
+// Safety: never leave users on the boot shell if paint is delayed
+window.setTimeout(markAppReady, 1200);
