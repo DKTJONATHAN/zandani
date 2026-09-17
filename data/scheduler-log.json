@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-17T09:12:41.387Z",
+  "updated": "2026-09-17T09:18:41.532Z",
   "logs": [
+    {
+      "id": "business-1789636721361",
+      "desk": "business",
+      "scheduledFor": "2026-09-17 12:18:39",
+      "dispatchedAt": "2026-09-17T09:18:40.024Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "africa-1789636361174",
       "desk": "africa",
