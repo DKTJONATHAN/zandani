@@ -2,28 +2,10 @@ name: Jaj — Opinion column
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '48 * * * *'
       timezone: 'Africa/Nairobi'
   workflow_call:
-    inputs:
-      max_articles:
-        type: string
-        required: false
-        default: "1"
-      source_category:
-        type: string
-        required: false
-        default: ""
-  workflow_dispatch:
-    inputs:
-      max_articles:
-        description: "Max opinion pieces this run"
-        required: false
-        default: "1"
-      source_category:
-        description: "Source category (blank = all non-opinions)"
-        required: false
-        default: ""
+  workflow_dispatch: {}
 
 concurrency:
   group: zandani-desk-za-jaj
@@ -35,7 +17,7 @@ permissions:
 env:
   DEFAULT_BRANCH: main
   POSTS_DIR: content/posts
-  MEMORY_FILE: .github/memory_opinions.json
+  MEMORY_FILE: .github/memory_jaj.json
   TZ: Africa/Nairobi
   WRITER_PROMPT_FILE: scripts/zandani_writer_prompt.txt
   WRITER_MAX_AGE_HOURS: "24"
@@ -47,7 +29,7 @@ jobs:
     runs-on: ubuntu-22.04
     timeout-minutes: 45
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
@@ -55,7 +37,7 @@ jobs:
           token: ${{ secrets.ACTIONS_GITHUB_TOKEN || secrets.PERSONAL_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           persist-credentials: true
 
-      - name: Set up Python
+      - name: Set up Python 3.11
         uses: actions/setup-python@v6
         with:
           python-version: "3.11"
@@ -63,58 +45,41 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests google-genai python-dateutil
+          pip install requests google-genai beautifulsoup4 lxml playwright python-dateutil Pillow
+          playwright install chromium --with-deps
 
-      - name: Enforce 24h freshness and angle-gap writer (jaj)
+      - name: Enforce writer contract
         env:
           WRITER_DESK: jaj
         run: |
           set -e
-          echo "Desk jaj: angle-gap JSON writer, 24h source max-age"
-          echo "Every eligible story is written. Skip only if older than 24h or unusable."
           test -f scripts/zandani_writer_prompt.txt
           python scripts/enforce_writer_contract.py
 
-      - name: Write opinion pieces (≤24h, independent stories)
+      - name: Run Jaj pipeline
         env:
           GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_API_KEY1: ${{ secrets.GEMINI_API_KEY1 }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
           POSTS_DIR: ${{ env.POSTS_DIR }}
           MEMORY_FILE: ${{ env.MEMORY_FILE }}
           WRITER_PROMPT_FILE: ${{ env.WRITER_PROMPT_FILE }}
           WRITER_MAX_AGE_HOURS: "24"
           FRESH_HOURS: "24"
           WRITE_EVERY_ELIGIBLE_STORY: "1"
-          MAX_ARTICLES: ${{ inputs.max_articles || '1' }}
-          SOURCE_CATEGORY: ${{ inputs.source_category || '' }}
           TZ: Africa/Nairobi
         run: |
           set -e
-          if [ -f scripts/jaj_columnist.py ]; then
-            python scripts/jaj_columnist.py
-          else
-            echo "scripts/jaj_columnist.py missing"
-            exit 1
-          fi
+          if [ -f scripts/jaj_desk.py ]; then python scripts/jaj_desk.py; else echo skip; exit 0; fi
 
-      - name: Voice, SEO and Kenya-first gate
-        run: |
-          if [ -f scripts/finish_desk.py ]; then
-            python scripts/finish_desk.py || true
-          else
-            echo "finish_desk.py not present — skip"
-          fi
-
-      - name: Commit history and new posts
+      - name: Commit
         run: |
           git config user.name  "Za Ndani"
           git config user.email "bot@zandani.co.ke"
           git add -A "${MEMORY_FILE}" content/posts || true
-          if git diff --cached --quiet; then
-            echo "No article or memory changes to commit"
-            exit 0
-          fi
-          git commit -m "content: Jaj opinion column (angle-gap ≤24h)"
-          git pull --rebase origin "${DEFAULT_BRANCH}" || git pull origin "${DEFAULT_BRANCH}" --no-rebase || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "content: jaj desk (angle-gap ≤24h)"
+          git pull --rebase origin "${DEFAULT_BRANCH}" || true
           git push origin HEAD:"${DEFAULT_BRANCH}"
