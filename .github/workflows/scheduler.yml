@@ -11,7 +11,7 @@ on:
         default: "Manual rebuild"
 
 concurrency:
-  group: scheduled-publisher
+  group: zandani-main-content-writer
   cancel-in-progress: false
 
 permissions:
@@ -34,7 +34,6 @@ jobs:
           ref: ${{ env.DEFAULT_BRANCH }}
           token: ${{ secrets.ACTIONS_GITHUB_TOKEN || secrets.PERSONAL_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           persist-credentials: true
-
       - name: Check for posts due to publish
         id: check
         shell: bash
@@ -47,37 +46,28 @@ jobs:
           DUE_COUNT=0
           mkdir -p "$(dirname "$STATE")"
           touch "$STATE"
-
           for filepath in "$POSTS"/*.md; do
             [ -f "$filepath" ] || continue
             FNAME=$(basename "$filepath")
             grep -qxF "$FNAME" "$STATE" && continue
-
             PUB_VALUE=$(awk -F: '/^publishDate:/ {sub(/^publishDate:[[:space:]]*/, ""); print; exit}' "$filepath" || true)
             if [ -z "$PUB_VALUE" ]; then
               PUB_VALUE=$(awk -F: '/^date:/ {sub(/^date:[[:space:]]*/, ""); print; exit}' "$filepath" || true)
             fi
             [ -n "$PUB_VALUE" ] || continue
-
             PUB_VALUE=$(echo "$PUB_VALUE" | sed 's/^['"'"']//; s/['"'"']$//')
             PUB_EPOCH=$(date -d "$PUB_VALUE" +%s 2>/dev/null || true)
-            if [ -z "$PUB_EPOCH" ]; then
-              echo "WARN: invalid publication date in $FNAME: $PUB_VALUE" >&2
-              continue
-            fi
-
+            if [ -z "$PUB_EPOCH" ]; then continue; fi
             if [ "$PUB_EPOCH" -le "$NOW_EPOCH" ]; then
               echo "DUE: $FNAME | publish=$PUB_VALUE"
               echo "$FNAME" >> "$STATE"
               DUE_COUNT=$((DUE_COUNT + 1))
             fi
           done
-
           sort -u "$STATE" -o "$STATE"
           echo "due_count=$DUE_COUNT" >> "$GITHUB_OUTPUT"
           echo "has_due_posts=$([ "$DUE_COUNT" -gt 0 ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
           echo "EAT now: $(TZ=Africa/Nairobi date '+%Y-%m-%d %H:%M:%S %Z')"
-
       - name: Commit state and trigger rebuild
         if: steps.check.outputs.has_due_posts == 'true'
         shell: bash
@@ -85,16 +75,16 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git fetch origin "$DEFAULT_BRANCH"
-          git rebase "origin/$DEFAULT_BRANCH"
           git add "$STATE_FILE"
-          if git diff --staged --quiet; then
-            echo "No state changes to commit."
-            exit 0
-          fi
+          if git diff --staged --quiet; then exit 0; fi
           git commit -m "chore: activate scheduled posts"
-          git push origin HEAD:"$DEFAULT_BRANCH"
-
+          for attempt in 1 2 3 4 5; do
+            git fetch origin "${DEFAULT_BRANCH}"
+            git rebase "origin/${DEFAULT_BRANCH}"
+            if git push origin HEAD:"${DEFAULT_BRANCH}"; then exit 0; fi
+            sleep $((attempt * 2))
+          done
+          exit 1
       - name: Job summary
         if: always()
         run: |
