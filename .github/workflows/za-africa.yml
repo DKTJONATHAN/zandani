@@ -36,26 +36,22 @@ jobs:
           ref: ${{ env.DEFAULT_BRANCH }}
           token: ${{ secrets.ACTIONS_GITHUB_TOKEN || secrets.PERSONAL_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           persist-credentials: true
-
       - name: Set up Python 3.11
         uses: actions/setup-python@v6
-        with:
-          python-version: "3.11"
-
+        with: {python-version: "3.11"}
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests google-genai beautifulsoup4 lxml playwright python-dateutil Pillow
           playwright install chromium --with-deps
-
       - name: Enforce writer contract
-        env:
-          WRITER_DESK: africa
+        env: {WRITER_DESK: africa}
         run: |
           set -e
           test -f scripts/zandani_writer_prompt.txt
+          test -f scripts/article_intelligence.py
+          test -f scripts/article_revamp.py
           python scripts/enforce_writer_contract.py
-
       - name: Run East Africa pipeline
         env:
           GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
@@ -70,70 +66,21 @@ jobs:
           FRESH_HOURS: "24"
           WRITE_EVERY_ELIGIBLE_STORY: "1"
           TZ: Africa/Nairobi
-        run: |
-          set -e
-          python scripts/amara_africa.py
-
-      - name: Rehost images on ImgBB (front matter + body)
+        run: python scripts/amara_africa.py
+      - name: Editorial image + angle revamp
         env:
+          GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY1: ${{ secrets.GEMINI_API_KEY1 }}
           IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
           POSTS_DIR: ${{ env.POSTS_DIR }}
-        run: |
-          python << 'EOF'
-          import os, re, io, base64, glob, time
-          import requests
-          try:
-              from PIL import Image
-          except Exception:
-              Image = None
-          API = os.environ.get("IMGBB_API_KEY") or ""
-          POSTS = os.environ.get("POSTS_DIR") or "content/posts"
-          if not API:
-              print("IMGBB_API_KEY missing — skip rehost")
-              raise SystemExit(0)
-          cache = {}
-          def upload(url):
-              if not url or not url.startswith("http") or "ibb.co" in url or "imgbb.com" in url:
-                  return url
-              if url in cache: return cache[url]
-              try:
-                  r = requests.get(url, timeout=25, headers={"User-Agent": "ZaNdani/1.0"})
-                  r.raise_for_status(); raw = r.content
-                  if len(raw) < 400: return url
-                  b64 = None
-                  if Image is not None:
-                      try:
-                          img = Image.open(io.BytesIO(raw))
-                          if img.mode in ("RGBA", "LA", "P"): img = img.convert("RGB")
-                          if img.width > 1400:
-                              ratio = 1400 / float(img.width)
-                              img = img.resize((1400, max(1, int(img.height * ratio))), Image.LANCZOS)
-                          buf = io.BytesIO(); img.save(buf, format="WEBP", quality=82, method=4)
-                          b64 = base64.b64encode(buf.getvalue()).decode()
-                      except Exception as e: print("webp fail", e)
-                  if not b64: b64 = base64.b64encode(raw).decode()
-                  res = requests.post("https://api.imgbb.com/1/upload", data={"key": API, "image": b64}, timeout=30)
-                  if res.status_code == 200:
-                      data = res.json().get("data") or {}; new = data.get("url") or data.get("display_url") or ""
-                      if new: cache[url] = new; return new
-                  print("imgbb fail", res.status_code, res.text[:160])
-              except Exception as e: print("rehost error", e)
-              cache[url] = url; return url
-          files = sorted(glob.glob(os.path.join(POSTS, "*.md")), key=os.path.getmtime, reverse=True)[:12]
-          for path in files:
-              with open(path, encoding="utf-8") as f: text = f.read()
-              orig = text
-              m = re.search(r'(?m)^image:\s*"([^"]*)"', text)
-              if m and m.group(1):
-                  hosted = upload(m.group(1)); text = text[:m.start(1)] + hosted + text[m.end(1):]
-              def repl(mm): return mm.group(1) + upload(mm.group(2)) + mm.group(3)
-              text = re.sub(r'(!\[[^\]]*\]\()(https?://[^)\s]+)(\))', repl, text)
-              text = re.sub(r'(<img[^>]+src=["\'])(https?://[^"\']+)(["\'])', repl, text)
-              if text != orig:
-                  with open(path, "w", encoding="utf-8") as f: f.write(text)
-              time.sleep(0.2)
-          EOF
-
+          MEMORY_FILE: ${{ env.MEMORY_FILE }}
+          REVAMP_CATEGORY: Africa
+          REVAMP_AUTHOR: Amara Ndlovu
+          FRESH_HOURS: "24"
+        run: python scripts/article_revamp.py
+      - name: Finish desk
+        run: if [ -f scripts/finish_desk.py ]; then python scripts/finish_desk.py || true; fi
       - name: Commit and push safely
         shell: bash
         run: |
