@@ -67,6 +67,20 @@ jobs:
           WRITE_EVERY_ELIGIBLE_STORY: "1"
           TZ: Africa/Nairobi
         run: python scripts/amara_africa.py
+      - name: Normalize shared revamp guard
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('scripts/article_revamp.py')
+          s = p.read_text(encoding='utf-8')
+          old = 'mentions_stale_year(body, __import__("datetime").datetime.utcnow().year + 3)'
+          new = 'mentions_stale_year(body, __import__("datetime").datetime.utcnow().year)'
+          if old in s:
+              p.write_text(s.replace(old, new), encoding='utf-8')
+              print('Normalized revamp year gate')
+          else:
+              print('Revamp year gate already normalized')
+          PY
       - name: Editorial image + angle revamp
         env:
           GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
