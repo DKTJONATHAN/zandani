@@ -105,28 +105,31 @@ jobs:
                   pr.raise_for_status()
                   return pr.text
 
+          def is_allowed_pulse_story(url):
+              parsed=urllib.parse.urlparse(url)
+              return parsed.netloc.replace("www.","") == SOURCE_DOMAIN and parsed.path.startswith("/story/") and not any(x in parsed.path.lower() for x in ("/terms","/privacy","/about","/contact","/author/","/category/","/tag/","/search"))
+          
           def links_from(html):
               soup=BeautifulSoup(html,"html.parser")
               out=[]; seen=set()
               base=SOURCE_URL
               for a in soup.select("a[href]"):
                   href=urllib.parse.urljoin(base,(a.get("href") or "").strip())
-                  if not href or SOURCE_DOMAIN not in urllib.parse.urlparse(href).netloc: continue
+                  if not is_allowed_pulse_story(href): continue
                   p=urllib.parse.urlparse(href).path
-                  if not p or p in ("/","/feed/") or any(x in p.lower() for x in ("/tag/","/author/","/category/","/page/","/search","/about","/contact")): continue
                   if href in seen: continue
                   seen.add(href); out.append(href)
               for href in re.findall(r"\]\((https?://[^)]+)\)", html):
                   href=href.strip()
-                  if SOURCE_DOMAIN not in urllib.parse.urlparse(href).netloc: continue
+                  if not is_allowed_pulse_story(href): continue
                   p=urllib.parse.urlparse(href).path
-                  if not p or any(x in p.lower() for x in ("/tag/","/author/","/category/","/page/","/search","/about","/contact")): continue
                   if href not in seen:
                       seen.add(href); out.append(href)
               return out[:40]
 
           def article(url):
               try:
+                  if not is_allowed_pulse_story(url): return None
                   html=fetch(url); soup=BeautifulSoup(html,"html.parser")
                   title=""
                   for prop in ("og:title","twitter:title"):
@@ -185,6 +188,8 @@ jobs:
           - Do not invent names, quotes, numbers, dates or events.
           - Attribute claims and quotations clearly.
           - Do not mention the source publication by name unless attribution is necessary.
+          - Do not reproduce publisher emails, phone numbers, privacy-policy language, terms-and-conditions language, or site-navigation text.
+          - Use only the supplied article page as the source; never treat a privacy policy, terms page, homepage, category page, author page, or other publisher property as an article.
           - Produce a distinct angle rather than copying the source headline.
           - Kenyan English, clean newsroom style.
           - No meta commentary, no writing notes, no "key takeaway".
@@ -215,6 +220,9 @@ jobs:
               lines=[x.strip() for x in article_text.splitlines() if x.strip()]
               title=clean_title(lines[0] if lines else src["title"])
               body="\n\n".join(lines[1:]).strip()
+              # Never carry publisher contact details into a Zandani story.
+              body=re.sub(r"(?i)\b[\w.+-]+@(pulse\.co\.ke|pulse\.africa)\b","",body)
+              body=re.sub(r"\n{3,}","\n\n",body).strip()
               if len(re.findall(r"\b\w+\b",body))<200: raise RuntimeError("Generated article too short")
               slug=slugify(title)
               today=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
