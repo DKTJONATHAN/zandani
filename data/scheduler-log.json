@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-18T01:00:46.634Z",
+  "updated": "2026-09-18T01:08:45.394Z",
   "logs": [
+    {
+      "id": "entertainment-1789693725211",
+      "desk": "entertainment",
+      "scheduledFor": "2026-09-18 04:08:44",
+      "dispatchedAt": "2026-09-18T01:08:44.746Z",
+      "status": 422,
+      "ok": false,
+      "error": "Workflow does not have 'workflow_dispatch' trigger",
+      "source": "cron"
+    },
     {
       "id": "news-1789693246308",
       "desk": "news",
