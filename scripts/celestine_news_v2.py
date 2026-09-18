@@ -2,14 +2,22 @@
 """Celestine News v2: image-aware, angle-first Zandani newsroom pipeline."""
 from __future__ import annotations
 
+import base64
 import hashlib
+import io
 import json
 import os
 import re
 import sys
 
+import requests
+
 import celestine_news as base
 from article_intelligence import extract_article_images, format_image_candidates, recent_angle_context
+try:
+    from PIL import Image
+except Exception:
+    Image = None
 from voice_guard import (
     news_prompt,
     seo_fields,
@@ -89,24 +97,134 @@ def parse_result(raw):
     return data if isinstance(data, dict) else None
 
 
-def choose_images(data, candidates):
-    selected = []
+def _same_image(a: str, b: str) -> bool:
+    def norm(url: str) -> str:
+        url = (url or "").strip().lower()
+        url = url.split("?")[0].split("#")[0]
+        return url.rstrip("/")
+    return bool(norm(a) and norm(b) and norm(a) == norm(b))
+
+
+def choose_images(data, candidates, original_featured=""):
+    """
+    Select exactly three distinct source images when available:
+      - two for the article body
+      - one different image for OG/social metadata
+
+    The OG image is never the source article's exact featured/og image.
+    Gemini may suggest images, but deterministic de-duplication here is the
+    final authority so the body and OG image cannot silently collapse to one.
+    """
+    ranked = []
     items = data.get("images", []) if isinstance(data.get("images"), list) else []
+    requested = []
     for item in items:
         if not isinstance(item, dict):
             continue
         try:
-            idx = int(item.get("source_index"))
+            requested.append(int(item.get("source_index")))
         except Exception:
+            pass
+
+    # Respect Gemini's ranking first, then fill from every scraped candidate.
+    order = []
+    for idx in requested + [x.get("index") for x in candidates]:
+        if idx not in order:
+            order.append(idx)
+
+    by_index = {int(x["index"]): x for x in candidates if x.get("index") is not None}
+    selected = []
+    for idx in order:
+        source = by_index.get(idx)
+        if not source:
             continue
-        if idx < 1 or idx > len(candidates) or any(x["index"] == idx for x in selected):
+        if any(_same_image(source.get("url", ""), x.get("url", "")) for x in selected):
             continue
-        source = candidates[idx - 1]
-        alt = str(item.get("alt_text") or source.get("alt") or source.get("caption") or "News image").strip()[:180]
-        selected.append({**source, "reason": str(item.get("reason") or "Supports the story"), "selected_alt": alt or "News image"})
-        if len(selected) >= MAX_SELECTED_IMAGES:
-            break
-    return selected
+        selected.append({
+            **source,
+            "reason": "Selected from the scraped article image set",
+            "selected_alt": str(source.get("alt") or source.get("caption") or "News image").strip()[:180] or "News image",
+        })
+
+    # Never allow the source article's own OG/featured image to become our OG.
+    non_featured = [x for x in selected if not _same_image(x.get("url", ""), original_featured)]
+    if len(non_featured) < 3:
+        for source in candidates:
+            if _same_image(source.get("url", ""), original_featured):
+                continue
+            if any(_same_image(source.get("url", ""), x.get("url", "")) for x in non_featured):
+                continue
+            non_featured.append({
+                **source,
+                "reason": "Additional distinct image scraped from the source article",
+                "selected_alt": str(source.get("alt") or source.get("caption") or "News image").strip()[:180] or "News image",
+            })
+            if len(non_featured) >= 3:
+                break
+
+    # We need 3 distinct source images for the requested layout.
+    if len(non_featured) < 3:
+        print(f"Only {len(non_featured)} distinct non-featured source images available; refusing to reuse an image.")
+        return []
+
+    # First two = body; third = OG.
+    return non_featured[:3]
+
+
+def upload_to_imgbb(image_url: str, source_url: str = "") -> str:
+    """Re-host a scraped image on ImgBB, returning the hosted URL."""
+    if not image_url:
+        return ""
+    if "ibb.co" in image_url or "imgbb.com" in image_url:
+        return image_url
+    api_key = os.environ.get("IMGBB_API_KEY") or os.environ.get("IMGBB_KEY")
+    if not api_key:
+        print("IMGBB_API_KEY missing — keeping source image URL")
+        return image_url
+    try:
+        headers = {"User-Agent": "Mozilla/5.0 (compatible; ZandaniBot/1.0)"}
+        if source_url:
+            headers["Referer"] = source_url
+        response = requests.get(image_url, headers=headers, timeout=25)
+        response.raise_for_status()
+        raw = response.content
+        if len(raw) < 500:
+            print(f"Image too small ({len(raw)} bytes) — keeping source URL")
+            return image_url
+
+        encoded = None
+        if Image is not None:
+            try:
+                img = Image.open(io.BytesIO(raw))
+                if img.mode in ("RGBA", "LA", "P"):
+                    img = img.convert("RGB")
+                max_w = 1600
+                if img.width > max_w:
+                    ratio = max_w / float(img.width)
+                    img = img.resize((max_w, max(1, int(img.height * ratio))), Image.LANCZOS)
+                buf = io.BytesIO()
+                img.save(buf, format="WEBP", quality=84, method=4)
+                encoded = base64.b64encode(buf.getvalue()).decode("utf-8")
+            except Exception as exc:
+                print(f"WebP conversion failed ({exc}); uploading original bytes")
+        if encoded is None:
+            encoded = base64.b64encode(raw).decode("utf-8")
+
+        upload = requests.post(
+            "https://api.imgbb.com/1/upload",
+            data={"key": api_key, "image": encoded},
+            timeout=35,
+        )
+        upload.raise_for_status()
+        payload = upload.json().get("data") or {}
+        hosted = payload.get("url") or payload.get("display_url") or ""
+        if hosted:
+            print(f"ImgBB hosted: {hosted}")
+            return hosted
+        print("ImgBB response did not contain a hosted URL; keeping source URL")
+    except Exception as exc:
+        print(f"ImgBB upload failed: {exc}; keeping source URL")
+    return image_url
 
 
 def title_similarity(a, b):
@@ -117,15 +235,26 @@ def title_similarity(a, b):
 
 
 def inject_images(body, images):
-    if not images:
+    """Place only the first two selected images deep in the article body."""
+    if len(images) < 2:
         return body
     paragraphs = [p for p in body.split("\n\n") if p.strip()]
+    if len(paragraphs) < 4:
+        print("Article body is too short for deep image placement; skipping image injection.")
+        return body
+
+    # Deliberately avoid paragraph 2. Target roughly 30% and 65% into the story,
+    # with safe minimum gaps so the images are distributed rather than clustered.
+    n = len(paragraphs)
+    first_after = max(4, min(n - 3, round(n * 0.30)))
+    second_after = max(first_after + 3, min(n - 1, round(n * 0.65)))
+    placements = {first_after: images[0], second_after: images[1]}
+
     result = []
-    placements = {1: 0, 4: 1, 7: 2}
     for i, paragraph in enumerate(paragraphs, 1):
         result.append(paragraph)
-        if i in placements and placements[i] < len(images):
-            img = images[placements[i]]
+        img = placements.get(i)
+        if img:
             alt = re.sub(r"[\[\]\r\n]", "", img.get("selected_alt") or img.get("alt") or "News image")[:180]
             result.append(f"![{alt}]({img['url']})")
     return "\n\n".join(result)
@@ -137,7 +266,8 @@ def write_post_v2(title, body, source, style, analysis, images):
     slug = f"{base.today_str}-{base.slugify(seo['title'])}"
     path = os.path.join(base.POSTS_DIR, f"{slug}.md")
     os.makedirs(base.POSTS_DIR, exist_ok=True)
-    primary = images[0]["url"] if images else source.get("featured", "")
+    # Third image is reserved for OG/social metadata; first two are body images.
+    primary = images[2]["url"] if len(images) >= 3 else ""
     image_meta = [{"url": x.get("url", ""), "alt": x.get("selected_alt", ""), "reason": x.get("reason", "")} for x in images]
     angle = str(analysis.get("chosen_angle_gap", "")).replace('"', "'")[:300]
     angle_type = str(analysis.get("angle_type", "")).replace('"', "'")[:80]
@@ -196,9 +326,25 @@ def main():
         if not body or len(re.findall(r"\w+", body)) < 220 or model_skipped(body) or vg_is_spam(body) or base.is_spam(body):
             continue
         analysis = result.get("analysis") if isinstance(result.get("analysis"), dict) else {}
-        selected = choose_images(result, source["images"])
-        body = inject_images(body, selected)
-        write_post_v2(title, body, {**source, "url": link}, style, analysis, selected)
+        selected = choose_images(result, source["images"], source.get("featured", ""))
+        if len(selected) < 3:
+            print("Skipping story: need three distinct scraped images (2 body + 1 OG).")
+            continue
+
+        # Upload all three separately so body images and OG image are independent
+        # ImgBB assets. Never reuse the OG URL in the body.
+        hosted = []
+        for image in selected:
+            hosted_url = upload_to_imgbb(image["url"], link)
+            if not hosted_url:
+                hosted_url = image["url"]
+            hosted.append({**image, "source_url": image["url"], "url": hosted_url})
+        if len({x["url"] for x in hosted}) < 3:
+            print("Skipping story: ImgBB hosting collapsed two image URLs; refusing to reuse.")
+            continue
+
+        body = inject_images(body, hosted)
+        write_post_v2(title, body, {**source, "url": link}, style, analysis, hosted)
         memory["published_hashes"].append(h)
         memory["published_urls"].append(canon)
         memory["published_titles"].append(base.norm_title(title))
