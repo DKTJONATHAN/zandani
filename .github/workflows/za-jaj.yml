@@ -8,7 +8,7 @@ on:
   workflow_dispatch: {}
 
 concurrency:
-  group: zandani-main-content-writer
+  group: zandani-${{ github.workflow }}
   cancel-in-progress: false
 
 permissions:
