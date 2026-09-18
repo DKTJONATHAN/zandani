@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-18T07:44:52.841Z",
+  "updated": "2026-09-18T07:52:15.754Z",
   "logs": [
+    {
+      "id": "news-1789717935356",
+      "desk": "news",
+      "scheduledFor": "2026-09-18T07:52:13.901Z",
+      "dispatchedAt": "2026-09-18T07:52:13.901Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "manual"
+    },
     {
       "id": "ghafla-1789717492745",
       "desk": "ghafla",
