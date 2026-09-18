@@ -2,14 +2,15 @@ name: Wanjiku Kuria — Ghafla
 
 on:
   schedule:
-    - cron: '44 */2 * * *'
+    - cron: '9 */2 * * *'
       timezone: 'Africa/Nairobi'
   workflow_call:
   workflow_dispatch: {}
 
 concurrency:
-  group: zandani-${{ github.workflow }}
+  group: zandani-main-content-writer
   cancel-in-progress: false
+  queue: max
 
 permissions:
   contents: write
