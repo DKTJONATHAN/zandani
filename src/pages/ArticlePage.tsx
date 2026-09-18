@@ -20,7 +20,7 @@ import { trackCategoryView } from "@/hooks/usePreferences";
 
 const SITE_URL = "https://zandani.co.ke";
 const DEFAULT_OG_IMAGE = `${SITE_URL}/images/default-og.jpg`;
-const BLOCKED_IMAGE_URLS = [\n  "https://i.ibb.co/WNCN8Hsy/3dda43a26f03.webp",\n];\n\nconst BLOCKED_OG_HOSTS = [
+const BLOCKED_OG_HOSTS = [
   "kenyans.co.ke",
   "mpasho.co.ke",
   "ghafla.com",
