@@ -186,7 +186,8 @@
     "0761d3ff192bc650b2fa517494610eba",
     "5cc6f8157516c6742fc7043596e80b3e",
     "b8d5467272ad34e0e6256bac1c64bf47",
-    "1f2d74cf793128beae3f83a8b575f014"
+    "1f2d74cf793128beae3f83a8b575f014",
+    "f83008096ea370379dfec9bd43e0ce1eb3bf5f90d1359e1190c454cfb3ef10de"
   ],
   "style_history": [
     "Hard News Lead",
@@ -301,5 +302,8 @@
     "money_follow|DStv|Africa Angle",
     "accountability|artificial intelligence|Hard News Lead",
     "myth_vs_fact|social media|Backgrounder"
+  ],
+  "urls": [
+    "https://www.pulse.co.ke/story/from-luxury-to-business-inside-accors-growing-footprint-in-kenyan-hotel-space-2026091720513466429"
   ]
 }
