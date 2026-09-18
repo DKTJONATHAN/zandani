@@ -587,10 +587,10 @@
     "119bcb955db8e00c3ee6707f0ef01000",
     "78fa574a9d9c9f2b268639a82879655f",
     "dab6b6c09a6f6fbe5324453ddacc32f6",
-    "4e1e7f5acd6a54822f72f08a59b581f4"
+    "4e1e7f5acd6a54822f72f08a59b581f4",
+    "276fe77766fafb37f606e87ca6b8a158"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -619,7 +619,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -791,7 +792,8 @@
     "https://kenyans.co.ke/news/127169-kenya-condemns-missile-and-drone-attacks-saudi-arabia",
     "https://kenyans.co.ke/news/127171-moja-expressway-announces-traffic-diversion-westlands-entrance-saturday",
     "https://kenyans.co.ke/news/127172-small-aircraft-crashes-kajiados-kipeto-area",
-    "https://kenyans.co.ke/news/127176-uhuru-says-his-life-becoming-too-dangerous-amid-rutos-sponsor-attacks"
+    "https://kenyans.co.ke/news/127176-uhuru-says-his-life-becoming-too-dangerous-amid-rutos-sponsor-attacks",
+    "https://kenyans.co.ke/news/127178-kra-seizes-ksh-467m-smuggled-goods-hidden-passenger-bus"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -885,7 +887,8 @@
     "cites diaspora safety red sea trade risks formal saudi attack rebuke",
     "westlands highway detour squeezes cbd traffic back onto surface waiyaki way",
     "kipeto mist exposes tight safety margins kajiado flight training corridor",
-    "murang remarks highlight widening rift kenyatta deflects ruto sponsor charges"
+    "murang remarks highlight widening rift kenyatta deflects ruto sponsor charges",
+    "smuggling rings are rebuilding passenger buses covert cargo carriers"
   ],
   "topic_keys": [
     "news tracker",
@@ -1002,6 +1005,15 @@
       "structure": "Lead on the tactical rhetorical shift -> Detail Kenyatta's sarcastic statements in Kiharu -> Trace Ruto's previous-day claims in Sindo regarding political sponsorship and the broken 10-year agreement -> Contextualise the broader friction between the two administrations -> Conclude on the unresolved political dynamics.",
       "source": "https://kenyans.co.ke/news/127176-uhuru-says-his-life-becoming-too-dangerous-amid-rutos-sponsor-attacks",
       "published_at": "2026-09-18T12:35:47Z"
+    },
+    {
+      "title": "How Smuggling Rings Are Rebuilding Passenger Buses Into Covert Cargo Carriers",
+      "angle": "The tactical re-engineering of public transport: how smuggling networks are physically modifying passenger buses with custom hidden compartments to exploit the lighter security and inspection footprint typically applied to public service vehicles (PSVs) on the Northern Corridor.",
+      "angle_type": "practical change",
+      "opening": "Focus on the physical and tactical shift in how contraband is moved\u2014moving away from simple luggage concealment to custom vehicle modifications.",
+      "structure": "Tactical shift in vehicle modifications -> The Eldoret ambush and highway pursuit -> Breakdown of the physical cargo and tax exposure -> The route logistics from Busia border crossings -> Enforcement implications for Northern Corridor transit.",
+      "source": "https://kenyans.co.ke/news/127178-kra-seizes-ksh-467m-smuggled-goods-hidden-passenger-bus",
+      "published_at": "2026-09-18T13:02:41Z"
     }
   ]
 }
