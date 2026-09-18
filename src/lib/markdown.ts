@@ -77,18 +77,6 @@ function isPublished(post: PostMetadata): boolean {
   return publishTime > 0 && publishTime <= Date.now();
 }
 
-const BLOCKED_ARTICLE_IMAGE_URL = "https://i.ibb.co/WNCN8Hsy/3dda43a26f03.webp";
-
-function stripBlockedArticleImages(content: string): string {
-  return content.replace(
-    /!\[[^\]]*\]\(https:\/\/i\.ibb\.co\/WNCN8Hsy\/3dda43a26f03\.webp(?:\?[^)]*)?\)/gi,
-    ""
-  ).replace(
-    /<img\b[^>]*src=["']https:\/\/i\.ibb\.co\/WNCN8Hsy\/3dda43a26f03\.webp(?:\?[^"']*)?["'][^>]*>/gi,
-    ""
-  );
-}
-
 const ALL_POSTS: PostMetadata[] = (manifestPosts as unknown as PostMetadata[])
   .map(p => ({ ...p, category: normalizeCategory(p.category), excerpt: cleanExcerpt(p.excerpt || p.description || '', p.title), tags: Array.isArray(p.tags) ? p.tags : [] }))
   .filter(isPublished)
@@ -105,9 +93,8 @@ export async function getPostBySlug(slug: string): Promise<Post | undefined> {
     if (!res.ok) return undefined;
     const rawContent = await res.text();
     const { content } = parseFrontmatter(rawContent);
-    const safeContent = stripBlockedArticleImages(content);
-    const { facts, body } = extractWhatWeKnow(safeContent);
-    return { ...metadata, content: safeContent, htmlContent: marked(body) as string, knowFacts: facts, imageAlt: metadata.title };
+    const { facts, body } = extractWhatWeKnow(content);
+    return { ...metadata, content, htmlContent: marked(body) as string, knowFacts: facts, imageAlt: metadata.title };
   } catch (error) {
     console.error(`Error loading post content for ${slug}:`, error);
     return undefined;
