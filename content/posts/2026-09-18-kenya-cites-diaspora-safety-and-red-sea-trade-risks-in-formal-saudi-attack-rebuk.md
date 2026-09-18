@@ -14,7 +14,7 @@ source: "https://kenyans.co.ke/news/127169-kenya-condemns-missile-and-drone-atta
 stylePreset: "Event Report"
 editorialAngle: "Framing Nairobi's diplomatic intervention through the lens of concrete domestic exposures—specifically the safety of Kenya's foreign labor force and pilgrims in Saudi Arabia, alongside the local economic risks of Red Sea maritime blockades."
 angleType: "people affected"
-selectedImages: [{"url": "https://i.ibb.co/WNCN8Hsy/3dda43a26f03.webp", "alt": "President William Ruto attending the 59th Passing-Out Parade for Administration Police recruits at the National Police College in Embakasi, Nairobi County, on Friday, September 4, ", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/C5Zg8Msy/ab594760195d.webp", "alt": "President William Ruto speaking during the launch of a hotel in Westlands on March 26, 2024 (left) and new currency notes.", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/fGNBqQ3G/d202e41c8f5d.webp", "alt": "President William Ruto attending the 59th Passing-Out Parade for Administration Police recruits at the National Police College in Embakasi, Nairobi County, on Friday, September 4, ", "reason": "Selected from the scraped article image set"}]
+selectedImages: [{"url": "https://i.ibb.co/C5Zg8Msy/ab594760195d.webp", "alt": "President William Ruto speaking during the launch of a hotel in Westlands on March 26, 2024 (left) and new currency notes.", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/fGNBqQ3G/d202e41c8f5d.webp", "alt": "President William Ruto attending the 59th Passing-Out Parade for Administration Police recruits at the National Police College in Embakasi, Nairobi County, on Friday, September 4, ", "reason": "Selected from the scraped article image set"}]
 schema: "NewsArticle"
 ---
 
@@ -26,7 +26,6 @@ In a statement issued Friday, September 18, the Ministry of Foreign and Diaspora
 
 The diplomatic push follows a Thursday military incident in Saudi Arabia's Taif governorate, located within Mecca Province, where local defense forces reported intercepting an uncrewed drone. The strike resulted in the death of a Yemeni resident and injured two others, marking a concerning geographic escalation near civilian centers and pilgrimage transit points.
 
-![President William Ruto attending the 59th Passing-Out Parade for Administration Police recruits at the National Police College in Embakasi, Nairobi County, on Friday, September 4, ](https://i.ibb.co/WNCN8Hsy/3dda43a26f03.webp)
 
 Kenya’s foreign office warned that targeting civilian infrastructure, residential areas, and sacred locations violates international humanitarian standards while directly exposing migrant communities and visiting pilgrims to physical risk.
 
