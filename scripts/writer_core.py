@@ -155,16 +155,41 @@ def run_writer(cfg):
             text = re.sub(re.escape(b), "", text, flags=re.I)
         return text
 
+    def fetch_with_fallback(url, timeout=35):
+        """Fetch a source page, falling back when GitHub Actions receives 403."""
+        try:
+            import requests
+            headers = {
+                "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/128 Safari/537.36",
+                "Accept": "text/html,application/xhtml+xml",
+            }
+            r = requests.get(url, headers=headers, timeout=timeout)
+            r.raise_for_status()
+            return r.text
+        except Exception as direct_error:
+            status = getattr(getattr(direct_error, "response", None), "status_code", None)
+            if status != 403:
+                raise
+            clean = url.replace("https://", "", 1).replace("http://", "", 1)
+            proxy = "https://r.jina.ai/http://" + clean
+            r = requests.get(proxy, headers={"User-Agent": "Mozilla/5.0"}, timeout=timeout)
+            r.raise_for_status()
+            return r.text
+
     def scrape_source():
         stories = []
         try:
-            with sync_playwright() as p:
-                browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
-                page = browser.new_page()
-                page.goto(source_url, wait_until="domcontentloaded", timeout=45000)
-                page.wait_for_timeout(2500)
-                html = page.content()
-                browser.close()
+            try:
+                with sync_playwright() as p:
+                    browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
+                    page = browser.new_page()
+                    page.goto(source_url, wait_until="domcontentloaded", timeout=45000)
+                    page.wait_for_timeout(2500)
+                    html = page.content()
+                    browser.close()
+            except Exception as browser_error:
+                print(f"Browser listing failed: {browser_error}; trying reader fallback")
+                html = fetch_with_fallback(source_url)
             soup = BeautifulSoup(html, "html.parser")
             for a in soup.select("a[href]")[:120]:
                 href = a.get("href") or ""
@@ -186,6 +211,18 @@ def run_writer(cfg):
                 seen.add(s["url"])
                 uniq.append(s)
             uniq.sort(key=lambda s: kenya_score(s["title"]), reverse=True)
+            if len(uniq) < 3:
+                # Jina Reader returns Markdown; recover article URLs from Markdown links.
+                for href in re.findall(r"\]\((https?://[^)]+)\)", html):
+                    href = href.strip()
+                    if source_domain not in urllib.parse.urlparse(href).netloc:
+                        continue
+                    if not any(x in href for x in extra_path_hints):
+                        continue
+                    if href in seen:
+                        continue
+                    seen.add(href)
+                    uniq.append({"title": href.rstrip("/").split("/")[-1].replace("-", " "), "url": href})
             print(f"Scraped {len(uniq)} candidate links from {source_domain}")
             return uniq[:15]
         except Exception as e:
@@ -234,13 +271,17 @@ def run_writer(cfg):
 
     def fetch_article(url):
         try:
-            with sync_playwright() as p:
-                browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
-                page = browser.new_page()
-                page.goto(url, wait_until="domcontentloaded", timeout=40000)
-                page.wait_for_timeout(1500)
-                html = page.content()
-                browser.close()
+            try:
+                with sync_playwright() as p:
+                    browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
+                    page = browser.new_page()
+                    page.goto(url, wait_until="domcontentloaded", timeout=40000)
+                    page.wait_for_timeout(1500)
+                    html = page.content()
+                    browser.close()
+            except Exception as browser_error:
+                print(f"Browser article fetch failed: {browser_error}; trying reader fallback")
+                html = fetch_with_fallback(url)
             soup = BeautifulSoup(html, "html.parser")
 
             fresh, age_h = is_fresh_enough(soup, max_hours=FRESH_HOURS)
