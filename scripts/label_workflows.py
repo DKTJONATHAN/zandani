@@ -17,7 +17,7 @@ NAMES = {
     "za sports.yml": "Sports | Jona Munyi ← nation.africa/kenya/sports",
     "za business.yml": "Business | Grace Mkamburi ← kenyanwallstreet.com",
     "za opinions.yml": "Opinions | Jonathan Mwaniki ← the-star.co.ke/opinion",
-    "za lifestyle.yml": "Lifestyle | Jona Munyi ← pulse.co.ke/lifestyle",
+    "za lifestyle.yml": "Lifestyle | Jona Munyi ← ghafla.co.ke",
     "za technology.yml": "Technology | Elizabeth Muthoni ← techweez.com",
     "za agriculture.yml": "Agriculture | Timothy Muli ← smartfarmerkenya.com",
     "za africa.yml": "Pan-Africa Ent. | Amara Ndlovu ← pulse.ng/entertainment",
