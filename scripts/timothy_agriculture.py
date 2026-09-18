@@ -16,8 +16,8 @@ except ImportError:
 
 AUTHOR_NAME = "Timothy Muli"
 CATEGORY = "Agriculture"
-SOURCE_URL = "https://smartfarmerkenya.com/"
-SOURCE_DOMAIN = "smartfarmerkenya.com"
+SOURCE_URL = "https://www.kenyans.co.ke/"
+SOURCE_DOMAIN = "kenyans.co.ke"
 POSTS_DIR = os.environ.get("POSTS_DIR", "content/posts")
 MEMORY_FILE = os.environ.get("MEMORY_FILE", ".github/memory_timothy.json")
 
