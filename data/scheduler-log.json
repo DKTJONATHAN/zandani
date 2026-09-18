@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-18T01:20:45.483Z",
+  "updated": "2026-09-18T01:44:45.349Z",
   "logs": [
+    {
+      "id": "ghafla-1789695885167",
+      "desk": "ghafla",
+      "scheduledFor": "2026-09-18 04:44:44",
+      "dispatchedAt": "2026-09-18T01:44:44.733Z",
+      "status": 422,
+      "ok": false,
+      "error": "Workflow does not have 'workflow_dispatch' trigger",
+      "source": "cron"
+    },
     {
       "id": "mpasho-1789694445191",
       "desk": "mpasho",
