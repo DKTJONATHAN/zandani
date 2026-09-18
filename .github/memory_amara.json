@@ -192,12 +192,12 @@
     "1fca998eb54586e3b2201caf3094b3c7",
     "e9bf55c76e751894f224c2aa4f988280",
     "63c5d40c274aa1c7ea4a1529f3aba02c",
-    "16d9741c5b6f53f6e1e90a71aeaf940a"
+    "16d9741c5b6f53f6e1e90a71aeaf940a",
+    "60180881191d64eafc7e3c81",
+    "2e9840981f2f1c06ea53cf21",
+    "208a44ad1b63ce2382ba193d"
   ],
   "style_history": [
-    "Hard News Lead",
-    "Reaction Round-up",
-    "Profile Beat",
     "Explainer",
     "Hard News Lead",
     "Reaction Round-up",
@@ -224,7 +224,10 @@
     "Hard News Lead",
     "Explainer",
     "Trend Take",
-    "Profile Beat"
+    "Profile Beat",
+    "Event Report",
+    "Event Report",
+    "Event Report"
   ],
   "angle_history": [
     "winners_losers|Nigerian music|Reaction Round-up",
@@ -301,6 +304,19 @@
     "next_48_hours|BBNaija|Hard News Lead",
     "myth_vs_fact|Nollywood|Explainer",
     "money_follow|Nathaniel Bassey|Trend Take",
-    "story_progression|BBNaija|Profile Beat"
+    "story_progression|BBNaija|Profile Beat",
+    "Motorists navigating the Westlands corridor face a familiar pattern of congestion this",
+    "Foreign nationals arriving at Tanzanian borders now face a new administrative hurdle:",
+    "Former President Uhuru Kenyatta has publicly voiced concerns for his personal safety,"
+  ],
+  "revamp_angles": [
+    {
+      "title": "Uhuru Mocks 'Sponsor' Label as Ruto Recalls Broken Campaign Pact",
+      "angle": "Examining the broader political backdrop outlined by President Ruto regarding the unfulfilled historical campaign pact and direct accusations of financial backing of opposition figures like Edwin Sifuna.",
+      "angle_type": "political accountability and background context",
+      "evidence_basis": "Statements made by former President Uhuru Kenyatta at a burial in Gikuu and President William Ruto during a rally in Sindo, Homa Bay County.",
+      "source": "https://www.kenyans.co.ke/news/127176-uhuru-says-his-life-becoming-too-dangerous-amid-rutos-sponsor-attacks",
+      "published_at": "2026-09-18T17:07:29Z"
+    }
   ]
 }
