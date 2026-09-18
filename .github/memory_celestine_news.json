@@ -583,10 +583,10 @@
     "38cc16d0cac148642524e2673adc96d5",
     "95943600bf21b10fcc2866dbf87cf8b9",
     "b19593fbfa7303eaae9ab9eb33537ed5",
-    "b5ebfdde1398bff2ffa9f368520e1531"
+    "b5ebfdde1398bff2ffa9f368520e1531",
+    "119bcb955db8e00c3ee6707f0ef01000"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -615,7 +615,8 @@
     "Event Report",
     "Desk Take",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -783,7 +784,8 @@
     "https://kenyans.co.ke/news/127164-kenya-navy-explores-new-radar-and-anti-drone-technology-swedish-firm",
     "https://kenyans.co.ke/news/127160-2-dead-10-injured-after-fuel-tanker-explodes-along-eldoret-webuye-highway",
     "https://kenyans.co.ke/news/127165-world-bank-invites-kenyan-youth-groups-apply-ksh-434m-health-grants",
-    "https://kenyans.co.ke/news/127167-kra-warns-job-applicants-over-fake-offers-soliciting-recruitment-fees"
+    "https://kenyans.co.ke/news/127167-kra-warns-job-applicants-over-fake-offers-soliciting-recruitment-fees",
+    "https://kenyans.co.ke/news/127169-kenya-condemns-missile-and-drone-attacks-saudi-arabia"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -873,7 +875,8 @@
     "mtongwe tactical shift navy weighs subsurface anti drone grid indian ocean",
     "juakali tanker blast triggers critical burn wards response eldoret",
     "world bank health grant attaches strict coalition rules ksh434m youth envelope",
-    "recruitment fraud syndicates target job seekers fake state agency onboarding letters"
+    "recruitment fraud syndicates target job seekers fake state agency onboarding letters",
+    "cites diaspora safety red sea trade risks formal saudi attack rebuke"
   ],
   "topic_keys": [
     "news tracker",
@@ -954,6 +957,15 @@
       "structure": "Scam operational breakdown -> KRA official disclaimer -> Recurrent pattern and previous May breach -> Multi-agency sector trend -> Enforcement backdrop and verification channels.",
       "source": "https://kenyans.co.ke/news/127167-kra-warns-job-applicants-over-fake-offers-soliciting-recruitment-fees",
       "published_at": "2026-09-18T08:02:34Z"
+    },
+    {
+      "title": "Kenya Cites Diaspora Safety and Red Sea Trade Risks in Formal Saudi Attack Rebuke",
+      "angle": "Framing Nairobi's diplomatic intervention through the lens of concrete domestic exposures\u2014specifically the safety of Kenya's foreign labor force and pilgrims in Saudi Arabia, alongside the local economic risks of Red Sea maritime blockades.",
+      "angle_type": "people affected",
+      "opening": "Lead directly on the national interests and diaspora exposures driving Kenya's official diplomatic warning.",
+      "structure": "Strategic exposure lead -> Threat to diaspora labor and pilgrims -> Security incident breakdown in Mecca Province -> Maritime shipping and economic impact -> Counter-claims and regional context.",
+      "source": "https://kenyans.co.ke/news/127169-kenya-condemns-missile-and-drone-attacks-saudi-arabia",
+      "published_at": "2026-09-18T09:02:31Z"
     }
   ]
 }
