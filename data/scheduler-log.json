@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-18T06:00:57.337Z",
+  "updated": "2026-09-18T06:03:37.474Z",
   "logs": [
+    {
+      "id": "entertainment-1789711416857",
+      "desk": "entertainment",
+      "scheduledFor": "2026-09-18T06:03:35.116Z",
+      "dispatchedAt": "2026-09-18T06:03:35.116Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "manual"
+    },
     {
       "id": "diano-1789711257235",
       "desk": "diano",
