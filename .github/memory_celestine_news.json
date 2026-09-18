@@ -579,10 +579,10 @@
     "1007df53c9b3d3a9faaf59aae32d1266",
     "2e40f5aa6638f1eba351399b39bba277",
     "6c8cffe295a292266e156fc9a8381677",
-    "918e4e37d62569d83f75ec28cbe4d012"
+    "918e4e37d62569d83f75ec28cbe4d012",
+    "38cc16d0cac148642524e2673adc96d5"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -611,7 +611,8 @@
     "Hard News Lead",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -775,7 +776,8 @@
     "https://kenyans.co.ke/news/127155-sha-introduces-new-system-healthcare-provider-contracting",
     "https://kenyans.co.ke/news/127156-dci-recovers-over-500-phones-motherboards-kisii-raid",
     "https://kenyans.co.ke/news/127159-teachers-get-improved-sha-benefits-govt-addresses-ivf-cancer-care-concerns",
-    "https://kenyans.co.ke/news/127162-tanzania-introduces-mandatory-travel-insurance-foreign-visitors"
+    "https://kenyans.co.ke/news/127162-tanzania-introduces-mandatory-travel-insurance-foreign-visitors",
+    "https://kenyans.co.ke/news/127164-kenya-navy-explores-new-radar-and-anti-drone-technology-swedish-firm"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -861,7 +863,8 @@
     "sha resets hospital contracting discards all pre launch applications",
     "kisii raid exposes repair shop backdoor stripping security locks off financed phones",
     "mwalimu cover rescue govt was forced restore premium benefits lost sha transition",
-    "tanzania spares eac travellers mandatory inbound travel insurance rollout"
+    "tanzania spares eac travellers mandatory inbound travel insurance rollout",
+    "mtongwe tactical shift navy weighs subsurface anti drone grid indian ocean"
   ],
   "topic_keys": [
     "news tracker",
@@ -906,6 +909,15 @@
       "structure": "Lead on the cross-border exemption and mainland policy -> Breakdown of costs, provider structure, and scope of cover -> Historical trajectory from Zanzibar to mainland -> Contrast with Kenya's frozen court-contested inbound insurance framework.",
       "source": "https://kenyans.co.ke/news/127162-tanzania-introduces-mandatory-travel-insurance-foreign-visitors",
       "published_at": "2026-09-18T05:02:18Z"
+    },
+    {
+      "title": "Mtongwe Tactical Shift: Kenya Navy Weighs Subsurface and Anti-Drone Grid for Indian Ocean",
+      "angle": "The operational shift in Kenya's maritime defense posture from traditional surface patrol craft to integrated multidomain surveillance, addressing aerial drone incursions and subsurface threats along the Western Indian Ocean coastline.",
+      "angle_type": "practical change",
+      "opening": "Anchoring on the naval command's assessment of evolving operational gaps above and below the surface at Mtongwe.",
+      "structure": "Strategic shift in naval surveillance -> Breakdown of the aerial and counter-drone capabilities -> Subsurface and underwater sensor integration -> Geopolitical and operational stakes in the Western Indian Ocean.",
+      "source": "https://kenyans.co.ke/news/127164-kenya-navy-explores-new-radar-and-anti-drone-technology-swedish-firm",
+      "published_at": "2026-09-18T06:02:39Z"
     }
   ]
 }
