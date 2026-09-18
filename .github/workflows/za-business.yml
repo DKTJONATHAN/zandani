@@ -23,8 +23,8 @@ env:
   FRESH_HOURS: "24"
   DESK_AUTHOR: "Grace Mkamburi"
   DESK_CATEGORY: "Business"
-  DESK_SOURCE: "https://www.pulse.co.ke/news"
-  DESK_DOMAIN: "pulse.co.ke"
+  DESK_SOURCE: "https://kenyanwallstreet.com/"
+  DESK_DOMAIN: "kenyanwallstreet.com"
   DESK_ROLE: "business correspondent"
   DESK_AUDIENCE: "Kenyan business, markets and enterprise readers"
 
