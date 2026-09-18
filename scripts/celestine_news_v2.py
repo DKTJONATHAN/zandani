@@ -379,15 +379,6 @@ def main():
         # The first two slots are body images and the third is OG/social metadata.
         # Never intentionally replace the OG slot with the source featured image
         # when another scraped image is available.
-        hosted = []
-        for image in selected:
-            hosted_url = upload_to_imgbb(image["url"], link)
-            if not hosted_url:
-                hosted_url = image["url"]
-            hosted.append({**image, "source_url": image["url"], "url": hosted_url})
-        if len({x["url"] for x in hosted}) < 3:
-            print("Skipping story: ImgBB hosting collapsed two image URLs; refusing to reuse.")
-            continue
 
         body = inject_images(body, hosted)
         write_post_v2(title, body, {**source, "url": link}, style, analysis, hosted)
