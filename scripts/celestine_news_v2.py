@@ -277,7 +277,7 @@ def strip_generated_images(body):
     own logo or a source site's branding). The pipeline owns image placement.
     """
     body = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", body)
-    body = re.sub(r"<img\\b[^>]*>", "", body, flags=re.I)
+    body = re.sub(r"<img\b[^>]*>", "", body, flags=re.I)
     body = re.sub(r"\n{3,}", "\n\n", body)
     return body.strip()
 
