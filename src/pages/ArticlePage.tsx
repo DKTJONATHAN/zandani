@@ -30,7 +30,7 @@ const BLOCKED_OG_HOSTS = [
 ];
 
 function ogImg(url: string): string {
-  if (!url) return DEFAULT_OG_IMAGE;\n  if (BLOCKED_IMAGE_URLS.some((blocked) => url.split("?")[0].replace(/\\/$/, "").toLowerCase() === blocked.toLowerCase())) return DEFAULT_OG_IMAGE;
+  if (!url) return DEFAULT_OG_IMAGE;
   if (url.startsWith("/")) return `${SITE_URL}${url}`;
   try {
     const host = new URL(url).hostname.replace(/^www\./, "");
