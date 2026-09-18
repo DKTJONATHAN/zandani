@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-18T07:00:53.878Z",
+  "updated": "2026-09-18T07:00:54.617Z",
   "desks": {
     "news": {
       "lastTriggeredAt": "2026-09-18T07:00:51.654Z",
       "lastStatus": "ok",
       "lastError": null,
       "lastSource": "cron",
-      "lastSlot": "2026-09-18T09:00"
+      "lastSlot": "2026-09-18T10:00"
     },
     "sports": {
       "lastTriggeredAt": "2026-09-18T05:00:49.175Z",
