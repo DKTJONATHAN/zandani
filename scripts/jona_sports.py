@@ -6,8 +6,8 @@ if __name__ == "__main__":
     run_writer({
         "author_name": "Jona Munyi",
         "category": "Sports",
-        "source_url": "https://nation.africa/kenya/sports",
-        "source_domain": "nation.africa",
+        "source_url": "https://www.pulsesports.co.ke/",
+        "source_domain": "pulsesports.co.ke",
         "memory_file": ".github/memory_jona_sports.json",
         "role": "sports correspondent",
         "audience": "Kenyan sports fans (football, athletics, local leagues)",
