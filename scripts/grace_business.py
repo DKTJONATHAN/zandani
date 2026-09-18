@@ -16,8 +16,8 @@ except ImportError:
 
 AUTHOR_NAME = "Grace Wambui"
 CATEGORY = "Business"
-SOURCE_URL = "https://www.pulse.co.ke/news"
-SOURCE_DOMAIN = "pulse.co.ke"
+SOURCE_URL = "https://kenyanwallstreet.com/"
+SOURCE_DOMAIN = "kenyanwallstreet.com"
 POSTS_DIR = os.environ.get("POSTS_DIR", "content/posts")
 MEMORY_FILE = os.environ.get("MEMORY_FILE", ".github/memory_grace.json")
 
