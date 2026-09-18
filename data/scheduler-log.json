@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-18T14:01:02.664Z",
+  "updated": "2026-09-18T14:23:42.640Z",
   "logs": [
+    {
+      "id": "mpasho-1789741422421",
+      "desk": "mpasho",
+      "scheduledFor": "2026-09-18T14:23:40.435Z",
+      "dispatchedAt": "2026-09-18T14:23:40.435Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "manual"
+    },
     {
       "id": "diano-1789740062439",
       "desk": "diano",
