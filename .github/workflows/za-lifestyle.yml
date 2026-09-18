@@ -22,7 +22,7 @@ env:
   FRESH_HOURS: "24"
   DESK_AUTHOR: "Jona Munyi"
   DESK_CATEGORY: "Lifestyle"
-  DESK_SOURCE: "https://nation.africa/kenya/life-style"
+  DESK_SOURCE: "https://nation.africa/kenya/life-and-style"
   DESK_DOMAIN: "nation.africa"
   DESK_ROLE: "lifestyle correspondent"
   DESK_AUDIENCE: "Kenyan lifestyle and culture readers"
@@ -90,9 +90,20 @@ jobs:
               with open(MEMORY_FILE,"w",encoding="utf-8") as f: json.dump(m,f,indent=2)
           
           def fetch(url):
-              r=requests.get(url,headers=HEADERS,timeout=25)
-              r.raise_for_status()
-              return r.text
+              try:
+                  r=requests.get(url,headers=HEADERS,timeout=25)
+                  r.raise_for_status()
+                  return r.text
+              except requests.HTTPError as e:
+                  if getattr(e.response,"status_code",0) != 403:
+                      raise
+                  # Some source sites block GitHub Actions IPs. Use a public
+                  # reader fallback only when the direct request is forbidden.
+                  clean=url.replace("https://","",1).replace("http://","",1)
+                  proxy="https://r.jina.ai/http://"+clean
+                  pr=requests.get(proxy,headers={"User-Agent":"Mozilla/5.0"},timeout=35)
+                  pr.raise_for_status()
+                  return pr.text
           
           def links_from(html):
               soup=BeautifulSoup(html,"html.parser")
