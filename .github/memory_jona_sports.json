@@ -300,7 +300,8 @@
     "b5ddf961c0cb90580ab08cc7d3b5487e",
     "d089924cded6f691b7739d05a8f260ac",
     "e18629b39d3a93516fe1390a5f9ba15c",
-    "e7e3e300d15b8d6e0ec8e54b9d82dd16"
+    "e7e3e300d15b8d6e0ec8e54b9d82dd16",
+    "a59e29b6b0ccf9cd87bb064569c9953e06cfcbd239c6adb1e8075b8915135a03"
   ],
   "style_history": [
     "Stat Story",
@@ -415,5 +416,8 @@
     "money_follow|Premier League|Stat Story",
     "accountability|Premier League|Match Report",
     "money_follow|Premier League|Tactical Take"
+  ],
+  "urls": [
+    "https://www.pulsesports.co.ke/story/we-got-humiliated-gor-mahia-boss-promises-inquest-into-cairo-massacre-amid-player-suspension-reports-2026091808443954836"
   ]
 }
