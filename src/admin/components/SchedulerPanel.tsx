@@ -134,7 +134,16 @@ export function SchedulerPanel() {
                   <p className="text-white font-black leading-none">{d.label}</p>
                   <p className="text-zinc-500 text-[11px] mt-1 font-mono">{d.workflow}</p>
                 </div>
-                <StatusDot status={d.lastStatus} />
+                <div className="flex items-center gap-2">
+                  <StatusDot status={d.lastStatus} />
+                  {d.workflowFound ? (
+                    <span className="text-[9px] font-black uppercase tracking-wider text-emerald-400" title={d.workflowState || "Workflow registered with GitHub Actions"}>
+                      Workflow ready
+                    </span>
+                  ) : (
+                    <span className="text-[9px] font-black uppercase tracking-wider text-red-400">Workflow missing</span>
+                  )}
+                </div>
               </div>
               <div className="grid grid-cols-2 gap-2 text-[11px]">
                 <div className="rounded-lg bg-zinc-950/80 border border-zinc-800 px-2.5 py-2">
@@ -150,6 +159,9 @@ export function SchedulerPanel() {
                   <p className="text-zinc-300 font-medium">
                     {fmt(d.lastTriggeredAt)}
                     {d.lastError ? <span className="text-red-400 ml-2">· {d.lastError}</span> : null}
+                    {d.workflowFound && d.lastError === "Workflow does not have 'workflow_dispatch' trigger" ? (
+                      <span className="text-zinc-500 ml-2">· historical dispatch error cleared by current workflow configuration</span>
+                    ) : null}
                   </p>
                 </div>
               </div>
