@@ -43,7 +43,9 @@ def _looks_like_asset(url: str, alt: str, caption: str, img=None) -> bool:
         "logo", "site-logo", "brand-logo", "icon", "avatar", "sprite", "pixel",
         "tracking", "placeholder", "favicon", "advert", "banner-ad", "social-share",
         "whatsapp", "facebook", "twitter", "telegram", "loading", "spinner",
-        "default-image", "default_image", "lazy-placeholder"
+        "default-image", "default_image", "lazy-placeholder",
+        "site-brand", "sitebrand", "header-image", "masthead-image",
+        "brandmark", "wordmark", "zandani", "zandani-logo"
     )
     if any(x in blob for x in junk):
         return True
@@ -90,6 +92,25 @@ def extract_article_images(soup, page_url: str, article_root=None, limit: int = 
     for img in imgs:
         src = _absolute_url(_src_from_img(img), page_url)
         if not src or src in seen or _looks_like_asset(src, img.get("alt", ""), "", img):
+            continue
+
+        # Some site logos are served from generic CDN/resize URLs with no
+        # "logo" in the filename. Only accept those when they are clearly
+        # part of article media or paragraph flow.
+        figure = img.find_parent("figure")
+        picture = img.find_parent("picture")
+        media_context = False
+        for parent in [img] + list(img.parents)[:4]:
+            attrs = " ".join(str(parent.get(k, "")) for k in ("id", "class", "itemprop", "role")).lower()
+            if any(x in attrs for x in (
+                "article-image", "article-img", "article-media", "story-image",
+                "story-img", "story-media", "featured-image", "featured-media",
+                "content-image", "content-media", "media-image", "image-container",
+                "wp-caption", "photo"
+            )):
+                media_context = True
+                break
+        if not (figure or picture or media_context) and img.find_parent("p") is None:
             continue
 
         alt = _clean(img.get("alt", ""), 240)
