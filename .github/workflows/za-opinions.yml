@@ -2,14 +2,15 @@ name: Opinions Desk
 
 on:
   schedule:
-    - cron: '42 */2 * * *'
+    - cron: '27 */2 * * *'
       timezone: 'Africa/Nairobi'
   workflow_call:
   workflow_dispatch: {}
 
 concurrency:
-  group: zandani-${{ github.workflow }}
+  group: zandani-main-content-writer
   cancel-in-progress: false
+  queue: max
 
 permissions:
   contents: write
