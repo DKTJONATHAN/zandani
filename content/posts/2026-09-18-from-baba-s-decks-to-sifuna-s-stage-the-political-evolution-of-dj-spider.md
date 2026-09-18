@@ -1,21 +1,21 @@
 ---
 title: "From Baba’s Decks to Sifuna’s Stage: The Political Evolution of DJ Spider"
-slug: "from-baba-s-decks-to-sifuna-s-stage-the-political-evolution-of-dj-spider"
+slug: "from-baba-s-decks-to-sifuna-s-stage-the-political-evolution-of-dj-spid"
 description: "In the high-stakes theatre of Kenyan politics, the man behind the turntables is often as influential as the orator on the podium. Fredrick Muyangu, popular"
 excerpt: "In the high-stakes theatre of Kenyan politics, the man behind the turntables is often as influential as the orator on the podium. Fredrick Muyangu, popular"
-date: 2026-09-18T09:10:55Z
-dateModified: 2026-09-18T09:10:55Z
 author: "Mutheu Ann"
-category: "Entertainment"
 image: "https://sportal365images.com/process/smp-images-production/pulselive.co.ke/18092026/90ea23d7-a8e5-4092-a60a-67b01cfa3862.jpeg?operations=autocrop(700:467)"
-readTime: 3
-source: "https://www.pulse.co.ke/story/dj-spider-raila-odingas-entertainer-who-shifted-to-edwin-sifunas-linda-mwananchi-after-odm-wrangles-2026091808143300943"
+category: "Entertainment"
+date: "2026-09-18T09:10:55Z"
+dateModified: "2026-09-18T09:10:55Z"
+focusKeyword: "from baba decks sifuna stage the"
 schema: "NewsArticle"
+readTime: "3"
+source: "https://www.pulse.co.ke/story/dj-spider-raila-odingas-entertainer-who-shifted-to-edwin-sifunas-linda-mwananchi-after-odm-wrangles-2026091808143300943"
 ---
-
 In the high-stakes theatre of Kenyan politics, the man behind the turntables is often as influential as the orator on the podium. Fredrick Muyangu, popularly known as DJ Spider Freddy, has cemented his status as the industry’s most sought-after political entertainer, recently marking a high-profile transition from Raila Odinga’s inner circle to Senator Edwin Sifuna’s *Linda Mwananchi* movement.
 
-DJ Spider first captured the national imagination during the 2023–2024 political demonstrations. While others saw danger in the face of police intervention, the DJ saw an opportunity to boost morale. His most iconic moment occurred when police deployed water cannons against Raila Odinga’s convoy; instead of retreating, DJ Spider famously played the Catholic hymn "Uninyunyizie Maji," effectively turning a tense dispersal tactic into a defiant street party.
+DJ Spider first captured the national imagination during the 2023-2024 political demonstrations. While others saw danger in the face of police intervention, the DJ saw an opportunity to boost morale. His most iconic moment occurred when police deployed water cannons against Raila Odinga’s convoy; instead of retreating, DJ Spider famously played the Catholic hymn "Uninyunyizie Maji," effectively turning a tense dispersal tactic into a defiant street party.
 
 This viral moment was more than just a display of musical wit. Senator Edwin Sifuna later revealed that DJ Spider’s track selections served a tactical purpose, acting as coded signals to the convoy to warn of impending tear gas deployment. This unique blend of entertainment and situational awareness made him a staple in Raila Odinga’s campaigns, where he traversed Nairobi and beyond, earning public praise from the former Prime Minister.
 

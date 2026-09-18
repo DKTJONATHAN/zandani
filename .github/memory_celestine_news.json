@@ -584,10 +584,10 @@
     "95943600bf21b10fcc2866dbf87cf8b9",
     "b19593fbfa7303eaae9ab9eb33537ed5",
     "b5ebfdde1398bff2ffa9f368520e1531",
-    "119bcb955db8e00c3ee6707f0ef01000"
+    "119bcb955db8e00c3ee6707f0ef01000",
+    "78fa574a9d9c9f2b268639a82879655f"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -616,7 +616,8 @@
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -785,7 +786,8 @@
     "https://kenyans.co.ke/news/127160-2-dead-10-injured-after-fuel-tanker-explodes-along-eldoret-webuye-highway",
     "https://kenyans.co.ke/news/127165-world-bank-invites-kenyan-youth-groups-apply-ksh-434m-health-grants",
     "https://kenyans.co.ke/news/127167-kra-warns-job-applicants-over-fake-offers-soliciting-recruitment-fees",
-    "https://kenyans.co.ke/news/127169-kenya-condemns-missile-and-drone-attacks-saudi-arabia"
+    "https://kenyans.co.ke/news/127169-kenya-condemns-missile-and-drone-attacks-saudi-arabia",
+    "https://kenyans.co.ke/news/127171-moja-expressway-announces-traffic-diversion-westlands-entrance-saturday"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -876,7 +878,8 @@
     "juakali tanker blast triggers critical burn wards response eldoret",
     "world bank health grant attaches strict coalition rules ksh434m youth envelope",
     "recruitment fraud syndicates target job seekers fake state agency onboarding letters",
-    "cites diaspora safety red sea trade risks formal saudi attack rebuke"
+    "cites diaspora safety red sea trade risks formal saudi attack rebuke",
+    "westlands highway detour squeezes cbd traffic back onto surface waiyaki way"
   ],
   "topic_keys": [
     "news tracker",
@@ -966,6 +969,15 @@
       "structure": "Strategic exposure lead -> Threat to diaspora labor and pilgrims -> Security incident breakdown in Mecca Province -> Maritime shipping and economic impact -> Counter-claims and regional context.",
       "source": "https://kenyans.co.ke/news/127169-kenya-condemns-missile-and-drone-attacks-saudi-arabia",
       "published_at": "2026-09-18T09:02:31Z"
+    },
+    {
+      "title": "Westlands Highway Detour Squeezes CBD Traffic Back onto Surface Waiyaki Way",
+      "angle": "Focusing on the traffic routing logistics and the immediate squeeze placed on surface-level Waiyaki Way as overpass traffic is funneled back onto surface lanes, coming right after recent maintenance-induced gridlock along the same corridor.",
+      "angle_type": "practical change",
+      "opening": "Lead directly on the physical route shift forcing CBD-bound traffic off the overpass bridge and onto surface asphalt.",
+      "structure": "Detour mechanics -> Toll gate operational exceptions -> Timeline breakdown -> Corridor vulnerability and recent precedent.",
+      "source": "https://kenyans.co.ke/news/127171-moja-expressway-announces-traffic-diversion-westlands-entrance-saturday",
+      "published_at": "2026-09-18T10:02:36Z"
     }
   ]
 }
