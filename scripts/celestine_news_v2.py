@@ -107,15 +107,16 @@ def _same_image(a: str, b: str) -> bool:
 
 def choose_images(data, candidates, original_featured=""):
     """
-    Select exactly three distinct source images when available:
-      - two for the article body
-      - one different image for OG/social metadata
+    Build three image slots on a best-effort basis:
+      - first two slots are for article-body images
+      - third slot is for OG/social metadata
 
-    The OG image is never the source article's exact featured/og image.
-    Gemini may suggest images, but deterministic de-duplication here is the
-    final authority so the body and OG image cannot silently collapse to one.
+    Prefer three distinct non-featured images. If the source article does not
+    provide three distinct images, use every distinct image that is available
+    and then reuse the least-preferred image only as a necessary fallback.
+    The OG slot prefers an image different from the source article's featured
+    image whenever such an image exists.
     """
-    ranked = []
     items = data.get("images", []) if isinstance(data.get("images"), list) else []
     requested = []
     for item in items:
@@ -129,46 +130,80 @@ def choose_images(data, candidates, original_featured=""):
     # Respect Gemini's ranking first, then fill from every scraped candidate.
     order = []
     for idx in requested + [x.get("index") for x in candidates]:
-        if idx not in order:
+        if idx is not None and idx not in order:
             order.append(idx)
 
     by_index = {int(x["index"]): x for x in candidates if x.get("index") is not None}
-    selected = []
+    ranked = []
     for idx in order:
         source = by_index.get(idx)
         if not source:
             continue
-        if any(_same_image(source.get("url", ""), x.get("url", "")) for x in selected):
+        if any(_same_image(source.get("url", ""), x.get("url", "")) for x in ranked):
             continue
-        selected.append({
+        ranked.append({
             **source,
             "reason": "Selected from the scraped article image set",
             "selected_alt": str(source.get("alt") or source.get("caption") or "News image").strip()[:180] or "News image",
         })
 
-    # Never allow the source article's own OG/featured image to become our OG.
-    non_featured = [x for x in selected if not _same_image(x.get("url", ""), original_featured)]
-    if len(non_featured) < 3:
-        for source in candidates:
-            if _same_image(source.get("url", ""), original_featured):
-                continue
-            if any(_same_image(source.get("url", ""), x.get("url", "")) for x in non_featured):
-                continue
-            non_featured.append({
-                **source,
-                "reason": "Additional distinct image scraped from the source article",
-                "selected_alt": str(source.get("alt") or source.get("caption") or "News image").strip()[:180] or "News image",
-            })
-            if len(non_featured) >= 3:
-                break
+    # Add any candidates Gemini did not rank, preserving distinct URLs.
+    for source in candidates:
+        if any(_same_image(source.get("url", ""), x.get("url", "")) for x in ranked):
+            continue
+        ranked.append({
+            **source,
+            "reason": "Additional distinct image scraped from the source article",
+            "selected_alt": str(source.get("alt") or source.get("caption") or "News image").strip()[:180] or "News image",
+        })
 
-    # We need 3 distinct source images for the requested layout.
-    if len(non_featured) < 3:
-        print(f"Only {len(non_featured)} distinct non-featured source images available; refusing to reuse an image.")
+    if not ranked:
+        print("No usable scraped images were found.")
         return []
 
-    # First two = body; third = OG.
-    return non_featured[:3]
+    non_featured = [
+        x for x in ranked
+        if not _same_image(x.get("url", ""), original_featured)
+    ]
+
+    # Best case: three distinct non-featured images.
+    if len(non_featured) >= 3:
+        selected = non_featured[:3]
+    else:
+        # Best-effort fallback: use all available distinct images first.
+        selected = non_featured[:]
+        for source in ranked:
+            if len(selected) >= 3:
+                break
+            if any(_same_image(source.get("url", ""), x.get("url", "")) for x in selected):
+                continue
+            selected.append(source)
+
+        # If fewer than three distinct images exist, reuse available images
+        # rather than rejecting the story. This keeps the publishing pipeline
+        # running while preserving distinct assets whenever the source allows.
+        if len(selected) < 3:
+            pool = non_featured or ranked
+            while len(selected) < 3:
+                selected.append(pool[(len(selected) - len(non_featured)) % len(pool)])
+            print(
+                f"Only {len(ranked)} distinct scraped image(s) available; "
+                "reusing an available image only where necessary."
+            )
+
+    # The third slot is OG. Whenever possible, make it different from the
+    # source article's featured image and different from the first two slots.
+    if len(selected) >= 3 and _same_image(selected[2].get("url", ""), original_featured):
+        alternatives = [
+            x for x in non_featured
+            if not any(_same_image(x.get("url", ""), selected[i].get("url", "")) for i in (0, 1))
+        ]
+        if alternatives:
+            selected[2] = alternatives[0]
+        elif non_featured:
+            selected[2] = non_featured[0]
+
+    return selected[:3]
 
 
 def upload_to_imgbb(image_url: str, source_url: str = "") -> str:
@@ -267,7 +302,7 @@ def write_post_v2(title, body, source, style, analysis, images):
     path = os.path.join(base.POSTS_DIR, f"{slug}.md")
     os.makedirs(base.POSTS_DIR, exist_ok=True)
     # Third image is reserved for OG/social metadata; first two are body images.
-    primary = images[2]["url"] if len(images) >= 3 else ""
+    primary = images[2]["url"] if len(images) >= 3 else (images[0]["url"] if images else "")
     image_meta = [{"url": x.get("url", ""), "alt": x.get("selected_alt", ""), "reason": x.get("reason", "")} for x in images]
     angle = str(analysis.get("chosen_angle_gap", "")).replace('"', "'")[:300]
     angle_type = str(analysis.get("angle_type", "")).replace('"', "'")[:80]
@@ -327,12 +362,23 @@ def main():
             continue
         analysis = result.get("analysis") if isinstance(result.get("analysis"), dict) else {}
         selected = choose_images(result, source["images"], source.get("featured", ""))
-        if len(selected) < 3:
-            print("Skipping story: need three distinct scraped images (2 body + 1 OG).")
-            continue
+        if not selected:
+            print("No scraped image available; publishing story without image assets.")
+            hosted = []
+        else:
+            # Upload each selected slot independently. Distinct source images
+            # become distinct ImgBB assets; unavoidable fallback reuse is kept
+            # only when the source itself provides too few images.
+            hosted = []
+            for image in selected:
+                hosted_url = upload_to_imgbb(image["url"], link)
+                if not hosted_url:
+                    hosted_url = image["url"]
+                hosted.append({**image, "source_url": image["url"], "url": hosted_url})
 
-        # Upload all three separately so body images and OG image are independent
-        # ImgBB assets. Never reuse the OG URL in the body.
+        # The first two slots are body images and the third is OG/social metadata.
+        # Never intentionally replace the OG slot with the source featured image
+        # when another scraped image is available.
         hosted = []
         for image in selected:
             hosted_url = upload_to_imgbb(image["url"], link)
