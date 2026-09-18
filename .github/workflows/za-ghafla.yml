@@ -49,7 +49,7 @@ jobs:
       - name: Install inline Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 lxml python-dateutil google-genai
+          pip install requests beautifulsoup4 lxml python-dateutil google-genai Pillow
 
       - name: Run Gossip desk — fully self-contained
         env:
@@ -64,6 +64,8 @@ jobs:
           from dateutil import parser as date_parser
           from google import genai
           from google.genai import types
+          from article_intelligence import extract_article_images
+          from desk_image_pipeline import prepare_images, inject_images, selected_images_json
           
           AUTHOR = os.environ["DESK_AUTHOR"]
           CATEGORY = os.environ["DESK_CATEGORY"]
@@ -178,23 +180,14 @@ jobs:
                       except Exception as e:
                           print("reader article fallback failed",url,e)
                   if len(body)<500: return None
-                  image=""
-                  image_candidates=[]
-                  for node in root.find_all("img"):
-                      blob=" ".join(str(node.get(a) or "") for a in ("src","data-src","data-lazy-src","data-original","data-url","alt","class","id")).lower()
-                      if any(x in blob for x in ("logo","site-logo","brand-logo","favicon","icon","avatar","sprite","placeholder","social-share")): continue
-                      u=""
-                      for a in ("data-src","data-lazy-src","data-original","data-url","src"):
-                          v=(node.get(a) or "").strip()
-                          if v and not v.startswith("data:"): u=urllib.parse.urljoin(url,v); break
-                      if u and u not in image_candidates: image_candidates.append(u)
-                  if image_candidates: image=image_candidates[0]
-                  if not image:
-                      t=soup.find("meta",property="og:image")
-                      if t:
-                          candidate=(t.get("content") or "").strip()
-                          if candidate and not any(x in candidate.lower() for x in ("logo","favicon","icon","sprite","placeholder","social-share")): image=candidate
-                  return {"url":url,"title":title,"body":body[:18000],"image":image}
+                  images=extract_article_images(soup,url,root,limit=12)
+                  featured=""
+                  for meta in soup.find_all("meta"):
+                      prop=meta.get("property") or meta.get("name") or ""
+                      if prop in ("og:image","twitter:image","twitter:image:src") and meta.get("content"):
+                          featured=urllib.parse.urljoin(url,meta.get("content"))
+                          break
+                  return {"url":url,"title":title,"body":body[:18000],"images":images,"featured":featured}
               except Exception as e:
                   print("skip",url,e); return None
           
@@ -248,7 +241,10 @@ jobs:
               os.makedirs(POSTS_DIR,exist_ok=True)
               now=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
               description=re.sub(r"\s+"," ",body)[:155].replace('"',"'")
-              image=src.get("image","").replace('"',"'")
+              hosted=prepare_images(src.get("images",[]),src.get("featured",""),src["url"])
+              body=inject_images(body,hosted)
+              image=(hosted[2]["url"] if len(hosted)>=3 else (hosted[0]["url"] if hosted else "")).replace('"',"'")
+              selected=selected_images_json(hosted)
               fm=f'''---
           title: "{title.replace('"',"'")}"
           slug: "{slug}"
@@ -259,6 +255,7 @@ jobs:
           author: "{AUTHOR.replace('"',"'")}"
           category: "{CATEGORY}"
           image: "{image}"
+          selectedImages: {selected}
           readTime: {max(3,len(body.split())//180)}
           source: "{src["url"]}"
           schema: "NewsArticle"
