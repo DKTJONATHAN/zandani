@@ -4,7 +4,7 @@ slug: "2026-09-18-recruitment-fraud-syndicates-target-job-seekers-with-fake-stat
 description: "KRA has warned job seekers about fake employment letters demanding KSh4,500 in supposed recruitment and onboarding fees."
 excerpt: "KRA has warned job seekers about fake employment letters demanding KSh4,500 in supposed recruitment and onboarding fees."
 date: 2026-09-18T08:02:34Z
-dateModified: 2026-09-18T08:02:34Z
+dateModified: 2026-09-18T09:20:00Z
 author: "Celestine Nzioka"
 category: "News"
 county: "Nairobi"
