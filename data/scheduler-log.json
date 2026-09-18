@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-18T08:00:58.002Z",
+  "updated": "2026-09-18T09:00:54.104Z",
   "logs": [
+    {
+      "id": "news-1789722053985",
+      "desk": "news",
+      "scheduledFor": "2026-09-18 12:00:52",
+      "dispatchedAt": "2026-09-18T09:00:52.143Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "technology-1789718457879",
       "desk": "technology",
