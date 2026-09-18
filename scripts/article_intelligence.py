@@ -45,7 +45,7 @@ def _looks_like_asset(url: str, alt: str, caption: str, img=None) -> bool:
         "logo", "site-logo", "brand-logo", "icon", "avatar", "sprite", "pixel",
         "tracking", "placeholder", "favicon", "advert", "banner-ad", "social-share",
         "whatsapp", "facebook", "twitter", "telegram", "loading", "spinner",
-        "default-image", "default_image", "lazy-placeholder",
+        "default-image", "default_image", "lazy-placeholder", "og-image", "og_image",
         "site-brand", "sitebrand", "header-image", "masthead-image",
         "brandmark", "wordmark", "zandani", "zandani-logo"
     )
@@ -72,7 +72,11 @@ def _looks_like_asset(url: str, alt: str, caption: str, img=None) -> bool:
 
 
 def extract_article_images(soup, page_url: str, article_root=None, limit: int = IMAGE_LIMIT):
-    """Return meaningful internal article image candidates with alt/caption/context."""
+    """Return meaningful internal article image candidates with alt/caption/context.
+
+    Publisher-specific OG/theme assets are intentionally excluded. Story photography
+    must come from the article body, not the page chrome or social preview.
+    """
     root = article_root or soup
     candidates = []
     seen = set()
