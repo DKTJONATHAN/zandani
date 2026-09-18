@@ -4,7 +4,7 @@ slug: "2026-09-18-kenya-cites-diaspora-safety-and-red-sea-trade-risks-in-formal-
 description: "Nairobi’s formal diplomatic intervention following a surge in missile and drone strikes against Saudi Arabia directly targets two critical domestic."
 excerpt: "Nairobi’s formal diplomatic intervention following a surge in missile and drone strikes against Saudi Arabia directly targets two critical domestic."
 date: 2026-09-18T09:02:31Z
-dateModified: 2026-09-18T09:02:31Z
+dateModified: 2026-09-18T09:20:00Z
 author: "Celestine Nzioka"
 category: "News"
 county: "Nairobi"
