@@ -1,18 +1,18 @@
 ---
 title: "From Humble Beginnings to Stardom: How Kenya’s Biggest Names Started Their Paychecks"
-slug: "from-humble-beginnings-to-stardom-how-kenya-s-biggest-names-started-their-paychecks"
+slug: "from-humble-beginnings-to-stardom-how-kenya-s-biggest-names-started-th"
 description: "The journey to the top of the Kenyan entertainment industry is rarely a smooth ascent. For many of our favorite celebrities, the path to fame and fortune b"
 excerpt: "The journey to the top of the Kenyan entertainment industry is rarely a smooth ascent. For many of our favorite celebrities, the path to fame and fortune b"
-date: 2026-09-18T14:53:38Z
-dateModified: 2026-09-18T14:53:38Z
 author: "Martin Kihara"
 category: "Showbiz"
-image: ""
-readTime: 3
-source: "https://www.mpasho.co.ke/quickfire"
+date: "2026-09-18T14:53:38Z"
+dateModified: "2026-09-18T14:53:38Z"
+focusKeyword: "from humble beginnings stardom how kenya"
 schema: "NewsArticle"
+image: ""
+readTime: "3"
+source: "https://www.mpasho.co.ke/quickfire"
 ---
-
 The journey to the top of the Kenyan entertainment industry is rarely a smooth ascent. For many of our favorite celebrities, the path to fame and fortune began with modest earnings that stand in stark contrast to the glitz and glamour we witness on our screens today. A look into the early days of these stars reveals a common thread of grit, patience, and the reality of starting from the bottom.
 
 Take, for instance, the celebrated actor Pascal Tokodi. Before he became a household name, his entry into the industry was marked by the humble beginnings of his first acting gig back in 2010. While he is now a titan of the screen, his initial pay was a far cry from the lucrative contracts he commands today, serving as a reminder that every seasoned professional was once an amateur looking for their first break.

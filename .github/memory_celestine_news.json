@@ -588,10 +588,10 @@
     "78fa574a9d9c9f2b268639a82879655f",
     "dab6b6c09a6f6fbe5324453ddacc32f6",
     "4e1e7f5acd6a54822f72f08a59b581f4",
-    "276fe77766fafb37f606e87ca6b8a158"
+    "276fe77766fafb37f606e87ca6b8a158",
+    "922000ad5168bc3d53de5f5c91e203cb"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -620,7 +620,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -793,7 +794,8 @@
     "https://kenyans.co.ke/news/127171-moja-expressway-announces-traffic-diversion-westlands-entrance-saturday",
     "https://kenyans.co.ke/news/127172-small-aircraft-crashes-kajiados-kipeto-area",
     "https://kenyans.co.ke/news/127176-uhuru-says-his-life-becoming-too-dangerous-amid-rutos-sponsor-attacks",
-    "https://kenyans.co.ke/news/127178-kra-seizes-ksh-467m-smuggled-goods-hidden-passenger-bus"
+    "https://kenyans.co.ke/news/127178-kra-seizes-ksh-467m-smuggled-goods-hidden-passenger-bus",
+    "https://kenyans.co.ke/news/127179-kpa-confirms-crane-incident-port-mombasa-operator-injured"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -888,7 +890,8 @@
     "westlands highway detour squeezes cbd traffic back onto surface waiyaki way",
     "kipeto mist exposes tight safety margins kajiado flight training corridor",
     "murang remarks highlight widening rift kenyatta deflects ruto sponsor charges",
-    "smuggling rings are rebuilding passenger buses covert cargo carriers"
+    "smuggling rings are rebuilding passenger buses covert cargo carriers",
+    "mombasa port gantry mishap reopens safety questions second major accident months"
   ],
   "topic_keys": [
     "news tracker",
@@ -1014,6 +1017,15 @@
       "structure": "Tactical shift in vehicle modifications -> The Eldoret ambush and highway pursuit -> Breakdown of the physical cargo and tax exposure -> The route logistics from Busia border crossings -> Enforcement implications for Northern Corridor transit.",
       "source": "https://kenyans.co.ke/news/127178-kra-seizes-ksh-467m-smuggled-goods-hidden-passenger-bus",
       "published_at": "2026-09-18T13:02:41Z"
+    },
+    {
+      "title": "Mombasa Port Gantry Mishap Reopens Safety Questions After Second Major Accident in Months",
+      "angle": "Focusing on the operational safety pressure facing KPA as a second major heavy-machinery accident at the port in months exposes ongoing vulnerabilities in terminal cargo-handling safety protocols.",
+      "angle_type": "institutional pressure",
+      "opening": "Scrutiny on terminal safety protocols and operational oversight at the region's busiest harbor following a major yard accident.",
+      "structure": "Safety scrutiny lead -> Reconstruction of Thursday's crane accident and injuries -> Context of the viral footage and KPA's public response -> Escalating history of heavy-machinery incidents at the port -> Scope of the safety probe and institutional accountability.",
+      "source": "https://kenyans.co.ke/news/127179-kpa-confirms-crane-incident-port-mombasa-operator-injured",
+      "published_at": "2026-09-18T15:10:17Z"
     }
   ]
 }
