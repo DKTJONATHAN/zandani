@@ -2,14 +2,15 @@ name: Technology Desk
 
 on:
   schedule:
-    - cron: '30 */2 * * *'
+    - cron: '21 */2 * * *'
       timezone: 'Africa/Nairobi'
   workflow_call:
   workflow_dispatch: {}
 
 concurrency:
-  group: zandani-${{ github.workflow }}
+  group: zandani-main-content-writer
   cancel-in-progress: false
+  queue: max
 
 permissions:
   contents: write
