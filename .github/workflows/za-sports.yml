@@ -19,65 +19,242 @@ env:
   POSTS_DIR: content/posts
   MEMORY_FILE: .github/memory_jona_sports.json
   TZ: Africa/Nairobi
-  WRITER_PROMPT_FILE: scripts/zandani_writer_prompt.txt
   FRESH_HOURS: "24"
+  DESK_AUTHOR: "Jona Munyi"
+  DESK_CATEGORY: "Sports"
+  DESK_SOURCE: "https://nation.africa/kenya/sports"
+  DESK_DOMAIN: "nation.africa"
+  DESK_ROLE: "sports correspondent"
+  DESK_AUDIENCE: "Kenyan sports fans"
 
 jobs:
   generate-and-publish:
     runs-on: ubuntu-22.04
     timeout-minutes: 45
     steps:
-      - uses: actions/checkout@v5
-        with: {fetch-depth: 0, ref: ${{ env.DEFAULT_BRANCH }}, token: ${{ secrets.ACTIONS_GITHUB_TOKEN || secrets.PERSONAL_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}, persist-credentials: true}
-      - uses: actions/setup-python@v6
-        with: {python-version: "3.11"}
-      - name: Install dependencies
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          ref: ${{ env.DEFAULT_BRANCH }}
+          token: ${{ secrets.ACTIONS_GITHUB_TOKEN || secrets.PERSONAL_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+          persist-credentials: true
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install inline Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests google-genai beautifulsoup4 lxml playwright python-dateutil Pillow
-          playwright install chromium --with-deps
-      - name: Enforce writer contract
-        env: {WRITER_DESK: sports}
+          pip install requests beautifulsoup4 lxml python-dateutil google-genai
+
+      - name: Run Sports desk — fully self-contained
+        env:
+          GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY1: ${{ secrets.GEMINI_API_KEY1 }}
+        shell: python
         run: |
-          test -f scripts/zandani_writer_prompt.txt
-          test -f scripts/article_intelligence.py
-          test -f scripts/article_revamp.py
-          python scripts/enforce_writer_contract.py
-      - name: Run Sports pipeline
-        env:
-          GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_API_KEY1: ${{ secrets.GEMINI_API_KEY1 }}
-          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
-          IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
-          POSTS_DIR: ${{ env.POSTS_DIR }}
-          MEMORY_FILE: ${{ env.MEMORY_FILE }}
-          WRITER_PROMPT_FILE: ${{ env.WRITER_PROMPT_FILE }}
-          FRESH_HOURS: "24"
-        run: python scripts/jona_sports.py
-      - name: Editorial image + angle revamp
-        env:
-          GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_API_KEY1: ${{ secrets.GEMINI_API_KEY1 }}
-          IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
-          POSTS_DIR: ${{ env.POSTS_DIR }}
-          MEMORY_FILE: ${{ env.MEMORY_FILE }}
-          REVAMP_CATEGORY: Sports
-          REVAMP_AUTHOR: Jona Munyi
-          FRESH_HOURS: "24"
-        run: python scripts/article_revamp.py
-      - name: Finish desk
-        run: if [ -f scripts/finish_desk.py ]; then python scripts/finish_desk.py || true; fi
+          import os, re, json, hashlib, datetime, urllib.parse
+          import requests
+          from bs4 import BeautifulSoup
+          from dateutil import parser as date_parser
+          from google import genai
+          from google.genai import types
+          
+          AUTHOR = os.environ["DESK_AUTHOR"]
+          CATEGORY = os.environ["DESK_CATEGORY"]
+          SOURCE_URL = os.environ["DESK_SOURCE"]
+          SOURCE_DOMAIN = os.environ["DESK_DOMAIN"]
+          MEMORY_FILE = os.environ["MEMORY_FILE"]
+          ROLE = os.environ["DESK_ROLE"]
+          AUDIENCE = os.environ["DESK_AUDIENCE"]
+          POSTS_DIR = os.environ.get("POSTS_DIR", "content/posts")
+          FRESH_HOURS = int(os.environ.get("FRESH_HOURS", "24"))
+          HEADERS = {"User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/128 Safari/537.36","Accept":"text/html,application/xhtml+xml"}
+          
+          def load_memory():
+              try:
+                  with open(MEMORY_FILE, encoding="utf-8") as f:
+                      data=json.load(f)
+                  return data if isinstance(data,dict) else {"published_hashes":[],"urls":[]}
+              except Exception:
+                  return {"published_hashes":[],"urls":[]}
+          
+          def save_memory(m):
+              os.makedirs(os.path.dirname(MEMORY_FILE) or ".", exist_ok=True)
+              m["published_hashes"]=m.get("published_hashes",[])[-500:]
+              m["urls"]=m.get("urls",[])[-500:]
+              with open(MEMORY_FILE,"w",encoding="utf-8") as f: json.dump(m,f,indent=2)
+          
+          def fetch(url):
+              r=requests.get(url,headers=HEADERS,timeout=25)
+              r.raise_for_status()
+              return r.text
+          
+          def links_from(html):
+              soup=BeautifulSoup(html,"html.parser")
+              out=[]; seen=set()
+              base=SOURCE_URL
+              for a in soup.select("a[href]"):
+                  href=urllib.parse.urljoin(base,(a.get("href") or "").strip())
+                  if not href or SOURCE_DOMAIN not in urllib.parse.urlparse(href).netloc: continue
+                  p=urllib.parse.urlparse(href).path
+                  if not p or p in ("/","/feed/") or any(x in p.lower() for x in ("/tag/","/author/","/category/","/page/","/search","/about","/contact")): continue
+                  if href in seen: continue
+                  seen.add(href); out.append(href)
+              return out[:40]
+          
+          def article(url):
+              try:
+                  html=fetch(url); soup=BeautifulSoup(html,"html.parser")
+                  title=""
+                  for prop in ("og:title","twitter:title"):
+                      t=soup.find("meta",property=prop) or soup.find("meta",attrs={"name":prop})
+                      if t and t.get("content"): title=t["content"].strip(); break
+                  if not title and soup.title: title=soup.title.get_text(" ",strip=True)
+                  published=None
+                  for prop in ("article:published_time","og:published_time"):
+                      t=soup.find("meta",property=prop)
+                      if t and t.get("content"):
+                          try: published=date_parser.parse(t["content"]); break
+                          except Exception: pass
+                  if published:
+                      if published.tzinfo is None: published=published.replace(tzinfo=datetime.timezone.utc)
+                      age=(datetime.datetime.now(datetime.timezone.utc)-published).total_seconds()/3600
+                      if age > FRESH_HOURS: return None
+                  root=soup.select_one("article") or soup.select_one("main") or soup
+                  paras=[]
+                  for p in root.find_all("p"):
+                      text=p.get_text(" ",strip=True)
+                      if len(text)>=45: paras.append(text)
+                  body="\n\n".join(paras)
+                  if len(body)<700:
+                      body="\n\n".join(p.get_text(" ",strip=True) for p in soup.find_all("p") if len(p.get_text(strip=True))>=45)
+                  if len(body)<500: return None
+                  image=""
+                  t=soup.find("meta",property="og:image")
+                  if t: image=(t.get("content") or "").strip()
+                  return {"url":url,"title":title,"body":body[:18000],"image":image}
+              except Exception as e:
+                  print("skip",url,e); return None
+          
+          def clean_title(s):
+              return re.sub(r"\s+"," ",re.sub(r"^#+\s*","",(s or "").strip())).strip()
+          
+          def slugify(s):
+              return re.sub(r"[^a-z0-9]+","-",s.lower()).strip("-")[:90]
+          
+          def generate(src):
+              key=os.environ.get("GEMINI_WRITE_KEY") or os.environ.get("GEMINI_API_KEY") or os.environ.get("GEMINI_API_KEY1")
+              if not key: raise RuntimeError("No Gemini API key configured")
+              client=genai.Client(api_key=key)
+              prompt=f"""You are {AUTHOR}, the {ROLE} for Za Ndani.
+          Write one original, publication-ready {CATEGORY} article for {AUDIENCE}.
+          Source URL: {src["url"]}
+          Source headline: {src["title"]}
+          Source reporting:
+          {src["body"]}
+          
+          Rules:
+          - Use only facts supported by the supplied source.
+          - Do not invent names, quotes, numbers, dates or events.
+          - Attribute claims and quotations clearly.
+          - Do not mention the source publication by name unless attribution is necessary.
+          - Produce a distinct angle rather than copying the source headline.
+          - Kenyan English, clean newsroom style.
+          - No meta commentary, no writing notes, no "key takeaway".
+          - Return ONLY the article as Markdown: first line is the headline, then 6-10 substantive paragraphs.
+          """
+              models=["gemini-3.1-pro-preview","gemini-3.1-flash-lite-preview","gemini-3-flash-preview","gemini-2.5-flash"]
+              last=None
+              for model in models:
+                  try:
+                      r=client.models.generate_content(model=model,contents=prompt,config=types.GenerateContentConfig(temperature=0.45,max_output_tokens=5000))
+                      text=(r.text or "").strip()
+                      if len(re.findall(r"\b\w+\b",text))>=220: return text
+                  except Exception as e:
+                      last=e
+                      print("model failed",model,e)
+              raise RuntimeError(last or "Gemini returned no usable article")
+          
+          def publish(article_text, src):
+              lines=[x.strip() for x in article_text.splitlines() if x.strip()]
+              title=clean_title(lines[0] if lines else src["title"])
+              body="\n\n".join(lines[1:]).strip()
+              if len(re.findall(r"\b\w+\b",body))<200: raise RuntimeError("Generated article too short")
+              slug=slugify(title)
+              today=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+              path=os.path.join(POSTS_DIR,f"{today}-{slug}.md")
+              os.makedirs(POSTS_DIR,exist_ok=True)
+              now=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+              description=re.sub(r"\s+"," ",body)[:155].replace('"',"'")
+              image=src.get("image","").replace('"',"'")
+              fm=f'''---
+          title: "{title.replace('"',"'")}"
+          slug: "{slug}"
+          description: "{description}"
+          excerpt: "{description}"
+          date: {now}
+          dateModified: {now}
+          author: "{AUTHOR.replace('"',"'")}"
+          category: "{CATEGORY}"
+          image: "{image}"
+          readTime: {max(3,len(body.split())//180)}
+          source: "{src["url"]}"
+          schema: "NewsArticle"
+          ---
+          
+          {body}
+          '''
+              with open(path,"w",encoding="utf-8") as f: f.write(fm)
+              return path
+          
+          def main():
+              memory=load_memory()
+              try:
+                  html=fetch(SOURCE_URL)
+              except Exception as e:
+                  print("listing failed",e); return 0
+              candidates=links_from(html)
+              print("candidates",len(candidates))
+              for url in candidates:
+                  if url in memory.get("urls",[]): continue
+                  src=article(url)
+                  if not src: continue
+                  try:
+                      text=generate(src)
+                      digest=hashlib.sha256((clean_title(text.splitlines()[0] if text.splitlines() else "")+"|"+src["url"]).encode()).hexdigest()
+                      if digest in memory.get("published_hashes",[]): continue
+                      path=publish(text,src)
+                      memory.setdefault("published_hashes",[]).append(digest)
+                      memory.setdefault("urls",[]).append(url)
+                      save_memory(memory)
+                      print("published",path)
+                      return 0
+                  except Exception as e:
+                      print("generation/publish failed",url,e)
+                      continue
+              print("No eligible story published")
+              return 0
+          
+          if __name__=="__main__":
+              raise SystemExit(main())
+
       - name: Commit and push safely
         shell: bash
         run: |
           set -euo pipefail
-          git config user.name "Za Ndani"; git config user.email "bot@zandani.co.ke"
-          git add -A; if git diff --cached --quiet; then exit 0; fi
-          git commit -m "content: Jona Munyi sports (angle-gap <=24h)"
+          git config user.name "Za Ndani"
+          git config user.email "bot@zandani.co.ke"
+          git add -A
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "content: sports desk"
           for attempt in 1 2 3 4 5; do
-            git fetch origin "${DEFAULT_BRANCH}"; git rebase "origin/${DEFAULT_BRANCH}"
+            git fetch origin "${DEFAULT_BRANCH}"
+            git rebase "origin/${DEFAULT_BRANCH}"
             if git push origin HEAD:"${DEFAULT_BRANCH}"; then exit 0; fi
             sleep $((attempt * 2))
           done
