@@ -2,14 +2,15 @@ name: Lifestyle Desk
 
 on:
   schedule:
-    - cron: '32 */2 * * *'
+    - cron: '39 */2 * * *'
       timezone: 'Africa/Nairobi'
   workflow_call:
   workflow_dispatch: {}
 
 concurrency:
-  group: zandani-${{ github.workflow }}
+  group: zandani-main-content-writer
   cancel-in-progress: false
+  queue: max
 
 permissions:
   contents: write
