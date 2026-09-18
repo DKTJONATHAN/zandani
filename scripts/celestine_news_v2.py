@@ -269,8 +269,22 @@ def title_similarity(a, b):
     return len(wa & wb) / max(1, len(wa | wb))
 
 
+def strip_generated_images(body):
+    """Remove every image supplied by the model before inserting trusted scraped assets.
+
+    Gemini receives source image candidates for editorial selection, but its output
+    must never be allowed to introduce arbitrary image URLs (including Zandani's
+    own logo or a source site's branding). The pipeline owns image placement.
+    """
+    body = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", body)
+    body = re.sub(r"<img\\b[^>]*>", "", body, flags=re.I)
+    body = re.sub(r"\n{3,}", "\n\n", body)
+    return body.strip()
+
+
 def inject_images(body, images):
-    """Place only the first two selected images deep in the article body."""
+    """Place only the first two trusted selected images deep in the article body."""
+    body = strip_generated_images(body)
     if len(images) < 2:
         return body
     paragraphs = [p for p in body.split("\n\n") if p.strip()]
