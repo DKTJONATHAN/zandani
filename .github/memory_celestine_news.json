@@ -581,10 +581,10 @@
     "6c8cffe295a292266e156fc9a8381677",
     "918e4e37d62569d83f75ec28cbe4d012",
     "38cc16d0cac148642524e2673adc96d5",
-    "95943600bf21b10fcc2866dbf87cf8b9"
+    "95943600bf21b10fcc2866dbf87cf8b9",
+    "b19593fbfa7303eaae9ab9eb33537ed5"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -613,7 +613,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -779,7 +780,8 @@
     "https://kenyans.co.ke/news/127159-teachers-get-improved-sha-benefits-govt-addresses-ivf-cancer-care-concerns",
     "https://kenyans.co.ke/news/127162-tanzania-introduces-mandatory-travel-insurance-foreign-visitors",
     "https://kenyans.co.ke/news/127164-kenya-navy-explores-new-radar-and-anti-drone-technology-swedish-firm",
-    "https://kenyans.co.ke/news/127160-2-dead-10-injured-after-fuel-tanker-explodes-along-eldoret-webuye-highway"
+    "https://kenyans.co.ke/news/127160-2-dead-10-injured-after-fuel-tanker-explodes-along-eldoret-webuye-highway",
+    "https://kenyans.co.ke/news/127165-world-bank-invites-kenyan-youth-groups-apply-ksh-434m-health-grants"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -867,7 +869,8 @@
     "mwalimu cover rescue govt was forced restore premium benefits lost sha transition",
     "tanzania spares eac travellers mandatory inbound travel insurance rollout",
     "mtongwe tactical shift navy weighs subsurface anti drone grid indian ocean",
-    "juakali tanker blast triggers critical burn wards response eldoret"
+    "juakali tanker blast triggers critical burn wards response eldoret",
+    "world bank health grant attaches strict coalition rules ksh434m youth envelope"
   ],
   "topic_keys": [
     "news tracker",
@@ -930,6 +933,15 @@
       "structure": "Lead on trauma wards and casualty severity -> Chronology of rollover to blast during siphoning -> Multi-agency rescue and transport breakdown -> Corridor paralysis and official investigative response.",
       "source": "https://kenyans.co.ke/news/127160-2-dead-10-injured-after-fuel-tanker-explodes-along-eldoret-webuye-highway",
       "published_at": "2026-09-18T06:13:38Z"
+    },
+    {
+      "title": "World Bank Health Grant Attaches Strict Coalition Rules to Ksh434M Youth Envelope",
+      "angle": "The operational catch in the financing structure: grassroots youth organisations cannot apply solo and must establish formal coalitions of two to three entities within a tight three-week window to unlock health budget oversight funding.",
+      "angle_type": "practical change",
+      "opening": "Lead on the structural barrier and coalition requirement facing grassroots applicants seeking a slice of the 18-month advocacy fund.",
+      "structure": "Coalition rules and eligibility threshold -> Funding scope and consortium managers -> Strategic focus on budget tracking and maternal/child health -> Regional context across 22 nations and submission timetable.",
+      "source": "https://kenyans.co.ke/news/127165-world-bank-invites-kenyan-youth-groups-apply-ksh-434m-health-grants",
+      "published_at": "2026-09-18T07:02:35Z"
     }
   ]
 }
