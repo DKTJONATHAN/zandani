@@ -20,10 +20,10 @@ AUTHOR_NAME = "Mutheu Ann"
 AUTHOR_SLUG = "mutheu-ann"
 CATEGORY = "Entertainment"
 SITE_BASE_URL = "https://zandani.co.ke"
-SOURCE_URL = "https://nation.africa/kenya/life-style/entertainment"
-SOURCE_DOMAIN = "nation.africa"
+SOURCE_URL = "https://www.pulse.co.ke/entertainment"
+SOURCE_DOMAIN = "pulse.co.ke"
 SOURCE_URLS = [
-    "https://nation.africa/kenya/life-style/entertainment",
+    "https://www.pulse.co.ke/entertainment",
     "https://www.pulselive.co.ke/articles/entertainment",
 ]
 POSTS_DIR = os.environ.get("POSTS_DIR", "content/posts")
