@@ -1,21 +1,21 @@
 ---
 title: "Economic Stability and Security Crisis: Nyoro Challenges State Policy and Governance"
-slug: "economic-stability-and-security-crisis-nyoro-challenges-state-policy-and-governance"
+slug: "economic-stability-and-security-crisis-nyoro-challenges-state-policy-a"
 description: "Kiharu Member of Parliament Ndindi Nyoro has launched a scathing critique of the national government, linking the persistent insecurity in Isiolo County to"
 excerpt: "Kiharu Member of Parliament Ndindi Nyoro has launched a scathing critique of the national government, linking the persistent insecurity in Isiolo County to"
-date: 2026-09-18T10:32:18Z
-dateModified: 2026-09-18T10:32:18Z
 author: "Grace Mkamburi"
-category: "Business"
 image: "https://sportal365images.com/process/smp-images-production/pulselive.co.ke/18092026/c6ef2b2a-3764-4e10-9379-31982fa38562.webp?operations=autocrop(700:467)"
-readTime: 3
-source: "https://www.pulse.co.ke/story/nyoro-slams-ruto-over-isiolo-insecurity-and-safaricom-stake-2026091807540709134"
+category: "Business"
+date: "2026-09-18T10:32:18Z"
+dateModified: "2026-09-18T10:32:18Z"
+focusKeyword: "economic stability and security crisis nyoro"
 schema: "NewsArticle"
+readTime: "3"
+source: "https://www.pulse.co.ke/story/nyoro-slams-ruto-over-isiolo-insecurity-and-safaricom-stake-2026091807540709134"
 ---
+Kiharu Member of Parliament Ndindi Nyoro has launched a scathing critique of the national government, linking the persistent insecurity in Isiolo County to broader failures in administrative accountability. Speaking during a tour of Isiolo town, Nyoro condemned the recent attack in Gotu-which claimed the lives of two police officers, a National Police Reservist, and two civilians-as a definitive failure of the state to uphold its constitutional mandate to protect its citizens.
 
-Kiharu Member of Parliament Ndindi Nyoro has launched a scathing critique of the national government, linking the persistent insecurity in Isiolo County to broader failures in administrative accountability. Speaking during a tour of Isiolo town, Nyoro condemned the recent attack in Gotu—which claimed the lives of two police officers, a National Police Reservist, and two civilians—as a definitive failure of the state to uphold its constitutional mandate to protect its citizens.
-
-The lawmaker’s visit follows a wave of unrest in the region, where residents recently blocked sections of the Isiolo–Moyale Highway to protest the escalating violence. Local leaders, including Chari Ward MCA Mejja Golicha, underscored the economic impact of this instability, noting that the rampant theft of livestock has systematically impoverished pastoralist families who rely on cattle as their primary economic lifeline.
+The lawmaker’s visit follows a wave of unrest in the region, where residents recently blocked sections of the Isiolo-Moyale Highway to protest the escalating violence. Local leaders, including Chari Ward MCA Mejja Golicha, underscored the economic impact of this instability, noting that the rampant theft of livestock has systematically impoverished pastoralist families who rely on cattle as their primary economic lifeline.
 
 Beyond the immediate security concerns, Nyoro leveled serious allegations against elements within the government, claiming that high-ranking officials are complicit in the illegal cattle rustling trade. He argued that this internal involvement has fueled the cycle of banditry, leaving communities vulnerable while the government remains inactive. To support those affected by the Gotu tragedy, Nyoro donated 200,000 shillings to the victims' families.
 

@@ -585,10 +585,10 @@
     "b19593fbfa7303eaae9ab9eb33537ed5",
     "b5ebfdde1398bff2ffa9f368520e1531",
     "119bcb955db8e00c3ee6707f0ef01000",
-    "78fa574a9d9c9f2b268639a82879655f"
+    "78fa574a9d9c9f2b268639a82879655f",
+    "dab6b6c09a6f6fbe5324453ddacc32f6"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -617,7 +617,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -787,7 +788,8 @@
     "https://kenyans.co.ke/news/127165-world-bank-invites-kenyan-youth-groups-apply-ksh-434m-health-grants",
     "https://kenyans.co.ke/news/127167-kra-warns-job-applicants-over-fake-offers-soliciting-recruitment-fees",
     "https://kenyans.co.ke/news/127169-kenya-condemns-missile-and-drone-attacks-saudi-arabia",
-    "https://kenyans.co.ke/news/127171-moja-expressway-announces-traffic-diversion-westlands-entrance-saturday"
+    "https://kenyans.co.ke/news/127171-moja-expressway-announces-traffic-diversion-westlands-entrance-saturday",
+    "https://kenyans.co.ke/news/127172-small-aircraft-crashes-kajiados-kipeto-area"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -879,7 +881,8 @@
     "world bank health grant attaches strict coalition rules ksh434m youth envelope",
     "recruitment fraud syndicates target job seekers fake state agency onboarding letters",
     "cites diaspora safety red sea trade risks formal saudi attack rebuke",
-    "westlands highway detour squeezes cbd traffic back onto surface waiyaki way"
+    "westlands highway detour squeezes cbd traffic back onto surface waiyaki way",
+    "kipeto mist exposes tight safety margins kajiado flight training corridor"
   ],
   "topic_keys": [
     "news tracker",
@@ -978,6 +981,15 @@
       "structure": "Detour mechanics -> Toll gate operational exceptions -> Timeline breakdown -> Corridor vulnerability and recent precedent.",
       "source": "https://kenyans.co.ke/news/127171-moja-expressway-announces-traffic-diversion-westlands-entrance-saturday",
       "published_at": "2026-09-18T10:02:36Z"
+    },
+    {
+      "title": "Kipeto Mist Exposes Tight Safety Margins in Kajiado Flight Training Corridor",
+      "angle": "The operational and environmental hazards of conducting low-altitude flight training exercises in Kipeto's wind-corridor terrain, where sudden micro-climatic shifts like morning mist severely compress emergency decision-making windows near heavy power infrastructure.",
+      "angle_type": "consequence",
+      "opening": "Focusing directly on the localized environmental risks and the tight flight-safety margins in the high-wind Kipeto corridor.",
+      "structure": "Lead on environmental risk and flight training context -> Chronology of the flight's encounter with the morning mist -> Emergency landing attempt and casualty details -> Landscape context (wind power plant vicinity) -> Current status of recovery and site assessment.",
+      "source": "https://kenyans.co.ke/news/127172-small-aircraft-crashes-kajiados-kipeto-area",
+      "published_at": "2026-09-18T11:02:06Z"
     }
   ]
 }
