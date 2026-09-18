@@ -420,7 +420,8 @@
     "3066a172127fe98dbba23f54fd672138",
     "7b126d1b1dcf1fabd22153976b113bfc",
     "b20e853b6f8d04759647348286b6790f",
-    "b336a663f7423bedf25e22726ea9e635"
+    "b336a663f7423bedf25e22726ea9e635",
+    "9174c9a5e935c9f807fc08a8cc0cc3df79fed1ff6b8ac698c2941f097493ece8"
   ],
   "style_history": [
     "Trend Take",
@@ -535,5 +536,8 @@
     "winners_losers|Adria Arjona|Reaction Round-up",
     "winners_losers|Dune (1984 film)|Explainer",
     "story_progression|na|Trend Take"
+  ],
+  "urls": [
+    "https://nation.africa/kenya/news/education"
   ]
 }
