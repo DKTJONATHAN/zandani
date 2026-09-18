@@ -8,8 +8,9 @@ on:
   workflow_dispatch: {}
 
 concurrency:
-  group: zandani-${{ github.workflow }}
+  group: zandani-main-content-writer
   cancel-in-progress: false
+  queue: max
 
 permissions:
   contents: write
