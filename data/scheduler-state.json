@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T05:44:47.316Z",
+  "updated": "2026-09-18T05:56:18.991Z",
   "desks": {
     "news": {
       "lastTriggeredAt": "2026-09-18T05:00:44.738Z",
@@ -65,10 +65,10 @@
       "lastSlot": "2026-09-18T08:44"
     },
     "entertainment": {
-      "lastTriggeredAt": "2026-09-18T05:08:44.756Z",
-      "lastStatus": "failed",
-      "lastError": "Workflow does not have 'workflow_dispatch' trigger",
-      "lastSource": "cron",
+      "lastTriggeredAt": "2026-09-18T05:56:14.970Z",
+      "lastStatus": "ok",
+      "lastError": null,
+      "lastSource": "manual",
       "lastSlot": "2026-09-18T08:08"
     },
     "diano": {
