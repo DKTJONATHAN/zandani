@@ -195,12 +195,12 @@
     "16d9741c5b6f53f6e1e90a71aeaf940a",
     "60180881191d64eafc7e3c81",
     "2e9840981f2f1c06ea53cf21",
-    "208a44ad1b63ce2382ba193d"
+    "208a44ad1b63ce2382ba193d",
+    "409a9294331d505b501eec94",
+    "f47c81eecde8642b25bf8270",
+    "104c2c1859c1a92645561439"
   ],
   "style_history": [
-    "Explainer",
-    "Hard News Lead",
-    "Reaction Round-up",
     "Profile Beat",
     "Trend Take",
     "Explainer",
@@ -227,10 +227,12 @@
     "Profile Beat",
     "Event Report",
     "Event Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take",
+    "Desk Take",
+    "Desk Take"
   ],
   "angle_history": [
-    "winners_losers|Nigerian music|Reaction Round-up",
     "money_follow|Afrobeats|Explainer",
     "timeline_shift|Heineken House Experience|Trend Take",
     "impact_on_citizens|Big Brother Naija|Hard News Lead",
@@ -307,7 +309,10 @@
     "story_progression|BBNaija|Profile Beat",
     "Motorists navigating the Westlands corridor face a familiar pattern of congestion this",
     "Foreign nationals arriving at Tanzanian borders now face a new administrative hurdle:",
-    "Former President Uhuru Kenyatta has publicly voiced concerns for his personal safety,"
+    "Former President Uhuru Kenyatta has publicly voiced concerns for his personal safety,",
+    "For motorists navigating the Westlands-CBD corridor, the Nairobi Expressway has long served",
+    "The landscape for foreign visitors moving across East African borders has become",
+    "The political lexicon of the Kenya Kwanza administration has found its most"
   ],
   "revamp_angles": [
     {
@@ -317,6 +322,14 @@
       "evidence_basis": "Statements made by former President Uhuru Kenyatta at a burial in Gikuu and President William Ruto during a rally in Sindo, Homa Bay County.",
       "source": "https://www.kenyans.co.ke/news/127176-uhuru-says-his-life-becoming-too-dangerous-amid-rutos-sponsor-attacks",
       "published_at": "2026-09-18T17:07:29Z"
+    },
+    {
+      "title": "Uhuru Limits Spontaneous Remarks, Citing 'Dangerous' Political Rhetoric",
+      "angle": "Examining the specific operational and rhetorical shift in how Uhuru handled public speaking following the accusations, choosing to curtail off-the-cuff remarks, alongside Ruto's recount of their past 10-for-10 election pact.",
+      "angle_type": "operational_and_tactical_response",
+      "evidence_basis": "Direct quotes from Uhuru Kenyatta at a burial in Gikuu, Kiharu Sub-County, and President William Ruto's statements during a rally in Sindo, Homa Bay County.",
+      "source": "https://www.kenyans.co.ke/news/127176-uhuru-says-his-life-becoming-too-dangerous-amid-rutos-sponsor-attacks",
+      "published_at": "2026-09-18T18:27:35Z"
     }
   ]
 }
