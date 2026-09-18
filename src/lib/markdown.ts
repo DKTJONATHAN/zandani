@@ -105,8 +105,9 @@ export async function getPostBySlug(slug: string): Promise<Post | undefined> {
     if (!res.ok) return undefined;
     const rawContent = await res.text();
     const { content } = parseFrontmatter(rawContent);
-    const { facts, body } = extractWhatWeKnow(content);
-    return { ...metadata, content, htmlContent: marked(body) as string, knowFacts: facts, imageAlt: metadata.title };
+    const safeContent = stripBlockedArticleImages(content);
+    const { facts, body } = extractWhatWeKnow(safeContent);
+    return { ...metadata, content: safeContent, htmlContent: marked(body) as string, knowFacts: facts, imageAlt: metadata.title };
   } catch (error) {
     console.error(`Error loading post content for ${slug}:`, error);
     return undefined;
