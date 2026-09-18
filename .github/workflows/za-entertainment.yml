@@ -56,6 +56,7 @@ jobs:
           GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_API_KEY1: ${{ secrets.GEMINI_API_KEY1 }}
+          IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
         shell: python
         run: |
           import os, re, json, hashlib, datetime, urllib.parse
@@ -64,8 +65,8 @@ jobs:
           from dateutil import parser as date_parser
           from google import genai
           from google.genai import types
-          from article_intelligence import extract_article_images
-          
+          from article_intelligence import extract_article_images, _looks_like_asset
+
           AUTHOR = os.environ["DESK_AUTHOR"]
           CATEGORY = os.environ["DESK_CATEGORY"]
           SOURCE_URL = os.environ["DESK_SOURCE"]
@@ -76,7 +77,7 @@ jobs:
           POSTS_DIR = os.environ.get("POSTS_DIR", "content/posts")
           FRESH_HOURS = int(os.environ.get("FRESH_HOURS", "24"))
           HEADERS = {"User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/128 Safari/537.36","Accept":"text/html,application/xhtml+xml"}
-          
+
           def load_memory():
               try:
                   with open(MEMORY_FILE, encoding="utf-8") as f:
@@ -84,13 +85,13 @@ jobs:
                   return data if isinstance(data,dict) else {"published_hashes":[],"urls":[]}
               except Exception:
                   return {"published_hashes":[],"urls":[]}
-          
+
           def save_memory(m):
               os.makedirs(os.path.dirname(MEMORY_FILE) or ".", exist_ok=True)
               m["published_hashes"]=m.get("published_hashes",[])[-500:]
               m["urls"]=m.get("urls",[])[-500:]
               with open(MEMORY_FILE,"w",encoding="utf-8") as f: json.dump(m,f,indent=2)
-          
+
           def fetch(url):
               try:
                   r=requests.get(url,headers=HEADERS,timeout=25)
@@ -99,13 +100,11 @@ jobs:
               except requests.HTTPError as e:
                   if getattr(e.response,"status_code",0) != 403:
                       raise
-                  # Nation blocks some GitHub Actions IPs at the edge. Use the
-                  # public reader fallback only when the direct request is forbidden.
                   proxy="https://r.jina.ai/http://"+url.replace("https://","",1)
                   pr=requests.get(proxy,headers={"User-Agent":"Mozilla/5.0"},timeout=35)
                   pr.raise_for_status()
                   return pr.text
-          
+
           def links_from(html):
               soup=BeautifulSoup(html,"html.parser")
               out=[]; seen=set()
@@ -117,7 +116,6 @@ jobs:
                   if not p or p in ("/","/feed/") or any(x in p.lower() for x in ("/tag/","/author/","/category/","/page/","/search","/about","/contact")): continue
                   if href in seen: continue
                   seen.add(href); out.append(href)
-              # Jina Reader returns Markdown instead of HTML.
               for href in re.findall(r"\]\((https?://[^)]+)\)", html):
                   href=href.strip()
                   if SOURCE_DOMAIN not in urllib.parse.urlparse(href).netloc: continue
@@ -126,7 +124,7 @@ jobs:
                   if href not in seen:
                       seen.add(href); out.append(href)
               return out[:40]
-          
+
           def article(url):
               try:
                   html=fetch(url); soup=BeautifulSoup(html,"html.parser")
@@ -164,13 +162,13 @@ jobs:
                   return {"url":url,"title":title,"body":body[:18000],"images":images,"featured":featured}
               except Exception as e:
                   print("skip",url,e); return None
-          
+
           def clean_title(s):
               return re.sub(r"\s+"," ",re.sub(r"^#+\s*","",(s or "").strip())).strip()
-          
+
           def slugify(s):
               return re.sub(r"[^a-z0-9]+","-",s.lower()).strip("-")[:90]
-          
+
           def generate(src):
               key=os.environ.get("GEMINI_WRITE_KEY") or os.environ.get("GEMINI_API_KEY") or os.environ.get("GEMINI_API_KEY1")
               if not key: raise RuntimeError("No Gemini API key configured")
@@ -181,7 +179,7 @@ jobs:
           Source headline: {src["title"]}
           Source reporting:
           {src["body"]}
-          
+
           Rules:
           - Use only facts supported by the supplied source.
           - Do not invent names, quotes, numbers, dates or events.
@@ -203,7 +201,16 @@ jobs:
                       last=e
                       print("model failed",model,e)
               raise RuntimeError(last or "Gemini returned no usable article")
-          
+
+          def is_bad_image(url, alt=""):
+              if not url: return True
+              if _looks_like_asset(url, alt, ""):
+                  return True
+              low = url.lower()
+              if "zandani.co.ke" in low or "default-og" in low or "/logo" in low:
+                  return True
+              return False
+
           def publish(article_text, src):
               lines=[x.strip() for x in article_text.splitlines() if x.strip()]
               title=clean_title(lines[0] if lines else src["title"])
@@ -220,15 +227,20 @@ jobs:
               candidates=src.get("images",[]); selected=[]; seen=set()
               for item in candidates:
                   url=(item.get("url") or "").strip()
-                  if not url or url in seen: continue
-                  seen.add(url); selected.append({**item,"selected_alt":str(item.get("alt") or item.get("caption") or "News image").strip()[:180] or "News image"})
+                  alt=str(item.get("alt") or item.get("caption") or "").strip()
+                  if not url or url in seen or is_bad_image(url, alt): continue
+                  seen.add(url); selected.append({**item,"selected_alt":(alt or "News image")[:180]})
                   if len(selected)>=3: break
               hosted=[]; api=os.environ.get("IMGBB_API_KEY","").strip()
               for item in selected:
                   source=item["url"]; hosted_url=source
+                  if is_bad_image(source):
+                      continue
                   if api and "ibb.co" not in source and "imgbb.com" not in source:
                       try:
                           rr=requests.get(source,headers={"User-Agent":"Mozilla/5.0","Referer":src["url"]},timeout=25); rr.raise_for_status(); raw=rr.content
+                          if len(raw) < 800:
+                              print("skip tiny image", source); continue
                           try:
                               im=Image.open(io.BytesIO(raw))
                               if im.mode in ("RGBA","LA","P"): im=im.convert("RGB")
@@ -240,7 +252,8 @@ jobs:
                           if up.ok:
                               d=up.json().get("data") or {}; hosted_url=d.get("url") or d.get("display_url") or source
                       except Exception as exc: print("image upload failed",exc)
-                  hosted.append({**item,"url":hosted_url})
+                  if not is_bad_image(hosted_url):
+                      hosted.append({**item,"url":hosted_url})
               body=re.sub(r"!\[[^\]]*\]\([^)]*\)","",body); body=re.sub(r"<img\b[^>]*>","",body,flags=re.I)
               blocks=[x for x in body.split("\n\n") if x.strip()]
               if len(hosted)>=2 and len(blocks)>=4:
@@ -251,6 +264,8 @@ jobs:
                           im=pos[i]; alt=re.sub(r"[\[\]\r\n]","",im.get("selected_alt") or "News image")[:180]; out.append(f"![{alt}]({im['url']})")
                   body="\n\n".join(out)
               image=(hosted[2]["url"] if len(hosted)>=3 else (hosted[0]["url"] if hosted else "")).replace('"',"'")
+              if is_bad_image(image):
+                  image=""
               selected=json.dumps([{"url":x["url"],"alt":x.get("selected_alt","News image"),"reason":"Selected from the scraped article image set"} for x in hosted],ensure_ascii=False)
               fm=f'''---
           title: "{title.replace('"',"'")}"
@@ -267,12 +282,12 @@ jobs:
           source: "{src["url"]}"
           schema: "NewsArticle"
           ---
-          
+
           {body}
           '''
               with open(path,"w",encoding="utf-8") as f: f.write(fm)
               return path
-          
+
           def main():
               memory=load_memory()
               try:
@@ -300,7 +315,7 @@ jobs:
                       continue
               print("No eligible story published")
               return 0
-          
+
           if __name__=="__main__":
               raise SystemExit(main())
 
