@@ -22,8 +22,8 @@ env:
   FRESH_HOURS: "24"
   DESK_AUTHOR: "Zed Mogaka"
   DESK_CATEGORY: "Entertainment"
-  DESK_SOURCE: "https://www.ghafla.com/"
-  DESK_DOMAIN: "ghafla.com"
+  DESK_SOURCE: "https://www.ghafla.co.ke/"
+  DESK_DOMAIN: "ghafla.co.ke"
   DESK_ROLE: "entertainment desk writer"
   DESK_AUDIENCE: "Kenyan entertainment readers"
 
@@ -90,9 +90,21 @@ jobs:
               with open(MEMORY_FILE,"w",encoding="utf-8") as f: json.dump(m,f,indent=2)
           
           def fetch(url):
-              r=requests.get(url,headers=HEADERS,timeout=25)
-              r.raise_for_status()
-              return r.text
+              try:
+                  r=requests.get(url,headers=HEADERS,timeout=25)
+                  r.raise_for_status()
+                  return r.text
+              except requests.HTTPError as e:
+                  if getattr(e.response,"status_code",0) != 403:
+                      raise
+                  # Ghafla currently serves the site from ghafla.co.ke and may
+                  # return 403 to GitHub Actions IPs. Use a public reader
+                  # fallback only when direct access is forbidden.
+                  clean=url.replace("https://","",1).replace("http://","",1)
+                  proxy="https://r.jina.ai/http://"+clean
+                  pr=requests.get(proxy,headers={"User-Agent":"Mozilla/5.0"},timeout=35)
+                  pr.raise_for_status()
+                  return pr.text
           
           def links_from(html):
               soup=BeautifulSoup(html,"html.parser")
@@ -105,6 +117,15 @@ jobs:
                   if not p or p in ("/","/feed/") or any(x in p.lower() for x in ("/tag/","/author/","/category/","/page/","/search","/about","/contact")): continue
                   if href in seen: continue
                   seen.add(href); out.append(href)
+              # Reader fallbacks may return Markdown links rather than HTML anchors.
+              for href in re.findall(r"\]\((https?://[^)]+)\)", html):
+                  href=href.strip()
+                  host=urllib.parse.urlparse(href).netloc.lower()
+                  if SOURCE_DOMAIN not in host: continue
+                  p=urllib.parse.urlparse(href).path
+                  if not p or any(x in p.lower() for x in ("/tag/","/author/","/category/","/page/","/search","/about","/contact")): continue
+                  if href not in seen:
+                      seen.add(href); out.append(href)
               return out[:40]
           
           def article(url):
