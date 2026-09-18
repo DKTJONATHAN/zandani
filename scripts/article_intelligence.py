@@ -8,7 +8,7 @@ rather than pretending to visually inspect remote images.
 from __future__ import annotations
 
 import re
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 IMAGE_LIMIT = 12
 
@@ -40,6 +40,7 @@ def _normalise_url(url: str) -> str:
 
 
 def _looks_like_asset(url: str, alt: str, caption: str, img=None) -> bool:
+    """Return True if this looks like branding, logo, placeholder, or non-story asset."""
     blob = f"{url} {alt} {caption}".lower()
     junk = (
         "logo", "site-logo", "brand-logo", "icon", "avatar", "sprite", "pixel",
@@ -47,10 +48,23 @@ def _looks_like_asset(url: str, alt: str, caption: str, img=None) -> bool:
         "whatsapp", "facebook", "twitter", "telegram", "loading", "spinner",
         "default-image", "default_image", "lazy-placeholder", "og-image", "og_image",
         "site-brand", "sitebrand", "header-image", "masthead-image",
-        "brandmark", "wordmark", "zandani", "zandani-logo"
+        "brandmark", "wordmark", "zandani", "zandani-logo", "default-og",
+        "default_og", "site-icon", "apple-touch", "ms-icon", "android-chrome",
     )
     if any(x in blob for x in junk):
         return True
+
+    # Never accept images hosted on our own domain or known brand asset paths.
+    try:
+        host = urlparse(url).netloc.lower().replace("www.", "")
+        path = urlparse(url).path.lower()
+        if host in ("zandani.co.ke", "www.zandani.co.ke") or host.endswith(".zandani.co.ke"):
+            return True
+        if any(x in path for x in ("/logo", "/brand", "/favicon", "/icon", "/default-og", "/placeholder")):
+            return True
+    except Exception:
+        pass
+
     if img is not None:
         for parent in img.parents:
             if getattr(parent, "name", "") in {"header", "nav", "footer", "aside"}:
@@ -197,6 +211,9 @@ def recent_angle_context(memory: dict, limit: int = 12) -> str:
 def build_image_markdown(image: dict, alt_override: str = "") -> str:
     """Build a safe markdown image from a Gemini-selected source candidate."""
     url = image.get("url", "")
+    # Final safety: never emit a Zandani-hosted or logo-like image.
+    if not url or _looks_like_asset(url, alt_override or image.get("alt") or "", image.get("caption") or ""):
+        return ""
     alt = alt_override or image.get("alt") or image.get("caption") or "News image"
     alt = re.sub(r"[\[\]\r\n]", "", alt).strip()[:180]
     return f"![{alt}]({url})" if url else ""
