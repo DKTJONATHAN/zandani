@@ -6,8 +6,8 @@ if __name__ == "__main__":
     run_writer({
         "author_name": "Jona Munyi",
         "category": "Lifestyle",
-        "source_url": "https://nation.africa/kenya/life-style",
-        "source_domain": "nation.africa",
+        "source_url": "https://www.pulse.co.ke/lifestyle",
+        "source_domain": "pulse.co.ke",
         "memory_file": ".github/memory_jona_lifestyle.json",
         "role": "lifestyle correspondent",
         "audience": "Kenyan lifestyle and culture readers",
