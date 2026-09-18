@@ -8,7 +8,7 @@ rather than pretending to visually inspect remote images.
 from __future__ import annotations
 
 import re
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin
 
 
 IMAGE_LIMIT = 12
@@ -26,7 +26,7 @@ def _absolute_url(src: str, page_url: str) -> str:
 
 
 def _src_from_img(img) -> str:
-    for attr in ("src", "data-src", "data-lazy-src", "data-original", "data-url"):
+    for attr in ("data-src", "data-lazy-src", "data-original", "data-url", "src"):
         value = img.get(attr)
         if value and not str(value).startswith("data:"):
             return str(value)
@@ -37,15 +37,34 @@ def _src_from_img(img) -> str:
     return ""
 
 
-def _looks_like_asset(url: str, alt: str, caption: str) -> bool:
+def _looks_like_asset(url: str, alt: str, caption: str, img=None) -> bool:
     blob = f"{url} {alt} {caption}".lower()
     junk = (
-        "logo", "icon", "avatar", "sprite", "pixel", "tracking", "placeholder",
-        "favicon", "advert", "banner-ad", "social-share", "whatsapp", "facebook",
-        "twitter", "telegram", "loading", "spinner"
+        "logo", "site-logo", "brand-logo", "icon", "avatar", "sprite", "pixel",
+        "tracking", "placeholder", "favicon", "advert", "banner-ad", "social-share",
+        "whatsapp", "facebook", "twitter", "telegram", "loading", "spinner",
+        "default-image", "default_image", "lazy-placeholder"
     )
-    return any(x in blob for x in junk)
-
+    if any(x in blob for x in junk):
+        return True
+    if img is not None:
+        for parent in img.parents:
+            if getattr(parent, "name", "") in {"header", "nav", "footer", "aside"}:
+                return True
+            attrs = " ".join(str(parent.get(k, "")) for k in ("id", "class")).lower()
+            if any(x in attrs for x in ("logo", "branding", "site-header", "navbar", "navigation", "masthead", "footer", "sidebar", "social-share")):
+                return True
+        attrs = " ".join(str(img.get(k, "")) for k in ("id", "class", "alt")).lower()
+        if any(x in attrs for x in ("logo", "brand", "avatar", "icon", "sprite")):
+            return True
+        try:
+            width = int(re.sub(r"[^0-9]", "", str(img.get("width", "")))) if img.get("width") else 0
+            height = int(re.sub(r"[^0-9]", "", str(img.get("height", "")))) if img.get("height") else 0
+            if width and height and (width < 180 or height < 120):
+                return True
+        except Exception:
+            pass
+    return False
 
 def extract_article_images(soup, page_url: str, article_root=None, limit: int = IMAGE_LIMIT):
     """Return meaningful internal article image candidates with alt/caption/context."""
@@ -53,9 +72,24 @@ def extract_article_images(soup, page_url: str, article_root=None, limit: int = 
     candidates = []
     seen = set()
 
-    for img in root.find_all("img"):
+    if getattr(root, "name", None) in (None, "html", "body"):
+        for selector in (
+            "article", "[itemprop='articleBody']", ".article-body", ".article__body",
+            ".article-body-content", ".entry-content", ".post-content", ".story-content",
+            ".content-body", ".node__content", "main"
+        ):
+            node = soup.select_one(selector)
+            if node and len(node.find_all("p")) >= 2:
+                root = node
+                break
+
+    imgs = root.find_all("img")
+    if root is soup:
+        imgs = [img for img in imgs if img.find_parent(["header", "nav", "footer", "aside"]) is None]
+
+    for img in imgs:
         src = _absolute_url(_src_from_img(img), page_url)
-        if not src or src in seen or _looks_like_asset(src, img.get("alt", ""), ""):
+        if not src or src in seen or _looks_like_asset(src, img.get("alt", ""), "", img):
             continue
 
         alt = _clean(img.get("alt", ""), 240)
