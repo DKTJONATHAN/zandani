@@ -580,10 +580,10 @@
     "2e40f5aa6638f1eba351399b39bba277",
     "6c8cffe295a292266e156fc9a8381677",
     "918e4e37d62569d83f75ec28cbe4d012",
-    "38cc16d0cac148642524e2673adc96d5"
+    "38cc16d0cac148642524e2673adc96d5",
+    "95943600bf21b10fcc2866dbf87cf8b9"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -612,7 +612,8 @@
     "Event Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -777,7 +778,8 @@
     "https://kenyans.co.ke/news/127156-dci-recovers-over-500-phones-motherboards-kisii-raid",
     "https://kenyans.co.ke/news/127159-teachers-get-improved-sha-benefits-govt-addresses-ivf-cancer-care-concerns",
     "https://kenyans.co.ke/news/127162-tanzania-introduces-mandatory-travel-insurance-foreign-visitors",
-    "https://kenyans.co.ke/news/127164-kenya-navy-explores-new-radar-and-anti-drone-technology-swedish-firm"
+    "https://kenyans.co.ke/news/127164-kenya-navy-explores-new-radar-and-anti-drone-technology-swedish-firm",
+    "https://kenyans.co.ke/news/127160-2-dead-10-injured-after-fuel-tanker-explodes-along-eldoret-webuye-highway"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -864,7 +866,8 @@
     "kisii raid exposes repair shop backdoor stripping security locks off financed phones",
     "mwalimu cover rescue govt was forced restore premium benefits lost sha transition",
     "tanzania spares eac travellers mandatory inbound travel insurance rollout",
-    "mtongwe tactical shift navy weighs subsurface anti drone grid indian ocean"
+    "mtongwe tactical shift navy weighs subsurface anti drone grid indian ocean",
+    "juakali tanker blast triggers critical burn wards response eldoret"
   ],
   "topic_keys": [
     "news tracker",
@@ -918,6 +921,15 @@
       "structure": "Strategic shift in naval surveillance -> Breakdown of the aerial and counter-drone capabilities -> Subsurface and underwater sensor integration -> Geopolitical and operational stakes in the Western Indian Ocean.",
       "source": "https://kenyans.co.ke/news/127164-kenya-navy-explores-new-radar-and-anti-drone-technology-swedish-firm",
       "published_at": "2026-09-18T06:02:39Z"
+    },
+    {
+      "title": "Juakali Tanker Blast Triggers Critical Burn Wards Response in Eldoret",
+      "angle": "The rapid escalation from a routine highway rollover into a specialized trauma crisis at Moi Teaching and Referral Hospital, driven by the persistent and lethal danger of civilian fuel siphoning along the Northern Corridor.",
+      "angle_type": "consequence",
+      "opening": "Detailing the critical medical emergency triggered at regional burn units after villagers converged on the volatile spill site near Juakali.",
+      "structure": "Lead on trauma wards and casualty severity -> Chronology of rollover to blast during siphoning -> Multi-agency rescue and transport breakdown -> Corridor paralysis and official investigative response.",
+      "source": "https://kenyans.co.ke/news/127160-2-dead-10-injured-after-fuel-tanker-explodes-along-eldoret-webuye-highway",
+      "published_at": "2026-09-18T06:13:38Z"
     }
   ]
 }
