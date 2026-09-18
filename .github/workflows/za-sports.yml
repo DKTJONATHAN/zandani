@@ -159,7 +159,21 @@ jobs:
                           reader=fetch(url)
                           rsoup=BeautifulSoup(reader,"html.parser")
                           extra=[p.get_text(" ",strip=True) for p in rsoup.find_all("p") if len(p.get_text(strip=True))>=45]
-                          if extra: body="\n\n".join(extra)
+                          if extra:
+                              body="\n\n".join(extra)
+                          else:
+                              # Jina Reader may return Markdown rather than HTML.
+                              # Convert its prose directly instead of requiring <p> tags.
+                              raw=re.sub(r"\[([^\]]+)\]\([^)]*\)",r"\\1",reader)
+                              raw=re.sub(r"!\\[[^\\]]*\\]\\([^)]*\\)","",raw)
+                              blocks=[]
+                              for block in re.split(r"\\n\\s*\\n",raw):
+                                  block=re.sub(r"^#{1,6}\\s*","",block.strip())
+                                  block=re.sub(r"^[-*]\\s+","",block)
+                                  block=re.sub(r"\\s+"," ",block).strip()
+                                  if len(block)>=45 and not block.lower().startswith(("skip to","menu","share","subscribe","advertisement")):
+                                      blocks.append(block)
+                              body="\\n\\n".join(blocks)
                       except Exception as e:
                           print("reader article fallback failed",url,e)
                   if len(body)<500: return None
