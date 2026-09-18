@@ -6,8 +6,8 @@ if __name__ == "__main__":
     run_writer({
         "author_name": "Elizabeth Muthoni",
         "category": "Technology",
-        "source_url": "https://www.pulse.co.ke/news",
-        "source_domain": "pulse.co.ke",
+        "source_url": "https://techweez.com/",
+        "source_domain": "techweez.com",
         "memory_file": ".github/memory_elizabeth.json",
         "role": "technology correspondent",
         "audience": "Kenyan tech, startups, and digital readers",
