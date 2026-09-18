@@ -3,16 +3,16 @@ title: "Masa’s ‘Make A Statement Section A’: A Raw Blueprint of a New Era"
 slug: "masa-s-make-a-statement-section-a-a-raw-blueprint-of-a-new-era"
 description: "Kenyan-Italian rapper Masa has officially dropped his latest project, *Make A Statement Section A*, marking a significant evolution in his artistic journey"
 excerpt: "Kenyan-Italian rapper Masa has officially dropped his latest project, *Make A Statement Section A*, marking a significant evolution in his artistic journey"
-date: 2026-09-18T12:13:57Z
-dateModified: 2026-09-18T12:13:57Z
 author: "Mutheu Ann"
-category: "Entertainment"
 image: "https://sportal365images.com/process/smp-images-production/pulselive.co.ke/27112025/4ee2d67d-7141-4192-86a2-60644408ac79.png?operations=autocrop(512:512)"
-readTime: 3
-source: "https://www.pulse.co.ke/story/the-kenyan-italian-blend-a-unique-sound-in-hip-hop-2026091810473030293"
+category: "Entertainment"
+date: "2026-09-18T12:13:57Z"
+dateModified: "2026-09-18T12:13:57Z"
+focusKeyword: "masa make statement section raw blueprint"
 schema: "NewsArticle"
+readTime: "3"
+source: "https://www.pulse.co.ke/story/the-kenyan-italian-blend-a-unique-sound-in-hip-hop-2026091810473030293"
 ---
-
 Kenyan-Italian rapper Masa has officially dropped his latest project, *Make A Statement Section A*, marking a significant evolution in his artistic journey. Known for his gritty storytelling and a unique cross-cultural sound, the artist describes this body of work as a raw, unfiltered introduction to the man he has evolved into.
 
 For Masa, this album serves as a departure from the need to over-explain his life story. Instead, he is choosing to let the music carry the weight of his experiences. "For me, Make A Statement is really about making people understand who I am without me having to explain myself too much," Masa shared. "I’ve been through a lot, nimepitia vitu mob, and I’ve changed a lot as a person."

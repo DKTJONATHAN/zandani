@@ -1,19 +1,19 @@
 ---
 title: "The Digital Paper Trail: Why Kenya’s Political Class Can’t Outrun Their Academic Records"
-slug: "the-digital-paper-trail-why-kenya-s-political-class-can-t-outrun-their-academic-records"
-description: "In an era where digital footprints are meant to be permanent, a recurring crisis in Kenyan politics suggests that some academic records are far more fluid "
-excerpt: "In an era where digital footprints are meant to be permanent, a recurring crisis in Kenyan politics suggests that some academic records are far more fluid "
-date: 2026-09-18T12:23:37Z
-dateModified: 2026-09-18T12:23:37Z
+slug: "the-digital-paper-trail-why-kenya-s-political-class-can-t-outrun-their"
+description: "In an era where digital footprints are meant to be permanent, a recurring crisis in Kenyan politics suggests that some academic records are far more fluid"
+excerpt: "In an era where digital footprints are meant to be permanent, a recurring crisis in Kenyan politics suggests that some academic records are far more fluid"
 author: "Elizabeth Muthoni"
-category: "Technology"
 image: "https://sportal365images.com/process/smp-images-production/pulselive.co.ke/18092026/59c46a93-594d-4f2f-8a4b-3ec00ac6e70b.jpg?operations=autocrop(700:467)"
-readTime: 3
-source: "https://www.pulse.co.ke/story/didmus-barasa-hassan-joho-oscar-sudi-other-kenyan-politicians-whose-academic-papers-keep-getting-questioned-2026091810130667628"
+category: "Technology"
+date: "2026-09-18T12:23:37Z"
+dateModified: "2026-09-18T12:23:37Z"
+focusKeyword: "the digital paper trail why kenya"
 schema: "NewsArticle"
+readTime: "3"
+source: "https://www.pulse.co.ke/story/didmus-barasa-hassan-joho-oscar-sudi-other-kenyan-politicians-whose-academic-papers-keep-getting-questioned-2026091810130667628"
 ---
-
-In an era where digital footprints are meant to be permanent, a recurring crisis in Kenyan politics suggests that some academic records are far more fluid than others. The latest chapter in this long-running saga involves Kimilili MP Didmus Barasa, whose credentials have come under intense scrutiny following a blunt assessment from Jomo Kenyatta University of Agriculture and Technology (JKUAT). On September 14, JKUAT Registrar of Academic Affairs, Aggrey Wanyama, informed the Consumer Federation of Kenya that Barasa’s name is absent from university alumni records, noting that the institution held no graduation ceremony in May 2008—the date cited on the MP’s purported Electronic Engineering certificate.
+In an era where digital footprints are meant to be permanent, a recurring crisis in Kenyan politics suggests that some academic records are far more fluid than others. The latest chapter in this long-running saga involves Kimilili MP Didmus Barasa, whose credentials have come under intense scrutiny following a blunt assessment from Jomo Kenyatta University of Agriculture and Technology (JKUAT). On September 14, JKUAT Registrar of Academic Affairs, Aggrey Wanyama, informed the Consumer Federation of Kenya that Barasa’s name is absent from university alumni records, noting that the institution held no graduation ceremony in May 2008-the date cited on the MP’s purported Electronic Engineering certificate.
 
 The scrutiny surrounding Barasa’s qualifications intensified after he announced in June that he had completed a PhD in Public Administration at the Murang’a University of Technology. This claim arrived despite significant inconsistencies in his official biographical data. Over the years, the MP’s National Assembly profile has undergone notable revisions; earlier versions cited a JKUAT engineering degree and a master’s from the University of Queensland, while more recent iterations have replaced these with a diploma from the Kenya Power and Lighting Training School and a degree from Mount Kenya University. Despite the conflicting records, Barasa has maintained his defiance, insisting he holds multiple undergraduate and master’s degrees.
 

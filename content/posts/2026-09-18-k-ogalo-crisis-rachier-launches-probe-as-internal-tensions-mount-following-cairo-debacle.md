@@ -1,18 +1,18 @@
 ---
 title: "K’Ogalo Crisis: Rachier Launches Probe as Internal Tensions Mount Following Cairo Debacle"
-slug: "k-ogalo-crisis-rachier-launches-probe-as-internal-tensions-mount-following-cairo-debacle"
-description: "Gor Mahia chairman Ambrose Rachier has officially launched an internal inquiry into the club’s disastrous CAF Champions League exit, describing the team's "
-excerpt: "Gor Mahia chairman Ambrose Rachier has officially launched an internal inquiry into the club’s disastrous CAF Champions League exit, describing the team's "
-date: 2026-09-18T12:12:38Z
-dateModified: 2026-09-18T12:12:38Z
+slug: "k-ogalo-crisis-rachier-launches-probe-as-internal-tensions-mount-follo"
+description: "Gor Mahia chairman Ambrose Rachier has officially launched an internal inquiry into the club’s disastrous CAF Champions League exit, describing the team's"
+excerpt: "Gor Mahia chairman Ambrose Rachier has officially launched an internal inquiry into the club’s disastrous CAF Champions League exit, describing the team's"
 author: "Jona Munyi"
-category: "Sports"
 image: "https://sportal365images.com/process/smp-images-production/ringier.africa/30072023/5b42a66e-ce6d-4a8b-9443-c04293cc0836.jpg?operations=autocrop(512:512)"
-readTime: 3
-source: "https://www.pulsesports.co.ke/story/we-got-humiliated-gor-mahia-boss-promises-inquest-into-cairo-massacre-amid-player-suspension-reports-2026091808443954836"
+category: "Sports"
+date: "2026-09-18T12:12:38Z"
+dateModified: "2026-09-18T12:12:38Z"
+focusKeyword: "ogalo crisis rachier launches probe internal"
 schema: "NewsArticle"
+readTime: "3"
+source: "https://www.pulsesports.co.ke/story/we-got-humiliated-gor-mahia-boss-promises-inquest-into-cairo-massacre-amid-player-suspension-reports-2026091808443954836"
 ---
-
 Gor Mahia chairman Ambrose Rachier has officially launched an internal inquiry into the club’s disastrous CAF Champions League exit, describing the team's performance in Egypt as a humiliation. The Kenyan champions were soundly beaten 5-1 by Pyramids FC in the second leg of their preliminary round tie in Cairo, resulting in a 7-2 aggregate defeat that has left the club hierarchy searching for answers.
 
 The heavy loss in Cairo stood in stark contrast to the first leg in Nairobi, where K’Ogalo had been praised for their competitive effort despite a 2-0 defeat. In Egypt, the team’s defensive structure collapsed, allowing the hosts to score at will, while goalkeeper Byrne Omondi was identified as having made several costly errors during the encounter.

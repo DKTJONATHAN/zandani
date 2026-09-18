@@ -586,10 +586,10 @@
     "b5ebfdde1398bff2ffa9f368520e1531",
     "119bcb955db8e00c3ee6707f0ef01000",
     "78fa574a9d9c9f2b268639a82879655f",
-    "dab6b6c09a6f6fbe5324453ddacc32f6"
+    "dab6b6c09a6f6fbe5324453ddacc32f6",
+    "4e1e7f5acd6a54822f72f08a59b581f4"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -618,7 +618,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -789,7 +790,8 @@
     "https://kenyans.co.ke/news/127167-kra-warns-job-applicants-over-fake-offers-soliciting-recruitment-fees",
     "https://kenyans.co.ke/news/127169-kenya-condemns-missile-and-drone-attacks-saudi-arabia",
     "https://kenyans.co.ke/news/127171-moja-expressway-announces-traffic-diversion-westlands-entrance-saturday",
-    "https://kenyans.co.ke/news/127172-small-aircraft-crashes-kajiados-kipeto-area"
+    "https://kenyans.co.ke/news/127172-small-aircraft-crashes-kajiados-kipeto-area",
+    "https://kenyans.co.ke/news/127176-uhuru-says-his-life-becoming-too-dangerous-amid-rutos-sponsor-attacks"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -882,7 +884,8 @@
     "recruitment fraud syndicates target job seekers fake state agency onboarding letters",
     "cites diaspora safety red sea trade risks formal saudi attack rebuke",
     "westlands highway detour squeezes cbd traffic back onto surface waiyaki way",
-    "kipeto mist exposes tight safety margins kajiado flight training corridor"
+    "kipeto mist exposes tight safety margins kajiado flight training corridor",
+    "murang remarks highlight widening rift kenyatta deflects ruto sponsor charges"
   ],
   "topic_keys": [
     "news tracker",
@@ -990,6 +993,15 @@
       "structure": "Lead on environmental risk and flight training context -> Chronology of the flight's encounter with the morning mist -> Emergency landing attempt and casualty details -> Landscape context (wind power plant vicinity) -> Current status of recovery and site assessment.",
       "source": "https://kenyans.co.ke/news/127172-small-aircraft-crashes-kajiados-kipeto-area",
       "published_at": "2026-09-18T11:02:06Z"
+    },
+    {
+      "title": "Murang'a Remarks Highlight Widening Rift as Kenyatta Deflects Ruto's 'Sponsor' Charges",
+      "angle": "The geographic and tactical contrast in the escalating public feud\u2014Ruto invoking broken political covenants ('10-for-10') in Nyanza to frame opposition activity as foreign-funded, while Kenyatta uses sarcastic restraint in Mt. Kenya to deflect financial allegations without addressing the underlying power deal.",
+      "angle_type": "institutional pressure",
+      "opening": "Framing the cross-country rhetorical sparring match between Ruto's rally statements in Homa Bay and Kenyatta's response in Murang'a.",
+      "structure": "Lead on the tactical rhetorical shift -> Detail Kenyatta's sarcastic statements in Kiharu -> Trace Ruto's previous-day claims in Sindo regarding political sponsorship and the broken 10-year agreement -> Contextualise the broader friction between the two administrations -> Conclude on the unresolved political dynamics.",
+      "source": "https://kenyans.co.ke/news/127176-uhuru-says-his-life-becoming-too-dangerous-amid-rutos-sponsor-attacks",
+      "published_at": "2026-09-18T12:35:47Z"
     }
   ]
 }
