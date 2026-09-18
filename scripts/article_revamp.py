@@ -184,23 +184,56 @@ def parse_json(raw):
 
 
 def choose_images(data, candidates):
+    """Respect Gemini ranking, then fill from every trusted scraped source image."""
     selected = []
     items = data.get("images") if isinstance(data.get("images"), list) else []
+    requested = []
     for item in items:
         if not isinstance(item, dict):
             continue
         try:
-            idx = int(item.get("source_index"))
+            requested.append(int(item.get("source_index")))
         except Exception:
+            pass
+
+    by_index = {int(x["index"]): x for x in candidates if x.get("index") is not None}
+    order = []
+    for idx in requested + [x.get("index") for x in candidates]:
+        if idx is not None and idx not in order:
+            order.append(idx)
+
+    for idx in order:
+        src = by_index.get(idx)
+        if not src or any(x.get("index") == idx for x in selected):
             continue
-        if not 1 <= idx <= len(candidates) or any(x["index"] == idx for x in selected):
-            continue
-        src = candidates[idx - 1]
-        alt = str(item.get("alt_text") or src.get("alt") or src.get("caption") or "News image").strip()[:180]
-        selected.append({**src, "reason": str(item.get("reason") or "Directly supports the reported detail")[:240], "selected_alt": alt or "News image"})
+        selected.append({
+            **src,
+            "reason": "Selected from the scraped article image set",
+            "selected_alt": str(src.get("alt") or src.get("caption") or "News image").strip()[:180] or "News image",
+        })
         if len(selected) >= MAX_SELECTED:
             break
-    return selected
+
+    # Best-effort fallback: never lose all internal images just because Gemini
+    # did not return image selections.
+    if not selected:
+        for src in candidates:
+            if any((src.get("url") or "") == (x.get("url") or "") for x in selected):
+                continue
+            selected.append({
+                **src,
+                "reason": "Additional distinct image scraped from the source article",
+                "selected_alt": str(src.get("alt") or src.get("caption") or "News image").strip()[:180] or "News image",
+            })
+            if len(selected) >= MAX_SELECTED:
+                break
+
+    # If the source has fewer than three distinct images, reuse an available
+    # source image only where necessary, matching the News best-effort rule.
+    if selected:
+        while len(selected) < MAX_SELECTED:
+            selected.append(selected[(len(selected) - 1) % len(selected)])
+    return selected[:MAX_SELECTED]
 
 
 def upload_img(url):
@@ -235,15 +268,25 @@ def upload_img(url):
 
 
 def inject_images(body, images):
-    if not images:
+    """Strip any model images and place the first two trusted images deep in the article."""
+    body = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", body or "")
+    body = re.sub(r"<img\b[^>]*>", "", body, flags=re.I)
+    body = re.sub(r"\n{3,}", "\n\n", body).strip()
+    if len(images) < 2:
         return body
     blocks = [x for x in body.split("\n\n") if x.strip()]
+    if len(blocks) < 4:
+        return body
+
+    n = len(blocks)
+    first_after = max(4, min(n - 3, round(n * 0.30)))
+    second_after = max(first_after + 3, min(n - 1, round(n * 0.65)))
+    positions = {first_after: images[0], second_after: images[1]}
     out = []
-    positions = [1, 4, 7]
     for i, block in enumerate(blocks, 1):
         out.append(block)
-        if i <= len(positions) and i == positions[i - 1]:
-            image = images[i - 1]
+        image = positions.get(i)
+        if image:
             alt = re.sub(r"[\[\]\r\n]", "", image.get("selected_alt") or "News image")[:180]
             out.append(f"![{alt}]({image['url']})")
     return "\n\n".join(out)
@@ -317,7 +360,7 @@ def rewrite_post(path, fm, old_body, source, result):
     for item in selected:
         item["url"] = upload_img(item["url"])
     body = inject_images(body, selected)
-    primary = selected[0]["url"] if selected else fm.get("image") or source.get("featured", "")
+    primary = selected[2]["url"] if len(selected) >= 3 else (selected[0]["url"] if selected else fm.get("image") or source.get("featured", ""))
     fm.update({
         "title": seo["title"], "description": seo["description"], "excerpt": seo["excerpt"],
         "dateModified": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
