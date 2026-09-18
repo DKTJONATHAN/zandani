@@ -23,8 +23,8 @@ env:
   FRESH_HOURS: "24"
   DESK_AUTHOR: "Jona Munyi"
   DESK_CATEGORY: "Lifestyle"
-  DESK_SOURCE: "https://www.pulse.co.ke/lifestyle"
-  DESK_DOMAIN: "pulse.co.ke"
+  DESK_SOURCE: "https://www.ghafla.co.ke/"
+  DESK_DOMAIN: "ghafla.co.ke"
   DESK_ROLE: "lifestyle correspondent"
   DESK_AUDIENCE: "Kenyan lifestyle and culture readers"
 
