@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T06:00:58.953Z",
+  "updated": "2026-09-18T06:01:10.674Z",
   "desks": {
     "news": {
       "lastTriggeredAt": "2026-09-18T06:00:51.757Z",
@@ -10,15 +10,15 @@
     },
     "sports": {
       "lastTriggeredAt": "2026-09-18T05:00:49.175Z",
-      "lastStatus": "failed",
-      "lastError": "Workflow does not have 'workflow_dispatch' trigger",
+      "lastStatus": "never",
+      "lastError": null,
       "lastSource": "cron",
       "lastSlot": "2026-09-18T08:00"
     },
     "business": {
       "lastTriggeredAt": "2026-09-18T05:30:44.749Z",
-      "lastStatus": "failed",
-      "lastError": "Workflow does not have 'workflow_dispatch' trigger",
+      "lastStatus": "never",
+      "lastError": null,
       "lastSource": "cron",
       "lastSlot": "2026-09-18T08:30"
     },
@@ -38,8 +38,8 @@
     },
     "technology": {
       "lastTriggeredAt": "2026-09-17T16:00:35.085Z",
-      "lastStatus": "failed",
-      "lastError": "Workflow does not have 'workflow_dispatch' trigger",
+      "lastStatus": "never",
+      "lastError": null,
       "lastSource": "cron",
       "lastSlot": "2026-09-17T19:00"
     },
@@ -52,15 +52,15 @@
     },
     "mpasho": {
       "lastTriggeredAt": "2026-09-18T05:20:44.750Z",
-      "lastStatus": "failed",
-      "lastError": "Workflow does not have 'workflow_dispatch' trigger",
+      "lastStatus": "never",
+      "lastError": null,
       "lastSource": "cron",
       "lastSlot": "2026-09-18T08:20"
     },
     "ghafla": {
       "lastTriggeredAt": "2026-09-18T05:44:44.743Z",
-      "lastStatus": "failed",
-      "lastError": "Workflow does not have 'workflow_dispatch' trigger",
+      "lastStatus": "never",
+      "lastError": null,
       "lastSource": "cron",
       "lastSlot": "2026-09-18T08:44"
     },
@@ -80,8 +80,8 @@
     },
     "lifestyle": {
       "lastTriggeredAt": "2026-09-17T16:00:41.006Z",
-      "lastStatus": "failed",
-      "lastError": "Workflow does not have 'workflow_dispatch' trigger",
+      "lastStatus": "never",
+      "lastError": null,
       "lastSource": "cron",
       "lastSlot": "2026-09-17T19:00"
     }
