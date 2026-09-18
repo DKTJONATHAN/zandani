@@ -10,8 +10,10 @@ from __future__ import annotations
 import re
 from urllib.parse import urljoin
 
-
 IMAGE_LIMIT = 12
+BLOCKED_IMAGE_URLS = {
+    "https://i.ibb.co/WNCN8Hsy/3dda43a26f03.webp",
+}
 
 
 def _clean(value: str, limit: int = 260) -> str:
@@ -37,8 +39,14 @@ def _src_from_img(img) -> str:
     return ""
 
 
+def _normalise_url(url: str) -> str:
+    return (url or "").strip().split("#")[0].rstrip("/").lower()
+
+
 def _looks_like_asset(url: str, alt: str, caption: str, img=None) -> bool:
     blob = f"{url} {alt} {caption}".lower()
+    if _normalise_url(url) in {_normalise_url(x) for x in BLOCKED_IMAGE_URLS}:
+        return True
     junk = (
         "logo", "site-logo", "brand-logo", "icon", "avatar", "sprite", "pixel",
         "tracking", "placeholder", "favicon", "advert", "banner-ad", "social-share",
@@ -68,6 +76,7 @@ def _looks_like_asset(url: str, alt: str, caption: str, img=None) -> bool:
             pass
     return False
 
+
 def extract_article_images(soup, page_url: str, article_root=None, limit: int = IMAGE_LIMIT):
     """Return meaningful internal article image candidates with alt/caption/context."""
     root = article_root or soup
@@ -94,9 +103,6 @@ def extract_article_images(soup, page_url: str, article_root=None, limit: int = 
         if not src or src in seen or _looks_like_asset(src, img.get("alt", ""), "", img):
             continue
 
-        # Some site logos are served from generic CDN/resize URLs with no
-        # "logo" in the filename. Only accept those when they are clearly
-        # part of article media or paragraph flow.
         figure = img.find_parent("figure")
         picture = img.find_parent("picture")
         media_context = False
@@ -124,8 +130,6 @@ def extract_article_images(soup, page_url: str, article_root=None, limit: int = 
         if not caption and title:
             caption = title
 
-        # Prefer descriptive images. A source image with no alt/caption is still
-        # retained if it has a normal image URL and article context.
         parent = figure or img.parent
         context = ""
         if parent:
