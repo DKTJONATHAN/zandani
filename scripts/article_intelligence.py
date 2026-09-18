@@ -11,10 +11,6 @@ import re
 from urllib.parse import urljoin
 
 IMAGE_LIMIT = 12
-BLOCKED_IMAGE_URLS = {
-    "https://i.ibb.co/WNCN8Hsy/3dda43a26f03.webp",
-}
-
 
 def _clean(value: str, limit: int = 260) -> str:
     value = re.sub(r"\s+", " ", value or "").strip()
@@ -45,8 +41,6 @@ def _normalise_url(url: str) -> str:
 
 def _looks_like_asset(url: str, alt: str, caption: str, img=None) -> bool:
     blob = f"{url} {alt} {caption}".lower()
-    if _normalise_url(url) in {_normalise_url(x) for x in BLOCKED_IMAGE_URLS}:
-        return True
     junk = (
         "logo", "site-logo", "brand-logo", "icon", "avatar", "sprite", "pixel",
         "tracking", "placeholder", "favicon", "advert", "banner-ad", "social-share",
