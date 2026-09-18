@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T05:30:46.784Z",
+  "updated": "2026-09-18T05:30:48.265Z",
   "desks": {
     "news": {
       "lastTriggeredAt": "2026-09-18T05:00:44.738Z",
@@ -20,7 +20,7 @@
       "lastStatus": "failed",
       "lastError": "Workflow does not have 'workflow_dispatch' trigger",
       "lastSource": "cron",
-      "lastSlot": "2026-09-17T18:30"
+      "lastSlot": "2026-09-18T08:30"
     },
     "africa": {
       "lastTriggeredAt": "2026-09-18T03:00:49.346Z",
