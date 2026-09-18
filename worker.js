@@ -191,13 +191,33 @@ async function dispatchWorkflow(env, workflowFile) {
   }
 
   const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/${workflow.id}/dispatches`;
-  const res = await fetch(url, {
+  const dispatch = async () => fetch(url, {
     method: "POST",
     headers,
     body: JSON.stringify({ ref: GITHUB_BRANCH }),
   });
-  if (res.status === 204 || res.ok) return { ok: true, status: res.status, workflowId: workflow.id };
-  const body = await res.json().catch(() => ({}));
+
+  // GitHub can briefly lag while a newly edited workflow is re-indexed. If it
+  // reports the old "missing workflow_dispatch" error, verify the current
+  // workflow file and retry once instead of persisting a false failure.
+  let res = await dispatch();
+  let body = {};
+  if (res.status !== 204 && !res.ok) {
+    body = await res.json().catch(() => ({}));
+    if (
+      res.status === 422 &&
+      /workflow_dispatch/i.test(String(body.message || "")) &&
+      /does not have/i.test(String(body.message || ""))
+    ) {
+      await new Promise((resolve) => setTimeout(resolve, 1200));
+      res = await dispatch();
+      if (res.status !== 204 && !res.ok) body = await res.json().catch(() => ({}));
+    }
+  }
+
+  if (res.status === 204 || res.ok) {
+    return { ok: true, status: res.status, workflowId: workflow.id };
+  }
   return {
     ok: false,
     status: res.status,
@@ -473,8 +493,17 @@ async function handleSchedulerStatus(env) {
   } catch (_) {}
   const now = nairobiParts();
   const enabled = useAdminScheduler(env);
+  const workflowList = await githubJson(
+    `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows?per_page=100`,
+    { headers: ghHeaders(env) }
+  ).catch(() => ({ workflows: [] }));
+  const workflowMap = new Map(
+    (Array.isArray(workflowList.workflows) ? workflowList.workflows : [])
+      .map((w) => [String(w.path || ""), w])
+  );
   const desks = Object.entries(DESKS).map(([id, desk]) => {
     const last = state.desks?.[id] || {};
+    const workflowMeta = workflowMap.get(`.github/workflows/${desk.workflow}`);
     return {
       id,
       label: desk.label,
@@ -483,6 +512,8 @@ async function handleSchedulerStatus(env) {
       cadence: desk.cadence,
       nextRun: nextRunIso(desk.cron),
       nextRunAt: nextRunIso(desk.cron),
+      workflowFound: !!workflowMeta?.id,
+      workflowState: workflowMeta?.state || null,
       lastTriggeredAt: last.lastTriggeredAt || null,
       lastStatus: last.lastStatus || null,
       lastError: last.lastError || null,
