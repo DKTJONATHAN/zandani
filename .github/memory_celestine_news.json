@@ -582,10 +582,10 @@
     "918e4e37d62569d83f75ec28cbe4d012",
     "38cc16d0cac148642524e2673adc96d5",
     "95943600bf21b10fcc2866dbf87cf8b9",
-    "b19593fbfa7303eaae9ab9eb33537ed5"
+    "b19593fbfa7303eaae9ab9eb33537ed5",
+    "b5ebfdde1398bff2ffa9f368520e1531"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -614,7 +614,8 @@
     "Hard News Lead",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -781,7 +782,8 @@
     "https://kenyans.co.ke/news/127162-tanzania-introduces-mandatory-travel-insurance-foreign-visitors",
     "https://kenyans.co.ke/news/127164-kenya-navy-explores-new-radar-and-anti-drone-technology-swedish-firm",
     "https://kenyans.co.ke/news/127160-2-dead-10-injured-after-fuel-tanker-explodes-along-eldoret-webuye-highway",
-    "https://kenyans.co.ke/news/127165-world-bank-invites-kenyan-youth-groups-apply-ksh-434m-health-grants"
+    "https://kenyans.co.ke/news/127165-world-bank-invites-kenyan-youth-groups-apply-ksh-434m-health-grants",
+    "https://kenyans.co.ke/news/127167-kra-warns-job-applicants-over-fake-offers-soliciting-recruitment-fees"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -870,7 +872,8 @@
     "tanzania spares eac travellers mandatory inbound travel insurance rollout",
     "mtongwe tactical shift navy weighs subsurface anti drone grid indian ocean",
     "juakali tanker blast triggers critical burn wards response eldoret",
-    "world bank health grant attaches strict coalition rules ksh434m youth envelope"
+    "world bank health grant attaches strict coalition rules ksh434m youth envelope",
+    "recruitment fraud syndicates target job seekers fake state agency onboarding letters"
   ],
   "topic_keys": [
     "news tracker",
@@ -942,6 +945,15 @@
       "structure": "Coalition rules and eligibility threshold -> Funding scope and consortium managers -> Strategic focus on budget tracking and maternal/child health -> Regional context across 22 nations and submission timetable.",
       "source": "https://kenyans.co.ke/news/127165-world-bank-invites-kenyan-youth-groups-apply-ksh-434m-health-grants",
       "published_at": "2026-09-18T07:02:35Z"
+    },
+    {
+      "title": "Recruitment Fraud Syndicates Target Job Seekers With Fake State Agency Onboarding Letters",
+      "angle": "Institutional pattern of recruitment fraud across Kenya's public sector, detailing how syndicates hijack official agency branding and onboarding terminology to monetise job seeker desperation.",
+      "angle_type": "institutional pressure",
+      "opening": "Focusing on the systemic mechanism of recruitment fraud hijacks targeting job seekers across state corporations.",
+      "structure": "Scam operational breakdown -> KRA official disclaimer -> Recurrent pattern and previous May breach -> Multi-agency sector trend -> Enforcement backdrop and verification channels.",
+      "source": "https://kenyans.co.ke/news/127167-kra-warns-job-applicants-over-fake-offers-soliciting-recruitment-fees",
+      "published_at": "2026-09-18T08:02:34Z"
     }
   ]
 }
