@@ -22,8 +22,8 @@ env:
   FRESH_HOURS: "24"
   DESK_AUTHOR: "Jona Munyi"
   DESK_CATEGORY: "Sports"
-  DESK_SOURCE: "https://nation.africa/kenya/sports"
-  DESK_DOMAIN: "nation.africa"
+  DESK_SOURCE: "https://www.pulsesports.co.ke/"
+  DESK_DOMAIN: "pulsesports.co.ke"
   DESK_ROLE: "sports correspondent"
   DESK_AUDIENCE: "Kenyan sports fans"
 
@@ -146,8 +146,21 @@ jobs:
                       body="\n\n".join(p.get_text(" ",strip=True) for p in soup.find_all("p") if len(p.get_text(strip=True))>=45)
                   if len(body)<500: return None
                   image=""
-                  t=soup.find("meta",property="og:image")
-                  if t: image=(t.get("content") or "").strip()
+                  image_candidates=[]
+                  for node in root.find_all("img"):
+                      blob=" ".join(str(node.get(a) or "") for a in ("src","data-src","data-lazy-src","data-original","data-url","alt","class","id")).lower()
+                      if any(x in blob for x in ("logo","site-logo","brand-logo","favicon","icon","avatar","sprite","placeholder","social-share")): continue
+                      u=""
+                      for a in ("data-src","data-lazy-src","data-original","data-url","src"):
+                          v=(node.get(a) or "").strip()
+                          if v and not v.startswith("data:"): u=urllib.parse.urljoin(url,v); break
+                      if u and u not in image_candidates: image_candidates.append(u)
+                  if image_candidates: image=image_candidates[0]
+                  if not image:
+                      t=soup.find("meta",property="og:image")
+                      if t:
+                          candidate=(t.get("content") or "").strip()
+                          if candidate and not any(x in candidate.lower() for x in ("logo","favicon","icon","sprite","placeholder","social-share")): image=candidate
                   return {"url":url,"title":title,"body":body[:18000],"image":image}
               except Exception as e:
                   print("skip",url,e); return None
