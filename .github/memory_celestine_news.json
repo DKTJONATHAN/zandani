@@ -578,10 +578,10 @@
     "5e62be8387d70b3b173d1d344f1d520e",
     "1007df53c9b3d3a9faaf59aae32d1266",
     "2e40f5aa6638f1eba351399b39bba277",
-    "6c8cffe295a292266e156fc9a8381677"
+    "6c8cffe295a292266e156fc9a8381677",
+    "918e4e37d62569d83f75ec28cbe4d012"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -610,7 +610,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -773,7 +774,8 @@
     "https://kenyans.co.ke/news/127151-odm-mombasa-leaders-demand-disciplinary-action-against-uda-sg-hassan-omar",
     "https://kenyans.co.ke/news/127155-sha-introduces-new-system-healthcare-provider-contracting",
     "https://kenyans.co.ke/news/127156-dci-recovers-over-500-phones-motherboards-kisii-raid",
-    "https://kenyans.co.ke/news/127159-teachers-get-improved-sha-benefits-govt-addresses-ivf-cancer-care-concerns"
+    "https://kenyans.co.ke/news/127159-teachers-get-improved-sha-benefits-govt-addresses-ivf-cancer-care-concerns",
+    "https://kenyans.co.ke/news/127162-tanzania-introduces-mandatory-travel-insurance-foreign-visitors"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -858,7 +860,8 @@
     "mombasa turf war puts ruto broad based alliance test",
     "sha resets hospital contracting discards all pre launch applications",
     "kisii raid exposes repair shop backdoor stripping security locks off financed phones",
-    "mwalimu cover rescue govt was forced restore premium benefits lost sha transition"
+    "mwalimu cover rescue govt was forced restore premium benefits lost sha transition",
+    "tanzania spares eac travellers mandatory inbound travel insurance rollout"
   ],
   "topic_keys": [
     "news tracker",
@@ -894,6 +897,15 @@
       "structure": "Lead on the transition correction -> Contrast the previous Minet cover with the SHA gaps -> Detail the restored premium benefits (IVF, oncology, last-expense) -> Outline the new administrative oversight and punitive measures for non-compliant hospitals -> End on the unresolved challenge of private hospital integration.",
       "source": "https://kenyans.co.ke/news/127159-teachers-get-improved-sha-benefits-govt-addresses-ivf-cancer-care-concerns",
       "published_at": "2026-09-17T17:02:06Z"
+    },
+    {
+      "title": "Tanzania Spares EAC Travellers in New Mandatory Inbound Travel Insurance Rollout",
+      "angle": "The regional border dynamics and contrast in implementation: Tanzania successfully operationalised its policy while safeguarding regional integration pacts (EAC and SADC exemptions), contrasting sharply with Kenya's stalled attempt halted in court.",
+      "angle_type": "practical change",
+      "opening": "Focusing on the regional cross-border protection for East Africans amidst Tanzania's broad rollout of mandatory inbound visitor insurance.",
+      "structure": "Lead on the cross-border exemption and mainland policy -> Breakdown of costs, provider structure, and scope of cover -> Historical trajectory from Zanzibar to mainland -> Contrast with Kenya's frozen court-contested inbound insurance framework.",
+      "source": "https://kenyans.co.ke/news/127162-tanzania-introduces-mandatory-travel-insurance-foreign-visitors",
+      "published_at": "2026-09-18T05:02:18Z"
     }
   ]
 }
