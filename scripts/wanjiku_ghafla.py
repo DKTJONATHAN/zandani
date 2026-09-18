@@ -18,8 +18,8 @@ except ImportError:
 
 AUTHOR_NAME = "Wanjiku Kuria"
 CATEGORY = "Gossip"
-SOURCE_URL = "https://www.ghafla.com/"
-SOURCE_DOMAIN = "ghafla.com"
+SOURCE_URL = "https://www.ghafla.co.ke/"
+SOURCE_DOMAIN = "ghafla.co.ke"
 POSTS_DIR = os.environ.get("POSTS_DIR", "content/posts")
 MEMORY_FILE = os.environ.get("MEMORY_FILE", ".github/memory_wanjiku.json")
 MAX_CANDIDATES = 25
