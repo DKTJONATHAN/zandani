@@ -6,6 +6,8 @@ export type DeskStatus = {
   cadence: string;
   lastTriggeredAt: string | null;
   lastStatus: "ok" | "failed" | "never" | "running";
+  workflowFound?: boolean;
+  workflowState?: string | null;
   lastError?: string | null;
   nextRunAt: string | null;
 };
