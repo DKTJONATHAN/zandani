@@ -88,8 +88,8 @@ jobs:
           MODELS_TO_TRY = ["gemini-3-flash-preview", "gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"]
           MAX_AGE_HOURS = 24
           MIN_ARTICLE_TEXT_CHARS = 140
-          SITE_URL = "https://www.pulse.co.ke/lifestyle"
-          SITE_DOMAIN = "pulse.co.ke"
+          SITE_URL = "https://www.ghafla.co.ke/"
+          SITE_DOMAIN = "ghafla.co.ke"
           SITE_BASE_URL = "https://zandani.co.ke"
           FALLBACK_IMAGE = "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200"
 
