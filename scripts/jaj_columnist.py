@@ -6,8 +6,8 @@ if __name__ == "__main__":
     run_writer({
         "author_name": "Jaj",
         "category": "Opinions",
-        "source_url": "https://www.kenyans.co.ke/",
-        "source_domain": "kenyans.co.ke",
+        "source_url": "https://ntvkenya.co.ke/the-last-word/",
+        "source_domain": "ntvkenya.co.ke",
         "memory_file": ".github/memory_jaj.json",
         "role": "opinion columnist",
         "audience": "Kenyan readers following public debate and civic life",
