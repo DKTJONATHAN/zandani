@@ -6,8 +6,8 @@ if __name__ == "__main__":
     run_writer({
         "author_name": "Timothy Muli",
         "category": "Agriculture",
-        "source_url": "https://smartfarmerkenya.com/",
-        "source_domain": "smartfarmerkenya.com",
+        "source_url": "https://theorganicfarmer.org/",
+        "source_domain": "theorganicfarmer.org",
         "memory_file": ".github/memory_agriculture.json",
         "role": "agriculture correspondent",
         "audience": "Kenyan farmers, agribusinesses and agriculture-policy readers",
