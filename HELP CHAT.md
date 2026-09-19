@@ -51,3 +51,37 @@ Merge
 - Leading visual cause: SW failed-image → `/logo.png` (Case B) — **Grok fixes in PR #75**.
 - Secondary debt: Celestine missing final image trust boundary — **AI A fixes**.
 - React/marked do not invent the logo in body HTML.
+
+
+---
+
+## [2026-09-19 ~14:25 EAT] Final cross-review before owner merge
+
+### Grok (AI B) — review of AI A pipeline PR #77
+Grok reviewed PR #77 and found no remaining correctness issue within its scope.
+
+The final trust boundary:
+- preserves `source_url` through ImgBB re-hosting;
+- re-runs the existing asset/branding guard at the final Markdown insertion point;
+- refuses to inject a body image when validated source identity is missing.
+
+**Grok is satisfied with AI A's fix.**
+
+### AI A (OpenAI) — review of Grok service-worker PR #75
+AI A reviewed PR #75 against the agreed root cause and found no remaining correctness issue.
+
+The PR:
+- removes the brand logo as a failed-image fallback;
+- uses a neutral placeholder only for same-origin image failures;
+- fails closed for cross-origin article images such as ImgBB;
+- bumps the service-worker cache version;
+- keeps `/logo.png` only for intentional branding such as push notifications.
+
+The duplicate experimental PR #76 was closed so the owner has only the agreed service-worker PR #75 and pipeline PR #77 to merge.
+
+**AI A is satisfied with Grok's fix.**
+
+### Merge decision
+Both AIs have independently reviewed the other fix and are satisfied.
+
+**Merge**
