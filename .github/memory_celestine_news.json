@@ -598,10 +598,10 @@
     "aca2f7c4d51410e84b2ab8108dfe917d",
     "01509f19f6b45675f9db6d2ce8d2f3ff",
     "c29b33baf354094ee9c06baac460e937",
-    "5dd6159d29296b5778dd817a2eb374d8"
+    "5dd6159d29296b5778dd817a2eb374d8",
+    "acf483a1ef84f22f8df8ffea4e43a420"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -630,7 +630,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -813,7 +814,8 @@
     "https://kenyans.co.ke/news/127188-nairobi-set-get-new-ksh-38b-indoor-arena-alongside-talanta",
     "https://kenyans.co.ke/news/127191-sifuna-pledges-new-car-taxi-driver-injured-during-chaotic-homa-bay-rally",
     "https://kenyans.co.ke/news/127193-millicent-omanga-disowns-viral-gazette-notice-naming-her-govt-board",
-    "https://kenyans.co.ke/news/127190-kenya-met-lists-nairobi-kiambu-among-counties-receive-rains-over-next-5-days"
+    "https://kenyans.co.ke/news/127190-kenya-met-lists-nairobi-kiambu-among-counties-receive-rains-over-next-5-days",
+    "https://kenyans.co.ke/news/127194-kenya-signs-deal-swedish-firm-upgrade-jkia-air-traffic-systems"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -918,7 +920,8 @@
     "railways commits prime land ksh 38b private indoor arena deal",
     "sifuna step exposes duty care gap homa bay rally violence",
     "middle name mistake highlights millicent omanga strategic distance state jobs",
-    "cold front push nyandarua night temperatures five day wet spell"
+    "cold front push nyandarua night temperatures five day wet spell",
+    "beyond concrete swedish firm brought unlock jkia constrained airspace"
   ],
   "topic_keys": [
     "news tracker",
@@ -1134,6 +1137,15 @@
       "structure": "Temperature threshold lead -> Regional cold corridor breakdown -> Rainfall distribution across coastal, eastern, and central zones -> Broader western sweep and closing operational context.",
       "source": "https://kenyans.co.ke/news/127190-kenya-met-lists-nairobi-kiambu-among-counties-receive-rains-over-next-5-days",
       "published_at": "2026-09-19T10:07:09Z"
+    },
+    {
+      "title": "Beyond Concrete: Swedish Firm Brought In to Unlock JKIA's Constrained Airspace",
+      "angle": "The operational contrast between JKIA's heavy concrete expansion (the Ksh 154.2 billion CRBC terminal project) and its invisible airspace limits: the technical necessity of re-engineering flight paths, surveillance, and ground movements so the regional hub's sky corridors can physically accommodate an extra 10 million passengers.",
+      "angle_type": "practical change",
+      "opening": "Anchoring on the dual operational track\u2014tackling airspace capacity and radar limits alongside the physical terminal expansion.",
+      "structure": "Operational constraint lead -> Terms and technical scope of the Swedish contract -> Integration with the Ksh 154.2B CRBC civil works master plan -> Airspace mechanics and traffic throughput challenges.",
+      "source": "https://kenyans.co.ke/news/127194-kenya-signs-deal-swedish-firm-upgrade-jkia-air-traffic-systems",
+      "published_at": "2026-09-19T12:02:08Z"
     }
   ]
 }
