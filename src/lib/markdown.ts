@@ -36,7 +36,7 @@ function sanitizeArticleHtml(html: string): string {
     if (!srcMatch) return "";
     const src = srcMatch[1].trim();
     try {
-      const parsed = new URL(src, window.location.origin);
+      const parsed = new URL(src, "https://zandani.co.ke");
       const host = parsed.hostname.replace(/^www\./, "").toLowerCase();
       const path = parsed.pathname.toLowerCase();
       const blockedHost = host === "zandani.co.ke" || host.endsWith(".zandani.co.ke");
