@@ -1,6 +1,6 @@
 ---
 title: "Tanzania Formalizes Mandatory Travel Insurance, Diverging from Kenya’s Stalled Model"
-slug: "tanzania-formalizes-mandatory-travel-insurance-diverging-from-kenya-s-"
+slug: "tanzania-formalizes-mandatory-travel-insurance-diverging-from-kenya-s"
 description: "Foreign visitors entering mainland Tanzania are now required to hold mandatory travel insurance, a policy shift that formalizes the country’s approach to."
 excerpt: "Foreign visitors entering mainland Tanzania are now required to hold mandatory travel insurance, a policy shift that formalizes the country’s approach to."
 author: "Amara Ndlovu"
