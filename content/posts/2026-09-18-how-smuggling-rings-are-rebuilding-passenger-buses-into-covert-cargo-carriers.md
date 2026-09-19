@@ -14,7 +14,7 @@ source: "https://kenyans.co.ke/news/127178-kra-seizes-ksh-467m-smuggled-goods-hi
 stylePreset: "Desk Take"
 editorialAngle: "The tactical re-engineering of public transport: how smuggling networks are physically modifying passenger buses with custom hidden compartments to exploit the lighter security and inspection footprint typically applied to public service vehicles (PSVs) on the Northern Corridor."
 angleType: "practical change"
-selectedImages: [{"url": "https://i.ibb.co/G3CsvqBR/f64e3eff8cb3.webp", "alt": "The Kenya-Uganda border.", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/tMJJtkGX/a608261b89ff.webp", "alt": "KRA Offices", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/YB2fvfq9/2240a3a119b0.webp", "alt": "KRA Times Tower", "reason": "Selected from the scraped article image set"}]
+selectedImages: []
 schema: "NewsArticle"
 ---
 
@@ -28,8 +28,6 @@ This trend was laid bare on Friday, September 18, 2026, when Kenya Revenue Autho
 
 The interception followed an intelligence-led operation that traced the vehicle's movement along the Uganda-Kenya transit corridor. KRA enforcement officers laid an ambush within Eldoret town to flag down the bus.
 
-![The Kenya-Uganda border.](https://i.ibb.co/G3CsvqBR/f64e3eff8cb3.webp)
-
 Upon realizing he had been spotted by the enforcement team, the driver attempted to flee, triggering a high-speed pursuit along the Eldoret-Nairobi highway. The chase ended in the Kondoo area of Burnt Forest, where officers successfully cornered and detained the suspect.
 
 The bus was subsequently escorted back to a KRA warehouse in Eldoret for a detailed physical inspection. 
@@ -39,8 +37,6 @@ Inside, officers discovered custom-fabricated, hidden compartments built directl
 ### The Contraband Breakdown
 
 The inventory of the seized cargo revealed a highly diversified illicit shipment destined for the Nairobi market:
-
-![KRA Offices](https://i.ibb.co/tMJJtkGX/a608261b89ff.webp)
 
 * **Cigarettes:** Valued at approximately Ksh30.6 million.
 * **Shisha Tobacco and Accessories:** Valued at Ksh8.4 million, including specialized filters, pots, bowls, and flavored tobacco.

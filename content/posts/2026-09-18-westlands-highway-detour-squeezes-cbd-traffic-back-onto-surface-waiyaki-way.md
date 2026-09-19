@@ -14,7 +14,7 @@ source: "https://kenyans.co.ke/news/127171-moja-expressway-announces-traffic-div
 stylePreset: "Desk Take"
 editorialAngle: "Focusing on the traffic routing logistics and the immediate squeeze placed on surface-level Waiyaki Way as overpass traffic is funneled back onto surface lanes, coming right after recent maintenance-induced gridlock along the same corridor."
 angleType: "practical change"
-selectedImages: [{"url": "https://i.ibb.co/vCrJN8m3/9cd232edcb1f.webp", "alt": "Collage of traffic along Waiyaki Way on September 9, 2026 and the Nairobi Expressway toll station at Westlands", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/mCZf9Yr6/f6d753f47baf.webp", "alt": "n aerial view of Nairobi Expressway", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/svyjLcc9/77611031e94c.webp", "alt": "An image of the traffic snarl-up along Waiyaki Way on September 9, 2026", "reason": "Selected from the scraped article image set"}]
+selectedImages: []
 schema: "NewsArticle"
 ---
 
@@ -26,15 +26,11 @@ Crucially for toll users, the disruption is isolated to the overpass bridge deck
 
 ### Routing Flow and Surface Pressure
 
-![Collage of traffic along Waiyaki Way on September 9, 2026 and the Nairobi Expressway toll station at Westlands](https://i.ibb.co/vCrJN8m3/9cd232edcb1f.webp)
-
 The redirection forces CBD-bound traffic coming off the James Gichuru axis to merge directly into Waiyaki Way's main surface carriageway, raising potential bottlenecks through the Westlands commercial hub. Traffic marshals are being deployed along the route to manage merging streams and direct drivers through the altered traffic pattern.
 
 Moja Expressway advised motorists using the corridor to adjust their travel schedules and allow additional time to navigate the altered traffic setup.
 
 ### Vulnerable Corridor
-
-![n aerial view of Nairobi Expressway](https://i.ibb.co/mCZf9Yr6/f6d753f47baf.webp)
 
 The maintenance directive arrives less than two weeks after similar structural work at the nearby ABC Place–Red Hill Road junction on September 9 triggered extensive gridlock along Waiyaki Way. During that incident, surface traffic stalled for extended periods as vehicles redirected around elevated work zones, highlighting how routine maintenance on expressway connector infrastructure rapidly spills over onto surface arterial roads.
 

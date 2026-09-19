@@ -14,7 +14,7 @@ source: "https://kenyans.co.ke/news/127176-uhuru-says-his-life-becoming-too-dang
 stylePreset: "Event Report"
 editorialAngle: "The geographic and tactical contrast in the escalating public feud—Ruto invoking broken political covenants ('10-for-10') in Nyanza to frame opposition activity as foreign-funded, while Kenyatta uses sarcastic restraint in Mt. Kenya to deflect financial allegations without addressing the underlying "
 angleType: "institutional pressure"
-selectedImages: [{"url": "https://i.ibb.co/1jn8Mk9/83c793d1b3e8.webp", "alt": "Uhuru Ruto", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/6J4M7CpL/e0e028b3cce1.webp", "alt": "Former President Uhuru Kenyatta, during a past engagement.", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/wVZyPN8/2796199d370b.webp", "alt": "william-ruto-cap-off.jpg", "reason": "Selected from the scraped article image set"}]
+selectedImages: []
 schema: "NewsArticle"
 ---
 
@@ -26,8 +26,6 @@ Speaking during a burial service in Gikuu, Kiharu Sub-County, the retired presid
 
 ### Rhetorical Escalation in Sindo
 
-![Uhuru Ruto](https://i.ibb.co/1jn8Mk9/83c793d1b3e8.webp)
-
 Kenyatta's sarcastic deflection came less than 24 hours after President Ruto publicly renewed attacks on his former boss during a development tour in Sindo, Homa Bay County, on Thursday, September 17. Addressing a public gathering, Ruto claimed Kenyatta was bankrolling prominent opposition figures, specifically naming Nairobi Senator Edwin Sifuna, to destabilize government initiatives.
 
 During the Homa Bay visit, Ruto characterized opposition leaders as puppets acting on instructions from a bitter political backer who had failed during his own tenure.
@@ -35,8 +33,6 @@ During the Homa Bay visit, Ruto characterized opposition leaders as puppets acti
 "They are clueless because they have only been sent by their sponsor, who is bitter seeing us succeed where he failed," Ruto stated in Sindo. "We have fixed the economy he destroyed."
 
 ### The Broken Political Pact
-
-![Former President Uhuru Kenyatta, during a past engagement.](https://i.ibb.co/6J4M7CpL/e0e028b3cce1.webp)
 
 Beyond allegations of financial backing, Ruto revisited the personal and political alliance that carried the Jubilee coalition through multiple elections, explicitly reminding voters in Nyanza of an unfulfilled power-sharing arrangement.
 

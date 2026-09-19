@@ -14,7 +14,7 @@ source: "https://kenyans.co.ke/news/127182-nmg-responds-concerns-over-lack-women
 stylePreset: "Desk Take"
 editorialAngle: "Exposing the sharp disconnect between NMG's successful corporate gender quotas in boardrooms and its persistent exclusion of women from actual editorial gatekeeping and newsroom decision-making seats across East Africa."
 angleType: "institutional pressure"
-selectedImages: [{"url": "https://i.ibb.co/C50HBC5r/599b43758a9d.webp", "alt": "A photo collage of NMG Journalists Joe Ageyo (left), Ben Kitili (centre) and James Smart.", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/Zpz46Zpr/55c6d696a80d.webp", "alt": "Geofrey Odundo NMG", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/v4DLGWJM/6009b5a0c370.webp", "alt": "Nation Media Group building located at Kimathi Street in Nairobi CBD", "reason": "Selected from the scraped article image set"}]
+selectedImages: []
 schema: "NewsArticle"
 ---
 
@@ -27,8 +27,6 @@ The management's response highlights a striking institutional contradiction: whi
 ### The Numbers Behind the Disconnect
 
 According to metrics released by the company, women make up 42 percent of NMG’s Executive Committee and 41 percent of its Heads of Department—surpassing the group’s internal baseline target of 40 percent representation in senior corporate leadership.
-
-![A photo collage of NMG Journalists Joe Ageyo (left), Ben Kitili (centre) and James Smart.](https://i.ibb.co/C50HBC5r/599b43758a9d.webp)
 
 However, those boardroom percentages fail to translate into newsroom decision-making power. Within the editorial operations, women account for 36 percent of the overall workforce and 33 percent of newsroom staff, with representation dropping sharply at the senior editorial desk level where final publishing decisions are executed.
 
@@ -43,8 +41,6 @@ The public scrutiny followed an extensive restructuring of NMG's newsrooms acros
 In Kenya, the primary editorial seats were similarly allocated to male editors. Harry Misiko was named Acting Editor-in-Chief, while Dann Mwangi assumed the position of Acting Managing Editor for Broadcast and New Media. John Kiplagat was appointed Acting Managing Editor for Publishing, and Ben Kitili took over as Acting Lead Editor for Broadcasting.
 
 The print and print-adjacent desks saw Michael Owuor appointed Acting Lead Editor for the *Daily Nation*, Michael Omondi named Acting Lead Editor for the *Business Daily*, and Justus Wanga assigned to oversee the *Weekend Edition*.
-
-![Geofrey Odundo NMG](https://i.ibb.co/Zpz46Zpr/55c6d696a80d.webp)
 
 At Mwananchi Communications Limited in Tanzania, James Smart was named Acting Managing Editor for Broadcast and New Media.
 
