@@ -129,15 +129,11 @@ def _same_image(a: str, b: str) -> bool:
 
 def choose_images(data, candidates, original_featured=""):
     """
-    Build three image slots on a best-effort basis:
-      - first two slots are for article-body images
-      - third slot is for OG/social metadata
+    Return only distinct, source-validated candidates.
 
-    Prefer three distinct non-featured images. If the source article does not
-    provide three distinct images, use every distinct image that is available
-    and then reuse the least-preferred image only as a necessary fallback.
-    The OG slot prefers an image different from the source article's featured
-    image whenever such an image exists.
+    The caller may use up to three images (two body + one OG), but the source
+    is never forced to provide three. Missing slots remain empty rather than
+    reusing an image or promoting a questionable asset.
     """
     items = data.get("images", []) if isinstance(data.get("images"), list) else []
     requested = []
@@ -195,47 +191,24 @@ def choose_images(data, candidates, original_featured=""):
         print("No usable scraped images were found.")
         return []
 
+    # Prefer images other than the source featured image for body/OG slots,
+    # but never manufacture additional slots. If only one or two trustworthy
+    # images exist, return exactly those images.
     non_featured = [
         x for x in ranked
         if not _same_image(x.get("url", ""), original_featured)
     ]
+    selected = non_featured[:3] if non_featured else ranked[:3]
 
-    # Best case: three distinct non-featured images.
-    if len(non_featured) >= 3:
-        selected = non_featured[:3]
-    else:
-        # Best-effort fallback: use all available distinct images first.
-        selected = non_featured[:]
+    # If the featured image is the only trustworthy source image, it is still
+    # valid as the OG/hero asset. Never duplicate it into multiple slots.
+    if len(selected) < 3:
         for source in ranked:
             if len(selected) >= 3:
                 break
             if any(_same_image(source.get("url", ""), x.get("url", "")) for x in selected):
                 continue
             selected.append(source)
-
-        # If fewer than three distinct images exist, reuse available images
-        # rather than rejecting the story. This keeps the publishing pipeline
-        # running while preserving distinct assets whenever the source allows.
-        if len(selected) < 3:
-            pool = non_featured or ranked
-            while len(selected) < 3:
-                selected.append(pool[(len(selected) - len(non_featured)) % len(pool)])
-            print(
-                f"Only {len(ranked)} distinct scraped image(s) available; "
-                "reusing an available image only where necessary."
-            )
-
-    # The third slot is OG. Whenever possible, make it different from the
-    # source article's featured image and different from the first two slots.
-    if len(selected) >= 3 and _same_image(selected[2].get("url", ""), original_featured):
-        alternatives = [
-            x for x in non_featured
-            if not any(_same_image(x.get("url", ""), selected[i].get("url", "")) for i in (0, 1))
-        ]
-        if alternatives:
-            selected[2] = alternatives[0]
-        elif non_featured:
-            selected[2] = non_featured[0]
 
     return selected[:3]
 
@@ -319,7 +292,7 @@ def strip_generated_images(body):
 def inject_images(body, images):
     """Place only the first two trusted selected images deep in the article body."""
     body = strip_generated_images(body)
-    if len(images) < 2:
+    if not images:
         return body
     paragraphs = [p for p in body.split("\n\n") if p.strip()]
     if len(paragraphs) < 4:
@@ -333,16 +306,20 @@ def inject_images(body, images):
     rejected = len(images) - len(trusted)
     if rejected:
         print(f"Rejected {rejected} untrusted body image candidate(s) at injection boundary.")
-    if len(trusted) < 2:
-        print("Fewer than two trusted body images remain; skipping image injection.")
+    if not trusted:
+        print("No trusted body images remain; skipping image injection.")
         return body
 
-    # Deliberately avoid paragraph 2. Target roughly 30% and 65% into the story,
-    # with safe minimum gaps so the images are distributed rather than clustered.
+    # Place one or two trusted body images only. A missing second image is
+    # normal and must not be filled by duplication.
     n = len(paragraphs)
-    first_after = max(4, min(n - 3, round(n * 0.30)))
-    second_after = max(first_after + 3, min(n - 1, round(n * 0.65)))
-    placements = {first_after: trusted[0], second_after: trusted[1]}
+    placements = {}
+    if len(trusted) >= 1:
+        placements[max(2, min(n - 1, round(n * 0.30)))] = trusted[0]
+    if len(trusted) >= 2:
+        first_after = max(2, min(n - 1, round(n * 0.30)))
+        second_after = max(first_after + 2, min(n - 1, round(n * 0.65)))
+        placements[second_after] = trusted[1]
 
     result = []
     for i, paragraph in enumerate(paragraphs, 1):
@@ -425,9 +402,8 @@ def main():
             print("No scraped image available; publishing story without image assets.")
             hosted = []
         else:
-            # Upload each selected slot independently. Distinct source images
-            # become distinct ImgBB assets; unavoidable fallback reuse is kept
-            # only when the source itself provides too few images.
+            # Upload only source-validated, distinct images. There is no
+            # fallback reuse when the source provides fewer images.
             hosted = []
             for image in selected:
                 hosted_url = upload_to_imgbb(image["url"], link)
