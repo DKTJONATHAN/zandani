@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-19T04:00:13.025Z",
+  "updated": "2026-09-19T05:00:07.440Z",
   "logs": [
+    {
+      "id": "news-1789794007206",
+      "desk": "news",
+      "scheduledFor": "2026-09-19 08:00:05",
+      "dispatchedAt": "2026-09-19T05:00:05.729Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "agriculture-1789790412605",
       "desk": "agriculture",
