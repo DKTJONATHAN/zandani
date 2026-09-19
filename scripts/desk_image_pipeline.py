@@ -103,13 +103,17 @@ def inject_images(body, images):
         if _bad(u,x.get("alt",""),x.get("caption","")): continue
         seen.add(u); seen.add(s); trusted.append(x)
     blocks=[p.strip() for p in body.split("\n\n") if p.strip()]
-    if not trusted or len(blocks)<4: return body
+    if not trusted or not blocks: return body
     n=len(blocks)
-    first=max(2,min(n-1,round(n*0.30)))
-    placements={first:trusted[0]}
-    if len(trusted)>=2:
-        second=max(first+2,min(n-1,round(n*0.65)))
-        if second!=first: placements[second]=trusted[1]
+    if n < 4:
+        # Short stories still receive one genuine internal image.
+        placements={max(1, min(n, round(n*0.5))): trusted[0]}
+    else:
+        first=max(2,min(n-1,round(n*0.30)))
+        placements={first:trusted[0]}
+        if len(trusted)>=2:
+            second=max(first+2,min(n-1,round(n*0.65)))
+            if second!=first: placements[second]=trusted[1]
     out=[]
     for i,p in enumerate(blocks,1):
         out.append(p)
