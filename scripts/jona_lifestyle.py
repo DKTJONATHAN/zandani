@@ -6,8 +6,8 @@ if __name__ == "__main__":
     run_writer({
         "author_name": "Jona Munyi",
         "category": "Lifestyle",
-        "source_url": "https://www.ghafla.co.ke/",
-        "source_domain": "ghafla.co.ke",
+        "source_url": "https://insightnews.co.ke/lifestyle",
+        "source_domain": "insightnews.co.ke",
         "memory_file": ".github/memory_jona_lifestyle.json",
         "role": "lifestyle correspondent",
         "audience": "Kenyan lifestyle, culture, food, travel and everyday-life readers",
