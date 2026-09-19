@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-19T07:00:17.194Z",
+  "updated": "2026-09-19T07:00:20.803Z",
   "logs": [
+    {
+      "id": "jaj-1789801220655",
+      "desk": "jaj",
+      "scheduledFor": "2026-09-19 10:00:15",
+      "dispatchedAt": "2026-09-19T07:00:19.591Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "news-1789801216994",
       "desk": "news",
