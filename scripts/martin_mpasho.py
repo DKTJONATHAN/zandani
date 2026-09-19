@@ -48,7 +48,8 @@ def candidates():
             soup=BeautifulSoup(r.text,"html.parser")
             for a in soup.select("a[href]"):
                 href=urllib.parse.urljoin(listing,(a.get("href") or "").strip())
-                parsed=urllib.parse.urlparse(href)\n                if parsed.netloc!=DOMAIN or not article_path(href): continue\n                # Mpasho is the discovery source; this desk publishes entertainment only.\n                if not parsed.path.lower().startswith("/entertainment/"): continue
+                parsed=urllib.parse.urlparse(href)
+                if parsed.netloc!=DOMAIN or not article_path(href): continue\n                # Mpasho is the discovery source; this desk publishes entertainment only.\n                if not parsed.path.lower().startswith("/entertainment/"): continue
                 k=story_key(href)
                 if k in seen: continue
                 seen.add(k); out.append(href)
@@ -66,7 +67,8 @@ def candidates():
                     soup=BeautifulSoup(page.content(),"html.parser")
                     for a in soup.select("a[href]"):
                         href=urllib.parse.urljoin(listing,(a.get("href") or "").strip())
-                        parsed=urllib.parse.urlparse(href)\n                        if parsed.netloc==DOMAIN and article_path(href) and parsed.path.lower().startswith("/entertainment/") and story_key(href) not in seen:
+                        parsed=urllib.parse.urlparse(href)
+                        if parsed.netloc==DOMAIN and article_path(href) and parsed.path.lower().startswith("/entertainment/") and story_key(href) not in seen:
                             seen.add(story_key(href)); out.append(href)
                 except Exception as e:
                     print("Mpasho browser listing failed:",listing,e)
