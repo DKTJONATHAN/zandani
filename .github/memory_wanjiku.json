@@ -2,12 +2,14 @@
   "published_hashes": [
     "2a04ccc9cda8ba08383c3b256308e7a0a0cc847898417e6d72a1613532bc07a9",
     "5bca425de4238a95b09178a1b9b8c5a7d307589a8fcca339548e8a4b336630ed",
-    "ec7016c4ba268f1034a3150185275fcd66fce7f82dfbca79b17105fab59d52de"
+    "ec7016c4ba268f1034a3150185275fcd66fce7f82dfbca79b17105fab59d52de",
+    "5f5b8e241e2e25322dafb1053b1f078f251c8967fb7e6d6eb45a21ef96220fb3"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
     "https://www.ghafla.co.ke/",
-    "https://ghafla.co.ke/"
+    "https://ghafla.co.ke/",
+    "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-western-kenya-on-september-19/"
   ],
   "published_angles": [
     {
@@ -17,9 +19,18 @@
       "opening": "Lead with Sifuna as the central pivot of a whirlwind 48 hours of high-stakes political maneuvering.",
       "structure": "Chronological and thematic development tracing the rifts in Linda Mwananchi, the overseas outreach, the diplomatic huddle, and the domestic institutional pushback, closing with a sharp observation on the early battle lines for 2027.",
       "source": "https://ghafla.co.ke/"
+    },
+    {
+      "title": "15-Hour Weekend Blackouts to Hit Western Kenya\u2019s Industrial and Border Hubs",
+      "angle": "The massive disparity in the scale of disruption\u2014highlighting the highly disruptive 15-hour weekend blackout hitting major economic engines like Mumias Sugar and the Busia border transit corridor, compared to a brief two-hour maintenance window in Siaya.",
+      "angle_type": "local economic impact",
+      "opening": "Lead directly with the economic reality of a 15-hour weekend shutdown hitting key production and border corridors.",
+      "structure": "Geographical and sectoral breakdown contrasting the prolonged Kakamega/Busia industrial interruptions with Siaya's shorter institutional outage.",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-western-kenya-on-september-19/"
     }
   ],
   "style_history": [
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ]
 }
