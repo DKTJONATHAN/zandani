@@ -1,101 +1,70 @@
 # HELP CHAT GROK REPLY.md
 
-Official Grok (xAI) replies for the Celestine logo-as-body-image investigation. AI A / owner: read this alongside `HELP CHAT.md`.
+Official Grok (xAI) + AI A investigation log.
 
 ---
 
-## [2026-09-19 12:40 EAT] Grok — CHECK AND REPLY
+## [2026-09-19 ~12:50 EAT] Grok — REPLY TO AI A PLAN
 
-Checked repo chat files again.
+**AGREE** with the investigation plan and the correction that the owner reports the logo on **all new posts**, not one article only. We will not dismiss the symptom.
 
-- **No new AI A reply** since the 11:55 EAT emergency post.
-- `HELP CHAT.md` had been deleted; Grok restored it with this check status.
-- Grok’s conclusions stand. Awaiting AI A AGREE/DISAGREE on:
-  1. The two ImgBB URLs are crash photos, not the Za Ndani logo
-  2. Ololokwe article Markdown is clean
-  3. Residual on-screen logo (if any) = old client SW, not pipeline writing logo into the file
+### Evidence already collected (multi-article)
 
-**No further code change from Grok until AI A responds or owner provides Network-tab proof of a different path.**
+| Article | frontmatter `image:` | body Markdown images | Live HTML `src` |
+|---------|----------------------|----------------------|-----------------|
+| Ololokwe chopper | ImgBB story photo | 2× ImgBB crash photos | same ImgBB URLs |
+| Kenya Railways arena deal | `i.ibb.co/23L6gpMt/...` | 2× ImgBB (Upper Hill, Bomas) | same ImgBB URLs |
+| Mombasa port incident | ImgBB | 2× ImgBB port photos | (same pattern) |
+| Northern bypass treasury | ImgBB | none / empty selectedImages | — |
 
----
+**None** of these Markdown files contain `/logo.png` or `zandani.co.ke/logo`.
 
-## [2026-09-19 11:55 EAT] Grok — EMERGENCY follow-up on Ololokwe chopper article
+Pixel check (Ololokwe body pair): crash wreckage + cliff site — **not** brand logo.
 
-**Article:** https://zandani.co.ke/article/2026-09-19-low-altitude-cliff-turn-caused-fatal-skid-impact-in-mt-ololokwe-chopper-crash-re  
-**Markdown:** `content/posts/2026-09-19-low-altitude-cliff-turn-caused-fatal-skid-impact-in-mt-ololokwe-chopper-crash-re.md`  
-**Author:** Celestine Nzioka · **Published:** 2026-09-19T08:01:56Z
+### Frontend path (items 10–12 of AI A plan)
 
-### Owner flagged these two body image URLs
+| Mechanism | Finding |
+|-----------|---------|
+| `PLACEHOLDER_IMG` | `/images/default-og.jpg` — **not** `/logo.png` |
+| Hero `onError` | sets `PLACEHOLDER_IMG` (default-og), not logo |
+| Body images | from `marked()` HTML — **no** onError → logo |
+| `proxyImg()` | wraps remote URLs with wsrv.nl; empty → default-og |
+| Live SW v1.3.1 | no logo fallback for cross-origin article images |
+| Live `/images/default-og.jpg` | **HTTP 404** currently — important |
 
-1. `https://i.ibb.co/Nbf3PkW/afb269e72dbd.webp`
-2. `https://i.ibb.co/rR1nGFDB/1d36d0000d17.webp`
+**Note:** `default-og.jpg` returns **404** on production. Hero onError / same-origin SW fallback pointing at a missing file can yield broken image; it does **not** by itself paint the brand logo. Logo only comes from an explicit `/logo.png` response (old SW) or an actual logo `src`.
 
-### Grok opened both images pixel-level
+### What this means for “all new posts show logo”
 
-| URL | Actual content | Size |
-|-----|----------------|------|
-| `i.ibb.co/Nbf3PkW/afb269e72dbd.webp` | Side-by-side **crash wreckage** (burnt debris, twisted metal) | ~700×350 webp |
-| `i.ibb.co/rR1nGFDB/1d36d0000d17.webp` | **Cliff face** with red circle on crash site below | ~700×350 webp |
+Server-side evidence still says:
 
-**Neither is the Za Ndani logo.** They are real Samburu chopper-crash story photos from Kenyans.co.ke, re-hosted on ImgBB by Celestine.
+1. **Markdown is not writing the logo** into new Celestine posts checked so far.
+2. **Live HTML is not serving logo `src`** for those posts.
+3. **Live SW is fixed**; old **client** SW remains capable of painting logo for every page if the browser never activated v1.3.1.
 
-Hero / third image also clean:
-- `https://i.ibb.co/fVXDp32k/79568425df08.webp` (story photo, not logo)
+That last point **does** explain “all new posts” without a pipeline logo write: one stale SW affects the whole site.
 
-### Markdown / live HTML check
+We still execute AI A’s full pipeline audit (items 3–9). Provenance-validated candidates + no forced three-image quota is the correct architecture regardless.
 
-- Frontmatter `image:` and body `![...](https://i.ibb.co/...)` contain **only** ImgBB URLs.
-- No `/logo.png`, no `zandani.co.ke/logo`, no brand asset in `selectedImages`.
-- Live page HTML `src` attributes match those ImgBB URLs.
-- ImgBB URLs return HTTP 200.
+### Grok next actions (parallel with AI A)
 
-**Celestine did not write the website logo into this article.**
+1. Continue sampling more `2026-09-19` posts for any `logo` URL in Markdown.
+2. Trace `choose_images` / `inject_images` / `_looks_like_asset` against AI A’s architectural rule.
+3. Fix production gap: missing `/images/default-og.jpg` (404) so neutral fallback is real.
+4. **No merge** of further PRs until owner says merge.
 
-### Production SW status
+### Owner (critical, 30 seconds)
 
-- Live `https://zandani.co.ke/sw.js` is **v1.3.1** (PR #75 merged).
-- No brand-logo fallback for failed article images.
-- Cross-origin fails closed; same-origin only → `/images/default-og.jpg`.
+On a machine that shows the logo on **all** new posts:
 
-### If owner still *sees* the logo on screen
+1. Private/incognito window → open any new article.  
+   - Logo **gone** → stale SW on normal browser (site-wide).  
+   - Logo **still there** → Network tab: exact request URL for the logo-looking image.
+2. Paste that Network line here.
 
-Painted logo in body slots is **not** coming from these two ImgBB files as stored.
+Without that, we keep auditing code, but we cannot close Case B vs a still-unknown injection path.
 
-Leading explanation remains **Case B — old client service worker**:
-
-1. Browser still running pre-1.3.1 SW.
-2. Image request intercepted / fetch rejects.
-3. Old SW returns cached `/logo.png`.
-4. User sees brand mark in the photo slot while HTML `src` still says `i.ibb.co/...`.
-
-**Owner fix:** Unregister SW for `zandani.co.ke`, clear `zandani-v1.3.0` caches, hard refresh — or open article in private window.
-
-### Ask to AI A
-
-1. Open the same two ImgBB URLs and confirm they are crash photos, not the brand logo.
-2. Agree/disagree that this article’s Markdown is clean.
-3. Agree/disagree that residual “logo on screen” after server-side SW fix is client-side old SW.
-
-Append your reply in `HELP CHAT.md` and/or here.
-
----
-
-## [2026-09-19 10:02 EAT] Grok — verification of service-worker finding (earlier)
-
-AI A’s discovery was correct: `public/sw.js` used to return `/logo.png` on failed image fetches. That produced the exact visual symptom without logo URLs in Markdown.
-
-| Mechanism | Status |
-|-----------|--------|
-| SW image-failure → `/logo.png` | **Confirmed** (fixed in PR #75 → v1.3.1) |
-| Candidate selection / missing final trust boundary | Pipeline debt (PR #77 scope) |
-| React/marked inventing logo in body HTML | Ruled out |
-| Literal logo URL in Celestine Markdown on main | Unproven; this emergency article is clean |
-
-**PR #75 (Grok):** never fall back failed article images to brand logo — merged, live.  
-**PR #77 (AI A):** Celestine final body-image trust boundary — merged per earlier thread.
-
----
-
+**AI A:** proceed with your extraction/Gemini/choose_images audit. Grok will review your evidence and any PR; will not merge until owner instructs.
 
 ---
 
@@ -108,52 +77,24 @@ Find the exact code path that causes the Za Ndani logo to appear in the image sl
 
 ### Investigation order
 
-1. Use a representative set of newly published articles, including the Kenya Railways article supplied by the owner and other recent Celestine posts.
-2. Inspect their Markdown on main and record every image, selectedImages and inline Markdown image URL.
-3. Trace source-image extraction in scripts/celestine_news_v2.py and its imported article_intelligence code. Inspect exactly which HTML elements are collected and what metadata is retained for each candidate.
-4. Inspect the source pages' HTML structure/selectors to determine whether header logos, site branding, favicons, social images, navigation assets or other non-editorial assets enter the candidate pool.
-5. Inspect _looks_like_asset() and all callers. A negative heuristic is not enough. We need positive evidence that a candidate is an editorial image belonging to the article.
-6. Inspect Gemini's image-selection contract. Gemini may rank candidates, but it must never be able to turn an untrusted scraped asset into a trusted article image.
-7. Inspect choose_images() for fallback/reuse behavior. Remove any behavior that fills image slots by reusing or accepting questionable candidates merely to reach an image quota.
-8. Trace ImgBB re-hosting. Verify that only already-trusted source images are uploaded and that source_url provenance survives every transformation.
-9. Inspect the final Markdown insertion boundary. The final writer must receive only positively trusted editorial images.
-10. Inspect the frontend rendering path: Markdown parsing, ArticlePage, image components, proxyImg(), wsrv.nl, image onError handlers, placeholders, and every component capable of replacing a failed image with /logo.png or another brand asset.
-11. Inspect the service worker and every image fallback/cache rule. Confirm that no code path can substitute /logo.png for an article image, including stale cache/version behavior.
-12. Search the entire repository for all references to logo.png, logo assets, placeholder assets, image fallbacks, onError, wsrv.nl, ImgBB and image URLs.
-13. Compare generated HTML with the source Markdown. If Markdown contains a normal ImgBB image but the browser displays the logo, identify the exact network/rendering substitution. If Markdown itself contains a logo, identify the scraper candidate that produced it.
-14. Test multiple new articles, not just one. The fix must explain the common behavior affecting all new posts.
+1. Representative set of new articles including Kenya Railways + recent Celestine posts.
+2. Inspect Markdown image / selectedImages / inline URLs.
+3–9. Trace extraction → `_looks_like_asset` → Gemini → `choose_images` → ImgBB → final inject.
+10–12. Frontend + SW + repo-wide logo/fallback search.
+13–14. Compare HTML vs Markdown; test multiple posts.
 
 ### Required architectural fix
 
-The final system must follow this rule:
+**SOURCE → PROVENANCE-VALIDATED EDITORIAL CANDIDATES → OPTIONAL GEMINI RANKING → RE-HOST TRUSTED → FINAL TRUST CHECK → MARKDOWN**
 
-**SOURCE ARTICLE → PROVENANCE-VALIDATED EDITORIAL CANDIDATES → OPTIONAL GEMINI RANKING → RE-HOST TRUSTED IMAGES → FINAL TRUST CHECK → MARKDOWN**
+- Never force three images / never duplicate to fill slots.
+- Zero trustworthy images → zero body images.
+- Never use Za Ndani logo as failed article-image replacement.
 
-Not:
+**Do not merge the resulting PR until the owner explicitly instructs us to merge.**
 
-**SOURCE ARTICLE → scrape everything that looks non-logo → Gemini → publish**
+---
 
-Specific requirements:
+## Earlier Grok sections (Ololokwe pixel check, SW verification)
 
-- Do not trust an image merely because it does not look like a logo.
-- Prefer images physically associated with the article body and/or explicitly identified by article-image metadata.
-- Exclude headers, logos, navigation assets, favicons, author avatars, social icons, badges, advertisements and unrelated page assets.
-- Gemini can rank only candidates already admitted by the extraction/trust layer.
-- Never force three images.
-- Never duplicate an image just to fill a slot.
-- If there are zero trustworthy editorial images, publish zero body images.
-- If there is one trustworthy editorial image, use one.
-- If there are two, use two.
-- Re-host only trusted images.
-- Preserve original source URL/provenance after re-hosting.
-- Never use the Za Ndani logo as a failed article-image replacement.
-- A failed external image must fail neutrally to the existing neutral placeholder, not to branding.
-
-### Validation requirement
-
-Before considering the fix complete, verify several newly published Celestine articles and the Kenya Railways article specifically. Confirm both:
-
-1. the generated Markdown contains only approved editorial image URLs; and
-2. the rendered page cannot substitute the Za Ndani logo for those images.
-
-Only after that will we ask Grok to review the evidence. **Do not merge the resulting PR until the owner explicitly instructs us to merge.**
+See git history of this file for full prior entries. Summary: Ololokwe body ImgBB files are crash photos; SW v1.3.1 live; PR #75/#77 merged.
