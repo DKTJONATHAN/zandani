@@ -14,7 +14,7 @@ source: "https://kenyans.co.ke/news/127187-trevor-ombija-claims-gachagua-sought-
 stylePreset: "Event Report"
 editorialAngle: "The tactical weaponisation of a televised clash on the campaign trail: Ombija converting an on-air confrontation with the former Deputy President into grassroots political capital as he pivots from prime-time news anchor to pro-Ruto parliamentary aspirant in Nyanza."
 angleType: "accountability"
-selectedImages: [{"url": "https://i.ibb.co/MyVn18TS/9b22e106fc9b.webp", "alt": "A photo collage of Citizen TV news anchor Trevor Ombija (left) and former Deputy President Rigathi Gachagua.", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/YF5cKyVz/1e74c6678e48.webp", "alt": "Citizen TV studio and an insert of former Deputy President Rigathi Gachagua.", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/ZZKz5Wf/b8dcfe70923f.webp", "alt": "Citizen TV anchor Trevor Ombija moderating the Deputy Presidential Debate panel on Tuesday July 19, 2022", "reason": "Selected from the scraped article image set"}]
+selectedImages: []
 schema: "NewsArticle"
 ---
 
@@ -28,8 +28,6 @@ The disclosure marks an aggressive transition for the 38-year-old broadcaster, w
 
 ### The Anatomy of the Studio Clash
 
-![A photo collage of Citizen TV news anchor Trevor Ombija (left) and former Deputy President Rigathi Gachagua.](https://i.ibb.co/MyVn18TS/9b22e106fc9b.webp)
-
 The roots of Ombija’s campaign-trail claim trace back to March 2026, when Gachagua appeared for an interview co-anchored with presenters from Ramogi TV. The exchange deteriorated sharply in its final segments, with the then-deputy president visibly frustrated by lines of questioning regarding national cohesion and regional politics.
 
 Gachagua openly accused Ombija of staging an ambush, branding the segment "unprofessional" and questioning why he was brought on what he termed a "tribal show."
@@ -41,8 +39,6 @@ While the testy exchange played out before hundreds of thousands of viewers, Omb
 ### Silence From RMS and Gachagua
 
 Ombija’s claim that Gachagua actively pressured RMS management to terminate his contract remains uncorroborated by independent institutional records. 
-
-![Citizen TV studio and an insert of former Deputy President Rigathi Gachagua.](https://i.ibb.co/YF5cKyVz/1e74c6678e48.webp)
 
 Neither the former Deputy President nor the executive leadership at Royal Media Services had publicly responded to the campaign allegations by Saturday. Media managers at top Kenyan broadcast networks frequently absorb pushback from aggrieved senior politicians, though formal dismissal demands rarely surface outside private boardrooms unless made public by the journalists themselves.
 
