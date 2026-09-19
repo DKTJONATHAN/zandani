@@ -595,10 +595,10 @@
     "792cdcbcce568c0bdf74b7aa4a9ee147",
     "33826494fcf15d0f9f1fd75c798ba3e1",
     "82e45089cdb949363179dd2b563311f8",
-    "aca2f7c4d51410e84b2ab8108dfe917d"
+    "aca2f7c4d51410e84b2ab8108dfe917d",
+    "01509f19f6b45675f9db6d2ce8d2f3ff"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -627,7 +627,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -807,7 +808,8 @@
     "https://kenyans.co.ke/news/127186-us-unveils-new-technology-pitch-kenyas-critical-minerals",
     "https://kenyans.co.ke/news/127187-trevor-ombija-claims-gachagua-sought-his-dismissal-after-heated-interview",
     "https://kenyans.co.ke/news/127189-helicopter-hit-rock-near-mt-ololokwe-summit-crashing-samburu-aaid-says",
-    "https://kenyans.co.ke/news/127188-nairobi-set-get-new-ksh-38b-indoor-arena-alongside-talanta"
+    "https://kenyans.co.ke/news/127188-nairobi-set-get-new-ksh-38b-indoor-arena-alongside-talanta",
+    "https://kenyans.co.ke/news/127191-sifuna-pledges-new-car-taxi-driver-injured-during-chaotic-homa-bay-rally"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -909,7 +911,8 @@
     "washington outlines tech vendor model critical minerals partnership",
     "ombija converts air clash gachagua nyakach campaign fuel",
     "low altitude cliff turn caused fatal skid impact ololokwe chopper crash report shows",
-    "railways commits prime land ksh 38b private indoor arena deal"
+    "railways commits prime land ksh 38b private indoor arena deal",
+    "sifuna step exposes duty care gap homa bay rally violence"
   ],
   "topic_keys": [
     "news tracker",
@@ -1098,6 +1101,15 @@
       "structure": "Lease concession lead -> Scope and location within Railway City master plan -> Private financing contrast with state-backed venues -> Employment and operational projections -> Commercial blueprint from Kigali to Lagos -> Pointed close on terminal integration.",
       "source": "https://kenyans.co.ke/news/127188-nairobi-set-get-new-ksh-38b-indoor-arena-alongside-talanta",
       "published_at": "2026-09-19T08:07:32Z"
+    },
+    {
+      "title": "Sifuna Step-In Exposes Duty-of-Care Gap After Homa Bay Rally Violence",
+      "angle": "Framing the incident through the grey zone of legal and financial accountability for third-party transport operators caught in political rally violence, and how political figures rely on discretionary public interventions to manage rally fallout.",
+      "angle_type": "accountability",
+      "opening": "Lead directly on the accountability gap exposed by the dispute between event mobilisers and affected transport workers before Sifuna's intervention.",
+      "structure": "Liability gap lead -> Chronology of the Homa Bay ambush and injuries -> The financial standoff over vehicle replacement -> Sifuna's public intervention -> Unresolved police and NCIC proceedings.",
+      "source": "https://kenyans.co.ke/news/127191-sifuna-pledges-new-car-taxi-driver-injured-during-chaotic-homa-bay-rally",
+      "published_at": "2026-09-19T09:01:47Z"
     }
   ]
 }
