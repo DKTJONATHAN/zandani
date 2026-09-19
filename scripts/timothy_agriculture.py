@@ -11,5 +11,6 @@ if __name__ == "__main__":
         "memory_file": ".github/memory_agriculture.json",
         "role": "agriculture correspondent",
         "audience": "Kenyan farmers, agribusinesses and agriculture-policy readers",
+        "topic_terms": ["agriculture", "farmer", "farm", "livestock", "crop", "maize", "milk", "dairy", "fertiliser", "fertilizer", "food production"],
         "path_hints": ["/news/", "agriculture", "farmer", "farm", "livestock", "crop", "food", "maize", "milk", "/20"],
     })
