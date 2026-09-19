@@ -95,3 +95,65 @@ AI A’s discovery was correct: `public/sw.js` used to return `/logo.png` on fai
 **PR #77 (AI A):** Celestine final body-image trust boundary — merged per earlier thread.
 
 ---
+
+
+---
+
+## [2026-09-19 12:xx EAT] AI A — PLAN: TRACE WHY ALL NEW POSTS SHOW THE ZA NDANI LOGO
+
+**Important correction:** The owner reports that the Za Ndani logo is visible on **all new posts**, not just the Ololokwe article. Therefore we will not treat this as an isolated article-image problem or assume browser cache is the root cause.
+
+### Objective
+Find the exact code path that causes the Za Ndani logo to appear in the image slots of newly published articles, then fix the root cause across the publishing pipeline and frontend. No guessing and no dismissal of the visible symptom.
+
+### Investigation order
+
+1. Use a representative set of newly published articles, including the Kenya Railways article supplied by the owner and other recent Celestine posts.
+2. Inspect their Markdown on main and record every image, selectedImages and inline Markdown image URL.
+3. Trace source-image extraction in scripts/celestine_news_v2.py and its imported article_intelligence code. Inspect exactly which HTML elements are collected and what metadata is retained for each candidate.
+4. Inspect the source pages' HTML structure/selectors to determine whether header logos, site branding, favicons, social images, navigation assets or other non-editorial assets enter the candidate pool.
+5. Inspect _looks_like_asset() and all callers. A negative heuristic is not enough. We need positive evidence that a candidate is an editorial image belonging to the article.
+6. Inspect Gemini's image-selection contract. Gemini may rank candidates, but it must never be able to turn an untrusted scraped asset into a trusted article image.
+7. Inspect choose_images() for fallback/reuse behavior. Remove any behavior that fills image slots by reusing or accepting questionable candidates merely to reach an image quota.
+8. Trace ImgBB re-hosting. Verify that only already-trusted source images are uploaded and that source_url provenance survives every transformation.
+9. Inspect the final Markdown insertion boundary. The final writer must receive only positively trusted editorial images.
+10. Inspect the frontend rendering path: Markdown parsing, ArticlePage, image components, proxyImg(), wsrv.nl, image onError handlers, placeholders, and every component capable of replacing a failed image with /logo.png or another brand asset.
+11. Inspect the service worker and every image fallback/cache rule. Confirm that no code path can substitute /logo.png for an article image, including stale cache/version behavior.
+12. Search the entire repository for all references to logo.png, logo assets, placeholder assets, image fallbacks, onError, wsrv.nl, ImgBB and image URLs.
+13. Compare generated HTML with the source Markdown. If Markdown contains a normal ImgBB image but the browser displays the logo, identify the exact network/rendering substitution. If Markdown itself contains a logo, identify the scraper candidate that produced it.
+14. Test multiple new articles, not just one. The fix must explain the common behavior affecting all new posts.
+
+### Required architectural fix
+
+The final system must follow this rule:
+
+**SOURCE ARTICLE → PROVENANCE-VALIDATED EDITORIAL CANDIDATES → OPTIONAL GEMINI RANKING → RE-HOST TRUSTED IMAGES → FINAL TRUST CHECK → MARKDOWN**
+
+Not:
+
+**SOURCE ARTICLE → scrape everything that looks non-logo → Gemini → publish**
+
+Specific requirements:
+
+- Do not trust an image merely because it does not look like a logo.
+- Prefer images physically associated with the article body and/or explicitly identified by article-image metadata.
+- Exclude headers, logos, navigation assets, favicons, author avatars, social icons, badges, advertisements and unrelated page assets.
+- Gemini can rank only candidates already admitted by the extraction/trust layer.
+- Never force three images.
+- Never duplicate an image just to fill a slot.
+- If there are zero trustworthy editorial images, publish zero body images.
+- If there is one trustworthy editorial image, use one.
+- If there are two, use two.
+- Re-host only trusted images.
+- Preserve original source URL/provenance after re-hosting.
+- Never use the Za Ndani logo as a failed article-image replacement.
+- A failed external image must fail neutrally to the existing neutral placeholder, not to branding.
+
+### Validation requirement
+
+Before considering the fix complete, verify several newly published Celestine articles and the Kenya Railways article specifically. Confirm both:
+
+1. the generated Markdown contains only approved editorial image URLs; and
+2. the rendered page cannot substitute the Za Ndani logo for those images.
+
+Only after that will we ask Grok to review the evidence. **Do not merge the resulting PR until the owner explicitly instructs us to merge.**
