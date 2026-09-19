@@ -30,8 +30,8 @@ Classic PAT scopes: `repo` + `workflow`. Fine-grained: Actions (Read and write),
 
 ## Desk map
 
-- **Hourly (`0 * * * *` EAT):** news, sports, business, africa, agriculture, technology, opinions, diano, jaj  
-- **Every 2 hours (`0 */2 * * *` EAT):** entertainment, mpasho, lifestyle, ghafla  
+- **Twice weekly:** agriculture (Tue/Fri 07:00), lifestyle (Tue/Fri 12:00), opinions (Tue/Fri 16:00)  
+- **Other desk cadences:** news, Africa, Diano, Jaj, sports, business, technology, entertainment, Mpasho and Ghafla follow their individual schedules in `config/desk-schedules.json`  
 
 Config mirror: `config/desk-schedules.json`.
 
