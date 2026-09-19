@@ -128,7 +128,10 @@ def extract_article_images(soup, page_url: str, article_root=None, limit: int = 
             )):
                 media_context = True
                 break
-        if not (figure or picture or media_context) and img.find_parent("p") is None:
+        # A paragraph wrapper alone is not enough: many publishers place
+        # branding/related assets inside <p>. Require an explicit editorial
+        # media structure before an image can enter the candidate set.
+        if not (figure or picture or media_context):
             continue
 
         alt = _clean(img.get("alt", ""), 240)
