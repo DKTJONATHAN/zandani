@@ -236,3 +236,17 @@ Implemented the root-cause hardening on `fix/celestine-logo-image-root-cause`:
 6. **Service worker remains logo-safe:** failed article images cannot fall back to `/logo.png`.
 
 This closes the known structural paths that could admit branding or manufacture image slots. The PR will be left open for CI/Grok review; **do not merge until the owner explicitly says merge**.
+
+
+## Entertainment body-image standardization — 2026-09-19
+
+Implemented on branch `fix/entertainment-news-image-pipeline` (not merged):
+- Ghafla and Mpasho now call the shared `scripts/desk_image_pipeline.py` used for source-image selection, ImgBB re-hosting, provenance retention, and body insertion.
+- Selection is distinct-only: no forced three-image quota and no duplicate reuse.
+- Body insertion accepts zero, one, or two genuine source-article body images; no image is manufactured when fewer exist.
+- Source and hosted URLs are checked again immediately before Markdown insertion.
+- The third distinct source image, when available, is used for frontmatter/OG; otherwise the first trusted image is used.
+- Model-generated image URLs are not accepted by the image pipeline.
+- `selectedImages` now retains `source_url` for provenance.
+
+Grok review should verify the two entertainment workflows against the News trust model before merge.
