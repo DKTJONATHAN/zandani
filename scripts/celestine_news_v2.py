@@ -13,7 +13,7 @@ import sys
 import requests
 
 import celestine_news as base
-from article_intelligence import extract_article_images, format_image_candidates, recent_angle_context
+from article_intelligence import extract_article_images, format_image_candidates, recent_angle_context, _looks_like_asset
 try:
     from PIL import Image
 except Exception:
@@ -97,6 +97,28 @@ def parse_result(raw):
     return data if isinstance(data, dict) else None
 
 
+def _trusted_body_image(image: dict) -> bool:
+    """Require a source-validated image before it can enter article Markdown.
+
+    The source URL is retained through ImgBB re-hosting so the final insertion
+    point can re-apply branding/asset checks instead of trusting a transformed
+    hosting URL.
+    """
+    if not isinstance(image, dict):
+        return False
+    source_url = str(image.get("source_url") or "").strip()
+    hosted_url = str(image.get("url") or "").strip()
+    if not source_url or not hosted_url:
+        return False
+    alt = str(image.get("selected_alt") or image.get("alt") or "")
+    caption = str(image.get("caption") or "")
+    if _looks_like_asset(source_url, alt, caption):
+        return False
+    if _looks_like_asset(hosted_url, alt, caption):
+        return False
+    return True
+
+
 def _same_image(a: str, b: str) -> bool:
     def norm(url: str) -> str:
         url = (url or "").strip().lower()
@@ -139,6 +161,12 @@ def choose_images(data, candidates, original_featured=""):
         source = by_index.get(idx)
         if not source:
             continue
+        if _looks_like_asset(
+            str(source.get("url") or ""),
+            str(source.get("alt") or ""),
+            str(source.get("caption") or ""),
+        ):
+            continue
         if any(_same_image(source.get("url", ""), x.get("url", "")) for x in ranked):
             continue
         ranked.append({
@@ -149,6 +177,12 @@ def choose_images(data, candidates, original_featured=""):
 
     # Add any candidates Gemini did not rank, preserving distinct URLs.
     for source in candidates:
+        if _looks_like_asset(
+            str(source.get("url") or ""),
+            str(source.get("alt") or ""),
+            str(source.get("caption") or ""),
+        ):
+            continue
         if any(_same_image(source.get("url", ""), x.get("url", "")) for x in ranked):
             continue
         ranked.append({
@@ -292,12 +326,23 @@ def inject_images(body, images):
         print("Article body is too short for deep image placement; skipping image injection.")
         return body
 
+    # Final trust boundary: only images that retain a validated source URL
+    # may enter article Markdown. This runs immediately before insertion so
+    # later transforms/re-hosting cannot bypass the asset checks.
+    trusted = [image for image in images if _trusted_body_image(image)]
+    rejected = len(images) - len(trusted)
+    if rejected:
+        print(f"Rejected {rejected} untrusted body image candidate(s) at injection boundary.")
+    if len(trusted) < 2:
+        print("Fewer than two trusted body images remain; skipping image injection.")
+        return body
+
     # Deliberately avoid paragraph 2. Target roughly 30% and 65% into the story,
     # with safe minimum gaps so the images are distributed rather than clustered.
     n = len(paragraphs)
     first_after = max(4, min(n - 3, round(n * 0.30)))
     second_after = max(first_after + 3, min(n - 1, round(n * 0.65)))
-    placements = {first_after: images[0], second_after: images[1]}
+    placements = {first_after: trusted[0], second_after: trusted[1]}
 
     result = []
     for i, paragraph in enumerate(paragraphs, 1):
