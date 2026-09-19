@@ -6,8 +6,8 @@ if __name__ == "__main__":
     run_writer({
         "author_name": "Amara Ndlovu",
         "category": "Africa",
-        "source_url": "https://www.kenyans.co.ke/",
-        "source_domain": "kenyans.co.ke",
+        "source_url": "https://eacpost.com/",
+        "source_domain": "eacpost.com",
         "memory_file": ".github/memory_amara.json",
         "role": "East Africa correspondent",
         "audience": "Kenyan and East African readers following regional news",
