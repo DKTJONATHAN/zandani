@@ -593,10 +593,10 @@
     "42169015e0c1eb2a1e736708264c304d",
     "7b3dd7e5907d2d399c5fb074f1776c60",
     "792cdcbcce568c0bdf74b7aa4a9ee147",
-    "33826494fcf15d0f9f1fd75c798ba3e1"
+    "33826494fcf15d0f9f1fd75c798ba3e1",
+    "82e45089cdb949363179dd2b563311f8"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -625,7 +625,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -803,7 +804,8 @@
     "https://kenyans.co.ke/news/127183-northern-bypass-dualling-among-projects-kenya-seeks-advance-china-talks",
     "https://kenyans.co.ke/news/127182-nmg-responds-concerns-over-lack-women-editorial-appointments",
     "https://kenyans.co.ke/news/127186-us-unveils-new-technology-pitch-kenyas-critical-minerals",
-    "https://kenyans.co.ke/news/127187-trevor-ombija-claims-gachagua-sought-his-dismissal-after-heated-interview"
+    "https://kenyans.co.ke/news/127187-trevor-ombija-claims-gachagua-sought-his-dismissal-after-heated-interview",
+    "https://kenyans.co.ke/news/127189-helicopter-hit-rock-near-mt-ololokwe-summit-crashing-samburu-aaid-says"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -903,7 +905,8 @@
     "treasury pushes beijing unlock stalled northern bypass dualling procurement",
     "corporate quotas miss newsroom nmg gender gap exposed regional editorial overhaul",
     "washington outlines tech vendor model critical minerals partnership",
-    "ombija converts air clash gachagua nyakach campaign fuel"
+    "ombija converts air clash gachagua nyakach campaign fuel",
+    "low altitude cliff turn caused fatal skid impact ololokwe chopper crash report shows"
   ],
   "topic_keys": [
     "news tracker",
@@ -1074,6 +1077,15 @@
       "structure": "Campaign trail disclosure lead -> The Nyakach political context and Ruto broad-based alignment -> Breakdown of the March 2026 studio clash and ethnic bias accusations -> Institutional silence and unverified claims -> The growing crossover from national broadcast desks to constituency politics.",
       "source": "https://kenyans.co.ke/news/127187-trevor-ombija-claims-gachagua-sought-his-dismissal-after-heated-interview",
       "published_at": "2026-09-19T07:01:52Z"
+    },
+    {
+      "title": "Low-Altitude Cliff Turn Caused Fatal Skid Impact in Mt Ololokwe Chopper Crash, Report Shows",
+      "angle": "Exposing the razor-thin margin of error during low-altitude cliffside photography maneuvers, and highlighting the investigative dependency on satellite tracking after onboard systems were destroyed in an aircraft carrying no flight recorder.",
+      "angle_type": "consequence",
+      "opening": "Lead directly on the physical mechanics of the collision and the flight path along the cliff face.",
+      "structure": "Collision mechanics and flight path -> Plunge dynamics and fire damage -> Investigative constraint of unrecorded flight data -> Passenger profile and flight mission -> Weather, airworthiness, and regulatory framework.",
+      "source": "https://kenyans.co.ke/news/127189-helicopter-hit-rock-near-mt-ololokwe-summit-crashing-samburu-aaid-says",
+      "published_at": "2026-09-19T08:01:56Z"
     }
   ]
 }
