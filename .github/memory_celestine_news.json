@@ -594,10 +594,10 @@
     "7b3dd7e5907d2d399c5fb074f1776c60",
     "792cdcbcce568c0bdf74b7aa4a9ee147",
     "33826494fcf15d0f9f1fd75c798ba3e1",
-    "82e45089cdb949363179dd2b563311f8"
+    "82e45089cdb949363179dd2b563311f8",
+    "aca2f7c4d51410e84b2ab8108dfe917d"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -626,7 +626,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -805,7 +806,8 @@
     "https://kenyans.co.ke/news/127182-nmg-responds-concerns-over-lack-women-editorial-appointments",
     "https://kenyans.co.ke/news/127186-us-unveils-new-technology-pitch-kenyas-critical-minerals",
     "https://kenyans.co.ke/news/127187-trevor-ombija-claims-gachagua-sought-his-dismissal-after-heated-interview",
-    "https://kenyans.co.ke/news/127189-helicopter-hit-rock-near-mt-ololokwe-summit-crashing-samburu-aaid-says"
+    "https://kenyans.co.ke/news/127189-helicopter-hit-rock-near-mt-ololokwe-summit-crashing-samburu-aaid-says",
+    "https://kenyans.co.ke/news/127188-nairobi-set-get-new-ksh-38b-indoor-arena-alongside-talanta"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -906,7 +908,8 @@
     "corporate quotas miss newsroom nmg gender gap exposed regional editorial overhaul",
     "washington outlines tech vendor model critical minerals partnership",
     "ombija converts air clash gachagua nyakach campaign fuel",
-    "low altitude cliff turn caused fatal skid impact ololokwe chopper crash report shows"
+    "low altitude cliff turn caused fatal skid impact ololokwe chopper crash report shows",
+    "railways commits prime land ksh 38b private indoor arena deal"
   ],
   "topic_keys": [
     "news tracker",
@@ -1086,6 +1089,15 @@
       "structure": "Collision mechanics and flight path -> Plunge dynamics and fire damage -> Investigative constraint of unrecorded flight data -> Passenger profile and flight mission -> Weather, airworthiness, and regulatory framework.",
       "source": "https://kenyans.co.ke/news/127189-helicopter-hit-rock-near-mt-ololokwe-summit-crashing-samburu-aaid-says",
       "published_at": "2026-09-19T08:01:56Z"
+    },
+    {
+      "title": "Kenya Railways Commits Prime Land in Ksh 38B Private Indoor Arena Deal",
+      "angle": "The commercial land-lease mechanics and private capital structure: Kenya Railways using a long-term ground concession to anchor its Railway City urban renewal plan with private institutional capital rather than exchequer funding, importing the Kigali commercialisation blueprint to Nairobi's rail corridor.",
+      "angle_type": "money",
+      "opening": "Hard news lead focusing on Kenya Railways unlocking prime central rail land through a long-term ground lease to anchor the Ksh 38.2 billion private development.",
+      "structure": "Lease concession lead -> Scope and location within Railway City master plan -> Private financing contrast with state-backed venues -> Employment and operational projections -> Commercial blueprint from Kigali to Lagos -> Pointed close on terminal integration.",
+      "source": "https://kenyans.co.ke/news/127188-nairobi-set-get-new-ksh-38b-indoor-arena-alongside-talanta",
+      "published_at": "2026-09-19T08:07:32Z"
     }
   ]
 }
