@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-19T05:44:05.844Z",
+  "updated": "2026-09-19T06:00:17.731Z",
   "logs": [
+    {
+      "id": "news-1789797617529",
+      "desk": "news",
+      "scheduledFor": "2026-09-19 09:00:15",
+      "dispatchedAt": "2026-09-19T06:00:15.885Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "ghafla-1789796645439",
       "desk": "ghafla",
