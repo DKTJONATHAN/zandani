@@ -98,3 +98,125 @@ Find the exact code path that causes the Za Ndani logo to appear in the image sl
 ## Earlier Grok sections (Ololokwe pixel check, SW verification)
 
 See git history of this file for full prior entries. Summary: Ololokwe body ImgBB files are crash photos; SW v1.3.1 live; PR #75/#77 merged.
+
+
+---
+
+## [2026-09-19 12:57 EAT] AI A — PIPELINE + FRONTEND AUDIT FINDINGS
+
+### Confirmed on current `main`
+
+**1. Kenya Railways article does not contain the Za Ndani logo in Markdown.**
+
+File:
+`content/posts/2026-09-19-kenya-railways-commits-prime-land-in-ksh-38b-private-indoor-arena-deal.md`
+
+Current image chain:
+- frontmatter `image:` = ImgBB Talanta Stadium image
+- `selectedImages` = 3 ImgBB URLs
+- body Markdown = 2 ImgBB URLs
+- no `/logo.png`, `zandani.co.ke/logo`, or local logo path in the article body.
+
+This confirms the publishing file itself is not explicitly inserting Za Ndani's logo for this representative post.
+
+### 2. The frontend does NOT have a body-image fallback to `/logo.png`
+
+`src/lib/markdown.ts` loads the raw Markdown and runs:
+`marked(body)`.
+
+`src/pages/ArticlePage.tsx` injects the resulting HTML with `dangerouslySetInnerHTML`.
+
+The hero image uses `proxyImg(post.image, 1200)`; its `onError` sets `PLACEHOLDER_IMG`, which is `/images/default-og.jpg`, **not** `/logo.png`.
+
+Body Markdown images are rendered by `marked()`; there is no React `onError` on those generated body `<img>` elements.
+
+### 3. Important production defect found: the neutral fallback file is referenced but absent from the repository
+
+Repo search finds references to:
+- `/images/default-og.jpg`
+- `/images/placeholder.jpg`
+
+but no actual `default-og.jpg` file in the repository search.
+
+The investigation log already records that production `/images/default-og.jpg` returns 404.
+
+This is a real defect, but it does **not** explain a Za Ndani logo appearing by itself. A missing neutral fallback produces a broken image unless another mechanism substitutes the logo.
+
+### 4. The Celestine v2 image pipeline still violates the required trust architecture
+
+`scripts/article_intelligence.py` currently decides whether an image is safe using `_looks_like_asset()`.
+
+That function is still fundamentally heuristic:
+- URL/alt/caption keyword blacklist;
+- host/path checks;
+- parent DOM checks for header/nav/footer/aside;
+- small-dimension check.
+
+It does **not** prove that an image is editorial photography belonging to the article.
+
+`extract_article_images()` then accepts images that pass those heuristics and have figure/picture/media-context or a paragraph parent.
+
+Therefore a source-site branding image can still pass if it is embedded inside the article body with neutral URL/alt/class metadata.
+
+### 5. `choose_images()` contains an explicit quota-filling bug
+
+Current `scripts/celestine_news_v2.py` says it will build three image slots and, if fewer than three distinct images exist, it **reuses an available image**:
+
+`while len(selected) < 3: selected.append(pool[...])`
+
+This directly conflicts with the investigation requirement:
+- no forced three-image quota;
+- no duplicate reuse;
+- use only 0/1/2 trustworthy images when that is all the source provides.
+
+This must be removed.
+
+### 6. The final trust boundary is better, but still trusts the same heuristic
+
+PR #77's `_trusted_body_image()` preserves `source_url` and re-runs `_looks_like_asset()` on source + hosted URL immediately before Markdown insertion.
+
+That is useful as a defense-in-depth check, but it does **not** solve the fundamental problem if the source image was wrongly admitted earlier. Re-running the same heuristic does not establish editorial provenance.
+
+### 7. Frontend image proxy is another boundary worth hardening
+
+`src/lib/utils.ts`:
+
+`proxyImg(url)` converts remote article URLs into:
+`https://wsrv.nl/?url=...`
+
+The article hero therefore has a third-party image transformation hop. If that hop fails, React points to `/images/default-og.jpg`. Body images do not use this proxy; they retain the direct ImgBB URL.
+
+We therefore have two different image paths:
+- hero: ImgBB → wsrv.nl → browser
+- body: ImgBB → browser
+
+Both need neutral failure behavior, and neither should ever use the brand logo.
+
+### 8. Service worker
+
+Current `public/sw.js` is v1.3.1 and no longer returns `/logo.png` for failed article images.
+
+However, the old service-worker behavior remains relevant to the owner's “all new posts” symptom because an older client-controlled SW can affect every article on that browser.
+
+We are **not** treating this as proven root cause yet. The exact browser Network request for the logo-looking image is still the decisive evidence for the client-side case.
+
+### Current conclusion
+
+We have now isolated the investigation into two live possibilities:
+
+**A. Client/runtime substitution:** a browser/service-worker/proxy failure is replacing an article image with the Za Ndani logo.
+
+**B. Pipeline/source admission:** a real Za Ndani logo/branding image is entering the image candidate set because the current source extraction and heuristic asset filter do not prove editorial provenance.
+
+The code audit proves that **B is structurally possible** and that the pipeline must be corrected regardless. It does not yet prove that B is the exact cause of the logo visible on the owner's screen.
+
+### Next action
+
+Before making a production merge:
+1. Remove the three-image quota/reuse behavior.
+2. Replace heuristic-only admission with provenance-aware article-media extraction.
+3. Add a final frontend body-image guard so `marked()` cannot render known Za Ndani brand/logo URLs as article images.
+4. Provide a real neutral fallback asset instead of the currently missing `/images/default-og.jpg`.
+5. Trace the exact logo-looking network request on one affected new article to close A vs B.
+
+**No merge until the owner explicitly instructs merge.**
