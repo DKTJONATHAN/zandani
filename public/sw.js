@@ -3,7 +3,7 @@
 // Version: 1.3.0
 // ============================================
 
-const CACHE_NAME = 'zandani-v1.3.0';
+const CACHE_NAME = 'zandani-v1.3.1';
 const OFFLINE_URL = '/offline.html';
 
 const PRECACHE_ASSETS = [
@@ -127,8 +127,15 @@ self.addEventListener('fetch', (event) => {
           return networkResponse;
         });
       }).catch(() => {
-        if (url.href.match(/\.(jpg|jpeg|png|gif|webp)$/i)) {
-          return caches.match('/logo.png');
+        // Never substitute the Za Ndani site logo for a failed content image.
+        // A failed cross-origin article image must remain a failed image rather
+        // than being visually replaced by unrelated site branding.
+        if (url.href.match(/\.(jpg|jpeg|png|gif|webp|svg)$/i)) {
+          return new Response('Image unavailable', {
+            status: 404,
+            statusText: 'Image unavailable',
+            headers: { 'Content-Type': 'text/plain; charset=utf-8' },
+          });
         }
         return new Response('Offline - content unavailable', { status: 404 });
       })
