@@ -6,8 +6,8 @@ if __name__ == "__main__":
     run_writer({
         "author_name": "Zed Mogaka",
         "category": "Entertainment",
-        "source_url": "https://www.ghafla.co.ke/",
-        "source_domain": "ghafla.co.ke",
+        "source_url": "https://www.vantageke.com/category/entertainment/lifestyle-culture",
+        "source_domain": "vantageke.com",
         "memory_file": ".github/memory_georgediano.json",
         "role": "entertainment desk writer covering George Diano and Kenyan showbiz",
         "audience": "Kenyan entertainment readers",
