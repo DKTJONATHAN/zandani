@@ -590,10 +590,10 @@
     "4e1e7f5acd6a54822f72f08a59b581f4",
     "276fe77766fafb37f606e87ca6b8a158",
     "922000ad5168bc3d53de5f5c91e203cb",
-    "42169015e0c1eb2a1e736708264c304d"
+    "42169015e0c1eb2a1e736708264c304d",
+    "7b3dd7e5907d2d399c5fb074f1776c60"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -622,7 +622,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -797,7 +798,8 @@
     "https://kenyans.co.ke/news/127176-uhuru-says-his-life-becoming-too-dangerous-amid-rutos-sponsor-attacks",
     "https://kenyans.co.ke/news/127178-kra-seizes-ksh-467m-smuggled-goods-hidden-passenger-bus",
     "https://kenyans.co.ke/news/127179-kpa-confirms-crane-incident-port-mombasa-operator-injured",
-    "https://kenyans.co.ke/news/127183-northern-bypass-dualling-among-projects-kenya-seeks-advance-china-talks"
+    "https://kenyans.co.ke/news/127183-northern-bypass-dualling-among-projects-kenya-seeks-advance-china-talks",
+    "https://kenyans.co.ke/news/127182-nmg-responds-concerns-over-lack-women-editorial-appointments"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -894,7 +896,8 @@
     "murang remarks highlight widening rift kenyatta deflects ruto sponsor charges",
     "smuggling rings are rebuilding passenger buses covert cargo carriers",
     "mombasa port gantry mishap reopens safety questions second major accident months",
-    "treasury pushes beijing unlock stalled northern bypass dualling procurement"
+    "treasury pushes beijing unlock stalled northern bypass dualling procurement",
+    "corporate quotas miss newsroom nmg gender gap exposed regional editorial overhaul"
   ],
   "topic_keys": [
     "news tracker",
@@ -1038,6 +1041,15 @@
       "structure": "Lead on procurement unblocking in Beijing -> Breakdown of Northern Bypass design and credit status -> Contrast with the advanced Muthaiga-Kiambu contract -> Expansion into Bosto Dam and broader concessionary portfolio -> Pointed close on project execution hurdles.",
       "source": "https://kenyans.co.ke/news/127183-northern-bypass-dualling-among-projects-kenya-seeks-advance-china-talks",
       "published_at": "2026-09-19T05:01:43Z"
+    },
+    {
+      "title": "Corporate Quotas Miss the Newsroom: NMG Gender Gap Exposed in Regional Editorial Overhaul",
+      "angle": "Exposing the sharp disconnect between NMG's successful corporate gender quotas in boardrooms and its persistent exclusion of women from actual editorial gatekeeping and newsroom decision-making seats across East Africa.",
+      "angle_type": "institutional pressure",
+      "opening": "Contrasting paper corporate diversity achievements against the actual gender roster of the regional newsroom overhaul.",
+      "structure": "Corporate contradiction lead -> Breakdown of executive response and gender data -> Analysis of the regional appointment list -> Structural impact on newsroom gatekeeping -> Unresolved implementation question.",
+      "source": "https://kenyans.co.ke/news/127182-nmg-responds-concerns-over-lack-women-editorial-appointments",
+      "published_at": "2026-09-19T05:24:12Z"
     }
   ]
 }
