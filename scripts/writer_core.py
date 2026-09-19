@@ -225,12 +225,13 @@ def run_writer(cfg):
                         continue
                     if not any(x in href for x in extra_path_hints):
                         continue
-                    if topic_terms and not any(term in href.lower() or term in title.lower() for term in topic_terms):
+                    fallback_title = href.rstrip("/").split("/")[-1].replace("-", " ")
+                    if topic_terms and not any(term in href.lower() or term in fallback_title.lower() for term in topic_terms):
                         continue
                     if href in seen:
                         continue
                     seen.add(href)
-                    uniq.append({"title": href.rstrip("/").split("/")[-1].replace("-", " "), "url": href})
+                    uniq.append({"title": fallback_title, "url": href})
             print(f"Scraped {len(uniq)} candidate links from {source_domain}")
             return uniq[:15]
         except Exception as e:
