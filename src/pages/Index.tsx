@@ -11,7 +11,7 @@ import { NewsletterForm } from "@/components/NewsletterForm";
 import { timeAgo } from "@/lib/utils";
 
 const SITE_URL = "https://zandani.co.ke";
-const DEFAULT_OG_IMAGE = `${SITE_URL}/images/default-og.jpg`;
+const DEFAULT_OG_IMAGE = `${SITE_URL}/images/default-og.svg`;
 const FORTY_EIGHT_HOURS = 48 * 60 * 60 * 1000;
 
 function img(url: string, w = 800): string {
