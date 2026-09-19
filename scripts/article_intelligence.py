@@ -132,7 +132,13 @@ def extract_article_images(soup, page_url: str, article_root=None, limit: int = 
         # branding/related assets inside <p>. Require an explicit editorial
         # media structure before an image can enter the candidate set.
         if not (figure or picture or media_context):
-            continue
+            try:
+                width = int(re.sub(r"[^0-9]", "", str(img.get("width", "")))) if img.get("width") else 0
+                height = int(re.sub(r"[^0-9]", "", str(img.get("height", "")))) if img.get("height") else 0
+            except Exception:
+                width = height = 0
+            if not (width >= 300 and height >= 180):
+                continue
 
         alt = _clean(img.get("alt", ""), 240)
         title = _clean(img.get("title", ""), 180)
