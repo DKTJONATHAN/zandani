@@ -129,7 +129,7 @@ def slug(s):return re.sub(r"[^a-z0-9]+","-",s.lower()).strip("-")[:90]
 def publish(result,src):
     featured=prepare_featured(src.get("featured",""),src["url"])
     if not featured: raise RuntimeError("No verified Mpasho OG image could be hosted")
-    body=inject_images(result["body"],prepare_images(src.get("images",[]),src["url"]))
+    body=inject_images(result["body"],prepare_images(src.get("images",[]),src["url"],src.get("featured","")))
     now=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     s=slug(result["title"]); path=os.path.join(POSTS,f"{now[:10]}-{s}.md"); os.makedirs(POSTS,exist_ok=True)
     description=re.sub(r"\\s+"," ",body)[:155].replace('"',"'")
