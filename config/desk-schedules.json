@@ -17,8 +17,8 @@
     "agriculture": {
       "label": "Agriculture",
       "workflow": "za-agriculture.yml",
-      "cron": "0 7 * * *",
-      "cadence": "once daily (07:00)"
+      "cron": "0 7 * * 2,5",
+      "cadence": "2× weekly (Tue/Fri 07:00)"
     },
     "diano": {
       "label": "George Diano",
@@ -53,8 +53,8 @@
     "opinions": {
       "label": "Opinions",
       "workflow": "za-opinions.yml",
-      "cron": "0 16 * * *",
-      "cadence": "once daily (16:00)"
+      "cron": "0 16 * * 2,5",
+      "cadence": "2× weekly (Tue/Fri 16:00)"
     },
     "entertainment": {
       "label": "Entertainment",
@@ -71,8 +71,8 @@
     "lifestyle": {
       "label": "Lifestyle",
       "workflow": "za-lifestyle.yml",
-      "cron": "0 12,19 * * *",
-      "cadence": "2× daily (12/19)"
+      "cron": "0 12 * * 2,5",
+      "cadence": "2× weekly (Tue/Fri 12:00)"
     },
     "ghafla": {
       "label": "Ghafla",
