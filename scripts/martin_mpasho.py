@@ -53,19 +53,25 @@ def candidates():
                 if k in seen: continue
                 seen.add(k); out.append(href)
         except Exception as e: print("Mpasho listing failed:",listing,e)
-    if not out:
-        try:
-            with sync_playwright() as p:
-                b=p.chromium.launch(headless=True,args=["--no-sandbox","--disable-dev-shm-usage"]); page=b.new_page(user_agent=HEAD["User-Agent"])
-                for listing in LISTINGS:
-                    page.goto(listing,wait_until="domcontentloaded",timeout=45000); page.wait_for_timeout(1500)
+    # Mpasho frequently returns 403 to plain HTTP clients on some sections.
+    # Always give the browser a chance for each listing that failed above,
+    # rather than falling back only when the entire candidate set is empty.
+    try:
+        with sync_playwright() as p:
+            b=p.chromium.launch(headless=True,args=["--no-sandbox","--disable-dev-shm-usage"])
+            page=b.new_page(user_agent=HEAD["User-Agent"],viewport={"width":1280,"height":900})
+            for listing in LISTINGS:
+                try:
+                    page.goto(listing,wait_until="domcontentloaded",timeout=45000); page.wait_for_timeout(1800)
                     soup=BeautifulSoup(page.content(),"html.parser")
                     for a in soup.select("a[href]"):
                         href=urllib.parse.urljoin(listing,(a.get("href") or "").strip())
                         if urllib.parse.urlparse(href).netloc==DOMAIN and article_path(href) and story_key(href) not in seen:
                             seen.add(story_key(href)); out.append(href)
-                b.close()
-        except Exception as e: print("Mpasho Playwright listing failed:",e)
+                except Exception as e:
+                    print("Mpasho browser listing failed:",listing,e)
+            b.close()
+    except Exception as e: print("Mpasho Playwright listing fallback failed:",e)
     return out[:MAX]
 
 def publish_dt(html):
