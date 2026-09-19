@@ -596,10 +596,10 @@
     "33826494fcf15d0f9f1fd75c798ba3e1",
     "82e45089cdb949363179dd2b563311f8",
     "aca2f7c4d51410e84b2ab8108dfe917d",
-    "01509f19f6b45675f9db6d2ce8d2f3ff"
+    "01509f19f6b45675f9db6d2ce8d2f3ff",
+    "c29b33baf354094ee9c06baac460e937"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Event Report",
@@ -628,7 +628,8 @@
     "Event Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -809,7 +810,8 @@
     "https://kenyans.co.ke/news/127187-trevor-ombija-claims-gachagua-sought-his-dismissal-after-heated-interview",
     "https://kenyans.co.ke/news/127189-helicopter-hit-rock-near-mt-ololokwe-summit-crashing-samburu-aaid-says",
     "https://kenyans.co.ke/news/127188-nairobi-set-get-new-ksh-38b-indoor-arena-alongside-talanta",
-    "https://kenyans.co.ke/news/127191-sifuna-pledges-new-car-taxi-driver-injured-during-chaotic-homa-bay-rally"
+    "https://kenyans.co.ke/news/127191-sifuna-pledges-new-car-taxi-driver-injured-during-chaotic-homa-bay-rally",
+    "https://kenyans.co.ke/news/127193-millicent-omanga-disowns-viral-gazette-notice-naming-her-govt-board"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -912,7 +914,8 @@
     "ombija converts air clash gachagua nyakach campaign fuel",
     "low altitude cliff turn caused fatal skid impact ololokwe chopper crash report shows",
     "railways commits prime land ksh 38b private indoor arena deal",
-    "sifuna step exposes duty care gap homa bay rally violence"
+    "sifuna step exposes duty care gap homa bay rally violence",
+    "middle name mistake highlights millicent omanga strategic distance state jobs"
   ],
   "topic_keys": [
     "news tracker",
@@ -1110,6 +1113,15 @@
       "structure": "Liability gap lead -> Chronology of the Homa Bay ambush and injuries -> The financial standoff over vehicle replacement -> Sifuna's public intervention -> Unresolved police and NCIC proceedings.",
       "source": "https://kenyans.co.ke/news/127191-sifuna-pledges-new-car-taxi-driver-injured-during-chaotic-homa-bay-rally",
       "published_at": "2026-09-19T09:01:47Z"
+    },
+    {
+      "title": "Middle-Name Mistake Highlights Millicent Omanga\u2019s Strategic Distance From State Jobs",
+      "angle": "Analyzing how this swift denial serves as crucial brand preservation for Omanga, who recently defected from the ruling UDA to the opposition-leaning DCP ahead of her planned 2027 Nairobi Woman Representative bid.",
+      "angle_type": "institutional pressure",
+      "opening": "Focus immediately on the political friction behind the quick correction, moving away from the simple 'gossip' frame.",
+      "structure": "Political context and brand preservation -> The Gazette notice details and the typo -> Chronology of her volatile history with state appointments -> The 2027 campaign transition.",
+      "source": "https://kenyans.co.ke/news/127193-millicent-omanga-disowns-viral-gazette-notice-naming-her-govt-board",
+      "published_at": "2026-09-19T10:01:24Z"
     }
   ]
 }
