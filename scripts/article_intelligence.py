@@ -128,16 +128,21 @@ def extract_article_images(soup, page_url: str, article_root=None, limit: int = 
             )):
                 media_context = True
                 break
-        # A paragraph wrapper alone is not enough: many publishers place
-        # branding/related assets inside <p>. Require an explicit editorial
-        # media structure before an image can enter the candidate set.
+        # Entertainment publishers may place real story images as plain img nodes.
+        # Inside a confirmed article root, accept large publisher/CDN images even
+        # when they lack figure/picture wrappers.
         if not (figure or picture or media_context):
             try:
                 width = int(re.sub(r"[^0-9]", "", str(img.get("width", "")))) if img.get("width") else 0
                 height = int(re.sub(r"[^0-9]", "", str(img.get("height", "")))) if img.get("height") else 0
             except Exception:
                 width = height = 0
-            if not (width >= 300 and height >= 180):
+            host = urlparse(src).netloc.lower()
+            publisher_cdn = ("radioafrica.digital" in host or "ghafla.co.ke" in host or "cdn." in host)
+            if not (width >= 220 and height >= 130) and not publisher_cdn:
+                continue
+            nearby = " ".join(str(p.get("class","")) + " " + str(p.get("id","")) for p in list(img.parents)[:4]).lower()
+            if any(x in nearby for x in ("related", "recommend", "most-read", "trending", "sidebar", "footer", "header", "nav")):
                 continue
 
         alt = _clean(img.get("alt", ""), 240)
