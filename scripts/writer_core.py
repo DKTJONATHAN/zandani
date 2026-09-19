@@ -104,6 +104,7 @@ def run_writer(cfg):
     role = cfg.get("role", f"{category.lower()} correspondent")
     extra_path_hints = cfg.get("path_hints", ["article", "news", "story", "post", "/20"])
     opinion_mode = bool(cfg.get("opinion_mode"))
+    topic_terms = [str(x).lower() for x in (cfg.get("topic_terms") or [])]
 
     now_utc = datetime.datetime.utcnow()
     now_eat = now_utc + datetime.timedelta(hours=3)
@@ -199,6 +200,8 @@ def run_writer(cfg):
                 title = a.get_text(" ", strip=True)
                 if len(title) < 25 or len(title) > 140:
                     continue
+                if topic_terms and not any(term in title.lower() for term in topic_terms):
+                    continue
                 if not any(x in href for x in extra_path_hints):
                     continue
                 if href.startswith("/"):
@@ -221,6 +224,8 @@ def run_writer(cfg):
                     if source_domain not in urllib.parse.urlparse(href).netloc:
                         continue
                     if not any(x in href for x in extra_path_hints):
+                        continue
+                    if topic_terms and not any(term in href.lower() or term in title.lower() for term in topic_terms):
                         continue
                     if href in seen:
                         continue
