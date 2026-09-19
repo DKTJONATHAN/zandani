@@ -245,3 +245,16 @@ Cleaned the remaining recent affected Celestine article records on branch `fix/a
 Cleaned: Sifuna/Homa Bay, Kenya Railways indoor arena, Mt Ololokwe chopper, Mombasa Port crane, KRA recruitment-fraud, Uhuru “sponsor” remarks, and the related Uhuru spontaneous-remarks article. The earlier ten affected posts were already cleaned by merged PR #78.
 
 The purpose is to ensure these old scraped body-image selections cannot reappear through the article Markdown. PR #79 already merged the application-level trust-boundary fix; this branch contains the content cleanup only. No direct merge to main is requested.
+
+## Entertainment body-image standardization — 2026-09-19
+
+Implemented on branch `fix/entertainment-news-image-pipeline-v2` (not merged):
+- Ghafla and Mpasho now call the shared `scripts/desk_image_pipeline.py` used for source-image selection, ImgBB re-hosting, provenance retention, and body insertion.
+- Selection is distinct-only: no forced three-image quota and no duplicate reuse.
+- Body insertion accepts zero, one, or two genuine source-article body images; no image is manufactured when fewer exist.
+- Source and hosted URLs are checked again immediately before Markdown insertion.
+- The third distinct source image, when available, is used for frontmatter/OG; otherwise the first trusted image is used.
+- Model-generated image URLs are not accepted by the image pipeline.
+- `selectedImages` now retains `source_url` for provenance.
+
+Grok review should verify the two entertainment workflows against the News trust model before merge.
