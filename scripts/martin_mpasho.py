@@ -1,609 +1,179 @@
 #!/usr/bin/env python3
-"""Martin Kihara — straight showbiz reporter (Mpasho). No commentary.
-
-Mpasho (mpasho.co.ke) is a Next.js / Radio Africa site:
-- Listing pages (/entertainment, /relationships, /exclusives) SSR article links
-  with date-slug paths: /entertainment/2026-09-14-some-title
-- Article pages SSR og:title, og:image, twitter:image in <head>
-- Body text is NOT in <p> tags in the initial HTML; it lives inside the
-  self.__next_f RSC flight payload as plain prose strings
-- Publish time is embedded as datePublished":"2026-09-14T14:15:00+0300
-- Images live on https://cdn.radioafrica.digital/image/YYYY/MM/<uuid>.webp
+"""Martin Kihara — Mpasho desk.
+Mpasho-specific Next.js/RSC scrape + Za News GAP writer/image architecture.
 """
-import os, sys, json, re, time, random, hashlib, datetime, urllib.parse, base64, io
-import requests
-try:
-    from PIL import Image
-except ImportError:
-    Image = None
-from dateutil import parser as date_parser
+from __future__ import annotations
+import datetime, hashlib, json, os, re, sys, urllib.parse, requests
 from bs4 import BeautifulSoup
+from dateutil import parser as date_parser
 from playwright.sync_api import sync_playwright
-from google import genai
-from google.genai import types
+from article_intelligence import extract_article_images
+from desk_writer import generate_article, record_angle
+from desk_image_pipeline import prepare_featured, prepare_images, inject_images, selected_images_json
+from voice_guard import mentions_stale_year
 
-try:
-    from voice_guard import (
-        news_prompt, should_skip_story, polish_body, model_skipped,
-        mentions_stale_year, seo_fields,
-    )
-except ImportError:
-    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-    from voice_guard import (
-        news_prompt, should_skip_story, polish_body, model_skipped,
-        mentions_stale_year, seo_fields,
-    )
+AUTHOR="Martin Kihara"; CATEGORY="Showbiz"; DOMAIN="mpasho.co.ke"
+LISTINGS=["https://www.mpasho.co.ke/entertainment","https://www.mpasho.co.ke/relationships","https://www.mpasho.co.ke/exclusives"]
+POSTS=os.environ.get("POSTS_DIR","content/posts"); MEMORY=os.environ.get("MEMORY_FILE",".github/memory_martin_mpasho.json")
+FRESH=int(os.environ.get("FRESH_HOURS","24")); MAX=30
+HEAD={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/128 Safari/537.36","Accept":"text/html,application/xhtml+xml"}
 
-
-AUTHOR_NAME = "Martin Kihara"
-AUTHOR_SLUG = "martin-kihara"
-CATEGORY = "Showbiz"
-SITE_BASE_URL = "https://zandani.co.ke"
-SOURCE_URL = "https://www.mpasho.co.ke/"
-SOURCE_DOMAIN = "mpasho.co.ke"
-POSTS_DIR = os.environ.get("POSTS_DIR", "content/posts")
-MEMORY_FILE = os.environ.get("MEMORY_FILE", ".github/memory_martin_mpasho.json")
-MAX_CANDIDATES = 30
-MAX_SCRAPE_TRIES = 12
-FRESH_HOURS = 24
-
-LISTING_URLS = [
-    "https://www.mpasho.co.ke/entertainment",
-    "https://www.mpasho.co.ke/relationships",
-    "https://www.mpasho.co.ke/exclusives",
-    "https://www.mpasho.co.ke/",
-]
-
-MODELS_TO_TRY = [
-    "gemini-3.1-pro-preview",
-    "gemini-3.1-flash-lite-preview",
-    "gemini-3-flash-preview",
-    "gemini-2.5-pro",
-    "gemini-2.5-flash",
-]
-
-STYLE_PRESETS = [
-    {"name": "Hard News Lead", "lead_style": "Who did what, where, when.",
-     "tone": "Neutral wire-service. No opinion.", "structure": "Lead, facts by importance, quotes, status"},
-    {"name": "Event Report", "lead_style": "Open with the event and principal actor.",
-     "tone": "Factual, clipped.", "structure": "Lead, sequence, confirmation, numbers"},
-    {"name": "Statement Report", "lead_style": "Official action or statement first.",
-     "tone": "Neutral, attribution-heavy.", "structure": "Lead, quote/order, background, response"},
-]
-
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.9",
-}
-
-now_utc = datetime.datetime.utcnow()
-now_eat = now_utc + datetime.timedelta(hours=3)
-publish_ts = now_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
-today_str = now_eat.strftime("%Y-%m-%d")
-full_date_str = now_eat.strftime("%A, %B %d, %Y")
-
-
-RECENT_STORY_HOURS = 48  # don't re-cover the same underlying story within this window
-
-
-def load_memory():
-    empty = {"published_hashes": [], "style_history": [], "recent_stories": []}
-    if not os.path.exists(MEMORY_FILE):
-        return empty
+def memory():
     try:
-        with open(MEMORY_FILE, "r", encoding="utf-8") as f:
-            raw = json.load(f)
-        if isinstance(raw, list):
-            empty["published_hashes"] = raw[-500:]
-            return empty
-        if isinstance(raw, dict):
-            raw.setdefault("published_hashes", [])
-            raw.setdefault("style_history", [])
-            raw.setdefault("recent_stories", [])
-            return raw
-    except Exception as e:
-        print(f"Memory load error: {e}")
-    return empty
+        with open(MEMORY,encoding="utf-8") as f: m=json.load(f)
+        if isinstance(m,dict): return m
+    except Exception: pass
+    return {"published_hashes":[],"urls":[],"published_angles":[],"style_history":[],"recent_stories":[]}
 
+def save(m):
+    os.makedirs(os.path.dirname(MEMORY) or ".",exist_ok=True)
+    for k,n in (("published_hashes",500),("urls",500),("published_angles",100),("style_history",30),("recent_stories",200)): m[k]=m.get(k,[])[-n:]
+    with open(MEMORY,"w",encoding="utf-8") as f: json.dump(m,f,indent=2)
 
-def save_memory(mem):
-    os.makedirs(os.path.dirname(MEMORY_FILE) or ".", exist_ok=True)
-    mem["published_hashes"] = mem.get("published_hashes", [])[-500:]
-    mem["style_history"] = mem.get("style_history", [])[-30:]
-    mem["recent_stories"] = mem.get("recent_stories", [])[-200:]
-    with open(MEMORY_FILE, "w", encoding="utf-8") as f:
-        json.dump(mem, f, indent=2)
+def story_key(url):
+    p=urllib.parse.urlparse(url).path
+    m=re.search(r"/(20\d{2}-\d{2}-\d{2}-[a-z0-9-]{10,})",p)
+    return m.group(1) if m else p.rstrip("/").split("/")[-1]
 
+def article_path(url):
+    p=urllib.parse.urlparse(url).path.lower()
+    if any(x in p for x in ("/author/","/tag/","/category/","/page/","/feed","/search","/about","/contact")): return False
+    return bool(re.search(r"/20\d{2}-\d{2}-\d{2}-[a-z0-9-]{10,}",p)) or any(x in p for x in ("/entertainment/","/relationships/","/exclusives/"))
 
-def recently_covered(memory, key):
-    """True if this same underlying story (by normalized URL key) was
-    published within RECENT_STORY_HOURS, even if the generated headline
-    ended up different each time."""
-    now = datetime.datetime.now(datetime.timezone.utc)
-    for entry in memory.get("recent_stories", []):
-        if entry.get("key") != key:
-            continue
+def candidates():
+    out=[]; seen=set()
+    for listing in LISTINGS:
         try:
-            ts = date_parser.parse(entry["ts"])
-        except Exception:
-            continue
-        if (now - ts).total_seconds() / 3600 < RECENT_STORY_HOURS:
-            return True
-    return False
-
-
-def pick_style(history):
-    recent = set(list(history)[-2:])
-    c = [s for s in STYLE_PRESETS if s["name"] not in recent] or STYLE_PRESETS
-    return random.choice(c)
-
-
-def content_hash(title, body):
-    raw = (title + "|" + body[:800]).lower()
-    raw = re.sub(r"\s+", " ", raw)
-    return hashlib.sha256(raw.encode()).hexdigest()[:24]
-
-
-def scrub_brands(text):
-    for b in ["Mpasho", "Pulse Live", "Nation.Africa", "Tuko", "Kenyans.co.ke", "Ghafla"]:
-        text = re.sub(re.escape(b), "", text, flags=re.I)
-    return text
-
-
-def is_spam(text):
-    if not text or len(re.findall(r"\w+", text)) < 200:
-        return True
-    low = text.lower()
-    return any(m in low for m in [
-        "central subject of the update", "what this means for kenyans", "key takeaway",
-    ])
-
-
-def _is_article_path(path: str) -> bool:
-    if not path or path in ("/", ""):
-        return False
-    bad = ("/author/", "/tag/", "/category/", "/page/", "/feed/", "/comment-", "/search", "/about", "/contact")
-    if any(b in path for b in bad):
-        return False
-    # Primary pattern on this CMS: /section/YYYY-MM-DD-slug
-    if re.search(r"/20\d{2}-\d{2}-\d{2}-[a-z0-9-]{10,}", path):
-        return True
-    good = ("/entertainment/", "/relationships/", "/exclusives/", "/lifestyle/")
-    if any(g in path for g in good):
-        slug = path.rstrip("/").split("/")[-1]
-        return len(slug) > 20 and "-" in slug
-    return False
-
-
-def _story_key(href: str) -> str:
-    """Normalize a URL to the underlying story, ignoring which category
-    section (/entertainment/, /relationships/, /exclusives/...) it was
-    listed under and any tracking query string. Mpasho frequently cross
-    posts the same hot story into 2-3 category listings, which was flooding
-    the candidate list with several copies of one article and starving out
-    the rest of the day's stories."""
-    path = urllib.parse.urlparse(href).path or ""
-    m = re.search(r"/(20\d{2}-\d{2}-\d{2}-[a-z0-9-]{10,})", path)
-    if m:
-        return m.group(1)
-    return path.rstrip("/").split("/")[-1]
-
-
-def _extract_links_from_html(html: str, seen: set) -> list:
-    urls = []
-    soup = BeautifulSoup(html, "html.parser")
-    for a in soup.select("a[href]"):
-        href = (a.get("href") or "").strip()
-        if not href:
-            continue
-        if href.startswith("/"):
-            href = urllib.parse.urljoin(SOURCE_URL, href)
-        if SOURCE_DOMAIN not in href:
-            continue
-        path = urllib.parse.urlparse(href).path or ""
-        if not _is_article_path(path):
-            continue
-        key = _story_key(href)
-        if href in seen or key in seen:
-            continue
-        seen.add(href)
-        seen.add(key)
-        urls.append(href)
-    return urls
-
-
-def get_target_urls():
-    """Prefer plain requests on category listings (SSR). Playwright only as fallback."""
-    seen = set()
-    urls = []
-
-    for list_url in LISTING_URLS:
+            r=requests.get(listing,headers=HEAD,timeout=25); r.raise_for_status()
+            soup=BeautifulSoup(r.text,"html.parser")
+            for a in soup.select("a[href]"):
+                href=urllib.parse.urljoin(listing,(a.get("href") or "").strip())
+                if urllib.parse.urlparse(href).netloc!=DOMAIN or not article_path(href): continue
+                k=story_key(href)
+                if k in seen: continue
+                seen.add(k); out.append(href)
+        except Exception as e: print("Mpasho listing failed:",listing,e)
+    if not out:
         try:
-            r = requests.get(list_url, headers=HEADERS, timeout=20)
-            r.raise_for_status()
-            found = _extract_links_from_html(r.text, seen)
-            urls.extend(found)
-            print(f"requests {list_url} → +{len(found)} links (total {len(urls)})")
-            if len(urls) >= MAX_CANDIDATES:
-                break
-        except Exception as e:
-            print(f"requests failed on {list_url}: {e}")
+            with sync_playwright() as p:
+                b=p.chromium.launch(headless=True,args=["--no-sandbox","--disable-dev-shm-usage"]); page=b.new_page(user_agent=HEAD["User-Agent"])
+                for listing in LISTINGS:
+                    page.goto(listing,wait_until="domcontentloaded",timeout=45000); page.wait_for_timeout(1500)
+                    soup=BeautifulSoup(page.content(),"html.parser")
+                    for a in soup.select("a[href]"):
+                        href=urllib.parse.urljoin(listing,(a.get("href") or "").strip())
+                        if urllib.parse.urlparse(href).netloc==DOMAIN and article_path(href) and story_key(href) not in seen:
+                            seen.add(story_key(href)); out.append(href)
+                b.close()
+        except Exception as e: print("Mpasho Playwright listing failed:",e)
+    return out[:MAX]
 
-    if urls:
-        def date_key(u):
-            m = re.search(r"/(20\d{2})-(\d{2})-(\d{2})-", u)
-            return int(m.group(1) + m.group(2) + m.group(3)) if m else 0
-        urls = sorted(urls, key=date_key, reverse=True)[:MAX_CANDIDATES]
-        print(f"Discovered {len(urls)} candidate article links (requests)")
-        return urls
-
-    print("No links via requests — falling back to Playwright")
-    try:
-        with sync_playwright() as p:
-            browser = p.chromium.launch(
-                headless=True,
-                args=["--no-sandbox", "--disable-dev-shm-usage", "--disable-blink-features=AutomationControlled"],
-            )
-            context = browser.new_context(
-                user_agent=HEADERS["User-Agent"],
-                viewport={"width": 1280, "height": 900},
-            )
-            page = context.new_page()
-            for list_url in LISTING_URLS[:2]:
-                try:
-                    page.goto(list_url, wait_until="domcontentloaded", timeout=45000)
-                    page.wait_for_timeout(3000)
-                    for _ in range(2):
-                        page.evaluate("window.scrollBy(0, 1400)")
-                        page.wait_for_timeout(1000)
-                    found = _extract_links_from_html(page.content(), seen)
-                    urls.extend(found)
-                    print(f"playwright {list_url} → +{len(found)} links (total {len(urls)})")
-                except Exception as e:
-                    print(f"playwright page error on {list_url}: {e}")
-            browser.close()
-    except Exception as e:
-        print(f"List scrape error (playwright): {e}")
-
-    if urls:
-        def date_key(u):
-            m = re.search(r"/(20\d{2})-(\d{2})-(\d{2})-", u)
-            return int(m.group(1) + m.group(2) + m.group(3)) if m else 0
-        urls = sorted(urls, key=date_key, reverse=True)[:MAX_CANDIDATES]
-    print(f"Discovered {len(urls)} candidate article links")
-    return urls
-
-
-def _extract_og_image(soup) -> str:
-    """og:image / twitter:image → clean CDN URL (strip cache-bust query)."""
-    for prop in ("og:image",):
-        tag = soup.find("meta", property=prop)
-        if tag and tag.get("content"):
-            return tag["content"].split("?")[0].strip()
-    for name in ("twitter:image",):
-        tag = soup.find("meta", attrs={"name": name})
-        if tag and tag.get("content"):
-            return tag["content"].split("?")[0].strip()
-    return ""
-
-
-
-def upload_to_imgbb(image_url: str) -> str:
-    """Download article OG image, convert to WebP, host on ImgBB. Never stock placeholders."""
-    if not image_url:
-        return ""
-    if "ibb.co" in image_url or "imgbb.com" in image_url:
-        return image_url
-    api_key = os.environ.get("IMGBB_API_KEY") or os.environ.get("IMGBB_KEY")
-    if not api_key:
-        print("IMGBB_API_KEY missing — using source CDN image")
-        return image_url
-    try:
-        r = requests.get(image_url, headers={**HEADERS, "Referer": SOURCE_URL}, timeout=25)
-        r.raise_for_status()
-        raw = r.content
-        if len(raw) < 500:
-            print(f"Image too small ({len(raw)} bytes) — keeping source URL")
-            return image_url
-        b64 = None
-        if Image is not None:
-            try:
-                img = Image.open(io.BytesIO(raw))
-                if img.mode in ("RGBA", "LA", "P"):
-                    img = img.convert("RGB")
-                max_w = 1400
-                if img.width > max_w:
-                    ratio = max_w / float(img.width)
-                    img = img.resize((max_w, max(1, int(img.height * ratio))), Image.LANCZOS)
-                buf = io.BytesIO()
-                img.save(buf, format="WEBP", quality=82, method=4)
-                buf.seek(0)
-                b64 = base64.b64encode(buf.read()).decode("utf-8")
-            except Exception as e:
-                print(f"WebP convert failed ({e}) — uploading original bytes")
-                b64 = None
-        if b64 is None:
-            b64 = base64.b64encode(raw).decode("utf-8")
-        res = requests.post(
-            "https://api.imgbb.com/1/upload",
-            data={"key": api_key, "image": b64},
-            timeout=30,
-        )
-        if res.status_code == 200:
-            data = res.json().get("data") or {}
-            new_url = data.get("url") or data.get("display_url") or ""
-            if new_url:
-                print(f"ImgBB hosted: {new_url}")
-                return new_url
-            print(f"ImgBB response missing url: {res.text[:200]}")
-        else:
-            print(f"ImgBB failed ({res.status_code}): {res.text[:200]}")
-    except Exception as e:
-        print(f"ImgBB error: {e}")
-    return image_url
-
-def _extract_publish_dt(html: str, soup):
-    """Mpasho embeds datePublished in the RSC payload, not always as meta tags."""
-    m = re.search(r'datePublished\\?":\\?"([^"\\]+)', html)
-    if m:
-        try:
-            pt = date_parser.parse(m.group(1))
-            if pt.tzinfo is None:
-                pt = pt.replace(tzinfo=datetime.timezone.utc)
-            return pt
-        except Exception:
-            pass
-    # Fallback: standard meta / time tags via voice_guard-compatible selectors
-    for prop in ("article:published_time", "og:published_time"):
-        tag = soup.find("meta", property=prop)
-        if tag and tag.get("content"):
-            try:
-                pt = date_parser.parse(tag["content"])
-                if pt.tzinfo is None:
-                    pt = pt.replace(tzinfo=datetime.timezone.utc)
-                return pt
-            except Exception:
-                pass
+def publish_dt(html):
+    patterns=[r'datePublished\\?":\\?"([^"\\]+)',r'"datePublished":"([^"]+)"']
+    for pat in patterns:
+        m=re.search(pat,html)
+        if m:
+            try: return date_parser.parse(m.group(1))
+            except Exception: pass
+    soup=BeautifulSoup(html,"html.parser")
+    for prop in ("article:published_time","og:published_time"):
+        t=soup.find("meta",property=prop)
+        if t and t.get("content"):
+            try:return date_parser.parse(t["content"])
+            except Exception:pass
     return None
 
-
-def _extract_body_from_rsc(html: str) -> str:
-    """Pull article prose out of the Next.js RSC flight payload.
-
-    Initial HTML has almost no <p> tags. Body lives as long sentence strings
-    inside self.__next_f.push([...]) chunks.
-    """
-    # Prefer unescaped prose that looks like real paragraphs
-    prose = re.findall(r'([A-Z][a-z][^\\"<>]{100,700}\.)', html)
-    clean = []
-    seen = set()
-    junk = (
-        "function", "window.", "static/chunks", "className", "cdn.",
-        "self.__", "React", "http", "keywords", "doesn’t seem to exist",
-        "does not seem to exist", "mpasho whatsapp", "radio africa",
-    )
-    for p in prose:
-        p = p.strip()
-        if any(j in p for j in junk):
-            continue
-        # skip keyword-list debris and nav crumbs
-        if p.count(",") > 6 and len(p) < 200:
-            continue
-        key = p[:70].lower()
-        if key in seen:
-            continue
-        seen.add(key)
-        clean.append(p)
-    if len(clean) >= 3:
-        return "\n\n".join(clean)
-
-    # Fallback: normal <p> tags if the page ever SSRs them
-    soup = BeautifulSoup(html, "html.parser")
-    paras = [
-        p.get_text(" ", strip=True)
-        for p in soup.find_all("p")
-        if len(p.get_text(strip=True)) > 40
-    ]
-    return "\n\n".join(paras)
-
-
-def scrape_article(url):
+def scrape(url):
     try:
-        html = None
-        try:
-            r = requests.get(url, headers=HEADERS, timeout=25)
-            if r.status_code == 200 and len(r.text) > 2000:
-                html = r.text
-        except Exception as e:
-            print(f"requests article fetch failed: {e}")
+        with sync_playwright() as p:
+            b=p.chromium.launch(headless=True,args=["--no-sandbox","--disable-dev-shm-usage"])
+            page=b.new_page(user_agent=HEAD["User-Agent"],viewport={"width":1280,"height":900})
+            page.goto(url,wait_until="domcontentloaded",timeout=45000); page.wait_for_timeout(2200)
+            html=page.content(); b.close()
+        soup=BeautifulSoup(html,"html.parser")
+        dt=publish_dt(html)
+        if dt:
+            if dt.tzinfo is None: dt=dt.replace(tzinfo=datetime.timezone.utc)
+            age=(datetime.datetime.now(datetime.timezone.utc)-dt).total_seconds()/3600
+            if age>FRESH: return None
+        title=(soup.find("meta",property="og:title") or {}).get("content","").strip()
+        if not title and soup.title: title=soup.title.get_text(" ",strip=True)
+        root=None
+        for sel in ["article","main article",".article-content",".post-content","main"]:
+            root=soup.select_one(sel)
+            if root and len(root.get_text(" ",strip=True))>400: break
+        if root is None: root=soup
+        paras=[p.get_text(" ",strip=True) for p in root.find_all("p") if len(p.get_text(" ",strip=True))>=35]
+        body="\n\n".join(paras)
+        if len(body)<500:
+            # Next.js RSC fallback: extract long prose strings from self.__next_f payload.
+            prose=re.findall(r'([A-Z][^"<>]{100,900}?[.!?])',html)
+            seen=set(); chunks=[]
+            for x in prose:
+                x=re.sub(r"\\u[0-9a-fA-F]{4}", " ", x).strip()
+                if len(x)<100 or x[:80].lower() in seen or any(z in x.lower() for z in ("static/chunks","className","self.__next_f","radio africa","http://","https://")): continue
+                seen.add(x[:80].lower()); chunks.append(x)
+            body="\n\n".join(chunks)
+        if len(body)<500:return None
+        featured=""
+        for prop in ("og:image","twitter:image","twitter:image:src"):
+            t=soup.find("meta",property=prop) or soup.find("meta",attrs={"name":prop})
+            if t and t.get("content"): featured=urllib.parse.urljoin(url,t["content"].split("?")[0]); break
+        images=extract_article_images(soup,url,root,limit=12)
+        if mentions_stale_year(body,datetime.datetime.now().year): return None
+        return {"url":url,"title":title,"body":body[:18000],"images":images,"featured":featured}
+    except Exception as e: print("Mpasho scrape failed:",url,e); return None
 
-        if not html:
-            with sync_playwright() as p:
-                browser = p.chromium.launch(
-                    headless=True,
-                    args=["--no-sandbox", "--disable-dev-shm-usage"],
-                )
-                page = browser.new_page()
-                page.goto(url, wait_until="domcontentloaded", timeout=40000)
-                page.wait_for_timeout(2000)
-                html = page.content()
-                browser.close()
+def slug(s):return re.sub(r"[^a-z0-9]+","-",s.lower()).strip("-")[:90]
 
-        soup = BeautifulSoup(html, "html.parser")
-
-        # Freshness from RSC datePublished (or meta fallback)
-        pt = _extract_publish_dt(html, soup)
-        if pt is not None:
-            age_h = (datetime.datetime.now(datetime.timezone.utc) - pt).total_seconds() / 3600
-            if age_h > FRESH_HOURS:
-                print(f"Skipping (dated, age {age_h:.1f}h > {FRESH_HOURS}h): {url}")
-                return None, None, None
-            print(f"Publish age {age_h:.1f}h — ok")
-        else:
-            print(f"No publish-date signal (soft-pass): {url}")
-
-        # Title: og:title is cleanest
-        og_title = soup.find("meta", property="og:title")
-        title = (og_title.get("content") or "").strip() if og_title else ""
-        if not title and soup.title:
-            title = soup.title.get_text(strip=True)
-            for sep in [" | ", " - "]:
-                if sep in title:
-                    title = title.split(sep)[0].strip()
-
-        # Body from RSC payload (not <p> tags)
-        text = _extract_body_from_rsc(html)
-        if len(text) < 250:
-            print(f"Body too short ({len(text)} chars): {url}")
-            return None, None, None
-        print(f"Body {len(text)} chars / ~{len(text.split())} words")
-
-        # OG image from meta → cdn.radioafrica.digital
-        img = _extract_og_image(soup)
-        if img:
-            print(f"OG image: {img}")
-        else:
-            print("No og:image found")
-
-        if mentions_stale_year(text, now_eat.year):
-            print("Skipping, source body cites an older year (likely a retrospective/reshare)")
-            return None, None, None
-
-        return text, img, title
-    except Exception as e:
-        print(f"Scrape failed: {e}")
-        return None, None, None
-
-
-def call_gemini(prompt):
-    api_key = (
-        os.environ.get("GEMINI_API_KEY")
-        or os.environ.get("GOOGLE_API_KEY")
-        or os.environ.get("GEMINI_WRITE_KEY")
-    )
-    if not api_key:
-        raise RuntimeError("No GEMINI_API_KEY")
-    client = genai.Client(api_key=api_key)
-    last_err = None
-    for model in MODELS_TO_TRY:
-        try:
-            resp = client.models.generate_content(
-                model=model,
-                contents=prompt,
-                config=types.GenerateContentConfig(temperature=0.5, max_output_tokens=4096),
-            )
-            text = (resp.text or "").strip()
-            if text:
-                return text, model
-        except Exception as e:
-            last_err = e
-            print(f"Model {model} failed: {e}")
-            time.sleep(1)
-    raise RuntimeError(f"All models failed: {last_err}")
-
-
-def slugify(title):
-    return re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")[:80]
-
-
-def write_post(title, body_md, style_name, source_url, image=""):
-    body_md = polish_body(body_md)
-    seo = seo_fields(title, body_md, CATEGORY, AUTHOR_NAME)
-    if not image:
-        print("WARNING: writing post with empty image field (no og:image / ImgBB)")
-    slug = f"{today_str}-{slugify(seo['title'])}"
-    path = os.path.join(POSTS_DIR, f"{slug}.md")
-    os.makedirs(POSTS_DIR, exist_ok=True)
-    fm = f"""---
-title: "{seo['title']}"
-slug: "{slugify(seo['title'])}"
-description: "{seo['description']}"
-excerpt: "{seo['excerpt']}"
-date: {publish_ts}
-dateModified: {publish_ts}
-author: "{AUTHOR_NAME}"
+def publish(result,src):
+    featured=prepare_featured(src.get("featured",""),src["url"])
+    if not featured: raise RuntimeError("No verified Mpasho OG image could be hosted")
+    body=inject_images(result["body"],prepare_images(src.get("images",[]),src["url"]))
+    now=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    s=slug(result["title"]); path=os.path.join(POSTS,f"{now[:10]}-{s}.md"); os.makedirs(POSTS,exist_ok=True)
+    # Recompute body image metadata from the inserted Markdown URLs.
+    used=[]
+    for u in re.findall(r"!\[[^\]]*\]\((https?://[^)]+)\)",body):
+        used.append({"url":u,"source_url":"","alt":"Mpasho story image","reason":"Inserted from verified Mpasho article-body image"})
+    fm=f'''---
+title: "{result["title"].replace('"',"'")}"
+slug: "{s}"
+description: "{re.sub(r"\s+"," ",body)[:155].replace('"',"'")}"
+excerpt: "{re.sub(r"\s+"," ",body)[:155].replace('"',"'")}"
+date: {now}
+dateModified: {now}
+author: "{AUTHOR}"
 category: "{CATEGORY}"
-county: "{seo['county']}"
-image: "{image}"
-readTime: {max(3, len(body_md.split()) // 180)}
-source: "{source_url}"
-stylePreset: "{style_name}"
+image: "{featured}"
+selectedImages: {json.dumps(used,ensure_ascii=False)}
+readTime: {max(3,len(body.split())//180)}
+source: "{src["url"]}"
+stylePreset: "{result["style"]["name"]}"
+editorialAngle: "{str(result["analysis"].get("chosen_angle_gap","")).replace('"',"'")[:300]}"
+angleType: "{str(result["analysis"].get("angle_type","")).replace('"',"'")[:80]}"
 schema: "NewsArticle"
 ---
 
-{body_md}
-"""
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(fm)
-    print(f"Wrote {path}")
-    return slug
-
+{body}
+'''
+    with open(path,"w",encoding="utf-8") as f:f.write(fm)
+    return path
 
 def main():
-    memory = load_memory()
-    print(f"[{AUTHOR_NAME}] hard-news run @ {publish_ts}")
-    links = get_target_urls()
-    if not links:
-        print("No links discovered — check requests/Playwright / site structure")
-        return 0
-    style = pick_style(memory.get("style_history", []))
-    print(f"Style: {style['name']}")
-    for link in links[:MAX_SCRAPE_TRIES]:
-        key = _story_key(link)
-        if recently_covered(memory, key):
-            print(f"Skipping, same story covered within {RECENT_STORY_HOURS}h: {link}")
-            continue
-        print(f"Trying: {link}")
-        text, img, ttl = scrape_article(link)
-        if not text or len(text) < 200:
-            continue
-        blob = ttl or ""
-        if should_skip_story(blob + " " + text, CATEGORY):
-            print("should_skip_story=True")
-            continue
+    m=memory()
+    for url in candidates():
+        if url in m.get("urls",[]): continue
+        src=scrape(url)
+        if not src: continue
         try:
-            prompt = news_prompt(
-                AUTHOR_NAME, full_date_str, style, ttl or "", text,
-                role="correspondent", desk=CATEGORY,
-            )
-            article, model_used = call_gemini(prompt)
-            print(f"Used {model_used}")
-        except Exception as e:
-            print(f"Generation failed: {e}")
-            continue
-        if model_skipped(article):
-            print("Model skipped foreign story")
-            continue
-        article = polish_body(scrub_brands(article))
-        if is_spam(article):
-            print("Rejected: spam or too short")
-            continue
-        h = content_hash(ttl or link, article)
-        if h in memory.get("published_hashes", []):
-            print("Duplicate hash, skip")
-            continue
-        title = ttl or "Kenya showbiz update"
-        if article.startswith("#"):
-            first = article.split("\n", 1)[0]
-            title = re.sub(r"^#+\s*", "", first).strip() or title
-            article = article.split("\n", 1)[-1].strip()
-        hosted = upload_to_imgbb(img) if img else ""
-        if not hosted:
-            print("No article image available — refusing placeholder; post image will be empty")
-        write_post(title, article, style["name"], link, hosted)
-        memory.setdefault("published_hashes", []).append(h)
-        memory.setdefault("style_history", []).append(style["name"])
-        memory.setdefault("recent_stories", []).append({"key": key, "ts": publish_ts})
-        save_memory(memory)
-        print("Memory updated")
-        return 0
-    print("No suitable story published this run")
-    return 0
-
-
-if __name__ == "__main__":
-    sys.exit(main())
+            result=generate_article(src,m,AUTHOR,"showbiz correspondent",CATEGORY)
+            digest=hashlib.sha256((result["title"]+"|"+story_key(url)).encode()).hexdigest()
+            if digest in m.get("published_hashes",[]): continue
+            path=publish(result,src); record_angle(m,result,src["url"])
+            m.setdefault("published_hashes",[]).append(digest); m.setdefault("urls",[]).append(url)
+            m.setdefault("recent_stories",[]).append({"key":story_key(url),"ts":datetime.datetime.now(datetime.timezone.utc).isoformat()})
+            save(m); print("Published Mpasho:",path); return 0
+        except Exception as e: print("Mpasho candidate rejected:",e)
+    print("No eligible Mpasho story"); return 0
+if __name__=="__main__":sys.exit(main())
