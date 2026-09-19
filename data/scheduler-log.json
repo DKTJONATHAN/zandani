@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-19T16:00:36.898Z",
+  "updated": "2026-09-19T16:00:43.517Z",
   "logs": [
+    {
+      "id": "lifestyle-1789833642843",
+      "desk": "lifestyle",
+      "scheduledFor": "2026-09-19 19:00:26",
+      "dispatchedAt": "2026-09-19T16:00:40.489Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "technology-1789833636407",
       "desk": "technology",
@@ -1986,16 +1996,6 @@
       "desk": "entertainment",
       "scheduledFor": "2026-09-17T13:37:21.045Z",
       "dispatchedAt": "2026-09-17T13:37:21.045Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
-      "source": "manual"
-    },
-    {
-      "id": "mpasho-1789651556355",
-      "desk": "mpasho",
-      "scheduledFor": "2026-09-17T13:25:54.869Z",
-      "dispatchedAt": "2026-09-17T13:25:54.869Z",
       "status": 204,
       "ok": true,
       "error": null,
