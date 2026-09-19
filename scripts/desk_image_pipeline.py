@@ -59,8 +59,8 @@ def upload_to_imgbb(image_url: str, source_url: str = "") -> str:
         return image_url
     api_key = os.environ.get("IMGBB_API_KEY") or os.environ.get("IMGBB_KEY")
     if not api_key:
-        print("IMGBB_API_KEY missing — keeping source image URL")
-        return image_url
+        print("IMGBB_API_KEY missing — rejecting external image rather than publishing a hotlink")
+        return ""
     try:
         headers = {"User-Agent": "Mozilla/5.0 (compatible; ZandaniBot/1.0)"}
         if source_url:
@@ -69,7 +69,7 @@ def upload_to_imgbb(image_url: str, source_url: str = "") -> str:
         response.raise_for_status()
         raw = response.content
         if len(raw) < 500:
-            return image_url
+            return ""
 
         encoded = None
         if Image is not None:
@@ -95,10 +95,10 @@ def upload_to_imgbb(image_url: str, source_url: str = "") -> str:
         )
         upload.raise_for_status()
         data = upload.json().get("data") or {}
-        return data.get("url") or data.get("display_url") or image_url
+        return data.get("url") or data.get("display_url") or ""
     except Exception as exc:
         print("ImgBB upload failed:", exc)
-        return image_url
+        return ""
 
 
 def prepare_images(candidates, featured="", source_url=""):
