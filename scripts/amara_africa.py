@@ -11,5 +11,6 @@ if __name__ == "__main__":
         "memory_file": ".github/memory_amara.json",
         "role": "East Africa correspondent",
         "audience": "Kenyan and East African readers following regional news",
+        "topic_terms": ["africa", "east africa", "tanzania", "uganda", "rwanda", "somalia", "ethiopia", "burundi", "south africa"],
         "path_hints": ["east-africa", "tanzania", "uganda", "rwanda", "africa", "/20"],
     })
