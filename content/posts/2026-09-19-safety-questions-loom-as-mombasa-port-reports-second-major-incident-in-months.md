@@ -14,7 +14,6 @@ source: "https://www.kenyans.co.ke/news/127179-kpa-confirms-crane-incident-port-
 stylePreset: "Statement Report"
 editorialAngle: "Focusing on the operational response and accountability: the launch of the formal safety investigation and procedure review, triggered after social media footage forced the authority to clarify the details of the accident."
 angleType: "operational change"
-selectedImages: [{"url": "https://i.ibb.co/spY5hdVP/bb74ea6522aa.webp", "alt": "Screengrabs from footage showing the scene after stacked containers toppled over at the Port of Mombasa, with KPA personnel attending to the incident involving a Rubber-Tyred Gantr", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/hJsVyFfs/dc6b5b42fae0.webp", "alt": "MOMBASA CONTAINER", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/svGp5z3q/d1567107e7f7.webp", "alt": "The Kenya Ports Authority headquarters located at Bahari Towers in Mombasa.", "reason": "Selected from the scraped article image set"}]
 schema: "NewsArticle"
 ---
 
@@ -26,14 +25,10 @@ While the operator of the truck tractor involved was not injured, the RTG crane 
 
 KPA issued a clarification after video footage began circulating on social media showing several stacked shipping containers that had toppled over at the terminal, with port personnel gathering around the scene. The authority's official statement did not detail the exact sequence of events that led to the collapse.
 
-![Screengrabs from footage showing the scene after stacked containers toppled over at the Port of Mombasa, with KPA personnel attending to the incident involving a Rubber-Tyred Gantr](https://i.ibb.co/spY5hdVP/bb74ea6522aa.webp)
-
 "KPA confirms that an operational incident involving an RTG occurred and was immediately attended to by the Authority’s safety and emergency response teams in accordance with established procedures," the statement read.
 
 Port officials urged the public to refrain from sharing unverified reports about the accident to prevent unnecessary alarm, directing stakeholders to official KPA communication channels for updates.
 
 The ongoing investigation aims to determine the cause of the accident. KPA stated that a review of its safety and incident management procedures is underway, and any necessary corrective measures will be implemented once the findings are finalized.
-
-![MOMBASA CONTAINER](https://i.ibb.co/hJsVyFfs/dc6b5b42fae0.webp)
 
 The accident follows a fatal incident at the port months earlier, when a cargo rigger died at Berth 14 after heavy pipes rolled over him during offloading operations from the vessel MV Hin Hong Bao Shi.

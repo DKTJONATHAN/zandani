@@ -14,7 +14,6 @@ source: "https://www.kenyans.co.ke/news/127176-uhuru-says-his-life-becoming-too-
 stylePreset: "Event Report"
 editorialAngle: "Examining the broader political backdrop outlined by President Ruto regarding the unfulfilled historical campaign pact and direct accusations of financial backing of opposition figures like Edwin Sifuna."
 angleType: "political accountability and background context"
-selectedImages: [{"url": "https://i.ibb.co/cXNjSsfn/1ddfc0d0f935.webp", "alt": "Former President Uhuru Kenyatta, during a past engagement.", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/cdjBrRJ/ceb4404b3221.webp", "alt": "Uhuru Ruto", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/3y8jS15T/c66f0ce75fea.webp", "alt": "william-ruto-cap-off.jpg", "reason": "Selected from the scraped article image set"}]
 schema: "NewsArticle"
 ---
 
@@ -26,12 +25,9 @@ Speaking on Friday, September 18, during a burial ceremony in Gikuu, Kiharu Sub-
 
 The remarks follow comments made by President Ruto during a rally in Sindo, Homa Bay County, on Thursday, September 17. Ruto accused his predecessor of financially supporting opposition figures, including Nairobi Senator Edwin Sifuna.
 
-![Former President Uhuru Kenyatta, during a past engagement.](https://i.ibb.co/cXNjSsfn/1ddfc0d0f935.webp)
-
 “They are clueless because they have only been sent by their sponsor, who is bitter seeing us succeed where he failed. We have fixed the economy he destroyed,” Ruto stated during the rally.
 
 During the same event, Ruto revisited his political history with the former president, claiming he supported Uhuru across four election campaigns with the expectation of reciprocal backing for his own presidential bid.
 
 Ruto asserted that the two had an agreement for each to serve two terms, an arrangement he claimed Uhuru failed to honor. However, the President added that he did not fault his predecessor for the decision, noting that Uhuru retained the democratic right to make his own political choices.
 
-![Uhuru Ruto](https://i.ibb.co/cdjBrRJ/ceb4404b3221.webp)

@@ -14,7 +14,6 @@ source: "https://kenyans.co.ke/news/127167-kra-warns-job-applicants-over-fake-of
 stylePreset: "Statement Report"
 editorialAngle: "Institutional pattern of recruitment fraud across Kenya's public sector, focusing on how scammers exploit official recruitment language and branding to solicit payments from job seekers."
 angleType: "institutional pressure"
-selectedImages: [{"url":"https://i.ibb.co/v6zqQHTr/630282608833.webp","alt":"An undated image of the KRA entrance","reason":"Selected from the scraped article image set"},{"url":"https://i.ibb.co/Vc7rd9LP/4a9a73e44167.webp","alt":"Kenyans lining up for job applications","reason":"Selected from the scraped article image set"},{"url":"https://i.ibb.co/NBWyDNw/e01f328df5d2.webp","alt":"Senior government officials, led by the Head of Public Service, Felix Koskei, visit the KRA offices in Nairobi.","reason":"Selected from the scraped article image set"}]
 schema: "NewsArticle"
 ---
 
@@ -32,8 +31,6 @@ The scammers then claim the payment covers expenses such as recruitment processi
 
 KRA has reiterated that **it does not charge candidates any fee at any stage of its recruitment process**.
 
-![An undated image of the KRA entrance](https://i.ibb.co/v6zqQHTr/630282608833.webp)
-
 ### A recurring recruitment scam
 
 The latest warning follows another recruitment fraud alert issued by KRA in May.
@@ -41,8 +38,6 @@ The latest warning follows another recruitment fraud alert issued by KRA in May.
 At the time, the authority flagged a counterfeit appointment letter that falsely offered positions in its marketing department. The document also used forged letterheads and references to supposed internal procedures.
 
 The recurrence of such schemes highlights how fraudsters can exploit the reputation of established public institutions to make fake employment opportunities appear credible.
-
-![Kenyans lining up for job applications](https://i.ibb.co/Vc7rd9LP/4a9a73e44167.webp)
 
 ### How the scam works
 

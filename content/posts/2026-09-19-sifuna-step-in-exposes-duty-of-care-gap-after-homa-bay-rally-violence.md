@@ -14,7 +14,6 @@ source: "https://kenyans.co.ke/news/127191-sifuna-pledges-new-car-taxi-driver-in
 stylePreset: "Event Report"
 editorialAngle: "Framing the incident through the grey zone of legal and financial accountability for third-party transport operators caught in political rally violence, and how political figures rely on discretionary public interventions to manage rally fallout."
 angleType: "accountability"
-selectedImages: [{"url": "https://i.ibb.co/39S5wGng/aebf333aad3c.webp", "alt": "Embakasi East MP Babu Owino (left), and Nairobi Senator Edwin Sifuna during their triumphant Entry to Homa Bay Town during the August 16 Linda Mwananchi rally.", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/Y45nG8Mm/1b7de5531be9.webp", "alt": "Large stones have been placed across key roads as security concerns mount ahead of the political gathering in Homa Bay Town on August 16, 2026", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/wFGts19t/34c8a45b23eb.webp", "alt": "A photo collage of Linda Mwananchi truck with inserts of the broken windshield after attack, February 20, 2026.", "reason": "Selected from the scraped article image set"}]
 schema: "NewsArticle"
 ---
 
@@ -29,8 +28,6 @@ While political movements routinely contract local drivers, private vehicles, an
 Otieno had been hired on August 16 to transport Abbie Zuena, a key mobiliser for the Linda Mwananchi movement. As the convoy attempted to exit the area after the event, Otieno’s vehicle encountered armed groups of youths blocking the road.
 
 Attackers intercepted the car, demanding money and personal belongings before launching a physical assault. Otieno sustained multiple deep cut wounds across his face, back, arm, hands, and feet, along with a fractured arm. 
-
-![Embakasi East MP Babu Owino (left), and Nairobi Senator Edwin Sifuna during their triumphant Entry to Homa Bay Town during the August 16 Linda Mwananchi rally.](https://i.ibb.co/39S5wGng/aebf333aad3c.webp)
 
 After losing consciousness, he was rushed to hospital by witnesses who contacted his family. Following emergency stabilization, he was moved to Nightingale Hospital in Kisumu for a three-day admission and remains under ongoing medical monitoring for non-healed wounds and bone fractures.
 
@@ -47,8 +44,6 @@ In the weeks following the attack, a dispute emerged over who was responsible fo
 With no formal commercial insurance covering political violence and no corporate entity liable for the convoy, Otieno was left without income, facing mounting medical expenses while attempting to navigate legal processes against unknown attackers.
 
 ### Political Damage Control
-
-![Large stones have been placed across key roads as security concerns mount ahead of the political gathering in Homa Bay Town on August 16, 2026](https://i.ibb.co/Y45nG8Mm/1b7de5531be9.webp)
 
 Facing a dead end in negotiations with local event coordinators, Otieno issued public appeals to senior figures linked to the Linda Mwananchi platform, including Embakasi East MP Babu Owino.
 
