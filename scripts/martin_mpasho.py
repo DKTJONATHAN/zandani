@@ -49,7 +49,9 @@ def candidates():
             for a in soup.select("a[href]"):
                 href=urllib.parse.urljoin(listing,(a.get("href") or "").strip())
                 parsed=urllib.parse.urlparse(href)
-                if parsed.netloc!=DOMAIN or not article_path(href): continue\n                # Mpasho is the discovery source; this desk publishes entertainment only.\n                if not parsed.path.lower().startswith("/entertainment/"): continue
+                if parsed.netloc!=DOMAIN or not article_path(href): continue
+                # Mpasho is the discovery source; this desk publishes entertainment only.
+                if not parsed.path.lower().startswith("/entertainment/"): continue
                 k=story_key(href)
                 if k in seen: continue
                 seen.add(k); out.append(href)
@@ -112,7 +114,9 @@ def scrape(url):
             if root and len(root.get_text(" ",strip=True))>400: break
         if root is None: root=soup
         paras=[p.get_text(" ",strip=True) for p in root.find_all("p") if len(p.get_text(" ",strip=True))>=35]
-        body="\n\n".join(paras)
+        body="
+
+".join(paras)
         if len(body)<500:
             # Next.js RSC fallback: extract long prose strings from self.__next_f payload.
             prose=re.findall(r'([A-Z][^"<>]{100,900}?[.!?])',html)
@@ -121,7 +125,9 @@ def scrape(url):
                 x=re.sub(r"\\u[0-9a-fA-F]{4}", " ", x).strip()
                 if len(x)<100 or x[:80].lower() in seen or any(z in x.lower() for z in ("static/chunks","className","self.__next_f","radio africa","http://","https://")): continue
                 seen.add(x[:80].lower()); chunks.append(x)
-            body="\n\n".join(chunks)
+            body="
+
+".join(chunks)
         if len(body)<500:return None
         featured=""
         for prop in ("og:image","twitter:image","twitter:image:src"):
