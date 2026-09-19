@@ -67,7 +67,6 @@ jobs:
           from google import genai
           from google.genai import types
           from article_intelligence import extract_article_images
-          from desk_image_pipeline import prepare_images, inject_images, selected_images_json
           from desk_writer import generate_article, record_angle
           
           AUTHOR = os.environ["DESK_AUTHOR"]
@@ -215,10 +214,87 @@ jobs:
               os.makedirs(POSTS_DIR,exist_ok=True)
               now=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
               description=re.sub(r"\s+"," ",body)[:155].replace('"',"'")
-              hosted=prepare_images(src.get("images",[]),src.get("featured",""),src["url"])
-              body=inject_images(body,hosted)
+              # Ghafla image pipeline is intentionally self-contained here.
+              # Only article-body candidates from article_intelligence are eligible.
+              # Publisher OG/theme/logo assets are never trusted as editorial images.
+              import base64, io
+              from PIL import Image
+              
+              def image_is_bad(item):
+                  url=str(item.get("url") or "").strip().lower()
+                  alt=str(item.get("alt") or item.get("caption") or "").lower()
+                  text=url+" "+alt
+                  blocked=("logo","site-logo","brand-logo","brandmark","wordmark","favicon",
+                           "icon","avatar","sprite","tracking","pixel","placeholder",
+                           "default-image","default-og","og-image","og_image","social-share",
+                           "whatsapp","facebook","twitter","telegram","advert","banner-ad",
+                           "header-image","masthead","zandani")
+                  return not url or any(x in text for x in blocked)
+              
+              candidates=src.get("images",[])
+              selected=[]; seen=set()
+              for item in candidates:
+                  url=str(item.get("url") or "").strip()
+                  if not url or url in seen or image_is_bad(item): continue
+                  seen.add(url)
+                  selected.append({**item,"selected_alt":str(item.get("alt") or item.get("caption") or "Ghafla story image").strip()[:180] or "Ghafla story image"})
+                  if len(selected)>=3: break
+              
+              hosted=[]
+              api=os.environ.get("IMGBB_API_KEY","").strip()
+              for item in selected:
+                  source=item["url"]
+                  hosted_url=source
+                  if api and "ibb.co" not in source and "imgbb.com" not in source:
+                      try:
+                          rr=requests.get(source,headers={"User-Agent":"Mozilla/5.0","Referer":src["url"]},timeout=25)
+                          rr.raise_for_status()
+                          raw=rr.content
+                          try:
+                              im=Image.open(io.BytesIO(raw))
+                              if im.mode in ("RGBA","LA","P"): im=im.convert("RGB")
+                              if im.width>1600:
+                                  ratio=1600/float(im.width)
+                                  im=im.resize((1600,max(1,int(im.height*ratio))),Image.LANCZOS)
+                              buf=io.BytesIO()
+                              im.save(buf,format="WEBP",quality=84,method=4)
+                              raw=buf.getvalue()
+                          except Exception:
+                              pass
+                          up=requests.post("https://api.imgbb.com/1/upload",
+                              data={"key":api,"image":base64.b64encode(raw).decode()},timeout=35)
+                          if up.ok:
+                              data=up.json().get("data") or {}
+                              hosted_url=data.get("url") or data.get("display_url") or source
+                      except Exception as exc:
+                          print("Ghafla image upload failed",source,exc)
+                  hosted.append({**item,"url":hosted_url})
+              
+              # Never keep model/source-supplied Markdown/HTML images in the article body.
+              body=re.sub(r"!\[[^\]]*\]\([^)]*\)","",body)
+              body=re.sub(r"<img\b[^>]*>","",body,flags=re.I)
+              blocks=[x.strip() for x in body.split("\n\n") if x.strip()]
+              if len(hosted)>=2 and len(blocks)>=4:
+                  n=len(blocks)
+                  a=max(4,min(n-3,round(n*0.30)))
+                  b=max(a+3,min(n-1,round(n*0.65)))
+                  placements={a:hosted[0],b:hosted[1]}
+                  out=[]
+                  for i,block in enumerate(blocks,1):
+                      out.append(block)
+                      if i in placements:
+                          im=placements[i]
+                          alt=re.sub(r"[\[\]\r\n]","",im.get("selected_alt") or "Ghafla story image")[:180]
+                          out.append(f"![{alt}]({im['url']})")
+                  body="\n\n".join(out)
+              
+              # OG must use a trusted hosted article image, never Ghafla's page OG/logo.
               image=(hosted[2]["url"] if len(hosted)>=3 else (hosted[0]["url"] if hosted else "")).replace('"',"'")
-              selected=selected_images_json(hosted)
+              selected=json.dumps(
+                  [{"url":x["url"],"alt":x.get("selected_alt","Ghafla story image"),
+                    "reason":"Selected from the Ghafla article-body image set"} for x in hosted],
+                  ensure_ascii=False
+              )
               fm=f'''---
           title: "{title.replace('"',"'")}"
           slug: "{slug}"
