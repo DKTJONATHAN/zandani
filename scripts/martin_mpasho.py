@@ -132,6 +132,9 @@ def publish(result,src):
     body=inject_images(result["body"],prepare_images(src.get("images",[]),src["url"]))
     now=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     s=slug(result["title"]); path=os.path.join(POSTS,f"{now[:10]}-{s}.md"); os.makedirs(POSTS,exist_ok=True)
+    description=re.sub(r"\s+"," ",body)[:155].replace('"',"'")
+    angle=str(result["analysis"].get("chosen_angle_gap","")).replace('"',"'")[:300]
+    angle_type=str(result["analysis"].get("angle_type","")).replace('"',"'")[:80]
     description=re.sub(r"\\s+"," ",body)[:155].replace('"',"'")
     angle=str(result["analysis"].get("chosen_angle_gap","")).replace('"',"'")[:300]
     angle_type=str(result["analysis"].get("angle_type","")).replace('"',"'")[:80]
@@ -142,8 +145,8 @@ def publish(result,src):
     fm=f'''---
 title: "{result["title"].replace('"',"'")}"
 slug: "{s}"
-description: "{re.sub(r"\s+"," ",body)[:155].replace('"',"'")}"
-excerpt: "{re.sub(r"\s+"," ",body)[:155].replace('"',"'")}"
+description: "{description}"
+excerpt: "{description}"
 date: {now}
 dateModified: {now}
 author: "{AUTHOR}"
@@ -153,8 +156,8 @@ selectedImages: {json.dumps(used,ensure_ascii=False)}
 readTime: {max(3,len(body.split())//180)}
 source: "{src["url"]}"
 stylePreset: "{result["style"]["name"]}"
-editorialAngle: "{str(result["analysis"].get("chosen_angle_gap","")).replace('"',"'")[:300]}"
-angleType: "{str(result["analysis"].get("angle_type","")).replace('"',"'")[:80]}"
+editorialAngle: "{angle}"
+angleType: "{angle_type}"
 schema: "NewsArticle"
 ---
 
