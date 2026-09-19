@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-19T05:20:06.314Z",
+  "updated": "2026-09-19T05:30:05.864Z",
   "logs": [
+    {
+      "id": "business-1789795805651",
+      "desk": "business",
+      "scheduledFor": "2026-09-19 08:30:03",
+      "dispatchedAt": "2026-09-19T05:30:04.027Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "mpasho-1789795205890",
       "desk": "mpasho",
