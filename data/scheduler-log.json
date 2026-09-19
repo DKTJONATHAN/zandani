@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-19T09:20:17.406Z",
+  "updated": "2026-09-19T09:44:17.115Z",
   "logs": [
+    {
+      "id": "ghafla-1789811056925",
+      "desk": "ghafla",
+      "scheduledFor": "2026-09-19 12:44:15",
+      "dispatchedAt": "2026-09-19T09:44:15.835Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "mpasho-1789809617222",
       "desk": "mpasho",
@@ -1989,16 +1999,6 @@
       "status": 204,
       "ok": true,
       "error": null,
-      "source": "manual"
-    },
-    {
-      "id": "news-1789633717920",
-      "desk": "news",
-      "scheduledFor": "2026-09-17T08:28:37.565Z",
-      "dispatchedAt": "2026-09-17T08:28:37.565Z",
-      "status": 403,
-      "ok": false,
-      "error": "Resource not accessible by personal access token",
       "source": "manual"
     }
   ]
