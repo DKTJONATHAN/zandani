@@ -3,13 +3,15 @@
     "2a04ccc9cda8ba08383c3b256308e7a0a0cc847898417e6d72a1613532bc07a9",
     "5bca425de4238a95b09178a1b9b8c5a7d307589a8fcca339548e8a4b336630ed",
     "ec7016c4ba268f1034a3150185275fcd66fce7f82dfbca79b17105fab59d52de",
-    "5f5b8e241e2e25322dafb1053b1f078f251c8967fb7e6d6eb45a21ef96220fb3"
+    "5f5b8e241e2e25322dafb1053b1f078f251c8967fb7e6d6eb45a21ef96220fb3",
+    "ad748d71ab1d97d2e95f714ff53b7806554dee251ffda6b016be0bc0e011afbc"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
     "https://www.ghafla.co.ke/",
     "https://ghafla.co.ke/",
-    "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-western-kenya-on-september-19/"
+    "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-western-kenya-on-september-19/",
+    "https://www.ghafla.co.ke/millicent-omanga-denies-new-state-appointment/"
   ],
   "published_angles": [
     {
@@ -27,10 +29,19 @@
       "opening": "Lead directly with the economic reality of a 15-hour weekend shutdown hitting key production and border corridors.",
       "structure": "Geographical and sectoral breakdown contrasting the prolonged Kakamega/Busia industrial interruptions with Siaya's shorter institutional outage.",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-western-kenya-on-september-19/"
+    },
+    {
+      "title": "Names, Gazette Notices, and the Speculation Surrounding Millicent Omanga\u2019s State Roles",
+      "angle": "The administrative identity mix-up in the Kenya Gazette highlights the intense public scrutiny surrounding state appointments and underscores Omanga's remarkably volatile history of appointments, rejections, and revocations over the last three years.",
+      "angle_type": "institutional scrutiny and political trajectory",
+      "opening": "Lead with the administrative mix-up as a window into the highly charged political landscape where public appointments are scrutinized for patronage.",
+      "structure": "Chronological detailing of the Gazette notice, Omanga's identity correction, and a deep dive into her turbulent record of state appointments to explain why the public was so quick to believe the rumor.",
+      "source": "https://www.ghafla.co.ke/millicent-omanga-denies-new-state-appointment/"
     }
   ],
   "style_history": [
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ]
 }
