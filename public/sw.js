@@ -7,7 +7,7 @@ const CACHE_NAME = 'zandani-v1.3.1';
 const OFFLINE_URL = '/offline.html';
 // Neutral image placeholder — NOT the brand logo. Used only for same-origin
 // image failures so a missing local asset never becomes the site wordmark.
-const IMAGE_FALLBACK = '/images/default-og.jpg';
+const IMAGE_FALLBACK = '/images/default-og.svg';
 
 const PRECACHE_ASSETS = [
   '/',
