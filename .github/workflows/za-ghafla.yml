@@ -208,8 +208,6 @@ jobs:
           def publish(article_result, src):
               title=clean_title(article_result.get("title") or src["title"])
               body=article_result.get("body","").strip()
-              title=clean_title(lines[0] if lines else src["title"])
-              body="\n\n".join(lines[1:]).strip()
               if len(re.findall(r"\b\w+\b",body))<200: raise RuntimeError("Generated article too short")
               slug=slugify(title)
               today=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
