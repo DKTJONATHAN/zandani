@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-19T11:00:21.146Z",
+  "updated": "2026-09-19T11:08:17.154Z",
   "logs": [
+    {
+      "id": "entertainment-1789816096967",
+      "desk": "entertainment",
+      "scheduledFor": "2026-09-19 14:08:15",
+      "dispatchedAt": "2026-09-19T11:08:15.896Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "africa-1789815620989",
       "desk": "africa",
@@ -1986,16 +1996,6 @@
       "desk": "opinions",
       "scheduledFor": "2026-09-17 12:00:39",
       "dispatchedAt": "2026-09-17T09:01:03.121Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
-      "source": "cron"
-    },
-    {
-      "id": "technology-1789635660437",
-      "desk": "technology",
-      "scheduledFor": "2026-09-17 12:00:39",
-      "dispatchedAt": "2026-09-17T09:00:59.296Z",
       "status": 204,
       "ok": true,
       "error": null,
