@@ -132,6 +132,9 @@ def publish(result,src):
     body=inject_images(result["body"],prepare_images(src.get("images",[]),src["url"]))
     now=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     s=slug(result["title"]); path=os.path.join(POSTS,f"{now[:10]}-{s}.md"); os.makedirs(POSTS,exist_ok=True)
+    description=re.sub(r"\\s+"," ",body)[:155].replace('"',"'")
+    angle=str(result["analysis"].get("chosen_angle_gap","")).replace('"',"'")[:300]
+    angle_type=str(result["analysis"].get("angle_type","")).replace('"',"'")[:80]
     # Recompute body image metadata from the inserted Markdown URLs.
     used=[]
     for u in re.findall(r"!\[[^\]]*\]\((https?://[^)]+)\)",body):
