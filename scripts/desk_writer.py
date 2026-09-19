@@ -57,6 +57,19 @@ The headline should create curiosity through a real detail, not exaggeration.
 Do not simply reproduce the source headline. Build a distinct Za Ndani entertainment angle.
 </ENTERTAINMENT_DESK_RULES>
 """
+    tone_rules = {
+        "africa": "Write regional African news with geographic precision. Lead with the most consequential verified fact, name the country/institution/person early, explain Kenya's connection where supported, and avoid generic pan-African filler.",
+        "agriculture": "Write practical Kenyan agriculture journalism. Prioritise farmers, prices, production, weather, inputs, markets, policy, technology and livelihoods. Put the useful farming or market consequence behind the story in the headline and lead when supported.",
+        "business": "Write sharp Kenyan business journalism. Prioritise money, companies, markets, deals, earnings, regulation, jobs and measurable business impact. Headlines should foreground the concrete commercial development or number, not vague corporate language.",
+        "technology": "Write modern Kenyan technology journalism. Explain what changed, who is affected, the product/platform/technology involved and the practical consequence. Use precise product and technical terms without sounding like a press release.",
+        "sports": "Write energetic but factual Kenyan sports journalism. Lead with the player/team result, selection, injury, transfer, milestone or decisive moment. Use sport-specific detail and context; do not manufacture drama.",
+        "lifestyle": "Write useful Kenyan lifestyle and culture journalism. Lead with the person, place, trend, experience or practical detail that makes the story useful or interesting. Keep it vivid but factual.",
+        "opinions": "Write a clearly signposted opinion piece. Distinguish sourced facts from the columnist's argument, make the thesis concrete, test it against a counterpoint, and avoid presenting opinion as reported fact.",
+        "entertainment": "Write Kenyan entertainment journalism with a lively, human voice. Lead with the named artist, celebrity, creator, event, relationship, statement, career move or revealing detail. Curiosity must come from a real fact, never manufactured drama.",
+        "showbiz": "Write Kenyan showbiz journalism with a lively, human voice. Lead with the named celebrity, artist or creator and the concrete development readers actually care about. Avoid generic celebrity-news phrasing.",
+        "gossip": "Write factual Kenyan celebrity/gossip journalism. Use the verified personal development, statement or public event as the hook without inventing motives, reactions or drama.",
+    }
+    prompt += "\n<DESK_TONE_RULES>\n" + tone_rules.get(category.lower(), "Write specific Kenyan digital journalism: concrete names, actions, numbers, places and consequences; avoid vague summaries.") + "\n</DESK_TONE_RULES>\n"
     prompt += "\n<DESK_GAP_REQUIREMENT>Use the same GAP/angle-gap discipline as Za Ndani News. Open on one concrete editorial gap, not a vague summary. Keep supported names, dates, places, numbers and actions. Do not invent reactions, motives, quotes or consequences. Write 500-900 words with a strong lead, factual development and concrete close. For entertainment, stay specific to the people and event actually supported by the source. Avoid generic filler such as fans are excited, the industry is watching, or this has sparked conversations. Return the required strict JSON schema only.</DESK_GAP_REQUIREMENT>\n"
     for retry in range(3):
         p=prompt if not retry else prompt+"\n<EDITORIAL_RETRY>Choose a materially different, concrete GAP and rebuild the article around it.</EDITORIAL_RETRY>"
