@@ -10,6 +10,6 @@ if __name__ == "__main__":
         "source_domain": "pulsesports.co.ke",
         "memory_file": ".github/memory_jona_sports.json",
         "role": "sports correspondent",
-        "audience": "Kenyan sports fans (football, athletics, local leagues)",
-        "path_hints": ["sports", "sport", "article", "news", "/20"],
+        "audience": "Kenyan sports fans following football, athletics and local leagues",
+        "path_hints": ["sports", "sport", "football", "athletics", "harambee-stars", "/20"],
     })
