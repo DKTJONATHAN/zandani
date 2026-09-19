@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-19T18:00:40.093Z",
+  "updated": "2026-09-19T19:00:24.715Z",
   "logs": [
+    {
+      "id": "news-1789844424438",
+      "desk": "news",
+      "scheduledFor": "2026-09-19 22:00:22",
+      "dispatchedAt": "2026-09-19T19:00:22.735Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "sports-1789840839598",
       "desk": "sports",
@@ -1990,16 +2000,6 @@
       "ok": true,
       "error": null,
       "source": "manual"
-    },
-    {
-      "id": "diano-1789653633190",
-      "desk": "diano",
-      "scheduledFor": "2026-09-17 17:00:24",
-      "dispatchedAt": "2026-09-17T14:00:31.660Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
-      "source": "cron"
     }
   ]
 }
