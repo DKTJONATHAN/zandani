@@ -236,3 +236,19 @@ Implemented the root-cause hardening on `fix/celestine-logo-image-root-cause`:
 6. **Service worker remains logo-safe:** failed article images cannot fall back to `/logo.png`.
 
 This closes the known structural paths that could admit branding or manufacture image slots. The PR will be left open for CI/Grok review; **do not merge until the owner explicitly says merge**.
+
+
+## [2026-09-19] AI A — Affected article cleanup
+
+The affected Celestine articles were cleaned on the PR branch after the image-leak investigation. For the remaining affected posts that still contained inline external image embeds, the cleanup removes the inline Markdown image blocks and clears `selectedImages` metadata, while preserving the article text and the frontmatter hero image. This prevents stale/scraped body-image selections from being rendered while the new trust-boundary code is reviewed.
+
+Cleaned in this pass:
+- Sifuna Homa Bay rally article
+- Kenya Railways indoor arena article
+- Mt Ololokwe chopper article
+- Mombasa Port crane article
+- KRA recruitment-fraud article
+- Uhuru Kenyatta “sponsor” article
+- Uhuru spontaneous-remarks article
+
+The ten earlier affected Celestine articles were already cleaned in the merged PR #78. No merge is requested here; PR #79 remains open for review.
