@@ -1,293 +1,150 @@
 #!/usr/bin/env python3
-"""Wanjiku Kuria — straight entertainment/gossip reporter (Ghafla). No commentary."""
-import os, sys, json, re, time, random, hashlib, base64, itertools, datetime, urllib.parse
-import requests
-from dateutil import parser as date_parser
+"""Wanjiku Kuria — Ghafla desk.
+Ghafla-specific WordPress scrape + Za News GAP writer/image architecture.
+"""
+from __future__ import annotations
+import datetime, hashlib, json, os, re, sys, urllib.parse, requests
 from bs4 import BeautifulSoup
+from dateutil import parser as date_parser
 from playwright.sync_api import sync_playwright
-from google import genai
-from google.genai import types
+from article_intelligence import extract_article_images
+from desk_writer import generate_article, record_angle
+from desk_image_pipeline import prepare_featured, prepare_images, inject_images, selected_images_json
+from voice_guard import is_fresh_enough, mentions_stale_year, seo_fields
 
-try:
-    from voice_guard import news_prompt, should_skip_story, strip_banned, inject_know_if_missing, seo_fields, polish_body, model_skipped, is_fresh_enough, mentions_stale_year
-except ImportError:
-    import sys, os
-    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-    from voice_guard import news_prompt, should_skip_story, strip_banned, inject_know_if_missing, seo_fields, polish_body, model_skipped, is_fresh_enough, mentions_stale_year
+AUTHOR="Wanjiku Kuria"; CATEGORY="Gossip"; SOURCE="https://www.ghafla.co.ke/"; DOMAIN="ghafla.co.ke"
+POSTS=os.environ.get("POSTS_DIR","content/posts"); MEMORY=os.environ.get("MEMORY_FILE",".github/memory_wanjiku.json")
+FRESH=int(os.environ.get("FRESH_HOURS","24")); MAX=30; TRIES=12
+HEAD={"User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/128 Safari/537.36","Accept":"text/html,application/xhtml+xml"}
 
-
-AUTHOR_NAME = "Wanjiku Kuria"
-CATEGORY = "Gossip"
-SOURCE_URL = "https://www.ghafla.co.ke/"
-SOURCE_DOMAIN = "ghafla.co.ke"
-POSTS_DIR = os.environ.get("POSTS_DIR", "content/posts")
-MEMORY_FILE = os.environ.get("MEMORY_FILE", ".github/memory_wanjiku.json")
-MAX_CANDIDATES = 25
-MAX_SCRAPE_TRIES = 10
-FRESH_HOURS = 24
-
-MODELS_TO_TRY = [
-    "gemini-2.5-pro",
-    "gemini-2.5-flash",
-    "gemini-2.0-flash",
-    "gemini-2.0-flash-lite",
-]
-
-UNSPLASH_FALLBACKS = [
-    "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1200",
-    "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1200",
-    "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200",
-]
-
-BANNED_PHRASES = [
-    "sasa basi", "melting the pot", "spill the tea", "tea is hot", "grab your popcorn",
-    "buckle up", "breaking news", "dive in", "delve into", "moreover", "furthermore",
-    "in conclusion", "it's worth noting", "a testament to", "navigating the landscape",
-    "in today's digital age", "tapestry", "game-changer", "stay tuned", "unpack",
-    "is the central subject of the update", "central subject of the update",
-    "central to this update", "what this means for kenyans", "what this means for kenya",
-    "key takeaway", "search-ready summary",
-]
-
-STYLE_PRESETS = [
-    {"name": "Hard News Lead", "lead_style": "Who did what, where, when.",
-     "tone": "Neutral wire-service. No opinion.", "structure": "Lead, facts by importance, quotes, status"},
-    {"name": "Event Report", "lead_style": "Open with the event and principal actor.",
-     "tone": "Factual, clipped.", "structure": "Lead, sequence, confirmation, numbers"},
-    {"name": "Statement Report", "lead_style": "Official action or statement first.",
-     "tone": "Neutral, attribution-heavy.", "structure": "Lead, quote/order, background, response"},
-]
-
-now_utc = datetime.datetime.utcnow()
-now_eat = now_utc + datetime.timedelta(hours=3)
-publish_ts = now_utc.strftime("%Y-%m-%dT%H:%M:%SZ")
-today_str = now_eat.strftime("%Y-%m-%d")
-full_date_str = now_eat.strftime("%A, %B %d, %Y")
-
-def load_memory():
-    empty = {"published_hashes": [], "style_history": []}
-    if not os.path.exists(MEMORY_FILE):
-        return empty
+def memory():
     try:
-        with open(MEMORY_FILE, "r", encoding="utf-8") as f:
-            raw = json.load(f)
-        if isinstance(raw, list):
-            empty["published_hashes"] = raw[-500:]
-            return empty
-        if isinstance(raw, dict):
-            raw.setdefault("published_hashes", [])
-            raw.setdefault("style_history", [])
-            return raw
-    except Exception as e:
-        print(f"Memory load error: {e}")
-    return empty
+        with open(MEMORY,encoding="utf-8") as f: m=json.load(f)
+        if isinstance(m,dict): return m
+    except Exception: pass
+    return {"published_hashes":[],"urls":[],"published_angles":[],"style_history":[]}
 
-def save_memory(mem):
-    os.makedirs(os.path.dirname(MEMORY_FILE) or ".", exist_ok=True)
-    mem["published_hashes"] = mem.get("published_hashes", [])[-500:]
-    mem["style_history"] = mem.get("style_history", [])[-30:]
-    with open(MEMORY_FILE, "w", encoding="utf-8") as f:
-        json.dump(mem, f, indent=2)
+def save(m):
+    os.makedirs(os.path.dirname(MEMORY) or ".",exist_ok=True)
+    for k,n in (("published_hashes",500),("urls",500),("published_angles",100),("style_history",30)): m[k]=m.get(k,[])[-n:]
+    with open(MEMORY,"w",encoding="utf-8") as f: json.dump(m,f,indent=2)
 
-def pick_style(history):
-    recent = set(list(history)[-2:])
-    c = [s for s in STYLE_PRESETS if s["name"] not in recent] or STYLE_PRESETS
-    return random.choice(c)
+def fetch(url):
+    r=requests.get(url,headers=HEAD,timeout=25); r.raise_for_status(); return r.text
 
-def content_hash(title, body):
-    raw = (title + "|" + body[:800]).lower()
-    raw = re.sub(r"\s+", " ", raw)
-    return hashlib.sha256(raw.encode()).hexdigest()[:24]
+def article_link(href):
+    p=urllib.parse.urlparse(href)
+    if p.netloc and not p.netloc.endswith(DOMAIN): return False
+    path=p.path.lower()
+    if not path or path in ("/","/feed/") or any(x in path for x in ("/category/","/tag/","/author/","/page/","/search","/about","/contact","/privacy","/terms")): return False
+    return True
 
-def scrub_brands(text):
-    for b in ["Ghafla", "Pulse Live", "Nation.Africa", "Tuko", "Kenyans.co.ke"]:
-        text = re.sub(re.escape(b), "", text, flags=re.I)
-    return text
-
-def is_spam(text):
-    if not text or len(re.findall(r"\w+", text)) < 200:
-        return True
-    low = text.lower()
-    return any(m in low for m in ["central subject of the update", "what this means for kenyans", "key takeaway"])
-
-def get_target_urls():
-    urls = []
-    try:
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
-            page = browser.new_page()
-            page.goto(SOURCE_URL, wait_until="domcontentloaded", timeout=45000)
-            page.wait_for_timeout(2000)
-            html = page.content()
-            browser.close()
-        soup = BeautifulSoup(html, "html.parser")
-        for a in soup.select("a[href]")[:80]:
-            href = a.get("href") or ""
-            title = a.get_text(" ", strip=True)
-            if len(title) < 25 or len(title) > 140:
-                continue
-            if href.startswith("/"):
-                href = urllib.parse.urljoin(SOURCE_URL, href)
-            if SOURCE_DOMAIN not in href:
-                continue
-            if href not in urls:
-                urls.append(href)
-        return urls[:MAX_CANDIDATES]
-    except Exception as e:
-        print(f"List scrape error: {e}")
-        return []
-
-def scrape_article(url):
-    try:
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
-            page = browser.new_page()
-            page.goto(url, wait_until="domcontentloaded", timeout=40000)
-            page.wait_for_timeout(1500)
-            html = page.content()
-            browser.close()
-        soup = BeautifulSoup(html, "html.parser")
-        fresh, age_h = is_fresh_enough(soup, max_hours=FRESH_HOURS)
-        if not fresh:
-            if age_h is None:
-                print("Skipping, no usable publish-date signal found (fail-closed)")
-            else:
-                print(f"Skipping, age {age_h:.1f}h")
-            return None, None, None
-        t = soup.find("title")
-        title = t.get_text(strip=True) if t else ""
-        for sep in [" | ", " - "]:
-            if sep in title:
-                title = title.split(sep)[0].strip()
-        text = ""
-        for sel in ["article", ".post-content", ".entry-content", "main article", ".content"]:
-            c = soup.select_one(sel)
-            if c:
-                text = "\n\n".join(p.get_text(" ", strip=True) for p in c.find_all("p") if len(p.get_text(strip=True)) > 30)
-                if len(text) > 400:
-                    break
-        if len(text) < 400:
-            text = "\n\n".join(p.get_text(" ", strip=True) for p in soup.find_all("p") if len(p.get_text(strip=True)) > 30)
-        img = ""
-        for m in soup.find_all("meta"):
-            prop = m.get("property") or m.get("name") or ""
-            if prop in ("og:image", "twitter:image"):
-                img = m.get("content", "")
-                if img:
-                    break
-        if mentions_stale_year(text, now_eat.year):
-            print("Skipping, source body cites an older year (likely a retrospective/reshare)")
-            return None, None, None
-        return text, img, title
-    except Exception as e:
-        print(f"Scrape failed: {e}")
-        return None, None, None
-
-def call_gemini(prompt):
-    api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY") or os.environ.get("GEMINI_WRITE_KEY")
-    if not api_key:
-        raise RuntimeError("No GEMINI_API_KEY")
-    client = genai.Client(api_key=api_key)
-    last_err = None
-    for model in MODELS_TO_TRY:
+def candidates():
+    seen=set(); out=[]
+    try: html=fetch(SOURCE)
+    except Exception: html=""
+    soup=BeautifulSoup(html,"html.parser")
+    for a in soup.select("a[href]"):
+        href=urllib.parse.urljoin(SOURCE,(a.get("href") or "").strip())
+        if not article_link(href) or href in seen: continue
+        title=a.get_text(" ",strip=True)
+        if len(title)<20: continue
+        seen.add(href); out.append(href)
+    if len(out)<8:
         try:
-            resp = client.models.generate_content(
-                model=model,
-                contents=prompt,
-                config=types.GenerateContentConfig(temperature=0.5, max_output_tokens=4096),
-            )
-            text = (resp.text or "").strip()
-            if text:
-                return text, model
-        except Exception as e:
-            last_err = e
-            print(f"Model {model} failed: {e}")
-            time.sleep(1)
-    raise RuntimeError(f"All models failed: {last_err}")
+            with sync_playwright() as p:
+                b=p.chromium.launch(headless=True,args=["--no-sandbox","--disable-dev-shm-usage"])
+                page=b.new_page(user_agent=HEAD["User-Agent"]); page.goto(SOURCE,wait_until="domcontentloaded",timeout=45000); page.wait_for_timeout(1800)
+                soup=BeautifulSoup(page.content(),"html.parser"); b.close()
+                for a in soup.select("a[href]"):
+                    href=urllib.parse.urljoin(SOURCE,(a.get("href") or "").strip())
+                    if article_link(href) and href not in seen and len(a.get_text(" ",strip=True))>=20:
+                        seen.add(href); out.append(href)
+        except Exception as e: print("Ghafla listing fallback:",e)
+    return out[:MAX]
 
-def slugify(title):
-    return re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")[:80]
+def scrape(url):
+    try:
+        with sync_playwright() as p:
+            b=p.chromium.launch(headless=True,args=["--no-sandbox","--disable-dev-shm-usage"])
+            page=b.new_page(user_agent=HEAD["User-Agent"],viewport={"width":1280,"height":900})
+            page.goto(url,wait_until="domcontentloaded",timeout=45000); page.wait_for_timeout(1200)
+            html=page.content(); b.close()
+        soup=BeautifulSoup(html,"html.parser")
+        fresh,age=is_fresh_enough(soup,max_hours=FRESH)
+        if not fresh: return None
+        root=None
+        for sel in ["article",".entry-content",".post-content",".article-content","main article",".content"]:
+            root=soup.select_one(sel)
+            if root and len(root.get_text(" ",strip=True))>500: break
+        if root is None: root=soup
+        paras=[p.get_text(" ",strip=True) for p in root.find_all("p") if len(p.get_text(" ",strip=True))>=35]
+        body="\n\n".join(paras)
+        if len(body)<500: return None
+        title=""
+        for prop in ("og:title","twitter:title"):
+            t=soup.find("meta",property=prop) or soup.find("meta",attrs={"name":prop})
+            if t and t.get("content"): title=t["content"].strip(); break
+        if not title and soup.title: title=soup.title.get_text(" ",strip=True)
+        featured=""
+        for prop in ("og:image","twitter:image","twitter:image:src"):
+            t=soup.find("meta",property=prop) or soup.find("meta",attrs={"name":prop})
+            if t and t.get("content"): featured=urllib.parse.urljoin(url,t["content"].split("?")[0]); break
+        images=extract_article_images(soup,url,root,limit=12)
+        if mentions_stale_year(body,datetime.datetime.now().year): return None
+        return {"url":url,"title":title,"body":body[:18000],"images":images,"featured":featured}
+    except Exception as e:
+        print("Ghafla scrape failed:",url,e); return None
 
-def write_post(title, body_md, style_name, source_url, image=""):
-    body_md = polish_body(body_md)
-    seo = seo_fields(title, body_md, CATEGORY, AUTHOR_NAME)
-    if not image:
-        image = random.choice(UNSPLASH_FALLBACKS)
-    slug = f"{today_str}-{slugify(seo['title'])}"
-    path = os.path.join(POSTS_DIR, f"{slug}.md")
-    os.makedirs(POSTS_DIR, exist_ok=True)
-    fm = f"""---
-title: "{seo['title']}"
-slug: "{slugify(seo['title'])}"
-description: "{seo['description']}"
-excerpt: "{seo['excerpt']}"
-date: {publish_ts}
-dateModified: {publish_ts}
-author: "{AUTHOR_NAME}"
+def slug(s): return re.sub(r"[^a-z0-9]+","-",s.lower()).strip("-")[:90]
+
+def publish(result,src):
+    title=result["title"].strip(); body=result["body"].strip()
+    featured=prepare_featured(src.get("featured",""),src["url"])
+    body_images=prepare_images(src.get("images",[]),src["url"])
+    body=inject_images(body,body_images)
+    if not featured: raise RuntimeError("No verified Ghafla OG image could be hosted")
+    now=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    seo=seo_fields(title,body,CATEGORY,AUTHOR); s=slug(seo["title"])
+    path=os.path.join(POSTS,f"{now[:10]}-{s}.md"); os.makedirs(POSTS,exist_ok=True)
+    fm=f'''---
+title: "{seo["title"].replace('"',"'")}"
+slug: "{s}"
+description: "{seo["description"].replace('"',"'")}"
+excerpt: "{seo["excerpt"].replace('"',"'")}"
+date: {now}
+dateModified: {now}
+author: "{AUTHOR}"
 category: "{CATEGORY}"
-county: "{seo['county']}"
-image: "{image}"
-readTime: {max(3, len(body_md.split()) // 180)}
-source: "{source_url}"
-stylePreset: "{style_name}"
+county: "{seo["county"]}"
+image: "{featured}"
+selectedImages: {selected_images_json(body_images)}
+readTime: {max(3,len(body.split())//180)}
+source: "{src["url"]}"
+stylePreset: "{result["style"]["name"]}"
+editorialAngle: "{str(result["analysis"].get("chosen_angle_gap","")).replace('"',"'")[:300]}"
+angleType: "{str(result["analysis"].get("angle_type","")).replace('"',"'")[:80]}"
 schema: "NewsArticle"
 ---
 
-{body_md}
-"""
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(fm)
-    print(f"Wrote {path}")
-    return slug
+{body}
+'''
+    with open(path,"w",encoding="utf-8") as f:f.write(fm)
+    return path
 
 def main():
-    memory = load_memory()
-    print(f"[{AUTHOR_NAME}] hard-news run @ {publish_ts}")
-    links = get_target_urls()
-    if not links:
-        print("No links")
-        return 0
-    style = pick_style(memory.get("style_history", []))
-    print(f"Style: {style['name']}")
-    for link in links[:MAX_SCRAPE_TRIES]:
-        text, img, ttl = scrape_article(link)
-        if not text or len(text) < 200:
-            continue
-        blob = ttl or ""
-        if should_skip_story(blob + " " + text, CATEGORY):
-            continue
+    m=memory()
+    for url in candidates():
+        if url in m.get("urls",[]): continue
+        src=scrape(url)
+        if not src: continue
         try:
-            prompt = news_prompt(AUTHOR_NAME, full_date_str, style, ttl or "", text, role="correspondent", desk=CATEGORY)
-            article, model_used = call_gemini(prompt)
-            print(f"Used {model_used}")
-        except Exception as e:
-            print(f"Generation failed: {e}")
-            continue
-        if model_skipped(article):
-            print("Model skipped foreign story")
-            continue
-        article = polish_body(scrub_brands(article))
-        if is_spam(article):
-            print("Rejected: spam or too short")
-            continue
-        h = content_hash(ttl or link, article)
-        if h in memory.get("published_hashes", []):
-            print("Duplicate hash, skip")
-            continue
-        title = ttl or "Kenya entertainment update"
-        if article.startswith("#"):
-            first = article.split("\n", 1)[0]
-            title = re.sub(r"^#+\s*", "", first).strip() or title
-            article = article.split("\n", 1)[-1].strip()
-        write_post(title, article, style["name"], link, img or "")
-        memory.setdefault("published_hashes", []).append(h)
-        memory.setdefault("style_history", []).append(style["name"])
-        save_memory(memory)
-        print("Memory updated")
-        return 0
-    print("No suitable story published this run")
-    return 0
-
-
-if __name__ == "__main__":
-    sys.exit(main())
+            result=generate_article(src,m,AUTHOR,"entertainment and gossip correspondent",CATEGORY)
+            digest=hashlib.sha256((result["title"]+"|"+src["url"]).encode()).hexdigest()
+            if digest in m.get("published_hashes",[]): continue
+            path=publish(result,src); record_angle(m,result,src["url"])
+            m.setdefault("published_hashes",[]).append(digest); m.setdefault("urls",[]).append(url); save(m)
+            print("Published Ghafla:",path); return 0
+        except Exception as e: print("Ghafla candidate rejected:",e)
+    print("No eligible Ghafla story"); return 0
+if __name__=="__main__": sys.exit(main())
