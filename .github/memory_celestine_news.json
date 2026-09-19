@@ -599,10 +599,10 @@
     "01509f19f6b45675f9db6d2ce8d2f3ff",
     "c29b33baf354094ee9c06baac460e937",
     "5dd6159d29296b5778dd817a2eb374d8",
-    "acf483a1ef84f22f8df8ffea4e43a420"
+    "acf483a1ef84f22f8df8ffea4e43a420",
+    "c7356477d6554dd7b000b159a3bea618"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -631,7 +631,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -815,7 +816,8 @@
     "https://kenyans.co.ke/news/127191-sifuna-pledges-new-car-taxi-driver-injured-during-chaotic-homa-bay-rally",
     "https://kenyans.co.ke/news/127193-millicent-omanga-disowns-viral-gazette-notice-naming-her-govt-board",
     "https://kenyans.co.ke/news/127190-kenya-met-lists-nairobi-kiambu-among-counties-receive-rains-over-next-5-days",
-    "https://kenyans.co.ke/news/127194-kenya-signs-deal-swedish-firm-upgrade-jkia-air-traffic-systems"
+    "https://kenyans.co.ke/news/127194-kenya-signs-deal-swedish-firm-upgrade-jkia-air-traffic-systems",
+    "https://kenyans.co.ke/news/127195-ntsa-clarifies-removal-damaged-vehicles-govt-database"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -921,7 +923,8 @@
     "sifuna step exposes duty care gap homa bay rally violence",
     "middle name mistake highlights millicent omanga strategic distance state jobs",
     "cold front push nyandarua night temperatures five day wet spell",
-    "beyond concrete swedish firm brought unlock jkia constrained airspace"
+    "beyond concrete swedish firm brought unlock jkia constrained airspace",
+    "ntsa leaves scrapped cars register until owners file papers"
   ],
   "topic_keys": [
     "news tracker",
@@ -1146,6 +1149,15 @@
       "structure": "Operational constraint lead -> Terms and technical scope of the Swedish contract -> Integration with the Ksh 154.2B CRBC civil works master plan -> Airspace mechanics and traffic throughput challenges.",
       "source": "https://kenyans.co.ke/news/127194-kenya-signs-deal-swedish-firm-upgrade-jkia-air-traffic-systems",
       "published_at": "2026-09-19T12:02:08Z"
+    },
+    {
+      "title": "NTSA Leaves Scrapped Cars on Register Until Owners File Papers",
+      "angle": "Framing the policy around its administrative loophole: how leaving database hygiene to voluntary owner reporting maintains a phantom vehicle register that directly aids cross-border cloning rings.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first statement reporting highlighting who benefits from the administrative blind spot.",
+      "structure": "Attributed regulatory lead -> Authority's direct stance on owner onus -> Ghost vehicle data gap and DG Kondiwa's admissions -> Security fallout of cloned cross-border plates -> Digital mitigation through the June eLogbook.",
+      "source": "https://kenyans.co.ke/news/127195-ntsa-clarifies-removal-damaged-vehicles-govt-database",
+      "published_at": "2026-09-19T13:02:08Z"
     }
   ]
 }
