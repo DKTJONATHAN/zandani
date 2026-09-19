@@ -27,6 +27,7 @@ env:
   DESK_DOMAIN: "ghafla.co.ke"
   DESK_ROLE: "entertainment and gossip correspondent"
   DESK_AUDIENCE: "Kenyan entertainment readers"
+  PYTHONPATH: scripts
 
 jobs:
   generate-and-publish:
