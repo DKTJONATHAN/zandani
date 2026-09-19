@@ -313,19 +313,29 @@ def run_writer(cfg):
                 img = soup.select_one("article img[src], .article-image img[src], figure img[src], img.wp-post-image")
                 if img and img.get("src"):
                     og = resolve_image(img.get("src"), url)
-            for t in soup(["script", "style", "nav", "footer", "aside"]):
+            article_root = (
+                soup.select_one("article")
+                or soup.select_one("[itemprop='articleBody']")
+                or soup.select_one(".article-body")
+                or soup.select_one(".article__body")
+                or soup.select_one(".entry-content")
+                or soup.select_one(".post-content")
+                or soup.select_one("main")
+                or soup
+            )
+            for t in soup(["script", "style", "nav", "footer", "aside", "form"]):
                 t.decompose()
             paragraphs = [
                 p.get_text(" ", strip=True)
-                for p in soup.select("p")
+                for p in article_root.find_all("p")
                 if len(p.get_text(strip=True)) > 40
             ]
-            body = "\n\n".join(paragraphs[:18])
+            body = "\n\n".join(paragraphs[:24])
             body = scrub_brands(body)[:6000]
             if mentions_stale_year(body, now_eat.year):
                 print("Skipping, source body cites an older year (likely a retrospective/reshare)")
                 return "", ""
-            images = extract_article_images(soup, url, soup.select_one("article") or soup.select_one("[itemprop='articleBody']") or soup.select_one("main") or soup, limit=12)
+            images = extract_article_images(soup, url, article_root, limit=12)
             return body, og, images
         except Exception as e:
             print(f"Fetch article error: {e}")
