@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-19T07:20:17.028Z",
+  "updated": "2026-09-19T07:44:17.149Z",
   "logs": [
+    {
+      "id": "ghafla-1789803856950",
+      "desk": "ghafla",
+      "scheduledFor": "2026-09-19 10:44:15",
+      "dispatchedAt": "2026-09-19T07:44:15.834Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "mpasho-1789802416842",
       "desk": "mpasho",
