@@ -1,10 +1,25 @@
 {
   "published_hashes": [
     "2a04ccc9cda8ba08383c3b256308e7a0a0cc847898417e6d72a1613532bc07a9",
-    "5bca425de4238a95b09178a1b9b8c5a7d307589a8fcca339548e8a4b336630ed"
+    "5bca425de4238a95b09178a1b9b8c5a7d307589a8fcca339548e8a4b336630ed",
+    "ec7016c4ba268f1034a3150185275fcd66fce7f82dfbca79b17105fab59d52de"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
-    "https://www.ghafla.co.ke/"
+    "https://www.ghafla.co.ke/",
+    "https://ghafla.co.ke/"
+  ],
+  "published_angles": [
+    {
+      "title": "The Sifuna Convergence: Inside the Multi-Front Pressure on Nairobi\u2019s Senator",
+      "angle": "Synthesizing these rapid-fire events to expose the sudden convergence of multi-front pressure and strategic positioning surrounding Edwin Sifuna, showing how he has become a critical pivot point for domestic realignments and diplomatic engagement.",
+      "angle_type": "political realignment and institutional pressure",
+      "opening": "Lead with Sifuna as the central pivot of a whirlwind 48 hours of high-stakes political maneuvering.",
+      "structure": "Chronological and thematic development tracing the rifts in Linda Mwananchi, the overseas outreach, the diplomatic huddle, and the domestic institutional pushback, closing with a sharp observation on the early battle lines for 2027.",
+      "source": "https://ghafla.co.ke/"
+    }
+  ],
+  "style_history": [
+    "Hard News Lead"
   ]
 }
