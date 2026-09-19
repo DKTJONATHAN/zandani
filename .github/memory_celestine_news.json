@@ -600,10 +600,10 @@
     "c29b33baf354094ee9c06baac460e937",
     "5dd6159d29296b5778dd817a2eb374d8",
     "acf483a1ef84f22f8df8ffea4e43a420",
-    "c7356477d6554dd7b000b159a3bea618"
+    "c7356477d6554dd7b000b159a3bea618",
+    "5eeae60eb9a49ef3984a8656ce9b8ed9"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -632,7 +632,8 @@
     "Statement Report",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -817,7 +818,8 @@
     "https://kenyans.co.ke/news/127193-millicent-omanga-disowns-viral-gazette-notice-naming-her-govt-board",
     "https://kenyans.co.ke/news/127190-kenya-met-lists-nairobi-kiambu-among-counties-receive-rains-over-next-5-days",
     "https://kenyans.co.ke/news/127194-kenya-signs-deal-swedish-firm-upgrade-jkia-air-traffic-systems",
-    "https://kenyans.co.ke/news/127195-ntsa-clarifies-removal-damaged-vehicles-govt-database"
+    "https://kenyans.co.ke/news/127195-ntsa-clarifies-removal-damaged-vehicles-govt-database",
+    "https://kenyans.co.ke/news/127197-court-rules-residents-must-prove-excessive-noise-suing-churches-bars"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -924,7 +926,8 @@
     "middle name mistake highlights millicent omanga strategic distance state jobs",
     "cold front push nyandarua night temperatures five day wet spell",
     "beyond concrete swedish firm brought unlock jkia constrained airspace",
-    "ntsa leaves scrapped cars register until owners file papers"
+    "ntsa leaves scrapped cars register until owners file papers",
+    "audits case nairobi court raises evidentiary bar suing noisy churches bars"
   ],
   "topic_keys": [
     "news tracker",
@@ -1158,6 +1161,15 @@
       "structure": "Attributed regulatory lead -> Authority's direct stance on owner onus -> Ghost vehicle data gap and DG Kondiwa's admissions -> Security fallout of cloned cross-border plates -> Digital mitigation through the June eLogbook.",
       "source": "https://kenyans.co.ke/news/127195-ntsa-clarifies-removal-damaged-vehicles-govt-database",
       "published_at": "2026-09-19T13:02:08Z"
+    },
+    {
+      "title": "No Audits, No Case: Nairobi Court Raises Evidentiary Bar for Suing Noisy Churches and Bars",
+      "angle": "Analyzing the consequence of the ruling as a major institutional barrier for ordinary citizens, highlighting the high financial and bureaucratic burden now required to prove noise pollution in Kenyan courts.",
+      "angle_type": "consequence",
+      "opening": "An analytical hook focusing on the high cost and strict evidence standards now imposed on urban residents fighting noise pollution.",
+      "structure": "Lead on evidentiary hurdles -> Case study of the dismissed Dandora lawsuit -> Breakdown of the required technical documentation -> The administrative ladder from NEMA complaints to tribunal appeals -> Concluding look at what this means for average urban tenants and landlords.",
+      "source": "https://kenyans.co.ke/news/127197-court-rules-residents-must-prove-excessive-noise-suing-churches-bars",
+      "published_at": "2026-09-19T16:02:14Z"
     }
   ]
 }
