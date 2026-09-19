@@ -57,7 +57,7 @@ jobs:
           playwright install chromium --with-deps
       - name: Enforce 24h freshness and GAP writer contract
         env:
-          WRITER_DESK: ghafla
+          WRITER_DESK: mpasho
         run: |
           set -e
           test -f scripts/zandani_writer_prompt.txt
@@ -67,7 +67,7 @@ jobs:
           test -f scripts/martin_mpasho.py
           python scripts/enforce_writer_contract.py
           python -m py_compile scripts/martin_mpasho.py scripts/desk_writer.py scripts/desk_image_pipeline.py
-      - name: Run Wanjiku Ghafla pipeline (24h GAP + source images)
+      - name: Run Martin Mpasho pipeline (24h GAP + source images)
         env:
           GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
