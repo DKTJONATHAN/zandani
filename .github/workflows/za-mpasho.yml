@@ -21,14 +21,13 @@ env:
   MEMORY_FILE: .github/memory_martin_mpasho.json
   TZ: Africa/Nairobi
   FRESH_HOURS: "24"
+  WRITER_PROMPT_FILE: scripts/zandani_writer_prompt.txt
   DESK_AUTHOR: "Martin Kihara"
   DESK_CATEGORY: "Showbiz"
   DESK_SOURCE: "https://www.mpasho.co.ke/entertainment"
   DESK_DOMAIN: "mpasho.co.ke"
   DESK_ROLE: "showbiz correspondent"
-  IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
   DESK_AUDIENCE: "Kenyan entertainment and showbiz readers"
-  PYTHONPATH: scripts
 
 jobs:
   generate-and-publish:
@@ -42,403 +41,46 @@ jobs:
           ref: ${{ env.DEFAULT_BRANCH }}
           token: ${{ secrets.ACTIONS_GITHUB_TOKEN || secrets.PERSONAL_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           persist-credentials: true
-
       - name: Set up Python 3.11
         uses: actions/setup-python@v6
         with:
           python-version: "3.11"
-
-      - name: Install inline Python dependencies
+      - name: Cache Playwright browsers
+        uses: actions/cache@v5
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-chromium-mpasho-v1
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 lxml python-dateutil google-genai Pillow
-
-      - name: Run Showbiz desk — fully self-contained
+          pip install requests google-genai beautifulsoup4 lxml python-dateutil playwright Pillow
+          playwright install chromium --with-deps
+      - name: Enforce 24h freshness and GAP writer contract
+        env:
+          WRITER_DESK: ghafla
+        run: |
+          set -e
+          test -f scripts/zandani_writer_prompt.txt
+          test -f scripts/article_intelligence.py
+          test -f scripts/desk_writer.py
+          test -f scripts/desk_image_pipeline.py
+          test -f scripts/martin_mpasho.py
+          python scripts/enforce_writer_contract.py
+          python -m py_compile scripts/martin_mpasho.py scripts/desk_writer.py scripts/desk_image_pipeline.py
+      - name: Run Wanjiku Ghafla pipeline (24h GAP + source images)
         env:
           GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_API_KEY1: ${{ secrets.GEMINI_API_KEY1 }}
-        shell: python
+          IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
+          POSTS_DIR: ${{ env.POSTS_DIR }}
+          MEMORY_FILE: ${{ env.MEMORY_FILE }}
+          FRESH_HOURS: ${{ env.FRESH_HOURS }}
+          TZ: ${{ env.TZ }}
+        run: python scripts/martin_mpasho.py
+      - name: Voice / SEO gate (optional — never block publish)
         run: |
-          import os, re, json, hashlib, datetime, urllib.parse
-          import requests
-          from bs4 import BeautifulSoup
-          from dateutil import parser as date_parser
-          from google import genai
-          from google.genai import types
-          from article_intelligence import extract_article_images, format_image_candidates, recent_angle_context
-          from google import genai
-          import base64, io
-          from PIL import Image
-          
-          AUTHOR = os.environ["DESK_AUTHOR"]
-          CATEGORY = os.environ["DESK_CATEGORY"]
-          SOURCE_URL = os.environ["DESK_SOURCE"]
-          SOURCE_DOMAIN = os.environ["DESK_DOMAIN"]
-          MEMORY_FILE = os.environ["MEMORY_FILE"]
-          ROLE = os.environ["DESK_ROLE"]
-          AUDIENCE = os.environ["DESK_AUDIENCE"]
-          POSTS_DIR = os.environ.get("POSTS_DIR", "content/posts")
-          FRESH_HOURS = int(os.environ.get("FRESH_HOURS", "24"))
-          HEADERS = {"User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/128 Safari/537.36","Accept":"text/html,application/xhtml+xml"}
-          
-          def load_memory():
-              try:
-                  with open(MEMORY_FILE, encoding="utf-8") as f:
-                      data=json.load(f)
-                  return data if isinstance(data,dict) else {"published_hashes":[],"urls":[],"published_angles":[],"style_history":[]}
-              except Exception:
-                  return {"published_hashes":[],"urls":[],"published_angles":[],"style_history":[]}
-          
-          def save_memory(m):
-              os.makedirs(os.path.dirname(MEMORY_FILE) or ".", exist_ok=True)
-              m["published_hashes"]=m.get("published_hashes",[])[-500:]
-              m["urls"]=m.get("urls",[])[-500:]
-              m["published_angles"]=m.get("published_angles",[])[-100:]
-              m["style_history"]=m.get("style_history",[])[-30:]
-              with open(MEMORY_FILE,"w",encoding="utf-8") as f: json.dump(m,f,indent=2)
-          
-          def fetch(url):
-              try:
-                  r=requests.get(url,headers=HEADERS,timeout=25)
-                  r.raise_for_status()
-                  return r.text
-              except Exception as direct_error:
-                  status=getattr(getattr(direct_error,"response",None),"status_code",0)
-                  if status not in (0,403,429,503):
-                      raise
-                  clean=url.replace("https://","",1).replace("http://","",1)
-                  proxy="https://r.jina.ai/http://"+clean
-                  pr=requests.get(proxy,headers={"User-Agent":"Mozilla/5.0"},timeout=35)
-                  pr.raise_for_status()
-                  return pr.text
-          
-          def links_from(html):
-              soup=BeautifulSoup(html,"html.parser")
-              out=[]; seen=set()
-              base=SOURCE_URL
-              for a in soup.select("a[href]"):
-                  href=urllib.parse.urljoin(base,(a.get("href") or "").strip())
-                  if not href or SOURCE_DOMAIN not in urllib.parse.urlparse(href).netloc: continue
-                  p=urllib.parse.urlparse(href).path
-                  if not p or p in ("/","/feed/") or any(x in p.lower() for x in ("/tag/","/author/","/category/","/page/","/search","/about","/contact")): continue
-                  if href in seen: continue
-                  seen.add(href); out.append(href)
-              if not out:
-                  try:
-                      reader=fetch(SOURCE_URL)
-                      for href in re.findall(r"\]\((https?://[^)]+)\)", reader):
-                          if SOURCE_DOMAIN not in urllib.parse.urlparse(href).netloc: continue
-                          p=urllib.parse.urlparse(href).path
-                          if not p or any(x in p.lower() for x in ("/tag/","/author/","/category/","/page/","/search","/about","/contact")): continue
-                          if href not in seen:
-                              seen.add(href); out.append(href)
-                  except Exception as e:
-                      print("reader listing fallback failed",e)
-              return out[:40]
-          
-          def article(url):
-              try:
-                  html=fetch(url); soup=BeautifulSoup(html,"html.parser")
-                  title=""
-                  for prop in ("og:title","twitter:title"):
-                      t=soup.find("meta",property=prop) or soup.find("meta",attrs={"name":prop})
-                      if t and t.get("content"): title=t["content"].strip(); break
-                  if not title and soup.title: title=soup.title.get_text(" ",strip=True)
-                  published=None
-                  for prop in ("article:published_time","og:published_time"):
-                      t=soup.find("meta",property=prop)
-                      if t and t.get("content"):
-                          try: published=date_parser.parse(t["content"]); break
-                          except Exception: pass
-                  if published:
-                      if published.tzinfo is None: published=published.replace(tzinfo=datetime.timezone.utc)
-                      age=(datetime.datetime.now(datetime.timezone.utc)-published).total_seconds()/3600
-                      if age > FRESH_HOURS: return None
-                  root=soup.select_one("article") or soup.select_one("main") or soup
-                  paras=[]
-                  for p in root.find_all("p"):
-                      text=p.get_text(" ",strip=True)
-                      if len(text)>=45: paras.append(text)
-                  body="\n\n".join(paras)
-                  if len(body)<700:
-                      body="\n\n".join(p.get_text(" ",strip=True) for p in soup.find_all("p") if len(p.get_text(strip=True))>=45)
-                  if len(body)<500:
-                      try:
-                          reader=fetch(url)
-                          rsoup=BeautifulSoup(reader,"html.parser")
-                          extra=[p.get_text(" ",strip=True) for p in rsoup.find_all("p") if len(p.get_text(strip=True))>=45]
-                          if extra:
-                              body="\n\n".join(extra)
-                          else:
-                              # Jina Reader may return Markdown rather than HTML.
-                              # Convert its prose directly instead of requiring <p> tags.
-                              raw=re.sub(r"\[([^\]]+)\]\([^)]*\)",r"\\1",reader)
-                              raw=re.sub(r"!\\[[^\\]]*\\]\\([^)]*\\)","",raw)
-                              blocks=[]
-                              for block in re.split(r"\\n\\s*\\n",raw):
-                                  block=re.sub(r"^#{1,6}\\s*","",block.strip())
-                                  block=re.sub(r"^[-*]\\s+","",block)
-                                  block=re.sub(r"\\s+"," ",block).strip()
-                                  if len(block)>=45 and not block.lower().startswith(("skip to","menu","share","subscribe","advertisement")):
-                                      blocks.append(block)
-                              body="\\n\\n".join(blocks)
-                      except Exception as e:
-                          print("reader article fallback failed",url,e)
-                  if len(body)<500: return None
-                  images=extract_article_images(soup,url,root,limit=12)
-                  featured=""
-                  for meta in soup.find_all("meta"):
-                      prop=meta.get("property") or meta.get("name") or ""
-                      if prop in ("og:image","twitter:image","twitter:image:src") and meta.get("content"):
-                          featured=urllib.parse.urljoin(url,meta.get("content"))
-                          break
-                  return {"url":url,"title":title,"body":body[:18000],"images":images,"featured":featured}
-              except Exception as e:
-                  print("skip",url,e); return None
-          
-          def clean_title(s):
-              return re.sub(r"\s+"," ",re.sub(r"^#+\s*","",(s or "").strip())).strip()
-          
-          def slugify(s):
-              return re.sub(r"[^a-z0-9]+","-",s.lower()).strip("-")[:90]
-          
-          STYLE_PRESETS=[
-              ("Hard News Lead","Lead with the specific gap, then facts and a concrete close."),
-              ("People & Stakes","Open on the person or group most directly affected, then build the verified context."),
-              ("Revealed Detail","Lead with the newly useful detail that changes how the story should be understood."),
-              ("Timing & Consequence","Open on the immediate timing or practical consequence supported by the source.")
-          ]
-          MODELS=["gemini-3.8-flash","gemini-3.7-flash","gemini-3.6-flash","gemini-3.5-flash","gemini-3.5-flash-lite","gemini-3.1-pro-preview","gemini-3.1-flash-lite","gemini-3-flash-preview","gemini-2.5-flash"]
-
-          def words(s):
-              return len(re.findall(r"\w+",s or ""))
-
-          def similarity(a,b):
-              stop={"the","a","an","of","to","in","on","for","and","or","with","from","by","after","over","new","kenya","kenyan"}
-              wa={x for x in re.findall(r"[a-z0-9]+",(a or "").lower()) if x not in stop and len(x)>3}
-              wb={x for x in re.findall(r"[a-z0-9]+",(b or "").lower()) if x not in stop and len(x)>3}
-              return len(wa&wb)/max(1,len(wa|wb))
-
-          def parse_json(raw):
-              raw=(raw or "").strip()
-              raw=re.sub(r"^JSON\\s*","",raw,flags=re.I)
-              m=re.search(r"\\{[\\s\\S]*\\}",raw)
-              if not m: return None
-              try: data=json.loads(m.group(0))
-              except Exception: return None
-              return data if isinstance(data,dict) else None
-
-          def call_gemini(prompt):
-              keys=[os.environ.get(k) for k in ("GEMINI_WRITE_KEY","GEMINI_API_KEY","GEMINI_API_KEY1") if os.environ.get(k)]
-              if not keys: raise RuntimeError("No Gemini API key configured")
-              last=None
-              for key in keys:
-                  client=genai.Client(api_key=key)
-                  for model in MODELS:
-                      for _ in range(2):
-                          try:
-                              r=client.models.generate_content(model=model,contents=prompt)
-                              out=(r.text or "").strip()
-                              if out: return out
-                          except Exception as e:
-                              last=e; msg=str(e).lower()
-                              if any(x in msg for x in ("429","quota","rate","503","unavailable","500","overloaded")):
-                                  import time; time.sleep(3); continue
-                              if any(x in msg for x in ("404","not_found","deprecated")): break
-                              break
-              raise RuntimeError(last or "Gemini returned no usable article")
-
-          def generate(src,memory):
-              history=memory.get("style_history",[]) if isinstance(memory,dict) else []
-              style=next((x for x in STYLE_PRESETS if x[0] not in history[-2:]),STYLE_PRESETS[0])
-              angles=recent_angle_context(memory)
-              images=format_image_candidates(src.get("images") or [])
-              prompt=f"""<SYSTEM>
-You are the Za Ndani Mpasho/Showbiz editorial desk. Write original Kenyan digital journalism from the supplied Mpasho source material.
-The source is research, NOT a template. Never copy its headline logic, lead, paragraph order, subheadings or framing.
-</SYSTEM>
-<GAP_ENGINE>
-Before writing, identify the obvious/commodity angle, then find one concrete editorial gap: consequence, people affected, timing, money, accountability, practical change, an unresolved factual point, or a newly revealed connection supported by the source.
-Choose ONE materially distinct GAP. Do not invent facts. Do not use generic filler.
-Compare against recent Za Ndani angles supplied below and avoid repeating them.
-</GAP_ENGINE>
-<STYLE>
-Use clean Kenyan digital-news rhythm: specific nouns, active verbs, short-to-medium paragraphs, varied sentence length and restrained confidence.
-Open on the chosen gap, not a paraphrase of the source intro.
-For showbiz, stay specific to the named person, event, work, statement, relationship or development actually supported by the source.
-Do not fabricate quotes, reactions, motives, statistics, dates, consequences or expert views.
-Do not write generic phrases such as "fans are excited", "the industry is watching", or "this has sparked conversations" unless the source provides a concrete basis.
-Usually write 500-900 words. End on a concrete fact, next development or unresolved point.
-</STYLE>
-<IMAGE_EDITOR>
-These are source article-body image candidates. Select only images genuinely relevant to the chosen angle. Never invent image URLs or visual details.
-{images}
-</IMAGE_EDITOR>
-<RECENT_ANGLES>
-{angles}
-</RECENT_ANGLES>
-<INPUT_TITLE>{src.get("title","")}</INPUT_TITLE>
-<INPUT_BODY>
-{src.get("body","")[:18000]}
-</INPUT_BODY>
-<OUTPUT>
-Return strict JSON only:
-{{
- "status":"write"|"skip",
- "analysis":{{"main_event":"","dominant_likely_coverage_angle":"","chosen_angle_gap":"","angle_type":"","editorial_focus":"","opening_pattern":"","structure_pattern":""}},
- "images":[{{"source_index":1,"reason":"","alt_text":""}}],
- "article":{{"title":"","dek":"","slug":"","body_markdown":""}}
-}}
-</OUTPUT>
-"""
-              for retry in range(3):
-                  p=prompt if retry==0 else prompt+f"\n<EDITORIAL_RETRY>Previous attempt did not pass the GAP gate. Choose a materially different concrete gap and rebuild the article. Preferred desk pattern: {style[0]}.</EDITORIAL_RETRY>"
-                  data=parse_json(call_gemini(p))
-                  if not data or str(data.get("status","write")).lower()=="skip": continue
-                  art=data.get("article") if isinstance(data.get("article"),dict) else {}
-                  analysis=data.get("analysis") if isinstance(data.get("analysis"),dict) else {}
-                  title=str(art.get("title") or src.get("title") or "").strip()
-                  body=str(art.get("body_markdown") or "").strip()
-                  angle=str(analysis.get("chosen_angle_gap") or "").strip()
-                  if not title or words(body)<220 or not angle: continue
-                  recent_titles=[x.get("title","") for x in memory.get("published_angles",[]) if isinstance(x,dict)]
-                  if any(similarity(title,t)>0.82 for t in recent_titles[-12:]): continue
-                  return {"title":title,"body":body,"analysis":analysis,"style":{"name":style[0]}}
-              raise RuntimeError("No usable GAP-style article generated")
-
-          def image_bad(item):
-              url=str(item.get("url") or "").strip().lower()
-              alt=str(item.get("alt") or item.get("caption") or "").lower()
-              blob=url+" "+alt
-              blocked=("logo","site-logo","brand-logo","brandmark","wordmark","favicon","icon","avatar","sprite","tracking","pixel","placeholder","default-image","default-og","og-image","og_image","social-share","whatsapp","facebook","twitter","telegram","advert","banner-ad","header-image","masthead","zandani")
-              return not url or any(x in blob for x in blocked)
-
-          def prepare_mpasho_images(src):
-              selected=[]; seen=set()
-              for item in src.get("images") or []:
-                  u=str(item.get("url") or "").strip()
-                  if not u or u in seen or image_bad(item): continue
-                  seen.add(u)
-                  selected.append({**item,"selected_alt":str(item.get("alt") or item.get("caption") or "Mpasho story image").strip()[:180] or "Mpasho story image"})
-                  if len(selected)>=3: break
-              hosted=[]
-              api=os.environ.get("IMGBB_API_KEY","").strip()
-              for item in selected:
-                  source=item["url"]; hosted_url=source
-                  if api and "ibb.co" not in source and "imgbb.com" not in source:
-                      try:
-                          rr=requests.get(source,headers={"User-Agent":"Mozilla/5.0","Referer":src["url"]},timeout=25)
-                          rr.raise_for_status()
-                          raw=rr.content
-                          try:
-                              im=Image.open(io.BytesIO(raw))
-                              if im.mode in ("RGBA","LA","P"): im=im.convert("RGB")
-                              if im.width>1600:
-                                  ratio=1600/float(im.width)
-                                  im=im.resize((1600,max(1,int(im.height*ratio))),Image.LANCZOS)
-                              buf=io.BytesIO(); im.save(buf,format="WEBP",quality=84,method=4); raw=buf.getvalue()
-                          except Exception: pass
-                          up=requests.post("https://api.imgbb.com/1/upload",data={"key":api,"image":base64.b64encode(raw).decode()},timeout=35)
-                          if up.ok:
-                              data=up.json().get("data") or {}
-                              hosted_url=data.get("url") or data.get("display_url") or source
-                      except Exception as exc:
-                          print("Mpasho image upload failed",source,exc)
-                  hosted.append({**item,"url":hosted_url})
-              return hosted
-
-          def inject_mpasho_images(body,hosted):
-              body=re.sub(r"!\\[[^\\]]*\\]\\([^)]*\\)","",body)
-              body=re.sub(r"<img\\b[^>]*>","",body,flags=re.I)
-              blocks=[x.strip() for x in body.split("\n\n") if x.strip()]
-              if len(hosted)>=2 and len(blocks)>=4:
-                  n=len(blocks)
-                  a=max(4,min(n-3,round(n*0.30)))
-                  b=max(a+3,min(n-1,round(n*0.65)))
-                  placements={a:hosted[0],b:hosted[1]}
-                  out=[]
-                  for i,block in enumerate(blocks,1):
-                      out.append(block)
-                      if i in placements:
-                          im=placements[i]
-                          alt=re.sub(r"[\[\]\r\n]","",im.get("selected_alt") or "Mpasho story image")[:180]
-                          out.append(f"![{alt}]({im['url']})")
-                  return "\n\n".join(out)
-              return body
-
-          def record_angle(memory,result,source_url):
-              memory.setdefault("published_angles",[]).append({"title":result.get("title",""),"angle":str(result.get("analysis",{}).get("chosen_angle_gap","")),"angle_type":str(result.get("analysis",{}).get("angle_type","")),"opening":str(result.get("analysis",{}).get("opening_pattern","")),"structure":str(result.get("analysis",{}).get("structure_pattern","")),"source":source_url})
-              memory["published_angles"]=memory["published_angles"][-100:]
-              memory.setdefault("style_history",[]).append(result.get("style",{}).get("name",""))
-
-          def publish(article_result, src):
-              title=clean_title(article_result.get("title") or src["title"])
-              body=article_result.get("body","").strip()
-              if len(re.findall(r"\b\w+\b",body))<200: raise RuntimeError("Generated article too short")
-              slug=slugify(title)
-              today=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
-              path=os.path.join(POSTS_DIR,f"{today}-{slug}.md")
-              os.makedirs(POSTS_DIR,exist_ok=True)
-              now=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-              description=re.sub(r"\s+"," ",body)[:155].replace('"',"'")
-              hosted=prepare_mpasho_images(src)
-              body=inject_mpasho_images(body,hosted)
-              image=(hosted[2]["url"] if len(hosted)>=3 else (hosted[0]["url"] if hosted else "")).replace('"',"'")
-              selected=json.dumps([{"url":x["url"],"alt":x.get("selected_alt","Mpasho story image"),"reason":"Selected from the Mpasho article-body image set"} for x in hosted],ensure_ascii=False)
-              fm=f'''---
-          title: "{title.replace('"',"'")}"
-          slug: "{slug}"
-          description: "{description}"
-          excerpt: "{description}"
-          date: {now}
-          dateModified: {now}
-          author: "{AUTHOR.replace('"',"'")}"
-          category: "{CATEGORY}"
-          image: "{image}"
-          selectedImages: {selected}
-          readTime: {max(3,len(body.split())//180)}
-          source: "{src["url"]}"
-          schema: "NewsArticle"
-          ---
-          
-          {body}
-          '''
-              with open(path,"w",encoding="utf-8") as f: f.write(fm)
-              return path
-          
-          def main():
-              memory=load_memory()
-              try:
-                  html=fetch(SOURCE_URL)
-              except Exception as e:
-                  print("listing failed",e); return 0
-              candidates=links_from(html)
-              print("candidates",len(candidates))
-              for url in candidates:
-                  if url in memory.get("urls",[]): continue
-                  src=article(url)
-                  if not src: continue
-                  try:
-                      result=generate(src, memory)
-                      digest=hashlib.sha256((clean_title(result.get("title",""))+"|"+src["url"]).encode()).hexdigest()
-                      if digest in memory.get("published_hashes",[]): continue
-                      path=publish(result,src)
-                      record_angle(memory,result,src["url"])
-                      memory.setdefault("published_hashes",[]).append(digest)
-                      memory.setdefault("urls",[]).append(url)
-                      save_memory(memory)
-                      print("published",path)
-                      return 0
-                  except Exception as e:
-                      print("generation/publish failed",url,e)
-                      continue
-              print("No eligible story published")
-              return 0
-          
-          if __name__=="__main__":
-              raise SystemExit(main())
-
+          if [ -f scripts/finish_desk.py ]; then python scripts/finish_desk.py || true; fi
       - name: Commit and push safely
         shell: bash
         run: |
@@ -447,7 +89,7 @@ Return strict JSON only:
           git config user.email "bot@zandani.co.ke"
           git add -A
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "content: showbiz desk"
+          git commit -m "content: Martin Kihara Mpasho (GAP + source images)"
           for attempt in 1 2 3 4 5; do
             git fetch origin "${DEFAULT_BRANCH}"
             git rebase "origin/${DEFAULT_BRANCH}"
