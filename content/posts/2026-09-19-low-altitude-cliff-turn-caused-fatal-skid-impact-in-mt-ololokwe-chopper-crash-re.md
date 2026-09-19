@@ -14,7 +14,6 @@ source: "https://kenyans.co.ke/news/127189-helicopter-hit-rock-near-mt-ololokwe-
 stylePreset: "Desk Take"
 editorialAngle: "Exposing the razor-thin margin of error during low-altitude cliffside photography maneuvers, and highlighting the investigative dependency on satellite tracking after onboard systems were destroyed in an aircraft carrying no flight recorder."
 angleType: "consequence"
-selectedImages: [{"url": "https://i.ibb.co/Nbf3PkW/afb269e72dbd.webp", "alt": "Screengrabs of the Samburu chopper crash aftermath of August 19.", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/rR1nGFDB/1d36d0000d17.webp", "alt": "crash-helicopter-samburu.jpg", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/fVXDp32k/79568425df08.webp", "alt": "samburu chopper", "reason": "Selected from the scraped article image set"}]
 schema: "NewsArticle"
 ---
 
@@ -28,8 +27,6 @@ During that sharp downward turn, the helicopter's left landing-gear skid clipped
 
 The force of the collision sheared the landing-gear assembly off the airframe, leaving portions of the metal skids lodged near the rock surface at the point of impact. Stripped of its landing structure and suddenly destabilized, the main fuselage pitched out of control.
 
-![Screengrabs of the Samburu chopper crash aftermath of August 19.](https://i.ibb.co/Nbf3PkW/afb269e72dbd.webp)
-
 Investigators established that the aircraft rolled down the sheer mountain slope before tumbling over the main cliff precipice. The helicopter fell approximately 1,196 feet (364 meters) to the base of the rock face.
 
 An intense post-crash fire consumed the airframe upon impact at the valley floor, killing all seven occupants and destroying the aircraft's onboard instruments and data storage hardware.
@@ -39,8 +36,6 @@ An intense post-crash fire consumed the airframe upon impact at the valley floor
 The investigation faced immediate technical constraints at the crash site. The Airbus EC130 B4 was not equipped with a flight data recorder or cockpit voice recorder—a configuration not standard on light commercial charter helicopters of its class.
 
 With internal electronic recording units incinerated in the post-impact fire, safety officials relied almost entirely on external satellite flight-tracking data to map the helicopter's speed, altitude, and tight banking path along the mountain wall.
-
-![crash-helicopter-samburu.jpg](https://i.ibb.co/rR1nGFDB/1d36d0000d17.webp)
 
 Weather conditions at the time of the flight were excluded as a contributing factor. The AAID confirmed that visibility across the Samburu terrain was clear, winds were light, and the aircraft held a valid certificate of airworthiness with clean maintenance records showing no known mechanical defects.
 
