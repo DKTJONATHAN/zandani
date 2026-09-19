@@ -74,12 +74,12 @@ def prepare_featured(featured, source_url=""):
     if _bad(featured): return ""
     return upload_to_imgbb(featured,source_url)
 
-def prepare_images(candidates, source_url=""):
-    out=[]; seen=set()
+def prepare_images(candidates, source_url="", featured=""):
+    out=[]; seen=set(); featured_norm=str(featured or "").split("?")[0].rstrip("/").lower()
     for item in candidates or []:
         if not isinstance(item,dict): continue
         source=str(item.get("url") or "").strip()
-        if not source or source in seen or _bad(source,item.get("alt",""),item.get("caption","")): continue
+        if not source or source in seen or source.split("?")[0].rstrip("/").lower()==featured_norm or _bad(source,item.get("alt",""),item.get("caption","")): continue
         seen.add(source)
         hosted=upload_to_imgbb(source,source_url)
         if not hosted: continue
