@@ -6,8 +6,8 @@ if __name__ == "__main__":
     run_writer({
         "author_name": "Timothy Muli",
         "category": "Agriculture",
-        "source_url": "https://www.kenyans.co.ke/",
-        "source_domain": "kenyans.co.ke",
+        "source_url": "https://smartfarmerkenya.com/",
+        "source_domain": "smartfarmerkenya.com",
         "memory_file": ".github/memory_agriculture.json",
         "role": "agriculture correspondent",
         "audience": "Kenyan farmers, agribusinesses and agriculture-policy readers",
