@@ -19,7 +19,7 @@ import re
 
 import requests
 
-from article_intelligence import extract_article_images
+from article_intelligence import extract_article_images, _looks_like_asset
 
 try:
     from PIL import Image
