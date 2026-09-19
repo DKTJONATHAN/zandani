@@ -66,9 +66,10 @@ jobs:
           from dateutil import parser as date_parser
           from google import genai
           from google.genai import types
-          from article_intelligence import extract_article_images
-          from desk_image_pipeline import prepare_images, inject_images, selected_images_json
-          from desk_writer import generate_article, record_angle
+          from article_intelligence import extract_article_images, format_image_candidates, recent_angle_context
+          from google import genai
+          import base64, io
+          from PIL import Image
           
           AUTHOR = os.environ["DESK_AUTHOR"]
           CATEGORY = os.environ["DESK_CATEGORY"]
@@ -202,9 +203,175 @@ jobs:
           def slugify(s):
               return re.sub(r"[^a-z0-9]+","-",s.lower()).strip("-")[:90]
           
-          def generate(src, memory):
-              return generate_article(src, memory, AUTHOR, ROLE, CATEGORY)
-          
+          STYLE_PRESETS=[
+              ("Hard News Lead","Lead with the specific gap, then facts and a concrete close."),
+              ("People & Stakes","Open on the person or group most directly affected, then build the verified context."),
+              ("Revealed Detail","Lead with the newly useful detail that changes how the story should be understood."),
+              ("Timing & Consequence","Open on the immediate timing or practical consequence supported by the source.")
+          ]
+          MODELS=["gemini-3.8-flash","gemini-3.7-flash","gemini-3.6-flash","gemini-3.5-flash","gemini-3.5-flash-lite","gemini-3.1-pro-preview","gemini-3.1-flash-lite","gemini-3-flash-preview","gemini-2.5-flash"]
+
+          def words(s):
+              return len(re.findall(r"\w+",s or ""))
+
+          def similarity(a,b):
+              stop={"the","a","an","of","to","in","on","for","and","or","with","from","by","after","over","new","kenya","kenyan"}
+              wa={x for x in re.findall(r"[a-z0-9]+",(a or "").lower()) if x not in stop and len(x)>3}
+              wb={x for x in re.findall(r"[a-z0-9]+",(b or "").lower()) if x not in stop and len(x)>3}
+              return len(wa&wb)/max(1,len(wa|wb))
+
+          def parse_json(raw):
+              raw=(raw or "").strip()
+              raw=re.sub(r"^JSON\\s*","",raw,flags=re.I)
+              m=re.search(r"\\{[\\s\\S]*\\}",raw)
+              if not m: return None
+              try: data=json.loads(m.group(0))
+              except Exception: return None
+              return data if isinstance(data,dict) else None
+
+          def call_gemini(prompt):
+              keys=[os.environ.get(k) for k in ("GEMINI_WRITE_KEY","GEMINI_API_KEY","GEMINI_API_KEY1") if os.environ.get(k)]
+              if not keys: raise RuntimeError("No Gemini API key configured")
+              last=None
+              for key in keys:
+                  client=genai.Client(api_key=key)
+                  for model in MODELS:
+                      for _ in range(2):
+                          try:
+                              r=client.models.generate_content(model=model,contents=prompt)
+                              out=(r.text or "").strip()
+                              if out: return out
+                          except Exception as e:
+                              last=e; msg=str(e).lower()
+                              if any(x in msg for x in ("429","quota","rate","503","unavailable","500","overloaded")):
+                                  import time; time.sleep(3); continue
+                              if any(x in msg for x in ("404","not_found","deprecated")): break
+                              break
+              raise RuntimeError(last or "Gemini returned no usable article")
+
+          def generate(src,memory):
+              history=memory.get("style_history",[]) if isinstance(memory,dict) else []
+              style=next((x for x in STYLE_PRESETS if x[0] not in history[-2:]),STYLE_PRESETS[0])
+              angles=recent_angle_context(memory)
+              images=format_image_candidates(src.get("images") or [])
+              prompt=f"""<SYSTEM>
+You are the Za Ndani Mpasho/Showbiz editorial desk. Write original Kenyan digital journalism from the supplied Mpasho source material.
+The source is research, NOT a template. Never copy its headline logic, lead, paragraph order, subheadings or framing.
+</SYSTEM>
+<GAP_ENGINE>
+Before writing, identify the obvious/commodity angle, then find one concrete editorial gap: consequence, people affected, timing, money, accountability, practical change, an unresolved factual point, or a newly revealed connection supported by the source.
+Choose ONE materially distinct GAP. Do not invent facts. Do not use generic filler.
+Compare against recent Za Ndani angles supplied below and avoid repeating them.
+</GAP_ENGINE>
+<STYLE>
+Use clean Kenyan digital-news rhythm: specific nouns, active verbs, short-to-medium paragraphs, varied sentence length and restrained confidence.
+Open on the chosen gap, not a paraphrase of the source intro.
+For showbiz, stay specific to the named person, event, work, statement, relationship or development actually supported by the source.
+Do not fabricate quotes, reactions, motives, statistics, dates, consequences or expert views.
+Do not write generic phrases such as "fans are excited", "the industry is watching", or "this has sparked conversations" unless the source provides a concrete basis.
+Usually write 500-900 words. End on a concrete fact, next development or unresolved point.
+</STYLE>
+<IMAGE_EDITOR>
+These are source article-body image candidates. Select only images genuinely relevant to the chosen angle. Never invent image URLs or visual details.
+{images}
+</IMAGE_EDITOR>
+<RECENT_ANGLES>
+{angles}
+</RECENT_ANGLES>
+<INPUT_TITLE>{src.get("title","")}</INPUT_TITLE>
+<INPUT_BODY>
+{src.get("body","")[:18000]}
+</INPUT_BODY>
+<OUTPUT>
+Return strict JSON only:
+{{
+ "status":"write"|"skip",
+ "analysis":{{"main_event":"","dominant_likely_coverage_angle":"","chosen_angle_gap":"","angle_type":"","editorial_focus":"","opening_pattern":"","structure_pattern":""}},
+ "images":[{{"source_index":1,"reason":"","alt_text":""}}],
+ "article":{{"title":"","dek":"","slug":"","body_markdown":""}}
+}}
+</OUTPUT>
+"""
+              for retry in range(3):
+                  p=prompt if retry==0 else prompt+f"\n<EDITORIAL_RETRY>Previous attempt did not pass the GAP gate. Choose a materially different concrete gap and rebuild the article. Preferred desk pattern: {style[0]}.</EDITORIAL_RETRY>"
+                  data=parse_json(call_gemini(p))
+                  if not data or str(data.get("status","write")).lower()=="skip": continue
+                  art=data.get("article") if isinstance(data.get("article"),dict) else {}
+                  analysis=data.get("analysis") if isinstance(data.get("analysis"),dict) else {}
+                  title=str(art.get("title") or src.get("title") or "").strip()
+                  body=str(art.get("body_markdown") or "").strip()
+                  angle=str(analysis.get("chosen_angle_gap") or "").strip()
+                  if not title or words(body)<220 or not angle: continue
+                  recent_titles=[x.get("title","") for x in memory.get("published_angles",[]) if isinstance(x,dict)]
+                  if any(similarity(title,t)>0.82 for t in recent_titles[-12:]): continue
+                  return {"title":title,"body":body,"analysis":analysis,"style":{"name":style[0]}}
+              raise RuntimeError("No usable GAP-style article generated")
+
+          def image_bad(item):
+              url=str(item.get("url") or "").strip().lower()
+              alt=str(item.get("alt") or item.get("caption") or "").lower()
+              blob=url+" "+alt
+              blocked=("logo","site-logo","brand-logo","brandmark","wordmark","favicon","icon","avatar","sprite","tracking","pixel","placeholder","default-image","default-og","og-image","og_image","social-share","whatsapp","facebook","twitter","telegram","advert","banner-ad","header-image","masthead","zandani")
+              return not url or any(x in blob for x in blocked)
+
+          def prepare_mpasho_images(src):
+              selected=[]; seen=set()
+              for item in src.get("images") or []:
+                  u=str(item.get("url") or "").strip()
+                  if not u or u in seen or image_bad(item): continue
+                  seen.add(u)
+                  selected.append({**item,"selected_alt":str(item.get("alt") or item.get("caption") or "Mpasho story image").strip()[:180] or "Mpasho story image"})
+                  if len(selected)>=3: break
+              hosted=[]
+              api=os.environ.get("IMGBB_API_KEY","").strip()
+              for item in selected:
+                  source=item["url"]; hosted_url=source
+                  if api and "ibb.co" not in source and "imgbb.com" not in source:
+                      try:
+                          rr=requests.get(source,headers={"User-Agent":"Mozilla/5.0","Referer":src["url"]},timeout=25)
+                          rr.raise_for_status()
+                          raw=rr.content
+                          try:
+                              im=Image.open(io.BytesIO(raw))
+                              if im.mode in ("RGBA","LA","P"): im=im.convert("RGB")
+                              if im.width>1600:
+                                  ratio=1600/float(im.width)
+                                  im=im.resize((1600,max(1,int(im.height*ratio))),Image.LANCZOS)
+                              buf=io.BytesIO(); im.save(buf,format="WEBP",quality=84,method=4); raw=buf.getvalue()
+                          except Exception: pass
+                          up=requests.post("https://api.imgbb.com/1/upload",data={"key":api,"image":base64.b64encode(raw).decode()},timeout=35)
+                          if up.ok:
+                              data=up.json().get("data") or {}
+                              hosted_url=data.get("url") or data.get("display_url") or source
+                      except Exception as exc:
+                          print("Mpasho image upload failed",source,exc)
+                  hosted.append({**item,"url":hosted_url})
+              return hosted
+
+          def inject_mpasho_images(body,hosted):
+              body=re.sub(r"!\\[[^\\]]*\\]\\([^)]*\\)","",body)
+              body=re.sub(r"<img\\b[^>]*>","",body,flags=re.I)
+              blocks=[x.strip() for x in body.split("\n\n") if x.strip()]
+              if len(hosted)>=2 and len(blocks)>=4:
+                  n=len(blocks)
+                  a=max(4,min(n-3,round(n*0.30)))
+                  b=max(a+3,min(n-1,round(n*0.65)))
+                  placements={a:hosted[0],b:hosted[1]}
+                  out=[]
+                  for i,block in enumerate(blocks,1):
+                      out.append(block)
+                      if i in placements:
+                          im=placements[i]
+                          alt=re.sub(r"[\[\]\r\n]","",im.get("selected_alt") or "Mpasho story image")[:180]
+                          out.append(f"![{alt}]({im['url']})")
+                  return "\n\n".join(out)
+              return body
+
+          def record_angle(memory,result,source_url):
+              memory.setdefault("published_angles",[]).append({"title":result.get("title",""),"angle":str(result.get("analysis",{}).get("chosen_angle_gap","")),"angle_type":str(result.get("analysis",{}).get("angle_type","")),"opening":str(result.get("analysis",{}).get("opening_pattern","")),"structure":str(result.get("analysis",{}).get("structure_pattern","")),"source":source_url})
+              memory["published_angles"]=memory["published_angles"][-100:]
+              memory.setdefault("style_history",[]).append(result.get("style",{}).get("name",""))
+
           def publish(article_result, src):
               title=clean_title(article_result.get("title") or src["title"])
               body=article_result.get("body","").strip()
@@ -215,10 +382,10 @@ jobs:
               os.makedirs(POSTS_DIR,exist_ok=True)
               now=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
               description=re.sub(r"\s+"," ",body)[:155].replace('"',"'")
-              hosted=prepare_images(src.get("images",[]),src.get("featured",""),src["url"])
-              body=inject_images(body,hosted)
+              hosted=prepare_mpasho_images(src)
+              body=inject_mpasho_images(body,hosted)
               image=(hosted[2]["url"] if len(hosted)>=3 else (hosted[0]["url"] if hosted else "")).replace('"',"'")
-              selected=selected_images_json(hosted)
+              selected=json.dumps([{"url":x["url"],"alt":x.get("selected_alt","Mpasho story image"),"reason":"Selected from the Mpasho article-body image set"} for x in hosted],ensure_ascii=False)
               fm=f'''---
           title: "{title.replace('"',"'")}"
           slug: "{slug}"
@@ -258,7 +425,6 @@ jobs:
                       if digest in memory.get("published_hashes",[]): continue
                       path=publish(result,src)
                       record_angle(memory,result,src["url"])
-                      memory.setdefault("style_history",[]).append(result.get("style",{}).get("name",""))
                       memory.setdefault("published_hashes",[]).append(digest)
                       memory.setdefault("urls",[]).append(url)
                       save_memory(memory)
