@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T15:30:23.292Z",
+  "updated": "2026-09-19T15:44:15.344Z",
   "desks": {
     "news": {
       "lastTriggeredAt": "2026-09-19T15:00:23.931Z",
@@ -58,10 +58,10 @@
       "lastSlot": "2026-09-19T18:20"
     },
     "ghafla": {
-      "lastTriggeredAt": "2026-09-19T14:16:45.118Z",
+      "lastTriggeredAt": "2026-09-19T15:44:11.044Z",
       "lastStatus": "ok",
       "lastError": null,
-      "lastSource": "manual",
+      "lastSource": "cron",
       "lastSlot": "2026-09-19T16:44"
     },
     "entertainment": {
