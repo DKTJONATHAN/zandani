@@ -207,12 +207,12 @@
     "ed9267f2d8ab72a692ba319f",
     "8351ff6532e84bee3c2db1aa",
     "4b889422b828bcc58f5ae622",
-    "4d094dbd07aaec991124ca8f"
+    "4d094dbd07aaec991124ca8f",
+    "f75dfff89d24d41ab918db6f",
+    "9c16cb831e76ce2ce407b413",
+    "bbf54bb68148cc9620f5a815"
   ],
   "style_history": [
-    "Reaction Round-up",
-    "Trend Take",
-    "Profile Beat",
     "Hard News Lead",
     "Explainer",
     "Reaction Round-up",
@@ -239,12 +239,12 @@
     "Hard News Lead",
     "Event Report",
     "Event Report",
-    "Event Report"
+    "Event Report",
+    "Statement Report",
+    "Statement Report",
+    "Statement Report"
   ],
   "angle_history": [
-    "impact_on_citizens|Adekunle Gold|Explainer",
-    "money_follow|Nigerian music|Profile Beat",
-    "money_follow|World Class Nigeria|Reaction Round-up",
     "policy_gap|Afrobeats|Trend Take",
     "next_48_hours|Heineken|Explainer",
     "accountability|Nigerian music|Profile Beat",
@@ -319,9 +319,12 @@
     "The Nairobi Expressway is set to offload its high-speed traffic onto the",
     "Foreign visitors entering mainland Tanzania are now required to hold mandatory travel",
     "Former President Uhuru Kenyatta has signaled a strategic withdrawal from spontaneous public",
-    "The Nairobi Expressway\u2019s elevated deck will be off-limits for city-bound traffic starting",
+    "The Nairobi Expressway’s elevated deck will be off-limits for city-bound traffic starting",
     "While the East African Community (EAC) often speaks to the harmonization of",
-    "Former President Uhuru Kenyatta has signaled a pivot in his public communication,"
+    "Former President Uhuru Kenyatta has signaled a pivot in his public communication,",
+    "Nairobi commuters are bracing for another weekend of traffic snarl-ups as the",
+    "The government’s latest push to accelerate infrastructure development in partnership with China",
+    "The Kenya Ports Authority (KPA) has launched an internal review following a"
   ],
   "revamp_angles": [
     {
@@ -339,6 +342,14 @@
       "evidence_basis": "Direct quotes from Uhuru Kenyatta at a burial in Gikuu, Kiharu Sub-County, and President William Ruto's statements during a rally in Sindo, Homa Bay County.",
       "source": "https://www.kenyans.co.ke/news/127176-uhuru-says-his-life-becoming-too-dangerous-amid-rutos-sponsor-attacks",
       "published_at": "2026-09-18T18:27:35Z"
+    },
+    {
+      "title": "KPA Launches Safety Investigation After Crane Accident at Mombasa Port",
+      "angle": "Focusing on the operational response and accountability: the launch of the formal safety investigation and procedure review, triggered after social media footage forced the authority to clarify the details of the accident.",
+      "angle_type": "operational change",
+      "evidence_basis": "KPA's official statement detailing the investigation, the specific minor injuries of the operator, and the review of incident management procedures.",
+      "source": "https://www.kenyans.co.ke/news/127179-kpa-confirms-crane-incident-port-mombasa-operator-injured",
+      "published_at": "2026-09-19T05:54:19Z"
     }
   ]
 }
