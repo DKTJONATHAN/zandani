@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-19T11:00:17.239Z",
+  "updated": "2026-09-19T11:00:21.146Z",
   "logs": [
+    {
+      "id": "africa-1789815620989",
+      "desk": "africa",
+      "scheduledFor": "2026-09-19 14:00:15",
+      "dispatchedAt": "2026-09-19T11:00:19.876Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "news-1789815617040",
       "desk": "news",
@@ -1986,16 +1996,6 @@
       "desk": "technology",
       "scheduledFor": "2026-09-17 12:00:39",
       "dispatchedAt": "2026-09-17T09:00:59.296Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
-      "source": "cron"
-    },
-    {
-      "id": "agriculture-1789635656672",
-      "desk": "agriculture",
-      "scheduledFor": "2026-09-17 12:00:39",
-      "dispatchedAt": "2026-09-17T09:00:55.477Z",
       "status": 204,
       "ok": true,
       "error": null,
