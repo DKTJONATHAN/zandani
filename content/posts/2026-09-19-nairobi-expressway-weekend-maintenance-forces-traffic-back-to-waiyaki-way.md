@@ -1,6 +1,6 @@
 ---
 title: "Nairobi Expressway Weekend Maintenance Forces Traffic Back to Waiyaki Way"
-slug: "nairobi-expressway-weekend-maintenance-forces-traffic-back-to-waiyaki-"
+slug: "nairobi-expressway-weekend-maintenance-forces-traffic-back-to-waiyaki"
 description: "The Nairobi Expressway’s elevated deck will be off-limits for city-bound traffic starting tonight, as operators move to conduct maintenance work on the."
 excerpt: "The Nairobi Expressway’s elevated deck will be off-limits for city-bound traffic starting tonight, as operators move to conduct maintenance work on the."
 author: "Amara Ndlovu"
