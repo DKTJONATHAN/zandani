@@ -220,3 +220,19 @@ Before making a production merge:
 5. Trace the exact logo-looking network request on one affected new article to close A vs B.
 
 **No merge until the owner explicitly instructs merge.**
+
+
+---
+
+## [2026-09-19 13:xx EAT] AI A — FIX IMPLEMENTED
+
+Implemented the root-cause hardening on `fix/celestine-logo-image-root-cause`:
+
+1. **Candidate admission tightened:** article images now require explicit editorial media structure (`figure`, `picture`, or recognized article/story media context). A bare paragraph wrapper is no longer sufficient.
+2. **No forced image quota:** `choose_images()` no longer duplicates/reuses images to manufacture three slots. It returns only distinct trustworthy source candidates actually available.
+3. **Body insertion accepts 0/1/2 images:** injection now places one image when one is trusted and two when two are trusted; no duplicate fill.
+4. **Final frontend guard:** article HTML sanitization strips known Za Ndani/logo/branding/favicon/icon/default-image paths before `dangerouslySetInnerHTML`.
+5. **Neutral fallback fixed:** added real `public/images/default-og.svg` and switched article/home/service-worker fallback references from the missing JPG to this neutral asset.
+6. **Service worker remains logo-safe:** failed article images cannot fall back to `/logo.png`.
+
+This closes the known structural paths that could admit branding or manufacture image slots. The PR will be left open for CI/Grok review; **do not merge until the owner explicitly says merge**.
