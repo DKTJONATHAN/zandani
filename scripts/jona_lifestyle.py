@@ -11,5 +11,6 @@ if __name__ == "__main__":
         "memory_file": ".github/memory_jona_lifestyle.json",
         "role": "lifestyle correspondent",
         "audience": "Kenyan lifestyle, culture, food, travel and everyday-life readers",
+        "topic_terms": ["lifestyle", "culture", "food", "travel", "fashion", "health", "home", "relationship"],
         "path_hints": ["lifestyle", "culture", "food", "travel", "health", "fashion", "/20"],
     })
