@@ -13,7 +13,7 @@ from desk_image_pipeline import prepare_featured, prepare_images, inject_images,
 from voice_guard import mentions_stale_year
 
 AUTHOR="Martin Kihara"; CATEGORY="Showbiz"; DOMAIN="mpasho.co.ke"
-LISTINGS=["https://www.mpasho.co.ke/entertainment","https://www.mpasho.co.ke/relationships","https://www.mpasho.co.ke/exclusives"]
+LISTINGS=["https://www.mpasho.co.ke/"]
 POSTS=os.environ.get("POSTS_DIR","content/posts"); MEMORY=os.environ.get("MEMORY_FILE",".github/memory_martin_mpasho.json")
 FRESH=int(os.environ.get("FRESH_HOURS","24")); MAX=30
 HEAD={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/128 Safari/537.36","Accept":"text/html,application/xhtml+xml"}
@@ -48,7 +48,7 @@ def candidates():
             soup=BeautifulSoup(r.text,"html.parser")
             for a in soup.select("a[href]"):
                 href=urllib.parse.urljoin(listing,(a.get("href") or "").strip())
-                if urllib.parse.urlparse(href).netloc!=DOMAIN or not article_path(href): continue
+                parsed=urllib.parse.urlparse(href)\n                if parsed.netloc!=DOMAIN or not article_path(href): continue\n                # Mpasho is the discovery source; this desk publishes entertainment only.\n                if not parsed.path.lower().startswith("/entertainment/"): continue
                 k=story_key(href)
                 if k in seen: continue
                 seen.add(k); out.append(href)
@@ -66,7 +66,7 @@ def candidates():
                     soup=BeautifulSoup(page.content(),"html.parser")
                     for a in soup.select("a[href]"):
                         href=urllib.parse.urljoin(listing,(a.get("href") or "").strip())
-                        if urllib.parse.urlparse(href).netloc==DOMAIN and article_path(href) and story_key(href) not in seen:
+                        parsed=urllib.parse.urlparse(href)\n                        if parsed.netloc==DOMAIN and article_path(href) and parsed.path.lower().startswith("/entertainment/") and story_key(href) not in seen:
                             seen.add(story_key(href)); out.append(href)
                 except Exception as e:
                     print("Mpasho browser listing failed:",listing,e)
