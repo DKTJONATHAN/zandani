@@ -210,12 +210,12 @@
     "4d094dbd07aaec991124ca8f",
     "f75dfff89d24d41ab918db6f",
     "9c16cb831e76ce2ce407b413",
-    "bbf54bb68148cc9620f5a815"
+    "bbf54bb68148cc9620f5a815",
+    "080b2a9b85c9edab9ad1ad26",
+    "f2886dde0d86ca49ceef77af",
+    "d3dabd895ccc7ac27d69ce40"
   ],
   "style_history": [
-    "Hard News Lead",
-    "Explainer",
-    "Reaction Round-up",
     "Trend Take",
     "Hard News Lead",
     "Explainer",
@@ -242,12 +242,12 @@
     "Event Report",
     "Statement Report",
     "Statement Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take",
+    "Desk Take",
+    "Desk Take"
   ],
   "angle_history": [
-    "policy_gap|Afrobeats|Trend Take",
-    "next_48_hours|Heineken|Explainer",
-    "accountability|Nigerian music|Profile Beat",
     "impact_on_citizens|2026 FIFA World Cup|Reaction Round-up",
     "accountability|domestic violence|Trend Take",
     "money_follow|AMVCA|Hard News Lead",
@@ -324,7 +324,10 @@
     "Former President Uhuru Kenyatta has signaled a pivot in his public communication,",
     "Nairobi commuters are bracing for another weekend of traffic snarl-ups as the",
     "The government’s latest push to accelerate infrastructure development in partnership with China",
-    "The Kenya Ports Authority (KPA) has launched an internal review following a"
+    "The Kenya Ports Authority (KPA) has launched an internal review following a",
+    "The United States is recalibrating its commercial engagement with Kenya’s mining sector,",
+    "The proposed 10,000-seater indoor arena in Nairobi represents more than a new",
+    "For years, Trevor Ombija sat behind the desk at Royal Media Services,"
   ],
   "revamp_angles": [
     {
@@ -350,6 +353,14 @@
       "evidence_basis": "KPA's official statement detailing the investigation, the specific minor injuries of the operator, and the review of incident management procedures.",
       "source": "https://www.kenyans.co.ke/news/127179-kpa-confirms-crane-incident-port-mombasa-operator-injured",
       "published_at": "2026-09-19T05:54:19Z"
+    },
+    {
+      "title": "Trevor Ombija Cites Gachagua Sacking Push as Nyakach Campaign Takes Shape",
+      "angle": "Framing the disclosure through Ombija's active campaign messaging in Nyakach, examining how the former broadcaster is using past executive friction and ethnic confrontation on the airwaves to anchor his transition into electoral politics under President Ruto's broad-based coalition.",
+      "angle_type": "local impact and campaign accountability",
+      "evidence_basis": "Ombija's public remarks to Nyakach residents on September 18, details of the March 2026 broadcast confrontation, the lack of independent confirmation from RMS or Gachagua, and Ombija's declared political platform.",
+      "source": "https://www.kenyans.co.ke/news/127187-trevor-ombija-claims-gachagua-sought-his-dismissal-after-heated-interview",
+      "published_at": "2026-09-19T10:54:33Z"
     }
   ]
 }
