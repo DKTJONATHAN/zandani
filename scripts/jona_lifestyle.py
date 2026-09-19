@@ -10,6 +10,6 @@ if __name__ == "__main__":
         "source_domain": "ghafla.co.ke",
         "memory_file": ".github/memory_jona_lifestyle.json",
         "role": "lifestyle correspondent",
-        "audience": "Kenyan lifestyle and culture readers",
-        "path_hints": ["lifestyle", "article", "news", "story", "/20"],
+        "audience": "Kenyan lifestyle, culture, food, travel and everyday-life readers",
+        "path_hints": ["lifestyle", "culture", "food", "travel", "health", "fashion", "/20"],
     })
