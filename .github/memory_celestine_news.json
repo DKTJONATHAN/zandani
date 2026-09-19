@@ -597,10 +597,10 @@
     "82e45089cdb949363179dd2b563311f8",
     "aca2f7c4d51410e84b2ab8108dfe917d",
     "01509f19f6b45675f9db6d2ce8d2f3ff",
-    "c29b33baf354094ee9c06baac460e937"
+    "c29b33baf354094ee9c06baac460e937",
+    "5dd6159d29296b5778dd817a2eb374d8"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -629,7 +629,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -811,7 +812,8 @@
     "https://kenyans.co.ke/news/127189-helicopter-hit-rock-near-mt-ololokwe-summit-crashing-samburu-aaid-says",
     "https://kenyans.co.ke/news/127188-nairobi-set-get-new-ksh-38b-indoor-arena-alongside-talanta",
     "https://kenyans.co.ke/news/127191-sifuna-pledges-new-car-taxi-driver-injured-during-chaotic-homa-bay-rally",
-    "https://kenyans.co.ke/news/127193-millicent-omanga-disowns-viral-gazette-notice-naming-her-govt-board"
+    "https://kenyans.co.ke/news/127193-millicent-omanga-disowns-viral-gazette-notice-naming-her-govt-board",
+    "https://kenyans.co.ke/news/127190-kenya-met-lists-nairobi-kiambu-among-counties-receive-rains-over-next-5-days"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -915,7 +917,8 @@
     "low altitude cliff turn caused fatal skid impact ololokwe chopper crash report shows",
     "railways commits prime land ksh 38b private indoor arena deal",
     "sifuna step exposes duty care gap homa bay rally violence",
-    "middle name mistake highlights millicent omanga strategic distance state jobs"
+    "middle name mistake highlights millicent omanga strategic distance state jobs",
+    "cold front push nyandarua night temperatures five day wet spell"
   ],
   "topic_keys": [
     "news tracker",
@@ -1122,6 +1125,15 @@
       "structure": "Political context and brand preservation -> The Gazette notice details and the typo -> Chronology of her volatile history with state appointments -> The 2027 campaign transition.",
       "source": "https://kenyans.co.ke/news/127193-millicent-omanga-disowns-viral-gazette-notice-naming-her-govt-board",
       "published_at": "2026-09-19T10:01:24Z"
+    },
+    {
+      "title": "Cold Front to Push Nyandarua Night Temperatures to 5\u00b0C in Five-Day Wet Spell",
+      "angle": "Reframing the forecast around the intense nocturnal cold front anchoring the weather system\u2014specifically the plunge to 5\u00b0C in high-altitude Nyandarua and cold warnings stretching into arid northern zones\u2014rather than treating it merely as a routine urban rain listicle.",
+      "angle_type": "local impact",
+      "opening": "Specific atmospheric threshold lead highlighting the 5\u00b0C nocturnal low in Nyandarua setting the tone for the five-day national outlook.",
+      "structure": "Temperature threshold lead -> Regional cold corridor breakdown -> Rainfall distribution across coastal, eastern, and central zones -> Broader western sweep and closing operational context.",
+      "source": "https://kenyans.co.ke/news/127190-kenya-met-lists-nairobi-kiambu-among-counties-receive-rains-over-next-5-days",
+      "published_at": "2026-09-19T10:07:09Z"
     }
   ]
 }
