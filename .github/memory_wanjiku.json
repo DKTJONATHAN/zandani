@@ -5,7 +5,8 @@
     "ec7016c4ba268f1034a3150185275fcd66fce7f82dfbca79b17105fab59d52de",
     "5f5b8e241e2e25322dafb1053b1f078f251c8967fb7e6d6eb45a21ef96220fb3",
     "ad748d71ab1d97d2e95f714ff53b7806554dee251ffda6b016be0bc0e011afbc",
-    "6da7c612d3b763d353cedd92409af2b3ec9289c510385c1c79dfd464bf1cd50a"
+    "6da7c612d3b763d353cedd92409af2b3ec9289c510385c1c79dfd464bf1cd50a",
+    "1662f2d3841d43f99c2d06a5cb0dbcbd96f3517e460c9e027be72a326d8330d3"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -13,7 +14,8 @@
     "https://ghafla.co.ke/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-western-kenya-on-september-19/",
     "https://www.ghafla.co.ke/millicent-omanga-denies-new-state-appointment/",
-    "https://www.ghafla.co.ke/karachuonyo-aspirant-steve-okute-hails-government-projects-calls-for-stronger-oversight/"
+    "https://www.ghafla.co.ke/karachuonyo-aspirant-steve-okute-hails-government-projects-calls-for-stronger-oversight/",
+    "https://www.ghafla.co.ke/rigathi-gachagua-reaches-out-to-sifuna-babu-owino-from-us-amid-linda-mwananchi-rift/"
   ],
   "published_angles": [
     {
@@ -47,6 +49,14 @@
       "opening": "Lead with specific contractor failings on local road stretches despite broader multi-billion shilling state investments.",
       "structure": "Detail missing road infrastructure and oversight concerns, contrast with national agency projects (KeRRA and LVSWWDA), and conclude with economic revival plans for cotton and fisheries.",
       "source": "https://www.ghafla.co.ke/karachuonyo-aspirant-steve-okute-hails-government-projects-calls-for-stronger-oversight/"
+    },
+    {
+      "title": "From Kansas to Nairobi: How Gachagua Is Remote-Controlling the Sifuna-Owino Rift",
+      "angle": "The mechanics of absentee leadership and internal party coordination, focusing on how Gachagua is using Nyandarua Senator John Methu to mediate the Sifuna-Owino rivalry from across the Atlantic while managing 2027 anxieties.",
+      "angle_type": "political management and internal movement mechanics",
+      "opening": "Open with Rigathi Gachagua placing international phone calls from Kansas to manage local political friction.",
+      "structure": "Detail the overseas intervention, examine the friction between Sifuna and Owino's camps over 2027 political vehicles, detail Gachagua's allegations against state intelligence, and close on John Methu's assigned mediation role.",
+      "source": "https://www.ghafla.co.ke/rigathi-gachagua-reaches-out-to-sifuna-babu-owino-from-us-amid-linda-mwananchi-rift/"
     }
   ],
   "style_history": [
