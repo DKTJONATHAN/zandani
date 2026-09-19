@@ -216,12 +216,12 @@
     "d3dabd895ccc7ac27d69ce40",
     "97103207d00729e35edfdf59",
     "4916f4afeec43e8abb1e85b3",
-    "068da3384598d879548e76cc"
+    "068da3384598d879548e76cc",
+    "eb618a2e971f8c338f49cfe5",
+    "3e069cce81d25b9b06a0a8d6",
+    "bc16dbb53b72ae9bb8b2e324"
   ],
   "style_history": [
-    "Reaction Round-up",
-    "Profile Beat",
-    "Hard News Lead",
     "Explainer",
     "Trend Take",
     "Profile Beat",
@@ -248,12 +248,12 @@
     "Desk Take",
     "Statement Report",
     "Statement Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take",
+    "Desk Take",
+    "Desk Take"
   ],
   "angle_history": [
-    "timeline_shift|AMVCA|Explainer",
-    "accountability|AMVCA|Reaction Round-up",
-    "myth_vs_fact|Nollywood|Profile Beat",
     "winners_losers|Ilebaye|Trend Take",
     "myth_vs_fact|Mavin Records|Explainer",
     "impact_on_citizens|Alex Ekubo|Hard News Lead",
@@ -330,7 +330,10 @@
     "For years, Trevor Ombija sat behind the desk at Royal Media Services,",
     "The United States is recalibrating its involvement in Kenya’s mining sector, signaling",
     "Agricultural productivity in Central Kenya faces a sharp test over the next",
-    "The development of a 10,000-seat indoor arena in Nairobi is no longer"
+    "The development of a 10,000-seat indoor arena in Nairobi is no longer",
+    "The modernization of Jomo Kenyatta International Airport (JKIA) has moved beyond a",
+    "Farmers and residents in Nyandarua are facing a significant cold snap this",
+    "The Nairobi Railway City project, long envisioned as the capital’s next major"
   ],
   "revamp_angles": [
     {
@@ -372,6 +375,14 @@
       "evidence_basis": "The source details the long-term lease agreement with Kenya Railways, the $294.5 million private investment, the comparison with Zaria Court Kigali/BK Arena, and the planned expansion to Lagos and Johannesburg.",
       "source": "https://www.kenyans.co.ke/news/127188-nairobi-set-get-new-ksh-38b-indoor-arena-alongside-talanta",
       "published_at": "2026-09-19T11:06:24Z"
+    },
+    {
+      "title": "Zaria Group Scales Up African Sports Portfolio With $294.5 Million Nairobi Arena",
+      "angle": "The financial scale-up and regional expansion strategy, contrasting the $26 million Kigali footprint with the $294.5 million Nairobi bet, showing a massive escalation in capital deployment as they target the region's larger entertainment market.",
+      "angle_type": "money",
+      "evidence_basis": "The source details the $26 million Zaria Court Kigali development and compares it to the $294.5 million Nairobi project, along with the planned expansion to Lagos and Johannesburg.",
+      "source": "https://www.kenyans.co.ke/news/127188-nairobi-set-get-new-ksh-38b-indoor-arena-alongside-talanta",
+      "published_at": "2026-09-19T14:24:57Z"
     }
   ]
 }
