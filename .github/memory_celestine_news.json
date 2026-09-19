@@ -592,10 +592,10 @@
     "922000ad5168bc3d53de5f5c91e203cb",
     "42169015e0c1eb2a1e736708264c304d",
     "7b3dd7e5907d2d399c5fb074f1776c60",
-    "792cdcbcce568c0bdf74b7aa4a9ee147"
+    "792cdcbcce568c0bdf74b7aa4a9ee147",
+    "33826494fcf15d0f9f1fd75c798ba3e1"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -624,7 +624,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -801,7 +802,8 @@
     "https://kenyans.co.ke/news/127179-kpa-confirms-crane-incident-port-mombasa-operator-injured",
     "https://kenyans.co.ke/news/127183-northern-bypass-dualling-among-projects-kenya-seeks-advance-china-talks",
     "https://kenyans.co.ke/news/127182-nmg-responds-concerns-over-lack-women-editorial-appointments",
-    "https://kenyans.co.ke/news/127186-us-unveils-new-technology-pitch-kenyas-critical-minerals"
+    "https://kenyans.co.ke/news/127186-us-unveils-new-technology-pitch-kenyas-critical-minerals",
+    "https://kenyans.co.ke/news/127187-trevor-ombija-claims-gachagua-sought-his-dismissal-after-heated-interview"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -900,7 +902,8 @@
     "mombasa port gantry mishap reopens safety questions second major accident months",
     "treasury pushes beijing unlock stalled northern bypass dualling procurement",
     "corporate quotas miss newsroom nmg gender gap exposed regional editorial overhaul",
-    "washington outlines tech vendor model critical minerals partnership"
+    "washington outlines tech vendor model critical minerals partnership",
+    "ombija converts air clash gachagua nyakach campaign fuel"
   ],
   "topic_keys": [
     "news tracker",
@@ -1062,6 +1065,15 @@
       "structure": "Strategic posture shift -> Specific technology capabilities and multi-mineral processing -> Context of Ruto talks in Nairobi -> Supply chain alignment and regional tender context.",
       "source": "https://kenyans.co.ke/news/127186-us-unveils-new-technology-pitch-kenyas-critical-minerals",
       "published_at": "2026-09-19T06:01:41Z"
+    },
+    {
+      "title": "Ombija Converts On-Air Clash With Gachagua Into Nyakach Campaign Fuel",
+      "angle": "The tactical weaponisation of a televised clash on the campaign trail: Ombija converting an on-air confrontation with the former Deputy President into grassroots political capital as he pivots from prime-time news anchor to pro-Ruto parliamentary aspirant in Nyanza.",
+      "angle_type": "accountability",
+      "opening": "Anchoring directly on the political transition\u2014how a high-profile broadcast clash is being repurposed as campaign-trail currency in Nyakach.",
+      "structure": "Campaign trail disclosure lead -> The Nyakach political context and Ruto broad-based alignment -> Breakdown of the March 2026 studio clash and ethnic bias accusations -> Institutional silence and unverified claims -> The growing crossover from national broadcast desks to constituency politics.",
+      "source": "https://kenyans.co.ke/news/127187-trevor-ombija-claims-gachagua-sought-his-dismissal-after-heated-interview",
+      "published_at": "2026-09-19T07:01:52Z"
     }
   ]
 }
