@@ -101,7 +101,7 @@ def slug(s): return re.sub(r"[^a-z0-9]+","-",s.lower()).strip("-")[:90]
 def publish(result,src):
     title=result["title"].strip(); body=result["body"].strip()
     featured=prepare_featured(src.get("featured",""),src["url"])
-    body_images=prepare_images(src.get("images",[]),src["url"])
+    body_images=prepare_images(src.get("images",[]),src["url"],src.get("featured",""))
     body=inject_images(body,body_images)
     if not featured: raise RuntimeError("No verified Ghafla OG image could be hosted")
     now=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
