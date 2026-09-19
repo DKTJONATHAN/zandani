@@ -18,7 +18,7 @@ export function authorColor(_name?: string): string {
   return "bg-primary text-primary-foreground";
 }
 
-export const PLACEHOLDER_IMG = "/images/default-og.jpg";
+export const PLACEHOLDER_IMG = "/images/default-og.svg";
 
 export function proxyImg(url: string, w = 800): string {
   if (!url) return PLACEHOLDER_IMG;

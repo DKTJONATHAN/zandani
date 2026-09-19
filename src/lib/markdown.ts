@@ -30,6 +30,26 @@ export interface Post extends PostMetadata {
   knowFacts: string[];
 }
 
+function sanitizeArticleHtml(html: string): string {
+  return html.replace(/<img\b[^>]*>/gi, (tag) => {
+    const srcMatch = tag.match(/\bsrc=["']([^"']+)["']/i);
+    if (!srcMatch) return "";
+    const src = srcMatch[1].trim();
+    try {
+      const parsed = new URL(src, "https://zandani.co.ke");
+      const host = parsed.hostname.replace(/^www\./, "").toLowerCase();
+      const path = parsed.pathname.toLowerCase();
+      const blockedHost = host === "zandani.co.ke" || host.endsWith(".zandani.co.ke");
+      const blockedPath = /(^|\/)(logo|favicon|icon|brand|wordmark|site-logo|default-og|placeholder)([-_.\/]|$)/i.test(path);
+      const blockedQuery = /(logo|favicon|brand|wordmark|site[-_]?icon)/i.test(parsed.search);
+      if (blockedHost || blockedPath || blockedQuery) return "";
+    } catch {
+      return "";
+    }
+    return tag;
+  });
+}
+
 function parseFrontmatter(content: string): { data: Record<string, unknown>; content: string } {
   const match = content.match(/^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/);
   if (!match) return { data: {}, content };
@@ -94,7 +114,7 @@ export async function getPostBySlug(slug: string): Promise<Post | undefined> {
     const rawContent = await res.text();
     const { content } = parseFrontmatter(rawContent);
     const { facts, body } = extractWhatWeKnow(content);
-    return { ...metadata, content, htmlContent: marked(body) as string, knowFacts: facts, imageAlt: metadata.title };
+    return { ...metadata, content, htmlContent: sanitizeArticleHtml(marked(body) as string), knowFacts: facts, imageAlt: metadata.title };
   } catch (error) {
     console.error(`Error loading post content for ${slug}:`, error);
     return undefined;
