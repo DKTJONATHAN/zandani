@@ -9,7 +9,7 @@ if __name__ == "__main__":
         "source_url": "https://www.ghafla.co.ke/",
         "source_domain": "ghafla.co.ke",
         "memory_file": ".github/memory_georgediano.json",
-        "role": "entertainment desk writer covering George Diano and related Kenyan showbiz",
-        "audience": "Kenyan entertainment readers following George Diano and the local scene",
-        "path_hints": ["article", "news", "story", "post", "/20", "celebrity"],
+        "role": "entertainment desk writer covering George Diano and Kenyan showbiz",
+        "audience": "Kenyan entertainment readers",
+        "path_hints": ["celebrity", "entertainment", "music", "video", "artist", "/20"],
     })
