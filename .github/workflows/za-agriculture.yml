@@ -61,7 +61,7 @@ jobs:
           MEMORY_FILE: ${{ env.MEMORY_FILE }}
           WRITER_PROMPT_FILE: ${{ env.WRITER_PROMPT_FILE }}
           FRESH_HOURS: "24"
-        run: python scripts/agriculture_desk.py
+        run: python scripts/timothy_agriculture.py
       - name: Editorial image + angle revamp
         env:
           GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
