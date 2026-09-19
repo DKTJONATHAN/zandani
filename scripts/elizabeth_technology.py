@@ -10,6 +10,6 @@ if __name__ == "__main__":
         "source_domain": "techweez.com",
         "memory_file": ".github/memory_elizabeth.json",
         "role": "technology correspondent",
-        "audience": "Kenyan tech, startups, and digital readers",
-        "path_hints": ["tech", "article", "news", "story", "/20"],
+        "audience": "Kenyan tech, startups, digital products and internet readers",
+        "path_hints": ["/20", "tech", "how-to", "news", "features", "editorial", "reviews"],
     })
