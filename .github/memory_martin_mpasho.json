@@ -100,10 +100,10 @@
     "f85c16a3016b59938e648022",
     "185f51010d8c3b6ba964fea1",
     "5e985c8922390b97a065457a4730a6f15d49e517f6c14b468e3527b083d6d857",
-    "669d09701dd880515da2e0a0e0fc56c9cce5b906ac38a68352cdc6a43bed7266"
+    "669d09701dd880515da2e0a0e0fc56c9cce5b906ac38a68352cdc6a43bed7266",
+    "fa363c7cda6d0125a31591d58b7fea8bb507a7c37d387fb85a21a9905884bf0b"
   ],
   "style_history": [
-    "Hard Showbiz Lead",
     "Event Report",
     "Statement Report",
     "Hard Showbiz Lead",
@@ -132,7 +132,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [],
   "recent_stories": [
@@ -207,7 +208,8 @@
   ],
   "urls": [
     "https://www.mpasho.co.ke/quickfire",
-    "https://www.mpasho.co.ke/lifestyle-yetu"
+    "https://www.mpasho.co.ke/lifestyle-yetu",
+    "https://www.mpasho.co.ke/human-interest"
   ],
   "published_angles": [
     {
@@ -217,6 +219,14 @@
       "opening": "Attribution-first statement on ticket velocity, followed by analysis of beneficiary promoters and event platforms.",
       "structure": "Statement lead, commercial breakdown of international booking velocity, localized broadcast event expansion, recent venue context, and concrete schedule close.",
       "source": "https://www.mpasho.co.ke/lifestyle-yetu"
+    },
+    {
+      "title": "The Digital Safety Net: How Social Media Became Kenya\u2019s Volatile Court of Appeal",
+      "angle": "Analyzing these diverse incidents collectively to expose a deeper structural shift: the rise of a volatile online attention economy as an ad-hoc substitute for failing institutional safety nets in Kenya.",
+      "angle_type": "local impact",
+      "opening": "Analytical lead establishing the shift of survival mechanisms to digital platforms due to institutional gaps.",
+      "structure": "Thematic breakdown focusing on crowd-funded survival, the rapid depreciation of viral attention, and the real-world security risks of public exposure.",
+      "source": "https://www.mpasho.co.ke/human-interest"
     }
   ]
 }
