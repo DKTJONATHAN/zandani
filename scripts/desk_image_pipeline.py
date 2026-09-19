@@ -34,41 +34,25 @@ def _same(a: str, b: str) -> bool:
 
 
 def select_images(candidates, featured=""):
-    """Select up to three distinct source images, reusing only when necessary."""
+    """Select up to three distinct source-body images; never reuse an image."""
     candidates = [x for x in (candidates or []) if isinstance(x, dict) and x.get("url")]
     ranked = []
+    seen = set()
     for item in candidates:
-        if any(_same(item.get("url"), x.get("url")) for x in ranked):
+        url = (item.get("url") or "").strip()
+        if not url or url in seen:
             continue
+        seen.add(url)
         ranked.append({
             **item,
             "reason": "Selected from the scraped article image set",
             "selected_alt": str(item.get("alt") or item.get("caption") or "News image").strip()[:180] or "News image",
         })
-    if not ranked:
-        return []
-
     non_featured = [x for x in ranked if not _same(x.get("url"), featured)]
     selected = non_featured[:3]
-    for item in ranked:
-        if len(selected) >= 3:
-            break
-        if any(_same(item.get("url"), x.get("url")) for x in selected):
-            continue
-        selected.append(item)
-
-    pool = non_featured or ranked
-    if pool:
-        while len(selected) < min(3, max(1, len(pool))):
-            selected.append(pool[(len(selected) - len(non_featured)) % len(pool)])
-
-    # If there are only one or two source images, reuse an available source image
-    # only as the necessary fallback, matching the News pipeline's best-effort rule.
-    while selected and len(selected) < 3:
-        selected.append(selected[(len(selected) - 1) % len(selected)])
-
+    if not selected and ranked:
+        selected = ranked[:1]
     return selected[:3]
-
 
 def upload_to_imgbb(image_url: str, source_url: str = "") -> str:
     if not image_url or "ibb.co" in image_url or "imgbb.com" in image_url:
@@ -121,11 +105,14 @@ def prepare_images(candidates, featured="", source_url=""):
     selected = select_images(candidates, featured)
     hosted = []
     for image in selected:
-        source = image.get("url", "")
+        source = (image.get("url") or "").strip()
+        if not source or _looks_like_asset(source, image.get("alt", ""), image.get("caption", "")):
+            continue
         hosted_url = upload_to_imgbb(source, source_url) or source
+        if _looks_like_asset(hosted_url, image.get("alt", ""), image.get("caption", "")):
+            continue
         hosted.append({**image, "source_url": source, "url": hosted_url})
     return hosted
-
 
 def strip_generated_images(body: str) -> str:
     body = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", body or "")
@@ -134,32 +121,42 @@ def strip_generated_images(body: str) -> str:
 
 
 def inject_images(body: str, images) -> str:
+    """Insert up to two distinct trusted images deep in the article body."""
     body = strip_generated_images(body)
-    if len(images) < 2:
+    trusted = []
+    seen = set()
+    for image in images or []:
+        source = (image.get("source_url") or "").strip()
+        hosted = (image.get("url") or "").strip()
+        if not source or not hosted or source in seen or hosted in seen:
+            continue
+        if _looks_like_asset(source, image.get("alt", ""), image.get("caption", "")) or _looks_like_asset(hosted, image.get("alt", ""), image.get("caption", "")):
+            continue
+        seen.add(source); seen.add(hosted); trusted.append(image)
+    if not trusted:
         return body
     paragraphs = [p for p in body.split("\n\n") if p.strip()]
     if len(paragraphs) < 4:
         return body
-
     n = len(paragraphs)
-    first_after = max(4, min(n - 3, round(n * 0.30)))
-    second_after = max(first_after + 3, min(n - 1, round(n * 0.65)))
-    placements = {first_after: images[0], second_after: images[1]}
-
+    first = max(2, min(n - 1, round(n * 0.30)))
+    placements = {first: trusted[0]}
+    if len(trusted) >= 2:
+        placements[max(first + 2, min(n - 1, round(n * 0.65)))] = trusted[1]
     result = []
     for i, paragraph in enumerate(paragraphs, 1):
         result.append(paragraph)
         image = placements.get(i)
         if image:
-            alt = re.sub(r"[\[\]\r\n]", "", image.get("selected_alt") or image.get("alt") or "News image")[:180]
+            alt = re.sub(r"[\[\]\r\n]", "", image.get("selected_alt") or image.get("alt") or image.get("caption") or "News image")[:180]
             result.append(f"![{alt}]({image['url']})")
     return "\n\n".join(result)
-
 
 def selected_images_json(images):
     return json.dumps([
         {
             "url": x.get("url", ""),
+            "source_url": x.get("source_url", ""),
             "alt": x.get("selected_alt") or x.get("alt") or x.get("caption") or "News image",
             "reason": x.get("reason", "Selected from the scraped article image set"),
         }
