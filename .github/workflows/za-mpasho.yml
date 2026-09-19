@@ -27,6 +27,7 @@ env:
   DESK_DOMAIN: "mpasho.co.ke"
   DESK_ROLE: "showbiz correspondent"
   DESK_AUDIENCE: "Kenyan entertainment and showbiz readers"
+  PYTHONPATH: scripts
 
 jobs:
   generate-and-publish:
