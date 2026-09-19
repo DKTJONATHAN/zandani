@@ -6,8 +6,8 @@ if __name__ == "__main__":
     run_writer({
         "author_name": "Jonathan Mwaniki",
         "category": "Opinions",
-        "source_url": "https://www.kenyans.co.ke/",
-        "source_domain": "kenyans.co.ke",
+        "source_url": "https://www.theelephant.info/opinion/",
+        "source_domain": "theelephant.info",
         "memory_file": ".github/memory_jonathan.json",
         "role": "opinion columnist",
         "audience": "Kenyan readers who follow public debate",
