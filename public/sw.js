@@ -1,16 +1,20 @@
 // ============================================
 // Za Ndani PWA Service Worker
-// Version: 1.3.0
+// Version: 1.3.1
 // ============================================
 
-const CACHE_NAME = 'zandani-v1.3.0';
+const CACHE_NAME = 'zandani-v1.3.1';
 const OFFLINE_URL = '/offline.html';
+// Neutral image placeholder — NOT the brand logo. Used only for same-origin
+// image failures so a missing local asset never becomes the site wordmark.
+const IMAGE_FALLBACK = '/images/default-og.jpg';
 
 const PRECACHE_ASSETS = [
   '/',
   '/offline.html',
   '/logo.png',
-  '/favicon.ico'
+  '/favicon.ico',
+  IMAGE_FALLBACK,
 ];
 
 const CACHEABLE_EXTENSIONS = [
@@ -52,6 +56,18 @@ function shouldCache(url) {
   }
 
   return false;
+}
+
+function isSameOrigin(urlHref) {
+  try {
+    return new URL(urlHref).origin === self.location.origin;
+  } catch (e) {
+    return false;
+  }
+}
+
+function isImageUrl(urlHref) {
+  return /\.(jpg|jpeg|png|gif|webp|svg)(\?|#|$)/i.test(urlHref);
 }
 
 self.addEventListener('install', (event) => {
@@ -127,8 +143,15 @@ self.addEventListener('fetch', (event) => {
           return networkResponse;
         });
       }).catch(() => {
-        if (url.href.match(/\.(jpg|jpeg|png|gif|webp)$/i)) {
-          return caches.match('/logo.png');
+        // NEVER substitute the brand logo for a failed article/remote image.
+        // Same-origin only: neutral placeholder. Cross-origin (ImgBB, etc.): fail closed.
+        if (isImageUrl(url.href) && isSameOrigin(url.href)) {
+          return caches.match(IMAGE_FALLBACK).then((fallback) => {
+            return fallback || new Response('', { status: 404, statusText: 'Image unavailable' });
+          });
+        }
+        if (isImageUrl(url.href)) {
+          return new Response('', { status: 404, statusText: 'Image unavailable' });
         }
         return new Response('Offline - content unavailable', { status: 404 });
       })
