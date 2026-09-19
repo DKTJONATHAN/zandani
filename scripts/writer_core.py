@@ -6,6 +6,9 @@ from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 from google import genai
 from google.genai import types
+from article_intelligence import extract_article_images, format_image_candidates, recent_angle_context
+from desk_writer import generate_article, record_angle
+from desk_image_pipeline import prepare_featured, prepare_images, inject_images
 from voice_guard import (
     BANNED_PHRASES,
     inject_know_if_missing,
@@ -316,7 +319,8 @@ def run_writer(cfg):
             if mentions_stale_year(body, now_eat.year):
                 print("Skipping, source body cites an older year (likely a retrospective/reshare)")
                 return "", ""
-            return body, og
+            images = extract_article_images(soup, url, soup.select_one("article") or soup.select_one("[itemprop='articleBody']") or soup.select_one("main") or soup, limit=12)
+            return body, og, images
         except Exception as e:
             print(f"Fetch article error: {e}")
             return "", ""
@@ -354,7 +358,7 @@ def run_writer(cfg):
         s = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
         return s[:80]
 
-    def write_post(title, body_md, style_name, source, image=""):
+    def write_post(title, body_md, style_name, source, image="", hosted_images=None, analysis=None):
         body_md = polish_body(body_md, category, title)
         seo = seo_fields(title, body_md, category, author)
         if not is_good_image(image):
@@ -363,6 +367,10 @@ def run_writer(cfg):
         path = os.path.join(posts_dir, f"{slug}.md")
         os.makedirs(posts_dir, exist_ok=True)
         img = image if is_good_image(image) else ""
+        selected = [{"url": x.get("url",""), "source_url": x.get("source_url",""), "alt": x.get("alt",""), "reason": "Verified source article-body image"} for x in (hosted_images or [])]
+        analysis = analysis or {}
+        gap = str(analysis.get("chosen_angle_gap","")).replace('"', "'")[:300]
+        angle_type = str(analysis.get("angle_type","")).replace('"', "'")[:100]
         fm = f"""---
 title: "{seo['title']}"
 slug: "{slugify(seo['title'])}"
@@ -374,6 +382,9 @@ author: "{author}"
 category: "{category}"
 county: "{seo['county']}"
 image: "{img}"
+selectedImages: {json.dumps(selected, ensure_ascii=False)}
+editorialAngle: "{gap}"
+angleType: "{angle_type}"
 readTime: {max(3, len(body_md.split()) // 180)}
 source: "{source}"
 stylePreset: "{style_name}"
@@ -401,28 +412,23 @@ schema: "NewsArticle"
         if should_skip_story(story["title"], category):
             print(f"Skip (not Kenya-first): {story['title'][:80]}")
             continue
-        body, image = fetch_article(story["url"])
+        body, image, images = fetch_article(story["url"])
         if len(body) < 200:
             print(f"Skip thin body: {story['title'][:60]}")
             continue
         if should_skip_story(story["title"] + " " + body, category):
             print(f"Skip body (not Kenya-first): {story['title'][:80]}")
             continue
-        avoid = " | ".join((memory.get("angle_history") or [])[-8:])
-        prompt = news_prompt(
-            author, full_date_str, style, story["title"], body,
-            role=role, opinion=opinion_mode, desk=category, avoid=avoid,
-        )
+        src = {"title": story["title"], "body": body, "images": images, "featured": image, "url": story["url"]}
         try:
-            article, model_used = call_gemini(prompt)
-            print(f"Used {model_used}")
+            result = generate_article(src, memory, author, role, category)
         except Exception as e:
-            print(f"Generation failed: {e}")
+            print(f"GAP generation failed: {e}")
             continue
+        article = polish_body(scrub_brands(result["body"]), category, result["title"])
         if model_skipped(article):
             print("Model skipped foreign story")
             continue
-        article = polish_body(scrub_brands(article), category, story["title"])
         if is_spam(article):
             print("Rejected: spam or too short")
             continue
@@ -430,16 +436,27 @@ schema: "NewsArticle"
         if h in memory.get("published_hashes", []):
             print("Duplicate hash, skip")
             continue
-        title = story["title"]
+        title = result["title"]
         if article.startswith("#"):
             first = article.split("\n", 1)[0]
             title = re.sub(r"^#+\s*", "", first).strip() or title
             article = article.split("\n", 1)[-1].strip()
-        write_post(title, article, style["name"], story["url"], image)
+        featured = prepare_featured(image, story["url"])
+        if not featured:
+            print("Rejected: no verified source OG image")
+            continue
+        hosted = prepare_images(images, story["url"], image)
+        if not hosted:
+            print("Rejected: no verified internal body image candidates")
+            continue
+        article_with_images = inject_images(article, hosted)
+        if article_with_images == article:
+            print("Rejected: internal images could not be inserted")
+            continue
+        write_post(title, article_with_images, result["style"]["name"], story["url"], featured, hosted, result["analysis"])
         memory.setdefault("published_hashes", []).append(h)
-        memory.setdefault("style_history", []).append(style["name"])
-        lede = " ".join(article.split()[:12])
-        memory.setdefault("angle_history", []).append(lede)
+        memory.setdefault("style_history", []).append(result["style"]["name"])
+        record_angle(memory, result, story["url"])
         save_memory(memory)
         print("Memory updated")
         written += 1
