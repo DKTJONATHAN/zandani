@@ -14,7 +14,6 @@ source: "https://www.kenyans.co.ke/news/127176-uhuru-says-his-life-becoming-too-
 stylePreset: "Desk Take"
 editorialAngle: "Examining the specific operational and rhetorical shift in how Uhuru handled public speaking following the accusations, choosing to curtail off-the-cuff remarks, alongside Ruto's recount of their past 10-for-10 election pact."
 angleType: "operational_and_tactical_response"
-selectedImages: [{"url": "https://i.ibb.co/chbxfzrr/c9e7bedd60db.webp", "alt": "Former President Uhuru Kenyatta, during a past engagement.", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/Q3V5zCK6/6d847d0a894c.webp", "alt": "Uhuru Ruto", "reason": "Selected from the scraped article image set"}, {"url": "https://i.ibb.co/1Gt4n2kb/75acf6264a9e.webp", "alt": "william-ruto-cap-off.jpg", "reason": "Selected from the scraped article image set"}]
 schema: "NewsArticle"
 ---
 
@@ -25,8 +24,6 @@ Speaking on Friday, September 18, at a burial ceremony in Gikuu, Kiharu Sub-Coun
 "And usually I speak off-cuff, and these days life is becoming too dangerous for me," Kenyatta told mourners. "So I have decided before the media goes to misinterpret my words. Thanks so much, that is all from the sponsor."
 
 The remarks follow persistent public accusations from President William Ruto, who has claimed that the retired leader is financing opposition activities. During a rally in Sindo, Homa Bay County, on Thursday, September 17, Ruto alleged that Kenyatta was backing opposition figures, including Nairobi Senator Edwin Sifuna.
-
-![Former President Uhuru Kenyatta, during a past engagement.](https://i.ibb.co/chbxfzrr/c9e7bedd60db.webp)
 
 "They are clueless because they have only been sent by their sponsor, who is bitter seeing us succeed where he failed," Ruto stated in Sindo.
 
