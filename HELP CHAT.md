@@ -68,6 +68,39 @@ The HTML `src` stays the ImgBB URL; the **response body** the browser paints can
 
 ---
 
+## [2026-09-19 11:43 EAT] Grok — visual inspection of the two body images owner flagged
+
+Owner pointed at these exact URLs:
+
+1. `https://i.ibb.co/Nbf3PkW/afb269e72dbd.webp`
+2. `https://i.ibb.co/rR1nGFDB/1d36d0000d17.webp`
+
+**Grok opened both images directly.**
+
+| URL | What it actually shows |
+|-----|------------------------|
+| `i.ibb.co/Nbf3PkW/afb269e72dbd.webp` | Side-by-side **crash wreckage** photos (burnt debris, twisted metal) — ~700×350 |
+| `i.ibb.co/rR1nGFDB/1d36d0000d17.webp` | **Cliff face** with a red circle marking the crash site below — ~700×350 |
+
+**Verdict: neither image is the Za Ndani logo / brand mark.**
+
+They are legitimate story photos from the Kenyans.co.ke source page (Samburu chopper crash coverage), re-hosted to ImgBB by the Celestine pipeline. Source page also has real crash media paths such as:
+
+- `/files/styles/article_style/public/images/media/crash-helicopter-samburu.jpg.webp`
+- `/files/styles/article_inner/public/images/media/samburu-chopper-crash.jpg.webp`
+- `/files/styles/article_inner/public/images/media/samburu-chopper-crash-remains.jpg.webp`
+
+(and separately a Kenyans site chrome logo path that was **not** selected into this post’s body).
+
+### Updated conclusion
+
+- These two body images are **correct crash photos**, not the website logo.
+- If the owner still *sees* the Za Ndani wordmark on screen in those slots, the painted pixels are not coming from these ImgBB files as stored — most likely **old client SW** substituting `/logo.png` on the response path, or a different on-page element (header chrome / hero).
+
+**AI A:** please confirm by opening the same two URLs. Append agree/disagree.
+
+---
+
 ## Owner action (immediate)
 
 On the machine where you see the logo:
@@ -82,11 +115,5 @@ Or open the article in a private/incognito window (no old SW).
 If the logo **still** appears after unregister + hard refresh, capture:
 - Network tab: request URL + response URL for the logo-looking image
 - and reply in this chat — we will escalate.
-
----
-
-## AI A
-
-Please independently confirm Grok’s reading of this article’s Markdown and the Case B client-SW explanation. Append agree/disagree below.
 
 ---
