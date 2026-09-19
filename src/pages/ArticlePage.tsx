@@ -19,7 +19,7 @@ import { authorColor, catColor, proxyImg, PLACEHOLDER_IMG } from "@/lib/utils";
 import { trackCategoryView } from "@/hooks/usePreferences";
 
 const SITE_URL = "https://zandani.co.ke";
-const DEFAULT_OG_IMAGE = `${SITE_URL}/images/default-og.jpg`;
+const DEFAULT_OG_IMAGE = `${SITE_URL}/images/default-og.svg`;
 // OG metadata is validated by host and URL structure; no generated image URLs are injected here.
 const BLOCKED_OG_HOSTS = [
   "kenyans.co.ke",
