@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-20T05:00:31.815Z",
+  "updated": "2026-09-20T05:08:26.607Z",
   "logs": [
+    {
+      "id": "entertainment-1789880906281",
+      "desk": "entertainment",
+      "scheduledFor": "2026-09-20 08:08:24",
+      "dispatchedAt": "2026-09-20T05:08:24.831Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "sports-1789880431539",
       "desk": "sports",
@@ -1986,16 +1996,6 @@
       "desk": "ghafla",
       "scheduledFor": "2026-09-18 00:44:44",
       "dispatchedAt": "2026-09-17T21:44:44.811Z",
-      "status": 422,
-      "ok": false,
-      "error": "Workflow does not have 'workflow_dispatch' trigger",
-      "source": "cron"
-    },
-    {
-      "id": "mpasho-1789680045188",
-      "desk": "mpasho",
-      "scheduledFor": "2026-09-18 00:20:44",
-      "dispatchedAt": "2026-09-17T21:20:44.739Z",
       "status": 422,
       "ok": false,
       "error": "Workflow does not have 'workflow_dispatch' trigger",
