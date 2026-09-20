@@ -612,10 +612,10 @@
     "cc2e9ac4b1fda4c33ea05dc99487a45d",
     "19fe73d950db5eae727967cb3d17d839",
     "8023dca0f2119cd0ecfadc0f6a8a1c00",
-    "b17e5e5a783473eb66b30bd3e2ab510f"
+    "b17e5e5a783473eb66b30bd3e2ab510f",
+    "487ea70e04758db33313f943d008c89a"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Desk Take",
     "Statement Report",
@@ -644,7 +644,8 @@
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -841,7 +842,8 @@
     "https://kenyans.co.ke/news/127210-elimu-bora-demands-helb-universities-fund-release-funds-first-years",
     "https://kenyans.co.ke/news/127213-ruto-css-make-fresh-appointments-epra-lapsset-and-other-state-boards",
     "https://kenyans.co.ke/news/127215-kra-lists-luxury-cars-november-auction-over-unpaid-customs-dues",
-    "https://kenyans.co.ke/news/127216-epra-adjusts-electricity-charges-ksh416-kwh-pass-through-costs-apply"
+    "https://kenyans.co.ke/news/127216-epra-adjusts-electricity-charges-ksh416-kwh-pass-through-costs-apply",
+    "https://kenyans.co.ke/news/127212-huduma-kenya-says-lost-birth-certificate-replacement-costs-ksh210"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -960,7 +962,8 @@
     "policy lag leaves university freshmen facing cash crunch ahead delayed funding shift",
     "broad based cabinet asserts control sweeping state board shakeup",
     "ten year backlog kra mombasa auction exposes long trapped port cargo",
-    "state slashes solar export credits shield grid green power surge"
+    "state slashes solar export credits shield grid green power surge",
+    "huduma locks ksh 210 birth certificate fee amid stalled tariff hike"
   ],
   "topic_keys": [
     "news tracker",
@@ -1302,6 +1305,15 @@
       "structure": "Regulatory shift lead -> Net-metering and 'dumping' penalty mechanics -> The context of KPLC's green energy freeze and battery mandates -> Breakdown of the immediate pass-through surcharge burden (thermal fuel and forex) -> Realignment of domestic consumer bands and EV tariffs.",
       "source": "https://kenyans.co.ke/news/127216-epra-adjusts-electricity-charges-ksh416-kwh-pass-through-costs-apply",
       "published_at": "2026-09-20T14:25:36Z"
+    },
+    {
+      "title": "Huduma Locks In Ksh 210 Birth Certificate Fee Amid Stalled Tariff Hike",
+      "angle": "Framing the Ksh 210 confirmation as an administrative relief against Interior's stalled Ksh 1,000 tariff hike, while spotlighting the persistent operational friction: unlike first-time applicants who download digitally, replacement seekers remain tethered to a mandatory two-week wait and physical desk pickup.",
+      "angle_type": "practical change",
+      "opening": "Hard-news lead anchoring on the official confirmation of the Ksh 210 statutory fee and the hybrid collection bottleneck.",
+      "structure": "Hard-news lead on fee and protocol -> Context of contested Ksh 1,000 Interior hike vs Ksh 650 previous rate -> Operational mechanics (digital application vs physical pickup) -> Asymmetry between first-time digital generation and lost document protocols -> Pointed close on verification hurdles.",
+      "source": "https://kenyans.co.ke/news/127212-huduma-kenya-says-lost-birth-certificate-replacement-costs-ksh210",
+      "published_at": "2026-09-20T15:02:03Z"
     }
   ]
 }
