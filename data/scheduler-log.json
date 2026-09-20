@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-20T19:44:28.386Z",
+  "updated": "2026-09-20T20:00:29.031Z",
   "logs": [
+    {
+      "id": "news-1789934428338",
+      "desk": "news",
+      "scheduledFor": "2026-09-20 23:00:26",
+      "dispatchedAt": "2026-09-20T20:00:26.577Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "ghafla-1789933468084",
       "desk": "ghafla",
@@ -1986,16 +1996,6 @@
       "desk": "news",
       "scheduledFor": "2026-09-18 16:00:58",
       "dispatchedAt": "2026-09-18T13:00:58.944Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
-      "source": "cron"
-    },
-    {
-      "id": "ghafla-1789731892696",
-      "desk": "ghafla",
-      "scheduledFor": "2026-09-18 14:44:51",
-      "dispatchedAt": "2026-09-18T11:44:51.575Z",
       "status": 204,
       "ok": true,
       "error": null,
