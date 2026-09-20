@@ -608,10 +608,10 @@
     "b22eefcd7628e7da80807c74b35a72d7",
     "b6e32aae527021f04f138a48208663b5",
     "6e02ee594f8748e5ee199b53ab4423d5",
-    "baf2e499bec2ba80a1f7915926f7e911"
+    "baf2e499bec2ba80a1f7915926f7e911",
+    "cc2e9ac4b1fda4c33ea05dc99487a45d"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Desk Take",
     "Hard News Lead",
@@ -640,7 +640,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -833,7 +834,8 @@
     "https://kenyans.co.ke/news/127203-uda-homa-bay-chairperson-attacked-official-vehicle-torched",
     "https://kenyans.co.ke/news/127204-gachagua-claims-ruto-plans-ksh82-trillion-us-minerals-deal",
     "https://kenyans.co.ke/news/127205-cs-mugaa-explains-why-some-kenyans-face-high-water-bills",
-    "https://kenyans.co.ke/news/127206-agnes-ngetich-breaks-women-only-half-marathon-world-record-copenhagen"
+    "https://kenyans.co.ke/news/127206-agnes-ngetich-breaks-women-only-half-marathon-world-record-copenhagen",
+    "https://kenyans.co.ke/news/127210-elimu-bora-demands-helb-universities-fund-release-funds-first-years"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -948,7 +950,8 @@
     "homa bay arson attack tests police pledge block violent politicians ballots",
     "political battle erupts kwale ksh niobium reserves targets minerals",
     "unfinished permits trigger fold billing multiplier water abstractors mugaa warns",
-    "solo run gun slices one second off half marathon mark"
+    "solo run gun slices one second off half marathon mark",
+    "policy lag leaves university freshmen facing cash crunch ahead delayed funding shift"
   ],
   "topic_keys": [
     "news tracker",
@@ -1254,6 +1257,15 @@
       "structure": "Tactical front-running lead -> Split breakdown against Jepchirchir's 2020 mark -> The mechanics of women-only racing standards -> Dual 2026 crown context -> Wider Copenhagen medal return and the 2029 hosting momentum.",
       "source": "https://kenyans.co.ke/news/127206-agnes-ngetich-breaks-women-only-half-marathon-world-record-copenhagen",
       "published_at": "2026-09-20T10:24:53Z"
+    },
+    {
+      "title": "Policy Lag Leaves University Freshmen Facing Cash Crunch Ahead of Delayed Funding Shift",
+      "angle": "Reframing the story around the operational gap and unexpected cash crunch facing September freshmen, caused by the legislative delay of the Tertiary Education, Placement and Funding Bill, 2026 after public promises of zero out-of-pocket education costs.",
+      "angle_type": "consequence",
+      "opening": "Policy-lag lead highlighting the financial squeeze on incoming freshmen.",
+      "structure": "Policy stall lead -> Immediate upkeep crisis on campus -> Details of Elimu Bora's demand for interim stipends -> Ministry's temporary fallback to the old model -> Breakdown of the pending 2026 legislation -> Closing operational lookahead on parliamentary timelines.",
+      "source": "https://kenyans.co.ke/news/127210-elimu-bora-demands-helb-universities-fund-release-funds-first-years",
+      "published_at": "2026-09-20T12:02:04Z"
     }
   ]
 }
