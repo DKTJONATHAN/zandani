@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-20T20:00:29.031Z",
+  "updated": "2026-09-20T21:00:28.414Z",
   "logs": [
+    {
+      "id": "news-1789938028124",
+      "desk": "news",
+      "scheduledFor": "2026-09-21 00:00:26",
+      "dispatchedAt": "2026-09-20T21:00:26.556Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "news-1789934428338",
       "desk": "news",
@@ -1986,16 +1996,6 @@
       "desk": "opinions",
       "scheduledFor": "2026-09-18 16:00:58",
       "dispatchedAt": "2026-09-18T13:01:03.558Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
-      "source": "cron"
-    },
-    {
-      "id": "news-1789736460368",
-      "desk": "news",
-      "scheduledFor": "2026-09-18 16:00:58",
-      "dispatchedAt": "2026-09-18T13:00:58.944Z",
       "status": 204,
       "ok": true,
       "error": null,
