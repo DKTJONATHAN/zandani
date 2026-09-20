@@ -609,10 +609,10 @@
     "b6e32aae527021f04f138a48208663b5",
     "6e02ee594f8748e5ee199b53ab4423d5",
     "baf2e499bec2ba80a1f7915926f7e911",
-    "cc2e9ac4b1fda4c33ea05dc99487a45d"
+    "cc2e9ac4b1fda4c33ea05dc99487a45d",
+    "19fe73d950db5eae727967cb3d17d839"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
@@ -641,7 +641,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -835,7 +836,8 @@
     "https://kenyans.co.ke/news/127204-gachagua-claims-ruto-plans-ksh82-trillion-us-minerals-deal",
     "https://kenyans.co.ke/news/127205-cs-mugaa-explains-why-some-kenyans-face-high-water-bills",
     "https://kenyans.co.ke/news/127206-agnes-ngetich-breaks-women-only-half-marathon-world-record-copenhagen",
-    "https://kenyans.co.ke/news/127210-elimu-bora-demands-helb-universities-fund-release-funds-first-years"
+    "https://kenyans.co.ke/news/127210-elimu-bora-demands-helb-universities-fund-release-funds-first-years",
+    "https://kenyans.co.ke/news/127213-ruto-css-make-fresh-appointments-epra-lapsset-and-other-state-boards"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -951,7 +953,8 @@
     "political battle erupts kwale ksh niobium reserves targets minerals",
     "unfinished permits trigger fold billing multiplier water abstractors mugaa warns",
     "solo run gun slices one second off half marathon mark",
-    "policy lag leaves university freshmen facing cash crunch ahead delayed funding shift"
+    "policy lag leaves university freshmen facing cash crunch ahead delayed funding shift",
+    "broad based cabinet asserts control sweeping state board shakeup"
   ],
   "topic_keys": [
     "news tracker",
@@ -1266,6 +1269,15 @@
       "structure": "Policy stall lead -> Immediate upkeep crisis on campus -> Details of Elimu Bora's demand for interim stipends -> Ministry's temporary fallback to the old model -> Breakdown of the pending 2026 legislation -> Closing operational lookahead on parliamentary timelines.",
       "source": "https://kenyans.co.ke/news/127210-elimu-bora-demands-helb-universities-fund-release-funds-first-years",
       "published_at": "2026-09-20T12:02:04Z"
+    },
+    {
+      "title": "Broad-Based Cabinet Asserts Control in Sweeping State Board Shakeup",
+      "angle": "The administrative transition of Kenya's restructured 'broad-based' executive from high-level cabinet changes into direct, statutory control over key economic and regulatory parastatals. By focusing on how newly appointed Cabinet Secretaries (particularly from the broad-based government, such as Mbadi and Wandayi) are now actively exercising their statutory powers to reshape boards like EPRA, RBA, and KNBS, we highlight the functional execution of political realignment.",
+      "angle_type": "practical change",
+      "opening": "A analytical, action-oriented lead anchoring the story on the practical exercise of statutory appointment powers by the newly reconstituted Cabinet to secure administrative control of key state corporations.",
+      "structure": "Introduction on administrative consolidation -> Broad-based Cabinet ministers (Mbadi, Wandayi) executing powers over key economic regulators (RBA, KNBS, EPRA) -> Presidential appointments to critical infrastructure and financial watchdogs (LAPSSET, IRA) -> Sector-specific resets across Tourism, Water, and Education -> Judicial and correctional board changes -> Conclusion on transition from cabinet-level shifts to parastatal management.",
+      "source": "https://kenyans.co.ke/news/127213-ruto-css-make-fresh-appointments-epra-lapsset-and-other-state-boards",
+      "published_at": "2026-09-20T13:02:05Z"
     }
   ]
 }
