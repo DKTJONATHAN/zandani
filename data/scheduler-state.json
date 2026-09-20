@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T23:08:40.497Z",
+  "updated": "2026-09-20T23:20:40.383Z",
   "desks": {
     "news": {
       "lastTriggeredAt": "2026-09-20T23:00:50.249Z",
@@ -51,7 +51,7 @@
       "lastSlot": "2026-09-20T16:00"
     },
     "mpasho": {
-      "lastTriggeredAt": "2026-09-20T21:20:39.372Z",
+      "lastTriggeredAt": "2026-09-20T23:20:37.376Z",
       "lastStatus": "ok",
       "lastError": null,
       "lastSource": "cron",
