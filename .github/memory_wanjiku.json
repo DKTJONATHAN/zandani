@@ -12,7 +12,8 @@
     "d2389082bfaf5556900aace49435dcf96332357e3c1e9253aee6cfd893520986",
     "f3f31fdad13f0313cdddec1c13d163ff5969fd2fa3e60a25ec6e511f2b10bd84",
     "5311b53865472b3af506d7de77908d652e58065b708697ea448cfacb41e25b43",
-    "dadc90002f0f5ad47dd4d8ef607ba54ea20ae632b2717e12547b42501e0c60cb"
+    "dadc90002f0f5ad47dd4d8ef607ba54ea20ae632b2717e12547b42501e0c60cb",
+    "e77b2d9463cd0a091f40c19cec4d3f58a9560e4556598407c827ef58d9490acc"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -27,7 +28,8 @@
     "https://www.ghafla.co.ke/controller-of-budget-orders-increased-spending-audits-ahead-of-2027-polls/",
     "https://www.ghafla.co.ke/uhuru-kenyatta-breaks-silence-on-government-attacks-says-life-is-becoming-too-dangerous/",
     "https://www.ghafla.co.ke/villages-see-the-light-as-electricity-transforms-rural-kenya/",
-    "https://www.ghafla.co.ke/over-270000-newborns-registered-in-two-months-as-e-birth-system-gains-nationwide-momentum/"
+    "https://www.ghafla.co.ke/over-270000-newborns-registered-in-two-months-as-e-birth-system-gains-nationwide-momentum/",
+    "https://www.ghafla.co.ke/trevor-ombija-claims-gachagua-sought-his-firing-following-heated-interview/"
   ],
   "published_angles": [
     {
@@ -117,6 +119,14 @@
       "opening": "Bedside operational lead highlighting the practical end of manual birth notification paperwork in maternity wards.",
       "structure": "Bedside administrative shift -> numerical scale of the 60-day rollout -> technical integration between healthcare facilities and civil registries -> downstream benefits for national identity indexing and maternal planning.",
       "source": "https://www.ghafla.co.ke/over-270000-newborns-registered-in-two-months-as-e-birth-system-gains-nationwide-momentum/"
+    },
+    {
+      "title": "Trevor Ombija\u2019s Podium Drama Backfires After Boss Exposes Campaign-Trail \u2018Mistake\u2019",
+      "angle": "Focusing on how Ombija's campaign-trail attempt to frame himself as a victim of political persecution backfired when RMS boss Linus Kaikai called out the claim, forcing the anchor to privately admit it was an off-the-cuff error.",
+      "angle_type": "campaign trail exaggeration vs editorial reality check",
+      "opening": "Personality lead opening on the anchor's Nyakach rally claim followed immediately by the sharp editorial correction from his newsroom boss.",
+      "structure": "Rally claim hook -> Newsroom chief refutation & admission details -> Context of the March 2026 Monday Report confrontation -> Dual-role tension between newsroom anchoring and parliamentary ambitions.",
+      "source": "https://www.ghafla.co.ke/trevor-ombija-claims-gachagua-sought-his-firing-following-heated-interview/"
     }
   ],
   "style_history": [
