@@ -604,10 +604,10 @@
     "5eeae60eb9a49ef3984a8656ce9b8ed9",
     "f380b236a84af53e6236d6b64ec633c9",
     "8e90ae77bd20d2692603aab03cac7333",
-    "73f43d3b4ca5449f76aaf8fdc6b13742"
+    "73f43d3b4ca5449f76aaf8fdc6b13742",
+    "b22eefcd7628e7da80807c74b35a72d7"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Desk Take",
@@ -636,7 +636,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -825,7 +826,8 @@
     "https://kenyans.co.ke/news/127197-court-rules-residents-must-prove-excessive-noise-suing-churches-bars",
     "https://kenyans.co.ke/news/127200-us-energy-secretary-questions-kenya-coal-funding-trump-govt-signals-support",
     "https://kenyans.co.ke/news/127201-us-warns-flight-cancellations-airspace-closures-amid-middle-east-tensions",
-    "https://kenyans.co.ke/news/127198-ruto-meet-dangote-unga-over-ksh22-trillion-lamu-refinery"
+    "https://kenyans.co.ke/news/127198-ruto-meet-dangote-unga-over-ksh22-trillion-lamu-refinery",
+    "https://kenyans.co.ke/news/127203-uda-homa-bay-chairperson-attacked-official-vehicle-torched"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -936,7 +938,8 @@
     "audits case nairobi court raises evidentiary bar suing noisy churches bars",
     "washington attacks bank boycott coal but offers money",
     "security alert heightens protection duty nairobi red sea trade vulnerability grows",
-    "ruto mounts day york capital sprint ksh trillion lamu refinery"
+    "ruto mounts day york capital sprint ksh trillion lamu refinery",
+    "homa bay arson attack tests police pledge block violent politicians ballots"
   ],
   "topic_keys": [
     "news tracker",
@@ -1206,6 +1209,15 @@
       "structure": "Groundbreaking deadline lead -> Financial roundtable and Dangote execution context -> Project capacity and economic scale -> Parallel AI/tech diplomatic track -> Impending operational timeline.",
       "source": "https://kenyans.co.ke/news/127198-ruto-meet-dangote-unga-over-ksh22-trillion-lamu-refinery",
       "published_at": "2026-09-20T06:02:13Z"
+    },
+    {
+      "title": "Homa Bay Arson Attack Tests Police Pledge to Block Violent Politicians From Ballots",
+      "angle": "Framing the arson attack as an immediate operational test of the police's pledge to submit violent political actors to the IEBC for electoral disqualification.",
+      "angle_type": "institutional pressure",
+      "opening": "Focusing directly on the enforcement pressure facing police as a targeted arson attack against a ruling party grassroots chair tests law enforcement's promised IEBC sanction pipeline.",
+      "structure": "Enforcement mandate lead -> Saturday night arson specifics -> Regional security context following the August 16 fatalities -> Regulatory mechanics of the police-IEBC referral protocol -> Unresolved investigation status.",
+      "source": "https://kenyans.co.ke/news/127203-uda-homa-bay-chairperson-attacked-official-vehicle-torched",
+      "published_at": "2026-09-20T08:02:07Z"
     }
   ]
 }
