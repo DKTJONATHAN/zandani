@@ -602,10 +602,10 @@
     "acf483a1ef84f22f8df8ffea4e43a420",
     "c7356477d6554dd7b000b159a3bea618",
     "5eeae60eb9a49ef3984a8656ce9b8ed9",
-    "f380b236a84af53e6236d6b64ec633c9"
+    "f380b236a84af53e6236d6b64ec633c9",
+    "8e90ae77bd20d2692603aab03cac7333"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -634,7 +634,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -821,7 +822,8 @@
     "https://kenyans.co.ke/news/127194-kenya-signs-deal-swedish-firm-upgrade-jkia-air-traffic-systems",
     "https://kenyans.co.ke/news/127195-ntsa-clarifies-removal-damaged-vehicles-govt-database",
     "https://kenyans.co.ke/news/127197-court-rules-residents-must-prove-excessive-noise-suing-churches-bars",
-    "https://kenyans.co.ke/news/127200-us-energy-secretary-questions-kenya-coal-funding-trump-govt-signals-support"
+    "https://kenyans.co.ke/news/127200-us-energy-secretary-questions-kenya-coal-funding-trump-govt-signals-support",
+    "https://kenyans.co.ke/news/127201-us-warns-flight-cancellations-airspace-closures-amid-middle-east-tensions"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -930,7 +932,8 @@
     "beyond concrete swedish firm brought unlock jkia constrained airspace",
     "ntsa leaves scrapped cars register until owners file papers",
     "audits case nairobi court raises evidentiary bar suing noisy churches bars",
-    "washington attacks bank boycott coal but offers money"
+    "washington attacks bank boycott coal but offers money",
+    "security alert heightens protection duty nairobi red sea trade vulnerability grows"
   ],
   "topic_keys": [
     "news tracker",
@@ -1182,6 +1185,15 @@
       "structure": "Rhetoric-versus-capital lead -> Wright's specific critique of multilateral bank boycotts at CSIS -> The explicit absence of U.S. funding guarantees -> Kenya's actual coastal reality: shifting from coal to the Dangote 1,000MW Lamu LNG model -> Regional gas supply logistics and structural hurdles.",
       "source": "https://kenyans.co.ke/news/127200-us-energy-secretary-questions-kenya-coal-funding-trump-govt-signals-support",
       "published_at": "2026-09-20T05:02:01Z"
+    },
+    {
+      "title": "US Security Alert Heightens Protection Duty for Nairobi as Red Sea Trade Vulnerability Grows",
+      "angle": "Reframing the global alert around East Africa's dual exposure: the heightened protection mandate required for Nairobi's high-value American diplomatic installations alongside the economic risks facing Kenya's Red Sea supply chains.",
+      "angle_type": "consequence",
+      "opening": "Direct focus on the dual operational impact\u2014security vulnerability for host nations in East Africa and economic exposure along key maritime trade lanes.",
+      "structure": "Operational exposure lead -> Details of U.S. global advisory and facility warnings -> Airspace and transit disruptions -> Integration with Kenya's Foreign Affairs statement on Red Sea trade -> Closing on unresolved maritime and security monitoring.",
+      "source": "https://kenyans.co.ke/news/127201-us-warns-flight-cancellations-airspace-closures-amid-middle-east-tensions",
+      "published_at": "2026-09-20T05:37:04Z"
     }
   ]
 }
