@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-20T23:20:39.204Z",
+  "updated": "2026-09-20T23:44:38.104Z",
   "logs": [
+    {
+      "id": "ghafla-1789947877866",
+      "desk": "ghafla",
+      "scheduledFor": "2026-09-21 02:44:36",
+      "dispatchedAt": "2026-09-20T23:44:36.571Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "mpasho-1789946438981",
       "desk": "mpasho",
@@ -1990,16 +2000,6 @@
       "ok": true,
       "error": null,
       "source": "manual"
-    },
-    {
-      "id": "diano-1789740062439",
-      "desk": "diano",
-      "scheduledFor": "2026-09-18 17:00:57",
-      "dispatchedAt": "2026-09-18T14:01:01.246Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
-      "source": "cron"
     }
   ]
 }
