@@ -606,10 +606,10 @@
     "8e90ae77bd20d2692603aab03cac7333",
     "73f43d3b4ca5449f76aaf8fdc6b13742",
     "b22eefcd7628e7da80807c74b35a72d7",
-    "b6e32aae527021f04f138a48208663b5"
+    "b6e32aae527021f04f138a48208663b5",
+    "6e02ee594f8748e5ee199b53ab4423d5"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -638,7 +638,8 @@
     "Statement Report",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -829,7 +830,8 @@
     "https://kenyans.co.ke/news/127201-us-warns-flight-cancellations-airspace-closures-amid-middle-east-tensions",
     "https://kenyans.co.ke/news/127198-ruto-meet-dangote-unga-over-ksh22-trillion-lamu-refinery",
     "https://kenyans.co.ke/news/127203-uda-homa-bay-chairperson-attacked-official-vehicle-torched",
-    "https://kenyans.co.ke/news/127204-gachagua-claims-ruto-plans-ksh82-trillion-us-minerals-deal"
+    "https://kenyans.co.ke/news/127204-gachagua-claims-ruto-plans-ksh82-trillion-us-minerals-deal",
+    "https://kenyans.co.ke/news/127205-cs-mugaa-explains-why-some-kenyans-face-high-water-bills"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -942,7 +944,8 @@
     "security alert heightens protection duty nairobi red sea trade vulnerability grows",
     "ruto mounts day york capital sprint ksh trillion lamu refinery",
     "homa bay arson attack tests police pledge block violent politicians ballots",
-    "political battle erupts kwale ksh niobium reserves targets minerals"
+    "political battle erupts kwale ksh niobium reserves targets minerals",
+    "unfinished permits trigger fold billing multiplier water abstractors mugaa warns"
   ],
   "topic_keys": [
     "news tracker",
@@ -1230,6 +1233,15 @@
       "structure": "Contested Kwale reserve lead -> Summary of Gachagua's allegations and valuation figures -> Direct quotes on UNGA trip narrative -> Context of US critical mineral strategy and Frank Garcia's statements -> State tender background for Mrima Hill niobium -> Parallel resource disputes (Lake Magadi) -> Closing on pending diplomatic meetings and regulatory oversight demands.",
       "source": "https://kenyans.co.ke/news/127204-gachagua-claims-ruto-plans-ksh82-trillion-us-minerals-deal",
       "published_at": "2026-09-20T09:02:04Z"
+    },
+    {
+      "title": "Unfinished Permits Trigger 5-Fold Billing Multiplier for Water Abstractors, CS Mugaa Warns",
+      "angle": "Focusing on the financial penalty gap\u2014a fivefold tariff jump from Ksh 2 to Ksh 10 per 1,000 litres\u2014imposed on raw water abstractors who abandon the permit process halfway, while distinguishing regulatory abstraction fees from county tap water bills.",
+      "angle_type": "money",
+      "opening": "Attribution-first statement identifying how unfinalized abstraction paperwork triggers default estimated billing at maximum penalty tariffs.",
+      "structure": "Financial penalty lead -> Breakdown of estimated default rates versus metered tariffs -> Technological shift to GSM smart meters -> Separation of WRA raw water charges from county utility bills -> Enforcement context.",
+      "source": "https://kenyans.co.ke/news/127205-cs-mugaa-explains-why-some-kenyans-face-high-water-bills",
+      "published_at": "2026-09-20T10:02:49Z"
     }
   ]
 }
