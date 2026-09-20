@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-20T06:00:33.213Z",
+  "updated": "2026-09-20T06:00:37.732Z",
   "logs": [
+    {
+      "id": "diano-1789884037581",
+      "desk": "diano",
+      "scheduledFor": "2026-09-20 09:00:31",
+      "dispatchedAt": "2026-09-20T06:00:35.925Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "news-1789884033016",
       "desk": "news",
@@ -1986,16 +1996,6 @@
       "desk": "ghafla",
       "scheduledFor": "2026-09-18 02:44:44",
       "dispatchedAt": "2026-09-17T23:44:44.729Z",
-      "status": 422,
-      "ok": false,
-      "error": "Workflow does not have 'workflow_dispatch' trigger",
-      "source": "cron"
-    },
-    {
-      "id": "mpasho-1789687245254",
-      "desk": "mpasho",
-      "scheduledFor": "2026-09-18 02:20:44",
-      "dispatchedAt": "2026-09-17T23:20:44.779Z",
       "status": 422,
       "ok": false,
       "error": "Workflow does not have 'workflow_dispatch' trigger",
