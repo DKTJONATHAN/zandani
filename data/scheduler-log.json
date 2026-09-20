@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-20T18:00:34.426Z",
+  "updated": "2026-09-20T19:00:28.756Z",
   "logs": [
+    {
+      "id": "news-1789930828046",
+      "desk": "news",
+      "scheduledFor": "2026-09-20 22:00:26",
+      "dispatchedAt": "2026-09-20T19:00:26.560Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "sports-1789927234126",
       "desk": "sports",
@@ -1986,16 +1996,6 @@
       "desk": "africa",
       "scheduledFor": "2026-09-18 14:00:54",
       "dispatchedAt": "2026-09-18T11:00:57.774Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
-      "source": "cron"
-    },
-    {
-      "id": "news-1789729255623",
-      "desk": "news",
-      "scheduledFor": "2026-09-18 14:00:54",
-      "dispatchedAt": "2026-09-18T11:00:54.230Z",
       "status": 204,
       "ok": true,
       "error": null,
