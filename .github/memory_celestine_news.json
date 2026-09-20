@@ -614,10 +614,10 @@
     "8023dca0f2119cd0ecfadc0f6a8a1c00",
     "b17e5e5a783473eb66b30bd3e2ab510f",
     "487ea70e04758db33313f943d008c89a",
-    "3862901ff32689a06cbab7712b79159d"
+    "3862901ff32689a06cbab7712b79159d",
+    "0539a91b418148f34f0d1c78ede3dd18"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -646,7 +646,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -845,7 +846,8 @@
     "https://kenyans.co.ke/news/127215-kra-lists-luxury-cars-november-auction-over-unpaid-customs-dues",
     "https://kenyans.co.ke/news/127216-epra-adjusts-electricity-charges-ksh416-kwh-pass-through-costs-apply",
     "https://kenyans.co.ke/news/127212-huduma-kenya-says-lost-birth-certificate-replacement-costs-ksh210",
-    "https://kenyans.co.ke/news/127218-two-kenyans-prepare-manaslu-summit-after-climbers-killed-avalanche"
+    "https://kenyans.co.ke/news/127218-two-kenyans-prepare-manaslu-summit-after-climbers-killed-avalanche",
+    "https://kenyans.co.ke/news/127024-explained-why-bcg-vaccine-leaves-permanent-scar"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -966,7 +968,8 @@
     "ten year backlog kra mombasa auction exposes long trapped port cargo",
     "state slashes solar export credits shield grid green power surge",
     "huduma locks ksh 210 birth certificate fee amid stalled tariff hike",
-    "snowstorms pin down climbers manaslu himalayan fatalities rise"
+    "snowstorms pin down climbers manaslu himalayan fatalities rise",
+    "intradermal injection mechanics bcg scar proves skin reaction immune efficacy"
   ],
   "topic_keys": [
     "news tracker",
@@ -1326,6 +1329,15 @@
       "structure": "High-camp weather deadlock -> Details of recent avalanche and seasonal mortality -> Search-and-rescue environmental limits -> Kenyan high-altitude legacy context.",
       "source": "https://kenyans.co.ke/news/127218-two-kenyans-prepare-manaslu-summit-after-climbers-killed-avalanche",
       "published_at": "2026-09-20T16:04:40Z"
+    },
+    {
+      "title": "Intradermal Injection Mechanics: Why the BCG Scar Proves Skin Reaction, Not Immune Efficacy",
+      "angle": "Focusing on the delivery mechanics of intradermal administration and debunking the clinical misconception that an absent scar signifies failed immunization.",
+      "angle_type": "practical change",
+      "opening": "Mechanics-first lead linking intradermal tissue inflammation directly to the physical scar, establishing early that skin marking is an administrative artifact rather than an absolute measure of immunity.",
+      "structure": "Dermal injection lead -> Ulceration and tissue healing cycle -> Diagnostic vs immunologic limits (WHO findings) -> Clinical role in high-burden TB protection -> Ending on administration variability.",
+      "source": "https://kenyans.co.ke/news/127024-explained-why-bcg-vaccine-leaves-permanent-scar",
+      "published_at": "2026-09-20T17:02:05Z"
     }
   ]
 }
