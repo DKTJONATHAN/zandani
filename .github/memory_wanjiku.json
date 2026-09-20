@@ -13,7 +13,8 @@
     "f3f31fdad13f0313cdddec1c13d163ff5969fd2fa3e60a25ec6e511f2b10bd84",
     "5311b53865472b3af506d7de77908d652e58065b708697ea448cfacb41e25b43",
     "dadc90002f0f5ad47dd4d8ef607ba54ea20ae632b2717e12547b42501e0c60cb",
-    "e77b2d9463cd0a091f40c19cec4d3f58a9560e4556598407c827ef58d9490acc"
+    "e77b2d9463cd0a091f40c19cec4d3f58a9560e4556598407c827ef58d9490acc",
+    "dffd3cdfa26a255c33feb03468a5a07cc3689820b2d9074b6744d8e543a51fe1"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -29,7 +30,8 @@
     "https://www.ghafla.co.ke/uhuru-kenyatta-breaks-silence-on-government-attacks-says-life-is-becoming-too-dangerous/",
     "https://www.ghafla.co.ke/villages-see-the-light-as-electricity-transforms-rural-kenya/",
     "https://www.ghafla.co.ke/over-270000-newborns-registered-in-two-months-as-e-birth-system-gains-nationwide-momentum/",
-    "https://www.ghafla.co.ke/trevor-ombija-claims-gachagua-sought-his-firing-following-heated-interview/"
+    "https://www.ghafla.co.ke/trevor-ombija-claims-gachagua-sought-his-firing-following-heated-interview/",
+    "https://www.ghafla.co.ke/gachagua-accuses-ruto-of-seeking-to-divide-linda-mwananchi/"
   ],
   "published_angles": [
     {
@@ -127,6 +129,14 @@
       "opening": "Personality lead opening on the anchor's Nyakach rally claim followed immediately by the sharp editorial correction from his newsroom boss.",
       "structure": "Rally claim hook -> Newsroom chief refutation & admission details -> Context of the March 2026 Monday Report confrontation -> Dual-role tension between newsroom anchoring and parliamentary ambitions.",
       "source": "https://www.ghafla.co.ke/trevor-ombija-claims-gachagua-sought-his-firing-following-heated-interview/"
+    },
+    {
+      "title": "Rigathi Gachagua\u2019s New Role: The Transatlantic \u2018Uncle\u2019 Trying to Save Sifuna and Babu Owino\u2019s Political Bromance",
+      "angle": "Gachagua\u2019s sudden stylistic pivot from a hardline majoritarian politician to a protective, pan-ethnic 'political uncle' offering paternalistic survival tips and relationship advice to Nairobi's loudest young opposition stars.",
+      "angle_type": "personality rebranding and political mentorship dynamics",
+      "opening": "Open directly on Gachagua's unexpected rebranding from a fierce defender of government 'shareholders' to a concerned elder advising younger opposition leaders.",
+      "structure": "Lead on Gachagua's paternalistic phone calls from the US -> Detail the specific 'you young guys' warning dynamic -> Unpack his sudden advocacy for Luo-Luhya and Luo-Kikuyu unity -> Contextualize the internal Sifuna-Babu friction -> Close on the unresolved tension of whether these young firebrands will accept his long-distance mentorship.",
+      "source": "https://www.ghafla.co.ke/gachagua-accuses-ruto-of-seeking-to-divide-linda-mwananchi/"
     }
   ],
   "style_history": [
