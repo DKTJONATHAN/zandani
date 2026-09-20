@@ -605,10 +605,10 @@
     "f380b236a84af53e6236d6b64ec633c9",
     "8e90ae77bd20d2692603aab03cac7333",
     "73f43d3b4ca5449f76aaf8fdc6b13742",
-    "b22eefcd7628e7da80807c74b35a72d7"
+    "b22eefcd7628e7da80807c74b35a72d7",
+    "b6e32aae527021f04f138a48208663b5"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Desk Take",
     "Hard News Lead",
@@ -637,7 +637,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -827,7 +828,8 @@
     "https://kenyans.co.ke/news/127200-us-energy-secretary-questions-kenya-coal-funding-trump-govt-signals-support",
     "https://kenyans.co.ke/news/127201-us-warns-flight-cancellations-airspace-closures-amid-middle-east-tensions",
     "https://kenyans.co.ke/news/127198-ruto-meet-dangote-unga-over-ksh22-trillion-lamu-refinery",
-    "https://kenyans.co.ke/news/127203-uda-homa-bay-chairperson-attacked-official-vehicle-torched"
+    "https://kenyans.co.ke/news/127203-uda-homa-bay-chairperson-attacked-official-vehicle-torched",
+    "https://kenyans.co.ke/news/127204-gachagua-claims-ruto-plans-ksh82-trillion-us-minerals-deal"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -939,7 +941,8 @@
     "washington attacks bank boycott coal but offers money",
     "security alert heightens protection duty nairobi red sea trade vulnerability grows",
     "ruto mounts day york capital sprint ksh trillion lamu refinery",
-    "homa bay arson attack tests police pledge block violent politicians ballots"
+    "homa bay arson attack tests police pledge block violent politicians ballots",
+    "political battle erupts kwale ksh niobium reserves targets minerals"
   ],
   "topic_keys": [
     "news tracker",
@@ -1218,6 +1221,15 @@
       "structure": "Enforcement mandate lead -> Saturday night arson specifics -> Regional security context following the August 16 fatalities -> Regulatory mechanics of the police-IEBC referral protocol -> Unresolved investigation status.",
       "source": "https://kenyans.co.ke/news/127203-uda-homa-bay-chairperson-attacked-official-vehicle-torched",
       "published_at": "2026-09-20T08:02:07Z"
+    },
+    {
+      "title": "Political Battle Erupts Over Kwale\u2019s Ksh 8.2T Niobium Reserves as US Targets Kenyan Minerals",
+      "angle": "Focusing on the high-stakes political and regulatory clash over Kwale's Mrima Hill niobium reserves, framing the opposition allegations within Kenya's active commercial tender process and Washington's critical minerals drive in East Africa.",
+      "angle_type": "institutional pressure",
+      "opening": "Focusing on the contested commercial and political future of Kwale's critical mineral reserves as President Ruto's US travel sparks debate over foreign concessions.",
+      "structure": "Contested Kwale reserve lead -> Summary of Gachagua's allegations and valuation figures -> Direct quotes on UNGA trip narrative -> Context of US critical mineral strategy and Frank Garcia's statements -> State tender background for Mrima Hill niobium -> Parallel resource disputes (Lake Magadi) -> Closing on pending diplomatic meetings and regulatory oversight demands.",
+      "source": "https://kenyans.co.ke/news/127204-gachagua-claims-ruto-plans-ksh82-trillion-us-minerals-deal",
+      "published_at": "2026-09-20T09:02:04Z"
     }
   ]
 }
