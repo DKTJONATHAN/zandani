@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-20T01:44:26.419Z",
+  "updated": "2026-09-20T02:00:27.416Z",
   "logs": [
+    {
+      "id": "news-1789869627175",
+      "desk": "news",
+      "scheduledFor": "2026-09-20 05:00:24",
+      "dispatchedAt": "2026-09-20T02:00:25.126Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "ghafla-1789868666176",
       "desk": "ghafla",
@@ -1989,16 +1999,6 @@
       "status": 204,
       "ok": true,
       "error": null,
-      "source": "cron"
-    },
-    {
-      "id": "ghafla-1789667062723",
-      "desk": "ghafla",
-      "scheduledFor": "2026-09-17 20:44:21",
-      "dispatchedAt": "2026-09-17T17:44:21.804Z",
-      "status": 422,
-      "ok": false,
-      "error": "Workflow does not have 'workflow_dispatch' trigger",
       "source": "cron"
     }
   ]
