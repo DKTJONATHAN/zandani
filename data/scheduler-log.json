@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-20T02:00:27.416Z",
+  "updated": "2026-09-20T03:00:27.445Z",
   "logs": [
+    {
+      "id": "news-1789873227061",
+      "desk": "news",
+      "scheduledFor": "2026-09-20 06:00:25",
+      "dispatchedAt": "2026-09-20T03:00:25.324Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "news-1789869627175",
       "desk": "news",
@@ -1989,16 +1999,6 @@
       "status": 422,
       "ok": false,
       "error": "Workflow does not have 'workflow_dispatch' trigger",
-      "source": "cron"
-    },
-    {
-      "id": "news-1789668031008",
-      "desk": "news",
-      "scheduledFor": "2026-09-17 21:00:28",
-      "dispatchedAt": "2026-09-17T18:00:29.251Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
       "source": "cron"
     }
   ]
