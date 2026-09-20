@@ -601,10 +601,10 @@
     "5dd6159d29296b5778dd817a2eb374d8",
     "acf483a1ef84f22f8df8ffea4e43a420",
     "c7356477d6554dd7b000b159a3bea618",
-    "5eeae60eb9a49ef3984a8656ce9b8ed9"
+    "5eeae60eb9a49ef3984a8656ce9b8ed9",
+    "f380b236a84af53e6236d6b64ec633c9"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -633,7 +633,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -819,7 +820,8 @@
     "https://kenyans.co.ke/news/127190-kenya-met-lists-nairobi-kiambu-among-counties-receive-rains-over-next-5-days",
     "https://kenyans.co.ke/news/127194-kenya-signs-deal-swedish-firm-upgrade-jkia-air-traffic-systems",
     "https://kenyans.co.ke/news/127195-ntsa-clarifies-removal-damaged-vehicles-govt-database",
-    "https://kenyans.co.ke/news/127197-court-rules-residents-must-prove-excessive-noise-suing-churches-bars"
+    "https://kenyans.co.ke/news/127197-court-rules-residents-must-prove-excessive-noise-suing-churches-bars",
+    "https://kenyans.co.ke/news/127200-us-energy-secretary-questions-kenya-coal-funding-trump-govt-signals-support"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -927,7 +929,8 @@
     "cold front push nyandarua night temperatures five day wet spell",
     "beyond concrete swedish firm brought unlock jkia constrained airspace",
     "ntsa leaves scrapped cars register until owners file papers",
-    "audits case nairobi court raises evidentiary bar suing noisy churches bars"
+    "audits case nairobi court raises evidentiary bar suing noisy churches bars",
+    "washington attacks bank boycott coal but offers money"
   ],
   "topic_keys": [
     "news tracker",
@@ -1170,6 +1173,15 @@
       "structure": "Lead on evidentiary hurdles -> Case study of the dismissed Dandora lawsuit -> Breakdown of the required technical documentation -> The administrative ladder from NEMA complaints to tribunal appeals -> Concluding look at what this means for average urban tenants and landlords.",
       "source": "https://kenyans.co.ke/news/127197-court-rules-residents-must-prove-excessive-noise-suing-churches-bars",
       "published_at": "2026-09-19T16:02:14Z"
+    },
+    {
+      "title": "Washington Attacks Bank Boycott on Kenya Coal, but Offers No Money",
+      "angle": "The sharp disconnect between Washington's vocal ideological offensive against green lending bans and its failure to offer actual sovereign capital, coming just as Kenya's coastal energy policy moves past coal toward gas-fired industrial hubs.",
+      "angle_type": "accountability",
+      "opening": "Contrasting Washington's rhetorical broadside against multilateral lending bans with the complete absence of American financing commitments for the stalled coastal power proposal.",
+      "structure": "Rhetoric-versus-capital lead -> Wright's specific critique of multilateral bank boycotts at CSIS -> The explicit absence of U.S. funding guarantees -> Kenya's actual coastal reality: shifting from coal to the Dangote 1,000MW Lamu LNG model -> Regional gas supply logistics and structural hurdles.",
+      "source": "https://kenyans.co.ke/news/127200-us-energy-secretary-questions-kenya-coal-funding-trump-govt-signals-support",
+      "published_at": "2026-09-20T05:02:01Z"
     }
   ]
 }
