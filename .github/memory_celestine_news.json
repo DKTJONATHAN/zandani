@@ -610,10 +610,10 @@
     "6e02ee594f8748e5ee199b53ab4423d5",
     "baf2e499bec2ba80a1f7915926f7e911",
     "cc2e9ac4b1fda4c33ea05dc99487a45d",
-    "19fe73d950db5eae727967cb3d17d839"
+    "19fe73d950db5eae727967cb3d17d839",
+    "8023dca0f2119cd0ecfadc0f6a8a1c00"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -642,7 +642,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -837,7 +838,8 @@
     "https://kenyans.co.ke/news/127205-cs-mugaa-explains-why-some-kenyans-face-high-water-bills",
     "https://kenyans.co.ke/news/127206-agnes-ngetich-breaks-women-only-half-marathon-world-record-copenhagen",
     "https://kenyans.co.ke/news/127210-elimu-bora-demands-helb-universities-fund-release-funds-first-years",
-    "https://kenyans.co.ke/news/127213-ruto-css-make-fresh-appointments-epra-lapsset-and-other-state-boards"
+    "https://kenyans.co.ke/news/127213-ruto-css-make-fresh-appointments-epra-lapsset-and-other-state-boards",
+    "https://kenyans.co.ke/news/127215-kra-lists-luxury-cars-november-auction-over-unpaid-customs-dues"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -954,7 +956,8 @@
     "unfinished permits trigger fold billing multiplier water abstractors mugaa warns",
     "solo run gun slices one second off half marathon mark",
     "policy lag leaves university freshmen facing cash crunch ahead delayed funding shift",
-    "broad based cabinet asserts control sweeping state board shakeup"
+    "broad based cabinet asserts control sweeping state board shakeup",
+    "ten year backlog kra mombasa auction exposes long trapped port cargo"
   ],
   "topic_keys": [
     "news tracker",
@@ -1278,6 +1281,15 @@
       "structure": "Introduction on administrative consolidation -> Broad-based Cabinet ministers (Mbadi, Wandayi) executing powers over key economic regulators (RBA, KNBS, EPRA) -> Presidential appointments to critical infrastructure and financial watchdogs (LAPSSET, IRA) -> Sector-specific resets across Tourism, Water, and Education -> Judicial and correctional board changes -> Conclusion on transition from cabinet-level shifts to parastatal management.",
       "source": "https://kenyans.co.ke/news/127213-ruto-css-make-fresh-appointments-epra-lapsset-and-other-state-boards",
       "published_at": "2026-09-20T13:02:05Z"
+    },
+    {
+      "title": "The Ten-Year Backlog: KRA\u2019s Mombasa Auction Exposes Long-Trapped Port Cargo",
+      "angle": "The extraordinary chronological backlog of the cargo being auctioned\u2014some of which has been abandoned in Mombasa customs yards for up to ten years (since 2016)\u2014revealing the long-term storage bottleneck and the severe financial drag of unresolved customs disputes on port logistics.",
+      "angle_type": "consequence",
+      "opening": "A analytical, timeline-focused lead highlighting the contrast between the sudden 30-day clearance deadline and the decade-long storage lag of the abandoned imports.",
+      "structure": "Chronological backlog lead -> Regulatory framework (EAC Customs Management Act) and the 30-day countdown -> Detailed breakdown of the long-term stranded inventory (comparing 2016/2017 imports with newer ones) -> Industrial and commercial scope beyond luxury consumer cars -> Port logistics context and the role of Container Freight Stations (CFSs).",
+      "source": "https://kenyans.co.ke/news/127215-kra-lists-luxury-cars-november-auction-over-unpaid-customs-dues",
+      "published_at": "2026-09-20T14:02:18Z"
     }
   ]
 }
