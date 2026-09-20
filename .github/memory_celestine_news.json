@@ -607,10 +607,10 @@
     "73f43d3b4ca5449f76aaf8fdc6b13742",
     "b22eefcd7628e7da80807c74b35a72d7",
     "b6e32aae527021f04f138a48208663b5",
-    "6e02ee594f8748e5ee199b53ab4423d5"
+    "6e02ee594f8748e5ee199b53ab4423d5",
+    "baf2e499bec2ba80a1f7915926f7e911"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Desk Take",
@@ -639,7 +639,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -831,7 +832,8 @@
     "https://kenyans.co.ke/news/127198-ruto-meet-dangote-unga-over-ksh22-trillion-lamu-refinery",
     "https://kenyans.co.ke/news/127203-uda-homa-bay-chairperson-attacked-official-vehicle-torched",
     "https://kenyans.co.ke/news/127204-gachagua-claims-ruto-plans-ksh82-trillion-us-minerals-deal",
-    "https://kenyans.co.ke/news/127205-cs-mugaa-explains-why-some-kenyans-face-high-water-bills"
+    "https://kenyans.co.ke/news/127205-cs-mugaa-explains-why-some-kenyans-face-high-water-bills",
+    "https://kenyans.co.ke/news/127206-agnes-ngetich-breaks-women-only-half-marathon-world-record-copenhagen"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -945,7 +947,8 @@
     "ruto mounts day york capital sprint ksh trillion lamu refinery",
     "homa bay arson attack tests police pledge block violent politicians ballots",
     "political battle erupts kwale ksh niobium reserves targets minerals",
-    "unfinished permits trigger fold billing multiplier water abstractors mugaa warns"
+    "unfinished permits trigger fold billing multiplier water abstractors mugaa warns",
+    "solo run gun slices one second off half marathon mark"
   ],
   "topic_keys": [
     "news tracker",
@@ -1242,6 +1245,15 @@
       "structure": "Financial penalty lead -> Breakdown of estimated default rates versus metered tariffs -> Technological shift to GSM smart meters -> Separation of WRA raw water charges from county utility bills -> Enforcement context.",
       "source": "https://kenyans.co.ke/news/127205-cs-mugaa-explains-why-some-kenyans-face-high-water-bills",
       "published_at": "2026-09-20T10:02:49Z"
+    },
+    {
+      "title": "Solo Run From Gun Slices One Second Off Half Marathon Mark",
+      "angle": "Framing the victory around the tactical gamble of an unassisted, gun-to-tape solo front run\u2014a format where athletes lack male pacemakers or drafting packs\u2014which pushed Ngetich past Peres Jepchirchir\u2019s six-year record by a solitary second.",
+      "angle_type": "practical change",
+      "opening": "Tactical execution lead highlighting the razor-thin one-second margin carved out through an unpaced, solo front run.",
+      "structure": "Tactical front-running lead -> Split breakdown against Jepchirchir's 2020 mark -> The mechanics of women-only racing standards -> Dual 2026 crown context -> Wider Copenhagen medal return and the 2029 hosting momentum.",
+      "source": "https://kenyans.co.ke/news/127206-agnes-ngetich-breaks-women-only-half-marathon-world-record-copenhagen",
+      "published_at": "2026-09-20T10:24:53Z"
     }
   ]
 }
