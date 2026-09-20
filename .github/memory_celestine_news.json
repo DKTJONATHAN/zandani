@@ -611,10 +611,10 @@
     "baf2e499bec2ba80a1f7915926f7e911",
     "cc2e9ac4b1fda4c33ea05dc99487a45d",
     "19fe73d950db5eae727967cb3d17d839",
-    "8023dca0f2119cd0ecfadc0f6a8a1c00"
+    "8023dca0f2119cd0ecfadc0f6a8a1c00",
+    "b17e5e5a783473eb66b30bd3e2ab510f"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -643,7 +643,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -839,7 +840,8 @@
     "https://kenyans.co.ke/news/127206-agnes-ngetich-breaks-women-only-half-marathon-world-record-copenhagen",
     "https://kenyans.co.ke/news/127210-elimu-bora-demands-helb-universities-fund-release-funds-first-years",
     "https://kenyans.co.ke/news/127213-ruto-css-make-fresh-appointments-epra-lapsset-and-other-state-boards",
-    "https://kenyans.co.ke/news/127215-kra-lists-luxury-cars-november-auction-over-unpaid-customs-dues"
+    "https://kenyans.co.ke/news/127215-kra-lists-luxury-cars-november-auction-over-unpaid-customs-dues",
+    "https://kenyans.co.ke/news/127216-epra-adjusts-electricity-charges-ksh416-kwh-pass-through-costs-apply"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -957,7 +959,8 @@
     "solo run gun slices one second off half marathon mark",
     "policy lag leaves university freshmen facing cash crunch ahead delayed funding shift",
     "broad based cabinet asserts control sweeping state board shakeup",
-    "ten year backlog kra mombasa auction exposes long trapped port cargo"
+    "ten year backlog kra mombasa auction exposes long trapped port cargo",
+    "state slashes solar export credits shield grid green power surge"
   ],
   "topic_keys": [
     "news tracker",
@@ -1290,6 +1293,15 @@
       "structure": "Chronological backlog lead -> Regulatory framework (EAC Customs Management Act) and the 30-day countdown -> Detailed breakdown of the long-term stranded inventory (comparing 2016/2017 imports with newer ones) -> Industrial and commercial scope beyond luxury consumer cars -> Port logistics context and the role of Container Freight Stations (CFSs).",
       "source": "https://kenyans.co.ke/news/127215-kra-lists-luxury-cars-november-auction-over-unpaid-customs-dues",
       "published_at": "2026-09-20T14:02:18Z"
+    },
+    {
+      "title": "State Slashes Solar Export Credits to Shield Grid from Green Power Surge",
+      "angle": "The systematic regulatory pushback against private and utility-scale green energy. While consumers are saddled with high thermal generation costs, the state is actively disincentivizing private solar installations by halving export credits, penalizing grid 'dumping,' and freezing new wind and solar connections.",
+      "angle_type": "consequence",
+      "opening": "A analytical hook highlighting the direct policy friction between the rise of private solar investments and new regulatory barriers designed to protect the national grid's balance sheet.",
+      "structure": "Regulatory shift lead -> Net-metering and 'dumping' penalty mechanics -> The context of KPLC's green energy freeze and battery mandates -> Breakdown of the immediate pass-through surcharge burden (thermal fuel and forex) -> Realignment of domestic consumer bands and EV tariffs.",
+      "source": "https://kenyans.co.ke/news/127216-epra-adjusts-electricity-charges-ksh416-kwh-pass-through-costs-apply",
+      "published_at": "2026-09-20T14:25:36Z"
     }
   ]
 }
