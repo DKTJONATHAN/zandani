@@ -11,7 +11,8 @@
     "63173ea64932de96653d38b13797eb9d302987e72831e07ce7df57eab3ed9efa",
     "d2389082bfaf5556900aace49435dcf96332357e3c1e9253aee6cfd893520986",
     "f3f31fdad13f0313cdddec1c13d163ff5969fd2fa3e60a25ec6e511f2b10bd84",
-    "5311b53865472b3af506d7de77908d652e58065b708697ea448cfacb41e25b43"
+    "5311b53865472b3af506d7de77908d652e58065b708697ea448cfacb41e25b43",
+    "dadc90002f0f5ad47dd4d8ef607ba54ea20ae632b2717e12547b42501e0c60cb"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -25,7 +26,8 @@
     "https://www.ghafla.co.ke/sifuna-dismisses-claims-of-linda-mwananchi-collapse-amid-internal-tensions/",
     "https://www.ghafla.co.ke/controller-of-budget-orders-increased-spending-audits-ahead-of-2027-polls/",
     "https://www.ghafla.co.ke/uhuru-kenyatta-breaks-silence-on-government-attacks-says-life-is-becoming-too-dangerous/",
-    "https://www.ghafla.co.ke/villages-see-the-light-as-electricity-transforms-rural-kenya/"
+    "https://www.ghafla.co.ke/villages-see-the-light-as-electricity-transforms-rural-kenya/",
+    "https://www.ghafla.co.ke/over-270000-newborns-registered-in-two-months-as-e-birth-system-gains-nationwide-momentum/"
   ],
   "published_angles": [
     {
@@ -107,6 +109,14 @@
       "opening": "Focusing on the sunset transition in rural trading centers, contrasting mandatory dusk shutdowns with new evening commercial activity.",
       "structure": "Commercial shift lead -> verified broadcast context -> sector breakdown (salons, workshops, food businesses, home study) -> community facilities -> concrete closing factual outlook.",
       "source": "https://www.ghafla.co.ke/villages-see-the-light-as-electricity-transforms-rural-kenya/"
+    },
+    {
+      "title": "Inside the Bedside Shift as 270,000 Newborns Enter Kenya\u2019s Digital E-Birth Registry in 60 Days",
+      "angle": "Focusing on the operational shift inside delivery rooms and health facilities, where instant electronic logging at point-of-care replaces manual paper trails for new parents.",
+      "angle_type": "practical change and operational transition",
+      "opening": "Bedside operational lead highlighting the practical end of manual birth notification paperwork in maternity wards.",
+      "structure": "Bedside administrative shift -> numerical scale of the 60-day rollout -> technical integration between healthcare facilities and civil registries -> downstream benefits for national identity indexing and maternal planning.",
+      "source": "https://www.ghafla.co.ke/over-270000-newborns-registered-in-two-months-as-e-birth-system-gains-nationwide-momentum/"
     }
   ],
   "style_history": [
