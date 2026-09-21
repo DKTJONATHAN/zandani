@@ -61,6 +61,8 @@ jobs:
           NODE
 
       - name: Build production assets
+        env:
+          VITE_VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
         run: bun run build
 
       - name: Deploy Worker and assets
