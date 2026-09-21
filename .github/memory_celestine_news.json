@@ -626,10 +626,10 @@
     "acd0d48488f2bdcfae5501a5d2f4dd52",
     "4e5168c64d75740140da3f4b878302fa",
     "6b7d7e48db32471eeb0635bb0c777217",
-    "0e3eaa6a1ab32f151f8a1971f921e187"
+    "0e3eaa6a1ab32f151f8a1971f921e187",
+    "d66c81dfdeb3f4a0b0874b89355bc152"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -658,7 +658,8 @@
     "Statement Report",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -869,7 +870,8 @@
     "https://kenyans.co.ke/news/127227-you-do-not-have-sign-deal-be-legally-bound-high-court-rules",
     "https://kenyans.co.ke/news/127237-police-recover-ksh72-million-worth-substances-wrecked-suv",
     "https://kenyans.co.ke/news/127241-cma-warns-public-against-unverified-dangote-refinery-ipo-documents",
-    "https://kenyans.co.ke/news/127238-fkf-reveals-new-details-postponement-kenyan-premier-league"
+    "https://kenyans.co.ke/news/127238-fkf-reveals-new-details-postponement-kenyan-premier-league",
+    "https://kenyans.co.ke/news/127239-court-denies-bail-terms-utumishi-girls-fire-suspects"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1002,7 +1004,8 @@
     "high court shields vendors when buyer mechanics vet informal deals",
     "crashed mazda exposes ksh highway drug transit blind spot",
     "cma draws hard line unlicensed dangote ipo solicitations",
-    "conflicting court orders lock premier league legal paralysis"
+    "conflicting court orders lock premier league legal paralysis",
+    "remand safety failures force transfer utumishi fire suspects bail denied"
   ],
   "topic_keys": [
     "news tracker",
@@ -1470,6 +1473,15 @@
       "structure": "Legal contradiction core -> Commercial and player exposure -> Financial structure under freeze -> Institutional warning on third-party interference.",
       "source": "https://kenyans.co.ke/news/127238-fkf-reveals-new-details-postponement-kenyan-premier-league",
       "published_at": "2026-09-21T16:02:15Z"
+    },
+    {
+      "title": "Remand Safety Failures Force Transfer of Utumishi Fire Suspects as Bail Is Denied",
+      "angle": "The operational and institutional failure of custodial remand homes to protect vulnerable children in conflict with the law from internal violence, bullying, and online harassment.",
+      "angle_type": "institutional pressure",
+      "opening": "An institutional-reality lead focusing on the protective failure of remand facilities rather than the bail ruling itself.",
+      "structure": "Remand safety crisis lead -> Judicial findings on internal bullying and digital leaks -> Transfer mandates to Kamae and Kamaya -> Ongoing welfare, psychological, and educational provisions -> Concluding on the systemic tension between juvenile culpability and state custodial protection.",
+      "source": "https://kenyans.co.ke/news/127239-court-denies-bail-terms-utumishi-girls-fire-suspects",
+      "published_at": "2026-09-21T17:02:11Z"
     }
   ]
 }
