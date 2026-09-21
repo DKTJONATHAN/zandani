@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-21T15:20:35.033Z",
+  "updated": "2026-09-21T15:30:35.872Z",
   "logs": [
+    {
+      "id": "business-1790004635537",
+      "desk": "business",
+      "scheduledFor": "2026-09-21 18:30:32",
+      "dispatchedAt": "2026-09-21T15:30:33.308Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "mpasho-1790004034311",
       "desk": "mpasho",
@@ -1986,16 +1996,6 @@
       "desk": "news",
       "scheduledFor": "2026-09-19 10:00:15",
       "dispatchedAt": "2026-09-19T07:00:15.901Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
-      "source": "cron"
-    },
-    {
-      "id": "diano-1789797621726",
-      "desk": "diano",
-      "scheduledFor": "2026-09-19 09:00:15",
-      "dispatchedAt": "2026-09-19T06:00:20.438Z",
       "status": 204,
       "ok": true,
       "error": null,
