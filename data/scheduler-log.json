@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-21T08:00:25.996Z",
+  "updated": "2026-09-21T08:00:31.025Z",
   "logs": [
+    {
+      "id": "technology-1789977630815",
+      "desk": "technology",
+      "scheduledFor": "2026-09-21 11:00:23",
+      "dispatchedAt": "2026-09-21T08:00:29.517Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "news-1789977625617",
       "desk": "news",
@@ -1986,16 +1996,6 @@
       "desk": "news",
       "scheduledFor": "2026-09-19 02:00:03",
       "dispatchedAt": "2026-09-18T23:00:03.927Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
-      "source": "cron"
-    },
-    {
-      "id": "news-1789768806110",
-      "desk": "news",
-      "scheduledFor": "2026-09-19 01:00:04",
-      "dispatchedAt": "2026-09-18T22:00:04.433Z",
       "status": 204,
       "ok": true,
       "error": null,
