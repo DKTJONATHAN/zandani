@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-21T17:00:45.768Z",
+  "updated": "2026-09-21T17:08:34.163Z",
   "logs": [
+    {
+      "id": "entertainment-1790010513790",
+      "desk": "entertainment",
+      "scheduledFor": "2026-09-21 20:08:31",
+      "dispatchedAt": "2026-09-21T17:08:31.798Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "africa-1790010045464",
       "desk": "africa",
@@ -1990,16 +2000,6 @@
       "ok": true,
       "error": null,
       "source": "manual"
-    },
-    {
-      "id": "technology-1789804822360",
-      "desk": "technology",
-      "scheduledFor": "2026-09-19 11:00:15",
-      "dispatchedAt": "2026-09-19T08:00:20.857Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
-      "source": "cron"
     }
   ]
 }
