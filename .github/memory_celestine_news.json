@@ -621,10 +621,10 @@
     "360c41a43e6be5f0ad721a7347e3cbff",
     "4e7551d852e0e8f2103afc85c6a1e4bb",
     "fa7dbc24d0cebd8554636eef9e2f3229",
-    "babd9f80e578b23f89c12bea3d15b137"
+    "babd9f80e578b23f89c12bea3d15b137",
+    "ead5e5124f659c41c15ed6cfdc6fa56b"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Desk Take",
     "Hard News Lead",
@@ -653,7 +653,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -859,7 +860,8 @@
     "https://kenyans.co.ke/news/127226-former-iebc-officer-faces-8-month-jail-term-over-fake-university-degree",
     "https://kenyans.co.ke/news/127230-high-court-declares-law-restricting-retired-presidents-active-politics-unconstitutional",
     "https://kenyans.co.ke/news/127232-suleiman-shahbals-son-takes-over-interim-leader-new-democrats-party",
-    "https://kenyans.co.ke/news/127234-azimio-la-umoja-rebrands-ukombozi-alliance-new-political-twist"
+    "https://kenyans.co.ke/news/127234-azimio-la-umoja-rebrands-ukombozi-alliance-new-political-twist",
+    "https://kenyans.co.ke/news/127233-kra-sets-october-deadline-customs-businesses-renew-licences"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -987,7 +989,8 @@
     "iebc officer penalised forged moi university degree used job promotion",
     "post presidency compromise courts strip uhuru party titles but shield political rights",
     "shahbal camp locks down party vehicle son takes democrats",
-    "opposition retires azimio banner one term ukombozi alliance"
+    "opposition retires azimio banner one term ukombozi alliance",
+    "kra tightens customs sieve early audit clearing agents godowns"
   ],
   "topic_keys": [
     "news tracker",
@@ -1410,6 +1413,15 @@
       "structure": "Platform doctrine and renaming -> Coalition expansion (Maraga, Mwangaza) -> Transition timeline and Jubilee strategy session -> Court ruling defense of Uhuru's political rights.",
       "source": "https://kenyans.co.ke/news/127234-azimio-la-umoja-rebrands-ukombozi-alliance-new-political-twist",
       "published_at": "2026-09-21T11:01:34Z"
+    },
+    {
+      "title": "KRA Tightens Customs Sieve With Early Audit of Clearing Agents and Godowns",
+      "angle": "Focusing on the administrative tightening that ties operational survival to director-level tax audits, debt clearances, and multi-agency vetting\u2014creating an early compliance squeeze that threatens the supply chain link for 59,000 domestic importers well before current licenses expire in December.",
+      "angle_type": "institutional pressure",
+      "opening": "Compliance-barrier lead framing the October 31 cutoff as an aggressive early audit of logistics intermediaries rather than a routine administrative renewal.",
+      "structure": "Operational filter lead -> Categorical compliance requirements (godowns/MUB vs agents vs transit sheds) -> Financial stakes and vetting caveats -> Supply chain exposure across 59,000 domestic importers.",
+      "source": "https://kenyans.co.ke/news/127233-kra-sets-october-deadline-customs-businesses-renew-licences",
+      "published_at": "2026-09-21T11:40:31Z"
     }
   ]
 }
