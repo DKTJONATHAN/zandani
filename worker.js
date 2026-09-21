@@ -4,7 +4,137 @@ const GSC_TXT = "968a6d115d3240a3acbc3448c398978d\n";
 const GITHUB_OWNER = "DKTJONATHAN";
 const GITHUB_REPO = "zandani";
 const GITHUB_BRANCH = "main";
-const SUBS_PATH = "data/subscribers.json";
+const SUBS_PATH = "data/subscribers.json";\n
+const PUSH_SUBS_PATH = "data/push_subscriptions.json";
+
+function validPushSubscription(body) {
+  const endpoint = String(body?.endpoint || "").trim();
+  const p256dh = String(body?.keys?.p256dh || "").trim();
+  const auth = String(body?.keys?.auth || "").trim();
+  if (!endpoint.startsWith("https://") || endpoint.length > 2048) return null;
+  if (!p256dh || !auth || p256dh.length > 512 || auth.length > 256) return null;
+  return {
+    endpoint,
+    keys: { p256dh, auth },
+    userAgent: String(body?.userAgent || "").slice(0, 240) || undefined,
+    updatedAt: new Date().toISOString(),
+  };
+}
+
+async function readPushSubscriptions(env) {
+  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${PUSH_SUBS_PATH}?ref=${GITHUB_BRANCH}`;
+  try {
+    const data = await githubJson(url, { headers: ghHeaders(env) });
+    const parsed = JSON.parse(fromBase64(data.content));
+    return {
+      sha: data.sha,
+      subscriptions: Array.isArray(parsed?.subscriptions) ? parsed.subscriptions : [],
+    };
+  } catch (e) {
+    if (e.status === 404) return { sha: null, subscriptions: [] };
+    throw e;
+  }
+}
+
+async function writePushSubscriptions(env, subscriptions, sha, message) {
+  const payload = {
+    message,
+    branch: GITHUB_BRANCH,
+    content: toBase64(JSON.stringify({
+      updated: new Date().toISOString(),
+      subscriptions,
+    }, null, 2) + "\n"),
+  };
+  if (sha) payload.sha = sha;
+  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${PUSH_SUBS_PATH}`;
+  return githubJson(url, {
+    method: "PUT",
+    headers: ghHeaders(env),
+    body: JSON.stringify(payload),
+  });
+}
+
+async function handlePushSubscribe(request, env) {
+  if (request.method === "OPTIONS") {
+    return new Response(null, { status: 204, headers: corsHeaders() });
+  }
+  if (request.method !== "POST" && request.method !== "DELETE") {
+    return json({ error: "POST or DELETE only" }, 405);
+  }
+
+  try {
+    let body;
+    try {
+      body = await request.json();
+    } catch {
+      return json({ error: "Invalid JSON" }, 400);
+    }
+
+    const endpoint = String(body?.endpoint || "").trim();
+    if (request.method === "DELETE") {
+      if (!endpoint) return json({ error: "endpoint required" }, 400);
+
+      for (let attempt = 0; attempt < 3; attempt += 1) {
+        const current = await readPushSubscriptions(env);
+        const next = current.subscriptions.filter((s) => s?.endpoint !== endpoint);
+        if (next.length === current.subscriptions.length) {
+          return json({ ok: true, removed: false });
+        }
+        try {
+          await writePushSubscriptions(env, next, current.sha, "push: remove subscription");
+          return json({ ok: true, removed: true });
+        } catch (e) {
+          if (e.status === 409 || e.status === 422) continue;
+          throw e;
+        }
+      }
+      return json({ error: "Subscription changed elsewhere. Try again." }, 409);
+    }
+
+    const sub = validPushSubscription(body);
+    if (!sub) return json({ error: "Invalid push subscription" }, 400);
+
+    for (let attempt = 0; attempt < 3; attempt += 1) {
+      const current = await readPushSubscriptions(env);
+      const index = current.subscriptions.findIndex((s) => s?.endpoint === sub.endpoint);
+      const next = current.subscriptions.slice();
+
+      if (index >= 0) {
+        next[index] = { ...next[index], ...sub };
+      } else {
+        next.push({ ...sub, createdAt: new Date().toISOString() });
+      }
+
+      // Keep the file bounded while preserving the newest devices.
+      const bounded = next.slice(-5000);
+
+      try {
+        await writePushSubscriptions(
+          env,
+          bounded,
+          current.sha,
+          index >= 0 ? "push: refresh subscription" : "push: new subscription"
+        );
+        return json({ ok: true, subscribed: true, count: bounded.length });
+      } catch (e) {
+        if (e.status === 409 || e.status === 422) continue;
+        throw e;
+      }
+    }
+
+    return json({ error: "Subscription changed elsewhere. Try again." }, 409);
+  } catch (error) {
+    console.error("push subscribe", error);
+    const status = error.status === 503 ? 503 : error.status === 401 || error.status === 403 ? 403 : 500;
+    return json({
+      error: status === 503
+        ? "Push service is not configured on Cloudflare."
+        : "Could not save push subscription.",
+      github_status: error.status || null,
+    }, status);
+  }
+}
+
 const SCHED_STATE_PATH = "data/scheduler-state.json";
 const SCHED_LOG_PATH = "data/scheduler-log.json";
 const RESEND = "https://api.resend.com";
@@ -575,7 +705,7 @@ export default {
       return new Response(GSC_TXT, { headers: { "Content-Type": "text/plain; charset=utf-8" } });
     }
 
-    if (path === "/api/subscribe") return handleSubscribe(request, env);
+    if (path === "/api/push-subscribe") return handlePushSubscribe(request, env);\n    if (path === "/api/subscribe") return handleSubscribe(request, env);
     if (path === "/api/unsubscribe") return handleUnsubscribe(request, env);
     if (path === "/api/github") return handleGithubApi(request, env);
 
