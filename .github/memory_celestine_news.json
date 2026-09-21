@@ -622,10 +622,10 @@
     "4e7551d852e0e8f2103afc85c6a1e4bb",
     "fa7dbc24d0cebd8554636eef9e2f3229",
     "babd9f80e578b23f89c12bea3d15b137",
-    "ead5e5124f659c41c15ed6cfdc6fa56b"
+    "ead5e5124f659c41c15ed6cfdc6fa56b",
+    "acd0d48488f2bdcfae5501a5d2f4dd52"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -654,7 +654,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -861,7 +862,8 @@
     "https://kenyans.co.ke/news/127230-high-court-declares-law-restricting-retired-presidents-active-politics-unconstitutional",
     "https://kenyans.co.ke/news/127232-suleiman-shahbals-son-takes-over-interim-leader-new-democrats-party",
     "https://kenyans.co.ke/news/127234-azimio-la-umoja-rebrands-ukombozi-alliance-new-political-twist",
-    "https://kenyans.co.ke/news/127233-kra-sets-october-deadline-customs-businesses-renew-licences"
+    "https://kenyans.co.ke/news/127233-kra-sets-october-deadline-customs-businesses-renew-licences",
+    "https://kenyans.co.ke/news/127227-you-do-not-have-sign-deal-be-legally-bound-high-court-rules"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -990,7 +992,8 @@
     "post presidency compromise courts strip uhuru party titles but shield political rights",
     "shahbal camp locks down party vehicle son takes democrats",
     "opposition retires azimio banner one term ukombozi alliance",
-    "kra tightens customs sieve early audit clearing agents godowns"
+    "kra tightens customs sieve early audit clearing agents godowns",
+    "high court shields vendors when buyer mechanics vet informal deals"
   ],
   "topic_keys": [
     "news tracker",
@@ -1422,6 +1425,15 @@
       "structure": "Operational filter lead -> Categorical compliance requirements (godowns/MUB vs agents vs transit sheds) -> Financial stakes and vetting caveats -> Supply chain exposure across 59,000 domestic importers.",
       "source": "https://kenyans.co.ke/news/127233-kra-sets-october-deadline-customs-businesses-renew-licences",
       "published_at": "2026-09-21T11:40:31Z"
+    },
+    {
+      "title": "High Court Shields Vendors When Buyer Mechanics Vet Informal Deals",
+      "angle": "The double-edged liability of agency purchases: while delegating authority creates an enforceable contract, deploying independent agents and mechanics to inspect goods simultaneously strips the buyer of statutory fitness-for-purpose protections against the vendor.",
+      "angle_type": "consequence",
+      "opening": "Attribution-first statement detailing the High Court's determination on proxy contracts and inspection liabilities.",
+      "structure": "Judicial attribution and ruling core -> Breakdown of who benefits (sellers insulated by buyer-led inspections) -> The factual dispute over the Ksh 920,000 lorry engine -> Reversal of the Small Claims Court contradiction -> Enforcement timetable for the refund.",
+      "source": "https://kenyans.co.ke/news/127227-you-do-not-have-sign-deal-be-legally-bound-high-court-rules",
+      "published_at": "2026-09-21T12:02:09Z"
     }
   ]
 }
