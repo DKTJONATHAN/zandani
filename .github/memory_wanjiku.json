@@ -26,7 +26,8 @@
     "9df8c97b6d5fb8d9d58bc68b02ad881afc627607927659c04f314c509089d5d6",
     "341c6649cabfe9b7fc92412ed7419d9f25cf66a47a9b8c102ccd2967730daf4c",
     "ebd921ce94a06c01ae1a76f37d1a30057fcd98379e63a2106641612e8cb776aa",
-    "636dc38d68de69558bb231101e1f7b106717abbcc03ccff0677d421699609899"
+    "636dc38d68de69558bb231101e1f7b106717abbcc03ccff0677d421699609899",
+    "af0134e42eb3cc18e88a1685cb32c39fea422ca87171fa0ca754a490cc058d70"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -55,7 +56,8 @@
     "https://www.ghafla.co.ke/court-denies-bail-to-8-utumishi-girls-academy-students-facing-16-counts-of-murder/",
     "https://www.ghafla.co.ke/mungai-eve-responds-to-allegations-of-sponsors-funding-her-lifestyle-natafuta/",
     "https://www.ghafla.co.ke/atwoli-rejects-sifunas-presidential-ambitions/",
-    "https://www.ghafla.co.ke/pastor-victor-kanyari-calls-out-church-congregants-for-offering-low-sadaka/"
+    "https://www.ghafla.co.ke/pastor-victor-kanyari-calls-out-church-congregants-for-offering-low-sadaka/",
+    "https://www.ghafla.co.ke/rigathi-gachagua-slams-dp-kindikis-cultural-coronation-during-us-diaspora-meeting/"
   ],
   "published_angles": [
     {
@@ -257,6 +259,14 @@
       "opening": "Personality lead opening directly on Pastor Victor Kanyari staging an altar-side financial audit and daring social media algorithms to make him trend.",
       "structure": "Personality hook and theatrical quote -> Detailed altar audit scene -> The bhajia quip and crowd shaming -> Preemptive strike against his money-extractor reputation -> Viral aftermath and closing concrete fact.",
       "source": "https://www.ghafla.co.ke/pastor-victor-kanyari-calls-out-church-congregants-for-offering-low-sadaka/"
+    },
+    {
+      "title": "Rigathi Gachagua Weaponizes a Dropped Headpiece to Cast 'Spiritual Shade' on DP Kindiki",
+      "angle": "Focusing on the theatricality of Gachagua weaponizing a literal 'wardrobe malfunction' (the dropped traditional headpiece) as spiritual, ancestral proof of rejection to delegitimize his political successor.",
+      "angle_type": "symbolic mishap / theatrical political shade",
+      "opening": "Open directly on Gachagua turning a clumsy ceremonial slip-up into high-stakes ancestral shade during a US diaspora meeting.",
+      "structure": "The theatrical hook (the dropped headpiece) -> The Kansas City town hall setting -> Gachagua's specific 'spiritual veto' framing and quotes -> The hypocrisy allegation regarding 'mountain' politics -> The underlying DCP vs. State-backed leadership struggle.",
+      "source": "https://www.ghafla.co.ke/rigathi-gachagua-slams-dp-kindikis-cultural-coronation-during-us-diaspora-meeting/"
     }
   ],
   "style_history": [
