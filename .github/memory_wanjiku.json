@@ -25,7 +25,8 @@
     "4ea7cd60e2d0b88b8ea2bf0b3d55b61fddc414a4721c0d9235c74a2a88ad72f9",
     "9df8c97b6d5fb8d9d58bc68b02ad881afc627607927659c04f314c509089d5d6",
     "341c6649cabfe9b7fc92412ed7419d9f25cf66a47a9b8c102ccd2967730daf4c",
-    "ebd921ce94a06c01ae1a76f37d1a30057fcd98379e63a2106641612e8cb776aa"
+    "ebd921ce94a06c01ae1a76f37d1a30057fcd98379e63a2106641612e8cb776aa",
+    "636dc38d68de69558bb231101e1f7b106717abbcc03ccff0677d421699609899"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -53,7 +54,8 @@
     "https://www.ghafla.co.ke/nadia-mukami-and-arrow-bwoy-set-to-release-new-song-after-break-up/",
     "https://www.ghafla.co.ke/court-denies-bail-to-8-utumishi-girls-academy-students-facing-16-counts-of-murder/",
     "https://www.ghafla.co.ke/mungai-eve-responds-to-allegations-of-sponsors-funding-her-lifestyle-natafuta/",
-    "https://www.ghafla.co.ke/atwoli-rejects-sifunas-presidential-ambitions/"
+    "https://www.ghafla.co.ke/atwoli-rejects-sifunas-presidential-ambitions/",
+    "https://www.ghafla.co.ke/pastor-victor-kanyari-calls-out-church-congregants-for-offering-low-sadaka/"
   ],
   "published_angles": [
     {
@@ -247,6 +249,14 @@
       "opening": "Personality lead opening directly on Francis Atwoli shutting down Edwin Sifuna's presidential talk with his unvarnished 'stages of suffering' checklist on Sunday Live.",
       "structure": "Personality hook with direct quotes -> The specific hazing checklist (churches, detention, school fees) -> Reality check on Linda Mwananchi rally crowds -> Historical cautionary tales (Matiba, Jaramogi, Ngei) -> Governors, business networks, and the Raila Odinga comparison -> Unresolved 2027 executive hints close.",
       "source": "https://www.ghafla.co.ke/atwoli-rejects-sifunas-presidential-ambitions/"
+    },
+    {
+      "title": "\u2018Can\u2019t Even Buy Bhajia\u2019: Pastor Kanyari Spills Offertory Bag on Altar in Planned Bid to \u2018Trend\u2019",
+      "angle": "Focusing on Kanyari's deliberate, self-aware pulpit theatrics\u2014orchestrating a real-time viral stunt ('we must trend today') to publicly audit his flock's pocket change while turning long-standing monetization accusations into altar performance.",
+      "angle_type": "personality theatrics and viral narrative staging",
+      "opening": "Personality lead opening directly on Pastor Victor Kanyari staging an altar-side financial audit and daring social media algorithms to make him trend.",
+      "structure": "Personality hook and theatrical quote -> Detailed altar audit scene -> The bhajia quip and crowd shaming -> Preemptive strike against his money-extractor reputation -> Viral aftermath and closing concrete fact.",
+      "source": "https://www.ghafla.co.ke/pastor-victor-kanyari-calls-out-church-congregants-for-offering-low-sadaka/"
     }
   ],
   "style_history": [
