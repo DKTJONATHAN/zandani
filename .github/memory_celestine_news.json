@@ -624,10 +624,10 @@
     "babd9f80e578b23f89c12bea3d15b137",
     "ead5e5124f659c41c15ed6cfdc6fa56b",
     "acd0d48488f2bdcfae5501a5d2f4dd52",
-    "4e5168c64d75740140da3f4b878302fa"
+    "4e5168c64d75740140da3f4b878302fa",
+    "6b7d7e48db32471eeb0635bb0c777217"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -656,7 +656,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -865,7 +866,8 @@
     "https://kenyans.co.ke/news/127234-azimio-la-umoja-rebrands-ukombozi-alliance-new-political-twist",
     "https://kenyans.co.ke/news/127233-kra-sets-october-deadline-customs-businesses-renew-licences",
     "https://kenyans.co.ke/news/127227-you-do-not-have-sign-deal-be-legally-bound-high-court-rules",
-    "https://kenyans.co.ke/news/127237-police-recover-ksh72-million-worth-substances-wrecked-suv"
+    "https://kenyans.co.ke/news/127237-police-recover-ksh72-million-worth-substances-wrecked-suv",
+    "https://kenyans.co.ke/news/127241-cma-warns-public-against-unverified-dangote-refinery-ipo-documents"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -996,7 +998,8 @@
     "opposition retires azimio banner one term ukombozi alliance",
     "kra tightens customs sieve early audit clearing agents godowns",
     "high court shields vendors when buyer mechanics vet informal deals",
-    "crashed mazda exposes ksh highway drug transit blind spot"
+    "crashed mazda exposes ksh highway drug transit blind spot",
+    "cma draws hard line unlicensed dangote ipo solicitations"
   ],
   "topic_keys": [
     "news tracker",
@@ -1446,6 +1449,15 @@
       "structure": "Accident logistics lead -> Mechanics of the crash and driver flight -> Scale of the hidden contraband vs previous corridor busts -> National Anti-Narcotics Investigations Bureau handover and unresolved enforcement gaps.",
       "source": "https://kenyans.co.ke/news/127237-police-recover-ksh72-million-worth-substances-wrecked-suv",
       "published_at": "2026-09-21T13:02:19Z"
+    },
+    {
+      "title": "CMA Draws Hard Line on Unlicensed Dangote IPO Solicitations",
+      "angle": "The jurisdictional clash between cross-border pan-African retail share distribution through digital channels and local regulatory boundaries, leaving Kenyan retail buyers legally unprotected if they bypass domestic capital market rules.",
+      "angle_type": "institutional pressure",
+      "opening": "Jurisdictional boundary lead highlighting CMA's intervention against domestic participation in foreign-regulated digital share sales.",
+      "structure": "Statutory warning and cross-border gap -> The mechanics and valuation scale of the Nigerian listing -> Digital distribution push vs local investor protections -> Regulatory compliance requirements and official advisory.",
+      "source": "https://kenyans.co.ke/news/127241-cma-warns-public-against-unverified-dangote-refinery-ipo-documents",
+      "published_at": "2026-09-21T15:02:23Z"
     }
   ]
 }
