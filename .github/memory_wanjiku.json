@@ -22,7 +22,8 @@
     "db099b76b7939f3321239cf1acaed20b8fb22564925d51646bb29be2a4ac5675",
     "6ea63d01587a864b7768036c5a1ee7fd946fbb72a6e9538135b7ad20d193fc57",
     "92169a7cc156a39bf3dba872f7bae7a6dda8e80351e09253ae547d4c2b2012ef",
-    "4ea7cd60e2d0b88b8ea2bf0b3d55b61fddc414a4721c0d9235c74a2a88ad72f9"
+    "4ea7cd60e2d0b88b8ea2bf0b3d55b61fddc414a4721c0d9235c74a2a88ad72f9",
+    "9df8c97b6d5fb8d9d58bc68b02ad881afc627607927659c04f314c509089d5d6"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -47,7 +48,8 @@
     "https://www.ghafla.co.ke/terence-creative-publicly-asks-wife-milly-chebby-for-second-child/",
     "https://www.ghafla.co.ke/forex-trader-sammy-boy-involved-in-nairobi-road-accident-with-boda-boda-rider/",
     "https://www.ghafla.co.ke/mwai-kibakis-grandson-sean-andrew-admits-avoiding-to-learn-kiswahili/",
-    "https://www.ghafla.co.ke/nadia-mukami-and-arrow-bwoy-set-to-release-new-song-after-break-up/"
+    "https://www.ghafla.co.ke/nadia-mukami-and-arrow-bwoy-set-to-release-new-song-after-break-up/",
+    "https://www.ghafla.co.ke/court-denies-bail-to-8-utumishi-girls-academy-students-facing-16-counts-of-murder/"
   ],
   "published_angles": [
     {
@@ -217,6 +219,14 @@
       "opening": "Personality lead opening directly on Nadia Mukami drawing a firm line between commercial collaboration and romantic reality.",
       "structure": "Personality lead -> Joint project announcement details -> Contrast with stage gestures and Arrow Bwoy's public overtures -> Nadia's firm boundary and co-parenting reality -> Concrete rollout close",
       "source": "https://www.ghafla.co.ke/nadia-mukami-and-arrow-bwoy-set-to-release-new-song-after-break-up/"
+    },
+    {
+      "title": "Strict Anonymity Orders Guard Utumishi Girls Minors as Kibera Court Denies Bail in Murder Case",
+      "angle": "Focusing on the strict child-protection legal framework and mandatory anonymity orders enforced by the court, highlighting how the judicial system is managing the unprecedented media and public handling of minors facing capital charges.",
+      "angle_type": "legal accountability and child-protection protocols",
+      "opening": "Start directly with the courtroom anonymity directive and the legal restrictions surrounding the minor accused.",
+      "structure": "Courtroom legal safeguards -> Bail rejection rationale based on extreme gravity and victim recovery -> Case background (Gilgil fire, 16 counts, July plea) -> Ongoing trial trajectory at Kibera High Court.",
+      "source": "https://www.ghafla.co.ke/court-denies-bail-to-8-utumishi-girls-academy-students-facing-16-counts-of-murder/"
     }
   ],
   "style_history": [
