@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Bell, BellRing, Check, X, Smartphone, Monitor, ShieldCheck, AlertCircle } from "lucide-react";
+import { Bell, BellRing, X, Smartphone, Monitor, ShieldCheck, AlertCircle } from "lucide-react";
 
 const DEFAULT_VAPID_PUBLIC =
   "BBnR6tuQ90TWFE4vz3Mwm2R3-gox9VEMVdZCC3U6u5_zpoeeEjjkAKSbc-UcTBGrDpC8XbxJus_0CP9PdNn8Jyc";
