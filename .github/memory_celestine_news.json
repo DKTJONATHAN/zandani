@@ -619,10 +619,10 @@
     "a722e160d31e92908a5a8fb561988686",
     "75b9a8099529d31046ba2e223b8bdfd6",
     "360c41a43e6be5f0ad721a7347e3cbff",
-    "4e7551d852e0e8f2103afc85c6a1e4bb"
+    "4e7551d852e0e8f2103afc85c6a1e4bb",
+    "fa7dbc24d0cebd8554636eef9e2f3229"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -651,7 +651,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -855,7 +856,8 @@
     "https://kenyans.co.ke/news/127222-knchr-calls-probe-alleged-assaults-house-torchings-west-pokot",
     "https://kenyans.co.ke/news/127225-ardhisasa-goes-down-again-users-warned-disrupted-land-services",
     "https://kenyans.co.ke/news/127226-former-iebc-officer-faces-8-month-jail-term-over-fake-university-degree",
-    "https://kenyans.co.ke/news/127230-high-court-declares-law-restricting-retired-presidents-active-politics-unconstitutional"
+    "https://kenyans.co.ke/news/127230-high-court-declares-law-restricting-retired-presidents-active-politics-unconstitutional",
+    "https://kenyans.co.ke/news/127232-suleiman-shahbals-son-takes-over-interim-leader-new-democrats-party"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -981,7 +983,8 @@
     "west pokot disarmament raids put murkomen targeted police doctrine line",
     "ardhisasa outage freezes property deals digital only registry stalls again",
     "iebc officer penalised forged moi university degree used job promotion",
-    "post presidency compromise courts strip uhuru party titles but shield political rights"
+    "post presidency compromise courts strip uhuru party titles but shield political rights",
+    "shahbal camp locks down party vehicle son takes democrats"
   ],
   "topic_keys": [
     "news tracker",
@@ -1386,6 +1389,15 @@
       "structure": "Constitutional compromise overview -> The Mwamuye ruling on private citizenship -> The Mugambi ruling on party office restrictions -> Practical political impact on Uhuru and the Jubilee Party -> Executive power vs. private rights friction.",
       "source": "https://kenyans.co.ke/news/127230-high-court-declares-law-restricting-retired-presidents-active-politics-unconstitutional",
       "published_at": "2026-09-21T09:01:48Z"
+    },
+    {
+      "title": "Shahbal Camp Locks Down Party Vehicle as Son Takes Over The New Democrats",
+      "angle": "Framing the installation of Samir Shahbal as an electoral insurance maneuver by the Shahbal family, securing a turnkey party ticket ahead of the 2027 Mombasa gubernatorial race following Suleiman Shahbal's public refusal to stand down at President Ruto's request.",
+      "angle_type": "practical change",
+      "opening": "Statutory lead anchoring the gazetted change of party leadership directly to the brewing electoral contest in Mombasa.",
+      "structure": "Statutory gazette notice lead -> Breakdown of executive changes and statutory timelines -> Political backdrop of Suleiman Shahbal's defiance against State House -> Samir Shahbal's emerging political footprint -> Analysis of alternative vehicle strategy for 2027",
+      "source": "https://kenyans.co.ke/news/127232-suleiman-shahbals-son-takes-over-interim-leader-new-democrats-party",
+      "published_at": "2026-09-21T10:01:36Z"
     }
   ]
 }
