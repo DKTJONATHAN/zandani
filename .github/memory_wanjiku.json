@@ -19,7 +19,8 @@
     "54af774825077a44df312b057a03a79025fe51c93110f119dc3086a7ad796c61",
     "2092b61fce61b369b9aa3ac7452a05859248ffe70a61a4e12ae098d53889c221",
     "19a7809e9dc40b22c7fc36b8186b729863fb1ffbe963ace51271f0bb3d5c9593",
-    "db099b76b7939f3321239cf1acaed20b8fb22564925d51646bb29be2a4ac5675"
+    "db099b76b7939f3321239cf1acaed20b8fb22564925d51646bb29be2a4ac5675",
+    "6ea63d01587a864b7768036c5a1ee7fd946fbb72a6e9538135b7ad20d193fc57"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -41,7 +42,8 @@
     "https://www.ghafla.co.ke/osotsi-says-linda-mwananchi-will-unveil-new-party-within-two-weeks/",
     "https://www.ghafla.co.ke/babu-owino-unveils-the-mwananchi-party-as-political-vehicle-ahead-of-2027/",
     "https://www.ghafla.co.ke/linus-kaikai-rejects-trevor-ombijas-claim-that-gachagua-sought-his-removal-from-citizen-tv/",
-    "https://www.ghafla.co.ke/terence-creative-publicly-asks-wife-milly-chebby-for-second-child/"
+    "https://www.ghafla.co.ke/terence-creative-publicly-asks-wife-milly-chebby-for-second-child/",
+    "https://www.ghafla.co.ke/forex-trader-sammy-boy-involved-in-nairobi-road-accident-with-boda-boda-rider/"
   ],
   "published_angles": [
     {
@@ -187,6 +189,14 @@
       "opening": "Personality lead focusing directly on Terence Creative turning a concert stage into an unscripted family negotiation.",
       "structure": "Stage hook and verbatim request -> the immediate viral scene -> deeper context of Chebby's 2025 medical emergency -> blended family dynamics -> forward-looking close.",
       "source": "https://www.ghafla.co.ke/terence-creative-publicly-asks-wife-milly-chebby-for-second-child/"
+    },
+    {
+      "title": "Sammy Boy\u2019s Convertible Mercedes Meets Nairobi Street Reality in Boda Boda Crash",
+      "angle": "Focusing on the sharp, visual collision between Sammy Boy's high-profile online luxury displays and the immediate, high-tension reality of Nairobi street traffic when his convertible Mercedes was surrounded by gathered riders after sustaining heavy front-end damage.",
+      "angle_type": "lifestyle clash and public incident",
+      "opening": "Personality lead opening directly on Sammy Boy's shift from online luxury displays to an intense roadside scene on a Nairobi street.",
+      "structure": "Person and luxury hook -> specific crash details and vehicle damage -> viral split-screen video dynamics -> Nairobi street context around boda boda gatherings -> unconfirmed facts and ongoing status.",
+      "source": "https://www.ghafla.co.ke/forex-trader-sammy-boy-involved-in-nairobi-road-accident-with-boda-boda-rider/"
     }
   ],
   "style_history": [
