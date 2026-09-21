@@ -7,7 +7,8 @@ const distDir = path.join(process.cwd(), 'dist');
 const postsDir = path.join(process.cwd(), 'content/posts');
 const indexHtmlPath = path.join(distDir, 'index.html');
 const SITE_URL = 'https://zandani.co.ke';
-const DEFAULT_IMAGE = `${SITE_URL}/logo.png`;
+// Neutral placeholder — never use the brand logo as a default article/OG image.
+const DEFAULT_IMAGE = `${SITE_URL}/images/default-og.svg`;
 
 if (!fs.existsSync(indexHtmlPath)) {
   console.error('No dist/index.html found. Run vite build first.');
@@ -18,10 +19,10 @@ const baseHtml = fs.readFileSync(indexHtmlPath, 'utf8');
 
 function escapeHtml(value) {
   return String(value ?? '')
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
+    .replace(/&/g, '&')
+    .replace(/</g, '<')
+    .replace(/>/g, '>')
+    .replace(/"/g, '"')
     .replace(/'/g, '&#39;');
 }
 
