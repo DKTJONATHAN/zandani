@@ -620,10 +620,10 @@
     "75b9a8099529d31046ba2e223b8bdfd6",
     "360c41a43e6be5f0ad721a7347e3cbff",
     "4e7551d852e0e8f2103afc85c6a1e4bb",
-    "fa7dbc24d0cebd8554636eef9e2f3229"
+    "fa7dbc24d0cebd8554636eef9e2f3229",
+    "babd9f80e578b23f89c12bea3d15b137"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -652,7 +652,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -857,7 +858,8 @@
     "https://kenyans.co.ke/news/127225-ardhisasa-goes-down-again-users-warned-disrupted-land-services",
     "https://kenyans.co.ke/news/127226-former-iebc-officer-faces-8-month-jail-term-over-fake-university-degree",
     "https://kenyans.co.ke/news/127230-high-court-declares-law-restricting-retired-presidents-active-politics-unconstitutional",
-    "https://kenyans.co.ke/news/127232-suleiman-shahbals-son-takes-over-interim-leader-new-democrats-party"
+    "https://kenyans.co.ke/news/127232-suleiman-shahbals-son-takes-over-interim-leader-new-democrats-party",
+    "https://kenyans.co.ke/news/127234-azimio-la-umoja-rebrands-ukombozi-alliance-new-political-twist"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -984,7 +986,8 @@
     "ardhisasa outage freezes property deals digital only registry stalls again",
     "iebc officer penalised forged moi university degree used job promotion",
     "post presidency compromise courts strip uhuru party titles but shield political rights",
-    "shahbal camp locks down party vehicle son takes democrats"
+    "shahbal camp locks down party vehicle son takes democrats",
+    "opposition retires azimio banner one term ukombozi alliance"
   ],
   "topic_keys": [
     "news tracker",
@@ -1398,6 +1401,15 @@
       "structure": "Statutory gazette notice lead -> Breakdown of executive changes and statutory timelines -> Political backdrop of Suleiman Shahbal's defiance against State House -> Samir Shahbal's emerging political footprint -> Analysis of alternative vehicle strategy for 2027",
       "source": "https://kenyans.co.ke/news/127232-suleiman-shahbals-son-takes-over-interim-leader-new-democrats-party",
       "published_at": "2026-09-21T10:01:36Z"
+    },
+    {
+      "title": "Opposition Retires Azimio Banner for \u2018One Term\u2019 Ukombozi Alliance",
+      "angle": "The operational dismantling of the 2022 Azimio framework to build a single-term transitional coalition, expanding beyond legacy strongholds by recruiting reformist outsider David Maraga and devolved figures like Kawira Mwangaza ahead of Jubilee negotiations.",
+      "angle_type": "political realignment",
+      "opening": "Strategic lead focusing on the formal retirement of the Azimio identity and the rollout of the 'One Term' coalition doctrine.",
+      "structure": "Platform doctrine and renaming -> Coalition expansion (Maraga, Mwangaza) -> Transition timeline and Jubilee strategy session -> Court ruling defense of Uhuru's political rights.",
+      "source": "https://kenyans.co.ke/news/127234-azimio-la-umoja-rebrands-ukombozi-alliance-new-political-twist",
+      "published_at": "2026-09-21T11:01:34Z"
     }
   ]
 }
