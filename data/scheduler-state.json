@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-21T18:00:47.842Z",
+  "updated": "2026-09-21T19:00:37.856Z",
   "desks": {
     "news": {
-      "lastTriggeredAt": "2026-09-21T18:00:36.600Z",
+      "lastTriggeredAt": "2026-09-21T19:00:33.492Z",
       "lastStatus": "ok",
       "lastError": null,
       "lastSource": "cron",
