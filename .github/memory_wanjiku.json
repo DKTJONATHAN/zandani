@@ -18,7 +18,8 @@
     "a6b3b62386875176b3117cd02375eb25acae00013492fca40443999c43f4fed9",
     "54af774825077a44df312b057a03a79025fe51c93110f119dc3086a7ad796c61",
     "2092b61fce61b369b9aa3ac7452a05859248ffe70a61a4e12ae098d53889c221",
-    "19a7809e9dc40b22c7fc36b8186b729863fb1ffbe963ace51271f0bb3d5c9593"
+    "19a7809e9dc40b22c7fc36b8186b729863fb1ffbe963ace51271f0bb3d5c9593",
+    "db099b76b7939f3321239cf1acaed20b8fb22564925d51646bb29be2a4ac5675"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -39,7 +40,8 @@
     "https://www.ghafla.co.ke/how-the-g-to-g-petroleum-framework-eased-us-dollar-scarcity-and-stabilized-kenyas-economy/",
     "https://www.ghafla.co.ke/osotsi-says-linda-mwananchi-will-unveil-new-party-within-two-weeks/",
     "https://www.ghafla.co.ke/babu-owino-unveils-the-mwananchi-party-as-political-vehicle-ahead-of-2027/",
-    "https://www.ghafla.co.ke/linus-kaikai-rejects-trevor-ombijas-claim-that-gachagua-sought-his-removal-from-citizen-tv/"
+    "https://www.ghafla.co.ke/linus-kaikai-rejects-trevor-ombijas-claim-that-gachagua-sought-his-removal-from-citizen-tv/",
+    "https://www.ghafla.co.ke/terence-creative-publicly-asks-wife-milly-chebby-for-second-child/"
   ],
   "published_angles": [
     {
@@ -177,6 +179,14 @@
       "opening": "Open directly on the regulatory countdown that will force prominent TV personalities off the screen.",
       "structure": "Regulatory countdown -> Trevor Ombija's campaign-trail friction in Nyakach -> Letoo and Wanyama's parallel political moves -> MCK's specific upcoming mandates and the validation timeline -> The looming high-stakes choice for screen stars.",
       "source": "https://www.ghafla.co.ke/linus-kaikai-rejects-trevor-ombijas-claim-that-gachagua-sought-his-removal-from-citizen-tv/"
+    },
+    {
+      "title": "\u2018Will You Give Me Another Baby?\u2019: Terence Creative Takes a Knee for Milly Chebby at Mataha Experience",
+      "angle": "Framing the unscripted stage proposal against the couple's serious health scare, highlighting the poignant reality behind the humor months after Milly survived a life-threatening ectopic pregnancy.",
+      "angle_type": "celebrity relationship milestone and health resilience",
+      "opening": "Personality lead focusing directly on Terence Creative turning a concert stage into an unscripted family negotiation.",
+      "structure": "Stage hook and verbatim request -> the immediate viral scene -> deeper context of Chebby's 2025 medical emergency -> blended family dynamics -> forward-looking close.",
+      "source": "https://www.ghafla.co.ke/terence-creative-publicly-asks-wife-milly-chebby-for-second-child/"
     }
   ],
   "style_history": [
