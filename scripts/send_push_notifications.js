@@ -193,7 +193,7 @@ async function main() {
       data.subscriptions = (data.subscriptions || []).filter((s) => !dead.has(s.endpoint));
       data.updated = new Date().toISOString();
       fs.writeFileSync(SUBS_PATH, JSON.stringify(data, null, 2) + "\n");
-      console.log(`pruned ${dead.size} dead subscription(s) locally");
+      console.log(`pruned ${dead.size} dead subscription(s) locally`);
     } catch (e) {
       console.warn("prune failed", e.message);
     }
