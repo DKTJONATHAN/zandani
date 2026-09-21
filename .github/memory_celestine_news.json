@@ -623,10 +623,10 @@
     "fa7dbc24d0cebd8554636eef9e2f3229",
     "babd9f80e578b23f89c12bea3d15b137",
     "ead5e5124f659c41c15ed6cfdc6fa56b",
-    "acd0d48488f2bdcfae5501a5d2f4dd52"
+    "acd0d48488f2bdcfae5501a5d2f4dd52",
+    "4e5168c64d75740140da3f4b878302fa"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -655,7 +655,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -863,7 +864,8 @@
     "https://kenyans.co.ke/news/127232-suleiman-shahbals-son-takes-over-interim-leader-new-democrats-party",
     "https://kenyans.co.ke/news/127234-azimio-la-umoja-rebrands-ukombozi-alliance-new-political-twist",
     "https://kenyans.co.ke/news/127233-kra-sets-october-deadline-customs-businesses-renew-licences",
-    "https://kenyans.co.ke/news/127227-you-do-not-have-sign-deal-be-legally-bound-high-court-rules"
+    "https://kenyans.co.ke/news/127227-you-do-not-have-sign-deal-be-legally-bound-high-court-rules",
+    "https://kenyans.co.ke/news/127237-police-recover-ksh72-million-worth-substances-wrecked-suv"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -993,7 +995,8 @@
     "shahbal camp locks down party vehicle son takes democrats",
     "opposition retires azimio banner one term ukombozi alliance",
     "kra tightens customs sieve early audit clearing agents godowns",
-    "high court shields vendors when buyer mechanics vet informal deals"
+    "high court shields vendors when buyer mechanics vet informal deals",
+    "crashed mazda exposes ksh highway drug transit blind spot"
   ],
   "topic_keys": [
     "news tracker",
@@ -1434,6 +1437,15 @@
       "structure": "Judicial attribution and ruling core -> Breakdown of who benefits (sellers insulated by buyer-led inspections) -> The factual dispute over the Ksh 920,000 lorry engine -> Reversal of the Small Claims Court contradiction -> Enforcement timetable for the refund.",
       "source": "https://kenyans.co.ke/news/127227-you-do-not-have-sign-deal-be-legally-bound-high-court-rules",
       "published_at": "2026-09-21T12:02:09Z"
+    },
+    {
+      "title": "Crashed Mazda CX-5 Exposes KSh 7.2M Highway Drug Transit Blind Spot",
+      "angle": "The operational vulnerability of using private crossover SUVs as courier nodes along heavily monitored transport corridors, and the recurring enforcement blind spots on the Nairobi-Nakuru highway.",
+      "angle_type": "accountability",
+      "opening": "An operational lead centering on the logistics failure of highway drug transit when routine traffic accidents collide with underground supply chains.",
+      "structure": "Accident logistics lead -> Mechanics of the crash and driver flight -> Scale of the hidden contraband vs previous corridor busts -> National Anti-Narcotics Investigations Bureau handover and unresolved enforcement gaps.",
+      "source": "https://kenyans.co.ke/news/127237-police-recover-ksh72-million-worth-substances-wrecked-suv",
+      "published_at": "2026-09-21T13:02:19Z"
     }
   ]
 }
