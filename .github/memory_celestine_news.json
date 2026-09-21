@@ -618,10 +618,10 @@
     "0539a91b418148f34f0d1c78ede3dd18",
     "a722e160d31e92908a5a8fb561988686",
     "75b9a8099529d31046ba2e223b8bdfd6",
-    "360c41a43e6be5f0ad721a7347e3cbff"
+    "360c41a43e6be5f0ad721a7347e3cbff",
+    "4e7551d852e0e8f2103afc85c6a1e4bb"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -650,7 +650,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -853,7 +854,8 @@
     "https://kenyans.co.ke/news/127024-explained-why-bcg-vaccine-leaves-permanent-scar",
     "https://kenyans.co.ke/news/127222-knchr-calls-probe-alleged-assaults-house-torchings-west-pokot",
     "https://kenyans.co.ke/news/127225-ardhisasa-goes-down-again-users-warned-disrupted-land-services",
-    "https://kenyans.co.ke/news/127226-former-iebc-officer-faces-8-month-jail-term-over-fake-university-degree"
+    "https://kenyans.co.ke/news/127226-former-iebc-officer-faces-8-month-jail-term-over-fake-university-degree",
+    "https://kenyans.co.ke/news/127230-high-court-declares-law-restricting-retired-presidents-active-politics-unconstitutional"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -978,7 +980,8 @@
     "intradermal injection mechanics bcg scar proves skin reaction immune efficacy",
     "west pokot disarmament raids put murkomen targeted police doctrine line",
     "ardhisasa outage freezes property deals digital only registry stalls again",
-    "iebc officer penalised forged moi university degree used job promotion"
+    "iebc officer penalised forged moi university degree used job promotion",
+    "post presidency compromise courts strip uhuru party titles but shield political rights"
   ],
   "topic_keys": [
     "news tracker",
@@ -1374,6 +1377,15 @@
       "structure": "Attribution and conviction terms -> Mechanics of the grade elevation scheme -> Regulatory context and multi-agency verification rollout -> Unresolved deterrence and wage recovery stakes.",
       "source": "https://kenyans.co.ke/news/127226-former-iebc-officer-faces-8-month-jail-term-over-fake-university-degree",
       "published_at": "2026-09-21T08:01:57Z"
+    },
+    {
+      "title": "The Post-Presidency Compromise: Courts Strip Uhuru of Party Titles But Shield Political Rights",
+      "angle": "Reframing the development around the emerging dual legal status of retired Kenyan presidents\u2014how consecutive court rulings have stripped them of formal party executive machinery while simultaneously safeguarding their absolute constitutional right to operate as active, unregulated political actors in their private capacities.",
+      "angle_type": "practical change",
+      "opening": "Dual-track legal framework lead defining the split status of retired presidents rather than a generic celebration of Uhuru's court win.",
+      "structure": "Constitutional compromise overview -> The Mwamuye ruling on private citizenship -> The Mugambi ruling on party office restrictions -> Practical political impact on Uhuru and the Jubilee Party -> Executive power vs. private rights friction.",
+      "source": "https://kenyans.co.ke/news/127230-high-court-declares-law-restricting-retired-presidents-active-politics-unconstitutional",
+      "published_at": "2026-09-21T09:01:48Z"
     }
   ]
 }
