@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-21T20:00:35.775Z",
+  "updated": "2026-09-21T21:00:34.464Z",
   "logs": [
+    {
+      "id": "news-1790024434164",
+      "desk": "news",
+      "scheduledFor": "2026-09-22 00:00:31",
+      "dispatchedAt": "2026-09-21T21:00:32.122Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "news-1790020834875",
       "desk": "news",
@@ -1990,16 +2000,6 @@
       "ok": true,
       "error": null,
       "source": "cron"
-    },
-    {
-      "id": "news-1789814623014",
-      "desk": "news",
-      "scheduledFor": "2026-09-19T10:43:41.682Z",
-      "dispatchedAt": "2026-09-19T10:43:41.682Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
-      "source": "manual"
     }
   ]
 }
