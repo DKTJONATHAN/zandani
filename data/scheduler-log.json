@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-21T05:00:57.816Z",
+  "updated": "2026-09-21T05:08:38.672Z",
   "logs": [
+    {
+      "id": "entertainment-1789967318358",
+      "desk": "entertainment",
+      "scheduledFor": "2026-09-21 08:08:36",
+      "dispatchedAt": "2026-09-21T05:08:36.744Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "sports-1789966857375",
       "desk": "sports",
@@ -1986,16 +1996,6 @@
       "desk": "news",
       "scheduledFor": "2026-09-18 21:00:18",
       "dispatchedAt": "2026-09-18T18:00:18.287Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
-      "source": "cron"
-    },
-    {
-      "id": "ghafla-1789753459891",
-      "desk": "ghafla",
-      "scheduledFor": "2026-09-18 20:44:18",
-      "dispatchedAt": "2026-09-18T17:44:18.265Z",
       "status": 204,
       "ok": true,
       "error": null,
