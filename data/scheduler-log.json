@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-21T13:00:38.373Z",
+  "updated": "2026-09-21T13:00:44.008Z",
   "logs": [
+    {
+      "id": "opinions-1789995643680",
+      "desk": "opinions",
+      "scheduledFor": "2026-09-21 16:00:35",
+      "dispatchedAt": "2026-09-21T13:00:42.025Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "news-1789995638010",
       "desk": "news",
@@ -1986,16 +1996,6 @@
       "desk": "agriculture",
       "scheduledFor": "2026-09-19 07:00:04",
       "dispatchedAt": "2026-09-19T04:00:11.100Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
-      "source": "cron"
-    },
-    {
-      "id": "news-1789790407044",
-      "desk": "news",
-      "scheduledFor": "2026-09-19 07:00:04",
-      "dispatchedAt": "2026-09-19T04:00:05.214Z",
       "status": 204,
       "ok": true,
       "error": null,
