@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T19:29:44.062Z",
+  "updated": "2026-09-21T13:36:57.162Z",
   "subscribers": [
     {
       "email": "trebilcom@gmail.com",
@@ -65,6 +65,11 @@
     {
       "email": "susanwambuimbaire@gmail.com",
       "subscribed_at": "2026-09-13T19:29:44.062Z",
+      "active": true
+    },
+    {
+      "email": "duncboro@gmail.com",
+      "subscribed_at": "2026-09-21T13:36:57.162Z",
       "active": true
     }
   ]
