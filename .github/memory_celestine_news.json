@@ -615,10 +615,10 @@
     "b17e5e5a783473eb66b30bd3e2ab510f",
     "487ea70e04758db33313f943d008c89a",
     "3862901ff32689a06cbab7712b79159d",
-    "0539a91b418148f34f0d1c78ede3dd18"
+    "0539a91b418148f34f0d1c78ede3dd18",
+    "a722e160d31e92908a5a8fb561988686"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Desk Take",
     "Statement Report",
@@ -647,7 +647,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -847,7 +848,8 @@
     "https://kenyans.co.ke/news/127216-epra-adjusts-electricity-charges-ksh416-kwh-pass-through-costs-apply",
     "https://kenyans.co.ke/news/127212-huduma-kenya-says-lost-birth-certificate-replacement-costs-ksh210",
     "https://kenyans.co.ke/news/127218-two-kenyans-prepare-manaslu-summit-after-climbers-killed-avalanche",
-    "https://kenyans.co.ke/news/127024-explained-why-bcg-vaccine-leaves-permanent-scar"
+    "https://kenyans.co.ke/news/127024-explained-why-bcg-vaccine-leaves-permanent-scar",
+    "https://kenyans.co.ke/news/127222-knchr-calls-probe-alleged-assaults-house-torchings-west-pokot"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -969,7 +971,8 @@
     "state slashes solar export credits shield grid green power surge",
     "huduma locks ksh 210 birth certificate fee amid stalled tariff hike",
     "snowstorms pin down climbers manaslu himalayan fatalities rise",
-    "intradermal injection mechanics bcg scar proves skin reaction immune efficacy"
+    "intradermal injection mechanics bcg scar proves skin reaction immune efficacy",
+    "west pokot disarmament raids put murkomen targeted police doctrine line"
   ],
   "topic_keys": [
     "news tracker",
@@ -1338,6 +1341,15 @@
       "structure": "Dermal injection lead -> Ulceration and tissue healing cycle -> Diagnostic vs immunologic limits (WHO findings) -> Clinical role in high-burden TB protection -> Ending on administration variability.",
       "source": "https://kenyans.co.ke/news/127024-explained-why-bcg-vaccine-leaves-permanent-scar",
       "published_at": "2026-09-20T17:02:05Z"
+    },
+    {
+      "title": "West Pokot Disarmament Raids Put Murkomen\u2019s 'Targeted' Police Doctrine on the Line",
+      "angle": "Examining the operational divergence between the Interior Ministry's promised 'intelligence-led' surgical disarmament protocol and reports of collective punishment and village burnings on the ground, exposing a critical oversight void within multi-agency task forces.",
+      "angle_type": "accountability",
+      "opening": "Operational-gap lead contrasting the government's official targeted disarmament doctrine with reported indiscriminate village raids in Pokot Central.",
+      "structure": "Doctrine vs reality lead -> Specific Pokot Central violations (Nasolot and Sarmach) -> Statutory call for multi-agency oversight (IPOA/DCI) -> Regional backdrop of escalating violence along the Turkana border -> Wider North Rift and Eastern operational concerns.",
+      "source": "https://kenyans.co.ke/news/127222-knchr-calls-probe-alleged-assaults-house-torchings-west-pokot",
+      "published_at": "2026-09-21T05:52:57Z"
     }
   ]
 }
