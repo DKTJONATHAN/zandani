@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-21T07:00:24.937Z",
+  "updated": "2026-09-21T07:00:29.681Z",
   "logs": [
+    {
+      "id": "jaj-1789974029440",
+      "desk": "jaj",
+      "scheduledFor": "2026-09-21 10:00:22",
+      "dispatchedAt": "2026-09-21T07:00:28.056Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "news-1789974024693",
       "desk": "news",
@@ -1986,16 +1996,6 @@
       "desk": "news",
       "scheduledFor": "2026-09-19 00:00:18",
       "dispatchedAt": "2026-09-18T21:00:18.379Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
-      "source": "cron"
-    },
-    {
-      "id": "news-1789761620251",
-      "desk": "news",
-      "scheduledFor": "2026-09-18 23:00:18",
-      "dispatchedAt": "2026-09-18T20:00:18.280Z",
       "status": 204,
       "ok": true,
       "error": null,
