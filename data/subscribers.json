@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T20:43:38.884Z",
+  "updated": "2026-09-21T20:43:39.860Z",
   "subscribers": [
     {
       "email": "trebilcom@gmail.com",
@@ -75,6 +75,11 @@
     {
       "email": "florencenyagah82@gmail.com",
       "subscribed_at": "2026-09-21T20:43:38.884Z",
+      "active": true
+    },
+    {
+      "email": "emmaculatekananak@gmail.com",
+      "subscribed_at": "2026-09-21T20:43:39.860Z",
       "active": true
     }
   ]
