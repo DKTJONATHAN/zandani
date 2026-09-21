@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-21T17:08:34.163Z",
+  "updated": "2026-09-21T17:20:34.086Z",
   "logs": [
+    {
+      "id": "mpasho-1790011233574",
+      "desk": "mpasho",
+      "scheduledFor": "2026-09-21 20:20:31",
+      "dispatchedAt": "2026-09-21T17:20:31.879Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "entertainment-1790010513790",
       "desk": "entertainment",
@@ -1990,16 +2000,6 @@
       "ok": true,
       "error": null,
       "source": "cron"
-    },
-    {
-      "id": "news-1789805153353",
-      "desk": "news",
-      "scheduledFor": "2026-09-19T08:05:51.713Z",
-      "dispatchedAt": "2026-09-19T08:05:51.713Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
-      "source": "manual"
     }
   ]
 }
