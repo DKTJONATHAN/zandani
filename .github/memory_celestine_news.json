@@ -616,10 +616,10 @@
     "487ea70e04758db33313f943d008c89a",
     "3862901ff32689a06cbab7712b79159d",
     "0539a91b418148f34f0d1c78ede3dd18",
-    "a722e160d31e92908a5a8fb561988686"
+    "a722e160d31e92908a5a8fb561988686",
+    "75b9a8099529d31046ba2e223b8bdfd6"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -648,7 +648,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -849,7 +850,8 @@
     "https://kenyans.co.ke/news/127212-huduma-kenya-says-lost-birth-certificate-replacement-costs-ksh210",
     "https://kenyans.co.ke/news/127218-two-kenyans-prepare-manaslu-summit-after-climbers-killed-avalanche",
     "https://kenyans.co.ke/news/127024-explained-why-bcg-vaccine-leaves-permanent-scar",
-    "https://kenyans.co.ke/news/127222-knchr-calls-probe-alleged-assaults-house-torchings-west-pokot"
+    "https://kenyans.co.ke/news/127222-knchr-calls-probe-alleged-assaults-house-torchings-west-pokot",
+    "https://kenyans.co.ke/news/127225-ardhisasa-goes-down-again-users-warned-disrupted-land-services"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -972,7 +974,8 @@
     "huduma locks ksh 210 birth certificate fee amid stalled tariff hike",
     "snowstorms pin down climbers manaslu himalayan fatalities rise",
     "intradermal injection mechanics bcg scar proves skin reaction immune efficacy",
-    "west pokot disarmament raids put murkomen targeted police doctrine line"
+    "west pokot disarmament raids put murkomen targeted police doctrine line",
+    "ardhisasa outage freezes property deals digital only registry stalls again"
   ],
   "topic_keys": [
     "news tracker",
@@ -1350,6 +1353,15 @@
       "structure": "Doctrine vs reality lead -> Specific Pokot Central violations (Nasolot and Sarmach) -> Statutory call for multi-agency oversight (IPOA/DCI) -> Regional backdrop of escalating violence along the Turkana border -> Wider North Rift and Eastern operational concerns.",
       "source": "https://kenyans.co.ke/news/127222-knchr-calls-probe-alleged-assaults-house-torchings-west-pokot",
       "published_at": "2026-09-21T05:52:57Z"
+    },
+    {
+      "title": "ArdhiSasa Outage Freezes Property Deals as Digital-Only Registry Stalls Again",
+      "angle": "The recurring failure of the state's digital-only land platform creates an absolute operational freeze for commercial property transactions and devolved land administration, exposing the systemic risk of transitioning to paperless governance without reliable operational redundancy.",
+      "angle_type": "consequence",
+      "opening": "Commercial and legal impact lead focusing on the sudden suspension of land transactions and property financing following the second platform breakdown within three weeks.",
+      "structure": "Operational freeze lead -> Breadth of halted transactions and revenue channels -> Cumulative timeline of September instability and LSK friction -> County-level governance and FAO digitisation implications -> Administrative silence on recovery timelines.",
+      "source": "https://kenyans.co.ke/news/127225-ardhisasa-goes-down-again-users-warned-disrupted-land-services",
+      "published_at": "2026-09-21T07:02:09Z"
     }
   ]
 }
