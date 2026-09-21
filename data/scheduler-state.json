@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T03:00:49.855Z",
+  "updated": "2026-09-21T03:00:53.207Z",
   "desks": {
     "news": {
       "lastTriggeredAt": "2026-09-21T03:00:45.787Z",
@@ -23,7 +23,7 @@
       "lastSlot": "2026-09-20T18:30"
     },
     "africa": {
-      "lastTriggeredAt": "2026-09-20T17:00:32.096Z",
+      "lastTriggeredAt": "2026-09-21T03:00:50.506Z",
       "lastStatus": "ok",
       "lastError": null,
       "lastSource": "cron",
