@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-21T11:08:24.793Z",
+  "updated": "2026-09-21T11:20:26.952Z",
   "logs": [
+    {
+      "id": "mpasho-1789989626802",
+      "desk": "mpasho",
+      "scheduledFor": "2026-09-21 14:20:25",
+      "dispatchedAt": "2026-09-21T11:20:25.295Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "entertainment-1789988904621",
       "desk": "entertainment",
@@ -1986,16 +1996,6 @@
       "desk": "africa",
       "scheduledFor": "2026-09-19 06:00:03",
       "dispatchedAt": "2026-09-19T03:00:09.187Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
-      "source": "cron"
-    },
-    {
-      "id": "news-1789786805924",
-      "desk": "news",
-      "scheduledFor": "2026-09-19 06:00:03",
-      "dispatchedAt": "2026-09-19T03:00:04.109Z",
       "status": 204,
       "ok": true,
       "error": null,
