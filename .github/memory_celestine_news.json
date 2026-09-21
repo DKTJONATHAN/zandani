@@ -617,10 +617,10 @@
     "3862901ff32689a06cbab7712b79159d",
     "0539a91b418148f34f0d1c78ede3dd18",
     "a722e160d31e92908a5a8fb561988686",
-    "75b9a8099529d31046ba2e223b8bdfd6"
+    "75b9a8099529d31046ba2e223b8bdfd6",
+    "360c41a43e6be5f0ad721a7347e3cbff"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -649,7 +649,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -851,7 +852,8 @@
     "https://kenyans.co.ke/news/127218-two-kenyans-prepare-manaslu-summit-after-climbers-killed-avalanche",
     "https://kenyans.co.ke/news/127024-explained-why-bcg-vaccine-leaves-permanent-scar",
     "https://kenyans.co.ke/news/127222-knchr-calls-probe-alleged-assaults-house-torchings-west-pokot",
-    "https://kenyans.co.ke/news/127225-ardhisasa-goes-down-again-users-warned-disrupted-land-services"
+    "https://kenyans.co.ke/news/127225-ardhisasa-goes-down-again-users-warned-disrupted-land-services",
+    "https://kenyans.co.ke/news/127226-former-iebc-officer-faces-8-month-jail-term-over-fake-university-degree"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -975,7 +977,8 @@
     "snowstorms pin down climbers manaslu himalayan fatalities rise",
     "intradermal injection mechanics bcg scar proves skin reaction immune efficacy",
     "west pokot disarmament raids put murkomen targeted police doctrine line",
-    "ardhisasa outage freezes property deals digital only registry stalls again"
+    "ardhisasa outage freezes property deals digital only registry stalls again",
+    "iebc officer penalised forged moi university degree used job promotion"
   ],
   "topic_keys": [
     "news tracker",
@@ -1362,6 +1365,15 @@
       "structure": "Operational freeze lead -> Breadth of halted transactions and revenue channels -> Cumulative timeline of September instability and LSK friction -> County-level governance and FAO digitisation implications -> Administrative silence on recovery timelines.",
       "source": "https://kenyans.co.ke/news/127225-ardhisasa-goes-down-again-users-warned-disrupted-land-services",
       "published_at": "2026-09-21T07:02:09Z"
+    },
+    {
+      "title": "Ex-IEBC Officer Penalised Over Forged Moi University Degree Used in Job Promotion",
+      "angle": "Framing the case around credential-driven promotion fraud inside constitutional commissions, illustrating how forged degrees were leveraged to jump public service job grades (Grade 8 to Grade 7) ahead of planned automated verification rollouts.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first statement detailing the court's sanction on internal promotion fraud at the electoral agency.",
+      "structure": "Attribution and conviction terms -> Mechanics of the grade elevation scheme -> Regulatory context and multi-agency verification rollout -> Unresolved deterrence and wage recovery stakes.",
+      "source": "https://kenyans.co.ke/news/127226-former-iebc-officer-faces-8-month-jail-term-over-fake-university-degree",
+      "published_at": "2026-09-21T08:01:57Z"
     }
   ]
 }
