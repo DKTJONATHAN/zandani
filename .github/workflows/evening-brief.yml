@@ -53,4 +53,8 @@ jobs:
             echo "::error::Add SUPABASE_URL and SUPABASE_SECRET_KEY secrets"
             exit 1
           fi
-          python scripts/email_brief.py digest
+          if [ "${{ inputs.mode || 'digest' }}" = "welcome-all" ]; then
+            python scripts/email_brief.py welcome-all
+          else
+            python scripts/email_brief.py digest
+          fi
