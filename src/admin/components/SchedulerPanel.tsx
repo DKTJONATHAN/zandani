@@ -158,9 +158,10 @@ export function SchedulerPanel() {
                   <p className="text-zinc-600 uppercase tracking-wider font-bold mb-0.5">Last run</p>
                   <p className="text-zinc-300 font-medium">
                     {fmt(d.lastTriggeredAt)}
-                    {d.lastError ? <span className="text-red-400 ml-2">· {d.lastError}</span> : null}
-                    {d.workflowFound && d.lastError === "Workflow does not have 'workflow_dispatch' trigger" ? (
-                      <span className="text-zinc-500 ml-2">· historical dispatch error cleared by current workflow configuration</span>
+                    {d.lastError === "Workflow does not have 'workflow_dispatch' trigger" && d.workflowFound ? (
+                      <span className="text-amber-400/80 ml-2">· previous dispatch warning cleared</span>
+                    ) : d.lastError ? (
+                      <span className="text-red-400 ml-2">· {d.lastError}</span>
                     ) : null}
                   </p>
                 </div>
