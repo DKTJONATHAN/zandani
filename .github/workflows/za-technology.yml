@@ -1,9 +1,6 @@
 name: Technology Desk
 
 on:
-  schedule:
-    - cron: '21 */2 * * *'
-      timezone: 'Africa/Nairobi'
   workflow_call:
   workflow_dispatch: {}
 
