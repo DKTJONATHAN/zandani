@@ -38,12 +38,37 @@ jobs:
           set -euo pipefail
           test -n "${SUPABASE_URL}"
           test -n "${SUPABASE_SECRET_KEY}"
-          curl --fail-with-body --retry 2 --retry-delay 3 \
+          SOURCE_URL="$(python - <<'PY'
+import re, urllib.request
+from html import unescape
+listing = "https://www.kenyans.co.ke/news"
+req = urllib.request.Request(listing, headers={
+    "User-Agent": "Mozilla/5.0 (compatible; ZaNdaniNewsroom/2.0)",
+    "Accept": "text/html,application/xhtml+xml"
+})
+html = urllib.request.urlopen(req, timeout=20).read().decode("utf-8", "ignore")
+urls = []
+for href in re.findall(r'href=["\\']([^"\\']+)["\\']', html, re.I):
+    href = unescape(href)
+    if href.startswith("/"):
+        href = "https://www.kenyans.co.ke" + href
+    if re.match(r"https?://(?:www\\.)?kenyans\\.co\\.ke/news/[^?#]+$", href, re.I) and "/category/" not in href and "/tag/" not in href:
+        if href not in urls:
+            urls.append(href)
+print(urls[0] if urls else "")
+PY
+)"
+          test -n "${SOURCE_URL}" || { echo "Could not discover a Kenyans.co.ke article from GitHub Actions"; exit 1; }
+          echo "SOURCE_URL=${SOURCE_URL}"
+
+          HTTP_CODE="$(curl -sS --retry 2 --retry-delay 3 \
             -X POST "${SUPABASE_URL}/functions/v1/newsroom-writer" \
             -H "Content-Type: application/json" \
             -H "apikey: ${SUPABASE_SECRET_KEY}" \
-            --data '{"desk":"news","author":"Celestine Nzioka","source_list":"https://www.kenyans.co.ke/news"}' \
-            -o /tmp/newsroom.json
+            --data "{\"desk\":\"news\",\"author\":\"Celestine Nzioka\",\"source_url\":\"${SOURCE_URL}\"}" \
+            -o /tmp/newsroom.json -w "%{http_code}")"
+          cat /tmp/newsroom.json
+          test "${HTTP_CODE}" -lt 400 || { echo "newsroom-writer returned HTTP ${HTTP_CODE}"; exit 1; }
 
           python - <<'PY'
           import json, os, pathlib, re, sys
