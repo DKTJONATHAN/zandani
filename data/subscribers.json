@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T06:47:42.176Z",
+  "updated": "2026-09-22T06:47:43.456Z",
   "subscribers": [
     {
       "email": "trebilcom@gmail.com",
@@ -280,6 +280,11 @@
     {
       "email": "ericoent@gmail.com",
       "subscribed_at": "2026-09-22T06:47:42.176Z",
+      "active": true
+    },
+    {
+      "email": "ericoent99@gmail.com",
+      "subscribed_at": "2026-09-22T06:47:43.456Z",
       "active": true
     }
   ]
