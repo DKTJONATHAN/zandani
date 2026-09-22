@@ -637,10 +637,10 @@
     "157b5ab2633ea7b979d992fce17e7fd5",
     "9e4c6af86dbb7da72988b50675d9e3a1",
     "26449906efab6be2958716d7fec224ef",
-    "50c9bbf432b5ea4955d1b95ca2673c08"
+    "50c9bbf432b5ea4955d1b95ca2673c08",
+    "729a5fdc43f6e78505f53354a22f8f64"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -669,7 +669,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -891,7 +892,8 @@
     "https://kenyans.co.ke/news/127260-dci-uncovers-fake-sha-registration-scheme-used-target-mobile-money-accounts",
     "https://kenyans.co.ke/news/127257-kalonzo-used-komboa-kenya-sifunas-ukombozi-plans-wiper-official-says",
     "https://kenyans.co.ke/news/127263-uhuru-officially-hands-over-jubilee-party-fred-matiangi",
-    "https://kenyans.co.ke/news/127262-govt-moves-link-sha-nssf-social-protection-database"
+    "https://kenyans.co.ke/news/127262-govt-moves-link-sha-nssf-social-protection-database",
+    "https://kenyans.co.ke/news/127267-engineers-behind-dangotes-nigerian-refinery-help-deliver-kenya-plant"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1035,7 +1037,8 @@
     "dci cracks roving sha impersonation syndicate behind rural mobile money sim swaps",
     "july filing parties registry locked sifuna out ukombozi",
     "uhuru hands jubilee leadership matiang ahead party convention",
-    "state deploys database integration channel welfare recipients sha nssf contributory schemes"
+    "state deploys database integration channel welfare recipients sha nssf contributory schemes",
+    "engineers behind nigeria lekki blueprint ported lamu refinery project"
   ],
   "topic_keys": [
     "news tracker",
@@ -1602,6 +1605,15 @@
       "structure": "Integration pipeline core -> Database mechanics and personal data registries -> The World Bank-backed KSEIP-2 expansion -> Procurement next steps.",
       "source": "https://kenyans.co.ke/news/127262-govt-moves-link-sha-nssf-social-protection-database",
       "published_at": "2026-09-22T12:02:22Z"
+    },
+    {
+      "title": "Engineers Behind Nigeria\u2019s Lekki Blueprint Ported to Lamu Refinery Project",
+      "angle": "The operational continuity and technical inheritance from Nigeria's Lekki project: examining how the exact engineering contractor behind Dangote's West African mega-refinery is transferring its blueprint directly to the Kenyan coast.",
+      "angle_type": "practical change",
+      "opening": "Contract-execution lead focusing on the transfer of Nigeria-tested engineering personnel and systems to the Kenyan coastline.",
+      "structure": "Technical pedigree lead -> The Ksh58 billion contract parameters versus the $17 billion overall capital cost -> The Lekki blueprint and personnel inheritance -> Regional energy implications and logistics realities.",
+      "source": "https://kenyans.co.ke/news/127267-engineers-behind-dangotes-nigerian-refinery-help-deliver-kenya-plant",
+      "published_at": "2026-09-22T13:02:44Z"
     }
   ]
 }
