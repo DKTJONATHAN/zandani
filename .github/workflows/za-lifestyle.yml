@@ -1,9 +1,6 @@
 name: Lifestyle Desk
 
 on:
-  schedule:
-    - cron: '39 */2 * * *'
-      timezone: 'Africa/Nairobi'
   workflow_call:
   workflow_dispatch: {}
 
