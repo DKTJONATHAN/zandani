@@ -132,16 +132,16 @@ export function SchedulerPanel() {
               <div className="flex items-start justify-between gap-2">
                 <div>
                   <p className="text-white font-black leading-none">{d.label}</p>
-                  <p className="text-zinc-500 text-[11px] mt-1 font-mono">{d.workflow}</p>
+                  <p className="text-zinc-500 text-[11px] mt-1 font-mono">{"server-managed automation"}</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <StatusDot status={d.lastStatus} />
                   {d.workflowFound ? (
-                    <span className="text-[9px] font-black uppercase tracking-wider text-emerald-400" title={d.workflowState || "Workflow registered with GitHub Actions"}>
-                      Workflow ready
+                    <span className="text-[9px] font-black uppercase tracking-wider text-emerald-400" title={d.workflowState || "Server-managed automation"}>
+                      Automation ready
                     </span>
                   ) : (
-                    <span className="text-[9px] font-black uppercase tracking-wider text-red-400">Workflow missing</span>
+                    <span className="text-[9px] font-black uppercase tracking-wider text-red-400">Automation unavailable</span>
                   )}
                 </div>
               </div>
