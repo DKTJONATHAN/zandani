@@ -453,10 +453,20 @@ async function runDueDesks(env) {
 }
 
 function supabaseConfig(env) {
-  const url = String(env.SUPABASE_URL || "").replace(/\/$/, "");
-  const key = String(env.SUPABASE_SERVICE_ROLE_KEY || "").trim();
+  // Cloudflare may expose the existing project variables under either the
+  // server-side names or the Vite/Pages names already used by this project.
+  const url = String(env.SUPABASE_URL || env.VITE_SUPABASE_URL || "").replace(/\/$/, "");
+  const key = String(
+    env.SUPABASE_SERVICE_ROLE_KEY ||
+    env.SUPABASE_KEY ||
+    env.VITE_SUPABASE_PUBLISHABLE_KEY ||
+    ""
+  ).trim();
+
   if (!url || !key) {
-    const err = new Error("SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY is not configured");
+    const err = new Error(
+      "Supabase configuration is missing. The worker accepts SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY, or the existing VITE_SUPABASE_URL + VITE_SUPABASE_PUBLISHABLE_KEY variables."
+    );
     err.status = 503;
     throw err;
   }
