@@ -131,8 +131,7 @@ Deno.serve(async (req) => {
     if (!expected || supplied !== expected) return Response.json({ error: "unauthorized" }, { status: 401, headers: JSON_HEADERS });
     if (req.method !== "POST") return Response.json({ error: "POST required" }, { status: 405, headers: JSON_HEADERS });
 
-    try {
-      const body = await req.json();
+    let runId = "";\n    try {\n      const body = await req.json();
       const desk = clean(body.desk || "news", 40).toLowerCase();
       const author = clean(body.author || "Za Ndani Desk", 120);
       let sourceUrl = clean(body.source_url, 2000);
@@ -188,9 +187,7 @@ Deno.serve(async (req) => {
         image_pipeline_version: deskConfig?.image_pipeline_version || model?.image_pipeline_version || 1,
         source_url: sourceUrl,
         metadata: { engine: "newsroom-writer-v1" }
-      }).select("id").single();
-
-      const source = await scrape(sourceUrl);
+      }).select("id").single();\n      if (run.error || !run.data?.id) throw new Error(`automation_runs insert failed: ${run.error?.message || "unknown database error"}`);\n      runId = run.data.id;\n\n      const source = await scrape(sourceUrl);
       const sourceImages = source.images.filter((x:any) => !isBadImage(x.url, x.alt)).slice(0, 3);
       const imgbbKey = Deno.env.get("IMGBB_API_KEY") || "";
       if (imgbbKey) {
@@ -211,7 +208,7 @@ Deno.serve(async (req) => {
 
       const apiKey = Deno.env.get("LOVABLE_API_KEY");
       if (!apiKey) throw new Error("LOVABLE_API_KEY is not configured");
-      const modelName = model?.config?.gateway_model || model?.model_name || "google/gemini-3-flash-preview";
+      const modelName = model?.config?.gateway_model || (String(model?.model_name || "").includes("/") ? model.model_name : "google/gemini-3-flash-preview");
       const ai = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
         method: "POST",
         headers: { "Authorization": `Bearer ${apiKey}`, "Content-Type": "application/json" },
@@ -224,8 +221,7 @@ Deno.serve(async (req) => {
           temperature: 0.7
         })
       });
-      if (!ai.ok) throw new Error(`AI gateway returned HTTP ${ai.status}`);
-      const aiJson = await ai.json();
+      if (!ai.ok) {\n        const detail = (await ai.text()).slice(0, 600);\n        throw new Error(`AI gateway returned HTTP ${ai.status}: ${detail}`);\n      }\n      const aiJson = await ai.json();
       const raw = aiJson.choices?.[0]?.message?.content || "";
       const match = raw.match(/\{[\s\S]*\}/);
       if (!match) throw new Error("AI did not return JSON");
@@ -280,7 +276,5 @@ Deno.serve(async (req) => {
         result: { ...result, article: { ...article, body_markdown: markdown, slug } },
         images
       });
-    } catch (e) {
-      return Response.json({ error: e instanceof Error ? e.message : "unknown error" }, { status: 500, headers: JSON_HEADERS });
-    }
+    } catch (e) {\n      const message = e instanceof Error ? e.message : "unknown error";\n      try {\n        const supabaseUrl = Deno.env.get("SUPABASE_URL") || "";\n        const keys = JSON.parse(Deno.env.get("SUPABASE_SECRET_KEYS") || "{}");\n        const serviceKey = Deno.env.get("SUPABASE_SECRET_KEY") || keys.default || "";\n        if (runId && supabaseUrl && serviceKey) {\n          const admin = createClient(supabaseUrl, serviceKey);\n          await admin.from("automation_runs").update({ status: "failed", finished_at: new Date().toISOString(), error: message }).eq("id", runId);\n        }\n      } catch {}\n      return Response.json({ error: message }, { status: 500, headers: JSON_HEADERS });\n    }
 });
