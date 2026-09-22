@@ -1,9 +1,6 @@
 name: Zed Mogaka — George Diano
 
 on:
-  schedule:
-    - cron: '36 * * * *'
-      timezone: 'Africa/Nairobi'
   workflow_call:
   workflow_dispatch: {}
 
