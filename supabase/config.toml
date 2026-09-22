@@ -8,3 +8,6 @@ verify_jwt = false
 
 [functions.sports-ai-headlines]
 verify_jwt = false
+
+[functions.newsroom-writer]
+verify_jwt = false
