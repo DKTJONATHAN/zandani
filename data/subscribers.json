@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T20:43:44.011Z",
+  "updated": "2026-09-22T06:33:28.123Z",
   "subscribers": [
     {
       "email": "trebilcom@gmail.com",
@@ -100,6 +100,11 @@
     {
       "email": "fmutethia6@gmail.com",
       "subscribed_at": "2026-09-21T20:43:44.011Z",
+      "active": true
+    },
+    {
+      "email": "test-consent-check@example.com",
+      "subscribed_at": "2026-09-22T06:33:28.123Z",
       "active": true
     }
   ]
