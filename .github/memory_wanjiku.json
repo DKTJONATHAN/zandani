@@ -33,7 +33,8 @@
     "a177462a35ee588cbaff49e4689e9ab9688e1c4399162a3cc309dd975a82dcd4",
     "34c156620fccebfa51ff548835993ee370664c03036d74a1ed73a771af27c86e",
     "828fcfff0b49b9c427de4fdabef4cb2432e2a14344430a175d81c95aaea39cd0",
-    "c3dd3012cc8f5643cf678b7036b961825ce186a4adc365127d9bd395ae44fec8"
+    "c3dd3012cc8f5643cf678b7036b961825ce186a4adc365127d9bd395ae44fec8",
+    "9c504bd698a76a7d540b4b9025eaf41568b9040d7753cf39b96b02b3713e19eb"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -69,7 +70,8 @@
     "https://www.ghafla.co.ke/uhuru-kenyatta-hands-over-jubilee-party-leadership-to-fred-matiangi-ahead-of-ndc/",
     "https://www.ghafla.co.ke/uhuru-to-ruto-focus-on-serving-kenyans/",
     "https://www.ghafla.co.ke/lawyer-lewis-uriri-rejects-ksh32-million-range-rover-and-cash-gifts-from-wicknell-chivayo/",
-    "https://www.ghafla.co.ke/uhuru-kenyatta-insists-the-late-raila-odinga-won-the-2022-presidential-election/"
+    "https://www.ghafla.co.ke/uhuru-kenyatta-insists-the-late-raila-odinga-won-the-2022-presidential-election/",
+    "https://www.ghafla.co.ke/high-court-upholds-iebc-national-tallying-powers/"
   ],
   "published_angles": [
     {
@@ -327,6 +329,14 @@
       "opening": "Start directly with the retroactive declaration and its immediate shockwave inside the former coalition's fragile post-mortem machinery.",
       "structure": "Uhuru's specific 'Baba won' quote -> The Supreme Court's 2022 validation reality -> The historical fault lines over agent logistics (Kanchory, Kioni, Owino) -> Junet Mohamed's Westlands cash-management defense -> Unresolved coalition friction.",
       "source": "https://www.ghafla.co.ke/uhuru-kenyatta-insists-the-late-raila-odinga-won-the-2022-presidential-election/"
+    },
+    {
+      "title": "High Court Bomas Ruling Solidifies a Hard-to-Shift Electoral Architecture",
+      "angle": "The judicial validation of 'Bomas' as the final arbiter creates a permanent conflict with the 'Constituency-is-Final' movement led by figures like David Maraga; this article focuses on how this ruling effectively fossilizes a point of friction that experts and activists were actively trying to dissolve.",
+      "angle_type": "Institutional conflict and legal precedent",
+      "opening": "Start with the collision between the court's ruling and the specific reformist goals of the 'constituency-only' camp.",
+      "structure": "Legal ruling summary -> The Omtatah/Maraga counter-argument -> The administrative rationale provided by the bench -> The resulting 'fossilized' status quo.",
+      "source": "https://www.ghafla.co.ke/high-court-upholds-iebc-national-tallying-powers/"
     }
   ],
   "style_history": [
