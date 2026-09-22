@@ -353,9 +353,9 @@ def from_addr() -> str:
 
 def list_contacts() -> list[str]:
     base = (os.environ.get("SUPABASE_URL") or "").strip().rstrip("/")
-    key = (os.environ.get("SUPABASE_SERVICE_ROLE_KEY") or "").strip()
+    key = (os.environ.get("SUPABASE_SECRET_KEY") or "").strip()
     if not base or not key:
-        raise RuntimeError("SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY are required")
+        raise RuntimeError("SUPABASE_URL and SUPABASE_SECRET_KEY are required")
     url = f"{base}{SUPABASE_REST}"
     query = urllib.parse.urlencode({
         "select": "email",
@@ -365,8 +365,8 @@ def list_contacts() -> list[str]:
     cmd = [
         "curl", "-sS", "--fail-with-body",
         url + "?" + query,
+        # Supabase sb_secret_* keys are opaque API keys, not JWTs.
         "-H", f"apikey: {key}",
-        "-H", f"Authorization: Bearer {key}",
         "-H", "Accept: application/json",
         "-H", "User-Agent: zandani-brief/3.0 (+https://zandani.co.ke)",
     ]
