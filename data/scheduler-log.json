@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-22T01:20:34.124Z",
+  "updated": "2026-09-22T01:44:34.008Z",
   "logs": [
+    {
+      "id": "ghafla-1790041473494",
+      "desk": "ghafla",
+      "scheduledFor": "2026-09-22 04:44:31",
+      "dispatchedAt": "2026-09-22T01:44:31.806Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "mpasho-1790040033400",
       "desk": "mpasho",
@@ -1990,16 +2000,6 @@
       "ok": true,
       "error": null,
       "source": "manual"
-    },
-    {
-      "id": "entertainment-1789823293207",
-      "desk": "entertainment",
-      "scheduledFor": "2026-09-19 16:08:10",
-      "dispatchedAt": "2026-09-19T13:08:11.083Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
-      "source": "cron"
     }
   ]
 }
