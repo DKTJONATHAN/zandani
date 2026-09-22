@@ -132,7 +132,8 @@ Deno.serve(async (req) => {
     if (req.method !== "POST") return Response.json({ error: "POST required" }, { status: 405, headers: JSON_HEADERS });
 
     let runId = "";
-    try {\n      const body = await req.json();
+    try {
+      const body = await req.json();
       const desk = clean(body.desk || "news", 40).toLowerCase();
       const author = clean(body.author || "Za Ndani Desk", 120);
       let sourceUrl = clean(body.source_url, 2000);
@@ -286,12 +287,15 @@ Deno.serve(async (req) => {
       });
     } catch (e) {
       const message = e instanceof Error ? e.message  : "unknown error";
-      try {\n        const supabaseUrl = Deno.env.get("SUPABASE_URL") || "";
-        const keys = JSON.parse(Deno.env.get("SUPABASE_SECRET_KEYS") || "{}");\n        const serviceKey = Deno.env.get("SUPABASE_SECRET_KEY") || keys.default || "";
+      try {
+        const supabaseUrl = Deno.env.get("SUPABASE_URL") || "";
+        const keys = JSON.parse(Deno.env.get("SUPABASE_SECRET_KEYS") || "{}");
+        const serviceKey = Deno.env.get("SUPABASE_SECRET_KEY") || keys.default || "";
         if (runId && supabaseUrl && serviceKey) {
           const admin = createClient(supabaseUrl, serviceKey);
           await admin.from("automation_runs").update({ status: "failed", finished_at: new Date().toISOString(), error: message }).eq("id", runId);
         }
       } catch {}
-      return Response.json({ error: message }, { status: 500, headers: JSON_HEADERS });\n    }
+      return Response.json({ error: message }, { status: 500, headers: JSON_HEADERS });
+    }
 });
