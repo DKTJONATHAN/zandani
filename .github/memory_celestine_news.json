@@ -638,10 +638,10 @@
     "9e4c6af86dbb7da72988b50675d9e3a1",
     "26449906efab6be2958716d7fec224ef",
     "50c9bbf432b5ea4955d1b95ca2673c08",
-    "729a5fdc43f6e78505f53354a22f8f64"
+    "729a5fdc43f6e78505f53354a22f8f64",
+    "e6e0bfb474961c55bd16ef1883935857"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -670,7 +670,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -893,7 +894,8 @@
     "https://kenyans.co.ke/news/127257-kalonzo-used-komboa-kenya-sifunas-ukombozi-plans-wiper-official-says",
     "https://kenyans.co.ke/news/127263-uhuru-officially-hands-over-jubilee-party-fred-matiangi",
     "https://kenyans.co.ke/news/127262-govt-moves-link-sha-nssf-social-protection-database",
-    "https://kenyans.co.ke/news/127267-engineers-behind-dangotes-nigerian-refinery-help-deliver-kenya-plant"
+    "https://kenyans.co.ke/news/127267-engineers-behind-dangotes-nigerian-refinery-help-deliver-kenya-plant",
+    "https://kenyans.co.ke/news/127270-tsc-seeks-removal-court-orders-blocking-teachers-social-media-conduct-restrictions"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1038,7 +1040,8 @@
     "july filing parties registry locked sifuna out ukombozi",
     "uhuru hands jubilee leadership matiang ahead party convention",
     "state deploys database integration channel welfare recipients sha nssf contributory schemes",
-    "engineers behind nigeria lekki blueprint ported lamu refinery project"
+    "engineers behind nigeria lekki blueprint ported lamu refinery project",
+    "tsc pressures kiambu court lift social media ban ahead october ruling"
   ],
   "topic_keys": [
     "news tracker",
@@ -1614,6 +1617,15 @@
       "structure": "Technical pedigree lead -> The Ksh58 billion contract parameters versus the $17 billion overall capital cost -> The Lekki blueprint and personnel inheritance -> Regional energy implications and logistics realities.",
       "source": "https://kenyans.co.ke/news/127267-engineers-behind-dangotes-nigerian-refinery-help-deliver-kenya-plant",
       "published_at": "2026-09-22T13:02:44Z"
+    },
+    {
+      "title": "TSC Pressures Kiambu Court to Lift Social Media Ban Ahead of October Ruling",
+      "angle": "The operational limbo and legal friction created by attempting to enforce existing statutes (Cybercrimes Act, Code of Conduct) via a newly contested circular while digital enforcement remains suspended.",
+      "angle_type": "institutional pressure",
+      "opening": "An institutional-pressure lead focusing on the regulatory gap and enforcement limbo rather than the routine court filing summary.",
+      "structure": "Regulatory limbo lead -> Legal arguments and existing statutory frameworks -> The petition's challenge against broad discretion -> October 15 ruling timeline.",
+      "source": "https://kenyans.co.ke/news/127270-tsc-seeks-removal-court-orders-blocking-teachers-social-media-conduct-restrictions",
+      "published_at": "2026-09-22T14:49:51Z"
     }
   ]
 }
