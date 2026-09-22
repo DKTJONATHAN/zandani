@@ -636,10 +636,10 @@
     "607618d22c622556b72364092595cd6a",
     "157b5ab2633ea7b979d992fce17e7fd5",
     "9e4c6af86dbb7da72988b50675d9e3a1",
-    "26449906efab6be2958716d7fec224ef"
+    "26449906efab6be2958716d7fec224ef",
+    "50c9bbf432b5ea4955d1b95ca2673c08"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -668,7 +668,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -889,7 +890,8 @@
     "https://kenyans.co.ke/news/127254-dangote-cement-rules-out-new-plant-kenya-over-limestone-challenges",
     "https://kenyans.co.ke/news/127260-dci-uncovers-fake-sha-registration-scheme-used-target-mobile-money-accounts",
     "https://kenyans.co.ke/news/127257-kalonzo-used-komboa-kenya-sifunas-ukombozi-plans-wiper-official-says",
-    "https://kenyans.co.ke/news/127263-uhuru-officially-hands-over-jubilee-party-fred-matiangi"
+    "https://kenyans.co.ke/news/127263-uhuru-officially-hands-over-jubilee-party-fred-matiangi",
+    "https://kenyans.co.ke/news/127262-govt-moves-link-sha-nssf-social-protection-database"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1032,7 +1034,8 @@
     "geological bottlenecks reroute dangote cement expansion regional hubs",
     "dci cracks roving sha impersonation syndicate behind rural mobile money sim swaps",
     "july filing parties registry locked sifuna out ukombozi",
-    "uhuru hands jubilee leadership matiang ahead party convention"
+    "uhuru hands jubilee leadership matiang ahead party convention",
+    "state deploys database integration channel welfare recipients sha nssf contributory schemes"
   ],
   "topic_keys": [
     "news tracker",
@@ -1590,6 +1593,15 @@
       "structure": "Attribution and executive transition lead -> Exact declaration and endorsement quote -> Pre-NDC operational mandate -> Institutional context and senior advisory positioning",
       "source": "https://kenyans.co.ke/news/127263-uhuru-officially-hands-over-jubilee-party-fred-matiangi",
       "published_at": "2026-09-22T11:02:43Z"
+    },
+    {
+      "title": "State Deploys Database Integration to Channel Welfare Recipients into SHA, NSSF Contributory Schemes",
+      "angle": "Reframing the technical integration as a systemic policy pipeline to transition vulnerable welfare recipients into contributory social insurance schemes (SHA and NSSF), driven by World Bank funding and mandate requirements.",
+      "angle_type": "practical change",
+      "opening": "Policy-transition lead establishing how the technical database link is designed to funnel welfare beneficiaries into paying state schemes.",
+      "structure": "Integration pipeline core -> Database mechanics and personal data registries -> The World Bank-backed KSEIP-2 expansion -> Procurement next steps.",
+      "source": "https://kenyans.co.ke/news/127262-govt-moves-link-sha-nssf-social-protection-database",
+      "published_at": "2026-09-22T12:02:22Z"
     }
   ]
 }
