@@ -1,4 +1,4 @@
-name: Celestine Nzioka — News
+name: Celestine Nzioka News
 
 on:
   workflow_call:
@@ -7,7 +7,6 @@ on:
 concurrency:
   group: zandani-main-content-writer
   cancel-in-progress: false
-  queue: max
 
 permissions:
   contents: write
