@@ -61,7 +61,6 @@ jobs:
           body = (article.get("body_markdown") or "").strip()
           description = (article.get("description") or "").strip()
           source = data.get("source") or {}
-          source_url = source.get("url") or source.get("source_url") or ""
           source_url = data.get("source_url") or ""
           og = data.get("og_image") or ""
           if not title or len(body.split()) < 220:
