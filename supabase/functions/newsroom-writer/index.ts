@@ -1,4 +1,3 @@
-import { withSupabase } from "npm:@supabase/server@^1";
 import { createClient } from "npm:@supabase/supabase-js@2";
 
 const JSON_HEADERS = { "Content-Type": "application/json" };
@@ -112,8 +111,10 @@ ${source.images.map((x:any) => `IMAGE ${x.index}: ${x.url}\nALT: ${x.alt || "(no
 `;
 }
 
-export default {
-  fetch: withSupabase({ auth: "secret" }, async (req, ctx) => {
+Deno.serve(async (req) => {
+    const expected = Deno.env.get("SUPABASE_SECRET_KEY") || JSON.parse(Deno.env.get("SUPABASE_SECRET_KEYS") || "{}").default || "";
+    const supplied = req.headers.get("apikey") || "";
+    if (!expected || supplied !== expected) return Response.json({ error: "unauthorized" }, { status: 401, headers: JSON_HEADERS });
     if (req.method !== "POST") return Response.json({ error: "POST required" }, { status: 405, headers: JSON_HEADERS });
 
     try {
@@ -264,5 +265,4 @@ export default {
     } catch (e) {
       return Response.json({ error: e instanceof Error ? e.message : "unknown error" }, { status: 500, headers: JSON_HEADERS });
     }
-  })
-};
+});
