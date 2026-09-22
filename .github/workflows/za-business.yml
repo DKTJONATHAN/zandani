@@ -1,9 +1,6 @@
 name: Business Desk
 
 on:
-  schedule:
-    - cron: '33 */2 * * *'
-      timezone: 'Africa/Nairobi'
   workflow_call:
   workflow_dispatch: {}
 
