@@ -39,7 +39,7 @@ jobs:
           import path from 'node:path';
 
           const required = [
-            'za-news.yml', 'za-africa.yml', 'za-agriculture.yml', 'za-diano.yml',
+            'celestine-news.yml', 'za-africa.yml', 'za-agriculture.yml', 'za-diano.yml',
             'za-jaj.yml', 'za-sports.yml', 'za-business.yml', 'za-technology.yml',
             'za-opinions.yml', 'za-entertainment.yml', 'za-mpasho.yml',
             'za-lifestyle.yml', 'za-ghafla.yml'
