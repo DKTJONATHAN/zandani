@@ -53,9 +53,7 @@ async function deactivate(env, email) {
       method: "PATCH",
       headers: sbHeaders(key, { Prefer: "return=minimal" }),
       body: JSON.stringify({
-        active: false,
-        unsubscribed_at: now,
-        updated_at: now,
+        is_active: false,
       }),
     }
   );
