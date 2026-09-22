@@ -628,10 +628,10 @@
     "6b7d7e48db32471eeb0635bb0c777217",
     "0e3eaa6a1ab32f151f8a1971f921e187",
     "d66c81dfdeb3f4a0b0874b89355bc152",
-    "2962682a7bebac16bb0a5aa2cf1d1c1d"
+    "2962682a7bebac16bb0a5aa2cf1d1c1d",
+    "7c4e03ed7ac00a39682da1300634f455"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Event Report",
@@ -660,7 +660,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -873,7 +874,8 @@
     "https://kenyans.co.ke/news/127241-cma-warns-public-against-unverified-dangote-refinery-ipo-documents",
     "https://kenyans.co.ke/news/127238-fkf-reveals-new-details-postponement-kenyan-premier-league",
     "https://kenyans.co.ke/news/127239-court-denies-bail-terms-utumishi-girls-fire-suspects",
-    "https://kenyans.co.ke/news/127245-kenya-seeks-land-gigiri-build-new-offices-un-missions"
+    "https://kenyans.co.ke/news/127245-kenya-seeks-land-gigiri-build-new-offices-un-missions",
+    "https://kenyans.co.ke/news/127246-dci-connects-20-more-centres-faster-good-conduct-certificates"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1008,7 +1010,8 @@
     "cma draws hard line unlicensed dangote ipo solicitations",
     "conflicting court orders lock premier league legal paralysis",
     "remand safety failures force transfer utumishi fire suspects bail denied",
-    "moves end year tenancy sovereign mission complex gigiri"
+    "moves end year tenancy sovereign mission complex gigiri",
+    "dci extends hour clearance network upcountry centres"
   ],
   "topic_keys": [
     "news tracker",
@@ -1494,6 +1497,15 @@
       "structure": "Sovereign transition lead -> Site specification and technical procurement parameters -> The 50-year tenancy deficit -> Geopolitical context of UN headquarters expansion to Nairobi.",
       "source": "https://kenyans.co.ke/news/127245-kenya-seeks-land-gigiri-build-new-offices-un-missions",
       "published_at": "2026-09-22T05:02:26Z"
+    },
+    {
+      "title": "DCI Extends 24-Hour Clearance Network to 20 Upcountry Centres",
+      "angle": "Attribution-first framing of the regional decentralisation: how the Phase Two rollout delivers 24-hour processing parity to job seekers in Central and border counties, while leaving more than half the country's 63 centres still waiting on legacy turnaround.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first lead detailing the DCI's network expansion, followed immediately by the practical turnaround benefits for regional applicants.",
+      "structure": "Attribution and regional beneficiary lead -> Director General's operational parameters and turnaround comparison -> Geographic footprint and the 37-centre backlog gap -> Forensic and criminal record management implications.",
+      "source": "https://kenyans.co.ke/news/127246-dci-connects-20-more-centres-faster-good-conduct-certificates",
+      "published_at": "2026-09-22T05:44:04Z"
     }
   ]
 }
