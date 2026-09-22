@@ -30,7 +30,8 @@
     "af0134e42eb3cc18e88a1685cb32c39fea422ca87171fa0ca754a490cc058d70",
     "69a92cc670f0d5a9b199831e478c21ac1dd6cd886ba00a110dcf4b02379e44a0",
     "a3ff18640bf1a961c126b8f3b9ceeaa3fa93830b7f878e7213a62961a3900b0a",
-    "a177462a35ee588cbaff49e4689e9ab9688e1c4399162a3cc309dd975a82dcd4"
+    "a177462a35ee588cbaff49e4689e9ab9688e1c4399162a3cc309dd975a82dcd4",
+    "34c156620fccebfa51ff548835993ee370664c03036d74a1ed73a771af27c86e"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -63,7 +64,8 @@
     "https://www.ghafla.co.ke/rigathi-gachagua-slams-dp-kindikis-cultural-coronation-during-us-diaspora-meeting/",
     "https://www.ghafla.co.ke/co-op-bank-youth-forum-how-young-kenyans-can-build-their-own-career-lane/",
     "https://www.ghafla.co.ke/epra-raises-electricity-charges-by-ksh4-16-per-unit-in-revised-september-tariffs/",
-    "https://www.ghafla.co.ke/uhuru-kenyatta-hands-over-jubilee-party-leadership-to-fred-matiangi-ahead-of-ndc/"
+    "https://www.ghafla.co.ke/uhuru-kenyatta-hands-over-jubilee-party-leadership-to-fred-matiangi-ahead-of-ndc/",
+    "https://www.ghafla.co.ke/uhuru-to-ruto-focus-on-serving-kenyans/"
   ],
   "published_angles": [
     {
@@ -297,6 +299,14 @@
       "opening": "Personality-led opening focusing on Uhuru's tactical shift to a backstage role rather than a quiet exit.",
       "structure": "Tactical pivot hook -> Details of the Nairobi handoff meeting -> The legal pressure (High Court ruling) -> Matiang'i's new role and corporate-style partnership with Kioni -> Strategic outlook for Jubilee heading to the NDC.",
       "source": "https://www.ghafla.co.ke/uhuru-kenyatta-hands-over-jubilee-party-leadership-to-fred-matiangi-ahead-of-ndc/"
+    },
+    {
+      "title": "Uhuru Kenyatta Reclaims the Mic: \u2018They Call Me Sponsor, Rebel Leader\u2014I Do Not Fear\u2019",
+      "angle": "Focusing on the highly personal celebrity-style clapback, specifically Uhuru\u2019s defiant response to the personal nicknames ('sponsor' and 'rebel leader') and his mockery of the administration's obsession with his name ('Uhuru this, Uhuru that') four years after leaving office.",
+      "angle_type": "personality clapback and narrative reclaiming",
+      "opening": "Start directly with Uhuru addressing the personal labels and declaring his lack of fear.",
+      "structure": "Person and label hook -> Details of the 'sponsor' and 'rebel leader' drama -> The 'Uhuru this, Uhuru that' critique of Ruto's fixation -> Legal context of the handover (Justice Mugambi's ruling) -> Legacy defense and defiant close.",
+      "source": "https://www.ghafla.co.ke/uhuru-to-ruto-focus-on-serving-kenyans/"
     }
   ],
   "style_history": [
