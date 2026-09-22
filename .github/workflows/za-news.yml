@@ -62,8 +62,7 @@ jobs:
           description = (article.get("description") or "").strip()
           source = data.get("source") or {}
           source_url = source.get("url") or source.get("source_url") or ""
-          if not source_url:
-              source_url = data.get("source_url") or ""
+          source_url = data.get("source_url") or ""
           og = data.get("og_image") or ""
           if not title or len(body.split()) < 220:
               raise SystemExit("publication quality gate failed")
@@ -71,7 +70,9 @@ jobs:
           slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")[:80]
           if not slug:
               raise SystemExit("could not create slug")
-          today = __import__("datetime").datetime.now(__import__("datetime").timezone.utc).strftime("%Y-%m-%d")
+          from datetime import datetime, timezone
+          now = datetime.now(timezone.utc)
+          today = now.strftime("%Y-%m-%d")
           path = pathlib.Path("content/posts") / f"{today}-{slug}.md"
 
           def q(v):
@@ -83,8 +84,8 @@ jobs:
               f"slug: {q(slug)}",
               f"description: {q(description)}",
               f"excerpt: {q(description)}",
-              f"date: {q(__import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat())}",
-              f"dateModified: {q(__import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat())}",
+              f"date: {q(now.isoformat())}",
+              f"dateModified: {q(now.isoformat())}",
               'author: "Celestine Nzioka"',
               'category: "News"',
               f"image: {q(og)}",
