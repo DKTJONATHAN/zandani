@@ -376,6 +376,17 @@ def main():
         result = None
         for attempt in range(ANGLE_RETRIES):
             prompt = news_prompt(base.AUTHOR_NAME, base.full_date_str, style, source["title"], source["text"], role="correspondent", desk=base.CATEGORY, source_published=source.get("published", ""), image_candidates=format_image_candidates(source["images"]), recent_angles=recent)
+            prompt += """
+<ORIGINALITY_STRUCTURE>
+Build the article around this original reporting structure unless the facts clearly require another order:
+1. ORIGINAL LEAD — open on the chosen Zandani angle, not the source lead.
+2. FACTUAL CORE — establish the verified event, people, place, timing and numbers needed to understand it.
+3. NEW LENS — develop the specific gap/angle using only facts supported by the supplied material; do not merely paraphrase the source.
+4. RELEVANCE — explain the concrete consequence, affected people, practical change, accountability point or unresolved issue that follows from those facts.
+5. FORWARD EDGE — close on the next verifiable development, unresolved factual point or concrete implication, not a generic summary.
+The five parts are an editorial logic, not mandatory headings. Do not label them unless a heading genuinely improves the story.
+</ORIGINALITY_STRUCTURE>
+"""
             if attempt:
                 prompt += "\n<EDITORIAL_RETRY>Choose a materially different angle from recent Zandani coverage and rebuild the article. Do not merely change wording. Preserve factual support.\n</EDITORIAL_RETRY>\n"
             result = parse_result(base.gemini_call(prompt, "news-v2-write"))
