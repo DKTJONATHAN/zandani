@@ -55,7 +55,7 @@ jobs:
           POOL=(entertainment africa agriculture business lifestyle opinions sports technology diano jaj)
           desk_to_workflow() {
             case "$1" in
-              news) echo "celestine-news.yml";; ghafla) echo "za-ghafla.yml";; mpasho) echo "za-mpasho.yml";;
+              news) echo "za-news.yml";; ghafla) echo "za-ghafla.yml";; mpasho) echo "za-mpasho.yml";;
               entertainment) echo "za-entertainment.yml";; africa) echo "za-africa.yml";; agriculture) echo "za-agriculture.yml";;
               business) echo "za-business.yml";; lifestyle) echo "za-lifestyle.yml";; opinions) echo "za-opinions.yml";;
               sports) echo "za-sports.yml";; technology) echo "za-technology.yml";; diano) echo "za-diano.yml";; jaj) echo "za-jaj.yml";; *) return 1;;
