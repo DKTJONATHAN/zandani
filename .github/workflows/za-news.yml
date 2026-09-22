@@ -15,17 +15,12 @@ permissions:
 env:
   DEFAULT_BRANCH: main
   POSTS_DIR: content/posts
-  MEMORY_FILE: .github/memory_celestine_news.json
   TZ: Africa/Nairobi
-  WRITER_PROMPT_FILE: scripts/zandani_writer_prompt.txt
-  WRITER_MAX_AGE_HOURS: "24"
-  FRESH_HOURS: "24"
-  WRITE_EVERY_ELIGIBLE_STORY: "1"
 
 jobs:
   generate-and-publish:
     runs-on: ubuntu-22.04
-    timeout-minutes: 45
+    timeout-minutes: 15
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
@@ -34,56 +29,91 @@ jobs:
           ref: ${{ env.DEFAULT_BRANCH }}
           token: ${{ secrets.ACTIONS_GITHUB_TOKEN || secrets.PERSONAL_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           persist-credentials: true
-      - name: Set up Python 3.11
-        uses: actions/setup-python@v6
-        with: {python-version: "3.11"}
-      - name: Cache Playwright browsers
-        uses: actions/cache@v5
-        with:
-          path: ~/.cache/ms-playwright
-          key: ${{ runner.os }}-playwright-chromium-news-v4
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests google-genai beautifulsoup4 lxml playwright python-dateutil Pillow
-          playwright install chromium --with-deps
-      - name: Enforce 24h freshness and angle-gap writer (news)
-        env: {WRITER_DESK: news}
-        run: |
-          set -e
-          test -f scripts/zandani_writer_prompt.txt
-          test -f scripts/article_intelligence.py
-          test -f scripts/celestine_news_v2.py
-          python scripts/enforce_writer_contract.py
-      - name: Run Celestine News v2 pipeline (≤24h, unique angle, image-aware)
+
+      - name: Generate through private Supabase newsroom engine
         env:
-          GEMINI_WRITE_KEY: ${{ secrets.GEMINI_WRITE_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_API_KEY1: ${{ secrets.GEMINI_API_KEY1 }}
-          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
-          IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
-          POSTS_DIR: ${{ env.POSTS_DIR }}
-          MEMORY_FILE: ${{ env.MEMORY_FILE }}
-          WRITER_PROMPT_FILE: ${{ env.WRITER_PROMPT_FILE }}
-          WRITER_MAX_AGE_HOURS: "24"
-          FRESH_HOURS: "24"
-          WRITE_EVERY_ELIGIBLE_STORY: "1"
-          TZ: Africa/Nairobi
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
         run: |
-          set -e
-          python scripts/celestine_news_v2.py
-      - name: Voice / SEO gate (optional — never block publish)
-        run: |
-          if [ -f scripts/finish_desk.py ]; then python scripts/finish_desk.py || true; fi
-      - name: Commit and push safely
+          set -euo pipefail
+          test -n "${SUPABASE_URL}"
+          test -n "${SUPABASE_SECRET_KEY}"
+          curl --fail-with-body --retry 2 --retry-delay 3 \
+            -X POST "${SUPABASE_URL}/functions/v1/newsroom-writer" \
+            -H "Content-Type: application/json" \
+            -H "apikey: ${SUPABASE_SECRET_KEY}" \
+            --data '{"desk":"news","author":"Celestine Nzioka","source_list":"https://www.kenyans.co.ke/news"}' \
+            -o /tmp/newsroom.json
+
+          python - <<'PY'
+          import json, os, pathlib, re, sys
+          data = json.load(open("/tmp/newsroom.json", encoding="utf-8"))
+          if data.get("error"):
+              raise SystemExit("newsroom engine error: " + str(data["error"]))
+          result = data.get("result") or {}
+          if result.get("status") != "write":
+              print("NO-PUBLISH:", result.get("skip_reason") or "editorial skip")
+              pathlib.Path("/tmp/NO_PUBLISH").write_text("1", encoding="utf-8")
+              raise SystemExit(0)
+
+          article = result.get("article") or {}
+          title = (article.get("title") or "").strip()
+          body = (article.get("body_markdown") or "").strip()
+          description = (article.get("description") or "").strip()
+          source = data.get("source") or {}
+          source_url = source.get("url") or source.get("source_url") or ""
+          if not source_url:
+              source_url = data.get("source_url") or ""
+          og = data.get("og_image") or ""
+          if not title or len(body.split()) < 220:
+              raise SystemExit("publication quality gate failed")
+
+          slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")[:80]
+          if not slug:
+              raise SystemExit("could not create slug")
+          today = __import__("datetime").datetime.now(__import__("datetime").timezone.utc).strftime("%Y-%m-%d")
+          path = pathlib.Path("content/posts") / f"{today}-{slug}.md"
+
+          def q(v):
+              return json.dumps(str(v or ""), ensure_ascii=False)
+
+          front = [
+              "---",
+              f"title: {q(title)}",
+              f"slug: {q(slug)}",
+              f"description: {q(description)}",
+              f"excerpt: {q(description)}",
+              f"date: {q(__import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat())}",
+              f"dateModified: {q(__import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat())}",
+              'author: "Celestine Nzioka"',
+              'category: "News"',
+              f"image: {q(og)}",
+              f"source: {q(source_url)}",
+              'schema: "NewsArticle"',
+              "---",
+              "",
+              body,
+              ""
+          ]
+          path.parent.mkdir(parents=True, exist_ok=True)
+          path.write_text("\n".join(front), encoding="utf-8")
+          print("PUBLISHED FILE:", path)
+          print("MODEL VERSION:", data.get("model_version"))
+          print("GAP VERSION:", data.get("gap_version"))
+          print("IMAGE PIPELINE VERSION:", data.get("image_pipeline_version"))
+          PY
+
+      - name: Commit and push article
+        if: success()
         shell: bash
         run: |
           set -euo pipefail
+          if [ -f /tmp/NO_PUBLISH ]; then exit 0; fi
           git config user.name "Za Ndani"
           git config user.email "bot@zandani.co.ke"
-          git add -A
+          git add content/posts
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "content: Celestine Nzioka news (angle-gap <=24h)"
+          git commit -m "content: Celestine Nzioka news (server-side GAP)"
           for attempt in 1 2 3 4 5; do
             git fetch origin "${DEFAULT_BRANCH}"
             git rebase "origin/${DEFAULT_BRANCH}"
