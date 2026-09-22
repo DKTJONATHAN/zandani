@@ -634,10 +634,10 @@
     "f878c2c73069359ce6513a4ff0eac7dc",
     "20f0ede759158594ef673cab76b6d1d4",
     "607618d22c622556b72364092595cd6a",
-    "157b5ab2633ea7b979d992fce17e7fd5"
+    "157b5ab2633ea7b979d992fce17e7fd5",
+    "9e4c6af86dbb7da72988b50675d9e3a1"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -666,7 +666,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -885,7 +886,8 @@
     "https://kenyans.co.ke/news/127250-ministry-review-university-courses-ahead-cbet-rollout",
     "https://kenyans.co.ke/news/127253-cbk-proposes-new-rules-payment-providers-fintechs-and-digital-wallets",
     "https://kenyans.co.ke/news/127254-dangote-cement-rules-out-new-plant-kenya-over-limestone-challenges",
-    "https://kenyans.co.ke/news/127260-dci-uncovers-fake-sha-registration-scheme-used-target-mobile-money-accounts"
+    "https://kenyans.co.ke/news/127260-dci-uncovers-fake-sha-registration-scheme-used-target-mobile-money-accounts",
+    "https://kenyans.co.ke/news/127257-kalonzo-used-komboa-kenya-sifunas-ukombozi-plans-wiper-official-says"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1026,7 +1028,8 @@
     "state mounts late audit university degrees scramble december cbet rollout",
     "cbk treasury draft law caps digital wallet exposure single banks",
     "geological bottlenecks reroute dangote cement expansion regional hubs",
-    "dci cracks roving sha impersonation syndicate behind rural mobile money sim swaps"
+    "dci cracks roving sha impersonation syndicate behind rural mobile money sim swaps",
+    "july filing parties registry locked sifuna out ukombozi"
   ],
   "topic_keys": [
     "news tracker",
@@ -1566,6 +1569,15 @@
       "structure": "Hard news enforcement lead -> Geographic sweep and operational footprint -> Mechanics of the identity-to-SIM-swap pipeline -> Prior institutional warnings -> Mtwapa arrest and fugitive pursuit.",
       "source": "https://kenyans.co.ke/news/127260-dci-uncovers-fake-sha-registration-scheme-used-target-mobile-money-accounts",
       "published_at": "2026-09-22T10:02:54Z"
+    },
+    {
+      "title": "How a July Filing at the Parties Registry Locked Sifuna Out of \u2018Ukombozi\u2019",
+      "angle": "Reframing the rhetorical clash as an institutional pre-emption battle waged through date-stamped filings at the Registrar of Political Parties, where filing timestamps rather than political rhetoric have locked rival opposition actors out of building post-broad-based electoral machinery.",
+      "angle_type": "timing",
+      "opening": "A bureaucratic timing lead contrasting political ownership rhetoric with the decisive administrative paper trail at the Registrar of Political Parties.",
+      "structure": "Administrative pre-emption core -> The ORPP September 8 rejection mechanics -> Competing 2025 origin timelines (April vs March) -> Broader opposition realignments post-broad-based government.",
+      "source": "https://kenyans.co.ke/news/127257-kalonzo-used-komboa-kenya-sifunas-ukombozi-plans-wiper-official-says",
+      "published_at": "2026-09-22T10:44:37Z"
     }
   ]
 }
