@@ -81,7 +81,7 @@ jobs:
           fi
 
           if [ "$M" -le 20 ]; then
-            run_wf "za-news.yml"
+            run_wf "celestine-news.yml"
           fi
 
           for hm in "7:8" "11:8" "15:8" "19:8"; do
