@@ -29,7 +29,8 @@
     "636dc38d68de69558bb231101e1f7b106717abbcc03ccff0677d421699609899",
     "af0134e42eb3cc18e88a1685cb32c39fea422ca87171fa0ca754a490cc058d70",
     "69a92cc670f0d5a9b199831e478c21ac1dd6cd886ba00a110dcf4b02379e44a0",
-    "a3ff18640bf1a961c126b8f3b9ceeaa3fa93830b7f878e7213a62961a3900b0a"
+    "a3ff18640bf1a961c126b8f3b9ceeaa3fa93830b7f878e7213a62961a3900b0a",
+    "a177462a35ee588cbaff49e4689e9ab9688e1c4399162a3cc309dd975a82dcd4"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -61,7 +62,8 @@
     "https://www.ghafla.co.ke/pastor-victor-kanyari-calls-out-church-congregants-for-offering-low-sadaka/",
     "https://www.ghafla.co.ke/rigathi-gachagua-slams-dp-kindikis-cultural-coronation-during-us-diaspora-meeting/",
     "https://www.ghafla.co.ke/co-op-bank-youth-forum-how-young-kenyans-can-build-their-own-career-lane/",
-    "https://www.ghafla.co.ke/epra-raises-electricity-charges-by-ksh4-16-per-unit-in-revised-september-tariffs/"
+    "https://www.ghafla.co.ke/epra-raises-electricity-charges-by-ksh4-16-per-unit-in-revised-september-tariffs/",
+    "https://www.ghafla.co.ke/uhuru-kenyatta-hands-over-jubilee-party-leadership-to-fred-matiangi-ahead-of-ndc/"
   ],
   "published_angles": [
     {
@@ -287,6 +289,14 @@
       "opening": "Open directly on the financial mechanics of the September tariff notice and the specific thermal plants driving the cost.",
       "structure": "Thermal cost breakdown and fuel charges -> The net-metering squeeze on private solar producers -> EV pricing and consumer tier restructuring -> Grid stability context and battery storage demands.",
       "source": "https://www.ghafla.co.ke/epra-raises-electricity-charges-by-ksh4-16-per-unit-in-revised-september-tariffs/"
+    },
+    {
+      "title": "Uhuru Kenyatta\u2019s Backstage Pivot: Handing the Jubilee Mic to Fred Matiang\u2019i After Court Eviction Notice",
+      "angle": "Reframing Uhuru's exit not as a political retirement, but as a strategic corporate-style 'backstage pivot' to a senior advisory role to bypass a tight judicial deadline, leaving his former chief enforcer, Fred Matiang'i, to take the heat in the spotlight.",
+      "angle_type": "personality-driven strategic pivot",
+      "opening": "Personality-led opening focusing on Uhuru's tactical shift to a backstage role rather than a quiet exit.",
+      "structure": "Tactical pivot hook -> Details of the Nairobi handoff meeting -> The legal pressure (High Court ruling) -> Matiang'i's new role and corporate-style partnership with Kioni -> Strategic outlook for Jubilee heading to the NDC.",
+      "source": "https://www.ghafla.co.ke/uhuru-kenyatta-hands-over-jubilee-party-leadership-to-fred-matiangi-ahead-of-ndc/"
     }
   ],
   "style_history": [
