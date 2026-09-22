@@ -635,10 +635,10 @@
     "20f0ede759158594ef673cab76b6d1d4",
     "607618d22c622556b72364092595cd6a",
     "157b5ab2633ea7b979d992fce17e7fd5",
-    "9e4c6af86dbb7da72988b50675d9e3a1"
+    "9e4c6af86dbb7da72988b50675d9e3a1",
+    "26449906efab6be2958716d7fec224ef"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -667,7 +667,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -887,7 +888,8 @@
     "https://kenyans.co.ke/news/127253-cbk-proposes-new-rules-payment-providers-fintechs-and-digital-wallets",
     "https://kenyans.co.ke/news/127254-dangote-cement-rules-out-new-plant-kenya-over-limestone-challenges",
     "https://kenyans.co.ke/news/127260-dci-uncovers-fake-sha-registration-scheme-used-target-mobile-money-accounts",
-    "https://kenyans.co.ke/news/127257-kalonzo-used-komboa-kenya-sifunas-ukombozi-plans-wiper-official-says"
+    "https://kenyans.co.ke/news/127257-kalonzo-used-komboa-kenya-sifunas-ukombozi-plans-wiper-official-says",
+    "https://kenyans.co.ke/news/127263-uhuru-officially-hands-over-jubilee-party-fred-matiangi"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1029,7 +1031,8 @@
     "cbk treasury draft law caps digital wallet exposure single banks",
     "geological bottlenecks reroute dangote cement expansion regional hubs",
     "dci cracks roving sha impersonation syndicate behind rural mobile money sim swaps",
-    "july filing parties registry locked sifuna out ukombozi"
+    "july filing parties registry locked sifuna out ukombozi",
+    "uhuru hands jubilee leadership matiang ahead party convention"
   ],
   "topic_keys": [
     "news tracker",
@@ -1578,6 +1581,15 @@
       "structure": "Administrative pre-emption core -> The ORPP September 8 rejection mechanics -> Competing 2025 origin timelines (April vs March) -> Broader opposition realignments post-broad-based government.",
       "source": "https://kenyans.co.ke/news/127257-kalonzo-used-komboa-kenya-sifunas-ukombozi-plans-wiper-official-says",
       "published_at": "2026-09-22T10:44:37Z"
+    },
+    {
+      "title": "Uhuru Hands Jubilee Leadership to Matiang'i Ahead of Party Convention",
+      "angle": "Attribution-first framing of the leadership handover as an interim command transfer ahead of the National Delegates Convention (NDC), elevating Matiang'i to direct operational control while preserving Kenyatta's influence as senior advisor.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first statement lead opening directly with Kenyatta's directive to party officials and identifying the immediate administrative beneficiary of the succession.",
+      "structure": "Attribution and executive transition lead -> Exact declaration and endorsement quote -> Pre-NDC operational mandate -> Institutional context and senior advisory positioning",
+      "source": "https://kenyans.co.ke/news/127263-uhuru-officially-hands-over-jubilee-party-fred-matiangi",
+      "published_at": "2026-09-22T11:02:43Z"
     }
   ]
 }
