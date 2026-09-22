@@ -451,30 +451,112 @@ async function runDueDesks(env) {
   return { triggered, now: parts.display };
 }
 
-async function readSubscribers(env) {
-  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${SUBS_PATH}?ref=${GITHUB_BRANCH}`;
-  try {
-    const data = await githubJson(url, { headers: ghHeaders(env) });
-    const decoded = fromBase64(data.content);
-    const parsed = JSON.parse(decoded);
-    const list = Array.isArray(parsed.subscribers) ? parsed.subscribers : [];
-    return { sha: data.sha, subscribers: list };
-  } catch (e) {
-    if (e.status === 404) return { sha: null, subscribers: [] };
-    throw e;
+function supabaseConfig(env) {
+  const url = String(env.SUPABASE_URL || "").replace(/\/$/, "");
+  const key = String(env.SUPABASE_SERVICE_ROLE_KEY || "").trim();
+  if (!url || !key) {
+    const err = new Error("SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY is not configured");
+    err.status = 503;
+    throw err;
   }
+  return { url, key };
 }
 
-async function writeSubscribers(env, subscribers, sha, message) {
-  const payload = {
-    message,
-    branch: GITHUB_BRANCH,
-    content: toBase64(JSON.stringify({ updated: new Date().toISOString(), subscribers }, null, 2) + "\n"),
+function sbHeaders(key, extra = {}) {
+  return {
+    apikey: key,
+    Authorization: `Bearer ${key}`,
+    "Content-Type": "application/json",
+    ...extra,
   };
-  if (sha) payload.sha = sha;
-  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${SUBS_PATH}`;
-  return githubJson(url, { method: "PUT", headers: ghHeaders(env), body: JSON.stringify(payload) });
 }
+
+async function readSubscribers(env) {
+  const { url, key } = supabaseConfig(env);
+  const q = new URLSearchParams({
+    select: "id,email,subscribed_at,is_active",
+    order: "subscribed_at.asc",
+  });
+  const res = await fetch(`${url}/rest/v1/newsletter_subscribers?${q}`, {
+    headers: sbHeaders(key),
+  });
+  if (!res.ok) {
+    const body = await res.text().catch(() => "");
+    const err = new Error(`Supabase read failed: ${res.status} ${body}`);
+    err.status = res.status;
+    throw err;
+  }
+  const rows = await res.json();
+  return {
+    subscribers: Array.isArray(rows)
+      ? rows.map((row) => ({
+          email: row.email,
+          subscribed_at: row.subscribed_at,
+          active: row.is_active !== false,
+        }))
+      : [],
+  };
+}
+
+async function upsertSubscriber(env, email) {
+  const { url, key } = supabaseConfig(env);
+  const now = new Date().toISOString();
+  const q = new URLSearchParams({
+    email: `eq.${email}`,
+    select: "id,email,subscribed_at,is_active",
+    limit: "1",
+  });
+  const existingRes = await fetch(`${url}/rest/v1/newsletter_subscribers?${q}`, {
+    headers: sbHeaders(key),
+  });
+  if (!existingRes.ok) {
+    const body = await existingRes.text().catch(() => "");
+    const err = new Error(`Supabase read failed: ${existingRes.status} ${body}`);
+    err.status = existingRes.status;
+    throw err;
+  }
+  const existingRows = await existingRes.json();
+  const existing = Array.isArray(existingRows) && existingRows.length ? existingRows[0] : null;
+  if (existing && existing.is_active !== false) return { already: true };
+
+  const row = {
+    email,
+    subscribed_at: existing?.subscribed_at || now,
+    is_active: true,
+  };
+
+  const res = await fetch(`${url}/rest/v1/newsletter_subscribers`, {
+    method: "POST",
+    headers: sbHeaders(key, { Prefer: "return=minimal" }),
+    body: JSON.stringify(row),
+  });
+
+  if (!res.ok) {
+    if (res.status === 409 && existing) {
+      const patch = await fetch(
+        `${url}/rest/v1/newsletter_subscribers?id=eq.${encodeURIComponent(existing.id)}`,
+        {
+          method: "PATCH",
+          headers: sbHeaders(key, { Prefer: "return=minimal" }),
+          body: JSON.stringify({ is_active: true, subscribed_at: existing.subscribed_at || now }),
+        }
+      );
+      if (!patch.ok) {
+        const body = await patch.text().catch(() => "");
+        const err = new Error(`Supabase reactivate failed: ${patch.status} ${body}`);
+        err.status = patch.status;
+        throw err;
+      }
+      return { already: false };
+    }
+    const body = await res.text().catch(() => "");
+    const err = new Error(`Supabase insert failed: ${res.status} ${body}`);
+    err.status = res.status;
+    throw err;
+  }
+  return { already: false };
+}
+
 
 function welcomeHtml() {
   return `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Za Ndani</title></head>\n<body style="margin:0;background:#050505;color:#f3ece2;font-family:Georgia,serif;">\n<div style="max-width:520px;margin:40px auto;padding:28px;background:#111;">\n<p style="color:#e85d04;font-size:11px;letter-spacing:.28em;font-weight:800;">YOU'RE ON THE LIST · EAT</p>\n<h1 style="font-size:28px;">The evening brief, every night at 7.</h1>\n<p style="color:#9a9388;font-family:Arial,sans-serif;font-size:14px;">Three Kenya-first stories. No Hollywood filler.</p>\n<a href="${SITE}" style="display:inline-block;background:#e85d04;color:#050505;padding:12px 18px;text-decoration:none;font-weight:800;font-size:12px;">OPEN ZA NDANI</a>\n</div></body></html>`;
@@ -501,70 +583,57 @@ async function sendWelcome(env, email) {
 async function handleSubscribe(request, env) {
   if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: corsHeaders() });
   if (request.method !== "POST") return json({ error: "POST only" }, 405);
+
   try {
     let body;
     try { body = await request.json(); } catch { return json({ error: "Enter a valid email." }, 400); }
     const email = validEmail(body?.email);
     if (!email) return json({ error: "Enter a valid email." }, 400);
-    let saved = false, already = false;
-    for (let attempt = 0; attempt < 3; attempt += 1) {
-      const current = await readSubscribers(env);
-      const existing = current.subscribers.find((row) => String(row.email || "").toLowerCase() === email);
-      if (existing && existing.active !== false) { already = true; saved = true; break; }
-      const next = existing
-        ? current.subscribers.map((row) =>
-            String(row.email || "").toLowerCase() === email
-              ? { ...row, active: true, subscribed_at: row.subscribed_at || new Date().toISOString() }
-              : row)
-        : current.subscribers.concat([{ email, subscribed_at: new Date().toISOString(), active: true }]);
-      try {
-        await writeSubscribers(env, next, current.sha, existing ? "newsletter: reactivate subscriber" : "newsletter: new subscriber");
-        saved = true; break;
-      } catch (e) {
-        if (e.status === 409 || e.status === 422) continue;
-        throw e;
-      }
+
+    const { already } = await upsertSubscriber(env, email);
+
+    if (!already) {
+      try { await sendWelcome(env, email); }
+      catch (mailErr) { console.error("welcome mail", mailErr); }
     }
-    if (!saved) return json({ error: "Could not save just then. Try once more." }, 409);
-    if (!already) { try { await sendWelcome(env, email); } catch (mailErr) { console.error("welcome mail", mailErr); } }
-    return json({ ok: true, already, message: already ? "Already subscribed." : "Subscribed. Watch your inbox tonight at 19:00 EAT." });
+
+    return json({
+      ok: true,
+      already,
+      message: already ? "Already subscribed." : "Subscribed. Watch your inbox tonight at 19:00 EAT.",
+    });
   } catch (error) {
     console.error("subscribe", error);
-    const status = error.status === 503 ? 503 : error.status === 401 || error.status === 403 ? 403 : 500;
-    return json({ error: String(error.message || "Could not subscribe."), github_status: error.status || null }, status);
+    const status = error.status === 503 ? 503 : 500;
+    return json({
+      error: status === 503
+        ? "Newsletter storage is not configured. Add SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY to Cloudflare."
+        : "Could not subscribe. Try again.",
+    }, status);
   }
 }
 
+
 async function deactivate(env, email) {
-  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${SUBS_PATH}?ref=${GITHUB_BRANCH}`;
-  const getRes = await fetch(url, { headers: ghHeaders(env) });
-  if (getRes.status === 404) return;
-  const data = await getRes.json();
-  if (!getRes.ok) throw new Error(data.message || "GitHub read failed");
-  const parsed = JSON.parse(fromBase64(data.content));
-  const list = Array.isArray(parsed.subscribers) ? parsed.subscribers : [];
-  let changed = false;
-  const next = list.map((row) => {
-    if (String(row.email || "").toLowerCase() !== email) return row;
-    if (row.active === false) return row;
-    changed = true;
-    return { ...row, active: false, unsubscribed_at: new Date().toISOString() };
-  });
-  if (!changed) return;
-  const payload = {
-    message: "newsletter: unsubscribe",
-    branch: GITHUB_BRANCH,
-    sha: data.sha,
-    content: toBase64(JSON.stringify({ updated: new Date().toISOString(), subscribers: next }, null, 2) + "\n"),
-  };
-  const put = await fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${SUBS_PATH}`, {
-    method: "PUT", headers: ghHeaders(env), body: JSON.stringify(payload),
-  });
-  if (!put.ok) {
-    const body = await put.json().catch(() => ({}));
-    throw new Error(body.message || "GitHub write failed");
+  const { url, key } = supabaseConfig(env);
+  const now = new Date().toISOString();
+  const res = await fetch(
+    `${url}/rest/v1/newsletter_subscribers?email=eq.${encodeURIComponent(email)}`,
+    {
+      method: "PATCH",
+      headers: sbHeaders(key, { Prefer: "return=minimal" }),
+      body: JSON.stringify({ is_active: false }),
+    }
+  );
+  if (!res.ok && res.status !== 404) {
+    const body = await res.text().catch(() => "");
+    const err = new Error(`Supabase unsubscribe failed: ${res.status} ${body}`);
+    err.status = res.status;
+    throw err;
   }
+  return { updated_at: now };
 }
+
 
 function thanksPage() {
   return `<!doctype html><html lang="en"><meta charset="utf-8"><title>Unsubscribed · Za Ndani</title>\n<body style="margin:0;background:#050505;color:#f3ece2;font-family:Georgia,serif;">\n<div style="max-width:420px;margin:64px auto;text-align:center;">\n<div style="height:3px;background:#e85d04;margin-bottom:28px;"></div>\n<h1>You're off the evening brief.</h1>\n<p style="color:#9a9388;font-family:Arial,sans-serif;font-size:14px;"><a href="${SITE}" style="color:#e85d04;">Back to Za Ndani</a></p>\n</div></body></html>`;
