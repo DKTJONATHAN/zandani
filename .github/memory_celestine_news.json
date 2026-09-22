@@ -630,10 +630,10 @@
     "d66c81dfdeb3f4a0b0874b89355bc152",
     "2962682a7bebac16bb0a5aa2cf1d1c1d",
     "7c4e03ed7ac00a39682da1300634f455",
-    "d2ef75c947aface9ef9a5d93f1d256c5"
+    "d2ef75c947aface9ef9a5d93f1d256c5",
+    "f878c2c73069359ce6513a4ff0eac7dc"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -662,7 +662,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -877,7 +878,8 @@
     "https://kenyans.co.ke/news/127239-court-denies-bail-terms-utumishi-girls-fire-suspects",
     "https://kenyans.co.ke/news/127245-kenya-seeks-land-gigiri-build-new-offices-un-missions",
     "https://kenyans.co.ke/news/127246-dci-connects-20-more-centres-faster-good-conduct-certificates",
-    "https://kenyans.co.ke/news/127244-rubio-ruto-explore-us-kenya-critical-minerals-partnership"
+    "https://kenyans.co.ke/news/127244-rubio-ruto-explore-us-kenya-critical-minerals-partnership",
+    "https://kenyans.co.ke/news/127250-ministry-review-university-courses-ahead-cbet-rollout"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1014,7 +1016,8 @@
     "remand safety failures force transfer utumishi fire suspects bail denied",
     "moves end year tenancy sovereign mission complex gigiri",
     "dci extends hour clearance network upcountry centres",
-    "backs raw mineral export ban exchange strategic processing deals"
+    "backs raw mineral export ban exchange strategic processing deals",
+    "state mounts late audit university degrees scramble december cbet rollout"
   ],
   "topic_keys": [
     "news tracker",
@@ -1518,6 +1521,15 @@
       "structure": "Policy alignment lead -> Diplomatic and commercial terms of the New York talks -> U.S. policy pivot backing local processing over extraction -> Geopolitical trade-offs across security missions and AGOA",
       "source": "https://kenyans.co.ke/news/127244-rubio-ruto-explore-us-kenya-critical-minerals-partnership",
       "published_at": "2026-09-22T06:02:25Z"
+    },
+    {
+      "title": "State Mounts Late Audit of University Degrees in Scramble for December CBET Rollout",
+      "angle": "The three-month audit squeeze facing higher education: seeking external consultants just weeks before a planned December launch reveals the state's scramble to determine whether universities have the curricula, infrastructure, and trained lecturers to handle competency-based degrees.",
+      "angle_type": "institutional pressure",
+      "opening": "Timeline-pressure lead contrasting the imminent December rollout deadline with the eleventh-hour procurement of outside experts to inspect university readiness.",
+      "structure": "Audit squeeze lead -> Twin tender mandates (curriculum audit vs institutional capacity) -> Faculty and infrastructure hurdles -> Statutory procurement requirements and road to 2029 full rollout.",
+      "source": "https://kenyans.co.ke/news/127250-ministry-review-university-courses-ahead-cbet-rollout",
+      "published_at": "2026-09-22T07:02:17Z"
     }
   ]
 }
