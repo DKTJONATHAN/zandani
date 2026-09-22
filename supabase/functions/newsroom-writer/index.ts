@@ -258,8 +258,10 @@ Deno.serve(async (req) => {
         prompt_version: deskConfig?.prompt_version || model?.prompt_version || 1,
         gap_version: deskConfig?.gap_version || model?.gap_version || 1,
         image_pipeline_version: deskConfig?.image_pipeline_version || model?.image_pipeline_version || 1,
+        source_url: sourceUrl,
+        og_image: ogImage,
         source,
-        result: { ...result, article: { ...article, slug } },
+        result: { ...result, article: { ...article, body_markdown: markdown, slug } },
         images
       });
     } catch (e) {
