@@ -22,10 +22,22 @@ function isBadImage(url: string, alt = "") {
   return false;
 }
 
+async function fetchHtml(url: string) {
+  const headers = {
+    "User-Agent": USER_AGENT,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-KE,en;q=0.9",
+    "Cache-Control": "no-cache"
+  };
+  const res = await fetch(url, { headers, redirect: "follow" });
+  if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+  return await res.text();
+}
+
 async function scrape(url: string) {
+  const html = await fetchHtml(url);
+  const res = { ok: true, status: 200 };
   const res = await fetch(url, { headers: { "User-Agent": USER_AGENT, "Accept": "text/html,application/xhtml+xml" }, redirect: "follow" });
-  if (!res.ok) throw new Error(`source returned HTTP ${res.status}`);
-  const html = await res.text();
   const doc = new DOMParser().parseFromString(html, "text/html");
   if (!doc) throw new Error("could not parse source HTML");
 
@@ -131,38 +143,76 @@ Deno.serve(async (req) => {
     if (!expected || supplied !== expected) return Response.json({ error: "unauthorized" }, { status: 401, headers: JSON_HEADERS });
     if (req.method !== "POST") return Response.json({ error: "POST required" }, { status: 405, headers: JSON_HEADERS });
 
-    let runId = "";
+    let runId = "";\n    let stage = "request";
     try {
       const body = await req.json();
       const desk = clean(body.desk || "news", 40).toLowerCase();
       const author = clean(body.author || "Za Ndani Desk", 120);
       let sourceUrl = clean(body.source_url, 2000);
       const sourceList = clean(body.source_list || "https://www.kenyans.co.ke/news", 2000);
-      if (!sourceUrl) {
-        const listingRes = await fetch(sourceList, { headers: { "User-Agent": USER_AGENT, "Accept": "text/html,application/xhtml+xml" }, redirect: "follow" });
-        if (!listingRes.ok) throw new Error(`source listing returned HTTP ${listingRes.status}`);
-        const listingHtml = await listingRes.text();
-        const listingDoc = new DOMParser().parseFromString(listingHtml, "text/html");
-        const candidates: string[] = [];
-        for (const a of Array.from(listingDoc.querySelectorAll("a[href]"))) {
-          const href = absolute(sourceList, a.getAttribute("href") || "");
-          if (!href || candidates.includes(href)) continue;
-          if (/kenyans\.co\.ke\/news\//i.test(href) && !/\/category\/|\/tag\//i.test(href)) candidates.push(href);
-          if (candidates.length >= 20) break;
+      stage = "source_discovery";\n      if (!sourceUrl) {
+        let listingHtml = "";
+        let listingError = "";
+        try {
+          listingHtml = await fetchHtml(sourceList);
+        } catch (e) {
+          listingError = e instanceof Error ? e.message : String(e);
         }
-        if (!candidates.length) throw new Error("no article candidates found");
+
+        const candidates: string[] = [];
+        const addCandidate = (href: string) => {
+          if (!href || candidates.includes(href)) return;
+          try {
+            const u = new URL(href);
+            if (u.hostname.replace(/^www\\./, "") !== "kenyans.co.ke") return;
+            if (/\\/news\\//i.test(u.pathname) && !/\\/category\\/|\\/tag\\//i.test(u.pathname)) candidates.push(u.toString());
+          } catch {}
+        };
+
+        if (listingHtml) {
+          const listingDoc = new DOMParser().parseFromString(listingHtml, "text/html");
+          for (const a of Array.from(listingDoc.querySelectorAll("a[href]"))) {
+            addCandidate(absolute(sourceList, a.getAttribute("href") || ""));
+            if (candidates.length >= 30) break;
+          }
+        }
+
+        // Kenyans.co.ke can intermittently challenge server-side requests. Use its
+        // public Google News RSS index as a discovery fallback, then scrape the
+        // original Kenyans article URL normally.
+        if (!candidates.length) {
+          try {
+            const rssUrl = "https://news.google.com/rss/search?q=site%3Akenyans.co.ke%2Fnews&hl=en-KE&gl=KE&ceid=KE%3Aen";
+            const rss = await fetchHtml(rssUrl);
+            const rssDoc = new DOMParser().parseFromString(rss, "application/xml") || new DOMParser().parseFromString(rss, "text/xml");
+            for (const item of Array.from(rssDoc.querySelectorAll("item"))) {
+              const link = item.querySelector("link")?.textContent?.trim() || "";
+              addCandidate(link);
+              const description = item.querySelector("description")?.textContent || "";
+              for (const m of description.matchAll(/https?:\\/\\/www\\.kenyans\\.co\\.ke\\/news\\/[^<\\s&]+/gi)) addCandidate(m[0]);
+              if (candidates.length >= 30) break;
+            }
+          } catch (e) {
+            if (!listingError) listingError = e instanceof Error ? e.message : String(e);
+          }
+        }
+
+        if (!candidates.length) throw new Error(`no article candidates found; source listing: ${listingError || "empty"}`);
         let selected = "";
+        let lastProbeError = "";
         for (const candidate of candidates) {
           try {
             const probe = await scrape(candidate);
             if (probe.body.length >= 500) { selected = candidate; break; }
-          } catch {}
+          } catch (e) {
+            lastProbeError = e instanceof Error ? e.message : String(e);
+          }
         }
-        if (!selected) throw new Error("no usable fresh article candidate found");
+        if (!selected) throw new Error(`no usable fresh article candidate found; last probe: ${lastProbeError || "unknown"}`);
         sourceUrl = selected;
       }
 
-      const supabaseUrl = Deno.env.get("SUPABASE_URL")!;
+      stage = "database_setup";\n      const supabaseUrl = Deno.env.get("SUPABASE_URL")!;
       const keys = JSON.parse(Deno.env.get("SUPABASE_SECRET_KEYS") || "{}");
       const serviceKey = Deno.env.get("SUPABASE_SECRET_KEY") || keys.default || "";
       if (!serviceKey) throw new Error("Supabase server key is not configured");
@@ -193,7 +243,7 @@ Deno.serve(async (req) => {
       if (run.error || !run.data?.id) throw new Error(`automation_runs insert failed: ${run.error?.message || "unknown database error"}`);
       runId = run.data.id;
 
-      const source = await scrape(sourceUrl);
+      stage = "article_scrape";\n      const source = await scrape(sourceUrl);
       const sourceImages = source.images.filter((x:any) => !isBadImage(x.url, x.alt)).slice(0, 3);
       const imgbbKey = Deno.env.get("IMGBB_API_KEY") || "";
       if (imgbbKey) {
@@ -212,10 +262,10 @@ Deno.serve(async (req) => {
       source.images = sourceImages;
       const recentTitles = (recent.data || []).map((x:any) => x.article_slug || "").filter(Boolean);
 
-      const apiKey = Deno.env.get("LOVABLE_API_KEY");
+      stage = "image_pipeline";\n      const apiKey = Deno.env.get("LOVABLE_API_KEY");
       if (!apiKey) throw new Error("LOVABLE_API_KEY is not configured");
       const modelName = model?.config?.gateway_model || (String(model?.model_name || "").includes("/") ? model.model_name : "google/gemini-3-flash-preview");
-      const ai = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
+      stage = "ai_gateway";\n      const ai = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
         method: "POST",
         headers: { "Authorization": `Bearer ${apiKey}`, "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -246,7 +296,7 @@ Deno.serve(async (req) => {
       const images = source.images.filter((x:any) => chosen.has(x.index) && !isBadImage(x.url, x.alt)).slice(0, 3)
         .map((x:any) => ({ ...x, source_url: x.url, hosted_url: x.hosted_url || "" }));
 
-      const article = result.article || {};
+      stage = "publication_quality";\n      const article = result.article || {};
       const title = clean(article.title, 220);
       let markdown = String(article.body_markdown || "").trim();
       const hosted = source.images.filter((x:any) => x.hosted_url || x.url).slice(0, 3);
@@ -297,6 +347,6 @@ Deno.serve(async (req) => {
           await admin.from("automation_runs").update({ status: "failed", finished_at: new Date().toISOString(), error: message }).eq("id", runId);
         }
       } catch {}
-      return Response.json({ error: message }, { status: 500, headers: JSON_HEADERS });
+      return Response.json({ error: message, stage }, { status: 500, headers: JSON_HEADERS });
     }
 });
