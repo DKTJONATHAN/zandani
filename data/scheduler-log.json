@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-22T03:00:40.511Z",
+  "updated": "2026-09-22T03:08:34.434Z",
   "logs": [
+    {
+      "id": "entertainment-1790046513945",
+      "desk": "entertainment",
+      "scheduledFor": "2026-09-22 06:08:31",
+      "dispatchedAt": "2026-09-22T03:08:31.916Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "africa-1790046040184",
       "desk": "africa",
@@ -1990,16 +2000,6 @@
       "ok": true,
       "error": null,
       "source": "manual"
-    },
-    {
-      "id": "ghafla-1789825453107",
-      "desk": "ghafla",
-      "scheduledFor": "2026-09-19 16:44:10",
-      "dispatchedAt": "2026-09-19T13:44:11.068Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
-      "source": "cron"
     }
   ]
 }
