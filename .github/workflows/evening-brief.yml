@@ -2,7 +2,7 @@ name: Evening brief
 
 # 19:07 EAT (16:07 UTC). Active emails from Supabase newsletter_subscribers.
 #
-# Secrets: RESEND_API_KEY, SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY
+# Secrets: RESEND_API_KEY, SUPABASE_URL, SUPABASE_SECRET_KEY
 # Optional: RESEND_FROM
 
 on:
@@ -34,14 +34,14 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           RESEND_FROM: ${{ secrets.RESEND_FROM }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
         run: |
           if [ -z "${RESEND_API_KEY:-}" ]; then
             echo "::error::Add GitHub secret RESEND_API_KEY"
             exit 1
           fi
-          if [ -z "${SUPABASE_URL:-}" ] || [ -z "${SUPABASE_SERVICE_ROLE_KEY:-}" ]; then
-            echo "::error::Add SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY secrets"
+          if [ -z "${SUPABASE_URL:-}" ] || [ -z "${SUPABASE_SECRET_KEY:-}" ]; then
+            echo "::error::Add SUPABASE_URL and SUPABASE_SECRET_KEY secrets"
             exit 1
           fi
           python scripts/email_brief.py digest
