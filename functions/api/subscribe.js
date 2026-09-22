@@ -1,7 +1,3 @@
-const GITHUB_OWNER = "DKTJONATHAN";
-const GITHUB_REPO = "zandani";
-const GITHUB_BRANCH = "main";
-const SUBS_PATH = "data/subscribers.json";
 const RESEND = "https://api.resend.com";
 const SITE = "https://zandani.co.ke";
 const FROM_DEFAULT = "Za Ndani <onboarding@resend.dev>";
@@ -28,109 +24,135 @@ function json(data, status = 200) {
   });
 }
 
-function ghHeaders(env) {
-  const token = env.PERSONAL_GITHUB_TOKEN;
-  if (!token) {
-    const err = new Error("PERSONAL_GITHUB_TOKEN is not configured on Cloudflare Pages");
+function supabaseConfig(env) {
+  const url = String(env.SUPABASE_URL || "").replace(/\/$/, "");
+  const key = String(env.SUPABASE_SERVICE_ROLE_KEY || "").trim();
+  if (!url || !key) {
+    const err = new Error(
+      "SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY is not configured on Cloudflare"
+    );
     err.status = 503;
     throw err;
   }
+  return { url, key };
+}
+
+function sbHeaders(key, extra = {}) {
   return {
-    Authorization: `Bearer ${token}`,
-    Accept: "application/vnd.github+json",
-    "X-GitHub-Api-Version": "2022-11-28",
+    apikey: key,
+    Authorization: `Bearer ${key}`,
     "Content-Type": "application/json",
-    "User-Agent": "zandani-subscribe",
+    ...extra,
   };
 }
 
-async function githubJson(url, init) {
-  const res = await fetch(url, init);
-  const body = await res.json().catch(() => ({}));
+/** Look up existing row by email (normalized lowercase). */
+async function findSubscriber(env, email) {
+  const { url, key } = supabaseConfig(env);
+  const q = new URLSearchParams({
+    email: `eq.${email}`,
+    select: "id,email,active,subscribed_at,unsubscribed_at",
+    limit: "1",
+  });
+  const res = await fetch(`${url}/rest/v1/newsletter_subscribers?${q}`, {
+    headers: sbHeaders(key),
+  });
   if (!res.ok) {
-    const err = new Error(body.message || `GitHub ${res.status}`);
+    const body = await res.text().catch(() => "");
+    const err = new Error(`Supabase read failed: ${res.status} ${body}`);
     err.status = res.status;
-    err.body = body;
     throw err;
   }
-  return body;
+  const rows = await res.json();
+  return Array.isArray(rows) && rows.length ? rows[0] : null;
 }
 
-async function readSubscribers(env) {
-  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${SUBS_PATH}?ref=${GITHUB_BRANCH}`;
-  try {
-    const data = await githubJson(url, { headers: ghHeaders(env) });
-    const decoded = atob(String(data.content || "").replace(/\n/g, ""));
-    const parsed = JSON.parse(decoded);
-    const list = Array.isArray(parsed.subscribers) ? parsed.subscribers : [];
-    return { sha: data.sha, subscribers: list };
-  } catch (e) {
-    if (e.status === 404) return { sha: null, subscribers: [] };
-    throw e;
+/**
+ * Upsert subscriber. If reactivating, sets active=true and clears unsubscribed_at.
+ * Returns { already: boolean }.
+ */
+async function upsertSubscriber(env, email) {
+  const existing = await findSubscriber(env, email);
+  if (existing && existing.active !== false) {
+    return { already: true };
   }
-}
 
-function toBase64(str) {
-  // btoa is fine for UTF-8 ASCII-heavy JSON; escape non-ASCII safely
-  return btoa(unescape(encodeURIComponent(str)));
-}
-
-async function writeSubscribers(env, subscribers, sha, message) {
-  const payload = {
-    message,
-    branch: GITHUB_BRANCH,
-    content: toBase64(
-      JSON.stringify({ updated: new Date().toISOString(), subscribers }, null, 2) + "\n"
-    ),
+  const { url, key } = supabaseConfig(env);
+  const now = new Date().toISOString();
+  const row = {
+    email,
+    active: true,
+    subscribed_at: existing?.subscribed_at || now,
+    unsubscribed_at: null,
+    source: "website",
+    updated_at: now,
   };
-  if (sha) payload.sha = sha;
-  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${SUBS_PATH}`;
-  return githubJson(url, {
-    method: "PUT",
-    headers: ghHeaders(env),
-    body: JSON.stringify(payload),
+
+  const res = await fetch(`${url}/rest/v1/newsletter_subscribers`, {
+    method: "POST",
+    headers: sbHeaders(key, {
+      Prefer: "resolution=merge-duplicates,return=minimal",
+    }),
+    body: JSON.stringify(row),
   });
+
+  if (!res.ok) {
+    if (res.status === 409 && existing) {
+      const patch = await fetch(
+        `${url}/rest/v1/newsletter_subscribers?email=eq.${encodeURIComponent(email)}`,
+        {
+          method: "PATCH",
+          headers: sbHeaders(key, { Prefer: "return=minimal" }),
+          body: JSON.stringify({
+            active: true,
+            unsubscribed_at: null,
+            subscribed_at: existing.subscribed_at || now,
+            updated_at: now,
+          }),
+        }
+      );
+      if (!patch.ok) {
+        const body = await patch.text().catch(() => "");
+        const err = new Error(`Supabase patch failed: ${patch.status} ${body}`);
+        err.status = patch.status;
+        throw err;
+      }
+      return { already: false };
+    }
+    const body = await res.text().catch(() => "");
+    const err = new Error(`Supabase upsert failed: ${res.status} ${body}`);
+    err.status = res.status;
+    throw err;
+  }
+
+  return { already: false };
 }
 
 function welcomeHtml() {
-  return `<!DOCTYPE html>
+  return `<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>You're on the Za Ndani evening brief</title>
-</head>
-<body style="margin:0;padding:0;background:#050505;color:#f3ece2;">
-  <div style="display:none;max-height:0;overflow:hidden;opacity:0;">
-    You're on the list. Three Kenya-first stories every evening at 19:00 EAT.
-  </div>
-  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#050505;">
-    <tr>
-      <td align="center" style="padding:32px 16px;">
-        <table role="presentation" width="520" cellspacing="0" cellpadding="0" style="width:100%;max-width:520px;background:#111111;">
-          <tr><td style="height:3px;background:#e85d04;font-size:0;line-height:0;">&nbsp;</td></tr>
-          <tr>
-            <td style="padding:28px 28px 8px;">
-              <img src="${SITE}/logo.png" alt="Za Ndani" width="56" height="56" style="display:block;border:0;width:56px;height:56px;border-radius:4px;">
-              <p style="margin:18px 0 6px;font-size:11px;letter-spacing:0.28em;font-weight:800;color:#e85d04;font-family:Arial,Helvetica,sans-serif;">YOU'RE ON THE LIST · EAT</p>
-              <h1 style="margin:0 0 12px;font-size:30px;line-height:1.12;font-family:Georgia,'Times New Roman',serif;color:#f3ece2;font-weight:700;">The evening brief, every night at 7.</h1>
-              <p style="margin:0 0 22px;font-size:15px;line-height:1.65;color:#9a9388;font-family:Arial,Helvetica,sans-serif;">
-                Three Kenya-first stories. News, sport and the gossip desks. No Hollywood filler, no American morning.
-              </p>
-              <a href="${SITE}" style="display:inline-block;background:#e85d04;color:#050505;text-decoration:none;padding:13px 20px;font-weight:800;font-size:12px;letter-spacing:0.14em;font-family:Arial,Helvetica,sans-serif;">OPEN ZA NDANI</a>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding:28px;border-top:1px solid #262626;">
-              <p style="margin:0;font-size:11px;color:#6a655c;font-family:Arial,Helvetica,sans-serif;">
-                Za Ndani · Nairobi newsroom · <a href="${SITE}" style="color:#6a655c;">zandani.co.ke</a>
-              </p>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Welcome · Za Ndani</title>
+<body style="margin:0;background:#050505;color:#f3ece2;font-family:Georgia,serif;">
+  <table role="presentation" width="100%"><tr><td align="center" style="padding:40px 16px;">
+    <table role="presentation" width="100%" style="max-width:520px;background:#111;border:1px solid #262626;">
+      <tr><td style="padding:28px 28px 8px;text-align:center;">
+        <div style="height:3px;background:#e85d04;margin:0 auto 20px;max-width:120px;"></div>
+        <img src="${SITE}/logo.png" alt="Za Ndani" width="48" height="48" style="display:block;margin:0 auto 16px;border:0;">
+        <h1 style="margin:0 0 12px;font-size:24px;line-height:1.25;">You're on the evening brief</h1>
+        <p style="margin:0 0 20px;color:#9a9388;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.5;">
+          Fresh Kenyan news and entertainment, straight to your inbox. Stories land around 19:00 EAT.
+        </p>
+        <a href="${SITE}" style="display:inline-block;background:#e85d04;color:#050505;text-decoration:none;padding:13px 20px;font-weight:800;font-size:12px;letter-spacing:0.14em;font-family:Arial,Helvetica,sans-serif;">OPEN ZA NDANI</a>
+      </td></tr>
+      <tr><td style="padding:28px;border-top:1px solid #262626;">
+        <p style="margin:0;font-size:11px;color:#6a655c;font-family:Arial,Helvetica,sans-serif;">
+          Za Ndani · Nairobi newsroom · <a href="${SITE}" style="color:#6a655c;">zandani.co.ke</a>
+        </p>
+      </td></tr>
+    </table>
+  </td></tr></table>
 </body>
 </html>`;
 }
@@ -179,49 +201,7 @@ export async function onRequestPost(context) {
     const email = validEmail(body?.email);
     if (!email) return json({ error: "Enter a valid email." }, 400);
 
-    let saved = false;
-    let already = false;
-    for (let attempt = 0; attempt < 3; attempt += 1) {
-      const current = await readSubscribers(env);
-      const existing = current.subscribers.find(
-        (row) => String(row.email || "").toLowerCase() === email
-      );
-      if (existing && existing.active !== false) {
-        already = true;
-        saved = true;
-        break;
-      }
-      const next = existing
-        ? current.subscribers.map((row) =>
-            String(row.email || "").toLowerCase() === email
-              ? {
-                  ...row,
-                  active: true,
-                  subscribed_at: row.subscribed_at || new Date().toISOString(),
-                }
-              : row
-          )
-        : current.subscribers.concat([
-            { email, subscribed_at: new Date().toISOString(), active: true },
-          ]);
-      try {
-        await writeSubscribers(
-          env,
-          next,
-          current.sha,
-          existing ? "newsletter: reactivate subscriber" : "newsletter: new subscriber"
-        );
-        saved = true;
-        break;
-      } catch (e) {
-        if (e.status === 409 || e.status === 422) continue;
-        throw e;
-      }
-    }
-
-    if (!saved) {
-      return json({ error: "Could not save just then. Try once more." }, 409);
-    }
+    const { already } = await upsertSubscriber(env, email);
 
     if (!already) {
       try {
@@ -245,7 +225,7 @@ export async function onRequestPost(context) {
       {
         error:
           status === 503
-            ? "Newsletter is not live yet. Add PERSONAL_GITHUB_TOKEN in Cloudflare Pages env vars."
+            ? "Newsletter storage is not configured. Add SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY in Cloudflare env."
             : "Could not subscribe. Try again.",
       },
       status
