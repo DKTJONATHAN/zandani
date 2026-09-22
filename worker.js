@@ -144,7 +144,7 @@ const FROM_DEFAULT = "Za Ndani <brief@zandani.co.ke>";
 const TZ = "Africa/Nairobi";
 
 const DESKS = {
-  news: { label: "News", workflow: "celestine-news.yml", cron: "0 * * * *", cadence: "hourly at :00" },
+  news: { label: "News", workflow: "za-news.yml", cron: "0 * * * *", cadence: "hourly at :00" },
   africa: { label: "East Africa", workflow: "za-africa.yml", cron: "15 6,18 * * *", cadence: "twice daily (06:15/18:15)" },
   agriculture: { label: "Agriculture", workflow: "za-agriculture.yml", cron: "15 7 * * 2,5", cadence: "twice weekly (Tue/Fri 07:15)" },
   diano: { label: "George Diano", workflow: "za-diano.yml", cron: "15 13,20 * * *", cadence: "twice daily (13:15/20:15)" },
