@@ -1,9 +1,6 @@
 name: Jona Munyi — Sports
 
 on:
-  schedule:
-    - cron: '3 */2 * * *'
-      timezone: 'Africa/Nairobi'
   workflow_call:
   workflow_dispatch: {}
 
