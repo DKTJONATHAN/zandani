@@ -120,8 +120,31 @@ export default {
       const body = await req.json();
       const desk = clean(body.desk || "news", 40).toLowerCase();
       const author = clean(body.author || "Za Ndani Desk", 120);
-      const sourceUrl = clean(body.source_url, 2000);
-      if (!sourceUrl) return Response.json({ error: "source_url is required" }, { status: 400, headers: JSON_HEADERS });
+      let sourceUrl = clean(body.source_url, 2000);
+      const sourceList = clean(body.source_list || "https://www.kenyans.co.ke/news", 2000);
+      if (!sourceUrl) {
+        const listingRes = await fetch(sourceList, { headers: { "User-Agent": USER_AGENT, "Accept": "text/html,application/xhtml+xml" }, redirect: "follow" });
+        if (!listingRes.ok) throw new Error(`source listing returned HTTP ${listingRes.status}`);
+        const listingHtml = await listingRes.text();
+        const listingDoc = new DOMParser().parseFromString(listingHtml, "text/html");
+        const candidates: string[] = [];
+        for (const a of Array.from(listingDoc.querySelectorAll("a[href]"))) {
+          const href = absolute(sourceList, a.getAttribute("href") || "");
+          if (!href || candidates.includes(href)) continue;
+          if (/kenyans\.co\.ke\/news\//i.test(href) && !/\/category\/|\/tag\//i.test(href)) candidates.push(href);
+          if (candidates.length >= 20) break;
+        }
+        if (!candidates.length) throw new Error("no article candidates found");
+        let selected = "";
+        for (const candidate of candidates) {
+          try {
+            const probe = await scrape(candidate);
+            if (probe.body.length >= 500) { selected = candidate; break; }
+          } catch {}
+        }
+        if (!selected) throw new Error("no usable fresh article candidate found");
+        sourceUrl = selected;
+      }
 
       const supabaseUrl = Deno.env.get("SUPABASE_URL")!;
       const keys = JSON.parse(Deno.env.get("SUPABASE_SECRET_KEYS") || "{}");
@@ -151,6 +174,22 @@ export default {
       }).select("id").single();
 
       const source = await scrape(sourceUrl);
+      const sourceImages = source.images.filter((x:any) => !isBadImage(x.url, x.alt)).slice(0, 3);
+      const imgbbKey = Deno.env.get("IMGBB_API_KEY") || "";
+      if (imgbbKey) {
+        for (const img of sourceImages) {
+          try {
+            const imgRes = await fetch("https://api.imgbb.com/1/upload", {
+              method: "POST",
+              headers: { "Content-Type": "application/x-www-form-urlencoded" },
+              body: `key=${encodeURIComponent(imgbbKey)}&image=${encodeURIComponent(img.url)}`
+            });
+            const imgJson = await imgRes.json();
+            if (imgJson?.success && imgJson?.data?.display_url) img.hosted_url = imgJson.data.display_url;
+          } catch {}
+        }
+      }
+      source.images = sourceImages;
       const recentTitles = (recent.data || []).map((x:any) => x.article_slug || "").filter(Boolean);
 
       const apiKey = Deno.env.get("LOVABLE_API_KEY");
@@ -182,11 +221,23 @@ export default {
 
       const chosen = new Set((result.images || []).map((x:any) => Number(x.source_index)));
       const images = source.images.filter((x:any) => chosen.has(x.index) && !isBadImage(x.url, x.alt)).slice(0, 3)
-        .map((x:any) => ({ ...x, source_url: x.url, hosted_url: "" }));
+        .map((x:any) => ({ ...x, source_url: x.url, hosted_url: x.hosted_url || "" }));
 
       const article = result.article || {};
       const title = clean(article.title, 220);
-      const markdown = String(article.body_markdown || "").trim();
+      let markdown = String(article.body_markdown || "").trim();
+      const hosted = source.images.filter((x:any) => x.hosted_url || x.url).slice(0, 3);
+      const ogImage = hosted[0]?.hosted_url || hosted[0]?.url || "";
+      const bodyImages = hosted.slice(1, 3);
+      if (bodyImages.length) {
+        const paras = markdown.split(/\\n\\s*\\n/);
+        const inserts = bodyImages.map((x:any) => `![${clean(x.alt || "Za Ndani image", 180)}](${x.hosted_url || x.url})`);
+        if (paras.length > 3) {
+          paras.splice(Math.max(2, Math.floor(paras.length / 3)), 0, inserts[0]);
+          if (inserts[1]) paras.splice(Math.max(4, Math.floor(paras.length * 2 / 3)), 0, inserts[1]);
+          markdown = paras.join("\\n\\n");
+        }
+      }
       if (!title || markdown.split(/\s+/).length < 220) throw new Error("editorial output failed quality gate");
 
       const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 80);
