@@ -32,7 +32,8 @@
     "a3ff18640bf1a961c126b8f3b9ceeaa3fa93830b7f878e7213a62961a3900b0a",
     "a177462a35ee588cbaff49e4689e9ab9688e1c4399162a3cc309dd975a82dcd4",
     "34c156620fccebfa51ff548835993ee370664c03036d74a1ed73a771af27c86e",
-    "828fcfff0b49b9c427de4fdabef4cb2432e2a14344430a175d81c95aaea39cd0"
+    "828fcfff0b49b9c427de4fdabef4cb2432e2a14344430a175d81c95aaea39cd0",
+    "c3dd3012cc8f5643cf678b7036b961825ce186a4adc365127d9bd395ae44fec8"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -67,7 +68,8 @@
     "https://www.ghafla.co.ke/epra-raises-electricity-charges-by-ksh4-16-per-unit-in-revised-september-tariffs/",
     "https://www.ghafla.co.ke/uhuru-kenyatta-hands-over-jubilee-party-leadership-to-fred-matiangi-ahead-of-ndc/",
     "https://www.ghafla.co.ke/uhuru-to-ruto-focus-on-serving-kenyans/",
-    "https://www.ghafla.co.ke/lawyer-lewis-uriri-rejects-ksh32-million-range-rover-and-cash-gifts-from-wicknell-chivayo/"
+    "https://www.ghafla.co.ke/lawyer-lewis-uriri-rejects-ksh32-million-range-rover-and-cash-gifts-from-wicknell-chivayo/",
+    "https://www.ghafla.co.ke/uhuru-kenyatta-insists-the-late-raila-odinga-won-the-2022-presidential-election/"
   ],
   "published_angles": [
     {
@@ -317,6 +319,14 @@
       "opening": "Personality lead focusing directly on Lewis Uriri drawing a hard ethical line against an unsolicited fleet of luxury gifts.",
       "structure": "Professional boundary hook -> Breakdown of Chivayo's multi-million gift offer -> Uriri's timeline clarification (June 2024 cutoff) -> Legal ethics and independence rationale -> Final closure on the refusal.",
       "source": "https://www.ghafla.co.ke/lawyer-lewis-uriri-rejects-ksh32-million-range-rover-and-cash-gifts-from-wicknell-chivayo/"
+    },
+    {
+      "title": "Uhuru\u2019s Retroactive 2022 Verdict Opens Old Wounds Over Azimio\u2019s Botched Logistics",
+      "angle": "Examining how Uhuru's retroactive endorsement detonates internal Azimio post-mortem grievances\u2014specifically dragging past disputes over Westlands campaign funds, unmanaged polling agents, and Junet Mohamed's defensive ledger back into the public eye.",
+      "angle_type": "internal coalition accountability and political fallout",
+      "opening": "Start directly with the retroactive declaration and its immediate shockwave inside the former coalition's fragile post-mortem machinery.",
+      "structure": "Uhuru's specific 'Baba won' quote -> The Supreme Court's 2022 validation reality -> The historical fault lines over agent logistics (Kanchory, Kioni, Owino) -> Junet Mohamed's Westlands cash-management defense -> Unresolved coalition friction.",
+      "source": "https://www.ghafla.co.ke/uhuru-kenyatta-insists-the-late-raila-odinga-won-the-2022-presidential-election/"
     }
   ],
   "style_history": [
