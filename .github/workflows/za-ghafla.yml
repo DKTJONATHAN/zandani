@@ -1,9 +1,6 @@
 name: Wanjiku Kuria — Ghafla
 
 on:
-  schedule:
-    - cron: '9 */2 * * *'
-      timezone: 'Africa/Nairobi'
   workflow_call:
   workflow_dispatch: {}
 
