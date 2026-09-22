@@ -1,9 +1,6 @@
 name: Martin Kihara — Mpasho / Showbiz
 
 on:
-  schedule:
-    - cron: '15 */2 * * *'
-      timezone: 'Africa/Nairobi'
   workflow_call:
   workflow_dispatch: {}
 
