@@ -27,7 +27,7 @@ LOGO = f"{SITE}/logo.png"
 POSTS = pathlib.Path("content/posts")
 SUPABASE_REST = "/rest/v1/newsletter_subscribers"
 RESEND = "https://api.resend.com"
-FROM_DEFAULT = "Za Ndani <onboarding@resend.dev>"
+FROM_DEFAULT = "Za Ndani <brief@zandani.co.ke>"
 
 # Brand palette (inline-only — email clients strip <style>)
 BG = "#0a0a0a"
@@ -421,7 +421,7 @@ def send_one(to: str, subject: str, html: str) -> None:
 
 def cmd_welcome(email: str) -> int:
     email = parseaddr(email)[1].lower().strip()
-    send_one(email, "Welcome to Za Ndani", welcome_html(email))
+    send_one(email, "Welcome to Za Ndani", welcome_html(email), FROM_DEFAULT)
     print(f"welcome sent to {mask(email)}")
     return 0
 
@@ -436,7 +436,7 @@ def cmd_welcome_all() -> int:
     failed = 0
     for em in people:
         try:
-            send_one(em, "Welcome to Za Ndani", welcome_html(em))
+            send_one(em, "Welcome to Za Ndani", welcome_html(em), FROM_DEFAULT)
             sent += 1
             time.sleep(0.55)
         except Exception as e:
