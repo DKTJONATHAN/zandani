@@ -1,13 +1,9 @@
 name: Evening brief
 
-# 19:07 East Africa Time (16:07 UTC). GitHub cron is always UTC — there is
-# no timezone: key. Three Kenya-first stories to every active subscriber
-# in data/subscribers.json.
+# 19:07 EAT (16:07 UTC). Active emails from Supabase newsletter_subscribers.
 #
-# Secret to add: RESEND_API_KEY (free account at https://resend.com)
-# Optional: RESEND_FROM  e.g. "Za Ndani <brief@zandani.co.ke>"
-#   Until the zandani.co.ke domain is verified in Resend, use the default
-#   onboarding@resend.dev (that address can only mail the Resend owner).
+# Secrets: RESEND_API_KEY, SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY
+# Optional: RESEND_FROM
 
 on:
   schedule:
@@ -37,9 +33,15 @@ jobs:
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           RESEND_FROM: ${{ secrets.RESEND_FROM }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: |
           if [ -z "${RESEND_API_KEY:-}" ]; then
-            echo "::error::Add GitHub secret RESEND_API_KEY from resend.com (free)."
+            echo "::error::Add GitHub secret RESEND_API_KEY"
+            exit 1
+          fi
+          if [ -z "${SUPABASE_URL:-}" ] || [ -z "${SUPABASE_SERVICE_ROLE_KEY:-}" ]; then
+            echo "::error::Add SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY secrets"
             exit 1
           fi
           python scripts/email_brief.py digest
