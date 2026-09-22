@@ -36,8 +36,6 @@ async function fetchHtml(url: string) {
 
 async function scrape(url: string) {
   const html = await fetchHtml(url);
-  const res = { ok: true, status: 200 };
-  const res = await fetch(url, { headers: { "User-Agent": USER_AGENT, "Accept": "text/html,application/xhtml+xml" }, redirect: "follow" });
   const doc = new DOMParser().parseFromString(html, "text/html");
   if (!doc) throw new Error("could not parse source HTML");
 
@@ -143,14 +141,16 @@ Deno.serve(async (req) => {
     if (!expected || supplied !== expected) return Response.json({ error: "unauthorized" }, { status: 401, headers: JSON_HEADERS });
     if (req.method !== "POST") return Response.json({ error: "POST required" }, { status: 405, headers: JSON_HEADERS });
 
-    let runId = "";\n    let stage = "request";
+    let runId = "";
+    let stage = "request";
     try {
       const body = await req.json();
       const desk = clean(body.desk || "news", 40).toLowerCase();
       const author = clean(body.author || "Za Ndani Desk", 120);
       let sourceUrl = clean(body.source_url, 2000);
       const sourceList = clean(body.source_list || "https://www.kenyans.co.ke/news", 2000);
-      stage = "source_discovery";\n      if (!sourceUrl) {
+      stage = "source_discovery";
+      if (!sourceUrl) {
         let listingHtml = "";
         let listingError = "";
         try {
@@ -217,7 +217,8 @@ Deno.serve(async (req) => {
         sourceUrl = selected;
       }
 
-      stage = "database_setup";\n      const supabaseUrl = Deno.env.get("SUPABASE_URL")!;
+      stage = "database_setup";
+      const supabaseUrl = Deno.env.get("SUPABASE_URL")!;
       const keys = JSON.parse(Deno.env.get("SUPABASE_SECRET_KEYS") || "{}");
       const serviceKey = Deno.env.get("SUPABASE_SECRET_KEY") || keys.default || "";
       if (!serviceKey) throw new Error("Supabase server key is not configured");
@@ -248,7 +249,8 @@ Deno.serve(async (req) => {
       if (run.error || !run.data?.id) throw new Error(`automation_runs insert failed: ${run.error?.message || "unknown database error"}`);
       runId = run.data.id;
 
-      stage = "article_scrape";\n      const source = await scrape(sourceUrl);
+      stage = "article_scrape";
+      const source = await scrape(sourceUrl);
       const sourceImages = source.images.filter((x:any) => !isBadImage(x.url, x.alt)).slice(0, 3);
       const imgbbKey = Deno.env.get("IMGBB_API_KEY") || "";
       if (imgbbKey) {
@@ -267,10 +269,12 @@ Deno.serve(async (req) => {
       source.images = sourceImages;
       const recentTitles = (recent.data || []).map((x:any) => x.article_slug || "").filter(Boolean);
 
-      stage = "image_pipeline";\n      const apiKey = Deno.env.get("LOVABLE_API_KEY");
+      stage = "image_pipeline";
+      const apiKey = Deno.env.get("LOVABLE_API_KEY");
       if (!apiKey) throw new Error("LOVABLE_API_KEY is not configured");
       const modelName = model?.config?.gateway_model || (String(model?.model_name || "").includes("/") ? model.model_name : "google/gemini-3-flash-preview");
-      stage = "ai_gateway";\n      const ai = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
+      stage = "ai_gateway";
+      const ai = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
         method: "POST",
         headers: { "Authorization": `Bearer ${apiKey}`, "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -301,7 +305,8 @@ Deno.serve(async (req) => {
       const images = source.images.filter((x:any) => chosen.has(x.index) && !isBadImage(x.url, x.alt)).slice(0, 3)
         .map((x:any) => ({ ...x, source_url: x.url, hosted_url: x.hosted_url || "" }));
 
-      stage = "publication_quality";\n      const article = result.article || {};
+      stage = "publication_quality";
+      const article = result.article || {};
       const title = clean(article.title, 220);
       let markdown = String(article.body_markdown || "").trim();
       const hosted = source.images.filter((x:any) => x.hosted_url || x.url).slice(0, 3);
