@@ -1,1 +1,53 @@
-PLACEHOLDER
+name: Evening brief
+
+# 19:07 East Africa Time (16:07 UTC). GitHub cron is always UTC — there is
+# no timezone: key. Three Kenya-first stories to every active subscriber
+# in Supabase public.newsletter_subscribers (active = true).
+#
+# Secrets required:
+#   RESEND_API_KEY
+#   SUPABASE_URL              e.g. https://xxxx.supabase.co
+#   SUPABASE_SERVICE_ROLE_KEY (service_role — never expose to the browser)
+# Optional:
+#   RESEND_FROM  e.g. "Za Ndani <brief@zandani.co.ke>"
+
+on:
+  schedule:
+    - cron: "7 16 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: evening-brief
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Send the evening brief
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_FROM: ${{ secrets.RESEND_FROM }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          if [ -z "${RESEND_API_KEY:-}" ]; then
+            echo "::error::Add GitHub secret RESEND_API_KEY from resend.com (free)."
+            exit 1
+          fi
+          if [ -z "${SUPABASE_URL:-}" ] || [ -z "${SUPABASE_SERVICE_ROLE_KEY:-}" ]; then
+            echo "::error::Add GitHub secrets SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY so the brief can load the list from Supabase."
+            exit 1
+          fi
+          python scripts/email_brief.py digest
