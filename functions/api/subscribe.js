@@ -119,36 +119,39 @@ async function upsertSubscriber(env, email) {
   return { already: false };
 }
 
-function welcomeHtml() {
-  return `<!doctype html>
-<html lang="en">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Welcome · Za Ndani</title>
-<body style="margin:0;background:#050505;color:#f3ece2;font-family:Georgia,serif;">
-  <table role="presentation" width="100%"><tr><td align="center" style="padding:40px 16px;">
-    <table role="presentation" width="100%" style="max-width:520px;background:#111;border:1px solid #262626;">
-      <tr><td style="padding:28px 28px 8px;text-align:center;">
-        <div style="height:3px;background:#e85d04;margin:0 auto 20px;max-width:120px;"></div>
-        <img src="${SITE}/logo.png" alt="Za Ndani" width="48" height="48" style="display:block;margin:0 auto 16px;border:0;">
-        <h1 style="margin:0 0 12px;font-size:24px;line-height:1.25;">You're on the evening brief</h1>
-        <p style="margin:0 0 20px;color:#9a9388;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.5;">
-          Fresh Kenyan news and entertainment, straight to your inbox. Stories land around 19:00 EAT.
-        </p>
-        <a href="${SITE}" style="display:inline-block;background:#e85d04;color:#050505;text-decoration:none;padding:13px 20px;font-weight:800;font-size:12px;letter-spacing:0.14em;font-family:Arial,Helvetica,sans-serif;">OPEN ZA NDANI</a>
-      </td></tr>
-      <tr><td style="padding:28px;border-top:1px solid #262626;">
-        <p style="margin:0;font-size:11px;color:#6a655c;font-family:Arial,Helvetica,sans-serif;">
-          Za Ndani · Nairobi newsroom · <a href="${SITE}" style="color:#6a655c;">zandani.co.ke</a>
-        </p>
-      </td></tr>
-    </table>
-  </td></tr></table>
-</body>
-</html>`;
+function subscriberDisplayName(email, suppliedName = "") {
+  const cleanEmail = String(email || "").trim().toLowerCase();
+  const explicit = String(suppliedName || "").trim().replace(/\s+/g, " ");
+  if (explicit && explicit.length <= 120) return explicit;
+  const local = cleanEmail.split("@")[0] || "";
+  const candidate = local.replace(/[._+-]+/g, " ").replace(/\d+/g, " ").replace(/\s+/g, " ").trim();
+  if (!candidate) return cleanEmail;
+  const words = candidate.split(" ").filter(Boolean);
+  const looksLikeName = words.length <= 4 && words.every((word) => /^[a-zA-Z]{2,20}$/.test(word));
+  if (!looksLikeName) return cleanEmail;
+  return words.map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(" ");
 }
 
-async function sendWelcome(env, email) {
+function welcomeHtml(email, suppliedName = "") {
+  const name = subscriberDisplayName(email, suppliedName);
+  const greeting = `Hi ${name},`;
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Welcome to Za Ndani</title></head>
+<body style="margin:0;padding:0;background:#0a0a0a;color:#f5f0e8;">
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#0a0a0a;"><tr><td align="center" style="padding:36px 16px;">
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:560px;background:#141414;border:1px solid #262626;">
+<tr><td style="height:4px;background:#e85d04;font-size:0;line-height:0;">&nbsp;</td></tr>
+<tr><td style="padding:34px 30px 30px;">
+<img src="${SITE}/logo.png" alt="Za Ndani" width="52" height="52" style="display:block;border:0;border-radius:8px;">
+<p style="margin:20px 0 8px;font:700 11px Arial,sans-serif;letter-spacing:.2em;color:#e85d04;text-transform:uppercase;">WELCOME TO ZA NDANI</p>
+<h1 style="margin:0 0 18px;font:700 28px/1.2 Georgia,serif;color:#f5f0e8;">${greeting}</h1>
+<p style="margin:0 0 16px;font:15px/1.7 Arial,sans-serif;color:#9a9388;">Thank you for subscribing to Za Ndani. We are glad to have you with us.</p>
+<p style="margin:0 0 16px;font:15px/1.7 Arial,sans-serif;color:#9a9388;">Za Ndani is a Kenya-focused digital news platform bringing you timely stories across news, politics, business, society, culture, entertainment, lifestyle and sports. We focus on stories that matter to Kenyan readers while also keeping you connected to important developments beyond Kenya.</p>
+<p style="margin:0 0 24px;font:15px/1.7 Arial,sans-serif;color:#9a9388;">As a subscriber, you will receive selected Za Ndani stories and updates in your inbox, with links back to the full articles on our website.</p>
+<a href="${SITE}" style="display:inline-block;background:#e85d04;color:#0a0a0a;text-decoration:none;padding:13px 20px;font:700 12px Arial,sans-serif;letter-spacing:.08em;">VISIT ZA NDANI</a>
+</td></tr><tr><td style="padding:22px 30px;border-top:1px solid #262626;font:12px/1.6 Arial,sans-serif;color:#6a655c;">Za Ndani · zandani.co.ke</td></tr>
+</table></td></tr></table></body></html>`;
+}
+async function sendWelcome(env, email, suppliedName = "") {
   const key = env.RESEND_API_KEY;
   if (!key) return { skipped: true };
   const from = env.RESEND_FROM || FROM_DEFAULT;
@@ -161,8 +164,8 @@ async function sendWelcome(env, email) {
     body: JSON.stringify({
       from,
       to: [email],
-      subject: "You're on the Za Ndani evening brief",
-      html: welcomeHtml(),
+      subject: "Welcome to Za Ndani",
+      html: welcomeHtml(email, suppliedName),
     }),
   });
   const body = await res.json().catch(() => ({}));
@@ -196,7 +199,7 @@ export async function onRequestPost(context) {
 
     if (!already) {
       try {
-        await sendWelcome(env, email);
+        await sendWelcome(env, email, body?.name);
       } catch (mailErr) {
         console.error("welcome mail", mailErr);
       }
