@@ -641,10 +641,10 @@
     "729a5fdc43f6e78505f53354a22f8f64",
     "e6e0bfb474961c55bd16ef1883935857",
     "417aadc4cea0bff6d3f0ef60721c1d20",
-    "34faeb63bbe96262f5bdcea7fe177728"
+    "34faeb63bbe96262f5bdcea7fe177728",
+    "1271ff16d39dbccc2b446e792d098d7b"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -673,7 +673,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -899,7 +900,8 @@
     "https://kenyans.co.ke/news/127267-engineers-behind-dangotes-nigerian-refinery-help-deliver-kenya-plant",
     "https://kenyans.co.ke/news/127270-tsc-seeks-removal-court-orders-blocking-teachers-social-media-conduct-restrictions",
     "https://kenyans.co.ke/news/127272-dci-reveals-events-leading-suspects-death-narumoru-police-cell",
-    "https://kenyans.co.ke/news/127273-ncic-summons-mps-didmus-barasa-john-ariko-over-public-remarks"
+    "https://kenyans.co.ke/news/127273-ncic-summons-mps-didmus-barasa-john-ariko-over-public-remarks",
+    "https://kenyans.co.ke/news/127268-kra-explains-why-businesses-will-now-wait-longer-get-back-vat-unpaid-bills"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1047,7 +1049,8 @@
     "engineers behind nigeria lekki blueprint ported lamu refinery project",
     "tsc pressures kiambu court lift social media ban ahead october ruling",
     "cross county custody trail scrutinized suspect dies narumoru cell",
-    "ncic deploys sweeping act provisions twin summons barasa naimot"
+    "ncic deploys sweeping act provisions twin summons barasa naimot",
+    "businesses face longer cash flow squeeze under kra year bad debt vat rule"
   ],
   "topic_keys": [
     "news tracker",
@@ -1650,6 +1653,15 @@
       "structure": "Statutory scope and hearing details -> The Bungoma regional power commentary -> The Turkana South resource and insecurity allegations -> Enforcement implications and September 29 appearance deadline.",
       "source": "https://kenyans.co.ke/news/127273-ncic-summons-mps-didmus-barasa-john-ariko-over-public-remarks",
       "published_at": "2026-09-22T17:02:27Z"
+    },
+    {
+      "title": "Businesses Face Longer Cash-Flow Squeeze Under KRA's 3-Year Bad Debt VAT Rule",
+      "angle": "Focusing on the severe liquidity squeeze imposed on businesses by forcing them to wait an extra year (three years instead of two) to claim VAT refunds on unpaid customer bills.",
+      "angle_type": "practical change",
+      "opening": "Consequence-first lead highlighting the cash-flow pressure of the delayed recovery window.",
+      "structure": "Liquidity squeeze lead -> Three-year bad debt threshold details -> Record-keeping and compliance hurdles -> Exempt stock accounting rules -> Concrete closing on the implementation deadline.",
+      "source": "https://kenyans.co.ke/news/127268-kra-explains-why-businesses-will-now-wait-longer-get-back-vat-unpaid-bills",
+      "published_at": "2026-09-22T18:02:48Z"
     }
   ]
 }
