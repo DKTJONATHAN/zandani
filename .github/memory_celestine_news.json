@@ -640,10 +640,10 @@
     "50c9bbf432b5ea4955d1b95ca2673c08",
     "729a5fdc43f6e78505f53354a22f8f64",
     "e6e0bfb474961c55bd16ef1883935857",
-    "417aadc4cea0bff6d3f0ef60721c1d20"
+    "417aadc4cea0bff6d3f0ef60721c1d20",
+    "34faeb63bbe96262f5bdcea7fe177728"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -672,7 +672,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -897,7 +898,8 @@
     "https://kenyans.co.ke/news/127262-govt-moves-link-sha-nssf-social-protection-database",
     "https://kenyans.co.ke/news/127267-engineers-behind-dangotes-nigerian-refinery-help-deliver-kenya-plant",
     "https://kenyans.co.ke/news/127270-tsc-seeks-removal-court-orders-blocking-teachers-social-media-conduct-restrictions",
-    "https://kenyans.co.ke/news/127272-dci-reveals-events-leading-suspects-death-narumoru-police-cell"
+    "https://kenyans.co.ke/news/127272-dci-reveals-events-leading-suspects-death-narumoru-police-cell",
+    "https://kenyans.co.ke/news/127273-ncic-summons-mps-didmus-barasa-john-ariko-over-public-remarks"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1044,7 +1046,8 @@
     "state deploys database integration channel welfare recipients sha nssf contributory schemes",
     "engineers behind nigeria lekki blueprint ported lamu refinery project",
     "tsc pressures kiambu court lift social media ban ahead october ruling",
-    "cross county custody trail scrutinized suspect dies narumoru cell"
+    "cross county custody trail scrutinized suspect dies narumoru cell",
+    "ncic deploys sweeping act provisions twin summons barasa naimot"
   ],
   "topic_keys": [
     "news tracker",
@@ -1638,6 +1641,15 @@
       "structure": "Custody transfer lead -> Inter-county transit timeline -> The ODPP intervention trigger -> IPOA oversight involvement and morgue transfer.",
       "source": "https://kenyans.co.ke/news/127272-dci-reveals-events-leading-suspects-death-narumoru-police-cell",
       "published_at": "2026-09-22T16:02:47Z"
+    },
+    {
+      "title": "NCIC Deploys Sweeping Act Provisions in Twin Summons for Barasa, Naimot",
+      "angle": "Examining the specific legal and statutory breadth of the summonses\u2014invoking an extensive list of twelve distinct sections of the National Cohesion and Integration Act\u2014and the stark administrative contrast between Barasa's national-level political commentary on government appointments and Naimot's local resource-sharing and insecurity rhetoric.",
+      "angle_type": "institutional pressure",
+      "opening": "Statutory-pressure lead focusing on the sweeping array of sections under the National Cohesion and Integration Act deployed against the two lawmakers.",
+      "structure": "Statutory scope and hearing details -> The Bungoma regional power commentary -> The Turkana South resource and insecurity allegations -> Enforcement implications and September 29 appearance deadline.",
+      "source": "https://kenyans.co.ke/news/127273-ncic-summons-mps-didmus-barasa-john-ariko-over-public-remarks",
+      "published_at": "2026-09-22T17:02:27Z"
     }
   ]
 }
