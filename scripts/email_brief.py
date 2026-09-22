@@ -359,7 +359,7 @@ def list_contacts() -> list[str]:
     url = f"{base}{SUPABASE_REST}"
     query = urllib.parse.urlencode({
         "select": "email",
-        "is_active": "eq.true",
+        "active": "eq.true",
         "order": "subscribed_at.asc",
     })
     cmd = [
