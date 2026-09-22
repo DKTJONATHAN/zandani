@@ -400,6 +400,7 @@ async function runDueDesks(env) {
   const state = new Map(stateRows.map((r) => [String(r.id), r]));
   const triggered = [];
   for (const [id, desk] of Object.entries(DESKS)) {
+    if (state.get(id)?.enabled === false) continue;
     if (!cronMatches(desk.cron, parts)) continue;
     const slot = parts.slotKey;
     if (state.get(id)?.last_slot === slot) continue;
