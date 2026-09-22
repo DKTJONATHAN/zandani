@@ -50,7 +50,7 @@ async function findSubscriber(env, email) {
   const { url, key } = supabaseConfig(env);
   const q = new URLSearchParams({
     email: `eq.${email}`,
-    select: "id,email,is_active,subscribed_at",
+    select: "id,email,active,subscribed_at,unsubscribed_at,source",
     limit: "1",
   });
   const res = await fetch(`${url}/rest/v1/newsletter_subscribers?${q}`, {
@@ -68,7 +68,7 @@ async function findSubscriber(env, email) {
 
 async function upsertSubscriber(env, email) {
   const existing = await findSubscriber(env, email);
-  if (existing && existing.is_active !== false) {
+  if (existing && existing.active !== false) {
     return { already: true };
   }
 
@@ -77,7 +77,7 @@ async function upsertSubscriber(env, email) {
   const row = {
     email,
     subscribed_at: existing?.subscribed_at || now,
-    is_active: true,
+    active: true,
   };
 
   const res = await fetch(`${url}/rest/v1/newsletter_subscribers`, {
@@ -96,7 +96,8 @@ async function upsertSubscriber(env, email) {
           method: "PATCH",
           headers: sbHeaders(key, { Prefer: "return=minimal" }),
           body: JSON.stringify({
-            is_active: true,
+            active: true,
+            unsubscribed_at: null,
             subscribed_at: existing.subscribed_at || now,
           }),
         }
