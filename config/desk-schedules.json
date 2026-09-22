@@ -4,7 +4,7 @@
   "desks": {
     "news": {
       "label": "News",
-      "workflow": "za-news.yml",
+      "workflow": "celestine-news.yml",
       "cron": "0 * * * *",
       "cadence": "hourly at :00"
     },
