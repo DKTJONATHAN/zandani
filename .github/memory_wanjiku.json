@@ -31,7 +31,8 @@
     "69a92cc670f0d5a9b199831e478c21ac1dd6cd886ba00a110dcf4b02379e44a0",
     "a3ff18640bf1a961c126b8f3b9ceeaa3fa93830b7f878e7213a62961a3900b0a",
     "a177462a35ee588cbaff49e4689e9ab9688e1c4399162a3cc309dd975a82dcd4",
-    "34c156620fccebfa51ff548835993ee370664c03036d74a1ed73a771af27c86e"
+    "34c156620fccebfa51ff548835993ee370664c03036d74a1ed73a771af27c86e",
+    "828fcfff0b49b9c427de4fdabef4cb2432e2a14344430a175d81c95aaea39cd0"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -65,7 +66,8 @@
     "https://www.ghafla.co.ke/co-op-bank-youth-forum-how-young-kenyans-can-build-their-own-career-lane/",
     "https://www.ghafla.co.ke/epra-raises-electricity-charges-by-ksh4-16-per-unit-in-revised-september-tariffs/",
     "https://www.ghafla.co.ke/uhuru-kenyatta-hands-over-jubilee-party-leadership-to-fred-matiangi-ahead-of-ndc/",
-    "https://www.ghafla.co.ke/uhuru-to-ruto-focus-on-serving-kenyans/"
+    "https://www.ghafla.co.ke/uhuru-to-ruto-focus-on-serving-kenyans/",
+    "https://www.ghafla.co.ke/lawyer-lewis-uriri-rejects-ksh32-million-range-rover-and-cash-gifts-from-wicknell-chivayo/"
   ],
   "published_angles": [
     {
@@ -307,6 +309,14 @@
       "opening": "Start directly with Uhuru addressing the personal labels and declaring his lack of fear.",
       "structure": "Person and label hook -> Details of the 'sponsor' and 'rebel leader' drama -> The 'Uhuru this, Uhuru that' critique of Ruto's fixation -> Legal context of the handover (Justice Mugambi's ruling) -> Legacy defense and defiant close.",
       "source": "https://www.ghafla.co.ke/uhuru-to-ruto-focus-on-serving-kenyans/"
+    },
+    {
+      "title": "Lawyer Lewis Uriri Turns Down Chivayo\u2019s KSh32M Range Rover and Cash Windfall",
+      "angle": "Examining Uriri's strict professional boundary-setting and his invocation of regional legal codes of conduct to reject a major personal windfall that he frames as a threat to his independence.",
+      "angle_type": "professional accountability and boundary-setting",
+      "opening": "Personality lead focusing directly on Lewis Uriri drawing a hard ethical line against an unsolicited fleet of luxury gifts.",
+      "structure": "Professional boundary hook -> Breakdown of Chivayo's multi-million gift offer -> Uriri's timeline clarification (June 2024 cutoff) -> Legal ethics and independence rationale -> Final closure on the refusal.",
+      "source": "https://www.ghafla.co.ke/lawyer-lewis-uriri-rejects-ksh32-million-range-rover-and-cash-gifts-from-wicknell-chivayo/"
     }
   ],
   "style_history": [
