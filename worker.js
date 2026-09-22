@@ -454,9 +454,9 @@ async function runDueDesks(env) {
 
 function supabaseConfig(env) {
   const url = String(env.SUPABASE_URL || "").replace(/\/$/, "");
-  const key = String(env.SUPABASE_SECRET_KEY || "").trim();
+  const key = String(env.SUPABASE_SECRET_KEY || env.SUPABASE_SERVICE_ROLE_KEY || "").trim();
   if (!url || !key) {
-    const err = new Error("SUPABASE_URL or SUPABASE_SECRET_KEY is not configured on Cloudflare");
+    const err = new Error("SUPABASE_URL plus SUPABASE_SECRET_KEY (preferred) or SUPABASE_SERVICE_ROLE_KEY is not configured on Cloudflare");
     err.status = 503;
     throw err;
   }
