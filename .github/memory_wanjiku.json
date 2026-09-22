@@ -28,7 +28,8 @@
     "ebd921ce94a06c01ae1a76f37d1a30057fcd98379e63a2106641612e8cb776aa",
     "636dc38d68de69558bb231101e1f7b106717abbcc03ccff0677d421699609899",
     "af0134e42eb3cc18e88a1685cb32c39fea422ca87171fa0ca754a490cc058d70",
-    "69a92cc670f0d5a9b199831e478c21ac1dd6cd886ba00a110dcf4b02379e44a0"
+    "69a92cc670f0d5a9b199831e478c21ac1dd6cd886ba00a110dcf4b02379e44a0",
+    "a3ff18640bf1a961c126b8f3b9ceeaa3fa93830b7f878e7213a62961a3900b0a"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -59,7 +60,8 @@
     "https://www.ghafla.co.ke/atwoli-rejects-sifunas-presidential-ambitions/",
     "https://www.ghafla.co.ke/pastor-victor-kanyari-calls-out-church-congregants-for-offering-low-sadaka/",
     "https://www.ghafla.co.ke/rigathi-gachagua-slams-dp-kindikis-cultural-coronation-during-us-diaspora-meeting/",
-    "https://www.ghafla.co.ke/co-op-bank-youth-forum-how-young-kenyans-can-build-their-own-career-lane/"
+    "https://www.ghafla.co.ke/co-op-bank-youth-forum-how-young-kenyans-can-build-their-own-career-lane/",
+    "https://www.ghafla.co.ke/epra-raises-electricity-charges-by-ksh4-16-per-unit-in-revised-september-tariffs/"
   ],
   "published_angles": [
     {
@@ -277,6 +279,14 @@
       "opening": "Lead on the cultural breakdown of the four-year university promise and the pragmatic pivot toward self-built career paths.",
       "structure": "Cultural reality check -> Forum hook and World Bank mismatch diagnosis -> The mechanics of transferable skill migration -> Side ventures, freelancing, and the portfolio model -> Institutional routine and weekly practical touchpoints.",
       "source": "https://www.ghafla.co.ke/co-op-bank-youth-forum-how-young-kenyans-can-build-their-own-career-lane/"
+    },
+    {
+      "title": "Ksh4.16 Power Hike Hits Nairobi Bills as EPRA Puts a Squeeze on Private Solar and EV Rates",
+      "angle": "The operational crunch hitting the creative and small-business underground\u2014specifically how thermal backup costs and new solar/EV grid rules are squeezing independent spaces while fuel charges pay for old fossil-fuel contracts.",
+      "angle_type": "economic accountability and operational impact on urban spaces",
+      "opening": "Open directly on the financial mechanics of the September tariff notice and the specific thermal plants driving the cost.",
+      "structure": "Thermal cost breakdown and fuel charges -> The net-metering squeeze on private solar producers -> EV pricing and consumer tier restructuring -> Grid stability context and battery storage demands.",
+      "source": "https://www.ghafla.co.ke/epra-raises-electricity-charges-by-ksh4-16-per-unit-in-revised-september-tariffs/"
     }
   ],
   "style_history": [
