@@ -631,10 +631,10 @@
     "2962682a7bebac16bb0a5aa2cf1d1c1d",
     "7c4e03ed7ac00a39682da1300634f455",
     "d2ef75c947aface9ef9a5d93f1d256c5",
-    "f878c2c73069359ce6513a4ff0eac7dc"
+    "f878c2c73069359ce6513a4ff0eac7dc",
+    "20f0ede759158594ef673cab76b6d1d4"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -663,7 +663,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -879,7 +880,8 @@
     "https://kenyans.co.ke/news/127245-kenya-seeks-land-gigiri-build-new-offices-un-missions",
     "https://kenyans.co.ke/news/127246-dci-connects-20-more-centres-faster-good-conduct-certificates",
     "https://kenyans.co.ke/news/127244-rubio-ruto-explore-us-kenya-critical-minerals-partnership",
-    "https://kenyans.co.ke/news/127250-ministry-review-university-courses-ahead-cbet-rollout"
+    "https://kenyans.co.ke/news/127250-ministry-review-university-courses-ahead-cbet-rollout",
+    "https://kenyans.co.ke/news/127253-cbk-proposes-new-rules-payment-providers-fintechs-and-digital-wallets"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1017,7 +1019,8 @@
     "moves end year tenancy sovereign mission complex gigiri",
     "dci extends hour clearance network upcountry centres",
     "backs raw mineral export ban exchange strategic processing deals",
-    "state mounts late audit university degrees scramble december cbet rollout"
+    "state mounts late audit university degrees scramble december cbet rollout",
+    "cbk treasury draft law caps digital wallet exposure single banks"
   ],
   "topic_keys": [
     "news tracker",
@@ -1530,6 +1533,15 @@
       "structure": "Audit squeeze lead -> Twin tender mandates (curriculum audit vs institutional capacity) -> Faculty and infrastructure hurdles -> Statutory procurement requirements and road to 2029 full rollout.",
       "source": "https://kenyans.co.ke/news/127250-ministry-review-university-courses-ahead-cbet-rollout",
       "published_at": "2026-09-22T07:02:17Z"
+    },
+    {
+      "title": "CBK, Treasury Draft Law Caps Digital Wallet Exposure to Single Banks",
+      "angle": "Framing the overhaul through systemic depositor protection and balance diversification: the proposed law ends the practice of parking entire customer floats in single commercial banks by enforcing ring-fencing and a 25 percent deposit cap.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first statement lead tying Treasury and CBK's legislative move directly to the new structural limits on where and how digital wallet money is warehoused.",
+      "structure": "Attribution and core trust fund rule -> Who benefits from depositor ring-fencing -> Float fragmentation mandate (25% cap) -> Licensing, oversight powers, and statutory management -> Penalties and criminal liability -> Public participation timetable and next steps.",
+      "source": "https://kenyans.co.ke/news/127253-cbk-proposes-new-rules-payment-providers-fintechs-and-digital-wallets",
+      "published_at": "2026-09-22T08:02:25Z"
     }
   ]
 }
