@@ -629,10 +629,10 @@
     "0e3eaa6a1ab32f151f8a1971f921e187",
     "d66c81dfdeb3f4a0b0874b89355bc152",
     "2962682a7bebac16bb0a5aa2cf1d1c1d",
-    "7c4e03ed7ac00a39682da1300634f455"
+    "7c4e03ed7ac00a39682da1300634f455",
+    "d2ef75c947aface9ef9a5d93f1d256c5"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -661,7 +661,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -875,7 +876,8 @@
     "https://kenyans.co.ke/news/127238-fkf-reveals-new-details-postponement-kenyan-premier-league",
     "https://kenyans.co.ke/news/127239-court-denies-bail-terms-utumishi-girls-fire-suspects",
     "https://kenyans.co.ke/news/127245-kenya-seeks-land-gigiri-build-new-offices-un-missions",
-    "https://kenyans.co.ke/news/127246-dci-connects-20-more-centres-faster-good-conduct-certificates"
+    "https://kenyans.co.ke/news/127246-dci-connects-20-more-centres-faster-good-conduct-certificates",
+    "https://kenyans.co.ke/news/127244-rubio-ruto-explore-us-kenya-critical-minerals-partnership"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1011,7 +1013,8 @@
     "conflicting court orders lock premier league legal paralysis",
     "remand safety failures force transfer utumishi fire suspects bail denied",
     "moves end year tenancy sovereign mission complex gigiri",
-    "dci extends hour clearance network upcountry centres"
+    "dci extends hour clearance network upcountry centres",
+    "backs raw mineral export ban exchange strategic processing deals"
   ],
   "topic_keys": [
     "news tracker",
@@ -1506,6 +1509,15 @@
       "structure": "Attribution and regional beneficiary lead -> Director General's operational parameters and turnaround comparison -> Geographic footprint and the 37-centre backlog gap -> Forensic and criminal record management implications.",
       "source": "https://kenyans.co.ke/news/127246-dci-connects-20-more-centres-faster-good-conduct-certificates",
       "published_at": "2026-09-22T05:44:04Z"
+    },
+    {
+      "title": "U.S. Backs Kenya's Raw Mineral Export Ban in Exchange for Strategic Processing Deals",
+      "angle": "Framing the bilateral talks around Washington\u2019s explicit endorsement of Nairobi's domestic processing mandate, where Kenya leverages raw mineral export restrictions to secure onshore industrial investment from U.S. capital while anchoring its geopolitical alliance.",
+      "angle_type": "practical change",
+      "opening": "Policy-enforcement lead anchoring the diplomatic bilateral directly to Kenya's statutory push against raw commodity flight.",
+      "structure": "Policy alignment lead -> Diplomatic and commercial terms of the New York talks -> U.S. policy pivot backing local processing over extraction -> Geopolitical trade-offs across security missions and AGOA",
+      "source": "https://kenyans.co.ke/news/127244-rubio-ruto-explore-us-kenya-critical-minerals-partnership",
+      "published_at": "2026-09-22T06:02:25Z"
     }
   ]
 }
