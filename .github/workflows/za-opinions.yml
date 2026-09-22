@@ -1,9 +1,6 @@
 name: Opinions Desk
 
 on:
-  schedule:
-    - cron: '27 */2 * * *'
-      timezone: 'Africa/Nairobi'
   workflow_call:
   workflow_dispatch: {}
 
