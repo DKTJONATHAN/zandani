@@ -163,7 +163,9 @@ Deno.serve(async (req) => {
 
       const supabaseUrl = Deno.env.get("SUPABASE_URL")!;
       const keys = JSON.parse(Deno.env.get("SUPABASE_SECRET_KEYS") || "{}");
-      const admin = createClient(supabaseUrl, keys.default);
+      const serviceKey = Deno.env.get("SUPABASE_SECRET_KEY") || keys.default || "";
+      if (!serviceKey) throw new Error("Supabase server key is not configured");
+      const admin = createClient(supabaseUrl, serviceKey);
       const { data: model } = await admin
         .from("automation_model_versions")
         .select("*")
