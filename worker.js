@@ -4,7 +4,8 @@ const GSC_TXT = "968a6d115d3240a3acbc3448c398978d\n";
 const GITHUB_OWNER = "DKTJONATHAN";
 const GITHUB_REPO = "zandani";
 const GITHUB_BRANCH = "main";
-const SUBS_PATH = "data/subscribers.json";\n
+// Newsletter subscribers are stored in Supabase; this worker no longer writes data/subscribers.json.
+
 const PUSH_SUBS_PATH = "data/push_subscriptions.json";
 
 function validPushSubscription(body) {
@@ -774,7 +775,8 @@ export default {
       return new Response(GSC_TXT, { headers: { "Content-Type": "text/plain; charset=utf-8" } });
     }
 
-    if (path === "/api/push-subscribe") return handlePushSubscribe(request, env);\n    if (path === "/api/subscribe") return handleSubscribe(request, env);
+    if (path === "/api/push-subscribe") return handlePushSubscribe(request, env);
+    if (path === "/api/subscribe") return handleSubscribe(request, env);
     if (path === "/api/unsubscribe") return handleUnsubscribe(request, env);
     if (path === "/api/github") return handleGithubApi(request, env);
 
