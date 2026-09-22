@@ -249,7 +249,23 @@ def brief_html(posts: list[dict], email: str = "") -> str:
 </html>"""
 
 
-def welcome_html() -> str:
+def subscriber_display_name(email: str, supplied_name: str = "") -> str:
+    clean = parseaddr(email)[1].lower().strip()
+    explicit = re.sub(r"\s+", " ", str(supplied_name or "").strip())
+    if explicit and len(explicit) <= 120:
+        return explicit
+    local = clean.split("@", 1)[0] if "@" in clean else clean
+    candidate = re.sub(r"\s+", " ", re.sub(r"[._+\-]+", " ", re.sub(r"\d+", " ", local))).strip()
+    if not candidate:
+        return clean
+    words = [w for w in candidate.split(" ") if w]
+    if len(words) <= 4 and all(re.fullmatch(r"[A-Za-z]{2,20}", w) for w in words):
+        return " ".join(w[:1].upper() + w[1:].lower() for w in words)
+    return clean
+
+
+def welcome_html(email: str = "", supplied_name: str = "") -> str:
+    name = subscriber_display_name(email, supplied_name) if email else "there"
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -259,27 +275,21 @@ def welcome_html() -> str:
 </head>
 <body style="margin:0;padding:0;background:{BG};color:{TEXT};">
   <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:{BG};">
-    <tr>
-      <td align="center" style="padding:36px 16px;">
-        <table role="presentation" width="480" cellspacing="0" cellpadding="0" style="width:100%;max-width:480px;background:{CARD};border:1px solid {BORDER};border-radius:16px;overflow:hidden;">
-          <tr><td style="height:4px;background:{ACCENT};font-size:0;line-height:0;">&nbsp;</td></tr>
-          <tr>
-            <td style="padding:32px 28px 36px;">
-              <img src="{LOGO}" alt="Za Ndani" width="48" height="48" style="display:block;border:0;border-radius:8px;">
-              <p style="margin:20px 0 8px;font-size:11px;letter-spacing:0.2em;font-weight:700;color:{ACCENT};text-transform:uppercase;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,Helvetica,sans-serif;">You're in</p>
-              <h1 style="margin:0 0 12px;font-size:26px;line-height:1.2;font-family:Georgia,'Times New Roman',serif;color:{TEXT};">Welcome to Za Ndani</h1>
-              <p style="margin:0 0 22px;font-size:15px;line-height:1.65;color:{MUTED};font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,Helvetica,sans-serif;">
-                You'll get a short brief of standout stories — Kenya news, culture, and showbiz, written for readers everywhere. No spam. Unsubscribe anytime.
-              </p>
-              <a href="{SITE}" style="display:inline-block;background:{ACCENT};color:#0a0a0a;text-decoration:none;padding:12px 20px;font-weight:700;font-size:13px;border-radius:8px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,Helvetica,sans-serif;">Open Za Ndani →</a>
-            </td>
-          </tr>
-        </table>
-        <p style="margin:20px 0 0;font-size:12px;color:{DIM};font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,Helvetica,sans-serif;">
-          <a href="{SITE}" style="color:{DIM};text-decoration:underline;">zandani.co.ke</a>
-        </p>
-      </td>
-    </tr>
+    <tr><td align="center" style="padding:36px 16px;">
+      <table role="presentation" width="560" cellspacing="0" cellpadding="0" style="width:100%;max-width:560px;background:{CARD};border:1px solid {BORDER};">
+        <tr><td style="height:4px;background:{ACCENT};font-size:0;line-height:0;">&nbsp;</td></tr>
+        <tr><td style="padding:34px 30px 30px;">
+          <img src="{LOGO}" alt="Za Ndani" width="52" height="52" style="display:block;border:0;border-radius:8px;">
+          <p style="margin:20px 0 8px;font:700 11px Arial,sans-serif;letter-spacing:.2em;color:{ACCENT};text-transform:uppercase;">WELCOME TO ZA NDANI</p>
+          <h1 style="margin:0 0 18px;font:700 28px/1.2 Georgia,serif;color:{TEXT};">Hi {escape(name)},</h1>
+          <p style="margin:0 0 16px;font:15px/1.7 Arial,sans-serif;color:{MUTED};">Thank you for subscribing to Za Ndani. We are glad to have you with us.</p>
+          <p style="margin:0 0 16px;font:15px/1.7 Arial,sans-serif;color:{MUTED};">Za Ndani is a Kenya-focused digital news platform bringing you timely stories across news, politics, business, society, culture, entertainment, lifestyle and sports. We focus on stories that matter to Kenyan readers while also keeping you connected to important developments beyond Kenya.</p>
+          <p style="margin:0 0 24px;font:15px/1.7 Arial,sans-serif;color:{MUTED};">As a subscriber, you will receive selected Za Ndani stories and updates in your inbox, with links back to the full articles on our website.</p>
+          <a href="{SITE}" style="display:inline-block;background:{ACCENT};color:#0a0a0a;text-decoration:none;padding:13px 20px;font:700 12px Arial,sans-serif;letter-spacing:.08em;">VISIT ZA NDANI</a>
+        </td></tr>
+        <tr><td style="padding:22px 30px;border-top:1px solid {BORDER};font:12px/1.6 Arial,sans-serif;color:{DIM};">Za Ndani · zandani.co.ke</td></tr>
+      </table>
+    </td></tr>
   </table>
 </body>
 </html>"""
@@ -411,9 +421,29 @@ def send_one(to: str, subject: str, html: str) -> None:
 
 def cmd_welcome(email: str) -> int:
     email = parseaddr(email)[1].lower().strip()
-    send_one(email, "Welcome to Za Ndani", welcome_html())
+    send_one(email, "Welcome to Za Ndani", welcome_html(email))
     print(f"welcome sent to {mask(email)}")
     return 0
+
+
+def cmd_welcome_all() -> int:
+    people = list_contacts()
+    print(f"welcome-all subscribers={len(people)}")
+    if not people:
+        print("No active subscribers")
+        return 0
+    sent = 0
+    failed = 0
+    for em in people:
+        try:
+            send_one(em, "Welcome to Za Ndani", welcome_html(em))
+            sent += 1
+            time.sleep(0.55)
+        except Exception as e:
+            failed += 1
+            print(f"fail {mask(em)}: {e}", file=sys.stderr)
+    print(f"welcome-all sent={sent} failed={failed}")
+    return 0 if failed == 0 else 1
 
 
 def cmd_digest() -> int:
@@ -450,6 +480,8 @@ def cmd_digest() -> int:
 def main(argv: list[str]) -> int:
     if len(argv) >= 3 and argv[1] == "welcome":
         return cmd_welcome(argv[2])
+    if len(argv) >= 2 and argv[1] == "welcome-all":
+        return cmd_welcome_all()
     if len(argv) >= 2 and argv[1] == "digest":
         return cmd_digest()
     if len(argv) >= 2 and argv[1] == "preview":
@@ -458,7 +490,7 @@ def main(argv: list[str]) -> int:
         out.write_text(brief_html(posts, "preview@zandani.co.ke"), encoding="utf-8")
         print("wrote", out, [p["title"] for p in posts])
         return 0
-    print("usage: email_brief.py digest | welcome EMAIL | preview")
+    print("usage: email_brief.py digest | welcome EMAIL | welcome-all | preview")
     return 2
 
 
