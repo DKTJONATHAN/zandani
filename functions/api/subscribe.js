@@ -1,6 +1,6 @@
 const RESEND = "https://api.resend.com";
 const SITE = "https://zandani.co.ke";
-const FROM_DEFAULT = "Za Ndani <onboarding@resend.dev>";
+const FROM_DEFAULT = "Za Ndani <brief@zandani.co.ke>";
 
 function validEmail(raw) {
   const email = String(raw || "").trim().toLowerCase();
@@ -154,7 +154,7 @@ function welcomeHtml(email, suppliedName = "") {
 async function sendWelcome(env, email, suppliedName = "") {
   const key = env.RESEND_API_KEY;
   if (!key) return { skipped: true };
-  const from = env.RESEND_FROM || FROM_DEFAULT;
+  // Welcome mail uses the verified Za Ndani production sender; do not fall back to resend.dev.\n  const from = FROM_DEFAULT;
   const res = await fetch(`${RESEND}/emails`, {
     method: "POST",
     headers: {
