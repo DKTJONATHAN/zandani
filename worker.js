@@ -357,72 +357,33 @@ async function dispatchWorkflow(env, workflowFile) {
   };
 }
 
-async function appendLog(env, entry) {
-  let sha = null;
-  let logs = [];
-  try {
-    const cur = await readGithubJson(env, SCHED_LOG_PATH);
-    sha = cur.sha;
-    logs = Array.isArray(cur.data?.logs) ? cur.data.logs : [];
-  } catch (e) {
-    console.error("read log", e);
-  }
-  logs.unshift(entry);
-  logs = logs.slice(0, 200);
-  try {
-    await writeGithubJson(env, SCHED_LOG_PATH, { updated: new Date().toISOString(), logs }, sha, "scheduler: append dispatch log");
-  } catch (e) {
-    if (e.status === 409 || e.status === 422) {
-      const cur = await readGithubJson(env, SCHED_LOG_PATH);
-      const merged = [entry, ...(Array.isArray(cur.data?.logs) ? cur.data.logs : [])].slice(0, 200);
-      await writeGithubJson(env, SCHED_LOG_PATH, { updated: new Date().toISOString(), logs: merged }, cur.sha, "scheduler: append dispatch log (retry)");
-    } else console.error("write log", e);
-  }
+async function recordAutomationRun(env, deskId, source, scheduledFor, result) {
+  const { url, key } = supabaseConfig(env);
+  const now = new Date().toISOString();
+  const payload = { desk_id: deskId, source, status: result.ok ? "dispatched" : "failed",
+    scheduled_for: scheduledFor ? new Date(scheduledFor).toISOString() : now,
+    started_at: now, finished_at: result.ok ? now : null, error: result.error || null,
+    metadata: { workflow_id: result.workflowId || null } };
+  const res = await fetch(url + "/rest/v1/automation_runs", { method: "POST",
+    headers: sbHeaders(key, { Prefer: "return=minimal" }), body: JSON.stringify(payload) });
+  if (!res.ok) console.error("automation run record", await res.text().catch(() => ""));
 }
-
-async function updateDeskState(env, deskId, patch) {
-  let sha = null;
-  let state = { desks: {} };
-  try {
-    const cur = await readGithubJson(env, SCHED_STATE_PATH);
-    sha = cur.sha;
-    state = cur.data && typeof cur.data === "object" ? cur.data : { desks: {} };
-    if (!state.desks) state.desks = {};
-  } catch (e) {
-    console.error("read state", e);
-  }
-  state.desks[deskId] = { ...(state.desks[deskId] || {}), ...patch };
-  state.updated = new Date().toISOString();
-  try {
-    await writeGithubJson(env, SCHED_STATE_PATH, state, sha, `scheduler: state ${deskId}`);
-  } catch (e) {
-    console.error("write state", e);
-  }
-  return state;
+async function updateAutomationDesk(env, deskId, patch) {
+  const { url, key } = supabaseConfig(env);
+  const res = await fetch(url + "/rest/v1/automation_desks?id=eq." + encodeURIComponent(deskId), {
+    method: "PATCH", headers: sbHeaders(key, { Prefer: "return=minimal" }),
+    body: JSON.stringify({ ...patch, updated_at: new Date().toISOString() })
+  });
+  if (!res.ok) console.error("automation desk update", await res.text().catch(() => ""));
 }
-
 async function triggerDesk(env, deskId, source = "cron", scheduledFor = null) {
   const desk = DESKS[deskId];
   if (!desk) return { ok: false, error: "Unknown desk" };
   const dispatchedAt = new Date().toISOString();
   const result = await dispatchWorkflow(env, desk.workflow);
-  const logEntry = {
-    id: `${deskId}-${Date.now()}`,
-    desk: deskId,
-    scheduledFor: scheduledFor || dispatchedAt,
-    dispatchedAt,
-    status: result.status ?? null,
-    ok: !!result.ok,
-    error: result.error || null,
-    source,
-  };
-  await appendLog(env, logEntry);
-  await updateDeskState(env, deskId, {
-    lastTriggeredAt: dispatchedAt,
-    lastStatus: result.ok ? "ok" : "failed",
-    lastError: result.error || null,
-    lastSource: source,
-  });
+  await recordAutomationRun(env, deskId, source, scheduledFor || dispatchedAt, result);
+  await updateAutomationDesk(env, deskId, { last_triggered_at: dispatchedAt,
+    last_status: result.ok ? "ok" : "failed", last_error: result.error || null, last_source: source });
   return { ...result, desk: deskId };
 }
 
@@ -434,19 +395,16 @@ function useAdminScheduler(env) {
 async function runDueDesks(env) {
   if (!useAdminScheduler(env)) return { triggered: [], skipped: true };
   const parts = nairobiParts();
-  let state = { desks: {} };
-  try {
-    const cur = await readGithubJson(env, SCHED_STATE_PATH);
-    state = cur.data || { desks: {} };
-  } catch (_) {}
+  let stateRows = [];
+  try { stateRows = await readAutomationDesks(env); } catch (_) {}
+  const state = new Map(stateRows.map((r) => [String(r.id), r]));
   const triggered = [];
   for (const [id, desk] of Object.entries(DESKS)) {
     if (!cronMatches(desk.cron, parts)) continue;
     const slot = parts.slotKey;
-    const lastSlot = state.desks?.[id]?.lastSlot;
-    if (lastSlot === slot) continue;
+    if (state.get(id)?.last_slot === slot) continue;
     const res = await triggerDesk(env, id, "cron", parts.display);
-    await updateDeskState(env, id, { lastSlot: slot });
+    await updateAutomationDesk(env, id, { last_slot: slot });
     if (res.ok) triggered.push(id);
   }
   return { triggered, now: parts.display };
@@ -725,62 +683,47 @@ async function handleGithubApi(request, env) {
   }
 }
 
-async function handleSchedulerStatus(env) {
-  let state = { desks: {} };
-  try {
-    const cur = await readGithubJson(env, SCHED_STATE_PATH);
-    state = cur.data || { desks: {} };
-  } catch (_) {}
-  const now = nairobiParts();
-  const enabled = useAdminScheduler(env);
-  const workflowList = await githubJson(
-    `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows?per_page=100`,
-    { headers: ghHeaders(env) }
-  ).catch(() => ({ workflows: [] }));
-  const workflowMap = new Map(
-    (Array.isArray(workflowList.workflows) ? workflowList.workflows : [])
-      .map((w) => [String(w.path || ""), w])
-  );
-  const desks = Object.entries(DESKS).map(([id, desk]) => {
-    const last = state.desks?.[id] || {};
-    const workflowMeta = workflowMap.get(`.github/workflows/${desk.workflow}`);
-    return {
-      id,
-      label: desk.label,
-      workflow: desk.workflow,
-      cron: desk.cron,
-      cadence: desk.cadence,
-      nextRun: nextRunIso(desk.cron),
-      nextRunAt: nextRunIso(desk.cron),
-      workflowFound: !!workflowMeta?.id,
-      workflowState: workflowMeta?.state || null,
-      lastTriggeredAt: last.lastTriggeredAt || null,
-      lastStatus: last.lastStatus || null,
-      lastError: last.lastError || null,
-      lastSource: last.lastSource || null,
-      last: last || null,
-    };
-  });
-  return json({
-    ok: true,
-    timezone: TZ,
-    nairobiNow: now.display,
-    nowNairobi: now.display,
-    adminScheduler: enabled,
-    useAdminScheduler: enabled,
-    desks,
-  });
+async function readAutomationDesks(env) {
+  const { url, key } = supabaseConfig(env);
+  const res = await fetch(url + "/rest/v1/automation_desks?select=*&order=id.asc", { headers: sbHeaders(key) });
+  if (!res.ok) throw new Error("Supabase automation desks read failed: " + res.status);
+  return await res.json();
 }
-
+async function readAutomationLogs(env, limit = 50) {
+  const { url, key } = supabaseConfig(env);
+  const q = new URLSearchParams({ select: "id,desk_id,source,scheduled_for,started_at,finished_at,status,error,article_slug,candidate_count,image_count,created_at", order: "created_at.desc", limit: String(limit) });
+  const res = await fetch(url + "/rest/v1/automation_runs?" + q, { headers: sbHeaders(key) });
+  if (!res.ok) throw new Error("Supabase automation logs read failed: " + res.status);
+  return await res.json();
+}
+async function handleSchedulerStatus(env) {
+  try {
+    const rows = await readAutomationDesks(env);
+    const now = nairobiParts();
+    const enabled = useAdminScheduler(env);
+    const byId = new Map(rows.map((r) => [String(r.id), r]));
+    const desks = Object.entries(DESKS).map(([id, desk]) => {
+      const row = byId.get(id) || {};
+      return { id, label: desk.label, workflow: "server automation", cron: desk.cron, cadence: desk.cadence,
+        nextRun: nextRunIso(desk.cron), nextRunAt: nextRunIso(desk.cron), workflowFound: true,
+        workflowState: "managed", lastTriggeredAt: row.last_triggered_at || null,
+        lastStatus: row.last_status || "never", lastError: row.last_error || null,
+        lastSource: row.last_source || null, last: row };
+    });
+    return json({ ok: true, timezone: TZ, nairobiNow: now.display, nowNairobi: now.display,
+      adminScheduler: enabled, useAdminScheduler: enabled, desks });
+  } catch (e) { return json({ ok: false, error: String(e.message || e) }, 500); }
+}
 async function handleSchedulerLogs(env, url) {
   const limit = Math.min(100, Math.max(1, Number(url.searchParams.get("limit") || 50)));
   try {
-    const cur = await readGithubJson(env, SCHED_LOG_PATH);
-    const logs = Array.isArray(cur.data?.logs) ? cur.data.logs.slice(0, limit) : [];
-    return json({ ok: true, logs });
-  } catch (e) {
-    return json({ ok: true, logs: [], error: String(e.message || e) });
-  }
+    const logs = await readAutomationLogs(env, limit);
+    return json({ ok: true, logs: logs.map((r) => ({
+      id: r.id, desk: r.desk_id, scheduledFor: r.scheduled_for, dispatchedAt: r.started_at || r.created_at,
+      status: r.status === "published" || r.status === "dispatched" ? 204 : (r.status === "failed" ? 500 : null),
+      ok: r.status !== "failed", error: r.error || null, source: r.source === "manual" ? "manual" : "cron"
+    })) });
+  } catch (e) { return json({ ok: true, logs: [], error: String(e.message || e) }); }
 }
 
 async function handleSchedulerTrigger(request, env, deskId) {
