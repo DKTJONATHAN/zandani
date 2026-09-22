@@ -28,7 +28,12 @@ serve(async (req) => {
     }
 
     const supabaseUrl = Deno.env.get('SUPABASE_URL')!;
-    const supabaseKey = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!;
+    const secretKeysRaw = Deno.env.get('SUPABASE_SECRET_KEYS') || '{}';
+    const secretKeys = JSON.parse(secretKeysRaw);
+    const supabaseKey = secretKeys.default;
+    if (!supabaseKey) {
+      throw new Error('SUPABASE_SECRET_KEYS.default is not configured');
+    }
     const supabase = createClient(supabaseUrl, supabaseKey);
 
     const { type, match, matches } = await req.json();
