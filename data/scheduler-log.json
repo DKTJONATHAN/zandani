@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-22T10:30:56.003Z",
+  "updated": "2026-09-22T11:01:00.379Z",
   "logs": [
+    {
+      "id": "news-1790074860221",
+      "desk": "news",
+      "scheduledFor": "2026-09-22 14:00:58",
+      "dispatchedAt": "2026-09-22T11:00:58.610Z",
+      "status": 204,
+      "ok": true,
+      "error": null,
+      "source": "cron"
+    },
     {
       "id": "business-1790073055851",
       "desk": "business",
@@ -1986,16 +1996,6 @@
       "desk": "entertainment",
       "scheduledFor": "2026-09-20 00:08:24",
       "dispatchedAt": "2026-09-19T21:08:25.198Z",
-      "status": 204,
-      "ok": true,
-      "error": null,
-      "source": "cron"
-    },
-    {
-      "id": "news-1789851618232",
-      "desk": "news",
-      "scheduledFor": "2026-09-20 00:00:16",
-      "dispatchedAt": "2026-09-19T21:00:16.336Z",
       "status": 204,
       "ok": true,
       "error": null,
