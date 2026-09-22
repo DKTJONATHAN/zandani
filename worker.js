@@ -145,17 +145,17 @@ const TZ = "Africa/Nairobi";
 
 const DESKS = {
   news: { label: "News", workflow: "za-news.yml", cron: "0 * * * *", cadence: "hourly at :00" },
-  africa: { label: "East Africa", workflow: "za-africa.yml", cron: "0 6,14,20 * * *", cadence: "3× daily (06/14/20)" },
-  agriculture: { label: "Agriculture", workflow: "za-agriculture.yml", cron: "0 7 * * *", cadence: "once daily (07:00)" },
-  diano: { label: "George Diano", workflow: "za-diano.yml", cron: "0 9,17 * * *", cadence: "2× daily (09/17)" },
-  jaj: { label: "Jaj", workflow: "za-jaj.yml", cron: "0 10 * * *", cadence: "once daily (10:00)" },
-  sports: { label: "Sports", workflow: "za-sports.yml", cron: "0 8,15,21 * * *", cadence: "3× daily (08/15/21)" },
-  business: { label: "Business", workflow: "za-business.yml", cron: "30 8,13,18 * * *", cadence: "3× daily (:30 at 08/13/18)" },
-  technology: { label: "Technology", workflow: "za-technology.yml", cron: "0 11,19 * * *", cadence: "2× daily (11/19)" },
-  opinions: { label: "Opinions", workflow: "za-opinions.yml", cron: "0 16 * * *", cadence: "once daily (16:00)" },
+  africa: { label: "East Africa", workflow: "za-africa.yml", cron: "15 6,18 * * *", cadence: "twice daily (06:15/18:15)" },
+  agriculture: { label: "Agriculture", workflow: "za-agriculture.yml", cron: "15 7 * * 2,5", cadence: "twice weekly (Tue/Fri 07:15)" },
+  diano: { label: "George Diano", workflow: "za-diano.yml", cron: "15 13,20 * * *", cadence: "twice daily (13:15/20:15)" },
+  jaj: { label: "Jaj", workflow: "za-jaj.yml", cron: "0 10 * * 1,4", cadence: "twice weekly (Mon/Thu 10:00)" },
+  sports: { label: "Sports", workflow: "za-sports.yml", cron: "15 11,19 * * *", cadence: "twice daily (11:15/19:15)" },
+  business: { label: "Business", workflow: "za-business.yml", cron: "15 8,16 * * *", cadence: "twice daily (08:15/16:15)" },
+  technology: { label: "Technology", workflow: "za-technology.yml", cron: "15 12,18 * * *", cadence: "twice daily (12:15/18:15)" },
+  opinions: { label: "Opinions", workflow: "za-opinions.yml", cron: "15 16 * * 2,5", cadence: "twice weekly (Tue/Fri 16:15)" },
   entertainment: { label: "Entertainment", workflow: "za-entertainment.yml", cron: "8 */2 * * *", cadence: "every 2h at :08" },
   mpasho: { label: "Mpasho", workflow: "za-mpasho.yml", cron: "20 */2 * * *", cadence: "every 2h at :20" },
-  lifestyle: { label: "Lifestyle", workflow: "za-lifestyle.yml", cron: "0 12,19 * * *", cadence: "2× daily (12/19)" },
+  lifestyle: { label: "Lifestyle", workflow: "za-lifestyle.yml", cron: "15 12 * * 2,5", cadence: "twice weekly (Tue/Fri 12:15)" },
   ghafla: { label: "Ghafla", workflow: "za-ghafla.yml", cron: "44 */2 * * *", cadence: "every 2h at :44" },
 };
 
