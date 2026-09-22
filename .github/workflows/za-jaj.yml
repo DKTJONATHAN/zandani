@@ -1,9 +1,6 @@
 name: Jaj — Opinion column
 
 on:
-  schedule:
-    - cron: '48 * * * *'
-      timezone: 'Africa/Nairobi'
   workflow_call:
   workflow_dispatch: {}
 
