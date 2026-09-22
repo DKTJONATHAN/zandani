@@ -78,7 +78,7 @@ jobs:
           [ -f "$LEDGER" ] || touch "$LEDGER"
           if [ -s "$LEDGER" ]; then
             sed -i \
-              -e 's/:za-news.yml$/:news/' \
+              -e 's/:celestine-news.yml$/:news/' \
               -e 's/:za-ghafla.yml$/:ghafla/' \
               -e 's/:za-mpasho.yml$/:mpasho/' \
               -e 's/:za-entertainment.yml$/:entertainment/' \
@@ -207,7 +207,7 @@ jobs:
   news:
     needs: plan
     if: needs.plan.outputs.news == '1'
-    uses: ./.github/workflows/za-news.yml
+    uses: ./.github/workflows/celestine-news.yml
     secrets: inherit
   ghafla:
     needs: plan
