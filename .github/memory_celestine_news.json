@@ -627,10 +627,10 @@
     "4e5168c64d75740140da3f4b878302fa",
     "6b7d7e48db32471eeb0635bb0c777217",
     "0e3eaa6a1ab32f151f8a1971f921e187",
-    "d66c81dfdeb3f4a0b0874b89355bc152"
+    "d66c81dfdeb3f4a0b0874b89355bc152",
+    "2962682a7bebac16bb0a5aa2cf1d1c1d"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -659,7 +659,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -871,7 +872,8 @@
     "https://kenyans.co.ke/news/127237-police-recover-ksh72-million-worth-substances-wrecked-suv",
     "https://kenyans.co.ke/news/127241-cma-warns-public-against-unverified-dangote-refinery-ipo-documents",
     "https://kenyans.co.ke/news/127238-fkf-reveals-new-details-postponement-kenyan-premier-league",
-    "https://kenyans.co.ke/news/127239-court-denies-bail-terms-utumishi-girls-fire-suspects"
+    "https://kenyans.co.ke/news/127239-court-denies-bail-terms-utumishi-girls-fire-suspects",
+    "https://kenyans.co.ke/news/127245-kenya-seeks-land-gigiri-build-new-offices-un-missions"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1005,7 +1007,8 @@
     "crashed mazda exposes ksh highway drug transit blind spot",
     "cma draws hard line unlicensed dangote ipo solicitations",
     "conflicting court orders lock premier league legal paralysis",
-    "remand safety failures force transfer utumishi fire suspects bail denied"
+    "remand safety failures force transfer utumishi fire suspects bail denied",
+    "moves end year tenancy sovereign mission complex gigiri"
   ],
   "topic_keys": [
     "news tracker",
@@ -1482,6 +1485,15 @@
       "structure": "Remand safety crisis lead -> Judicial findings on internal bullying and digital leaks -> Transfer mandates to Kamae and Kamaya -> Ongoing welfare, psychological, and educational provisions -> Concluding on the systemic tension between juvenile culpability and state custodial protection.",
       "source": "https://kenyans.co.ke/news/127239-court-denies-bail-terms-utumishi-girls-fire-suspects",
       "published_at": "2026-09-21T17:02:11Z"
+    },
+    {
+      "title": "Kenya Moves to End 50-Year Tenancy With Sovereign UN Mission Complex in Gigiri",
+      "angle": "Reframing the land search around the end of a five-decade tenancy cycle: Kenya is moving to secure sovereign real estate in Nairobi's most tightly held diplomatic corridor at the exact moment the UN prepares to relocate global agency functions from Europe and North America to Nairobi.",
+      "angle_type": "practical change",
+      "opening": "Historical and operational shift lead contrasting Kenya's half-century status as a tenant diplomat on its own soil with its sudden push to acquire sovereign land in Gigiri.",
+      "structure": "Sovereign transition lead -> Site specification and technical procurement parameters -> The 50-year tenancy deficit -> Geopolitical context of UN headquarters expansion to Nairobi.",
+      "source": "https://kenyans.co.ke/news/127245-kenya-seeks-land-gigiri-build-new-offices-un-missions",
+      "published_at": "2026-09-22T05:02:26Z"
     }
   ]
 }
