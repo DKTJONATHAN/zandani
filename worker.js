@@ -321,33 +321,40 @@ async function dispatchWorkflow(env, workflowFile) {
     };
   }
 
-  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/${workflow.id}/dispatches`;
-  const dispatch = async () => fetch(url, {
-    method: "POST",
-    headers,
-    body: JSON.stringify({ ref: GITHUB_BRANCH }),
-  });
-
-  // GitHub can briefly lag while a newly edited workflow is re-indexed. If it
-  // reports the old "missing workflow_dispatch" error, verify the current
-  // workflow file and retry once instead of persisting a false failure.
-  let res = await dispatch();
+  // GitHub occasionally serves a stale workflow index immediately after a
+  // workflow-file update. Re-resolve the workflow and retry several times
+  // before reporting a dispatch failure. This prevents the Admin Panel from
+  // surfacing a transient "missing workflow_dispatch" error as a real failure.
+  let res = null;
   let body = {};
-  if (res.status !== 204 && !res.ok) {
-    body = await res.json().catch(() => ({}));
-    if (
-      res.status === 422 &&
-      /workflow_dispatch/i.test(String(body.message || "")) &&
-      /does not have/i.test(String(body.message || ""))
-    ) {
-      await new Promise((resolve) => setTimeout(resolve, 1200));
-      res = await dispatch();
-      if (res.status !== 204 && !res.ok) body = await res.json().catch(() => ({}));
-    }
-  }
+  let workflowId = workflow.id;
 
-  if (res.status === 204 || res.ok) {
-    return { ok: true, status: res.status, workflowId: workflow.id };
+  for (let attempt = 0; attempt < 5; attempt += 1) {
+    if (attempt > 0) {
+      await new Promise((resolve) => setTimeout(resolve, 1500 * attempt));
+      const refreshed = await githubJson(listUrl, { headers });
+      const refreshedWorkflows = Array.isArray(refreshed.workflows) ? refreshed.workflows : [];
+      const current = refreshedWorkflows.find((item) => String(item.path || "") === expectedPath);
+      if (current?.id) workflowId = current.id;
+    }
+
+    const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/${workflowId}/dispatches`;
+    res = await fetch(url, {
+      method: "POST",
+      headers,
+      body: JSON.stringify({ ref: GITHUB_BRANCH }),
+    });
+
+    body = {};
+    if (res.status === 204 || res.ok) {
+      return { ok: true, status: res.status, workflowId };
+    }
+
+    body = await res.json().catch(() => ({}));
+    const message = String(body.message || "");
+    if (!(res.status === 422 && /workflow_dispatch/i.test(message) && /does not have/i.test(message))) {
+      break;
+    }
   }
   return {
     ok: false,
