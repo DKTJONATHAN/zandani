@@ -453,20 +453,10 @@ async function runDueDesks(env) {
 }
 
 function supabaseConfig(env) {
-  // Cloudflare may expose the existing project variables under either the
-  // server-side names or the Vite/Pages names already used by this project.
-  const url = String(env.SUPABASE_URL || env.VITE_SUPABASE_URL || "").replace(/\/$/, "");
-  const key = String(
-    env.SUPABASE_SERVICE_ROLE_KEY ||
-    env.SUPABASE_KEY ||
-    env.VITE_SUPABASE_PUBLISHABLE_KEY ||
-    ""
-  ).trim();
-
+  const url = String(env.SUPABASE_URL || "").replace(/\/$/, "");
+  const key = String(env.SUPABASE_SERVICE_ROLE_KEY || "").trim();
   if (!url || !key) {
-    const err = new Error(
-      "Supabase configuration is missing. The worker accepts SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY, or the existing VITE_SUPABASE_URL + VITE_SUPABASE_PUBLISHABLE_KEY variables."
-    );
+    const err = new Error("SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY is not configured on Cloudflare");
     err.status = 503;
     throw err;
   }
@@ -485,7 +475,8 @@ function sbHeaders(key, extra = {}) {
 async function readSubscribers(env) {
   const { url, key } = supabaseConfig(env);
   const q = new URLSearchParams({
-    select: "id,email,subscribed_at,is_active",
+    select: "id,email,subscribed_at,unsubscribed_at,active,source,created_at,updated_at",
+    active: "eq.true",
     order: "subscribed_at.asc",
   });
   const res = await fetch(`${url}/rest/v1/newsletter_subscribers?${q}`, {
@@ -503,7 +494,7 @@ async function readSubscribers(env) {
       ? rows.map((row) => ({
           email: row.email,
           subscribed_at: row.subscribed_at,
-          active: row.is_active !== false,
+          active: row.active === true,
         }))
       : [],
   };
@@ -514,7 +505,7 @@ async function upsertSubscriber(env, email) {
   const now = new Date().toISOString();
   const q = new URLSearchParams({
     email: `eq.${email}`,
-    select: "id,email,subscribed_at,is_active",
+    select: "id,email,subscribed_at,unsubscribed_at,active,source",
     limit: "1",
   });
   const existingRes = await fetch(`${url}/rest/v1/newsletter_subscribers?${q}`, {
@@ -526,40 +517,48 @@ async function upsertSubscriber(env, email) {
     err.status = existingRes.status;
     throw err;
   }
-  const existingRows = await existingRes.json();
-  const existing = Array.isArray(existingRows) && existingRows.length ? existingRows[0] : null;
-  if (existing && existing.is_active !== false) return { already: true };
 
-  const row = {
-    email,
-    subscribed_at: existing?.subscribed_at || now,
-    is_active: true,
-  };
+  const rows = await existingRes.json();
+  const existing = Array.isArray(rows) && rows.length ? rows[0] : null;
+
+  if (existing?.active === true) return { already: true };
+
+  if (existing) {
+    const patch = await fetch(
+      `${url}/rest/v1/newsletter_subscribers?id=eq.${encodeURIComponent(existing.id)}`,
+      {
+        method: "PATCH",
+        headers: sbHeaders(key, { Prefer: "return=minimal" }),
+        body: JSON.stringify({
+          active: true,
+          unsubscribed_at: null,
+          subscribed_at: existing.subscribed_at || now,
+          source: existing.source || "website",
+        }),
+      }
+    );
+    if (!patch.ok) {
+      const body = await patch.text().catch(() => "");
+      const err = new Error(`Supabase reactivate failed: ${patch.status} ${body}`);
+      err.status = patch.status;
+      throw err;
+    }
+    return { already: false };
+  }
 
   const res = await fetch(`${url}/rest/v1/newsletter_subscribers`, {
     method: "POST",
     headers: sbHeaders(key, { Prefer: "return=minimal" }),
-    body: JSON.stringify(row),
+    body: JSON.stringify({
+      email,
+      subscribed_at: now,
+      unsubscribed_at: null,
+      active: true,
+      source: "website",
+    }),
   });
 
   if (!res.ok) {
-    if (res.status === 409 && existing) {
-      const patch = await fetch(
-        `${url}/rest/v1/newsletter_subscribers?id=eq.${encodeURIComponent(existing.id)}`,
-        {
-          method: "PATCH",
-          headers: sbHeaders(key, { Prefer: "return=minimal" }),
-          body: JSON.stringify({ is_active: true, subscribed_at: existing.subscribed_at || now }),
-        }
-      );
-      if (!patch.ok) {
-        const body = await patch.text().catch(() => "");
-        const err = new Error(`Supabase reactivate failed: ${patch.status} ${body}`);
-        err.status = patch.status;
-        throw err;
-      }
-      return { already: false };
-    }
     const body = await res.text().catch(() => "");
     const err = new Error(`Supabase insert failed: ${res.status} ${body}`);
     err.status = res.status;
@@ -627,13 +626,15 @@ async function handleSubscribe(request, env) {
 
 async function deactivate(env, email) {
   const { url, key } = supabaseConfig(env);
-  const now = new Date().toISOString();
   const res = await fetch(
     `${url}/rest/v1/newsletter_subscribers?email=eq.${encodeURIComponent(email)}`,
     {
       method: "PATCH",
       headers: sbHeaders(key, { Prefer: "return=minimal" }),
-      body: JSON.stringify({ is_active: false }),
+      body: JSON.stringify({
+        active: false,
+        unsubscribed_at: new Date().toISOString(),
+      }),
     }
   );
   if (!res.ok && res.status !== 404) {
@@ -642,7 +643,6 @@ async function deactivate(env, email) {
     err.status = res.status;
     throw err;
   }
-  return { updated_at: now };
 }
 
 
