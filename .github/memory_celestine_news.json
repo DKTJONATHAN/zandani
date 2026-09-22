@@ -632,10 +632,10 @@
     "7c4e03ed7ac00a39682da1300634f455",
     "d2ef75c947aface9ef9a5d93f1d256c5",
     "f878c2c73069359ce6513a4ff0eac7dc",
-    "20f0ede759158594ef673cab76b6d1d4"
+    "20f0ede759158594ef673cab76b6d1d4",
+    "607618d22c622556b72364092595cd6a"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -664,7 +664,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -881,7 +882,8 @@
     "https://kenyans.co.ke/news/127246-dci-connects-20-more-centres-faster-good-conduct-certificates",
     "https://kenyans.co.ke/news/127244-rubio-ruto-explore-us-kenya-critical-minerals-partnership",
     "https://kenyans.co.ke/news/127250-ministry-review-university-courses-ahead-cbet-rollout",
-    "https://kenyans.co.ke/news/127253-cbk-proposes-new-rules-payment-providers-fintechs-and-digital-wallets"
+    "https://kenyans.co.ke/news/127253-cbk-proposes-new-rules-payment-providers-fintechs-and-digital-wallets",
+    "https://kenyans.co.ke/news/127254-dangote-cement-rules-out-new-plant-kenya-over-limestone-challenges"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1020,7 +1022,8 @@
     "dci extends hour clearance network upcountry centres",
     "backs raw mineral export ban exchange strategic processing deals",
     "state mounts late audit university degrees scramble december cbet rollout",
-    "cbk treasury draft law caps digital wallet exposure single banks"
+    "cbk treasury draft law caps digital wallet exposure single banks",
+    "geological bottlenecks reroute dangote cement expansion regional hubs"
   ],
   "topic_keys": [
     "news tracker",
@@ -1542,6 +1545,15 @@
       "structure": "Attribution and core trust fund rule -> Who benefits from depositor ring-fencing -> Float fragmentation mandate (25% cap) -> Licensing, oversight powers, and statutory management -> Penalties and criminal liability -> Public participation timetable and next steps.",
       "source": "https://kenyans.co.ke/news/127253-cbk-proposes-new-rules-payment-providers-fintechs-and-digital-wallets",
       "published_at": "2026-09-22T08:02:25Z"
+    },
+    {
+      "title": "Geological Bottlenecks Reroute Dangote\u2019s Cement Expansion From Kenya to Regional Hubs",
+      "angle": "Reframing the move around industrial cross-border sourcing and capital re-allocation: how geological resource bottlenecks shift heavy cement manufacturing to neighboring East African production nodes, leaving Kenya as a market for regional exports while Dangote pivots its direct Kenyan industrial footprint toward energy infrastructure.",
+      "angle_type": "practical change",
+      "opening": "Geological bottleneck lead establishing the exclusion of Kenya from the 25-million-tonne African cement expansion strategy.",
+      "structure": "Limestone constraint core -> Regional supply node reallocation (Ethiopia & Tanzania expansion details) -> Broader African capital pipeline -> Parallel pivot to the Lamu energy complex.",
+      "source": "https://kenyans.co.ke/news/127254-dangote-cement-rules-out-new-plant-kenya-over-limestone-challenges",
+      "published_at": "2026-09-22T09:04:12Z"
     }
   ]
 }
