@@ -36,6 +36,20 @@ async function scrape(url: string) {
   const body = paragraphs.join("\n\n");
   if (body.length < 500) throw new Error("source article body is too short");
 
+  const publishedRaw =
+    doc.querySelector("meta[property='article:published_time']")?.getAttribute("content") ||
+    doc.querySelector("meta[name='date']")?.getAttribute("content") ||
+    doc.querySelector("time[datetime]")?.getAttribute("datetime") || "";
+  if (publishedRaw) {
+    const published = new Date(publishedRaw);
+    if (!Number.isNaN(published.getTime())) {
+      const ageHours = (Date.now() - published.getTime()) / 3600000;
+      if (ageHours > 24 || ageHours < -2) throw new Error(`article age ${ageHours.toFixed(1)}h outside freshness window`);
+    }
+  } else {
+    throw new Error("no usable publication date");
+  }
+
   const title =
     clean(doc.querySelector("meta[property='og:title']")?.getAttribute("content")) ||
     clean(doc.querySelector("h1")?.textContent) ||
