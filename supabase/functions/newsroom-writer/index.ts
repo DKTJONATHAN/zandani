@@ -187,7 +187,12 @@ Deno.serve(async (req) => {
             const rssDoc = new DOMParser().parseFromString(rss, "application/xml") || new DOMParser().parseFromString(rss, "text/xml");
             for (const item of Array.from(rssDoc.querySelectorAll("item"))) {
               const link = item.querySelector("link")?.textContent?.trim() || "";
-              addCandidate(link);
+              if (link) {
+                try {
+                  const resolved = await fetch(link, { method: "HEAD", redirect: "follow", headers: { "User-Agent": USER_AGENT } });
+                  addCandidate(resolved.url);
+                } catch {}
+              }
               const description = item.querySelector("description")?.textContent || "";
               for (const m of description.matchAll(/https?:\\/\\/www\\.kenyans\\.co\\.ke\\/news\\/[^<\\s&]+/gi)) addCandidate(m[0]);
               if (candidates.length >= 30) break;
