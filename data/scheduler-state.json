@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-21T23:44:36.914Z",
+  "updated": "2026-09-22T00:00:44.144Z",
   "desks": {
     "news": {
-      "lastTriggeredAt": "2026-09-21T23:00:32.159Z",
-      "lastStatus": "ok",
-      "lastError": null,
+      "lastTriggeredAt": "2026-09-22T00:00:31.873Z",
+      "lastStatus": "failed",
+      "lastError": "Failed to run workflow dispatch",
       "lastSource": "cron",
       "lastSlot": "2026-09-22T02:00"
     },
