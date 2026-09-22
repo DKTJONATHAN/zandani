@@ -1,9 +1,6 @@
 name: Amara Ndlovu — East Africa
 
 on:
-  schedule:
-    - cron: '12 * * * *'
-      timezone: 'Africa/Nairobi'
   workflow_call:
   workflow_dispatch: {}
 
