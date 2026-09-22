@@ -1,6 +1,6 @@
 # Admin Desk Scheduler (Africa/Nairobi)
 
-Autonomous, alarm-style dispatcher that triggers GitHub Actions desk workflows from the Cloudflare Worker using **Africa/Nairobi** time. GitHub Actions `schedule` entries remain as a fallback.
+Autonomous, alarm-style dispatcher that reads the server-side desk schedule and triggers the currently deployed desk runner from the Cloudflare Worker using **Africa/Nairobi** time. Individual desk GitHub `schedule` entries have been removed; manual `workflow_dispatch` remains available during the migration.
 
 ## Architecture
 
@@ -9,7 +9,7 @@ Autonomous, alarm-style dispatcher that triggers GitHub Actions desk workflows f
 | Cloudflare Cron (`* * * * *`) | Wakes the Worker every minute (UTC). |
 | `worker.js` `scheduled()` | Interprets desk crons in **Africa/Nairobi** and dispatches due workflows. |
 | Admin UI `/admin` → **Scheduler** | Live clock, desk cards, manual trigger, dispatch log. |
-| GitHub files | `data/scheduler-state.json`, `data/scheduler-log.json` |
+| Supabase | `automation_desks`, `automation_runs`, `automation_jobs` |
 
 ## Configure secrets
 
@@ -25,7 +25,7 @@ Classic PAT scopes: `repo` + `workflow`. Fine-grained: Actions (Read and write),
 ## Enable / disable
 
 - **Primary (Worker):** `USE_ADMIN_SCHEDULER=true` (default). Cron fires desks at minute `0` EAT (hourly news; every 2h entertainment).
-- **Fallback only:** set `USE_ADMIN_SCHEDULER=false`. GitHub workflow `schedule` blocks still run.
+- **Fallback only:** set `USE_ADMIN_SCHEDULER=false`. Desk schedules are not duplicated in GitHub.
 - **Disable GitHub cron entirely:** remove or comment `on.schedule` in each `za-*.yml` after confirming Worker dispatches succeed.
 
 ## Desk map
