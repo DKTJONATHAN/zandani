@@ -13,6 +13,14 @@ def _sim(a,b):
     wa={x for x in re.findall(r"[a-z0-9]+",(a or "").lower()) if x not in stop and len(x)>3}
     wb={x for x in re.findall(r"[a-z0-9]+",(b or "").lower()) if x not in stop and len(x)>3}
     return len(wa&wb)/max(1,len(wa|wb))
+def _sentence_overlap(a,b):
+    def norm(s):
+        return re.sub(r"[^a-z0-9\\s]"," ",str(s or "").lower()).strip()
+    aa=[x.strip() for x in re.split(r"(?<=[.!?])\\s+",norm(a)) if len(x.split())>=8]
+    bb={x for x in re.split(r"(?<=[.!?])\\s+",norm(b)) if len(x.split())>=8}
+    if not aa or not bb: return 0.0
+    return sum(1 for x in aa if x in bb) / max(1,len(aa))
+
 def _parse(raw):
     raw=(raw or "").strip()
     raw=re.sub(r"^JSON\s*","",raw,flags=re.I)
