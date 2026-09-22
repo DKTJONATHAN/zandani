@@ -1,35 +1,29 @@
-# Za Ndani — working workflows
+# Za Ndani — automation control map
 
-Cron lives in **one** file: `writer-dispatcher.yml`. Every writer is `workflow_call` + manual dispatch only.
+Automation scheduling and run history are managed server-side. The public repository contains only deployment/version-control definitions and article output.
 
 ## Nairobi clock (EAT)
 
-| Desk | File | When |
-|------|------|------|
-| News | `za-news.yml` | Hourly 06:00–23:00 |
-| Ghafla | `za-ghafla.yml` | 07:00, 11:00, 15:00, 19:00 |
-| Mpasho | `za-mpasho.yml` | 07:30, 11:30, 15:30, 19:30 |
-| Entertainment | `za-entertainment.yml` | 08:00, 12:00, 16:00, 20:00 |
-| Africa | `za-africa.yml` | 06:15, 18:15 |
-| Agriculture | `za-agriculture.yml` | 07:15, 17:15 |
-| Business | `za-business.yml` | 08:15, 16:15 |
-| Lifestyle | `za-lifestyle.yml` | 09:15, 15:15 |
-| Opinions | `za-opinions.yml` | 10:15, 14:15 |
-| Sports | `za-sports.yml` | 11:15, 19:15 |
-| Technology | `za-technology.yml` | 12:15, 18:45 |
-| Diano | `za-diano.yml` | 13:15, 20:15 |
-| Jaj | `za-jaj.yml` | Mon + Thu 11:20, 17:20 |
+| Desk | Cadence |
+|------|---------|
+| News | Hourly |
+| Ghafla | Every 2 hours |
+| Mpasho | Every 2 hours |
+| Entertainment | Every 2 hours |
+| Africa | Twice daily |
+| Agriculture | Twice weekly |
+| Business | Twice daily |
+| Lifestyle | Twice weekly |
+| Opinions | Twice weekly |
+| Sports | Twice daily |
+| Technology | Twice daily |
+| Diano | Twice daily |
+| Jaj | Monday + Thursday |
 
-Dispatcher cron (UTC): 07, 22, 37, 52 past hours 03–20.
+## Editorial contract
 
-## Other working files
+The source is research material, not an article template. Content generation uses GAP/angle analysis, independent article structure, freshness checks, source-body similarity checks, factual safeguards and image-quality gates.
 
-| File | Role |
-|------|------|
-| `scheduler.yml` | Publish posts whose `publishDate` has arrived (minute 9 each hour) |
-| `submit-sitemaps.yml` | Ping Google/Bing |
-| `indexjump.yml` | Index new article URLs on push |
-| `seo-audit.yml` | Polish + lint latest posts |
-| `seo-frontmatter-guard.yml` | Normalize frontmatter on push |
+Run metadata, model version, prompt version, GAP version and image-pipeline version are retained server-side for future upgrades and rollback.
 
-Voice: report first, then a real take. No filler stacks, no repeated openers.
+The administrator can manually trigger desks from the admin panel. Scheduling and execution state are not stored in repository JSON files.
