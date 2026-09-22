@@ -26,10 +26,10 @@ function json(data, status = 200) {
 
 function supabaseConfig(env) {
   const url = String(env.SUPABASE_URL || "").replace(/\/$/, "");
-  const key = String(env.SUPABASE_SERVICE_ROLE_KEY || "").trim();
+  const key = String(env.SUPABASE_SECRET_KEY || "").trim();
   if (!url || !key) {
     const err = new Error(
-      "SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY is not configured on Cloudflare"
+      "SUPABASE_URL or SUPABASE_SECRET_KEY is not configured on Cloudflare"
     );
     err.status = 503;
     throw err;
@@ -38,9 +38,9 @@ function supabaseConfig(env) {
 }
 
 function sbHeaders(key, extra = {}) {
+  // Supabase sb_secret_* keys are opaque API keys, not JWTs.
   return {
     apikey: key,
-    Authorization: `Bearer ${key}`,
     "Content-Type": "application/json",
     ...extra,
   };
@@ -216,7 +216,7 @@ export async function onRequestPost(context) {
       {
         error:
           status === 503
-            ? "Newsletter storage is not configured. Add SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY in Cloudflare env."
+            ? "Newsletter storage is not configured. Add SUPABASE_URL and SUPABASE_SECRET_KEY in Cloudflare env."
             : "Could not subscribe. Try again.",
       },
       status
