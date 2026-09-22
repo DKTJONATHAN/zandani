@@ -633,10 +633,10 @@
     "d2ef75c947aface9ef9a5d93f1d256c5",
     "f878c2c73069359ce6513a4ff0eac7dc",
     "20f0ede759158594ef673cab76b6d1d4",
-    "607618d22c622556b72364092595cd6a"
+    "607618d22c622556b72364092595cd6a",
+    "157b5ab2633ea7b979d992fce17e7fd5"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -665,7 +665,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -883,7 +884,8 @@
     "https://kenyans.co.ke/news/127244-rubio-ruto-explore-us-kenya-critical-minerals-partnership",
     "https://kenyans.co.ke/news/127250-ministry-review-university-courses-ahead-cbet-rollout",
     "https://kenyans.co.ke/news/127253-cbk-proposes-new-rules-payment-providers-fintechs-and-digital-wallets",
-    "https://kenyans.co.ke/news/127254-dangote-cement-rules-out-new-plant-kenya-over-limestone-challenges"
+    "https://kenyans.co.ke/news/127254-dangote-cement-rules-out-new-plant-kenya-over-limestone-challenges",
+    "https://kenyans.co.ke/news/127260-dci-uncovers-fake-sha-registration-scheme-used-target-mobile-money-accounts"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1023,7 +1025,8 @@
     "backs raw mineral export ban exchange strategic processing deals",
     "state mounts late audit university degrees scramble december cbet rollout",
     "cbk treasury draft law caps digital wallet exposure single banks",
-    "geological bottlenecks reroute dangote cement expansion regional hubs"
+    "geological bottlenecks reroute dangote cement expansion regional hubs",
+    "dci cracks roving sha impersonation syndicate behind rural mobile money sim swaps"
   ],
   "topic_keys": [
     "news tracker",
@@ -1554,6 +1557,15 @@
       "structure": "Limestone constraint core -> Regional supply node reallocation (Ethiopia & Tanzania expansion details) -> Broader African capital pipeline -> Parallel pivot to the Lamu energy complex.",
       "source": "https://kenyans.co.ke/news/127254-dangote-cement-rules-out-new-plant-kenya-over-limestone-challenges",
       "published_at": "2026-09-22T09:04:12Z"
+    },
+    {
+      "title": "DCI Cracks Roving SHA Impersonation Syndicate Behind Rural Mobile Money SIM Swaps",
+      "angle": "The operational mechanics of how national healthcare onboarding was weaponised as an identity-harvesting front, transforming routine field-level registration requests into illicit SIM swaps that emptied rural and peri-urban digital wallets.",
+      "angle_type": "consequence",
+      "opening": "Hard news lead focusing on the cross-county exploitation of public health registration for digital wallet theft.",
+      "structure": "Hard news enforcement lead -> Geographic sweep and operational footprint -> Mechanics of the identity-to-SIM-swap pipeline -> Prior institutional warnings -> Mtwapa arrest and fugitive pursuit.",
+      "source": "https://kenyans.co.ke/news/127260-dci-uncovers-fake-sha-registration-scheme-used-target-mobile-money-accounts",
+      "published_at": "2026-09-22T10:02:54Z"
     }
   ]
 }
