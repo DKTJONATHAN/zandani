@@ -190,7 +190,8 @@ Deno.serve(async (req) => {
         source_url: sourceUrl,
         metadata: { engine: "newsroom-writer-v1" }
       }).select("id").single();
-      if (run.error || !run.data?.id) throw new Error(`automation_runs insert failed: ${run.error?.message || "unknown database error"}`);\n      runId = run.data.id;
+      if (run.error || !run.data?.id) throw new Error(`automation_runs insert failed: ${run.error?.message || "unknown database error"}`);
+      runId = run.data.id;
 
       const source = await scrape(sourceUrl);
       const sourceImages = source.images.filter((x:any) => !isBadImage(x.url, x.alt)).slice(0, 3);
