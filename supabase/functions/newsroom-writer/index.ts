@@ -164,8 +164,8 @@ Deno.serve(async (req) => {
           if (!href || candidates.includes(href)) return;
           try {
             const u = new URL(href);
-            if (u.hostname.replace(/^www\\./, "") !== "kenyans.co.ke") return;
-            if (/\\/news\\//i.test(u.pathname) && !/\\/category\\/|\\/tag\\//i.test(u.pathname)) candidates.push(u.toString());
+            if (u.hostname.replace(/^www\./, "") !== "kenyans.co.ke") return;
+            if (/\/news\//i.test(u.pathname) && !/\/category\/|\/tag\//i.test(u.pathname)) candidates.push(u.toString());
           } catch {}
         };
 
@@ -194,7 +194,7 @@ Deno.serve(async (req) => {
                 } catch {}
               }
               const description = item.querySelector("description")?.textContent || "";
-              for (const m of description.matchAll(/https?:\\/\\/www\\.kenyans\\.co\\.ke\\/news\\/[^<\\s&]+/gi)) addCandidate(m[0]);
+              for (const m of description.matchAll(/https?:\/\/www\.kenyans\.co\.ke\/news\/[^<\s&]+/gi)) addCandidate(m[0]);
               if (candidates.length >= 30) break;
             }
           } catch (e) {
@@ -313,12 +313,12 @@ Deno.serve(async (req) => {
       const ogImage = hosted[0]?.hosted_url || hosted[0]?.url || "";
       const bodyImages = hosted.slice(1, 3);
       if (bodyImages.length) {
-        const paras = markdown.split(/\\n\\s*\\n/);
+        const paras = markdown.split(/\n\s*\n/);
         const inserts = bodyImages.map((x:any) => `![${clean(x.alt || "Za Ndani image", 180)}](${x.hosted_url || x.url})`);
         if (paras.length > 3) {
           paras.splice(Math.max(2, Math.floor(paras.length / 3)), 0, inserts[0]);
           if (inserts[1]) paras.splice(Math.max(4, Math.floor(paras.length * 2 / 3)), 0, inserts[1]);
-          markdown = paras.join("\\n\\n");
+          markdown = paras.join("\n\n");
         }
       }
       if (!title || markdown.split(/\s+/).length < 220) throw new Error("editorial output failed quality gate");
