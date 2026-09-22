@@ -1,17 +1,16 @@
-const GITHUB_OWNER = "DKTJONATHAN";
-const GITHUB_REPO = "zandani";
-const GITHUB_BRANCH = "main";
-const SUBS_PATH = "data/subscribers.json";
 const SITE = "https://zandani.co.ke";
 
 function validEmail(raw) {
   const email = String(raw || "").trim().toLowerCase();
+  if (email.length > 254) return "";
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) ? email : "";
 }
 
 function corsHeaders() {
   return {
     "Access-Control-Allow-Origin": SITE,
+    "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type",
     "Cache-Control": "no-store",
   };
 }
@@ -23,57 +22,48 @@ function json(data, status = 200) {
   });
 }
 
-function ghHeaders(env) {
-  const token = env.PERSONAL_GITHUB_TOKEN;
-  if (!token) {
-    const err = new Error("PERSONAL_GITHUB_TOKEN is not configured");
+function supabaseConfig(env) {
+  const url = String(env.SUPABASE_URL || "").replace(/\/$/, "");
+  const key = String(env.SUPABASE_SERVICE_ROLE_KEY || "").trim();
+  if (!url || !key) {
+    const err = new Error(
+      "SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY is not configured on Cloudflare"
+    );
     err.status = 503;
     throw err;
   }
-  return {
-    Authorization: `Bearer ${token}`,
-    Accept: "application/vnd.github+json",
-    "X-GitHub-Api-Version": "2022-11-28",
-    "Content-Type": "application/json",
-    "User-Agent": "zandani-unsubscribe",
-  };
+  return { url, key };
 }
 
-function toBase64(str) {
-  return btoa(unescape(encodeURIComponent(str)));
+function sbHeaders(key, extra = {}) {
+  return {
+    apikey: key,
+    Authorization: `Bearer ${key}`,
+    "Content-Type": "application/json",
+    ...extra,
+  };
 }
 
 async function deactivate(env, email) {
-  const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${SUBS_PATH}?ref=${GITHUB_BRANCH}`;
-  const getRes = await fetch(url, { headers: ghHeaders(env) });
-  if (getRes.status === 404) return;
-  const data = await getRes.json();
-  if (!getRes.ok) throw new Error(data.message || "GitHub read failed");
-  const parsed = JSON.parse(atob(String(data.content || "").replace(/\n/g, "")));
-  const list = Array.isArray(parsed.subscribers) ? parsed.subscribers : [];
-  let changed = false;
-  const next = list.map((row) => {
-    if (String(row.email || "").toLowerCase() !== email) return row;
-    if (row.active === false) return row;
-    changed = true;
-    return { ...row, active: false, unsubscribed_at: new Date().toISOString() };
-  });
-  if (!changed) return;
-  const payload = {
-    message: "newsletter: unsubscribe",
-    branch: GITHUB_BRANCH,
-    sha: data.sha,
-    content: toBase64(
-      JSON.stringify({ updated: new Date().toISOString(), subscribers: next }, null, 2) + "\n"
-    ),
-  };
-  const put = await fetch(
-    `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${SUBS_PATH}`,
-    { method: "PUT", headers: ghHeaders(env), body: JSON.stringify(payload) }
+  const { url, key } = supabaseConfig(env);
+  const now = new Date().toISOString();
+  const res = await fetch(
+    `${url}/rest/v1/newsletter_subscribers?email=eq.${encodeURIComponent(email)}`,
+    {
+      method: "PATCH",
+      headers: sbHeaders(key, { Prefer: "return=minimal" }),
+      body: JSON.stringify({
+        active: false,
+        unsubscribed_at: now,
+        updated_at: now,
+      }),
+    }
   );
-  if (!put.ok) {
-    const body = await put.json().catch(() => ({}));
-    throw new Error(body.message || "GitHub write failed");
+  if (!res.ok && res.status !== 404) {
+    const body = await res.text().catch(() => "");
+    const err = new Error(`Supabase unsubscribe failed: ${res.status} ${body}`);
+    err.status = res.status;
+    throw err;
   }
 }
 
@@ -99,33 +89,51 @@ function thanksPage() {
 async function handle(context) {
   const { request, env } = context;
   const url = new URL(request.url);
-  let email = validEmail(url.searchParams.get("email"));
-  if (!email && request.method === "POST") {
+  let email = validEmail(url.searchParams.get("email") || "");
+
+  if (request.method === "POST") {
     try {
-      const body = await request.json();
-      email = validEmail(body?.email);
+      const body = await request.json().catch(() => ({}));
+      email = validEmail(body?.email) || email;
     } catch {
       /* ignore */
     }
   }
-  if (!email) return json({ error: "Missing email" }, 400);
+
+  if (!email) {
+    if (request.method === "GET") {
+      return new Response(thanksPage(), {
+        status: 400,
+        headers: { "Content-Type": "text/html; charset=utf-8", ...corsHeaders() },
+      });
+    }
+    return json({ error: "Missing email." }, 400);
+  }
 
   try {
     await deactivate(env, email);
-  } catch (e) {
-    console.error("unsubscribe", e);
+  } catch (error) {
+    console.error("unsubscribe", error);
+    if (request.method === "GET") {
+      return new Response(thanksPage(), {
+        status: 200,
+        headers: { "Content-Type": "text/html; charset=utf-8", ...corsHeaders() },
+      });
+    }
+    return json({ error: "Could not unsubscribe." }, 500);
   }
 
   if (request.method === "GET") {
     return new Response(thanksPage(), {
       status: 200,
-      headers: {
-        ...corsHeaders(),
-        "Content-Type": "text/html; charset=utf-8",
-      },
+      headers: { "Content-Type": "text/html; charset=utf-8", ...corsHeaders() },
     });
   }
-  return json({ ok: true });
+  return json({ ok: true, message: "Unsubscribed." });
+}
+
+export async function onRequestOptions() {
+  return new Response(null, { status: 204, headers: corsHeaders() });
 }
 
 export async function onRequestGet(context) {
