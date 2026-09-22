@@ -9,6 +9,15 @@ on:
   schedule:
     - cron: "7 16 * * *"
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "What should this manual run send?"
+        required: true
+        default: digest
+        type: choice
+        options:
+          - digest
+          - welcome-all
 
 concurrency:
   group: evening-brief
