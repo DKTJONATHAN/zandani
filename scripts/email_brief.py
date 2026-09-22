@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Za Ndani story brief via Resend.
 
-Subscribers live in data/subscribers.json. Send layer is Resend
+Subscribers live in Supabase `newsletter_subscribers`. Send layer is Resend
 (RESEND_API_KEY). Do not print full addresses in logs.
 
 HTTP uses curl (available on GitHub Actions runners). Python urllib
@@ -25,7 +25,7 @@ EAT = timezone(timedelta(hours=3))
 SITE = "https://zandani.co.ke"
 LOGO = f"{SITE}/logo.png"
 POSTS = pathlib.Path("content/posts")
-SUBS_FILE = pathlib.Path("data/subscribers.json")
+SUPABASE_REST = "/rest/v1/newsletter_subscribers"
 RESEND = "https://api.resend.com"
 FROM_DEFAULT = "Za Ndani <onboarding@resend.dev>"
 
@@ -352,13 +352,44 @@ def from_addr() -> str:
 
 
 def list_contacts() -> list[str]:
-    if not SUBS_FILE.exists():
-        print("no subscribers file")
-        return []
-    data = json.loads(SUBS_FILE.read_text(encoding="utf-8"))
+    base = (os.environ.get("SUPABASE_URL") or "").strip().rstrip("/")
+    key = (os.environ.get("SUPABASE_SERVICE_ROLE_KEY") or "").strip()
+    if not base or not key:
+        raise RuntimeError("SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY are required")
+    url = f"{base}{SUPABASE_REST}"
+    query = urllib.parse.urlencode({
+        "select": "email",
+        "is_active": "eq.true",
+        "order": "subscribed_at.asc",
+    })
+    cmd = [
+        "curl", "-sS", "--fail-with-body",
+        url + "?" + query,
+        "-H", f"apikey: {key}",
+        "-H", f"Authorization: Bearer {key}",
+        "-H", "Accept: application/json",
+        "-H", "User-Agent: zandani-brief/3.0 (+https://zandani.co.ke)",
+    ]
+    try:
+        completed = subprocess.run(
+            cmd,
+            capture_output=True,
+            text=True,
+            timeout=30,
+            check=False,
+        )
+    except FileNotFoundError as e:
+        raise RuntimeError("curl is required to read Supabase") from e
+    if completed.returncode != 0:
+        detail = (completed.stderr or completed.stdout or "Supabase request failed").strip()
+        raise RuntimeError(f"Supabase subscriber read failed: {detail[:500]}")
+    try:
+        rows = json.loads(completed.stdout or "[]")
+    except json.JSONDecodeError as e:
+        raise RuntimeError("Supabase returned invalid subscriber JSON") from e
     out: list[str] = []
-    for row in data.get("subscribers") or []:
-        if not isinstance(row, dict) or row.get("active") is False:
+    for row in rows if isinstance(rows, list) else []:
+        if not isinstance(row, dict):
             continue
         em = parseaddr(str(row.get("email") or ""))[1].lower().strip()
         if "@" in em and "." in em.split("@")[-1]:
