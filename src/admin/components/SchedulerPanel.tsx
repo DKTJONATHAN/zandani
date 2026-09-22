@@ -107,7 +107,7 @@ export function SchedulerPanel() {
               <span className={isPrimary ? "text-emerald-400" : "text-amber-400"}>
                 {isPrimary ? "PRIMARY" : "STANDBY"}
               </span>
-              {" "}(GitHub Actions cron remains as fallback)
+              {" "}(server scheduler)
             </p>
           </div>
           <button
