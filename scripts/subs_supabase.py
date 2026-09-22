@@ -1,4 +1,4 @@
-"""Load active newsletter emails from Supabase (service role)."""
+"""Load active newsletter emails from Supabase using the server secret key."""
 from __future__ import annotations
 
 import json
@@ -10,7 +10,7 @@ from email.utils import parseaddr
 
 def list_active_emails() -> list[str]:
     url = (os.environ.get("SUPABASE_URL") or "").strip().rstrip("/")
-    key = (os.environ.get("SUPABASE_SERVICE_ROLE_KEY") or "").strip()
+    key = (os.environ.get("SUPABASE_SECRET_KEY") or os.environ.get("SUPABASE_SERVICE_ROLE_KEY") or "").strip()
     if not url or not key:
         return []
 
@@ -33,8 +33,6 @@ def list_active_emails() -> list[str]:
             "-sS",
             "-H",
             f"apikey: {key}",
-            "-H",
-            f"Authorization: Bearer {key}",
             "-H",
             "Accept: application/json",
             "-w",
