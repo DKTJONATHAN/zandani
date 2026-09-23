@@ -651,10 +651,10 @@
     "435d17fa46e3ce357cd97ede08e5e5bb",
     "328b1f952071b2c2122bfe45d2dae137",
     "0446737aca65b2cda8e9114382d9ae2c",
-    "e2d66e36b09e2096730eaa5f7948aadc"
+    "e2d66e36b09e2096730eaa5f7948aadc",
+    "18663f49c9e0737eb5517aa13ca532d8"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -683,7 +683,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -919,7 +920,8 @@
     "https://kenyans.co.ke/news/127284-kenya-establishes-new-diplomatic-relationship-solomon-islands",
     "https://kenyans.co.ke/news/127287-kma-warns-coastal-residents-rough-seas-september-december",
     "https://kenyans.co.ke/news/127286-nssf-explains-what-determines-interest-rate-members-savings",
-    "https://kenyans.co.ke/news/127289-helb-urges-students-correct-wrong-institution-details-disbursement"
+    "https://kenyans.co.ke/news/127289-helb-urges-students-correct-wrong-institution-details-disbursement",
+    "https://kenyans.co.ke/news/127294-kenha-plans-6-culverts-canal-upgrade-along-james-gichuru-jkia-highway"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1077,7 +1079,8 @@
     "bypasses proxy pacific ties direct solomon islands pact",
     "mombasa rushes clear drains restrict site mixing rough seas warning takes effect",
     "nssf temper return expectations balance sheet reaches ksh572 billion",
-    "helb closes correction window student transfers risk loan disqualification"
+    "helb closes correction window student transfers risk loan disqualification",
+    "kenha rushes canal lining culvert works corridor ahead october rains"
   ],
   "topic_keys": [
     "news tracker",
@@ -1770,6 +1773,15 @@
       "structure": "Operational lockout lead -> Transfer friction and administrative window details -> First-time TVET confirmation criteria -> Practical consequences of missed corrections.",
       "source": "https://kenyans.co.ke/news/127289-helb-urges-students-correct-wrong-institution-details-disbursement",
       "published_at": "2026-09-23T12:02:08Z"
+    },
+    {
+      "title": "KeNHA Rushes Canal Lining and Culvert Works on A8 Corridor Ahead of October Rains",
+      "angle": "The practical engineering and community friction of executing major stormwater interventions in dense, flood-prone informal settlements right before the October\u2013December rains.",
+      "angle_type": "practical change",
+      "opening": "Operational-pressure lead highlighting the race against the upcoming October-December rains in flood-prone corridors.",
+      "structure": "Practical change lead -> Engineering specifics (canal lining, box culverts, Ngong River) -> Community stakeholder friction and coordination -> Municipal multi-agency context -> Concrete closing on seasonal weather deadline.",
+      "source": "https://kenyans.co.ke/news/127294-kenha-plans-6-culverts-canal-upgrade-along-james-gichuru-jkia-highway",
+      "published_at": "2026-09-23T13:02:15Z"
     }
   ]
 }
