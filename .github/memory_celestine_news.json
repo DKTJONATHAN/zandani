@@ -645,10 +645,10 @@
     "1271ff16d39dbccc2b446e792d098d7b",
     "636123b5f47f5dbdc3b33e42af81689a",
     "e98ccb7309861c73b81c4c1b6ad7e886",
-    "63bbe063fee1f394a209708656dea107"
+    "63bbe063fee1f394a209708656dea107",
+    "81af2b1360052b537010dc0653b78346"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -677,7 +677,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -907,7 +908,8 @@
     "https://kenyans.co.ke/news/127268-kra-explains-why-businesses-will-now-wait-longer-get-back-vat-unpaid-bills",
     "https://kenyans.co.ke/news/127278-lpg-prices-set-rise-kenya-global-propane-butane-costs-jump",
     "https://kenyans.co.ke/news/127277-ruto-calls-overhaul-80-year-old-un-and-global-financial-system",
-    "https://kenyans.co.ke/news/127280-eacc-wins-case-against-homa-bay-employee-over-ksh708664-double-pay"
+    "https://kenyans.co.ke/news/127280-eacc-wins-case-against-homa-bay-employee-over-ksh708664-double-pay",
+    "https://kenyans.co.ke/news/127281-court-orders-tsc-deduct-september-agency-fees-jss-teachers"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1059,7 +1061,8 @@
     "businesses face longer cash flow squeeze under kra year bad debt vat rule",
     "cooking gas shock catches weeks before ksh16b mombasa terminal ready",
     "ruto pivots global reform push debt guarantees gigiri expansion",
-    "system partitions shield homa bay payroll managers court orders clerk refund cash"
+    "system partitions shield homa bay payroll managers court orders clerk refund cash",
+    "court order locks september payroll deductions jss teachers under union truce"
   ],
   "topic_keys": [
     "news tracker",
@@ -1698,6 +1701,15 @@
       "structure": "Systemic loophole lead -> Factual breakdown of the refund order -> Structural gap core (manual vs IPPD division) -> Systemic implications for the wider Ksh42 million payroll probe -> Concrete forward edge on public sector accountability.",
       "source": "https://kenyans.co.ke/news/127280-eacc-wins-case-against-homa-bay-employee-over-ksh708664-double-pay",
       "published_at": "2026-09-23T07:01:55Z"
+    },
+    {
+      "title": "Court Order Locks In September Payroll Deductions for JSS Teachers Under Union Truce",
+      "angle": "The operational disconnect between a top-level legal compromise (consent order) brokered between KNUT and KUPPET and the fierce grassroots resistance from teachers and local union branches who claim they are being forcibly migrated into paying these dues.",
+      "angle_type": "practical change",
+      "opening": "Payroll-impact lead establishing how a top-level legal compromise is translating into immediate automatic salary deductions for JSS teachers.",
+      "structure": "Practical deduction core -> The legal and consent order mechanics -> The grassroots branch friction vs. national headquarters -> Broader structural division -> Compliance timeline next steps.",
+      "source": "https://kenyans.co.ke/news/127281-court-orders-tsc-deduct-september-agency-fees-jss-teachers",
+      "published_at": "2026-09-23T08:01:57Z"
     }
   ]
 }
