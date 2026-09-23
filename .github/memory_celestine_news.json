@@ -654,10 +654,10 @@
     "e2d66e36b09e2096730eaa5f7948aadc",
     "18663f49c9e0737eb5517aa13ca532d8",
     "786517678d8451961a798d0755e77f59",
-    "42f323254bdc3c827112c972312698fb"
+    "42f323254bdc3c827112c972312698fb",
+    "dcd667939086379b2578dd6f38ee5752"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -686,7 +686,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -925,7 +926,8 @@
     "https://kenyans.co.ke/news/127289-helb-urges-students-correct-wrong-institution-details-disbursement",
     "https://kenyans.co.ke/news/127294-kenha-plans-6-culverts-canal-upgrade-along-james-gichuru-jkia-highway",
     "https://kenyans.co.ke/news/127295-un-chief-guterres-backs-rutos-push-permanent-african-seat-un-security-council",
-    "https://kenyans.co.ke/news/127298-bolt-partners-red-cross-train-boda-boda-riders-emergency-response"
+    "https://kenyans.co.ke/news/127298-bolt-partners-red-cross-train-boda-boda-riders-emergency-response",
+    "https://kenyans.co.ke/news/127299-dcp-rules-out-joining-ukombozi-alliance-plans-coalition-sifuna"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1086,7 +1088,8 @@
     "helb closes correction window student transfers risk loan disqualification",
     "kenha rushes canal lining culvert works corridor ahead october rains",
     "guterres backs ruto africa links peacekeeping leverage security council veto demand",
-    "when first scene can finally help inside boda boda first aid drive"
+    "when first scene can finally help inside boda boda first aid drive",
+    "malala dcp sets two tier hurdle opposition coalitions ahead 2027"
   ],
   "topic_keys": [
     "news tracker",
@@ -1806,6 +1809,15 @@
       "structure": "Operational transformation lead -> Four-hour training mechanics and certification limits -> Rider testimonies on past helplessness and psychological impact -> Expansion plans and future rider demands",
       "source": "https://kenyans.co.ke/news/127298-bolt-partners-red-cross-train-boda-boda-riders-emergency-response",
       "published_at": "2026-09-23T15:02:14Z"
+    },
+    {
+      "title": "Malala\u2019s DCP Sets Two-Tier Hurdle for Opposition Coalitions Ahead of 2027",
+      "angle": "The multi-tiered bargaining leverage game: examining how DCP's demand to negotiate as an already-merged bloc with Sifuna and Linda Mwananchi fundamentally alters the opposition's internal pre-2027 coalition architecture.",
+      "angle_type": "institutional pressure",
+      "opening": "Negotiation-leverage lead focusing on the two-stage coalition hurdle introduced by DCP's refusal to merge directly into TUA.",
+      "structure": "Bargaining leverage lead -> Factual breakdown of Malala's two-step coalition plan -> Context of TUA's recent rebranding from Azimio -> The unconfirmed Sifuna faction positioning -> 2027 single presidential candidate calculus.",
+      "source": "https://kenyans.co.ke/news/127299-dcp-rules-out-joining-ukombozi-alliance-plans-coalition-sifuna",
+      "published_at": "2026-09-23T16:02:20Z"
     }
   ]
 }
