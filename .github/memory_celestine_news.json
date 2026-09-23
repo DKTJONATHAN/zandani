@@ -644,10 +644,10 @@
     "34faeb63bbe96262f5bdcea7fe177728",
     "1271ff16d39dbccc2b446e792d098d7b",
     "636123b5f47f5dbdc3b33e42af81689a",
-    "e98ccb7309861c73b81c4c1b6ad7e886"
+    "e98ccb7309861c73b81c4c1b6ad7e886",
+    "63bbe063fee1f394a209708656dea107"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Desk Take",
     "Statement Report",
@@ -676,7 +676,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -905,7 +906,8 @@
     "https://kenyans.co.ke/news/127273-ncic-summons-mps-didmus-barasa-john-ariko-over-public-remarks",
     "https://kenyans.co.ke/news/127268-kra-explains-why-businesses-will-now-wait-longer-get-back-vat-unpaid-bills",
     "https://kenyans.co.ke/news/127278-lpg-prices-set-rise-kenya-global-propane-butane-costs-jump",
-    "https://kenyans.co.ke/news/127277-ruto-calls-overhaul-80-year-old-un-and-global-financial-system"
+    "https://kenyans.co.ke/news/127277-ruto-calls-overhaul-80-year-old-un-and-global-financial-system",
+    "https://kenyans.co.ke/news/127280-eacc-wins-case-against-homa-bay-employee-over-ksh708664-double-pay"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1056,7 +1058,8 @@
     "ncic deploys sweeping act provisions twin summons barasa naimot",
     "businesses face longer cash flow squeeze under kra year bad debt vat rule",
     "cooking gas shock catches weeks before ksh16b mombasa terminal ready",
-    "ruto pivots global reform push debt guarantees gigiri expansion"
+    "ruto pivots global reform push debt guarantees gigiri expansion",
+    "system partitions shield homa bay payroll managers court orders clerk refund cash"
   ],
   "topic_keys": [
     "news tracker",
@@ -1686,6 +1689,15 @@
       "structure": "Factual core of the New York summit -> Mechanics of the demanded financial pivot (debt vs. guarantees) -> Geopolitical leverage (UNSC seats & Gigiri land acquisition) -> Broader institutional backing and future pressure points.",
       "source": "https://kenyans.co.ke/news/127277-ruto-calls-overhaul-80-year-old-un-and-global-financial-system",
       "published_at": "2026-09-23T06:01:39Z"
+    },
+    {
+      "title": "System Partitions Shield Homa Bay Payroll Managers as Court Orders Clerk to Refund Cash",
+      "angle": "The administrative and system accountability loophole: highlighting how partitioned systems (manual payroll vs. IPPD) and administrative transitions legally shielded payroll managers from liability, leaving only the individual recipient on the hook and exposing hurdles in the larger Ksh42 million fraud probe.",
+      "angle_type": "accountability",
+      "opening": "An accountability-driven lead highlighting how the double-pay refund order exposes structural system loopholes that shield county administrators.",
+      "structure": "Systemic loophole lead -> Factual breakdown of the refund order -> Structural gap core (manual vs IPPD division) -> Systemic implications for the wider Ksh42 million payroll probe -> Concrete forward edge on public sector accountability.",
+      "source": "https://kenyans.co.ke/news/127280-eacc-wins-case-against-homa-bay-employee-over-ksh708664-double-pay",
+      "published_at": "2026-09-23T07:01:55Z"
     }
   ]
 }
