@@ -43,7 +43,8 @@
     "6e93a30691b5cdd14260742d6ecd26a24b65c75850b7a7c65d78fb9b997ef4ff",
     "8ddc704a795bc317c9ae78bfbc2c1a420118dce78b0e5fd07bf64c3d50eb098b",
     "e5da746f54073426c50eae5dd437167dc1b6552424d5f52ebedeedb09e338b4f",
-    "ca1557889cde6edb4108575ee6e2068ed6765584d907ac9a77b09d09bbc67649"
+    "ca1557889cde6edb4108575ee6e2068ed6765584d907ac9a77b09d09bbc67649",
+    "9b3e41107b3f809b6786b4e7eb6e04b75e88daaf8df1b869de80c10c5a8bc288"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -89,7 +90,8 @@
     "https://www.ghafla.co.ke/danstan-omari-explains-why-obado-could-compensate-sharon-otienos-family-and-still-go-to-jail/",
     "https://www.ghafla.co.ke/from-legislation-to-execution-how-sha-and-10000-accredited-facilities-are-driving-universal-health-care/",
     "https://www.ghafla.co.ke/president-william-ruto-calls-for-reforms-to-reduce-africas-high-cost-of-debts/",
-    "https://www.ghafla.co.ke/raila-junior-inspects-late-fathers-memorial-site/"
+    "https://www.ghafla.co.ke/raila-junior-inspects-late-fathers-memorial-site/",
+    "https://www.ghafla.co.ke/okello-max-reveals-first-job-salary-and-school-struggles/"
   ],
   "published_angles": [
     {
@@ -427,6 +429,14 @@
       "opening": "Start directly with the specific architectural markers revealed in the TikTok walkthrough\u2014marble flooring and tiling\u2014rather than a passive summary of a social media post.",
       "structure": "Architectural and security walkthrough hook -> Details of the Siaya delegation and formal entourage -> Historical grounding at Kang'o Ka Jaramogi -> Close on the project's physical completion trajectory.",
       "source": "https://www.ghafla.co.ke/raila-junior-inspects-late-fathers-memorial-site/"
+    },
+    {
+      "title": "From a KSh 150 Kibanda Wage to Fuliza Humor: Inside Okello Max\u2019s Grinding Ascent",
+      "angle": "Contrast the stark reality of his KSh 150 daily kibanda wage and modern 'Fuliza consumer' humor against the glamorous surface of the entertainment industry.",
+      "angle_type": "economic reality and humble beginnings",
+      "opening": "Start directly with the specific wage figure and the kibanda shift before introducing the artist's current standing.",
+      "structure": "Wages hook -> Academic turnaround (primary to Homabay Boys) -> University communication pivot -> Digital economy reality (Fuliza joke) -> Close on career timeline.",
+      "source": "https://www.ghafla.co.ke/okello-max-reveals-first-job-salary-and-school-struggles/"
     }
   ],
   "style_history": [
