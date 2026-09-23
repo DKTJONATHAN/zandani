@@ -652,10 +652,10 @@
     "328b1f952071b2c2122bfe45d2dae137",
     "0446737aca65b2cda8e9114382d9ae2c",
     "e2d66e36b09e2096730eaa5f7948aadc",
-    "18663f49c9e0737eb5517aa13ca532d8"
+    "18663f49c9e0737eb5517aa13ca532d8",
+    "786517678d8451961a798d0755e77f59"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -684,7 +684,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -921,7 +922,8 @@
     "https://kenyans.co.ke/news/127287-kma-warns-coastal-residents-rough-seas-september-december",
     "https://kenyans.co.ke/news/127286-nssf-explains-what-determines-interest-rate-members-savings",
     "https://kenyans.co.ke/news/127289-helb-urges-students-correct-wrong-institution-details-disbursement",
-    "https://kenyans.co.ke/news/127294-kenha-plans-6-culverts-canal-upgrade-along-james-gichuru-jkia-highway"
+    "https://kenyans.co.ke/news/127294-kenha-plans-6-culverts-canal-upgrade-along-james-gichuru-jkia-highway",
+    "https://kenyans.co.ke/news/127295-un-chief-guterres-backs-rutos-push-permanent-african-seat-un-security-council"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1080,7 +1082,8 @@
     "mombasa rushes clear drains restrict site mixing rough seas warning takes effect",
     "nssf temper return expectations balance sheet reaches ksh572 billion",
     "helb closes correction window student transfers risk loan disqualification",
-    "kenha rushes canal lining culvert works corridor ahead october rains"
+    "kenha rushes canal lining culvert works corridor ahead october rains",
+    "guterres backs ruto africa links peacekeeping leverage security council veto demand"
   ],
   "topic_keys": [
     "news tracker",
@@ -1782,6 +1785,15 @@
       "structure": "Practical change lead -> Engineering specifics (canal lining, box culverts, Ngong River) -> Community stakeholder friction and coordination -> Municipal multi-agency context -> Concrete closing on seasonal weather deadline.",
       "source": "https://kenyans.co.ke/news/127294-kenha-plans-6-culverts-canal-upgrade-along-james-gichuru-jkia-highway",
       "published_at": "2026-09-23T13:02:15Z"
+    },
+    {
+      "title": "Guterres Backs Ruto as Africa Links Peacekeeping Leverage to Security Council Veto Demand",
+      "angle": "The structural and practical weight of veto-holding permanent representation versus peace-keeping burden-bearing, examining how Africa's disproportionate supply of peacekeepers intersects with total exclusion from high-level veto decisions.",
+      "angle_type": "institutional pressure",
+      "opening": "Institutional-pressure lead focusing on the operational contradiction between Africa providing peacekeepers and holding zero veto power.",
+      "structure": "Peacekeeping leverage lead -> Guterres' alignment with Ruto's structural demands -> Mechanics of Security Council composition and veto rights -> Implications for continental policy and global reform timeline.",
+      "source": "https://kenyans.co.ke/news/127295-un-chief-guterres-backs-rutos-push-permanent-african-seat-un-security-council",
+      "published_at": "2026-09-23T14:01:49Z"
     }
   ]
 }
