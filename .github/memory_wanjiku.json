@@ -47,7 +47,8 @@
     "9b3e41107b3f809b6786b4e7eb6e04b75e88daaf8df1b869de80c10c5a8bc288",
     "9c4d80027f1305d8f159f6a60e17cb623309e932cde9f48eb8991bd54678b84e",
     "cce326f97c27b1d7b4ac51db73562c59f2dd5c837d2f9bb54d01b8dc1b6dad5c",
-    "932b063c6795577069cc24bda884b941b88e8d5d5bae077d8e863a499dd2d3a7"
+    "932b063c6795577069cc24bda884b941b88e8d5d5bae077d8e863a499dd2d3a7",
+    "0c6d88aeb08a6c8876c05b878e70e25db9a09f60e38a3ec92f9fade4f4d6f775"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -97,7 +98,8 @@
     "https://www.ghafla.co.ke/okello-max-reveals-first-job-salary-and-school-struggles/",
     "https://www.ghafla.co.ke/tanzanian-fans-praise-charlene-ruto-as-she-attends-unga-in-new-york/",
     "https://www.ghafla.co.ke/eacc-warns-voters-against-ethnicity-and-bribes-ahead-of-2027-general-election/",
-    "https://www.ghafla.co.ke/victor-kanyari-admits-ministry-began-as-a-financial-decision-not-divine-calling/"
+    "https://www.ghafla.co.ke/victor-kanyari-admits-ministry-began-as-a-financial-decision-not-divine-calling/",
+    "https://www.ghafla.co.ke/who-is-lewis-uriri-the-zimbabwean-lawyer-who-turned-down-chivayos-ksh45-million-gift/"
   ],
   "published_angles": [
     {
@@ -467,6 +469,14 @@
       "opening": "Start directly with the mundane economic reality of the Kawangware hall and the shift from failed radio broadcasts to the specific KSh310 mobile-money math.",
       "structure": "Economic origin hook -> The Loitokitok-to-Nairobi background and mother's influence -> The scaling trials from KSh1,000 down to KSh310 -> The 2014 investigative aftermath and absence of formal police complainants.",
       "source": "https://www.ghafla.co.ke/victor-kanyari-admits-ministry-began-as-a-financial-decision-not-divine-calling/"
+    },
+    {
+      "title": "Advocate Lewis Uriri Walks Away From Wicknell Chivayo\u2019s KSh45 Million Luxury Gift Package",
+      "angle": "Examining the professional boundary drawn by a senior barrister who quietly walked away from a multi-million-shilling windfall by establishing that all historical legal services had already been paid in full.",
+      "angle_type": "professional boundary and rejection of high-value gifts",
+      "opening": "Personality lead opening directly on Advocate Dr Lewis Uriri turning down the multi-million-shilling gift package.",
+      "structure": "Rejection hook -> The specific monetary and vehicle valuation breakdown -> Uriri's professional pedigree (ICSID, Temple Bar, University of Zimbabwe) -> Historical political litigation context (Mnangagwa and Tshabangu cases) -> Concrete closing fact on the June 2024 communication gap.",
+      "source": "https://www.ghafla.co.ke/who-is-lewis-uriri-the-zimbabwean-lawyer-who-turned-down-chivayos-ksh45-million-gift/"
     }
   ],
   "style_history": [
