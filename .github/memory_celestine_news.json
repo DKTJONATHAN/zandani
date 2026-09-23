@@ -646,10 +646,10 @@
     "636123b5f47f5dbdc3b33e42af81689a",
     "e98ccb7309861c73b81c4c1b6ad7e886",
     "63bbe063fee1f394a209708656dea107",
-    "81af2b1360052b537010dc0653b78346"
+    "81af2b1360052b537010dc0653b78346",
+    "8b694f86941bef3dd613e797d09c444a"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -678,7 +678,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -909,7 +910,8 @@
     "https://kenyans.co.ke/news/127278-lpg-prices-set-rise-kenya-global-propane-butane-costs-jump",
     "https://kenyans.co.ke/news/127277-ruto-calls-overhaul-80-year-old-un-and-global-financial-system",
     "https://kenyans.co.ke/news/127280-eacc-wins-case-against-homa-bay-employee-over-ksh708664-double-pay",
-    "https://kenyans.co.ke/news/127281-court-orders-tsc-deduct-september-agency-fees-jss-teachers"
+    "https://kenyans.co.ke/news/127281-court-orders-tsc-deduct-september-agency-fees-jss-teachers",
+    "https://kenyans.co.ke/news/127279-passengers-trapped-dreamline-bus-crashes-trailer-along-nairobi-mombasa-highway"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1062,7 +1064,8 @@
     "cooking gas shock catches weeks before ksh16b mombasa terminal ready",
     "ruto pivots global reform push debt guarantees gigiri expansion",
     "system partitions shield homa bay payroll managers court orders clerk refund cash",
-    "court order locks september payroll deductions jss teachers under union truce"
+    "court order locks september payroll deductions jss teachers under union truce",
+    "police cruisers pressed medical duty bus collision shuts down taru highway stretch"
   ],
   "topic_keys": [
     "news tracker",
@@ -1710,6 +1713,15 @@
       "structure": "Practical deduction core -> The legal and consent order mechanics -> The grassroots branch friction vs. national headquarters -> Broader structural division -> Compliance timeline next steps.",
       "source": "https://kenyans.co.ke/news/127281-court-orders-tsc-deduct-september-agency-fees-jss-teachers",
       "published_at": "2026-09-23T08:01:57Z"
+    },
+    {
+      "title": "Police Cruisers Pressed Into Medical Duty as Bus Collision Shuts Down Taru Highway Stretch",
+      "angle": "Highlighting the practical emergency response bottleneck along rural stretches of Kenya's primary transport corridor, where police Land Cruisers were pressed into service as improvised ambulances to evacuate passengers trapped in the bus's premium front cabin.",
+      "angle_type": "practical change",
+      "opening": "Emergency-logistics lead highlighting how police utility vehicles were pressed into medical transport service following a crushed VIP cabin impact.",
+      "structure": "Emergency logistics lead -> Factual collision core and VIP compartment impact -> Trauma extraction and police utility transport -> Corridor freight patterns and recent Kapiti Plains incident -> Investigation status and traffic clearance.",
+      "source": "https://kenyans.co.ke/news/127279-passengers-trapped-dreamline-bus-crashes-trailer-along-nairobi-mombasa-highway",
+      "published_at": "2026-09-23T09:01:56Z"
     }
   ]
 }
