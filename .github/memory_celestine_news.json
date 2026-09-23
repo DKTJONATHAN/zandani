@@ -647,10 +647,10 @@
     "e98ccb7309861c73b81c4c1b6ad7e886",
     "63bbe063fee1f394a209708656dea107",
     "81af2b1360052b537010dc0653b78346",
-    "8b694f86941bef3dd613e797d09c444a"
+    "8b694f86941bef3dd613e797d09c444a",
+    "435d17fa46e3ce357cd97ede08e5e5bb"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -679,7 +679,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -911,7 +912,8 @@
     "https://kenyans.co.ke/news/127277-ruto-calls-overhaul-80-year-old-un-and-global-financial-system",
     "https://kenyans.co.ke/news/127280-eacc-wins-case-against-homa-bay-employee-over-ksh708664-double-pay",
     "https://kenyans.co.ke/news/127281-court-orders-tsc-deduct-september-agency-fees-jss-teachers",
-    "https://kenyans.co.ke/news/127279-passengers-trapped-dreamline-bus-crashes-trailer-along-nairobi-mombasa-highway"
+    "https://kenyans.co.ke/news/127279-passengers-trapped-dreamline-bus-crashes-trailer-along-nairobi-mombasa-highway",
+    "https://kenyans.co.ke/news/127284-kenya-establishes-new-diplomatic-relationship-solomon-islands"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1065,7 +1067,8 @@
     "ruto pivots global reform push debt guarantees gigiri expansion",
     "system partitions shield homa bay payroll managers court orders clerk refund cash",
     "court order locks september payroll deductions jss teachers under union truce",
-    "police cruisers pressed medical duty bus collision shuts down taru highway stretch"
+    "police cruisers pressed medical duty bus collision shuts down taru highway stretch",
+    "bypasses proxy pacific ties direct solomon islands pact"
   ],
   "topic_keys": [
     "news tracker",
@@ -1722,6 +1725,15 @@
       "structure": "Emergency logistics lead -> Factual collision core and VIP compartment impact -> Trauma extraction and police utility transport -> Corridor freight patterns and recent Kapiti Plains incident -> Investigation status and traffic clearance.",
       "source": "https://kenyans.co.ke/news/127279-passengers-trapped-dreamline-bus-crashes-trailer-along-nairobi-mombasa-highway",
       "published_at": "2026-09-23T09:01:56Z"
+    },
+    {
+      "title": "Kenya Bypasses Proxy Pacific Ties With Direct Solomon Islands Pact",
+      "angle": "Attribution-first examination of Kenya's strategic move to establish direct bilateral footprints in the Pacific beyond remote Canberra accreditation, targeting maritime blue-economy cooperation and multilateral climate leverage.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first lead detailing Prime CS Musalia Mudavadi's announcement and identifying the commercial and maritime sectors positioned to benefit.",
+      "structure": "Attribution lead on Pacific expansion -> Details of the Solomon Islands communiqu\u00e9 -> Shift from Canberra proxy accreditation to direct ties -> Multilateral synergy with Caribbean and Commonwealth talks",
+      "source": "https://kenyans.co.ke/news/127284-kenya-establishes-new-diplomatic-relationship-solomon-islands",
+      "published_at": "2026-09-23T10:01:14Z"
     }
   ]
 }
