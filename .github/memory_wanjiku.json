@@ -39,7 +39,8 @@
     "1b46d5acdd66d08a7c56b6a6c436ccc22fc3cfacc1049724622ebec780771636",
     "3328cc9305fd96d7a3a132566e7f5688f7eb1b3c123438b12654cb1ef4937cba",
     "2d33f90d700c5222db3984baea56dc0095de37ec8c79668b8f74be628da5a7fa",
-    "d7ad408ee8658a9cdd95bb6d19254f5579fdf00959272173132643d2ed16bd06"
+    "d7ad408ee8658a9cdd95bb6d19254f5579fdf00959272173132643d2ed16bd06",
+    "6e93a30691b5cdd14260742d6ecd26a24b65c75850b7a7c65d78fb9b997ef4ff"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -81,7 +82,8 @@
     "https://www.ghafla.co.ke/akothee-hits-back-at-critics-over-outfit-worn-with-luo-leaders/",
     "https://www.ghafla.co.ke/mike-sonko-adds-maserati-levante-to-his-expansive-luxury-car-collection/",
     "https://www.ghafla.co.ke/boundaries-and-public-office-omangas-school-attire-trend-sparks-debate-online/",
-    "https://www.ghafla.co.ke/from-subsidies-to-value-addition-how-four-years-of-reforms-are-reshaping-kenyas-tea-industry/"
+    "https://www.ghafla.co.ke/from-subsidies-to-value-addition-how-four-years-of-reforms-are-reshaping-kenyas-tea-industry/",
+    "https://www.ghafla.co.ke/danstan-omari-explains-why-obado-could-compensate-sharon-otienos-family-and-still-go-to-jail/"
   ],
   "published_angles": [
     {
@@ -387,6 +389,14 @@
       "opening": "Open directly on the financial gap between the government's lofty KSh 100 per kilo target and the actual numbers recorded in farmers' pockets.",
       "structure": "Payout discrepancy hook -> Fertilizer and machinery distribution metrics -> Export revenue versus green-leaf realities -> Value-addition incentives and packaging waivers -> Future regulatory and operational hurdles.",
       "source": "https://www.ghafla.co.ke/from-subsidies-to-value-addition-how-four-years-of-reforms-are-reshaping-kenyas-tea-industry/"
+    },
+    {
+      "title": "\u2018Mother Cannot Withdraw the Case\u2019: Danstan Omari Shuts Down Obado Settlement Talk on Obinna\u2019s Show",
+      "angle": "Framing the moment through Danstan Omari's studio appearance on Oga Obinna Live, where he dismantled the viral public assumption that Sharon Otieno's family's KSh 4.7 million compensation appeal and forgiveness could serve as an out-of-court settlement for the convicted former governor.",
+      "angle_type": "celebrity talk show legal reality check",
+      "opening": "Personality lead opening directly on Danstan Omari setting the record straight on Oga Obinna Live about the limits of victim forgiveness in capital convictions.",
+      "structure": "Studio hook on Obinna's show -> Omari's blunt quote on family settlement limits -> Breakdown of Sharon's family's KSh 4.7M plea and forgiveness -> Legal mechanics of state prosecution versus civil compensation -> July 2026 conviction backdrop with Oyamo and Obiero -> Closing note on pending judicial sentencing.",
+      "source": "https://www.ghafla.co.ke/danstan-omari-explains-why-obado-could-compensate-sharon-otienos-family-and-still-go-to-jail/"
     }
   ],
   "style_history": [
