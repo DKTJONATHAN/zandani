@@ -650,10 +650,10 @@
     "8b694f86941bef3dd613e797d09c444a",
     "435d17fa46e3ce357cd97ede08e5e5bb",
     "328b1f952071b2c2122bfe45d2dae137",
-    "0446737aca65b2cda8e9114382d9ae2c"
+    "0446737aca65b2cda8e9114382d9ae2c",
+    "e2d66e36b09e2096730eaa5f7948aadc"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -682,7 +682,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -917,7 +918,8 @@
     "https://kenyans.co.ke/news/127279-passengers-trapped-dreamline-bus-crashes-trailer-along-nairobi-mombasa-highway",
     "https://kenyans.co.ke/news/127284-kenya-establishes-new-diplomatic-relationship-solomon-islands",
     "https://kenyans.co.ke/news/127287-kma-warns-coastal-residents-rough-seas-september-december",
-    "https://kenyans.co.ke/news/127286-nssf-explains-what-determines-interest-rate-members-savings"
+    "https://kenyans.co.ke/news/127286-nssf-explains-what-determines-interest-rate-members-savings",
+    "https://kenyans.co.ke/news/127289-helb-urges-students-correct-wrong-institution-details-disbursement"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1074,7 +1076,8 @@
     "police cruisers pressed medical duty bus collision shuts down taru highway stretch",
     "bypasses proxy pacific ties direct solomon islands pact",
     "mombasa rushes clear drains restrict site mixing rough seas warning takes effect",
-    "nssf temper return expectations balance sheet reaches ksh572 billion"
+    "nssf temper return expectations balance sheet reaches ksh572 billion",
+    "helb closes correction window student transfers risk loan disqualification"
   ],
   "topic_keys": [
     "news tracker",
@@ -1758,6 +1761,15 @@
       "structure": "Yield distinction lead -> Clarification specifics and dividend rules -> Portfolio performance and asset base expansion -> Impact on 3.6 million contributors -> Forward edge on the Ksh1 trillion threshold.",
       "source": "https://kenyans.co.ke/news/127286-nssf-explains-what-determines-interest-rate-members-savings",
       "published_at": "2026-09-23T11:07:57Z"
+    },
+    {
+      "title": "HELB Closes Correction Window as Student Transfers Risk Loan Disqualification",
+      "angle": "The operational crunch and administrative rigidity students face when academic transfers or late admissions collide with immutable disbursement gates, turning a minor clerical error into total loan cancellation.",
+      "angle_type": "practical change",
+      "opening": "Practical-change lead highlighting the strict operational boundary between allocation-stage edits and disbursement lockouts.",
+      "structure": "Operational lockout lead -> Transfer friction and administrative window details -> First-time TVET confirmation criteria -> Practical consequences of missed corrections.",
+      "source": "https://kenyans.co.ke/news/127289-helb-urges-students-correct-wrong-institution-details-disbursement",
+      "published_at": "2026-09-23T12:02:08Z"
     }
   ]
 }
