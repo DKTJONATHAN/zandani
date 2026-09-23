@@ -655,10 +655,10 @@
     "18663f49c9e0737eb5517aa13ca532d8",
     "786517678d8451961a798d0755e77f59",
     "42f323254bdc3c827112c972312698fb",
-    "dcd667939086379b2578dd6f38ee5752"
+    "dcd667939086379b2578dd6f38ee5752",
+    "0c10bb25c4dfc4ba2c921d3eb6139610"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -687,7 +687,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -927,7 +928,8 @@
     "https://kenyans.co.ke/news/127294-kenha-plans-6-culverts-canal-upgrade-along-james-gichuru-jkia-highway",
     "https://kenyans.co.ke/news/127295-un-chief-guterres-backs-rutos-push-permanent-african-seat-un-security-council",
     "https://kenyans.co.ke/news/127298-bolt-partners-red-cross-train-boda-boda-riders-emergency-response",
-    "https://kenyans.co.ke/news/127299-dcp-rules-out-joining-ukombozi-alliance-plans-coalition-sifuna"
+    "https://kenyans.co.ke/news/127299-dcp-rules-out-joining-ukombozi-alliance-plans-coalition-sifuna",
+    "https://kenyans.co.ke/news/127292-kra-confirms-extension-refund-processing-period-90-120-days"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1089,7 +1091,8 @@
     "kenha rushes canal lining culvert works corridor ahead october rains",
     "guterres backs ruto africa links peacekeeping leverage security council veto demand",
     "when first scene can finally help inside boda boda first aid drive",
-    "malala dcp sets two tier hurdle opposition coalitions ahead 2027"
+    "malala dcp sets two tier hurdle opposition coalitions ahead 2027",
+    "kra extends tax refund wait 120 days audit backlog pushes timelines out"
   ],
   "topic_keys": [
     "news tracker",
@@ -1818,6 +1821,15 @@
       "structure": "Bargaining leverage lead -> Factual breakdown of Malala's two-step coalition plan -> Context of TUA's recent rebranding from Azimio -> The unconfirmed Sifuna faction positioning -> 2027 single presidential candidate calculus.",
       "source": "https://kenyans.co.ke/news/127299-dcp-rules-out-joining-ukombozi-alliance-plans-coalition-sifuna",
       "published_at": "2026-09-23T16:02:20Z"
+    },
+    {
+      "title": "KRA Extends Tax Refund Wait to 120 Days as Audit Backlog Pushes Timelines Out",
+      "angle": "The operational impact and timeline shift for taxpayers who are caught past the previous 90-day expectation, and the internal conditions (audits, tax types) that dictate whether a claim moves or stalls.",
+      "angle_type": "practical change",
+      "opening": "Practical-change lead highlighting the extended wait window and the liquidity pressure it places on applicants.",
+      "structure": "Operational timeline lead -> Mechanics of the 120-day threshold -> Variables driving the delay (audits and tax types) -> Implications for taxpayer liquidity -> Forward edge on processing milestones.",
+      "source": "https://kenyans.co.ke/news/127292-kra-confirms-extension-refund-processing-period-90-120-days",
+      "published_at": "2026-09-23T17:02:37Z"
     }
   ]
 }
