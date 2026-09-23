@@ -649,10 +649,10 @@
     "81af2b1360052b537010dc0653b78346",
     "8b694f86941bef3dd613e797d09c444a",
     "435d17fa46e3ce357cd97ede08e5e5bb",
-    "328b1f952071b2c2122bfe45d2dae137"
+    "328b1f952071b2c2122bfe45d2dae137",
+    "0446737aca65b2cda8e9114382d9ae2c"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -681,7 +681,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -915,7 +916,8 @@
     "https://kenyans.co.ke/news/127281-court-orders-tsc-deduct-september-agency-fees-jss-teachers",
     "https://kenyans.co.ke/news/127279-passengers-trapped-dreamline-bus-crashes-trailer-along-nairobi-mombasa-highway",
     "https://kenyans.co.ke/news/127284-kenya-establishes-new-diplomatic-relationship-solomon-islands",
-    "https://kenyans.co.ke/news/127287-kma-warns-coastal-residents-rough-seas-september-december"
+    "https://kenyans.co.ke/news/127287-kma-warns-coastal-residents-rough-seas-september-december",
+    "https://kenyans.co.ke/news/127286-nssf-explains-what-determines-interest-rate-members-savings"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1071,7 +1073,8 @@
     "court order locks september payroll deductions jss teachers under union truce",
     "police cruisers pressed medical duty bus collision shuts down taru highway stretch",
     "bypasses proxy pacific ties direct solomon islands pact",
-    "mombasa rushes clear drains restrict site mixing rough seas warning takes effect"
+    "mombasa rushes clear drains restrict site mixing rough seas warning takes effect",
+    "nssf temper return expectations balance sheet reaches ksh572 billion"
   ],
   "topic_keys": [
     "news tracker",
@@ -1746,6 +1749,15 @@
       "structure": "Municipal mitigation lead -> Maritime advisory rules and emergency contacts -> Active flood zones and county labor mobilization -> Construction site restrictions -> Forward operational close.",
       "source": "https://kenyans.co.ke/news/127287-kma-warns-coastal-residents-rough-seas-september-december",
       "published_at": "2026-09-23T11:01:55Z"
+    },
+    {
+      "title": "NSSF Temper Return Expectations as Balance Sheet Reaches Ksh572 Billion",
+      "angle": "Framing the clarification around financial yield mechanics and portfolio expansion, contrasting contributor expectations of predictable returns against NSSF's variable 22 per cent market performance across a Ksh572 billion balance sheet pursuing a Ksh1 trillion state target.",
+      "angle_type": "money",
+      "opening": "Yield-mechanics lead distinguishing variable market payouts from fixed annuity assumptions.",
+      "structure": "Yield distinction lead -> Clarification specifics and dividend rules -> Portfolio performance and asset base expansion -> Impact on 3.6 million contributors -> Forward edge on the Ksh1 trillion threshold.",
+      "source": "https://kenyans.co.ke/news/127286-nssf-explains-what-determines-interest-rate-members-savings",
+      "published_at": "2026-09-23T11:07:57Z"
     }
   ]
 }
