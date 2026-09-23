@@ -653,10 +653,10 @@
     "0446737aca65b2cda8e9114382d9ae2c",
     "e2d66e36b09e2096730eaa5f7948aadc",
     "18663f49c9e0737eb5517aa13ca532d8",
-    "786517678d8451961a798d0755e77f59"
+    "786517678d8451961a798d0755e77f59",
+    "42f323254bdc3c827112c972312698fb"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -685,7 +685,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -923,7 +924,8 @@
     "https://kenyans.co.ke/news/127286-nssf-explains-what-determines-interest-rate-members-savings",
     "https://kenyans.co.ke/news/127289-helb-urges-students-correct-wrong-institution-details-disbursement",
     "https://kenyans.co.ke/news/127294-kenha-plans-6-culverts-canal-upgrade-along-james-gichuru-jkia-highway",
-    "https://kenyans.co.ke/news/127295-un-chief-guterres-backs-rutos-push-permanent-african-seat-un-security-council"
+    "https://kenyans.co.ke/news/127295-un-chief-guterres-backs-rutos-push-permanent-african-seat-un-security-council",
+    "https://kenyans.co.ke/news/127298-bolt-partners-red-cross-train-boda-boda-riders-emergency-response"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1083,7 +1085,8 @@
     "nssf temper return expectations balance sheet reaches ksh572 billion",
     "helb closes correction window student transfers risk loan disqualification",
     "kenha rushes canal lining culvert works corridor ahead october rains",
-    "guterres backs ruto africa links peacekeeping leverage security council veto demand"
+    "guterres backs ruto africa links peacekeeping leverage security council veto demand",
+    "when first scene can finally help inside boda boda first aid drive"
   ],
   "topic_keys": [
     "news tracker",
@@ -1794,6 +1797,15 @@
       "structure": "Peacekeeping leverage lead -> Guterres' alignment with Ruto's structural demands -> Mechanics of Security Council composition and veto rights -> Implications for continental policy and global reform timeline.",
       "source": "https://kenyans.co.ke/news/127295-un-chief-guterres-backs-rutos-push-permanent-african-seat-un-security-council",
       "published_at": "2026-09-23T14:01:49Z"
+    },
+    {
+      "title": "When the First on the Scene Can Finally Help: Inside the Boda Boda First Aid Drive",
+      "angle": "The operational reality of how riders transition from passive bystanders in traffic accidents to legally constrained first responders, including the limits of their training and demands for expanded mental health support.",
+      "angle_type": "practical change",
+      "opening": "Practical-change lead highlighting the operational shift of riders from stranded bystanders to trained first responders.",
+      "structure": "Operational transformation lead -> Four-hour training mechanics and certification limits -> Rider testimonies on past helplessness and psychological impact -> Expansion plans and future rider demands",
+      "source": "https://kenyans.co.ke/news/127298-bolt-partners-red-cross-train-boda-boda-riders-emergency-response",
+      "published_at": "2026-09-23T15:02:14Z"
     }
   ]
 }
