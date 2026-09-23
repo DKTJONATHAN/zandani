@@ -642,10 +642,10 @@
     "e6e0bfb474961c55bd16ef1883935857",
     "417aadc4cea0bff6d3f0ef60721c1d20",
     "34faeb63bbe96262f5bdcea7fe177728",
-    "1271ff16d39dbccc2b446e792d098d7b"
+    "1271ff16d39dbccc2b446e792d098d7b",
+    "636123b5f47f5dbdc3b33e42af81689a"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -674,7 +674,8 @@
     "Statement Report",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -901,7 +902,8 @@
     "https://kenyans.co.ke/news/127270-tsc-seeks-removal-court-orders-blocking-teachers-social-media-conduct-restrictions",
     "https://kenyans.co.ke/news/127272-dci-reveals-events-leading-suspects-death-narumoru-police-cell",
     "https://kenyans.co.ke/news/127273-ncic-summons-mps-didmus-barasa-john-ariko-over-public-remarks",
-    "https://kenyans.co.ke/news/127268-kra-explains-why-businesses-will-now-wait-longer-get-back-vat-unpaid-bills"
+    "https://kenyans.co.ke/news/127268-kra-explains-why-businesses-will-now-wait-longer-get-back-vat-unpaid-bills",
+    "https://kenyans.co.ke/news/127278-lpg-prices-set-rise-kenya-global-propane-butane-costs-jump"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1050,7 +1052,8 @@
     "tsc pressures kiambu court lift social media ban ahead october ruling",
     "cross county custody trail scrutinized suspect dies narumoru cell",
     "ncic deploys sweeping act provisions twin summons barasa naimot",
-    "businesses face longer cash flow squeeze under kra year bad debt vat rule"
+    "businesses face longer cash flow squeeze under kra year bad debt vat rule",
+    "cooking gas shock catches weeks before ksh16b mombasa terminal ready"
   ],
   "topic_keys": [
     "news tracker",
@@ -1662,6 +1665,15 @@
       "structure": "Liquidity squeeze lead -> Three-year bad debt threshold details -> Record-keeping and compliance hurdles -> Exempt stock accounting rules -> Concrete closing on the implementation deadline.",
       "source": "https://kenyans.co.ke/news/127268-kra-explains-why-businesses-will-now-wait-longer-get-back-vat-unpaid-bills",
       "published_at": "2026-09-22T18:02:48Z"
+    },
+    {
+      "title": "Cooking Gas Shock Catches Kenya Weeks Before Ksh16B Mombasa Terminal Ready",
+      "angle": "The timing mismatch between an imminent retail pricing shock for Kenyan kitchens next month and the final testing of a Ksh16 billion regional storage terminal designed to shield the country from such global shocks.",
+      "angle_type": "timing",
+      "opening": "Contrast lead highlighting the imminent October price hikes alongside the silent hydrostatic testing at the Dongo Kundu construction site.",
+      "structure": "Timing gap lead -> Global export & pricing shock data -> Structural bottleneck details -> Domestic retail impact -> Storage terminal infrastructure and current testing phase -> Decoupling outlook.",
+      "source": "https://kenyans.co.ke/news/127278-lpg-prices-set-rise-kenya-global-propane-butane-costs-jump",
+      "published_at": "2026-09-23T05:39:40Z"
     }
   ]
 }
