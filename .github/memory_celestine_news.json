@@ -643,10 +643,10 @@
     "417aadc4cea0bff6d3f0ef60721c1d20",
     "34faeb63bbe96262f5bdcea7fe177728",
     "1271ff16d39dbccc2b446e792d098d7b",
-    "636123b5f47f5dbdc3b33e42af81689a"
+    "636123b5f47f5dbdc3b33e42af81689a",
+    "e98ccb7309861c73b81c4c1b6ad7e886"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -675,7 +675,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -903,7 +904,8 @@
     "https://kenyans.co.ke/news/127272-dci-reveals-events-leading-suspects-death-narumoru-police-cell",
     "https://kenyans.co.ke/news/127273-ncic-summons-mps-didmus-barasa-john-ariko-over-public-remarks",
     "https://kenyans.co.ke/news/127268-kra-explains-why-businesses-will-now-wait-longer-get-back-vat-unpaid-bills",
-    "https://kenyans.co.ke/news/127278-lpg-prices-set-rise-kenya-global-propane-butane-costs-jump"
+    "https://kenyans.co.ke/news/127278-lpg-prices-set-rise-kenya-global-propane-butane-costs-jump",
+    "https://kenyans.co.ke/news/127277-ruto-calls-overhaul-80-year-old-un-and-global-financial-system"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1053,7 +1055,8 @@
     "cross county custody trail scrutinized suspect dies narumoru cell",
     "ncic deploys sweeping act provisions twin summons barasa naimot",
     "businesses face longer cash flow squeeze under kra year bad debt vat rule",
-    "cooking gas shock catches weeks before ksh16b mombasa terminal ready"
+    "cooking gas shock catches weeks before ksh16b mombasa terminal ready",
+    "ruto pivots global reform push debt guarantees gigiri expansion"
   ],
   "topic_keys": [
     "news tracker",
@@ -1674,6 +1677,15 @@
       "structure": "Timing gap lead -> Global export & pricing shock data -> Structural bottleneck details -> Domestic retail impact -> Storage terminal infrastructure and current testing phase -> Decoupling outlook.",
       "source": "https://kenyans.co.ke/news/127278-lpg-prices-set-rise-kenya-global-propane-butane-costs-jump",
       "published_at": "2026-09-23T05:39:40Z"
+    },
+    {
+      "title": "Ruto Pivots Global Reform Push to Debt Guarantees and Gigiri Expansion",
+      "angle": "Focusing on the practical economic shift Ruto is demanding\u2014forcing multilateral lenders to pivot from traditional high-interest debt to risk-sharing guarantees that unlock domestic African capital\u2014while Kenya simultaneously expands its physical leverage as a UN host state by acquiring land in Gigiri.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first lead establishing Ruto's dual-track strategy of financial risk-pricing reform and local UN infrastructure expansion.",
+      "structure": "Factual core of the New York summit -> Mechanics of the demanded financial pivot (debt vs. guarantees) -> Geopolitical leverage (UNSC seats & Gigiri land acquisition) -> Broader institutional backing and future pressure points.",
+      "source": "https://kenyans.co.ke/news/127277-ruto-calls-overhaul-80-year-old-un-and-global-financial-system",
+      "published_at": "2026-09-23T06:01:39Z"
     }
   ]
 }
