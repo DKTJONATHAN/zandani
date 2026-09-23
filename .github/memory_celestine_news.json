@@ -648,10 +648,10 @@
     "63bbe063fee1f394a209708656dea107",
     "81af2b1360052b537010dc0653b78346",
     "8b694f86941bef3dd613e797d09c444a",
-    "435d17fa46e3ce357cd97ede08e5e5bb"
+    "435d17fa46e3ce357cd97ede08e5e5bb",
+    "328b1f952071b2c2122bfe45d2dae137"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -680,7 +680,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -913,7 +914,8 @@
     "https://kenyans.co.ke/news/127280-eacc-wins-case-against-homa-bay-employee-over-ksh708664-double-pay",
     "https://kenyans.co.ke/news/127281-court-orders-tsc-deduct-september-agency-fees-jss-teachers",
     "https://kenyans.co.ke/news/127279-passengers-trapped-dreamline-bus-crashes-trailer-along-nairobi-mombasa-highway",
-    "https://kenyans.co.ke/news/127284-kenya-establishes-new-diplomatic-relationship-solomon-islands"
+    "https://kenyans.co.ke/news/127284-kenya-establishes-new-diplomatic-relationship-solomon-islands",
+    "https://kenyans.co.ke/news/127287-kma-warns-coastal-residents-rough-seas-september-december"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1068,7 +1070,8 @@
     "system partitions shield homa bay payroll managers court orders clerk refund cash",
     "court order locks september payroll deductions jss teachers under union truce",
     "police cruisers pressed medical duty bus collision shuts down taru highway stretch",
-    "bypasses proxy pacific ties direct solomon islands pact"
+    "bypasses proxy pacific ties direct solomon islands pact",
+    "mombasa rushes clear drains restrict site mixing rough seas warning takes effect"
   ],
   "topic_keys": [
     "news tracker",
@@ -1734,6 +1737,15 @@
       "structure": "Attribution lead on Pacific expansion -> Details of the Solomon Islands communiqu\u00e9 -> Shift from Canberra proxy accreditation to direct ties -> Multilateral synergy with Caribbean and Commonwealth talks",
       "source": "https://kenyans.co.ke/news/127284-kenya-establishes-new-diplomatic-relationship-solomon-islands",
       "published_at": "2026-09-23T10:01:14Z"
+    },
+    {
+      "title": "Mombasa Rushes to Clear Drains and Restrict On-Site Mixing as Rough Seas Warning Takes Effect",
+      "angle": "Focusing on the municipal preventive bottleneck: how Mombasa's domestic civil interventions\u2014such as deploying 3,000 youth and restricting on-site sand and cement mixing\u2014attempt to intercept the September-December maritime and heavy rainfall hazards before infrastructure collapses.",
+      "angle_type": "practical change",
+      "opening": "Action-oriented municipal policy lead linking local drainage controls to impending rough sea warnings.",
+      "structure": "Municipal mitigation lead -> Maritime advisory rules and emergency contacts -> Active flood zones and county labor mobilization -> Construction site restrictions -> Forward operational close.",
+      "source": "https://kenyans.co.ke/news/127287-kma-warns-coastal-residents-rough-seas-september-december",
+      "published_at": "2026-09-23T11:01:55Z"
     }
   ]
 }
