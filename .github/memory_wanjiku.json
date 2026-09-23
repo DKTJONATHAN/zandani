@@ -40,7 +40,8 @@
     "3328cc9305fd96d7a3a132566e7f5688f7eb1b3c123438b12654cb1ef4937cba",
     "2d33f90d700c5222db3984baea56dc0095de37ec8c79668b8f74be628da5a7fa",
     "d7ad408ee8658a9cdd95bb6d19254f5579fdf00959272173132643d2ed16bd06",
-    "6e93a30691b5cdd14260742d6ecd26a24b65c75850b7a7c65d78fb9b997ef4ff"
+    "6e93a30691b5cdd14260742d6ecd26a24b65c75850b7a7c65d78fb9b997ef4ff",
+    "8ddc704a795bc317c9ae78bfbc2c1a420118dce78b0e5fd07bf64c3d50eb098b"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -83,7 +84,8 @@
     "https://www.ghafla.co.ke/mike-sonko-adds-maserati-levante-to-his-expansive-luxury-car-collection/",
     "https://www.ghafla.co.ke/boundaries-and-public-office-omangas-school-attire-trend-sparks-debate-online/",
     "https://www.ghafla.co.ke/from-subsidies-to-value-addition-how-four-years-of-reforms-are-reshaping-kenyas-tea-industry/",
-    "https://www.ghafla.co.ke/danstan-omari-explains-why-obado-could-compensate-sharon-otienos-family-and-still-go-to-jail/"
+    "https://www.ghafla.co.ke/danstan-omari-explains-why-obado-could-compensate-sharon-otienos-family-and-still-go-to-jail/",
+    "https://www.ghafla.co.ke/from-legislation-to-execution-how-sha-and-10000-accredited-facilities-are-driving-universal-health-care/"
   ],
   "published_angles": [
     {
@@ -397,6 +399,14 @@
       "opening": "Personality lead opening directly on Danstan Omari setting the record straight on Oga Obinna Live about the limits of victim forgiveness in capital convictions.",
       "structure": "Studio hook on Obinna's show -> Omari's blunt quote on family settlement limits -> Breakdown of Sharon's family's KSh 4.7M plea and forgiveness -> Legal mechanics of state prosecution versus civil compensation -> July 2026 conviction backdrop with Oyamo and Obiero -> Closing note on pending judicial sentencing.",
       "source": "https://www.ghafla.co.ke/danstan-omari-explains-why-obado-could-compensate-sharon-otienos-family-and-still-go-to-jail/"
+    },
+    {
+      "title": "Dr. Daniel Mwai Puts State House Authority Behind KSh 197B SHA Clinic Ledger",
+      "angle": "Framing Dr. Daniel Mwai's presentation around the direct financial mechanics\u2014specifically how State House is leaning on KSh 197 billion in direct Level 2 and Level 3 clinic transfers to anchor its public rollout defense.",
+      "angle_type": "personality-led operational breakdown",
+      "opening": "Personality lead opening directly on Dr. Daniel Mwai taking personal ownership of the operational cash flow to local dispensaries.",
+      "structure": "Mwai lead -> KSh 197B provider ledger and direct Level 2/3 cash transfers -> 32M and 7M onboarding statistics -> The statutory quartet -> Facility network scaling and concrete close.",
+      "source": "https://www.ghafla.co.ke/from-legislation-to-execution-how-sha-and-10000-accredited-facilities-are-driving-universal-health-care/"
     }
   ],
   "style_history": [
