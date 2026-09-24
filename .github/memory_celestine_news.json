@@ -669,10 +669,10 @@
     "700c2ae567830ba72688a862d4351ca7",
     "15010567a756152dd070341b554b0a1b",
     "59ba7422eae297288172d17935fba8e3",
-    "3d4ed9b3b8ea90d4dfca9bf9f6a2bfc7"
+    "3d4ed9b3b8ea90d4dfca9bf9f6a2bfc7",
+    "57d233ff95e1845e0a2aa794fe37b0fb"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -701,7 +701,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -955,7 +956,8 @@
     "https://kenyans.co.ke/news/127328-sakaja-orders-completion-nairobi-drainage-works-14-days",
     "https://kenyans.co.ke/news/127329-kdf-truck-involved-crash-along-nairobis-outer-ring-road",
     "https://kenyans.co.ke/news/127334-cs-mvurya-confirms-payment-harambee-stars-players-allowances-after-standoff",
-    "https://kenyans.co.ke/news/127332-ntsa-set-new-role-matatu-inspections-under-proposed-law"
+    "https://kenyans.co.ke/news/127332-ntsa-set-new-role-matatu-inspections-under-proposed-law",
+    "https://kenyans.co.ke/news/127336-inside-china-kenyans-rarely-see"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1131,7 +1133,8 @@
     "inside two week countdown nairobi ksh2 billion race",
     "outer ring gridlock deepens military truck wreckage stalls donholm traffic",
     "unpaid expectations clearing old allowances failed end harambee stars training boycott",
-    "parliament moves strip bus manufacturers matatu inspection power conflict interest"
+    "parliament moves strip bus manufacturers matatu inspection power conflict interest",
+    "beyond bilateral media tour found streets beijing guangzhou"
   ],
   "topic_keys": [
     "news tracker",
@@ -1986,6 +1989,15 @@
       "structure": "Statutory shift lead -> Conflict of interest dynamics -> Licensing and three-year inspection cycle mechanics -> Public participation timeline -> Forward-looking deadline",
       "source": "https://kenyans.co.ke/news/127332-ntsa-set-new-role-matatu-inspections-under-proposed-law",
       "published_at": "2026-09-24T16:02:10Z"
+    },
+    {
+      "title": "Beyond the Bilateral: What a Kenyan Media Tour Found in the Streets of Beijing and Guangzhou",
+      "angle": "The striking parallels between ordinary urban routines, informal commerce, and digital mobile payment adoption in Chinese cities and Kenyan commercial hubs like Nairobi's Muthurwa or Gikomba markets.",
+      "angle_type": "people affected",
+      "opening": "A street-level, comparative opening contrasting high-level state reporting with the mundane realities of urban commerce observed in Beijing and Nairobi.",
+      "structure": "Comparative commercial opening -> Digital payment and daily life parallels -> Human encounters and cultural curiosity -> Institutional reflection on bilateral coverage -> Forward-looking journalistic implication.",
+      "source": "https://kenyans.co.ke/news/127336-inside-china-kenyans-rarely-see",
+      "published_at": "2026-09-24T17:02:12Z"
     }
   ]
 }
