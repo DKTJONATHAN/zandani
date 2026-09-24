@@ -663,10 +663,10 @@
     "e702d5d720b2ff5aa77bb9360f111c66",
     "9e8b6d4fc47dcb3fc3bc9dc8c6ab9561",
     "ecab6bf67e4a2e96d04030a3ab623b78",
-    "04346582f412971faf56b765806533c3"
+    "04346582f412971faf56b765806533c3",
+    "280385a0be6e8b6fcb3a8f0f01d4100d"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -695,7 +695,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -943,7 +944,8 @@
     "https://kenyans.co.ke/news/127314-two-interdicted-police-officers-arraigned-over-thika-superhighway-crime-syndicate",
     "https://kenyans.co.ke/news/127316-uasu-issues-7-day-strike-notice-sets-october-2-date-lecturers-down-tools",
     "https://kenyans.co.ke/news/127317-eacc-arrests-two-suspects-over-alleged-extortion-ksh100000",
-    "https://kenyans.co.ke/news/127318-court-issues-orders-halting-land-rates-freehold-leasehold-land-kajiado-county"
+    "https://kenyans.co.ke/news/127318-court-issues-orders-halting-land-rates-freehold-leasehold-land-kajiado-county",
+    "https://kenyans.co.ke/news/127323-kindiki-warns-evictions-some-nairobi-areas-during-el-nino-plans-temporary-shelters"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1113,7 +1115,8 @@
     "suspended officers weaponized inside knowledge thika superhighway",
     "written exchequer lockout leaves src paralyzed lecturers set sept strike",
     "extortion rackets target western probes eacc uncovers fake fixer ring bungoma",
-    "court halts kajiado land rates finance act 2026 suspended valuation flaws"
+    "court halts kajiado land rates finance act 2026 suspended valuation flaws",
+    "squeeze shelters math behind nairobi 227 hotspot evacuation plan"
   ],
   "topic_keys": [
     "news tracker",
@@ -1914,6 +1917,15 @@
       "structure": "Attribution lead -> Relief beneficiaries and statutory suspension -> Legal foundation and Justice Mwangi's January precedent -> April resurgence and Matasia mobilization -> Forward procedural outlook",
       "source": "https://kenyans.co.ke/news/127318-court-issues-orders-halting-land-rates-freehold-leasehold-land-kajiado-county",
       "published_at": "2026-09-24T10:02:47Z"
+    },
+    {
+      "title": "Squeeze on Shelters: The Math Behind Nairobi\u2019s 227-Hotspot El Ni\u00f1o Evacuation Plan",
+      "angle": "The operational mismatch between the scale of the threat (227 mapped flood hotspots across 17 sub-counties) and the limited emergency infrastructure (only 27 public facilities/schools designated as shelters), further complicated by self-declared budget constraints.",
+      "angle_type": "practical change",
+      "opening": "An analytical, numbers-driven opening that highlights the logistical bottleneck of the evacuation plan.",
+      "structure": "Logistical discrepancy lead -> Geographical hotspots and shelter locations -> Multi-agency infrastructural prep (energy and health) -> Fiscal constraints and forward-looking operational risk.",
+      "source": "https://kenyans.co.ke/news/127323-kindiki-warns-evictions-some-nairobi-areas-during-el-nino-plans-temporary-shelters",
+      "published_at": "2026-09-24T11:02:35Z"
     }
   ]
 }
