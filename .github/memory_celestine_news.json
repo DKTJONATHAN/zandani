@@ -664,10 +664,10 @@
     "9e8b6d4fc47dcb3fc3bc9dc8c6ab9561",
     "ecab6bf67e4a2e96d04030a3ab623b78",
     "04346582f412971faf56b765806533c3",
-    "280385a0be6e8b6fcb3a8f0f01d4100d"
+    "280385a0be6e8b6fcb3a8f0f01d4100d",
+    "3dbf0bfef80cd49d4a400b5aa3eb587c"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Event Report",
@@ -696,7 +696,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -945,7 +946,8 @@
     "https://kenyans.co.ke/news/127316-uasu-issues-7-day-strike-notice-sets-october-2-date-lecturers-down-tools",
     "https://kenyans.co.ke/news/127317-eacc-arrests-two-suspects-over-alleged-extortion-ksh100000",
     "https://kenyans.co.ke/news/127318-court-issues-orders-halting-land-rates-freehold-leasehold-land-kajiado-county",
-    "https://kenyans.co.ke/news/127323-kindiki-warns-evictions-some-nairobi-areas-during-el-nino-plans-temporary-shelters"
+    "https://kenyans.co.ke/news/127323-kindiki-warns-evictions-some-nairobi-areas-during-el-nino-plans-temporary-shelters",
+    "https://kenyans.co.ke/news/127324-nema-automates-epr-permit-process-importers-september-28"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1116,7 +1118,8 @@
     "written exchequer lockout leaves src paralyzed lecturers set sept strike",
     "extortion rackets target western probes eacc uncovers fake fixer ring bungoma",
     "court halts kajiado land rates finance act 2026 suspended valuation flaws",
-    "squeeze shelters math behind nairobi 227 hotspot evacuation plan"
+    "squeeze shelters math behind nairobi 227 hotspot evacuation plan",
+    "importers greet relief nema automates kra pin opt epr permits"
   ],
   "topic_keys": [
     "news tracker",
@@ -1926,6 +1929,15 @@
       "structure": "Logistical discrepancy lead -> Geographical hotspots and shelter locations -> Multi-agency infrastructural prep (energy and health) -> Fiscal constraints and forward-looking operational risk.",
       "source": "https://kenyans.co.ke/news/127323-kindiki-warns-evictions-some-nairobi-areas-during-el-nino-plans-temporary-shelters",
       "published_at": "2026-09-24T11:02:35Z"
+    },
+    {
+      "title": "Importers Greet 24/7 Relief as NEMA Automates KRA PIN Opt-In for EPR Permits",
+      "angle": "Focusing on the operational shift away from manual bureaucratic processing and how it directly impacts importers who previously depended on NEMA officers for PIN opting under the 2024 Waste Management Regulations.",
+      "angle_type": "practical change",
+      "opening": "Practical-change lead highlighting the elimination of manual NEMA officer intervention in trade compliance.",
+      "structure": "Operational shift lead -> Integration mechanics via Trade Facilitation Platform -> Regulatory background of the 2024 EPR rules -> Operational benefits and 24/7 availability timeline.",
+      "source": "https://kenyans.co.ke/news/127324-nema-automates-epr-permit-process-importers-september-28",
+      "published_at": "2026-09-24T12:02:02Z"
     }
   ]
 }
