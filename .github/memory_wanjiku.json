@@ -54,7 +54,8 @@
     "d7fc54890c21ecd8b05099dc3a7f64490fc8591fdf6a877e58e2e7bc96084f67",
     "437b6488974875105567311c412a348c73318e231b48a009d37fbe0ed8938eea",
     "bde178dfb1dc2a620bce79efa6539b1712d832cef30af1b6ae95f03c0ea0b73e",
-    "51e4b845a5bd996761e10a35a67031c367aa8a2cdd1f29cd7e180aff0ce0bf2e"
+    "51e4b845a5bd996761e10a35a67031c367aa8a2cdd1f29cd7e180aff0ce0bf2e",
+    "b74f25592c2d840237e221dddca72d831958602d15b41cf2f11a3acc685eba3c"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -111,7 +112,8 @@
     "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-six-counties-on-september-24/",
     "https://www.ghafla.co.ke/eve-mungai-opens-up-about-body-shaming-during-her-43kg-phase/",
     "https://www.ghafla.co.ke/odm-leader-oburu-oginga-demands-answers-from-uhuru-kenyatta-over-2022-election-claims/",
-    "https://www.ghafla.co.ke/deputy-president-kithure-kindiki-warns-of-forced-evacuations-in-nairobi-el-nino-flood-hotspots/"
+    "https://www.ghafla.co.ke/deputy-president-kithure-kindiki-warns-of-forced-evacuations-in-nairobi-el-nino-flood-hotspots/",
+    "https://www.ghafla.co.ke/georgina-njenga-shares-message-of-hope-with-people-nursing-heartbreak/"
   ],
   "published_angles": [
     {
@@ -537,6 +539,14 @@
       "opening": "Start directly with the specific tally of mapped hotspots and vulnerable informal settlements rather than a generic weather warning.",
       "structure": "Hotspots and vulnerable estates hook -> The 27 designated primary shelters and civic facilities -> Multi-agency coordination details from Karen -> Complementary health and sanitation interventions -> Close on the October rainfall timeline.",
       "source": "https://www.ghafla.co.ke/deputy-president-kithure-kindiki-warns-of-forced-evacuations-in-nairobi-el-nino-flood-hotspots/"
+    },
+    {
+      "title": "Georgina Njenga on Heartbreak: Why I Used to Tell Myself I Didn't Deserve Love",
+      "angle": "Examining the specific psychological pivot from internalising rejection and self-doubt to advocating for non-forced breakups, drawing on her own past admissions.",
+      "angle_type": "psychological reflection and personal boundary-setting",
+      "opening": "Start directly with the specific internal struggle\u2014the self-doubt of feeling undeserving of love\u2014before introducing Georgina Njenga's Instagram statement.",
+      "structure": "Internal doubt hook -> The specific Instagram quotes on rejection -> The advice against forcing dead relationships -> Close on her final verdict.",
+      "source": "https://www.ghafla.co.ke/georgina-njenga-shares-message-of-hope-with-people-nursing-heartbreak/"
     }
   ],
   "style_history": [
