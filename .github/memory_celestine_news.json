@@ -671,10 +671,10 @@
     "59ba7422eae297288172d17935fba8e3",
     "3d4ed9b3b8ea90d4dfca9bf9f6a2bfc7",
     "57d233ff95e1845e0a2aa794fe37b0fb",
-    "15b2831e921587bb61027e3385f15f8d"
+    "15b2831e921587bb61027e3385f15f8d",
+    "b722aa11100d20d91ddc48035aea186d"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -703,7 +703,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -959,7 +960,8 @@
     "https://kenyans.co.ke/news/127334-cs-mvurya-confirms-payment-harambee-stars-players-allowances-after-standoff",
     "https://kenyans.co.ke/news/127332-ntsa-set-new-role-matatu-inspections-under-proposed-law",
     "https://kenyans.co.ke/news/127336-inside-china-kenyans-rarely-see",
-    "https://kenyans.co.ke/news/127333-high-court-upholds-private-schools-right-review-fees-after-parents-challenge-6"
+    "https://kenyans.co.ke/news/127333-high-court-upholds-private-schools-right-review-fees-after-parents-challenge-6",
+    "https://kenyans.co.ke/news/127335-us-envoy-nominee-rules-out-backing-candidate-2027-election"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1137,7 +1139,8 @@
     "unpaid expectations clearing old allowances failed end harambee stars training boycott",
     "parliament moves strip bus manufacturers matatu inspection power conflict interest",
     "beyond bilateral media tour found streets beijing guangzhou",
-    "when school fee hikes court paper trail saved private institution increment"
+    "when school fee hikes court paper trail saved private institution increment",
+    "camps court diaspora votes washington draws hard line 2027 neutrality"
   ],
   "topic_keys": [
     "news tracker",
@@ -2010,6 +2013,15 @@
       "structure": "Procedural-threshold lead -> The 6% challenge and court findings -> AGM documentation and statutory compliance requirements -> Broader tension of rising operational costs vs. parent petitions -> Forward-looking compliance edge",
       "source": "https://kenyans.co.ke/news/127333-high-court-upholds-private-schools-right-review-fees-after-parents-challenge-6",
       "published_at": "2026-09-24T18:02:03Z"
+    },
+    {
+      "title": "As Kenyan Camps Court Diaspora Votes, Washington Draws a Hard Line on 2027 Neutrality",
+      "angle": "The tactical shift in diaspora engagement by Kenyan politicians (Ruto and Gachagua) scrambling for U.S.-based support while Washington signals strict institutional detachment.",
+      "angle_type": "institutional pressure",
+      "opening": "Contrasting the frantic diaspora lobbying by Kenyan political camps in the U.S. with the incoming ambassador's formal posture of diplomatic detachment.",
+      "structure": "Diaspora lobbying context -> Wooster's Senate testimony and neutrality pledge -> Strategic shift from Meg Whitman's tenure -> Forward-looking election timeline.",
+      "source": "https://kenyans.co.ke/news/127335-us-envoy-nominee-rules-out-backing-candidate-2027-election",
+      "published_at": "2026-09-24T18:54:08Z"
     }
   ]
 }
