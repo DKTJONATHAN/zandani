@@ -659,10 +659,10 @@
     "0c10bb25c4dfc4ba2c921d3eb6139610",
     "063140bfd4d31f13f3489c7969e1d924",
     "658c9a6f8c48152851284883a0755a19",
-    "1029085f7e9f5fa05c004634151ce062"
+    "1029085f7e9f5fa05c004634151ce062",
+    "e702d5d720b2ff5aa77bb9360f111c66"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -691,7 +691,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -935,7 +936,8 @@
     "https://kenyans.co.ke/news/127292-kra-confirms-extension-refund-processing-period-90-120-days",
     "https://kenyans.co.ke/news/127303-us-announces-new-visa-restrictions-targeting-birth-tourism",
     "https://kenyans.co.ke/news/127307-ethiopia-travel-disrupted-us-warns-over-renewed-conflict",
-    "https://kenyans.co.ke/news/127310-babu-owino-releases-new-details-mwananchi-party-name-change-amid-dispute"
+    "https://kenyans.co.ke/news/127310-babu-owino-releases-new-details-mwananchi-party-name-change-amid-dispute",
+    "https://kenyans.co.ke/news/127314-two-interdicted-police-officers-arraigned-over-thika-superhighway-crime-syndicate"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1101,7 +1103,8 @@
     "kra extends tax refund wait 120 days audit backlog pushes timelines out",
     "rubio casts wider net birth tourism enlists public informants",
     "airports seized northern ethiopia armed offensive shuts down key regional flight corridors",
-    "inside orpp paper trail untangled babu owino mwananchi party"
+    "inside orpp paper trail untangled babu owino mwananchi party",
+    "suspended officers weaponized inside knowledge thika superhighway"
   ],
   "topic_keys": [
     "news tracker",
@@ -1866,6 +1869,15 @@
       "structure": "Statutory lead -> Regulatory chronology and objection withdrawal -> The underlying PPDT challenge from LINDA -> Implications for political registration architecture",
       "source": "https://kenyans.co.ke/news/127310-babu-owino-releases-new-details-mwananchi-party-name-change-amid-dispute",
       "published_at": "2026-09-24T07:02:25Z"
+    },
+    {
+      "title": "How Suspended Officers Weaponized Inside Knowledge on Thika Superhighway",
+      "angle": "The tactical exploitation of police training and simulated authority by suspended officers to execute highly organized, daylight bank-trailing and highway robberies.",
+      "angle_type": "consequence",
+      "opening": "Tactical-exploitation lead highlighting how suspended officers repurposed their professional training and authority into highway-robbery tools.",
+      "structure": "Tactical exploit lead -> Arraignment and suspect profiles -> Operational staging (simulating active duty) -> Ruiru Police Station's bank-trailing findings -> Forward-looking regional investigation.",
+      "source": "https://kenyans.co.ke/news/127314-two-interdicted-police-officers-arraigned-over-thika-superhighway-crime-syndicate",
+      "published_at": "2026-09-24T08:02:28Z"
     }
   ]
 }
