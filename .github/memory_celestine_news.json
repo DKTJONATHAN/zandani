@@ -658,10 +658,10 @@
     "dcd667939086379b2578dd6f38ee5752",
     "0c10bb25c4dfc4ba2c921d3eb6139610",
     "063140bfd4d31f13f3489c7969e1d924",
-    "658c9a6f8c48152851284883a0755a19"
+    "658c9a6f8c48152851284883a0755a19",
+    "1029085f7e9f5fa05c004634151ce062"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -690,7 +690,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -933,7 +934,8 @@
     "https://kenyans.co.ke/news/127299-dcp-rules-out-joining-ukombozi-alliance-plans-coalition-sifuna",
     "https://kenyans.co.ke/news/127292-kra-confirms-extension-refund-processing-period-90-120-days",
     "https://kenyans.co.ke/news/127303-us-announces-new-visa-restrictions-targeting-birth-tourism",
-    "https://kenyans.co.ke/news/127307-ethiopia-travel-disrupted-us-warns-over-renewed-conflict"
+    "https://kenyans.co.ke/news/127307-ethiopia-travel-disrupted-us-warns-over-renewed-conflict",
+    "https://kenyans.co.ke/news/127310-babu-owino-releases-new-details-mwananchi-party-name-change-amid-dispute"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1098,7 +1100,8 @@
     "malala dcp sets two tier hurdle opposition coalitions ahead 2027",
     "kra extends tax refund wait 120 days audit backlog pushes timelines out",
     "rubio casts wider net birth tourism enlists public informants",
-    "airports seized northern ethiopia armed offensive shuts down key regional flight corridors"
+    "airports seized northern ethiopia armed offensive shuts down key regional flight corridors",
+    "inside orpp paper trail untangled babu owino mwananchi party"
   ],
   "topic_keys": [
     "news tracker",
@@ -1854,6 +1857,15 @@
       "structure": "Operational shutdown lead -> Factual details of seized airports and flight cancellations -> Geopolitical escalation and armed alliance context -> Diplomatic reactions and sanction threats -> Practical implications for regional transit passengers.",
       "source": "https://kenyans.co.ke/news/127307-ethiopia-travel-disrupted-us-warns-over-renewed-conflict",
       "published_at": "2026-09-24T06:02:38Z"
+    },
+    {
+      "title": "Inside the ORPP Paper Trail That Untangled Babu Owino\u2019s Mwananchi Party",
+      "angle": "The statutory maneuver behind the rebranding: how the faction used a rapid Gazette notice, an engineered objection withdrawal, and Section 20(5) of the Political Parties Act to legally entrench 'The Mwananchi Party' and bypass an ongoing tribunal challenge over the contested 'Linda' brand.",
+      "angle_type": "institutional pressure",
+      "opening": "Statutory-mechanics lead tracing the institutional steps taken to extract the political vehicle from legal deadlock.",
+      "structure": "Statutory lead -> Regulatory chronology and objection withdrawal -> The underlying PPDT challenge from LINDA -> Implications for political registration architecture",
+      "source": "https://kenyans.co.ke/news/127310-babu-owino-releases-new-details-mwananchi-party-name-change-amid-dispute",
+      "published_at": "2026-09-24T07:02:25Z"
     }
   ]
 }
