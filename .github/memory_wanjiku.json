@@ -49,7 +49,8 @@
     "cce326f97c27b1d7b4ac51db73562c59f2dd5c837d2f9bb54d01b8dc1b6dad5c",
     "932b063c6795577069cc24bda884b941b88e8d5d5bae077d8e863a499dd2d3a7",
     "0c6d88aeb08a6c8876c05b878e70e25db9a09f60e38a3ec92f9fade4f4d6f775",
-    "8f09e7e16b5251b4ae3809c69128ec2ec4685634268954cb8b5c0f19a6990998"
+    "8f09e7e16b5251b4ae3809c69128ec2ec4685634268954cb8b5c0f19a6990998",
+    "a697aea7474ef3580e930ce0282e2994ba435fc581bac3658b337d2b86f6f671"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -101,7 +102,8 @@
     "https://www.ghafla.co.ke/eacc-warns-voters-against-ethnicity-and-bribes-ahead-of-2027-general-election/",
     "https://www.ghafla.co.ke/victor-kanyari-admits-ministry-began-as-a-financial-decision-not-divine-calling/",
     "https://www.ghafla.co.ke/who-is-lewis-uriri-the-zimbabwean-lawyer-who-turned-down-chivayos-ksh45-million-gift/",
-    "https://www.ghafla.co.ke/mosiria-warns-sifuna-against-reconciliation-with-babu-owino/"
+    "https://www.ghafla.co.ke/mosiria-warns-sifuna-against-reconciliation-with-babu-owino/",
+    "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-five-counties-on-september-23/"
   ],
   "published_angles": [
     {
@@ -487,6 +489,14 @@
       "opening": "Personality-led opening centered on Geoffrey Mosiria's direct warning via social media and voice notes.",
       "structure": "Warning hook -> Mosiria's specific 'Judas' ultimatum -> The Raila Odinga historical parallel -> Broader 2027 ODM Nairobi leadership dynamics.",
       "source": "https://www.ghafla.co.ke/mosiria-warns-sifuna-against-reconciliation-with-babu-owino/"
+    },
+    {
+      "title": "Kinoro Tea Factory, Hospitals Face Eight-Hour Grid Shutdown in Kenya Power Maintenance Sweep",
+      "angle": "The localized economic disruption faced by rural institutional heavyweights\u2014specifically tea factories, hospitals, and girls' boarding schools\u2014during an eight-hour daytime grid shutdown.",
+      "angle_type": "local institutional and economic impact",
+      "opening": "Start directly with the operational strain placed on rural institutions by the daytime power interruption.",
+      "structure": "Institutional impact hook -> Breakdown of specific facility vulnerabilities (hospitals and factories) -> Regional county distribution map -> Close on the exact operating window.",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-five-counties-on-september-23/"
     }
   ],
   "style_history": [
