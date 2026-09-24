@@ -50,7 +50,8 @@
     "932b063c6795577069cc24bda884b941b88e8d5d5bae077d8e863a499dd2d3a7",
     "0c6d88aeb08a6c8876c05b878e70e25db9a09f60e38a3ec92f9fade4f4d6f775",
     "8f09e7e16b5251b4ae3809c69128ec2ec4685634268954cb8b5c0f19a6990998",
-    "a697aea7474ef3580e930ce0282e2994ba435fc581bac3658b337d2b86f6f671"
+    "a697aea7474ef3580e930ce0282e2994ba435fc581bac3658b337d2b86f6f671",
+    "d7fc54890c21ecd8b05099dc3a7f64490fc8591fdf6a877e58e2e7bc96084f67"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -103,7 +104,8 @@
     "https://www.ghafla.co.ke/victor-kanyari-admits-ministry-began-as-a-financial-decision-not-divine-calling/",
     "https://www.ghafla.co.ke/who-is-lewis-uriri-the-zimbabwean-lawyer-who-turned-down-chivayos-ksh45-million-gift/",
     "https://www.ghafla.co.ke/mosiria-warns-sifuna-against-reconciliation-with-babu-owino/",
-    "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-five-counties-on-september-23/"
+    "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-five-counties-on-september-23/",
+    "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-six-counties-on-september-24/"
   ],
   "published_angles": [
     {
@@ -497,6 +499,14 @@
       "opening": "Start directly with the operational strain placed on rural institutions by the daytime power interruption.",
       "structure": "Institutional impact hook -> Breakdown of specific facility vulnerabilities (hospitals and factories) -> Regional county distribution map -> Close on the exact operating window.",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-five-counties-on-september-23/"
+    },
+    {
+      "title": "Karen Hub, Carbacid, and Maryhill Girls Caught in Sweeping Thursday Power Blackout",
+      "angle": "The commercial and institutional chokehold of an eight-hour blackout hitting key retail hubs, manufacturing plants, and elite schools all at once.",
+      "angle_type": "commercial and industrial disruption impact",
+      "opening": "Start directly with the high-traffic commercial and educational hubs facing a total daytime grid cutoff.",
+      "structure": "Commercial hub hook -> Industrial and factory vulnerabilities -> School and public installation impact -> The sheer geographic scope across seven counties -> Concrete close on the 8:30 AM to 5:00 PM operating window.",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-six-counties-on-september-24/"
     }
   ],
   "style_history": [
