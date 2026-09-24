@@ -51,7 +51,8 @@
     "0c6d88aeb08a6c8876c05b878e70e25db9a09f60e38a3ec92f9fade4f4d6f775",
     "8f09e7e16b5251b4ae3809c69128ec2ec4685634268954cb8b5c0f19a6990998",
     "a697aea7474ef3580e930ce0282e2994ba435fc581bac3658b337d2b86f6f671",
-    "d7fc54890c21ecd8b05099dc3a7f64490fc8591fdf6a877e58e2e7bc96084f67"
+    "d7fc54890c21ecd8b05099dc3a7f64490fc8591fdf6a877e58e2e7bc96084f67",
+    "437b6488974875105567311c412a348c73318e231b48a009d37fbe0ed8938eea"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -105,7 +106,8 @@
     "https://www.ghafla.co.ke/who-is-lewis-uriri-the-zimbabwean-lawyer-who-turned-down-chivayos-ksh45-million-gift/",
     "https://www.ghafla.co.ke/mosiria-warns-sifuna-against-reconciliation-with-babu-owino/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-five-counties-on-september-23/",
-    "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-six-counties-on-september-24/"
+    "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-six-counties-on-september-24/",
+    "https://www.ghafla.co.ke/eve-mungai-opens-up-about-body-shaming-during-her-43kg-phase/"
   ],
   "published_angles": [
     {
@@ -507,6 +509,14 @@
       "opening": "Start directly with the high-traffic commercial and educational hubs facing a total daytime grid cutoff.",
       "structure": "Commercial hub hook -> Industrial and factory vulnerabilities -> School and public installation impact -> The sheer geographic scope across seven counties -> Concrete close on the 8:30 AM to 5:00 PM operating window.",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-six-counties-on-september-24/"
+    },
+    {
+      "title": "Eve Mungai Relives the 43kg Trolling That Left Her in Tears Before the 62kg Body Pivot",
+      "angle": "Focusing on the physical and psychological trap of the public eye\u2014how shifting from a 43kg frame to a 62kg physique exposed her to a relentless, double-sided cycle of body-shaming regardless of her weight.",
+      "angle_type": "psychological and physical toll of public digital scrutiny",
+      "opening": "Personality lead opening directly on the Instagram admission and the specific 43kg weight struggle.",
+      "structure": "Instagram flashback hook -> The 43kg bullying reality -> The 62kg weight-gain pivot in late 2025 -> The pushback against audience ownership in January 2026 -> Close on the ongoing pressure of public visibility.",
+      "source": "https://www.ghafla.co.ke/eve-mungai-opens-up-about-body-shaming-during-her-43kg-phase/"
     }
   ],
   "style_history": [
