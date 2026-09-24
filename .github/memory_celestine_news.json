@@ -668,10 +668,10 @@
     "3dbf0bfef80cd49d4a400b5aa3eb587c",
     "700c2ae567830ba72688a862d4351ca7",
     "15010567a756152dd070341b554b0a1b",
-    "59ba7422eae297288172d17935fba8e3"
+    "59ba7422eae297288172d17935fba8e3",
+    "3d4ed9b3b8ea90d4dfca9bf9f6a2bfc7"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -700,7 +700,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -953,7 +954,8 @@
     "https://kenyans.co.ke/news/127324-nema-automates-epr-permit-process-importers-september-28",
     "https://kenyans.co.ke/news/127328-sakaja-orders-completion-nairobi-drainage-works-14-days",
     "https://kenyans.co.ke/news/127329-kdf-truck-involved-crash-along-nairobis-outer-ring-road",
-    "https://kenyans.co.ke/news/127334-cs-mvurya-confirms-payment-harambee-stars-players-allowances-after-standoff"
+    "https://kenyans.co.ke/news/127334-cs-mvurya-confirms-payment-harambee-stars-players-allowances-after-standoff",
+    "https://kenyans.co.ke/news/127332-ntsa-set-new-role-matatu-inspections-under-proposed-law"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1128,7 +1130,8 @@
     "importers greet relief nema automates kra pin opt epr permits",
     "inside two week countdown nairobi ksh2 billion race",
     "outer ring gridlock deepens military truck wreckage stalls donholm traffic",
-    "unpaid expectations clearing old allowances failed end harambee stars training boycott"
+    "unpaid expectations clearing old allowances failed end harambee stars training boycott",
+    "parliament moves strip bus manufacturers matatu inspection power conflict interest"
   ],
   "topic_keys": [
     "news tracker",
@@ -1974,6 +1977,15 @@
       "structure": "Consequence lead -> Financial discrepancy breakdown (Ksh62,400 vs. six-figure expectations) -> Ministry and FKF administrative position -> Match fixture timeline pressure -> Forward edge on Saturday's match.",
       "source": "https://kenyans.co.ke/news/127334-cs-mvurya-confirms-payment-harambee-stars-players-allowances-after-standoff",
       "published_at": "2026-09-24T14:43:58Z"
+    },
+    {
+      "title": "Parliament Moves to Strip Bus Manufacturers of Matatu Inspection Power Over Conflict of Interest",
+      "angle": "The structural removal of a private industry association from statutory safety assessments to eliminate conflicts of interest, and the introduction of a mandatory three-year inspection cycle managed by state-licensed independent assessors.",
+      "angle_type": "institutional pressure",
+      "opening": "Institutional-pressure lead focusing on the statutory dismantling of the Kenya Association of Bus Manufacturers' role in PSV body conformity testing.",
+      "structure": "Statutory shift lead -> Conflict of interest dynamics -> Licensing and three-year inspection cycle mechanics -> Public participation timeline -> Forward-looking deadline",
+      "source": "https://kenyans.co.ke/news/127332-ntsa-set-new-role-matatu-inspections-under-proposed-law",
+      "published_at": "2026-09-24T16:02:10Z"
     }
   ]
 }
