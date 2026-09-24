@@ -665,10 +665,10 @@
     "ecab6bf67e4a2e96d04030a3ab623b78",
     "04346582f412971faf56b765806533c3",
     "280385a0be6e8b6fcb3a8f0f01d4100d",
-    "3dbf0bfef80cd49d4a400b5aa3eb587c"
+    "3dbf0bfef80cd49d4a400b5aa3eb587c",
+    "700c2ae567830ba72688a862d4351ca7"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -697,7 +697,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -947,7 +948,8 @@
     "https://kenyans.co.ke/news/127317-eacc-arrests-two-suspects-over-alleged-extortion-ksh100000",
     "https://kenyans.co.ke/news/127318-court-issues-orders-halting-land-rates-freehold-leasehold-land-kajiado-county",
     "https://kenyans.co.ke/news/127323-kindiki-warns-evictions-some-nairobi-areas-during-el-nino-plans-temporary-shelters",
-    "https://kenyans.co.ke/news/127324-nema-automates-epr-permit-process-importers-september-28"
+    "https://kenyans.co.ke/news/127324-nema-automates-epr-permit-process-importers-september-28",
+    "https://kenyans.co.ke/news/127328-sakaja-orders-completion-nairobi-drainage-works-14-days"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1119,7 +1121,8 @@
     "extortion rackets target western probes eacc uncovers fake fixer ring bungoma",
     "court halts kajiado land rates finance act 2026 suspended valuation flaws",
     "squeeze shelters math behind nairobi 227 hotspot evacuation plan",
-    "importers greet relief nema automates kra pin opt epr permits"
+    "importers greet relief nema automates kra pin opt epr permits",
+    "inside two week countdown nairobi ksh2 billion race"
   ],
   "topic_keys": [
     "news tracker",
@@ -1938,6 +1941,15 @@
       "structure": "Operational shift lead -> Integration mechanics via Trade Facilitation Platform -> Regulatory background of the 2024 EPR rules -> Operational benefits and 24/7 availability timeline.",
       "source": "https://kenyans.co.ke/news/127324-nema-automates-epr-permit-process-importers-september-28",
       "published_at": "2026-09-24T12:02:02Z"
+    },
+    {
+      "title": "Inside the Two-Week Countdown to Nairobi\u2019s Ksh2.4 Billion El Ni\u00f1o Race",
+      "angle": "The logistical and financial friction behind coordinating a Ksh2.4 billion multi-agency program across national and county bodies under a compressed two-week deadline.",
+      "angle_type": "institutional pressure",
+      "opening": "An institutional-pressure lead focusing on the compressed coordination mechanics between county and national agencies under the 14-day directive.",
+      "structure": "Institutional pressure lead -> Financial framework and resource deployment breakdown -> Multi-agency committee structure and overlap -> Evacuation and holding ground logistics -> Forward edge on October timeline.",
+      "source": "https://kenyans.co.ke/news/127328-sakaja-orders-completion-nairobi-drainage-works-14-days",
+      "published_at": "2026-09-24T13:01:27Z"
     }
   ]
 }
