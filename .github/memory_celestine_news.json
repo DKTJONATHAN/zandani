@@ -656,10 +656,10 @@
     "786517678d8451961a798d0755e77f59",
     "42f323254bdc3c827112c972312698fb",
     "dcd667939086379b2578dd6f38ee5752",
-    "0c10bb25c4dfc4ba2c921d3eb6139610"
+    "0c10bb25c4dfc4ba2c921d3eb6139610",
+    "063140bfd4d31f13f3489c7969e1d924"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -688,7 +688,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -929,7 +930,8 @@
     "https://kenyans.co.ke/news/127295-un-chief-guterres-backs-rutos-push-permanent-african-seat-un-security-council",
     "https://kenyans.co.ke/news/127298-bolt-partners-red-cross-train-boda-boda-riders-emergency-response",
     "https://kenyans.co.ke/news/127299-dcp-rules-out-joining-ukombozi-alliance-plans-coalition-sifuna",
-    "https://kenyans.co.ke/news/127292-kra-confirms-extension-refund-processing-period-90-120-days"
+    "https://kenyans.co.ke/news/127292-kra-confirms-extension-refund-processing-period-90-120-days",
+    "https://kenyans.co.ke/news/127303-us-announces-new-visa-restrictions-targeting-birth-tourism"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1092,7 +1094,8 @@
     "guterres backs ruto africa links peacekeeping leverage security council veto demand",
     "when first scene can finally help inside boda boda first aid drive",
     "malala dcp sets two tier hurdle opposition coalitions ahead 2027",
-    "kra extends tax refund wait 120 days audit backlog pushes timelines out"
+    "kra extends tax refund wait 120 days audit backlog pushes timelines out",
+    "rubio casts wider net birth tourism enlists public informants"
   ],
   "topic_keys": [
     "news tracker",
@@ -1830,6 +1833,15 @@
       "structure": "Operational timeline lead -> Mechanics of the 120-day threshold -> Variables driving the delay (audits and tax types) -> Implications for taxpayer liquidity -> Forward edge on processing milestones.",
       "source": "https://kenyans.co.ke/news/127292-kra-confirms-extension-refund-processing-period-90-120-days",
       "published_at": "2026-09-23T17:02:37Z"
+    },
+    {
+      "title": "Rubio Casts Wider Net on Birth Tourism as U.S. Enlists Public Informants",
+      "angle": "The operational shift from vetting individual consular applicants to penalising the peripheral commercial network\u2014visa coaches, foreign clinics, and family members\u2014buttressed by an anonymous digital surveillance portal.",
+      "angle_type": "institutional pressure",
+      "opening": "Attribution-first statement lead detailing Secretary Rubio's directive and identifying the state beneficiaries before delineating the widened net cast over intermediaries.",
+      "structure": "Attribution lead on policy proclamation -> Statutory invocation of Section 212(a)(3)(C) -> Commercial and medical intermediary targets -> The anonymous informant portal architecture -> Consular stakes for outbound applicants.",
+      "source": "https://kenyans.co.ke/news/127303-us-announces-new-visa-restrictions-targeting-birth-tourism",
+      "published_at": "2026-09-24T05:02:44Z"
     }
   ]
 }
