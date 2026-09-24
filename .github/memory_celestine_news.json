@@ -657,10 +657,10 @@
     "42f323254bdc3c827112c972312698fb",
     "dcd667939086379b2578dd6f38ee5752",
     "0c10bb25c4dfc4ba2c921d3eb6139610",
-    "063140bfd4d31f13f3489c7969e1d924"
+    "063140bfd4d31f13f3489c7969e1d924",
+    "658c9a6f8c48152851284883a0755a19"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -689,7 +689,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -931,7 +932,8 @@
     "https://kenyans.co.ke/news/127298-bolt-partners-red-cross-train-boda-boda-riders-emergency-response",
     "https://kenyans.co.ke/news/127299-dcp-rules-out-joining-ukombozi-alliance-plans-coalition-sifuna",
     "https://kenyans.co.ke/news/127292-kra-confirms-extension-refund-processing-period-90-120-days",
-    "https://kenyans.co.ke/news/127303-us-announces-new-visa-restrictions-targeting-birth-tourism"
+    "https://kenyans.co.ke/news/127303-us-announces-new-visa-restrictions-targeting-birth-tourism",
+    "https://kenyans.co.ke/news/127307-ethiopia-travel-disrupted-us-warns-over-renewed-conflict"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1095,7 +1097,8 @@
     "when first scene can finally help inside boda boda first aid drive",
     "malala dcp sets two tier hurdle opposition coalitions ahead 2027",
     "kra extends tax refund wait 120 days audit backlog pushes timelines out",
-    "rubio casts wider net birth tourism enlists public informants"
+    "rubio casts wider net birth tourism enlists public informants",
+    "airports seized northern ethiopia armed offensive shuts down key regional flight corridors"
   ],
   "topic_keys": [
     "news tracker",
@@ -1842,6 +1845,15 @@
       "structure": "Attribution lead on policy proclamation -> Statutory invocation of Section 212(a)(3)(C) -> Commercial and medical intermediary targets -> The anonymous informant portal architecture -> Consular stakes for outbound applicants.",
       "source": "https://kenyans.co.ke/news/127303-us-announces-new-visa-restrictions-targeting-birth-tourism",
       "published_at": "2026-09-24T05:02:44Z"
+    },
+    {
+      "title": "Airports Seized in Northern Ethiopia as Armed Offensive Shuts Down Key Regional Flight Corridors",
+      "angle": "The immediate operational and logistical disruption of the regional aviation network caused by the armed seizure of three key airports, and how this sudden grounding impacts transit passengers and regional travel corridors.",
+      "angle_type": "practical change",
+      "opening": "An operational lead detailing the sudden seizure of the runways and the immediate suspension of flights by the region's largest carrier.",
+      "structure": "Operational shutdown lead -> Factual details of seized airports and flight cancellations -> Geopolitical escalation and armed alliance context -> Diplomatic reactions and sanction threats -> Practical implications for regional transit passengers.",
+      "source": "https://kenyans.co.ke/news/127307-ethiopia-travel-disrupted-us-warns-over-renewed-conflict",
+      "published_at": "2026-09-24T06:02:38Z"
     }
   ]
 }
