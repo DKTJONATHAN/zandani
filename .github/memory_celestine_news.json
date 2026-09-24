@@ -660,10 +660,10 @@
     "063140bfd4d31f13f3489c7969e1d924",
     "658c9a6f8c48152851284883a0755a19",
     "1029085f7e9f5fa05c004634151ce062",
-    "e702d5d720b2ff5aa77bb9360f111c66"
+    "e702d5d720b2ff5aa77bb9360f111c66",
+    "9e8b6d4fc47dcb3fc3bc9dc8c6ab9561"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -692,7 +692,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -937,7 +938,8 @@
     "https://kenyans.co.ke/news/127303-us-announces-new-visa-restrictions-targeting-birth-tourism",
     "https://kenyans.co.ke/news/127307-ethiopia-travel-disrupted-us-warns-over-renewed-conflict",
     "https://kenyans.co.ke/news/127310-babu-owino-releases-new-details-mwananchi-party-name-change-amid-dispute",
-    "https://kenyans.co.ke/news/127314-two-interdicted-police-officers-arraigned-over-thika-superhighway-crime-syndicate"
+    "https://kenyans.co.ke/news/127314-two-interdicted-police-officers-arraigned-over-thika-superhighway-crime-syndicate",
+    "https://kenyans.co.ke/news/127316-uasu-issues-7-day-strike-notice-sets-october-2-date-lecturers-down-tools"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1104,7 +1106,8 @@
     "rubio casts wider net birth tourism enlists public informants",
     "airports seized northern ethiopia armed offensive shuts down key regional flight corridors",
     "inside orpp paper trail untangled babu owino mwananchi party",
-    "suspended officers weaponized inside knowledge thika superhighway"
+    "suspended officers weaponized inside knowledge thika superhighway",
+    "written exchequer lockout leaves src paralyzed lecturers set sept strike"
   ],
   "topic_keys": [
     "news tracker",
@@ -1878,6 +1881,15 @@
       "structure": "Tactical exploit lead -> Arraignment and suspect profiles -> Operational staging (simulating active duty) -> Ruiru Police Station's bank-trailing findings -> Forward-looking regional investigation.",
       "source": "https://kenyans.co.ke/news/127314-two-interdicted-police-officers-arraigned-over-thika-superhighway-crime-syndicate",
       "published_at": "2026-09-24T08:02:28Z"
+    },
+    {
+      "title": "Written Exchequer Lockout Leaves SRC Paralyzed as Lecturers Set Sept 30 Strike",
+      "angle": "The administrative and statutory paralysis between SRC, Treasury, and the Education Ministry, where SRC's legal inability to issue counter-proposal guidance without a written exchequer guarantee exposed months of Machakos University talks as structurally hollow.",
+      "angle_type": "institutional pressure",
+      "opening": "Statutory-mechanics lead tracing how missing Treasury paperwork blocked SRC advice and forced the union's hand.",
+      "structure": "Institutional bottleneck lead -> Strike mechanics and dates -> Breakdown of SRC's financial directive failure -> CBA disparity across public sector -> Clock ticking on exchequer written guarantee.",
+      "source": "https://kenyans.co.ke/news/127316-uasu-issues-7-day-strike-notice-sets-october-2-date-lecturers-down-tools",
+      "published_at": "2026-09-24T09:02:37Z"
     }
   ]
 }
