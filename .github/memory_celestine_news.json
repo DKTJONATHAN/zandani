@@ -661,10 +661,10 @@
     "658c9a6f8c48152851284883a0755a19",
     "1029085f7e9f5fa05c004634151ce062",
     "e702d5d720b2ff5aa77bb9360f111c66",
-    "9e8b6d4fc47dcb3fc3bc9dc8c6ab9561"
+    "9e8b6d4fc47dcb3fc3bc9dc8c6ab9561",
+    "ecab6bf67e4a2e96d04030a3ab623b78"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -693,7 +693,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -939,7 +940,8 @@
     "https://kenyans.co.ke/news/127307-ethiopia-travel-disrupted-us-warns-over-renewed-conflict",
     "https://kenyans.co.ke/news/127310-babu-owino-releases-new-details-mwananchi-party-name-change-amid-dispute",
     "https://kenyans.co.ke/news/127314-two-interdicted-police-officers-arraigned-over-thika-superhighway-crime-syndicate",
-    "https://kenyans.co.ke/news/127316-uasu-issues-7-day-strike-notice-sets-october-2-date-lecturers-down-tools"
+    "https://kenyans.co.ke/news/127316-uasu-issues-7-day-strike-notice-sets-october-2-date-lecturers-down-tools",
+    "https://kenyans.co.ke/news/127317-eacc-arrests-two-suspects-over-alleged-extortion-ksh100000"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1107,7 +1109,8 @@
     "airports seized northern ethiopia armed offensive shuts down key regional flight corridors",
     "inside orpp paper trail untangled babu owino mwananchi party",
     "suspended officers weaponized inside knowledge thika superhighway",
-    "written exchequer lockout leaves src paralyzed lecturers set sept strike"
+    "written exchequer lockout leaves src paralyzed lecturers set sept strike",
+    "extortion rackets target western probes eacc uncovers fake fixer ring bungoma"
   ],
   "topic_keys": [
     "news tracker",
@@ -1890,6 +1893,15 @@
       "structure": "Institutional bottleneck lead -> Strike mechanics and dates -> Breakdown of SRC's financial directive failure -> CBA disparity across public sector -> Clock ticking on exchequer written guarantee.",
       "source": "https://kenyans.co.ke/news/127316-uasu-issues-7-day-strike-notice-sets-october-2-date-lecturers-down-tools",
       "published_at": "2026-09-24T09:02:37Z"
+    },
+    {
+      "title": "Extortion Rackets Target Western Kenya Probes as EACC Uncovers Fake Fixer Ring in Bungoma",
+      "angle": "Framing the arrest through the lens of a recurring regional shadow network that systematically targets citizens under active state probe, leveraging fear and forged credentials to run parallel shakedowns.",
+      "angle_type": "consequence",
+      "opening": "Pattern-of-exploitation lead highlighting how parallel extortion rings target citizens facing state corruption probes.",
+      "structure": "Shadow extortion lead -> Bungoma arrest details and cash handover -> Regional pattern breakdown and past fake-credential seizures -> Exploitation mechanics and public warnings -> Forward edge on accomplice tracing.",
+      "source": "https://kenyans.co.ke/news/127317-eacc-arrests-two-suspects-over-alleged-extortion-ksh100000",
+      "published_at": "2026-09-24T09:08:55Z"
     }
   ]
 }
