@@ -48,7 +48,8 @@
     "9c4d80027f1305d8f159f6a60e17cb623309e932cde9f48eb8991bd54678b84e",
     "cce326f97c27b1d7b4ac51db73562c59f2dd5c837d2f9bb54d01b8dc1b6dad5c",
     "932b063c6795577069cc24bda884b941b88e8d5d5bae077d8e863a499dd2d3a7",
-    "0c6d88aeb08a6c8876c05b878e70e25db9a09f60e38a3ec92f9fade4f4d6f775"
+    "0c6d88aeb08a6c8876c05b878e70e25db9a09f60e38a3ec92f9fade4f4d6f775",
+    "8f09e7e16b5251b4ae3809c69128ec2ec4685634268954cb8b5c0f19a6990998"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -99,7 +100,8 @@
     "https://www.ghafla.co.ke/tanzanian-fans-praise-charlene-ruto-as-she-attends-unga-in-new-york/",
     "https://www.ghafla.co.ke/eacc-warns-voters-against-ethnicity-and-bribes-ahead-of-2027-general-election/",
     "https://www.ghafla.co.ke/victor-kanyari-admits-ministry-began-as-a-financial-decision-not-divine-calling/",
-    "https://www.ghafla.co.ke/who-is-lewis-uriri-the-zimbabwean-lawyer-who-turned-down-chivayos-ksh45-million-gift/"
+    "https://www.ghafla.co.ke/who-is-lewis-uriri-the-zimbabwean-lawyer-who-turned-down-chivayos-ksh45-million-gift/",
+    "https://www.ghafla.co.ke/mosiria-warns-sifuna-against-reconciliation-with-babu-owino/"
   ],
   "published_angles": [
     {
@@ -477,6 +479,14 @@
       "opening": "Personality lead opening directly on Advocate Dr Lewis Uriri turning down the multi-million-shilling gift package.",
       "structure": "Rejection hook -> The specific monetary and vehicle valuation breakdown -> Uriri's professional pedigree (ICSID, Temple Bar, University of Zimbabwe) -> Historical political litigation context (Mnangagwa and Tshabangu cases) -> Concrete closing fact on the June 2024 communication gap.",
       "source": "https://www.ghafla.co.ke/who-is-lewis-uriri-the-zimbabwean-lawyer-who-turned-down-chivayos-ksh45-million-gift/"
+    },
+    {
+      "title": "Geoffrey Mosiria Tells Edwin Sifuna Why Reconciling With Babu Owino Is Political Suicide",
+      "angle": "Focusing on the internal factional playbook and historical political precedents (the Raila Odinga model) deployed within ODM circles to police interpersonal alliances ahead of 2027.",
+      "angle_type": "political alliance policing and historical precedent",
+      "opening": "Personality-led opening centered on Geoffrey Mosiria's direct warning via social media and voice notes.",
+      "structure": "Warning hook -> Mosiria's specific 'Judas' ultimatum -> The Raila Odinga historical parallel -> Broader 2027 ODM Nairobi leadership dynamics.",
+      "source": "https://www.ghafla.co.ke/mosiria-warns-sifuna-against-reconciliation-with-babu-owino/"
     }
   ],
   "style_history": [
