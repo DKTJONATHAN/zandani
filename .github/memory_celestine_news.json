@@ -677,10 +677,10 @@
     "03a84dd0766dd1ce677c9d3a1a8cb812",
     "75d213ac6c4161d6bb676e87c3cfecab",
     "d0f3062aad403f3ae474dc96af24ada8",
-    "a5db0104bab6551c66b2d45fea0b55d1"
+    "a5db0104bab6551c66b2d45fea0b55d1",
+    "672a92930784e1e88524a70c81472fa5"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -709,7 +709,8 @@
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -971,7 +972,8 @@
     "https://kenyans.co.ke/news/127342-activist-mulinge-muteti-found-dumped-machakos-after-days-disappearance",
     "https://kenyans.co.ke/news/127343-ruto-tour-dangotes-lagos-refinery-nigeria-ahead-lamu-groundbreaking",
     "https://kenyans.co.ke/news/127339-major-tax-changes-loom-treasury-sets-october-talks-kenyans",
-    "https://kenyans.co.ke/news/127345-kra-explains-new-rental-tax-rules-targeting-landlords-living-abroad"
+    "https://kenyans.co.ke/news/127345-kra-explains-new-rental-tax-rules-targeting-landlords-living-abroad",
+    "https://kenyans.co.ke/news/127349-nema-arrests-5-traders-coast-crackdown-banned-plastic-bags"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1155,7 +1157,8 @@
     "price regional solidarity missing activist dumped lukenya corridor nairobi protests",
     "exporting lekki model inside ksh2 trillion plan behind lamu mega refinery",
     "treasury squeezes paye review window october tax talks loom",
-    "diaspora rent clawback kra deputizing relatives enforce offshore property tax"
+    "diaspora rent clawback kra deputizing relatives enforce offshore property tax",
+    "ksh2 million fine risk nema coast blitz targets traders industrial packagers"
   ],
   "topic_keys": [
     "news tracker",
@@ -2082,6 +2085,15 @@
       "structure": "Disparity lead -> Financial arithmetic and operational mechanics -> The proxy withholding role of relatives and agents -> Penalty structure and compliance calendar -> Forward enforcement edge.",
       "source": "https://kenyans.co.ke/news/127345-kra-explains-new-rental-tax-rules-targeting-landlords-living-abroad",
       "published_at": "2026-09-25T08:02:46Z"
+    },
+    {
+      "title": "The Ksh2 Million Fine Risk: How NEMA\u2019s Coast Blitz Targets Traders and Industrial Packagers",
+      "angle": "Framing the crackdown through the steep financial and legal stakes governing Section 144 of EMCA alongside the strict administrative deadline for industrial users to regularise via NEMA's digital portal.",
+      "angle_type": "practical change",
+      "opening": "Regulatory-squeeze opening contrasting the legal penalties for retail traders against the formal portal compliance required of industrial packaging operations.",
+      "structure": "Regulatory squeeze lead -> Enforcement mechanics & Coast arrests -> Statutory financial penalties under EMCA Section 144 -> Industrial audit & digital portal requirements -> Nationwide enforcement outlook.",
+      "source": "https://kenyans.co.ke/news/127349-nema-arrests-5-traders-coast-crackdown-banned-plastic-bags",
+      "published_at": "2026-09-25T10:02:44Z"
     }
   ]
 }
