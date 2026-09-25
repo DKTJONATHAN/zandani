@@ -678,10 +678,10 @@
     "75d213ac6c4161d6bb676e87c3cfecab",
     "d0f3062aad403f3ae474dc96af24ada8",
     "a5db0104bab6551c66b2d45fea0b55d1",
-    "672a92930784e1e88524a70c81472fa5"
+    "672a92930784e1e88524a70c81472fa5",
+    "eb9ec34dd2b5486cda2711a4e0c80ea7"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -710,7 +710,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -973,7 +974,8 @@
     "https://kenyans.co.ke/news/127343-ruto-tour-dangotes-lagos-refinery-nigeria-ahead-lamu-groundbreaking",
     "https://kenyans.co.ke/news/127339-major-tax-changes-loom-treasury-sets-october-talks-kenyans",
     "https://kenyans.co.ke/news/127345-kra-explains-new-rental-tax-rules-targeting-landlords-living-abroad",
-    "https://kenyans.co.ke/news/127349-nema-arrests-5-traders-coast-crackdown-banned-plastic-bags"
+    "https://kenyans.co.ke/news/127349-nema-arrests-5-traders-coast-crackdown-banned-plastic-bags",
+    "https://kenyans.co.ke/news/127353-ruling-reveals-how-commercial-tenant-can-lose-millions-over-lease-breaches"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1158,7 +1160,8 @@
     "exporting lekki model inside ksh2 trillion plan behind lamu mega refinery",
     "treasury squeezes paye review window october tax talks loom",
     "diaspora rent clawback kra deputizing relatives enforce offshore property tax",
-    "ksh2 million fine risk nema coast blitz targets traders industrial packagers"
+    "ksh2 million fine risk nema coast blitz targets traders industrial packagers",
+    "ksh21 million cost empty court defense commercial lease disputes"
   ],
   "topic_keys": [
     "news tracker",
@@ -2094,6 +2097,15 @@
       "structure": "Regulatory squeeze lead -> Enforcement mechanics & Coast arrests -> Statutory financial penalties under EMCA Section 144 -> Industrial audit & digital portal requirements -> Nationwide enforcement outlook.",
       "source": "https://kenyans.co.ke/news/127349-nema-arrests-5-traders-coast-crackdown-banned-plastic-bags",
       "published_at": "2026-09-25T10:02:44Z"
+    },
+    {
+      "title": "The Ksh21 Million Cost of an Empty Court Defense in Commercial Lease Disputes",
+      "angle": "The high financial cost of a passive litigation strategy. The tenant filed a formal defense but failed to produce any witnesses or documents over a six-year period, resulting in a massive Ksh21.9 million judgment on the balance of probabilities.",
+      "angle_type": "consequence",
+      "opening": "Evidentiary-consequence lead focusing on how procedural passivity in commercial lease litigation can turn minor property disputes into multi-million shilling liabilities.",
+      "structure": "Evidentiary lead -> Breakdown of the Malindi court's Ksh21.9 million ruling -> The fatal mistake of filing a paper-only defense -> The legal shift of proof in commercial disputes -> Operational implications for tenants altering leased premises.",
+      "source": "https://kenyans.co.ke/news/127353-ruling-reveals-how-commercial-tenant-can-lose-millions-over-lease-breaches",
+      "published_at": "2026-09-25T12:02:37Z"
     }
   ]
 }
