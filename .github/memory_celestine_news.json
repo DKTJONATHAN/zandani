@@ -675,10 +675,10 @@
     "b722aa11100d20d91ddc48035aea186d",
     "f4b26bd430475b01a517b35196b1c340",
     "03a84dd0766dd1ce677c9d3a1a8cb812",
-    "75d213ac6c4161d6bb676e87c3cfecab"
+    "75d213ac6c4161d6bb676e87c3cfecab",
+    "d0f3062aad403f3ae474dc96af24ada8"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -707,7 +707,8 @@
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -967,7 +968,8 @@
     "https://kenyans.co.ke/news/127335-us-envoy-nominee-rules-out-backing-candidate-2027-election",
     "https://kenyans.co.ke/news/127338-kuppet-threatens-boycott-2026-national-exams-over-teachers-allowances",
     "https://kenyans.co.ke/news/127342-activist-mulinge-muteti-found-dumped-machakos-after-days-disappearance",
-    "https://kenyans.co.ke/news/127343-ruto-tour-dangotes-lagos-refinery-nigeria-ahead-lamu-groundbreaking"
+    "https://kenyans.co.ke/news/127343-ruto-tour-dangotes-lagos-refinery-nigeria-ahead-lamu-groundbreaking",
+    "https://kenyans.co.ke/news/127339-major-tax-changes-loom-treasury-sets-october-talks-kenyans"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1149,7 +1151,8 @@
     "camps court diaspora votes washington draws hard line 2027 neutrality",
     "kuppet uses october exam calendar force src allowance review challenge education bills",
     "price regional solidarity missing activist dumped lukenya corridor nairobi protests",
-    "exporting lekki model inside ksh2 trillion plan behind lamu mega refinery"
+    "exporting lekki model inside ksh2 trillion plan behind lamu mega refinery",
+    "treasury squeezes paye review window october tax talks loom"
   ],
   "topic_keys": [
     "news tracker",
@@ -2058,6 +2061,15 @@
       "structure": "Strategy lead -> Lagos walkthrough & UNGA financial alignment -> Shared engineering vendor & capacity mechanics -> Local economic footprint & fuel security -> Forward edge to site groundbreaking.",
       "source": "https://kenyans.co.ke/news/127343-ruto-tour-dangotes-lagos-refinery-nigeria-ahead-lamu-groundbreaking",
       "published_at": "2026-09-25T07:02:34Z"
+    },
+    {
+      "title": "Treasury Squeezes PAYE Review Window as October Tax Talks Loom",
+      "angle": "The operational scheduling pressure and compressed public participation timeline surrounding the proposed PAYE band adjustments.",
+      "angle_type": "institutional pressure",
+      "opening": "Deadline and operational squeeze lead",
+      "structure": "Scheduling pressure lead -> PAYE threshold breakdown -> Seven-day thematic week framework -> Public participation compliance context",
+      "source": "https://kenyans.co.ke/news/127339-major-tax-changes-loom-treasury-sets-october-talks-kenyans",
+      "published_at": "2026-09-25T07:21:19Z"
     }
   ]
 }
