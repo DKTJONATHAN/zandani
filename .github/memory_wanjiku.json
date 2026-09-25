@@ -63,7 +63,8 @@
     "e3a0b98d3cd6bdd4c73a20ddfb0010a0fc9ab3ca66eb81397a6a32b7707c42bb",
     "94042c735f0a1c06e457a9ea27a0f040c1d015c35f457bdfba92dbe5c730c222",
     "71163bbe30e812fb6d38aac573c78040338e51908713616b0b548e9c879a893b",
-    "399fad367dfb4951c4b14beb30952d9f9ce72480d07791df4be25276d99d62fc"
+    "399fad367dfb4951c4b14beb30952d9f9ce72480d07791df4be25276d99d62fc",
+    "fc352514a28364ae4b7b64c644cf1eaf38256b24f0620fc7b71a6dddefa91351"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -129,7 +130,8 @@
     "https://www.ghafla.co.ke/linus-kaikai-claims-kenya-is-a-one-term-nation-cites-electoral-manipulation-in-second-term-bids/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-nairobi-nyeri-and-meru/",
     "https://www.ghafla.co.ke/babu-owino-sets-record-straight-on-linda-mwananchi-partys-name-transition/",
-    "https://www.ghafla.co.ke/mashujaa-day-preparations-gain-momentum-as-kipchoge-keino-stadium-reaches-68-per-cent-completion/"
+    "https://www.ghafla.co.ke/mashujaa-day-preparations-gain-momentum-as-kipchoge-keino-stadium-reaches-68-per-cent-completion/",
+    "https://www.ghafla.co.ke/he-made-you-question-everything-winnie-odinga-pays-moving-tribute-to-late-father/"
   ],
   "published_angles": [
     {
@@ -627,6 +629,14 @@
       "opening": "Start directly with the unprecedented three-county footprint of the national celebration.",
       "structure": "Multi-county hosting hook -> Specific stadium completion stats -> Urban infrastructural upgrades in Eldoret, Kapsabet, and Iten -> Multi-agency security and regional economic framing.",
       "source": "https://www.ghafla.co.ke/mashujaa-day-preparations-gain-momentum-as-kipchoge-keino-stadium-reaches-68-per-cent-completion/"
+    },
+    {
+      "title": "\u201cWho Told You?\u201d: Inside the Dinner-Table Interrogations That Shaped Winnie Odinga",
+      "angle": "Focusing on Winnie Odinga's personal recollections of her late father's Socratic, relentless questioning style\u2014how dinner-table debates and intellectual pushback shaped her critical thinking away from political platforms.",
+      "angle_type": "intimate domestic legacy and critical-thinking upbringing",
+      "opening": "Personality lead opening directly on Winnie Odinga's recollection of her father's habit of cross-examining everyday statements.",
+      "structure": "Domestic interrogation hook -> The Book Fair ceremony context -> The philosophy against sycophancy -> The KPA Hall of Fame posthumous honor -> Close on the lingering intellectual challenge.",
+      "source": "https://www.ghafla.co.ke/he-made-you-question-everything-winnie-odinga-pays-moving-tribute-to-late-father/"
     }
   ],
   "style_history": [
