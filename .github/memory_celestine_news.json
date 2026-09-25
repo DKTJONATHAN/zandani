@@ -681,10 +681,10 @@
     "672a92930784e1e88524a70c81472fa5",
     "eb9ec34dd2b5486cda2711a4e0c80ea7",
     "0f9f795f8e47003b34165f259df2d674",
-    "c4a9b6b3911b7b96a4a6b09d69ce21ed"
+    "c4a9b6b3911b7b96a4a6b09d69ce21ed",
+    "e5fcf2ab509e2dc4d804e799e8e6cda5"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -713,7 +713,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -979,7 +980,8 @@
     "https://kenyans.co.ke/news/127349-nema-arrests-5-traders-coast-crackdown-banned-plastic-bags",
     "https://kenyans.co.ke/news/127353-ruling-reveals-how-commercial-tenant-can-lose-millions-over-lease-breaches",
     "https://kenyans.co.ke/news/127354-several-feared-trapped-gold-mine-collapses-migori",
-    "https://kenyans.co.ke/news/127355-psk-appeals-county-governments-crack-down-unlicensed-pharmacies"
+    "https://kenyans.co.ke/news/127355-psk-appeals-county-governments-crack-down-unlicensed-pharmacies",
+    "https://kenyans.co.ke/news/127352-ntsa-tightens-psv-rules-new-requirements-drivers-vehicles"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1167,7 +1169,8 @@
     "ksh2 million fine risk nema coast blitz targets traders industrial packagers",
     "ksh21 million cost empty court defense commercial lease disputes",
     "midnight shaft collapse migori exposes risks building gold mines",
-    "when trade permits mask illegal chemists psk warns counties revenue loophole"
+    "when trade permits mask illegal chemists psk warns counties revenue loophole",
+    "ntsa enterprise directive puts psv sacco books regulatory crosshairs"
   ],
   "topic_keys": [
     "news tracker",
@@ -2130,6 +2133,15 @@
       "structure": "Regulatory tension lead -> Factual core of the PSK intervention -> The statutory boundary between county revenue and PPB oversight -> Professional workforce drop-off numbers -> Joint enforcement and distribution implications",
       "source": "https://kenyans.co.ke/news/127355-psk-appeals-county-governments-crack-down-unlicensed-pharmacies",
       "published_at": "2026-09-25T13:24:44Z"
+    },
+    {
+      "title": "NTSA\u2019s New Enterprise Directive Puts PSV SACCO Books in the Regulatory Crosshairs",
+      "angle": "The operational burden of enterprise accountability\u2014how the Authority is shifting the legal liability for every route, crew member, and vehicle maintenance record directly onto SACCO business systems, dovetailing with a recent 4,000-driver training push.",
+      "angle_type": "institutional pressure",
+      "opening": "Institutional-pressure opening focusing on the enterprise liability shift.",
+      "structure": "Enterprise liability lead -> Statutory penalties and financial stakes -> The parallel 4,000-driver capacity training rollout -> Route and terminal compliance constraints -> Forward operational audit edge.",
+      "source": "https://kenyans.co.ke/news/127352-ntsa-tightens-psv-rules-new-requirements-drivers-vehicles",
+      "published_at": "2026-09-25T14:02:49Z"
     }
   ]
 }
