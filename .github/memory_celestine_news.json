@@ -672,10 +672,10 @@
     "3d4ed9b3b8ea90d4dfca9bf9f6a2bfc7",
     "57d233ff95e1845e0a2aa794fe37b0fb",
     "15b2831e921587bb61027e3385f15f8d",
-    "b722aa11100d20d91ddc48035aea186d"
+    "b722aa11100d20d91ddc48035aea186d",
+    "f4b26bd430475b01a517b35196b1c340"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -704,7 +704,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -961,7 +962,8 @@
     "https://kenyans.co.ke/news/127332-ntsa-set-new-role-matatu-inspections-under-proposed-law",
     "https://kenyans.co.ke/news/127336-inside-china-kenyans-rarely-see",
     "https://kenyans.co.ke/news/127333-high-court-upholds-private-schools-right-review-fees-after-parents-challenge-6",
-    "https://kenyans.co.ke/news/127335-us-envoy-nominee-rules-out-backing-candidate-2027-election"
+    "https://kenyans.co.ke/news/127335-us-envoy-nominee-rules-out-backing-candidate-2027-election",
+    "https://kenyans.co.ke/news/127338-kuppet-threatens-boycott-2026-national-exams-over-teachers-allowances"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1140,7 +1142,8 @@
     "parliament moves strip bus manufacturers matatu inspection power conflict interest",
     "beyond bilateral media tour found streets beijing guangzhou",
     "when school fee hikes court paper trail saved private institution increment",
-    "camps court diaspora votes washington draws hard line 2027 neutrality"
+    "camps court diaspora votes washington draws hard line 2027 neutrality",
+    "kuppet uses october exam calendar force src allowance review challenge education bills"
   ],
   "topic_keys": [
     "news tracker",
@@ -2022,6 +2025,15 @@
       "structure": "Diaspora lobbying context -> Wooster's Senate testimony and neutrality pledge -> Strategic shift from Meg Whitman's tenure -> Forward-looking election timeline.",
       "source": "https://kenyans.co.ke/news/127335-us-envoy-nominee-rules-out-backing-candidate-2027-election",
       "published_at": "2026-09-24T18:54:08Z"
+    },
+    {
+      "title": "KUPPET Uses October Exam Calendar to Force SRC Allowance Review, Challenge Education Bills",
+      "angle": "Framing KUPPET's threat as an operational leverage strategy that connects teacher compensation scales under the SRC with a broader policy boycott against Parliament's basic education reform package on the eve of the October exam cycle.",
+      "angle_type": "institutional pressure",
+      "opening": "Calendar-pressure lead establishing how KUPPET is using the imminent October national assessment cycle to force concessions from both wage regulators and lawmakers.",
+      "structure": "Operational calendar lead -> Factual core of allowance demands and wage comparisons -> Dual policy battle against the Basic Education Bill -> Operational impact on school logistics -> Forward edge on upcoming deadlines.",
+      "source": "https://kenyans.co.ke/news/127338-kuppet-threatens-boycott-2026-national-exams-over-teachers-allowances",
+      "published_at": "2026-09-25T05:01:50Z"
     }
   ]
 }
