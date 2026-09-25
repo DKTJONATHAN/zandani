@@ -683,10 +683,10 @@
     "0f9f795f8e47003b34165f259df2d674",
     "c4a9b6b3911b7b96a4a6b09d69ce21ed",
     "e5fcf2ab509e2dc4d804e799e8e6cda5",
-    "c00e6255d229dc137a6b4b3d2acbcf1e"
+    "c00e6255d229dc137a6b4b3d2acbcf1e",
+    "79e8424286e202dbe1c28f58259eb44a"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -715,7 +715,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -983,7 +984,8 @@
     "https://kenyans.co.ke/news/127354-several-feared-trapped-gold-mine-collapses-migori",
     "https://kenyans.co.ke/news/127355-psk-appeals-county-governments-crack-down-unlicensed-pharmacies",
     "https://kenyans.co.ke/news/127352-ntsa-tightens-psv-rules-new-requirements-drivers-vehicles",
-    "https://kenyans.co.ke/news/127357-first-turkana-oil-drilling-rig-arrives-mombasa-ahead-december-deadline"
+    "https://kenyans.co.ke/news/127357-first-turkana-oil-drilling-rig-arrives-mombasa-ahead-december-deadline",
+    "https://kenyans.co.ke/news/127356-nyamira-residents-protest-death-24-year-old-man-police-custody"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1173,7 +1175,8 @@
     "midnight shaft collapse migori exposes risks building gold mines",
     "when trade permits mask illegal chemists psk warns counties revenue loophole",
     "ntsa enterprise directive puts psv sacco books regulatory crosshairs",
-    "inside logistics chain ksh2 rig heading turkana december oil target"
+    "inside logistics chain ksh2 rig heading turkana december oil target",
+    "nyamira protests test police service custodial death accountability rules"
   ],
   "topic_keys": [
     "news tracker",
@@ -2154,6 +2157,15 @@
       "structure": "Operational lead -> Rig specifications and vendor mobilization -> Road transit logistics and commissioning framework -> Infrastructure scale and refining context -> Forward deployment timeline.",
       "source": "https://kenyans.co.ke/news/127357-first-turkana-oil-drilling-rig-arrives-mombasa-ahead-december-deadline",
       "published_at": "2026-09-25T16:02:33Z"
+    },
+    {
+      "title": "Nyamira Protests Test Police Service's New Custodial Death Accountability Rules",
+      "angle": "The operational disconnect between the National Police Service's newly announced August enforcement protocol for custodial deaths\u2014which mandates immediate investigations and treats on-duty officers as persons of interest\u2014and the immediate public skepticism over custodial hanging narratives.",
+      "angle_type": "accountability",
+      "opening": "Protocol-and-skepticism lead connecting the newly minted NPS custody protocols directly to the community's swift backlash against the police's explanation.",
+      "structure": "Institutional policy lead -> Factual breakdown of the Naromoru arrest and hanging claim -> Family counter-narrative and financial/emotional burden -> The NPS August accountability framework test -> Forward unresolved investigative edge",
+      "source": "https://kenyans.co.ke/news/127356-nyamira-residents-protest-death-24-year-old-man-police-custody",
+      "published_at": "2026-09-25T17:02:43Z"
     }
   ]
 }
