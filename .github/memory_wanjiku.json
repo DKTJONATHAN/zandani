@@ -61,7 +61,8 @@
     "4405cc436590b5c516d855781c5b0169e13e85858a868ca9ea52870c122d2da1",
     "d9c505c23ba1ed193f4aac38c6715ceb89d31e3e734181075f952556370a8c5b",
     "e3a0b98d3cd6bdd4c73a20ddfb0010a0fc9ab3ca66eb81397a6a32b7707c42bb",
-    "94042c735f0a1c06e457a9ea27a0f040c1d015c35f457bdfba92dbe5c730c222"
+    "94042c735f0a1c06e457a9ea27a0f040c1d015c35f457bdfba92dbe5c730c222",
+    "71163bbe30e812fb6d38aac573c78040338e51908713616b0b548e9c879a893b"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -125,7 +126,8 @@
     "https://www.ghafla.co.ke/tanasha-donna-celebrates-zari-hassan-on-her-birthday/",
     "https://www.ghafla.co.ke/tumi-mathenge-and-jakes-nyanjom-hint-at-relationship-during-radio-interview/",
     "https://www.ghafla.co.ke/linus-kaikai-claims-kenya-is-a-one-term-nation-cites-electoral-manipulation-in-second-term-bids/",
-    "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-nairobi-nyeri-and-meru/"
+    "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-nairobi-nyeri-and-meru/",
+    "https://www.ghafla.co.ke/babu-owino-sets-record-straight-on-linda-mwananchi-partys-name-transition/"
   ],
   "published_angles": [
     {
@@ -607,6 +609,14 @@
       "opening": "Opens on the direct residential reality of Kitisuru's gated enclaves facing a full working-day utility cutoff.",
       "structure": "Suburban estate hook -> Nairobi corridor breakdown -> Nyeri healthcare and school grid -> Meru telecommunications, dairy, and water infrastructure -> Practical window close.",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-nairobi-nyeri-and-meru/"
+    },
+    {
+      "title": "Babu Owino Pivots to \u2018The Mwananchi Party\u2019 as Paper Trail Resolves \u2018Linda\u2019 Brand Feud",
+      "angle": "Framing the timeline release as Babu Owino's tactical paper-trail defense, using ORPP statutory dates to bypass a costly tribunal battle over the 'Linda' brand identity and secure an unassailable legal vehicle.",
+      "angle_type": "tactical political rebrand and regulatory paper trail",
+      "opening": "Personality lead focusing on Babu Owino deploying statutory receipts to lock in his political party identity away from tribunal crossfire.",
+      "structure": "Personality lead -> The 'Linda' brand dispute backdrop -> Detailed ORPP statutory chronology (Aug 4 to Sept 10) -> Legal objection handling -> Concrete close on statutory standing.",
+      "source": "https://www.ghafla.co.ke/babu-owino-sets-record-straight-on-linda-mwananchi-partys-name-transition/"
     }
   ],
   "style_history": [
