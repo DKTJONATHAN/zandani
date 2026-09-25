@@ -682,10 +682,10 @@
     "eb9ec34dd2b5486cda2711a4e0c80ea7",
     "0f9f795f8e47003b34165f259df2d674",
     "c4a9b6b3911b7b96a4a6b09d69ce21ed",
-    "e5fcf2ab509e2dc4d804e799e8e6cda5"
+    "e5fcf2ab509e2dc4d804e799e8e6cda5",
+    "c00e6255d229dc137a6b4b3d2acbcf1e"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -714,7 +714,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -981,7 +982,8 @@
     "https://kenyans.co.ke/news/127353-ruling-reveals-how-commercial-tenant-can-lose-millions-over-lease-breaches",
     "https://kenyans.co.ke/news/127354-several-feared-trapped-gold-mine-collapses-migori",
     "https://kenyans.co.ke/news/127355-psk-appeals-county-governments-crack-down-unlicensed-pharmacies",
-    "https://kenyans.co.ke/news/127352-ntsa-tightens-psv-rules-new-requirements-drivers-vehicles"
+    "https://kenyans.co.ke/news/127352-ntsa-tightens-psv-rules-new-requirements-drivers-vehicles",
+    "https://kenyans.co.ke/news/127357-first-turkana-oil-drilling-rig-arrives-mombasa-ahead-december-deadline"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1170,7 +1172,8 @@
     "ksh21 million cost empty court defense commercial lease disputes",
     "midnight shaft collapse migori exposes risks building gold mines",
     "when trade permits mask illegal chemists psk warns counties revenue loophole",
-    "ntsa enterprise directive puts psv sacco books regulatory crosshairs"
+    "ntsa enterprise directive puts psv sacco books regulatory crosshairs",
+    "inside logistics chain ksh2 rig heading turkana december oil target"
   ],
   "topic_keys": [
     "news tracker",
@@ -2142,6 +2145,15 @@
       "structure": "Enterprise liability lead -> Statutory penalties and financial stakes -> The parallel 4,000-driver capacity training rollout -> Route and terminal compliance constraints -> Forward operational audit edge.",
       "source": "https://kenyans.co.ke/news/127352-ntsa-tightens-psv-rules-new-requirements-drivers-vehicles",
       "published_at": "2026-09-25T14:02:49Z"
+    },
+    {
+      "title": "Inside the Logistics Chain of the Ksh2.6B Rig Heading to Turkana for December Oil Target",
+      "angle": "The operational execution and supply-chain logistics: examining the technical mobilization\u2014moving a 1,500-horsepower heavy rig from Oman to Mombasa, its road transit to Turkana, and the contracted multinational service web (Baker Hughes, SLB, GWDC) racing against a tight November 1 drilling commencement schedule.",
+      "angle_type": "practical change",
+      "opening": "Operational-logistics lead focusing on the physical transit and commissioning timeline of the heavy machinery.",
+      "structure": "Operational lead -> Rig specifications and vendor mobilization -> Road transit logistics and commissioning framework -> Infrastructure scale and refining context -> Forward deployment timeline.",
+      "source": "https://kenyans.co.ke/news/127357-first-turkana-oil-drilling-rig-arrives-mombasa-ahead-december-deadline",
+      "published_at": "2026-09-25T16:02:33Z"
     }
   ]
 }
