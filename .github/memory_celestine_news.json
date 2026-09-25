@@ -679,10 +679,10 @@
     "d0f3062aad403f3ae474dc96af24ada8",
     "a5db0104bab6551c66b2d45fea0b55d1",
     "672a92930784e1e88524a70c81472fa5",
-    "eb9ec34dd2b5486cda2711a4e0c80ea7"
+    "eb9ec34dd2b5486cda2711a4e0c80ea7",
+    "0f9f795f8e47003b34165f259df2d674"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -711,7 +711,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -975,7 +976,8 @@
     "https://kenyans.co.ke/news/127339-major-tax-changes-loom-treasury-sets-october-talks-kenyans",
     "https://kenyans.co.ke/news/127345-kra-explains-new-rental-tax-rules-targeting-landlords-living-abroad",
     "https://kenyans.co.ke/news/127349-nema-arrests-5-traders-coast-crackdown-banned-plastic-bags",
-    "https://kenyans.co.ke/news/127353-ruling-reveals-how-commercial-tenant-can-lose-millions-over-lease-breaches"
+    "https://kenyans.co.ke/news/127353-ruling-reveals-how-commercial-tenant-can-lose-millions-over-lease-breaches",
+    "https://kenyans.co.ke/news/127354-several-feared-trapped-gold-mine-collapses-migori"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1161,7 +1163,8 @@
     "treasury squeezes paye review window october tax talks loom",
     "diaspora rent clawback kra deputizing relatives enforce offshore property tax",
     "ksh2 million fine risk nema coast blitz targets traders industrial packagers",
-    "ksh21 million cost empty court defense commercial lease disputes"
+    "ksh21 million cost empty court defense commercial lease disputes",
+    "midnight shaft collapse migori exposes risks building gold mines"
   ],
   "topic_keys": [
     "news tracker",
@@ -2106,6 +2109,15 @@
       "structure": "Evidentiary lead -> Breakdown of the Malindi court's Ksh21.9 million ruling -> The fatal mistake of filing a paper-only defense -> The legal shift of proof in commercial disputes -> Operational implications for tenants altering leased premises.",
       "source": "https://kenyans.co.ke/news/127353-ruling-reveals-how-commercial-tenant-can-lose-millions-over-lease-breaches",
       "published_at": "2026-09-25T12:02:37Z"
+    },
+    {
+      "title": "Midnight Shaft Collapse in Migori Exposes Risks of Building Over Gold Mines",
+      "angle": "Reframing the story around the specific structural hazard of residential and commercial buildings constructed directly over subterranean mining shafts, which turned a midnight ground failure into a surface housing disaster.",
+      "angle_type": "consequence",
+      "opening": "Structural-hazard lead establishing how subterranean ground failure pulled surface residential and business structures down into mining voids.",
+      "structure": "Structural lead -> Midnight collapse details and trapped residents -> County response and rescue operational hurdles -> Comparison with regional underground mine fatalities -> Unresolved site safety and stability questions.",
+      "source": "https://kenyans.co.ke/news/127354-several-feared-trapped-gold-mine-collapses-migori",
+      "published_at": "2026-09-25T13:02:36Z"
     }
   ]
 }
