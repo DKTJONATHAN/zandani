@@ -673,10 +673,10 @@
     "57d233ff95e1845e0a2aa794fe37b0fb",
     "15b2831e921587bb61027e3385f15f8d",
     "b722aa11100d20d91ddc48035aea186d",
-    "f4b26bd430475b01a517b35196b1c340"
+    "f4b26bd430475b01a517b35196b1c340",
+    "03a84dd0766dd1ce677c9d3a1a8cb812"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -705,7 +705,8 @@
     "Event Report",
     "Desk Take",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -963,7 +964,8 @@
     "https://kenyans.co.ke/news/127336-inside-china-kenyans-rarely-see",
     "https://kenyans.co.ke/news/127333-high-court-upholds-private-schools-right-review-fees-after-parents-challenge-6",
     "https://kenyans.co.ke/news/127335-us-envoy-nominee-rules-out-backing-candidate-2027-election",
-    "https://kenyans.co.ke/news/127338-kuppet-threatens-boycott-2026-national-exams-over-teachers-allowances"
+    "https://kenyans.co.ke/news/127338-kuppet-threatens-boycott-2026-national-exams-over-teachers-allowances",
+    "https://kenyans.co.ke/news/127342-activist-mulinge-muteti-found-dumped-machakos-after-days-disappearance"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1143,7 +1145,8 @@
     "beyond bilateral media tour found streets beijing guangzhou",
     "when school fee hikes court paper trail saved private institution increment",
     "camps court diaspora votes washington draws hard line 2027 neutrality",
-    "kuppet uses october exam calendar force src allowance review challenge education bills"
+    "kuppet uses october exam calendar force src allowance review challenge education bills",
+    "price regional solidarity missing activist dumped lukenya corridor nairobi protests"
   ],
   "topic_keys": [
     "news tracker",
@@ -2034,6 +2037,15 @@
       "structure": "Operational calendar lead -> Factual core of allowance demands and wage comparisons -> Dual policy battle against the Basic Education Bill -> Operational impact on school logistics -> Forward edge on upcoming deadlines.",
       "source": "https://kenyans.co.ke/news/127338-kuppet-threatens-boycott-2026-national-exams-over-teachers-allowances",
       "published_at": "2026-09-25T05:01:50Z"
+    },
+    {
+      "title": "The Price of Regional Solidarity: Missing Activist Dumped in Lukenya Corridor After Nairobi Protests",
+      "angle": "The high physical and security costs of engaging in cross-border political solidarity in Nairobi, framed through the tactical nature of the abduction, the choice of a remote transit corridor (Lukenya) for dumping, and the reliance on informal civilian networks for rescue.",
+      "angle_type": "consequence",
+      "opening": "Theme-first lead establishing the physical and security hazards faced by Nairobi activists who step into regional political disputes.",
+      "structure": "Theme lead -> Details of the pre-dawn rescue and medical status -> Chronology of the disappearance following the regional solidarity protest -> Tactical pattern of highway-corridor dumpings -> Unresolved accountability questions.",
+      "source": "https://kenyans.co.ke/news/127342-activist-mulinge-muteti-found-dumped-machakos-after-days-disappearance",
+      "published_at": "2026-09-25T06:01:55Z"
     }
   ]
 }
