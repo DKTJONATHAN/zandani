@@ -62,7 +62,8 @@
     "d9c505c23ba1ed193f4aac38c6715ceb89d31e3e734181075f952556370a8c5b",
     "e3a0b98d3cd6bdd4c73a20ddfb0010a0fc9ab3ca66eb81397a6a32b7707c42bb",
     "94042c735f0a1c06e457a9ea27a0f040c1d015c35f457bdfba92dbe5c730c222",
-    "71163bbe30e812fb6d38aac573c78040338e51908713616b0b548e9c879a893b"
+    "71163bbe30e812fb6d38aac573c78040338e51908713616b0b548e9c879a893b",
+    "399fad367dfb4951c4b14beb30952d9f9ce72480d07791df4be25276d99d62fc"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -127,7 +128,8 @@
     "https://www.ghafla.co.ke/tumi-mathenge-and-jakes-nyanjom-hint-at-relationship-during-radio-interview/",
     "https://www.ghafla.co.ke/linus-kaikai-claims-kenya-is-a-one-term-nation-cites-electoral-manipulation-in-second-term-bids/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-nairobi-nyeri-and-meru/",
-    "https://www.ghafla.co.ke/babu-owino-sets-record-straight-on-linda-mwananchi-partys-name-transition/"
+    "https://www.ghafla.co.ke/babu-owino-sets-record-straight-on-linda-mwananchi-partys-name-transition/",
+    "https://www.ghafla.co.ke/mashujaa-day-preparations-gain-momentum-as-kipchoge-keino-stadium-reaches-68-per-cent-completion/"
   ],
   "published_angles": [
     {
@@ -617,6 +619,14 @@
       "opening": "Personality lead focusing on Babu Owino deploying statutory receipts to lock in his political party identity away from tribunal crossfire.",
       "structure": "Personality lead -> The 'Linda' brand dispute backdrop -> Detailed ORPP statutory chronology (Aug 4 to Sept 10) -> Legal objection handling -> Concrete close on statutory standing.",
       "source": "https://www.ghafla.co.ke/babu-owino-sets-record-straight-on-linda-mwananchi-partys-name-transition/"
+    },
+    {
+      "title": "Inside the Three-County Rift Valley Setup as Kipchoge Keino Hits 68 Per Cent",
+      "angle": "Focusing on the logistical squeeze and regional showcase of hosting a national holiday across three separate Rift Valley counties for the first time, detailing the exact stadium completion metrics and thematic focus.",
+      "angle_type": "regional logistical rollout and infrastructure readiness",
+      "opening": "Start directly with the unprecedented three-county footprint of the national celebration.",
+      "structure": "Multi-county hosting hook -> Specific stadium completion stats -> Urban infrastructural upgrades in Eldoret, Kapsabet, and Iten -> Multi-agency security and regional economic framing.",
+      "source": "https://www.ghafla.co.ke/mashujaa-day-preparations-gain-momentum-as-kipchoge-keino-stadium-reaches-68-per-cent-completion/"
     }
   ],
   "style_history": [
