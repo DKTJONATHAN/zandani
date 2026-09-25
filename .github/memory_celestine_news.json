@@ -674,10 +674,10 @@
     "15b2831e921587bb61027e3385f15f8d",
     "b722aa11100d20d91ddc48035aea186d",
     "f4b26bd430475b01a517b35196b1c340",
-    "03a84dd0766dd1ce677c9d3a1a8cb812"
+    "03a84dd0766dd1ce677c9d3a1a8cb812",
+    "75d213ac6c4161d6bb676e87c3cfecab"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -706,7 +706,8 @@
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -965,7 +966,8 @@
     "https://kenyans.co.ke/news/127333-high-court-upholds-private-schools-right-review-fees-after-parents-challenge-6",
     "https://kenyans.co.ke/news/127335-us-envoy-nominee-rules-out-backing-candidate-2027-election",
     "https://kenyans.co.ke/news/127338-kuppet-threatens-boycott-2026-national-exams-over-teachers-allowances",
-    "https://kenyans.co.ke/news/127342-activist-mulinge-muteti-found-dumped-machakos-after-days-disappearance"
+    "https://kenyans.co.ke/news/127342-activist-mulinge-muteti-found-dumped-machakos-after-days-disappearance",
+    "https://kenyans.co.ke/news/127343-ruto-tour-dangotes-lagos-refinery-nigeria-ahead-lamu-groundbreaking"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1146,7 +1148,8 @@
     "when school fee hikes court paper trail saved private institution increment",
     "camps court diaspora votes washington draws hard line 2027 neutrality",
     "kuppet uses october exam calendar force src allowance review challenge education bills",
-    "price regional solidarity missing activist dumped lukenya corridor nairobi protests"
+    "price regional solidarity missing activist dumped lukenya corridor nairobi protests",
+    "exporting lekki model inside ksh2 trillion plan behind lamu mega refinery"
   ],
   "topic_keys": [
     "news tracker",
@@ -2046,6 +2049,15 @@
       "structure": "Theme lead -> Details of the pre-dawn rescue and medical status -> Chronology of the disappearance following the regional solidarity protest -> Tactical pattern of highway-corridor dumpings -> Unresolved accountability questions.",
       "source": "https://kenyans.co.ke/news/127342-activist-mulinge-muteti-found-dumped-machakos-after-days-disappearance",
       "published_at": "2026-09-25T06:01:55Z"
+    },
+    {
+      "title": "Exporting the Lekki Model: Inside the Ksh2.2 Trillion Plan Behind Lamu\u2019s Mega-Refinery",
+      "angle": "Framing the event through the direct transfer of industrial and engineering architecture from Lagos to Lamu, highlighting shared Indian state contractors, AFC financing, and the massive capacity expansion driving East Africa's energy shift.",
+      "angle_type": "money",
+      "opening": "Industrial strategy opening establishing Lamu as an intentional East African replication of Dangote's West African refining complex.",
+      "structure": "Strategy lead -> Lagos walkthrough & UNGA financial alignment -> Shared engineering vendor & capacity mechanics -> Local economic footprint & fuel security -> Forward edge to site groundbreaking.",
+      "source": "https://kenyans.co.ke/news/127343-ruto-tour-dangotes-lagos-refinery-nigeria-ahead-lamu-groundbreaking",
+      "published_at": "2026-09-25T07:02:34Z"
     }
   ]
 }
