@@ -676,10 +676,10 @@
     "f4b26bd430475b01a517b35196b1c340",
     "03a84dd0766dd1ce677c9d3a1a8cb812",
     "75d213ac6c4161d6bb676e87c3cfecab",
-    "d0f3062aad403f3ae474dc96af24ada8"
+    "d0f3062aad403f3ae474dc96af24ada8",
+    "a5db0104bab6551c66b2d45fea0b55d1"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -708,7 +708,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -969,7 +970,8 @@
     "https://kenyans.co.ke/news/127338-kuppet-threatens-boycott-2026-national-exams-over-teachers-allowances",
     "https://kenyans.co.ke/news/127342-activist-mulinge-muteti-found-dumped-machakos-after-days-disappearance",
     "https://kenyans.co.ke/news/127343-ruto-tour-dangotes-lagos-refinery-nigeria-ahead-lamu-groundbreaking",
-    "https://kenyans.co.ke/news/127339-major-tax-changes-loom-treasury-sets-october-talks-kenyans"
+    "https://kenyans.co.ke/news/127339-major-tax-changes-loom-treasury-sets-october-talks-kenyans",
+    "https://kenyans.co.ke/news/127345-kra-explains-new-rental-tax-rules-targeting-landlords-living-abroad"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1152,7 +1154,8 @@
     "kuppet uses october exam calendar force src allowance review challenge education bills",
     "price regional solidarity missing activist dumped lukenya corridor nairobi protests",
     "exporting lekki model inside ksh2 trillion plan behind lamu mega refinery",
-    "treasury squeezes paye review window october tax talks loom"
+    "treasury squeezes paye review window october tax talks loom",
+    "diaspora rent clawback kra deputizing relatives enforce offshore property tax"
   ],
   "topic_keys": [
     "news tracker",
@@ -2070,6 +2073,15 @@
       "structure": "Scheduling pressure lead -> PAYE threshold breakdown -> Seven-day thematic week framework -> Public participation compliance context",
       "source": "https://kenyans.co.ke/news/127339-major-tax-changes-loom-treasury-sets-october-talks-kenyans",
       "published_at": "2026-09-25T07:21:19Z"
+    },
+    {
+      "title": "The 30% Diaspora Rent Clawback: How KRA Is Deputizing Relatives to Enforce Offshore Property Tax",
+      "angle": "The steep fourfold financial disparity between diaspora and domestic rental tax rates, paired with the operational liability shifted onto local relatives and caretakers who are now treated as statutory withholding agents.",
+      "angle_type": "money",
+      "opening": "Disparity-and-liability lead contrasting the 30 percent gross clawback against the domestic 7.5 percent benchmark while identifying the local intermediaries pulled into tax enforcement.",
+      "structure": "Disparity lead -> Financial arithmetic and operational mechanics -> The proxy withholding role of relatives and agents -> Penalty structure and compliance calendar -> Forward enforcement edge.",
+      "source": "https://kenyans.co.ke/news/127345-kra-explains-new-rental-tax-rules-targeting-landlords-living-abroad",
+      "published_at": "2026-09-25T08:02:46Z"
     }
   ]
 }
