@@ -680,10 +680,10 @@
     "a5db0104bab6551c66b2d45fea0b55d1",
     "672a92930784e1e88524a70c81472fa5",
     "eb9ec34dd2b5486cda2711a4e0c80ea7",
-    "0f9f795f8e47003b34165f259df2d674"
+    "0f9f795f8e47003b34165f259df2d674",
+    "c4a9b6b3911b7b96a4a6b09d69ce21ed"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -712,7 +712,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -977,7 +978,8 @@
     "https://kenyans.co.ke/news/127345-kra-explains-new-rental-tax-rules-targeting-landlords-living-abroad",
     "https://kenyans.co.ke/news/127349-nema-arrests-5-traders-coast-crackdown-banned-plastic-bags",
     "https://kenyans.co.ke/news/127353-ruling-reveals-how-commercial-tenant-can-lose-millions-over-lease-breaches",
-    "https://kenyans.co.ke/news/127354-several-feared-trapped-gold-mine-collapses-migori"
+    "https://kenyans.co.ke/news/127354-several-feared-trapped-gold-mine-collapses-migori",
+    "https://kenyans.co.ke/news/127355-psk-appeals-county-governments-crack-down-unlicensed-pharmacies"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1164,7 +1166,8 @@
     "diaspora rent clawback kra deputizing relatives enforce offshore property tax",
     "ksh2 million fine risk nema coast blitz targets traders industrial packagers",
     "ksh21 million cost empty court defense commercial lease disputes",
-    "midnight shaft collapse migori exposes risks building gold mines"
+    "midnight shaft collapse migori exposes risks building gold mines",
+    "when trade permits mask illegal chemists psk warns counties revenue loophole"
   ],
   "topic_keys": [
     "news tracker",
@@ -2118,6 +2121,15 @@
       "structure": "Structural lead -> Midnight collapse details and trapped residents -> County response and rescue operational hurdles -> Comparison with regional underground mine fatalities -> Unresolved site safety and stability questions.",
       "source": "https://kenyans.co.ke/news/127354-several-feared-trapped-gold-mine-collapses-migori",
       "published_at": "2026-09-25T13:02:36Z"
+    },
+    {
+      "title": "When Trade Permits Mask Illegal Chemists: PSK Warns Counties on Revenue Loophole",
+      "angle": "The administrative conflict between county revenue collection and national medical safety: municipal Single Business Permits create a commercial shield for unlawful drug shops, bypassing statutory pharmacy standards while 50 percent of registered pharmacists fail to renew their annual practice licences.",
+      "angle_type": "accountability",
+      "opening": "Accountability lead focusing on the regulatory cover provided by municipal revenue collection over statutory pharmacy licensing.",
+      "structure": "Regulatory tension lead -> Factual core of the PSK intervention -> The statutory boundary between county revenue and PPB oversight -> Professional workforce drop-off numbers -> Joint enforcement and distribution implications",
+      "source": "https://kenyans.co.ke/news/127355-psk-appeals-county-governments-crack-down-unlicensed-pharmacies",
+      "published_at": "2026-09-25T13:24:44Z"
     }
   ]
 }
