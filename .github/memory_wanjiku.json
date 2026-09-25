@@ -67,7 +67,8 @@
     "fc352514a28364ae4b7b64c644cf1eaf38256b24f0620fc7b71a6dddefa91351",
     "c24a7c29799a6d822d5f452a11ab600480bbfb0f536def4acf23cc84fd64c90a",
     "14b67525c1f62a1d283bc85edc1ee48809384cb94dfdd0986beafaf835ce2c1e",
-    "57a942836f1345e5f4fa4a3b25ff182a9ed9b674f37d0972bafcadff9e879634"
+    "57a942836f1345e5f4fa4a3b25ff182a9ed9b674f37d0972bafcadff9e879634",
+    "3d9b8e18011c3250f31638d3126205ea23837cfbbc075bc22bb858389e90c9cb"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -137,7 +138,8 @@
     "https://www.ghafla.co.ke/he-made-you-question-everything-winnie-odinga-pays-moving-tribute-to-late-father/",
     "https://www.ghafla.co.ke/super-el-nino-projected-to-cause-over-450000-global-deaths-by-early-2027/",
     "https://www.ghafla.co.ke/almasi-tells-fans-to-leave-him-alone-in-playful-public-service-announcement/",
-    "https://www.ghafla.co.ke/boniface-mwangi-backs-babu-owino-and-edwin-sifuna-as-key-figures-in-opposition-strategy/"
+    "https://www.ghafla.co.ke/boniface-mwangi-backs-babu-owino-and-edwin-sifuna-as-key-figures-in-opposition-strategy/",
+    "https://www.ghafla.co.ke/na-mzoee-mapema-mapema-herman-manyora-declares-ruto-a-tutam-president/"
   ],
   "published_angles": [
     {
@@ -667,6 +669,14 @@
       "opening": "Personality-led opening focusing on Boniface Mwangi granting Babu Owino an unexpected character clearance based on his post-tragedy lifestyle transformation.",
       "structure": "Introduction of the 'Damascus moment' -> Detail of the sobriety and lifestyle change -> Mwangi's departure from typical activist purism -> The political pragmatism of the Babu-Sifuna truce -> Conclusion on the reality of pragmatic alliances.",
       "source": "https://www.ghafla.co.ke/boniface-mwangi-backs-babu-owino-and-edwin-sifuna-as-key-figures-in-opposition-strategy/"
+    },
+    {
+      "title": "\u201cNa Mzoee Mapema\u201d: Herman Manyora Crowns Ruto a \u2018Tutam\u2019 President Over Opposition\u2019s Tax Policy Void",
+      "angle": "Framing Manyora's 'Tutam' declaration as a diagnostic critique of the opposition's economic policy void\u2014arguing his early call stems directly from the opposition failing to table a painless alternative tax plan.",
+      "angle_type": "commentator reality check and opposition economic policy critique",
+      "opening": "Personality-led opening on Herman Manyora invoking 'Tutam' to deliver a blunt policy challenge to opposition strategists.",
+      "structure": "Quote/hook -> Economic policy gap analysis -> Opposition rhetoric challenge -> Pragmatic election projection -> Concrete conclusion on opposition homework.",
+      "source": "https://www.ghafla.co.ke/na-mzoee-mapema-mapema-herman-manyora-declares-ruto-a-tutam-president/"
     }
   ],
   "style_history": [
