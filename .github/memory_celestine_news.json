@@ -689,10 +689,10 @@
     "f8b407a09e0dcf5c28cd1cceb46fdf92",
     "8b5054b9eec5537eb0dce1cef937daec",
     "4cbe3d815e70c435f39f7d4dfb869418",
-    "999a3e480c9b99cc7d574b5f78033279"
+    "999a3e480c9b99cc7d574b5f78033279",
+    "8fc3b507d84e5c9c1ac45ddd6af970e9"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -721,7 +721,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -995,7 +996,8 @@
     "https://kenyans.co.ke/news/127364-epra-introduces-fines-illegal-dumping-excess-solar-power-grid",
     "https://kenyans.co.ke/news/127366-dangote-eyes-electricity-sales-kenya-lamu-refinery-power-plant",
     "https://kenyans.co.ke/news/127359-wanted-woman-arrested-ksh135m-cocaine-jkia",
-    "https://kenyans.co.ke/news/127367-explainer-why-many-lifts-are-fitted-mirrors"
+    "https://kenyans.co.ke/news/127367-explainer-why-many-lifts-are-fitted-mirrors",
+    "https://kenyans.co.ke/news/127371-panic-truck-overturns-car-along-mombasa-nairobi-highway-kiboko"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1191,7 +1193,8 @@
     "grid volatility squeeze epra penalizing unapproved solar feed ins",
     "dangote dual bet lamu refinery eyes 500mw power merchant role",
     "jkia cocaine intercept triggers fiu trail ksh13 asian smuggling route",
-    "beyond vanity cabin mirrors solve structural constraints modern lifts"
+    "beyond vanity cabin mirrors solve structural constraints modern lifts",
+    "loddca issues highway alert freight truck flattens car kiboko"
   ],
   "topic_keys": [
     "news tracker",
@@ -2226,6 +2229,15 @@
       "structure": "Functional design lead -> Accessibility mechanics for wheelchair users -> Personal security and blind-spot mitigation -> Cabin psychology and perceived travel time -> Operational handling during construction and cargo transit",
       "source": "https://kenyans.co.ke/news/127367-explainer-why-many-lifts-are-fitted-mirrors",
       "published_at": "2026-09-26T10:02:40Z"
+    },
+    {
+      "title": "LoDDCA Issues Highway Alert After Freight Truck Flattens Car at Kiboko",
+      "angle": "Framing the Kiboko crash through the immediate operational warning issued by the Long Distance Drivers and Conductors Association of Kenya (LoDDCA), examining the recurring pattern of heavy freight crushing passenger vehicles on the single-carriageway sections of the corridor.",
+      "angle_type": "institutional pressure",
+      "opening": "Attribution-first opening leading with the long-distance transport lobby's corridor alert following the Kiboko rollover.",
+      "structure": "Lobby caution lead -> Core crash details at Kiboko -> Rescue dynamics and casualty unknowns -> Pattern of heavy-freight collisions (Taru and Kwa DC) -> Corridor infrastructure demands",
+      "source": "https://kenyans.co.ke/news/127371-panic-truck-overturns-car-along-mombasa-nairobi-highway-kiboko",
+      "published_at": "2026-09-26T11:02:36Z"
     }
   ]
 }
