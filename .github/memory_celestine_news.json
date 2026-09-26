@@ -694,10 +694,10 @@
     "aeaed8beaecc6e106e2ce11a8f0e12fa",
     "85be3d10ca810f612b529eaa36a454f4",
     "f6b989e624e9fce1964561f2b6d7d0de",
-    "8aa85ca4042ae07abc89bfd16cf4ec41"
+    "8aa85ca4042ae07abc89bfd16cf4ec41",
+    "aba127808682ace53e9e6abab8288a47"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -726,7 +726,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1005,7 +1006,8 @@
     "https://kenyans.co.ke/news/127374-kenya-records-111-billion-cyber-threats-202526-financial-year-ca-report",
     "https://kenyans.co.ke/news/127380-nema-opens-public-review-proposed-10000-seat-nairobi-arena",
     "https://kenyans.co.ke/news/127379-nlc-issues-fresh-land-acquisition-notices-sgr-and-several-road-projects",
-    "https://kenyans.co.ke/news/127378-dangote-refinery-2930-tonnes-machinery-arrive-lamu"
+    "https://kenyans.co.ke/news/127378-dangote-refinery-2930-tonnes-machinery-arrive-lamu",
+    "https://kenyans.co.ke/news/127376-us-embassy-warns-possible-data-breach-kenya-ebola-screening-travellers"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1206,7 +1208,8 @@
     "behind 11b threat surge unpatched flaws anchor cyber vulnerability",
     "nema puts masai ujiri ksh38b railway city arena day public test",
     "nlc gazettes land inquiries across four counties sgr infrastructure works",
-    "lamu port enters heavy lift staging role 930 tonne dangote cargo docks"
+    "lamu port enters heavy lift staging role 930 tonne dangote cargo docks",
+    "ebola screening breach puts four months regional border data risk"
   ],
   "topic_keys": [
     "news tracker",
@@ -2286,6 +2289,15 @@
       "structure": "Maritime staging lead -> Vessel arrival and cargo specifications -> KPA operational reception -> Engineering management structure (Ksh58B Indian state contract) -> Forward countdown to next week's site groundbreaking.",
       "source": "https://kenyans.co.ke/news/127378-dangote-refinery-2930-tonnes-machinery-arrive-lamu",
       "published_at": "2026-09-26T19:40:51Z"
+    },
+    {
+      "title": "Ebola Screening Breach Puts Four Months of Regional Border Data at Risk",
+      "angle": "Reframing the incident around the specific institutional vulnerability of mandatory border health surveillance: how four months of paired travel identification and clinical screening logs covering 10 regional states became an unverified exposure point without established breach parameters or containment scope.",
+      "angle_type": "accountability",
+      "opening": "Vulnerability-first lead focusing on the sensitive combination of travel credentials and medical surveillance records collected under mandatory border screening.",
+      "structure": "Border surveillance exposure lead -> Core incident details and geographic scope -> The anatomy of paired data risks (passports plus clinical logs) -> Administrative silence and cyber threat landscape context -> Unresolved disclosure timeline.",
+      "source": "https://kenyans.co.ke/news/127376-us-embassy-warns-possible-data-breach-kenya-ebola-screening-travellers",
+      "published_at": "2026-09-26T22:02:21Z"
     }
   ]
 }
