@@ -688,10 +688,10 @@
     "ad9e3531f63e0f4337cae6bf5ce318b2",
     "f8b407a09e0dcf5c28cd1cceb46fdf92",
     "8b5054b9eec5537eb0dce1cef937daec",
-    "4cbe3d815e70c435f39f7d4dfb869418"
+    "4cbe3d815e70c435f39f7d4dfb869418",
+    "999a3e480c9b99cc7d574b5f78033279"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -720,7 +720,8 @@
     "Statement Report",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -993,7 +994,8 @@
     "https://kenyans.co.ke/news/127360-missing-activist-collins-otieno-found-dumped-along-thika-road-rushed-hospital",
     "https://kenyans.co.ke/news/127364-epra-introduces-fines-illegal-dumping-excess-solar-power-grid",
     "https://kenyans.co.ke/news/127366-dangote-eyes-electricity-sales-kenya-lamu-refinery-power-plant",
-    "https://kenyans.co.ke/news/127359-wanted-woman-arrested-ksh135m-cocaine-jkia"
+    "https://kenyans.co.ke/news/127359-wanted-woman-arrested-ksh135m-cocaine-jkia",
+    "https://kenyans.co.ke/news/127367-explainer-why-many-lifts-are-fitted-mirrors"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1188,7 +1190,8 @@
     "search turned trap reporting missing activist triggered second thika road abduction",
     "grid volatility squeeze epra penalizing unapproved solar feed ins",
     "dangote dual bet lamu refinery eyes 500mw power merchant role",
-    "jkia cocaine intercept triggers fiu trail ksh13 asian smuggling route"
+    "jkia cocaine intercept triggers fiu trail ksh13 asian smuggling route",
+    "beyond vanity cabin mirrors solve structural constraints modern lifts"
   ],
   "topic_keys": [
     "news tracker",
@@ -2214,6 +2217,15 @@
       "structure": "Enforcement shift lead -> Interception mechanics and seizure breakdown -> Outbound transit route and year-long watch list context -> Multi-agency financial net and FIU mandate -> Next legal steps and custody status",
       "source": "https://kenyans.co.ke/news/127359-wanted-woman-arrested-ksh135m-cocaine-jkia",
       "published_at": "2026-09-26T07:16:43Z"
+    },
+    {
+      "title": "Beyond Vanity: How Cabin Mirrors Solve the Structural Constraints of Modern Lifts",
+      "angle": "Reframing the presence of elevator mirrors as an architectural and accessibility solution to physical cabin constraints, highlighting how reflective glass compensates for narrow turning radii for wheelchair users and mitigates spatial claustrophobia without expanding shaft dimensions.",
+      "angle_type": "practical change",
+      "opening": "Functional-design lead contrasting the common assumption of vanity with the operational mechanics of cabin navigation and passenger safety.",
+      "structure": "Functional design lead -> Accessibility mechanics for wheelchair users -> Personal security and blind-spot mitigation -> Cabin psychology and perceived travel time -> Operational handling during construction and cargo transit",
+      "source": "https://kenyans.co.ke/news/127367-explainer-why-many-lifts-are-fitted-mirrors",
+      "published_at": "2026-09-26T10:02:40Z"
     }
   ]
 }
