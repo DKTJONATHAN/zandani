@@ -695,10 +695,10 @@
     "85be3d10ca810f612b529eaa36a454f4",
     "f6b989e624e9fce1964561f2b6d7d0de",
     "8aa85ca4042ae07abc89bfd16cf4ec41",
-    "aba127808682ace53e9e6abab8288a47"
+    "aba127808682ace53e9e6abab8288a47",
+    "019e4243ccf8d14753f73e7b05571b6b"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -727,7 +727,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1007,7 +1008,8 @@
     "https://kenyans.co.ke/news/127380-nema-opens-public-review-proposed-10000-seat-nairobi-arena",
     "https://kenyans.co.ke/news/127379-nlc-issues-fresh-land-acquisition-notices-sgr-and-several-road-projects",
     "https://kenyans.co.ke/news/127378-dangote-refinery-2930-tonnes-machinery-arrive-lamu",
-    "https://kenyans.co.ke/news/127376-us-embassy-warns-possible-data-breach-kenya-ebola-screening-travellers"
+    "https://kenyans.co.ke/news/127376-us-embassy-warns-possible-data-breach-kenya-ebola-screening-travellers",
+    "https://kenyans.co.ke/news/127375-kenya-met-lists-nairobi-among-counties-set-rains-over-next-five-days"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1209,7 +1211,8 @@
     "nema puts masai ujiri ksh38b railway city arena day public test",
     "nlc gazettes land inquiries across four counties sgr infrastructure works",
     "lamu port enters heavy lift staging role 930 tonne dangote cargo docks",
-    "ebola screening breach puts four months regional border data risk"
+    "ebola screening breach puts four months regional border data risk",
+    "met forecast pairs highland cold snap down scattered showers"
   ],
   "topic_keys": [
     "news tracker",
@@ -2298,6 +2301,15 @@
       "structure": "Border surveillance exposure lead -> Core incident details and geographic scope -> The anatomy of paired data risks (passports plus clinical logs) -> Administrative silence and cyber threat landscape context -> Unresolved disclosure timeline.",
       "source": "https://kenyans.co.ke/news/127376-us-embassy-warns-possible-data-breach-kenya-ebola-screening-travellers",
       "published_at": "2026-09-26T22:02:21Z"
+    },
+    {
+      "title": "Kenya Met Forecast Pairs Highland Cold Snap Down to 5\u00b0C With Scattered Showers",
+      "angle": "Reframing the forecast around the sharp thermal divide and commuter exposure: pairing an acute overnight cold snap dropping to 5\u00b0C across the central highlands with ill-timed morning and evening showers in the capital, set against extreme near-40\u00b0C heat in the northern frontier.",
+      "angle_type": "local impact",
+      "opening": "Hard news impact lead establishing the temperature collapse across the central ridge alongside targeted metropolitan rainfall windows.",
+      "structure": "Impact lead -> Overnight thermal plunge breakdown -> Nairobi and Central commuter rain timing -> Western and Lake Victoria belt patterns -> Northern frontier thermal contrast -> Operational outlook close.",
+      "source": "https://kenyans.co.ke/news/127375-kenya-met-lists-nairobi-among-counties-set-rains-over-next-five-days",
+      "published_at": "2026-09-26T22:32:09Z"
     }
   ]
 }
