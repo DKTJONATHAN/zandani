@@ -75,7 +75,8 @@
     "3cfec6761e829abeaadaab966134fcfd3128d4715883baac3fe940e41568318e",
     "ff8a8223d23aa7c889a92ba7c15c15dd6ca1d85b1a90bf695aa03ec0128b3a33",
     "2ebcbb750047f825760d1070f0db5dba5bbb7057d5018989eca2112fd9e69afc",
-    "30694c7629d5d77b001de336b3a6e765c9bef07a65cefb477d2acf204a069432"
+    "30694c7629d5d77b001de336b3a6e765c9bef07a65cefb477d2acf204a069432",
+    "f6ffc845ab6274d706750d06d51dd3175242831d4291f5b072cdaf1965f016cc"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -153,7 +154,8 @@
     "https://www.ghafla.co.ke/deputy-president-kindiki-outlines-strategic-plan-to-tackle-expected-el-nino-flooding/",
     "https://www.ghafla.co.ke/president-william-ruto-tours-dangote-refinery-in-nigeria-ahead-of-lamu-groundbreaking/",
     "https://www.ghafla.co.ke/president-ruto-and-fifa-boss-gianni-infantino-discuss-proposed-fifa-standard-stadium-in-mombasa/",
-    "https://www.ghafla.co.ke/detectives-recover-motorcycle-allegedly-used-to-ferry-gunman-in-kyalo-mbobu-murder/"
+    "https://www.ghafla.co.ke/detectives-recover-motorcycle-allegedly-used-to-ferry-gunman-in-kyalo-mbobu-murder/",
+    "https://www.ghafla.co.ke/kalonzo-tops-opposition-flagbearer-poll-as-sifuna-camp-pushes-2027-bid/"
   ],
   "published_angles": [
     {
@@ -747,6 +749,14 @@
       "opening": "Direct focus on the physical asset recovery and the multi-owner paper trail unravelled by homicide detectives.",
       "structure": "Physical asset recovery lead -> Tracing succession of owners -> Forensic examination at homicide headquarters -> Broader investigation and legal preparation.",
       "source": "https://www.ghafla.co.ke/detectives-recover-motorcycle-allegedly-used-to-ferry-gunman-in-kyalo-mbobu-murder/"
+    },
+    {
+      "title": "Running Mate or Kingpin? Inside the Tug-of-War Over Sifuna\u2019s 2027 Ambition",
+      "angle": "Focusing on the conflicting political scripts being handed to Nairobi Senator Edwin Sifuna\u2014with Kalonzo Musyoka's team drafting him as a compliant October running mate while George Natembeya brazenly stakes out Cyrus Jirongo's vintage UDP as Sifuna's independent presidential vehicle.",
+      "angle_type": "political personality clash and conflicting campaign scripts",
+      "opening": "Personality lead directly on Edwin Sifuna facing two sharply contradictory political paths mapped out by rival opposition factions.",
+      "structure": "Personality hook -> Natembeya's UDP play and Linda Mwananchi alliance -> Kalonzo's competing October running mate blueprint -> The Mizani poll reality check and numbers breakdown -> The unresolved ticket dilemma.",
+      "source": "https://www.ghafla.co.ke/kalonzo-tops-opposition-flagbearer-poll-as-sifuna-camp-pushes-2027-bid/"
     }
   ],
   "style_history": [
