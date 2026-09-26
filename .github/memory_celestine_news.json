@@ -686,10 +686,10 @@
     "c00e6255d229dc137a6b4b3d2acbcf1e",
     "79e8424286e202dbe1c28f58259eb44a",
     "ad9e3531f63e0f4337cae6bf5ce318b2",
-    "f8b407a09e0dcf5c28cd1cceb46fdf92"
+    "f8b407a09e0dcf5c28cd1cceb46fdf92",
+    "8b5054b9eec5537eb0dce1cef937daec"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Desk Take",
     "Statement Report",
@@ -718,7 +718,8 @@
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -989,7 +990,8 @@
     "https://kenyans.co.ke/news/127357-first-turkana-oil-drilling-rig-arrives-mombasa-ahead-december-deadline",
     "https://kenyans.co.ke/news/127356-nyamira-residents-protest-death-24-year-old-man-police-custody",
     "https://kenyans.co.ke/news/127360-missing-activist-collins-otieno-found-dumped-along-thika-road-rushed-hospital",
-    "https://kenyans.co.ke/news/127364-epra-introduces-fines-illegal-dumping-excess-solar-power-grid"
+    "https://kenyans.co.ke/news/127364-epra-introduces-fines-illegal-dumping-excess-solar-power-grid",
+    "https://kenyans.co.ke/news/127366-dangote-eyes-electricity-sales-kenya-lamu-refinery-power-plant"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1182,7 +1184,8 @@
     "inside logistics chain ksh2 rig heading turkana december oil target",
     "nyamira protests test police service custodial death accountability rules",
     "search turned trap reporting missing activist triggered second thika road abduction",
-    "grid volatility squeeze epra penalizing unapproved solar feed ins"
+    "grid volatility squeeze epra penalizing unapproved solar feed ins",
+    "dangote dual bet lamu refinery eyes 500mw power merchant role"
   ],
   "topic_keys": [
     "news tracker",
@@ -2190,6 +2193,15 @@
       "structure": "Grid volatility lead -> Surcharge mechanics & base-tariff penalty -> Net-Metering Regulations 2024 capacity limits (1 MW) -> Peak vs low-load generation metrics (1,900 MW / 1,200 MW) -> Field safety & forward compliance edge.",
       "source": "https://kenyans.co.ke/news/127364-epra-introduces-fines-illegal-dumping-excess-solar-power-grid",
       "published_at": "2026-09-26T06:02:28Z"
+    },
+    {
+      "title": "Dangote\u2019s Dual Bet: Lamu Refinery Eyes 500MW Power Merchant Role in Kenya",
+      "angle": "Reframing the project from an oil processing facility into a major independent utility supplier, where Dangote leverages captive refining energy to position himself as a massive baseload electricity off-taker for the national grid.",
+      "angle_type": "practical change",
+      "opening": "Utility-scale structural shift opening focusing on the energy off-take proposition rather than diplomatic pleasantries.",
+      "structure": "Grid-scale proposition lead -> Bilateral Lekki disclosure mechanics -> Industrial technical specs (coker & RFCC) -> Crude supply linkage with Turkana rig arrival -> State land commitment and commercial off-take implications",
+      "source": "https://kenyans.co.ke/news/127366-dangote-eyes-electricity-sales-kenya-lamu-refinery-power-plant",
+      "published_at": "2026-09-26T07:02:34Z"
     }
   ]
 }
