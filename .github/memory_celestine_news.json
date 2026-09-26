@@ -690,10 +690,10 @@
     "8b5054b9eec5537eb0dce1cef937daec",
     "4cbe3d815e70c435f39f7d4dfb869418",
     "999a3e480c9b99cc7d574b5f78033279",
-    "8fc3b507d84e5c9c1ac45ddd6af970e9"
+    "8fc3b507d84e5c9c1ac45ddd6af970e9",
+    "aeaed8beaecc6e106e2ce11a8f0e12fa"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -722,7 +722,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -997,7 +998,8 @@
     "https://kenyans.co.ke/news/127366-dangote-eyes-electricity-sales-kenya-lamu-refinery-power-plant",
     "https://kenyans.co.ke/news/127359-wanted-woman-arrested-ksh135m-cocaine-jkia",
     "https://kenyans.co.ke/news/127367-explainer-why-many-lifts-are-fitted-mirrors",
-    "https://kenyans.co.ke/news/127371-panic-truck-overturns-car-along-mombasa-nairobi-highway-kiboko"
+    "https://kenyans.co.ke/news/127371-panic-truck-overturns-car-along-mombasa-nairobi-highway-kiboko",
+    "https://kenyans.co.ke/news/127374-kenya-records-111-billion-cyber-threats-202526-financial-year-ca-report"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1194,7 +1196,8 @@
     "dangote dual bet lamu refinery eyes 500mw power merchant role",
     "jkia cocaine intercept triggers fiu trail ksh13 asian smuggling route",
     "beyond vanity cabin mirrors solve structural constraints modern lifts",
-    "loddca issues highway alert freight truck flattens car kiboko"
+    "loddca issues highway alert freight truck flattens car kiboko",
+    "behind 11b threat surge unpatched flaws anchor cyber vulnerability"
   ],
   "topic_keys": [
     "news tracker",
@@ -2238,6 +2241,15 @@
       "structure": "Lobby caution lead -> Core crash details at Kiboko -> Rescue dynamics and casualty unknowns -> Pattern of heavy-freight collisions (Taru and Kwa DC) -> Corridor infrastructure demands",
       "source": "https://kenyans.co.ke/news/127371-panic-truck-overturns-car-along-mombasa-nairobi-highway-kiboko",
       "published_at": "2026-09-26T11:02:36Z"
+    },
+    {
+      "title": "Behind the 11B Threat Surge: Unpatched Flaws Anchor Kenya's Cyber Vulnerability",
+      "angle": "Reframing the annual 11.1 billion cyber threat tally around the overwhelming concentration of passive system vulnerabilities\u2014which accounted for over 95 percent of all logged incidents\u2014alongside a sudden 90 percent fourth-quarter drop in DDoS attacks that masked earlier heavy disruption.",
+      "angle_type": "practical change",
+      "opening": "Structural-exposure lead focusing on the 10.6 billion unpatched system vulnerabilities underpinning the headline threat surge.",
+      "structure": "Infrastructure exposure lead -> Regulatory data breakdown & Q4 DDoS contraction -> Escalation across active vectors (malware, web apps, brute force) -> Advisory response surge -> Forward regulatory posture",
+      "source": "https://kenyans.co.ke/news/127374-kenya-records-111-billion-cyber-threats-202526-financial-year-ca-report",
+      "published_at": "2026-09-26T12:48:41Z"
     }
   ]
 }
