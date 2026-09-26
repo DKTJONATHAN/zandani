@@ -685,10 +685,10 @@
     "e5fcf2ab509e2dc4d804e799e8e6cda5",
     "c00e6255d229dc137a6b4b3d2acbcf1e",
     "79e8424286e202dbe1c28f58259eb44a",
-    "ad9e3531f63e0f4337cae6bf5ce318b2"
+    "ad9e3531f63e0f4337cae6bf5ce318b2",
+    "f8b407a09e0dcf5c28cd1cceb46fdf92"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -717,7 +717,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -987,7 +988,8 @@
     "https://kenyans.co.ke/news/127352-ntsa-tightens-psv-rules-new-requirements-drivers-vehicles",
     "https://kenyans.co.ke/news/127357-first-turkana-oil-drilling-rig-arrives-mombasa-ahead-december-deadline",
     "https://kenyans.co.ke/news/127356-nyamira-residents-protest-death-24-year-old-man-police-custody",
-    "https://kenyans.co.ke/news/127360-missing-activist-collins-otieno-found-dumped-along-thika-road-rushed-hospital"
+    "https://kenyans.co.ke/news/127360-missing-activist-collins-otieno-found-dumped-along-thika-road-rushed-hospital",
+    "https://kenyans.co.ke/news/127364-epra-introduces-fines-illegal-dumping-excess-solar-power-grid"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1179,7 +1181,8 @@
     "ntsa enterprise directive puts psv sacco books regulatory crosshairs",
     "inside logistics chain ksh2 rig heading turkana december oil target",
     "nyamira protests test police service custodial death accountability rules",
-    "search turned trap reporting missing activist triggered second thika road abduction"
+    "search turned trap reporting missing activist triggered second thika road abduction",
+    "grid volatility squeeze epra penalizing unapproved solar feed ins"
   ],
   "topic_keys": [
     "news tracker",
@@ -2178,6 +2181,15 @@
       "structure": "Risk-and-sequence lead -> Pre-dawn Thika Road discovery core -> Dual disappearance timeline -> Mechanics of highway dumping vs formal booking -> Hospitalization and unresolved custody questions.",
       "source": "https://kenyans.co.ke/news/127360-missing-activist-collins-otieno-found-dumped-along-thika-road-rushed-hospital",
       "published_at": "2026-09-26T05:01:43Z"
+    },
+    {
+      "title": "The Grid Volatility Squeeze: Why EPRA Is Penalizing Unapproved Solar Feed-Ins",
+      "angle": "Framing the regulatory penalty as an operational infrastructure defense: how unmanaged private solar generation pushes variable renewables past 36 percent of baseline demand, threatening grid frequency and forcing Kenya Power to enforce base-tariff surcharges.",
+      "angle_type": "practical change",
+      "opening": "Operational load lead establishing how private solar feed-ins turned from clean energy assets into grid frequency vulnerabilities.",
+      "structure": "Grid volatility lead -> Surcharge mechanics & base-tariff penalty -> Net-Metering Regulations 2024 capacity limits (1 MW) -> Peak vs low-load generation metrics (1,900 MW / 1,200 MW) -> Field safety & forward compliance edge.",
+      "source": "https://kenyans.co.ke/news/127364-epra-introduces-fines-illegal-dumping-excess-solar-power-grid",
+      "published_at": "2026-09-26T06:02:28Z"
     }
   ]
 }
