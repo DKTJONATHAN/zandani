@@ -691,10 +691,10 @@
     "4cbe3d815e70c435f39f7d4dfb869418",
     "999a3e480c9b99cc7d574b5f78033279",
     "8fc3b507d84e5c9c1ac45ddd6af970e9",
-    "aeaed8beaecc6e106e2ce11a8f0e12fa"
+    "aeaed8beaecc6e106e2ce11a8f0e12fa",
+    "85be3d10ca810f612b529eaa36a454f4"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -723,7 +723,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -999,7 +1000,8 @@
     "https://kenyans.co.ke/news/127359-wanted-woman-arrested-ksh135m-cocaine-jkia",
     "https://kenyans.co.ke/news/127367-explainer-why-many-lifts-are-fitted-mirrors",
     "https://kenyans.co.ke/news/127371-panic-truck-overturns-car-along-mombasa-nairobi-highway-kiboko",
-    "https://kenyans.co.ke/news/127374-kenya-records-111-billion-cyber-threats-202526-financial-year-ca-report"
+    "https://kenyans.co.ke/news/127374-kenya-records-111-billion-cyber-threats-202526-financial-year-ca-report",
+    "https://kenyans.co.ke/news/127380-nema-opens-public-review-proposed-10000-seat-nairobi-arena"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1197,7 +1199,8 @@
     "jkia cocaine intercept triggers fiu trail ksh13 asian smuggling route",
     "beyond vanity cabin mirrors solve structural constraints modern lifts",
     "loddca issues highway alert freight truck flattens car kiboko",
-    "behind 11b threat surge unpatched flaws anchor cyber vulnerability"
+    "behind 11b threat surge unpatched flaws anchor cyber vulnerability",
+    "nema puts masai ujiri ksh38b railway city arena day public test"
   ],
   "topic_keys": [
     "news tracker",
@@ -2250,6 +2253,15 @@
       "structure": "Infrastructure exposure lead -> Regulatory data breakdown & Q4 DDoS contraction -> Escalation across active vectors (malware, web apps, brute force) -> Advisory response surge -> Forward regulatory posture",
       "source": "https://kenyans.co.ke/news/127374-kenya-records-111-billion-cyber-threats-202526-financial-year-ca-report",
       "published_at": "2026-09-26T12:48:41Z"
+    },
+    {
+      "title": "NEMA Puts Masai Ujiri\u2019s Ksh38B Railway City Arena to 30-Day Public Test",
+      "angle": "Reframing the story around the regulatory and infrastructural hurdle: the statutory 30-day NEMA review places the physical traffic and urban carrying capacity of Nairobi's central rail corridor as the primary test for unlocking Ksh38.2 billion in private international capital.",
+      "angle_type": "practical change",
+      "opening": "Regulatory countdown lead focusing on how the 30-day environmental review links mega-capital deployment to resolving downtown urban congestion.",
+      "structure": "Statutory review countdown -> Development footprint and capital structure -> Logistical friction and traffic management demands -> Employment projections -> Public notice deadline",
+      "source": "https://kenyans.co.ke/news/127380-nema-opens-public-review-proposed-10000-seat-nairobi-arena",
+      "published_at": "2026-09-26T16:58:03Z"
     }
   ]
 }
