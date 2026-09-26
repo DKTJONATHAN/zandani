@@ -74,7 +74,8 @@
     "dad578fd71cb1ba6d2976ebd01b5287013dc8f69d0a37dfc9df0ded43518c11c",
     "3cfec6761e829abeaadaab966134fcfd3128d4715883baac3fe940e41568318e",
     "ff8a8223d23aa7c889a92ba7c15c15dd6ca1d85b1a90bf695aa03ec0128b3a33",
-    "2ebcbb750047f825760d1070f0db5dba5bbb7057d5018989eca2112fd9e69afc"
+    "2ebcbb750047f825760d1070f0db5dba5bbb7057d5018989eca2112fd9e69afc",
+    "30694c7629d5d77b001de336b3a6e765c9bef07a65cefb477d2acf204a069432"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -151,7 +152,8 @@
     "https://www.ghafla.co.ke/paul-waiganjo-resigns-as-rutos-development-adviser-cites-limits-of-role/",
     "https://www.ghafla.co.ke/deputy-president-kindiki-outlines-strategic-plan-to-tackle-expected-el-nino-flooding/",
     "https://www.ghafla.co.ke/president-william-ruto-tours-dangote-refinery-in-nigeria-ahead-of-lamu-groundbreaking/",
-    "https://www.ghafla.co.ke/president-ruto-and-fifa-boss-gianni-infantino-discuss-proposed-fifa-standard-stadium-in-mombasa/"
+    "https://www.ghafla.co.ke/president-ruto-and-fifa-boss-gianni-infantino-discuss-proposed-fifa-standard-stadium-in-mombasa/",
+    "https://www.ghafla.co.ke/detectives-recover-motorcycle-allegedly-used-to-ferry-gunman-in-kyalo-mbobu-murder/"
   ],
   "published_angles": [
     {
@@ -737,6 +739,14 @@
       "opening": "Personality lead focusing directly on FKF President Hussein Mohammed stepping onto the global stage in New York alongside Ruto to pitch Gianni Infantino on a flagship coastal arena.",
       "structure": "Personality lead on Hussein Mohammed and the New York UNGA sideline meeting -> The specific Mombasa stadium pitch and sports tourism ambition -> Broader 32-stadium national footprint including Raila Odinga International Stadium -> FIFA Arena and grassroots technical center blueprint -> Concrete close on developmental milestones.",
       "source": "https://www.ghafla.co.ke/president-ruto-and-fifa-boss-gianni-infantino-discuss-proposed-fifa-standard-stadium-in-mombasa/"
+    },
+    {
+      "title": "Chain of Owners: How DCI Tracked Down Getaway Bike in Kyalo Mbobu Murder Case",
+      "angle": "Focusing specifically on the paper trail and succession of owners detectives unravelled to track down the getaway bike, and how forensic examination of the physical evidence bridges the rider's confession to court readiness.",
+      "angle_type": "investigative paper trail and physical evidence chain",
+      "opening": "Direct focus on the physical asset recovery and the multi-owner paper trail unravelled by homicide detectives.",
+      "structure": "Physical asset recovery lead -> Tracing succession of owners -> Forensic examination at homicide headquarters -> Broader investigation and legal preparation.",
+      "source": "https://www.ghafla.co.ke/detectives-recover-motorcycle-allegedly-used-to-ferry-gunman-in-kyalo-mbobu-murder/"
     }
   ],
   "style_history": [
