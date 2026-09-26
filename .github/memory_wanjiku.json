@@ -71,7 +71,8 @@
     "3d9b8e18011c3250f31638d3126205ea23837cfbbc075bc22bb858389e90c9cb",
     "8045d52e68ff0f5bdb5e3d0a53ecb589e046f661bb6e35e7eaf470ac94886386",
     "1cf89e0ea32546c15c5f6957e81ed37b7a36d62b93c846431369527ea19fecb6",
-    "dad578fd71cb1ba6d2976ebd01b5287013dc8f69d0a37dfc9df0ded43518c11c"
+    "dad578fd71cb1ba6d2976ebd01b5287013dc8f69d0a37dfc9df0ded43518c11c",
+    "3cfec6761e829abeaadaab966134fcfd3128d4715883baac3fe940e41568318e"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -145,7 +146,8 @@
     "https://www.ghafla.co.ke/na-mzoee-mapema-mapema-herman-manyora-declares-ruto-a-tutam-president/",
     "https://www.ghafla.co.ke/flossin-and-girlfriend-nihan-spark-reactions-after-tattooing-each-others-names/",
     "https://www.ghafla.co.ke/celestine-ndinda-tries-to-rehabilitate-her-image-after-being-accused-of-cheating-on-njugush/",
-    "https://www.ghafla.co.ke/paul-waiganjo-resigns-as-rutos-development-adviser-cites-limits-of-role/"
+    "https://www.ghafla.co.ke/paul-waiganjo-resigns-as-rutos-development-adviser-cites-limits-of-role/",
+    "https://www.ghafla.co.ke/deputy-president-kindiki-outlines-strategic-plan-to-tackle-expected-el-nino-flooding/"
   ],
   "published_angles": [
     {
@@ -707,6 +709,14 @@
       "opening": "Personality lead focusing directly on Paul Waiganjo stepping down from his State House role.",
       "structure": "Personality lead -> The four-month timeline and appointment context -> The grassroots dissonance in Nyandarua -> The broader economic critiques raised -> Concrete close on his 2027 regional positioning.",
       "source": "https://www.ghafla.co.ke/paul-waiganjo-resigns-as-rutos-development-adviser-cites-limits-of-role/"
+    },
+    {
+      "title": "Grid Sabotage and El Ni\u00f1o Prep: Inside Kindiki\u2019s Karen Security Briefing",
+      "angle": "Framing DP Kithure Kindiki's Karen address around his decision to escalate utility vandalism and power grid sabotage to the National Security Council as a primary threat to El Ni\u00f1o disaster management.",
+      "angle_type": "infrastructure security and executive directive",
+      "opening": "Personality lead opening directly on Kithure Kindiki raising the security stakes over energy grid sabotage during his Karen briefing.",
+      "structure": "Kindiki Karen statement hook -> Infrastructure sabotage and National Security Council escalation -> Nairobi drainage and Green Army mobilization -> ASAL low-lying response (El Wak, Tana River) -> Practical close on communication and humane relocation commitments.",
+      "source": "https://www.ghafla.co.ke/deputy-president-kindiki-outlines-strategic-plan-to-tackle-expected-el-nino-flooding/"
     }
   ],
   "style_history": [
