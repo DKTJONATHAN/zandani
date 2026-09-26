@@ -693,10 +693,10 @@
     "8fc3b507d84e5c9c1ac45ddd6af970e9",
     "aeaed8beaecc6e106e2ce11a8f0e12fa",
     "85be3d10ca810f612b529eaa36a454f4",
-    "f6b989e624e9fce1964561f2b6d7d0de"
+    "f6b989e624e9fce1964561f2b6d7d0de",
+    "8aa85ca4042ae07abc89bfd16cf4ec41"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -725,7 +725,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1003,7 +1004,8 @@
     "https://kenyans.co.ke/news/127371-panic-truck-overturns-car-along-mombasa-nairobi-highway-kiboko",
     "https://kenyans.co.ke/news/127374-kenya-records-111-billion-cyber-threats-202526-financial-year-ca-report",
     "https://kenyans.co.ke/news/127380-nema-opens-public-review-proposed-10000-seat-nairobi-arena",
-    "https://kenyans.co.ke/news/127379-nlc-issues-fresh-land-acquisition-notices-sgr-and-several-road-projects"
+    "https://kenyans.co.ke/news/127379-nlc-issues-fresh-land-acquisition-notices-sgr-and-several-road-projects",
+    "https://kenyans.co.ke/news/127378-dangote-refinery-2930-tonnes-machinery-arrive-lamu"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1203,7 +1205,8 @@
     "loddca issues highway alert freight truck flattens car kiboko",
     "behind 11b threat surge unpatched flaws anchor cyber vulnerability",
     "nema puts masai ujiri ksh38b railway city arena day public test",
-    "nlc gazettes land inquiries across four counties sgr infrastructure works"
+    "nlc gazettes land inquiries across four counties sgr infrastructure works",
+    "lamu port enters heavy lift staging role 930 tonne dangote cargo docks"
   ],
   "topic_keys": [
     "news tracker",
@@ -2274,6 +2277,15 @@
       "structure": "Statutory notice and evidentiary threshold lead -> County-by-county inquiry schedule and corridor breakdown -> Scale of parcel takeovers from Kajiado rail extensions to Migori bridge works -> Mandatory banking and title documentation gauntlet -> Administrative process implications",
       "source": "https://kenyans.co.ke/news/127379-nlc-issues-fresh-land-acquisition-notices-sgr-and-several-road-projects",
       "published_at": "2026-09-26T17:02:09Z"
+    },
+    {
+      "title": "Lamu Port Enters Heavy-Lift Staging Role as 2,930-Tonne Dangote Cargo Docks",
+      "angle": "Reframing the shipment through Lamu Port's operational pivot from an under-leveraged coastal harbor into an active heavy-industrial staging hub, backed by an Indian state consultancy to manage technical execution before groundbreaking.",
+      "angle_type": "practical change",
+      "opening": "Operational-milestone lead focusing on Lamu Port's heavy-lift handling capacity and its immediate mobilization for industrial megaprojects.",
+      "structure": "Maritime staging lead -> Vessel arrival and cargo specifications -> KPA operational reception -> Engineering management structure (Ksh58B Indian state contract) -> Forward countdown to next week's site groundbreaking.",
+      "source": "https://kenyans.co.ke/news/127378-dangote-refinery-2930-tonnes-machinery-arrive-lamu",
+      "published_at": "2026-09-26T19:40:51Z"
     }
   ]
 }
