@@ -692,10 +692,10 @@
     "999a3e480c9b99cc7d574b5f78033279",
     "8fc3b507d84e5c9c1ac45ddd6af970e9",
     "aeaed8beaecc6e106e2ce11a8f0e12fa",
-    "85be3d10ca810f612b529eaa36a454f4"
+    "85be3d10ca810f612b529eaa36a454f4",
+    "f6b989e624e9fce1964561f2b6d7d0de"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -724,7 +724,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1001,7 +1002,8 @@
     "https://kenyans.co.ke/news/127367-explainer-why-many-lifts-are-fitted-mirrors",
     "https://kenyans.co.ke/news/127371-panic-truck-overturns-car-along-mombasa-nairobi-highway-kiboko",
     "https://kenyans.co.ke/news/127374-kenya-records-111-billion-cyber-threats-202526-financial-year-ca-report",
-    "https://kenyans.co.ke/news/127380-nema-opens-public-review-proposed-10000-seat-nairobi-arena"
+    "https://kenyans.co.ke/news/127380-nema-opens-public-review-proposed-10000-seat-nairobi-arena",
+    "https://kenyans.co.ke/news/127379-nlc-issues-fresh-land-acquisition-notices-sgr-and-several-road-projects"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1200,7 +1202,8 @@
     "beyond vanity cabin mirrors solve structural constraints modern lifts",
     "loddca issues highway alert freight truck flattens car kiboko",
     "behind 11b threat surge unpatched flaws anchor cyber vulnerability",
-    "nema puts masai ujiri ksh38b railway city arena day public test"
+    "nema puts masai ujiri ksh38b railway city arena day public test",
+    "nlc gazettes land inquiries across four counties sgr infrastructure works"
   ],
   "topic_keys": [
     "news tracker",
@@ -2262,6 +2265,15 @@
       "structure": "Statutory review countdown -> Development footprint and capital structure -> Logistical friction and traffic management demands -> Employment projections -> Public notice deadline",
       "source": "https://kenyans.co.ke/news/127380-nema-opens-public-review-proposed-10000-seat-nairobi-arena",
       "published_at": "2026-09-26T16:58:03Z"
+    },
+    {
+      "title": "NLC Gazettes Land Inquiries Across Four Counties for SGR and Infrastructure Works",
+      "angle": "The administrative schedule and documentary burden placed on property owners, who face strict autumn inquiry deadlines at local chief's camps and capital offices to substantiate ownership before compensation awards are locked in.",
+      "angle_type": "people affected",
+      "opening": "Attribution-first lead establishing the National Land Commission's gazetted timeline and the documentation threshold facing private property owners across the four targeted counties.",
+      "structure": "Statutory notice and evidentiary threshold lead -> County-by-county inquiry schedule and corridor breakdown -> Scale of parcel takeovers from Kajiado rail extensions to Migori bridge works -> Mandatory banking and title documentation gauntlet -> Administrative process implications",
+      "source": "https://kenyans.co.ke/news/127379-nlc-issues-fresh-land-acquisition-notices-sgr-and-several-road-projects",
+      "published_at": "2026-09-26T17:02:09Z"
     }
   ]
 }
