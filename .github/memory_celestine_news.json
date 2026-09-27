@@ -701,10 +701,10 @@
     "644affc3ba9c9c9e9c50e1c88239bd0e",
     "a57292d2a4c0888a30d92822d0926d21",
     "58bc10cbcbc81d8d19d45f7aa7017f51",
-    "d0ed32b5f47d66ab4268b7ecdbde25de"
+    "d0ed32b5f47d66ab4268b7ecdbde25de",
+    "fef04764cbc67f6f4c867df9c0807bb3"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
@@ -733,7 +733,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1019,7 +1020,8 @@
     "https://kenyans.co.ke/news/127384-muturi-calls-iebc-probe-murkomens-remarks-voter-registration",
     "https://kenyans.co.ke/news/127389-kuppet-raises-alarm-over-alleged-political-interference-tsc-teacher-promotions",
     "https://kenyans.co.ke/news/127391-kenya-demands-new-funding-help-countries-implement-global-plastic-treaty",
-    "https://kenyans.co.ke/news/127390-manyatta-mp-proposes-renaming-embu-county-embu-mbeere"
+    "https://kenyans.co.ke/news/127390-manyatta-mp-proposes-renaming-embu-county-embu-mbeere",
+    "https://kenyans.co.ke/news/127388-experts-explain-why-el-nino-affects-different-regions-differently"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1227,7 +1229,8 @@
     "muturi pushes iebc summon murkomen cross border voter drive remarks",
     "patronage dossiers threaten integrity tsc 000 teacher promotion drive",
     "nairobi links binding plastic rules multi billion funding unep headquarters bid",
-    "manyatta moves rebrand county embu mbeere cure resource divide"
+    "manyatta moves rebrand county embu mbeere cure resource divide",
+    "mobilises evacuations intensifying splits regional weather"
   ],
   "topic_keys": [
     "news tracker",
@@ -2370,6 +2373,15 @@
       "structure": "Attribution lead -> Resource and infrastructural disparity grievance -> Precedent comparison (Taita Taveta) -> Constitutional amendment mechanics (Articles 6, 256, 257) -> Forward outlook on parliamentary hurdles",
       "source": "https://kenyans.co.ke/news/127390-manyatta-mp-proposes-renaming-embu-county-embu-mbeere",
       "published_at": "2026-09-27T14:02:09Z"
+    },
+    {
+      "title": "Kenya Mobilises Evacuations as Intensifying El Ni\u00f1o Splits Regional Weather",
+      "angle": "Reframing the global climate disruption around the stark split in disaster response: Kenyan authorities ordering urban and high-risk evacuations ahead of the October-December rains, while southern African neighbors and key Asian trading partners brace for agricultural collapse and dry-season fires under the same strengthening Pacific system.",
+      "angle_type": "local impact",
+      "opening": "Hard news impact lead contrasting Nairobi's evacuation notices with the broader regional moisture deficit.",
+      "structure": "Emergency mobilization lead -> Continental divergence across Africa -> Global moisture deficit data (India, Indonesia, Australia) -> Pacific atmospheric mechanics -> Forward preparedness timeline",
+      "source": "https://kenyans.co.ke/news/127388-experts-explain-why-el-nino-affects-different-regions-differently",
+      "published_at": "2026-09-27T15:02:09Z"
     }
   ]
 }
