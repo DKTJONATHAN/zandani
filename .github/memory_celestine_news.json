@@ -702,10 +702,10 @@
     "a57292d2a4c0888a30d92822d0926d21",
     "58bc10cbcbc81d8d19d45f7aa7017f51",
     "d0ed32b5f47d66ab4268b7ecdbde25de",
-    "fef04764cbc67f6f4c867df9c0807bb3"
+    "fef04764cbc67f6f4c867df9c0807bb3",
+    "20f42182338b648cd2caa9cba9c9ccc6"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
@@ -734,7 +734,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1021,7 +1022,8 @@
     "https://kenyans.co.ke/news/127389-kuppet-raises-alarm-over-alleged-political-interference-tsc-teacher-promotions",
     "https://kenyans.co.ke/news/127391-kenya-demands-new-funding-help-countries-implement-global-plastic-treaty",
     "https://kenyans.co.ke/news/127390-manyatta-mp-proposes-renaming-embu-county-embu-mbeere",
-    "https://kenyans.co.ke/news/127388-experts-explain-why-el-nino-affects-different-regions-differently"
+    "https://kenyans.co.ke/news/127388-experts-explain-why-el-nino-affects-different-regions-differently",
+    "https://kenyans.co.ke/news/127393-how-much-kenyan-businesses-will-pay-send-whatsapp-messages-october-1"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1230,7 +1232,8 @@
     "patronage dossiers threaten integrity tsc 000 teacher promotion drive",
     "nairobi links binding plastic rules multi billion funding unep headquarters bid",
     "manyatta moves rebrand county embu mbeere cure resource divide",
-    "mobilises evacuations intensifying splits regional weather"
+    "mobilises evacuations intensifying splits regional weather",
+    "hidden third party markups threaten whatsapp business pricing"
   ],
   "topic_keys": [
     "news tracker",
@@ -2382,6 +2385,15 @@
       "structure": "Emergency mobilization lead -> Continental divergence across Africa -> Global moisture deficit data (India, Indonesia, Australia) -> Pacific atmospheric mechanics -> Forward preparedness timeline",
       "source": "https://kenyans.co.ke/news/127388-experts-explain-why-el-nino-affects-different-regions-differently",
       "published_at": "2026-09-27T15:02:09Z"
+    },
+    {
+      "title": "Hidden Third-Party Markups Threaten WhatsApp's New Business Pricing in Kenya",
+      "angle": "Examining the hidden cost multiplier beyond Meta's base rates\u2014specifically how software vendors and third-party Business Solution Providers can stack independent markups on top of the new Ksh0.52 service fees and 1,000-message caps.",
+      "angle_type": "money",
+      "opening": "Financial-exposure lead focusing on the compound billing layer introduced by third-party intermediaries alongside Meta's baseline fees.",
+      "structure": "Intermediary cost multiplier lead -> Baseline rate mechanics and volume caps -> Corporate sector exposure breadth -> Operational accounting example -> Final billing reality (delivery-only charges)",
+      "source": "https://kenyans.co.ke/news/127393-how-much-kenyan-businesses-will-pay-send-whatsapp-messages-october-1",
+      "published_at": "2026-09-27T16:01:59Z"
     }
   ]
 }
