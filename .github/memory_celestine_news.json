@@ -696,10 +696,10 @@
     "f6b989e624e9fce1964561f2b6d7d0de",
     "8aa85ca4042ae07abc89bfd16cf4ec41",
     "aba127808682ace53e9e6abab8288a47",
-    "019e4243ccf8d14753f73e7b05571b6b"
+    "019e4243ccf8d14753f73e7b05571b6b",
+    "0eccf1a82581e2277bd3689689253c6d"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -728,7 +728,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1009,7 +1010,8 @@
     "https://kenyans.co.ke/news/127379-nlc-issues-fresh-land-acquisition-notices-sgr-and-several-road-projects",
     "https://kenyans.co.ke/news/127378-dangote-refinery-2930-tonnes-machinery-arrive-lamu",
     "https://kenyans.co.ke/news/127376-us-embassy-warns-possible-data-breach-kenya-ebola-screening-travellers",
-    "https://kenyans.co.ke/news/127375-kenya-met-lists-nairobi-among-counties-set-rains-over-next-five-days"
+    "https://kenyans.co.ke/news/127375-kenya-met-lists-nairobi-among-counties-set-rains-over-next-five-days",
+    "https://kenyans.co.ke/news/127381-sifuna-named-linda-mwananchi-leader-presidential-candidate"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1212,7 +1214,8 @@
     "nlc gazettes land inquiries across four counties sgr infrastructure works",
     "lamu port enters heavy lift staging role 930 tonne dangote cargo docks",
     "ebola screening breach puts four months regional border data risk",
-    "met forecast pairs highland cold snap down scattered showers"
+    "met forecast pairs highland cold snap down scattered showers",
+    "party less more sifuna forced fast track vehicle launch under linda mwananchi pact"
   ],
   "topic_keys": [
     "news tracker",
@@ -2310,6 +2313,15 @@
       "structure": "Impact lead -> Overnight thermal plunge breakdown -> Nairobi and Central commuter rain timing -> Western and Lake Victoria belt patterns -> Northern frontier thermal contrast -> Operational outlook close.",
       "source": "https://kenyans.co.ke/news/127375-kenya-met-lists-nairobi-among-counties-set-rains-over-next-five-days",
       "published_at": "2026-09-26T22:32:09Z"
+    },
+    {
+      "title": "Party-Less No More: Sifuna Forced into Fast-Track Vehicle Launch Under Linda Mwananchi Pact",
+      "angle": "The internal structural necessity for Sifuna to urgently launch a dedicated party vehicle in early October to balance co-principals who already established their own parties, creating an umbrella coalition of personal vehicles before entering broader opposition negotiations.",
+      "angle_type": "practical change",
+      "opening": "Structural-alignment lead focusing on the condition precedent of Sifuna launching a brand-new party vehicle to anchor the alliance.",
+      "structure": "Party-launch prerequisite lead -> Retreat resolution and leadership mandate -> Internal party-declaration rift context -> Umbrella coalition mechanics alongside Babu Owino's TMP -> Forward timeline toward October launch and August 10, 2027 alignment",
+      "source": "https://kenyans.co.ke/news/127381-sifuna-named-linda-mwananchi-leader-presidential-candidate",
+      "published_at": "2026-09-27T05:01:42Z"
     }
   ]
 }
