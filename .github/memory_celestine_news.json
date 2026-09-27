@@ -698,10 +698,10 @@
     "aba127808682ace53e9e6abab8288a47",
     "019e4243ccf8d14753f73e7b05571b6b",
     "0eccf1a82581e2277bd3689689253c6d",
-    "644affc3ba9c9c9e9c50e1c88239bd0e"
+    "644affc3ba9c9c9e9c50e1c88239bd0e",
+    "a57292d2a4c0888a30d92822d0926d21"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Desk Take",
     "Hard News Lead",
@@ -730,7 +730,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1013,7 +1014,8 @@
     "https://kenyans.co.ke/news/127376-us-embassy-warns-possible-data-breach-kenya-ebola-screening-travellers",
     "https://kenyans.co.ke/news/127375-kenya-met-lists-nairobi-among-counties-set-rains-over-next-five-days",
     "https://kenyans.co.ke/news/127381-sifuna-named-linda-mwananchi-leader-presidential-candidate",
-    "https://kenyans.co.ke/news/127384-muturi-calls-iebc-probe-murkomens-remarks-voter-registration"
+    "https://kenyans.co.ke/news/127384-muturi-calls-iebc-probe-murkomens-remarks-voter-registration",
+    "https://kenyans.co.ke/news/127389-kuppet-raises-alarm-over-alleged-political-interference-tsc-teacher-promotions"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1218,7 +1220,8 @@
     "ebola screening breach puts four months regional border data risk",
     "met forecast pairs highland cold snap down scattered showers",
     "party less more sifuna forced fast track vehicle launch under linda mwananchi pact",
-    "muturi pushes iebc summon murkomen cross border voter drive remarks"
+    "muturi pushes iebc summon murkomen cross border voter drive remarks",
+    "patronage dossiers threaten integrity tsc 000 teacher promotion drive"
   ],
   "topic_keys": [
     "news tracker",
@@ -2334,6 +2337,15 @@
       "structure": "Summons demand lead -> Direct quotes and core allegations -> Murkomen's Kampala remarks and diaspora justification -> Sovereignty and electoral integrity friction -> Unresolved institutional next steps.",
       "source": "https://kenyans.co.ke/news/127384-muturi-calls-iebc-probe-murkomens-remarks-voter-registration",
       "published_at": "2026-09-27T07:50:56Z"
+    },
+    {
+      "title": "Patronage Dossiers Threaten Integrity of TSC\u2019s 34,000-Teacher Promotion Drive",
+      "angle": "The emergence of a localized political patronage pipeline in Kisii threatens the competitive integrity of a massive 34,016-vacancy nationwide promotion drive, escalating friction between secondary school teachers and the employer on multiple administrative fronts.",
+      "angle_type": "accountability",
+      "opening": "Hard news accountability opening centering on the specific patronage mechanism (politicians circulating recommendation dossiers) threatening the national competitive promotion exercise.",
+      "structure": "Patronage mechanism lead -> Interview scale and Kisii dispute details -> Merit and seniority criteria at risk -> Union's broader leverage: 2026 exam boycott threat -> Forward edge on JSS governance demands",
+      "source": "https://kenyans.co.ke/news/127389-kuppet-raises-alarm-over-alleged-political-interference-tsc-teacher-promotions",
+      "published_at": "2026-09-27T13:02:03Z"
     }
   ]
 }
