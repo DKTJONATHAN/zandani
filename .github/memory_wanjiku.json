@@ -78,7 +78,8 @@
     "30694c7629d5d77b001de336b3a6e765c9bef07a65cefb477d2acf204a069432",
     "f6ffc845ab6274d706750d06d51dd3175242831d4291f5b072cdaf1965f016cc",
     "8bdd1c3b2ee5253bfb30d69a110718fb2bbd975da34f8b887c3693ae693fed65",
-    "ed3bd5b314bc81f549ac0fa38cffb8c7f97f5633b20d6db9bb6981104b47a222"
+    "ed3bd5b314bc81f549ac0fa38cffb8c7f97f5633b20d6db9bb6981104b47a222",
+    "5a64919bc3c2469ab2a39c56e45347be74f193abb482d10097e1512f368c2ed6"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -159,7 +160,8 @@
     "https://www.ghafla.co.ke/detectives-recover-motorcycle-allegedly-used-to-ferry-gunman-in-kyalo-mbobu-murder/",
     "https://www.ghafla.co.ke/kalonzo-tops-opposition-flagbearer-poll-as-sifuna-camp-pushes-2027-bid/",
     "https://www.ghafla.co.ke/wamalwa-offers-dap-k-leadership-and-presidential-ticket-to-sifuna/",
-    "https://www.ghafla.co.ke/moses-kuria-poll-sparks-debate-as-sifuna-tops-2027-presidential-survey/"
+    "https://www.ghafla.co.ke/moses-kuria-poll-sparks-debate-as-sifuna-tops-2027-presidential-survey/",
+    "https://www.ghafla.co.ke/interior-cs-kipchumba-murkomen-orders-decisive-crackdown-on-illegal-firearms-in-samburu/"
   ],
   "published_angles": [
     {
@@ -777,6 +779,14 @@
       "opening": "Personality lead focusing on Moses Kuria setting an informal political trap on his X account only to watch Edwin Sifuna walk away with a runaway 76 percent landslide.",
       "structure": "Personality hook and poll blowout -> Kuria's 'Hii imeenda' 1997 dismissal -> Detailed breakdown of the 37,000 votes and candidate numbers -> Historical comparison to the 1997 opposition split -> Concrete close on Kuria's post-Cabinet commentator persona.",
       "source": "https://www.ghafla.co.ke/moses-kuria-poll-sparks-debate-as-sifuna-tops-2027-presidential-survey/"
+    },
+    {
+      "title": "Kipchumba Murkomen Claps Back at Critics From Nandi Teachers' Podium, Vows to 'Tighten the Nut' Until 2027",
+      "angle": "Focusing on Murkomen's blunt political clapback from a teachers' podium\u2014framing the pushback as evidence of 'tightening the nut' ahead of the next election while admitting operational errors regarding lost livestock.",
+      "angle_type": "political personality rhetoric and operational accountability",
+      "opening": "Personality lead focusing on Murkomen taking the microphone in Nandi and pivoting from education to a fiery defense of his security strategy.",
+      "structure": "Personality hook at Nandi Hills Stadium -> The 'tightening the nut' clapback quote -> Details of security operations in Samburu/Isiolo -> Disclosed seizure stats (3,000 guns) -> Rare admission on lost civilian livestock -> Context of KNUT event -> Concrete close on the election deadline.",
+      "source": "https://www.ghafla.co.ke/interior-cs-kipchumba-murkomen-orders-decisive-crackdown-on-illegal-firearms-in-samburu/"
     }
   ],
   "style_history": [
