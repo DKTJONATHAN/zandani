@@ -79,7 +79,8 @@
     "f6ffc845ab6274d706750d06d51dd3175242831d4291f5b072cdaf1965f016cc",
     "8bdd1c3b2ee5253bfb30d69a110718fb2bbd975da34f8b887c3693ae693fed65",
     "ed3bd5b314bc81f549ac0fa38cffb8c7f97f5633b20d6db9bb6981104b47a222",
-    "5a64919bc3c2469ab2a39c56e45347be74f193abb482d10097e1512f368c2ed6"
+    "5a64919bc3c2469ab2a39c56e45347be74f193abb482d10097e1512f368c2ed6",
+    "fe0a37d36ffb5da99bf1d7f934980a1df0f5755d0cb628812d9fe3ba1e66b2f6"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -161,7 +162,8 @@
     "https://www.ghafla.co.ke/kalonzo-tops-opposition-flagbearer-poll-as-sifuna-camp-pushes-2027-bid/",
     "https://www.ghafla.co.ke/wamalwa-offers-dap-k-leadership-and-presidential-ticket-to-sifuna/",
     "https://www.ghafla.co.ke/moses-kuria-poll-sparks-debate-as-sifuna-tops-2027-presidential-survey/",
-    "https://www.ghafla.co.ke/interior-cs-kipchumba-murkomen-orders-decisive-crackdown-on-illegal-firearms-in-samburu/"
+    "https://www.ghafla.co.ke/interior-cs-kipchumba-murkomen-orders-decisive-crackdown-on-illegal-firearms-in-samburu/",
+    "https://www.ghafla.co.ke/gachagua-predicts-opposition-split-after-2027-flagbearer-selection/"
   ],
   "published_angles": [
     {
@@ -787,6 +789,14 @@
       "opening": "Personality lead focusing on Murkomen taking the microphone in Nandi and pivoting from education to a fiery defense of his security strategy.",
       "structure": "Personality hook at Nandi Hills Stadium -> The 'tightening the nut' clapback quote -> Details of security operations in Samburu/Isiolo -> Disclosed seizure stats (3,000 guns) -> Rare admission on lost civilian livestock -> Context of KNUT event -> Concrete close on the election deadline.",
       "source": "https://www.ghafla.co.ke/interior-cs-kipchumba-murkomen-orders-decisive-crackdown-on-illegal-firearms-in-samburu/"
+    },
+    {
+      "title": "Rigathi Gachagua Teases Unnamed 2027 Defector in Dallas, Swears \u2018Riggy G\u2019 Won\u2019t Walk",
+      "angle": "Reframing Gachagua's Dallas address through his political blind-item theatrics\u2014dropping an unnamed defector riddle while using his pop-culture 'Riggy G' persona to market himself as the drama-free, unconditional coalition partner.",
+      "angle_type": "political personality theatrics and blind-item rhetoric",
+      "opening": "Personality lead opening directly on Rigathi Gachagua playing the political prophet in Dallas with a vintage blind item.",
+      "structure": "Person and Dallas hook -> The unnamed defector 'prophecy' and 2002 Nyachae parallel -> The 'Riggy G' loyalty pledge and self-branding -> The unconditional support challenge to rival coalition principals -> Election numbers claim and concrete close.",
+      "source": "https://www.ghafla.co.ke/gachagua-predicts-opposition-split-after-2027-flagbearer-selection/"
     }
   ],
   "style_history": [
