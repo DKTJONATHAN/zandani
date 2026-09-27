@@ -77,7 +77,8 @@
     "2ebcbb750047f825760d1070f0db5dba5bbb7057d5018989eca2112fd9e69afc",
     "30694c7629d5d77b001de336b3a6e765c9bef07a65cefb477d2acf204a069432",
     "f6ffc845ab6274d706750d06d51dd3175242831d4291f5b072cdaf1965f016cc",
-    "8bdd1c3b2ee5253bfb30d69a110718fb2bbd975da34f8b887c3693ae693fed65"
+    "8bdd1c3b2ee5253bfb30d69a110718fb2bbd975da34f8b887c3693ae693fed65",
+    "ed3bd5b314bc81f549ac0fa38cffb8c7f97f5633b20d6db9bb6981104b47a222"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -157,7 +158,8 @@
     "https://www.ghafla.co.ke/president-ruto-and-fifa-boss-gianni-infantino-discuss-proposed-fifa-standard-stadium-in-mombasa/",
     "https://www.ghafla.co.ke/detectives-recover-motorcycle-allegedly-used-to-ferry-gunman-in-kyalo-mbobu-murder/",
     "https://www.ghafla.co.ke/kalonzo-tops-opposition-flagbearer-poll-as-sifuna-camp-pushes-2027-bid/",
-    "https://www.ghafla.co.ke/wamalwa-offers-dap-k-leadership-and-presidential-ticket-to-sifuna/"
+    "https://www.ghafla.co.ke/wamalwa-offers-dap-k-leadership-and-presidential-ticket-to-sifuna/",
+    "https://www.ghafla.co.ke/moses-kuria-poll-sparks-debate-as-sifuna-tops-2027-presidential-survey/"
   ],
   "published_angles": [
     {
@@ -767,6 +769,14 @@
       "opening": "Personality lead zeroing in on Eugene Wamalwa making a live broadcast offer to give up his own cleared presidential candidacy for Edwin Sifuna.",
       "structure": "Person and hook -> On-air concession quote and verified party offer -> The Linda Mwananchi registration stumbling block (Ukombozi rebrand collapse) -> Rival suitors (Natembeya's UDP line and Kalonzo retreat) -> Close on Osotsi's ticking countdown clock.",
       "source": "https://www.ghafla.co.ke/wamalwa-offers-dap-k-leadership-and-presidential-ticket-to-sifuna/"
+    },
+    {
+      "title": "Moses Kuria Shrugs Off Sifuna\u2019s 76% Landslide on His Own X Wall With Blunt 1997 Warning",
+      "angle": "Focusing on the entertainment value of Kuria's timeline ambush\u2014hosting a poll that delivered a lopsided blowout for Sifuna, only for Kuria to instantly dismiss the digital landslide by invoking a 1997-style fragmentation warning to declare opposition unity dead.",
+      "angle_type": "celebrity provocateur dynamic and political poll deflection",
+      "opening": "Personality lead focusing on Moses Kuria setting an informal political trap on his X account only to watch Edwin Sifuna walk away with a runaway 76 percent landslide.",
+      "structure": "Personality hook and poll blowout -> Kuria's 'Hii imeenda' 1997 dismissal -> Detailed breakdown of the 37,000 votes and candidate numbers -> Historical comparison to the 1997 opposition split -> Concrete close on Kuria's post-Cabinet commentator persona.",
+      "source": "https://www.ghafla.co.ke/moses-kuria-poll-sparks-debate-as-sifuna-tops-2027-presidential-survey/"
     }
   ],
   "style_history": [
