@@ -700,10 +700,10 @@
     "0eccf1a82581e2277bd3689689253c6d",
     "644affc3ba9c9c9e9c50e1c88239bd0e",
     "a57292d2a4c0888a30d92822d0926d21",
-    "58bc10cbcbc81d8d19d45f7aa7017f51"
+    "58bc10cbcbc81d8d19d45f7aa7017f51",
+    "d0ed32b5f47d66ab4268b7ecdbde25de"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -732,7 +732,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1017,7 +1018,8 @@
     "https://kenyans.co.ke/news/127381-sifuna-named-linda-mwananchi-leader-presidential-candidate",
     "https://kenyans.co.ke/news/127384-muturi-calls-iebc-probe-murkomens-remarks-voter-registration",
     "https://kenyans.co.ke/news/127389-kuppet-raises-alarm-over-alleged-political-interference-tsc-teacher-promotions",
-    "https://kenyans.co.ke/news/127391-kenya-demands-new-funding-help-countries-implement-global-plastic-treaty"
+    "https://kenyans.co.ke/news/127391-kenya-demands-new-funding-help-countries-implement-global-plastic-treaty",
+    "https://kenyans.co.ke/news/127390-manyatta-mp-proposes-renaming-embu-county-embu-mbeere"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1224,7 +1226,8 @@
     "party less more sifuna forced fast track vehicle launch under linda mwananchi pact",
     "muturi pushes iebc summon murkomen cross border voter drive remarks",
     "patronage dossiers threaten integrity tsc 000 teacher promotion drive",
-    "nairobi links binding plastic rules multi billion funding unep headquarters bid"
+    "nairobi links binding plastic rules multi billion funding unep headquarters bid",
+    "manyatta moves rebrand county embu mbeere cure resource divide"
   ],
   "topic_keys": [
     "news tracker",
@@ -2358,6 +2361,15 @@
       "structure": "Diplomatic stance lead -> Full lifecycle regulatory mechanics -> Financial support conditions & UNEP Gigiri bid -> Prior Nairobi foundation & delegation dynamics -> Local industrial compliance forward edge",
       "source": "https://kenyans.co.ke/news/127391-kenya-demands-new-funding-help-countries-implement-global-plastic-treaty",
       "published_at": "2026-09-27T13:40:23Z"
+    },
+    {
+      "title": "Manyatta MP Moves to Rebrand County 14 as Embu-Mbeere to Cure Resource Divide",
+      "angle": "Attribution-first framing of Mukunji's renaming push as an attempt to leverage symbolic constitutional identity to resolve deep infrastructural and resource disparities, balancing the local developmental grievance against the steep statutory hurdles of amending the First Schedule.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first lead detailing Mukunji's formal proposal to rename County 14, followed immediately by the intended local beneficiaries.",
+      "structure": "Attribution lead -> Resource and infrastructural disparity grievance -> Precedent comparison (Taita Taveta) -> Constitutional amendment mechanics (Articles 6, 256, 257) -> Forward outlook on parliamentary hurdles",
+      "source": "https://kenyans.co.ke/news/127390-manyatta-mp-proposes-renaming-embu-county-embu-mbeere",
+      "published_at": "2026-09-27T14:02:09Z"
     }
   ]
 }
