@@ -81,7 +81,8 @@
     "ed3bd5b314bc81f549ac0fa38cffb8c7f97f5633b20d6db9bb6981104b47a222",
     "5a64919bc3c2469ab2a39c56e45347be74f193abb482d10097e1512f368c2ed6",
     "fe0a37d36ffb5da99bf1d7f934980a1df0f5755d0cb628812d9fe3ba1e66b2f6",
-    "4e2e25499cdafb9f99954e77183a7bdd9657abc515472ccda41c04ad7e9fb279"
+    "4e2e25499cdafb9f99954e77183a7bdd9657abc515472ccda41c04ad7e9fb279",
+    "4c874af65aace6e8a5758301562c223e49b0387a5a76b3cd05489bb722e05841"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -165,7 +166,8 @@
     "https://www.ghafla.co.ke/moses-kuria-poll-sparks-debate-as-sifuna-tops-2027-presidential-survey/",
     "https://www.ghafla.co.ke/interior-cs-kipchumba-murkomen-orders-decisive-crackdown-on-illegal-firearms-in-samburu/",
     "https://www.ghafla.co.ke/gachagua-predicts-opposition-split-after-2027-flagbearer-selection/",
-    "https://www.ghafla.co.ke/linda-mwananchi-endorses-sifuna-as-2027-presidential-candidate/"
+    "https://www.ghafla.co.ke/linda-mwananchi-endorses-sifuna-as-2027-presidential-candidate/",
+    "https://www.ghafla.co.ke/murkomen-vows-to-end-banditry-as-government-recovers-3000-illegal-guns/"
   ],
   "published_angles": [
     {
@@ -807,6 +809,14 @@
       "opening": "Personality lead focusing directly on Edwin Sifuna and Babu Owino emerging from a late-night marathon session to project solidarity.",
       "structure": "Personality-led opening -> Details of the late-night retreat and quotes -> The Babu-Sifuna alliance context -> The ticking clock to the early October party reveal -> Concrete close on the upcoming political launch.",
       "source": "https://www.ghafla.co.ke/linda-mwananchi-endorses-sifuna-as-2027-presidential-candidate/"
+    },
+    {
+      "title": "Kipchumba Murkomen Puts Village Chiefs on the Spot Over Illicit Brew at Packed Nandi Teachers' Harambee",
+      "angle": "While most reports zero in on pastoral banditry figures, Murkomen deliberately repurposed a union bus fundraiser podium to confront local chiefs and Nyumba Kumi elders over illicit brew cartels operating unchecked in rural villages.",
+      "angle_type": "grassroots administrative accountability and community vice crackdown",
+      "opening": "Personality lead opening directly on Kipchumba Murkomen stepping onto the Nandi Hills Stadium dais and turning an educational fundraiser into an accountability session for local chiefs.",
+      "structure": "Person and stadium podium hook -> Illicit brew directive to chiefs and Nyumba Kumi -> Dais dynamic with KNUT leaders and regional MPs -> National security context and 3,000-weapon recovery stats -> Final concrete call for community whistleblowing.",
+      "source": "https://www.ghafla.co.ke/murkomen-vows-to-end-banditry-as-government-recovers-3000-illegal-guns/"
     }
   ],
   "style_history": [
