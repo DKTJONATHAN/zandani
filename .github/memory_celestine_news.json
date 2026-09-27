@@ -697,10 +697,10 @@
     "8aa85ca4042ae07abc89bfd16cf4ec41",
     "aba127808682ace53e9e6abab8288a47",
     "019e4243ccf8d14753f73e7b05571b6b",
-    "0eccf1a82581e2277bd3689689253c6d"
+    "0eccf1a82581e2277bd3689689253c6d",
+    "644affc3ba9c9c9e9c50e1c88239bd0e"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -729,7 +729,8 @@
     "Event Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1011,7 +1012,8 @@
     "https://kenyans.co.ke/news/127378-dangote-refinery-2930-tonnes-machinery-arrive-lamu",
     "https://kenyans.co.ke/news/127376-us-embassy-warns-possible-data-breach-kenya-ebola-screening-travellers",
     "https://kenyans.co.ke/news/127375-kenya-met-lists-nairobi-among-counties-set-rains-over-next-five-days",
-    "https://kenyans.co.ke/news/127381-sifuna-named-linda-mwananchi-leader-presidential-candidate"
+    "https://kenyans.co.ke/news/127381-sifuna-named-linda-mwananchi-leader-presidential-candidate",
+    "https://kenyans.co.ke/news/127384-muturi-calls-iebc-probe-murkomens-remarks-voter-registration"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1215,7 +1217,8 @@
     "lamu port enters heavy lift staging role 930 tonne dangote cargo docks",
     "ebola screening breach puts four months regional border data risk",
     "met forecast pairs highland cold snap down scattered showers",
-    "party less more sifuna forced fast track vehicle launch under linda mwananchi pact"
+    "party less more sifuna forced fast track vehicle launch under linda mwananchi pact",
+    "muturi pushes iebc summon murkomen cross border voter drive remarks"
   ],
   "topic_keys": [
     "news tracker",
@@ -2322,6 +2325,15 @@
       "structure": "Party-launch prerequisite lead -> Retreat resolution and leadership mandate -> Internal party-declaration rift context -> Umbrella coalition mechanics alongside Babu Owino's TMP -> Forward timeline toward October launch and August 10, 2027 alignment",
       "source": "https://kenyans.co.ke/news/127381-sifuna-named-linda-mwananchi-leader-presidential-candidate",
       "published_at": "2026-09-27T05:01:42Z"
+    },
+    {
+      "title": "Muturi Pushes IEBC to Summon Murkomen Over Cross-Border Voter Drive Remarks",
+      "angle": "Framing Muturi's intervention through the institutional collision between executive ministerial remarks and statutory electoral oversight, specifically how the demand pushes the IEBC into an awkward jurisdictional test while dragging Kampala into Kenya's 2027 pre-election friction.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first lead detailing the formal summons petition against Murkomen and the diplomatic challenge directed at Museveni.",
+      "structure": "Summons demand lead -> Direct quotes and core allegations -> Murkomen's Kampala remarks and diaspora justification -> Sovereignty and electoral integrity friction -> Unresolved institutional next steps.",
+      "source": "https://kenyans.co.ke/news/127384-muturi-calls-iebc-probe-murkomens-remarks-voter-registration",
+      "published_at": "2026-09-27T07:50:56Z"
     }
   ]
 }
