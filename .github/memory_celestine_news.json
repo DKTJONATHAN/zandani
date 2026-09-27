@@ -703,10 +703,10 @@
     "58bc10cbcbc81d8d19d45f7aa7017f51",
     "d0ed32b5f47d66ab4268b7ecdbde25de",
     "fef04764cbc67f6f4c867df9c0807bb3",
-    "20f42182338b648cd2caa9cba9c9ccc6"
+    "20f42182338b648cd2caa9cba9c9ccc6",
+    "aa36afa22613cb3696c793aa4676c798"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -735,7 +735,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1023,7 +1024,8 @@
     "https://kenyans.co.ke/news/127391-kenya-demands-new-funding-help-countries-implement-global-plastic-treaty",
     "https://kenyans.co.ke/news/127390-manyatta-mp-proposes-renaming-embu-county-embu-mbeere",
     "https://kenyans.co.ke/news/127388-experts-explain-why-el-nino-affects-different-regions-differently",
-    "https://kenyans.co.ke/news/127393-how-much-kenyan-businesses-will-pay-send-whatsapp-messages-october-1"
+    "https://kenyans.co.ke/news/127393-how-much-kenyan-businesses-will-pay-send-whatsapp-messages-october-1",
+    "https://kenyans.co.ke/news/127394-iebc-dismisses-claims-illegal-voter-registration-ahead-2027-election"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1233,7 +1235,8 @@
     "nairobi links binding plastic rules multi billion funding unep headquarters bid",
     "manyatta moves rebrand county embu mbeere cure resource divide",
     "mobilises evacuations intensifying splits regional weather",
-    "hidden third party markups threaten whatsapp business pricing"
+    "hidden third party markups threaten whatsapp business pricing",
+    "iebc cites kiems security logs rebuff uganda voter smuggling claims"
   ],
   "topic_keys": [
     "news tracker",
@@ -2394,6 +2397,15 @@
       "structure": "Intermediary cost multiplier lead -> Baseline rate mechanics and volume caps -> Corporate sector exposure breadth -> Operational accounting example -> Final billing reality (delivery-only charges)",
       "source": "https://kenyans.co.ke/news/127393-how-much-kenyan-businesses-will-pay-send-whatsapp-messages-october-1",
       "published_at": "2026-09-27T16:01:59Z"
+    },
+    {
+      "title": "IEBC Cites KIEMS Security Logs to Rebuff Uganda Voter Smuggling Claims",
+      "angle": "Reframing the rebuttal through the IEBC's dual defense strategy: relying on device-level technical safeguards and police lockup logs to clear its electoral hardware, while drawing a strict institutional firewall that shunts responsibility for any fraudulent border voters onto state immigration and national registration agencies.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first lead establishing the IEBC's formal denial, followed immediately by which institutional stakeholders benefit from this jurisdictional defense.",
+      "structure": "Attribution-first defense lead -> The Suam border allegations and administrative audit facts -> Technical safeguards and physical chain of custody (March-April exercise) -> The jurisdictional split over National IDs and immigration -> Opposition pressure, diaspora mandates, and evidentiary burden",
+      "source": "https://kenyans.co.ke/news/127394-iebc-dismisses-claims-illegal-voter-registration-ahead-2027-election",
+      "published_at": "2026-09-27T17:02:18Z"
     }
   ]
 }
