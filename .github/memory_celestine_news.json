@@ -699,10 +699,10 @@
     "019e4243ccf8d14753f73e7b05571b6b",
     "0eccf1a82581e2277bd3689689253c6d",
     "644affc3ba9c9c9e9c50e1c88239bd0e",
-    "a57292d2a4c0888a30d92822d0926d21"
+    "a57292d2a4c0888a30d92822d0926d21",
+    "58bc10cbcbc81d8d19d45f7aa7017f51"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
@@ -731,7 +731,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1015,7 +1016,8 @@
     "https://kenyans.co.ke/news/127375-kenya-met-lists-nairobi-among-counties-set-rains-over-next-five-days",
     "https://kenyans.co.ke/news/127381-sifuna-named-linda-mwananchi-leader-presidential-candidate",
     "https://kenyans.co.ke/news/127384-muturi-calls-iebc-probe-murkomens-remarks-voter-registration",
-    "https://kenyans.co.ke/news/127389-kuppet-raises-alarm-over-alleged-political-interference-tsc-teacher-promotions"
+    "https://kenyans.co.ke/news/127389-kuppet-raises-alarm-over-alleged-political-interference-tsc-teacher-promotions",
+    "https://kenyans.co.ke/news/127391-kenya-demands-new-funding-help-countries-implement-global-plastic-treaty"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1221,7 +1223,8 @@
     "met forecast pairs highland cold snap down scattered showers",
     "party less more sifuna forced fast track vehicle launch under linda mwananchi pact",
     "muturi pushes iebc summon murkomen cross border voter drive remarks",
-    "patronage dossiers threaten integrity tsc 000 teacher promotion drive"
+    "patronage dossiers threaten integrity tsc 000 teacher promotion drive",
+    "nairobi links binding plastic rules multi billion funding unep headquarters bid"
   ],
   "topic_keys": [
     "news tracker",
@@ -2346,6 +2349,15 @@
       "structure": "Patronage mechanism lead -> Interview scale and Kisii dispute details -> Merit and seniority criteria at risk -> Union's broader leverage: 2026 exam boycott threat -> Forward edge on JSS governance demands",
       "source": "https://kenyans.co.ke/news/127389-kuppet-raises-alarm-over-alleged-political-interference-tsc-teacher-promotions",
       "published_at": "2026-09-27T13:02:03Z"
+    },
+    {
+      "title": "Nairobi Links Binding Plastic Rules to Multi-Billion Funding and UNEP Headquarters Bid",
+      "angle": "How Nairobi is using the Bangkok talks to condition binding 'full lifecycle' industrial restrictions on new multilateral cash pipelines and securing Gigiri as the treaty's global headquarters.",
+      "angle_type": "institutional pressure",
+      "opening": "Diplomatic leverage lead connecting international treaty commitments directly to mandatory multilateral financing and institutional headquarters positioning.",
+      "structure": "Diplomatic stance lead -> Full lifecycle regulatory mechanics -> Financial support conditions & UNEP Gigiri bid -> Prior Nairobi foundation & delegation dynamics -> Local industrial compliance forward edge",
+      "source": "https://kenyans.co.ke/news/127391-kenya-demands-new-funding-help-countries-implement-global-plastic-treaty",
+      "published_at": "2026-09-27T13:40:23Z"
     }
   ]
 }
