@@ -715,10 +715,10 @@
     "4883f852a710309e50a1b2aa89a174b0",
     "807a9cf7b87c5f6bebe7f7c4f87fbfd9",
     "e83721c02b51b9c0e369102618f5cc43",
-    "8a7f8de2ec90c852beae48eb471b67dd"
+    "8a7f8de2ec90c852beae48eb471b67dd",
+    "edc00cdca2cffc38e0d9445ed10c9185"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -747,7 +747,8 @@
     "Hard News Lead",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1047,7 +1048,8 @@
     "https://kenyans.co.ke/news/127406-knec-warns-kenyans-over-fake-230000-jobs-notice-2026-exams",
     "https://kenyans.co.ke/news/127410-133-lamu-residents-take-dangote-refinery-land-dispute-court",
     "https://kenyans.co.ke/news/127411-ppb-warns-kenyans-over-falsified-lucentis-injections-one-arrested",
-    "https://kenyans.co.ke/news/127413-kenyan-marathoner-philemon-kiplimo-kimaiyo-handed-2-year-doping-ban"
+    "https://kenyans.co.ke/news/127413-kenyan-marathoner-philemon-kiplimo-kimaiyo-handed-2-year-doping-ban",
+    "https://kenyans.co.ke/news/127414-machakos-county-spot-over-ksh96-million-held-bank-2019"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1269,7 +1271,8 @@
     "fake 230 000 knec job notice ignores actually staffs exams",
     "industrial machinery arrives lamu land dispute hits high court",
     "counterfeit lucentis injections expose rift pharmaceutical oversight",
-    "road runner philemon kiplimo career halted household medication misstep"
+    "road runner philemon kiplimo career halted household medication misstep",
+    "machakos tied ksh96m bank staff loans while borrowers surrendered title deeds"
   ],
   "topic_keys": [
     "news tracker",
@@ -2538,6 +2541,15 @@
       "structure": "Lead on the consequences of the ban -> The specific violation and the 'household medicine' explanation -> The high-stakes cost of missing results/awards -> Future career impact and the regulatory baseline.",
       "source": "https://kenyans.co.ke/news/127413-kenyan-marathoner-philemon-kiplimo-kimaiyo-handed-2-year-doping-ban",
       "published_at": "2026-09-28T16:02:34Z"
+    },
+    {
+      "title": "Machakos Tied Ksh96M in Bank for 6 Staff Loans While Borrowers Surrendered Title Deeds",
+      "angle": "The financial asymmetry of a double-security structure: public coffers locked down Ksh96 million in an unremunerative bank deposit to underwrite just six beneficiaries who were simultaneously forced to surrender personal title deeds and logbooks, even as rank-and-file county staff face payroll and insurance crises.",
+      "angle_type": "money",
+      "opening": "Financial-asymmetry lead highlighting the double-collateral requirement and disproportionate capital lockup against minimal staff access.",
+      "structure": "Double-collateral paradox lead -> Audit numbers and disbursement mechanics -> Senate committee interrogation and executive defense -> Wider fiscal friction (salaries, budget standoff, pending bills) -> Senate compliance timeline and documentary demands.",
+      "source": "https://kenyans.co.ke/news/127414-machakos-county-spot-over-ksh96-million-held-bank-2019",
+      "published_at": "2026-09-28T18:02:02Z"
     }
   ]
 }
