@@ -712,10 +712,10 @@
     "70a4b94176b05e3250fc9c84c79cb80a",
     "72bd796b8daa6d3899f84d5451cc9899",
     "17801947b52458b518c13d8126fe10c8",
-    "4883f852a710309e50a1b2aa89a174b0"
+    "4883f852a710309e50a1b2aa89a174b0",
+    "807a9cf7b87c5f6bebe7f7c4f87fbfd9"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -744,7 +744,8 @@
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1041,7 +1042,8 @@
     "https://kenyans.co.ke/news/127401-mak-raises-concerns-over-ntsas-regulation-matatu-sector",
     "https://kenyans.co.ke/news/127405-sha-revises-verification-dates-facilities-over-ksh10-million-nhif-claims",
     "https://kenyans.co.ke/news/127407-dci-denies-ktn-report-linking-officers-uganda-border-election-probe-vows-action",
-    "https://kenyans.co.ke/news/127406-knec-warns-kenyans-over-fake-230000-jobs-notice-2026-exams"
+    "https://kenyans.co.ke/news/127406-knec-warns-kenyans-over-fake-230000-jobs-notice-2026-exams",
+    "https://kenyans.co.ke/news/127410-133-lamu-residents-take-dangote-refinery-land-dispute-court"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1260,7 +1262,8 @@
     "motorists lobby faults ntsa matatu ownership blindspot",
     "sha reorders ksh10m nhif audit mid tier hospitals face contracting cut off",
     "dci shuts down border cover claims purported uganda voter drive",
-    "fake 230 000 knec job notice ignores actually staffs exams"
+    "fake 230 000 knec job notice ignores actually staffs exams",
+    "industrial machinery arrives lamu land dispute hits high court"
   ],
   "topic_keys": [
     "news tracker",
@@ -2502,6 +2505,15 @@
       "structure": "Operational reality lead -> Examination deployment architecture (CP2 system & CSOs) -> The fake recruitment syndicate's claims vs. reality -> Examination timelines (October-November 2026).",
       "source": "https://kenyans.co.ke/news/127406-knec-warns-kenyans-over-fake-230000-jobs-notice-2026-exams",
       "published_at": "2026-09-28T12:02:20Z"
+    },
+    {
+      "title": "Industrial Machinery Arrives in Lamu as Land Dispute Hits High Court",
+      "angle": "The operational disconnect between the government's rapid deployment of heavy refinery machinery and the stalled, informal status of local community land tenure and resettlement.",
+      "angle_type": "consequence",
+      "opening": "Event-consequence lead contrasting the arrival of industrial machinery with the ongoing legal standstill.",
+      "structure": "Arrival of infrastructure -> The administrative limbo of LR No. 13061 -> The human cost of the August 2024 site clearing -> Legal claims vs. project timelines.",
+      "source": "https://kenyans.co.ke/news/127410-133-lamu-residents-take-dangote-refinery-land-dispute-court",
+      "published_at": "2026-09-28T13:02:15Z"
     }
   ]
 }
