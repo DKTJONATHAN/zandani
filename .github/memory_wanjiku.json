@@ -89,7 +89,8 @@
     "5994e0d6f5b5ccb0c2a334bb170589ec7ab0fa48119af0fb71e16b9a84735168",
     "54d843e071cd62c59df52615b304229637bd40c23e7868f397284af3450fe9bd",
     "638e892ec1d43f01d18f14de74549e279c1ac6c9dd072d96035370f205033ea6",
-    "85d5212b752fe69dee1a74f82184a158b8e96acca24eaad9ecb88cadf003fdba"
+    "85d5212b752fe69dee1a74f82184a158b8e96acca24eaad9ecb88cadf003fdba",
+    "2b428b4f001f58fc30faff7bed33de247e6140638d443c78c86c01d0506aa8f0"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -181,7 +182,8 @@
     "https://www.ghafla.co.ke/rigathi-gachagua-expresses-doubts-over-opposition-unity-ahead-of-2027-polls/",
     "https://www.ghafla.co.ke/residents-of-kwale-county-receive-title-deeds-as-rutos-coast-tour-begins/",
     "https://www.ghafla.co.ke/ig-douglas-kanja-escapes-jail-time-as-high-court-issues-final-warning-on-protest-roadblocks/",
-    "https://www.ghafla.co.ke/pastor-kanyari-questions-manzi-wa-mombasa-after-she-misses-church-despite-receiving-fare/"
+    "https://www.ghafla.co.ke/pastor-kanyari-questions-manzi-wa-mombasa-after-she-misses-church-despite-receiving-fare/",
+    "https://www.ghafla.co.ke/karen-nyamu-speaks-after-being-booed-at-natalie-githinjis-endometriosis-concert/"
   ],
   "published_angles": [
     {
@@ -887,6 +889,14 @@
       "opening": "Personality lead, focusing on the surprising fact that Manzi wa Mombasa, despite a strained past with Pastor Kanyari, still sought his assistance, leading to a public confrontation.",
       "structure": "Start with the revelation of the enduring connection -> Detail the public questioning during the service -> Provide Kanyari's account of the financial transaction -> Revisit their public history (expulsion over online content) -> Conclude with the unresolved public query and the continued visibility of their dynamic.",
       "source": "https://www.ghafla.co.ke/pastor-kanyari-questions-manzi-wa-mombasa-after-she-misses-church-despite-receiving-fare/"
+    },
+    {
+      "title": "Karen Nyamu Uses KICC Booing to Detail Kenya's Endometriosis Treatment Crisis",
+      "angle": "The source provides Nyamu's specific legislative intent and detailed factual revelations about Kenya's endometriosis crisis (lack of specialists, data, treatment infrastructure). The gap is to foreground these substantive policy revelations and Nyamu's proposed legislative response, using her controversial public appearance as the vehicle for this information, rather than focusing solely on the booing incident as personal drama.",
+      "angle_type": "policy implications/institutional pressure/people affected",
+      "opening": "Personality lead focusing on Karen Nyamu using a controversial public appearance to spotlight a legislative agenda.",
+      "structure": "Personality hook (controversial appearance and immediate pivot) -> Nyamu's stated purpose and policy revelations -> Specific identified gaps (gynaecologists, data) -> Details of the proposed Senate motion (treatment centers, insurance) -> Brief context of the booing and Nyamu's reaction -> Concrete closing fact about the legislative effort or unresolved challenge.",
+      "source": "https://www.ghafla.co.ke/karen-nyamu-speaks-after-being-booed-at-natalie-githinjis-endometriosis-concert/"
     }
   ],
   "style_history": [
