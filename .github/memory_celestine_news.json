@@ -706,10 +706,10 @@
     "20f42182338b648cd2caa9cba9c9ccc6",
     "aa36afa22613cb3696c793aa4676c798",
     "f31dbb7ef32296072bdf057c23f7697c",
-    "4348b2b2337322ae2ba1d18fc4f166e1"
+    "4348b2b2337322ae2ba1d18fc4f166e1",
+    "62ad143513a46593bdf120a6c9159b11"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -738,7 +738,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1029,7 +1030,8 @@
     "https://kenyans.co.ke/news/127393-how-much-kenyan-businesses-will-pay-send-whatsapp-messages-october-1",
     "https://kenyans.co.ke/news/127394-iebc-dismisses-claims-illegal-voter-registration-ahead-2027-election",
     "https://kenyans.co.ke/news/127396-martha-karua-announces-death-father-jackson-karua",
-    "https://kenyans.co.ke/news/127399-sha-warns-hospitals-new-contract-rules-take-effect-october-1"
+    "https://kenyans.co.ke/news/127399-sha-warns-hospitals-new-contract-rules-take-effect-october-1",
+    "https://kenyans.co.ke/news/127400-dci-warns-kenyans-against-online-scams-masquerading-lucrative-investments"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1242,7 +1244,8 @@
     "hidden third party markups threaten whatsapp business pricing",
     "iebc cites kiems security logs rebuff uganda voter smuggling claims",
     "mwalimu jackson karua dies kirinyaga home political rivals unify tribute",
-    "hospitals face patient offloading dilemma sha enforces midnight portal blackout"
+    "hospitals face patient offloading dilemma sha enforces midnight portal blackout",
+    "dci flags phantom trading dashboards regulators squeeze digital scams"
   ],
   "topic_keys": [
     "news tracker",
@@ -2430,6 +2433,15 @@
       "structure": "Operational cliff edge lead -> Administrative mechanism of portal blackouts and patient offloading -> Scope across four public medical funds -> Provider resistance over claim deductions and arrears -> Verification timeline leading into October 1",
       "source": "https://kenyans.co.ke/news/127399-sha-warns-hospitals-new-contract-rules-take-effect-october-1",
       "published_at": "2026-09-28T06:02:31Z"
+    },
+    {
+      "title": "DCI Flags Phantom Trading Dashboards as Regulators Squeeze Digital Scams",
+      "angle": "Attribution-first examination of how multi-agency enforcement\u2014spanning the DCI, CMA, and EACC's cross-border tracing partnership\u2014is closing in on digital investment syndicates that exploit social engineering and phantom dashboards to move illicit capital outside traditional oversight.",
+      "angle_type": "institutional pressure",
+      "opening": "Attribution-first statement establishing the DCI's formal finding, paired immediately with who profits from the unregulated digital schemes.",
+      "structure": "Attribution lead -> Core scam architecture and deceptive techniques -> Regulatory convergence (CMA alerts) -> Cross-border tracking and asset-recovery pipeline (EACC-NAZAHA) -> Forward legal exposure.",
+      "source": "https://kenyans.co.ke/news/127400-dci-warns-kenyans-against-online-scams-masquerading-lucrative-investments",
+      "published_at": "2026-09-28T06:28:50Z"
     }
   ]
 }
