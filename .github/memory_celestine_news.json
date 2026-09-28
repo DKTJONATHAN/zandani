@@ -704,10 +704,10 @@
     "d0ed32b5f47d66ab4268b7ecdbde25de",
     "fef04764cbc67f6f4c867df9c0807bb3",
     "20f42182338b648cd2caa9cba9c9ccc6",
-    "aa36afa22613cb3696c793aa4676c798"
+    "aa36afa22613cb3696c793aa4676c798",
+    "f31dbb7ef32296072bdf057c23f7697c"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -736,7 +736,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1025,7 +1026,8 @@
     "https://kenyans.co.ke/news/127390-manyatta-mp-proposes-renaming-embu-county-embu-mbeere",
     "https://kenyans.co.ke/news/127388-experts-explain-why-el-nino-affects-different-regions-differently",
     "https://kenyans.co.ke/news/127393-how-much-kenyan-businesses-will-pay-send-whatsapp-messages-october-1",
-    "https://kenyans.co.ke/news/127394-iebc-dismisses-claims-illegal-voter-registration-ahead-2027-election"
+    "https://kenyans.co.ke/news/127394-iebc-dismisses-claims-illegal-voter-registration-ahead-2027-election",
+    "https://kenyans.co.ke/news/127396-martha-karua-announces-death-father-jackson-karua"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1236,7 +1238,8 @@
     "manyatta moves rebrand county embu mbeere cure resource divide",
     "mobilises evacuations intensifying splits regional weather",
     "hidden third party markups threaten whatsapp business pricing",
-    "iebc cites kiems security logs rebuff uganda voter smuggling claims"
+    "iebc cites kiems security logs rebuff uganda voter smuggling claims",
+    "mwalimu jackson karua dies kirinyaga home political rivals unify tribute"
   ],
   "topic_keys": [
     "news tracker",
@@ -2406,6 +2409,15 @@
       "structure": "Attribution-first defense lead -> The Suam border allegations and administrative audit facts -> Technical safeguards and physical chain of custody (March-April exercise) -> The jurisdictional split over National IDs and immigration -> Opposition pressure, diaspora mandates, and evidentiary burden",
       "source": "https://kenyans.co.ke/news/127394-iebc-dismisses-claims-illegal-voter-registration-ahead-2027-election",
       "published_at": "2026-09-27T17:02:18Z"
+    },
+    {
+      "title": "Mwalimu Jackson Karua Dies at Kirinyaga Home as Political Rivals Unify in Tribute",
+      "angle": "Framing the loss around the quiet educational discipline and lifelong grounding that anchored Karua's five-decade legal and reformist public career, drawing rare across-the-aisle consensus among bitter political adversaries.",
+      "angle_type": "people affected",
+      "opening": "Tribute-led impact lead establishing the cross-political reverence for the Kirinyaga teacher whose quiet domestic mentorship underpinned one of Kenya's most uncompromising public figures.",
+      "structure": "Educator legacy lead -> Verified Kirinyaga timeline and final family meeting -> Karua's reflection on his formative backing -> Cross-party political consensus from State House to opposition benches -> Next administrative steps for the sendoff",
+      "source": "https://kenyans.co.ke/news/127396-martha-karua-announces-death-father-jackson-karua",
+      "published_at": "2026-09-28T05:01:46Z"
     }
   ]
 }
