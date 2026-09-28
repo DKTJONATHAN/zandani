@@ -705,10 +705,10 @@
     "fef04764cbc67f6f4c867df9c0807bb3",
     "20f42182338b648cd2caa9cba9c9ccc6",
     "aa36afa22613cb3696c793aa4676c798",
-    "f31dbb7ef32296072bdf057c23f7697c"
+    "f31dbb7ef32296072bdf057c23f7697c",
+    "4348b2b2337322ae2ba1d18fc4f166e1"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Desk Take",
     "Statement Report",
@@ -737,7 +737,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1027,7 +1028,8 @@
     "https://kenyans.co.ke/news/127388-experts-explain-why-el-nino-affects-different-regions-differently",
     "https://kenyans.co.ke/news/127393-how-much-kenyan-businesses-will-pay-send-whatsapp-messages-october-1",
     "https://kenyans.co.ke/news/127394-iebc-dismisses-claims-illegal-voter-registration-ahead-2027-election",
-    "https://kenyans.co.ke/news/127396-martha-karua-announces-death-father-jackson-karua"
+    "https://kenyans.co.ke/news/127396-martha-karua-announces-death-father-jackson-karua",
+    "https://kenyans.co.ke/news/127399-sha-warns-hospitals-new-contract-rules-take-effect-october-1"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1239,7 +1241,8 @@
     "mobilises evacuations intensifying splits regional weather",
     "hidden third party markups threaten whatsapp business pricing",
     "iebc cites kiems security logs rebuff uganda voter smuggling claims",
-    "mwalimu jackson karua dies kirinyaga home political rivals unify tribute"
+    "mwalimu jackson karua dies kirinyaga home political rivals unify tribute",
+    "hospitals face patient offloading dilemma sha enforces midnight portal blackout"
   ],
   "topic_keys": [
     "news tracker",
@@ -2418,6 +2421,15 @@
       "structure": "Educator legacy lead -> Verified Kirinyaga timeline and final family meeting -> Karua's reflection on his formative backing -> Cross-party political consensus from State House to opposition benches -> Next administrative steps for the sendoff",
       "source": "https://kenyans.co.ke/news/127396-martha-karua-announces-death-father-jackson-karua",
       "published_at": "2026-09-28T05:01:46Z"
+    },
+    {
+      "title": "Hospitals Face Patient Offloading Dilemma as SHA Enforces Midnight Portal Blackout",
+      "angle": "The operational cliff edge created by the midnight cut-off: how SHA's threat to revoke digital portal access forces hospitals into an immediate dilemma between offloading active patients and signing into disputed payment and deduction terms across four public funds.",
+      "angle_type": "consequence",
+      "opening": "Operational-consequence lead establishing the physical patient-transfer requirement and portal blackout facing non-compliant health facilities.",
+      "structure": "Operational cliff edge lead -> Administrative mechanism of portal blackouts and patient offloading -> Scope across four public medical funds -> Provider resistance over claim deductions and arrears -> Verification timeline leading into October 1",
+      "source": "https://kenyans.co.ke/news/127399-sha-warns-hospitals-new-contract-rules-take-effect-october-1",
+      "published_at": "2026-09-28T06:02:31Z"
     }
   ]
 }
