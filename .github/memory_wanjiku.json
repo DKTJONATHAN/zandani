@@ -83,7 +83,8 @@
     "fe0a37d36ffb5da99bf1d7f934980a1df0f5755d0cb628812d9fe3ba1e66b2f6",
     "4e2e25499cdafb9f99954e77183a7bdd9657abc515472ccda41c04ad7e9fb279",
     "4c874af65aace6e8a5758301562c223e49b0387a5a76b3cd05489bb722e05841",
-    "b7000b07346063ace8d39e465ff08cfee7b800c91a902d8cf222f7f0f01434f9"
+    "b7000b07346063ace8d39e465ff08cfee7b800c91a902d8cf222f7f0f01434f9",
+    "f9eff0bbba7ab60dfe5d1c9fcd3366f33ffa5b2e617720023494ac9af28aa2e2"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -169,7 +170,8 @@
     "https://www.ghafla.co.ke/gachagua-predicts-opposition-split-after-2027-flagbearer-selection/",
     "https://www.ghafla.co.ke/linda-mwananchi-endorses-sifuna-as-2027-presidential-candidate/",
     "https://www.ghafla.co.ke/murkomen-vows-to-end-banditry-as-government-recovers-3000-illegal-guns/",
-    "https://www.ghafla.co.ke/linda-mwananchi-movement-endorses-sifuna-as-2027-presidential-candidate/"
+    "https://www.ghafla.co.ke/linda-mwananchi-movement-endorses-sifuna-as-2027-presidential-candidate/",
+    "https://www.ghafla.co.ke/opposition-questions-murkomens-uganda-voter-drive-remarks/"
   ],
   "published_angles": [
     {
@@ -827,6 +829,14 @@
       "opening": "Personality lead highlighting Edwin Sifuna walking away with the presidential ticket and setting up a high-stakes October solo party launch.",
       "structure": "Personality hook -> The presidential declaration details from the retreat statement -> Sifuna's party-less dilemma and the upcoming October launch alongside Babu's TMP -> The coalition roadmap for the August 10, 2027 ballot -> Grounded close on upcoming negotiation steps.",
       "source": "https://www.ghafla.co.ke/linda-mwananchi-movement-endorses-sifuna-as-2027-presidential-candidate/"
+    },
+    {
+      "title": "Justin Muturi Drags Yoweri Museveni Into Kipchumba Murkomen\u2019s Kampala Voter Drive Drama",
+      "angle": "Framing the fallout around Justin Muturi turning CS Murkomen's Kampala consular advice into an international political spectacle by demanding direct diplomatic accountability from Ugandan President Yoweri Museveni.",
+      "angle_type": "political accountability and diplomatic challenge",
+      "opening": "Personality lead opening directly on Justin Muturi escalating CS Kipchumba Murkomen's Kampala remarks into a cross-border dispute involving President Yoweri Museveni.",
+      "structure": "Muturi-Museveni challenge lead -> IEBC summons request and specific DP statement quotes -> Murkomen's original Kampala speech breakdown -> Cross-border security context -> Concrete close on pending responses from Kampala and electoral authorities.",
+      "source": "https://www.ghafla.co.ke/opposition-questions-murkomens-uganda-voter-drive-remarks/"
     }
   ],
   "style_history": [
