@@ -708,10 +708,10 @@
     "f31dbb7ef32296072bdf057c23f7697c",
     "4348b2b2337322ae2ba1d18fc4f166e1",
     "62ad143513a46593bdf120a6c9159b11",
-    "7fd9ebcdb800b10e5eaf610d9d62c555"
+    "7fd9ebcdb800b10e5eaf610d9d62c555",
+    "70a4b94176b05e3250fc9c84c79cb80a"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -740,7 +740,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1033,7 +1034,8 @@
     "https://kenyans.co.ke/news/127396-martha-karua-announces-death-father-jackson-karua",
     "https://kenyans.co.ke/news/127399-sha-warns-hospitals-new-contract-rules-take-effect-october-1",
     "https://kenyans.co.ke/news/127400-dci-warns-kenyans-against-online-scams-masquerading-lucrative-investments",
-    "https://kenyans.co.ke/news/127398-kura-extends-closure-eldoret-road-3-more-months-over-construction-delays"
+    "https://kenyans.co.ke/news/127398-kura-extends-closure-eldoret-road-3-more-months-over-construction-delays",
+    "https://kenyans.co.ke/news/127401-mak-raises-concerns-over-ntsas-regulation-matatu-sector"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1248,7 +1250,8 @@
     "mwalimu jackson karua dies kirinyaga home political rivals unify tribute",
     "hospitals face patient offloading dilemma sha enforces midnight portal blackout",
     "dci flags phantom trading dashboards regulators squeeze digital scams",
-    "kura extends eldoret road bridge closure december quarry corridor shuts"
+    "kura extends eldoret road bridge closure december quarry corridor shuts",
+    "motorists lobby faults ntsa matatu ownership blindspot"
   ],
   "topic_keys": [
     "news tracker",
@@ -2454,6 +2457,15 @@
       "structure": "Compound traffic squeeze lead -> Eldoret Road bridge delay mechanics and revised December deadline -> Jogoo Road and arterial detour logistics -> Mlolongo-Kamulu industrial closure specifics -> Vehicle-class split (Syokimau residential vs Tuffoam heavy freight) -> Enforcement and forward horizon",
       "source": "https://kenyans.co.ke/news/127398-kura-extends-closure-eldoret-road-3-more-months-over-construction-delays",
       "published_at": "2026-09-28T07:02:23Z"
+    },
+    {
+      "title": "Motorists Lobby Faults NTSA Over Matatu Ownership Blindspot",
+      "angle": "Framing the dispute around the institutional contradiction between NTSA seeking expanded statutory inspection powers under the 2026 Amendment Bill while simultaneously disclaiming knowledge of the beneficial owners and investors behind the public service vehicles it already registers and sanctions.",
+      "angle_type": "accountability",
+      "opening": "Accountability lead contrasting NTSA's push for expanded regulatory mandates against its stated inability to map the ownership of vehicles on its registry.",
+      "structure": "Institutional paradox lead -> MAK's evidentiary challenge to Kondiwa's disclosures -> Selective enforcement mechanics -> Taxpayer funding and statutory amendment context -> Unresolved ownership compliance edge",
+      "source": "https://kenyans.co.ke/news/127401-mak-raises-concerns-over-ntsas-regulation-matatu-sector",
+      "published_at": "2026-09-28T08:02:12Z"
     }
   ]
 }
