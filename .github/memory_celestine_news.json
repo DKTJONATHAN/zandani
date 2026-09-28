@@ -714,10 +714,10 @@
     "17801947b52458b518c13d8126fe10c8",
     "4883f852a710309e50a1b2aa89a174b0",
     "807a9cf7b87c5f6bebe7f7c4f87fbfd9",
-    "e83721c02b51b9c0e369102618f5cc43"
+    "e83721c02b51b9c0e369102618f5cc43",
+    "8a7f8de2ec90c852beae48eb471b67dd"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -746,7 +746,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1045,7 +1046,8 @@
     "https://kenyans.co.ke/news/127407-dci-denies-ktn-report-linking-officers-uganda-border-election-probe-vows-action",
     "https://kenyans.co.ke/news/127406-knec-warns-kenyans-over-fake-230000-jobs-notice-2026-exams",
     "https://kenyans.co.ke/news/127410-133-lamu-residents-take-dangote-refinery-land-dispute-court",
-    "https://kenyans.co.ke/news/127411-ppb-warns-kenyans-over-falsified-lucentis-injections-one-arrested"
+    "https://kenyans.co.ke/news/127411-ppb-warns-kenyans-over-falsified-lucentis-injections-one-arrested",
+    "https://kenyans.co.ke/news/127413-kenyan-marathoner-philemon-kiplimo-kimaiyo-handed-2-year-doping-ban"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1266,7 +1268,8 @@
     "dci shuts down border cover claims purported uganda voter drive",
     "fake 230 000 knec job notice ignores actually staffs exams",
     "industrial machinery arrives lamu land dispute hits high court",
-    "counterfeit lucentis injections expose rift pharmaceutical oversight"
+    "counterfeit lucentis injections expose rift pharmaceutical oversight",
+    "road runner philemon kiplimo career halted household medication misstep"
   ],
   "topic_keys": [
     "news tracker",
@@ -2526,6 +2529,15 @@
       "structure": "Regulatory oversight gap -> The specific physical identifiers of the counterfeit product -> The broader jurisdictional conflict between counties and the PPB -> Call to action for procurement verification.",
       "source": "https://kenyans.co.ke/news/127411-ppb-warns-kenyans-over-falsified-lucentis-injections-one-arrested",
       "published_at": "2026-09-28T14:02:14Z"
+    },
+    {
+      "title": "Road Runner Philemon Kiplimo\u2019s Career Halted by Household Medication Misstep",
+      "angle": "The operational vulnerability of elite runners regarding basic medication, specifically the 'wife\u2019s painkillers' explanation which highlights a recurring pattern of dietary and medical negligence in Kenyan athletics.",
+      "angle_type": "consequence",
+      "opening": "A narrative-consequence opening that juxtaposes the athlete\u2019s high-performance career trajectory against the sudden regulatory halt caused by household medical cross-contamination.",
+      "structure": "Lead on the consequences of the ban -> The specific violation and the 'household medicine' explanation -> The high-stakes cost of missing results/awards -> Future career impact and the regulatory baseline.",
+      "source": "https://kenyans.co.ke/news/127413-kenyan-marathoner-philemon-kiplimo-kimaiyo-handed-2-year-doping-ban",
+      "published_at": "2026-09-28T16:02:34Z"
     }
   ]
 }
