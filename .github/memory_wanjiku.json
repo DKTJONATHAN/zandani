@@ -93,7 +93,8 @@
     "2b428b4f001f58fc30faff7bed33de247e6140638d443c78c86c01d0506aa8f0",
     "70e96c18b75f6ac81e9ffd2f59722929f2f423d33aac28999f20bcb3eaf86227",
     "baf05331985100474ab8c1dfa8912473b6d73a73e0d0ea76e4c6f0d7785d390f",
-    "66cea60811041bdcd450ee7b89d94b09f0c984e2e3283954a8fe22d2683e771e"
+    "66cea60811041bdcd450ee7b89d94b09f0c984e2e3283954a8fe22d2683e771e",
+    "e17b5bcc661778f399a106b3f3823e9de7220aece88d7064fff4edefcb834779"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -189,7 +190,8 @@
     "https://www.ghafla.co.ke/karen-nyamu-speaks-after-being-booed-at-natalie-githinjis-endometriosis-concert/",
     "https://www.ghafla.co.ke/gen-z-marriage-debate-erupts-after-listener-proposes-living-separately/",
     "https://www.ghafla.co.ke/otile-brown-questions-biens-edge-over-willy-paul-sparks-fresh-debate/",
-    "https://www.ghafla.co.ke/plo-lumumba-wantam-alone-is-not-a-presidential-agenda/"
+    "https://www.ghafla.co.ke/plo-lumumba-wantam-alone-is-not-a-presidential-agenda/",
+    "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-several-counties-on-september-28/"
   ],
   "published_angles": [
     {
@@ -927,6 +929,14 @@
       "opening": "Personality-led opening focusing directly on PLO Lumumba stepping into the 2027 discourse to dismantle political shortcuts.",
       "structure": "Personality hook -> Lumumba's 'musical chairs' coalition critique -> The policy void in infrastructure and education -> The ticking clock toward the 2027 polls",
       "source": "https://www.ghafla.co.ke/plo-lumumba-wantam-alone-is-not-a-presidential-agenda/"
+    },
+    {
+      "title": "Kenya Power Schedules Eight-Hour Blackout Across Nairobi Residential Hubs and Regional Factories",
+      "angle": "Focusing on the operational disruption split between Nairobi's prime residential and creative belts\u2014stretching from Argwings Kodhek to Riara Road\u2014and vital rural agro-processing nodes like tea factories and sawmills across six counties.",
+      "angle_type": "operational disruption and infrastructure impact",
+      "opening": "Direct focus on the extensive eight-hour blackout sweeping through Nairobi's prime residential hubs and regional commercial centres.",
+      "structure": "Urban residential belt breakdown -> Rural agro-industrial impact (factories and processing centres) -> Institutional and border corridor schedules -> Operational advisory specifics",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-several-counties-on-september-28/"
     }
   ],
   "style_history": [
