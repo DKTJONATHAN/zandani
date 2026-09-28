@@ -711,10 +711,10 @@
     "7fd9ebcdb800b10e5eaf610d9d62c555",
     "70a4b94176b05e3250fc9c84c79cb80a",
     "72bd796b8daa6d3899f84d5451cc9899",
-    "17801947b52458b518c13d8126fe10c8"
+    "17801947b52458b518c13d8126fe10c8",
+    "4883f852a710309e50a1b2aa89a174b0"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
@@ -743,7 +743,8 @@
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1039,7 +1040,8 @@
     "https://kenyans.co.ke/news/127398-kura-extends-closure-eldoret-road-3-more-months-over-construction-delays",
     "https://kenyans.co.ke/news/127401-mak-raises-concerns-over-ntsas-regulation-matatu-sector",
     "https://kenyans.co.ke/news/127405-sha-revises-verification-dates-facilities-over-ksh10-million-nhif-claims",
-    "https://kenyans.co.ke/news/127407-dci-denies-ktn-report-linking-officers-uganda-border-election-probe-vows-action"
+    "https://kenyans.co.ke/news/127407-dci-denies-ktn-report-linking-officers-uganda-border-election-probe-vows-action",
+    "https://kenyans.co.ke/news/127406-knec-warns-kenyans-over-fake-230000-jobs-notice-2026-exams"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1257,7 +1259,8 @@
     "kura extends eldoret road bridge closure december quarry corridor shuts",
     "motorists lobby faults ntsa matatu ownership blindspot",
     "sha reorders ksh10m nhif audit mid tier hospitals face contracting cut off",
-    "dci shuts down border cover claims purported uganda voter drive"
+    "dci shuts down border cover claims purported uganda voter drive",
+    "fake 230 000 knec job notice ignores actually staffs exams"
   ],
   "topic_keys": [
     "news tracker",
@@ -2490,6 +2493,15 @@
       "structure": "Institutional denial lead -> Repudiation of the border interdiction and personnel transfer claims -> Specific allegations detailed in the media expose -> Scrutiny over pre-election timing -> Forward edge on border integrity and ongoing electoral preparations",
       "source": "https://kenyans.co.ke/news/127407-dci-denies-ktn-report-linking-officers-uganda-border-election-probe-vows-action",
       "published_at": "2026-09-28T11:02:21Z"
+    },
+    {
+      "title": "Why the Fake 230,000 KNEC Job Notice Ignores How Kenya Actually Staffs Its Exams",
+      "angle": "The operational reality and administrative mechanics of how national examination deployment actually works\u2014relying on state-vetted teacher nominations via the CP2 system rather than open public applications\u2014which exposes why the 230,000-job claim is structurally impossible.",
+      "angle_type": "practical change",
+      "opening": "Practical change lead focusing on the administrative firewall between public job claims and actual state deployment mechanics.",
+      "structure": "Operational reality lead -> Examination deployment architecture (CP2 system & CSOs) -> The fake recruitment syndicate's claims vs. reality -> Examination timelines (October-November 2026).",
+      "source": "https://kenyans.co.ke/news/127406-knec-warns-kenyans-over-fake-230000-jobs-notice-2026-exams",
+      "published_at": "2026-09-28T12:02:20Z"
     }
   ]
 }
