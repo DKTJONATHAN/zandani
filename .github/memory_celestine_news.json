@@ -710,10 +710,10 @@
     "62ad143513a46593bdf120a6c9159b11",
     "7fd9ebcdb800b10e5eaf610d9d62c555",
     "70a4b94176b05e3250fc9c84c79cb80a",
-    "72bd796b8daa6d3899f84d5451cc9899"
+    "72bd796b8daa6d3899f84d5451cc9899",
+    "17801947b52458b518c13d8126fe10c8"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
@@ -742,7 +742,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1037,7 +1038,8 @@
     "https://kenyans.co.ke/news/127400-dci-warns-kenyans-against-online-scams-masquerading-lucrative-investments",
     "https://kenyans.co.ke/news/127398-kura-extends-closure-eldoret-road-3-more-months-over-construction-delays",
     "https://kenyans.co.ke/news/127401-mak-raises-concerns-over-ntsas-regulation-matatu-sector",
-    "https://kenyans.co.ke/news/127405-sha-revises-verification-dates-facilities-over-ksh10-million-nhif-claims"
+    "https://kenyans.co.ke/news/127405-sha-revises-verification-dates-facilities-over-ksh10-million-nhif-claims",
+    "https://kenyans.co.ke/news/127407-dci-denies-ktn-report-linking-officers-uganda-border-election-probe-vows-action"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1254,7 +1256,8 @@
     "dci flags phantom trading dashboards regulators squeeze digital scams",
     "kura extends eldoret road bridge closure december quarry corridor shuts",
     "motorists lobby faults ntsa matatu ownership blindspot",
-    "sha reorders ksh10m nhif audit mid tier hospitals face contracting cut off"
+    "sha reorders ksh10m nhif audit mid tier hospitals face contracting cut off",
+    "dci shuts down border cover claims purported uganda voter drive"
   ],
   "topic_keys": [
     "news tracker",
@@ -2478,6 +2481,15 @@
       "structure": "Attribution lead -> Verification directives and documentary requirements -> CEO Mwangangi's contracting ultimatum -> Transition mechanics of legacy NHIF claims -> Impending midnight deadline.",
       "source": "https://kenyans.co.ke/news/127405-sha-revises-verification-dates-facilities-over-ksh10-million-nhif-claims",
       "published_at": "2026-09-28T10:01:46Z"
+    },
+    {
+      "title": "DCI Shuts Down Border Cover-Up Claims Over Purported Uganda Voter Drive",
+      "angle": "DCI's rebuttal focuses on dismantling the narrative of an internal police cover-up, directly challenging claims that operational personnel were silenced or punitively redeployed to headquarters over cross-border electoral scrutiny.",
+      "angle_type": "accountability",
+      "opening": "Institutional accountability lead focusing on DCI's refutation of internal suppression and personnel transfers.",
+      "structure": "Institutional denial lead -> Repudiation of the border interdiction and personnel transfer claims -> Specific allegations detailed in the media expose -> Scrutiny over pre-election timing -> Forward edge on border integrity and ongoing electoral preparations",
+      "source": "https://kenyans.co.ke/news/127407-dci-denies-ktn-report-linking-officers-uganda-border-election-probe-vows-action",
+      "published_at": "2026-09-28T11:02:21Z"
     }
   ]
 }
