@@ -707,10 +707,10 @@
     "aa36afa22613cb3696c793aa4676c798",
     "f31dbb7ef32296072bdf057c23f7697c",
     "4348b2b2337322ae2ba1d18fc4f166e1",
-    "62ad143513a46593bdf120a6c9159b11"
+    "62ad143513a46593bdf120a6c9159b11",
+    "7fd9ebcdb800b10e5eaf610d9d62c555"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Event Report",
@@ -739,7 +739,8 @@
     "Statement Report",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1031,7 +1032,8 @@
     "https://kenyans.co.ke/news/127394-iebc-dismisses-claims-illegal-voter-registration-ahead-2027-election",
     "https://kenyans.co.ke/news/127396-martha-karua-announces-death-father-jackson-karua",
     "https://kenyans.co.ke/news/127399-sha-warns-hospitals-new-contract-rules-take-effect-october-1",
-    "https://kenyans.co.ke/news/127400-dci-warns-kenyans-against-online-scams-masquerading-lucrative-investments"
+    "https://kenyans.co.ke/news/127400-dci-warns-kenyans-against-online-scams-masquerading-lucrative-investments",
+    "https://kenyans.co.ke/news/127398-kura-extends-closure-eldoret-road-3-more-months-over-construction-delays"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1245,7 +1247,8 @@
     "iebc cites kiems security logs rebuff uganda voter smuggling claims",
     "mwalimu jackson karua dies kirinyaga home political rivals unify tribute",
     "hospitals face patient offloading dilemma sha enforces midnight portal blackout",
-    "dci flags phantom trading dashboards regulators squeeze digital scams"
+    "dci flags phantom trading dashboards regulators squeeze digital scams",
+    "kura extends eldoret road bridge closure december quarry corridor shuts"
   ],
   "topic_keys": [
     "news tracker",
@@ -2442,6 +2445,15 @@
       "structure": "Attribution lead -> Core scam architecture and deceptive techniques -> Regulatory convergence (CMA alerts) -> Cross-border tracking and asset-recovery pipeline (EACC-NAZAHA) -> Forward legal exposure.",
       "source": "https://kenyans.co.ke/news/127400-dci-warns-kenyans-against-online-scams-masquerading-lucrative-investments",
       "published_at": "2026-09-28T06:28:50Z"
+    },
+    {
+      "title": "KURA Extends Eldoret Road Bridge Closure to December as Quarry Corridor Shuts",
+      "angle": "Reframing the announcements through the compound pressure facing metropolitan motorists and freight haulers: KURA's missed September bridge delivery pushes central river-crossing diversions into the holiday travel window just as industrial quarry traffic is displaced onto suburban estate roads in Machakos-Nairobi border corridors.",
+      "angle_type": "practical change",
+      "opening": "Corridor-pressure lead contrasting the prolonged disruption across the Nairobi River crossing with the fresh diversion of heavy commercial freight starting this week.",
+      "structure": "Compound traffic squeeze lead -> Eldoret Road bridge delay mechanics and revised December deadline -> Jogoo Road and arterial detour logistics -> Mlolongo-Kamulu industrial closure specifics -> Vehicle-class split (Syokimau residential vs Tuffoam heavy freight) -> Enforcement and forward horizon",
+      "source": "https://kenyans.co.ke/news/127398-kura-extends-closure-eldoret-road-3-more-months-over-construction-delays",
+      "published_at": "2026-09-28T07:02:23Z"
     }
   ]
 }
