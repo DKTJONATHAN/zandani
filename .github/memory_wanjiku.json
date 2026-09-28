@@ -87,7 +87,8 @@
     "f9eff0bbba7ab60dfe5d1c9fcd3366f33ffa5b2e617720023494ac9af28aa2e2",
     "11bb51fbe4c495728e48de6135be3d77356cc7c29a312092680c0d0b8059f33a",
     "5994e0d6f5b5ccb0c2a334bb170589ec7ab0fa48119af0fb71e16b9a84735168",
-    "54d843e071cd62c59df52615b304229637bd40c23e7868f397284af3450fe9bd"
+    "54d843e071cd62c59df52615b304229637bd40c23e7868f397284af3450fe9bd",
+    "638e892ec1d43f01d18f14de74549e279c1ac6c9dd072d96035370f205033ea6"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -177,7 +178,8 @@
     "https://www.ghafla.co.ke/opposition-questions-murkomens-uganda-voter-drive-remarks/",
     "https://www.ghafla.co.ke/healthcare-facilities-on-high-alert-as-current-sha-contracts-expire-september-30/",
     "https://www.ghafla.co.ke/rigathi-gachagua-expresses-doubts-over-opposition-unity-ahead-of-2027-polls/",
-    "https://www.ghafla.co.ke/residents-of-kwale-county-receive-title-deeds-as-rutos-coast-tour-begins/"
+    "https://www.ghafla.co.ke/residents-of-kwale-county-receive-title-deeds-as-rutos-coast-tour-begins/",
+    "https://www.ghafla.co.ke/ig-douglas-kanja-escapes-jail-time-as-high-court-issues-final-warning-on-protest-roadblocks/"
   ],
   "published_angles": [
     {
@@ -867,6 +869,14 @@
       "opening": "Personality lead opening directly on President William Ruto taking the stage in Kibaoni to personally hand out title deeds.",
       "structure": "Personality hook at Kibaoni -> Anastasia's verified handover and reaction (Deed No. 1084) -> Kwale and Taita-Taveta tour scope -> Tenurial security and economic context -> Forward look at the multi-county tour",
       "source": "https://www.ghafla.co.ke/residents-of-kwale-county-receive-title-deeds-as-rutos-coast-tour-begins/"
+    },
+    {
+      "title": "Douglas Kanja Dodges Jail Cell After High Court Drag-In Over Street Barricades",
+      "angle": "Focusing on the rare high-stakes courtroom appearance of the police chief and his senior commanders facing personal custodial threats over road blockades.",
+      "angle_type": "high-stakes institutional confrontation and personal accountability",
+      "opening": "Personality-led focus on Douglas Kanja walking into a courtroom showdown rather than a dry legal summary.",
+      "structure": "Courtroom entrance and personal jeopardy -> The operational plan compromise -> The judge's explicit personal liability warning -> Final legal context and closing fact.",
+      "source": "https://www.ghafla.co.ke/ig-douglas-kanja-escapes-jail-time-as-high-court-issues-final-warning-on-protest-roadblocks/"
     }
   ],
   "style_history": [
