@@ -709,10 +709,10 @@
     "4348b2b2337322ae2ba1d18fc4f166e1",
     "62ad143513a46593bdf120a6c9159b11",
     "7fd9ebcdb800b10e5eaf610d9d62c555",
-    "70a4b94176b05e3250fc9c84c79cb80a"
+    "70a4b94176b05e3250fc9c84c79cb80a",
+    "72bd796b8daa6d3899f84d5451cc9899"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -741,7 +741,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1035,7 +1036,8 @@
     "https://kenyans.co.ke/news/127399-sha-warns-hospitals-new-contract-rules-take-effect-october-1",
     "https://kenyans.co.ke/news/127400-dci-warns-kenyans-against-online-scams-masquerading-lucrative-investments",
     "https://kenyans.co.ke/news/127398-kura-extends-closure-eldoret-road-3-more-months-over-construction-delays",
-    "https://kenyans.co.ke/news/127401-mak-raises-concerns-over-ntsas-regulation-matatu-sector"
+    "https://kenyans.co.ke/news/127401-mak-raises-concerns-over-ntsas-regulation-matatu-sector",
+    "https://kenyans.co.ke/news/127405-sha-revises-verification-dates-facilities-over-ksh10-million-nhif-claims"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1251,7 +1253,8 @@
     "hospitals face patient offloading dilemma sha enforces midnight portal blackout",
     "dci flags phantom trading dashboards regulators squeeze digital scams",
     "kura extends eldoret road bridge closure december quarry corridor shuts",
-    "motorists lobby faults ntsa matatu ownership blindspot"
+    "motorists lobby faults ntsa matatu ownership blindspot",
+    "sha reorders ksh10m nhif audit mid tier hospitals face contracting cut off"
   ],
   "topic_keys": [
     "news tracker",
@@ -2466,6 +2469,15 @@
       "structure": "Institutional paradox lead -> MAK's evidentiary challenge to Kondiwa's disclosures -> Selective enforcement mechanics -> Taxpayer funding and statutory amendment context -> Unresolved ownership compliance edge",
       "source": "https://kenyans.co.ke/news/127401-mak-raises-concerns-over-ntsas-regulation-matatu-sector",
       "published_at": "2026-09-28T08:02:12Z"
+    },
+    {
+      "title": "SHA Reorders Ksh10M NHIF Audit as Mid-Tier Hospitals Face Contracting Cut-Off",
+      "angle": "Attribution-first examination of how the audit date adjustment consolidates SHA's administrative leverage, forcing Level 4 facilities to marshal extensive historical paperwork for physical inspections while simultaneously racing against a separate 72-hour contract renewal cut-off.",
+      "angle_type": "accountability",
+      "opening": "Attribution first, then who benefits: opening on SHA's formal rescheduling notice and immediately specifying how state verification teams gain regulatory advantage over high-value hospital balance sheets.",
+      "structure": "Attribution lead -> Verification directives and documentary requirements -> CEO Mwangangi's contracting ultimatum -> Transition mechanics of legacy NHIF claims -> Impending midnight deadline.",
+      "source": "https://kenyans.co.ke/news/127405-sha-revises-verification-dates-facilities-over-ksh10-million-nhif-claims",
+      "published_at": "2026-09-28T10:01:46Z"
     }
   ]
 }
