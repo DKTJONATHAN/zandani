@@ -713,10 +713,10 @@
     "72bd796b8daa6d3899f84d5451cc9899",
     "17801947b52458b518c13d8126fe10c8",
     "4883f852a710309e50a1b2aa89a174b0",
-    "807a9cf7b87c5f6bebe7f7c4f87fbfd9"
+    "807a9cf7b87c5f6bebe7f7c4f87fbfd9",
+    "e83721c02b51b9c0e369102618f5cc43"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -745,7 +745,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1043,7 +1044,8 @@
     "https://kenyans.co.ke/news/127405-sha-revises-verification-dates-facilities-over-ksh10-million-nhif-claims",
     "https://kenyans.co.ke/news/127407-dci-denies-ktn-report-linking-officers-uganda-border-election-probe-vows-action",
     "https://kenyans.co.ke/news/127406-knec-warns-kenyans-over-fake-230000-jobs-notice-2026-exams",
-    "https://kenyans.co.ke/news/127410-133-lamu-residents-take-dangote-refinery-land-dispute-court"
+    "https://kenyans.co.ke/news/127410-133-lamu-residents-take-dangote-refinery-land-dispute-court",
+    "https://kenyans.co.ke/news/127411-ppb-warns-kenyans-over-falsified-lucentis-injections-one-arrested"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1263,7 +1265,8 @@
     "sha reorders ksh10m nhif audit mid tier hospitals face contracting cut off",
     "dci shuts down border cover claims purported uganda voter drive",
     "fake 230 000 knec job notice ignores actually staffs exams",
-    "industrial machinery arrives lamu land dispute hits high court"
+    "industrial machinery arrives lamu land dispute hits high court",
+    "counterfeit lucentis injections expose rift pharmaceutical oversight"
   ],
   "topic_keys": [
     "news tracker",
@@ -2514,6 +2517,15 @@
       "structure": "Arrival of infrastructure -> The administrative limbo of LR No. 13061 -> The human cost of the August 2024 site clearing -> Legal claims vs. project timelines.",
       "source": "https://kenyans.co.ke/news/127410-133-lamu-residents-take-dangote-refinery-land-dispute-court",
       "published_at": "2026-09-28T13:02:15Z"
+    },
+    {
+      "title": "Counterfeit Lucentis Injections Expose Rift in Pharmaceutical Oversight",
+      "angle": "The operational regulatory confusion caused by the overlap between county-issued business permits and national pharmaceutical practice licenses, which creates the very blind spots counterfeiters exploit.",
+      "angle_type": "accountability",
+      "opening": "An analytical lead that contrasts the immediate danger of the fake medicine with the institutional rift in regulatory oversight.",
+      "structure": "Regulatory oversight gap -> The specific physical identifiers of the counterfeit product -> The broader jurisdictional conflict between counties and the PPB -> Call to action for procurement verification.",
+      "source": "https://kenyans.co.ke/news/127411-ppb-warns-kenyans-over-falsified-lucentis-injections-one-arrested",
+      "published_at": "2026-09-28T14:02:14Z"
     }
   ]
 }
