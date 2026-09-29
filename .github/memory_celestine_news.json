@@ -719,10 +719,10 @@
     "edc00cdca2cffc38e0d9445ed10c9185",
     "713d089179ae2072073089777a557ca0",
     "e8d25d0b98f58364f42996ec54264c7e",
-    "74fd85cacab1ab0464d3722afffbeb29"
+    "74fd85cacab1ab0464d3722afffbeb29",
+    "a052080a193fa582be6097d9cb22f0a5"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -751,7 +751,8 @@
     "Event Report",
     "Desk Take",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1055,7 +1056,8 @@
     "https://kenyans.co.ke/news/127414-machakos-county-spot-over-ksh96-million-held-bank-2019",
     "https://kenyans.co.ke/news/127416-kenya-talks-ksh1297-billion-debt-swap-us-bank",
     "https://kenyans.co.ke/news/127420-kenya-advanced-talks-us-over-critical-minerals-processing-deal",
-    "https://kenyans.co.ke/news/127422-eacc-recovers-ksh-25m-road-reserve-near-uon-mombasa-campus"
+    "https://kenyans.co.ke/news/127422-eacc-recovers-ksh-25m-road-reserve-near-uon-mombasa-campus",
+    "https://kenyans.co.ke/news/127423-kitutu-masaba-mp-clive-gisairo-involved-road-accident-after-vehicle-hit-behind"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1281,7 +1283,8 @@
     "machakos tied ksh96m bank staff loans while borrowers surrendered title deeds",
     "treasury weighs ksh130b bank swap ease domestic debt squeeze",
     "dangles tax holidays port access lock global bidders local mineral refining",
-    "1994 municipal bypass signed away uon access route three decades"
+    "1994 municipal bypass signed away uon access route three decades",
+    "state leased isuzu max crash raises accountability questions quick evacuation occupants"
   ],
   "topic_keys": [
     "news tracker",
@@ -2586,6 +2589,15 @@
       "structure": "Accountability lead -> Court findings on procedural bypasses -> Institutional access friction for UoN -> Historical responsibility of former officials -> Concluding parking lot status.",
       "source": "https://kenyans.co.ke/news/127422-eacc-recovers-ksh-25m-road-reserve-near-uon-mombasa-campus",
       "published_at": "2026-09-29T07:02:21Z"
+    },
+    {
+      "title": "State-Leased Isuzu D-Max Crash Raises Accountability Questions Over Quick Evacuation of Occupants",
+      "angle": "The institutional accountability questions surrounding state-leased assets, particularly how occupants of a government-leased vehicle involved in a collision were swiftly evacuated by ministry officers before full traffic police processing.",
+      "angle_type": "accountability",
+      "opening": "Accountability-focused opening examining the operational ambiguity of state-leased vehicles on transit routes.",
+      "structure": "Lead on state asset accountability -> Accident mechanics and vehicle registration details -> Evacuation protocols and ministry response -> Broader political backdrop without distraction.",
+      "source": "https://kenyans.co.ke/news/127423-kitutu-masaba-mp-clive-gisairo-involved-road-accident-after-vehicle-hit-behind",
+      "published_at": "2026-09-29T08:02:37Z"
     }
   ]
 }
