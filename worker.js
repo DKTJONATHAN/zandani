@@ -169,7 +169,7 @@ function corsHeaders(extra = {}) {
   return {
     "Access-Control-Allow-Origin": SITE,
     "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
-    "Access-Control-Allow-Headers": "Content-Type",
+    "Access-Control-Allow-Headers": "Content-Type, Authorization",
     "Cache-Control": "no-store",
     ...extra,
   };
@@ -660,6 +660,32 @@ async function handleUnsubscribe(request, env) {
   return json({ ok: true });
 }
 
+// ---- Admin API protection -------------------------------------------------
+// Every /api/github and /api/scheduler/* route can read, write or delete repo files
+// or trigger paid AI generation, so they MUST require a server-side secret.
+// Set it with:  npx wrangler secret put ADMIN_API_TOKEN   (use a long random value)
+// Fails CLOSED: if the secret is not configured, admin routes are disabled.
+function isAdminAuthorized(request, env) {
+  const expected = String(env.ADMIN_API_TOKEN || "").trim();
+  if (expected.length < 24) return false; // refuse weak/missing secrets
+  const supplied = String(request.headers.get("Authorization") || "").replace(/^Bearer\s+/i, "").trim();
+  if (supplied.length !== expected.length) return false;
+  let diff = 0;
+  for (let i = 0; i < expected.length; i++) diff |= expected.charCodeAt(i) ^ supplied.charCodeAt(i);
+  return diff === 0;
+}
+function adminDenied(env) {
+  const configured = String(env.ADMIN_API_TOKEN || "").trim().length >= 24;
+  return json({ error: configured ? "Unauthorized" : "Admin API disabled: ADMIN_API_TOKEN secret not configured" }, configured ? 401 : 503);
+}
+// Only content and public assets may be touched through the GitHub proxy. Never code, workflows or config.
+const GITHUB_WRITE_ALLOWLIST = [/^content\/posts\/[a-z0-9._-]+\.md$/i, /^content\/authors\.json$/, /^public\/authors\.json$/, /^public\/images\/[a-z0-9._-]+$/i];
+function isAllowedRepoPath(path) {
+  const p = String(path || "");
+  if (p.includes("..") || p.startsWith("/") || p.includes("\\")) return false;
+  return GITHUB_WRITE_ALLOWLIST.some((re) => re.test(p));
+}
+
 async function handleGithubApi(request, env) {
   if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: corsHeaders() });
   if (request.method !== "POST") return json({ error: "POST only" }, 405);
@@ -667,6 +693,7 @@ async function handleGithubApi(request, env) {
     const body = await request.json();
     const action = body.action;
     const path = body.path;
+    if (!isAllowedRepoPath(path)) return json({ error: "Path not permitted" }, 403);
     const base = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`;
     if (action === "GET_SHA" || action === "GET_CONTENT") {
       const data = await githubJson(`${base}?ref=${GITHUB_BRANCH}`, { headers: ghHeaders(env) });
@@ -769,6 +796,13 @@ export default {
     if (path === "/api/push-subscribe") return handlePushSubscribe(request, env);
     if (path === "/api/subscribe") return handleSubscribe(request, env);
     if (path === "/api/unsubscribe") return handleUnsubscribe(request, env);
+    if (path === "/api/admin/verify") {
+      if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: corsHeaders() });
+      return isAdminAuthorized(request, env) ? json({ ok: true }) : adminDenied(env);
+    }
+    if (path === "/api/github" || path.startsWith("/api/scheduler/")) {
+      if (request.method !== "OPTIONS" && !isAdminAuthorized(request, env)) return adminDenied(env);
+    }
     if (path === "/api/github") return handleGithubApi(request, env);
 
     if (path === "/api/scheduler/status") return handleSchedulerStatus(env);
