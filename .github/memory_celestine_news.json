@@ -730,10 +730,10 @@
     "55b279e2c1b39f4e77d72e0cfface46b",
     "97ec638f9fd4a441e12814f3fba2d031",
     "8f990babe068fd96b7c7cabb3fff1a82",
-    "96542ee3a1d2097e612f49d4049f5a0c"
+    "96542ee3a1d2097e612f49d4049f5a0c",
+    "1a6328474dacc2755732d14610b488e6"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -762,7 +762,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1077,7 +1078,8 @@
     "https://kenyans.co.ke/news/127448-kenya-power-customers-faced-worst-outages-may-epra-report",
     "https://kenyans.co.ke/news/127451-standard-raises-alarm-over-threat-attack-offices",
     "https://kenyans.co.ke/news/127442-explainer-how-protect-your-property-family-succession-battles",
-    "https://kenyans.co.ke/news/127450-lawyers-quit-defence-3-suspects-victoria-mutiso-murder-case"
+    "https://kenyans.co.ke/news/127450-lawyers-quit-defence-3-suspects-victoria-mutiso-murder-case",
+    "https://kenyans.co.ke/news/127447-dci-outlines-how-kenyans-abroad-foreign-nationals-can-apply-good-conduct"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1314,7 +1316,8 @@
     "when regulatory benchmarks collide reality inside power worst outage month",
     "standard group alerts police planned protest political legal pressure mounts",
     "month clock begins family trusts law mandates ownership disclosures",
-    "unvetted torture claims shatter defense team victoria mutiso murder prosecution"
+    "unvetted torture claims shatter defense team victoria mutiso murder prosecution",
+    "six month clock inside dci multi agency pipeline diaspora good conduct certs"
   ],
   "topic_keys": [
     "news tracker",
@@ -2718,6 +2721,15 @@
       "structure": "Tactical rift lead -> Core High Court proceedings and withdrawal ruling -> Breakdown of defense strategy over unvetted affidavits -> Murder context and land dispute origins -> Next procedural milestone and October 6 bail deadline.",
       "source": "https://kenyans.co.ke/news/127450-lawyers-quit-defence-3-suspects-victoria-mutiso-murder-case",
       "published_at": "2026-09-29T22:01:47Z"
+    },
+    {
+      "title": "The Six-Month Clock: Inside DCI\u2019s Multi-Agency Pipeline for Diaspora Good Conduct Certs",
+      "angle": "The operational friction and strict time limits of the digital-to-physical loop, specifically the hard six-month expiration window on eCitizen payments and the multi-agency bureaucratic handoff that diaspora applicants must navigate.",
+      "angle_type": "practical change",
+      "opening": "Practical consequence lead highlighting the intersection of a ticking payment clock and a complex multi-agency diplomatic conduit.",
+      "structure": "Operational lead -> The six-month expiration rule -> The step-by-step diaspora pipeline -> Extra documentation gates for foreign nationals -> Current outreach and forward-looking logistical implications.",
+      "source": "https://kenyans.co.ke/news/127447-dci-outlines-how-kenyans-abroad-foreign-nationals-can-apply-good-conduct",
+      "published_at": "2026-09-29T23:01:53Z"
     }
   ]
 }
