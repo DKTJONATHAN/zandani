@@ -718,10 +718,10 @@
     "8a7f8de2ec90c852beae48eb471b67dd",
     "edc00cdca2cffc38e0d9445ed10c9185",
     "713d089179ae2072073089777a557ca0",
-    "e8d25d0b98f58364f42996ec54264c7e"
+    "e8d25d0b98f58364f42996ec54264c7e",
+    "74fd85cacab1ab0464d3722afffbeb29"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -750,7 +750,8 @@
     "Hard News Lead",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1053,7 +1054,8 @@
     "https://kenyans.co.ke/news/127413-kenyan-marathoner-philemon-kiplimo-kimaiyo-handed-2-year-doping-ban",
     "https://kenyans.co.ke/news/127414-machakos-county-spot-over-ksh96-million-held-bank-2019",
     "https://kenyans.co.ke/news/127416-kenya-talks-ksh1297-billion-debt-swap-us-bank",
-    "https://kenyans.co.ke/news/127420-kenya-advanced-talks-us-over-critical-minerals-processing-deal"
+    "https://kenyans.co.ke/news/127420-kenya-advanced-talks-us-over-critical-minerals-processing-deal",
+    "https://kenyans.co.ke/news/127422-eacc-recovers-ksh-25m-road-reserve-near-uon-mombasa-campus"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1278,7 +1280,8 @@
     "road runner philemon kiplimo career halted household medication misstep",
     "machakos tied ksh96m bank staff loans while borrowers surrendered title deeds",
     "treasury weighs ksh130b bank swap ease domestic debt squeeze",
-    "dangles tax holidays port access lock global bidders local mineral refining"
+    "dangles tax holidays port access lock global bidders local mineral refining",
+    "1994 municipal bypass signed away uon access route three decades"
   ],
   "topic_keys": [
     "news tracker",
@@ -2574,6 +2577,15 @@
       "structure": "Policy-concession lead -> Factual core of the US-Kenya bilateral talks -> The Kwale Mrima Hill bidding landscape -> The structural shift from raw export to domestic value addition -> The fiscal trade-offs and next development.",
       "source": "https://kenyans.co.ke/news/127420-kenya-advanced-talks-us-over-critical-minerals-processing-deal",
       "published_at": "2026-09-29T06:02:17Z"
+    },
+    {
+      "title": "How a 1994 Municipal Bypass Signed Away a UoN Access Route for Three Decades",
+      "angle": "The operational exposure of municipal impunity: how 1994 administrative bypasses\u2014operating without Part Development Plans, council resolutions, or Gazette notices\u2014left a critical university access route vulnerable to private alienation for over three decades.",
+      "angle_type": "accountability",
+      "opening": "Accountability lead highlighting the procedural voids of 1994 municipal decisions that compromised a university access route.",
+      "structure": "Accountability lead -> Court findings on procedural bypasses -> Institutional access friction for UoN -> Historical responsibility of former officials -> Concluding parking lot status.",
+      "source": "https://kenyans.co.ke/news/127422-eacc-recovers-ksh-25m-road-reserve-near-uon-mombasa-campus",
+      "published_at": "2026-09-29T07:02:21Z"
     }
   ]
 }
