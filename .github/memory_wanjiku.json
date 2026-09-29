@@ -97,7 +97,8 @@
     "e17b5bcc661778f399a106b3f3823e9de7220aece88d7064fff4edefcb834779",
     "ad8754fdb3852e742cc6fe1a5eca857dea707d160f64fa3cca29ad8ae818a314",
     "5d734eb143ccc2251d9d228dda252201df898070644b21f4db07f5c632ad7151",
-    "9e636ca41583dbdf530e768e18b1e35e77fb8fb0057970f33540a2cdbd4bcf29"
+    "9e636ca41583dbdf530e768e18b1e35e77fb8fb0057970f33540a2cdbd4bcf29",
+    "e4a43286d998f85ab5e7f436a1551d9053aaf4a7d5ef6389e580612fb1bb6287"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -197,7 +198,8 @@
     "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-several-counties-on-september-28/",
     "https://www.ghafla.co.ke/hostile-reception-as-crowd-heckles-senator-karen-nyamu-at-kicc-awareness-rally/",
     "https://www.ghafla.co.ke/i-had-babies-when-i-was-a-baby-zari-hassan-clarifies-being-just-46-years-despite-having-adult-sons/",
-    "https://www.ghafla.co.ke/dangote-group-proposes-regional-stake-in-planned-lamu-refinery-project/"
+    "https://www.ghafla.co.ke/dangote-group-proposes-regional-stake-in-planned-lamu-refinery-project/",
+    "https://www.ghafla.co.ke/kenya-and-us-in-advanced-talks-over-critical-minerals-and-refining-deal/"
   ],
   "published_angles": [
     {
@@ -967,6 +969,14 @@
       "opening": "Personality lead focusing on Africa's richest industrialist Aliko Dangote dangling a KSh2 trillion mega-refinery before East African capitals under strict host-nation terms.",
       "structure": "Tycoon personality hook and KSh2T price tag -> The 30% regional stake offer vs. Kenya's unratified 10% slice -> Host-nation demands (prime Lamu land, dedicated infrastructure, port access) -> The Lekki crude reality check (import dependency) -> Current negotiation status",
       "source": "https://www.ghafla.co.ke/dangote-group-proposes-regional-stake-in-planned-lamu-refinery-project/"
+    },
+    {
+      "title": "Joho Pulls US Departments Into High-Stakes Mrima Hill Mineral Scramble Ahead of October Deadline",
+      "angle": "The high-stakes corporate and geopolitical scramble behind the October Mrima Hill bidding war, spotlighting the specific multinational clash between US, Australian, and Chinese firms for Kwale's industrial deposits.",
+      "angle_type": "corporate competition and geopolitical resource scramble",
+      "opening": "Personality and high-stakes trade hook focusing on CS Hassan Joho bringing Washington's heavy-hitting departments into the Kwale County resource battle.",
+      "structure": "High-stakes trade hook -> The Mrima Hill multinational bidding war (US, Australia, China) -> Washington's cabinet-level agency involvement -> Local fiscal incentives and value-addition policy shift -> Concrete close on the October deadline.",
+      "source": "https://www.ghafla.co.ke/kenya-and-us-in-advanced-talks-over-critical-minerals-and-refining-deal/"
     }
   ],
   "style_history": [
