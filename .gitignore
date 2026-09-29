@@ -26,3 +26,4 @@ dist-ssr
 # Vercel (site runs on Cloudflare only)
 .vercel
 vercel.json
+scripts/__pycache__/
