@@ -720,10 +720,10 @@
     "713d089179ae2072073089777a557ca0",
     "e8d25d0b98f58364f42996ec54264c7e",
     "74fd85cacab1ab0464d3722afffbeb29",
-    "a052080a193fa582be6097d9cb22f0a5"
+    "a052080a193fa582be6097d9cb22f0a5",
+    "9cd06ba0e4245db77441ba791b75a4b7"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -752,7 +752,8 @@
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1057,7 +1058,8 @@
     "https://kenyans.co.ke/news/127416-kenya-talks-ksh1297-billion-debt-swap-us-bank",
     "https://kenyans.co.ke/news/127420-kenya-advanced-talks-us-over-critical-minerals-processing-deal",
     "https://kenyans.co.ke/news/127422-eacc-recovers-ksh-25m-road-reserve-near-uon-mombasa-campus",
-    "https://kenyans.co.ke/news/127423-kitutu-masaba-mp-clive-gisairo-involved-road-accident-after-vehicle-hit-behind"
+    "https://kenyans.co.ke/news/127423-kitutu-masaba-mp-clive-gisairo-involved-road-accident-after-vehicle-hit-behind",
+    "https://kenyans.co.ke/news/127427-supreme-court-ruling-forces-new-rules-kenyas-public-pension-funds"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1284,7 +1286,8 @@
     "treasury weighs ksh130b bank swap ease domestic debt squeeze",
     "dangles tax holidays port access lock global bidders local mineral refining",
     "1994 municipal bypass signed away uon access route three decades",
-    "state leased isuzu max crash raises accountability questions quick evacuation occupants"
+    "state leased isuzu max crash raises accountability questions quick evacuation occupants",
+    "supreme court ruling strips public procurement shield leaving pension trustees exposed"
   ],
   "topic_keys": [
     "news tracker",
@@ -2598,6 +2601,15 @@
       "structure": "Lead on state asset accountability -> Accident mechanics and vehicle registration details -> Evacuation protocols and ministry response -> Broader political backdrop without distraction.",
       "source": "https://kenyans.co.ke/news/127423-kitutu-masaba-mp-clive-gisairo-involved-road-accident-after-vehicle-hit-behind",
       "published_at": "2026-09-29T08:02:37Z"
+    },
+    {
+      "title": "Supreme Court Ruling Strips Public Procurement Shield, Leaving Pension Trustees Exposed",
+      "angle": "The sudden transition of legal and financial risk to individual pension trustees. By exempting public pension funds from the Public Procurement and Asset Disposal Act (PPADA), the court has removed a rigid but protective compliance shield. Trustees now carry direct, unmitigated fiduciary liability for multi-billion-shilling spending decisions during a high-pressure regulatory transition.",
+      "angle_type": "consequence",
+      "opening": "An analytical consequence opening highlighting the sudden legal vulnerability of public pension trustees following the uncoupling of their funds from state procurement laws.",
+      "structure": "Fiduciary exposure lead -> The Supreme Court's constitutional carve-out -> The RBA's emergency drafting window -> The secondary pressure of the September audited accounts deadline -> Institutional implications for retiree funds.",
+      "source": "https://kenyans.co.ke/news/127427-supreme-court-ruling-forces-new-rules-kenyas-public-pension-funds",
+      "published_at": "2026-09-29T08:06:32Z"
     }
   ]
 }
