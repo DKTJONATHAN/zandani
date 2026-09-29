@@ -100,7 +100,8 @@
     "9e636ca41583dbdf530e768e18b1e35e77fb8fb0057970f33540a2cdbd4bcf29",
     "e4a43286d998f85ab5e7f436a1551d9053aaf4a7d5ef6389e580612fb1bb6287",
     "4d964ccf91279eb85a6a86ce4ac90d690daa5695042d8747304d1e845eb29b03",
-    "5530798c146ddcfe5b27ff74fa56852dc156525b71c9615a06991775a9746036"
+    "5530798c146ddcfe5b27ff74fa56852dc156525b71c9615a06991775a9746036",
+    "0edb306a1282877c338d1a7a12e5e4db80aa8400ee9776afa857744a2167bc1f"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -203,7 +204,8 @@
     "https://www.ghafla.co.ke/dangote-group-proposes-regional-stake-in-planned-lamu-refinery-project/",
     "https://www.ghafla.co.ke/kenya-and-us-in-advanced-talks-over-critical-minerals-and-refining-deal/",
     "https://www.ghafla.co.ke/huddah-monroe-reveals-she-has-relocated-to-doha-says-she-is-no-longer-a-celebrity/",
-    "https://www.ghafla.co.ke/ruto-says-all-kenyans-will-have-chance-to-own-shares-in-lamu-oil-refinery/"
+    "https://www.ghafla.co.ke/ruto-says-all-kenyans-will-have-chance-to-own-shares-in-lamu-oil-refinery/",
+    "https://www.ghafla.co.ke/kenya-pipeline-company-receives-rwandas-maiden-fuel-cargo-at-mombasa-port/"
   ],
   "published_angles": [
     {
@@ -997,6 +999,14 @@
       "opening": "Personality and statement lead opening directly on Ruto's public address and his direct challenge to elite corporate gatekeeping.",
       "structure": "Presidential statement hook -> The NSE public share mechanism -> Critique of elite ownership and Kenya Power comparison -> Lamu energy hub context and public education pledge.",
       "source": "https://www.ghafla.co.ke/ruto-says-all-kenyans-will-have-chance-to-own-shares-in-lamu-oil-refinery/"
+    },
+    {
+      "title": "Wandayi and Zingiro Host MT Sea Wolf in Mombasa as Rwanda Secures Maiden 40,000-Tonne Fuel Transit",
+      "angle": "Focusing on the high-level regional energy delegation\u2014bringing together ministers, high commissioners, and port chiefs at KOT2\u2014as a high-stakes diplomatic photo-op that marks a concrete shift in East African transit corridors.",
+      "angle_type": "high-level diplomatic delegation and infrastructure logistics",
+      "opening": "Start directly with the high-stakes gathering of regional energy chiefs at the Mombasa port facility.",
+      "structure": "Port arrival and delegation hook -> Details of the MT Sea Wolf cargo and KOT2 capacity -> Strategic logistics shift away from long-haul road tankers -> Concrete closing on transit timeline impacts for Kigali.",
+      "source": "https://www.ghafla.co.ke/kenya-pipeline-company-receives-rwandas-maiden-fuel-cargo-at-mombasa-port/"
     }
   ],
   "style_history": [
