@@ -728,10 +728,10 @@
     "a36807cc916091d48978a4ec36e81a9f",
     "2687fd4b379bc836dc256e75dbdc0f73",
     "55b279e2c1b39f4e77d72e0cfface46b",
-    "97ec638f9fd4a441e12814f3fba2d031"
+    "97ec638f9fd4a441e12814f3fba2d031",
+    "8f990babe068fd96b7c7cabb3fff1a82"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -760,7 +760,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1073,7 +1074,8 @@
     "https://kenyans.co.ke/news/127439-epra-says-kenya-has-50-oil-blocks-amid-questions-over-crude-lamu-refinery",
     "https://kenyans.co.ke/news/127441-wiper-denies-secret-dealings-ruto-ahead-2027-elections",
     "https://kenyans.co.ke/news/127448-kenya-power-customers-faced-worst-outages-may-epra-report",
-    "https://kenyans.co.ke/news/127451-standard-raises-alarm-over-threat-attack-offices"
+    "https://kenyans.co.ke/news/127451-standard-raises-alarm-over-threat-attack-offices",
+    "https://kenyans.co.ke/news/127442-explainer-how-protect-your-property-family-succession-battles"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1308,7 +1310,8 @@
     "capacity gap 000 barrel oil target falls short lamu refinery ambitions",
     "preemptive defection branding exposes trust deficit 2027 opposition alliance",
     "when regulatory benchmarks collide reality inside power worst outage month",
-    "standard group alerts police planned protest political legal pressure mounts"
+    "standard group alerts police planned protest political legal pressure mounts",
+    "month clock begins family trusts law mandates ownership disclosures"
   ],
   "topic_keys": [
     "news tracker",
@@ -2694,6 +2697,15 @@
       "structure": "Physical security alert & police filings -> Online video dynamics and Bunge la Mwananchi claims -> Executive backdrop (Ruto's June attacks and Moi family linkage) -> Parallel legal push (Kaluma suit) -> Operational pledge and upcoming October 2 milestone.",
       "source": "https://kenyans.co.ke/news/127451-standard-raises-alarm-over-threat-attack-offices",
       "published_at": "2026-09-29T20:33:19Z"
+    },
+    {
+      "title": "24-Month Clock Begins for Kenya's Family Trusts as New Law Mandates Ownership Disclosures",
+      "angle": "Focusing on the strict 24-month compliance countdown and statutory transparency obligations that force private wealth structures to disclose ultimate beneficial ownership.",
+      "angle_type": "practical change",
+      "opening": "Compliance clock opening highlighting the two-year deadline for existing trusts to submit beneficial ownership registries.",
+      "structure": "Compliance clock lead -> Core mechanics of the Trust Administration Act, 2026 -> Mandatory transparency and disclosure obligations -> Legal boundaries of asset protection -> Operational compliance steps for trustees.",
+      "source": "https://kenyans.co.ke/news/127442-explainer-how-protect-your-property-family-succession-battles",
+      "published_at": "2026-09-29T21:02:39Z"
     }
   ]
 }
