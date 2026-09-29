@@ -102,7 +102,8 @@
     "4d964ccf91279eb85a6a86ce4ac90d690daa5695042d8747304d1e845eb29b03",
     "5530798c146ddcfe5b27ff74fa56852dc156525b71c9615a06991775a9746036",
     "0edb306a1282877c338d1a7a12e5e4db80aa8400ee9776afa857744a2167bc1f",
-    "84540af439fae599df4eb58632d937a63c5c9d93a1918faf262cb9224cf1228d"
+    "84540af439fae599df4eb58632d937a63c5c9d93a1918faf262cb9224cf1228d",
+    "e79d75586333d418bf47d59f316d3731e9a0cc8ceab4e90d59840b4b8667a392"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -207,17 +208,10 @@
     "https://www.ghafla.co.ke/huddah-monroe-reveals-she-has-relocated-to-doha-says-she-is-no-longer-a-celebrity/",
     "https://www.ghafla.co.ke/ruto-says-all-kenyans-will-have-chance-to-own-shares-in-lamu-oil-refinery/",
     "https://www.ghafla.co.ke/kenya-pipeline-company-receives-rwandas-maiden-fuel-cargo-at-mombasa-port/",
-    "https://www.ghafla.co.ke/dci-warns-kenyans-against-sharp-boys-using-fake-trading-profits-to-lure-investors/"
+    "https://www.ghafla.co.ke/dci-warns-kenyans-against-sharp-boys-using-fake-trading-profits-to-lure-investors/",
+    "https://www.ghafla.co.ke/amber-ray-reveals-cosmetic-transformation-is-not-over-plans-double-chin-procedure/"
   ],
   "published_angles": [
-    {
-      "title": "15-Hour Weekend Blackouts to Hit Western Kenya\u2019s Industrial and Border Hubs",
-      "angle": "The massive disparity in the scale of disruption\u2014highlighting the highly disruptive 15-hour weekend blackout hitting major economic engines like Mumias Sugar and the Busia border transit corridor, compared to a brief two-hour maintenance window in Siaya.",
-      "angle_type": "local economic impact",
-      "opening": "Lead directly with the economic reality of a 15-hour weekend shutdown hitting key production and border corridors.",
-      "structure": "Geographical and sectoral breakdown contrasting the prolonged Kakamega/Busia industrial interruptions with Siaya's shorter institutional outage.",
-      "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-western-kenya-on-september-19/"
-    },
     {
       "title": "Names, Gazette Notices, and the Speculation Surrounding Millicent Omanga\u2019s State Roles",
       "angle": "The administrative identity mix-up in the Kenya Gazette highlights the intense public scrutiny surrounding state appointments and underscores Omanga's remarkably volatile history of appointments, rejections, and revocations over the last three years.",
@@ -1009,6 +1003,14 @@
       "opening": "Personality and subculture lead focusing directly on the 'Sharp Boys' digital blueprint and their Nairobi nightlife staging.",
       "structure": "Subculture lifestyle hook -> The staging mechanics (rented cars, phantom dashboards) -> The transition from social media flex to financial crime -> Institutional crackdown and regulatory context -> Concrete close on enforcement records.",
       "source": "https://www.ghafla.co.ke/dci-warns-kenyans-against-sharp-boys-using-fake-trading-profits-to-lure-investors/"
+    },
+    {
+      "title": "Amber Ray Puts Double-Chin Surgery on Hold After Multi-Procedure Turkey Run",
+      "angle": "Focusing on the financial and medical logistics of high-end cosmetic tourism\u2014specifically breaking down her itemized procedures, the strict pacing demanded by surgeons, and the cost of her extensive dental overhaul.",
+      "angle_type": "lifestyle and celebrity economy economics",
+      "opening": "Start directly with Amber Ray addressing the medical boundary that paused her next planned procedure at a public gathering.",
+      "structure": "Medical postponement hook -> Itemized breakdown of Turkey procedures (boobs, Lipo 360, calves, and 21 teeth) -> Financial cost sheet and lifestyle changes -> Recovery timeline and upcoming double-chin plan.",
+      "source": "https://www.ghafla.co.ke/amber-ray-reveals-cosmetic-transformation-is-not-over-plans-double-chin-procedure/"
     }
   ],
   "style_history": [
