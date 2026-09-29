@@ -716,10 +716,10 @@
     "807a9cf7b87c5f6bebe7f7c4f87fbfd9",
     "e83721c02b51b9c0e369102618f5cc43",
     "8a7f8de2ec90c852beae48eb471b67dd",
-    "edc00cdca2cffc38e0d9445ed10c9185"
+    "edc00cdca2cffc38e0d9445ed10c9185",
+    "713d089179ae2072073089777a557ca0"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -748,7 +748,8 @@
     "Event Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1049,7 +1050,8 @@
     "https://kenyans.co.ke/news/127410-133-lamu-residents-take-dangote-refinery-land-dispute-court",
     "https://kenyans.co.ke/news/127411-ppb-warns-kenyans-over-falsified-lucentis-injections-one-arrested",
     "https://kenyans.co.ke/news/127413-kenyan-marathoner-philemon-kiplimo-kimaiyo-handed-2-year-doping-ban",
-    "https://kenyans.co.ke/news/127414-machakos-county-spot-over-ksh96-million-held-bank-2019"
+    "https://kenyans.co.ke/news/127414-machakos-county-spot-over-ksh96-million-held-bank-2019",
+    "https://kenyans.co.ke/news/127416-kenya-talks-ksh1297-billion-debt-swap-us-bank"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1272,7 +1274,8 @@
     "industrial machinery arrives lamu land dispute hits high court",
     "counterfeit lucentis injections expose rift pharmaceutical oversight",
     "road runner philemon kiplimo career halted household medication misstep",
-    "machakos tied ksh96m bank staff loans while borrowers surrendered title deeds"
+    "machakos tied ksh96m bank staff loans while borrowers surrendered title deeds",
+    "treasury weighs ksh130b bank swap ease domestic debt squeeze"
   ],
   "topic_keys": [
     "news tracker",
@@ -2550,6 +2553,15 @@
       "structure": "Double-collateral paradox lead -> Audit numbers and disbursement mechanics -> Senate committee interrogation and executive defense -> Wider fiscal friction (salaries, budget standoff, pending bills) -> Senate compliance timeline and documentary demands.",
       "source": "https://kenyans.co.ke/news/127414-machakos-county-spot-over-ksh96-million-held-bank-2019",
       "published_at": "2026-09-28T18:02:02Z"
+    },
+    {
+      "title": "Treasury Weighs Ksh130B Bank Swap to Ease Domestic Debt Squeeze",
+      "angle": "The mechanics of Treasury's shifting debt-engineering playbook: substituting punitive domestic credit lines with bespoke offshore liability operations\u2014spanning debt swaps, panda bonds, and sukuks\u2014to navigate an unyielding Ksh2.31 trillion annual debt-servicing hurdle.",
+      "angle_type": "money",
+      "opening": "Debt-architecture opening that frames the transaction within the government's Ksh700 billion restructuring blueprint rather than a routine borrowing announcement.",
+      "structure": "Strategic context lead -> Architecture of the Ksh700B external financing basket -> Liability management mechanics and Eurobond restructuring -> Social funding tie-in (WFP precedent) -> Forward debt-servicing ceiling.",
+      "source": "https://kenyans.co.ke/news/127416-kenya-talks-ksh1297-billion-debt-swap-us-bank",
+      "published_at": "2026-09-29T05:02:32Z"
     }
   ]
 }
