@@ -725,10 +725,10 @@
     "ba5291992e168784b62c6d984ab4d514",
     "54b920428ead9a0cc8f9b5aca6746384",
     "035194292248a9703aa13293bb802b8e",
-    "a36807cc916091d48978a4ec36e81a9f"
+    "a36807cc916091d48978a4ec36e81a9f",
+    "2687fd4b379bc836dc256e75dbdc0f73"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -757,7 +757,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1067,7 +1068,8 @@
     "https://kenyans.co.ke/news/127431-senior-assistant-inspector-general-police-lazarus-opicho-dies",
     "https://kenyans.co.ke/news/127433-psc-shortlists-mck-ceo-david-omwoyo-12-others-data-commissioner-position",
     "https://kenyans.co.ke/news/127436-engineer-sue-epra-kenya-power-over-new-electricity-tariff-categories",
-    "https://kenyans.co.ke/news/127439-epra-says-kenya-has-50-oil-blocks-amid-questions-over-crude-lamu-refinery"
+    "https://kenyans.co.ke/news/127439-epra-says-kenya-has-50-oil-blocks-amid-questions-over-crude-lamu-refinery",
+    "https://kenyans.co.ke/news/127441-wiper-denies-secret-dealings-ruto-ahead-2027-elections"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1299,7 +1301,8 @@
     "police service judiciary mourn sgb vip protection chief lazarus opicho",
     "high stakes succession odpc psc packs interview schedule nominees",
     "epra flattened tariff bands are triggering consumer backlash",
-    "capacity gap 000 barrel oil target falls short lamu refinery ambitions"
+    "capacity gap 000 barrel oil target falls short lamu refinery ambitions",
+    "preemptive defection branding exposes trust deficit 2027 opposition alliance"
   ],
   "topic_keys": [
     "news tracker",
@@ -2658,6 +2661,15 @@
       "structure": "Production versus refining capacity gap -> basin breakdown and exploration block inventory -> South Lokichar production timeline -> licensing and development realities.",
       "source": "https://kenyans.co.ke/news/127439-epra-says-kenya-has-50-oil-blocks-amid-questions-over-crude-lamu-refinery",
       "published_at": "2026-09-29T11:02:30Z"
+    },
+    {
+      "title": "Preemptive Defection Branding Exposes Trust Deficit in 2027 Opposition Alliance",
+      "angle": "The preemptive branding of rivals as defectors as a tactical leverage tool within the high-stakes selection process for the sole 2027 opposition presidential ticket, exposing deep-seated trust deficits among potential partners.",
+      "angle_type": "institutional pressure",
+      "opening": "An analytical opening framing the coalition candidate selection process as a preemptive struggle for narrative control and survival.",
+      "structure": "Branding-war opening -> Details of Gachagua's Texas provocation -> Wiper's direct defensive counter-strike -> The structural pressure of a crowded seven-aspirant field -> Unresolved trust dynamics ahead of 2027.",
+      "source": "https://kenyans.co.ke/news/127441-wiper-denies-secret-dealings-ruto-ahead-2027-elections",
+      "published_at": "2026-09-29T12:02:35Z"
     }
   ]
 }
