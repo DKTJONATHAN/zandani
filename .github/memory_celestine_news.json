@@ -724,10 +724,10 @@
     "9cd06ba0e4245db77441ba791b75a4b7",
     "ba5291992e168784b62c6d984ab4d514",
     "54b920428ead9a0cc8f9b5aca6746384",
-    "035194292248a9703aa13293bb802b8e"
+    "035194292248a9703aa13293bb802b8e",
+    "a36807cc916091d48978a4ec36e81a9f"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -756,7 +756,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1065,7 +1066,8 @@
     "https://kenyans.co.ke/news/127427-supreme-court-ruling-forces-new-rules-kenyas-public-pension-funds",
     "https://kenyans.co.ke/news/127431-senior-assistant-inspector-general-police-lazarus-opicho-dies",
     "https://kenyans.co.ke/news/127433-psc-shortlists-mck-ceo-david-omwoyo-12-others-data-commissioner-position",
-    "https://kenyans.co.ke/news/127436-engineer-sue-epra-kenya-power-over-new-electricity-tariff-categories"
+    "https://kenyans.co.ke/news/127436-engineer-sue-epra-kenya-power-over-new-electricity-tariff-categories",
+    "https://kenyans.co.ke/news/127439-epra-says-kenya-has-50-oil-blocks-amid-questions-over-crude-lamu-refinery"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1296,7 +1298,8 @@
     "supreme court ruling strips public procurement shield leaving pension trustees exposed",
     "police service judiciary mourn sgb vip protection chief lazarus opicho",
     "high stakes succession odpc psc packs interview schedule nominees",
-    "epra flattened tariff bands are triggering consumer backlash"
+    "epra flattened tariff bands are triggering consumer backlash",
+    "capacity gap 000 barrel oil target falls short lamu refinery ambitions"
   ],
   "topic_keys": [
     "news tracker",
@@ -2646,6 +2649,15 @@
       "structure": "Band consolidation mechanics lead -> EPRA's automated three-month assignment rule -> ECSK's legal challenge and public participation arguments -> Broader tariff pressure context.",
       "source": "https://kenyans.co.ke/news/127436-engineer-sue-epra-kenya-power-over-new-electricity-tariff-categories",
       "published_at": "2026-09-29T10:02:40Z"
+    },
+    {
+      "title": "The Capacity Gap: Why Kenya\u2019s 50,000-Barrel Oil Target Falls Short of Lamu\u2019s Refinery Ambitions",
+      "angle": "The vast capacity mismatch between Kenya's near-term production goals and the massive scale of the proposed Lamu refinery, highlighting how 50 exploration blocks and 50,000 barrels per day of output contrast with a 700,000-barrel-per-day processing ambition.",
+      "angle_type": "consequence",
+      "opening": "Contrasting production scales rather than leading with a general EPRA summary.",
+      "structure": "Production versus refining capacity gap -> basin breakdown and exploration block inventory -> South Lokichar production timeline -> licensing and development realities.",
+      "source": "https://kenyans.co.ke/news/127439-epra-says-kenya-has-50-oil-blocks-amid-questions-over-crude-lamu-refinery",
+      "published_at": "2026-09-29T11:02:30Z"
     }
   ]
 }
