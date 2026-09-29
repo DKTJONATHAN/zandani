@@ -717,10 +717,10 @@
     "e83721c02b51b9c0e369102618f5cc43",
     "8a7f8de2ec90c852beae48eb471b67dd",
     "edc00cdca2cffc38e0d9445ed10c9185",
-    "713d089179ae2072073089777a557ca0"
+    "713d089179ae2072073089777a557ca0",
+    "e8d25d0b98f58364f42996ec54264c7e"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -749,7 +749,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1051,7 +1052,8 @@
     "https://kenyans.co.ke/news/127411-ppb-warns-kenyans-over-falsified-lucentis-injections-one-arrested",
     "https://kenyans.co.ke/news/127413-kenyan-marathoner-philemon-kiplimo-kimaiyo-handed-2-year-doping-ban",
     "https://kenyans.co.ke/news/127414-machakos-county-spot-over-ksh96-million-held-bank-2019",
-    "https://kenyans.co.ke/news/127416-kenya-talks-ksh1297-billion-debt-swap-us-bank"
+    "https://kenyans.co.ke/news/127416-kenya-talks-ksh1297-billion-debt-swap-us-bank",
+    "https://kenyans.co.ke/news/127420-kenya-advanced-talks-us-over-critical-minerals-processing-deal"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1275,7 +1277,8 @@
     "counterfeit lucentis injections expose rift pharmaceutical oversight",
     "road runner philemon kiplimo career halted household medication misstep",
     "machakos tied ksh96m bank staff loans while borrowers surrendered title deeds",
-    "treasury weighs ksh130b bank swap ease domestic debt squeeze"
+    "treasury weighs ksh130b bank swap ease domestic debt squeeze",
+    "dangles tax holidays port access lock global bidders local mineral refining"
   ],
   "topic_keys": [
     "news tracker",
@@ -2562,6 +2565,15 @@
       "structure": "Strategic context lead -> Architecture of the Ksh700B external financing basket -> Liability management mechanics and Eurobond restructuring -> Social funding tie-in (WFP precedent) -> Forward debt-servicing ceiling.",
       "source": "https://kenyans.co.ke/news/127416-kenya-talks-ksh1297-billion-debt-swap-us-bank",
       "published_at": "2026-09-29T05:02:32Z"
+    },
+    {
+      "title": "Kenya Dangles Tax Holidays and Port Access to Lock Global Bidders into Local Mineral Refining",
+      "angle": "The fiscal and logistical concessions (tax holidays, custom port access, and special economic zones) Kenya is offering to force international mining giants to refine minerals locally, and how this strategy is being used as leverage in the high-stakes, multi-nation bidding war for Kwale's Mrima Hill.",
+      "angle_type": "money",
+      "opening": "Policy-concession lead focusing on the financial and logistical incentives the Kenyan government is prepared to offer to enforce its local refining mandate.",
+      "structure": "Policy-concession lead -> Factual core of the US-Kenya bilateral talks -> The Kwale Mrima Hill bidding landscape -> The structural shift from raw export to domestic value addition -> The fiscal trade-offs and next development.",
+      "source": "https://kenyans.co.ke/news/127420-kenya-advanced-talks-us-over-critical-minerals-processing-deal",
+      "published_at": "2026-09-29T06:02:17Z"
     }
   ]
 }
