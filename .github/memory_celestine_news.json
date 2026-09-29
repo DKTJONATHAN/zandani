@@ -722,10 +722,10 @@
     "74fd85cacab1ab0464d3722afffbeb29",
     "a052080a193fa582be6097d9cb22f0a5",
     "9cd06ba0e4245db77441ba791b75a4b7",
-    "ba5291992e168784b62c6d984ab4d514"
+    "ba5291992e168784b62c6d984ab4d514",
+    "54b920428ead9a0cc8f9b5aca6746384"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Desk Take",
     "Hard News Lead",
@@ -754,7 +754,8 @@
     "Statement Report",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1061,7 +1062,8 @@
     "https://kenyans.co.ke/news/127422-eacc-recovers-ksh-25m-road-reserve-near-uon-mombasa-campus",
     "https://kenyans.co.ke/news/127423-kitutu-masaba-mp-clive-gisairo-involved-road-accident-after-vehicle-hit-behind",
     "https://kenyans.co.ke/news/127427-supreme-court-ruling-forces-new-rules-kenyas-public-pension-funds",
-    "https://kenyans.co.ke/news/127431-senior-assistant-inspector-general-police-lazarus-opicho-dies"
+    "https://kenyans.co.ke/news/127431-senior-assistant-inspector-general-police-lazarus-opicho-dies",
+    "https://kenyans.co.ke/news/127433-psc-shortlists-mck-ceo-david-omwoyo-12-others-data-commissioner-position"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1290,7 +1292,8 @@
     "1994 municipal bypass signed away uon access route three decades",
     "state leased isuzu max crash raises accountability questions quick evacuation occupants",
     "supreme court ruling strips public procurement shield leaving pension trustees exposed",
-    "police service judiciary mourn sgb vip protection chief lazarus opicho"
+    "police service judiciary mourn sgb vip protection chief lazarus opicho",
+    "high stakes succession odpc psc packs interview schedule nominees"
   ],
   "topic_keys": [
     "news tracker",
@@ -2622,6 +2625,15 @@
       "structure": "Attribution lead -> Official tributes and medical confirmation -> Security architecture background (Judiciary Police Unit & SGB command) -> Rank progression and operational footprint",
       "source": "https://kenyans.co.ke/news/127431-senior-assistant-inspector-general-police-lazarus-opicho-dies",
       "published_at": "2026-09-29T09:02:21Z"
+    },
+    {
+      "title": "High-Stakes Succession at ODPC as PSC Packs Interview Schedule for 13 Nominees",
+      "angle": "The intersection of regulatory transition and the administrative bottleneck of a single-day recruitment window where 13 high-ranking public sector officials must undergo rigorous vetting, security clearance scrutiny, and public opposition vetting within an exceptionally compressed timeline.",
+      "angle_type": "institutional pressure",
+      "opening": "Institutional pressure lead focusing on the compressed vetting window and the high-stakes transition at the Office of the Data Protection Commissioner.",
+      "structure": "Institutional pressure lead -> The compressed October 5 interview timeline and heavyweight candidate pool -> Statutory transition and clearance hurdles -> Public affidavit window and unresolved succession context.",
+      "source": "https://kenyans.co.ke/news/127433-psc-shortlists-mck-ceo-david-omwoyo-12-others-data-commissioner-position",
+      "published_at": "2026-09-29T09:35:38Z"
     }
   ]
 }
