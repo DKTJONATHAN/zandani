@@ -94,7 +94,8 @@
     "70e96c18b75f6ac81e9ffd2f59722929f2f423d33aac28999f20bcb3eaf86227",
     "baf05331985100474ab8c1dfa8912473b6d73a73e0d0ea76e4c6f0d7785d390f",
     "66cea60811041bdcd450ee7b89d94b09f0c984e2e3283954a8fe22d2683e771e",
-    "e17b5bcc661778f399a106b3f3823e9de7220aece88d7064fff4edefcb834779"
+    "e17b5bcc661778f399a106b3f3823e9de7220aece88d7064fff4edefcb834779",
+    "ad8754fdb3852e742cc6fe1a5eca857dea707d160f64fa3cca29ad8ae818a314"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -191,7 +192,8 @@
     "https://www.ghafla.co.ke/gen-z-marriage-debate-erupts-after-listener-proposes-living-separately/",
     "https://www.ghafla.co.ke/otile-brown-questions-biens-edge-over-willy-paul-sparks-fresh-debate/",
     "https://www.ghafla.co.ke/plo-lumumba-wantam-alone-is-not-a-presidential-agenda/",
-    "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-several-counties-on-september-28/"
+    "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-several-counties-on-september-28/",
+    "https://www.ghafla.co.ke/hostile-reception-as-crowd-heckles-senator-karen-nyamu-at-kicc-awareness-rally/"
   ],
   "published_angles": [
     {
@@ -937,6 +939,14 @@
       "opening": "Direct focus on the extensive eight-hour blackout sweeping through Nairobi's prime residential hubs and regional commercial centres.",
       "structure": "Urban residential belt breakdown -> Rural agro-industrial impact (factories and processing centres) -> Institutional and border corridor schedules -> Operational advisory specifics",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-several-counties-on-september-28/"
+    },
+    {
+      "title": "Natalie Githinji\u2019s N.E.W. Rally Packs KICC as Crowd Resists Political Speeches",
+      "angle": "Reframing the gathering around creator-led mobilization\u2014how content creator Natalie Githinji filled KICC for health activism, and how the grassroots crowd actively enforced a boundary against political crossover on a creator stage.",
+      "angle_type": "creator influence and political platform friction",
+      "opening": "Creator lead opening directly on Natalie Githinji filling KICC Comesa Grounds for N.E.W. before political friction unfolded.",
+      "structure": "Creator event turnout -> Crowd boundary and 'Wantam' reaction -> Nyamu's Senate motion defense -> Healthcare activism and crowd dynamics -> Concrete close.",
+      "source": "https://www.ghafla.co.ke/hostile-reception-as-crowd-heckles-senator-karen-nyamu-at-kicc-awareness-rally/"
     }
   ],
   "style_history": [
