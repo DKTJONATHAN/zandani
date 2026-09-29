@@ -723,10 +723,10 @@
     "a052080a193fa582be6097d9cb22f0a5",
     "9cd06ba0e4245db77441ba791b75a4b7",
     "ba5291992e168784b62c6d984ab4d514",
-    "54b920428ead9a0cc8f9b5aca6746384"
+    "54b920428ead9a0cc8f9b5aca6746384",
+    "035194292248a9703aa13293bb802b8e"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -755,7 +755,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1063,7 +1064,8 @@
     "https://kenyans.co.ke/news/127423-kitutu-masaba-mp-clive-gisairo-involved-road-accident-after-vehicle-hit-behind",
     "https://kenyans.co.ke/news/127427-supreme-court-ruling-forces-new-rules-kenyas-public-pension-funds",
     "https://kenyans.co.ke/news/127431-senior-assistant-inspector-general-police-lazarus-opicho-dies",
-    "https://kenyans.co.ke/news/127433-psc-shortlists-mck-ceo-david-omwoyo-12-others-data-commissioner-position"
+    "https://kenyans.co.ke/news/127433-psc-shortlists-mck-ceo-david-omwoyo-12-others-data-commissioner-position",
+    "https://kenyans.co.ke/news/127436-engineer-sue-epra-kenya-power-over-new-electricity-tariff-categories"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1293,7 +1295,8 @@
     "state leased isuzu max crash raises accountability questions quick evacuation occupants",
     "supreme court ruling strips public procurement shield leaving pension trustees exposed",
     "police service judiciary mourn sgb vip protection chief lazarus opicho",
-    "high stakes succession odpc psc packs interview schedule nominees"
+    "high stakes succession odpc psc packs interview schedule nominees",
+    "epra flattened tariff bands are triggering consumer backlash"
   ],
   "topic_keys": [
     "news tracker",
@@ -2634,6 +2637,15 @@
       "structure": "Institutional pressure lead -> The compressed October 5 interview timeline and heavyweight candidate pool -> Statutory transition and clearance hurdles -> Public affidavit window and unresolved succession context.",
       "source": "https://kenyans.co.ke/news/127433-psc-shortlists-mck-ceo-david-omwoyo-12-others-data-commissioner-position",
       "published_at": "2026-09-29T09:35:38Z"
+    },
+    {
+      "title": "How EPRA\u2019s Flattened Tariff Bands Are Triggering a Consumer Backlash",
+      "angle": "The structural impact of collapsing mid-tier consumption bands (30-60 kWh and 60-100 kWh into a single 30-100 kWh band) and how automatic three-month moving average assignments bypass public scrutiny.",
+      "angle_type": "practical change",
+      "opening": "Practical change lead focusing on the administrative consolidation of tariff brackets.",
+      "structure": "Band consolidation mechanics lead -> EPRA's automated three-month assignment rule -> ECSK's legal challenge and public participation arguments -> Broader tariff pressure context.",
+      "source": "https://kenyans.co.ke/news/127436-engineer-sue-epra-kenya-power-over-new-electricity-tariff-categories",
+      "published_at": "2026-09-29T10:02:40Z"
     }
   ]
 }
