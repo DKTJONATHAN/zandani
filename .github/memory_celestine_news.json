@@ -729,10 +729,10 @@
     "2687fd4b379bc836dc256e75dbdc0f73",
     "55b279e2c1b39f4e77d72e0cfface46b",
     "97ec638f9fd4a441e12814f3fba2d031",
-    "8f990babe068fd96b7c7cabb3fff1a82"
+    "8f990babe068fd96b7c7cabb3fff1a82",
+    "96542ee3a1d2097e612f49d4049f5a0c"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Event Report",
@@ -761,7 +761,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1075,7 +1076,8 @@
     "https://kenyans.co.ke/news/127441-wiper-denies-secret-dealings-ruto-ahead-2027-elections",
     "https://kenyans.co.ke/news/127448-kenya-power-customers-faced-worst-outages-may-epra-report",
     "https://kenyans.co.ke/news/127451-standard-raises-alarm-over-threat-attack-offices",
-    "https://kenyans.co.ke/news/127442-explainer-how-protect-your-property-family-succession-battles"
+    "https://kenyans.co.ke/news/127442-explainer-how-protect-your-property-family-succession-battles",
+    "https://kenyans.co.ke/news/127450-lawyers-quit-defence-3-suspects-victoria-mutiso-murder-case"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1311,7 +1313,8 @@
     "preemptive defection branding exposes trust deficit 2027 opposition alliance",
     "when regulatory benchmarks collide reality inside power worst outage month",
     "standard group alerts police planned protest political legal pressure mounts",
-    "month clock begins family trusts law mandates ownership disclosures"
+    "month clock begins family trusts law mandates ownership disclosures",
+    "unvetted torture claims shatter defense team victoria mutiso murder prosecution"
   ],
   "topic_keys": [
     "news tracker",
@@ -2706,6 +2709,15 @@
       "structure": "Compliance clock lead -> Core mechanics of the Trust Administration Act, 2026 -> Mandatory transparency and disclosure obligations -> Legal boundaries of asset protection -> Operational compliance steps for trustees.",
       "source": "https://kenyans.co.ke/news/127442-explainer-how-protect-your-property-family-succession-battles",
       "published_at": "2026-09-29T21:02:39Z"
+    },
+    {
+      "title": "Unvetted Torture Claims Shatter Defense Team in Victoria Mutiso Murder Prosecution",
+      "angle": "Examines how uncoordinated, last-minute affidavits raising state torture and bribery derailed a synchronized bail strategy, forcing senior counsel off the case and leaving the accused without legal representation six days before a critical bail determination.",
+      "angle_type": "unresolved factual question",
+      "opening": "Tactical breakdown lead focusing on the sudden legal rift caused by unvetted corruption and torture filings during what was scheduled to be a routine bail argument.",
+      "structure": "Tactical rift lead -> Core High Court proceedings and withdrawal ruling -> Breakdown of defense strategy over unvetted affidavits -> Murder context and land dispute origins -> Next procedural milestone and October 6 bail deadline.",
+      "source": "https://kenyans.co.ke/news/127450-lawyers-quit-defence-3-suspects-victoria-mutiso-murder-case",
+      "published_at": "2026-09-29T22:01:47Z"
     }
   ]
 }
