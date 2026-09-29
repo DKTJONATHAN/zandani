@@ -726,10 +726,10 @@
     "54b920428ead9a0cc8f9b5aca6746384",
     "035194292248a9703aa13293bb802b8e",
     "a36807cc916091d48978a4ec36e81a9f",
-    "2687fd4b379bc836dc256e75dbdc0f73"
+    "2687fd4b379bc836dc256e75dbdc0f73",
+    "55b279e2c1b39f4e77d72e0cfface46b"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Event Report",
@@ -758,7 +758,8 @@
     "Hard News Lead",
     "Event Report",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1069,7 +1070,8 @@
     "https://kenyans.co.ke/news/127433-psc-shortlists-mck-ceo-david-omwoyo-12-others-data-commissioner-position",
     "https://kenyans.co.ke/news/127436-engineer-sue-epra-kenya-power-over-new-electricity-tariff-categories",
     "https://kenyans.co.ke/news/127439-epra-says-kenya-has-50-oil-blocks-amid-questions-over-crude-lamu-refinery",
-    "https://kenyans.co.ke/news/127441-wiper-denies-secret-dealings-ruto-ahead-2027-elections"
+    "https://kenyans.co.ke/news/127441-wiper-denies-secret-dealings-ruto-ahead-2027-elections",
+    "https://kenyans.co.ke/news/127448-kenya-power-customers-faced-worst-outages-may-epra-report"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1302,7 +1304,8 @@
     "high stakes succession odpc psc packs interview schedule nominees",
     "epra flattened tariff bands are triggering consumer backlash",
     "capacity gap 000 barrel oil target falls short lamu refinery ambitions",
-    "preemptive defection branding exposes trust deficit 2027 opposition alliance"
+    "preemptive defection branding exposes trust deficit 2027 opposition alliance",
+    "when regulatory benchmarks collide reality inside power worst outage month"
   ],
   "topic_keys": [
     "news tracker",
@@ -2670,6 +2673,15 @@
       "structure": "Branding-war opening -> Details of Gachagua's Texas provocation -> Wiper's direct defensive counter-strike -> The structural pressure of a crowded seven-aspirant field -> Unresolved trust dynamics ahead of 2027.",
       "source": "https://kenyans.co.ke/news/127441-wiper-denies-secret-dealings-ruto-ahead-2027-elections",
       "published_at": "2026-09-29T12:02:35Z"
+    },
+    {
+      "title": "When Regulatory Benchmarks Collide With Reality: Inside Kenya Power's Worst Outage Month",
+      "angle": "The operational disconnect between regulatory targets and actual utility delivery, focusing on the widening gap where yearly targets are routinely missed while month-to-month volatility hits businesses and households hardest.",
+      "angle_type": "institutional pressure",
+      "opening": "An analytical opening focusing on the regulatory benchmark failures rather than a simple summary of the bad month.",
+      "structure": "Lead on regulatory benchmark failures -> Specific performance metrics for May and the annual totals -> The widening gap against regulatory targets -> Economic cost to consumers and businesses -> Concluding with the recurring pattern of missed utility benchmarks.",
+      "source": "https://kenyans.co.ke/news/127448-kenya-power-customers-faced-worst-outages-may-epra-report",
+      "published_at": "2026-09-29T15:31:28Z"
     }
   ]
 }
