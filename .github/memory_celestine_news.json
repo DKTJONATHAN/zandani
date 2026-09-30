@@ -744,10 +744,10 @@
     "d2fa4139f73fd95be4161f7f01d7bfea",
     "0169c4c790988889ebd3d03529429aa4",
     "b23278566e147a592f7e248eae5dbc24",
-    "7dcf0f321a9f7a9a2ba570b0cbc65be0"
+    "7dcf0f321a9f7a9a2ba570b0cbc65be0",
+    "ee743b1f6e1209d8afcef1bdced13521"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Desk Take",
     "Hard News Lead",
@@ -776,7 +776,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1105,7 +1106,8 @@
     "https://kenyans.co.ke/news/127477-tribunal-declares-orpp-rejection-linda-mwananchi-name-unlawful",
     "https://kenyans.co.ke/news/127479-museveni-says-uganda-will-pursue-small-oil-refinery-uganda",
     "https://kenyans.co.ke/news/127480-uon-beats-ku-retain-position-top-university-kenya",
-    "https://kenyans.co.ke/news/127481-303-gatoto-learners-get-lifeline-ahead-2026-kpsea-kjsea-exams"
+    "https://kenyans.co.ke/news/127481-303-gatoto-learners-get-lifeline-ahead-2026-kpsea-kjsea-exams",
+    "https://kenyans.co.ke/news/127483-kra-issues-reminder-over-new-excise-duty-betting-juices-and-other-products"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1356,7 +1358,8 @@
     "tribunal sets day deadline orpp striking down linda mwananchi name ban",
     "lamu breaks ground mega refinery museveni revives uganda solo hoima plans",
     "research deficit top universities remain anchored global bottom",
-    "strict knec registry locks push court dual custody exam truce gatoto"
+    "strict knec registry locks push court dual custody exam truce gatoto",
+    "kra finance act 2026 rollout penalizes imported sugar wagering while shelving bottled water tax"
   ],
   "topic_keys": [
     "news tracker",
@@ -2886,6 +2889,15 @@
       "structure": "Administrative compromise lead -> KNEC registration constraints and warehouse logistics -> Operational access and joint oversight terms -> Security and invigilation protocols -> The November 7 timeline and unresolved ownership questions",
       "source": "https://kenyans.co.ke/news/127481-303-gatoto-learners-get-lifeline-ahead-2026-kpsea-kjsea-exams",
       "published_at": "2026-09-30T15:02:37Z"
+    },
+    {
+      "title": "KRA\u2019s Finance Act 2026 Rollout Penalizes Imported Sugar and Wagering While Shelving Bottled Water Tax",
+      "angle": "Examining the stark fiscal split between heavy protectionist hikes on imported staples and betting versus relief measures on bottled water.",
+      "angle_type": "money",
+      "opening": "A fiscal-contrast lead highlighting the direct policy push toward local manufacturing and consumption control.",
+      "structure": "Fiscal-contrast lead -> Imported sugar and vehicle penalty specifics -> Betting and beverage rate matrix -> Bottled water relief contrast -> Forward compliance schedule.",
+      "source": "https://kenyans.co.ke/news/127483-kra-issues-reminder-over-new-excise-duty-betting-juices-and-other-products",
+      "published_at": "2026-09-30T16:05:29Z"
     }
   ]
 }
