@@ -741,10 +741,10 @@
     "db390efd594e94ddbe09dafa05f9bd18",
     "d8ef82d7a406d1fda5d72a3347cc2b2f",
     "2576f50137937e9e32db57af58adcdf0",
-    "d2fa4139f73fd95be4161f7f01d7bfea"
+    "d2fa4139f73fd95be4161f7f01d7bfea",
+    "0169c4c790988889ebd3d03529429aa4"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Desk Take",
     "Hard News Lead",
@@ -773,7 +773,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1099,7 +1100,8 @@
     "https://kenyans.co.ke/news/127469-court-restricts-use-funds-under-ruto-sakaja-nairobi-deal",
     "https://kenyans.co.ke/news/127471-wamuchomba-calls-school-buses-be-given-priority-roads",
     "https://kenyans.co.ke/news/127474-ntsa-reveals-most-registered-vehicle-types-after-elogbook-rollout",
-    "https://kenyans.co.ke/news/127477-tribunal-declares-orpp-rejection-linda-mwananchi-name-unlawful"
+    "https://kenyans.co.ke/news/127477-tribunal-declares-orpp-rejection-linda-mwananchi-name-unlawful",
+    "https://kenyans.co.ke/news/127479-museveni-says-uganda-will-pursue-small-oil-refinery-uganda"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1347,7 +1349,8 @@
     "high court puts ruto sakaja nairobi pact under assembly budget lock",
     "wamuchomba pushes elevate school buses vip road priority status",
     "ntsa logs 207 259 vehicles court ordered import window overhaul takes effect",
-    "tribunal sets day deadline orpp striking down linda mwananchi name ban"
+    "tribunal sets day deadline orpp striking down linda mwananchi name ban",
+    "lamu breaks ground mega refinery museveni revives uganda solo hoima plans"
   ],
   "topic_keys": [
     "news tracker",
@@ -2850,6 +2853,15 @@
       "structure": "Compliance clock lead -> Tribunal ruling mechanics -> Administrative statutory breach -> Sifuna movement context -> Ticking seven-day operational edge.",
       "source": "https://kenyans.co.ke/news/127477-tribunal-declares-orpp-rejection-linda-mwananchi-name-unlawful",
       "published_at": "2026-09-30T13:02:32Z"
+    },
+    {
+      "title": "As Lamu Breaks Ground on Mega Refinery, Museveni Revives Uganda\u2019s Solo Hoima Plans",
+      "angle": "The commercial and logistical friction of concurrent multi-billion-shilling refinery investments in East Africa\u2014specifically how Uganda's insistence on a 60,000 to 120,000-barrel Hoima facility and unresolved Tanga discussions intersect with a massive regional competitor springing up in Lamu.",
+      "angle_type": "consequence",
+      "opening": "Commercial friction lead focusing on concurrent, competing refining plans across regional borders.",
+      "structure": "Regional friction lead -> Museveni's Hoima refinery parameters -> Historical context of regional talks and Tanga -> Economic rationale of non-export crude processing -> Closing on unresolved tripartite discussions.",
+      "source": "https://kenyans.co.ke/news/127479-museveni-says-uganda-will-pursue-small-oil-refinery-uganda",
+      "published_at": "2026-09-30T13:27:30Z"
     }
   ]
 }
