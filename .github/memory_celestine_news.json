@@ -743,10 +743,10 @@
     "2576f50137937e9e32db57af58adcdf0",
     "d2fa4139f73fd95be4161f7f01d7bfea",
     "0169c4c790988889ebd3d03529429aa4",
-    "b23278566e147a592f7e248eae5dbc24"
+    "b23278566e147a592f7e248eae5dbc24",
+    "7dcf0f321a9f7a9a2ba570b0cbc65be0"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Desk Take",
@@ -775,7 +775,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1103,7 +1104,8 @@
     "https://kenyans.co.ke/news/127474-ntsa-reveals-most-registered-vehicle-types-after-elogbook-rollout",
     "https://kenyans.co.ke/news/127477-tribunal-declares-orpp-rejection-linda-mwananchi-name-unlawful",
     "https://kenyans.co.ke/news/127479-museveni-says-uganda-will-pursue-small-oil-refinery-uganda",
-    "https://kenyans.co.ke/news/127480-uon-beats-ku-retain-position-top-university-kenya"
+    "https://kenyans.co.ke/news/127480-uon-beats-ku-retain-position-top-university-kenya",
+    "https://kenyans.co.ke/news/127481-303-gatoto-learners-get-lifeline-ahead-2026-kpsea-kjsea-exams"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1353,7 +1355,8 @@
     "ntsa logs 207 259 vehicles court ordered import window overhaul takes effect",
     "tribunal sets day deadline orpp striking down linda mwananchi name ban",
     "lamu breaks ground mega refinery museveni revives uganda solo hoima plans",
-    "research deficit top universities remain anchored global bottom"
+    "research deficit top universities remain anchored global bottom",
+    "strict knec registry locks push court dual custody exam truce gatoto"
   ],
   "topic_keys": [
     "news tracker",
@@ -2874,6 +2877,15 @@
       "structure": "Global standing overview -> Granular score breakdown (research/teaching deficit) -> The 'Reporter' status bottleneck -> Continental comparison (South Africa's ascent) -> Systemic challenges looking ahead.",
       "source": "https://kenyans.co.ke/news/127480-uon-beats-ku-retain-position-top-university-kenya",
       "published_at": "2026-09-30T14:02:13Z"
+    },
+    {
+      "title": "Strict KNEC Registry Locks Push Court Into Dual-Custody Exam Truce at Gatoto",
+      "angle": "Examine how KNEC's locked examination database and sealed logistics forced a legal and administrative truce, mandating parallel access for accredited officials without resolving the underlying ownership feud.",
+      "angle_type": "practical change",
+      "opening": "Logistical-compliance lead focusing on how rigid state exam security mechanisms compelled a court-supervised joint operational protocol inside the disputed school.",
+      "structure": "Administrative compromise lead -> KNEC registration constraints and warehouse logistics -> Operational access and joint oversight terms -> Security and invigilation protocols -> The November 7 timeline and unresolved ownership questions",
+      "source": "https://kenyans.co.ke/news/127481-303-gatoto-learners-get-lifeline-ahead-2026-kpsea-kjsea-exams",
+      "published_at": "2026-09-30T15:02:37Z"
     }
   ]
 }
