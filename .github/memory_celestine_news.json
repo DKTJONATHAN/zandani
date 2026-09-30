@@ -746,10 +746,10 @@
     "b23278566e147a592f7e248eae5dbc24",
     "7dcf0f321a9f7a9a2ba570b0cbc65be0",
     "ee743b1f6e1209d8afcef1bdced13521",
-    "6dd8c9fe7e44c5a96f88064023c6dc3a"
+    "6dd8c9fe7e44c5a96f88064023c6dc3a",
+    "ac32e401e5224392196be9ed655bf0fd"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -778,7 +778,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1109,7 +1110,8 @@
     "https://kenyans.co.ke/news/127480-uon-beats-ku-retain-position-top-university-kenya",
     "https://kenyans.co.ke/news/127481-303-gatoto-learners-get-lifeline-ahead-2026-kpsea-kjsea-exams",
     "https://kenyans.co.ke/news/127483-kra-issues-reminder-over-new-excise-duty-betting-juices-and-other-products",
-    "https://kenyans.co.ke/news/127486-kenyan-cabin-crew-members-involved-flydubai-plane-emergency-saudi-arabia"
+    "https://kenyans.co.ke/news/127486-kenyan-cabin-crew-members-involved-flydubai-plane-emergency-saudi-arabia",
+    "https://kenyans.co.ke/news/127485-jkuat-vc-proposes-crickets-and-snails-alternative-foods-kenyans"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1362,7 +1364,8 @@
     "research deficit top universities remain anchored global bottom",
     "strict knec registry locks push court dual custody exam truce gatoto",
     "kra finance act 2026 rollout penalizes imported sugar wagering while shelving bottled water tax",
-    "mid air cockpit attack triggers emergency diversion flydubai dubai tel aviv route"
+    "mid air cockpit attack triggers emergency diversion flydubai dubai tel aviv route",
+    "beyond maize imports jkuat pushes snails crickets bio seedlings farm balance sheets"
   ],
   "topic_keys": [
     "news tracker",
@@ -2910,6 +2913,15 @@
       "structure": "Emergency response lead -> Cockpit breach and flight details -> Cabin triage and protocol enforcement -> Official confirmations and diversion handling -> Operational status and upcoming inquiries.",
       "source": "https://kenyans.co.ke/news/127486-kenyan-cabin-crew-members-involved-flydubai-plane-emergency-saudi-arabia",
       "published_at": "2026-09-30T17:02:31Z"
+    },
+    {
+      "title": "Beyond Maize Imports: JKUAT Pushes Snails, Crickets, and Bio-Seedlings into Farm Balance Sheets",
+      "angle": "Framing the proposal through the lens of agricultural diversification and academic commercialization\u2014contrasting public emergency grain imports with university-led micro-livestock and bio-tech seedling distribution.",
+      "angle_type": "practical change",
+      "opening": "Bio-tech and micro-livestock adoption lead that contrasts institutional innovation with traditional state emergency interventions.",
+      "structure": "Institutional diversification lead -> Trade fair showcase mechanics (crickets, snails, tissue culture) -> Commercialization and seedling sales details -> Macro food security context (Zambia maize imports vs farm diversification) -> Adoption hurdles and forward edge.",
+      "source": "https://kenyans.co.ke/news/127485-jkuat-vc-proposes-crickets-and-snails-alternative-foods-kenyans",
+      "published_at": "2026-09-30T18:03:42Z"
     }
   ]
 }
