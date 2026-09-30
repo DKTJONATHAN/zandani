@@ -112,7 +112,8 @@
     "599c25184790095899e9c66e82f70ee8216408eb853bdb4c9f6c4ade775f4356",
     "40c20b0b2679463e2a884d70be75062845cfaf74fe972844e2967ba1b8e6ff74",
     "c4006469eb93d392eacda8c451fc8bda707a8b60c7b460385e3ee964ff4382a6",
-    "f82351ed683ddfe5d07e97ba5373a430b1c78329730c4dfcbd25d4ae1d61a19f"
+    "f82351ed683ddfe5d07e97ba5373a430b1c78329730c4dfcbd25d4ae1d61a19f",
+    "272746c0566fbd943756d4ad5f67c00058a0805a84b9d49578fd6fe266b6cdc3"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -227,17 +228,10 @@
     "https://www.ghafla.co.ke/abel-mutua-breaks-down-recalling-brother-raphos-final-years/",
     "https://www.ghafla.co.ke/ruto-and-dangote-break-ground-for-sh2-2-trillion-lamu-oil-refinery/",
     "https://www.ghafla.co.ke/dennis-karuri-opens-up-about-grief-career-struggles-and-his-journey-into-beauty/",
-    "https://www.ghafla.co.ke/pritty-vishy-questions-georgina-njengas-instagram-posts-amid-emotional-messages/"
+    "https://www.ghafla.co.ke/pritty-vishy-questions-georgina-njengas-instagram-posts-amid-emotional-messages/",
+    "https://www.ghafla.co.ke/janet-mbugua-criticises-politicians-for-taking-over-social-awareness-events/"
   ],
   "published_angles": [
-    {
-      "title": "Trevor Ombija\u2019s Podium Drama Backfires After Boss Exposes Campaign-Trail \u2018Mistake\u2019",
-      "angle": "Focusing on how Ombija's campaign-trail attempt to frame himself as a victim of political persecution backfired when RMS boss Linus Kaikai called out the claim, forcing the anchor to privately admit it was an off-the-cuff error.",
-      "angle_type": "campaign trail exaggeration vs editorial reality check",
-      "opening": "Personality lead opening on the anchor's Nyakach rally claim followed immediately by the sharp editorial correction from his newsroom boss.",
-      "structure": "Rally claim hook -> Newsroom chief refutation & admission details -> Context of the March 2026 Monday Report confrontation -> Dual-role tension between newsroom anchoring and parliamentary ambitions.",
-      "source": "https://www.ghafla.co.ke/trevor-ombija-claims-gachagua-sought-his-firing-following-heated-interview/"
-    },
     {
       "title": "Rigathi Gachagua\u2019s New Role: The Transatlantic \u2018Uncle\u2019 Trying to Save Sifuna and Babu Owino\u2019s Political Bromance",
       "angle": "Gachagua\u2019s sudden stylistic pivot from a hardline majoritarian politician to a protective, pan-ethnic 'political uncle' offering paternalistic survival tips and relationship advice to Nairobi's loudest young opposition stars.",
@@ -1029,6 +1023,14 @@
       "opening": "Personality lead focusing directly on Georgina Njenga's dark-humored existential posts and the immediate skepticism they triggered from fellow creator Pritty Vishy.",
       "structure": "Immediate post analysis -> Peer reaction and hack speculation -> Contextualizing with the September mall incident and spiritual boundaries -> Retrospective on her July 'starting over' milestone -> Unresolved status of the account security.",
       "source": "https://www.ghafla.co.ke/pritty-vishy-questions-georgina-njengas-instagram-posts-amid-emotional-messages/"
+    },
+    {
+      "title": "Janet Mbugua Calls Out Political Gatecrashers After Karen Nyamu\u2019s KICC Endometriosis Climax",
+      "angle": "The operational collapse of advocacy boundaries: examining how event organizers like Eric Omondi and grassroots creators attempt to firewall vulnerable health campaigns from political grandstanding, only to see high-profile figures force their way in through backchannels and financial donations.",
+      "angle_type": "event boundary breakdown and creator-politician friction",
+      "opening": "Personality and event-tension lead focusing on Janet Mbugua drawing a hard line against political gatecrashing following the KICC endometriosis event.",
+      "structure": "Personality lead -> The KICC clash and Nyamu's 'Wantam' heckling -> Eric Omondi's revelation of backstage financial maneuvers and broken agreements -> Janet Mbugua's framing of authentic advocacy versus political stagecraft -> Closing on Nyamu's defiant stance on attendance.",
+      "source": "https://www.ghafla.co.ke/janet-mbugua-criticises-politicians-for-taking-over-social-awareness-events/"
     }
   ],
   "style_history": [
