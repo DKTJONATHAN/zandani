@@ -733,10 +733,10 @@
     "96542ee3a1d2097e612f49d4049f5a0c",
     "1a6328474dacc2755732d14610b488e6",
     "b0950963d19b51e6191c7abc9eec8d3b",
-    "dfa88cfcfdce6796aeae619e5899fd1d"
+    "dfa88cfcfdce6796aeae619e5899fd1d",
+    "9d09902159b1ca6c94f4cf389801c684"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -765,7 +765,8 @@
     "Event Report",
     "Desk Take",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1083,7 +1084,8 @@
     "https://kenyans.co.ke/news/127450-lawyers-quit-defence-3-suspects-victoria-mutiso-murder-case",
     "https://kenyans.co.ke/news/127447-dci-outlines-how-kenyans-abroad-foreign-nationals-can-apply-good-conduct",
     "https://kenyans.co.ke/news/127453-pharmaceutical-society-kenya-calls-tighter-pharmacy-regulations",
-    "https://kenyans.co.ke/news/127457-talanta-stadium-gets-new-transport-link-kenya-railways-expands-network"
+    "https://kenyans.co.ke/news/127457-talanta-stadium-gets-new-transport-link-kenya-railways-expands-network",
+    "https://kenyans.co.ke/news/127456-eacc-investigator-christine-ombaka-wins-global-public-sector-award"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1323,7 +1325,8 @@
     "unvetted torture claims shatter defense team victoria mutiso murder prosecution",
     "six month clock inside dci multi agency pipeline diaspora good conduct certs",
     "county permit loophole inside psk push shut rogue pharmacies out supply chain",
-    "kibera rail overhaul fast tracked afcon transit plan cuts through high density belt"
+    "kibera rail overhaul fast tracked afcon transit plan cuts through high density belt",
+    "global honor eacc sleuth highlights forensic shift graft war"
   ],
   "topic_keys": [
     "news tracker",
@@ -2754,6 +2757,15 @@
       "structure": "Kibera safety corridor lead -> Infrastructure scope (13.3km upgrade & 1.3km bypass) -> Station & pedestrian crossing mechanics -> Stadium readiness countdown -> Forward operational test window.",
       "source": "https://kenyans.co.ke/news/127457-talanta-stadium-gets-new-transport-link-kenya-railways-expands-network",
       "published_at": "2026-09-30T06:01:46Z"
+    },
+    {
+      "title": "Global Honor for EACC Sleuth Highlights Forensic Shift in Graft War",
+      "angle": "Reframing the global recognition around the shifting frontline of Kenyan graft enforcement, where complex financial paper trails, asset recovery, and institutional risk modeling now supersede traditional policing tactics in state anti-corruption operations.",
+      "angle_type": "accountability",
+      "opening": "Technical-discipline lead examining how specialized forensic audit and asset tracing have moved to the center of anti-graft enforcement.",
+      "structure": "Operational shift lead -> Award announcement and core forensic credentials -> Institutional leadership statements (CEO Mohamud & Jackson Mue) -> Regional professional context (George Njar) -> Systemic implications for public finance oversight.",
+      "source": "https://kenyans.co.ke/news/127456-eacc-investigator-christine-ombaka-wins-global-public-sector-award",
+      "published_at": "2026-09-30T06:25:32Z"
     }
   ]
 }
