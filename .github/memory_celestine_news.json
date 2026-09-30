@@ -740,10 +740,10 @@
     "4fbb80c5955bb580d9697fde5b6edc95",
     "db390efd594e94ddbe09dafa05f9bd18",
     "d8ef82d7a406d1fda5d72a3347cc2b2f",
-    "2576f50137937e9e32db57af58adcdf0"
+    "2576f50137937e9e32db57af58adcdf0",
+    "d2fa4139f73fd95be4161f7f01d7bfea"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Desk Take",
@@ -772,7 +772,8 @@
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1097,7 +1098,8 @@
     "https://kenyans.co.ke/news/127466-epra-names-edward-mwirigi-kinyua-new-dg-after-daniel-kiptoo-resignation",
     "https://kenyans.co.ke/news/127469-court-restricts-use-funds-under-ruto-sakaja-nairobi-deal",
     "https://kenyans.co.ke/news/127471-wamuchomba-calls-school-buses-be-given-priority-roads",
-    "https://kenyans.co.ke/news/127474-ntsa-reveals-most-registered-vehicle-types-after-elogbook-rollout"
+    "https://kenyans.co.ke/news/127474-ntsa-reveals-most-registered-vehicle-types-after-elogbook-rollout",
+    "https://kenyans.co.ke/news/127477-tribunal-declares-orpp-rejection-linda-mwananchi-name-unlawful"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1344,7 +1346,8 @@
     "clean sweep energy desk petroleum insider takes helm epra",
     "high court puts ruto sakaja nairobi pact under assembly budget lock",
     "wamuchomba pushes elevate school buses vip road priority status",
-    "ntsa logs 207 259 vehicles court ordered import window overhaul takes effect"
+    "ntsa logs 207 259 vehicles court ordered import window overhaul takes effect",
+    "tribunal sets day deadline orpp striking down linda mwananchi name ban"
   ],
   "topic_keys": [
     "news tracker",
@@ -2838,6 +2841,15 @@
       "structure": "Regulatory adjustment lead -> Six-month volume trends and vehicle breakdowns -> eLogbook and digital rollout mechanics -> High Court intervention on import windows -> Forward operational outlook.",
       "source": "https://kenyans.co.ke/news/127474-ntsa-reveals-most-registered-vehicle-types-after-elogbook-rollout",
       "published_at": "2026-09-30T12:02:30Z"
+    },
+    {
+      "title": "Tribunal Sets 7-Day Deadline for ORPP After Striking Down 'Linda Mwananchi' Name Ban",
+      "angle": "Focusing on the tribunal's strict seven-day compliance clock and the administrative limits it places on ORPP's discretionary powers over political name reservations.",
+      "angle_type": "institutional pressure",
+      "opening": "Administrative deadline lead highlighting statutory boundaries on state political gatekeeping.",
+      "structure": "Compliance clock lead -> Tribunal ruling mechanics -> Administrative statutory breach -> Sifuna movement context -> Ticking seven-day operational edge.",
+      "source": "https://kenyans.co.ke/news/127477-tribunal-declares-orpp-rejection-linda-mwananchi-name-unlawful",
+      "published_at": "2026-09-30T13:02:32Z"
     }
   ]
 }
