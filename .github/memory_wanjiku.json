@@ -113,7 +113,8 @@
     "40c20b0b2679463e2a884d70be75062845cfaf74fe972844e2967ba1b8e6ff74",
     "c4006469eb93d392eacda8c451fc8bda707a8b60c7b460385e3ee964ff4382a6",
     "f82351ed683ddfe5d07e97ba5373a430b1c78329730c4dfcbd25d4ae1d61a19f",
-    "272746c0566fbd943756d4ad5f67c00058a0805a84b9d49578fd6fe266b6cdc3"
+    "272746c0566fbd943756d4ad5f67c00058a0805a84b9d49578fd6fe266b6cdc3",
+    "b33cf2b29f1b3fda3492dcb87b98146a6d6326d9f38727fedb17a11574d578d3"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -229,17 +230,10 @@
     "https://www.ghafla.co.ke/ruto-and-dangote-break-ground-for-sh2-2-trillion-lamu-oil-refinery/",
     "https://www.ghafla.co.ke/dennis-karuri-opens-up-about-grief-career-struggles-and-his-journey-into-beauty/",
     "https://www.ghafla.co.ke/pritty-vishy-questions-georgina-njengas-instagram-posts-amid-emotional-messages/",
-    "https://www.ghafla.co.ke/janet-mbugua-criticises-politicians-for-taking-over-social-awareness-events/"
+    "https://www.ghafla.co.ke/janet-mbugua-criticises-politicians-for-taking-over-social-awareness-events/",
+    "https://www.ghafla.co.ke/colonel-mustafa-breaks-down-while-recalling-donholm-years/"
   ],
   "published_angles": [
-    {
-      "title": "Rigathi Gachagua\u2019s New Role: The Transatlantic \u2018Uncle\u2019 Trying to Save Sifuna and Babu Owino\u2019s Political Bromance",
-      "angle": "Gachagua\u2019s sudden stylistic pivot from a hardline majoritarian politician to a protective, pan-ethnic 'political uncle' offering paternalistic survival tips and relationship advice to Nairobi's loudest young opposition stars.",
-      "angle_type": "personality rebranding and political mentorship dynamics",
-      "opening": "Open directly on Gachagua's unexpected rebranding from a fierce defender of government 'shareholders' to a concerned elder advising younger opposition leaders.",
-      "structure": "Lead on Gachagua's paternalistic phone calls from the US -> Detail the specific 'you young guys' warning dynamic -> Unpack his sudden advocacy for Luo-Luhya and Luo-Kikuyu unity -> Contextualize the internal Sifuna-Babu friction -> Close on the unresolved tension of whether these young firebrands will accept his long-distance mentorship.",
-      "source": "https://www.ghafla.co.ke/gachagua-accuses-ruto-of-seeking-to-divide-linda-mwananchi/"
-    },
     {
       "title": "The Chosen Six: Inside the Exclusive Corporate Guestlist Handling Kenya\u2019s G-to-G Fuel Billions",
       "angle": "Reframing the story around the elite, highly exclusive corporate 'VIP list' of local oil marketing companies that secured the golden ticket to handle this multi-million dollar G-to-G fuel pipeline.",
@@ -1031,6 +1025,14 @@
       "opening": "Personality and event-tension lead focusing on Janet Mbugua drawing a hard line against political gatecrashing following the KICC endometriosis event.",
       "structure": "Personality lead -> The KICC clash and Nyamu's 'Wantam' heckling -> Eric Omondi's revelation of backstage financial maneuvers and broken agreements -> Janet Mbugua's framing of authentic advocacy versus political stagecraft -> Closing on Nyamu's defiant stance on attendance.",
       "source": "https://www.ghafla.co.ke/janet-mbugua-criticises-politicians-for-taking-over-social-awareness-events/"
+    },
+    {
+      "title": "Colonel Mustafa Traces 25-Year Survival to Donholm Safety Net Ahead of Anniversary Showcase",
+      "angle": "Reframing Mustafa's tears through the lens of Eastlands grassroots survival\u2014specifically how the working-class community of Greenfield, Donholm served as an informal social safety net during his early creative struggle, contrasting with the glossy commercial heights of his Ogopa Deejays era and his later public construction site trials.",
+      "angle_type": "celebrity grassroots loyalty and career survival architecture",
+      "opening": "Personality lead placing Mustafa directly in the interview chair as conversation shifts from concert mechanics to the neighborhood that kept him fed and housed.",
+      "structure": "Interview emotional pivot hook -> The Greenfield, Donholm informal support system -> Context of the early Ogopa and Marya chapter -> Post-fame turbulence and the 2023 mjengo reality -> Mobilization of Eastlands estates for the October 10 anniversary concert.",
+      "source": "https://www.ghafla.co.ke/colonel-mustafa-breaks-down-while-recalling-donholm-years/"
     }
   ],
   "style_history": [
