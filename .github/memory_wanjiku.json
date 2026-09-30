@@ -108,7 +108,8 @@
     "c48f24724dbcf9b463e93dfea62f11d063202a2aae9763ec13c32cb74769997e",
     "1069517c9447b1095e6f4e8f65046b37d90dd555533f54826218cc9834c0aec7",
     "1ae2d806604c99e4a8caf9c89f4267e047c3c935a927addd5f38a9b6fb519e4e",
-    "83aa085a9de271bb361d999d5ef9e8a5a270f8a239379de7acd8e3071a785eb2"
+    "83aa085a9de271bb361d999d5ef9e8a5a270f8a239379de7acd8e3071a785eb2",
+    "599c25184790095899e9c66e82f70ee8216408eb853bdb4c9f6c4ade775f4356"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -219,17 +220,10 @@
     "https://www.ghafla.co.ke/tom-daktari-celebrates-new-jetour-suv-purchase/",
     "https://www.ghafla.co.ke/big-blow-for-kalonzo-as-gachaguas-dcp-says-no-to-ukombozi-alliance/",
     "https://www.ghafla.co.ke/nairobi-needs-tested-leadership-babu-owino-defends-his-reason-for-ousting-sakaja-as-nairobi-governor/",
-    "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-across-several-counties-on-september-30/"
+    "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-across-several-counties-on-september-30/",
+    "https://www.ghafla.co.ke/abel-mutua-breaks-down-recalling-brother-raphos-final-years/"
   ],
   "published_angles": [
-    {
-      "title": "Margaret Nyakang\u2019o Moves to Cut Off State-Funded Fleets and Fuel Powering 2027 Campaign Tours",
-      "angle": "Focusing on the personality-driven enforcement crackdown targeting the lifestyle and logistical luxuries of early campaigners\u2014specifically the covert diversion of government convoys, fuel vouchers, and staff to fuel partisan tours under the cover of routine county development.",
-      "angle_type": "personality-driven accountability and campaign mechanics",
-      "opening": "Personality lead highlighting Nyakang'o calling time on state-funded campaign entourages.",
-      "structure": "Lead on Nyakang'o's direct intervention against campaign perks -> break down the specific diversion tactics (convoys, fuel, personnel) -> examine the field audit deployment to counter retroactive reporting loopholes -> unpack the off-budget fund visibility blind spots -> close on the institutional momentum alongside EACC warnings.",
-      "source": "https://www.ghafla.co.ke/controller-of-budget-orders-increased-spending-audits-ahead-of-2027-polls/"
-    },
     {
       "title": "\u2018That Is All From the Sponsor\u2019: Uhuru Kenyatta Claps Back With a Cheeky Podium Exit in Murang\u2019a",
       "angle": "Framing Uhuru's Murang'a speech through his signature brand of public cheek\u2014co-opting the loaded 'sponsor' label into an abrupt comic exit to disarm State House's political offensive.",
@@ -1021,6 +1015,14 @@
       "opening": "Start directly with the high-profile institutions and diplomatic missions in Nairobi's most exclusive neighborhoods facing a synchronized operational pause.",
       "structure": "Nairobi luxury and diplomatic core impact -> Westlands corporate and retail hubs -> Mombasa Road industrial players -> High-profile regional targets (Judge Mukunya in Nyeri, Kibos Industries in Kisumu) -> Broad regional context and operational conclusion.",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-across-several-counties-on-september-30/"
+    },
+    {
+      "title": "Abel Mutua Details Family Upkeep Cutoff That Accelerated Late Brother Rapho\u2019s Downward Spiral",
+      "angle": "Focusing specifically on the family mechanics and Abel's candid admission of a strategic failure: how six employed siblings abruptly halting their coordinated monthly campus upkeep pool pushed Rapho away from rehabilitation and into soliciting money from strangers.",
+      "angle_type": "celebrity personal confession and family financial dynamics",
+      "opening": "Personality lead focusing directly on Abel Mutua pinpointing the specific family meeting where cutting off financial aid backfired.",
+      "structure": "Family intervention confession -> The JKUAT sibling upkeep pool -> 2021 substance discovery -> The financial cutoff decision and street spiral -> Refusal of rehab and Machakos burial context.",
+      "source": "https://www.ghafla.co.ke/abel-mutua-breaks-down-recalling-brother-raphos-final-years/"
     }
   ],
   "style_history": [
