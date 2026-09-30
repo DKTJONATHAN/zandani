@@ -110,7 +110,8 @@
     "1ae2d806604c99e4a8caf9c89f4267e047c3c935a927addd5f38a9b6fb519e4e",
     "83aa085a9de271bb361d999d5ef9e8a5a270f8a239379de7acd8e3071a785eb2",
     "599c25184790095899e9c66e82f70ee8216408eb853bdb4c9f6c4ade775f4356",
-    "40c20b0b2679463e2a884d70be75062845cfaf74fe972844e2967ba1b8e6ff74"
+    "40c20b0b2679463e2a884d70be75062845cfaf74fe972844e2967ba1b8e6ff74",
+    "c4006469eb93d392eacda8c451fc8bda707a8b60c7b460385e3ee964ff4382a6"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -223,17 +224,10 @@
     "https://www.ghafla.co.ke/nairobi-needs-tested-leadership-babu-owino-defends-his-reason-for-ousting-sakaja-as-nairobi-governor/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-across-several-counties-on-september-30/",
     "https://www.ghafla.co.ke/abel-mutua-breaks-down-recalling-brother-raphos-final-years/",
-    "https://www.ghafla.co.ke/ruto-and-dangote-break-ground-for-sh2-2-trillion-lamu-oil-refinery/"
+    "https://www.ghafla.co.ke/ruto-and-dangote-break-ground-for-sh2-2-trillion-lamu-oil-refinery/",
+    "https://www.ghafla.co.ke/dennis-karuri-opens-up-about-grief-career-struggles-and-his-journey-into-beauty/"
   ],
   "published_angles": [
-    {
-      "title": "From Salons to Night Kiosks: Grid Power Sparks Evening Trade in Four Counties",
-      "angle": "Examining the immediate practical shift in village micro-commerce and evening trade routines as local salons, shops, and food stalls move away from kerosene dependence.",
-      "angle_type": "micro-economic transformation and lifestyle impact",
-      "opening": "Focusing on the sunset transition in rural trading centers, contrasting mandatory dusk shutdowns with new evening commercial activity.",
-      "structure": "Commercial shift lead -> verified broadcast context -> sector breakdown (salons, workshops, food businesses, home study) -> community facilities -> concrete closing factual outlook.",
-      "source": "https://www.ghafla.co.ke/villages-see-the-light-as-electricity-transforms-rural-kenya/"
-    },
     {
       "title": "Inside the Bedside Shift as 270,000 Newborns Enter Kenya\u2019s Digital E-Birth Registry in 60 Days",
       "angle": "Focusing on the operational shift inside delivery rooms and health facilities, where instant electronic logging at point-of-care replaces manual paper trails for new parents.",
@@ -1025,6 +1019,14 @@
       "opening": "Personality lead opening directly on Aliko Dangote touching down on the Lamu coastline to roll out a historic multi-trillion-shilling spectacle with William Ruto.",
       "structure": "Person and billionaire arrival hook -> Verified financial and capacity scale (Sh2.2 trillion, 700k barrels) -> The staging of heavy machinery at Lamu Port -> The elite political-industrial alliance -> Concrete timeline and corridor expansion.",
       "source": "https://www.ghafla.co.ke/ruto-and-dangote-break-ground-for-sh2-2-trillion-lamu-oil-refinery/"
+    },
+    {
+      "title": "Dennis Karuri Traces Beauty Rise to Agribusiness Exit and the Transformative Brush That Pulled Him Back from the Edge",
+      "angle": "The stark contrast between Karuri's institutional academic/governmental trajectory and the radical creative reinvention that served as a psychological survival mechanism after intense personal grief.",
+      "angle_type": "creative survival and career pivot",
+      "opening": "Personality lead highlighting the dramatic divergence between his university-era trajectory and his current beauty empire.",
+      "structure": "Academic background and government office disillusionment -> The devastating impact of his mother's death and mental health crisis -> The accidental introduction to makeup via modeling -> The 'born again' realization and professional payoff.",
+      "source": "https://www.ghafla.co.ke/dennis-karuri-opens-up-about-grief-career-struggles-and-his-journey-into-beauty/"
     }
   ],
   "style_history": [
