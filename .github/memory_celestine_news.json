@@ -739,10 +739,10 @@
     "5536ad0a6f1af65623e642ceaac52d78",
     "4fbb80c5955bb580d9697fde5b6edc95",
     "db390efd594e94ddbe09dafa05f9bd18",
-    "d8ef82d7a406d1fda5d72a3347cc2b2f"
+    "d8ef82d7a406d1fda5d72a3347cc2b2f",
+    "2576f50137937e9e32db57af58adcdf0"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -771,7 +771,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1095,7 +1096,8 @@
     "https://kenyans.co.ke/news/127464-rwanda-receives-first-fuel-shipment-under-new-kenya-deal",
     "https://kenyans.co.ke/news/127466-epra-names-edward-mwirigi-kinyua-new-dg-after-daniel-kiptoo-resignation",
     "https://kenyans.co.ke/news/127469-court-restricts-use-funds-under-ruto-sakaja-nairobi-deal",
-    "https://kenyans.co.ke/news/127471-wamuchomba-calls-school-buses-be-given-priority-roads"
+    "https://kenyans.co.ke/news/127471-wamuchomba-calls-school-buses-be-given-priority-roads",
+    "https://kenyans.co.ke/news/127474-ntsa-reveals-most-registered-vehicle-types-after-elogbook-rollout"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1341,7 +1343,8 @@
     "kpc mombasa port lock 500 000m annual fuel flow rwanda g2g deal goes live",
     "clean sweep energy desk petroleum insider takes helm epra",
     "high court puts ruto sakaja nairobi pact under assembly budget lock",
-    "wamuchomba pushes elevate school buses vip road priority status"
+    "wamuchomba pushes elevate school buses vip road priority status",
+    "ntsa logs 207 259 vehicles court ordered import window overhaul takes effect"
   ],
   "topic_keys": [
     "news tracker",
@@ -2826,6 +2829,15 @@
       "structure": "Statutory friction lead -> Parliament debate & transit delays -> Legal comparison with Rule 83 traffic rules -> NTSA school transport rule mechanics -> Forward implementation outlook.",
       "source": "https://kenyans.co.ke/news/127471-wamuchomba-calls-school-buses-be-given-priority-roads",
       "published_at": "2026-09-30T11:01:45Z"
+    },
+    {
+      "title": "NTSA Logs 207,259 Vehicles in H1 as Court-Ordered Import Window Overhaul Takes Effect",
+      "angle": "The operational collision between digital compliance shifts (eLogbooks) and court-enforced relief on import registration windows amid fluctuating monthly registration volumes.",
+      "angle_type": "practical change",
+      "opening": "Operational friction and regulatory adjustment lead.",
+      "structure": "Regulatory adjustment lead -> Six-month volume trends and vehicle breakdowns -> eLogbook and digital rollout mechanics -> High Court intervention on import windows -> Forward operational outlook.",
+      "source": "https://kenyans.co.ke/news/127474-ntsa-reveals-most-registered-vehicle-types-after-elogbook-rollout",
+      "published_at": "2026-09-30T12:02:30Z"
     }
   ]
 }
