@@ -731,10 +731,10 @@
     "97ec638f9fd4a441e12814f3fba2d031",
     "8f990babe068fd96b7c7cabb3fff1a82",
     "96542ee3a1d2097e612f49d4049f5a0c",
-    "1a6328474dacc2755732d14610b488e6"
+    "1a6328474dacc2755732d14610b488e6",
+    "b0950963d19b51e6191c7abc9eec8d3b"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -763,7 +763,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1079,7 +1080,8 @@
     "https://kenyans.co.ke/news/127451-standard-raises-alarm-over-threat-attack-offices",
     "https://kenyans.co.ke/news/127442-explainer-how-protect-your-property-family-succession-battles",
     "https://kenyans.co.ke/news/127450-lawyers-quit-defence-3-suspects-victoria-mutiso-murder-case",
-    "https://kenyans.co.ke/news/127447-dci-outlines-how-kenyans-abroad-foreign-nationals-can-apply-good-conduct"
+    "https://kenyans.co.ke/news/127447-dci-outlines-how-kenyans-abroad-foreign-nationals-can-apply-good-conduct",
+    "https://kenyans.co.ke/news/127453-pharmaceutical-society-kenya-calls-tighter-pharmacy-regulations"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1317,7 +1319,8 @@
     "standard group alerts police planned protest political legal pressure mounts",
     "month clock begins family trusts law mandates ownership disclosures",
     "unvetted torture claims shatter defense team victoria mutiso murder prosecution",
-    "six month clock inside dci multi agency pipeline diaspora good conduct certs"
+    "six month clock inside dci multi agency pipeline diaspora good conduct certs",
+    "county permit loophole inside psk push shut rogue pharmacies out supply chain"
   ],
   "topic_keys": [
     "news tracker",
@@ -2730,6 +2733,15 @@
       "structure": "Operational lead -> The six-month expiration rule -> The step-by-step diaspora pipeline -> Extra documentation gates for foreign nationals -> Current outreach and forward-looking logistical implications.",
       "source": "https://kenyans.co.ke/news/127447-dci-outlines-how-kenyans-abroad-foreign-nationals-can-apply-good-conduct",
       "published_at": "2026-09-29T23:01:53Z"
+    },
+    {
+      "title": "The County Permit Loophole: Inside PSK\u2019s Push to Shut Rogue Pharmacies Out of the Supply Chain",
+      "angle": "The administrative rift between county revenue licensing and national clinical oversight, which allows commercial trade permits to serve as de facto shields for uninspected chemist outlets that evade mandatory pharmaceutical and storage audits.",
+      "angle_type": "accountability",
+      "opening": "Accountability lead highlighting the regulatory disconnect between county trading licenses and statutory pharmacy approvals.",
+      "structure": "Regulatory gap lead -> Interception of counterfeit ophthalmic injectables -> The inspection and cold-chain oversight deficit -> Ministry directives and parallel retail risks -> Pointed accountability close on enforcement harmonization.",
+      "source": "https://kenyans.co.ke/news/127453-pharmaceutical-society-kenya-calls-tighter-pharmacy-regulations",
+      "published_at": "2026-09-30T05:02:00Z"
     }
   ]
 }
