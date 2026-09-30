@@ -745,10 +745,10 @@
     "0169c4c790988889ebd3d03529429aa4",
     "b23278566e147a592f7e248eae5dbc24",
     "7dcf0f321a9f7a9a2ba570b0cbc65be0",
-    "ee743b1f6e1209d8afcef1bdced13521"
+    "ee743b1f6e1209d8afcef1bdced13521",
+    "6dd8c9fe7e44c5a96f88064023c6dc3a"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
@@ -777,7 +777,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1107,7 +1108,8 @@
     "https://kenyans.co.ke/news/127479-museveni-says-uganda-will-pursue-small-oil-refinery-uganda",
     "https://kenyans.co.ke/news/127480-uon-beats-ku-retain-position-top-university-kenya",
     "https://kenyans.co.ke/news/127481-303-gatoto-learners-get-lifeline-ahead-2026-kpsea-kjsea-exams",
-    "https://kenyans.co.ke/news/127483-kra-issues-reminder-over-new-excise-duty-betting-juices-and-other-products"
+    "https://kenyans.co.ke/news/127483-kra-issues-reminder-over-new-excise-duty-betting-juices-and-other-products",
+    "https://kenyans.co.ke/news/127486-kenyan-cabin-crew-members-involved-flydubai-plane-emergency-saudi-arabia"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1359,7 +1361,8 @@
     "lamu breaks ground mega refinery museveni revives uganda solo hoima plans",
     "research deficit top universities remain anchored global bottom",
     "strict knec registry locks push court dual custody exam truce gatoto",
-    "kra finance act 2026 rollout penalizes imported sugar wagering while shelving bottled water tax"
+    "kra finance act 2026 rollout penalizes imported sugar wagering while shelving bottled water tax",
+    "mid air cockpit attack triggers emergency diversion flydubai dubai tel aviv route"
   ],
   "topic_keys": [
     "news tracker",
@@ -2898,6 +2901,15 @@
       "structure": "Fiscal-contrast lead -> Imported sugar and vehicle penalty specifics -> Betting and beverage rate matrix -> Bottled water relief contrast -> Forward compliance schedule.",
       "source": "https://kenyans.co.ke/news/127483-kra-issues-reminder-over-new-excise-duty-betting-juices-and-other-products",
       "published_at": "2026-09-30T16:05:29Z"
+    },
+    {
+      "title": "Mid-Air Cockpit Attack Triggers Emergency Diversion on Flydubai Dubai-Tel Aviv Route",
+      "angle": "Focusing on the execution of in-flight emergency protocols, medical triage, and physical restraint during a high-altitude cockpit crisis.",
+      "angle_type": "practical change",
+      "opening": "Operational crisis containment lead focusing on the high-altitude breach and rapid diversion sequence.",
+      "structure": "Emergency response lead -> Cockpit breach and flight details -> Cabin triage and protocol enforcement -> Official confirmations and diversion handling -> Operational status and upcoming inquiries.",
+      "source": "https://kenyans.co.ke/news/127486-kenyan-cabin-crew-members-involved-flydubai-plane-emergency-saudi-arabia",
+      "published_at": "2026-09-30T17:02:31Z"
     }
   ]
 }
