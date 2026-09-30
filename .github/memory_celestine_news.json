@@ -734,10 +734,10 @@
     "1a6328474dacc2755732d14610b488e6",
     "b0950963d19b51e6191c7abc9eec8d3b",
     "dfa88cfcfdce6796aeae619e5899fd1d",
-    "9d09902159b1ca6c94f4cf389801c684"
+    "9d09902159b1ca6c94f4cf389801c684",
+    "94167f65ae3e78da0171806fdf240704"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -766,7 +766,8 @@
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1085,7 +1086,8 @@
     "https://kenyans.co.ke/news/127447-dci-outlines-how-kenyans-abroad-foreign-nationals-can-apply-good-conduct",
     "https://kenyans.co.ke/news/127453-pharmaceutical-society-kenya-calls-tighter-pharmacy-regulations",
     "https://kenyans.co.ke/news/127457-talanta-stadium-gets-new-transport-link-kenya-railways-expands-network",
-    "https://kenyans.co.ke/news/127456-eacc-investigator-christine-ombaka-wins-global-public-sector-award"
+    "https://kenyans.co.ke/news/127456-eacc-investigator-christine-ombaka-wins-global-public-sector-award",
+    "https://kenyans.co.ke/news/127460-education-stakeholders-reject-proposed-student-loan-repayment-deadline"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1326,7 +1328,8 @@
     "six month clock inside dci multi agency pipeline diaspora good conduct certs",
     "county permit loophole inside psk push shut rogue pharmacies out supply chain",
     "kibera rail overhaul fast tracked afcon transit plan cuts through high density belt",
-    "global honor eacc sleuth highlights forensic shift graft war"
+    "global honor eacc sleuth highlights forensic shift graft war",
+    "unemployed indebted bill month loan clock triggers backlash"
   ],
   "topic_keys": [
     "news tracker",
@@ -2766,6 +2769,15 @@
       "structure": "Operational shift lead -> Award announcement and core forensic credentials -> Institutional leadership statements (CEO Mohamud & Jackson Mue) -> Regional professional context (George Njar) -> Systemic implications for public finance oversight.",
       "source": "https://kenyans.co.ke/news/127456-eacc-investigator-christine-ombaka-wins-global-public-sector-award",
       "published_at": "2026-09-30T06:25:32Z"
+    },
+    {
+      "title": "Unemployed and Indebted: Bill\u2019s 12-Month Loan Clock Triggers Backlash",
+      "angle": "Examine how the proposed legislative overhaul introduces rigid cost-recovery mechanisms\u2014such as strict post-graduation repayment clocks and high payroll deductions\u2014that collide directly with graduate unemployment realities.",
+      "angle_type": "practical change",
+      "opening": "Lead with the structural debt-recovery mechanisms introduced under the proposed legislation rather than a generic summary of stakeholder rejection.",
+      "structure": "Statutory recovery mechanics lead -> Institutional overhaul context (HELB transition) -> Western Kenya public participation evidence -> Specific amendment proposals on employment triggers and payroll caps -> Forward legislative outlook.",
+      "source": "https://kenyans.co.ke/news/127460-education-stakeholders-reject-proposed-student-loan-repayment-deadline",
+      "published_at": "2026-09-30T07:01:40Z"
     }
   ]
 }
