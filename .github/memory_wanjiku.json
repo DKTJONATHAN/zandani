@@ -106,7 +106,8 @@
     "e79d75586333d418bf47d59f316d3731e9a0cc8ceab4e90d59840b4b8667a392",
     "6aca22cc58e5865fa70cb8e46c393caeffee5237d88ac034d38d5e379cde821b",
     "c48f24724dbcf9b463e93dfea62f11d063202a2aae9763ec13c32cb74769997e",
-    "1069517c9447b1095e6f4e8f65046b37d90dd555533f54826218cc9834c0aec7"
+    "1069517c9447b1095e6f4e8f65046b37d90dd555533f54826218cc9834c0aec7",
+    "1ae2d806604c99e4a8caf9c89f4267e047c3c935a927addd5f38a9b6fb519e4e"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -215,17 +216,10 @@
     "https://www.ghafla.co.ke/amber-ray-reveals-cosmetic-transformation-is-not-over-plans-double-chin-procedure/",
     "https://www.ghafla.co.ke/mummie-francie-welcomes-second-child-celebrates-birth-of-baby-girl/",
     "https://www.ghafla.co.ke/tom-daktari-celebrates-new-jetour-suv-purchase/",
-    "https://www.ghafla.co.ke/big-blow-for-kalonzo-as-gachaguas-dcp-says-no-to-ukombozi-alliance/"
+    "https://www.ghafla.co.ke/big-blow-for-kalonzo-as-gachaguas-dcp-says-no-to-ukombozi-alliance/",
+    "https://www.ghafla.co.ke/nairobi-needs-tested-leadership-babu-owino-defends-his-reason-for-ousting-sakaja-as-nairobi-governor/"
   ],
   "published_angles": [
-    {
-      "title": "Edwin Sifuna\u2019s US Embassy Photo-Op Sparked an Unexpected Wave of JKUAT Memes and Visa Grievances",
-      "angle": "Focusing on the humorous and chaotic public reaction to the photo-op, specifically how Kenyans hijacked Sifuna's high-profile meeting to air grievances about US visa denials and crack jokes about his recent JKUAT lockout.",
-      "angle_type": "public reaction and social media commentary",
-      "opening": "Open directly with the stark contrast between Sifuna's high-level diplomatic reception and his recent public lockout at JKUAT, setting up the online humor.",
-      "structure": "Introduce the social media storm, detail the photo-op and diplomatic context, break down the specific humorous and critical reactions (the JKUAT memes and visa grievances), outline Sifuna's broader diplomatic itinerary, and close on the unresolved agenda of his meetings.",
-      "source": "https://www.ghafla.co.ke/sifuna-meets-us-charge-daffaires-susan-burns-at-her-nairobi-residence/"
-    },
     {
       "title": "\u2018How Do I Look?\u2019: Edwin Sifuna Dodges the Babu Owino Question With a Vanity Check",
       "angle": "Sifuna turning an uncomfortable interrogation over his fracturing partnership with Babu Owino into a cheeky aesthetic check, using personal charm to bypass deep backstage fractures.",
@@ -1017,6 +1011,14 @@
       "opening": "Personality lead opening directly on Cleophas Malala drawing a line at DCP headquarters in Lavington.",
       "structure": "Malala's Lavington strategy -> Parallel alignment with Sifuna -> Kamanda's 47-county grassroots mandate -> The four recognized opposition figures -> Background on Kalonzo's Karen launch -> Closing on co-equal negotiation terms",
       "source": "https://www.ghafla.co.ke/big-blow-for-kalonzo-as-gachaguas-dcp-says-no-to-ukombozi-alliance/"
+    },
+    {
+      "title": "Babu Owino Weaponizes \u2018A-Student\u2019 Report Cards and Campus Legacy to Frame Nairobi 2027 Bid",
+      "angle": "Reframing Babu Owino's campaign strategy around his personality branding transition\u2014specifically how he is weaponizing his academic-style 'report card' (the 80% Infotrak score) and his legendary campus politician pedigree to build a case for executive power, while framing Sakaja's collaborative governance as a weak 'abdication of duty.'",
+      "angle_type": "political-celebrity branding and leadership framing",
+      "opening": "Personality-centric lead focusing on Babu Owino's brand transition from street-level activist to certified policy administrative candidate.",
+      "structure": "Brand positioning -> The Infotrak scorecard evidence -> The KSh 80B Sakaja deal critique -> Campus pedigree and ethnic voter claims -> Structural municipal outlook.",
+      "source": "https://www.ghafla.co.ke/nairobi-needs-tested-leadership-babu-owino-defends-his-reason-for-ousting-sakaja-as-nairobi-governor/"
     }
   ],
   "style_history": [
