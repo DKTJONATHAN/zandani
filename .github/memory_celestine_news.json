@@ -732,10 +732,10 @@
     "8f990babe068fd96b7c7cabb3fff1a82",
     "96542ee3a1d2097e612f49d4049f5a0c",
     "1a6328474dacc2755732d14610b488e6",
-    "b0950963d19b51e6191c7abc9eec8d3b"
+    "b0950963d19b51e6191c7abc9eec8d3b",
+    "dfa88cfcfdce6796aeae619e5899fd1d"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -764,7 +764,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1081,7 +1082,8 @@
     "https://kenyans.co.ke/news/127442-explainer-how-protect-your-property-family-succession-battles",
     "https://kenyans.co.ke/news/127450-lawyers-quit-defence-3-suspects-victoria-mutiso-murder-case",
     "https://kenyans.co.ke/news/127447-dci-outlines-how-kenyans-abroad-foreign-nationals-can-apply-good-conduct",
-    "https://kenyans.co.ke/news/127453-pharmaceutical-society-kenya-calls-tighter-pharmacy-regulations"
+    "https://kenyans.co.ke/news/127453-pharmaceutical-society-kenya-calls-tighter-pharmacy-regulations",
+    "https://kenyans.co.ke/news/127457-talanta-stadium-gets-new-transport-link-kenya-railways-expands-network"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1320,7 +1322,8 @@
     "month clock begins family trusts law mandates ownership disclosures",
     "unvetted torture claims shatter defense team victoria mutiso murder prosecution",
     "six month clock inside dci multi agency pipeline diaspora good conduct certs",
-    "county permit loophole inside psk push shut rogue pharmacies out supply chain"
+    "county permit loophole inside psk push shut rogue pharmacies out supply chain",
+    "kibera rail overhaul fast tracked afcon transit plan cuts through high density belt"
   ],
   "topic_keys": [
     "news tracker",
@@ -2742,6 +2745,15 @@
       "structure": "Regulatory gap lead -> Interception of counterfeit ophthalmic injectables -> The inspection and cold-chain oversight deficit -> Ministry directives and parallel retail risks -> Pointed accountability close on enforcement harmonization.",
       "source": "https://kenyans.co.ke/news/127453-pharmaceutical-society-kenya-calls-tighter-pharmacy-regulations",
       "published_at": "2026-09-30T05:02:00Z"
+    },
+    {
+      "title": "Kibera Rail Overhaul Fast-Tracked as AFCON Transit Plan Cuts Through High-Density Belt",
+      "angle": "Focusing on how the high-stakes AFCON transit link forces a major pedestrian safety and dual-track infrastructure transformation through Kibera's high-density corridors.",
+      "angle_type": "practical change",
+      "opening": "Practical transformation lead centered on localized rail safety and corridor expansion through informal settlements.",
+      "structure": "Kibera safety corridor lead -> Infrastructure scope (13.3km upgrade & 1.3km bypass) -> Station & pedestrian crossing mechanics -> Stadium readiness countdown -> Forward operational test window.",
+      "source": "https://kenyans.co.ke/news/127457-talanta-stadium-gets-new-transport-link-kenya-railways-expands-network",
+      "published_at": "2026-09-30T06:01:46Z"
     }
   ]
 }
