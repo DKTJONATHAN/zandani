@@ -735,10 +735,10 @@
     "b0950963d19b51e6191c7abc9eec8d3b",
     "dfa88cfcfdce6796aeae619e5899fd1d",
     "9d09902159b1ca6c94f4cf389801c684",
-    "94167f65ae3e78da0171806fdf240704"
+    "94167f65ae3e78da0171806fdf240704",
+    "5536ad0a6f1af65623e642ceaac52d78"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
@@ -767,7 +767,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1087,7 +1088,8 @@
     "https://kenyans.co.ke/news/127453-pharmaceutical-society-kenya-calls-tighter-pharmacy-regulations",
     "https://kenyans.co.ke/news/127457-talanta-stadium-gets-new-transport-link-kenya-railways-expands-network",
     "https://kenyans.co.ke/news/127456-eacc-investigator-christine-ombaka-wins-global-public-sector-award",
-    "https://kenyans.co.ke/news/127460-education-stakeholders-reject-proposed-student-loan-repayment-deadline"
+    "https://kenyans.co.ke/news/127460-education-stakeholders-reject-proposed-student-loan-repayment-deadline",
+    "https://kenyans.co.ke/news/127464-rwanda-receives-first-fuel-shipment-under-new-kenya-deal"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1329,7 +1331,8 @@
     "county permit loophole inside psk push shut rogue pharmacies out supply chain",
     "kibera rail overhaul fast tracked afcon transit plan cuts through high density belt",
     "global honor eacc sleuth highlights forensic shift graft war",
-    "unemployed indebted bill month loan clock triggers backlash"
+    "unemployed indebted bill month loan clock triggers backlash",
+    "kpc mombasa port lock 500 000m annual fuel flow rwanda g2g deal goes live"
   ],
   "topic_keys": [
     "news tracker",
@@ -2778,6 +2781,15 @@
       "structure": "Statutory recovery mechanics lead -> Institutional overhaul context (HELB transition) -> Western Kenya public participation evidence -> Specific amendment proposals on employment triggers and payroll caps -> Forward legislative outlook.",
       "source": "https://kenyans.co.ke/news/127460-education-stakeholders-reject-proposed-student-loan-repayment-deadline",
       "published_at": "2026-09-30T07:01:40Z"
+    },
+    {
+      "title": "KPC, Mombasa Port Lock in 500,000m\u00b3 Annual Fuel Flow as Rwanda G2G Deal Goes Live",
+      "angle": "The operational and transit volume windfall for Kenya's pipeline and port infrastructure, tracking how extended storage and bulk throughput commitments convert regional diplomacy into steady transit revenue.",
+      "angle_type": "money",
+      "opening": "Attribution-led operational impact opening detailing how the bilateral cargo arrival converts state storage and pipeline networks into dedicated transit corridors.",
+      "structure": "Operational throughput lead -> Cargo verification and bilateral reception -> Logistics and storage mechanics -> Port and terminal throughput capacity -> Forward operational schedule.",
+      "source": "https://kenyans.co.ke/news/127464-rwanda-receives-first-fuel-shipment-under-new-kenya-deal",
+      "published_at": "2026-09-30T08:01:42Z"
     }
   ]
 }
