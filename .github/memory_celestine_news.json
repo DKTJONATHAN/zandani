@@ -742,10 +742,10 @@
     "d8ef82d7a406d1fda5d72a3347cc2b2f",
     "2576f50137937e9e32db57af58adcdf0",
     "d2fa4139f73fd95be4161f7f01d7bfea",
-    "0169c4c790988889ebd3d03529429aa4"
+    "0169c4c790988889ebd3d03529429aa4",
+    "b23278566e147a592f7e248eae5dbc24"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -774,7 +774,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1101,7 +1102,8 @@
     "https://kenyans.co.ke/news/127471-wamuchomba-calls-school-buses-be-given-priority-roads",
     "https://kenyans.co.ke/news/127474-ntsa-reveals-most-registered-vehicle-types-after-elogbook-rollout",
     "https://kenyans.co.ke/news/127477-tribunal-declares-orpp-rejection-linda-mwananchi-name-unlawful",
-    "https://kenyans.co.ke/news/127479-museveni-says-uganda-will-pursue-small-oil-refinery-uganda"
+    "https://kenyans.co.ke/news/127479-museveni-says-uganda-will-pursue-small-oil-refinery-uganda",
+    "https://kenyans.co.ke/news/127480-uon-beats-ku-retain-position-top-university-kenya"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1350,7 +1352,8 @@
     "wamuchomba pushes elevate school buses vip road priority status",
     "ntsa logs 207 259 vehicles court ordered import window overhaul takes effect",
     "tribunal sets day deadline orpp striking down linda mwananchi name ban",
-    "lamu breaks ground mega refinery museveni revives uganda solo hoima plans"
+    "lamu breaks ground mega refinery museveni revives uganda solo hoima plans",
+    "research deficit top universities remain anchored global bottom"
   ],
   "topic_keys": [
     "news tracker",
@@ -2862,6 +2865,15 @@
       "structure": "Regional friction lead -> Museveni's Hoima refinery parameters -> Historical context of regional talks and Tanga -> Economic rationale of non-export crude processing -> Closing on unresolved tripartite discussions.",
       "source": "https://kenyans.co.ke/news/127479-museveni-says-uganda-will-pursue-small-oil-refinery-uganda",
       "published_at": "2026-09-30T13:27:30Z"
+    },
+    {
+      "title": "The Research Deficit: Why Kenya\u2019s Top Universities Remain Anchored at the Global Bottom",
+      "angle": "The severe structural and funding deficits in research and industry engagement that keep Kenya's premier universities anchored at the bottom of global tables, contrasting sharply with South Africa's climbing institutions.",
+      "angle_type": "institutional pressure",
+      "opening": "A analytical opening focusing on the systemic performance gap between domestic prestige and global academic marginalization.",
+      "structure": "Global standing overview -> Granular score breakdown (research/teaching deficit) -> The 'Reporter' status bottleneck -> Continental comparison (South Africa's ascent) -> Systemic challenges looking ahead.",
+      "source": "https://kenyans.co.ke/news/127480-uon-beats-ku-retain-position-top-university-kenya",
+      "published_at": "2026-09-30T14:02:13Z"
     }
   ]
 }
