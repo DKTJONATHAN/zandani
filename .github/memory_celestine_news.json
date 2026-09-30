@@ -738,10 +738,10 @@
     "94167f65ae3e78da0171806fdf240704",
     "5536ad0a6f1af65623e642ceaac52d78",
     "4fbb80c5955bb580d9697fde5b6edc95",
-    "db390efd594e94ddbe09dafa05f9bd18"
+    "db390efd594e94ddbe09dafa05f9bd18",
+    "d8ef82d7a406d1fda5d72a3347cc2b2f"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
@@ -770,7 +770,8 @@
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1093,7 +1094,8 @@
     "https://kenyans.co.ke/news/127460-education-stakeholders-reject-proposed-student-loan-repayment-deadline",
     "https://kenyans.co.ke/news/127464-rwanda-receives-first-fuel-shipment-under-new-kenya-deal",
     "https://kenyans.co.ke/news/127466-epra-names-edward-mwirigi-kinyua-new-dg-after-daniel-kiptoo-resignation",
-    "https://kenyans.co.ke/news/127469-court-restricts-use-funds-under-ruto-sakaja-nairobi-deal"
+    "https://kenyans.co.ke/news/127469-court-restricts-use-funds-under-ruto-sakaja-nairobi-deal",
+    "https://kenyans.co.ke/news/127471-wamuchomba-calls-school-buses-be-given-priority-roads"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1338,7 +1340,8 @@
     "unemployed indebted bill month loan clock triggers backlash",
     "kpc mombasa port lock 500 000m annual fuel flow rwanda g2g deal goes live",
     "clean sweep energy desk petroleum insider takes helm epra",
-    "high court puts ruto sakaja nairobi pact under assembly budget lock"
+    "high court puts ruto sakaja nairobi pact under assembly budget lock",
+    "wamuchomba pushes elevate school buses vip road priority status"
   ],
   "topic_keys": [
     "news tracker",
@@ -2814,6 +2817,15 @@
       "structure": "Legislative lock lead -> Factual scope of court directives -> Mandated disclosure breakdown for Sakaja and Mudavadi -> Constitutional safeguards (Article 187 & 202) -> Road to February 2027 full hearing.",
       "source": "https://kenyans.co.ke/news/127469-court-restricts-use-funds-under-ruto-sakaja-nairobi-deal",
       "published_at": "2026-09-30T10:01:47Z"
+    },
+    {
+      "title": "Wamuchomba Pushes to Elevate School Buses to VIP Road Priority Status",
+      "angle": "The operational and regulatory conflict between existing NTSA school transport compliance mechanisms (flashing lights and mechanical stop arms) and the broader legal definitions of emergency or privileged right-of-way under the Traffic Act.",
+      "angle_type": "practical change",
+      "opening": "Statutory-friction lead focusing on the legal gap between current NTSA equipment mandates and formal road priority designations.",
+      "structure": "Statutory friction lead -> Parliament debate & transit delays -> Legal comparison with Rule 83 traffic rules -> NTSA school transport rule mechanics -> Forward implementation outlook.",
+      "source": "https://kenyans.co.ke/news/127471-wamuchomba-calls-school-buses-be-given-priority-roads",
+      "published_at": "2026-09-30T11:01:45Z"
     }
   ]
 }
