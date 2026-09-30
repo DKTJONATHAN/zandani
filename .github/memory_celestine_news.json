@@ -737,10 +737,10 @@
     "9d09902159b1ca6c94f4cf389801c684",
     "94167f65ae3e78da0171806fdf240704",
     "5536ad0a6f1af65623e642ceaac52d78",
-    "4fbb80c5955bb580d9697fde5b6edc95"
+    "4fbb80c5955bb580d9697fde5b6edc95",
+    "db390efd594e94ddbe09dafa05f9bd18"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -769,7 +769,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1091,7 +1092,8 @@
     "https://kenyans.co.ke/news/127456-eacc-investigator-christine-ombaka-wins-global-public-sector-award",
     "https://kenyans.co.ke/news/127460-education-stakeholders-reject-proposed-student-loan-repayment-deadline",
     "https://kenyans.co.ke/news/127464-rwanda-receives-first-fuel-shipment-under-new-kenya-deal",
-    "https://kenyans.co.ke/news/127466-epra-names-edward-mwirigi-kinyua-new-dg-after-daniel-kiptoo-resignation"
+    "https://kenyans.co.ke/news/127466-epra-names-edward-mwirigi-kinyua-new-dg-after-daniel-kiptoo-resignation",
+    "https://kenyans.co.ke/news/127469-court-restricts-use-funds-under-ruto-sakaja-nairobi-deal"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1335,7 +1337,8 @@
     "global honor eacc sleuth highlights forensic shift graft war",
     "unemployed indebted bill month loan clock triggers backlash",
     "kpc mombasa port lock 500 000m annual fuel flow rwanda g2g deal goes live",
-    "clean sweep energy desk petroleum insider takes helm epra"
+    "clean sweep energy desk petroleum insider takes helm epra",
+    "high court puts ruto sakaja nairobi pact under assembly budget lock"
   ],
   "topic_keys": [
     "news tracker",
@@ -2802,6 +2805,15 @@
       "structure": "Regulatory clean-sweep lead -> Parastatal appointment breakdown -> EPRA's internal technical succession -> Context of DCI investigations and exit of previous executive -> Broad operational context under new board leadership.",
       "source": "https://kenyans.co.ke/news/127466-epra-names-edward-mwirigi-kinyua-new-dg-after-daniel-kiptoo-resignation",
       "published_at": "2026-09-30T09:01:49Z"
+    },
+    {
+      "title": "High Court Puts Ruto-Sakaja Nairobi Pact Under Assembly Budget Lock",
+      "angle": "Focus on the strict parliamentary/assembly purse strings and compulsory executive disclosure orders that convert a high-level political pact into a legally audited, legislative-supervised process.",
+      "angle_type": "accountability",
+      "opening": "Governance-control lead focusing on legislative oversight enforcement over executive spending.",
+      "structure": "Legislative lock lead -> Factual scope of court directives -> Mandated disclosure breakdown for Sakaja and Mudavadi -> Constitutional safeguards (Article 187 & 202) -> Road to February 2027 full hearing.",
+      "source": "https://kenyans.co.ke/news/127469-court-restricts-use-funds-under-ruto-sakaja-nairobi-deal",
+      "published_at": "2026-09-30T10:01:47Z"
     }
   ]
 }
