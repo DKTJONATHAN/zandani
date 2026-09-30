@@ -736,10 +736,10 @@
     "dfa88cfcfdce6796aeae619e5899fd1d",
     "9d09902159b1ca6c94f4cf389801c684",
     "94167f65ae3e78da0171806fdf240704",
-    "5536ad0a6f1af65623e642ceaac52d78"
+    "5536ad0a6f1af65623e642ceaac52d78",
+    "4fbb80c5955bb580d9697fde5b6edc95"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
@@ -768,7 +768,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1089,7 +1090,8 @@
     "https://kenyans.co.ke/news/127457-talanta-stadium-gets-new-transport-link-kenya-railways-expands-network",
     "https://kenyans.co.ke/news/127456-eacc-investigator-christine-ombaka-wins-global-public-sector-award",
     "https://kenyans.co.ke/news/127460-education-stakeholders-reject-proposed-student-loan-repayment-deadline",
-    "https://kenyans.co.ke/news/127464-rwanda-receives-first-fuel-shipment-under-new-kenya-deal"
+    "https://kenyans.co.ke/news/127464-rwanda-receives-first-fuel-shipment-under-new-kenya-deal",
+    "https://kenyans.co.ke/news/127466-epra-names-edward-mwirigi-kinyua-new-dg-after-daniel-kiptoo-resignation"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1332,7 +1334,8 @@
     "kibera rail overhaul fast tracked afcon transit plan cuts through high density belt",
     "global honor eacc sleuth highlights forensic shift graft war",
     "unemployed indebted bill month loan clock triggers backlash",
-    "kpc mombasa port lock 500 000m annual fuel flow rwanda g2g deal goes live"
+    "kpc mombasa port lock 500 000m annual fuel flow rwanda g2g deal goes live",
+    "clean sweep energy desk petroleum insider takes helm epra"
   ],
   "topic_keys": [
     "news tracker",
@@ -2790,6 +2793,15 @@
       "structure": "Operational throughput lead -> Cargo verification and bilateral reception -> Logistics and storage mechanics -> Port and terminal throughput capacity -> Forward operational schedule.",
       "source": "https://kenyans.co.ke/news/127464-rwanda-receives-first-fuel-shipment-under-new-kenya-deal",
       "published_at": "2026-09-30T08:01:42Z"
+    },
+    {
+      "title": "Clean Sweep at Energy Desk as Petroleum Insider Takes Helm at EPRA",
+      "angle": "Framing the appointments as a multi-agency leadership reset designed to rebuild administrative and regulatory stability at EPRA following criminal investigations into substandard fuel imports.",
+      "angle_type": "accountability",
+      "opening": "Institutional reset opening highlighting how an internal technical director is tasked with restoring regulatory credibility after fuel-quality probes.",
+      "structure": "Regulatory clean-sweep lead -> Parastatal appointment breakdown -> EPRA's internal technical succession -> Context of DCI investigations and exit of previous executive -> Broad operational context under new board leadership.",
+      "source": "https://kenyans.co.ke/news/127466-epra-names-edward-mwirigi-kinyua-new-dg-after-daniel-kiptoo-resignation",
+      "published_at": "2026-09-30T09:01:49Z"
     }
   ]
 }
