@@ -747,10 +747,10 @@
     "7dcf0f321a9f7a9a2ba570b0cbc65be0",
     "ee743b1f6e1209d8afcef1bdced13521",
     "6dd8c9fe7e44c5a96f88064023c6dc3a",
-    "ac32e401e5224392196be9ed655bf0fd"
+    "ac32e401e5224392196be9ed655bf0fd",
+    "0c089b1a0c951a6ab69881e1ba02c3c0"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -779,7 +779,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1111,7 +1112,8 @@
     "https://kenyans.co.ke/news/127481-303-gatoto-learners-get-lifeline-ahead-2026-kpsea-kjsea-exams",
     "https://kenyans.co.ke/news/127483-kra-issues-reminder-over-new-excise-duty-betting-juices-and-other-products",
     "https://kenyans.co.ke/news/127486-kenyan-cabin-crew-members-involved-flydubai-plane-emergency-saudi-arabia",
-    "https://kenyans.co.ke/news/127485-jkuat-vc-proposes-crickets-and-snails-alternative-foods-kenyans"
+    "https://kenyans.co.ke/news/127485-jkuat-vc-proposes-crickets-and-snails-alternative-foods-kenyans",
+    "https://kenyans.co.ke/news/127484-police-ntsa-train-japan-digital-speed-cameras-traffic-management"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1365,7 +1367,8 @@
     "strict knec registry locks push court dual custody exam truce gatoto",
     "kra finance act 2026 rollout penalizes imported sugar wagering while shelving bottled water tax",
     "mid air cockpit attack triggers emergency diversion flydubai dubai tel aviv route",
-    "beyond maize imports jkuat pushes snails crickets bio seedlings farm balance sheets"
+    "beyond maize imports jkuat pushes snails crickets bio seedlings farm balance sheets",
+    "automation hunt japan south korea are funding end nairobi manual traffic police"
   ],
   "topic_keys": [
     "news tracker",
@@ -2922,6 +2925,15 @@
       "structure": "Institutional diversification lead -> Trade fair showcase mechanics (crickets, snails, tissue culture) -> Commercialization and seedling sales details -> Macro food security context (Zambia maize imports vs farm diversification) -> Adoption hurdles and forward edge.",
       "source": "https://kenyans.co.ke/news/127485-jkuat-vc-proposes-crickets-and-snails-alternative-foods-kenyans",
       "published_at": "2026-09-30T18:03:42Z"
+    },
+    {
+      "title": "Automation Hunt: How Japan and South Korea Are Funding the End of Nairobi\u2019s Manual Traffic Police",
+      "angle": "The operational convergence of Japanese training and South Korean infrastructure funding to phase out manual traffic policing in Nairobi in favor of AI-driven automation.",
+      "angle_type": "practical change",
+      "opening": "An operational-shift opening contrasting the physical training of officers abroad with the digital infrastructure being laid on Nairobi's streets.",
+      "structure": "Operational-shift lead -> Detailed breakdown of the Tokyo training -> Infrastructure funding and South Korean connection -> Intersection deployment timeline (Phase 1 to Phase 3) -> Human-to-digital transition conclusion.",
+      "source": "https://kenyans.co.ke/news/127484-police-ntsa-train-japan-digital-speed-cameras-traffic-management",
+      "published_at": "2026-09-30T18:56:19Z"
     }
   ]
 }
