@@ -107,7 +107,8 @@
     "6aca22cc58e5865fa70cb8e46c393caeffee5237d88ac034d38d5e379cde821b",
     "c48f24724dbcf9b463e93dfea62f11d063202a2aae9763ec13c32cb74769997e",
     "1069517c9447b1095e6f4e8f65046b37d90dd555533f54826218cc9834c0aec7",
-    "1ae2d806604c99e4a8caf9c89f4267e047c3c935a927addd5f38a9b6fb519e4e"
+    "1ae2d806604c99e4a8caf9c89f4267e047c3c935a927addd5f38a9b6fb519e4e",
+    "83aa085a9de271bb361d999d5ef9e8a5a270f8a239379de7acd8e3071a785eb2"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -217,17 +218,10 @@
     "https://www.ghafla.co.ke/mummie-francie-welcomes-second-child-celebrates-birth-of-baby-girl/",
     "https://www.ghafla.co.ke/tom-daktari-celebrates-new-jetour-suv-purchase/",
     "https://www.ghafla.co.ke/big-blow-for-kalonzo-as-gachaguas-dcp-says-no-to-ukombozi-alliance/",
-    "https://www.ghafla.co.ke/nairobi-needs-tested-leadership-babu-owino-defends-his-reason-for-ousting-sakaja-as-nairobi-governor/"
+    "https://www.ghafla.co.ke/nairobi-needs-tested-leadership-babu-owino-defends-his-reason-for-ousting-sakaja-as-nairobi-governor/",
+    "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-across-several-counties-on-september-30/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018How Do I Look?\u2019: Edwin Sifuna Dodges the Babu Owino Question With a Vanity Check",
-      "angle": "Sifuna turning an uncomfortable interrogation over his fracturing partnership with Babu Owino into a cheeky aesthetic check, using personal charm to bypass deep backstage fractures.",
-      "angle_type": "personality deflection and public spectacle",
-      "opening": "Personality lead highlighting Sifuna's vanity-check deflection when confronted with questions about Babu Owino.",
-      "structure": "Lead on Sifuna's Karen spectacle, unpack the specific evasion regarding Babu Owino, detail the backstage fallout over political parties and solo ambitions, and close on the unresolved friction.",
-      "source": "https://www.ghafla.co.ke/sifuna-dismisses-claims-of-linda-mwananchi-collapse-amid-internal-tensions/"
-    },
     {
       "title": "Margaret Nyakang\u2019o Moves to Cut Off State-Funded Fleets and Fuel Powering 2027 Campaign Tours",
       "angle": "Focusing on the personality-driven enforcement crackdown targeting the lifestyle and logistical luxuries of early campaigners\u2014specifically the covert diversion of government convoys, fuel vouchers, and staff to fuel partisan tours under the cover of routine county development.",
@@ -1019,6 +1013,14 @@
       "opening": "Personality-centric lead focusing on Babu Owino's brand transition from street-level activist to certified policy administrative candidate.",
       "structure": "Brand positioning -> The Infotrak scorecard evidence -> The KSh 80B Sakaja deal critique -> Campus pedigree and ethnic voter claims -> Structural municipal outlook.",
       "source": "https://www.ghafla.co.ke/nairobi-needs-tested-leadership-babu-owino-defends-his-reason-for-ousting-sakaja-as-nairobi-governor/"
+    },
+    {
+      "title": "Serena Hotel, Diplomatic Enclaves, and Westlands Luxury Hubs Plunged Into Kenya Power's Wednesday Maintenance List",
+      "angle": "Reframing the utility maintenance around its impact on Nairobi's premier diplomatic, corporate, and luxury hospitality districts, highlighting how the city's elite enclaves must adapt to a temporary nine-hour blackout.",
+      "angle_type": "high-profile lifestyle and premium district disruption",
+      "opening": "Start directly with the high-profile institutions and diplomatic missions in Nairobi's most exclusive neighborhoods facing a synchronized operational pause.",
+      "structure": "Nairobi luxury and diplomatic core impact -> Westlands corporate and retail hubs -> Mombasa Road industrial players -> High-profile regional targets (Judge Mukunya in Nyeri, Kibos Industries in Kisumu) -> Broad regional context and operational conclusion.",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-across-several-counties-on-september-30/"
     }
   ],
   "style_history": [
