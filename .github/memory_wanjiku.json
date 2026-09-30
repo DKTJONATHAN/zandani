@@ -111,7 +111,8 @@
     "83aa085a9de271bb361d999d5ef9e8a5a270f8a239379de7acd8e3071a785eb2",
     "599c25184790095899e9c66e82f70ee8216408eb853bdb4c9f6c4ade775f4356",
     "40c20b0b2679463e2a884d70be75062845cfaf74fe972844e2967ba1b8e6ff74",
-    "c4006469eb93d392eacda8c451fc8bda707a8b60c7b460385e3ee964ff4382a6"
+    "c4006469eb93d392eacda8c451fc8bda707a8b60c7b460385e3ee964ff4382a6",
+    "f82351ed683ddfe5d07e97ba5373a430b1c78329730c4dfcbd25d4ae1d61a19f"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -225,17 +226,10 @@
     "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-across-several-counties-on-september-30/",
     "https://www.ghafla.co.ke/abel-mutua-breaks-down-recalling-brother-raphos-final-years/",
     "https://www.ghafla.co.ke/ruto-and-dangote-break-ground-for-sh2-2-trillion-lamu-oil-refinery/",
-    "https://www.ghafla.co.ke/dennis-karuri-opens-up-about-grief-career-struggles-and-his-journey-into-beauty/"
+    "https://www.ghafla.co.ke/dennis-karuri-opens-up-about-grief-career-struggles-and-his-journey-into-beauty/",
+    "https://www.ghafla.co.ke/pritty-vishy-questions-georgina-njengas-instagram-posts-amid-emotional-messages/"
   ],
   "published_angles": [
-    {
-      "title": "Inside the Bedside Shift as 270,000 Newborns Enter Kenya\u2019s Digital E-Birth Registry in 60 Days",
-      "angle": "Focusing on the operational shift inside delivery rooms and health facilities, where instant electronic logging at point-of-care replaces manual paper trails for new parents.",
-      "angle_type": "practical change and operational transition",
-      "opening": "Bedside operational lead highlighting the practical end of manual birth notification paperwork in maternity wards.",
-      "structure": "Bedside administrative shift -> numerical scale of the 60-day rollout -> technical integration between healthcare facilities and civil registries -> downstream benefits for national identity indexing and maternal planning.",
-      "source": "https://www.ghafla.co.ke/over-270000-newborns-registered-in-two-months-as-e-birth-system-gains-nationwide-momentum/"
-    },
     {
       "title": "Trevor Ombija\u2019s Podium Drama Backfires After Boss Exposes Campaign-Trail \u2018Mistake\u2019",
       "angle": "Focusing on how Ombija's campaign-trail attempt to frame himself as a victim of political persecution backfired when RMS boss Linus Kaikai called out the claim, forcing the anchor to privately admit it was an off-the-cuff error.",
@@ -1027,6 +1021,14 @@
       "opening": "Personality lead highlighting the dramatic divergence between his university-era trajectory and his current beauty empire.",
       "structure": "Academic background and government office disillusionment -> The devastating impact of his mother's death and mental health crisis -> The accidental introduction to makeup via modeling -> The 'born again' realization and professional payoff.",
       "source": "https://www.ghafla.co.ke/dennis-karuri-opens-up-about-grief-career-struggles-and-his-journey-into-beauty/"
+    },
+    {
+      "title": "Unfiltered or Compromised? Georgina Njenga\u2019s Dark Humor Triggers Hack Speculation from Pritty Vishy",
+      "angle": "Analyzing the tension between raw, dark-humored creator vulnerability and peer-led skepticism, framing the incident within Georgina\u2019s broader, documented timeline of setting personal and spiritual boundaries in 2026.",
+      "angle_type": "creator culture and digital vulnerability",
+      "opening": "Personality lead focusing directly on Georgina Njenga's dark-humored existential posts and the immediate skepticism they triggered from fellow creator Pritty Vishy.",
+      "structure": "Immediate post analysis -> Peer reaction and hack speculation -> Contextualizing with the September mall incident and spiritual boundaries -> Retrospective on her July 'starting over' milestone -> Unresolved status of the account security.",
+      "source": "https://www.ghafla.co.ke/pritty-vishy-questions-georgina-njengas-instagram-posts-amid-emotional-messages/"
     }
   ],
   "style_history": [
