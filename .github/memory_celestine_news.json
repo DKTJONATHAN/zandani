@@ -751,10 +751,10 @@
     "0c089b1a0c951a6ab69881e1ba02c3c0",
     "f1ae8bcdf95d2dc58807e55446373cf6",
     "6e24b08f470f0c1eb44b47cf86d0b7a8",
-    "4694e45c9aa1720c2ca6d5debc17ecdf"
+    "4694e45c9aa1720c2ca6d5debc17ecdf",
+    "085ab6471edbc84ae03205c39abbd208"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Desk Take",
@@ -783,7 +783,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1119,7 +1120,8 @@
     "https://kenyans.co.ke/news/127484-police-ntsa-train-japan-digital-speed-cameras-traffic-management",
     "https://kenyans.co.ke/news/127487-zimbabwe-businessman-and-ruto-ally-wicknell-chivayo-dies-helicopter-crash",
     "https://kenyans.co.ke/news/127489-ministry-seeks-public-views-ksh-22b-plan-register-348-community-lands",
-    "https://kenyans.co.ke/news/127491-cbk-moves-make-bank-and-mobile-money-transfers-cheaper"
+    "https://kenyans.co.ke/news/127491-cbk-moves-make-bank-and-mobile-money-transfers-cheaper",
+    "https://kenyans.co.ke/news/127493-jubilee-threatens-expel-ngunjiri-wambugu-issues-7-day-ultimatum"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1377,7 +1379,8 @@
     "automation hunt japan south korea are funding end nairobi manual traffic police",
     "chivayo crash ends flamboyant tycoon direct state house pipeline",
     "state bets ksh per parcel ksh plan clear community land backlog",
-    "cbk instant switch policy mandates technical openness but leaves transfer fees uncapped"
+    "cbk instant switch policy mandates technical openness but leaves transfer fees uncapped",
+    "jubilee draws hard line against independent mobilization wambugu faces expulsion clock"
   ],
   "topic_keys": [
     "news tracker",
@@ -2970,6 +2973,15 @@
       "structure": "Technical mandate lead -> Infrastructure & Open API mechanics -> Non-bank access & auditing provisions -> Fee structure & pricing discretion gap -> Forward regulatory outlook.",
       "source": "https://kenyans.co.ke/news/127491-cbk-moves-make-bank-and-mobile-money-transfers-cheaper",
       "published_at": "2026-10-01T07:02:11Z"
+    },
+    {
+      "title": "Jubilee Draws Hard Line Against Independent Mobilization as Wambugu Faces Expulsion Clock",
+      "angle": "The operational and constitutional collision between parallel organizing platforms and centralized party machinery ahead of 2027, focusing on the enforcement mechanisms used by party leadership to police digital communication and local mobilization.",
+      "angle_type": "institutional pressure",
+      "opening": "Institutional pressure lead focusing on the enforcement deadline and the centralization of party communications.",
+      "structure": "Deadline and disciplinary framework lead -> Granular breakdown of charges (Aspirants Forum, logo usage, email capture) -> Leadership authority friction (Matiang'i and Ole Kenta directives) -> Compliance deadline details -> Unresolved response stance.",
+      "source": "https://kenyans.co.ke/news/127493-jubilee-threatens-expel-ngunjiri-wambugu-issues-7-day-ultimatum",
+      "published_at": "2026-10-01T08:02:42Z"
     }
   ]
 }
