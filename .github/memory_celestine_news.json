@@ -756,10 +756,10 @@
     "ce2a76e67c83052208211881f7e13ed7",
     "9a120cf667de3c5085b7c468ac293b66",
     "25f6e4da237cf59dcb12fde8a4fbe370",
-    "6846896c38d9e2c89edad26226239b36"
+    "6846896c38d9e2c89edad26226239b36",
+    "105ab95115e0be178d24f67e25058206"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -788,7 +788,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1129,7 +1130,8 @@
     "https://kenyans.co.ke/news/127496-national-employment-authority-warns-kenyans-over-scammers-using-fake-calls",
     "https://kenyans.co.ke/news/127498-ruto-names-four-towns-set-railway-stations-kenya-tanzania-line",
     "https://kenyans.co.ke/news/127501-iebc-decentralises-election-inclusion-committees-counties-ahead-2027-polls",
-    "https://kenyans.co.ke/news/127506-kenya-met-warns-heavy-october-rains-and-flooding-several-areas"
+    "https://kenyans.co.ke/news/127506-kenya-met-warns-heavy-october-rains-and-flooding-several-areas",
+    "https://kenyans.co.ke/news/127521-dci-arrests-13-suspects-international-fake-gold-and-dollar-syndicate"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1392,7 +1394,8 @@
     "nea impersonation alert signals escalation direct dial recruitment scams",
     "two tracks taveta inside parallel ksh10b rail bet tanzania border",
     "grassroots shift iebc abandons nairobi centric desks push solve voter deficit",
-    "october deluge threatens rural transport arteries short rains open across"
+    "october deluge threatens rural transport arteries short rains open across",
+    "nairobi gold scammers weaponized state security lure foreign targets"
   ],
   "topic_keys": [
     "news tracker",
@@ -3030,6 +3033,15 @@
       "structure": "Lead on transport and supply chain risk -> Regional onset schedule and rainfall distribution -> Infrastructure vulnerability and transit bottlenecks -> Agricultural paradox (moisture gains vs produce transit/crop risks) -> Northern heat anomaly and disease vectors.",
       "source": "https://kenyans.co.ke/news/127506-kenya-met-warns-heavy-october-rains-and-flooding-several-areas",
       "published_at": "2026-10-01T11:02:28Z"
+    },
+    {
+      "title": "How Nairobi\u2019s Gold Scammers Weaponized State Security to Lure Foreign Targets",
+      "angle": "The exploitation of state security infrastructure\u2014specifically active-duty SGB officers and forged government transit credentials\u2014to build a deceptive layer of official legitimacy for international victims arriving in Kenya.",
+      "angle_type": "institutional pressure",
+      "opening": "An operational focus on the systemic vulnerability of police personnel being rented out to provide safe passage and credibility to international fraudsters.",
+      "structure": "Operational compromise lead -> Logistics of the JKIA escort and fake government decals -> Breakdown of physical evidence recovered at the hideout -> Profile of the transnational syndicate members -> Systemic implications for elite police units.",
+      "source": "https://kenyans.co.ke/news/127521-dci-arrests-13-suspects-international-fake-gold-and-dollar-syndicate",
+      "published_at": "2026-10-01T15:02:57Z"
     }
   ]
 }
