@@ -120,7 +120,8 @@
     "a32808cf8eefb8eaa5aefea4506a0be3adbda06269f6d4ccc19930ea3b352810",
     "8b1cd63a81fc460e092fb227c78f4b009911f96f73830c2e726ddc26c42f878a",
     "9afd196001f2c0cc3376432d641268be70b7c773e2301a1831ee88ea6e861ffc",
-    "a70b0008f831d5a1d2b7fa19d1f59b99daea9faf2682a246d3e0abf80ad47033"
+    "a70b0008f831d5a1d2b7fa19d1f59b99daea9faf2682a246d3e0abf80ad47033",
+    "df69f1e1298e4411fdd17f186deac8c9c5f51b3cc56114f921abd85574a7b365"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -243,17 +244,10 @@
     "https://www.ghafla.co.ke/bodies-of-six-wicknell-chivayo-helicopter-crash-victims-removed-after-18-hours/",
     "https://www.ghafla.co.ke/chivayo-aide-recounts-pilots-final-radio-calls-before-fatal-helicopter-crash/",
     "https://www.ghafla.co.ke/mudavadis-2027-manifesto-peace-integrity-growth/",
-    "https://www.ghafla.co.ke/dennis-ombachi-turns-high-school-boarding-meals-into-comedy-but-son-gives-unexpected-verdict/"
+    "https://www.ghafla.co.ke/dennis-ombachi-turns-high-school-boarding-meals-into-comedy-but-son-gives-unexpected-verdict/",
+    "https://www.ghafla.co.ke/early-2027-survey-ruto-maintains-lead-as-sifuna-surges-into-second-spot/"
   ],
   "published_angles": [
-    {
-      "title": "Sean Andrew\u2019s \u2018English-Only\u2019 Bubble: Why Kibaki\u2019s Grandson Avoided Kiswahili \u2018Like the Plague\u2019",
-      "angle": "Framing the confession as a revealing look into the linguistic and cultural insulation of Nairobi's political dynasty heirs, contrasting the grandfather's bilingual national legacy with the grandson's self-admitted 'English-only' bubble.",
-      "angle_type": "personality-driven cultural reflection",
-      "opening": "Start with Sean Andrew's social position and move directly to his candid admissions about language avoidance.",
-      "structure": "Introduce the elite linguistic bubble -> Break down the 'avoided like the plague' Kiswahili quote -> Examine his struggle with Kikuyu and his 'sorry' observation -> Analyze the radio presenter's defense versus the public debate.",
-      "source": "https://www.ghafla.co.ke/mwai-kibakis-grandson-sean-andrew-admits-avoiding-to-learn-kiswahili/"
-    },
     {
       "title": "Nadia Mukami Keeps the Hits Moving With Arrow Bwoy While Drawing the Line on Romance",
       "angle": "Focusing on the deliberate commercial separation Nadia Mukami has enforced: keeping the collaborative hitmaker brand alive for business while firmly closing the door on a personal reconciliation.",
@@ -1045,6 +1039,14 @@
       "opening": "Personality lead focusing directly on the failure of Dennis Ombachi's culinary deterrent on his son.",
       "structure": "The parenting motive -> The creation of the 'traumatic' meal -> The backfired reaction -> Peer nostalgia and the generational gap.",
       "source": "https://www.ghafla.co.ke/dennis-ombachi-turns-high-school-boarding-meals-into-comedy-but-son-gives-unexpected-verdict/"
+    },
+    {
+      "title": "Edwin Sifuna Vaults Over Kalonzo and Gachagua in 2027 National Popularity Shock",
+      "angle": "Framing the survey around Edwin Sifuna's dramatic disruption of the opposition pecking order, specifically how the vocal Nairobi senator decisively leapfrogged seasoned political heavyweights Kalonzo Musyoka, Rigathi Gachagua, and Fred Matiang'i to command the runner-up slot.",
+      "angle_type": "political celebrity disruption and pecking-order eclipse",
+      "opening": "Personality lead opening directly on Edwin Sifuna's sudden vault over veteran establishment figures into second place.",
+      "structure": "Personality hook -> Breakdown of the titan pecking order -> Contrast between Sifuna's personal rating and ODM's lagging party standing -> The national sentiment and policy friction lines under Ruto",
+      "source": "https://www.ghafla.co.ke/early-2027-survey-ruto-maintains-lead-as-sifuna-surges-into-second-spot/"
     }
   ],
   "style_history": [
