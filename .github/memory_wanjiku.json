@@ -118,7 +118,8 @@
     "57a647d83dea835db40d264007687b4762d9890b83595c74e261411c47f721b2",
     "d3b7d014b0d030906c58edcfd58992330088a2b5c09c1a36e5f7f7ea2d5e2287",
     "a32808cf8eefb8eaa5aefea4506a0be3adbda06269f6d4ccc19930ea3b352810",
-    "8b1cd63a81fc460e092fb227c78f4b009911f96f73830c2e726ddc26c42f878a"
+    "8b1cd63a81fc460e092fb227c78f4b009911f96f73830c2e726ddc26c42f878a",
+    "9afd196001f2c0cc3376432d641268be70b7c773e2301a1831ee88ea6e861ffc"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -239,17 +240,10 @@
     "https://www.ghafla.co.ke/woman-who-predicted-zimbabwean-buinessman-wicknell-chivayos-death-goes-viral/",
     "https://www.ghafla.co.ke/joho-says-coast-region-stands-firmly-behind-rutos-leadership/",
     "https://www.ghafla.co.ke/bodies-of-six-wicknell-chivayo-helicopter-crash-victims-removed-after-18-hours/",
-    "https://www.ghafla.co.ke/chivayo-aide-recounts-pilots-final-radio-calls-before-fatal-helicopter-crash/"
+    "https://www.ghafla.co.ke/chivayo-aide-recounts-pilots-final-radio-calls-before-fatal-helicopter-crash/",
+    "https://www.ghafla.co.ke/mudavadis-2027-manifesto-peace-integrity-growth/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018Will You Give Me Another Baby?\u2019: Terence Creative Takes a Knee for Milly Chebby at Mataha Experience",
-      "angle": "Framing the unscripted stage proposal against the couple's serious health scare, highlighting the poignant reality behind the humor months after Milly survived a life-threatening ectopic pregnancy.",
-      "angle_type": "celebrity relationship milestone and health resilience",
-      "opening": "Personality lead focusing directly on Terence Creative turning a concert stage into an unscripted family negotiation.",
-      "structure": "Stage hook and verbatim request -> the immediate viral scene -> deeper context of Chebby's 2025 medical emergency -> blended family dynamics -> forward-looking close.",
-      "source": "https://www.ghafla.co.ke/terence-creative-publicly-asks-wife-milly-chebby-for-second-child/"
-    },
     {
       "title": "Sammy Boy\u2019s Convertible Mercedes Meets Nairobi Street Reality in Boda Boda Crash",
       "angle": "Focusing on the sharp, visual collision between Sammy Boy's high-profile online luxury displays and the immediate, high-tension reality of Nairobi street traffic when his convertible Mercedes was surrounded by gathered riders after sustaining heavy front-end damage.",
@@ -1041,6 +1035,14 @@
       "opening": "Personality and scene-setting lead focusing directly on the security aide's perspective of the deteriorating radio transmissions.",
       "structure": "The routing decision via Bromley -> The cloud navigation distress call over Surrey -> The final failed destination check -> The casualty correction and official investigation status.",
       "source": "https://www.ghafla.co.ke/chivayo-aide-recounts-pilots-final-radio-calls-before-fatal-helicopter-crash/"
+    },
+    {
+      "title": "Musalia Mudavadi Takes His 2027 Campaign Pitch to Nairobi\u2019s Elite Diplomatic Cocktail Circuit",
+      "angle": "Reframing the address through Mudavadi's distinct 'gentleman politician' persona and branding strategy\u2014specifically how he bypassed the traditional noisy, dusty campaign rally to soft-launch his high-stakes 'no-goons' 2027 election pitch within the polished, high-society confines of a diplomatic cocktail reception.",
+      "angle_type": "political-celebrity branding and lifestyle framing",
+      "opening": "Personality-centric lead focusing on Mudavadi's preference for elite, curated spaces over chaotic street rallies to deliver his political directives.",
+      "structure": "Persona hook -> The diplomatic setting and the 'no-goons' contrast -> The institutional branding play (IEBC and anti-tribalism) -> The luxury-export and infrastructure lifestyle pitch (avocados, SGR, and highway dualling) -> Strategic 2027 positioning wrap-up.",
+      "source": "https://www.ghafla.co.ke/mudavadis-2027-manifesto-peace-integrity-growth/"
     }
   ],
   "style_history": [
