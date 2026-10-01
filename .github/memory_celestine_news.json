@@ -757,10 +757,10 @@
     "9a120cf667de3c5085b7c468ac293b66",
     "25f6e4da237cf59dcb12fde8a4fbe370",
     "6846896c38d9e2c89edad26226239b36",
-    "105ab95115e0be178d24f67e25058206"
+    "105ab95115e0be178d24f67e25058206",
+    "491a4c22709eb3193c45209c61f2d203"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -789,7 +789,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1131,7 +1132,8 @@
     "https://kenyans.co.ke/news/127498-ruto-names-four-towns-set-railway-stations-kenya-tanzania-line",
     "https://kenyans.co.ke/news/127501-iebc-decentralises-election-inclusion-committees-counties-ahead-2027-polls",
     "https://kenyans.co.ke/news/127506-kenya-met-warns-heavy-october-rains-and-flooding-several-areas",
-    "https://kenyans.co.ke/news/127521-dci-arrests-13-suspects-international-fake-gold-and-dollar-syndicate"
+    "https://kenyans.co.ke/news/127521-dci-arrests-13-suspects-international-fake-gold-and-dollar-syndicate",
+    "https://kenyans.co.ke/news/127523-murkomen-defends-plan-issue-ids-and-voter-cards-kenyans-uganda"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1395,7 +1397,8 @@
     "two tracks taveta inside parallel ksh10b rail bet tanzania border",
     "grassroots shift iebc abandons nairobi centric desks push solve voter deficit",
     "october deluge threatens rural transport arteries short rains open across",
-    "nairobi gold scammers weaponized state security lure foreign targets"
+    "nairobi gold scammers weaponized state security lure foreign targets",
+    "murkomen cross border push collides electoral oversight demands"
   ],
   "topic_keys": [
     "news tracker",
@@ -3042,6 +3045,15 @@
       "structure": "Operational compromise lead -> Logistics of the JKIA escort and fake government decals -> Breakdown of physical evidence recovered at the hideout -> Profile of the transnational syndicate members -> Systemic implications for elite police units.",
       "source": "https://kenyans.co.ke/news/127521-dci-arrests-13-suspects-international-fake-gold-and-dollar-syndicate",
       "published_at": "2026-10-01T15:02:57Z"
+    },
+    {
+      "title": "Murkomen\u2019s Cross-Border ID Push Collides With Electoral Oversight Demands",
+      "angle": "The administrative tension between executive diaspora inclusion mandates and the institutional oversight burden placed on the electoral agency (IEBC) to police cross-border documentation.",
+      "angle_type": "institutional pressure",
+      "opening": "An institutional-pressure opening focusing on the regulatory friction between executive diaspora policy and electoral oversight.",
+      "structure": "Institutional pressure lead -> Executive mandate and border county framing -> Opposition challenge and IEBC oversight demand -> State Department infrastructure context -> Unresolved verification friction.",
+      "source": "https://kenyans.co.ke/news/127523-murkomen-defends-plan-issue-ids-and-voter-cards-kenyans-uganda",
+      "published_at": "2026-10-01T16:12:31Z"
     }
   ]
 }
