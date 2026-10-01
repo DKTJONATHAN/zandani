@@ -117,7 +117,8 @@
     "b33cf2b29f1b3fda3492dcb87b98146a6d6326d9f38727fedb17a11574d578d3",
     "57a647d83dea835db40d264007687b4762d9890b83595c74e261411c47f721b2",
     "d3b7d014b0d030906c58edcfd58992330088a2b5c09c1a36e5f7f7ea2d5e2287",
-    "a32808cf8eefb8eaa5aefea4506a0be3adbda06269f6d4ccc19930ea3b352810"
+    "a32808cf8eefb8eaa5aefea4506a0be3adbda06269f6d4ccc19930ea3b352810",
+    "8b1cd63a81fc460e092fb227c78f4b009911f96f73830c2e726ddc26c42f878a"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -237,17 +238,10 @@
     "https://www.ghafla.co.ke/colonel-mustafa-breaks-down-while-recalling-donholm-years/",
     "https://www.ghafla.co.ke/woman-who-predicted-zimbabwean-buinessman-wicknell-chivayos-death-goes-viral/",
     "https://www.ghafla.co.ke/joho-says-coast-region-stands-firmly-behind-rutos-leadership/",
-    "https://www.ghafla.co.ke/bodies-of-six-wicknell-chivayo-helicopter-crash-victims-removed-after-18-hours/"
+    "https://www.ghafla.co.ke/bodies-of-six-wicknell-chivayo-helicopter-crash-victims-removed-after-18-hours/",
+    "https://www.ghafla.co.ke/chivayo-aide-recounts-pilots-final-radio-calls-before-fatal-helicopter-crash/"
   ],
   "published_angles": [
-    {
-      "title": "The 30-Day Screen Exit: How MCK\u2019s Impending Rules Will Force Trevor Ombija and Stephen Letoo Off the Air",
-      "angle": "The imminent career crossroads for top TV personalities as the Media Council of Kenya moves to enforce a 30-day countdown that will legally strip ambitious broadcasters of their prime-time screen presence.",
-      "angle_type": "Career crossroads and regulatory enforcement",
-      "opening": "Open directly on the regulatory countdown that will force prominent TV personalities off the screen.",
-      "structure": "Regulatory countdown -> Trevor Ombija's campaign-trail friction in Nyakach -> Letoo and Wanyama's parallel political moves -> MCK's specific upcoming mandates and the validation timeline -> The looming high-stakes choice for screen stars.",
-      "source": "https://www.ghafla.co.ke/linus-kaikai-rejects-trevor-ombijas-claim-that-gachagua-sought-his-removal-from-citizen-tv/"
-    },
     {
       "title": "\u2018Will You Give Me Another Baby?\u2019: Terence Creative Takes a Knee for Milly Chebby at Mataha Experience",
       "angle": "Framing the unscripted stage proposal against the couple's serious health scare, highlighting the poignant reality behind the humor months after Milly survived a life-threatening ectopic pregnancy.",
@@ -1039,6 +1033,14 @@
       "opening": "Personality and scene-setting lead focusing directly on the 18-hour recovery operation across the Marondera farmland.",
       "structure": "Recovery operation details -> Flight trajectory and impact severity -> Identity confirmations -> Lack of preliminary findings.",
       "source": "https://www.ghafla.co.ke/bodies-of-six-wicknell-chivayo-helicopter-crash-victims-removed-after-18-hours/"
+    },
+    {
+      "title": "Wicknell Chivayo\u2019s Aide Relives Final Radio Calls and Confusion Before Fatal Chopper Crash",
+      "angle": "The intimate, hair-raising cockpit-to-cockpit radio transcript narrative provided by Chivayo's security aide, focusing on the confusing final minutes over Surrey and Marondera rather than the broad political or financial legacy.",
+      "angle_type": "eyewitness radio log and cockpit-to-cockpit panic",
+      "opening": "Personality and scene-setting lead focusing directly on the security aide's perspective of the deteriorating radio transmissions.",
+      "structure": "The routing decision via Bromley -> The cloud navigation distress call over Surrey -> The final failed destination check -> The casualty correction and official investigation status.",
+      "source": "https://www.ghafla.co.ke/chivayo-aide-recounts-pilots-final-radio-calls-before-fatal-helicopter-crash/"
     }
   ],
   "style_history": [
