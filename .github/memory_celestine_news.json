@@ -752,10 +752,10 @@
     "f1ae8bcdf95d2dc58807e55446373cf6",
     "6e24b08f470f0c1eb44b47cf86d0b7a8",
     "4694e45c9aa1720c2ca6d5debc17ecdf",
-    "085ab6471edbc84ae03205c39abbd208"
+    "085ab6471edbc84ae03205c39abbd208",
+    "ce2a76e67c83052208211881f7e13ed7"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Desk Take",
     "Statement Report",
@@ -784,7 +784,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1121,7 +1122,8 @@
     "https://kenyans.co.ke/news/127487-zimbabwe-businessman-and-ruto-ally-wicknell-chivayo-dies-helicopter-crash",
     "https://kenyans.co.ke/news/127489-ministry-seeks-public-views-ksh-22b-plan-register-348-community-lands",
     "https://kenyans.co.ke/news/127491-cbk-moves-make-bank-and-mobile-money-transfers-cheaper",
-    "https://kenyans.co.ke/news/127493-jubilee-threatens-expel-ngunjiri-wambugu-issues-7-day-ultimatum"
+    "https://kenyans.co.ke/news/127493-jubilee-threatens-expel-ngunjiri-wambugu-issues-7-day-ultimatum",
+    "https://kenyans.co.ke/news/127496-national-employment-authority-warns-kenyans-over-scammers-using-fake-calls"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1380,7 +1382,8 @@
     "chivayo crash ends flamboyant tycoon direct state house pipeline",
     "state bets ksh per parcel ksh plan clear community land backlog",
     "cbk instant switch policy mandates technical openness but leaves transfer fees uncapped",
-    "jubilee draws hard line against independent mobilization wambugu faces expulsion clock"
+    "jubilee draws hard line against independent mobilization wambugu faces expulsion clock",
+    "nea impersonation alert signals escalation direct dial recruitment scams"
   ],
   "topic_keys": [
     "news tracker",
@@ -2982,6 +2985,15 @@
       "structure": "Deadline and disciplinary framework lead -> Granular breakdown of charges (Aspirants Forum, logo usage, email capture) -> Leadership authority friction (Matiang'i and Ole Kenta directives) -> Compliance deadline details -> Unresolved response stance.",
       "source": "https://kenyans.co.ke/news/127493-jubilee-threatens-expel-ngunjiri-wambugu-issues-7-day-ultimatum",
       "published_at": "2026-10-01T08:02:42Z"
+    },
+    {
+      "title": "NEA Impersonation Alert Signals Escalation in Direct-Dial Recruitment Scams",
+      "angle": "Focusing on the operational shift by fraudsters toward direct mobile impersonation of state regulators, emphasizing the mandatory verification protocols jobseekers must follow using official state databases to isolate valid opportunities from direct-dial scams.",
+      "angle_type": "practical change",
+      "opening": "Verification mechanics lead highlighting the escalation from fake job adverts to direct mobile impersonation of state employment officials.",
+      "structure": "Direct impersonation alert details -> State registry verification steps (NEAIMS) -> Diplomatic and cross-border fraud context -> Official communication protocols.",
+      "source": "https://kenyans.co.ke/news/127496-national-employment-authority-warns-kenyans-over-scammers-using-fake-calls",
+      "published_at": "2026-10-01T08:33:49Z"
     }
   ]
 }
