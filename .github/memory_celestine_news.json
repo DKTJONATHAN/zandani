@@ -748,10 +748,10 @@
     "ee743b1f6e1209d8afcef1bdced13521",
     "6dd8c9fe7e44c5a96f88064023c6dc3a",
     "ac32e401e5224392196be9ed655bf0fd",
-    "0c089b1a0c951a6ab69881e1ba02c3c0"
+    "0c089b1a0c951a6ab69881e1ba02c3c0",
+    "f1ae8bcdf95d2dc58807e55446373cf6"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -780,7 +780,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1113,7 +1114,8 @@
     "https://kenyans.co.ke/news/127483-kra-issues-reminder-over-new-excise-duty-betting-juices-and-other-products",
     "https://kenyans.co.ke/news/127486-kenyan-cabin-crew-members-involved-flydubai-plane-emergency-saudi-arabia",
     "https://kenyans.co.ke/news/127485-jkuat-vc-proposes-crickets-and-snails-alternative-foods-kenyans",
-    "https://kenyans.co.ke/news/127484-police-ntsa-train-japan-digital-speed-cameras-traffic-management"
+    "https://kenyans.co.ke/news/127484-police-ntsa-train-japan-digital-speed-cameras-traffic-management",
+    "https://kenyans.co.ke/news/127487-zimbabwe-businessman-and-ruto-ally-wicknell-chivayo-dies-helicopter-crash"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1368,7 +1370,8 @@
     "kra finance act 2026 rollout penalizes imported sugar wagering while shelving bottled water tax",
     "mid air cockpit attack triggers emergency diversion flydubai dubai tel aviv route",
     "beyond maize imports jkuat pushes snails crickets bio seedlings farm balance sheets",
-    "automation hunt japan south korea are funding end nairobi manual traffic police"
+    "automation hunt japan south korea are funding end nairobi manual traffic police",
+    "chivayo crash ends flamboyant tycoon direct state house pipeline"
   ],
   "topic_keys": [
     "news tracker",
@@ -2934,6 +2937,15 @@
       "structure": "Operational-shift lead -> Detailed breakdown of the Tokyo training -> Infrastructure funding and South Korean connection -> Intersection deployment timeline (Phase 1 to Phase 3) -> Human-to-digital transition conclusion.",
       "source": "https://kenyans.co.ke/news/127484-police-ntsa-train-japan-digital-speed-cameras-traffic-management",
       "published_at": "2026-09-30T18:56:19Z"
+    },
+    {
+      "title": "Chivayo Crash Ends Flamboyant Tycoon\u2019s Direct State House Pipeline",
+      "angle": "Examining how the fatal crash abruptly severs an unprecedented line of direct executive access between Harare's commercial elite and State House Nairobi, leaving unvetted cross-border investment ambitions cut short.",
+      "angle_type": "consequence",
+      "opening": "Executive-access severance lead highlighting the sudden end to Chivayo's direct pipeline to President Ruto.",
+      "structure": "Access severance lead -> Verified crash facts & casualties in Marondera -> Ruto's official tribute -> Context of Kilgoris & State House visits -> Intratrek, energy scrutiny, & unresolved commercial footprint.",
+      "source": "https://kenyans.co.ke/news/127487-zimbabwe-businessman-and-ruto-ally-wicknell-chivayo-dies-helicopter-crash",
+      "published_at": "2026-10-01T05:02:20Z"
     }
   ]
 }
