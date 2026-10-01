@@ -753,10 +753,10 @@
     "6e24b08f470f0c1eb44b47cf86d0b7a8",
     "4694e45c9aa1720c2ca6d5debc17ecdf",
     "085ab6471edbc84ae03205c39abbd208",
-    "ce2a76e67c83052208211881f7e13ed7"
+    "ce2a76e67c83052208211881f7e13ed7",
+    "9a120cf667de3c5085b7c468ac293b66"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -785,7 +785,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1123,7 +1124,8 @@
     "https://kenyans.co.ke/news/127489-ministry-seeks-public-views-ksh-22b-plan-register-348-community-lands",
     "https://kenyans.co.ke/news/127491-cbk-moves-make-bank-and-mobile-money-transfers-cheaper",
     "https://kenyans.co.ke/news/127493-jubilee-threatens-expel-ngunjiri-wambugu-issues-7-day-ultimatum",
-    "https://kenyans.co.ke/news/127496-national-employment-authority-warns-kenyans-over-scammers-using-fake-calls"
+    "https://kenyans.co.ke/news/127496-national-employment-authority-warns-kenyans-over-scammers-using-fake-calls",
+    "https://kenyans.co.ke/news/127498-ruto-names-four-towns-set-railway-stations-kenya-tanzania-line"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1383,7 +1385,8 @@
     "state bets ksh per parcel ksh plan clear community land backlog",
     "cbk instant switch policy mandates technical openness but leaves transfer fees uncapped",
     "jubilee draws hard line against independent mobilization wambugu faces expulsion clock",
-    "nea impersonation alert signals escalation direct dial recruitment scams"
+    "nea impersonation alert signals escalation direct dial recruitment scams",
+    "two tracks taveta inside parallel ksh10b rail bet tanzania border"
   ],
   "topic_keys": [
     "news tracker",
@@ -2994,6 +2997,15 @@
       "structure": "Direct impersonation alert details -> State registry verification steps (NEAIMS) -> Diplomatic and cross-border fraud context -> Official communication protocols.",
       "source": "https://kenyans.co.ke/news/127496-national-employment-authority-warns-kenyans-over-scammers-using-fake-calls",
       "published_at": "2026-10-01T08:33:49Z"
+    },
+    {
+      "title": "Two Tracks to Taveta: Inside Kenya\u2019s Parallel Ksh10B Rail Bet on the Tanzania Border",
+      "angle": "The operational and financial reality of running parallel, non-interoperable railway networks (SGR and MGR) along the exact same 130-kilometre corridor to the Tanzanian border, representing a dual-track infrastructure investment of over Ksh10.5 billion.",
+      "angle_type": "consequence",
+      "opening": "An operational-contrast lead highlighting the simultaneous development of two distinct rail technologies serving the same cross-border trade route.",
+      "structure": "Operational-contrast lead -> Factual breakdown of the new SGR stations and executive pronouncements -> Historical and financial context of the parallel Ksh5.5 billion MGR project -> Local trade and economic benefits -> Cross-border synchronization and unresolved logistical integration.",
+      "source": "https://kenyans.co.ke/news/127498-ruto-names-four-towns-set-railway-stations-kenya-tanzania-line",
+      "published_at": "2026-10-01T09:02:31Z"
     }
   ]
 }
