@@ -119,7 +119,8 @@
     "d3b7d014b0d030906c58edcfd58992330088a2b5c09c1a36e5f7f7ea2d5e2287",
     "a32808cf8eefb8eaa5aefea4506a0be3adbda06269f6d4ccc19930ea3b352810",
     "8b1cd63a81fc460e092fb227c78f4b009911f96f73830c2e726ddc26c42f878a",
-    "9afd196001f2c0cc3376432d641268be70b7c773e2301a1831ee88ea6e861ffc"
+    "9afd196001f2c0cc3376432d641268be70b7c773e2301a1831ee88ea6e861ffc",
+    "a70b0008f831d5a1d2b7fa19d1f59b99daea9faf2682a246d3e0abf80ad47033"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -241,17 +242,10 @@
     "https://www.ghafla.co.ke/joho-says-coast-region-stands-firmly-behind-rutos-leadership/",
     "https://www.ghafla.co.ke/bodies-of-six-wicknell-chivayo-helicopter-crash-victims-removed-after-18-hours/",
     "https://www.ghafla.co.ke/chivayo-aide-recounts-pilots-final-radio-calls-before-fatal-helicopter-crash/",
-    "https://www.ghafla.co.ke/mudavadis-2027-manifesto-peace-integrity-growth/"
+    "https://www.ghafla.co.ke/mudavadis-2027-manifesto-peace-integrity-growth/",
+    "https://www.ghafla.co.ke/dennis-ombachi-turns-high-school-boarding-meals-into-comedy-but-son-gives-unexpected-verdict/"
   ],
   "published_angles": [
-    {
-      "title": "Sammy Boy\u2019s Convertible Mercedes Meets Nairobi Street Reality in Boda Boda Crash",
-      "angle": "Focusing on the sharp, visual collision between Sammy Boy's high-profile online luxury displays and the immediate, high-tension reality of Nairobi street traffic when his convertible Mercedes was surrounded by gathered riders after sustaining heavy front-end damage.",
-      "angle_type": "lifestyle clash and public incident",
-      "opening": "Personality lead opening directly on Sammy Boy's shift from online luxury displays to an intense roadside scene on a Nairobi street.",
-      "structure": "Person and luxury hook -> specific crash details and vehicle damage -> viral split-screen video dynamics -> Nairobi street context around boda boda gatherings -> unconfirmed facts and ongoing status.",
-      "source": "https://www.ghafla.co.ke/forex-trader-sammy-boy-involved-in-nairobi-road-accident-with-boda-boda-rider/"
-    },
     {
       "title": "Sean Andrew\u2019s \u2018English-Only\u2019 Bubble: Why Kibaki\u2019s Grandson Avoided Kiswahili \u2018Like the Plague\u2019",
       "angle": "Framing the confession as a revealing look into the linguistic and cultural insulation of Nairobi's political dynasty heirs, contrasting the grandfather's bilingual national legacy with the grandson's self-admitted 'English-only' bubble.",
@@ -1043,6 +1037,14 @@
       "opening": "Personality-centric lead focusing on Mudavadi's preference for elite, curated spaces over chaotic street rallies to deliver his political directives.",
       "structure": "Persona hook -> The diplomatic setting and the 'no-goons' contrast -> The institutional branding play (IEBC and anti-tribalism) -> The luxury-export and infrastructure lifestyle pitch (avocados, SGR, and highway dualling) -> Strategic 2027 positioning wrap-up.",
       "source": "https://www.ghafla.co.ke/mudavadis-2027-manifesto-peace-integrity-growth/"
+    },
+    {
+      "title": "Dennis Ombachi's Attempt to Weaponize Scorched Ugali as a Boarding School Deterrent Backfires on His Son",
+      "angle": "Focusing on Ombachi's failed culinary reverse-psychology\u2014specifically how his attempt to weaponize 'generational trauma' through scorched ugali and bitter greens backfired because his son lacks the psychological conditioning of high school boarding life.",
+      "angle_type": "parenting experiment and culinary backfire",
+      "opening": "Personality lead focusing directly on the failure of Dennis Ombachi's culinary deterrent on his son.",
+      "structure": "The parenting motive -> The creation of the 'traumatic' meal -> The backfired reaction -> Peer nostalgia and the generational gap.",
+      "source": "https://www.ghafla.co.ke/dennis-ombachi-turns-high-school-boarding-meals-into-comedy-but-son-gives-unexpected-verdict/"
     }
   ],
   "style_history": [
