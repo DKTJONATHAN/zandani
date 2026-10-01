@@ -749,10 +749,10 @@
     "6dd8c9fe7e44c5a96f88064023c6dc3a",
     "ac32e401e5224392196be9ed655bf0fd",
     "0c089b1a0c951a6ab69881e1ba02c3c0",
-    "f1ae8bcdf95d2dc58807e55446373cf6"
+    "f1ae8bcdf95d2dc58807e55446373cf6",
+    "6e24b08f470f0c1eb44b47cf86d0b7a8"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -781,7 +781,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1115,7 +1116,8 @@
     "https://kenyans.co.ke/news/127486-kenyan-cabin-crew-members-involved-flydubai-plane-emergency-saudi-arabia",
     "https://kenyans.co.ke/news/127485-jkuat-vc-proposes-crickets-and-snails-alternative-foods-kenyans",
     "https://kenyans.co.ke/news/127484-police-ntsa-train-japan-digital-speed-cameras-traffic-management",
-    "https://kenyans.co.ke/news/127487-zimbabwe-businessman-and-ruto-ally-wicknell-chivayo-dies-helicopter-crash"
+    "https://kenyans.co.ke/news/127487-zimbabwe-businessman-and-ruto-ally-wicknell-chivayo-dies-helicopter-crash",
+    "https://kenyans.co.ke/news/127489-ministry-seeks-public-views-ksh-22b-plan-register-348-community-lands"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1371,7 +1373,8 @@
     "mid air cockpit attack triggers emergency diversion flydubai dubai tel aviv route",
     "beyond maize imports jkuat pushes snails crickets bio seedlings farm balance sheets",
     "automation hunt japan south korea are funding end nairobi manual traffic police",
-    "chivayo crash ends flamboyant tycoon direct state house pipeline"
+    "chivayo crash ends flamboyant tycoon direct state house pipeline",
+    "state bets ksh per parcel ksh plan clear community land backlog"
   ],
   "topic_keys": [
     "news tracker",
@@ -2946,6 +2949,15 @@
       "structure": "Access severance lead -> Verified crash facts & casualties in Marondera -> Ruto's official tribute -> Context of Kilgoris & State House visits -> Intratrek, energy scrutiny, & unresolved commercial footprint.",
       "source": "https://kenyans.co.ke/news/127487-zimbabwe-businessman-and-ruto-ally-wicknell-chivayo-dies-helicopter-crash",
       "published_at": "2026-10-01T05:02:20Z"
+    },
+    {
+      "title": "State Bets Ksh 6.3M Per Parcel in Ksh 2.2B Plan to Clear Community Land Backlog",
+      "angle": "Examine the unit economics (Ksh 6.37 million per community block) and digital satellite workflow meant to overcome a ten-year backlog that yielded only 64 community titles since 2016.",
+      "angle_type": "money",
+      "opening": "Financial allocation lead contrasting unit execution costs with the decade-long titling deficit.",
+      "structure": "Unit cost lead -> Rollout targets & financial scope -> Technical mapping & ADR mechanics -> Asset excision & ArdhiSasa integration -> Ten-year performance context -> Impending consultation deadline.",
+      "source": "https://kenyans.co.ke/news/127489-ministry-seeks-public-views-ksh-22b-plan-register-348-community-lands",
+      "published_at": "2026-10-01T06:02:19Z"
     }
   ]
 }
