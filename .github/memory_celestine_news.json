@@ -754,10 +754,10 @@
     "4694e45c9aa1720c2ca6d5debc17ecdf",
     "085ab6471edbc84ae03205c39abbd208",
     "ce2a76e67c83052208211881f7e13ed7",
-    "9a120cf667de3c5085b7c468ac293b66"
+    "9a120cf667de3c5085b7c468ac293b66",
+    "25f6e4da237cf59dcb12fde8a4fbe370"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -786,7 +786,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1125,7 +1126,8 @@
     "https://kenyans.co.ke/news/127491-cbk-moves-make-bank-and-mobile-money-transfers-cheaper",
     "https://kenyans.co.ke/news/127493-jubilee-threatens-expel-ngunjiri-wambugu-issues-7-day-ultimatum",
     "https://kenyans.co.ke/news/127496-national-employment-authority-warns-kenyans-over-scammers-using-fake-calls",
-    "https://kenyans.co.ke/news/127498-ruto-names-four-towns-set-railway-stations-kenya-tanzania-line"
+    "https://kenyans.co.ke/news/127498-ruto-names-four-towns-set-railway-stations-kenya-tanzania-line",
+    "https://kenyans.co.ke/news/127501-iebc-decentralises-election-inclusion-committees-counties-ahead-2027-polls"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1386,7 +1388,8 @@
     "cbk instant switch policy mandates technical openness but leaves transfer fees uncapped",
     "jubilee draws hard line against independent mobilization wambugu faces expulsion clock",
     "nea impersonation alert signals escalation direct dial recruitment scams",
-    "two tracks taveta inside parallel ksh10b rail bet tanzania border"
+    "two tracks taveta inside parallel ksh10b rail bet tanzania border",
+    "grassroots shift iebc abandons nairobi centric desks push solve voter deficit"
   ],
   "topic_keys": [
     "news tracker",
@@ -3006,6 +3009,15 @@
       "structure": "Operational-contrast lead -> Factual breakdown of the new SGR stations and executive pronouncements -> Historical and financial context of the parallel Ksh5.5 billion MGR project -> Local trade and economic benefits -> Cross-border synchronization and unresolved logistical integration.",
       "source": "https://kenyans.co.ke/news/127498-ruto-names-four-towns-set-railway-stations-kenya-tanzania-line",
       "published_at": "2026-10-01T09:02:31Z"
+    },
+    {
+      "title": "Grassroots Shift: IEBC Abandons Nairobi-Centric Desks in Push to Solve 6.3M Voter Deficit",
+      "angle": "Framing the decentralization not just as an inclusion initiative, but as a direct, localized operational response to bridge a massive 6.3 million voter-registration deficit under a new commission facing its first major electoral test.",
+      "angle_type": "practical change",
+      "opening": "An operational lead focusing on the decentralization of inclusion desks to counties as a mechanism to address the voter deficit.",
+      "structure": "Strategic shift lead -> The voter deficit numbers and registration targets -> Transition from national to county-level models -> Vetting and compliance protocols for partners -> The institutional high stakes for the new commissioners.",
+      "source": "https://kenyans.co.ke/news/127501-iebc-decentralises-election-inclusion-committees-counties-ahead-2027-polls",
+      "published_at": "2026-10-01T10:01:48Z"
     }
   ]
 }
