@@ -114,7 +114,8 @@
     "c4006469eb93d392eacda8c451fc8bda707a8b60c7b460385e3ee964ff4382a6",
     "f82351ed683ddfe5d07e97ba5373a430b1c78329730c4dfcbd25d4ae1d61a19f",
     "272746c0566fbd943756d4ad5f67c00058a0805a84b9d49578fd6fe266b6cdc3",
-    "b33cf2b29f1b3fda3492dcb87b98146a6d6326d9f38727fedb17a11574d578d3"
+    "b33cf2b29f1b3fda3492dcb87b98146a6d6326d9f38727fedb17a11574d578d3",
+    "57a647d83dea835db40d264007687b4762d9890b83595c74e261411c47f721b2"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -231,17 +232,10 @@
     "https://www.ghafla.co.ke/dennis-karuri-opens-up-about-grief-career-struggles-and-his-journey-into-beauty/",
     "https://www.ghafla.co.ke/pritty-vishy-questions-georgina-njengas-instagram-posts-amid-emotional-messages/",
     "https://www.ghafla.co.ke/janet-mbugua-criticises-politicians-for-taking-over-social-awareness-events/",
-    "https://www.ghafla.co.ke/colonel-mustafa-breaks-down-while-recalling-donholm-years/"
+    "https://www.ghafla.co.ke/colonel-mustafa-breaks-down-while-recalling-donholm-years/",
+    "https://www.ghafla.co.ke/woman-who-predicted-zimbabwean-buinessman-wicknell-chivayos-death-goes-viral/"
   ],
   "published_angles": [
-    {
-      "title": "The Chosen Six: Inside the Exclusive Corporate Guestlist Handling Kenya\u2019s G-to-G Fuel Billions",
-      "angle": "Reframing the story around the elite, highly exclusive corporate 'VIP list' of local oil marketing companies that secured the golden ticket to handle this multi-million dollar G-to-G fuel pipeline.",
-      "angle_type": "exclusive corporate circle / high-society business mechanics",
-      "opening": "Lead with the exclusive, invitation-only nature of the local G-to-G petroleum counterparties club.",
-      "structure": "Introduce the corporate VIP list -> explain the elite selection process by global oil giants -> detail the massive financial stakes ($500M monthly) -> break down the exclusive membership expansion -> close on their cemented status as regional logistics kings.",
-      "source": "https://www.ghafla.co.ke/how-the-g-to-g-petroleum-framework-eased-us-dollar-scarcity-and-stabilized-kenyas-economy/"
-    },
     {
       "title": "Godfrey Osotsi Steps Up as Peacekeeper as Babu Owino Moves Out of Linda Mwananchi\u2019s House",
       "angle": "Framing Osotsi's rally appearance as a defensive damage-control effort to preserve group unity, directly contrasting his 'one happy house' claims against Babu Owino's independent launch of The Mwananchi Party (TMP) and decision to skip joint rallies.",
@@ -1033,6 +1027,14 @@
       "opening": "Personality lead placing Mustafa directly in the interview chair as conversation shifts from concert mechanics to the neighborhood that kept him fed and housed.",
       "structure": "Interview emotional pivot hook -> The Greenfield, Donholm informal support system -> Context of the early Ogopa and Marya chapter -> Post-fame turbulence and the 2023 mjengo reality -> Mobilization of Eastlands estates for the October 10 anniversary concert.",
       "source": "https://www.ghafla.co.ke/colonel-mustafa-breaks-down-while-recalling-donholm-years/"
+    },
+    {
+      "title": "Wicknell Chivayo: Flamboyant Tycoon Dies in Helicopter Crash Weeks After Gwanda Solar Breakthrough, As 2025 Aviation Warning Resurfaces",
+      "angle": "Framing the tragedy around the tragic timing of Chivayo's death coming right after his corporate entity cleared years of legal battles over the Gwanda solar deal, while contextualizing the viral social post as part of his turbulent public digital footprint.",
+      "angle_type": "celebrity tycoon legacy and timing",
+      "opening": "Personality lead focusing directly on Wicknell Chivayo's sudden death and the sharp contrast between his recent corporate greenlight and his final, fatal flight.",
+      "structure": "Tycoon death & timing lead -> Marondera crash details & official confirmations -> Gwanda solar deal breakthrough context -> The resurfaced Susan Mutami 2025 post -> Investigation status close.",
+      "source": "https://www.ghafla.co.ke/woman-who-predicted-zimbabwean-buinessman-wicknell-chivayos-death-goes-viral/"
     }
   ],
   "style_history": [
