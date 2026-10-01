@@ -755,10 +755,10 @@
     "085ab6471edbc84ae03205c39abbd208",
     "ce2a76e67c83052208211881f7e13ed7",
     "9a120cf667de3c5085b7c468ac293b66",
-    "25f6e4da237cf59dcb12fde8a4fbe370"
+    "25f6e4da237cf59dcb12fde8a4fbe370",
+    "6846896c38d9e2c89edad26226239b36"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -787,7 +787,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1127,7 +1128,8 @@
     "https://kenyans.co.ke/news/127493-jubilee-threatens-expel-ngunjiri-wambugu-issues-7-day-ultimatum",
     "https://kenyans.co.ke/news/127496-national-employment-authority-warns-kenyans-over-scammers-using-fake-calls",
     "https://kenyans.co.ke/news/127498-ruto-names-four-towns-set-railway-stations-kenya-tanzania-line",
-    "https://kenyans.co.ke/news/127501-iebc-decentralises-election-inclusion-committees-counties-ahead-2027-polls"
+    "https://kenyans.co.ke/news/127501-iebc-decentralises-election-inclusion-committees-counties-ahead-2027-polls",
+    "https://kenyans.co.ke/news/127506-kenya-met-warns-heavy-october-rains-and-flooding-several-areas"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1389,7 +1391,8 @@
     "jubilee draws hard line against independent mobilization wambugu faces expulsion clock",
     "nea impersonation alert signals escalation direct dial recruitment scams",
     "two tracks taveta inside parallel ksh10b rail bet tanzania border",
-    "grassroots shift iebc abandons nairobi centric desks push solve voter deficit"
+    "grassroots shift iebc abandons nairobi centric desks push solve voter deficit",
+    "october deluge threatens rural transport arteries short rains open across"
   ],
   "topic_keys": [
     "news tracker",
@@ -3018,6 +3021,15 @@
       "structure": "Strategic shift lead -> The voter deficit numbers and registration targets -> Transition from national to county-level models -> Vetting and compliance protocols for partners -> The institutional high stakes for the new commissioners.",
       "source": "https://kenyans.co.ke/news/127501-iebc-decentralises-election-inclusion-committees-counties-ahead-2027-polls",
       "published_at": "2026-10-01T10:01:48Z"
+    },
+    {
+      "title": "October Deluge Threatens Rural Transport Arteries as Short Rains Open Across Kenya",
+      "angle": "The operational squeeze on supply chains and rural transit: while the above-average downpours bring critical planting moisture and pasture relief, the simultaneous threat of washed-out feeder roads, severed bridges, and urban drainage failures risks stranding farm inputs and transit routes right at the onset of the short-rains season.",
+      "angle_type": "consequence",
+      "opening": "Logistical impact lead focusing on the disruption to transport corridors and farming supply chains at the onset of the short rains.",
+      "structure": "Lead on transport and supply chain risk -> Regional onset schedule and rainfall distribution -> Infrastructure vulnerability and transit bottlenecks -> Agricultural paradox (moisture gains vs produce transit/crop risks) -> Northern heat anomaly and disease vectors.",
+      "source": "https://kenyans.co.ke/news/127506-kenya-met-warns-heavy-october-rains-and-flooding-several-areas",
+      "published_at": "2026-10-01T11:02:28Z"
     }
   ]
 }
