@@ -116,7 +116,8 @@
     "272746c0566fbd943756d4ad5f67c00058a0805a84b9d49578fd6fe266b6cdc3",
     "b33cf2b29f1b3fda3492dcb87b98146a6d6326d9f38727fedb17a11574d578d3",
     "57a647d83dea835db40d264007687b4762d9890b83595c74e261411c47f721b2",
-    "d3b7d014b0d030906c58edcfd58992330088a2b5c09c1a36e5f7f7ea2d5e2287"
+    "d3b7d014b0d030906c58edcfd58992330088a2b5c09c1a36e5f7f7ea2d5e2287",
+    "a32808cf8eefb8eaa5aefea4506a0be3adbda06269f6d4ccc19930ea3b352810"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -235,17 +236,10 @@
     "https://www.ghafla.co.ke/janet-mbugua-criticises-politicians-for-taking-over-social-awareness-events/",
     "https://www.ghafla.co.ke/colonel-mustafa-breaks-down-while-recalling-donholm-years/",
     "https://www.ghafla.co.ke/woman-who-predicted-zimbabwean-buinessman-wicknell-chivayos-death-goes-viral/",
-    "https://www.ghafla.co.ke/joho-says-coast-region-stands-firmly-behind-rutos-leadership/"
+    "https://www.ghafla.co.ke/joho-says-coast-region-stands-firmly-behind-rutos-leadership/",
+    "https://www.ghafla.co.ke/bodies-of-six-wicknell-chivayo-helicopter-crash-victims-removed-after-18-hours/"
   ],
   "published_angles": [
-    {
-      "title": "Babu Owino Debuts Recycled Political 'Wardrobe' for Himself and Edwin Sifuna at Nyakach Burial",
-      "angle": "Focusing on the highly theatrical, personality-driven 'rebranding' and recycling of legacy political parties\u2014treating these old political vehicles like vintage accessories that Babu Owino has customized for himself and Sifuna to resolve their high-profile sibling rivalry on the go.",
-      "angle_type": "personality rebranding and political mechanics",
-      "opening": "Open directly with Babu Owino turning a solemn village burial in Central Nyakach into a high-stakes political fashion show, debuting rebranded legacy political parties.",
-      "structure": "Detail the funeral setting and the celebrity pivot -> Unpack the specific 'vintage' parties acquired (Kibwana's and Jirongo's brands) -> Describe the power-sharing arrangement Babu designed for himself and Sifuna -> Contrast with Natembeya's preferences -> Close on the pressing IEBC October deadline.",
-      "source": "https://www.ghafla.co.ke/babu-owino-unveils-the-mwananchi-party-as-political-vehicle-ahead-of-2027/"
-    },
     {
       "title": "The 30-Day Screen Exit: How MCK\u2019s Impending Rules Will Force Trevor Ombija and Stephen Letoo Off the Air",
       "angle": "The imminent career crossroads for top TV personalities as the Media Council of Kenya moves to enforce a 30-day countdown that will legally strip ambitious broadcasters of their prime-time screen presence.",
@@ -1037,6 +1031,14 @@
       "opening": "Personality lead focusing directly on Hassan Joho's brand transition and his specific transactional pledge to Ruto.",
       "structure": "Personality lead -> The transactional pledge ('respect' and 'lifting up') -> Structural comparison of development projects -> Validation of the regional self-worth argument -> Local alignment assurances in Mwatate and Taita Taveta -> Strategic context of the 2027 realignment.",
       "source": "https://www.ghafla.co.ke/joho-says-coast-region-stands-firmly-behind-rutos-leadership/"
+    },
+    {
+      "title": "Inside the 18-Hour Recovery Operation After Wicknell Chivayo\u2019s Fatal Marondera Helicopter Crash",
+      "angle": "Focusing on the grueling, grim operational reality of the 18-hour recovery effort across a 100-metre debris field that defined the final public chapter for the high-rolling tycoon and his wife.",
+      "angle_type": "operational reality and recovery logistics of a high-profile tragedy",
+      "opening": "Personality and scene-setting lead focusing directly on the 18-hour recovery operation across the Marondera farmland.",
+      "structure": "Recovery operation details -> Flight trajectory and impact severity -> Identity confirmations -> Lack of preliminary findings.",
+      "source": "https://www.ghafla.co.ke/bodies-of-six-wicknell-chivayo-helicopter-crash-victims-removed-after-18-hours/"
     }
   ],
   "style_history": [
