@@ -770,10 +770,10 @@
     "733c4f354685d5d31dccc01d06b7c791",
     "d207772ee7a4da15fa9ae87ced79b9f1",
     "39728b10cb4b18aa05d94cf59d8814dd",
-    "941b1cc76087a74a789eb797e31dd0d3"
+    "941b1cc76087a74a789eb797e31dd0d3",
+    "338f44fc087cca3bfe178deea235ff7d"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -802,7 +802,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1157,7 +1158,8 @@
     "https://kenyans.co.ke/news/127538-ca-directs-telcos-send-el-nino-alerts-all-subscribers",
     "https://kenyans.co.ke/news/127545-kwale-residents-demand-inclusion-mrima-hills-critical-minerals-deals",
     "https://kenyans.co.ke/news/127546-health-ministry-clarifies-sha-portal-transition-hmis",
-    "https://kenyans.co.ke/news/127547-kba-urges-cbk-hold-rate-875-amid-fuel-price-risks"
+    "https://kenyans.co.ke/news/127547-kba-urges-cbk-hold-rate-875-amid-fuel-price-risks",
+    "https://kenyans.co.ke/news/127542-motorists-lobby-demand-binding-fuel-price-reduction-deal"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1434,7 +1436,8 @@
     "state overrides mobile privacy settings force alerts all screens",
     "land title timebomb menacing joho late october mrima hills mining deal",
     "moh moves end dual system friction sha claims processing",
-    "banks bet loan growth inflation spike push freeze benchmark rate"
+    "banks bet loan growth inflation spike push freeze benchmark rate",
+    "secrecy clash behind ksh2 lamu refinery deal"
   ],
   "topic_keys": [
     "news tracker",
@@ -3198,6 +3201,15 @@
       "structure": "Lobbying position and borrower impact lead -> Inflation-versus-credit trade-off -> Macroeconomic growth and harvest indicators -> External headwinds and El Ni\u00f1o risk -> MPC calendar forward edge",
       "source": "https://kenyans.co.ke/news/127547-kba-urges-cbk-hold-rate-875-amid-fuel-price-risks",
       "published_at": "2026-10-02T15:33:36Z"
+    },
+    {
+      "title": "The Secrecy Clash Behind the Ksh2.2T Lamu Refinery Deal",
+      "angle": "The political-consumer stand-off over contract transparency, contrasting the presidency's framing of public audit demands as 'extortion' against motorists' skepticism rooted in a history of broken fuel-stabilisation promises (G2G, Turkana oil, and levy hikes).",
+      "angle_type": "accountability",
+      "opening": "An accountability-driven lead highlighting the clash between the President\u2019s defense of the Ksh2.2 trillion refinery deal and motorists demanding to see the contract terms.",
+      "structure": "Transparency conflict lead -> The President's 'extortion' counter-accusation -> Historic policy failures cited by motorists (G2G, Turkana, tax hikes) -> Specific demands for written covenants and contract disclosure -> The unresolved question of consumer benefit.",
+      "source": "https://kenyans.co.ke/news/127542-motorists-lobby-demand-binding-fuel-price-reduction-deal",
+      "published_at": "2026-10-02T16:02:18Z"
     }
   ]
 }
