@@ -128,7 +128,8 @@
     "35e0ba8442dae0b4bb29393b049d55796782419d246ba1f05c6ddcd07878cc7f",
     "9bad25eb2578c01c98a75179ba08f8bde9978e05037659461bd3b2aaa977080d",
     "961d61972f1736dd790bca7f134b06759625cd5e2a46d7b556cbe27f804cd6ae",
-    "e342eed4fb81f84f662c127179c92949494d5f35165afd8ccb6c383f74632105"
+    "e342eed4fb81f84f662c127179c92949494d5f35165afd8ccb6c383f74632105",
+    "963b3baeba7e02afee278d4fda1edc9bbe844594183fbfe255ed14b2215a6976"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -259,17 +260,10 @@
     "https://www.ghafla.co.ke/siaya-governor-james-orengo-set-to-launch-new-political-party-ahead-of-2027-elections/",
     "https://www.ghafla.co.ke/president-ruto-pledges-60000-coastal-youth-jobs-in-lamu-dongo-kundu-and-vipingo-mega-projects/",
     "https://www.ghafla.co.ke/eric-omondi-steps-in-to-support-georgina-njenga-amid-growing-concern/",
-    "https://www.ghafla.co.ke/bensoul-reveals-tb-battle-forced-him-to-quit-music-for-six-months/"
+    "https://www.ghafla.co.ke/bensoul-reveals-tb-battle-forced-him-to-quit-music-for-six-months/",
+    "https://www.ghafla.co.ke/family-friends-gather-to-mourn-wicknell-chivayo-and-wife-lucy-muteke/"
   ],
   "published_angles": [
-    {
-      "title": "Ksh4.16 Power Hike Hits Nairobi Bills as EPRA Puts a Squeeze on Private Solar and EV Rates",
-      "angle": "The operational crunch hitting the creative and small-business underground\u2014specifically how thermal backup costs and new solar/EV grid rules are squeezing independent spaces while fuel charges pay for old fossil-fuel contracts.",
-      "angle_type": "economic accountability and operational impact on urban spaces",
-      "opening": "Open directly on the financial mechanics of the September tariff notice and the specific thermal plants driving the cost.",
-      "structure": "Thermal cost breakdown and fuel charges -> The net-metering squeeze on private solar producers -> EV pricing and consumer tier restructuring -> Grid stability context and battery storage demands.",
-      "source": "https://www.ghafla.co.ke/epra-raises-electricity-charges-by-ksh4-16-per-unit-in-revised-september-tariffs/"
-    },
     {
       "title": "Uhuru Kenyatta\u2019s Backstage Pivot: Handing the Jubilee Mic to Fred Matiang\u2019i After Court Eviction Notice",
       "angle": "Reframing Uhuru's exit not as a political retirement, but as a strategic corporate-style 'backstage pivot' to a senior advisory role to bypass a tight judicial deadline, leaving his former chief enforcer, Fred Matiang'i, to take the heat in the spotlight.",
@@ -1061,6 +1055,14 @@
       "opening": "Personality-centric narrative hook highlighting the physical reality of losing his voice and his plan to sell off his pen to survive.",
       "structure": "Crisis setup -> The retreat to Embu -> The voiceless songwriting grind -> The post-recovery catalog reclamation.",
       "source": "https://www.ghafla.co.ke/bensoul-reveals-tb-battle-forced-him-to-quit-music-for-six-months/"
+    },
+    {
+      "title": "Chivayo and Muteke Families Agree on Joint Burial as Forensic Delays Put Final Farewell on Hold",
+      "angle": "The collaborative pact between the Chivayo and Muteke families to bury the couple together at the same cemetery, contrasted with the agonizing forensic delay that has put their final send-off on hold.",
+      "angle_type": "family pact and forensic limbo",
+      "opening": "Personality lead focusing on the joint burial agreement made by the families during the Harare vigil.",
+      "structure": "Family agreement hook -> Description of the Borrowdale vigil -> The role and reaction of Chivayo\u2019s church community -> The scientific bottlenecks of the forensic identification process -> Next steps for the families.",
+      "source": "https://www.ghafla.co.ke/family-friends-gather-to-mourn-wicknell-chivayo-and-wife-lucy-muteke/"
     }
   ],
   "style_history": [
