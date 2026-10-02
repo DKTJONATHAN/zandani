@@ -768,10 +768,10 @@
     "3886fc37cb521a1d35fb08d56a43b2e5",
     "47275df387215fd8496bda0d2f27e0a7",
     "733c4f354685d5d31dccc01d06b7c791",
-    "d207772ee7a4da15fa9ae87ced79b9f1"
+    "d207772ee7a4da15fa9ae87ced79b9f1",
+    "39728b10cb4b18aa05d94cf59d8814dd"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -800,7 +800,8 @@
     "Hard News Lead",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1153,7 +1154,8 @@
     "https://kenyans.co.ke/news/127536-counter-protests-erupt-after-pro-government-supporters-demonstrate-standard-group-hq",
     "https://kenyans.co.ke/news/127539-boni-khalwale-eyes-kakamega-governor-seat-sifunas-party",
     "https://kenyans.co.ke/news/127538-ca-directs-telcos-send-el-nino-alerts-all-subscribers",
-    "https://kenyans.co.ke/news/127545-kwale-residents-demand-inclusion-mrima-hills-critical-minerals-deals"
+    "https://kenyans.co.ke/news/127545-kwale-residents-demand-inclusion-mrima-hills-critical-minerals-deals",
+    "https://kenyans.co.ke/news/127546-health-ministry-clarifies-sha-portal-transition-hmis"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1428,7 +1430,8 @@
     "social media mombasa road presidential attacks mobilised protests standard group",
     "upm obtains full registration status khalwale pledges gubernatorial ticket sifuna party choice",
     "state overrides mobile privacy settings force alerts all screens",
-    "land title timebomb menacing joho late october mrima hills mining deal"
+    "land title timebomb menacing joho late october mrima hills mining deal",
+    "moh moves end dual system friction sha claims processing"
   ],
   "topic_keys": [
     "news tracker",
@@ -3174,6 +3177,15 @@
       "structure": "Bidding deadline vs local land reality -> Profile of the global corporate interest and state timeline -> The land succession bottleneck in Lungalunga -> Community demands for transparency and legal safeguards -> The upcoming late-October milestone.",
       "source": "https://kenyans.co.ke/news/127545-kwale-residents-demand-inclusion-mrima-hills-critical-minerals-deals",
       "published_at": "2026-10-02T14:02:22Z"
+    },
+    {
+      "title": "MoH Moves to End Dual-System Friction in SHA Claims Processing",
+      "angle": "Focusing on the practical elimination of dual-system administrative drag in hospital care and claims workflows caused by parallel software platforms.",
+      "angle_type": "practical change",
+      "opening": "Practical-change lead highlighting the removal of dual-system software entry in hospital workflows.",
+      "structure": "Workflow elimination lead -> CS Duale's systemic clarification -> DHA dual-entry context and patient impact -> Integrated HMIS point-of-care mechanics -> Verification safeguards and implementation roadmap",
+      "source": "https://kenyans.co.ke/news/127546-health-ministry-clarifies-sha-portal-transition-hmis",
+      "published_at": "2026-10-02T15:02:15Z"
     }
   ]
 }
