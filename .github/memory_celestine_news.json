@@ -762,10 +762,10 @@
     "148e4307eea152d12fe1ca2d8534b038",
     "58a94ba46d4ac54466aef3594b56e742",
     "4007414ed86bf51a91afd74748b4166e",
-    "2786c5d01e91e4d329e5ac89a5f00cfe"
+    "2786c5d01e91e4d329e5ac89a5f00cfe",
+    "aa5f46938715ea434e612b941c4e69ea"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -794,7 +794,8 @@
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1141,7 +1142,8 @@
     "https://kenyans.co.ke/news/127524-suspected-multimillion-shilling-cybercriminal-remain-custody-after-arrest-kericho",
     "https://kenyans.co.ke/news/127522-mp-proposes-new-rules-curb-foreign-currency-hoarding-kenya",
     "https://kenyans.co.ke/news/127529-motorists-spend-night-stuck-10-hour-traffic-jam-along-nairobi-mombasa-highway",
-    "https://kenyans.co.ke/news/127531-kenha-announces-month-long-closure-waiyaki-way-between-kempinski-and-museum-hill"
+    "https://kenyans.co.ke/news/127531-kenha-announces-month-long-closure-waiyaki-way-between-kempinski-and-museum-hill",
+    "https://kenyans.co.ke/news/127530-kenya-eyes-ksh127-billion-world-bank-afdb-loan-amid-imf-setback"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1410,7 +1412,8 @@
     "ksh bail strategy collapses ksh 96m cyber fraud suspect arrested remanded",
     "parliament pushes back bill seeks impose foreign currency controls",
     "overlapping strangles a109 kapiti trailer crash triggers overnight paralysis",
-    "waiyaki way faces second major bottleneck three months kenha races seasonal rains"
+    "waiyaki way faces second major bottleneck three months kenha races seasonal rains",
+    "unlock ksh127b deficit lifeline treasury pledges wealth disclosures pfm overhaul"
   ],
   "topic_keys": [
     "news tracker",
@@ -3102,6 +3105,15 @@
       "structure": "Operational squeeze lead -> Calendar and geographical boundaries of the closure -> Pre-rain engineering context and multi-agency storm prep -> Cumulative corridor friction (GTC stretch, service lanes, Cabanas) -> On-site traffic control protocols and forward outlook",
       "source": "https://kenyans.co.ke/news/127531-kenha-announces-month-long-closure-waiyaki-way-between-kempinski-and-museum-hill",
       "published_at": "2026-10-02T07:02:09Z"
+    },
+    {
+      "title": "To Unlock Ksh127B Deficit Lifeline, Treasury Pledges Wealth Disclosures and PFM Overhaul",
+      "angle": "The governance and statutory price tag of the funding pivot: to secure the Ksh127 billion stopgap while the IMF remains on pause, Treasury must enact contentious public integrity concessions, including mandatory wealth and private interest declarations for state officials, tighter PPP controls, and amendments to the Public Finance Management Act.",
+      "angle_type": "accountability",
+      "opening": "Policy conditionality lead highlighting the governance reforms traded for immediate multilateral cash inflows.",
+      "structure": "Conditionality trade-off lead -> Funding package breakdown and deficit drivers -> Governance mandates (asset disclosures, PPPs, PFM amendments) -> IMF transition bottleneck and timeline -> Alternative debt pipeline and forward outlook.",
+      "source": "https://kenyans.co.ke/news/127530-kenya-eyes-ksh127-billion-world-bank-afdb-loan-amid-imf-setback",
+      "published_at": "2026-10-02T08:02:12Z"
     }
   ]
 }
