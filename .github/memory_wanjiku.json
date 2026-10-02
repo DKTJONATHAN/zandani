@@ -132,7 +132,8 @@
     "963b3baeba7e02afee278d4fda1edc9bbe844594183fbfe255ed14b2215a6976",
     "ed5c41cb299dab8af1c541ad92dec256c349131059f77750aeb6f43dc1fd46ea",
     "09f766216f13d0d92aa70838cb4ad846a5eba6f15147ccdfff69abf7dc55b072",
-    "2be7766c0c48a87049fa53147c8e46c8935b4652a85a8a643710940b23cdf784"
+    "2be7766c0c48a87049fa53147c8e46c8935b4652a85a8a643710940b23cdf784",
+    "5ba7e043d5372fd1289a978048ba875743477a59bcf8a51227e7322df3a13314"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -267,17 +268,10 @@
     "https://www.ghafla.co.ke/family-friends-gather-to-mourn-wicknell-chivayo-and-wife-lucy-muteke/",
     "https://www.ghafla.co.ke/jalango-reveals-performers-for-raila-odinga-candle-lighting-event-at-uhuru-park/",
     "https://www.ghafla.co.ke/sarah-mtalii-reveals-qualities-she-wants-in-a-future-partner/",
-    "https://www.ghafla.co.ke/leveling-the-playing-field-how-campaign-financing-works-in-kenya/"
+    "https://www.ghafla.co.ke/leveling-the-playing-field-how-campaign-financing-works-in-kenya/",
+    "https://www.ghafla.co.ke/sarah-kabu-reveals-bonfire-adventures-is-seeking-investor-after-split-from-simon/"
   ],
   "published_angles": [
-    {
-      "title": "Uhuru\u2019s Retroactive 2022 Verdict Opens Old Wounds Over Azimio\u2019s Botched Logistics",
-      "angle": "Examining how Uhuru's retroactive endorsement detonates internal Azimio post-mortem grievances\u2014specifically dragging past disputes over Westlands campaign funds, unmanaged polling agents, and Junet Mohamed's defensive ledger back into the public eye.",
-      "angle_type": "internal coalition accountability and political fallout",
-      "opening": "Start directly with the retroactive declaration and its immediate shockwave inside the former coalition's fragile post-mortem machinery.",
-      "structure": "Uhuru's specific 'Baba won' quote -> The Supreme Court's 2022 validation reality -> The historical fault lines over agent logistics (Kanchory, Kioni, Owino) -> Junet Mohamed's Westlands cash-management defense -> Unresolved coalition friction.",
-      "source": "https://www.ghafla.co.ke/uhuru-kenyatta-insists-the-late-raila-odinga-won-the-2022-presidential-election/"
-    },
     {
       "title": "High Court Bomas Ruling Solidifies a Hard-to-Shift Electoral Architecture",
       "angle": "The judicial validation of 'Bomas' as the final arbiter creates a permanent conflict with the 'Constituency-is-Final' movement led by figures like David Maraga; this article focuses on how this ruling effectively fossilizes a point of friction that experts and activists were actively trying to dissolve.",
@@ -1069,6 +1063,14 @@
       "opening": "Direct focus on the administrative and financial squeeze awaiting political aspirants under the statutory 12-month spending cap timeline.",
       "structure": "Regulatory hook on the 12-month cap deadline -> Mechanics of the spending formulas -> Mandatory expenditure committees and official accounts -> Donor limits and foreign cash disclosure -> The parliamentary resistance context and enforcement close",
       "source": "https://www.ghafla.co.ke/leveling-the-playing-field-how-campaign-financing-works-in-kenya/"
+    },
+    {
+      "title": "Sarah Kabu Puts Bonfire on the Block: Multi-Billion Tour Giant Hunts Buyer After Marital Split",
+      "angle": "Framing the investor search as an outright corporate buyout push triggered by the fallout of their high-profile divorce, spotlighting Sarah's rare admission that customer loyalty fractured along personal battle lines despite the brand's multi-billion revenue posture.",
+      "angle_type": "celebrity corporate unraveling and buyout push",
+      "opening": "Personality lead opening directly on Sarah Kabu placing Bonfire Adventures on the corporate negotiating table to offload ownership to external buyers.",
+      "structure": "Personality and buyout hook -> The Radio Jambo disclosure on domestic and foreign acquisition talks -> The customer erosion and factional loyalty fallout -> Financial defense of the multi-billion valuation -> The divorce context and boardroom fracture close",
+      "source": "https://www.ghafla.co.ke/sarah-kabu-reveals-bonfire-adventures-is-seeking-investor-after-split-from-simon/"
     }
   ],
   "style_history": [
