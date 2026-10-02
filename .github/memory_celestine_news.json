@@ -767,10 +767,10 @@
     "8561b7dd41c649b4607bd8837f526c69",
     "3886fc37cb521a1d35fb08d56a43b2e5",
     "47275df387215fd8496bda0d2f27e0a7",
-    "733c4f354685d5d31dccc01d06b7c791"
+    "733c4f354685d5d31dccc01d06b7c791",
+    "d207772ee7a4da15fa9ae87ced79b9f1"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -799,7 +799,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1151,7 +1152,8 @@
     "https://kenyans.co.ke/news/127527-kenyans-given-14-days-submit-views-govt-moves-change-border-regulations",
     "https://kenyans.co.ke/news/127536-counter-protests-erupt-after-pro-government-supporters-demonstrate-standard-group-hq",
     "https://kenyans.co.ke/news/127539-boni-khalwale-eyes-kakamega-governor-seat-sifunas-party",
-    "https://kenyans.co.ke/news/127538-ca-directs-telcos-send-el-nino-alerts-all-subscribers"
+    "https://kenyans.co.ke/news/127538-ca-directs-telcos-send-el-nino-alerts-all-subscribers",
+    "https://kenyans.co.ke/news/127545-kwale-residents-demand-inclusion-mrima-hills-critical-minerals-deals"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1425,7 +1427,8 @@
     "cross agency data hub link kra immigration under proposed border rules",
     "social media mombasa road presidential attacks mobilised protests standard group",
     "upm obtains full registration status khalwale pledges gubernatorial ticket sifuna party choice",
-    "state overrides mobile privacy settings force alerts all screens"
+    "state overrides mobile privacy settings force alerts all screens",
+    "land title timebomb menacing joho late october mrima hills mining deal"
   ],
   "topic_keys": [
     "news tracker",
@@ -3162,6 +3165,15 @@
       "structure": "Regulatory override lead -> Tactical details of the privacy exemption and Short Code 1590 -> Operational and network prioritization burdens on telcos -> Meteorological urgency and county timelines -> Upcoming simulation as the critical systems test.",
       "source": "https://kenyans.co.ke/news/127538-ca-directs-telcos-send-el-nino-alerts-all-subscribers",
       "published_at": "2026-10-02T13:02:20Z"
+    },
+    {
+      "title": "The Land Title Timebomb Menacing Joho\u2019s Late-October Mrima Hills Mining Deal",
+      "angle": "The collision between the Ministry of Mining's fast-tracked late-October international bidding deadline and the unresolved, systemic land succession backlog in Lungalunga, which leaves local families legally vulnerable to displacement.",
+      "angle_type": "accountability",
+      "opening": "An accountability-driven lead contrasting the government's late-October international bidding deadline with the unresolved land tenure crisis on the ground in Kwale.",
+      "structure": "Bidding deadline vs local land reality -> Profile of the global corporate interest and state timeline -> The land succession bottleneck in Lungalunga -> Community demands for transparency and legal safeguards -> The upcoming late-October milestone.",
+      "source": "https://kenyans.co.ke/news/127545-kwale-residents-demand-inclusion-mrima-hills-critical-minerals-deals",
+      "published_at": "2026-10-02T14:02:22Z"
     }
   ]
 }
