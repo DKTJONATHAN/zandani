@@ -131,7 +131,8 @@
     "e342eed4fb81f84f662c127179c92949494d5f35165afd8ccb6c383f74632105",
     "963b3baeba7e02afee278d4fda1edc9bbe844594183fbfe255ed14b2215a6976",
     "ed5c41cb299dab8af1c541ad92dec256c349131059f77750aeb6f43dc1fd46ea",
-    "09f766216f13d0d92aa70838cb4ad846a5eba6f15147ccdfff69abf7dc55b072"
+    "09f766216f13d0d92aa70838cb4ad846a5eba6f15147ccdfff69abf7dc55b072",
+    "2be7766c0c48a87049fa53147c8e46c8935b4652a85a8a643710940b23cdf784"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -265,17 +266,10 @@
     "https://www.ghafla.co.ke/bensoul-reveals-tb-battle-forced-him-to-quit-music-for-six-months/",
     "https://www.ghafla.co.ke/family-friends-gather-to-mourn-wicknell-chivayo-and-wife-lucy-muteke/",
     "https://www.ghafla.co.ke/jalango-reveals-performers-for-raila-odinga-candle-lighting-event-at-uhuru-park/",
-    "https://www.ghafla.co.ke/sarah-mtalii-reveals-qualities-she-wants-in-a-future-partner/"
+    "https://www.ghafla.co.ke/sarah-mtalii-reveals-qualities-she-wants-in-a-future-partner/",
+    "https://www.ghafla.co.ke/leveling-the-playing-field-how-campaign-financing-works-in-kenya/"
   ],
   "published_angles": [
-    {
-      "title": "Lawyer Lewis Uriri Turns Down Chivayo\u2019s KSh32M Range Rover and Cash Windfall",
-      "angle": "Examining Uriri's strict professional boundary-setting and his invocation of regional legal codes of conduct to reject a major personal windfall that he frames as a threat to his independence.",
-      "angle_type": "professional accountability and boundary-setting",
-      "opening": "Personality lead focusing directly on Lewis Uriri drawing a hard ethical line against an unsolicited fleet of luxury gifts.",
-      "structure": "Professional boundary hook -> Breakdown of Chivayo's multi-million gift offer -> Uriri's timeline clarification (June 2024 cutoff) -> Legal ethics and independence rationale -> Final closure on the refusal.",
-      "source": "https://www.ghafla.co.ke/lawyer-lewis-uriri-rejects-ksh32-million-range-rover-and-cash-gifts-from-wicknell-chivayo/"
-    },
     {
       "title": "Uhuru\u2019s Retroactive 2022 Verdict Opens Old Wounds Over Azimio\u2019s Botched Logistics",
       "angle": "Examining how Uhuru's retroactive endorsement detonates internal Azimio post-mortem grievances\u2014specifically dragging past disputes over Westlands campaign funds, unmanaged polling agents, and Junet Mohamed's defensive ledger back into the public eye.",
@@ -1067,6 +1061,14 @@
       "opening": "Personality lead opening directly on Sarah Mtalii setting new lifestyle criteria that prioritize memory-making over pure wealth accumulation.",
       "structure": "Personality and lifestyle criteria hook -> The 'big spoon' philosophy vs pure wealth -> Clarification of the platonic male travel companion -> Corporate continuity at Bonfire Adventures post-divorce.",
       "source": "https://www.ghafla.co.ke/sarah-mtalii-reveals-qualities-she-wants-in-a-future-partner/"
+    },
+    {
+      "title": "No More Slush Funds: How IEBC\u2019s Tightened Spending Caps Will Squeeze 2027 Aspirants",
+      "angle": "Focusing on the practical administrative squeeze facing political aspirants\u2014specifically the mandatory creation of designated expenditure committees and registered bank accounts under formulas tied to voter density, following years of parliamentary pushback.",
+      "angle_type": "regulatory enforcement and campaign compliance",
+      "opening": "Direct focus on the administrative and financial squeeze awaiting political aspirants under the statutory 12-month spending cap timeline.",
+      "structure": "Regulatory hook on the 12-month cap deadline -> Mechanics of the spending formulas -> Mandatory expenditure committees and official accounts -> Donor limits and foreign cash disclosure -> The parliamentary resistance context and enforcement close",
+      "source": "https://www.ghafla.co.ke/leveling-the-playing-field-how-campaign-financing-works-in-kenya/"
     }
   ],
   "style_history": [
