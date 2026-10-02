@@ -760,10 +760,10 @@
     "105ab95115e0be178d24f67e25058206",
     "491a4c22709eb3193c45209c61f2d203",
     "148e4307eea152d12fe1ca2d8534b038",
-    "58a94ba46d4ac54466aef3594b56e742"
+    "58a94ba46d4ac54466aef3594b56e742",
+    "4007414ed86bf51a91afd74748b4166e"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -792,7 +792,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1137,7 +1138,8 @@
     "https://kenyans.co.ke/news/127521-dci-arrests-13-suspects-international-fake-gold-and-dollar-syndicate",
     "https://kenyans.co.ke/news/127523-murkomen-defends-plan-issue-ids-and-voter-cards-kenyans-uganda",
     "https://kenyans.co.ke/news/127524-suspected-multimillion-shilling-cybercriminal-remain-custody-after-arrest-kericho",
-    "https://kenyans.co.ke/news/127522-mp-proposes-new-rules-curb-foreign-currency-hoarding-kenya"
+    "https://kenyans.co.ke/news/127522-mp-proposes-new-rules-curb-foreign-currency-hoarding-kenya",
+    "https://kenyans.co.ke/news/127529-motorists-spend-night-stuck-10-hour-traffic-jam-along-nairobi-mombasa-highway"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1404,7 +1406,8 @@
     "nairobi gold scammers weaponized state security lure foreign targets",
     "murkomen cross border push collides electoral oversight demands",
     "ksh bail strategy collapses ksh 96m cyber fraud suspect arrested remanded",
-    "parliament pushes back bill seeks impose foreign currency controls"
+    "parliament pushes back bill seeks impose foreign currency controls",
+    "overlapping strangles a109 kapiti trailer crash triggers overnight paralysis"
   ],
   "topic_keys": [
     "news tracker",
@@ -3078,6 +3081,15 @@
       "structure": "Legislative pushback lead -> Proposed penalties and election rationale -> Historical debate over free-market forex controls -> Institutional implications for monetary policy -> Next parliamentary steps.",
       "source": "https://kenyans.co.ke/news/127522-mp-proposes-new-rules-curb-foreign-currency-hoarding-kenya",
       "published_at": "2026-10-02T01:25:28Z"
+    },
+    {
+      "title": "Overlapping Strangles A109 as Kapiti Trailer Crash Triggers Overnight Paralysis",
+      "angle": "Examine the corridor paralysis through the operational breakdown identified by transit operators: how immediate lane overlapping by desperate drivers turned a single two-truck accident at Kapiti Plains into an unnavigable multi-sector shutdown linking Athi River, Konza, and Malili.",
+      "angle_type": "consequence",
+      "opening": "Attribution and systemic corridor failure lead highlighting the compounding role of motorist overlapping on the A109.",
+      "structure": "Corridor disruption lead -> LoDDCA statement and operational assessment -> Crash mechanics at Kapiti Plains -> Geographical span of the multi-node gridlock -> Immediate clearance and transit implications.",
+      "source": "https://kenyans.co.ke/news/127529-motorists-spend-night-stuck-10-hour-traffic-jam-along-nairobi-mombasa-highway",
+      "published_at": "2026-10-02T06:02:27Z"
     }
   ]
 }
