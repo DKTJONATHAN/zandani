@@ -129,7 +129,8 @@
     "9bad25eb2578c01c98a75179ba08f8bde9978e05037659461bd3b2aaa977080d",
     "961d61972f1736dd790bca7f134b06759625cd5e2a46d7b556cbe27f804cd6ae",
     "e342eed4fb81f84f662c127179c92949494d5f35165afd8ccb6c383f74632105",
-    "963b3baeba7e02afee278d4fda1edc9bbe844594183fbfe255ed14b2215a6976"
+    "963b3baeba7e02afee278d4fda1edc9bbe844594183fbfe255ed14b2215a6976",
+    "ed5c41cb299dab8af1c541ad92dec256c349131059f77750aeb6f43dc1fd46ea"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -261,17 +262,10 @@
     "https://www.ghafla.co.ke/president-ruto-pledges-60000-coastal-youth-jobs-in-lamu-dongo-kundu-and-vipingo-mega-projects/",
     "https://www.ghafla.co.ke/eric-omondi-steps-in-to-support-georgina-njenga-amid-growing-concern/",
     "https://www.ghafla.co.ke/bensoul-reveals-tb-battle-forced-him-to-quit-music-for-six-months/",
-    "https://www.ghafla.co.ke/family-friends-gather-to-mourn-wicknell-chivayo-and-wife-lucy-muteke/"
+    "https://www.ghafla.co.ke/family-friends-gather-to-mourn-wicknell-chivayo-and-wife-lucy-muteke/",
+    "https://www.ghafla.co.ke/jalango-reveals-performers-for-raila-odinga-candle-lighting-event-at-uhuru-park/"
   ],
   "published_angles": [
-    {
-      "title": "Uhuru Kenyatta\u2019s Backstage Pivot: Handing the Jubilee Mic to Fred Matiang\u2019i After Court Eviction Notice",
-      "angle": "Reframing Uhuru's exit not as a political retirement, but as a strategic corporate-style 'backstage pivot' to a senior advisory role to bypass a tight judicial deadline, leaving his former chief enforcer, Fred Matiang'i, to take the heat in the spotlight.",
-      "angle_type": "personality-driven strategic pivot",
-      "opening": "Personality-led opening focusing on Uhuru's tactical shift to a backstage role rather than a quiet exit.",
-      "structure": "Tactical pivot hook -> Details of the Nairobi handoff meeting -> The legal pressure (High Court ruling) -> Matiang'i's new role and corporate-style partnership with Kioni -> Strategic outlook for Jubilee heading to the NDC.",
-      "source": "https://www.ghafla.co.ke/uhuru-kenyatta-hands-over-jubilee-party-leadership-to-fred-matiangi-ahead-of-ndc/"
-    },
     {
       "title": "Uhuru Kenyatta Reclaims the Mic: \u2018They Call Me Sponsor, Rebel Leader\u2014I Do Not Fear\u2019",
       "angle": "Focusing on the highly personal celebrity-style clapback, specifically Uhuru\u2019s defiant response to the personal nicknames ('sponsor' and 'rebel leader') and his mockery of the administration's obsession with his name ('Uhuru this, Uhuru that') four years after leaving office.",
@@ -1063,6 +1057,14 @@
       "opening": "Personality lead focusing on the joint burial agreement made by the families during the Harare vigil.",
       "structure": "Family agreement hook -> Description of the Borrowdale vigil -> The role and reaction of Chivayo\u2019s church community -> The scientific bottlenecks of the forensic identification process -> Next steps for the families.",
       "source": "https://www.ghafla.co.ke/family-friends-gather-to-mourn-wicknell-chivayo-and-wife-lucy-muteke/"
+    },
+    {
+      "title": "Jalang\u2019o Blends 'Lero ni Lero' Campaign Nostalgia and Ohangla for Raila's Year-One Memorial",
+      "angle": "Reframing the memorial through Jalang'o's veteran showbiz lens\u2014specifically how he is curating a unique musical playlist that bridges 'Lero ni Lero' campaign nostalgia, solemn gospel, and secular Ohangla to honor Raila's political and cultural legacy.",
+      "angle_type": "celebrity curation and event programming",
+      "opening": "Focusing directly on Jalang'o's showbiz-promoter approach to organizing the national icon's first-year memorial.",
+      "structure": "Showbiz curation lead -> The campaign nostalgia of 'Lero ni Lero' -> The gospel and secular balance (Prince Indah's headliner set) -> 'Mwezi wa Baba' and the road to Jacaranda Grounds.",
+      "source": "https://www.ghafla.co.ke/jalango-reveals-performers-for-raila-odinga-candle-lighting-event-at-uhuru-park/"
     }
   ],
   "style_history": [
