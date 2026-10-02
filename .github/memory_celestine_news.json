@@ -766,10 +766,10 @@
     "aa5f46938715ea434e612b941c4e69ea",
     "8561b7dd41c649b4607bd8837f526c69",
     "3886fc37cb521a1d35fb08d56a43b2e5",
-    "47275df387215fd8496bda0d2f27e0a7"
+    "47275df387215fd8496bda0d2f27e0a7",
+    "733c4f354685d5d31dccc01d06b7c791"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -798,7 +798,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1149,7 +1150,8 @@
     "https://kenyans.co.ke/news/127530-kenya-eyes-ksh127-billion-world-bank-afdb-loan-amid-imf-setback",
     "https://kenyans.co.ke/news/127527-kenyans-given-14-days-submit-views-govt-moves-change-border-regulations",
     "https://kenyans.co.ke/news/127536-counter-protests-erupt-after-pro-government-supporters-demonstrate-standard-group-hq",
-    "https://kenyans.co.ke/news/127539-boni-khalwale-eyes-kakamega-governor-seat-sifunas-party"
+    "https://kenyans.co.ke/news/127539-boni-khalwale-eyes-kakamega-governor-seat-sifunas-party",
+    "https://kenyans.co.ke/news/127538-ca-directs-telcos-send-el-nino-alerts-all-subscribers"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1422,7 +1424,8 @@
     "unlock ksh127b deficit lifeline treasury pledges wealth disclosures pfm overhaul",
     "cross agency data hub link kra immigration under proposed border rules",
     "social media mombasa road presidential attacks mobilised protests standard group",
-    "upm obtains full registration status khalwale pledges gubernatorial ticket sifuna party choice"
+    "upm obtains full registration status khalwale pledges gubernatorial ticket sifuna party choice",
+    "state overrides mobile privacy settings force alerts all screens"
   ],
   "topic_keys": [
     "news tracker",
@@ -3150,6 +3153,15 @@
       "structure": "Registration context lead -> Khalwale's explicit pledge and party options -> ORPP regulatory compliance requirements -> Coalition architecture under Linda Mwananchi -> Upcoming October timeline.",
       "source": "https://kenyans.co.ke/news/127539-boni-khalwale-eyes-kakamega-governor-seat-sifunas-party",
       "published_at": "2026-10-02T11:02:10Z"
+    },
+    {
+      "title": "State Overrides Mobile Privacy Settings to Force El Ni\u00f1o Alerts to All Screens",
+      "angle": "The regulatory override of standard consumer privacy boundaries\u2014specifically the suspension of Do-Not-Disturb (DND) and opt-out preferences\u2014to establish an un-bypassable state communication pipeline on every active mobile screen.",
+      "angle_type": "practical change",
+      "opening": "Focusing on the operational suspension of consumer privacy configurations (DND and opt-out registries) to turn mobile handsets into mandatory state emergency receivers.",
+      "structure": "Regulatory override lead -> Tactical details of the privacy exemption and Short Code 1590 -> Operational and network prioritization burdens on telcos -> Meteorological urgency and county timelines -> Upcoming simulation as the critical systems test.",
+      "source": "https://kenyans.co.ke/news/127538-ca-directs-telcos-send-el-nino-alerts-all-subscribers",
+      "published_at": "2026-10-02T13:02:20Z"
     }
   ]
 }
