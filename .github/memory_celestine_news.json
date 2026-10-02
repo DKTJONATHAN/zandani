@@ -764,10 +764,10 @@
     "4007414ed86bf51a91afd74748b4166e",
     "2786c5d01e91e4d329e5ac89a5f00cfe",
     "aa5f46938715ea434e612b941c4e69ea",
-    "8561b7dd41c649b4607bd8837f526c69"
+    "8561b7dd41c649b4607bd8837f526c69",
+    "3886fc37cb521a1d35fb08d56a43b2e5"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
@@ -796,7 +796,8 @@
     "Statement Report",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1145,7 +1146,8 @@
     "https://kenyans.co.ke/news/127529-motorists-spend-night-stuck-10-hour-traffic-jam-along-nairobi-mombasa-highway",
     "https://kenyans.co.ke/news/127531-kenha-announces-month-long-closure-waiyaki-way-between-kempinski-and-museum-hill",
     "https://kenyans.co.ke/news/127530-kenya-eyes-ksh127-billion-world-bank-afdb-loan-amid-imf-setback",
-    "https://kenyans.co.ke/news/127527-kenyans-given-14-days-submit-views-govt-moves-change-border-regulations"
+    "https://kenyans.co.ke/news/127527-kenyans-given-14-days-submit-views-govt-moves-change-border-regulations",
+    "https://kenyans.co.ke/news/127536-counter-protests-erupt-after-pro-government-supporters-demonstrate-standard-group-hq"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1416,7 +1418,8 @@
     "overlapping strangles a109 kapiti trailer crash triggers overnight paralysis",
     "waiyaki way faces second major bottleneck three months kenha races seasonal rains",
     "unlock ksh127b deficit lifeline treasury pledges wealth disclosures pfm overhaul",
-    "cross agency data hub link kra immigration under proposed border rules"
+    "cross agency data hub link kra immigration under proposed border rules",
+    "social media mombasa road presidential attacks mobilised protests standard group"
   ],
   "topic_keys": [
     "news tracker",
@@ -3126,6 +3129,15 @@
       "structure": "Integration lead -> Factual breakdown of the 14-day participation window and submission logistics -> Technical specifics of cross-agency data sharing -> Interlocking impact on foreign business documentation requirements -> Next procedural developments ahead of the October 16 deadline.",
       "source": "https://kenyans.co.ke/news/127527-kenyans-given-14-days-submit-views-govt-moves-change-border-regulations",
       "published_at": "2026-10-02T08:09:39Z"
+    },
+    {
+      "title": "From Social Media to Mombasa Road: How Presidential Attacks Mobilised Protests at Standard Group HQ",
+      "angle": "The physical translation of high-level executive rhetoric into a direct, localized security threat, illustrating how online presidential attacks against a media house manifest as street-level mobilization targeting newsroom infrastructure.",
+      "angle_type": "institutional pressure",
+      "opening": "An operational lead establishing how social-media-driven political hostility has materialized into a physical security challenge at a major media headquarters.",
+      "structure": "Physical confrontation details -> Direct link to presidential rhetoric -> Media house's security and legal posture -> Editorial independence response -> Unresolved press freedom tension.",
+      "source": "https://kenyans.co.ke/news/127536-counter-protests-erupt-after-pro-government-supporters-demonstrate-standard-group-hq",
+      "published_at": "2026-10-02T10:01:39Z"
     }
   ]
 }
