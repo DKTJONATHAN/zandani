@@ -126,7 +126,8 @@
     "cfa36eac5bcd66431f6073b764555a4ed0fa7270ebe3eaf3b007efcebccc6436",
     "6979fddfe31df76ba5d329f0f969245f8616bae5375079ac550572cfc21fb776",
     "35e0ba8442dae0b4bb29393b049d55796782419d246ba1f05c6ddcd07878cc7f",
-    "9bad25eb2578c01c98a75179ba08f8bde9978e05037659461bd3b2aaa977080d"
+    "9bad25eb2578c01c98a75179ba08f8bde9978e05037659461bd3b2aaa977080d",
+    "961d61972f1736dd790bca7f134b06759625cd5e2a46d7b556cbe27f804cd6ae"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -255,17 +256,10 @@
     "https://www.ghafla.co.ke/green-light-for-linda-mwananchi-as-orengo-pledges-support-for-unified-presidential-ticket/",
     "https://www.ghafla.co.ke/we-will-not-lose-another-person-eric-omondi-seeks-help-to-find-georgina-njenga-following-distressing-posts/",
     "https://www.ghafla.co.ke/siaya-governor-james-orengo-set-to-launch-new-political-party-ahead-of-2027-elections/",
-    "https://www.ghafla.co.ke/president-ruto-pledges-60000-coastal-youth-jobs-in-lamu-dongo-kundu-and-vipingo-mega-projects/"
+    "https://www.ghafla.co.ke/president-ruto-pledges-60000-coastal-youth-jobs-in-lamu-dongo-kundu-and-vipingo-mega-projects/",
+    "https://www.ghafla.co.ke/eric-omondi-steps-in-to-support-georgina-njenga-amid-growing-concern/"
   ],
   "published_angles": [
-    {
-      "title": "Rigathi Gachagua Weaponizes a Dropped Headpiece to Cast 'Spiritual Shade' on DP Kindiki",
-      "angle": "Focusing on the theatricality of Gachagua weaponizing a literal 'wardrobe malfunction' (the dropped traditional headpiece) as spiritual, ancestral proof of rejection to delegitimize his political successor.",
-      "angle_type": "symbolic mishap / theatrical political shade",
-      "opening": "Open directly on Gachagua turning a clumsy ceremonial slip-up into high-stakes ancestral shade during a US diaspora meeting.",
-      "structure": "The theatrical hook (the dropped headpiece) -> The Kansas City town hall setting -> Gachagua's specific 'spiritual veto' framing and quotes -> The hypocrisy allegation regarding 'mountain' politics -> The underlying DCP vs. State-backed leadership struggle.",
-      "source": "https://www.ghafla.co.ke/rigathi-gachagua-slams-dp-kindikis-cultural-coronation-during-us-diaspora-meeting/"
-    },
     {
       "title": "Beyond the Degree: How Co-op Bank\u2019s Youth Forum Is Decoding the Rise of Kenya\u2019s Portfolio Hustle",
       "angle": "Reframing the webinar's insights around the practical dismantling of Kenya's traditional degree-to-corporate career script, examining how young professionals are forced to build hybrid 'portfolio careers' and transferable skill sets to navigate a constrained formal economy.",
@@ -1057,6 +1051,14 @@
       "opening": "Personality lead opening directly on President William Ruto laying down an operational directive to Coast leaders during a regional engagement.",
       "structure": "Ruto challenge lead -> Breakdown of Dangote's KSh 2.2T Lamu refinery -> Dongo Kundu SEZ and Vipingo hubs -> Directive on local admin and skills coordination -> Concrete close on operational readiness.",
       "source": "https://www.ghafla.co.ke/president-ruto-pledges-60000-coastal-youth-jobs-in-lamu-dongo-kundu-and-vipingo-mega-projects/"
+    },
+    {
+      "title": "Eric Omondi Moves From Online SOS to Chiromo Hospital Intake for Georgina Njenga",
+      "angle": "The practical logistical details and medical pathways of how celebrity emergency interventions actually bridge online panic to clinical intake at facilities like Chiromo Hospital Group.",
+      "angle_type": "practical medical intervention and institutional pathway",
+      "opening": "Personality-led focus on the operational shift from public social media alarm to direct clinical intervention.",
+      "structure": "Clinical intervention hook -> The shift from online SOS to physical visitation -> Breakdown of Chiromo Hospital Group's clinical offerings -> Previous digital warning signs and public commentary context -> Concrete close on the professional medical assessment phase.",
+      "source": "https://www.ghafla.co.ke/eric-omondi-steps-in-to-support-georgina-njenga-amid-growing-concern/"
     }
   ],
   "style_history": [
