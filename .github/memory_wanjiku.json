@@ -130,7 +130,8 @@
     "961d61972f1736dd790bca7f134b06759625cd5e2a46d7b556cbe27f804cd6ae",
     "e342eed4fb81f84f662c127179c92949494d5f35165afd8ccb6c383f74632105",
     "963b3baeba7e02afee278d4fda1edc9bbe844594183fbfe255ed14b2215a6976",
-    "ed5c41cb299dab8af1c541ad92dec256c349131059f77750aeb6f43dc1fd46ea"
+    "ed5c41cb299dab8af1c541ad92dec256c349131059f77750aeb6f43dc1fd46ea",
+    "09f766216f13d0d92aa70838cb4ad846a5eba6f15147ccdfff69abf7dc55b072"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -263,17 +264,10 @@
     "https://www.ghafla.co.ke/eric-omondi-steps-in-to-support-georgina-njenga-amid-growing-concern/",
     "https://www.ghafla.co.ke/bensoul-reveals-tb-battle-forced-him-to-quit-music-for-six-months/",
     "https://www.ghafla.co.ke/family-friends-gather-to-mourn-wicknell-chivayo-and-wife-lucy-muteke/",
-    "https://www.ghafla.co.ke/jalango-reveals-performers-for-raila-odinga-candle-lighting-event-at-uhuru-park/"
+    "https://www.ghafla.co.ke/jalango-reveals-performers-for-raila-odinga-candle-lighting-event-at-uhuru-park/",
+    "https://www.ghafla.co.ke/sarah-mtalii-reveals-qualities-she-wants-in-a-future-partner/"
   ],
   "published_angles": [
-    {
-      "title": "Uhuru Kenyatta Reclaims the Mic: \u2018They Call Me Sponsor, Rebel Leader\u2014I Do Not Fear\u2019",
-      "angle": "Focusing on the highly personal celebrity-style clapback, specifically Uhuru\u2019s defiant response to the personal nicknames ('sponsor' and 'rebel leader') and his mockery of the administration's obsession with his name ('Uhuru this, Uhuru that') four years after leaving office.",
-      "angle_type": "personality clapback and narrative reclaiming",
-      "opening": "Start directly with Uhuru addressing the personal labels and declaring his lack of fear.",
-      "structure": "Person and label hook -> Details of the 'sponsor' and 'rebel leader' drama -> The 'Uhuru this, Uhuru that' critique of Ruto's fixation -> Legal context of the handover (Justice Mugambi's ruling) -> Legacy defense and defiant close.",
-      "source": "https://www.ghafla.co.ke/uhuru-to-ruto-focus-on-serving-kenyans/"
-    },
     {
       "title": "Lawyer Lewis Uriri Turns Down Chivayo\u2019s KSh32M Range Rover and Cash Windfall",
       "angle": "Examining Uriri's strict professional boundary-setting and his invocation of regional legal codes of conduct to reject a major personal windfall that he frames as a threat to his independence.",
@@ -1065,6 +1059,14 @@
       "opening": "Focusing directly on Jalang'o's showbiz-promoter approach to organizing the national icon's first-year memorial.",
       "structure": "Showbiz curation lead -> The campaign nostalgia of 'Lero ni Lero' -> The gospel and secular balance (Prince Indah's headliner set) -> 'Mwezi wa Baba' and the road to Jacaranda Grounds.",
       "source": "https://www.ghafla.co.ke/jalango-reveals-performers-for-raila-odinga-candle-lighting-event-at-uhuru-park/"
+    },
+    {
+      "title": "Sarah Mtalii Pivots to \u2018Big Spoon\u2019 Living as She Sets Rules for Any Future Suitor",
+      "angle": "Framing Mtalii's remarks around her post-divorce relational pivot\u2014specifically trading the fixation on pure wealth accumulation for memory creation and emotional peace, while drawing firm public boundaries around her platonic male companionship.",
+      "angle_type": "celebrity lifestyle pivot and relationship boundaries",
+      "opening": "Personality lead opening directly on Sarah Mtalii setting new lifestyle criteria that prioritize memory-making over pure wealth accumulation.",
+      "structure": "Personality and lifestyle criteria hook -> The 'big spoon' philosophy vs pure wealth -> Clarification of the platonic male travel companion -> Corporate continuity at Bonfire Adventures post-divorce.",
+      "source": "https://www.ghafla.co.ke/sarah-mtalii-reveals-qualities-she-wants-in-a-future-partner/"
     }
   ],
   "style_history": [
