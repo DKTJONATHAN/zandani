@@ -121,7 +121,8 @@
     "8b1cd63a81fc460e092fb227c78f4b009911f96f73830c2e726ddc26c42f878a",
     "9afd196001f2c0cc3376432d641268be70b7c773e2301a1831ee88ea6e861ffc",
     "a70b0008f831d5a1d2b7fa19d1f59b99daea9faf2682a246d3e0abf80ad47033",
-    "df69f1e1298e4411fdd17f186deac8c9c5f51b3cc56114f921abd85574a7b365"
+    "df69f1e1298e4411fdd17f186deac8c9c5f51b3cc56114f921abd85574a7b365",
+    "5f7b16072e00d50dff97ee3d307cf166cff6794a32580e4de05e728e27a7b2cc"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -245,17 +246,10 @@
     "https://www.ghafla.co.ke/chivayo-aide-recounts-pilots-final-radio-calls-before-fatal-helicopter-crash/",
     "https://www.ghafla.co.ke/mudavadis-2027-manifesto-peace-integrity-growth/",
     "https://www.ghafla.co.ke/dennis-ombachi-turns-high-school-boarding-meals-into-comedy-but-son-gives-unexpected-verdict/",
-    "https://www.ghafla.co.ke/early-2027-survey-ruto-maintains-lead-as-sifuna-surges-into-second-spot/"
+    "https://www.ghafla.co.ke/early-2027-survey-ruto-maintains-lead-as-sifuna-surges-into-second-spot/",
+    "https://www.ghafla.co.ke/hospital-contracts-extended-sha-ensures-continued-service-delivery-through-mid-october/"
   ],
   "published_angles": [
-    {
-      "title": "Nadia Mukami Keeps the Hits Moving With Arrow Bwoy While Drawing the Line on Romance",
-      "angle": "Focusing on the deliberate commercial separation Nadia Mukami has enforced: keeping the collaborative hitmaker brand alive for business while firmly closing the door on a personal reconciliation.",
-      "angle_type": "commercial pragmatism vs romantic boundaries",
-      "opening": "Personality lead opening directly on Nadia Mukami drawing a firm line between commercial collaboration and romantic reality.",
-      "structure": "Personality lead -> Joint project announcement details -> Contrast with stage gestures and Arrow Bwoy's public overtures -> Nadia's firm boundary and co-parenting reality -> Concrete rollout close",
-      "source": "https://www.ghafla.co.ke/nadia-mukami-and-arrow-bwoy-set-to-release-new-song-after-break-up/"
-    },
     {
       "title": "Strict Anonymity Orders Guard Utumishi Girls Minors as Kibera Court Denies Bail in Murder Case",
       "angle": "Focusing on the strict child-protection legal framework and mandatory anonymity orders enforced by the court, highlighting how the judicial system is managing the unprecedented media and public handling of minors facing capital charges.",
@@ -1047,6 +1041,14 @@
       "opening": "Personality lead opening directly on Edwin Sifuna's sudden vault over veteran establishment figures into second place.",
       "structure": "Personality hook -> Breakdown of the titan pecking order -> Contrast between Sifuna's personal rating and ODM's lagging party standing -> The national sentiment and policy friction lines under Ruto",
       "source": "https://www.ghafla.co.ke/early-2027-survey-ruto-maintains-lead-as-sifuna-surges-into-second-spot/"
+    },
+    {
+      "title": "Dr. Mercy Mwangangi Lays Down 3-Day Ultimatum in High-Stakes SHA Hospital Contracting Push",
+      "angle": "Reframing the administrative extension through Dr. Mercy Mwangangi's strict operational ultimatum\u2014focusing on the tight three-day digital turnaround, the firm 'no further extensions' boundary, and the rollout of HAKIKA clinics to process over 10,000 facilities.",
+      "angle_type": "personality-driven operational ultimatum",
+      "opening": "Personality lead opening directly on Dr. Mercy Mwangangi issuing a high-stakes directive to healthcare providers following the lapse of existing September 30 contracts.",
+      "structure": "Person and directive hook -> Specific terms of the October 1 notice -> Three-day digital signature mandate and patient transfer clause -> Launch of HAKIKA clinics for 10,000+ providers -> Concrete deadline close.",
+      "source": "https://www.ghafla.co.ke/hospital-contracts-extended-sha-ensures-continued-service-delivery-through-mid-october/"
     }
   ],
   "style_history": [
