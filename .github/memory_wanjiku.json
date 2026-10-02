@@ -127,7 +127,8 @@
     "6979fddfe31df76ba5d329f0f969245f8616bae5375079ac550572cfc21fb776",
     "35e0ba8442dae0b4bb29393b049d55796782419d246ba1f05c6ddcd07878cc7f",
     "9bad25eb2578c01c98a75179ba08f8bde9978e05037659461bd3b2aaa977080d",
-    "961d61972f1736dd790bca7f134b06759625cd5e2a46d7b556cbe27f804cd6ae"
+    "961d61972f1736dd790bca7f134b06759625cd5e2a46d7b556cbe27f804cd6ae",
+    "e342eed4fb81f84f662c127179c92949494d5f35165afd8ccb6c383f74632105"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -257,17 +258,10 @@
     "https://www.ghafla.co.ke/we-will-not-lose-another-person-eric-omondi-seeks-help-to-find-georgina-njenga-following-distressing-posts/",
     "https://www.ghafla.co.ke/siaya-governor-james-orengo-set-to-launch-new-political-party-ahead-of-2027-elections/",
     "https://www.ghafla.co.ke/president-ruto-pledges-60000-coastal-youth-jobs-in-lamu-dongo-kundu-and-vipingo-mega-projects/",
-    "https://www.ghafla.co.ke/eric-omondi-steps-in-to-support-georgina-njenga-amid-growing-concern/"
+    "https://www.ghafla.co.ke/eric-omondi-steps-in-to-support-georgina-njenga-amid-growing-concern/",
+    "https://www.ghafla.co.ke/bensoul-reveals-tb-battle-forced-him-to-quit-music-for-six-months/"
   ],
   "published_angles": [
-    {
-      "title": "Beyond the Degree: How Co-op Bank\u2019s Youth Forum Is Decoding the Rise of Kenya\u2019s Portfolio Hustle",
-      "angle": "Reframing the webinar's insights around the practical dismantling of Kenya's traditional degree-to-corporate career script, examining how young professionals are forced to build hybrid 'portfolio careers' and transferable skill sets to navigate a constrained formal economy.",
-      "angle_type": "cultural career shift and gig economy pragmatism",
-      "opening": "Lead on the cultural breakdown of the four-year university promise and the pragmatic pivot toward self-built career paths.",
-      "structure": "Cultural reality check -> Forum hook and World Bank mismatch diagnosis -> The mechanics of transferable skill migration -> Side ventures, freelancing, and the portfolio model -> Institutional routine and weekly practical touchpoints.",
-      "source": "https://www.ghafla.co.ke/co-op-bank-youth-forum-how-young-kenyans-can-build-their-own-career-lane/"
-    },
     {
       "title": "Ksh4.16 Power Hike Hits Nairobi Bills as EPRA Puts a Squeeze on Private Solar and EV Rates",
       "angle": "The operational crunch hitting the creative and small-business underground\u2014specifically how thermal backup costs and new solar/EV grid rules are squeezing independent spaces while fuel charges pay for old fossil-fuel contracts.",
@@ -1059,6 +1053,14 @@
       "opening": "Personality-led focus on the operational shift from public social media alarm to direct clinical intervention.",
       "structure": "Clinical intervention hook -> The shift from online SOS to physical visitation -> Breakdown of Chiromo Hospital Group's clinical offerings -> Previous digital warning signs and public commentary context -> Concrete close on the professional medical assessment phase.",
       "source": "https://www.ghafla.co.ke/eric-omondi-steps-in-to-support-georgina-njenga-amid-growing-concern/"
+    },
+    {
+      "title": "How a Voiceless Six-Month Exile in Embu Forced Bensoul to Build His Own Song Catalog",
+      "angle": "Focusing on the creative and financial survival strategy Bensoul adopted while voiceless in Embu\u2014writing a massive catalog of songs out of desperation to sell them for cash, which ultimately became the bedrock of his own solo career once he recovered.",
+      "angle_type": "creative survival and catalog building under medical duress",
+      "opening": "Personality-centric narrative hook highlighting the physical reality of losing his voice and his plan to sell off his pen to survive.",
+      "structure": "Crisis setup -> The retreat to Embu -> The voiceless songwriting grind -> The post-recovery catalog reclamation.",
+      "source": "https://www.ghafla.co.ke/bensoul-reveals-tb-battle-forced-him-to-quit-music-for-six-months/"
     }
   ],
   "style_history": [
