@@ -139,7 +139,8 @@
     "44063619babc12d534cc346239f69cd57eb4cdfefe3a9e52e49cc9ebd39e122a",
     "f1552e22d5b8cebfbcfc10ab88166f0322e4918b27c8b35af0434038a581a28d",
     "f545045f858bd49a156257cc6a5c34ffcacc7465fe6a14d319e3f58d062c506c",
-    "9ec170b9744f3eb2837d3a88ddcff56be39e27bd1cf537afba1b55ea80d7e0e0"
+    "9ec170b9744f3eb2837d3a88ddcff56be39e27bd1cf537afba1b55ea80d7e0e0",
+    "f5e4d49e2a47f95c10890b3ec3ef37360c24634b4267a9731a3f9e4ae1b19f63"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -281,17 +282,10 @@
     "https://www.ghafla.co.ke/government-announces-new-affordable-housing-prices/",
     "https://www.ghafla.co.ke/kenya-enters-october-december-rains-as-met-warns-of-wetter-conditions/",
     "https://www.ghafla.co.ke/restoring-dignity-ruto-fulfills-promise-of-land-ownership-in-historic-lamu/",
-    "https://www.ghafla.co.ke/orengo-backs-linda-mwananchi-victory-calls-for-one-opposition-candidate/"
+    "https://www.ghafla.co.ke/orengo-backs-linda-mwananchi-victory-calls-for-one-opposition-candidate/",
+    "https://www.ghafla.co.ke/ruto-leads-2027-poll-as-sifuna-emerges-second-in-new-survey/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018Mother Cannot Withdraw the Case\u2019: Danstan Omari Shuts Down Obado Settlement Talk on Obinna\u2019s Show",
-      "angle": "Framing the moment through Danstan Omari's studio appearance on Oga Obinna Live, where he dismantled the viral public assumption that Sharon Otieno's family's KSh 4.7 million compensation appeal and forgiveness could serve as an out-of-court settlement for the convicted former governor.",
-      "angle_type": "celebrity talk show legal reality check",
-      "opening": "Personality lead opening directly on Danstan Omari setting the record straight on Oga Obinna Live about the limits of victim forgiveness in capital convictions.",
-      "structure": "Studio hook on Obinna's show -> Omari's blunt quote on family settlement limits -> Breakdown of Sharon's family's KSh 4.7M plea and forgiveness -> Legal mechanics of state prosecution versus civil compensation -> July 2026 conviction backdrop with Oyamo and Obiero -> Closing note on pending judicial sentencing.",
-      "source": "https://www.ghafla.co.ke/danstan-omari-explains-why-obado-could-compensate-sharon-otienos-family-and-still-go-to-jail/"
-    },
     {
       "title": "Dr. Daniel Mwai Puts State House Authority Behind KSh 197B SHA Clinic Ledger",
       "angle": "Framing Dr. Daniel Mwai's presentation around the direct financial mechanics\u2014specifically how State House is leaning on KSh 197 billion in direct Level 2 and Level 3 clinic transfers to anchor its public rollout defense.",
@@ -1083,6 +1077,14 @@
       "opening": "Personality lead opening directly on James Orengo ending speculation around his friction with Edwin Sifuna and the Linda Mwananchi camp.",
       "structure": "Personality hook -> Social statement analysis -> The retreat boycott and rival presidential bids -> Tribunal ruling mechanics and timeline -> Opposition coordination outlook",
       "source": "https://www.ghafla.co.ke/orengo-backs-linda-mwananchi-victory-calls-for-one-opposition-candidate/"
+    },
+    {
+      "title": "Edwin Sifuna Leapfrogs Opposition Heavyweights into Second Spot Behind Ruto in Nationwide Poll",
+      "angle": "Sifuna's rapid surge into second place (19.6%) disrupts the established opposition pecking order by outpolling veteran stalwarts Kalonzo Musyoka and Rigathi Gachagua, backed by a key legal tribunal victory for his Linda Mwananchi party vehicle.",
+      "angle_type": "political personality surge and opposition displacement",
+      "opening": "Personality lead opening directly on Sifuna breaking through opposition ranks to claim second place in nationwide presidential polling.",
+      "structure": "Personality lead -> Breakdown of poll ratings & opposition hierarchy displacement -> Methodological context & field breakdown -> Linda Mwananchi grassroots campaign -> Tribunal victory mechanics -> Forward-looking close.",
+      "source": "https://www.ghafla.co.ke/ruto-leads-2027-poll-as-sifuna-emerges-second-in-new-survey/"
     }
   ],
   "style_history": [
