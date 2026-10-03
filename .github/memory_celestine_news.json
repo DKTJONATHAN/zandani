@@ -782,10 +782,10 @@
     "dabf6ec40300577136b92a5dc9e523b4",
     "ad44dd804453bc47d277065462c99548",
     "d5e2f92641ac273273b70a855b506346",
-    "d44aaf7d778d187e3bf147ee56a9017e"
+    "d44aaf7d778d187e3bf147ee56a9017e",
+    "d0ed4a76c8e4458fcc826a7363fa170b"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -814,7 +814,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1181,7 +1182,8 @@
     "https://kenyans.co.ke/news/127561-ncic-dismisses-reports-claiming-kaluma-otuoma-were-cleared-over-controversial-remarks",
     "https://kenyans.co.ke/news/127559-kenya-met-nairobi-among-several-counties-set-rains-over-next-five-days",
     "https://kenyans.co.ke/news/127568-kenyan-woman-among-3-rescued-suspected-sex-racket-india",
-    "https://kenyans.co.ke/news/127563-kenya-ranks-10th-djibouti-records-africas-highest-take-home-pay"
+    "https://kenyans.co.ke/news/127563-kenya-ranks-10th-djibouti-records-africas-highest-take-home-pay",
+    "https://kenyans.co.ke/news/127565-six-customers-petition-high-court-liquidate-directline-assurance-company"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1470,7 +1472,8 @@
     "ncic rejects clearance claims kaluma otuoma enforces corrective sanctions",
     "western belts lake basin face heaviest downpours five day rain forecast",
     "patna hotel raid exposes inland reach fraudulent travel pipelines",
-    "ksh44 550 net wage puts 10th africa amid domestic payroll squeeze"
+    "ksh44 550 net wage puts 10th africa amid domestic payroll squeeze",
+    "liquidation case threatens cover percent psv market"
   ],
   "topic_keys": [
     "news tracker",
@@ -3342,6 +3345,15 @@
       "structure": "Regional earnings premium lead -> Global and continental data breakdown -> Statutory deductions context -> East African gap analysis -> Nominal wage limits versus purchasing power",
       "source": "https://kenyans.co.ke/news/127563-kenya-ranks-10th-djibouti-records-africas-highest-take-home-pay",
       "published_at": "2026-10-03T20:47:18Z"
+    },
+    {
+      "title": "Liquidation Case Threatens Cover for 62 Percent of Kenya\u2019s PSV Market",
+      "angle": "Focusing on the systemic risk to Kenya's public transit infrastructure by liquidating an insurer that carries 62 percent of the PSV market, examining how the legal move re-opens long-standing regulatory and governance fractures.",
+      "angle_type": "consequence",
+      "opening": "Systemic impact lead connecting the petition directly to the operational stability of Kenya's public transport sector.",
+      "structure": "Sector risk lead -> Malindi court schedule and petition mechanics -> Underlying corporate rift and IRA stance -> Operational exposure for PSV operators -> November hearing timeline.",
+      "source": "https://kenyans.co.ke/news/127565-six-customers-petition-high-court-liquidate-directline-assurance-company",
+      "published_at": "2026-10-03T23:37:13Z"
     }
   ]
 }
