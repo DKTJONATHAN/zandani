@@ -772,10 +772,10 @@
     "39728b10cb4b18aa05d94cf59d8814dd",
     "941b1cc76087a74a789eb797e31dd0d3",
     "338f44fc087cca3bfe178deea235ff7d",
-    "a5c6d8465004b073090cd4670fca21dc"
+    "a5c6d8465004b073090cd4670fca21dc",
+    "c4ae93a4bb0c58cb422576c049de4834"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -804,7 +804,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1161,7 +1162,8 @@
     "https://kenyans.co.ke/news/127546-health-ministry-clarifies-sha-portal-transition-hmis",
     "https://kenyans.co.ke/news/127547-kba-urges-cbk-hold-rate-875-amid-fuel-price-risks",
     "https://kenyans.co.ke/news/127542-motorists-lobby-demand-binding-fuel-price-reduction-deal",
-    "https://kenyans.co.ke/news/127549-17-killed-7-injured-matatu-lorry-collision-along-nairobi-mombasa-highway"
+    "https://kenyans.co.ke/news/127549-17-killed-7-injured-matatu-lorry-collision-along-nairobi-mombasa-highway",
+    "https://kenyans.co.ke/news/127552-meet-henry-wooster-trumps-new-us-ambassador-kenya"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1440,7 +1442,8 @@
     "moh moves end dual system friction sha claims processing",
     "banks bet loan growth inflation spike push freeze benchmark rate",
     "secrecy clash behind ksh2 lamu refinery deal",
-    "brake failure kills midnight salama crash involving subukia pilgrims"
+    "brake failure kills midnight salama crash involving subukia pilgrims",
+    "special operations veteran henry wooster confirmed envoy"
   ],
   "topic_keys": [
     "news tracker",
@@ -3222,6 +3225,15 @@
       "structure": "Mechanical failure and human toll lead -> Crash mechanics and pilgrimage details -> Emergency response and medical status at Sultan Hamud -> Corridor freight hazards in light of the Kapiti crash -> Regulatory data on mechanical defects and fatality spikes -> Unresolved police scene probe.",
       "source": "https://kenyans.co.ke/news/127549-17-killed-7-injured-matatu-lorry-collision-along-nairobi-mombasa-highway",
       "published_at": "2026-10-03T05:01:42Z"
+    },
+    {
+      "title": "Special Operations Veteran Henry Wooster Confirmed as U.S. Envoy to Kenya",
+      "angle": "Reframing the appointment around the diplomatic pivot from commercial dealmaking to high-stakes security cooperation, highlighted by Wooster's background as a Special Forces officer, JSOC foreign policy adviser, and his direct engagement with Kenya's police deployment in Haiti.",
+      "angle_type": "practical change",
+      "opening": "Security-pivot lead connecting Wooster's Senate confirmation directly to the changing priorities of the U.S. Mission in Nairobi.",
+      "structure": "Diplomatic posture lead -> Senate confirmation and vacancy context -> Security and JSOC operational credentials -> Port-au-Prince and Kenya MSS connection -> Regional security and credentials presentation pipeline",
+      "source": "https://kenyans.co.ke/news/127552-meet-henry-wooster-trumps-new-us-ambassador-kenya",
+      "published_at": "2026-10-03T06:01:59Z"
     }
   ]
 }
