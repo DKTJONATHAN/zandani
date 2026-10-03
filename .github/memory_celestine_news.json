@@ -773,10 +773,10 @@
     "941b1cc76087a74a789eb797e31dd0d3",
     "338f44fc087cca3bfe178deea235ff7d",
     "a5c6d8465004b073090cd4670fca21dc",
-    "c4ae93a4bb0c58cb422576c049de4834"
+    "c4ae93a4bb0c58cb422576c049de4834",
+    "d1069abc85bd1d1594549916f91e5a29"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -805,7 +805,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1163,7 +1164,8 @@
     "https://kenyans.co.ke/news/127547-kba-urges-cbk-hold-rate-875-amid-fuel-price-risks",
     "https://kenyans.co.ke/news/127542-motorists-lobby-demand-binding-fuel-price-reduction-deal",
     "https://kenyans.co.ke/news/127549-17-killed-7-injured-matatu-lorry-collision-along-nairobi-mombasa-highway",
-    "https://kenyans.co.ke/news/127552-meet-henry-wooster-trumps-new-us-ambassador-kenya"
+    "https://kenyans.co.ke/news/127552-meet-henry-wooster-trumps-new-us-ambassador-kenya",
+    "https://kenyans.co.ke/news/127551-pregnant-woman-dies-after-allegedly-being-pushed-moving-police-vehicle"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1443,7 +1445,8 @@
     "banks bet loan growth inflation spike push freeze benchmark rate",
     "secrecy clash behind ksh2 lamu refinery deal",
     "brake failure kills midnight salama crash involving subukia pilgrims",
-    "special operations veteran henry wooster confirmed envoy"
+    "special operations veteran henry wooster confirmed envoy",
+    "police mount internal dci probe wang uru fatal vehicle ejection ipoa transfer stalls"
   ],
   "topic_keys": [
     "news tracker",
@@ -3234,6 +3237,15 @@
       "structure": "Diplomatic posture lead -> Senate confirmation and vacancy context -> Security and JSOC operational credentials -> Port-au-Prince and Kenya MSS connection -> Regional security and credentials presentation pipeline",
       "source": "https://kenyans.co.ke/news/127552-meet-henry-wooster-trumps-new-us-ambassador-kenya",
       "published_at": "2026-10-03T06:01:59Z"
+    },
+    {
+      "title": "Police Mount Internal DCI Probe Into Wang'uru Fatal Vehicle Ejection as IPOA Transfer Stalls",
+      "angle": "The institutional accountability gap: senior police commanders have routed the investigation internally through the DCI while sidestepping mandatory independent civilian oversight (IPOA), treating a fatal roadside ejection primarily as a question of internal disciplinary interdiction.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first statement lead grounding the incident in the National Police Service's internal investigative mandate and unresolved oversight transfer.",
+      "structure": "Statement and attribution lead -> Chain of events along Piai-Itangi Murram Road -> Command-level response and internal probe directives -> Accountability gap over IPOA jurisdiction -> Hospitalization and mortuary status",
+      "source": "https://kenyans.co.ke/news/127551-pregnant-woman-dies-after-allegedly-being-pushed-moving-police-vehicle",
+      "published_at": "2026-10-03T06:12:12Z"
     }
   ]
 }
