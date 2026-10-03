@@ -771,10 +771,10 @@
     "d207772ee7a4da15fa9ae87ced79b9f1",
     "39728b10cb4b18aa05d94cf59d8814dd",
     "941b1cc76087a74a789eb797e31dd0d3",
-    "338f44fc087cca3bfe178deea235ff7d"
+    "338f44fc087cca3bfe178deea235ff7d",
+    "a5c6d8465004b073090cd4670fca21dc"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -803,7 +803,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1159,7 +1160,8 @@
     "https://kenyans.co.ke/news/127545-kwale-residents-demand-inclusion-mrima-hills-critical-minerals-deals",
     "https://kenyans.co.ke/news/127546-health-ministry-clarifies-sha-portal-transition-hmis",
     "https://kenyans.co.ke/news/127547-kba-urges-cbk-hold-rate-875-amid-fuel-price-risks",
-    "https://kenyans.co.ke/news/127542-motorists-lobby-demand-binding-fuel-price-reduction-deal"
+    "https://kenyans.co.ke/news/127542-motorists-lobby-demand-binding-fuel-price-reduction-deal",
+    "https://kenyans.co.ke/news/127549-17-killed-7-injured-matatu-lorry-collision-along-nairobi-mombasa-highway"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1437,7 +1439,8 @@
     "land title timebomb menacing joho late october mrima hills mining deal",
     "moh moves end dual system friction sha claims processing",
     "banks bet loan growth inflation spike push freeze benchmark rate",
-    "secrecy clash behind ksh2 lamu refinery deal"
+    "secrecy clash behind ksh2 lamu refinery deal",
+    "brake failure kills midnight salama crash involving subukia pilgrims"
   ],
   "topic_keys": [
     "news tracker",
@@ -3210,6 +3213,15 @@
       "structure": "Transparency conflict lead -> The President's 'extortion' counter-accusation -> Historic policy failures cited by motorists (G2G, Turkana, tax hikes) -> Specific demands for written covenants and contract disclosure -> The unresolved question of consumer benefit.",
       "source": "https://kenyans.co.ke/news/127542-motorists-lobby-demand-binding-fuel-price-reduction-deal",
       "published_at": "2026-10-02T16:02:18Z"
+    },
+    {
+      "title": "Brake Failure Kills 17 in Midnight Salama Crash Involving Subukia Pilgrims",
+      "angle": "Examining how mechanical brake failure on heavy haulage freight continues to pose an unchecked, fatal hazard to night-time public passenger transport along the Northern Corridor, turning a scheduled pilgrimage into the highway's deadliest single collision this quarter.",
+      "angle_type": "accountability",
+      "opening": "Accountability lead linking the lethal midnight failure of commercial truck brakes directly to the destruction of a passenger transit carrying religious pilgrims.",
+      "structure": "Mechanical failure and human toll lead -> Crash mechanics and pilgrimage details -> Emergency response and medical status at Sultan Hamud -> Corridor freight hazards in light of the Kapiti crash -> Regulatory data on mechanical defects and fatality spikes -> Unresolved police scene probe.",
+      "source": "https://kenyans.co.ke/news/127549-17-killed-7-injured-matatu-lorry-collision-along-nairobi-mombasa-highway",
+      "published_at": "2026-10-03T05:01:42Z"
     }
   ]
 }
