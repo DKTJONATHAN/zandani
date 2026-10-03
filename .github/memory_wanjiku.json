@@ -135,7 +135,8 @@
     "2be7766c0c48a87049fa53147c8e46c8935b4652a85a8a643710940b23cdf784",
     "5ba7e043d5372fd1289a978048ba875743477a59bcf8a51227e7322df3a13314",
     "455e318a65e13436a33609830d9adc22fec67ce9e3e9c1f4c56d0f6cf1c90675",
-    "8f3e0edd395689a6ec1a8a857c92a0527f1c14a334b4d83dc4769e8928526809"
+    "8f3e0edd395689a6ec1a8a857c92a0527f1c14a334b4d83dc4769e8928526809",
+    "44063619babc12d534cc346239f69cd57eb4cdfefe3a9e52e49cc9ebd39e122a"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -273,17 +274,10 @@
     "https://www.ghafla.co.ke/leveling-the-playing-field-how-campaign-financing-works-in-kenya/",
     "https://www.ghafla.co.ke/sarah-kabu-reveals-bonfire-adventures-is-seeking-investor-after-split-from-simon/",
     "https://www.ghafla.co.ke/from-surveillance-to-state-house-sifuna-vows-oppositional-victory-in-2027/",
-    "https://www.ghafla.co.ke/classroom-first-tsc-moves-to-outlaw-side-hustles-for-public-school-teachers/"
+    "https://www.ghafla.co.ke/classroom-first-tsc-moves-to-outlaw-side-hustles-for-public-school-teachers/",
+    "https://www.ghafla.co.ke/government-announces-new-affordable-housing-prices/"
   ],
   "published_angles": [
-    {
-      "title": "Akothee Draws the Line on Dress Codes: \u2018Separate Madam Boss on Duty From After Hours\u2019",
-      "angle": "Framing Akothee's response through the clear boundary she established between executing a formal county assignment and her autonomy as an off-duty entertainer, rejecting the idea that public-sector contracts require after-hours lifestyle censorship.",
-      "angle_type": "celebrity professional boundary and persona demarcation",
-      "opening": "Personality lead opening directly on Akothee drawing a hard line between her daytime assignment for Governor Gladys Wanga and her off-duty nightlife autonomy.",
-      "structure": "Personality and boundary hook -> Specific project context with Governor Wanga -> Breakdown of the nightlife wardrobe dispute and legs quip -> Madam Boss vs. Entertainer demarcation -> Unapologetic close.",
-      "source": "https://www.ghafla.co.ke/akothee-hits-back-at-critics-over-outfit-worn-with-luo-leaders/"
-    },
     {
       "title": "\u2018Nilijiletea Car Wash\u2019: Mike Sonko Rolls Out White Maserati Levante in Low-Key Bay Run",
       "angle": "Framing the Maserati Levante reveal through Sonko's deliberate habit of staging multi-million-shilling machines within mundane, everyday Kenyan settings\u2014turning a routine car wash stop into an intimate, conversational flex about his lingering automotive habit.",
@@ -1075,6 +1069,14 @@
       "opening": "Direct focus on the legal ultimatum facing teachers balancing classroom duties with secondary income streams.",
       "structure": "Statutory ultimatum hook -> Mechanics of the side hustle ban and deregistration risks -> Expansion of offences to cyberbullying and student welfare -> Half-pay suspension rules -> Appeals committee mechanism -> Legislative close.",
       "source": "https://www.ghafla.co.ke/classroom-first-tsc-moves-to-outlaw-side-hustles-for-public-school-teachers/"
+    },
+    {
+      "title": "Boma Yangu Squeeze: New Wage Applicants Face KSh 600,000 Price Jump Under Revised Housing Rates",
+      "angle": "The income-tier cost shift and grandfather clause mechanics\u2014focusing on how the price adjustment alters access thresholds for wage earners in the KSh 20,000\u2013KSh 149,999 monthly bracket submitting new Boma Yangu applications, while insulating existing pre-October applicants.",
+      "angle_type": "regulatory cost adjustment and income-bracket impact",
+      "opening": "Policy-driven financial threshold lead focusing on the midnight cutoff and the resulting price barrier for incoming applicants.",
+      "structure": "Midnight cutoff hook -> Grandfather clause distinction -> Unit-by-unit rate breakdown -> Income bracket mapping -> Portal compliance close",
+      "source": "https://www.ghafla.co.ke/government-announces-new-affordable-housing-prices/"
     }
   ],
   "style_history": [
