@@ -776,10 +776,10 @@
     "c4ae93a4bb0c58cb422576c049de4834",
     "d1069abc85bd1d1594549916f91e5a29",
     "7fb44af7cc9b9ac09be38fa9c71ce716",
-    "538196bb1a345016b09985b465460498"
+    "538196bb1a345016b09985b465460498",
+    "e62d786ba986accc0c911555406bd2d2"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -808,7 +808,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1169,7 +1170,8 @@
     "https://kenyans.co.ke/news/127552-meet-henry-wooster-trumps-new-us-ambassador-kenya",
     "https://kenyans.co.ke/news/127551-pregnant-woman-dies-after-allegedly-being-pushed-moving-police-vehicle",
     "https://kenyans.co.ke/news/127554-iek-directs-tenants-karibu-homes-vacate-3-blocks-over-widening-cracks",
-    "https://kenyans.co.ke/news/127555-kenya-eyes-specialist-training-uwezo-hospitals-under-new-turkiye-health-deal"
+    "https://kenyans.co.ke/news/127555-kenya-eyes-specialist-training-uwezo-hospitals-under-new-turkiye-health-deal",
+    "https://kenyans.co.ke/news/127558-ruto-reveals-ksh-75b-3000-houses-support-dangote-refinery-workers"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1452,7 +1454,8 @@
     "special operations veteran henry wooster confirmed envoy",
     "police mount internal dci probe wang uru fatal vehicle ejection ipoa transfer stalls",
     "drainage defects looming deluge force athi river evacuation karibu homes",
-    "six counties earmarked specialised maternal centres rkiye bilateral pact"
+    "six counties earmarked specialised maternal centres rkiye bilateral pact",
+    "state allocates ksh 000 lamu houses absorb dangote workforce influx"
   ],
   "topic_keys": [
     "news tracker",
@@ -3270,6 +3273,15 @@
       "structure": "Operational model lead -> Bilateral signing context and diplomatic meeting -> County distribution and specialized maternal-paediatric care focus -> Skills transfer and specialist training deficit -> Long-term manufacturing and UHC integration -> Forward edge on implementation logistics.",
       "source": "https://kenyans.co.ke/news/127555-kenya-eyes-specialist-training-uwezo-hospitals-under-new-turkiye-health-deal",
       "published_at": "2026-10-03T08:02:01Z"
+    },
+    {
+      "title": "State Allocates Ksh 7.5B for 3,000 Lamu Houses to Absorb Dangote Workforce Influx",
+      "angle": "Focusing on the state's sudden public infrastructural burden: how the national government is stepping in with Ksh 13.5 billion in combined housing and social capital in Lamu to absorb a 60,000-worker influx for a private mega-project, while confronting existing project execution delays on the ground.",
+      "angle_type": "money",
+      "opening": "Attribution-first statement lead detailing the capital commitment to cushion the impending labor migration into Lamu.",
+      "structure": "Executive announcement lead -> Direct quote and accommodation allocation scope -> 60,000-worker demand and refinery timeline -> Broader Ksh 6B county housing portfolio and site bottlenecks (Faza/Mpeketoni) -> Implementation oversight directives.",
+      "source": "https://kenyans.co.ke/news/127558-ruto-reveals-ksh-75b-3000-houses-support-dangote-refinery-workers",
+      "published_at": "2026-10-03T10:02:30Z"
     }
   ]
 }
