@@ -779,10 +779,10 @@
     "538196bb1a345016b09985b465460498",
     "e62d786ba986accc0c911555406bd2d2",
     "9e6ff3f59b25b3de2aa35b90620db529",
-    "dabf6ec40300577136b92a5dc9e523b4"
+    "dabf6ec40300577136b92a5dc9e523b4",
+    "ad44dd804453bc47d277065462c99548"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -811,7 +811,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1175,7 +1176,8 @@
     "https://kenyans.co.ke/news/127555-kenya-eyes-specialist-training-uwezo-hospitals-under-new-turkiye-health-deal",
     "https://kenyans.co.ke/news/127558-ruto-reveals-ksh-75b-3000-houses-support-dangote-refinery-workers",
     "https://kenyans.co.ke/news/127560-ntsa-warns-drivers-against-dangerous-overtaking-after-salama-crash-kills-17",
-    "https://kenyans.co.ke/news/127561-ncic-dismisses-reports-claiming-kaluma-otuoma-were-cleared-over-controversial-remarks"
+    "https://kenyans.co.ke/news/127561-ncic-dismisses-reports-claiming-kaluma-otuoma-were-cleared-over-controversial-remarks",
+    "https://kenyans.co.ke/news/127559-kenya-met-nairobi-among-several-counties-set-rains-over-next-five-days"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1461,7 +1463,8 @@
     "six counties earmarked specialised maternal centres rkiye bilateral pact",
     "state allocates ksh 000 lamu houses absorb dangote workforce influx",
     "ntsa safety probe targets vehicle compliance lane discipline die salama corridor collision",
-    "ncic rejects clearance claims kaluma otuoma enforces corrective sanctions"
+    "ncic rejects clearance claims kaluma otuoma enforces corrective sanctions",
+    "western belts lake basin face heaviest downpours five day rain forecast"
   ],
   "topic_keys": [
     "news tracker",
@@ -3306,6 +3309,15 @@
       "structure": "Statutory enforcement lead -> Concrete directives and seven-day deadline for Otuoma -> Conciliation framework and speech violations found against Kaluma -> Regulatory rebuke of political spin and public mischaracterisation -> Statutory enforcement consequences",
       "source": "https://kenyans.co.ke/news/127561-ncic-dismisses-reports-claiming-kaluma-otuoma-were-cleared-over-controversial-remarks",
       "published_at": "2026-10-03T12:03:02Z"
+    },
+    {
+      "title": "Western Belts, Lake Basin Face Heaviest Downpours in Five-Day Rain Forecast",
+      "angle": "The operational divide across the country's terrain: while urban highlands like Nairobi will manage mostly light morning moisture, western drainage basins and agricultural belts face sustained afternoon thunderstorms and heavy downpours right at the onset of an El Ni\u00f1o-influenced season.",
+      "angle_type": "local impact",
+      "opening": "A regional impact lead that contrasts the moderate urban drizzles forecast for Nairobi against the severe thunderstorm pattern bearing down on western river and lake basins.",
+      "structure": "Regional asymmetry lead -> Verified timing and geographic spread -> Western and Rift Valley thunderstorm breakdown -> Urban highland and coastal rainfall dynamics -> Seasonal context and El Ni\u00f1o forward outlook.",
+      "source": "https://kenyans.co.ke/news/127559-kenya-met-nairobi-among-several-counties-set-rains-over-next-five-days",
+      "published_at": "2026-10-03T12:20:29Z"
     }
   ]
 }
