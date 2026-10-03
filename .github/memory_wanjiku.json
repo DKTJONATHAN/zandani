@@ -138,7 +138,8 @@
     "8f3e0edd395689a6ec1a8a857c92a0527f1c14a334b4d83dc4769e8928526809",
     "44063619babc12d534cc346239f69cd57eb4cdfefe3a9e52e49cc9ebd39e122a",
     "f1552e22d5b8cebfbcfc10ab88166f0322e4918b27c8b35af0434038a581a28d",
-    "f545045f858bd49a156257cc6a5c34ffcacc7465fe6a14d319e3f58d062c506c"
+    "f545045f858bd49a156257cc6a5c34ffcacc7465fe6a14d319e3f58d062c506c",
+    "9ec170b9744f3eb2837d3a88ddcff56be39e27bd1cf537afba1b55ea80d7e0e0"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -279,17 +280,10 @@
     "https://www.ghafla.co.ke/classroom-first-tsc-moves-to-outlaw-side-hustles-for-public-school-teachers/",
     "https://www.ghafla.co.ke/government-announces-new-affordable-housing-prices/",
     "https://www.ghafla.co.ke/kenya-enters-october-december-rains-as-met-warns-of-wetter-conditions/",
-    "https://www.ghafla.co.ke/restoring-dignity-ruto-fulfills-promise-of-land-ownership-in-historic-lamu/"
+    "https://www.ghafla.co.ke/restoring-dignity-ruto-fulfills-promise-of-land-ownership-in-historic-lamu/",
+    "https://www.ghafla.co.ke/orengo-backs-linda-mwananchi-victory-calls-for-one-opposition-candidate/"
   ],
   "published_angles": [
-    {
-      "title": "KSh 100 Tea Payout Target Looms as Smallholders Count KSh 56 Reality",
-      "angle": "The operational realities of smallholder earnings versus the multi-billion-shilling export tallies, looking closely at how the promised KSh 100 green-leaf payout target stacks up against actual historical payouts.",
-      "angle_type": "economic accountability and payout reality",
-      "opening": "Open directly on the financial gap between the government's lofty KSh 100 per kilo target and the actual numbers recorded in farmers' pockets.",
-      "structure": "Payout discrepancy hook -> Fertilizer and machinery distribution metrics -> Export revenue versus green-leaf realities -> Value-addition incentives and packaging waivers -> Future regulatory and operational hurdles.",
-      "source": "https://www.ghafla.co.ke/from-subsidies-to-value-addition-how-four-years-of-reforms-are-reshaping-kenyas-tea-industry/"
-    },
     {
       "title": "\u2018Mother Cannot Withdraw the Case\u2019: Danstan Omari Shuts Down Obado Settlement Talk on Obinna\u2019s Show",
       "angle": "Framing the moment through Danstan Omari's studio appearance on Oga Obinna Live, where he dismantled the viral public assumption that Sharon Otieno's family's KSh 4.7 million compensation appeal and forgiveness could serve as an out-of-court settlement for the convicted former governor.",
@@ -1081,6 +1075,14 @@
       "opening": "Personality lead opening directly on William Ruto touching down in Lamu to settle a campaign-trail commitment with tangible legal paperwork.",
       "structure": "Ruto arrival and campaign fulfillment hook -> The ancestral squatter burden tracing back to colonial disruption -> Economic leverage mechanics (credit and asset security) -> Legal parity close",
       "source": "https://www.ghafla.co.ke/restoring-dignity-ruto-fulfills-promise-of-land-ownership-in-historic-lamu/"
+    },
+    {
+      "title": "Skipped Retreat, Kept the Ambition: Orengo Blesses Sifuna\u2019s Party Vehicle While Keeping 2027 Options Open",
+      "angle": "The personal maneuvering between rival 2027 contenders James Orengo and Edwin Sifuna\u2014specifically how Orengo broke his post-retreat silence after skipping Sifuna\u2019s crowning as movement leader to publicly endorse the party vehicle, while tactically preserving his own presidential ambitions under the banner of picking 'one presidential candidate.'",
+      "angle_type": "political rivalry and strategic endorsement",
+      "opening": "Personality lead opening directly on James Orengo ending speculation around his friction with Edwin Sifuna and the Linda Mwananchi camp.",
+      "structure": "Personality hook -> Social statement analysis -> The retreat boycott and rival presidential bids -> Tribunal ruling mechanics and timeline -> Opposition coordination outlook",
+      "source": "https://www.ghafla.co.ke/orengo-backs-linda-mwananchi-victory-calls-for-one-opposition-candidate/"
     }
   ],
   "style_history": [
