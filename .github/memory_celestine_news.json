@@ -780,10 +780,10 @@
     "e62d786ba986accc0c911555406bd2d2",
     "9e6ff3f59b25b3de2aa35b90620db529",
     "dabf6ec40300577136b92a5dc9e523b4",
-    "ad44dd804453bc47d277065462c99548"
+    "ad44dd804453bc47d277065462c99548",
+    "d5e2f92641ac273273b70a855b506346"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -812,7 +812,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1177,7 +1178,8 @@
     "https://kenyans.co.ke/news/127558-ruto-reveals-ksh-75b-3000-houses-support-dangote-refinery-workers",
     "https://kenyans.co.ke/news/127560-ntsa-warns-drivers-against-dangerous-overtaking-after-salama-crash-kills-17",
     "https://kenyans.co.ke/news/127561-ncic-dismisses-reports-claiming-kaluma-otuoma-were-cleared-over-controversial-remarks",
-    "https://kenyans.co.ke/news/127559-kenya-met-nairobi-among-several-counties-set-rains-over-next-five-days"
+    "https://kenyans.co.ke/news/127559-kenya-met-nairobi-among-several-counties-set-rains-over-next-five-days",
+    "https://kenyans.co.ke/news/127568-kenyan-woman-among-3-rescued-suspected-sex-racket-india"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1464,7 +1466,8 @@
     "state allocates ksh 000 lamu houses absorb dangote workforce influx",
     "ntsa safety probe targets vehicle compliance lane discipline die salama corridor collision",
     "ncic rejects clearance claims kaluma otuoma enforces corrective sanctions",
-    "western belts lake basin face heaviest downpours five day rain forecast"
+    "western belts lake basin face heaviest downpours five day rain forecast",
+    "patna hotel raid exposes inland reach fraudulent travel pipelines"
   ],
   "topic_keys": [
     "news tracker",
@@ -3318,6 +3321,15 @@
       "structure": "Regional asymmetry lead -> Verified timing and geographic spread -> Western and Rift Valley thunderstorm breakdown -> Urban highland and coastal rainfall dynamics -> Seasonal context and El Ni\u00f1o forward outlook.",
       "source": "https://kenyans.co.ke/news/127559-kenya-met-nairobi-among-several-counties-set-rains-over-next-five-days",
       "published_at": "2026-10-03T12:20:29Z"
+    },
+    {
+      "title": "Patna Hotel Raid Exposes Inland Reach of Fraudulent Travel Pipelines",
+      "angle": "Examining how the Danapur hotel bust exposes the deep inland penetration of fraudulent visa-recruitment rings into India's regional state capitals, shifting enforcement from border control to local hospitality ledgers and consular verification.",
+      "angle_type": "consequence",
+      "opening": "Geographic-expansion lead linking the Patna hotel raids directly to the widening inland footprint of deceptive overseas recruitment pipelines.",
+      "structure": "Inland trafficking corridor lead -> Danapur raid mechanics and arrests -> Ledger and digital forensic audit -> Diplomatic protocol and visa exploitation context -> Ongoing inquiry into intermediary syndicates",
+      "source": "https://kenyans.co.ke/news/127568-kenyan-woman-among-3-rescued-suspected-sex-racket-india",
+      "published_at": "2026-10-03T17:06:10Z"
     }
   ]
 }
