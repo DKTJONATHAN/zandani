@@ -774,10 +774,10 @@
     "338f44fc087cca3bfe178deea235ff7d",
     "a5c6d8465004b073090cd4670fca21dc",
     "c4ae93a4bb0c58cb422576c049de4834",
-    "d1069abc85bd1d1594549916f91e5a29"
+    "d1069abc85bd1d1594549916f91e5a29",
+    "7fb44af7cc9b9ac09be38fa9c71ce716"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -806,7 +806,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1165,7 +1166,8 @@
     "https://kenyans.co.ke/news/127542-motorists-lobby-demand-binding-fuel-price-reduction-deal",
     "https://kenyans.co.ke/news/127549-17-killed-7-injured-matatu-lorry-collision-along-nairobi-mombasa-highway",
     "https://kenyans.co.ke/news/127552-meet-henry-wooster-trumps-new-us-ambassador-kenya",
-    "https://kenyans.co.ke/news/127551-pregnant-woman-dies-after-allegedly-being-pushed-moving-police-vehicle"
+    "https://kenyans.co.ke/news/127551-pregnant-woman-dies-after-allegedly-being-pushed-moving-police-vehicle",
+    "https://kenyans.co.ke/news/127554-iek-directs-tenants-karibu-homes-vacate-3-blocks-over-widening-cracks"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1446,7 +1448,8 @@
     "secrecy clash behind ksh2 lamu refinery deal",
     "brake failure kills midnight salama crash involving subukia pilgrims",
     "special operations veteran henry wooster confirmed envoy",
-    "police mount internal dci probe wang uru fatal vehicle ejection ipoa transfer stalls"
+    "police mount internal dci probe wang uru fatal vehicle ejection ipoa transfer stalls",
+    "drainage defects looming deluge force athi river evacuation karibu homes"
   ],
   "topic_keys": [
     "news tracker",
@@ -3246,6 +3249,15 @@
       "structure": "Statement and attribution lead -> Chain of events along Piai-Itangi Murram Road -> Command-level response and internal probe directives -> Accountability gap over IPOA jurisdiction -> Hospitalization and mortuary status",
       "source": "https://kenyans.co.ke/news/127551-pregnant-woman-dies-after-allegedly-being-pushed-moving-police-vehicle",
       "published_at": "2026-10-03T06:12:12Z"
+    },
+    {
+      "title": "Drainage Defects, Looming Deluge Force Athi River Evacuation at Karibu Homes",
+      "angle": "The operational collision between chronic seven-year structural settlement and an impending El Ni\u00f1o deluge: showing how rudimentary drainage flaws\u2014specifically roof downpipes dumping water directly onto building footings\u2014allowed localized soil subsidence to worsen unchecked since 2019, turning seasonal rainfall forecasts into an emergency evacuation trigger.",
+      "angle_type": "consequence",
+      "opening": "Diagnostic consequence lead contrasting the sudden evacuation order with the seven-year timeline of unaddressed differential settlement and basic drainage defects.",
+      "structure": "Structural risk lead -> Evacuation scope and localized estate footprint -> Engineering findings on roof runoff and differential settlement -> Testing mandates and regulatory compliance -> Meteorological countdown to seasonal rains",
+      "source": "https://kenyans.co.ke/news/127554-iek-directs-tenants-karibu-homes-vacate-3-blocks-over-widening-cracks",
+      "published_at": "2026-10-03T07:02:37Z"
     }
   ]
 }
