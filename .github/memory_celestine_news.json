@@ -781,10 +781,10 @@
     "9e6ff3f59b25b3de2aa35b90620db529",
     "dabf6ec40300577136b92a5dc9e523b4",
     "ad44dd804453bc47d277065462c99548",
-    "d5e2f92641ac273273b70a855b506346"
+    "d5e2f92641ac273273b70a855b506346",
+    "d44aaf7d778d187e3bf147ee56a9017e"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -813,7 +813,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1179,7 +1180,8 @@
     "https://kenyans.co.ke/news/127560-ntsa-warns-drivers-against-dangerous-overtaking-after-salama-crash-kills-17",
     "https://kenyans.co.ke/news/127561-ncic-dismisses-reports-claiming-kaluma-otuoma-were-cleared-over-controversial-remarks",
     "https://kenyans.co.ke/news/127559-kenya-met-nairobi-among-several-counties-set-rains-over-next-five-days",
-    "https://kenyans.co.ke/news/127568-kenyan-woman-among-3-rescued-suspected-sex-racket-india"
+    "https://kenyans.co.ke/news/127568-kenyan-woman-among-3-rescued-suspected-sex-racket-india",
+    "https://kenyans.co.ke/news/127563-kenya-ranks-10th-djibouti-records-africas-highest-take-home-pay"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1467,7 +1469,8 @@
     "ntsa safety probe targets vehicle compliance lane discipline die salama corridor collision",
     "ncic rejects clearance claims kaluma otuoma enforces corrective sanctions",
     "western belts lake basin face heaviest downpours five day rain forecast",
-    "patna hotel raid exposes inland reach fraudulent travel pipelines"
+    "patna hotel raid exposes inland reach fraudulent travel pipelines",
+    "ksh44 550 net wage puts 10th africa amid domestic payroll squeeze"
   ],
   "topic_keys": [
     "news tracker",
@@ -3330,6 +3333,15 @@
       "structure": "Inland trafficking corridor lead -> Danapur raid mechanics and arrests -> Ledger and digital forensic audit -> Diplomatic protocol and visa exploitation context -> Ongoing inquiry into intermediary syndicates",
       "source": "https://kenyans.co.ke/news/127568-kenyan-woman-among-3-rescued-suspected-sex-racket-india",
       "published_at": "2026-10-03T17:06:10Z"
+    },
+    {
+      "title": "Ksh44,550 Net Wage Puts Kenya 10th in Africa Amid Domestic Payroll Squeeze",
+      "angle": "The divergence between Kenya's regional wage dominance in East Africa and the real-term domestic erosion of that Ksh44,553 net wage under recent statutory levies and living costs.",
+      "angle_type": "money",
+      "opening": "Money-and-metric opening contrasting Kenya's commanding regional wage margin against the statutory deductions that define the domestic worker's bottom line.",
+      "structure": "Regional earnings premium lead -> Global and continental data breakdown -> Statutory deductions context -> East African gap analysis -> Nominal wage limits versus purchasing power",
+      "source": "https://kenyans.co.ke/news/127563-kenya-ranks-10th-djibouti-records-africas-highest-take-home-pay",
+      "published_at": "2026-10-03T20:47:18Z"
     }
   ]
 }
