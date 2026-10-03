@@ -140,7 +140,8 @@
     "f1552e22d5b8cebfbcfc10ab88166f0322e4918b27c8b35af0434038a581a28d",
     "f545045f858bd49a156257cc6a5c34ffcacc7465fe6a14d319e3f58d062c506c",
     "9ec170b9744f3eb2837d3a88ddcff56be39e27bd1cf537afba1b55ea80d7e0e0",
-    "f5e4d49e2a47f95c10890b3ec3ef37360c24634b4267a9731a3f9e4ae1b19f63"
+    "f5e4d49e2a47f95c10890b3ec3ef37360c24634b4267a9731a3f9e4ae1b19f63",
+    "8332e2bc4b28ff9a154750f33344320dc29332398338e0dc9eeaa2ee08108763"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -283,17 +284,10 @@
     "https://www.ghafla.co.ke/kenya-enters-october-december-rains-as-met-warns-of-wetter-conditions/",
     "https://www.ghafla.co.ke/restoring-dignity-ruto-fulfills-promise-of-land-ownership-in-historic-lamu/",
     "https://www.ghafla.co.ke/orengo-backs-linda-mwananchi-victory-calls-for-one-opposition-candidate/",
-    "https://www.ghafla.co.ke/ruto-leads-2027-poll-as-sifuna-emerges-second-in-new-survey/"
+    "https://www.ghafla.co.ke/ruto-leads-2027-poll-as-sifuna-emerges-second-in-new-survey/",
+    "https://www.ghafla.co.ke/president-ruto-unveils-ksh-5-billion-voi-taveta-sgr-project-to-boost-kenya-tanzania-trade/"
   ],
   "published_angles": [
-    {
-      "title": "Dr. Daniel Mwai Puts State House Authority Behind KSh 197B SHA Clinic Ledger",
-      "angle": "Framing Dr. Daniel Mwai's presentation around the direct financial mechanics\u2014specifically how State House is leaning on KSh 197 billion in direct Level 2 and Level 3 clinic transfers to anchor its public rollout defense.",
-      "angle_type": "personality-led operational breakdown",
-      "opening": "Personality lead opening directly on Dr. Daniel Mwai taking personal ownership of the operational cash flow to local dispensaries.",
-      "structure": "Mwai lead -> KSh 197B provider ledger and direct Level 2/3 cash transfers -> 32M and 7M onboarding statistics -> The statutory quartet -> Facility network scaling and concrete close.",
-      "source": "https://www.ghafla.co.ke/from-legislation-to-execution-how-sha-and-10000-accredited-facilities-are-driving-universal-health-care/"
-    },
     {
       "title": "William Ruto Combines New York Debt Lobby with a Blunt Domestic Tax Push",
       "angle": "Focusing on Ruto's domestic policy pivot\u2014urging local tax optimization ('money Africa can rightfully tax is money Africa need not borrow') as a direct counterweight to his high-profile international debt lobbying.",
@@ -1085,6 +1079,14 @@
       "opening": "Personality lead opening directly on Sifuna breaking through opposition ranks to claim second place in nationwide presidential polling.",
       "structure": "Personality lead -> Breakdown of poll ratings & opposition hierarchy displacement -> Methodological context & field breakdown -> Linda Mwananchi grassroots campaign -> Tribunal victory mechanics -> Forward-looking close.",
       "source": "https://www.ghafla.co.ke/ruto-leads-2027-poll-as-sifuna-emerges-second-in-new-survey/"
+    },
+    {
+      "title": "William Ruto Defies Backroom Doubters as He Takes KSh 5 Billion Rail Gamble to the Border",
+      "angle": "Focusing on Ruto\u2019s pointed public rebuttal of critics and backroom skeptics who tried to talk him out of the rail venture, framing the cross-border line as a personal test of executive resolve delivered directly to the Mwatate crowd.",
+      "angle_type": "personality defiance and executive resolve",
+      "opening": "Personality lead opening directly on Ruto confronting his internal critics from the Mwatate podium.",
+      "structure": "Personality lead -> Public confrontation of critics hook -> Station-by-station operational blueprint -> The dual-track reality (SGR vs 20-year defunct MGR) -> Cross-border strategic context",
+      "source": "https://www.ghafla.co.ke/president-ruto-unveils-ksh-5-billion-voi-taveta-sgr-project-to-boost-kenya-tanzania-trade/"
     }
   ],
   "style_history": [
