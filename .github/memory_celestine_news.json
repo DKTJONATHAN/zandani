@@ -778,10 +778,10 @@
     "7fb44af7cc9b9ac09be38fa9c71ce716",
     "538196bb1a345016b09985b465460498",
     "e62d786ba986accc0c911555406bd2d2",
-    "9e6ff3f59b25b3de2aa35b90620db529"
+    "9e6ff3f59b25b3de2aa35b90620db529",
+    "dabf6ec40300577136b92a5dc9e523b4"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -810,7 +810,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1173,7 +1174,8 @@
     "https://kenyans.co.ke/news/127554-iek-directs-tenants-karibu-homes-vacate-3-blocks-over-widening-cracks",
     "https://kenyans.co.ke/news/127555-kenya-eyes-specialist-training-uwezo-hospitals-under-new-turkiye-health-deal",
     "https://kenyans.co.ke/news/127558-ruto-reveals-ksh-75b-3000-houses-support-dangote-refinery-workers",
-    "https://kenyans.co.ke/news/127560-ntsa-warns-drivers-against-dangerous-overtaking-after-salama-crash-kills-17"
+    "https://kenyans.co.ke/news/127560-ntsa-warns-drivers-against-dangerous-overtaking-after-salama-crash-kills-17",
+    "https://kenyans.co.ke/news/127561-ncic-dismisses-reports-claiming-kaluma-otuoma-were-cleared-over-controversial-remarks"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1458,7 +1460,8 @@
     "drainage defects looming deluge force athi river evacuation karibu homes",
     "six counties earmarked specialised maternal centres rkiye bilateral pact",
     "state allocates ksh 000 lamu houses absorb dangote workforce influx",
-    "ntsa safety probe targets vehicle compliance lane discipline die salama corridor collision"
+    "ntsa safety probe targets vehicle compliance lane discipline die salama corridor collision",
+    "ncic rejects clearance claims kaluma otuoma enforces corrective sanctions"
   ],
   "topic_keys": [
     "news tracker",
@@ -3294,6 +3297,15 @@
       "structure": "Regulatory investigation lead -> Multi-vehicle crash sequence and victim toll -> Technical inspection and compliance scope -> Blackspot infrastructure context -> Next steps in police and NTSA joint reporting.",
       "source": "https://kenyans.co.ke/news/127560-ntsa-warns-drivers-against-dangerous-overtaking-after-salama-crash-kills-17",
       "published_at": "2026-10-03T11:02:45Z"
+    },
+    {
+      "title": "NCIC Rejects Clearance Claims for Kaluma and Otuoma, Enforces Corrective Sanctions",
+      "angle": "The operational tension between political posturing and statutory dispute resolution: the NCIC exposed how public summonses are misconstrued as exoneration, underscoring that statutory conciliation imposes binding cessation notices, apologies, and strict compliance deadlines backed by penal enforcement.",
+      "angle_type": "accountability",
+      "opening": "Statutory-distinction lead establishing that the NCIC\u2019s summonses resulted in enforceable sanctions and corrective compliance orders, not exoneration.",
+      "structure": "Statutory enforcement lead -> Concrete directives and seven-day deadline for Otuoma -> Conciliation framework and speech violations found against Kaluma -> Regulatory rebuke of political spin and public mischaracterisation -> Statutory enforcement consequences",
+      "source": "https://kenyans.co.ke/news/127561-ncic-dismisses-reports-claiming-kaluma-otuoma-were-cleared-over-controversial-remarks",
+      "published_at": "2026-10-03T12:03:02Z"
     }
   ]
 }
