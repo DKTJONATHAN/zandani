@@ -137,7 +137,8 @@
     "455e318a65e13436a33609830d9adc22fec67ce9e3e9c1f4c56d0f6cf1c90675",
     "8f3e0edd395689a6ec1a8a857c92a0527f1c14a334b4d83dc4769e8928526809",
     "44063619babc12d534cc346239f69cd57eb4cdfefe3a9e52e49cc9ebd39e122a",
-    "f1552e22d5b8cebfbcfc10ab88166f0322e4918b27c8b35af0434038a581a28d"
+    "f1552e22d5b8cebfbcfc10ab88166f0322e4918b27c8b35af0434038a581a28d",
+    "f545045f858bd49a156257cc6a5c34ffcacc7465fe6a14d319e3f58d062c506c"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -277,17 +278,10 @@
     "https://www.ghafla.co.ke/from-surveillance-to-state-house-sifuna-vows-oppositional-victory-in-2027/",
     "https://www.ghafla.co.ke/classroom-first-tsc-moves-to-outlaw-side-hustles-for-public-school-teachers/",
     "https://www.ghafla.co.ke/government-announces-new-affordable-housing-prices/",
-    "https://www.ghafla.co.ke/kenya-enters-october-december-rains-as-met-warns-of-wetter-conditions/"
+    "https://www.ghafla.co.ke/kenya-enters-october-december-rains-as-met-warns-of-wetter-conditions/",
+    "https://www.ghafla.co.ke/restoring-dignity-ruto-fulfills-promise-of-land-ownership-in-historic-lamu/"
   ],
   "published_angles": [
-    {
-      "title": "Millicent Omanga\u2019s Uniform-Cued School Dances Stir Discomfort Over Political Theatrics",
-      "angle": "Focusing on the recurring, multi-uniform performance pattern\u2014shifting from primary school visits in July to secondary school choreography\u2014and the growing friction between political brand-building stunts and classroom boundaries.",
-      "angle_type": "political brand-building theatrics vs. institutional boundaries",
-      "opening": "Start directly with the specific sartorial detail of the viral video\u2014the pleated skirt, red sweater, and choreographed routines\u2014before unpacking the broader pattern of her school wardrobe stunts.",
-      "structure": "Costume hook -> Breakdown of the viral secondary school dance clip -> Historical context of her July 2026 primary school uniform tour (Njathaini Primary) -> The core criticism regarding adult media theatrics versus student empowerment.",
-      "source": "https://www.ghafla.co.ke/boundaries-and-public-office-omangas-school-attire-trend-sparks-debate-online/"
-    },
     {
       "title": "KSh 100 Tea Payout Target Looms as Smallholders Count KSh 56 Reality",
       "angle": "The operational realities of smallholder earnings versus the multi-billion-shilling export tallies, looking closely at how the promised KSh 100 green-leaf payout target stacks up against actual historical payouts.",
@@ -1079,6 +1073,14 @@
       "opening": "Personality lead opening directly on Met acting chief Edward Muriuki laying out the staggered countrywide rain schedule.",
       "structure": "Personality lead -> Staggered county onset breakdown -> Climate driver nuances (El Ni\u00f1o + IOD) -> Regional exit timelines and flood risks",
       "source": "https://www.ghafla.co.ke/kenya-enters-october-december-rains-as-met-warns-of-wetter-conditions/"
+    },
+    {
+      "title": "William Ruto Swaps Campaign Pledges for Bankable Collateral in Historic Lamu Land Handover",
+      "angle": "Framing Ruto's return through the personality lens of a political promissory note being cashed\u2014specifically spotlighting the transformation of ancestral squatters into asset-holding landowners who can now use their soil as commercial and credit leverage.",
+      "angle_type": "political personality receipt and asset transformation",
+      "opening": "Personality lead opening directly on William Ruto touching down in Lamu to settle a campaign-trail commitment with tangible legal paperwork.",
+      "structure": "Ruto arrival and campaign fulfillment hook -> The ancestral squatter burden tracing back to colonial disruption -> Economic leverage mechanics (credit and asset security) -> Legal parity close",
+      "source": "https://www.ghafla.co.ke/restoring-dignity-ruto-fulfills-promise-of-land-ownership-in-historic-lamu/"
     }
   ],
   "style_history": [
