@@ -145,7 +145,8 @@
     "d7de57910fa3cb05538a3ea8ec131679e20cba6d735d42381684fe8fad30ee2f",
     "296972f7ed60e6baf7d3248dfd2a2f9b7cb86fe9abc4d746001eb89f2e3672cc",
     "b87ac741f11f08df9899a51c39e6f2e1ff77f813a82a4995bafec8c8c4c76c49",
-    "88ec9b63ff159452e043b3291fa3fb6040ee024ce5a8ed3af98e807521115937"
+    "88ec9b63ff159452e043b3291fa3fb6040ee024ce5a8ed3af98e807521115937",
+    "983709ca63e1593871ce0e3dd94db57c6e9e8f887258c04ea77bef66a9641aca"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -293,17 +294,10 @@
     "https://www.ghafla.co.ke/the-silence-still-hurts-designer-bolo-bespoke-pays-emotional-tribute-to-raila-odinga-one-year-later/",
     "https://www.ghafla.co.ke/eric-omondi-shares-hospital-update-as-georgina-njenga-begins-90-day-mental-health-recovery/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-six-areas-on-october-4/",
-    "https://www.ghafla.co.ke/sakaja-wears-odm-cap-at-raila-vigil-sparks-2027-political-speculation/"
+    "https://www.ghafla.co.ke/sakaja-wears-odm-cap-at-raila-vigil-sparks-2027-political-speculation/",
+    "https://www.ghafla.co.ke/uhuru-kenyatta-kalonzo-musyoka-and-opposition-leaders-attend-funeral-of-martha-karuas-father/"
   ],
   "published_angles": [
-    {
-      "title": "Ksh 13,038 Ward Bribes and Rising Tiers: The Survey Data Driving EACC\u2019s Kajiado Warning",
-      "angle": "Focusing on the sharp, verified institutional data from the Kenya National Gender and Corruption Survey\u2014specifically the exact escalation of bribe sizes across county representatives and civil servants\u2014that underpins the EACC's Kajiado warning.",
-      "angle_type": "economic accountability and survey metrics",
-      "opening": "Start directly with the Kajiado engagement forum and the specific survey metrics driving the anti-graft body's warning.",
-      "structure": "Survey data hook -> EACC Mashinani forum context in Kajiado -> Breakdown of specific bribe tiers (MCA, legislator, civil servant) -> Bishop Oginde's public trust directive -> Concrete close on the 2027 election cycle.",
-      "source": "https://www.ghafla.co.ke/eacc-warns-voters-against-ethnicity-and-bribes-ahead-of-2027-general-election/"
-    },
     {
       "title": "Victor Kanyari Breaks Down the Mobile-Money Math Behind His KSh310 Pulpit Empire",
       "angle": "Examining the raw economic calculus behind the pulpit\u2014how drop-out survival, a borrowed Kawangware hall, and mobile-money math systematically birthed the KSh310 'seed' empire before any national controversy hit.",
@@ -1095,6 +1089,14 @@
       "opening": "Personality lead opening directly on Sakaja yielding to the Uhuru Park crowd by replacing his own cap with the signature Raila-styled ODM headgear.",
       "structure": "Personality and wardrobe hook -> The Uhuru Park vigil scene and Gladys Wanga leadership -> The crowd chant and physical cap swap mechanics -> Political context of Kenya Kwanza affiliation vs ODM overtures -> The 2027 positioning reality.",
       "source": "https://www.ghafla.co.ke/sakaja-wears-odm-cap-at-raila-vigil-sparks-2027-political-speculation/"
+    },
+    {
+      "title": "Martha Karua Draws Bipartisan Crowd to Gichugu as Uhuru Kenyatta and Ndindi Nyoro Join Farewell for Her Father",
+      "angle": "Framing the event around Martha Karua as the focal point bringing together a rare bipartisan assembly\u2014ranging from Uhuru Kenyatta and opposition heavyweights to ruling coalition figure Ndindi Nyoro\u2014in quiet Kirinyaga.",
+      "angle_type": "celebrity political convergence and bipartisan gathering",
+      "opening": "Personality lead focusing directly on Martha Karua hosting political heavyweights across party lines at Mugumo Primary School.",
+      "structure": "Personality lead -> Cross-party VIP assembly breakdown -> Life and requiem timeline -> Gichugu ceremony and final farewell close",
+      "source": "https://www.ghafla.co.ke/uhuru-kenyatta-kalonzo-musyoka-and-opposition-leaders-attend-funeral-of-martha-karuas-father/"
     }
   ],
   "style_history": [
