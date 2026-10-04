@@ -143,7 +143,8 @@
     "f5e4d49e2a47f95c10890b3ec3ef37360c24634b4267a9731a3f9e4ae1b19f63",
     "8332e2bc4b28ff9a154750f33344320dc29332398338e0dc9eeaa2ee08108763",
     "d7de57910fa3cb05538a3ea8ec131679e20cba6d735d42381684fe8fad30ee2f",
-    "296972f7ed60e6baf7d3248dfd2a2f9b7cb86fe9abc4d746001eb89f2e3672cc"
+    "296972f7ed60e6baf7d3248dfd2a2f9b7cb86fe9abc4d746001eb89f2e3672cc",
+    "b87ac741f11f08df9899a51c39e6f2e1ff77f813a82a4995bafec8c8c4c76c49"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -289,17 +290,10 @@
     "https://www.ghafla.co.ke/ruto-leads-2027-poll-as-sifuna-emerges-second-in-new-survey/",
     "https://www.ghafla.co.ke/president-ruto-unveils-ksh-5-billion-voi-taveta-sgr-project-to-boost-kenya-tanzania-trade/",
     "https://www.ghafla.co.ke/the-silence-still-hurts-designer-bolo-bespoke-pays-emotional-tribute-to-raila-odinga-one-year-later/",
-    "https://www.ghafla.co.ke/eric-omondi-shares-hospital-update-as-georgina-njenga-begins-90-day-mental-health-recovery/"
+    "https://www.ghafla.co.ke/eric-omondi-shares-hospital-update-as-georgina-njenga-begins-90-day-mental-health-recovery/",
+    "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-six-areas-on-october-4/"
   ],
   "published_angles": [
-    {
-      "title": "From a KSh 150 Kibanda Wage to Fuliza Humor: Inside Okello Max\u2019s Grinding Ascent",
-      "angle": "Contrast the stark reality of his KSh 150 daily kibanda wage and modern 'Fuliza consumer' humor against the glamorous surface of the entertainment industry.",
-      "angle_type": "economic reality and humble beginnings",
-      "opening": "Start directly with the specific wage figure and the kibanda shift before introducing the artist's current standing.",
-      "structure": "Wages hook -> Academic turnaround (primary to Homabay Boys) -> University communication pivot -> Digital economy reality (Fuliza joke) -> Close on career timeline.",
-      "source": "https://www.ghafla.co.ke/okello-max-reveals-first-job-salary-and-school-struggles/"
-    },
     {
       "title": "From New York Forums to 'Shemeji': How Charlene Ruto\u2019s Global Circuit Plays Out Across East African Feeds",
       "angle": "Examining the specific cross-border digital branding dynamic\u2014how her ongoing youth advocacy footprint via SMACHS Foundation and Smart Africa translates into regional online subcultures and affectionate territorial monikers like 'shemeji'.",
@@ -1091,6 +1085,14 @@
       "opening": "Personality lead opening directly on Eric Omondi's shift from public advocacy to active physical intervention and medical enrollment.",
       "structure": "Intervention hook -> The alarming social media catalyst -> Logistical details of the Friday hospital visit and clinical roadmap -> The institutional reality of Nairobi's premium psychiatric care -> The peer-to-peer safety net context -> Public boundary appeal close",
       "source": "https://www.ghafla.co.ke/eric-omondi-shares-hospital-update-as-georgina-njenga-begins-90-day-mental-health-recovery/"
+    },
+    {
+      "title": "Eldoret Hotel Strip and Parklands Hit by Full-Day Sunday Power Blackout",
+      "angle": "Focusing on the heavy Sunday operational and hospitality freeze targeting prominent hotel districts, shopping hubs, and residential zones in Eldoret, Parklands, and Thika.",
+      "angle_type": "commercial and hospitality disruption",
+      "opening": "Direct focus on the Sunday commercial and hospitality squeeze in Eldoret and Nairobi's urban residential strip.",
+      "structure": "Disruption hook on Eldoret and Parklands commercial hubs -> Breakdown of hospitality and retail zones -> Industrial and logistics corridor impact in Nairobi and Mombasa -> Kiambu manufacturing and institutional belt -> Western milling and institutional network -> Safety advisory close",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-six-areas-on-october-4/"
     }
   ],
   "style_history": [
