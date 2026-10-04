@@ -790,10 +790,10 @@
     "a0b2591ff67e8e0b22c2c0740dc28880",
     "abb1ac605b44e491e46ba6ffc6bd2f36",
     "c9b6307a7949879ec13a67f315457363",
-    "0a2063108304726938469eede3dfe0ba"
+    "0a2063108304726938469eede3dfe0ba",
+    "823ac52294b81912753e7df101f1bbe1"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -822,7 +822,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1197,7 +1198,8 @@
     "https://kenyans.co.ke/news/127574-gideon-mois-land-document-goes-missing-registry-starts-replacement-process",
     "https://kenyans.co.ke/news/127577-scores-injured-multi-vehicle-accident-along-nakuru-eldoret-highway",
     "https://kenyans.co.ke/news/127576-two-arrested-impersonating-senior-government-official",
-    "https://kenyans.co.ke/news/127578-us-police-search-family-kenyan-man-who-died-north-carolina"
+    "https://kenyans.co.ke/news/127578-us-police-search-family-kenyan-man-who-died-north-carolina",
+    "https://kenyans.co.ke/news/127579-kra-announces-installment-payments-under-2026-tax-amnesty"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1494,7 +1496,8 @@
     "moi family mounts coordinated campaign reconstruct trans nzoia land titles",
     "parked lorry hazard exposed mau summit pile paralyzes western artery",
     "prado interception narok unmasks mechanics high status vip impersonation",
-    "diaspora tracing effort mounts north carolina unclaimed student"
+    "diaspora tracing effort mounts north carolina unclaimed student",
+    "kra opens phased itax payment plan 2026 tax amnesty relief"
   ],
   "topic_keys": [
     "news tracker",
@@ -3438,6 +3441,15 @@
       "structure": "Statutory stakes lead -> Police confirmation and vital dates -> Crowdsourced academic trail from Kericho to West Virginia -> Consular and unclaimed-asset legal mechanisms -> Active reporting contacts",
       "source": "https://kenyans.co.ke/news/127578-us-police-search-family-kenyan-man-who-died-north-carolina",
       "published_at": "2026-10-04T11:01:33Z"
+    },
+    {
+      "title": "KRA Opens Phased iTax Payment Plan for 2026 Tax Amnesty Relief",
+      "angle": "The strict compliance conditionality of the instalment window: while the portal eases immediate cash-flow pressure, the automated relief hinges on a zero-balance threshold by December 31, 2026, where any unsettled principal forfeits retroactive waivers on years of accumulated penalties.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first statement lead detailing the agency's policy shift and who benefits from the staggered payment plan.",
+      "structure": "Attribution and beneficiary lead -> Mechanics of the Automatic Payment Plan -> Zero-balance compliance trap and penalty forfeiture clause -> Non-principal return filers and ledger audit rules -> Forward edge on year-end timeline",
+      "source": "https://kenyans.co.ke/news/127579-kra-announces-installment-payments-under-2026-tax-amnesty",
+      "published_at": "2026-10-04T11:04:54Z"
     }
   ]
 }
