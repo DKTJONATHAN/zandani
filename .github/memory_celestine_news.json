@@ -793,10 +793,10 @@
     "0a2063108304726938469eede3dfe0ba",
     "823ac52294b81912753e7df101f1bbe1",
     "1973bcbebdf068e20267d60a6341c67a",
-    "bfc0a8bd39fc6799b32ae6fa5a3ca0d9"
+    "bfc0a8bd39fc6799b32ae6fa5a3ca0d9",
+    "84b0eeeef2feb8b656d27032d3a34f78"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Desk Take",
@@ -825,7 +825,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1203,7 +1204,8 @@
     "https://kenyans.co.ke/news/127578-us-police-search-family-kenyan-man-who-died-north-carolina",
     "https://kenyans.co.ke/news/127579-kra-announces-installment-payments-under-2026-tax-amnesty",
     "https://kenyans.co.ke/news/127581-sifuna-named-equitable-partys-preferred-candidate-2027-presidential-bid",
-    "https://kenyans.co.ke/news/127584-equitable-party-rebrand-linda-mwananchi-movement-sifuna-confirms"
+    "https://kenyans.co.ke/news/127584-equitable-party-rebrand-linda-mwananchi-movement-sifuna-confirms",
+    "https://kenyans.co.ke/news/127583-registrar-companies-strikes-440-companies-targeting-multiple-sectors"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1503,7 +1505,8 @@
     "diaspora tracing effort mounts north carolina unclaimed student",
     "kra opens phased itax payment plan 2026 tax amnesty relief",
     "sifuna secures registered party shell restructuring deal 2027 run",
-    "decoy parties day clock behind sifuna linda mwananchi rebranding hedge"
+    "decoy parties day clock behind sifuna linda mwananchi rebranding hedge",
+    "sectors sweat registry purge erases 200 firms regulatory clean hits physical employers"
   ],
   "topic_keys": [
     "news tracker",
@@ -3474,6 +3477,15 @@
       "structure": "Regulatory hedge lead -> Rebranding announcement and fallback clause -> Decoy strategy disclosure by Khalwale -> Tribunal showdown and ORPP administrative hurdles -> 90-day statutory countdown and forward implications",
       "source": "https://kenyans.co.ke/news/127584-equitable-party-rebrand-linda-mwananchi-movement-sifuna-confirms",
       "published_at": "2026-10-04T16:02:18Z"
+    },
+    {
+      "title": "Sectors of Sweat: Registry Purge Erases 2,200 Kenyan Firms as Regulatory Clean-Up Hits Physical Employers",
+      "angle": "The systematic, multi-wave velocity of the 2026 corporate registry cleanup, specifically analyzing how this regulatory purging pattern is heavily concentrated in the physical, labor-intensive sectors (construction, logistics, hospitality) that are vital for absorbing Kenya's massive youth labor pool.",
+      "angle_type": "consequence",
+      "opening": "Systemic cleanup lead focusing on the year-long velocity of corporate deregistrations and its concentration in physical employment sectors.",
+      "structure": "Purge velocity lead -> Breakdown of the October 4 wave by labor sector -> Chronology of the 2026 deregistration sweeps -> The youth labor market collision -> Unresolved regulatory vs. operational realities.",
+      "source": "https://kenyans.co.ke/news/127583-registrar-companies-strikes-440-companies-targeting-multiple-sectors",
+      "published_at": "2026-10-04T16:39:35Z"
     }
   ]
 }
