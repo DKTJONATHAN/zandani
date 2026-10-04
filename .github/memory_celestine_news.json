@@ -786,10 +786,10 @@
     "d0ed4a76c8e4458fcc826a7363fa170b",
     "81e997ee645d6f80a208fb003dc5aef9",
     "c023ac840d24481c5b185233c21cc97d",
-    "7c9240667cf379cc3288a530e93b10f5"
+    "7c9240667cf379cc3288a530e93b10f5",
+    "a0b2591ff67e8e0b22c2c0740dc28880"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Desk Take",
     "Hard News Lead",
@@ -818,7 +818,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1189,7 +1190,8 @@
     "https://kenyans.co.ke/news/127565-six-customers-petition-high-court-liquidate-directline-assurance-company",
     "https://kenyans.co.ke/news/127570-omtatah-makes-changes-team-2027-presidential-plans-take-shape",
     "https://kenyans.co.ke/news/127569-huge-fire-erupts-tsavo-national-park-spreads-towards-taveta-voi-highway",
-    "https://kenyans.co.ke/news/127573-nys-says-viral-video-officers-assaulting-citizen-2-years-old"
+    "https://kenyans.co.ke/news/127573-nys-says-viral-video-officers-assaulting-citizen-2-years-old",
+    "https://kenyans.co.ke/news/127574-gideon-mois-land-document-goes-missing-registry-starts-replacement-process"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1482,7 +1484,8 @@
     "liquidation case threatens cover percent psv market",
     "omtatah sets november 2026 decision window restructured solo state house run",
     "unaddressed week long tsavo burn threatens taveta voi transit axis amid agency inaction",
-    "nys cites two year timeline commuter assault video but withholds disciplinary record"
+    "nys cites two year timeline commuter assault video but withholds disciplinary record",
+    "moi family mounts coordinated campaign reconstruct trans nzoia land titles"
   ],
   "topic_keys": [
     "news tracker",
@@ -3390,6 +3393,15 @@
       "structure": "Institutional response lead -> Commuter assault footage and timeline defense -> Disciplinary ambiguity and internal handling claims -> Paramilitary mandate and feeder pipeline implications",
       "source": "https://kenyans.co.ke/news/127573-nys-says-viral-video-officers-assaulting-citizen-2-years-old",
       "published_at": "2026-10-04T07:01:40Z"
+    },
+    {
+      "title": "Moi Family Mounts Coordinated Campaign to Reconstruct Trans Nzoia Land Titles",
+      "angle": "The coordinated, multi-month administrative effort by the Moi family to systematically reconstruct and regularize missing ownership records across multiple family-held parcels in Trans Nzoia.",
+      "angle_type": "practical change",
+      "opening": "An analytical lead framing the latest Gazette notice as part of a systematic, family-wide effort to formalize holding records in Kitale.",
+      "structure": "Administrative campaign lead -> Details of Gideon's specific Oct 2 filing -> The broader family timeline stretching back to July -> Legal mechanism and objection window -> Forward-looking compliance deadline.",
+      "source": "https://kenyans.co.ke/news/127574-gideon-mois-land-document-goes-missing-registry-starts-replacement-process",
+      "published_at": "2026-10-04T08:01:51Z"
     }
   ]
 }
