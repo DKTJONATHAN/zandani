@@ -144,7 +144,8 @@
     "8332e2bc4b28ff9a154750f33344320dc29332398338e0dc9eeaa2ee08108763",
     "d7de57910fa3cb05538a3ea8ec131679e20cba6d735d42381684fe8fad30ee2f",
     "296972f7ed60e6baf7d3248dfd2a2f9b7cb86fe9abc4d746001eb89f2e3672cc",
-    "b87ac741f11f08df9899a51c39e6f2e1ff77f813a82a4995bafec8c8c4c76c49"
+    "b87ac741f11f08df9899a51c39e6f2e1ff77f813a82a4995bafec8c8c4c76c49",
+    "88ec9b63ff159452e043b3291fa3fb6040ee024ce5a8ed3af98e807521115937"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -291,17 +292,10 @@
     "https://www.ghafla.co.ke/president-ruto-unveils-ksh-5-billion-voi-taveta-sgr-project-to-boost-kenya-tanzania-trade/",
     "https://www.ghafla.co.ke/the-silence-still-hurts-designer-bolo-bespoke-pays-emotional-tribute-to-raila-odinga-one-year-later/",
     "https://www.ghafla.co.ke/eric-omondi-shares-hospital-update-as-georgina-njenga-begins-90-day-mental-health-recovery/",
-    "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-six-areas-on-october-4/"
+    "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-six-areas-on-october-4/",
+    "https://www.ghafla.co.ke/sakaja-wears-odm-cap-at-raila-vigil-sparks-2027-political-speculation/"
   ],
   "published_angles": [
-    {
-      "title": "From New York Forums to 'Shemeji': How Charlene Ruto\u2019s Global Circuit Plays Out Across East African Feeds",
-      "angle": "Examining the specific cross-border digital branding dynamic\u2014how her ongoing youth advocacy footprint via SMACHS Foundation and Smart Africa translates into regional online subcultures and affectionate territorial monikers like 'shemeji'.",
-      "angle_type": "cross-border digital branding and regional persona perception",
-      "opening": "Start directly with the intersection of her New York diplomatic circuit and the viral regional nomenclature deployed by East African commentators.",
-      "structure": "Diplomatic and forum backdrop (UNGA & World Logic Forum) -> SMACHS Foundation and Smart Africa Youth Hub advocacy mandate -> The specific Tanzanian social media subculture ('shemeji' moniker) -> Concrete close on her international-versus-regional brand positioning.",
-      "source": "https://www.ghafla.co.ke/tanzanian-fans-praise-charlene-ruto-as-she-attends-unga-in-new-york/"
-    },
     {
       "title": "Ksh 13,038 Ward Bribes and Rising Tiers: The Survey Data Driving EACC\u2019s Kajiado Warning",
       "angle": "Focusing on the sharp, verified institutional data from the Kenya National Gender and Corruption Survey\u2014specifically the exact escalation of bribe sizes across county representatives and civil servants\u2014that underpins the EACC's Kajiado warning.",
@@ -1093,6 +1087,14 @@
       "opening": "Direct focus on the Sunday commercial and hospitality squeeze in Eldoret and Nairobi's urban residential strip.",
       "structure": "Disruption hook on Eldoret and Parklands commercial hubs -> Breakdown of hospitality and retail zones -> Industrial and logistics corridor impact in Nairobi and Mombasa -> Kiambu manufacturing and institutional belt -> Western milling and institutional network -> Safety advisory close",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-six-areas-on-october-4/"
+    },
+    {
+      "title": "Hat Swap at Uhuru Park: Johnson Sakaja Dons Signature ODM Cap in Front of Chanting Crowd",
+      "angle": "Framing the moment through Sakaja's theatrical wardrobe swap\u2014succumbing to crowd pressure at Uhuru Park to don Raila's signature headgear styling in the presence of ODM brass, capturing his high-wire charm offensive across factional lines.",
+      "angle_type": "celebrity political theater and wardrobe symbolism",
+      "opening": "Personality lead opening directly on Sakaja yielding to the Uhuru Park crowd by replacing his own cap with the signature Raila-styled ODM headgear.",
+      "structure": "Personality and wardrobe hook -> The Uhuru Park vigil scene and Gladys Wanga leadership -> The crowd chant and physical cap swap mechanics -> Political context of Kenya Kwanza affiliation vs ODM overtures -> The 2027 positioning reality.",
+      "source": "https://www.ghafla.co.ke/sakaja-wears-odm-cap-at-raila-vigil-sparks-2027-political-speculation/"
     }
   ],
   "style_history": [
