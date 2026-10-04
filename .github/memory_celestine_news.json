@@ -788,10 +788,10 @@
     "c023ac840d24481c5b185233c21cc97d",
     "7c9240667cf379cc3288a530e93b10f5",
     "a0b2591ff67e8e0b22c2c0740dc28880",
-    "abb1ac605b44e491e46ba6ffc6bd2f36"
+    "abb1ac605b44e491e46ba6ffc6bd2f36",
+    "c9b6307a7949879ec13a67f315457363"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -820,7 +820,8 @@
     "Hard News Lead",
     "Event Report",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1193,7 +1194,8 @@
     "https://kenyans.co.ke/news/127569-huge-fire-erupts-tsavo-national-park-spreads-towards-taveta-voi-highway",
     "https://kenyans.co.ke/news/127573-nys-says-viral-video-officers-assaulting-citizen-2-years-old",
     "https://kenyans.co.ke/news/127574-gideon-mois-land-document-goes-missing-registry-starts-replacement-process",
-    "https://kenyans.co.ke/news/127577-scores-injured-multi-vehicle-accident-along-nakuru-eldoret-highway"
+    "https://kenyans.co.ke/news/127577-scores-injured-multi-vehicle-accident-along-nakuru-eldoret-highway",
+    "https://kenyans.co.ke/news/127576-two-arrested-impersonating-senior-government-official"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1488,7 +1490,8 @@
     "unaddressed week long tsavo burn threatens taveta voi transit axis amid agency inaction",
     "nys cites two year timeline commuter assault video but withholds disciplinary record",
     "moi family mounts coordinated campaign reconstruct trans nzoia land titles",
-    "parked lorry hazard exposed mau summit pile paralyzes western artery"
+    "parked lorry hazard exposed mau summit pile paralyzes western artery",
+    "prado interception narok unmasks mechanics high status vip impersonation"
   ],
   "topic_keys": [
     "news tracker",
@@ -3414,6 +3417,15 @@
       "structure": "Lead on response and road clearance -> Crash sequence and wreckage mechanics -> Freight spillage and corridor disruption -> Regulatory backdrop and nationwide safety scrutiny",
       "source": "https://kenyans.co.ke/news/127577-scores-injured-multi-vehicle-accident-along-nakuru-eldoret-highway",
       "published_at": "2026-10-04T09:01:17Z"
+    },
+    {
+      "title": "Prado Interception in Narok Unmasks Mechanics of High-Status VIP Impersonation",
+      "angle": "Examining the logistical anatomy of high-status state impersonation: how confidence rings systematically deploy high-end executive markers\u2014such as luxury SUVs and institutional credentials\u2014to engineer deference and extract money outside Nairobi, shifting DCI forensics directly onto seized telecommunications data.",
+      "angle_type": "accountability",
+      "opening": "Action-and-mechanics lead focusing on how the interception of an executive-grade SUV in Narok unmasked a wider pattern of staged officialdom used to defraud the public.",
+      "structure": "Interception and operational mechanics -> Seized telecommunications evidence and forensic focus -> Anatomy of state-power mimicry across recent county cases -> Institutional reporting and arraignment pathway.",
+      "source": "https://kenyans.co.ke/news/127576-two-arrested-impersonating-senior-government-official",
+      "published_at": "2026-10-04T10:01:12Z"
     }
   ]
 }
