@@ -783,10 +783,10 @@
     "ad44dd804453bc47d277065462c99548",
     "d5e2f92641ac273273b70a855b506346",
     "d44aaf7d778d187e3bf147ee56a9017e",
-    "d0ed4a76c8e4458fcc826a7363fa170b"
+    "d0ed4a76c8e4458fcc826a7363fa170b",
+    "81e997ee645d6f80a208fb003dc5aef9"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -815,7 +815,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1183,7 +1184,8 @@
     "https://kenyans.co.ke/news/127559-kenya-met-nairobi-among-several-counties-set-rains-over-next-five-days",
     "https://kenyans.co.ke/news/127568-kenyan-woman-among-3-rescued-suspected-sex-racket-india",
     "https://kenyans.co.ke/news/127563-kenya-ranks-10th-djibouti-records-africas-highest-take-home-pay",
-    "https://kenyans.co.ke/news/127565-six-customers-petition-high-court-liquidate-directline-assurance-company"
+    "https://kenyans.co.ke/news/127565-six-customers-petition-high-court-liquidate-directline-assurance-company",
+    "https://kenyans.co.ke/news/127570-omtatah-makes-changes-team-2027-presidential-plans-take-shape"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1473,7 +1475,8 @@
     "western belts lake basin face heaviest downpours five day rain forecast",
     "patna hotel raid exposes inland reach fraudulent travel pipelines",
     "ksh44 550 net wage puts 10th africa amid domestic payroll squeeze",
-    "liquidation case threatens cover percent psv market"
+    "liquidation case threatens cover percent psv market",
+    "omtatah sets november 2026 decision window restructured solo state house run"
   ],
   "topic_keys": [
     "news tracker",
@@ -3354,6 +3357,15 @@
       "structure": "Sector risk lead -> Malindi court schedule and petition mechanics -> Underlying corporate rift and IRA stance -> Operational exposure for PSV operators -> November hearing timeline.",
       "source": "https://kenyans.co.ke/news/127565-six-customers-petition-high-court-liquidate-directline-assurance-company",
       "published_at": "2026-10-03T23:37:13Z"
+    },
+    {
+      "title": "Omtatah Sets November 2026 Decision Window in Restructured Solo State House Run",
+      "angle": "The formalization of a structured two-year statutory countdown: examining how Omtatah is using gazetted timelines and independent exploratory research to build a standalone third-way bid while consciously rejecting mainstream opposition coalitions.",
+      "angle_type": "timing",
+      "opening": "Timeline-focused opening linking the statutory gazette notice directly to Omtatah's structured November 2026 go/no-go deadline for the presidency.",
+      "structure": "Statutory timeline lead -> Gazette leadership restructuring details -> Two-year feasibility and research mandate -> Deliberate distancing from opposition coalitions -> November 2026 dissolution and formal declaration threshold",
+      "source": "https://kenyans.co.ke/news/127570-omtatah-makes-changes-team-2027-presidential-plans-take-shape",
+      "published_at": "2026-10-04T05:00:15Z"
     }
   ]
 }
