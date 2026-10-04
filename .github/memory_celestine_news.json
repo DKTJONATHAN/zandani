@@ -794,10 +794,10 @@
     "823ac52294b81912753e7df101f1bbe1",
     "1973bcbebdf068e20267d60a6341c67a",
     "bfc0a8bd39fc6799b32ae6fa5a3ca0d9",
-    "84b0eeeef2feb8b656d27032d3a34f78"
+    "84b0eeeef2feb8b656d27032d3a34f78",
+    "85725b1c46f484a990df77503404dfe2"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Desk Take",
     "Hard News Lead",
@@ -826,7 +826,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1205,7 +1206,8 @@
     "https://kenyans.co.ke/news/127579-kra-announces-installment-payments-under-2026-tax-amnesty",
     "https://kenyans.co.ke/news/127581-sifuna-named-equitable-partys-preferred-candidate-2027-presidential-bid",
     "https://kenyans.co.ke/news/127584-equitable-party-rebrand-linda-mwananchi-movement-sifuna-confirms",
-    "https://kenyans.co.ke/news/127583-registrar-companies-strikes-440-companies-targeting-multiple-sectors"
+    "https://kenyans.co.ke/news/127583-registrar-companies-strikes-440-companies-targeting-multiple-sectors",
+    "https://kenyans.co.ke/news/127585-panic-fire-engulfs-dormitory-tengecha-boys-high-school-kericho"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1506,7 +1508,8 @@
     "kra opens phased itax payment plan 2026 tax amnesty relief",
     "sifuna secures registered party shell restructuring deal 2027 run",
     "decoy parties day clock behind sifuna linda mwananchi rebranding hedge",
-    "sectors sweat registry purge erases 200 firms regulatory clean hits physical employers"
+    "sectors sweat registry purge erases 200 firms regulatory clean hits physical employers",
+    "community response halts upper floor blaze tengecha boys high school"
   ],
   "topic_keys": [
     "news tracker",
@@ -3486,6 +3489,15 @@
       "structure": "Purge velocity lead -> Breakdown of the October 4 wave by labor sector -> Chronology of the 2026 deregistration sweeps -> The youth labor market collision -> Unresolved regulatory vs. operational realities.",
       "source": "https://kenyans.co.ke/news/127583-registrar-companies-strikes-440-companies-targeting-multiple-sectors",
       "published_at": "2026-10-04T16:39:35Z"
+    },
+    {
+      "title": "Community Response Halts Upper-Floor Blaze at Tengecha Boys High School",
+      "angle": "Examining the frontline neighborhood mobilization that averted a wider campus disaster, while situating the incident within the vulnerable operational calendar of end-of-term boarding assessments.",
+      "angle_type": "local impact",
+      "opening": "Community response lead highlighting the civilian perimeter intervention that contained upper-level dormitory flames before formal disaster teams arrived.",
+      "structure": "Civilians-and-containment lead -> Physical damage and casualty assessment -> Containment mechanics on the upper floor -> Calendar pressure and national school fire trend -> Active investigative and administrative questions",
+      "source": "https://kenyans.co.ke/news/127585-panic-fire-engulfs-dormitory-tengecha-boys-high-school-kericho",
+      "published_at": "2026-10-04T19:02:43Z"
     }
   ]
 }
