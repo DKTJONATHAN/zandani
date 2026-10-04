@@ -142,7 +142,8 @@
     "9ec170b9744f3eb2837d3a88ddcff56be39e27bd1cf537afba1b55ea80d7e0e0",
     "f5e4d49e2a47f95c10890b3ec3ef37360c24634b4267a9731a3f9e4ae1b19f63",
     "8332e2bc4b28ff9a154750f33344320dc29332398338e0dc9eeaa2ee08108763",
-    "d7de57910fa3cb05538a3ea8ec131679e20cba6d735d42381684fe8fad30ee2f"
+    "d7de57910fa3cb05538a3ea8ec131679e20cba6d735d42381684fe8fad30ee2f",
+    "296972f7ed60e6baf7d3248dfd2a2f9b7cb86fe9abc4d746001eb89f2e3672cc"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -287,17 +288,10 @@
     "https://www.ghafla.co.ke/orengo-backs-linda-mwananchi-victory-calls-for-one-opposition-candidate/",
     "https://www.ghafla.co.ke/ruto-leads-2027-poll-as-sifuna-emerges-second-in-new-survey/",
     "https://www.ghafla.co.ke/president-ruto-unveils-ksh-5-billion-voi-taveta-sgr-project-to-boost-kenya-tanzania-trade/",
-    "https://www.ghafla.co.ke/the-silence-still-hurts-designer-bolo-bespoke-pays-emotional-tribute-to-raila-odinga-one-year-later/"
+    "https://www.ghafla.co.ke/the-silence-still-hurts-designer-bolo-bespoke-pays-emotional-tribute-to-raila-odinga-one-year-later/",
+    "https://www.ghafla.co.ke/eric-omondi-shares-hospital-update-as-georgina-njenga-begins-90-day-mental-health-recovery/"
   ],
   "published_angles": [
-    {
-      "title": "Inside Kang\u2019o Ka Jaramogi: Raila Junior Lifts Lid on Bondo Mausoleum Progress",
-      "angle": "Shifting the focus from a generic social media update to the physical transition of the family's ancestral estate into a permanent national heritage site, highlighting the specific architectural scale and formal delegation mechanics captured in the walkthrough.",
-      "angle_type": "architectural scale and heritage site transition",
-      "opening": "Start directly with the specific architectural markers revealed in the TikTok walkthrough\u2014marble flooring and tiling\u2014rather than a passive summary of a social media post.",
-      "structure": "Architectural and security walkthrough hook -> Details of the Siaya delegation and formal entourage -> Historical grounding at Kang'o Ka Jaramogi -> Close on the project's physical completion trajectory.",
-      "source": "https://www.ghafla.co.ke/raila-junior-inspects-late-fathers-memorial-site/"
-    },
     {
       "title": "From a KSh 150 Kibanda Wage to Fuliza Humor: Inside Okello Max\u2019s Grinding Ascent",
       "angle": "Contrast the stark reality of his KSh 150 daily kibanda wage and modern 'Fuliza consumer' humor against the glamorous surface of the entertainment industry.",
@@ -1089,6 +1083,14 @@
       "opening": "Personality lead opening directly on Bolo Bespoke remembering the abruptly halted routine of fabric selection and tea sessions with Raila Odinga.",
       "structure": "Personality lead on the wardrobe fittings hook -> The intimate details of Bolo's tea-and-fabric sessions -> Contrast with the public Uhuru Park and KICC memorial vigils -> Entertainment and cultural lineup under Robert Burale -> Road to the Bondo mausoleum unveiling on October 15",
       "source": "https://www.ghafla.co.ke/the-silence-still-hurts-designer-bolo-bespoke-pays-emotional-tribute-to-raila-odinga-one-year-later/"
+    },
+    {
+      "title": "Eric Omondi Coordinates 90-Day Psychiatric Admission for Distressed Creator Georgina Njenga",
+      "angle": "Focusing on Omondi's transition to a hands-on clinical interventionist within the creator space, highlighting the physical tracking, medical enrollment, and the structured 90-day inpatient roadmap at Chiromo as a peer-led emergency response to creator burnout.",
+      "angle_type": "peer intervention and clinical recovery roadmap",
+      "opening": "Personality lead opening directly on Eric Omondi's shift from public advocacy to active physical intervention and medical enrollment.",
+      "structure": "Intervention hook -> The alarming social media catalyst -> Logistical details of the Friday hospital visit and clinical roadmap -> The institutional reality of Nairobi's premium psychiatric care -> The peer-to-peer safety net context -> Public boundary appeal close",
+      "source": "https://www.ghafla.co.ke/eric-omondi-shares-hospital-update-as-georgina-njenga-begins-90-day-mental-health-recovery/"
     }
   ],
   "style_history": [
