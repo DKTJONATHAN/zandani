@@ -146,7 +146,8 @@
     "296972f7ed60e6baf7d3248dfd2a2f9b7cb86fe9abc4d746001eb89f2e3672cc",
     "b87ac741f11f08df9899a51c39e6f2e1ff77f813a82a4995bafec8c8c4c76c49",
     "88ec9b63ff159452e043b3291fa3fb6040ee024ce5a8ed3af98e807521115937",
-    "983709ca63e1593871ce0e3dd94db57c6e9e8f887258c04ea77bef66a9641aca"
+    "983709ca63e1593871ce0e3dd94db57c6e9e8f887258c04ea77bef66a9641aca",
+    "4983d2a65f42dde873fcc7f93b8866a5e71bc14ba50ae934ec1c401422953927"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -295,17 +296,10 @@
     "https://www.ghafla.co.ke/eric-omondi-shares-hospital-update-as-georgina-njenga-begins-90-day-mental-health-recovery/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-six-areas-on-october-4/",
     "https://www.ghafla.co.ke/sakaja-wears-odm-cap-at-raila-vigil-sparks-2027-political-speculation/",
-    "https://www.ghafla.co.ke/uhuru-kenyatta-kalonzo-musyoka-and-opposition-leaders-attend-funeral-of-martha-karuas-father/"
+    "https://www.ghafla.co.ke/uhuru-kenyatta-kalonzo-musyoka-and-opposition-leaders-attend-funeral-of-martha-karuas-father/",
+    "https://www.ghafla.co.ke/uhuru-kenyatta-returns-to-political-arena-backs-wantam-campaign-in-kirinyaga/"
   ],
   "published_angles": [
-    {
-      "title": "Victor Kanyari Breaks Down the Mobile-Money Math Behind His KSh310 Pulpit Empire",
-      "angle": "Examining the raw economic calculus behind the pulpit\u2014how drop-out survival, a borrowed Kawangware hall, and mobile-money math systematically birthed the KSh310 'seed' empire before any national controversy hit.",
-      "angle_type": "economic mechanics of a controversial ministry's origin",
-      "opening": "Start directly with the mundane economic reality of the Kawangware hall and the shift from failed radio broadcasts to the specific KSh310 mobile-money math.",
-      "structure": "Economic origin hook -> The Loitokitok-to-Nairobi background and mother's influence -> The scaling trials from KSh1,000 down to KSh310 -> The 2014 investigative aftermath and absence of formal police complainants.",
-      "source": "https://www.ghafla.co.ke/victor-kanyari-admits-ministry-began-as-a-financial-decision-not-divine-calling/"
-    },
     {
       "title": "Advocate Lewis Uriri Walks Away From Wicknell Chivayo\u2019s KSh45 Million Luxury Gift Package",
       "angle": "Examining the professional boundary drawn by a senior barrister who quietly walked away from a multi-million-shilling windfall by establishing that all historical legal services had already been paid in full.",
@@ -1097,6 +1091,14 @@
       "opening": "Personality lead focusing directly on Martha Karua hosting political heavyweights across party lines at Mugumo Primary School.",
       "structure": "Personality lead -> Cross-party VIP assembly breakdown -> Life and requiem timeline -> Gichugu ceremony and final farewell close",
       "source": "https://www.ghafla.co.ke/uhuru-kenyatta-kalonzo-musyoka-and-opposition-leaders-attend-funeral-of-martha-karuas-father/"
+    },
+    {
+      "title": "Uhuru Kenyatta Stuns Kirinyaga Crowd with Direct \u2018I Told You So\u2019 Stage Show and WANTAM Pitch",
+      "angle": "Framing Uhuru Kenyatta's appearance through his personal stage theatrics and direct 'I told you so' interaction with the Kirinyaga crowd, highlighting his show-of-hands poll on 2022 voter regrets.",
+      "angle_type": "personality theatrical return and interactive crowd challenge",
+      "opening": "Personality lead opening directly on Uhuru Kenyatta taking the Kirinyaga stage for an unfiltered, highly interactive appearance.",
+      "structure": "Celebrity stage return hook -> Direct interactive show-of-hands crowd moment -> Detailed quotes on 2022 Azimio ticket -> Context on Ruto fallout -> Political commentary close",
+      "source": "https://www.ghafla.co.ke/uhuru-kenyatta-returns-to-political-arena-backs-wantam-campaign-in-kirinyaga/"
     }
   ],
   "style_history": [
