@@ -789,10 +789,10 @@
     "7c9240667cf379cc3288a530e93b10f5",
     "a0b2591ff67e8e0b22c2c0740dc28880",
     "abb1ac605b44e491e46ba6ffc6bd2f36",
-    "c9b6307a7949879ec13a67f315457363"
+    "c9b6307a7949879ec13a67f315457363",
+    "0a2063108304726938469eede3dfe0ba"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -821,7 +821,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1195,7 +1196,8 @@
     "https://kenyans.co.ke/news/127573-nys-says-viral-video-officers-assaulting-citizen-2-years-old",
     "https://kenyans.co.ke/news/127574-gideon-mois-land-document-goes-missing-registry-starts-replacement-process",
     "https://kenyans.co.ke/news/127577-scores-injured-multi-vehicle-accident-along-nakuru-eldoret-highway",
-    "https://kenyans.co.ke/news/127576-two-arrested-impersonating-senior-government-official"
+    "https://kenyans.co.ke/news/127576-two-arrested-impersonating-senior-government-official",
+    "https://kenyans.co.ke/news/127578-us-police-search-family-kenyan-man-who-died-north-carolina"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1491,7 +1493,8 @@
     "nys cites two year timeline commuter assault video but withholds disciplinary record",
     "moi family mounts coordinated campaign reconstruct trans nzoia land titles",
     "parked lorry hazard exposed mau summit pile paralyzes western artery",
-    "prado interception narok unmasks mechanics high status vip impersonation"
+    "prado interception narok unmasks mechanics high status vip impersonation",
+    "diaspora tracing effort mounts north carolina unclaimed student"
   ],
   "topic_keys": [
     "news tracker",
@@ -3426,6 +3429,15 @@
       "structure": "Interception and operational mechanics -> Seized telecommunications evidence and forensic focus -> Anatomy of state-power mimicry across recent county cases -> Institutional reporting and arraignment pathway.",
       "source": "https://kenyans.co.ke/news/127576-two-arrested-impersonating-senior-government-official",
       "published_at": "2026-10-04T10:01:12Z"
+    },
+    {
+      "title": "Diaspora Tracing Effort Mounts in North Carolina Over Unclaimed Kenyan Student",
+      "angle": "Focusing on the cross-border tracing race: how former classmates and diaspora networks are leveraging academic records across two continents to locate Macharia's relatives before county unclaimed-person protocols trigger state burial and property forfeiture.",
+      "angle_type": "people affected",
+      "opening": "Procedural-stakes lead linking the police appeal directly to the ticking statutory window and the cross-continental crowdsourcing effort to trace relatives.",
+      "structure": "Statutory stakes lead -> Police confirmation and vital dates -> Crowdsourced academic trail from Kericho to West Virginia -> Consular and unclaimed-asset legal mechanisms -> Active reporting contacts",
+      "source": "https://kenyans.co.ke/news/127578-us-police-search-family-kenyan-man-who-died-north-carolina",
+      "published_at": "2026-10-04T11:01:33Z"
     }
   ]
 }
