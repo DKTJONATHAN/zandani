@@ -785,10 +785,10 @@
     "d44aaf7d778d187e3bf147ee56a9017e",
     "d0ed4a76c8e4458fcc826a7363fa170b",
     "81e997ee645d6f80a208fb003dc5aef9",
-    "c023ac840d24481c5b185233c21cc97d"
+    "c023ac840d24481c5b185233c21cc97d",
+    "7c9240667cf379cc3288a530e93b10f5"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -817,7 +817,8 @@
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1187,7 +1188,8 @@
     "https://kenyans.co.ke/news/127563-kenya-ranks-10th-djibouti-records-africas-highest-take-home-pay",
     "https://kenyans.co.ke/news/127565-six-customers-petition-high-court-liquidate-directline-assurance-company",
     "https://kenyans.co.ke/news/127570-omtatah-makes-changes-team-2027-presidential-plans-take-shape",
-    "https://kenyans.co.ke/news/127569-huge-fire-erupts-tsavo-national-park-spreads-towards-taveta-voi-highway"
+    "https://kenyans.co.ke/news/127569-huge-fire-erupts-tsavo-national-park-spreads-towards-taveta-voi-highway",
+    "https://kenyans.co.ke/news/127573-nys-says-viral-video-officers-assaulting-citizen-2-years-old"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1479,7 +1481,8 @@
     "ksh44 550 net wage puts 10th africa amid domestic payroll squeeze",
     "liquidation case threatens cover percent psv market",
     "omtatah sets november 2026 decision window restructured solo state house run",
-    "unaddressed week long tsavo burn threatens taveta voi transit axis amid agency inaction"
+    "unaddressed week long tsavo burn threatens taveta voi transit axis amid agency inaction",
+    "nys cites two year timeline commuter assault video but withholds disciplinary record"
   ],
   "topic_keys": [
     "news tracker",
@@ -3378,6 +3381,15 @@
       "structure": "Response vacuum lead -> Triangulation timeline and road hazard -> Recurrent September corridor fire comparison -> Broader seasonal climate and Mt Kenya context -> Outstanding state mobilization response",
       "source": "https://kenyans.co.ke/news/127569-huge-fire-erupts-tsavo-national-park-spreads-towards-taveta-voi-highway",
       "published_at": "2026-10-04T06:01:12Z"
+    },
+    {
+      "title": "NYS Cites Two-Year Timeline in Commuter Assault Video but Withholds Disciplinary Record",
+      "angle": "The accountability and transparency gap: the paramilitary agency\u2019s reliance on a chronological defense\u2014dating the public transport assault to two years ago\u2014while leaving the specific administrative sanctions, penal actions, and remedial findings against the implicated personnel entirely undisclosed.",
+      "angle_type": "accountability",
+      "opening": "Accountability-gap lead focusing on the agency's chronological defense against public transit violence versus the lack of disclosed disciplinary outcomes.",
+      "structure": "Institutional response lead -> Commuter assault footage and timeline defense -> Disciplinary ambiguity and internal handling claims -> Paramilitary mandate and feeder pipeline implications",
+      "source": "https://kenyans.co.ke/news/127573-nys-says-viral-video-officers-assaulting-citizen-2-years-old",
+      "published_at": "2026-10-04T07:01:40Z"
     }
   ]
 }
