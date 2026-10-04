@@ -784,10 +784,10 @@
     "d5e2f92641ac273273b70a855b506346",
     "d44aaf7d778d187e3bf147ee56a9017e",
     "d0ed4a76c8e4458fcc826a7363fa170b",
-    "81e997ee645d6f80a208fb003dc5aef9"
+    "81e997ee645d6f80a208fb003dc5aef9",
+    "c023ac840d24481c5b185233c21cc97d"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -816,7 +816,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1185,7 +1186,8 @@
     "https://kenyans.co.ke/news/127568-kenyan-woman-among-3-rescued-suspected-sex-racket-india",
     "https://kenyans.co.ke/news/127563-kenya-ranks-10th-djibouti-records-africas-highest-take-home-pay",
     "https://kenyans.co.ke/news/127565-six-customers-petition-high-court-liquidate-directline-assurance-company",
-    "https://kenyans.co.ke/news/127570-omtatah-makes-changes-team-2027-presidential-plans-take-shape"
+    "https://kenyans.co.ke/news/127570-omtatah-makes-changes-team-2027-presidential-plans-take-shape",
+    "https://kenyans.co.ke/news/127569-huge-fire-erupts-tsavo-national-park-spreads-towards-taveta-voi-highway"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1476,7 +1478,8 @@
     "patna hotel raid exposes inland reach fraudulent travel pipelines",
     "ksh44 550 net wage puts 10th africa amid domestic payroll squeeze",
     "liquidation case threatens cover percent psv market",
-    "omtatah sets november 2026 decision window restructured solo state house run"
+    "omtatah sets november 2026 decision window restructured solo state house run",
+    "unaddressed week long tsavo burn threatens taveta voi transit axis amid agency inaction"
   ],
   "topic_keys": [
     "news tracker",
@@ -3366,6 +3369,15 @@
       "structure": "Statutory timeline lead -> Gazette leadership restructuring details -> Two-year feasibility and research mandate -> Deliberate distancing from opposition coalitions -> November 2026 dissolution and formal declaration threshold",
       "source": "https://kenyans.co.ke/news/127570-omtatah-makes-changes-team-2027-presidential-plans-take-shape",
       "published_at": "2026-10-04T05:00:15Z"
+    },
+    {
+      "title": "Unaddressed Week-Long Tsavo Burn Threatens Taveta-Voi Transit Axis Amid Agency Inaction",
+      "angle": "Focusing on the operational oversight and delayed state response: open-source triangulation shows the blaze burned unaddressed for nearly a week before reaching the critical Taveta-Voi highway, exposing lingering response gaps along vulnerable park corridors.",
+      "angle_type": "institutional pressure",
+      "opening": "Oversight-gap lead contrasting multi-day satellite triangulation data against the absence of ground containment units near a major highway.",
+      "structure": "Response vacuum lead -> Triangulation timeline and road hazard -> Recurrent September corridor fire comparison -> Broader seasonal climate and Mt Kenya context -> Outstanding state mobilization response",
+      "source": "https://kenyans.co.ke/news/127569-huge-fire-erupts-tsavo-national-park-spreads-towards-taveta-voi-highway",
+      "published_at": "2026-10-04T06:01:12Z"
     }
   ]
 }
