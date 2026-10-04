@@ -792,10 +792,10 @@
     "c9b6307a7949879ec13a67f315457363",
     "0a2063108304726938469eede3dfe0ba",
     "823ac52294b81912753e7df101f1bbe1",
-    "1973bcbebdf068e20267d60a6341c67a"
+    "1973bcbebdf068e20267d60a6341c67a",
+    "bfc0a8bd39fc6799b32ae6fa5a3ca0d9"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Event Report",
@@ -824,7 +824,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1201,7 +1202,8 @@
     "https://kenyans.co.ke/news/127576-two-arrested-impersonating-senior-government-official",
     "https://kenyans.co.ke/news/127578-us-police-search-family-kenyan-man-who-died-north-carolina",
     "https://kenyans.co.ke/news/127579-kra-announces-installment-payments-under-2026-tax-amnesty",
-    "https://kenyans.co.ke/news/127581-sifuna-named-equitable-partys-preferred-candidate-2027-presidential-bid"
+    "https://kenyans.co.ke/news/127581-sifuna-named-equitable-partys-preferred-candidate-2027-presidential-bid",
+    "https://kenyans.co.ke/news/127584-equitable-party-rebrand-linda-mwananchi-movement-sifuna-confirms"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1500,7 +1502,8 @@
     "prado interception narok unmasks mechanics high status vip impersonation",
     "diaspora tracing effort mounts north carolina unclaimed student",
     "kra opens phased itax payment plan 2026 tax amnesty relief",
-    "sifuna secures registered party shell restructuring deal 2027 run"
+    "sifuna secures registered party shell restructuring deal 2027 run",
+    "decoy parties day clock behind sifuna linda mwananchi rebranding hedge"
   ],
   "topic_keys": [
     "news tracker",
@@ -3462,6 +3465,15 @@
       "structure": "Vehicle acquisition lead -> Handover announcement and Nairobi event details -> Restructuring framework and membership terms -> Linda Mwananchi operational transition -> Road to formal 2027 party leadership gazettement",
       "source": "https://kenyans.co.ke/news/127581-sifuna-named-equitable-partys-preferred-candidate-2027-presidential-bid",
       "published_at": "2026-10-04T12:01:47Z"
+    },
+    {
+      "title": "Decoy Parties and a 90-Day Clock: Behind Sifuna\u2019s Linda Mwananchi Rebranding Hedge",
+      "angle": "The multi-front administrative decoy strategy deployed against state regulators: how legal warfare at the tribunal and diversionary party filings were used to secure a 90-day rebranding window, underpinned by an explicit fallback lock to prevent ballot disenfranchisement.",
+      "angle_type": "institutional pressure",
+      "opening": "Tactical hedge lead linking Sifuna's dual-track party announcement directly to the regulatory obstacle course inside the Registrar of Political Parties.",
+      "structure": "Regulatory hedge lead -> Rebranding announcement and fallback clause -> Decoy strategy disclosure by Khalwale -> Tribunal showdown and ORPP administrative hurdles -> 90-day statutory countdown and forward implications",
+      "source": "https://kenyans.co.ke/news/127584-equitable-party-rebrand-linda-mwananchi-movement-sifuna-confirms",
+      "published_at": "2026-10-04T16:02:18Z"
     }
   ]
 }
