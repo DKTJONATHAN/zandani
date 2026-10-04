@@ -148,7 +148,8 @@
     "88ec9b63ff159452e043b3291fa3fb6040ee024ce5a8ed3af98e807521115937",
     "983709ca63e1593871ce0e3dd94db57c6e9e8f887258c04ea77bef66a9641aca",
     "4983d2a65f42dde873fcc7f93b8866a5e71bc14ba50ae934ec1c401422953927",
-    "12ea9b32e0ee89027e01ef9960e33a41a35603751e434631e7c18d0ebb749dbf"
+    "12ea9b32e0ee89027e01ef9960e33a41a35603751e434631e7c18d0ebb749dbf",
+    "7f924d19903db6c96365f952e88d8b2f08e19635b9f1a2a025a50b7b431c65e0"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -299,17 +300,10 @@
     "https://www.ghafla.co.ke/sakaja-wears-odm-cap-at-raila-vigil-sparks-2027-political-speculation/",
     "https://www.ghafla.co.ke/uhuru-kenyatta-kalonzo-musyoka-and-opposition-leaders-attend-funeral-of-martha-karuas-father/",
     "https://www.ghafla.co.ke/uhuru-kenyatta-returns-to-political-arena-backs-wantam-campaign-in-kirinyaga/",
-    "https://www.ghafla.co.ke/mutahi-ngunyi-claims-uhuru-kenyatta-is-plotting-to-reclaim-mt-kenya-political-influence/"
+    "https://www.ghafla.co.ke/mutahi-ngunyi-claims-uhuru-kenyatta-is-plotting-to-reclaim-mt-kenya-political-influence/",
+    "https://www.ghafla.co.ke/rigathi-gachagua-claims-wicknell-chivayo-died-with-rutos-debt-worth-over-ksh-1-5-trillion/"
   ],
   "published_angles": [
-    {
-      "title": "Geoffrey Mosiria Tells Edwin Sifuna Why Reconciling With Babu Owino Is Political Suicide",
-      "angle": "Focusing on the internal factional playbook and historical political precedents (the Raila Odinga model) deployed within ODM circles to police interpersonal alliances ahead of 2027.",
-      "angle_type": "political alliance policing and historical precedent",
-      "opening": "Personality-led opening centered on Geoffrey Mosiria's direct warning via social media and voice notes.",
-      "structure": "Warning hook -> Mosiria's specific 'Judas' ultimatum -> The Raila Odinga historical parallel -> Broader 2027 ODM Nairobi leadership dynamics.",
-      "source": "https://www.ghafla.co.ke/mosiria-warns-sifuna-against-reconciliation-with-babu-owino/"
-    },
     {
       "title": "Kinoro Tea Factory, Hospitals Face Eight-Hour Grid Shutdown in Kenya Power Maintenance Sweep",
       "angle": "The localized economic disruption faced by rural institutional heavyweights\u2014specifically tea factories, hospitals, and girls' boarding schools\u2014during an eight-hour daytime grid shutdown.",
@@ -1101,6 +1095,14 @@
       "opening": "Personality lead opening directly on Mutahi Ngunyi weighing in on X about Uhuru Kenyatta's strategic moves in Kirinyaga.",
       "structure": "Personality hook -> Social commentary breakdown -> The Kirinyaga catalyst -> The Gachagua counter-dynamic and 2032 stakes -> Concrete close",
       "source": "https://www.ghafla.co.ke/mutahi-ngunyi-claims-uhuru-kenyatta-is-plotting-to-reclaim-mt-kenya-political-influence/"
+    },
+    {
+      "title": "\u2018Don\u2019t Blame Riggy G\u2019: Gachagua Clears Himself of Wicknell Chivayo Crash in Wild Boston Pulpit Routine",
+      "angle": "Focusing on Gachagua's darkly comedic overseas pulpit routine in Boston, where he staged an unprompted personal alibi clearing himself of a fatal Zimbabwean air disaster while painting a theatrical picture of private airstrips, cross-border billions, and globe-trotting election brokers.",
+      "angle_type": "celebrity pulpit theatrics and unprompted personal alibi",
+      "opening": "Personality lead opening directly on Gachagua preemptively pleading innocent to a Zimbabwean air disaster from a Boston pulpit.",
+      "structure": "Personality lead -> The Boston alibi hook -> Private airstrips and the KSh 1.5 trillion claim -> Election conspiracy and tech claims -> Crash context and official silence close",
+      "source": "https://www.ghafla.co.ke/rigathi-gachagua-claims-wicknell-chivayo-died-with-rutos-debt-worth-over-ksh-1-5-trillion/"
     }
   ],
   "style_history": [
