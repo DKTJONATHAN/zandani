@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "2c314b439a340d690f3a5fd6ec361c37",
     "90f6c37578e1d49ecfe80bf3665dc52e",
     "10e889f101e4e001b0e2c797f318a884",
     "1bd9d85728d2e41f0b9845fa6e265b00",
@@ -799,10 +798,10 @@
     "17aa1a4a0d5f8135f07c4209f7dafc26",
     "3534a3a66582cc043465b5dc9ac1ff12",
     "c23336bfa303f7724b5f1225a444d357",
-    "dab4bda55dae881a850ee7624df693aa"
+    "dab4bda55dae881a850ee7624df693aa",
+    "7b3463d41f2aa487d175c4cf637320be"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1216,7 +1216,8 @@
     "https://kenyans.co.ke/news/127592-former-ipoa-chairman-macharia-njeru-declares-2027-presidential-bid",
     "https://kenyans.co.ke/news/127596-ruto-directs-nssf-pay-retirement-benefits-within-10-days",
     "https://kenyans.co.ke/news/127598-ruto-directs-tsc-increase-teacher-promotions-50000",
-    "https://kenyans.co.ke/news/127597-cs-wahome-says-most-land-dangote-refinery-govt-owned"
+    "https://kenyans.co.ke/news/127597-cs-wahome-says-most-land-dangote-refinery-govt-owned",
+    "https://kenyans.co.ke/news/127609-kenha-ntsa-clash-funding-challenge-slows-road-expansion-projects"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1523,7 +1524,8 @@
     "macharia njeru enters 2027 race fiscal warning shrouds party vehicle",
     "state sets day pension payout deadline end multi year file chases",
     "evaluation rules restrict 000 teacher promotion push seniority rules fall",
-    "state classifies lamu refinery settlers squatters 000 acre land fight"
+    "state classifies lamu refinery settlers squatters 000 acre land fight",
+    "state safety audits stall 500km highway network kenha cites treasury cash fight"
   ],
   "topic_keys": [
     "news tracker",
@@ -3557,6 +3559,15 @@
       "structure": "Land classification lead -> Acreage breakdown and generational settlement profile -> The court challenge and ancestral title dispute -> State resettlement and multi-agency mechanism -> Attorney General defense and project execution timeline",
       "source": "https://kenyans.co.ke/news/127597-cs-wahome-says-most-land-dangote-refinery-govt-owned",
       "published_at": "2026-10-05T11:02:18Z"
+    },
+    {
+      "title": "State Safety Audits Stall on 2,500km Highway Network as KeNHA Cites Treasury Cash Fight",
+      "angle": "The operational disconnect between safety audits and capital expenditure: NTSA's unexecuted highway safety audit recommendations remain stalled on the desk of road agencies while KeNHA links structural safety fixes exclusively to contested Treasury allocations.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first statement opening outlining the state highway authority's public admission on stalled highway overhauls, directly identifying the motorists and hauliers bearing the safety risk.",
+      "structure": "Attribution and institutional positioning lead -> The 2,500-kilometre capital deficit and inter-agency friction -> NTSA audit delivery gap versus behavioural enforcement -> Design compromises and blackspot speed-calming -> Executive funding commitments and pending pipeline",
+      "source": "https://kenyans.co.ke/news/127609-kenha-ntsa-clash-funding-challenge-slows-road-expansion-projects",
+      "published_at": "2026-10-05T18:08:35Z"
     }
   ]
 }
