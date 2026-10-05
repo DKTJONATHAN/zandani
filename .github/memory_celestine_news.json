@@ -795,10 +795,10 @@
     "1973bcbebdf068e20267d60a6341c67a",
     "bfc0a8bd39fc6799b32ae6fa5a3ca0d9",
     "84b0eeeef2feb8b656d27032d3a34f78",
-    "85725b1c46f484a990df77503404dfe2"
+    "85725b1c46f484a990df77503404dfe2",
+    "f37ec9ce0f423023dc3a32a071f193f8"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -827,7 +827,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1207,7 +1208,8 @@
     "https://kenyans.co.ke/news/127581-sifuna-named-equitable-partys-preferred-candidate-2027-presidential-bid",
     "https://kenyans.co.ke/news/127584-equitable-party-rebrand-linda-mwananchi-movement-sifuna-confirms",
     "https://kenyans.co.ke/news/127583-registrar-companies-strikes-440-companies-targeting-multiple-sectors",
-    "https://kenyans.co.ke/news/127585-panic-fire-engulfs-dormitory-tengecha-boys-high-school-kericho"
+    "https://kenyans.co.ke/news/127585-panic-fire-engulfs-dormitory-tengecha-boys-high-school-kericho",
+    "https://kenyans.co.ke/news/127593-kra-urges-employers-file-paye-returns-october-9"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1509,7 +1511,8 @@
     "sifuna secures registered party shell restructuring deal 2027 run",
     "decoy parties day clock behind sifuna linda mwananchi rebranding hedge",
     "sectors sweat registry purge erases 200 firms regulatory clean hits physical employers",
-    "community response halts upper floor blaze tengecha boys high school"
+    "community response halts upper floor blaze tengecha boys high school",
+    "portal outages catch employers kra october filing squeeze"
   ],
   "topic_keys": [
     "news tracker",
@@ -3498,6 +3501,15 @@
       "structure": "Civilians-and-containment lead -> Physical damage and casualty assessment -> Containment mechanics on the upper floor -> Calendar pressure and national school fire trend -> Active investigative and administrative questions",
       "source": "https://kenyans.co.ke/news/127585-panic-fire-engulfs-dormitory-tengecha-boys-high-school-kericho",
       "published_at": "2026-10-04T19:02:43Z"
+    },
+    {
+      "title": "Portal Outages Catch Employers in KRA\u2019s October 9 Filing Squeeze",
+      "angle": "The operational compliance squeeze created when a state revenue collector demands strict adherence to penalty-backed statutory deadlines while its digital filing infrastructure suffers acknowledged system outages.",
+      "angle_type": "accountability",
+      "opening": "Operational-dilemma lead focusing on the tension between statutory penalty enforcement and active portal technical glitches.",
+      "structure": "Compliance dilemma lead -> Verified statutory deadlines and taxpayer friction -> Infrastructure gap versus automated penalties -> Distinction from broader amnesty relief -> Outstanding resolution timeline",
+      "source": "https://kenyans.co.ke/news/127593-kra-urges-employers-file-paye-returns-october-9",
+      "published_at": "2026-10-05T08:02:35Z"
     }
   ]
 }
