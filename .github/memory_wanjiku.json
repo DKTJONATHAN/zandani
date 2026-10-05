@@ -151,7 +151,8 @@
     "12ea9b32e0ee89027e01ef9960e33a41a35603751e434631e7c18d0ebb749dbf",
     "7f924d19903db6c96365f952e88d8b2f08e19635b9f1a2a025a50b7b431c65e0",
     "6ff4a99f7ec6466a189e7e23099ae55de532e853a8a1d1c85b33ebd9a1180cf2",
-    "002390108684e7264d000a964bff171608a72ad08584efdc1b94f87b7af9e3e0"
+    "002390108684e7264d000a964bff171608a72ad08584efdc1b94f87b7af9e3e0",
+    "3bee022b23ae7f7bbc13c7898abf40264b28627e933d82be95082bb6bf60eba8"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -305,17 +306,10 @@
     "https://www.ghafla.co.ke/mutahi-ngunyi-claims-uhuru-kenyatta-is-plotting-to-reclaim-mt-kenya-political-influence/",
     "https://www.ghafla.co.ke/rigathi-gachagua-claims-wicknell-chivayo-died-with-rutos-debt-worth-over-ksh-1-5-trillion/",
     "https://www.ghafla.co.ke/ciggie-johnson-reveals-dna-test-shows-he-is-not-biological-father-of-girl-he-raised-for-12-years/",
-    "https://www.ghafla.co.ke/battle-for-meru-ndindi-nyoro-ignites-grassroots-drive-ahead-of-2027/"
+    "https://www.ghafla.co.ke/battle-for-meru-ndindi-nyoro-ignites-grassroots-drive-ahead-of-2027/",
+    "https://www.ghafla.co.ke/gachagua-rallies-behind-sifunas-new-party-to-drive-parliamentary-shift/"
   ],
   "published_angles": [
-    {
-      "title": "Eve Mungai Relives the 43kg Trolling That Left Her in Tears Before the 62kg Body Pivot",
-      "angle": "Focusing on the physical and psychological trap of the public eye\u2014how shifting from a 43kg frame to a 62kg physique exposed her to a relentless, double-sided cycle of body-shaming regardless of her weight.",
-      "angle_type": "psychological and physical toll of public digital scrutiny",
-      "opening": "Personality lead opening directly on the Instagram admission and the specific 43kg weight struggle.",
-      "structure": "Instagram flashback hook -> The 43kg bullying reality -> The 62kg weight-gain pivot in late 2025 -> The pushback against audience ownership in January 2026 -> Close on the ongoing pressure of public visibility.",
-      "source": "https://www.ghafla.co.ke/eve-mungai-opens-up-about-body-shaming-during-her-43kg-phase/"
-    },
     {
       "title": "Oburu Oginga Rejects Uhuru Kenyatta\u2019s 2022 Election Claims as 'Vote-Winning Propaganda'",
       "angle": "The personal and legacy friction between Kenya's two most prominent political families, focusing on Oburu Oginga's protective stance over his late brother's memory and his refusal to let Uhuru Kenyatta use Raila Odinga's sacrifices as 'vote-winning propaganda.'",
@@ -1107,6 +1101,14 @@
       "opening": "Personality-led opening focusing directly on Ndindi Nyoro swapping high-level Nairobi boardrooms for dusty market stalls and church pews in Meru.",
       "structure": "Personality hook -> Meru itinerary breakdown (Maua and Laare) -> Party structural strategy vs national bargaining -> Concrete close on ground-level electoral positioning.",
       "source": "https://www.ghafla.co.ke/battle-for-meru-ndindi-nyoro-ignites-grassroots-drive-ahead-of-2027/"
+    },
+    {
+      "title": "Rigathi Gachagua Crowned 'Cousin' as He Places All Bets on Edwin Sifuna\u2019s Equitable Party",
+      "angle": "Focusing on Gachagua's personal branding and affectionate 'cousin' framing as he attempts to hitch his post-impeachment political survival to Sifuna's rising opposition momentum.",
+      "angle_type": "political alliance branding and personal narrative framing",
+      "opening": "Personality lead focusing directly on Gachagua's affectionate 'cousin' address and public embrace of Sifuna.",
+      "structure": "Personality hook -> Affectionate branding and family framing -> Strategic party goals and 2027 legislative ambitions -> Post-impeachment political positioning close",
+      "source": "https://www.ghafla.co.ke/gachagua-rallies-behind-sifunas-new-party-to-drive-parliamentary-shift/"
     }
   ],
   "style_history": [
