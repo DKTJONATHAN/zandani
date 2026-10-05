@@ -155,7 +155,8 @@
     "3bee022b23ae7f7bbc13c7898abf40264b28627e933d82be95082bb6bf60eba8",
     "f4a258426d784998bf5eac191579144be0b7f84dc9ea05854b0fd71518bc1e58",
     "fc9d6c6d885fcc59a665f459ced3d2fe35a47134740e5574f13339f9deea209d",
-    "52422b138567587dca1e20c1a3d092f293294855b6a0c22c6f5b5bcdf4cd4abf"
+    "52422b138567587dca1e20c1a3d092f293294855b6a0c22c6f5b5bcdf4cd4abf",
+    "ac74344b055e7a158f38b8f9ac4cd45e8f6a38447c2e2d8aec645ffb22240070"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -313,17 +314,10 @@
     "https://www.ghafla.co.ke/gachagua-rallies-behind-sifunas-new-party-to-drive-parliamentary-shift/",
     "https://www.ghafla.co.ke/inheriting-the-mantle-railas-political-spirit-now-rests-with-sifuna-says-mbae/",
     "https://www.ghafla.co.ke/elnino-rains-expected-nationwide-next-week-as-kenya-meteorological-service-issues-county-timelines/",
-    "https://www.ghafla.co.ke/bursting-the-bubble-mutahi-ngunyi-warns-sifunas-popularity-will-be-popped-before-2027/"
+    "https://www.ghafla.co.ke/bursting-the-bubble-mutahi-ngunyi-warns-sifunas-popularity-will-be-popped-before-2027/",
+    "https://www.ghafla.co.ke/no-job-yet-co-op-banks-peter-ndumia-tips-on-turning-skills-into-income/"
   ],
   "published_angles": [
-    {
-      "title": "Tr Cillah Breaks the 'Majesty' Spell: Setting Boundaries in the Age of Digital Courtship",
-      "angle": "The tactical use of public 'clarification' as a social media boundary-setting tool rather than mere gossip fodder.",
-      "angle_type": "psychological and personal boundary-setting",
-      "opening": "Start with the specific moment of public clarification to reframe the meeting as a boundary reset rather than a romantic encounter.",
-      "structure": "Immediate pivot to the in-person meeting context -> Analysis of the 'nimeshinda class' digital dynamic -> Contrast between online affection and offline reality -> Conclusion on the efficacy of the clarification.",
-      "source": "https://www.ghafla.co.ke/teacher-cillah-clarifies-marital-status-after-meeting-tiktok-doctor-majesty-njuguna/"
-    },
     {
       "title": "Inside Amber Ray\u2019s KSh924k Istanbul Dental Overhaul and the Economics of Influencer Makeovers",
       "angle": "The financial and logistical breakdown of medical tourism among Kenyan creators\u2014specifically comparing the nearly million-shilling dental overhaul to the broader surge of influencers treating body modification as brand equity.",
@@ -1115,6 +1109,14 @@
       "opening": "Direct personality lead focusing on Mutahi Ngunyi invoking a classic rule of power to warn Edwin Sifuna about his rapid popularity rise.",
       "structure": "Warning hook -> The 'flourish to destroy' thesis -> The TEP and Linda Mwananchi catalyst -> Establishment skepticism (Wanga) vs. grassroots defense (Odhiambo-Mabona) -> Unresolved future trajectory close.",
       "source": "https://www.ghafla.co.ke/bursting-the-bubble-mutahi-ngunyi-warns-sifunas-popularity-will-be-popped-before-2027/"
+    },
+    {
+      "title": "Peter Ndumia Takes on the Kenyan Graduate Hustle: Stop Polishing CVs and Build a Portfolio on TikTok",
+      "angle": "Framing the event around the direct, practical tension between traditional recruitment preparation (the 'CV polish') and the immediate creator-style hustle of leveraging social media apps like WhatsApp and TikTok for gig work.",
+      "angle_type": "creator economy lifestyle and practical career pivot",
+      "opening": "Direct focus on Peter Ndumia and host Violetta Ngina addressing the stalled job market with a blunt reality check about CVs.",
+      "structure": "Host and speaker hook -> The critique of CV-first thinking -> The 'solution versus skill' business pivot -> The mechanics of building portfolios on personal social media channels -> Strategic unpaid work as leverage -> Digital economy scale statistics -> Concrete localized action close.",
+      "source": "https://www.ghafla.co.ke/no-job-yet-co-op-banks-peter-ndumia-tips-on-turning-skills-into-income/"
     }
   ],
   "style_history": [
