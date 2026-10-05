@@ -149,7 +149,8 @@
     "983709ca63e1593871ce0e3dd94db57c6e9e8f887258c04ea77bef66a9641aca",
     "4983d2a65f42dde873fcc7f93b8866a5e71bc14ba50ae934ec1c401422953927",
     "12ea9b32e0ee89027e01ef9960e33a41a35603751e434631e7c18d0ebb749dbf",
-    "7f924d19903db6c96365f952e88d8b2f08e19635b9f1a2a025a50b7b431c65e0"
+    "7f924d19903db6c96365f952e88d8b2f08e19635b9f1a2a025a50b7b431c65e0",
+    "6ff4a99f7ec6466a189e7e23099ae55de532e853a8a1d1c85b33ebd9a1180cf2"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -301,17 +302,10 @@
     "https://www.ghafla.co.ke/uhuru-kenyatta-kalonzo-musyoka-and-opposition-leaders-attend-funeral-of-martha-karuas-father/",
     "https://www.ghafla.co.ke/uhuru-kenyatta-returns-to-political-arena-backs-wantam-campaign-in-kirinyaga/",
     "https://www.ghafla.co.ke/mutahi-ngunyi-claims-uhuru-kenyatta-is-plotting-to-reclaim-mt-kenya-political-influence/",
-    "https://www.ghafla.co.ke/rigathi-gachagua-claims-wicknell-chivayo-died-with-rutos-debt-worth-over-ksh-1-5-trillion/"
+    "https://www.ghafla.co.ke/rigathi-gachagua-claims-wicknell-chivayo-died-with-rutos-debt-worth-over-ksh-1-5-trillion/",
+    "https://www.ghafla.co.ke/ciggie-johnson-reveals-dna-test-shows-he-is-not-biological-father-of-girl-he-raised-for-12-years/"
   ],
   "published_angles": [
-    {
-      "title": "Kinoro Tea Factory, Hospitals Face Eight-Hour Grid Shutdown in Kenya Power Maintenance Sweep",
-      "angle": "The localized economic disruption faced by rural institutional heavyweights\u2014specifically tea factories, hospitals, and girls' boarding schools\u2014during an eight-hour daytime grid shutdown.",
-      "angle_type": "local institutional and economic impact",
-      "opening": "Start directly with the operational strain placed on rural institutions by the daytime power interruption.",
-      "structure": "Institutional impact hook -> Breakdown of specific facility vulnerabilities (hospitals and factories) -> Regional county distribution map -> Close on the exact operating window.",
-      "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-five-counties-on-september-23/"
-    },
     {
       "title": "Karen Hub, Carbacid, and Maryhill Girls Caught in Sweeping Thursday Power Blackout",
       "angle": "The commercial and institutional chokehold of an eight-hour blackout hitting key retail hubs, manufacturing plants, and elite schools all at once.",
@@ -1103,6 +1097,14 @@
       "opening": "Personality lead opening directly on Gachagua preemptively pleading innocent to a Zimbabwean air disaster from a Boston pulpit.",
       "structure": "Personality lead -> The Boston alibi hook -> Private airstrips and the KSh 1.5 trillion claim -> Election conspiracy and tech claims -> Crash context and official silence close",
       "source": "https://www.ghafla.co.ke/rigathi-gachagua-claims-wicknell-chivayo-died-with-rutos-debt-worth-over-ksh-1-5-trillion/"
+    },
+    {
+      "title": "\u2018Some Things Should Never Become Content\u2019: Millicent Omanga Leads Pushback Over Ciggie Johnson\u2019s 12-Year DNA Reveal",
+      "angle": "Framing the event around the immediate ethics clash and public figure pushback regarding the broadcast of a minor's private paternity trauma as digital content.",
+      "angle_type": "creator ethics and public backlash",
+      "opening": "Personality lead opening directly on Millicent Omanga and prominent public figures confronting Ciggie Johnson's decision to monetize a sensitive 12-year paternity reveal.",
+      "structure": "Ethical backlash hook -> Recorded phone call specifics -> 12-year history of financial support and police disputes -> Public figures' debate on parental duty vs biology -> Unverified legal status and unresolved next steps close.",
+      "source": "https://www.ghafla.co.ke/ciggie-johnson-reveals-dna-test-shows-he-is-not-biological-father-of-girl-he-raised-for-12-years/"
     }
   ],
   "style_history": [
