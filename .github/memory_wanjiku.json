@@ -150,7 +150,8 @@
     "4983d2a65f42dde873fcc7f93b8866a5e71bc14ba50ae934ec1c401422953927",
     "12ea9b32e0ee89027e01ef9960e33a41a35603751e434631e7c18d0ebb749dbf",
     "7f924d19903db6c96365f952e88d8b2f08e19635b9f1a2a025a50b7b431c65e0",
-    "6ff4a99f7ec6466a189e7e23099ae55de532e853a8a1d1c85b33ebd9a1180cf2"
+    "6ff4a99f7ec6466a189e7e23099ae55de532e853a8a1d1c85b33ebd9a1180cf2",
+    "002390108684e7264d000a964bff171608a72ad08584efdc1b94f87b7af9e3e0"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -303,17 +304,10 @@
     "https://www.ghafla.co.ke/uhuru-kenyatta-returns-to-political-arena-backs-wantam-campaign-in-kirinyaga/",
     "https://www.ghafla.co.ke/mutahi-ngunyi-claims-uhuru-kenyatta-is-plotting-to-reclaim-mt-kenya-political-influence/",
     "https://www.ghafla.co.ke/rigathi-gachagua-claims-wicknell-chivayo-died-with-rutos-debt-worth-over-ksh-1-5-trillion/",
-    "https://www.ghafla.co.ke/ciggie-johnson-reveals-dna-test-shows-he-is-not-biological-father-of-girl-he-raised-for-12-years/"
+    "https://www.ghafla.co.ke/ciggie-johnson-reveals-dna-test-shows-he-is-not-biological-father-of-girl-he-raised-for-12-years/",
+    "https://www.ghafla.co.ke/battle-for-meru-ndindi-nyoro-ignites-grassroots-drive-ahead-of-2027/"
   ],
   "published_angles": [
-    {
-      "title": "Karen Hub, Carbacid, and Maryhill Girls Caught in Sweeping Thursday Power Blackout",
-      "angle": "The commercial and institutional chokehold of an eight-hour blackout hitting key retail hubs, manufacturing plants, and elite schools all at once.",
-      "angle_type": "commercial and industrial disruption impact",
-      "opening": "Start directly with the high-traffic commercial and educational hubs facing a total daytime grid cutoff.",
-      "structure": "Commercial hub hook -> Industrial and factory vulnerabilities -> School and public installation impact -> The sheer geographic scope across seven counties -> Concrete close on the 8:30 AM to 5:00 PM operating window.",
-      "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-six-counties-on-september-24/"
-    },
     {
       "title": "Eve Mungai Relives the 43kg Trolling That Left Her in Tears Before the 62kg Body Pivot",
       "angle": "Focusing on the physical and psychological trap of the public eye\u2014how shifting from a 43kg frame to a 62kg physique exposed her to a relentless, double-sided cycle of body-shaming regardless of her weight.",
@@ -1105,6 +1099,14 @@
       "opening": "Personality lead opening directly on Millicent Omanga and prominent public figures confronting Ciggie Johnson's decision to monetize a sensitive 12-year paternity reveal.",
       "structure": "Ethical backlash hook -> Recorded phone call specifics -> 12-year history of financial support and police disputes -> Public figures' debate on parental duty vs biology -> Unverified legal status and unresolved next steps close.",
       "source": "https://www.ghafla.co.ke/ciggie-johnson-reveals-dna-test-shows-he-is-not-biological-father-of-girl-he-raised-for-12-years/"
+    },
+    {
+      "title": "Ndindi Nyoro Trades Nairobi Boardrooms for Maua Pews and Laare Market Stalls in Meru Push",
+      "angle": "The tactical shift from high-level Nairobi political negotiations to direct marketplace and church-step retail mobilization in Meru County's rural strongholds.",
+      "angle_type": "grassroots retail politics and constituency-level mobilization",
+      "opening": "Personality-led opening focusing directly on Ndindi Nyoro swapping high-level Nairobi boardrooms for dusty market stalls and church pews in Meru.",
+      "structure": "Personality hook -> Meru itinerary breakdown (Maua and Laare) -> Party structural strategy vs national bargaining -> Concrete close on ground-level electoral positioning.",
+      "source": "https://www.ghafla.co.ke/battle-for-meru-ndindi-nyoro-ignites-grassroots-drive-ahead-of-2027/"
     }
   ],
   "style_history": [
