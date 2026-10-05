@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "4bbe3ab972ddaa6e2cdf0ed9fa514e38",
     "2c314b439a340d690f3a5fd6ec361c37",
     "90f6c37578e1d49ecfe80bf3665dc52e",
     "10e889f101e4e001b0e2c797f318a884",
@@ -799,10 +798,10 @@
     "f37ec9ce0f423023dc3a32a071f193f8",
     "17aa1a4a0d5f8135f07c4209f7dafc26",
     "3534a3a66582cc043465b5dc9ac1ff12",
-    "c23336bfa303f7724b5f1225a444d357"
+    "c23336bfa303f7724b5f1225a444d357",
+    "dab4bda55dae881a850ee7624df693aa"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1215,7 +1215,8 @@
     "https://kenyans.co.ke/news/127593-kra-urges-employers-file-paye-returns-october-9",
     "https://kenyans.co.ke/news/127592-former-ipoa-chairman-macharia-njeru-declares-2027-presidential-bid",
     "https://kenyans.co.ke/news/127596-ruto-directs-nssf-pay-retirement-benefits-within-10-days",
-    "https://kenyans.co.ke/news/127598-ruto-directs-tsc-increase-teacher-promotions-50000"
+    "https://kenyans.co.ke/news/127598-ruto-directs-tsc-increase-teacher-promotions-50000",
+    "https://kenyans.co.ke/news/127597-cs-wahome-says-most-land-dangote-refinery-govt-owned"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1521,7 +1522,8 @@
     "portal outages catch employers kra october filing squeeze",
     "macharia njeru enters 2027 race fiscal warning shrouds party vehicle",
     "state sets day pension payout deadline end multi year file chases",
-    "evaluation rules restrict 000 teacher promotion push seniority rules fall"
+    "evaluation rules restrict 000 teacher promotion push seniority rules fall",
+    "state classifies lamu refinery settlers squatters 000 acre land fight"
   ],
   "topic_keys": [
     "news tracker",
@@ -3546,6 +3548,15 @@
       "structure": "Policy expansion lead -> Historical seniority shift and structured assessment mechanics -> Disciplinary exclusions under Regulation 77 -> JSS contract transition timeline -> Forward outlook on SRC guideline approval.",
       "source": "https://kenyans.co.ke/news/127598-ruto-directs-tsc-increase-teacher-promotions-50000",
       "published_at": "2026-10-05T10:02:38Z"
+    },
+    {
+      "title": "State Classifies Lamu Refinery Settlers as Squatters in 9,000-Acre Land Fight",
+      "angle": "The operational tension between generational occupancy rights and formal state land title in Lamu, examining how the ministry is categorizing multi-decade family settlements as squatters on public land while handling legal challenges through the Attorney General.",
+      "angle_type": "accountability",
+      "opening": "Tenure-clash lead opening on the state's classification of generational occupants as squatters across the 9,000-acre project footprint.",
+      "structure": "Land classification lead -> Acreage breakdown and generational settlement profile -> The court challenge and ancestral title dispute -> State resettlement and multi-agency mechanism -> Attorney General defense and project execution timeline",
+      "source": "https://kenyans.co.ke/news/127597-cs-wahome-says-most-land-dangote-refinery-govt-owned",
+      "published_at": "2026-10-05T11:02:18Z"
     }
   ]
 }
