@@ -156,7 +156,8 @@
     "f4a258426d784998bf5eac191579144be0b7f84dc9ea05854b0fd71518bc1e58",
     "fc9d6c6d885fcc59a665f459ced3d2fe35a47134740e5574f13339f9deea209d",
     "52422b138567587dca1e20c1a3d092f293294855b6a0c22c6f5b5bcdf4cd4abf",
-    "ac74344b055e7a158f38b8f9ac4cd45e8f6a38447c2e2d8aec645ffb22240070"
+    "ac74344b055e7a158f38b8f9ac4cd45e8f6a38447c2e2d8aec645ffb22240070",
+    "ef9d52bdb023d24a88ab32cff8f4b751eb03fab6496cb848fd0f25edead646d9"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -315,17 +316,10 @@
     "https://www.ghafla.co.ke/inheriting-the-mantle-railas-political-spirit-now-rests-with-sifuna-says-mbae/",
     "https://www.ghafla.co.ke/elnino-rains-expected-nationwide-next-week-as-kenya-meteorological-service-issues-county-timelines/",
     "https://www.ghafla.co.ke/bursting-the-bubble-mutahi-ngunyi-warns-sifunas-popularity-will-be-popped-before-2027/",
-    "https://www.ghafla.co.ke/no-job-yet-co-op-banks-peter-ndumia-tips-on-turning-skills-into-income/"
+    "https://www.ghafla.co.ke/no-job-yet-co-op-banks-peter-ndumia-tips-on-turning-skills-into-income/",
+    "https://www.ghafla.co.ke/bypassing-parliament-mp-kibagendi-challenges-ruto-over-dangote-refinery-deal/"
   ],
   "published_angles": [
-    {
-      "title": "Inside Amber Ray\u2019s KSh924k Istanbul Dental Overhaul and the Economics of Influencer Makeovers",
-      "angle": "The financial and logistical breakdown of medical tourism among Kenyan creators\u2014specifically comparing the nearly million-shilling dental overhaul to the broader surge of influencers treating body modification as brand equity.",
-      "angle_type": "economic and career investment in personal branding",
-      "opening": "Personality-led opening centered on the exact financial and physical scope of the Istanbul transformation.",
-      "structure": "Specific procedure and dental cost hook -> The shift in influencer personal branding economics -> Partner opposition and final consent dynamics -> Medical tourism advisory and practical considerations close.",
-      "source": "https://www.ghafla.co.ke/amber-rays-turkey-makeover-rekindles-debate-over-cosmetic-surgery-and-social-media/"
-    },
     {
       "title": "Tanasha Donna\u2019s \u2018Mama Tee\u2019 Birthday Nod Marks New Chapter in Blended Co-Parenting",
       "angle": "Shifting away from the tired 'exes and baby mama drama' trope to examine how public blended families deliberately manage co-parenting visibility, using the transition from private rivalry to cordial digital milestones as an intentional public relations and family strategy.",
@@ -1117,6 +1111,14 @@
       "opening": "Direct focus on Peter Ndumia and host Violetta Ngina addressing the stalled job market with a blunt reality check about CVs.",
       "structure": "Host and speaker hook -> The critique of CV-first thinking -> The 'solution versus skill' business pivot -> The mechanics of building portfolios on personal social media channels -> Strategic unpaid work as leverage -> Digital economy scale statistics -> Concrete localized action close.",
       "source": "https://www.ghafla.co.ke/no-job-yet-co-op-banks-peter-ndumia-tips-on-turning-skills-into-income/"
+    },
+    {
+      "title": "Antony Kibagendi Slams Ruto\u2019s KSh 2.23 Trillion Dangote Deal over Missing Parliament Nod and Inflated Job Hype",
+      "angle": "Focusing on Kibagendi's direct reality-check against presidential economic projections\u2014dismantling the grand job creation and price-drop promises by citing hard employment numbers from Dangote's existing Nigerian footprint.",
+      "angle_type": "celebrity political clash and economic reality check",
+      "opening": "Personality-led opening focusing directly on Antony Kibagendi taking aim at presidential project projections on television.",
+      "structure": "Personality clash hook -> Television interview breakdown -> Reality check on Nigerian plant jobs and fuel prices -> Constitutional power of the purse debate -> Unresolved parliamentary resistance close",
+      "source": "https://www.ghafla.co.ke/bypassing-parliament-mp-kibagendi-challenges-ruto-over-dangote-refinery-deal/"
     }
   ],
   "style_history": [
