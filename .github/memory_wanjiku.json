@@ -154,7 +154,8 @@
     "002390108684e7264d000a964bff171608a72ad08584efdc1b94f87b7af9e3e0",
     "3bee022b23ae7f7bbc13c7898abf40264b28627e933d82be95082bb6bf60eba8",
     "f4a258426d784998bf5eac191579144be0b7f84dc9ea05854b0fd71518bc1e58",
-    "fc9d6c6d885fcc59a665f459ced3d2fe35a47134740e5574f13339f9deea209d"
+    "fc9d6c6d885fcc59a665f459ced3d2fe35a47134740e5574f13339f9deea209d",
+    "52422b138567587dca1e20c1a3d092f293294855b6a0c22c6f5b5bcdf4cd4abf"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -311,17 +312,10 @@
     "https://www.ghafla.co.ke/battle-for-meru-ndindi-nyoro-ignites-grassroots-drive-ahead-of-2027/",
     "https://www.ghafla.co.ke/gachagua-rallies-behind-sifunas-new-party-to-drive-parliamentary-shift/",
     "https://www.ghafla.co.ke/inheriting-the-mantle-railas-political-spirit-now-rests-with-sifuna-says-mbae/",
-    "https://www.ghafla.co.ke/elnino-rains-expected-nationwide-next-week-as-kenya-meteorological-service-issues-county-timelines/"
+    "https://www.ghafla.co.ke/elnino-rains-expected-nationwide-next-week-as-kenya-meteorological-service-issues-county-timelines/",
+    "https://www.ghafla.co.ke/bursting-the-bubble-mutahi-ngunyi-warns-sifunas-popularity-will-be-popped-before-2027/"
   ],
   "published_angles": [
-    {
-      "title": "Georgina Njenga on Heartbreak: Why I Used to Tell Myself I Didn't Deserve Love",
-      "angle": "Examining the specific psychological pivot from internalising rejection and self-doubt to advocating for non-forced breakups, drawing on her own past admissions.",
-      "angle_type": "psychological reflection and personal boundary-setting",
-      "opening": "Start directly with the specific internal struggle\u2014the self-doubt of feeling undeserving of love\u2014before introducing Georgina Njenga's Instagram statement.",
-      "structure": "Internal doubt hook -> The specific Instagram quotes on rejection -> The advice against forcing dead relationships -> Close on her final verdict.",
-      "source": "https://www.ghafla.co.ke/georgina-njenga-shares-message-of-hope-with-people-nursing-heartbreak/"
-    },
     {
       "title": "Tr Cillah Breaks the 'Majesty' Spell: Setting Boundaries in the Age of Digital Courtship",
       "angle": "The tactical use of public 'clarification' as a social media boundary-setting tool rather than mere gossip fodder.",
@@ -1113,6 +1107,14 @@
       "opening": "Direct personality and institutional lead highlighting Edward Muriuki's specific calendar warning for the short rains.",
       "structure": "Calendar countdown hook -> 24-county immediate rainfall breakdown -> Northern arid zone timelines -> Agricultural benefits vs flood and disease warnings -> Close on January 2027 wind-down projections.",
       "source": "https://www.ghafla.co.ke/elnino-rains-expected-nationwide-next-week-as-kenya-meteorological-service-issues-county-timelines/"
+    },
+    {
+      "title": "Mutahi Ngunyi Warns Edwin Sifuna of a 'Flourish to Destroy' Trap as TEP Momentum Builds",
+      "angle": "Framing the development around the psychological power play of the 'flourish to destroy' trap, analyzing how establishment figures are allegedly letting Sifuna peak prematurely to orchestrate a controlled crash before 2027.",
+      "angle_type": "celebrity commentator hot-take and psychological power dynamics",
+      "opening": "Direct personality lead focusing on Mutahi Ngunyi invoking a classic rule of power to warn Edwin Sifuna about his rapid popularity rise.",
+      "structure": "Warning hook -> The 'flourish to destroy' thesis -> The TEP and Linda Mwananchi catalyst -> Establishment skepticism (Wanga) vs. grassroots defense (Odhiambo-Mabona) -> Unresolved future trajectory close.",
+      "source": "https://www.ghafla.co.ke/bursting-the-bubble-mutahi-ngunyi-warns-sifunas-popularity-will-be-popped-before-2027/"
     }
   ],
   "style_history": [
