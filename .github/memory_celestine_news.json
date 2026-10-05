@@ -796,10 +796,10 @@
     "bfc0a8bd39fc6799b32ae6fa5a3ca0d9",
     "84b0eeeef2feb8b656d27032d3a34f78",
     "85725b1c46f484a990df77503404dfe2",
-    "f37ec9ce0f423023dc3a32a071f193f8"
+    "f37ec9ce0f423023dc3a32a071f193f8",
+    "17aa1a4a0d5f8135f07c4209f7dafc26"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -828,7 +828,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1209,7 +1210,8 @@
     "https://kenyans.co.ke/news/127584-equitable-party-rebrand-linda-mwananchi-movement-sifuna-confirms",
     "https://kenyans.co.ke/news/127583-registrar-companies-strikes-440-companies-targeting-multiple-sectors",
     "https://kenyans.co.ke/news/127585-panic-fire-engulfs-dormitory-tengecha-boys-high-school-kericho",
-    "https://kenyans.co.ke/news/127593-kra-urges-employers-file-paye-returns-october-9"
+    "https://kenyans.co.ke/news/127593-kra-urges-employers-file-paye-returns-october-9",
+    "https://kenyans.co.ke/news/127592-former-ipoa-chairman-macharia-njeru-declares-2027-presidential-bid"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1512,7 +1514,8 @@
     "decoy parties day clock behind sifuna linda mwananchi rebranding hedge",
     "sectors sweat registry purge erases 200 firms regulatory clean hits physical employers",
     "community response halts upper floor blaze tengecha boys high school",
-    "portal outages catch employers kra october filing squeeze"
+    "portal outages catch employers kra october filing squeeze",
+    "macharia njeru enters 2027 race fiscal warning shrouds party vehicle"
   ],
   "topic_keys": [
     "news tracker",
@@ -3510,6 +3513,15 @@
       "structure": "Compliance dilemma lead -> Verified statutory deadlines and taxpayer friction -> Infrastructure gap versus automated penalties -> Distinction from broader amnesty relief -> Outstanding resolution timeline",
       "source": "https://kenyans.co.ke/news/127593-kra-urges-employers-file-paye-returns-october-9",
       "published_at": "2026-10-05T08:02:35Z"
+    },
+    {
+      "title": "Macharia Njeru Enters 2027 Race With Fiscal Warning, Shrouds Party Vehicle",
+      "angle": "Framing Njeru's candidacy through the lens of a veteran corporate and oversight insider presenting a stark fiscal ledger\u2014highlighting a Ksh 1.7 trillion revenue-expenditure gap and structural youth underemployment\u2014while leaving his operational party vehicle and campaign funding completely unaddressed.",
+      "angle_type": "institutional pressure",
+      "opening": "Diagnostic fiscal lead tying Njeru's boardroom pedigree directly to his warnings over state spending and voter disenfranchisement.",
+      "structure": "Diagnostic fiscal lead -> Factual declaration core -> Institutional pedigree and youth labor statistics -> Fiscal deficit critique and leadership cycle -> Unresolved political vehicle and funding void",
+      "source": "https://kenyans.co.ke/news/127592-former-ipoa-chairman-macharia-njeru-declares-2027-presidential-bid",
+      "published_at": "2026-10-05T08:39:14Z"
     }
   ]
 }
