@@ -797,10 +797,10 @@
     "84b0eeeef2feb8b656d27032d3a34f78",
     "85725b1c46f484a990df77503404dfe2",
     "f37ec9ce0f423023dc3a32a071f193f8",
-    "17aa1a4a0d5f8135f07c4209f7dafc26"
+    "17aa1a4a0d5f8135f07c4209f7dafc26",
+    "3534a3a66582cc043465b5dc9ac1ff12"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -829,7 +829,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1211,7 +1212,8 @@
     "https://kenyans.co.ke/news/127583-registrar-companies-strikes-440-companies-targeting-multiple-sectors",
     "https://kenyans.co.ke/news/127585-panic-fire-engulfs-dormitory-tengecha-boys-high-school-kericho",
     "https://kenyans.co.ke/news/127593-kra-urges-employers-file-paye-returns-october-9",
-    "https://kenyans.co.ke/news/127592-former-ipoa-chairman-macharia-njeru-declares-2027-presidential-bid"
+    "https://kenyans.co.ke/news/127592-former-ipoa-chairman-macharia-njeru-declares-2027-presidential-bid",
+    "https://kenyans.co.ke/news/127596-ruto-directs-nssf-pay-retirement-benefits-within-10-days"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1515,7 +1517,8 @@
     "sectors sweat registry purge erases 200 firms regulatory clean hits physical employers",
     "community response halts upper floor blaze tengecha boys high school",
     "portal outages catch employers kra october filing squeeze",
-    "macharia njeru enters 2027 race fiscal warning shrouds party vehicle"
+    "macharia njeru enters 2027 race fiscal warning shrouds party vehicle",
+    "state sets day pension payout deadline end multi year file chases"
   ],
   "topic_keys": [
     "news tracker",
@@ -3522,6 +3525,15 @@
       "structure": "Diagnostic fiscal lead -> Factual declaration core -> Institutional pedigree and youth labor statistics -> Fiscal deficit critique and leadership cycle -> Unresolved political vehicle and funding void",
       "source": "https://kenyans.co.ke/news/127592-former-ipoa-chairman-macharia-njeru-declares-2027-presidential-bid",
       "published_at": "2026-10-05T08:39:14Z"
+    },
+    {
+      "title": "State Sets 10-Day Pension Payout Deadline to End Multi-Year File Chases",
+      "angle": "The operational compression of public service retirement: dismantling a decades-long file-chasing bureaucracy and collapsing the statutory 90-day window into an automated 10-day digital disbursement pipeline.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first statement lead identifying the executive order and explicitly defining the immediate beneficiaries across the public sector.",
+      "structure": "Attribution and beneficiary lead -> Three-month operational deadline and 10-day payment standard -> Digitization mechanics under PMIS -> Historical baseline of Ombudsman backlog cases -> Forward edge on institutional file uploads.",
+      "source": "https://kenyans.co.ke/news/127596-ruto-directs-nssf-pay-retirement-benefits-within-10-days",
+      "published_at": "2026-10-05T09:02:13Z"
     }
   ]
 }
