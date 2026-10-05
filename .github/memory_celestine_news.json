@@ -798,10 +798,10 @@
     "85725b1c46f484a990df77503404dfe2",
     "f37ec9ce0f423023dc3a32a071f193f8",
     "17aa1a4a0d5f8135f07c4209f7dafc26",
-    "3534a3a66582cc043465b5dc9ac1ff12"
+    "3534a3a66582cc043465b5dc9ac1ff12",
+    "c23336bfa303f7724b5f1225a444d357"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
@@ -830,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1213,7 +1214,8 @@
     "https://kenyans.co.ke/news/127585-panic-fire-engulfs-dormitory-tengecha-boys-high-school-kericho",
     "https://kenyans.co.ke/news/127593-kra-urges-employers-file-paye-returns-october-9",
     "https://kenyans.co.ke/news/127592-former-ipoa-chairman-macharia-njeru-declares-2027-presidential-bid",
-    "https://kenyans.co.ke/news/127596-ruto-directs-nssf-pay-retirement-benefits-within-10-days"
+    "https://kenyans.co.ke/news/127596-ruto-directs-nssf-pay-retirement-benefits-within-10-days",
+    "https://kenyans.co.ke/news/127598-ruto-directs-tsc-increase-teacher-promotions-50000"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1518,7 +1520,8 @@
     "community response halts upper floor blaze tengecha boys high school",
     "portal outages catch employers kra october filing squeeze",
     "macharia njeru enters 2027 race fiscal warning shrouds party vehicle",
-    "state sets day pension payout deadline end multi year file chases"
+    "state sets day pension payout deadline end multi year file chases",
+    "evaluation rules restrict 000 teacher promotion push seniority rules fall"
   ],
   "topic_keys": [
     "news tracker",
@@ -3534,6 +3537,15 @@
       "structure": "Attribution and beneficiary lead -> Three-month operational deadline and 10-day payment standard -> Digitization mechanics under PMIS -> Historical baseline of Ombudsman backlog cases -> Forward edge on institutional file uploads.",
       "source": "https://kenyans.co.ke/news/127596-ruto-directs-nssf-pay-retirement-benefits-within-10-days",
       "published_at": "2026-10-05T09:02:13Z"
+    },
+    {
+      "title": "New Evaluation Rules Restrict 50,000 Teacher Promotion Push as Seniority Rules Fall",
+      "angle": "The operational shift in evaluation criteria\u2014moving away from historical age and seniority toward standardized assessments, three-year grade retention rules, and strict disciplinary exclusion under Regulation 77.",
+      "angle_type": "practical change",
+      "opening": "Procedural-stakes lead linking the executive expansion announcement directly to the new evaluation filters governing the 2026-27 cycle.",
+      "structure": "Policy expansion lead -> Historical seniority shift and structured assessment mechanics -> Disciplinary exclusions under Regulation 77 -> JSS contract transition timeline -> Forward outlook on SRC guideline approval.",
+      "source": "https://kenyans.co.ke/news/127598-ruto-directs-tsc-increase-teacher-promotions-50000",
+      "published_at": "2026-10-05T10:02:38Z"
     }
   ]
 }
