@@ -163,7 +163,8 @@
     "defd06bbc4b9f86b4fb836e532e2a248a2815912a4dd2ad13998e9885eeae74a",
     "a8bb2fcbaa547ddbb16096f25370c0519aa900a876ecd05ef75ab6439d87643f",
     "1087681391104679b78ebd39200b0162913891e4f442bd96fb8e594ebe706bc4",
-    "6525eb35e92086f991e212d9e8414dd7909ac7323a573a5452e11032643f180f"
+    "6525eb35e92086f991e212d9e8414dd7909ac7323a573a5452e11032643f180f",
+    "922831379550caba4ad5acce83698fea2795dc6e0cd1518598e201678a0832f2"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -329,17 +330,10 @@
     "https://www.ghafla.co.ke/amber-ray-shuts-down-kennedy-rapudos-request-to-add-another-baby/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-several-counties-on-october-6/",
     "https://www.ghafla.co.ke/breaking-kenya-records-first-ebola-case-as-patient-succumbs-in-nairobi/",
-    "https://www.ghafla.co.ke/government-identifies-109-criminal-gangs-warns-against-political-violence-ahead-of-2027/"
+    "https://www.ghafla.co.ke/government-identifies-109-criminal-gangs-warns-against-political-violence-ahead-of-2027/",
+    "https://www.ghafla.co.ke/betty-bayos-brother-breaks-silence-on-the-cause-of-her-death/"
   ],
   "published_angles": [
-    {
-      "title": "\u201cWho Told You?\u201d: Inside the Dinner-Table Interrogations That Shaped Winnie Odinga",
-      "angle": "Focusing on Winnie Odinga's personal recollections of her late father's Socratic, relentless questioning style\u2014how dinner-table debates and intellectual pushback shaped her critical thinking away from political platforms.",
-      "angle_type": "intimate domestic legacy and critical-thinking upbringing",
-      "opening": "Personality lead opening directly on Winnie Odinga's recollection of her father's habit of cross-examining everyday statements.",
-      "structure": "Domestic interrogation hook -> The Book Fair ceremony context -> The philosophy against sycophancy -> The KPA Hall of Fame posthumous honor -> Close on the lingering intellectual challenge.",
-      "source": "https://www.ghafla.co.ke/he-made-you-question-everything-winnie-odinga-pays-moving-tribute-to-late-father/"
-    },
     {
       "title": "Professor Michael Greenstone: The Human Toll Behind the 450,000 Projected Super El Ni\u00f1o Deaths",
       "angle": "Focusing on the human and geographic face of the crisis\u2014specifically the named vulnerable tropical nations and regions bearing the heaviest mortality burden alongside the multi-million food security threat.",
@@ -1131,6 +1125,14 @@
       "opening": "Personality lead focusing directly on Internal Security PS Dr Raymond Omollo targeting political sponsors and handlers.",
       "structure": "Personality lead -> Regional gang & arrest statistics -> Financial trail & police accountability shift -> Prevention, economic exit routes & DCI hotline close",
       "source": "https://www.ghafla.co.ke/government-identifies-109-criminal-gangs-warns-against-political-violence-ahead-of-2027/"
+    },
+    {
+      "title": "Betty Bayo\u2019s Brother Marks Closure as Inquest Into Late Singer\u2019s Death Concludes",
+      "angle": "The legal and administrative closure of the inquest\u2014moving away from the initial grief narrative to focus on the family's formal resolution through Omenke Andeje and Company Advocates and Edward Mbugua's public statement.",
+      "angle_type": "accountability and legal closure",
+      "opening": "Personality lead focusing directly on Edward Kang\u2019ethe Mbugua addressing the inquest conclusion.",
+      "structure": "Personality statement hook -> Legal battle and petition context -> Medical findings disclosure -> Concrete factual close on the timeline.",
+      "source": "https://www.ghafla.co.ke/betty-bayos-brother-breaks-silence-on-the-cause-of-her-death/"
     }
   ],
   "style_history": [
