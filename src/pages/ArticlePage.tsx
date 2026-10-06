@@ -206,19 +206,19 @@ export default function ArticlePage() {
         aria-label="Reading progress"
       />
 
-      <div className="container max-w-6xl mx-auto px-4 pt-6 pb-24 lg:pb-12">
+      <div className="article-shell container px-4 pt-6 pb-24 lg:pb-12">
         <ArticleBreadcrumbs category={post.category} title={post.title} />
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
           <article className="lg:col-span-9 min-w-0">
-            <span className={`inline-block text-[10px] font-black tracking-[0.2em] uppercase px-2 py-1 mb-4 ${catColor(post.category)}`}>
+            <span className={`article-kicker inline-block text-[10px] font-black tracking-[0.2em] uppercase px-2 py-1 mb-4 ${catColor(post.category)}`}>
               {post.category}
             </span>
-            <h1 className="font-serif text-3xl sm:text-4xl lg:text-[2.75rem] leading-[1.12] font-black text-foreground mb-5">
+            <h1 className="article-headline font-serif text-3xl sm:text-4xl lg:text-[2.75rem] leading-[1.12] font-black text-foreground mb-5">
               {post.title}
             </h1>
 
-            <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground mb-6 pb-6 border-b border-divider">
+            <div className="article-byline flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground mb-6 pb-6 border-b border-divider">
               <Link
                 to={`/author/${(post.author || "za-ndani").toLowerCase().replace(/\s+/g, "-")}`}
                 className="inline-flex items-center gap-2 hover:text-primary"
@@ -245,7 +245,7 @@ export default function ArticlePage() {
                 <img
                   src={proxyImg(post.image, 1200)}
                   alt={post.imageAlt || post.title}
-                  className="w-full max-h-[28rem] object-cover"
+                  className="article-hero w-full max-h-[40rem] object-cover"
                   width={1200}
                   height={675}
                   fetchPriority="high"
