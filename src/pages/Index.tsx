@@ -259,6 +259,7 @@ const Index = () => {
 
   return (
     <Layout>
+      <div className="news-home">
       <Helmet>
         <title>Zandani | Kenya Breaking News, Politics, Sports & Entertainment</title>
         <meta name="description" content="Kenya-first news, gossip and showbiz from Nairobi. Breaking local stories, sports, politics and entertainment — bold and unbiased." />
@@ -476,6 +477,7 @@ const Index = () => {
           </aside>
         </div>
       </section>
+      </div>
     </Layout>
   );
 };
