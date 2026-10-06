@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "3ec890059aacd17f5dd481053b7bcb14",
     "dea73accf1c937ae960af729b134c97d",
     "7ab120eddc627c6bc529aa69fcea7e77",
     "58ec18f60079136a761316360312a742",
@@ -799,10 +798,10 @@
     "d307d09180bfed455356fb5eaaabe0a4",
     "81f7ff36ae43fff06f8a62e164b88ae5",
     "c5fad642b1f7710cea0d8aa1878eeb0e",
-    "95a752a32c4c44a2ebf26ab641764486"
+    "95a752a32c4c44a2ebf26ab641764486",
+    "33d2f7e89e6aabb40cc3a82ab318c9ad"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1233,7 +1233,8 @@
     "https://kenyans.co.ke/news/127641-high-court-halts-ksls-new-admission-rules-advocate-training",
     "https://kenyans.co.ke/news/127644-state-expand-digital-birth-registration-sha-hospitals-within-3-months",
     "https://kenyans.co.ke/news/127643-nyayo-stadium-renovation-stalls-ahead-afcon-2027-over-ksh-984m-bill",
-    "https://kenyans.co.ke/news/127642-kenya-signs-ksh-390b-deal-electric-vehicle-assembly-investment"
+    "https://kenyans.co.ke/news/127642-kenya-signs-ksh-390b-deal-electric-vehicle-assembly-investment",
+    "https://kenyans.co.ke/news/127640-kibabii-university-closes-after-student-unrest-orders-students-vacate"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1557,7 +1558,8 @@
     "high court freezes ksl admission overhaul regulatory compliance row",
     "parents bypass paper slips digital birth notifications hit sha hospitals",
     "nyayo stadium stalls senators drag nairobi county labour ministry afcon mess",
-    "state bets ksh390b pact 150 000 unit domestic assembly capacity"
+    "state bets ksh390b pact 150 000 unit domestic assembly capacity",
+    "kibabii university enforces rapid campus eviction fatal student mugging"
   ],
   "topic_keys": [
     "news tracker",
@@ -3744,6 +3746,15 @@
       "structure": "Factory-capacity lead -> State House signing and institutional core -> Grid and digital architecture breakdown -> Sector baseline contrast (2022-2025 registrations vs target) -> Tax regime and industrial conversion challenge",
       "source": "https://kenyans.co.ke/news/127642-kenya-signs-ksh-390b-deal-electric-vehicle-assembly-investment",
       "published_at": "2026-10-06T20:02:34Z"
+    },
+    {
+      "title": "Kibabii University Enforces Rapid 3 PM Campus Eviction After Fatal Student Mugging",
+      "angle": "The operational security paradox of the university's abrupt 3:00 PM eviction directive: ordering resident students off campus grounds into surrounding peri-urban neighbourhoods immediately after fatal off-campus assaults exposed acute local security failures.",
+      "angle_type": "consequence",
+      "opening": "Security-paradox and eviction-deadline lead focusing on the abrupt displacement of students into the very off-campus locality where fatal assaults occurred.",
+      "structure": "Eviction timeline lead -> Factual sequence of the Monday night attack and street protests -> Administrative eviction directive details -> Broader security and national strike context -> Unresolved policing and reopening status.",
+      "source": "https://kenyans.co.ke/news/127640-kibabii-university-closes-after-student-unrest-orders-students-vacate",
+      "published_at": "2026-10-06T20:05:33Z"
     }
   ]
 }
