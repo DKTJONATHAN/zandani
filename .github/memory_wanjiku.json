@@ -166,7 +166,8 @@
     "6525eb35e92086f991e212d9e8414dd7909ac7323a573a5452e11032643f180f",
     "922831379550caba4ad5acce83698fea2795dc6e0cd1518598e201678a0832f2",
     "d7297903b3e0657b51a9cfe6b7fe0c8ee5fcdadb69b86a5a1c199b3c1fe753e9",
-    "a4443f5e09e2965a95935315afdbd646c2fa7739690a9c9fadd13661c4889a60"
+    "a4443f5e09e2965a95935315afdbd646c2fa7739690a9c9fadd13661c4889a60",
+    "80c750e85f42d6f2bab784bed7f1f6f16c126ac867680e8e9bc48854f45fa9c3"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -335,17 +336,10 @@
     "https://www.ghafla.co.ke/government-identifies-109-criminal-gangs-warns-against-political-violence-ahead-of-2027/",
     "https://www.ghafla.co.ke/betty-bayos-brother-breaks-silence-on-the-cause-of-her-death/",
     "https://www.ghafla.co.ke/sofiya-nzau-announces-2026-27-world-tour-across-four-continents/",
-    "https://www.ghafla.co.ke/amber-ray-turns-down-rapudos-baby-request-after-cosmetic-surgery/"
+    "https://www.ghafla.co.ke/amber-ray-turns-down-rapudos-baby-request-after-cosmetic-surgery/",
+    "https://www.ghafla.co.ke/millicent-omanga-urges-protection-of-child-in-ciggie-johnson-paternity-saga/"
   ],
   "published_angles": [
-    {
-      "title": "Boniface Mwangi\u2019s Surprising 'Damascus' Verdict on Babu Owino\u2019s Sobriety and the Sifuna Rift",
-      "angle": "Focusing on the highly unexpected moral and lifestyle validation of Babu Owino by a hardline activist (Boniface Mwangi), specifically framing Owino's post-shooting sobriety as a genuine 'Damascus moment' and advocating for pragmatic political reconciliation over moral purity.",
-      "angle_type": "personal transformation validation and pragmatic political alliance",
-      "opening": "Personality-led opening focusing on Boniface Mwangi granting Babu Owino an unexpected character clearance based on his post-tragedy lifestyle transformation.",
-      "structure": "Introduction of the 'Damascus moment' -> Detail of the sobriety and lifestyle change -> Mwangi's departure from typical activist purism -> The political pragmatism of the Babu-Sifuna truce -> Conclusion on the reality of pragmatic alliances.",
-      "source": "https://www.ghafla.co.ke/boniface-mwangi-backs-babu-owino-and-edwin-sifuna-as-key-figures-in-opposition-strategy/"
-    },
     {
       "title": "\u201cNa Mzoee Mapema\u201d: Herman Manyora Crowns Ruto a \u2018Tutam\u2019 President Over Opposition\u2019s Tax Policy Void",
       "angle": "Framing Manyora's 'Tutam' declaration as a diagnostic critique of the opposition's economic policy void\u2014arguing his early call stems directly from the opposition failing to table a painless alternative tax plan.",
@@ -1137,6 +1131,14 @@
       "opening": "Direct focus on the domestic standoff over the recovery brace versus the baby request.",
       "structure": "Domestic standoff hook -> The Istanbul surgical overhaul particulars -> The caregiver paradox -> Blended family context and historical shifts -> Concrete close on Rapudo's teaser.",
       "source": "https://www.ghafla.co.ke/amber-ray-turns-down-rapudos-baby-request-after-cosmetic-surgery/"
+    },
+    {
+      "title": "Millicent Omanga Draws the Line as DNA Paternity Battles Spill Into Content Creation",
+      "angle": "Examining the boundary where creator-economy oversharing meets child protection, shifting the lens to the irreversible digital footprint left on minors when family disputes become content.",
+      "angle_type": "creator economy privacy boundary and digital footprint accountability",
+      "opening": "Direct focus on Millicent Omanga drawing a hard line against turning private family crises into online entertainment.",
+      "structure": "Omanga's intervention hook -> The Saturday DNA reveal and 12-year context -> The mechanics of creator oversharing -> The collateral damage to minors -> Concrete close on the ongoing public-figure debate.",
+      "source": "https://www.ghafla.co.ke/millicent-omanga-urges-protection-of-child-in-ciggie-johnson-paternity-saga/"
     }
   ],
   "style_history": [
