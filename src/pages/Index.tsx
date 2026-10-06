@@ -285,64 +285,34 @@ const Index = () => {
         <script type="application/ld+json">{JSON.stringify(itemListSchema)}</script>
       </Helmet>
 
-      {heroLead && (
-        <section className="bg-background border-b border-border">
-          <div className="container max-w-7xl mx-auto px-3 sm:px-4 py-6 lg:py-10">
-            <div className="lg:hidden space-y-4">
-              <Link to={`/article/${heroLead.slug}`} className="group block">
-                <div className="overflow-hidden rounded-md">
-                  <img src={optimizedHeroImage} alt={heroLead.title} fetchPriority="high" loading="eager" decoding="async" className="w-full aspect-video object-cover" width={600} height={338} />
-                </div>
-                <span className="mt-3 inline-block text-xs font-semibold uppercase tracking-widest text-primary">{heroLead.category}</span>
-                <h1 className="mt-2 font-serif text-2xl font-bold leading-tight text-headline">{heroLead.title}</h1>
-                <div className="mt-2 flex items-center gap-3 text-xs text-muted-foreground">
-                  <span className="flex items-center gap-1"><Clock className="w-3 h-3" />{timeAgo(heroLead.date)}</span>
-                  <span className="font-semibold truncate">{heroLead.author}</span>
-                </div>
-              </Link>
-              <div className="border-t border-border">
-                {heroSecondary.slice(0, 2).map(post => (
-                  <Link key={post.slug} to={`/article/${post.slug}`} className="group flex gap-3 border-b border-border py-4">
-                    <div className="min-w-0 flex-1">
-                      <span className="text-xs font-semibold uppercase tracking-widest text-primary">{post.category}</span>
-                      <h2 className="mt-1 font-serif text-base font-bold leading-snug group-hover:text-primary">{post.title}</h2>
-                    </div>
-                    <img src={img(post.image, 400)} alt={post.title} loading="lazy" className="h-20 w-28 shrink-0 rounded-sm object-cover" />
-                  </Link>
-                ))}
-              </div>
-              {adsReady && (
-                <div className="lg:hidden">
-                  <AdUnit type="horizontal" />
-                </div>
-              )}
-            </div>
+      <div className="news-home__masthead">
+        <div className="container max-w-7xl mx-auto px-3 sm:px-4">
+          <div className="news-home__masthead-inner">
+            <div><div className="edition">The Kenya Newsroom</div><h1>ZA NDANI</h1></div>
+            <div className="date">Nairobi · Kenya<br/>News, Culture &amp; Conversation</div>
+          </div>
+        </div>
+      </div>
 
-            <div className="hidden lg:grid lg:grid-cols-2 lg:items-center lg:gap-10">
-              <Link to={`/article/${heroLead.slug}`} className="group overflow-hidden rounded-md">
-                <img src={optimizedHeroImage} srcSet={heroImageSrcSet} sizes={heroImageSizes} alt={heroLead.title} fetchPriority="high" loading="eager" decoding="async" width={840} height={525} className="aspect-video w-full object-cover transition-transform duration-500 group-hover:scale-105" />
-              </Link>
-              <div>
-                <span className="text-xs font-semibold uppercase tracking-widest text-primary">{heroLead.category}</span>
-                <Link to={`/article/${heroLead.slug}`}>
-                  <h1 className="mt-3 font-serif text-5xl font-bold leading-tight tracking-tight text-headline hover:text-primary">{heroLead.title}</h1>
-                </Link>
-                <p className="mt-4 max-w-md text-muted-foreground">{heroLead.excerpt}</p>
-                <div className="mt-4 flex items-center gap-4 text-sm text-muted-foreground">
-                  <span className="flex items-center gap-1"><Clock className="w-3 h-3" />{timeAgo(heroLead.date)}</span>
-                  <span className="font-semibold text-foreground">{heroLead.author}</span>
+      {heroLead && (
+        <section className="container max-w-7xl mx-auto px-3 sm:px-4">
+          <div className="hero-grid">
+            <article className="pb-5">
+              <Link to={`/article/${heroLead.slug}`} className="group block">
+                <img src={optimizedHeroImage} srcSet={heroImageSrcSet} sizes={heroImageSizes} alt={heroLead.title} fetchPriority="high" loading="eager" decoding="async" className="hero-image transition-transform duration-500 group-hover:scale-[1.01]" width={1200} height={675}/>
+                <div className="pt-2">
+                  <span className="section-kicker">{heroLead.category}</span>
+                  <h1 className="hero-title group-hover:text-primary transition-colors">{heroLead.title}</h1>
+                  <p className="hero-excerpt">{heroLead.excerpt}</p>
+                  <div className="mt-3 flex gap-3 text-[10px] font-bold uppercase tracking-widest text-muted-foreground"><span>{heroLead.author}</span><span>·</span><span>{timeAgo(heroLead.date)}</span></div>
                 </div>
-              </div>
-            </div>
-            <div className="mt-8 hidden border-t border-border lg:grid lg:grid-cols-2 lg:gap-10">
-              {heroSecondary.slice(0, 2).map(post => (
-                <Link key={post.slug} to={`/article/${post.slug}`} className="group flex gap-4 border-b border-border py-5">
-                  <div className="min-w-0 flex-1">
-                    <span className="text-xs font-semibold uppercase tracking-widest text-primary">{post.category}</span>
-                    <h2 className="mt-1 font-serif text-xl font-bold leading-snug group-hover:text-primary">{post.title}</h2>
-                    <p className="mt-2 line-clamp-2 text-sm text-muted-foreground">{post.excerpt}</p>
-                  </div>
-                  <img src={img(post.image, 400)} alt={post.title} loading="lazy" width={200} height={140} className="h-28 w-36 shrink-0 rounded-sm object-cover" />
+              </Link>
+            </article>
+            <div>
+              {heroSecondary.slice(0,4).map(post=>(
+                <Link key={post.slug} to={`/article/${post.slug}`} className="side-story group">
+                  <img src={img(post.image,400)} alt="" loading="lazy"/>
+                  <div><span className="section-kicker">{post.category}</span><h2>{post.title}</h2><span className="text-[10px] text-muted-foreground uppercase tracking-wider">{timeAgo(post.date)}</span></div>
                 </Link>
               ))}
             </div>
