@@ -6,6 +6,11 @@ on:
     paths:
       - "content/posts/**"
   workflow_dispatch:
+    inputs:
+      slugs:
+        description: "Optional comma-separated post slugs to notify"
+        required: false
+        type: string
 
 concurrency:
   group: push-notifications
@@ -35,7 +40,14 @@ jobs:
           VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
           VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
           VAPID_SUBJECT: ${{ secrets.VAPID_SUBJECT }}
-        run: node scripts/send_push_notifications.js
+          PUSH_BASE_SHA: ${{ github.event.before }}
+          PUSH_HEAD_SHA: ${{ github.sha }}
+        run: |
+          if [ -n "${{ inputs.slugs }}" ]; then
+            node scripts/send_push_notifications.js --slugs "${{ inputs.slugs }}"
+          else
+            node scripts/send_push_notifications.js
+          fi
 
       - name: Commit pruned dead subscriptions (if any)
         shell: bash
