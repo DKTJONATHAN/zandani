@@ -165,7 +165,8 @@
     "1087681391104679b78ebd39200b0162913891e4f442bd96fb8e594ebe706bc4",
     "6525eb35e92086f991e212d9e8414dd7909ac7323a573a5452e11032643f180f",
     "922831379550caba4ad5acce83698fea2795dc6e0cd1518598e201678a0832f2",
-    "d7297903b3e0657b51a9cfe6b7fe0c8ee5fcdadb69b86a5a1c199b3c1fe753e9"
+    "d7297903b3e0657b51a9cfe6b7fe0c8ee5fcdadb69b86a5a1c199b3c1fe753e9",
+    "a4443f5e09e2965a95935315afdbd646c2fa7739690a9c9fadd13661c4889a60"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -333,17 +334,10 @@
     "https://www.ghafla.co.ke/breaking-kenya-records-first-ebola-case-as-patient-succumbs-in-nairobi/",
     "https://www.ghafla.co.ke/government-identifies-109-criminal-gangs-warns-against-political-violence-ahead-of-2027/",
     "https://www.ghafla.co.ke/betty-bayos-brother-breaks-silence-on-the-cause-of-her-death/",
-    "https://www.ghafla.co.ke/sofiya-nzau-announces-2026-27-world-tour-across-four-continents/"
+    "https://www.ghafla.co.ke/sofiya-nzau-announces-2026-27-world-tour-across-four-continents/",
+    "https://www.ghafla.co.ke/amber-ray-turns-down-rapudos-baby-request-after-cosmetic-surgery/"
   ],
   "published_angles": [
-    {
-      "title": "Leave Me Alone: Inside Ian Nene\u2019s Comedy Rant Against Digital Intrusion",
-      "angle": "Examining the stark contrast between his quiet monastic life abroad in the UK and the persistent digital intrusion from Kenyan fans that forces him to resort to comedy raps for boundary setting.",
-      "angle_type": "psychological and personal boundary-setting against digital intrusion",
-      "opening": "Personality lead focusing on the specific rap lyric and mock-serious tone of the Instagram skit.",
-      "structure": "Skit hook -> UK monastic background and family context -> MaDVD's insights on online scrutiny and reluctance to return -> Close on the ongoing digital push-and-pull.",
-      "source": "https://www.ghafla.co.ke/almasi-tells-fans-to-leave-him-alone-in-playful-public-service-announcement/"
-    },
     {
       "title": "Boniface Mwangi\u2019s Surprising 'Damascus' Verdict on Babu Owino\u2019s Sobriety and the Sifuna Rift",
       "angle": "Focusing on the highly unexpected moral and lifestyle validation of Babu Owino by a hardline activist (Boniface Mwangi), specifically framing Owino's post-shooting sobriety as a genuine 'Damascus moment' and advocating for pragmatic political reconciliation over moral purity.",
@@ -1135,6 +1129,14 @@
       "opening": "Personality and itinerary lead focusing directly on Sofiya Nzau's unique tour route mapping.",
       "structure": "Itinerary lead -> Streaming metrics vs physical routing -> African and European stops -> Oceania and Southeast Asian dates -> Concrete close on home soil and future dates.",
       "source": "https://www.ghafla.co.ke/sofiya-nzau-announces-2026-27-world-tour-across-four-continents/"
+    },
+    {
+      "title": "Recovery Braces and Baby Talk: How Amber Ray Shut Down Kennedy Rapudo\u2019s Latest Request",
+      "angle": "Examining the specific domestic irony of the caregiver relationship\u2014how Rapudo assists with recovery braces and airport flower greetings while simultaneously pushing for a pregnancy that Amber's surgical transformation directly contradicts.",
+      "angle_type": "relationship dynamic and physical recovery labor",
+      "opening": "Direct focus on the domestic standoff over the recovery brace versus the baby request.",
+      "structure": "Domestic standoff hook -> The Istanbul surgical overhaul particulars -> The caregiver paradox -> Blended family context and historical shifts -> Concrete close on Rapudo's teaser.",
+      "source": "https://www.ghafla.co.ke/amber-ray-turns-down-rapudos-baby-request-after-cosmetic-surgery/"
     }
   ],
   "style_history": [
