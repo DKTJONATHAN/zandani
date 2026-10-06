@@ -162,7 +162,8 @@
     "0e06786ec86a2bf0508d29e5262204fbd1ee2708f9bb6716d2ca87b8e7fcdafb",
     "defd06bbc4b9f86b4fb836e532e2a248a2815912a4dd2ad13998e9885eeae74a",
     "a8bb2fcbaa547ddbb16096f25370c0519aa900a876ecd05ef75ab6439d87643f",
-    "1087681391104679b78ebd39200b0162913891e4f442bd96fb8e594ebe706bc4"
+    "1087681391104679b78ebd39200b0162913891e4f442bd96fb8e594ebe706bc4",
+    "6525eb35e92086f991e212d9e8414dd7909ac7323a573a5452e11032643f180f"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -327,17 +328,10 @@
     "https://www.ghafla.co.ke/krg-the-don-blesses-vincent-mboyas-new-car-with-holy-oil-warns-him-against-women-and-forex/",
     "https://www.ghafla.co.ke/amber-ray-shuts-down-kennedy-rapudos-request-to-add-another-baby/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-several-counties-on-october-6/",
-    "https://www.ghafla.co.ke/breaking-kenya-records-first-ebola-case-as-patient-succumbs-in-nairobi/"
+    "https://www.ghafla.co.ke/breaking-kenya-records-first-ebola-case-as-patient-succumbs-in-nairobi/",
+    "https://www.ghafla.co.ke/government-identifies-109-criminal-gangs-warns-against-political-violence-ahead-of-2027/"
   ],
   "published_angles": [
-    {
-      "title": "Inside the Three-County Rift Valley Setup as Kipchoge Keino Hits 68 Per Cent",
-      "angle": "Focusing on the logistical squeeze and regional showcase of hosting a national holiday across three separate Rift Valley counties for the first time, detailing the exact stadium completion metrics and thematic focus.",
-      "angle_type": "regional logistical rollout and infrastructure readiness",
-      "opening": "Start directly with the unprecedented three-county footprint of the national celebration.",
-      "structure": "Multi-county hosting hook -> Specific stadium completion stats -> Urban infrastructural upgrades in Eldoret, Kapsabet, and Iten -> Multi-agency security and regional economic framing.",
-      "source": "https://www.ghafla.co.ke/mashujaa-day-preparations-gain-momentum-as-kipchoge-keino-stadium-reaches-68-per-cent-completion/"
-    },
     {
       "title": "\u201cWho Told You?\u201d: Inside the Dinner-Table Interrogations That Shaped Winnie Odinga",
       "angle": "Focusing on Winnie Odinga's personal recollections of her late father's Socratic, relentless questioning style\u2014how dinner-table debates and intellectual pushback shaped her critical thinking away from political platforms.",
@@ -1129,6 +1123,14 @@
       "opening": "Personality-led opening focusing on Aden Duale stepping up to the microphone to deliver a sobering public health warning and launching an immediate search for specific transit contacts.",
       "structure": "Cabinet Secretary's announcement -> The trans-border travel timeline -> The specific vehicle and flight clues -> Clinical escalation at Nairobi Hospital -> The current active tracking status.",
       "source": "https://www.ghafla.co.ke/breaking-kenya-records-first-ebola-case-as-patient-succumbs-in-nairobi/"
+    },
+    {
+      "title": "Raymond Omollo Puts Political Financiers on Notice as Internal Security Exposes 109 Outlawed Gangs",
+      "angle": "Focusing on Dr Raymond Omollo putting political financiers on notice, highlighting financial paper-trail tracking and the specific regional arrest hotbeds in Trans Nzoia and Western Kenya.",
+      "angle_type": "accountability and financial trail",
+      "opening": "Personality lead focusing directly on Internal Security PS Dr Raymond Omollo targeting political sponsors and handlers.",
+      "structure": "Personality lead -> Regional gang & arrest statistics -> Financial trail & police accountability shift -> Prevention, economic exit routes & DCI hotline close",
+      "source": "https://www.ghafla.co.ke/government-identifies-109-criminal-gangs-warns-against-political-violence-ahead-of-2027/"
     }
   ],
   "style_history": [
