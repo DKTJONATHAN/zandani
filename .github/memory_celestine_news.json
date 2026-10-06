@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "7dd828d20b23403dfedfdb088f2cbfd2",
     "cae3e2671d13ea1c5e7651d101e0ee2d",
     "920426665768e93510e88661d18281c2",
     "ebe01783af75bfdef477ed80eb90610b",
@@ -799,10 +798,10 @@
     "b6897961a18fc47dfa7785d41e836af8",
     "5cea9e85ca6390c17f70ebc0792b46fd",
     "878e8ec97e5a4454a4e3f1a37508dd0f",
-    "c89dc724f425ab485133f4911a132847"
+    "c89dc724f425ab485133f4911a132847",
+    "943dcfb05129d614ae030c419e4e4895"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1228,7 +1228,8 @@
     "https://kenyans.co.ke/news/127630-kenyans-foreigners-south-sudan-ordered-stop-selling-chapati-running-boda-bodas",
     "https://kenyans.co.ke/news/127633-mmu-students-allegedly-torch-houses-bangladesh-slum-after-student-assault",
     "https://kenyans.co.ke/news/127636-high-court-fast-tracks-case-seeking-details-govt-funding-dangote-refinery",
-    "https://kenyans.co.ke/news/127638-murkomen-announces-new-passport-offices-nyeri-malindi"
+    "https://kenyans.co.ke/news/127638-murkomen-announces-new-passport-offices-nyeri-malindi",
+    "https://kenyans.co.ke/news/127639-families-kenyans-recruited-russia-war-demand-meeting-ruto"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1547,7 +1548,8 @@
     "juba squeezes east african micro traders prohibitive seven day structural ultimatum",
     "slum residents bear cost vigilante retaliation multimedia university student assault",
     "state opaque ksh65b dangote refinery funding vehicles put under high court spotlight",
-    "nyeri malindi set full passport biometric rollout cut nairobi backlog"
+    "nyeri malindi set full passport biometric rollout cut nairobi backlog",
+    "russian recruitment toll tops 000 families face communication blackout"
   ],
   "topic_keys": [
     "news tracker",
@@ -3689,6 +3691,15 @@
       "structure": "Operational bottleneck lead -> Decentralisation footprint and existing regional network -> JKIA E-gates and NEA integration -> Unresolved staffing and upgrade timelines.",
       "source": "https://kenyans.co.ke/news/127638-murkomen-announces-new-passport-offices-nyeri-malindi",
       "published_at": "2026-10-06T14:02:42Z"
+    },
+    {
+      "title": "As Russian Recruitment Toll Tops 1,000, Families Face Communication Blackout",
+      "angle": "The accumulation of official figures versus the grassroots human impasse: examining how official disclosures\u2014peaking at over 1,000 recruits cited in parliament and hundreds confirmed by Diaspora Affairs\u2014stand in stark contrast to the months of total silence families face while awaiting repatriation and diplomatic leverage.",
+      "angle_type": "accountability",
+      "opening": "An analytical institutional-friction opening focusing on the numerical chasm between state casualty disclosures and the absolute communication vacuum faced by relatives.",
+      "structure": "Numerical disparity lead -> Grassroots gathering and family demands -> Consular and parliamentary statistical baseline -> Diplomatic leverage point (Africa-Russia Summit) -> Unresolved verification and repatriation timeline.",
+      "source": "https://kenyans.co.ke/news/127639-families-kenyans-recruited-russia-war-demand-meeting-ruto",
+      "published_at": "2026-10-06T14:54:15Z"
     }
   ]
 }
