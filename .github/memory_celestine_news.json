@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a6a328841b2c0227db8f4815968d9114",
     "3460c523744d2776a5e5879be4b6beea",
     "155141ae0ee4b96d560e1922a905ece7",
     "b2cdc774a3514e9ef3bbe90d93cbb484",
@@ -799,10 +798,10 @@
     "474f003559733195733e8c91203d1f57",
     "17038a7710b857fb1b130d357c17bf6c",
     "3a48a1113d7790f13a3f69b0079d4ef2",
-    "3c9e35bfcc91791ae830e6766006b2df"
+    "3c9e35bfcc91791ae830e6766006b2df",
+    "a58204db89f9ff9eaaa76967b095e10a"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1222,7 +1222,8 @@
     "https://kenyans.co.ke/news/127613-ntsa-resume-instant-fines-rollout-november-2026",
     "https://kenyans.co.ke/news/127615-src-unveils-public-participation-bills-changing-how-workers-are-paid-promoted",
     "https://kenyans.co.ke/news/127616-suspected-poachers-flee-kws-ambush-abandon-wildlife-meat",
-    "https://kenyans.co.ke/news/127617-kenya-railways-seeks-experts-nairobi-electric-train-project-takes-shape"
+    "https://kenyans.co.ke/news/127617-kenya-railways-seeks-experts-nairobi-electric-train-project-takes-shape",
+    "https://kenyans.co.ke/news/127622-kenya-confirms-first-ebola-case-cs-duale-announces"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1535,7 +1536,8 @@
     "ntsa eyes november reset instant fines race against court senate deadlocks",
     "end automatic raise inside src push import singapore variable pay model",
     "motorbike bushmeat trade exploits sprawling tana conservation corridors",
-    "railways mobilises external technical desk ksh65b commuter electrification"
+    "railways mobilises external technical desk ksh65b commuter electrification",
+    "multi transit dragnet launched confirms first ebola death nairobi"
   ],
   "topic_keys": [
     "news tracker",
@@ -3623,6 +3625,15 @@
       "structure": "Procurement and operational mandate lead -> Breakdown of the four specialized engineering portfolios -> World Bank financing framework under KUMIP -> Inter-county footprint and multimodal integration -> Forward calendar toward the December 2026 deployment",
       "source": "https://kenyans.co.ke/news/127617-kenya-railways-seeks-experts-nairobi-electric-train-project-takes-shape",
       "published_at": "2026-10-06T08:02:24Z"
+    },
+    {
+      "title": "Multi-Transit Dragnet Launched as Kenya Confirms First Ebola Death in Nairobi",
+      "angle": "Reframing the story around the multi-stage regional exposure map\u2014tracing how an active viral infection moved across road and air networks through JKIA screening into Nairobi's private hospital system, triggering an immediate cross-transit contact-tracing dragnet.",
+      "angle_type": "consequence",
+      "opening": "Transit-and-exposure lead highlighting the multi-stage journey through international air and local ground transport that preceded hospital isolation.",
+      "structure": "Exposure route lead -> The travel itinerary and airport clearance -> Clinical presentation and diagnostic confirmation -> Contact-tracing dragnet breakdown -> State containment measures and forward status",
+      "source": "https://kenyans.co.ke/news/127622-kenya-confirms-first-ebola-case-cs-duale-announces",
+      "published_at": "2026-10-06T09:02:14Z"
     }
   ]
 }
