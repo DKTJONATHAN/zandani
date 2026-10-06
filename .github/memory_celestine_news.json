@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ebe01783af75bfdef477ed80eb90610b",
     "84e64ffe78d602146c09f1452f748ba8",
     "3ec890059aacd17f5dd481053b7bcb14",
     "dea73accf1c937ae960af729b134c97d",
@@ -799,10 +798,10 @@
     "c89dc724f425ab485133f4911a132847",
     "943dcfb05129d614ae030c419e4e4895",
     "d307d09180bfed455356fb5eaaabe0a4",
-    "81f7ff36ae43fff06f8a62e164b88ae5"
+    "81f7ff36ae43fff06f8a62e164b88ae5",
+    "c5fad642b1f7710cea0d8aa1878eeb0e"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1231,7 +1231,8 @@
     "https://kenyans.co.ke/news/127638-murkomen-announces-new-passport-offices-nyeri-malindi",
     "https://kenyans.co.ke/news/127639-families-kenyans-recruited-russia-war-demand-meeting-ruto",
     "https://kenyans.co.ke/news/127641-high-court-halts-ksls-new-admission-rules-advocate-training",
-    "https://kenyans.co.ke/news/127644-state-expand-digital-birth-registration-sha-hospitals-within-3-months"
+    "https://kenyans.co.ke/news/127644-state-expand-digital-birth-registration-sha-hospitals-within-3-months",
+    "https://kenyans.co.ke/news/127643-nyayo-stadium-renovation-stalls-ahead-afcon-2027-over-ksh-984m-bill"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1553,7 +1554,8 @@
     "nyeri malindi set full passport biometric rollout cut nairobi backlog",
     "russian recruitment toll tops 000 families face communication blackout",
     "high court freezes ksl admission overhaul regulatory compliance row",
-    "parents bypass paper slips digital birth notifications hit sha hospitals"
+    "parents bypass paper slips digital birth notifications hit sha hospitals",
+    "nyayo stadium stalls senators drag nairobi county labour ministry afcon mess"
   ],
   "topic_keys": [
     "news tracker",
@@ -3722,6 +3724,15 @@
       "structure": "Administrative shift lead -> System integration mechanics with SHA hospitals -> UPI and education database linkage -> Parental relief from manual paperwork -> Three-month rollout deadline.",
       "source": "https://kenyans.co.ke/news/127644-state-expand-digital-birth-registration-sha-hospitals-within-3-months",
       "published_at": "2026-10-06T18:02:47Z"
+    },
+    {
+      "title": "Nyayo Stadium Stalls as Senators Drag Nairobi County, Labour Ministry Into AFCON Mess",
+      "angle": "The cascading institutional friction and mounting state liabilities arising from uncoordinated multi-agency planning, as senators scramble to drag the Ministry of Labour and Nairobi County into a project already hobbled by billions in broader Sports Department pending bills.",
+      "angle_type": "institutional pressure",
+      "opening": "Institutional-friction lead focusing on the administrative scramble to bring overlooked ministries and county governments into a stalling project.",
+      "structure": "Institutional friction lead -> Financial breakdown and stalled site status -> Remaining technical deficits -> Multi-agency expansion directive -> Broader pending bills context and parliamentary inquiry.",
+      "source": "https://kenyans.co.ke/news/127643-nyayo-stadium-renovation-stalls-ahead-afcon-2027-over-ksh-984m-bill",
+      "published_at": "2026-10-06T19:02:44Z"
     }
   ]
 }
