@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "1bd9d85728d2e41f0b9845fa6e265b00",
     "2bfc87c42895b1d0b9efc0f42dc8aad9",
     "4e0b35596d184206f4609b98d02d9813",
     "a6a328841b2c0227db8f4815968d9114",
@@ -799,10 +798,10 @@
     "dab4bda55dae881a850ee7624df693aa",
     "7b3463d41f2aa487d175c4cf637320be",
     "56dfc481d9f8365f24daa048bf8333df",
-    "474f003559733195733e8c91203d1f57"
+    "474f003559733195733e8c91203d1f57",
+    "17038a7710b857fb1b130d357c17bf6c"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1219,7 +1219,8 @@
     "https://kenyans.co.ke/news/127597-cs-wahome-says-most-land-dangote-refinery-govt-owned",
     "https://kenyans.co.ke/news/127609-kenha-ntsa-clash-funding-challenge-slows-road-expansion-projects",
     "https://kenyans.co.ke/news/127608-cs-ogamba-warns-candidates-knec-unveils-new-2026-exam-security-measures",
-    "https://kenyans.co.ke/news/127613-ntsa-resume-instant-fines-rollout-november-2026"
+    "https://kenyans.co.ke/news/127613-ntsa-resume-instant-fines-rollout-november-2026",
+    "https://kenyans.co.ke/news/127615-src-unveils-public-participation-bills-changing-how-workers-are-paid-promoted"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1529,7 +1530,8 @@
     "state classifies lamu refinery settlers squatters 000 acre land fight",
     "state safety audits stall 500km highway network kenha cites treasury cash fight",
     "smart locks nationwide knec shifts exam container custody remote telemetry",
-    "ntsa eyes november reset instant fines race against court senate deadlocks"
+    "ntsa eyes november reset instant fines race against court senate deadlocks",
+    "end automatic raise inside src push import singapore variable pay model"
   ],
   "topic_keys": [
     "news tracker",
@@ -3590,6 +3592,15 @@
       "structure": "Regulatory bottleneck lead -> Factual core of the target timeline and dormant tech -> The legislative friction (Senate's July annulments) -> Practical enforcement shifts (cameras and inspections) -> Unresolved legal horizon.",
       "source": "https://kenyans.co.ke/news/127613-ntsa-resume-instant-fines-rollout-november-2026",
       "published_at": "2026-10-06T06:02:41Z"
+    },
+    {
+      "title": "The End of the Automatic Raise: Inside SRC\u2019s Push to Import Singapore\u2019s Variable Pay Model",
+      "angle": "The structural dismantling of guaranteed annual pay increases in Kenya\u2019s public sector, framing the transition as a shift toward Singapore\u2019s highly volatile variable-pay model.",
+      "angle_type": "practical change",
+      "opening": "Procedural-stakes lead focusing on the end of predictable career progression and automatic salary bumps for civil servants.",
+      "structure": "Policy-disruption lead -> Historical contrast of automatic increments -> Singapore model blueprint and mechanics -> Regional participation schedule and geographic breakdown -> Operational friction and union/worker stakes.",
+      "source": "https://kenyans.co.ke/news/127615-src-unveils-public-participation-bills-changing-how-workers-are-paid-promoted",
+      "published_at": "2026-10-06T07:02:11Z"
     }
   ]
 }
