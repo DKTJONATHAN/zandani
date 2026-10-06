@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "90f6c37578e1d49ecfe80bf3665dc52e",
     "10e889f101e4e001b0e2c797f318a884",
     "1bd9d85728d2e41f0b9845fa6e265b00",
     "2bfc87c42895b1d0b9efc0f42dc8aad9",
@@ -799,10 +798,10 @@
     "3534a3a66582cc043465b5dc9ac1ff12",
     "c23336bfa303f7724b5f1225a444d357",
     "dab4bda55dae881a850ee7624df693aa",
-    "7b3463d41f2aa487d175c4cf637320be"
+    "7b3463d41f2aa487d175c4cf637320be",
+    "56dfc481d9f8365f24daa048bf8333df"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1217,7 +1217,8 @@
     "https://kenyans.co.ke/news/127596-ruto-directs-nssf-pay-retirement-benefits-within-10-days",
     "https://kenyans.co.ke/news/127598-ruto-directs-tsc-increase-teacher-promotions-50000",
     "https://kenyans.co.ke/news/127597-cs-wahome-says-most-land-dangote-refinery-govt-owned",
-    "https://kenyans.co.ke/news/127609-kenha-ntsa-clash-funding-challenge-slows-road-expansion-projects"
+    "https://kenyans.co.ke/news/127609-kenha-ntsa-clash-funding-challenge-slows-road-expansion-projects",
+    "https://kenyans.co.ke/news/127608-cs-ogamba-warns-candidates-knec-unveils-new-2026-exam-security-measures"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1525,7 +1526,8 @@
     "state sets day pension payout deadline end multi year file chases",
     "evaluation rules restrict 000 teacher promotion push seniority rules fall",
     "state classifies lamu refinery settlers squatters 000 acre land fight",
-    "state safety audits stall 500km highway network kenha cites treasury cash fight"
+    "state safety audits stall 500km highway network kenha cites treasury cash fight",
+    "smart locks nationwide knec shifts exam container custody remote telemetry"
   ],
   "topic_keys": [
     "news tracker",
@@ -3568,6 +3570,15 @@
       "structure": "Attribution and institutional positioning lead -> The 2,500-kilometre capital deficit and inter-agency friction -> NTSA audit delivery gap versus behavioural enforcement -> Design compromises and blackspot speed-calming -> Executive funding commitments and pending pipeline",
       "source": "https://kenyans.co.ke/news/127609-kenha-ntsa-clash-funding-challenge-slows-road-expansion-projects",
       "published_at": "2026-10-05T18:08:35Z"
+    },
+    {
+      "title": "Smart Locks Go Nationwide as KNEC Shifts Exam Container Custody to Remote Telemetry",
+      "angle": "The technological escalation in physical exam paper custody: scaling remote-monitored smart padlocks from a 250-school trial to every distribution container nationwide, shifting anti-malpractice enforcement from perimeter policing to tamper-alert telemetry while broadening criminal exposure directly to private school proprietors.",
+      "angle_type": "practical change",
+      "opening": "Technology-and-custody lead focusing on the national transition to remote-monitored smart padlocks on examination containers ahead of the staggered October 19 assessment kick-off.",
+      "structure": "Security tech mechanics lead -> Examination launch details at New Mtihani House -> Proprietor and staff liability perimeter -> Overlapping multi-curriculum assessment calendar -> Forward verification edge on container logistics.",
+      "source": "https://kenyans.co.ke/news/127608-cs-ogamba-warns-candidates-knec-unveils-new-2026-exam-security-measures",
+      "published_at": "2026-10-06T00:41:42Z"
     }
   ]
 }
