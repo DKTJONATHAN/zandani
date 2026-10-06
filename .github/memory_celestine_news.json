@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "b2cdc774a3514e9ef3bbe90d93cbb484",
     "29ccf443cb680347b92faa04f17019e8",
     "f2c1357073f4714945793edd39870fd3",
     "7dd828d20b23403dfedfdb088f2cbfd2",
@@ -799,10 +798,10 @@
     "3c9e35bfcc91791ae830e6766006b2df",
     "a58204db89f9ff9eaaa76967b095e10a",
     "295787b26c40d4e577c04b8cae7a900b",
-    "b6897961a18fc47dfa7785d41e836af8"
+    "b6897961a18fc47dfa7785d41e836af8",
+    "5cea9e85ca6390c17f70ebc0792b46fd"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1225,7 +1225,8 @@
     "https://kenyans.co.ke/news/127617-kenya-railways-seeks-experts-nairobi-electric-train-project-takes-shape",
     "https://kenyans.co.ke/news/127622-kenya-confirms-first-ebola-case-cs-duale-announces",
     "https://kenyans.co.ke/news/127627-kenha-launches-system-address-complaints-rironi-mau-summit-project",
-    "https://kenyans.co.ke/news/127630-kenyans-foreigners-south-sudan-ordered-stop-selling-chapati-running-boda-bodas"
+    "https://kenyans.co.ke/news/127630-kenyans-foreigners-south-sudan-ordered-stop-selling-chapati-running-boda-bodas",
+    "https://kenyans.co.ke/news/127633-mmu-students-allegedly-torch-houses-bangladesh-slum-after-student-assault"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1541,7 +1542,8 @@
     "railways mobilises external technical desk ksh65b commuter electrification",
     "multi transit dragnet launched confirms first ebola death nairobi",
     "state deploys dispute committee clear land tolling rows ahead rironi highway opening",
-    "juba squeezes east african micro traders prohibitive seven day structural ultimatum"
+    "juba squeezes east african micro traders prohibitive seven day structural ultimatum",
+    "slum residents bear cost vigilante retaliation multimedia university student assault"
   ],
   "topic_keys": [
     "news tracker",
@@ -3656,6 +3658,15 @@
       "structure": "Stakes-driven lead -> Factual core of the directive and specific banned trades -> Municipal compliance requirements and the 7-day ultimatum -> Regional protectionist context (Ruto comparison) -> Unresolved implications for affected traders.",
       "source": "https://kenyans.co.ke/news/127630-kenyans-foreigners-south-sudan-ordered-stop-selling-chapati-running-boda-bodas",
       "published_at": "2026-10-06T11:01:45Z"
+    },
+    {
+      "title": "Slum Residents Bear Cost of Vigilante Retaliation After Multimedia University Student Assault",
+      "angle": "The disproportionate impact of vigilante retaliation on vulnerable slum residents who are bearing the physical and financial cost of a security vacuum along the Nairobi-Kajiado county border.",
+      "angle_type": "consequence",
+      "opening": "Consequence-driven opening focusing on the immediate losses suffered by informal settlement residents due to retaliatory student action.",
+      "structure": "Stakes and displacement lead -> Factual sequence of the trigger assault -> Geographic layout of the security flashpoint -> Transport and policing breakdown on Magadi Road -> Unresolved jurisdictional and recovery questions.",
+      "source": "https://kenyans.co.ke/news/127633-mmu-students-allegedly-torch-houses-bangladesh-slum-after-student-assault",
+      "published_at": "2026-10-06T12:02:12Z"
     }
   ]
 }
