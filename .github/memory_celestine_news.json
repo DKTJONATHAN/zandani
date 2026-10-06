@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "155141ae0ee4b96d560e1922a905ece7",
     "b2cdc774a3514e9ef3bbe90d93cbb484",
     "29ccf443cb680347b92faa04f17019e8",
     "f2c1357073f4714945793edd39870fd3",
@@ -799,10 +798,10 @@
     "3a48a1113d7790f13a3f69b0079d4ef2",
     "3c9e35bfcc91791ae830e6766006b2df",
     "a58204db89f9ff9eaaa76967b095e10a",
-    "295787b26c40d4e577c04b8cae7a900b"
+    "295787b26c40d4e577c04b8cae7a900b",
+    "b6897961a18fc47dfa7785d41e836af8"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1224,7 +1224,8 @@
     "https://kenyans.co.ke/news/127616-suspected-poachers-flee-kws-ambush-abandon-wildlife-meat",
     "https://kenyans.co.ke/news/127617-kenya-railways-seeks-experts-nairobi-electric-train-project-takes-shape",
     "https://kenyans.co.ke/news/127622-kenya-confirms-first-ebola-case-cs-duale-announces",
-    "https://kenyans.co.ke/news/127627-kenha-launches-system-address-complaints-rironi-mau-summit-project"
+    "https://kenyans.co.ke/news/127627-kenha-launches-system-address-complaints-rironi-mau-summit-project",
+    "https://kenyans.co.ke/news/127630-kenyans-foreigners-south-sudan-ordered-stop-selling-chapati-running-boda-bodas"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1539,7 +1540,8 @@
     "motorbike bushmeat trade exploits sprawling tana conservation corridors",
     "railways mobilises external technical desk ksh65b commuter electrification",
     "multi transit dragnet launched confirms first ebola death nairobi",
-    "state deploys dispute committee clear land tolling rows ahead rironi highway opening"
+    "state deploys dispute committee clear land tolling rows ahead rironi highway opening",
+    "juba squeezes east african micro traders prohibitive seven day structural ultimatum"
   ],
   "topic_keys": [
     "news tracker",
@@ -3645,6 +3647,15 @@
       "structure": "Operational timeline lead -> Institutional alliance and committee composition -> Primary friction points (tolling, land, compensation) -> Sequential engineering strategy (A8 upper vs A8 South) -> Project completion roadmap.",
       "source": "https://kenyans.co.ke/news/127627-kenha-launches-system-address-complaints-rironi-mau-summit-project",
       "published_at": "2026-10-06T10:02:33Z"
+    },
+    {
+      "title": "Juba Squeezes East African Micro-Traders With Prohibitive Seven-Day Structural Ultimatum",
+      "angle": "The focus on the severe financial and structural hurdle of the seven-day compliance ultimatum (demanding concrete stalls and electronic signage) which effectively locks out low-capital foreign traders, set against a regional backdrop of reciprocal protectionist crackdowns.",
+      "angle_type": "practical change",
+      "opening": "Stakes-driven opening highlighting the immediate existential threat and capital barrier facing informal cross-border traders.",
+      "structure": "Stakes-driven lead -> Factual core of the directive and specific banned trades -> Municipal compliance requirements and the 7-day ultimatum -> Regional protectionist context (Ruto comparison) -> Unresolved implications for affected traders.",
+      "source": "https://kenyans.co.ke/news/127630-kenyans-foreigners-south-sudan-ordered-stop-selling-chapati-running-boda-bodas",
+      "published_at": "2026-10-06T11:01:45Z"
     }
   ]
 }
