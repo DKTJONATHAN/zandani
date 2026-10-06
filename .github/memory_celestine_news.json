@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "3460c523744d2776a5e5879be4b6beea",
     "155141ae0ee4b96d560e1922a905ece7",
     "b2cdc774a3514e9ef3bbe90d93cbb484",
     "29ccf443cb680347b92faa04f17019e8",
@@ -799,10 +798,10 @@
     "17038a7710b857fb1b130d357c17bf6c",
     "3a48a1113d7790f13a3f69b0079d4ef2",
     "3c9e35bfcc91791ae830e6766006b2df",
-    "a58204db89f9ff9eaaa76967b095e10a"
+    "a58204db89f9ff9eaaa76967b095e10a",
+    "295787b26c40d4e577c04b8cae7a900b"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1223,7 +1223,8 @@
     "https://kenyans.co.ke/news/127615-src-unveils-public-participation-bills-changing-how-workers-are-paid-promoted",
     "https://kenyans.co.ke/news/127616-suspected-poachers-flee-kws-ambush-abandon-wildlife-meat",
     "https://kenyans.co.ke/news/127617-kenya-railways-seeks-experts-nairobi-electric-train-project-takes-shape",
-    "https://kenyans.co.ke/news/127622-kenya-confirms-first-ebola-case-cs-duale-announces"
+    "https://kenyans.co.ke/news/127622-kenya-confirms-first-ebola-case-cs-duale-announces",
+    "https://kenyans.co.ke/news/127627-kenha-launches-system-address-complaints-rironi-mau-summit-project"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1537,7 +1538,8 @@
     "end automatic raise inside src push import singapore variable pay model",
     "motorbike bushmeat trade exploits sprawling tana conservation corridors",
     "railways mobilises external technical desk ksh65b commuter electrification",
-    "multi transit dragnet launched confirms first ebola death nairobi"
+    "multi transit dragnet launched confirms first ebola death nairobi",
+    "state deploys dispute committee clear land tolling rows ahead rironi highway opening"
   ],
   "topic_keys": [
     "news tracker",
@@ -3634,6 +3636,15 @@
       "structure": "Exposure route lead -> The travel itinerary and airport clearance -> Clinical presentation and diagnostic confirmation -> Contact-tracing dragnet breakdown -> State containment measures and forward status",
       "source": "https://kenyans.co.ke/news/127622-kenya-confirms-first-ebola-case-cs-duale-announces",
       "published_at": "2026-10-06T09:02:14Z"
+    },
+    {
+      "title": "State Deploys Dispute Committee to Clear Land, Tolling Rows Ahead of Rironi Highway Opening",
+      "angle": "Framing the launch of this multi-agency grievance committee as a critical, high-stakes sprint to resolve volatile local disputes (land acquisition, compensation, and tolling) just weeks before the Rironi-Naivasha section opens on October 30.",
+      "angle_type": "timing",
+      "opening": "An operational timeline lead linking the sudden deployment of the multi-agency committee directly to the looming October 30 public opening date.",
+      "structure": "Operational timeline lead -> Institutional alliance and committee composition -> Primary friction points (tolling, land, compensation) -> Sequential engineering strategy (A8 upper vs A8 South) -> Project completion roadmap.",
+      "source": "https://kenyans.co.ke/news/127627-kenha-launches-system-address-complaints-rironi-mau-summit-project",
+      "published_at": "2026-10-06T10:02:33Z"
     }
   ]
 }
