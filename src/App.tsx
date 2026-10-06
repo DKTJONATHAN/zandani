@@ -148,11 +148,11 @@ const App = () => (
                 <Route path="/fact-check" element={<FactCheckPage />} />
                 <Route path="/admin" element={<AdminPage />} />
                 <Route path="/tag/:tag" element={<TagPage />} />
-                <Route path="/news" element={<NewsPage />} />
-                <Route path="/entertainment" element={<EntertainmentPage />} />
-                <Route path="/sports" element={<SportsPage />} />
-                <Route path="/business" element={<BusinessPage />} />
-                <Route path="/lifestyle" element={<LifestylePage />} />
+                <Route path="/news" element={<CategoryPage />} />
+                <Route path="/entertainment" element={<CategoryPage />} />
+                <Route path="/sports" element={<CategoryPage />} />
+                <Route path="/business" element={<CategoryPage />} />
+                <Route path="/lifestyle" element={<CategoryPage />} />
                 <Route path="/sports/live" element={<LiveScoresPage />} />
                 <Route path="/sitemap" element={<SitemapHtmlPage />} />
                 <Route path="/authors" element={<AuthorsPage />} />

@@ -179,6 +179,7 @@ export default function ArticlePage() {
 
   return (
     <Layout>
+      <div className="news-article">
       <Helmet>
         <title>{post.title} | Za Ndani</title>
         <meta name="description" content={metaDescription} />
@@ -363,6 +364,7 @@ export default function ArticlePage() {
       ) : null}
 
       <StickyMobileShare title={post.title} url={shareUrl} />
+      </div>
     </Layout>
   );
 }
