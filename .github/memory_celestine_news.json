@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "4e0b35596d184206f4609b98d02d9813",
     "a6a328841b2c0227db8f4815968d9114",
     "3460c523744d2776a5e5879be4b6beea",
     "155141ae0ee4b96d560e1922a905ece7",
@@ -799,10 +798,10 @@
     "56dfc481d9f8365f24daa048bf8333df",
     "474f003559733195733e8c91203d1f57",
     "17038a7710b857fb1b130d357c17bf6c",
-    "3a48a1113d7790f13a3f69b0079d4ef2"
+    "3a48a1113d7790f13a3f69b0079d4ef2",
+    "3c9e35bfcc91791ae830e6766006b2df"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1221,7 +1221,8 @@
     "https://kenyans.co.ke/news/127608-cs-ogamba-warns-candidates-knec-unveils-new-2026-exam-security-measures",
     "https://kenyans.co.ke/news/127613-ntsa-resume-instant-fines-rollout-november-2026",
     "https://kenyans.co.ke/news/127615-src-unveils-public-participation-bills-changing-how-workers-are-paid-promoted",
-    "https://kenyans.co.ke/news/127616-suspected-poachers-flee-kws-ambush-abandon-wildlife-meat"
+    "https://kenyans.co.ke/news/127616-suspected-poachers-flee-kws-ambush-abandon-wildlife-meat",
+    "https://kenyans.co.ke/news/127617-kenya-railways-seeks-experts-nairobi-electric-train-project-takes-shape"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1533,7 +1534,8 @@
     "smart locks nationwide knec shifts exam container custody remote telemetry",
     "ntsa eyes november reset instant fines race against court senate deadlocks",
     "end automatic raise inside src push import singapore variable pay model",
-    "motorbike bushmeat trade exploits sprawling tana conservation corridors"
+    "motorbike bushmeat trade exploits sprawling tana conservation corridors",
+    "railways mobilises external technical desk ksh65b commuter electrification"
   ],
   "topic_keys": [
     "news tracker",
@@ -3612,6 +3614,15 @@
       "structure": "Logistics lead -> Seizure metrics and event core -> Geographical analysis of the porous Tana corridor -> Small game extraction dynamics vs trophy hunting -> Informants vs high-tech tracking -> Active investigation status.",
       "source": "https://kenyans.co.ke/news/127616-suspected-poachers-flee-kws-ambush-abandon-wildlife-meat",
       "published_at": "2026-10-06T07:21:34Z"
+    },
+    {
+      "title": "Kenya Railways Mobilises External Technical Desk for Ksh65B Commuter Electrification",
+      "angle": "The operational pivot from broad policy pledges to technical execution: Kenya Railways is tapping World Bank technical assistance funds to install specialized external oversight over electrical traction, signalling, and station-area zoning\u2014critical technical domains currently outside its standard diesel operations\u2014ahead of a 24-month rollout starting December 2026 across four metropolitan counties.",
+      "angle_type": "practical change",
+      "opening": "Technical-mobilization lead tying the consultancy tender directly to the physical operational shift from diesel traction to electric commuter infrastructure.",
+      "structure": "Procurement and operational mandate lead -> Breakdown of the four specialized engineering portfolios -> World Bank financing framework under KUMIP -> Inter-county footprint and multimodal integration -> Forward calendar toward the December 2026 deployment",
+      "source": "https://kenyans.co.ke/news/127617-kenya-railways-seeks-experts-nairobi-electric-train-project-takes-shape",
+      "published_at": "2026-10-06T08:02:24Z"
     }
   ]
 }
