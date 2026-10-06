@@ -159,7 +159,8 @@
     "ac74344b055e7a158f38b8f9ac4cd45e8f6a38447c2e2d8aec645ffb22240070",
     "ef9d52bdb023d24a88ab32cff8f4b751eb03fab6496cb848fd0f25edead646d9",
     "d1d9c791dfc433c82e9dd78dcf218f5e52044108643e397c3019463224795061",
-    "0e06786ec86a2bf0508d29e5262204fbd1ee2708f9bb6716d2ca87b8e7fcdafb"
+    "0e06786ec86a2bf0508d29e5262204fbd1ee2708f9bb6716d2ca87b8e7fcdafb",
+    "defd06bbc4b9f86b4fb836e532e2a248a2815912a4dd2ad13998e9885eeae74a"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -321,17 +322,10 @@
     "https://www.ghafla.co.ke/no-job-yet-co-op-banks-peter-ndumia-tips-on-turning-skills-into-income/",
     "https://www.ghafla.co.ke/bypassing-parliament-mp-kibagendi-challenges-ruto-over-dangote-refinery-deal/",
     "https://www.ghafla.co.ke/mc-jessy-urges-women-to-build-themselves-before-settling-down/",
-    "https://www.ghafla.co.ke/krg-the-don-blesses-vincent-mboyas-new-car-with-holy-oil-warns-him-against-women-and-forex/"
+    "https://www.ghafla.co.ke/krg-the-don-blesses-vincent-mboyas-new-car-with-holy-oil-warns-him-against-women-and-forex/",
+    "https://www.ghafla.co.ke/amber-ray-shuts-down-kennedy-rapudos-request-to-add-another-baby/"
   ],
   "published_angles": [
-    {
-      "title": "Linus Kaikai Drops Prime-Time Bomb on News Gang: 'Kenya Is a One-Term Nation'",
-      "angle": "Spotlighting the media heavyweight himself\u2014how Kaikai used his prime-time television pulpit to shatter the traditional diplomatic restraint of broadcast commentary, bluntly branding past second-term victories as 'primitive flips' rather than legitimate democratic achievements.",
-      "angle_type": "personality-driven media critique and on-air controversy",
-      "opening": "Personality lead focusing directly on Linus Kaikai commanding the News Gang set with an unvarnished on-air challenge to Kenya's electoral history.",
-      "structure": "Broadcast hook -> The 'primitive flip' quotation and core thesis -> The 2007 Kibaki tally retrospective -> The ripple effect of Uhuru Kenyatta's 2022 claims -> Concluding note on the entrenchment of state-driven re-election power.",
-      "source": "https://www.ghafla.co.ke/linus-kaikai-claims-kenya-is-a-one-term-nation-cites-electoral-manipulation-in-second-term-bids/"
-    },
     {
       "title": "Friday Grid Cut Hits Kitisuru's Gated Lake View and Mitini Estates for Eight Hours",
       "angle": "Reframing the utility notice around upscale residential disruption in Kitisuru's gated estates (Lake View and Mitini), contrasted against the simultaneous shutdown of critical rural utility nodes and communication masts.",
@@ -1123,6 +1117,14 @@
       "opening": "Personality lead opening directly on KRG The Don's roadside ritual and his specific, colorful commandments for Vincent Mboya's new wheels.",
       "structure": "Roadside ritual hook -> The romance and passenger restrictions -> Career expansion and discipline demands -> The forex trading ban -> Concrete close on Mboya's background milestone.",
       "source": "https://www.ghafla.co.ke/krg-the-don-blesses-vincent-mboyas-new-car-with-holy-oil-warns-him-against-women-and-forex/"
+    },
+    {
+      "title": "\u2018Why Would I Carry Another Pregnancy?\u2019: Amber Ray Leverages Post-Op Healing Labor to Deflect Kennedy Rapudo\u2019s Baby Requests",
+      "angle": "Framing the refusal through the direct physical and relationship labor of post-operative recovery, highlighting how the daily realities of managing compression garments and surgical healing serve as the ultimate pragmatic boundary against future pregnancies.",
+      "angle_type": "relationship dynamic and practical lifestyle boundary",
+      "opening": "Direct focus on the immediate domestic friction between the physical toll of Amber's recent surgeries and Rapudo's requests for more children.",
+      "structure": "Domestic tension hook -> Detailed breakdown of the September 2026 Istanbul surgical overhaul -> The caregiver irony (compression garments and recovery braces) -> The blended family math -> Direct and pragmatic close.",
+      "source": "https://www.ghafla.co.ke/amber-ray-shuts-down-kennedy-rapudos-request-to-add-another-baby/"
     }
   ],
   "style_history": [
