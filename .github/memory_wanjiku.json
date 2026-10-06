@@ -164,7 +164,8 @@
     "a8bb2fcbaa547ddbb16096f25370c0519aa900a876ecd05ef75ab6439d87643f",
     "1087681391104679b78ebd39200b0162913891e4f442bd96fb8e594ebe706bc4",
     "6525eb35e92086f991e212d9e8414dd7909ac7323a573a5452e11032643f180f",
-    "922831379550caba4ad5acce83698fea2795dc6e0cd1518598e201678a0832f2"
+    "922831379550caba4ad5acce83698fea2795dc6e0cd1518598e201678a0832f2",
+    "d7297903b3e0657b51a9cfe6b7fe0c8ee5fcdadb69b86a5a1c199b3c1fe753e9"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -331,17 +332,10 @@
     "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-several-counties-on-october-6/",
     "https://www.ghafla.co.ke/breaking-kenya-records-first-ebola-case-as-patient-succumbs-in-nairobi/",
     "https://www.ghafla.co.ke/government-identifies-109-criminal-gangs-warns-against-political-violence-ahead-of-2027/",
-    "https://www.ghafla.co.ke/betty-bayos-brother-breaks-silence-on-the-cause-of-her-death/"
+    "https://www.ghafla.co.ke/betty-bayos-brother-breaks-silence-on-the-cause-of-her-death/",
+    "https://www.ghafla.co.ke/sofiya-nzau-announces-2026-27-world-tour-across-four-continents/"
   ],
   "published_angles": [
-    {
-      "title": "Professor Michael Greenstone: The Human Toll Behind the 450,000 Projected Super El Ni\u00f1o Deaths",
-      "angle": "Focusing on the human and geographic face of the crisis\u2014specifically the named vulnerable tropical nations and regions bearing the heaviest mortality burden alongside the multi-million food security threat.",
-      "angle_type": "human and geographic vulnerability impact",
-      "opening": "Start directly with Professor Michael Greenstone's framing of the staggering mortality toll before diving into the specific regional breakdown.",
-      "structure": "Mortality toll hook -> Regional burden and geographic mapping -> The secondary crisis (World Food Programme and food insecurity) -> Methodological baseline and recommended interventions.",
-      "source": "https://www.ghafla.co.ke/super-el-nino-projected-to-cause-over-450000-global-deaths-by-early-2027/"
-    },
     {
       "title": "Leave Me Alone: Inside Ian Nene\u2019s Comedy Rant Against Digital Intrusion",
       "angle": "Examining the stark contrast between his quiet monastic life abroad in the UK and the persistent digital intrusion from Kenyan fans that forces him to resort to comedy raps for boundary setting.",
@@ -1133,6 +1127,14 @@
       "opening": "Personality lead focusing directly on Edward Kang\u2019ethe Mbugua addressing the inquest conclusion.",
       "structure": "Personality statement hook -> Legal battle and petition context -> Medical findings disclosure -> Concrete factual close on the timeline.",
       "source": "https://www.ghafla.co.ke/betty-bayos-brother-breaks-silence-on-the-cause-of-her-death/"
+    },
+    {
+      "title": "Sofiya Nzau Plots Four-Continent World Tour from Nairobi to Auckland",
+      "angle": "Examining the specific, highly disparate geographic itinerary\u2014jumping from regional East and West African hubs straight to Eastern Europe and Central Asia before pivoting to Oceania\u2014highlighting where her streaming power actually converts into physical arenas.",
+      "angle_type": "global tour geography and streaming conversion",
+      "opening": "Personality and itinerary lead focusing directly on Sofiya Nzau's unique tour route mapping.",
+      "structure": "Itinerary lead -> Streaming metrics vs physical routing -> African and European stops -> Oceania and Southeast Asian dates -> Concrete close on home soil and future dates.",
+      "source": "https://www.ghafla.co.ke/sofiya-nzau-announces-2026-27-world-tour-across-four-continents/"
     }
   ],
   "style_history": [
