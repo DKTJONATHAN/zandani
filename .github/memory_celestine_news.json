@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "29ccf443cb680347b92faa04f17019e8",
     "f2c1357073f4714945793edd39870fd3",
     "7dd828d20b23403dfedfdb088f2cbfd2",
     "cae3e2671d13ea1c5e7651d101e0ee2d",
@@ -799,10 +798,10 @@
     "a58204db89f9ff9eaaa76967b095e10a",
     "295787b26c40d4e577c04b8cae7a900b",
     "b6897961a18fc47dfa7785d41e836af8",
-    "5cea9e85ca6390c17f70ebc0792b46fd"
+    "5cea9e85ca6390c17f70ebc0792b46fd",
+    "878e8ec97e5a4454a4e3f1a37508dd0f"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1226,7 +1226,8 @@
     "https://kenyans.co.ke/news/127622-kenya-confirms-first-ebola-case-cs-duale-announces",
     "https://kenyans.co.ke/news/127627-kenha-launches-system-address-complaints-rironi-mau-summit-project",
     "https://kenyans.co.ke/news/127630-kenyans-foreigners-south-sudan-ordered-stop-selling-chapati-running-boda-bodas",
-    "https://kenyans.co.ke/news/127633-mmu-students-allegedly-torch-houses-bangladesh-slum-after-student-assault"
+    "https://kenyans.co.ke/news/127633-mmu-students-allegedly-torch-houses-bangladesh-slum-after-student-assault",
+    "https://kenyans.co.ke/news/127636-high-court-fast-tracks-case-seeking-details-govt-funding-dangote-refinery"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1543,7 +1544,8 @@
     "multi transit dragnet launched confirms first ebola death nairobi",
     "state deploys dispute committee clear land tolling rows ahead rironi highway opening",
     "juba squeezes east african micro traders prohibitive seven day structural ultimatum",
-    "slum residents bear cost vigilante retaliation multimedia university student assault"
+    "slum residents bear cost vigilante retaliation multimedia university student assault",
+    "state opaque ksh65b dangote refinery funding vehicles put under high court spotlight"
   ],
   "topic_keys": [
     "news tracker",
@@ -3667,6 +3669,15 @@
       "structure": "Stakes and displacement lead -> Factual sequence of the trigger assault -> Geographic layout of the security flashpoint -> Transport and policing breakdown on Magadi Road -> Unresolved jurisdictional and recovery questions.",
       "source": "https://kenyans.co.ke/news/127633-mmu-students-allegedly-torch-houses-bangladesh-slum-after-student-assault",
       "published_at": "2026-10-06T12:02:12Z"
+    },
+    {
+      "title": "State's Opaque Ksh65B Dangote Refinery Funding Vehicles Put Under High Court Spotlight",
+      "angle": "The financial transparency and institutional oversight angle: focusing on the sudden legal spotlight forced upon the National Investment Fund (NIF) and Capital Markets Authority (CMA) to open their books on the state's proposed Ksh65 billion stake, exposing the highly opaque structures designed to channel public funds into the private mega-project.",
+      "angle_type": "accountability",
+      "opening": "An accountability-focused lead linking the High Court's urgent intervention directly to the forced disclosure of the opaque National Investment Fund (NIF) and the state's Ksh65 billion commitment.",
+      "structure": "Financial accountability lead -> Factual core of the court directives and key actors -> Analysis of the NIF and CMA disclosure demands -> The multi-front legal squeeze (COFEK and Chandavai land disputes) -> Forward-looking timeline and upcoming hearings.",
+      "source": "https://kenyans.co.ke/news/127636-high-court-fast-tracks-case-seeking-details-govt-funding-dangote-refinery",
+      "published_at": "2026-10-06T13:02:32Z"
     }
   ]
 }
