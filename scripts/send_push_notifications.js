@@ -56,7 +56,9 @@ function readFrontmatter(filePath) {
 
 function newPostFiles() {
   try {
-    const diff = execSync("git diff --name-only --diff-filter=A HEAD~1 HEAD -- content/posts/", {
+    const base = process.env.PUSH_BASE_SHA || "HEAD~1";
+    const head = process.env.PUSH_HEAD_SHA || "HEAD";
+    const diff = execSync("git diff --name-only --diff-filter=A " + base + " " + head + " -- content/posts/", {
       cwd: ROOT,
       encoding: "utf8",
     }).trim();
