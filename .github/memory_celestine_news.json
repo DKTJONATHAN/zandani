@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "10e889f101e4e001b0e2c797f318a884",
     "1bd9d85728d2e41f0b9845fa6e265b00",
     "2bfc87c42895b1d0b9efc0f42dc8aad9",
     "4e0b35596d184206f4609b98d02d9813",
@@ -799,10 +798,10 @@
     "c23336bfa303f7724b5f1225a444d357",
     "dab4bda55dae881a850ee7624df693aa",
     "7b3463d41f2aa487d175c4cf637320be",
-    "56dfc481d9f8365f24daa048bf8333df"
+    "56dfc481d9f8365f24daa048bf8333df",
+    "474f003559733195733e8c91203d1f57"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1218,7 +1218,8 @@
     "https://kenyans.co.ke/news/127598-ruto-directs-tsc-increase-teacher-promotions-50000",
     "https://kenyans.co.ke/news/127597-cs-wahome-says-most-land-dangote-refinery-govt-owned",
     "https://kenyans.co.ke/news/127609-kenha-ntsa-clash-funding-challenge-slows-road-expansion-projects",
-    "https://kenyans.co.ke/news/127608-cs-ogamba-warns-candidates-knec-unveils-new-2026-exam-security-measures"
+    "https://kenyans.co.ke/news/127608-cs-ogamba-warns-candidates-knec-unveils-new-2026-exam-security-measures",
+    "https://kenyans.co.ke/news/127613-ntsa-resume-instant-fines-rollout-november-2026"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1527,7 +1528,8 @@
     "evaluation rules restrict 000 teacher promotion push seniority rules fall",
     "state classifies lamu refinery settlers squatters 000 acre land fight",
     "state safety audits stall 500km highway network kenha cites treasury cash fight",
-    "smart locks nationwide knec shifts exam container custody remote telemetry"
+    "smart locks nationwide knec shifts exam container custody remote telemetry",
+    "ntsa eyes november reset instant fines race against court senate deadlocks"
   ],
   "topic_keys": [
     "news tracker",
@@ -3579,6 +3581,15 @@
       "structure": "Security tech mechanics lead -> Examination launch details at New Mtihani House -> Proprietor and staff liability perimeter -> Overlapping multi-curriculum assessment calendar -> Forward verification edge on container logistics.",
       "source": "https://kenyans.co.ke/news/127608-cs-ogamba-warns-candidates-knec-unveils-new-2026-exam-security-measures",
       "published_at": "2026-10-06T00:41:42Z"
+    },
+    {
+      "title": "NTSA Eyes November Reset for Instant Fines in Race Against Court, Senate Deadlocks",
+      "angle": "The regulatory and legislative bottleneck: NTSA is racing against a self-imposed November 26 deadline while simultaneously fighting court battles and lobbying the Senate to revive three major traffic frameworks that were struck down just months ago.",
+      "angle_type": "institutional pressure",
+      "opening": "Procedural bottleneck lead framing the November 26 target as a high-stakes administrative race against active court injunctions and legislative resistance.",
+      "structure": "Regulatory bottleneck lead -> Factual core of the target timeline and dormant tech -> The legislative friction (Senate's July annulments) -> Practical enforcement shifts (cameras and inspections) -> Unresolved legal horizon.",
+      "source": "https://kenyans.co.ke/news/127613-ntsa-resume-instant-fines-rollout-november-2026",
+      "published_at": "2026-10-06T06:02:41Z"
     }
   ]
 }
