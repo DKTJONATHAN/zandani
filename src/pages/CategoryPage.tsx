@@ -19,7 +19,7 @@ const CONFIG: Record<string,{title:string;label:string;description:string;match:
  lifestyle:{title:"Lifestyle",label:"Lifestyle",description:"Lifestyle, people, health, culture and everyday Kenyan life.",match:/lifestyle|culture|health/i,canonical:"/lifestyle"},
 };
 type Post=ReturnType<typeof getAllPosts>[0];
-function image(url:string,width=700){if(!url)return "/images/placeholder.jpg";if(url.startsWith("/")||url.endsWith(".svg"))return url;return "https://wsrv.nl/?url="+encodeURIComponent(url.replace(/^https?:\\/\\//,""))+"&w="+width+"&output=webp&q=80&we";}
+function image(url:string,width=700){if(!url)return "/images/placeholder.jpg";if(url.startsWith("/")||url.endsWith(".svg"))return url;return "https://wsrv.nl/?url="+encodeURIComponent(url.replace(/^https?:\/\//,""))+"&w="+width+"&output=webp&q=80&we";}
 function Story({post}:{post:Post}){return <Link to={"/article/"+post.slug} className="category-story group"><img src={image(post.image,520)} alt="" loading="lazy"/><div className="category-story__body"><div className="section-kicker">{post.category}</div><h2>{post.title}</h2><p>{post.excerpt}</p><div className="category-story__meta">{post.author} · {timeAgo(post.date)}</div></div></Link>;}
 function Ranked({posts}:{posts:Post[]}){return <div className="category-ranked">{posts.map((p,i)=><Link key={p.slug} to={"/article/"+p.slug} className="category-ranked__item group"><b>{String(i+1).padStart(2,"0")}</b><div><div className="section-kicker">{p.category}</div><h3>{p.title}</h3><span>{timeAgo(p.date)}</span></div></Link>)}</div>;}
 
