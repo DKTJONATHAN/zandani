@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "2bfc87c42895b1d0b9efc0f42dc8aad9",
     "4e0b35596d184206f4609b98d02d9813",
     "a6a328841b2c0227db8f4815968d9114",
     "3460c523744d2776a5e5879be4b6beea",
@@ -799,10 +798,10 @@
     "7b3463d41f2aa487d175c4cf637320be",
     "56dfc481d9f8365f24daa048bf8333df",
     "474f003559733195733e8c91203d1f57",
-    "17038a7710b857fb1b130d357c17bf6c"
+    "17038a7710b857fb1b130d357c17bf6c",
+    "3a48a1113d7790f13a3f69b0079d4ef2"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1220,7 +1220,8 @@
     "https://kenyans.co.ke/news/127609-kenha-ntsa-clash-funding-challenge-slows-road-expansion-projects",
     "https://kenyans.co.ke/news/127608-cs-ogamba-warns-candidates-knec-unveils-new-2026-exam-security-measures",
     "https://kenyans.co.ke/news/127613-ntsa-resume-instant-fines-rollout-november-2026",
-    "https://kenyans.co.ke/news/127615-src-unveils-public-participation-bills-changing-how-workers-are-paid-promoted"
+    "https://kenyans.co.ke/news/127615-src-unveils-public-participation-bills-changing-how-workers-are-paid-promoted",
+    "https://kenyans.co.ke/news/127616-suspected-poachers-flee-kws-ambush-abandon-wildlife-meat"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1531,7 +1532,8 @@
     "state safety audits stall 500km highway network kenha cites treasury cash fight",
     "smart locks nationwide knec shifts exam container custody remote telemetry",
     "ntsa eyes november reset instant fines race against court senate deadlocks",
-    "end automatic raise inside src push import singapore variable pay model"
+    "end automatic raise inside src push import singapore variable pay model",
+    "motorbike bushmeat trade exploits sprawling tana conservation corridors"
   ],
   "topic_keys": [
     "news tracker",
@@ -3601,6 +3603,15 @@
       "structure": "Policy-disruption lead -> Historical contrast of automatic increments -> Singapore model blueprint and mechanics -> Regional participation schedule and geographic breakdown -> Operational friction and union/worker stakes.",
       "source": "https://kenyans.co.ke/news/127615-src-unveils-public-participation-bills-changing-how-workers-are-paid-promoted",
       "published_at": "2026-10-06T07:02:11Z"
+    },
+    {
+      "title": "Motorbike Bushmeat Trade Exploits Sprawling Tana Conservation Corridors",
+      "angle": "The logistics of the small-game bushmeat trade, specifically how syndicates use motorbikes and basic tools to exploit the sprawling, interconnected conservation corridor of Tana River, bypassing high-tech surveillance in favor of localized transit.",
+      "angle_type": "consequence",
+      "opening": "Logistics-led opening highlighting how the motorbike-based trade exploits the physical corridor of Tana's reserves.",
+      "structure": "Logistics lead -> Seizure metrics and event core -> Geographical analysis of the porous Tana corridor -> Small game extraction dynamics vs trophy hunting -> Informants vs high-tech tracking -> Active investigation status.",
+      "source": "https://kenyans.co.ke/news/127616-suspected-poachers-flee-kws-ambush-abandon-wildlife-meat",
+      "published_at": "2026-10-06T07:21:34Z"
     }
   ]
 }
