@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "920426665768e93510e88661d18281c2",
     "ebe01783af75bfdef477ed80eb90610b",
     "84e64ffe78d602146c09f1452f748ba8",
     "3ec890059aacd17f5dd481053b7bcb14",
@@ -799,10 +798,10 @@
     "878e8ec97e5a4454a4e3f1a37508dd0f",
     "c89dc724f425ab485133f4911a132847",
     "943dcfb05129d614ae030c419e4e4895",
-    "d307d09180bfed455356fb5eaaabe0a4"
+    "d307d09180bfed455356fb5eaaabe0a4",
+    "81f7ff36ae43fff06f8a62e164b88ae5"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1230,7 +1230,8 @@
     "https://kenyans.co.ke/news/127636-high-court-fast-tracks-case-seeking-details-govt-funding-dangote-refinery",
     "https://kenyans.co.ke/news/127638-murkomen-announces-new-passport-offices-nyeri-malindi",
     "https://kenyans.co.ke/news/127639-families-kenyans-recruited-russia-war-demand-meeting-ruto",
-    "https://kenyans.co.ke/news/127641-high-court-halts-ksls-new-admission-rules-advocate-training"
+    "https://kenyans.co.ke/news/127641-high-court-halts-ksls-new-admission-rules-advocate-training",
+    "https://kenyans.co.ke/news/127644-state-expand-digital-birth-registration-sha-hospitals-within-3-months"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1551,7 +1552,8 @@
     "state opaque ksh65b dangote refinery funding vehicles put under high court spotlight",
     "nyeri malindi set full passport biometric rollout cut nairobi backlog",
     "russian recruitment toll tops 000 families face communication blackout",
-    "high court freezes ksl admission overhaul regulatory compliance row"
+    "high court freezes ksl admission overhaul regulatory compliance row",
+    "parents bypass paper slips digital birth notifications hit sha hospitals"
   ],
   "topic_keys": [
     "news tracker",
@@ -3711,6 +3713,15 @@
       "structure": "Procedural lead -> Legal and statutory core (Legal Education Act) -> Practical conflict over entry pathways and deadlines -> Broader reform backdrop -> Upcoming hearing date.",
       "source": "https://kenyans.co.ke/news/127641-high-court-halts-ksls-new-admission-rules-advocate-training",
       "published_at": "2026-10-06T15:02:42Z"
+    },
+    {
+      "title": "Parents to Bypass Paper Slips as Digital Birth Notifications Hit SHA Hospitals",
+      "angle": "The practical administrative integration challenge of tying hospital management systems directly to civil registration and education databases while phasing out lost paper documents for families.",
+      "angle_type": "practical change",
+      "opening": "Operational-shift lead focusing on the administrative mechanics of replacing lost paper slips with direct digital hospital entries.",
+      "structure": "Administrative shift lead -> System integration mechanics with SHA hospitals -> UPI and education database linkage -> Parental relief from manual paperwork -> Three-month rollout deadline.",
+      "source": "https://kenyans.co.ke/news/127644-state-expand-digital-birth-registration-sha-hospitals-within-3-months",
+      "published_at": "2026-10-06T18:02:47Z"
     }
   ]
 }
