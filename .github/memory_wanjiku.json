@@ -161,7 +161,8 @@
     "d1d9c791dfc433c82e9dd78dcf218f5e52044108643e397c3019463224795061",
     "0e06786ec86a2bf0508d29e5262204fbd1ee2708f9bb6716d2ca87b8e7fcdafb",
     "defd06bbc4b9f86b4fb836e532e2a248a2815912a4dd2ad13998e9885eeae74a",
-    "a8bb2fcbaa547ddbb16096f25370c0519aa900a876ecd05ef75ab6439d87643f"
+    "a8bb2fcbaa547ddbb16096f25370c0519aa900a876ecd05ef75ab6439d87643f",
+    "1087681391104679b78ebd39200b0162913891e4f442bd96fb8e594ebe706bc4"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -325,17 +326,10 @@
     "https://www.ghafla.co.ke/mc-jessy-urges-women-to-build-themselves-before-settling-down/",
     "https://www.ghafla.co.ke/krg-the-don-blesses-vincent-mboyas-new-car-with-holy-oil-warns-him-against-women-and-forex/",
     "https://www.ghafla.co.ke/amber-ray-shuts-down-kennedy-rapudos-request-to-add-another-baby/",
-    "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-several-counties-on-october-6/"
+    "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-several-counties-on-october-6/",
+    "https://www.ghafla.co.ke/breaking-kenya-records-first-ebola-case-as-patient-succumbs-in-nairobi/"
   ],
   "published_angles": [
-    {
-      "title": "Babu Owino Pivots to \u2018The Mwananchi Party\u2019 as Paper Trail Resolves \u2018Linda\u2019 Brand Feud",
-      "angle": "Framing the timeline release as Babu Owino's tactical paper-trail defense, using ORPP statutory dates to bypass a costly tribunal battle over the 'Linda' brand identity and secure an unassailable legal vehicle.",
-      "angle_type": "tactical political rebrand and regulatory paper trail",
-      "opening": "Personality lead focusing on Babu Owino deploying statutory receipts to lock in his political party identity away from tribunal crossfire.",
-      "structure": "Personality lead -> The 'Linda' brand dispute backdrop -> Detailed ORPP statutory chronology (Aug 4 to Sept 10) -> Legal objection handling -> Concrete close on statutory standing.",
-      "source": "https://www.ghafla.co.ke/babu-owino-sets-record-straight-on-linda-mwananchi-partys-name-transition/"
-    },
     {
       "title": "Inside the Three-County Rift Valley Setup as Kipchoge Keino Hits 68 Per Cent",
       "angle": "Focusing on the logistical squeeze and regional showcase of hosting a national holiday across three separate Rift Valley counties for the first time, detailing the exact stadium completion metrics and thematic focus.",
@@ -1127,6 +1121,14 @@
       "opening": "Lifestyle-focused opening targeting the high-end pockets of Nairobi facing a temporary grid blackout.",
       "structure": "Suburban lifestyle hook -> The northern Nairobi luxury corridor breakdown (Windsor and Rosslyn) -> Commercial and industrial impact (Mombasa Road) -> Peripheral historic and regional hub transitions (Kiambu, Narok, Tharaka Nithi, Kisumu) -> Concrete close on the shared reality of the national grid.",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-several-counties-on-october-6/"
+    },
+    {
+      "title": "Aden Duale Commands Urgent Dragnet for Jambojet Passengers and Toyota Fielder KDG 699Z After Nairobi Ebola Death",
+      "angle": "A personality-driven operational focus on Health CS Aden Duale commanding a highly specific public dragnet\u2014zeroing in on a single Toyota Fielder (KDG 699Z) and a specific Jambojet flight\u2014rather than just treating the outbreak as a generic health scare.",
+      "angle_type": "high-stakes crisis management and public transit dragnet",
+      "opening": "Personality-led opening focusing on Aden Duale stepping up to the microphone to deliver a sobering public health warning and launching an immediate search for specific transit contacts.",
+      "structure": "Cabinet Secretary's announcement -> The trans-border travel timeline -> The specific vehicle and flight clues -> Clinical escalation at Nairobi Hospital -> The current active tracking status.",
+      "source": "https://www.ghafla.co.ke/breaking-kenya-records-first-ebola-case-as-patient-succumbs-in-nairobi/"
     }
   ],
   "style_history": [
