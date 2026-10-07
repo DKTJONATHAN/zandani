@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "84f2ad4e19c4359a91584dc67e45a74f",
     "f8f3d84857d06d790237601afd083ee8",
     "465becf728b022dee94b5402150a0e20",
     "0ee7e4d7431207b176a0dd7c98608531",
@@ -799,10 +798,10 @@
     "5648516f92bbcfff144844348fbd8b5a",
     "16f421d7fd73dcde6478265427a9fadf",
     "3a5d3f0462093515ae762faf9cfb46f4",
-    "558f8e9eb13190e12554752b806a7de9"
+    "558f8e9eb13190e12554752b806a7de9",
+    "e0485fb93b9cfd5a9a87d4dac3612dd6"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1238,7 +1238,8 @@
     "https://kenyans.co.ke/news/127652-nairobi-thika-expressway-design-and-feasibility-study-begins-kindiki-announces",
     "https://kenyans.co.ke/news/127656-us-embassy-warns-americans-kenya-after-ebola-case-and-death",
     "https://kenyans.co.ke/news/127655-traffic-snarl-hits-nakuru-highway-after-two-killed-trailer-crash",
-    "https://kenyans.co.ke/news/127661-kura-confirms-start-nairobi-brt-line-5-construction"
+    "https://kenyans.co.ke/news/127661-kura-confirms-start-nairobi-brt-line-5-construction",
+    "https://kenyans.co.ke/news/127662-kenya-identifies-57-ebola-contacts-10-placed-quarantine"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1567,7 +1568,8 @@
     "ksh200b thika elevated road plan tests state ppp highway strategy",
     "ebola fatality triggers embassy alert tracing focuses jkia flight corridor",
     "nakuru railway bridge bottleneck turns fatal morning pedestrians",
-    "outer ring road mobilisation tests nairobi stalled brt promises"
+    "outer ring road mobilisation tests nairobi stalled brt promises",
+    "state readies border treatment units ebola contacts put under watch"
   ],
   "topic_keys": [
     "news tracker",
@@ -3799,6 +3801,15 @@
       "structure": "Corridor mobilization lead -> Factual core of KURA confirmation and Line 5 specs -> Operational role of the Outer Ring Road transit artery -> Broader five-line mass transit network breakdown -> Unresolved retrofitting and traffic management next steps.",
       "source": "https://kenyans.co.ke/news/127661-kura-confirms-start-nairobi-brt-line-5-construction",
       "published_at": "2026-10-07T08:05:40Z"
+    },
+    {
+      "title": "State Readies Border Treatment Units as 57 Ebola Contacts Put Under Watch",
+      "angle": "The operational strain and decentralized infrastructure mobilization: examining how frontier counties and 15 border transit points are being activated to absorb potential surge cases using makeshift quarantine and faith-based facility networks as contact figures climb.",
+      "angle_type": "practical change",
+      "opening": "Operational readiness lead focusing on the decentralization of quarantine and treatment capacity to 15 frontier transit corridors.",
+      "structure": "Containment infrastructure lead -> Core quarantine and contact figures -> Border surveillance and makeshift facility activation -> County and faith-based healthcare coordination -> Forward-looking surveillance and review timelines.",
+      "source": "https://kenyans.co.ke/news/127662-kenya-identifies-57-ebola-contacts-10-placed-quarantine",
+      "published_at": "2026-10-07T09:02:22Z"
     }
   ]
 }
