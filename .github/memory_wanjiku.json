@@ -172,7 +172,8 @@
     "d7cab3da9b8a0245947f732c352a6690527b08db171983823e54e544f403431b",
     "51fdb26faeecca01a05b208447f43749532228aa0f59a8fdfcf995be021296c7",
     "6762671e7479792b57d0b363f59a22f5b510ccc25d0c623803b5d8a3b1674af6",
-    "5e595cf0f6518c70d5e073d21f81b9e4956be5770a1128bec698f467f488287f"
+    "5e595cf0f6518c70d5e073d21f81b9e4956be5770a1128bec698f467f488287f",
+    "c2c4b5e3552f67b0f7bb90db76807f6416afa5356abf181755bdf4c906f63d7b"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -347,17 +348,10 @@
     "https://www.ghafla.co.ke/dj-shiti-remembers-childhood-home-as-he-mourns-late-father/",
     "https://www.ghafla.co.ke/mc-jessy-opens-up-about-pain-of-losing-an-election-urges-kenyans-not-to-give-up/",
     "https://www.ghafla.co.ke/zimbabwean-prophet-linked-to-leaked-wicknell-chivayo-audio-arrested-over-alleged-robbery/",
-    "https://www.ghafla.co.ke/former-chief-justice-david-maraga-mourns-sister-sabina-kemunto-107/"
+    "https://www.ghafla.co.ke/former-chief-justice-david-maraga-mourns-sister-sabina-kemunto-107/",
+    "https://www.ghafla.co.ke/first-ebola-patient-awaited-treatment-for-hours-before-demise/"
   ],
   "published_angles": [
-    {
-      "title": "Aliko Dangote Rolls Out Lekki Welcome for William Ruto Ahead of Audacious Lamu Showdown",
-      "angle": "Reframing the visit around the high-profile personal dynamic between Africa's wealthiest industrialist and Kenya's Head of State, highlighting Ruto's bold bet to outscale Dangote's prized Lekki compound with the upcoming Lamu installation.",
-      "angle_type": "high-profile mogul dynamic and audacious industrial pledge",
-      "opening": "Personality lead opening directly on Aliko Dangote hosting William Ruto across his private industrial empire in Lekki.",
-      "structure": "Personality hook -> The Lekki walkthrough and billionaire invite -> The scale comparison and Ruto's Lamu bet -> Economic footprint and auxiliary industries -> Groundbreaking timeline close.",
-      "source": "https://www.ghafla.co.ke/president-william-ruto-tours-dangote-refinery-in-nigeria-ahead-of-lamu-groundbreaking/"
-    },
     {
       "title": "Hussein Mohammed Takes Coast Stadium Pitch to New York in High-Stakes Gianni Infantino Talks",
       "angle": "Reframing the New York diplomatic summit through FKF President Hussein Mohammed's high-profile lobbying offensive alongside Ruto, spotlighting the coastal sports tourism play in Mombasa and the nationwide FIFA Arena rollout.",
@@ -1149,6 +1143,14 @@
       "opening": "Personality-led focus on David Maraga opening a window into his private family tree to honor a centenarian matriarch.",
       "structure": "Centenarian lineage hook -> Detailed breakdown of the multi-generational family tree and surviving descendants -> Sibling dynamics and survival among the Maraga elders -> Concrete factual close on the public family notice",
       "source": "https://www.ghafla.co.ke/former-chief-justice-david-maraga-mourns-sister-sabina-kemunto-107/"
+    },
+    {
+      "title": "Aden Duale Details DRC Returnee\u2019s Final Hours as KEMRI Confirms Rare Ebola Bundibugyo Strain",
+      "angle": "Focusing on the critical gap between cross-border public health screening and acute clinical detection, highlighting Aden Duale's disclosure of how a month-long illness in DRC bypassed airport protocols before emergency hospital triage and KEMRI laboratory confirmation took over.",
+      "angle_type": "clinical timeline and screening accountability",
+      "opening": "Personality-led opening focusing on Aden Duale breaking down the clinical timeline and laboratory confirmation at The Nairobi Hospital.",
+      "structure": "Personality disclosure hook -> Travel chronology vs screening protocols -> Emergency triage and clinical presentation -> Joint KEMRI-NPHI laboratory verification -> Contact surveillance status",
+      "source": "https://www.ghafla.co.ke/first-ebola-patient-awaited-treatment-for-hours-before-demise/"
     }
   ],
   "style_history": [
