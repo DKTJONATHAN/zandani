@@ -171,7 +171,8 @@
     "04d78498e5d34a2c65d0bc05731c27102a93667e3f5aba9c52167790523e1067",
     "d7cab3da9b8a0245947f732c352a6690527b08db171983823e54e544f403431b",
     "51fdb26faeecca01a05b208447f43749532228aa0f59a8fdfcf995be021296c7",
-    "6762671e7479792b57d0b363f59a22f5b510ccc25d0c623803b5d8a3b1674af6"
+    "6762671e7479792b57d0b363f59a22f5b510ccc25d0c623803b5d8a3b1674af6",
+    "5e595cf0f6518c70d5e073d21f81b9e4956be5770a1128bec698f467f488287f"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -345,17 +346,10 @@
     "https://www.ghafla.co.ke/dr-ofweneke-says-god-can-use-your-skills-without-requiring-you-to-abandon-them/",
     "https://www.ghafla.co.ke/dj-shiti-remembers-childhood-home-as-he-mourns-late-father/",
     "https://www.ghafla.co.ke/mc-jessy-opens-up-about-pain-of-losing-an-election-urges-kenyans-not-to-give-up/",
-    "https://www.ghafla.co.ke/zimbabwean-prophet-linked-to-leaked-wicknell-chivayo-audio-arrested-over-alleged-robbery/"
+    "https://www.ghafla.co.ke/zimbabwean-prophet-linked-to-leaked-wicknell-chivayo-audio-arrested-over-alleged-robbery/",
+    "https://www.ghafla.co.ke/former-chief-justice-david-maraga-mourns-sister-sabina-kemunto-107/"
   ],
   "published_angles": [
-    {
-      "title": "Grid Sabotage and El Ni\u00f1o Prep: Inside Kindiki\u2019s Karen Security Briefing",
-      "angle": "Framing DP Kithure Kindiki's Karen address around his decision to escalate utility vandalism and power grid sabotage to the National Security Council as a primary threat to El Ni\u00f1o disaster management.",
-      "angle_type": "infrastructure security and executive directive",
-      "opening": "Personality lead opening directly on Kithure Kindiki raising the security stakes over energy grid sabotage during his Karen briefing.",
-      "structure": "Kindiki Karen statement hook -> Infrastructure sabotage and National Security Council escalation -> Nairobi drainage and Green Army mobilization -> ASAL low-lying response (El Wak, Tana River) -> Practical close on communication and humane relocation commitments.",
-      "source": "https://www.ghafla.co.ke/deputy-president-kindiki-outlines-strategic-plan-to-tackle-expected-el-nino-flooding/"
-    },
     {
       "title": "Aliko Dangote Rolls Out Lekki Welcome for William Ruto Ahead of Audacious Lamu Showdown",
       "angle": "Reframing the visit around the high-profile personal dynamic between Africa's wealthiest industrialist and Kenya's Head of State, highlighting Ruto's bold bet to outscale Dangote's prized Lekki compound with the upcoming Lamu installation.",
@@ -1147,6 +1141,14 @@
       "opening": "Personality lead focusing directly on Madzibaba DVD's dramatic apprehension in Goromonzi and the immediate seizure of his communications.",
       "structure": "Goromonzi arrest hook -> The family pushback vs police robbery charges -> The authenticated Wicknell Chivayo audio context -> The political connections -> Concrete court date close.",
       "source": "https://www.ghafla.co.ke/zimbabwean-prophet-linked-to-leaked-wicknell-chivayo-audio-arrested-over-alleged-robbery/"
+    },
+    {
+      "title": "David Maraga Celebrates 107-Year Dynasty as Matriarch Sister Sabina Kemunto Leaves Behind 53 Grandchildren",
+      "angle": "Focusing on the generational expanse and family dynamics of Sabina Kemunto's 107-year life\u2014leaving behind a 53-strong lineage of grandchildren and great-grandchildren, while leaving only Maraga and James Ochengo as the final surviving brothers of a once vast sibling circle.",
+      "angle_type": "family lineage and generational milestone",
+      "opening": "Personality-led focus on David Maraga opening a window into his private family tree to honor a centenarian matriarch.",
+      "structure": "Centenarian lineage hook -> Detailed breakdown of the multi-generational family tree and surviving descendants -> Sibling dynamics and survival among the Maraga elders -> Concrete factual close on the public family notice",
+      "source": "https://www.ghafla.co.ke/former-chief-justice-david-maraga-mourns-sister-sabina-kemunto-107/"
     }
   ],
   "style_history": [
