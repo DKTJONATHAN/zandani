@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "fc7f092c4f468bb051d39807928ff953",
     "84f2ad4e19c4359a91584dc67e45a74f",
     "f8f3d84857d06d790237601afd083ee8",
     "465becf728b022dee94b5402150a0e20",
@@ -799,10 +798,10 @@
     "33d2f7e89e6aabb40cc3a82ab318c9ad",
     "5648516f92bbcfff144844348fbd8b5a",
     "16f421d7fd73dcde6478265427a9fadf",
-    "3a5d3f0462093515ae762faf9cfb46f4"
+    "3a5d3f0462093515ae762faf9cfb46f4",
+    "558f8e9eb13190e12554752b806a7de9"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1237,7 +1237,8 @@
     "https://kenyans.co.ke/news/127640-kibabii-university-closes-after-student-unrest-orders-students-vacate",
     "https://kenyans.co.ke/news/127652-nairobi-thika-expressway-design-and-feasibility-study-begins-kindiki-announces",
     "https://kenyans.co.ke/news/127656-us-embassy-warns-americans-kenya-after-ebola-case-and-death",
-    "https://kenyans.co.ke/news/127655-traffic-snarl-hits-nakuru-highway-after-two-killed-trailer-crash"
+    "https://kenyans.co.ke/news/127655-traffic-snarl-hits-nakuru-highway-after-two-killed-trailer-crash",
+    "https://kenyans.co.ke/news/127661-kura-confirms-start-nairobi-brt-line-5-construction"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1565,7 +1566,8 @@
     "kibabii university enforces rapid campus eviction fatal student mugging",
     "ksh200b thika elevated road plan tests state ppp highway strategy",
     "ebola fatality triggers embassy alert tracing focuses jkia flight corridor",
-    "nakuru railway bridge bottleneck turns fatal morning pedestrians"
+    "nakuru railway bridge bottleneck turns fatal morning pedestrians",
+    "outer ring road mobilisation tests nairobi stalled brt promises"
   ],
   "topic_keys": [
     "news tracker",
@@ -3788,6 +3790,15 @@
       "structure": "Infrastructure risk lead -> Factual collision sequence and victim profiles -> Pedestrian vulnerability at the Railway Bridge bottleneck -> Sequence of Nakuru transport corridor incidents -> Unresolved police inquiry and inspection findings.",
       "source": "https://kenyans.co.ke/news/127655-traffic-snarl-hits-nakuru-highway-after-two-killed-trailer-crash",
       "published_at": "2026-10-07T07:05:08Z"
+    },
+    {
+      "title": "Outer Ring Road Mobilisation Tests Nairobi\u2019s Stalled BRT Promises",
+      "angle": "Framing the contractor mobilization along Outer Ring Road as the primary operational test for converting Eastlands' key highway corridor into a dedicated transit route following months of post-signing delay.",
+      "angle_type": "practical change",
+      "opening": "Corridor-execution lead highlighting physical contractor mobilization as the reality check for Eastlands mass transit commitments.",
+      "structure": "Corridor mobilization lead -> Factual core of KURA confirmation and Line 5 specs -> Operational role of the Outer Ring Road transit artery -> Broader five-line mass transit network breakdown -> Unresolved retrofitting and traffic management next steps.",
+      "source": "https://kenyans.co.ke/news/127661-kura-confirms-start-nairobi-brt-line-5-construction",
+      "published_at": "2026-10-07T08:05:40Z"
     }
   ]
 }
