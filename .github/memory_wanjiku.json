@@ -174,7 +174,8 @@
     "6762671e7479792b57d0b363f59a22f5b510ccc25d0c623803b5d8a3b1674af6",
     "5e595cf0f6518c70d5e073d21f81b9e4956be5770a1128bec698f467f488287f",
     "c2c4b5e3552f67b0f7bb90db76807f6416afa5356abf181755bdf4c906f63d7b",
-    "812f35d10f47893f0ae6dc3fef00d0527cc57cc1feeb2bed6f060a622786c441"
+    "812f35d10f47893f0ae6dc3fef00d0527cc57cc1feeb2bed6f060a622786c441",
+    "2fd3cd537533d1df43d770ead550a037dd300e6d9ce54b42dff6ae392788b324"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -351,17 +352,10 @@
     "https://www.ghafla.co.ke/zimbabwean-prophet-linked-to-leaked-wicknell-chivayo-audio-arrested-over-alleged-robbery/",
     "https://www.ghafla.co.ke/former-chief-justice-david-maraga-mourns-sister-sabina-kemunto-107/",
     "https://www.ghafla.co.ke/first-ebola-patient-awaited-treatment-for-hours-before-demise/",
-    "https://www.ghafla.co.ke/matiangi-responds-to-rutos-attacks-over-past-extrajudicial-killings/"
+    "https://www.ghafla.co.ke/matiangi-responds-to-rutos-attacks-over-past-extrajudicial-killings/",
+    "https://www.ghafla.co.ke/winnie-odinga-calls-for-political-ceasefire-ahead-of-railas-first-death-anniversary/"
   ],
   "published_angles": [
-    {
-      "title": "Chain of Owners: How DCI Tracked Down Getaway Bike in Kyalo Mbobu Murder Case",
-      "angle": "Focusing specifically on the paper trail and succession of owners detectives unravelled to track down the getaway bike, and how forensic examination of the physical evidence bridges the rider's confession to court readiness.",
-      "angle_type": "investigative paper trail and physical evidence chain",
-      "opening": "Direct focus on the physical asset recovery and the multi-owner paper trail unravelled by homicide detectives.",
-      "structure": "Physical asset recovery lead -> Tracing succession of owners -> Forensic examination at homicide headquarters -> Broader investigation and legal preparation.",
-      "source": "https://www.ghafla.co.ke/detectives-recover-motorcycle-allegedly-used-to-ferry-gunman-in-kyalo-mbobu-murder/"
-    },
     {
       "title": "Running Mate or Kingpin? Inside the Tug-of-War Over Sifuna\u2019s 2027 Ambition",
       "angle": "Focusing on the conflicting political scripts being handed to Nairobi Senator Edwin Sifuna\u2014with Kalonzo Musyoka's team drafting him as a compliant October running mate while George Natembeya brazenly stakes out Cyrus Jirongo's vintage UDP as Sifuna's independent presidential vehicle.",
@@ -1153,6 +1147,14 @@
       "opening": "Personality-led focus on Fred Matiang\u2019i's radio challenge in Mombasa and the specific National Security Council mechanism he invoked.",
       "structure": "Mombasa radio interview hook -> National Security Council membership dynamics -> The River Yala historical context -> 2027 presidential ambition backdrop -> Concrete close on executive authority.",
       "source": "https://www.ghafla.co.ke/matiangi-responds-to-rutos-attacks-over-past-extrajudicial-killings/"
+    },
+    {
+      "title": "Winnie Odinga Draws the Line at Bondo: No VIP Crowd-Shouting or Political Battles at Raila\u2019s Memorial",
+      "angle": "Focusing on Winnie Odinga setting strict protocol rules at the Bondo mausoleum\u2014specifically targeting VIP crowd-ownership contests and political heckling, while demanding space for title-less grassroots supporters.",
+      "angle_type": "family protocol and political optics boundary",
+      "opening": "Personality lead focusing directly on Winnie Odinga establishing ground rules against political grandstanding inside the family compound in Bondo.",
+      "structure": "Bondo ground-rules lead -> VIP crowd-ownership vs high-table warning -> Grassroots invitation vs title-less supporters -> Mausoleum dedication context and personal tribute close",
+      "source": "https://www.ghafla.co.ke/winnie-odinga-calls-for-political-ceasefire-ahead-of-railas-first-death-anniversary/"
     }
   ],
   "style_history": [
