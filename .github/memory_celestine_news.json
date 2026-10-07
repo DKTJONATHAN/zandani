@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "58ec18f60079136a761316360312a742",
     "fc7f092c4f468bb051d39807928ff953",
     "84f2ad4e19c4359a91584dc67e45a74f",
     "f8f3d84857d06d790237601afd083ee8",
@@ -799,10 +798,10 @@
     "95a752a32c4c44a2ebf26ab641764486",
     "33d2f7e89e6aabb40cc3a82ab318c9ad",
     "5648516f92bbcfff144844348fbd8b5a",
-    "16f421d7fd73dcde6478265427a9fadf"
+    "16f421d7fd73dcde6478265427a9fadf",
+    "3a5d3f0462093515ae762faf9cfb46f4"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1236,7 +1236,8 @@
     "https://kenyans.co.ke/news/127642-kenya-signs-ksh-390b-deal-electric-vehicle-assembly-investment",
     "https://kenyans.co.ke/news/127640-kibabii-university-closes-after-student-unrest-orders-students-vacate",
     "https://kenyans.co.ke/news/127652-nairobi-thika-expressway-design-and-feasibility-study-begins-kindiki-announces",
-    "https://kenyans.co.ke/news/127656-us-embassy-warns-americans-kenya-after-ebola-case-and-death"
+    "https://kenyans.co.ke/news/127656-us-embassy-warns-americans-kenya-after-ebola-case-and-death",
+    "https://kenyans.co.ke/news/127655-traffic-snarl-hits-nakuru-highway-after-two-killed-trailer-crash"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1563,7 +1564,8 @@
     "state bets ksh390b pact 150 000 unit domestic assembly capacity",
     "kibabii university enforces rapid campus eviction fatal student mugging",
     "ksh200b thika elevated road plan tests state ppp highway strategy",
-    "ebola fatality triggers embassy alert tracing focuses jkia flight corridor"
+    "ebola fatality triggers embassy alert tracing focuses jkia flight corridor",
+    "nakuru railway bridge bottleneck turns fatal morning pedestrians"
   ],
   "topic_keys": [
     "news tracker",
@@ -3777,6 +3779,15 @@
       "structure": "Containment-risk lead -> Factual core of the travel sequence and timeline -> Clinical screening friction (malaria mimicry and facility intake) -> Tracing protocols and state response -> Forward-looking 21-day surveillance baseline.",
       "source": "https://kenyans.co.ke/news/127656-us-embassy-warns-americans-kenya-after-ebola-case-and-death",
       "published_at": "2026-10-07T07:00:32Z"
+    },
+    {
+      "title": "Nakuru Railway Bridge Bottleneck Turns Fatal for Morning Pedestrians",
+      "angle": "The lethal exposure of foot commuters at Nakuru's critical eastern threshold, where heavy long-distance freight funnels into unsegregated pedestrian paths during morning traffic jams.",
+      "angle_type": "local impact",
+      "opening": "Infrastructure-hazard opening that links commuter pedestrian patterns to the bottlenecked freight approach into Nakuru town.",
+      "structure": "Infrastructure risk lead -> Factual collision sequence and victim profiles -> Pedestrian vulnerability at the Railway Bridge bottleneck -> Sequence of Nakuru transport corridor incidents -> Unresolved police inquiry and inspection findings.",
+      "source": "https://kenyans.co.ke/news/127655-traffic-snarl-hits-nakuru-highway-after-two-killed-trailer-crash",
+      "published_at": "2026-10-07T07:05:08Z"
     }
   ]
 }
