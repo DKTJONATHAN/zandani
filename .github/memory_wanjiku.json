@@ -176,7 +176,8 @@
     "c2c4b5e3552f67b0f7bb90db76807f6416afa5356abf181755bdf4c906f63d7b",
     "812f35d10f47893f0ae6dc3fef00d0527cc57cc1feeb2bed6f060a622786c441",
     "2fd3cd537533d1df43d770ead550a037dd300e6d9ce54b42dff6ae392788b324",
-    "98aa70c1b5897e20278d238c721c07740dd007ac0024d055e59db16097914124"
+    "98aa70c1b5897e20278d238c721c07740dd007ac0024d055e59db16097914124",
+    "6cf32dd4711785998287046ae6c5aae189c64f67cfd5425113a36cd2d3d88cb3"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -355,17 +356,10 @@
     "https://www.ghafla.co.ke/first-ebola-patient-awaited-treatment-for-hours-before-demise/",
     "https://www.ghafla.co.ke/matiangi-responds-to-rutos-attacks-over-past-extrajudicial-killings/",
     "https://www.ghafla.co.ke/winnie-odinga-calls-for-political-ceasefire-ahead-of-railas-first-death-anniversary/",
-    "https://www.ghafla.co.ke/ciggie-johnson-says-he-could-still-pay-school-fees-for-girl-he-raised-but-only-if/"
+    "https://www.ghafla.co.ke/ciggie-johnson-says-he-could-still-pay-school-fees-for-girl-he-raised-but-only-if/",
+    "https://www.ghafla.co.ke/winnie-odinga-calls-for-political-ceasefire-ahead-of-railas-first-anniversary/"
   ],
   "published_angles": [
-    {
-      "title": "Eugene Wamalwa Offers to Hand DAP-K Crown and 2027 Ticket to Edwin Sifuna",
-      "angle": "The sheer drama of Wamalwa publicly volunteering his own self-demotion on live radio, offering to instantly step aside from a cleared presidential ticket to hand Sifuna a turnkey political vehicle right when Sifuna's camp is stranded by the Registrar's rejection of the 'Ukombozi' rebrand.",
-      "angle_type": "political celebrity courtship and dramatic concession",
-      "opening": "Personality lead zeroing in on Eugene Wamalwa making a live broadcast offer to give up his own cleared presidential candidacy for Edwin Sifuna.",
-      "structure": "Person and hook -> On-air concession quote and verified party offer -> The Linda Mwananchi registration stumbling block (Ukombozi rebrand collapse) -> Rival suitors (Natembeya's UDP line and Kalonzo retreat) -> Close on Osotsi's ticking countdown clock.",
-      "source": "https://www.ghafla.co.ke/wamalwa-offers-dap-k-leadership-and-presidential-ticket-to-sifuna/"
-    },
     {
       "title": "Moses Kuria Shrugs Off Sifuna\u2019s 76% Landslide on His Own X Wall With Blunt 1997 Warning",
       "angle": "Focusing on the entertainment value of Kuria's timeline ambush\u2014hosting a poll that delivered a lopsided blowout for Sifuna, only for Kuria to instantly dismiss the digital landslide by invoking a 1997-style fragmentation warning to declare opposition unity dead.",
@@ -1157,6 +1151,14 @@
       "opening": "Personality lead focusing directly on Ciggie Johnson setting the financial and communication terms for supporting a child who is not biologically his.",
       "structure": "Personality and financial terms hook -> The DNA reveal and 12-year background -> The communication stipulations regarding the mother vs the child -> Concrete close on the specific phrasing required for school fee requests.",
       "source": "https://www.ghafla.co.ke/ciggie-johnson-says-he-could-still-pay-school-fees-for-girl-he-raised-but-only-if/"
+    },
+    {
+      "title": "Winnie Odinga Draws the Line: No VIP Showgrounds at Raila\u2019s First Anniversary",
+      "angle": "Focusing on the strict family-imposed boundary against VIP political ego-tripping and crowd-ownership contests, contrasting elite political theater with the title-less grassroots supporters Winnie explicitly invited to fill the grounds.",
+      "angle_type": "family protocol and grassroots inclusion boundary",
+      "opening": "Personality-led focus on Winnie Odinga drawing a sharp line between political egos and grassroots mourners.",
+      "structure": "Protocol boundary hook -> Grassroots inclusion details -> Mausoleum handover logistics -> Concrete close on the upcoming October 15 public gathering.",
+      "source": "https://www.ghafla.co.ke/winnie-odinga-calls-for-political-ceasefire-ahead-of-railas-first-anniversary/"
     }
   ],
   "style_history": [
