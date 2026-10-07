@@ -170,7 +170,8 @@
     "80c750e85f42d6f2bab784bed7f1f6f16c126ac867680e8e9bc48854f45fa9c3",
     "04d78498e5d34a2c65d0bc05731c27102a93667e3f5aba9c52167790523e1067",
     "d7cab3da9b8a0245947f732c352a6690527b08db171983823e54e544f403431b",
-    "51fdb26faeecca01a05b208447f43749532228aa0f59a8fdfcf995be021296c7"
+    "51fdb26faeecca01a05b208447f43749532228aa0f59a8fdfcf995be021296c7",
+    "6762671e7479792b57d0b363f59a22f5b510ccc25d0c623803b5d8a3b1674af6"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -343,17 +344,10 @@
     "https://www.ghafla.co.ke/millicent-omanga-urges-protection-of-child-in-ciggie-johnson-paternity-saga/",
     "https://www.ghafla.co.ke/dr-ofweneke-says-god-can-use-your-skills-without-requiring-you-to-abandon-them/",
     "https://www.ghafla.co.ke/dj-shiti-remembers-childhood-home-as-he-mourns-late-father/",
-    "https://www.ghafla.co.ke/mc-jessy-opens-up-about-pain-of-losing-an-election-urges-kenyans-not-to-give-up/"
+    "https://www.ghafla.co.ke/mc-jessy-opens-up-about-pain-of-losing-an-election-urges-kenyans-not-to-give-up/",
+    "https://www.ghafla.co.ke/zimbabwean-prophet-linked-to-leaked-wicknell-chivayo-audio-arrested-over-alleged-robbery/"
   ],
   "published_angles": [
-    {
-      "title": "Paul Waiganjo Quits State House Advisorship After Four Months, Citing Nyandarua Disconnect",
-      "angle": "The sharp dissonance between gospel music background, State House advisory title, and the unglamorous reality of grassroots development frustration in Nyandarua County.",
-      "angle_type": "celebrity-turned-politician career pivot and grassroots disillusionment",
-      "opening": "Personality lead focusing directly on Paul Waiganjo stepping down from his State House role.",
-      "structure": "Personality lead -> The four-month timeline and appointment context -> The grassroots dissonance in Nyandarua -> The broader economic critiques raised -> Concrete close on his 2027 regional positioning.",
-      "source": "https://www.ghafla.co.ke/paul-waiganjo-resigns-as-rutos-development-adviser-cites-limits-of-role/"
-    },
     {
       "title": "Grid Sabotage and El Ni\u00f1o Prep: Inside Kindiki\u2019s Karen Security Briefing",
       "angle": "Framing DP Kithure Kindiki's Karen address around his decision to escalate utility vandalism and power grid sabotage to the National Security Council as a primary threat to El Ni\u00f1o disaster management.",
@@ -1145,6 +1139,14 @@
       "opening": "Personality lead focusing directly on MC Jessy contrasting his online trending buzz with the physical reality of election defeat.",
       "structure": "Trending illusion lead -> Direct quotes on online hype vs electoral crash -> Analysis of digital metrics vs ground politics -> Tactical recovery advice ('stay afloat') -> Concrete close on candidate reset",
       "source": "https://www.ghafla.co.ke/mc-jessy-opens-up-about-pain-of-losing-an-election-urges-kenyans-not-to-give-up/"
+    },
+    {
+      "title": "Madzibaba DVD Landed by Police in Goromonzi as Wicknell Chivayo Audio Leak Sparks Robbery Case",
+      "angle": "The collision between spiritual power brokers and high-stakes criminal charges\u2014examining how a prophetic leak involving millions and political favor abruptly morphs into a KSh 1.5 million armed robbery police file in Goromonzi.",
+      "angle_type": "celebrity controversy and institutional accountability",
+      "opening": "Personality lead focusing directly on Madzibaba DVD's dramatic apprehension in Goromonzi and the immediate seizure of his communications.",
+      "structure": "Goromonzi arrest hook -> The family pushback vs police robbery charges -> The authenticated Wicknell Chivayo audio context -> The political connections -> Concrete court date close.",
+      "source": "https://www.ghafla.co.ke/zimbabwean-prophet-linked-to-leaked-wicknell-chivayo-audio-arrested-over-alleged-robbery/"
     }
   ],
   "style_history": [
