@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "7ab120eddc627c6bc529aa69fcea7e77",
     "58ec18f60079136a761316360312a742",
     "fc7f092c4f468bb051d39807928ff953",
     "84f2ad4e19c4359a91584dc67e45a74f",
@@ -799,10 +798,10 @@
     "c5fad642b1f7710cea0d8aa1878eeb0e",
     "95a752a32c4c44a2ebf26ab641764486",
     "33d2f7e89e6aabb40cc3a82ab318c9ad",
-    "5648516f92bbcfff144844348fbd8b5a"
+    "5648516f92bbcfff144844348fbd8b5a",
+    "16f421d7fd73dcde6478265427a9fadf"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1235,7 +1235,8 @@
     "https://kenyans.co.ke/news/127643-nyayo-stadium-renovation-stalls-ahead-afcon-2027-over-ksh-984m-bill",
     "https://kenyans.co.ke/news/127642-kenya-signs-ksh-390b-deal-electric-vehicle-assembly-investment",
     "https://kenyans.co.ke/news/127640-kibabii-university-closes-after-student-unrest-orders-students-vacate",
-    "https://kenyans.co.ke/news/127652-nairobi-thika-expressway-design-and-feasibility-study-begins-kindiki-announces"
+    "https://kenyans.co.ke/news/127652-nairobi-thika-expressway-design-and-feasibility-study-begins-kindiki-announces",
+    "https://kenyans.co.ke/news/127656-us-embassy-warns-americans-kenya-after-ebola-case-and-death"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1561,7 +1562,8 @@
     "nyayo stadium stalls senators drag nairobi county labour ministry afcon mess",
     "state bets ksh390b pact 150 000 unit domestic assembly capacity",
     "kibabii university enforces rapid campus eviction fatal student mugging",
-    "ksh200b thika elevated road plan tests state ppp highway strategy"
+    "ksh200b thika elevated road plan tests state ppp highway strategy",
+    "ebola fatality triggers embassy alert tracing focuses jkia flight corridor"
   ],
   "topic_keys": [
     "news tracker",
@@ -3766,6 +3768,15 @@
       "structure": "Fiscal exposure lead -> Project specs and cost boundaries -> Concurrent highway financial commitments (Rironi-Mau Summit and Kiambu Road) -> PPP delivery mechanism risks -> Unresolved engineering and land acquisition questions",
       "source": "https://kenyans.co.ke/news/127652-nairobi-thika-expressway-design-and-feasibility-study-begins-kindiki-announces",
       "published_at": "2026-10-07T06:02:20Z"
+    },
+    {
+      "title": "Ebola Fatality Triggers U.S. Embassy Alert as Tracing Focuses on JKIA Flight Corridor",
+      "angle": "The operational and clinical containment challenge triggered by the patient's multi-border transit journey, specifically the risk that overlapping malaria symptoms will complicate early detection and hospital intake procedures during the critical 21-day contact-monitoring window.",
+      "angle_type": "consequence",
+      "opening": "Consequence-driven lead linking the cross-border transit timeline directly to clinical screening vulnerabilities and diplomatic health directives.",
+      "structure": "Containment-risk lead -> Factual core of the travel sequence and timeline -> Clinical screening friction (malaria mimicry and facility intake) -> Tracing protocols and state response -> Forward-looking 21-day surveillance baseline.",
+      "source": "https://kenyans.co.ke/news/127656-us-embassy-warns-americans-kenya-after-ebola-case-and-death",
+      "published_at": "2026-10-07T07:00:32Z"
     }
   ]
 }
