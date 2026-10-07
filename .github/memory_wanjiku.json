@@ -169,7 +169,8 @@
     "a4443f5e09e2965a95935315afdbd646c2fa7739690a9c9fadd13661c4889a60",
     "80c750e85f42d6f2bab784bed7f1f6f16c126ac867680e8e9bc48854f45fa9c3",
     "04d78498e5d34a2c65d0bc05731c27102a93667e3f5aba9c52167790523e1067",
-    "d7cab3da9b8a0245947f732c352a6690527b08db171983823e54e544f403431b"
+    "d7cab3da9b8a0245947f732c352a6690527b08db171983823e54e544f403431b",
+    "51fdb26faeecca01a05b208447f43749532228aa0f59a8fdfcf995be021296c7"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -341,17 +342,10 @@
     "https://www.ghafla.co.ke/amber-ray-turns-down-rapudos-baby-request-after-cosmetic-surgery/",
     "https://www.ghafla.co.ke/millicent-omanga-urges-protection-of-child-in-ciggie-johnson-paternity-saga/",
     "https://www.ghafla.co.ke/dr-ofweneke-says-god-can-use-your-skills-without-requiring-you-to-abandon-them/",
-    "https://www.ghafla.co.ke/dj-shiti-remembers-childhood-home-as-he-mourns-late-father/"
+    "https://www.ghafla.co.ke/dj-shiti-remembers-childhood-home-as-he-mourns-late-father/",
+    "https://www.ghafla.co.ke/mc-jessy-opens-up-about-pain-of-losing-an-election-urges-kenyans-not-to-give-up/"
   ],
   "published_angles": [
-    {
-      "title": "Celestine Ndinda on the Hidden Costs of Marrying Young and Stepping Straight into Family Life",
-      "angle": "Shifting away from online speculation to examine the sobering realities of early marriage and the heavy personal toll of hidden health battles shared during the podcast.",
-      "angle_type": "personal reflection and behind-the-scenes reality of early celebrity marriage",
-      "opening": "Personality lead focusing directly on Celestine Ndinda's reflection on her youth and the irreversible stages of early family life.",
-      "structure": "Celestine's early marriage reflection -> Fashionable Mum's blended family experience -> The five-year international medical search -> Conclusion on the unglamorous side of digital personalities' lives.",
-      "source": "https://www.ghafla.co.ke/celestine-ndinda-tries-to-rehabilitate-her-image-after-being-accused-of-cheating-on-njugush/"
-    },
     {
       "title": "Paul Waiganjo Quits State House Advisorship After Four Months, Citing Nyandarua Disconnect",
       "angle": "The sharp dissonance between gospel music background, State House advisory title, and the unglamorous reality of grassroots development frustration in Nyandarua County.",
@@ -1143,6 +1137,14 @@
       "opening": "Personality-led opening focusing on DJ Shiti's roadside stop in Posta, Nakuru.",
       "structure": "Nakuru nostalgia hook -> The passage of time and family history -> The tonal shift to village night runners -> Family identity warning -> Concrete close on the travel route.",
       "source": "https://www.ghafla.co.ke/dj-shiti-remembers-childhood-home-as-he-mourns-late-father/"
+    },
+    {
+      "title": "\u2018Najoin Hivi UDA Natrend\u2019: MC Jessy Deconstructs the Illusion of Social Media Popularity in Electoral Defeat",
+      "angle": "Deconstructing the deceptive gap between digital popularity\u2014specifically trending online upon joining UDA\u2014and ground-level electoral defeat, emphasizing MC Jessy's practical advice on tuning out public commentary to focus on baseline survival.",
+      "angle_type": "celebrity political reality and post-defeat survival",
+      "opening": "Personality lead focusing directly on MC Jessy contrasting his online trending buzz with the physical reality of election defeat.",
+      "structure": "Trending illusion lead -> Direct quotes on online hype vs electoral crash -> Analysis of digital metrics vs ground politics -> Tactical recovery advice ('stay afloat') -> Concrete close on candidate reset",
+      "source": "https://www.ghafla.co.ke/mc-jessy-opens-up-about-pain-of-losing-an-election-urges-kenyans-not-to-give-up/"
     }
   ],
   "style_history": [
