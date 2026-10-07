@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f8f3d84857d06d790237601afd083ee8",
     "465becf728b022dee94b5402150a0e20",
     "0ee7e4d7431207b176a0dd7c98608531",
     "32f3b3ff6eed1c23e9d59c03aff7557b",
@@ -799,10 +798,10 @@
     "16f421d7fd73dcde6478265427a9fadf",
     "3a5d3f0462093515ae762faf9cfb46f4",
     "558f8e9eb13190e12554752b806a7de9",
-    "e0485fb93b9cfd5a9a87d4dac3612dd6"
+    "e0485fb93b9cfd5a9a87d4dac3612dd6",
+    "dc0150ba853f6fff31aec7b8c4635c03"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Desk Take",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1239,7 +1239,8 @@
     "https://kenyans.co.ke/news/127656-us-embassy-warns-americans-kenya-after-ebola-case-and-death",
     "https://kenyans.co.ke/news/127655-traffic-snarl-hits-nakuru-highway-after-two-killed-trailer-crash",
     "https://kenyans.co.ke/news/127661-kura-confirms-start-nairobi-brt-line-5-construction",
-    "https://kenyans.co.ke/news/127662-kenya-identifies-57-ebola-contacts-10-placed-quarantine"
+    "https://kenyans.co.ke/news/127662-kenya-identifies-57-ebola-contacts-10-placed-quarantine",
+    "https://kenyans.co.ke/news/127666-kra-seizes-358-laptops-ipads-worth-ksh13-million-kileleshwa-raid"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1569,7 +1570,8 @@
     "ebola fatality triggers embassy alert tracing focuses jkia flight corridor",
     "nakuru railway bridge bottleneck turns fatal morning pedestrians",
     "outer ring road mobilisation tests nairobi stalled brt promises",
-    "state readies border treatment units ebola contacts put under watch"
+    "state readies border treatment units ebola contacts put under watch",
+    "suburban camouflage nairobi illicit tech trade migrating residential estates"
   ],
   "topic_keys": [
     "news tracker",
@@ -3810,6 +3812,15 @@
       "structure": "Containment infrastructure lead -> Core quarantine and contact figures -> Border surveillance and makeshift facility activation -> County and faith-based healthcare coordination -> Forward-looking surveillance and review timelines.",
       "source": "https://kenyans.co.ke/news/127662-kenya-identifies-57-ebola-contacts-10-placed-quarantine",
       "published_at": "2026-10-07T09:02:22Z"
+    },
+    {
+      "title": "Suburban Camouflage: How Nairobi\u2019s Illicit Tech Trade Is Migrating to Residential Estates",
+      "angle": "The operational shift of illicit logistics: focusing on how downtown Nairobi retailers are weaponizing high-end residential real estate as makeshift warehouses to evade tax audits and commercial surveillance.",
+      "angle_type": "practical change",
+      "opening": "Logistical-shift opening highlighting the transition of tax-evasion warehousing from traditional commercial districts to residential estates.",
+      "structure": "Logistical transition lead -> Factual breakdown of the Kileleshwa raid -> Commercial-to-residential retail connection -> Comparison with recent port-of-entry enforcement -> Pending legal and verification steps.",
+      "source": "https://kenyans.co.ke/news/127666-kra-seizes-358-laptops-ipads-worth-ksh13-million-kileleshwa-raid",
+      "published_at": "2026-10-07T10:02:26Z"
     }
   ]
 }
