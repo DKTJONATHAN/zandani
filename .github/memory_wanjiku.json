@@ -179,7 +179,8 @@
     "98aa70c1b5897e20278d238c721c07740dd007ac0024d055e59db16097914124",
     "6cf32dd4711785998287046ae6c5aae189c64f67cfd5425113a36cd2d3d88cb3",
     "faa3d34dc402e12c5127602c34bc172831447142184f5595c67612ea7f04b3d1",
-    "6c443f7a9f581775d4eb230176b20865aefb91a916cd857828dbf9d565f25666"
+    "6c443f7a9f581775d4eb230176b20865aefb91a916cd857828dbf9d565f25666",
+    "8fb3c170f92e746446f37f10d541ca52b44b52c4e93ec03ad94e96eb047d94fb"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -361,17 +362,10 @@
     "https://www.ghafla.co.ke/ciggie-johnson-says-he-could-still-pay-school-fees-for-girl-he-raised-but-only-if/",
     "https://www.ghafla.co.ke/winnie-odinga-calls-for-political-ceasefire-ahead-of-railas-first-anniversary/",
     "https://www.ghafla.co.ke/gen-z-baddie-questions-timing-of-kenyas-first-confirmed-ebola-case/",
-    "https://www.ghafla.co.ke/juma-jux-explains-why-he-does-not-advise-diamond-platnumz-on-love-matters/"
+    "https://www.ghafla.co.ke/juma-jux-explains-why-he-does-not-advise-diamond-platnumz-on-love-matters/",
+    "https://www.ghafla.co.ke/98-sacco-driver-praises-george-rutos-matatu-fleet-for-creating-jobs-for-youth/"
   ],
   "published_angles": [
-    {
-      "title": "Rigathi Gachagua Teases Unnamed 2027 Defector in Dallas, Swears \u2018Riggy G\u2019 Won\u2019t Walk",
-      "angle": "Reframing Gachagua's Dallas address through his political blind-item theatrics\u2014dropping an unnamed defector riddle while using his pop-culture 'Riggy G' persona to market himself as the drama-free, unconditional coalition partner.",
-      "angle_type": "political personality theatrics and blind-item rhetoric",
-      "opening": "Personality lead opening directly on Rigathi Gachagua playing the political prophet in Dallas with a vintage blind item.",
-      "structure": "Person and Dallas hook -> The unnamed defector 'prophecy' and 2002 Nyachae parallel -> The 'Riggy G' loyalty pledge and self-branding -> The unconditional support challenge to rival coalition principals -> Election numbers claim and concrete close.",
-      "source": "https://www.ghafla.co.ke/gachagua-predicts-opposition-split-after-2027-flagbearer-selection/"
-    },
     {
       "title": "Edwin Sifuna and Babu Owino Pull a Late-Night Show of Unity to Quash Linda Mwananchi Split Rumors",
       "angle": "Focusing on the personal alignment and late-night PR push by the Sifuna-Babu Owino duo, highlighting how they used a marathon Saturday retreat to project absolute brotherhood and shut down intense speculation about internal friction.",
@@ -1163,6 +1157,14 @@
       "opening": "Personality lead opening directly on Jux articulating his strict non-intervention policy in Diamond's personal affairs.",
       "structure": "Personality boundary hook -> Direct quotes on non-intervention -> The African Boy commercial brotherhood context -> The Diamond-Zuchu separation backdrop -> Jux's own domestic setup close",
       "source": "https://www.ghafla.co.ke/juma-jux-explains-why-he-does-not-advise-diamond-platnumz-on-love-matters/"
+    },
+    {
+      "title": "George Ruto Scales \u2018Raptor Family\u2019 Fleet Beyond KSh 120 Million with Premium Custom \u2018Nganyas\u2019",
+      "angle": "Analyzing the aggressive capital scaling and high-spec financial investments behind George Ruto's 'Raptor Family' brand, contrasting the luxury street-culture customizations with the real-world operational logistics of veteran transport workers on Nairobi's toughest routes.",
+      "angle_type": "commercial expansion and lifestyle economics",
+      "opening": "Personality-led focus on George Ruto's rapid scaling from a single 2025 vehicle to a multi-million shilling transit fleet.",
+      "structure": "Capital scale and fleet valuation -> The economics of 'nganya' customization -> Route logistics and veteran driver operations -> The physical branding of the 'Raptor Family' vehicles.",
+      "source": "https://www.ghafla.co.ke/98-sacco-driver-praises-george-rutos-matatu-fleet-for-creating-jobs-for-youth/"
     }
   ],
   "style_history": [
