@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "0ee7e4d7431207b176a0dd7c98608531",
     "32f3b3ff6eed1c23e9d59c03aff7557b",
     "ed41ff8a4482f92ccbd4cf2933d9fb5e",
     "c81f3089abe8dfdf22bcdb398d711375",
@@ -799,10 +798,10 @@
     "558f8e9eb13190e12554752b806a7de9",
     "e0485fb93b9cfd5a9a87d4dac3612dd6",
     "dc0150ba853f6fff31aec7b8c4635c03",
-    "142efe07381a8d1eab2c342c7bb248f7"
+    "142efe07381a8d1eab2c342c7bb248f7",
+    "a3ac1c3b790de8b93251f58662686878"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1241,7 +1241,8 @@
     "https://kenyans.co.ke/news/127661-kura-confirms-start-nairobi-brt-line-5-construction",
     "https://kenyans.co.ke/news/127662-kenya-identifies-57-ebola-contacts-10-placed-quarantine",
     "https://kenyans.co.ke/news/127666-kra-seizes-358-laptops-ipads-worth-ksh13-million-kileleshwa-raid",
-    "https://kenyans.co.ke/news/127668-high-court-suspends-mining-chinese-company-after-naivasha-protests"
+    "https://kenyans.co.ke/news/127668-high-court-suspends-mining-chinese-company-after-naivasha-protests",
+    "https://kenyans.co.ke/news/127677-uhuru-resigns-azimio-council-chairperson-gachagua-orengo-eyed-replacements"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1573,7 +1574,8 @@
     "outer ring road mobilisation tests nairobi stalled brt promises",
     "state readies border treatment units ebola contacts put under watch",
     "suburban camouflage nairobi illicit tech trade migrating residential estates",
-    "enforcement gap sinohydro unlicensed kedong quarry defied nema until locals bypassed watchdog"
+    "enforcement gap sinohydro unlicensed kedong quarry defied nema until locals bypassed watchdog",
+    "uhuru relinquishes opposition council helm ukombozi courts gachagua orengo"
   ],
   "topic_keys": [
     "news tracker",
@@ -3832,6 +3834,15 @@
       "structure": "Regulatory gap lead -> Factual sequence of defiance and local action -> NEMA's admitted lack of enforcement power -> The local and economic fallout in Kedong -> Next legal frontiers in the Naivasha courts.",
       "source": "https://kenyans.co.ke/news/127668-high-court-suspends-mining-chinese-company-after-naivasha-protests",
       "published_at": "2026-10-07T11:02:20Z"
+    },
+    {
+      "title": "Uhuru Relinquishes Opposition Council Helm as Ukombozi Courts Gachagua, Orengo",
+      "angle": "The statutory enforcement of the Presidential Retirement Benefits Act has completed Uhuru's formal detachment from active coalition governance, forcing the rebranded Ukombozi Alliance into an immediate leadership restructuring around newly courted political figures.",
+      "angle_type": "institutional pressure",
+      "opening": "Statutory-compliance and power-vacuum opening linking the High Court's retirement ruling directly to the sudden vacancy atop the restructured opposition council.",
+      "structure": "Legal-statutory trigger lead -> Resignation letter details and Kalonzo confirmation -> Succession architecture (Gachagua and Orengo proposals) -> Coalition restructuring and expanded council roster -> Unresolved integration questions.",
+      "source": "https://kenyans.co.ke/news/127677-uhuru-resigns-azimio-council-chairperson-gachagua-orengo-eyed-replacements",
+      "published_at": "2026-10-07T20:31:46Z"
     }
   ]
 }
