@@ -175,7 +175,8 @@
     "5e595cf0f6518c70d5e073d21f81b9e4956be5770a1128bec698f467f488287f",
     "c2c4b5e3552f67b0f7bb90db76807f6416afa5356abf181755bdf4c906f63d7b",
     "812f35d10f47893f0ae6dc3fef00d0527cc57cc1feeb2bed6f060a622786c441",
-    "2fd3cd537533d1df43d770ead550a037dd300e6d9ce54b42dff6ae392788b324"
+    "2fd3cd537533d1df43d770ead550a037dd300e6d9ce54b42dff6ae392788b324",
+    "98aa70c1b5897e20278d238c721c07740dd007ac0024d055e59db16097914124"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -353,17 +354,10 @@
     "https://www.ghafla.co.ke/former-chief-justice-david-maraga-mourns-sister-sabina-kemunto-107/",
     "https://www.ghafla.co.ke/first-ebola-patient-awaited-treatment-for-hours-before-demise/",
     "https://www.ghafla.co.ke/matiangi-responds-to-rutos-attacks-over-past-extrajudicial-killings/",
-    "https://www.ghafla.co.ke/winnie-odinga-calls-for-political-ceasefire-ahead-of-railas-first-death-anniversary/"
+    "https://www.ghafla.co.ke/winnie-odinga-calls-for-political-ceasefire-ahead-of-railas-first-death-anniversary/",
+    "https://www.ghafla.co.ke/ciggie-johnson-says-he-could-still-pay-school-fees-for-girl-he-raised-but-only-if/"
   ],
   "published_angles": [
-    {
-      "title": "Running Mate or Kingpin? Inside the Tug-of-War Over Sifuna\u2019s 2027 Ambition",
-      "angle": "Focusing on the conflicting political scripts being handed to Nairobi Senator Edwin Sifuna\u2014with Kalonzo Musyoka's team drafting him as a compliant October running mate while George Natembeya brazenly stakes out Cyrus Jirongo's vintage UDP as Sifuna's independent presidential vehicle.",
-      "angle_type": "political personality clash and conflicting campaign scripts",
-      "opening": "Personality lead directly on Edwin Sifuna facing two sharply contradictory political paths mapped out by rival opposition factions.",
-      "structure": "Personality hook -> Natembeya's UDP play and Linda Mwananchi alliance -> Kalonzo's competing October running mate blueprint -> The Mizani poll reality check and numbers breakdown -> The unresolved ticket dilemma.",
-      "source": "https://www.ghafla.co.ke/kalonzo-tops-opposition-flagbearer-poll-as-sifuna-camp-pushes-2027-bid/"
-    },
     {
       "title": "Eugene Wamalwa Offers to Hand DAP-K Crown and 2027 Ticket to Edwin Sifuna",
       "angle": "The sheer drama of Wamalwa publicly volunteering his own self-demotion on live radio, offering to instantly step aside from a cleared presidential ticket to hand Sifuna a turnkey political vehicle right when Sifuna's camp is stranded by the Registrar's rejection of the 'Ukombozi' rebrand.",
@@ -1155,6 +1149,14 @@
       "opening": "Personality lead focusing directly on Winnie Odinga establishing ground rules against political grandstanding inside the family compound in Bondo.",
       "structure": "Bondo ground-rules lead -> VIP crowd-ownership vs high-table warning -> Grassroots invitation vs title-less supporters -> Mausoleum dedication context and personal tribute close",
       "source": "https://www.ghafla.co.ke/winnie-odinga-calls-for-political-ceasefire-ahead-of-railas-first-death-anniversary/"
+    },
+    {
+      "title": "Ciggie Johnson Sets Strict Communication Rules for Funding School Fees After DNA Reveal",
+      "angle": "Examining the conditional economics and transactional boundaries of post-paternity paternal support\u2014specifically how 12 years of parental investment are being renegotiated around direct child-to-adult communication rather than interaction with the mother.",
+      "angle_type": "conditional financial support and parental boundary renegotiation",
+      "opening": "Personality lead focusing directly on Ciggie Johnson setting the financial and communication terms for supporting a child who is not biologically his.",
+      "structure": "Personality and financial terms hook -> The DNA reveal and 12-year background -> The communication stipulations regarding the mother vs the child -> Concrete close on the specific phrasing required for school fee requests.",
+      "source": "https://www.ghafla.co.ke/ciggie-johnson-says-he-could-still-pay-school-fees-for-girl-he-raised-but-only-if/"
     }
   ],
   "style_history": [
