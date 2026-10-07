@@ -177,7 +177,8 @@
     "812f35d10f47893f0ae6dc3fef00d0527cc57cc1feeb2bed6f060a622786c441",
     "2fd3cd537533d1df43d770ead550a037dd300e6d9ce54b42dff6ae392788b324",
     "98aa70c1b5897e20278d238c721c07740dd007ac0024d055e59db16097914124",
-    "6cf32dd4711785998287046ae6c5aae189c64f67cfd5425113a36cd2d3d88cb3"
+    "6cf32dd4711785998287046ae6c5aae189c64f67cfd5425113a36cd2d3d88cb3",
+    "faa3d34dc402e12c5127602c34bc172831447142184f5595c67612ea7f04b3d1"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -357,17 +358,10 @@
     "https://www.ghafla.co.ke/matiangi-responds-to-rutos-attacks-over-past-extrajudicial-killings/",
     "https://www.ghafla.co.ke/winnie-odinga-calls-for-political-ceasefire-ahead-of-railas-first-death-anniversary/",
     "https://www.ghafla.co.ke/ciggie-johnson-says-he-could-still-pay-school-fees-for-girl-he-raised-but-only-if/",
-    "https://www.ghafla.co.ke/winnie-odinga-calls-for-political-ceasefire-ahead-of-railas-first-anniversary/"
+    "https://www.ghafla.co.ke/winnie-odinga-calls-for-political-ceasefire-ahead-of-railas-first-anniversary/",
+    "https://www.ghafla.co.ke/gen-z-baddie-questions-timing-of-kenyas-first-confirmed-ebola-case/"
   ],
   "published_angles": [
-    {
-      "title": "Moses Kuria Shrugs Off Sifuna\u2019s 76% Landslide on His Own X Wall With Blunt 1997 Warning",
-      "angle": "Focusing on the entertainment value of Kuria's timeline ambush\u2014hosting a poll that delivered a lopsided blowout for Sifuna, only for Kuria to instantly dismiss the digital landslide by invoking a 1997-style fragmentation warning to declare opposition unity dead.",
-      "angle_type": "celebrity provocateur dynamic and political poll deflection",
-      "opening": "Personality lead focusing on Moses Kuria setting an informal political trap on his X account only to watch Edwin Sifuna walk away with a runaway 76 percent landslide.",
-      "structure": "Personality hook and poll blowout -> Kuria's 'Hii imeenda' 1997 dismissal -> Detailed breakdown of the 37,000 votes and candidate numbers -> Historical comparison to the 1997 opposition split -> Concrete close on Kuria's post-Cabinet commentator persona.",
-      "source": "https://www.ghafla.co.ke/moses-kuria-poll-sparks-debate-as-sifuna-tops-2027-presidential-survey/"
-    },
     {
       "title": "Kipchumba Murkomen Claps Back at Critics From Nandi Teachers' Podium, Vows to 'Tighten the Nut' Until 2027",
       "angle": "Focusing on Murkomen's blunt political clapback from a teachers' podium\u2014framing the pushback as evidence of 'tightening the nut' ahead of the next election while admitting operational errors regarding lost livestock.",
@@ -1159,6 +1153,14 @@
       "opening": "Personality-led focus on Winnie Odinga drawing a sharp line between political egos and grassroots mourners.",
       "structure": "Protocol boundary hook -> Grassroots inclusion details -> Mausoleum handover logistics -> Concrete close on the upcoming October 15 public gathering.",
       "source": "https://www.ghafla.co.ke/winnie-odinga-calls-for-political-ceasefire-ahead-of-railas-first-anniversary/"
+    },
+    {
+      "title": "Gen Z Baddie Questions Aden Duale\u2019s Ebola Announcement, Warning Health Case Could Target Political Rallies",
+      "angle": "Deconstructing how the creator targets state optics\u2014specifically questioning why Health CS Aden Duale rather than President William Ruto announced the news\u2014to float fears that health alerts will be used to restrict 2027 political rallies.",
+      "angle_type": "influencer commentary and political optics skepticism",
+      "opening": "Personality lead opening on Gen Z Baddie zeroing in on who delivered the health announcement.",
+      "structure": "Messenger skepticism hook -> The strategic coincidence argument -> Rally restrictions and political assembly fears -> Global funding commentary vs health realities -> Surveillance baseline close.",
+      "source": "https://www.ghafla.co.ke/gen-z-baddie-questions-timing-of-kenyas-first-confirmed-ebola-case/"
     }
   ],
   "style_history": [
