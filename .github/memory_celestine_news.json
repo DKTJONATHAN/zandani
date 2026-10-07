@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "dea73accf1c937ae960af729b134c97d",
     "7ab120eddc627c6bc529aa69fcea7e77",
     "58ec18f60079136a761316360312a742",
     "fc7f092c4f468bb051d39807928ff953",
@@ -799,10 +798,10 @@
     "81f7ff36ae43fff06f8a62e164b88ae5",
     "c5fad642b1f7710cea0d8aa1878eeb0e",
     "95a752a32c4c44a2ebf26ab641764486",
-    "33d2f7e89e6aabb40cc3a82ab318c9ad"
+    "33d2f7e89e6aabb40cc3a82ab318c9ad",
+    "5648516f92bbcfff144844348fbd8b5a"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1234,7 +1234,8 @@
     "https://kenyans.co.ke/news/127644-state-expand-digital-birth-registration-sha-hospitals-within-3-months",
     "https://kenyans.co.ke/news/127643-nyayo-stadium-renovation-stalls-ahead-afcon-2027-over-ksh-984m-bill",
     "https://kenyans.co.ke/news/127642-kenya-signs-ksh-390b-deal-electric-vehicle-assembly-investment",
-    "https://kenyans.co.ke/news/127640-kibabii-university-closes-after-student-unrest-orders-students-vacate"
+    "https://kenyans.co.ke/news/127640-kibabii-university-closes-after-student-unrest-orders-students-vacate",
+    "https://kenyans.co.ke/news/127652-nairobi-thika-expressway-design-and-feasibility-study-begins-kindiki-announces"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1559,7 +1560,8 @@
     "parents bypass paper slips digital birth notifications hit sha hospitals",
     "nyayo stadium stalls senators drag nairobi county labour ministry afcon mess",
     "state bets ksh390b pact 150 000 unit domestic assembly capacity",
-    "kibabii university enforces rapid campus eviction fatal student mugging"
+    "kibabii university enforces rapid campus eviction fatal student mugging",
+    "ksh200b thika elevated road plan tests state ppp highway strategy"
   ],
   "topic_keys": [
     "news tracker",
@@ -3755,6 +3757,15 @@
       "structure": "Eviction timeline lead -> Factual sequence of the Monday night attack and street protests -> Administrative eviction directive details -> Broader security and national strike context -> Unresolved policing and reopening status.",
       "source": "https://kenyans.co.ke/news/127640-kibabii-university-closes-after-student-unrest-orders-students-vacate",
       "published_at": "2026-10-06T20:05:33Z"
+    },
+    {
+      "title": "Ksh200B Thika Elevated Road Plan Tests State\u2019s PPP Highway Strategy",
+      "angle": "The financial and logistical burden of piling massive Public-Private Partnership (PPP) expressway costs (Ksh150B-Ksh200B) onto existing major road corridors while concurrent multibillion-shilling projects like the Rironi-Mau Summit highway stretch state commitments.",
+      "angle_type": "financial and structural accountability",
+      "opening": "Fiscal-scale and capital-allocation lead focusing on the heavy financial exposure of stacking an elevated expressway on top of a pre-existing multi-billion shilling highway.",
+      "structure": "Fiscal exposure lead -> Project specs and cost boundaries -> Concurrent highway financial commitments (Rironi-Mau Summit and Kiambu Road) -> PPP delivery mechanism risks -> Unresolved engineering and land acquisition questions",
+      "source": "https://kenyans.co.ke/news/127652-nairobi-thika-expressway-design-and-feasibility-study-begins-kindiki-announces",
+      "published_at": "2026-10-07T06:02:20Z"
     }
   ]
 }
