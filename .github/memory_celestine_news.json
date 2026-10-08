@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "b1d9e18fd97ab57dd2abb117c73258b7",
     "9bc1aa666b4a9580bd233d7395d0a716",
     "8bbbda00fd4ce61864340ca8f92b7eb4",
     "85695e67a5729fae67e66e201244c7e0",
@@ -799,10 +798,10 @@
     "3a7ee6a2cdf3eca057cf8df9223ad42f",
     "73dd8291053d1903ae90a5d69fa13cb6",
     "06b25ca8bdaf8ee81bc50961d1ff5689",
-    "f86ad0e6029a05d75a267395361b3f4f"
+    "f86ad0e6029a05d75a267395361b3f4f",
+    "fa0b9b0ab769950bc1e1835f21685d0e"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1253,7 +1253,8 @@
     "https://kenyans.co.ke/news/127697-kenya-reassures-tourists-investors-ebola-case-triggers-travel-warnings",
     "https://kenyans.co.ke/news/127699-wmo-warns-historic-december-el-nino-peak-kenya-other-nations",
     "https://kenyans.co.ke/news/127702-one-killed-crash-involving-batuk-army-vehicle-nanyuki",
-    "https://kenyans.co.ke/news/127706-wrc-confirms-safari-rally-kenya-2027-calendar-ruto-confirms"
+    "https://kenyans.co.ke/news/127706-wrc-confirms-safari-rally-kenya-2027-calendar-ruto-confirms",
+    "https://kenyans.co.ke/news/127710-kenya-receives-ksh-259m-china-grant-drought-and-ebola-response"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1597,7 +1598,8 @@
     "duale mounts diplomatic pushback western ebola advisories threaten travel",
     "state mobilises multi agency rescue units wmo warns record peak",
     "police open inquiry batuk vehicle kills civilian outside laikipia base",
-    "private funding test looming wrc secures 2027 safari rally spot"
+    "private funding test looming wrc secures 2027 safari rally spot",
+    "treasury splits china ksh259m grant between ebola containment drought relief"
   ],
   "topic_keys": [
     "news tracker",
@@ -3964,6 +3966,15 @@
       "structure": "Financial transition lead -> Calendar details and factual core -> The state's funding withdrawal and policy shift -> The corporate sponsorship challenge and Tundo's executive mandate -> Forward outlook on corporate readiness.",
       "source": "https://kenyans.co.ke/news/127706-wrc-confirms-safari-rally-kenya-2027-calendar-ruto-confirms",
       "published_at": "2026-10-08T13:06:48Z"
+    },
+    {
+      "title": "Treasury Splits China\u2019s Ksh259M Grant Between Ebola Containment and Drought Relief",
+      "angle": "The operational splitting of emergency donor funding between sudden biological shocks and chronic climate disasters while the Treasury scrambles for tens of billions in wider bailouts.",
+      "angle_type": "practical change",
+      "opening": "Operational-split opening linking the Treasury's dual allocation of the Chinese grant directly to the simultaneous pressures of disease response and climate relief.",
+      "structure": "Dual-front budget split -> The grant handover mechanics and equal partitioning -> The wider financial context and emergency funding scale -> Contact tracing and isolation context -> Forward edge on institutional funding expectations.",
+      "source": "https://kenyans.co.ke/news/127710-kenya-receives-ksh-259m-china-grant-drought-and-ebola-response",
+      "published_at": "2026-10-08T14:01:56Z"
     }
   ]
 }
