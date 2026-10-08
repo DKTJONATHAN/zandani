@@ -185,7 +185,8 @@
     "4063342d43be7c8c1d2d3c861393b21c9e2a636cf3f12d6a9cd2c66b9ae9dae4",
     "04e88e55e83f4ce82ec598ad20feb11212f8b80f0b41d4ee11fab38be56abadb",
     "61817493cbbc6c1bf136a65ff66d7ca0bca2fdeba0bbbd374854d08cbd19d860",
-    "ac37b1aaf1d9500d891801a7e76a9ac145d2a55c9a598686d1f4511ab816ad94"
+    "ac37b1aaf1d9500d891801a7e76a9ac145d2a55c9a598686d1f4511ab816ad94",
+    "09da51f740abadc5ab6e4d087c861843721662ada1b28fc0ebfc1a079cc3c631"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -373,17 +374,10 @@
     "https://www.ghafla.co.ke/we-no-longer-live-together-shorn-arwa-breaks-silence-on-sisterly-rift/",
     "https://www.ghafla.co.ke/trisha-khalid-joins-hello-mr-right-season-5-as-new-co-host/",
     "https://www.ghafla.co.ke/president-ruto-intensifies-ebola-surveillance-after-death-of-imported-case/",
-    "https://www.ghafla.co.ke/johane-masowe-echishanu-members-mourn-wicknell-chivayo-as-church-remembers-his-contribution/"
+    "https://www.ghafla.co.ke/johane-masowe-echishanu-members-mourn-wicknell-chivayo-as-church-remembers-his-contribution/",
+    "https://www.ghafla.co.ke/jaoko-oburu-confronts-maverick-aoko-over-false-death-report-on-father/"
   ],
   "published_angles": [
-    {
-      "title": "Rigathi Gachagua Calls Out \u2018Slippery\u2019 Coalition Stars Over 2027 Ego Clashes and Stan Wars",
-      "angle": "Reframing Gachagua's diaspora address around his direct call-out of 'slippery' coalition peers and the petty ultimatum games played by their fanbases, spotlighting the high-stakes standoff between Kalonzo, Sifuna, and Matiang'i over the May 2027 nomination timeline.",
-      "angle_type": "political celebrity crossfire and fanbase ultimatum crackdown",
-      "opening": "Personality lead opening directly on Rigathi Gachagua taking the microphone across the Atlantic to roast his fellow opposition bigwigs over their slippery commitments and toxic supporter ultimatums.",
-      "structure": "Personality hook in the US -> The 'slippery' partners and fanbase ultimatums quote breakdown -> The roster of jostling superstars (Kalonzo, Sifuna, Matiang'i) -> The nomination calendar standoff (immediate vs May 2027) -> Concrete closing fact.",
-      "source": "https://www.ghafla.co.ke/rigathi-gachagua-expresses-doubts-over-opposition-unity-ahead-of-2027-polls/"
-    },
     {
       "title": "William Ruto Kicks Off Coast Blitz in Kibaoni as Lunga Lunga Resident Clutches Title Deed No. 1084",
       "angle": "Reframing the tour kickoff around President Ruto's direct personal intervention in Kibaoni, spotlighting the specific handover of deed No. 1084 to Lunga Lunga resident Anastasia as the anchor of his coastal land security push.",
@@ -1175,6 +1169,14 @@
       "opening": "Personality-led opening focusing on Wicknell Chivayo being mourned under his spiritual title 'Madzibaba Wicknell' during Harare funeral proceedings.",
       "structure": "Spiritual identity hook -> Harare funeral service details -> Vapostori ceremonial rites vs Provincial Hero flag honors -> Crash background and home vigil context -> Glen Forest dual-grave burial logistics close",
       "source": "https://www.ghafla.co.ke/johane-masowe-echishanu-members-mourn-wicknell-chivayo-as-church-remembers-his-contribution/"
+    },
+    {
+      "title": "Jaoko Oburu Confronts Maverick Aoko Over False Death Post as Family Activates ODM Legal Team",
+      "angle": "Focusing on the immediate, direct digital confrontation between Jaoko Oburu and Maverick Aoko, and how the family quickly transitioned from online clapbacks to mobilizing ODM's official legal machinery to enforce boundaries against digital rumor-mongers.",
+      "angle_type": "legal escalation and digital boundary enforcement",
+      "opening": "Personality-led focus on Jaoko Oburu directly stepping in to challenge Maverick Aoko on X over her reckless post, shifting the family's response from passive silence to active confrontation.",
+      "structure": "Direct digital confrontation -> Detailed breakdown of the X exchange and Aoko's defiance -> Official escalation via the secretariat's statement -> Political backing and health verification by Gladys Wanga -> Unresolved close on the impending legal action.",
+      "source": "https://www.ghafla.co.ke/jaoko-oburu-confronts-maverick-aoko-over-false-death-report-on-father/"
     }
   ],
   "style_history": [
