@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "9bc1aa666b4a9580bd233d7395d0a716",
     "8bbbda00fd4ce61864340ca8f92b7eb4",
     "85695e67a5729fae67e66e201244c7e0",
     "72e3aafc9832e5c760f071c330577448",
@@ -799,10 +798,10 @@
     "73dd8291053d1903ae90a5d69fa13cb6",
     "06b25ca8bdaf8ee81bc50961d1ff5689",
     "f86ad0e6029a05d75a267395361b3f4f",
-    "fa0b9b0ab769950bc1e1835f21685d0e"
+    "fa0b9b0ab769950bc1e1835f21685d0e",
+    "4945e37d15d6b74ce59b55b89adbbd8f"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1254,7 +1254,8 @@
     "https://kenyans.co.ke/news/127699-wmo-warns-historic-december-el-nino-peak-kenya-other-nations",
     "https://kenyans.co.ke/news/127702-one-killed-crash-involving-batuk-army-vehicle-nanyuki",
     "https://kenyans.co.ke/news/127706-wrc-confirms-safari-rally-kenya-2027-calendar-ruto-confirms",
-    "https://kenyans.co.ke/news/127710-kenya-receives-ksh-259m-china-grant-drought-and-ebola-response"
+    "https://kenyans.co.ke/news/127710-kenya-receives-ksh-259m-china-grant-drought-and-ebola-response",
+    "https://kenyans.co.ke/news/127713-ministry-suspends-national-youth-council-elections-after-high-court-ruling"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1599,7 +1600,8 @@
     "state mobilises multi agency rescue units wmo warns record peak",
     "police open inquiry batuk vehicle kills civilian outside laikipia base",
     "private funding test looming wrc secures 2027 safari rally spot",
-    "treasury splits china ksh259m grant between ebola containment drought relief"
+    "treasury splits china ksh259m grant between ebola containment drought relief",
+    "eve poll court order extends year leadership freeze national youth council"
   ],
   "topic_keys": [
     "news tracker",
@@ -3975,6 +3977,15 @@
       "structure": "Dual-front budget split -> The grant handover mechanics and equal partitioning -> The wider financial context and emergency funding scale -> Contact tracing and isolation context -> Forward edge on institutional funding expectations.",
       "source": "https://kenyans.co.ke/news/127710-kenya-receives-ksh-259m-china-grant-drought-and-ebola-response",
       "published_at": "2026-10-08T14:01:56Z"
+    },
+    {
+      "title": "Eve-of-Poll Court Order Extends 14-Year Leadership Freeze at National Youth Council",
+      "angle": "The immediate consequence of the court order in prolonging a 14-year leadership vacuum, shutting down a historic first election just hours before the opening ward-level polls were set to begin.",
+      "angle_type": "consequence",
+      "opening": "Impact-driven opening highlighting the last-minute suspension and the extension of the long-running leadership vacuum.",
+      "structure": "Eve-of-poll freeze lead -> Details of the court order and suspended timeline -> Historical context of the 14-year electoral deadlock -> Status of ongoing voter sensitization -> Judicial outlook and next steps",
+      "source": "https://kenyans.co.ke/news/127713-ministry-suspends-national-youth-council-elections-after-high-court-ruling",
+      "published_at": "2026-10-08T15:02:01Z"
     }
   ]
 }
