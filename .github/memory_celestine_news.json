@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "b99ffa826c4010fc741e59aa2e61fe0c",
     "283dd3cdfcd6ce393c7a0d35dad105e1",
     "b1d9e18fd97ab57dd2abb117c73258b7",
     "9bc1aa666b4a9580bd233d7395d0a716",
@@ -799,10 +798,10 @@
     "f8722f5dd9b2c156c81ea11e97853eb1",
     "34f17ac104bb7f44880206391b510611",
     "3a7ee6a2cdf3eca057cf8df9223ad42f",
-    "73dd8291053d1903ae90a5d69fa13cb6"
+    "73dd8291053d1903ae90a5d69fa13cb6",
+    "06b25ca8bdaf8ee81bc50961d1ff5689"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1251,7 +1251,8 @@
     "https://kenyans.co.ke/news/127690-parliament-approves-former-wajir-woman-rep-fatuma-ibrahim-ali-psc-commissioner",
     "https://kenyans.co.ke/news/127694-nema-arrests-5-seizes-90000-plastic-bags-nairobi-crackdown",
     "https://kenyans.co.ke/news/127697-kenya-reassures-tourists-investors-ebola-case-triggers-travel-warnings",
-    "https://kenyans.co.ke/news/127699-wmo-warns-historic-december-el-nino-peak-kenya-other-nations"
+    "https://kenyans.co.ke/news/127699-wmo-warns-historic-december-el-nino-peak-kenya-other-nations",
+    "https://kenyans.co.ke/news/127702-one-killed-crash-involving-batuk-army-vehicle-nanyuki"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1593,7 +1594,8 @@
     "parliament approves fatuma ali civilian seat house service commission",
     "machinery clause nema njiru raid spells ruin plastic manufacturers",
     "duale mounts diplomatic pushback western ebola advisories threaten travel",
-    "state mobilises multi agency rescue units wmo warns record peak"
+    "state mobilises multi agency rescue units wmo warns record peak",
+    "police open inquiry batuk vehicle kills civilian outside laikipia base"
   ],
   "topic_keys": [
     "news tracker",
@@ -3942,6 +3944,15 @@
       "structure": "Attribution and protection lead -> WMO core metrics and historic severity -> Operational deployment under National Contingency Plan -> Delayed onset and regional weather discrepancies -> Search-and-rescue readiness toward February 2027.",
       "source": "https://kenyans.co.ke/news/127699-wmo-warns-historic-december-el-nino-peak-kenya-other-nations",
       "published_at": "2026-10-08T11:02:13Z"
+    },
+    {
+      "title": "Police Open Inquiry After BATUK Vehicle Kills Civilian Outside Laikipia Base",
+      "angle": "Focusing on the investigative jurisdiction and information disclosure gap: how foreign military incidents on public civilian corridors outside training perimeters trigger immediate police inquiries while military commands seal operational details pending state investigations.",
+      "angle_type": "unresolved factual question",
+      "opening": "Jurisdictional lead highlighting the formal handover of the crash inquiry to local law enforcement following a fatal civilian encounter outside a military site.",
+      "structure": "Investigative handoff lead -> Verified accident facts and medical response -> Detail embargo and jurisdictional boundary -> Civic impact of training-adjacent road transit -> Next police inquiry benchmarks",
+      "source": "https://kenyans.co.ke/news/127702-one-killed-crash-involving-batuk-army-vehicle-nanyuki",
+      "published_at": "2026-10-08T12:01:58Z"
     }
   ]
 }
