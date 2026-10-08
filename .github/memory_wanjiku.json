@@ -186,7 +186,8 @@
     "04e88e55e83f4ce82ec598ad20feb11212f8b80f0b41d4ee11fab38be56abadb",
     "61817493cbbc6c1bf136a65ff66d7ca0bca2fdeba0bbbd374854d08cbd19d860",
     "ac37b1aaf1d9500d891801a7e76a9ac145d2a55c9a598686d1f4511ab816ad94",
-    "09da51f740abadc5ab6e4d087c861843721662ada1b28fc0ebfc1a079cc3c631"
+    "09da51f740abadc5ab6e4d087c861843721662ada1b28fc0ebfc1a079cc3c631",
+    "159cfda30c979c4f85684217b9c858fed6e5ce4054e648c4e5b8745fa1d671eb"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -375,17 +376,10 @@
     "https://www.ghafla.co.ke/trisha-khalid-joins-hello-mr-right-season-5-as-new-co-host/",
     "https://www.ghafla.co.ke/president-ruto-intensifies-ebola-surveillance-after-death-of-imported-case/",
     "https://www.ghafla.co.ke/johane-masowe-echishanu-members-mourn-wicknell-chivayo-as-church-remembers-his-contribution/",
-    "https://www.ghafla.co.ke/jaoko-oburu-confronts-maverick-aoko-over-false-death-report-on-father/"
+    "https://www.ghafla.co.ke/jaoko-oburu-confronts-maverick-aoko-over-false-death-report-on-father/",
+    "https://www.ghafla.co.ke/wmo-warns-strengthening-el-nino-could-reach-historic-record-highs-by-december/"
   ],
   "published_angles": [
-    {
-      "title": "William Ruto Kicks Off Coast Blitz in Kibaoni as Lunga Lunga Resident Clutches Title Deed No. 1084",
-      "angle": "Reframing the tour kickoff around President Ruto's direct personal intervention in Kibaoni, spotlighting the specific handover of deed No. 1084 to Lunga Lunga resident Anastasia as the anchor of his coastal land security push.",
-      "angle_type": "personality-driven statecraft and grassroots impact",
-      "opening": "Personality lead opening directly on President William Ruto taking the stage in Kibaoni to personally hand out title deeds.",
-      "structure": "Personality hook at Kibaoni -> Anastasia's verified handover and reaction (Deed No. 1084) -> Kwale and Taita-Taveta tour scope -> Tenurial security and economic context -> Forward look at the multi-county tour",
-      "source": "https://www.ghafla.co.ke/residents-of-kwale-county-receive-title-deeds-as-rutos-coast-tour-begins/"
-    },
     {
       "title": "Douglas Kanja Dodges Jail Cell After High Court Drag-In Over Street Barricades",
       "angle": "Focusing on the rare high-stakes courtroom appearance of the police chief and his senior commanders facing personal custodial threats over road blockades.",
@@ -1177,6 +1171,14 @@
       "opening": "Personality-led focus on Jaoko Oburu directly stepping in to challenge Maverick Aoko on X over her reckless post, shifting the family's response from passive silence to active confrontation.",
       "structure": "Direct digital confrontation -> Detailed breakdown of the X exchange and Aoko's defiance -> Official escalation via the secretariat's statement -> Political backing and health verification by Gladys Wanga -> Unresolved close on the impending legal action.",
       "source": "https://www.ghafla.co.ke/jaoko-oburu-confronts-maverick-aoko-over-false-death-report-on-father/"
+    },
+    {
+      "title": "Celeste Saulo Sounds the Alarm as 3.7\u00b0C El Ni\u00f1o Spike Threatens to Shatter Historical Records",
+      "angle": "Focusing squarely on WMO Secretary-General Celeste Saulo putting her personal authority behind a staggering statistical baseline: a projected 3.7\u00b0C Pacific temperature surge that shatters the 2015\u20132016 record and locks in extreme climate conditions through February 2027.",
+      "angle_type": "institutional leadership and data alert",
+      "opening": "Personality lead focusing directly on Celeste Saulo delivering an uncompromising briefing on the unprecedented strength of the incoming climate cycle.",
+      "structure": "Saulo leadership alert -> Ocean temperature index metrics -> Subsurface heat release mechanism -> Regional sea basin convergence -> Sector impact directives close",
+      "source": "https://www.ghafla.co.ke/wmo-warns-strengthening-el-nino-could-reach-historic-record-highs-by-december/"
     }
   ],
   "style_history": [
