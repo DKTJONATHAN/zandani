@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f9579031af7f91628e85f50b6693edc7",
     "12a7fb580310d1ebfc4765f71b27ac82",
     "95a83bbac7d727f33d622b3997865a4a",
     "0452c54c272ee69c20a95b8f1b020bfa",
@@ -799,10 +798,10 @@
     "3e54f3a9a3866341b1c2683019f28bda",
     "e48cebafe492ebb12f19e06eb7cf568f",
     "314936826455f945d09754feaed379cf",
-    "90f3774aff337d5ac5e993db31586f98"
+    "90f3774aff337d5ac5e993db31586f98",
+    "f8722f5dd9b2c156c81ea11e97853eb1"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1247,7 +1247,8 @@
     "https://kenyans.co.ke/news/127673-20000-intern-teachers-get-permanent-jobs-january-2027-cs-ogamba-says",
     "https://kenyans.co.ke/news/127684-questions-sports-ministry-races-aid-skater-kiarius-visa-troubles",
     "https://kenyans.co.ke/news/127689-several-feared-dead-others-missing-lorry-accident-osiri-bridge-migori",
-    "https://kenyans.co.ke/news/127688-sweden-invests-ksh-545m-help-kra-modernise-revenue-collection"
+    "https://kenyans.co.ke/news/127688-sweden-invests-ksh-545m-help-kra-modernise-revenue-collection",
+    "https://kenyans.co.ke/news/127690-parliament-approves-former-wajir-woman-rep-fatuma-ibrahim-ali-psc-commissioner"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1585,7 +1586,8 @@
     "state secures ksh4 000 jss interns 000 await further funding",
     "where did money stranded skater kiarie clashes ministry withheld cash",
     "osiri bridge plunge renews scrutiny delayed migori river crossings",
-    "kra build multi source taxpayer profiles ksh545m sweden backed tech upgrade"
+    "kra build multi source taxpayer profiles ksh545m sweden backed tech upgrade",
+    "parliament approves fatuma ali civilian seat house service commission"
   ],
   "topic_keys": [
     "news tracker",
@@ -3898,6 +3900,15 @@
       "structure": "Operational shift lead -> Factual core of the funding and bilateral meeting -> Technical mechanics of the database consolidation -> Institutional peer-to-peer tax agency support -> Broader Swedish infrastructure footprint (JKIA airspace upgrade) -> Next milestone.",
       "source": "https://kenyans.co.ke/news/127688-sweden-invests-ksh-545m-help-kra-modernise-revenue-collection",
       "published_at": "2026-10-08T07:07:31Z"
+    },
+    {
+      "title": "Parliament Approves Fatuma Ali to Civilian Seat on House Service Commission",
+      "angle": "Attribution-first framing of the institutional mandate: how bicameral clearance hands a civilian veteran administrative authority over lawmaker welfare and parliamentary staff operations after outperforming 74 applicants for the constitutionally insulated non-member seat.",
+      "angle_type": "institutional pressure",
+      "opening": "Attribution-first statement lead specifying the bicameral confirmation and identifying the immediate administrative beneficiaries within the legislative service.",
+      "structure": "Bicameral endorsement lead -> Administrative remit and welfare mandate -> Vetting metrics and competitive scoring -> Constitutional design of Article 127(2)(d) -> Handover timeline from Rachel Ameso",
+      "source": "https://kenyans.co.ke/news/127690-parliament-approves-former-wajir-woman-rep-fatuma-ibrahim-ali-psc-commissioner",
+      "published_at": "2026-10-08T08:02:04Z"
     }
   ]
 }
