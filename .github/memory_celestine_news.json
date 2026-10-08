@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "0452c54c272ee69c20a95b8f1b020bfa",
     "b99ffa826c4010fc741e59aa2e61fe0c",
     "283dd3cdfcd6ce393c7a0d35dad105e1",
     "b1d9e18fd97ab57dd2abb117c73258b7",
@@ -799,10 +798,10 @@
     "90f3774aff337d5ac5e993db31586f98",
     "f8722f5dd9b2c156c81ea11e97853eb1",
     "34f17ac104bb7f44880206391b510611",
-    "3a7ee6a2cdf3eca057cf8df9223ad42f"
+    "3a7ee6a2cdf3eca057cf8df9223ad42f",
+    "73dd8291053d1903ae90a5d69fa13cb6"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1250,7 +1250,8 @@
     "https://kenyans.co.ke/news/127688-sweden-invests-ksh-545m-help-kra-modernise-revenue-collection",
     "https://kenyans.co.ke/news/127690-parliament-approves-former-wajir-woman-rep-fatuma-ibrahim-ali-psc-commissioner",
     "https://kenyans.co.ke/news/127694-nema-arrests-5-seizes-90000-plastic-bags-nairobi-crackdown",
-    "https://kenyans.co.ke/news/127697-kenya-reassures-tourists-investors-ebola-case-triggers-travel-warnings"
+    "https://kenyans.co.ke/news/127697-kenya-reassures-tourists-investors-ebola-case-triggers-travel-warnings",
+    "https://kenyans.co.ke/news/127699-wmo-warns-historic-december-el-nino-peak-kenya-other-nations"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1591,7 +1592,8 @@
     "kra build multi source taxpayer profiles ksh545m sweden backed tech upgrade",
     "parliament approves fatuma ali civilian seat house service commission",
     "machinery clause nema njiru raid spells ruin plastic manufacturers",
-    "duale mounts diplomatic pushback western ebola advisories threaten travel"
+    "duale mounts diplomatic pushback western ebola advisories threaten travel",
+    "state mobilises multi agency rescue units wmo warns record peak"
   ],
   "topic_keys": [
     "news tracker",
@@ -3931,6 +3933,15 @@
       "structure": "Diplomatic engagement lead -> Core advisory conflict (US and UK advisories vs WHO stance) -> Laboratory and containment proof points presented to envoys -> The 10-nation screening net at JKIA -> Forward diplomatic and cross-border stakes",
       "source": "https://kenyans.co.ke/news/127697-kenya-reassures-tourists-investors-ebola-case-triggers-travel-warnings",
       "published_at": "2026-10-08T10:01:32Z"
+    },
+    {
+      "title": "State Mobilises Multi-Agency Rescue Units as WMO Warns of Record El Ni\u00f1o Peak",
+      "angle": "Attribution-first framing of the state's multi-agency contingency activation: how the WMO's historic peak projection through February 2027 triggers evacuation route mapping and multi-force search-and-rescue protocols for vulnerable populations amid an unpredictable, dry-start rainy season.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first statement establishing the WMO warning and identifying the vulnerable populations and emergency units positioned to benefit from multi-agency intervention.",
+      "structure": "Attribution and protection lead -> WMO core metrics and historic severity -> Operational deployment under National Contingency Plan -> Delayed onset and regional weather discrepancies -> Search-and-rescue readiness toward February 2027.",
+      "source": "https://kenyans.co.ke/news/127699-wmo-warns-historic-december-el-nino-peak-kenya-other-nations",
+      "published_at": "2026-10-08T11:02:13Z"
     }
   ]
 }
