@@ -187,7 +187,8 @@
     "61817493cbbc6c1bf136a65ff66d7ca0bca2fdeba0bbbd374854d08cbd19d860",
     "ac37b1aaf1d9500d891801a7e76a9ac145d2a55c9a598686d1f4511ab816ad94",
     "09da51f740abadc5ab6e4d087c861843721662ada1b28fc0ebfc1a079cc3c631",
-    "159cfda30c979c4f85684217b9c858fed6e5ce4054e648c4e5b8745fa1d671eb"
+    "159cfda30c979c4f85684217b9c858fed6e5ce4054e648c4e5b8745fa1d671eb",
+    "4181d909b240404db77bbe625b16effe8e0a8922ca43ac4f163f2043ff183276"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -377,17 +378,10 @@
     "https://www.ghafla.co.ke/president-ruto-intensifies-ebola-surveillance-after-death-of-imported-case/",
     "https://www.ghafla.co.ke/johane-masowe-echishanu-members-mourn-wicknell-chivayo-as-church-remembers-his-contribution/",
     "https://www.ghafla.co.ke/jaoko-oburu-confronts-maverick-aoko-over-false-death-report-on-father/",
-    "https://www.ghafla.co.ke/wmo-warns-strengthening-el-nino-could-reach-historic-record-highs-by-december/"
+    "https://www.ghafla.co.ke/wmo-warns-strengthening-el-nino-could-reach-historic-record-highs-by-december/",
+    "https://www.ghafla.co.ke/britam-opens-global-investment-opportunities-to-kenyan-investors/"
   ],
   "published_angles": [
-    {
-      "title": "Douglas Kanja Dodges Jail Cell After High Court Drag-In Over Street Barricades",
-      "angle": "Focusing on the rare high-stakes courtroom appearance of the police chief and his senior commanders facing personal custodial threats over road blockades.",
-      "angle_type": "high-stakes institutional confrontation and personal accountability",
-      "opening": "Personality-led focus on Douglas Kanja walking into a courtroom showdown rather than a dry legal summary.",
-      "structure": "Courtroom entrance and personal jeopardy -> The operational plan compromise -> The judge's explicit personal liability warning -> Final legal context and closing fact.",
-      "source": "https://www.ghafla.co.ke/ig-douglas-kanja-escapes-jail-time-as-high-court-issues-final-warning-on-protest-roadblocks/"
-    },
     {
       "title": "Manzi wa Mombasa Reaches Out to Pastor Kanyari for Fare, Then Misses Service After Past Expulsion",
       "angle": "While the source details the immediate incident of Manzi wa Mombasa missing church, it also mentions their 'previously strained relationship' and 'her decision to seek Kanyari\u2019s assistance, despite their previous disagreements.' The gap is an editorial focus on the surprising resilience and public nature of this complex, on-again-off-again connection between a controversial preacher and a social media personality, rather than just the immediate no-show.",
@@ -1179,6 +1173,14 @@
       "opening": "Personality lead focusing directly on Celeste Saulo delivering an uncompromising briefing on the unprecedented strength of the incoming climate cycle.",
       "structure": "Saulo leadership alert -> Ocean temperature index metrics -> Subsurface heat release mechanism -> Regional sea basin convergence -> Sector impact directives close",
       "source": "https://www.ghafla.co.ke/wmo-warns-strengthening-el-nino-could-reach-historic-record-highs-by-december/"
+    },
+    {
+      "title": "Tom Gitogo Challenges Kenyans to Stop Merely Consuming Foreign Tech and Buy the Equity",
+      "angle": "Framing Tom Gitogo's strategic critique of Africans existing merely as digital consumers for foreign platforms, positioning Britam's global funds as an ownership vehicle for everyday wealth builders targeting Silicon Valley AI and life sciences.",
+      "angle_type": "executive philosophy and wealth ownership transition",
+      "opening": "Personality lead opening directly on Tom Gitogo challenging the consumer reality of African digital users.",
+      "structure": "Executive philosophy hook -> Product mechanics and offshore tech sectors -> Barack Obatsa's asset diversification breakdown -> Macro industry surge and Britam valuation close",
+      "source": "https://www.ghafla.co.ke/britam-opens-global-investment-opportunities-to-kenyan-investors/"
     }
   ],
   "style_history": [
