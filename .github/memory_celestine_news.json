@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "283dd3cdfcd6ce393c7a0d35dad105e1",
     "b1d9e18fd97ab57dd2abb117c73258b7",
     "9bc1aa666b4a9580bd233d7395d0a716",
     "8bbbda00fd4ce61864340ca8f92b7eb4",
@@ -799,10 +798,10 @@
     "34f17ac104bb7f44880206391b510611",
     "3a7ee6a2cdf3eca057cf8df9223ad42f",
     "73dd8291053d1903ae90a5d69fa13cb6",
-    "06b25ca8bdaf8ee81bc50961d1ff5689"
+    "06b25ca8bdaf8ee81bc50961d1ff5689",
+    "f86ad0e6029a05d75a267395361b3f4f"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1252,7 +1252,8 @@
     "https://kenyans.co.ke/news/127694-nema-arrests-5-seizes-90000-plastic-bags-nairobi-crackdown",
     "https://kenyans.co.ke/news/127697-kenya-reassures-tourists-investors-ebola-case-triggers-travel-warnings",
     "https://kenyans.co.ke/news/127699-wmo-warns-historic-december-el-nino-peak-kenya-other-nations",
-    "https://kenyans.co.ke/news/127702-one-killed-crash-involving-batuk-army-vehicle-nanyuki"
+    "https://kenyans.co.ke/news/127702-one-killed-crash-involving-batuk-army-vehicle-nanyuki",
+    "https://kenyans.co.ke/news/127706-wrc-confirms-safari-rally-kenya-2027-calendar-ruto-confirms"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1595,7 +1596,8 @@
     "machinery clause nema njiru raid spells ruin plastic manufacturers",
     "duale mounts diplomatic pushback western ebola advisories threaten travel",
     "state mobilises multi agency rescue units wmo warns record peak",
-    "police open inquiry batuk vehicle kills civilian outside laikipia base"
+    "police open inquiry batuk vehicle kills civilian outside laikipia base",
+    "private funding test looming wrc secures 2027 safari rally spot"
   ],
   "topic_keys": [
     "news tracker",
@@ -3953,6 +3955,15 @@
       "structure": "Investigative handoff lead -> Verified accident facts and medical response -> Detail embargo and jurisdictional boundary -> Civic impact of training-adjacent road transit -> Next police inquiry benchmarks",
       "source": "https://kenyans.co.ke/news/127702-one-killed-crash-involving-batuk-army-vehicle-nanyuki",
       "published_at": "2026-10-08T12:01:58Z"
+    },
+    {
+      "title": "Private Funding Test Looming as WRC Secures Kenya\u2019s 2027 Safari Rally Spot",
+      "angle": "Focusing on the operational and financial reality of the 2027 event: it will be the first edition run entirely without public funds, testing the newly appointed CEO Carl Tundo's ability to transition the event to full private-sector financing as mandated by the government.",
+      "angle_type": "practical change",
+      "opening": "Lead with the immediate financial and organizational test facing the rally secretariat following the 2027 calendar confirmation.",
+      "structure": "Financial transition lead -> Calendar details and factual core -> The state's funding withdrawal and policy shift -> The corporate sponsorship challenge and Tundo's executive mandate -> Forward outlook on corporate readiness.",
+      "source": "https://kenyans.co.ke/news/127706-wrc-confirms-safari-rally-kenya-2027-calendar-ruto-confirms",
+      "published_at": "2026-10-08T13:06:48Z"
     }
   ]
 }
