@@ -190,7 +190,8 @@
     "159cfda30c979c4f85684217b9c858fed6e5ce4054e648c4e5b8745fa1d671eb",
     "4181d909b240404db77bbe625b16effe8e0a8922ca43ac4f163f2043ff183276",
     "e25923e3386a5561f11c9004efb019cbf2de801779289b91c2c2de0d450fa012",
-    "707e83baa586bef361b52948847249dabcd24b6d06193af9ae058a20431294cf"
+    "707e83baa586bef361b52948847249dabcd24b6d06193af9ae058a20431294cf",
+    "59fed08603710e2baaa0a943a2d733e405241e16f520ab21bd797cd8289cf31d"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -383,17 +384,10 @@
     "https://www.ghafla.co.ke/wmo-warns-strengthening-el-nino-could-reach-historic-record-highs-by-december/",
     "https://www.ghafla.co.ke/britam-opens-global-investment-opportunities-to-kenyan-investors/",
     "https://www.ghafla.co.ke/georgina-njenga-opens-up-on-health-post-recovery-plans-in-candid-chat-with-eric-omondi/",
-    "https://www.ghafla.co.ke/kenya-remains-safe-and-open-cs-duale-reassures-travellers-after-single-ebola-case/"
+    "https://www.ghafla.co.ke/kenya-remains-safe-and-open-cs-duale-reassures-travellers-after-single-ebola-case/",
+    "https://www.ghafla.co.ke/kalekye-mumo-shows-off-stunning-weight-loss-transformation-in-new-photoshoot/"
   ],
   "published_angles": [
-    {
-      "title": "Classic 105 Breakfast Show Derails as Listener Pushes for 'Separate Roof' Marriage",
-      "angle": "The practical domestic blueprint proposed by listeners\u2014specifically trading cohabitation and traditional housing structures for independent living quarters while remaining legally or socially partnered.",
-      "angle_type": "lifestyle and relationship architecture shift",
-      "opening": "Personality and broadcast studio hook focusing on Maina Kageni reading the message that derailed the morning run sheet.",
-      "structure": "Classic 105 studio hook -> Purity's separate-roof manifesto -> King'ang'i and Maina's broadcast sparring -> Caller reality check (Simon and the unbothered 30-somethings) -> Concrete close on changing urban domestic norms.",
-      "source": "https://www.ghafla.co.ke/gen-z-marriage-debate-erupts-after-listener-proposes-living-separately/"
-    },
     {
       "title": "Otile Brown Calls Out Music Industry Bias, Ranks Willy Paul Above Bien on Pure Craft",
       "angle": "Reframing the podcast exchange around Otile Brown's explicit challenge to industry gatekeeping\u2014decoupling personal behavior from musical performance\u2014and how Willy Paul leveraged the endorsement to highlight selective industry recognition.",
@@ -1185,6 +1179,14 @@
       "opening": "Personality lead focusing directly on Aden Duale stepping into the diplomatic spotlight to counter Western travel advisories.",
       "structure": "Duale's diplomatic pivot -> The UK/US advisory context -> The underlying health event -> Preparedness infrastructure metrics -> Strategic cross-border closing.",
       "source": "https://www.ghafla.co.ke/kenya-remains-safe-and-open-cs-duale-reassures-travellers-after-single-ebola-case/"
+    },
+    {
+      "title": "Kalekye Mumo Rejects \u2018Willpower\u2019 Myth, Credits Clinical Metabolic Protocol for Transformation",
+      "angle": "Focusing on Kalekye's explicit rejection of the raw willpower myth in favor of a doctor-led metabolic team (nutritionists, sports scientists, physicians), framing the photoshoot as the result of clinical science.",
+      "angle_type": "clinical lifestyle protocol and celebrity self-perception",
+      "opening": "Personality lead starting directly on Kalekye's reaction to her reflection during the photoshoot before detailing the underlying medical strategy.",
+      "structure": "Reflection lead -> Medical team breakdown -> Wardrobe and psychological shift -> Direct quotes on self-perception -> Clinical close",
+      "source": "https://www.ghafla.co.ke/kalekye-mumo-shows-off-stunning-weight-loss-transformation-in-new-photoshoot/"
     }
   ],
   "style_history": [
