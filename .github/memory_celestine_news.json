@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "95a83bbac7d727f33d622b3997865a4a",
     "0452c54c272ee69c20a95b8f1b020bfa",
     "b99ffa826c4010fc741e59aa2e61fe0c",
     "283dd3cdfcd6ce393c7a0d35dad105e1",
@@ -799,10 +798,10 @@
     "314936826455f945d09754feaed379cf",
     "90f3774aff337d5ac5e993db31586f98",
     "f8722f5dd9b2c156c81ea11e97853eb1",
-    "34f17ac104bb7f44880206391b510611"
+    "34f17ac104bb7f44880206391b510611",
+    "3a7ee6a2cdf3eca057cf8df9223ad42f"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1249,7 +1249,8 @@
     "https://kenyans.co.ke/news/127689-several-feared-dead-others-missing-lorry-accident-osiri-bridge-migori",
     "https://kenyans.co.ke/news/127688-sweden-invests-ksh-545m-help-kra-modernise-revenue-collection",
     "https://kenyans.co.ke/news/127690-parliament-approves-former-wajir-woman-rep-fatuma-ibrahim-ali-psc-commissioner",
-    "https://kenyans.co.ke/news/127694-nema-arrests-5-seizes-90000-plastic-bags-nairobi-crackdown"
+    "https://kenyans.co.ke/news/127694-nema-arrests-5-seizes-90000-plastic-bags-nairobi-crackdown",
+    "https://kenyans.co.ke/news/127697-kenya-reassures-tourists-investors-ebola-case-triggers-travel-warnings"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1589,7 +1590,8 @@
     "osiri bridge plunge renews scrutiny delayed migori river crossings",
     "kra build multi source taxpayer profiles ksh545m sweden backed tech upgrade",
     "parliament approves fatuma ali civilian seat house service commission",
-    "machinery clause nema njiru raid spells ruin plastic manufacturers"
+    "machinery clause nema njiru raid spells ruin plastic manufacturers",
+    "duale mounts diplomatic pushback western ebola advisories threaten travel"
   ],
   "topic_keys": [
     "news tracker",
@@ -3920,6 +3922,15 @@
       "structure": "Operational asset risk lead -> Factual core of the Njiru raid and arrests -> Statutory penalties and the machinery forfeiture clause -> Upstream supply enforcement vs retail policing -> Judicial and operational next steps.",
       "source": "https://kenyans.co.ke/news/127694-nema-arrests-5-seizes-90000-plastic-bags-nairobi-crackdown",
       "published_at": "2026-10-08T09:02:04Z"
+    },
+    {
+      "title": "Duale Mounts Diplomatic Pushback as Western Ebola Advisories Threaten Travel",
+      "angle": "The diplomatic counter-offensive: Nairobi leverages laboratory metrics and a targeted 10-nation airport screening perimeter to directly challenge Western travel warnings and avert an economic freeze.",
+      "angle_type": "institutional pressure",
+      "opening": "Diplomatic-pushback lead framing Nairobi's urgent engagement with foreign envoys as an effort to dismantle Western travel curbs using operational laboratory data.",
+      "structure": "Diplomatic engagement lead -> Core advisory conflict (US and UK advisories vs WHO stance) -> Laboratory and containment proof points presented to envoys -> The 10-nation screening net at JKIA -> Forward diplomatic and cross-border stakes",
+      "source": "https://kenyans.co.ke/news/127697-kenya-reassures-tourists-investors-ebola-case-triggers-travel-warnings",
+      "published_at": "2026-10-08T10:01:32Z"
     }
   ]
 }
