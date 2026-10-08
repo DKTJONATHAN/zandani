@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "c81f3089abe8dfdf22bcdb398d711375",
     "ed7ff8e4afc2d843d4624a072ddd2b50",
     "0f3578b5f3e4baa89d97c04ff7f76502",
     "f9579031af7f91628e85f50b6693edc7",
@@ -799,10 +798,10 @@
     "142efe07381a8d1eab2c342c7bb248f7",
     "a3ac1c3b790de8b93251f58662686878",
     "f67189d4da07d4fd7f03f78f23977815",
-    "3e54f3a9a3866341b1c2683019f28bda"
+    "3e54f3a9a3866341b1c2683019f28bda",
+    "e48cebafe492ebb12f19e06eb7cf568f"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1244,7 +1244,8 @@
     "https://kenyans.co.ke/news/127668-high-court-suspends-mining-chinese-company-after-naivasha-protests",
     "https://kenyans.co.ke/news/127677-uhuru-resigns-azimio-council-chairperson-gachagua-orengo-eyed-replacements",
     "https://kenyans.co.ke/news/127675-relief-borrowers-cbk-keeps-interest-rate-875",
-    "https://kenyans.co.ke/news/127673-20000-intern-teachers-get-permanent-jobs-january-2027-cs-ogamba-says"
+    "https://kenyans.co.ke/news/127673-20000-intern-teachers-get-permanent-jobs-january-2027-cs-ogamba-says",
+    "https://kenyans.co.ke/news/127684-questions-sports-ministry-races-aid-skater-kiarius-visa-troubles"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1579,7 +1580,8 @@
     "enforcement gap sinohydro unlicensed kedong quarry defied nema until locals bypassed watchdog",
     "uhuru relinquishes opposition council helm ukombozi courts gachagua orengo",
     "cbk freezes benchmark commercial banks inch loan margins",
-    "state secures ksh4 000 jss interns 000 await further funding"
+    "state secures ksh4 000 jss interns 000 await further funding",
+    "where did money stranded skater kiarie clashes ministry withheld cash"
   ],
   "topic_keys": [
     "news tracker",
@@ -3865,6 +3867,15 @@
       "structure": "Statement and beneficiary lead -> Fiscal breakdown and confirmation in Senate -> Dual-track workforce reality (20,000 absorbed vs 24,000 deferred) -> Legal backdrop and court orders -> Forward trajectory on broader recruitment goals.",
       "source": "https://kenyans.co.ke/news/127673-20000-intern-teachers-get-permanent-jobs-january-2027-cs-ogamba-says",
       "published_at": "2026-10-08T00:01:56Z"
+    },
+    {
+      "title": "Where Did the Money Go? Stranded Skater Kiarie Clashes With Ministry Over Withheld Cash",
+      "angle": "The financial accountability dispute exposed by the transit snag: the skater directly challenges Cabinet Secretary Salim Mvurya over approved state prize money that never reached him, forcing him to crowdfund his own flights while missing events.",
+      "angle_type": "accountability",
+      "opening": "Accountability lead contrasting public ministerial claims of athlete support with the athlete's disclosure of missing state prize money and missed competitive slots.",
+      "structure": "Rift lead -> Visa deadlock facts -> Contested funds breakdown -> Logistics and rerouting friction -> Unresolved financial demands",
+      "source": "https://kenyans.co.ke/news/127684-questions-sports-ministry-races-aid-skater-kiarius-visa-troubles",
+      "published_at": "2026-10-08T06:01:57Z"
     }
   ]
 }
