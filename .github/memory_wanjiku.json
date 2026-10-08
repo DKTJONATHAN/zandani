@@ -183,7 +183,8 @@
     "8fb3c170f92e746446f37f10d541ca52b44b52c4e93ec03ad94e96eb047d94fb",
     "d8c016bbdb9f16e8ed400afd68943ca5bda4adcd362770e07d82ecd24a4271ab",
     "4063342d43be7c8c1d2d3c861393b21c9e2a636cf3f12d6a9cd2c66b9ae9dae4",
-    "04e88e55e83f4ce82ec598ad20feb11212f8b80f0b41d4ee11fab38be56abadb"
+    "04e88e55e83f4ce82ec598ad20feb11212f8b80f0b41d4ee11fab38be56abadb",
+    "61817493cbbc6c1bf136a65ff66d7ca0bca2fdeba0bbbd374854d08cbd19d860"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -369,17 +370,10 @@
     "https://www.ghafla.co.ke/98-sacco-driver-praises-george-rutos-matatu-fleet-for-creating-jobs-for-youth/",
     "https://www.ghafla.co.ke/dr-ofweneke-calls-for-self-care-and-accountability-among-men-in-family-life/",
     "https://www.ghafla.co.ke/we-no-longer-live-together-shorn-arwa-breaks-silence-on-sisterly-rift/",
-    "https://www.ghafla.co.ke/trisha-khalid-joins-hello-mr-right-season-5-as-new-co-host/"
+    "https://www.ghafla.co.ke/trisha-khalid-joins-hello-mr-right-season-5-as-new-co-host/",
+    "https://www.ghafla.co.ke/president-ruto-intensifies-ebola-surveillance-after-death-of-imported-case/"
   ],
   "published_angles": [
-    {
-      "title": "Justin Muturi Drags Yoweri Museveni Into Kipchumba Murkomen\u2019s Kampala Voter Drive Drama",
-      "angle": "Framing the fallout around Justin Muturi turning CS Murkomen's Kampala consular advice into an international political spectacle by demanding direct diplomatic accountability from Ugandan President Yoweri Museveni.",
-      "angle_type": "political accountability and diplomatic challenge",
-      "opening": "Personality lead opening directly on Justin Muturi escalating CS Kipchumba Murkomen's Kampala remarks into a cross-border dispute involving President Yoweri Museveni.",
-      "structure": "Muturi-Museveni challenge lead -> IEBC summons request and specific DP statement quotes -> Murkomen's original Kampala speech breakdown -> Cross-border security context -> Concrete close on pending responses from Kampala and electoral authorities.",
-      "source": "https://www.ghafla.co.ke/opposition-questions-murkomens-uganda-voter-drive-remarks/"
-    },
     {
       "title": "Dr. Mercy Mwangangi Draws Midnight Line for Hospitals in High-Stakes SHA Overhaul",
       "angle": "Reframing the contract rollover around Dr. Mercy Mwangangi's executive ultimatum, highlighting her digital portal lockout warning against backdrop of doctor anxiety over claim deductions and state payment default terms.",
@@ -1171,6 +1165,14 @@
       "opening": "Personality lead opening directly on Trisha Khalid stepping into the primary co-hosting chair opposite Dr. Ofweneke for Season 5.",
       "structure": "Co-host transition hook -> Unveiling details and Dr. Ofweneke statement -> Getrude Mungai's analytical framing -> Show format history and anchor evolution -> Production rollout close",
       "source": "https://www.ghafla.co.ke/trisha-khalid-joins-hello-mr-right-season-5-as-new-co-host/"
+    },
+    {
+      "title": "William Ruto Mobilizes Security Council as State Locks Down 56 Contacts in Ebola Containment Ring",
+      "angle": "President Ruto elevating a single imported Ebola fatality into a National Security Council Committee priority, activating a high-precision 56-person containment ring spanning family, medical staff, and flight contacts.",
+      "angle_type": "executive response and biosecurity containment",
+      "opening": "Personality lead opening directly on President William Ruto shifting the imported Ebola fatality into the jurisdiction of the National Security Council Committee.",
+      "structure": "Executive directive lead -> Detailed breakdown of the 56-person active quarantine ring -> Diagnostic laboratory capacity and border screening metrics -> Medical workforce preparation -> Health guidance and next regulatory steps close.",
+      "source": "https://www.ghafla.co.ke/president-ruto-intensifies-ebola-surveillance-after-death-of-imported-case/"
     }
   ],
   "style_history": [
