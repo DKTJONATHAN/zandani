@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ed7ff8e4afc2d843d4624a072ddd2b50",
     "0f3578b5f3e4baa89d97c04ff7f76502",
     "f9579031af7f91628e85f50b6693edc7",
     "12a7fb580310d1ebfc4765f71b27ac82",
@@ -799,10 +798,10 @@
     "a3ac1c3b790de8b93251f58662686878",
     "f67189d4da07d4fd7f03f78f23977815",
     "3e54f3a9a3866341b1c2683019f28bda",
-    "e48cebafe492ebb12f19e06eb7cf568f"
+    "e48cebafe492ebb12f19e06eb7cf568f",
+    "314936826455f945d09754feaed379cf"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1245,7 +1245,8 @@
     "https://kenyans.co.ke/news/127677-uhuru-resigns-azimio-council-chairperson-gachagua-orengo-eyed-replacements",
     "https://kenyans.co.ke/news/127675-relief-borrowers-cbk-keeps-interest-rate-875",
     "https://kenyans.co.ke/news/127673-20000-intern-teachers-get-permanent-jobs-january-2027-cs-ogamba-says",
-    "https://kenyans.co.ke/news/127684-questions-sports-ministry-races-aid-skater-kiarius-visa-troubles"
+    "https://kenyans.co.ke/news/127684-questions-sports-ministry-races-aid-skater-kiarius-visa-troubles",
+    "https://kenyans.co.ke/news/127689-several-feared-dead-others-missing-lorry-accident-osiri-bridge-migori"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1581,7 +1582,8 @@
     "uhuru relinquishes opposition council helm ukombozi courts gachagua orengo",
     "cbk freezes benchmark commercial banks inch loan margins",
     "state secures ksh4 000 jss interns 000 await further funding",
-    "where did money stranded skater kiarie clashes ministry withheld cash"
+    "where did money stranded skater kiarie clashes ministry withheld cash",
+    "osiri bridge plunge renews scrutiny delayed migori river crossings"
   ],
   "topic_keys": [
     "news tracker",
@@ -3876,6 +3878,15 @@
       "structure": "Rift lead -> Visa deadlock facts -> Contested funds breakdown -> Logistics and rerouting friction -> Unresolved financial demands",
       "source": "https://kenyans.co.ke/news/127684-questions-sports-ministry-races-aid-skater-kiarius-visa-troubles",
       "published_at": "2026-10-08T06:01:57Z"
+    },
+    {
+      "title": "Osiri Bridge Plunge Renews Scrutiny on Delayed Migori River Crossings",
+      "angle": "The structural and transit vulnerability at Osiri Bridge: how stalled infrastructure works and the routine reliance of market traders on overloaded commercial lorries converge into lethal river crossings on Nyatike's feeder roads.",
+      "angle_type": "accountability",
+      "opening": "Infrastructure-hazard and transit-vulnerability lead connecting the missing traders in River Kuja directly to longstanding construction delays at the Osiri crossing.",
+      "structure": "Crossing vulnerability lead -> Factual sequence of Wednesday night crash -> Search and hospital response -> Bridge completion demands from regional leadership -> Macro transport safety metrics",
+      "source": "https://kenyans.co.ke/news/127689-several-feared-dead-others-missing-lorry-accident-osiri-bridge-migori",
+      "published_at": "2026-10-08T07:01:58Z"
     }
   ]
 }
