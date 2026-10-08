@@ -192,7 +192,8 @@
     "e25923e3386a5561f11c9004efb019cbf2de801779289b91c2c2de0d450fa012",
     "707e83baa586bef361b52948847249dabcd24b6d06193af9ae058a20431294cf",
     "59fed08603710e2baaa0a943a2d733e405241e16f520ab21bd797cd8289cf31d",
-    "54651df77623028db43be154886b70694cc3fdb3c0cf5ac14699e42916a322f0"
+    "54651df77623028db43be154886b70694cc3fdb3c0cf5ac14699e42916a322f0",
+    "646e0b45fa8a8524179a749cc4749493d3a8d437924cda2b0c9fe5b66ea7a497"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -387,17 +388,10 @@
     "https://www.ghafla.co.ke/georgina-njenga-opens-up-on-health-post-recovery-plans-in-candid-chat-with-eric-omondi/",
     "https://www.ghafla.co.ke/kenya-remains-safe-and-open-cs-duale-reassures-travellers-after-single-ebola-case/",
     "https://www.ghafla.co.ke/kalekye-mumo-shows-off-stunning-weight-loss-transformation-in-new-photoshoot/",
-    "https://www.ghafla.co.ke/ksh-1m-per-seat-bahati-diana-marua-announce-exclusive-10-year-anniversary-celebration/"
+    "https://www.ghafla.co.ke/ksh-1m-per-seat-bahati-diana-marua-announce-exclusive-10-year-anniversary-celebration/",
+    "https://www.ghafla.co.ke/i-am-the-solution-pastor-kanyari-steps-up-2027-parliamentary-bid-for-kasarani/"
   ],
   "published_angles": [
-    {
-      "title": "PLO Lumumba: 'Wantam' Slogan Alone Won't Build a Government",
-      "angle": "Focusing on Lumumba's intellectual dismantling of the 'musical chairs' ethnic alliance culture shaping up ahead of 2027, moving beyond just the slogan to examine his critique of recycled political coalitions.",
-      "angle_type": "political accountability and electoral critique",
-      "opening": "Personality-led opening focusing directly on PLO Lumumba stepping into the 2027 discourse to dismantle political shortcuts.",
-      "structure": "Personality hook -> Lumumba's 'musical chairs' coalition critique -> The policy void in infrastructure and education -> The ticking clock toward the 2027 polls",
-      "source": "https://www.ghafla.co.ke/plo-lumumba-wantam-alone-is-not-a-presidential-agenda/"
-    },
     {
       "title": "Kenya Power Schedules Eight-Hour Blackout Across Nairobi Residential Hubs and Regional Factories",
       "angle": "Focusing on the operational disruption split between Nairobi's prime residential and creative belts\u2014stretching from Argwings Kodhek to Riara Road\u2014and vital rural agro-processing nodes like tea factories and sawmills across six counties.",
@@ -1189,6 +1183,14 @@
       "opening": "Personality lead opening directly on Bahati abandoning his signature gift-giving format in favor of a KSh 1 million-a-seat decennial gala.",
       "structure": "Personality and pivot lead -> Mechanics of the lakeside dock reveal and 'The Invite' -> The economics of the 100-guest room -> Exchange between Bahati and Diana -> Context of their shifting anniversary playbook",
       "source": "https://www.ghafla.co.ke/ksh-1m-per-seat-bahati-diana-marua-announce-exclusive-10-year-anniversary-celebration/"
+    },
+    {
+      "title": "Pastor Victor Kanyari Brands Himself the \u2018Ndindi Nyoro of Kasarani\u2019 as 2027 MP Bid Clashes With Stevo Simple Boy",
+      "angle": "Framing Kanyari's parliamentary rollout around his calculated political branding as an urban 'Ndindi Nyoro', contrasting his high-profile celebrity pulpit past with grassroots municipal pledges and an impending pop-culture electoral collision against Stevo Simple Boy.",
+      "angle_type": "celebrity political reinvention and pop-culture electoral clash",
+      "opening": "Personality lead focusing directly on Kanyari positioning himself as the political heir to Ndindi Nyoro's governance model.",
+      "structure": "Ndindi Nyoro benchmarking lead -> Direct quotes and municipal priority zones (Njiiru, Ruai) -> Targeted ground-level voter drives (youth and single mothers) -> Pop-culture electoral clash with Stevo Simple Boy -> Kasarani political landscape close",
+      "source": "https://www.ghafla.co.ke/i-am-the-solution-pastor-kanyari-steps-up-2027-parliamentary-bid-for-kasarani/"
     }
   ],
   "style_history": [
