@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "0f3578b5f3e4baa89d97c04ff7f76502",
     "f9579031af7f91628e85f50b6693edc7",
     "12a7fb580310d1ebfc4765f71b27ac82",
     "95a83bbac7d727f33d622b3997865a4a",
@@ -799,10 +798,10 @@
     "f67189d4da07d4fd7f03f78f23977815",
     "3e54f3a9a3866341b1c2683019f28bda",
     "e48cebafe492ebb12f19e06eb7cf568f",
-    "314936826455f945d09754feaed379cf"
+    "314936826455f945d09754feaed379cf",
+    "90f3774aff337d5ac5e993db31586f98"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1246,7 +1246,8 @@
     "https://kenyans.co.ke/news/127675-relief-borrowers-cbk-keeps-interest-rate-875",
     "https://kenyans.co.ke/news/127673-20000-intern-teachers-get-permanent-jobs-january-2027-cs-ogamba-says",
     "https://kenyans.co.ke/news/127684-questions-sports-ministry-races-aid-skater-kiarius-visa-troubles",
-    "https://kenyans.co.ke/news/127689-several-feared-dead-others-missing-lorry-accident-osiri-bridge-migori"
+    "https://kenyans.co.ke/news/127689-several-feared-dead-others-missing-lorry-accident-osiri-bridge-migori",
+    "https://kenyans.co.ke/news/127688-sweden-invests-ksh-545m-help-kra-modernise-revenue-collection"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1583,7 +1584,8 @@
     "cbk freezes benchmark commercial banks inch loan margins",
     "state secures ksh4 000 jss interns 000 await further funding",
     "where did money stranded skater kiarie clashes ministry withheld cash",
-    "osiri bridge plunge renews scrutiny delayed migori river crossings"
+    "osiri bridge plunge renews scrutiny delayed migori river crossings",
+    "kra build multi source taxpayer profiles ksh545m sweden backed tech upgrade"
   ],
   "topic_keys": [
     "news tracker",
@@ -3887,6 +3889,15 @@
       "structure": "Crossing vulnerability lead -> Factual sequence of Wednesday night crash -> Search and hospital response -> Bridge completion demands from regional leadership -> Macro transport safety metrics",
       "source": "https://kenyans.co.ke/news/127689-several-feared-dead-others-missing-lorry-accident-osiri-bridge-migori",
       "published_at": "2026-10-08T07:01:58Z"
+    },
+    {
+      "title": "KRA to Build Multi-Source Taxpayer Profiles in Ksh545M Sweden-Backed Tech Upgrade",
+      "angle": "Focusing on the operational reality of the technology itself: how KRA is building a centralized data-mining warehouse to consolidate internal and external databases into unified taxpayer profiles, moving from reactive auditing to algorithmic risk profiling.",
+      "angle_type": "practical change",
+      "opening": "Lead with the operational shift toward automated, multi-source taxpayer profiling rather than the diplomatic meeting itself.",
+      "structure": "Operational shift lead -> Factual core of the funding and bilateral meeting -> Technical mechanics of the database consolidation -> Institutional peer-to-peer tax agency support -> Broader Swedish infrastructure footprint (JKIA airspace upgrade) -> Next milestone.",
+      "source": "https://kenyans.co.ke/news/127688-sweden-invests-ksh-545m-help-kra-modernise-revenue-collection",
+      "published_at": "2026-10-08T07:07:31Z"
     }
   ]
 }
