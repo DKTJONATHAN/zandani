@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ed41ff8a4482f92ccbd4cf2933d9fb5e",
     "c81f3089abe8dfdf22bcdb398d711375",
     "ed7ff8e4afc2d843d4624a072ddd2b50",
     "0f3578b5f3e4baa89d97c04ff7f76502",
@@ -799,10 +798,10 @@
     "dc0150ba853f6fff31aec7b8c4635c03",
     "142efe07381a8d1eab2c342c7bb248f7",
     "a3ac1c3b790de8b93251f58662686878",
-    "f67189d4da07d4fd7f03f78f23977815"
+    "f67189d4da07d4fd7f03f78f23977815",
+    "3e54f3a9a3866341b1c2683019f28bda"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1243,7 +1243,8 @@
     "https://kenyans.co.ke/news/127666-kra-seizes-358-laptops-ipads-worth-ksh13-million-kileleshwa-raid",
     "https://kenyans.co.ke/news/127668-high-court-suspends-mining-chinese-company-after-naivasha-protests",
     "https://kenyans.co.ke/news/127677-uhuru-resigns-azimio-council-chairperson-gachagua-orengo-eyed-replacements",
-    "https://kenyans.co.ke/news/127675-relief-borrowers-cbk-keeps-interest-rate-875"
+    "https://kenyans.co.ke/news/127675-relief-borrowers-cbk-keeps-interest-rate-875",
+    "https://kenyans.co.ke/news/127673-20000-intern-teachers-get-permanent-jobs-january-2027-cs-ogamba-says"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1577,7 +1578,8 @@
     "suburban camouflage nairobi illicit tech trade migrating residential estates",
     "enforcement gap sinohydro unlicensed kedong quarry defied nema until locals bypassed watchdog",
     "uhuru relinquishes opposition council helm ukombozi courts gachagua orengo",
-    "cbk freezes benchmark commercial banks inch loan margins"
+    "cbk freezes benchmark commercial banks inch loan margins",
+    "state secures ksh4 000 jss interns 000 await further funding"
   ],
   "topic_keys": [
     "news tracker",
@@ -3854,6 +3856,15 @@
       "structure": "Rate-transmission gap lead -> Monetary policy committee decision and baseline metrics -> Commercial credit growth vs retail pricing mechanics -> Non-performing loan and foreign reserve cushions -> Forward macro risks.",
       "source": "https://kenyans.co.ke/news/127675-relief-borrowers-cbk-keeps-interest-rate-875",
       "published_at": "2026-10-07T23:02:25Z"
+    },
+    {
+      "title": "State Secures Ksh4.9B for 20,000 JSS Interns as 24,000 Await Further Funding",
+      "angle": "The operational and financial split within the Junior Secondary School workforce: while Ksh4.9 billion secures pensionable status for 20,000 teachers in January 2027, more than half the current pool\u201424,000 interns\u2014remains locked in stipend contracts and ongoing court disputes until fresh Treasury talks yield funds.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first statement lead detailing who gains permanent status and who remains deferred under the Ksh4.9 billion allocation.",
+      "structure": "Statement and beneficiary lead -> Fiscal breakdown and confirmation in Senate -> Dual-track workforce reality (20,000 absorbed vs 24,000 deferred) -> Legal backdrop and court orders -> Forward trajectory on broader recruitment goals.",
+      "source": "https://kenyans.co.ke/news/127673-20000-intern-teachers-get-permanent-jobs-january-2027-cs-ogamba-says",
+      "published_at": "2026-10-08T00:01:56Z"
     }
   ]
 }
