@@ -188,7 +188,8 @@
     "ac37b1aaf1d9500d891801a7e76a9ac145d2a55c9a598686d1f4511ab816ad94",
     "09da51f740abadc5ab6e4d087c861843721662ada1b28fc0ebfc1a079cc3c631",
     "159cfda30c979c4f85684217b9c858fed6e5ce4054e648c4e5b8745fa1d671eb",
-    "4181d909b240404db77bbe625b16effe8e0a8922ca43ac4f163f2043ff183276"
+    "4181d909b240404db77bbe625b16effe8e0a8922ca43ac4f163f2043ff183276",
+    "e25923e3386a5561f11c9004efb019cbf2de801779289b91c2c2de0d450fa012"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -379,17 +380,10 @@
     "https://www.ghafla.co.ke/johane-masowe-echishanu-members-mourn-wicknell-chivayo-as-church-remembers-his-contribution/",
     "https://www.ghafla.co.ke/jaoko-oburu-confronts-maverick-aoko-over-false-death-report-on-father/",
     "https://www.ghafla.co.ke/wmo-warns-strengthening-el-nino-could-reach-historic-record-highs-by-december/",
-    "https://www.ghafla.co.ke/britam-opens-global-investment-opportunities-to-kenyan-investors/"
+    "https://www.ghafla.co.ke/britam-opens-global-investment-opportunities-to-kenyan-investors/",
+    "https://www.ghafla.co.ke/georgina-njenga-opens-up-on-health-post-recovery-plans-in-candid-chat-with-eric-omondi/"
   ],
   "published_angles": [
-    {
-      "title": "Manzi wa Mombasa Reaches Out to Pastor Kanyari for Fare, Then Misses Service After Past Expulsion",
-      "angle": "While the source details the immediate incident of Manzi wa Mombasa missing church, it also mentions their 'previously strained relationship' and 'her decision to seek Kanyari\u2019s assistance, despite their previous disagreements.' The gap is an editorial focus on the surprising resilience and public nature of this complex, on-again-off-again connection between a controversial preacher and a social media personality, rather than just the immediate no-show.",
-      "angle_type": "Relationship dynamics and public accountability of celebrity figures.",
-      "opening": "Personality lead, focusing on the surprising fact that Manzi wa Mombasa, despite a strained past with Pastor Kanyari, still sought his assistance, leading to a public confrontation.",
-      "structure": "Start with the revelation of the enduring connection -> Detail the public questioning during the service -> Provide Kanyari's account of the financial transaction -> Revisit their public history (expulsion over online content) -> Conclude with the unresolved public query and the continued visibility of their dynamic.",
-      "source": "https://www.ghafla.co.ke/pastor-kanyari-questions-manzi-wa-mombasa-after-she-misses-church-despite-receiving-fare/"
-    },
     {
       "title": "Karen Nyamu Uses KICC Booing to Detail Kenya's Endometriosis Treatment Crisis",
       "angle": "The source provides Nyamu's specific legislative intent and detailed factual revelations about Kenya's endometriosis crisis (lack of specialists, data, treatment infrastructure). The gap is to foreground these substantive policy revelations and Nyamu's proposed legislative response, using her controversial public appearance as the vehicle for this information, rather than focusing solely on the booing incident as personal drama.",
@@ -1181,6 +1175,14 @@
       "opening": "Personality lead opening directly on Tom Gitogo challenging the consumer reality of African digital users.",
       "structure": "Executive philosophy hook -> Product mechanics and offshore tech sectors -> Barack Obatsa's asset diversification breakdown -> Macro industry surge and Britam valuation close",
       "source": "https://www.ghafla.co.ke/britam-opens-global-investment-opportunities-to-kenyan-investors/"
+    },
+    {
+      "title": "Georgina Njenga Shuts Down 9-to-5 Job Offers and Resists Three-Month Stay as Eric Omondi Visits Recovery Center",
+      "angle": "Georgina defining strict personal boundaries over her rehabilitation process: pushing back against a recommended three-month facility stay down to a single month, while flatly dismissing Omondi's 8-to-5 corporate job offer in favor of independent entrepreneurship.",
+      "angle_type": "personal recovery boundaries and career autonomy",
+      "opening": "Personality lead opening directly on Georgina Njenga setting strict boundaries on both her recovery duration and her post-facility career direction during Eric Omondi's visit.",
+      "structure": "Autonomy lead -> Recovery timeline pushback (3 months vs 1 month) -> Spiritual and internal battles -> Outright rejection of Eric's 9-to-5 job offer -> Post-recovery entrepreneurial pivot -> Concrete close on current status",
+      "source": "https://www.ghafla.co.ke/georgina-njenga-opens-up-on-health-post-recovery-plans-in-candid-chat-with-eric-omondi/"
     }
   ],
   "style_history": [
