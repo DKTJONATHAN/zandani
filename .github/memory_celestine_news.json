@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "12a7fb580310d1ebfc4765f71b27ac82",
     "95a83bbac7d727f33d622b3997865a4a",
     "0452c54c272ee69c20a95b8f1b020bfa",
     "b99ffa826c4010fc741e59aa2e61fe0c",
@@ -799,10 +798,10 @@
     "e48cebafe492ebb12f19e06eb7cf568f",
     "314936826455f945d09754feaed379cf",
     "90f3774aff337d5ac5e993db31586f98",
-    "f8722f5dd9b2c156c81ea11e97853eb1"
+    "f8722f5dd9b2c156c81ea11e97853eb1",
+    "34f17ac104bb7f44880206391b510611"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1248,7 +1248,8 @@
     "https://kenyans.co.ke/news/127684-questions-sports-ministry-races-aid-skater-kiarius-visa-troubles",
     "https://kenyans.co.ke/news/127689-several-feared-dead-others-missing-lorry-accident-osiri-bridge-migori",
     "https://kenyans.co.ke/news/127688-sweden-invests-ksh-545m-help-kra-modernise-revenue-collection",
-    "https://kenyans.co.ke/news/127690-parliament-approves-former-wajir-woman-rep-fatuma-ibrahim-ali-psc-commissioner"
+    "https://kenyans.co.ke/news/127690-parliament-approves-former-wajir-woman-rep-fatuma-ibrahim-ali-psc-commissioner",
+    "https://kenyans.co.ke/news/127694-nema-arrests-5-seizes-90000-plastic-bags-nairobi-crackdown"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1587,7 +1588,8 @@
     "where did money stranded skater kiarie clashes ministry withheld cash",
     "osiri bridge plunge renews scrutiny delayed migori river crossings",
     "kra build multi source taxpayer profiles ksh545m sweden backed tech upgrade",
-    "parliament approves fatuma ali civilian seat house service commission"
+    "parliament approves fatuma ali civilian seat house service commission",
+    "machinery clause nema njiru raid spells ruin plastic manufacturers"
   ],
   "topic_keys": [
     "news tracker",
@@ -3909,6 +3911,15 @@
       "structure": "Bicameral endorsement lead -> Administrative remit and welfare mandate -> Vetting metrics and competitive scoring -> Constitutional design of Article 127(2)(d) -> Handover timeline from Rachel Ameso",
       "source": "https://kenyans.co.ke/news/127690-parliament-approves-former-wajir-woman-rep-fatuma-ibrahim-ali-psc-commissioner",
       "published_at": "2026-10-08T08:02:04Z"
+    },
+    {
+      "title": "The Machinery Clause: Why NEMA\u2019s Njiru Raid Spells Ruin for Plastic Manufacturers",
+      "angle": "The severe, existential financial risk facing plastic manufacturers under EMCA's asset forfeiture clause, which allows NEMA to permanently destroy seized industrial machinery, contrasting this high-stakes upstream enforcement with minor retail-level crackdowns.",
+      "angle_type": "consequence",
+      "opening": "An asset-risk opening that directly links the Njiru raid to the devastating statutory penalties\u2014including machinery destruction\u2014mandated for manufacturers under EMCA.",
+      "structure": "Operational asset risk lead -> Factual core of the Njiru raid and arrests -> Statutory penalties and the machinery forfeiture clause -> Upstream supply enforcement vs retail policing -> Judicial and operational next steps.",
+      "source": "https://kenyans.co.ke/news/127694-nema-arrests-5-seizes-90000-plastic-bags-nairobi-crackdown",
+      "published_at": "2026-10-08T09:02:04Z"
     }
   ]
 }
