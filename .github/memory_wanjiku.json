@@ -197,7 +197,8 @@
     "063d404e8e938157fff667049538dc7ab35ab48d1be26b83841dd59501241ec0",
     "998536379dcb466d3c68f97b28ecd78f8e4428caa1a43f6b18dc5dfdb910bde7",
     "1a8fd891ad7d5b6ab213c42187ca936018253d70f589f5e46b6bf8b4d1b6f238",
-    "5886b7bfa7400232cfc98033017f9923b04768ac4dafb186c671605cff9e8374"
+    "5886b7bfa7400232cfc98033017f9923b04768ac4dafb186c671605cff9e8374",
+    "739340ddb6c45ba892141348aba30e61c2c00498e533f81131305bd0b1447640"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -397,17 +398,10 @@
     "https://www.ghafla.co.ke/oburu-odinga-progressing-well-in-hospital-expresses-thanks-for-rutos-support-at-bondo-memorial/",
     "https://www.ghafla.co.ke/corazon-kwamboka-reveals-how-she-lost-1-5kg-after-recent-weight-gain/",
     "https://www.ghafla.co.ke/amber-ray-says-she-is-becoming-prettier-with-age-after-cosmetic-surgery/",
-    "https://www.ghafla.co.ke/eric-omondi-explains-restricted-visitations-for-georgina-njenga-at-chiromo-hospital/"
+    "https://www.ghafla.co.ke/eric-omondi-explains-restricted-visitations-for-georgina-njenga-at-chiromo-hospital/",
+    "https://www.ghafla.co.ke/30-minutes-of-havoc-as-intense-storm-causes-destruction-in-kisumu-amid-el-nino-news/"
   ],
   "published_angles": [
-    {
-      "title": "Joho Pulls US Departments Into High-Stakes Mrima Hill Mineral Scramble Ahead of October Deadline",
-      "angle": "The high-stakes corporate and geopolitical scramble behind the October Mrima Hill bidding war, spotlighting the specific multinational clash between US, Australian, and Chinese firms for Kwale's industrial deposits.",
-      "angle_type": "corporate competition and geopolitical resource scramble",
-      "opening": "Personality and high-stakes trade hook focusing on CS Hassan Joho bringing Washington's heavy-hitting departments into the Kwale County resource battle.",
-      "structure": "High-stakes trade hook -> The Mrima Hill multinational bidding war (US, Australia, China) -> Washington's cabinet-level agency involvement -> Local fiscal incentives and value-addition policy shift -> Concrete close on the October deadline.",
-      "source": "https://www.ghafla.co.ke/kenya-and-us-in-advanced-talks-over-critical-minerals-and-refining-deal/"
-    },
     {
       "title": "Huddah Monroe Pulls Plug on Kenyan Influencer Era, Resurfaces in Doha as Full-Time Trader",
       "angle": "Examining the mechanics of Huddah's total brand pivot away from Kenyan socialite culture and digital influencer monetization toward anonymous expatriate entrepreneurship in the Gulf.",
@@ -1199,6 +1193,14 @@
       "opening": "Personality lead opening directly on Eric Omondi shutting the door on entertainment circles and third-party associates outside Georgina Njenga's hospital ward.",
       "structure": "Isolation boundary lead -> Direct clarification and the two-visitor mandate -> Backstory of the crisis and Stoopid Boy precedent -> Hospital partnership and 90-day therapeutic protocol -> Close on the boundary against digital scrutiny",
       "source": "https://www.ghafla.co.ke/eric-omondi-explains-restricted-visitations-for-georgina-njenga-at-chiromo-hospital/"
+    },
+    {
+      "title": "Ramadhan Mwabudzo Orders Immediate Kisumu Structural Audits After Obote Road Warehouse Collapse Triggers Looting Scramble",
+      "angle": "Focusing on Ramadhan Mwabudzo taking immediate administrative control and targeting property owners with mandatory structural audits after the Obote Road warehouse collapse exposed vulnerable commercial infrastructure and invited looting.",
+      "angle_type": "administrative accountability and structural enforcement",
+      "opening": "Personality lead focusing on Ramadhan Mwabudzo stepping in to enforce building checks immediately after the storm damage.",
+      "structure": "Mwabudzo administrative lead -> Obote Road warehouse collapse and looting scene -> Physical scope of the 30-minute storm -> Structural audit directive details -> KMSA advisory and city drainage response close",
+      "source": "https://www.ghafla.co.ke/30-minutes-of-havoc-as-intense-storm-causes-destruction-in-kisumu-amid-el-nino-news/"
     }
   ],
   "style_history": [
