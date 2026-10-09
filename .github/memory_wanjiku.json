@@ -195,7 +195,8 @@
     "54651df77623028db43be154886b70694cc3fdb3c0cf5ac14699e42916a322f0",
     "646e0b45fa8a8524179a749cc4749493d3a8d437924cda2b0c9fe5b66ea7a497",
     "063d404e8e938157fff667049538dc7ab35ab48d1be26b83841dd59501241ec0",
-    "998536379dcb466d3c68f97b28ecd78f8e4428caa1a43f6b18dc5dfdb910bde7"
+    "998536379dcb466d3c68f97b28ecd78f8e4428caa1a43f6b18dc5dfdb910bde7",
+    "1a8fd891ad7d5b6ab213c42187ca936018253d70f589f5e46b6bf8b4d1b6f238"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -393,17 +394,10 @@
     "https://www.ghafla.co.ke/ksh-1m-per-seat-bahati-diana-marua-announce-exclusive-10-year-anniversary-celebration/",
     "https://www.ghafla.co.ke/i-am-the-solution-pastor-kanyari-steps-up-2027-parliamentary-bid-for-kasarani/",
     "https://www.ghafla.co.ke/oburu-odinga-progressing-well-in-hospital-expresses-thanks-for-rutos-support-at-bondo-memorial/",
-    "https://www.ghafla.co.ke/corazon-kwamboka-reveals-how-she-lost-1-5kg-after-recent-weight-gain/"
+    "https://www.ghafla.co.ke/corazon-kwamboka-reveals-how-she-lost-1-5kg-after-recent-weight-gain/",
+    "https://www.ghafla.co.ke/amber-ray-says-she-is-becoming-prettier-with-age-after-cosmetic-surgery/"
   ],
   "published_angles": [
-    {
-      "title": "Zari Hassan Draws Hard Line at 46, Bouncing Casual Guests and Shutting Down Age Auditors",
-      "angle": "Framing Zari Hassan's 46th birthday weekend through her uncompromising approach to boundary enforcement, connecting her zero-tolerance dress code policy at the venue to her direct rejection of online age-audit culture.",
-      "angle_type": "lifestyle gatekeeping and public identity control",
-      "opening": "Personality lead opening directly on Zari Hassan establishing firm boundaries at her 46th birthday celebration, from venue security to online age critics.",
-      "structure": "Personality boundary hook -> Dress code enforcement and security directives at party -> Address on teenage motherhood and online age auditors -> Shakib Lutaaya's public presence -> Concrete concluding fact",
-      "source": "https://www.ghafla.co.ke/i-had-babies-when-i-was-a-baby-zari-hassan-clarifies-being-just-46-years-despite-having-adult-sons/"
-    },
     {
       "title": "Aliko Dangote Floats KSh2 Trillion Lamu Refinery Pitch With 30% Regional Stake Offer",
       "angle": "Reframing the deal around billionaire Aliko Dangote's high-stakes terms for Kenya\u2014laying out a KSh2 trillion mega-project that conditions regional ownership on massive state-funded land and maritime port concessions, alongside a heavy reliance on imported crude.",
@@ -1195,6 +1189,14 @@
       "opening": "Personality lead opening directly on Corazon Kwamboka admitting the limits of 'intuitive eating' against cravings for chapatis and mandazis.",
       "structure": "Philosophical admission hook -> The 1.5kg reset mechanics and quote -> Confronting the wellness myth of 'listening to your body' -> Broader crusade against quick fixes (tummy teas and belts) -> Fitness as mental health therapy context -> Concrete disciplinary close",
       "source": "https://www.ghafla.co.ke/corazon-kwamboka-reveals-how-she-lost-1-5kg-after-recent-weight-gain/"
+    },
+    {
+      "title": "Amber Ray Pauses Double-Chin Surgery on Doctor\u2019s Orders After Extensive Turkey Makeover",
+      "angle": "Focusing on the medical ceiling that interrupted Amber Ray's cosmetic transformation\u2014specifically how her surgeon drew the line at a double-chin procedure to prevent surgical overload after she stacked breast augmentation, Lipo 360, calf transfers, and a near-KSh 1 million dental overhaul into a single trip.",
+      "angle_type": "celebrity medical boundaries and aesthetic pacing",
+      "opening": "Personality lead opening directly on Amber Ray confronting the surgical limits of her cosmetic transformation in Turkey.",
+      "structure": "Surgical ceiling lead -> The postponed double-chin procedure and doctor's directive at KICC -> Detailed inventory of Turkey procedures (Lipo 360, breasts, calves) -> The KSh 924,000 dental reconstruction breakdown -> Evolving self-perception and aging remarks close.",
+      "source": "https://www.ghafla.co.ke/amber-ray-says-she-is-becoming-prettier-with-age-after-cosmetic-surgery/"
     }
   ],
   "style_history": [
