@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "02acbc7ecfb6076acac0235a65a3fff8",
     "053391144cb8581afda43132fd7194ac",
     "a5065797229912a045e9b92c4a79030f",
     "0d9dca1c74f08cd694187a031959deb7",
@@ -799,10 +798,10 @@
     "d3c3d22547d000ff324d6c5bbd21d835",
     "c871c5b977e9d11d7a1c80453047caa1",
     "74648217b88fee134840a67e26a46011",
-    "de97c15212d5202c6abbdd52bd058e66"
+    "de97c15212d5202c6abbdd52bd058e66",
+    "cec6e164aa4264a2c44fb3fe9abba622"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Desk Take",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1262,7 +1262,8 @@
     "https://kenyans.co.ke/news/127718-court-dismisses-mp-gikarias-bid-block-iebcs-ksh-25m-fine-over-ol-kalou-remarks",
     "https://kenyans.co.ke/news/127720-canada-outlines-ebola-precautions-kenya-bound-travellers",
     "https://kenyans.co.ke/news/127723-heavy-rain-storms-damage-roads-property-kisumu-el-nino-nears",
-    "https://kenyans.co.ke/news/127724-protests-erupt-homa-bay-after-dci-allegedly-arrests-suspected-goon-leader"
+    "https://kenyans.co.ke/news/127724-protests-erupt-homa-bay-after-dci-allegedly-arrests-suspected-goon-leader",
+    "https://kenyans.co.ke/news/127721-us-report-links-kenyan-officials-recruitment-over-1000-men-fight-russia"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1615,7 +1616,8 @@
     "high court validates iebc disciplinary muscle dismissing gikaria fine challenge",
     "day shadow western ebola advisories extend containment window abroad",
     "kisumu orders commercial building audits minute squall topples warehouses",
-    "homa bay arrest forces confrontation alleged state links political gangs"
+    "homa bay arrest forces confrontation alleged state links political gangs",
+    "state shields recruiter agencies minor fines russia enlistment gap widens"
   ],
   "topic_keys": [
     "news tracker",
@@ -4063,6 +4065,15 @@
       "structure": "Patronage-scrutiny lead -> Factual core of the arrest and the ensuing local blockades -> The historical context of the Hammer Boys and the fatal August 16 rally -> The institutional pressure regarding the suspect's high-level government links -> Forward-looking legal and security implications.",
       "source": "https://kenyans.co.ke/news/127724-protests-erupt-homa-bay-after-dci-allegedly-arrests-suspected-goon-leader",
       "published_at": "2026-10-09T08:04:24Z"
+    },
+    {
+      "title": "State Shields Recruiter Agencies With Minor Fines as Russia Enlistment Gap Widens",
+      "angle": "The institutional insulation and conflict-of-interest loop: how widespread public official ownership in recruitment agencies has driven the state to downgrade human trafficking to minor registration violations, creating a 600-person tracking blindspot between the U.S. report's 1,000 recruits and the Foreign Ministry's 354 acknowledged cases.",
+      "angle_type": "accountability",
+      "opening": "Accountability lead focusing on the dilution of criminal enforcement into administrative paperwork charges against state-linked recruitment agencies.",
+      "structure": "Enforcement dilution lead -> The ownership conflict and regulatory downgrade -> The numerical discrepancy between Mudavadi's tally and U.S. findings -> The auxiliary drone pipeline targeting young women -> Next oversight steps at the Senate",
+      "source": "https://kenyans.co.ke/news/127721-us-report-links-kenyan-officials-recruitment-over-1000-men-fight-russia",
+      "published_at": "2026-10-09T08:40:38Z"
     }
   ]
 }
