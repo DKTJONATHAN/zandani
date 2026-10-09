@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f8388aede2938da79a159cd21d6b5919",
     "a6fc4df23de09e57010b99f504232744",
     "aa48a66d1b86e6931d8d478e051bb922",
     "4e9621cc6e01515ee62e2500437956d2",
@@ -799,10 +798,10 @@
     "0556a6e3e5ef1ad9314cc74d8d779495",
     "918627fdeb70d22998fe8a5a3015c70e",
     "01b6d77d0b3ff94a8a5e4519f7439ddf",
-    "3e16d5857110c8ec1fc99d0a7ea03a0c"
+    "3e16d5857110c8ec1fc99d0a7ea03a0c",
+    "d24b1516e9fadb69e984d76693d6ba24"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1268,7 +1268,8 @@
     "https://kenyans.co.ke/news/127728-kenyans-given-5-days-submit-views-proposed-8-fuel-vat",
     "https://kenyans.co.ke/news/127729-court-clears-eacc-probe-city-lawyer-over-ksh-10m-bribe",
     "https://kenyans.co.ke/news/127727-senior-police-officer-driver-killed-after-vehicle-hits-suspected-ied-garissa",
-    "https://kenyans.co.ke/news/127734-ntsa-launches-eye-screening-drivers-amid-surging-road-crashes"
+    "https://kenyans.co.ke/news/127734-ntsa-launches-eye-screening-drivers-amid-surging-road-crashes",
+    "https://kenyans.co.ke/news/127735-ruto-announces-plan-import-buffaloes-camels-milk-shortage-hits-kenya"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1627,7 +1628,8 @@
     "parliament compresses public scrutiny window bill anchors fuel vat law",
     "high court rebuffs entrapment defence validating eacc sting tuju bribery probe",
     "garissa ied blast kills sub county police boss key dadaab route",
-    "ntsa expands road patrols driver eyesight 2026 road deaths cross 000"
+    "ntsa expands road patrols driver eyesight 2026 road deaths cross 000",
+    "milk crunch drives state tap camels water buffaloes factory supply dips"
   ],
   "topic_keys": [
     "news tracker",
@@ -4129,6 +4131,15 @@
       "structure": "Patrol enforcement expansion lead -> Factual scale of 2026 fatalities and human-error data -> Mechanics of the roadside vision checks and 90% decision metric -> Broader PSV curriculum across Mombasa and Taita Taveta -> Structural rollout phases.",
       "source": "https://kenyans.co.ke/news/127734-ntsa-launches-eye-screening-drivers-amid-surging-road-crashes",
       "published_at": "2026-10-09T13:02:30Z"
+    },
+    {
+      "title": "Milk Crunch Drives State to Tap Camels and Water Buffaloes as Factory Supply Dips",
+      "angle": "Examining the market disruption pushing the policy pivot: how consecutive drops in processor deliveries and retail price spikes to Ksh80 per packet have driven farmers toward informal street brokers, prompting the state to look outside the traditional dairy cattle herd.",
+      "angle_type": "practical change",
+      "opening": "Market-pressure lead linking retail dairy price spikes and processor volume drops directly to the government's herd diversification mandate.",
+      "structure": "Retail and intake pressure lead -> Factual directive to Agriculture PS -> Price dynamics and broker leakage mechanics -> Production data trajectory from June to September -> Implementation hurdles for imported breeds",
+      "source": "https://kenyans.co.ke/news/127735-ruto-announces-plan-import-buffaloes-camels-milk-shortage-hits-kenya",
+      "published_at": "2026-10-09T14:02:22Z"
     }
   ]
 }
