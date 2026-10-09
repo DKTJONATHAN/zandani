@@ -200,7 +200,8 @@
     "5886b7bfa7400232cfc98033017f9923b04768ac4dafb186c671605cff9e8374",
     "739340ddb6c45ba892141348aba30e61c2c00498e533f81131305bd0b1447640",
     "f55aadc5c65394c10a6ae457149895d2569664130335472aa4d0af347834c4dc",
-    "1ff8560696aa719b084eab3a7c71fc2816d603bd1d20c7342669f157844e38fd"
+    "1ff8560696aa719b084eab3a7c71fc2816d603bd1d20c7342669f157844e38fd",
+    "88be8b570508b4c845e960efb8603fae64a7a46ef3e01f540bd3f9fb752c36c0"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -403,17 +404,10 @@
     "https://www.ghafla.co.ke/eric-omondi-explains-restricted-visitations-for-georgina-njenga-at-chiromo-hospital/",
     "https://www.ghafla.co.ke/30-minutes-of-havoc-as-intense-storm-causes-destruction-in-kisumu-amid-el-nino-news/",
     "https://www.ghafla.co.ke/do-not-abandon-your-children-geoffrey-mosiria-issues-emotional-appeal-to-parents-in-informal-settlements/",
-    "https://www.ghafla.co.ke/kenya-met-warns-of-heavy-rains-and-strong-winds-in-30-counties/"
+    "https://www.ghafla.co.ke/kenya-met-warns-of-heavy-rains-and-strong-winds-in-30-counties/",
+    "https://www.ghafla.co.ke/milly-wa-jesus-thanks-god-for-healing-as-she-reflects-on-journey-from-dandora/"
   ],
   "published_angles": [
-    {
-      "title": "Wandayi and Zingiro Host MT Sea Wolf in Mombasa as Rwanda Secures Maiden 40,000-Tonne Fuel Transit",
-      "angle": "Focusing on the high-level regional energy delegation\u2014bringing together ministers, high commissioners, and port chiefs at KOT2\u2014as a high-stakes diplomatic photo-op that marks a concrete shift in East African transit corridors.",
-      "angle_type": "high-level diplomatic delegation and infrastructure logistics",
-      "opening": "Start directly with the high-stakes gathering of regional energy chiefs at the Mombasa port facility.",
-      "structure": "Port arrival and delegation hook -> Details of the MT Sea Wolf cargo and KOT2 capacity -> Strategic logistics shift away from long-haul road tankers -> Concrete closing on transit timeline impacts for Kigali.",
-      "source": "https://www.ghafla.co.ke/kenya-pipeline-company-receives-rwandas-maiden-fuel-cargo-at-mombasa-port/"
-    },
     {
       "title": "Inside the \u2018Sharp Boy\u2019 Playbook: How Nairobi\u2019s Fake Forex Flex Hides Millions in Cyber Scams",
       "angle": "The theatrical mechanics and lifestyle blueprint of the 'Sharp Boys' subculture\u2014dissecting exactly how rented high-end vehicles, weekend dress codes, phantom profit dashboards, and Nairobi nightlife staging are weaponized for social engineering.",
@@ -1205,6 +1199,14 @@
       "opening": "Emergency activation lead highlighting the state placing disaster response units and shelters on standby following the meteorological advisory.",
       "structure": "State response mobilization hook -> County-by-county storm and gale footprint -> El Ni\u00f1o regional context -> Agricultural stakes versus flood mitigation close",
       "source": "https://www.ghafla.co.ke/kenya-met-warns-of-heavy-rains-and-strong-winds-in-30-counties/"
+    },
+    {
+      "title": "Milly wa Jesus Confronts Silent Postpartum Toll After Mistaking Clinical Depression for Daily Creator Burnout",
+      "angle": "Reframing her reflection around the unmasking of maternal mental health\u2014specifically how creator burnout disguised clinical postpartum depression as ordinary exhaustion alongside the emotional transition out of Dandora.",
+      "angle_type": "maternal mental health and creator background reality",
+      "opening": "Personality lead opening directly on Milly wa Jesus distinguishing postpartum depression from daily creator fatigue as she looks back on her Dandora roots.",
+      "structure": "Personality lead -> Burnout versus postpartum reality -> The Dandora transition hook -> Faith and emotional reconciliation -> Sustained public transparency close",
+      "source": "https://www.ghafla.co.ke/milly-wa-jesus-thanks-god-for-healing-as-she-reflects-on-journey-from-dandora/"
     }
   ],
   "style_history": [
