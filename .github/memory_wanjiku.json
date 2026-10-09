@@ -193,7 +193,8 @@
     "707e83baa586bef361b52948847249dabcd24b6d06193af9ae058a20431294cf",
     "59fed08603710e2baaa0a943a2d733e405241e16f520ab21bd797cd8289cf31d",
     "54651df77623028db43be154886b70694cc3fdb3c0cf5ac14699e42916a322f0",
-    "646e0b45fa8a8524179a749cc4749493d3a8d437924cda2b0c9fe5b66ea7a497"
+    "646e0b45fa8a8524179a749cc4749493d3a8d437924cda2b0c9fe5b66ea7a497",
+    "063d404e8e938157fff667049538dc7ab35ab48d1be26b83841dd59501241ec0"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -389,17 +390,10 @@
     "https://www.ghafla.co.ke/kenya-remains-safe-and-open-cs-duale-reassures-travellers-after-single-ebola-case/",
     "https://www.ghafla.co.ke/kalekye-mumo-shows-off-stunning-weight-loss-transformation-in-new-photoshoot/",
     "https://www.ghafla.co.ke/ksh-1m-per-seat-bahati-diana-marua-announce-exclusive-10-year-anniversary-celebration/",
-    "https://www.ghafla.co.ke/i-am-the-solution-pastor-kanyari-steps-up-2027-parliamentary-bid-for-kasarani/"
+    "https://www.ghafla.co.ke/i-am-the-solution-pastor-kanyari-steps-up-2027-parliamentary-bid-for-kasarani/",
+    "https://www.ghafla.co.ke/oburu-odinga-progressing-well-in-hospital-expresses-thanks-for-rutos-support-at-bondo-memorial/"
   ],
   "published_angles": [
-    {
-      "title": "Kenya Power Schedules Eight-Hour Blackout Across Nairobi Residential Hubs and Regional Factories",
-      "angle": "Focusing on the operational disruption split between Nairobi's prime residential and creative belts\u2014stretching from Argwings Kodhek to Riara Road\u2014and vital rural agro-processing nodes like tea factories and sawmills across six counties.",
-      "angle_type": "operational disruption and infrastructure impact",
-      "opening": "Direct focus on the extensive eight-hour blackout sweeping through Nairobi's prime residential hubs and regional commercial centres.",
-      "structure": "Urban residential belt breakdown -> Rural agro-industrial impact (factories and processing centres) -> Institutional and border corridor schedules -> Operational advisory specifics",
-      "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-several-counties-on-september-28/"
-    },
     {
       "title": "Natalie Githinji\u2019s N.E.W. Rally Packs KICC as Crowd Resists Political Speeches",
       "angle": "Reframing the gathering around creator-led mobilization\u2014how content creator Natalie Githinji filled KICC for health activism, and how the grassroots crowd actively enforced a boundary against political crossover on a creator stage.",
@@ -1191,6 +1185,14 @@
       "opening": "Personality lead focusing directly on Kanyari positioning himself as the political heir to Ndindi Nyoro's governance model.",
       "structure": "Ndindi Nyoro benchmarking lead -> Direct quotes and municipal priority zones (Njiiru, Ruai) -> Targeted ground-level voter drives (youth and single mothers) -> Pop-culture electoral clash with Stevo Simple Boy -> Kasarani political landscape close",
       "source": "https://www.ghafla.co.ke/i-am-the-solution-pastor-kanyari-steps-up-2027-parliamentary-bid-for-kasarani/"
+    },
+    {
+      "title": "Oburu Odinga Receives Bedside Brief from Mudavadi as Jaoko and Raila Jr. Anchor Bondo Memorial",
+      "angle": "Focusing on Oburu Odinga managing the family's public presence from his hospital bed, delegating stage duties at the Bondo mausoleum handover to son Jaoko and nephew Raila Jr. before receiving a direct state debrief from Musalia Mudavadi.",
+      "angle_type": "family delegation and high-profile hospital recovery",
+      "opening": "Personality lead opening directly on Oburu Odinga observing doctor-mandated rest while receiving a direct bedside briefing on the Bondo memorial.",
+      "structure": "Bedside briefing hook -> The delegation playbook via Jaoko Oburu and Raila Jr. -> Oburu's written statement on Raila's monument -> Mudavadi's protocol visit and Ruto's public reassurance close",
+      "source": "https://www.ghafla.co.ke/oburu-odinga-progressing-well-in-hospital-expresses-thanks-for-rutos-support-at-bondo-memorial/"
     }
   ],
   "style_history": [
