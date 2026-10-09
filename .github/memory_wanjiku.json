@@ -202,7 +202,8 @@
     "f55aadc5c65394c10a6ae457149895d2569664130335472aa4d0af347834c4dc",
     "1ff8560696aa719b084eab3a7c71fc2816d603bd1d20c7342669f157844e38fd",
     "88be8b570508b4c845e960efb8603fae64a7a46ef3e01f540bd3f9fb752c36c0",
-    "bb2a07559662d097f6d61107436bfd3cba61f29ec9777495c8f2533449324f02"
+    "bb2a07559662d097f6d61107436bfd3cba61f29ec9777495c8f2533449324f02",
+    "bcd58a6dde9fc2852a24a6e81db2b15554058e925a962ed703bbb73f03f55864"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -407,17 +408,10 @@
     "https://www.ghafla.co.ke/do-not-abandon-your-children-geoffrey-mosiria-issues-emotional-appeal-to-parents-in-informal-settlements/",
     "https://www.ghafla.co.ke/kenya-met-warns-of-heavy-rains-and-strong-winds-in-30-counties/",
     "https://www.ghafla.co.ke/milly-wa-jesus-thanks-god-for-healing-as-she-reflects-on-journey-from-dandora/",
-    "https://www.ghafla.co.ke/chebet-ronoh-as-much-as-i-talk-to-the-camera-im-very-introverted/"
+    "https://www.ghafla.co.ke/chebet-ronoh-as-much-as-i-talk-to-the-camera-im-very-introverted/",
+    "https://www.ghafla.co.ke/wambo-ashley-shows-off-new-home-after-nicholas-kioko-split/"
   ],
   "published_angles": [
-    {
-      "title": "Amber Ray Puts Double-Chin Surgery on Hold After Multi-Procedure Turkey Run",
-      "angle": "Focusing on the financial and medical logistics of high-end cosmetic tourism\u2014specifically breaking down her itemized procedures, the strict pacing demanded by surgeons, and the cost of her extensive dental overhaul.",
-      "angle_type": "lifestyle and celebrity economy economics",
-      "opening": "Start directly with Amber Ray addressing the medical boundary that paused her next planned procedure at a public gathering.",
-      "structure": "Medical postponement hook -> Itemized breakdown of Turkey procedures (boobs, Lipo 360, calves, and 21 teeth) -> Financial cost sheet and lifestyle changes -> Recovery timeline and upcoming double-chin plan.",
-      "source": "https://www.ghafla.co.ke/amber-ray-reveals-cosmetic-transformation-is-not-over-plans-double-chin-procedure/"
-    },
     {
       "title": "Mummie Francie Breaks Post-Delivery Buffer to Unveil Baby Bijoux Pookie Bubbles",
       "angle": "Focusing on Francie's deliberate five-day delivery buffer before going public, coupled with her distinct baby naming choice and how she and Mbaba balance controlled family documentation with digital lifestyle creator status.",
@@ -1209,6 +1203,14 @@
       "opening": "Personality lead opening directly on Ronoh clipping three inches off her vertical stature to make rooms feel comfortable.",
       "structure": "Height confession hook -> Mechanics of digital framing vs physical reality -> The extrovert persona vs private solitude contrast -> September 2026 overfunctioning baseline -> Grounded close on personal boundary enforcement",
       "source": "https://www.ghafla.co.ke/chebet-ronoh-as-much-as-i-talk-to-the-camera-im-very-introverted/"
+    },
+    {
+      "title": "Wambo Ashley Summons Family Priest to Consecrate New Home After Nicholas Kioko Exit",
+      "angle": "Focusing on the domestic boundary ritual: Wambo Ashley using an ordained family priest to formally sanctify her solo household as she sets up physical and structural independence after four years of shared domestic life.",
+      "angle_type": "domestic reset and family ritual",
+      "opening": "Personality lead opening directly on the Catholic priestly blessing inside Wambo Ashley's unfurnished living space.",
+      "structure": "Clerical house blessing hook -> The transition from empty rooms to structural kitchen renovations -> The timeline of the September 14 separation disclosure -> Joint parenting logistics for their three children",
+      "source": "https://www.ghafla.co.ke/wambo-ashley-shows-off-new-home-after-nicholas-kioko-split/"
     }
   ],
   "style_history": [
