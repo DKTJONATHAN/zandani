@@ -199,7 +199,8 @@
     "1a8fd891ad7d5b6ab213c42187ca936018253d70f589f5e46b6bf8b4d1b6f238",
     "5886b7bfa7400232cfc98033017f9923b04768ac4dafb186c671605cff9e8374",
     "739340ddb6c45ba892141348aba30e61c2c00498e533f81131305bd0b1447640",
-    "f55aadc5c65394c10a6ae457149895d2569664130335472aa4d0af347834c4dc"
+    "f55aadc5c65394c10a6ae457149895d2569664130335472aa4d0af347834c4dc",
+    "1ff8560696aa719b084eab3a7c71fc2816d603bd1d20c7342669f157844e38fd"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -401,17 +402,10 @@
     "https://www.ghafla.co.ke/amber-ray-says-she-is-becoming-prettier-with-age-after-cosmetic-surgery/",
     "https://www.ghafla.co.ke/eric-omondi-explains-restricted-visitations-for-georgina-njenga-at-chiromo-hospital/",
     "https://www.ghafla.co.ke/30-minutes-of-havoc-as-intense-storm-causes-destruction-in-kisumu-amid-el-nino-news/",
-    "https://www.ghafla.co.ke/do-not-abandon-your-children-geoffrey-mosiria-issues-emotional-appeal-to-parents-in-informal-settlements/"
+    "https://www.ghafla.co.ke/do-not-abandon-your-children-geoffrey-mosiria-issues-emotional-appeal-to-parents-in-informal-settlements/",
+    "https://www.ghafla.co.ke/kenya-met-warns-of-heavy-rains-and-strong-winds-in-30-counties/"
   ],
   "published_angles": [
-    {
-      "title": "Ruto Defies Corporate Gatekeepers, Pledges Public Shares in Lamu Refinery via NSE",
-      "angle": "Examining Ruto's populist push against elite corporate capture by contrasting his public ownership mandate with historical utility monopolies like Kenya Power.",
-      "angle_type": "public accountability and equity ownership policy",
-      "opening": "Personality and statement lead opening directly on Ruto's public address and his direct challenge to elite corporate gatekeeping.",
-      "structure": "Presidential statement hook -> The NSE public share mechanism -> Critique of elite ownership and Kenya Power comparison -> Lamu energy hub context and public education pledge.",
-      "source": "https://www.ghafla.co.ke/ruto-says-all-kenyans-will-have-chance-to-own-shares-in-lamu-oil-refinery/"
-    },
     {
       "title": "Wandayi and Zingiro Host MT Sea Wolf in Mombasa as Rwanda Secures Maiden 40,000-Tonne Fuel Transit",
       "angle": "Focusing on the high-level regional energy delegation\u2014bringing together ministers, high commissioners, and port chiefs at KOT2\u2014as a high-stakes diplomatic photo-op that marks a concrete shift in East African transit corridors.",
@@ -1203,6 +1197,14 @@
       "opening": "Personality lead focusing directly on Geoffrey Mosiria turning his prominent Nairobi administrative platform into a vocal defense campaign for neglected minors.",
       "structure": "Advocacy lead -> The silent suffering warning -> Platform pledge and threat to predators -> Collective neighborhood vigilance close",
       "source": "https://www.ghafla.co.ke/do-not-abandon-your-children-geoffrey-mosiria-issues-emotional-appeal-to-parents-in-informal-settlements/"
+    },
+    {
+      "title": "State Activates Evacuation Centers as Kenya Met Warns of Heavy Storms Across 30 Counties",
+      "angle": "The immediate operational escalation by national emergency teams\u2014shifting from seasonal short-rains optimism to active evacuation readiness and localized storm alerts across over 30 counties under a strengthening El Ni\u00f1o pattern.",
+      "angle_type": "disaster mobilization and institutional emergency response",
+      "opening": "Emergency activation lead highlighting the state placing disaster response units and shelters on standby following the meteorological advisory.",
+      "structure": "State response mobilization hook -> County-by-county storm and gale footprint -> El Ni\u00f1o regional context -> Agricultural stakes versus flood mitigation close",
+      "source": "https://www.ghafla.co.ke/kenya-met-warns-of-heavy-rains-and-strong-winds-in-30-counties/"
     }
   ],
   "style_history": [
