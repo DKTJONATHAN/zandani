@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "1cb0bc3e42fd23e38dc3a64fec96979b",
     "02acbc7ecfb6076acac0235a65a3fff8",
     "053391144cb8581afda43132fd7194ac",
     "a5065797229912a045e9b92c4a79030f",
@@ -799,10 +798,10 @@
     "dd8042b20c7a24dc0707354fb5bc026e",
     "d3c3d22547d000ff324d6c5bbd21d835",
     "c871c5b977e9d11d7a1c80453047caa1",
-    "74648217b88fee134840a67e26a46011"
+    "74648217b88fee134840a67e26a46011",
+    "de97c15212d5202c6abbdd52bd058e66"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1261,7 +1261,8 @@
     "https://kenyans.co.ke/news/127716-kam-challenges-ksh40-kg-excise-duty-industrial-sugar-court",
     "https://kenyans.co.ke/news/127718-court-dismisses-mp-gikarias-bid-block-iebcs-ksh-25m-fine-over-ol-kalou-remarks",
     "https://kenyans.co.ke/news/127720-canada-outlines-ebola-precautions-kenya-bound-travellers",
-    "https://kenyans.co.ke/news/127723-heavy-rain-storms-damage-roads-property-kisumu-el-nino-nears"
+    "https://kenyans.co.ke/news/127723-heavy-rain-storms-damage-roads-property-kisumu-el-nino-nears",
+    "https://kenyans.co.ke/news/127724-protests-erupt-homa-bay-after-dci-allegedly-arrests-suspected-goon-leader"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1613,7 +1614,8 @@
     "manufacturers put 433 industrial sugar tax constitutional test",
     "high court validates iebc disciplinary muscle dismissing gikaria fine challenge",
     "day shadow western ebola advisories extend containment window abroad",
-    "kisumu orders commercial building audits minute squall topples warehouses"
+    "kisumu orders commercial building audits minute squall topples warehouses",
+    "homa bay arrest forces confrontation alleged state links political gangs"
   ],
   "topic_keys": [
     "news tracker",
@@ -4052,6 +4054,15 @@
       "structure": "Structural vulnerability lead -> Commercial impact along Obote Road -> City planning enforcement directives -> Wider municipal drainage and meteorological context -> Forward regulatory timeline",
       "source": "https://kenyans.co.ke/news/127723-heavy-rain-storms-damage-roads-property-kisumu-el-nino-nears",
       "published_at": "2026-10-09T07:02:36Z"
+    },
+    {
+      "title": "Homa Bay Arrest Forces Confrontation Over Alleged State Links to Political Gangs",
+      "angle": "The accountability and political patronage angle: highlighting how the execution of a weeks-old assault warrant against an alleged gang leader has forced a confrontation over the suspected links between violent youth networks and senior government officials.",
+      "angle_type": "accountability",
+      "opening": "Political accountability opening that links a seemingly routine assault arrest directly to the broader, state-linked patronage networks driving local violence.",
+      "structure": "Patronage-scrutiny lead -> Factual core of the arrest and the ensuing local blockades -> The historical context of the Hammer Boys and the fatal August 16 rally -> The institutional pressure regarding the suspect's high-level government links -> Forward-looking legal and security implications.",
+      "source": "https://kenyans.co.ke/news/127724-protests-erupt-homa-bay-after-dci-allegedly-arrests-suspected-goon-leader",
+      "published_at": "2026-10-09T08:04:24Z"
     }
   ]
 }
