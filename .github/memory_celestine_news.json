@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "de5391312b5e524f90551ae7e9e12c4a",
     "d38acbf4c37db0a84901a03e59e36b37",
     "057be9efc7d862df40a149135cbb9530",
     "1cb0bc3e42fd23e38dc3a64fec96979b",
@@ -799,10 +798,10 @@
     "4945e37d15d6b74ce59b55b89adbbd8f",
     "5474462e6435385183613f7e20b685d5",
     "2fe95017f45eb292394469de9037a72c",
-    "dd8042b20c7a24dc0707354fb5bc026e"
+    "dd8042b20c7a24dc0707354fb5bc026e",
+    "d3c3d22547d000ff324d6c5bbd21d835"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1258,7 +1258,8 @@
     "https://kenyans.co.ke/news/127713-ministry-suspends-national-youth-council-elections-after-high-court-ruling",
     "https://kenyans.co.ke/news/127715-ntsa-announces-two-minute-driving-licence-collection-service",
     "https://kenyans.co.ke/news/127711-kenyas-diaspora-remittances-drop-13-us-and-saudi-inflows-decline",
-    "https://kenyans.co.ke/news/127716-kam-challenges-ksh40-kg-excise-duty-industrial-sugar-court"
+    "https://kenyans.co.ke/news/127716-kam-challenges-ksh40-kg-excise-duty-industrial-sugar-court",
+    "https://kenyans.co.ke/news/127718-court-dismisses-mp-gikarias-bid-block-iebcs-ksh-25m-fine-over-ol-kalou-remarks"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1607,7 +1608,8 @@
     "eve poll court order extends year leadership freeze national youth council",
     "ntsa cuts licence pickups two minutes amid lingering card backlog",
     "policy shifts saudi arabia strain household dollar lifeline",
-    "manufacturers put 433 industrial sugar tax constitutional test"
+    "manufacturers put 433 industrial sugar tax constitutional test",
+    "high court validates iebc disciplinary muscle dismissing gikaria fine challenge"
   ],
   "topic_keys": [
     "news tracker",
@@ -4019,6 +4021,15 @@
       "structure": "Constitutional challenge opening -> Statutory and financial core of Section 36(a)(vi) -> Legal arguments on public participation and fair burden -> Industrial input reality versus protectionist policy -> Urgent judicial directions and October 15 mention",
       "source": "https://kenyans.co.ke/news/127716-kam-challenges-ksh40-kg-excise-duty-industrial-sugar-court",
       "published_at": "2026-10-08T17:02:10Z"
+    },
+    {
+      "title": "High Court Validates IEBC Disciplinary Muscle in Dismissing MP Gikaria's Fine Challenge",
+      "angle": "Attribution-first framing of the institutional accountability precedent: how the High Court's dismissal shields the IEBC's statutory enforcement machinery, establishing that the commission can independently impose financial, campaign, and disqualification penalties against sitting lawmakers separate from criminal prosecution by the ODPP.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first lead establishing the High Court ruling and naming the institutional beneficiary\u2014the electoral oversight apparatus\u2014before outlining the financial and criminal liabilities confronting the lawmaker.",
+      "structure": "Attribution-first authority lead -> Judicial review threshold failure -> Dual-track liability: administrative penalties versus ODPP criminal referral -> Enforcement committee's wider disciplinary powers -> Final compliance deadline and next steps",
+      "source": "https://kenyans.co.ke/news/127718-court-dismisses-mp-gikarias-bid-block-iebcs-ksh-25m-fine-over-ol-kalou-remarks",
+      "published_at": "2026-10-09T05:02:33Z"
     }
   ]
 }
