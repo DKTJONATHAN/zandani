@@ -196,7 +196,8 @@
     "646e0b45fa8a8524179a749cc4749493d3a8d437924cda2b0c9fe5b66ea7a497",
     "063d404e8e938157fff667049538dc7ab35ab48d1be26b83841dd59501241ec0",
     "998536379dcb466d3c68f97b28ecd78f8e4428caa1a43f6b18dc5dfdb910bde7",
-    "1a8fd891ad7d5b6ab213c42187ca936018253d70f589f5e46b6bf8b4d1b6f238"
+    "1a8fd891ad7d5b6ab213c42187ca936018253d70f589f5e46b6bf8b4d1b6f238",
+    "5886b7bfa7400232cfc98033017f9923b04768ac4dafb186c671605cff9e8374"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -395,17 +396,10 @@
     "https://www.ghafla.co.ke/i-am-the-solution-pastor-kanyari-steps-up-2027-parliamentary-bid-for-kasarani/",
     "https://www.ghafla.co.ke/oburu-odinga-progressing-well-in-hospital-expresses-thanks-for-rutos-support-at-bondo-memorial/",
     "https://www.ghafla.co.ke/corazon-kwamboka-reveals-how-she-lost-1-5kg-after-recent-weight-gain/",
-    "https://www.ghafla.co.ke/amber-ray-says-she-is-becoming-prettier-with-age-after-cosmetic-surgery/"
+    "https://www.ghafla.co.ke/amber-ray-says-she-is-becoming-prettier-with-age-after-cosmetic-surgery/",
+    "https://www.ghafla.co.ke/eric-omondi-explains-restricted-visitations-for-georgina-njenga-at-chiromo-hospital/"
   ],
   "published_angles": [
-    {
-      "title": "Aliko Dangote Floats KSh2 Trillion Lamu Refinery Pitch With 30% Regional Stake Offer",
-      "angle": "Reframing the deal around billionaire Aliko Dangote's high-stakes terms for Kenya\u2014laying out a KSh2 trillion mega-project that conditions regional ownership on massive state-funded land and maritime port concessions, alongside a heavy reliance on imported crude.",
-      "angle_type": "billionaire tycoon dealmaking and high-stakes infrastructure terms",
-      "opening": "Personality lead focusing on Africa's richest industrialist Aliko Dangote dangling a KSh2 trillion mega-refinery before East African capitals under strict host-nation terms.",
-      "structure": "Tycoon personality hook and KSh2T price tag -> The 30% regional stake offer vs. Kenya's unratified 10% slice -> Host-nation demands (prime Lamu land, dedicated infrastructure, port access) -> The Lekki crude reality check (import dependency) -> Current negotiation status",
-      "source": "https://www.ghafla.co.ke/dangote-group-proposes-regional-stake-in-planned-lamu-refinery-project/"
-    },
     {
       "title": "Joho Pulls US Departments Into High-Stakes Mrima Hill Mineral Scramble Ahead of October Deadline",
       "angle": "The high-stakes corporate and geopolitical scramble behind the October Mrima Hill bidding war, spotlighting the specific multinational clash between US, Australian, and Chinese firms for Kwale's industrial deposits.",
@@ -1197,6 +1191,14 @@
       "opening": "Personality lead opening directly on Amber Ray confronting the surgical limits of her cosmetic transformation in Turkey.",
       "structure": "Surgical ceiling lead -> The postponed double-chin procedure and doctor's directive at KICC -> Detailed inventory of Turkey procedures (Lipo 360, breasts, calves) -> The KSh 924,000 dental reconstruction breakdown -> Evolving self-perception and aging remarks close.",
       "source": "https://www.ghafla.co.ke/amber-ray-says-she-is-becoming-prettier-with-age-after-cosmetic-surgery/"
+    },
+    {
+      "title": "Eric Omondi Locks Out Content Peers at Chiromo, Limiting Georgina Njenga\u2019s Recovery to Mother and Daughter",
+      "angle": "Focusing on the deliberate clinical perimeter Eric Omondi and the facility erected against social circle pressure and curious online peers, strictly sealing the 90-day inpatient program to immediate maternal kin while invoking the cautionary memory of Stoopid Boy to justify total isolation.",
+      "angle_type": "protective boundary enforcement and clinical quarantine vs industry peers",
+      "opening": "Personality lead opening directly on Eric Omondi shutting the door on entertainment circles and third-party associates outside Georgina Njenga's hospital ward.",
+      "structure": "Isolation boundary lead -> Direct clarification and the two-visitor mandate -> Backstory of the crisis and Stoopid Boy precedent -> Hospital partnership and 90-day therapeutic protocol -> Close on the boundary against digital scrutiny",
+      "source": "https://www.ghafla.co.ke/eric-omondi-explains-restricted-visitations-for-georgina-njenga-at-chiromo-hospital/"
     }
   ],
   "style_history": [
