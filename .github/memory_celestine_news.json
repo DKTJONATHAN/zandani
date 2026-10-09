@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "9393385ace60f8ad503e1adb6071b4b3",
     "d96f7cfa4679cf4cbe56ea9428590fe7",
     "f8388aede2938da79a159cd21d6b5919",
     "a6fc4df23de09e57010b99f504232744",
@@ -799,10 +798,10 @@
     "cec6e164aa4264a2c44fb3fe9abba622",
     "e3705837c2231fc58685a846a8a072c8",
     "0556a6e3e5ef1ad9314cc74d8d779495",
-    "918627fdeb70d22998fe8a5a3015c70e"
+    "918627fdeb70d22998fe8a5a3015c70e",
+    "01b6d77d0b3ff94a8a5e4519f7439ddf"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1266,7 +1266,8 @@
     "https://kenyans.co.ke/news/127721-us-report-links-kenyan-officials-recruitment-over-1000-men-fight-russia",
     "https://kenyans.co.ke/news/127719-suspected-ebola-case-wajir-tests-negative-governor-confirms",
     "https://kenyans.co.ke/news/127728-kenyans-given-5-days-submit-views-proposed-8-fuel-vat",
-    "https://kenyans.co.ke/news/127729-court-clears-eacc-probe-city-lawyer-over-ksh-10m-bribe"
+    "https://kenyans.co.ke/news/127729-court-clears-eacc-probe-city-lawyer-over-ksh-10m-bribe",
+    "https://kenyans.co.ke/news/127727-senior-police-officer-driver-killed-after-vehicle-hits-suspected-ied-garissa"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1623,7 +1624,8 @@
     "state shields recruiter agencies minor fines russia enlistment gap widens",
     "negative wajir ebola test eases panic but highlights multi week freight transit lag",
     "parliament compresses public scrutiny window bill anchors fuel vat law",
-    "high court rebuffs entrapment defence validating eacc sting tuju bribery probe"
+    "high court rebuffs entrapment defence validating eacc sting tuju bribery probe",
+    "garissa ied blast kills sub county police boss key dadaab route"
   ],
   "topic_keys": [
     "news tracker",
@@ -4107,6 +4109,15 @@
       "structure": "Attribution and institutional authority lead -> Judicial threshold failure and ruling rationale -> The commercial dispute backdrop and sting mechanics -> Legal defence arguments on entrapment -> Current procedural posture and unresolved prosecution steps",
       "source": "https://kenyans.co.ke/news/127729-court-clears-eacc-probe-city-lawyer-over-ksh-10m-bribe",
       "published_at": "2026-10-09T11:02:28Z"
+    },
+    {
+      "title": "Garissa IED Blast Kills Sub-County Police Boss on Key Dadaab Route",
+      "angle": "Focusing on the operational vulnerability of senior frontline command navigating key transit links between refugee complexes, showing how the targeted blast penetrates security command structures in a border belt that has already absorbed at least 25 cross-border strikes this year.",
+      "angle_type": "institutional pressure",
+      "opening": "Command-vulnerability lead identifying the loss of a field formation chief along an administrative corridor as evidence of growing tactical risk for frontier security leadership.",
+      "structure": "Command casualty lead -> Factual verification of the Saretho-Dadaab blast -> Operational profile of the Saretho-Hagadera transit artery -> Statistical context of 25 regional cross-border strikes -> Unresolved operational details and active manhunt",
+      "source": "https://kenyans.co.ke/news/127727-senior-police-officer-driver-killed-after-vehicle-hits-suspected-ied-garissa",
+      "published_at": "2026-10-09T12:02:27Z"
     }
   ]
 }
