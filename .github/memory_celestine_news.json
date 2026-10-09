@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "d96f7cfa4679cf4cbe56ea9428590fe7",
     "f8388aede2938da79a159cd21d6b5919",
     "a6fc4df23de09e57010b99f504232744",
     "aa48a66d1b86e6931d8d478e051bb922",
@@ -799,10 +798,10 @@
     "e3705837c2231fc58685a846a8a072c8",
     "0556a6e3e5ef1ad9314cc74d8d779495",
     "918627fdeb70d22998fe8a5a3015c70e",
-    "01b6d77d0b3ff94a8a5e4519f7439ddf"
+    "01b6d77d0b3ff94a8a5e4519f7439ddf",
+    "3e16d5857110c8ec1fc99d0a7ea03a0c"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1267,7 +1267,8 @@
     "https://kenyans.co.ke/news/127719-suspected-ebola-case-wajir-tests-negative-governor-confirms",
     "https://kenyans.co.ke/news/127728-kenyans-given-5-days-submit-views-proposed-8-fuel-vat",
     "https://kenyans.co.ke/news/127729-court-clears-eacc-probe-city-lawyer-over-ksh-10m-bribe",
-    "https://kenyans.co.ke/news/127727-senior-police-officer-driver-killed-after-vehicle-hits-suspected-ied-garissa"
+    "https://kenyans.co.ke/news/127727-senior-police-officer-driver-killed-after-vehicle-hits-suspected-ied-garissa",
+    "https://kenyans.co.ke/news/127734-ntsa-launches-eye-screening-drivers-amid-surging-road-crashes"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1625,7 +1626,8 @@
     "negative wajir ebola test eases panic but highlights multi week freight transit lag",
     "parliament compresses public scrutiny window bill anchors fuel vat law",
     "high court rebuffs entrapment defence validating eacc sting tuju bribery probe",
-    "garissa ied blast kills sub county police boss key dadaab route"
+    "garissa ied blast kills sub county police boss key dadaab route",
+    "ntsa expands road patrols driver eyesight 2026 road deaths cross 000"
   ],
   "topic_keys": [
     "news tracker",
@@ -4118,6 +4120,15 @@
       "structure": "Command casualty lead -> Factual verification of the Saretho-Dadaab blast -> Operational profile of the Saretho-Hagadera transit artery -> Statistical context of 25 regional cross-border strikes -> Unresolved operational details and active manhunt",
       "source": "https://kenyans.co.ke/news/127727-senior-police-officer-driver-killed-after-vehicle-hits-suspected-ied-garissa",
       "published_at": "2026-10-09T12:02:27Z"
+    },
+    {
+      "title": "NTSA Expands Road Patrols to Driver Eyesight as 2026 Road Deaths Cross 9,000",
+      "angle": "The shift in roadside enforcement doctrine from vehicle mechanical fitness to biological compliance, where patrol officers will interrogate drivers directly on optical screening as nine-month road deaths breach 9,000.",
+      "angle_type": "accountability",
+      "opening": "Enforcement-pivot opening framing roadside stops as expanding into driver physical fitness verification.",
+      "structure": "Patrol enforcement expansion lead -> Factual scale of 2026 fatalities and human-error data -> Mechanics of the roadside vision checks and 90% decision metric -> Broader PSV curriculum across Mombasa and Taita Taveta -> Structural rollout phases.",
+      "source": "https://kenyans.co.ke/news/127734-ntsa-launches-eye-screening-drivers-amid-surging-road-crashes",
+      "published_at": "2026-10-09T13:02:30Z"
     }
   ]
 }
