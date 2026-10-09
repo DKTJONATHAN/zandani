@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "057be9efc7d862df40a149135cbb9530",
     "1cb0bc3e42fd23e38dc3a64fec96979b",
     "02acbc7ecfb6076acac0235a65a3fff8",
     "053391144cb8581afda43132fd7194ac",
@@ -799,10 +798,10 @@
     "2fe95017f45eb292394469de9037a72c",
     "dd8042b20c7a24dc0707354fb5bc026e",
     "d3c3d22547d000ff324d6c5bbd21d835",
-    "c871c5b977e9d11d7a1c80453047caa1"
+    "c871c5b977e9d11d7a1c80453047caa1",
+    "74648217b88fee134840a67e26a46011"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1260,7 +1260,8 @@
     "https://kenyans.co.ke/news/127711-kenyas-diaspora-remittances-drop-13-us-and-saudi-inflows-decline",
     "https://kenyans.co.ke/news/127716-kam-challenges-ksh40-kg-excise-duty-industrial-sugar-court",
     "https://kenyans.co.ke/news/127718-court-dismisses-mp-gikarias-bid-block-iebcs-ksh-25m-fine-over-ol-kalou-remarks",
-    "https://kenyans.co.ke/news/127720-canada-outlines-ebola-precautions-kenya-bound-travellers"
+    "https://kenyans.co.ke/news/127720-canada-outlines-ebola-precautions-kenya-bound-travellers",
+    "https://kenyans.co.ke/news/127723-heavy-rain-storms-damage-roads-property-kisumu-el-nino-nears"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1611,7 +1612,8 @@
     "policy shifts saudi arabia strain household dollar lifeline",
     "manufacturers put 433 industrial sugar tax constitutional test",
     "high court validates iebc disciplinary muscle dismissing gikaria fine challenge",
-    "day shadow western ebola advisories extend containment window abroad"
+    "day shadow western ebola advisories extend containment window abroad",
+    "kisumu orders commercial building audits minute squall topples warehouses"
   ],
   "topic_keys": [
     "news tracker",
@@ -4041,6 +4043,15 @@
       "structure": "Long-tail surveillance lead -> Canadian advisory directives -> Intersection with existing security zones -> Kenyan diplomatic/containment response -> JKIA screening and contact tracing -> Unresolved forward edge on international travel restrictions.",
       "source": "https://kenyans.co.ke/news/127720-canada-outlines-ebola-precautions-kenya-bound-travellers",
       "published_at": "2026-10-09T06:02:33Z"
+    },
+    {
+      "title": "Kisumu Orders Commercial Building Audits After 30-Minute Squall Topples Warehouses",
+      "angle": "The structural failure of commercial buildings and roadside installations under less than half an hour of rain, triggering urgent regulatory scrutiny on landlord maintenance and urban planning compliance ahead of the broader seasonal deluge.",
+      "angle_type": "accountability",
+      "opening": "Regulatory accountability lead connecting the rapid structural failures along commercial transit routes directly to the county's emergency inspection orders.",
+      "structure": "Structural vulnerability lead -> Commercial impact along Obote Road -> City planning enforcement directives -> Wider municipal drainage and meteorological context -> Forward regulatory timeline",
+      "source": "https://kenyans.co.ke/news/127723-heavy-rain-storms-damage-roads-property-kisumu-el-nino-nears",
+      "published_at": "2026-10-09T07:02:36Z"
     }
   ]
 }
