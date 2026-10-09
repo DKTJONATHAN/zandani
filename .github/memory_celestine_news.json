@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "053391144cb8581afda43132fd7194ac",
     "a5065797229912a045e9b92c4a79030f",
     "0d9dca1c74f08cd694187a031959deb7",
     "9393385ace60f8ad503e1adb6071b4b3",
@@ -799,10 +798,10 @@
     "c871c5b977e9d11d7a1c80453047caa1",
     "74648217b88fee134840a67e26a46011",
     "de97c15212d5202c6abbdd52bd058e66",
-    "cec6e164aa4264a2c44fb3fe9abba622"
+    "cec6e164aa4264a2c44fb3fe9abba622",
+    "e3705837c2231fc58685a846a8a072c8"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1263,7 +1263,8 @@
     "https://kenyans.co.ke/news/127720-canada-outlines-ebola-precautions-kenya-bound-travellers",
     "https://kenyans.co.ke/news/127723-heavy-rain-storms-damage-roads-property-kisumu-el-nino-nears",
     "https://kenyans.co.ke/news/127724-protests-erupt-homa-bay-after-dci-allegedly-arrests-suspected-goon-leader",
-    "https://kenyans.co.ke/news/127721-us-report-links-kenyan-officials-recruitment-over-1000-men-fight-russia"
+    "https://kenyans.co.ke/news/127721-us-report-links-kenyan-officials-recruitment-over-1000-men-fight-russia",
+    "https://kenyans.co.ke/news/127719-suspected-ebola-case-wajir-tests-negative-governor-confirms"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1617,7 +1618,8 @@
     "day shadow western ebola advisories extend containment window abroad",
     "kisumu orders commercial building audits minute squall topples warehouses",
     "homa bay arrest forces confrontation alleged state links political gangs",
-    "state shields recruiter agencies minor fines russia enlistment gap widens"
+    "state shields recruiter agencies minor fines russia enlistment gap widens",
+    "negative wajir ebola test eases panic but highlights multi week freight transit lag"
   ],
   "topic_keys": [
     "news tracker",
@@ -4074,6 +4076,15 @@
       "structure": "Enforcement dilution lead -> The ownership conflict and regulatory downgrade -> The numerical discrepancy between Mudavadi's tally and U.S. findings -> The auxiliary drone pipeline targeting young women -> Next oversight steps at the Senate",
       "source": "https://kenyans.co.ke/news/127721-us-report-links-kenyan-officials-recruitment-over-1000-men-fight-russia",
       "published_at": "2026-10-09T08:40:38Z"
+    },
+    {
+      "title": "Negative Wajir Ebola Test Eases Panic but Highlights Multi-Week Freight Transit Lag",
+      "angle": "The operational timeline and transit trail: how a five-week symptomatic journey along the DRC-Uganda-Kenya cargo corridor turned a peripheral sub-county hospital into the decisive tripwire for cross-border surveillance.",
+      "angle_type": "timing",
+      "opening": "Corridor-transit lead connecting the negative lab confirmation directly to the multi-week movement of cross-border freight crews across northern Kenya.",
+      "structure": "Transit timeline lead -> Verified laboratory results and county statement -> Spatial tracking along the DRC-Uganda freight corridor -> Comparison with the Nairobi aviation case -> Operational pressure on peripheral health facilities",
+      "source": "https://kenyans.co.ke/news/127719-suspected-ebola-case-wajir-tests-negative-governor-confirms",
+      "published_at": "2026-10-09T09:01:58Z"
     }
   ]
 }
