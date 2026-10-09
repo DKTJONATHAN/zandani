@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a5065797229912a045e9b92c4a79030f",
     "0d9dca1c74f08cd694187a031959deb7",
     "9393385ace60f8ad503e1adb6071b4b3",
     "d96f7cfa4679cf4cbe56ea9428590fe7",
@@ -799,10 +798,10 @@
     "74648217b88fee134840a67e26a46011",
     "de97c15212d5202c6abbdd52bd058e66",
     "cec6e164aa4264a2c44fb3fe9abba622",
-    "e3705837c2231fc58685a846a8a072c8"
+    "e3705837c2231fc58685a846a8a072c8",
+    "0556a6e3e5ef1ad9314cc74d8d779495"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1264,7 +1264,8 @@
     "https://kenyans.co.ke/news/127723-heavy-rain-storms-damage-roads-property-kisumu-el-nino-nears",
     "https://kenyans.co.ke/news/127724-protests-erupt-homa-bay-after-dci-allegedly-arrests-suspected-goon-leader",
     "https://kenyans.co.ke/news/127721-us-report-links-kenyan-officials-recruitment-over-1000-men-fight-russia",
-    "https://kenyans.co.ke/news/127719-suspected-ebola-case-wajir-tests-negative-governor-confirms"
+    "https://kenyans.co.ke/news/127719-suspected-ebola-case-wajir-tests-negative-governor-confirms",
+    "https://kenyans.co.ke/news/127728-kenyans-given-5-days-submit-views-proposed-8-fuel-vat"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1619,7 +1620,8 @@
     "kisumu orders commercial building audits minute squall topples warehouses",
     "homa bay arrest forces confrontation alleged state links political gangs",
     "state shields recruiter agencies minor fines russia enlistment gap widens",
-    "negative wajir ebola test eases panic but highlights multi week freight transit lag"
+    "negative wajir ebola test eases panic but highlights multi week freight transit lag",
+    "parliament compresses public scrutiny window bill anchors fuel vat law"
   ],
   "topic_keys": [
     "news tracker",
@@ -4085,6 +4087,15 @@
       "structure": "Transit timeline lead -> Verified laboratory results and county statement -> Spatial tracking along the DRC-Uganda freight corridor -> Comparison with the Nairobi aviation case -> Operational pressure on peripheral health facilities",
       "source": "https://kenyans.co.ke/news/127719-suspected-ebola-case-wajir-tests-negative-governor-confirms",
       "published_at": "2026-10-09T09:01:58Z"
+    },
+    {
+      "title": "Parliament Compresses Public Scrutiny Window as Bill Anchors 8% Fuel VAT Into Law",
+      "angle": "The rapid procedural compression of public participation over a weekend window as the state moves to formally codify emergency price relief into permanent statute, transitioning temporary subsidies and ad-hoc tax cuts into binding law.",
+      "angle_type": "timing",
+      "opening": "Procedural timeline opening establishing the tight statutory countdown facing taxpayers and industry groups seeking to influence fuel and excise amendments.",
+      "structure": "Countdown lead -> Legislative mechanics and sponsor details -> Statutory transition from emergency relief to permanent code -> Pump price stakes and fiscal context -> Procedural next steps and submission channels.",
+      "source": "https://kenyans.co.ke/news/127728-kenyans-given-5-days-submit-views-proposed-8-fuel-vat",
+      "published_at": "2026-10-09T10:02:31Z"
     }
   ]
 }
