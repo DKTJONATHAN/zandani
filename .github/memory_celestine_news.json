@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a6fc4df23de09e57010b99f504232744",
     "aa48a66d1b86e6931d8d478e051bb922",
     "4e9621cc6e01515ee62e2500437956d2",
     "a56edd1f698eb29045cdcb875e07d9ea",
@@ -799,10 +798,10 @@
     "918627fdeb70d22998fe8a5a3015c70e",
     "01b6d77d0b3ff94a8a5e4519f7439ddf",
     "3e16d5857110c8ec1fc99d0a7ea03a0c",
-    "d24b1516e9fadb69e984d76693d6ba24"
+    "d24b1516e9fadb69e984d76693d6ba24",
+    "c89e9c1079437fa0c32d2443c77df341"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1269,7 +1269,8 @@
     "https://kenyans.co.ke/news/127729-court-clears-eacc-probe-city-lawyer-over-ksh-10m-bribe",
     "https://kenyans.co.ke/news/127727-senior-police-officer-driver-killed-after-vehicle-hits-suspected-ied-garissa",
     "https://kenyans.co.ke/news/127734-ntsa-launches-eye-screening-drivers-amid-surging-road-crashes",
-    "https://kenyans.co.ke/news/127735-ruto-announces-plan-import-buffaloes-camels-milk-shortage-hits-kenya"
+    "https://kenyans.co.ke/news/127735-ruto-announces-plan-import-buffaloes-camels-milk-shortage-hits-kenya",
+    "https://kenyans.co.ke/news/127739-cabinet-approves-ksh2m-fine-fraudulently-registered-architects-surveyors"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1629,7 +1630,8 @@
     "high court rebuffs entrapment defence validating eacc sting tuju bribery probe",
     "garissa ied blast kills sub county police boss key dadaab route",
     "ntsa expands road patrols driver eyesight 2026 road deaths cross 000",
-    "milk crunch drives state tap camels water buffaloes factory supply dips"
+    "milk crunch drives state tap camels water buffaloes factory supply dips",
+    "cabinet clears ksh2m fraud fine overhaul 1934 construction law"
   ],
   "topic_keys": [
     "news tracker",
@@ -4140,6 +4142,15 @@
       "structure": "Retail and intake pressure lead -> Factual directive to Agriculture PS -> Price dynamics and broker leakage mechanics -> Production data trajectory from June to September -> Implementation hurdles for imported breeds",
       "source": "https://kenyans.co.ke/news/127735-ruto-announces-plan-import-buffaloes-camels-milk-shortage-hits-kenya",
       "published_at": "2026-10-09T14:02:22Z"
+    },
+    {
+      "title": "Cabinet Clears Ksh2M Fraud Fine in Overhaul of 1934 Construction Law",
+      "angle": "Attribution-first framing of statutory modernization: how the executive's replacement of a 1934 colonial relic establishes a dual-tier financial penalty system and broadens state oversight to site managers and interior designers, balancing legislative deterrents against the entrenched practice of credential-lending on illegal multi-storey developments.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first authority lead naming the executive decision and the intended public beneficiaries.",
+      "structure": "Attribution lead -> Statutory core and dual penalty breakdown -> Historical obsolescence of the 1934 code -> Credential misuse and site liability context -> Audit data and legislative forward edge",
+      "source": "https://kenyans.co.ke/news/127739-cabinet-approves-ksh2m-fine-fraudulently-registered-architects-surveyors",
+      "published_at": "2026-10-09T15:57:33Z"
     }
   ]
 }
