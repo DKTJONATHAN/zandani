@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "d38acbf4c37db0a84901a03e59e36b37",
     "057be9efc7d862df40a149135cbb9530",
     "1cb0bc3e42fd23e38dc3a64fec96979b",
     "02acbc7ecfb6076acac0235a65a3fff8",
@@ -799,10 +798,10 @@
     "5474462e6435385183613f7e20b685d5",
     "2fe95017f45eb292394469de9037a72c",
     "dd8042b20c7a24dc0707354fb5bc026e",
-    "d3c3d22547d000ff324d6c5bbd21d835"
+    "d3c3d22547d000ff324d6c5bbd21d835",
+    "c871c5b977e9d11d7a1c80453047caa1"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Desk Take",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1259,7 +1259,8 @@
     "https://kenyans.co.ke/news/127715-ntsa-announces-two-minute-driving-licence-collection-service",
     "https://kenyans.co.ke/news/127711-kenyas-diaspora-remittances-drop-13-us-and-saudi-inflows-decline",
     "https://kenyans.co.ke/news/127716-kam-challenges-ksh40-kg-excise-duty-industrial-sugar-court",
-    "https://kenyans.co.ke/news/127718-court-dismisses-mp-gikarias-bid-block-iebcs-ksh-25m-fine-over-ol-kalou-remarks"
+    "https://kenyans.co.ke/news/127718-court-dismisses-mp-gikarias-bid-block-iebcs-ksh-25m-fine-over-ol-kalou-remarks",
+    "https://kenyans.co.ke/news/127720-canada-outlines-ebola-precautions-kenya-bound-travellers"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1609,7 +1610,8 @@
     "ntsa cuts licence pickups two minutes amid lingering card backlog",
     "policy shifts saudi arabia strain household dollar lifeline",
     "manufacturers put 433 industrial sugar tax constitutional test",
-    "high court validates iebc disciplinary muscle dismissing gikaria fine challenge"
+    "high court validates iebc disciplinary muscle dismissing gikaria fine challenge",
+    "day shadow western ebola advisories extend containment window abroad"
   ],
   "topic_keys": [
     "news tracker",
@@ -4030,6 +4032,15 @@
       "structure": "Attribution-first authority lead -> Judicial review threshold failure -> Dual-track liability: administrative penalties versus ODPP criminal referral -> Enforcement committee's wider disciplinary powers -> Final compliance deadline and next steps",
       "source": "https://kenyans.co.ke/news/127718-court-dismisses-mp-gikarias-bid-block-iebcs-ksh-25m-fine-over-ol-kalou-remarks",
       "published_at": "2026-10-09T05:02:33Z"
+    },
+    {
+      "title": "The 21-Day Shadow: How Western Ebola Advisories Extend Kenya's Containment Window Abroad",
+      "angle": "Focusing on the 21-day post-departure monitoring mandate, which exports the administrative and surveillance burden of Kenya's isolated Ebola case to international destinations and layers a medical protocol over pre-existing security red zones.",
+      "angle_type": "consequence",
+      "opening": "An impact-driven opening highlighting the three-week health shadow following travellers leaving Kenya.",
+      "structure": "Long-tail surveillance lead -> Canadian advisory directives -> Intersection with existing security zones -> Kenyan diplomatic/containment response -> JKIA screening and contact tracing -> Unresolved forward edge on international travel restrictions.",
+      "source": "https://kenyans.co.ke/news/127720-canada-outlines-ebola-precautions-kenya-bound-travellers",
+      "published_at": "2026-10-09T06:02:33Z"
     }
   ]
 }
