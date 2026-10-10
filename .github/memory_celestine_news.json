@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "d3a67c83f023655bc0b4a4dda563bd93",
     "7b71b9626402e100bcf58bd94c3821bf",
     "a9485a2bfcb04244320190de05271090",
     "ef29e03545c282b96c1df1e16cf674de",
@@ -799,10 +798,10 @@
     "78e4da2b0f18b5426a9fcb87d067c19e",
     "2cceb0e89a3779f8be63e1ff8692fce1",
     "58c41bff3e5136a21838cdb037fc0fcb",
-    "a4468bfe0c1488ca116348e644563292"
+    "a4468bfe0c1488ca116348e644563292",
+    "d998c47e4f755e533bbf2e3166ba3ccb"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1280,7 +1280,8 @@
     "https://kenyans.co.ke/news/127752-high-court-stops-ksh5-billion-affordable-housing-project-bungoma",
     "https://kenyans.co.ke/news/127751-kenya-opposes-trumps-icc-sanctions-calls-urgent-reforms",
     "https://kenyans.co.ke/news/127754-ruto-css-make-several-appointments-reappointments-govt",
-    "https://kenyans.co.ke/news/127755-high-court-announces-24-day-recess-december-21-issues-orders-judges"
+    "https://kenyans.co.ke/news/127755-high-court-announces-24-day-recess-december-21-issues-orders-judges",
+    "https://kenyans.co.ke/news/127756-epra-raises-october-electricity-prices-ksh41"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1651,7 +1652,8 @@
     "court halts ksh5b bungoma housing plan cart before horse contract",
     "rejects trump sanctions icc pushing internal overhaul financial embargo",
     "state secures multi board grip 2029 flurry three year gazette extensions",
-    "high court gazettes day holiday pause reroutes single judge stations emergency pleas"
+    "high court gazettes day holiday pause reroutes single judge stations emergency pleas",
+    "epra shields thermal dollar ppas ksh4 power unit surcharge"
   ],
   "topic_keys": [
     "news tracker",
@@ -4261,6 +4263,15 @@
       "structure": "Emergency service mechanics lead -> Statutory dates and affected superior court tiers -> Single-judge station rerouting protocols -> Registry staffing mandate -> Unresolved scheduling at appellate and subordinate tiers",
       "source": "https://kenyans.co.ke/news/127755-high-court-announces-24-day-recess-december-21-issues-orders-judges",
       "published_at": "2026-10-10T14:02:46Z"
+    },
+    {
+      "title": "EPRA Shields Thermal and Dollar PPAs With Ksh4.10 Power Unit Surcharge",
+      "angle": "Framing the Ksh4.10 tariff adjustment as an automatic statutory balance-sheet shield for thermal generators, dollar-denominated power producers, and water catchment regulators that shifts variable operational costs entirely onto retail meters.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first statement opening that names EPRA's regulatory notice and identifies power producers and public water funds as the direct financial beneficiaries of the consumer billing pass-through.",
+      "structure": "Regulatory decree lead -> Direct quote and tripartite statutory breakdown -> Thermal fuel cost driver and dispatch mechanics -> Forex insulation for dollar PPAs -> Hydro water levy extraction -> Grid consumption trajectory and meter impact",
+      "source": "https://kenyans.co.ke/news/127756-epra-raises-october-electricity-prices-ksh41",
+      "published_at": "2026-10-10T15:02:23Z"
     }
   ]
 }
