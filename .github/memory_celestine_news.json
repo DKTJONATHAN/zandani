@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a56edd1f698eb29045cdcb875e07d9ea",
     "b1ba23f532c10ba1ca629a61d2c8a3b5",
     "1c11c547d94139eda5636035111e617b",
     "5788086a7c27b523fb13a2c611f05c73",
@@ -799,10 +798,10 @@
     "d24b1516e9fadb69e984d76693d6ba24",
     "c89e9c1079437fa0c32d2443c77df341",
     "57a8d1a13821f14552bde8a02eb38122",
-    "111abc9b67e4c9b5dedff9aeacea1a75"
+    "111abc9b67e4c9b5dedff9aeacea1a75",
+    "33ce99f9abb10bb4a493a31178e6e4df"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1272,7 +1272,8 @@
     "https://kenyans.co.ke/news/127735-ruto-announces-plan-import-buffaloes-camels-milk-shortage-hits-kenya",
     "https://kenyans.co.ke/news/127739-cabinet-approves-ksh2m-fine-fraudulently-registered-architects-surveyors",
     "https://kenyans.co.ke/news/127742-africa-cdc-reveals-how-kenyan-ebola-patient-travelled-across-three-countries-undetected",
-    "https://kenyans.co.ke/news/127744-governors-spot-over-ksh-100b-salary-arrears-unremitted-deductions"
+    "https://kenyans.co.ke/news/127744-governors-spot-over-ksh-100b-salary-arrears-unremitted-deductions",
+    "https://kenyans.co.ke/news/127743-cabinet-okays-3-major-roads-spanning-909km-across-10-counties"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1635,7 +1636,8 @@
     "milk crunch drives state tap camels water buffaloes factory supply dips",
     "cabinet clears ksh2m fraud fine overhaul 1934 construction law",
     "clinical misdiagnosis medication blindsided regional ebola screening",
-    "ksh99b penalty trap exposes scale county pension crisis"
+    "ksh99b penalty trap exposes scale county pension crisis",
+    "state commits ksh60b lake rim highway ksh92b rural corridor package"
   ],
   "topic_keys": [
     "news tracker",
@@ -4173,6 +4175,15 @@
       "structure": "Financial disparity lead -> RBA breakdown of principal versus penalties -> Controller of Budget's Ksh100.24B audit and the limits of the July 1 IFMIS-CBK system -> Root causes of budget requisition freezes -> Legislative standoff and upcoming round-table demand.",
       "source": "https://kenyans.co.ke/news/127744-governors-spot-over-ksh-100b-salary-arrears-unremitted-deductions",
       "published_at": "2026-10-10T06:49:18Z"
+    },
+    {
+      "title": "State Commits Ksh60B to Lake Rim Highway in Ksh92B Rural Corridor Package",
+      "angle": "The financial and logistical concentration of the Ksh92 billion infrastructure package, where nearly two-thirds (Ksh60 billion) is anchored to a single lake-basin perimeter route backed by the World Bank, setting up an abrupt November 2026 ground-breaking across three interconnected agricultural arteries.",
+      "angle_type": "money",
+      "opening": "Capital-allocation opening focusing on the Ksh60 billion concentration on the lake-rim corridor within the wider Ksh92 billion rural development programme.",
+      "structure": "Funding allocation lead -> Scope and tripartite corridor mapping -> Multilateral backing and the Lake Victoria alignment -> High-altitude agricultural feeder links -> Impending November pre-construction timeline",
+      "source": "https://kenyans.co.ke/news/127743-cabinet-okays-3-major-roads-spanning-909km-across-10-counties",
+      "published_at": "2026-10-10T07:02:26Z"
     }
   ]
 }
