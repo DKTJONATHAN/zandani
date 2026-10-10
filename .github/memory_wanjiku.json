@@ -212,7 +212,8 @@
     "e58235b47f5ac50dc9e4fb4c102dd4c892f6643e467a68f647b24268a7523202",
     "19f77c8a1e1dec48b8f4d6801c4ad5c2c242585d83e27cbd502bd14dc6b12a19",
     "2925255871cfe1b655f6de9a35d9b7a8d4d5b93e5473bda282f895fd09b1b3b0",
-    "32fdbabd7475c14e9846937524415374a2dc52b39c7ea07011cfe8a2eb102e3e"
+    "32fdbabd7475c14e9846937524415374a2dc52b39c7ea07011cfe8a2eb102e3e",
+    "ceb3d781157df3bf206c58e61de69c7635dd610a58dcbb0f05288cc6ef088a41"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -427,17 +428,10 @@
     "https://www.ghafla.co.ke/government-formally-classifies-cocoa-as-scheduled-cash-crop-in-agricultural-diversification-drive/",
     "https://www.ghafla.co.ke/mt-kenya-will-be-out-of-power-for-30-years-governor-waigurus-warning-to-regional-leaders/",
     "https://www.ghafla.co.ke/judgment-day-pushed-paul-mackenzie-to-know-fate-over-shakahola-deaths/",
-    "https://www.ghafla.co.ke/caleb-amisi-threatens-to-impeach-ruto-if-he-wins-2027-election/"
+    "https://www.ghafla.co.ke/caleb-amisi-threatens-to-impeach-ruto-if-he-wins-2027-election/",
+    "https://www.ghafla.co.ke/gladys-wanga-pledges-credible-odm-nominations-questions-uhurus-influence-ahead-of-2027/"
   ],
   "published_angles": [
-    {
-      "title": "Janet Mbugua Calls Out Political Gatecrashers After Karen Nyamu\u2019s KICC Endometriosis Climax",
-      "angle": "The operational collapse of advocacy boundaries: examining how event organizers like Eric Omondi and grassroots creators attempt to firewall vulnerable health campaigns from political grandstanding, only to see high-profile figures force their way in through backchannels and financial donations.",
-      "angle_type": "event boundary breakdown and creator-politician friction",
-      "opening": "Personality and event-tension lead focusing on Janet Mbugua drawing a hard line against political gatecrashing following the KICC endometriosis event.",
-      "structure": "Personality lead -> The KICC clash and Nyamu's 'Wantam' heckling -> Eric Omondi's revelation of backstage financial maneuvers and broken agreements -> Janet Mbugua's framing of authentic advocacy versus political stagecraft -> Closing on Nyamu's defiant stance on attendance.",
-      "source": "https://www.ghafla.co.ke/janet-mbugua-criticises-politicians-for-taking-over-social-awareness-events/"
-    },
     {
       "title": "Colonel Mustafa Traces 25-Year Survival to Donholm Safety Net Ahead of Anniversary Showcase",
       "angle": "Reframing Mustafa's tears through the lens of Eastlands grassroots survival\u2014specifically how the working-class community of Greenfield, Donholm served as an informal social safety net during his early creative struggle, contrasting with the glossy commercial heights of his Ogopa Deejays era and his later public construction site trials.",
@@ -1229,6 +1223,14 @@
       "opening": "Personality lead opening directly on Caleb Amisi calling out the social media obsession of Edwin Sifuna's campaign team and issuing an unfiltered warning to whoever takes the presidential oath.",
       "structure": "Personality lead -> Critique of Sifuna's online influencer politics -> The 233-seat math and the swearing-in Bible quote -> Cross-aisle scrutiny of Kalonzo, Maraga, and Gachagua -> Opposition division baseline close",
       "source": "https://www.ghafla.co.ke/caleb-amisi-threatens-to-impeach-ruto-if-he-wins-2027-election/"
+    },
+    {
+      "title": "Gladys Wanga Punctures Uhuru\u2019s Kingmaker Myth, Asks How He Can Crown Sifuna, Matiang\u2019i or Kalonzo When Raila Fell Short",
+      "angle": "Reframing Wanga's Kakamega speech around her blunt takedown of the Uhuru Kenyatta kingmaker fantasy, directly puncturing the hopes of opposition figures like Sifuna, Matiang'i, and Kalonzo who still view the former president as an electoral bridge to State House.",
+      "angle_type": "personality-driven political shade and alliance reality check",
+      "opening": "Personality lead opening directly on Gladys Wanga taking down the political illusions surrounding Uhuru Kenyatta on the Kakamega podium.",
+      "structure": "Personality hook -> The direct rhetorical takedown of Uhuru's influence on Sifuna, Matiang'i, and Kalonzo -> Handshake reality and broken promises -> Oburu Odinga's power doctrine and nomination guarantee -> Rumor debunking baseline and Bondo culmination close",
+      "source": "https://www.ghafla.co.ke/gladys-wanga-pledges-credible-odm-nominations-questions-uhurus-influence-ahead-of-2027/"
     }
   ],
   "style_history": [
