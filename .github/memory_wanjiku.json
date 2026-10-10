@@ -210,7 +210,8 @@
     "c9f888728aa379530ad9d8b4d813ab4af2830ace50cfb9cf5bcda1634f50fc3a",
     "7e202f5a73b1ce2c0a5a1551dc1fb66b21d3e2a8b7db8adb36cc2b309d007cb8",
     "e58235b47f5ac50dc9e4fb4c102dd4c892f6643e467a68f647b24268a7523202",
-    "19f77c8a1e1dec48b8f4d6801c4ad5c2c242585d83e27cbd502bd14dc6b12a19"
+    "19f77c8a1e1dec48b8f4d6801c4ad5c2c242585d83e27cbd502bd14dc6b12a19",
+    "2925255871cfe1b655f6de9a35d9b7a8d4d5b93e5473bda282f895fd09b1b3b0"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -423,17 +424,10 @@
     "https://www.ghafla.co.ke/sifuna-rejects-calls-to-resign-cites-cost-of-by-election-ahead-of-2027-polls/",
     "https://www.ghafla.co.ke/latest-gazette-notice-government-names-new-board-members-across-key-state-agencies/",
     "https://www.ghafla.co.ke/government-formally-classifies-cocoa-as-scheduled-cash-crop-in-agricultural-diversification-drive/",
-    "https://www.ghafla.co.ke/mt-kenya-will-be-out-of-power-for-30-years-governor-waigurus-warning-to-regional-leaders/"
+    "https://www.ghafla.co.ke/mt-kenya-will-be-out-of-power-for-30-years-governor-waigurus-warning-to-regional-leaders/",
+    "https://www.ghafla.co.ke/judgment-day-pushed-paul-mackenzie-to-know-fate-over-shakahola-deaths/"
   ],
   "published_angles": [
-    {
-      "title": "Dennis Karuri Traces Beauty Rise to Agribusiness Exit and the Transformative Brush That Pulled Him Back from the Edge",
-      "angle": "The stark contrast between Karuri's institutional academic/governmental trajectory and the radical creative reinvention that served as a psychological survival mechanism after intense personal grief.",
-      "angle_type": "creative survival and career pivot",
-      "opening": "Personality lead highlighting the dramatic divergence between his university-era trajectory and his current beauty empire.",
-      "structure": "Academic background and government office disillusionment -> The devastating impact of his mother's death and mental health crisis -> The accidental introduction to makeup via modeling -> The 'born again' realization and professional payoff.",
-      "source": "https://www.ghafla.co.ke/dennis-karuri-opens-up-about-grief-career-struggles-and-his-journey-into-beauty/"
-    },
     {
       "title": "Unfiltered or Compromised? Georgina Njenga\u2019s Dark Humor Triggers Hack Speculation from Pritty Vishy",
       "angle": "Analyzing the tension between raw, dark-humored creator vulnerability and peer-led skepticism, framing the incident within Georgina\u2019s broader, documented timeline of setting personal and spiritual boundaries in 2026.",
@@ -1225,6 +1219,14 @@
       "opening": "Personality lead focusing on Waiguru deriding press conference politics and laying bare her physical positioning beside Ruto.",
       "structure": "Personality proximity hook -> The UN flights and boardroom positioning contrast -> The 30-year regional power freeze breakdown -> Opposition fragmentation critique (Kalonzo, Matiang'i) -> Long-game trajectory close",
       "source": "https://www.ghafla.co.ke/mt-kenya-will-be-out-of-power-for-30-years-governor-waigurus-warning-to-regional-leaders/"
+    },
+    {
+      "title": "Paul Mackenzie Handed Three-Day Wait as High Court Shifts 191-Count Shakahola Verdict to Mombasa Dock",
+      "angle": "Focusing on Paul Mackenzie's final countdown shifting across county borders to the Mombasa dock, highlighting how the preacher and his 30 co-accused must now face judgment on the full, unbroken 191-count charge sheet after years of courtroom maneuvers.",
+      "angle_type": "personality-driven legal reckoning and venue transition",
+      "opening": "Personality lead opening directly on Paul Mackenzie facing an altered calendar and a new courtroom setting for his final verdict.",
+      "structure": "Personality verdict hook -> Logistical shift to Mombasa -> Scale of the 191-count charge sheet -> Prosecution's 121-witness marathon -> Appellate defense battle -> Impending dock appearance close",
+      "source": "https://www.ghafla.co.ke/judgment-day-pushed-paul-mackenzie-to-know-fate-over-shakahola-deaths/"
     }
   ],
   "style_history": [
