@@ -209,7 +209,8 @@
     "f5a0d8167227e0f7fcbd5cd78b37db35bb1c7cdff6c922e32e1eb96c6a900b17",
     "c9f888728aa379530ad9d8b4d813ab4af2830ace50cfb9cf5bcda1634f50fc3a",
     "7e202f5a73b1ce2c0a5a1551dc1fb66b21d3e2a8b7db8adb36cc2b309d007cb8",
-    "e58235b47f5ac50dc9e4fb4c102dd4c892f6643e467a68f647b24268a7523202"
+    "e58235b47f5ac50dc9e4fb4c102dd4c892f6643e467a68f647b24268a7523202",
+    "19f77c8a1e1dec48b8f4d6801c4ad5c2c242585d83e27cbd502bd14dc6b12a19"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -421,17 +422,10 @@
     "https://www.ghafla.co.ke/jaymoh-decin-laments-six-months-of-tiktok-content-reports/",
     "https://www.ghafla.co.ke/sifuna-rejects-calls-to-resign-cites-cost-of-by-election-ahead-of-2027-polls/",
     "https://www.ghafla.co.ke/latest-gazette-notice-government-names-new-board-members-across-key-state-agencies/",
-    "https://www.ghafla.co.ke/government-formally-classifies-cocoa-as-scheduled-cash-crop-in-agricultural-diversification-drive/"
+    "https://www.ghafla.co.ke/government-formally-classifies-cocoa-as-scheduled-cash-crop-in-agricultural-diversification-drive/",
+    "https://www.ghafla.co.ke/mt-kenya-will-be-out-of-power-for-30-years-governor-waigurus-warning-to-regional-leaders/"
   ],
   "published_angles": [
-    {
-      "title": "Aliko Dangote Lands in Lamu With Sh2.2 Trillion Flex as Ruto Backs Mega Refinery",
-      "angle": "Reframing the Lamu event through an entertainment and billionaire-watch lens: spotlighting the ultra-wealth spectacle of Africa's richest titan touching down on the coastal strip to anchor an eye-watering Sh2.2 trillion industrial rollout alongside William Ruto.",
-      "angle_type": "high-roller billionaire flex and power-coupling",
-      "opening": "Personality lead opening directly on Aliko Dangote touching down on the Lamu coastline to roll out a historic multi-trillion-shilling spectacle with William Ruto.",
-      "structure": "Person and billionaire arrival hook -> Verified financial and capacity scale (Sh2.2 trillion, 700k barrels) -> The staging of heavy machinery at Lamu Port -> The elite political-industrial alliance -> Concrete timeline and corridor expansion.",
-      "source": "https://www.ghafla.co.ke/ruto-and-dangote-break-ground-for-sh2-2-trillion-lamu-oil-refinery/"
-    },
     {
       "title": "Dennis Karuri Traces Beauty Rise to Agribusiness Exit and the Transformative Brush That Pulled Him Back from the Edge",
       "angle": "The stark contrast between Karuri's institutional academic/governmental trajectory and the radical creative reinvention that served as a psychological survival mechanism after intense personal grief.",
@@ -1223,6 +1217,14 @@
       "opening": "Personality lead opening directly on William Ruto painting a picture of chocolate bars and beverage mixes on the Kitale stage.",
       "structure": "Ruto chocolate pitch lead -> The direct quote and dual tree-planting framing -> Immediate seedling logistics through KALRO and KEPHIS -> The break from traditional tea and coffee reliance -> Kitale rollout close",
       "source": "https://www.ghafla.co.ke/government-formally-classifies-cocoa-as-scheduled-cash-crop-in-agricultural-diversification-drive/"
+    },
+    {
+      "title": "Anne Waiguru Dumps Press Conference Politics, Lays Bare Her Strategy Beside William Ruto: \u2018When He Goes to the UN, I Am There\u2019",
+      "angle": "Reframing Waiguru's speech around her unapologetic insider playbook: dismissing noise and podium press conferences in favor of high-visibility proximity to William Ruto, openly admitting her strategy is shadowing him all the way to United Nations halls to secure a seat at the table.",
+      "angle_type": "personality branding and political proximity playbook",
+      "opening": "Personality lead focusing on Waiguru deriding press conference politics and laying bare her physical positioning beside Ruto.",
+      "structure": "Personality proximity hook -> The UN flights and boardroom positioning contrast -> The 30-year regional power freeze breakdown -> Opposition fragmentation critique (Kalonzo, Matiang'i) -> Long-game trajectory close",
+      "source": "https://www.ghafla.co.ke/mt-kenya-will-be-out-of-power-for-30-years-governor-waigurus-warning-to-regional-leaders/"
     }
   ],
   "style_history": [
