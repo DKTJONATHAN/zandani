@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "4e9621cc6e01515ee62e2500437956d2",
     "a56edd1f698eb29045cdcb875e07d9ea",
     "b1ba23f532c10ba1ca629a61d2c8a3b5",
     "1c11c547d94139eda5636035111e617b",
@@ -799,10 +798,10 @@
     "3e16d5857110c8ec1fc99d0a7ea03a0c",
     "d24b1516e9fadb69e984d76693d6ba24",
     "c89e9c1079437fa0c32d2443c77df341",
-    "57a8d1a13821f14552bde8a02eb38122"
+    "57a8d1a13821f14552bde8a02eb38122",
+    "111abc9b67e4c9b5dedff9aeacea1a75"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1271,7 +1271,8 @@
     "https://kenyans.co.ke/news/127734-ntsa-launches-eye-screening-drivers-amid-surging-road-crashes",
     "https://kenyans.co.ke/news/127735-ruto-announces-plan-import-buffaloes-camels-milk-shortage-hits-kenya",
     "https://kenyans.co.ke/news/127739-cabinet-approves-ksh2m-fine-fraudulently-registered-architects-surveyors",
-    "https://kenyans.co.ke/news/127742-africa-cdc-reveals-how-kenyan-ebola-patient-travelled-across-three-countries-undetected"
+    "https://kenyans.co.ke/news/127742-africa-cdc-reveals-how-kenyan-ebola-patient-travelled-across-three-countries-undetected",
+    "https://kenyans.co.ke/news/127744-governors-spot-over-ksh-100b-salary-arrears-unremitted-deductions"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1633,7 +1634,8 @@
     "ntsa expands road patrols driver eyesight 2026 road deaths cross 000",
     "milk crunch drives state tap camels water buffaloes factory supply dips",
     "cabinet clears ksh2m fraud fine overhaul 1934 construction law",
-    "clinical misdiagnosis medication blindsided regional ebola screening"
+    "clinical misdiagnosis medication blindsided regional ebola screening",
+    "ksh99b penalty trap exposes scale county pension crisis"
   ],
   "topic_keys": [
     "news tracker",
@@ -4162,6 +4164,15 @@
       "structure": "Diagnostic blindspot lead -> Factual verification of the patient's timeline and death -> Route mechanics through closed borders and aviation hubs -> Thermal screening neutralization mechanism -> Surveillance contact tracing and forward health risks",
       "source": "https://kenyans.co.ke/news/127742-africa-cdc-reveals-how-kenyan-ebola-patient-travelled-across-three-countries-undetected",
       "published_at": "2026-10-10T05:02:30Z"
+    },
+    {
+      "title": "Ksh99B Penalty Trap Exposes Scale of County Pension Crisis",
+      "angle": "The financial distortion of compounding penalties: statutory fines of Ksh99.1 billion have swollen to more than five times the actual unpaid pension principal (Ksh17.7 billion), creating a structural debt trap that Treasury's new July 1 automated IFMIS-CBK payroll conduit cannot resolve.",
+      "angle_type": "money",
+      "opening": "Financial liability lead contrasting the baseline withheld deductions against the disproportionate compounding penalties choking county balance sheets.",
+      "structure": "Financial disparity lead -> RBA breakdown of principal versus penalties -> Controller of Budget's Ksh100.24B audit and the limits of the July 1 IFMIS-CBK system -> Root causes of budget requisition freezes -> Legislative standoff and upcoming round-table demand.",
+      "source": "https://kenyans.co.ke/news/127744-governors-spot-over-ksh-100b-salary-arrears-unremitted-deductions",
+      "published_at": "2026-10-10T06:49:18Z"
     }
   ]
 }
