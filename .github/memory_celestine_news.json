@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "db1a001d1a8949fd6ab6857011a348e0",
     "d3a67c83f023655bc0b4a4dda563bd93",
     "7b71b9626402e100bcf58bd94c3821bf",
     "a9485a2bfcb04244320190de05271090",
@@ -799,10 +798,10 @@
     "833e42f7ee0fd63fcd5ebb59608b0dbc",
     "78e4da2b0f18b5426a9fcb87d067c19e",
     "2cceb0e89a3779f8be63e1ff8692fce1",
-    "58c41bff3e5136a21838cdb037fc0fcb"
+    "58c41bff3e5136a21838cdb037fc0fcb",
+    "a4468bfe0c1488ca116348e644563292"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1279,7 +1279,8 @@
     "https://kenyans.co.ke/news/127750-treasury-spends-77-tax-revenue-debt-first-quarter-2026",
     "https://kenyans.co.ke/news/127752-high-court-stops-ksh5-billion-affordable-housing-project-bungoma",
     "https://kenyans.co.ke/news/127751-kenya-opposes-trumps-icc-sanctions-calls-urgent-reforms",
-    "https://kenyans.co.ke/news/127754-ruto-css-make-several-appointments-reappointments-govt"
+    "https://kenyans.co.ke/news/127754-ruto-css-make-several-appointments-reappointments-govt",
+    "https://kenyans.co.ke/news/127755-high-court-announces-24-day-recess-december-21-issues-orders-judges"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1649,7 +1650,8 @@
     "debt swallows taxes forcing treasury fresh ksh130b refinancing talks",
     "court halts ksh5b bungoma housing plan cart before horse contract",
     "rejects trump sanctions icc pushing internal overhaul financial embargo",
-    "state secures multi board grip 2029 flurry three year gazette extensions"
+    "state secures multi board grip 2029 flurry three year gazette extensions",
+    "high court gazettes day holiday pause reroutes single judge stations emergency pleas"
   ],
   "topic_keys": [
     "news tracker",
@@ -4250,6 +4252,15 @@
       "structure": "Statutory extension lead -> Devolved fund and pension governance (LAPFUND/NG-CDF) -> Natural resources and utility regulators (WASREB, KFS, EPRA) -> Research, professional standards, and media councils -> Forward tenure horizon to late 2029",
       "source": "https://kenyans.co.ke/news/127754-ruto-css-make-several-appointments-reappointments-govt",
       "published_at": "2026-10-10T13:24:51Z"
+    },
+    {
+      "title": "High Court Gazettes 24-Day Holiday Pause, Reroutes Single-Judge Stations for Emergency Pleas",
+      "angle": "The operational contingency rules designed to preserve emergency litigation access: how single-judge rural stations must reroute active files to neighbouring hubs, while registries remain held to strict 8am-5pm weekday operational hours.",
+      "angle_type": "practical change",
+      "opening": "Operational-contingency opening focusing on the geographic and procedural rerouting of urgent court matters during the end-year judicial pause.",
+      "structure": "Emergency service mechanics lead -> Statutory dates and affected superior court tiers -> Single-judge station rerouting protocols -> Registry staffing mandate -> Unresolved scheduling at appellate and subordinate tiers",
+      "source": "https://kenyans.co.ke/news/127755-high-court-announces-24-day-recess-december-21-issues-orders-judges",
+      "published_at": "2026-10-10T14:02:46Z"
     }
   ]
 }
