@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "1c11c547d94139eda5636035111e617b",
     "5788086a7c27b523fb13a2c611f05c73",
     "fc496a772fe108a2e72c5165d1ef1693",
     "16ec2d9b569198dbb9ee4de8df9edfc0",
@@ -799,10 +798,10 @@
     "57a8d1a13821f14552bde8a02eb38122",
     "111abc9b67e4c9b5dedff9aeacea1a75",
     "33ce99f9abb10bb4a493a31178e6e4df",
-    "80fa7356be66aba7cc14c278f98d4771"
+    "80fa7356be66aba7cc14c278f98d4771",
+    "bd852c50a4368bee426f4d3036749361"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1274,7 +1274,8 @@
     "https://kenyans.co.ke/news/127742-africa-cdc-reveals-how-kenyan-ebola-patient-travelled-across-three-countries-undetected",
     "https://kenyans.co.ke/news/127744-governors-spot-over-ksh-100b-salary-arrears-unremitted-deductions",
     "https://kenyans.co.ke/news/127743-cabinet-okays-3-major-roads-spanning-909km-across-10-counties",
-    "https://kenyans.co.ke/news/127748-govt-suspends-meetings-seminars-hotels-after-ebola-case"
+    "https://kenyans.co.ke/news/127748-govt-suspends-meetings-seminars-hotels-after-ebola-case",
+    "https://kenyans.co.ke/news/127746-panic-massive-night-fire-guts-club-mios-mombasa"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1639,7 +1640,8 @@
     "clinical misdiagnosis medication blindsided regional ebola screening",
     "ksh99b penalty trap exposes scale county pension crisis",
     "state commits ksh60b lake rim highway ksh92b rural corridor package",
-    "health ministry halts hotel retreats redirect civil service machinery ebola surveillance"
+    "health ministry halts hotel retreats redirect civil service machinery ebola surveillance",
+    "bamburi nightclub fire spotlights emergency gap along mombasa fuel corridor"
   ],
   "topic_keys": [
     "news tracker",
@@ -4195,6 +4197,15 @@
       "structure": "Attribution-led directive announcement -> Memo instructions and clearance mechanism -> Operational redirection toward contact tracing -> Epidemiological background and Nairobi Hospital timeline -> Forward surveillance posture.",
       "source": "https://kenyans.co.ke/news/127748-govt-suspends-meetings-seminars-hotels-after-ebola-case",
       "published_at": "2026-10-10T08:02:02Z"
+    },
+    {
+      "title": "Bamburi Nightclub Fire Spotlights Emergency Gap Along Mombasa Fuel Corridor",
+      "angle": "The acute geographic exposure hazard: how delayed municipal fire response compounded the danger of an explosive commercial blaze directly facing a roadside fuel station and adjoining dense residential apartments.",
+      "angle_type": "local impact",
+      "opening": "Perimeter-hazard opening linking the rapid structural loss directly to the urban vulnerability of roadside commercial corridors flanking fuel stations and residential estates.",
+      "structure": "Hazard perimeter lead -> Verified incident chronology and evacuations -> Spatial risk matrix (petrol station and Vescon Estate) -> Emergency response timing and municipal fire track record -> Unresolved forensic investigation",
+      "source": "https://kenyans.co.ke/news/127746-panic-massive-night-fire-guts-club-mios-mombasa",
+      "published_at": "2026-10-10T09:02:16Z"
     }
   ]
 }
