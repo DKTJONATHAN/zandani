@@ -207,7 +207,8 @@
     "72ba6d81d5b539a35abb451739738daa75b5d999644dd45a5dbbb22dab4b6d86",
     "6f54e632e1dc98f6d32892fdb619f920a5ad2315e792091b7202d4e9207466bf",
     "f5a0d8167227e0f7fcbd5cd78b37db35bb1c7cdff6c922e32e1eb96c6a900b17",
-    "c9f888728aa379530ad9d8b4d813ab4af2830ace50cfb9cf5bcda1634f50fc3a"
+    "c9f888728aa379530ad9d8b4d813ab4af2830ace50cfb9cf5bcda1634f50fc3a",
+    "7e202f5a73b1ce2c0a5a1551dc1fb66b21d3e2a8b7db8adb36cc2b309d007cb8"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -417,17 +418,10 @@
     "https://www.ghafla.co.ke/robert-burale-recalls-being-accused-of-devil-worshipping/",
     "https://www.ghafla.co.ke/shorn-arwa-fires-back-at-narcissist-and-gold-digger-labels-with-humorous-response/",
     "https://www.ghafla.co.ke/jaymoh-decin-laments-six-months-of-tiktok-content-reports/",
-    "https://www.ghafla.co.ke/sifuna-rejects-calls-to-resign-cites-cost-of-by-election-ahead-of-2027-polls/"
+    "https://www.ghafla.co.ke/sifuna-rejects-calls-to-resign-cites-cost-of-by-election-ahead-of-2027-polls/",
+    "https://www.ghafla.co.ke/latest-gazette-notice-government-names-new-board-members-across-key-state-agencies/"
   ],
   "published_angles": [
-    {
-      "title": "Serena Hotel, Diplomatic Enclaves, and Westlands Luxury Hubs Plunged Into Kenya Power's Wednesday Maintenance List",
-      "angle": "Reframing the utility maintenance around its impact on Nairobi's premier diplomatic, corporate, and luxury hospitality districts, highlighting how the city's elite enclaves must adapt to a temporary nine-hour blackout.",
-      "angle_type": "high-profile lifestyle and premium district disruption",
-      "opening": "Start directly with the high-profile institutions and diplomatic missions in Nairobi's most exclusive neighborhoods facing a synchronized operational pause.",
-      "structure": "Nairobi luxury and diplomatic core impact -> Westlands corporate and retail hubs -> Mombasa Road industrial players -> High-profile regional targets (Judge Mukunya in Nyeri, Kibos Industries in Kisumu) -> Broad regional context and operational conclusion.",
-      "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-across-several-counties-on-september-30/"
-    },
     {
       "title": "Abel Mutua Details Family Upkeep Cutoff That Accelerated Late Brother Rapho\u2019s Downward Spiral",
       "angle": "Focusing specifically on the family mechanics and Abel's candid admission of a strategic failure: how six employed siblings abruptly halting their coordinated monthly campus upkeep pool pushed Rapho away from rehabilitation and into soliciting money from strangers.",
@@ -1219,6 +1213,14 @@
       "opening": "Personality lead opening directly on Edwin Sifuna drawing a line under his Senate seat and invoking William Ruto's past party maneuvers to dismiss calls for his exit.",
       "structure": "Personality standoff hook -> The Ruto precedent and hypocrisy accusation -> The KSh arithmetic of a 10-month by-election -> The five-year voter contract and TEP presidential trajectory -> Timing of the formal ODM exit close",
       "source": "https://www.ghafla.co.ke/sifuna-rejects-calls-to-resign-cites-cost-of-by-election-ahead-of-2027-polls/"
+    },
+    {
+      "title": "William Kabogo Reappoints John Kieru Wambui to KIMC Council in Wave of 3-Year State Board Moves",
+      "angle": "Reframing the Gazette wave through high-profile personality continuity, focusing on ICT Cabinet Secretary William Kabogo Gitau retaining John Kieru Wambui at the country's primary broadcast nursery KIMC, alongside John Mbadi keeping seasoned political names Olago Aluoch and Masitsa Naomi Shiyonga atop the NG-CDF boardroom.",
+      "angle_type": "personality-driven institutional continuity and boardroom patronage",
+      "opening": "Personality lead opening directly on William Kabogo Gitau locking in John Kieru Wambui at the Kenya Institute of Mass Communication Council.",
+      "structure": "Kabogo KIMC retention lead -> Institutional context of the broadcast incubator -> John Mbadi's appointments of veteran politicians Olago Aluoch and Masitsa Naomi Shiyonga -> Health, energy, and agriculture line moves -> State House reappointments and Alice Wahome's board revocation close.",
+      "source": "https://www.ghafla.co.ke/latest-gazette-notice-government-names-new-board-members-across-key-state-agencies/"
     }
   ],
   "style_history": [
