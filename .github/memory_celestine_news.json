@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "7b71b9626402e100bcf58bd94c3821bf",
     "a9485a2bfcb04244320190de05271090",
     "ef29e03545c282b96c1df1e16cf674de",
     "5771019ab3540c5dea5e02b1ddf04278",
@@ -799,10 +798,10 @@
     "2cceb0e89a3779f8be63e1ff8692fce1",
     "58c41bff3e5136a21838cdb037fc0fcb",
     "a4468bfe0c1488ca116348e644563292",
-    "d998c47e4f755e533bbf2e3166ba3ccb"
+    "d998c47e4f755e533bbf2e3166ba3ccb",
+    "371f5a06c26f7a415c300e07aab01e89"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1281,7 +1281,8 @@
     "https://kenyans.co.ke/news/127751-kenya-opposes-trumps-icc-sanctions-calls-urgent-reforms",
     "https://kenyans.co.ke/news/127754-ruto-css-make-several-appointments-reappointments-govt",
     "https://kenyans.co.ke/news/127755-high-court-announces-24-day-recess-december-21-issues-orders-judges",
-    "https://kenyans.co.ke/news/127756-epra-raises-october-electricity-prices-ksh41"
+    "https://kenyans.co.ke/news/127756-epra-raises-october-electricity-prices-ksh41",
+    "https://kenyans.co.ke/news/127758-kenya-met-lists-nairobi-among-counties-receive-rains-weekend"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1653,7 +1654,8 @@
     "rejects trump sanctions icc pushing internal overhaul financial embargo",
     "state secures multi board grip 2029 flurry three year gazette extensions",
     "high court gazettes day holiday pause reroutes single judge stations emergency pleas",
-    "epra shields thermal dollar ppas ksh4 power unit surcharge"
+    "epra shields thermal dollar ppas ksh4 power unit surcharge",
+    "thunderstorms cold snap highlight kmsa five day weather outlook"
   ],
   "topic_keys": [
     "news tracker",
@@ -4272,6 +4274,15 @@
       "structure": "Regulatory decree lead -> Direct quote and tripartite statutory breakdown -> Thermal fuel cost driver and dispatch mechanics -> Forex insulation for dollar PPAs -> Hydro water levy extraction -> Grid consumption trajectory and meter impact",
       "source": "https://kenyans.co.ke/news/127756-epra-raises-october-electricity-prices-ksh41",
       "published_at": "2026-10-10T15:02:23Z"
+    },
+    {
+      "title": "Thunderstorms and 5\u00b0C Cold Snap Highlight KMSA Five-Day Weather Outlook",
+      "angle": "Framing the forecast around its dual physical risks: acute electrical storm hazards in the western agricultural corridor alongside a severe 5\u00b0C night cold snap in high-altitude zones.",
+      "angle_type": "local impact",
+      "opening": "Meteorological risk contrast lead setting local thunderstorm hazards against severe high-altitude thermal dips.",
+      "structure": "Dual-hazard lead -> Electrical storm and lightning zone mechanics -> High-altitude thermal drop analysis -> Capital and regional precipitation spread -> Practical regional outlook close.",
+      "source": "https://kenyans.co.ke/news/127758-kenya-met-lists-nairobi-among-counties-receive-rains-weekend",
+      "published_at": "2026-10-10T16:02:39Z"
     }
   ]
 }
