@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "fc496a772fe108a2e72c5165d1ef1693",
     "16ec2d9b569198dbb9ee4de8df9edfc0",
     "c64c5338e34f2d721f24598c5e324e27",
     "db1a001d1a8949fd6ab6857011a348e0",
@@ -799,10 +798,10 @@
     "33ce99f9abb10bb4a493a31178e6e4df",
     "80fa7356be66aba7cc14c278f98d4771",
     "bd852c50a4368bee426f4d3036749361",
-    "833e42f7ee0fd63fcd5ebb59608b0dbc"
+    "833e42f7ee0fd63fcd5ebb59608b0dbc",
+    "78e4da2b0f18b5426a9fcb87d067c19e"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1276,7 +1276,8 @@
     "https://kenyans.co.ke/news/127743-cabinet-okays-3-major-roads-spanning-909km-across-10-counties",
     "https://kenyans.co.ke/news/127748-govt-suspends-meetings-seminars-hotels-after-ebola-case",
     "https://kenyans.co.ke/news/127746-panic-massive-night-fire-guts-club-mios-mombasa",
-    "https://kenyans.co.ke/news/127750-treasury-spends-77-tax-revenue-debt-first-quarter-2026"
+    "https://kenyans.co.ke/news/127750-treasury-spends-77-tax-revenue-debt-first-quarter-2026",
+    "https://kenyans.co.ke/news/127752-high-court-stops-ksh5-billion-affordable-housing-project-bungoma"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1643,7 +1644,8 @@
     "state commits ksh60b lake rim highway ksh92b rural corridor package",
     "health ministry halts hotel retreats redirect civil service machinery ebola surveillance",
     "bamburi nightclub fire spotlights emergency gap along mombasa fuel corridor",
-    "debt swallows taxes forcing treasury fresh ksh130b refinancing talks"
+    "debt swallows taxes forcing treasury fresh ksh130b refinancing talks",
+    "court halts ksh5b bungoma housing plan cart before horse contract"
   ],
   "topic_keys": [
     "news tracker",
@@ -4217,6 +4219,15 @@
       "structure": "Residual balance lead -> First-quarter cash disbursement numbers -> Creditor breakdown and GDP thresholds -> Moody's regional interest forecast -> Liability-management pipeline and US debt swap negotiations.",
       "source": "https://kenyans.co.ke/news/127750-treasury-spends-77-tax-revenue-debt-first-quarter-2026",
       "published_at": "2026-10-10T10:01:44Z"
+    },
+    {
+      "title": "Court Halts Ksh5B Bungoma Housing Plan Over Cart-Before-Horse Contract",
+      "angle": "Attribution-first focus on the procedural inversion: the state executing a Ksh5.02 billion commercial building contract prior to mandatory public participation, benefiting statutory aviation land reserves and enforcing a costly 45-day site restoration mandate.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first statement opening specifying the Environment and Land Court's decree and identifying local aviation infrastructure and public planning integrity as the primary beneficiaries.",
+      "structure": "Attribution and beneficiary lead -> Procedural sequencing failure (contract before consultation) -> Land-use degazettement and aviation reserve status -> Remediation order and cost liabilities -> Contrast with appellate validation of the parent Affordable Housing Act",
+      "source": "https://kenyans.co.ke/news/127752-high-court-stops-ksh5-billion-affordable-housing-project-bungoma",
+      "published_at": "2026-10-10T11:02:07Z"
     }
   ]
 }
