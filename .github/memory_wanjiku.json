@@ -205,7 +205,8 @@
     "bb2a07559662d097f6d61107436bfd3cba61f29ec9777495c8f2533449324f02",
     "bcd58a6dde9fc2852a24a6e81db2b15554058e925a962ed703bbb73f03f55864",
     "72ba6d81d5b539a35abb451739738daa75b5d999644dd45a5dbbb22dab4b6d86",
-    "6f54e632e1dc98f6d32892fdb619f920a5ad2315e792091b7202d4e9207466bf"
+    "6f54e632e1dc98f6d32892fdb619f920a5ad2315e792091b7202d4e9207466bf",
+    "f5a0d8167227e0f7fcbd5cd78b37db35bb1c7cdff6c922e32e1eb96c6a900b17"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -413,17 +414,10 @@
     "https://www.ghafla.co.ke/chebet-ronoh-as-much-as-i-talk-to-the-camera-im-very-introverted/",
     "https://www.ghafla.co.ke/wambo-ashley-shows-off-new-home-after-nicholas-kioko-split/",
     "https://www.ghafla.co.ke/robert-burale-recalls-being-accused-of-devil-worshipping/",
-    "https://www.ghafla.co.ke/shorn-arwa-fires-back-at-narcissist-and-gold-digger-labels-with-humorous-response/"
+    "https://www.ghafla.co.ke/shorn-arwa-fires-back-at-narcissist-and-gold-digger-labels-with-humorous-response/",
+    "https://www.ghafla.co.ke/jaymoh-decin-laments-six-months-of-tiktok-content-reports/"
   ],
   "published_angles": [
-    {
-      "title": "Cleophas Malala Rejects Kalonzo\u2019s Ukombozi Lineup, Outlines Parallel Front With Edwin Sifuna",
-      "angle": "Focusing on Cleophas Malala and Maina Kamanda's specific counter-strategy: establishing a parallel political bloc with Edwin Sifuna's Linda Mwananchi outfit to force Kalonzo Musyoka's Karen team into co-equal negotiations.",
-      "angle_type": "political strategy and counter-negotiation terms",
-      "opening": "Personality lead opening directly on Cleophas Malala drawing a line at DCP headquarters in Lavington.",
-      "structure": "Malala's Lavington strategy -> Parallel alignment with Sifuna -> Kamanda's 47-county grassroots mandate -> The four recognized opposition figures -> Background on Kalonzo's Karen launch -> Closing on co-equal negotiation terms",
-      "source": "https://www.ghafla.co.ke/big-blow-for-kalonzo-as-gachaguas-dcp-says-no-to-ukombozi-alliance/"
-    },
     {
       "title": "Babu Owino Weaponizes \u2018A-Student\u2019 Report Cards and Campus Legacy to Frame Nairobi 2027 Bid",
       "angle": "Reframing Babu Owino's campaign strategy around his personality branding transition\u2014specifically how he is weaponizing his academic-style 'report card' (the 80% Infotrak score) and his legendary campus politician pedigree to build a case for executive power, while framing Sakaja's collaborative governance as a weak 'abdication of duty.'",
@@ -1215,6 +1209,14 @@
       "opening": "Personality lead focusing directly on Arwa demanding aesthetic accuracy in hostile online commentary.",
       "structure": "Vanity deflection lead -> Breakdown of the exact social remarks and crowd callout -> Context of the sister YouTube tell-all and sister-defense dynamic -> Prior domestic disclosure of baby daddy separation -> Steady posture under scrutiny close",
       "source": "https://www.ghafla.co.ke/shorn-arwa-fires-back-at-narcissist-and-gold-digger-labels-with-humorous-response/"
+    },
+    {
+      "title": "Jaymoh Decin Calls Out Six-Month TikTok Flagging Campaign Threatening His Hard-Won Momentum",
+      "angle": "Highlighting the economic precarity of digital comedy: Jaymoh framing systematic platform flagging as an existential push back to the village ('anataka turudi ushago') precisely as his career transitions from mobile screen skits to self-funded live arena productions.",
+      "angle_type": "algorithmic vulnerability and career stakes",
+      "opening": "Personality lead opening directly on Jaymoh Decin confronting the silent economic threat behind half a year of systematic TikTok flag reports.",
+      "structure": "Algorithmic pushback hook -> The 'ushago' existential warning and Instagram statement -> The KICC live production baseline (Sudhe Experience) -> Impersonations and the climb out of low-budget digital skits -> Platform moderation reality and next moves close",
+      "source": "https://www.ghafla.co.ke/jaymoh-decin-laments-six-months-of-tiktok-content-reports/"
     }
   ],
   "style_history": [
