@@ -211,7 +211,8 @@
     "7e202f5a73b1ce2c0a5a1551dc1fb66b21d3e2a8b7db8adb36cc2b309d007cb8",
     "e58235b47f5ac50dc9e4fb4c102dd4c892f6643e467a68f647b24268a7523202",
     "19f77c8a1e1dec48b8f4d6801c4ad5c2c242585d83e27cbd502bd14dc6b12a19",
-    "2925255871cfe1b655f6de9a35d9b7a8d4d5b93e5473bda282f895fd09b1b3b0"
+    "2925255871cfe1b655f6de9a35d9b7a8d4d5b93e5473bda282f895fd09b1b3b0",
+    "32fdbabd7475c14e9846937524415374a2dc52b39c7ea07011cfe8a2eb102e3e"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -425,17 +426,10 @@
     "https://www.ghafla.co.ke/latest-gazette-notice-government-names-new-board-members-across-key-state-agencies/",
     "https://www.ghafla.co.ke/government-formally-classifies-cocoa-as-scheduled-cash-crop-in-agricultural-diversification-drive/",
     "https://www.ghafla.co.ke/mt-kenya-will-be-out-of-power-for-30-years-governor-waigurus-warning-to-regional-leaders/",
-    "https://www.ghafla.co.ke/judgment-day-pushed-paul-mackenzie-to-know-fate-over-shakahola-deaths/"
+    "https://www.ghafla.co.ke/judgment-day-pushed-paul-mackenzie-to-know-fate-over-shakahola-deaths/",
+    "https://www.ghafla.co.ke/caleb-amisi-threatens-to-impeach-ruto-if-he-wins-2027-election/"
   ],
   "published_angles": [
-    {
-      "title": "Unfiltered or Compromised? Georgina Njenga\u2019s Dark Humor Triggers Hack Speculation from Pritty Vishy",
-      "angle": "Analyzing the tension between raw, dark-humored creator vulnerability and peer-led skepticism, framing the incident within Georgina\u2019s broader, documented timeline of setting personal and spiritual boundaries in 2026.",
-      "angle_type": "creator culture and digital vulnerability",
-      "opening": "Personality lead focusing directly on Georgina Njenga's dark-humored existential posts and the immediate skepticism they triggered from fellow creator Pritty Vishy.",
-      "structure": "Immediate post analysis -> Peer reaction and hack speculation -> Contextualizing with the September mall incident and spiritual boundaries -> Retrospective on her July 'starting over' milestone -> Unresolved status of the account security.",
-      "source": "https://www.ghafla.co.ke/pritty-vishy-questions-georgina-njengas-instagram-posts-amid-emotional-messages/"
-    },
     {
       "title": "Janet Mbugua Calls Out Political Gatecrashers After Karen Nyamu\u2019s KICC Endometriosis Climax",
       "angle": "The operational collapse of advocacy boundaries: examining how event organizers like Eric Omondi and grassroots creators attempt to firewall vulnerable health campaigns from political grandstanding, only to see high-profile figures force their way in through backchannels and financial donations.",
@@ -1227,6 +1221,14 @@
       "opening": "Personality lead opening directly on Paul Mackenzie facing an altered calendar and a new courtroom setting for his final verdict.",
       "structure": "Personality verdict hook -> Logistical shift to Mombasa -> Scale of the 191-count charge sheet -> Prosecution's 121-witness marathon -> Appellate defense battle -> Impending dock appearance close",
       "source": "https://www.ghafla.co.ke/judgment-day-pushed-paul-mackenzie-to-know-fate-over-shakahola-deaths/"
+    },
+    {
+      "title": "Caleb Amisi Takes Aim at Edwin Sifuna\u2019s \u2018Likes and Followers\u2019 Politics, Vows Day-One Impeachment for 2027 Winner",
+      "angle": "Amisi's scathing roast of the political influencer culture\u2014calling out Edwin Sifuna\u2019s inner circle for prioritizing digital likes and followers over ground strategy, while pitching his own theatrical pledge to immediately impeach whoever drops the swearing-in Bible at State House.",
+      "angle_type": "political personality critique and clout confrontation",
+      "opening": "Personality lead opening directly on Caleb Amisi calling out the social media obsession of Edwin Sifuna's campaign team and issuing an unfiltered warning to whoever takes the presidential oath.",
+      "structure": "Personality lead -> Critique of Sifuna's online influencer politics -> The 233-seat math and the swearing-in Bible quote -> Cross-aisle scrutiny of Kalonzo, Maraga, and Gachagua -> Opposition division baseline close",
+      "source": "https://www.ghafla.co.ke/caleb-amisi-threatens-to-impeach-ruto-if-he-wins-2027-election/"
     }
   ],
   "style_history": [
