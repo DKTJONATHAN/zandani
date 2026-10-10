@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "b1ba23f532c10ba1ca629a61d2c8a3b5",
     "1c11c547d94139eda5636035111e617b",
     "5788086a7c27b523fb13a2c611f05c73",
     "fc496a772fe108a2e72c5165d1ef1693",
@@ -799,10 +798,10 @@
     "c89e9c1079437fa0c32d2443c77df341",
     "57a8d1a13821f14552bde8a02eb38122",
     "111abc9b67e4c9b5dedff9aeacea1a75",
-    "33ce99f9abb10bb4a493a31178e6e4df"
+    "33ce99f9abb10bb4a493a31178e6e4df",
+    "80fa7356be66aba7cc14c278f98d4771"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1273,7 +1273,8 @@
     "https://kenyans.co.ke/news/127739-cabinet-approves-ksh2m-fine-fraudulently-registered-architects-surveyors",
     "https://kenyans.co.ke/news/127742-africa-cdc-reveals-how-kenyan-ebola-patient-travelled-across-three-countries-undetected",
     "https://kenyans.co.ke/news/127744-governors-spot-over-ksh-100b-salary-arrears-unremitted-deductions",
-    "https://kenyans.co.ke/news/127743-cabinet-okays-3-major-roads-spanning-909km-across-10-counties"
+    "https://kenyans.co.ke/news/127743-cabinet-okays-3-major-roads-spanning-909km-across-10-counties",
+    "https://kenyans.co.ke/news/127748-govt-suspends-meetings-seminars-hotels-after-ebola-case"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1637,7 +1638,8 @@
     "cabinet clears ksh2m fraud fine overhaul 1934 construction law",
     "clinical misdiagnosis medication blindsided regional ebola screening",
     "ksh99b penalty trap exposes scale county pension crisis",
-    "state commits ksh60b lake rim highway ksh92b rural corridor package"
+    "state commits ksh60b lake rim highway ksh92b rural corridor package",
+    "health ministry halts hotel retreats redirect civil service machinery ebola surveillance"
   ],
   "topic_keys": [
     "news tracker",
@@ -4184,6 +4186,15 @@
       "structure": "Funding allocation lead -> Scope and tripartite corridor mapping -> Multilateral backing and the Lake Victoria alignment -> High-altitude agricultural feeder links -> Impending November pre-construction timeline",
       "source": "https://kenyans.co.ke/news/127743-cabinet-okays-3-major-roads-spanning-909km-across-10-counties",
       "published_at": "2026-10-10T07:02:26Z"
+    },
+    {
+      "title": "Health Ministry Halts Hotel Retreats to Redirect Civil Service Machinery Into Ebola Surveillance",
+      "angle": "Attribution-first examination of how the ministry is shutting down routine hotel retreat spending and gathering logistics to redirect internal state capacity toward contact tracing and biosecurity containment.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first statement opening that identifies the Principal Secretary's directive and highlights contact tracing operations as the primary beneficiary of the administrative freeze.",
+      "structure": "Attribution-led directive announcement -> Memo instructions and clearance mechanism -> Operational redirection toward contact tracing -> Epidemiological background and Nairobi Hospital timeline -> Forward surveillance posture.",
+      "source": "https://kenyans.co.ke/news/127748-govt-suspends-meetings-seminars-hotels-after-ebola-case",
+      "published_at": "2026-10-10T08:02:02Z"
     }
   ]
 }
