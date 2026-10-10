@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "5788086a7c27b523fb13a2c611f05c73",
     "fc496a772fe108a2e72c5165d1ef1693",
     "16ec2d9b569198dbb9ee4de8df9edfc0",
     "c64c5338e34f2d721f24598c5e324e27",
@@ -799,10 +798,10 @@
     "111abc9b67e4c9b5dedff9aeacea1a75",
     "33ce99f9abb10bb4a493a31178e6e4df",
     "80fa7356be66aba7cc14c278f98d4771",
-    "bd852c50a4368bee426f4d3036749361"
+    "bd852c50a4368bee426f4d3036749361",
+    "833e42f7ee0fd63fcd5ebb59608b0dbc"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1275,7 +1275,8 @@
     "https://kenyans.co.ke/news/127744-governors-spot-over-ksh-100b-salary-arrears-unremitted-deductions",
     "https://kenyans.co.ke/news/127743-cabinet-okays-3-major-roads-spanning-909km-across-10-counties",
     "https://kenyans.co.ke/news/127748-govt-suspends-meetings-seminars-hotels-after-ebola-case",
-    "https://kenyans.co.ke/news/127746-panic-massive-night-fire-guts-club-mios-mombasa"
+    "https://kenyans.co.ke/news/127746-panic-massive-night-fire-guts-club-mios-mombasa",
+    "https://kenyans.co.ke/news/127750-treasury-spends-77-tax-revenue-debt-first-quarter-2026"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1641,7 +1642,8 @@
     "ksh99b penalty trap exposes scale county pension crisis",
     "state commits ksh60b lake rim highway ksh92b rural corridor package",
     "health ministry halts hotel retreats redirect civil service machinery ebola surveillance",
-    "bamburi nightclub fire spotlights emergency gap along mombasa fuel corridor"
+    "bamburi nightclub fire spotlights emergency gap along mombasa fuel corridor",
+    "debt swallows taxes forcing treasury fresh ksh130b refinancing talks"
   ],
   "topic_keys": [
     "news tracker",
@@ -4206,6 +4208,15 @@
       "structure": "Hazard perimeter lead -> Verified incident chronology and evacuations -> Spatial risk matrix (petrol station and Vescon Estate) -> Emergency response timing and municipal fire track record -> Unresolved forensic investigation",
       "source": "https://kenyans.co.ke/news/127746-panic-massive-night-fire-guts-club-mios-mombasa",
       "published_at": "2026-10-10T09:02:16Z"
+    },
+    {
+      "title": "Debt Swallows 77% of Q1 Taxes, Forcing Treasury Into Fresh Ksh130B Refinancing Talks",
+      "angle": "Examining the acute cash-flow squeeze on discretionary government operations: with less than Ksh2.30 out of every Ksh10 in tax collections surviving debt service, Treasury is being forced into active liability swaps and a Ksh700 billion refinancing pipeline to prevent routine state functions from stalling.",
+      "angle_type": "institutional pressure",
+      "opening": "Operational-margin lead tracking the thin residual tax balance left for ministries and counties after first-quarter loan repayments.",
+      "structure": "Residual balance lead -> First-quarter cash disbursement numbers -> Creditor breakdown and GDP thresholds -> Moody's regional interest forecast -> Liability-management pipeline and US debt swap negotiations.",
+      "source": "https://kenyans.co.ke/news/127750-treasury-spends-77-tax-revenue-debt-first-quarter-2026",
+      "published_at": "2026-10-10T10:01:44Z"
     }
   ]
 }
