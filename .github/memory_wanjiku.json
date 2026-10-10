@@ -206,7 +206,8 @@
     "bcd58a6dde9fc2852a24a6e81db2b15554058e925a962ed703bbb73f03f55864",
     "72ba6d81d5b539a35abb451739738daa75b5d999644dd45a5dbbb22dab4b6d86",
     "6f54e632e1dc98f6d32892fdb619f920a5ad2315e792091b7202d4e9207466bf",
-    "f5a0d8167227e0f7fcbd5cd78b37db35bb1c7cdff6c922e32e1eb96c6a900b17"
+    "f5a0d8167227e0f7fcbd5cd78b37db35bb1c7cdff6c922e32e1eb96c6a900b17",
+    "c9f888728aa379530ad9d8b4d813ab4af2830ace50cfb9cf5bcda1634f50fc3a"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -415,17 +416,10 @@
     "https://www.ghafla.co.ke/wambo-ashley-shows-off-new-home-after-nicholas-kioko-split/",
     "https://www.ghafla.co.ke/robert-burale-recalls-being-accused-of-devil-worshipping/",
     "https://www.ghafla.co.ke/shorn-arwa-fires-back-at-narcissist-and-gold-digger-labels-with-humorous-response/",
-    "https://www.ghafla.co.ke/jaymoh-decin-laments-six-months-of-tiktok-content-reports/"
+    "https://www.ghafla.co.ke/jaymoh-decin-laments-six-months-of-tiktok-content-reports/",
+    "https://www.ghafla.co.ke/sifuna-rejects-calls-to-resign-cites-cost-of-by-election-ahead-of-2027-polls/"
   ],
   "published_angles": [
-    {
-      "title": "Babu Owino Weaponizes \u2018A-Student\u2019 Report Cards and Campus Legacy to Frame Nairobi 2027 Bid",
-      "angle": "Reframing Babu Owino's campaign strategy around his personality branding transition\u2014specifically how he is weaponizing his academic-style 'report card' (the 80% Infotrak score) and his legendary campus politician pedigree to build a case for executive power, while framing Sakaja's collaborative governance as a weak 'abdication of duty.'",
-      "angle_type": "political-celebrity branding and leadership framing",
-      "opening": "Personality-centric lead focusing on Babu Owino's brand transition from street-level activist to certified policy administrative candidate.",
-      "structure": "Brand positioning -> The Infotrak scorecard evidence -> The KSh 80B Sakaja deal critique -> Campus pedigree and ethnic voter claims -> Structural municipal outlook.",
-      "source": "https://www.ghafla.co.ke/nairobi-needs-tested-leadership-babu-owino-defends-his-reason-for-ousting-sakaja-as-nairobi-governor/"
-    },
     {
       "title": "Serena Hotel, Diplomatic Enclaves, and Westlands Luxury Hubs Plunged Into Kenya Power's Wednesday Maintenance List",
       "angle": "Reframing the utility maintenance around its impact on Nairobi's premier diplomatic, corporate, and luxury hospitality districts, highlighting how the city's elite enclaves must adapt to a temporary nine-hour blackout.",
@@ -1217,6 +1211,14 @@
       "opening": "Personality lead opening directly on Jaymoh Decin confronting the silent economic threat behind half a year of systematic TikTok flag reports.",
       "structure": "Algorithmic pushback hook -> The 'ushago' existential warning and Instagram statement -> The KICC live production baseline (Sudhe Experience) -> Impersonations and the climb out of low-budget digital skits -> Platform moderation reality and next moves close",
       "source": "https://www.ghafla.co.ke/jaymoh-decin-laments-six-months-of-tiktok-content-reports/"
+    },
+    {
+      "title": "Edwin Sifuna Shuts Down Resignation Demands, Daring Critics to Explain Ruto\u2019s UDA Playbook",
+      "angle": "Focusing on Sifuna's calculated political survival playbook: invoking William Ruto's own precedent of jumping parties without quitting office, while framing his retention of the Nairobi seat as a taxpayer-saving fiscal shield.",
+      "angle_type": "political personality tactics and precedent confrontation",
+      "opening": "Personality lead opening directly on Edwin Sifuna drawing a line under his Senate seat and invoking William Ruto's past party maneuvers to dismiss calls for his exit.",
+      "structure": "Personality standoff hook -> The Ruto precedent and hypocrisy accusation -> The KSh arithmetic of a 10-month by-election -> The five-year voter contract and TEP presidential trajectory -> Timing of the formal ODM exit close",
+      "source": "https://www.ghafla.co.ke/sifuna-rejects-calls-to-resign-cites-cost-of-by-election-ahead-of-2027-polls/"
     }
   ],
   "style_history": [
