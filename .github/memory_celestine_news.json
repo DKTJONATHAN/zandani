@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a8d70dfe3f8968ed5c9f24784a17d654",
     "ad149c42aebddfaff89d7ac344c69ff4",
     "de5acb70f4c6fff778e42d065018cb81",
     "ca41d40b2ba0d7a2bb157ef7fe6e8bbc",
@@ -799,10 +798,10 @@
     "bcf8caf204be49682876c19ba1ee7cb0",
     "ce17c5127d54a375560c5018b9f571f0",
     "796831537ef80cd5ed97ce9057f7984e",
-    "72327e3a589fda22cdb8c94c2f4dac28"
+    "72327e3a589fda22cdb8c94c2f4dac28",
+    "1e3dbcba2b210fc65eda2923da93808a"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1290,7 +1290,8 @@
     "https://kenyans.co.ke/news/127765-amisis-pm-sonkos-nedp-and-others-announce-leadership-changes",
     "https://kenyans.co.ke/news/127768-kenya-unveils-policy-improve-access-govt-information",
     "https://kenyans.co.ke/news/127770-ruto-fasttracks-rironi-mau-summit-highway-completion-april-2027",
-    "https://kenyans.co.ke/news/127773-omtatah-moves-court-over-iebc-changes-ballot-paper-security"
+    "https://kenyans.co.ke/news/127773-omtatah-moves-court-over-iebc-changes-ballot-paper-security",
+    "https://kenyans.co.ke/news/127777-ministry-health-confirms-all-122-ebola-contacts-traced"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1671,7 +1672,8 @@
     "party restructures trigger seven day clock wanjiru sonko amisi reposition vehicles",
     "state gazettes proactive data rules break decade institutional secrecy",
     "state splits rironi mau summit corridor rollout october dualling target",
-    "iebc put strict proof downgraded 2027 ballot security layers"
+    "iebc put strict proof downgraded 2027 ballot security layers",
+    "duale traces all 122 ebola contacts shield western border transit hubs"
   ],
   "topic_keys": [
     "news tracker",
@@ -4371,6 +4373,15 @@
       "structure": "Evidentiary test lead -> Tender mechanics and Addendum No. 3 -> Specific breakdown of stripped dynamic security layers -> Deliberate constitutional framing without fraud allegations -> October 13 and 14 judicial countdown",
       "source": "https://kenyans.co.ke/news/127773-omtatah-moves-court-over-iebc-changes-ballot-paper-security",
       "published_at": "2026-10-11T13:01:42Z"
+    },
+    {
+      "title": "Duale Traces All 122 Ebola Contacts to Shield Western Border Transit Hubs",
+      "angle": "Attribution-first containment audit: framing Duale's ministerial declaration around the immediate beneficiaries\u2014frontline border communities, cross-border transit corridors, and clinical referral hubs\u2014while highlighting the rapid laboratory buffer that has averted secondary transmission despite an unexplained reconciliation in contact numbers.",
+      "angle_type": "consequence",
+      "opening": "Attribution-first statement opening identifying the Cabinet Secretary's formal update and the immediate operational beneficiaries across border counties and referral facilities.",
+      "structure": "Attribution and beneficiary lead -> Duale's verified statement and quarantine metrics -> Surveillance network and border lab capacity -> Unresolved tracking discrepancy -> Institutional scaling and partner financing horizon",
+      "source": "https://kenyans.co.ke/news/127777-ministry-health-confirms-all-122-ebola-contacts-traced",
+      "published_at": "2026-10-11T15:01:21Z"
     }
   ]
 }
