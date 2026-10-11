@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ef29e03545c282b96c1df1e16cf674de",
     "5771019ab3540c5dea5e02b1ddf04278",
     "bc4e9d507edd0054bf48961b716048f1",
     "ccb6a6c9dda474a49b3a925ae22c002a",
@@ -799,10 +798,10 @@
     "a4468bfe0c1488ca116348e644563292",
     "d998c47e4f755e533bbf2e3166ba3ccb",
     "371f5a06c26f7a415c300e07aab01e89",
-    "b85453c08d43d2b2d5306f2fae9a7de6"
+    "b85453c08d43d2b2d5306f2fae9a7de6",
+    "5047a3b5abc5304a0be11bc2371057e8"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1283,7 +1283,8 @@
     "https://kenyans.co.ke/news/127755-high-court-announces-24-day-recess-december-21-issues-orders-judges",
     "https://kenyans.co.ke/news/127756-epra-raises-october-electricity-prices-ksh41",
     "https://kenyans.co.ke/news/127758-kenya-met-lists-nairobi-among-counties-receive-rains-weekend",
-    "https://kenyans.co.ke/news/127762-explained-what-law-says-about-domesticating-buffaloes-kenya"
+    "https://kenyans.co.ke/news/127762-explained-what-law-says-about-domesticating-buffaloes-kenya",
+    "https://kenyans.co.ke/news/127763-kalonzo-turns-us-over-accountability-ebola-funds"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1657,7 +1658,8 @@
     "high court gazettes day holiday pause reroutes single judge stations emergency pleas",
     "epra shields thermal dollar ppas ksh4 power unit surcharge",
     "thunderstorms cold snap highlight kmsa five day weather outlook",
-    "state revives dairy buffalo push despite month regulatory freeze"
+    "state revives dairy buffalo push despite month regulatory freeze",
+    "kalonzo invokes aid oversight force audit ksh1 ebola war chest"
   ],
   "topic_keys": [
     "news tracker",
@@ -4294,6 +4296,15 @@
       "structure": "Policy gap lead -> Presidential directive at Jamhuri Park summit -> Legislative history and the 2025 gazettement -> Senate oversight hurdles raised by Catherine Mumma -> Unresolved import and biosecurity protocols.",
       "source": "https://kenyans.co.ke/news/127762-explained-what-law-says-about-domesticating-buffaloes-kenya",
       "published_at": "2026-10-11T06:01:54Z"
+    },
+    {
+      "title": "Kalonzo Invokes US Aid Oversight to Force Audit on Ksh1.9B Ebola War Chest",
+      "angle": "The deployment of external donor conditionality over domestic oversight: Kalonzo's push directly invokes Washington's strict aid monitoring rules, deliberately reviving the spectre of the 2017 U.S. funding freeze against Afya House during an active epidemiological crisis.",
+      "angle_type": "institutional pressure",
+      "opening": "External leverage opening contrasting domestic political rhetoric with the formal compliance levers of bilateral aid.",
+      "structure": "Diplomatic leverage lead -> Mombasa rally claims and specific bilateral allocations -> Strategic invocation of U.S. aid compliance and the 2017 suspension precedent -> The active biosecurity backdrop (first death) and unresolved Afya House accounting response.",
+      "source": "https://kenyans.co.ke/news/127763-kalonzo-turns-us-over-accountability-ebola-funds",
+      "published_at": "2026-10-11T07:01:51Z"
     }
   ]
 }
