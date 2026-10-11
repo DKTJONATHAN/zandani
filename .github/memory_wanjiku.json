@@ -213,7 +213,8 @@
     "19f77c8a1e1dec48b8f4d6801c4ad5c2c242585d83e27cbd502bd14dc6b12a19",
     "2925255871cfe1b655f6de9a35d9b7a8d4d5b93e5473bda282f895fd09b1b3b0",
     "32fdbabd7475c14e9846937524415374a2dc52b39c7ea07011cfe8a2eb102e3e",
-    "ceb3d781157df3bf206c58e61de69c7635dd610a58dcbb0f05288cc6ef088a41"
+    "ceb3d781157df3bf206c58e61de69c7635dd610a58dcbb0f05288cc6ef088a41",
+    "cc13ddb8714797087b127a2e6e311e76a31839dd13f657187d001855aee44a9f"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -429,17 +430,10 @@
     "https://www.ghafla.co.ke/mt-kenya-will-be-out-of-power-for-30-years-governor-waigurus-warning-to-regional-leaders/",
     "https://www.ghafla.co.ke/judgment-day-pushed-paul-mackenzie-to-know-fate-over-shakahola-deaths/",
     "https://www.ghafla.co.ke/caleb-amisi-threatens-to-impeach-ruto-if-he-wins-2027-election/",
-    "https://www.ghafla.co.ke/gladys-wanga-pledges-credible-odm-nominations-questions-uhurus-influence-ahead-of-2027/"
+    "https://www.ghafla.co.ke/gladys-wanga-pledges-credible-odm-nominations-questions-uhurus-influence-ahead-of-2027/",
+    "https://www.ghafla.co.ke/president-ruto-directs-agriculture-ministry-to-import-high-yielding-dairy-camels-and-buffaloes/"
   ],
   "published_angles": [
-    {
-      "title": "Colonel Mustafa Traces 25-Year Survival to Donholm Safety Net Ahead of Anniversary Showcase",
-      "angle": "Reframing Mustafa's tears through the lens of Eastlands grassroots survival\u2014specifically how the working-class community of Greenfield, Donholm served as an informal social safety net during his early creative struggle, contrasting with the glossy commercial heights of his Ogopa Deejays era and his later public construction site trials.",
-      "angle_type": "celebrity grassroots loyalty and career survival architecture",
-      "opening": "Personality lead placing Mustafa directly in the interview chair as conversation shifts from concert mechanics to the neighborhood that kept him fed and housed.",
-      "structure": "Interview emotional pivot hook -> The Greenfield, Donholm informal support system -> Context of the early Ogopa and Marya chapter -> Post-fame turbulence and the 2023 mjengo reality -> Mobilization of Eastlands estates for the October 10 anniversary concert.",
-      "source": "https://www.ghafla.co.ke/colonel-mustafa-breaks-down-while-recalling-donholm-years/"
-    },
     {
       "title": "Wicknell Chivayo: Flamboyant Tycoon Dies in Helicopter Crash Weeks After Gwanda Solar Breakthrough, As 2025 Aviation Warning Resurfaces",
       "angle": "Framing the tragedy around the tragic timing of Chivayo's death coming right after his corporate entity cleared years of legal battles over the Gwanda solar deal, while contextualizing the viral social post as part of his turbulent public digital footprint.",
@@ -1231,6 +1225,14 @@
       "opening": "Personality lead opening directly on Gladys Wanga taking down the political illusions surrounding Uhuru Kenyatta on the Kakamega podium.",
       "structure": "Personality hook -> The direct rhetorical takedown of Uhuru's influence on Sifuna, Matiang'i, and Kalonzo -> Handshake reality and broken promises -> Oburu Odinga's power doctrine and nomination guarantee -> Rumor debunking baseline and Bondo culmination close",
       "source": "https://www.ghafla.co.ke/gladys-wanga-pledges-credible-odm-nominations-questions-uhurus-influence-ahead-of-2027/"
+    },
+    {
+      "title": "William Ruto Eyes KSh 200 Camel Milk Hustle, Tells PS Mueke to Ship in Indian Buffaloes: \u2018Do as We Had Agreed\u2019",
+      "angle": "William Ruto turning the Jamhuri Park summit into an animated retail-and-lifestyle pitch, publicly reminding Agriculture PS Jonathan Mueke of their private agreement to bring in Indian water buffaloes while hyping Nairobi's lucrative KSh 200 camel milk market against surging cow milk prices.",
+      "angle_type": "personality-driven consumer pitch and policy theater",
+      "opening": "Personality lead opening directly on William Ruto calling out PS Jonathan Mueke from the Jamhuri Park stage over their agreed plan to bring in foreign buffaloes and camels.",
+      "structure": "Podium callout hook -> The KSh 200 camel milk retail arithmetic -> The India water buffalo blueprint -> The hard supermarket milk shortage numbers across Nairobi, Mombasa, and Kisumu -> Cooperative bypass reality.",
+      "source": "https://www.ghafla.co.ke/president-ruto-directs-agriculture-ministry-to-import-high-yielding-dairy-camels-and-buffaloes/"
     }
   ],
   "style_history": [
