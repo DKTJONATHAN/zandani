@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "bc4e9d507edd0054bf48961b716048f1",
     "ccb6a6c9dda474a49b3a925ae22c002a",
     "53c586281f3b008334d09a58b1616ea5",
     "66f7300f41de0546895c585c2521e6fa",
@@ -799,10 +798,10 @@
     "371f5a06c26f7a415c300e07aab01e89",
     "b85453c08d43d2b2d5306f2fae9a7de6",
     "5047a3b5abc5304a0be11bc2371057e8",
-    "d8126a66a20ba19961f92c8eb9b166dd"
+    "d8126a66a20ba19961f92c8eb9b166dd",
+    "7d8e896ad8f0ae119b5e7d77e8f13ced"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1285,7 +1285,8 @@
     "https://kenyans.co.ke/news/127758-kenya-met-lists-nairobi-among-counties-receive-rains-weekend",
     "https://kenyans.co.ke/news/127762-explained-what-law-says-about-domesticating-buffaloes-kenya",
     "https://kenyans.co.ke/news/127763-kalonzo-turns-us-over-accountability-ebola-funds",
-    "https://kenyans.co.ke/news/127761-eliud-kipchoge-wins-first-marathon-3-years-sets-melbourne-course-record"
+    "https://kenyans.co.ke/news/127761-eliud-kipchoge-wins-first-marathon-3-years-sets-melbourne-course-record",
+    "https://kenyans.co.ke/news/127759-health-ministry-launches-probe-jootrh-over-patient-complaints"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1661,7 +1662,8 @@
     "thunderstorms cold snap highlight kmsa five day weather outlook",
     "state revives dairy buffalo push despite month regulatory freeze",
     "kalonzo invokes aid oversight force audit ksh1 ebola war chest",
-    "kipchoge resets career ledger melbourne multi continent campaign delivers first victory three years"
+    "kipchoge resets career ledger melbourne multi continent campaign delivers first victory three years",
+    "discharge delays negligence claims jootrh force direct afya house scrutiny"
   ],
   "topic_keys": [
     "news tracker",
@@ -4316,6 +4318,15 @@
       "structure": "Attribution-led outcome -> Strategic pivot to global continental tour -> Split from the World Marathon Majors treadmill -> The Melbourne road dynamics and timing margin -> Future tour logistics across remaining continents",
       "source": "https://kenyans.co.ke/news/127761-eliud-kipchoge-wins-first-marathon-3-years-sets-melbourne-course-record",
       "published_at": "2026-10-11T08:02:04Z"
+    },
+    {
+      "title": "Discharge Delays, Negligence Claims at JOOTRH Force Direct Afya House Scrutiny",
+      "angle": "Examining the administrative escalation from viral public grievances to direct national intervention: how systemic operational bottlenecks\u2014particularly day-long patient discharge delays and fatal clinical lapses\u2014forced Afya House to bypass routine channels and enforce frontline retraining at Western Kenya's premier referral hub.",
+      "angle_type": "accountability",
+      "opening": "Operational-scrutiny lead tracking how persistent ward-level bottlenecks and public distress forced national executive intervention.",
+      "structure": "Administrative collision lead -> Verified MoH intervention and meeting details -> Specific operational failures (discharge delays and fatal negligence claims) -> Ministry mandates and internal probe -> Unresolved institutional transition.",
+      "source": "https://kenyans.co.ke/news/127759-health-ministry-launches-probe-jootrh-over-patient-complaints",
+      "published_at": "2026-10-11T08:29:22Z"
     }
   ]
 }
