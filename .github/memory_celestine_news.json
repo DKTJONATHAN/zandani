@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ca41d40b2ba0d7a2bb157ef7fe6e8bbc",
     "cacdb49ead3f26623b34ba41814b7822",
     "dcf3e1aa88e7ede9e29f476196d43c2c",
     "1007e42e4f6a9908a76c13fbd36de1a0",
@@ -799,10 +798,10 @@
     "72327e3a589fda22cdb8c94c2f4dac28",
     "1e3dbcba2b210fc65eda2923da93808a",
     "d1e3776ac2a57680583cfd0f2b940923",
-    "ca7b93d852320f2e1d7b8e0796fc330d"
+    "ca7b93d852320f2e1d7b8e0796fc330d",
+    "44ae5c4e83ce162f62712a0c0abb4fd6"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1293,7 +1293,8 @@
     "https://kenyans.co.ke/news/127773-omtatah-moves-court-over-iebc-changes-ballot-paper-security",
     "https://kenyans.co.ke/news/127777-ministry-health-confirms-all-122-ebola-contacts-traced",
     "https://kenyans.co.ke/news/127776-dairy-farmers-urge-govt-cut-taxes-animal-feed-amid-milk-shortage",
-    "https://kenyans.co.ke/news/127775-cs-chirchir-urges-state-declare-another-national-tree-planting-day-after-rains-fail"
+    "https://kenyans.co.ke/news/127775-cs-chirchir-urges-state-declare-another-national-tree-planting-day-after-rains-fail",
+    "https://kenyans.co.ke/news/127778-statehouse-road-tree-felling-sparks-outrage-among-nairobi-residents"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1677,7 +1678,8 @@
     "iebc put strict proof downgraded 2027 ballot security layers",
     "duale traces all 122 ebola contacts shield western border transit hubs",
     "murang cooperatives seek legal shield bar processors farm gate milk buying",
-    "chirchir pushes second tree holiday weather stalls state planting targets"
+    "chirchir pushes second tree holiday weather stalls state planting targets",
+    "state house road felling tests sakaja permit ban road agency clearances"
   ],
   "topic_keys": [
     "news tracker",
@@ -4404,6 +4406,15 @@
       "structure": "Policy friction lead -> Makutano Forest petition and missed Kericho targets -> National tally versus 15-billion goal mechanics -> Nursery and aerial infrastructure commitments -> Water tower logging conflict in the Aberdares",
       "source": "https://kenyans.co.ke/news/127775-cs-chirchir-urges-state-declare-another-national-tree-planting-day-after-rains-fail",
       "published_at": "2026-10-11T16:01:23Z"
+    },
+    {
+      "title": "State House Road Felling Tests Sakaja\u2019s Permit Ban on Road Agency Clearances",
+      "angle": "Framing the weekend felling as a direct test of City Hall's statutory permit regime and threat of prosecution against state infrastructure agencies, contrasting vehicular expansion against resident walkability.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first statement lead identifying County Hall's standing regulatory ban and the immediate beneficiaries of urban road widening versus pedestrian protection.",
+      "structure": "Attribution and beneficiary lead -> Verified weekend clearance mechanics and street-level disruption -> Civic and legal opposition from Havi and KCF -> City Hall's standing permit framework and penal warnings -> Unresolved inter-agency compliance gap",
+      "source": "https://kenyans.co.ke/news/127778-statehouse-road-tree-felling-sparks-outrage-among-nairobi-residents",
+      "published_at": "2026-10-11T17:02:04Z"
     }
   ]
 }
