@@ -216,7 +216,8 @@
     "ceb3d781157df3bf206c58e61de69c7635dd610a58dcbb0f05288cc6ef088a41",
     "cc13ddb8714797087b127a2e6e311e76a31839dd13f657187d001855aee44a9f",
     "476554e270335f8ffed3eca99af7015a31f2d6329ac62329514254923ebaf832",
-    "b9a3ed58244a70c70b218aa2410a658b03f6927c31e082a1b2f8a43afee7fabe"
+    "b9a3ed58244a70c70b218aa2410a658b03f6927c31e082a1b2f8a43afee7fabe",
+    "ebe603e779b28e46d817718e3c2782dac22e099b3dadde907865dc917b8d42bb"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -435,17 +436,10 @@
     "https://www.ghafla.co.ke/gladys-wanga-pledges-credible-odm-nominations-questions-uhurus-influence-ahead-of-2027/",
     "https://www.ghafla.co.ke/president-ruto-directs-agriculture-ministry-to-import-high-yielding-dairy-camels-and-buffaloes/",
     "https://www.ghafla.co.ke/ruto-attends-church-service-in-kakamega-as-western-kenya-tour-continues/",
-    "https://www.ghafla.co.ke/kmsa-explains-why-el-nino-does-not-automatically-mean-heavy-rainfall-in-kenya/"
+    "https://www.ghafla.co.ke/kmsa-explains-why-el-nino-does-not-automatically-mean-heavy-rainfall-in-kenya/",
+    "https://www.ghafla.co.ke/kioni-warns-opposition-against-insults-says-ruto-could-be-benefiting-politically/"
   ],
   "published_angles": [
-    {
-      "title": "Inside the 18-Hour Recovery Operation After Wicknell Chivayo\u2019s Fatal Marondera Helicopter Crash",
-      "angle": "Focusing on the grueling, grim operational reality of the 18-hour recovery effort across a 100-metre debris field that defined the final public chapter for the high-rolling tycoon and his wife.",
-      "angle_type": "operational reality and recovery logistics of a high-profile tragedy",
-      "opening": "Personality and scene-setting lead focusing directly on the 18-hour recovery operation across the Marondera farmland.",
-      "structure": "Recovery operation details -> Flight trajectory and impact severity -> Identity confirmations -> Lack of preliminary findings.",
-      "source": "https://www.ghafla.co.ke/bodies-of-six-wicknell-chivayo-helicopter-crash-victims-removed-after-18-hours/"
-    },
     {
       "title": "Wicknell Chivayo\u2019s Aide Relives Final Radio Calls and Confusion Before Fatal Chopper Crash",
       "angle": "The intimate, hair-raising cockpit-to-cockpit radio transcript narrative provided by Chivayo's security aide, focusing on the confusing final minutes over Surrey and Marondera rather than the broad political or financial legacy.",
@@ -1237,6 +1231,14 @@
       "opening": "Direct lead focusing on KMSA stepping out to burst the country's collective El Ni\u00f1o assumptions.",
       "structure": "Assumption-busting lead -> Pacific warming mechanics versus local reality -> The competing Indian Ocean and wind dynamics -> Current surveillance and official advisory close",
       "source": "https://www.ghafla.co.ke/kmsa-explains-why-el-nino-does-not-automatically-mean-heavy-rainfall-in-kenya/"
+    },
+    {
+      "title": "Jeremiah Kioni Calls Time on Opposition Clout Chasing, Warns Ruto Feeds on Your Insults: \u2018It Is His Currency\u2019",
+      "angle": "Reframing Kioni\u2019s broadcast remarks through the theater of political celebrity and clout: calling out his peers' addiction to dramatic press conference witch-hunts and unmasking 'moles', while exposing how Ruto turned thick-skinned indifference toward insults and bloggers into his own untouchable armor.",
+      "angle_type": "personality psychology and podium clout critique",
+      "opening": "Personality lead focusing squarely on Jeremiah Kioni stepping onto the Radio Generation mic to diagnose William Ruto's thick-skinned immunity to political shade.",
+      "structure": "Personality radio hook -> The 'currency of insults' breakdown -> The blogger and defamation contrast -> Critique of press conference melodrama and mole-hunting -> Strategic reality check heading toward 2027",
+      "source": "https://www.ghafla.co.ke/kioni-warns-opposition-against-insults-says-ruto-could-be-benefiting-politically/"
     }
   ],
   "style_history": [
