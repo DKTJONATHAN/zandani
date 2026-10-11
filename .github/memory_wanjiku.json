@@ -218,7 +218,8 @@
     "476554e270335f8ffed3eca99af7015a31f2d6329ac62329514254923ebaf832",
     "b9a3ed58244a70c70b218aa2410a658b03f6927c31e082a1b2f8a43afee7fabe",
     "ebe603e779b28e46d817718e3c2782dac22e099b3dadde907865dc917b8d42bb",
-    "a50b0ca71adc37b52b3b91d539cc19a8d34af537446c1cbb6d48028ca13ed16d"
+    "a50b0ca71adc37b52b3b91d539cc19a8d34af537446c1cbb6d48028ca13ed16d",
+    "1296a39bd6f9826d478949c6bef99cc031cc280734fd5a17386e7835a0edcb95"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -439,17 +440,10 @@
     "https://www.ghafla.co.ke/ruto-attends-church-service-in-kakamega-as-western-kenya-tour-continues/",
     "https://www.ghafla.co.ke/kmsa-explains-why-el-nino-does-not-automatically-mean-heavy-rainfall-in-kenya/",
     "https://www.ghafla.co.ke/kioni-warns-opposition-against-insults-says-ruto-could-be-benefiting-politically/",
-    "https://www.ghafla.co.ke/governance-vs-loyalty-natembeya-urges-president-ruto-to-uphold-equitable-development/"
+    "https://www.ghafla.co.ke/governance-vs-loyalty-natembeya-urges-president-ruto-to-uphold-equitable-development/",
+    "https://www.ghafla.co.ke/activists-public-figures-march-in-nairobi-against-golf-courses-and-airstrips-in-forests/"
   ],
   "published_angles": [
-    {
-      "title": "Musalia Mudavadi Takes His 2027 Campaign Pitch to Nairobi\u2019s Elite Diplomatic Cocktail Circuit",
-      "angle": "Reframing the address through Mudavadi's distinct 'gentleman politician' persona and branding strategy\u2014specifically how he bypassed the traditional noisy, dusty campaign rally to soft-launch his high-stakes 'no-goons' 2027 election pitch within the polished, high-society confines of a diplomatic cocktail reception.",
-      "angle_type": "political-celebrity branding and lifestyle framing",
-      "opening": "Personality-centric lead focusing on Mudavadi's preference for elite, curated spaces over chaotic street rallies to deliver his political directives.",
-      "structure": "Persona hook -> The diplomatic setting and the 'no-goons' contrast -> The institutional branding play (IEBC and anti-tribalism) -> The luxury-export and infrastructure lifestyle pitch (avocados, SGR, and highway dualling) -> Strategic 2027 positioning wrap-up.",
-      "source": "https://www.ghafla.co.ke/mudavadis-2027-manifesto-peace-integrity-growth/"
-    },
     {
       "title": "Dennis Ombachi's Attempt to Weaponize Scorched Ugali as a Boarding School Deterrent Backfires on His Son",
       "angle": "Focusing on Ombachi's failed culinary reverse-psychology\u2014specifically how his attempt to weaponize 'generational trauma' through scorched ugali and bitter greens backfired because his son lacks the psychological conditioning of high school boarding life.",
@@ -1241,6 +1235,14 @@
       "opening": "Personality lead opening directly on George Natembeya rejecting the expectation to flatter State House.",
       "structure": "Personality clapback hook -> Direct breakdown of the 'praise vs check' stance -> The Endebess rally accusations over the stalled hospital -> Challenge to local lawmakers on taxation and representation -> Defense of the Tawe Movement banner",
       "source": "https://www.ghafla.co.ke/governance-vs-loyalty-natembeya-urges-president-ruto-to-uphold-equitable-development/"
+    },
+    {
+      "title": "DJ Krowbar Swaps Turntables for Tarmac, Calling Out CS Deborah Barasa Over State Lodges and Golf Courses in Public Forests",
+      "angle": "Reframing the Uhuru Park-to-ministry demonstration through DJ Krowbar trading the DJ booth for front-line street advocacy, directly calling out Cabinet Secretary Deborah Barasa over government luxury developments eating into sacred water towers.",
+      "angle_type": "celebrity advocacy and public accountability callout",
+      "opening": "Personality lead opening directly on Karumba Ngatia (DJ Krowbar) swapping his turntables for the Nairobi tarmac to confront Environment CS Deborah Barasa.",
+      "structure": "Celebrity lead hook -> Direct quote and callout of CS Deborah Barasa -> March logistics and the 60,000-signature petition -> Specific battlegrounds (Ngong Road, Upper Imenti) -> Civil society demands and regulatory close.",
+      "source": "https://www.ghafla.co.ke/activists-public-figures-march-in-nairobi-against-golf-courses-and-airstrips-in-forests/"
     }
   ],
   "style_history": [
