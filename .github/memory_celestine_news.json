@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "66f7300f41de0546895c585c2521e6fa",
     "098d9341f74cb26c1590fb8f17e6809d",
     "a8d70dfe3f8968ed5c9f24784a17d654",
     "ad149c42aebddfaff89d7ac344c69ff4",
@@ -799,10 +798,10 @@
     "d8126a66a20ba19961f92c8eb9b166dd",
     "7d8e896ad8f0ae119b5e7d77e8f13ced",
     "bcf8caf204be49682876c19ba1ee7cb0",
-    "ce17c5127d54a375560c5018b9f571f0"
+    "ce17c5127d54a375560c5018b9f571f0",
+    "796831537ef80cd5ed97ce9057f7984e"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1288,7 +1288,8 @@
     "https://kenyans.co.ke/news/127761-eliud-kipchoge-wins-first-marathon-3-years-sets-melbourne-course-record",
     "https://kenyans.co.ke/news/127759-health-ministry-launches-probe-jootrh-over-patient-complaints",
     "https://kenyans.co.ke/news/127765-amisis-pm-sonkos-nedp-and-others-announce-leadership-changes",
-    "https://kenyans.co.ke/news/127768-kenya-unveils-policy-improve-access-govt-information"
+    "https://kenyans.co.ke/news/127768-kenya-unveils-policy-improve-access-govt-information",
+    "https://kenyans.co.ke/news/127770-ruto-fasttracks-rironi-mau-summit-highway-completion-april-2027"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1667,7 +1668,8 @@
     "kipchoge resets career ledger melbourne multi continent campaign delivers first victory three years",
     "discharge delays negligence claims jootrh force direct afya house scrutiny",
     "party restructures trigger seven day clock wanjiru sonko amisi reposition vehicles",
-    "state gazettes proactive data rules break decade institutional secrecy"
+    "state gazettes proactive data rules break decade institutional secrecy",
+    "state splits rironi mau summit corridor rollout october dualling target"
   ],
   "topic_keys": [
     "news tracker",
@@ -4349,6 +4351,15 @@
       "structure": "Attribution and beneficiary lead -> Verified policy mechanics and statutory reversal (proactive vs reactive) -> Administrative indictment of state secrecy -> Devolution and county legislative mandates -> CAJ enforcement and appeals pipeline",
       "source": "https://kenyans.co.ke/news/127768-kenya-unveils-policy-improve-access-govt-information",
       "published_at": "2026-10-11T10:01:52Z"
+    },
+    {
+      "title": "State Splits Rironi-Mau Summit Corridor Rollout With October Dualling Target",
+      "angle": "Examining the bifurcated infrastructure timeline: how the Ministry of Transport has tied an immediate October 30, 2026 relief deadline for the notorious Rironi-Naivasha chokepoint into an April 2027 toll-and-revenue corridor designed to unlock the AIIB-backed Malaba border extension.",
+      "angle_type": "timing",
+      "opening": "Milestone-sequencing lead prioritizing the staggered deadlines facing freight hauliers and motorists between October 2026 and April 2027.",
+      "structure": "Staggered operational deadlines lead -> Near-term October 30 Naivasha dualling milestone -> Corridor profile and toll-revenue mechanics -> AIIB grant and Phase Two regional transit link to Malaba",
+      "source": "https://kenyans.co.ke/news/127770-ruto-fasttracks-rironi-mau-summit-highway-completion-april-2027",
+      "published_at": "2026-10-11T11:01:47Z"
     }
   ]
 }
