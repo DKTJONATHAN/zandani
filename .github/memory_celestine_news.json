@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "cacdb49ead3f26623b34ba41814b7822",
     "dcf3e1aa88e7ede9e29f476196d43c2c",
     "1007e42e4f6a9908a76c13fbd36de1a0",
     "6ba309fc823051c1471b9a1068a0df84",
@@ -799,10 +798,10 @@
     "1e3dbcba2b210fc65eda2923da93808a",
     "d1e3776ac2a57680583cfd0f2b940923",
     "ca7b93d852320f2e1d7b8e0796fc330d",
-    "44ae5c4e83ce162f62712a0c0abb4fd6"
+    "44ae5c4e83ce162f62712a0c0abb4fd6",
+    "11b2340c213da824f02e0cb6435aa9bb"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1294,7 +1294,8 @@
     "https://kenyans.co.ke/news/127777-ministry-health-confirms-all-122-ebola-contacts-traced",
     "https://kenyans.co.ke/news/127776-dairy-farmers-urge-govt-cut-taxes-animal-feed-amid-milk-shortage",
     "https://kenyans.co.ke/news/127775-cs-chirchir-urges-state-declare-another-national-tree-planting-day-after-rains-fail",
-    "https://kenyans.co.ke/news/127778-statehouse-road-tree-felling-sparks-outrage-among-nairobi-residents"
+    "https://kenyans.co.ke/news/127778-statehouse-road-tree-felling-sparks-outrage-among-nairobi-residents",
+    "https://kenyans.co.ke/news/127774-kenyan-psychologist-launches-ai-powered-app-children-autism-adhd"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1679,7 +1680,8 @@
     "duale traces all 122 ebola contacts shield western border transit hubs",
     "murang cooperatives seek legal shield bar processors farm gate milk buying",
     "chirchir pushes second tree holiday weather stalls state planting targets",
-    "state house road felling tests sakaja permit ban road agency clearances"
+    "state house road felling tests sakaja permit ban road agency clearances",
+    "home screen shift digital nest repurposing screen time neurodivergent care"
   ],
   "topic_keys": [
     "news tracker",
@@ -4415,6 +4417,15 @@
       "structure": "Attribution and beneficiary lead -> Verified weekend clearance mechanics and street-level disruption -> Civic and legal opposition from Havi and KCF -> City Hall's standing permit framework and penal warnings -> Unresolved inter-agency compliance gap",
       "source": "https://kenyans.co.ke/news/127778-statehouse-road-tree-felling-sparks-outrage-among-nairobi-residents",
       "published_at": "2026-10-11T17:02:04Z"
+    },
+    {
+      "title": "Home Screen Shift: How a Kenyan Digital Nest Is Repurposing Screen Time for Neurodivergent Care",
+      "angle": "Reframing the app's launch around its practical mechanism: converting passive device screen time into a structured caregiver observation loop to bypass high therapy costs and clinic waitlists in Kenya.",
+      "angle_type": "practical change",
+      "opening": "Practical mechanism lead focusing on converting daily tablet use into clinical logging to lower cost barriers for neurodivergent care.",
+      "structure": "Mechanism and home-care shift lead -> App rollout and founder context -> Core feature breakdown (NIA assistant, Kiota design, observation logs) -> Systemic care coordination context -> Unresolved data safeguard and training edge.",
+      "source": "https://kenyans.co.ke/news/127774-kenyan-psychologist-launches-ai-powered-app-children-autism-adhd",
+      "published_at": "2026-10-11T18:01:43Z"
     }
   ]
 }
