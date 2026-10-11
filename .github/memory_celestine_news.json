@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "5771019ab3540c5dea5e02b1ddf04278",
     "bc4e9d507edd0054bf48961b716048f1",
     "ccb6a6c9dda474a49b3a925ae22c002a",
     "53c586281f3b008334d09a58b1616ea5",
@@ -799,10 +798,10 @@
     "d998c47e4f755e533bbf2e3166ba3ccb",
     "371f5a06c26f7a415c300e07aab01e89",
     "b85453c08d43d2b2d5306f2fae9a7de6",
-    "5047a3b5abc5304a0be11bc2371057e8"
+    "5047a3b5abc5304a0be11bc2371057e8",
+    "d8126a66a20ba19961f92c8eb9b166dd"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1284,7 +1284,8 @@
     "https://kenyans.co.ke/news/127756-epra-raises-october-electricity-prices-ksh41",
     "https://kenyans.co.ke/news/127758-kenya-met-lists-nairobi-among-counties-receive-rains-weekend",
     "https://kenyans.co.ke/news/127762-explained-what-law-says-about-domesticating-buffaloes-kenya",
-    "https://kenyans.co.ke/news/127763-kalonzo-turns-us-over-accountability-ebola-funds"
+    "https://kenyans.co.ke/news/127763-kalonzo-turns-us-over-accountability-ebola-funds",
+    "https://kenyans.co.ke/news/127761-eliud-kipchoge-wins-first-marathon-3-years-sets-melbourne-course-record"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1659,7 +1660,8 @@
     "epra shields thermal dollar ppas ksh4 power unit surcharge",
     "thunderstorms cold snap highlight kmsa five day weather outlook",
     "state revives dairy buffalo push despite month regulatory freeze",
-    "kalonzo invokes aid oversight force audit ksh1 ebola war chest"
+    "kalonzo invokes aid oversight force audit ksh1 ebola war chest",
+    "kipchoge resets career ledger melbourne multi continent campaign delivers first victory three years"
   ],
   "topic_keys": [
     "news tracker",
@@ -4305,6 +4307,15 @@
       "structure": "Diplomatic leverage lead -> Mombasa rally claims and specific bilateral allocations -> Strategic invocation of U.S. aid compliance and the 2017 suspension precedent -> The active biosecurity backdrop (first death) and unresolved Afya House accounting response.",
       "source": "https://kenyans.co.ke/news/127763-kalonzo-turns-us-over-accountability-ebola-funds",
       "published_at": "2026-10-11T07:01:51Z"
+    },
+    {
+      "title": "Kipchoge Resets Career Ledger in Melbourne as Multi-Continent Campaign Delivers First Victory in Three Years",
+      "angle": "The operational reality of his global non-major continent tour: shifting away from hyper-competitive World Marathon Majors toward regional circuits across six continents, where his tactical pace (2:09:10) proved sufficient to snap a prolonged slump after lower-tier finishes in Africa and South America.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first statement opening focusing on race officials/results and the structural beneficiary of Kipchoge's multi-continent touring campaign.",
+      "structure": "Attribution-led outcome -> Strategic pivot to global continental tour -> Split from the World Marathon Majors treadmill -> The Melbourne road dynamics and timing margin -> Future tour logistics across remaining continents",
+      "source": "https://kenyans.co.ke/news/127761-eliud-kipchoge-wins-first-marathon-3-years-sets-melbourne-course-record",
+      "published_at": "2026-10-11T08:02:04Z"
     }
   ]
 }
