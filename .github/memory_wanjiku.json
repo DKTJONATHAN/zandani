@@ -217,7 +217,8 @@
     "cc13ddb8714797087b127a2e6e311e76a31839dd13f657187d001855aee44a9f",
     "476554e270335f8ffed3eca99af7015a31f2d6329ac62329514254923ebaf832",
     "b9a3ed58244a70c70b218aa2410a658b03f6927c31e082a1b2f8a43afee7fabe",
-    "ebe603e779b28e46d817718e3c2782dac22e099b3dadde907865dc917b8d42bb"
+    "ebe603e779b28e46d817718e3c2782dac22e099b3dadde907865dc917b8d42bb",
+    "a50b0ca71adc37b52b3b91d539cc19a8d34af537446c1cbb6d48028ca13ed16d"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -437,17 +438,10 @@
     "https://www.ghafla.co.ke/president-ruto-directs-agriculture-ministry-to-import-high-yielding-dairy-camels-and-buffaloes/",
     "https://www.ghafla.co.ke/ruto-attends-church-service-in-kakamega-as-western-kenya-tour-continues/",
     "https://www.ghafla.co.ke/kmsa-explains-why-el-nino-does-not-automatically-mean-heavy-rainfall-in-kenya/",
-    "https://www.ghafla.co.ke/kioni-warns-opposition-against-insults-says-ruto-could-be-benefiting-politically/"
+    "https://www.ghafla.co.ke/kioni-warns-opposition-against-insults-says-ruto-could-be-benefiting-politically/",
+    "https://www.ghafla.co.ke/governance-vs-loyalty-natembeya-urges-president-ruto-to-uphold-equitable-development/"
   ],
   "published_angles": [
-    {
-      "title": "Wicknell Chivayo\u2019s Aide Relives Final Radio Calls and Confusion Before Fatal Chopper Crash",
-      "angle": "The intimate, hair-raising cockpit-to-cockpit radio transcript narrative provided by Chivayo's security aide, focusing on the confusing final minutes over Surrey and Marondera rather than the broad political or financial legacy.",
-      "angle_type": "eyewitness radio log and cockpit-to-cockpit panic",
-      "opening": "Personality and scene-setting lead focusing directly on the security aide's perspective of the deteriorating radio transmissions.",
-      "structure": "The routing decision via Bromley -> The cloud navigation distress call over Surrey -> The final failed destination check -> The casualty correction and official investigation status.",
-      "source": "https://www.ghafla.co.ke/chivayo-aide-recounts-pilots-final-radio-calls-before-fatal-helicopter-crash/"
-    },
     {
       "title": "Musalia Mudavadi Takes His 2027 Campaign Pitch to Nairobi\u2019s Elite Diplomatic Cocktail Circuit",
       "angle": "Reframing the address through Mudavadi's distinct 'gentleman politician' persona and branding strategy\u2014specifically how he bypassed the traditional noisy, dusty campaign rally to soft-launch his high-stakes 'no-goons' 2027 election pitch within the polished, high-society confines of a diplomatic cocktail reception.",
@@ -1239,6 +1233,14 @@
       "opening": "Personality lead focusing squarely on Jeremiah Kioni stepping onto the Radio Generation mic to diagnose William Ruto's thick-skinned immunity to political shade.",
       "structure": "Personality radio hook -> The 'currency of insults' breakdown -> The blogger and defamation contrast -> Critique of press conference melodrama and mole-hunting -> Strategic reality check heading toward 2027",
       "source": "https://www.ghafla.co.ke/kioni-warns-opposition-against-insults-says-ruto-could-be-benefiting-politically/"
+    },
+    {
+      "title": "George Natembeya Tells Off William Ruto Over Tawe Blame Game: \u2018It Is Not My Work to Praise You\u2019",
+      "angle": "Spotlighting Natembeya's sharp clapback redefining his political posture\u2014rejecting the role of presidential praise-singer ('it is not my work to praise you') while dismissing Ruto's attempt to pin stalled local infrastructure on the Tawe Movement.",
+      "angle_type": "podium clapback and political boundary drawing",
+      "opening": "Personality lead opening directly on George Natembeya rejecting the expectation to flatter State House.",
+      "structure": "Personality clapback hook -> Direct breakdown of the 'praise vs check' stance -> The Endebess rally accusations over the stalled hospital -> Challenge to local lawmakers on taxation and representation -> Defense of the Tawe Movement banner",
+      "source": "https://www.ghafla.co.ke/governance-vs-loyalty-natembeya-urges-president-ruto-to-uphold-equitable-development/"
     }
   ],
   "style_history": [
