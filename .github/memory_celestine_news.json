@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a9485a2bfcb04244320190de05271090",
     "ef29e03545c282b96c1df1e16cf674de",
     "5771019ab3540c5dea5e02b1ddf04278",
     "bc4e9d507edd0054bf48961b716048f1",
@@ -799,10 +798,10 @@
     "58c41bff3e5136a21838cdb037fc0fcb",
     "a4468bfe0c1488ca116348e644563292",
     "d998c47e4f755e533bbf2e3166ba3ccb",
-    "371f5a06c26f7a415c300e07aab01e89"
+    "371f5a06c26f7a415c300e07aab01e89",
+    "b85453c08d43d2b2d5306f2fae9a7de6"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1282,7 +1282,8 @@
     "https://kenyans.co.ke/news/127754-ruto-css-make-several-appointments-reappointments-govt",
     "https://kenyans.co.ke/news/127755-high-court-announces-24-day-recess-december-21-issues-orders-judges",
     "https://kenyans.co.ke/news/127756-epra-raises-october-electricity-prices-ksh41",
-    "https://kenyans.co.ke/news/127758-kenya-met-lists-nairobi-among-counties-receive-rains-weekend"
+    "https://kenyans.co.ke/news/127758-kenya-met-lists-nairobi-among-counties-receive-rains-weekend",
+    "https://kenyans.co.ke/news/127762-explained-what-law-says-about-domesticating-buffaloes-kenya"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1655,7 +1656,8 @@
     "state secures multi board grip 2029 flurry three year gazette extensions",
     "high court gazettes day holiday pause reroutes single judge stations emergency pleas",
     "epra shields thermal dollar ppas ksh4 power unit surcharge",
-    "thunderstorms cold snap highlight kmsa five day weather outlook"
+    "thunderstorms cold snap highlight kmsa five day weather outlook",
+    "state revives dairy buffalo push despite month regulatory freeze"
   ],
   "topic_keys": [
     "news tracker",
@@ -4283,6 +4285,15 @@
       "structure": "Dual-hazard lead -> Electrical storm and lightning zone mechanics -> High-altitude thermal drop analysis -> Capital and regional precipitation spread -> Practical regional outlook close.",
       "source": "https://kenyans.co.ke/news/127758-kenya-met-lists-nairobi-among-counties-receive-rains-weekend",
       "published_at": "2026-10-10T16:02:39Z"
+    },
+    {
+      "title": "State Revives Dairy Buffalo Push Despite 20-Month Regulatory Freeze",
+      "angle": "The administrative gap between executive directives and dormant policy: despite a statutory gazette notice in January 2025 declaring water buffaloes food animals and promising a two-year pilot, the Ministry of Agriculture has operated in silence without publishing import protocols, health guidelines, or trial outcomes.",
+      "angle_type": "accountability",
+      "opening": "Policy-gap opening that contrasts the presidency's fresh directive against 20 months of regulatory silence following the initial gazetting of the animal.",
+      "structure": "Policy gap lead -> Presidential directive at Jamhuri Park summit -> Legislative history and the 2025 gazettement -> Senate oversight hurdles raised by Catherine Mumma -> Unresolved import and biosecurity protocols.",
+      "source": "https://kenyans.co.ke/news/127762-explained-what-law-says-about-domesticating-buffaloes-kenya",
+      "published_at": "2026-10-11T06:01:54Z"
     }
   ]
 }
