@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "53c586281f3b008334d09a58b1616ea5",
     "66f7300f41de0546895c585c2521e6fa",
     "098d9341f74cb26c1590fb8f17e6809d",
     "a8d70dfe3f8968ed5c9f24784a17d654",
@@ -799,10 +798,10 @@
     "5047a3b5abc5304a0be11bc2371057e8",
     "d8126a66a20ba19961f92c8eb9b166dd",
     "7d8e896ad8f0ae119b5e7d77e8f13ced",
-    "bcf8caf204be49682876c19ba1ee7cb0"
+    "bcf8caf204be49682876c19ba1ee7cb0",
+    "ce17c5127d54a375560c5018b9f571f0"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1287,7 +1287,8 @@
     "https://kenyans.co.ke/news/127763-kalonzo-turns-us-over-accountability-ebola-funds",
     "https://kenyans.co.ke/news/127761-eliud-kipchoge-wins-first-marathon-3-years-sets-melbourne-course-record",
     "https://kenyans.co.ke/news/127759-health-ministry-launches-probe-jootrh-over-patient-complaints",
-    "https://kenyans.co.ke/news/127765-amisis-pm-sonkos-nedp-and-others-announce-leadership-changes"
+    "https://kenyans.co.ke/news/127765-amisis-pm-sonkos-nedp-and-others-announce-leadership-changes",
+    "https://kenyans.co.ke/news/127768-kenya-unveils-policy-improve-access-govt-information"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1665,7 +1666,8 @@
     "kalonzo invokes aid oversight force audit ksh1 ebola war chest",
     "kipchoge resets career ledger melbourne multi continent campaign delivers first victory three years",
     "discharge delays negligence claims jootrh force direct afya house scrutiny",
-    "party restructures trigger seven day clock wanjiru sonko amisi reposition vehicles"
+    "party restructures trigger seven day clock wanjiru sonko amisi reposition vehicles",
+    "state gazettes proactive data rules break decade institutional secrecy"
   ],
   "topic_keys": [
     "news tracker",
@@ -4338,6 +4340,15 @@
       "structure": "Statutory window lead -> Wanjiru's familial succession for City Hall -> Sonko's vacant executive seat and internal purge ledger -> Amisi's institutional relocation and lost movement alliance -> Regulatory objection deadline.",
       "source": "https://kenyans.co.ke/news/127765-amisis-pm-sonkos-nedp-and-others-announce-leadership-changes",
       "published_at": "2026-10-11T09:01:51Z"
+    },
+    {
+      "title": "State Gazettes Proactive Data Rules to Break Decade of Institutional Secrecy",
+      "angle": "Attribution-first scrutiny highlighting citizens, whistleblowers, and devolved watchdogs as primary beneficiaries while examining how the policy directly indicts civil service secrecy and shifts the burden from reactive citizen petitions to statutory proactive publishing.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first statement opening that names the joint gazette notice and establishes the immediate public beneficiaries against bureaucratic inertia.",
+      "structure": "Attribution and beneficiary lead -> Verified policy mechanics and statutory reversal (proactive vs reactive) -> Administrative indictment of state secrecy -> Devolution and county legislative mandates -> CAJ enforcement and appeals pipeline",
+      "source": "https://kenyans.co.ke/news/127768-kenya-unveils-policy-improve-access-govt-information",
+      "published_at": "2026-10-11T10:01:52Z"
     }
   ]
 }
