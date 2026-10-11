@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ad149c42aebddfaff89d7ac344c69ff4",
     "de5acb70f4c6fff778e42d065018cb81",
     "ca41d40b2ba0d7a2bb157ef7fe6e8bbc",
     "cacdb49ead3f26623b34ba41814b7822",
@@ -799,10 +798,10 @@
     "ce17c5127d54a375560c5018b9f571f0",
     "796831537ef80cd5ed97ce9057f7984e",
     "72327e3a589fda22cdb8c94c2f4dac28",
-    "1e3dbcba2b210fc65eda2923da93808a"
+    "1e3dbcba2b210fc65eda2923da93808a",
+    "d1e3776ac2a57680583cfd0f2b940923"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1291,7 +1291,8 @@
     "https://kenyans.co.ke/news/127768-kenya-unveils-policy-improve-access-govt-information",
     "https://kenyans.co.ke/news/127770-ruto-fasttracks-rironi-mau-summit-highway-completion-april-2027",
     "https://kenyans.co.ke/news/127773-omtatah-moves-court-over-iebc-changes-ballot-paper-security",
-    "https://kenyans.co.ke/news/127777-ministry-health-confirms-all-122-ebola-contacts-traced"
+    "https://kenyans.co.ke/news/127777-ministry-health-confirms-all-122-ebola-contacts-traced",
+    "https://kenyans.co.ke/news/127776-dairy-farmers-urge-govt-cut-taxes-animal-feed-amid-milk-shortage"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1673,7 +1674,8 @@
     "state gazettes proactive data rules break decade institutional secrecy",
     "state splits rironi mau summit corridor rollout october dualling target",
     "iebc put strict proof downgraded 2027 ballot security layers",
-    "duale traces all 122 ebola contacts shield western border transit hubs"
+    "duale traces all 122 ebola contacts shield western border transit hubs",
+    "murang cooperatives seek legal shield bar processors farm gate milk buying"
   ],
   "topic_keys": [
     "news tracker",
@@ -4382,6 +4384,15 @@
       "structure": "Attribution and beneficiary lead -> Duale's verified statement and quarantine metrics -> Surveillance network and border lab capacity -> Unresolved tracking discrepancy -> Institutional scaling and partner financing horizon",
       "source": "https://kenyans.co.ke/news/127777-ministry-health-confirms-all-122-ebola-contacts-traced",
       "published_at": "2026-10-11T15:01:21Z"
+    },
+    {
+      "title": "Murang\u2019a Cooperatives Seek Legal Shield to Bar Processors From Farm-Gate Milk Buying",
+      "angle": "The commercial tension between cooperative survival and direct corporate farm-gate off-taking: dairy societies in Murang'a are demanding statutory market protection to force processors through cooperative pools, warning that private bypasses erode the very societies meant to run state-restored coolers.",
+      "angle_type": "institutional pressure",
+      "opening": "Commercial-protectionism lead tracking grassroot dairy societies demanding legislative curbs on private processor farm-gate procurement.",
+      "structure": "Statutory market-curb demand lead -> Cooler commissioning context and cooperative vulnerability -> Feed taxation margin squeeze -> Presidential exotic breed directive contrast -> Legislative and pricing impasse forward look",
+      "source": "https://kenyans.co.ke/news/127776-dairy-farmers-urge-govt-cut-taxes-animal-feed-amid-milk-shortage",
+      "published_at": "2026-10-11T15:27:07Z"
     }
   ]
 }
