@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ccb6a6c9dda474a49b3a925ae22c002a",
     "53c586281f3b008334d09a58b1616ea5",
     "66f7300f41de0546895c585c2521e6fa",
     "098d9341f74cb26c1590fb8f17e6809d",
@@ -799,10 +798,10 @@
     "b85453c08d43d2b2d5306f2fae9a7de6",
     "5047a3b5abc5304a0be11bc2371057e8",
     "d8126a66a20ba19961f92c8eb9b166dd",
-    "7d8e896ad8f0ae119b5e7d77e8f13ced"
+    "7d8e896ad8f0ae119b5e7d77e8f13ced",
+    "bcf8caf204be49682876c19ba1ee7cb0"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1286,7 +1286,8 @@
     "https://kenyans.co.ke/news/127762-explained-what-law-says-about-domesticating-buffaloes-kenya",
     "https://kenyans.co.ke/news/127763-kalonzo-turns-us-over-accountability-ebola-funds",
     "https://kenyans.co.ke/news/127761-eliud-kipchoge-wins-first-marathon-3-years-sets-melbourne-course-record",
-    "https://kenyans.co.ke/news/127759-health-ministry-launches-probe-jootrh-over-patient-complaints"
+    "https://kenyans.co.ke/news/127759-health-ministry-launches-probe-jootrh-over-patient-complaints",
+    "https://kenyans.co.ke/news/127765-amisis-pm-sonkos-nedp-and-others-announce-leadership-changes"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1663,7 +1664,8 @@
     "state revives dairy buffalo push despite month regulatory freeze",
     "kalonzo invokes aid oversight force audit ksh1 ebola war chest",
     "kipchoge resets career ledger melbourne multi continent campaign delivers first victory three years",
-    "discharge delays negligence claims jootrh force direct afya house scrutiny"
+    "discharge delays negligence claims jootrh force direct afya house scrutiny",
+    "party restructures trigger seven day clock wanjiru sonko amisi reposition vehicles"
   ],
   "topic_keys": [
     "news tracker",
@@ -4327,6 +4329,15 @@
       "structure": "Administrative collision lead -> Verified MoH intervention and meeting details -> Specific operational failures (discharge delays and fatal negligence claims) -> Ministry mandates and internal probe -> Unresolved institutional transition.",
       "source": "https://kenyans.co.ke/news/127759-health-ministry-launches-probe-jootrh-over-patient-complaints",
       "published_at": "2026-10-11T08:29:22Z"
+    },
+    {
+      "title": "Party Restructures Trigger Seven-Day Clock as Wanjiru, Sonko and Amisi Reposition Vehicles",
+      "angle": "Examining the statutory scramble at the Registrar of Political Parties: how three distinct political figures are maneuvering through legal instruments\u2014via a family leadership handover, an unresolved post-purge executive vacancy, and a strategic corporate relocation\u2014to build fortified independent tickets before the seven-day public objection window shuts.",
+      "angle_type": "practical change",
+      "opening": "Statutory-countdown opening highlighting the tight administrative window under the Political Parties Act that exposes the internal retooling of three independent political tickets.",
+      "structure": "Statutory window lead -> Wanjiru's familial succession for City Hall -> Sonko's vacant executive seat and internal purge ledger -> Amisi's institutional relocation and lost movement alliance -> Regulatory objection deadline.",
+      "source": "https://kenyans.co.ke/news/127765-amisis-pm-sonkos-nedp-and-others-announce-leadership-changes",
+      "published_at": "2026-10-11T09:01:51Z"
     }
   ]
 }
