@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "de5acb70f4c6fff778e42d065018cb81",
     "ca41d40b2ba0d7a2bb157ef7fe6e8bbc",
     "cacdb49ead3f26623b34ba41814b7822",
     "dcf3e1aa88e7ede9e29f476196d43c2c",
@@ -799,10 +798,10 @@
     "796831537ef80cd5ed97ce9057f7984e",
     "72327e3a589fda22cdb8c94c2f4dac28",
     "1e3dbcba2b210fc65eda2923da93808a",
-    "d1e3776ac2a57680583cfd0f2b940923"
+    "d1e3776ac2a57680583cfd0f2b940923",
+    "ca7b93d852320f2e1d7b8e0796fc330d"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1292,7 +1292,8 @@
     "https://kenyans.co.ke/news/127770-ruto-fasttracks-rironi-mau-summit-highway-completion-april-2027",
     "https://kenyans.co.ke/news/127773-omtatah-moves-court-over-iebc-changes-ballot-paper-security",
     "https://kenyans.co.ke/news/127777-ministry-health-confirms-all-122-ebola-contacts-traced",
-    "https://kenyans.co.ke/news/127776-dairy-farmers-urge-govt-cut-taxes-animal-feed-amid-milk-shortage"
+    "https://kenyans.co.ke/news/127776-dairy-farmers-urge-govt-cut-taxes-animal-feed-amid-milk-shortage",
+    "https://kenyans.co.ke/news/127775-cs-chirchir-urges-state-declare-another-national-tree-planting-day-after-rains-fail"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1675,7 +1676,8 @@
     "state splits rironi mau summit corridor rollout october dualling target",
     "iebc put strict proof downgraded 2027 ballot security layers",
     "duale traces all 122 ebola contacts shield western border transit hubs",
-    "murang cooperatives seek legal shield bar processors farm gate milk buying"
+    "murang cooperatives seek legal shield bar processors farm gate milk buying",
+    "chirchir pushes second tree holiday weather stalls state planting targets"
   ],
   "topic_keys": [
     "news tracker",
@@ -4393,6 +4395,15 @@
       "structure": "Statutory market-curb demand lead -> Cooler commissioning context and cooperative vulnerability -> Feed taxation margin squeeze -> Presidential exotic breed directive contrast -> Legislative and pricing impasse forward look",
       "source": "https://kenyans.co.ke/news/127776-dairy-farmers-urge-govt-cut-taxes-animal-feed-amid-milk-shortage",
       "published_at": "2026-10-11T15:27:07Z"
+    },
+    {
+      "title": "Chirchir Pushes for Second Tree Holiday as Weather Stalls State Planting Targets",
+      "angle": "The operational disconnect within the State's environmental agenda: demanding costly nationwide public holidays to chase rigid numerical seedling quotas while frontline weather risks disrupt planting and state-sanctioned commercial logging continues in primary water towers.",
+      "angle_type": "accountability",
+      "opening": "Policy-friction opening linking the demand for another gazetted public holiday to the widening gap between ambitious state tree quotas and frontline weather disruptions.",
+      "structure": "Policy friction lead -> Makutano Forest petition and missed Kericho targets -> National tally versus 15-billion goal mechanics -> Nursery and aerial infrastructure commitments -> Water tower logging conflict in the Aberdares",
+      "source": "https://kenyans.co.ke/news/127775-cs-chirchir-urges-state-declare-another-national-tree-planting-day-after-rains-fail",
+      "published_at": "2026-10-11T16:01:23Z"
     }
   ]
 }
