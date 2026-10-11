@@ -215,7 +215,8 @@
     "32fdbabd7475c14e9846937524415374a2dc52b39c7ea07011cfe8a2eb102e3e",
     "ceb3d781157df3bf206c58e61de69c7635dd610a58dcbb0f05288cc6ef088a41",
     "cc13ddb8714797087b127a2e6e311e76a31839dd13f657187d001855aee44a9f",
-    "476554e270335f8ffed3eca99af7015a31f2d6329ac62329514254923ebaf832"
+    "476554e270335f8ffed3eca99af7015a31f2d6329ac62329514254923ebaf832",
+    "b9a3ed58244a70c70b218aa2410a658b03f6927c31e082a1b2f8a43afee7fabe"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -433,17 +434,10 @@
     "https://www.ghafla.co.ke/caleb-amisi-threatens-to-impeach-ruto-if-he-wins-2027-election/",
     "https://www.ghafla.co.ke/gladys-wanga-pledges-credible-odm-nominations-questions-uhurus-influence-ahead-of-2027/",
     "https://www.ghafla.co.ke/president-ruto-directs-agriculture-ministry-to-import-high-yielding-dairy-camels-and-buffaloes/",
-    "https://www.ghafla.co.ke/ruto-attends-church-service-in-kakamega-as-western-kenya-tour-continues/"
+    "https://www.ghafla.co.ke/ruto-attends-church-service-in-kakamega-as-western-kenya-tour-continues/",
+    "https://www.ghafla.co.ke/kmsa-explains-why-el-nino-does-not-automatically-mean-heavy-rainfall-in-kenya/"
   ],
   "published_angles": [
-    {
-      "title": "The Sultan\u2019s New Currency: Hassan Joho Deploys \u2018Respect\u2019 and Stadiums to Rebrand His Alliance with William Ruto",
-      "angle": "Framing the event around Joho's dramatic transition from the Coast's ultimate rebel to its chief conciliator, highlighting the highly transactional 'respect' vocabulary he used to seal and rebrand his new alliance with Ruto.",
-      "angle_type": "political-celebrity branding and alliance transactional framing",
-      "opening": "Personality lead focusing directly on Hassan Joho's brand transition and his specific transactional pledge to Ruto.",
-      "structure": "Personality lead -> The transactional pledge ('respect' and 'lifting up') -> Structural comparison of development projects -> Validation of the regional self-worth argument -> Local alignment assurances in Mwatate and Taita Taveta -> Strategic context of the 2027 realignment.",
-      "source": "https://www.ghafla.co.ke/joho-says-coast-region-stands-firmly-behind-rutos-leadership/"
-    },
     {
       "title": "Inside the 18-Hour Recovery Operation After Wicknell Chivayo\u2019s Fatal Marondera Helicopter Crash",
       "angle": "Focusing on the grueling, grim operational reality of the 18-hour recovery effort across a 100-metre debris field that defined the final public chapter for the high-rolling tycoon and his wife.",
@@ -1235,6 +1229,14 @@
       "opening": "Personality lead opening directly on William Ruto pivoting from Saturday's seedling drive in Endebess to Sunday morning pews at St Mark\u2019s Catholic Church in Matunda.",
       "structure": "Personality Sunday appearance hook -> The lawmaker entourage in Matunda -> The 24-hour transition from Mazingira Day in Trans Nzoia -> The broader Western tour circuit context and infrastructure trail",
       "source": "https://www.ghafla.co.ke/ruto-attends-church-service-in-kakamega-as-western-kenya-tour-continues/"
+    },
+    {
+      "title": "Kenya Met Takes On the El Ni\u00f1o Myth, Clarifying Warm Pacific Waters Guarantee No Downpour",
+      "angle": "Focusing on KMSA directly taking down Kenya's perennial El Ni\u00f1o panic and weather assumptions, detailing how competing Indian Ocean systems and wind patterns can actively dilute Pacific-driven deluges.",
+      "angle_type": "institutional myth-busting and public perception reality check",
+      "opening": "Direct lead focusing on KMSA stepping out to burst the country's collective El Ni\u00f1o assumptions.",
+      "structure": "Assumption-busting lead -> Pacific warming mechanics versus local reality -> The competing Indian Ocean and wind dynamics -> Current surveillance and official advisory close",
+      "source": "https://www.ghafla.co.ke/kmsa-explains-why-el-nino-does-not-automatically-mean-heavy-rainfall-in-kenya/"
     }
   ],
   "style_history": [
