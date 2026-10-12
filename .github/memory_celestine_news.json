@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ae929a33429109409146418ba29c1156",
     "c11ffc96d7c4ef5c11d9459a792b3fd8",
     "2bf561507e56fbfba2b45e4bfcadfeb0",
     "a1d363fdad43f4a18adb92ef046732c0",
@@ -799,10 +798,10 @@
     "0d3111894cf2e1fb3795cee04794b3cf",
     "006566656b7f34821c7ddfcc6e03bebd",
     "cb631befa09b9d2a953cbe45074d5cc5",
-    "a2a8c8793c75cf3d4c8843558f5ffef1"
+    "a2a8c8793c75cf3d4c8843558f5ffef1",
+    "655e4392bf5636ba141dd1f1e275defb"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1299,7 +1299,8 @@
     "https://kenyans.co.ke/news/127781-court-explains-when-consultants-can-claim-employee-benefits",
     "https://kenyans.co.ke/news/127782-nakuru-governor-kihika-stops-tree-felling-without-county-approval",
     "https://kenyans.co.ke/news/127784-ntsa-asks-motorists-check-uncollected-driving-licences-logbooks-and-number-plates",
-    "https://kenyans.co.ke/news/127791-several-injured-after-matatu-plunges-ditch-along-ol-kalou-nakuru-road"
+    "https://kenyans.co.ke/news/127791-several-injured-after-matatu-plunges-ditch-along-ol-kalou-nakuru-road",
+    "https://kenyans.co.ke/news/127801-kemsa-moves-reduce-medical-supplies-shortages-and-waste-public-hospitals"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1689,7 +1690,8 @@
     "contractor ksh5 payout claim crumbles missing invoices employee label",
     "kihika asserts county veto kura following nakuru walkway tree felling",
     "ntsa strips portal login barriers starve document broker syndicates",
-    "ntsa fatality tally crosses 000 multi county crashes expose arterial risks"
+    "ntsa fatality tally crosses 000 multi county crashes expose arterial risks",
+    "state decouples drug buying bulk quotas stem ward stock outs"
   ],
   "topic_keys": [
     "news tracker",
@@ -4470,6 +4472,15 @@
       "structure": "Corridor data lead -> Ol Kalou incident specifics -> Regional transit corridor failures (Manyani & Busia) -> Policy and infrastructure context -> NTSA category breakdown close.",
       "source": "https://kenyans.co.ke/news/127791-several-injured-after-matatu-plunges-ditch-along-ol-kalou-nakuru-road",
       "published_at": "2026-10-12T13:01:44Z"
+    },
+    {
+      "title": "State Decouples Drug Buying From Bulk Quotas to Stem Ward Stock-Outs",
+      "angle": "The operational shift from warehouse procurement volumes to facility-level clinical demand: scrutinizing how the state is pivoting the accountability burden onto hospital management to end the administrative practice of blind ordering that leaves wards dry while drugs expire.",
+      "angle_type": "practical change",
+      "opening": "Operational-pivot lead connecting the decoupling of procurement volume from bedside medicine availability.",
+      "structure": "Operational pivot lead -> Verified Naivasha forum details and core directives -> Institutional critique on bedside availability vs warehouse purchases -> Decentralized pharmacist role and inventory governance -> Unresolved implementation challenge through October 15.",
+      "source": "https://kenyans.co.ke/news/127801-kemsa-moves-reduce-medical-supplies-shortages-and-waste-public-hospitals",
+      "published_at": "2026-10-12T16:02:28Z"
     }
   ]
 }
