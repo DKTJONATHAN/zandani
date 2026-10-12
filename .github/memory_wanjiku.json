@@ -224,7 +224,8 @@
     "2fe79f86fb5eac4f188cfd8acb78a06a417fd21c4394b95962d9cfb2e6774f69",
     "8387a91fd68f124bad3f248506d8b6308cafb67e902928236aba6340ec79393c",
     "85c90dd21a86ce183cd521a539706f2e8be8a09d7c37681f2cd889b726e59cc0",
-    "265d403585ff0d54210f5521844bc84f1b978b3c62b4eb698f43137e21241b2c"
+    "265d403585ff0d54210f5521844bc84f1b978b3c62b4eb698f43137e21241b2c",
+    "6fd2c1a5fccc45ad540a2f8a0929425fd66da3d10e27446a018f16d24be0a9d4"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -451,17 +452,10 @@
     "https://www.ghafla.co.ke/i-knew-something-was-wrong-raila-odingas-bodyguard-recounts-final-hours-in-india-hospital/",
     "https://www.ghafla.co.ke/2027-unity-pact-at-risk-senator-methu-alleges-sabotage-within-opposition-ranks/",
     "https://www.ghafla.co.ke/ruto-announces-ksh25-billion-for-road-projects-in-nandi-county/",
-    "https://www.ghafla.co.ke/nairobi-maps-227-flood-hotspots-as-el-nino-threatens-100000-residents/"
+    "https://www.ghafla.co.ke/nairobi-maps-227-flood-hotspots-as-el-nino-threatens-100000-residents/",
+    "https://www.ghafla.co.ke/two-women-arrested-over-alleged-drink-spiking-incident-at-local-club/"
   ],
   "published_angles": [
-    {
-      "title": "James Orengo Borrows Jaramogi\u2019s Signature Round Hat for October LDP Relaunch",
-      "angle": "The visual and heritage rebranding play: Orengo is deploying nostalgic vintage political iconography\u2014appropriating Jaramogi Oginga Odinga\u2019s signature round hat and resurrecting the LDP initials\u2014to establish an independent celebrity brand alongside younger opposition heavyweights.",
-      "angle_type": "political-celebrity visual rebranding and legacy symbolism",
-      "opening": "Personality lead highlighting Orengo\u2019s calculated aesthetic reboot using Jaramogi\u2019s signature hat and throwback LDP initials.",
-      "structure": "Personality and visual hook -> Breakdown of the visual aesthetic (round hat, blue-and-white, 'Mbele Kuzuri') -> The parallel independent branding moves by Babu Owino and Edwin Sifuna -> The coalition preservation argument -> Strategic positioning ahead of the October unveiling.",
-      "source": "https://www.ghafla.co.ke/siaya-governor-james-orengo-set-to-launch-new-political-party-ahead-of-2027-elections/"
-    },
     {
       "title": "Ruto Challenges Coast Leaders to Recruit Youth for 60,000 Jobs Tied to Dangote\u2019s KSh 2.2 Trillion Lamu Refinery",
       "angle": "Framing Ruto's Coast address as a direct administrative challenge to local leaders, putting the onus on regional politicians to organize youth for technical slots at Aliko Dangote's KSh 2.2 trillion Lamu oil refinery and coastal industrial hubs before positions pass them by.",
@@ -1253,6 +1247,14 @@
       "opening": "Personality lead opening directly on Governor Johnson Sakaja laying down his unfiltered view on Nairobi survival and refusing to set up long-term displacement camps.",
       "structure": "Personality lead hook -> The 'they will never leave' dependency remark -> Cash transfer mechanics via Red Cross and schools -> The KSh 5.17 billion drainage arithmetic -> Met Department skepticism callout and downpour reality close",
       "source": "https://www.ghafla.co.ke/nairobi-maps-227-flood-hotspots-as-el-nino-threatens-100000-residents/"
+    },
+    {
+      "title": "Brayo Swaps Weekend Football Banter for Home Porridge as Sharon and Chantelle\u2019s Offside Trap Lands in DCI Custody",
+      "angle": "Reframing the weekend drama through Brayo's abrupt transition from lively football banter to domestic recuperation under his wife Phyllis's care, detailing the tactical distraction trap set by Sharon and Chantelle and how club staff dismantled it.",
+      "angle_type": "personality-driven nightlife expose and reality check",
+      "opening": "Personality lead opening directly on Brayo recovering at home with his wife Phyllis after an evening of offside football analysis unraveled into a spiked drink and police intervention.",
+      "structure": "Personality hook -> The tactical setup at the counter -> The moment of the drop and Brayo's collapse -> The supervisor's intervention and club scuffle -> Domestic aftermath and legal status",
+      "source": "https://www.ghafla.co.ke/two-women-arrested-over-alleged-drink-spiking-incident-at-local-club/"
     }
   ],
   "style_history": [
