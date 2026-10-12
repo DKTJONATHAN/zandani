@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "2bf561507e56fbfba2b45e4bfcadfeb0",
     "a1d363fdad43f4a18adb92ef046732c0",
     "02df8973f2689ee7182e5d02c5c97e57",
     "5e7f2606438c5c39b442a9df96adcdf7",
@@ -799,10 +798,10 @@
     "cb631befa09b9d2a953cbe45074d5cc5",
     "a2a8c8793c75cf3d4c8843558f5ffef1",
     "655e4392bf5636ba141dd1f1e275defb",
-    "52b958660fc1bbfa42839ac8594375cc"
+    "52b958660fc1bbfa42839ac8594375cc",
+    "68503628ee1fbf9963acd460cb7d5897"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1301,7 +1301,8 @@
     "https://kenyans.co.ke/news/127784-ntsa-asks-motorists-check-uncollected-driving-licences-logbooks-and-number-plates",
     "https://kenyans.co.ke/news/127791-several-injured-after-matatu-plunges-ditch-along-ol-kalou-nakuru-road",
     "https://kenyans.co.ke/news/127801-kemsa-moves-reduce-medical-supplies-shortages-and-waste-public-hospitals",
-    "https://kenyans.co.ke/news/127800-traffic-disruption-bodaboda-block-ngong-road-near-talanta-stadium-after-accident"
+    "https://kenyans.co.ke/news/127800-traffic-disruption-bodaboda-block-ngong-road-near-talanta-stadium-after-accident",
+    "https://kenyans.co.ke/news/127799-cleophas-malala-dcp-leaders-teargassed-kakamega-police-station"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1693,7 +1694,8 @@
     "ntsa strips portal login barriers starve document broker syndicates",
     "ntsa fatality tally crosses 000 multi county crashes expose arterial risks",
     "state decouples drug buying bulk quotas stem ward stock outs",
-    "hit run near talanta stadium sparks boda boda blockade ngong road"
+    "hit run near talanta stadium sparks boda boda blockade ngong road",
+    "kakamega police station clash exposes rising 2027 succession tensions"
   ],
   "topic_keys": [
     "news tracker",
@@ -4492,6 +4494,15 @@
       "structure": "Corridor crisis opening -> Specifics of the hit-and-run crash and immediate blockade mechanics -> Commuter entrapment and vehicle damage reports -> Police tactical response with tear gas -> Corridor protest history and unresolved freight-boda friction.",
       "source": "https://kenyans.co.ke/news/127800-traffic-disruption-bodaboda-block-ngong-road-near-talanta-stadium-after-accident",
       "published_at": "2026-10-12T17:02:35Z"
+    },
+    {
+      "title": "Kakamega Police Station Clash Exposes Rising 2027 Succession Tensions",
+      "angle": "The intersection of political violence allegations, regional gubernatorial succession maneuvering for August 2027, and the operational weaponization of police stations for partisan showdowns.",
+      "angle_type": "accountability",
+      "opening": "Accountability-focused lead examining the escalation of regional electoral competition into institutional clashes at security facilities.",
+      "structure": "Institutional confrontation lead -> Petition details and militia/goonship allegations -> Digital rights friction and arrest of Anyama wa Anyama -> 2027 gubernatorial positioning and unresolved investigative demands.",
+      "source": "https://kenyans.co.ke/news/127799-cleophas-malala-dcp-leaders-teargassed-kakamega-police-station",
+      "published_at": "2026-10-12T17:33:40Z"
     }
   ]
 }
