@@ -220,7 +220,8 @@
     "ebe603e779b28e46d817718e3c2782dac22e099b3dadde907865dc917b8d42bb",
     "a50b0ca71adc37b52b3b91d539cc19a8d34af537446c1cbb6d48028ca13ed16d",
     "1296a39bd6f9826d478949c6bef99cc031cc280734fd5a17386e7835a0edcb95",
-    "b851ef84783d994ff1530d22de095e088376c484573d6312c6f82d333947e45e"
+    "b851ef84783d994ff1530d22de095e088376c484573d6312c6f82d333947e45e",
+    "2fe79f86fb5eac4f188cfd8acb78a06a417fd21c4394b95962d9cfb2e6774f69"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -443,17 +444,10 @@
     "https://www.ghafla.co.ke/kioni-warns-opposition-against-insults-says-ruto-could-be-benefiting-politically/",
     "https://www.ghafla.co.ke/governance-vs-loyalty-natembeya-urges-president-ruto-to-uphold-equitable-development/",
     "https://www.ghafla.co.ke/activists-public-figures-march-in-nairobi-against-golf-courses-and-airstrips-in-forests/",
-    "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-five-areas-on-october-12/"
+    "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-five-areas-on-october-12/",
+    "https://www.ghafla.co.ke/i-knew-something-was-wrong-raila-odingas-bodyguard-recounts-final-hours-in-india-hospital/"
   ],
   "published_angles": [
-    {
-      "title": "Edwin Sifuna Vaults Over Kalonzo and Gachagua in 2027 National Popularity Shock",
-      "angle": "Framing the survey around Edwin Sifuna's dramatic disruption of the opposition pecking order, specifically how the vocal Nairobi senator decisively leapfrogged seasoned political heavyweights Kalonzo Musyoka, Rigathi Gachagua, and Fred Matiang'i to command the runner-up slot.",
-      "angle_type": "political celebrity disruption and pecking-order eclipse",
-      "opening": "Personality lead opening directly on Edwin Sifuna's sudden vault over veteran establishment figures into second place.",
-      "structure": "Personality hook -> Breakdown of the titan pecking order -> Contrast between Sifuna's personal rating and ODM's lagging party standing -> The national sentiment and policy friction lines under Ruto",
-      "source": "https://www.ghafla.co.ke/early-2027-survey-ruto-maintains-lead-as-sifuna-surges-into-second-spot/"
-    },
     {
       "title": "Dr. Mercy Mwangangi Lays Down 3-Day Ultimatum in High-Stakes SHA Hospital Contracting Push",
       "angle": "Reframing the administrative extension through Dr. Mercy Mwangangi's strict operational ultimatum\u2014focusing on the tight three-day digital turnaround, the firm 'no further extensions' boundary, and the rollout of HAKIKA clinics to process over 10,000 facilities.",
@@ -1245,6 +1239,14 @@
       "opening": "Direct focus on the daytime shutdown hitting Nairobi's high-end residential and dining belt alongside five regional counties.",
       "structure": "Capital lifestyle corridor lead -> Kajiado and peri-urban breakdown -> Mount Kenya institutional and tea belt disruption -> West Pokot frontier stretch -> Grid maintenance advisory close",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-five-areas-on-october-12/"
+    },
+    {
+      "title": "Maurice Ogeta Lays Bare Final India Hours: Why He Blocked Hospital Counselors and Demanded Raw Truth for Winnie Odinga",
+      "angle": "Maurice Ogeta acting as the protective inner-circle gatekeeper\u2014reading the silent clues of candles and Bibles, cutting through clinical protocols, and firmly blocking hospital grief counselors to demand raw medical truth for Winnie and Ruth Odinga.",
+      "angle_type": "insider revelation and personal gatekeeping dynamic",
+      "opening": "Personality lead opening squarely on Maurice Ogeta stepping in front of medical staff to halt protocol and protect Winnie and Ruth Odinga from sugarcoated news.",
+      "structure": "Personality gatekeeper hook -> The immediate clash over grief counseling versus raw truth -> The silent giveaway of altar cloths, Bibles, and candles -> Dr. Olunya's explanation and the priest's sudden departure -> Contextual close on Ogeta's lifelong protective role",
+      "source": "https://www.ghafla.co.ke/i-knew-something-was-wrong-raila-odingas-bodyguard-recounts-final-hours-in-india-hospital/"
     }
   ],
   "style_history": [
