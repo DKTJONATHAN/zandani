@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "c11ffc96d7c4ef5c11d9459a792b3fd8",
     "2bf561507e56fbfba2b45e4bfcadfeb0",
     "a1d363fdad43f4a18adb92ef046732c0",
     "02df8973f2689ee7182e5d02c5c97e57",
@@ -799,10 +798,10 @@
     "006566656b7f34821c7ddfcc6e03bebd",
     "cb631befa09b9d2a953cbe45074d5cc5",
     "a2a8c8793c75cf3d4c8843558f5ffef1",
-    "655e4392bf5636ba141dd1f1e275defb"
+    "655e4392bf5636ba141dd1f1e275defb",
+    "52b958660fc1bbfa42839ac8594375cc"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1300,7 +1300,8 @@
     "https://kenyans.co.ke/news/127782-nakuru-governor-kihika-stops-tree-felling-without-county-approval",
     "https://kenyans.co.ke/news/127784-ntsa-asks-motorists-check-uncollected-driving-licences-logbooks-and-number-plates",
     "https://kenyans.co.ke/news/127791-several-injured-after-matatu-plunges-ditch-along-ol-kalou-nakuru-road",
-    "https://kenyans.co.ke/news/127801-kemsa-moves-reduce-medical-supplies-shortages-and-waste-public-hospitals"
+    "https://kenyans.co.ke/news/127801-kemsa-moves-reduce-medical-supplies-shortages-and-waste-public-hospitals",
+    "https://kenyans.co.ke/news/127800-traffic-disruption-bodaboda-block-ngong-road-near-talanta-stadium-after-accident"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1691,7 +1692,8 @@
     "kihika asserts county veto kura following nakuru walkway tree felling",
     "ntsa strips portal login barriers starve document broker syndicates",
     "ntsa fatality tally crosses 000 multi county crashes expose arterial risks",
-    "state decouples drug buying bulk quotas stem ward stock outs"
+    "state decouples drug buying bulk quotas stem ward stock outs",
+    "hit run near talanta stadium sparks boda boda blockade ngong road"
   ],
   "topic_keys": [
     "news tracker",
@@ -4481,6 +4483,15 @@
       "structure": "Operational pivot lead -> Verified Naivasha forum details and core directives -> Institutional critique on bedside availability vs warehouse purchases -> Decentralized pharmacist role and inventory governance -> Unresolved implementation challenge through October 15.",
       "source": "https://kenyans.co.ke/news/127801-kemsa-moves-reduce-medical-supplies-shortages-and-waste-public-hospitals",
       "published_at": "2026-10-12T16:02:28Z"
+    },
+    {
+      "title": "Hit-and-Run Near Talanta Stadium Sparks Boda Boda Blockade on Ngong Road",
+      "angle": "The acute commuter vulnerability on the Ngong Road arterial, examining how a fatal road traffic crash rapidly devolved into retaliatory stone-throwing and vigilante blockades that trapped private and commercial transport for over an hour before police tactical intervention.",
+      "angle_type": "local impact",
+      "opening": "Corridor-vulnerability lead detailing how an afternoon hit-and-run instantly transformed a key dual carriageway into a motorist entrapment zone marked by stone barricades and mob hostility.",
+      "structure": "Corridor crisis opening -> Specifics of the hit-and-run crash and immediate blockade mechanics -> Commuter entrapment and vehicle damage reports -> Police tactical response with tear gas -> Corridor protest history and unresolved freight-boda friction.",
+      "source": "https://kenyans.co.ke/news/127800-traffic-disruption-bodaboda-block-ngong-road-near-talanta-stadium-after-accident",
+      "published_at": "2026-10-12T17:02:35Z"
     }
   ]
 }
