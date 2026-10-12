@@ -227,7 +227,8 @@
     "265d403585ff0d54210f5521844bc84f1b978b3c62b4eb698f43137e21241b2c",
     "6fd2c1a5fccc45ad540a2f8a0929425fd66da3d10e27446a018f16d24be0a9d4",
     "2d7b27c7e34f1a67ae620a82d967c42a625483c109083041d782ba36da0942d7",
-    "ea3a5406faa1aeac504acae524b1d3040c13bea4a43fac16f594f3d9492ee8b2"
+    "ea3a5406faa1aeac504acae524b1d3040c13bea4a43fac16f594f3d9492ee8b2",
+    "0110d65d72d083ac31f371a7d1a7a4dee56a58b17f27ec0232598b0871258773"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -457,17 +458,10 @@
     "https://www.ghafla.co.ke/nairobi-maps-227-flood-hotspots-as-el-nino-threatens-100000-residents/",
     "https://www.ghafla.co.ke/two-women-arrested-over-alleged-drink-spiking-incident-at-local-club/",
     "https://www.ghafla.co.ke/ruto-launches-usawa-ni-sawa-slogan-to-highlight-regional-equity-ahead-of-2027/",
-    "https://www.ghafla.co.ke/geoffrey-mosiria-wants-bishop-margaret-wanjiru-as-his-deputy-in-2027-nairobi-governor-race/"
+    "https://www.ghafla.co.ke/geoffrey-mosiria-wants-bishop-margaret-wanjiru-as-his-deputy-in-2027-nairobi-governor-race/",
+    "https://www.ghafla.co.ke/show-kenyans-your-work-ruto-accuses-opposition-of-lacking-policy-alternatives/"
   ],
   "published_angles": [
-    {
-      "title": "How a Voiceless Six-Month Exile in Embu Forced Bensoul to Build His Own Song Catalog",
-      "angle": "Focusing on the creative and financial survival strategy Bensoul adopted while voiceless in Embu\u2014writing a massive catalog of songs out of desperation to sell them for cash, which ultimately became the bedrock of his own solo career once he recovered.",
-      "angle_type": "creative survival and catalog building under medical duress",
-      "opening": "Personality-centric narrative hook highlighting the physical reality of losing his voice and his plan to sell off his pen to survive.",
-      "structure": "Crisis setup -> The retreat to Embu -> The voiceless songwriting grind -> The post-recovery catalog reclamation.",
-      "source": "https://www.ghafla.co.ke/bensoul-reveals-tb-battle-forced-him-to-quit-music-for-six-months/"
-    },
     {
       "title": "Chivayo and Muteke Families Agree on Joint Burial as Forensic Delays Put Final Farewell on Hold",
       "angle": "The collaborative pact between the Chivayo and Muteke families to bury the couple together at the same cemetery, contrasted with the agonizing forensic delay that has put their final send-off on hold.",
@@ -1259,6 +1253,14 @@
       "opening": "Personality lead opening directly on Geoffrey Mosiria pitching Bishop Margaret Wanjiru to step aside from her own City Hall ambitions and take the backseat as his running mate.",
       "structure": "Personality audacity hook -> The Sunday church setting with Fred Matiang'i -> Breakdown of the 'Mr Fix It' self-branding and deputy offer -> The competing ambitions and voter registration warning -> Unresolved church-pulpit dynamic close",
       "source": "https://www.ghafla.co.ke/geoffrey-mosiria-wants-bishop-margaret-wanjiru-as-his-deputy-in-2027-nairobi-governor-race/"
+    },
+    {
+      "title": "William Ruto Roasts Opposition Over \u2018One Term\u2019 Choir, Dares Rivals to Drop Slogans for Real Work",
+      "angle": "Reframing the confrontation through political celebrity banter: Ruto roasting his rivals for running an amateur musical tour of 'one term' chants and podium name-calling while demanding they produce a tangible portfolio instead of hit pieces fueled by raw envy.",
+      "angle_type": "celebrity political banter and podium performance critique",
+      "opening": "Personality lead opening directly on Ruto taking the Tinderet microphone to dismantle the opposition's choir of anti-government chants and nickname taunts.",
+      "structure": "Personality roast hook -> The 'one term' musical critique and jealousy diagnosis -> The project ledger counterpunch (SHA, housing, fertilizer) -> Opposition coalition dynamics and internal audition drama -> The 11-day North Rift roadshow countdown to Mashujaa Day",
+      "source": "https://www.ghafla.co.ke/show-kenyans-your-work-ruto-accuses-opposition-of-lacking-policy-alternatives/"
     }
   ],
   "style_history": [
