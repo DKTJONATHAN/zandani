@@ -219,7 +219,8 @@
     "b9a3ed58244a70c70b218aa2410a658b03f6927c31e082a1b2f8a43afee7fabe",
     "ebe603e779b28e46d817718e3c2782dac22e099b3dadde907865dc917b8d42bb",
     "a50b0ca71adc37b52b3b91d539cc19a8d34af537446c1cbb6d48028ca13ed16d",
-    "1296a39bd6f9826d478949c6bef99cc031cc280734fd5a17386e7835a0edcb95"
+    "1296a39bd6f9826d478949c6bef99cc031cc280734fd5a17386e7835a0edcb95",
+    "b851ef84783d994ff1530d22de095e088376c484573d6312c6f82d333947e45e"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -441,17 +442,10 @@
     "https://www.ghafla.co.ke/kmsa-explains-why-el-nino-does-not-automatically-mean-heavy-rainfall-in-kenya/",
     "https://www.ghafla.co.ke/kioni-warns-opposition-against-insults-says-ruto-could-be-benefiting-politically/",
     "https://www.ghafla.co.ke/governance-vs-loyalty-natembeya-urges-president-ruto-to-uphold-equitable-development/",
-    "https://www.ghafla.co.ke/activists-public-figures-march-in-nairobi-against-golf-courses-and-airstrips-in-forests/"
+    "https://www.ghafla.co.ke/activists-public-figures-march-in-nairobi-against-golf-courses-and-airstrips-in-forests/",
+    "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-five-areas-on-october-12/"
   ],
   "published_angles": [
-    {
-      "title": "Dennis Ombachi's Attempt to Weaponize Scorched Ugali as a Boarding School Deterrent Backfires on His Son",
-      "angle": "Focusing on Ombachi's failed culinary reverse-psychology\u2014specifically how his attempt to weaponize 'generational trauma' through scorched ugali and bitter greens backfired because his son lacks the psychological conditioning of high school boarding life.",
-      "angle_type": "parenting experiment and culinary backfire",
-      "opening": "Personality lead focusing directly on the failure of Dennis Ombachi's culinary deterrent on his son.",
-      "structure": "The parenting motive -> The creation of the 'traumatic' meal -> The backfired reaction -> Peer nostalgia and the generational gap.",
-      "source": "https://www.ghafla.co.ke/dennis-ombachi-turns-high-school-boarding-meals-into-comedy-but-son-gives-unexpected-verdict/"
-    },
     {
       "title": "Edwin Sifuna Vaults Over Kalonzo and Gachagua in 2027 National Popularity Shock",
       "angle": "Framing the survey around Edwin Sifuna's dramatic disruption of the opposition pecking order, specifically how the vocal Nairobi senator decisively leapfrogged seasoned political heavyweights Kalonzo Musyoka, Rigathi Gachagua, and Fred Matiang'i to command the runner-up slot.",
@@ -1243,6 +1237,14 @@
       "opening": "Personality lead opening directly on Karumba Ngatia (DJ Krowbar) swapping his turntables for the Nairobi tarmac to confront Environment CS Deborah Barasa.",
       "structure": "Celebrity lead hook -> Direct quote and callout of CS Deborah Barasa -> March logistics and the 60,000-signature petition -> Specific battlegrounds (Ngong Road, Upper Imenti) -> Civil society demands and regulatory close.",
       "source": "https://www.ghafla.co.ke/activists-public-figures-march-in-nairobi-against-golf-courses-and-airstrips-in-forests/"
+    },
+    {
+      "title": "Kenya Power Cuts Monday Supply Across Nairobi\u2019s Peponi Strip, Olepolos, and Regional Belts in 9-Hour Maintenance",
+      "angle": "Framing the shutdown through its direct impact on high-traffic suburban lifestyle strips, commercial nodes, and regional processing hubs rather than a passive listicle.",
+      "angle_type": "lifestyle and commercial infrastructure impact",
+      "opening": "Direct focus on the daytime shutdown hitting Nairobi's high-end residential and dining belt alongside five regional counties.",
+      "structure": "Capital lifestyle corridor lead -> Kajiado and peri-urban breakdown -> Mount Kenya institutional and tea belt disruption -> West Pokot frontier stretch -> Grid maintenance advisory close",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-five-areas-on-october-12/"
     }
   ],
   "style_history": [
