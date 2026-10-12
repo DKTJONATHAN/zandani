@@ -225,7 +225,8 @@
     "8387a91fd68f124bad3f248506d8b6308cafb67e902928236aba6340ec79393c",
     "85c90dd21a86ce183cd521a539706f2e8be8a09d7c37681f2cd889b726e59cc0",
     "265d403585ff0d54210f5521844bc84f1b978b3c62b4eb698f43137e21241b2c",
-    "6fd2c1a5fccc45ad540a2f8a0929425fd66da3d10e27446a018f16d24be0a9d4"
+    "6fd2c1a5fccc45ad540a2f8a0929425fd66da3d10e27446a018f16d24be0a9d4",
+    "2d7b27c7e34f1a67ae620a82d967c42a625483c109083041d782ba36da0942d7"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -453,17 +454,10 @@
     "https://www.ghafla.co.ke/2027-unity-pact-at-risk-senator-methu-alleges-sabotage-within-opposition-ranks/",
     "https://www.ghafla.co.ke/ruto-announces-ksh25-billion-for-road-projects-in-nandi-county/",
     "https://www.ghafla.co.ke/nairobi-maps-227-flood-hotspots-as-el-nino-threatens-100000-residents/",
-    "https://www.ghafla.co.ke/two-women-arrested-over-alleged-drink-spiking-incident-at-local-club/"
+    "https://www.ghafla.co.ke/two-women-arrested-over-alleged-drink-spiking-incident-at-local-club/",
+    "https://www.ghafla.co.ke/ruto-launches-usawa-ni-sawa-slogan-to-highlight-regional-equity-ahead-of-2027/"
   ],
   "published_angles": [
-    {
-      "title": "Ruto Challenges Coast Leaders to Recruit Youth for 60,000 Jobs Tied to Dangote\u2019s KSh 2.2 Trillion Lamu Refinery",
-      "angle": "Framing Ruto's Coast address as a direct administrative challenge to local leaders, putting the onus on regional politicians to organize youth for technical slots at Aliko Dangote's KSh 2.2 trillion Lamu oil refinery and coastal industrial hubs before positions pass them by.",
-      "angle_type": "political celebrity challenge and industrial megaproject pitch",
-      "opening": "Personality lead opening directly on President William Ruto laying down an operational directive to Coast leaders during a regional engagement.",
-      "structure": "Ruto challenge lead -> Breakdown of Dangote's KSh 2.2T Lamu refinery -> Dongo Kundu SEZ and Vipingo hubs -> Directive on local admin and skills coordination -> Concrete close on operational readiness.",
-      "source": "https://www.ghafla.co.ke/president-ruto-pledges-60000-coastal-youth-jobs-in-lamu-dongo-kundu-and-vipingo-mega-projects/"
-    },
     {
       "title": "Eric Omondi Moves From Online SOS to Chiromo Hospital Intake for Georgina Njenga",
       "angle": "The practical logistical details and medical pathways of how celebrity emergency interventions actually bridge online panic to clinical intake at facilities like Chiromo Hospital Group.",
@@ -1255,6 +1249,14 @@
       "opening": "Personality lead opening directly on Brayo recovering at home with his wife Phyllis after an evening of offside football analysis unraveled into a spiked drink and police intervention.",
       "structure": "Personality hook -> The tactical setup at the counter -> The moment of the drop and Brayo's collapse -> The supervisor's intervention and club scuffle -> Domestic aftermath and legal status",
       "source": "https://www.ghafla.co.ke/two-women-arrested-over-alleged-drink-spiking-incident-at-local-club/"
+    },
+    {
+      "title": "William Ruto Unveils \u2018Usawa Ni Sawa\u2019 Podium Chant, Tells Off Rivals Over Catchphrases While Pitching 10-Year Run",
+      "angle": "The podium contradiction and rebranding theater: Ruto introducing a brand-new campaign chant to lock down a 10-year tenure while simultaneously telling supporters that leadership cannot be measured by opposition catchphrases.",
+      "angle_type": "podium rhetoric and political rebranding theater",
+      "opening": "Personality lead opening directly on Ruto testing out his new podium catchphrase across the rally circuit while taking aim at rivals' slogans.",
+      "structure": "Personality podium hook -> Breakdown of the 'Usawa ni Sawa' branding and its regional messaging -> The ten-year continuity argument tied to SHA and housing -> The sharp contrast between his anti-slogan remarks and his own rebrand strategy -> Rally trail context and 2027 trajectory close",
+      "source": "https://www.ghafla.co.ke/ruto-launches-usawa-ni-sawa-slogan-to-highlight-regional-equity-ahead-of-2027/"
     }
   ],
   "style_history": [
