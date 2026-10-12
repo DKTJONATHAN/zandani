@@ -223,7 +223,8 @@
     "b851ef84783d994ff1530d22de095e088376c484573d6312c6f82d333947e45e",
     "2fe79f86fb5eac4f188cfd8acb78a06a417fd21c4394b95962d9cfb2e6774f69",
     "8387a91fd68f124bad3f248506d8b6308cafb67e902928236aba6340ec79393c",
-    "85c90dd21a86ce183cd521a539706f2e8be8a09d7c37681f2cd889b726e59cc0"
+    "85c90dd21a86ce183cd521a539706f2e8be8a09d7c37681f2cd889b726e59cc0",
+    "265d403585ff0d54210f5521844bc84f1b978b3c62b4eb698f43137e21241b2c"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -449,17 +450,10 @@
     "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-five-areas-on-october-12/",
     "https://www.ghafla.co.ke/i-knew-something-was-wrong-raila-odingas-bodyguard-recounts-final-hours-in-india-hospital/",
     "https://www.ghafla.co.ke/2027-unity-pact-at-risk-senator-methu-alleges-sabotage-within-opposition-ranks/",
-    "https://www.ghafla.co.ke/ruto-announces-ksh25-billion-for-road-projects-in-nandi-county/"
+    "https://www.ghafla.co.ke/ruto-announces-ksh25-billion-for-road-projects-in-nandi-county/",
+    "https://www.ghafla.co.ke/nairobi-maps-227-flood-hotspots-as-el-nino-threatens-100000-residents/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018We Watched Stoopid Boy Deteriorate\u2019: Eric Omondi Steps In with Urgent Search for Georgina Njenga",
-      "angle": "Focusing on Eric Omondi's proactive intervention to break the entertainment circle's habit of passive bystander observation, directly linking his urgent phone hotline appeal to the unlearned lessons from Stoopid Boy's recent passing.",
-      "angle_type": "celebrity peer intervention and community accountability",
-      "opening": "Personality lead focusing on Eric Omondi drawing a firm line against passive online observation in the wake of Stoopid Boy's death.",
-      "structure": "Personality and intervention hook -> The Stoopid Boy warning and direct contact line -> The Sept 29 existential post and peer uncertainty -> Context of previous September mall distress and July reflections -> Current unresolved status.",
-      "source": "https://www.ghafla.co.ke/we-will-not-lose-another-person-eric-omondi-seeks-help-to-find-georgina-njenga-following-distressing-posts/"
-    },
     {
       "title": "James Orengo Borrows Jaramogi\u2019s Signature Round Hat for October LDP Relaunch",
       "angle": "The visual and heritage rebranding play: Orengo is deploying nostalgic vintage political iconography\u2014appropriating Jaramogi Oginga Odinga\u2019s signature round hat and resurrecting the LDP initials\u2014to establish an independent celebrity brand alongside younger opposition heavyweights.",
@@ -1251,6 +1245,14 @@
       "opening": "Personality lead opening squarely on William Ruto pitching a nine-storey skyline to rural Kaptumo residents on his Nandi tour stop.",
       "structure": "Personality lifestyle hook -> The Kaptumo nine-storey tower pitch -> Ground pledges and 'promise is a debt' tour doctrine -> Aldai's six-project road windfall -> Power grid countdown to May 2027.",
       "source": "https://www.ghafla.co.ke/ruto-announces-ksh25-billion-for-road-projects-in-nandi-county/"
+    },
+    {
+      "title": "Johnson Sakaja Rules Out Nairobi IDP Camps, Insists Displaced Residents \u2018Will Never Leave\u2019 If Given Free Food",
+      "angle": "Sakaja's blunt personal philosophy rejecting traditional IDP camps in favor of direct cash handouts, candidly arguing that providing free food and shelter creates permanent urban dependency because displaced city residents 'will never leave.'",
+      "angle_type": "personality candid stance and urban survival philosophy",
+      "opening": "Personality lead opening directly on Governor Johnson Sakaja laying down his unfiltered view on Nairobi survival and refusing to set up long-term displacement camps.",
+      "structure": "Personality lead hook -> The 'they will never leave' dependency remark -> Cash transfer mechanics via Red Cross and schools -> The KSh 5.17 billion drainage arithmetic -> Met Department skepticism callout and downpour reality close",
+      "source": "https://www.ghafla.co.ke/nairobi-maps-227-flood-hotspots-as-el-nino-threatens-100000-residents/"
     }
   ],
   "style_history": [
