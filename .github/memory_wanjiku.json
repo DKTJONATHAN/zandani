@@ -222,7 +222,8 @@
     "1296a39bd6f9826d478949c6bef99cc031cc280734fd5a17386e7835a0edcb95",
     "b851ef84783d994ff1530d22de095e088376c484573d6312c6f82d333947e45e",
     "2fe79f86fb5eac4f188cfd8acb78a06a417fd21c4394b95962d9cfb2e6774f69",
-    "8387a91fd68f124bad3f248506d8b6308cafb67e902928236aba6340ec79393c"
+    "8387a91fd68f124bad3f248506d8b6308cafb67e902928236aba6340ec79393c",
+    "85c90dd21a86ce183cd521a539706f2e8be8a09d7c37681f2cd889b726e59cc0"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -447,17 +448,10 @@
     "https://www.ghafla.co.ke/activists-public-figures-march-in-nairobi-against-golf-courses-and-airstrips-in-forests/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-five-areas-on-october-12/",
     "https://www.ghafla.co.ke/i-knew-something-was-wrong-raila-odingas-bodyguard-recounts-final-hours-in-india-hospital/",
-    "https://www.ghafla.co.ke/2027-unity-pact-at-risk-senator-methu-alleges-sabotage-within-opposition-ranks/"
+    "https://www.ghafla.co.ke/2027-unity-pact-at-risk-senator-methu-alleges-sabotage-within-opposition-ranks/",
+    "https://www.ghafla.co.ke/ruto-announces-ksh25-billion-for-road-projects-in-nandi-county/"
   ],
   "published_angles": [
-    {
-      "title": "James Orengo Moves to Douse Rift Rumors with Endorsement of Linda Mwananchi Platform",
-      "angle": "Reframing Orengo's social media pledge as a deliberate damage-control pivot to quiet coalition rift rumors after missing the retreat that anointed Edwin Sifuna.",
-      "angle_type": "political personality realignment and rumor management",
-      "opening": "Personality lead focusing directly on James Orengo and his strategic move to heal political speculation.",
-      "structure": "Person and hook -> Verification of statement and retreat context -> Legal tribunal breakdown -> Broader campaign implications and close.",
-      "source": "https://www.ghafla.co.ke/green-light-for-linda-mwananchi-as-orengo-pledges-support-for-unified-presidential-ticket/"
-    },
     {
       "title": "\u2018We Watched Stoopid Boy Deteriorate\u2019: Eric Omondi Steps In with Urgent Search for Georgina Njenga",
       "angle": "Focusing on Eric Omondi's proactive intervention to break the entertainment circle's habit of passive bystander observation, directly linking his urgent phone hotline appeal to the unlearned lessons from Stoopid Boy's recent passing.",
@@ -1249,6 +1243,14 @@
       "opening": "Personality lead opening directly on John Methu going live on Citizen TV to call out Ndindi Nyoro and declare his friendship with Fred Matiang'i broken.",
       "structure": "Personality betrayal hook -> Direct quotes unmasking Nyoro's party creation offer -> The Matiang'i friendship breakdown -> Broad opposition context and Gachagua's earlier warnings -> Wiper pushback and unresolved tension close",
       "source": "https://www.ghafla.co.ke/2027-unity-pact-at-risk-senator-methu-alleges-sabotage-within-opposition-ranks/"
+    },
+    {
+      "title": "William Ruto Pitches Nine-Storey Skyline to Rural Kaptumo, Declaring \u2018A Promise Is a Debt\u2019 on Nandi Tour",
+      "angle": "William Ruto taking his trademark podium showmanship to Nandi, pitching urban high-rise living to the quiet market centre of Kaptumo with a nine-storey residential tower alongside his 'promise is a debt' tour rhetoric.",
+      "angle_type": "personality-driven lifestyle transformation and tour theater",
+      "opening": "Personality lead opening squarely on William Ruto pitching a nine-storey skyline to rural Kaptumo residents on his Nandi tour stop.",
+      "structure": "Personality lifestyle hook -> The Kaptumo nine-storey tower pitch -> Ground pledges and 'promise is a debt' tour doctrine -> Aldai's six-project road windfall -> Power grid countdown to May 2027.",
+      "source": "https://www.ghafla.co.ke/ruto-announces-ksh25-billion-for-road-projects-in-nandi-county/"
     }
   ],
   "style_history": [
