@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "6ba309fc823051c1471b9a1068a0df84",
     "b8f1108ba28bae30c0180f26f1150f79",
     "ae929a33429109409146418ba29c1156",
     "c11ffc96d7c4ef5c11d9459a792b3fd8",
@@ -799,10 +798,10 @@
     "44ae5c4e83ce162f62712a0c0abb4fd6",
     "11b2340c213da824f02e0cb6435aa9bb",
     "0d3111894cf2e1fb3795cee04794b3cf",
-    "006566656b7f34821c7ddfcc6e03bebd"
+    "006566656b7f34821c7ddfcc6e03bebd",
+    "cb631befa09b9d2a953cbe45074d5cc5"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1297,7 +1297,8 @@
     "https://kenyans.co.ke/news/127778-statehouse-road-tree-felling-sparks-outrage-among-nairobi-residents",
     "https://kenyans.co.ke/news/127774-kenyan-psychologist-launches-ai-powered-app-children-autism-adhd",
     "https://kenyans.co.ke/news/127781-court-explains-when-consultants-can-claim-employee-benefits",
-    "https://kenyans.co.ke/news/127782-nakuru-governor-kihika-stops-tree-felling-without-county-approval"
+    "https://kenyans.co.ke/news/127782-nakuru-governor-kihika-stops-tree-felling-without-county-approval",
+    "https://kenyans.co.ke/news/127784-ntsa-asks-motorists-check-uncollected-driving-licences-logbooks-and-number-plates"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1685,7 +1686,8 @@
     "state house road felling tests sakaja permit ban road agency clearances",
     "home screen shift digital nest repurposing screen time neurodivergent care",
     "contractor ksh5 payout claim crumbles missing invoices employee label",
-    "kihika asserts county veto kura following nakuru walkway tree felling"
+    "kihika asserts county veto kura following nakuru walkway tree felling",
+    "ntsa strips portal login barriers starve document broker syndicates"
   ],
   "topic_keys": [
     "news tracker",
@@ -4448,6 +4450,15 @@
       "structure": "Attribution and beneficiary lead -> Verified statement and jurisdictional veto mechanics -> Street-level impact and public backlash on Oginga Odinga Road -> National vs devolved friction in urban infrastructure upgrades -> Unresolved engineering and clearance parameters",
       "source": "https://kenyans.co.ke/news/127782-nakuru-governor-kihika-stops-tree-felling-without-county-approval",
       "published_at": "2026-10-12T06:02:18Z"
+    },
+    {
+      "title": "NTSA Strips Portal Login Barriers to Starve Document Broker Syndicates",
+      "angle": "The administrative dismantling of intermediary rent-seeking: NTSA is deliberately stripping authentication barriers\u2014allowing searches without account logins\u2014to starve street-level brokers who capitalize on bureaucratic opacity and unnecessary branch visits.",
+      "angle_type": "practical change",
+      "opening": "Mechanism-first operational lead focusing on the removal of user registration barriers to counter broker exploitation.",
+      "structure": "Friction-removal lead -> Core lookup mechanics and document types -> Anti-broker warning and collection routing -> Integrated complaint and turnaround reforms (2-minute window, SMS tracking) -> Unresolved delivery challenges.",
+      "source": "https://kenyans.co.ke/news/127784-ntsa-asks-motorists-check-uncollected-driving-licences-logbooks-and-number-plates",
+      "published_at": "2026-10-12T07:02:34Z"
     }
   ]
 }
