@@ -221,7 +221,8 @@
     "a50b0ca71adc37b52b3b91d539cc19a8d34af537446c1cbb6d48028ca13ed16d",
     "1296a39bd6f9826d478949c6bef99cc031cc280734fd5a17386e7835a0edcb95",
     "b851ef84783d994ff1530d22de095e088376c484573d6312c6f82d333947e45e",
-    "2fe79f86fb5eac4f188cfd8acb78a06a417fd21c4394b95962d9cfb2e6774f69"
+    "2fe79f86fb5eac4f188cfd8acb78a06a417fd21c4394b95962d9cfb2e6774f69",
+    "8387a91fd68f124bad3f248506d8b6308cafb67e902928236aba6340ec79393c"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -445,17 +446,10 @@
     "https://www.ghafla.co.ke/governance-vs-loyalty-natembeya-urges-president-ruto-to-uphold-equitable-development/",
     "https://www.ghafla.co.ke/activists-public-figures-march-in-nairobi-against-golf-courses-and-airstrips-in-forests/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-five-areas-on-october-12/",
-    "https://www.ghafla.co.ke/i-knew-something-was-wrong-raila-odingas-bodyguard-recounts-final-hours-in-india-hospital/"
+    "https://www.ghafla.co.ke/i-knew-something-was-wrong-raila-odingas-bodyguard-recounts-final-hours-in-india-hospital/",
+    "https://www.ghafla.co.ke/2027-unity-pact-at-risk-senator-methu-alleges-sabotage-within-opposition-ranks/"
   ],
   "published_angles": [
-    {
-      "title": "Dr. Mercy Mwangangi Lays Down 3-Day Ultimatum in High-Stakes SHA Hospital Contracting Push",
-      "angle": "Reframing the administrative extension through Dr. Mercy Mwangangi's strict operational ultimatum\u2014focusing on the tight three-day digital turnaround, the firm 'no further extensions' boundary, and the rollout of HAKIKA clinics to process over 10,000 facilities.",
-      "angle_type": "personality-driven operational ultimatum",
-      "opening": "Personality lead opening directly on Dr. Mercy Mwangangi issuing a high-stakes directive to healthcare providers following the lapse of existing September 30 contracts.",
-      "structure": "Person and directive hook -> Specific terms of the October 1 notice -> Three-day digital signature mandate and patient transfer clause -> Launch of HAKIKA clinics for 10,000+ providers -> Concrete deadline close.",
-      "source": "https://www.ghafla.co.ke/hospital-contracts-extended-sha-ensures-continued-service-delivery-through-mid-october/"
-    },
     {
       "title": "James Orengo Moves to Douse Rift Rumors with Endorsement of Linda Mwananchi Platform",
       "angle": "Reframing Orengo's social media pledge as a deliberate damage-control pivot to quiet coalition rift rumors after missing the retreat that anointed Edwin Sifuna.",
@@ -1247,6 +1241,14 @@
       "opening": "Personality lead opening squarely on Maurice Ogeta stepping in front of medical staff to halt protocol and protect Winnie and Ruth Odinga from sugarcoated news.",
       "structure": "Personality gatekeeper hook -> The immediate clash over grief counseling versus raw truth -> The silent giveaway of altar cloths, Bibles, and candles -> Dr. Olunya's explanation and the priest's sudden departure -> Contextual close on Ogeta's lifelong protective role",
       "source": "https://www.ghafla.co.ke/i-knew-something-was-wrong-raila-odingas-bodyguard-recounts-final-hours-in-india-hospital/"
+    },
+    {
+      "title": "John Methu Unmasks Ndindi Nyoro as Ruto\u2019s Chief Mole, Admits He No Longer Recognizes Friend Fred Matiang\u2019i",
+      "angle": "Focusing on John Methu's direct personal unmasking of Ndindi Nyoro as a State House operative and his admission that his friendship with Fred Matiang'i has completely fractured over public alliances.",
+      "angle_type": "personality drama and political betrayal",
+      "opening": "Personality lead opening directly on John Methu going live on Citizen TV to call out Ndindi Nyoro and declare his friendship with Fred Matiang'i broken.",
+      "structure": "Personality betrayal hook -> Direct quotes unmasking Nyoro's party creation offer -> The Matiang'i friendship breakdown -> Broad opposition context and Gachagua's earlier warnings -> Wiper pushback and unresolved tension close",
+      "source": "https://www.ghafla.co.ke/2027-unity-pact-at-risk-senator-methu-alleges-sabotage-within-opposition-ranks/"
     }
   ],
   "style_history": [
