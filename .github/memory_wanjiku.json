@@ -237,7 +237,8 @@
     "7c94a7626de82ad10ddbede74bff2f7f5ce36f05e7311ab72ca44f1d587ea5dd",
     "e5e716db4b92922288aad3c8d359301a15812697934b05175cf5e99c1bd1eef0",
     "4b5c0945d4dcdd444e772b45b2e95a1c6e8cb3439ee5543dfba843678c89995b",
-    "2255e1e81c699e57fb896a44a6faea305519f1afdf42befa46b66e9faece3e95"
+    "2255e1e81c699e57fb896a44a6faea305519f1afdf42befa46b66e9faece3e95",
+    "cc679dff3ffc7fca81e7cac67373cf9cb983bbece8e1de674d6e045778851fb2"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -477,17 +478,10 @@
     "https://www.ghafla.co.ke/ruto-says-kenyans-want-development-agenda-not-tribal-politics/",
     "https://www.ghafla.co.ke/eldoret-to-host-2026-mashujaa-day-as-uasin-gishu-nandi-and-elgeyo-marakwet-jointly-stage-national-celebrations/",
     "https://www.ghafla.co.ke/former-news-anchor-esther-arunga-formally-drops-name-timberlake-via-gazette-notice/",
-    "https://www.ghafla.co.ke/he-is-fine-and-doing-well-odm-clears-misinformation-over-dr-oburu-ogingas-health/"
+    "https://www.ghafla.co.ke/he-is-fine-and-doing-well-odm-clears-misinformation-over-dr-oburu-ogingas-health/",
+    "https://www.ghafla.co.ke/matiangi-cautions-opposition-forming-a-coalition-government-is-not-easy/"
   ],
   "published_angles": [
-    {
-      "title": "William Ruto Swaps Campaign Pledges for Bankable Collateral in Historic Lamu Land Handover",
-      "angle": "Framing Ruto's return through the personality lens of a political promissory note being cashed\u2014specifically spotlighting the transformation of ancestral squatters into asset-holding landowners who can now use their soil as commercial and credit leverage.",
-      "angle_type": "political personality receipt and asset transformation",
-      "opening": "Personality lead opening directly on William Ruto touching down in Lamu to settle a campaign-trail commitment with tangible legal paperwork.",
-      "structure": "Ruto arrival and campaign fulfillment hook -> The ancestral squatter burden tracing back to colonial disruption -> Economic leverage mechanics (credit and asset security) -> Legal parity close",
-      "source": "https://www.ghafla.co.ke/restoring-dignity-ruto-fulfills-promise-of-land-ownership-in-historic-lamu/"
-    },
     {
       "title": "Skipped Retreat, Kept the Ambition: Orengo Blesses Sifuna\u2019s Party Vehicle While Keeping 2027 Options Open",
       "angle": "The personal maneuvering between rival 2027 contenders James Orengo and Edwin Sifuna\u2014specifically how Orengo broke his post-retreat silence after skipping Sifuna\u2019s crowning as movement leader to publicly endorse the party vehicle, while tactically preserving his own presidential ambitions under the banner of picking 'one presidential candidate.'",
@@ -1279,6 +1273,14 @@
       "opening": "Personality lead opening directly on Catherine Omanyo shutting down digital death rumors on air.",
       "structure": "Omanyo's Radio Maisha hook -> The health reality check and discharge timeline -> Praise for local doctors vs UK consultation -> Sharp rebuke of death-wish trolls -> Closing on the impending trip home.",
       "source": "https://www.ghafla.co.ke/he-is-fine-and-doing-well-odm-clears-misinformation-over-dr-oburu-ogingas-health/"
+    },
+    {
+      "title": "\u2018Whoever Tells You It\u2019s Easy Is Lying\u2019: Fred Matiang\u2019i Bursts the United Opposition\u2019s Coalition Bubble on Air",
+      "angle": "Framing Matiang'i's candid radio remarks through the personality tension inside the opposition's crowded VIP boardroom\u2014calling out anyone claiming unity is smooth as an outright liar while openly contrasting high-stakes seat-sharing squabbles with the state's obsession with chasing social media kids.",
+      "angle_type": "political celebrity reality check and boardroom friction",
+      "opening": "Personality lead opening directly on Fred Matiang'i taking to the airwaves to burst the opposition's boardroom bubble with an unvarnished reality check.",
+      "structure": "Personality reality-check hook -> The blunt 'whoever tells you it's easy is lying' quote and boardroom friction -> The high-wattage lineup of competing ambition -> The sharp radio clapback over police hunting social media youth -> The grassroots ground game in pastoralist turf.",
+      "source": "https://www.ghafla.co.ke/matiangi-cautions-opposition-forming-a-coalition-government-is-not-easy/"
     }
   ],
   "style_history": [
