@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "7c14d2d5dfd92ecd33f5278bd384981b",
     "788b6dca403751faae60db9d9546a1f1",
     "02f5b1a2395e3e96fca5fe6f6dce2706",
     "ddc36cea99350741b69c700ee2d308da",
@@ -799,10 +798,10 @@
     "b130b84285922cdd6c59a8ac56679d9e",
     "2dad3ea5563a5ae6fd7bf641e66ef6f7",
     "c034e86d99843345cda6d59ba4c1e4ee",
-    "1af72b277baf86728e0c436d69e33fc6"
+    "1af72b277baf86728e0c436d69e33fc6",
+    "8a84c864babf19f525c7107b0f49102d"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1306,7 +1306,8 @@
     "https://kenyans.co.ke/news/127803-kenya-gets-world-bank-funding-expand-digital-literacy-schools",
     "https://kenyans.co.ke/news/127806-mass-displacement-looms-kenha-plans-178km-road-upgrade-meru",
     "https://kenyans.co.ke/news/127808-helb-warns-employers-remit-monthly-loan-deductions-15th",
-    "https://kenyans.co.ke/news/127809-bungoma-teacher-accused-demanding-ksh300000-bribe-secure-tsc-jobs-arrested"
+    "https://kenyans.co.ke/news/127809-bungoma-teacher-accused-demanding-ksh300000-bribe-secure-tsc-jobs-arrested",
+    "https://kenyans.co.ke/news/127810-kenha-announces-multi-billion-safety-audit-193km-kenya-south-sudan-road-corridor"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1703,7 +1704,8 @@
     "icta sets curriculum track record must week cbc digital overhaul",
     "kenha targets student corridors 8km meru tarmac tender",
     "helb demands employer payroll remittances 15th withheld cash tops ksh34m",
-    "bungoma teacher arrest lifts lid cash placement racket tsc"
+    "bungoma teacher arrest lifts lid cash placement racket tsc",
+    "kenha ties south sudan corridor upgrades past safety audit compliance"
   ],
   "topic_keys": [
     "news tracker",
@@ -4547,6 +4549,15 @@
       "structure": "Evidentiary opening -> Mechanics of the Bungoma extortion scheme -> Institutional conduit and forensic money trail -> Regional proliferation of teacher hiring hoaxes -> Custodial next steps.",
       "source": "https://kenyans.co.ke/news/127809-bungoma-teacher-accused-demanding-ksh300000-bribe-secure-tsc-jobs-arrested",
       "published_at": "2026-10-13T08:01:54Z"
+    },
+    {
+      "title": "KeNHA Ties South Sudan Corridor Upgrades to Past Safety Audit Compliance",
+      "angle": "Reframing the tender around its retrospective engineering accountability: binding contractor construction to previously ignored audit findings while forcing six separate state agencies into a unified crash reporting architecture.",
+      "angle_type": "accountability",
+      "opening": "Accountability lead highlighting the retrospective enforcement mandate imposed on contractors and the multi-agency data tracking initiative.",
+      "structure": "Compliance and inter-agency scope lead -> Engineering accountability mechanics on Lesseru-Kitale and Morphus-Lokichar sections -> The six-agency crash data overhaul -> AfDB multilateral backing and regional corridor context -> Forward operational milestones.",
+      "source": "https://kenyans.co.ke/news/127810-kenha-announces-multi-billion-safety-audit-193km-kenya-south-sudan-road-corridor",
+      "published_at": "2026-10-13T09:02:04Z"
     }
   ]
 }
