@@ -236,7 +236,8 @@
     "9706fcef53fd3505f8ea3e90d27ed91d56812c12fc645ca6a85c21ccbbe84acd",
     "7c94a7626de82ad10ddbede74bff2f7f5ce36f05e7311ab72ca44f1d587ea5dd",
     "e5e716db4b92922288aad3c8d359301a15812697934b05175cf5e99c1bd1eef0",
-    "4b5c0945d4dcdd444e772b45b2e95a1c6e8cb3439ee5543dfba843678c89995b"
+    "4b5c0945d4dcdd444e772b45b2e95a1c6e8cb3439ee5543dfba843678c89995b",
+    "2255e1e81c699e57fb896a44a6faea305519f1afdf42befa46b66e9faece3e95"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -475,17 +476,10 @@
     "https://www.ghafla.co.ke/you-betrayed-me-president-ruto-escalates-attack-on-uhuru-kenyatta-during-north-rift-tour/",
     "https://www.ghafla.co.ke/ruto-says-kenyans-want-development-agenda-not-tribal-politics/",
     "https://www.ghafla.co.ke/eldoret-to-host-2026-mashujaa-day-as-uasin-gishu-nandi-and-elgeyo-marakwet-jointly-stage-national-celebrations/",
-    "https://www.ghafla.co.ke/former-news-anchor-esther-arunga-formally-drops-name-timberlake-via-gazette-notice/"
+    "https://www.ghafla.co.ke/former-news-anchor-esther-arunga-formally-drops-name-timberlake-via-gazette-notice/",
+    "https://www.ghafla.co.ke/he-is-fine-and-doing-well-odm-clears-misinformation-over-dr-oburu-ogingas-health/"
   ],
   "published_angles": [
-    {
-      "title": "Edward Muriuki Rejects Single El Ni\u00f1o Narrative as Met Issues Staggered October-December Rain Timelines",
-      "angle": "Focus on Edward Muriuki's specific administrative pushback against treating El Ni\u00f1o as a single climate driver, highlighting staggered regional onset and early exit dates across counties.",
-      "angle_type": "institutional directive and seasonal schedule breakdown",
-      "opening": "Personality lead opening directly on Met acting chief Edward Muriuki laying out the staggered countrywide rain schedule.",
-      "structure": "Personality lead -> Staggered county onset breakdown -> Climate driver nuances (El Ni\u00f1o + IOD) -> Regional exit timelines and flood risks",
-      "source": "https://www.ghafla.co.ke/kenya-enters-october-december-rains-as-met-warns-of-wetter-conditions/"
-    },
     {
       "title": "William Ruto Swaps Campaign Pledges for Bankable Collateral in Historic Lamu Land Handover",
       "angle": "Framing Ruto's return through the personality lens of a political promissory note being cashed\u2014specifically spotlighting the transformation of ancestral squatters into asset-holding landowners who can now use their soil as commercial and credit leverage.",
@@ -1277,6 +1271,14 @@
       "opening": "Personality lead opening directly on Esther Arunga using a registered Nairobi deed poll to strike out the surname that defined sixteen years of scandal and tragedy.",
       "structure": "Personality hook -> Specifics of the deed poll filing via LAK Advocates -> The 2010 marriage and Australian tragedy -> Judicial outcomes and Timberlake's detention status -> The Nairobi postal trail and unanswered location question.",
       "source": "https://www.ghafla.co.ke/former-news-anchor-esther-arunga-formally-drops-name-timberlake-via-gazette-notice/"
+    },
+    {
+      "title": "Catherine Omanyo Slams Online Death-Wish Trolls as Dr. Oburu Oginga Nears Hospital Discharge",
+      "angle": "Focusing on the personal friction between political hospital gossip cycles and Omanyo's sharp rebuke of death-wish commentators while detailing Dr. Oburu's local versus UK medical recovery timeline.",
+      "angle_type": "personality-driven political health update and social media rebuke",
+      "opening": "Personality lead opening directly on Catherine Omanyo shutting down digital death rumors on air.",
+      "structure": "Omanyo's Radio Maisha hook -> The health reality check and discharge timeline -> Praise for local doctors vs UK consultation -> Sharp rebuke of death-wish trolls -> Closing on the impending trip home.",
+      "source": "https://www.ghafla.co.ke/he-is-fine-and-doing-well-odm-clears-misinformation-over-dr-oburu-ogingas-health/"
     }
   ],
   "style_history": [
