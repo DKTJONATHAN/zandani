@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f0e30df0e71b477ece8ed935798c0030",
     "e6effd9787ab0ba483de9f46e1363521",
     "de08bdae98f25ab8d1d607776983c3e9",
     "051e75c9c64fd007084911a60019ce1e",
@@ -799,10 +798,10 @@
     "a5ce014b6360326b8ccdecf6682b9f46",
     "ecdb08322cd845608dcf7e3edc62bfd8",
     "c7e00d52b12b5c946498fb1a037408f4",
-    "894df913c11f2a49d562b39b35720da8"
+    "894df913c11f2a49d562b39b35720da8",
+    "54ae8d8fc342937347836ee396b939d9"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1311,7 +1311,8 @@
     "https://kenyans.co.ke/news/127811-nssf-explains-who-inherits-savings-when-member-dies-single-and-childless",
     "https://kenyans.co.ke/news/127813-sifunas-linda-mwananchi-movement-announces-presidential-campaign-secretariat",
     "https://kenyans.co.ke/news/127816-world-rugby-confirms-talanta-complex-2027-hsbc-svns-2-tournament",
-    "https://kenyans.co.ke/news/127814-kenyans-spend-76-entertainment-money-internet-connectivity-pwc-africa-report"
+    "https://kenyans.co.ke/news/127814-kenyans-spend-76-entertainment-money-internet-connectivity-pwc-africa-report",
+    "https://kenyans.co.ke/news/127817-nairobi-water-announces-emergency-shutdown-affecting-over-40-residential-areas"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1713,7 +1714,8 @@
     "nssf ranks parents siblings claim line single childless savers",
     "sifuna formalises 2027 secretariat stem linda mwananchi infighting",
     "world rugby locks january 2027 fixture first major test talanta stadium",
-    "ksh78b digital boom set redefine media budgets 2030"
+    "ksh78b digital boom set redefine media budgets 2030",
+    "bulk murang line rupture leaves nairobi facing unscheduled hour dry run"
   ],
   "topic_keys": [
     "news tracker",
@@ -4602,6 +4604,15 @@
       "structure": "Ad-spend migration lead -> Digital advertising revenue expansion (Ksh 40.6B to Ksh 78.2B) -> Video advertising and platform drivers (TikTok, YouTube) -> Broadcast sector coexistence -> 2030 financial forecast close.",
       "source": "https://kenyans.co.ke/news/127814-kenyans-spend-76-entertainment-money-internet-connectivity-pwc-africa-report",
       "published_at": "2026-10-13T13:02:28Z"
+    },
+    {
+      "title": "Bulk Murang'a Line Rupture Leaves Nairobi Facing Unscheduled 24-Hour Dry Run",
+      "angle": "The operational vulnerability of Nairobi's primary Murang'a bulk feeder line, where an unscheduled emergency shutdown instantly hits diplomatic enclaves and informal settlements alike without an announced start hour.",
+      "angle_type": "consequence",
+      "opening": "Infrastructure-vulnerability lead connecting the upstream bulk failure to the immediate, cross-class shutdown across Nairobi.",
+      "structure": "Vulnerability lead -> Pipeline mechanics and bulk transmission role -> Cross-city geographic footprint -> Operational timeline ambiguity and past maintenance record",
+      "source": "https://kenyans.co.ke/news/127817-nairobi-water-announces-emergency-shutdown-affecting-over-40-residential-areas",
+      "published_at": "2026-10-13T14:02:24Z"
     }
   ]
 }
