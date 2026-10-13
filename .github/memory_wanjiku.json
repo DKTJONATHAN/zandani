@@ -228,7 +228,8 @@
     "6fd2c1a5fccc45ad540a2f8a0929425fd66da3d10e27446a018f16d24be0a9d4",
     "2d7b27c7e34f1a67ae620a82d967c42a625483c109083041d782ba36da0942d7",
     "ea3a5406faa1aeac504acae524b1d3040c13bea4a43fac16f594f3d9492ee8b2",
-    "0110d65d72d083ac31f371a7d1a7a4dee56a58b17f27ec0232598b0871258773"
+    "0110d65d72d083ac31f371a7d1a7a4dee56a58b17f27ec0232598b0871258773",
+    "da70e257960d7f62c8a951cfd396be4a911b76b7b9acdf7e2a4d6f2779fa5c61"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -459,17 +460,10 @@
     "https://www.ghafla.co.ke/two-women-arrested-over-alleged-drink-spiking-incident-at-local-club/",
     "https://www.ghafla.co.ke/ruto-launches-usawa-ni-sawa-slogan-to-highlight-regional-equity-ahead-of-2027/",
     "https://www.ghafla.co.ke/geoffrey-mosiria-wants-bishop-margaret-wanjiru-as-his-deputy-in-2027-nairobi-governor-race/",
-    "https://www.ghafla.co.ke/show-kenyans-your-work-ruto-accuses-opposition-of-lacking-policy-alternatives/"
+    "https://www.ghafla.co.ke/show-kenyans-your-work-ruto-accuses-opposition-of-lacking-policy-alternatives/",
+    "https://www.ghafla.co.ke/breakingenvironment-ps-festus-ngeno-injured-as-kfs-helicopter-crashes-ii-kericho/"
   ],
   "published_angles": [
-    {
-      "title": "Chivayo and Muteke Families Agree on Joint Burial as Forensic Delays Put Final Farewell on Hold",
-      "angle": "The collaborative pact between the Chivayo and Muteke families to bury the couple together at the same cemetery, contrasted with the agonizing forensic delay that has put their final send-off on hold.",
-      "angle_type": "family pact and forensic limbo",
-      "opening": "Personality lead focusing on the joint burial agreement made by the families during the Harare vigil.",
-      "structure": "Family agreement hook -> Description of the Borrowdale vigil -> The role and reaction of Chivayo\u2019s church community -> The scientific bottlenecks of the forensic identification process -> Next steps for the families.",
-      "source": "https://www.ghafla.co.ke/family-friends-gather-to-mourn-wicknell-chivayo-and-wife-lucy-muteke/"
-    },
     {
       "title": "Jalang\u2019o Blends 'Lero ni Lero' Campaign Nostalgia and Ohangla for Raila's Year-One Memorial",
       "angle": "Reframing the memorial through Jalang'o's veteran showbiz lens\u2014specifically how he is curating a unique musical playlist that bridges 'Lero ni Lero' campaign nostalgia, solemn gospel, and secular Ohangla to honor Raila's political and cultural legacy.",
@@ -1261,6 +1255,14 @@
       "opening": "Personality lead opening directly on Ruto taking the Tinderet microphone to dismantle the opposition's choir of anti-government chants and nickname taunts.",
       "structure": "Personality roast hook -> The 'one term' musical critique and jealousy diagnosis -> The project ledger counterpunch (SHA, housing, fertilizer) -> Opposition coalition dynamics and internal audition drama -> The 11-day North Rift roadshow countdown to Mashujaa Day",
       "source": "https://www.ghafla.co.ke/show-kenyans-your-work-ruto-accuses-opposition-of-lacking-policy-alternatives/"
+    },
+    {
+      "title": "Festus Ng\u2019eno Cheats Death on the Fairway as KFS Chopper Splits in Kericho Golf Club Crash",
+      "angle": "Focusing squarely on Principal Secretary Festus Ng'eno's narrow VIP escape on the Kericho green\u2014tracing how a routine high-level official departure unraveled in seconds on the fairway into a severed fuselage, hospital transfer, and urgent safety questions.",
+      "angle_type": "personality escape and high-profile survival",
+      "opening": "Personality lead opening directly on Environment PS Festus Ng'eno walking away with injuries after his official helicopter split open during takeoff.",
+      "structure": "Personality survival hook -> The golf course takeoff failure and severed fuselage -> Hospitalization and police verification by Kivindu Kilonzo -> National aviation safety backdrop -> Crash investigation status",
+      "source": "https://www.ghafla.co.ke/breakingenvironment-ps-festus-ngeno-injured-as-kfs-helicopter-crashes-ii-kericho/"
     }
   ],
   "style_history": [
