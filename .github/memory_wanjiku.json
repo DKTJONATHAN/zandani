@@ -229,7 +229,8 @@
     "2d7b27c7e34f1a67ae620a82d967c42a625483c109083041d782ba36da0942d7",
     "ea3a5406faa1aeac504acae524b1d3040c13bea4a43fac16f594f3d9492ee8b2",
     "0110d65d72d083ac31f371a7d1a7a4dee56a58b17f27ec0232598b0871258773",
-    "da70e257960d7f62c8a951cfd396be4a911b76b7b9acdf7e2a4d6f2779fa5c61"
+    "da70e257960d7f62c8a951cfd396be4a911b76b7b9acdf7e2a4d6f2779fa5c61",
+    "93453912831e6a220684585845f9c01f59a7a46eea3e7d9cee3c7f486a0dbb88"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -461,17 +462,10 @@
     "https://www.ghafla.co.ke/ruto-launches-usawa-ni-sawa-slogan-to-highlight-regional-equity-ahead-of-2027/",
     "https://www.ghafla.co.ke/geoffrey-mosiria-wants-bishop-margaret-wanjiru-as-his-deputy-in-2027-nairobi-governor-race/",
     "https://www.ghafla.co.ke/show-kenyans-your-work-ruto-accuses-opposition-of-lacking-policy-alternatives/",
-    "https://www.ghafla.co.ke/breakingenvironment-ps-festus-ngeno-injured-as-kfs-helicopter-crashes-ii-kericho/"
+    "https://www.ghafla.co.ke/breakingenvironment-ps-festus-ngeno-injured-as-kfs-helicopter-crashes-ii-kericho/",
+    "https://www.ghafla.co.ke/setback-for-state-as-court-declares-ksh-5b-bungoma-housing-scheme-unconstitutional/"
   ],
   "published_angles": [
-    {
-      "title": "Jalang\u2019o Blends 'Lero ni Lero' Campaign Nostalgia and Ohangla for Raila's Year-One Memorial",
-      "angle": "Reframing the memorial through Jalang'o's veteran showbiz lens\u2014specifically how he is curating a unique musical playlist that bridges 'Lero ni Lero' campaign nostalgia, solemn gospel, and secular Ohangla to honor Raila's political and cultural legacy.",
-      "angle_type": "celebrity curation and event programming",
-      "opening": "Focusing directly on Jalang'o's showbiz-promoter approach to organizing the national icon's first-year memorial.",
-      "structure": "Showbiz curation lead -> The campaign nostalgia of 'Lero ni Lero' -> The gospel and secular balance (Prince Indah's headliner set) -> 'Mwezi wa Baba' and the road to Jacaranda Grounds.",
-      "source": "https://www.ghafla.co.ke/jalango-reveals-performers-for-raila-odinga-candle-lighting-event-at-uhuru-park/"
-    },
     {
       "title": "Sarah Mtalii Pivots to \u2018Big Spoon\u2019 Living as She Sets Rules for Any Future Suitor",
       "angle": "Framing Mtalii's remarks around her post-divorce relational pivot\u2014specifically trading the fixation on pure wealth accumulation for memory creation and emotional peace, while drawing firm public boundaries around her platonic male companionship.",
@@ -1263,6 +1257,14 @@
       "opening": "Personality lead opening directly on Environment PS Festus Ng'eno walking away with injuries after his official helicopter split open during takeoff.",
       "structure": "Personality survival hook -> The golf course takeoff failure and severed fuselage -> Hospitalization and police verification by Kivindu Kilonzo -> National aviation safety backdrop -> Crash investigation status",
       "source": "https://www.ghafla.co.ke/breakingenvironment-ps-festus-ngeno-injured-as-kfs-helicopter-crashes-ii-kericho/"
+    },
+    {
+      "title": "Justice Kossy Bor Pulls the Plug on KSh 5B Bungoma Housing Scheme, Hands State 45-Day Cleanup Bill",
+      "angle": "Spotlighting Justice Kossy Bor's sharp exposure of the state's backwards sequence\u2014signing away a KSh 5.02 billion contract before holding a single public forum, capped with a mandatory 45-day deadline to undo the groundwork at taxpayer expense.",
+      "angle_type": "personality-driven legal accountability and reality check",
+      "opening": "Personality lead opening squarely on Justice Kossy Bor dismantling the ambitious Bungoma smart city scheme from the bench.",
+      "structure": "Judicial personality hook -> Exposure of the inverted contract sequence -> Environmental and planning bypasses -> Three residents versus state machinery -> The 45-day restoration countdown",
+      "source": "https://www.ghafla.co.ke/setback-for-state-as-court-declares-ksh-5b-bungoma-housing-scheme-unconstitutional/"
     }
   ],
   "style_history": [
