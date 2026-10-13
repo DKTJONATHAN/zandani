@@ -232,7 +232,8 @@
     "da70e257960d7f62c8a951cfd396be4a911b76b7b9acdf7e2a4d6f2779fa5c61",
     "93453912831e6a220684585845f9c01f59a7a46eea3e7d9cee3c7f486a0dbb88",
     "097481bfa248e8ed171f11ab803c874125e48a896fdce98d06e2ddfa94a864be",
-    "73ad4c1eb2c9f36dcb167ad419077ab4da0bfde8bcc0192f23f5417b15c77b80"
+    "73ad4c1eb2c9f36dcb167ad419077ab4da0bfde8bcc0192f23f5417b15c77b80",
+    "9706fcef53fd3505f8ea3e90d27ed91d56812c12fc645ca6a85c21ccbbe84acd"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -467,17 +468,10 @@
     "https://www.ghafla.co.ke/breakingenvironment-ps-festus-ngeno-injured-as-kfs-helicopter-crashes-ii-kericho/",
     "https://www.ghafla.co.ke/setback-for-state-as-court-declares-ksh-5b-bungoma-housing-scheme-unconstitutional/",
     "https://www.ghafla.co.ke/kenya-power-announces-tuesday-blackouts-in-nairobi-kajiado-kiambu-and-nandi/",
-    "https://www.ghafla.co.ke/decades-of-service-a-week-of-gratitude-raila-odingas-first-anniversary-begins/"
+    "https://www.ghafla.co.ke/decades-of-service-a-week-of-gratitude-raila-odingas-first-anniversary-begins/",
+    "https://www.ghafla.co.ke/you-betrayed-me-president-ruto-escalates-attack-on-uhuru-kenyatta-during-north-rift-tour/"
   ],
   "published_angles": [
-    {
-      "title": "Sarah Kabu Puts Bonfire on the Block: Multi-Billion Tour Giant Hunts Buyer After Marital Split",
-      "angle": "Framing the investor search as an outright corporate buyout push triggered by the fallout of their high-profile divorce, spotlighting Sarah's rare admission that customer loyalty fractured along personal battle lines despite the brand's multi-billion revenue posture.",
-      "angle_type": "celebrity corporate unraveling and buyout push",
-      "opening": "Personality lead opening directly on Sarah Kabu placing Bonfire Adventures on the corporate negotiating table to offload ownership to external buyers.",
-      "structure": "Personality and buyout hook -> The Radio Jambo disclosure on domestic and foreign acquisition talks -> The customer erosion and factional loyalty fallout -> Financial defense of the multi-billion valuation -> The divorce context and boardroom fracture close",
-      "source": "https://www.ghafla.co.ke/sarah-kabu-reveals-bonfire-adventures-is-seeking-investor-after-split-from-simon/"
-    },
     {
       "title": "Forced Off the Grid: Edwin Sifuna Discloses 12-Month Retreat from Public Haunts Under 24/7 Surveillance",
       "angle": "Framing Sifuna's Senate remarks through the personal lifestyle cost of political exile\u2014specifically how round-the-clock surveillance wiped out his routine Nairobi social presence for over 12 months while he secured the legal groundwork for his new outfit.",
@@ -1269,6 +1263,14 @@
       "opening": "Personality and event-led opening focusing on Prof. Adams Oloo framing the week as a celebration of gratitude rather than traditional grief.",
       "structure": "Personality/Organizer hook -> Ofafa Memorial Hall intergenerational conclave -> Artistic and public health integration -> Itinerary scope spanning Kisumu, Kang'o ka Jaramogi, and Bondo.",
       "source": "https://www.ghafla.co.ke/decades-of-service-a-week-of-gratitude-raila-odingas-first-anniversary-begins/"
+    },
+    {
+      "title": "William Ruto Pulls Out Four-Vote Loyalty Receipt on Uhuru, Brands Broken \u201910-10\u2019 Pact a Con Ahead of 2027",
+      "angle": "Reframing the North Rift podium address as an unvarnished relationship post-mortem, spotlighting Ruto brandishing his personal four-vote loyalty receipt and the broken 'kumi-kumi' covenant as a cautionary buyer-beware tale for Uhuru's current political suitors.",
+      "angle_type": "personal betrayal ledger and political fallout",
+      "opening": "Personality lead opening squarely on William Ruto putting his broken brotherhood with Uhuru Kenyatta on full public display with a four-vote receipt.",
+      "structure": "Personality betrayal hook -> The exact 'ukanitapeli' ledger and broken 10-10 pact -> Warning to Uhuru's newest opposition partners -> Context of the North Rift tour -> Closing on the lingering political grudge heading toward 2027.",
+      "source": "https://www.ghafla.co.ke/you-betrayed-me-president-ruto-escalates-attack-on-uhuru-kenyatta-during-north-rift-tour/"
     }
   ],
   "style_history": [
