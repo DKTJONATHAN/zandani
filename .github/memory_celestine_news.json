@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "e6effd9787ab0ba483de9f46e1363521",
     "de08bdae98f25ab8d1d607776983c3e9",
     "051e75c9c64fd007084911a60019ce1e",
     "3fa7abd4801394d1316714b8c84894f7",
@@ -799,10 +798,10 @@
     "ecdb08322cd845608dcf7e3edc62bfd8",
     "c7e00d52b12b5c946498fb1a037408f4",
     "894df913c11f2a49d562b39b35720da8",
-    "54ae8d8fc342937347836ee396b939d9"
+    "54ae8d8fc342937347836ee396b939d9",
+    "6f44aa13eb392789ec3e0e419baab662"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1312,7 +1312,8 @@
     "https://kenyans.co.ke/news/127813-sifunas-linda-mwananchi-movement-announces-presidential-campaign-secretariat",
     "https://kenyans.co.ke/news/127816-world-rugby-confirms-talanta-complex-2027-hsbc-svns-2-tournament",
     "https://kenyans.co.ke/news/127814-kenyans-spend-76-entertainment-money-internet-connectivity-pwc-africa-report",
-    "https://kenyans.co.ke/news/127817-nairobi-water-announces-emergency-shutdown-affecting-over-40-residential-areas"
+    "https://kenyans.co.ke/news/127817-nairobi-water-announces-emergency-shutdown-affecting-over-40-residential-areas",
+    "https://kenyans.co.ke/news/127821-cabinet-announces-plan-fast-track-govt-projects-ahead-elections"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1715,7 +1716,8 @@
     "sifuna formalises 2027 secretariat stem linda mwananchi infighting",
     "world rugby locks january 2027 fixture first major test talanta stadium",
     "ksh78b digital boom set redefine media budgets 2030",
-    "bulk murang line rupture leaves nairobi facing unscheduled hour dry run"
+    "bulk murang line rupture leaves nairobi facing unscheduled hour dry run",
+    "cabinet sets sprint deadline lock legacy projects before 2027 exits"
   ],
   "topic_keys": [
     "news tracker",
@@ -4613,6 +4615,15 @@
       "structure": "Vulnerability lead -> Pipeline mechanics and bulk transmission role -> Cross-city geographic footprint -> Operational timeline ambiguity and past maintenance record",
       "source": "https://kenyans.co.ke/news/127817-nairobi-water-announces-emergency-shutdown-affecting-over-40-residential-areas",
       "published_at": "2026-10-13T14:02:24Z"
+    },
+    {
+      "title": "Cabinet Sets 'Sprint' Deadline to Lock Legacy Projects Before 2027 Exits",
+      "angle": "The focus is on the administrative tension between the political imperative of a 'first-term legacy' finish line and the bureaucratic disruption caused by the looming February 2027 resignation deadline for public officials.",
+      "angle_type": "institutional pressure",
+      "opening": "An analytical statement regarding the clash between project timelines and electoral migration.",
+      "structure": "Legislative/Administrative pressure lead -> The 'February Deadline' operational bottleneck -> Specific project acceleration (Rironi-Mau Summit) -> Institutional risk management/Koskei directive.",
+      "source": "https://kenyans.co.ke/news/127821-cabinet-announces-plan-fast-track-govt-projects-ahead-elections",
+      "published_at": "2026-10-13T15:02:29Z"
     }
   ]
 }
