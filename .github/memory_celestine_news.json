@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "788b6dca403751faae60db9d9546a1f1",
     "02f5b1a2395e3e96fca5fe6f6dce2706",
     "ddc36cea99350741b69c700ee2d308da",
     "51aaf142caf54b3ef6beddddd51a10d7",
@@ -799,10 +798,10 @@
     "2dad3ea5563a5ae6fd7bf641e66ef6f7",
     "c034e86d99843345cda6d59ba4c1e4ee",
     "1af72b277baf86728e0c436d69e33fc6",
-    "8a84c864babf19f525c7107b0f49102d"
+    "8a84c864babf19f525c7107b0f49102d",
+    "a5ce014b6360326b8ccdecf6682b9f46"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1307,7 +1307,8 @@
     "https://kenyans.co.ke/news/127806-mass-displacement-looms-kenha-plans-178km-road-upgrade-meru",
     "https://kenyans.co.ke/news/127808-helb-warns-employers-remit-monthly-loan-deductions-15th",
     "https://kenyans.co.ke/news/127809-bungoma-teacher-accused-demanding-ksh300000-bribe-secure-tsc-jobs-arrested",
-    "https://kenyans.co.ke/news/127810-kenha-announces-multi-billion-safety-audit-193km-kenya-south-sudan-road-corridor"
+    "https://kenyans.co.ke/news/127810-kenha-announces-multi-billion-safety-audit-193km-kenya-south-sudan-road-corridor",
+    "https://kenyans.co.ke/news/127811-nssf-explains-who-inherits-savings-when-member-dies-single-and-childless"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1705,7 +1706,8 @@
     "kenha targets student corridors 8km meru tarmac tender",
     "helb demands employer payroll remittances 15th withheld cash tops ksh34m",
     "bungoma teacher arrest lifts lid cash placement racket tsc",
-    "kenha ties south sudan corridor upgrades past safety audit compliance"
+    "kenha ties south sudan corridor upgrades past safety audit compliance",
+    "nssf ranks parents siblings claim line single childless savers"
   ],
   "topic_keys": [
     "news tracker",
@@ -4558,6 +4560,15 @@
       "structure": "Compliance and inter-agency scope lead -> Engineering accountability mechanics on Lesseru-Kitale and Morphus-Lokichar sections -> The six-agency crash data overhaul -> AfDB multilateral backing and regional corridor context -> Forward operational milestones.",
       "source": "https://kenyans.co.ke/news/127810-kenha-announces-multi-billion-safety-audit-193km-kenya-south-sudan-road-corridor",
       "published_at": "2026-10-13T09:02:04Z"
+    },
+    {
+      "title": "NSSF Ranks Parents and Siblings in Claim Line for Single, Childless Savers",
+      "angle": "Attribution-first scrutiny of the fund's administrative transmission line: outlining how statutory inheritance safeguards protect estate assets for surviving parents and siblings while imposing local administrative validation hurdles before funds can be released.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first lead establishing NSSF's formal claims protocol and immediately identifying surviving parents and siblings as the direct beneficiaries protected from asset forfeiture.",
+      "structure": "Attribution and beneficiary lead -> Verified succession chain from parents to siblings -> Legal backstop of Letters of Administration -> Evidentiary compliance hurdles and county administrator vetting -> 15-day turnaround operational window.",
+      "source": "https://kenyans.co.ke/news/127811-nssf-explains-who-inherits-savings-when-member-dies-single-and-childless",
+      "published_at": "2026-10-13T10:01:21Z"
     }
   ]
 }
