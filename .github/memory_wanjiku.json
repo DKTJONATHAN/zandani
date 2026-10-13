@@ -231,7 +231,8 @@
     "0110d65d72d083ac31f371a7d1a7a4dee56a58b17f27ec0232598b0871258773",
     "da70e257960d7f62c8a951cfd396be4a911b76b7b9acdf7e2a4d6f2779fa5c61",
     "93453912831e6a220684585845f9c01f59a7a46eea3e7d9cee3c7f486a0dbb88",
-    "097481bfa248e8ed171f11ab803c874125e48a896fdce98d06e2ddfa94a864be"
+    "097481bfa248e8ed171f11ab803c874125e48a896fdce98d06e2ddfa94a864be",
+    "73ad4c1eb2c9f36dcb167ad419077ab4da0bfde8bcc0192f23f5417b15c77b80"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -465,17 +466,10 @@
     "https://www.ghafla.co.ke/show-kenyans-your-work-ruto-accuses-opposition-of-lacking-policy-alternatives/",
     "https://www.ghafla.co.ke/breakingenvironment-ps-festus-ngeno-injured-as-kfs-helicopter-crashes-ii-kericho/",
     "https://www.ghafla.co.ke/setback-for-state-as-court-declares-ksh-5b-bungoma-housing-scheme-unconstitutional/",
-    "https://www.ghafla.co.ke/kenya-power-announces-tuesday-blackouts-in-nairobi-kajiado-kiambu-and-nandi/"
+    "https://www.ghafla.co.ke/kenya-power-announces-tuesday-blackouts-in-nairobi-kajiado-kiambu-and-nandi/",
+    "https://www.ghafla.co.ke/decades-of-service-a-week-of-gratitude-raila-odingas-first-anniversary-begins/"
   ],
   "published_angles": [
-    {
-      "title": "No More Slush Funds: How IEBC\u2019s Tightened Spending Caps Will Squeeze 2027 Aspirants",
-      "angle": "Focusing on the practical administrative squeeze facing political aspirants\u2014specifically the mandatory creation of designated expenditure committees and registered bank accounts under formulas tied to voter density, following years of parliamentary pushback.",
-      "angle_type": "regulatory enforcement and campaign compliance",
-      "opening": "Direct focus on the administrative and financial squeeze awaiting political aspirants under the statutory 12-month spending cap timeline.",
-      "structure": "Regulatory hook on the 12-month cap deadline -> Mechanics of the spending formulas -> Mandatory expenditure committees and official accounts -> Donor limits and foreign cash disclosure -> The parliamentary resistance context and enforcement close",
-      "source": "https://www.ghafla.co.ke/leveling-the-playing-field-how-campaign-financing-works-in-kenya/"
-    },
     {
       "title": "Sarah Kabu Puts Bonfire on the Block: Multi-Billion Tour Giant Hunts Buyer After Marital Split",
       "angle": "Framing the investor search as an outright corporate buyout push triggered by the fallout of their high-profile divorce, spotlighting Sarah's rare admission that customer loyalty fractured along personal battle lines despite the brand's multi-billion revenue posture.",
@@ -1267,6 +1261,14 @@
       "opening": "Direct focus on the eight-hour daylight shutdown hitting Nairobi's high-density Westlands and Ngara commercial and creative corridors.",
       "structure": "Capital core impact -> Extended nine-hour Kajiado corridor -> Kiambu pocket -> Condensed Nandi window contrast -> Utility maintenance advisory",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-tuesday-blackouts-in-nairobi-kajiado-kiambu-and-nandi/"
+    },
+    {
+      "title": "Prof. Adams Oloo Shifts Raila Anniversary Tone From Mourning to Intergenerational Dialogues",
+      "angle": "Focusing on the deliberate cultural and intergenerational programming led by Prof. Adams Oloo\u2014contrasting traditional political mourning with a structured week of youth arts, blood donations, and community dialogue at Ofafa Memorial Hall.",
+      "angle_type": "cultural programming and public legacy curation",
+      "opening": "Personality and event-led opening focusing on Prof. Adams Oloo framing the week as a celebration of gratitude rather than traditional grief.",
+      "structure": "Personality/Organizer hook -> Ofafa Memorial Hall intergenerational conclave -> Artistic and public health integration -> Itinerary scope spanning Kisumu, Kang'o ka Jaramogi, and Bondo.",
+      "source": "https://www.ghafla.co.ke/decades-of-service-a-week-of-gratitude-raila-odingas-first-anniversary-begins/"
     }
   ],
   "style_history": [
