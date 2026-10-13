@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "051e75c9c64fd007084911a60019ce1e",
     "3fa7abd4801394d1316714b8c84894f7",
     "a6c06557f1b54543966ea9a8cdf9d9c7",
     "7098c9604e0aec2735a812834a77c615",
@@ -799,10 +798,10 @@
     "894df913c11f2a49d562b39b35720da8",
     "54ae8d8fc342937347836ee396b939d9",
     "6f44aa13eb392789ec3e0e419baab662",
-    "0daa6d5f8df73ac0e85ed9111b16d9eb"
+    "0daa6d5f8df73ac0e85ed9111b16d9eb",
+    "df1aee57eb73e3444955f64705c13fd3"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1314,7 +1314,8 @@
     "https://kenyans.co.ke/news/127814-kenyans-spend-76-entertainment-money-internet-connectivity-pwc-africa-report",
     "https://kenyans.co.ke/news/127817-nairobi-water-announces-emergency-shutdown-affecting-over-40-residential-areas",
     "https://kenyans.co.ke/news/127821-cabinet-announces-plan-fast-track-govt-projects-ahead-elections",
-    "https://kenyans.co.ke/news/127823-religious-groups-demand-review-judges-car-grants-amid-legal-dispute"
+    "https://kenyans.co.ke/news/127823-religious-groups-demand-review-judges-car-grants-amid-legal-dispute",
+    "https://kenyans.co.ke/news/127824-voi-taveta-railway-hits-40-cent-completion-after-20-years-inactivity"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1719,7 +1720,8 @@
     "ksh78b digital boom set redefine media budgets 2030",
     "bulk murang line rupture leaves nairobi facing unscheduled hour dry run",
     "cabinet sets sprint deadline lock legacy projects before 2027 exits",
-    "religious lobbies challenge dual car perks costing ksh2 judges"
+    "religious lobbies challenge dual car perks costing ksh2 judges",
+    "dual rail strategy takes shape voi taveta mgr hits 40pc mark ahead sgr plans"
   ],
   "topic_keys": [
     "news tracker",
@@ -4635,6 +4637,15 @@
       "structure": "Dual-transport contradiction lead -> Fiscal breakdown (Ksh2.3B gross / Ksh1.61B net) -> Constitutional jurisprudence clash (Article 160(4) versus public equity) -> Fiscal sustainability mandate under SRC -> Forward-looking apex court test",
       "source": "https://kenyans.co.ke/news/127823-religious-groups-demand-review-judges-car-grants-amid-legal-dispute",
       "published_at": "2026-10-13T15:42:48Z"
+    },
+    {
+      "title": "Dual Rail Strategy Takes Shape as Voi-Taveta MGR Hits 40pc Mark Ahead of SGR Plans",
+      "angle": "The operational tension and land-use contradiction between reviving the legacy metre-gauge railway (MGR) at a cost of Ksh5 billion and the parallel state commitment announced days earlier to construct a brand-new Standard Gauge Railway (SGR) along the identical corridor.",
+      "angle_type": "institutional pressure",
+      "opening": "Corridor-strategy opening focusing on the dual-gauge overlap between the ongoing MGR rehabilitation and the newly promised SGR extension.",
+      "structure": "Dual-infrastructure lead -> MGR progress and subgrade milestone mechanics -> The overlapping SGR announcement and station footprint -> Economic rationale of the Voi dry port logistics hub -> Forward edge on operational timelines.",
+      "source": "https://kenyans.co.ke/news/127824-voi-taveta-railway-hits-40-cent-completion-after-20-years-inactivity",
+      "published_at": "2026-10-13T18:02:25Z"
     }
   ]
 }
