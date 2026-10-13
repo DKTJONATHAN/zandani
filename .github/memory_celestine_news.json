@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "5e7f2606438c5c39b442a9df96adcdf7",
     "c5ece2bfce66b49257c200ac7f307394",
     "7c14d2d5dfd92ecd33f5278bd384981b",
     "788b6dca403751faae60db9d9546a1f1",
@@ -799,10 +798,10 @@
     "52b958660fc1bbfa42839ac8594375cc",
     "68503628ee1fbf9963acd460cb7d5897",
     "b130b84285922cdd6c59a8ac56679d9e",
-    "2dad3ea5563a5ae6fd7bf641e66ef6f7"
+    "2dad3ea5563a5ae6fd7bf641e66ef6f7",
+    "c034e86d99843345cda6d59ba4c1e4ee"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1304,7 +1304,8 @@
     "https://kenyans.co.ke/news/127800-traffic-disruption-bodaboda-block-ngong-road-near-talanta-stadium-after-accident",
     "https://kenyans.co.ke/news/127799-cleophas-malala-dcp-leaders-teargassed-kakamega-police-station",
     "https://kenyans.co.ke/news/127803-kenya-gets-world-bank-funding-expand-digital-literacy-schools",
-    "https://kenyans.co.ke/news/127806-mass-displacement-looms-kenha-plans-178km-road-upgrade-meru"
+    "https://kenyans.co.ke/news/127806-mass-displacement-looms-kenha-plans-178km-road-upgrade-meru",
+    "https://kenyans.co.ke/news/127808-helb-warns-employers-remit-monthly-loan-deductions-15th"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1699,7 +1700,8 @@
     "hit run near talanta stadium sparks boda boda blockade ngong road",
     "kakamega police station clash exposes rising 2027 succession tensions",
     "icta sets curriculum track record must week cbc digital overhaul",
-    "kenha targets student corridors 8km meru tarmac tender"
+    "kenha targets student corridors 8km meru tarmac tender",
+    "helb demands employer payroll remittances 15th withheld cash tops ksh34m"
   ],
   "topic_keys": [
     "news tracker",
@@ -4525,6 +4527,15 @@
       "structure": "Arterial infrastructure lead -> The six targeted corridors and pedestrian safety nodes -> Strict procurement covenants at Barabara Plaza -> Multi-year maintenance obligations -> Municipal city-status funding context.",
       "source": "https://kenyans.co.ke/news/127806-mass-displacement-looms-kenha-plans-178km-road-upgrade-meru",
       "published_at": "2026-10-13T07:01:56Z"
+    },
+    {
+      "title": "HELB Demands Employer Payroll Remittances by 15th as Withheld Cash Tops Ksh34M",
+      "angle": "Framing the enforcement drive as an institutional clawback targeting employers sitting on employee payroll deductions, directly linking corporate remittance failure to the fund's Ksh34 million withheld shortfall and working graduates' compromised credit standings.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first statement lead establishing HELB's compliance mandate and identifying salaried loan beneficiaries as the immediate beneficiaries of regulatory enforcement.",
+      "structure": "Attribution and beneficiary lead -> Statutory enforcement mechanics and employer penalties -> Institutional balance sheet strain (KNBS collection slump, employer withholdings, diaspora decline) -> Broader higher education financing overhaul and legislative hurdles.",
+      "source": "https://kenyans.co.ke/news/127808-helb-warns-employers-remit-monthly-loan-deductions-15th",
+      "published_at": "2026-10-13T07:30:05Z"
     }
   ]
 }
