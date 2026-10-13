@@ -233,7 +233,8 @@
     "93453912831e6a220684585845f9c01f59a7a46eea3e7d9cee3c7f486a0dbb88",
     "097481bfa248e8ed171f11ab803c874125e48a896fdce98d06e2ddfa94a864be",
     "73ad4c1eb2c9f36dcb167ad419077ab4da0bfde8bcc0192f23f5417b15c77b80",
-    "9706fcef53fd3505f8ea3e90d27ed91d56812c12fc645ca6a85c21ccbbe84acd"
+    "9706fcef53fd3505f8ea3e90d27ed91d56812c12fc645ca6a85c21ccbbe84acd",
+    "7c94a7626de82ad10ddbede74bff2f7f5ce36f05e7311ab72ca44f1d587ea5dd"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -469,17 +470,10 @@
     "https://www.ghafla.co.ke/setback-for-state-as-court-declares-ksh-5b-bungoma-housing-scheme-unconstitutional/",
     "https://www.ghafla.co.ke/kenya-power-announces-tuesday-blackouts-in-nairobi-kajiado-kiambu-and-nandi/",
     "https://www.ghafla.co.ke/decades-of-service-a-week-of-gratitude-raila-odingas-first-anniversary-begins/",
-    "https://www.ghafla.co.ke/you-betrayed-me-president-ruto-escalates-attack-on-uhuru-kenyatta-during-north-rift-tour/"
+    "https://www.ghafla.co.ke/you-betrayed-me-president-ruto-escalates-attack-on-uhuru-kenyatta-during-north-rift-tour/",
+    "https://www.ghafla.co.ke/ruto-says-kenyans-want-development-agenda-not-tribal-politics/"
   ],
   "published_angles": [
-    {
-      "title": "Forced Off the Grid: Edwin Sifuna Discloses 12-Month Retreat from Public Haunts Under 24/7 Surveillance",
-      "angle": "Framing Sifuna's Senate remarks through the personal lifestyle cost of political exile\u2014specifically how round-the-clock surveillance wiped out his routine Nairobi social presence for over 12 months while he secured the legal groundwork for his new outfit.",
-      "angle_type": "celebrity lifestyle disruption and surveillance reveal",
-      "opening": "Personality lead opening directly on Edwin Sifuna revealing his 12-month retreat from Nairobi's public social scene due to round-the-clock surveillance.",
-      "structure": "Person and social retreat hook -> Senate disclosure on 24/7 surveillance -> Breakdown of ODM fallout and stripping of House roles -> Tribunal victory for Linda Mwananchi Movement -> 2027 presidential positioning close",
-      "source": "https://www.ghafla.co.ke/from-surveillance-to-state-house-sifuna-vows-oppositional-victory-in-2027/"
-    },
     {
       "title": "TSC Draft Law Forces Public School Teachers to Choose Between Classrooms and Side Hustles",
       "angle": "Focusing on the strict dual-income squeeze and compliance trap facing public educators, highlighting how side-hustling, digital misconduct like cyberbullying, and resource misuse carry immediate half-pay suspensions and potential deregistration.",
@@ -1271,6 +1265,14 @@
       "opening": "Personality lead opening squarely on William Ruto putting his broken brotherhood with Uhuru Kenyatta on full public display with a four-vote receipt.",
       "structure": "Personality betrayal hook -> The exact 'ukanitapeli' ledger and broken 10-10 pact -> Warning to Uhuru's newest opposition partners -> Context of the North Rift tour -> Closing on the lingering political grudge heading toward 2027.",
       "source": "https://www.ghafla.co.ke/you-betrayed-me-president-ruto-escalates-attack-on-uhuru-kenyatta-during-north-rift-tour/"
+    },
+    {
+      "title": "William Ruto Slaps \u2018Primitive\u2019 Tag on Rivals, Daring Ethnic Math Planners to Bring Real Agendas to the Ballot",
+      "angle": "Reframing the statement through Ruto's personality-driven rhetoric, focusing on his deliberate branding of rivals' tactics as 'primitive and outdated' and his gauntlet challenging them to an agenda-only showdown at the ballot box.",
+      "angle_type": "celebrity political clapback and rhetorical duel",
+      "opening": "Personality lead opening directly on William Ruto cutting through political pleasantries to slap a 'primitive' label on his rivals' strategy.",
+      "structure": "Personality hook -> Verbatim takedown of 'tribal arithmetic' -> Anatomy of the 'primitive and outdated' diagnosis -> Ballot box challenge -> Confidence in the discerning electorate -> Closing on the policy battle lines",
+      "source": "https://www.ghafla.co.ke/ruto-says-kenyans-want-development-agenda-not-tribal-politics/"
     }
   ],
   "style_history": [
