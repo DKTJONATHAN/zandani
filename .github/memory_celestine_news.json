@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ddc36cea99350741b69c700ee2d308da",
     "51aaf142caf54b3ef6beddddd51a10d7",
     "f0e30df0e71b477ece8ed935798c0030",
     "e6effd9787ab0ba483de9f46e1363521",
@@ -799,10 +798,10 @@
     "1af72b277baf86728e0c436d69e33fc6",
     "8a84c864babf19f525c7107b0f49102d",
     "a5ce014b6360326b8ccdecf6682b9f46",
-    "ecdb08322cd845608dcf7e3edc62bfd8"
+    "ecdb08322cd845608dcf7e3edc62bfd8",
+    "c7e00d52b12b5c946498fb1a037408f4"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1309,7 +1309,8 @@
     "https://kenyans.co.ke/news/127809-bungoma-teacher-accused-demanding-ksh300000-bribe-secure-tsc-jobs-arrested",
     "https://kenyans.co.ke/news/127810-kenha-announces-multi-billion-safety-audit-193km-kenya-south-sudan-road-corridor",
     "https://kenyans.co.ke/news/127811-nssf-explains-who-inherits-savings-when-member-dies-single-and-childless",
-    "https://kenyans.co.ke/news/127813-sifunas-linda-mwananchi-movement-announces-presidential-campaign-secretariat"
+    "https://kenyans.co.ke/news/127813-sifunas-linda-mwananchi-movement-announces-presidential-campaign-secretariat",
+    "https://kenyans.co.ke/news/127816-world-rugby-confirms-talanta-complex-2027-hsbc-svns-2-tournament"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1709,7 +1710,8 @@
     "bungoma teacher arrest lifts lid cash placement racket tsc",
     "kenha ties south sudan corridor upgrades past safety audit compliance",
     "nssf ranks parents siblings claim line single childless savers",
-    "sifuna formalises 2027 secretariat stem linda mwananchi infighting"
+    "sifuna formalises 2027 secretariat stem linda mwananchi infighting",
+    "world rugby locks january 2027 fixture first major test talanta stadium"
   ],
   "topic_keys": [
     "news tracker",
@@ -4580,6 +4582,15 @@
       "structure": "Campaign restructuring lead -> Appointments and secretariat mechanics -> Transition from movement friction to party vehicle (TEP) -> Veteran operative background -> Forward operational outlook.",
       "source": "https://kenyans.co.ke/news/127813-sifunas-linda-mwananchi-movement-announces-presidential-campaign-secretariat",
       "published_at": "2026-10-13T11:02:23Z"
+    },
+    {
+      "title": "World Rugby Locks In January 2027 Fixture as First Major Test for Talanta Stadium",
+      "angle": "The operational timeline pressure: the two-day World Rugby fixture gives the newly built Talanta complex a rigid international operational dry run in January 2027, five months before it hosts the Africa Cup of Nations (AFCON).",
+      "angle_type": "timing",
+      "opening": "Operational-deadline lead linking the global rugby confirmation directly to the facility's testing runway ahead of AFCON 2027.",
+      "structure": "Operational-deadline lead -> World Rugby tournament schedule and venue mechanics -> Facility layout and multi-pitch training capacity -> AFCON runway and sevens pathway context -> Forward calendar edge.",
+      "source": "https://kenyans.co.ke/news/127816-world-rugby-confirms-talanta-complex-2027-hsbc-svns-2-tournament",
+      "published_at": "2026-10-13T12:01:56Z"
     }
   ]
 }
