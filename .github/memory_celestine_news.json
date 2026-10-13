@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "02f5b1a2395e3e96fca5fe6f6dce2706",
     "ddc36cea99350741b69c700ee2d308da",
     "51aaf142caf54b3ef6beddddd51a10d7",
     "f0e30df0e71b477ece8ed935798c0030",
@@ -799,10 +798,10 @@
     "c034e86d99843345cda6d59ba4c1e4ee",
     "1af72b277baf86728e0c436d69e33fc6",
     "8a84c864babf19f525c7107b0f49102d",
-    "a5ce014b6360326b8ccdecf6682b9f46"
+    "a5ce014b6360326b8ccdecf6682b9f46",
+    "ecdb08322cd845608dcf7e3edc62bfd8"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1308,7 +1308,8 @@
     "https://kenyans.co.ke/news/127808-helb-warns-employers-remit-monthly-loan-deductions-15th",
     "https://kenyans.co.ke/news/127809-bungoma-teacher-accused-demanding-ksh300000-bribe-secure-tsc-jobs-arrested",
     "https://kenyans.co.ke/news/127810-kenha-announces-multi-billion-safety-audit-193km-kenya-south-sudan-road-corridor",
-    "https://kenyans.co.ke/news/127811-nssf-explains-who-inherits-savings-when-member-dies-single-and-childless"
+    "https://kenyans.co.ke/news/127811-nssf-explains-who-inherits-savings-when-member-dies-single-and-childless",
+    "https://kenyans.co.ke/news/127813-sifunas-linda-mwananchi-movement-announces-presidential-campaign-secretariat"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1707,7 +1708,8 @@
     "helb demands employer payroll remittances 15th withheld cash tops ksh34m",
     "bungoma teacher arrest lifts lid cash placement racket tsc",
     "kenha ties south sudan corridor upgrades past safety audit compliance",
-    "nssf ranks parents siblings claim line single childless savers"
+    "nssf ranks parents siblings claim line single childless savers",
+    "sifuna formalises 2027 secretariat stem linda mwananchi infighting"
   ],
   "topic_keys": [
     "news tracker",
@@ -4569,6 +4571,15 @@
       "structure": "Attribution and beneficiary lead -> Verified succession chain from parents to siblings -> Legal backstop of Letters of Administration -> Evidentiary compliance hurdles and county administrator vetting -> 15-day turnaround operational window.",
       "source": "https://kenyans.co.ke/news/127811-nssf-explains-who-inherits-savings-when-member-dies-single-and-childless",
       "published_at": "2026-10-13T10:01:21Z"
+    },
+    {
+      "title": "Sifuna Formalises 2027 Secretariat to Stem Linda Mwananchi Infighting",
+      "angle": "Institutional restructuring following campaign friction: Sifuna is pivoting Linda Mwananchi from a loose rally-driven movement into a formalised party apparatus (TEP) backed by veteran establishment operatives, attempting to overcome internal fractures that recently halted public ground operations.",
+      "angle_type": "institutional pressure",
+      "opening": "Institutional-restructuring lead focusing on the formalization of the campaign apparatus following internal ground-level friction.",
+      "structure": "Campaign restructuring lead -> Appointments and secretariat mechanics -> Transition from movement friction to party vehicle (TEP) -> Veteran operative background -> Forward operational outlook.",
+      "source": "https://kenyans.co.ke/news/127813-sifunas-linda-mwananchi-movement-announces-presidential-campaign-secretariat",
+      "published_at": "2026-10-13T11:02:23Z"
     }
   ]
 }
