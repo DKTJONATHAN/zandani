@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a1d363fdad43f4a18adb92ef046732c0",
     "02df8973f2689ee7182e5d02c5c97e57",
     "5e7f2606438c5c39b442a9df96adcdf7",
     "c5ece2bfce66b49257c200ac7f307394",
@@ -799,10 +798,10 @@
     "a2a8c8793c75cf3d4c8843558f5ffef1",
     "655e4392bf5636ba141dd1f1e275defb",
     "52b958660fc1bbfa42839ac8594375cc",
-    "68503628ee1fbf9963acd460cb7d5897"
+    "68503628ee1fbf9963acd460cb7d5897",
+    "b130b84285922cdd6c59a8ac56679d9e"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1302,7 +1302,8 @@
     "https://kenyans.co.ke/news/127791-several-injured-after-matatu-plunges-ditch-along-ol-kalou-nakuru-road",
     "https://kenyans.co.ke/news/127801-kemsa-moves-reduce-medical-supplies-shortages-and-waste-public-hospitals",
     "https://kenyans.co.ke/news/127800-traffic-disruption-bodaboda-block-ngong-road-near-talanta-stadium-after-accident",
-    "https://kenyans.co.ke/news/127799-cleophas-malala-dcp-leaders-teargassed-kakamega-police-station"
+    "https://kenyans.co.ke/news/127799-cleophas-malala-dcp-leaders-teargassed-kakamega-police-station",
+    "https://kenyans.co.ke/news/127803-kenya-gets-world-bank-funding-expand-digital-literacy-schools"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1695,7 +1696,8 @@
     "ntsa fatality tally crosses 000 multi county crashes expose arterial risks",
     "state decouples drug buying bulk quotas stem ward stock outs",
     "hit run near talanta stadium sparks boda boda blockade ngong road",
-    "kakamega police station clash exposes rising 2027 succession tensions"
+    "kakamega police station clash exposes rising 2027 succession tensions",
+    "icta sets curriculum track record must week cbc digital overhaul"
   ],
   "topic_keys": [
     "news tracker",
@@ -4503,6 +4505,15 @@
       "structure": "Institutional confrontation lead -> Petition details and militia/goonship allegations -> Digital rights friction and arrest of Anyama wa Anyama -> 2027 gubernatorial positioning and unresolved investigative demands.",
       "source": "https://kenyans.co.ke/news/127799-cleophas-malala-dcp-leaders-teargassed-kakamega-police-station",
       "published_at": "2026-10-12T17:33:40Z"
+    },
+    {
+      "title": "ICTA Sets AI Curriculum Track Record as Must-Have in 40-Week CBC Digital Overhaul",
+      "angle": "The stringent institutional filter ICTA has built into the procurement\u2014demanding proven AI curriculum pedigree and five years of dedicated educational consulting\u2014to execute a 40-week overhaul while leaving the precise affected grades and subject boundaries unmapped.",
+      "angle_type": "accountability",
+      "opening": "Procurement-criteria opening contrasting the state's technical prerequisites for AI curriculum developers against the undefined classroom scope across basic education.",
+      "structure": "Procurement barrier lead -> Terms of tender and World Bank project mechanics -> Unresolved classroom scope versus July junior school rollout -> Five-year institutional capability tests -> Bidding deadline close.",
+      "source": "https://kenyans.co.ke/news/127803-kenya-gets-world-bank-funding-expand-digital-literacy-schools",
+      "published_at": "2026-10-13T06:01:46Z"
     }
   ]
 }
