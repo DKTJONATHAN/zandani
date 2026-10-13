@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "02df8973f2689ee7182e5d02c5c97e57",
     "5e7f2606438c5c39b442a9df96adcdf7",
     "c5ece2bfce66b49257c200ac7f307394",
     "7c14d2d5dfd92ecd33f5278bd384981b",
@@ -799,10 +798,10 @@
     "655e4392bf5636ba141dd1f1e275defb",
     "52b958660fc1bbfa42839ac8594375cc",
     "68503628ee1fbf9963acd460cb7d5897",
-    "b130b84285922cdd6c59a8ac56679d9e"
+    "b130b84285922cdd6c59a8ac56679d9e",
+    "2dad3ea5563a5ae6fd7bf641e66ef6f7"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1303,7 +1303,8 @@
     "https://kenyans.co.ke/news/127801-kemsa-moves-reduce-medical-supplies-shortages-and-waste-public-hospitals",
     "https://kenyans.co.ke/news/127800-traffic-disruption-bodaboda-block-ngong-road-near-talanta-stadium-after-accident",
     "https://kenyans.co.ke/news/127799-cleophas-malala-dcp-leaders-teargassed-kakamega-police-station",
-    "https://kenyans.co.ke/news/127803-kenya-gets-world-bank-funding-expand-digital-literacy-schools"
+    "https://kenyans.co.ke/news/127803-kenya-gets-world-bank-funding-expand-digital-literacy-schools",
+    "https://kenyans.co.ke/news/127806-mass-displacement-looms-kenha-plans-178km-road-upgrade-meru"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1697,7 +1698,8 @@
     "state decouples drug buying bulk quotas stem ward stock outs",
     "hit run near talanta stadium sparks boda boda blockade ngong road",
     "kakamega police station clash exposes rising 2027 succession tensions",
-    "icta sets curriculum track record must week cbc digital overhaul"
+    "icta sets curriculum track record must week cbc digital overhaul",
+    "kenha targets student corridors 8km meru tarmac tender"
   ],
   "topic_keys": [
     "news tracker",
@@ -4514,6 +4516,15 @@
       "structure": "Procurement barrier lead -> Terms of tender and World Bank project mechanics -> Unresolved classroom scope versus July junior school rollout -> Five-year institutional capability tests -> Bidding deadline close.",
       "source": "https://kenyans.co.ke/news/127803-kenya-gets-world-bank-funding-expand-digital-literacy-schools",
       "published_at": "2026-10-13T06:01:46Z"
+    },
+    {
+      "title": "KeNHA Targets Student Corridors in 17.8KM Meru Tarmac Tender",
+      "angle": "The operational packaging of university links, bypass connectors, and high-risk school foot crossings into a single multilateral-financed works contract aimed at hitting statutory city-status infrastructure criteria.",
+      "angle_type": "practical change",
+      "opening": "Corridor-focused operational opening tying the targeted suburban routes directly to Meru's municipal transition requirements.",
+      "structure": "Arterial infrastructure lead -> The six targeted corridors and pedestrian safety nodes -> Strict procurement covenants at Barabara Plaza -> Multi-year maintenance obligations -> Municipal city-status funding context.",
+      "source": "https://kenyans.co.ke/news/127806-mass-displacement-looms-kenha-plans-178km-road-upgrade-meru",
+      "published_at": "2026-10-13T07:01:56Z"
     }
   ]
 }
