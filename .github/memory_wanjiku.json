@@ -234,7 +234,8 @@
     "097481bfa248e8ed171f11ab803c874125e48a896fdce98d06e2ddfa94a864be",
     "73ad4c1eb2c9f36dcb167ad419077ab4da0bfde8bcc0192f23f5417b15c77b80",
     "9706fcef53fd3505f8ea3e90d27ed91d56812c12fc645ca6a85c21ccbbe84acd",
-    "7c94a7626de82ad10ddbede74bff2f7f5ce36f05e7311ab72ca44f1d587ea5dd"
+    "7c94a7626de82ad10ddbede74bff2f7f5ce36f05e7311ab72ca44f1d587ea5dd",
+    "e5e716db4b92922288aad3c8d359301a15812697934b05175cf5e99c1bd1eef0"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -471,17 +472,10 @@
     "https://www.ghafla.co.ke/kenya-power-announces-tuesday-blackouts-in-nairobi-kajiado-kiambu-and-nandi/",
     "https://www.ghafla.co.ke/decades-of-service-a-week-of-gratitude-raila-odingas-first-anniversary-begins/",
     "https://www.ghafla.co.ke/you-betrayed-me-president-ruto-escalates-attack-on-uhuru-kenyatta-during-north-rift-tour/",
-    "https://www.ghafla.co.ke/ruto-says-kenyans-want-development-agenda-not-tribal-politics/"
+    "https://www.ghafla.co.ke/ruto-says-kenyans-want-development-agenda-not-tribal-politics/",
+    "https://www.ghafla.co.ke/eldoret-to-host-2026-mashujaa-day-as-uasin-gishu-nandi-and-elgeyo-marakwet-jointly-stage-national-celebrations/"
   ],
   "published_angles": [
-    {
-      "title": "TSC Draft Law Forces Public School Teachers to Choose Between Classrooms and Side Hustles",
-      "angle": "Focusing on the strict dual-income squeeze and compliance trap facing public educators, highlighting how side-hustling, digital misconduct like cyberbullying, and resource misuse carry immediate half-pay suspensions and potential deregistration.",
-      "angle_type": "regulatory enforcement and side-hustle squeeze",
-      "opening": "Direct focus on the legal ultimatum facing teachers balancing classroom duties with secondary income streams.",
-      "structure": "Statutory ultimatum hook -> Mechanics of the side hustle ban and deregistration risks -> Expansion of offences to cyberbullying and student welfare -> Half-pay suspension rules -> Appeals committee mechanism -> Legislative close.",
-      "source": "https://www.ghafla.co.ke/classroom-first-tsc-moves-to-outlaw-side-hustles-for-public-school-teachers/"
-    },
     {
       "title": "Boma Yangu Squeeze: New Wage Applicants Face KSh 600,000 Price Jump Under Revised Housing Rates",
       "angle": "The income-tier cost shift and grandfather clause mechanics\u2014focusing on how the price adjustment alters access thresholds for wage earners in the KSh 20,000\u2013KSh 149,999 monthly bracket submitting new Boma Yangu applications, while insulating existing pre-October applicants.",
@@ -1273,6 +1267,14 @@
       "opening": "Personality lead opening directly on William Ruto cutting through political pleasantries to slap a 'primitive' label on his rivals' strategy.",
       "structure": "Personality hook -> Verbatim takedown of 'tribal arithmetic' -> Anatomy of the 'primitive and outdated' diagnosis -> Ballot box challenge -> Confidence in the discerning electorate -> Closing on the policy battle lines",
       "source": "https://www.ghafla.co.ke/ruto-says-kenyans-want-development-agenda-not-tribal-politics/"
+    },
+    {
+      "title": "Beyond the Podium: How the North Rift is Stitching Three Counties Together for Mashujaa Day",
+      "angle": "The logistical and sporting 'tri-county' experiment; how the state is using a major national holiday to rebrand the North Rift as an integrated sports-economy hub rather than just a political power base.",
+      "angle_type": "Logistical integration and regional branding strategy.",
+      "opening": "Event-led lead focusing on the specific regional tri-county coalition for the holiday.",
+      "structure": "The 'hub' geography -> The logistical split between Eldoret, Iten, and Kapsabet -> The infrastructure pivot -> The economic expo context.",
+      "source": "https://www.ghafla.co.ke/eldoret-to-host-2026-mashujaa-day-as-uasin-gishu-nandi-and-elgeyo-marakwet-jointly-stage-national-celebrations/"
     }
   ],
   "style_history": [
