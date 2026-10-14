@@ -242,7 +242,8 @@
     "154dcd1b81bbf0de577d17d2a261cfdba91a690bfa88c5cc245aacbbc6258e4a",
     "13861797292d714660b7c131004c2f6f742a7f8587bb8c3e24a9a24666af7d02",
     "32feb903f435cd90894802d854af38da143d4a57767655bcbbd32a583d3be7ce",
-    "c834a138b3fc8de328910d8830b94ca5ece4190fe19b412b62befb4b63e284ac"
+    "c834a138b3fc8de328910d8830b94ca5ece4190fe19b412b62befb4b63e284ac",
+    "ace1819ace43e6462b86d1325dcbb2994ed020481ac8bdd806bb22d4464920e7"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -487,17 +488,10 @@
     "https://www.ghafla.co.ke/sifuna-unveils-campaign-secretariat-ex-jubilee-official-pauline-njoroge-appointed-communications-head/",
     "https://www.ghafla.co.ke/not-a-single-shilling-senator-methu-strongly-denies-receiving-funding-from-uhuru-kenyatta/",
     "https://www.ghafla.co.ke/geoffrey-mosiria-says-one-term-is-enough-to-fix-nairobi-as-he-eyes-governor-seat/",
-    "https://www.ghafla.co.ke/esther-arunga-officially-drops-timberlake-surname-in-legal-name-change/"
+    "https://www.ghafla.co.ke/esther-arunga-officially-drops-timberlake-surname-in-legal-name-change/",
+    "https://www.ghafla.co.ke/no-evidence-of-active-ebola-outbreak-in-kenya-confirms-world-health-organization/"
   ],
   "published_angles": [
-    {
-      "title": "Eric Omondi Coordinates 90-Day Psychiatric Admission for Distressed Creator Georgina Njenga",
-      "angle": "Focusing on Omondi's transition to a hands-on clinical interventionist within the creator space, highlighting the physical tracking, medical enrollment, and the structured 90-day inpatient roadmap at Chiromo as a peer-led emergency response to creator burnout.",
-      "angle_type": "peer intervention and clinical recovery roadmap",
-      "opening": "Personality lead opening directly on Eric Omondi's shift from public advocacy to active physical intervention and medical enrollment.",
-      "structure": "Intervention hook -> The alarming social media catalyst -> Logistical details of the Friday hospital visit and clinical roadmap -> The institutional reality of Nairobi's premium psychiatric care -> The peer-to-peer safety net context -> Public boundary appeal close",
-      "source": "https://www.ghafla.co.ke/eric-omondi-shares-hospital-update-as-georgina-njenga-begins-90-day-mental-health-recovery/"
-    },
     {
       "title": "Eldoret Hotel Strip and Parklands Hit by Full-Day Sunday Power Blackout",
       "angle": "Focusing on the heavy Sunday operational and hospitality freeze targeting prominent hotel districts, shopping hubs, and residential zones in Eldoret, Parklands, and Thika.",
@@ -1289,6 +1283,14 @@
       "opening": "Celebrity lead contrasting Esther Arunga's 2008 golden-era broadcast fame with the finality of Gazette Notice No. 16203.",
       "structure": "Celebrity hook on name erasure -> The legal terms of Gazette Notice 16203 -> The 2008 broadcast peak and sudden religious pivot -> The Kallangur tragedy and courtroom admissions -> The closing line of legal separation",
       "source": "https://www.ghafla.co.ke/esther-arunga-officially-drops-timberlake-surname-in-legal-name-change/"
+    },
+    {
+      "title": "Dr. Martins Chibueze Takes to Citizen TV\u2019s Daybreak to Cool Viral Rumor Mills Over Single Ebola Case",
+      "angle": "Framing the broadcast through the personality lens of Dr. Martins Chibueze using his morning television platform on Citizen TV to confront runaway digital speculation and delineate containment reality from online rumors.",
+      "angle_type": "broadcast personality intervention and digital rumor debunking",
+      "opening": "Personality lead opening directly on Dr. Martins Chibueze stepping into Citizen TV's Daybreak studios to address circulating social media panic.",
+      "structure": "Personality broadcast hook -> Exact on-air statements and negative test ledger -> The October 6 DRC traveler context -> Rebuff of viral online rumor mills -> Border surveillance and institutional coordination close",
+      "source": "https://www.ghafla.co.ke/no-evidence-of-active-ebola-outbreak-in-kenya-confirms-world-health-organization/"
     }
   ],
   "style_history": [
