@@ -245,7 +245,8 @@
     "c834a138b3fc8de328910d8830b94ca5ece4190fe19b412b62befb4b63e284ac",
     "ace1819ace43e6462b86d1325dcbb2994ed020481ac8bdd806bb22d4464920e7",
     "a5c42ab3b337aa182de5c9ac06bfb35bc95b3ebfe8155b4d41ce3ed3ef5bacf8",
-    "9c330535e2ecfdd5939d260344da75713148b07e6ce5db61dec1cf33d48ad1b5"
+    "9c330535e2ecfdd5939d260344da75713148b07e6ce5db61dec1cf33d48ad1b5",
+    "0a2f16cd95d9b7de34647e3c510800eff65119b073c238162af8abca50ad964e"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -493,17 +494,10 @@
     "https://www.ghafla.co.ke/esther-arunga-officially-drops-timberlake-surname-in-legal-name-change/",
     "https://www.ghafla.co.ke/no-evidence-of-active-ebola-outbreak-in-kenya-confirms-world-health-organization/",
     "https://www.ghafla.co.ke/sifuna-takes-aim-at-ruto-over-ksh567000-in-monthly-deductions/",
-    "https://www.ghafla.co.ke/governor-orengo-warns-against-political-disruptions-ahead-of-raila-odinga-memorial/"
+    "https://www.ghafla.co.ke/governor-orengo-warns-against-political-disruptions-ahead-of-raila-odinga-memorial/",
+    "https://www.ghafla.co.ke/who-advices-why-border-closure-wont-help-reduce-ebola-spread/"
   ],
   "published_angles": [
-    {
-      "title": "Martha Karua Draws Bipartisan Crowd to Gichugu as Uhuru Kenyatta and Ndindi Nyoro Join Farewell for Her Father",
-      "angle": "Framing the event around Martha Karua as the focal point bringing together a rare bipartisan assembly\u2014ranging from Uhuru Kenyatta and opposition heavyweights to ruling coalition figure Ndindi Nyoro\u2014in quiet Kirinyaga.",
-      "angle_type": "celebrity political convergence and bipartisan gathering",
-      "opening": "Personality lead focusing directly on Martha Karua hosting political heavyweights across party lines at Mugumo Primary School.",
-      "structure": "Personality lead -> Cross-party VIP assembly breakdown -> Life and requiem timeline -> Gichugu ceremony and final farewell close",
-      "source": "https://www.ghafla.co.ke/uhuru-kenyatta-kalonzo-musyoka-and-opposition-leaders-attend-funeral-of-martha-karuas-father/"
-    },
     {
       "title": "Uhuru Kenyatta Stuns Kirinyaga Crowd with Direct \u2018I Told You So\u2019 Stage Show and WANTAM Pitch",
       "angle": "Framing Uhuru Kenyatta's appearance through his personal stage theatrics and direct 'I told you so' interaction with the Kirinyaga crowd, highlighting his show-of-hands poll on 2022 voter regrets.",
@@ -1295,6 +1289,14 @@
       "opening": "Personality lead opening squarely on Mama Ida Odinga walking into the Bondo inspection grounds to lay down the law against political disruption.",
       "structure": "Personality plea hook -> The 'bad manners' and goon sponsorship showdown in Bondo -> Babu Owino's targeted disruption alarm -> The 20,000-guest logistical and security scale -> Mausoleum context and solemn memorial closing",
       "source": "https://www.ghafla.co.ke/governor-orengo-warns-against-political-disruptions-ahead-of-raila-odinga-memorial/"
+    },
+    {
+      "title": "Dr. Neema Kimambo Shuts Down Border Closure Clamor, Warns Sealed Gates Blind Ebola Screeners",
+      "angle": "Framing the moment around Dr. Neema Kimambo stepping before the media to dismantle the public clamor for border shutdowns, bluntly telling editors that sealed crossings create a false sense of security while blinding health screeners on porous footpaths.",
+      "angle_type": "high-level personality reality check and border policy rebuke",
+      "opening": "Personality lead opening directly on Dr. Neema Rusibamayila Kimambo stepping up at the national reporting workshop to dismantle calls for sealed borders.",
+      "structure": "Personality reality-check hook -> Verbatim warning on porous routes -> Surveillance logic vs unmonitored footpaths -> Timeline of the October 6 imported DRC case -> Economic continuity and screening mandate",
+      "source": "https://www.ghafla.co.ke/who-advices-why-border-closure-wont-help-reduce-ebola-spread/"
     }
   ],
   "style_history": [
