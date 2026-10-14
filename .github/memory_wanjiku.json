@@ -249,7 +249,8 @@
     "0a2f16cd95d9b7de34647e3c510800eff65119b073c238162af8abca50ad964e",
     "60f8aaf36c33f7e755bdc1d61d4cb1e5695a54a0258d44ea49595c1eca605fdc",
     "119f40ffc1d0ff836e6305f45a8e6b76a8036bc969cc74b8c417c85947f465c6",
-    "5a4457461ea3f5052b1d2f7d9888344f1194a9454d3a890dd83f925b7757db1f"
+    "5a4457461ea3f5052b1d2f7d9888344f1194a9454d3a890dd83f925b7757db1f",
+    "005dd98cd68e2480dc7be9eca3f5a2891e174d86e36812625e2e521ba53ab413"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -501,17 +502,10 @@
     "https://www.ghafla.co.ke/who-advices-why-border-closure-wont-help-reduce-ebola-spread/",
     "https://www.ghafla.co.ke/still-standing-strong-dj-bonez-sets-record-straight-on-marriage-to-kamene-goro/",
     "https://www.ghafla.co.ke/kenya-activates-national-command-structure-following-confirmation-of-second-ebola-case/",
-    "https://www.ghafla.co.ke/rigathi-gachagua-accuses-president-ruto-of-fuel-price-manipulation-for-2027-campaign-cash/"
+    "https://www.ghafla.co.ke/rigathi-gachagua-accuses-president-ruto-of-fuel-price-manipulation-for-2027-campaign-cash/",
+    "https://www.ghafla.co.ke/karangu-muraya-breaks-silence-on-ex-partner-triza-says-she-has-moved-on/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018Some Things Should Never Become Content\u2019: Millicent Omanga Leads Pushback Over Ciggie Johnson\u2019s 12-Year DNA Reveal",
-      "angle": "Framing the event around the immediate ethics clash and public figure pushback regarding the broadcast of a minor's private paternity trauma as digital content.",
-      "angle_type": "creator ethics and public backlash",
-      "opening": "Personality lead opening directly on Millicent Omanga and prominent public figures confronting Ciggie Johnson's decision to monetize a sensitive 12-year paternity reveal.",
-      "structure": "Ethical backlash hook -> Recorded phone call specifics -> 12-year history of financial support and police disputes -> Public figures' debate on parental duty vs biology -> Unverified legal status and unresolved next steps close.",
-      "source": "https://www.ghafla.co.ke/ciggie-johnson-reveals-dna-test-shows-he-is-not-biological-father-of-girl-he-raised-for-12-years/"
-    },
     {
       "title": "Ndindi Nyoro Trades Nairobi Boardrooms for Maua Pews and Laare Market Stalls in Meru Push",
       "angle": "The tactical shift from high-level Nairobi political negotiations to direct marketplace and church-step retail mobilization in Meru County's rural strongholds.",
@@ -1303,6 +1297,14 @@
       "opening": "Personality lead opening directly on Rigathi Gachagua tearing into Opiyo Wandayi and painting State House as running an election fundraising scheme at the fuel pump.",
       "structure": "Personality broadside hook -> The specific 'so-called expert' Wandayi verbal clash -> The detailed KSh 9 and KSh 12 Gulf Energy fuel ledger and KSh 226 pump ceiling -> The 'desperate and angry' Ruto psychological framing -> Imminent EPRA pricing window close.",
       "source": "https://www.ghafla.co.ke/rigathi-gachagua-accuses-president-ruto-of-fuel-price-manipulation-for-2027-campaign-cash/"
+    },
+    {
+      "title": "Karangu Muraya Draws the Line on Triza Gossip as Passport Reveals Heavy India Medical Miles",
+      "angle": "Focusing on the surreal clash between digital relationship voyeurism and institutional philanthropy, highlighting how Muraya's passport data and medical runs to India collided with live-chat demands for gossip about another man's wife.",
+      "angle_type": "celebrity digital boundaries and international philanthropy reality check",
+      "opening": "Personality lead opening directly on Karangu Muraya sitting down at Obinna TV Studios to draw a hard line against live-chat voyeurism.",
+      "structure": "Personality studio hook -> The Triza boundary and live-chat clash -> The passport records and India medical missions -> The KSh 5 million on-air defense challenge -> Concrete close on passport status and public scrutiny.",
+      "source": "https://www.ghafla.co.ke/karangu-muraya-breaks-silence-on-ex-partner-triza-says-she-has-moved-on/"
     }
   ],
   "style_history": [
