@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "744a5a2fc814b4daa379378cc55d2bd4",
     "ff96e7111c9680ce457a3c1e8af87189",
     "1c302992e5736d6d3ba32ec512821a23",
     "f8ceb671f0ea3d1b11bf7ed223a4437f",
@@ -799,10 +798,10 @@
     "e07c737b3b5cc2f1422c81daa8bdc54c",
     "d4274ab5f5e0f9a1faae89aaa408487e",
     "4f6302e01832d30d77e8927c1db50f68",
-    "5f8f04f7a5870e03ee8792d0c9b98425"
+    "5f8f04f7a5870e03ee8792d0c9b98425",
+    "4adfb555679738af73ab3b498bef3869"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1323,7 +1323,8 @@
     "https://kenyans.co.ke/news/127832-dci-expands-same-day-police-clearance-certificates-diplomats",
     "https://kenyans.co.ke/news/127833-closing-borders-could-push-travellers-unofficial-crossings-who-warns",
     "https://kenyans.co.ke/news/127835-iebc-directs-political-parties-submit-names-authorised-persons-signatures-october-15",
-    "https://kenyans.co.ke/news/127838-iebc-summons-uda-secretary-general-hassan-omar-over-remarks-dead-voters"
+    "https://kenyans.co.ke/news/127838-iebc-summons-uda-secretary-general-hassan-omar-over-remarks-dead-voters",
+    "https://kenyans.co.ke/news/127837-opiyo-wandayi-slams-gachagua-over-claims-govt-plans-hike-pump-prices"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1737,7 +1738,8 @@
     "dci shifts diplomatic vetting live biometrics wider million record upgrade",
     "health authorities are keeping border posts open trap ebola gates",
     "iebc clamps down party signatories stem 2027 nomination disputes",
-    "iebc disciplinary panel summons hassan omar mombasa dead voter remarks"
+    "iebc disciplinary panel summons hassan omar mombasa dead voter remarks",
+    "epra facing political firestorm fuel pricing mechanics ahead unconventional live briefing"
   ],
   "topic_keys": [
     "news tracker",
@@ -4734,6 +4736,15 @@
       "structure": "Regulatory lead -> Summons mechanics and committee mandate -> Rally remarks context in Mombasa -> Integrity implications of the voter register -> Forward calendar to the October 21 hearing",
       "source": "https://kenyans.co.ke/news/127838-iebc-summons-uda-secretary-general-hassan-omar-over-remarks-dead-voters",
       "published_at": "2026-10-14T12:02:35Z"
+    },
+    {
+      "title": "EPRA Facing Political Firestorm Over Fuel Pricing Mechanics Ahead of Unconventional Live Briefing",
+      "angle": "Focusing on how competing political claims test EPRA's statutory independence and force an unusual live media briefing format for the October-November pricing cycle.",
+      "angle_type": "institutional pressure",
+      "opening": "Regulatory-credibility lead focusing on the statutory pricing window being contested by political leaders.",
+      "structure": "Regulatory friction lead -> Specific claims and counter-allegations -> EPRA pricing mechanics and format change -> Global supply and local baseline pricing.",
+      "source": "https://kenyans.co.ke/news/127837-opiyo-wandayi-slams-gachagua-over-claims-govt-plans-hike-pump-prices",
+      "published_at": "2026-10-14T12:44:32Z"
     }
   ]
 }
