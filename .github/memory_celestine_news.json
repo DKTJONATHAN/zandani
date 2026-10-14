@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ff96e7111c9680ce457a3c1e8af87189",
     "1c302992e5736d6d3ba32ec512821a23",
     "f8ceb671f0ea3d1b11bf7ed223a4437f",
     "9c6c9f278ebec1dc5c88bae2142db857",
@@ -799,10 +798,10 @@
     "d4274ab5f5e0f9a1faae89aaa408487e",
     "4f6302e01832d30d77e8927c1db50f68",
     "5f8f04f7a5870e03ee8792d0c9b98425",
-    "4adfb555679738af73ab3b498bef3869"
+    "4adfb555679738af73ab3b498bef3869",
+    "a9d5e038822ccf641879e507836aa2fe"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1324,7 +1324,8 @@
     "https://kenyans.co.ke/news/127833-closing-borders-could-push-travellers-unofficial-crossings-who-warns",
     "https://kenyans.co.ke/news/127835-iebc-directs-political-parties-submit-names-authorised-persons-signatures-october-15",
     "https://kenyans.co.ke/news/127838-iebc-summons-uda-secretary-general-hassan-omar-over-remarks-dead-voters",
-    "https://kenyans.co.ke/news/127837-opiyo-wandayi-slams-gachagua-over-claims-govt-plans-hike-pump-prices"
+    "https://kenyans.co.ke/news/127837-opiyo-wandayi-slams-gachagua-over-claims-govt-plans-hike-pump-prices",
+    "https://kenyans.co.ke/news/127841-lodca-issues-security-alert-after-kenyan-drivers-reportedly-captured-drc-rebels"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1739,7 +1740,8 @@
     "health authorities are keeping border posts open trap ebola gates",
     "iebc clamps down party signatories stem 2027 nomination disputes",
     "iebc disciplinary panel summons hassan omar mombasa dead voter remarks",
-    "epra facing political firestorm fuel pricing mechanics ahead unconventional live briefing"
+    "epra facing political firestorm fuel pricing mechanics ahead unconventional live briefing",
+    "haulers face growing drc transit peril mahagi route turns volatile"
   ],
   "topic_keys": [
     "news tracker",
@@ -4745,6 +4747,15 @@
       "structure": "Regulatory friction lead -> Specific claims and counter-allegations -> EPRA pricing mechanics and format change -> Global supply and local baseline pricing.",
       "source": "https://kenyans.co.ke/news/127837-opiyo-wandayi-slams-gachagua-over-claims-govt-plans-hike-pump-prices",
       "published_at": "2026-10-14T12:44:32Z"
+    },
+    {
+      "title": "Kenyan Haulers Face Growing DRC Transit Peril as Mahagi Route Turns Volatile",
+      "angle": "The recurring operational friction and safety crisis faced by Kenyan long-distance haulers along DRC corridors, where drivers face repeated abductions, cargo destruction, and deaths despite ongoing association warnings and lack of official state intervention.",
+      "angle_type": "people affected",
+      "opening": "An analytical statement highlighting the recurring security threat and operational paralysis faced by long-distance drivers on DRC transport routes.",
+      "structure": "Driver safety hazard lead -> The Mahagi-Kisangani incident and rescue details -> Historical context of attacks (Kasumbalesa, Bunia, Mambasa) and damaged infrastructure -> LoDCA travel directives -> Unresolved state response.",
+      "source": "https://kenyans.co.ke/news/127841-lodca-issues-security-alert-after-kenyan-drivers-reportedly-captured-drc-rebels",
+      "published_at": "2026-10-14T14:02:26Z"
     }
   ]
 }
