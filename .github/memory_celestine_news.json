@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "9c6c9f278ebec1dc5c88bae2142db857",
     "508febb545c9471caf70e672c952ea6e",
     "abb642f744d13f4148f245e1281c7def",
     "4e8d07ba4bd07c6af318537c558f00c8",
@@ -799,10 +798,10 @@
     "4adfb555679738af73ab3b498bef3869",
     "a9d5e038822ccf641879e507836aa2fe",
     "747a919f5c0c33890eb94b91f4adae2b",
-    "6959c5b305bb145696f573a85efd159a"
+    "6959c5b305bb145696f573a85efd159a",
+    "3d70e8ab26e752b6ec8cee871403fde8"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1327,7 +1327,8 @@
     "https://kenyans.co.ke/news/127837-opiyo-wandayi-slams-gachagua-over-claims-govt-plans-hike-pump-prices",
     "https://kenyans.co.ke/news/127841-lodca-issues-security-alert-after-kenyan-drivers-reportedly-captured-drc-rebels",
     "https://kenyans.co.ke/news/127847-epra-raises-petrol-prices-ksh1293-diesel-ksh990-kerosene-ksh284",
-    "https://kenyans.co.ke/news/127844-kenya-confirms-second-ebola-case-death-toll-remains-one"
+    "https://kenyans.co.ke/news/127844-kenya-confirms-second-ebola-case-death-toll-remains-one",
+    "https://kenyans.co.ke/news/127840-governors-reject-cras-ksh4408-billion-revenue-allocation-proposal"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1745,7 +1746,8 @@
     "epra facing political firestorm fuel pricing mechanics ahead unconventional live briefing",
     "haulers face growing drc transit peril mahagi route turns volatile",
     "epra drops stabilisation safety net fuel prices surge past ksh226",
-    "inside quarantine net caught second ebola case"
+    "inside quarantine net caught second ebola case",
+    "county budgets face ksh100 billion crisis ahead 2027"
   ],
   "topic_keys": [
     "news tracker",
@@ -4778,6 +4780,15 @@
       "structure": "Quarantine-containment lead -> Patient diagnostic and lab confirmation details -> Contact tracing metrics and Africa CDC benchmarking -> Treatment center admission and remaining unlocated contacts -> Public helpline call-to-action close.",
       "source": "https://kenyans.co.ke/news/127844-kenya-confirms-second-ebola-case-death-toll-remains-one",
       "published_at": "2026-10-14T17:02:40Z"
+    },
+    {
+      "title": "Why County Budgets Face a Ksh100 Billion Crisis Ahead of 2027",
+      "angle": "The operational breakdown of how unabsorbed costs, unbundled functions, and election-year transitional overhead combine to create an existential fiscal crunch for the 47 counties ahead of 2027.",
+      "angle_type": "consequence",
+      "opening": "A quantitative and institutional consequence lead focusing on the fiscal mismatch between central revenue ceilings and devolved operational liabilities.",
+      "structure": "Fiscal gap lead -> Breakdown of specific cost components (UHC, SRC, unbundled functions, election transition) -> Governance friction and consultation dispute with CRA -> Forward edge on vertical revenue sharing negotiations.",
+      "source": "https://kenyans.co.ke/news/127840-governors-reject-cras-ksh4408-billion-revenue-allocation-proposal",
+      "published_at": "2026-10-14T17:52:33Z"
     }
   ]
 }
