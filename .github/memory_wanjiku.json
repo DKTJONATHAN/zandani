@@ -243,7 +243,8 @@
     "13861797292d714660b7c131004c2f6f742a7f8587bb8c3e24a9a24666af7d02",
     "32feb903f435cd90894802d854af38da143d4a57767655bcbbd32a583d3be7ce",
     "c834a138b3fc8de328910d8830b94ca5ece4190fe19b412b62befb4b63e284ac",
-    "ace1819ace43e6462b86d1325dcbb2994ed020481ac8bdd806bb22d4464920e7"
+    "ace1819ace43e6462b86d1325dcbb2994ed020481ac8bdd806bb22d4464920e7",
+    "a5c42ab3b337aa182de5c9ac06bfb35bc95b3ebfe8155b4d41ce3ed3ef5bacf8"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -489,17 +490,10 @@
     "https://www.ghafla.co.ke/not-a-single-shilling-senator-methu-strongly-denies-receiving-funding-from-uhuru-kenyatta/",
     "https://www.ghafla.co.ke/geoffrey-mosiria-says-one-term-is-enough-to-fix-nairobi-as-he-eyes-governor-seat/",
     "https://www.ghafla.co.ke/esther-arunga-officially-drops-timberlake-surname-in-legal-name-change/",
-    "https://www.ghafla.co.ke/no-evidence-of-active-ebola-outbreak-in-kenya-confirms-world-health-organization/"
+    "https://www.ghafla.co.ke/no-evidence-of-active-ebola-outbreak-in-kenya-confirms-world-health-organization/",
+    "https://www.ghafla.co.ke/sifuna-takes-aim-at-ruto-over-ksh567000-in-monthly-deductions/"
   ],
   "published_angles": [
-    {
-      "title": "Eldoret Hotel Strip and Parklands Hit by Full-Day Sunday Power Blackout",
-      "angle": "Focusing on the heavy Sunday operational and hospitality freeze targeting prominent hotel districts, shopping hubs, and residential zones in Eldoret, Parklands, and Thika.",
-      "angle_type": "commercial and hospitality disruption",
-      "opening": "Direct focus on the Sunday commercial and hospitality squeeze in Eldoret and Nairobi's urban residential strip.",
-      "structure": "Disruption hook on Eldoret and Parklands commercial hubs -> Breakdown of hospitality and retail zones -> Industrial and logistics corridor impact in Nairobi and Mombasa -> Kiambu manufacturing and institutional belt -> Western milling and institutional network -> Safety advisory close",
-      "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-six-areas-on-october-4/"
-    },
     {
       "title": "Hat Swap at Uhuru Park: Johnson Sakaja Dons Signature ODM Cap in Front of Chanting Crowd",
       "angle": "Framing the moment through Sakaja's theatrical wardrobe swap\u2014succumbing to crowd pressure at Uhuru Park to don Raila's signature headgear styling in the presence of ODM brass, capturing his high-wire charm offensive across factional lines.",
@@ -1291,6 +1285,14 @@
       "opening": "Personality lead opening directly on Dr. Martins Chibueze stepping into Citizen TV's Daybreak studios to address circulating social media panic.",
       "structure": "Personality broadcast hook -> Exact on-air statements and negative test ledger -> The October 6 DRC traveler context -> Rebuff of viral online rumor mills -> Border surveillance and institutional coordination close",
       "source": "https://www.ghafla.co.ke/no-evidence-of-active-ebola-outbreak-in-kenya-confirms-world-health-organization/"
+    },
+    {
+      "title": "Edwin Sifuna Puts His KSh567,000 Payslip Haircut on Display in Frivolous Spending Takedown",
+      "angle": "Framing the moment around Sifuna breaking high-office etiquette by putting his personal payslip math on public display\u2014itemizing a half-million-shilling monthly haircut to claim the state treats taxpayer deductions like petty cash for frivolous outings.",
+      "angle_type": "celebrity politician payslip disclosure and spending takedown",
+      "opening": "Personality lead opening directly on Edwin Sifuna peeling back his own financial paperwork to spotlight a KSh 567,000 monthly deduction bill.",
+      "structure": "Personality payslip hook -> Itemized breakdown of the KSh 567k ledger -> Frivolous spending accusation -> Broad political and lifestyle context around SHA and housing levy -> Concrete close on public fund accountability",
+      "source": "https://www.ghafla.co.ke/sifuna-takes-aim-at-ruto-over-ksh567000-in-monthly-deductions/"
     }
   ],
   "style_history": [
