@@ -240,7 +240,8 @@
     "2255e1e81c699e57fb896a44a6faea305519f1afdf42befa46b66e9faece3e95",
     "cc679dff3ffc7fca81e7cac67373cf9cb983bbece8e1de674d6e045778851fb2",
     "154dcd1b81bbf0de577d17d2a261cfdba91a690bfa88c5cc245aacbbc6258e4a",
-    "13861797292d714660b7c131004c2f6f742a7f8587bb8c3e24a9a24666af7d02"
+    "13861797292d714660b7c131004c2f6f742a7f8587bb8c3e24a9a24666af7d02",
+    "32feb903f435cd90894802d854af38da143d4a57767655bcbbd32a583d3be7ce"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -483,17 +484,10 @@
     "https://www.ghafla.co.ke/he-is-fine-and-doing-well-odm-clears-misinformation-over-dr-oburu-ogingas-health/",
     "https://www.ghafla.co.ke/matiangi-cautions-opposition-forming-a-coalition-government-is-not-easy/",
     "https://www.ghafla.co.ke/sifuna-unveils-campaign-secretariat-ex-jubilee-official-pauline-njoroge-appointed-communications-head/",
-    "https://www.ghafla.co.ke/not-a-single-shilling-senator-methu-strongly-denies-receiving-funding-from-uhuru-kenyatta/"
+    "https://www.ghafla.co.ke/not-a-single-shilling-senator-methu-strongly-denies-receiving-funding-from-uhuru-kenyatta/",
+    "https://www.ghafla.co.ke/geoffrey-mosiria-says-one-term-is-enough-to-fix-nairobi-as-he-eyes-governor-seat/"
   ],
   "published_angles": [
-    {
-      "title": "William Ruto Defies Backroom Doubters as He Takes KSh 5 Billion Rail Gamble to the Border",
-      "angle": "Focusing on Ruto\u2019s pointed public rebuttal of critics and backroom skeptics who tried to talk him out of the rail venture, framing the cross-border line as a personal test of executive resolve delivered directly to the Mwatate crowd.",
-      "angle_type": "personality defiance and executive resolve",
-      "opening": "Personality lead opening directly on Ruto confronting his internal critics from the Mwatate podium.",
-      "structure": "Personality lead -> Public confrontation of critics hook -> Station-by-station operational blueprint -> The dual-track reality (SGR vs 20-year defunct MGR) -> Cross-border strategic context",
-      "source": "https://www.ghafla.co.ke/president-ruto-unveils-ksh-5-billion-voi-taveta-sgr-project-to-boost-kenya-tanzania-trade/"
-    },
     {
       "title": "Beyond the Cuts: Bolo Bespoke Mourns the Quiet Wardrobe Tea Sessions with Raila Odinga",
       "angle": "Reframing the anniversary through the private artisan lens\u2014specifically how Bolo Bespoke's tribute pulls back the curtain on Odinga's signature wardrobe fittings and the quiet, routine tea-and-fabric consultations that suddenly vanished.",
@@ -1285,6 +1279,14 @@
       "opening": "Personality lead opening squarely on Senator John Methu swearing an on-air oath to clear his pockets of Uhuru Kenyatta's rumored 'Sponyo' cash.",
       "structure": "Personality sworn-denial hook -> The radio airwaves breakdown and 'not a single shilling' oath -> Anatomy of the 'Sponyo' moniker and the 'bogeyman' diagnosis -> Uhuru's Murang'a microphone clapback -> Methu's retirement advisory close",
       "source": "https://www.ghafla.co.ke/not-a-single-shilling-senator-methu-strongly-denies-receiving-funding-from-uhuru-kenyatta/"
+    },
+    {
+      "title": "\u2018Mr Fix It\u2019 Geoffrey Mosiria Tests Church Pulpit Waters with Margaret Wanjiru for Nairobi Boss",
+      "angle": "The friction between his self-styled 'Mr Fix It' persona, his unorthodox running-mate floating at Jesus Is Alive Ministries, and his running battle with paid internet bloggers.",
+      "angle_type": "political personality clash and campaign branding",
+      "opening": "Personality-led opening focusing on the brand 'Mr Fix It' and his pulpit proposal.",
+      "structure": "Personality hook -> The Jesus Is Alive Ministries running-mate tease -> The 'Mr Fix It' one-term administrative pitch -> Clash with online critics over vulnerable residents -> Closing on the 2027 field realities.",
+      "source": "https://www.ghafla.co.ke/geoffrey-mosiria-says-one-term-is-enough-to-fix-nairobi-as-he-eyes-governor-seat/"
     }
   ],
   "style_history": [
