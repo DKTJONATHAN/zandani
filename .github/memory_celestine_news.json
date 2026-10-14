@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "508febb545c9471caf70e672c952ea6e",
     "abb642f744d13f4148f245e1281c7def",
     "4e8d07ba4bd07c6af318537c558f00c8",
     "49fa683f311ca86e4c2c11176300bac0",
@@ -799,10 +798,10 @@
     "a9d5e038822ccf641879e507836aa2fe",
     "747a919f5c0c33890eb94b91f4adae2b",
     "6959c5b305bb145696f573a85efd159a",
-    "3d70e8ab26e752b6ec8cee871403fde8"
+    "3d70e8ab26e752b6ec8cee871403fde8",
+    "cfdea924e0a8489467c2273a8d3d6f06"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1328,7 +1328,8 @@
     "https://kenyans.co.ke/news/127841-lodca-issues-security-alert-after-kenyan-drivers-reportedly-captured-drc-rebels",
     "https://kenyans.co.ke/news/127847-epra-raises-petrol-prices-ksh1293-diesel-ksh990-kerosene-ksh284",
     "https://kenyans.co.ke/news/127844-kenya-confirms-second-ebola-case-death-toll-remains-one",
-    "https://kenyans.co.ke/news/127840-governors-reject-cras-ksh4408-billion-revenue-allocation-proposal"
+    "https://kenyans.co.ke/news/127840-governors-reject-cras-ksh4408-billion-revenue-allocation-proposal",
+    "https://kenyans.co.ke/news/127842-malindi-court-lifts-order-blocking-construction-ksh-22t-dangote-lamu-oil-refinery"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1747,7 +1748,8 @@
     "haulers face growing drc transit peril mahagi route turns volatile",
     "epra drops stabilisation safety net fuel prices surge past ksh226",
     "inside quarantine net caught second ebola case",
-    "county budgets face ksh100 billion crisis ahead 2027"
+    "county budgets face ksh100 billion crisis ahead 2027",
+    "procedural blunders clear path dangote ksh lamu refinery injunction collapses"
   ],
   "topic_keys": [
     "news tracker",
@@ -4789,6 +4791,15 @@
       "structure": "Fiscal gap lead -> Breakdown of specific cost components (UHC, SRC, unbundled functions, election transition) -> Governance friction and consultation dispute with CRA -> Forward edge on vertical revenue sharing negotiations.",
       "source": "https://kenyans.co.ke/news/127840-governors-reject-cras-ksh4408-billion-revenue-allocation-proposal",
       "published_at": "2026-10-14T17:52:33Z"
+    },
+    {
+      "title": "Procedural Blunders Clear Path for Dangote\u2019s Ksh 2.2T Lamu Refinery as Injunction Collapses",
+      "angle": "Framing the ruling through procedural default: technical errors by local petitioners\u2014citing the wrong land title and failing to serve legal notices\u2014handed state developers an unhindered construction window on an active 40-month timeline while substantive land ownership questions remain deferred.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first statement identifying the court's procedural finding and immediately naming the industrial developers and state agencies benefiting from the dissolved injunction.",
+      "structure": "Statement lead and beneficiaries -> Judicial bench ruling and specific procedural lapses -> The land tenure contest (Magogoni villages vs state title claims) -> Project scale and operational countdown -> Forward timeline to the November 24 mention.",
+      "source": "https://kenyans.co.ke/news/127842-malindi-court-lifts-order-blocking-construction-ksh-22t-dangote-lamu-oil-refinery",
+      "published_at": "2026-10-14T19:02:23Z"
     }
   ]
 }
