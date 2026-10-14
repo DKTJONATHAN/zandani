@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "7098c9604e0aec2735a812834a77c615",
     "257a15bac9facce5ade419ccada2dbdc",
     "9809548605f1a52e4d56db8324654342",
     "3e048785a36538f0f06ed30bedf841f3",
@@ -799,10 +798,10 @@
     "0daa6d5f8df73ac0e85ed9111b16d9eb",
     "df1aee57eb73e3444955f64705c13fd3",
     "d86aa04b0562d4863c9fbc045005112e",
-    "1dd92863b5b8037c2ae8a3f19066bdb8"
+    "1dd92863b5b8037c2ae8a3f19066bdb8",
+    "17802532f40b67289e14245d16f7e1fc"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1317,7 +1317,8 @@
     "https://kenyans.co.ke/news/127823-religious-groups-demand-review-judges-car-grants-amid-legal-dispute",
     "https://kenyans.co.ke/news/127824-voi-taveta-railway-hits-40-cent-completion-after-20-years-inactivity",
     "https://kenyans.co.ke/news/127827-pope-leo-xiv-undergoes-90-minute-surgery-after-cancer-diagnosis",
-    "https://kenyans.co.ke/news/127828-odm-warns-kenyans-against-spreading-fake-news-about-oburu-odingas-health"
+    "https://kenyans.co.ke/news/127828-odm-warns-kenyans-against-spreading-fake-news-about-oburu-odingas-health",
+    "https://kenyans.co.ke/news/127825-ppdt-issues-orders-blocking-azimios-ukombozi-alliance-name-change"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1725,7 +1726,8 @@
     "religious lobbies challenge dual car perks costing ksh2 judges",
     "dual rail strategy takes shape voi taveta mgr hits 40pc mark ahead sgr plans",
     "november south america trip doubt pope leo xiv undergoes lung surgery",
-    "odm deploys dual track defence quell anxiety oburu convalescence"
+    "odm deploys dual track defence quell anxiety oburu convalescence",
+    "azimio coalition rebrand stalls tribunal freezes ukombozi name"
   ],
   "topic_keys": [
     "news tracker",
@@ -4668,6 +4670,15 @@
       "structure": "Dual-track messaging lead -> Nature of medical convalescence and London-Nairobi treatment timeline -> The Bondo handover absence and proxy representation -> Constitutional free speech friction versus medical privacy",
       "source": "https://kenyans.co.ke/news/127828-odm-warns-kenyans-against-spreading-fake-news-about-oburu-odingas-health",
       "published_at": "2026-10-14T06:01:48Z"
+    },
+    {
+      "title": "Azimio Coalition Rebrand Stalls as Tribunal Freezes 'Ukombozi' Name",
+      "angle": "The administrative gridlock at the Registrar of Political Parties, where conflicting name reservations have legally frozen Kalonzo Musyoka's coalition expansion vehicle before it can formally launch.",
+      "angle_type": "institutional pressure",
+      "opening": "Regulatory freeze lead detailing how statutory name-reservation rules have stalled Azimio's planned transition into The Ukombozi Alliance.",
+      "structure": "Regulatory halt lead -> PPDT injunction and statutory compliance terms -> Timeline of conflicting ORPP name reservations -> Coalition expansion complications -> October 29 procedural next steps",
+      "source": "https://kenyans.co.ke/news/127825-ppdt-issues-orders-blocking-azimios-ukombozi-alliance-name-change",
+      "published_at": "2026-10-14T06:05:54Z"
     }
   ]
 }
