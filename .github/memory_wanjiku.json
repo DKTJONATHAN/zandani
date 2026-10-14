@@ -250,7 +250,8 @@
     "60f8aaf36c33f7e755bdc1d61d4cb1e5695a54a0258d44ea49595c1eca605fdc",
     "119f40ffc1d0ff836e6305f45a8e6b76a8036bc969cc74b8c417c85947f465c6",
     "5a4457461ea3f5052b1d2f7d9888344f1194a9454d3a890dd83f925b7757db1f",
-    "005dd98cd68e2480dc7be9eca3f5a2891e174d86e36812625e2e521ba53ab413"
+    "005dd98cd68e2480dc7be9eca3f5a2891e174d86e36812625e2e521ba53ab413",
+    "aa1dfc9227782dcd58429c25c853407a30858d38b9411f8419e7c5f40e5a216e"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -503,17 +504,10 @@
     "https://www.ghafla.co.ke/still-standing-strong-dj-bonez-sets-record-straight-on-marriage-to-kamene-goro/",
     "https://www.ghafla.co.ke/kenya-activates-national-command-structure-following-confirmation-of-second-ebola-case/",
     "https://www.ghafla.co.ke/rigathi-gachagua-accuses-president-ruto-of-fuel-price-manipulation-for-2027-campaign-cash/",
-    "https://www.ghafla.co.ke/karangu-muraya-breaks-silence-on-ex-partner-triza-says-she-has-moved-on/"
+    "https://www.ghafla.co.ke/karangu-muraya-breaks-silence-on-ex-partner-triza-says-she-has-moved-on/",
+    "https://www.ghafla.co.ke/bahati-dares-forex-traders-to-match-kenyan-princes-ksh1-million-wedding-invitation/"
   ],
   "published_angles": [
-    {
-      "title": "Ndindi Nyoro Trades Nairobi Boardrooms for Maua Pews and Laare Market Stalls in Meru Push",
-      "angle": "The tactical shift from high-level Nairobi political negotiations to direct marketplace and church-step retail mobilization in Meru County's rural strongholds.",
-      "angle_type": "grassroots retail politics and constituency-level mobilization",
-      "opening": "Personality-led opening focusing directly on Ndindi Nyoro swapping high-level Nairobi boardrooms for dusty market stalls and church pews in Meru.",
-      "structure": "Personality hook -> Meru itinerary breakdown (Maua and Laare) -> Party structural strategy vs national bargaining -> Concrete close on ground-level electoral positioning.",
-      "source": "https://www.ghafla.co.ke/battle-for-meru-ndindi-nyoro-ignites-grassroots-drive-ahead-of-2027/"
-    },
     {
       "title": "Rigathi Gachagua Crowned 'Cousin' as He Places All Bets on Edwin Sifuna\u2019s Equitable Party",
       "angle": "Focusing on Gachagua's personal branding and affectionate 'cousin' framing as he attempts to hitch his post-impeachment political survival to Sifuna's rising opposition momentum.",
@@ -1305,6 +1299,14 @@
       "opening": "Personality lead opening directly on Karangu Muraya sitting down at Obinna TV Studios to draw a hard line against live-chat voyeurism.",
       "structure": "Personality studio hook -> The Triza boundary and live-chat clash -> The passport records and India medical missions -> The KSh 5 million on-air defense challenge -> Concrete close on passport status and public scrutiny.",
       "source": "https://www.ghafla.co.ke/karangu-muraya-breaks-silence-on-ex-partner-triza-says-she-has-moved-on/"
+    },
+    {
+      "title": "Bahati Turns KSh1M Wedding Gate into a Forex Liquidity Test After Kenyan Prince Buys In",
+      "angle": "Framing the stunt around Bahati turning his 100-seat wedding gate into an aggressive financial audit of Nairobi's flashy forex lifestyle, weaponizing Kenyan Prince\u2019s receipt to dare the trading scene into proving its wealth on his terms.",
+      "angle_type": "celebrity wealth challenge and monetization spectacle",
+      "opening": "Personality lead opening squarely on Bahati using Kenyan Prince's paid receipt to lay down a direct financial challenge to Nairobi's forex trading community.",
+      "structure": "Personality dare hook -> The forex challenge details and quotes -> The 100-seat, KSh 100 million wedding economics -> Defending the 'baller' gate against Mosiria and Kanyari -> November 6 countdown",
+      "source": "https://www.ghafla.co.ke/bahati-dares-forex-traders-to-match-kenyan-princes-ksh1-million-wedding-invitation/"
     }
   ],
   "style_history": [
