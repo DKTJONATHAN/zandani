@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "257a15bac9facce5ade419ccada2dbdc",
     "9809548605f1a52e4d56db8324654342",
     "3e048785a36538f0f06ed30bedf841f3",
     "bea1a8df3b01af73ad3c8266988cbd3c",
@@ -799,10 +798,10 @@
     "df1aee57eb73e3444955f64705c13fd3",
     "d86aa04b0562d4863c9fbc045005112e",
     "1dd92863b5b8037c2ae8a3f19066bdb8",
-    "17802532f40b67289e14245d16f7e1fc"
+    "17802532f40b67289e14245d16f7e1fc",
+    "c5f10d0081a92d42a5ca91ed1fddd313"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1318,7 +1318,8 @@
     "https://kenyans.co.ke/news/127824-voi-taveta-railway-hits-40-cent-completion-after-20-years-inactivity",
     "https://kenyans.co.ke/news/127827-pope-leo-xiv-undergoes-90-minute-surgery-after-cancer-diagnosis",
     "https://kenyans.co.ke/news/127828-odm-warns-kenyans-against-spreading-fake-news-about-oburu-odingas-health",
-    "https://kenyans.co.ke/news/127825-ppdt-issues-orders-blocking-azimios-ukombozi-alliance-name-change"
+    "https://kenyans.co.ke/news/127825-ppdt-issues-orders-blocking-azimios-ukombozi-alliance-name-change",
+    "https://kenyans.co.ke/news/127829-kcsfa-lists-4-details-organisations-should-report-after-data-breaches"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1727,7 +1728,8 @@
     "dual rail strategy takes shape voi taveta mgr hits 40pc mark ahead sgr plans",
     "november south america trip doubt pope leo xiv undergoes lung surgery",
     "odm deploys dual track defence quell anxiety oburu convalescence",
-    "azimio coalition rebrand stalls tribunal freezes ukombozi name"
+    "azimio coalition rebrand stalls tribunal freezes ukombozi name",
+    "nc4 directs system operators justify withholding breach data victims"
   ],
   "topic_keys": [
     "news tracker",
@@ -4679,6 +4681,15 @@
       "structure": "Regulatory halt lead -> PPDT injunction and statutory compliance terms -> Timeline of conflicting ORPP name reservations -> Coalition expansion complications -> October 29 procedural next steps",
       "source": "https://kenyans.co.ke/news/127825-ppdt-issues-orders-blocking-azimios-ukombozi-alliance-name-change",
       "published_at": "2026-10-14T06:05:54Z"
+    },
+    {
+      "title": "NC4 Directs System Operators to Justify Withholding Breach Data From Victims",
+      "angle": "Reframing the directive around statutory compliance and consumer protection: the state is forcing system administrators to formally calculate citizen exposure and legally justify withholding breach alerts, backed by personal criminal liability within a strict 24-hour ticking clock.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first opening establishing NC4's regulatory order and immediately identifying consumers and system administrators affected by the compliance rules.",
+      "structure": "Attribution and beneficiary lead -> Four-part incident accounting breakdown -> Statutory 24-hour enforcement and criminal penalties -> National threat volume context (CA data) -> Critical infrastructure vulnerabilities (Interpol data)",
+      "source": "https://kenyans.co.ke/news/127829-kcsfa-lists-4-details-organisations-should-report-after-data-breaches",
+      "published_at": "2026-10-14T07:02:44Z"
     }
   ]
 }
