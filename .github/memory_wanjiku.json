@@ -246,7 +246,8 @@
     "ace1819ace43e6462b86d1325dcbb2994ed020481ac8bdd806bb22d4464920e7",
     "a5c42ab3b337aa182de5c9ac06bfb35bc95b3ebfe8155b4d41ce3ed3ef5bacf8",
     "9c330535e2ecfdd5939d260344da75713148b07e6ce5db61dec1cf33d48ad1b5",
-    "0a2f16cd95d9b7de34647e3c510800eff65119b073c238162af8abca50ad964e"
+    "0a2f16cd95d9b7de34647e3c510800eff65119b073c238162af8abca50ad964e",
+    "60f8aaf36c33f7e755bdc1d61d4cb1e5695a54a0258d44ea49595c1eca605fdc"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -495,17 +496,10 @@
     "https://www.ghafla.co.ke/no-evidence-of-active-ebola-outbreak-in-kenya-confirms-world-health-organization/",
     "https://www.ghafla.co.ke/sifuna-takes-aim-at-ruto-over-ksh567000-in-monthly-deductions/",
     "https://www.ghafla.co.ke/governor-orengo-warns-against-political-disruptions-ahead-of-raila-odinga-memorial/",
-    "https://www.ghafla.co.ke/who-advices-why-border-closure-wont-help-reduce-ebola-spread/"
+    "https://www.ghafla.co.ke/who-advices-why-border-closure-wont-help-reduce-ebola-spread/",
+    "https://www.ghafla.co.ke/still-standing-strong-dj-bonez-sets-record-straight-on-marriage-to-kamene-goro/"
   ],
   "published_angles": [
-    {
-      "title": "Uhuru Kenyatta Stuns Kirinyaga Crowd with Direct \u2018I Told You So\u2019 Stage Show and WANTAM Pitch",
-      "angle": "Framing Uhuru Kenyatta's appearance through his personal stage theatrics and direct 'I told you so' interaction with the Kirinyaga crowd, highlighting his show-of-hands poll on 2022 voter regrets.",
-      "angle_type": "personality theatrical return and interactive crowd challenge",
-      "opening": "Personality lead opening directly on Uhuru Kenyatta taking the Kirinyaga stage for an unfiltered, highly interactive appearance.",
-      "structure": "Celebrity stage return hook -> Direct interactive show-of-hands crowd moment -> Detailed quotes on 2022 Azimio ticket -> Context on Ruto fallout -> Political commentary close",
-      "source": "https://www.ghafla.co.ke/uhuru-kenyatta-returns-to-political-arena-backs-wantam-campaign-in-kirinyaga/"
-    },
     {
       "title": "\u2018A Calculated Move\u2019: Mutahi Ngunyi Reads Uhuru\u2019s Kirinyaga Outing as Direct Challenge to Gachagua",
       "angle": "Framing the moment through Mutahi Ngunyi\u2019s sharp online commentary calling out an unfolding succession clash between Uhuru Kenyatta and Rigathi Gachagua, spotlighting Kirinyaga as the staging ground for a high-stakes regional power struggle extending through 2032.",
@@ -1297,6 +1291,14 @@
       "opening": "Personality lead opening directly on Dr. Neema Rusibamayila Kimambo stepping up at the national reporting workshop to dismantle calls for sealed borders.",
       "structure": "Personality reality-check hook -> Verbatim warning on porous routes -> Surveillance logic vs unmonitored footpaths -> Timeline of the October 6 imported DRC case -> Economic continuity and screening mandate",
       "source": "https://www.ghafla.co.ke/who-advices-why-border-closure-wont-help-reduce-ebola-spread/"
+    },
+    {
+      "title": "DJ Bonez Closes TikTok Rumor Mill: \u2018I\u2019m a Married Person, Not in the Market\u2019",
+      "angle": "Focusing on the mechanics of their six-year union and Bonez's candid reality check on the labor of celebrity marriage versus online gossip cycles.",
+      "angle_type": "celebrity relationship reality check",
+      "opening": "Personality lead opening directly on DJ Bonez lounging in a tropical setting to bat away internet rumors.",
+      "structure": "Personality hook -> The six-year timeline and marriage reality check -> Addressing the single market rumors -> Fanbase dynamics and final confirmation.",
+      "source": "https://www.ghafla.co.ke/still-standing-strong-dj-bonez-sets-record-straight-on-marriage-to-kamene-goro/"
     }
   ],
   "style_history": [
