@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "1c302992e5736d6d3ba32ec512821a23",
     "f8ceb671f0ea3d1b11bf7ed223a4437f",
     "9c6c9f278ebec1dc5c88bae2142db857",
     "508febb545c9471caf70e672c952ea6e",
@@ -799,10 +798,10 @@
     "4f6302e01832d30d77e8927c1db50f68",
     "5f8f04f7a5870e03ee8792d0c9b98425",
     "4adfb555679738af73ab3b498bef3869",
-    "a9d5e038822ccf641879e507836aa2fe"
+    "a9d5e038822ccf641879e507836aa2fe",
+    "747a919f5c0c33890eb94b91f4adae2b"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1325,7 +1325,8 @@
     "https://kenyans.co.ke/news/127835-iebc-directs-political-parties-submit-names-authorised-persons-signatures-october-15",
     "https://kenyans.co.ke/news/127838-iebc-summons-uda-secretary-general-hassan-omar-over-remarks-dead-voters",
     "https://kenyans.co.ke/news/127837-opiyo-wandayi-slams-gachagua-over-claims-govt-plans-hike-pump-prices",
-    "https://kenyans.co.ke/news/127841-lodca-issues-security-alert-after-kenyan-drivers-reportedly-captured-drc-rebels"
+    "https://kenyans.co.ke/news/127841-lodca-issues-security-alert-after-kenyan-drivers-reportedly-captured-drc-rebels",
+    "https://kenyans.co.ke/news/127847-epra-raises-petrol-prices-ksh1293-diesel-ksh990-kerosene-ksh284"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1741,7 +1742,8 @@
     "iebc clamps down party signatories stem 2027 nomination disputes",
     "iebc disciplinary panel summons hassan omar mombasa dead voter remarks",
     "epra facing political firestorm fuel pricing mechanics ahead unconventional live briefing",
-    "haulers face growing drc transit peril mahagi route turns volatile"
+    "haulers face growing drc transit peril mahagi route turns volatile",
+    "epra drops stabilisation safety net fuel prices surge past ksh226"
   ],
   "topic_keys": [
     "news tracker",
@@ -4756,6 +4758,15 @@
       "structure": "Driver safety hazard lead -> The Mahagi-Kisangani incident and rescue details -> Historical context of attacks (Kasumbalesa, Bunia, Mambasa) and damaged infrastructure -> LoDCA travel directives -> Unresolved state response.",
       "source": "https://kenyans.co.ke/news/127841-lodca-issues-security-alert-after-kenyan-drivers-reportedly-captured-drc-rebels",
       "published_at": "2026-10-14T14:02:26Z"
+    },
+    {
+      "title": "EPRA Drops Stabilisation Safety Net as Fuel Prices Surge Past Ksh226",
+      "angle": "The financial friction and policy contradiction of abandoning the fuel stabilisation fund while simultaneously attempting to stockpile capital for future price shocks, shifting immediate severe cost burdens directly onto household budgets.",
+      "angle_type": "consequence",
+      "opening": "Policy-tradeoff opening focusing on the abandonment of the fuel stabilisation fund and its immediate impact on pump prices.",
+      "structure": "Stabilisation policy pivot -> Pump price figures (Nairobi and Mombasa) -> Middle East supply cost spikes (USD 1,300 metric tonne) -> Subsidy reserve rationale and future risk -> Closing on retail consumer impact and forward pricing cycle.",
+      "source": "https://kenyans.co.ke/news/127847-epra-raises-petrol-prices-ksh1293-diesel-ksh990-kerosene-ksh284",
+      "published_at": "2026-10-14T16:02:37Z"
     }
   ]
 }
