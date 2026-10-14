@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "9809548605f1a52e4d56db8324654342",
     "3e048785a36538f0f06ed30bedf841f3",
     "bea1a8df3b01af73ad3c8266988cbd3c",
     "68956aa21e6ad13b0f786769c9501168",
@@ -799,10 +798,10 @@
     "d86aa04b0562d4863c9fbc045005112e",
     "1dd92863b5b8037c2ae8a3f19066bdb8",
     "17802532f40b67289e14245d16f7e1fc",
-    "c5f10d0081a92d42a5ca91ed1fddd313"
+    "c5f10d0081a92d42a5ca91ed1fddd313",
+    "e07c737b3b5cc2f1422c81daa8bdc54c"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1319,7 +1319,8 @@
     "https://kenyans.co.ke/news/127827-pope-leo-xiv-undergoes-90-minute-surgery-after-cancer-diagnosis",
     "https://kenyans.co.ke/news/127828-odm-warns-kenyans-against-spreading-fake-news-about-oburu-odingas-health",
     "https://kenyans.co.ke/news/127825-ppdt-issues-orders-blocking-azimios-ukombozi-alliance-name-change",
-    "https://kenyans.co.ke/news/127829-kcsfa-lists-4-details-organisations-should-report-after-data-breaches"
+    "https://kenyans.co.ke/news/127829-kcsfa-lists-4-details-organisations-should-report-after-data-breaches",
+    "https://kenyans.co.ke/news/127832-dci-expands-same-day-police-clearance-certificates-diplomats"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1729,7 +1730,8 @@
     "november south america trip doubt pope leo xiv undergoes lung surgery",
     "odm deploys dual track defence quell anxiety oburu convalescence",
     "azimio coalition rebrand stalls tribunal freezes ukombozi name",
-    "nc4 directs system operators justify withholding breach data victims"
+    "nc4 directs system operators justify withholding breach data victims",
+    "dci shifts diplomatic vetting live biometrics wider million record upgrade"
   ],
   "topic_keys": [
     "news tracker",
@@ -4690,6 +4692,15 @@
       "structure": "Attribution and beneficiary lead -> Four-part incident accounting breakdown -> Statutory 24-hour enforcement and criminal penalties -> National threat volume context (CA data) -> Critical infrastructure vulnerabilities (Interpol data)",
       "source": "https://kenyans.co.ke/news/127829-kcsfa-lists-4-details-organisations-should-report-after-data-breaches",
       "published_at": "2026-10-14T07:02:44Z"
+    },
+    {
+      "title": "DCI Shifts Diplomatic Vetting to Live Biometrics in Wider 10-Million Record Upgrade",
+      "angle": "Examining the administrative and capacity mechanics of the rollout: how the decentralisation to the DPU highlights DCI's five-fold database upgrade to 10 million records and a four-fold search surge, while tracking the broader provincial migration where 37 out of 63 clearance stations still await digital transition.",
+      "angle_type": "practical change",
+      "opening": "Operational-decoupling lead tying the DPU deployment to the backend capacity expansion that collapses fortnight-long vetting queues into single-day processing.",
+      "structure": "Decoupling and throughput lead -> Hardware and biometric shift (fingerprint, palm, facial) -> Backend system specifications (10M capacity, 20k queries) -> Phased national deployment footprint (26 of 63 connected) -> Lingering rollout horizon",
+      "source": "https://kenyans.co.ke/news/127832-dci-expands-same-day-police-clearance-certificates-diplomats",
+      "published_at": "2026-10-14T08:02:38Z"
     }
   ]
 }
