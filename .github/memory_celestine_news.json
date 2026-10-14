@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a6c06557f1b54543966ea9a8cdf9d9c7",
     "7098c9604e0aec2735a812834a77c615",
     "257a15bac9facce5ade419ccada2dbdc",
     "9809548605f1a52e4d56db8324654342",
@@ -799,10 +798,10 @@
     "6f44aa13eb392789ec3e0e419baab662",
     "0daa6d5f8df73ac0e85ed9111b16d9eb",
     "df1aee57eb73e3444955f64705c13fd3",
-    "d86aa04b0562d4863c9fbc045005112e"
+    "d86aa04b0562d4863c9fbc045005112e",
+    "1dd92863b5b8037c2ae8a3f19066bdb8"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1316,7 +1316,8 @@
     "https://kenyans.co.ke/news/127821-cabinet-announces-plan-fast-track-govt-projects-ahead-elections",
     "https://kenyans.co.ke/news/127823-religious-groups-demand-review-judges-car-grants-amid-legal-dispute",
     "https://kenyans.co.ke/news/127824-voi-taveta-railway-hits-40-cent-completion-after-20-years-inactivity",
-    "https://kenyans.co.ke/news/127827-pope-leo-xiv-undergoes-90-minute-surgery-after-cancer-diagnosis"
+    "https://kenyans.co.ke/news/127827-pope-leo-xiv-undergoes-90-minute-surgery-after-cancer-diagnosis",
+    "https://kenyans.co.ke/news/127828-odm-warns-kenyans-against-spreading-fake-news-about-oburu-odingas-health"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1723,7 +1724,8 @@
     "cabinet sets sprint deadline lock legacy projects before 2027 exits",
     "religious lobbies challenge dual car perks costing ksh2 judges",
     "dual rail strategy takes shape voi taveta mgr hits 40pc mark ahead sgr plans",
-    "november south america trip doubt pope leo xiv undergoes lung surgery"
+    "november south america trip doubt pope leo xiv undergoes lung surgery",
+    "odm deploys dual track defence quell anxiety oburu convalescence"
   ],
   "topic_keys": [
     "news tracker",
@@ -4657,6 +4659,15 @@
       "structure": "Calendar jeopardy lead -> Surgical and diagnostic specifics at Gemelli -> Pre-operative timeline from Sunday nodule disclosure -> Unresolved oncology variables (nodes, tumour size, therapy) -> Global administrative posture and international episcopal response",
       "source": "https://kenyans.co.ke/news/127827-pope-leo-xiv-undergoes-90-minute-surgery-after-cancer-diagnosis",
       "published_at": "2026-10-14T05:02:44Z"
+    },
+    {
+      "title": "ODM Deploys Dual-Track Defence to Quell Anxiety Over Oburu's Convalescence",
+      "angle": "Examining the communication strain on ODM's leadership apparatus, where back-to-back statements from the party and the family secretariat seek to manage public anxiety while keeping his specific medical diagnosis undisclosed following overseas treatment.",
+      "angle_type": "institutional pressure",
+      "opening": "Institutional communication lead focusing on the successive public reassurances deployed by party organs amid the senator's prolonged public absence.",
+      "structure": "Dual-track messaging lead -> Nature of medical convalescence and London-Nairobi treatment timeline -> The Bondo handover absence and proxy representation -> Constitutional free speech friction versus medical privacy",
+      "source": "https://kenyans.co.ke/news/127828-odm-warns-kenyans-against-spreading-fake-news-about-oburu-odingas-health",
+      "published_at": "2026-10-14T06:01:48Z"
     }
   ]
 }
