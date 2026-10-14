@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f8ceb671f0ea3d1b11bf7ed223a4437f",
     "9c6c9f278ebec1dc5c88bae2142db857",
     "508febb545c9471caf70e672c952ea6e",
     "abb642f744d13f4148f245e1281c7def",
@@ -799,10 +798,10 @@
     "5f8f04f7a5870e03ee8792d0c9b98425",
     "4adfb555679738af73ab3b498bef3869",
     "a9d5e038822ccf641879e507836aa2fe",
-    "747a919f5c0c33890eb94b91f4adae2b"
+    "747a919f5c0c33890eb94b91f4adae2b",
+    "6959c5b305bb145696f573a85efd159a"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1326,7 +1326,8 @@
     "https://kenyans.co.ke/news/127838-iebc-summons-uda-secretary-general-hassan-omar-over-remarks-dead-voters",
     "https://kenyans.co.ke/news/127837-opiyo-wandayi-slams-gachagua-over-claims-govt-plans-hike-pump-prices",
     "https://kenyans.co.ke/news/127841-lodca-issues-security-alert-after-kenyan-drivers-reportedly-captured-drc-rebels",
-    "https://kenyans.co.ke/news/127847-epra-raises-petrol-prices-ksh1293-diesel-ksh990-kerosene-ksh284"
+    "https://kenyans.co.ke/news/127847-epra-raises-petrol-prices-ksh1293-diesel-ksh990-kerosene-ksh284",
+    "https://kenyans.co.ke/news/127844-kenya-confirms-second-ebola-case-death-toll-remains-one"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1743,7 +1744,8 @@
     "iebc disciplinary panel summons hassan omar mombasa dead voter remarks",
     "epra facing political firestorm fuel pricing mechanics ahead unconventional live briefing",
     "haulers face growing drc transit peril mahagi route turns volatile",
-    "epra drops stabilisation safety net fuel prices surge past ksh226"
+    "epra drops stabilisation safety net fuel prices surge past ksh226",
+    "inside quarantine net caught second ebola case"
   ],
   "topic_keys": [
     "news tracker",
@@ -4767,6 +4769,15 @@
       "structure": "Stabilisation policy pivot -> Pump price figures (Nairobi and Mombasa) -> Middle East supply cost spikes (USD 1,300 metric tonne) -> Subsidy reserve rationale and future risk -> Closing on retail consumer impact and forward pricing cycle.",
       "source": "https://kenyans.co.ke/news/127847-epra-raises-petrol-prices-ksh1293-diesel-ksh990-kerosene-ksh284",
       "published_at": "2026-10-14T16:02:37Z"
+    },
+    {
+      "title": "Inside the Quarantine Net That Caught Kenya\u2019s Second Ebola Case",
+      "angle": "The operational efficiency and containment safety provided by quarantine architecture\u2014specifically how tracking 113 of 128 contacts and keeping 108 in isolation prevented community exposure when the second patient fell ill on October 13.",
+      "angle_type": "practical change",
+      "opening": "Quarantine-containment lead establishing how active monitoring intercepted the second case inside a controlled environment.",
+      "structure": "Quarantine-containment lead -> Patient diagnostic and lab confirmation details -> Contact tracing metrics and Africa CDC benchmarking -> Treatment center admission and remaining unlocated contacts -> Public helpline call-to-action close.",
+      "source": "https://kenyans.co.ke/news/127844-kenya-confirms-second-ebola-case-death-toll-remains-one",
+      "published_at": "2026-10-14T17:02:40Z"
     }
   ]
 }
