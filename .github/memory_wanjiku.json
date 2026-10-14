@@ -248,7 +248,8 @@
     "9c330535e2ecfdd5939d260344da75713148b07e6ce5db61dec1cf33d48ad1b5",
     "0a2f16cd95d9b7de34647e3c510800eff65119b073c238162af8abca50ad964e",
     "60f8aaf36c33f7e755bdc1d61d4cb1e5695a54a0258d44ea49595c1eca605fdc",
-    "119f40ffc1d0ff836e6305f45a8e6b76a8036bc969cc74b8c417c85947f465c6"
+    "119f40ffc1d0ff836e6305f45a8e6b76a8036bc969cc74b8c417c85947f465c6",
+    "5a4457461ea3f5052b1d2f7d9888344f1194a9454d3a890dd83f925b7757db1f"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -499,17 +500,10 @@
     "https://www.ghafla.co.ke/governor-orengo-warns-against-political-disruptions-ahead-of-raila-odinga-memorial/",
     "https://www.ghafla.co.ke/who-advices-why-border-closure-wont-help-reduce-ebola-spread/",
     "https://www.ghafla.co.ke/still-standing-strong-dj-bonez-sets-record-straight-on-marriage-to-kamene-goro/",
-    "https://www.ghafla.co.ke/kenya-activates-national-command-structure-following-confirmation-of-second-ebola-case/"
+    "https://www.ghafla.co.ke/kenya-activates-national-command-structure-following-confirmation-of-second-ebola-case/",
+    "https://www.ghafla.co.ke/rigathi-gachagua-accuses-president-ruto-of-fuel-price-manipulation-for-2027-campaign-cash/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018Don\u2019t Blame Riggy G\u2019: Gachagua Clears Himself of Wicknell Chivayo Crash in Wild Boston Pulpit Routine",
-      "angle": "Focusing on Gachagua's darkly comedic overseas pulpit routine in Boston, where he staged an unprompted personal alibi clearing himself of a fatal Zimbabwean air disaster while painting a theatrical picture of private airstrips, cross-border billions, and globe-trotting election brokers.",
-      "angle_type": "celebrity pulpit theatrics and unprompted personal alibi",
-      "opening": "Personality lead opening directly on Gachagua preemptively pleading innocent to a Zimbabwean air disaster from a Boston pulpit.",
-      "structure": "Personality lead -> The Boston alibi hook -> Private airstrips and the KSh 1.5 trillion claim -> Election conspiracy and tech claims -> Crash context and official silence close",
-      "source": "https://www.ghafla.co.ke/rigathi-gachagua-claims-wicknell-chivayo-died-with-rutos-debt-worth-over-ksh-1-5-trillion/"
-    },
     {
       "title": "\u2018Some Things Should Never Become Content\u2019: Millicent Omanga Leads Pushback Over Ciggie Johnson\u2019s 12-Year DNA Reveal",
       "angle": "Framing the event around the immediate ethics clash and public figure pushback regarding the broadcast of a minor's private paternity trauma as digital content.",
@@ -1301,6 +1295,14 @@
       "opening": "Personality lead opening directly on Dr. Patrick Amoth stepping before the nation to draw a strict privacy perimeter around affected households while putting the emergency command on war footing.",
       "structure": "Personality hook on privacy demand -> The second case confirmation and emergency command activation under 2026 rules -> Reassurance protecting public life, gatherings, and commerce -> Public behavior check on transmission realities vs viral panic -> Administrative reporting ledger and 719 hotline.",
       "source": "https://www.ghafla.co.ke/kenya-activates-national-command-structure-following-confirmation-of-second-ebola-case/"
+    },
+    {
+      "title": "\u2018Pure Lies and Conmanship\u2019: Rigathi Gachagua Fires at \u2018So-Called Expert\u2019 Opiyo Wandayi and \u2018Desperate\u2019 Ruto Over Pump Shock",
+      "angle": "Reframing the confrontation through Gachagua's sharp personal takedown of Energy CS Opiyo Wandayi as a scripted 'so-called expert' fronting 'pure lies and conmanship' for a 'desperate and angry' presidency hours before EPRA's official pricing cycle drop.",
+      "angle_type": "political celebrity clash and scripted-spokesperson takedown",
+      "opening": "Personality lead opening directly on Rigathi Gachagua tearing into Opiyo Wandayi and painting State House as running an election fundraising scheme at the fuel pump.",
+      "structure": "Personality broadside hook -> The specific 'so-called expert' Wandayi verbal clash -> The detailed KSh 9 and KSh 12 Gulf Energy fuel ledger and KSh 226 pump ceiling -> The 'desperate and angry' Ruto psychological framing -> Imminent EPRA pricing window close.",
+      "source": "https://www.ghafla.co.ke/rigathi-gachagua-accuses-president-ruto-of-fuel-price-manipulation-for-2027-campaign-cash/"
     }
   ],
   "style_history": [
