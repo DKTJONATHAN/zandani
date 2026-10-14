@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "3e048785a36538f0f06ed30bedf841f3",
     "bea1a8df3b01af73ad3c8266988cbd3c",
     "68956aa21e6ad13b0f786769c9501168",
     "744a5a2fc814b4daa379378cc55d2bd4",
@@ -799,10 +798,10 @@
     "1dd92863b5b8037c2ae8a3f19066bdb8",
     "17802532f40b67289e14245d16f7e1fc",
     "c5f10d0081a92d42a5ca91ed1fddd313",
-    "e07c737b3b5cc2f1422c81daa8bdc54c"
+    "e07c737b3b5cc2f1422c81daa8bdc54c",
+    "d4274ab5f5e0f9a1faae89aaa408487e"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1320,7 +1320,8 @@
     "https://kenyans.co.ke/news/127828-odm-warns-kenyans-against-spreading-fake-news-about-oburu-odingas-health",
     "https://kenyans.co.ke/news/127825-ppdt-issues-orders-blocking-azimios-ukombozi-alliance-name-change",
     "https://kenyans.co.ke/news/127829-kcsfa-lists-4-details-organisations-should-report-after-data-breaches",
-    "https://kenyans.co.ke/news/127832-dci-expands-same-day-police-clearance-certificates-diplomats"
+    "https://kenyans.co.ke/news/127832-dci-expands-same-day-police-clearance-certificates-diplomats",
+    "https://kenyans.co.ke/news/127833-closing-borders-could-push-travellers-unofficial-crossings-who-warns"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1731,7 +1732,8 @@
     "odm deploys dual track defence quell anxiety oburu convalescence",
     "azimio coalition rebrand stalls tribunal freezes ukombozi name",
     "nc4 directs system operators justify withholding breach data victims",
-    "dci shifts diplomatic vetting live biometrics wider million record upgrade"
+    "dci shifts diplomatic vetting live biometrics wider million record upgrade",
+    "health authorities are keeping border posts open trap ebola gates"
   ],
   "topic_keys": [
     "news tracker",
@@ -4701,6 +4703,15 @@
       "structure": "Decoupling and throughput lead -> Hardware and biometric shift (fingerprint, palm, facial) -> Backend system specifications (10M capacity, 20k queries) -> Phased national deployment footprint (26 of 63 connected) -> Lingering rollout horizon",
       "source": "https://kenyans.co.ke/news/127832-dci-expands-same-day-police-clearance-certificates-diplomats",
       "published_at": "2026-10-14T08:02:38Z"
+    },
+    {
+      "title": "Why Health Authorities Are Keeping Border Posts Open to Trap Ebola at the Gates",
+      "angle": "The operational surveillance funnel: how public health authorities are deliberately relying on open, formal crossing points to maintain visibility over regional transit corridors, because driving travellers into informal trails completely eliminates screening for an untreatable viral strain.",
+      "angle_type": "practical change",
+      "opening": "Strategic public health policy opening contrasting hard border shutdowns with structured border monitoring.",
+      "structure": "Containment policy lead -> Porous frontier mechanics and funnel logic -> Regional transmission path and screening throughput -> High-risk county readiness and diagnostic status in Laikipia",
+      "source": "https://kenyans.co.ke/news/127833-closing-borders-could-push-travellers-unofficial-crossings-who-warns",
+      "published_at": "2026-10-14T09:02:40Z"
     }
   ]
 }
