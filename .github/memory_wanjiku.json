@@ -247,7 +247,8 @@
     "a5c42ab3b337aa182de5c9ac06bfb35bc95b3ebfe8155b4d41ce3ed3ef5bacf8",
     "9c330535e2ecfdd5939d260344da75713148b07e6ce5db61dec1cf33d48ad1b5",
     "0a2f16cd95d9b7de34647e3c510800eff65119b073c238162af8abca50ad964e",
-    "60f8aaf36c33f7e755bdc1d61d4cb1e5695a54a0258d44ea49595c1eca605fdc"
+    "60f8aaf36c33f7e755bdc1d61d4cb1e5695a54a0258d44ea49595c1eca605fdc",
+    "119f40ffc1d0ff836e6305f45a8e6b76a8036bc969cc74b8c417c85947f465c6"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -497,17 +498,10 @@
     "https://www.ghafla.co.ke/sifuna-takes-aim-at-ruto-over-ksh567000-in-monthly-deductions/",
     "https://www.ghafla.co.ke/governor-orengo-warns-against-political-disruptions-ahead-of-raila-odinga-memorial/",
     "https://www.ghafla.co.ke/who-advices-why-border-closure-wont-help-reduce-ebola-spread/",
-    "https://www.ghafla.co.ke/still-standing-strong-dj-bonez-sets-record-straight-on-marriage-to-kamene-goro/"
+    "https://www.ghafla.co.ke/still-standing-strong-dj-bonez-sets-record-straight-on-marriage-to-kamene-goro/",
+    "https://www.ghafla.co.ke/kenya-activates-national-command-structure-following-confirmation-of-second-ebola-case/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018A Calculated Move\u2019: Mutahi Ngunyi Reads Uhuru\u2019s Kirinyaga Outing as Direct Challenge to Gachagua",
-      "angle": "Framing the moment through Mutahi Ngunyi\u2019s sharp online commentary calling out an unfolding succession clash between Uhuru Kenyatta and Rigathi Gachagua, spotlighting Kirinyaga as the staging ground for a high-stakes regional power struggle extending through 2032.",
-      "angle_type": "celebrity commentator hot-take and regional supremacy chess match",
-      "opening": "Personality lead opening directly on Mutahi Ngunyi weighing in on X about Uhuru Kenyatta's strategic moves in Kirinyaga.",
-      "structure": "Personality hook -> Social commentary breakdown -> The Kirinyaga catalyst -> The Gachagua counter-dynamic and 2032 stakes -> Concrete close",
-      "source": "https://www.ghafla.co.ke/mutahi-ngunyi-claims-uhuru-kenyatta-is-plotting-to-reclaim-mt-kenya-political-influence/"
-    },
     {
       "title": "\u2018Don\u2019t Blame Riggy G\u2019: Gachagua Clears Himself of Wicknell Chivayo Crash in Wild Boston Pulpit Routine",
       "angle": "Focusing on Gachagua's darkly comedic overseas pulpit routine in Boston, where he staged an unprompted personal alibi clearing himself of a fatal Zimbabwean air disaster while painting a theatrical picture of private airstrips, cross-border billions, and globe-trotting election brokers.",
@@ -1299,6 +1293,14 @@
       "opening": "Personality lead opening directly on DJ Bonez lounging in a tropical setting to bat away internet rumors.",
       "structure": "Personality hook -> The six-year timeline and marriage reality check -> Addressing the single market rumors -> Fanbase dynamics and final confirmation.",
       "source": "https://www.ghafla.co.ke/still-standing-strong-dj-bonez-sets-record-straight-on-marriage-to-kamene-goro/"
+    },
+    {
+      "title": "Dr. Patrick Amoth Draws the Line on Family Sleuths as Second Ebola Case Triggers Command Shield",
+      "angle": "Framing the emergency declaration around Dr. Patrick Amoth directly confronting online rumor mills and invasive social sleuths, drawing a hard boundary around patient family privacy while ensuring the entertainment, social, and commercial scenes remain entirely unrestricted.",
+      "angle_type": "public figure privacy mandate and social rumor rebuke",
+      "opening": "Personality lead opening directly on Dr. Patrick Amoth stepping before the nation to draw a strict privacy perimeter around affected households while putting the emergency command on war footing.",
+      "structure": "Personality hook on privacy demand -> The second case confirmation and emergency command activation under 2026 rules -> Reassurance protecting public life, gatherings, and commerce -> Public behavior check on transmission realities vs viral panic -> Administrative reporting ledger and 719 hotline.",
+      "source": "https://www.ghafla.co.ke/kenya-activates-national-command-structure-following-confirmation-of-second-ebola-case/"
     }
   ],
   "style_history": [
