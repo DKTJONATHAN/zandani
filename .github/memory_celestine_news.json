@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "bea1a8df3b01af73ad3c8266988cbd3c",
     "68956aa21e6ad13b0f786769c9501168",
     "744a5a2fc814b4daa379378cc55d2bd4",
     "ff96e7111c9680ce457a3c1e8af87189",
@@ -799,10 +798,10 @@
     "17802532f40b67289e14245d16f7e1fc",
     "c5f10d0081a92d42a5ca91ed1fddd313",
     "e07c737b3b5cc2f1422c81daa8bdc54c",
-    "d4274ab5f5e0f9a1faae89aaa408487e"
+    "d4274ab5f5e0f9a1faae89aaa408487e",
+    "4f6302e01832d30d77e8927c1db50f68"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1321,7 +1321,8 @@
     "https://kenyans.co.ke/news/127825-ppdt-issues-orders-blocking-azimios-ukombozi-alliance-name-change",
     "https://kenyans.co.ke/news/127829-kcsfa-lists-4-details-organisations-should-report-after-data-breaches",
     "https://kenyans.co.ke/news/127832-dci-expands-same-day-police-clearance-certificates-diplomats",
-    "https://kenyans.co.ke/news/127833-closing-borders-could-push-travellers-unofficial-crossings-who-warns"
+    "https://kenyans.co.ke/news/127833-closing-borders-could-push-travellers-unofficial-crossings-who-warns",
+    "https://kenyans.co.ke/news/127835-iebc-directs-political-parties-submit-names-authorised-persons-signatures-october-15"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1733,7 +1734,8 @@
     "azimio coalition rebrand stalls tribunal freezes ukombozi name",
     "nc4 directs system operators justify withholding breach data victims",
     "dci shifts diplomatic vetting live biometrics wider million record upgrade",
-    "health authorities are keeping border posts open trap ebola gates"
+    "health authorities are keeping border posts open trap ebola gates",
+    "iebc clamps down party signatories stem 2027 nomination disputes"
   ],
   "topic_keys": [
     "news tracker",
@@ -4712,6 +4714,15 @@
       "structure": "Containment policy lead -> Porous frontier mechanics and funnel logic -> Regional transmission path and screening throughput -> High-risk county readiness and diagnostic status in Laikipia",
       "source": "https://kenyans.co.ke/news/127833-closing-borders-could-push-travellers-unofficial-crossings-who-warns",
       "published_at": "2026-10-14T09:02:40Z"
+    },
+    {
+      "title": "IEBC Clamps Down on Party Signatories to Stem 2027 Nomination Disputes",
+      "angle": "Framing the regulatory crackdown through legal compliance and electoral protection: the IEBC is locking in party gatekeepers to prevent disputed party endorsements and ballot chaos, even as Parliament shoots down the commission's statutory reform package.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first statement establishing the IEBC's regulatory demand and identifying political parties and voters who benefit from locked signatory authority.",
+      "structure": "Lead on regulatory attribution and protection -> Core statutory mechanics at Anniversary Towers -> The cascading timeline from harambee bans to campaign finance rules -> Institutional friction with Parliament over rejected election amendment proposals",
+      "source": "https://kenyans.co.ke/news/127835-iebc-directs-political-parties-submit-names-authorised-persons-signatures-october-15",
+      "published_at": "2026-10-14T11:02:46Z"
     }
   ]
 }
