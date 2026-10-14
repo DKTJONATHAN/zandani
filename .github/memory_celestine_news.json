@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "68956aa21e6ad13b0f786769c9501168",
     "744a5a2fc814b4daa379378cc55d2bd4",
     "ff96e7111c9680ce457a3c1e8af87189",
     "1c302992e5736d6d3ba32ec512821a23",
@@ -799,10 +798,10 @@
     "c5f10d0081a92d42a5ca91ed1fddd313",
     "e07c737b3b5cc2f1422c81daa8bdc54c",
     "d4274ab5f5e0f9a1faae89aaa408487e",
-    "4f6302e01832d30d77e8927c1db50f68"
+    "4f6302e01832d30d77e8927c1db50f68",
+    "5f8f04f7a5870e03ee8792d0c9b98425"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1322,7 +1322,8 @@
     "https://kenyans.co.ke/news/127829-kcsfa-lists-4-details-organisations-should-report-after-data-breaches",
     "https://kenyans.co.ke/news/127832-dci-expands-same-day-police-clearance-certificates-diplomats",
     "https://kenyans.co.ke/news/127833-closing-borders-could-push-travellers-unofficial-crossings-who-warns",
-    "https://kenyans.co.ke/news/127835-iebc-directs-political-parties-submit-names-authorised-persons-signatures-october-15"
+    "https://kenyans.co.ke/news/127835-iebc-directs-political-parties-submit-names-authorised-persons-signatures-october-15",
+    "https://kenyans.co.ke/news/127838-iebc-summons-uda-secretary-general-hassan-omar-over-remarks-dead-voters"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1735,7 +1736,8 @@
     "nc4 directs system operators justify withholding breach data victims",
     "dci shifts diplomatic vetting live biometrics wider million record upgrade",
     "health authorities are keeping border posts open trap ebola gates",
-    "iebc clamps down party signatories stem 2027 nomination disputes"
+    "iebc clamps down party signatories stem 2027 nomination disputes",
+    "iebc disciplinary panel summons hassan omar mombasa dead voter remarks"
   ],
   "topic_keys": [
     "news tracker",
@@ -4723,6 +4725,15 @@
       "structure": "Lead on regulatory attribution and protection -> Core statutory mechanics at Anniversary Towers -> The cascading timeline from harambee bans to campaign finance rules -> Institutional friction with Parliament over rejected election amendment proposals",
       "source": "https://kenyans.co.ke/news/127835-iebc-directs-political-parties-submit-names-authorised-persons-signatures-october-15",
       "published_at": "2026-10-14T11:02:46Z"
+    },
+    {
+      "title": "IEBC Disciplinary Panel Summons Hassan Omar Over Mombasa Dead-Voter Remarks",
+      "angle": "Framing the summons around regulatory accountability and the enforcement committee's oversight reach, putting the ruling party's top administrator on the defensive over public rhetoric that challenges voter roll integrity.",
+      "angle_type": "accountability",
+      "opening": "Regulatory-reckoning lead focusing on the disciplinary mechanism invoked against the ruling party chief at Anniversary Towers.",
+      "structure": "Regulatory lead -> Summons mechanics and committee mandate -> Rally remarks context in Mombasa -> Integrity implications of the voter register -> Forward calendar to the October 21 hearing",
+      "source": "https://kenyans.co.ke/news/127838-iebc-summons-uda-secretary-general-hassan-omar-over-remarks-dead-voters",
+      "published_at": "2026-10-14T12:02:35Z"
     }
   ]
 }
