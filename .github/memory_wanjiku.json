@@ -256,7 +256,8 @@
     "1e571620d691dce95b95f49b96e2020b3a588cf9d6e8b3cb69e277ef00b4a647",
     "9472e7464441c5cabebe96e2e57b36ca3f3f807547bb734fa9e899f2ef996e04",
     "d4abac4a0e83d7a40a0aa555e78d19de6507ffa0eea1f76d37844744d91bf2fe",
-    "d701bb59cee1993621ffff93ed37f6c90a338dacbb1e83a60e59034a4157f30f"
+    "d701bb59cee1993621ffff93ed37f6c90a338dacbb1e83a60e59034a4157f30f",
+    "1ce4ab4c6d7e7b964306764bbf75bda8ac23c29fee00d6b339a56d63288093eb"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -515,17 +516,10 @@
     "https://www.ghafla.co.ke/mining-cs-hassan-joho-expands-vehicle-collection-with-ksh-105m-ferrari-purosangue/",
     "https://www.ghafla.co.ke/kenya-power-announces-wednesday-blackouts-in-nairobi-kiambu-nyeri-meru-and-other-counties/",
     "https://www.ghafla.co.ke/odinga-family-political-allies-gather-in-bondo-for-late-leaders-first-anniversary-memorial/",
-    "https://www.ghafla.co.ke/dont-make-assumptions-kamene-goro-addresses-marriage-speculation-after-viral-social-media-post/"
+    "https://www.ghafla.co.ke/dont-make-assumptions-kamene-goro-addresses-marriage-speculation-after-viral-social-media-post/",
+    "https://www.ghafla.co.ke/ruto-hits-out-at-opponents-over-wantam-slogans-accuses-them-of-promoting-division/"
   ],
   "published_angles": [
-    {
-      "title": "Antony Kibagendi Slams Ruto\u2019s KSh 2.23 Trillion Dangote Deal over Missing Parliament Nod and Inflated Job Hype",
-      "angle": "Focusing on Kibagendi's direct reality-check against presidential economic projections\u2014dismantling the grand job creation and price-drop promises by citing hard employment numbers from Dangote's existing Nigerian footprint.",
-      "angle_type": "celebrity political clash and economic reality check",
-      "opening": "Personality-led opening focusing directly on Antony Kibagendi taking aim at presidential project projections on television.",
-      "structure": "Personality clash hook -> Television interview breakdown -> Reality check on Nigerian plant jobs and fuel prices -> Constitutional power of the purse debate -> Unresolved parliamentary resistance close",
-      "source": "https://www.ghafla.co.ke/bypassing-parliament-mp-kibagendi-challenges-ruto-over-dangote-refinery-deal/"
-    },
     {
       "title": "\u2018Stop This Nonsense\u2019: MC Jessy Warns Women Against the High-Risk Gamble of \u2018Growing With a Man\u2019",
       "angle": "Focusing on MC Jessy's pragmatic dismantling of the romanticized 'struggle love' narrative, analyzing his 'softer hard' philosophy and the warning of relationship asymmetry where one partner outgrows the other.",
@@ -1317,6 +1311,14 @@
       "opening": "Personality lead opening directly on Kamene Goro stepping into Instagram Stories to dismantle the quick-fire assumptions tied to a solitary morning post.",
       "structure": "Personality narrative correction hook -> The specific Instagram elements (Bien's track and solitude captions) -> The explicit warning against self-misleading assumptions -> The historical timeline of her marriage to DJ Bonez since 2020 -> Concrete close on their six-year journey.",
       "source": "https://www.ghafla.co.ke/dont-make-assumptions-kamene-goro-addresses-marriage-speculation-after-viral-social-media-post/"
+    },
+    {
+      "title": "William Ruto Slams \u2018Wantam\u2019 and \u2018Must Go\u2019 Chants as Street-Level Slogans Void of Policy",
+      "angle": "Focusing on the linguistic dismissal of viral street slogans like 'Wantam' and how political branding shapes the 2027 cultural-political lexicon.",
+      "angle_type": "cultural-political lexicon and slogan critique",
+      "opening": "Personality lead focusing squarely on President William Ruto stepping into the cultural-political fray to dismantle viral street slogans.",
+      "structure": "Personality headline hook -> The specific dismissal of 'Wantam' and 'must go' -> The regional balkanization and ethnic division claims -> The 2027 political positioning context -> Concrete close on the ongoing cycle.",
+      "source": "https://www.ghafla.co.ke/ruto-hits-out-at-opponents-over-wantam-slogans-accuses-them-of-promoting-division/"
     }
   ],
   "style_history": [
