@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "49fa683f311ca86e4c2c11176300bac0",
     "70e8570f840ba7b189fceae0b46b947f",
     "df83fbbf58d786c8e246a710ce05e062",
     "b4f2ed8321c5b0317d8b67d44464d760",
@@ -799,10 +798,10 @@
     "3d70e8ab26e752b6ec8cee871403fde8",
     "cfdea924e0a8489467c2273a8d3d6f06",
     "cdfc19955434d1a1fa0885d0239a06e0",
-    "4ba95fb143c2840174d04bbfcff87840"
+    "4ba95fb143c2840174d04bbfcff87840",
+    "c2cf85f13354974842540bf963755309"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1331,7 +1331,8 @@
     "https://kenyans.co.ke/news/127840-governors-reject-cras-ksh4408-billion-revenue-allocation-proposal",
     "https://kenyans.co.ke/news/127842-malindi-court-lifts-order-blocking-construction-ksh-22t-dangote-lamu-oil-refinery",
     "https://kenyans.co.ke/news/127851-parliament-extends-fuel-vat-8-amid-uproar-over-epra-price-hikes",
-    "https://kenyans.co.ke/news/127853-motorists-lobby-threaten-protests-over-epra-fuel-price-hikes-demand-g-g-audit"
+    "https://kenyans.co.ke/news/127853-motorists-lobby-threaten-protests-over-epra-fuel-price-hikes-demand-g-g-audit",
+    "https://kenyans.co.ke/news/127854-eacc-recover-ksh170-million-waititu-after-high-court-ruling"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1753,7 +1754,8 @@
     "county budgets face ksh100 billion crisis ahead 2027",
     "procedural blunders clear path dangote ksh lamu refinery injunction collapses",
     "parliament extends fuel vat state sacrifices billions offset subsidy freeze",
-    "motorists push auditor general open epra fuel pricing books kerosene jumps ksh28"
+    "motorists push auditor general open epra fuel pricing books kerosene jumps ksh28",
+    "high court laundering reversal hands eacc fresh muscle ksh170m waititu civil clawback"
   ],
   "topic_keys": [
     "news tracker",
@@ -4822,6 +4824,15 @@
       "structure": "Regulatory oversight demand -> Kerosene pricing contradiction and landed-cost metrics -> G-to-G supplier premium transparency -> Petroleum Development Levy accounting -> Forward timeline on mobilization and parliamentary referral.",
       "source": "https://kenyans.co.ke/news/127853-motorists-lobby-threaten-protests-over-epra-fuel-price-hikes-demand-g-g-audit",
       "published_at": "2026-10-15T05:41:24Z"
+    },
+    {
+      "title": "High Court Laundering Reversal Hands EACC Fresh Muscle in Ksh170M Waititu Civil Clawback",
+      "angle": "Examining the strategic twin-track legal squeeze: how EACC is leveraging the High Court's criminal laundering verdict to break open its pending civil asset clawback, compounding earlier forfeitures against the former governor.",
+      "angle_type": "accountability",
+      "opening": "Legal-leverage lead connecting the High Court's criminal reversal on money laundering directly to the evidentiary strength of EACC's stalled Ksh170 million civil clawback.",
+      "structure": "Judicial leverage lead -> Reinstated criminal charges and October 19 sentencing calendar -> Anatomy of the Ksh588M Kiambu road tender -> Cumulative asset forfeiture trail (Ksh131.2M seized) -> Civil suit threshold and outstanding judicial determination.",
+      "source": "https://kenyans.co.ke/news/127854-eacc-recover-ksh170-million-waititu-after-high-court-ruling",
+      "published_at": "2026-10-15T06:02:08Z"
     }
   ]
 }
