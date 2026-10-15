@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "476fdae62c807614a44cc166799fde84",
     "660c3f4747376dc8873d1bcb9a8129b1",
     "d5d29f575c48cefb0ed5e30430878bde",
     "8f6d5f6eca718894572c0dc0ff024e6b",
@@ -799,10 +798,10 @@
     "c2cf85f13354974842540bf963755309",
     "3acb4f2037d78a1725f16a73f77b4f4b",
     "146d9f38d7dc3886d15c5125cefd7070",
-    "f831991a7e70145c42998626e46bf794"
+    "f831991a7e70145c42998626e46bf794",
+    "409ac9c67f350a811d079e25ed492c2f"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1335,7 +1335,8 @@
     "https://kenyans.co.ke/news/127854-eacc-recover-ksh170-million-waititu-after-high-court-ruling",
     "https://kenyans.co.ke/news/127855-explained-how-kenyas-new-digital-classrooms-connect-schools",
     "https://kenyans.co.ke/news/127859-china-warns-against-turning-african-minerals-tools-geopolitical-rivalry",
-    "https://kenyans.co.ke/news/127861-kutrrh-nurses-issue-21-day-strike-notice-threaten-halt-operations"
+    "https://kenyans.co.ke/news/127861-kutrrh-nurses-issue-21-day-strike-notice-threaten-halt-operations",
+    "https://kenyans.co.ke/news/127860-bolt-launches-bolt-plus-subscription-10-cashback-rides"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1761,7 +1762,8 @@
     "high court laundering reversal hands eacc fresh muscle ksh170m waititu civil clawback",
     "state opens 000 school smartboard tender remote classrooms link",
     "kwale mrima hill caught global scramble beijing warns against mineral rivalry",
-    "kutrrh admission freeze looms nurses day strike notice sets november showdown"
+    "kutrrh admission freeze looms nurses day strike notice sets november showdown",
+    "bolt launches paid tier lock commuters while pledging shield driver margins"
   ],
   "topic_keys": [
     "news tracker",
@@ -4866,6 +4868,15 @@
       "structure": "Operational consequence lead -> Admission restrictions and emergency skeleton setup -> The seven lingering grievances (contracts, arrears, CBA) -> Context of the September near-miss and management deadlock -> Forward calendar toward November 9.",
       "source": "https://kenyans.co.ke/news/127861-kutrrh-nurses-issue-21-day-strike-notice-threaten-halt-operations",
       "published_at": "2026-10-15T09:02:12Z"
+    },
+    {
+      "title": "Bolt Launches Paid Tier to Lock In Commuters While Pledging Shield for Driver Margins",
+      "angle": "Attribution-first examination of Bolt's recurring-revenue push to lock in frequent urban transit spenders, anchored by management's explicit commitment to insulate driver and courier earnings from promotional discounting overhead.",
+      "angle_type": "money",
+      "opening": "Attribution-first statement identifying the corporate rollout and directly naming the high-volume urban commuters and gig workers positioned on either side of the pricing model.",
+      "structure": "Attribution-benefit lead -> Tiered subscription economics and wallet cashback mechanics -> Labor margin firewall and partner underwriting -> Dispatch prioritization and corporate ecosystem expansion.",
+      "source": "https://kenyans.co.ke/news/127860-bolt-launches-bolt-plus-subscription-10-cashback-rides",
+      "published_at": "2026-10-15T10:02:04Z"
     }
   ]
 }
