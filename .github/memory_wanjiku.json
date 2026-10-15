@@ -257,7 +257,8 @@
     "9472e7464441c5cabebe96e2e57b36ca3f3f807547bb734fa9e899f2ef996e04",
     "d4abac4a0e83d7a40a0aa555e78d19de6507ffa0eea1f76d37844744d91bf2fe",
     "d701bb59cee1993621ffff93ed37f6c90a338dacbb1e83a60e59034a4157f30f",
-    "1ce4ab4c6d7e7b964306764bbf75bda8ac23c29fee00d6b339a56d63288093eb"
+    "1ce4ab4c6d7e7b964306764bbf75bda8ac23c29fee00d6b339a56d63288093eb",
+    "685adbaaa6455d5d86d1e2a439af579736f6b465993222864fb48196afe29072"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -517,17 +518,10 @@
     "https://www.ghafla.co.ke/kenya-power-announces-wednesday-blackouts-in-nairobi-kiambu-nyeri-meru-and-other-counties/",
     "https://www.ghafla.co.ke/odinga-family-political-allies-gather-in-bondo-for-late-leaders-first-anniversary-memorial/",
     "https://www.ghafla.co.ke/dont-make-assumptions-kamene-goro-addresses-marriage-speculation-after-viral-social-media-post/",
-    "https://www.ghafla.co.ke/ruto-hits-out-at-opponents-over-wantam-slogans-accuses-them-of-promoting-division/"
+    "https://www.ghafla.co.ke/ruto-hits-out-at-opponents-over-wantam-slogans-accuses-them-of-promoting-division/",
+    "https://www.ghafla.co.ke/president-ruto-commits-ksh-1-5-billion-to-upgrade-baringo-healthcare-as-410000-residents-register-under-sha/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018Stop This Nonsense\u2019: MC Jessy Warns Women Against the High-Risk Gamble of \u2018Growing With a Man\u2019",
-      "angle": "Focusing on MC Jessy's pragmatic dismantling of the romanticized 'struggle love' narrative, analyzing his 'softer hard' philosophy and the warning of relationship asymmetry where one partner outgrows the other.",
-      "angle_type": "relationship financial strategy and lifestyle critique",
-      "opening": "Personality lead focusing directly on MC Jessy's blunt rejection of the 'growing together' relationship model.",
-      "structure": "Personality lead -> Analysis of the 'growing together' risk for women -> Financial directives for young men in their 20s -> The nuance of joint pooling versus starting from zero -> The 'softer hard' philosophical close.",
-      "source": "https://www.ghafla.co.ke/mc-jessy-urges-women-to-build-themselves-before-settling-down/"
-    },
     {
       "title": "KRG The Don Puts Strict Passenger and Forex Bans on Vincent Mboya\u2019s New Ride",
       "angle": "Examining KRG The Don's unprompted, highly specific life coaching decrees\u2014spanning romantic restrictions, vehicle occupancy rules, and a strict ban on forex trading\u2014issued during a theatrical roadside ritual.",
@@ -1319,6 +1313,14 @@
       "opening": "Personality lead focusing squarely on President William Ruto stepping into the cultural-political fray to dismantle viral street slogans.",
       "structure": "Personality headline hook -> The specific dismissal of 'Wantam' and 'must go' -> The regional balkanization and ethnic division claims -> The 2027 political positioning context -> Concrete close on the ongoing cycle.",
       "source": "https://www.ghafla.co.ke/ruto-hits-out-at-opponents-over-wantam-slogans-accuses-them-of-promoting-division/"
+    },
+    {
+      "title": "William Ruto Puts Personal Guarantee on KSh 1.5B Baringo Health Ledger as 410,000 Enter SHA Fold",
+      "angle": "Framing the moment around Ruto stepping up on the Kabarnet stage to put his personal credibility behind the contentious healthcare transition, directly addressing local anxieties about missing funds with an explicit personal guarantee while drawing a class contrast between the old NHIF and grassroots SHA enrollment.",
+      "angle_type": "political personality accountability and resource pledge",
+      "opening": "Personality lead opening squarely on President William Ruto taking the Kabarnet stage to place his personal word between suspicious grassroots scrutiny and the reality of county hospital cash flows.",
+      "structure": "Personality platform hook -> The specific Kabarnet security guarantee and KSh 1.5B direct ledger -> The class contrast: NHIF elite legacy vs Article 43 SHA reality -> Decentralization push to end long-distance medical runs -> Local SHA sign-up push close",
+      "source": "https://www.ghafla.co.ke/president-ruto-commits-ksh-1-5-billion-to-upgrade-baringo-healthcare-as-410000-residents-register-under-sha/"
     }
   ],
   "style_history": [
