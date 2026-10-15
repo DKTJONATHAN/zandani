@@ -252,7 +252,8 @@
     "5a4457461ea3f5052b1d2f7d9888344f1194a9454d3a890dd83f925b7757db1f",
     "005dd98cd68e2480dc7be9eca3f5a2891e174d86e36812625e2e521ba53ab413",
     "aa1dfc9227782dcd58429c25c853407a30858d38b9411f8419e7c5f40e5a216e",
-    "d6694679167a995342ac01779a5efbc3e8eb76677aa4adf8590b1c046b5a1ca1"
+    "d6694679167a995342ac01779a5efbc3e8eb76677aa4adf8590b1c046b5a1ca1",
+    "1e571620d691dce95b95f49b96e2020b3a588cf9d6e8b3cb69e277ef00b4a647"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -507,17 +508,10 @@
     "https://www.ghafla.co.ke/rigathi-gachagua-accuses-president-ruto-of-fuel-price-manipulation-for-2027-campaign-cash/",
     "https://www.ghafla.co.ke/karangu-muraya-breaks-silence-on-ex-partner-triza-says-she-has-moved-on/",
     "https://www.ghafla.co.ke/bahati-dares-forex-traders-to-match-kenyan-princes-ksh1-million-wedding-invitation/",
-    "https://www.ghafla.co.ke/nairofey-claims-her-rozzita-became-tighter-after-giving-birth/"
+    "https://www.ghafla.co.ke/nairofey-claims-her-rozzita-became-tighter-after-giving-birth/",
+    "https://www.ghafla.co.ke/mining-cs-hassan-joho-expands-vehicle-collection-with-ksh-105m-ferrari-purosangue/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018His Spirit Rests on Sifuna\u2019: Peter Mbae Demands India Death Inquiry in Live K24 Tribute",
-      "angle": "Focusing on Peter Mbae's live television appearance where he linked Sifuna's succession to an explicit demand for a future inquiry into Raila Odinga's fatal hospitalization in India.",
-      "angle_type": "live broadcast endorsement and lingering inquiry demand",
-      "opening": "Personality lead focusing directly on Peter Mbae's studio appearance and specific broadcast declarations.",
-      "structure": "Studio appearance lead -> Direct legacy declaration -> TEP party transition and Linda Mwananchi context -> Unresolved India death inquiry demand -> Strategic opposition landscape close.",
-      "source": "https://www.ghafla.co.ke/inheriting-the-mantle-railas-political-spirit-now-rests-with-sifuna-says-mbae/"
-    },
     {
       "title": "Edward Muriuki Sets October Calendar as Short Rains Hit 24 Counties",
       "angle": "The operational timeline and geographical breakdown affecting farming regions versus pastoralist zones, viewed through the immediate calendar countdown issued by acting head Edward Muriuki.",
@@ -1309,6 +1303,14 @@
       "opening": "Personality lead focusing directly on Nairofey stepping into Instagram Stories to dismantle body-shaming myths.",
       "structure": "Personality hook on the 'sufuria' video -> The anatomical defense of elasticity -> Context of online motherhood debates involving Risper Faith and Dem Wa Facebook -> Concrete medical caveats on postpartum recovery.",
       "source": "https://www.ghafla.co.ke/nairofey-claims-her-rozzita-became-tighter-after-giving-birth/"
+    },
+    {
+      "title": "Hassan Joho Doubles Down on Maranello Steel With KSh 105M Ferrari Purosangue Addition",
+      "angle": "Framing Joho's latest acquisition through his deliberate curation of elite horsepower, specifically spotlighting his addition of Ferrari's first four-door utility vehicle alongside his existing stable of grand tourers, roadsters, and off-road staples.",
+      "angle_type": "celebrity lifestyle and luxury garage portfolio",
+      "opening": "Personality lead opening directly on Hassan Joho stepping out alongside Ferrari's KSh 105 million four-door utility flagship.",
+      "structure": "Personality hook -> The landed cost and Maranello specs -> Joho's established multi-tier luxury fleet -> Engineering distinction of the four-door utility layout -> Concrete customs and valuation close",
+      "source": "https://www.ghafla.co.ke/mining-cs-hassan-joho-expands-vehicle-collection-with-ksh-105m-ferrari-purosangue/"
     }
   ],
   "style_history": [
