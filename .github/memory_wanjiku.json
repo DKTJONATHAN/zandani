@@ -251,7 +251,8 @@
     "119f40ffc1d0ff836e6305f45a8e6b76a8036bc969cc74b8c417c85947f465c6",
     "5a4457461ea3f5052b1d2f7d9888344f1194a9454d3a890dd83f925b7757db1f",
     "005dd98cd68e2480dc7be9eca3f5a2891e174d86e36812625e2e521ba53ab413",
-    "aa1dfc9227782dcd58429c25c853407a30858d38b9411f8419e7c5f40e5a216e"
+    "aa1dfc9227782dcd58429c25c853407a30858d38b9411f8419e7c5f40e5a216e",
+    "d6694679167a995342ac01779a5efbc3e8eb76677aa4adf8590b1c046b5a1ca1"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -505,17 +506,10 @@
     "https://www.ghafla.co.ke/kenya-activates-national-command-structure-following-confirmation-of-second-ebola-case/",
     "https://www.ghafla.co.ke/rigathi-gachagua-accuses-president-ruto-of-fuel-price-manipulation-for-2027-campaign-cash/",
     "https://www.ghafla.co.ke/karangu-muraya-breaks-silence-on-ex-partner-triza-says-she-has-moved-on/",
-    "https://www.ghafla.co.ke/bahati-dares-forex-traders-to-match-kenyan-princes-ksh1-million-wedding-invitation/"
+    "https://www.ghafla.co.ke/bahati-dares-forex-traders-to-match-kenyan-princes-ksh1-million-wedding-invitation/",
+    "https://www.ghafla.co.ke/nairofey-claims-her-rozzita-became-tighter-after-giving-birth/"
   ],
   "published_angles": [
-    {
-      "title": "Rigathi Gachagua Crowned 'Cousin' as He Places All Bets on Edwin Sifuna\u2019s Equitable Party",
-      "angle": "Focusing on Gachagua's personal branding and affectionate 'cousin' framing as he attempts to hitch his post-impeachment political survival to Sifuna's rising opposition momentum.",
-      "angle_type": "political alliance branding and personal narrative framing",
-      "opening": "Personality lead focusing directly on Gachagua's affectionate 'cousin' address and public embrace of Sifuna.",
-      "structure": "Personality hook -> Affectionate branding and family framing -> Strategic party goals and 2027 legislative ambitions -> Post-impeachment political positioning close",
-      "source": "https://www.ghafla.co.ke/gachagua-rallies-behind-sifunas-new-party-to-drive-parliamentary-shift/"
-    },
     {
       "title": "\u2018His Spirit Rests on Sifuna\u2019: Peter Mbae Demands India Death Inquiry in Live K24 Tribute",
       "angle": "Focusing on Peter Mbae's live television appearance where he linked Sifuna's succession to an explicit demand for a future inquiry into Raila Odinga's fatal hospitalization in India.",
@@ -1307,6 +1301,14 @@
       "opening": "Personality lead opening squarely on Bahati using Kenyan Prince's paid receipt to lay down a direct financial challenge to Nairobi's forex trading community.",
       "structure": "Personality dare hook -> The forex challenge details and quotes -> The 100-seat, KSh 100 million wedding economics -> Defending the 'baller' gate against Mosiria and Kanyari -> November 6 countdown",
       "source": "https://www.ghafla.co.ke/bahati-dares-forex-traders-to-match-kenyan-princes-ksh1-million-wedding-invitation/"
+    },
+    {
+      "title": "Nairofey Takes On Viral Birth Myths, Claims Pregnancy Left Her \u2018Rozzita\u2019 Tighter",
+      "angle": "Examining how digital creators weaponize intimate personal commentary to disrupt viral body-shaming tropes and online myths about motherhood.",
+      "angle_type": "creator commentary and body-myth debunking",
+      "opening": "Personality lead focusing directly on Nairofey stepping into Instagram Stories to dismantle body-shaming myths.",
+      "structure": "Personality hook on the 'sufuria' video -> The anatomical defense of elasticity -> Context of online motherhood debates involving Risper Faith and Dem Wa Facebook -> Concrete medical caveats on postpartum recovery.",
+      "source": "https://www.ghafla.co.ke/nairofey-claims-her-rozzita-became-tighter-after-giving-birth/"
     }
   ],
   "style_history": [
