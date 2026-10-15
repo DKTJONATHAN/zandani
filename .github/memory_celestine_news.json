@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "b05b47f1bd12ba40fefc551bf18fde79",
     "3f1e3728a774d91cb73a2d4c7152f716",
     "5e2d5d92890011c9705128a98872c31c",
     "c628b5e56c10131dd7b0f2a6fb48535f",
@@ -799,10 +798,10 @@
     "409ac9c67f350a811d079e25ed492c2f",
     "9c4ffd236b18f326c92aada029dc325d",
     "dd72a8e748860351a38796790e3a56a6",
-    "817442965f6f48fd9450066c76ad5b32"
+    "817442965f6f48fd9450066c76ad5b32",
+    "a1092f0ab92ece701b181cc2c003fb04"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1339,7 +1339,8 @@
     "https://kenyans.co.ke/news/127860-bolt-launches-bolt-plus-subscription-10-cashback-rides",
     "https://kenyans.co.ke/news/127867-court-rules-nakuru-war-memorial-hospital-owns-disputed-25-acre-land",
     "https://kenyans.co.ke/news/127868-mama-ida-reveals-doctors-instructions-behind-oburus-absence-railas-memorial",
-    "https://kenyans.co.ke/news/127873-kasarani-undergo-fresh-upgrades-ahead-2029-world-championships-ruto-confirms"
+    "https://kenyans.co.ke/news/127873-kasarani-undergo-fresh-upgrades-ahead-2029-world-championships-ruto-confirms",
+    "https://kenyans.co.ke/news/127874-kra-confirms-etims-tims-invoices-accepted-govt-payments"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1769,7 +1770,8 @@
     "bolt launches paid tier lock commuters while pledging shield driver margins",
     "court orders nakuru county out war memorial hospital month seizure",
     "restless bondo memorial crowd forces ida detail oburu medical leave",
-    "kasarani locked multi year overhaul state backs 2029 world athletics pact"
+    "kasarani locked multi year overhaul state backs 2029 world athletics pact",
+    "kra treasury clear tims invoices ifmis fix state suppliers"
   ],
   "topic_keys": [
     "news tracker",
@@ -4910,6 +4912,15 @@
       "structure": "Two-phase infrastructure timeline -> The three-pillar compliance pact (funding, anti-doping, stadium) -> Coe's Eldoret mandate and attendance challenge -> Nairobi's bidding credentials and the 2027-2031 global hosting sequence.",
       "source": "https://kenyans.co.ke/news/127873-kasarani-undergo-fresh-upgrades-ahead-2029-world-championships-ruto-confirms",
       "published_at": "2026-10-15T13:03:07Z"
+    },
+    {
+      "title": "KRA, Treasury Clear TIMS Invoices in IFMIS Fix for State Suppliers",
+      "angle": "Framing the joint announcement through immediate administrative relief for contractors caught in payment processing bottlenecks after an earlier August directive omitted older TIMS devices.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first statement identifying the joint revenue-treasury directive, immediately establishing the commercial relief for state suppliers processing procurement claims.",
+      "structure": "Attribution and beneficiary lead -> Joint directive details and quote -> The August policy omission that triggered contractor friction -> Automated compliance checks inside IFMIS -> Operational contacts and validation standards.",
+      "source": "https://kenyans.co.ke/news/127874-kra-confirms-etims-tims-invoices-accepted-govt-payments",
+      "published_at": "2026-10-15T14:02:06Z"
     }
   ]
 }
