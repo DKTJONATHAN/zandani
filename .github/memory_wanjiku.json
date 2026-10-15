@@ -260,7 +260,8 @@
     "1ce4ab4c6d7e7b964306764bbf75bda8ac23c29fee00d6b339a56d63288093eb",
     "685adbaaa6455d5d86d1e2a439af579736f6b465993222864fb48196afe29072",
     "341d5802d5947e839c536e4188401f0830083bc59af11760c21900c3cf9bb82f",
-    "927ddb6c0d770af47da01c598038d85f89c709412a782666ad358978e43cc286"
+    "927ddb6c0d770af47da01c598038d85f89c709412a782666ad358978e43cc286",
+    "6f88f0879b23aab2a9cea501560b09a50aa67617c981b0e01e894e95afc1ca14"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -523,17 +524,10 @@
     "https://www.ghafla.co.ke/ruto-hits-out-at-opponents-over-wantam-slogans-accuses-them-of-promoting-division/",
     "https://www.ghafla.co.ke/president-ruto-commits-ksh-1-5-billion-to-upgrade-baringo-healthcare-as-410000-residents-register-under-sha/",
     "https://www.ghafla.co.ke/waititus-12-year-jail-term-upheld-as-high-court-convicts-him-and-wife-of-money-laundering/",
-    "https://www.ghafla.co.ke/winnie-odinga-officially-declares-2027-nairobi-senatorial-bid/"
+    "https://www.ghafla.co.ke/winnie-odinga-officially-declares-2027-nairobi-senatorial-bid/",
+    "https://www.ghafla.co.ke/crowd-demands-answers-over-oburu-ogingas-absence-at-raila-odingas-first-memorial/"
   ],
   "published_angles": [
-    {
-      "title": "Soft Life on Pause: Windsor Hotel, Rosslyn Estates, and Braeburn School Hit by Eight-Hour Power Outage",
-      "angle": "Reframing the outage around the temporary lifestyle disruption of Nairobi's premier 'soft-life' suburbs, elite schooling zones, and luxury hospitality hubs (Windsor, Rosslyn, Braeburn), contrasting high-end living with the mundane reality of an eight-hour grid shutdown.",
-      "angle_type": "lifestyle and high-society disruption",
-      "opening": "Lifestyle-focused opening targeting the high-end pockets of Nairobi facing a temporary grid blackout.",
-      "structure": "Suburban lifestyle hook -> The northern Nairobi luxury corridor breakdown (Windsor and Rosslyn) -> Commercial and industrial impact (Mombasa Road) -> Peripheral historic and regional hub transitions (Kiambu, Narok, Tharaka Nithi, Kisumu) -> Concrete close on the shared reality of the national grid.",
-      "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-several-counties-on-october-6/"
-    },
     {
       "title": "Aden Duale Commands Urgent Dragnet for Jambojet Passengers and Toyota Fielder KDG 699Z After Nairobi Ebola Death",
       "angle": "A personality-driven operational focus on Health CS Aden Duale commanding a highly specific public dragnet\u2014zeroing in on a single Toyota Fielder (KDG 699Z) and a specific Jambojet flight\u2014rather than just treating the outbreak as a generic health scare.",
@@ -1325,6 +1319,14 @@
       "opening": "Personality lead opening directly on Winnie Odinga shutting down whispers at Migwena Grounds by staking an immediate claim on Nairobi's Senate seat.",
       "structure": "Personality declaration hook -> The verified Migwena speech and Sifuna quote -> Sifuna's presidential posture and the open seat calculation -> The transition from Arusha's EALA desk to Nairobi street-level politics -> Concrete close on 2027 realignment",
       "source": "https://www.ghafla.co.ke/winnie-odinga-officially-declares-2027-nairobi-senatorial-bid/"
+    },
+    {
+      "title": "Dr. Oburu Oginga\u2019s Empty Chair Steals Raila Memorial as Restless Crowd Chants Down Arati\u2019s Delegated Brief",
+      "angle": "Focusing on the high-tension personal spotlight falling on Dr. Oburu Oginga's empty chair, where weeks of whispering about his hospital discharge collided head-on with an uncompromising home crowd that refused to take delegated speeches from Simba Arati at face value.",
+      "angle_type": "celebrity absence dynamic and public accountability confrontation",
+      "opening": "Personality lead opening directly on Dr. Oburu Oginga becoming the defining talking point at Migwena Grounds without stepping foot on the grass.",
+      "structure": "Personality hook on Oburu's high-stakes absence -> The verbatim crowd chants and stalled podium -> Simba Arati's vigil delegation role -> Catherine Omanyo's radio briefing on the hospital discharge -> The one-year succession milestone context",
+      "source": "https://www.ghafla.co.ke/crowd-demands-answers-over-oburu-ogingas-absence-at-raila-odingas-first-memorial/"
     }
   ],
   "style_history": [
