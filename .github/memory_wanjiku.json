@@ -254,7 +254,8 @@
     "aa1dfc9227782dcd58429c25c853407a30858d38b9411f8419e7c5f40e5a216e",
     "d6694679167a995342ac01779a5efbc3e8eb76677aa4adf8590b1c046b5a1ca1",
     "1e571620d691dce95b95f49b96e2020b3a588cf9d6e8b3cb69e277ef00b4a647",
-    "9472e7464441c5cabebe96e2e57b36ca3f3f807547bb734fa9e899f2ef996e04"
+    "9472e7464441c5cabebe96e2e57b36ca3f3f807547bb734fa9e899f2ef996e04",
+    "d4abac4a0e83d7a40a0aa555e78d19de6507ffa0eea1f76d37844744d91bf2fe"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -511,17 +512,10 @@
     "https://www.ghafla.co.ke/bahati-dares-forex-traders-to-match-kenyan-princes-ksh1-million-wedding-invitation/",
     "https://www.ghafla.co.ke/nairofey-claims-her-rozzita-became-tighter-after-giving-birth/",
     "https://www.ghafla.co.ke/mining-cs-hassan-joho-expands-vehicle-collection-with-ksh-105m-ferrari-purosangue/",
-    "https://www.ghafla.co.ke/kenya-power-announces-wednesday-blackouts-in-nairobi-kiambu-nyeri-meru-and-other-counties/"
+    "https://www.ghafla.co.ke/kenya-power-announces-wednesday-blackouts-in-nairobi-kiambu-nyeri-meru-and-other-counties/",
+    "https://www.ghafla.co.ke/odinga-family-political-allies-gather-in-bondo-for-late-leaders-first-anniversary-memorial/"
   ],
   "published_angles": [
-    {
-      "title": "Mutahi Ngunyi Warns Edwin Sifuna of a 'Flourish to Destroy' Trap as TEP Momentum Builds",
-      "angle": "Framing the development around the psychological power play of the 'flourish to destroy' trap, analyzing how establishment figures are allegedly letting Sifuna peak prematurely to orchestrate a controlled crash before 2027.",
-      "angle_type": "celebrity commentator hot-take and psychological power dynamics",
-      "opening": "Direct personality lead focusing on Mutahi Ngunyi invoking a classic rule of power to warn Edwin Sifuna about his rapid popularity rise.",
-      "structure": "Warning hook -> The 'flourish to destroy' thesis -> The TEP and Linda Mwananchi catalyst -> Establishment skepticism (Wanga) vs. grassroots defense (Odhiambo-Mabona) -> Unresolved future trajectory close.",
-      "source": "https://www.ghafla.co.ke/bursting-the-bubble-mutahi-ngunyi-warns-sifunas-popularity-will-be-popped-before-2027/"
-    },
     {
       "title": "Peter Ndumia Takes on the Kenyan Graduate Hustle: Stop Polishing CVs and Build a Portfolio on TikTok",
       "angle": "Framing the event around the direct, practical tension between traditional recruitment preparation (the 'CV polish') and the immediate creator-style hustle of leveraging social media apps like WhatsApp and TikTok for gig work.",
@@ -1313,6 +1307,14 @@
       "opening": "Direct institutional lead capturing the sweeping scale of Kenya Power's multi-county grid shutdown across key commercial, health, and residential lifelines.",
       "structure": "Scope of the ten-county outage -> Urban health and suburban residential corridors -> Agricultural backbone and county administrative hubs -> Regional telecom and rural grid coverage -> Digital utility protocol and support access.",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-wednesday-blackouts-in-nairobi-kiambu-nyeri-meru-and-other-counties/"
+    },
+    {
+      "title": "Mama Ida Odinga Rallies the Family Unit in Bondo as Opoda Farm Hosts Sifuna\u2019s Camp Ahead of Memorial",
+      "angle": "Reframing the anniversary through the Odinga family's personal choreography\u2014highlighting Mama Ida and siblings Raila Jnr, Rosemary, and Winnie opening Opoda Farm to Edwin Sifuna\u2019s faction and consolidating allied VIPs like Uhuru Kenyatta and Kalonzo Musyoka, set against notable high-level absentees.",
+      "angle_type": "family dynasty dynamic and VIP guest list contrast",
+      "opening": "Personality lead opening squarely on Mama Ida Odinga arriving at Migwena Cultural Grounds flanked by Raila Jnr, Rosemary, and Winnie.",
+      "structure": "Person and family arrival hook -> Opoda Farm pre-ceremony hosting of Sifuna and Linda Mwananchi -> High-profile VIP guest list (Uhuru and Kalonzo) -> The notable absentees ledger (Ruto, Mbadi, Wanga) -> Public memorial scale at Migwena.",
+      "source": "https://www.ghafla.co.ke/odinga-family-political-allies-gather-in-bondo-for-late-leaders-first-anniversary-memorial/"
     }
   ],
   "style_history": [
