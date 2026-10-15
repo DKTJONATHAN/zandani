@@ -253,7 +253,8 @@
     "005dd98cd68e2480dc7be9eca3f5a2891e174d86e36812625e2e521ba53ab413",
     "aa1dfc9227782dcd58429c25c853407a30858d38b9411f8419e7c5f40e5a216e",
     "d6694679167a995342ac01779a5efbc3e8eb76677aa4adf8590b1c046b5a1ca1",
-    "1e571620d691dce95b95f49b96e2020b3a588cf9d6e8b3cb69e277ef00b4a647"
+    "1e571620d691dce95b95f49b96e2020b3a588cf9d6e8b3cb69e277ef00b4a647",
+    "9472e7464441c5cabebe96e2e57b36ca3f3f807547bb734fa9e899f2ef996e04"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -509,17 +510,10 @@
     "https://www.ghafla.co.ke/karangu-muraya-breaks-silence-on-ex-partner-triza-says-she-has-moved-on/",
     "https://www.ghafla.co.ke/bahati-dares-forex-traders-to-match-kenyan-princes-ksh1-million-wedding-invitation/",
     "https://www.ghafla.co.ke/nairofey-claims-her-rozzita-became-tighter-after-giving-birth/",
-    "https://www.ghafla.co.ke/mining-cs-hassan-joho-expands-vehicle-collection-with-ksh-105m-ferrari-purosangue/"
+    "https://www.ghafla.co.ke/mining-cs-hassan-joho-expands-vehicle-collection-with-ksh-105m-ferrari-purosangue/",
+    "https://www.ghafla.co.ke/kenya-power-announces-wednesday-blackouts-in-nairobi-kiambu-nyeri-meru-and-other-counties/"
   ],
   "published_angles": [
-    {
-      "title": "Edward Muriuki Sets October Calendar as Short Rains Hit 24 Counties",
-      "angle": "The operational timeline and geographical breakdown affecting farming regions versus pastoralist zones, viewed through the immediate calendar countdown issued by acting head Edward Muriuki.",
-      "angle_type": "calendar countdown and regional livelihood impact",
-      "opening": "Direct personality and institutional lead highlighting Edward Muriuki's specific calendar warning for the short rains.",
-      "structure": "Calendar countdown hook -> 24-county immediate rainfall breakdown -> Northern arid zone timelines -> Agricultural benefits vs flood and disease warnings -> Close on January 2027 wind-down projections.",
-      "source": "https://www.ghafla.co.ke/elnino-rains-expected-nationwide-next-week-as-kenya-meteorological-service-issues-county-timelines/"
-    },
     {
       "title": "Mutahi Ngunyi Warns Edwin Sifuna of a 'Flourish to Destroy' Trap as TEP Momentum Builds",
       "angle": "Framing the development around the psychological power play of the 'flourish to destroy' trap, analyzing how establishment figures are allegedly letting Sifuna peak prematurely to orchestrate a controlled crash before 2027.",
@@ -1311,6 +1305,14 @@
       "opening": "Personality lead opening directly on Hassan Joho stepping out alongside Ferrari's KSh 105 million four-door utility flagship.",
       "structure": "Personality hook -> The landed cost and Maranello specs -> Joho's established multi-tier luxury fleet -> Engineering distinction of the four-door utility layout -> Concrete customs and valuation close",
       "source": "https://www.ghafla.co.ke/mining-cs-hassan-joho-expands-vehicle-collection-with-ksh-105m-ferrari-purosangue/"
+    },
+    {
+      "title": "From MP Shah to Membley: Kenya Power Sweeps 10 Counties in Heavy Maintenance Blackout",
+      "angle": "Reframing the widespread utility interruption around its sharp institutional and commercial exposure\u2014highlighting how the maintenance net swept through critical referral health corridors, high-density gated suburbs, and regional agricultural backbone infrastructure rather than treating it as a generic estate advisory.",
+      "angle_type": "infrastructure impact and institutional exposure",
+      "opening": "Direct institutional lead capturing the sweeping scale of Kenya Power's multi-county grid shutdown across key commercial, health, and residential lifelines.",
+      "structure": "Scope of the ten-county outage -> Urban health and suburban residential corridors -> Agricultural backbone and county administrative hubs -> Regional telecom and rural grid coverage -> Digital utility protocol and support access.",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-wednesday-blackouts-in-nairobi-kiambu-nyeri-meru-and-other-counties/"
     }
   ],
   "style_history": [
