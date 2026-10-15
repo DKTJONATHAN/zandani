@@ -259,7 +259,8 @@
     "d701bb59cee1993621ffff93ed37f6c90a338dacbb1e83a60e59034a4157f30f",
     "1ce4ab4c6d7e7b964306764bbf75bda8ac23c29fee00d6b339a56d63288093eb",
     "685adbaaa6455d5d86d1e2a439af579736f6b465993222864fb48196afe29072",
-    "341d5802d5947e839c536e4188401f0830083bc59af11760c21900c3cf9bb82f"
+    "341d5802d5947e839c536e4188401f0830083bc59af11760c21900c3cf9bb82f",
+    "927ddb6c0d770af47da01c598038d85f89c709412a782666ad358978e43cc286"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -521,17 +522,10 @@
     "https://www.ghafla.co.ke/dont-make-assumptions-kamene-goro-addresses-marriage-speculation-after-viral-social-media-post/",
     "https://www.ghafla.co.ke/ruto-hits-out-at-opponents-over-wantam-slogans-accuses-them-of-promoting-division/",
     "https://www.ghafla.co.ke/president-ruto-commits-ksh-1-5-billion-to-upgrade-baringo-healthcare-as-410000-residents-register-under-sha/",
-    "https://www.ghafla.co.ke/waititus-12-year-jail-term-upheld-as-high-court-convicts-him-and-wife-of-money-laundering/"
+    "https://www.ghafla.co.ke/waititus-12-year-jail-term-upheld-as-high-court-convicts-him-and-wife-of-money-laundering/",
+    "https://www.ghafla.co.ke/winnie-odinga-officially-declares-2027-nairobi-senatorial-bid/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018Why Would I Carry Another Pregnancy?\u2019: Amber Ray Leverages Post-Op Healing Labor to Deflect Kennedy Rapudo\u2019s Baby Requests",
-      "angle": "Framing the refusal through the direct physical and relationship labor of post-operative recovery, highlighting how the daily realities of managing compression garments and surgical healing serve as the ultimate pragmatic boundary against future pregnancies.",
-      "angle_type": "relationship dynamic and practical lifestyle boundary",
-      "opening": "Direct focus on the immediate domestic friction between the physical toll of Amber's recent surgeries and Rapudo's requests for more children.",
-      "structure": "Domestic tension hook -> Detailed breakdown of the September 2026 Istanbul surgical overhaul -> The caregiver irony (compression garments and recovery braces) -> The blended family math -> Direct and pragmatic close.",
-      "source": "https://www.ghafla.co.ke/amber-ray-shuts-down-kennedy-rapudos-request-to-add-another-baby/"
-    },
     {
       "title": "Soft Life on Pause: Windsor Hotel, Rosslyn Estates, and Braeburn School Hit by Eight-Hour Power Outage",
       "angle": "Reframing the outage around the temporary lifestyle disruption of Nairobi's premier 'soft-life' suburbs, elite schooling zones, and luxury hospitality hubs (Windsor, Rosslyn, Braeburn), contrasting high-end living with the mundane reality of an eight-hour grid shutdown.",
@@ -1323,6 +1317,14 @@
       "opening": "Personality lead focusing directly on Ferdinand Waititu and his wife Susan Wangari facing a joint sentencing dock as their legal defenses crumble simultaneously.",
       "structure": "Personality hook on the couple's reversal -> The money laundering conviction against Susan Wangari and Waititu -> Cancellation of bail terms and immediate custody order -> The KSh 588.7M road tender and 12-year term details -> The 10-year public office ban and pending mitigation proceedings.",
       "source": "https://www.ghafla.co.ke/waititus-12-year-jail-term-upheld-as-high-court-convicts-him-and-wife-of-money-laundering/"
+    },
+    {
+      "title": "Winnie Odinga Eyes Nairobi Senate Seat as Edwin Sifuna Shifts Focus to State House",
+      "angle": "Reframing the declaration through Winnie's candid public maneuver of declaring Edwin Sifuna's Nairobi seat open because of his presidential ambitions under Linda Mwananchi, turning a solemn Bondo anniversary platform into an unapologetic political claim on City Hall's legislative post.",
+      "angle_type": "celebrity political realignment and seat claim",
+      "opening": "Personality lead opening directly on Winnie Odinga shutting down whispers at Migwena Grounds by staking an immediate claim on Nairobi's Senate seat.",
+      "structure": "Personality declaration hook -> The verified Migwena speech and Sifuna quote -> Sifuna's presidential posture and the open seat calculation -> The transition from Arusha's EALA desk to Nairobi street-level politics -> Concrete close on 2027 realignment",
+      "source": "https://www.ghafla.co.ke/winnie-odinga-officially-declares-2027-nairobi-senatorial-bid/"
     }
   ],
   "style_history": [
