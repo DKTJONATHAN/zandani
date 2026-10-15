@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "5e2d5d92890011c9705128a98872c31c",
     "c628b5e56c10131dd7b0f2a6fb48535f",
     "b12052ad77626c10633ba2b61389231b",
     "cfd36367fab889d9464fae6c992967ae",
@@ -799,10 +798,10 @@
     "dd72a8e748860351a38796790e3a56a6",
     "817442965f6f48fd9450066c76ad5b32",
     "a1092f0ab92ece701b181cc2c003fb04",
-    "d539f5bfec5beaef91156c7f06776cec"
+    "d539f5bfec5beaef91156c7f06776cec",
+    "22c1f7c67bc520cb0e5615bc71995f66"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1341,7 +1341,8 @@
     "https://kenyans.co.ke/news/127868-mama-ida-reveals-doctors-instructions-behind-oburus-absence-railas-memorial",
     "https://kenyans.co.ke/news/127873-kasarani-undergo-fresh-upgrades-ahead-2029-world-championships-ruto-confirms",
     "https://kenyans.co.ke/news/127874-kra-confirms-etims-tims-invoices-accepted-govt-payments",
-    "https://kenyans.co.ke/news/127876-ksl-suspends-applications-amid-dispute-over-new-admission-rules"
+    "https://kenyans.co.ke/news/127876-ksl-suspends-applications-amid-dispute-over-new-admission-rules",
+    "https://kenyans.co.ke/news/127878-epra-warns-possible-further-fuel-price-hikes-if-middle-east-conflict-escalates"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1773,7 +1774,8 @@
     "restless bondo memorial crowd forces ida detail oburu medical leave",
     "kasarani locked multi year overhaul state backs 2029 world athletics pact",
     "kra treasury clear tims invoices ifmis fix state suppliers",
-    "court freeze ksl admissions exposes fallout bypassing parliament"
+    "court freeze ksl admissions exposes fallout bypassing parliament",
+    "middle east tanker strikes force onto costly singapore spot fuel market"
   ],
   "topic_keys": [
     "news tracker",
@@ -4932,6 +4934,15 @@
       "structure": "Regulatory conflict lead -> High Court intervention and Justice Onyiego's order -> The statutory shortcut (intake notice vs parliamentary regulation) -> The altered entry criteria (grades vs Pre-Bar route) -> Operational fallout for applicants and the pending Pre-Bar timeline.",
       "source": "https://kenyans.co.ke/news/127876-ksl-suspends-applications-amid-dispute-over-new-admission-rules",
       "published_at": "2026-10-15T15:02:04Z"
+    },
+    {
+      "title": "Middle East Tanker Strikes Force Kenya Onto Costly Singapore Spot Fuel Market",
+      "angle": "The operational supply rupture: how strikes on Gulf tankers forced an emergency rerouting of Kenya's petroleum pipeline to costly Asian spot markets, doubling cargo acquisition costs and colliding directly with executive stabilization pledges.",
+      "angle_type": "consequence",
+      "opening": "Operational-rupture lead linking vessel strikes in the Gulf directly to Kenya's emergency reliance on expensive Singapore fuel cargoes.",
+      "structure": "Operational disruption lead -> Parliamentary interrogation on failed stabilization pledges -> Landed cost metrics and Singapore procurement shift -> Fiscal cushion limits and transport sector fallout.",
+      "source": "https://kenyans.co.ke/news/127878-epra-warns-possible-further-fuel-price-hikes-if-middle-east-conflict-escalates",
+      "published_at": "2026-10-15T17:02:25Z"
     }
   ]
 }
