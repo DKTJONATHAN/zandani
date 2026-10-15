@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "d5d29f575c48cefb0ed5e30430878bde",
     "8f6d5f6eca718894572c0dc0ff024e6b",
     "b05b47f1bd12ba40fefc551bf18fde79",
     "3f1e3728a774d91cb73a2d4c7152f716",
@@ -799,10 +798,10 @@
     "146d9f38d7dc3886d15c5125cefd7070",
     "f831991a7e70145c42998626e46bf794",
     "409ac9c67f350a811d079e25ed492c2f",
-    "9c4ffd236b18f326c92aada029dc325d"
+    "9c4ffd236b18f326c92aada029dc325d",
+    "dd72a8e748860351a38796790e3a56a6"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Desk Take",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1337,7 +1337,8 @@
     "https://kenyans.co.ke/news/127859-china-warns-against-turning-african-minerals-tools-geopolitical-rivalry",
     "https://kenyans.co.ke/news/127861-kutrrh-nurses-issue-21-day-strike-notice-threaten-halt-operations",
     "https://kenyans.co.ke/news/127860-bolt-launches-bolt-plus-subscription-10-cashback-rides",
-    "https://kenyans.co.ke/news/127867-court-rules-nakuru-war-memorial-hospital-owns-disputed-25-acre-land"
+    "https://kenyans.co.ke/news/127867-court-rules-nakuru-war-memorial-hospital-owns-disputed-25-acre-land",
+    "https://kenyans.co.ke/news/127868-mama-ida-reveals-doctors-instructions-behind-oburus-absence-railas-memorial"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1765,7 +1766,8 @@
     "kwale mrima hill caught global scramble beijing warns against mineral rivalry",
     "kutrrh admission freeze looms nurses day strike notice sets november showdown",
     "bolt launches paid tier lock commuters while pledging shield driver margins",
-    "court orders nakuru county out war memorial hospital month seizure"
+    "court orders nakuru county out war memorial hospital month seizure",
+    "restless bondo memorial crowd forces ida detail oburu medical leave"
   ],
   "topic_keys": [
     "news tracker",
@@ -4888,6 +4890,15 @@
       "structure": "Judicial eviction order lead -> Scope of the ruling and reversion of the 25-acre Milimani estate -> Timeline of the January 2024 executive takeover -> Registry defenses (Eric Nyamu and AG's office) unraveled by the bench -> Healthcare service toll and pending county compliance.",
       "source": "https://kenyans.co.ke/news/127867-court-rules-nakuru-war-memorial-hospital-owns-disputed-25-acre-land",
       "published_at": "2026-10-15T11:02:04Z"
+    },
+    {
+      "title": "Restless Bondo Memorial Crowd Forces Ida to Detail Oburu\u2019s Medical Leave",
+      "angle": "The grassroots pressure and institutional tension inside ODM's heartland, where spontaneous crowd demands at the memorial forced the Odinga family to publicly account for the party leader's prolonged medical absence following weeks of unverified online rumors and missed state engagements.",
+      "angle_type": "institutional pressure",
+      "opening": "Tension-to-accountability opening connecting crowd unrest at the memorial grounds to the family's direct intervention over the party leader's health.",
+      "structure": "Grounds disruption lead -> Medical restrictions and Ida's disclosure -> Pattern of absences (mausoleum handover, London treatment) -> Party communication pushback against online death claims -> Presence of ODM hierarchy and family cadre.",
+      "source": "https://kenyans.co.ke/news/127868-mama-ida-reveals-doctors-instructions-behind-oburus-absence-railas-memorial",
+      "published_at": "2026-10-15T11:07:44Z"
     }
   ]
 }
