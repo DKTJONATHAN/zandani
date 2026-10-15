@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "abb642f744d13f4148f245e1281c7def",
     "4e8d07ba4bd07c6af318537c558f00c8",
     "49fa683f311ca86e4c2c11176300bac0",
     "70e8570f840ba7b189fceae0b46b947f",
@@ -799,10 +798,10 @@
     "747a919f5c0c33890eb94b91f4adae2b",
     "6959c5b305bb145696f573a85efd159a",
     "3d70e8ab26e752b6ec8cee871403fde8",
-    "cfdea924e0a8489467c2273a8d3d6f06"
+    "cfdea924e0a8489467c2273a8d3d6f06",
+    "cdfc19955434d1a1fa0885d0239a06e0"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1329,7 +1329,8 @@
     "https://kenyans.co.ke/news/127847-epra-raises-petrol-prices-ksh1293-diesel-ksh990-kerosene-ksh284",
     "https://kenyans.co.ke/news/127844-kenya-confirms-second-ebola-case-death-toll-remains-one",
     "https://kenyans.co.ke/news/127840-governors-reject-cras-ksh4408-billion-revenue-allocation-proposal",
-    "https://kenyans.co.ke/news/127842-malindi-court-lifts-order-blocking-construction-ksh-22t-dangote-lamu-oil-refinery"
+    "https://kenyans.co.ke/news/127842-malindi-court-lifts-order-blocking-construction-ksh-22t-dangote-lamu-oil-refinery",
+    "https://kenyans.co.ke/news/127851-parliament-extends-fuel-vat-8-amid-uproar-over-epra-price-hikes"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1749,7 +1750,8 @@
     "epra drops stabilisation safety net fuel prices surge past ksh226",
     "inside quarantine net caught second ebola case",
     "county budgets face ksh100 billion crisis ahead 2027",
-    "procedural blunders clear path dangote ksh lamu refinery injunction collapses"
+    "procedural blunders clear path dangote ksh lamu refinery injunction collapses",
+    "parliament extends fuel vat state sacrifices billions offset subsidy freeze"
   ],
   "topic_keys": [
     "news tracker",
@@ -4800,6 +4802,15 @@
       "structure": "Statement lead and beneficiaries -> Judicial bench ruling and specific procedural lapses -> The land tenure contest (Magogoni villages vs state title claims) -> Project scale and operational countdown -> Forward timeline to the November 24 mention.",
       "source": "https://kenyans.co.ke/news/127842-malindi-court-lifts-order-blocking-construction-ksh-22t-dangote-lamu-oil-refinery",
       "published_at": "2026-10-14T19:02:23Z"
+    },
+    {
+      "title": "Parliament Extends 8% Fuel VAT as State Sacrifices Billions to Offset Subsidy Freeze",
+      "angle": "The fiscal compromise behind the legislative intervention: Parliament is committing the state to another multi-billion-shilling tax forfeiture\u2014after already surrendering Ksh54 billion\u2014to blunt price shocks while energy regulators deliberately freeze the fuel stabilization fund.",
+      "angle_type": "money",
+      "opening": "Fiscal-tradeoff lead contrasting the legislative revenue concession with the regulator's decision to withhold cash stabilization reserves.",
+      "structure": "Revenue sacrifice lead -> Legislative mechanics and extension timeline -> Fiscal arithmetic and the Ksh54B tax gap -> EPRA reserve withholding and import cost dynamics -> Local pump pricing realities and forward triggers",
+      "source": "https://kenyans.co.ke/news/127851-parliament-extends-fuel-vat-8-amid-uproar-over-epra-price-hikes",
+      "published_at": "2026-10-15T05:01:22Z"
     }
   ]
 }
