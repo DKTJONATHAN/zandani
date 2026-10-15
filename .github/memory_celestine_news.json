@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "70e8570f840ba7b189fceae0b46b947f",
     "df83fbbf58d786c8e246a710ce05e062",
     "b4f2ed8321c5b0317d8b67d44464d760",
     "476fdae62c807614a44cc166799fde84",
@@ -799,10 +798,10 @@
     "cfdea924e0a8489467c2273a8d3d6f06",
     "cdfc19955434d1a1fa0885d0239a06e0",
     "4ba95fb143c2840174d04bbfcff87840",
-    "c2cf85f13354974842540bf963755309"
+    "c2cf85f13354974842540bf963755309",
+    "3acb4f2037d78a1725f16a73f77b4f4b"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1332,7 +1332,8 @@
     "https://kenyans.co.ke/news/127842-malindi-court-lifts-order-blocking-construction-ksh-22t-dangote-lamu-oil-refinery",
     "https://kenyans.co.ke/news/127851-parliament-extends-fuel-vat-8-amid-uproar-over-epra-price-hikes",
     "https://kenyans.co.ke/news/127853-motorists-lobby-threaten-protests-over-epra-fuel-price-hikes-demand-g-g-audit",
-    "https://kenyans.co.ke/news/127854-eacc-recover-ksh170-million-waititu-after-high-court-ruling"
+    "https://kenyans.co.ke/news/127854-eacc-recover-ksh170-million-waititu-after-high-court-ruling",
+    "https://kenyans.co.ke/news/127855-explained-how-kenyas-new-digital-classrooms-connect-schools"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1755,7 +1756,8 @@
     "procedural blunders clear path dangote ksh lamu refinery injunction collapses",
     "parliament extends fuel vat state sacrifices billions offset subsidy freeze",
     "motorists push auditor general open epra fuel pricing books kerosene jumps ksh28",
-    "high court laundering reversal hands eacc fresh muscle ksh170m waititu civil clawback"
+    "high court laundering reversal hands eacc fresh muscle ksh170m waititu civil clawback",
+    "state opens 000 school smartboard tender remote classrooms link"
   ],
   "topic_keys": [
     "news tracker",
@@ -4833,6 +4835,15 @@
       "structure": "Judicial leverage lead -> Reinstated criminal charges and October 19 sentencing calendar -> Anatomy of the Ksh588M Kiambu road tender -> Cumulative asset forfeiture trail (Ksh131.2M seized) -> Civil suit threshold and outstanding judicial determination.",
       "source": "https://kenyans.co.ke/news/127854-eacc-recover-ksh170-million-waititu-after-high-court-ruling",
       "published_at": "2026-10-15T06:02:08Z"
+    },
+    {
+      "title": "State Opens 21,000-School Smartboard Tender as Remote Classrooms Link Up",
+      "angle": "Attribution-first examination of how the multi-county smartboard network transfers instructional resources to peripheral junior secondary schools, framed through the World Bank-funded scale-up to 21,000 institutions and the pending readiness of Grade 9 and AI coursework.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first statement establishing state education and ICT authorities' rollout, immediately identifying the rural learners and institutions set to benefit from remote live instruction.",
+      "structure": "Attribution-benefit lead -> Multi-hub live demonstration details -> Operational cost and classroom mechanics -> Curriculum pacing and Grade 9 status -> Procurement pipeline and April 2027 delivery target.",
+      "source": "https://kenyans.co.ke/news/127855-explained-how-kenyas-new-digital-classrooms-connect-schools",
+      "published_at": "2026-10-15T07:01:53Z"
     }
   ]
 }
