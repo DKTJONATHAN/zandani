@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "4e8d07ba4bd07c6af318537c558f00c8",
     "49fa683f311ca86e4c2c11176300bac0",
     "70e8570f840ba7b189fceae0b46b947f",
     "df83fbbf58d786c8e246a710ce05e062",
@@ -799,10 +798,10 @@
     "6959c5b305bb145696f573a85efd159a",
     "3d70e8ab26e752b6ec8cee871403fde8",
     "cfdea924e0a8489467c2273a8d3d6f06",
-    "cdfc19955434d1a1fa0885d0239a06e0"
+    "cdfc19955434d1a1fa0885d0239a06e0",
+    "4ba95fb143c2840174d04bbfcff87840"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1330,7 +1330,8 @@
     "https://kenyans.co.ke/news/127844-kenya-confirms-second-ebola-case-death-toll-remains-one",
     "https://kenyans.co.ke/news/127840-governors-reject-cras-ksh4408-billion-revenue-allocation-proposal",
     "https://kenyans.co.ke/news/127842-malindi-court-lifts-order-blocking-construction-ksh-22t-dangote-lamu-oil-refinery",
-    "https://kenyans.co.ke/news/127851-parliament-extends-fuel-vat-8-amid-uproar-over-epra-price-hikes"
+    "https://kenyans.co.ke/news/127851-parliament-extends-fuel-vat-8-amid-uproar-over-epra-price-hikes",
+    "https://kenyans.co.ke/news/127853-motorists-lobby-threaten-protests-over-epra-fuel-price-hikes-demand-g-g-audit"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1751,7 +1752,8 @@
     "inside quarantine net caught second ebola case",
     "county budgets face ksh100 billion crisis ahead 2027",
     "procedural blunders clear path dangote ksh lamu refinery injunction collapses",
-    "parliament extends fuel vat state sacrifices billions offset subsidy freeze"
+    "parliament extends fuel vat state sacrifices billions offset subsidy freeze",
+    "motorists push auditor general open epra fuel pricing books kerosene jumps ksh28"
   ],
   "topic_keys": [
     "news tracker",
@@ -4811,6 +4813,15 @@
       "structure": "Revenue sacrifice lead -> Legislative mechanics and extension timeline -> Fiscal arithmetic and the Ksh54B tax gap -> EPRA reserve withholding and import cost dynamics -> Local pump pricing realities and forward triggers",
       "source": "https://kenyans.co.ke/news/127851-parliament-extends-fuel-vat-8-amid-uproar-over-epra-price-hikes",
       "published_at": "2026-10-15T05:01:22Z"
+    },
+    {
+      "title": "Motorists Push Auditor-General to Open EPRA Fuel Pricing Books as Kerosene Jumps Ksh28",
+      "angle": "Reframing the confrontation away from a routine protest threat and onto the specific forensic challenge mounted against EPRA's formula: demanding the Auditor-General and CAK open the G-to-G import books, account for the Petroleum Development Levy balances, and explain why domestic kerosene took an outsized Ksh28.49 hit despite registering the lowest landed-cost increase.",
+      "angle_type": "accountability",
+      "opening": "Forensic accountability lead establishing the lobby's push to subject the regulator's pricing mechanics and government import contracts to statutory oversight agencies.",
+      "structure": "Regulatory oversight demand -> Kerosene pricing contradiction and landed-cost metrics -> G-to-G supplier premium transparency -> Petroleum Development Levy accounting -> Forward timeline on mobilization and parliamentary referral.",
+      "source": "https://kenyans.co.ke/news/127853-motorists-lobby-threaten-protests-over-epra-fuel-price-hikes-demand-g-g-audit",
+      "published_at": "2026-10-15T05:41:24Z"
     }
   ]
 }
