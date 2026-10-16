@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "c628b5e56c10131dd7b0f2a6fb48535f",
     "b12052ad77626c10633ba2b61389231b",
     "cfd36367fab889d9464fae6c992967ae",
     "48857a4df8ec00944edd1b2eebbda3ef",
@@ -799,10 +798,10 @@
     "817442965f6f48fd9450066c76ad5b32",
     "a1092f0ab92ece701b181cc2c003fb04",
     "d539f5bfec5beaef91156c7f06776cec",
-    "22c1f7c67bc520cb0e5615bc71995f66"
+    "22c1f7c67bc520cb0e5615bc71995f66",
+    "6f2381e540346332a236201a1ede1ddd"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1342,7 +1342,8 @@
     "https://kenyans.co.ke/news/127873-kasarani-undergo-fresh-upgrades-ahead-2029-world-championships-ruto-confirms",
     "https://kenyans.co.ke/news/127874-kra-confirms-etims-tims-invoices-accepted-govt-payments",
     "https://kenyans.co.ke/news/127876-ksl-suspends-applications-amid-dispute-over-new-admission-rules",
-    "https://kenyans.co.ke/news/127878-epra-warns-possible-further-fuel-price-hikes-if-middle-east-conflict-escalates"
+    "https://kenyans.co.ke/news/127878-epra-warns-possible-further-fuel-price-hikes-if-middle-east-conflict-escalates",
+    "https://kenyans.co.ke/news/127879-court-renders-new-development-approvals-nairobis-parklands-null-and-void"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1775,7 +1776,8 @@
     "kasarani locked multi year overhaul state backs 2029 world athletics pact",
     "kra treasury clear tims invoices ifmis fix state suppliers",
     "court freeze ksl admissions exposes fallout bypassing parliament",
-    "middle east tanker strikes force onto costly singapore spot fuel market"
+    "middle east tanker strikes force onto costly singapore spot fuel market",
+    "city hall inaction triggers parklands planning freeze month court clock runs out"
   ],
   "topic_keys": [
     "news tracker",
@@ -4943,6 +4945,15 @@
       "structure": "Operational disruption lead -> Parliamentary interrogation on failed stabilization pledges -> Landed cost metrics and Singapore procurement shift -> Fiscal cushion limits and transport sector fallout.",
       "source": "https://kenyans.co.ke/news/127878-epra-warns-possible-further-fuel-price-hikes-if-middle-east-conflict-escalates",
       "published_at": "2026-10-15T17:02:25Z"
+    },
+    {
+      "title": "City Hall Inaction Triggers Parklands Planning Freeze as 12-Month Court Clock Runs Out",
+      "angle": "Reframing the development freeze around City Hall's missed statutory deadlines: the court's 2025 self-executing guillotine clause was triggered by the county's failure to gazette local physical development plans and set up a statutory planning forum within 12 months, instantly freezing every category of property approval across the suburb.",
+      "angle_type": "consequence",
+      "opening": "Attribution-first statement identifying the residents association's formal notice and the community members protected by the judicial freeze.",
+      "structure": "Attribution-first decree notice -> Scope of frozen approvals -> The 12-month timeline and self-executing court order -> Underlying environmental and constitutional violations since 2019 -> Unresolved county silence and industry impact.",
+      "source": "https://kenyans.co.ke/news/127879-court-renders-new-development-approvals-nairobis-parklands-null-and-void",
+      "published_at": "2026-10-16T05:01:56Z"
     }
   ]
 }
