@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "c2e237e122231d59f0a0f1a61decd01f",
     "183672028234255d270f4e85e9a421ab",
     "ea3c059fd0dde9fb24810edf83305437",
     "4627ebaa05f66b14dc5be624eb88b28d",
@@ -799,10 +798,10 @@
     "553799270fdf1e3f58e15fafb19bea24",
     "20dd213daf3db36388afc2ecd37efcb5",
     "f00c459c33e7fcf510bc52ddc6dbda6b",
-    "c481d7ec4ebef418e205ee24df2b205d"
+    "c481d7ec4ebef418e205ee24df2b205d",
+    "d39e2bc14ca85e5a1b2dd6ccb82b435b"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1353,7 +1353,8 @@
     "https://kenyans.co.ke/news/127893-standard-group-ceo-chacha-mwita-resigns-company-announces-three-board-changes",
     "https://kenyans.co.ke/news/127894-ride-hailing-drivers-propose-ksh350-minimum-fare-after-fuel-price-hike",
     "https://kenyans.co.ke/news/127896-eacc-arrests-traffic-police-officers-over-alleged-bribery-maua-makutano-road",
-    "https://kenyans.co.ke/news/127897-cma-warns-kenyans-against-unregulated-investment-schemes"
+    "https://kenyans.co.ke/news/127897-cma-warns-kenyans-against-unregulated-investment-schemes",
+    "https://kenyans.co.ke/news/127898-kra-phase-out-electronic-cargo-tracking-seals-major-overhaul"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1797,7 +1798,8 @@
     "standard group corner office vacant again capital freeze deepens",
     "unenforced fare rules expose app taxis strike fuel spikes ksh226",
     "eacc seizes vehicle ksh23 000 meru roadside anti bribery sting",
-    "cma targets crypto trails crackdown unregulated investment portals"
+    "cma targets crypto trails crackdown unregulated investment portals",
+    "kra outsages tracking seals private vendors supply chain overhaul"
   ],
   "topic_keys": [
     "news tracker",
@@ -5064,6 +5066,15 @@
       "structure": "Forensic recovery pivot -> The target entities (Global Investment Group and QVSE) -> Broadening digital fraud landscape (15 platforms flagged in September) -> Verification protocols and public exposure risks",
       "source": "https://kenyans.co.ke/news/127897-cma-warns-kenyans-against-unregulated-investment-schemes",
       "published_at": "2026-10-16T15:02:19Z"
+    },
+    {
+      "title": "KRA Outsages Tracking Seals to Private Vendors in Supply Chain Overhaul",
+      "angle": "The operational shift from state-provisioned tracking monopolies to a commercial, multi-vendor marketplace\u2014and what it means for how importers and transporters manage customs compliance and vendor selection.",
+      "angle_type": "practical change",
+      "opening": "Practical-change lead highlighting the commercial outsourcing of cargo tracking devices and the October 26 compliance deadline.",
+      "structure": "Outsourcing shift lead -> Vendor framework and user contracts -> Gradual wet cargo timeline -> Compliance advice and verification channels",
+      "source": "https://kenyans.co.ke/news/127898-kra-phase-out-electronic-cargo-tracking-seals-major-overhaul",
+      "published_at": "2026-10-16T16:01:53Z"
     }
   ]
 }
