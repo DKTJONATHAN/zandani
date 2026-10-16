@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "48857a4df8ec00944edd1b2eebbda3ef",
     "07178b92f9d33c7f2ebc028d3c0079c2",
     "90176d2a40fa7be3352aa5a0dff9a07c",
     "ad871f42dfe04ecfe78a76e6597bf4b2",
@@ -799,10 +798,10 @@
     "22c1f7c67bc520cb0e5615bc71995f66",
     "6f2381e540346332a236201a1ede1ddd",
     "d30d0a9a3f776a79bda9d5ea49024466",
-    "be97618a6758ffab6c0593f1fd25a726"
+    "be97618a6758ffab6c0593f1fd25a726",
+    "0b6312812855db518bac15d937a91a98"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1345,7 +1345,8 @@
     "https://kenyans.co.ke/news/127878-epra-warns-possible-further-fuel-price-hikes-if-middle-east-conflict-escalates",
     "https://kenyans.co.ke/news/127879-court-renders-new-development-approvals-nairobis-parklands-null-and-void",
     "https://kenyans.co.ke/news/127882-kenya-condemns-houthi-attacks-saudi-arabia-death-toll-hits-19",
-    "https://kenyans.co.ke/news/127884-ruto-signs-law-giving-kpa-boss-seat-kra-board"
+    "https://kenyans.co.ke/news/127884-ruto-signs-law-giving-kpa-boss-seat-kra-board",
+    "https://kenyans.co.ke/news/127886-kra-staff-earn-3-bonuses-exceeding-revenue-targets-under-new-law"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1781,7 +1782,8 @@
     "middle east tanker strikes force onto costly singapore spot fuel market",
     "city hall inaction triggers parklands planning freeze month court clock runs out",
     "gulf infrastructure strikes expose vulnerability fuel supply",
-    "state locks ports boss kra board sweeping tax governance overhaul"
+    "state locks ports boss kra board sweeping tax governance overhaul",
+    "law locks kra budget floor ports chief seat tax overhaul"
   ],
   "topic_keys": [
     "news tracker",
@@ -4976,6 +4978,15 @@
       "structure": "Governance restructuring lead -> Boardroom status shifts (ex-officio elimination) -> Port-customs integration mechanics -> Legislative passage timeline -> Complete roster and legal oversight framework.",
       "source": "https://kenyans.co.ke/news/127884-ruto-signs-law-giving-kpa-boss-seat-kra-board",
       "published_at": "2026-10-16T07:01:32Z"
+    },
+    {
+      "title": "New Law Locks In 2% KRA Budget Floor and Ports Chief Seat in Tax Overhaul",
+      "angle": "How the simultaneous restructuring of baseline funding floors and maritime boardroom integration creates a structural shift in state tax operations beyond headline employee bonuses.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first practical change lead focusing on the dual institutional overhaul enacted by the new statute.",
+      "structure": "Statutory funding floor and board integration lead -> The 3% excess revenue performance incentive mechanism -> Removal of ex-officio limitations and KPA alignment -> Fiscal pressure context and revenue targets -> Legislative forward outlook.",
+      "source": "https://kenyans.co.ke/news/127886-kra-staff-earn-3-bonuses-exceeding-revenue-targets-under-new-law",
+      "published_at": "2026-10-16T08:02:10Z"
     }
   ]
 }
