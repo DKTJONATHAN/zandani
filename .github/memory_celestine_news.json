@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "b12052ad77626c10633ba2b61389231b",
     "cfd36367fab889d9464fae6c992967ae",
     "48857a4df8ec00944edd1b2eebbda3ef",
     "07178b92f9d33c7f2ebc028d3c0079c2",
@@ -799,10 +798,10 @@
     "a1092f0ab92ece701b181cc2c003fb04",
     "d539f5bfec5beaef91156c7f06776cec",
     "22c1f7c67bc520cb0e5615bc71995f66",
-    "6f2381e540346332a236201a1ede1ddd"
+    "6f2381e540346332a236201a1ede1ddd",
+    "d30d0a9a3f776a79bda9d5ea49024466"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1343,7 +1343,8 @@
     "https://kenyans.co.ke/news/127874-kra-confirms-etims-tims-invoices-accepted-govt-payments",
     "https://kenyans.co.ke/news/127876-ksl-suspends-applications-amid-dispute-over-new-admission-rules",
     "https://kenyans.co.ke/news/127878-epra-warns-possible-further-fuel-price-hikes-if-middle-east-conflict-escalates",
-    "https://kenyans.co.ke/news/127879-court-renders-new-development-approvals-nairobis-parklands-null-and-void"
+    "https://kenyans.co.ke/news/127879-court-renders-new-development-approvals-nairobis-parklands-null-and-void",
+    "https://kenyans.co.ke/news/127882-kenya-condemns-houthi-attacks-saudi-arabia-death-toll-hits-19"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1777,7 +1778,8 @@
     "kra treasury clear tims invoices ifmis fix state suppliers",
     "court freeze ksl admissions exposes fallout bypassing parliament",
     "middle east tanker strikes force onto costly singapore spot fuel market",
-    "city hall inaction triggers parklands planning freeze month court clock runs out"
+    "city hall inaction triggers parklands planning freeze month court clock runs out",
+    "gulf infrastructure strikes expose vulnerability fuel supply"
   ],
   "topic_keys": [
     "news tracker",
@@ -4954,6 +4956,15 @@
       "structure": "Attribution-first decree notice -> Scope of frozen approvals -> The 12-month timeline and self-executing court order -> Underlying environmental and constitutional violations since 2019 -> Unresolved county silence and industry impact.",
       "source": "https://kenyans.co.ke/news/127879-court-renders-new-development-approvals-nairobis-parklands-null-and-void",
       "published_at": "2026-10-16T05:01:56Z"
+    },
+    {
+      "title": "Gulf Infrastructure Strikes Expose Vulnerability in Kenya\u2019s G-2G Fuel Supply",
+      "angle": "The direct vulnerability of Kenya's state-backed fuel import framework under the G-2G agreement as Gulf supply lines and critical infrastructure come under coordinated drone and missile fire.",
+      "angle_type": "consequence",
+      "opening": "Consequence-driven operational lead connecting the surge in Gulf infrastructure strikes directly to Kenya's import exposure.",
+      "structure": "Supply vulnerability lead -> Diplomatic phone call details (Mudavadi and Elkhereiji) -> Scope of the Houthi escalation (airports, Aramco, casualties) -> Fuel supply mechanics under the G-2G agreement -> Forward closing on energy market risks.",
+      "source": "https://kenyans.co.ke/news/127882-kenya-condemns-houthi-attacks-saudi-arabia-death-toll-hits-19",
+      "published_at": "2026-10-16T06:02:29Z"
     }
   ]
 }
