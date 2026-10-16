@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ad871f42dfe04ecfe78a76e6597bf4b2",
     "82e7c4e9e2cb154c145813c1f1234a7c",
     "31e1dfc4544e982b488af6576cbc3073",
     "4afcea6c5adc0c82bd901801289c9dc7",
@@ -799,10 +798,10 @@
     "be97618a6758ffab6c0593f1fd25a726",
     "0b6312812855db518bac15d937a91a98",
     "e74bb795d5b717b747d386da1856ec23",
-    "111166ad48461c9c069a0e00229277af"
+    "111166ad48461c9c069a0e00229277af",
+    "cf5a7f54a6b5779b2dd9735b638db6fc"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1348,7 +1348,8 @@
     "https://kenyans.co.ke/news/127884-ruto-signs-law-giving-kpa-boss-seat-kra-board",
     "https://kenyans.co.ke/news/127886-kra-staff-earn-3-bonuses-exceeding-revenue-targets-under-new-law",
     "https://kenyans.co.ke/news/127883-traffic-paralysed-southern-bypass-after-two-lorries-overturn",
-    "https://kenyans.co.ke/news/127889-ntsa-asks-motorists-collect-smart-driving-licences-warns-brokers"
+    "https://kenyans.co.ke/news/127889-ntsa-asks-motorists-collect-smart-driving-licences-warns-brokers",
+    "https://kenyans.co.ke/news/127890-experts-warn-kenyan-shilling-faces-weakening-pressure-against-us-dollar"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1787,7 +1788,8 @@
     "state locks ports boss kra board sweeping tax governance overhaul",
     "law locks kra budget floor ports chief seat tax overhaul",
     "southern bypass gridlock deepens freight incidents choke nairobi transit arteries",
-    "ntsa cuts login hurdles document portal squeeze out depot brokers"
+    "ntsa cuts login hurdles document portal squeeze out depot brokers",
+    "forex inflows shield importers rising fuel bills test shilling stability"
   ],
   "topic_keys": [
     "news tracker",
@@ -5009,6 +5011,15 @@
       "structure": "Administrative reform lead -> Verified operational directive and collection protocol -> Dissecting the broker economy (queue-jumping, fake transfers, data exposure) -> Technical verification mechanics (zero-login ID and registration lookup) -> Digital grievance escalation process",
       "source": "https://kenyans.co.ke/news/127889-ntsa-asks-motorists-collect-smart-driving-licences-warns-brokers",
       "published_at": "2026-10-16T09:01:57Z"
+    },
+    {
+      "title": "Forex Inflows Shield Importers as Rising Fuel Bills Test Shilling Stability",
+      "angle": "Examining the immediate macro trade-off: humanitarian foreign currency inflows are temporarily cushioning general merchandise importers, but escalating dollar requirements from petroleum marketers\u2014driven by double-digit spikes in landed cargo costs\u2014threaten to outstrip that buffer and test the Central Bank's inflation defenses.",
+      "angle_type": "money",
+      "opening": "Attribution-first statement identifying commercial desks and central bank projections, directly specifying the sectors insulated by charitable inflows against mounting petroleum dollar demand.",
+      "structure": "Lead on attribution and beneficiaries -> Forex market quotes and charity inflows buffer -> Petroleum landed cost data and dollar requirements -> Central Bank inflation assessment and food price balance -> Transmission risk to industrial and capital imports.",
+      "source": "https://kenyans.co.ke/news/127890-experts-warn-kenyan-shilling-faces-weakening-pressure-against-us-dollar",
+      "published_at": "2026-10-16T10:02:26Z"
     }
   ]
 }
