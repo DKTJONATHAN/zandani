@@ -269,7 +269,8 @@
     "684a66f8df08adab9472c5af4119e83aa516c2636be1f1af88105c3d726ed4f3",
     "a41d9835d40088f7b347760be115df16cb4b76dca1ab26d803c18f0ea7b586aa",
     "c31b1a07ce66748a0ed23a465aa9e7673810dbd5e7bfca6d851339a6f18a8cc0",
-    "a2c4781b1a5991bee3ec125625015e77634bcb2c47946b9cc5771e108df9b4c7"
+    "a2c4781b1a5991bee3ec125625015e77634bcb2c47946b9cc5771e108df9b4c7",
+    "471c28661dbd2421eb5934dd460c062845d581b5a09ba196bb6f07d6b3e28cc7"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -541,17 +542,10 @@
     "https://www.ghafla.co.ke/kamene-explains-why-she-doesnt-live-with-dj-bonez/",
     "https://www.ghafla.co.ke/kenya-power-announces-friday-blackouts-in-pangani-and-parts-of-meru-county/",
     "https://www.ghafla.co.ke/pastor-kanyari-confronts-workers-over-alleged-fuel-siphoning-from-charity-bus/",
-    "https://www.ghafla.co.ke/nakuru-court-rules-four-years-of-cohabitation-do-not-automatically-make-a-couple-married/"
+    "https://www.ghafla.co.ke/nakuru-court-rules-four-years-of-cohabitation-do-not-automatically-make-a-couple-married/",
+    "https://www.ghafla.co.ke/kra-reportedly-seeks-ksh623-million-from-mike-sonko-through-bank-notice/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018Najoin Hivi UDA Natrend\u2019: MC Jessy Deconstructs the Illusion of Social Media Popularity in Electoral Defeat",
-      "angle": "Deconstructing the deceptive gap between digital popularity\u2014specifically trending online upon joining UDA\u2014and ground-level electoral defeat, emphasizing MC Jessy's practical advice on tuning out public commentary to focus on baseline survival.",
-      "angle_type": "celebrity political reality and post-defeat survival",
-      "opening": "Personality lead focusing directly on MC Jessy contrasting his online trending buzz with the physical reality of election defeat.",
-      "structure": "Trending illusion lead -> Direct quotes on online hype vs electoral crash -> Analysis of digital metrics vs ground politics -> Tactical recovery advice ('stay afloat') -> Concrete close on candidate reset",
-      "source": "https://www.ghafla.co.ke/mc-jessy-opens-up-about-pain-of-losing-an-election-urges-kenyans-not-to-give-up/"
-    },
     {
       "title": "Madzibaba DVD Landed by Police in Goromonzi as Wicknell Chivayo Audio Leak Sparks Robbery Case",
       "angle": "The collision between spiritual power brokers and high-stakes criminal charges\u2014examining how a prophetic leak involving millions and political favor abruptly morphs into a KSh 1.5 million armed robbery police file in Goromonzi.",
@@ -1343,6 +1337,14 @@
       "opening": "Personality-led focus on BMT's court gamble.",
       "structure": "Personality litigation hook -> The Diaspora financial grievances -> The magistrate's legal dismissal -> The reality of Kenyan 'come-we-stay' jurisprudence",
       "source": "https://www.ghafla.co.ke/nakuru-court-rules-four-years-of-cohabitation-do-not-automatically-make-a-couple-married/"
+    },
+    {
+      "title": "Mike Sonko's Vaults in Crosshairs as KRA Slaps First Community Bank With KSh 623M Agency Notice",
+      "angle": "Focusing on Mike Sonko's high-visibility banking exposure, where the taxman has bypassed court theatrics to trigger a direct institutional collection order against his First Community Bank vaults\u2014escalating a financial squeeze that closely follows his August loss at the Tax Appeals Tribunal.",
+      "angle_type": "celebrity wealth exposure and tax enforcement collision",
+      "opening": "Personality lead opening directly on Mike Sonko facing an uncharacteristically direct squeeze on his liquid bank balances.",
+      "structure": "Personality bank hook -> Section 42 agency mechanism and KSh 623M detail -> Distinction from August KSh 385M Tribunal ruling -> Legal rights vs liquidity reality -> Concrete next steps.",
+      "source": "https://www.ghafla.co.ke/kra-reportedly-seeks-ksh623-million-from-mike-sonko-through-bank-notice/"
     }
   ],
   "style_history": [
