@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "90176d2a40fa7be3352aa5a0dff9a07c",
     "ad871f42dfe04ecfe78a76e6597bf4b2",
     "82e7c4e9e2cb154c145813c1f1234a7c",
     "31e1dfc4544e982b488af6576cbc3073",
@@ -799,10 +798,10 @@
     "d30d0a9a3f776a79bda9d5ea49024466",
     "be97618a6758ffab6c0593f1fd25a726",
     "0b6312812855db518bac15d937a91a98",
-    "e74bb795d5b717b747d386da1856ec23"
+    "e74bb795d5b717b747d386da1856ec23",
+    "111166ad48461c9c069a0e00229277af"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1347,7 +1347,8 @@
     "https://kenyans.co.ke/news/127882-kenya-condemns-houthi-attacks-saudi-arabia-death-toll-hits-19",
     "https://kenyans.co.ke/news/127884-ruto-signs-law-giving-kpa-boss-seat-kra-board",
     "https://kenyans.co.ke/news/127886-kra-staff-earn-3-bonuses-exceeding-revenue-targets-under-new-law",
-    "https://kenyans.co.ke/news/127883-traffic-paralysed-southern-bypass-after-two-lorries-overturn"
+    "https://kenyans.co.ke/news/127883-traffic-paralysed-southern-bypass-after-two-lorries-overturn",
+    "https://kenyans.co.ke/news/127889-ntsa-asks-motorists-collect-smart-driving-licences-warns-brokers"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1785,7 +1786,8 @@
     "gulf infrastructure strikes expose vulnerability fuel supply",
     "state locks ports boss kra board sweeping tax governance overhaul",
     "law locks kra budget floor ports chief seat tax overhaul",
-    "southern bypass gridlock deepens freight incidents choke nairobi transit arteries"
+    "southern bypass gridlock deepens freight incidents choke nairobi transit arteries",
+    "ntsa cuts login hurdles document portal squeeze out depot brokers"
   ],
   "topic_keys": [
     "news tracker",
@@ -4998,6 +5000,15 @@
       "structure": "Corridor gridlock reality -> The Friday morning crash specifics (cargo, location) -> Compounding weekly disruption timeline (Thursday bypass blockage, JKIA bus crash) -> Traffic mitigation impacts on commuters -> Unresolved driver conditions and emergency response timeline.",
       "source": "https://kenyans.co.ke/news/127883-traffic-paralysed-southern-bypass-after-two-lorries-overturn",
       "published_at": "2026-10-16T08:52:30Z"
+    },
+    {
+      "title": "NTSA Cuts Login Hurdles on Document Portal to Squeeze Out Depot Brokers",
+      "angle": "NTSA is systematically removing the administrative friction that feeds Kenya's document brokerage industry by stripping login barriers from tracking registries and routing dispute handling directly to applicant emails.",
+      "angle_type": "practical change",
+      "opening": "Practical-change lead highlighting the removal of procedural barriers that previously allowed intermediaries to monetize basic document tracking.",
+      "structure": "Administrative reform lead -> Verified operational directive and collection protocol -> Dissecting the broker economy (queue-jumping, fake transfers, data exposure) -> Technical verification mechanics (zero-login ID and registration lookup) -> Digital grievance escalation process",
+      "source": "https://kenyans.co.ke/news/127889-ntsa-asks-motorists-collect-smart-driving-licences-warns-brokers",
+      "published_at": "2026-10-16T09:01:57Z"
     }
   ]
 }
