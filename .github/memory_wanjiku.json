@@ -263,7 +263,8 @@
     "927ddb6c0d770af47da01c598038d85f89c709412a782666ad358978e43cc286",
     "6f88f0879b23aab2a9cea501560b09a50aa67617c981b0e01e894e95afc1ca14",
     "04ad8f5bd64c87c542060833bd25926d28c5af32d2a936feee8f49e820484f8e",
-    "fb62cd992bcc9bd644442370f455c2a7b412c0061a8a1259e632626a820d280a"
+    "fb62cd992bcc9bd644442370f455c2a7b412c0061a8a1259e632626a820d280a",
+    "5c78c9db52af9aa02cc1b6d0dcdcea8232e9f11de22b66f92c8abbd89cd3e78d"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -529,17 +530,10 @@
     "https://www.ghafla.co.ke/winnie-odinga-officially-declares-2027-nairobi-senatorial-bid/",
     "https://www.ghafla.co.ke/crowd-demands-answers-over-oburu-ogingas-absence-at-raila-odingas-first-memorial/",
     "https://www.ghafla.co.ke/explain-the-math-motorists-threaten-demos-over-latest-epra-fuel-increases/",
-    "https://www.ghafla.co.ke/kenya-power-announces-thursday-blackouts-in-nairobi-kajiado-nyeri-kiambu-and-kitui/"
+    "https://www.ghafla.co.ke/kenya-power-announces-thursday-blackouts-in-nairobi-kajiado-nyeri-kiambu-and-kitui/",
+    "https://www.ghafla.co.ke/winnie-odinga-faces-travel-delay-after-kenya-airways-cancels-flight-on-eve-of-raila-memorial/"
   ],
   "published_angles": [
-    {
-      "title": "Betty Bayo\u2019s Brother Marks Closure as Inquest Into Late Singer\u2019s Death Concludes",
-      "angle": "The legal and administrative closure of the inquest\u2014moving away from the initial grief narrative to focus on the family's formal resolution through Omenke Andeje and Company Advocates and Edward Mbugua's public statement.",
-      "angle_type": "accountability and legal closure",
-      "opening": "Personality lead focusing directly on Edward Kang\u2019ethe Mbugua addressing the inquest conclusion.",
-      "structure": "Personality statement hook -> Legal battle and petition context -> Medical findings disclosure -> Concrete factual close on the timeline.",
-      "source": "https://www.ghafla.co.ke/betty-bayos-brother-breaks-silence-on-the-cause-of-her-death/"
-    },
     {
       "title": "Sofiya Nzau Plots Four-Continent World Tour from Nairobi to Auckland",
       "angle": "Examining the specific, highly disparate geographic itinerary\u2014jumping from regional East and West African hubs straight to Eastern Europe and Central Asia before pivoting to Oceania\u2014highlighting where her streaming power actually converts into physical arenas.",
@@ -1331,6 +1325,14 @@
       "opening": "Directly opens on the mid-week operational halt hitting urban storefronts and institutional schedules.",
       "structure": "Operational impact hook -> The five-county scope and 8am-to-5pm timeline -> Business contingency realities -> Closing on the unpredictable restoration schedule.",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-thursday-blackouts-in-nairobi-kajiado-nyeri-kiambu-and-kitui/"
+    },
+    {
+      "title": "Winnie Odinga Clashes With Kenya Airways Over Last-Minute Flight Cancellation Ahead of Bondo Memorial",
+      "angle": "Examining the personal friction of flight cancellations for high-profile public figures right on the eve of a major national family milestone, and her public call-out of the national carrier.",
+      "angle_type": "celebrity digital friction and travel frustration",
+      "opening": "Personality lead opening directly on Winnie Odinga's sharp social media confrontation with Kenya Airways on the eve of a solemn family milestone.",
+      "structure": "Personality social media hook -> The specific flight cancellation and terse digital warning -> The high-stakes context of the Bondo anniversary timeline -> Closing on the scramble for alternative transit.",
+      "source": "https://www.ghafla.co.ke/winnie-odinga-faces-travel-delay-after-kenya-airways-cancels-flight-on-eve-of-raila-memorial/"
     }
   ],
   "style_history": [
