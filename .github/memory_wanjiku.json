@@ -261,7 +261,8 @@
     "685adbaaa6455d5d86d1e2a439af579736f6b465993222864fb48196afe29072",
     "341d5802d5947e839c536e4188401f0830083bc59af11760c21900c3cf9bb82f",
     "927ddb6c0d770af47da01c598038d85f89c709412a782666ad358978e43cc286",
-    "6f88f0879b23aab2a9cea501560b09a50aa67617c981b0e01e894e95afc1ca14"
+    "6f88f0879b23aab2a9cea501560b09a50aa67617c981b0e01e894e95afc1ca14",
+    "04ad8f5bd64c87c542060833bd25926d28c5af32d2a936feee8f49e820484f8e"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -525,17 +526,10 @@
     "https://www.ghafla.co.ke/president-ruto-commits-ksh-1-5-billion-to-upgrade-baringo-healthcare-as-410000-residents-register-under-sha/",
     "https://www.ghafla.co.ke/waititus-12-year-jail-term-upheld-as-high-court-convicts-him-and-wife-of-money-laundering/",
     "https://www.ghafla.co.ke/winnie-odinga-officially-declares-2027-nairobi-senatorial-bid/",
-    "https://www.ghafla.co.ke/crowd-demands-answers-over-oburu-ogingas-absence-at-raila-odingas-first-memorial/"
+    "https://www.ghafla.co.ke/crowd-demands-answers-over-oburu-ogingas-absence-at-raila-odingas-first-memorial/",
+    "https://www.ghafla.co.ke/explain-the-math-motorists-threaten-demos-over-latest-epra-fuel-increases/"
   ],
   "published_angles": [
-    {
-      "title": "Aden Duale Commands Urgent Dragnet for Jambojet Passengers and Toyota Fielder KDG 699Z After Nairobi Ebola Death",
-      "angle": "A personality-driven operational focus on Health CS Aden Duale commanding a highly specific public dragnet\u2014zeroing in on a single Toyota Fielder (KDG 699Z) and a specific Jambojet flight\u2014rather than just treating the outbreak as a generic health scare.",
-      "angle_type": "high-stakes crisis management and public transit dragnet",
-      "opening": "Personality-led opening focusing on Aden Duale stepping up to the microphone to deliver a sobering public health warning and launching an immediate search for specific transit contacts.",
-      "structure": "Cabinet Secretary's announcement -> The trans-border travel timeline -> The specific vehicle and flight clues -> Clinical escalation at Nairobi Hospital -> The current active tracking status.",
-      "source": "https://www.ghafla.co.ke/breaking-kenya-records-first-ebola-case-as-patient-succumbs-in-nairobi/"
-    },
     {
       "title": "Raymond Omollo Puts Political Financiers on Notice as Internal Security Exposes 109 Outlawed Gangs",
       "angle": "Focusing on Dr Raymond Omollo putting political financiers on notice, highlighting financial paper-trail tracking and the specific regional arrest hotbeds in Trans Nzoia and Western Kenya.",
@@ -1327,6 +1321,14 @@
       "opening": "Personality lead opening directly on Dr. Oburu Oginga becoming the defining talking point at Migwena Grounds without stepping foot on the grass.",
       "structure": "Personality hook on Oburu's high-stakes absence -> The verbatim crowd chants and stalled podium -> Simba Arati's vigil delegation role -> Catherine Omanyo's radio briefing on the hospital discharge -> The one-year succession milestone context",
       "source": "https://www.ghafla.co.ke/crowd-demands-answers-over-oburu-ogingas-absence-at-raila-odingas-first-memorial/"
+    },
+    {
+      "title": "Rigathi Gachagua Stokes Fuel Storm as Wandayi Clashes With Lobby Over KSh 227 EPRA Shock",
+      "angle": "Framing the showdown through former Deputy President Rigathi Gachagua's explosive public clash with Energy Cabinet Secretary Opiyo Wandayi over alleged 'artificially inflated fuel margins,' setting off a volatile confrontation as motorists seize on EPRA's unexplained kerosene arithmetic to threaten street action.",
+      "angle_type": "political celebrity clash and institutional accountability",
+      "opening": "Personality lead opening directly on Rigathi Gachagua's margin-rigging allegations blowing open the national conversation as pump prices hit record highs.",
+      "structure": "Personality clash hook -> Gachagua's margins allegations vs Wandayi's defense -> EPRA's October 15 pricing breakdown -> MAK's technical kerosene discrepancy audit -> G-to-G import transparency demands and demo countdown close",
+      "source": "https://www.ghafla.co.ke/explain-the-math-motorists-threaten-demos-over-latest-epra-fuel-increases/"
     }
   ],
   "style_history": [
