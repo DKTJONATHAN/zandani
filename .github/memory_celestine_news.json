@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "07178b92f9d33c7f2ebc028d3c0079c2",
     "90176d2a40fa7be3352aa5a0dff9a07c",
     "ad871f42dfe04ecfe78a76e6597bf4b2",
     "82e7c4e9e2cb154c145813c1f1234a7c",
@@ -799,10 +798,10 @@
     "6f2381e540346332a236201a1ede1ddd",
     "d30d0a9a3f776a79bda9d5ea49024466",
     "be97618a6758ffab6c0593f1fd25a726",
-    "0b6312812855db518bac15d937a91a98"
+    "0b6312812855db518bac15d937a91a98",
+    "e74bb795d5b717b747d386da1856ec23"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1346,7 +1346,8 @@
     "https://kenyans.co.ke/news/127879-court-renders-new-development-approvals-nairobis-parklands-null-and-void",
     "https://kenyans.co.ke/news/127882-kenya-condemns-houthi-attacks-saudi-arabia-death-toll-hits-19",
     "https://kenyans.co.ke/news/127884-ruto-signs-law-giving-kpa-boss-seat-kra-board",
-    "https://kenyans.co.ke/news/127886-kra-staff-earn-3-bonuses-exceeding-revenue-targets-under-new-law"
+    "https://kenyans.co.ke/news/127886-kra-staff-earn-3-bonuses-exceeding-revenue-targets-under-new-law",
+    "https://kenyans.co.ke/news/127883-traffic-paralysed-southern-bypass-after-two-lorries-overturn"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1783,7 +1784,8 @@
     "city hall inaction triggers parklands planning freeze month court clock runs out",
     "gulf infrastructure strikes expose vulnerability fuel supply",
     "state locks ports boss kra board sweeping tax governance overhaul",
-    "law locks kra budget floor ports chief seat tax overhaul"
+    "law locks kra budget floor ports chief seat tax overhaul",
+    "southern bypass gridlock deepens freight incidents choke nairobi transit arteries"
   ],
   "topic_keys": [
     "news tracker",
@@ -4987,6 +4989,15 @@
       "structure": "Statutory funding floor and board integration lead -> The 3% excess revenue performance incentive mechanism -> Removal of ex-officio limitations and KPA alignment -> Fiscal pressure context and revenue targets -> Legislative forward outlook.",
       "source": "https://kenyans.co.ke/news/127886-kra-staff-earn-3-bonuses-exceeding-revenue-targets-under-new-law",
       "published_at": "2026-10-16T08:02:10Z"
+    },
+    {
+      "title": "Southern Bypass Gridlock Deepens as Freight Incidents Choke Nairobi\u2019s Transit Arteries",
+      "angle": "The cascading logistical vulnerability of Nairobi's southern corridor following consecutive multi-day transport blockages, examining how vulnerable freight routes are failing under commercial cargo weight (maize, sand, and soil) while choking urban connectivity.",
+      "angle_type": "consequence",
+      "opening": "Consequence-driven operational lead focusing on the corridor's compounding paralysis.",
+      "structure": "Corridor gridlock reality -> The Friday morning crash specifics (cargo, location) -> Compounding weekly disruption timeline (Thursday bypass blockage, JKIA bus crash) -> Traffic mitigation impacts on commuters -> Unresolved driver conditions and emergency response timeline.",
+      "source": "https://kenyans.co.ke/news/127883-traffic-paralysed-southern-bypass-after-two-lorries-overturn",
+      "published_at": "2026-10-16T08:52:30Z"
     }
   ]
 }
