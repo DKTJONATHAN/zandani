@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "cfd36367fab889d9464fae6c992967ae",
     "48857a4df8ec00944edd1b2eebbda3ef",
     "07178b92f9d33c7f2ebc028d3c0079c2",
     "90176d2a40fa7be3352aa5a0dff9a07c",
@@ -799,10 +798,10 @@
     "d539f5bfec5beaef91156c7f06776cec",
     "22c1f7c67bc520cb0e5615bc71995f66",
     "6f2381e540346332a236201a1ede1ddd",
-    "d30d0a9a3f776a79bda9d5ea49024466"
+    "d30d0a9a3f776a79bda9d5ea49024466",
+    "be97618a6758ffab6c0593f1fd25a726"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Desk Take",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1344,7 +1344,8 @@
     "https://kenyans.co.ke/news/127876-ksl-suspends-applications-amid-dispute-over-new-admission-rules",
     "https://kenyans.co.ke/news/127878-epra-warns-possible-further-fuel-price-hikes-if-middle-east-conflict-escalates",
     "https://kenyans.co.ke/news/127879-court-renders-new-development-approvals-nairobis-parklands-null-and-void",
-    "https://kenyans.co.ke/news/127882-kenya-condemns-houthi-attacks-saudi-arabia-death-toll-hits-19"
+    "https://kenyans.co.ke/news/127882-kenya-condemns-houthi-attacks-saudi-arabia-death-toll-hits-19",
+    "https://kenyans.co.ke/news/127884-ruto-signs-law-giving-kpa-boss-seat-kra-board"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1779,7 +1780,8 @@
     "court freeze ksl admissions exposes fallout bypassing parliament",
     "middle east tanker strikes force onto costly singapore spot fuel market",
     "city hall inaction triggers parklands planning freeze month court clock runs out",
-    "gulf infrastructure strikes expose vulnerability fuel supply"
+    "gulf infrastructure strikes expose vulnerability fuel supply",
+    "state locks ports boss kra board sweeping tax governance overhaul"
   ],
   "topic_keys": [
     "news tracker",
@@ -4965,6 +4967,15 @@
       "structure": "Supply vulnerability lead -> Diplomatic phone call details (Mudavadi and Elkhereiji) -> Scope of the Houthi escalation (airports, Aramco, casualties) -> Fuel supply mechanics under the G-2G agreement -> Forward closing on energy market risks.",
       "source": "https://kenyans.co.ke/news/127882-kenya-condemns-houthi-attacks-saudi-arabia-death-toll-hits-19",
       "published_at": "2026-10-16T06:02:29Z"
+    },
+    {
+      "title": "State Locks Ports Boss Into KRA Board in Sweeping Tax Governance Overhaul",
+      "angle": "The statutory conversion of KRA's boardroom into a substantive command clearinghouse\u2014stripping the non-voting, ex-officio limitations off the Attorney General, Treasury, and Commissioner General while binding maritime cargo throughput directly into tax governance.",
+      "angle_type": "practical change",
+      "opening": "Governance realignment lead establishing the legal elevation of ex-officio seats and the direct incorporation of maritime freight oversight into the tax authority's board.",
+      "structure": "Governance restructuring lead -> Boardroom status shifts (ex-officio elimination) -> Port-customs integration mechanics -> Legislative passage timeline -> Complete roster and legal oversight framework.",
+      "source": "https://kenyans.co.ke/news/127884-ruto-signs-law-giving-kpa-boss-seat-kra-board",
+      "published_at": "2026-10-16T07:01:32Z"
     }
   ]
 }
