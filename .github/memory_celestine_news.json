@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "4afcea6c5adc0c82bd901801289c9dc7",
     "0668511a055104d5e2e23201747d8e87",
     "c2e237e122231d59f0a0f1a61decd01f",
     "183672028234255d270f4e85e9a421ab",
@@ -799,10 +798,10 @@
     "111166ad48461c9c069a0e00229277af",
     "cf5a7f54a6b5779b2dd9735b638db6fc",
     "553799270fdf1e3f58e15fafb19bea24",
-    "20dd213daf3db36388afc2ecd37efcb5"
+    "20dd213daf3db36388afc2ecd37efcb5",
+    "f00c459c33e7fcf510bc52ddc6dbda6b"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1351,7 +1351,8 @@
     "https://kenyans.co.ke/news/127889-ntsa-asks-motorists-collect-smart-driving-licences-warns-brokers",
     "https://kenyans.co.ke/news/127890-experts-warn-kenyan-shilling-faces-weakening-pressure-against-us-dollar",
     "https://kenyans.co.ke/news/127893-standard-group-ceo-chacha-mwita-resigns-company-announces-three-board-changes",
-    "https://kenyans.co.ke/news/127894-ride-hailing-drivers-propose-ksh350-minimum-fare-after-fuel-price-hike"
+    "https://kenyans.co.ke/news/127894-ride-hailing-drivers-propose-ksh350-minimum-fare-after-fuel-price-hike",
+    "https://kenyans.co.ke/news/127896-eacc-arrests-traffic-police-officers-over-alleged-bribery-maua-makutano-road"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1793,7 +1794,8 @@
     "ntsa cuts login hurdles document portal squeeze out depot brokers",
     "forex inflows shield importers rising fuel bills test shilling stability",
     "standard group corner office vacant again capital freeze deepens",
-    "unenforced fare rules expose app taxis strike fuel spikes ksh226"
+    "unenforced fare rules expose app taxis strike fuel spikes ksh226",
+    "eacc seizes vehicle ksh23 000 meru roadside anti bribery sting"
   ],
   "topic_keys": [
     "news tracker",
@@ -5042,6 +5044,15 @@
       "structure": "Lead on regulatory failure and strike threat -> Specifics of the Ksh350 tariff demand and vehicle category -> Breakdown of EPRA's October 14 price shocks -> The platform commission trap and unfulfilled May presidential order -> Wider transport fallout including matatu hikes and G-to-G audit demands -> Pointed close on regulatory deadlock.",
       "source": "https://kenyans.co.ke/news/127894-ride-hailing-drivers-propose-ksh350-minimum-fare-after-fuel-price-hike",
       "published_at": "2026-10-16T12:02:07Z"
+    },
+    {
+      "title": "EACC Seizes Vehicle, Ksh23,000 in Meru Roadside Anti-Bribery Sting",
+      "angle": "Focusing on the operational geometry of the roadblock trap: how targeted surveillance and vehicle impoundment are being used by investigators to dismantle cash-collection points on regional transit corridors.",
+      "angle_type": "practical change",
+      "opening": "Start with the tactical footprint of the roadside operation and asset seizure rather than the bureaucratic announcement.",
+      "structure": "Roadside operation lead -> Seizure metrics (Ksh23,000 and Toyota Fielder) -> Regional processing in Isiolo -> Broader highway enforcement context",
+      "source": "https://kenyans.co.ke/news/127896-eacc-arrests-traffic-police-officers-over-alleged-bribery-maua-makutano-road",
+      "published_at": "2026-10-16T13:56:26Z"
     }
   ]
 }
