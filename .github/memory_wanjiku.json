@@ -267,7 +267,8 @@
     "5c78c9db52af9aa02cc1b6d0dcdcea8232e9f11de22b66f92c8abbd89cd3e78d",
     "252f5976a33448b76b0ecd516cd6201e8ea89c18e6c2911d643ea2c12e87ef2b",
     "684a66f8df08adab9472c5af4119e83aa516c2636be1f1af88105c3d726ed4f3",
-    "a41d9835d40088f7b347760be115df16cb4b76dca1ab26d803c18f0ea7b586aa"
+    "a41d9835d40088f7b347760be115df16cb4b76dca1ab26d803c18f0ea7b586aa",
+    "c31b1a07ce66748a0ed23a465aa9e7673810dbd5e7bfca6d851339a6f18a8cc0"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -537,17 +538,10 @@
     "https://www.ghafla.co.ke/winnie-odinga-faces-travel-delay-after-kenya-airways-cancels-flight-on-eve-of-raila-memorial/",
     "https://www.ghafla.co.ke/battle-for-nairobi-jaymo-ule-msee-winnie-odinga-and-jalango-declare-bids-for-2027-senate-seat/",
     "https://www.ghafla.co.ke/kamene-explains-why-she-doesnt-live-with-dj-bonez/",
-    "https://www.ghafla.co.ke/kenya-power-announces-friday-blackouts-in-pangani-and-parts-of-meru-county/"
+    "https://www.ghafla.co.ke/kenya-power-announces-friday-blackouts-in-pangani-and-parts-of-meru-county/",
+    "https://www.ghafla.co.ke/pastor-kanyari-confronts-workers-over-alleged-fuel-siphoning-from-charity-bus/"
   ],
   "published_angles": [
-    {
-      "title": "Dr Ofweneke Challenges the \u2018Full-Time Ministry\u2019 Label, Warning It Breeds Financial Dependency on Church Coffers",
-      "angle": "Focusing on Ofweneke's structural and financial critique of the 'full-time ministry' label, highlighting his warning that relying solely on church coffers breeds dependency, and framing his corporate gig-economy portfolio as a self-sustaining model for modern ministry.",
-      "angle_type": "career lifestyle and institutional religious critique",
-      "opening": "Directly target Ofweneke's critique of 'full-time ministry' and the financial dependency it creates.",
-      "structure": "Critique of full-time ministry dependency -> Theological reinterpretation of the disciples' secular skills -> Ofweneke's personal list of corporate roles -> Practical defense of a self-sustaining dual identity.",
-      "source": "https://www.ghafla.co.ke/dr-ofweneke-says-god-can-use-your-skills-without-requiring-you-to-abandon-them/"
-    },
     {
       "title": "DJ Shiti Balances Nakuru Childhood Grief With Village Night Runner Warnings",
       "angle": "Examining how the comedian juxtaposes deep generational grief and hometown nostalgia with deadpan village humor, specifically calling out local night runners.",
@@ -1339,6 +1333,14 @@
       "opening": "Direct operational lead detailing the targeted Friday maintenance sweep spanning urban transit lanes and rural agro-processing hubs.",
       "structure": "Utility maintenance scope -> Pangani street-level breakdown -> Meru agro-processing and institutional impact -> Advisory and grid management context.",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-friday-blackouts-in-pangani-and-parts-of-meru-county/"
+    },
+    {
+      "title": "KSh 30,000 Salary vs. Empty Tank: Pastor Kanyari Confronts Kasarani Charity Crew Over Fuel Siphoning",
+      "angle": "The operational reality and financial breakdown of running a politically motivated charity fleet where a KSh 30,000 monthly salary clashes with fuel management on the Kasarani campaign trail.",
+      "angle_type": "charity fleet logistics and employee salary economics",
+      "opening": "Personality lead focusing directly on Pastor Kanyari confronting the economic arithmetic of running a community charity bus in Kasarani.",
+      "structure": "Personality hook on the fuel confrontation -> The financial tension between staff salaries and operational expenses -> The Kasarani foundation context and political vehicle rollout -> Closing on the selective forgiveness and driver confrontation.",
+      "source": "https://www.ghafla.co.ke/pastor-kanyari-confronts-workers-over-alleged-fuel-siphoning-from-charity-bus/"
     }
   ],
   "style_history": [
