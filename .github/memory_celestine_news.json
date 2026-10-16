@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "31e1dfc4544e982b488af6576cbc3073",
     "4afcea6c5adc0c82bd901801289c9dc7",
     "0668511a055104d5e2e23201747d8e87",
     "c2e237e122231d59f0a0f1a61decd01f",
@@ -799,10 +798,10 @@
     "e74bb795d5b717b747d386da1856ec23",
     "111166ad48461c9c069a0e00229277af",
     "cf5a7f54a6b5779b2dd9735b638db6fc",
-    "553799270fdf1e3f58e15fafb19bea24"
+    "553799270fdf1e3f58e15fafb19bea24",
+    "20dd213daf3db36388afc2ecd37efcb5"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1350,7 +1350,8 @@
     "https://kenyans.co.ke/news/127883-traffic-paralysed-southern-bypass-after-two-lorries-overturn",
     "https://kenyans.co.ke/news/127889-ntsa-asks-motorists-collect-smart-driving-licences-warns-brokers",
     "https://kenyans.co.ke/news/127890-experts-warn-kenyan-shilling-faces-weakening-pressure-against-us-dollar",
-    "https://kenyans.co.ke/news/127893-standard-group-ceo-chacha-mwita-resigns-company-announces-three-board-changes"
+    "https://kenyans.co.ke/news/127893-standard-group-ceo-chacha-mwita-resigns-company-announces-three-board-changes",
+    "https://kenyans.co.ke/news/127894-ride-hailing-drivers-propose-ksh350-minimum-fare-after-fuel-price-hike"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1791,7 +1792,8 @@
     "southern bypass gridlock deepens freight incidents choke nairobi transit arteries",
     "ntsa cuts login hurdles document portal squeeze out depot brokers",
     "forex inflows shield importers rising fuel bills test shilling stability",
-    "standard group corner office vacant again capital freeze deepens"
+    "standard group corner office vacant again capital freeze deepens",
+    "unenforced fare rules expose app taxis strike fuel spikes ksh226"
   ],
   "topic_keys": [
     "news tracker",
@@ -5031,6 +5033,15 @@
       "structure": "Capital distress and executive exit lead -> Timeline of corner-office churn (Mwita and Gathoga-Mwangi) -> The board overhaul roster -> Cash-flow choke points (frozen Ksh 1.5B rights issue, state arrears) -> Unresolved succession.",
       "source": "https://kenyans.co.ke/news/127893-standard-group-ceo-chacha-mwita-resigns-company-announces-three-board-changes",
       "published_at": "2026-10-16T11:02:02Z"
+    },
+    {
+      "title": "Unenforced Fare Rules Expose App Taxis to Strike as Fuel Spikes to Ksh226",
+      "angle": "Regulatory inertia at the Ministry of Transport and NTSA: five months after an explicit executive order to establish statutory floor pricing, inaction has left drivers squeezed between record retail pump prices and unchecked platform commissions.",
+      "angle_type": "accountability",
+      "opening": "Hard news lead pinpointing regulatory non-implementation of executive floor pricing directives against the backdrop of EPRA's latest fuel review.",
+      "structure": "Lead on regulatory failure and strike threat -> Specifics of the Ksh350 tariff demand and vehicle category -> Breakdown of EPRA's October 14 price shocks -> The platform commission trap and unfulfilled May presidential order -> Wider transport fallout including matatu hikes and G-to-G audit demands -> Pointed close on regulatory deadlock.",
+      "source": "https://kenyans.co.ke/news/127894-ride-hailing-drivers-propose-ksh350-minimum-fare-after-fuel-price-hike",
+      "published_at": "2026-10-16T12:02:07Z"
     }
   ]
 }
