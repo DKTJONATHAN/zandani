@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "0668511a055104d5e2e23201747d8e87",
     "c2e237e122231d59f0a0f1a61decd01f",
     "183672028234255d270f4e85e9a421ab",
     "ea3c059fd0dde9fb24810edf83305437",
@@ -799,10 +798,10 @@
     "cf5a7f54a6b5779b2dd9735b638db6fc",
     "553799270fdf1e3f58e15fafb19bea24",
     "20dd213daf3db36388afc2ecd37efcb5",
-    "f00c459c33e7fcf510bc52ddc6dbda6b"
+    "f00c459c33e7fcf510bc52ddc6dbda6b",
+    "c481d7ec4ebef418e205ee24df2b205d"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1352,7 +1352,8 @@
     "https://kenyans.co.ke/news/127890-experts-warn-kenyan-shilling-faces-weakening-pressure-against-us-dollar",
     "https://kenyans.co.ke/news/127893-standard-group-ceo-chacha-mwita-resigns-company-announces-three-board-changes",
     "https://kenyans.co.ke/news/127894-ride-hailing-drivers-propose-ksh350-minimum-fare-after-fuel-price-hike",
-    "https://kenyans.co.ke/news/127896-eacc-arrests-traffic-police-officers-over-alleged-bribery-maua-makutano-road"
+    "https://kenyans.co.ke/news/127896-eacc-arrests-traffic-police-officers-over-alleged-bribery-maua-makutano-road",
+    "https://kenyans.co.ke/news/127897-cma-warns-kenyans-against-unregulated-investment-schemes"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1795,7 +1796,8 @@
     "forex inflows shield importers rising fuel bills test shilling stability",
     "standard group corner office vacant again capital freeze deepens",
     "unenforced fare rules expose app taxis strike fuel spikes ksh226",
-    "eacc seizes vehicle ksh23 000 meru roadside anti bribery sting"
+    "eacc seizes vehicle ksh23 000 meru roadside anti bribery sting",
+    "cma targets crypto trails crackdown unregulated investment portals"
   ],
   "topic_keys": [
     "news tracker",
@@ -5053,6 +5055,15 @@
       "structure": "Roadside operation lead -> Seizure metrics (Ksh23,000 and Toyota Fielder) -> Regional processing in Isiolo -> Broader highway enforcement context",
       "source": "https://kenyans.co.ke/news/127896-eacc-arrests-traffic-police-officers-over-alleged-bribery-maua-makutano-road",
       "published_at": "2026-10-16T13:56:26Z"
+    },
+    {
+      "title": "CMA Targets Crypto Trails in Crackdown on Unregulated Investment Portals",
+      "angle": "The operational shift in regulatory enforcement toward tracking digital breadcrumbs\u2014specifically demanding transaction hashes and cryptocurrency wallet addresses to pierce anonymity on rogue online platforms.",
+      "angle_type": "accountability",
+      "opening": "Forensic accountability lead focusing on the regulator's pivot from public warnings to harvesting digital transaction hashes and wallet addresses.",
+      "structure": "Forensic recovery pivot -> The target entities (Global Investment Group and QVSE) -> Broadening digital fraud landscape (15 platforms flagged in September) -> Verification protocols and public exposure risks",
+      "source": "https://kenyans.co.ke/news/127897-cma-warns-kenyans-against-unregulated-investment-schemes",
+      "published_at": "2026-10-16T15:02:19Z"
     }
   ]
 }
