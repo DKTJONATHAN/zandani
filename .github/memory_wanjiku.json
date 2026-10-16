@@ -266,7 +266,8 @@
     "fb62cd992bcc9bd644442370f455c2a7b412c0061a8a1259e632626a820d280a",
     "5c78c9db52af9aa02cc1b6d0dcdcea8232e9f11de22b66f92c8abbd89cd3e78d",
     "252f5976a33448b76b0ecd516cd6201e8ea89c18e6c2911d643ea2c12e87ef2b",
-    "684a66f8df08adab9472c5af4119e83aa516c2636be1f1af88105c3d726ed4f3"
+    "684a66f8df08adab9472c5af4119e83aa516c2636be1f1af88105c3d726ed4f3",
+    "a41d9835d40088f7b347760be115df16cb4b76dca1ab26d803c18f0ea7b586aa"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -535,17 +536,10 @@
     "https://www.ghafla.co.ke/kenya-power-announces-thursday-blackouts-in-nairobi-kajiado-nyeri-kiambu-and-kitui/",
     "https://www.ghafla.co.ke/winnie-odinga-faces-travel-delay-after-kenya-airways-cancels-flight-on-eve-of-raila-memorial/",
     "https://www.ghafla.co.ke/battle-for-nairobi-jaymo-ule-msee-winnie-odinga-and-jalango-declare-bids-for-2027-senate-seat/",
-    "https://www.ghafla.co.ke/kamene-explains-why-she-doesnt-live-with-dj-bonez/"
+    "https://www.ghafla.co.ke/kamene-explains-why-she-doesnt-live-with-dj-bonez/",
+    "https://www.ghafla.co.ke/kenya-power-announces-friday-blackouts-in-pangani-and-parts-of-meru-county/"
   ],
   "published_angles": [
-    {
-      "title": "Millicent Omanga Draws the Line as DNA Paternity Battles Spill Into Content Creation",
-      "angle": "Examining the boundary where creator-economy oversharing meets child protection, shifting the lens to the irreversible digital footprint left on minors when family disputes become content.",
-      "angle_type": "creator economy privacy boundary and digital footprint accountability",
-      "opening": "Direct focus on Millicent Omanga drawing a hard line against turning private family crises into online entertainment.",
-      "structure": "Omanga's intervention hook -> The Saturday DNA reveal and 12-year context -> The mechanics of creator oversharing -> The collateral damage to minors -> Concrete close on the ongoing public-figure debate.",
-      "source": "https://www.ghafla.co.ke/millicent-omanga-urges-protection-of-child-in-ciggie-johnson-paternity-saga/"
-    },
     {
       "title": "Dr Ofweneke Challenges the \u2018Full-Time Ministry\u2019 Label, Warning It Breeds Financial Dependency on Church Coffers",
       "angle": "Focusing on Ofweneke's structural and financial critique of the 'full-time ministry' label, highlighting his warning that relying solely on church coffers breeds dependency, and framing his corporate gig-economy portfolio as a self-sustaining model for modern ministry.",
@@ -1337,6 +1331,14 @@
       "opening": "Personality lead opening directly on Kamene Goro outlining the geographical boundaries of her marriage across the Nairobi-Mombasa corridor.",
       "structure": "Inter-city career reality lead -> Milele FM phone interview verification -> Dissecting the co-habitation assumption versus professional geography -> Bonez's public track record and commitment -> Firm boundary closing on marital status.",
       "source": "https://www.ghafla.co.ke/kamene-explains-why-she-doesnt-live-with-dj-bonez/"
+    },
+    {
+      "title": "Kenya Power Schedules Friday Grid Shutdown Across Pangani Transit Corridor and Meru Coffee Hubs",
+      "angle": "Examining the operational exposure of contrasting economic nodes\u2014from Pangani's commercial and transit corridors to Meru's coffee processing plants and educational centers\u2014during a scheduled Friday maintenance run.",
+      "angle_type": "infrastructure disruption and regional economic contrast",
+      "opening": "Direct operational lead detailing the targeted Friday maintenance sweep spanning urban transit lanes and rural agro-processing hubs.",
+      "structure": "Utility maintenance scope -> Pangani street-level breakdown -> Meru agro-processing and institutional impact -> Advisory and grid management context.",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-friday-blackouts-in-pangani-and-parts-of-meru-county/"
     }
   ],
   "style_history": [
