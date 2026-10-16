@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "82e7c4e9e2cb154c145813c1f1234a7c",
     "31e1dfc4544e982b488af6576cbc3073",
     "4afcea6c5adc0c82bd901801289c9dc7",
     "0668511a055104d5e2e23201747d8e87",
@@ -799,10 +798,10 @@
     "0b6312812855db518bac15d937a91a98",
     "e74bb795d5b717b747d386da1856ec23",
     "111166ad48461c9c069a0e00229277af",
-    "cf5a7f54a6b5779b2dd9735b638db6fc"
+    "cf5a7f54a6b5779b2dd9735b638db6fc",
+    "553799270fdf1e3f58e15fafb19bea24"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1349,7 +1349,8 @@
     "https://kenyans.co.ke/news/127886-kra-staff-earn-3-bonuses-exceeding-revenue-targets-under-new-law",
     "https://kenyans.co.ke/news/127883-traffic-paralysed-southern-bypass-after-two-lorries-overturn",
     "https://kenyans.co.ke/news/127889-ntsa-asks-motorists-collect-smart-driving-licences-warns-brokers",
-    "https://kenyans.co.ke/news/127890-experts-warn-kenyan-shilling-faces-weakening-pressure-against-us-dollar"
+    "https://kenyans.co.ke/news/127890-experts-warn-kenyan-shilling-faces-weakening-pressure-against-us-dollar",
+    "https://kenyans.co.ke/news/127893-standard-group-ceo-chacha-mwita-resigns-company-announces-three-board-changes"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1789,7 +1790,8 @@
     "law locks kra budget floor ports chief seat tax overhaul",
     "southern bypass gridlock deepens freight incidents choke nairobi transit arteries",
     "ntsa cuts login hurdles document portal squeeze out depot brokers",
-    "forex inflows shield importers rising fuel bills test shilling stability"
+    "forex inflows shield importers rising fuel bills test shilling stability",
+    "standard group corner office vacant again capital freeze deepens"
   ],
   "topic_keys": [
     "news tracker",
@@ -5020,6 +5022,15 @@
       "structure": "Lead on attribution and beneficiaries -> Forex market quotes and charity inflows buffer -> Petroleum landed cost data and dollar requirements -> Central Bank inflation assessment and food price balance -> Transmission risk to industrial and capital imports.",
       "source": "https://kenyans.co.ke/news/127890-experts-warn-kenyan-shilling-faces-weakening-pressure-against-us-dollar",
       "published_at": "2026-10-16T10:02:26Z"
+    },
+    {
+      "title": "Standard Group Corner Office Vacant Again as Capital Freeze Deepens",
+      "angle": "The operational and governance vacuum created by consecutive executive exits\u2014two CEOs departing in under 16 months\u2014at the exact moment a critical Ksh 1.5 billion rights issue sits suspended and unpaid state ad bills strangle cash flow.",
+      "angle_type": "institutional pressure",
+      "opening": "Governance-and-capital collision lead connecting the executive departure directly to the frozen equity turnaround.",
+      "structure": "Capital distress and executive exit lead -> Timeline of corner-office churn (Mwita and Gathoga-Mwangi) -> The board overhaul roster -> Cash-flow choke points (frozen Ksh 1.5B rights issue, state arrears) -> Unresolved succession.",
+      "source": "https://kenyans.co.ke/news/127893-standard-group-ceo-chacha-mwita-resigns-company-announces-three-board-changes",
+      "published_at": "2026-10-16T11:02:02Z"
     }
   ]
 }
