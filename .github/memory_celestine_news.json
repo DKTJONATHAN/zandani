@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "183672028234255d270f4e85e9a421ab",
     "ea3c059fd0dde9fb24810edf83305437",
     "4627ebaa05f66b14dc5be624eb88b28d",
     "8aaf1d541e5431e3f34a26eecefa8ac2",
@@ -799,10 +798,10 @@
     "20dd213daf3db36388afc2ecd37efcb5",
     "f00c459c33e7fcf510bc52ddc6dbda6b",
     "c481d7ec4ebef418e205ee24df2b205d",
-    "d39e2bc14ca85e5a1b2dd6ccb82b435b"
+    "d39e2bc14ca85e5a1b2dd6ccb82b435b",
+    "5b8a8ab4197c49914227c5738b4c9b04"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1354,7 +1354,8 @@
     "https://kenyans.co.ke/news/127894-ride-hailing-drivers-propose-ksh350-minimum-fare-after-fuel-price-hike",
     "https://kenyans.co.ke/news/127896-eacc-arrests-traffic-police-officers-over-alleged-bribery-maua-makutano-road",
     "https://kenyans.co.ke/news/127897-cma-warns-kenyans-against-unregulated-investment-schemes",
-    "https://kenyans.co.ke/news/127898-kra-phase-out-electronic-cargo-tracking-seals-major-overhaul"
+    "https://kenyans.co.ke/news/127898-kra-phase-out-electronic-cargo-tracking-seals-major-overhaul",
+    "https://kenyans.co.ke/news/127899-kenya-confirms-third-case-ebola-case-related-first-victim"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1799,7 +1800,8 @@
     "unenforced fare rules expose app taxis strike fuel spikes ksh226",
     "eacc seizes vehicle ksh23 000 meru roadside anti bribery sting",
     "cma targets crypto trails crackdown unregulated investment portals",
-    "kra outsages tracking seals private vendors supply chain overhaul"
+    "kra outsages tracking seals private vendors supply chain overhaul",
+    "ebola containment race enters final fortnight third patient tests positive isolation"
   ],
   "topic_keys": [
     "news tracker",
@@ -5075,6 +5077,15 @@
       "structure": "Outsourcing shift lead -> Vendor framework and user contracts -> Gradual wet cargo timeline -> Compliance advice and verification channels",
       "source": "https://kenyans.co.ke/news/127898-kra-phase-out-electronic-cargo-tracking-seals-major-overhaul",
       "published_at": "2026-10-16T16:01:53Z"
+    },
+    {
+      "title": "Ebola Containment Race Enters Final Fortnight as Third Patient Tests Positive in Isolation",
+      "angle": "The operational pressure and ticking timeline of the 21-day quarantine window as officials race to clear the remaining three untraced contacts before the monitoring cycle lapses.",
+      "angle_type": "consequence",
+      "opening": "Consequence-driven timeline lead focusing on the 21-day containment window and the remaining untraced contacts.",
+      "structure": "Countdown lead -> Patient admission and symptom profile -> Contact tracing metrics and quarantine status -> Public health risk assessment and monitoring expiration timeline.",
+      "source": "https://kenyans.co.ke/news/127899-kenya-confirms-third-case-ebola-case-related-first-victim",
+      "published_at": "2026-10-16T17:01:51Z"
     }
   ]
 }
