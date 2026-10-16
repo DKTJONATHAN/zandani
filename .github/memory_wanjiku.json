@@ -268,7 +268,8 @@
     "252f5976a33448b76b0ecd516cd6201e8ea89c18e6c2911d643ea2c12e87ef2b",
     "684a66f8df08adab9472c5af4119e83aa516c2636be1f1af88105c3d726ed4f3",
     "a41d9835d40088f7b347760be115df16cb4b76dca1ab26d803c18f0ea7b586aa",
-    "c31b1a07ce66748a0ed23a465aa9e7673810dbd5e7bfca6d851339a6f18a8cc0"
+    "c31b1a07ce66748a0ed23a465aa9e7673810dbd5e7bfca6d851339a6f18a8cc0",
+    "a2c4781b1a5991bee3ec125625015e77634bcb2c47946b9cc5771e108df9b4c7"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -539,17 +540,10 @@
     "https://www.ghafla.co.ke/battle-for-nairobi-jaymo-ule-msee-winnie-odinga-and-jalango-declare-bids-for-2027-senate-seat/",
     "https://www.ghafla.co.ke/kamene-explains-why-she-doesnt-live-with-dj-bonez/",
     "https://www.ghafla.co.ke/kenya-power-announces-friday-blackouts-in-pangani-and-parts-of-meru-county/",
-    "https://www.ghafla.co.ke/pastor-kanyari-confronts-workers-over-alleged-fuel-siphoning-from-charity-bus/"
+    "https://www.ghafla.co.ke/pastor-kanyari-confronts-workers-over-alleged-fuel-siphoning-from-charity-bus/",
+    "https://www.ghafla.co.ke/nakuru-court-rules-four-years-of-cohabitation-do-not-automatically-make-a-couple-married/"
   ],
   "published_angles": [
-    {
-      "title": "DJ Shiti Balances Nakuru Childhood Grief With Village Night Runner Warnings",
-      "angle": "Examining how the comedian juxtaposes deep generational grief and hometown nostalgia with deadpan village humor, specifically calling out local night runners.",
-      "angle_type": "celebrity lifestyle and humorous coping mechanism",
-      "opening": "Personality-led opening focusing on DJ Shiti's roadside stop in Posta, Nakuru.",
-      "structure": "Nakuru nostalgia hook -> The passage of time and family history -> The tonal shift to village night runners -> Family identity warning -> Concrete close on the travel route.",
-      "source": "https://www.ghafla.co.ke/dj-shiti-remembers-childhood-home-as-he-mourns-late-father/"
-    },
     {
       "title": "\u2018Najoin Hivi UDA Natrend\u2019: MC Jessy Deconstructs the Illusion of Social Media Popularity in Electoral Defeat",
       "angle": "Deconstructing the deceptive gap between digital popularity\u2014specifically trending online upon joining UDA\u2014and ground-level electoral defeat, emphasizing MC Jessy's practical advice on tuning out public commentary to focus on baseline survival.",
@@ -1341,6 +1335,14 @@
       "opening": "Personality lead focusing directly on Pastor Kanyari confronting the economic arithmetic of running a community charity bus in Kasarani.",
       "structure": "Personality hook on the fuel confrontation -> The financial tension between staff salaries and operational expenses -> The Kasarani foundation context and political vehicle rollout -> Closing on the selective forgiveness and driver confrontation.",
       "source": "https://www.ghafla.co.ke/pastor-kanyari-confronts-workers-over-alleged-fuel-siphoning-from-charity-bus/"
+    },
+    {
+      "title": "US-Based Kenyan Learns the Hard Way That Four Years of 'Come-We-Stay' Doesn't Buy a Divorce",
+      "angle": "Examining the high financial and legal folly of a Diaspora-based partner trying to untangle a 'come-we-stay' arrangement through formal divorce courts when no legal union ever existed.",
+      "angle_type": "legal accountability and relationship reality",
+      "opening": "Personality-led focus on BMT's court gamble.",
+      "structure": "Personality litigation hook -> The Diaspora financial grievances -> The magistrate's legal dismissal -> The reality of Kenyan 'come-we-stay' jurisprudence",
+      "source": "https://www.ghafla.co.ke/nakuru-court-rules-four-years-of-cohabitation-do-not-automatically-make-a-couple-married/"
     }
   ],
   "style_history": [
