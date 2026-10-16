@@ -271,7 +271,8 @@
     "c31b1a07ce66748a0ed23a465aa9e7673810dbd5e7bfca6d851339a6f18a8cc0",
     "a2c4781b1a5991bee3ec125625015e77634bcb2c47946b9cc5771e108df9b4c7",
     "471c28661dbd2421eb5934dd460c062845d581b5a09ba196bb6f07d6b3e28cc7",
-    "fb8b7f114f23ef6bf69e12f9fc90cdc831657094d4140d3386967d681fb086e8"
+    "fb8b7f114f23ef6bf69e12f9fc90cdc831657094d4140d3386967d681fb086e8",
+    "098c65ed051d87b8cd9621ff42576a42bb8a942d7626b4bf5ce26f9c5ca797de"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -545,17 +546,10 @@
     "https://www.ghafla.co.ke/pastor-kanyari-confronts-workers-over-alleged-fuel-siphoning-from-charity-bus/",
     "https://www.ghafla.co.ke/nakuru-court-rules-four-years-of-cohabitation-do-not-automatically-make-a-couple-married/",
     "https://www.ghafla.co.ke/kra-reportedly-seeks-ksh623-million-from-mike-sonko-through-bank-notice/",
-    "https://www.ghafla.co.ke/betty-kyallo-and-charlie-lemmy-celebrate-their-daughter-as-she-turns-6-months-old/"
+    "https://www.ghafla.co.ke/betty-kyallo-and-charlie-lemmy-celebrate-their-daughter-as-she-turns-6-months-old/",
+    "https://www.ghafla.co.ke/jalango-dismisses-sifunas-2027-presidential-bid-predicts-he-will-finish-fourth/"
   ],
   "published_angles": [
-    {
-      "title": "David Maraga Celebrates 107-Year Dynasty as Matriarch Sister Sabina Kemunto Leaves Behind 53 Grandchildren",
-      "angle": "Focusing on the generational expanse and family dynamics of Sabina Kemunto's 107-year life\u2014leaving behind a 53-strong lineage of grandchildren and great-grandchildren, while leaving only Maraga and James Ochengo as the final surviving brothers of a once vast sibling circle.",
-      "angle_type": "family lineage and generational milestone",
-      "opening": "Personality-led focus on David Maraga opening a window into his private family tree to honor a centenarian matriarch.",
-      "structure": "Centenarian lineage hook -> Detailed breakdown of the multi-generational family tree and surviving descendants -> Sibling dynamics and survival among the Maraga elders -> Concrete factual close on the public family notice",
-      "source": "https://www.ghafla.co.ke/former-chief-justice-david-maraga-mourns-sister-sabina-kemunto-107/"
-    },
     {
       "title": "Aden Duale Details DRC Returnee\u2019s Final Hours as KEMRI Confirms Rare Ebola Bundibugyo Strain",
       "angle": "Focusing on the critical gap between cross-border public health screening and acute clinical detection, highlighting Aden Duale's disclosure of how a month-long illness in DRC bypassed airport protocols before emergency hospital triage and KEMRI laboratory confirmation took over.",
@@ -1347,6 +1341,14 @@
       "opening": "Personality lead opening directly on Betty Kyallo marking half a year of daughter Nova alongside Charlie Lemmy, highlighting the blend of candid relationship banter and family expansion.",
       "structure": "Personality milestone lead -> Verification of Nova's six-month reflection and motherhood perspective -> The lighter Charlie Lemmy dynamic, including the Boyfriend's Day KSh 3,000 fuel pivot -> Closing on the stabilized domestic phase for the media entrepreneur.",
       "source": "https://www.ghafla.co.ke/betty-kyallo-and-charlie-lemmy-celebrate-their-daughter-as-she-turns-6-months-old/"
+    },
+    {
+      "title": "Jalang\u2019o Invokes Raila\u2019s KICC Playbook in Takedown of Sifuna\u2019s Presidential Launch",
+      "angle": "Reframing Jalang'o's critique around political stagecraft and event logistics\u2014focusing on how the former radio host invoked Raila Odinga's KICC delegate blueprint to argue that Sifuna's small-room unveiling failed as a visual statement of presidential power.",
+      "angle_type": "political stagecraft and campaign logistics breakdown",
+      "opening": "Personality lead opening directly on Jalang'o invoking Raila Odinga's event playbook to critique Sifuna's political execution.",
+      "structure": "Personality lead -> The verified critique and 2027 forecast -> The KICC delegate blueprint comparison -> Context of TEP rollout and Nairobi political friction -> Concrete closing on local rivalry dynamics.",
+      "source": "https://www.ghafla.co.ke/jalango-dismisses-sifunas-2027-presidential-bid-predicts-he-will-finish-fourth/"
     }
   ],
   "style_history": [
