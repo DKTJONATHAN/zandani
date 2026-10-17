@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "927837005317ffdb53bd1bd7b6c3a750",
     "fd2deeb19bd57d13306ed966fbb71218",
     "c383884a80cddd3a536c4139c67cc689",
     "8c88c4fea6064301f098933b196ce119",
@@ -799,10 +798,10 @@
     "5b8a8ab4197c49914227c5738b4c9b04",
     "4aeea9f75d5a7a8a18a5d050fe18c522",
     "bfbb55501528ae17fb0d7b56519c9a76",
-    "5f1dd21d0aaf0a93fb52f17a6a2cd851"
+    "5f1dd21d0aaf0a93fb52f17a6a2cd851",
+    "d2d7d63c04f57ced600cd99a02186860"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1358,7 +1358,8 @@
     "https://kenyans.co.ke/news/127899-kenya-confirms-third-case-ebola-case-related-first-victim",
     "https://kenyans.co.ke/news/127901-four-injured-nairobi-cbd-building-collapses-during-night-demolition",
     "https://kenyans.co.ke/news/127903-four-dead-scores-injured-multiple-road-accidents",
-    "https://kenyans.co.ke/news/127906-inside-plan-turn-parklands-kibagare-river-corridor-public-park"
+    "https://kenyans.co.ke/news/127906-inside-plan-turn-parklands-kibagare-river-corridor-public-park",
+    "https://kenyans.co.ke/news/127908-kenya-met-predicts-high-temperatures-29degc-nairobi-rains-and-thunderstorms-5-regions"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1807,7 +1808,8 @@
     "ebola containment race enters final fortnight third patient tests positive isolation",
     "compromised beam cuts trigger midnight collapse cbd demolition site",
     "school closure travel turns fatal overnight crashes kill four across western transit corridors",
-    "state demands property deeds westlands riparian clearing kibagare park"
+    "state demands property deeds westlands riparian clearing kibagare park",
+    "thunderstorm alerts put western counties watch nairobi braces heat"
   ],
   "topic_keys": [
     "news tracker",
@@ -5119,6 +5121,15 @@
       "structure": "Enforcement directives and title deed recall -> Scope of physical de-canalisation and waterway bottlenecks -> Institutional buy-in and estate consultations -> Layout and riparian buffer specifications -> Integration into the Ksh50 billion master plan",
       "source": "https://kenyans.co.ke/news/127906-inside-plan-turn-parklands-kibagare-river-corridor-public-park",
       "published_at": "2026-10-17T06:02:01Z"
+    },
+    {
+      "title": "Thunderstorm Alerts Put Western Counties on Watch as Nairobi Braces for 29\u00b0C Heat",
+      "angle": "The regional divergence in operational risk: western lake-basin transit and commercial corridors face concentrated thunderstorm hazards while central metropolitan zones confront wide thermal swings between 29\u00b0C afternoon peaks and 10\u00b0C overnight drops.",
+      "angle_type": "local impact",
+      "opening": "Regional risk divergence lead contrasting the sustained thunderstorm exposure of the western basin against the dry thermal extremes hitting the central commercial belt.",
+      "structure": "Meteorological risk divide -> Western thunder and lightning zone specifics -> Central metropolitan heat and nighttime chill dynamics -> Coastal outlook and institutional guidance",
+      "source": "https://kenyans.co.ke/news/127908-kenya-met-predicts-high-temperatures-29degc-nairobi-rains-and-thunderstorms-5-regions",
+      "published_at": "2026-10-17T07:02:05Z"
     }
   ]
 }
