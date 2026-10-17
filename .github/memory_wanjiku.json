@@ -283,7 +283,8 @@
     "f20f572b32fbe20eaec19c29c940d98adad279effe4fdfbdc66b986acffb9658",
     "fccd77673eec6493e476858cc28ad915ef606e223c2c3dc9afe8fd3b3f110230",
     "f18eb28c5881ea799f57109c170d10051da62de8a02259af1f8b8f422e0272b2",
-    "9730a97eefb832c7df59268922d1760962fb3e31e1ab17036fa812b519f07c80"
+    "9730a97eefb832c7df59268922d1760962fb3e31e1ab17036fa812b519f07c80",
+    "7577ba5b3959d8be7ad9feb6397a6a26e8648229b999c2fd2d1a7902d881b593"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -569,17 +570,10 @@
     "https://www.ghafla.co.ke/cut-fuel-prices-by-sh29-ndindi-nyoros-ppk-proposes-sh5-5b-subsidy-and-margin-trims/",
     "https://www.ghafla.co.ke/india-responds-to-sifunas-tribute-over-raila-odingas-repatriation/",
     "https://www.ghafla.co.ke/matatu-fares-rise-by-up-to-50-per-cent-despite-10-per-cent-hike-directive/",
-    "https://www.ghafla.co.ke/mbadi-says-luo-support-for-ruto-cannot-be-transferred-to-raila-odingas-family/"
+    "https://www.ghafla.co.ke/mbadi-says-luo-support-for-ruto-cannot-be-transferred-to-raila-odingas-family/",
+    "https://www.ghafla.co.ke/kra-issues-agency-notice-to-recover-ksh-623-million-tax-debt-from-mike-sonko/"
   ],
   "published_angles": [
-    {
-      "title": "William Ruto Mobilizes Security Council as State Locks Down 56 Contacts in Ebola Containment Ring",
-      "angle": "President Ruto elevating a single imported Ebola fatality into a National Security Council Committee priority, activating a high-precision 56-person containment ring spanning family, medical staff, and flight contacts.",
-      "angle_type": "executive response and biosecurity containment",
-      "opening": "Personality lead opening directly on President William Ruto shifting the imported Ebola fatality into the jurisdiction of the National Security Council Committee.",
-      "structure": "Executive directive lead -> Detailed breakdown of the 56-person active quarantine ring -> Diagnostic laboratory capacity and border screening metrics -> Medical workforce preparation -> Health guidance and next regulatory steps close.",
-      "source": "https://www.ghafla.co.ke/president-ruto-intensifies-ebola-surveillance-after-death-of-imported-case/"
-    },
     {
       "title": "Madzibaba Wicknell: Inside Chivayo\u2019s White-Garment Church Farewell and Flag-Draped Send-Off",
       "angle": "Examining the collision of two distinct public identities at Wicknell Chivayo's final send-off: his grounding as 'Madzibaba Wicknell' inside the white-garment Apostolic sect where he served as an irreplaceable pillar, set against formal state recognition as a flag-draped Provincial Hero.",
@@ -1371,6 +1365,14 @@
       "opening": "Personality lead opening directly on John Mbadi drawing a line against political inheritance and pivoting straight into his own 2032 presidential ambition.",
       "structure": "Personality confrontation hook -> The Bondo memorial boycott context -> Direct challenge to hereditary leadership and Ida Odinga's camp -> The 2032 State House declaration and 2027 litmus test -> Concrete closing on factional lines",
       "source": "https://www.ghafla.co.ke/mbadi-says-luo-support-for-ruto-cannot-be-transferred-to-raila-odingas-family/"
+    },
+    {
+      "title": "KRA Ambushes Mike Sonko\u2019s Paying Clients to Seize KSh 623M Arrears",
+      "angle": "Focusing on the operational commercial ambush: KRA quietly stepping directly between the flamboyant former governor and his paying business clients, cutting off his private income streams right at the invoice level.",
+      "angle_type": "celebrity wealth scrutiny and financial squeeze",
+      "opening": "Personality lead opening directly on Mike Sonko facing a direct intercept of his commercial revenue by tax enforcement officers.",
+      "structure": "Personality lead -> Intercepted customer notice mechanics -> Arithmetic of the KSh 623M claim and five-year audit window -> Section 42 enforcement muscle -> Unresolved settlement outlook",
+      "source": "https://www.ghafla.co.ke/kra-issues-agency-notice-to-recover-ksh-623-million-tax-debt-from-mike-sonko/"
     }
   ],
   "style_history": [
