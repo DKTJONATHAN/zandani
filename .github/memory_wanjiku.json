@@ -279,7 +279,8 @@
     "d8741cf37c6091217549cceece1774ffe1dbda74fa331091e844006d0907b465",
     "b1205dcd13c525a0762d68dbd14b2e2f9fd9c84bb2e298c2a7ecfc8a9cfafb30",
     "6795f7476d95ecb3b2d03a50779b43d6450c7fee08f3f2b992287f6ae754441d",
-    "b2b69937613d7b38115a2fdb74369fd8fe0416c764ade42f69007da9472c55d6"
+    "b2b69937613d7b38115a2fdb74369fd8fe0416c764ade42f69007da9472c55d6",
+    "f20f572b32fbe20eaec19c29c940d98adad279effe4fdfbdc66b986acffb9658"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -561,17 +562,10 @@
     "https://www.ghafla.co.ke/sifuna-reveals-he-still-keeps-boarding-passes-from-trip-to-bring-railas-body-home/",
     "https://www.ghafla.co.ke/ruto-vs-sifuna-police-probe-kitale-incident-after-two-officers-injured-government-vehicles-damaged/",
     "https://www.ghafla.co.ke/i-made-a-firm-commitment-to-kenyans-with-a-clear-plan-president-ruto-answers-critics/",
-    "https://www.ghafla.co.ke/ruto-says-usawa-ni-sawa-campaign-will-deliver-development-across-kenya/"
+    "https://www.ghafla.co.ke/ruto-says-usawa-ni-sawa-campaign-will-deliver-development-across-kenya/",
+    "https://www.ghafla.co.ke/cut-fuel-prices-by-sh29-ndindi-nyoros-ppk-proposes-sh5-5b-subsidy-and-margin-trims/"
   ],
   "published_angles": [
-    {
-      "title": "George Ruto Scales \u2018Raptor Family\u2019 Fleet Beyond KSh 120 Million with Premium Custom \u2018Nganyas\u2019",
-      "angle": "Analyzing the aggressive capital scaling and high-spec financial investments behind George Ruto's 'Raptor Family' brand, contrasting the luxury street-culture customizations with the real-world operational logistics of veteran transport workers on Nairobi's toughest routes.",
-      "angle_type": "commercial expansion and lifestyle economics",
-      "opening": "Personality-led focus on George Ruto's rapid scaling from a single 2025 vehicle to a multi-million shilling transit fleet.",
-      "structure": "Capital scale and fleet valuation -> The economics of 'nganya' customization -> Route logistics and veteran driver operations -> The physical branding of the 'Raptor Family' vehicles.",
-      "source": "https://www.ghafla.co.ke/98-sacco-driver-praises-george-rutos-matatu-fleet-for-creating-jobs-for-youth/"
-    },
     {
       "title": "Dr. Ofweneke Directs Male Accountability Push as \u2018Hello Mr. Right\u2019 Replaces Risper Faith with Trisha Khalid",
       "angle": "Dr. Ofweneke framing male financial provision as dependent on internal emotional peace and self-forgiveness, while using a host reshuffle to pivot the dating show into direct socio-economic discourse.",
@@ -1363,6 +1357,14 @@
       "opening": "Personality lead opening directly on William Ruto leaning into the catchy 'Usawa ni Sawa' slogan from the rally podium.",
       "structure": "Personality and branding hook -> The five-pillar delivery inventory -> Direct analysis of the 'jealousy and tribalism' counter-punch -> Equity doctrine versus political opposition -> Concrete close on delivery accountability.",
       "source": "https://www.ghafla.co.ke/ruto-says-usawa-ni-sawa-campaign-will-deliver-development-across-kenya/"
+    },
+    {
+      "title": "Ndindi Nyoro Drops the Gloves at the Pump: Kiharu MP Demands Sh29 Fuel Slash in Bold PPK Maneuver",
+      "angle": "Framing the confrontation through Ndindi Nyoro's assertive political posturing\u2014stepping out under the PPK banner to mount a forensic, numbers-heavy challenge against energy sector profits and secretive refinery contracts.",
+      "angle_type": "political personality confrontation and economic counter-play",
+      "opening": "Personality lead opening directly on Ndindi Nyoro stepping up to the microphone with the People\u2019s Party of Kenya to challenge EPRA's latest pump review.",
+      "structure": "Personality hook and PPK stance -> The exact Sh29 arithmetic breakdown -> Diesel landed cost anomaly confrontation -> Industry margin and refinery transparency demands -> Grounded closing on public stakes",
+      "source": "https://www.ghafla.co.ke/cut-fuel-prices-by-sh29-ndindi-nyoros-ppk-proposes-sh5-5b-subsidy-and-margin-trims/"
     }
   ],
   "style_history": [
