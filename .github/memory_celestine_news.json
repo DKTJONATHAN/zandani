@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "4627ebaa05f66b14dc5be624eb88b28d",
     "8aaf1d541e5431e3f34a26eecefa8ac2",
     "927837005317ffdb53bd1bd7b6c3a750",
     "fd2deeb19bd57d13306ed966fbb71218",
@@ -799,10 +798,10 @@
     "c481d7ec4ebef418e205ee24df2b205d",
     "d39e2bc14ca85e5a1b2dd6ccb82b435b",
     "5b8a8ab4197c49914227c5738b4c9b04",
-    "4aeea9f75d5a7a8a18a5d050fe18c522"
+    "4aeea9f75d5a7a8a18a5d050fe18c522",
+    "bfbb55501528ae17fb0d7b56519c9a76"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1356,7 +1356,8 @@
     "https://kenyans.co.ke/news/127897-cma-warns-kenyans-against-unregulated-investment-schemes",
     "https://kenyans.co.ke/news/127898-kra-phase-out-electronic-cargo-tracking-seals-major-overhaul",
     "https://kenyans.co.ke/news/127899-kenya-confirms-third-case-ebola-case-related-first-victim",
-    "https://kenyans.co.ke/news/127901-four-injured-nairobi-cbd-building-collapses-during-night-demolition"
+    "https://kenyans.co.ke/news/127901-four-injured-nairobi-cbd-building-collapses-during-night-demolition",
+    "https://kenyans.co.ke/news/127903-four-dead-scores-injured-multiple-road-accidents"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1803,7 +1804,8 @@
     "cma targets crypto trails crackdown unregulated investment portals",
     "kra outsages tracking seals private vendors supply chain overhaul",
     "ebola containment race enters final fortnight third patient tests positive isolation",
-    "compromised beam cuts trigger midnight collapse cbd demolition site"
+    "compromised beam cuts trigger midnight collapse cbd demolition site",
+    "school closure travel turns fatal overnight crashes kill four across western transit corridors"
   ],
   "topic_keys": [
     "news tracker",
@@ -5097,6 +5099,15 @@
       "structure": "Attribution and site mechanics lead -> Physical geography and immediate impact metrics (four casualties, 25 occupants) -> Structural failure mechanics (metal beam severance along weakened pavement) -> Emergency rescue deployment and search status -> Unresolved urban safety accountability questions on night demolitions",
       "source": "https://kenyans.co.ke/news/127901-four-injured-nairobi-cbd-building-collapses-during-night-demolition",
       "published_at": "2026-10-17T04:02:01Z"
+    },
+    {
+      "title": "School Closure Travel Turns Fatal as Overnight Crashes Kill Four Across Western Transit Corridors",
+      "angle": "Focusing on the acute vulnerability of inter-county commuter traffic during end-of-term school departures, showing how regional feeder routes and local sub-county health facilities absorbed multiple simultaneous high-impact collisions.",
+      "angle_type": "people affected",
+      "opening": "Commuter vulnerability and casualty impact lead focused on the transit conditions in Homa Bay and the immediate burden placed on local medical transit lines.",
+      "structure": "Corridor impact lead -> Detailed breakdown of the fatal Homa Bay school-travel collision -> Emergency healthcare transfers -> Chain of parallel collisions along western arteries -> Nyosia secondary crash cluster and unresolved survivor conditions.",
+      "source": "https://kenyans.co.ke/news/127903-four-dead-scores-injured-multiple-road-accidents",
+      "published_at": "2026-10-17T05:01:46Z"
     }
   ]
 }
