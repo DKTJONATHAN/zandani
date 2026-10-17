@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ca52b1c45ae2b455f461cc0e3f006557",
     "edff4f15145bcb3d70f1f6b60097e401",
     "e01f2fa7a2db6a3688605a0558d6a405",
     "ca05dead5c60467293eac41ce1a32049",
@@ -799,10 +798,10 @@
     "d2d7d63c04f57ced600cd99a02186860",
     "6e41b1cada7af11c832e591deef26bee",
     "232f65686d181c4f198876e49bf39898",
-    "66ce3aee9d292802d18fbd1d549d9d13"
+    "66ce3aee9d292802d18fbd1d549d9d13",
+    "f92ec1a37bf6b9da3374152b0930ab19"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1362,7 +1362,8 @@
     "https://kenyans.co.ke/news/127908-kenya-met-predicts-high-temperatures-29degc-nairobi-rains-and-thunderstorms-5-regions",
     "https://kenyans.co.ke/news/127909-kra-seizes-52-phones-and-three-drones-jkia-customs-operation",
     "https://kenyans.co.ke/news/127907-govt-probes-health-police-and-prisons-payroll-systems",
-    "https://kenyans.co.ke/news/127910-kenyan-shilling-holds-ksh12981-despite-dip-september-2026-remittances"
+    "https://kenyans.co.ke/news/127910-kenyan-shilling-holds-ksh12981-despite-dip-september-2026-remittances",
+    "https://kenyans.co.ke/news/127911-kenya-advances-lake-victoria-ring-road-plans-world-bank"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1815,7 +1816,8 @@
     "thunderstorm alerts put western counties watch nairobi braces heat",
     "restroom handoff foiled kra busts jkia cleaner smuggled drones phones",
     "state locks officers out payroll ksh6 health police audit",
-    "ksh1 trillion reserve firewall shields shilling diaspora inflows dip"
+    "ksh1 trillion reserve firewall shields shilling diaspora inflows dip",
+    "lake victoria ring road lacks construction timetable weeks ahead ruto november deadline"
   ],
   "topic_keys": [
     "news tracker",
@@ -5163,6 +5165,15 @@
       "structure": "Reserve cushion lead -> Breakdown of September remittance dip and 12-month contraction -> Floor stability ($400M threshold) vs earlier volatility -> Structural macro pressures (fuel, US inflation) absorbed by the $14.69B reserve balance -> Forward monetary horizon",
       "source": "https://kenyans.co.ke/news/127910-kenyan-shilling-holds-ksh12981-despite-dip-september-2026-remittances",
       "published_at": "2026-10-17T09:02:05Z"
+    },
+    {
+      "title": "Lake Victoria Ring Road Lacks Construction Timetable Weeks Ahead of Ruto\u2019s November Deadline",
+      "angle": "A technical and delivery pressure lens: ground teams with the World Bank are still scoping route bottlenecks and design obstacles on the expanded 612-kilometre corridor, leaving the State without an official construction schedule just weeks before a pledged November groundbreaking.",
+      "angle_type": "timing",
+      "opening": "Deadline and execution opening tracking the proximity of the November construction date against incomplete planning schedules on the ground.",
+      "structure": "Timeline and delivery gap lead -> Ground assessment details and World Bank involvement -> Corridor expansion metrics (612 km scope and Ksh60B phase one) -> Economic and regional connectivity footprint -> Unresolved scheduling questions.",
+      "source": "https://kenyans.co.ke/news/127911-kenya-advances-lake-victoria-ring-road-plans-world-bank",
+      "published_at": "2026-10-17T10:01:27Z"
     }
   ]
 }
