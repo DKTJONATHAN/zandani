@@ -280,7 +280,8 @@
     "b1205dcd13c525a0762d68dbd14b2e2f9fd9c84bb2e298c2a7ecfc8a9cfafb30",
     "6795f7476d95ecb3b2d03a50779b43d6450c7fee08f3f2b992287f6ae754441d",
     "b2b69937613d7b38115a2fdb74369fd8fe0416c764ade42f69007da9472c55d6",
-    "f20f572b32fbe20eaec19c29c940d98adad279effe4fdfbdc66b986acffb9658"
+    "f20f572b32fbe20eaec19c29c940d98adad279effe4fdfbdc66b986acffb9658",
+    "fccd77673eec6493e476858cc28ad915ef606e223c2c3dc9afe8fd3b3f110230"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -563,17 +564,10 @@
     "https://www.ghafla.co.ke/ruto-vs-sifuna-police-probe-kitale-incident-after-two-officers-injured-government-vehicles-damaged/",
     "https://www.ghafla.co.ke/i-made-a-firm-commitment-to-kenyans-with-a-clear-plan-president-ruto-answers-critics/",
     "https://www.ghafla.co.ke/ruto-says-usawa-ni-sawa-campaign-will-deliver-development-across-kenya/",
-    "https://www.ghafla.co.ke/cut-fuel-prices-by-sh29-ndindi-nyoros-ppk-proposes-sh5-5b-subsidy-and-margin-trims/"
+    "https://www.ghafla.co.ke/cut-fuel-prices-by-sh29-ndindi-nyoros-ppk-proposes-sh5-5b-subsidy-and-margin-trims/",
+    "https://www.ghafla.co.ke/india-responds-to-sifunas-tribute-over-raila-odingas-repatriation/"
   ],
   "published_angles": [
-    {
-      "title": "Dr. Ofweneke Directs Male Accountability Push as \u2018Hello Mr. Right\u2019 Replaces Risper Faith with Trisha Khalid",
-      "angle": "Dr. Ofweneke framing male financial provision as dependent on internal emotional peace and self-forgiveness, while using a host reshuffle to pivot the dating show into direct socio-economic discourse.",
-      "angle_type": "celebrity advice and show editorial pivot",
-      "opening": "Personality lead on Dr. Ofweneke setting down a prerequisite for male domestic leadership.",
-      "structure": "Personality premise -> Quotes on male peace and self-forgiveness -> Show thematic shift to financial and age dynamics -> Co-host reshuffle details -> Premiere timeline close",
-      "source": "https://www.ghafla.co.ke/dr-ofweneke-calls-for-self-care-and-accountability-among-men-in-family-life/"
-    },
     {
       "title": "Shorn Arwa Blames \u2018Relentless Hustle\u2019 Mindset for Household Split With Sister",
       "angle": "Framing the domestic split around the clash between hyper-ambitious productivity culture and sibling co-living dynamics.",
@@ -1365,6 +1359,14 @@
       "opening": "Personality lead opening directly on Ndindi Nyoro stepping up to the microphone with the People\u2019s Party of Kenya to challenge EPRA's latest pump review.",
       "structure": "Personality hook and PPK stance -> The exact Sh29 arithmetic breakdown -> Diesel landed cost anomaly confrontation -> Industry margin and refinery transparency demands -> Grounded closing on public stakes",
       "source": "https://www.ghafla.co.ke/cut-fuel-prices-by-sh29-ndindi-nyoros-ppk-proposes-sh5-5b-subsidy-and-margin-trims/"
+    },
+    {
+      "title": "Diplomacy Meets the Timeline: Edwin Sifuna's Anniversary Tribute Draws Warm Reply from Indian Mission",
+      "angle": "Focusing on Sifuna's public roll-call of gratitude that pulled foreign diplomats, airline crew, and anonymous passengers into a shared digital spotlight on the first anniversary of Raila Odinga's death.",
+      "angle_type": "public personality exchange and tribute breakdown",
+      "opening": "Open directly on Edwin Sifuna triggering a rare, warm public exchange with India's diplomatic mission over the delicate details of the Mumbai repatriation mission.",
+      "structure": "Personality tribute lead -> India High Commission's direct social media reply -> Sifuna's specific roll-call of unsung actors, including ordinary passengers -> Kenya Airways' response -> First anniversary context and closing",
+      "source": "https://www.ghafla.co.ke/india-responds-to-sifunas-tribute-over-raila-odingas-repatriation/"
     }
   ],
   "style_history": [
