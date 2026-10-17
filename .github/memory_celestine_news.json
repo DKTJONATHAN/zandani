@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a8a7168cef6b0b1f0a3ff224f3c9f82a",
     "bf57f216b0149feaa18bd4a51e2fc730",
     "c753593b7add1b3aba479ab1804cc75a",
     "0c184eb0b070053519b6ce98425bb212",
@@ -799,10 +798,10 @@
     "f92ec1a37bf6b9da3374152b0930ab19",
     "d229d4c9b14e25e35e77fc68b7fa4f7f",
     "d2c3d7f6575ab906587a1ff59e93bd87",
-    "94e3e28135c8167200cfa54c96b41063"
+    "94e3e28135c8167200cfa54c96b41063",
+    "51c89ae98cfe7124a88235cebd22935b"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1366,7 +1366,8 @@
     "https://kenyans.co.ke/news/127911-kenya-advances-lake-victoria-ring-road-plans-world-bank",
     "https://kenyans.co.ke/news/127913-ethiopia-courts-kenya-process-minerals-global-powers-eye-mrima-hills",
     "https://kenyans.co.ke/news/127914-ruto-appoints-former-ps-nelson-marwa-nairobi-rivers-commission-chairperson",
-    "https://kenyans.co.ke/news/127916-raila-junior-says-odm-will-back-jalango-nairobi-senate-seat"
+    "https://kenyans.co.ke/news/127916-raila-junior-says-odm-will-back-jalango-nairobi-senate-seat",
+    "https://kenyans.co.ke/news/127917-dci-interpol-uncover-uk-stolen-vehicle-network-kenya"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1823,7 +1824,8 @@
     "lake victoria ring road lacks construction timetable weeks ahead ruto november deadline",
     "faces refining dilemma ethiopia seeks regional minerals flow",
     "ruto installs administrator nelson marwa head nairobi rivers clean",
-    "raila junior demands open odm primaries nairobi senate race splits family"
+    "raila junior demands open odm primaries nairobi senate race splits family",
+    "yard sweeps expose vehicle identity racket stolen suv traced bypass bazaar"
   ],
   "topic_keys": [
     "news tracker",
@@ -5207,6 +5209,15 @@
       "structure": "Nomination challenge lead -> Sibling declarations and timeline -> The direct-ticket veto and Kibra parliamentary bid -> Nairobi political realignment (Sifuna, Passaris, Jalang'o) -> Upcoming party nomination mechanics",
       "source": "https://kenyans.co.ke/news/127916-raila-junior-says-odm-will-back-jalango-nairobi-senate-seat",
       "published_at": "2026-10-17T13:01:33Z"
+    },
+    {
+      "title": "Yard Sweeps Expose Vehicle Identity Racket as UK-Stolen SUV Traced to Bypass Bazaar",
+      "angle": "Focusing on the domestic laundering mechanics inside retail motor yards\u2014how transnational syndicates and local dealers exploit cloned plates and ground-off chassis numbers to pass foreign and switched vehicles into commercial circulation.",
+      "angle_type": "accountability",
+      "opening": "Enforcement-mechanics lead detailing how commercial auto yards were found housing scrubbed industrial plant and cloned luxury saloons alongside overseas stolen vehicles.",
+      "structure": "Enforcement audit lead -> Anatomy of the identity fraud (Northern Bypass, Thika West, Embakasi) -> Multi-agency database sweep metrics -> Institutional reach across regional supply corridors -> Lingering chain of custody and prosecution focus.",
+      "source": "https://kenyans.co.ke/news/127917-dci-interpol-uncover-uk-stolen-vehicle-network-kenya",
+      "published_at": "2026-10-17T14:02:02Z"
     }
   ]
 }
