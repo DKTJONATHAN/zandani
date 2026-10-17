@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "e01f2fa7a2db6a3688605a0558d6a405",
     "ca05dead5c60467293eac41ce1a32049",
     "a8a7168cef6b0b1f0a3ff224f3c9f82a",
     "bf57f216b0149feaa18bd4a51e2fc730",
@@ -799,10 +798,10 @@
     "232f65686d181c4f198876e49bf39898",
     "66ce3aee9d292802d18fbd1d549d9d13",
     "f92ec1a37bf6b9da3374152b0930ab19",
-    "d229d4c9b14e25e35e77fc68b7fa4f7f"
+    "d229d4c9b14e25e35e77fc68b7fa4f7f",
+    "d2c3d7f6575ab906587a1ff59e93bd87"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1364,7 +1364,8 @@
     "https://kenyans.co.ke/news/127907-govt-probes-health-police-and-prisons-payroll-systems",
     "https://kenyans.co.ke/news/127910-kenyan-shilling-holds-ksh12981-despite-dip-september-2026-remittances",
     "https://kenyans.co.ke/news/127911-kenya-advances-lake-victoria-ring-road-plans-world-bank",
-    "https://kenyans.co.ke/news/127913-ethiopia-courts-kenya-process-minerals-global-powers-eye-mrima-hills"
+    "https://kenyans.co.ke/news/127913-ethiopia-courts-kenya-process-minerals-global-powers-eye-mrima-hills",
+    "https://kenyans.co.ke/news/127914-ruto-appoints-former-ps-nelson-marwa-nairobi-rivers-commission-chairperson"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1819,7 +1820,8 @@
     "state locks officers out payroll ksh6 health police audit",
     "ksh1 trillion reserve firewall shields shilling diaspora inflows dip",
     "lake victoria ring road lacks construction timetable weeks ahead ruto november deadline",
-    "faces refining dilemma ethiopia seeks regional minerals flow"
+    "faces refining dilemma ethiopia seeks regional minerals flow",
+    "ruto installs administrator nelson marwa head nairobi rivers clean"
   ],
   "topic_keys": [
     "news tracker",
@@ -5185,6 +5187,15 @@
       "structure": "Policy fork lead -> Addis Ababa refining capacity and partner targets -> Kwale's Mrima Hills critical mineral race -> Offshore shipping proposals vs domestic processing -> Unresolved state response",
       "source": "https://kenyans.co.ke/news/127913-ethiopia-courts-kenya-process-minerals-global-powers-eye-mrima-hills",
       "published_at": "2026-10-17T11:03:08Z"
+    },
+    {
+      "title": "Ruto Installs Administrator Nelson Marwa to Head Nairobi Rivers Clean-Up",
+      "angle": "The operational reset of the Nairobi River Basin clean-up: trading political stewardship for an administrative enforcer with a career built on confrontation and provincial oversight, right as the previous chair broke ranks for a 2027 political run.",
+      "angle_type": "practical change",
+      "opening": "Operational-pivot lead establishing Marwa's arrival as an enforcement shift for the metropolitan basin following Wanjiru's political exit.",
+      "structure": "Leadership enforcement pivot -> Gazette mandate details and terms -> Wanjiru's political break and timeline -> Marwa's administrative track record and enforcement history -> The multi-county ecological task ahead",
+      "source": "https://kenyans.co.ke/news/127914-ruto-appoints-former-ps-nelson-marwa-nairobi-rivers-commission-chairperson",
+      "published_at": "2026-10-17T12:02:08Z"
     }
   ]
 }
