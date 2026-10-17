@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ea3c059fd0dde9fb24810edf83305437",
     "4627ebaa05f66b14dc5be624eb88b28d",
     "8aaf1d541e5431e3f34a26eecefa8ac2",
     "927837005317ffdb53bd1bd7b6c3a750",
@@ -799,10 +798,10 @@
     "f00c459c33e7fcf510bc52ddc6dbda6b",
     "c481d7ec4ebef418e205ee24df2b205d",
     "d39e2bc14ca85e5a1b2dd6ccb82b435b",
-    "5b8a8ab4197c49914227c5738b4c9b04"
+    "5b8a8ab4197c49914227c5738b4c9b04",
+    "4aeea9f75d5a7a8a18a5d050fe18c522"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1355,7 +1355,8 @@
     "https://kenyans.co.ke/news/127896-eacc-arrests-traffic-police-officers-over-alleged-bribery-maua-makutano-road",
     "https://kenyans.co.ke/news/127897-cma-warns-kenyans-against-unregulated-investment-schemes",
     "https://kenyans.co.ke/news/127898-kra-phase-out-electronic-cargo-tracking-seals-major-overhaul",
-    "https://kenyans.co.ke/news/127899-kenya-confirms-third-case-ebola-case-related-first-victim"
+    "https://kenyans.co.ke/news/127899-kenya-confirms-third-case-ebola-case-related-first-victim",
+    "https://kenyans.co.ke/news/127901-four-injured-nairobi-cbd-building-collapses-during-night-demolition"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1801,7 +1802,8 @@
     "eacc seizes vehicle ksh23 000 meru roadside anti bribery sting",
     "cma targets crypto trails crackdown unregulated investment portals",
     "kra outsages tracking seals private vendors supply chain overhaul",
-    "ebola containment race enters final fortnight third patient tests positive isolation"
+    "ebola containment race enters final fortnight third patient tests positive isolation",
+    "compromised beam cuts trigger midnight collapse cbd demolition site"
   ],
   "topic_keys": [
     "news tracker",
@@ -5086,6 +5088,15 @@
       "structure": "Countdown lead -> Patient admission and symptom profile -> Contact tracing metrics and quarantine status -> Public health risk assessment and monitoring expiration timeline.",
       "source": "https://kenyans.co.ke/news/127899-kenya-confirms-third-case-ebola-case-related-first-victim",
       "published_at": "2026-10-16T17:01:51Z"
+    },
+    {
+      "title": "Compromised Beam Cuts Trigger Midnight Collapse at CBD Demolition Site",
+      "angle": "The structural failure mechanics and severe workplace safety exposure of conducting active multi-worker structural demolition inside an occupied urban footprint overnight, where cutting support beams adjacent to a compromised pavement triggered sudden failure with dozens of people still inside.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first lead establishing that site demolition practices and the severance of primary load-bearing metal beams triggered the midnight collapse along Moi Avenue.",
+      "structure": "Attribution and site mechanics lead -> Physical geography and immediate impact metrics (four casualties, 25 occupants) -> Structural failure mechanics (metal beam severance along weakened pavement) -> Emergency rescue deployment and search status -> Unresolved urban safety accountability questions on night demolitions",
+      "source": "https://kenyans.co.ke/news/127901-four-injured-nairobi-cbd-building-collapses-during-night-demolition",
+      "published_at": "2026-10-17T04:02:01Z"
     }
   ]
 }
