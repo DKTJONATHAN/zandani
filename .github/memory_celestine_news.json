@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "c753593b7add1b3aba479ab1804cc75a",
     "0c184eb0b070053519b6ce98425bb212",
     "a314dc02a5cb07d7ea81f59a0ecdcb55",
     "064ec04fd45bb90244dfe4ccf4a12309",
@@ -799,10 +798,10 @@
     "d2c3d7f6575ab906587a1ff59e93bd87",
     "94e3e28135c8167200cfa54c96b41063",
     "51c89ae98cfe7124a88235cebd22935b",
-    "e10159f028f78da486e70eeca69dd78e"
+    "e10159f028f78da486e70eeca69dd78e",
+    "30ea798064ae04a464c9b2068abbda6c"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1368,7 +1368,8 @@
     "https://kenyans.co.ke/news/127914-ruto-appoints-former-ps-nelson-marwa-nairobi-rivers-commission-chairperson",
     "https://kenyans.co.ke/news/127916-raila-junior-says-odm-will-back-jalango-nairobi-senate-seat",
     "https://kenyans.co.ke/news/127917-dci-interpol-uncover-uk-stolen-vehicle-network-kenya",
-    "https://kenyans.co.ke/news/127918-kenya-confirms-four-new-ebola-cases-total-rises-seven"
+    "https://kenyans.co.ke/news/127918-kenya-confirms-four-new-ebola-cases-total-rises-seven",
+    "https://kenyans.co.ke/news/127920-fire-breaks-out-nairobi-national-park-near-southern-bypass"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1827,7 +1828,8 @@
     "ruto installs administrator nelson marwa head nairobi rivers clean",
     "raila junior demands open odm primaries nairobi senate race splits family",
     "yard sweeps expose vehicle identity racket stolen suv traced bypass bazaar",
-    "state tracing firewall holds four quarantined ebola contacts test positive"
+    "state tracing firewall holds four quarantined ebola contacts test positive",
+    "nairobi national park fire prompts containment scramble along southern bypass logistics strip"
   ],
   "topic_keys": [
     "news tracker",
@@ -5229,6 +5231,15 @@
       "structure": "Attribution and containment perimeter lead -> Official confirmation and quote -> Exposure chronology and healthcare worker demographics -> Dual-laboratory verification system -> Clinical prognosis and forward monitoring",
       "source": "https://kenyans.co.ke/news/127918-kenya-confirms-four-new-ebola-cases-total-rises-seven",
       "published_at": "2026-10-17T15:02:06Z"
+    },
+    {
+      "title": "Nairobi National Park Fire Prompts Containment Scramble Along Southern Bypass Logistics Strip",
+      "angle": "Examining the acute containment threat posed to the capital's southern logistics and hospitality corridor, where an active fire on the park fringe demands rapid suppression while conservation authorities maintain operational silence.",
+      "angle_type": "consequence",
+      "opening": "Perimeter containment lead establishing the threat to critical transit links and commercial property bordering the protected wildlife reserve.",
+      "structure": "Perimeter risk lead -> Fire spread and multi-agency response -> Vulnerable infrastructure and commercial assets -> Unanswered operational questions from wildlife authorities",
+      "source": "https://kenyans.co.ke/news/127920-fire-breaks-out-nairobi-national-park-near-southern-bypass",
+      "published_at": "2026-10-17T16:02:21Z"
     }
   ]
 }
