@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "bf57f216b0149feaa18bd4a51e2fc730",
     "c753593b7add1b3aba479ab1804cc75a",
     "0c184eb0b070053519b6ce98425bb212",
     "a314dc02a5cb07d7ea81f59a0ecdcb55",
@@ -799,10 +798,10 @@
     "d229d4c9b14e25e35e77fc68b7fa4f7f",
     "d2c3d7f6575ab906587a1ff59e93bd87",
     "94e3e28135c8167200cfa54c96b41063",
-    "51c89ae98cfe7124a88235cebd22935b"
+    "51c89ae98cfe7124a88235cebd22935b",
+    "e10159f028f78da486e70eeca69dd78e"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1367,7 +1367,8 @@
     "https://kenyans.co.ke/news/127913-ethiopia-courts-kenya-process-minerals-global-powers-eye-mrima-hills",
     "https://kenyans.co.ke/news/127914-ruto-appoints-former-ps-nelson-marwa-nairobi-rivers-commission-chairperson",
     "https://kenyans.co.ke/news/127916-raila-junior-says-odm-will-back-jalango-nairobi-senate-seat",
-    "https://kenyans.co.ke/news/127917-dci-interpol-uncover-uk-stolen-vehicle-network-kenya"
+    "https://kenyans.co.ke/news/127917-dci-interpol-uncover-uk-stolen-vehicle-network-kenya",
+    "https://kenyans.co.ke/news/127918-kenya-confirms-four-new-ebola-cases-total-rises-seven"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1825,7 +1826,8 @@
     "faces refining dilemma ethiopia seeks regional minerals flow",
     "ruto installs administrator nelson marwa head nairobi rivers clean",
     "raila junior demands open odm primaries nairobi senate race splits family",
-    "yard sweeps expose vehicle identity racket stolen suv traced bypass bazaar"
+    "yard sweeps expose vehicle identity racket stolen suv traced bypass bazaar",
+    "state tracing firewall holds four quarantined ebola contacts test positive"
   ],
   "topic_keys": [
     "news tracker",
@@ -5218,6 +5220,15 @@
       "structure": "Enforcement audit lead -> Anatomy of the identity fraud (Northern Bypass, Thika West, Embakasi) -> Multi-agency database sweep metrics -> Institutional reach across regional supply corridors -> Lingering chain of custody and prosecution focus.",
       "source": "https://kenyans.co.ke/news/127917-dci-interpol-uncover-uk-stolen-vehicle-network-kenya",
       "published_at": "2026-10-17T14:02:02Z"
+    },
+    {
+      "title": "State Tracing Firewall Holds as Four Quarantined Ebola Contacts Test Positive",
+      "angle": "Focusing on the efficacy of the quarantine firewall: while clinical exposure infected three frontline hospital workers, tracing protocols isolated the contacts prior to symptom onset, blocking community transmission.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first declaration of the state health findings, immediately followed by how the containment ring insulates the wider public.",
+      "structure": "Attribution and containment perimeter lead -> Official confirmation and quote -> Exposure chronology and healthcare worker demographics -> Dual-laboratory verification system -> Clinical prognosis and forward monitoring",
+      "source": "https://kenyans.co.ke/news/127918-kenya-confirms-four-new-ebola-cases-total-rises-seven",
+      "published_at": "2026-10-17T15:02:06Z"
     }
   ]
 }
