@@ -281,7 +281,8 @@
     "6795f7476d95ecb3b2d03a50779b43d6450c7fee08f3f2b992287f6ae754441d",
     "b2b69937613d7b38115a2fdb74369fd8fe0416c764ade42f69007da9472c55d6",
     "f20f572b32fbe20eaec19c29c940d98adad279effe4fdfbdc66b986acffb9658",
-    "fccd77673eec6493e476858cc28ad915ef606e223c2c3dc9afe8fd3b3f110230"
+    "fccd77673eec6493e476858cc28ad915ef606e223c2c3dc9afe8fd3b3f110230",
+    "f18eb28c5881ea799f57109c170d10051da62de8a02259af1f8b8f422e0272b2"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -565,17 +566,10 @@
     "https://www.ghafla.co.ke/i-made-a-firm-commitment-to-kenyans-with-a-clear-plan-president-ruto-answers-critics/",
     "https://www.ghafla.co.ke/ruto-says-usawa-ni-sawa-campaign-will-deliver-development-across-kenya/",
     "https://www.ghafla.co.ke/cut-fuel-prices-by-sh29-ndindi-nyoros-ppk-proposes-sh5-5b-subsidy-and-margin-trims/",
-    "https://www.ghafla.co.ke/india-responds-to-sifunas-tribute-over-raila-odingas-repatriation/"
+    "https://www.ghafla.co.ke/india-responds-to-sifunas-tribute-over-raila-odingas-repatriation/",
+    "https://www.ghafla.co.ke/matatu-fares-rise-by-up-to-50-per-cent-despite-10-per-cent-hike-directive/"
   ],
   "published_angles": [
-    {
-      "title": "Shorn Arwa Blames \u2018Relentless Hustle\u2019 Mindset for Household Split With Sister",
-      "angle": "Framing the domestic split around the clash between hyper-ambitious productivity culture and sibling co-living dynamics.",
-      "angle_type": "lifestyle boundaries and productivity friction",
-      "opening": "Personality lead directly linking her target-driven work ethic to the household separation.",
-      "structure": "Separation lead -> Specific quotes on target lists and constant hustle -> Examination of productivity pressure on shared domestic spaces -> Unresolved boundary close",
-      "source": "https://www.ghafla.co.ke/we-no-longer-live-together-shorn-arwa-breaks-silence-on-sisterly-rift/"
-    },
     {
       "title": "Trisha Khalid Takes Over 'Hello Mr Right' Co-Host Chair Opposite Dr. Ofweneke for Season 5",
       "angle": "Focusing on the strategic co-anchor transition on the 'Hello Mr Right' stage, contrasting Trisha Khalid's background with previous co-host Diana Marua as production gears up for Season 5 chemistry tests.",
@@ -1367,6 +1361,14 @@
       "opening": "Open directly on Edwin Sifuna triggering a rare, warm public exchange with India's diplomatic mission over the delicate details of the Mumbai repatriation mission.",
       "structure": "Personality tribute lead -> India High Commission's direct social media reply -> Sifuna's specific roll-call of unsung actors, including ordinary passengers -> Kenya Airways' response -> First anniversary context and closing",
       "source": "https://www.ghafla.co.ke/india-responds-to-sifunas-tribute-over-raila-odingas-repatriation/"
+    },
+    {
+      "title": "Albert Karakacha\u2019s 10% Matatu Fare Cap Collapses as Tarmac Crews Slap 50% Ambush on Commuters",
+      "angle": "The direct defiance of Matatu Owners Association boss Albert Karakacha by ground crews\u2014exposing how his boardroom 10 percent 'business profit' directive was instantly shredded at stages like Khoja and Parklands into an unvetted 50 percent shakedown.",
+      "angle_type": "industry figure authority clash and street-level defiance",
+      "opening": "Personality lead opening directly on Albert Karakacha having his national fare directive openly ignored on the tarmac within hours of issuing it.",
+      "structure": "Personality authority hook -> Ground defiance and route-specific fare jumps -> Commuter confrontations at Khoja and Parklands -> The mathematical disconnect between Karakacha's edict and per-passenger charges -> Broader EPRA and MAK fuel tension close",
+      "source": "https://www.ghafla.co.ke/matatu-fares-rise-by-up-to-50-per-cent-despite-10-per-cent-hike-directive/"
     }
   ],
   "style_history": [
