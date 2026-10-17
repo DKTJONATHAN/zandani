@@ -276,7 +276,8 @@
     "133f3e61069c03359d2dcd987d1d6b25034f635fd299976d7e12e0836ca458f5",
     "ac6f204ad3446eae078c351f1ce2d089a55fc7267ca5840db63f1f3a04e27929",
     "22a24816acafc946dfb84a8e202910b55a155d6fecdaa2560ecf5302fecf6b57",
-    "d8741cf37c6091217549cceece1774ffe1dbda74fa331091e844006d0907b465"
+    "d8741cf37c6091217549cceece1774ffe1dbda74fa331091e844006d0907b465",
+    "b1205dcd13c525a0762d68dbd14b2e2f9fd9c84bb2e298c2a7ecfc8a9cfafb30"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -555,17 +556,10 @@
     "https://www.ghafla.co.ke/kenyan-shilling-risks-losing-value-in-coming-week/",
     "https://www.ghafla.co.ke/william-ruto-has-inherited-railas-constituency-joshua-nyamori/",
     "https://www.ghafla.co.ke/uko-high-class-pastor-kanyari-reunites-with-schoolmate-crush-in-heartwarming-tiktok-video/",
-    "https://www.ghafla.co.ke/sifuna-reveals-he-still-keeps-boarding-passes-from-trip-to-bring-railas-body-home/"
+    "https://www.ghafla.co.ke/sifuna-reveals-he-still-keeps-boarding-passes-from-trip-to-bring-railas-body-home/",
+    "https://www.ghafla.co.ke/ruto-vs-sifuna-police-probe-kitale-incident-after-two-officers-injured-government-vehicles-damaged/"
   ],
   "published_angles": [
-    {
-      "title": "Winnie Odinga Draws the Line: No VIP Showgrounds at Raila\u2019s First Anniversary",
-      "angle": "Focusing on the strict family-imposed boundary against VIP political ego-tripping and crowd-ownership contests, contrasting elite political theater with the title-less grassroots supporters Winnie explicitly invited to fill the grounds.",
-      "angle_type": "family protocol and grassroots inclusion boundary",
-      "opening": "Personality-led focus on Winnie Odinga drawing a sharp line between political egos and grassroots mourners.",
-      "structure": "Protocol boundary hook -> Grassroots inclusion details -> Mausoleum handover logistics -> Concrete close on the upcoming October 15 public gathering.",
-      "source": "https://www.ghafla.co.ke/winnie-odinga-calls-for-political-ceasefire-ahead-of-railas-first-anniversary/"
-    },
     {
       "title": "Gen Z Baddie Questions Aden Duale\u2019s Ebola Announcement, Warning Health Case Could Target Political Rallies",
       "angle": "Deconstructing how the creator targets state optics\u2014specifically questioning why Health CS Aden Duale rather than President William Ruto announced the news\u2014to float fears that health alerts will be used to restrict 2027 political rallies.",
@@ -1357,6 +1351,14 @@
       "opening": "Personality lead focusing on Edwin Sifuna holding onto two paper Kenya Airways boarding passes as physical proof of a frantic, rule-bending diplomatic scramble.",
       "structure": "Person and memento hook -> The specific flight numbers (KQ 202/203) and 24-hour turnaround timeline -> The unprecedented diplomatic waivers and protocol bypass by the Indian High Commission -> The raw personal tension of receiving the news versus boarding the emergency flight -> Grounded closing on the significance of the preserved stubs.",
       "source": "https://www.ghafla.co.ke/sifuna-reveals-he-still-keeps-boarding-passes-from-trip-to-bring-railas-body-home/"
+    },
+    {
+      "title": "Gagged at the Pulpit, Dispersed in the Dark: Edwin Sifuna\u2019s High-Stakes Kitale Showdown",
+      "angle": "Reframing the Kitale showdown through the lens of high-voltage political street drama\u2014tracking how Edwin Sifuna's day unfolded from being silenced at a senior police boss's burial to a near head-on motorcade encounter with President Ruto and an impromptu rally dispersed by teargas in the dark.",
+      "angle_type": "political celebrity drama and street showdown logistics",
+      "opening": "Personality lead opening directly on Edwin Sifuna navigating an escalating gauntlet in Kitale that began with a confiscated microphone and ended in a teargas-choked night rally.",
+      "structure": "Personality tension lead -> The funeral podium muzzling -> The street-level motorcade intersection and crowd friction -> Nightfall confrontation and police teargas -> NPS accountability warning and damage report.",
+      "source": "https://www.ghafla.co.ke/ruto-vs-sifuna-police-probe-kitale-incident-after-two-officers-injured-government-vehicles-damaged/"
     }
   ],
   "style_history": [
