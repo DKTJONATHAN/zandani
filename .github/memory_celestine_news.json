@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ca05dead5c60467293eac41ce1a32049",
     "a8a7168cef6b0b1f0a3ff224f3c9f82a",
     "bf57f216b0149feaa18bd4a51e2fc730",
     "c753593b7add1b3aba479ab1804cc75a",
@@ -799,10 +798,10 @@
     "66ce3aee9d292802d18fbd1d549d9d13",
     "f92ec1a37bf6b9da3374152b0930ab19",
     "d229d4c9b14e25e35e77fc68b7fa4f7f",
-    "d2c3d7f6575ab906587a1ff59e93bd87"
+    "d2c3d7f6575ab906587a1ff59e93bd87",
+    "94e3e28135c8167200cfa54c96b41063"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1365,7 +1365,8 @@
     "https://kenyans.co.ke/news/127910-kenyan-shilling-holds-ksh12981-despite-dip-september-2026-remittances",
     "https://kenyans.co.ke/news/127911-kenya-advances-lake-victoria-ring-road-plans-world-bank",
     "https://kenyans.co.ke/news/127913-ethiopia-courts-kenya-process-minerals-global-powers-eye-mrima-hills",
-    "https://kenyans.co.ke/news/127914-ruto-appoints-former-ps-nelson-marwa-nairobi-rivers-commission-chairperson"
+    "https://kenyans.co.ke/news/127914-ruto-appoints-former-ps-nelson-marwa-nairobi-rivers-commission-chairperson",
+    "https://kenyans.co.ke/news/127916-raila-junior-says-odm-will-back-jalango-nairobi-senate-seat"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1821,7 +1822,8 @@
     "ksh1 trillion reserve firewall shields shilling diaspora inflows dip",
     "lake victoria ring road lacks construction timetable weeks ahead ruto november deadline",
     "faces refining dilemma ethiopia seeks regional minerals flow",
-    "ruto installs administrator nelson marwa head nairobi rivers clean"
+    "ruto installs administrator nelson marwa head nairobi rivers clean",
+    "raila junior demands open odm primaries nairobi senate race splits family"
   ],
   "topic_keys": [
     "news tracker",
@@ -5196,6 +5198,15 @@
       "structure": "Leadership enforcement pivot -> Gazette mandate details and terms -> Wanjiru's political break and timeline -> Marwa's administrative track record and enforcement history -> The multi-county ecological task ahead",
       "source": "https://kenyans.co.ke/news/127914-ruto-appoints-former-ps-nelson-marwa-nairobi-rivers-commission-chairperson",
       "published_at": "2026-10-17T12:02:08Z"
+    },
+    {
+      "title": "Raila Junior Demands Open ODM Primaries as Nairobi Senate Race Splits Family",
+      "angle": "The dismantling of dynastic consensus and direct tickets inside post-Raila ODM: Junior is attempting to enforce competitive party primaries in Nairobi, using Jalang'o's senatorial bid and his own Kibra run to block negotiated family handovers.",
+      "angle_type": "institutional pressure",
+      "opening": "Hard-news institutional confrontation lead establishing the demand for contested party primaries against dynastic direct endorsements.",
+      "structure": "Nomination challenge lead -> Sibling declarations and timeline -> The direct-ticket veto and Kibra parliamentary bid -> Nairobi political realignment (Sifuna, Passaris, Jalang'o) -> Upcoming party nomination mechanics",
+      "source": "https://kenyans.co.ke/news/127916-raila-junior-says-odm-will-back-jalango-nairobi-senate-seat",
+      "published_at": "2026-10-17T13:01:33Z"
     }
   ]
 }
