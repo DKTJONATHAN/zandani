@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "8c88c4fea6064301f098933b196ce119",
     "ca52b1c45ae2b455f461cc0e3f006557",
     "edff4f15145bcb3d70f1f6b60097e401",
     "e01f2fa7a2db6a3688605a0558d6a405",
@@ -799,10 +798,10 @@
     "5f1dd21d0aaf0a93fb52f17a6a2cd851",
     "d2d7d63c04f57ced600cd99a02186860",
     "6e41b1cada7af11c832e591deef26bee",
-    "232f65686d181c4f198876e49bf39898"
+    "232f65686d181c4f198876e49bf39898",
+    "66ce3aee9d292802d18fbd1d549d9d13"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1361,7 +1361,8 @@
     "https://kenyans.co.ke/news/127906-inside-plan-turn-parklands-kibagare-river-corridor-public-park",
     "https://kenyans.co.ke/news/127908-kenya-met-predicts-high-temperatures-29degc-nairobi-rains-and-thunderstorms-5-regions",
     "https://kenyans.co.ke/news/127909-kra-seizes-52-phones-and-three-drones-jkia-customs-operation",
-    "https://kenyans.co.ke/news/127907-govt-probes-health-police-and-prisons-payroll-systems"
+    "https://kenyans.co.ke/news/127907-govt-probes-health-police-and-prisons-payroll-systems",
+    "https://kenyans.co.ke/news/127910-kenyan-shilling-holds-ksh12981-despite-dip-september-2026-remittances"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1813,7 +1814,8 @@
     "state demands property deeds westlands riparian clearing kibagare park",
     "thunderstorm alerts put western counties watch nairobi braces heat",
     "restroom handoff foiled kra busts jkia cleaner smuggled drones phones",
-    "state locks officers out payroll ksh6 health police audit"
+    "state locks officers out payroll ksh6 health police audit",
+    "ksh1 trillion reserve firewall shields shilling diaspora inflows dip"
   ],
   "topic_keys": [
     "news tracker",
@@ -5152,6 +5154,15 @@
       "structure": "Attribution and beneficiary lead -> Forensic probe findings and sector targets -> The administrative lockout mechanics and transitional HR deployment -> Treasury's external funding pressure and World Bank reform matrix -> Unresolved criminal verification of personal numbers.",
       "source": "https://kenyans.co.ke/news/127907-govt-probes-health-police-and-prisons-payroll-systems",
       "published_at": "2026-10-17T08:23:52Z"
+    },
+    {
+      "title": "Ksh1.9 Trillion Reserve Firewall Shields Shilling as Diaspora Inflows Dip",
+      "angle": "Examining how a near-$14.7 billion foreign reserve firewall and an established $400 million monthly diaspora floor have effectively insulated the shilling from monthly sending-corridor contractions, breaking the historic direct pass-through between remittance drops and currency slide.",
+      "angle_type": "money",
+      "opening": "Forex-cushion lead establishing the decoupling of the exchange rate from monthly transmission dips due to Kenya's 5.9-month import cover.",
+      "structure": "Reserve cushion lead -> Breakdown of September remittance dip and 12-month contraction -> Floor stability ($400M threshold) vs earlier volatility -> Structural macro pressures (fuel, US inflation) absorbed by the $14.69B reserve balance -> Forward monetary horizon",
+      "source": "https://kenyans.co.ke/news/127910-kenyan-shilling-holds-ksh12981-despite-dip-september-2026-remittances",
+      "published_at": "2026-10-17T09:02:05Z"
     }
   ]
 }
