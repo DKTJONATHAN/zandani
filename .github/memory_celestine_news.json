@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "fd2deeb19bd57d13306ed966fbb71218",
     "c383884a80cddd3a536c4139c67cc689",
     "8c88c4fea6064301f098933b196ce119",
     "ca52b1c45ae2b455f461cc0e3f006557",
@@ -799,10 +798,10 @@
     "4aeea9f75d5a7a8a18a5d050fe18c522",
     "bfbb55501528ae17fb0d7b56519c9a76",
     "5f1dd21d0aaf0a93fb52f17a6a2cd851",
-    "d2d7d63c04f57ced600cd99a02186860"
+    "d2d7d63c04f57ced600cd99a02186860",
+    "6e41b1cada7af11c832e591deef26bee"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1359,7 +1359,8 @@
     "https://kenyans.co.ke/news/127901-four-injured-nairobi-cbd-building-collapses-during-night-demolition",
     "https://kenyans.co.ke/news/127903-four-dead-scores-injured-multiple-road-accidents",
     "https://kenyans.co.ke/news/127906-inside-plan-turn-parklands-kibagare-river-corridor-public-park",
-    "https://kenyans.co.ke/news/127908-kenya-met-predicts-high-temperatures-29degc-nairobi-rains-and-thunderstorms-5-regions"
+    "https://kenyans.co.ke/news/127908-kenya-met-predicts-high-temperatures-29degc-nairobi-rains-and-thunderstorms-5-regions",
+    "https://kenyans.co.ke/news/127909-kra-seizes-52-phones-and-three-drones-jkia-customs-operation"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1809,7 +1810,8 @@
     "compromised beam cuts trigger midnight collapse cbd demolition site",
     "school closure travel turns fatal overnight crashes kill four across western transit corridors",
     "state demands property deeds westlands riparian clearing kibagare park",
-    "thunderstorm alerts put western counties watch nairobi braces heat"
+    "thunderstorm alerts put western counties watch nairobi braces heat",
+    "restroom handoff foiled kra busts jkia cleaner smuggled drones phones"
   ],
   "topic_keys": [
     "news tracker",
@@ -5130,6 +5132,15 @@
       "structure": "Meteorological risk divide -> Western thunder and lightning zone specifics -> Central metropolitan heat and nighttime chill dynamics -> Coastal outlook and institutional guidance",
       "source": "https://kenyans.co.ke/news/127908-kenya-met-predicts-high-temperatures-29degc-nairobi-rains-and-thunderstorms-5-regions",
       "published_at": "2026-10-17T07:02:05Z"
+    },
+    {
+      "title": "Restroom Handoff Foiled as KRA Busts JKIA Cleaner with Smuggled Drones, 52 Phones",
+      "angle": "The exploitation of internal airport staffing to run an airside bypass: how passenger-to-worker restroom handoffs are being deployed to circumvent automated passenger screening at JKIA.",
+      "angle_type": "accountability",
+      "opening": "Operational-mechanics lead zeroing in on the breach of terminal transit lines via airport service staff.",
+      "structure": "Terminal breach mechanics -> Interception sequence and baggage scanning evidence -> Catalog of impounded gear and passenger travel history -> Regulatory choke point on drone permits and recent enforcement wave.",
+      "source": "https://kenyans.co.ke/news/127909-kra-seizes-52-phones-and-three-drones-jkia-customs-operation",
+      "published_at": "2026-10-17T08:02:06Z"
     }
   ]
 }
