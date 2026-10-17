@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "edff4f15145bcb3d70f1f6b60097e401",
     "e01f2fa7a2db6a3688605a0558d6a405",
     "ca05dead5c60467293eac41ce1a32049",
     "a8a7168cef6b0b1f0a3ff224f3c9f82a",
@@ -799,10 +798,10 @@
     "6e41b1cada7af11c832e591deef26bee",
     "232f65686d181c4f198876e49bf39898",
     "66ce3aee9d292802d18fbd1d549d9d13",
-    "f92ec1a37bf6b9da3374152b0930ab19"
+    "f92ec1a37bf6b9da3374152b0930ab19",
+    "d229d4c9b14e25e35e77fc68b7fa4f7f"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1363,7 +1363,8 @@
     "https://kenyans.co.ke/news/127909-kra-seizes-52-phones-and-three-drones-jkia-customs-operation",
     "https://kenyans.co.ke/news/127907-govt-probes-health-police-and-prisons-payroll-systems",
     "https://kenyans.co.ke/news/127910-kenyan-shilling-holds-ksh12981-despite-dip-september-2026-remittances",
-    "https://kenyans.co.ke/news/127911-kenya-advances-lake-victoria-ring-road-plans-world-bank"
+    "https://kenyans.co.ke/news/127911-kenya-advances-lake-victoria-ring-road-plans-world-bank",
+    "https://kenyans.co.ke/news/127913-ethiopia-courts-kenya-process-minerals-global-powers-eye-mrima-hills"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1817,7 +1818,8 @@
     "restroom handoff foiled kra busts jkia cleaner smuggled drones phones",
     "state locks officers out payroll ksh6 health police audit",
     "ksh1 trillion reserve firewall shields shilling diaspora inflows dip",
-    "lake victoria ring road lacks construction timetable weeks ahead ruto november deadline"
+    "lake victoria ring road lacks construction timetable weeks ahead ruto november deadline",
+    "faces refining dilemma ethiopia seeks regional minerals flow"
   ],
   "topic_keys": [
     "news tracker",
@@ -5174,6 +5176,15 @@
       "structure": "Timeline and delivery gap lead -> Ground assessment details and World Bank involvement -> Corridor expansion metrics (612 km scope and Ksh60B phase one) -> Economic and regional connectivity footprint -> Unresolved scheduling questions.",
       "source": "https://kenyans.co.ke/news/127911-kenya-advances-lake-victoria-ring-road-plans-world-bank",
       "published_at": "2026-10-17T10:01:27Z"
+    },
+    {
+      "title": "Kenya Faces Refining Dilemma as Ethiopia Seeks Regional Minerals Flow",
+      "angle": "The policy fork confronting Kenya's value-addition strategy: balancing Addis Ababa's push to become the region's centralized refining hub against Western and Asian pressure over domestic processing rights at Mrima Hills.",
+      "angle_type": "institutional pressure",
+      "opening": "Attribution-first declaration of the regional refining challenge presented to Kenyan policymakers, followed immediately by who stands to gain.",
+      "structure": "Policy fork lead -> Addis Ababa refining capacity and partner targets -> Kwale's Mrima Hills critical mineral race -> Offshore shipping proposals vs domestic processing -> Unresolved state response",
+      "source": "https://kenyans.co.ke/news/127913-ethiopia-courts-kenya-process-minerals-global-powers-eye-mrima-hills",
+      "published_at": "2026-10-17T11:03:08Z"
     }
   ]
 }
