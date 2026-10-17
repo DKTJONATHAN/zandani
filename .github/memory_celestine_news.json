@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "c383884a80cddd3a536c4139c67cc689",
     "8c88c4fea6064301f098933b196ce119",
     "ca52b1c45ae2b455f461cc0e3f006557",
     "edff4f15145bcb3d70f1f6b60097e401",
@@ -799,10 +798,10 @@
     "bfbb55501528ae17fb0d7b56519c9a76",
     "5f1dd21d0aaf0a93fb52f17a6a2cd851",
     "d2d7d63c04f57ced600cd99a02186860",
-    "6e41b1cada7af11c832e591deef26bee"
+    "6e41b1cada7af11c832e591deef26bee",
+    "232f65686d181c4f198876e49bf39898"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1360,7 +1360,8 @@
     "https://kenyans.co.ke/news/127903-four-dead-scores-injured-multiple-road-accidents",
     "https://kenyans.co.ke/news/127906-inside-plan-turn-parklands-kibagare-river-corridor-public-park",
     "https://kenyans.co.ke/news/127908-kenya-met-predicts-high-temperatures-29degc-nairobi-rains-and-thunderstorms-5-regions",
-    "https://kenyans.co.ke/news/127909-kra-seizes-52-phones-and-three-drones-jkia-customs-operation"
+    "https://kenyans.co.ke/news/127909-kra-seizes-52-phones-and-three-drones-jkia-customs-operation",
+    "https://kenyans.co.ke/news/127907-govt-probes-health-police-and-prisons-payroll-systems"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1811,7 +1812,8 @@
     "school closure travel turns fatal overnight crashes kill four across western transit corridors",
     "state demands property deeds westlands riparian clearing kibagare park",
     "thunderstorm alerts put western counties watch nairobi braces heat",
-    "restroom handoff foiled kra busts jkia cleaner smuggled drones phones"
+    "restroom handoff foiled kra busts jkia cleaner smuggled drones phones",
+    "state locks officers out payroll ksh6 health police audit"
   ],
   "topic_keys": [
     "news tracker",
@@ -5141,6 +5143,15 @@
       "structure": "Terminal breach mechanics -> Interception sequence and baggage scanning evidence -> Catalog of impounded gear and passenger travel history -> Regulatory choke point on drone permits and recent enforcement wave.",
       "source": "https://kenyans.co.ke/news/127909-kra-seizes-52-phones-and-three-drones-jkia-customs-operation",
       "published_at": "2026-10-17T08:02:06Z"
+    },
+    {
+      "title": "State Locks 84 Officers Out of Payroll Over Ksh6.2B Health, Police Audit",
+      "angle": "Framing the administrative purge through institutional pressure and fiscal compliance: the sudden revocation of payroll access across frontline security and healthcare sectors is an enforcement push to plug a Ksh6.2 billion leak and meet multilateral governance benchmarks required to unlock World Bank financing.",
+      "angle_type": "institutional pressure",
+      "opening": "Attribution-first statement establishing the administrative purge across sensitive security and health payrolls, followed immediately by the fiscal stakes and external funding conditions.",
+      "structure": "Attribution and beneficiary lead -> Forensic probe findings and sector targets -> The administrative lockout mechanics and transitional HR deployment -> Treasury's external funding pressure and World Bank reform matrix -> Unresolved criminal verification of personal numbers.",
+      "source": "https://kenyans.co.ke/news/127907-govt-probes-health-police-and-prisons-payroll-systems",
+      "published_at": "2026-10-17T08:23:52Z"
     }
   ]
 }
