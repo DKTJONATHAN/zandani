@@ -282,7 +282,8 @@
     "b2b69937613d7b38115a2fdb74369fd8fe0416c764ade42f69007da9472c55d6",
     "f20f572b32fbe20eaec19c29c940d98adad279effe4fdfbdc66b986acffb9658",
     "fccd77673eec6493e476858cc28ad915ef606e223c2c3dc9afe8fd3b3f110230",
-    "f18eb28c5881ea799f57109c170d10051da62de8a02259af1f8b8f422e0272b2"
+    "f18eb28c5881ea799f57109c170d10051da62de8a02259af1f8b8f422e0272b2",
+    "9730a97eefb832c7df59268922d1760962fb3e31e1ab17036fa812b519f07c80"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -567,17 +568,10 @@
     "https://www.ghafla.co.ke/ruto-says-usawa-ni-sawa-campaign-will-deliver-development-across-kenya/",
     "https://www.ghafla.co.ke/cut-fuel-prices-by-sh29-ndindi-nyoros-ppk-proposes-sh5-5b-subsidy-and-margin-trims/",
     "https://www.ghafla.co.ke/india-responds-to-sifunas-tribute-over-raila-odingas-repatriation/",
-    "https://www.ghafla.co.ke/matatu-fares-rise-by-up-to-50-per-cent-despite-10-per-cent-hike-directive/"
+    "https://www.ghafla.co.ke/matatu-fares-rise-by-up-to-50-per-cent-despite-10-per-cent-hike-directive/",
+    "https://www.ghafla.co.ke/mbadi-says-luo-support-for-ruto-cannot-be-transferred-to-raila-odingas-family/"
   ],
   "published_angles": [
-    {
-      "title": "Trisha Khalid Takes Over 'Hello Mr Right' Co-Host Chair Opposite Dr. Ofweneke for Season 5",
-      "angle": "Focusing on the strategic co-anchor transition on the 'Hello Mr Right' stage, contrasting Trisha Khalid's background with previous co-host Diana Marua as production gears up for Season 5 chemistry tests.",
-      "angle_type": "career transition and broadcast dynamics",
-      "opening": "Personality lead opening directly on Trisha Khalid stepping into the primary co-hosting chair opposite Dr. Ofweneke for Season 5.",
-      "structure": "Co-host transition hook -> Unveiling details and Dr. Ofweneke statement -> Getrude Mungai's analytical framing -> Show format history and anchor evolution -> Production rollout close",
-      "source": "https://www.ghafla.co.ke/trisha-khalid-joins-hello-mr-right-season-5-as-new-co-host/"
-    },
     {
       "title": "William Ruto Mobilizes Security Council as State Locks Down 56 Contacts in Ebola Containment Ring",
       "angle": "President Ruto elevating a single imported Ebola fatality into a National Security Council Committee priority, activating a high-precision 56-person containment ring spanning family, medical staff, and flight contacts.",
@@ -1369,6 +1363,14 @@
       "opening": "Personality lead opening directly on Albert Karakacha having his national fare directive openly ignored on the tarmac within hours of issuing it.",
       "structure": "Personality authority hook -> Ground defiance and route-specific fare jumps -> Commuter confrontations at Khoja and Parklands -> The mathematical disconnect between Karakacha's edict and per-passenger charges -> Broader EPRA and MAK fuel tension close",
       "source": "https://www.ghafla.co.ke/matatu-fares-rise-by-up-to-50-per-cent-despite-10-per-cent-hike-directive/"
+    },
+    {
+      "title": "\u2018Every Woman Can Birth a Leader\u2019: John Mbadi Rebuffs Odinga Dynasty Myth, Launches 2032 Ambition",
+      "angle": "Reframing Mbadi's funeral podium appearance through the lens of a direct rebellion against political royalty\u2014examining how he coupled a public snub of Ida Odinga's Bondo memorial with an explosive rejection of dynastic succession, instantly launching his own 2032 presidential claim.",
+      "angle_type": "political royalty rebellion and personal ambition declaration",
+      "opening": "Personality lead opening directly on John Mbadi drawing a line against political inheritance and pivoting straight into his own 2032 presidential ambition.",
+      "structure": "Personality confrontation hook -> The Bondo memorial boycott context -> Direct challenge to hereditary leadership and Ida Odinga's camp -> The 2032 State House declaration and 2027 litmus test -> Concrete closing on factional lines",
+      "source": "https://www.ghafla.co.ke/mbadi-says-luo-support-for-ruto-cannot-be-transferred-to-raila-odingas-family/"
     }
   ],
   "style_history": [
