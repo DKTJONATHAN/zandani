@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "8aaf1d541e5431e3f34a26eecefa8ac2",
     "927837005317ffdb53bd1bd7b6c3a750",
     "fd2deeb19bd57d13306ed966fbb71218",
     "c383884a80cddd3a536c4139c67cc689",
@@ -799,10 +798,10 @@
     "d39e2bc14ca85e5a1b2dd6ccb82b435b",
     "5b8a8ab4197c49914227c5738b4c9b04",
     "4aeea9f75d5a7a8a18a5d050fe18c522",
-    "bfbb55501528ae17fb0d7b56519c9a76"
+    "bfbb55501528ae17fb0d7b56519c9a76",
+    "5f1dd21d0aaf0a93fb52f17a6a2cd851"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1357,7 +1357,8 @@
     "https://kenyans.co.ke/news/127898-kra-phase-out-electronic-cargo-tracking-seals-major-overhaul",
     "https://kenyans.co.ke/news/127899-kenya-confirms-third-case-ebola-case-related-first-victim",
     "https://kenyans.co.ke/news/127901-four-injured-nairobi-cbd-building-collapses-during-night-demolition",
-    "https://kenyans.co.ke/news/127903-four-dead-scores-injured-multiple-road-accidents"
+    "https://kenyans.co.ke/news/127903-four-dead-scores-injured-multiple-road-accidents",
+    "https://kenyans.co.ke/news/127906-inside-plan-turn-parklands-kibagare-river-corridor-public-park"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1805,7 +1806,8 @@
     "kra outsages tracking seals private vendors supply chain overhaul",
     "ebola containment race enters final fortnight third patient tests positive isolation",
     "compromised beam cuts trigger midnight collapse cbd demolition site",
-    "school closure travel turns fatal overnight crashes kill four across western transit corridors"
+    "school closure travel turns fatal overnight crashes kill four across western transit corridors",
+    "state demands property deeds westlands riparian clearing kibagare park"
   ],
   "topic_keys": [
     "news tracker",
@@ -5108,6 +5110,15 @@
       "structure": "Corridor impact lead -> Detailed breakdown of the fatal Homa Bay school-travel collision -> Emergency healthcare transfers -> Chain of parallel collisions along western arteries -> Nyosia secondary crash cluster and unresolved survivor conditions.",
       "source": "https://kenyans.co.ke/news/127903-four-dead-scores-injured-multiple-road-accidents",
       "published_at": "2026-10-17T05:01:46Z"
+    },
+    {
+      "title": "State Demands Property Deeds in Westlands Riparian Clearing for Kibagare Park",
+      "angle": "The operational and property compliance squeeze facing prime real estate: state agencies are forcing private estates, commercial premises, and religious trusts to surrender built-over waterways, open underground piped canals, and submit title deeds to Ardhi House under an expansive 30-to-60-metre buffer line.",
+      "angle_type": "accountability",
+      "opening": "Enforcement-first lead focusing on property audits and structural clearing directives issued to prime Westlands and Parklands landholders.",
+      "structure": "Enforcement directives and title deed recall -> Scope of physical de-canalisation and waterway bottlenecks -> Institutional buy-in and estate consultations -> Layout and riparian buffer specifications -> Integration into the Ksh50 billion master plan",
+      "source": "https://kenyans.co.ke/news/127906-inside-plan-turn-parklands-kibagare-river-corridor-public-park",
+      "published_at": "2026-10-17T06:02:01Z"
     }
   ]
 }
