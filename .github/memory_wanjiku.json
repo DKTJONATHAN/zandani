@@ -275,7 +275,8 @@
     "098c65ed051d87b8cd9621ff42576a42bb8a942d7626b4bf5ce26f9c5ca797de",
     "133f3e61069c03359d2dcd987d1d6b25034f635fd299976d7e12e0836ca458f5",
     "ac6f204ad3446eae078c351f1ce2d089a55fc7267ca5840db63f1f3a04e27929",
-    "22a24816acafc946dfb84a8e202910b55a155d6fecdaa2560ecf5302fecf6b57"
+    "22a24816acafc946dfb84a8e202910b55a155d6fecdaa2560ecf5302fecf6b57",
+    "d8741cf37c6091217549cceece1774ffe1dbda74fa331091e844006d0907b465"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -553,17 +554,10 @@
     "https://www.ghafla.co.ke/jalango-dismisses-sifunas-2027-presidential-bid-predicts-he-will-finish-fourth/",
     "https://www.ghafla.co.ke/kenyan-shilling-risks-losing-value-in-coming-week/",
     "https://www.ghafla.co.ke/william-ruto-has-inherited-railas-constituency-joshua-nyamori/",
-    "https://www.ghafla.co.ke/uko-high-class-pastor-kanyari-reunites-with-schoolmate-crush-in-heartwarming-tiktok-video/"
+    "https://www.ghafla.co.ke/uko-high-class-pastor-kanyari-reunites-with-schoolmate-crush-in-heartwarming-tiktok-video/",
+    "https://www.ghafla.co.ke/sifuna-reveals-he-still-keeps-boarding-passes-from-trip-to-bring-railas-body-home/"
   ],
   "published_angles": [
-    {
-      "title": "Ciggie Johnson Sets Strict Communication Rules for Funding School Fees After DNA Reveal",
-      "angle": "Examining the conditional economics and transactional boundaries of post-paternity paternal support\u2014specifically how 12 years of parental investment are being renegotiated around direct child-to-adult communication rather than interaction with the mother.",
-      "angle_type": "conditional financial support and parental boundary renegotiation",
-      "opening": "Personality lead focusing directly on Ciggie Johnson setting the financial and communication terms for supporting a child who is not biologically his.",
-      "structure": "Personality and financial terms hook -> The DNA reveal and 12-year background -> The communication stipulations regarding the mother vs the child -> Concrete close on the specific phrasing required for school fee requests.",
-      "source": "https://www.ghafla.co.ke/ciggie-johnson-says-he-could-still-pay-school-fees-for-girl-he-raised-but-only-if/"
-    },
     {
       "title": "Winnie Odinga Draws the Line: No VIP Showgrounds at Raila\u2019s First Anniversary",
       "angle": "Focusing on the strict family-imposed boundary against VIP political ego-tripping and crowd-ownership contests, contrasting elite political theater with the title-less grassroots supporters Winnie explicitly invited to fill the grounds.",
@@ -1355,6 +1349,14 @@
       "opening": "Start directly with the administrative disruption inside Kanyari's office when the visitor arrived.",
       "structure": "Office protocol interruption -> The confession of school-era intimidation and buying her first phone -> The tragic backdrop of her brother's political violence death -> Closing on the viral TikTok reception.",
       "source": "https://www.ghafla.co.ke/uko-high-class-pastor-kanyari-reunites-with-schoolmate-crush-in-heartwarming-tiktok-video/"
+    },
+    {
+      "title": "Boarding Passes KQ 202 and 203: Edwin Sifuna Lays Bare the Frantic, Rule-Bending Dash to Mumbai",
+      "angle": "The behind-the-scenes diplomatic and logistical sprint revealed by Sifuna's preserved boarding passes\u2014specifically the extraordinary bending of international travel regulations by Indian and Kenyan authorities to execute an emergency repatriation flight within 24 hours of Raila's passing.",
+      "angle_type": "behind-the-scenes diplomatic logistics and preserved personal memento",
+      "opening": "Personality lead focusing on Edwin Sifuna holding onto two paper Kenya Airways boarding passes as physical proof of a frantic, rule-bending diplomatic scramble.",
+      "structure": "Person and memento hook -> The specific flight numbers (KQ 202/203) and 24-hour turnaround timeline -> The unprecedented diplomatic waivers and protocol bypass by the Indian High Commission -> The raw personal tension of receiving the news versus boarding the emergency flight -> Grounded closing on the significance of the preserved stubs.",
+      "source": "https://www.ghafla.co.ke/sifuna-reveals-he-still-keeps-boarding-passes-from-trip-to-bring-railas-body-home/"
     }
   ],
   "style_history": [
