@@ -274,7 +274,8 @@
     "fb8b7f114f23ef6bf69e12f9fc90cdc831657094d4140d3386967d681fb086e8",
     "098c65ed051d87b8cd9621ff42576a42bb8a942d7626b4bf5ce26f9c5ca797de",
     "133f3e61069c03359d2dcd987d1d6b25034f635fd299976d7e12e0836ca458f5",
-    "ac6f204ad3446eae078c351f1ce2d089a55fc7267ca5840db63f1f3a04e27929"
+    "ac6f204ad3446eae078c351f1ce2d089a55fc7267ca5840db63f1f3a04e27929",
+    "22a24816acafc946dfb84a8e202910b55a155d6fecdaa2560ecf5302fecf6b57"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -551,17 +552,10 @@
     "https://www.ghafla.co.ke/betty-kyallo-and-charlie-lemmy-celebrate-their-daughter-as-she-turns-6-months-old/",
     "https://www.ghafla.co.ke/jalango-dismisses-sifunas-2027-presidential-bid-predicts-he-will-finish-fourth/",
     "https://www.ghafla.co.ke/kenyan-shilling-risks-losing-value-in-coming-week/",
-    "https://www.ghafla.co.ke/william-ruto-has-inherited-railas-constituency-joshua-nyamori/"
+    "https://www.ghafla.co.ke/william-ruto-has-inherited-railas-constituency-joshua-nyamori/",
+    "https://www.ghafla.co.ke/uko-high-class-pastor-kanyari-reunites-with-schoolmate-crush-in-heartwarming-tiktok-video/"
   ],
   "published_angles": [
-    {
-      "title": "Winnie Odinga Draws the Line at Bondo: No VIP Crowd-Shouting or Political Battles at Raila\u2019s Memorial",
-      "angle": "Focusing on Winnie Odinga setting strict protocol rules at the Bondo mausoleum\u2014specifically targeting VIP crowd-ownership contests and political heckling, while demanding space for title-less grassroots supporters.",
-      "angle_type": "family protocol and political optics boundary",
-      "opening": "Personality lead focusing directly on Winnie Odinga establishing ground rules against political grandstanding inside the family compound in Bondo.",
-      "structure": "Bondo ground-rules lead -> VIP crowd-ownership vs high-table warning -> Grassroots invitation vs title-less supporters -> Mausoleum dedication context and personal tribute close",
-      "source": "https://www.ghafla.co.ke/winnie-odinga-calls-for-political-ceasefire-ahead-of-railas-first-death-anniversary/"
-    },
     {
       "title": "Ciggie Johnson Sets Strict Communication Rules for Funding School Fees After DNA Reveal",
       "angle": "Examining the conditional economics and transactional boundaries of post-paternity paternal support\u2014specifically how 12 years of parental investment are being renegotiated around direct child-to-adult communication rather than interaction with the mother.",
@@ -1353,6 +1347,14 @@
       "opening": "Personality lead opening directly on Joshua Nyamori laying bare the uncomfortable numbers terrifying sitting Nyanza politicians.",
       "structure": "Personality reveal hook -> The stark 7-to-8 vs. 4-to-5 metric -> Breakdown of the broken coattail tradition -> The accountability test facing regional incumbents -> Grounded conclusion on the emerging survival scramble.",
       "source": "https://www.ghafla.co.ke/william-ruto-has-inherited-railas-constituency-joshua-nyamori/"
+    },
+    {
+      "title": "Bypassing the Secretary: Pastor Kanyari Halts Church Office Schedule for School Crush Reunion",
+      "angle": "Examining the specific workplace and protocol disruption behind the viral video\u2014how Kanyari abruptly dismissed his official church office routine, sidelined his secretary, and brushed aside scheduled meetings the moment his childhood crush walked through the door.",
+      "angle_type": "office protocol disruption and personal nostalgia",
+      "opening": "Start directly with the administrative disruption inside Kanyari's office when the visitor arrived.",
+      "structure": "Office protocol interruption -> The confession of school-era intimidation and buying her first phone -> The tragic backdrop of her brother's political violence death -> Closing on the viral TikTok reception.",
+      "source": "https://www.ghafla.co.ke/uko-high-class-pastor-kanyari-reunites-with-schoolmate-crush-in-heartwarming-tiktok-video/"
     }
   ],
   "style_history": [
