@@ -272,7 +272,8 @@
     "a2c4781b1a5991bee3ec125625015e77634bcb2c47946b9cc5771e108df9b4c7",
     "471c28661dbd2421eb5934dd460c062845d581b5a09ba196bb6f07d6b3e28cc7",
     "fb8b7f114f23ef6bf69e12f9fc90cdc831657094d4140d3386967d681fb086e8",
-    "098c65ed051d87b8cd9621ff42576a42bb8a942d7626b4bf5ce26f9c5ca797de"
+    "098c65ed051d87b8cd9621ff42576a42bb8a942d7626b4bf5ce26f9c5ca797de",
+    "133f3e61069c03359d2dcd987d1d6b25034f635fd299976d7e12e0836ca458f5"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -547,17 +548,10 @@
     "https://www.ghafla.co.ke/nakuru-court-rules-four-years-of-cohabitation-do-not-automatically-make-a-couple-married/",
     "https://www.ghafla.co.ke/kra-reportedly-seeks-ksh623-million-from-mike-sonko-through-bank-notice/",
     "https://www.ghafla.co.ke/betty-kyallo-and-charlie-lemmy-celebrate-their-daughter-as-she-turns-6-months-old/",
-    "https://www.ghafla.co.ke/jalango-dismisses-sifunas-2027-presidential-bid-predicts-he-will-finish-fourth/"
+    "https://www.ghafla.co.ke/jalango-dismisses-sifunas-2027-presidential-bid-predicts-he-will-finish-fourth/",
+    "https://www.ghafla.co.ke/kenyan-shilling-risks-losing-value-in-coming-week/"
   ],
   "published_angles": [
-    {
-      "title": "Aden Duale Details DRC Returnee\u2019s Final Hours as KEMRI Confirms Rare Ebola Bundibugyo Strain",
-      "angle": "Focusing on the critical gap between cross-border public health screening and acute clinical detection, highlighting Aden Duale's disclosure of how a month-long illness in DRC bypassed airport protocols before emergency hospital triage and KEMRI laboratory confirmation took over.",
-      "angle_type": "clinical timeline and screening accountability",
-      "opening": "Personality-led opening focusing on Aden Duale breaking down the clinical timeline and laboratory confirmation at The Nairobi Hospital.",
-      "structure": "Personality disclosure hook -> Travel chronology vs screening protocols -> Emergency triage and clinical presentation -> Joint KEMRI-NPHI laboratory verification -> Contact surveillance status",
-      "source": "https://www.ghafla.co.ke/first-ebola-patient-awaited-treatment-for-hours-before-demise/"
-    },
     {
       "title": "Fred Matiang\u2019i Draws the Line on River Yala Security Debates, Pushing Executive Responsibility Back to William Ruto",
       "angle": "Examining the specific structural mechanics of the National Security Council (NSC) that Matiang'i is using to corner Ruto on intelligence access and executive responsibility.",
@@ -1349,6 +1343,14 @@
       "opening": "Personality lead opening directly on Jalang'o invoking Raila Odinga's event playbook to critique Sifuna's political execution.",
       "structure": "Personality lead -> The verified critique and 2027 forecast -> The KICC delegate blueprint comparison -> Context of TEP rollout and Nairobi political friction -> Concrete closing on local rivalry dynamics.",
       "source": "https://www.ghafla.co.ke/jalango-dismisses-sifunas-2027-presidential-bid-predicts-he-will-finish-fourth/"
+    },
+    {
+      "title": "Kamau Thugge Bets on Cheaper Food to Blunt KSh 129 Shilling Squeeze as Oil Marketers Hunt Dollars",
+      "angle": "Reframing the forex movement around Central Bank Governor Kamau Thugge's personal policy gamble\u2014counting on falling food prices to neutralize a twin assault from double-digit landed fuel cost spikes and an aggressive importer run on commercial dollar desks.",
+      "angle_type": "public figure policy gamble and economic tension",
+      "opening": "Personality lead opening directly on Kamau Thugge's food-versus-fuel monetary calculation.",
+      "structure": "Personality policy hook -> The fragile KSh 129 bank quote band -> EPRA's September landed cost numbers -> The importer dollar pipeline -> Consumer spillover risk -> Closing unresolved monetary checkpoint.",
+      "source": "https://www.ghafla.co.ke/kenyan-shilling-risks-losing-value-in-coming-week/"
     }
   ],
   "style_history": [
