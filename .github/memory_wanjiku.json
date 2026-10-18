@@ -288,7 +288,8 @@
     "52701d66b6dabf29157541373218132acd111f50afef19c071ebb6aa707cee58",
     "0aa8eaaafafc75c708b545e58118e84f12ef32724f73a409c3a844360fc5ab15",
     "92a718e098b7873fd57e891fd2845ee65e0c3b9636ce21a79f1d9b479bdb5be7",
-    "bddcb15e796bdc94671e5dbbc198dfc1b6a08a5d159bf450c89e08620418b31f"
+    "bddcb15e796bdc94671e5dbbc198dfc1b6a08a5d159bf450c89e08620418b31f",
+    "e6671fd8c868f753ba57f5da7df2284d67ffda2c7b2904309a4d0aba747f503f"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -579,17 +580,10 @@
     "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackouts-in-juja-kilifi-nairobi-and-machakos/",
     "https://www.ghafla.co.ke/alai-claims-winnie-odingas-senate-bid-targets-babu-owinos-nairobi-governor-ambitions/",
     "https://www.ghafla.co.ke/kenya-reports-4-new-ebola-cases-total-rises-to-7-as-health-ministry-intensifies-response/",
-    "https://www.ghafla.co.ke/raila-junior-backs-jalango-for-nairobi-senate-seat-against-sister-winnie/"
+    "https://www.ghafla.co.ke/raila-junior-backs-jalango-for-nairobi-senate-seat-against-sister-winnie/",
+    "https://www.ghafla.co.ke/ruto-dismisses-opposition-ahead-of-2027-urging-rivals-to-present-real-policies-over-political-rhetoric/"
   ],
   "published_angles": [
-    {
-      "title": "Georgina Njenga Shuts Down 9-to-5 Job Offers and Resists Three-Month Stay as Eric Omondi Visits Recovery Center",
-      "angle": "Georgina defining strict personal boundaries over her rehabilitation process: pushing back against a recommended three-month facility stay down to a single month, while flatly dismissing Omondi's 8-to-5 corporate job offer in favor of independent entrepreneurship.",
-      "angle_type": "personal recovery boundaries and career autonomy",
-      "opening": "Personality lead opening directly on Georgina Njenga setting strict boundaries on both her recovery duration and her post-facility career direction during Eric Omondi's visit.",
-      "structure": "Autonomy lead -> Recovery timeline pushback (3 months vs 1 month) -> Spiritual and internal battles -> Outright rejection of Eric's 9-to-5 job offer -> Post-recovery entrepreneurial pivot -> Concrete close on current status",
-      "source": "https://www.ghafla.co.ke/georgina-njenga-opens-up-on-health-post-recovery-plans-in-candid-chat-with-eric-omondi/"
-    },
     {
       "title": "Aden Duale Steps Into Diplomatic Spotlight to Fight UK and US Travel Warnings After Single Ebola Case",
       "angle": "Duale's deliberate diplomatic charm offensive and PR damage control to neutralize Western travel advisories, focusing on his role as the state's chief image defender to protect tourism and investment.",
@@ -1381,6 +1375,14 @@
       "opening": "Personality lead opening directly on Raila Junior stepping onto the platform beside Jalang\u2019o to dismantle assumptions of an uncontested family coronation in Nairobi.",
       "structure": "Personality hook and sibling clash -> The Friday endorsement details with Jalang'o and Passaris -> Primary ticket rebellion and anti-direct nomination stance -> Winnie's anniversary declaration context -> Junior's personal pivot to Kibra.",
       "source": "https://www.ghafla.co.ke/raila-junior-backs-jalango-for-nairobi-senate-seat-against-sister-winnie/"
+    },
+    {
+      "title": "Ruto Dares Rivals from Eldoret: Stop the Slogans, Show Me Your 2027 Blueprint",
+      "angle": "Focusing on Ruto's podium dare from his Eldoret backyard\u2014treating 2027 not as a duel of slogans or ouster chants, but as a demand for a competing economic policy document, set against Simba Arati's simultaneous grassroots mobilization push.",
+      "angle_type": "political personality showdown and campaign terms challenge",
+      "opening": "Personality lead opening directly on William Ruto commanding the Eldoret podium and daring opposition rivals to swap their slogans for a verifiable economic plan.",
+      "structure": "Personality hook -> The Eldoret podium demand -> Direct critique of anti-incumbency slogans -> The President's infrastructure and subsidy defense -> Simba Arati's parallel ODM grassroots mobilization -> Closing on the 2027 clash of strategies.",
+      "source": "https://www.ghafla.co.ke/ruto-dismisses-opposition-ahead-of-2027-urging-rivals-to-present-real-policies-over-political-rhetoric/"
     }
   ],
   "style_history": [
