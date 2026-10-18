@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "0c184eb0b070053519b6ce98425bb212",
     "a314dc02a5cb07d7ea81f59a0ecdcb55",
     "064ec04fd45bb90244dfe4ccf4a12309",
     "1181d5931b272969f6d7531a5b5e1274",
@@ -799,10 +798,10 @@
     "94e3e28135c8167200cfa54c96b41063",
     "51c89ae98cfe7124a88235cebd22935b",
     "e10159f028f78da486e70eeca69dd78e",
-    "30ea798064ae04a464c9b2068abbda6c"
+    "30ea798064ae04a464c9b2068abbda6c",
+    "ee7f1d993f7aff36737f404adefa4a10"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1369,7 +1369,8 @@
     "https://kenyans.co.ke/news/127916-raila-junior-says-odm-will-back-jalango-nairobi-senate-seat",
     "https://kenyans.co.ke/news/127917-dci-interpol-uncover-uk-stolen-vehicle-network-kenya",
     "https://kenyans.co.ke/news/127918-kenya-confirms-four-new-ebola-cases-total-rises-seven",
-    "https://kenyans.co.ke/news/127920-fire-breaks-out-nairobi-national-park-near-southern-bypass"
+    "https://kenyans.co.ke/news/127920-fire-breaks-out-nairobi-national-park-near-southern-bypass",
+    "https://kenyans.co.ke/news/127923-uda-announces-october-dates-ward-level-grassroots-election"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1829,7 +1830,8 @@
     "raila junior demands open odm primaries nairobi senate race splits family",
     "yard sweeps expose vehicle identity racket stolen suv traced bypass bazaar",
     "state tracing firewall holds four quarantined ebola contacts test positive",
-    "nairobi national park fire prompts containment scramble along southern bypass logistics strip"
+    "nairobi national park fire prompts containment scramble along southern bypass logistics strip",
+    "uda imposes hour dispute window ward polls roll across counties"
   ],
   "topic_keys": [
     "news tracker",
@@ -5240,6 +5242,15 @@
       "structure": "Perimeter risk lead -> Fire spread and multi-agency response -> Vulnerable infrastructure and commercial assets -> Unanswered operational questions from wildlife authorities",
       "source": "https://kenyans.co.ke/news/127920-fire-breaks-out-nairobi-national-park-near-southern-bypass",
       "published_at": "2026-10-17T16:02:21Z"
+    },
+    {
+      "title": "UDA Imposes 24-Hour Dispute Window as Ward Polls Roll Across 10 Counties",
+      "angle": "The rapid operational assembly of the party's grassroots electoral college under a strict 24-hour dispute window, racing to establish local structures ahead of statutory 2027 electoral deadlines.",
+      "angle_type": "practical change",
+      "opening": "Operational-mechanics lead focusing on the high-speed delegate construction and the strict dispute window across the 10 target counties.",
+      "structure": "Dispute and calendar rules -> Polling centre to ward congress mechanics -> County clusters and geographical sequencing -> Scale of candidacies and recruitment metrics -> Statutory 2027 IEBC deadlines",
+      "source": "https://kenyans.co.ke/news/127923-uda-announces-october-dates-ward-level-grassroots-election",
+      "published_at": "2026-10-18T05:02:07Z"
     }
   ]
 }
