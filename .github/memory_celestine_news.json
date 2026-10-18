@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a314dc02a5cb07d7ea81f59a0ecdcb55",
     "064ec04fd45bb90244dfe4ccf4a12309",
     "1181d5931b272969f6d7531a5b5e1274",
     "1143ac549954c861a1c3a959a0d4f107",
@@ -799,10 +798,10 @@
     "51c89ae98cfe7124a88235cebd22935b",
     "e10159f028f78da486e70eeca69dd78e",
     "30ea798064ae04a464c9b2068abbda6c",
-    "ee7f1d993f7aff36737f404adefa4a10"
+    "ee7f1d993f7aff36737f404adefa4a10",
+    "5e3c55d02ebb4ffbac3e3c75a970f6a6"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1370,7 +1370,8 @@
     "https://kenyans.co.ke/news/127917-dci-interpol-uncover-uk-stolen-vehicle-network-kenya",
     "https://kenyans.co.ke/news/127918-kenya-confirms-four-new-ebola-cases-total-rises-seven",
     "https://kenyans.co.ke/news/127920-fire-breaks-out-nairobi-national-park-near-southern-bypass",
-    "https://kenyans.co.ke/news/127923-uda-announces-october-dates-ward-level-grassroots-election"
+    "https://kenyans.co.ke/news/127923-uda-announces-october-dates-ward-level-grassroots-election",
+    "https://kenyans.co.ke/news/127922-scores-injured-after-60-seater-bus-accident-sachangwan"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1831,7 +1832,8 @@
     "yard sweeps expose vehicle identity racket stolen suv traced bypass bazaar",
     "state tracing firewall holds four quarantined ebola contacts test positive",
     "nairobi national park fire prompts containment scramble along southern bypass logistics strip",
-    "uda imposes hour dispute window ward polls roll across counties"
+    "uda imposes hour dispute window ward polls roll across counties",
+    "nakuru referral admits midnight bus crash migaa black spot"
   ],
   "topic_keys": [
     "news tracker",
@@ -5251,6 +5253,15 @@
       "structure": "Dispute and calendar rules -> Polling centre to ward congress mechanics -> County clusters and geographical sequencing -> Scale of candidacies and recruitment metrics -> Statutory 2027 IEBC deadlines",
       "source": "https://kenyans.co.ke/news/127923-uda-announces-october-dates-ward-level-grassroots-election",
       "published_at": "2026-10-18T05:02:07Z"
+    },
+    {
+      "title": "Nakuru Referral Admits 17 After Midnight Bus Crash at Migaa Black Spot",
+      "angle": "Framing the disaster through the emergency extraction and referral strain: an overnight long-distance charter passing through the Migaa freight corridor forced a multi-agency midnight rescue, funneling 17 casualties into Nakuru's county referral complex amid persistent hazards on the descent.",
+      "angle_type": "consequence",
+      "opening": "Attribution-first statement opening identifying emergency authorities, followed immediately by the casualty count and the regional hospital network absorbing the midnight impact.",
+      "structure": "Attribution and casualty intake lead -> Rescue coordination and transit dynamics -> Corridor hazard history and commercial freight factors -> Unresolved collision cause and broader weekend highway toll",
+      "source": "https://kenyans.co.ke/news/127922-scores-injured-after-60-seater-bus-accident-sachangwan",
+      "published_at": "2026-10-18T05:33:22Z"
     }
   ]
 }
