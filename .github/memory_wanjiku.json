@@ -286,7 +286,8 @@
     "9730a97eefb832c7df59268922d1760962fb3e31e1ab17036fa812b519f07c80",
     "7577ba5b3959d8be7ad9feb6397a6a26e8648229b999c2fd2d1a7902d881b593",
     "52701d66b6dabf29157541373218132acd111f50afef19c071ebb6aa707cee58",
-    "0aa8eaaafafc75c708b545e58118e84f12ef32724f73a409c3a844360fc5ab15"
+    "0aa8eaaafafc75c708b545e58118e84f12ef32724f73a409c3a844360fc5ab15",
+    "92a718e098b7873fd57e891fd2845ee65e0c3b9636ce21a79f1d9b479bdb5be7"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -575,17 +576,10 @@
     "https://www.ghafla.co.ke/mbadi-says-luo-support-for-ruto-cannot-be-transferred-to-raila-odingas-family/",
     "https://www.ghafla.co.ke/kra-issues-agency-notice-to-recover-ksh-623-million-tax-debt-from-mike-sonko/",
     "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackouts-in-juja-kilifi-nairobi-and-machakos/",
-    "https://www.ghafla.co.ke/alai-claims-winnie-odingas-senate-bid-targets-babu-owinos-nairobi-governor-ambitions/"
+    "https://www.ghafla.co.ke/alai-claims-winnie-odingas-senate-bid-targets-babu-owinos-nairobi-governor-ambitions/",
+    "https://www.ghafla.co.ke/kenya-reports-4-new-ebola-cases-total-rises-to-7-as-health-ministry-intensifies-response/"
   ],
   "published_angles": [
-    {
-      "title": "Celeste Saulo Sounds the Alarm as 3.7\u00b0C El Ni\u00f1o Spike Threatens to Shatter Historical Records",
-      "angle": "Focusing squarely on WMO Secretary-General Celeste Saulo putting her personal authority behind a staggering statistical baseline: a projected 3.7\u00b0C Pacific temperature surge that shatters the 2015\u20132016 record and locks in extreme climate conditions through February 2027.",
-      "angle_type": "institutional leadership and data alert",
-      "opening": "Personality lead focusing directly on Celeste Saulo delivering an uncompromising briefing on the unprecedented strength of the incoming climate cycle.",
-      "structure": "Saulo leadership alert -> Ocean temperature index metrics -> Subsurface heat release mechanism -> Regional sea basin convergence -> Sector impact directives close",
-      "source": "https://www.ghafla.co.ke/wmo-warns-strengthening-el-nino-could-reach-historic-record-highs-by-december/"
-    },
     {
       "title": "Tom Gitogo Challenges Kenyans to Stop Merely Consuming Foreign Tech and Buy the Equity",
       "angle": "Framing Tom Gitogo's strategic critique of Africans existing merely as digital consumers for foreign platforms, positioning Britam's global funds as an ownership vehicle for everyday wealth builders targeting Silicon Valley AI and life sciences.",
@@ -1377,6 +1371,14 @@
       "opening": "Personality lead opening directly on Robert Alai drawing a sharp line between the political fates of Jalang'o and Babu Owino amidst Winnie Odinga's rumoured Senate run.",
       "structure": "Personality lead -> The Jalang'o vs. Babu political calculus -> Factional alignment under Sifuna's Linda Mwananchi banner -> Unverified claims vs. 2027 Nairobi lineup realities -> Grounded closing on upcoming alignments.",
       "source": "https://www.ghafla.co.ke/alai-claims-winnie-odingas-senate-bid-targets-babu-owinos-nairobi-governor-ambitions/"
+    },
+    {
+      "title": "Dr. Patrick Amoth Rules Out Social and Travel Curbs as Kenya Isolates 4 New Ebola Cases",
+      "angle": "Focusing on Dr. Patrick Amoth's high-stakes public balance\u2014delivering sobering clinical news regarding infected hospital staff while issuing a firm operational guarantee that shields the country's travel, social gatherings, and commercial life from disruption.",
+      "angle_type": "public figure authority and social continuity",
+      "opening": "Personality lead opening directly on Dr. Patrick Amoth managing national public health anxiety with an explicit green light for open public gatherings and commerce.",
+      "structure": "Personality lead and public life assurance -> Specific clinical tally and infected medical personnel details -> Contact-tracing metrics and containment timeline -> Low community risk threshold and continuity of events.",
+      "source": "https://www.ghafla.co.ke/kenya-reports-4-new-ebola-cases-total-rises-to-7-as-health-ministry-intensifies-response/"
     }
   ],
   "style_history": [
