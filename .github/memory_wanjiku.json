@@ -284,7 +284,8 @@
     "fccd77673eec6493e476858cc28ad915ef606e223c2c3dc9afe8fd3b3f110230",
     "f18eb28c5881ea799f57109c170d10051da62de8a02259af1f8b8f422e0272b2",
     "9730a97eefb832c7df59268922d1760962fb3e31e1ab17036fa812b519f07c80",
-    "7577ba5b3959d8be7ad9feb6397a6a26e8648229b999c2fd2d1a7902d881b593"
+    "7577ba5b3959d8be7ad9feb6397a6a26e8648229b999c2fd2d1a7902d881b593",
+    "52701d66b6dabf29157541373218132acd111f50afef19c071ebb6aa707cee58"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -571,17 +572,10 @@
     "https://www.ghafla.co.ke/india-responds-to-sifunas-tribute-over-raila-odingas-repatriation/",
     "https://www.ghafla.co.ke/matatu-fares-rise-by-up-to-50-per-cent-despite-10-per-cent-hike-directive/",
     "https://www.ghafla.co.ke/mbadi-says-luo-support-for-ruto-cannot-be-transferred-to-raila-odingas-family/",
-    "https://www.ghafla.co.ke/kra-issues-agency-notice-to-recover-ksh-623-million-tax-debt-from-mike-sonko/"
+    "https://www.ghafla.co.ke/kra-issues-agency-notice-to-recover-ksh-623-million-tax-debt-from-mike-sonko/",
+    "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackouts-in-juja-kilifi-nairobi-and-machakos/"
   ],
   "published_angles": [
-    {
-      "title": "Madzibaba Wicknell: Inside Chivayo\u2019s White-Garment Church Farewell and Flag-Draped Send-Off",
-      "angle": "Examining the collision of two distinct public identities at Wicknell Chivayo's final send-off: his grounding as 'Madzibaba Wicknell' inside the white-garment Apostolic sect where he served as an irreplaceable pillar, set against formal state recognition as a flag-draped Provincial Hero.",
-      "angle_type": "cultural identity and dual public legacy",
-      "opening": "Personality-led opening focusing on Wicknell Chivayo being mourned under his spiritual title 'Madzibaba Wicknell' during Harare funeral proceedings.",
-      "structure": "Spiritual identity hook -> Harare funeral service details -> Vapostori ceremonial rites vs Provincial Hero flag honors -> Crash background and home vigil context -> Glen Forest dual-grave burial logistics close",
-      "source": "https://www.ghafla.co.ke/johane-masowe-echishanu-members-mourn-wicknell-chivayo-as-church-remembers-his-contribution/"
-    },
     {
       "title": "Jaoko Oburu Confronts Maverick Aoko Over False Death Post as Family Activates ODM Legal Team",
       "angle": "Focusing on the immediate, direct digital confrontation between Jaoko Oburu and Maverick Aoko, and how the family quickly transitioned from online clapbacks to mobilizing ODM's official legal machinery to enforce boundaries against digital rumor-mongers.",
@@ -1373,6 +1367,14 @@
       "opening": "Personality lead opening directly on Mike Sonko facing a direct intercept of his commercial revenue by tax enforcement officers.",
       "structure": "Personality lead -> Intercepted customer notice mechanics -> Arithmetic of the KSh 623M claim and five-year audit window -> Section 42 enforcement muscle -> Unresolved settlement outlook",
       "source": "https://www.ghafla.co.ke/kra-issues-agency-notice-to-recover-ksh-623-million-tax-debt-from-mike-sonko/"
+    },
+    {
+      "title": "Vipingo Ridge to Presidential Escort: Kenya Power Dims Sunday Grid Across VIP Belts and Coastal Resorts",
+      "angle": "Reframing the outage notice through its direct hit on prominent leisure strips, VIP security installations, and weekend recreational hubs\u2014tracing how an eight-hour blackout lands on luxury coastal enclaves like Vipingo Ridge and Sun N Sand, Nairobi's Presidential Escort base, and popular social nodes.",
+      "angle_type": "VIP and leisure lifestyle corridor disruption",
+      "opening": "Personality and lifestyle lead opening directly on Kenya Power cutting the supply to high-security VIP installations and coastal luxury enclaves.",
+      "structure": "VIP and luxury leisure hook -> Coastal resort belt shutdown -> Nairobi security and social circuits -> Kiambu and Machakos weekend corridors -> Western recreational and institutional nodes -> Factual utility operational window close",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackouts-in-juja-kilifi-nairobi-and-machakos/"
     }
   ],
   "style_history": [
