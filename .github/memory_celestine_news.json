@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "4d6139008740ea6b39e1bdef66a1a328",
     "cd239ba2fa3d918360d9eef023840505",
     "47a8c2fd309556cadd9c4bf6c445ff6c",
     "fa78d60b4db0b3020178ffded59b5ce6",
@@ -799,10 +798,10 @@
     "8aef44eef82357ff34aa610451ccff11",
     "31789aac0cf37286ae91543626ea1435",
     "ab5db489b2ff9604dd09a75796a6ea58",
-    "4d0a76b1502ab17327c2dcdaafafe2cf"
+    "4d0a76b1502ab17327c2dcdaafafe2cf",
+    "cc6d5f563fb22ffa68f7d44067dfd851"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1376,7 +1376,8 @@
     "https://kenyans.co.ke/news/127927-kalonzo-warns-ruto-against-arresting-natembeya-demands-clarity-accident-remarks",
     "https://kenyans.co.ke/news/127928-knh-launches-probe-after-patients-viral-video-raises-questions-over-treatment",
     "https://kenyans.co.ke/news/127929-explained-why-telecom-masts-and-booster-towers-are-painted-red-and-white",
-    "https://kenyans.co.ke/news/127932-kagure-supporters-threaten-back-sakaja-over-unfair-opposition-nominations"
+    "https://kenyans.co.ke/news/127932-kagure-supporters-threaten-back-sakaja-over-unfair-opposition-nominations",
+    "https://kenyans.co.ke/news/127933-cocowa-gives-epra-14-days-revoke-fuel-price-hikes-or-face-legal-action"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1843,7 +1844,8 @@
     "kitale market standoff escalates state withdraws natembeya security ahead threatened arrest",
     "knh inquiry exposes out pocket cash trap under ecitizen sha transition",
     "aviation mandates dictate dual tone markings metre telecom towers protect low flying aircraft",
-    "opposition ticket feud hands sakaja surprise buffer nairobi governor contest"
+    "opposition ticket feud hands sakaja surprise buffer nairobi governor contest",
+    "state buffer freeze sparks commuter legal threat 50pc fare shock"
   ],
   "topic_keys": [
     "news tracker",
@@ -5317,6 +5319,15 @@
       "structure": "Electoral leverage lead -> Sunday gathering and defection terms -> The crowded Nairobi field and party machinery -> Zoning contradictions inside opposition coalition -> The unresolved Nyeri relocation question",
       "source": "https://kenyans.co.ke/news/127932-kagure-supporters-threaten-back-sakaja-over-unfair-opposition-nominations",
       "published_at": "2026-10-18T12:02:01Z"
+    },
+    {
+      "title": "State Buffer Freeze Sparks Commuter Legal Threat Over 50pc Fare Shock",
+      "angle": "Examining the accountability chain between the state's deliberate choice to withhold the fuel price stabilisation fund and the immediate passenger crisis, where unbuffered pump hikes triggered rogue fare surges of up to 50 per cent.",
+      "angle_type": "accountability",
+      "opening": "Policy-consequence lead establishing that the state's refusal to release fuel stabilisation funds has produced an unbuffered consumer crisis now headed for legal arbitration.",
+      "structure": "Policy-decision lead -> The 14-day legal ultimatum and public participation challenge -> EPRA's fiscal rationale on the stabilisation fund -> Street-level fare divergence and commuter impact -> Concrete countdown and legal dispute implications",
+      "source": "https://kenyans.co.ke/news/127933-cocowa-gives-epra-14-days-revoke-fuel-price-hikes-or-face-legal-action",
+      "published_at": "2026-10-18T13:02:27Z"
     }
   ]
 }
