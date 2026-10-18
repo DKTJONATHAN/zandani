@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "1181d5931b272969f6d7531a5b5e1274",
     "1143ac549954c861a1c3a959a0d4f107",
     "fe732e1d3afb70f774916b22ea459c3d",
     "6fef569739047c6873c98123b27062b1",
@@ -799,10 +798,10 @@
     "30ea798064ae04a464c9b2068abbda6c",
     "ee7f1d993f7aff36737f404adefa4a10",
     "5e3c55d02ebb4ffbac3e3c75a970f6a6",
-    "2e65aefb1eda2ef097c931191421fadf"
+    "2e65aefb1eda2ef097c931191421fadf",
+    "8aef44eef82357ff34aa610451ccff11"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1372,7 +1372,8 @@
     "https://kenyans.co.ke/news/127920-fire-breaks-out-nairobi-national-park-near-southern-bypass",
     "https://kenyans.co.ke/news/127923-uda-announces-october-dates-ward-level-grassroots-election",
     "https://kenyans.co.ke/news/127922-scores-injured-after-60-seater-bus-accident-sachangwan",
-    "https://kenyans.co.ke/news/127926-tanzania-introduces-mandatory-ebola-screening-21-day-monitoring-high-risk-travelers"
+    "https://kenyans.co.ke/news/127926-tanzania-introduces-mandatory-ebola-screening-21-day-monitoring-high-risk-travelers",
+    "https://kenyans.co.ke/news/127927-kalonzo-warns-ruto-against-arresting-natembeya-demands-clarity-accident-remarks"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1835,7 +1836,8 @@
     "nairobi national park fire prompts containment scramble along southern bypass logistics strip",
     "uda imposes hour dispute window ward polls roll across counties",
     "nakuru referral admits midnight bus crash migaa black spot",
-    "tanzania mounts day digital surveillance ring along border crossings"
+    "tanzania mounts day digital surveillance ring along border crossings",
+    "kitale market standoff escalates state withdraws natembeya security ahead threatened arrest"
   ],
   "topic_keys": [
     "news tracker",
@@ -5273,6 +5275,15 @@
       "structure": "Border post mechanics -> Tanzanian surveillance regime details -> Kenya outbreak caseload and response -> Bilateral divergence on movement protocols -> Regional and international alert ripple",
       "source": "https://kenyans.co.ke/news/127926-tanzania-introduces-mandatory-ebola-screening-21-day-monitoring-high-risk-travelers",
       "published_at": "2026-10-18T08:02:07Z"
+    },
+    {
+      "title": "Kitale Market Standoff Escalates as State Withdraws Natembeya Security Ahead of Threatened Arrest",
+      "angle": "The rapid conversion of a municipal dispute over Kitale market stalls into an institutional security confrontation, marked by stripped gubernatorial escorts, street clashes injuring officers, and threats of detention.",
+      "angle_type": "accountability",
+      "opening": "Institutional-confrontation lead tracking the escalation from municipal market governance to state security sanctions against an elected county chief.",
+      "structure": "Institutional clash lead -> The Kitale market flashpoint and street violence -> Security withdrawals and the Inspector General -> Kalonzo's legal intervention and Iten remarks probe -> Impending legal and political contest",
+      "source": "https://kenyans.co.ke/news/127927-kalonzo-warns-ruto-against-arresting-natembeya-demands-clarity-accident-remarks",
+      "published_at": "2026-10-18T09:01:51Z"
     }
   ]
 }
