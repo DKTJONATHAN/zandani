@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "cd239ba2fa3d918360d9eef023840505",
     "47a8c2fd309556cadd9c4bf6c445ff6c",
     "fa78d60b4db0b3020178ffded59b5ce6",
     "8b5272859d2e2554254e0513672b98e0",
@@ -799,10 +798,10 @@
     "31789aac0cf37286ae91543626ea1435",
     "ab5db489b2ff9604dd09a75796a6ea58",
     "4d0a76b1502ab17327c2dcdaafafe2cf",
-    "cc6d5f563fb22ffa68f7d44067dfd851"
+    "cc6d5f563fb22ffa68f7d44067dfd851",
+    "a87eb75996d71d4f79d8a30a6e30dbf8"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1377,7 +1377,8 @@
     "https://kenyans.co.ke/news/127928-knh-launches-probe-after-patients-viral-video-raises-questions-over-treatment",
     "https://kenyans.co.ke/news/127929-explained-why-telecom-masts-and-booster-towers-are-painted-red-and-white",
     "https://kenyans.co.ke/news/127932-kagure-supporters-threaten-back-sakaja-over-unfair-opposition-nominations",
-    "https://kenyans.co.ke/news/127933-cocowa-gives-epra-14-days-revoke-fuel-price-hikes-or-face-legal-action"
+    "https://kenyans.co.ke/news/127933-cocowa-gives-epra-14-days-revoke-fuel-price-hikes-or-face-legal-action",
+    "https://kenyans.co.ke/news/127934-kura-explains-why-roadworks-parklands-junction-stalled-months"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1845,7 +1846,8 @@
     "knh inquiry exposes out pocket cash trap under ecitizen sha transition",
     "aviation mandates dictate dual tone markings metre telecom towers protect low flying aircraft",
     "opposition ticket feud hands sakaja surprise buffer nairobi governor contest",
-    "state buffer freeze sparks commuter legal threat 50pc fare shock"
+    "state buffer freeze sparks commuter legal threat 50pc fare shock",
+    "kura blames kenha utility delays stalled parklands junction upgrades"
   ],
   "topic_keys": [
     "news tracker",
@@ -5328,6 +5330,15 @@
       "structure": "Policy-decision lead -> The 14-day legal ultimatum and public participation challenge -> EPRA's fiscal rationale on the stabilisation fund -> Street-level fare divergence and commuter impact -> Concrete countdown and legal dispute implications",
       "source": "https://kenyans.co.ke/news/127933-cocowa-gives-epra-14-days-revoke-fuel-price-hikes-or-face-legal-action",
       "published_at": "2026-10-18T13:02:27Z"
+    },
+    {
+      "title": "KURA Blames KeNHA Utility Delays for Stalled Parklands Junction Upgrades",
+      "angle": "Inter-agency utility relocation friction between state road authorities left a critical Westlands transit node exposed to open-trench safety risks before contractor resumption.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first statement opening identifying KURA, immediately outlining the intended commuter and pedestrian beneficiaries alongside the inter-agency friction that stalled the works.",
+      "structure": "Attribution and beneficiary lead -> Statement on KeNHA utility delays and contractor reactivation -> Street-level site conditions and drainage hazards -> The commercial diversion dispute raised by civic advocates -> Capital network context (Ngong Road flyover and Kenyatta Avenue viaduct)",
+      "source": "https://kenyans.co.ke/news/127934-kura-explains-why-roadworks-parklands-junction-stalled-months",
+      "published_at": "2026-10-18T14:02:05Z"
     }
   ]
 }
