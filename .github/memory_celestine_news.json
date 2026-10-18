@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "47a8c2fd309556cadd9c4bf6c445ff6c",
     "fa78d60b4db0b3020178ffded59b5ce6",
     "8b5272859d2e2554254e0513672b98e0",
     "9dd3879b4c9d0b9c42ac86e70c47f45e",
@@ -799,10 +798,10 @@
     "ab5db489b2ff9604dd09a75796a6ea58",
     "4d0a76b1502ab17327c2dcdaafafe2cf",
     "cc6d5f563fb22ffa68f7d44067dfd851",
-    "a87eb75996d71d4f79d8a30a6e30dbf8"
+    "a87eb75996d71d4f79d8a30a6e30dbf8",
+    "e223aa7ba9c6c9b152c67407dd4c5cb6"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1378,7 +1378,8 @@
     "https://kenyans.co.ke/news/127929-explained-why-telecom-masts-and-booster-towers-are-painted-red-and-white",
     "https://kenyans.co.ke/news/127932-kagure-supporters-threaten-back-sakaja-over-unfair-opposition-nominations",
     "https://kenyans.co.ke/news/127933-cocowa-gives-epra-14-days-revoke-fuel-price-hikes-or-face-legal-action",
-    "https://kenyans.co.ke/news/127934-kura-explains-why-roadworks-parklands-junction-stalled-months"
+    "https://kenyans.co.ke/news/127934-kura-explains-why-roadworks-parklands-junction-stalled-months",
+    "https://kenyans.co.ke/news/127938-knec-outlines-rules-candidates-sitting-2026-kcse-exams"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1847,7 +1848,8 @@
     "aviation mandates dictate dual tone markings metre telecom towers protect low flying aircraft",
     "opposition ticket feud hands sakaja surprise buffer nairobi governor contest",
     "state buffer freeze sparks commuter legal threat 50pc fare shock",
-    "kura blames kenha utility delays stalled parklands junction upgrades"
+    "kura blames kenha utility delays stalled parklands junction upgrades",
+    "knec enforces minute desk lock wristwatch ban 2026 kcse"
   ],
   "topic_keys": [
     "news tracker",
@@ -5339,6 +5341,15 @@
       "structure": "Attribution and beneficiary lead -> Statement on KeNHA utility delays and contractor reactivation -> Street-level site conditions and drainage hazards -> The commercial diversion dispute raised by civic advocates -> Capital network context (Ngong Road flyover and Kenyatta Avenue viaduct)",
       "source": "https://kenyans.co.ke/news/127934-kura-explains-why-roadworks-parklands-junction-stalled-months",
       "published_at": "2026-10-18T14:02:05Z"
+    },
+    {
+      "title": "KNEC Enforces 15-Minute Desk Lock-in and Wristwatch Ban for 2026 KCSE",
+      "angle": "Focusing on the operational perimeter and desk-level compliance mechanics\u2014specifically how KNEC enforces physical containment through early desk lock-ins, a 30-minute latecomer barrier, and stringent bans extending to wristwatches and bags.",
+      "angle_type": "practical change",
+      "opening": "Operational-perimeter lead outlining the security checks, desk lock-in thresholds, and item prohibitions facing 2026 candidates.",
+      "structure": "Operational security lead -> Timetable and latecomer threshold -> Script-formatting and stationery rules -> Hardware prohibitions and approved calculator subjects -> Session exit and custody controls",
+      "source": "https://kenyans.co.ke/news/127938-knec-outlines-rules-candidates-sitting-2026-kcse-exams",
+      "published_at": "2026-10-18T17:02:08Z"
     }
   ]
 }
