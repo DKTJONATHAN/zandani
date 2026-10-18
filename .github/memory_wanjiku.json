@@ -287,7 +287,8 @@
     "7577ba5b3959d8be7ad9feb6397a6a26e8648229b999c2fd2d1a7902d881b593",
     "52701d66b6dabf29157541373218132acd111f50afef19c071ebb6aa707cee58",
     "0aa8eaaafafc75c708b545e58118e84f12ef32724f73a409c3a844360fc5ab15",
-    "92a718e098b7873fd57e891fd2845ee65e0c3b9636ce21a79f1d9b479bdb5be7"
+    "92a718e098b7873fd57e891fd2845ee65e0c3b9636ce21a79f1d9b479bdb5be7",
+    "bddcb15e796bdc94671e5dbbc198dfc1b6a08a5d159bf450c89e08620418b31f"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -577,17 +578,10 @@
     "https://www.ghafla.co.ke/kra-issues-agency-notice-to-recover-ksh-623-million-tax-debt-from-mike-sonko/",
     "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackouts-in-juja-kilifi-nairobi-and-machakos/",
     "https://www.ghafla.co.ke/alai-claims-winnie-odingas-senate-bid-targets-babu-owinos-nairobi-governor-ambitions/",
-    "https://www.ghafla.co.ke/kenya-reports-4-new-ebola-cases-total-rises-to-7-as-health-ministry-intensifies-response/"
+    "https://www.ghafla.co.ke/kenya-reports-4-new-ebola-cases-total-rises-to-7-as-health-ministry-intensifies-response/",
+    "https://www.ghafla.co.ke/raila-junior-backs-jalango-for-nairobi-senate-seat-against-sister-winnie/"
   ],
   "published_angles": [
-    {
-      "title": "Tom Gitogo Challenges Kenyans to Stop Merely Consuming Foreign Tech and Buy the Equity",
-      "angle": "Framing Tom Gitogo's strategic critique of Africans existing merely as digital consumers for foreign platforms, positioning Britam's global funds as an ownership vehicle for everyday wealth builders targeting Silicon Valley AI and life sciences.",
-      "angle_type": "executive philosophy and wealth ownership transition",
-      "opening": "Personality lead opening directly on Tom Gitogo challenging the consumer reality of African digital users.",
-      "structure": "Executive philosophy hook -> Product mechanics and offshore tech sectors -> Barack Obatsa's asset diversification breakdown -> Macro industry surge and Britam valuation close",
-      "source": "https://www.ghafla.co.ke/britam-opens-global-investment-opportunities-to-kenyan-investors/"
-    },
     {
       "title": "Georgina Njenga Shuts Down 9-to-5 Job Offers and Resists Three-Month Stay as Eric Omondi Visits Recovery Center",
       "angle": "Georgina defining strict personal boundaries over her rehabilitation process: pushing back against a recommended three-month facility stay down to a single month, while flatly dismissing Omondi's 8-to-5 corporate job offer in favor of independent entrepreneurship.",
@@ -1379,6 +1373,14 @@
       "opening": "Personality lead opening directly on Dr. Patrick Amoth managing national public health anxiety with an explicit green light for open public gatherings and commerce.",
       "structure": "Personality lead and public life assurance -> Specific clinical tally and infected medical personnel details -> Contact-tracing metrics and containment timeline -> Low community risk threshold and continuity of events.",
       "source": "https://www.ghafla.co.ke/kenya-reports-4-new-ebola-cases-total-rises-to-7-as-health-ministry-intensifies-response/"
+    },
+    {
+      "title": "Raila Junior Breaks Ranks with Sister Winnie, Backs Jalang\u2019o for Nairobi Senate",
+      "angle": "Framing the clash through Junior's twin political play: openly backing media personality-turned-MP Jalang\u2019o against his sister Winnie while weaponizing the demand for competitive party primaries to announce his own ground-up run for the Kibra seat.",
+      "angle_type": "celebrity political alignment and dynasty primary challenge",
+      "opening": "Personality lead opening directly on Raila Junior stepping onto the platform beside Jalang\u2019o to dismantle assumptions of an uncontested family coronation in Nairobi.",
+      "structure": "Personality hook and sibling clash -> The Friday endorsement details with Jalang'o and Passaris -> Primary ticket rebellion and anti-direct nomination stance -> Winnie's anniversary declaration context -> Junior's personal pivot to Kibra.",
+      "source": "https://www.ghafla.co.ke/raila-junior-backs-jalango-for-nairobi-senate-seat-against-sister-winnie/"
     }
   ],
   "style_history": [
