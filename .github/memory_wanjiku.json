@@ -290,7 +290,8 @@
     "92a718e098b7873fd57e891fd2845ee65e0c3b9636ce21a79f1d9b479bdb5be7",
     "bddcb15e796bdc94671e5dbbc198dfc1b6a08a5d159bf450c89e08620418b31f",
     "e6671fd8c868f753ba57f5da7df2284d67ffda2c7b2904309a4d0aba747f503f",
-    "76d65c43ff422332694ae42103f3b382dc28e213ebcaf746b4f95c95526b23fa"
+    "76d65c43ff422332694ae42103f3b382dc28e213ebcaf746b4f95c95526b23fa",
+    "11bb0cc93ab373183afc4e66245cb283032ffb5853b23d029750c998d82d6910"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -583,17 +584,10 @@
     "https://www.ghafla.co.ke/kenya-reports-4-new-ebola-cases-total-rises-to-7-as-health-ministry-intensifies-response/",
     "https://www.ghafla.co.ke/raila-junior-backs-jalango-for-nairobi-senate-seat-against-sister-winnie/",
     "https://www.ghafla.co.ke/ruto-dismisses-opposition-ahead-of-2027-urging-rivals-to-present-real-policies-over-political-rhetoric/",
-    "https://www.ghafla.co.ke/ruto-vows-to-build-trans-nzoia-hospital-despite-differences-with-natembeya/"
+    "https://www.ghafla.co.ke/ruto-vows-to-build-trans-nzoia-hospital-despite-differences-with-natembeya/",
+    "https://www.ghafla.co.ke/interior-ps-dr-raymond-omollo-rallies-support-for-president-rutos-re-election-citing-inclusive-development/"
   ],
   "published_angles": [
-    {
-      "title": "Kalekye Mumo Rejects \u2018Willpower\u2019 Myth, Credits Clinical Metabolic Protocol for Transformation",
-      "angle": "Focusing on Kalekye's explicit rejection of the raw willpower myth in favor of a doctor-led metabolic team (nutritionists, sports scientists, physicians), framing the photoshoot as the result of clinical science.",
-      "angle_type": "clinical lifestyle protocol and celebrity self-perception",
-      "opening": "Personality lead starting directly on Kalekye's reaction to her reflection during the photoshoot before detailing the underlying medical strategy.",
-      "structure": "Reflection lead -> Medical team breakdown -> Wardrobe and psychological shift -> Direct quotes on self-perception -> Clinical close",
-      "source": "https://www.ghafla.co.ke/kalekye-mumo-shows-off-stunning-weight-loss-transformation-in-new-photoshoot/"
-    },
     {
       "title": "Bahati Trades Multi-Gift Spectacle for KSh 1M-a-Seat Decennial Gala with Diana Marua",
       "angle": "Bahati discarding his signature public tradition of buying Diana ten individual luxury gifts to instead monetize and package their decennial milestone into an exclusive, KSh 100 million closed-door ballroom affair.",
@@ -1385,6 +1379,14 @@
       "opening": "Personality lead opening directly on Ruto's public dismissal of George Natembeya's standoff over the Trans Nzoia hospital project.",
       "structure": "Personality hook -> The direct verbal brush-off -> The Western and Rift Valley medical project footprint -> Broader 10-county construction slate and the 2027 horizon -> Ground-level access stakes",
       "source": "https://www.ghafla.co.ke/ruto-vows-to-build-trans-nzoia-hospital-despite-differences-with-natembeya/"
+    },
+    {
+      "title": "Mic in Hand: Interior PS Raymond Omollo Drops Civil Service Reserve to Lead Ruto\u2019s 2027 Re-election Chorus",
+      "angle": "Framing Omollo's public foray as a deliberate departure from the traditionally detached, behind-the-scenes posture of Harambee House's security brass, turning the spotlight onto a top bureaucrat actively playing campaign hype man in opposition territory and triggering scrutiny over public officers crossing into partisan politics.",
+      "angle_type": "political personality crossover and boundary friction",
+      "opening": "Personality lead opening directly on Dr. Raymond Omollo shedding the guarded reserve of the security docket to openly drum up campaign support for William Ruto's second term.",
+      "structure": "Personality hook and docket contrast -> The explicit reelection endorsement and development pitch -> The high-stakes Nyanza bridgehead operation -> The civil service neutrality fault line and opposing arguments -> Ground stakes heading into the campaign season",
+      "source": "https://www.ghafla.co.ke/interior-ps-dr-raymond-omollo-rallies-support-for-president-rutos-re-election-citing-inclusive-development/"
     }
   ],
   "style_history": [
