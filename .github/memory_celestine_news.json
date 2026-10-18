@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "fa78d60b4db0b3020178ffded59b5ce6",
     "8b5272859d2e2554254e0513672b98e0",
     "9dd3879b4c9d0b9c42ac86e70c47f45e",
     "c355a59e9ba718b26c3e0ee745cc25a2",
@@ -799,10 +798,10 @@
     "4d0a76b1502ab17327c2dcdaafafe2cf",
     "cc6d5f563fb22ffa68f7d44067dfd851",
     "a87eb75996d71d4f79d8a30a6e30dbf8",
-    "e223aa7ba9c6c9b152c67407dd4c5cb6"
+    "e223aa7ba9c6c9b152c67407dd4c5cb6",
+    "777b849717c13b68b383e26c1ec1f316"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1379,7 +1379,8 @@
     "https://kenyans.co.ke/news/127932-kagure-supporters-threaten-back-sakaja-over-unfair-opposition-nominations",
     "https://kenyans.co.ke/news/127933-cocowa-gives-epra-14-days-revoke-fuel-price-hikes-or-face-legal-action",
     "https://kenyans.co.ke/news/127934-kura-explains-why-roadworks-parklands-junction-stalled-months",
-    "https://kenyans.co.ke/news/127938-knec-outlines-rules-candidates-sitting-2026-kcse-exams"
+    "https://kenyans.co.ke/news/127938-knec-outlines-rules-candidates-sitting-2026-kcse-exams",
+    "https://kenyans.co.ke/news/127915-who-explains-when-country-can-be-declared-ebola-free"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1849,7 +1850,8 @@
     "opposition ticket feud hands sakaja surprise buffer nairobi governor contest",
     "state buffer freeze sparks commuter legal threat 50pc fare shock",
     "kura blames kenha utility delays stalled parklands junction upgrades",
-    "knec enforces minute desk lock wristwatch ban 2026 kcse"
+    "knec enforces minute desk lock wristwatch ban 2026 kcse",
+    "ebola exit clock cannot start ticking yet"
   ],
   "topic_keys": [
     "news tracker",
@@ -5350,6 +5352,15 @@
       "structure": "Operational security lead -> Timetable and latecomer threshold -> Script-formatting and stationery rules -> Hardware prohibitions and approved calculator subjects -> Session exit and custody controls",
       "source": "https://kenyans.co.ke/news/127938-knec-outlines-rules-candidates-sitting-2026-kcse-exams",
       "published_at": "2026-10-18T17:02:08Z"
+    },
+    {
+      "title": "Why Kenya\u2019s Ebola Exit Clock Cannot Start Ticking Yet",
+      "angle": "The strict operational timeline and structural hurdle Kenya faces: the statutory 42-day epidemiological countdown clock cannot even start until the final patient tests negative twice or receives a safe burial, while three untraced contacts and an 18-month surveillance tail mean containment efforts will extend well into 2027.",
+      "angle_type": "timing",
+      "opening": "Timeline-barrier lead establishing that Kenya's journey to an outbreak-free declaration is locked behind strict clinical milestones that have not yet begun.",
+      "structure": "Countdown mechanics lead -> Clinical exit conditions and PCR testing triggers -> Kenya's current containment bottleneck (untraced contacts and hospital caseload) -> Long-tail surveillance mandates (6-month watch and 18-month survivor protocol) -> Regional precedent and guarded messaging close.",
+      "source": "https://kenyans.co.ke/news/127915-who-explains-when-country-can-be-declared-ebola-free",
+      "published_at": "2026-10-18T17:55:02Z"
     }
   ]
 }
