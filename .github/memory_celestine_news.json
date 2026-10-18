@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "1143ac549954c861a1c3a959a0d4f107",
     "fe732e1d3afb70f774916b22ea459c3d",
     "6fef569739047c6873c98123b27062b1",
     "4d6139008740ea6b39e1bdef66a1a328",
@@ -799,10 +798,10 @@
     "ee7f1d993f7aff36737f404adefa4a10",
     "5e3c55d02ebb4ffbac3e3c75a970f6a6",
     "2e65aefb1eda2ef097c931191421fadf",
-    "8aef44eef82357ff34aa610451ccff11"
+    "8aef44eef82357ff34aa610451ccff11",
+    "31789aac0cf37286ae91543626ea1435"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1373,7 +1373,8 @@
     "https://kenyans.co.ke/news/127923-uda-announces-october-dates-ward-level-grassroots-election",
     "https://kenyans.co.ke/news/127922-scores-injured-after-60-seater-bus-accident-sachangwan",
     "https://kenyans.co.ke/news/127926-tanzania-introduces-mandatory-ebola-screening-21-day-monitoring-high-risk-travelers",
-    "https://kenyans.co.ke/news/127927-kalonzo-warns-ruto-against-arresting-natembeya-demands-clarity-accident-remarks"
+    "https://kenyans.co.ke/news/127927-kalonzo-warns-ruto-against-arresting-natembeya-demands-clarity-accident-remarks",
+    "https://kenyans.co.ke/news/127928-knh-launches-probe-after-patients-viral-video-raises-questions-over-treatment"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1837,7 +1838,8 @@
     "uda imposes hour dispute window ward polls roll across counties",
     "nakuru referral admits midnight bus crash migaa black spot",
     "tanzania mounts day digital surveillance ring along border crossings",
-    "kitale market standoff escalates state withdraws natembeya security ahead threatened arrest"
+    "kitale market standoff escalates state withdraws natembeya security ahead threatened arrest",
+    "knh inquiry exposes out pocket cash trap under ecitizen sha transition"
   ],
   "topic_keys": [
     "news tracker",
@@ -5284,6 +5286,15 @@
       "structure": "Institutional clash lead -> The Kitale market flashpoint and street violence -> Security withdrawals and the Inspector General -> Kalonzo's legal intervention and Iten remarks probe -> Impending legal and political contest",
       "source": "https://kenyans.co.ke/news/127927-kalonzo-warns-ruto-against-arresting-natembeya-demands-clarity-accident-remarks",
       "published_at": "2026-10-18T09:01:51Z"
+    },
+    {
+      "title": "KNH Inquiry Exposes Out-of-Pocket Cash Trap Under eCitizen and SHA Transition",
+      "angle": "Examining the administrative and out-of-pocket cash friction inside the national referral facility\u2014where statutory transitions to eCitizen billing and Social Health Authority approvals leave admitted patients absorbing steep, unverified diagnostic charges.",
+      "angle_type": "accountability",
+      "opening": "Billing-friction lead establishing how a multi-week admission escalated into steep out-of-pocket cash demands and missing diagnostic files.",
+      "structure": "Financial friction lead -> Anatomy of disputed charges and diagnostic lapses -> Systemic billing breakdown (eCitizen and SHA denial) -> Institutional defense and KNH probe terms -> Unresolved administrative questions",
+      "source": "https://kenyans.co.ke/news/127928-knh-launches-probe-after-patients-viral-video-raises-questions-over-treatment",
+      "published_at": "2026-10-18T10:02:04Z"
     }
   ]
 }
