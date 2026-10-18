@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "6fef569739047c6873c98123b27062b1",
     "4d6139008740ea6b39e1bdef66a1a328",
     "cd239ba2fa3d918360d9eef023840505",
     "47a8c2fd309556cadd9c4bf6c445ff6c",
@@ -799,10 +798,10 @@
     "2e65aefb1eda2ef097c931191421fadf",
     "8aef44eef82357ff34aa610451ccff11",
     "31789aac0cf37286ae91543626ea1435",
-    "ab5db489b2ff9604dd09a75796a6ea58"
+    "ab5db489b2ff9604dd09a75796a6ea58",
+    "4d0a76b1502ab17327c2dcdaafafe2cf"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1375,7 +1375,8 @@
     "https://kenyans.co.ke/news/127926-tanzania-introduces-mandatory-ebola-screening-21-day-monitoring-high-risk-travelers",
     "https://kenyans.co.ke/news/127927-kalonzo-warns-ruto-against-arresting-natembeya-demands-clarity-accident-remarks",
     "https://kenyans.co.ke/news/127928-knh-launches-probe-after-patients-viral-video-raises-questions-over-treatment",
-    "https://kenyans.co.ke/news/127929-explained-why-telecom-masts-and-booster-towers-are-painted-red-and-white"
+    "https://kenyans.co.ke/news/127929-explained-why-telecom-masts-and-booster-towers-are-painted-red-and-white",
+    "https://kenyans.co.ke/news/127932-kagure-supporters-threaten-back-sakaja-over-unfair-opposition-nominations"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1841,7 +1842,8 @@
     "tanzania mounts day digital surveillance ring along border crossings",
     "kitale market standoff escalates state withdraws natembeya security ahead threatened arrest",
     "knh inquiry exposes out pocket cash trap under ecitizen sha transition",
-    "aviation mandates dictate dual tone markings metre telecom towers protect low flying aircraft"
+    "aviation mandates dictate dual tone markings metre telecom towers protect low flying aircraft",
+    "opposition ticket feud hands sakaja surprise buffer nairobi governor contest"
   ],
   "topic_keys": [
     "news tracker",
@@ -5306,6 +5308,15 @@
       "structure": "Statement and beneficiary lead -> Statutory 45-metre threshold under ICAO Annex 14 -> Optical mechanics of alternating bands and depth perception -> Low-visibility protocols and top-mounted obstruction lighting -> Standard color variants under international compliance.",
       "source": "https://kenyans.co.ke/news/127929-explained-why-telecom-masts-and-booster-towers-are-painted-red-and-white",
       "published_at": "2026-10-18T11:02:24Z"
+    },
+    {
+      "title": "Opposition Ticket Feud Hands Sakaja Surprise Buffer in Nairobi Governor Contest",
+      "angle": "The operational vulnerability facing the united opposition coalition: backroom maneuvering over direct tickets and county reallocation risks fracturing the anti-incumbent coalition in the capital, creating a ready defection pipeline that strengthens Sakaja.",
+      "angle_type": "consequence",
+      "opening": "Consequence-first declaration establishing that the opposition's capital seat calculations risk supplying Johnson Sakaja with defecting grassroots support before official campaigns begin.",
+      "structure": "Electoral leverage lead -> Sunday gathering and defection terms -> The crowded Nairobi field and party machinery -> Zoning contradictions inside opposition coalition -> The unresolved Nyeri relocation question",
+      "source": "https://kenyans.co.ke/news/127932-kagure-supporters-threaten-back-sakaja-over-unfair-opposition-nominations",
+      "published_at": "2026-10-18T12:02:01Z"
     }
   ]
 }
