@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "fe732e1d3afb70f774916b22ea459c3d",
     "6fef569739047c6873c98123b27062b1",
     "4d6139008740ea6b39e1bdef66a1a328",
     "cd239ba2fa3d918360d9eef023840505",
@@ -799,10 +798,10 @@
     "5e3c55d02ebb4ffbac3e3c75a970f6a6",
     "2e65aefb1eda2ef097c931191421fadf",
     "8aef44eef82357ff34aa610451ccff11",
-    "31789aac0cf37286ae91543626ea1435"
+    "31789aac0cf37286ae91543626ea1435",
+    "ab5db489b2ff9604dd09a75796a6ea58"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1374,7 +1374,8 @@
     "https://kenyans.co.ke/news/127922-scores-injured-after-60-seater-bus-accident-sachangwan",
     "https://kenyans.co.ke/news/127926-tanzania-introduces-mandatory-ebola-screening-21-day-monitoring-high-risk-travelers",
     "https://kenyans.co.ke/news/127927-kalonzo-warns-ruto-against-arresting-natembeya-demands-clarity-accident-remarks",
-    "https://kenyans.co.ke/news/127928-knh-launches-probe-after-patients-viral-video-raises-questions-over-treatment"
+    "https://kenyans.co.ke/news/127928-knh-launches-probe-after-patients-viral-video-raises-questions-over-treatment",
+    "https://kenyans.co.ke/news/127929-explained-why-telecom-masts-and-booster-towers-are-painted-red-and-white"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1839,7 +1840,8 @@
     "nakuru referral admits midnight bus crash migaa black spot",
     "tanzania mounts day digital surveillance ring along border crossings",
     "kitale market standoff escalates state withdraws natembeya security ahead threatened arrest",
-    "knh inquiry exposes out pocket cash trap under ecitizen sha transition"
+    "knh inquiry exposes out pocket cash trap under ecitizen sha transition",
+    "aviation mandates dictate dual tone markings metre telecom towers protect low flying aircraft"
   ],
   "topic_keys": [
     "news tracker",
@@ -5295,6 +5297,15 @@
       "structure": "Financial friction lead -> Anatomy of disputed charges and diagnostic lapses -> Systemic billing breakdown (eCitizen and SHA denial) -> Institutional defense and KNH probe terms -> Unresolved administrative questions",
       "source": "https://kenyans.co.ke/news/127928-knh-launches-probe-after-patients-viral-video-raises-questions-over-treatment",
       "published_at": "2026-10-18T10:02:04Z"
+    },
+    {
+      "title": "Aviation Mandates Dictate Dual-Tone Markings on 45-Metre Telecom Towers to Protect Low-Flying Aircraft",
+      "angle": "Reframing the paint scheme through statutory airspace compliance and visual navigation physics\u2014examining how international standards enforce alternating contrast and illumination thresholds on structures exceeding 45 metres to insulate low-altitude flight paths.",
+      "angle_type": "practical change",
+      "opening": "Attribution first, then who benefits: opening with civil aviation safety standards mandating specific structural markings to safeguard pilots and low-flying aircraft.",
+      "structure": "Statement and beneficiary lead -> Statutory 45-metre threshold under ICAO Annex 14 -> Optical mechanics of alternating bands and depth perception -> Low-visibility protocols and top-mounted obstruction lighting -> Standard color variants under international compliance.",
+      "source": "https://kenyans.co.ke/news/127929-explained-why-telecom-masts-and-booster-towers-are-painted-red-and-white",
+      "published_at": "2026-10-18T11:02:24Z"
     }
   ]
 }
