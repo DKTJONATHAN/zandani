@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "064ec04fd45bb90244dfe4ccf4a12309",
     "1181d5931b272969f6d7531a5b5e1274",
     "1143ac549954c861a1c3a959a0d4f107",
     "fe732e1d3afb70f774916b22ea459c3d",
@@ -799,10 +798,10 @@
     "e10159f028f78da486e70eeca69dd78e",
     "30ea798064ae04a464c9b2068abbda6c",
     "ee7f1d993f7aff36737f404adefa4a10",
-    "5e3c55d02ebb4ffbac3e3c75a970f6a6"
+    "5e3c55d02ebb4ffbac3e3c75a970f6a6",
+    "2e65aefb1eda2ef097c931191421fadf"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1371,7 +1371,8 @@
     "https://kenyans.co.ke/news/127918-kenya-confirms-four-new-ebola-cases-total-rises-seven",
     "https://kenyans.co.ke/news/127920-fire-breaks-out-nairobi-national-park-near-southern-bypass",
     "https://kenyans.co.ke/news/127923-uda-announces-october-dates-ward-level-grassroots-election",
-    "https://kenyans.co.ke/news/127922-scores-injured-after-60-seater-bus-accident-sachangwan"
+    "https://kenyans.co.ke/news/127922-scores-injured-after-60-seater-bus-accident-sachangwan",
+    "https://kenyans.co.ke/news/127926-tanzania-introduces-mandatory-ebola-screening-21-day-monitoring-high-risk-travelers"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1833,7 +1834,8 @@
     "state tracing firewall holds four quarantined ebola contacts test positive",
     "nairobi national park fire prompts containment scramble along southern bypass logistics strip",
     "uda imposes hour dispute window ward polls roll across counties",
-    "nakuru referral admits midnight bus crash migaa black spot"
+    "nakuru referral admits midnight bus crash migaa black spot",
+    "tanzania mounts day digital surveillance ring along border crossings"
   ],
   "topic_keys": [
     "news tracker",
@@ -5262,6 +5264,15 @@
       "structure": "Attribution and casualty intake lead -> Rescue coordination and transit dynamics -> Corridor hazard history and commercial freight factors -> Unresolved collision cause and broader weekend highway toll",
       "source": "https://kenyans.co.ke/news/127922-scores-injured-after-60-seater-bus-accident-sachangwan",
       "published_at": "2026-10-18T05:33:22Z"
+    },
+    {
+      "title": "Tanzania Mounts 21-Day Digital Surveillance Ring Along Kenya Border Crossings",
+      "angle": "The practical operationalization of digital surveillance along the shared overland transport arteries (Namanga, Isebania, Lunga Lunga), where 21-day automated tracking and vehicle disinfection protocols intersect with Kenya's push to keep trade corridors fully operational without internal or border curfews.",
+      "angle_type": "practical change",
+      "opening": "Border-mechanics lead tracing the activation of digital check-ins and surveillance corridors along the shared southern frontier.",
+      "structure": "Border post mechanics -> Tanzanian surveillance regime details -> Kenya outbreak caseload and response -> Bilateral divergence on movement protocols -> Regional and international alert ripple",
+      "source": "https://kenyans.co.ke/news/127926-tanzania-introduces-mandatory-ebola-screening-21-day-monitoring-high-risk-travelers",
+      "published_at": "2026-10-18T08:02:07Z"
     }
   ]
 }
