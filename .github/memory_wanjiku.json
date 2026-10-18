@@ -285,7 +285,8 @@
     "f18eb28c5881ea799f57109c170d10051da62de8a02259af1f8b8f422e0272b2",
     "9730a97eefb832c7df59268922d1760962fb3e31e1ab17036fa812b519f07c80",
     "7577ba5b3959d8be7ad9feb6397a6a26e8648229b999c2fd2d1a7902d881b593",
-    "52701d66b6dabf29157541373218132acd111f50afef19c071ebb6aa707cee58"
+    "52701d66b6dabf29157541373218132acd111f50afef19c071ebb6aa707cee58",
+    "0aa8eaaafafc75c708b545e58118e84f12ef32724f73a409c3a844360fc5ab15"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -573,17 +574,10 @@
     "https://www.ghafla.co.ke/matatu-fares-rise-by-up-to-50-per-cent-despite-10-per-cent-hike-directive/",
     "https://www.ghafla.co.ke/mbadi-says-luo-support-for-ruto-cannot-be-transferred-to-raila-odingas-family/",
     "https://www.ghafla.co.ke/kra-issues-agency-notice-to-recover-ksh-623-million-tax-debt-from-mike-sonko/",
-    "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackouts-in-juja-kilifi-nairobi-and-machakos/"
+    "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackouts-in-juja-kilifi-nairobi-and-machakos/",
+    "https://www.ghafla.co.ke/alai-claims-winnie-odingas-senate-bid-targets-babu-owinos-nairobi-governor-ambitions/"
   ],
   "published_angles": [
-    {
-      "title": "Jaoko Oburu Confronts Maverick Aoko Over False Death Post as Family Activates ODM Legal Team",
-      "angle": "Focusing on the immediate, direct digital confrontation between Jaoko Oburu and Maverick Aoko, and how the family quickly transitioned from online clapbacks to mobilizing ODM's official legal machinery to enforce boundaries against digital rumor-mongers.",
-      "angle_type": "legal escalation and digital boundary enforcement",
-      "opening": "Personality-led focus on Jaoko Oburu directly stepping in to challenge Maverick Aoko on X over her reckless post, shifting the family's response from passive silence to active confrontation.",
-      "structure": "Direct digital confrontation -> Detailed breakdown of the X exchange and Aoko's defiance -> Official escalation via the secretariat's statement -> Political backing and health verification by Gladys Wanga -> Unresolved close on the impending legal action.",
-      "source": "https://www.ghafla.co.ke/jaoko-oburu-confronts-maverick-aoko-over-false-death-report-on-father/"
-    },
     {
       "title": "Celeste Saulo Sounds the Alarm as 3.7\u00b0C El Ni\u00f1o Spike Threatens to Shatter Historical Records",
       "angle": "Focusing squarely on WMO Secretary-General Celeste Saulo putting her personal authority behind a staggering statistical baseline: a projected 3.7\u00b0C Pacific temperature surge that shatters the 2015\u20132016 record and locks in extreme climate conditions through February 2027.",
@@ -1375,6 +1369,14 @@
       "opening": "Personality and lifestyle lead opening directly on Kenya Power cutting the supply to high-security VIP installations and coastal luxury enclaves.",
       "structure": "VIP and luxury leisure hook -> Coastal resort belt shutdown -> Nairobi security and social circuits -> Kiambu and Machakos weekend corridors -> Western recreational and institutional nodes -> Factual utility operational window close",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackouts-in-juja-kilifi-nairobi-and-machakos/"
+    },
+    {
+      "title": "Alai's Nairobi Chessboard: Why Winnie Odinga\u2019s Senate Rumour Spells Trouble for Babu Owino, Not Jalang\u2019o",
+      "angle": "Examining the specific political divergence Alai creates between Jalang'o and Babu Owino, detailing why Alai claims Jalang'o remains safe while Babu's gubernatorial path is singled out for neutralization by the Sifuna-aligned faction.",
+      "angle_type": "celebrity political friction and strategic rivalry",
+      "opening": "Personality lead opening directly on Robert Alai drawing a sharp line between the political fates of Jalang'o and Babu Owino amidst Winnie Odinga's rumoured Senate run.",
+      "structure": "Personality lead -> The Jalang'o vs. Babu political calculus -> Factional alignment under Sifuna's Linda Mwananchi banner -> Unverified claims vs. 2027 Nairobi lineup realities -> Grounded closing on upcoming alignments.",
+      "source": "https://www.ghafla.co.ke/alai-claims-winnie-odingas-senate-bid-targets-babu-owinos-nairobi-governor-ambitions/"
     }
   ],
   "style_history": [
