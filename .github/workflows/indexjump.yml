@@ -1,6 +1,11 @@
 name: IndexJump SEO
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "content/posts/*.md"
+      - "scripts/generate-seo.js"
   schedule:
     - cron: "0 6 * * *"
   workflow_dispatch:
@@ -8,27 +13,133 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: indexjump-seo
+  cancel-in-progress: false
+
 jobs:
   indexjump:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v5
+      - name: Check out repository history
+        uses: actions/checkout@v5
         with:
-          fetch-depth: 1
+          fetch-depth: 0
 
-      - name: Ping IndexJump / sitemap
+      - name: Prepare article URLs
+        id: urls
+        shell: bash
+        run: |
+          python - <<'PY'
+          import os, re, subprocess, xml.etree.ElementTree as ET
+          from pathlib import Path
+          from urllib.request import urlopen
+
+          site = "https://zandani.co.ke"
+          event = os.environ.get("GITHUB_EVENT_NAME", "")
+          urls = []
+
+          def post_url(file):
+              text = Path(file).read_text(encoding="utf-8")
+              match = re.search(r"^slug:\s*[\"']?([^\"'\r\n]+)", text, re.M)
+              slug = (match.group(1).strip() if match else Path(file).stem)
+              if not re.fullmatch(r"[a-z0-9-]+", slug):
+                  raise SystemExit(f"Invalid or unsafe article slug in {file}: {slug}")
+              return f"{site}/article/{slug}"
+
+          if event == "push":
+              before = os.environ.get("BEFORE_SHA", "")
+              after = os.environ.get("GITHUB_SHA", "")
+              if before and set(before) != {"0"}:
+                  changed = subprocess.check_output(
+                      ["git", "diff", "--name-only", before, after, "--", "content/posts/*.md"],
+                      text=True
+                  ).splitlines()
+                  files = [f for f in changed if f.endswith(".md") and Path(f).is_file()]
+                  urls = [post_url(f) for f in files]
+              else:
+                  event = "recent"
+          
+          if event != "push":
+              try:
+                  with urlopen(site + "/sitemap-articles.xml", timeout=20) as response:
+                      root = ET.fromstring(response.read())
+                  ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+                  items = []
+                  for node in root.findall("sm:url", ns):
+                      loc = node.findtext("sm:loc", default="", namespaces=ns)
+                      lastmod = node.findtext("sm:lastmod", default="", namespaces=ns)
+                      if loc.startswith(site + "/article/"):
+                          items.append((lastmod, loc))
+                  items.sort(reverse=True)
+                  limit = 20
+                  urls = [url for _, url in items[:limit]]
+              except Exception as exc:
+                  raise SystemExit(f"Could not read article sitemap: {exc}")
+
+          urls = list(dict.fromkeys(urls))
+          if not urls:
+              print("No eligible article URLs found; nothing to submit.")
+              with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+                  out.write("has_urls=false\n")
+              raise SystemExit(0)
+
+          if len(urls) > 50:
+              urls = urls[:50]
+          with open("indexjump-urls.json", "w", encoding="utf-8") as out:
+              import json
+              json.dump({"urls": urls}, out)
+          with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+              out.write("has_urls=true\n")
+              out.write(f"count={len(urls)}\n")
+          print(f"Prepared {len(urls)} article URL(s) for IndexJump.")
+          PY
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          GITHUB_SHA: ${{ github.sha }}
+
+      - name: Submit article URLs and validate IndexJump response
+        if: steps.urls.outputs.has_urls == 'true'
         env:
           INDEXJUMP_API_KEY: ${{ secrets.INDEXJUMP_API_KEY }}
+        shell: bash
         run: |
+          set -euo pipefail
           if [ -z "${INDEXJUMP_API_KEY:-}" ]; then
-            echo "No INDEXJUMP_API_KEY — skip"
-            exit 0
+            echo "::error::Repository secret INDEXJUMP_API_KEY is missing. Add it in Settings > Secrets and variables > Actions."
+            exit 1
           fi
-          if [ -f scripts/indexjump.py ]; then
-            python scripts/indexjump.py || true
-          else
-            curl -sS -X POST "https://api.indexjump.com/v1/submit" \
-              -H "Authorization: Bearer ${INDEXJUMP_API_KEY}" \
-              -H "Content-Type: application/json" \
-              -d '{"url":"https://zandani.co.ke/sitemap.xml"}' || true
+
+          response_file="$(mktemp)"
+          status="$(curl --silent --show-error --output "$response_file" --write-out "%{http_code}" \
+            --request POST "https://api.indexjump.com/index/bulk?token=${INDEXJUMP_API_KEY}" \
+            --header "Content-Type: application/json" \
+            --data-binary @indexjump-urls.json)"
+
+          echo "IndexJump HTTP status: $status"
+          if [[ ! "$status" =~ ^2[0-9][0-9]$ ]]; then
+            echo "::error::IndexJump returned HTTP $status."
+            cat "$response_file"
+            exit 1
           fi
+
+          python - "$response_file" <<'PY'
+          import json, sys
+          try:
+              data = json.load(open(sys.argv[1], encoding="utf-8"))
+          except Exception as exc:
+              raise SystemExit(f"IndexJump returned invalid JSON: {exc}")
+          if data.get("err") is not None:
+              raise SystemExit(f"IndexJump rejected the request: {data.get('err')}")
+          result = data.get("res")
+          if not isinstance(result, dict) or result.get("success") is not True:
+              raise SystemExit("IndexJump response did not confirm success.")
+          accepted = result.get("urls")
+          if isinstance(accepted, list):
+              print(f"IndexJump confirmed success for {len(accepted)} URL(s).")
+          else:
+              print("IndexJump confirmed successful submission.")
+          PY
+
+          echo "Submission completed. This confirms IndexJump accepted the request, not that Google has indexed the pages."
