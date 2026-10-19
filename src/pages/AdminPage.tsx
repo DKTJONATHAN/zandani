@@ -27,7 +27,7 @@ function catColor(_cat: string): string {
 function proxyImg(url: string, w = 300): string {
   if (!url) return "/images/placeholder.jpg";
   if (url.endsWith(".svg") || url.startsWith("/")) return url;
-  return `https://wsrv.nl/?url=${encodeURIComponent(url.replace(/^https?:\/\//, ""))}&w=${w}&output=webp&q=75&we`;
+  return url;
 }
 
 function timeAgo(dateStr: string): string {
