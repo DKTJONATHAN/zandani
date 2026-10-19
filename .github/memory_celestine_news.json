@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "c9288eb0a5b8b012b47a136a19d85fe8",
     "101fa07ec7da83ee2a6edd61694b2340",
     "e2caece32330cb182c424255f8d6e514",
     "d4f2f48b7f6a82838406521dbdabe35b",
@@ -799,10 +798,10 @@
     "e5c2a03727cdd6f522c545603c5e3475",
     "645d7aa6dbe45f8ce9e356e64f7a3d67",
     "8d9718e749eb5192f358bc67f263e890",
-    "a2c6706b46413dcc980d224d5a1917f0"
+    "a2c6706b46413dcc980d224d5a1917f0",
+    "57b9e4650f11decb340a9e6e9a8dee0d"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1393,7 +1393,8 @@
     "https://kenyans.co.ke/news/127950-nairobi-rivers-commission-opens-nairobi-dam-spillway-el-nino-preparedness-efforts",
     "https://kenyans.co.ke/news/127952-kenha-announces-temporary-closure-southern-bypass-ahead-nairobi-marathon",
     "https://kenyans.co.ke/news/127951-kenya-railways-reveals-details-ksh30-billion-nairobi-railway-city-project",
-    "https://kenyans.co.ke/news/127955-paul-mackenzie-28-co-accused-found-guilty-all-191-murder-counts"
+    "https://kenyans.co.ke/news/127955-paul-mackenzie-28-co-accused-found-guilty-all-191-murder-counts",
+    "https://kenyans.co.ke/news/127954-public-health-students-threaten-nationwide-protests-over-90-day-health-workers-strike"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1877,7 +1878,8 @@
     "nairobi dam spillway opens shifting flood pressure downstream estates",
     "kenha shuts southern bypass hours city traffic diverts central arteries",
     "housing takes lion share railways details ksh30b nairobi city plan",
-    "international legal benchmarks shape landmark shakahola murder convictions"
+    "international legal benchmarks shape landmark shakahola murder convictions",
+    "students issue hour ultimatum day public health strike"
   ],
   "topic_keys": [
     "news tracker",
@@ -5504,6 +5506,15 @@
       "structure": "Legal standard lead -> Verified conviction metrics -> Forensics and cult mechanics -> Upcoming sentencing timeline.",
       "source": "https://kenyans.co.ke/news/127955-paul-mackenzie-28-co-accused-found-guilty-all-191-murder-counts",
       "published_at": "2026-10-19T17:02:01Z"
+    },
+    {
+      "title": "Students Issue 48-Hour Ultimatum Over 90-Day Public Health Strike",
+      "angle": "Framing the confrontation through the lens of frontline biosecurity and workforce neglect\u2014highlighting how 4,200 officers guarding a 50-million-person population against threats like Ebola are trapped on precarious short-term contracts and Ksh2,000 risk allowances, prompting university trainees to enter the dispute.",
+      "angle_type": "institutional pressure",
+      "opening": "Attribution-first statement opening identifying student and union representatives, immediately followed by the frontline workforce and public population whose health security hangs in the balance.",
+      "structure": "Attribution and beneficiary lead -> Verified 48-hour ultimatum and mobilization timetable -> The frontline arithmetic (4,200 officers vs 50 million citizens) and Ebola surveillance risk -> Contractual inequities (UHC contracts and Ksh2,000 risk stipends) -> Executive pledges versus parliamentary oversight vacuum.",
+      "source": "https://kenyans.co.ke/news/127954-public-health-students-threaten-nationwide-protests-over-90-day-health-workers-strike",
+      "published_at": "2026-10-19T18:02:09Z"
     }
   ]
 }
