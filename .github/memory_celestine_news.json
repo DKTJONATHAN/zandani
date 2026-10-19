@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "697b1c3f88f7397ba02a957d503f9f64",
     "8379220209d2b78638f8735933a5b505",
     "09190b26d83f14ce2f6669209e41e983",
     "9233fa60dfc5145e6a209ff721dbab96",
@@ -799,10 +798,10 @@
     "71e42db98315a2c4026fe612fa159c61",
     "c76f3463c32e73072268d39c6c01ed6f",
     "9f2d58510135aca0f5ad1ade5cf64185",
-    "be206dca1bc288d7fab024f4b5d48c72"
+    "be206dca1bc288d7fab024f4b5d48c72",
+    "c071c160abbd104a92610643f97a1c13"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1385,7 +1385,8 @@
     "https://kenyans.co.ke/news/127941-ruto-css-make-fresh-appointments-state-agencies-universities",
     "https://kenyans.co.ke/news/127942-matatu-owners-address-strike-over-fuel-price-increase",
     "https://kenyans.co.ke/news/127943-cotu-defends-nssf-demands-evidence-mps-over-bribery-claims",
-    "https://kenyans.co.ke/news/127944-ruto-approves-ksh71-billion-counties-after-signing-additional-allocations-county"
+    "https://kenyans.co.ke/news/127944-ruto-approves-ksh71-billion-counties-after-signing-additional-allocations-county",
+    "https://kenyans.co.ke/news/127945-govt-begins-civil-servants-headcount-amid-ksh62-billion-payroll-fraud"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1861,7 +1862,8 @@
     "state reshuffle elevates marwa clean push wanjiru exits",
     "matatu sector abandons strike threat passes fuel shock straight commuters",
     "cotu challenges mps table dossier alleged nssf pension bribes",
-    "donor debt anchors ksh71b county lifeline ruto enacts assembly safeguards"
+    "donor debt anchors ksh71b county lifeline ruto enacts assembly safeguards",
+    "state enforces zero exemption headcount jogoo house ksh6 payroll leak"
   ],
   "topic_keys": [
     "news tracker",
@@ -5416,6 +5418,15 @@
       "structure": "Financial composition lead -> Exchequer versus donor debt breakdown -> Statutory framework for conditional transfers -> Administrative firewalls protecting assembly clerks -> Committee timelines and procedural safeguards",
       "source": "https://kenyans.co.ke/news/127944-ruto-approves-ksh71-billion-counties-after-signing-additional-allocations-county",
       "published_at": "2026-10-19T08:01:54Z"
+    },
+    {
+      "title": "State Enforces Zero-Exemption Headcount at Jogoo House Over Ksh6.2B Payroll Leak",
+      "angle": "The operational enforcement terms of the Jogoo House screening\u2014specifically the zero-exception ultimatum requiring hospitalised and on-leave staff to physically queue or lose their pay\u2014revealing how executive urgency to stem multi-billion-shilling payroll theft has shifted from desktop audits to aggressive physical muster checks.",
+      "angle_type": "consequence",
+      "opening": "Strict operational-consequence lead establishing that public servants on approved leave or hospital admission must physically present themselves at ministerial headquarters this week or forfeit their pay.",
+      "structure": "Enforcement ultimatum lead -> Jogoo House muster drill logistics and document requirements -> Audit findings of Ksh6.2 billion across 12 state departments -> Criminal dragnet and suspension of 84 HR managers -> Next verification windows and pending DCI caseload",
+      "source": "https://kenyans.co.ke/news/127945-govt-begins-civil-servants-headcount-amid-ksh62-billion-payroll-fraud",
+      "published_at": "2026-10-19T09:01:40Z"
     }
   ]
 }
