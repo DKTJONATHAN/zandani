@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "8b5272859d2e2554254e0513672b98e0",
     "9dd3879b4c9d0b9c42ac86e70c47f45e",
     "c355a59e9ba718b26c3e0ee745cc25a2",
     "97cdb0d9f839fca185daf90cc066cf48",
@@ -799,10 +798,10 @@
     "cc6d5f563fb22ffa68f7d44067dfd851",
     "a87eb75996d71d4f79d8a30a6e30dbf8",
     "e223aa7ba9c6c9b152c67407dd4c5cb6",
-    "777b849717c13b68b383e26c1ec1f316"
+    "777b849717c13b68b383e26c1ec1f316",
+    "795f8e4e8462f3046c213b6bc0a10bb4"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Desk Take",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1380,7 +1380,8 @@
     "https://kenyans.co.ke/news/127933-cocowa-gives-epra-14-days-revoke-fuel-price-hikes-or-face-legal-action",
     "https://kenyans.co.ke/news/127934-kura-explains-why-roadworks-parklands-junction-stalled-months",
     "https://kenyans.co.ke/news/127938-knec-outlines-rules-candidates-sitting-2026-kcse-exams",
-    "https://kenyans.co.ke/news/127915-who-explains-when-country-can-be-declared-ebola-free"
+    "https://kenyans.co.ke/news/127915-who-explains-when-country-can-be-declared-ebola-free",
+    "https://kenyans.co.ke/news/127937-ruto-calls-inclusion-public-members-hospital-boards-monitor-spending"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1851,7 +1852,8 @@
     "state buffer freeze sparks commuter legal threat 50pc fare shock",
     "kura blames kenha utility delays stalled parklands junction upgrades",
     "knec enforces minute desk lock wristwatch ban 2026 kcse",
-    "ebola exit clock cannot start ticking yet"
+    "ebola exit clock cannot start ticking yet",
+    "ruto orders citizen seats hospital boards stem sha cash diversion"
   ],
   "topic_keys": [
     "news tracker",
@@ -5361,6 +5363,15 @@
       "structure": "Countdown mechanics lead -> Clinical exit conditions and PCR testing triggers -> Kenya's current containment bottleneck (untraced contacts and hospital caseload) -> Long-tail surveillance mandates (6-month watch and 18-month survivor protocol) -> Regional precedent and guarded messaging close.",
       "source": "https://kenyans.co.ke/news/127915-who-explains-when-country-can-be-declared-ebola-free",
       "published_at": "2026-10-18T17:55:02Z"
+    },
+    {
+      "title": "Ruto Orders Citizen Seats on Hospital Boards to Stem SHA Cash Diversion",
+      "angle": "The direct-disbursement mechanism under SHA has exposed primary healthcare facilities to capital-spending diversions, prompting the presidency to borrow the Basic Education Act's BOM community governance template to police facility-level medicine budgets.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first statement establishing the executive directive, followed immediately by the patients positioned to benefit from protected medicine allocations.",
+      "structure": "Attribution and beneficiary lead -> Verified financial diversion issue under SHA direct funding -> Executive BOM school model parallel -> Statutory devolution and autonomy context (Nairobi Health Act 2026) -> Operational compliance edge",
+      "source": "https://kenyans.co.ke/news/127937-ruto-calls-inclusion-public-members-hospital-boards-monitor-spending",
+      "published_at": "2026-10-19T05:01:51Z"
     }
   ]
 }
