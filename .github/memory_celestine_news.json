@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "c7ea9620cfddb518e1dab645af32f09a",
     "3a75d1cc1846ffc77d3c72bf9c4a08b8",
     "c9288eb0a5b8b012b47a136a19d85fe8",
     "101fa07ec7da83ee2a6edd61694b2340",
@@ -799,10 +798,10 @@
     "37c9c9b8f0db005e8336bb8be64819a7",
     "a5685418c69ec835c3da0b8fc0076788",
     "e5c2a03727cdd6f522c545603c5e3475",
-    "645d7aa6dbe45f8ce9e356e64f7a3d67"
+    "645d7aa6dbe45f8ce9e356e64f7a3d67",
+    "8d9718e749eb5192f358bc67f263e890"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1391,7 +1391,8 @@
     "https://kenyans.co.ke/news/127947-nlc-issues-notices-land-acquisition-machakos-elgeyo-marakwet-and-west-pokot",
     "https://kenyans.co.ke/news/127949-police-ntsa-launch-nationwide-road-safety-crackdown-ahead-school-holidays",
     "https://kenyans.co.ke/news/127950-nairobi-rivers-commission-opens-nairobi-dam-spillway-el-nino-preparedness-efforts",
-    "https://kenyans.co.ke/news/127952-kenha-announces-temporary-closure-southern-bypass-ahead-nairobi-marathon"
+    "https://kenyans.co.ke/news/127952-kenha-announces-temporary-closure-southern-bypass-ahead-nairobi-marathon",
+    "https://kenyans.co.ke/news/127951-kenya-railways-reveals-details-ksh30-billion-nairobi-railway-city-project"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1873,7 +1874,8 @@
     "nlc sets tough paperwork test kerio valley land payouts",
     "speed thresholds 6pm bus ban anchor nationwide school holiday crackdown",
     "nairobi dam spillway opens shifting flood pressure downstream estates",
-    "kenha shuts southern bypass hours city traffic diverts central arteries"
+    "kenha shuts southern bypass hours city traffic diverts central arteries",
+    "housing takes lion share railways details ksh30b nairobi city plan"
   ],
   "topic_keys": [
     "news tracker",
@@ -5482,6 +5484,15 @@
       "structure": "Attribution and beneficiary lead -> Statutory closure timeline and geographic corridor -> Specific alternative route mapping by transit origin -> Local access exceptions around Ole Sereni -> Police and marshal enforcement mandate.",
       "source": "https://kenyans.co.ke/news/127952-kenha-announces-temporary-closure-southern-bypass-ahead-nairobi-marathon",
       "published_at": "2026-10-19T14:02:02Z"
+    },
+    {
+      "title": "Housing Takes Lion's Share as Kenya Railways Details Ksh30B Nairobi City Plan",
+      "angle": "Examining how land allocation priorities skew toward affordable housing over commercial and transit components, and how foreign public-private financing shapes downtown spatial planning.",
+      "angle_type": "money",
+      "opening": "Acreage-allocation lead highlighting the land-use breakdown before detailing the funding and project zones.",
+      "structure": "Land footprint lead -> Acreage breakdown for housing and commercial zones -> Multi-modal transit and MICE precinct mechanics -> Public-private financing structure -> Forward operational outlook.",
+      "source": "https://kenyans.co.ke/news/127951-kenya-railways-reveals-details-ksh30-billion-nairobi-railway-city-project",
+      "published_at": "2026-10-19T15:02:09Z"
     }
   ]
 }
