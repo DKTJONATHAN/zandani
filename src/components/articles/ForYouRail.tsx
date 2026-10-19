@@ -8,7 +8,7 @@ import { timeAgo } from "@/lib/utils";
 function img(url: string, w = 400): string {
   if (!url) return "/images/placeholder.jpg";
   if (url.endsWith(".svg") || url.startsWith("/")) return url;
-  return `https://wsrv.nl/?url=${encodeURIComponent(url.replace(/^https?:\/\//, ""))}&w=${w}&output=webp&q=75&we`;
+  return url;
 }
 
 function postTime(p: PostMetadata): number {
