@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "09190b26d83f14ce2f6669209e41e983",
     "9233fa60dfc5145e6a209ff721dbab96",
     "444c3d6599668ac7091174870690205d",
     "a1548ce2e3a4a094eb052584a0f923aa",
@@ -799,10 +798,10 @@
     "9f2d58510135aca0f5ad1ade5cf64185",
     "be206dca1bc288d7fab024f4b5d48c72",
     "c071c160abbd104a92610643f97a1c13",
-    "1812116924009040d06f2b6235e62ee8"
+    "1812116924009040d06f2b6235e62ee8",
+    "37c9c9b8f0db005e8336bb8be64819a7"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1387,7 +1387,8 @@
     "https://kenyans.co.ke/news/127943-cotu-defends-nssf-demands-evidence-mps-over-bribery-claims",
     "https://kenyans.co.ke/news/127944-ruto-approves-ksh71-billion-counties-after-signing-additional-allocations-county",
     "https://kenyans.co.ke/news/127945-govt-begins-civil-servants-headcount-amid-ksh62-billion-payroll-fraud",
-    "https://kenyans.co.ke/news/127946-kwale-governor-fatuma-achani-loses-dad"
+    "https://kenyans.co.ke/news/127946-kwale-governor-fatuma-achani-loses-dad",
+    "https://kenyans.co.ke/news/127947-nlc-issues-notices-land-acquisition-machakos-elgeyo-marakwet-and-west-pokot"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1865,7 +1866,8 @@
     "cotu challenges mps table dossier alleged nssf pension bribes",
     "donor debt anchors ksh71b county lifeline ruto enacts assembly safeguards",
     "state enforces zero exemption headcount jogoo house ksh6 payroll leak",
-    "state house mvurya extend condolences achani ahead father bodo burial"
+    "state house mvurya extend condolences achani ahead father bodo burial",
+    "nlc sets tough paperwork test kerio valley land payouts"
   ],
   "topic_keys": [
     "news tracker",
@@ -5438,6 +5440,15 @@
       "structure": "Formal statement lead -> Verified circumstances of dawn passing and burial timetable -> Executive and ministerial condolences -> Health background and regional context.",
       "source": "https://kenyans.co.ke/news/127946-kwale-governor-fatuma-achani-loses-dad",
       "published_at": "2026-10-19T10:01:57Z"
+    },
+    {
+      "title": "NLC Sets Tough Paperwork Test for Kerio Valley Land Payouts",
+      "angle": "The administrative and documentation hurdle facing pastoralist communities along the 124km Kerio Valley corridor, where the NLC is demanding individual tax, banking, and ownership papers across six formally designated unregistered communal zones.",
+      "angle_type": "practical change",
+      "opening": "Compliance-threshold lead highlighting the friction between formal statutory documentation rules and unregistered communal tenure in the North Rift.",
+      "structure": "Administrative barrier lead -> Road corridor layout and communal zoning -> Strict claimant paperwork requirements -> The contrasting Machakos cooperative acquisition -> AWWDA utility backdrop and impending hearing calendar.",
+      "source": "https://kenyans.co.ke/news/127947-nlc-issues-notices-land-acquisition-machakos-elgeyo-marakwet-and-west-pokot",
+      "published_at": "2026-10-19T11:02:01Z"
     }
   ]
 }
