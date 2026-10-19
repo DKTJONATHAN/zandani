@@ -297,7 +297,8 @@
     "1065aa27cd1965a5fcd288620a0b2d17081cd15a4e420eeafc7d7b71832b0660",
     "38c87c57356134df2736f814bf182ffa6a23e7c5531f55581a6955ab6023c3f5",
     "3330d77039540edd2d92770dcb359a6ad42a3840187b54795588569d95529caa",
-    "9a97090c0e1d37d8d34e55ec4e608838afbb8e52bd4002e6d534a8a051ae9a7e"
+    "9a97090c0e1d37d8d34e55ec4e608838afbb8e52bd4002e6d534a8a051ae9a7e",
+    "24bd91b79c5a1bbfa01bfd9c81fa8477cb5d6844355ebce79c58a478ea68068f"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -597,17 +598,10 @@
     "https://www.ghafla.co.ke/edwin-sifuna-brushes-criticism-about-his-age-declares-he-will-be-first-term-senator-to-become-president/",
     "https://www.ghafla.co.ke/court-hears-harrowing-details-as-judge-reads-1000-page-judgment-in-paul-mackenzies-191-count-murder-trial/",
     "https://www.ghafla.co.ke/jaymo-ule-msee-explains-how-sifunas-presidential-ambitions-inspired-his-2027-nairobi-senate-bid/",
-    "https://www.ghafla.co.ke/pastor-victor-kanyari-explains-why-he-paid-ksh-1-million-for-bahati-and-dianas-wedding/"
+    "https://www.ghafla.co.ke/pastor-victor-kanyari-explains-why-he-paid-ksh-1-million-for-bahati-and-dianas-wedding/",
+    "https://www.ghafla.co.ke/king-kalala-announces-birth-of-her-first-born-child/"
   ],
   "published_angles": [
-    {
-      "title": "Ramadhan Mwabudzo Orders Immediate Kisumu Structural Audits After Obote Road Warehouse Collapse Triggers Looting Scramble",
-      "angle": "Focusing on Ramadhan Mwabudzo taking immediate administrative control and targeting property owners with mandatory structural audits after the Obote Road warehouse collapse exposed vulnerable commercial infrastructure and invited looting.",
-      "angle_type": "administrative accountability and structural enforcement",
-      "opening": "Personality lead focusing on Ramadhan Mwabudzo stepping in to enforce building checks immediately after the storm damage.",
-      "structure": "Mwabudzo administrative lead -> Obote Road warehouse collapse and looting scene -> Physical scope of the 30-minute storm -> Structural audit directive details -> KMSA advisory and city drainage response close",
-      "source": "https://www.ghafla.co.ke/30-minutes-of-havoc-as-intense-storm-causes-destruction-in-kisumu-amid-el-nino-news/"
-    },
     {
       "title": "Geoffrey Mosiria Pledges Public Platform to Fight Slum Child Neglect, Warning Nairobi Predators of Legal Reckoning",
       "angle": "Focusing on Geoffrey Mosiria leveraging his high-profile public office and personal platform as a direct shield for vulnerable children, framing child safety as a legal and communal boundary rather than just a dry policy issue.",
@@ -1399,6 +1393,14 @@
       "opening": "Personality lead opening directly on Victor Kanyari balancing his public about-turn with the nostalgic debt owed to his early studio days with Bahati.",
       "structure": "Personality hook -> The office lobbying session and vintage 'Mama' history -> The Ksh 1 million strict wedding guest constraints -> The preacher's unapologetic stance on changing his mind.",
       "source": "https://www.ghafla.co.ke/pastor-victor-kanyari-explains-why-he-paid-ksh-1-million-for-bahati-and-dianas-wedding/"
+    },
+    {
+      "title": "\u2018Hata Simba Hupatikana\u2019: King Kalala Draws Tight Circle Around Newborn in Quiet Motherhood Arrival",
+      "angle": "The deliberate protective wall Kalala built around her domestic circle\u2014announcing motherhood while strictly withholding the infant's name, gender, and partner's identity, completing a transition she humorously foretold with 'hata simba hupatikana'.",
+      "angle_type": "celebrity persona evolution and boundary setting",
+      "opening": "Open directly on King Kalala's brief social media proclamation and the firm boundary line she drew around her newborn's identity.",
+      "structure": "Personality lead with the caption reveal -> The privacy boundary (withholding name, gender, partner) -> The July 2026 pregnancy backstory and the 'hata simba hupatikana' persona check -> Entertainment industry response -> Unapologetic career footing intact.",
+      "source": "https://www.ghafla.co.ke/king-kalala-announces-birth-of-her-first-born-child/"
     }
   ],
   "style_history": [
