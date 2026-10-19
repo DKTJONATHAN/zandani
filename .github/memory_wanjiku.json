@@ -291,7 +291,8 @@
     "bddcb15e796bdc94671e5dbbc198dfc1b6a08a5d159bf450c89e08620418b31f",
     "e6671fd8c868f753ba57f5da7df2284d67ffda2c7b2904309a4d0aba747f503f",
     "76d65c43ff422332694ae42103f3b382dc28e213ebcaf746b4f95c95526b23fa",
-    "11bb0cc93ab373183afc4e66245cb283032ffb5853b23d029750c998d82d6910"
+    "11bb0cc93ab373183afc4e66245cb283032ffb5853b23d029750c998d82d6910",
+    "5fd3b99340c98445ac79aa02d1d23941d6c5442ac13ebcddff1a69e566d876e1"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -585,17 +586,10 @@
     "https://www.ghafla.co.ke/raila-junior-backs-jalango-for-nairobi-senate-seat-against-sister-winnie/",
     "https://www.ghafla.co.ke/ruto-dismisses-opposition-ahead-of-2027-urging-rivals-to-present-real-policies-over-political-rhetoric/",
     "https://www.ghafla.co.ke/ruto-vows-to-build-trans-nzoia-hospital-despite-differences-with-natembeya/",
-    "https://www.ghafla.co.ke/interior-ps-dr-raymond-omollo-rallies-support-for-president-rutos-re-election-citing-inclusive-development/"
+    "https://www.ghafla.co.ke/interior-ps-dr-raymond-omollo-rallies-support-for-president-rutos-re-election-citing-inclusive-development/",
+    "https://www.ghafla.co.ke/mombasa-court-set-to-deliver-verdict-in-paul-mackenzies-191-count-murder-trial-over-shakahola-starvation-cult/"
   ],
   "published_angles": [
-    {
-      "title": "Bahati Trades Multi-Gift Spectacle for KSh 1M-a-Seat Decennial Gala with Diana Marua",
-      "angle": "Bahati discarding his signature public tradition of buying Diana ten individual luxury gifts to instead monetize and package their decennial milestone into an exclusive, KSh 100 million closed-door ballroom affair.",
-      "angle_type": "celebrity luxury economy and brand ritual pivot",
-      "opening": "Personality lead opening directly on Bahati abandoning his signature gift-giving format in favor of a KSh 1 million-a-seat decennial gala.",
-      "structure": "Personality and pivot lead -> Mechanics of the lakeside dock reveal and 'The Invite' -> The economics of the 100-guest room -> Exchange between Bahati and Diana -> Context of their shifting anniversary playbook",
-      "source": "https://www.ghafla.co.ke/ksh-1m-per-seat-bahati-diana-marua-announce-exclusive-10-year-anniversary-celebration/"
-    },
     {
       "title": "Pastor Victor Kanyari Brands Himself the \u2018Ndindi Nyoro of Kasarani\u2019 as 2027 MP Bid Clashes With Stevo Simple Boy",
       "angle": "Framing Kanyari's parliamentary rollout around his calculated political branding as an urban 'Ndindi Nyoro', contrasting his high-profile celebrity pulpit past with grassroots municipal pledges and an impending pop-culture electoral collision against Stevo Simple Boy.",
@@ -1387,6 +1381,14 @@
       "opening": "Personality lead opening directly on Dr. Raymond Omollo shedding the guarded reserve of the security docket to openly drum up campaign support for William Ruto's second term.",
       "structure": "Personality hook and docket contrast -> The explicit reelection endorsement and development pitch -> The high-stakes Nyanza bridgehead operation -> The civil service neutrality fault line and opposing arguments -> Ground stakes heading into the campaign season",
       "source": "https://www.ghafla.co.ke/interior-ps-dr-raymond-omollo-rallies-support-for-president-rutos-re-election-citing-inclusive-development/"
+    },
+    {
+      "title": "Paul Mackenzie's Moment of Reckoning: Inside the 191-Count Shakahola Murder Verdict",
+      "angle": "Focusing squarely on Mackenzie's dockside posture\u2014his stubborn defense of total innocence set against the state's 121-witness breakdown of his insular compound machinery\u2014as he confronts the first major judgment in a wider web of nationwide prosecutions.",
+      "angle_type": "personality accountability and trial reckoning",
+      "opening": "Personality lead opening directly on Paul Mackenzie facing Lady Justice Diana Kavedza-Mochache's bench for the final judgment on 191 murder counts.",
+      "structure": "Personality dock hook -> Defense stance versus state's 121-witness dossier -> The compound's internal operating apparatus -> Competing forensic realities -> The sprawling multi-court docket ahead",
+      "source": "https://www.ghafla.co.ke/mombasa-court-set-to-deliver-verdict-in-paul-mackenzies-191-count-murder-trial-over-shakahola-starvation-cult/"
     }
   ],
   "style_history": [
