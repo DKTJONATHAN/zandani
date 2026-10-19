@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "9233fa60dfc5145e6a209ff721dbab96",
     "444c3d6599668ac7091174870690205d",
     "a1548ce2e3a4a094eb052584a0f923aa",
     "c7ea9620cfddb518e1dab645af32f09a",
@@ -799,10 +798,10 @@
     "be206dca1bc288d7fab024f4b5d48c72",
     "c071c160abbd104a92610643f97a1c13",
     "1812116924009040d06f2b6235e62ee8",
-    "37c9c9b8f0db005e8336bb8be64819a7"
+    "37c9c9b8f0db005e8336bb8be64819a7",
+    "a5685418c69ec835c3da0b8fc0076788"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1388,7 +1388,8 @@
     "https://kenyans.co.ke/news/127944-ruto-approves-ksh71-billion-counties-after-signing-additional-allocations-county",
     "https://kenyans.co.ke/news/127945-govt-begins-civil-servants-headcount-amid-ksh62-billion-payroll-fraud",
     "https://kenyans.co.ke/news/127946-kwale-governor-fatuma-achani-loses-dad",
-    "https://kenyans.co.ke/news/127947-nlc-issues-notices-land-acquisition-machakos-elgeyo-marakwet-and-west-pokot"
+    "https://kenyans.co.ke/news/127947-nlc-issues-notices-land-acquisition-machakos-elgeyo-marakwet-and-west-pokot",
+    "https://kenyans.co.ke/news/127949-police-ntsa-launch-nationwide-road-safety-crackdown-ahead-school-holidays"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1867,7 +1868,8 @@
     "donor debt anchors ksh71b county lifeline ruto enacts assembly safeguards",
     "state enforces zero exemption headcount jogoo house ksh6 payroll leak",
     "state house mvurya extend condolences achani ahead father bodo burial",
-    "nlc sets tough paperwork test kerio valley land payouts"
+    "nlc sets tough paperwork test kerio valley land payouts",
+    "speed thresholds 6pm bus ban anchor nationwide school holiday crackdown"
   ],
   "topic_keys": [
     "news tracker",
@@ -5449,6 +5451,15 @@
       "structure": "Administrative barrier lead -> Road corridor layout and communal zoning -> Strict claimant paperwork requirements -> The contrasting Machakos cooperative acquisition -> AWWDA utility backdrop and impending hearing calendar.",
       "source": "https://kenyans.co.ke/news/127947-nlc-issues-notices-land-acquisition-machakos-elgeyo-marakwet-and-west-pokot",
       "published_at": "2026-10-19T11:02:01Z"
+    },
+    {
+      "title": "Speed Thresholds and 6pm Bus Ban Anchor Nationwide School Holiday Crackdown",
+      "angle": "Examining the severe casualty physics and vehicle operating limits confronting holiday transport\u2014specifically how safety authorities are moving against unregulated student transit culture after empirical crash assessments showed child mortality risk spikes eightfold between 30 km/h and 50 km/h.",
+      "angle_type": "consequence",
+      "opening": "Casualty-threshold lead contrasting safety agency crash metrics with the surging passenger traffic of closing schools.",
+      "structure": "Risk-metric lead -> Joint inter-agency directive and deployment -> Mechanical checklist and curfew restrictions -> Urban transit risk and the Kayole traffic-calming template -> Immediate compliance horizon.",
+      "source": "https://kenyans.co.ke/news/127949-police-ntsa-launch-nationwide-road-safety-crackdown-ahead-school-holidays",
+      "published_at": "2026-10-19T12:02:06Z"
     }
   ]
 }
