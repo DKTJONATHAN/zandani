@@ -1,8 +1,8 @@
 ---
 title: "Why Edwin Sifuna’s National Ambitions Handed Jaymo Ule Msee a 2027 Nairobi Senate Ticket Blueprint"
 slug: "why-edwin-sifuna-s-national-ambitions-handed-jaymo-ule-msee-a-2027-nairobi-senate-ticket-b"
-description: "When content creator Wilson Muirani Gathoni—better known as Jaymo Ule Msee—began plotting his transition to elective politics, he did not look to a blank."
-excerpt: "When content creator Wilson Muirani Gathoni—better known as Jaymo Ule Msee—began plotting his transition to elective politics, he did not look to a blank."
+description: "Jaymo Ule Msee says Edwin Sifuna’s national ambitions inspired his 2027 Nairobi Senate bid, as the UDA nomination race attracts high-profile contenders."
+excerpt: "Jaymo Ule Msee says Edwin Sifuna’s national ambitions inspired his 2027 Nairobi Senate bid, as the UDA nomination race attracts high-profile contenders."
 date: 2026-10-19T15:47:01Z
 dateModified: 2026-10-19T15:47:01Z
 author: "Wanjiku Kuria"
@@ -20,7 +20,7 @@ schema: "NewsArticle"
 
 When content creator Wilson Muirani Gathoni—better known as Jaymo Ule Msee—began plotting his transition to elective politics, he did not look to a blank policy slate. Instead, he watched the desk of Nairobi Senator Edwin Sifuna.
 
-Publicly ing the genesis of his campaign on Monday, October 19, 2026, Jaymo revealed that his decision to enter the 2027 Nairobi senatorial contest took root in late 2025. The core motivation, according to the creator-turned-politician, was an apparent vacuum left by an incumbent he accused of chasing national political horizons rather than tending to county obligations.
+Publicly outlining the genesis of his campaign on Monday, October 19, 2026, Jaymo revealed that his decision to enter the 2027 Nairobi senatorial contest took root in late 2025. The core motivation, according to the creator-turned-politician, was an apparent vacuum left by an incumbent he accused of chasing national political horizons rather than tending to county obligations.
 
 “The journey for the Nairobi senatorial bid started late last year when it also became apparent that our senator was more focused with ‘national ambitions’ at the expense of our city senatorial obligations & responsibilities,” Jaymo stated online.
 
