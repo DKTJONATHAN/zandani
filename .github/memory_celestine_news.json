@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a1548ce2e3a4a094eb052584a0f923aa",
     "c7ea9620cfddb518e1dab645af32f09a",
     "3a75d1cc1846ffc77d3c72bf9c4a08b8",
     "c9288eb0a5b8b012b47a136a19d85fe8",
@@ -799,10 +798,10 @@
     "1812116924009040d06f2b6235e62ee8",
     "37c9c9b8f0db005e8336bb8be64819a7",
     "a5685418c69ec835c3da0b8fc0076788",
-    "e5c2a03727cdd6f522c545603c5e3475"
+    "e5c2a03727cdd6f522c545603c5e3475",
+    "645d7aa6dbe45f8ce9e356e64f7a3d67"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1390,7 +1390,8 @@
     "https://kenyans.co.ke/news/127946-kwale-governor-fatuma-achani-loses-dad",
     "https://kenyans.co.ke/news/127947-nlc-issues-notices-land-acquisition-machakos-elgeyo-marakwet-and-west-pokot",
     "https://kenyans.co.ke/news/127949-police-ntsa-launch-nationwide-road-safety-crackdown-ahead-school-holidays",
-    "https://kenyans.co.ke/news/127950-nairobi-rivers-commission-opens-nairobi-dam-spillway-el-nino-preparedness-efforts"
+    "https://kenyans.co.ke/news/127950-nairobi-rivers-commission-opens-nairobi-dam-spillway-el-nino-preparedness-efforts",
+    "https://kenyans.co.ke/news/127952-kenha-announces-temporary-closure-southern-bypass-ahead-nairobi-marathon"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1871,7 +1872,8 @@
     "state house mvurya extend condolences achani ahead father bodo burial",
     "nlc sets tough paperwork test kerio valley land payouts",
     "speed thresholds 6pm bus ban anchor nationwide school holiday crackdown",
-    "nairobi dam spillway opens shifting flood pressure downstream estates"
+    "nairobi dam spillway opens shifting flood pressure downstream estates",
+    "kenha shuts southern bypass hours city traffic diverts central arteries"
   ],
   "topic_keys": [
     "news tracker",
@@ -5471,6 +5473,15 @@
       "structure": "Immediate consequence lead -> Spillway operational status and multi-agency rollout -> Reservoir mechanics and embankment protection -> Downstream exposure map along Ngong River basin -> Weather timeline and looming November rainfall thresholds.",
       "source": "https://kenyans.co.ke/news/127950-nairobi-rivers-commission-opens-nairobi-dam-spillway-el-nino-preparedness-efforts",
       "published_at": "2026-10-19T12:35:12Z"
+    },
+    {
+      "title": "KeNHA Shuts Southern Bypass for 14 Hours as City Traffic Diverts to Central Arteries",
+      "angle": "The practical operational rerouting that shifts cross-city transit and freight back onto Nairobi's central arteries (Uhuru Highway, Waiyaki Way, and Lang'ata Road) during a strict 14-hour window, requiring multi-agency policing to prevent gridlock.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first statement establishing KeNHA's directive, immediately identifying the marathon participants who secure the road corridor and the motorists forced onto secondary diversion routes.",
+      "structure": "Attribution and beneficiary lead -> Statutory closure timeline and geographic corridor -> Specific alternative route mapping by transit origin -> Local access exceptions around Ole Sereni -> Police and marshal enforcement mandate.",
+      "source": "https://kenyans.co.ke/news/127952-kenha-announces-temporary-closure-southern-bypass-ahead-nairobi-marathon",
+      "published_at": "2026-10-19T14:02:02Z"
     }
   ]
 }
