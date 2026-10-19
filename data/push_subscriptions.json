@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T07:07:16.712Z",
+  "updated": "2026-10-19T21:10:24.324Z",
   "subscriptions": [
     {
       "endpoint": "https://fcm.googleapis.com/fcm/send/eL0pGFjuPx4:APA91bGVVIzzrHsRAuCqNJmm2aGnLOPvZPS8aIlOBOd_xcTTVtgsX9vwYXfwljc-K680dMTi0GRHx4JqmAw1y3zqbmzxAytq3Gf2qbrnsEYWRtfj-HTyYZXA_5ZtoxIUemUklnP89Vbl",
@@ -30,6 +30,16 @@
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
       "updatedAt": "2026-10-15T07:07:16.344Z",
       "createdAt": "2026-10-15T07:07:16.712Z"
+    },
+    {
+      "endpoint": "https://fcm.googleapis.com/fcm/send/eGJdinevwGI:APA91bEyIZLRizYglThtfMB57Pi2p07Vy2bsnuO0mDMkCU4F-e-GP2C83IIk7-s-RXj2oJJsU8k0E9273W_NWsx6qImq3FHWJtUjJJ0XTaf-adBYulXoKpoOac5rkmmLmmcSM-PbXVHf",
+      "keys": {
+        "p256dh": "BGfBg4IKKwZcsxxnjnHiNu7lkujxlsRbhC_A7qweB3AxC0e8XT9ipcuAPdpZiflttRYEPeATojzUnG9VfofpB2k",
+        "auth": "RQ428Ir-o-WnF7dMA9Kf2A"
+      },
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Mobile Safari/537.36",
+      "updatedAt": "2026-10-19T21:10:23.430Z",
+      "createdAt": "2026-10-19T21:10:24.324Z"
     }
   ]
 }
