@@ -298,7 +298,8 @@
     "38c87c57356134df2736f814bf182ffa6a23e7c5531f55581a6955ab6023c3f5",
     "3330d77039540edd2d92770dcb359a6ad42a3840187b54795588569d95529caa",
     "9a97090c0e1d37d8d34e55ec4e608838afbb8e52bd4002e6d534a8a051ae9a7e",
-    "24bd91b79c5a1bbfa01bfd9c81fa8477cb5d6844355ebce79c58a478ea68068f"
+    "24bd91b79c5a1bbfa01bfd9c81fa8477cb5d6844355ebce79c58a478ea68068f",
+    "db94ac12f107d632d72f0f657c6ebed85baaffe1edd9a57b19f83016177b127d"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -599,17 +600,10 @@
     "https://www.ghafla.co.ke/court-hears-harrowing-details-as-judge-reads-1000-page-judgment-in-paul-mackenzies-191-count-murder-trial/",
     "https://www.ghafla.co.ke/jaymo-ule-msee-explains-how-sifunas-presidential-ambitions-inspired-his-2027-nairobi-senate-bid/",
     "https://www.ghafla.co.ke/pastor-victor-kanyari-explains-why-he-paid-ksh-1-million-for-bahati-and-dianas-wedding/",
-    "https://www.ghafla.co.ke/king-kalala-announces-birth-of-her-first-born-child/"
+    "https://www.ghafla.co.ke/king-kalala-announces-birth-of-her-first-born-child/",
+    "https://www.ghafla.co.ke/kenya-confirms-8th-ebola-case-as-health-ministry-assures-readiness-and-frontline-protection/"
   ],
   "published_angles": [
-    {
-      "title": "Geoffrey Mosiria Pledges Public Platform to Fight Slum Child Neglect, Warning Nairobi Predators of Legal Reckoning",
-      "angle": "Focusing on Geoffrey Mosiria leveraging his high-profile public office and personal platform as a direct shield for vulnerable children, framing child safety as a legal and communal boundary rather than just a dry policy issue.",
-      "angle_type": "personality-driven public advocacy and legal warning",
-      "opening": "Personality lead focusing directly on Geoffrey Mosiria turning his prominent Nairobi administrative platform into a vocal defense campaign for neglected minors.",
-      "structure": "Advocacy lead -> The silent suffering warning -> Platform pledge and threat to predators -> Collective neighborhood vigilance close",
-      "source": "https://www.ghafla.co.ke/do-not-abandon-your-children-geoffrey-mosiria-issues-emotional-appeal-to-parents-in-informal-settlements/"
-    },
     {
       "title": "State Activates Evacuation Centers as Kenya Met Warns of Heavy Storms Across 30 Counties",
       "angle": "The immediate operational escalation by national emergency teams\u2014shifting from seasonal short-rains optimism to active evacuation readiness and localized storm alerts across over 30 counties under a strengthening El Ni\u00f1o pattern.",
@@ -1401,6 +1395,14 @@
       "opening": "Open directly on King Kalala's brief social media proclamation and the firm boundary line she drew around her newborn's identity.",
       "structure": "Personality lead with the caption reveal -> The privacy boundary (withholding name, gender, partner) -> The July 2026 pregnancy backstory and the 'hata simba hupatikana' persona check -> Entertainment industry response -> Unapologetic career footing intact.",
       "source": "https://www.ghafla.co.ke/king-kalala-announces-birth-of-her-first-born-child/"
+    },
+    {
+      "title": "Dr. Patrick Amoth Takes to TV Screens to Reassure KMPDU as Ebola Hits Hospital Staff",
+      "angle": "Framing the broadcast through Dr. Patrick Amoth's high-visibility media intervention, directly addressing labor friction and safety jitters from KMPDU after hospital staff bore the brunt of new transmissions.",
+      "angle_type": "public figure authority and labor accountability",
+      "opening": "Personality lead focusing directly on Dr. Patrick Amoth commanding the screen to parry union unease over PPE supplies following an attendant's positive test.",
+      "structure": "Personality hook and television broadcast confrontation -> The 49-year-old attendant diagnosis and the testing cohort -> KMPDU union pushback and the PPE inventory guarantee -> Contact tracing data and clinical surveillance context.",
+      "source": "https://www.ghafla.co.ke/kenya-confirms-8th-ebola-case-as-health-ministry-assures-readiness-and-frontline-protection/"
     }
   ],
   "style_history": [
