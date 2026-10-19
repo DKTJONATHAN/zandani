@@ -14,7 +14,7 @@ const LOAD_MORE = 12;
 function proxyImg(url: string, w = 600): string {
   if (!url) return "/images/placeholder.jpg";
   if (url.endsWith(".svg") || url.startsWith("/")) return url;
-  return `https://wsrv.nl/?url=${encodeURIComponent(url.replace(/^https?:\/\//, ""))}&w=${w}&output=webp&q=80&we`;
+  return url;
 }
 
 function timeAgo(dateStr: string): string {

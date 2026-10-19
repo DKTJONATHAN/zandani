@@ -23,7 +23,7 @@ export const PLACEHOLDER_IMG = "/images/default-og.svg";
 export function proxyImg(url: string, w = 800): string {
   if (!url) return PLACEHOLDER_IMG;
   if (url.endsWith(".svg") || url.startsWith("/")) return url;
-  return `https://wsrv.nl/?url=${encodeURIComponent(url.replace(/^https?:\/\//, ""))}&w=${w}&output=webp&q=80&we`;
+  return url;
 }
 
 /** Strip keyword-stuff prefixes from excerpts / meta for display. */

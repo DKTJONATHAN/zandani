@@ -12,7 +12,7 @@ interface ArticleCardProps {
 function getOptimizedImageUrl(url: string, width: number = 800): string {
   if (!url) return "/images/placeholder.jpg";
   if (url.startsWith("/") || url.endsWith(".svg") || url.includes("data:image")) return url;
-  return `https://wsrv.nl/?url=${encodeURIComponent(url.replace(/^https?:\/\//, ""))}&w=${width}&output=webp&q=80&we`;
+  return url;
 }
 
 function catColor(_cat: string): string {
