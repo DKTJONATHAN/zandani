@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "9dd3879b4c9d0b9c42ac86e70c47f45e",
     "c355a59e9ba718b26c3e0ee745cc25a2",
     "97cdb0d9f839fca185daf90cc066cf48",
     "6087bd2bf211c191dcee8af270d160e5",
@@ -799,10 +798,10 @@
     "a87eb75996d71d4f79d8a30a6e30dbf8",
     "e223aa7ba9c6c9b152c67407dd4c5cb6",
     "777b849717c13b68b383e26c1ec1f316",
-    "795f8e4e8462f3046c213b6bc0a10bb4"
+    "795f8e4e8462f3046c213b6bc0a10bb4",
+    "71e42db98315a2c4026fe612fa159c61"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1381,7 +1381,8 @@
     "https://kenyans.co.ke/news/127934-kura-explains-why-roadworks-parklands-junction-stalled-months",
     "https://kenyans.co.ke/news/127938-knec-outlines-rules-candidates-sitting-2026-kcse-exams",
     "https://kenyans.co.ke/news/127915-who-explains-when-country-can-be-declared-ebola-free",
-    "https://kenyans.co.ke/news/127937-ruto-calls-inclusion-public-members-hospital-boards-monitor-spending"
+    "https://kenyans.co.ke/news/127937-ruto-calls-inclusion-public-members-hospital-boards-monitor-spending",
+    "https://kenyans.co.ke/news/127941-ruto-css-make-fresh-appointments-state-agencies-universities"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1853,7 +1854,8 @@
     "kura blames kenha utility delays stalled parklands junction upgrades",
     "knec enforces minute desk lock wristwatch ban 2026 kcse",
     "ebola exit clock cannot start ticking yet",
-    "ruto orders citizen seats hospital boards stem sha cash diversion"
+    "ruto orders citizen seats hospital boards stem sha cash diversion",
+    "state reshuffle elevates marwa clean push wanjiru exits"
   ],
   "topic_keys": [
     "news tracker",
@@ -5372,6 +5374,15 @@
       "structure": "Attribution and beneficiary lead -> Verified financial diversion issue under SHA direct funding -> Executive BOM school model parallel -> Statutory devolution and autonomy context (Nairobi Health Act 2026) -> Operational compliance edge",
       "source": "https://kenyans.co.ke/news/127937-ruto-calls-inclusion-public-members-hospital-boards-monitor-spending",
       "published_at": "2026-10-19T05:01:51Z"
+    },
+    {
+      "title": "State Reshuffle Elevates Marwa in Clean-Up Push as Wanjiru Exits",
+      "angle": "A structural pivot from political figures to seasoned administrators across high-friction statutory dockets\u2014marked by Nelson Marwa displacing Bishop Margaret Wanjiru at the Nairobi Rivers Commission and locking in three-year tenures across curriculum, university oversight, and sports logistics.",
+      "angle_type": "accountability",
+      "opening": "Personnel-pivot lead focusing on the high-profile substitution at the Nairobi Rivers Commission as the anchor of the wider executive gazette notices.",
+      "structure": "Administrative realignment lead -> Nairobi Rivers Commission revocation and Marwa profile -> Continuity in curriculum and standards -> Higher education council placements -> 40-member AFCON 2027 secretariat rollout",
+      "source": "https://kenyans.co.ke/news/127941-ruto-css-make-fresh-appointments-state-agencies-universities",
+      "published_at": "2026-10-19T05:56:16Z"
     }
   ]
 }
