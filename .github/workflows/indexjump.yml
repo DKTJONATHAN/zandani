@@ -78,6 +78,24 @@ jobs:
               except Exception as exc:
                   raise SystemExit(f"Could not read article sitemap: {exc}")
 
+          if event == "push" and not urls:
+              print("No changed post files detected; falling back to the 20 most recently updated sitemap articles.")
+              event = "recent"
+              try:
+                  with urlopen(site + "/sitemap-articles.xml", timeout=20) as response:
+                      root = ET.fromstring(response.read())
+                  ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+                  items = []
+                  for node in root.findall("sm:url", ns):
+                      loc = node.findtext("sm:loc", default="", namespaces=ns)
+                      lastmod = node.findtext("sm:lastmod", default="", namespaces=ns)
+                      if loc.startswith(site + "/article/"):
+                          items.append((lastmod, loc))
+                  items.sort(reverse=True)
+                  urls = [url for _, url in items[:20]]
+              except Exception as exc:
+                  raise SystemExit(f"Could not read article sitemap: {exc}")
+
           urls = list(dict.fromkeys(urls))
           if not urls:
               print("No eligible article URLs found; nothing to submit.")
@@ -120,7 +138,7 @@ jobs:
           echo "IndexJump HTTP status: $status"
           if [[ ! "$status" =~ ^2[0-9][0-9]$ ]]; then
             echo "::error::IndexJump returned HTTP $status."
-            cat "$response_file"
+            echo "Check the IndexJump dashboard for the API error details; response body intentionally omitted from logs."
             exit 1
           fi
 
