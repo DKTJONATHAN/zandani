@@ -293,7 +293,8 @@
     "76d65c43ff422332694ae42103f3b382dc28e213ebcaf746b4f95c95526b23fa",
     "11bb0cc93ab373183afc4e66245cb283032ffb5853b23d029750c998d82d6910",
     "5fd3b99340c98445ac79aa02d1d23941d6c5442ac13ebcddff1a69e566d876e1",
-    "ce29acffe82a63492b3a342efb51482a1d831af4baff94c6c8dfa10b8c31867b"
+    "ce29acffe82a63492b3a342efb51482a1d831af4baff94c6c8dfa10b8c31867b",
+    "1065aa27cd1965a5fcd288620a0b2d17081cd15a4e420eeafc7d7b71832b0660"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -589,17 +590,10 @@
     "https://www.ghafla.co.ke/ruto-vows-to-build-trans-nzoia-hospital-despite-differences-with-natembeya/",
     "https://www.ghafla.co.ke/interior-ps-dr-raymond-omollo-rallies-support-for-president-rutos-re-election-citing-inclusive-development/",
     "https://www.ghafla.co.ke/mombasa-court-set-to-deliver-verdict-in-paul-mackenzies-191-count-murder-trial-over-shakahola-starvation-cult/",
-    "https://www.ghafla.co.ke/gachagua-blends-romance-and-ambition-in-heartfelt-birthday-tribute-to-wife-dorcas/"
+    "https://www.ghafla.co.ke/gachagua-blends-romance-and-ambition-in-heartfelt-birthday-tribute-to-wife-dorcas/",
+    "https://www.ghafla.co.ke/edwin-sifuna-brushes-criticism-about-his-age-declares-he-will-be-first-term-senator-to-become-president/"
   ],
   "published_angles": [
-    {
-      "title": "Oburu Odinga Receives Bedside Brief from Mudavadi as Jaoko and Raila Jr. Anchor Bondo Memorial",
-      "angle": "Focusing on Oburu Odinga managing the family's public presence from his hospital bed, delegating stage duties at the Bondo mausoleum handover to son Jaoko and nephew Raila Jr. before receiving a direct state debrief from Musalia Mudavadi.",
-      "angle_type": "family delegation and high-profile hospital recovery",
-      "opening": "Personality lead opening directly on Oburu Odinga observing doctor-mandated rest while receiving a direct bedside briefing on the Bondo memorial.",
-      "structure": "Bedside briefing hook -> The delegation playbook via Jaoko Oburu and Raila Jr. -> Oburu's written statement on Raila's monument -> Mudavadi's protocol visit and Ruto's public reassurance close",
-      "source": "https://www.ghafla.co.ke/oburu-odinga-progressing-well-in-hospital-expresses-thanks-for-rutos-support-at-bondo-memorial/"
-    },
     {
       "title": "Corazon Kwamboka Dumps \u2018Intuitive Eating\u2019 Myth After Chapati Cravings Force 1.5kg Diet Reset",
       "angle": "Dismantling the influencer trope of 'intuitive eating' by contrasting trendy wellness rhetoric with the practical reality of local dietary cravings like chapatis and mandazis, framing her 1.5kg reset as a case study in structured meal tracking over trusting bodily impulse.",
@@ -1391,6 +1385,14 @@
       "opening": "Open directly on Rigathi Gachagua turning an intimate birthday dedication into a binding public promise to install Pastor Dorcas Rigathi in State House for her next birthday celebration.",
       "structure": "Personality pledge hook -> The 2024 ouster trauma and the 'kingmaker' grievance -> Deconstructing the 'most coveted address' party pledge -> The 37-year marriage vow and transition into full-scale political return",
       "source": "https://www.ghafla.co.ke/gachagua-blends-romance-and-ambition-in-heartfelt-birthday-tribute-to-wife-dorcas/"
+    },
+    {
+      "title": "\u2018They Say I\u2019m Young and Broke\u2019: Edwin Sifuna Laughs Off Billions Factor to Chase 2027 State House Crown",
+      "angle": "The brazen audacity of Sifuna laughing off the two biggest personal liabilities thrown at him by sceptics\u2014his youth and lack of billions\u2014to claim he will shatter Kenyan electoral precedent by leaping straight from a single Senate term straight into State House with a 10-month party startup.",
+      "angle_type": "political personality audacity and precedent-busting ambition",
+      "opening": "Personality lead opening directly on Edwin Sifuna seizing the church microphone in Donholm to address the whispers about his empty pockets and youthful resume before staking his claim on State House.",
+      "structure": "Personality hook confronting the money-and-age gossip -> The 10-month startup miracle claim and single-term senator precedent -> The mechanical shift from ODM to the Linda Mwananchi vehicle -> Babu Owino's parallel pulpit appeal for a multi-faction opposition front -> The confrontation over state muscle and withdrawn security.",
+      "source": "https://www.ghafla.co.ke/edwin-sifuna-brushes-criticism-about-his-age-declares-he-will-be-first-term-senator-to-become-president/"
     }
   ],
   "style_history": [
