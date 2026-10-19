@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "6087bd2bf211c191dcee8af270d160e5",
     "697b1c3f88f7397ba02a957d503f9f64",
     "8379220209d2b78638f8735933a5b505",
     "09190b26d83f14ce2f6669209e41e983",
@@ -799,10 +798,10 @@
     "795f8e4e8462f3046c213b6bc0a10bb4",
     "71e42db98315a2c4026fe612fa159c61",
     "c76f3463c32e73072268d39c6c01ed6f",
-    "9f2d58510135aca0f5ad1ade5cf64185"
+    "9f2d58510135aca0f5ad1ade5cf64185",
+    "be206dca1bc288d7fab024f4b5d48c72"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1384,7 +1384,8 @@
     "https://kenyans.co.ke/news/127937-ruto-calls-inclusion-public-members-hospital-boards-monitor-spending",
     "https://kenyans.co.ke/news/127941-ruto-css-make-fresh-appointments-state-agencies-universities",
     "https://kenyans.co.ke/news/127942-matatu-owners-address-strike-over-fuel-price-increase",
-    "https://kenyans.co.ke/news/127943-cotu-defends-nssf-demands-evidence-mps-over-bribery-claims"
+    "https://kenyans.co.ke/news/127943-cotu-defends-nssf-demands-evidence-mps-over-bribery-claims",
+    "https://kenyans.co.ke/news/127944-ruto-approves-ksh71-billion-counties-after-signing-additional-allocations-county"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1859,7 +1860,8 @@
     "ruto orders citizen seats hospital boards stem sha cash diversion",
     "state reshuffle elevates marwa clean push wanjiru exits",
     "matatu sector abandons strike threat passes fuel shock straight commuters",
-    "cotu challenges mps table dossier alleged nssf pension bribes"
+    "cotu challenges mps table dossier alleged nssf pension bribes",
+    "donor debt anchors ksh71b county lifeline ruto enacts assembly safeguards"
   ],
   "topic_keys": [
     "news tracker",
@@ -5405,6 +5407,15 @@
       "structure": "Statement and beneficiary opening -> Evidentiary challenge and absence of union complaints -> Parliamentary allegations by Majority Leader Ichung'wah -> NSSF balance sheet expansion (Ksh312B to Ksh814B) -> Electoral warning and institutional governance risks.",
       "source": "https://kenyans.co.ke/news/127943-cotu-defends-nssf-demands-evidence-mps-over-bribery-claims",
       "published_at": "2026-10-19T07:02:00Z"
+    },
+    {
+      "title": "Donor Debt Anchors Ksh71B County Lifeline as Ruto Enacts New Assembly Safeguards",
+      "angle": "The financial and administrative mechanics underpinning the new laws: nearly three-quarters of the Ksh71.09 billion injection is tethered to foreign debt and donor grants rather than domestic revenues, accompanied by strict statutory firewalls that curb arbitrary political purges of county assembly clerks.",
+      "angle_type": "money",
+      "opening": "Fiscal-reality lead establishing the reliance on external development partner debt to fund devolved infrastructure and health priorities.",
+      "structure": "Financial composition lead -> Exchequer versus donor debt breakdown -> Statutory framework for conditional transfers -> Administrative firewalls protecting assembly clerks -> Committee timelines and procedural safeguards",
+      "source": "https://kenyans.co.ke/news/127944-ruto-approves-ksh71-billion-counties-after-signing-additional-allocations-county",
+      "published_at": "2026-10-19T08:01:54Z"
     }
   ]
 }
