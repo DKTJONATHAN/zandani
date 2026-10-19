@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "c355a59e9ba718b26c3e0ee745cc25a2",
     "97cdb0d9f839fca185daf90cc066cf48",
     "6087bd2bf211c191dcee8af270d160e5",
     "697b1c3f88f7397ba02a957d503f9f64",
@@ -799,10 +798,10 @@
     "e223aa7ba9c6c9b152c67407dd4c5cb6",
     "777b849717c13b68b383e26c1ec1f316",
     "795f8e4e8462f3046c213b6bc0a10bb4",
-    "71e42db98315a2c4026fe612fa159c61"
+    "71e42db98315a2c4026fe612fa159c61",
+    "c76f3463c32e73072268d39c6c01ed6f"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1382,7 +1382,8 @@
     "https://kenyans.co.ke/news/127938-knec-outlines-rules-candidates-sitting-2026-kcse-exams",
     "https://kenyans.co.ke/news/127915-who-explains-when-country-can-be-declared-ebola-free",
     "https://kenyans.co.ke/news/127937-ruto-calls-inclusion-public-members-hospital-boards-monitor-spending",
-    "https://kenyans.co.ke/news/127941-ruto-css-make-fresh-appointments-state-agencies-universities"
+    "https://kenyans.co.ke/news/127941-ruto-css-make-fresh-appointments-state-agencies-universities",
+    "https://kenyans.co.ke/news/127942-matatu-owners-address-strike-over-fuel-price-increase"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1855,7 +1856,8 @@
     "knec enforces minute desk lock wristwatch ban 2026 kcse",
     "ebola exit clock cannot start ticking yet",
     "ruto orders citizen seats hospital boards stem sha cash diversion",
-    "state reshuffle elevates marwa clean push wanjiru exits"
+    "state reshuffle elevates marwa clean push wanjiru exits",
+    "matatu sector abandons strike threat passes fuel shock straight commuters"
   ],
   "topic_keys": [
     "news tracker",
@@ -5383,6 +5385,15 @@
       "structure": "Administrative realignment lead -> Nairobi Rivers Commission revocation and Marwa profile -> Continuity in curriculum and standards -> Higher education council placements -> 40-member AFCON 2027 secretariat rollout",
       "source": "https://kenyans.co.ke/news/127941-ruto-css-make-fresh-appointments-state-agencies-universities",
       "published_at": "2026-10-19T05:56:16Z"
+    },
+    {
+      "title": "Matatu Sector Abandons Strike Threat, Passes Fuel Shock Straight to Commuters",
+      "angle": "The commercial abandonment of street leverage: MOA is trading away industrial strike action\u2014haunted by the deadly clashes of May 2026\u2014in favor of an unbuffered cost transfer onto passengers, while holding State House accountable for reneging on a negotiated 100,000 electric PSV rollout meant to insulate the fleet from diesel shocks.",
+      "angle_type": "accountability",
+      "opening": "Commercial-shift lead: establishing that the public transport lobby has retired street confrontation in favor of an outright passenger cost transfer after bilateral talks with the presidency collapsed.",
+      "structure": "Strategic shift lead -> The arithmetic of the fare transfer -> Broken Mombasa pact and the 100,000 electric bus pledge -> The shadow of the deadly May 2026 shutdown -> Unresolved legal and street pressure.",
+      "source": "https://kenyans.co.ke/news/127942-matatu-owners-address-strike-over-fuel-price-increase",
+      "published_at": "2026-10-19T06:01:27Z"
     }
   ]
 }
