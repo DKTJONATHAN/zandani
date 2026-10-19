@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "444c3d6599668ac7091174870690205d",
     "a1548ce2e3a4a094eb052584a0f923aa",
     "c7ea9620cfddb518e1dab645af32f09a",
     "3a75d1cc1846ffc77d3c72bf9c4a08b8",
@@ -799,10 +798,10 @@
     "c071c160abbd104a92610643f97a1c13",
     "1812116924009040d06f2b6235e62ee8",
     "37c9c9b8f0db005e8336bb8be64819a7",
-    "a5685418c69ec835c3da0b8fc0076788"
+    "a5685418c69ec835c3da0b8fc0076788",
+    "e5c2a03727cdd6f522c545603c5e3475"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1389,7 +1389,8 @@
     "https://kenyans.co.ke/news/127945-govt-begins-civil-servants-headcount-amid-ksh62-billion-payroll-fraud",
     "https://kenyans.co.ke/news/127946-kwale-governor-fatuma-achani-loses-dad",
     "https://kenyans.co.ke/news/127947-nlc-issues-notices-land-acquisition-machakos-elgeyo-marakwet-and-west-pokot",
-    "https://kenyans.co.ke/news/127949-police-ntsa-launch-nationwide-road-safety-crackdown-ahead-school-holidays"
+    "https://kenyans.co.ke/news/127949-police-ntsa-launch-nationwide-road-safety-crackdown-ahead-school-holidays",
+    "https://kenyans.co.ke/news/127950-nairobi-rivers-commission-opens-nairobi-dam-spillway-el-nino-preparedness-efforts"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1869,7 +1870,8 @@
     "state enforces zero exemption headcount jogoo house ksh6 payroll leak",
     "state house mvurya extend condolences achani ahead father bodo burial",
     "nlc sets tough paperwork test kerio valley land payouts",
-    "speed thresholds 6pm bus ban anchor nationwide school holiday crackdown"
+    "speed thresholds 6pm bus ban anchor nationwide school holiday crackdown",
+    "nairobi dam spillway opens shifting flood pressure downstream estates"
   ],
   "topic_keys": [
     "news tracker",
@@ -5460,6 +5462,15 @@
       "structure": "Risk-metric lead -> Joint inter-agency directive and deployment -> Mechanical checklist and curfew restrictions -> Urban transit risk and the Kayole traffic-calming template -> Immediate compliance horizon.",
       "source": "https://kenyans.co.ke/news/127949-police-ntsa-launch-nationwide-road-safety-crackdown-ahead-school-holidays",
       "published_at": "2026-10-19T12:02:06Z"
+    },
+    {
+      "title": "Nairobi Dam Spillway Opens, Shifting Flood Pressure to Downstream Estates",
+      "angle": "While the spillway safeguards the dam embankment from catastrophic failure, controlled discharge pushes continuous volume into the Ngong River basin, leaving downstream urban corridors from Kibera to South C exposed to unabated flood risks ahead of November storms.",
+      "angle_type": "consequence",
+      "opening": "Consequence lead establishing that while the emergency spillway saves Nairobi Dam's embankment, downstream estates face heightened river corridor hazards.",
+      "structure": "Immediate consequence lead -> Spillway operational status and multi-agency rollout -> Reservoir mechanics and embankment protection -> Downstream exposure map along Ngong River basin -> Weather timeline and looming November rainfall thresholds.",
+      "source": "https://kenyans.co.ke/news/127950-nairobi-rivers-commission-opens-nairobi-dam-spillway-el-nino-preparedness-efforts",
+      "published_at": "2026-10-19T12:35:12Z"
     }
   ]
 }
