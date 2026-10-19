@@ -12,7 +12,7 @@ const FILTERS = ["All", "News", "Politics", "Sports", "Entertainment", "Business
 function proxyImg(url: string, w = 640): string {
   if (!url) return "/images/placeholder.jpg";
   if (url.endsWith(".svg") || url.startsWith("/")) return url;
-  return `https://wsrv.nl/?url=${encodeURIComponent(url.replace(/^https?:\/\//, ""))}&w=${w}&output=webp&q=80&we`;
+  return url;
 }
 
 function timeLabel(dateStr: string): string {
