@@ -16,7 +16,7 @@ function proxyImg(url: string, w = 500): string {
 
   // FIXED: Using new RegExp string constructor to prevent esbuild parse errors
   const protocolRegex = new RegExp('^https?://');
-  return `https://wsrv.nl/?url=${encodeURIComponent(url.replace(protocolRegex, ""))}&w=${w}&output=webp&q=80&we`;
+  return url;
 }
 
 function timeAgo(dateStr: string): string {
