@@ -17,13 +17,13 @@ const FORTY_EIGHT_HOURS = 48 * 60 * 60 * 1000;
 function img(url: string, w = 800): string {
   if (!url) return "/images/placeholder.jpg";
   if (url.endsWith(".svg") || url.startsWith("/")) return url;
-  return `https://wsrv.nl/?url=${encodeURIComponent(url.replace(/^https?:\/\//, ""))}&w=${w}&output=webp&q=75&we`;
+  return url;
 }
 
 function ogImg(url: string): string {
   if (!url) return DEFAULT_OG_IMAGE;
   if (url.startsWith("/")) return `${SITE_URL}${url}`;
-  return `https://wsrv.nl/?url=${encodeURIComponent(url.replace(/^https?:\/\//, ""))}&w=1200&h=630&fit=cover&output=webp&q=85`;
+  return url;
 }
 
 function catColor(_cat: string): string {
