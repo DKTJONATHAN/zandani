@@ -299,7 +299,8 @@
     "3330d77039540edd2d92770dcb359a6ad42a3840187b54795588569d95529caa",
     "9a97090c0e1d37d8d34e55ec4e608838afbb8e52bd4002e6d534a8a051ae9a7e",
     "24bd91b79c5a1bbfa01bfd9c81fa8477cb5d6844355ebce79c58a478ea68068f",
-    "db94ac12f107d632d72f0f657c6ebed85baaffe1edd9a57b19f83016177b127d"
+    "db94ac12f107d632d72f0f657c6ebed85baaffe1edd9a57b19f83016177b127d",
+    "4dd3dfabb3ce758a1f50fc5f4ceddba5fc4f7f4b0530fa6b68b61e59df1d530c"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -601,17 +602,10 @@
     "https://www.ghafla.co.ke/jaymo-ule-msee-explains-how-sifunas-presidential-ambitions-inspired-his-2027-nairobi-senate-bid/",
     "https://www.ghafla.co.ke/pastor-victor-kanyari-explains-why-he-paid-ksh-1-million-for-bahati-and-dianas-wedding/",
     "https://www.ghafla.co.ke/king-kalala-announces-birth-of-her-first-born-child/",
-    "https://www.ghafla.co.ke/kenya-confirms-8th-ebola-case-as-health-ministry-assures-readiness-and-frontline-protection/"
+    "https://www.ghafla.co.ke/kenya-confirms-8th-ebola-case-as-health-ministry-assures-readiness-and-frontline-protection/",
+    "https://www.ghafla.co.ke/forex-trader-kenyan-prince-defends-reckless-overtaking-after-near-miss-with-truck/"
   ],
   "published_angles": [
-    {
-      "title": "State Activates Evacuation Centers as Kenya Met Warns of Heavy Storms Across 30 Counties",
-      "angle": "The immediate operational escalation by national emergency teams\u2014shifting from seasonal short-rains optimism to active evacuation readiness and localized storm alerts across over 30 counties under a strengthening El Ni\u00f1o pattern.",
-      "angle_type": "disaster mobilization and institutional emergency response",
-      "opening": "Emergency activation lead highlighting the state placing disaster response units and shelters on standby following the meteorological advisory.",
-      "structure": "State response mobilization hook -> County-by-county storm and gale footprint -> El Ni\u00f1o regional context -> Agricultural stakes versus flood mitigation close",
-      "source": "https://www.ghafla.co.ke/kenya-met-warns-of-heavy-rains-and-strong-winds-in-30-counties/"
-    },
     {
       "title": "Milly wa Jesus Confronts Silent Postpartum Toll After Mistaking Clinical Depression for Daily Creator Burnout",
       "angle": "Reframing her reflection around the unmasking of maternal mental health\u2014specifically how creator burnout disguised clinical postpartum depression as ordinary exhaustion alongside the emotional transition out of Dandora.",
@@ -1403,6 +1397,14 @@
       "opening": "Personality lead focusing directly on Dr. Patrick Amoth commanding the screen to parry union unease over PPE supplies following an attendant's positive test.",
       "structure": "Personality hook and television broadcast confrontation -> The 49-year-old attendant diagnosis and the testing cohort -> KMPDU union pushback and the PPE inventory guarantee -> Contact tracing data and clinical surveillance context.",
       "source": "https://www.ghafla.co.ke/kenya-confirms-8th-ebola-case-as-health-ministry-assures-readiness-and-frontline-protection/"
+    },
+    {
+      "title": "\u2018You Have Never Owned a Lambo\u2019: Kenyan Prince Invokes Supercar Brakes After Forcing Truck Off Tarmac",
+      "angle": "Focusing on Omosa using luxury supercar mechanics ('Lambo power') as a bizarre shield to justify forcing a commercial truck off the highway, contrasting his technical claims against basic traffic laws.",
+      "angle_type": "celebrity accountability and road safety stance",
+      "opening": "Personality lead opening directly on Raymond Omosa invoking luxury vehicle performance to brush off a near-miss head-on incident.",
+      "structure": "Personality hook -> Near-miss mechanics and video evidence -> Direct analysis of Omosa's supercar defense -> Public reaction to truck driver's reflexes -> Highway accountability conclusion.",
+      "source": "https://www.ghafla.co.ke/forex-trader-kenyan-prince-defends-reckless-overtaking-after-near-miss-with-truck/"
     }
   ],
   "style_history": [
