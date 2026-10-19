@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "97cdb0d9f839fca185daf90cc066cf48",
     "6087bd2bf211c191dcee8af270d160e5",
     "697b1c3f88f7397ba02a957d503f9f64",
     "8379220209d2b78638f8735933a5b505",
@@ -799,10 +798,10 @@
     "777b849717c13b68b383e26c1ec1f316",
     "795f8e4e8462f3046c213b6bc0a10bb4",
     "71e42db98315a2c4026fe612fa159c61",
-    "c76f3463c32e73072268d39c6c01ed6f"
+    "c76f3463c32e73072268d39c6c01ed6f",
+    "9f2d58510135aca0f5ad1ade5cf64185"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1383,7 +1383,8 @@
     "https://kenyans.co.ke/news/127915-who-explains-when-country-can-be-declared-ebola-free",
     "https://kenyans.co.ke/news/127937-ruto-calls-inclusion-public-members-hospital-boards-monitor-spending",
     "https://kenyans.co.ke/news/127941-ruto-css-make-fresh-appointments-state-agencies-universities",
-    "https://kenyans.co.ke/news/127942-matatu-owners-address-strike-over-fuel-price-increase"
+    "https://kenyans.co.ke/news/127942-matatu-owners-address-strike-over-fuel-price-increase",
+    "https://kenyans.co.ke/news/127943-cotu-defends-nssf-demands-evidence-mps-over-bribery-claims"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1857,7 +1858,8 @@
     "ebola exit clock cannot start ticking yet",
     "ruto orders citizen seats hospital boards stem sha cash diversion",
     "state reshuffle elevates marwa clean push wanjiru exits",
-    "matatu sector abandons strike threat passes fuel shock straight commuters"
+    "matatu sector abandons strike threat passes fuel shock straight commuters",
+    "cotu challenges mps table dossier alleged nssf pension bribes"
   ],
   "topic_keys": [
     "news tracker",
@@ -5394,6 +5396,15 @@
       "structure": "Strategic shift lead -> The arithmetic of the fare transfer -> Broken Mombasa pact and the 100,000 electric bus pledge -> The shadow of the deadly May 2026 shutdown -> Unresolved legal and street pressure.",
       "source": "https://kenyans.co.ke/news/127942-matatu-owners-address-strike-over-fuel-price-increase",
       "published_at": "2026-10-19T06:01:27Z"
+    },
+    {
+      "title": "COTU Challenges MPs to Table Dossier Over Alleged NSSF Pension Bribes",
+      "angle": "Reframing the confrontation through statutory fiduciary oversight: COTU, holding two trustee seats on the board, directly challenges Parliament's verbal claims against formal union grievance channels to protect the stability of the rapidly expanding Ksh814 billion retirement fund.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first statement opening identifying COTU's formal intervention, directly followed by the pensioners and workers whose savings portfolio sits at the centre of the political friction.",
+      "structure": "Statement and beneficiary opening -> Evidentiary challenge and absence of union complaints -> Parliamentary allegations by Majority Leader Ichung'wah -> NSSF balance sheet expansion (Ksh312B to Ksh814B) -> Electoral warning and institutional governance risks.",
+      "source": "https://kenyans.co.ke/news/127943-cotu-defends-nssf-demands-evidence-mps-over-bribery-claims",
+      "published_at": "2026-10-19T07:02:00Z"
     }
   ]
 }
