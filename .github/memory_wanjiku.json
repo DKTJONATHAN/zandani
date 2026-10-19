@@ -292,7 +292,8 @@
     "e6671fd8c868f753ba57f5da7df2284d67ffda2c7b2904309a4d0aba747f503f",
     "76d65c43ff422332694ae42103f3b382dc28e213ebcaf746b4f95c95526b23fa",
     "11bb0cc93ab373183afc4e66245cb283032ffb5853b23d029750c998d82d6910",
-    "5fd3b99340c98445ac79aa02d1d23941d6c5442ac13ebcddff1a69e566d876e1"
+    "5fd3b99340c98445ac79aa02d1d23941d6c5442ac13ebcddff1a69e566d876e1",
+    "ce29acffe82a63492b3a342efb51482a1d831af4baff94c6c8dfa10b8c31867b"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -587,17 +588,10 @@
     "https://www.ghafla.co.ke/ruto-dismisses-opposition-ahead-of-2027-urging-rivals-to-present-real-policies-over-political-rhetoric/",
     "https://www.ghafla.co.ke/ruto-vows-to-build-trans-nzoia-hospital-despite-differences-with-natembeya/",
     "https://www.ghafla.co.ke/interior-ps-dr-raymond-omollo-rallies-support-for-president-rutos-re-election-citing-inclusive-development/",
-    "https://www.ghafla.co.ke/mombasa-court-set-to-deliver-verdict-in-paul-mackenzies-191-count-murder-trial-over-shakahola-starvation-cult/"
+    "https://www.ghafla.co.ke/mombasa-court-set-to-deliver-verdict-in-paul-mackenzies-191-count-murder-trial-over-shakahola-starvation-cult/",
+    "https://www.ghafla.co.ke/gachagua-blends-romance-and-ambition-in-heartfelt-birthday-tribute-to-wife-dorcas/"
   ],
   "published_angles": [
-    {
-      "title": "Pastor Victor Kanyari Brands Himself the \u2018Ndindi Nyoro of Kasarani\u2019 as 2027 MP Bid Clashes With Stevo Simple Boy",
-      "angle": "Framing Kanyari's parliamentary rollout around his calculated political branding as an urban 'Ndindi Nyoro', contrasting his high-profile celebrity pulpit past with grassroots municipal pledges and an impending pop-culture electoral collision against Stevo Simple Boy.",
-      "angle_type": "celebrity political reinvention and pop-culture electoral clash",
-      "opening": "Personality lead focusing directly on Kanyari positioning himself as the political heir to Ndindi Nyoro's governance model.",
-      "structure": "Ndindi Nyoro benchmarking lead -> Direct quotes and municipal priority zones (Njiiru, Ruai) -> Targeted ground-level voter drives (youth and single mothers) -> Pop-culture electoral clash with Stevo Simple Boy -> Kasarani political landscape close",
-      "source": "https://www.ghafla.co.ke/i-am-the-solution-pastor-kanyari-steps-up-2027-parliamentary-bid-for-kasarani/"
-    },
     {
       "title": "Oburu Odinga Receives Bedside Brief from Mudavadi as Jaoko and Raila Jr. Anchor Bondo Memorial",
       "angle": "Focusing on Oburu Odinga managing the family's public presence from his hospital bed, delegating stage duties at the Bondo mausoleum handover to son Jaoko and nephew Raila Jr. before receiving a direct state debrief from Musalia Mudavadi.",
@@ -1389,6 +1383,14 @@
       "opening": "Personality lead opening directly on Paul Mackenzie facing Lady Justice Diana Kavedza-Mochache's bench for the final judgment on 191 murder counts.",
       "structure": "Personality dock hook -> Defense stance versus state's 121-witness dossier -> The compound's internal operating apparatus -> Competing forensic realities -> The sprawling multi-court docket ahead",
       "source": "https://www.ghafla.co.ke/mombasa-court-set-to-deliver-verdict-in-paul-mackenzies-191-count-murder-trial-over-shakahola-starvation-cult/"
+    },
+    {
+      "title": "Rigathi Gachagua Stakes 37-Year Marriage Vow on State House Birthday Bash for Dorcas",
+      "angle": "Focusing on Gachagua converting marital milestone devotion into an audacious public promissory note\u2014framing a lavish State House birthday gala by October 2027 as the non-negotiable personal restitution owed to his 'gal' after the trauma of their October 2024 ouster.",
+      "angle_type": "celebrity relationship pledge and high-society political comeback vow",
+      "opening": "Open directly on Rigathi Gachagua turning an intimate birthday dedication into a binding public promise to install Pastor Dorcas Rigathi in State House for her next birthday celebration.",
+      "structure": "Personality pledge hook -> The 2024 ouster trauma and the 'kingmaker' grievance -> Deconstructing the 'most coveted address' party pledge -> The 37-year marriage vow and transition into full-scale political return",
+      "source": "https://www.ghafla.co.ke/gachagua-blends-romance-and-ambition-in-heartfelt-birthday-tribute-to-wife-dorcas/"
     }
   ],
   "style_history": [
