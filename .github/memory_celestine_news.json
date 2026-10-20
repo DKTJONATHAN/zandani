@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "8ad3babb04198d52381c4eb8f99eb9be",
     "919838f7542348b589220701c9f3fdcb",
     "73d2ef7c03dfb570641ef254b2b27b3a",
     "181ad27620467bf7ab50b327fe821e2f",
@@ -799,10 +798,10 @@
     "e743d87131d32a0e9f17aee7810c2634",
     "f505f6d82223e1aaed85fd31738e39a2",
     "bb4876d2a0309de104d1e49697e0eabb",
-    "44b7801536eadb4269bad49ec8fa41de"
+    "44b7801536eadb4269bad49ec8fa41de",
+    "f08d2f345465a4a613ba681839aeb9da"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1406,7 +1406,8 @@
     "https://kenyans.co.ke/news/128725-kipchoge-keino-stadium-get-canopy-ahead-2027-afcon-ruto-says",
     "https://kenyans.co.ke/news/128726-treasury-begins-bids-evaluation-460km-nairobi-mombasa-expressway",
     "https://kenyans.co.ke/news/128727-cle-extends-november-2026-atp-exam-registration-october-27-opens-deferral-window",
-    "https://kenyans.co.ke/news/128728-600-ceos-push-tax-cuts-lower-interest-rates-boost-businesses"
+    "https://kenyans.co.ke/news/128728-600-ceos-push-tax-cuts-lower-interest-rates-boost-businesses",
+    "https://kenyans.co.ke/news/128729-ministry-health-confirms-9th-ebola-case-kenya"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1903,7 +1904,8 @@
     "kipchoge keino stadium canopy pledge deepens scrutiny unpaid sports facility debt",
     "treasury weighs transaction bids 461km mombasa road expansion",
     "cle offers seven day atp exam reprieve amid intake freeze",
-    "commercial credit barrier leaves firms self funding operations"
+    "commercial credit barrier leaves firms self funding operations",
+    "moh confirms 9th ebola infection contained within quarantine network"
   ],
   "topic_keys": [
     "news tracker",
@@ -5647,6 +5649,15 @@
       "structure": "Balance-sheet reality lead -> Commercial bank lending barriers and collateral hurdles -> Overlapping national-county regulatory costs -> Infrastructure, energy, and fiscal governance demands -> Unresolved policy stability horizon",
       "source": "https://kenyans.co.ke/news/128728-600-ceos-push-tax-cuts-lower-interest-rates-boost-businesses",
       "published_at": "2026-10-20T15:02:14Z"
+    },
+    {
+      "title": "MoH Confirms 9th Ebola Infection Contained Within Quarantine Network",
+      "angle": "Attribution-first containment framing examining how the state's aggressive quarantine perimeter\u2014tracking 134 out of 135 contacts\u2014is keeping commercial trade, daily transit, and general hospital capacity open to the wider public ahead of the first planned contact releases on October 25.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first statement identifying the Director General of Health, immediately linking the quarantine containment of the ninth patient to the preservation of unrestricted national trade, movement, and public hospital access.",
+      "structure": "Attribution-and-beneficiary lead -> Epidemiological verification and treatment stockpile core -> Laboratory segregation and county logistical perimeter -> Institutional quotes and tracing metrics -> Forward edge on the October 25 quarantine cohort discharge",
+      "source": "https://kenyans.co.ke/news/128729-ministry-health-confirms-9th-ebola-case-kenya",
+      "published_at": "2026-10-20T16:02:06Z"
     }
   ]
 }
