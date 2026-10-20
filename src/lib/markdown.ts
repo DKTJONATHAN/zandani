@@ -104,12 +104,12 @@ const ALL_POSTS: PostMetadata[] = (manifestPosts as unknown as PostMetadata[])
 
 export function getAllPosts(): PostMetadata[] { return ALL_POSTS; }
 
-export async function getPostBySlug(slug: string): Promise<Post | undefined> {
+export async function getPostBySlug(slug: string, fetcher: typeof fetch = fetch): Promise<Post | undefined> {
   const metadata = ALL_POSTS.find(post => post.slug === slug);
   if (!metadata) return undefined;
   const fileName = metadata.sourceFile || `${slug}.md`;
   try {
-    const res = await fetch(`/raw-posts/${encodeURIComponent(fileName)}`);
+    const res = await fetcher(`/raw-posts/${encodeURIComponent(fileName)}`);
     if (!res.ok) return undefined;
     const rawContent = await res.text();
     const { content } = parseFrontmatter(rawContent);
