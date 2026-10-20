@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "db0efb337977f5789c32121f97c41745",
     "8ad3babb04198d52381c4eb8f99eb9be",
     "919838f7542348b589220701c9f3fdcb",
     "73d2ef7c03dfb570641ef254b2b27b3a",
@@ -799,10 +798,10 @@
     "fff4a0bb077a1cb028c947cc58c6238c",
     "e743d87131d32a0e9f17aee7810c2634",
     "f505f6d82223e1aaed85fd31738e39a2",
-    "bb4876d2a0309de104d1e49697e0eabb"
+    "bb4876d2a0309de104d1e49697e0eabb",
+    "44b7801536eadb4269bad49ec8fa41de"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1405,7 +1405,8 @@
     "https://kenyans.co.ke/news/128241-us-iran-talks-raise-hope-relief-after-two-kenya-bound-fuel-tankers-hit",
     "https://kenyans.co.ke/news/128725-kipchoge-keino-stadium-get-canopy-ahead-2027-afcon-ruto-says",
     "https://kenyans.co.ke/news/128726-treasury-begins-bids-evaluation-460km-nairobi-mombasa-expressway",
-    "https://kenyans.co.ke/news/128727-cle-extends-november-2026-atp-exam-registration-october-27-opens-deferral-window"
+    "https://kenyans.co.ke/news/128727-cle-extends-november-2026-atp-exam-registration-october-27-opens-deferral-window",
+    "https://kenyans.co.ke/news/128728-600-ceos-push-tax-cuts-lower-interest-rates-boost-businesses"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1901,7 +1902,8 @@
     "drone hits bound tankers expose choke point behind rising pump prices",
     "kipchoge keino stadium canopy pledge deepens scrutiny unpaid sports facility debt",
     "treasury weighs transaction bids 461km mombasa road expansion",
-    "cle offers seven day atp exam reprieve amid intake freeze"
+    "cle offers seven day atp exam reprieve amid intake freeze",
+    "commercial credit barrier leaves firms self funding operations"
   ],
   "topic_keys": [
     "news tracker",
@@ -5636,6 +5638,15 @@
       "structure": "Deadline and deferral parameters -> Statutory mechanics and candidate rules -> Immediate compliance certificate rollout -> Legal deadlock and High Court injunction on 2027/2028 intake.",
       "source": "https://kenyans.co.ke/news/128727-cle-extends-november-2026-atp-exam-registration-october-27-opens-deferral-window",
       "published_at": "2026-10-20T14:49:50Z"
+    },
+    {
+      "title": "Commercial Credit Barrier Leaves 53% of Kenyan Firms Self-Funding Operations",
+      "angle": "The commercial credit squeeze forcing more than half of Kenya's private sector onto internal cash reserves, where rigid collateral demands and multi-layered licensing choke company balance sheets.",
+      "angle_type": "money",
+      "opening": "Balance-sheet arithmetic lead linking self-funding reliance directly to prohibitive commercial bank lending hurdles.",
+      "structure": "Balance-sheet reality lead -> Commercial bank lending barriers and collateral hurdles -> Overlapping national-county regulatory costs -> Infrastructure, energy, and fiscal governance demands -> Unresolved policy stability horizon",
+      "source": "https://kenyans.co.ke/news/128728-600-ceos-push-tax-cuts-lower-interest-rates-boost-businesses",
+      "published_at": "2026-10-20T15:02:14Z"
     }
   ]
 }
