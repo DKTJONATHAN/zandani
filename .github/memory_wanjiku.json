@@ -300,7 +300,8 @@
     "9a97090c0e1d37d8d34e55ec4e608838afbb8e52bd4002e6d534a8a051ae9a7e",
     "24bd91b79c5a1bbfa01bfd9c81fa8477cb5d6844355ebce79c58a478ea68068f",
     "db94ac12f107d632d72f0f657c6ebed85baaffe1edd9a57b19f83016177b127d",
-    "4dd3dfabb3ce758a1f50fc5f4ceddba5fc4f7f4b0530fa6b68b61e59df1d530c"
+    "4dd3dfabb3ce758a1f50fc5f4ceddba5fc4f7f4b0530fa6b68b61e59df1d530c",
+    "5dfb2dd165edf08f28a355e42d6f8593a03b1ad1131d9e0108c6efadb893eb85"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -603,17 +604,10 @@
     "https://www.ghafla.co.ke/pastor-victor-kanyari-explains-why-he-paid-ksh-1-million-for-bahati-and-dianas-wedding/",
     "https://www.ghafla.co.ke/king-kalala-announces-birth-of-her-first-born-child/",
     "https://www.ghafla.co.ke/kenya-confirms-8th-ebola-case-as-health-ministry-assures-readiness-and-frontline-protection/",
-    "https://www.ghafla.co.ke/forex-trader-kenyan-prince-defends-reckless-overtaking-after-near-miss-with-truck/"
+    "https://www.ghafla.co.ke/forex-trader-kenyan-prince-defends-reckless-overtaking-after-near-miss-with-truck/",
+    "https://www.ghafla.co.ke/co-op-bank-wins-award-for-water-finance-at-africa-water-forum-2026/"
   ],
   "published_angles": [
-    {
-      "title": "Milly wa Jesus Confronts Silent Postpartum Toll After Mistaking Clinical Depression for Daily Creator Burnout",
-      "angle": "Reframing her reflection around the unmasking of maternal mental health\u2014specifically how creator burnout disguised clinical postpartum depression as ordinary exhaustion alongside the emotional transition out of Dandora.",
-      "angle_type": "maternal mental health and creator background reality",
-      "opening": "Personality lead opening directly on Milly wa Jesus distinguishing postpartum depression from daily creator fatigue as she looks back on her Dandora roots.",
-      "structure": "Personality lead -> Burnout versus postpartum reality -> The Dandora transition hook -> Faith and emotional reconciliation -> Sustained public transparency close",
-      "source": "https://www.ghafla.co.ke/milly-wa-jesus-thanks-god-for-healing-as-she-reflects-on-journey-from-dandora/"
-    },
     {
       "title": "Chebet Ronoh Trims Three Inches Off Her 6-Foot Frame to Keep Others at Ease",
       "angle": "The deliberate social accommodation behind downplaying her physical stature: exploring how Ronoh conceals three inches of her real height and restricts her camera angles to headshots to manage others' comfort, connecting this reflex directly to her documented pattern of over-accommodating in personal relationships.",
@@ -1405,6 +1399,14 @@
       "opening": "Personality lead opening directly on Raymond Omosa invoking luxury vehicle performance to brush off a near-miss head-on incident.",
       "structure": "Personality hook -> Near-miss mechanics and video evidence -> Direct analysis of Omosa's supercar defense -> Public reaction to truck driver's reflexes -> Highway accountability conclusion.",
       "source": "https://www.ghafla.co.ke/forex-trader-kenyan-prince-defends-reckless-overtaking-after-near-miss-with-truck/"
+    },
+    {
+      "title": "How Dr. Gideon Muriuki\u2019s Co-op Bank Quietly Crushed a Ksh 3B Water Target by Over a Billion",
+      "angle": "Examining the stark financial contrast between the original three-year corporate target and the actual Ksh 4.39 billion deployment, revealing how commercial water credit demand quietly outpaced institutional projections.",
+      "angle_type": "financial performance and target-smashing accountability",
+      "opening": "Personality-led hook focusing on Dr. Gideon Muriuki and the sudden surge past the bank's original development targets.",
+      "structure": "Personality and numbers hook -> The multi-billion shilling discrepancy over the target -> Breakdown of the Co-op A Maji hardware ecosystem -> The Radisson Blu forum context -> Closing on the active loan portfolio scale.",
+      "source": "https://www.ghafla.co.ke/co-op-bank-wins-award-for-water-finance-at-africa-water-forum-2026/"
     }
   ],
   "style_history": [
