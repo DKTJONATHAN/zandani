@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "d4c74294dc6e69e3ac5eb085d289f30a",
     "cc6770438db62d8a8f35705f6d3a0a92",
     "7a8abcb8a24c26a75e5db6841ccb4509",
     "07cfa8f972215fa9a2f552c9ac4187aa",
@@ -799,10 +798,10 @@
     "8a0cfbb2d711691e96bf2f5a7be26263",
     "daaa9a1975dee0db25165698242951b2",
     "7932305d1d7b62700d77e57f5554f928",
-    "7edbf86482659abde5906edf56bab356"
+    "7edbf86482659abde5906edf56bab356",
+    "fff4a0bb077a1cb028c947cc58c6238c"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1401,7 +1401,8 @@
     "https://kenyans.co.ke/news/127964-eldoret-affordable-housing-shops-sell-ksh900000-boma-yangu-reveals",
     "https://kenyans.co.ke/news/127970-citizen-tv-journalist-odee-francis-arrested-while-covering-protests-nairobi-cbd",
     "https://kenyans.co.ke/news/127972-milk-farmers-be-paid-ksh65-litre-starting-month",
-    "https://kenyans.co.ke/news/127975-ruto-announces-plan-scrap-25-import-duty-mobile-phones"
+    "https://kenyans.co.ke/news/127975-ruto-announces-plan-scrap-25-import-duty-mobile-phones",
+    "https://kenyans.co.ke/news/128241-us-iran-talks-raise-hope-relief-after-two-kenya-bound-fuel-tankers-hit"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1893,7 +1894,8 @@
     "state opens bidding commercial footprint ksh5 eldoret housing estate",
     "plainclothes officers detain citizen journalist odee francis along kimathi street",
     "milk producers face shifting supply realities farm gate price rises ksh65",
-    "treasury ordered dismantle phone duty handset taxes hit"
+    "treasury ordered dismantle phone duty handset taxes hit",
+    "drone hits bound tankers expose choke point behind rising pump prices"
   ],
   "topic_keys": [
     "news tracker",
@@ -5592,6 +5594,15 @@
       "structure": "Cumulative tax breakdown lead -> Mashujaa Day directive and statutory instructions -> The EAC Common External Tariff complication -> Retail impact and digital economy claims -> Parliamentary timeline and unresolved implementation mechanics.",
       "source": "https://kenyans.co.ke/news/127975-ruto-announces-plan-scrap-25-import-duty-mobile-phones",
       "published_at": "2026-10-20T11:02:06Z"
+    },
+    {
+      "title": "Drone Hits on Kenya-Bound Tankers Expose Choke Point Behind Rising Pump Prices",
+      "angle": "The direct physical vulnerability of Kenya's maritime fuel corridor, where Persian Gulf drone strikes against inbound tankers threaten landed import costs just as domestic pump prices breached historic highs above Ksh 227 per litre.",
+      "angle_type": "local impact",
+      "opening": "Maritime security incident opening directly connecting the physical strike in the Strait of Hormuz to Kenya's domestic energy exposure and consumer tariffs.",
+      "structure": "Corridor disruption lead -> Parliamentary testimony and vessel status -> Retail price arithmetic and landed cost mechanics -> Diplomatic stalemate in Doha -> Importer exposure and forward risk.",
+      "source": "https://kenyans.co.ke/news/128241-us-iran-talks-raise-hope-relief-after-two-kenya-bound-fuel-tankers-hit",
+      "published_at": "2026-10-20T12:01:38Z"
     }
   ]
 }
