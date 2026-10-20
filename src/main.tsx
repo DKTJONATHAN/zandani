@@ -1,5 +1,5 @@
 import React from "react";
-import { createRoot } from "react-dom/client";
+import { createRoot, hydrateRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import App from "./App";
@@ -23,7 +23,8 @@ if (typeof window !== "undefined" && "serviceWorker" in navigator) {
   });
 }
 
-createRoot(document.getElementById("root")!).render(
+const rootElement = document.getElementById("root")!;
+const appTree = (
   <React.StrictMode>
     <HelmetProvider>
       <BrowserRouter>
@@ -32,6 +33,8 @@ createRoot(document.getElementById("root")!).render(
     </HelmetProvider>
   </React.StrictMode>
 );
+if (rootElement.hasChildNodes()) hydrateRoot(rootElement, appTree);
+else createRoot(rootElement).render(appTree);
 
 // Wait two frames so Tailwind/CSS from this module is applied before we reveal #root.
 requestAnimationFrame(() => {
