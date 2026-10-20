@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "1e98f9eb8d6b9caf628916f235fe93f8",
     "f575a0ef63ac91bcabbb7ff6a5d1924b",
     "08cfb95364859f6b320d446f983d21f0",
     "a9ee3022634c3af22ea4ca0834aab19e",
@@ -799,10 +798,10 @@
     "57b9e4650f11decb340a9e6e9a8dee0d",
     "3b40d990dde45982b2ff160d43c9f441",
     "82614d071befd3af40cdeb3dac357b53",
-    "33924d39bb3377726d3031ad7f00257a"
+    "33924d39bb3377726d3031ad7f00257a",
+    "8a0cfbb2d711691e96bf2f5a7be26263"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1397,7 +1397,8 @@
     "https://kenyans.co.ke/news/127954-public-health-students-threaten-nationwide-protests-over-90-day-health-workers-strike",
     "https://kenyans.co.ke/news/127958-us-issues-level-3-travel-advisory-kenya-flags-eastleigh-kibera",
     "https://kenyans.co.ke/news/127962-paul-mackenzies-son-says-he-was-forced-fast-week-age-12",
-    "https://kenyans.co.ke/news/127961-psc-announces-6000-internship-vacancies-under-affordable-housing-programme"
+    "https://kenyans.co.ke/news/127961-psc-announces-6000-internship-vacancies-under-affordable-housing-programme",
+    "https://kenyans.co.ke/news/127964-eldoret-affordable-housing-shops-sell-ksh900000-boma-yangu-reveals"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1885,7 +1886,8 @@
     "students issue hour ultimatum day public health strike",
     "elevates travel warning level ebola reaches healthcare workers",
     "inside mackenzie household son recalls forced starvation siblings await life",
-    "psc clears 000 affordable housing internships diploma carve out"
+    "psc clears 000 affordable housing internships diploma carve out",
+    "state opens bidding commercial footprint ksh5 eldoret housing estate"
   ],
   "topic_keys": [
     "news tracker",
@@ -5548,6 +5550,15 @@
       "structure": "Formal agency attribution and beneficiary lead -> Factual distribution of degree and diploma slots -> Eligibility filters and structural constraints -> Institutional context and concurrent public sector recruitment.",
       "source": "https://kenyans.co.ke/news/127961-psc-announces-6000-internship-vacancies-under-affordable-housing-programme",
       "published_at": "2026-10-20T07:02:08Z"
+    },
+    {
+      "title": "State Opens Bidding for Commercial Footprint at Ksh5.3B Eldoret Housing Estate",
+      "angle": "Examining the state's commercial estate monetization strategy, which follows immediately on the heels of residential handover, coupling entry-level retail unit purchases with multi-million-shilling commercial leasing rights across central social amenities.",
+      "angle_type": "money",
+      "opening": "Asset-monetization opening establishing the shift from residential key handovers to commercial tendering across the Ksh5.3 billion project footprint.",
+      "structure": "Commercial rollout lead -> Retail acquisition price bands and block distribution -> High-value civic and leisure lease reserves -> Submission framework and statutory timeline -> Estate development context and residential handover",
+      "source": "https://kenyans.co.ke/news/127964-eldoret-affordable-housing-shops-sell-ksh900000-boma-yangu-reveals",
+      "published_at": "2026-10-20T08:02:11Z"
     }
   ]
 }
