@@ -828,7 +828,7 @@ export default {
               html = html.replace(/<meta\s+name="description"[^>]*>/i, "");
               html = html.replace(/<meta\s+property="og:[^"]+"[^>]*>/gi, "");
               html = html.replace(/<meta\s+name="twitter:[^"]+"[^>]*>/gi, "");
-              const headTags = [helmet.title?.toString(), helmet.meta?.toString(), helmet.link?.toString(), helmet.script?.toString()].filter(Boolean).join("\n");
+              const headTags = [helmet.meta?.toString(), helmet.link?.toString(), helmet.script?.toString()].filter(Boolean).join("\n");
               html = html.replace("</head>", headTags + "\n</head>");
             }
             return new Response(html, { status: 200, headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "public, max-age=60, s-maxage=300" } });
