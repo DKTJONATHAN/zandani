@@ -15,6 +15,9 @@ export default defineConfig({
     },
   },
   plugins: [react()],
+  ssr: {
+    noExternal: true,
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
