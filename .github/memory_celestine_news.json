@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "101fa07ec7da83ee2a6edd61694b2340",
     "e2caece32330cb182c424255f8d6e514",
     "d4f2f48b7f6a82838406521dbdabe35b",
     "1e98f9eb8d6b9caf628916f235fe93f8",
@@ -799,10 +798,10 @@
     "645d7aa6dbe45f8ce9e356e64f7a3d67",
     "8d9718e749eb5192f358bc67f263e890",
     "a2c6706b46413dcc980d224d5a1917f0",
-    "57b9e4650f11decb340a9e6e9a8dee0d"
+    "57b9e4650f11decb340a9e6e9a8dee0d",
+    "3b40d990dde45982b2ff160d43c9f441"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1394,7 +1394,8 @@
     "https://kenyans.co.ke/news/127952-kenha-announces-temporary-closure-southern-bypass-ahead-nairobi-marathon",
     "https://kenyans.co.ke/news/127951-kenya-railways-reveals-details-ksh30-billion-nairobi-railway-city-project",
     "https://kenyans.co.ke/news/127955-paul-mackenzie-28-co-accused-found-guilty-all-191-murder-counts",
-    "https://kenyans.co.ke/news/127954-public-health-students-threaten-nationwide-protests-over-90-day-health-workers-strike"
+    "https://kenyans.co.ke/news/127954-public-health-students-threaten-nationwide-protests-over-90-day-health-workers-strike",
+    "https://kenyans.co.ke/news/127958-us-issues-level-3-travel-advisory-kenya-flags-eastleigh-kibera"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1879,7 +1880,8 @@
     "kenha shuts southern bypass hours city traffic diverts central arteries",
     "housing takes lion share railways details ksh30b nairobi city plan",
     "international legal benchmarks shape landmark shakahola murder convictions",
-    "students issue hour ultimatum day public health strike"
+    "students issue hour ultimatum day public health strike",
+    "elevates travel warning level ebola reaches healthcare workers"
   ],
   "topic_keys": [
     "news tracker",
@@ -5515,6 +5517,15 @@
       "structure": "Attribution and beneficiary lead -> Verified 48-hour ultimatum and mobilization timetable -> The frontline arithmetic (4,200 officers vs 50 million citizens) and Ebola surveillance risk -> Contractual inequities (UHC contracts and Ksh2,000 risk stipends) -> Executive pledges versus parliamentary oversight vacuum.",
       "source": "https://kenyans.co.ke/news/127954-public-health-students-threaten-nationwide-protests-over-90-day-health-workers-strike",
       "published_at": "2026-10-19T18:02:09Z"
+    },
+    {
+      "title": "US Elevates Kenya Travel Warning to Level 3 as Ebola Reaches Healthcare Workers",
+      "angle": "Examining how Washington's national downgrade exposes Kenya's transport and hospitality sectors to compounded biosecurity friction, triggered after secondary hospital transmission confirmed the Ebola outbreak had moved past its initial import stage while severe Level 4 red zones cordon off key urban and frontier hubs.",
+      "angle_type": "consequence",
+      "opening": "Consequence-first lead linking the diplomatic downgrade directly to secondary epidemiological transmission in Kenya's health system.",
+      "structure": "Systemic downgrade lead -> Epidemiological trigger and hospital transmission -> Geographic partition of Level 4 red zones -> Commercial, transit, and public safety advisory details -> Bilateral and travel implications",
+      "source": "https://kenyans.co.ke/news/127958-us-issues-level-3-travel-advisory-kenya-flags-eastleigh-kibera",
+      "published_at": "2026-10-20T05:02:06Z"
     }
   ]
 }
