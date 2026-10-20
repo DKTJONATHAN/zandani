@@ -1,4 +1,5 @@
 import { Component, type ReactNode, type ErrorInfo, useEffect, lazy, Suspense } from "react";
+import ArticlePage from "./pages/ArticlePage";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -9,7 +10,6 @@ import { Button } from "@/components/ui/button";
 import { reportError } from "@/lib/errors";
 
 import Index from "./pages/Index";
-const ArticlePage = lazy(() => import("./pages/ArticlePage"));
 const CategoryPage = lazy(() => import("./pages/CategoryPage"));
 const Trending = lazy(() => import("./pages/Trending"));
 const AboutPage = lazy(() => import("./pages/AboutPage"));

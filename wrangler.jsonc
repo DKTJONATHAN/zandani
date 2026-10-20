@@ -3,6 +3,8 @@
   "name": "zandani",
   "compatibility_date": "2026-09-15",
   "main": "./worker.js",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": { "enabled": true },
   "triggers": {
     "crons": ["* * * * *"]
   },
@@ -23,7 +25,8 @@
       "/api/unsubscribe",
       "/api/github",
       "/api/admin/verify",
-      "/api/scheduler/*"
+      "/api/scheduler/*",
+      "/article/*"
     ]
   }
 }
