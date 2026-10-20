@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "7a8abcb8a24c26a75e5db6841ccb4509",
     "07cfa8f972215fa9a2f552c9ac4187aa",
     "db0efb337977f5789c32121f97c41745",
     "8ad3babb04198d52381c4eb8f99eb9be",
@@ -799,10 +798,10 @@
     "7932305d1d7b62700d77e57f5554f928",
     "7edbf86482659abde5906edf56bab356",
     "fff4a0bb077a1cb028c947cc58c6238c",
-    "e743d87131d32a0e9f17aee7810c2634"
+    "e743d87131d32a0e9f17aee7810c2634",
+    "f505f6d82223e1aaed85fd31738e39a2"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1403,7 +1403,8 @@
     "https://kenyans.co.ke/news/127972-milk-farmers-be-paid-ksh65-litre-starting-month",
     "https://kenyans.co.ke/news/127975-ruto-announces-plan-scrap-25-import-duty-mobile-phones",
     "https://kenyans.co.ke/news/128241-us-iran-talks-raise-hope-relief-after-two-kenya-bound-fuel-tankers-hit",
-    "https://kenyans.co.ke/news/128725-kipchoge-keino-stadium-get-canopy-ahead-2027-afcon-ruto-says"
+    "https://kenyans.co.ke/news/128725-kipchoge-keino-stadium-get-canopy-ahead-2027-afcon-ruto-says",
+    "https://kenyans.co.ke/news/128726-treasury-begins-bids-evaluation-460km-nairobi-mombasa-expressway"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1897,7 +1898,8 @@
     "milk producers face shifting supply realities farm gate price rises ksh65",
     "treasury ordered dismantle phone duty handset taxes hit",
     "drone hits bound tankers expose choke point behind rising pump prices",
-    "kipchoge keino stadium canopy pledge deepens scrutiny unpaid sports facility debt"
+    "kipchoge keino stadium canopy pledge deepens scrutiny unpaid sports facility debt",
+    "treasury weighs transaction bids 461km mombasa road expansion"
   ],
   "topic_keys": [
     "news tracker",
@@ -5614,6 +5616,15 @@
       "structure": "Expanded scope lead -> On-site condition and Mashujaa Day commitment -> The financing bottleneck at Nyayo -> CAF inspection benchmarks and Eldoret's dual role -> Regional completion deadlines across North Rift",
       "source": "https://kenyans.co.ke/news/128725-kipchoge-keino-stadium-get-canopy-ahead-2027-afcon-ruto-says",
       "published_at": "2026-10-20T13:01:58Z"
+    },
+    {
+      "title": "Treasury Weighs Transaction Bids for 461KM Mombasa Road Expansion",
+      "angle": "The operational shift from a separate greenfield private mega-project to converting the existing trunk corridor into a tolled, access-controlled asset, detailing the advisory mandate and the commercial implications for Northern Corridor transit.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first statement identifying the National Treasury, immediately followed by the commercial hauliers and regional transit operators who will inherit a tolled four-lane corridor.",
+      "structure": "Attribution and beneficiary lead -> Advisory scope and technical feasibility filters -> The brownfield pivot versus Everstrong's rejected Ksh365B blueprint -> Legal petitions and statutory hurdles under the PPP Act -> Integration into the Trans-African network and upcoming procurement phases.",
+      "source": "https://kenyans.co.ke/news/128726-treasury-begins-bids-evaluation-460km-nairobi-mombasa-expressway",
+      "published_at": "2026-10-20T14:02:09Z"
     }
   ]
 }
