@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a9ee3022634c3af22ea4ca0834aab19e",
     "d4c74294dc6e69e3ac5eb085d289f30a",
     "cc6770438db62d8a8f35705f6d3a0a92",
     "7a8abcb8a24c26a75e5db6841ccb4509",
@@ -799,10 +798,10 @@
     "33924d39bb3377726d3031ad7f00257a",
     "8a0cfbb2d711691e96bf2f5a7be26263",
     "daaa9a1975dee0db25165698242951b2",
-    "7932305d1d7b62700d77e57f5554f928"
+    "7932305d1d7b62700d77e57f5554f928",
+    "7edbf86482659abde5906edf56bab356"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1400,7 +1400,8 @@
     "https://kenyans.co.ke/news/127961-psc-announces-6000-internship-vacancies-under-affordable-housing-programme",
     "https://kenyans.co.ke/news/127964-eldoret-affordable-housing-shops-sell-ksh900000-boma-yangu-reveals",
     "https://kenyans.co.ke/news/127970-citizen-tv-journalist-odee-francis-arrested-while-covering-protests-nairobi-cbd",
-    "https://kenyans.co.ke/news/127972-milk-farmers-be-paid-ksh65-litre-starting-month"
+    "https://kenyans.co.ke/news/127972-milk-farmers-be-paid-ksh65-litre-starting-month",
+    "https://kenyans.co.ke/news/127975-ruto-announces-plan-scrap-25-import-duty-mobile-phones"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1891,7 +1892,8 @@
     "psc clears 000 affordable housing internships diploma carve out",
     "state opens bidding commercial footprint ksh5 eldoret housing estate",
     "plainclothes officers detain citizen journalist odee francis along kimathi street",
-    "milk producers face shifting supply realities farm gate price rises ksh65"
+    "milk producers face shifting supply realities farm gate price rises ksh65",
+    "treasury ordered dismantle phone duty handset taxes hit"
   ],
   "topic_keys": [
     "news tracker",
@@ -5581,6 +5583,15 @@
       "structure": "Shortage-and-pricing lead -> Mashujaa Day announcement setting -> Historical price scaling metrics -> Production growth and processing hub context -> Unresolved market implications.",
       "source": "https://kenyans.co.ke/news/127972-milk-farmers-be-paid-ksh65-litre-starting-month",
       "published_at": "2026-10-20T10:01:56Z"
+    },
+    {
+      "title": "Treasury Ordered to Dismantle 25% Phone Duty as Handset Taxes Hit 55%",
+      "angle": "The operational and legislative friction of unwinding a regional trade tariff barely three months after its implementation, set against a domestic tax stack that pushed handset levies to 55.5 percent.",
+      "angle_type": "money",
+      "opening": "Fiscal arithmetic and policy reversal lead linking the July 1 tariff implementation directly to Treasury's newly ordered parliamentary timeline.",
+      "structure": "Cumulative tax breakdown lead -> Mashujaa Day directive and statutory instructions -> The EAC Common External Tariff complication -> Retail impact and digital economy claims -> Parliamentary timeline and unresolved implementation mechanics.",
+      "source": "https://kenyans.co.ke/news/127975-ruto-announces-plan-scrap-25-import-duty-mobile-phones",
+      "published_at": "2026-10-20T11:02:06Z"
     }
   ]
 }
