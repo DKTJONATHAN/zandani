@@ -25,7 +25,8 @@
       "/api/unsubscribe",
       "/api/github",
       "/api/admin/verify",
-      "/api/scheduler/*"
+      "/api/scheduler/*",
+      "/article/*"
     ]
   }
 }
