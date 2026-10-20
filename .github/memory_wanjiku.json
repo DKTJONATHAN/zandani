@@ -301,7 +301,8 @@
     "24bd91b79c5a1bbfa01bfd9c81fa8477cb5d6844355ebce79c58a478ea68068f",
     "db94ac12f107d632d72f0f657c6ebed85baaffe1edd9a57b19f83016177b127d",
     "4dd3dfabb3ce758a1f50fc5f4ceddba5fc4f7f4b0530fa6b68b61e59df1d530c",
-    "5dfb2dd165edf08f28a355e42d6f8593a03b1ad1131d9e0108c6efadb893eb85"
+    "5dfb2dd165edf08f28a355e42d6f8593a03b1ad1131d9e0108c6efadb893eb85",
+    "b657d2e658f10d56155db2d799f9756997778320ed974245890d0e2d66d0ace3"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -605,17 +606,10 @@
     "https://www.ghafla.co.ke/king-kalala-announces-birth-of-her-first-born-child/",
     "https://www.ghafla.co.ke/kenya-confirms-8th-ebola-case-as-health-ministry-assures-readiness-and-frontline-protection/",
     "https://www.ghafla.co.ke/forex-trader-kenyan-prince-defends-reckless-overtaking-after-near-miss-with-truck/",
-    "https://www.ghafla.co.ke/co-op-bank-wins-award-for-water-finance-at-africa-water-forum-2026/"
+    "https://www.ghafla.co.ke/co-op-bank-wins-award-for-water-finance-at-africa-water-forum-2026/",
+    "https://www.ghafla.co.ke/universal-healthcare-disbursements-and-digital-health-transformation/"
   ],
   "published_angles": [
-    {
-      "title": "Chebet Ronoh Trims Three Inches Off Her 6-Foot Frame to Keep Others at Ease",
-      "angle": "The deliberate social accommodation behind downplaying her physical stature: exploring how Ronoh conceals three inches of her real height and restricts her camera angles to headshots to manage others' comfort, connecting this reflex directly to her documented pattern of over-accommodating in personal relationships.",
-      "angle_type": "celebrity self-image and interpersonal accommodation",
-      "opening": "Personality lead opening directly on Ronoh clipping three inches off her vertical stature to make rooms feel comfortable.",
-      "structure": "Height confession hook -> Mechanics of digital framing vs physical reality -> The extrovert persona vs private solitude contrast -> September 2026 overfunctioning baseline -> Grounded close on personal boundary enforcement",
-      "source": "https://www.ghafla.co.ke/chebet-ronoh-as-much-as-i-talk-to-the-camera-im-very-introverted/"
-    },
     {
       "title": "Wambo Ashley Summons Family Priest to Consecrate New Home After Nicholas Kioko Exit",
       "angle": "Focusing on the domestic boundary ritual: Wambo Ashley using an ordained family priest to formally sanctify her solo household as she sets up physical and structural independence after four years of shared domestic life.",
@@ -1407,6 +1401,14 @@
       "opening": "Personality-led hook focusing on Dr. Gideon Muriuki and the sudden surge past the bank's original development targets.",
       "structure": "Personality and numbers hook -> The multi-billion shilling discrepancy over the target -> Breakdown of the Co-op A Maji hardware ecosystem -> The Radisson Blu forum context -> Closing on the active loan portfolio scale.",
       "source": "https://www.ghafla.co.ke/co-op-bank-wins-award-for-water-finance-at-africa-water-forum-2026/"
+    },
+    {
+      "title": "From Centralized Control to the Clinic Floor: The SHA\u2019s New KSh 107 Billion Decentralization Bet",
+      "angle": "The pivot from a centralized bureaucratic 'black box' to a hyper-local procurement model where 10,000+ facility heads now have direct financial autonomy, shifting the point of failure (or success) from the Ministry to the clinic floor.",
+      "angle_type": "institutional accountability and practical change",
+      "opening": "Start with the specific operational shift that alters how individual clinics function.",
+      "structure": "Operational shift -> The 10,000-facility disbursement scope -> The digital transition as a monitoring mechanism -> The 'Usawa' mandate vs. local procurement reality.",
+      "source": "https://www.ghafla.co.ke/universal-healthcare-disbursements-and-digital-health-transformation/"
     }
   ],
   "style_history": [
