@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f575a0ef63ac91bcabbb7ff6a5d1924b",
     "08cfb95364859f6b320d446f983d21f0",
     "a9ee3022634c3af22ea4ca0834aab19e",
     "d4c74294dc6e69e3ac5eb085d289f30a",
@@ -799,10 +798,10 @@
     "3b40d990dde45982b2ff160d43c9f441",
     "82614d071befd3af40cdeb3dac357b53",
     "33924d39bb3377726d3031ad7f00257a",
-    "8a0cfbb2d711691e96bf2f5a7be26263"
+    "8a0cfbb2d711691e96bf2f5a7be26263",
+    "daaa9a1975dee0db25165698242951b2"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1398,7 +1398,8 @@
     "https://kenyans.co.ke/news/127958-us-issues-level-3-travel-advisory-kenya-flags-eastleigh-kibera",
     "https://kenyans.co.ke/news/127962-paul-mackenzies-son-says-he-was-forced-fast-week-age-12",
     "https://kenyans.co.ke/news/127961-psc-announces-6000-internship-vacancies-under-affordable-housing-programme",
-    "https://kenyans.co.ke/news/127964-eldoret-affordable-housing-shops-sell-ksh900000-boma-yangu-reveals"
+    "https://kenyans.co.ke/news/127964-eldoret-affordable-housing-shops-sell-ksh900000-boma-yangu-reveals",
+    "https://kenyans.co.ke/news/127970-citizen-tv-journalist-odee-francis-arrested-while-covering-protests-nairobi-cbd"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1887,7 +1888,8 @@
     "elevates travel warning level ebola reaches healthcare workers",
     "inside mackenzie household son recalls forced starvation siblings await life",
     "psc clears 000 affordable housing internships diploma carve out",
-    "state opens bidding commercial footprint ksh5 eldoret housing estate"
+    "state opens bidding commercial footprint ksh5 eldoret housing estate",
+    "plainclothes officers detain citizen journalist odee francis along kimathi street"
   ],
   "topic_keys": [
     "news tracker",
@@ -5559,6 +5561,15 @@
       "structure": "Commercial rollout lead -> Retail acquisition price bands and block distribution -> High-value civic and leisure lease reserves -> Submission framework and statutory timeline -> Estate development context and residential handover",
       "source": "https://kenyans.co.ke/news/127964-eldoret-affordable-housing-shops-sell-ksh900000-boma-yangu-reveals",
       "published_at": "2026-10-20T08:02:11Z"
+    },
+    {
+      "title": "Plainclothes Officers Detain Citizen TV Journalist Odee Francis Along Kimathi Street",
+      "angle": "Examining the breakdown of on-the-ground press identification protocols during public order policing, where plainclothes security details bypassed verified media credentials and bystander interventions along a busy commercial corridor.",
+      "angle_type": "accountability",
+      "opening": "Accountability lead focusing on plainclothes enforcement overriding explicit journalistic identification along Kimathi Street.",
+      "structure": "Enforcement clash lead -> Physical detention sequence at Kimathi-Kenyatta junction -> Ignored credential appeals and peer interventions -> Fuel protest operational backdrop -> Unresolved custody status and legal exposure.",
+      "source": "https://kenyans.co.ke/news/127970-citizen-tv-journalist-odee-francis-arrested-while-covering-protests-nairobi-cbd",
+      "published_at": "2026-10-20T09:52:57Z"
     }
   ]
 }
