@@ -70,13 +70,18 @@ const AUTHOR_BIOS: Record<string, string> = {
 
 export default function ArticlePage() {
   const { slug } = useParams<{ slug: string }>();
-  const [post, setPost] = useState<Post | null>(null);
-  const [loading, setLoading] = useState(true);
+  const initialPost = (typeof window !== "undefined" ? (window as Window & { __INITIAL_DATA__?: { post?: Post } }).__INITIAL_DATA__?.post : (globalThis as typeof globalThis & { __INITIAL_DATA__?: { post?: Post } }).__INITIAL_DATA__?.post);
+  const [post, setPost] = useState<Post | null>(initialPost?.slug === slug ? initialPost : null);
+  const [loading, setLoading] = useState(!(initialPost?.slug === slug));
   const [showScrollTop, setShowScrollTop] = useState(false);
   const [copied, setCopied] = useState(false);
   const progressRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    if (post?.slug === slug) {
+      setLoading(false);
+      return;
+    }
     setLoading(true);
     getPostBySlug(slug || "").then((p) => {
       setPost(p || null);
