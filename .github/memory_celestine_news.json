@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "cc6770438db62d8a8f35705f6d3a0a92",
     "7a8abcb8a24c26a75e5db6841ccb4509",
     "07cfa8f972215fa9a2f552c9ac4187aa",
     "db0efb337977f5789c32121f97c41745",
@@ -799,10 +798,10 @@
     "daaa9a1975dee0db25165698242951b2",
     "7932305d1d7b62700d77e57f5554f928",
     "7edbf86482659abde5906edf56bab356",
-    "fff4a0bb077a1cb028c947cc58c6238c"
+    "fff4a0bb077a1cb028c947cc58c6238c",
+    "e743d87131d32a0e9f17aee7810c2634"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1402,7 +1402,8 @@
     "https://kenyans.co.ke/news/127970-citizen-tv-journalist-odee-francis-arrested-while-covering-protests-nairobi-cbd",
     "https://kenyans.co.ke/news/127972-milk-farmers-be-paid-ksh65-litre-starting-month",
     "https://kenyans.co.ke/news/127975-ruto-announces-plan-scrap-25-import-duty-mobile-phones",
-    "https://kenyans.co.ke/news/128241-us-iran-talks-raise-hope-relief-after-two-kenya-bound-fuel-tankers-hit"
+    "https://kenyans.co.ke/news/128241-us-iran-talks-raise-hope-relief-after-two-kenya-bound-fuel-tankers-hit",
+    "https://kenyans.co.ke/news/128725-kipchoge-keino-stadium-get-canopy-ahead-2027-afcon-ruto-says"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1895,7 +1896,8 @@
     "plainclothes officers detain citizen journalist odee francis along kimathi street",
     "milk producers face shifting supply realities farm gate price rises ksh65",
     "treasury ordered dismantle phone duty handset taxes hit",
-    "drone hits bound tankers expose choke point behind rising pump prices"
+    "drone hits bound tankers expose choke point behind rising pump prices",
+    "kipchoge keino stadium canopy pledge deepens scrutiny unpaid sports facility debt"
   ],
   "topic_keys": [
     "news tracker",
@@ -5603,6 +5605,15 @@
       "structure": "Corridor disruption lead -> Parliamentary testimony and vessel status -> Retail price arithmetic and landed cost mechanics -> Diplomatic stalemate in Doha -> Importer exposure and forward risk.",
       "source": "https://kenyans.co.ke/news/128241-us-iran-talks-raise-hope-relief-after-two-kenya-bound-fuel-tankers-hit",
       "published_at": "2026-10-20T12:01:38Z"
+    },
+    {
+      "title": "Kipchoge Keino Stadium Canopy Pledge Deepens Scrutiny Over Unpaid Sports Facility Debt",
+      "angle": "The operational reality of expanding structural commitments at Kipchoge Keino Stadium while contractor debt freezes and funding deficits stall foundational projects across the 33-stadium national register.",
+      "angle_type": "accountability",
+      "opening": "Accountability lead contrasting the expanded structural scope at Kipchoge Keino Stadium against the existing payment bottlenecks halting progress at primary national venues.",
+      "structure": "Expanded scope lead -> On-site condition and Mashujaa Day commitment -> The financing bottleneck at Nyayo -> CAF inspection benchmarks and Eldoret's dual role -> Regional completion deadlines across North Rift",
+      "source": "https://kenyans.co.ke/news/128725-kipchoge-keino-stadium-get-canopy-ahead-2027-afcon-ruto-says",
+      "published_at": "2026-10-20T13:01:58Z"
     }
   ]
 }
