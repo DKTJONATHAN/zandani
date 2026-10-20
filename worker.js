@@ -1,3 +1,4 @@
+import { render } from "./dist/server/entry-server.js";
 const GSC_HTML = "google-site-verification: google4a7d26b466f41330.html\n";
 const GSC_TXT = "968a6d115d3240a3acbc3448c398978d\n";
 
@@ -810,6 +811,33 @@ export default {
     if (path === "/api/scheduler/tick") return handleSchedulerTick(env);
     const triggerMatch = path.match(/^\/api\/scheduler\/trigger\/([a-z0-9-]+)$/i);
     if (triggerMatch) return handleSchedulerTrigger(request, env, triggerMatch[1].toLowerCase());
+
+    if (env.ASSETS && request.method === "GET" && /^\/article\/[^/]+\/?$/.test(path)) {
+      try {
+        const rendered = await render(request.url, env);
+        if (rendered?.appHtml) {
+          const shellResponse = await env.ASSETS.fetch(new Request(new URL("/", request.url), request));
+          if (shellResponse.ok) {
+            let html = await shellResponse.text();
+            const safeInitialData = JSON.stringify({ post: rendered.post }).replace(/</g, "\\u003c");
+            html = html.replace('<div id="root"></div>', '<div id="root">' + rendered.appHtml + '</div>' +
+              '<script>window.__INITIAL_DATA__=' + safeInitialData + ';</script>');
+            const helmet = rendered.helmet;
+            if (helmet) {
+              html = html.replace(/<title>[\\s\\S]*?<\\/title>/i, helmet.title?.toString() || "");
+              html = html.replace(/<meta\\s+name="description"[^>]*>/i, "");
+              html = html.replace(/<meta\\s+property="og:[^"]+"[^>]*>/gi, "");
+              html = html.replace(/<meta\\s+name="twitter:[^"]+"[^>]*>/gi, "");
+              const headTags = [helmet.title?.toString(), helmet.meta?.toString(), helmet.link?.toString(), helmet.script?.toString()].filter(Boolean).join("\\n");
+              html = html.replace("</head>", headTags + "\\n</head>");
+            }
+            return new Response(html, { status: 200, headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "public, max-age=60, s-maxage=300" } });
+          }
+        }
+      } catch (error) {
+        console.error("SSR article render failed", error);
+      }
+    }
 
     if (env.ASSETS) return env.ASSETS.fetch(request);
     return new Response("Not found", { status: 404 });
