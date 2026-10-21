@@ -304,7 +304,8 @@
     "5dfb2dd165edf08f28a355e42d6f8593a03b1ad1131d9e0108c6efadb893eb85",
     "b657d2e658f10d56155db2d799f9756997778320ed974245890d0e2d66d0ace3",
     "7e467131386ebc63a7a1c2f1f5e332cceb2b74ae7b98caf2790584ff4ff5c82b",
-    "a27a821c2af2033b89872bc3e79ddcfb66e8457b2298e4f6e86233f26b184cfc"
+    "a27a821c2af2033b89872bc3e79ddcfb66e8457b2298e4f6e86233f26b184cfc",
+    "d6dfe50dbd7398eed127d31935f7e093a81814b6f8617cb61eefc8656aa88829"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -611,17 +612,10 @@
     "https://www.ghafla.co.ke/co-op-bank-wins-award-for-water-finance-at-africa-water-forum-2026/",
     "https://www.ghafla.co.ke/universal-healthcare-disbursements-and-digital-health-transformation/",
     "https://www.ghafla.co.ke/stevo-simple-boy-confirms-split-from-partner-after-dna-test-rules-out-paternity/",
-    "https://www.ghafla.co.ke/kenya-power-announces-wednesday-blackouts-across-several-counties/"
+    "https://www.ghafla.co.ke/kenya-power-announces-wednesday-blackouts-across-several-counties/",
+    "https://www.ghafla.co.ke/diana-marua-celebrates-decade-of-love-with-bahati-ahead-of-ksh1m-per-ticket-november-wedding/"
   ],
   "published_angles": [
-    {
-      "title": "Shorn Arwa Demands Vanity in Hater Commentary After Sibling Fallout Stirs \u2018Gold Digger\u2019 Slurs",
-      "angle": "Arwa's tactical deployment of vanity humor to disarm reputational labels right after stepping in as public protector for her sister during their content partnership split.",
-      "angle_type": "reputation management and satirical deflection",
-      "opening": "Personality lead focusing directly on Arwa demanding aesthetic accuracy in hostile online commentary.",
-      "structure": "Vanity deflection lead -> Breakdown of the exact social remarks and crowd callout -> Context of the sister YouTube tell-all and sister-defense dynamic -> Prior domestic disclosure of baby daddy separation -> Steady posture under scrutiny close",
-      "source": "https://www.ghafla.co.ke/shorn-arwa-fires-back-at-narcissist-and-gold-digger-labels-with-humorous-response/"
-    },
     {
       "title": "Jaymoh Decin Calls Out Six-Month TikTok Flagging Campaign Threatening His Hard-Won Momentum",
       "angle": "Highlighting the economic precarity of digital comedy: Jaymoh framing systematic platform flagging as an existential push back to the village ('anataka turudi ushago') precisely as his career transitions from mobile screen skits to self-funded live arena productions.",
@@ -1413,6 +1407,14 @@
       "opening": "Direct focus on the heavy concentration of medical, higher-education, and industrial nerve centres forced offline simultaneously.",
       "structure": "Institutional impact hook -> Nairobi Mbagathi and health-strip breakdown -> Coastal military and port zones -> Industrial and tea belts in Kericho and Western -> Detailed county coverage schedule",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-wednesday-blackouts-across-several-counties/"
+    },
+    {
+      "title": "Diana Marua Seals 10-Year Personal Milestone Ahead of Bahati\u2019s Ksh 1M-per-Ticket November Wedding",
+      "angle": "Focusing on the precise calendar positioning\u2014Diana locking in October 20 as their definitive personal decade milestone just two weeks before Bahati\u2019s strictly rationed 100-guest, Ksh 1M-per-ticket wedding on November 6.",
+      "angle_type": "celebrity relationship timeline and milestone positioning",
+      "opening": "Personality lead opening directly on Diana Marua placing the 10-year seal on October 20 as the personal emotional anchor before the November 6 ticketed ceremony.",
+      "structure": "Personality date hook -> Social media anniversary statement breakdown -> Transition to the Ksh 1M November 6 ceremony and guest limits -> Context of decade-long digital exposure -> Final countdown lookahead",
+      "source": "https://www.ghafla.co.ke/diana-marua-celebrates-decade-of-love-with-bahati-ahead-of-ksh1m-per-ticket-november-wedding/"
     }
   ],
   "style_history": [
