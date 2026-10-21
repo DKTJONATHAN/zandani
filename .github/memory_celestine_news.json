@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f9182e12191d8f2b708ea7c0edb79b41",
     "3eb0df6c0c84d9dbbed9149a38eb0504",
     "615707aeb4ad220c7f507406b78cbc50",
     "60ca9c4929d9cfd289434b7ee9274ce7",
@@ -799,10 +798,10 @@
     "ff15a910d9b3a6ff1d75cae40c730d84",
     "0e365b83ff6f26aa7fd45300dbd5aa54",
     "d10e34b095ff53275efb69d1b4093876",
-    "10c28333571a25a9ae9803fa18e577bb"
+    "10c28333571a25a9ae9803fa18e577bb",
+    "d5e93e23f5774f9f91c90b4791a813dd"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1411,7 +1411,8 @@
     "https://kenyans.co.ke/news/128734-ncic-summons-former-mp-reuben-ndolo-over-remarks-nairobi-church",
     "https://kenyans.co.ke/news/128736-kenya-railways-disowns-recruitment-drive-advertising-hundreds-jobs",
     "https://kenyans.co.ke/news/128737-treasury-proposes-toll-charges-james-gichuru-rironi-road-govt-seeks-new-private",
-    "https://kenyans.co.ke/news/128740-ps-singoei-addresses-concerns-over-ebola-related-travel-restrictions-border-closures"
+    "https://kenyans.co.ke/news/128740-ps-singoei-addresses-concerns-over-ebola-related-travel-restrictions-border-closures",
+    "https://kenyans.co.ke/news/128741-6-oil-tankers-carrying-energy-products-expected-kenyan-ports-november"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1913,7 +1914,8 @@
     "ncic targets cross county youth enlistment summons reuben ndolo",
     "railways flags mass recruitment notice impersonation networks expand",
     "suburban commuters face toll charges treasury converts waiyaki way stretch ppp",
-    "sing oei defends open borders travel advisories target 9th ebola case"
+    "sing oei defends open borders travel advisories target 9th ebola case",
+    "kpa manifest schedules vessels coast receives crucial fuel industrial cargo"
   ],
   "topic_keys": [
     "news tracker",
@@ -5702,6 +5704,15 @@
       "structure": "Attribution and beneficiary lead -> Diplomatic clarification of the US Level 3 advisory -> Economic risks of unilateral border bans versus surveillance -> Cross-border detection breakdown and international screening gaps -> El Salvador travel ban context and domestic containment status",
       "source": "https://kenyans.co.ke/news/128740-ps-singoei-addresses-concerns-over-ebola-related-travel-restrictions-border-closures",
       "published_at": "2026-10-21T08:02:04Z"
+    },
+    {
+      "title": "KPA Manifest Schedules 51 Vessels as Coast Receives Crucial Fuel and Industrial Cargo",
+      "angle": "The operational replenishment timeline of critical industrial inputs\u2014spanning butane, gasoil, clinker, and grain\u2014arriving through the coastal logistics corridor just as regulatory warnings highlighted domestic fuel vulnerability following Persian Gulf tanker strikes.",
+      "angle_type": "practical change",
+      "opening": "Operational schedule opening linking the coastal docking roster directly to domestic fuel reserve replenishment and manufacturing feedstock needs.",
+      "structure": "Manifest sequence lead -> Breakdown of energy and hydrocarbon arrivals -> Industrial feedstocks (clinker, steel, wheat) -> Split logistics between Mombasa and Lamu -> Forward regulatory and security implications",
+      "source": "https://kenyans.co.ke/news/128741-6-oil-tankers-carrying-energy-products-expected-kenyan-ports-november",
+      "published_at": "2026-10-21T09:02:06Z"
     }
   ]
 }
