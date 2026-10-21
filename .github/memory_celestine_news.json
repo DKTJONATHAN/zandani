@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "bce8befbe0b7490a5aef4cc97e833a06",
     "65417a5239eb8fdd9fbf7e104abaf6f1",
     "5e5cb136fb14072c37f149ee6909a52d",
     "45c2d4bf0b8c081b15dca9892514daf5",
@@ -799,10 +798,10 @@
     "60cd23b54f2a3ef50c59e4a7cffe3fa5",
     "20d44f888d5f0801e6bbf6d3b6e1ec9a",
     "655d46e19ebd068887f2001e4e0339fb",
-    "a6c4d0d0e47dada653b74cc970d09df8"
+    "a6c4d0d0e47dada653b74cc970d09df8",
+    "8fe6697680a922e04e4e19e48d424f7e"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1418,7 +1418,8 @@
     "https://kenyans.co.ke/news/128751-train-stations-route-and-key-details-nairobi-thika-railway-upgrade",
     "https://kenyans.co.ke/news/128753-dangote-confirms-acquisition-25-stake-kpc-amid-questions",
     "https://kenyans.co.ke/news/128754-dci-arrests-suspect-linked-violent-robbery-nairobis-parklands",
-    "https://kenyans.co.ke/news/128756-sakaja-makes-cabinet-reshuffle-replaces-mosiria"
+    "https://kenyans.co.ke/news/128756-sakaja-makes-cabinet-reshuffle-replaces-mosiria",
+    "https://kenyans.co.ke/news/128758-mps-demand-probe-helicopters-after-kfs-chopper-carrying-ps-crashes"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1927,7 +1928,8 @@
     "last mile links dormant station restarts drive ksh65b nairobi thika rail overhaul",
     "dangote ksh42 pipeline buy crosses takeover line pension exit",
     "gigiri detectives net armed parklands mugging suspect dropped gun trace",
-    "sakaja invokes county act powers oust mosiria city hall feud deepens"
+    "sakaja invokes county act powers oust mosiria city hall feud deepens",
+    "parliament demands kcaa maintenance records state choppers kericho crash"
   ],
   "topic_keys": [
     "news tracker",
@@ -5779,6 +5781,15 @@
       "structure": "Executive action lead -> Statutory circular details and multi-docket restructuring -> Mosiria's insider trajectory and campaign launch -> Fiscal dispute and whistleblowing threats -> Operational forward edge on acting appointees.",
       "source": "https://kenyans.co.ke/news/128756-sakaja-makes-cabinet-reshuffle-replaces-mosiria",
       "published_at": "2026-10-21T14:02:02Z"
+    },
+    {
+      "title": "Parliament Demands KCAA Maintenance Records for State Choppers After Kericho Crash",
+      "angle": "Focusing on the regulatory and maintenance accountability demanded from KCAA regarding parastatal airworthiness, targeting whether state agency fleets operate under documented mechanical defects or oversight gaps before VIP flights.",
+      "angle_type": "accountability",
+      "opening": "Regulatory audit lead framing the parliamentary push to open maintenance records and flight approvals of parastatal-operated helicopters.",
+      "structure": "Oversight push lead -> Kericho Golf Club incident specifics -> Detailed evidentiary questions tabled to the committee -> Broader pattern of fatal 2026 crashes cited -> Pending committee directives.",
+      "source": "https://kenyans.co.ke/news/128758-mps-demand-probe-helicopters-after-kfs-chopper-carrying-ps-crashes",
+      "published_at": "2026-10-21T14:57:48Z"
     }
   ]
 }
