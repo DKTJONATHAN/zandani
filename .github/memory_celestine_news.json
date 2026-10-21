@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "45c2d4bf0b8c081b15dca9892514daf5",
     "3dd3cbfa28ee9db4b37e76a4d8b079c4",
     "f7ba128385f35b618687b9ee2cd75616",
     "ea0b3fff4bbd3a99d83d0d6ad753e7ca",
@@ -799,10 +798,10 @@
     "a6c4d0d0e47dada653b74cc970d09df8",
     "8fe6697680a922e04e4e19e48d424f7e",
     "8f3e72b1f8dd53d5c3205a425aabce56",
-    "5adad5fdf046e9a132c2b07d102c7633"
+    "5adad5fdf046e9a132c2b07d102c7633",
+    "43c9c970736a1be7daa0f607c9d18e2a"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1421,7 +1421,8 @@
     "https://kenyans.co.ke/news/128756-sakaja-makes-cabinet-reshuffle-replaces-mosiria",
     "https://kenyans.co.ke/news/128758-mps-demand-probe-helicopters-after-kfs-chopper-carrying-ps-crashes",
     "https://kenyans.co.ke/news/128752-kindiki-reveals-govt-plan-licence-traditional-brews-meet-new-standards",
-    "https://kenyans.co.ke/news/128759-kenya-launches-ksh20-billion-conservation-project-targets-7800-jobs"
+    "https://kenyans.co.ke/news/128759-kenya-launches-ksh20-billion-conservation-project-targets-7800-jobs",
+    "https://kenyans.co.ke/news/128760-govt-business-websites-risk-critical-php-flaws-emerge"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1933,7 +1934,8 @@
     "sakaja invokes county act powers oust mosiria city hall feud deepens",
     "parliament demands kcaa maintenance records state choppers kericho crash",
     "kindiki clears kebs licensing path traditional brewers state targets cartel assets",
-    "kws shifts conservation funding year pfp model ksh20b tsavo pact"
+    "kws shifts conservation funding year pfp model ksh20b tsavo pact",
+    "local digital infrastructure alert critical php vulnerabilities hit server core"
   ],
   "topic_keys": [
     "news tracker",
@@ -5812,6 +5814,15 @@
       "structure": "Funding shift lead -> Matching-grant structure and PFP mechanics -> Geographic and operational acreage targets -> Livelihood and job distribution metrics -> Unresolved implementation timeline.",
       "source": "https://kenyans.co.ke/news/128759-kenya-launches-ksh20-billion-conservation-project-targets-7800-jobs",
       "published_at": "2026-10-21T16:02:11Z"
+    },
+    {
+      "title": "Local Digital Infrastructure on Alert as Critical PHP Vulnerabilities Hit Server Core",
+      "angle": "The practical exposure facing Kenyan enterprise and public-service web infrastructure running on PHP, and how automated perimeter defenses by entities like Cloudflare and CMS warnings from WordPress intersect with local digital vulnerability before local outages occur.",
+      "angle_type": "local impact",
+      "opening": "Local-impact opening focusing on the systemic exposure facing Kenyan public-service and business digital infrastructure dependent on PHP.",
+      "structure": "Local digital exposure lead -> AI-assisted vulnerability discovery and timeline -> International and local institutional response -> Cloudflare and WordPress technical mitigation metrics -> Forward security compliance edge.",
+      "source": "https://kenyans.co.ke/news/128760-govt-business-websites-risk-critical-php-flaws-emerge",
+      "published_at": "2026-10-21T17:01:28Z"
     }
   ]
 }
