@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "b99a7a31023e0b7d7900954dab5e1021",
     "7b0e2a3b7498e5b2265cebeaa60b1928",
     "bce8befbe0b7490a5aef4cc97e833a06",
     "65417a5239eb8fdd9fbf7e104abaf6f1",
@@ -799,10 +798,10 @@
     "6ffb877de317e17318bc36e5199419cf",
     "d5813d81bff665a0dac445e6a1a173f5",
     "60cd23b54f2a3ef50c59e4a7cffe3fa5",
-    "20d44f888d5f0801e6bbf6d3b6e1ec9a"
+    "20d44f888d5f0801e6bbf6d3b6e1ec9a",
+    "655d46e19ebd068887f2001e4e0339fb"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1416,7 +1416,8 @@
     "https://kenyans.co.ke/news/128743-cbk-survey-lists-milk-and-maize-among-items-set-further-rise-prices",
     "https://kenyans.co.ke/news/128748-scores-feared-dead-after-mutonga-quarry-collapses-meru",
     "https://kenyans.co.ke/news/128751-train-stations-route-and-key-details-nairobi-thika-railway-upgrade",
-    "https://kenyans.co.ke/news/128753-dangote-confirms-acquisition-25-stake-kpc-amid-questions"
+    "https://kenyans.co.ke/news/128753-dangote-confirms-acquisition-25-stake-kpc-amid-questions",
+    "https://kenyans.co.ke/news/128754-dci-arrests-suspect-linked-violent-robbery-nairobis-parklands"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1923,7 +1924,8 @@
     "trader price hedging accelerates pasture loss haulage bills pressure food supply",
     "villagers lead rubble clearance mutonga quarry caved south imenti workers",
     "last mile links dormant station restarts drive ksh65b nairobi thika rail overhaul",
-    "dangote ksh42 pipeline buy crosses takeover line pension exit"
+    "dangote ksh42 pipeline buy crosses takeover line pension exit",
+    "gigiri detectives net armed parklands mugging suspect dropped gun trace"
   ],
   "topic_keys": [
     "news tracker",
@@ -5757,6 +5759,15 @@
       "structure": "Takeover trigger lead -> Block trade mechanics and unmasked buyer -> Pension scheme absorption and Nyoro's allegations -> Strategic downstream asset positioning -> Unresolved CMA disclosure questions.",
       "source": "https://kenyans.co.ke/news/128753-dangote-confirms-acquisition-25-stake-kpc-amid-questions",
       "published_at": "2026-10-21T12:02:11Z"
+    },
+    {
+      "title": "Gigiri Detectives Net Armed Parklands Mugging Suspect After Dropped Gun Trace",
+      "angle": "Attribution-first framing highlighting how Gigiri detectives leveraged a dropped firearm exhibit to anchor the arrest, delivering initial relief to Westlands-Parklands commercial corridors while the broader motorcycle gang remains at large.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first statement naming Gigiri detectives, followed immediately by the local community and commercial beneficiaries facing rising daylight armed muggings.",
+      "structure": "Attribution and beneficiary lead -> Evidentiary recovery and dropped firearm -> Video timeline and public alarm -> Commercial corridor crime pattern (General Mathenge precedent) -> Next prosecutorial steps and hunt for accomplices.",
+      "source": "https://kenyans.co.ke/news/128754-dci-arrests-suspect-linked-violent-robbery-nairobis-parklands",
+      "published_at": "2026-10-21T13:01:31Z"
     }
   ]
 }
