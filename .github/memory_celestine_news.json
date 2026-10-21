@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "919838f7542348b589220701c9f3fdcb",
     "73d2ef7c03dfb570641ef254b2b27b3a",
     "181ad27620467bf7ab50b327fe821e2f",
     "2991a780617dc5f2be7865129171bb40",
@@ -799,10 +798,10 @@
     "f505f6d82223e1aaed85fd31738e39a2",
     "bb4876d2a0309de104d1e49697e0eabb",
     "44b7801536eadb4269bad49ec8fa41de",
-    "f08d2f345465a4a613ba681839aeb9da"
+    "f08d2f345465a4a613ba681839aeb9da",
+    "ff15a910d9b3a6ff1d75cae40c730d84"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1407,7 +1407,8 @@
     "https://kenyans.co.ke/news/128726-treasury-begins-bids-evaluation-460km-nairobi-mombasa-expressway",
     "https://kenyans.co.ke/news/128727-cle-extends-november-2026-atp-exam-registration-october-27-opens-deferral-window",
     "https://kenyans.co.ke/news/128728-600-ceos-push-tax-cuts-lower-interest-rates-boost-businesses",
-    "https://kenyans.co.ke/news/128729-ministry-health-confirms-9th-ebola-case-kenya"
+    "https://kenyans.co.ke/news/128729-ministry-health-confirms-9th-ebola-case-kenya",
+    "https://kenyans.co.ke/news/128734-ncic-summons-former-mp-reuben-ndolo-over-remarks-nairobi-church"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1905,7 +1906,8 @@
     "treasury weighs transaction bids 461km mombasa road expansion",
     "cle offers seven day atp exam reprieve amid intake freeze",
     "commercial credit barrier leaves firms self funding operations",
-    "moh confirms 9th ebola infection contained within quarantine network"
+    "moh confirms 9th ebola infection contained within quarantine network",
+    "ncic targets cross county youth enlistment summons reuben ndolo"
   ],
   "topic_keys": [
     "news tracker",
@@ -5658,6 +5660,15 @@
       "structure": "Attribution-and-beneficiary lead -> Epidemiological verification and treatment stockpile core -> Laboratory segregation and county logistical perimeter -> Institutional quotes and tracing metrics -> Forward edge on the October 25 quarantine cohort discharge",
       "source": "https://kenyans.co.ke/news/128729-ministry-health-confirms-9th-ebola-case-kenya",
       "published_at": "2026-10-20T16:02:06Z"
+    },
+    {
+      "title": "NCIC Targets Cross-County Youth Enlistment in Summons to Reuben Ndolo",
+      "angle": "Focusing on institutional enforcement against informal youth recruitment rings, where the state's cohesion watchdog is using penal threats to cut off cross-county mobilisation networks before they spill into memorial politics and early 2027 campaign operations.",
+      "angle_type": "institutional pressure",
+      "opening": "Enforcement timeline lead focusing on NCIC's penal warning over cross-county youth recruitment admissions.",
+      "structure": "Institutional enforcement lead -> Specific evidentiary basis of youth recruitment admissions -> Political grievances and memorial dispute context -> Wider regulatory dragnet targeting national figures -> Procedural ultimatum and legal consequences",
+      "source": "https://kenyans.co.ke/news/128734-ncic-summons-former-mp-reuben-ndolo-over-remarks-nairobi-church",
+      "published_at": "2026-10-21T05:02:04Z"
     }
   ]
 }
