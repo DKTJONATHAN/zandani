@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "181ad27620467bf7ab50b327fe821e2f",
     "2991a780617dc5f2be7865129171bb40",
     "f9182e12191d8f2b708ea7c0edb79b41",
     "3eb0df6c0c84d9dbbed9149a38eb0504",
@@ -799,10 +798,10 @@
     "44b7801536eadb4269bad49ec8fa41de",
     "f08d2f345465a4a613ba681839aeb9da",
     "ff15a910d9b3a6ff1d75cae40c730d84",
-    "0e365b83ff6f26aa7fd45300dbd5aa54"
+    "0e365b83ff6f26aa7fd45300dbd5aa54",
+    "d10e34b095ff53275efb69d1b4093876"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1409,7 +1409,8 @@
     "https://kenyans.co.ke/news/128728-600-ceos-push-tax-cuts-lower-interest-rates-boost-businesses",
     "https://kenyans.co.ke/news/128729-ministry-health-confirms-9th-ebola-case-kenya",
     "https://kenyans.co.ke/news/128734-ncic-summons-former-mp-reuben-ndolo-over-remarks-nairobi-church",
-    "https://kenyans.co.ke/news/128736-kenya-railways-disowns-recruitment-drive-advertising-hundreds-jobs"
+    "https://kenyans.co.ke/news/128736-kenya-railways-disowns-recruitment-drive-advertising-hundreds-jobs",
+    "https://kenyans.co.ke/news/128737-treasury-proposes-toll-charges-james-gichuru-rironi-road-govt-seeks-new-private"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1909,7 +1910,8 @@
     "commercial credit barrier leaves firms self funding operations",
     "moh confirms 9th ebola infection contained within quarantine network",
     "ncic targets cross county youth enlistment summons reuben ndolo",
-    "railways flags mass recruitment notice impersonation networks expand"
+    "railways flags mass recruitment notice impersonation networks expand",
+    "suburban commuters face toll charges treasury converts waiyaki way stretch ppp"
   ],
   "topic_keys": [
     "news tracker",
@@ -5680,6 +5682,15 @@
       "structure": "Threat escalation lead -> Anatomy of the bogus vacancy list -> Institutional disclaimers and verification protocols -> Precedent of July booking platform fraud -> Ongoing security agency investigations",
       "source": "https://kenyans.co.ke/news/128736-kenya-railways-disowns-recruitment-drive-advertising-hundreds-jobs",
       "published_at": "2026-10-21T06:02:21Z"
+    },
+    {
+      "title": "Suburban Commuters Face Toll Charges as Treasury Converts Waiyaki Way Stretch to PPP",
+      "angle": "Focusing on the local transit and commuter impact: Treasury is transferring the financial burden of finishing a nine-year, funding-starved highway rehabilitation directly onto daily suburban traffic across Nairobi's western residential belt.",
+      "angle_type": "local impact",
+      "opening": "Commuter-impact opening anchoring the Treasury's September project approval directly to the everyday transit bills facing satellite estates west of Nairobi.",
+      "structure": "Corridor toll exposure lead -> Brownfield project mechanics and Treasury PPP approval -> Historical delay sequence and World Bank exit -> Civil works scope and speed targets -> Private operator procurement timeline",
+      "source": "https://kenyans.co.ke/news/128737-treasury-proposes-toll-charges-james-gichuru-rironi-road-govt-seeks-new-private",
+      "published_at": "2026-10-21T07:01:36Z"
     }
   ]
 }
