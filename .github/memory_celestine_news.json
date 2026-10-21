@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "bc1463bb5b8fab0e89682b210438d3a3",
     "b99a7a31023e0b7d7900954dab5e1021",
     "7b0e2a3b7498e5b2265cebeaa60b1928",
     "bce8befbe0b7490a5aef4cc97e833a06",
@@ -799,10 +798,10 @@
     "d5e93e23f5774f9f91c90b4791a813dd",
     "6ffb877de317e17318bc36e5199419cf",
     "d5813d81bff665a0dac445e6a1a173f5",
-    "60cd23b54f2a3ef50c59e4a7cffe3fa5"
+    "60cd23b54f2a3ef50c59e4a7cffe3fa5",
+    "20d44f888d5f0801e6bbf6d3b6e1ec9a"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1415,7 +1415,8 @@
     "https://kenyans.co.ke/news/128741-6-oil-tankers-carrying-energy-products-expected-kenyan-ports-november",
     "https://kenyans.co.ke/news/128743-cbk-survey-lists-milk-and-maize-among-items-set-further-rise-prices",
     "https://kenyans.co.ke/news/128748-scores-feared-dead-after-mutonga-quarry-collapses-meru",
-    "https://kenyans.co.ke/news/128751-train-stations-route-and-key-details-nairobi-thika-railway-upgrade"
+    "https://kenyans.co.ke/news/128751-train-stations-route-and-key-details-nairobi-thika-railway-upgrade",
+    "https://kenyans.co.ke/news/128753-dangote-confirms-acquisition-25-stake-kpc-amid-questions"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1921,7 +1922,8 @@
     "kpa manifest schedules vessels coast receives crucial fuel industrial cargo",
     "trader price hedging accelerates pasture loss haulage bills pressure food supply",
     "villagers lead rubble clearance mutonga quarry caved south imenti workers",
-    "last mile links dormant station restarts drive ksh65b nairobi thika rail overhaul"
+    "last mile links dormant station restarts drive ksh65b nairobi thika rail overhaul",
+    "dangote ksh42 pipeline buy crosses takeover line pension exit"
   ],
   "topic_keys": [
     "news tracker",
@@ -5746,6 +5748,15 @@
       "structure": "Feeder-and-reactivation lead -> Map of active vs idle assets and proposed halts -> Feeder infrastructure mechanics -> Makadara maintenance depot role -> Forward outlook on network electrification.",
       "source": "https://kenyans.co.ke/news/128751-train-stations-route-and-key-details-nairobi-thika-railway-upgrade",
       "published_at": "2026-10-21T11:01:58Z"
+    },
+    {
+      "title": "Dangote\u2019s Ksh42.5B Pipeline Buy Crosses Takeover Line After Pension Exit",
+      "angle": "The transaction crosses Kenya's 25% mandatory takeover threshold and resolves the mystery of who bought out state pension schemes\u2014institutions that were pressured into taking up KPC's under-subscribed IPO before offloading the holding in a single off-market block.",
+      "angle_type": "accountability",
+      "opening": "Regulatory-threshold and fiduciary exposure lead tying the 25% stake directly to CMA takeover rules and the quick exit of state pension funds.",
+      "structure": "Takeover trigger lead -> Block trade mechanics and unmasked buyer -> Pension scheme absorption and Nyoro's allegations -> Strategic downstream asset positioning -> Unresolved CMA disclosure questions.",
+      "source": "https://kenyans.co.ke/news/128753-dangote-confirms-acquisition-25-stake-kpc-amid-questions",
+      "published_at": "2026-10-21T12:02:11Z"
     }
   ]
 }
