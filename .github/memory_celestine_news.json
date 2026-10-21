@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "5e5cb136fb14072c37f149ee6909a52d",
     "45c2d4bf0b8c081b15dca9892514daf5",
     "3dd3cbfa28ee9db4b37e76a4d8b079c4",
     "f7ba128385f35b618687b9ee2cd75616",
@@ -799,10 +798,10 @@
     "655d46e19ebd068887f2001e4e0339fb",
     "a6c4d0d0e47dada653b74cc970d09df8",
     "8fe6697680a922e04e4e19e48d424f7e",
-    "8f3e72b1f8dd53d5c3205a425aabce56"
+    "8f3e72b1f8dd53d5c3205a425aabce56",
+    "5adad5fdf046e9a132c2b07d102c7633"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1420,7 +1420,8 @@
     "https://kenyans.co.ke/news/128754-dci-arrests-suspect-linked-violent-robbery-nairobis-parklands",
     "https://kenyans.co.ke/news/128756-sakaja-makes-cabinet-reshuffle-replaces-mosiria",
     "https://kenyans.co.ke/news/128758-mps-demand-probe-helicopters-after-kfs-chopper-carrying-ps-crashes",
-    "https://kenyans.co.ke/news/128752-kindiki-reveals-govt-plan-licence-traditional-brews-meet-new-standards"
+    "https://kenyans.co.ke/news/128752-kindiki-reveals-govt-plan-licence-traditional-brews-meet-new-standards",
+    "https://kenyans.co.ke/news/128759-kenya-launches-ksh20-billion-conservation-project-targets-7800-jobs"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1931,7 +1932,8 @@
     "gigiri detectives net armed parklands mugging suspect dropped gun trace",
     "sakaja invokes county act powers oust mosiria city hall feud deepens",
     "parliament demands kcaa maintenance records state choppers kericho crash",
-    "kindiki clears kebs licensing path traditional brewers state targets cartel assets"
+    "kindiki clears kebs licensing path traditional brewers state targets cartel assets",
+    "kws shifts conservation funding year pfp model ksh20b tsavo pact"
   ],
   "topic_keys": [
     "news tracker",
@@ -5801,6 +5803,15 @@
       "structure": "Attribution and beneficiary lead -> Direct policy quotations on KEBS certification and asset seizure -> Enforcement metrics and multi-agency coordination desk -> Regulatory separation of cultural brews from toxic ethanol -> Forward timeline on community engagement rules",
       "source": "https://kenyans.co.ke/news/128752-kindiki-reveals-govt-plan-licence-traditional-brews-meet-new-standards",
       "published_at": "2026-10-21T15:02:22Z"
+    },
+    {
+      "title": "KWS Shifts Conservation Funding to 10-Year PFP Model in Ksh20B Tsavo Pact",
+      "angle": "Examining the mechanics of the Project Finance for Permanence (PFP) model and the long-term structural shift away from traditional short-term funding cycles toward matching-fund institutional commitments across 31 counties.",
+      "angle_type": "practical change",
+      "opening": "Institutional framework lead focusing on the funding shift and the PFP mechanism.",
+      "structure": "Funding shift lead -> Matching-grant structure and PFP mechanics -> Geographic and operational acreage targets -> Livelihood and job distribution metrics -> Unresolved implementation timeline.",
+      "source": "https://kenyans.co.ke/news/128759-kenya-launches-ksh20-billion-conservation-project-targets-7800-jobs",
+      "published_at": "2026-10-21T16:02:11Z"
     }
   ]
 }
