@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "65417a5239eb8fdd9fbf7e104abaf6f1",
     "5e5cb136fb14072c37f149ee6909a52d",
     "45c2d4bf0b8c081b15dca9892514daf5",
     "3dd3cbfa28ee9db4b37e76a4d8b079c4",
@@ -799,10 +798,10 @@
     "20d44f888d5f0801e6bbf6d3b6e1ec9a",
     "655d46e19ebd068887f2001e4e0339fb",
     "a6c4d0d0e47dada653b74cc970d09df8",
-    "8fe6697680a922e04e4e19e48d424f7e"
+    "8fe6697680a922e04e4e19e48d424f7e",
+    "8f3e72b1f8dd53d5c3205a425aabce56"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1419,7 +1419,8 @@
     "https://kenyans.co.ke/news/128753-dangote-confirms-acquisition-25-stake-kpc-amid-questions",
     "https://kenyans.co.ke/news/128754-dci-arrests-suspect-linked-violent-robbery-nairobis-parklands",
     "https://kenyans.co.ke/news/128756-sakaja-makes-cabinet-reshuffle-replaces-mosiria",
-    "https://kenyans.co.ke/news/128758-mps-demand-probe-helicopters-after-kfs-chopper-carrying-ps-crashes"
+    "https://kenyans.co.ke/news/128758-mps-demand-probe-helicopters-after-kfs-chopper-carrying-ps-crashes",
+    "https://kenyans.co.ke/news/128752-kindiki-reveals-govt-plan-licence-traditional-brews-meet-new-standards"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1929,7 +1930,8 @@
     "dangote ksh42 pipeline buy crosses takeover line pension exit",
     "gigiri detectives net armed parklands mugging suspect dropped gun trace",
     "sakaja invokes county act powers oust mosiria city hall feud deepens",
-    "parliament demands kcaa maintenance records state choppers kericho crash"
+    "parliament demands kcaa maintenance records state choppers kericho crash",
+    "kindiki clears kebs licensing path traditional brewers state targets cartel assets"
   ],
   "topic_keys": [
     "news tracker",
@@ -5790,6 +5792,15 @@
       "structure": "Oversight push lead -> Kericho Golf Club incident specifics -> Detailed evidentiary questions tabled to the committee -> Broader pattern of fatal 2026 crashes cited -> Pending committee directives.",
       "source": "https://kenyans.co.ke/news/128758-mps-demand-probe-helicopters-after-kfs-chopper-carrying-ps-crashes",
       "published_at": "2026-10-21T14:57:48Z"
+    },
+    {
+      "title": "Kindiki Clears KEBS Licensing Path for Traditional Brewers as State Targets Cartel Assets",
+      "angle": "Attribution-first posture tracking how Kindiki's dual-track policy creates a formal commercial off-ramp for compliant cultural brewers while establishing an asset-confiscation pipeline that diverts criminal cartel profits into public addiction treatment.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first statement identifying the Deputy President, immediately followed by the local artisanal producers and public addiction facilities set to benefit from standardisation and asset forfeiture.",
+      "structure": "Attribution and beneficiary lead -> Direct policy quotations on KEBS certification and asset seizure -> Enforcement metrics and multi-agency coordination desk -> Regulatory separation of cultural brews from toxic ethanol -> Forward timeline on community engagement rules",
+      "source": "https://kenyans.co.ke/news/128752-kindiki-reveals-govt-plan-licence-traditional-brews-meet-new-standards",
+      "published_at": "2026-10-21T15:02:22Z"
     }
   ]
 }
