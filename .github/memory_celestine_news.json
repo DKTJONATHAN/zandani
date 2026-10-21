@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "73d2ef7c03dfb570641ef254b2b27b3a",
     "181ad27620467bf7ab50b327fe821e2f",
     "2991a780617dc5f2be7865129171bb40",
     "f9182e12191d8f2b708ea7c0edb79b41",
@@ -799,10 +798,10 @@
     "bb4876d2a0309de104d1e49697e0eabb",
     "44b7801536eadb4269bad49ec8fa41de",
     "f08d2f345465a4a613ba681839aeb9da",
-    "ff15a910d9b3a6ff1d75cae40c730d84"
+    "ff15a910d9b3a6ff1d75cae40c730d84",
+    "0e365b83ff6f26aa7fd45300dbd5aa54"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1408,7 +1408,8 @@
     "https://kenyans.co.ke/news/128727-cle-extends-november-2026-atp-exam-registration-october-27-opens-deferral-window",
     "https://kenyans.co.ke/news/128728-600-ceos-push-tax-cuts-lower-interest-rates-boost-businesses",
     "https://kenyans.co.ke/news/128729-ministry-health-confirms-9th-ebola-case-kenya",
-    "https://kenyans.co.ke/news/128734-ncic-summons-former-mp-reuben-ndolo-over-remarks-nairobi-church"
+    "https://kenyans.co.ke/news/128734-ncic-summons-former-mp-reuben-ndolo-over-remarks-nairobi-church",
+    "https://kenyans.co.ke/news/128736-kenya-railways-disowns-recruitment-drive-advertising-hundreds-jobs"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1907,7 +1908,8 @@
     "cle offers seven day atp exam reprieve amid intake freeze",
     "commercial credit barrier leaves firms self funding operations",
     "moh confirms 9th ebola infection contained within quarantine network",
-    "ncic targets cross county youth enlistment summons reuben ndolo"
+    "ncic targets cross county youth enlistment summons reuben ndolo",
+    "railways flags mass recruitment notice impersonation networks expand"
   ],
   "topic_keys": [
     "news tracker",
@@ -5669,6 +5671,15 @@
       "structure": "Institutional enforcement lead -> Specific evidentiary basis of youth recruitment admissions -> Political grievances and memorial dispute context -> Wider regulatory dragnet targeting national figures -> Procedural ultimatum and legal consequences",
       "source": "https://kenyans.co.ke/news/128734-ncic-summons-former-mp-reuben-ndolo-over-remarks-nairobi-church",
       "published_at": "2026-10-21T05:02:04Z"
+    },
+    {
+      "title": "Kenya Railways Flags Mass Recruitment Notice as Impersonation Networks Expand",
+      "angle": "Framing the recruitment scam as an escalation of coordinated cyber impersonation targeting Kenya Railways, moving from fake Madaraka Express ticketing portals in July to large-scale data and financial harvesting schemes exploiting unemployment.",
+      "angle_type": "consequence",
+      "opening": "Direct consequence lead establishing the migration of digital fraud targeting the state rail operator from passenger ticketing to predatory employment recruitment.",
+      "structure": "Threat escalation lead -> Anatomy of the bogus vacancy list -> Institutional disclaimers and verification protocols -> Precedent of July booking platform fraud -> Ongoing security agency investigations",
+      "source": "https://kenyans.co.ke/news/128736-kenya-railways-disowns-recruitment-drive-advertising-hundreds-jobs",
+      "published_at": "2026-10-21T06:02:21Z"
     }
   ]
 }
