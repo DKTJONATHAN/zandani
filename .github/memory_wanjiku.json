@@ -308,7 +308,8 @@
     "d6dfe50dbd7398eed127d31935f7e093a81814b6f8617cb61eefc8656aa88829",
     "55155ab8186544e0c4713cfa6f95846e535617902839a7c431418b2710462727",
     "e5fa023da26bd087e95e66a35284daed8cf0cab5c62904919bb0b53c4ba7b516",
-    "8f0d3127e3df0009a94d3536a6ae26d778d4644279db1bfcc0b09e168fc0b2a6"
+    "8f0d3127e3df0009a94d3536a6ae26d778d4644279db1bfcc0b09e168fc0b2a6",
+    "5bdd79b037d59840a4f69aaf5514441edae5c6cbbe762d25a1fdaa43b8de31be"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -619,17 +620,10 @@
     "https://www.ghafla.co.ke/diana-marua-celebrates-decade-of-love-with-bahati-ahead-of-ksh1m-per-ticket-november-wedding/",
     "https://www.ghafla.co.ke/vindee-kneels-during-interview-begs-ruto-gachagua-and-sonko-for-streaming-equipment/",
     "https://www.ghafla.co.ke/gachagua-mocks-rutos-buffalo-milk-proposal-during-high-profile-meeting-with-opposition-leaders/",
-    "https://www.ghafla.co.ke/public-health-officers-paralyze-nairobi-cbd-as-92-day-strike-escalates-over-pay-recognition/"
+    "https://www.ghafla.co.ke/public-health-officers-paralyze-nairobi-cbd-as-92-day-strike-escalates-over-pay-recognition/",
+    "https://www.ghafla.co.ke/prince-indah-breaks-silence-on-marriage-rumours-with-emotional-tribute-to-wife/"
   ],
   "published_angles": [
-    {
-      "title": "William Ruto Pitches Chocolate Dreams in Kitale as State Formally Declares Cocoa a Scheduled Cash Crop",
-      "angle": "William Ruto turning the Kitale podium into a personal consumer-goods pitch, dangling domestic chocolate, confectionery, and beverage processing directly in front of farmers while marrying cash-crop incomes with tree planting.",
-      "angle_type": "personality-driven economic pitch and value-addition vision",
-      "opening": "Personality lead opening directly on William Ruto painting a picture of chocolate bars and beverage mixes on the Kitale stage.",
-      "structure": "Ruto chocolate pitch lead -> The direct quote and dual tree-planting framing -> Immediate seedling logistics through KALRO and KEPHIS -> The break from traditional tea and coffee reliance -> Kitale rollout close",
-      "source": "https://www.ghafla.co.ke/government-formally-classifies-cocoa-as-scheduled-cash-crop-in-agricultural-diversification-drive/"
-    },
     {
       "title": "Anne Waiguru Dumps Press Conference Politics, Lays Bare Her Strategy Beside William Ruto: \u2018When He Goes to the UN, I Am There\u2019",
       "angle": "Reframing Waiguru's speech around her unapologetic insider playbook: dismissing noise and podium press conferences in favor of high-visibility proximity to William Ruto, openly admitting her strategy is shadowing him all the way to United Nations halls to secure a seat at the table.",
@@ -1421,6 +1415,14 @@
       "opening": "Personality lead opening directly on Brown Ashira taking the microphone outside Afya House after marching through the CBD.",
       "structure": "Confrontation hook at Afya House -> Ashira's direct quotes on feeling despised -> Monetary preconditions (interns and risk allowances) -> Policy critique on preventive vs curative healthcare -> Health crisis backdrop -> Unresolved labor stance.",
       "source": "https://www.ghafla.co.ke/public-health-officers-paralyze-nairobi-cbd-as-92-day-strike-escalates-over-pay-recognition/"
+    },
+    {
+      "title": "Prince Indah Deploys Mashujaa Day Tribute to Sidestep Weeks of Marriage Rumours",
+      "angle": "Focusing on the strategic timing of the public address\u2014using a national holiday dedicated to historical figures to reframe a domestic gossip cycle rather than issuing a direct press statement denying the rumors.",
+      "angle_type": "celebrity communication strategy and domestic boundary setting",
+      "opening": "Personality lead opening directly on the singer's tactical use of Mashujaa Day to pivot the narrative around his household.",
+      "structure": "Personality hook -> The weeks of unaddressed blogger speculation -> Breakdown of the Instagram tribute and Winnie's sparkling maroon velvet styling -> Context of Mashujaa Day national celebrations in Eldoret versus personal loyalty -> Close on the unaddressed rumors vs. public relationship framing.",
+      "source": "https://www.ghafla.co.ke/prince-indah-breaks-silence-on-marriage-rumours-with-emotional-tribute-to-wife/"
     }
   ],
   "style_history": [
