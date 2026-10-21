@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "60ca9c4929d9cfd289434b7ee9274ce7",
     "bc1463bb5b8fab0e89682b210438d3a3",
     "b99a7a31023e0b7d7900954dab5e1021",
     "7b0e2a3b7498e5b2265cebeaa60b1928",
@@ -799,10 +798,10 @@
     "10c28333571a25a9ae9803fa18e577bb",
     "d5e93e23f5774f9f91c90b4791a813dd",
     "6ffb877de317e17318bc36e5199419cf",
-    "d5813d81bff665a0dac445e6a1a173f5"
+    "d5813d81bff665a0dac445e6a1a173f5",
+    "60cd23b54f2a3ef50c59e4a7cffe3fa5"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1414,7 +1414,8 @@
     "https://kenyans.co.ke/news/128740-ps-singoei-addresses-concerns-over-ebola-related-travel-restrictions-border-closures",
     "https://kenyans.co.ke/news/128741-6-oil-tankers-carrying-energy-products-expected-kenyan-ports-november",
     "https://kenyans.co.ke/news/128743-cbk-survey-lists-milk-and-maize-among-items-set-further-rise-prices",
-    "https://kenyans.co.ke/news/128748-scores-feared-dead-after-mutonga-quarry-collapses-meru"
+    "https://kenyans.co.ke/news/128748-scores-feared-dead-after-mutonga-quarry-collapses-meru",
+    "https://kenyans.co.ke/news/128751-train-stations-route-and-key-details-nairobi-thika-railway-upgrade"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1919,7 +1920,8 @@
     "sing oei defends open borders travel advisories target 9th ebola case",
     "kpa manifest schedules vessels coast receives crucial fuel industrial cargo",
     "trader price hedging accelerates pasture loss haulage bills pressure food supply",
-    "villagers lead rubble clearance mutonga quarry caved south imenti workers"
+    "villagers lead rubble clearance mutonga quarry caved south imenti workers",
+    "last mile links dormant station restarts drive ksh65b nairobi thika rail overhaul"
   ],
   "topic_keys": [
     "news tracker",
@@ -5735,6 +5737,15 @@
       "structure": "Grassroots rescue lead -> Incident timeline and emergency dispatch -> Verified casualty and survivor accounts -> Geotechnical and livelihood context along the border -> Next investigative steps",
       "source": "https://kenyans.co.ke/news/128748-scores-feared-dead-after-mutonga-quarry-collapses-meru",
       "published_at": "2026-10-21T10:02:04Z"
+    },
+    {
+      "title": "Last-Mile Links and Dormant Station Restarts Drive Ksh65B Nairobi-Thika Rail Overhaul",
+      "angle": "Focusing on the operational integration strategy: reactivating four idle suburban stations\u2014including Kenyatta University and Mutindwa\u2014by combining rail repairs with a mandatory one-kilometer pedestrian and non-motorised transit feeder radius.",
+      "angle_type": "practical change",
+      "opening": "Operational-integration lead connecting station reactivation directly to last-mile pedestrian feeder infrastructure across the Nairobi-Kiambu transit belt.",
+      "structure": "Feeder-and-reactivation lead -> Map of active vs idle assets and proposed halts -> Feeder infrastructure mechanics -> Makadara maintenance depot role -> Forward outlook on network electrification.",
+      "source": "https://kenyans.co.ke/news/128751-train-stations-route-and-key-details-nairobi-thika-railway-upgrade",
+      "published_at": "2026-10-21T11:01:58Z"
     }
   ]
 }
