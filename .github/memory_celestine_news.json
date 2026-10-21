@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "3eb0df6c0c84d9dbbed9149a38eb0504",
     "615707aeb4ad220c7f507406b78cbc50",
     "60ca9c4929d9cfd289434b7ee9274ce7",
     "bc1463bb5b8fab0e89682b210438d3a3",
@@ -799,10 +798,10 @@
     "0e365b83ff6f26aa7fd45300dbd5aa54",
     "d10e34b095ff53275efb69d1b4093876",
     "10c28333571a25a9ae9803fa18e577bb",
-    "d5e93e23f5774f9f91c90b4791a813dd"
+    "d5e93e23f5774f9f91c90b4791a813dd",
+    "6ffb877de317e17318bc36e5199419cf"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1412,7 +1412,8 @@
     "https://kenyans.co.ke/news/128736-kenya-railways-disowns-recruitment-drive-advertising-hundreds-jobs",
     "https://kenyans.co.ke/news/128737-treasury-proposes-toll-charges-james-gichuru-rironi-road-govt-seeks-new-private",
     "https://kenyans.co.ke/news/128740-ps-singoei-addresses-concerns-over-ebola-related-travel-restrictions-border-closures",
-    "https://kenyans.co.ke/news/128741-6-oil-tankers-carrying-energy-products-expected-kenyan-ports-november"
+    "https://kenyans.co.ke/news/128741-6-oil-tankers-carrying-energy-products-expected-kenyan-ports-november",
+    "https://kenyans.co.ke/news/128743-cbk-survey-lists-milk-and-maize-among-items-set-further-rise-prices"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1915,7 +1916,8 @@
     "railways flags mass recruitment notice impersonation networks expand",
     "suburban commuters face toll charges treasury converts waiyaki way stretch ppp",
     "sing oei defends open borders travel advisories target 9th ebola case",
-    "kpa manifest schedules vessels coast receives crucial fuel industrial cargo"
+    "kpa manifest schedules vessels coast receives crucial fuel industrial cargo",
+    "trader price hedging accelerates pasture loss haulage bills pressure food supply"
   ],
   "topic_keys": [
     "news tracker",
@@ -5713,6 +5715,15 @@
       "structure": "Manifest sequence lead -> Breakdown of energy and hydrocarbon arrivals -> Industrial feedstocks (clinker, steel, wheat) -> Split logistics between Mombasa and Lamu -> Forward regulatory and security implications",
       "source": "https://kenyans.co.ke/news/128741-6-oil-tankers-carrying-energy-products-expected-kenyan-ports-november",
       "published_at": "2026-10-21T09:02:06Z"
+    },
+    {
+      "title": "Trader Price Hedging Accelerates as Pasture Loss and Haulage Bills Pressure Food Supply",
+      "angle": "The rapid month-on-month acceleration in trader price hedging, where the delayed pasture hit from earlier in the year is now colliding with haulage costs to drive up food supply expectations.",
+      "angle_type": "consequence",
+      "opening": "Market dynamics lead tracking the sharp month-on-month shift in distributor and retailer price expectations.",
+      "structure": "Merchant expectation shift lead -> Core survey numbers breakdown -> Dual pressures of pasture deficit and transport costs -> Middlemen and distribution haulage mechanics -> Forward retail outlook",
+      "source": "https://kenyans.co.ke/news/128743-cbk-survey-lists-milk-and-maize-among-items-set-further-rise-prices",
+      "published_at": "2026-10-21T09:14:27Z"
     }
   ]
 }
