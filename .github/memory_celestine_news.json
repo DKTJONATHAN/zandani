@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "615707aeb4ad220c7f507406b78cbc50",
     "60ca9c4929d9cfd289434b7ee9274ce7",
     "bc1463bb5b8fab0e89682b210438d3a3",
     "b99a7a31023e0b7d7900954dab5e1021",
@@ -799,10 +798,10 @@
     "d10e34b095ff53275efb69d1b4093876",
     "10c28333571a25a9ae9803fa18e577bb",
     "d5e93e23f5774f9f91c90b4791a813dd",
-    "6ffb877de317e17318bc36e5199419cf"
+    "6ffb877de317e17318bc36e5199419cf",
+    "d5813d81bff665a0dac445e6a1a173f5"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1413,7 +1413,8 @@
     "https://kenyans.co.ke/news/128737-treasury-proposes-toll-charges-james-gichuru-rironi-road-govt-seeks-new-private",
     "https://kenyans.co.ke/news/128740-ps-singoei-addresses-concerns-over-ebola-related-travel-restrictions-border-closures",
     "https://kenyans.co.ke/news/128741-6-oil-tankers-carrying-energy-products-expected-kenyan-ports-november",
-    "https://kenyans.co.ke/news/128743-cbk-survey-lists-milk-and-maize-among-items-set-further-rise-prices"
+    "https://kenyans.co.ke/news/128743-cbk-survey-lists-milk-and-maize-among-items-set-further-rise-prices",
+    "https://kenyans.co.ke/news/128748-scores-feared-dead-after-mutonga-quarry-collapses-meru"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1917,7 +1918,8 @@
     "suburban commuters face toll charges treasury converts waiyaki way stretch ppp",
     "sing oei defends open borders travel advisories target 9th ebola case",
     "kpa manifest schedules vessels coast receives crucial fuel industrial cargo",
-    "trader price hedging accelerates pasture loss haulage bills pressure food supply"
+    "trader price hedging accelerates pasture loss haulage bills pressure food supply",
+    "villagers lead rubble clearance mutonga quarry caved south imenti workers"
   ],
   "topic_keys": [
     "news tracker",
@@ -5724,6 +5726,15 @@
       "structure": "Merchant expectation shift lead -> Core survey numbers breakdown -> Dual pressures of pasture deficit and transport costs -> Middlemen and distribution haulage mechanics -> Forward retail outlook",
       "source": "https://kenyans.co.ke/news/128743-cbk-survey-lists-milk-and-maize-among-items-set-further-rise-prices",
       "published_at": "2026-10-21T09:14:27Z"
+    },
+    {
+      "title": "Villagers Lead Rubble Clearance as Mutonga Quarry Caved In on South Imenti Workers",
+      "angle": "The immediate frontline burden falling on local villagers and fellow stonecutters to manually haul rubble before county machinery arrived at the remote Meru-Tharaka Nithi border site.",
+      "angle_type": "people affected",
+      "opening": "Street-level operational lead focusing on local miners and neighbours digging through rock debris along the county boundary before formal county rescue units reached the scene.",
+      "structure": "Grassroots rescue lead -> Incident timeline and emergency dispatch -> Verified casualty and survivor accounts -> Geotechnical and livelihood context along the border -> Next investigative steps",
+      "source": "https://kenyans.co.ke/news/128748-scores-feared-dead-after-mutonga-quarry-collapses-meru",
+      "published_at": "2026-10-21T10:02:04Z"
     }
   ]
 }
