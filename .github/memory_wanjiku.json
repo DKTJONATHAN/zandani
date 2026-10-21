@@ -303,7 +303,8 @@
     "4dd3dfabb3ce758a1f50fc5f4ceddba5fc4f7f4b0530fa6b68b61e59df1d530c",
     "5dfb2dd165edf08f28a355e42d6f8593a03b1ad1131d9e0108c6efadb893eb85",
     "b657d2e658f10d56155db2d799f9756997778320ed974245890d0e2d66d0ace3",
-    "7e467131386ebc63a7a1c2f1f5e332cceb2b74ae7b98caf2790584ff4ff5c82b"
+    "7e467131386ebc63a7a1c2f1f5e332cceb2b74ae7b98caf2790584ff4ff5c82b",
+    "a27a821c2af2033b89872bc3e79ddcfb66e8457b2298e4f6e86233f26b184cfc"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -609,17 +610,10 @@
     "https://www.ghafla.co.ke/forex-trader-kenyan-prince-defends-reckless-overtaking-after-near-miss-with-truck/",
     "https://www.ghafla.co.ke/co-op-bank-wins-award-for-water-finance-at-africa-water-forum-2026/",
     "https://www.ghafla.co.ke/universal-healthcare-disbursements-and-digital-health-transformation/",
-    "https://www.ghafla.co.ke/stevo-simple-boy-confirms-split-from-partner-after-dna-test-rules-out-paternity/"
+    "https://www.ghafla.co.ke/stevo-simple-boy-confirms-split-from-partner-after-dna-test-rules-out-paternity/",
+    "https://www.ghafla.co.ke/kenya-power-announces-wednesday-blackouts-across-several-counties/"
   ],
   "published_angles": [
-    {
-      "title": "Pastor Robert Burale Confronts Wardrobe Policing After Signature All-Black Style Triggers \u2018Occult\u2019 Whispers",
-      "angle": "Focusing on the friction between modern celebrity-clerical fashion branding and traditional spiritual policing in local church settings, leading to Burale's defense strategy of selective silence.",
-      "angle_type": "celebrity wardrobe policing and strategic public response",
-      "opening": "Personality lead focusing directly on Robert Burale navigating the unexpected spiritual scrutiny of his personal wardrobe during an overnight prayer vigil.",
-      "structure": "Personality lead -> The kesha wardrobe incident and 'high rank' rumors -> The tension between stylistic branding and traditional church optics -> Burale's formula of selective silence -> Analytical wrap-up on public-figure boundary setting.",
-      "source": "https://www.ghafla.co.ke/robert-burale-recalls-being-accused-of-devil-worshipping/"
-    },
     {
       "title": "Shorn Arwa Demands Vanity in Hater Commentary After Sibling Fallout Stirs \u2018Gold Digger\u2019 Slurs",
       "angle": "Arwa's tactical deployment of vanity humor to disarm reputational labels right after stepping in as public protector for her sister during their content partnership split.",
@@ -1411,6 +1405,14 @@
       "opening": "Personality lead opening directly on Stephen Otieno confronting the clinical verdict across a consultation desk before executing a clean personal break.",
       "structure": "Clinical consultation hook -> The forensic mismatch details -> The formal separation announcement and dignified posture -> The career pivot and boundary request.",
       "source": "https://www.ghafla.co.ke/stevo-simple-boy-confirms-split-from-partner-after-dna-test-rules-out-paternity/"
+    },
+    {
+      "title": "Blackout Map: Medical Strips, Tea Hubs, and Lamu Port Hit in 13-County Grid Shutdown",
+      "angle": "Examining the specific operational disruption hitting Kenya's critical medical, academic, and industrial nodes simultaneously\u2014from Mbagathi Way's tertiary corridor to coastal naval bases and Rift Valley tea processors.",
+      "angle_type": "infrastructure impact and institutional consequence",
+      "opening": "Direct focus on the heavy concentration of medical, higher-education, and industrial nerve centres forced offline simultaneously.",
+      "structure": "Institutional impact hook -> Nairobi Mbagathi and health-strip breakdown -> Coastal military and port zones -> Industrial and tea belts in Kericho and Western -> Detailed county coverage schedule",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-wednesday-blackouts-across-several-counties/"
     }
   ],
   "style_history": [
