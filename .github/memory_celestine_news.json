@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "2991a780617dc5f2be7865129171bb40",
     "f9182e12191d8f2b708ea7c0edb79b41",
     "3eb0df6c0c84d9dbbed9149a38eb0504",
     "615707aeb4ad220c7f507406b78cbc50",
@@ -799,10 +798,10 @@
     "f08d2f345465a4a613ba681839aeb9da",
     "ff15a910d9b3a6ff1d75cae40c730d84",
     "0e365b83ff6f26aa7fd45300dbd5aa54",
-    "d10e34b095ff53275efb69d1b4093876"
+    "d10e34b095ff53275efb69d1b4093876",
+    "10c28333571a25a9ae9803fa18e577bb"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1410,7 +1410,8 @@
     "https://kenyans.co.ke/news/128729-ministry-health-confirms-9th-ebola-case-kenya",
     "https://kenyans.co.ke/news/128734-ncic-summons-former-mp-reuben-ndolo-over-remarks-nairobi-church",
     "https://kenyans.co.ke/news/128736-kenya-railways-disowns-recruitment-drive-advertising-hundreds-jobs",
-    "https://kenyans.co.ke/news/128737-treasury-proposes-toll-charges-james-gichuru-rironi-road-govt-seeks-new-private"
+    "https://kenyans.co.ke/news/128737-treasury-proposes-toll-charges-james-gichuru-rironi-road-govt-seeks-new-private",
+    "https://kenyans.co.ke/news/128740-ps-singoei-addresses-concerns-over-ebola-related-travel-restrictions-border-closures"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1911,7 +1912,8 @@
     "moh confirms 9th ebola infection contained within quarantine network",
     "ncic targets cross county youth enlistment summons reuben ndolo",
     "railways flags mass recruitment notice impersonation networks expand",
-    "suburban commuters face toll charges treasury converts waiyaki way stretch ppp"
+    "suburban commuters face toll charges treasury converts waiyaki way stretch ppp",
+    "sing oei defends open borders travel advisories target 9th ebola case"
   ],
   "topic_keys": [
     "news tracker",
@@ -5691,6 +5693,15 @@
       "structure": "Corridor toll exposure lead -> Brownfield project mechanics and Treasury PPP approval -> Historical delay sequence and World Bank exit -> Civil works scope and speed targets -> Private operator procurement timeline",
       "source": "https://kenyans.co.ke/news/128737-treasury-proposes-toll-charges-james-gichuru-rironi-road-govt-seeks-new-private",
       "published_at": "2026-10-21T07:01:36Z"
+    },
+    {
+      "title": "Sing\u2019oei Defends Open Borders as Travel Advisories Target 9th Ebola Case",
+      "angle": "Attribution-first diplomatic and economic posture: Kenya is leaning on multilateral surveillance parity to prevent punitive commercial and travel blockades after unilateral border bans from nations like El Salvador and advisory escalations from the US.",
+      "angle_type": "consequence",
+      "opening": "Attribution-first statement identifying the Principal Secretary, immediately linking his position to the commercial and diplomatic beneficiaries of open frontiers.",
+      "structure": "Attribution and beneficiary lead -> Diplomatic clarification of the US Level 3 advisory -> Economic risks of unilateral border bans versus surveillance -> Cross-border detection breakdown and international screening gaps -> El Salvador travel ban context and domestic containment status",
+      "source": "https://kenyans.co.ke/news/128740-ps-singoei-addresses-concerns-over-ebola-related-travel-restrictions-border-closures",
+      "published_at": "2026-10-21T08:02:04Z"
     }
   ]
 }
