@@ -305,7 +305,8 @@
     "b657d2e658f10d56155db2d799f9756997778320ed974245890d0e2d66d0ace3",
     "7e467131386ebc63a7a1c2f1f5e332cceb2b74ae7b98caf2790584ff4ff5c82b",
     "a27a821c2af2033b89872bc3e79ddcfb66e8457b2298e4f6e86233f26b184cfc",
-    "d6dfe50dbd7398eed127d31935f7e093a81814b6f8617cb61eefc8656aa88829"
+    "d6dfe50dbd7398eed127d31935f7e093a81814b6f8617cb61eefc8656aa88829",
+    "55155ab8186544e0c4713cfa6f95846e535617902839a7c431418b2710462727"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -613,17 +614,10 @@
     "https://www.ghafla.co.ke/universal-healthcare-disbursements-and-digital-health-transformation/",
     "https://www.ghafla.co.ke/stevo-simple-boy-confirms-split-from-partner-after-dna-test-rules-out-paternity/",
     "https://www.ghafla.co.ke/kenya-power-announces-wednesday-blackouts-across-several-counties/",
-    "https://www.ghafla.co.ke/diana-marua-celebrates-decade-of-love-with-bahati-ahead-of-ksh1m-per-ticket-november-wedding/"
+    "https://www.ghafla.co.ke/diana-marua-celebrates-decade-of-love-with-bahati-ahead-of-ksh1m-per-ticket-november-wedding/",
+    "https://www.ghafla.co.ke/vindee-kneels-during-interview-begs-ruto-gachagua-and-sonko-for-streaming-equipment/"
   ],
   "published_angles": [
-    {
-      "title": "Jaymoh Decin Calls Out Six-Month TikTok Flagging Campaign Threatening His Hard-Won Momentum",
-      "angle": "Highlighting the economic precarity of digital comedy: Jaymoh framing systematic platform flagging as an existential push back to the village ('anataka turudi ushago') precisely as his career transitions from mobile screen skits to self-funded live arena productions.",
-      "angle_type": "algorithmic vulnerability and career stakes",
-      "opening": "Personality lead opening directly on Jaymoh Decin confronting the silent economic threat behind half a year of systematic TikTok flag reports.",
-      "structure": "Algorithmic pushback hook -> The 'ushago' existential warning and Instagram statement -> The KICC live production baseline (Sudhe Experience) -> Impersonations and the climb out of low-budget digital skits -> Platform moderation reality and next moves close",
-      "source": "https://www.ghafla.co.ke/jaymoh-decin-laments-six-months-of-tiktok-content-reports/"
-    },
     {
       "title": "Edwin Sifuna Shuts Down Resignation Demands, Daring Critics to Explain Ruto\u2019s UDA Playbook",
       "angle": "Focusing on Sifuna's calculated political survival playbook: invoking William Ruto's own precedent of jumping parties without quitting office, while framing his retention of the Nairobi seat as a taxpayer-saving fiscal shield.",
@@ -1415,6 +1409,14 @@
       "opening": "Personality lead opening directly on Diana Marua placing the 10-year seal on October 20 as the personal emotional anchor before the November 6 ticketed ceremony.",
       "structure": "Personality date hook -> Social media anniversary statement breakdown -> Transition to the Ksh 1M November 6 ceremony and guest limits -> Context of decade-long digital exposure -> Final countdown lookahead",
       "source": "https://www.ghafla.co.ke/diana-marua-celebrates-decade-of-love-with-bahati-ahead-of-ksh1m-per-ticket-november-wedding/"
+    },
+    {
+      "title": "Three Months After KSh 1.18M Flex, Vindee Kneels on Obinna\u2019s Floor to Beg Ruto and Sonko for Cameras",
+      "angle": "The financial and performative contradiction between Vindee's July 2026 KSh 1.18M analytics flex\u2014where he floated opening a streamers' university\u2014and his mid-October posture on Obinna's floor begging the political elite for a camera and a TV bag.",
+      "angle_type": "celebrity financial contradiction and political patronage theater",
+      "opening": "Personality lead opening directly on Vindee dropping to his knees on Obinna TV Studios floor, juxtaposing the gesture against his July million-shilling payout boast.",
+      "structure": "Kneeling studio hook -> The direct quote to Ruto and the six-politician roll call -> The July KSh 1.18M earnings backstory and university proposal -> Production overheads reality vs creator clout -> Social media fallout and political boundaries.",
+      "source": "https://www.ghafla.co.ke/vindee-kneels-during-interview-begs-ruto-gachagua-and-sonko-for-streaming-equipment/"
     }
   ],
   "style_history": [
