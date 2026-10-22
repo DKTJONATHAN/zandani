@@ -313,7 +313,8 @@
     "9d017d0b684acb3901779a4d9ae7b695e49d0369d238934fc495baa8ffb28bde",
     "41944faabc69413b3a9177f87a86730764123baaa73aff96e6b97774d9a4a471",
     "b07e17aedd12c1622d26b0ce81a11fe585cda03b1a73e7ed23b3129e1c763990",
-    "1567a21f688f599dcbab5b03f8a0f761e31d2e7d1a58b05e36a7235a13a53edb"
+    "1567a21f688f599dcbab5b03f8a0f761e31d2e7d1a58b05e36a7235a13a53edb",
+    "ba317f0a203d7ce947a9ca4991caad18a1ad95893f7523774e1e726fb55d6970"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -629,17 +630,10 @@
     "https://www.ghafla.co.ke/nick-kwach-reflects-on-16-year-career-after-national-heroes-recognition/",
     "https://www.ghafla.co.ke/activists-stage-mashujaa-day-protests-in-nairobi-cbd-over-soaring-fuel-prices/",
     "https://www.ghafla.co.ke/stevos-baby-mama-brenda-claims-the-rapper-knew-the-child-was-not-his/",
-    "https://www.ghafla.co.ke/brenda-claims-stevo-simple-boy-knew-he-was-not-dragon-juniors-biological-father/"
+    "https://www.ghafla.co.ke/brenda-claims-stevo-simple-boy-knew-he-was-not-dragon-juniors-biological-father/",
+    "https://www.ghafla.co.ke/mackenzie-28-co-accused-found-guilty-of-murdering-191-shakahola-victims/"
   ],
   "published_angles": [
-    {
-      "title": "William Ruto Eyes KSh 200 Camel Milk Hustle, Tells PS Mueke to Ship in Indian Buffaloes: \u2018Do as We Had Agreed\u2019",
-      "angle": "William Ruto turning the Jamhuri Park summit into an animated retail-and-lifestyle pitch, publicly reminding Agriculture PS Jonathan Mueke of their private agreement to bring in Indian water buffaloes while hyping Nairobi's lucrative KSh 200 camel milk market against surging cow milk prices.",
-      "angle_type": "personality-driven consumer pitch and policy theater",
-      "opening": "Personality lead opening directly on William Ruto calling out PS Jonathan Mueke from the Jamhuri Park stage over their agreed plan to bring in foreign buffaloes and camels.",
-      "structure": "Podium callout hook -> The KSh 200 camel milk retail arithmetic -> The India water buffalo blueprint -> The hard supermarket milk shortage numbers across Nairobi, Mombasa, and Kisumu -> Cooperative bypass reality.",
-      "source": "https://www.ghafla.co.ke/president-ruto-directs-agriculture-ministry-to-import-high-yielding-dairy-camels-and-buffaloes/"
-    },
     {
       "title": "William Ruto Swaps Endebess Seedlings for Matunda Pews with Mugabe and Wangwe in Tow",
       "angle": "Reframing the Matunda church stop through Ruto's relentless weekend roadshow pacing\u2014trading Saturday's boots-and-seedling Mazingira Day circuit in Endebess for the Sunday Catholic pews alongside lawmakers Innocent Mugabe and Emmanuel Wangwe.",
@@ -1431,6 +1425,14 @@
       "opening": "Personality lead focusing directly on Brenda turning 2Mbili from an interviewer into a mediator with an explicit challenge to interrogate Stevo.",
       "structure": "Challenge to interviewer hook -> Anatomy of the alleged pre-existing domestic pact -> Third-party arrival of Oscar and household disruption -> Public optics vs unverified private consensus -> Unresolved verification check.",
       "source": "https://www.ghafla.co.ke/brenda-claims-stevo-simple-boy-knew-he-was-not-dragon-juniors-biological-father/"
+    },
+    {
+      "title": "Paul Nthenge Mackenzie Faces November 6 Sentencing After High Court Shatters 'Voluntary Fasting' Defense in 191-Count Murder Conviction",
+      "angle": "Focusing on Paul Nthenge Mackenzie as a public cult leader whose primary courtroom defense\u2014claiming his followers underwent 'voluntary' fasting\u2014was systematically dismantled by the High Court, establishing direct legal culpability for 190 child homicides ahead of his November 6 sentencing.",
+      "angle_type": "personality accountability and judicial rejection of defense strategy",
+      "opening": "Personality lead opening directly on Paul Nthenge Mackenzie facing the judicial collapse of his religious shield.",
+      "structure": "Preacher verdict hook -> Dismantling of 'voluntary fasting' defense -> Operational details of enforced radicalisation -> Scope of 190 child deaths and 400+ exhumations context -> November 6 sentencing close.",
+      "source": "https://www.ghafla.co.ke/mackenzie-28-co-accused-found-guilty-of-murdering-191-shakahola-victims/"
     }
   ],
   "style_history": [
