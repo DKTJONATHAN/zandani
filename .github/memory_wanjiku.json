@@ -318,7 +318,8 @@
     "7274ecb9efa82b1ea6de7ff79b53955be45564575927271b6d4de135cb417ad8",
     "343e70e4c6c1f01d5be5276542afb4b63e59340fe96bb9d92c21c661a39ab2f2",
     "662f39eee6803a6e357afc2993d3ef0037217da458dbd9e918c7c8eadfe4ab3b",
-    "472056c76442e97c685c2cb9ea2b19d0ce847a0ca032be1c16c642703534edcb"
+    "472056c76442e97c685c2cb9ea2b19d0ce847a0ca032be1c16c642703534edcb",
+    "0fae973d0b924d1e99cb07974553c30f55135c4859f7cc7cbd4756d11fd2b7c9"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -639,17 +640,10 @@
     "https://www.ghafla.co.ke/kenya-confirms-ninth-ebola-case-as-health-ministry-reports-first-quarantine-discharges/",
     "https://www.ghafla.co.ke/geoffrey-mosiria-laments-city-hall-dismissal-and-officially-accepts-call-to-challenge-sakaja-in-2027-nairobi-gubernatorial-race/",
     "https://www.ghafla.co.ke/sportpesa-ceo-ronald-karauri-promises-job-to-dismissed-chief-officer-geoffrey-mosiria/",
-    "https://www.ghafla.co.ke/fans-pour-out-support-for-actress-sandra-dacha-following-illness-announcement/"
+    "https://www.ghafla.co.ke/fans-pour-out-support-for-actress-sandra-dacha-following-illness-announcement/",
+    "https://www.ghafla.co.ke/geoffrey-mosiria-vows-to-challenge-sakaja-in-2027-following-dismissal-claims-hard-work-cost-him-his-job/"
   ],
   "published_angles": [
-    {
-      "title": "DJ Krowbar Swaps Turntables for Tarmac, Calling Out CS Deborah Barasa Over State Lodges and Golf Courses in Public Forests",
-      "angle": "Reframing the Uhuru Park-to-ministry demonstration through DJ Krowbar trading the DJ booth for front-line street advocacy, directly calling out Cabinet Secretary Deborah Barasa over government luxury developments eating into sacred water towers.",
-      "angle_type": "celebrity advocacy and public accountability callout",
-      "opening": "Personality lead opening directly on Karumba Ngatia (DJ Krowbar) swapping his turntables for the Nairobi tarmac to confront Environment CS Deborah Barasa.",
-      "structure": "Celebrity lead hook -> Direct quote and callout of CS Deborah Barasa -> March logistics and the 60,000-signature petition -> Specific battlegrounds (Ngong Road, Upper Imenti) -> Civil society demands and regulatory close.",
-      "source": "https://www.ghafla.co.ke/activists-public-figures-march-in-nairobi-against-golf-courses-and-airstrips-in-forests/"
-    },
     {
       "title": "Kenya Power Cuts Monday Supply Across Nairobi\u2019s Peponi Strip, Olepolos, and Regional Belts in 9-Hour Maintenance",
       "angle": "Framing the shutdown through its direct impact on high-traffic suburban lifestyle strips, commercial nodes, and regional processing hubs rather than a passive listicle.",
@@ -1441,6 +1435,14 @@
       "opening": "Personality-led opening centering directly on Sandra Dacha's response from her home alongside the visit from Kenya Fans Association leadership.",
       "structure": "Home visit hook -> The association chairman's outreach details -> Dacha's social media response and Inter Milan jersey appearance -> Public observations on her physical transformation and weight loss -> Concrete close on her recovery timeline.",
       "source": "https://www.ghafla.co.ke/fans-pour-out-support-for-actress-sandra-dacha-following-illness-announcement/"
+    },
+    {
+      "title": "\u2018Behind Kind Words Is a Plan to Replace You\u2019: Geoffrey Mosiria Pulls Out Sakaja\u2019s Praise Tape to Launch 2027 Revenge Run",
+      "angle": "The tactical deployment of archival video receipts\u2014specifically Mosiria unearthing Sakaja's past praise of his zero-extra-budget ICU setup to frame his firing as the occupational hazard of outshining one's boss, packaged as cautionary career advice for City Hall's 23,000 workers.",
+      "angle_type": "celebrity workplace fallout and tactical receipt-dropping",
+      "opening": "Personality lead opening directly on Geoffrey Mosiria reaching into the digital archives to pull out Johnson Sakaja's own recorded compliments as ammunition against the man who fired him.",
+      "structure": "Receipt hook (the archival ICU video) -> The paradox of praise versus dismissal -> Mosiria's direct workplace warning -> Appeal to Nairobi's 23,000 county workforce -> Political roadmap toward August 2027.",
+      "source": "https://www.ghafla.co.ke/geoffrey-mosiria-vows-to-challenge-sakaja-in-2027-following-dismissal-claims-hard-work-cost-him-his-job/"
     }
   ],
   "style_history": [
