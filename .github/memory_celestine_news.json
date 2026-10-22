@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "78005a43152f3fdf84f085849aad6f72",
     "8fabe281cf08c69a45c59f6a83f4b7ec",
     "4d05ddcf37021169a228cbb89e6328ea",
     "10cca080d686b5a323787ccc2b56a952",
@@ -799,10 +798,10 @@
     "608d59aaae8b9c46e05b540208035eaa",
     "1ac38f9429b5a991245a4e62ea961264",
     "f826bb74e821bcf417faa482633a8b8d",
-    "69a1c0ea123ef9b15b3feea37734d907"
+    "69a1c0ea123ef9b15b3feea37734d907",
+    "cfcca2ba6a9be07099646bc69568b10e"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1427,7 +1427,8 @@
     "https://kenyans.co.ke/news/128766-journalist-ciku-muiruri-allegedly-attacked-after-thugs-invade-family-farm-thika",
     "https://kenyans.co.ke/news/128768-experts-explain-why-nairobi-experiencing-hotter-days-despite-expected-el-nino-rains",
     "https://kenyans.co.ke/news/128765-babu-owino-dismisses-claims-dropping-nairobi-governor-bid-after-gachagua-meeting",
-    "https://kenyans.co.ke/news/128776-mtrh-places-one-person-under-21-day-quarantine-over-ebola-concerns"
+    "https://kenyans.co.ke/news/128776-mtrh-places-one-person-under-21-day-quarantine-over-ebola-concerns",
+    "https://kenyans.co.ke/news/128773-first-group-ebola-contacts-leave-quarantine-sunday-moh-confirms"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1945,7 +1946,8 @@
     "ciku muiruri sues police armed thika farm raid overrides court stay order",
     "nairobi faces elevated heat 2027 oceanic systems disrupt relief",
     "gachagua alliance talks hit nairobi snag babu owino rejects senate compromise",
-    "mtrh enforces day ebola protocol bundibugyo contact tracing"
+    "mtrh enforces day ebola protocol bundibugyo contact tracing",
+    "clears first ebola quarantine batch day countdown nears"
   ],
   "topic_keys": [
     "news tracker",
@@ -5878,6 +5880,15 @@
       "structure": "Containment protocol lead -> Contact tracing context and Bundibugyo virus link -> Institutional clarification on quarantine versus illness -> Forward monitoring conditions.",
       "source": "https://kenyans.co.ke/news/128776-mtrh-places-one-person-under-21-day-quarantine-over-ebola-concerns",
       "published_at": "2026-10-22T10:04:36Z"
+    },
+    {
+      "title": "Kenya Clears First Ebola Quarantine Batch as 42-Day WHO Countdown Nears",
+      "angle": "Examining the institutional countdown mechanics\u2014specifically how zero community transmission allows health authorities to trigger the official 42-day WHO surveillance window required to declare the country Ebola-free.",
+      "angle_type": "institutional pressure",
+      "opening": "Procedural-milestone opening focusing on the activation of the 42-day WHO countdown window.",
+      "structure": "Countdown trigger lead -> Quarantine discharge schedule and leadership -> Clustered transmission containment data -> International aid and domestic labor demands -> Forward monitoring and emergency reporting channels.",
+      "source": "https://kenyans.co.ke/news/128773-first-group-ebola-contacts-leave-quarantine-sunday-moh-confirms",
+      "published_at": "2026-10-22T11:13:16Z"
     }
   ]
 }
