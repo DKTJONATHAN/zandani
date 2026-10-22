@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ea0b3fff4bbd3a99d83d0d6ad753e7ca",
     "c8f8461249fa2c576961dd8244bdefb1",
     "c68d0c35cccde964cd8d5427eab030d6",
     "78005a43152f3fdf84f085849aad6f72",
@@ -799,10 +798,10 @@
     "5adad5fdf046e9a132c2b07d102c7633",
     "43c9c970736a1be7daa0f607c9d18e2a",
     "b6947562db42c952aaff49e4cc26fec9",
-    "608d59aaae8b9c46e05b540208035eaa"
+    "608d59aaae8b9c46e05b540208035eaa",
+    "1ac38f9429b5a991245a4e62ea961264"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1424,7 +1424,8 @@
     "https://kenyans.co.ke/news/128759-kenya-launches-ksh20-billion-conservation-project-targets-7800-jobs",
     "https://kenyans.co.ke/news/128760-govt-business-websites-risk-critical-php-flaws-emerge",
     "https://kenyans.co.ke/news/128763-ghana-tightens-airport-screening-over-ebola-threat-kenya-nigeria",
-    "https://kenyans.co.ke/news/128766-journalist-ciku-muiruri-allegedly-attacked-after-thugs-invade-family-farm-thika"
+    "https://kenyans.co.ke/news/128766-journalist-ciku-muiruri-allegedly-attacked-after-thugs-invade-family-farm-thika",
+    "https://kenyans.co.ke/news/128768-experts-explain-why-nairobi-experiencing-hotter-days-despite-expected-el-nino-rains"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1939,7 +1940,8 @@
     "kws shifts conservation funding year pfp model ksh20b tsavo pact",
     "local digital infrastructure alert critical php vulnerabilities hit server core",
     "ghana targets direct nairobi flights airport ebola screening ramp",
-    "ciku muiruri sues police armed thika farm raid overrides court stay order"
+    "ciku muiruri sues police armed thika farm raid overrides court stay order",
+    "nairobi faces elevated heat 2027 oceanic systems disrupt relief"
   ],
   "topic_keys": [
     "news tracker",
@@ -5845,6 +5847,15 @@
       "structure": "Legal challenge lead -> Physical confrontation and verified injuries -> Contested property history and tribunal conflict -> Police inaction and pending court proceedings",
       "source": "https://kenyans.co.ke/news/128766-journalist-ciku-muiruri-allegedly-attacked-after-thugs-invade-family-farm-thika",
       "published_at": "2026-10-22T06:01:43Z"
+    },
+    {
+      "title": "Nairobi Faces Elevated Heat Into 2027 as Oceanic Systems Disrupt El Ni\u00f1o Relief",
+      "angle": "Framing the phenomenon around the multi-month duration of the thermal anomaly\u2014projected to extend into early 2027\u2014and how competing oceanic systems are decoupling seasonal rainfall from daytime temperature relief across the capital.",
+      "angle_type": "consequence",
+      "opening": "Projection-first lead linking the persistence of above-normal warmth through early 2027 directly to the breakdown of public assumptions about El Ni\u00f1o weather patterns.",
+      "structure": "Multi-month thermal trajectory -> Competing ocean systems breakdown -> Regional temperature extremes comparison -> Global baseline context -> Forward outlook on rainfall distribution",
+      "source": "https://kenyans.co.ke/news/128768-experts-explain-why-nairobi-experiencing-hotter-days-despite-expected-el-nino-rains",
+      "published_at": "2026-10-22T07:03:41Z"
     }
   ]
 }
