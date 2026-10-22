@@ -317,7 +317,8 @@
     "ba317f0a203d7ce947a9ca4991caad18a1ad95893f7523774e1e726fb55d6970",
     "7274ecb9efa82b1ea6de7ff79b53955be45564575927271b6d4de135cb417ad8",
     "343e70e4c6c1f01d5be5276542afb4b63e59340fe96bb9d92c21c661a39ab2f2",
-    "662f39eee6803a6e357afc2993d3ef0037217da458dbd9e918c7c8eadfe4ab3b"
+    "662f39eee6803a6e357afc2993d3ef0037217da458dbd9e918c7c8eadfe4ab3b",
+    "472056c76442e97c685c2cb9ea2b19d0ce847a0ca032be1c16c642703534edcb"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -637,17 +638,10 @@
     "https://www.ghafla.co.ke/mackenzie-28-co-accused-found-guilty-of-murdering-191-shakahola-victims/",
     "https://www.ghafla.co.ke/kenya-confirms-ninth-ebola-case-as-health-ministry-reports-first-quarantine-discharges/",
     "https://www.ghafla.co.ke/geoffrey-mosiria-laments-city-hall-dismissal-and-officially-accepts-call-to-challenge-sakaja-in-2027-nairobi-gubernatorial-race/",
-    "https://www.ghafla.co.ke/sportpesa-ceo-ronald-karauri-promises-job-to-dismissed-chief-officer-geoffrey-mosiria/"
+    "https://www.ghafla.co.ke/sportpesa-ceo-ronald-karauri-promises-job-to-dismissed-chief-officer-geoffrey-mosiria/",
+    "https://www.ghafla.co.ke/fans-pour-out-support-for-actress-sandra-dacha-following-illness-announcement/"
   ],
   "published_angles": [
-    {
-      "title": "George Natembeya Tells Off William Ruto Over Tawe Blame Game: \u2018It Is Not My Work to Praise You\u2019",
-      "angle": "Spotlighting Natembeya's sharp clapback redefining his political posture\u2014rejecting the role of presidential praise-singer ('it is not my work to praise you') while dismissing Ruto's attempt to pin stalled local infrastructure on the Tawe Movement.",
-      "angle_type": "podium clapback and political boundary drawing",
-      "opening": "Personality lead opening directly on George Natembeya rejecting the expectation to flatter State House.",
-      "structure": "Personality clapback hook -> Direct breakdown of the 'praise vs check' stance -> The Endebess rally accusations over the stalled hospital -> Challenge to local lawmakers on taxation and representation -> Defense of the Tawe Movement banner",
-      "source": "https://www.ghafla.co.ke/governance-vs-loyalty-natembeya-urges-president-ruto-to-uphold-equitable-development/"
-    },
     {
       "title": "DJ Krowbar Swaps Turntables for Tarmac, Calling Out CS Deborah Barasa Over State Lodges and Golf Courses in Public Forests",
       "angle": "Reframing the Uhuru Park-to-ministry demonstration through DJ Krowbar trading the DJ booth for front-line street advocacy, directly calling out Cabinet Secretary Deborah Barasa over government luxury developments eating into sacred water towers.",
@@ -1439,6 +1433,14 @@
       "opening": "Personality lead opening directly on Ronald Karauri stepping into the City Hall drama with an advance job offer and a punchline.",
       "structure": "Patronage hook -> Karauri's punchline and hyena proverb breakdown -> Allegation of Mosiria's 2023 sidelining and 2027 offer -> Institutional administrative context under notice NCC/CS/003/2026 -> Zipporah Mwangi's dual caretaker role.",
       "source": "https://www.ghafla.co.ke/sportpesa-ceo-ronald-karauri-promises-job-to-dismissed-chief-officer-geoffrey-mosiria/"
+    },
+    {
+      "title": "Sandra Dacha Smiles in Inter Milan Jersey as Kenya Fans Association Checks In",
+      "angle": "The intersection of club-fan solidarity culture and the physical realities of high-profile personalities managing public health transformations under the digital spotlight.",
+      "angle_type": "celebrity health update and institutional football community solidarity",
+      "opening": "Personality-led opening centering directly on Sandra Dacha's response from her home alongside the visit from Kenya Fans Association leadership.",
+      "structure": "Home visit hook -> The association chairman's outreach details -> Dacha's social media response and Inter Milan jersey appearance -> Public observations on her physical transformation and weight loss -> Concrete close on her recovery timeline.",
+      "source": "https://www.ghafla.co.ke/fans-pour-out-support-for-actress-sandra-dacha-following-illness-announcement/"
     }
   ],
   "style_history": [
