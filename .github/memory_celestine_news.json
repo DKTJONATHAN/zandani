@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "4d05ddcf37021169a228cbb89e6328ea",
     "10cca080d686b5a323787ccc2b56a952",
     "5af7b598f7ab0d89f0519692d4c1fe0a",
     "1e8296e282c89bef96ffbf209f15f158",
@@ -799,10 +798,10 @@
     "f826bb74e821bcf417faa482633a8b8d",
     "69a1c0ea123ef9b15b3feea37734d907",
     "cfcca2ba6a9be07099646bc69568b10e",
-    "fce89ef256014e537382b846cfc6107d"
+    "fce89ef256014e537382b846cfc6107d",
+    "a6a6ec386ba3da2dbdb63f74f00c3826"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1429,7 +1429,8 @@
     "https://kenyans.co.ke/news/128765-babu-owino-dismisses-claims-dropping-nairobi-governor-bid-after-gachagua-meeting",
     "https://kenyans.co.ke/news/128776-mtrh-places-one-person-under-21-day-quarantine-over-ebola-concerns",
     "https://kenyans.co.ke/news/128773-first-group-ebola-contacts-leave-quarantine-sunday-moh-confirms",
-    "https://kenyans.co.ke/news/128772-waititu-wife-remain-custody-until-november-27-ksh5887-million-graft-case"
+    "https://kenyans.co.ke/news/128772-waititu-wife-remain-custody-until-november-27-ksh5887-million-graft-case",
+    "https://kenyans.co.ke/news/128779-dpp-charges-bus-driver-after-two-tum-students-die-kisumu-road-crash"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1949,7 +1950,8 @@
     "gachagua alliance talks hit nairobi snag babu owino rejects senate compromise",
     "mtrh enforces day ebola protocol bundibugyo contact tracing",
     "clears first ebola quarantine batch day countdown nears",
-    "sentencing deadlock extends waititu custody november lawyers clash convict roster"
+    "sentencing deadlock extends waititu custody november lawyers clash convict roster",
+    "state slaps kisumu student bus driver traffic charges court denies cash bail"
   ],
   "topic_keys": [
     "news tracker",
@@ -5900,6 +5902,15 @@
       "structure": "Procedural standoff lead -> Mechanics of the courtroom dispute between Monda and Mutuku -> High Court referral and administrative status -> Remand custody conditions and revoked bail background -> Procurement case history and parallel civil forfeiture claims -> Forward calendar track.",
       "source": "https://kenyans.co.ke/news/128772-waititu-wife-remain-custody-until-november-27-ksh5887-million-graft-case",
       "published_at": "2026-10-22T12:02:20Z"
+    },
+    {
+      "title": "State Slaps Kisumu Student Bus Driver With 12 Traffic Charges as Court Denies Cash Bail",
+      "angle": "Examining the statutory accountability strategy deployed by the DPP\u2014separating vehicular manslaughter under Section 46 from ten individual passenger casualty counts under Section 49(1)\u2014and the court's strict Ksh500,000 bond terms that withheld a cash bail relief option.",
+      "angle_type": "accountability",
+      "opening": "Statutory prosecution lead linking the 12-count indictment directly to the strict bond conditions handed down in Nyando.",
+      "structure": "Statutory indictment lead -> Detailed charge breakdown by section -> Evidentiary basis on speeding and student conduct -> Casualty toll and hospital admissions -> Strict bail terms and forward hearing calendar",
+      "source": "https://kenyans.co.ke/news/128779-dpp-charges-bus-driver-after-two-tum-students-die-kisumu-road-crash",
+      "published_at": "2026-10-22T13:02:14Z"
     }
   ]
 }
