@@ -314,7 +314,8 @@
     "41944faabc69413b3a9177f87a86730764123baaa73aff96e6b97774d9a4a471",
     "b07e17aedd12c1622d26b0ce81a11fe585cda03b1a73e7ed23b3129e1c763990",
     "1567a21f688f599dcbab5b03f8a0f761e31d2e7d1a58b05e36a7235a13a53edb",
-    "ba317f0a203d7ce947a9ca4991caad18a1ad95893f7523774e1e726fb55d6970"
+    "ba317f0a203d7ce947a9ca4991caad18a1ad95893f7523774e1e726fb55d6970",
+    "7274ecb9efa82b1ea6de7ff79b53955be45564575927271b6d4de135cb417ad8"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -631,17 +632,10 @@
     "https://www.ghafla.co.ke/activists-stage-mashujaa-day-protests-in-nairobi-cbd-over-soaring-fuel-prices/",
     "https://www.ghafla.co.ke/stevos-baby-mama-brenda-claims-the-rapper-knew-the-child-was-not-his/",
     "https://www.ghafla.co.ke/brenda-claims-stevo-simple-boy-knew-he-was-not-dragon-juniors-biological-father/",
-    "https://www.ghafla.co.ke/mackenzie-28-co-accused-found-guilty-of-murdering-191-shakahola-victims/"
+    "https://www.ghafla.co.ke/mackenzie-28-co-accused-found-guilty-of-murdering-191-shakahola-victims/",
+    "https://www.ghafla.co.ke/kenya-confirms-ninth-ebola-case-as-health-ministry-reports-first-quarantine-discharges/"
   ],
   "published_angles": [
-    {
-      "title": "William Ruto Swaps Endebess Seedlings for Matunda Pews with Mugabe and Wangwe in Tow",
-      "angle": "Reframing the Matunda church stop through Ruto's relentless weekend roadshow pacing\u2014trading Saturday's boots-and-seedling Mazingira Day circuit in Endebess for the Sunday Catholic pews alongside lawmakers Innocent Mugabe and Emmanuel Wangwe.",
-      "angle_type": "celebrity pacing and public appearance staging",
-      "opening": "Personality lead opening directly on William Ruto pivoting from Saturday's seedling drive in Endebess to Sunday morning pews at St Mark\u2019s Catholic Church in Matunda.",
-      "structure": "Personality Sunday appearance hook -> The lawmaker entourage in Matunda -> The 24-hour transition from Mazingira Day in Trans Nzoia -> The broader Western tour circuit context and infrastructure trail",
-      "source": "https://www.ghafla.co.ke/ruto-attends-church-service-in-kakamega-as-western-kenya-tour-continues/"
-    },
     {
       "title": "Kenya Met Takes On the El Ni\u00f1o Myth, Clarifying Warm Pacific Waters Guarantee No Downpour",
       "angle": "Focusing on KMSA directly taking down Kenya's perennial El Ni\u00f1o panic and weather assumptions, detailing how competing Indian Ocean systems and wind patterns can actively dilute Pacific-driven deluges.",
@@ -1433,6 +1427,14 @@
       "opening": "Personality lead opening directly on Paul Nthenge Mackenzie facing the judicial collapse of his religious shield.",
       "structure": "Preacher verdict hook -> Dismantling of 'voluntary fasting' defense -> Operational details of enforced radicalisation -> Scope of 190 child deaths and 400+ exhumations context -> November 6 sentencing close.",
       "source": "https://www.ghafla.co.ke/mackenzie-28-co-accused-found-guilty-of-murdering-191-shakahola-victims/"
+    },
+    {
+      "title": "Dr. Patrick Amoth Demands End to Stigma as Kenya Prepares First Quarantine Release",
+      "angle": "Centering on Dr. Patrick Amoth's proactive anti-stigma appeal to communities, framing the upcoming October 25 release of the first quarantine cohort as a crucial social test backed by tight containment metrics.",
+      "angle_type": "public figure advocacy and stigma counter-narrative",
+      "opening": "Personality lead focusing directly on Dr. Patrick Amoth stepping forward to preempt public panic and social ostracism.",
+      "structure": "Personality hook on Amoth's anti-stigma appeal -> The upcoming October 25 discharge details -> The containment mechanics behind Case Nine -> Clinical progress of the eight surviving patients -> Surveillance tracking and laboratory ring-fencing -> Closing forward look on the community reintegration test.",
+      "source": "https://www.ghafla.co.ke/kenya-confirms-ninth-ebola-case-as-health-ministry-reports-first-quarantine-discharges/"
     }
   ],
   "style_history": [
