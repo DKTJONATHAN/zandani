@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "3dd3cbfa28ee9db4b37e76a4d8b079c4",
     "f7ba128385f35b618687b9ee2cd75616",
     "ea0b3fff4bbd3a99d83d0d6ad753e7ca",
     "c8f8461249fa2c576961dd8244bdefb1",
@@ -799,10 +798,10 @@
     "8fe6697680a922e04e4e19e48d424f7e",
     "8f3e72b1f8dd53d5c3205a425aabce56",
     "5adad5fdf046e9a132c2b07d102c7633",
-    "43c9c970736a1be7daa0f607c9d18e2a"
+    "43c9c970736a1be7daa0f607c9d18e2a",
+    "b6947562db42c952aaff49e4cc26fec9"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1422,7 +1422,8 @@
     "https://kenyans.co.ke/news/128758-mps-demand-probe-helicopters-after-kfs-chopper-carrying-ps-crashes",
     "https://kenyans.co.ke/news/128752-kindiki-reveals-govt-plan-licence-traditional-brews-meet-new-standards",
     "https://kenyans.co.ke/news/128759-kenya-launches-ksh20-billion-conservation-project-targets-7800-jobs",
-    "https://kenyans.co.ke/news/128760-govt-business-websites-risk-critical-php-flaws-emerge"
+    "https://kenyans.co.ke/news/128760-govt-business-websites-risk-critical-php-flaws-emerge",
+    "https://kenyans.co.ke/news/128763-ghana-tightens-airport-screening-over-ebola-threat-kenya-nigeria"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1935,7 +1936,8 @@
     "parliament demands kcaa maintenance records state choppers kericho crash",
     "kindiki clears kebs licensing path traditional brewers state targets cartel assets",
     "kws shifts conservation funding year pfp model ksh20b tsavo pact",
-    "local digital infrastructure alert critical php vulnerabilities hit server core"
+    "local digital infrastructure alert critical php vulnerabilities hit server core",
+    "ghana targets direct nairobi flights airport ebola screening ramp"
   ],
   "topic_keys": [
     "news tracker",
@@ -5823,6 +5825,15 @@
       "structure": "Local digital exposure lead -> AI-assisted vulnerability discovery and timeline -> International and local institutional response -> Cloudflare and WordPress technical mitigation metrics -> Forward security compliance edge.",
       "source": "https://kenyans.co.ke/news/128760-govt-business-websites-risk-critical-php-flaws-emerge",
       "published_at": "2026-10-21T17:01:28Z"
+    },
+    {
+      "title": "Ghana Targets Direct Nairobi Flights in Airport Ebola Screening Ramp-Up",
+      "angle": "Attribution-first examination of how direct commercial flight connectivity between Nairobi and Accra is driving Ghana's border posture, showing how aviation hubs amplify transmission risks more quickly than rural origin points.",
+      "angle_type": "institutional pressure",
+      "opening": "Attribution-first statement identifying Ghana's Ministry of Health, immediately linking its airport surveillance escalation to regional air travellers and healthcare systems seeking early detection over outright flight disruptions.",
+      "structure": "Attribution and beneficiary lead -> Aviation hub risk disparity (Kenya vs DRC passenger volumes) -> Domestic containment steps in Accra (GIDC, simulations) -> Regional containment ripple (Nigeria, Tanzania, US, El Salvador) -> Forward operational edge on symptom response and border integrity.",
+      "source": "https://kenyans.co.ke/news/128763-ghana-tightens-airport-screening-over-ebola-threat-kenya-nigeria",
+      "published_at": "2026-10-22T05:02:01Z"
     }
   ]
 }
