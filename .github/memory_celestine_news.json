@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f7ba128385f35b618687b9ee2cd75616",
     "ea0b3fff4bbd3a99d83d0d6ad753e7ca",
     "c8f8461249fa2c576961dd8244bdefb1",
     "c68d0c35cccde964cd8d5427eab030d6",
@@ -799,10 +798,10 @@
     "8f3e72b1f8dd53d5c3205a425aabce56",
     "5adad5fdf046e9a132c2b07d102c7633",
     "43c9c970736a1be7daa0f607c9d18e2a",
-    "b6947562db42c952aaff49e4cc26fec9"
+    "b6947562db42c952aaff49e4cc26fec9",
+    "608d59aaae8b9c46e05b540208035eaa"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1423,7 +1423,8 @@
     "https://kenyans.co.ke/news/128752-kindiki-reveals-govt-plan-licence-traditional-brews-meet-new-standards",
     "https://kenyans.co.ke/news/128759-kenya-launches-ksh20-billion-conservation-project-targets-7800-jobs",
     "https://kenyans.co.ke/news/128760-govt-business-websites-risk-critical-php-flaws-emerge",
-    "https://kenyans.co.ke/news/128763-ghana-tightens-airport-screening-over-ebola-threat-kenya-nigeria"
+    "https://kenyans.co.ke/news/128763-ghana-tightens-airport-screening-over-ebola-threat-kenya-nigeria",
+    "https://kenyans.co.ke/news/128766-journalist-ciku-muiruri-allegedly-attacked-after-thugs-invade-family-farm-thika"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1937,7 +1938,8 @@
     "kindiki clears kebs licensing path traditional brewers state targets cartel assets",
     "kws shifts conservation funding year pfp model ksh20b tsavo pact",
     "local digital infrastructure alert critical php vulnerabilities hit server core",
-    "ghana targets direct nairobi flights airport ebola screening ramp"
+    "ghana targets direct nairobi flights airport ebola screening ramp",
+    "ciku muiruri sues police armed thika farm raid overrides court stay order"
   ],
   "topic_keys": [
     "news tracker",
@@ -5834,6 +5836,15 @@
       "structure": "Attribution and beneficiary lead -> Aviation hub risk disparity (Kenya vs DRC passenger volumes) -> Domestic containment steps in Accra (GIDC, simulations) -> Regional containment ripple (Nigeria, Tanzania, US, El Salvador) -> Forward operational edge on symptom response and border integrity.",
       "source": "https://kenyans.co.ke/news/128763-ghana-tightens-airport-screening-over-ebola-threat-kenya-nigeria",
       "published_at": "2026-10-22T05:02:01Z"
+    },
+    {
+      "title": "Ciku Muiruri Sues Police After Armed Thika Farm Raid Overrides Court Stay Order",
+      "angle": "The breakdown of statutory protections: how conflicting business tribunal rulings and police refusal to enforce an active stay order enabled a violent corporate-backed land invasion, forcing the victim to take law enforcement itself to court.",
+      "angle_type": "accountability",
+      "opening": "Statutory breach and institutional accountability lead framing Muiruri's lawsuit against the police for ignoring court stay orders during a violent farm invasion.",
+      "structure": "Legal challenge lead -> Physical confrontation and verified injuries -> Contested property history and tribunal conflict -> Police inaction and pending court proceedings",
+      "source": "https://kenyans.co.ke/news/128766-journalist-ciku-muiruri-allegedly-attacked-after-thugs-invade-family-farm-thika",
+      "published_at": "2026-10-22T06:01:43Z"
     }
   ]
 }
