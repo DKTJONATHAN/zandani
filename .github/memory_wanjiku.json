@@ -315,7 +315,8 @@
     "b07e17aedd12c1622d26b0ce81a11fe585cda03b1a73e7ed23b3129e1c763990",
     "1567a21f688f599dcbab5b03f8a0f761e31d2e7d1a58b05e36a7235a13a53edb",
     "ba317f0a203d7ce947a9ca4991caad18a1ad95893f7523774e1e726fb55d6970",
-    "7274ecb9efa82b1ea6de7ff79b53955be45564575927271b6d4de135cb417ad8"
+    "7274ecb9efa82b1ea6de7ff79b53955be45564575927271b6d4de135cb417ad8",
+    "343e70e4c6c1f01d5be5276542afb4b63e59340fe96bb9d92c21c661a39ab2f2"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -633,17 +634,10 @@
     "https://www.ghafla.co.ke/stevos-baby-mama-brenda-claims-the-rapper-knew-the-child-was-not-his/",
     "https://www.ghafla.co.ke/brenda-claims-stevo-simple-boy-knew-he-was-not-dragon-juniors-biological-father/",
     "https://www.ghafla.co.ke/mackenzie-28-co-accused-found-guilty-of-murdering-191-shakahola-victims/",
-    "https://www.ghafla.co.ke/kenya-confirms-ninth-ebola-case-as-health-ministry-reports-first-quarantine-discharges/"
+    "https://www.ghafla.co.ke/kenya-confirms-ninth-ebola-case-as-health-ministry-reports-first-quarantine-discharges/",
+    "https://www.ghafla.co.ke/geoffrey-mosiria-laments-city-hall-dismissal-and-officially-accepts-call-to-challenge-sakaja-in-2027-nairobi-gubernatorial-race/"
   ],
   "published_angles": [
-    {
-      "title": "Kenya Met Takes On the El Ni\u00f1o Myth, Clarifying Warm Pacific Waters Guarantee No Downpour",
-      "angle": "Focusing on KMSA directly taking down Kenya's perennial El Ni\u00f1o panic and weather assumptions, detailing how competing Indian Ocean systems and wind patterns can actively dilute Pacific-driven deluges.",
-      "angle_type": "institutional myth-busting and public perception reality check",
-      "opening": "Direct lead focusing on KMSA stepping out to burst the country's collective El Ni\u00f1o assumptions.",
-      "structure": "Assumption-busting lead -> Pacific warming mechanics versus local reality -> The competing Indian Ocean and wind dynamics -> Current surveillance and official advisory close",
-      "source": "https://www.ghafla.co.ke/kmsa-explains-why-el-nino-does-not-automatically-mean-heavy-rainfall-in-kenya/"
-    },
     {
       "title": "Jeremiah Kioni Calls Time on Opposition Clout Chasing, Warns Ruto Feeds on Your Insults: \u2018It Is His Currency\u2019",
       "angle": "Reframing Kioni\u2019s broadcast remarks through the theater of political celebrity and clout: calling out his peers' addiction to dramatic press conference witch-hunts and unmasking 'moles', while exposing how Ruto turned thick-skinned indifference toward insults and bloggers into his own untouchable armor.",
@@ -1435,6 +1429,14 @@
       "opening": "Personality lead focusing directly on Dr. Patrick Amoth stepping forward to preempt public panic and social ostracism.",
       "structure": "Personality hook on Amoth's anti-stigma appeal -> The upcoming October 25 discharge details -> The containment mechanics behind Case Nine -> Clinical progress of the eight surviving patients -> Surveillance tracking and laboratory ring-fencing -> Closing forward look on the community reintegration test.",
       "source": "https://www.ghafla.co.ke/kenya-confirms-ninth-ebola-case-as-health-ministry-reports-first-quarantine-discharges/"
+    },
+    {
+      "title": "\u2018Tuko Same WhatsApp Group\u2019: Geoffrey Mosiria Roasts His Own City Hall Sacking Before Unveiling 2027 Slogans",
+      "angle": "Focusing on the comical administrative awkwardness of Mosiria's post-firing reality\u2014specifically being marooned in the executive WhatsApp group alongside the very leadership that fired him, likening the humiliation to Manchester United, before instantly flipping the digital humiliation into rhyming campaign theater.",
+      "angle_type": "celebrity fallout and social media theatrics",
+      "opening": "Personality lead opening directly on Geoffrey Mosiria airing the unique modern sting of being ousted from power while still stuck inside the bosses' WhatsApp group.",
+      "structure": "WhatsApp group punchline -> The Manchester United comparison -> The transition into rhyming slogans -> The official Waikenda dismissal letter and portfolio handover -> The Ksh 1.2B to Ksh 100M health budget backstory -> Close on the unsevered chat link and looming 2027 showdown.",
+      "source": "https://www.ghafla.co.ke/geoffrey-mosiria-laments-city-hall-dismissal-and-officially-accepts-call-to-challenge-sakaja-in-2027-nairobi-gubernatorial-race/"
     }
   ],
   "style_history": [
