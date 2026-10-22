@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "8fabe281cf08c69a45c59f6a83f4b7ec",
     "4d05ddcf37021169a228cbb89e6328ea",
     "10cca080d686b5a323787ccc2b56a952",
     "5af7b598f7ab0d89f0519692d4c1fe0a",
@@ -799,10 +798,10 @@
     "1ac38f9429b5a991245a4e62ea961264",
     "f826bb74e821bcf417faa482633a8b8d",
     "69a1c0ea123ef9b15b3feea37734d907",
-    "cfcca2ba6a9be07099646bc69568b10e"
+    "cfcca2ba6a9be07099646bc69568b10e",
+    "fce89ef256014e537382b846cfc6107d"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1428,7 +1428,8 @@
     "https://kenyans.co.ke/news/128768-experts-explain-why-nairobi-experiencing-hotter-days-despite-expected-el-nino-rains",
     "https://kenyans.co.ke/news/128765-babu-owino-dismisses-claims-dropping-nairobi-governor-bid-after-gachagua-meeting",
     "https://kenyans.co.ke/news/128776-mtrh-places-one-person-under-21-day-quarantine-over-ebola-concerns",
-    "https://kenyans.co.ke/news/128773-first-group-ebola-contacts-leave-quarantine-sunday-moh-confirms"
+    "https://kenyans.co.ke/news/128773-first-group-ebola-contacts-leave-quarantine-sunday-moh-confirms",
+    "https://kenyans.co.ke/news/128772-waititu-wife-remain-custody-until-november-27-ksh5887-million-graft-case"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1947,7 +1948,8 @@
     "nairobi faces elevated heat 2027 oceanic systems disrupt relief",
     "gachagua alliance talks hit nairobi snag babu owino rejects senate compromise",
     "mtrh enforces day ebola protocol bundibugyo contact tracing",
-    "clears first ebola quarantine batch day countdown nears"
+    "clears first ebola quarantine batch day countdown nears",
+    "sentencing deadlock extends waititu custody november lawyers clash convict roster"
   ],
   "topic_keys": [
     "news tracker",
@@ -5889,6 +5891,15 @@
       "structure": "Countdown trigger lead -> Quarantine discharge schedule and leadership -> Clustered transmission containment data -> International aid and domestic labor demands -> Forward monitoring and emergency reporting channels.",
       "source": "https://kenyans.co.ke/news/128773-first-group-ebola-contacts-leave-quarantine-sunday-moh-confirms",
       "published_at": "2026-10-22T11:13:16Z"
+    },
+    {
+      "title": "Sentencing Deadlock Extends Waititu Custody to November as Lawyers Clash Over Convict Roster",
+      "angle": "Examining the procedural impasse between the DPP and defence over the roster of convicts eligible for punishment after the High Court reinstated money laundering counts, which paralyzed trial court proceedings and forced magistrates to await High Court administrative directions while the convicts remain locked up.",
+      "angle_type": "consequence",
+      "opening": "Procedural-friction lead linking the abrupt halt in sentencing proceedings directly to extended remand detention for the former county boss and co-accused.",
+      "structure": "Procedural standoff lead -> Mechanics of the courtroom dispute between Monda and Mutuku -> High Court referral and administrative status -> Remand custody conditions and revoked bail background -> Procurement case history and parallel civil forfeiture claims -> Forward calendar track.",
+      "source": "https://kenyans.co.ke/news/128772-waititu-wife-remain-custody-until-november-27-ksh5887-million-graft-case",
+      "published_at": "2026-10-22T12:02:20Z"
     }
   ]
 }
