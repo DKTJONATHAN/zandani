@@ -316,7 +316,8 @@
     "1567a21f688f599dcbab5b03f8a0f761e31d2e7d1a58b05e36a7235a13a53edb",
     "ba317f0a203d7ce947a9ca4991caad18a1ad95893f7523774e1e726fb55d6970",
     "7274ecb9efa82b1ea6de7ff79b53955be45564575927271b6d4de135cb417ad8",
-    "343e70e4c6c1f01d5be5276542afb4b63e59340fe96bb9d92c21c661a39ab2f2"
+    "343e70e4c6c1f01d5be5276542afb4b63e59340fe96bb9d92c21c661a39ab2f2",
+    "662f39eee6803a6e357afc2993d3ef0037217da458dbd9e918c7c8eadfe4ab3b"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -635,17 +636,10 @@
     "https://www.ghafla.co.ke/brenda-claims-stevo-simple-boy-knew-he-was-not-dragon-juniors-biological-father/",
     "https://www.ghafla.co.ke/mackenzie-28-co-accused-found-guilty-of-murdering-191-shakahola-victims/",
     "https://www.ghafla.co.ke/kenya-confirms-ninth-ebola-case-as-health-ministry-reports-first-quarantine-discharges/",
-    "https://www.ghafla.co.ke/geoffrey-mosiria-laments-city-hall-dismissal-and-officially-accepts-call-to-challenge-sakaja-in-2027-nairobi-gubernatorial-race/"
+    "https://www.ghafla.co.ke/geoffrey-mosiria-laments-city-hall-dismissal-and-officially-accepts-call-to-challenge-sakaja-in-2027-nairobi-gubernatorial-race/",
+    "https://www.ghafla.co.ke/sportpesa-ceo-ronald-karauri-promises-job-to-dismissed-chief-officer-geoffrey-mosiria/"
   ],
   "published_angles": [
-    {
-      "title": "Jeremiah Kioni Calls Time on Opposition Clout Chasing, Warns Ruto Feeds on Your Insults: \u2018It Is His Currency\u2019",
-      "angle": "Reframing Kioni\u2019s broadcast remarks through the theater of political celebrity and clout: calling out his peers' addiction to dramatic press conference witch-hunts and unmasking 'moles', while exposing how Ruto turned thick-skinned indifference toward insults and bloggers into his own untouchable armor.",
-      "angle_type": "personality psychology and podium clout critique",
-      "opening": "Personality lead focusing squarely on Jeremiah Kioni stepping onto the Radio Generation mic to diagnose William Ruto's thick-skinned immunity to political shade.",
-      "structure": "Personality radio hook -> The 'currency of insults' breakdown -> The blogger and defamation contrast -> Critique of press conference melodrama and mole-hunting -> Strategic reality check heading toward 2027",
-      "source": "https://www.ghafla.co.ke/kioni-warns-opposition-against-insults-says-ruto-could-be-benefiting-politically/"
-    },
     {
       "title": "George Natembeya Tells Off William Ruto Over Tawe Blame Game: \u2018It Is Not My Work to Praise You\u2019",
       "angle": "Spotlighting Natembeya's sharp clapback redefining his political posture\u2014rejecting the role of presidential praise-singer ('it is not my work to praise you') while dismissing Ruto's attempt to pin stalled local infrastructure on the Tawe Movement.",
@@ -1437,6 +1431,14 @@
       "opening": "Personality lead opening directly on Geoffrey Mosiria airing the unique modern sting of being ousted from power while still stuck inside the bosses' WhatsApp group.",
       "structure": "WhatsApp group punchline -> The Manchester United comparison -> The transition into rhyming slogans -> The official Waikenda dismissal letter and portfolio handover -> The Ksh 1.2B to Ksh 100M health budget backstory -> Close on the unsevered chat link and looming 2027 showdown.",
       "source": "https://www.ghafla.co.ke/geoffrey-mosiria-laments-city-hall-dismissal-and-officially-accepts-call-to-challenge-sakaja-in-2027-nairobi-gubernatorial-race/"
+    },
+    {
+      "title": "\u2018Kazi ya Kweli\u2019: Ronald Karauri Offers Sacked Mosiria 2027 City Hall Job While Roasting Sakaja Over Purge",
+      "angle": "Framing the moment around Karauri's audacious recruitment flex\u2014using Mosiria's firing to publicly test-run his 2027 gubernatorial shadow cabinet while cutting into City Hall's internal friction by alleging Mosiria spent three years parked in an office without real work.",
+      "angle_type": "celebrity political patronage and workplace shade",
+      "opening": "Personality lead opening directly on Ronald Karauri stepping into the City Hall drama with an advance job offer and a punchline.",
+      "structure": "Patronage hook -> Karauri's punchline and hyena proverb breakdown -> Allegation of Mosiria's 2023 sidelining and 2027 offer -> Institutional administrative context under notice NCC/CS/003/2026 -> Zipporah Mwangi's dual caretaker role.",
+      "source": "https://www.ghafla.co.ke/sportpesa-ceo-ronald-karauri-promises-job-to-dismissed-chief-officer-geoffrey-mosiria/"
     }
   ],
   "style_history": [
