@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "10cca080d686b5a323787ccc2b56a952",
     "5af7b598f7ab0d89f0519692d4c1fe0a",
     "1e8296e282c89bef96ffbf209f15f158",
     "a0b067bb1c5499134faaf4e370af5187",
@@ -799,10 +798,10 @@
     "69a1c0ea123ef9b15b3feea37734d907",
     "cfcca2ba6a9be07099646bc69568b10e",
     "fce89ef256014e537382b846cfc6107d",
-    "a6a6ec386ba3da2dbdb63f74f00c3826"
+    "a6a6ec386ba3da2dbdb63f74f00c3826",
+    "0d1fbcb11b2949f8f20554dcbbdd0e69"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1430,7 +1430,8 @@
     "https://kenyans.co.ke/news/128776-mtrh-places-one-person-under-21-day-quarantine-over-ebola-concerns",
     "https://kenyans.co.ke/news/128773-first-group-ebola-contacts-leave-quarantine-sunday-moh-confirms",
     "https://kenyans.co.ke/news/128772-waititu-wife-remain-custody-until-november-27-ksh5887-million-graft-case",
-    "https://kenyans.co.ke/news/128779-dpp-charges-bus-driver-after-two-tum-students-die-kisumu-road-crash"
+    "https://kenyans.co.ke/news/128779-dpp-charges-bus-driver-after-two-tum-students-die-kisumu-road-crash",
+    "https://kenyans.co.ke/news/128782-kra-makes-digital-marine-cargo-insurance-mandatory-november-1"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1951,7 +1952,8 @@
     "mtrh enforces day ebola protocol bundibugyo contact tracing",
     "clears first ebola quarantine batch day countdown nears",
     "sentencing deadlock extends waititu custody november lawyers clash convict roster",
-    "state slaps kisumu student bus driver traffic charges court denies cash bail"
+    "state slaps kisumu student bus driver traffic charges court denies cash bail",
+    "kra locks customs clearance digital marine cover local underwriter shift"
   ],
   "topic_keys": [
     "news tracker",
@@ -5911,6 +5913,15 @@
       "structure": "Statutory indictment lead -> Detailed charge breakdown by section -> Evidentiary basis on speeding and student conduct -> Casualty toll and hospital admissions -> Strict bail terms and forward hearing calendar",
       "source": "https://kenyans.co.ke/news/128779-dpp-charges-bus-driver-after-two-tum-students-die-kisumu-road-crash",
       "published_at": "2026-10-22T13:02:14Z"
+    },
+    {
+      "title": "KRA Locks Customs Clearance to Digital Marine Cover in Local Underwriter Shift",
+      "angle": "Attribution-first regulatory analysis linking the iCMS digital linkage directly to domestic underwriters, establishing how the strict pre-declaration technical barrier ends clearance workarounds while overhauling cargo tracking oversight.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first statement identifying KRA and IRA, followed immediately by domestic insurers gaining exclusive underwriting control and clearing agents facing automated clearance blocks.",
+      "structure": "Attribution and beneficiary lead -> Digital compliance mechanism between MCI and iCMS -> Penalty and border block enforcement -> Cargo tracking overhaul context (RECTS private vendor transition) -> Forward compliance window.",
+      "source": "https://kenyans.co.ke/news/128782-kra-makes-digital-marine-cargo-insurance-mandatory-november-1",
+      "published_at": "2026-10-22T14:02:10Z"
     }
   ]
 }
