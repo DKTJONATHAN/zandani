@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "c8f8461249fa2c576961dd8244bdefb1",
     "c68d0c35cccde964cd8d5427eab030d6",
     "78005a43152f3fdf84f085849aad6f72",
     "8fabe281cf08c69a45c59f6a83f4b7ec",
@@ -799,10 +798,10 @@
     "43c9c970736a1be7daa0f607c9d18e2a",
     "b6947562db42c952aaff49e4cc26fec9",
     "608d59aaae8b9c46e05b540208035eaa",
-    "1ac38f9429b5a991245a4e62ea961264"
+    "1ac38f9429b5a991245a4e62ea961264",
+    "f826bb74e821bcf417faa482633a8b8d"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1425,7 +1425,8 @@
     "https://kenyans.co.ke/news/128760-govt-business-websites-risk-critical-php-flaws-emerge",
     "https://kenyans.co.ke/news/128763-ghana-tightens-airport-screening-over-ebola-threat-kenya-nigeria",
     "https://kenyans.co.ke/news/128766-journalist-ciku-muiruri-allegedly-attacked-after-thugs-invade-family-farm-thika",
-    "https://kenyans.co.ke/news/128768-experts-explain-why-nairobi-experiencing-hotter-days-despite-expected-el-nino-rains"
+    "https://kenyans.co.ke/news/128768-experts-explain-why-nairobi-experiencing-hotter-days-despite-expected-el-nino-rains",
+    "https://kenyans.co.ke/news/128765-babu-owino-dismisses-claims-dropping-nairobi-governor-bid-after-gachagua-meeting"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1941,7 +1942,8 @@
     "local digital infrastructure alert critical php vulnerabilities hit server core",
     "ghana targets direct nairobi flights airport ebola screening ramp",
     "ciku muiruri sues police armed thika farm raid overrides court stay order",
-    "nairobi faces elevated heat 2027 oceanic systems disrupt relief"
+    "nairobi faces elevated heat 2027 oceanic systems disrupt relief",
+    "gachagua alliance talks hit nairobi snag babu owino rejects senate compromise"
   ],
   "topic_keys": [
     "news tracker",
@@ -5856,6 +5858,15 @@
       "structure": "Multi-month thermal trajectory -> Competing ocean systems breakdown -> Regional temperature extremes comparison -> Global baseline context -> Forward outlook on rainfall distribution",
       "source": "https://kenyans.co.ke/news/128768-experts-explain-why-nairobi-experiencing-hotter-days-despite-expected-el-nino-rains",
       "published_at": "2026-10-22T07:03:41Z"
+    },
+    {
+      "title": "Gachagua Alliance Talks Hit Nairobi Snag as Babu Owino Rejects Senate Compromise",
+      "angle": "Examining how early coalition-building efforts by Rigathi Gachagua's DCP camp are instantly encountering friction over City Hall seat-brokering, where personal party vehicles and entrenched ambitions resist negotiated ticket zoning.",
+      "angle_type": "institutional pressure",
+      "opening": "Strategic-friction lead linking Wamunyoro alliance talks directly to the collapse of negotiated ballot zoning in Nairobi.",
+      "structure": "Alliance friction lead -> Wamunyoro talks and ticket zoning demands -> Babu's Mwananchi Party firewall -> Competing City Hall interests and Gakuya factor -> Forward outlook on registration and candidate consolidation",
+      "source": "https://kenyans.co.ke/news/128765-babu-owino-dismisses-claims-dropping-nairobi-governor-bid-after-gachagua-meeting",
+      "published_at": "2026-10-22T08:03:20Z"
     }
   ]
 }
