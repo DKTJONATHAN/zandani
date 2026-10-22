@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "1e8296e282c89bef96ffbf209f15f158",
     "a0b067bb1c5499134faaf4e370af5187",
     "f893ae13ecc42de607f122bc8c6da0fe",
     "0c77a8a136c6be8610c09f86230717e8",
@@ -799,10 +798,10 @@
     "fce89ef256014e537382b846cfc6107d",
     "a6a6ec386ba3da2dbdb63f74f00c3826",
     "0d1fbcb11b2949f8f20554dcbbdd0e69",
-    "3b3e19c04277d13ca96e85c41d1c764d"
+    "3b3e19c04277d13ca96e85c41d1c764d",
+    "eb0ef71f83043ed0dd54febfb36a0382"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1432,7 +1432,8 @@
     "https://kenyans.co.ke/news/128772-waititu-wife-remain-custody-until-november-27-ksh5887-million-graft-case",
     "https://kenyans.co.ke/news/128779-dpp-charges-bus-driver-after-two-tum-students-die-kisumu-road-crash",
     "https://kenyans.co.ke/news/128782-kra-makes-digital-marine-cargo-insurance-mandatory-november-1",
-    "https://kenyans.co.ke/news/128784-kra-announces-new-9-cent-tax-rate-employers-and-businesses-next-3-months"
+    "https://kenyans.co.ke/news/128784-kra-announces-new-9-cent-tax-rate-employers-and-businesses-next-3-months",
+    "https://kenyans.co.ke/news/128785-iebc-backs-proposal-requiring-parties-nominate-persons-disabilities"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1955,7 +1956,8 @@
     "sentencing deadlock extends waititu custody november lawyers clash convict roster",
     "state slaps kisumu student bus driver traffic charges court denies cash bail",
     "kra locks customs clearance digital marine cover local underwriter shift",
-    "employers face shorter compliance windows kra pushes loan tax rates 9pc"
+    "employers face shorter compliance windows kra pushes loan tax rates 9pc",
+    "iebc endorses mandatory 5pc disability quota county assembly overhaul"
   ],
   "topic_keys": [
     "news tracker",
@@ -5933,6 +5935,15 @@
       "structure": "Remand/compliance lead -> Rate adjustments and statutory definitions -> Five-day remittance mandate and withholding tax -> Routine quarterly review context and missing justification.",
       "source": "https://kenyans.co.ke/news/128784-kra-announces-new-9-cent-tax-rate-employers-and-businesses-next-3-months",
       "published_at": "2026-10-22T17:02:09Z"
+    },
+    {
+      "title": "IEBC Endorses Mandatory 5pc Disability Quota in County Assembly Overhaul",
+      "angle": "The operational mechanism that eliminates party discretion: shifting county nominations from a fixed eight-candidate party list to a mandatory ward-scaled quota enforcing a strict 5 percent or two-seat floor, categorized across specific impairments.",
+      "angle_type": "practical change",
+      "opening": "Mechanism-first lead focusing on the removal of party nomination loopholes and the introduction of a strict statutory threshold for county assemblies.",
+      "structure": "Statutory quota lead -> Parliamentary committee proceedings and IEBC backing -> Operational mechanics of the new formula vs Section 36 flaws -> Categorical impairment requirements -> Forward legislative steps in the National Assembly.",
+      "source": "https://kenyans.co.ke/news/128785-iebc-backs-proposal-requiring-parties-nominate-persons-disabilities",
+      "published_at": "2026-10-22T18:02:35Z"
     }
   ]
 }
