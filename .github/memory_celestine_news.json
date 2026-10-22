@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "c68d0c35cccde964cd8d5427eab030d6",
     "78005a43152f3fdf84f085849aad6f72",
     "8fabe281cf08c69a45c59f6a83f4b7ec",
     "4d05ddcf37021169a228cbb89e6328ea",
@@ -799,10 +798,10 @@
     "b6947562db42c952aaff49e4cc26fec9",
     "608d59aaae8b9c46e05b540208035eaa",
     "1ac38f9429b5a991245a4e62ea961264",
-    "f826bb74e821bcf417faa482633a8b8d"
+    "f826bb74e821bcf417faa482633a8b8d",
+    "69a1c0ea123ef9b15b3feea37734d907"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1426,7 +1426,8 @@
     "https://kenyans.co.ke/news/128763-ghana-tightens-airport-screening-over-ebola-threat-kenya-nigeria",
     "https://kenyans.co.ke/news/128766-journalist-ciku-muiruri-allegedly-attacked-after-thugs-invade-family-farm-thika",
     "https://kenyans.co.ke/news/128768-experts-explain-why-nairobi-experiencing-hotter-days-despite-expected-el-nino-rains",
-    "https://kenyans.co.ke/news/128765-babu-owino-dismisses-claims-dropping-nairobi-governor-bid-after-gachagua-meeting"
+    "https://kenyans.co.ke/news/128765-babu-owino-dismisses-claims-dropping-nairobi-governor-bid-after-gachagua-meeting",
+    "https://kenyans.co.ke/news/128776-mtrh-places-one-person-under-21-day-quarantine-over-ebola-concerns"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1943,7 +1944,8 @@
     "ghana targets direct nairobi flights airport ebola screening ramp",
     "ciku muiruri sues police armed thika farm raid overrides court stay order",
     "nairobi faces elevated heat 2027 oceanic systems disrupt relief",
-    "gachagua alliance talks hit nairobi snag babu owino rejects senate compromise"
+    "gachagua alliance talks hit nairobi snag babu owino rejects senate compromise",
+    "mtrh enforces day ebola protocol bundibugyo contact tracing"
   ],
   "topic_keys": [
     "news tracker",
@@ -5867,6 +5869,15 @@
       "structure": "Alliance friction lead -> Wamunyoro talks and ticket zoning demands -> Babu's Mwananchi Party firewall -> Competing City Hall interests and Gakuya factor -> Forward outlook on registration and candidate consolidation",
       "source": "https://kenyans.co.ke/news/128765-babu-owino-dismisses-claims-dropping-nairobi-governor-bid-after-gachagua-meeting",
       "published_at": "2026-10-22T08:03:20Z"
+    },
+    {
+      "title": "MTRH Enforces 21-Day Ebola Protocol After Bundibugyo Contact Tracing",
+      "angle": "Focusing on institutional containment discipline: how referral hospital management is separating preventive contact tracing from confirmed clinical illness to manage public panic while maintaining strict regional biosecurity protocols.",
+      "angle_type": "institutional pressure",
+      "opening": "Hard news protocol lead establishing the isolation timeline and the clinical distinction enforced by hospital leadership.",
+      "structure": "Containment protocol lead -> Contact tracing context and Bundibugyo virus link -> Institutional clarification on quarantine versus illness -> Forward monitoring conditions.",
+      "source": "https://kenyans.co.ke/news/128776-mtrh-places-one-person-under-21-day-quarantine-over-ebola-concerns",
+      "published_at": "2026-10-22T10:04:36Z"
     }
   ]
 }
