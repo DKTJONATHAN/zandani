@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a0b067bb1c5499134faaf4e370af5187",
     "f893ae13ecc42de607f122bc8c6da0fe",
     "0c77a8a136c6be8610c09f86230717e8",
     "a9b0aa6f66648a060420bad0c711c090",
@@ -799,10 +798,10 @@
     "a6a6ec386ba3da2dbdb63f74f00c3826",
     "0d1fbcb11b2949f8f20554dcbbdd0e69",
     "3b3e19c04277d13ca96e85c41d1c764d",
-    "eb0ef71f83043ed0dd54febfb36a0382"
+    "eb0ef71f83043ed0dd54febfb36a0382",
+    "15064c4dfc2e912b25fd164d06588921"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1433,7 +1433,8 @@
     "https://kenyans.co.ke/news/128779-dpp-charges-bus-driver-after-two-tum-students-die-kisumu-road-crash",
     "https://kenyans.co.ke/news/128782-kra-makes-digital-marine-cargo-insurance-mandatory-november-1",
     "https://kenyans.co.ke/news/128784-kra-announces-new-9-cent-tax-rate-employers-and-businesses-next-3-months",
-    "https://kenyans.co.ke/news/128785-iebc-backs-proposal-requiring-parties-nominate-persons-disabilities"
+    "https://kenyans.co.ke/news/128785-iebc-backs-proposal-requiring-parties-nominate-persons-disabilities",
+    "https://kenyans.co.ke/news/128788-mbadi-reveals-plan-scrap-paye-relief-employees-under-new-tax-proposal"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1957,7 +1958,8 @@
     "state slaps kisumu student bus driver traffic charges court denies cash bail",
     "kra locks customs clearance digital marine cover local underwriter shift",
     "employers face shorter compliance windows kra pushes loan tax rates 9pc",
-    "iebc endorses mandatory 5pc disability quota county assembly overhaul"
+    "iebc endorses mandatory 5pc disability quota county assembly overhaul",
+    "mbadi targets personal tax relief push free low earners paye"
   ],
   "topic_keys": [
     "news tracker",
@@ -5944,6 +5946,15 @@
       "structure": "Statutory quota lead -> Parliamentary committee proceedings and IEBC backing -> Operational mechanics of the new formula vs Section 36 flaws -> Categorical impairment requirements -> Forward legislative steps in the National Assembly.",
       "source": "https://kenyans.co.ke/news/128785-iebc-backs-proposal-requiring-parties-nominate-persons-disabilities",
       "published_at": "2026-10-22T18:02:35Z"
+    },
+    {
+      "title": "Mbadi Targets Personal Tax Relief in Push to Free Low Earners From PAYE",
+      "angle": "Attribution-first framing of the fiscal trade-off: Treasury is dismantling the universal Ksh2,400 monthly personal tax credit to insulate workers earning under Ksh32,333, a structural overhaul that exposes salaried staff above the entry threshold to higher net PAYE deductions unless remaining brackets are redrawn.",
+      "angle_type": "money",
+      "opening": "Attribution-first statement identifying National Treasury Cabinet Secretary John Mbadi, immediately linking the fiscal revision to salaried employees earning Ksh32,333 and below who stand to drop off the PAYE register entirely.",
+      "structure": "Attribution and beneficiary lead -> Legislative schedule and ministerial quote -> Mechanics of Section 30 relief removal -> Payroll vulnerability for earners above Ksh32,333 -> Executive timeline and Mashujaa Day policy link -> Forward legislative horizon",
+      "source": "https://kenyans.co.ke/news/128788-mbadi-reveals-plan-scrap-paye-relief-employees-under-new-tax-proposal",
+      "published_at": "2026-10-23T05:02:22Z"
     }
   ]
 }
