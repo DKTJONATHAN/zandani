@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "52e2caacaad9a53b45eb9f7f884f0d3b",
     "7c915321a67579688daa6ae6c484850d",
     "b6f93919172ed8807ec855f0df762303",
     "a770aebeec57be5286ccb8c6a206e65c",
@@ -799,10 +798,10 @@
     "4c5abef0f9204b7113cbcb4f9df532ae",
     "c57c4724b942dded9912857c8b677708",
     "78baca7828dc803e9b1f27b9f1e1dd20",
-    "af60d1d5241952bc8cf5ebcb8a50aca6"
+    "af60d1d5241952bc8cf5ebcb8a50aca6",
+    "494676c46350e9aaf0fecdbb2a2e745e"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1443,7 +1443,8 @@
     "https://kenyans.co.ke/news/128799-sitting-kitui-mca-arrested-over-alleged-nairobi-phone-thefts",
     "https://kenyans.co.ke/news/128803-several-feared-trapped-building-collapses-nairobis-eastleigh-area",
     "https://kenyans.co.ke/news/128801-kenya-issues-travel-insurance-advisory-middle-east-travellers",
-    "https://kenyans.co.ke/news/128809-cs-ogamba-asks-lecturers-end-strike-pledges-talks-new-cba"
+    "https://kenyans.co.ke/news/128809-cs-ogamba-asks-lecturers-end-strike-pledges-talks-new-cba",
+    "https://kenyans.co.ke/news/128811-cs-ruku-announces-mass-arrests-civil-servants-including-ceos-over-payroll-fraud"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1977,7 +1978,8 @@
     "cctv trail catches kitui lawmaker cbd syndicate 2024 warrant catches",
     "eastleigh trade halts storey tower collapses 9th street",
     "state locks out foreign travel policies mandatory ecitizen insurance push",
-    "state points cleared arrears lecturers hold out direct exchequer backing"
+    "state points cleared arrears lecturers hold out direct exchequer backing",
+    "gatekeepers parastatal heads face personal liability ksh6 public payroll fraud sweep"
   ],
   "topic_keys": [
     "news tracker",
@@ -6054,6 +6056,15 @@
       "structure": "Fiscal conflict lead -> Ministerial claim on past arrears -> The Exchequer funding redline -> Three-week strike timeline and compensation scope -> Impasse on written guarantees",
       "source": "https://kenyans.co.ke/news/128809-cs-ogamba-asks-lecturers-end-strike-pledges-talks-new-cba",
       "published_at": "2026-10-23T13:01:44Z"
+    },
+    {
+      "title": "HR Gatekeepers and Parastatal Heads Face Personal Liability in Ksh6.2B Public Payroll Fraud Sweep",
+      "angle": "Reframing the crackdown around institutional liability: shifting enforcement focus directly onto HR gatekeepers and parastatal CEOs who bypass centralized HRIS systems, backed by forensic audit evidence of Ksh6.2 billion in unauthorized spending.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first enforcement lead detailing the shift in state focus toward system administrators and parastatal leadership.",
+      "structure": "Operational liability lead -> Administrative sanctions and court timeline -> Agency-specific target areas and HRIS compliance mandates -> Forensic audit scope and multi-billion shilling exposure.",
+      "source": "https://kenyans.co.ke/news/128811-cs-ruku-announces-mass-arrests-civil-servants-including-ceos-over-payroll-fraud",
+      "published_at": "2026-10-23T14:07:58Z"
     }
   ]
 }
