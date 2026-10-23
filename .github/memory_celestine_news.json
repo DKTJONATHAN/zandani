@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "46c77fda03a6d26b00f9833b11909dcb",
     "1a14b355a6f86749e932aafc7ca6b44e",
     "a5e096c29f3726a25e5ea8789373db63",
     "52e2caacaad9a53b45eb9f7f884f0d3b",
@@ -799,10 +798,10 @@
     "c4bf9c76fc057000221119a7d704cb67",
     "9158524ae8018c7582c01bda9336606e",
     "d560827adf38bffde6a371a168fdc2a1",
-    "4c5abef0f9204b7113cbcb4f9df532ae"
+    "4c5abef0f9204b7113cbcb4f9df532ae",
+    "c57c4724b942dded9912857c8b677708"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1440,7 +1440,8 @@
     "https://kenyans.co.ke/news/128794-govt-invites-public-name-kenyas-crude-oil-ahead-global-market-entry",
     "https://kenyans.co.ke/news/128793-kenha-seeks-firm-verify-rironi-mau-summit-project-costs",
     "https://kenyans.co.ke/news/128797-us-introduces-mandatory-ebola-travel-declaration-all-passengers",
-    "https://kenyans.co.ke/news/128799-sitting-kitui-mca-arrested-over-alleged-nairobi-phone-thefts"
+    "https://kenyans.co.ke/news/128799-sitting-kitui-mca-arrested-over-alleged-nairobi-phone-thefts",
+    "https://kenyans.co.ke/news/128803-several-feared-trapped-building-collapses-nairobis-eastleigh-area"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1971,7 +1972,8 @@
     "state blocks county brands six day race opens name crude",
     "state nssf demand value audit ksh200b mau summit road works lag",
     "deputises airlines ebola gatekeepers mandatory day record rule",
-    "cctv trail catches kitui lawmaker cbd syndicate 2024 warrant catches"
+    "cctv trail catches kitui lawmaker cbd syndicate 2024 warrant catches",
+    "eastleigh trade halts storey tower collapses 9th street"
   ],
   "topic_keys": [
     "news tracker",
@@ -6021,6 +6023,15 @@
       "structure": "Attribution and apprehension lead -> Downtown surveillance evidence and August-September incidents -> Unresolved 2024 Makadara bench warrant mechanics -> Wider CBD enforcement context under regional command -> Pre-arraignment custody status",
       "source": "https://kenyans.co.ke/news/128799-sitting-kitui-mca-arrested-over-alleged-nairobi-phone-thefts",
       "published_at": "2026-10-23T10:02:13Z"
+    },
+    {
+      "title": "Eastleigh Trade Halts as 18-Storey Tower Collapses on 9th Street",
+      "angle": "Focusing on the immediate physical and commercial paralysis caused by the collapse of a high-density 18-storey construction project in Eastleigh's central trading grid, alongside the acute operational uncertainty facing first responders as they work without confirmed occupant rolls.",
+      "angle_type": "local impact",
+      "opening": "Commercial-disruption lead connecting the sudden structural failure of the 18-storey site directly to the standstill of trade along 9th Street and the gridlock of Eastlands transit arteries.",
+      "structure": "Commercial impact lead -> Structural scale and location details -> Rescue uncertainty and lack of confirmed casualties -> District-wide transit gridlock and crowd containment -> Forward edge on official verification and site clearance",
+      "source": "https://kenyans.co.ke/news/128803-several-feared-trapped-building-collapses-nairobis-eastleigh-area",
+      "published_at": "2026-10-23T11:02:12Z"
     }
   ]
 }
