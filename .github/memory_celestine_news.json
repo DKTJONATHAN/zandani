@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "49c9855990710f0ab12d13b6e6ecf96e",
     "d2314fc7160806dff7404a968f948255",
     "46c77fda03a6d26b00f9833b11909dcb",
     "1a14b355a6f86749e932aafc7ca6b44e",
@@ -799,10 +798,10 @@
     "2ecf17dd264c093c6c663727bb3a8c1f",
     "cb6dbc2b09cbf1c6c740f93edceb5d52",
     "c4bf9c76fc057000221119a7d704cb67",
-    "9158524ae8018c7582c01bda9336606e"
+    "9158524ae8018c7582c01bda9336606e",
+    "d560827adf38bffde6a371a168fdc2a1"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1438,7 +1438,8 @@
     "https://kenyans.co.ke/news/128790-kenya-met-warns-kenyans-along-coast-over-rough-seas-strong-winds",
     "https://kenyans.co.ke/news/128787-activists-plan-march-state-house-protest-high-fuel-prices-monday",
     "https://kenyans.co.ke/news/128794-govt-invites-public-name-kenyas-crude-oil-ahead-global-market-entry",
-    "https://kenyans.co.ke/news/128793-kenha-seeks-firm-verify-rironi-mau-summit-project-costs"
+    "https://kenyans.co.ke/news/128793-kenha-seeks-firm-verify-rironi-mau-summit-project-costs",
+    "https://kenyans.co.ke/news/128797-us-introduces-mandatory-ebola-travel-declaration-all-passengers"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1967,7 +1968,8 @@
     "met marine alert flags metre ocean swells weekend hazard small boats",
     "state house march notice puts nairobi police spot fuel protests",
     "state blocks county brands six day race opens name crude",
-    "state nssf demand value audit ksh200b mau summit road works lag"
+    "state nssf demand value audit ksh200b mau summit road works lag",
+    "deputises airlines ebola gatekeepers mandatory day record rule"
   ],
   "topic_keys": [
     "news tracker",
@@ -5999,6 +6001,15 @@
       "structure": "Audit scrutiny lead -> Scope of independent engineering inspection -> Treasury progress metrics versus ministerial timeline -> PPP financial structure and tolling stakes -> Technical qualification criteria",
       "source": "https://kenyans.co.ke/news/128793-kenha-seeks-firm-verify-rironi-mau-summit-project-costs",
       "published_at": "2026-10-23T09:04:08Z"
+    },
+    {
+      "title": "US Deputises Airlines as Ebola Gatekeepers in Mandatory 42-Day Record Rule",
+      "angle": "The operational enforcement burden shifted onto international carriers, turning foreign departure gates into mandatory screening barriers where airlines face strict directives to block passengers and archive passenger records for 42 days.",
+      "angle_type": "practical change",
+      "opening": "Operational-mandate lead establishing the regulatory burden and boarding denial requirement imposed directly on commercial carriers departing foreign hubs.",
+      "structure": "Operational carrier mandate -> Boarding denial mechanics and 42-day record retention rule -> Universal foreign flight scope -> Nairobi outbreak origin and contact tracing context -> State Department travel warning fallout",
+      "source": "https://kenyans.co.ke/news/128797-us-introduces-mandatory-ebola-travel-declaration-all-passengers",
+      "published_at": "2026-10-23T09:16:25Z"
     }
   ]
 }
