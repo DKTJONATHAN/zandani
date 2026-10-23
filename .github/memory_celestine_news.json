@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "3bf9b73bad7fe047b87a543b5308dcfb",
     "49c9855990710f0ab12d13b6e6ecf96e",
     "d2314fc7160806dff7404a968f948255",
     "46c77fda03a6d26b00f9833b11909dcb",
@@ -799,10 +798,10 @@
     "15064c4dfc2e912b25fd164d06588921",
     "2ecf17dd264c093c6c663727bb3a8c1f",
     "cb6dbc2b09cbf1c6c740f93edceb5d52",
-    "c4bf9c76fc057000221119a7d704cb67"
+    "c4bf9c76fc057000221119a7d704cb67",
+    "9158524ae8018c7582c01bda9336606e"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1437,7 +1437,8 @@
     "https://kenyans.co.ke/news/128788-mbadi-reveals-plan-scrap-paye-relief-employees-under-new-tax-proposal",
     "https://kenyans.co.ke/news/128790-kenya-met-warns-kenyans-along-coast-over-rough-seas-strong-winds",
     "https://kenyans.co.ke/news/128787-activists-plan-march-state-house-protest-high-fuel-prices-monday",
-    "https://kenyans.co.ke/news/128794-govt-invites-public-name-kenyas-crude-oil-ahead-global-market-entry"
+    "https://kenyans.co.ke/news/128794-govt-invites-public-name-kenyas-crude-oil-ahead-global-market-entry",
+    "https://kenyans.co.ke/news/128793-kenha-seeks-firm-verify-rironi-mau-summit-project-costs"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1965,7 +1966,8 @@
     "mbadi targets personal tax relief push free low earners paye",
     "met marine alert flags metre ocean swells weekend hazard small boats",
     "state house march notice puts nairobi police spot fuel protests",
-    "state blocks county brands six day race opens name crude"
+    "state blocks county brands six day race opens name crude",
+    "state nssf demand value audit ksh200b mau summit road works lag"
   ],
   "topic_keys": [
     "news tracker",
@@ -5988,6 +5990,15 @@
       "structure": "Regulatory branding parameters -> Public timeline and submission mechanics -> Origin basin history and equipment deployment -> Global trading grade comparisons -> Unresolved trademark and market debut tests",
       "source": "https://kenyans.co.ke/news/128794-govt-invites-public-name-kenyas-crude-oil-ahead-global-market-entry",
       "published_at": "2026-10-23T08:04:26Z"
+    },
+    {
+      "title": "State and NSSF Demand Value Audit on Ksh200B Mau Summit Road as Works Lag",
+      "angle": "The financial audit exposes a severe delivery disconnect: state road agencies and pension fund co-investors are rushing to reconcile actual site progress against expenditure just as the multi-billion project breaches ministerial delivery timelines, with initial works lagging at barely 35 per cent.",
+      "angle_type": "accountability",
+      "opening": "Accountability-reconciliation lead tying the independent audit tender directly to lagging physical delivery and multi-billion shilling exposure for NSSF and state coffers.",
+      "structure": "Audit scrutiny lead -> Scope of independent engineering inspection -> Treasury progress metrics versus ministerial timeline -> PPP financial structure and tolling stakes -> Technical qualification criteria",
+      "source": "https://kenyans.co.ke/news/128793-kenha-seeks-firm-verify-rironi-mau-summit-project-costs",
+      "published_at": "2026-10-23T09:04:08Z"
     }
   ]
 }
