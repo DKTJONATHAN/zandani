@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f893ae13ecc42de607f122bc8c6da0fe",
     "0c77a8a136c6be8610c09f86230717e8",
     "a9b0aa6f66648a060420bad0c711c090",
     "3bf9b73bad7fe047b87a543b5308dcfb",
@@ -799,10 +798,10 @@
     "0d1fbcb11b2949f8f20554dcbbdd0e69",
     "3b3e19c04277d13ca96e85c41d1c764d",
     "eb0ef71f83043ed0dd54febfb36a0382",
-    "15064c4dfc2e912b25fd164d06588921"
+    "15064c4dfc2e912b25fd164d06588921",
+    "2ecf17dd264c093c6c663727bb3a8c1f"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1434,7 +1434,8 @@
     "https://kenyans.co.ke/news/128782-kra-makes-digital-marine-cargo-insurance-mandatory-november-1",
     "https://kenyans.co.ke/news/128784-kra-announces-new-9-cent-tax-rate-employers-and-businesses-next-3-months",
     "https://kenyans.co.ke/news/128785-iebc-backs-proposal-requiring-parties-nominate-persons-disabilities",
-    "https://kenyans.co.ke/news/128788-mbadi-reveals-plan-scrap-paye-relief-employees-under-new-tax-proposal"
+    "https://kenyans.co.ke/news/128788-mbadi-reveals-plan-scrap-paye-relief-employees-under-new-tax-proposal",
+    "https://kenyans.co.ke/news/128790-kenya-met-warns-kenyans-along-coast-over-rough-seas-strong-winds"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1959,7 +1960,8 @@
     "kra locks customs clearance digital marine cover local underwriter shift",
     "employers face shorter compliance windows kra pushes loan tax rates 9pc",
     "iebc endorses mandatory 5pc disability quota county assembly overhaul",
-    "mbadi targets personal tax relief push free low earners paye"
+    "mbadi targets personal tax relief push free low earners paye",
+    "met marine alert flags metre ocean swells weekend hazard small boats"
   ],
   "topic_keys": [
     "news tracker",
@@ -5955,6 +5957,15 @@
       "structure": "Attribution and beneficiary lead -> Legislative schedule and ministerial quote -> Mechanics of Section 30 relief removal -> Payroll vulnerability for earners above Ksh32,333 -> Executive timeline and Mashujaa Day policy link -> Forward legislative horizon",
       "source": "https://kenyans.co.ke/news/128788-mbadi-reveals-plan-scrap-paye-relief-employees-under-new-tax-proposal",
       "published_at": "2026-10-23T05:02:22Z"
+    },
+    {
+      "title": "Kenya Met Marine Alert Flags 3-Metre Ocean Swells as Weekend Hazard for Small Boats",
+      "angle": "The acute operational navigation window facing artisanal fishers and small craft operators, tracking the escalation of open-water swells to a three-metre peak by Saturday alongside offshore tropical storm tracking across the wider East African coastline.",
+      "angle_type": "consequence",
+      "opening": "Operational-hazard lead linking the weekend swell escalation directly to safety margins for small vessels and artisanal fishers.",
+      "structure": "Operational hazard lead -> Escalation timeline and wave height breakdown -> Regional sea-basin reach and tropical storm tracking -> Inland weather divergence and marine advisory instructions",
+      "source": "https://kenyans.co.ke/news/128790-kenya-met-warns-kenyans-along-coast-over-rough-seas-strong-winds",
+      "published_at": "2026-10-23T06:01:53Z"
     }
   ]
 }
