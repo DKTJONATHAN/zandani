@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "bfaada2124a5ef93e2ccf4adf3bb14e3",
     "496b80ba1ad702809ef53d350b4fecf1",
     "0131d71bd028e0a5548828d0f65ee5aa",
     "e5dd84619658d4aedcc743f57a8e44f6",
@@ -799,10 +798,10 @@
     "60bc4e1fadbda149a6e7550e6cd40fb9",
     "5cdaae1738edff82d311d06c9960db06",
     "c348377a7ef3da9b4c1a15c5baa09840",
-    "221921477c6affeedb39facd66581548"
+    "221921477c6affeedb39facd66581548",
+    "75b849a8f80c688177996e656e08d80e"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1448,7 +1448,8 @@
     "https://kenyans.co.ke/news/128807-australian-firms-outline-plans-kenyas-mrima-hill-rare-earth-deposits",
     "https://kenyans.co.ke/news/128812-authorities-launch-manhunt-collapsed-eastleigh-building-owner-approval-details-emerge",
     "https://kenyans.co.ke/news/128814-health-ps-mary-muthoni-appointed-africa-cdc-immunisation-task-force-chair",
-    "https://kenyans.co.ke/news/128815-bank-employee-charged-over-alleged-hacking-banking-system"
+    "https://kenyans.co.ke/news/128815-bank-employee-charged-over-alleged-hacking-banking-system",
+    "https://kenyans.co.ke/news/128813-former-kiambu-county-assembly-hr-officer-fined-ksh106-million-over-fake-kcse"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1987,7 +1988,8 @@
     "australian consortium mrima hill pitch routes critical minerals western supply chain",
     "county approvals under fire storey eastleigh collapse exposes oversight loophole",
     "africa cdc puts health charge continental vaccine alignment",
-    "finacle credential duplication exposed milimani insider banking case"
+    "finacle credential duplication exposed milimani insider banking case",
+    "fake 1996 certificate netled kiambu officer ksh4 salary before court order"
   ],
   "topic_keys": [
     "news tracker",
@@ -6109,6 +6111,15 @@
       "structure": "System vulnerability lead -> Court plea and bail terms -> Forensic breakdown of Finacle profile cloning -> Accomplice network and operational timeline -> Outstanding prosecution steps",
       "source": "https://kenyans.co.ke/news/128815-bank-employee-charged-over-alleged-hacking-banking-system",
       "published_at": "2026-10-23T17:02:37Z"
+    },
+    {
+      "title": "Fake 1996 Certificate Netled Ex-Kiambu HR Officer Ksh4.9M Salary Before Court Order",
+      "angle": "The financial cost of credential fraud: examining how a fraudulent 1996 secondary certificate translated into nearly five million shillings in public salary over five years before triggering a Ksh1 million restitution order.",
+      "angle_type": "money",
+      "opening": "Financial-exposure lead linking the forged certificate directly to the multi-million shilling public salary drawn before the EACC's recovery intervention.",
+      "structure": "Financial scale and salary payout -> Plea agreement and criminal sentencing breakdown -> Institutional recruitment vulnerabilities -> Broader public payroll audit context",
+      "source": "https://kenyans.co.ke/news/128813-former-kiambu-county-assembly-hr-officer-fined-ksh106-million-over-fake-kcse",
+      "published_at": "2026-10-23T18:03:13Z"
     }
   ]
 }
