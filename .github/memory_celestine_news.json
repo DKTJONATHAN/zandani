@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a9b0aa6f66648a060420bad0c711c090",
     "3bf9b73bad7fe047b87a543b5308dcfb",
     "49c9855990710f0ab12d13b6e6ecf96e",
     "d2314fc7160806dff7404a968f948255",
@@ -799,10 +798,10 @@
     "eb0ef71f83043ed0dd54febfb36a0382",
     "15064c4dfc2e912b25fd164d06588921",
     "2ecf17dd264c093c6c663727bb3a8c1f",
-    "cb6dbc2b09cbf1c6c740f93edceb5d52"
+    "cb6dbc2b09cbf1c6c740f93edceb5d52",
+    "c4bf9c76fc057000221119a7d704cb67"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1436,7 +1436,8 @@
     "https://kenyans.co.ke/news/128785-iebc-backs-proposal-requiring-parties-nominate-persons-disabilities",
     "https://kenyans.co.ke/news/128788-mbadi-reveals-plan-scrap-paye-relief-employees-under-new-tax-proposal",
     "https://kenyans.co.ke/news/128790-kenya-met-warns-kenyans-along-coast-over-rough-seas-strong-winds",
-    "https://kenyans.co.ke/news/128787-activists-plan-march-state-house-protest-high-fuel-prices-monday"
+    "https://kenyans.co.ke/news/128787-activists-plan-march-state-house-protest-high-fuel-prices-monday",
+    "https://kenyans.co.ke/news/128794-govt-invites-public-name-kenyas-crude-oil-ahead-global-market-entry"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1963,7 +1964,8 @@
     "iebc endorses mandatory 5pc disability quota county assembly overhaul",
     "mbadi targets personal tax relief push free low earners paye",
     "met marine alert flags metre ocean swells weekend hazard small boats",
-    "state house march notice puts nairobi police spot fuel protests"
+    "state house march notice puts nairobi police spot fuel protests",
+    "state blocks county brands six day race opens name crude"
   ],
   "topic_keys": [
     "news tracker",
@@ -5977,6 +5979,15 @@
       "structure": "Security escalation lead -> Core police notification details -> Recent Kimathi Street policing and media crackdown -> Fractured consumer response between matatu owners and commuter groups -> Forward timeline toward the October 26 march and COCOWA deadline",
       "source": "https://kenyans.co.ke/news/128787-activists-plan-march-state-house-protest-high-fuel-prices-monday",
       "published_at": "2026-10-23T07:02:24Z"
+    },
+    {
+      "title": "State Blocks County Brands as Six-Day Race Opens to Name Kenyan Crude",
+      "angle": "The commercial and legal filter imposed by the State Department for Petroleum: explicitly stripping county-level and communal identity from the naming criteria to engineer a neutral, trademark-compliant commodity grade for international trading desks within a compressed six-day public window.",
+      "angle_type": "practical change",
+      "opening": "Regulatory-filter lead linking the branding criteria and prohibition of county names directly to the international trading standards demanded for December commercial exports.",
+      "structure": "Regulatory branding parameters -> Public timeline and submission mechanics -> Origin basin history and equipment deployment -> Global trading grade comparisons -> Unresolved trademark and market debut tests",
+      "source": "https://kenyans.co.ke/news/128794-govt-invites-public-name-kenyas-crude-oil-ahead-global-market-entry",
+      "published_at": "2026-10-23T08:04:26Z"
     }
   ]
 }
