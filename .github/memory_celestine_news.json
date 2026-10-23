@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "b6f93919172ed8807ec855f0df762303",
     "a770aebeec57be5286ccb8c6a206e65c",
     "c99240fa970724f649f42edb8449de29",
     "bfaada2124a5ef93e2ccf4adf3bb14e3",
@@ -799,10 +798,10 @@
     "78baca7828dc803e9b1f27b9f1e1dd20",
     "af60d1d5241952bc8cf5ebcb8a50aca6",
     "494676c46350e9aaf0fecdbb2a2e745e",
-    "60bc4e1fadbda149a6e7550e6cd40fb9"
+    "60bc4e1fadbda149a6e7550e6cd40fb9",
+    "5cdaae1738edff82d311d06c9960db06"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1445,7 +1445,8 @@
     "https://kenyans.co.ke/news/128801-kenya-issues-travel-insurance-advisory-middle-east-travellers",
     "https://kenyans.co.ke/news/128809-cs-ogamba-asks-lecturers-end-strike-pledges-talks-new-cba",
     "https://kenyans.co.ke/news/128811-cs-ruku-announces-mass-arrests-civil-servants-including-ceos-over-payroll-fraud",
-    "https://kenyans.co.ke/news/128807-australian-firms-outline-plans-kenyas-mrima-hill-rare-earth-deposits"
+    "https://kenyans.co.ke/news/128807-australian-firms-outline-plans-kenyas-mrima-hill-rare-earth-deposits",
+    "https://kenyans.co.ke/news/128812-authorities-launch-manhunt-collapsed-eastleigh-building-owner-approval-details-emerge"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1981,7 +1982,8 @@
     "state locks out foreign travel policies mandatory ecitizen insurance push",
     "state points cleared arrears lecturers hold out direct exchequer backing",
     "gatekeepers parastatal heads face personal liability ksh6 public payroll fraud sweep",
-    "australian consortium mrima hill pitch routes critical minerals western supply chain"
+    "australian consortium mrima hill pitch routes critical minerals western supply chain",
+    "county approvals under fire storey eastleigh collapse exposes oversight loophole"
   ],
   "topic_keys": [
     "news tracker",
@@ -6076,6 +6078,15 @@
       "structure": "Export routing lead -> Kwale site mechanics and domestic by-product scope -> Institutional tender showdown with US and Chinese interests -> Community, academic, and technical commitments -> Regulatory test facing the Ministry of Mining",
       "source": "https://kenyans.co.ke/news/128807-australian-firms-outline-plans-kenyas-mrima-hill-rare-earth-deposits",
       "published_at": "2026-10-23T14:45:58Z"
+    },
+    {
+      "title": "County Approvals Under Fire as 18-Storey Eastleigh Collapse Exposes Oversight Loophole",
+      "angle": "The regulatory paper-trail loop: how developers secure county planning approvals using certified engineers, then dismiss them and open high-rise sites to commercial trade without occupation certificates or accredited oversight.",
+      "angle_type": "accountability",
+      "opening": "Systemic-scrutiny lead tying the structural collapse directly to county approval loopholes and missing occupation clearances.",
+      "structure": "Regulatory gap lead -> Approval versus occupation breakdown -> Sakaja's professional dismissal reveal -> Rescue operations and trapped casualty estimates -> Criminal liability and system audit calls.",
+      "source": "https://kenyans.co.ke/news/128812-authorities-launch-manhunt-collapsed-eastleigh-building-owner-approval-details-emerge",
+      "published_at": "2026-10-23T15:02:15Z"
     }
   ]
 }
