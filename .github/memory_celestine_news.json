@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a770aebeec57be5286ccb8c6a206e65c",
     "c99240fa970724f649f42edb8449de29",
     "bfaada2124a5ef93e2ccf4adf3bb14e3",
     "496b80ba1ad702809ef53d350b4fecf1",
@@ -799,10 +798,10 @@
     "af60d1d5241952bc8cf5ebcb8a50aca6",
     "494676c46350e9aaf0fecdbb2a2e745e",
     "60bc4e1fadbda149a6e7550e6cd40fb9",
-    "5cdaae1738edff82d311d06c9960db06"
+    "5cdaae1738edff82d311d06c9960db06",
+    "c348377a7ef3da9b4c1a15c5baa09840"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1446,7 +1446,8 @@
     "https://kenyans.co.ke/news/128809-cs-ogamba-asks-lecturers-end-strike-pledges-talks-new-cba",
     "https://kenyans.co.ke/news/128811-cs-ruku-announces-mass-arrests-civil-servants-including-ceos-over-payroll-fraud",
     "https://kenyans.co.ke/news/128807-australian-firms-outline-plans-kenyas-mrima-hill-rare-earth-deposits",
-    "https://kenyans.co.ke/news/128812-authorities-launch-manhunt-collapsed-eastleigh-building-owner-approval-details-emerge"
+    "https://kenyans.co.ke/news/128812-authorities-launch-manhunt-collapsed-eastleigh-building-owner-approval-details-emerge",
+    "https://kenyans.co.ke/news/128814-health-ps-mary-muthoni-appointed-africa-cdc-immunisation-task-force-chair"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1983,7 +1984,8 @@
     "state points cleared arrears lecturers hold out direct exchequer backing",
     "gatekeepers parastatal heads face personal liability ksh6 public payroll fraud sweep",
     "australian consortium mrima hill pitch routes critical minerals western supply chain",
-    "county approvals under fire storey eastleigh collapse exposes oversight loophole"
+    "county approvals under fire storey eastleigh collapse exposes oversight loophole",
+    "africa cdc puts health charge continental vaccine alignment"
   ],
   "topic_keys": [
     "news tracker",
@@ -6087,6 +6089,15 @@
       "structure": "Regulatory gap lead -> Approval versus occupation breakdown -> Sakaja's professional dismissal reveal -> Rescue operations and trapped casualty estimates -> Criminal liability and system audit calls.",
       "source": "https://kenyans.co.ke/news/128812-authorities-launch-manhunt-collapsed-eastleigh-building-owner-approval-details-emerge",
       "published_at": "2026-10-23T15:02:15Z"
+    },
+    {
+      "title": "Africa CDC Puts Kenya's Health PS in Charge of Continental Vaccine Alignment",
+      "angle": "Attribution-first governance framing: focusing on how the Africa CDC's mandate tasks Muthoni with aligning external donor funding directly behind sovereign domestic vaccine priorities ahead of the 2026\u20132030 continental strategy rollout.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first statement lead citing Africa CDC Director General Jean Kaseya, establishing immediate benefit for AU member states balancing national health priorities against external partner funding.",
+      "structure": "Attribution lead -> Direct mandate and appointment mechanics -> Sovereign alignment and partner accountability -> Continental portfolio convergence -> Upcoming Addis Ababa launch agenda",
+      "source": "https://kenyans.co.ke/news/128814-health-ps-mary-muthoni-appointed-africa-cdc-immunisation-task-force-chair",
+      "published_at": "2026-10-23T16:04:48Z"
     }
   ]
 }
