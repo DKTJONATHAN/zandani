@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a5e096c29f3726a25e5ea8789373db63",
     "52e2caacaad9a53b45eb9f7f884f0d3b",
     "7c915321a67579688daa6ae6c484850d",
     "b6f93919172ed8807ec855f0df762303",
@@ -799,10 +798,10 @@
     "d560827adf38bffde6a371a168fdc2a1",
     "4c5abef0f9204b7113cbcb4f9df532ae",
     "c57c4724b942dded9912857c8b677708",
-    "78baca7828dc803e9b1f27b9f1e1dd20"
+    "78baca7828dc803e9b1f27b9f1e1dd20",
+    "af60d1d5241952bc8cf5ebcb8a50aca6"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1442,7 +1442,8 @@
     "https://kenyans.co.ke/news/128797-us-introduces-mandatory-ebola-travel-declaration-all-passengers",
     "https://kenyans.co.ke/news/128799-sitting-kitui-mca-arrested-over-alleged-nairobi-phone-thefts",
     "https://kenyans.co.ke/news/128803-several-feared-trapped-building-collapses-nairobis-eastleigh-area",
-    "https://kenyans.co.ke/news/128801-kenya-issues-travel-insurance-advisory-middle-east-travellers"
+    "https://kenyans.co.ke/news/128801-kenya-issues-travel-insurance-advisory-middle-east-travellers",
+    "https://kenyans.co.ke/news/128809-cs-ogamba-asks-lecturers-end-strike-pledges-talks-new-cba"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1975,7 +1976,8 @@
     "deputises airlines ebola gatekeepers mandatory day record rule",
     "cctv trail catches kitui lawmaker cbd syndicate 2024 warrant catches",
     "eastleigh trade halts storey tower collapses 9th street",
-    "state locks out foreign travel policies mandatory ecitizen insurance push"
+    "state locks out foreign travel policies mandatory ecitizen insurance push",
+    "state points cleared arrears lecturers hold out direct exchequer backing"
   ],
   "topic_keys": [
     "news tracker",
@@ -6043,6 +6045,15 @@
       "structure": "Border restriction lead -> eCitizen exclusivity and foreign underwriter exclusion -> Airline verification checkpoint and child coverage rules -> Blanket exemptions breakdown -> Non-EAC African visitor clause",
       "source": "https://kenyans.co.ke/news/128801-kenya-issues-travel-insurance-advisory-middle-east-travellers",
       "published_at": "2026-10-23T12:02:06Z"
+    },
+    {
+      "title": "State Points to Cleared Arrears as Lecturers Hold Out for Direct Exchequer Backing",
+      "angle": "The fiscal standoff underlying the strike: while the ministry cites settled historical arrears to urge an immediate return to lecture halls, unions refuse to suspend action without binding National Exchequer guarantees that remove university payrolls from volatile student fee collections.",
+      "angle_type": "money",
+      "opening": "Fiscal-deadlock lead contrasting the government's retrospective settlement claims against the unions' demand for forward-looking Exchequer underwriting.",
+      "structure": "Fiscal conflict lead -> Ministerial claim on past arrears -> The Exchequer funding redline -> Three-week strike timeline and compensation scope -> Impasse on written guarantees",
+      "source": "https://kenyans.co.ke/news/128809-cs-ogamba-asks-lecturers-end-strike-pledges-talks-new-cba",
+      "published_at": "2026-10-23T13:01:44Z"
     }
   ]
 }
