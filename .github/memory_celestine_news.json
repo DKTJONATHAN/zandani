@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "c99240fa970724f649f42edb8449de29",
     "bfaada2124a5ef93e2ccf4adf3bb14e3",
     "496b80ba1ad702809ef53d350b4fecf1",
     "0131d71bd028e0a5548828d0f65ee5aa",
@@ -799,10 +798,10 @@
     "494676c46350e9aaf0fecdbb2a2e745e",
     "60bc4e1fadbda149a6e7550e6cd40fb9",
     "5cdaae1738edff82d311d06c9960db06",
-    "c348377a7ef3da9b4c1a15c5baa09840"
+    "c348377a7ef3da9b4c1a15c5baa09840",
+    "221921477c6affeedb39facd66581548"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1447,7 +1447,8 @@
     "https://kenyans.co.ke/news/128811-cs-ruku-announces-mass-arrests-civil-servants-including-ceos-over-payroll-fraud",
     "https://kenyans.co.ke/news/128807-australian-firms-outline-plans-kenyas-mrima-hill-rare-earth-deposits",
     "https://kenyans.co.ke/news/128812-authorities-launch-manhunt-collapsed-eastleigh-building-owner-approval-details-emerge",
-    "https://kenyans.co.ke/news/128814-health-ps-mary-muthoni-appointed-africa-cdc-immunisation-task-force-chair"
+    "https://kenyans.co.ke/news/128814-health-ps-mary-muthoni-appointed-africa-cdc-immunisation-task-force-chair",
+    "https://kenyans.co.ke/news/128815-bank-employee-charged-over-alleged-hacking-banking-system"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1985,7 +1986,8 @@
     "gatekeepers parastatal heads face personal liability ksh6 public payroll fraud sweep",
     "australian consortium mrima hill pitch routes critical minerals western supply chain",
     "county approvals under fire storey eastleigh collapse exposes oversight loophole",
-    "africa cdc puts health charge continental vaccine alignment"
+    "africa cdc puts health charge continental vaccine alignment",
+    "finacle credential duplication exposed milimani insider banking case"
   ],
   "topic_keys": [
     "news tracker",
@@ -6098,6 +6100,15 @@
       "structure": "Attribution lead -> Direct mandate and appointment mechanics -> Sovereign alignment and partner accountability -> Continental portfolio convergence -> Upcoming Addis Ababa launch agenda",
       "source": "https://kenyans.co.ke/news/128814-health-ps-mary-muthoni-appointed-africa-cdc-immunisation-task-force-chair",
       "published_at": "2026-10-23T16:04:48Z"
+    },
+    {
+      "title": "Finacle Credential Duplication Exposed in Milimani Insider Banking Case",
+      "angle": "Focusing on the operational mechanism of core-banking access exploitation\u2014specifically how cloned Finacle user credentials were used over a five-month span to bypass permission controls, while co-conspirators remain at large.",
+      "angle_type": "accountability",
+      "opening": "Access-control security lead highlighting the operational breach mechanism within core-banking software.",
+      "structure": "System vulnerability lead -> Court plea and bail terms -> Forensic breakdown of Finacle profile cloning -> Accomplice network and operational timeline -> Outstanding prosecution steps",
+      "source": "https://kenyans.co.ke/news/128815-bank-employee-charged-over-alleged-hacking-banking-system",
+      "published_at": "2026-10-23T17:02:37Z"
     }
   ]
 }
