@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ad7986c988ae96d5d95957dcaba823a9",
     "17fa987e12aefd8ec31201a35aca72de",
     "f7e7b84015b019a871f8c5a0f0be84e4",
     "810ec67a29fd8eb22c7f7003a752be8b",
@@ -799,10 +798,10 @@
     "4158d69a8e02145a4a46ea5c7e07eba7",
     "3ebc713c6f4dd6b3b0e426008207b6f1",
     "f17ffba84394db7d9947433b983cc044",
-    "0381553138d342a994e50781ffb36937"
+    "0381553138d342a994e50781ffb36937",
+    "07019ca43cf842eeece4d308dc4b7726"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1463,7 +1463,8 @@
     "https://kenyans.co.ke/news/128832-cs-ogamba-appoints-former-uon-vc-lead-52-man-taskforce-probe-school-unrest",
     "https://kenyans.co.ke/news/128834-cj-koome-establishes-new-high-court-division-international-and-organised-crimes",
     "https://kenyans.co.ke/news/128835-meru-names-seven-member-committee-assess-city-bid",
-    "https://kenyans.co.ke/news/128836-nps-probes-senator-over-alleged-claims-forging-certificate-police-recruit"
+    "https://kenyans.co.ke/news/128836-nps-probes-senator-over-alleged-claims-forging-certificate-police-recruit",
+    "https://kenyans.co.ke/news/128831-high-court-freezes-multimillion-properties-vehicles-linked-six-kenyans"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2017,7 +2018,8 @@
     "state unrest inquiry mandated probe fees stalled past reforms 204 schools",
     "high court crime division imposes strict day status hearings secure digital portals",
     "meru subjects municipal finances services independent audit city charter quest",
-    "nps faces scrutiny summons delay nyamu confesses recruit forgery"
+    "nps faces scrutiny summons delay nyamu confesses recruit forgery",
+    "high court orders commercial cash flows diverted state multimillion shilling asset freeze"
   ],
   "topic_keys": [
     "news tracker",
@@ -6274,6 +6276,15 @@
       "structure": "Disparity lead -> Detailed on-air confession and college purge facts -> Statutory and institutional critique from NPS spokesperson -> Professional standing of the lawmaker as counsel -> Lingering procedural question over formal summons",
       "source": "https://kenyans.co.ke/news/128836-nps-probes-senator-over-alleged-claims-forging-certificate-police-recruit",
       "published_at": "2026-10-24T17:01:56Z"
+    },
+    {
+      "title": "High Court Orders Commercial Cash Flows Diverted to State in Multimillion-Shilling Asset Freeze",
+      "angle": "The enforcement mechanics of the preservation orders under POCAMLA: moving beyond passive title caveats to actively divert commercial cash flows, mandating seven-day surrenders of physical assets and keys, and seizing revenue-generating freight logistics before forfeiture trials begin.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first enforcement lead detailing the court's mandate to divert rental and business revenues directly into ARA accounts alongside physical asset surrenders.",
+      "structure": "Judicial attribution and revenue-interception scope -> Inventory of frozen commercial and residential assets -> Procedural mechanics of the seven-day surrender ultimatums -> Statutory gazettement and registry restriction pipeline",
+      "source": "https://kenyans.co.ke/news/128831-high-court-freezes-multimillion-properties-vehicles-linked-six-kenyans",
+      "published_at": "2026-10-24T18:06:19Z"
     }
   ]
 }
