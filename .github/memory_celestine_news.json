@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "0482703404b9ebc98539de35f26754e4",
     "ad7986c988ae96d5d95957dcaba823a9",
     "17fa987e12aefd8ec31201a35aca72de",
     "f7e7b84015b019a871f8c5a0f0be84e4",
@@ -799,10 +798,10 @@
     "29134fecbf706cd72183132786c6320b",
     "4158d69a8e02145a4a46ea5c7e07eba7",
     "3ebc713c6f4dd6b3b0e426008207b6f1",
-    "f17ffba84394db7d9947433b983cc044"
+    "f17ffba84394db7d9947433b983cc044",
+    "0381553138d342a994e50781ffb36937"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1462,7 +1462,8 @@
     "https://kenyans.co.ke/news/128829-mass-layoffs-loom-registrar-companies-dissolves-72-firms-targets-68-more",
     "https://kenyans.co.ke/news/128832-cs-ogamba-appoints-former-uon-vc-lead-52-man-taskforce-probe-school-unrest",
     "https://kenyans.co.ke/news/128834-cj-koome-establishes-new-high-court-division-international-and-organised-crimes",
-    "https://kenyans.co.ke/news/128835-meru-names-seven-member-committee-assess-city-bid"
+    "https://kenyans.co.ke/news/128835-meru-names-seven-member-committee-assess-city-bid",
+    "https://kenyans.co.ke/news/128836-nps-probes-senator-over-alleged-claims-forging-certificate-police-recruit"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2015,7 +2016,8 @@
     "registrar expels firms second back back registry purge",
     "state unrest inquiry mandated probe fees stalled past reforms 204 schools",
     "high court crime division imposes strict day status hearings secure digital portals",
-    "meru subjects municipal finances services independent audit city charter quest"
+    "meru subjects municipal finances services independent audit city charter quest",
+    "nps faces scrutiny summons delay nyamu confesses recruit forgery"
   ],
   "topic_keys": [
     "news tracker",
@@ -6263,6 +6265,15 @@
       "structure": "Statutory audit lead -> Composition of professional review panel -> Statutory hurdles under the Urban Areas and Cities Act -> Legislative and executive ratification pipeline -> Competitive national landscape alongside Thika",
       "source": "https://kenyans.co.ke/news/128835-meru-names-seven-member-committee-assess-city-bid",
       "published_at": "2026-10-24T15:07:34Z"
+    },
+    {
+      "title": "NPS Faces Scrutiny Over Summons Delay as Nyamu Confesses to Recruit Forgery",
+      "angle": "The accountability gap between the immediate arrest and expulsion of 18 recruits at Kiganjo and the investigative hesitation surrounding a sitting lawmaker and legal practitioner who publicly admitted to aiding document fraud.",
+      "angle_type": "accountability",
+      "opening": "Accountability lead contrasting the criminal detention of training recruits with the legal limbo facing the lawmaker who claimed complicity in the act.",
+      "structure": "Disparity lead -> Detailed on-air confession and college purge facts -> Statutory and institutional critique from NPS spokesperson -> Professional standing of the lawmaker as counsel -> Lingering procedural question over formal summons",
+      "source": "https://kenyans.co.ke/news/128836-nps-probes-senator-over-alleged-claims-forging-certificate-police-recruit",
+      "published_at": "2026-10-24T17:01:56Z"
     }
   ]
 }
