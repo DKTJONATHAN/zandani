@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "2d62cd1576397388cebbb2ffeb409ba6",
     "f8d6cdc664e780c8810999b458688703",
     "ed70349b0909707122c6add56bf37c13",
     "0482703404b9ebc98539de35f26754e4",
@@ -799,10 +798,10 @@
     "665dc52622def026bfe06b001668ad13",
     "589fa2ece0b3c092700b832f3761dc5b",
     "5c6961fd635dd70ec2a5abd3f0a2b305",
-    "29134fecbf706cd72183132786c6320b"
+    "29134fecbf706cd72183132786c6320b",
+    "4158d69a8e02145a4a46ea5c7e07eba7"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1459,7 +1459,8 @@
     "https://kenyans.co.ke/news/128826-cma-ranks-kenyas-most-popular-money-market-and-unit-trust-funds-2026",
     "https://kenyans.co.ke/news/128825-public-health-officers-ordered-flag-dangerous-buildings-after-eastleigh-collapse",
     "https://kenyans.co.ke/news/128827-drama-burudi-nabweras-burial-leaders-attempt-stop-natembeyas-speech",
-    "https://kenyans.co.ke/news/128829-mass-layoffs-loom-registrar-companies-dissolves-72-firms-targets-68-more"
+    "https://kenyans.co.ke/news/128829-mass-layoffs-loom-registrar-companies-dissolves-72-firms-targets-68-more",
+    "https://kenyans.co.ke/news/128832-cs-ogamba-appoints-former-uon-vc-lead-52-man-taskforce-probe-school-unrest"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2009,7 +2010,8 @@
     "standard investment overtakes sanlam unit trust assets surge ksh948b",
     "health ministry drafts field officers construction watch eastleigh collapse",
     "natembeya defies podium scuffle challenge state house trans nzoia development",
-    "registrar expels firms second back back registry purge"
+    "registrar expels firms second back back registry purge",
+    "state unrest inquiry mandated probe fees stalled past reforms 204 schools"
   ],
   "topic_keys": [
     "news tracker",
@@ -6230,6 +6232,15 @@
       "structure": "Regulatory purge scope -> Statutory mechanics under Section 897 -> Sectoral footprint -> September-October cumulative cleanup scale -> Three-month contestation window",
       "source": "https://kenyans.co.ke/news/128829-mass-layoffs-loom-registrar-companies-dissolves-72-firms-targets-68-more",
       "published_at": "2026-10-24T12:02:03Z"
+    },
+    {
+      "title": "State Unrest Inquiry Mandated to Probe Fees and Stalled Past Reforms in 204 Schools",
+      "angle": "Focusing on the task force's specific mandate to audit why past unrest recommendations went unimplemented, while formally tying the 2026 school burnings directly to school fees, uniform costs, and capitation pressures rather than treating unrest purely as a student discipline crisis.",
+      "angle_type": "institutional pressure",
+      "opening": "Hard news policy lead linking the 90-day inquiry mandate directly to systemic institutional and financial triggers behind the 2026 school closures.",
+      "structure": "Mandate scope lead -> Operational terms and 90-day statutory timeline -> Financial, uniform, and infrastructure review terms -> Composition across unions, police, and academia -> Forward reporting requirement",
+      "source": "https://kenyans.co.ke/news/128832-cs-ogamba-appoints-former-uon-vc-lead-52-man-taskforce-probe-school-unrest",
+      "published_at": "2026-10-24T13:02:19Z"
     }
   ]
 }
