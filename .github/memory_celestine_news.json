@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "17fa987e12aefd8ec31201a35aca72de",
     "f7e7b84015b019a871f8c5a0f0be84e4",
     "810ec67a29fd8eb22c7f7003a752be8b",
     "359dca7685b65f9994ff533b2f46034d",
@@ -799,10 +798,10 @@
     "3ebc713c6f4dd6b3b0e426008207b6f1",
     "f17ffba84394db7d9947433b983cc044",
     "0381553138d342a994e50781ffb36937",
-    "07019ca43cf842eeece4d308dc4b7726"
+    "07019ca43cf842eeece4d308dc4b7726",
+    "00c2936693e2710d2a1b802c263deb5d"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1464,7 +1464,8 @@
     "https://kenyans.co.ke/news/128834-cj-koome-establishes-new-high-court-division-international-and-organised-crimes",
     "https://kenyans.co.ke/news/128835-meru-names-seven-member-committee-assess-city-bid",
     "https://kenyans.co.ke/news/128836-nps-probes-senator-over-alleged-claims-forging-certificate-police-recruit",
-    "https://kenyans.co.ke/news/128831-high-court-freezes-multimillion-properties-vehicles-linked-six-kenyans"
+    "https://kenyans.co.ke/news/128831-high-court-freezes-multimillion-properties-vehicles-linked-six-kenyans",
+    "https://kenyans.co.ke/news/128830-atwoli-lands-new-job-ruto-css-make-appointments-govt"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2019,7 +2020,8 @@
     "high court crime division imposes strict day status hearings secure digital portals",
     "meru subjects municipal finances services independent audit city charter quest",
     "nps faces scrutiny summons delay nyamu confesses recruit forgery",
-    "high court orders commercial cash flows diverted state multimillion shilling asset freeze"
+    "high court orders commercial cash flows diverted state multimillion shilling asset freeze",
+    "state consolidates regulatory boards atwoli drafted welfare oversight"
   ],
   "topic_keys": [
     "news tracker",
@@ -6285,6 +6287,15 @@
       "structure": "Judicial attribution and revenue-interception scope -> Inventory of frozen commercial and residential assets -> Procedural mechanics of the seven-day surrender ultimatums -> Statutory gazettement and registry restriction pipeline",
       "source": "https://kenyans.co.ke/news/128831-high-court-freezes-multimillion-properties-vehicles-linked-six-kenyans",
       "published_at": "2026-10-24T18:06:19Z"
+    },
+    {
+      "title": "State Consolidates Regulatory Boards as Atwoli Drafted Into Welfare Oversight",
+      "angle": "Institutional continuity versus sector co-optation: the gazette actions prioritize three-year tenure renewals for critical regulatory gatekeepers in mining and legal accreditation, while formally embedding union leadership into the statutory machinery that governs national welfare distributions.",
+      "angle_type": "consequence",
+      "opening": "Governance-consolidation lead establishing the twin strategies of locking down existing regulatory leadership while integrating union influence into welfare administration.",
+      "structure": "Statutory appointment lead -> Reappointment and regulatory continuity in mining and legal education -> Labour integration under the Social Protection Act -> Sectoral board distributions across wildlife, regional basins, and education -> Forward compliance timeline",
+      "source": "https://kenyans.co.ke/news/128830-atwoli-lands-new-job-ruto-css-make-appointments-govt",
+      "published_at": "2026-10-24T18:11:39Z"
     }
   ]
 }
