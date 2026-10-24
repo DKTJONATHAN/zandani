@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "e92b20d342dbd5ebdd0754dd24431a4d",
     "2d62cd1576397388cebbb2ffeb409ba6",
     "f8d6cdc664e780c8810999b458688703",
     "ed70349b0909707122c6add56bf37c13",
@@ -799,10 +798,10 @@
     "a075743cc79759c953601f652787fcdf",
     "665dc52622def026bfe06b001668ad13",
     "589fa2ece0b3c092700b832f3761dc5b",
-    "5c6961fd635dd70ec2a5abd3f0a2b305"
+    "5c6961fd635dd70ec2a5abd3f0a2b305",
+    "29134fecbf706cd72183132786c6320b"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1458,7 +1458,8 @@
     "https://kenyans.co.ke/news/128824-kisumu-court-convicts-3-family-members-ksh1132m-fraud-case",
     "https://kenyans.co.ke/news/128826-cma-ranks-kenyas-most-popular-money-market-and-unit-trust-funds-2026",
     "https://kenyans.co.ke/news/128825-public-health-officers-ordered-flag-dangerous-buildings-after-eastleigh-collapse",
-    "https://kenyans.co.ke/news/128827-drama-burudi-nabweras-burial-leaders-attempt-stop-natembeyas-speech"
+    "https://kenyans.co.ke/news/128827-drama-burudi-nabweras-burial-leaders-attempt-stop-natembeyas-speech",
+    "https://kenyans.co.ke/news/128829-mass-layoffs-loom-registrar-companies-dissolves-72-firms-targets-68-more"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2007,7 +2008,8 @@
     "forensic ledger audit dismantles kin run shadow accounts kisumu wholesale firm ksh113m fraud",
     "standard investment overtakes sanlam unit trust assets surge ksh948b",
     "health ministry drafts field officers construction watch eastleigh collapse",
-    "natembeya defies podium scuffle challenge state house trans nzoia development"
+    "natembeya defies podium scuffle challenge state house trans nzoia development",
+    "registrar expels firms second back back registry purge"
   ],
   "topic_keys": [
     "news tracker",
@@ -6219,6 +6221,15 @@
       "structure": "Attribution lead -> Factual breakdown of the podium scuffle and police cordoning -> Natembeya's verbatim rebuttal and development bias claims -> Diplomatic profile of Burudi Nabwera -> Aftermath of the disruption on mourners",
       "source": "https://kenyans.co.ke/news/128827-drama-burudi-nabweras-burial-leaders-attempt-stop-natembeyas-speech",
       "published_at": "2026-10-24T11:02:24Z"
+    },
+    {
+      "title": "Registrar Expels 72 Firms in Second Back-to-Back Registry Purge",
+      "angle": "Exposing the accelerating statutory cleanup under Section 897 of the Companies Act, where the Registrar has struck off or issued final dissolution warnings to nearly 500 corporate entities across two back-to-back monthly purges without disclosing operational or dormancy status.",
+      "angle_type": "practical change",
+      "opening": "Regulatory enforcement lead framing the two-month cumulative purge of corporate entities under the Companies Act.",
+      "structure": "Regulatory purge scope -> Statutory mechanics under Section 897 -> Sectoral footprint -> September-October cumulative cleanup scale -> Three-month contestation window",
+      "source": "https://kenyans.co.ke/news/128829-mass-layoffs-loom-registrar-companies-dissolves-72-firms-targets-68-more",
+      "published_at": "2026-10-24T12:02:03Z"
     }
   ]
 }
