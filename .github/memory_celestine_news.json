@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ed70349b0909707122c6add56bf37c13",
     "0482703404b9ebc98539de35f26754e4",
     "ad7986c988ae96d5d95957dcaba823a9",
     "17fa987e12aefd8ec31201a35aca72de",
@@ -799,10 +798,10 @@
     "5c6961fd635dd70ec2a5abd3f0a2b305",
     "29134fecbf706cd72183132786c6320b",
     "4158d69a8e02145a4a46ea5c7e07eba7",
-    "3ebc713c6f4dd6b3b0e426008207b6f1"
+    "3ebc713c6f4dd6b3b0e426008207b6f1",
+    "f17ffba84394db7d9947433b983cc044"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1461,7 +1461,8 @@
     "https://kenyans.co.ke/news/128827-drama-burudi-nabweras-burial-leaders-attempt-stop-natembeyas-speech",
     "https://kenyans.co.ke/news/128829-mass-layoffs-loom-registrar-companies-dissolves-72-firms-targets-68-more",
     "https://kenyans.co.ke/news/128832-cs-ogamba-appoints-former-uon-vc-lead-52-man-taskforce-probe-school-unrest",
-    "https://kenyans.co.ke/news/128834-cj-koome-establishes-new-high-court-division-international-and-organised-crimes"
+    "https://kenyans.co.ke/news/128834-cj-koome-establishes-new-high-court-division-international-and-organised-crimes",
+    "https://kenyans.co.ke/news/128835-meru-names-seven-member-committee-assess-city-bid"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2013,7 +2014,8 @@
     "natembeya defies podium scuffle challenge state house trans nzoia development",
     "registrar expels firms second back back registry purge",
     "state unrest inquiry mandated probe fees stalled past reforms 204 schools",
-    "high court crime division imposes strict day status hearings secure digital portals"
+    "high court crime division imposes strict day status hearings secure digital portals",
+    "meru subjects municipal finances services independent audit city charter quest"
   ],
   "topic_keys": [
     "news tracker",
@@ -6252,6 +6254,15 @@
       "structure": "Procedural management rules -> Jurisdictional scope and International Crimes Act linkage -> Witness protection and secure portal mechanisms -> Part-heard case exemptions and operational commencement timeline",
       "source": "https://kenyans.co.ke/news/128834-cj-koome-establishes-new-high-court-division-international-and-organised-crimes",
       "published_at": "2026-10-24T14:01:59Z"
+    },
+    {
+      "title": "Meru Subjects Municipal Finances and Services to Independent Audit in City Charter Quest",
+      "angle": "Framing the appointment through the strict statutory and fiscal hurdle: Meru is subjecting its municipal balance sheet, infrastructure deficit, and demographic threshold to an independent professional audit before it can enter a crowded national queue behind Thika.",
+      "angle_type": "institutional pressure",
+      "opening": "Regulatory compliance lead focusing on the delegation of Meru's city ambitions to independent technical bodies mandated to audit its urban infrastructure and revenue viability.",
+      "structure": "Statutory audit lead -> Composition of professional review panel -> Statutory hurdles under the Urban Areas and Cities Act -> Legislative and executive ratification pipeline -> Competitive national landscape alongside Thika",
+      "source": "https://kenyans.co.ke/news/128835-meru-names-seven-member-committee-assess-city-bid",
+      "published_at": "2026-10-24T15:07:34Z"
     }
   ]
 }
