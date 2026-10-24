@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "0131d71bd028e0a5548828d0f65ee5aa",
     "e5dd84619658d4aedcc743f57a8e44f6",
     "952204d4c0bb9c209a5c6b35ca955874",
     "4c2f214cf4d3c6afef7bda5daac4003b",
@@ -799,10 +798,10 @@
     "c348377a7ef3da9b4c1a15c5baa09840",
     "221921477c6affeedb39facd66581548",
     "75b849a8f80c688177996e656e08d80e",
-    "c37a195caf44bb182ef8b78b202b20ef"
+    "c37a195caf44bb182ef8b78b202b20ef",
+    "d87db49d2da3cf8043974fcb8b16cbe4"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1450,7 +1450,8 @@
     "https://kenyans.co.ke/news/128814-health-ps-mary-muthoni-appointed-africa-cdc-immunisation-task-force-chair",
     "https://kenyans.co.ke/news/128815-bank-employee-charged-over-alleged-hacking-banking-system",
     "https://kenyans.co.ke/news/128813-former-kiambu-county-assembly-hr-officer-fined-ksh106-million-over-fake-kcse",
-    "https://kenyans.co.ke/news/128816-ministry-health-confirms-second-ebola-death-7-contacts-remain-quarantine"
+    "https://kenyans.co.ke/news/128816-ministry-health-confirms-second-ebola-death-7-contacts-remain-quarantine",
+    "https://kenyans.co.ke/news/128817-cbk-reports-sharp-drop-global-gold-prices-after-ai-stock-sell"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1991,7 +1992,8 @@
     "africa cdc puts health charge continental vaccine alignment",
     "finacle credential duplication exposed milimani insider banking case",
     "fake 1996 certificate netled kiambu officer ksh4 salary before court order",
-    "single cluster ring holds zero community spread second ebola patient dies isolation"
+    "single cluster ring holds zero community spread second ebola patient dies isolation",
+    "steady shilling transmits global tech sell off directly gold holders"
   ],
   "topic_keys": [
     "news tracker",
@@ -6131,6 +6133,15 @@
       "structure": "Lead on official attribution and containment status -> Direct clinical timeline and familial transmission chain -> Safe burial protocols and family coordination -> Active caseload disposition across dual isolation centres -> Preventive reporting lines and clinical surveillance rules.",
       "source": "https://kenyans.co.ke/news/128816-ministry-health-confirms-second-ebola-death-7-contacts-remain-quarantine",
       "published_at": "2026-10-24T05:02:01Z"
+    },
+    {
+      "title": "Steady Shilling Transmits Global Tech Sell-Off Directly to Gold Holders",
+      "angle": "The mechanics of the safe-haven paradox: how tech-equity margin distress forced institutional investors to liquidate bullion for liquidity, with an unusually steady Kenyan shilling transmitting the full global valuation drop straight into domestic terms without currency buffer.",
+      "angle_type": "money",
+      "opening": "Asset-liquidity lead contrasting gold's textbook hedge status with the reality of forced cash-raising by distressed equity investors.",
+      "structure": "Mechanism lead -> CBK pricing and forex data -> Asset reallocation breakdown -> Long-term correction trajectory from January highs -> Forward market pressure",
+      "source": "https://kenyans.co.ke/news/128817-cbk-reports-sharp-drop-global-gold-prices-after-ai-stock-sell",
+      "published_at": "2026-10-24T05:33:16Z"
     }
   ]
 }
