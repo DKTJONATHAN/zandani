@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "952204d4c0bb9c209a5c6b35ca955874",
     "4c2f214cf4d3c6afef7bda5daac4003b",
     "b4e282b6681ca2889df6058d821a4d88",
     "f6779f59408d4d76ea8e948c177514bc",
@@ -799,10 +798,10 @@
     "75b849a8f80c688177996e656e08d80e",
     "c37a195caf44bb182ef8b78b202b20ef",
     "d87db49d2da3cf8043974fcb8b16cbe4",
-    "2841d1a8957824193b2c5ceb09166cd1"
+    "2841d1a8957824193b2c5ceb09166cd1",
+    "c09ff88c63fe58f14d0ff788cd6b5284"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1452,7 +1452,8 @@
     "https://kenyans.co.ke/news/128813-former-kiambu-county-assembly-hr-officer-fined-ksh106-million-over-fake-kcse",
     "https://kenyans.co.ke/news/128816-ministry-health-confirms-second-ebola-death-7-contacts-remain-quarantine",
     "https://kenyans.co.ke/news/128817-cbk-reports-sharp-drop-global-gold-prices-after-ai-stock-sell",
-    "https://kenyans.co.ke/news/128820-kenya-met-issues-heavy-rainfall-alert-nairobi-30-other-counties"
+    "https://kenyans.co.ke/news/128820-kenya-met-issues-heavy-rainfall-alert-nairobi-30-other-counties",
+    "https://kenyans.co.ke/news/128821-nairobi-matatus-face-reorganisation-kenya-railways-begins-station-upgrades"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1995,7 +1996,8 @@
     "fake 1996 certificate netled kiambu officer ksh4 salary before court order",
     "single cluster ring holds zero community spread second ebola patient dies isolation",
     "steady shilling transmits global tech sell off directly gold holders",
-    "downstream basins face flash flood risk met warns sudden county downpours"
+    "downstream basins face flash flood risk met warns sudden county downpours",
+    "railways splits matatu staging clear forecourt ksh30b station hub"
   ],
   "topic_keys": [
     "news tracker",
@@ -6153,6 +6155,15 @@
       "structure": "Runoff hazard opening -> Rainfall and gale-force wind metrics -> Geographic spread across dry catchments -> Maritime safety and wave heights -> Seasonal delay context and forward vigilance",
       "source": "https://kenyans.co.ke/news/128820-kenya-met-issues-heavy-rainfall-alert-nairobi-30-other-counties",
       "published_at": "2026-10-24T06:05:12Z"
+    },
+    {
+      "title": "Kenya Railways Splits Matatu Staging to Clear Forecourt for Ksh30B Station Hub",
+      "angle": "The staging and operational segregation mechanics: splitting passenger drop-offs from vehicle holding to clear the station's front apron for site possession without severing CBD commuter flows.",
+      "angle_type": "practical change",
+      "opening": "Operational-shift lead focusing on the functional separation between parking holding zones and live passenger drop-off lanes.",
+      "structure": "Staging mechanics lead -> Factual breakdown of the new eight-bay corridor -> Green Park holding role -> Forecourt clearing for multi-modal hub integration -> Site work safeguards and PPP funding context",
+      "source": "https://kenyans.co.ke/news/128821-nairobi-matatus-face-reorganisation-kenya-railways-begins-station-upgrades",
+      "published_at": "2026-10-24T07:02:10Z"
     }
   ]
 }
