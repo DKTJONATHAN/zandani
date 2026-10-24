@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f6779f59408d4d76ea8e948c177514bc",
     "cf1d8c2b498bbf17e6b9896acea2eeb0",
     "050a6a83ec78615929d9d25cf954a5cf",
     "e92b20d342dbd5ebdd0754dd24431a4d",
@@ -799,10 +798,10 @@
     "2841d1a8957824193b2c5ceb09166cd1",
     "c09ff88c63fe58f14d0ff788cd6b5284",
     "4b05762a6ab3619f7eadd8ffe8260b54",
-    "a075743cc79759c953601f652787fcdf"
+    "a075743cc79759c953601f652787fcdf",
+    "665dc52622def026bfe06b001668ad13"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1455,7 +1455,8 @@
     "https://kenyans.co.ke/news/128820-kenya-met-issues-heavy-rainfall-alert-nairobi-30-other-counties",
     "https://kenyans.co.ke/news/128821-nairobi-matatus-face-reorganisation-kenya-railways-begins-station-upgrades",
     "https://kenyans.co.ke/news/128823-new-us-bill-seeks-scrap-diversity-visa-lottery-programme-used-kenyans",
-    "https://kenyans.co.ke/news/128824-kisumu-court-convicts-3-family-members-ksh1132m-fraud-case"
+    "https://kenyans.co.ke/news/128824-kisumu-court-convicts-3-family-members-ksh1132m-fraud-case",
+    "https://kenyans.co.ke/news/128826-cma-ranks-kenyas-most-popular-money-market-and-unit-trust-funds-2026"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2001,7 +2002,8 @@
     "downstream basins face flash flood risk met warns sudden county downpours",
     "railways splits matatu staging clear forecourt ksh30b station hub",
     "lawmaker moves abolish green card lottery 900 await vetting",
-    "forensic ledger audit dismantles kin run shadow accounts kisumu wholesale firm ksh113m fraud"
+    "forensic ledger audit dismantles kin run shadow accounts kisumu wholesale firm ksh113m fraud",
+    "standard investment overtakes sanlam unit trust assets surge ksh948b"
   ],
   "topic_keys": [
     "news tracker",
@@ -6186,6 +6188,15 @@
       "structure": "Evidentiary exposure opening -> Judicial ruling and breakdown of the Ksh113.2M diversion -> Mechanics of system manipulation and shadow account routing -> Forensic witness trail and dismissal of defence claims -> Specific counts and sentencing schedule",
       "source": "https://kenyans.co.ke/news/128824-kisumu-court-convicts-3-family-members-ksh1132m-fraud-case",
       "published_at": "2026-10-24T09:02:05Z"
+    },
+    {
+      "title": "Standard Investment Overtakes Sanlam as Unit Trust Assets Surge to Ksh948B",
+      "angle": "A sharp redistribution of market dominance at the summit of Kenya's collective wealth pool, where an aggressive 23 percent quarterly sprint by Standard Investment broke Sanlam's market lead, while bank-affiliated managers faced uneven momentum, including a seven percent contraction at NCBA.",
+      "angle_type": "money",
+      "opening": "Asset-shift lead focusing on the competitive leadership change at the apex of Kenya's collective investment schemes.",
+      "structure": "Competitive shift opening -> Overall industry expansion metrics -> Top-tier concentration and growth rates -> Bank and mid-tier performance divergences -> Forward market threshold",
+      "source": "https://kenyans.co.ke/news/128826-cma-ranks-kenyas-most-popular-money-market-and-unit-trust-funds-2026",
+      "published_at": "2026-10-24T10:02:06Z"
     }
   ]
 }
