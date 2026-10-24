@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "b4e282b6681ca2889df6058d821a4d88",
     "f6779f59408d4d76ea8e948c177514bc",
     "cf1d8c2b498bbf17e6b9896acea2eeb0",
     "050a6a83ec78615929d9d25cf954a5cf",
@@ -799,10 +798,10 @@
     "d87db49d2da3cf8043974fcb8b16cbe4",
     "2841d1a8957824193b2c5ceb09166cd1",
     "c09ff88c63fe58f14d0ff788cd6b5284",
-    "4b05762a6ab3619f7eadd8ffe8260b54"
+    "4b05762a6ab3619f7eadd8ffe8260b54",
+    "a075743cc79759c953601f652787fcdf"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1454,7 +1454,8 @@
     "https://kenyans.co.ke/news/128817-cbk-reports-sharp-drop-global-gold-prices-after-ai-stock-sell",
     "https://kenyans.co.ke/news/128820-kenya-met-issues-heavy-rainfall-alert-nairobi-30-other-counties",
     "https://kenyans.co.ke/news/128821-nairobi-matatus-face-reorganisation-kenya-railways-begins-station-upgrades",
-    "https://kenyans.co.ke/news/128823-new-us-bill-seeks-scrap-diversity-visa-lottery-programme-used-kenyans"
+    "https://kenyans.co.ke/news/128823-new-us-bill-seeks-scrap-diversity-visa-lottery-programme-used-kenyans",
+    "https://kenyans.co.ke/news/128824-kisumu-court-convicts-3-family-members-ksh1132m-fraud-case"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1999,7 +2000,8 @@
     "steady shilling transmits global tech sell off directly gold holders",
     "downstream basins face flash flood risk met warns sudden county downpours",
     "railways splits matatu staging clear forecourt ksh30b station hub",
-    "lawmaker moves abolish green card lottery 900 await vetting"
+    "lawmaker moves abolish green card lottery 900 await vetting",
+    "forensic ledger audit dismantles kin run shadow accounts kisumu wholesale firm ksh113m fraud"
   ],
   "topic_keys": [
     "news tracker",
@@ -6175,6 +6177,15 @@
       "structure": "Sponsor attribution and beneficiary scope -> Legislative text and committee referral -> Administrative backlog and court injunction context -> Regional numbers and intake mechanics -> Forward legislative hurdle.",
       "source": "https://kenyans.co.ke/news/128823-new-us-bill-seeks-scrap-diversity-visa-lottery-programme-used-kenyans",
       "published_at": "2026-10-24T08:03:33Z"
+    },
+    {
+      "title": "Forensic Ledger Audit Dismantles Kin-Run Shadow Accounts in Kisumu Wholesale Firm's Ksh113M Fraud",
+      "angle": "The operational exposure of internal ledger manipulation coupled with family-run shadow accounts, detailing how system permissions allowed ten months of diverted wholesale receipts before forensic reconciliation defeated the claim of legitimate business dealings.",
+      "angle_type": "accountability",
+      "opening": "Forensic-audit and evidentiary exposure lead establishing how internal accounting controls were bypassed to route business revenues into private accounts.",
+      "structure": "Evidentiary exposure opening -> Judicial ruling and breakdown of the Ksh113.2M diversion -> Mechanics of system manipulation and shadow account routing -> Forensic witness trail and dismissal of defence claims -> Specific counts and sentencing schedule",
+      "source": "https://kenyans.co.ke/news/128824-kisumu-court-convicts-3-family-members-ksh1132m-fraud-case",
+      "published_at": "2026-10-24T09:02:05Z"
     }
   ]
 }
