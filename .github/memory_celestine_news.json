@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "496b80ba1ad702809ef53d350b4fecf1",
     "0131d71bd028e0a5548828d0f65ee5aa",
     "e5dd84619658d4aedcc743f57a8e44f6",
     "952204d4c0bb9c209a5c6b35ca955874",
@@ -799,10 +798,10 @@
     "5cdaae1738edff82d311d06c9960db06",
     "c348377a7ef3da9b4c1a15c5baa09840",
     "221921477c6affeedb39facd66581548",
-    "75b849a8f80c688177996e656e08d80e"
+    "75b849a8f80c688177996e656e08d80e",
+    "c37a195caf44bb182ef8b78b202b20ef"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1449,7 +1449,8 @@
     "https://kenyans.co.ke/news/128812-authorities-launch-manhunt-collapsed-eastleigh-building-owner-approval-details-emerge",
     "https://kenyans.co.ke/news/128814-health-ps-mary-muthoni-appointed-africa-cdc-immunisation-task-force-chair",
     "https://kenyans.co.ke/news/128815-bank-employee-charged-over-alleged-hacking-banking-system",
-    "https://kenyans.co.ke/news/128813-former-kiambu-county-assembly-hr-officer-fined-ksh106-million-over-fake-kcse"
+    "https://kenyans.co.ke/news/128813-former-kiambu-county-assembly-hr-officer-fined-ksh106-million-over-fake-kcse",
+    "https://kenyans.co.ke/news/128816-ministry-health-confirms-second-ebola-death-7-contacts-remain-quarantine"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -1989,7 +1990,8 @@
     "county approvals under fire storey eastleigh collapse exposes oversight loophole",
     "africa cdc puts health charge continental vaccine alignment",
     "finacle credential duplication exposed milimani insider banking case",
-    "fake 1996 certificate netled kiambu officer ksh4 salary before court order"
+    "fake 1996 certificate netled kiambu officer ksh4 salary before court order",
+    "single cluster ring holds zero community spread second ebola patient dies isolation"
   ],
   "topic_keys": [
     "news tracker",
@@ -6120,6 +6122,15 @@
       "structure": "Financial scale and salary payout -> Plea agreement and criminal sentencing breakdown -> Institutional recruitment vulnerabilities -> Broader public payroll audit context",
       "source": "https://kenyans.co.ke/news/128813-former-kiambu-county-assembly-hr-officer-fined-ksh106-million-over-fake-kcse",
       "published_at": "2026-10-23T18:03:13Z"
+    },
+    {
+      "title": "Single-Cluster Ring Holds Zero Community Spread as Second Ebola Patient Dies in Isolation",
+      "angle": "Attribution-first containment framing: focusing on how the Ministry of Health's quarantine perimeter successfully contained the fatal infection within a single documented contact cluster, insulating the general public from community transmission while seven patients continue treatment under dual-facility isolation.",
+      "angle_type": "consequence",
+      "opening": "Attribution-first statement lead opening on Health Director General Patrick Amoth's confirmation of the fatality and the containment perimeter shielding the public.",
+      "structure": "Lead on official attribution and containment status -> Direct clinical timeline and familial transmission chain -> Safe burial protocols and family coordination -> Active caseload disposition across dual isolation centres -> Preventive reporting lines and clinical surveillance rules.",
+      "source": "https://kenyans.co.ke/news/128816-ministry-health-confirms-second-ebola-death-7-contacts-remain-quarantine",
+      "published_at": "2026-10-24T05:02:01Z"
     }
   ]
 }
