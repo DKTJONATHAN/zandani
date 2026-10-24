@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f8d6cdc664e780c8810999b458688703",
     "ed70349b0909707122c6add56bf37c13",
     "0482703404b9ebc98539de35f26754e4",
     "ad7986c988ae96d5d95957dcaba823a9",
@@ -799,10 +798,10 @@
     "589fa2ece0b3c092700b832f3761dc5b",
     "5c6961fd635dd70ec2a5abd3f0a2b305",
     "29134fecbf706cd72183132786c6320b",
-    "4158d69a8e02145a4a46ea5c7e07eba7"
+    "4158d69a8e02145a4a46ea5c7e07eba7",
+    "3ebc713c6f4dd6b3b0e426008207b6f1"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1460,7 +1460,8 @@
     "https://kenyans.co.ke/news/128825-public-health-officers-ordered-flag-dangerous-buildings-after-eastleigh-collapse",
     "https://kenyans.co.ke/news/128827-drama-burudi-nabweras-burial-leaders-attempt-stop-natembeyas-speech",
     "https://kenyans.co.ke/news/128829-mass-layoffs-loom-registrar-companies-dissolves-72-firms-targets-68-more",
-    "https://kenyans.co.ke/news/128832-cs-ogamba-appoints-former-uon-vc-lead-52-man-taskforce-probe-school-unrest"
+    "https://kenyans.co.ke/news/128832-cs-ogamba-appoints-former-uon-vc-lead-52-man-taskforce-probe-school-unrest",
+    "https://kenyans.co.ke/news/128834-cj-koome-establishes-new-high-court-division-international-and-organised-crimes"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2011,7 +2012,8 @@
     "health ministry drafts field officers construction watch eastleigh collapse",
     "natembeya defies podium scuffle challenge state house trans nzoia development",
     "registrar expels firms second back back registry purge",
-    "state unrest inquiry mandated probe fees stalled past reforms 204 schools"
+    "state unrest inquiry mandated probe fees stalled past reforms 204 schools",
+    "high court crime division imposes strict day status hearings secure digital portals"
   ],
   "topic_keys": [
     "news tracker",
@@ -6241,6 +6243,15 @@
       "structure": "Mandate scope lead -> Operational terms and 90-day statutory timeline -> Financial, uniform, and infrastructure review terms -> Composition across unions, police, and academia -> Forward reporting requirement",
       "source": "https://kenyans.co.ke/news/128832-cs-ogamba-appoints-former-uon-vc-lead-52-man-taskforce-probe-school-unrest",
       "published_at": "2026-10-24T13:02:19Z"
+    },
+    {
+      "title": "New High Court Crime Division Imposes Strict 14-Day Status Hearings and Secure Digital Portals",
+      "angle": "The practical courtroom and evidentiary mechanics required to prosecute transnational and international crimes domestically, including mandatory 14-day status conferences, electronic portal filing for classified records, and witness protection measures.",
+      "angle_type": "practical change",
+      "opening": "Procedural-shift lead focusing on the mandatory 14-day judicial case-management window and digital filing protocols established for the new High Court division.",
+      "structure": "Procedural management rules -> Jurisdictional scope and International Crimes Act linkage -> Witness protection and secure portal mechanisms -> Part-heard case exemptions and operational commencement timeline",
+      "source": "https://kenyans.co.ke/news/128834-cj-koome-establishes-new-high-court-division-international-and-organised-crimes",
+      "published_at": "2026-10-24T14:01:59Z"
     }
   ]
 }
