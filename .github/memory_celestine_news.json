@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "702f86857d27e356c827e921c8976e9c",
     "5caebf9fcd3fc27cd9d1a67c1e5055e3",
     "10e5d5d09faf9b52b1d7cbca255221a3",
     "1646e934bebcc75a63f60b6ce36135a9",
@@ -799,10 +798,10 @@
     "556815a8ec9388e7f8e0ec32e8fd2bb6",
     "a316b2240511b434e49da100c1347f1b",
     "6823cf30929b8499cbe01f8d0953349f",
-    "bcad014f14a369df698e8417d15b16c1"
+    "bcad014f14a369df698e8417d15b16c1",
+    "9fdaef41b565a530990a911b6e6e7e3f"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1471,7 +1471,8 @@
     "https://kenyans.co.ke/news/128842-nema-invites-public-comments-plan-build-7128-housing-units-nairobi",
     "https://kenyans.co.ke/news/128845-sha-resumes-nhif-claims-review-health-facilities-owed-least-ksh10-million",
     "https://kenyans.co.ke/news/128847-uon-given-until-december-1-explain-how-it-plans-clear-ksh20-billion-debt",
-    "https://kenyans.co.ke/news/128849-health-workers-call-3-month-strike-facilitate-talks-govt"
+    "https://kenyans.co.ke/news/128849-health-workers-call-3-month-strike-facilitate-talks-govt",
+    "https://kenyans.co.ke/news/128850-wiper-calls-out-malala-over-planned-talks-kalonzo-sifunas-2027-bid"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2033,7 +2034,8 @@
     "state segments stalled 128 unit lang ata housing scheme filings court rebuke",
     "sha locks remainder ksh33b nhif debt behind site audits 451 hospitals",
     "uon leans ksh220b asset sheet cure technical insolvency house demands cash roadmap",
-    "public health officers suspend day strike ebola threat forces day truce"
+    "public health officers suspend day strike ebola threat forces day truce",
+    "wiper rejects dcp sifuna ticket push ahead monday talks"
   ],
   "topic_keys": [
     "news tracker",
@@ -6362,6 +6364,15 @@
       "structure": "Union directive attribution -> Beneficiary operational impact (border posts and Ebola surveillance) -> Return-to-work terms and Kitui pilot -> Substantive grievances breakdown -> Intergovernmental fiscal rift over UHC funding",
       "source": "https://kenyans.co.ke/news/128849-health-workers-call-3-month-strike-facilitate-talks-govt",
       "published_at": "2026-10-25T12:01:57Z"
+    },
+    {
+      "title": "Wiper Rejects DCP\u2019s Sifuna Ticket Push Ahead of Monday Talks",
+      "angle": "Framing the clash through the collapse of coalition consensus protocols: Wiper's rejection exposes how unilateral ticket declarations by DCP and Rigathi Gachagua's faction threaten to derail structured flagbearer negotiations before formal talks even convene.",
+      "angle_type": "consequence",
+      "opening": "Hard news political lead establishing Wiper's formal rejection of DCP's unilateral ticket assignment ahead of scheduled Monday negotiations.",
+      "structure": "Repudiation lead -> Wiper's procedural pushback and 'playwright' rebuke -> Specifics of Malala's Kakamega declaration -> Internal alliance crossfire and sabotage allegations -> Gachagua's unity claims versus unilateral threats.",
+      "source": "https://kenyans.co.ke/news/128850-wiper-calls-out-malala-over-planned-talks-kalonzo-sifunas-2027-bid",
+      "published_at": "2026-10-25T13:02:03Z"
     }
   ]
 }
