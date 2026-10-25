@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "678b2b18bbc82cfd70274aa87bf94242",
     "702f86857d27e356c827e921c8976e9c",
     "5caebf9fcd3fc27cd9d1a67c1e5055e3",
     "10e5d5d09faf9b52b1d7cbca255221a3",
@@ -799,10 +798,10 @@
     "fdab7c41e23d743d5859485c3f176d7b",
     "556815a8ec9388e7f8e0ec32e8fd2bb6",
     "a316b2240511b434e49da100c1347f1b",
-    "6823cf30929b8499cbe01f8d0953349f"
+    "6823cf30929b8499cbe01f8d0953349f",
+    "bcad014f14a369df698e8417d15b16c1"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1470,7 +1470,8 @@
     "https://kenyans.co.ke/news/128839-thwake-dam-nears-completion-nlc-addresses-pending-land-compensation-claims",
     "https://kenyans.co.ke/news/128842-nema-invites-public-comments-plan-build-7128-housing-units-nairobi",
     "https://kenyans.co.ke/news/128845-sha-resumes-nhif-claims-review-health-facilities-owed-least-ksh10-million",
-    "https://kenyans.co.ke/news/128847-uon-given-until-december-1-explain-how-it-plans-clear-ksh20-billion-debt"
+    "https://kenyans.co.ke/news/128847-uon-given-until-december-1-explain-how-it-plans-clear-ksh20-billion-debt",
+    "https://kenyans.co.ke/news/128849-health-workers-call-3-month-strike-facilitate-talks-govt"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2031,7 +2032,8 @@
     "nlc clears thwake dam land payouts downstream water relief shifts 2027",
     "state segments stalled 128 unit lang ata housing scheme filings court rebuke",
     "sha locks remainder ksh33b nhif debt behind site audits 451 hospitals",
-    "uon leans ksh220b asset sheet cure technical insolvency house demands cash roadmap"
+    "uon leans ksh220b asset sheet cure technical insolvency house demands cash roadmap",
+    "public health officers suspend day strike ebola threat forces day truce"
   ],
   "topic_keys": [
     "news tracker",
@@ -6351,6 +6353,15 @@
       "structure": "Fiscal disparity lead -> Parliamentary hearing and statutory obligations breakdown -> Asset commercialisation strategy versus committee scepticism -> Sector-wide debt exposure across Egerton, KU, and Moi -> State intervention commitments and next audit milestones",
       "source": "https://kenyans.co.ke/news/128847-uon-given-until-december-1-explain-how-it-plans-clear-ksh20-billion-debt",
       "published_at": "2026-10-25T11:01:33Z"
+    },
+    {
+      "title": "Public Health Officers Suspend 94-Day Strike as Ebola Threat Forces 30-Day Truce",
+      "angle": "Framing the 30-day truce around the urgent operational restoration of border and county disease surveillance under mounting Ebola pressure, which forced a temporary ceasefire while the underlying Ksh8.6 billion intergovernmental dispute over 7,400 UHC workers remains unresolved.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first lead detailing the union's return directive and immediately identifying who benefits from the border surveillance resumption.",
+      "structure": "Union directive attribution -> Beneficiary operational impact (border posts and Ebola surveillance) -> Return-to-work terms and Kitui pilot -> Substantive grievances breakdown -> Intergovernmental fiscal rift over UHC funding",
+      "source": "https://kenyans.co.ke/news/128849-health-workers-call-3-month-strike-facilitate-talks-govt",
+      "published_at": "2026-10-25T12:01:57Z"
     }
   ]
 }
