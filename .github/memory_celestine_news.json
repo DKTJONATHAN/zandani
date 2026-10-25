@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f7e7b84015b019a871f8c5a0f0be84e4",
     "810ec67a29fd8eb22c7f7003a752be8b",
     "359dca7685b65f9994ff533b2f46034d",
     "2ddce136e9b01550151d67ca8d3c8854",
@@ -799,10 +798,10 @@
     "f17ffba84394db7d9947433b983cc044",
     "0381553138d342a994e50781ffb36937",
     "07019ca43cf842eeece4d308dc4b7726",
-    "00c2936693e2710d2a1b802c263deb5d"
+    "00c2936693e2710d2a1b802c263deb5d",
+    "1cd830623df6df508f1f4a3f6422eead"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1465,7 +1465,8 @@
     "https://kenyans.co.ke/news/128835-meru-names-seven-member-committee-assess-city-bid",
     "https://kenyans.co.ke/news/128836-nps-probes-senator-over-alleged-claims-forging-certificate-police-recruit",
     "https://kenyans.co.ke/news/128831-high-court-freezes-multimillion-properties-vehicles-linked-six-kenyans",
-    "https://kenyans.co.ke/news/128830-atwoli-lands-new-job-ruto-css-make-appointments-govt"
+    "https://kenyans.co.ke/news/128830-atwoli-lands-new-job-ruto-css-make-appointments-govt",
+    "https://kenyans.co.ke/news/128838-police-inspector-arrested-connection-murders-lawyer-victoria-mutiso"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2021,7 +2022,8 @@
     "meru subjects municipal finances services independent audit city charter quest",
     "nps faces scrutiny summons delay nyamu confesses recruit forgery",
     "high court orders commercial cash flows diverted state multimillion shilling asset freeze",
-    "state consolidates regulatory boards atwoli drafted welfare oversight"
+    "state consolidates regulatory boards atwoli drafted welfare oversight",
+    "fugitive inspector arrested dci closes ring dual contract killings"
   ],
   "topic_keys": [
     "news tracker",
@@ -6296,6 +6298,15 @@
       "structure": "Statutory appointment lead -> Reappointment and regulatory continuity in mining and legal education -> Labour integration under the Social Protection Act -> Sectoral board distributions across wildlife, regional basins, and education -> Forward compliance timeline",
       "source": "https://kenyans.co.ke/news/128830-atwoli-lands-new-job-ruto-css-make-appointments-govt",
       "published_at": "2026-10-24T18:11:39Z"
+    },
+    {
+      "title": "Fugitive Inspector Arrested as DCI Closes Ring on Dual Contract Killings",
+      "angle": "Framing the arrest through the collapse of an internal police enforcement ring, where three serving officers\u2014an inspector and two constables\u2014were allegedly deployed to coordinate and liaise contract-style executions for a single family across a ten-month span.",
+      "angle_type": "accountability",
+      "opening": "Hard news operational lead detailing the tactical closure of the manhunt and the formal implication of a three-officer operational chain in the two capital cases.",
+      "structure": "Tactical arrest lead -> Internal police hierarchy and coordination role -> Operational link between the two slayings -> Pending judicial actions and charge sheet scope -> Investigative next steps",
+      "source": "https://kenyans.co.ke/news/128838-police-inspector-arrested-connection-murders-lawyer-victoria-mutiso",
+      "published_at": "2026-10-25T05:02:12Z"
     }
   ]
 }
