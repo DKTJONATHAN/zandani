@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "810ec67a29fd8eb22c7f7003a752be8b",
     "359dca7685b65f9994ff533b2f46034d",
     "2ddce136e9b01550151d67ca8d3c8854",
     "8db35be9c657853e9d287a1f4134a028",
@@ -799,10 +798,10 @@
     "0381553138d342a994e50781ffb36937",
     "07019ca43cf842eeece4d308dc4b7726",
     "00c2936693e2710d2a1b802c263deb5d",
-    "1cd830623df6df508f1f4a3f6422eead"
+    "1cd830623df6df508f1f4a3f6422eead",
+    "fdab7c41e23d743d5859485c3f176d7b"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1466,7 +1466,8 @@
     "https://kenyans.co.ke/news/128836-nps-probes-senator-over-alleged-claims-forging-certificate-police-recruit",
     "https://kenyans.co.ke/news/128831-high-court-freezes-multimillion-properties-vehicles-linked-six-kenyans",
     "https://kenyans.co.ke/news/128830-atwoli-lands-new-job-ruto-css-make-appointments-govt",
-    "https://kenyans.co.ke/news/128838-police-inspector-arrested-connection-murders-lawyer-victoria-mutiso"
+    "https://kenyans.co.ke/news/128838-police-inspector-arrested-connection-murders-lawyer-victoria-mutiso",
+    "https://kenyans.co.ke/news/128839-thwake-dam-nears-completion-nlc-addresses-pending-land-compensation-claims"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2023,7 +2024,8 @@
     "nps faces scrutiny summons delay nyamu confesses recruit forgery",
     "high court orders commercial cash flows diverted state multimillion shilling asset freeze",
     "state consolidates regulatory boards atwoli drafted welfare oversight",
-    "fugitive inspector arrested dci closes ring dual contract killings"
+    "fugitive inspector arrested dci closes ring dual contract killings",
+    "nlc clears thwake dam land payouts downstream water relief shifts 2027"
   ],
   "topic_keys": [
     "news tracker",
@@ -6307,6 +6309,15 @@
       "structure": "Tactical arrest lead -> Internal police hierarchy and coordination role -> Operational link between the two slayings -> Pending judicial actions and charge sheet scope -> Investigative next steps",
       "source": "https://kenyans.co.ke/news/128838-police-inspector-arrested-connection-murders-lawyer-victoria-mutiso",
       "published_at": "2026-10-25T05:02:12Z"
+    },
+    {
+      "title": "NLC Clears 99.9% of Thwake Dam Land Payouts as Downstream Water Relief Shifts to 2027",
+      "angle": "Framing the NLC land clearance through the sequential delivery gap for local beneficiaries: while the state resolves acquisition bottlenecks to meet a January 2027 reservoir impoundment, piped water distribution for surrounding Kitui and Makueni communities remains strictly deferred to post-commissioning phases extending into late 2028.",
+      "angle_type": "consequence",
+      "opening": "Attribution-first regulatory lead establishing the National Land Commission's compensation declaration and linking it immediately to the rollout timetable for surrounding host communities.",
+      "structure": "Statutory compensation disclosure -> Civil completion rate and impoundment schedule -> Beneficiary sequence for Kitui and Makueni -> External financing structure resolving construction stalls -> Long-range multi-phase timeline to 2028",
+      "source": "https://kenyans.co.ke/news/128839-thwake-dam-nears-completion-nlc-addresses-pending-land-compensation-claims",
+      "published_at": "2026-10-25T06:02:20Z"
     }
   ]
 }
