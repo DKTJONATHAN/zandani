@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "2ddce136e9b01550151d67ca8d3c8854",
     "8db35be9c657853e9d287a1f4134a028",
     "678b2b18bbc82cfd70274aa87bf94242",
     "702f86857d27e356c827e921c8976e9c",
@@ -799,10 +798,10 @@
     "00c2936693e2710d2a1b802c263deb5d",
     "1cd830623df6df508f1f4a3f6422eead",
     "fdab7c41e23d743d5859485c3f176d7b",
-    "556815a8ec9388e7f8e0ec32e8fd2bb6"
+    "556815a8ec9388e7f8e0ec32e8fd2bb6",
+    "a316b2240511b434e49da100c1347f1b"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1468,7 +1468,8 @@
     "https://kenyans.co.ke/news/128830-atwoli-lands-new-job-ruto-css-make-appointments-govt",
     "https://kenyans.co.ke/news/128838-police-inspector-arrested-connection-murders-lawyer-victoria-mutiso",
     "https://kenyans.co.ke/news/128839-thwake-dam-nears-completion-nlc-addresses-pending-land-compensation-claims",
-    "https://kenyans.co.ke/news/128842-nema-invites-public-comments-plan-build-7128-housing-units-nairobi"
+    "https://kenyans.co.ke/news/128842-nema-invites-public-comments-plan-build-7128-housing-units-nairobi",
+    "https://kenyans.co.ke/news/128845-sha-resumes-nhif-claims-review-health-facilities-owed-least-ksh10-million"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2027,7 +2028,8 @@
     "state consolidates regulatory boards atwoli drafted welfare oversight",
     "fugitive inspector arrested dci closes ring dual contract killings",
     "nlc clears thwake dam land payouts downstream water relief shifts 2027",
-    "state segments stalled 128 unit lang ata housing scheme filings court rebuke"
+    "state segments stalled 128 unit lang ata housing scheme filings court rebuke",
+    "sha locks remainder ksh33b nhif debt behind site audits 451 hospitals"
   ],
   "topic_keys": [
     "news tracker",
@@ -6329,6 +6331,15 @@
       "structure": "Regulatory reset and judicial backdrop -> Five-lot structural breakdown and density numbers -> Prescribed social and displacement mitigation protocols -> Statutory submission mechanics and procedural runway",
       "source": "https://kenyans.co.ke/news/128842-nema-invites-public-comments-plan-build-7128-housing-units-nairobi",
       "published_at": "2026-10-25T07:02:02Z"
+    },
+    {
+      "title": "SHA Locks Remainder of Ksh33B NHIF Debt Behind On-Site Audits for 451 Hospitals",
+      "angle": "The fiscal bottleneck of the Ksh33 billion NHIF debt: while SHA has administratively cleared 91 percent of hospitals by paying smaller claims under Ksh10 million, the financial weight of the legacy debt remains locked behind on-site evidentiary audits of 451 primary and secondary care facilities facing operational cash crunches.",
+      "angle_type": "money",
+      "opening": "Fiscal-disparity lead highlighting how 91 percent of health facilities have been cleared while the high-value legacy debt remains locked in forensic audits.",
+      "structure": "Financial disparity lead -> Audit mandate and 451-facility scope -> Evidentiary requirements and physical schedule -> Liquidity pressure on lower-tier facilities -> Forward verification milestones",
+      "source": "https://kenyans.co.ke/news/128845-sha-resumes-nhif-claims-review-health-facilities-owed-least-ksh10-million",
+      "published_at": "2026-10-25T10:04:42Z"
     }
   ]
 }
