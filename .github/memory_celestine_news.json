@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "1646e934bebcc75a63f60b6ce36135a9",
     "b17071212904f96d8f147e3ca8d03083",
     "5902e5b02f67aa7191c3ce974f40a1ce",
     "af4b5951f60966add9b011331ac9bcc7",
@@ -799,10 +798,10 @@
     "bcad014f14a369df698e8417d15b16c1",
     "9fdaef41b565a530990a911b6e6e7e3f",
     "5ba07be0ff1018639ecca0fa92a635da",
-    "e312bef41cf0a2e5848eb60a29a59750"
+    "e312bef41cf0a2e5848eb60a29a59750",
+    "51f3cd57e9d145de47e6be3649251725"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1474,7 +1474,8 @@
     "https://kenyans.co.ke/news/128849-health-workers-call-3-month-strike-facilitate-talks-govt",
     "https://kenyans.co.ke/news/128850-wiper-calls-out-malala-over-planned-talks-kalonzo-sifunas-2027-bid",
     "https://kenyans.co.ke/news/128852-uganda-releases-60-people-after-21-day-ebola-monitoring-over-kenyan-case",
-    "https://kenyans.co.ke/news/128856-man-arrested-after-allegedly-spending-sh67-million-mistakenly-credited-his-account"
+    "https://kenyans.co.ke/news/128856-man-arrested-after-allegedly-spending-sh67-million-mistakenly-credited-his-account",
+    "https://kenyans.co.ke/news/128857-ntsa-urges-govt-declare-road-crashes-national-disaster-after-latest-deadly-crash"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2039,7 +2040,8 @@
     "public health officers suspend day strike ebola threat forces day truce",
     "wiper rejects dcp sifuna ticket push ahead monday talks",
     "uganda clears ebola transit chain threatens drc border crossers treatment bills",
-    "suspect faces cybercrimes laundering charges ksh6 erroneous deposit"
+    "suspect faces cybercrimes laundering charges ksh6 erroneous deposit",
+    "ntsa seeks statutory disaster status force inter agency funding road fatalities"
   ],
   "topic_keys": [
     "news tracker",
@@ -6395,6 +6397,15 @@
       "structure": "Legal framework lead -> Transaction chronology and rent error details -> Investigative silence on recovery metrics -> Statutory warning and arraignment horizon.",
       "source": "https://kenyans.co.ke/news/128856-man-arrested-after-allegedly-spending-sh67-million-mistakenly-credited-his-account",
       "published_at": "2026-10-25T15:02:13Z"
+    },
+    {
+      "title": "NTSA Seeks Statutory Disaster Status to Force Inter-Agency Funding on Road Fatalities",
+      "angle": "Reframing NTSA's call as a administrative attempt to pivot road safety from routine transport enforcement into the June 2026 National Disaster Risk Management Act framework, which would legally bind police, health, and county authorities to inter-agency funding and unified casualty targets.",
+      "angle_type": "institutional pressure",
+      "opening": "Statutory shift lead focusing on NTSA's push to leverage the new disaster management law to bind multi-agency budgets and operational mandates.",
+      "structure": "Statutory petition lead -> Mtito Andei crash context and cumulative casualty metrics -> Mechanics of the June 2026 Disaster Risk Management Act -> Multi-agency budget and execution implications -> Executive declaration process and ongoing site developments.",
+      "source": "https://kenyans.co.ke/news/128857-ntsa-urges-govt-declare-road-crashes-national-disaster-after-latest-deadly-crash",
+      "published_at": "2026-10-25T16:02:02Z"
     }
   ]
 }
