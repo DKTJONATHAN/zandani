@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "8db35be9c657853e9d287a1f4134a028",
     "678b2b18bbc82cfd70274aa87bf94242",
     "702f86857d27e356c827e921c8976e9c",
     "5caebf9fcd3fc27cd9d1a67c1e5055e3",
@@ -799,10 +798,10 @@
     "1cd830623df6df508f1f4a3f6422eead",
     "fdab7c41e23d743d5859485c3f176d7b",
     "556815a8ec9388e7f8e0ec32e8fd2bb6",
-    "a316b2240511b434e49da100c1347f1b"
+    "a316b2240511b434e49da100c1347f1b",
+    "6823cf30929b8499cbe01f8d0953349f"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1469,7 +1469,8 @@
     "https://kenyans.co.ke/news/128838-police-inspector-arrested-connection-murders-lawyer-victoria-mutiso",
     "https://kenyans.co.ke/news/128839-thwake-dam-nears-completion-nlc-addresses-pending-land-compensation-claims",
     "https://kenyans.co.ke/news/128842-nema-invites-public-comments-plan-build-7128-housing-units-nairobi",
-    "https://kenyans.co.ke/news/128845-sha-resumes-nhif-claims-review-health-facilities-owed-least-ksh10-million"
+    "https://kenyans.co.ke/news/128845-sha-resumes-nhif-claims-review-health-facilities-owed-least-ksh10-million",
+    "https://kenyans.co.ke/news/128847-uon-given-until-december-1-explain-how-it-plans-clear-ksh20-billion-debt"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2029,7 +2030,8 @@
     "fugitive inspector arrested dci closes ring dual contract killings",
     "nlc clears thwake dam land payouts downstream water relief shifts 2027",
     "state segments stalled 128 unit lang ata housing scheme filings court rebuke",
-    "sha locks remainder ksh33b nhif debt behind site audits 451 hospitals"
+    "sha locks remainder ksh33b nhif debt behind site audits 451 hospitals",
+    "uon leans ksh220b asset sheet cure technical insolvency house demands cash roadmap"
   ],
   "topic_keys": [
     "news tracker",
@@ -6340,6 +6342,15 @@
       "structure": "Financial disparity lead -> Audit mandate and 451-facility scope -> Evidentiary requirements and physical schedule -> Liquidity pressure on lower-tier facilities -> Forward verification milestones",
       "source": "https://kenyans.co.ke/news/128845-sha-resumes-nhif-claims-review-health-facilities-owed-least-ksh10-million",
       "published_at": "2026-10-25T10:04:42Z"
+    },
+    {
+      "title": "UoN Leans on Ksh220B Asset Sheet to Cure Technical Insolvency as House Demands Cash Roadmap",
+      "angle": "The fiscal contradiction between UoN's paper wealth\u2014a Ksh220 billion property balance sheet\u2014and its operational insolvency, where statutory deductions and pensions alone have locked up Ksh10.6 billion in unpaid obligations.",
+      "angle_type": "money",
+      "opening": "Balance-sheet disparity lead contrasting the institution's vast asset base with its acute liquidity insolvency.",
+      "structure": "Fiscal disparity lead -> Parliamentary hearing and statutory obligations breakdown -> Asset commercialisation strategy versus committee scepticism -> Sector-wide debt exposure across Egerton, KU, and Moi -> State intervention commitments and next audit milestones",
+      "source": "https://kenyans.co.ke/news/128847-uon-given-until-december-1-explain-how-it-plans-clear-ksh20-billion-debt",
+      "published_at": "2026-10-25T11:01:33Z"
     }
   ]
 }
