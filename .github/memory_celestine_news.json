@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "359dca7685b65f9994ff533b2f46034d",
     "2ddce136e9b01550151d67ca8d3c8854",
     "8db35be9c657853e9d287a1f4134a028",
     "678b2b18bbc82cfd70274aa87bf94242",
@@ -799,10 +798,10 @@
     "07019ca43cf842eeece4d308dc4b7726",
     "00c2936693e2710d2a1b802c263deb5d",
     "1cd830623df6df508f1f4a3f6422eead",
-    "fdab7c41e23d743d5859485c3f176d7b"
+    "fdab7c41e23d743d5859485c3f176d7b",
+    "556815a8ec9388e7f8e0ec32e8fd2bb6"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1467,7 +1467,8 @@
     "https://kenyans.co.ke/news/128831-high-court-freezes-multimillion-properties-vehicles-linked-six-kenyans",
     "https://kenyans.co.ke/news/128830-atwoli-lands-new-job-ruto-css-make-appointments-govt",
     "https://kenyans.co.ke/news/128838-police-inspector-arrested-connection-murders-lawyer-victoria-mutiso",
-    "https://kenyans.co.ke/news/128839-thwake-dam-nears-completion-nlc-addresses-pending-land-compensation-claims"
+    "https://kenyans.co.ke/news/128839-thwake-dam-nears-completion-nlc-addresses-pending-land-compensation-claims",
+    "https://kenyans.co.ke/news/128842-nema-invites-public-comments-plan-build-7128-housing-units-nairobi"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2025,7 +2026,8 @@
     "high court orders commercial cash flows diverted state multimillion shilling asset freeze",
     "state consolidates regulatory boards atwoli drafted welfare oversight",
     "fugitive inspector arrested dci closes ring dual contract killings",
-    "nlc clears thwake dam land payouts downstream water relief shifts 2027"
+    "nlc clears thwake dam land payouts downstream water relief shifts 2027",
+    "state segments stalled 128 unit lang ata housing scheme filings court rebuke"
   ],
   "topic_keys": [
     "news tracker",
@@ -6318,6 +6320,15 @@
       "structure": "Statutory compensation disclosure -> Civil completion rate and impoundment schedule -> Beneficiary sequence for Kitui and Makueni -> External financing structure resolving construction stalls -> Long-range multi-phase timeline to 2028",
       "source": "https://kenyans.co.ke/news/128839-thwake-dam-nears-completion-nlc-addresses-pending-land-compensation-claims",
       "published_at": "2026-10-25T06:02:20Z"
+    },
+    {
+      "title": "State Segments Stalled 7,128-Unit Lang\u2019ata Housing Scheme Into 5 Filings After Court Rebuke",
+      "angle": "The procedural compliance reset forced on the State Department for Housing: breaking the massive development into five discrete regulatory filings with structured grievance and displacement safeguards to cure the legal defects that saw its original license thrown out by the courts.",
+      "angle_type": "accountability",
+      "opening": "Regulatory reset lead detailing the government's procedural rerun under judicial compulsion.",
+      "structure": "Regulatory reset and judicial backdrop -> Five-lot structural breakdown and density numbers -> Prescribed social and displacement mitigation protocols -> Statutory submission mechanics and procedural runway",
+      "source": "https://kenyans.co.ke/news/128842-nema-invites-public-comments-plan-build-7128-housing-units-nairobi",
+      "published_at": "2026-10-25T07:02:02Z"
     }
   ]
 }
