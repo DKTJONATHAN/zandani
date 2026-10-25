@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "10e5d5d09faf9b52b1d7cbca255221a3",
     "1646e934bebcc75a63f60b6ce36135a9",
     "b17071212904f96d8f147e3ca8d03083",
     "5902e5b02f67aa7191c3ce974f40a1ce",
@@ -799,10 +798,10 @@
     "6823cf30929b8499cbe01f8d0953349f",
     "bcad014f14a369df698e8417d15b16c1",
     "9fdaef41b565a530990a911b6e6e7e3f",
-    "5ba07be0ff1018639ecca0fa92a635da"
+    "5ba07be0ff1018639ecca0fa92a635da",
+    "e312bef41cf0a2e5848eb60a29a59750"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1473,7 +1473,8 @@
     "https://kenyans.co.ke/news/128847-uon-given-until-december-1-explain-how-it-plans-clear-ksh20-billion-debt",
     "https://kenyans.co.ke/news/128849-health-workers-call-3-month-strike-facilitate-talks-govt",
     "https://kenyans.co.ke/news/128850-wiper-calls-out-malala-over-planned-talks-kalonzo-sifunas-2027-bid",
-    "https://kenyans.co.ke/news/128852-uganda-releases-60-people-after-21-day-ebola-monitoring-over-kenyan-case"
+    "https://kenyans.co.ke/news/128852-uganda-releases-60-people-after-21-day-ebola-monitoring-over-kenyan-case",
+    "https://kenyans.co.ke/news/128856-man-arrested-after-allegedly-spending-sh67-million-mistakenly-credited-his-account"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2037,7 +2038,8 @@
     "uon leans ksh220b asset sheet cure technical insolvency house demands cash roadmap",
     "public health officers suspend day strike ebola threat forces day truce",
     "wiper rejects dcp sifuna ticket push ahead monday talks",
-    "uganda clears ebola transit chain threatens drc border crossers treatment bills"
+    "uganda clears ebola transit chain threatens drc border crossers treatment bills",
+    "suspect faces cybercrimes laundering charges ksh6 erroneous deposit"
   ],
   "topic_keys": [
     "news tracker",
@@ -6384,6 +6386,15 @@
       "structure": "Corridor clearance lead -> Breakdown of the 60-contact transit trace -> Hardened DRC border directives and personal billing threat -> Regional diplomatic friction over Nigeria's imported case -> Tracing mechanics and regional containment posture.",
       "source": "https://kenyans.co.ke/news/128852-uganda-releases-60-people-after-21-day-ebola-monitoring-over-kenyan-case",
       "published_at": "2026-10-25T14:08:07Z"
+    },
+    {
+      "title": "Suspect Faces Cybercrimes and Laundering Charges Over Ksh6.7M Erroneous Deposit",
+      "angle": "The precise statutory intersection of the charges\u2014combining Section 35 of the Computer Misuse and Cybercrimes Act with money laundering provisions under Cap 59A\u2014and the unresolved financial recovery metrics left open by investigators.",
+      "angle_type": "accountability",
+      "opening": "Statutory-charge lead focusing on the dual legal frameworks invoked by prosecutors rather than the simple fact of the arrest.",
+      "structure": "Legal framework lead -> Transaction chronology and rent error details -> Investigative silence on recovery metrics -> Statutory warning and arraignment horizon.",
+      "source": "https://kenyans.co.ke/news/128856-man-arrested-after-allegedly-spending-sh67-million-mistakenly-credited-his-account",
+      "published_at": "2026-10-25T15:02:13Z"
     }
   ]
 }
