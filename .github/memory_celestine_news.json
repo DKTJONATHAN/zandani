@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "e154416868431d10baa4d4d0a4bbddf1",
     "a7a7d8c076100c83cbbd1f45024257c3",
     "fb61b8f3c44899297b14c073cfd703a1",
     "93650a078edffea3d58072a343efec64",
@@ -799,10 +798,10 @@
     "f19412071915969648a0372c6440687b",
     "087fd239e369d0a96e5ae559cc459f3a",
     "8b22c69f17d53261112e56d90c69a0a9",
-    "bf8d0116e75412b5d65d41ae98627ce2"
+    "bf8d0116e75412b5d65d41ae98627ce2",
+    "7b6e0a38b909f1ee7c4b1a54812c49bc"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1489,7 +1489,8 @@
     "https://kenyans.co.ke/news/128877-sha-details-how-kenyans-can-get-cover-despite-struggling-pay-premiums",
     "https://kenyans.co.ke/news/128879-govt-releases-first-20-ebola-contacts-after-21-days-quarantine",
     "https://kenyans.co.ke/news/128873-police-launch-probe-after-attack-mombasa-officers-leaves-one-dead",
-    "https://kenyans.co.ke/news/128876-how-kenya-landed-254-country-calling-code"
+    "https://kenyans.co.ke/news/128876-how-kenya-landed-254-country-calling-code",
+    "https://kenyans.co.ke/news/128881-ntsa-issues-safety-checklist-psv-drivers-ahead-festive-season"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2069,7 +2070,8 @@
     "sha ties lipa pole pole health cover hustler fund clearance upfront advance",
     "health ministry sets four november waves ebola contacts genomic tests confirm single drc lineage",
     "unrecovered triggers night movement warnings likoni deadly checkpoint raid",
-    "behind 254 dial itu regional blocks shared east african digits shape calls"
+    "behind 254 dial itu regional blocks shared east african digits shape calls",
+    "ntsa ties festive night inspections real time irsms speed tracking"
   ],
   "topic_keys": [
     "news tracker",
@@ -6560,6 +6562,15 @@
       "structure": "Regional block allocation -> ITU global routing framework -> Local digit structure vs international prefix -> Cross-border collision risks for shared number strings",
       "source": "https://kenyans.co.ke/news/128876-how-kenya-landed-254-country-calling-code",
       "published_at": "2026-10-26T16:20:49Z"
+    },
+    {
+      "title": "NTSA Ties Festive Night Inspections to Real-Time IRSMS Speed Tracking",
+      "angle": "The strict operational shift toward digital enforcement infrastructure\u2014specifically how the Intelligent Road Safety Management System (IRSMS) and mandatory real-time speed data transmission are transforming routine night-time road checks into automated compliance monitoring.",
+      "angle_type": "practical change",
+      "opening": "Practical-change lead focusing on the integration of automated digital compliance tools into night corridor inspections.",
+      "structure": "Digital enforcement lead -> Peak hazard timing and statistical window -> Mandatory PSV manifest and logbook verification -> IRSMS speed data transmission mechanics -> Unresolved institutional friction (national disaster appeal)",
+      "source": "https://kenyans.co.ke/news/128881-ntsa-issues-safety-checklist-psv-drivers-ahead-festive-season",
+      "published_at": "2026-10-26T16:40:13Z"
     }
   ]
 }
