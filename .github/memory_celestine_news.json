@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "d121d778a6b590eb234bb99354655d2e",
     "e154416868431d10baa4d4d0a4bbddf1",
     "a7a7d8c076100c83cbbd1f45024257c3",
     "fb61b8f3c44899297b14c073cfd703a1",
@@ -799,10 +798,10 @@
     "3552a2ebe28c4c72fa42c4d2036cca51",
     "f19412071915969648a0372c6440687b",
     "087fd239e369d0a96e5ae559cc459f3a",
-    "8b22c69f17d53261112e56d90c69a0a9"
+    "8b22c69f17d53261112e56d90c69a0a9",
+    "bf8d0116e75412b5d65d41ae98627ce2"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1488,7 +1488,8 @@
     "https://kenyans.co.ke/news/128874-eacc-recovers-27-acre-playground-belonging-3-schools-church-after-court-ruling-kiambu",
     "https://kenyans.co.ke/news/128877-sha-details-how-kenyans-can-get-cover-despite-struggling-pay-premiums",
     "https://kenyans.co.ke/news/128879-govt-releases-first-20-ebola-contacts-after-21-days-quarantine",
-    "https://kenyans.co.ke/news/128873-police-launch-probe-after-attack-mombasa-officers-leaves-one-dead"
+    "https://kenyans.co.ke/news/128873-police-launch-probe-after-attack-mombasa-officers-leaves-one-dead",
+    "https://kenyans.co.ke/news/128876-how-kenya-landed-254-country-calling-code"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2067,7 +2068,8 @@
     "thika court cancels church title directs nlc restore kikuyu school ground",
     "sha ties lipa pole pole health cover hustler fund clearance upfront advance",
     "health ministry sets four november waves ebola contacts genomic tests confirm single drc lineage",
-    "unrecovered triggers night movement warnings likoni deadly checkpoint raid"
+    "unrecovered triggers night movement warnings likoni deadly checkpoint raid",
+    "behind 254 dial itu regional blocks shared east african digits shape calls"
   ],
   "topic_keys": [
     "news tracker",
@@ -6549,6 +6551,15 @@
       "structure": "Security risk lead -> Event and casualty breakdown -> Operational vulnerability of revenue checkpoints -> Official advisories for residents and businesses -> Investigative next steps by DCI.",
       "source": "https://kenyans.co.ke/news/128873-police-launch-probe-after-attack-mombasa-officers-leaves-one-dead",
       "published_at": "2026-10-26T15:01:34Z"
+    },
+    {
+      "title": "Behind the +254 Dial: How ITU Regional Blocks and Shared East African Digits Shape Calls",
+      "angle": "The operational mechanics of global telephone numbering regions and the silent international routing collision risks (such as shared subscriber number strings across East African borders) that make country codes mandatory.",
+      "angle_type": "practical change",
+      "opening": "Regional numbering allocation lead highlighting the ITU's continental block assignment and the collision risk of identical subscriber numbers across East Africa.",
+      "structure": "Regional block allocation -> ITU global routing framework -> Local digit structure vs international prefix -> Cross-border collision risks for shared number strings",
+      "source": "https://kenyans.co.ke/news/128876-how-kenya-landed-254-country-calling-code",
+      "published_at": "2026-10-26T16:20:49Z"
     }
   ]
 }
