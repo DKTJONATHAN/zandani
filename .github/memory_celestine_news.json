@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ebc2fed18f52239cb07e9a23b5c5d6bf",
     "d121d778a6b590eb234bb99354655d2e",
     "e154416868431d10baa4d4d0a4bbddf1",
     "a7a7d8c076100c83cbbd1f45024257c3",
@@ -799,10 +798,10 @@
     "8c3b746603cb9ef9d5c4b597d772ef32",
     "3552a2ebe28c4c72fa42c4d2036cca51",
     "f19412071915969648a0372c6440687b",
-    "087fd239e369d0a96e5ae559cc459f3a"
+    "087fd239e369d0a96e5ae559cc459f3a",
+    "8b22c69f17d53261112e56d90c69a0a9"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1487,7 +1487,8 @@
     "https://kenyans.co.ke/news/128871-odpp-reveals-missing-inquiry-file-after-sakajas-eastleigh-building-claims",
     "https://kenyans.co.ke/news/128874-eacc-recovers-27-acre-playground-belonging-3-schools-church-after-court-ruling-kiambu",
     "https://kenyans.co.ke/news/128877-sha-details-how-kenyans-can-get-cover-despite-struggling-pay-premiums",
-    "https://kenyans.co.ke/news/128879-govt-releases-first-20-ebola-contacts-after-21-days-quarantine"
+    "https://kenyans.co.ke/news/128879-govt-releases-first-20-ebola-contacts-after-21-days-quarantine",
+    "https://kenyans.co.ke/news/128873-police-launch-probe-after-attack-mombasa-officers-leaves-one-dead"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2065,7 +2066,8 @@
     "eastleigh collapse dpp bypasses city hall orders dci criminal probe regulators",
     "thika court cancels church title directs nlc restore kikuyu school ground",
     "sha ties lipa pole pole health cover hustler fund clearance upfront advance",
-    "health ministry sets four november waves ebola contacts genomic tests confirm single drc lineage"
+    "health ministry sets four november waves ebola contacts genomic tests confirm single drc lineage",
+    "unrecovered triggers night movement warnings likoni deadly checkpoint raid"
   ],
   "topic_keys": [
     "news tracker",
@@ -6538,6 +6540,15 @@
       "structure": "Phased exit roadmap lead -> 20 contact release clearance -> Genomic sequencing and single DRC strain finding -> Staggered November wave timeline -> Clinical metrics and anti-stigma protocols -> Final 21-day countdown forward edge.",
       "source": "https://kenyans.co.ke/news/128879-govt-releases-first-20-ebola-contacts-after-21-days-quarantine",
       "published_at": "2026-10-26T14:28:12Z"
+    },
+    {
+      "title": "Unrecovered AK-47 Triggers Night Movement Warnings in Likoni After Deadly Checkpoint Raid",
+      "angle": "Focusing on the concrete security consequences and community risk created by an unaccounted automatic rifle and 30 rounds circulating in Mombasa South, which forced police to issue night movement advisories and order private security audits for local organizations.",
+      "angle_type": "consequence",
+      "opening": "Consequence lead establishing the localized movement advisories and public security risks caused by the missing military-grade weapon.",
+      "structure": "Security risk lead -> Event and casualty breakdown -> Operational vulnerability of revenue checkpoints -> Official advisories for residents and businesses -> Investigative next steps by DCI.",
+      "source": "https://kenyans.co.ke/news/128873-police-launch-probe-after-attack-mombasa-officers-leaves-one-dead",
+      "published_at": "2026-10-26T15:01:34Z"
     }
   ]
 }
