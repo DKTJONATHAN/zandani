@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "65be901e70c2bc75190aaaba74d60131",
     "519dc99671464847d9e3dd5eba1581ec",
     "e76d3c3bb280c05ae958658a6fd9bcab",
     "2157fdbddefe8dc44ac3b1f1884ca645",
@@ -799,10 +798,10 @@
     "8686f8d354dfa1021aff2641f576afcc",
     "bafcef9152c2491fc81e97e6350c1cac",
     "ae2433cdb15dc5a743a1d1d22c737ca2",
-    "24d9c7c4ccc60ea5ce7a7352f0487d52"
+    "24d9c7c4ccc60ea5ce7a7352f0487d52",
+    "8c3b746603cb9ef9d5c4b597d772ef32"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1483,7 +1483,8 @@
     "https://kenyans.co.ke/news/128866-ogamba-cautions-parents-against-scheme-targeting-learners-sitting-national-assessments",
     "https://kenyans.co.ke/news/128867-kmpdu-sets-december-deadline-new-doctors-cba",
     "https://kenyans.co.ke/news/128869-ntsa-seeks-details-drivers-viral-footage-dangerous-driving-nairobi-expressway",
-    "https://kenyans.co.ke/news/128870-knec-releases-july-2026-business-and-technical-examination-results-sets-conditions"
+    "https://kenyans.co.ke/news/128870-knec-releases-july-2026-business-and-technical-examination-results-sets-conditions",
+    "https://kenyans.co.ke/news/128871-odpp-reveals-missing-inquiry-file-after-sakajas-eastleigh-building-claims"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2057,7 +2058,8 @@
     "ogamba puts paper syndicates notice kpsea kjsea roll out makueni",
     "doctors squeeze parallel national county cba talks eight week december window",
     "ntsa turns social media dms track luxury car racers nairobi expressway",
-    "knec withholds july technical results college fee debts strict south rollout"
+    "knec withholds july technical results college fee debts strict south rollout",
+    "eastleigh collapse dpp bypasses city hall orders dci criminal probe regulators"
   ],
   "topic_keys": [
     "news tracker",
@@ -6494,6 +6496,15 @@
       "structure": "Attribution and financial clearance lead -> Mechanics of result release at South C -> Dispute filing protocols and the Ksh5,000 late penalty -> Centralised student enquiry channel -> Broader examination oversight calendar.",
       "source": "https://kenyans.co.ke/news/128870-knec-releases-july-2026-business-and-technical-examination-results-sets-conditions",
       "published_at": "2026-10-26T10:07:33Z"
+    },
+    {
+      "title": "Eastleigh Collapse: DPP Bypasses City Hall, Orders DCI Criminal Probe Into Regulators",
+      "angle": "The DPP's decision to bypass City Hall's stalled internal regulatory framework by commissioning the DCI directly, effectively converting municipal approvals and oversight omissions into an independent criminal inquiry where county officials face identical exposure to private contractors.",
+      "angle_type": "accountability",
+      "opening": "Institutional-liability lead opening on the DPP's decision to launch a DCI-led criminal investigation across the entire regulatory and construction chain.",
+      "structure": "Criminal mandate lead -> Verification of missing county records -> DCI probe terms targeting planning and approvals -> Sakaja's April 2026 prosecution bottleneck defense -> Ground human casualty tally and legal exposure horizon.",
+      "source": "https://kenyans.co.ke/news/128871-odpp-reveals-missing-inquiry-file-after-sakajas-eastleigh-building-claims",
+      "published_at": "2026-10-26T11:05:18Z"
     }
   ]
 }
