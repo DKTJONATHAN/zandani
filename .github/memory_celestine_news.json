@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a7a7d8c076100c83cbbd1f45024257c3",
     "fb61b8f3c44899297b14c073cfd703a1",
     "93650a078edffea3d58072a343efec64",
     "7bb3b2ab541005eb682be5ca5bdb9451",
@@ -799,10 +798,10 @@
     "087fd239e369d0a96e5ae559cc459f3a",
     "8b22c69f17d53261112e56d90c69a0a9",
     "bf8d0116e75412b5d65d41ae98627ce2",
-    "7b6e0a38b909f1ee7c4b1a54812c49bc"
+    "7b6e0a38b909f1ee7c4b1a54812c49bc",
+    "6b96e894ebd3a74c1964632a04c8e900"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1490,7 +1490,8 @@
     "https://kenyans.co.ke/news/128879-govt-releases-first-20-ebola-contacts-after-21-days-quarantine",
     "https://kenyans.co.ke/news/128873-police-launch-probe-after-attack-mombasa-officers-leaves-one-dead",
     "https://kenyans.co.ke/news/128876-how-kenya-landed-254-country-calling-code",
-    "https://kenyans.co.ke/news/128881-ntsa-issues-safety-checklist-psv-drivers-ahead-festive-season"
+    "https://kenyans.co.ke/news/128881-ntsa-issues-safety-checklist-psv-drivers-ahead-festive-season",
+    "https://kenyans.co.ke/news/128875-78-year-old-woman-earns-phd-decades-after-shelving-academic-dreams"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2071,7 +2072,8 @@
     "health ministry sets four november waves ebola contacts genomic tests confirm single drc lineage",
     "unrecovered triggers night movement warnings likoni deadly checkpoint raid",
     "behind 254 dial itu regional blocks shared east african digits shape calls",
-    "ntsa ties festive night inspections real time irsms speed tracking"
+    "ntsa ties festive night inspections real time irsms speed tracking",
+    "chief mandate seven campus stops built deborah lotodo year doctorate path"
   ],
   "topic_keys": [
     "news tracker",
@@ -6571,6 +6573,15 @@
       "structure": "Digital enforcement lead -> Peak hazard timing and statistical window -> Mandatory PSV manifest and logbook verification -> IRSMS speed data transmission mechanics -> Unresolved institutional friction (national disaster appeal)",
       "source": "https://kenyans.co.ke/news/128881-ntsa-issues-safety-checklist-psv-drivers-ahead-festive-season",
       "published_at": "2026-10-26T16:40:13Z"
+    },
+    {
+      "title": "How a Chief\u2019s Mandate and Seven Campus Stops Built Deborah Lotodo\u2019s 67-Year Doctorate Path",
+      "angle": "Framing the achievement through the structural mechanics of Kenya's non-linear adult education ladder\u2014tracing how a six-decade trajectory moved from chief-mandated primary enrollment to grassroots school-building in West Pokot and multi-stage tertiary re-entry.",
+      "angle_type": "human trajectory",
+      "opening": "Trajectory-focused lead highlighting the structural span of her education from early primary enrollment to doctoral conferment.",
+      "structure": "Multi-decade progression lead -> Early life and initial high school disruption -> Mid-life re-entry and school founding in West Pokot -> Post-bereavement counseling ladder -> Final postgraduate sequence and conferment.",
+      "source": "https://kenyans.co.ke/news/128875-78-year-old-woman-earns-phd-decades-after-shelving-academic-dreams",
+      "published_at": "2026-10-26T17:02:14Z"
     }
   ]
 }
