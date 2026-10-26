@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "2157fdbddefe8dc44ac3b1f1884ca645",
     "ebc2fed18f52239cb07e9a23b5c5d6bf",
     "d121d778a6b590eb234bb99354655d2e",
     "e154416868431d10baa4d4d0a4bbddf1",
@@ -799,10 +798,10 @@
     "24d9c7c4ccc60ea5ce7a7352f0487d52",
     "8c3b746603cb9ef9d5c4b597d772ef32",
     "3552a2ebe28c4c72fa42c4d2036cca51",
-    "f19412071915969648a0372c6440687b"
+    "f19412071915969648a0372c6440687b",
+    "087fd239e369d0a96e5ae559cc459f3a"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1486,7 +1486,8 @@
     "https://kenyans.co.ke/news/128870-knec-releases-july-2026-business-and-technical-examination-results-sets-conditions",
     "https://kenyans.co.ke/news/128871-odpp-reveals-missing-inquiry-file-after-sakajas-eastleigh-building-claims",
     "https://kenyans.co.ke/news/128874-eacc-recovers-27-acre-playground-belonging-3-schools-church-after-court-ruling-kiambu",
-    "https://kenyans.co.ke/news/128877-sha-details-how-kenyans-can-get-cover-despite-struggling-pay-premiums"
+    "https://kenyans.co.ke/news/128877-sha-details-how-kenyans-can-get-cover-despite-struggling-pay-premiums",
+    "https://kenyans.co.ke/news/128879-govt-releases-first-20-ebola-contacts-after-21-days-quarantine"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2063,7 +2064,8 @@
     "knec withholds july technical results college fee debts strict south rollout",
     "eastleigh collapse dpp bypasses city hall orders dci criminal probe regulators",
     "thika court cancels church title directs nlc restore kikuyu school ground",
-    "sha ties lipa pole pole health cover hustler fund clearance upfront advance"
+    "sha ties lipa pole pole health cover hustler fund clearance upfront advance",
+    "health ministry sets four november waves ebola contacts genomic tests confirm single drc lineage"
   ],
   "topic_keys": [
     "news tracker",
@@ -6527,6 +6529,15 @@
       "structure": "Attribution lead -> Direct official statement and informal means-testing breakdown -> Micro-lending conditions, upfront charges, and penalty interest -> Safety-net tiers (Primary Health Fund and ECCIF) -> Forward operational horizon on means-testing verification.",
       "source": "https://kenyans.co.ke/news/128877-sha-details-how-kenyans-can-get-cover-despite-struggling-pay-premiums",
       "published_at": "2026-10-26T13:01:57Z"
+    },
+    {
+      "title": "Health Ministry Sets Four November Waves for 98 Ebola Contacts as Genomic Tests Confirm Single DRC Lineage",
+      "angle": "Focusing on the health ministry's structured four-wave November exit plan for the remaining 98 contacts, backed by genomic sequencing confirming a single imported Bundibugyo transmission chain.",
+      "angle_type": "practical change",
+      "opening": "Roadmap lead opening on the structured November exit schedule for 98 remaining contacts alongside laboratory genomic validation.",
+      "structure": "Phased exit roadmap lead -> 20 contact release clearance -> Genomic sequencing and single DRC strain finding -> Staggered November wave timeline -> Clinical metrics and anti-stigma protocols -> Final 21-day countdown forward edge.",
+      "source": "https://kenyans.co.ke/news/128879-govt-releases-first-20-ebola-contacts-after-21-days-quarantine",
+      "published_at": "2026-10-26T14:28:12Z"
     }
   ]
 }
