@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "af4b5951f60966add9b011331ac9bcc7",
     "300e7f96a2eff66875d42bc2dad6ccb8",
     "0ca2e7ed338b32e7641bd16b647dd813",
     "3765dd8be6ce4a51d6fe74bd6e659a76",
@@ -799,10 +798,10 @@
     "e312bef41cf0a2e5848eb60a29a59750",
     "51f3cd57e9d145de47e6be3649251725",
     "19dc91fe8dc4c9fda4f8df0bc5425797",
-    "b1e8d653ace54206b99bcca4deb4c24e"
+    "b1e8d653ace54206b99bcca4deb4c24e",
+    "cc8d842bd9a1c4a554aa0d5e9bf540db"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1477,7 +1477,8 @@
     "https://kenyans.co.ke/news/128856-man-arrested-after-allegedly-spending-sh67-million-mistakenly-credited-his-account",
     "https://kenyans.co.ke/news/128857-ntsa-urges-govt-declare-road-crashes-national-disaster-after-latest-deadly-crash",
     "https://kenyans.co.ke/news/128858-sakaja-threatens-legal-action-against-babu-owino-over-eastleigh-approval-dispute",
-    "https://kenyans.co.ke/news/128863-cs-duale-says-kenya-could-be-ebola-free-21-days-if-no-new-cases-emerge"
+    "https://kenyans.co.ke/news/128863-cs-duale-says-kenya-could-be-ebola-free-21-days-if-no-new-cases-emerge",
+    "https://kenyans.co.ke/news/128865-kfs-responds-claims-illegal-logging-ngong-hills-forest"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2045,7 +2046,8 @@
     "suspect faces cybercrimes laundering charges ksh6 erroneous deposit",
     "ntsa seeks statutory disaster status force inter agency funding road fatalities",
     "eastleigh collapse exposes stalled county prosecutions sakaja battles bribery claims",
-    "enters final day ebola clock first contact cohort finishes quarantine"
+    "enters final day ebola clock first contact cohort finishes quarantine",
+    "kfs invokes statutory time limits citizen videos spark kibiku forest harvesting dispute"
   ],
   "topic_keys": [
     "news tracker",
@@ -6428,6 +6430,15 @@
       "structure": "Operational discharge milestone -> Clinical protocol and testing regime details -> WHO 42-day clock mechanics and transmission data -> Containment metrics (cases, fatalities, contact tracing) -> Surveillance reporting lines.",
       "source": "https://kenyans.co.ke/news/128863-cs-duale-says-kenya-could-be-ebola-free-21-days-if-no-new-cases-emerge",
       "published_at": "2026-10-26T05:02:12Z"
+    },
+    {
+      "title": "KFS Invokes Statutory Time Limits as Citizen Videos Spark Kibiku Forest Harvesting Dispute",
+      "angle": "Framing the dispute around how statutory commercial forestry rules\u2014specifically mandatory 6 a.m. to 6 p.m. operating windows\u2014are coming under intense public surveillance across both national reserves and urban corridors.",
+      "angle_type": "institutional pressure",
+      "opening": "Statutory boundary lead opening on the 6 a.m. to 6 p.m. legal window and citizen surveillance.",
+      "structure": "Statutory window lead -> Kibiku 56-hectare concession details and truck breakdown explanation -> PELIS scheme and community replanting mechanics -> Pattern of citizen oversight in Saboti, Nairobi, and Nakuru -> Verification directives and upcoming forestry monitoring.",
+      "source": "https://kenyans.co.ke/news/128865-kfs-responds-claims-illegal-logging-ngong-hills-forest",
+      "published_at": "2026-10-26T06:03:00Z"
     }
   ]
 }
