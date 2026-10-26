@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "0ca2e7ed338b32e7641bd16b647dd813",
     "3765dd8be6ce4a51d6fe74bd6e659a76",
     "5f38da9b04f7a328a3d12445113a693f",
     "0cccc1e9bd16694bd075ac55acb6ca67",
@@ -799,10 +798,10 @@
     "19dc91fe8dc4c9fda4f8df0bc5425797",
     "b1e8d653ace54206b99bcca4deb4c24e",
     "cc8d842bd9a1c4a554aa0d5e9bf540db",
-    "7a0ad0dcab84397c9d6465dbe91dcca9"
+    "7a0ad0dcab84397c9d6465dbe91dcca9",
+    "8686f8d354dfa1021aff2641f576afcc"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1479,7 +1479,8 @@
     "https://kenyans.co.ke/news/128858-sakaja-threatens-legal-action-against-babu-owino-over-eastleigh-approval-dispute",
     "https://kenyans.co.ke/news/128863-cs-duale-says-kenya-could-be-ebola-free-21-days-if-no-new-cases-emerge",
     "https://kenyans.co.ke/news/128865-kfs-responds-claims-illegal-logging-ngong-hills-forest",
-    "https://kenyans.co.ke/news/128864-former-alego-usonga-mp-otieno-makonyango-dies-while-receiving-treatment-nairobi"
+    "https://kenyans.co.ke/news/128864-former-alego-usonga-mp-otieno-makonyango-dies-while-receiving-treatment-nairobi",
+    "https://kenyans.co.ke/news/128866-ogamba-cautions-parents-against-scheme-targeting-learners-sitting-national-assessments"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2049,7 +2050,8 @@
     "eastleigh collapse exposes stalled county prosecutions sakaja battles bribery claims",
     "enters final day ebola clock first contact cohort finishes quarantine",
     "kfs invokes statutory time limits citizen videos spark kibiku forest harvesting dispute",
-    "former otieno mak onyango dies nairobi hospital ksh20m state award unpaid"
+    "former otieno mak onyango dies nairobi hospital ksh20m state award unpaid",
+    "ogamba puts paper syndicates notice kpsea kjsea roll out makueni"
   ],
   "topic_keys": [
     "news tracker",
@@ -6450,6 +6452,15 @@
       "structure": "Compensation-and-death lead -> Clinical sequence and fundraising efforts -> 1982 arrest and detention history -> Unsettled Ksh20M High Court judgment -> Lingering state debt to second liberation figures.",
       "source": "https://kenyans.co.ke/news/128864-former-alego-usonga-mp-otieno-makonyango-dies-while-receiving-treatment-nairobi",
       "published_at": "2026-10-26T07:02:10Z"
+    },
+    {
+      "title": "Ogamba Puts Paper Syndicates on Notice as KPSEA and KJSEA Roll Out in Makueni",
+      "angle": "Framing the ministerial statement through its institutional enforcement architecture: placing legal liability squarely on centre managers and invigilators while shielding parents and learners from monetised examination anxiety during concurrent Grade 6 and Grade 9 rollouts.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first opening establishing the Cabinet Secretary's directive and immediately identifying who benefits from the protective state advisory.",
+      "structure": "Attribution lead -> Direct ministerial quotes and extortion breakdown -> Dual assessment schedules (KPSEA and KJSEA) -> Institutional liability for exam administrators -> Multi-agency weather and security logistics",
+      "source": "https://kenyans.co.ke/news/128866-ogamba-cautions-parents-against-scheme-targeting-learners-sitting-national-assessments",
+      "published_at": "2026-10-26T08:13:56Z"
     }
   ]
 }
