@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "e76d3c3bb280c05ae958658a6fd9bcab",
     "2157fdbddefe8dc44ac3b1f1884ca645",
     "ebc2fed18f52239cb07e9a23b5c5d6bf",
     "d121d778a6b590eb234bb99354655d2e",
@@ -799,10 +798,10 @@
     "ae2433cdb15dc5a743a1d1d22c737ca2",
     "24d9c7c4ccc60ea5ce7a7352f0487d52",
     "8c3b746603cb9ef9d5c4b597d772ef32",
-    "3552a2ebe28c4c72fa42c4d2036cca51"
+    "3552a2ebe28c4c72fa42c4d2036cca51",
+    "f19412071915969648a0372c6440687b"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1485,7 +1485,8 @@
     "https://kenyans.co.ke/news/128869-ntsa-seeks-details-drivers-viral-footage-dangerous-driving-nairobi-expressway",
     "https://kenyans.co.ke/news/128870-knec-releases-july-2026-business-and-technical-examination-results-sets-conditions",
     "https://kenyans.co.ke/news/128871-odpp-reveals-missing-inquiry-file-after-sakajas-eastleigh-building-claims",
-    "https://kenyans.co.ke/news/128874-eacc-recovers-27-acre-playground-belonging-3-schools-church-after-court-ruling-kiambu"
+    "https://kenyans.co.ke/news/128874-eacc-recovers-27-acre-playground-belonging-3-schools-church-after-court-ruling-kiambu",
+    "https://kenyans.co.ke/news/128877-sha-details-how-kenyans-can-get-cover-despite-struggling-pay-premiums"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2061,7 +2062,8 @@
     "ntsa turns social media dms track luxury car racers nairobi expressway",
     "knec withholds july technical results college fee debts strict south rollout",
     "eastleigh collapse dpp bypasses city hall orders dci criminal probe regulators",
-    "thika court cancels church title directs nlc restore kikuyu school ground"
+    "thika court cancels church title directs nlc restore kikuyu school ground",
+    "sha ties lipa pole pole health cover hustler fund clearance upfront advance"
   ],
   "topic_keys": [
     "news tracker",
@@ -6516,6 +6518,15 @@
       "structure": "Judicial ruling & trust doctrine lead -> Breakdown of the transaction defects (1957 origin vs 2001 transfer) -> Mandamus enforcement mechanics on NLC and Land Registrar -> Impact on the 1,300-pupil tripartite school community.",
       "source": "https://kenyans.co.ke/news/128874-eacc-recovers-27-acre-playground-belonging-3-schools-church-after-court-ruling-kiambu",
       "published_at": "2026-10-26T12:16:10Z"
+    },
+    {
+      "title": "SHA Ties Lipa Pole Pole Health Cover to Hustler Fund Clearance and Upfront Advance",
+      "angle": "The operational and credit conditions anchoring the Lipa Pole Pole scheme: linking public health access directly to Hustler Fund creditworthiness, a mandatory four-month upfront cash payment, and automatic cover deactivation paired with 9.5 per cent penalty interest on missed cycles.",
+      "angle_type": "money",
+      "opening": "Attribution-first opening detailing the regulator's policy announcement and immediately identifying which low-income earners qualify under the micro-financing and subsidy framework.",
+      "structure": "Attribution lead -> Direct official statement and informal means-testing breakdown -> Micro-lending conditions, upfront charges, and penalty interest -> Safety-net tiers (Primary Health Fund and ECCIF) -> Forward operational horizon on means-testing verification.",
+      "source": "https://kenyans.co.ke/news/128877-sha-details-how-kenyans-can-get-cover-despite-struggling-pay-premiums",
+      "published_at": "2026-10-26T13:01:57Z"
     }
   ]
 }
