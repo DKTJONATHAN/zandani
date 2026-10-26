@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "5902e5b02f67aa7191c3ce974f40a1ce",
     "af4b5951f60966add9b011331ac9bcc7",
     "300e7f96a2eff66875d42bc2dad6ccb8",
     "0ca2e7ed338b32e7641bd16b647dd813",
@@ -799,10 +798,10 @@
     "5ba07be0ff1018639ecca0fa92a635da",
     "e312bef41cf0a2e5848eb60a29a59750",
     "51f3cd57e9d145de47e6be3649251725",
-    "19dc91fe8dc4c9fda4f8df0bc5425797"
+    "19dc91fe8dc4c9fda4f8df0bc5425797",
+    "b1e8d653ace54206b99bcca4deb4c24e"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1476,7 +1476,8 @@
     "https://kenyans.co.ke/news/128852-uganda-releases-60-people-after-21-day-ebola-monitoring-over-kenyan-case",
     "https://kenyans.co.ke/news/128856-man-arrested-after-allegedly-spending-sh67-million-mistakenly-credited-his-account",
     "https://kenyans.co.ke/news/128857-ntsa-urges-govt-declare-road-crashes-national-disaster-after-latest-deadly-crash",
-    "https://kenyans.co.ke/news/128858-sakaja-threatens-legal-action-against-babu-owino-over-eastleigh-approval-dispute"
+    "https://kenyans.co.ke/news/128858-sakaja-threatens-legal-action-against-babu-owino-over-eastleigh-approval-dispute",
+    "https://kenyans.co.ke/news/128863-cs-duale-says-kenya-could-be-ebola-free-21-days-if-no-new-cases-emerge"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2043,7 +2044,8 @@
     "uganda clears ebola transit chain threatens drc border crossers treatment bills",
     "suspect faces cybercrimes laundering charges ksh6 erroneous deposit",
     "ntsa seeks statutory disaster status force inter agency funding road fatalities",
-    "eastleigh collapse exposes stalled county prosecutions sakaja battles bribery claims"
+    "eastleigh collapse exposes stalled county prosecutions sakaja battles bribery claims",
+    "enters final day ebola clock first contact cohort finishes quarantine"
   ],
   "topic_keys": [
     "news tracker",
@@ -6417,6 +6419,15 @@
       "structure": "Enforcement disclosure lead -> Specific regulatory filings and ODPP prosecution bottleneck -> The legal clash, bribe allegations, and six-hour retraction notice -> Ground reality at Yusuf Haji Avenue with search and rescue metrics.",
       "source": "https://kenyans.co.ke/news/128858-sakaja-threatens-legal-action-against-babu-owino-over-eastleigh-approval-dispute",
       "published_at": "2026-10-25T17:02:04Z"
+    },
+    {
+      "title": "Kenya Enters Final 21-Day Ebola Clock as First Contact Cohort Finishes Quarantine",
+      "angle": "Reframing the 42-day WHO protocol through the immediate operational hurdle facing health teams: the release of nearly 20 monitored primary contacts who completed the 21-day incubation threshold, marking the transition from active quarantine surveillance to the final 21-day community observation window.",
+      "angle_type": "practical change",
+      "opening": "Milestone-driven operational lead detailing the scheduled clearance of the primary quarantine cohort on Monday as the benchmark for Kenya reaching the halfway mark of the WHO Ebola monitoring window.",
+      "structure": "Operational discharge milestone -> Clinical protocol and testing regime details -> WHO 42-day clock mechanics and transmission data -> Containment metrics (cases, fatalities, contact tracing) -> Surveillance reporting lines.",
+      "source": "https://kenyans.co.ke/news/128863-cs-duale-says-kenya-could-be-ebola-free-21-days-if-no-new-cases-emerge",
+      "published_at": "2026-10-26T05:02:12Z"
     }
   ]
 }
