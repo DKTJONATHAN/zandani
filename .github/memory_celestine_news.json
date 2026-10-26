@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "5f38da9b04f7a328a3d12445113a693f",
     "0cccc1e9bd16694bd075ac55acb6ca67",
     "65be901e70c2bc75190aaaba74d60131",
     "519dc99671464847d9e3dd5eba1581ec",
@@ -799,10 +798,10 @@
     "cc8d842bd9a1c4a554aa0d5e9bf540db",
     "7a0ad0dcab84397c9d6465dbe91dcca9",
     "8686f8d354dfa1021aff2641f576afcc",
-    "bafcef9152c2491fc81e97e6350c1cac"
+    "bafcef9152c2491fc81e97e6350c1cac",
+    "ae2433cdb15dc5a743a1d1d22c737ca2"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1481,7 +1481,8 @@
     "https://kenyans.co.ke/news/128865-kfs-responds-claims-illegal-logging-ngong-hills-forest",
     "https://kenyans.co.ke/news/128864-former-alego-usonga-mp-otieno-makonyango-dies-while-receiving-treatment-nairobi",
     "https://kenyans.co.ke/news/128866-ogamba-cautions-parents-against-scheme-targeting-learners-sitting-national-assessments",
-    "https://kenyans.co.ke/news/128867-kmpdu-sets-december-deadline-new-doctors-cba"
+    "https://kenyans.co.ke/news/128867-kmpdu-sets-december-deadline-new-doctors-cba",
+    "https://kenyans.co.ke/news/128869-ntsa-seeks-details-drivers-viral-footage-dangerous-driving-nairobi-expressway"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2053,7 +2054,8 @@
     "kfs invokes statutory time limits citizen videos spark kibiku forest harvesting dispute",
     "former otieno mak onyango dies nairobi hospital ksh20m state award unpaid",
     "ogamba puts paper syndicates notice kpsea kjsea roll out makueni",
-    "doctors squeeze parallel national county cba talks eight week december window"
+    "doctors squeeze parallel national county cba talks eight week december window",
+    "ntsa turns social media dms track luxury car racers nairobi expressway"
   ],
   "topic_keys": [
     "news tracker",
@@ -6472,6 +6474,15 @@
       "structure": "Timetable and twin-table setup -> Ministry counter-proposal and Mombasa session -> SRC wage-bill freeze barrier -> Centralised bargaining mechanics -> Historical 2017-2021 CBA precedent and next calendar dates",
       "source": "https://kenyans.co.ke/news/128867-kmpdu-sets-december-deadline-new-doctors-cba",
       "published_at": "2026-10-26T09:02:08Z"
+    },
+    {
+      "title": "NTSA Turns to Social Media DMs to Track Luxury Car Racers on Nairobi Expressway",
+      "angle": "Focusing on NTSA's crowdsourced digital tipping strategy\u2014soliciting social media direct messages from the public to obtain vehicle registration numbers on a closed-access, controlled highway corridor.",
+      "angle_type": "practical change",
+      "opening": "Enforcement-appeal lead focusing on NTSA soliciting public digital tips to identify offenders on the controlled-access expressway corridor.",
+      "structure": "Digital tipping lead -> Incident details & vehicle specs -> Crowd surveillance dynamics vs expressway monitoring -> Broader enforcement urgency following recent fatal crashes -> Investigation horizon.",
+      "source": "https://kenyans.co.ke/news/128869-ntsa-seeks-details-drivers-viral-footage-dangerous-driving-nairobi-expressway",
+      "published_at": "2026-10-26T09:56:11Z"
     }
   ]
 }
