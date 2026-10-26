@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "3765dd8be6ce4a51d6fe74bd6e659a76",
     "5f38da9b04f7a328a3d12445113a693f",
     "0cccc1e9bd16694bd075ac55acb6ca67",
     "65be901e70c2bc75190aaaba74d60131",
@@ -799,10 +798,10 @@
     "b1e8d653ace54206b99bcca4deb4c24e",
     "cc8d842bd9a1c4a554aa0d5e9bf540db",
     "7a0ad0dcab84397c9d6465dbe91dcca9",
-    "8686f8d354dfa1021aff2641f576afcc"
+    "8686f8d354dfa1021aff2641f576afcc",
+    "bafcef9152c2491fc81e97e6350c1cac"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1480,7 +1480,8 @@
     "https://kenyans.co.ke/news/128863-cs-duale-says-kenya-could-be-ebola-free-21-days-if-no-new-cases-emerge",
     "https://kenyans.co.ke/news/128865-kfs-responds-claims-illegal-logging-ngong-hills-forest",
     "https://kenyans.co.ke/news/128864-former-alego-usonga-mp-otieno-makonyango-dies-while-receiving-treatment-nairobi",
-    "https://kenyans.co.ke/news/128866-ogamba-cautions-parents-against-scheme-targeting-learners-sitting-national-assessments"
+    "https://kenyans.co.ke/news/128866-ogamba-cautions-parents-against-scheme-targeting-learners-sitting-national-assessments",
+    "https://kenyans.co.ke/news/128867-kmpdu-sets-december-deadline-new-doctors-cba"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2051,7 +2052,8 @@
     "enters final day ebola clock first contact cohort finishes quarantine",
     "kfs invokes statutory time limits citizen videos spark kibiku forest harvesting dispute",
     "former otieno mak onyango dies nairobi hospital ksh20m state award unpaid",
-    "ogamba puts paper syndicates notice kpsea kjsea roll out makueni"
+    "ogamba puts paper syndicates notice kpsea kjsea roll out makueni",
+    "doctors squeeze parallel national county cba talks eight week december window"
   ],
   "topic_keys": [
     "news tracker",
@@ -6461,6 +6463,15 @@
       "structure": "Attribution lead -> Direct ministerial quotes and extortion breakdown -> Dual assessment schedules (KPSEA and KJSEA) -> Institutional liability for exam administrators -> Multi-agency weather and security logistics",
       "source": "https://kenyans.co.ke/news/128866-ogamba-cautions-parents-against-scheme-targeting-learners-sitting-national-assessments",
       "published_at": "2026-10-26T08:13:56Z"
+    },
+    {
+      "title": "Doctors Squeeze Parallel National and County CBA Talks Into Eight-Week December Window",
+      "angle": "The operational crunch of running parallel centralized talks across both tiers of government within an eight-week window, colliding directly with an active SRC austerity freeze on county payrolls.",
+      "angle_type": "timing",
+      "opening": "Deadline-driven administrative lead detailing the compressed negotiation schedule and the friction created by county-level payroll restrictions.",
+      "structure": "Timetable and twin-table setup -> Ministry counter-proposal and Mombasa session -> SRC wage-bill freeze barrier -> Centralised bargaining mechanics -> Historical 2017-2021 CBA precedent and next calendar dates",
+      "source": "https://kenyans.co.ke/news/128867-kmpdu-sets-december-deadline-new-doctors-cba",
+      "published_at": "2026-10-26T09:02:08Z"
     }
   ]
 }
