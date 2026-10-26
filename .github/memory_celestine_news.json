@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "0cccc1e9bd16694bd075ac55acb6ca67",
     "65be901e70c2bc75190aaaba74d60131",
     "519dc99671464847d9e3dd5eba1581ec",
     "e76d3c3bb280c05ae958658a6fd9bcab",
@@ -799,10 +798,10 @@
     "7a0ad0dcab84397c9d6465dbe91dcca9",
     "8686f8d354dfa1021aff2641f576afcc",
     "bafcef9152c2491fc81e97e6350c1cac",
-    "ae2433cdb15dc5a743a1d1d22c737ca2"
+    "ae2433cdb15dc5a743a1d1d22c737ca2",
+    "24d9c7c4ccc60ea5ce7a7352f0487d52"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1482,7 +1482,8 @@
     "https://kenyans.co.ke/news/128864-former-alego-usonga-mp-otieno-makonyango-dies-while-receiving-treatment-nairobi",
     "https://kenyans.co.ke/news/128866-ogamba-cautions-parents-against-scheme-targeting-learners-sitting-national-assessments",
     "https://kenyans.co.ke/news/128867-kmpdu-sets-december-deadline-new-doctors-cba",
-    "https://kenyans.co.ke/news/128869-ntsa-seeks-details-drivers-viral-footage-dangerous-driving-nairobi-expressway"
+    "https://kenyans.co.ke/news/128869-ntsa-seeks-details-drivers-viral-footage-dangerous-driving-nairobi-expressway",
+    "https://kenyans.co.ke/news/128870-knec-releases-july-2026-business-and-technical-examination-results-sets-conditions"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2055,7 +2056,8 @@
     "former otieno mak onyango dies nairobi hospital ksh20m state award unpaid",
     "ogamba puts paper syndicates notice kpsea kjsea roll out makueni",
     "doctors squeeze parallel national county cba talks eight week december window",
-    "ntsa turns social media dms track luxury car racers nairobi expressway"
+    "ntsa turns social media dms track luxury car racers nairobi expressway",
+    "knec withholds july technical results college fee debts strict south rollout"
   ],
   "topic_keys": [
     "news tracker",
@@ -6483,6 +6485,15 @@
       "structure": "Digital tipping lead -> Incident details & vehicle specs -> Crowd surveillance dynamics vs expressway monitoring -> Broader enforcement urgency following recent fatal crashes -> Investigation horizon.",
       "source": "https://kenyans.co.ke/news/128869-ntsa-seeks-details-drivers-viral-footage-dangerous-driving-nairobi-expressway",
       "published_at": "2026-10-26T09:56:11Z"
+    },
+    {
+      "title": "KNEC Withholds July Technical Results Over College Fee Debts in Strict South C Rollout",
+      "angle": "The financial clearance bottleneck and cost enforcement mechanism: KNEC is using result release as financial leverage against indebted tertiary institutions, while locking individual students behind institutional clearance and attaching a Ksh5,000 penalty to late disputes.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first lead detailing KNEC's institutional notice and immediately identifying how the fee-clearance mandate impacts colleges and candidates.",
+      "structure": "Attribution and financial clearance lead -> Mechanics of result release at South C -> Dispute filing protocols and the Ksh5,000 late penalty -> Centralised student enquiry channel -> Broader examination oversight calendar.",
+      "source": "https://kenyans.co.ke/news/128870-knec-releases-july-2026-business-and-technical-examination-results-sets-conditions",
+      "published_at": "2026-10-26T10:07:33Z"
     }
   ]
 }
