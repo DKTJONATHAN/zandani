@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "7055ebb094b651ef4e7a1aa0547afa2f",
     "b3849706a5dc69ba2776011e56a4327a",
     "80275258637d1070cd1e4af6c063bfbb",
     "8ed9b032ec4827810bf387de9eb1ad46",
@@ -799,10 +798,10 @@
     "bec56c0138f223ebafbaf6d22c4fe049",
     "7e6f70f07f11ac283f20361aa6f12bd6",
     "b30c15b714815bddf40ddeead3461847",
-    "8eabf02ab92c01c07d69043074c3420d"
+    "8eabf02ab92c01c07d69043074c3420d",
+    "28ecee3cf862aab1cc7d50c71e292c58"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1505,7 +1505,8 @@
     "https://kenyans.co.ke/news/128920-kenya-airways-flies-over-50-cows-lagos-cargo-expansion-drive",
     "https://kenyans.co.ke/news/128924-kra-require-importer-details-all-consolidated-cargo-imports",
     "https://kenyans.co.ke/news/128923-govt-sets-november-14-deadline-human-rights-compensation-claims",
-    "https://kenyans.co.ke/news/128926-mps-consider-proposal-reduce-student-loan-deductions-15"
+    "https://kenyans.co.ke/news/128926-mps-consider-proposal-reduce-student-loan-deductions-15",
+    "https://kenyans.co.ke/news/128927-ruto-flies-out-russia-economic-forum-investment-talks"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2101,7 +2102,8 @@
     "taps specialized livestock charters push cargo share toward 40pc target",
     "kra shifts compliance burden consolidators trader data directive",
     "state draws november line multi year protest disappearance claims",
-    "fresh push cap graduate loan deductions collides tefa transition plan"
+    "fresh push cap graduate loan deductions collides tefa transition plan",
+    "ruto uses trade mandate push moscow market entry fertilizer access"
   ],
   "topic_keys": [
     "news tracker",
@@ -6736,6 +6738,15 @@
       "structure": "Statutory deduction framework -> Stakeholder push for 15% threshold -> Transition from HELB to TEFA -> Broader sectoral demands on financing and school administration -> Committee review timeline",
       "source": "https://kenyans.co.ke/news/128926-mps-consider-proposal-reduce-student-loan-deductions-15",
       "published_at": "2026-10-27T17:02:24Z"
+    },
+    {
+      "title": "Ruto Uses AU Trade Mandate to Push for Moscow Market Entry and Fertilizer Access",
+      "angle": "Reframing the Moscow engagement through Ruto's African Union Free Trade Area champion mandate, analyzing how Nairobi seeks to leverage continental trade status to break market barriers for tea and coffee while securing critical fertilizer supplies.",
+      "angle_type": "practical change",
+      "opening": "Mandate-led lead connecting Ruto's departure directly to his AU trade champion role and commodity export objectives.",
+      "structure": "AU champion mandate lead -> Factual specifics of the trip and delegation groundwork (Mudavadi, Lavrov) -> Input security & fertilizer mechanics -> Sector investment & tech transfer objectives -> Governance reform demands -> Moscow talks forward edge.",
+      "source": "https://kenyans.co.ke/news/128927-ruto-flies-out-russia-economic-forum-investment-talks",
+      "published_at": "2026-10-27T18:09:56Z"
     }
   ]
 }
