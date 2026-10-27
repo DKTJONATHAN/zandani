@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "7bb3b2ab541005eb682be5ca5bdb9451",
     "99783783259010911e48bb6b7d4e0c5f",
     "5b8c3e4581690dc16f53d8e8fc232d9e",
     "85da610d928b460b71ded0a93fb07adf",
@@ -799,10 +798,10 @@
     "7b6e0a38b909f1ee7c4b1a54812c49bc",
     "6b96e894ebd3a74c1964632a04c8e900",
     "3318f70903f5c26c7f942ade968a2010",
-    "c70c71187e7634212a40562e895e1a1f"
+    "c70c71187e7634212a40562e895e1a1f",
+    "ec8dd0d726e727f8becf26d3145dd205"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1493,7 +1493,8 @@
     "https://kenyans.co.ke/news/128881-ntsa-issues-safety-checklist-psv-drivers-ahead-festive-season",
     "https://kenyans.co.ke/news/128875-78-year-old-woman-earns-phd-decades-after-shelving-academic-dreams",
     "https://kenyans.co.ke/news/128884-early-morning-fire-engulfs-multi-storey-apartment-building-ongata-rongai",
-    "https://kenyans.co.ke/news/128888-kenya-power-orders-68-jomvu-land-occupants-vacate-within-90-days"
+    "https://kenyans.co.ke/news/128888-kenya-power-orders-68-jomvu-land-occupants-vacate-within-90-days",
+    "https://kenyans.co.ke/news/128889-boma-yangu-cancels-eldoret-housing-shops-tender-days-after-rutos-launch"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2077,7 +2078,8 @@
     "ntsa ties festive night inspections real time irsms speed tracking",
     "chief mandate seven campus stops built deborah lotodo year doctorate path",
     "hours long water bowser lag leaves rongai apartment gutted early morning inferno",
-    "power slaps jomvu settlers day clearance notice disputed coastal plot"
+    "power slaps jomvu settlers day clearance notice disputed coastal plot",
+    "eldoret housing board pulls 104 shop tenders pioneer estate nine days launch"
   ],
   "topic_keys": [
     "news tracker",
@@ -6604,6 +6606,15 @@
       "structure": "Formal notice & parcel specifics -> Terms of vacation (crops, structures, livestock) -> Financial liability mechanism -> Judicial precedent and Environment and Land Court recourse",
       "source": "https://kenyans.co.ke/news/128888-kenya-power-orders-68-jomvu-land-occupants-vacate-within-90-days",
       "published_at": "2026-10-27T06:35:41Z"
+    },
+    {
+      "title": "Eldoret Housing Board Pulls 104 Shop Tenders at Pioneer Estate Nine Days After Launch",
+      "angle": "A commercial asset and operational freeze perspective, detailing the sudden procurement pause on 104 retail spaces valued up to Ksh1.7M just as 2,157 new households move in without micro-retail services.",
+      "angle_type": "money",
+      "opening": "Commercial-stall lead linking the tender withdrawal to investor uncertainty and estate service delays.",
+      "structure": "Retail freeze lead -> Procurement specs and asset valuation -> Commercial footprint vs residential occupation -> Regulatory silence and tracking -> Re-advertisement forward edge.",
+      "source": "https://kenyans.co.ke/news/128889-boma-yangu-cancels-eldoret-housing-shops-tender-days-after-rutos-launch",
+      "published_at": "2026-10-27T07:02:00Z"
     }
   ]
 }
