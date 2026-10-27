@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "afbd656208c9d369e59757d6950459e2",
     "7055ebb094b651ef4e7a1aa0547afa2f",
     "b3849706a5dc69ba2776011e56a4327a",
     "80275258637d1070cd1e4af6c063bfbb",
@@ -799,10 +798,10 @@
     "848b33e708c46b93e492c0f7e6b099b7",
     "bec56c0138f223ebafbaf6d22c4fe049",
     "7e6f70f07f11ac283f20361aa6f12bd6",
-    "b30c15b714815bddf40ddeead3461847"
+    "b30c15b714815bddf40ddeead3461847",
+    "8eabf02ab92c01c07d69043074c3420d"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1504,7 +1504,8 @@
     "https://kenyans.co.ke/news/128921-iebc-announces-suspension-migwani-ward-election-after-court-ruling",
     "https://kenyans.co.ke/news/128920-kenya-airways-flies-over-50-cows-lagos-cargo-expansion-drive",
     "https://kenyans.co.ke/news/128924-kra-require-importer-details-all-consolidated-cargo-imports",
-    "https://kenyans.co.ke/news/128923-govt-sets-november-14-deadline-human-rights-compensation-claims"
+    "https://kenyans.co.ke/news/128923-govt-sets-november-14-deadline-human-rights-compensation-claims",
+    "https://kenyans.co.ke/news/128926-mps-consider-proposal-reduce-student-loan-deductions-15"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2099,7 +2100,8 @@
     "high court freezes migwani ward election disputed seat vacancy",
     "taps specialized livestock charters push cargo share toward 40pc target",
     "kra shifts compliance burden consolidators trader data directive",
-    "state draws november line multi year protest disappearance claims"
+    "state draws november line multi year protest disappearance claims",
+    "fresh push cap graduate loan deductions collides tefa transition plan"
   ],
   "topic_keys": [
     "news tracker",
@@ -6725,6 +6727,15 @@
       "structure": "Deadline restriction -> Claims verification and vetting mechanics -> Scope of historic grievances (River Yala, protests) -> Recent disbursement metrics -> Forward edge on November 14 cutoff.",
       "source": "https://kenyans.co.ke/news/128923-govt-sets-november-14-deadline-human-rights-compensation-claims",
       "published_at": "2026-10-27T16:02:07Z"
+    },
+    {
+      "title": "Fresh Push to Cap Graduate Loan Deductions at 15% Collides With TEFA Transition Plan",
+      "angle": "The operational clash between the proposed institutional transition to TEFA, the statutory cap of 25%, and stakeholders pushing for a lower 15% threshold to safeguard employee take-home pay.",
+      "angle_type": "practical change",
+      "opening": "Practical change lead focusing on the payroll relief debate and the statutory cap mechanism.",
+      "structure": "Statutory deduction framework -> Stakeholder push for 15% threshold -> Transition from HELB to TEFA -> Broader sectoral demands on financing and school administration -> Committee review timeline",
+      "source": "https://kenyans.co.ke/news/128926-mps-consider-proposal-reduce-student-loan-deductions-15",
+      "published_at": "2026-10-27T17:02:24Z"
     }
   ]
 }
