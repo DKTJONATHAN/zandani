@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "68fd1c5f77f644c36fc6a8560d599514",
     "afbd656208c9d369e59757d6950459e2",
     "7055ebb094b651ef4e7a1aa0547afa2f",
     "b3849706a5dc69ba2776011e56a4327a",
@@ -799,10 +798,10 @@
     "1584a3f9ba4a37dffc23c98e6133b39d",
     "848b33e708c46b93e492c0f7e6b099b7",
     "bec56c0138f223ebafbaf6d22c4fe049",
-    "7e6f70f07f11ac283f20361aa6f12bd6"
+    "7e6f70f07f11ac283f20361aa6f12bd6",
+    "b30c15b714815bddf40ddeead3461847"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1503,7 +1503,8 @@
     "https://kenyans.co.ke/news/128912-knchr-calls-urgent-aid-40000-ethiopians-flee-kenya",
     "https://kenyans.co.ke/news/128921-iebc-announces-suspension-migwani-ward-election-after-court-ruling",
     "https://kenyans.co.ke/news/128920-kenya-airways-flies-over-50-cows-lagos-cargo-expansion-drive",
-    "https://kenyans.co.ke/news/128924-kra-require-importer-details-all-consolidated-cargo-imports"
+    "https://kenyans.co.ke/news/128924-kra-require-importer-details-all-consolidated-cargo-imports",
+    "https://kenyans.co.ke/news/128923-govt-sets-november-14-deadline-human-rights-compensation-claims"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2097,7 +2098,8 @@
     "moyale host homes classrooms bear weight 000 displaced ethiopians",
     "high court freezes migwani ward election disputed seat vacancy",
     "taps specialized livestock charters push cargo share toward 40pc target",
-    "kra shifts compliance burden consolidators trader data directive"
+    "kra shifts compliance burden consolidators trader data directive",
+    "state draws november line multi year protest disappearance claims"
   ],
   "topic_keys": [
     "news tracker",
@@ -6714,6 +6716,15 @@
       "structure": "Mandate implementation lead -> Consolidator compliance obligations -> Broader regulatory stacking (Ksh2M threshold & MCI) -> Unresolved verification challenges.",
       "source": "https://kenyans.co.ke/news/128924-kra-require-importer-details-all-consolidated-cargo-imports",
       "published_at": "2026-10-27T15:09:19Z"
+    },
+    {
+      "title": "State Draws November 14 Line for Multi-Year Protest and Disappearance Claims",
+      "angle": "The administrative bottleneck and vetting crunch created by compressing a massive multi-year claims pool\u2014spanning historic protests, police brutality, and extrajudicial disappearances like River Yala into a strict application cutoff.",
+      "angle_type": "practical change",
+      "opening": "Operational-pressure lead highlighting the narrowing administrative window rather than a standard announcement summary.",
+      "structure": "Deadline restriction -> Claims verification and vetting mechanics -> Scope of historic grievances (River Yala, protests) -> Recent disbursement metrics -> Forward edge on November 14 cutoff.",
+      "source": "https://kenyans.co.ke/news/128923-govt-sets-november-14-deadline-human-rights-compensation-claims",
+      "published_at": "2026-10-27T16:02:07Z"
     }
   ]
 }
