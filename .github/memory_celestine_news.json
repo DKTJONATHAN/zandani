@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "b984d68b82ac5def8e2d58b56642fd72",
     "d37a20b9fb8e986a2ba7c2051d2d1c57",
     "ec38f22ceef8582bf155df6bfa83ac45",
     "db5b231b5e1775c8385104fe65a928ad",
@@ -799,10 +798,10 @@
     "86923c4d9c39b16a4e72554d0f3501f4",
     "9bb4f47c1e00b55b7e09daa669c405ef",
     "a238011fc39a1245576a16295b11d0fa",
-    "197c11e2524feb1c1ba321692e95d059"
+    "197c11e2524feb1c1ba321692e95d059",
+    "1584a3f9ba4a37dffc23c98e6133b39d"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1499,7 +1499,8 @@
     "https://kenyans.co.ke/news/128893-senate-get-world-bank-funded-system-monitor-county-assembly-resolutions",
     "https://kenyans.co.ke/news/128899-ruto-says-kpc-shares-could-double-or-triple-after-dangote-investment",
     "https://kenyans.co.ke/news/128904-waiyaki-way-closed-uon-students-protest-lecturers-strike",
-    "https://kenyans.co.ke/news/128911-dci-summon-politicians-linked-goons-ahead-2027-elections"
+    "https://kenyans.co.ke/news/128911-dci-summon-politicians-linked-goons-ahead-2027-elections",
+    "https://kenyans.co.ke/news/128912-knchr-calls-urgent-aid-40000-ethiopians-flee-kenya"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2089,7 +2090,8 @@
     "state taps world bank funds build senate registry county assembly votes",
     "state defends kpc stake dilution 35pc dangote injection lifts trading price",
     "waiyaki way gridlock follows collapse state sh11 university pay offer",
-    "state targets political payrolls dci moves block violence sponsors 2027 ballot"
+    "state targets political payrolls dci moves block violence sponsors 2027 ballot",
+    "moyale host homes classrooms bear weight 000 displaced ethiopians"
   ],
   "topic_keys": [
     "news tracker",
@@ -6670,6 +6672,15 @@
       "structure": "Financial targeting strategy lead -> DCI Nyanza profiling and summons framework -> Inter-agency coordination with IEBC and NCIC -> Recent lethal fallout in Embu -> Forward edge on candidate vetting timelines.",
       "source": "https://kenyans.co.ke/news/128911-dci-summon-politicians-linked-goons-ahead-2027-elections",
       "published_at": "2026-10-27T12:31:54Z"
+    },
+    {
+      "title": "Moyale Host Homes and Classrooms Bear Weight of 40,000 Displaced Ethiopians",
+      "angle": "The immediate logistical and sanitary crisis borne by Moyale's civilian host infrastructure\u2014where more than half the 40,000 displaced have been absorbed into private households and schools, just as unseasonal rains and newborn deliveries expose a total absence of emergency field facilities.",
+      "angle_type": "local impact",
+      "opening": "Impact-first lead detailing the civic strain on Moyale's schools, places of worship, and private homes as thousands seek shelter under heavy rain.",
+      "structure": "Municipal absorption lead -> Breakdown of informal shelters vs host households -> Public health and maternal emergencies amid persistent rain -> Trigger event and cross-border transport freeze -> Cross-border coordination gap",
+      "source": "https://kenyans.co.ke/news/128912-knchr-calls-urgent-aid-40000-ethiopians-flee-kenya",
+      "published_at": "2026-10-27T13:02:05Z"
     }
   ]
 }
