@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "06150bcd94ff8f957c7cdbcba936aab3",
     "e87d0b7c09cfa4f8e7f30caa42f9cd7a",
     "b984d68b82ac5def8e2d58b56642fd72",
     "d37a20b9fb8e986a2ba7c2051d2d1c57",
@@ -799,10 +798,10 @@
     "ec8dd0d726e727f8becf26d3145dd205",
     "27e1bae4c66a71bb485fbfc6b4e70d23",
     "86923c4d9c39b16a4e72554d0f3501f4",
-    "9bb4f47c1e00b55b7e09daa669c405ef"
+    "9bb4f47c1e00b55b7e09daa669c405ef",
+    "a238011fc39a1245576a16295b11d0fa"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1497,7 +1497,8 @@
     "https://kenyans.co.ke/news/128889-boma-yangu-cancels-eldoret-housing-shops-tender-days-after-rutos-launch",
     "https://kenyans.co.ke/news/128891-ministry-opens-10-year-tender-sanitary-ware-suppliers-affordable-housing",
     "https://kenyans.co.ke/news/128893-senate-get-world-bank-funded-system-monitor-county-assembly-resolutions",
-    "https://kenyans.co.ke/news/128899-ruto-says-kpc-shares-could-double-or-triple-after-dangote-investment"
+    "https://kenyans.co.ke/news/128899-ruto-says-kpc-shares-could-double-or-triple-after-dangote-investment",
+    "https://kenyans.co.ke/news/128904-waiyaki-way-closed-uon-students-protest-lecturers-strike"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2085,7 +2086,8 @@
     "eldoret housing board pulls 104 shop tenders pioneer estate nine days launch",
     "housing ministry ties year sanitary ware tender mandatory local factories",
     "state taps world bank funds build senate registry county assembly votes",
-    "state defends kpc stake dilution 35pc dangote injection lifts trading price"
+    "state defends kpc stake dilution 35pc dangote injection lifts trading price",
+    "waiyaki way gridlock follows collapse state sh11 university pay offer"
   ],
   "topic_keys": [
     "news tracker",
@@ -6648,6 +6650,15 @@
       "structure": "Attribution lead on state dilution thesis -> Valuation mechanics and market bump (10% climb) -> Terms of the Dangote transaction (Ksh42.5B, NSE pricing) -> Political confrontation (warnings against racketeers vs Nyoro's pension fund allegations) -> Unresolved corporate ownership clarity.",
       "source": "https://kenyans.co.ke/news/128899-ruto-says-kpc-shares-could-double-or-triple-after-dangote-investment",
       "published_at": "2026-10-27T10:02:08Z"
+    },
+    {
+      "title": "Waiyaki Way Gridlock Follows Collapse of State\u2019s Sh11.9B University Pay Offer",
+      "angle": "Connecting the highway barricades directly to the collapse of the state's Ksh11.9 billion counter-offer 24 hours prior, highlighting how Treasury's fiscal reluctance is shifting labor impasses into public transport disruptions as the campus shutdown nears its fourth week.",
+      "angle_type": "institutional pressure",
+      "opening": "Hard news lead linking the collapsed wage negotiations directly to the physical paralysis of Waiyaki Way.",
+      "structure": "Negotiation-spillover lead -> Physical scene and police clearance along Waiyaki Way -> Financial anatomy of the collapsed Ksh11.9B counter-offer -> Four-week academic standstill and union demands -> Forward-looking negotiation schedule.",
+      "source": "https://kenyans.co.ke/news/128904-waiyaki-way-closed-uon-students-protest-lecturers-strike",
+      "published_at": "2026-10-27T11:02:07Z"
     }
   ]
 }
