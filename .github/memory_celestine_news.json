@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "93650a078edffea3d58072a343efec64",
     "7bb3b2ab541005eb682be5ca5bdb9451",
     "99783783259010911e48bb6b7d4e0c5f",
     "5b8c3e4581690dc16f53d8e8fc232d9e",
@@ -799,10 +798,10 @@
     "bf8d0116e75412b5d65d41ae98627ce2",
     "7b6e0a38b909f1ee7c4b1a54812c49bc",
     "6b96e894ebd3a74c1964632a04c8e900",
-    "3318f70903f5c26c7f942ade968a2010"
+    "3318f70903f5c26c7f942ade968a2010",
+    "c70c71187e7634212a40562e895e1a1f"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1492,7 +1492,8 @@
     "https://kenyans.co.ke/news/128876-how-kenya-landed-254-country-calling-code",
     "https://kenyans.co.ke/news/128881-ntsa-issues-safety-checklist-psv-drivers-ahead-festive-season",
     "https://kenyans.co.ke/news/128875-78-year-old-woman-earns-phd-decades-after-shelving-academic-dreams",
-    "https://kenyans.co.ke/news/128884-early-morning-fire-engulfs-multi-storey-apartment-building-ongata-rongai"
+    "https://kenyans.co.ke/news/128884-early-morning-fire-engulfs-multi-storey-apartment-building-ongata-rongai",
+    "https://kenyans.co.ke/news/128888-kenya-power-orders-68-jomvu-land-occupants-vacate-within-90-days"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2075,7 +2076,8 @@
     "behind 254 dial itu regional blocks shared east african digits shape calls",
     "ntsa ties festive night inspections real time irsms speed tracking",
     "chief mandate seven campus stops built deborah lotodo year doctorate path",
-    "hours long water bowser lag leaves rongai apartment gutted early morning inferno"
+    "hours long water bowser lag leaves rongai apartment gutted early morning inferno",
+    "power slaps jomvu settlers day clearance notice disputed coastal plot"
   ],
   "topic_keys": [
     "news tracker",
@@ -6593,6 +6595,15 @@
       "structure": "Physical containment crisis -> Scene progression and structural destruction -> Municipal response lag and water bowser intervention -> Unresolved casualty and regulatory accountability gaps.",
       "source": "https://kenyans.co.ke/news/128884-early-morning-fire-engulfs-multi-storey-apartment-building-ongata-rongai",
       "published_at": "2026-10-27T05:02:10Z"
+    },
+    {
+      "title": "Kenya Power Slaps 68 Jomvu Settlers With 90-Day Clearance Notice on Disputed Coastal Plot",
+      "angle": "Attribution-first framing of Kenya Power's legal demand, highlighting how the utility secures its operational corridor while shifting the full financial liability of clearing agricultural and residential investments onto the 68 occupants ahead of an almost certain test at the Environment and Land Court.",
+      "angle_type": "consequence",
+      "opening": "Attribution-led opening identifying the utility's formal notice, immediately followed by the specific burdens and operational beneficiaries.",
+      "structure": "Formal notice & parcel specifics -> Terms of vacation (crops, structures, livestock) -> Financial liability mechanism -> Judicial precedent and Environment and Land Court recourse",
+      "source": "https://kenyans.co.ke/news/128888-kenya-power-orders-68-jomvu-land-occupants-vacate-within-90-days",
+      "published_at": "2026-10-27T06:35:41Z"
     }
   ]
 }
