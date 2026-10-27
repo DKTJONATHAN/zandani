@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "99783783259010911e48bb6b7d4e0c5f",
     "5b8c3e4581690dc16f53d8e8fc232d9e",
     "85da610d928b460b71ded0a93fb07adf",
     "06150bcd94ff8f957c7cdbcba936aab3",
@@ -799,10 +798,10 @@
     "6b96e894ebd3a74c1964632a04c8e900",
     "3318f70903f5c26c7f942ade968a2010",
     "c70c71187e7634212a40562e895e1a1f",
-    "ec8dd0d726e727f8becf26d3145dd205"
+    "ec8dd0d726e727f8becf26d3145dd205",
+    "27e1bae4c66a71bb485fbfc6b4e70d23"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1494,7 +1494,8 @@
     "https://kenyans.co.ke/news/128875-78-year-old-woman-earns-phd-decades-after-shelving-academic-dreams",
     "https://kenyans.co.ke/news/128884-early-morning-fire-engulfs-multi-storey-apartment-building-ongata-rongai",
     "https://kenyans.co.ke/news/128888-kenya-power-orders-68-jomvu-land-occupants-vacate-within-90-days",
-    "https://kenyans.co.ke/news/128889-boma-yangu-cancels-eldoret-housing-shops-tender-days-after-rutos-launch"
+    "https://kenyans.co.ke/news/128889-boma-yangu-cancels-eldoret-housing-shops-tender-days-after-rutos-launch",
+    "https://kenyans.co.ke/news/128891-ministry-opens-10-year-tender-sanitary-ware-suppliers-affordable-housing"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2079,7 +2080,8 @@
     "chief mandate seven campus stops built deborah lotodo year doctorate path",
     "hours long water bowser lag leaves rongai apartment gutted early morning inferno",
     "power slaps jomvu settlers day clearance notice disputed coastal plot",
-    "eldoret housing board pulls 104 shop tenders pioneer estate nine days launch"
+    "eldoret housing board pulls 104 shop tenders pioneer estate nine days launch",
+    "housing ministry ties year sanitary ware tender mandatory local factories"
   ],
   "topic_keys": [
     "news tracker",
@@ -6615,6 +6617,15 @@
       "structure": "Retail freeze lead -> Procurement specs and asset valuation -> Commercial footprint vs residential occupation -> Regulatory silence and tracking -> Re-advertisement forward edge.",
       "source": "https://kenyans.co.ke/news/128889-boma-yangu-cancels-eldoret-housing-shops-tender-days-after-rutos-launch",
       "published_at": "2026-10-27T07:02:00Z"
+    },
+    {
+      "title": "Housing Ministry Ties 10-Year Sanitary Ware Tender to Mandatory Local Factories",
+      "angle": "The commercial risk and industrial policy friction embedded in the contract: the state is demanding bidders commit to setting up local assembly or manufacturing plants within two years while explicitly offering zero purchase guarantees and subjecting large orders to secondary mini-competitions.",
+      "angle_type": "practical change",
+      "opening": "Commercial-terms lead linking the 10-year procurement window directly to the heavy localization obligations and absent volume assurances.",
+      "structure": "Framework terms lead -> The 2-year industrialization condition -> Ordering mechanics and mini-competition risks -> Programme scale and five-year targets -> Procurement portal deadline and verification",
+      "source": "https://kenyans.co.ke/news/128891-ministry-opens-10-year-tender-sanitary-ware-suppliers-affordable-housing",
+      "published_at": "2026-10-27T07:31:32Z"
     }
   ]
 }
