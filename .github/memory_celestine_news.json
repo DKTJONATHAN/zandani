@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "fb61b8f3c44899297b14c073cfd703a1",
     "93650a078edffea3d58072a343efec64",
     "7bb3b2ab541005eb682be5ca5bdb9451",
     "99783783259010911e48bb6b7d4e0c5f",
@@ -799,10 +798,10 @@
     "8b22c69f17d53261112e56d90c69a0a9",
     "bf8d0116e75412b5d65d41ae98627ce2",
     "7b6e0a38b909f1ee7c4b1a54812c49bc",
-    "6b96e894ebd3a74c1964632a04c8e900"
+    "6b96e894ebd3a74c1964632a04c8e900",
+    "3318f70903f5c26c7f942ade968a2010"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1491,7 +1491,8 @@
     "https://kenyans.co.ke/news/128873-police-launch-probe-after-attack-mombasa-officers-leaves-one-dead",
     "https://kenyans.co.ke/news/128876-how-kenya-landed-254-country-calling-code",
     "https://kenyans.co.ke/news/128881-ntsa-issues-safety-checklist-psv-drivers-ahead-festive-season",
-    "https://kenyans.co.ke/news/128875-78-year-old-woman-earns-phd-decades-after-shelving-academic-dreams"
+    "https://kenyans.co.ke/news/128875-78-year-old-woman-earns-phd-decades-after-shelving-academic-dreams",
+    "https://kenyans.co.ke/news/128884-early-morning-fire-engulfs-multi-storey-apartment-building-ongata-rongai"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2073,7 +2074,8 @@
     "unrecovered triggers night movement warnings likoni deadly checkpoint raid",
     "behind 254 dial itu regional blocks shared east african digits shape calls",
     "ntsa ties festive night inspections real time irsms speed tracking",
-    "chief mandate seven campus stops built deborah lotodo year doctorate path"
+    "chief mandate seven campus stops built deborah lotodo year doctorate path",
+    "hours long water bowser lag leaves rongai apartment gutted early morning inferno"
   ],
   "topic_keys": [
     "news tracker",
@@ -6582,6 +6584,15 @@
       "structure": "Multi-decade progression lead -> Early life and initial high school disruption -> Mid-life re-entry and school founding in West Pokot -> Post-bereavement counseling ladder -> Final postgraduate sequence and conferment.",
       "source": "https://kenyans.co.ke/news/128875-78-year-old-woman-earns-phd-decades-after-shelving-academic-dreams",
       "published_at": "2026-10-26T17:02:14Z"
+    },
+    {
+      "title": "Hours-Long Water Bowser Lag Leaves Rongai Apartment Gutted in Early Morning Inferno",
+      "angle": "The operational vulnerability of dense peri-urban apartment clusters behind major commercial nodes, where delayed water bowser deployment left close-quarter neighboring blocks exposed for hours before the fire was contained.",
+      "angle_type": "local impact",
+      "opening": "Setting-and-vulnerability lead capturing the physical geography behind Maasai Mall and the immediate threat posed to adjacent multi-storey blocks.",
+      "structure": "Physical containment crisis -> Scene progression and structural destruction -> Municipal response lag and water bowser intervention -> Unresolved casualty and regulatory accountability gaps.",
+      "source": "https://kenyans.co.ke/news/128884-early-morning-fire-engulfs-multi-storey-apartment-building-ongata-rongai",
+      "published_at": "2026-10-27T05:02:10Z"
     }
   ]
 }
