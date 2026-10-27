@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "db5b231b5e1775c8385104fe65a928ad",
     "68fd1c5f77f644c36fc6a8560d599514",
     "afbd656208c9d369e59757d6950459e2",
     "7055ebb094b651ef4e7a1aa0547afa2f",
@@ -799,10 +798,10 @@
     "197c11e2524feb1c1ba321692e95d059",
     "1584a3f9ba4a37dffc23c98e6133b39d",
     "848b33e708c46b93e492c0f7e6b099b7",
-    "bec56c0138f223ebafbaf6d22c4fe049"
+    "bec56c0138f223ebafbaf6d22c4fe049",
+    "7e6f70f07f11ac283f20361aa6f12bd6"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1502,7 +1502,8 @@
     "https://kenyans.co.ke/news/128911-dci-summon-politicians-linked-goons-ahead-2027-elections",
     "https://kenyans.co.ke/news/128912-knchr-calls-urgent-aid-40000-ethiopians-flee-kenya",
     "https://kenyans.co.ke/news/128921-iebc-announces-suspension-migwani-ward-election-after-court-ruling",
-    "https://kenyans.co.ke/news/128920-kenya-airways-flies-over-50-cows-lagos-cargo-expansion-drive"
+    "https://kenyans.co.ke/news/128920-kenya-airways-flies-over-50-cows-lagos-cargo-expansion-drive",
+    "https://kenyans.co.ke/news/128924-kra-require-importer-details-all-consolidated-cargo-imports"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2095,7 +2096,8 @@
     "state targets political payrolls dci moves block violence sponsors 2027 ballot",
     "moyale host homes classrooms bear weight 000 displaced ethiopians",
     "high court freezes migwani ward election disputed seat vacancy",
-    "taps specialized livestock charters push cargo share toward 40pc target"
+    "taps specialized livestock charters push cargo share toward 40pc target",
+    "kra shifts compliance burden consolidators trader data directive"
   ],
   "topic_keys": [
     "news tracker",
@@ -6703,6 +6705,15 @@
       "structure": "Commercial diversification lead -> Operational specifics of the 5-hour Boeing 737 flight -> Financial context and revenue figures -> Specialized cargo product expansion -> Cargo capacity integration across regional routes.",
       "source": "https://kenyans.co.ke/news/128920-kenya-airways-flies-over-50-cows-lagos-cargo-expansion-drive",
       "published_at": "2026-10-27T14:17:41Z"
+    },
+    {
+      "title": "KRA Shifts Compliance Burden to Consolidators in New Trader Data Directive",
+      "angle": "The practical administrative burden shifting directly onto cargo consolidators to police trader data and issue eTIMS invoices under tightening clearance thresholds.",
+      "angle_type": "practical change",
+      "opening": "Practical change and administrative burden lead.",
+      "structure": "Mandate implementation lead -> Consolidator compliance obligations -> Broader regulatory stacking (Ksh2M threshold & MCI) -> Unresolved verification challenges.",
+      "source": "https://kenyans.co.ke/news/128924-kra-require-importer-details-all-consolidated-cargo-imports",
+      "published_at": "2026-10-27T15:09:19Z"
     }
   ]
 }
