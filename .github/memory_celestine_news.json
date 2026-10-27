@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "85da610d928b460b71ded0a93fb07adf",
     "06150bcd94ff8f957c7cdbcba936aab3",
     "e87d0b7c09cfa4f8e7f30caa42f9cd7a",
     "b984d68b82ac5def8e2d58b56642fd72",
@@ -799,10 +798,10 @@
     "c70c71187e7634212a40562e895e1a1f",
     "ec8dd0d726e727f8becf26d3145dd205",
     "27e1bae4c66a71bb485fbfc6b4e70d23",
-    "86923c4d9c39b16a4e72554d0f3501f4"
+    "86923c4d9c39b16a4e72554d0f3501f4",
+    "9bb4f47c1e00b55b7e09daa669c405ef"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1496,7 +1496,8 @@
     "https://kenyans.co.ke/news/128888-kenya-power-orders-68-jomvu-land-occupants-vacate-within-90-days",
     "https://kenyans.co.ke/news/128889-boma-yangu-cancels-eldoret-housing-shops-tender-days-after-rutos-launch",
     "https://kenyans.co.ke/news/128891-ministry-opens-10-year-tender-sanitary-ware-suppliers-affordable-housing",
-    "https://kenyans.co.ke/news/128893-senate-get-world-bank-funded-system-monitor-county-assembly-resolutions"
+    "https://kenyans.co.ke/news/128893-senate-get-world-bank-funded-system-monitor-county-assembly-resolutions",
+    "https://kenyans.co.ke/news/128899-ruto-says-kpc-shares-could-double-or-triple-after-dangote-investment"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2083,7 +2084,8 @@
     "power slaps jomvu settlers day clearance notice disputed coastal plot",
     "eldoret housing board pulls 104 shop tenders pioneer estate nine days launch",
     "housing ministry ties year sanitary ware tender mandatory local factories",
-    "state taps world bank funds build senate registry county assembly votes"
+    "state taps world bank funds build senate registry county assembly votes",
+    "state defends kpc stake dilution 35pc dangote injection lifts trading price"
   ],
   "topic_keys": [
     "news tracker",
@@ -6637,6 +6639,15 @@
       "structure": "Institutional visibility gap lead -> Procurement notice and technical terms -> Constitutional mandate under Article 96 -> KDSP-II three-pillar governance architecture -> Submission deadline and procurement mechanics.",
       "source": "https://kenyans.co.ke/news/128893-senate-get-world-bank-funded-system-monitor-county-assembly-resolutions",
       "published_at": "2026-10-27T08:27:40Z"
+    },
+    {
+      "title": "State Defends KPC Stake Dilution to 35pc as Dangote Injection Lifts Trading Price",
+      "angle": "The fiscal justification of state asset dilution: scrutinizing Ruto's valuation thesis\u2014that a minority 35 per cent public holding can match the financial weight of full ownership\u2014set against rising political friction over state pension fund transactions that preceded Dangote's entry.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first opening outlining the Head of State's defense of sovereign share dilution, immediately followed by the financial beneficiaries and pushback from Parliament.",
+      "structure": "Attribution lead on state dilution thesis -> Valuation mechanics and market bump (10% climb) -> Terms of the Dangote transaction (Ksh42.5B, NSE pricing) -> Political confrontation (warnings against racketeers vs Nyoro's pension fund allegations) -> Unresolved corporate ownership clarity.",
+      "source": "https://kenyans.co.ke/news/128899-ruto-says-kpc-shares-could-double-or-triple-after-dangote-investment",
+      "published_at": "2026-10-27T10:02:08Z"
     }
   ]
 }
