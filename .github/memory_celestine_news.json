@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "b3849706a5dc69ba2776011e56a4327a",
     "80275258637d1070cd1e4af6c063bfbb",
     "8ed9b032ec4827810bf387de9eb1ad46",
     "e1e27a352cc64cd408d8ec132362d855",
@@ -799,10 +798,10 @@
     "7e6f70f07f11ac283f20361aa6f12bd6",
     "b30c15b714815bddf40ddeead3461847",
     "8eabf02ab92c01c07d69043074c3420d",
-    "28ecee3cf862aab1cc7d50c71e292c58"
+    "28ecee3cf862aab1cc7d50c71e292c58",
+    "3468f0bd66d41b0bd61f0d078d39474d"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1506,7 +1506,8 @@
     "https://kenyans.co.ke/news/128924-kra-require-importer-details-all-consolidated-cargo-imports",
     "https://kenyans.co.ke/news/128923-govt-sets-november-14-deadline-human-rights-compensation-claims",
     "https://kenyans.co.ke/news/128926-mps-consider-proposal-reduce-student-loan-deductions-15",
-    "https://kenyans.co.ke/news/128927-ruto-flies-out-russia-economic-forum-investment-talks"
+    "https://kenyans.co.ke/news/128927-ruto-flies-out-russia-economic-forum-investment-talks",
+    "https://kenyans.co.ke/news/128925-kenyas-debt-hits-ksh13-trillion-treasury-spends-ksh716b-repayments"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2103,7 +2104,8 @@
     "kra shifts compliance burden consolidators trader data directive",
     "state draws november line multi year protest disappearance claims",
     "fresh push cap graduate loan deductions collides tefa transition plan",
-    "ruto uses trade mandate push moscow market entry fertilizer access"
+    "ruto uses trade mandate push moscow market entry fertilizer access",
+    "treasury confirms domestic debt flip 56pc mps warn private credit squeeze"
   ],
   "topic_keys": [
     "news tracker",
@@ -6747,6 +6749,15 @@
       "structure": "AU champion mandate lead -> Factual specifics of the trip and delegation groundwork (Mudavadi, Lavrov) -> Input security & fertilizer mechanics -> Sector investment & tech transfer objectives -> Governance reform demands -> Moscow talks forward edge.",
       "source": "https://kenyans.co.ke/news/128927-ruto-flies-out-russia-economic-forum-investment-talks",
       "published_at": "2026-10-27T18:09:56Z"
+    },
+    {
+      "title": "Treasury Confirms Domestic Debt Flip to 56pc as MPs Warn of Private Credit Squeeze",
+      "angle": "Examining the structural inversion of Kenya's debt register toward 56 per cent domestic borrowing and the resulting parliamentary confrontation over the crowding out of private enterprise credit.",
+      "angle_type": "institutional pressure",
+      "opening": "Attribution-first lead establishing Treasury's disclosure of the domestic debt shift before evaluating who gains state-guaranteed yields and who loses access to local commercial credit.",
+      "structure": "Attribution lead on debt mix inversion -> Parliamentary pushback and private lending risks -> Mechanics of the Ksh1.5T borrowing plan and Ksh716B repayment drain -> Revenue deficit and absorption performance",
+      "source": "https://kenyans.co.ke/news/128925-kenyas-debt-hits-ksh13-trillion-treasury-spends-ksh716b-repayments",
+      "published_at": "2026-10-27T19:02:23Z"
     }
   ]
 }
