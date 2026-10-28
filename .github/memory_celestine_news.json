@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "0318e9b79302f57d604843c7a9907dfd",
     "195ebfd4f5f645a73541858a27172f82",
     "5c4bfebf89d6026882bf1ebeaf972873",
     "1427cab60299f3b07164ce59483384f1",
@@ -799,10 +798,10 @@
     "720b88df8d7ca38fb07ed9ad36131968",
     "984cfa027f8ae82a38d9b3e29f538911",
     "1047c7497d72993b31aff139a89273df",
-    "80a22306377fdb2a3af743b11ec1303d"
+    "80a22306377fdb2a3af743b11ec1303d",
+    "1e22a8d7a62d8b21f4c44c40ea0c7df9"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1511,7 +1511,8 @@
     "https://kenyans.co.ke/news/128919-dha-explains-how-new-system-will-handle-sha-claims",
     "https://kenyans.co.ke/news/128932-fuel-supply-disruption-looms-independent-dealers-threaten-halt-purchases",
     "https://kenyans.co.ke/news/128944-kuscco-announces-public-auction-42-properties-following-liquidation",
-    "https://kenyans.co.ke/news/128948-global-experts-warn-over-trumps-africa-mining-deals-us-eyes-mrima-hills"
+    "https://kenyans.co.ke/news/128948-global-experts-warn-over-trumps-africa-mining-deals-us-eyes-mrima-hills",
+    "https://kenyans.co.ke/news/128954-jubilee-appoints-2-new-officials-forms-team-lead-opposition-coalition-talks"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2113,7 +2114,8 @@
     "state ties sha payouts live treatment logs push choke claims fraud",
     "independent dealers halt fuel orders omcs breach epra wholesale caps",
     "kuscco liquidator lists properties sale plug sh12 balance sheet hole",
-    "value addition redline mrima hill collides washington rush raw minerals"
+    "value addition redline mrima hill collides washington rush raw minerals",
+    "matiang sets terms 2027 talks jubilee audits ukombozi alliance pact"
   ],
   "topic_keys": [
     "news tracker",
@@ -6802,6 +6804,15 @@
       "structure": "Policy clash lead -> Kwale County stake and Mrima Hill dynamics -> Critical processing and infrastructure deficits -> Competing geopolitical leverage and expert divergence -> Unresolved negotiation balance",
       "source": "https://kenyans.co.ke/news/128948-global-experts-warn-over-trumps-africa-mining-deals-us-eyes-mrima-hills",
       "published_at": "2026-10-28T10:05:57Z"
+    },
+    {
+      "title": "Matiang\u2019i Sets Terms for 2027 Talks as Jubilee Audits Ukombozi Alliance Pact",
+      "angle": "Focusing on Matiang'i's operational consolidation of Jubilee's institutional machinery\u2014filling internal vacancies while establishing formal vetting mechanisms for the emergent Ukombozi Alliance draft deed, marking his first structural moves as undisputed party leader following Kenyatta's forced legal retreat.",
+      "angle_type": "practical change",
+      "opening": "Operational-action lead tying the internal executive appointments to the broader realignment of Jubilee's 2027 negotiating mandate under Matiang'i.",
+      "structure": "Consolidation lead -> Terms of reference for the Ukombozi and Azimio talks -> Composition and regional weighting of the Gitura team -> Secretariat adjustments -> Succession background and statutory constraints on Kenyatta.",
+      "source": "https://kenyans.co.ke/news/128954-jubilee-appoints-2-new-officials-forms-team-lead-opposition-coalition-talks",
+      "published_at": "2026-10-28T11:01:33Z"
     }
   ]
 }
