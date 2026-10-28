@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "9fedf566f1c6d3b8c554927de4cc511d",
     "4fc0c26f7ebeea47a3658badc7b6bae5",
     "b5ece2b4f2b087b8b9bc4b518b09da00",
     "5443adb4e2d743f84e4be6d484dc84c1",
@@ -799,10 +798,10 @@
     "952c2126b5c28be8985cbef2f55e451a",
     "09881054160740c3691100bc7c068313",
     "8ec2c218b4f072c8d934aaae7de4fb34",
-    "f936994c5b34919a518fc33b532129fc"
+    "f936994c5b34919a518fc33b532129fc",
+    "ce079ac3435978e18660b087e702dd73"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1517,7 +1517,8 @@
     "https://kenyans.co.ke/news/128955-baringo-residents-demand-halt-ksh50-million-shrine-project-cite-environmental-fears",
     "https://kenyans.co.ke/news/128958-knut-urges-tsc-implement-hardship-allowances-nyatike-teachers",
     "https://kenyans.co.ke/news/128962-kenya-railways-launches-special-block-train-mombasa-embakasi",
-    "https://kenyans.co.ke/news/128964-helb-announces-disbursements-3-batches-directs-students-next-steps"
+    "https://kenyans.co.ke/news/128964-helb-announces-disbursements-3-batches-directs-students-next-steps",
+    "https://kenyans.co.ke/news/128966-bayern-munich-ajax-play-talanta-stadium-opening-january-5-ruto-announces"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2125,7 +2126,8 @@
     "baringo shrine works spark uproar county bypasses nema clearance",
     "src inaction stalls nyatike hardship pay despite parliament nod",
     "railways cuts port dwell times dedicated cma cgm freight block",
-    "helb unlocks loan batches campus bursars face mid semester reconciliation strain"
+    "helb unlocks loan batches campus bursars face mid semester reconciliation strain",
+    "private capital fund january bayern ajax fixture talanta stadium tests afcon readiness"
   ],
   "topic_keys": [
     "news tracker",
@@ -6868,6 +6870,15 @@
       "structure": "Campus finance lead -> Disbursement details & batch sequence -> Mechanics of direct institutional transfers -> Treasury expansion context vs semester timelines -> Status verification mechanisms.",
       "source": "https://kenyans.co.ke/news/128964-helb-announces-disbursements-3-batches-directs-students-next-steps",
       "published_at": "2026-10-28T15:02:01Z"
+    },
+    {
+      "title": "Private Capital to Fund January Bayern-Ajax Fixture as Talanta Stadium Tests AFCON Readiness",
+      "angle": "How private funding and a narrow 2.5-week European winter break window enable an operational trial for the Ksh48 billion facility six months before AFCON 2027.",
+      "angle_type": "money",
+      "opening": "Finance and calendar lead establishing the private funding structure and mid-season timing of the international match.",
+      "structure": "Operational lead -> Match details and European break mechanics -> Private funding vs public infrastructure cost -> Diplomatic dedication context -> AFCON 2027 readiness horizon",
+      "source": "https://kenyans.co.ke/news/128966-bayern-munich-ajax-play-talanta-stadium-opening-january-5-ruto-announces",
+      "published_at": "2026-10-28T16:02:37Z"
     }
   ]
 }
