@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "8ed9b032ec4827810bf387de9eb1ad46",
     "e1e27a352cc64cd408d8ec132362d855",
     "37f5e4019dade4c09e77128068631bd6",
     "0318e9b79302f57d604843c7a9907dfd",
@@ -799,10 +798,10 @@
     "8eabf02ab92c01c07d69043074c3420d",
     "28ecee3cf862aab1cc7d50c71e292c58",
     "3468f0bd66d41b0bd61f0d078d39474d",
-    "720b88df8d7ca38fb07ed9ad36131968"
+    "720b88df8d7ca38fb07ed9ad36131968",
+    "984cfa027f8ae82a38d9b3e29f538911"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1508,7 +1508,8 @@
     "https://kenyans.co.ke/news/128926-mps-consider-proposal-reduce-student-loan-deductions-15",
     "https://kenyans.co.ke/news/128927-ruto-flies-out-russia-economic-forum-investment-talks",
     "https://kenyans.co.ke/news/128925-kenyas-debt-hits-ksh13-trillion-treasury-spends-ksh716b-repayments",
-    "https://kenyans.co.ke/news/128919-dha-explains-how-new-system-will-handle-sha-claims"
+    "https://kenyans.co.ke/news/128919-dha-explains-how-new-system-will-handle-sha-claims",
+    "https://kenyans.co.ke/news/128932-fuel-supply-disruption-looms-independent-dealers-threaten-halt-purchases"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2107,7 +2108,8 @@
     "fresh push cap graduate loan deductions collides tefa transition plan",
     "ruto uses trade mandate push moscow market entry fertilizer access",
     "treasury confirms domestic debt flip 56pc mps warn private credit squeeze",
-    "state ties sha payouts live treatment logs push choke claims fraud"
+    "state ties sha payouts live treatment logs push choke claims fraud",
+    "independent dealers halt fuel orders omcs breach epra wholesale caps"
   ],
   "topic_keys": [
     "news tracker",
@@ -6769,6 +6771,15 @@
       "structure": "Accountability lead on claims-audit overhaul -> Core parliamentary briefing details with Lenaiyara and Nyikal -> The clinical-administrative integration mechanism -> Anti-fraud and auditability implications -> Pointed close on legislative scrutiny.",
       "source": "https://kenyans.co.ke/news/128919-dha-explains-how-new-system-will-handle-sha-claims",
       "published_at": "2026-10-28T05:02:38Z"
+    },
+    {
+      "title": "Independent Dealers Halt Fuel Orders as OMCs Breach EPRA Wholesale Caps",
+      "angle": "The operational collapse of EPRA's wholesale price enforcement mechanism following the state's withdrawal of the price stabilisation fund, exposing independent retailers to supplier price gouging that erases the statutory retail margin.",
+      "angle_type": "institutional pressure",
+      "opening": "Regulatory enforcement lead framing the nationwide purchase boycott as an operational revolt against unchecked wholesale price breaches by major oil marketers.",
+      "structure": "Enforcement breakdown lead -> Joint boycott directive and supply-chain vulnerability -> The arithmetic of the wholesale-retail margin squeeze -> Regulatory silence and subsidy withdrawal mechanics -> Downstream stock-out horizon",
+      "source": "https://kenyans.co.ke/news/128932-fuel-supply-disruption-looms-independent-dealers-threaten-halt-purchases",
+      "published_at": "2026-10-28T06:02:07Z"
     }
   ]
 }
