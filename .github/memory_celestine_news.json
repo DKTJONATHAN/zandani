@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "4fc0c26f7ebeea47a3658badc7b6bae5",
     "b5ece2b4f2b087b8b9bc4b518b09da00",
     "5443adb4e2d743f84e4be6d484dc84c1",
     "ce10540707fe3c8151b7321e393cc5fe",
@@ -799,10 +798,10 @@
     "09881054160740c3691100bc7c068313",
     "8ec2c218b4f072c8d934aaae7de4fb34",
     "f936994c5b34919a518fc33b532129fc",
-    "ce079ac3435978e18660b087e702dd73"
+    "ce079ac3435978e18660b087e702dd73",
+    "f4b7d52ef05346472b5b05f81dc3646f"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1518,7 +1518,8 @@
     "https://kenyans.co.ke/news/128958-knut-urges-tsc-implement-hardship-allowances-nyatike-teachers",
     "https://kenyans.co.ke/news/128962-kenya-railways-launches-special-block-train-mombasa-embakasi",
     "https://kenyans.co.ke/news/128964-helb-announces-disbursements-3-batches-directs-students-next-steps",
-    "https://kenyans.co.ke/news/128966-bayern-munich-ajax-play-talanta-stadium-opening-january-5-ruto-announces"
+    "https://kenyans.co.ke/news/128966-bayern-munich-ajax-play-talanta-stadium-opening-january-5-ruto-announces",
+    "https://kenyans.co.ke/news/128968-kra-plans-use-till-numbers-pochi-la-biashara-track-undeclared-income"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2127,7 +2128,8 @@
     "src inaction stalls nyatike hardship pay despite parliament nod",
     "railways cuts port dwell times dedicated cma cgm freight block",
     "helb unlocks loan batches campus bursars face mid semester reconciliation strain",
-    "private capital fund january bayern ajax fixture talanta stadium tests afcon readiness"
+    "private capital fund january bayern ajax fixture talanta stadium tests afcon readiness",
+    "kra deploys mobile ledgers housing levy cross checks plug sh132b deficit"
   ],
   "topic_keys": [
     "news tracker",
@@ -6879,6 +6881,15 @@
       "structure": "Operational lead -> Match details and European break mechanics -> Private funding vs public infrastructure cost -> Diplomatic dedication context -> AFCON 2027 readiness horizon",
       "source": "https://kenyans.co.ke/news/128966-bayern-munich-ajax-play-talanta-stadium-opening-january-5-ruto-announces",
       "published_at": "2026-10-28T16:02:37Z"
+    },
+    {
+      "title": "KRA Deploys Mobile Ledgers and Housing Levy Cross-Checks to Plug Sh132B Deficit",
+      "angle": "Focusing on third-party data reconciliation as a structural compliance pivot\u2014specifically how cross-matching mobile merchant ledgers and statutory Housing Levy records creates a dual-front audit framework targeting both 42 per cent of the domestic VAT register and corporate payroll under-reporting to plug a Ksh132 billion annual deficit.",
+      "angle_type": "practical change",
+      "opening": "Attribution lead citing KRA's submission to the parliamentary finance committee, establishing the dual-channel data cross-matching strategy before detailing the immediate deficit context.",
+      "structure": " Parliamentary submission lead -> Mechanics of mobile transaction cross-matching (Till/Pochi vs eTIMS) -> Operational scale across the VAT register -> Employer payroll and Housing Levy reconciliation -> Historical and Q1 fiscal shortfall data.",
+      "source": "https://kenyans.co.ke/news/128968-kra-plans-use-till-numbers-pochi-la-biashara-track-undeclared-income",
+      "published_at": "2026-10-28T18:12:31Z"
     }
   ]
 }
