@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "b5ece2b4f2b087b8b9bc4b518b09da00",
     "5443adb4e2d743f84e4be6d484dc84c1",
     "ce10540707fe3c8151b7321e393cc5fe",
     "116715b1f7e9cb77cc640d42d5793e84",
@@ -799,10 +798,10 @@
     "8ec2c218b4f072c8d934aaae7de4fb34",
     "f936994c5b34919a518fc33b532129fc",
     "ce079ac3435978e18660b087e702dd73",
-    "f4b7d52ef05346472b5b05f81dc3646f"
+    "f4b7d52ef05346472b5b05f81dc3646f",
+    "df795c6024a2bd08ac458b8be5b81a1a"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1519,7 +1519,8 @@
     "https://kenyans.co.ke/news/128962-kenya-railways-launches-special-block-train-mombasa-embakasi",
     "https://kenyans.co.ke/news/128964-helb-announces-disbursements-3-batches-directs-students-next-steps",
     "https://kenyans.co.ke/news/128966-bayern-munich-ajax-play-talanta-stadium-opening-january-5-ruto-announces",
-    "https://kenyans.co.ke/news/128968-kra-plans-use-till-numbers-pochi-la-biashara-track-undeclared-income"
+    "https://kenyans.co.ke/news/128968-kra-plans-use-till-numbers-pochi-la-biashara-track-undeclared-income",
+    "https://kenyans.co.ke/news/128970-lecturers-sign-ksh20bn-deal-end-strike-friday-uasu-confirms"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2129,7 +2130,8 @@
     "railways cuts port dwell times dedicated cma cgm freight block",
     "helb unlocks loan batches campus bursars face mid semester reconciliation strain",
     "private capital fund january bayern ajax fixture talanta stadium tests afcon readiness",
-    "kra deploys mobile ledgers housing levy cross checks plug sh132b deficit"
+    "kra deploys mobile ledgers housing levy cross checks plug sh132b deficit",
+    "treasury yields ksh20b package unlock public universities month long deadlock"
   ],
   "topic_keys": [
     "news tracker",
@@ -6890,6 +6892,15 @@
       "structure": " Parliamentary submission lead -> Mechanics of mobile transaction cross-matching (Till/Pochi vs eTIMS) -> Operational scale across the VAT register -> Employer payroll and Housing Levy reconciliation -> Historical and Q1 fiscal shortfall data.",
       "source": "https://kenyans.co.ke/news/128968-kra-plans-use-till-numbers-pochi-la-biashara-track-undeclared-income",
       "published_at": "2026-10-28T18:12:31Z"
+    },
+    {
+      "title": "Treasury Yields With Ksh20B Package to Unlock 35 Public Universities After Month-Long Deadlock",
+      "angle": "Examining the Treasury's sharp financial retreat\u2014jumping from an immovable Ksh12 billion cap to Ksh20 billion in under 72 hours amid escalating student unrest across 35 public universities.",
+      "angle_type": "money",
+      "opening": "Fiscal-concession lead establishing the sudden shift in Treasury funding limits after weeks of rigid posture.",
+      "structure": "Money lead -> Offer breakdown and 72-hour pivot -> Technical distribution mechanics -> High-level government and union lineup -> Street pressure context -> Resumption timetable.",
+      "source": "https://kenyans.co.ke/news/128970-lecturers-sign-ksh20bn-deal-end-strike-friday-uasu-confirms",
+      "published_at": "2026-10-28T19:08:09Z"
     }
   ]
 }
