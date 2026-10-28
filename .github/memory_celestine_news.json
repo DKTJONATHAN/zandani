@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "449db3afe206a3c40ae7bb034f4301d1",
     "9fedf566f1c6d3b8c554927de4cc511d",
     "4fc0c26f7ebeea47a3658badc7b6bae5",
     "b5ece2b4f2b087b8b9bc4b518b09da00",
@@ -799,10 +798,10 @@
     "a2dcf3b6753c54132935f219df9f8b49",
     "952c2126b5c28be8985cbef2f55e451a",
     "09881054160740c3691100bc7c068313",
-    "8ec2c218b4f072c8d934aaae7de4fb34"
+    "8ec2c218b4f072c8d934aaae7de4fb34",
+    "f936994c5b34919a518fc33b532129fc"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1516,7 +1516,8 @@
     "https://kenyans.co.ke/news/128950-afa-announces-avocado-export-ban-sea-october-30-warns-mango-exporters",
     "https://kenyans.co.ke/news/128955-baringo-residents-demand-halt-ksh50-million-shrine-project-cite-environmental-fears",
     "https://kenyans.co.ke/news/128958-knut-urges-tsc-implement-hardship-allowances-nyatike-teachers",
-    "https://kenyans.co.ke/news/128962-kenya-railways-launches-special-block-train-mombasa-embakasi"
+    "https://kenyans.co.ke/news/128962-kenya-railways-launches-special-block-train-mombasa-embakasi",
+    "https://kenyans.co.ke/news/128964-helb-announces-disbursements-3-batches-directs-students-next-steps"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2123,7 +2124,8 @@
     "afa shuts sea avocado shipments blocks mango cargo mixing quality clampdown",
     "baringo shrine works spark uproar county bypasses nema clearance",
     "src inaction stalls nyatike hardship pay despite parliament nod",
-    "railways cuts port dwell times dedicated cma cgm freight block"
+    "railways cuts port dwell times dedicated cma cgm freight block",
+    "helb unlocks loan batches campus bursars face mid semester reconciliation strain"
   ],
   "topic_keys": [
     "news tracker",
@@ -6857,6 +6859,15 @@
       "structure": "Operational-impact lead -> Factual specifics of the inaugural 108-TEU run -> Tripartite coordination machinery (KR, KPA, CMA CGM) -> Environmental and regional transit implications -> Forward edge on cargo expansion.",
       "source": "https://kenyans.co.ke/news/128962-kenya-railways-launches-special-block-train-mombasa-embakasi",
       "published_at": "2026-10-28T14:07:27Z"
+    },
+    {
+      "title": "HELB Unlocks 3 Loan Batches as Campus Bursars Face Mid-Semester Reconciliation Strain",
+      "angle": "The operational friction created at campus finance desks by HELB's micro-batch institutional transfers during an active semester, despite an expanded Ksh58 billion Treasury funding envelope.",
+      "angle_type": "practical change",
+      "opening": "Operational lead highlighting the shift from central loan allocation queues to campus finance desk reconciliation.",
+      "structure": "Campus finance lead -> Disbursement details & batch sequence -> Mechanics of direct institutional transfers -> Treasury expansion context vs semester timelines -> Status verification mechanisms.",
+      "source": "https://kenyans.co.ke/news/128964-helb-announces-disbursements-3-batches-directs-students-next-steps",
+      "published_at": "2026-10-28T15:02:01Z"
     }
   ]
 }
