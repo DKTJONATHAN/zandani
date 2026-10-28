@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f563303e3e2c743bea3d694325848f21",
     "449db3afe206a3c40ae7bb034f4301d1",
     "9fedf566f1c6d3b8c554927de4cc511d",
     "4fc0c26f7ebeea47a3658badc7b6bae5",
@@ -799,10 +798,10 @@
     "1e22a8d7a62d8b21f4c44c40ea0c7df9",
     "a2dcf3b6753c54132935f219df9f8b49",
     "952c2126b5c28be8985cbef2f55e451a",
-    "09881054160740c3691100bc7c068313"
+    "09881054160740c3691100bc7c068313",
+    "8ec2c218b4f072c8d934aaae7de4fb34"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1515,7 +1515,8 @@
     "https://kenyans.co.ke/news/128954-jubilee-appoints-2-new-officials-forms-team-lead-opposition-coalition-talks",
     "https://kenyans.co.ke/news/128950-afa-announces-avocado-export-ban-sea-october-30-warns-mango-exporters",
     "https://kenyans.co.ke/news/128955-baringo-residents-demand-halt-ksh50-million-shrine-project-cite-environmental-fears",
-    "https://kenyans.co.ke/news/128958-knut-urges-tsc-implement-hardship-allowances-nyatike-teachers"
+    "https://kenyans.co.ke/news/128958-knut-urges-tsc-implement-hardship-allowances-nyatike-teachers",
+    "https://kenyans.co.ke/news/128962-kenya-railways-launches-special-block-train-mombasa-embakasi"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2121,7 +2122,8 @@
     "matiang sets terms 2027 talks jubilee audits ukombozi alliance pact",
     "afa shuts sea avocado shipments blocks mango cargo mixing quality clampdown",
     "baringo shrine works spark uproar county bypasses nema clearance",
-    "src inaction stalls nyatike hardship pay despite parliament nod"
+    "src inaction stalls nyatike hardship pay despite parliament nod",
+    "railways cuts port dwell times dedicated cma cgm freight block"
   ],
   "topic_keys": [
     "news tracker",
@@ -6846,6 +6848,15 @@
       "structure": "Statutory gridlock lead -> Legislative petition history and parliamentary clearance -> Operational realities on the ground (floods, terrain, 4:00 AM exam logistics) -> Inter-agency standoff between TSC, SRC, and union pressure -> Unresolved execution timeline.",
       "source": "https://kenyans.co.ke/news/128958-knut-urges-tsc-implement-hardship-allowances-nyatike-teachers",
       "published_at": "2026-10-28T13:02:09Z"
+    },
+    {
+      "title": "Kenya Railways Cuts Port Dwell Times With Dedicated CMA CGM Freight Block",
+      "angle": "The operational restructuring of freight transit\u2014specifically how dedicated point-to-point single-carrier blocking bypasses container segregation delays to ease port congestion, lower emissions, and position Nairobi as a logistics hub for landlocked regional markets.",
+      "angle_type": "practical change",
+      "opening": "Operational-impact lead focusing on the elimination of intermediate handling bottlenecks through single-carrier point-to-point routing.",
+      "structure": "Operational-impact lead -> Factual specifics of the inaugural 108-TEU run -> Tripartite coordination machinery (KR, KPA, CMA CGM) -> Environmental and regional transit implications -> Forward edge on cargo expansion.",
+      "source": "https://kenyans.co.ke/news/128962-kenya-railways-launches-special-block-train-mombasa-embakasi",
+      "published_at": "2026-10-28T14:07:27Z"
     }
   ]
 }
