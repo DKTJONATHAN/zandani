@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "5c4bfebf89d6026882bf1ebeaf972873",
     "1427cab60299f3b07164ce59483384f1",
     "f563303e3e2c743bea3d694325848f21",
     "449db3afe206a3c40ae7bb034f4301d1",
@@ -799,10 +798,10 @@
     "1047c7497d72993b31aff139a89273df",
     "80a22306377fdb2a3af743b11ec1303d",
     "1e22a8d7a62d8b21f4c44c40ea0c7df9",
-    "a2dcf3b6753c54132935f219df9f8b49"
+    "a2dcf3b6753c54132935f219df9f8b49",
+    "952c2126b5c28be8985cbef2f55e451a"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1513,7 +1513,8 @@
     "https://kenyans.co.ke/news/128944-kuscco-announces-public-auction-42-properties-following-liquidation",
     "https://kenyans.co.ke/news/128948-global-experts-warn-over-trumps-africa-mining-deals-us-eyes-mrima-hills",
     "https://kenyans.co.ke/news/128954-jubilee-appoints-2-new-officials-forms-team-lead-opposition-coalition-talks",
-    "https://kenyans.co.ke/news/128950-afa-announces-avocado-export-ban-sea-october-30-warns-mango-exporters"
+    "https://kenyans.co.ke/news/128950-afa-announces-avocado-export-ban-sea-october-30-warns-mango-exporters",
+    "https://kenyans.co.ke/news/128955-baringo-residents-demand-halt-ksh50-million-shrine-project-cite-environmental-fears"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2117,7 +2118,8 @@
     "kuscco liquidator lists properties sale plug sh12 balance sheet hole",
     "value addition redline mrima hill collides washington rush raw minerals",
     "matiang sets terms 2027 talks jubilee audits ukombozi alliance pact",
-    "afa shuts sea avocado shipments blocks mango cargo mixing quality clampdown"
+    "afa shuts sea avocado shipments blocks mango cargo mixing quality clampdown",
+    "baringo shrine works spark uproar county bypasses nema clearance"
   ],
   "topic_keys": [
     "news tracker",
@@ -6824,6 +6826,15 @@
       "structure": "Attribution lead -> Core regulatory decree across avocado varieties -> Anti-evasion safeguards (mango mixing and oil processing loopholes) -> Compliance hurdles and tracing mechanics -> Sanctions and forward verification deadlines.",
       "source": "https://kenyans.co.ke/news/128950-afa-announces-avocado-export-ban-sea-october-30-warns-mango-exporters",
       "published_at": "2026-10-28T11:08:01Z"
+    },
+    {
+      "title": "Baringo Shrine Works Spark Uproar as County Bypasses NEMA Clearance",
+      "angle": "The procedural circumvention by project planners\u2014initiating preliminary work on a sensitive 2,720-metre water catchment before submitting an Environmental Impact Assessment (EIA) to NEMA or conducting scheduled public hearings, placing 15 lifeline community springs at immediate risk.",
+      "angle_type": "accountability",
+      "opening": "Accountability-focused lead identifying the regulatory breach and the threat to communal water systems before expanding into community mobilization.",
+      "structure": "Regulatory breach lead -> Public petition timeline vs delayed hearings -> Hydrological and cultural risks at 2,720 metres -> Precedent of judicial intervention in heritage sites -> Immediate forward edge on the scheduled public hearing.",
+      "source": "https://kenyans.co.ke/news/128955-baringo-residents-demand-halt-ksh50-million-shrine-project-cite-environmental-fears",
+      "published_at": "2026-10-28T12:02:16Z"
     }
   ]
 }
