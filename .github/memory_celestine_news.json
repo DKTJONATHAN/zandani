@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "e1e27a352cc64cd408d8ec132362d855",
     "37f5e4019dade4c09e77128068631bd6",
     "0318e9b79302f57d604843c7a9907dfd",
     "195ebfd4f5f645a73541858a27172f82",
@@ -799,10 +798,10 @@
     "28ecee3cf862aab1cc7d50c71e292c58",
     "3468f0bd66d41b0bd61f0d078d39474d",
     "720b88df8d7ca38fb07ed9ad36131968",
-    "984cfa027f8ae82a38d9b3e29f538911"
+    "984cfa027f8ae82a38d9b3e29f538911",
+    "1047c7497d72993b31aff139a89273df"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1509,7 +1509,8 @@
     "https://kenyans.co.ke/news/128927-ruto-flies-out-russia-economic-forum-investment-talks",
     "https://kenyans.co.ke/news/128925-kenyas-debt-hits-ksh13-trillion-treasury-spends-ksh716b-repayments",
     "https://kenyans.co.ke/news/128919-dha-explains-how-new-system-will-handle-sha-claims",
-    "https://kenyans.co.ke/news/128932-fuel-supply-disruption-looms-independent-dealers-threaten-halt-purchases"
+    "https://kenyans.co.ke/news/128932-fuel-supply-disruption-looms-independent-dealers-threaten-halt-purchases",
+    "https://kenyans.co.ke/news/128944-kuscco-announces-public-auction-42-properties-following-liquidation"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2109,7 +2110,8 @@
     "ruto uses trade mandate push moscow market entry fertilizer access",
     "treasury confirms domestic debt flip 56pc mps warn private credit squeeze",
     "state ties sha payouts live treatment logs push choke claims fraud",
-    "independent dealers halt fuel orders omcs breach epra wholesale caps"
+    "independent dealers halt fuel orders omcs breach epra wholesale caps",
+    "kuscco liquidator lists properties sale plug sh12 balance sheet hole"
   ],
   "topic_keys": [
     "news tracker",
@@ -6780,6 +6782,15 @@
       "structure": "Enforcement breakdown lead -> Joint boycott directive and supply-chain vulnerability -> The arithmetic of the wholesale-retail margin squeeze -> Regulatory silence and subsidy withdrawal mechanics -> Downstream stock-out horizon",
       "source": "https://kenyans.co.ke/news/128932-fuel-supply-disruption-looms-independent-dealers-threaten-halt-purchases",
       "published_at": "2026-10-28T06:02:07Z"
+    },
+    {
+      "title": "KUSCCO Liquidator Lists 42 Properties for Sale to Plug Sh12.5B Balance Sheet Hole",
+      "angle": "Framing the nationwide fire sale through the stark Ksh12.5 billion asset-liability deficit exposed in court filings, examining how statutory co-operative liquidation attempts to recover value for SACCO creditors after the High Court closed off corporate insolvency routes.",
+      "angle_type": "money",
+      "opening": "Attribution-first opening connecting the liquidator's statutory auction notice to the union's multi-billion-shilling liability hole.",
+      "structure": "Statement lead on auction gazettement and creditor claims -> Anatomy of the 42-property asset portfolio -> Phased regional rollout in Nairobi and Kisumu -> The Ksh12.5B balance sheet deficit and failed High Court insolvency petition -> Liquidator mandate under the Co-operative Societies Act.",
+      "source": "https://kenyans.co.ke/news/128944-kuscco-announces-public-auction-42-properties-following-liquidation",
+      "published_at": "2026-10-28T09:18:09Z"
     }
   ]
 }
