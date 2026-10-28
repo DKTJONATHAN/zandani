@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "5443adb4e2d743f84e4be6d484dc84c1",
     "ce10540707fe3c8151b7321e393cc5fe",
     "116715b1f7e9cb77cc640d42d5793e84",
     "e07141203c6171453b54ae4da7dd033e",
@@ -799,10 +798,10 @@
     "f936994c5b34919a518fc33b532129fc",
     "ce079ac3435978e18660b087e702dd73",
     "f4b7d52ef05346472b5b05f81dc3646f",
-    "df795c6024a2bd08ac458b8be5b81a1a"
+    "df795c6024a2bd08ac458b8be5b81a1a",
+    "d8f782ab40b4bf8521bf0a457af67a7a"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1520,7 +1520,8 @@
     "https://kenyans.co.ke/news/128964-helb-announces-disbursements-3-batches-directs-students-next-steps",
     "https://kenyans.co.ke/news/128966-bayern-munich-ajax-play-talanta-stadium-opening-january-5-ruto-announces",
     "https://kenyans.co.ke/news/128968-kra-plans-use-till-numbers-pochi-la-biashara-track-undeclared-income",
-    "https://kenyans.co.ke/news/128970-lecturers-sign-ksh20bn-deal-end-strike-friday-uasu-confirms"
+    "https://kenyans.co.ke/news/128970-lecturers-sign-ksh20bn-deal-end-strike-friday-uasu-confirms",
+    "https://kenyans.co.ke/news/128965-shamata-residents-halt-burial-storm-police-station-casket"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2131,7 +2132,8 @@
     "helb unlocks loan batches campus bursars face mid semester reconciliation strain",
     "private capital fund january bayern ajax fixture talanta stadium tests afcon readiness",
     "kra deploys mobile ledgers housing levy cross checks plug sh132b deficit",
-    "treasury yields ksh20b package unlock public universities month long deadlock"
+    "treasury yields ksh20b package unlock public universities month long deadlock",
+    "shamata murder protest forces police disclose leads casket standoff"
   ],
   "topic_keys": [
     "news tracker",
@@ -6901,6 +6903,15 @@
       "structure": "Money lead -> Offer breakdown and 72-hour pivot -> Technical distribution mechanics -> High-level government and union lineup -> Street pressure context -> Resumption timetable.",
       "source": "https://kenyans.co.ke/news/128970-lecturers-sign-ksh20bn-deal-end-strike-friday-uasu-confirms",
       "published_at": "2026-10-28T19:08:09Z"
+    },
+    {
+      "title": "Shamata Murder Protest Forces Police to Disclose Leads After Casket Standoff",
+      "angle": "The operational collapse of community trust in local law enforcement, where escalating rural crime pushed mourners to weaponize a funeral rite to force police leadership into public accountability and extract investigative commitments.",
+      "angle_type": "accountability",
+      "opening": "Accountability lead focusing on the direct confrontation between grieving residents and local police brass over unaddressed local crime.",
+      "structure": "Standoff and accountability demand -> Core chronology of the aborted burial and march -> Community grievances over local insecurity -> Police response and reliance on civilian volunteers -> Next operational steps for the probe.",
+      "source": "https://kenyans.co.ke/news/128965-shamata-residents-halt-burial-storm-police-station-casket",
+      "published_at": "2026-10-28T20:02:03Z"
     }
   ]
 }
