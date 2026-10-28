@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "80275258637d1070cd1e4af6c063bfbb",
     "8ed9b032ec4827810bf387de9eb1ad46",
     "e1e27a352cc64cd408d8ec132362d855",
     "37f5e4019dade4c09e77128068631bd6",
@@ -799,10 +798,10 @@
     "b30c15b714815bddf40ddeead3461847",
     "8eabf02ab92c01c07d69043074c3420d",
     "28ecee3cf862aab1cc7d50c71e292c58",
-    "3468f0bd66d41b0bd61f0d078d39474d"
+    "3468f0bd66d41b0bd61f0d078d39474d",
+    "720b88df8d7ca38fb07ed9ad36131968"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1507,7 +1507,8 @@
     "https://kenyans.co.ke/news/128923-govt-sets-november-14-deadline-human-rights-compensation-claims",
     "https://kenyans.co.ke/news/128926-mps-consider-proposal-reduce-student-loan-deductions-15",
     "https://kenyans.co.ke/news/128927-ruto-flies-out-russia-economic-forum-investment-talks",
-    "https://kenyans.co.ke/news/128925-kenyas-debt-hits-ksh13-trillion-treasury-spends-ksh716b-repayments"
+    "https://kenyans.co.ke/news/128925-kenyas-debt-hits-ksh13-trillion-treasury-spends-ksh716b-repayments",
+    "https://kenyans.co.ke/news/128919-dha-explains-how-new-system-will-handle-sha-claims"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2105,7 +2106,8 @@
     "state draws november line multi year protest disappearance claims",
     "fresh push cap graduate loan deductions collides tefa transition plan",
     "ruto uses trade mandate push moscow market entry fertilizer access",
-    "treasury confirms domestic debt flip 56pc mps warn private credit squeeze"
+    "treasury confirms domestic debt flip 56pc mps warn private credit squeeze",
+    "state ties sha payouts live treatment logs push choke claims fraud"
   ],
   "topic_keys": [
     "news tracker",
@@ -6758,6 +6760,15 @@
       "structure": "Attribution lead on debt mix inversion -> Parliamentary pushback and private lending risks -> Mechanics of the Ksh1.5T borrowing plan and Ksh716B repayment drain -> Revenue deficit and absorption performance",
       "source": "https://kenyans.co.ke/news/128925-kenyas-debt-hits-ksh13-trillion-treasury-spends-ksh716b-repayments",
       "published_at": "2026-10-27T19:02:23Z"
+    },
+    {
+      "title": "State Ties SHA Payouts to Live Treatment Logs in Push to Choke Claims Fraud",
+      "angle": "Targeting the systemic fraud vulnerability created by the historic separation between bedside clinical records and administrative billing desks, making live treatment logs the sole legal basis for state reimbursement.",
+      "angle_type": "accountability",
+      "opening": "Accountability-led opening focused on the elimination of separate claims preparation pipelines in healthcare facilities.",
+      "structure": "Accountability lead on claims-audit overhaul -> Core parliamentary briefing details with Lenaiyara and Nyikal -> The clinical-administrative integration mechanism -> Anti-fraud and auditability implications -> Pointed close on legislative scrutiny.",
+      "source": "https://kenyans.co.ke/news/128919-dha-explains-how-new-system-will-handle-sha-claims",
+      "published_at": "2026-10-28T05:02:38Z"
     }
   ]
 }
