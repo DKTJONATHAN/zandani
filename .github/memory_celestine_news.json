@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "1427cab60299f3b07164ce59483384f1",
     "f563303e3e2c743bea3d694325848f21",
     "449db3afe206a3c40ae7bb034f4301d1",
     "9fedf566f1c6d3b8c554927de4cc511d",
@@ -799,10 +798,10 @@
     "80a22306377fdb2a3af743b11ec1303d",
     "1e22a8d7a62d8b21f4c44c40ea0c7df9",
     "a2dcf3b6753c54132935f219df9f8b49",
-    "952c2126b5c28be8985cbef2f55e451a"
+    "952c2126b5c28be8985cbef2f55e451a",
+    "09881054160740c3691100bc7c068313"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1514,7 +1514,8 @@
     "https://kenyans.co.ke/news/128948-global-experts-warn-over-trumps-africa-mining-deals-us-eyes-mrima-hills",
     "https://kenyans.co.ke/news/128954-jubilee-appoints-2-new-officials-forms-team-lead-opposition-coalition-talks",
     "https://kenyans.co.ke/news/128950-afa-announces-avocado-export-ban-sea-october-30-warns-mango-exporters",
-    "https://kenyans.co.ke/news/128955-baringo-residents-demand-halt-ksh50-million-shrine-project-cite-environmental-fears"
+    "https://kenyans.co.ke/news/128955-baringo-residents-demand-halt-ksh50-million-shrine-project-cite-environmental-fears",
+    "https://kenyans.co.ke/news/128958-knut-urges-tsc-implement-hardship-allowances-nyatike-teachers"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2119,7 +2120,8 @@
     "value addition redline mrima hill collides washington rush raw minerals",
     "matiang sets terms 2027 talks jubilee audits ukombozi alliance pact",
     "afa shuts sea avocado shipments blocks mango cargo mixing quality clampdown",
-    "baringo shrine works spark uproar county bypasses nema clearance"
+    "baringo shrine works spark uproar county bypasses nema clearance",
+    "src inaction stalls nyatike hardship pay despite parliament nod"
   ],
   "topic_keys": [
     "news tracker",
@@ -6835,6 +6837,15 @@
       "structure": "Regulatory breach lead -> Public petition timeline vs delayed hearings -> Hydrological and cultural risks at 2,720 metres -> Precedent of judicial intervention in heritage sites -> Immediate forward edge on the scheduled public hearing.",
       "source": "https://kenyans.co.ke/news/128955-baringo-residents-demand-halt-ksh50-million-shrine-project-cite-environmental-fears",
       "published_at": "2026-10-28T12:02:16Z"
+    },
+    {
+      "title": "SRC Inaction Stalls Nyatike Hardship Pay Despite Parliament Nod",
+      "angle": "The administrative standoff between parliamentary approval and executive execution, where the Salaries and Remuneration Commission's inaction leaves teachers facing extreme logistical hurdles on the eve of national examination deployment.",
+      "angle_type": "accountability",
+      "opening": "Accountability lead focusing on the implementation gap between legislative clearance and payroll action.",
+      "structure": "Statutory gridlock lead -> Legislative petition history and parliamentary clearance -> Operational realities on the ground (floods, terrain, 4:00 AM exam logistics) -> Inter-agency standoff between TSC, SRC, and union pressure -> Unresolved execution timeline.",
+      "source": "https://kenyans.co.ke/news/128958-knut-urges-tsc-implement-hardship-allowances-nyatike-teachers",
+      "published_at": "2026-10-28T13:02:09Z"
     }
   ]
 }
