@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "e07141203c6171453b54ae4da7dd033e",
     "998e5160e71a5bc8573cf31b2aa14586",
     "57d02a73c9e234687f3f97fd811927a1",
     "c10079da46e23a4524ac7de2c8136afe",
@@ -799,10 +798,10 @@
     "df795c6024a2bd08ac458b8be5b81a1a",
     "d8f782ab40b4bf8521bf0a457af67a7a",
     "454a5740b36b4bd258f368d25a70acd3",
-    "5e143357a3359a8f6cc6329dc1557c83"
+    "5e143357a3359a8f6cc6329dc1557c83",
+    "2f220b7c73282cb334f3729841089c41"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1523,7 +1523,8 @@
     "https://kenyans.co.ke/news/128970-lecturers-sign-ksh20bn-deal-end-strike-friday-uasu-confirms",
     "https://kenyans.co.ke/news/128965-shamata-residents-halt-burial-storm-police-station-casket",
     "https://kenyans.co.ke/news/128969-kra-targets-1-million-landlords-new-rental-income-tax-crackdown",
-    "https://kenyans.co.ke/news/128974-gachagua-sends-warning-opposition-leaders-amid-2027-kingmaker-claims"
+    "https://kenyans.co.ke/news/128974-gachagua-sends-warning-opposition-leaders-amid-2027-kingmaker-claims",
+    "https://kenyans.co.ke/news/128973-ntsa-flags-cracked-windscreens-broken-headlights-after-night-operation-13-vehicles"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2137,7 +2138,8 @@
     "treasury yields ksh20b package unlock public universities month long deadlock",
     "shamata murder protest forces police disclose leads casket standoff",
     "rental tax leak accounts evasion losses kra tracks landlords",
-    "gachagua demands public loyalty pacts block opposition blackmail ahead 2027"
+    "gachagua demands public loyalty pacts block opposition blackmail ahead 2027",
+    "ntsa turns night telematics visibility defect checks corridor clampdown"
   ],
   "topic_keys": [
     "news tracker",
@@ -6934,6 +6936,15 @@
       "structure": "Attribution lead -> Direct pledge conditionality and mechanics -> Leverage breakdown (silence as tacit blackmail) -> Counter to Jubilee's mobiliser theory -> Bilateral talks timeline and unresolved selection formula",
       "source": "https://kenyans.co.ke/news/128974-gachagua-sends-warning-opposition-leaders-amid-2027-kingmaker-claims",
       "published_at": "2026-10-29T06:02:20Z"
+    },
+    {
+      "title": "NTSA Turns to Night Telematics and Visibility Defect Checks in Corridor Clampdown",
+      "angle": "Focusing on the operational pivot to night-visibility and telematics enforcement\u2014where physical defects like cracked windscreens and broken headlights are treated as grounds for immediate impoundment alongside real-time digital speed-limiter tracking.",
+      "angle_type": "practical change",
+      "opening": "Practical-consequence lead establishing that minor physical defects and unlinked speed governors now result in overnight vehicle detentions rather than simple spot warnings.",
+      "structure": "Enforcement reality lead -> Southern Bypass operation metrics and the seven flagged violations -> Telematics and IRSMS digital integration mechanics -> Commercial PSV and freight mandates -> Official SMS fraud advisory and next operational phase.",
+      "source": "https://kenyans.co.ke/news/128973-ntsa-flags-cracked-windscreens-broken-headlights-after-night-operation-13-vehicles",
+      "published_at": "2026-10-29T07:02:05Z"
     }
   ]
 }
