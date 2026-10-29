@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "116715b1f7e9cb77cc640d42d5793e84",
     "e07141203c6171453b54ae4da7dd033e",
     "998e5160e71a5bc8573cf31b2aa14586",
     "57d02a73c9e234687f3f97fd811927a1",
@@ -799,10 +798,10 @@
     "f4b7d52ef05346472b5b05f81dc3646f",
     "df795c6024a2bd08ac458b8be5b81a1a",
     "d8f782ab40b4bf8521bf0a457af67a7a",
-    "454a5740b36b4bd258f368d25a70acd3"
+    "454a5740b36b4bd258f368d25a70acd3",
+    "5e143357a3359a8f6cc6329dc1557c83"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1522,7 +1522,8 @@
     "https://kenyans.co.ke/news/128968-kra-plans-use-till-numbers-pochi-la-biashara-track-undeclared-income",
     "https://kenyans.co.ke/news/128970-lecturers-sign-ksh20bn-deal-end-strike-friday-uasu-confirms",
     "https://kenyans.co.ke/news/128965-shamata-residents-halt-burial-storm-police-station-casket",
-    "https://kenyans.co.ke/news/128969-kra-targets-1-million-landlords-new-rental-income-tax-crackdown"
+    "https://kenyans.co.ke/news/128969-kra-targets-1-million-landlords-new-rental-income-tax-crackdown",
+    "https://kenyans.co.ke/news/128974-gachagua-sends-warning-opposition-leaders-amid-2027-kingmaker-claims"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2135,7 +2136,8 @@
     "kra deploys mobile ledgers housing levy cross checks plug sh132b deficit",
     "treasury yields ksh20b package unlock public universities month long deadlock",
     "shamata murder protest forces police disclose leads casket standoff",
-    "rental tax leak accounts evasion losses kra tracks landlords"
+    "rental tax leak accounts evasion losses kra tracks landlords",
+    "gachagua demands public loyalty pacts block opposition blackmail ahead 2027"
   ],
   "topic_keys": [
     "news tracker",
@@ -6923,6 +6925,15 @@
       "structure": "Fiscal leakage lead -> Parliamentary disclosure metrics -> Operational mechanics of eRITS and gross deduction rules -> Revenue Service Assistant field surveillance -> Macro budget targets and forward deadlines.",
       "source": "https://kenyans.co.ke/news/128969-kra-targets-1-million-landlords-new-rental-income-tax-crackdown",
       "published_at": "2026-10-29T05:01:59Z"
+    },
+    {
+      "title": "Gachagua Demands Public Loyalty Pacts to Block Opposition Blackmail Ahead of 2027",
+      "angle": "Framing Gachagua's demand through the strategic elimination of backroom leverage\u2014specifically how requiring public loyalty declarations neutralises the covert practice where principals use the threat of their supporters voting for Ruto as a bargaining chip in ticket negotiations.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first statement lead tying the demand for public loyalty declarations to the pre-emption of backroom defection threats.",
+      "structure": "Attribution lead -> Direct pledge conditionality and mechanics -> Leverage breakdown (silence as tacit blackmail) -> Counter to Jubilee's mobiliser theory -> Bilateral talks timeline and unresolved selection formula",
+      "source": "https://kenyans.co.ke/news/128974-gachagua-sends-warning-opposition-leaders-amid-2027-kingmaker-claims",
+      "published_at": "2026-10-29T06:02:20Z"
     }
   ]
 }
