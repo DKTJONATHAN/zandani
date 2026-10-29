@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "57d02a73c9e234687f3f97fd811927a1",
     "c10079da46e23a4524ac7de2c8136afe",
     "b01293230d5b00f8e4dcbd29ea9b0250",
     "eb49f70d09bd64c47f5395772654c23f",
@@ -799,10 +798,10 @@
     "454a5740b36b4bd258f368d25a70acd3",
     "5e143357a3359a8f6cc6329dc1557c83",
     "2f220b7c73282cb334f3729841089c41",
-    "013af10f9da642b55fb324f9a0fe69ba"
+    "013af10f9da642b55fb324f9a0fe69ba",
+    "65b1812db24f5f66f8058fa0512af687"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1525,7 +1525,8 @@
     "https://kenyans.co.ke/news/128969-kra-targets-1-million-landlords-new-rental-income-tax-crackdown",
     "https://kenyans.co.ke/news/128974-gachagua-sends-warning-opposition-leaders-amid-2027-kingmaker-claims",
     "https://kenyans.co.ke/news/128973-ntsa-flags-cracked-windscreens-broken-headlights-after-night-operation-13-vehicles",
-    "https://kenyans.co.ke/news/128977-several-feared-dead-after-car-loses-control-bursts-flames-along-ngong-road"
+    "https://kenyans.co.ke/news/128977-several-feared-dead-after-car-loses-control-bursts-flames-along-ngong-road",
+    "https://kenyans.co.ke/news/128976-epra-denies-external-influence-amid-scrutiny-fuel-price-regulation"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2141,7 +2142,8 @@
     "rental tax leak accounts evasion losses kra tracks landlords",
     "gachagua demands public loyalty pacts block opposition blackmail ahead 2027",
     "ntsa turns night telematics visibility defect checks corridor clampdown",
-    "ngong road wreckage arson impedes drunk driving probe commuters die"
+    "ngong road wreckage arson impedes drunk driving probe commuters die",
+    "marketer claim delays stagnate sh10 fuel subsidy payouts ministry hits budget wall"
   ],
   "topic_keys": [
     "news tracker",
@@ -6956,6 +6958,15 @@
       "structure": "Evidence-destruction lead -> Morning crash mechanics at Kenol Stage -> Forensic investigation obstacles -> Commuter vulnerability at roadside stops -> Corridor fatality context.",
       "source": "https://kenyans.co.ke/news/128977-several-feared-dead-after-car-loses-control-bursts-flames-along-ngong-road",
       "published_at": "2026-10-29T08:27:49Z"
+    },
+    {
+      "title": "Marketer Claim Delays Stagnate Sh10.3B Fuel Subsidy Payouts as Ministry Hits Budget Wall",
+      "angle": "Exposing the administrative and financial friction within the fuel stabilization mechanism\u2014where delayed oil marketer claim submissions stalled Ksh10.3 billion in subsidy processing and suppressed the petroleum department's budget absorption.",
+      "angle_type": "money",
+      "opening": "Fiscal-impact lead establishing the claim submission backlog and budget absorption gap before unpacking the broader regulatory defense.",
+      "structure": "Administrative subsidy delay lead -> Budget absorption and stabilization metrics -> EPRA pricing formula defense & recent pump hikes -> Public communication and adulteration directives -> Private refinery pivot and procurement lags.",
+      "source": "https://kenyans.co.ke/news/128976-epra-denies-external-influence-amid-scrutiny-fuel-price-regulation",
+      "published_at": "2026-10-29T09:02:03Z"
     }
   ]
 }
