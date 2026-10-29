@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "0e34367da6a21680c1f376435936adb6",
     "9e14f2b5109825f019692d25df0096cb",
     "586c19a7f554c45bc7519ef191122423",
     "98978f147a38d095f3fd30a98d3a7368",
@@ -799,10 +798,10 @@
     "65b1812db24f5f66f8058fa0512af687",
     "831d6dc46798d27c3f022ba04dcbf9a6",
     "4d1fa92826bbee1192b2b53595d63f2e",
-    "8f42a920e78bbf2201b7f177e03420e0"
+    "8f42a920e78bbf2201b7f177e03420e0",
+    "260c42f0f47fc1b970fd265f6b39002c"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1529,7 +1529,8 @@
     "https://kenyans.co.ke/news/128976-epra-denies-external-influence-amid-scrutiny-fuel-price-regulation",
     "https://kenyans.co.ke/news/128980-high-court-extends-suspension-tsc-circular-teachers-social-media-use",
     "https://kenyans.co.ke/news/128985-court-rejects-bid-suspend-rutos-cabinet-gender-rule-deadline",
-    "https://kenyans.co.ke/news/128984-kenya-secures-ksh-269m-grant-gates-foundation-fund-agriculture"
+    "https://kenyans.co.ke/news/128984-kenya-secures-ksh-269m-grant-gates-foundation-fund-agriculture",
+    "https://kenyans.co.ke/news/128988-somali-national-fined-ksh370000-fraudulently-obtaining-kenyan-passport"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2149,7 +2150,8 @@
     "marketer claim delays stagnate sh10 fuel subsidy payouts ministry hits budget wall",
     "high court freezes tsc social media rules vague punitive powers",
     "appellate court denies cabinet gender stay ruto misses 120 day recast window",
-    "mbadi signs ksh270m gates grant channeled via ifad shield maize dairy weather shocks"
+    "mbadi signs ksh270m gates grant channeled via ifad shield maize dairy weather shocks",
+    "ksh370 000 fine deportation order somali national fake passport jkia"
   ],
   "topic_keys": [
     "news tracker",
@@ -7000,6 +7002,15 @@
       "structure": "Treasury attribution lead -> Funding structure and IFAD delivery channel -> Practical integration with INReMP and climate data systems -> Food basket vulnerabilities (maize, milk, El Ni\u00f1o cycles) -> Broader philanthropic portfolio context.",
       "source": "https://kenyans.co.ke/news/128984-kenya-secures-ksh-269m-grant-gates-foundation-fund-agriculture",
       "published_at": "2026-10-29T13:01:34Z"
+    },
+    {
+      "title": "Ksh370,000 Fine and Deportation Order for Somali National Over Fake Passport at JKIA",
+      "angle": "The administrative exposure of document fraud cases\u2014focusing on how frontline airport flags intersect with systemic integrity questions and the ultimate disposal protocols for fraudulent travel credentials.",
+      "angle_type": "accountability",
+      "opening": "Procedural accountability lead focusing on the specific breakdown of criminal penalties and the mandatory destruction protocol for intercepted credentials.",
+      "structure": "Detection and sentencing breakdown -> Charge-by-charge penalty analysis -> Document disposal protocol under DGIS -> Broader administrative and geopolitical backdrop surrounding identity controls.",
+      "source": "https://kenyans.co.ke/news/128988-somali-national-fined-ksh370000-fraudulently-obtaining-kenyan-passport",
+      "published_at": "2026-10-29T14:13:44Z"
     }
   ]
 }
