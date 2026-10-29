@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "eb49f70d09bd64c47f5395772654c23f",
     "0e34367da6a21680c1f376435936adb6",
     "9e14f2b5109825f019692d25df0096cb",
     "586c19a7f554c45bc7519ef191122423",
@@ -799,10 +798,10 @@
     "013af10f9da642b55fb324f9a0fe69ba",
     "65b1812db24f5f66f8058fa0512af687",
     "831d6dc46798d27c3f022ba04dcbf9a6",
-    "4d1fa92826bbee1192b2b53595d63f2e"
+    "4d1fa92826bbee1192b2b53595d63f2e",
+    "8f42a920e78bbf2201b7f177e03420e0"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1528,7 +1528,8 @@
     "https://kenyans.co.ke/news/128977-several-feared-dead-after-car-loses-control-bursts-flames-along-ngong-road",
     "https://kenyans.co.ke/news/128976-epra-denies-external-influence-amid-scrutiny-fuel-price-regulation",
     "https://kenyans.co.ke/news/128980-high-court-extends-suspension-tsc-circular-teachers-social-media-use",
-    "https://kenyans.co.ke/news/128985-court-rejects-bid-suspend-rutos-cabinet-gender-rule-deadline"
+    "https://kenyans.co.ke/news/128985-court-rejects-bid-suspend-rutos-cabinet-gender-rule-deadline",
+    "https://kenyans.co.ke/news/128984-kenya-secures-ksh-269m-grant-gates-foundation-fund-agriculture"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2147,7 +2148,8 @@
     "ngong road wreckage arson impedes drunk driving probe commuters die",
     "marketer claim delays stagnate sh10 fuel subsidy payouts ministry hits budget wall",
     "high court freezes tsc social media rules vague punitive powers",
-    "appellate court denies cabinet gender stay ruto misses 120 day recast window"
+    "appellate court denies cabinet gender stay ruto misses 120 day recast window",
+    "mbadi signs ksh270m gates grant channeled via ifad shield maize dairy weather shocks"
   ],
   "topic_keys": [
     "news tracker",
@@ -6989,6 +6991,15 @@
       "structure": "Legal exposure lead -> Appellate ruling specifics and service orders -> Arithmetic of the constitutional breach -> High Court timeline and missed deadline mechanics -> Forward legal horizon",
       "source": "https://kenyans.co.ke/news/128985-court-rejects-bid-suspend-rutos-cabinet-gender-rule-deadline",
       "published_at": "2026-10-29T12:02:06Z"
+    },
+    {
+      "title": "Mbadi Signs Ksh270M Gates Grant Channeled via IFAD to Shield Maize and Dairy from Weather Shocks",
+      "angle": "Attribution-first examination of how the Treasury is routing external multilateral capital through IFAD to integrate climate data directly into disrupted maize and dairy value chains, shifting focus to smallholder risk insulation against Horn of Africa weather swings.",
+      "angle_type": "practical change",
+      "opening": "Attribution lead citing Treasury Cabinet Secretary John Mbadi's bilateral signing before detailing the direct smallholder and value-chain beneficiaries.",
+      "structure": "Treasury attribution lead -> Funding structure and IFAD delivery channel -> Practical integration with INReMP and climate data systems -> Food basket vulnerabilities (maize, milk, El Ni\u00f1o cycles) -> Broader philanthropic portfolio context.",
+      "source": "https://kenyans.co.ke/news/128984-kenya-secures-ksh-269m-grant-gates-foundation-fund-agriculture",
+      "published_at": "2026-10-29T13:01:34Z"
     }
   ]
 }
