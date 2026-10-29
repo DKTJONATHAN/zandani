@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ce10540707fe3c8151b7321e393cc5fe",
     "116715b1f7e9cb77cc640d42d5793e84",
     "e07141203c6171453b54ae4da7dd033e",
     "998e5160e71a5bc8573cf31b2aa14586",
@@ -799,10 +798,10 @@
     "ce079ac3435978e18660b087e702dd73",
     "f4b7d52ef05346472b5b05f81dc3646f",
     "df795c6024a2bd08ac458b8be5b81a1a",
-    "d8f782ab40b4bf8521bf0a457af67a7a"
+    "d8f782ab40b4bf8521bf0a457af67a7a",
+    "454a5740b36b4bd258f368d25a70acd3"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1521,7 +1521,8 @@
     "https://kenyans.co.ke/news/128966-bayern-munich-ajax-play-talanta-stadium-opening-january-5-ruto-announces",
     "https://kenyans.co.ke/news/128968-kra-plans-use-till-numbers-pochi-la-biashara-track-undeclared-income",
     "https://kenyans.co.ke/news/128970-lecturers-sign-ksh20bn-deal-end-strike-friday-uasu-confirms",
-    "https://kenyans.co.ke/news/128965-shamata-residents-halt-burial-storm-police-station-casket"
+    "https://kenyans.co.ke/news/128965-shamata-residents-halt-burial-storm-police-station-casket",
+    "https://kenyans.co.ke/news/128969-kra-targets-1-million-landlords-new-rental-income-tax-crackdown"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2133,7 +2134,8 @@
     "private capital fund january bayern ajax fixture talanta stadium tests afcon readiness",
     "kra deploys mobile ledgers housing levy cross checks plug sh132b deficit",
     "treasury yields ksh20b package unlock public universities month long deadlock",
-    "shamata murder protest forces police disclose leads casket standoff"
+    "shamata murder protest forces police disclose leads casket standoff",
+    "rental tax leak accounts evasion losses kra tracks landlords"
   ],
   "topic_keys": [
     "news tracker",
@@ -6912,6 +6914,15 @@
       "structure": "Standoff and accountability demand -> Core chronology of the aborted burial and march -> Community grievances over local insecurity -> Police response and reliance on civilian volunteers -> Next operational steps for the probe.",
       "source": "https://kenyans.co.ke/news/128965-shamata-residents-halt-burial-storm-police-station-casket",
       "published_at": "2026-10-28T20:02:03Z"
+    },
+    {
+      "title": "Rental Tax Leak Accounts for 65% of Evasion Losses as KRA Tracks 1M Landlords",
+      "angle": "Framing the crackdown through fiscal exposure: rental tax evasion accounts for nearly two-thirds (65 per cent) of Kenya's Ksh153 billion annual illicit evasion losses, turning residential property into the central battleground for KRA's Ksh2.98 trillion ordinary revenue mandate.",
+      "angle_type": "money",
+      "opening": "Fiscal-stakes lead connecting the disproportionate 65 per cent tax leakage to KRA's legislative disclosure on real estate compliance.",
+      "structure": "Fiscal leakage lead -> Parliamentary disclosure metrics -> Operational mechanics of eRITS and gross deduction rules -> Revenue Service Assistant field surveillance -> Macro budget targets and forward deadlines.",
+      "source": "https://kenyans.co.ke/news/128969-kra-targets-1-million-landlords-new-rental-income-tax-crackdown",
+      "published_at": "2026-10-29T05:01:59Z"
     }
   ]
 }
