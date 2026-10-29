@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "b01293230d5b00f8e4dcbd29ea9b0250",
     "eb49f70d09bd64c47f5395772654c23f",
     "0e34367da6a21680c1f376435936adb6",
     "9e14f2b5109825f019692d25df0096cb",
@@ -799,10 +798,10 @@
     "2f220b7c73282cb334f3729841089c41",
     "013af10f9da642b55fb324f9a0fe69ba",
     "65b1812db24f5f66f8058fa0512af687",
-    "831d6dc46798d27c3f022ba04dcbf9a6"
+    "831d6dc46798d27c3f022ba04dcbf9a6",
+    "4d1fa92826bbee1192b2b53595d63f2e"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1527,7 +1527,8 @@
     "https://kenyans.co.ke/news/128973-ntsa-flags-cracked-windscreens-broken-headlights-after-night-operation-13-vehicles",
     "https://kenyans.co.ke/news/128977-several-feared-dead-after-car-loses-control-bursts-flames-along-ngong-road",
     "https://kenyans.co.ke/news/128976-epra-denies-external-influence-amid-scrutiny-fuel-price-regulation",
-    "https://kenyans.co.ke/news/128980-high-court-extends-suspension-tsc-circular-teachers-social-media-use"
+    "https://kenyans.co.ke/news/128980-high-court-extends-suspension-tsc-circular-teachers-social-media-use",
+    "https://kenyans.co.ke/news/128985-court-rejects-bid-suspend-rutos-cabinet-gender-rule-deadline"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2145,7 +2146,8 @@
     "ntsa turns night telematics visibility defect checks corridor clampdown",
     "ngong road wreckage arson impedes drunk driving probe commuters die",
     "marketer claim delays stagnate sh10 fuel subsidy payouts ministry hits budget wall",
-    "high court freezes tsc social media rules vague punitive powers"
+    "high court freezes tsc social media rules vague punitive powers",
+    "appellate court denies cabinet gender stay ruto misses 120 day recast window"
   ],
   "topic_keys": [
     "news tracker",
@@ -6978,6 +6980,15 @@
       "structure": "Judicial rebuke lead -> Administrative vagueness and Article 24 threshold -> The uncontested stakeholder omission -> Statutory redundancy of the circular -> Forward horizon of the substantive constitutional petition",
       "source": "https://kenyans.co.ke/news/128980-high-court-extends-suspension-tsc-circular-teachers-social-media-use",
       "published_at": "2026-10-29T11:01:33Z"
+    },
+    {
+      "title": "Appellate Court Denies Cabinet Gender Stay as Ruto Misses 120-Day Recast Window",
+      "angle": "The immediate constitutional exposure of the Executive: with the 120-day compliance window expiring on October 28 and the appellate court refusing to grant interim protection, the Cabinet is now actively functioning under a binding, unstayed judicial declaration of illegality.",
+      "angle_type": "accountability",
+      "opening": "Accountability lead highlighting the Cabinet entering an unshielded period of constitutional non-compliance following the appellate court's refusal to freeze the lapsed High Court order.",
+      "structure": "Legal exposure lead -> Appellate ruling specifics and service orders -> Arithmetic of the constitutional breach -> High Court timeline and missed deadline mechanics -> Forward legal horizon",
+      "source": "https://kenyans.co.ke/news/128985-court-rejects-bid-suspend-rutos-cabinet-gender-rule-deadline",
+      "published_at": "2026-10-29T12:02:06Z"
     }
   ]
 }
