@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "998e5160e71a5bc8573cf31b2aa14586",
     "57d02a73c9e234687f3f97fd811927a1",
     "c10079da46e23a4524ac7de2c8136afe",
     "b01293230d5b00f8e4dcbd29ea9b0250",
@@ -799,10 +798,10 @@
     "d8f782ab40b4bf8521bf0a457af67a7a",
     "454a5740b36b4bd258f368d25a70acd3",
     "5e143357a3359a8f6cc6329dc1557c83",
-    "2f220b7c73282cb334f3729841089c41"
+    "2f220b7c73282cb334f3729841089c41",
+    "013af10f9da642b55fb324f9a0fe69ba"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1524,7 +1524,8 @@
     "https://kenyans.co.ke/news/128965-shamata-residents-halt-burial-storm-police-station-casket",
     "https://kenyans.co.ke/news/128969-kra-targets-1-million-landlords-new-rental-income-tax-crackdown",
     "https://kenyans.co.ke/news/128974-gachagua-sends-warning-opposition-leaders-amid-2027-kingmaker-claims",
-    "https://kenyans.co.ke/news/128973-ntsa-flags-cracked-windscreens-broken-headlights-after-night-operation-13-vehicles"
+    "https://kenyans.co.ke/news/128973-ntsa-flags-cracked-windscreens-broken-headlights-after-night-operation-13-vehicles",
+    "https://kenyans.co.ke/news/128977-several-feared-dead-after-car-loses-control-bursts-flames-along-ngong-road"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2139,7 +2140,8 @@
     "shamata murder protest forces police disclose leads casket standoff",
     "rental tax leak accounts evasion losses kra tracks landlords",
     "gachagua demands public loyalty pacts block opposition blackmail ahead 2027",
-    "ntsa turns night telematics visibility defect checks corridor clampdown"
+    "ntsa turns night telematics visibility defect checks corridor clampdown",
+    "ngong road wreckage arson impedes drunk driving probe commuters die"
   ],
   "topic_keys": [
     "news tracker",
@@ -6945,6 +6947,15 @@
       "structure": "Enforcement reality lead -> Southern Bypass operation metrics and the seven flagged violations -> Telematics and IRSMS digital integration mechanics -> Commercial PSV and freight mandates -> Official SMS fraud advisory and next operational phase.",
       "source": "https://kenyans.co.ke/news/128973-ntsa-flags-cracked-windscreens-broken-headlights-after-night-operation-13-vehicles",
       "published_at": "2026-10-29T07:02:05Z"
+    },
+    {
+      "title": "Ngong Road Wreckage Arson Impedes Drunk-Driving Probe After 3 Commuters Die",
+      "angle": "The operational impact of crash-site arson on forensic accident investigations, where mob destruction of wreckage compromises police checks into suspected drunk driving and vehicle mechanical failures.",
+      "angle_type": "accountability",
+      "opening": "Forensic lead focusing on the destruction of crash evidence at high-speed commuter transit points.",
+      "structure": "Evidence-destruction lead -> Morning crash mechanics at Kenol Stage -> Forensic investigation obstacles -> Commuter vulnerability at roadside stops -> Corridor fatality context.",
+      "source": "https://kenyans.co.ke/news/128977-several-feared-dead-after-car-loses-control-bursts-flames-along-ngong-road",
+      "published_at": "2026-10-29T08:27:49Z"
     }
   ]
 }
