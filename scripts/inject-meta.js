@@ -280,7 +280,11 @@ const faqSchema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEn
   '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer },
 })) };
 const faqMeta = '<title>' + escapeHtml(faqTitle) + '</title><meta name="description" content="' + escapeHtml(faqDescription) + '"><link rel="canonical" href="' + faqUrl + '"><meta property="og:title" content="' + escapeHtml(faqTitle) + '"><meta property="og:description" content="' + escapeHtml(faqDescription) + '"><meta property="og:url" content="' + faqUrl + '"><meta property="og:type" content="website">';
-const faqBody = '<main><nav aria-label="Breadcrumb"><a href="/">Home</a> / <span>Frequently asked questions</span></nav><h1>Frequently asked questions</h1><p>' + escapeHtml(faqDescription) + '</p>' + siteNavHtml() + '<section>' + faqItems.map((item) => '<article><h2>' + escapeHtml(item.question) + '</h2><p>' + escapeHtml(item.answer) + '</p></article>').join('') + '</section><p>For more detail, read our <a href="/ethics">Editorial Ethics</a> and <a href="/corrections">Corrections Policy</a>, or <a href="/contact">contact the newsroom</a>.</p></main><script type="application/ld+json">' + JSON.stringify(faqSchema).replace(/</g, '\\u003c') + '</script>';
+const faqBreadcrumbSchema = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+  { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+  { '@type': 'ListItem', position: 2, name: 'Frequently asked questions', item: faqUrl },
+] };
+const faqBody = '<main><nav aria-label="Breadcrumb"><a href="/">Home</a> / <span>Frequently asked questions</span></nav><h1>Frequently asked questions</h1><p>' + escapeHtml(faqDescription) + '</p>' + siteNavHtml() + '<section>' + faqItems.map((item) => '<article><h2>' + escapeHtml(item.question) + '</h2><p>' + escapeHtml(item.answer) + '</p></article>').join('') + '</section><p>For more detail, read our <a href="/ethics">Editorial Ethics</a> and <a href="/corrections">Corrections Policy</a>, or <a href="/contact">contact the newsroom</a>.</p></main><script type="application/ld+json">' + JSON.stringify(faqSchema).replace(/</g, '\\u003c') + '</script><script type="application/ld+json">' + JSON.stringify(faqBreadcrumbSchema).replace(/</g, '\\u003c') + '</script>';
 writeRoute('/faq', injectRoot(injectHead(baseHtml, faqMeta), faqBody));
 const tags = [...new Set(posts.flatMap((p) => p.tags.map(slugify)).filter(Boolean))];
 for (const tag of tags) {
