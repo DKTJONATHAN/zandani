@@ -48,15 +48,10 @@ function ogImg(url: string): string {
 function cleanMetaDescription(raw: string, fallbackTitle: string): string {
   let d = (raw || "").replace(/\s+/g, " ").trim();
   d = d.replace(/^([a-z0-9][a-z0-9\s\-]{8,80}?):\s+/i, "");
-  if (d && d[0] === d[0].toLowerCase()) {
-    d = d[0].toUpperCase() + d.slice(1);
-  }
-  if (!d || d.length < 40) {
-    d = `${fallbackTitle}. Latest reporting from Kenya on Za Ndani.`;
-  }
-  if (d.length > 157) {
-    d = d.slice(0, 158).replace(/\s+\S*$/, "").replace(/[.,;:]+$/, "") + ".";
-  }
+  if (d && d[0] === d[0].toLowerCase()) d = d[0].toUpperCase() + d.slice(1);
+  if (!d || d.length < 40) d = fallbackTitle + ". Latest reporting from Kenya on Za Ndani.";
+  else if (!d.toLowerCase().includes(fallbackTitle.toLowerCase())) d = fallbackTitle + ". " + d;
+  if (d.length > 157) d = d.slice(0, 158).replace(/\s+\S*$/, "").replace(/[.,;:]+$/, "") + ".";
   return d;
 }
 
