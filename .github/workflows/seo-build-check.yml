@@ -1,6 +1,8 @@
 name: SEO Build Check
 
 on:
+  push:
+    branches: [main, seo/google-indexability-fixes-2026-10]
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -36,7 +38,9 @@ jobs:
           test -s dist/sitemap-static.xml
           test -s dist/sitemap-articles.xml
           test -s dist/robots.txt
+          test -s dist/faq/index.html
+          test -s dist/server/entry-server.js
           grep -q '<sitemapindex' dist/sitemap.xml
           grep -q 'Sitemap: https://zandani.co.ke/sitemap.xml' dist/robots.txt
           grep -q 'Allow: /' dist/robots.txt
-          echo "Generated SEO assets are present and robots.txt allows crawling."
+          echo "Generated SEO assets, FAQ route, SSR bundle and Googlebot access checks passed."
