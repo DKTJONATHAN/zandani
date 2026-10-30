@@ -2,6 +2,7 @@ import { useId, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 import { Loader2, CheckCircle2, Mail, ArrowRight } from "lucide-react";
+import { TurnstileWidget } from "@/components/TurnstileWidget";
 
 interface NewsletterFormProps {
   className?: string;
@@ -19,17 +20,23 @@ export function NewsletterForm({
   const [email, setEmail] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
+  const [turnstileToken, setTurnstileToken] = useState("");
+  const [widgetResetKey, setWidgetResetKey] = useState(0);
   const { toast } = useToast();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) return;
+    if (!turnstileToken) {
+      toast({ title: "Complete the security check", description: "Please verify that you are human before subscribing.", variant: "destructive" });
+      return;
+    }
     setIsLoading(true);
     try {
       const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: email.toLowerCase().trim() }),
+        body: JSON.stringify({ email: email.toLowerCase().trim(), turnstileToken }),
       });
       const data = await res.json().catch(() => ({}));
       if (!res.ok) {
@@ -37,6 +44,7 @@ export function NewsletterForm({
       }
       setIsSuccess(true);
       setEmail("");
+      setTurnstileToken("");
       toast({
         title: data.already ? "You're already in" : "You're in",
         description:
@@ -53,6 +61,8 @@ export function NewsletterForm({
       });
     } finally {
       setIsLoading(false);
+      setTurnstileToken("");
+      setWidgetResetKey((value) => value + 1);
     }
   };
 
@@ -134,6 +144,7 @@ export function NewsletterForm({
           )}
         </Button>
       </div>
+      <div className="mt-3 flex justify-center"><TurnstileWidget action="newsletter_subscribe" onToken={setTurnstileToken} resetKey={widgetResetKey} /></div>
       {!compact && (
         <p
           className={`mt-2.5 text-center text-[11px] leading-relaxed ${
