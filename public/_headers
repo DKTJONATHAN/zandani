@@ -13,6 +13,10 @@
   X-Robots-Tag: noindex
   Cache-Control: public, max-age=300
 
+/app-shell.html
+  X-Robots-Tag: noindex
+  Cache-Control: no-store
+
 /robots.txt
   Content-Type: text/plain; charset=utf-8
   Cache-Control: public, max-age=3600
