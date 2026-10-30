@@ -17,16 +17,16 @@ In Cloudflare Dashboard → Workers → **zandani** → Settings → Variables:
 
 | Name | Required | Description |
 |------|----------|-------------|
-| `PERSONAL_GITHUB_TOKEN` | Yes | PAT with `actions:write` + `contents:write` on `DKTJONATHAN/zandani` |
+| `PERSONAL_GITHUB_TOKEN` or `ACTIONS_GITHUB_TOKEN` | Yes | PAT with `actions:write` + `contents:write` on `DKTJONATHAN/zandani` |
 | `USE_ADMIN_SCHEDULER` | No | `true` (default) or `false` to disable Worker-side dispatch |
 
 Classic PAT scopes: `repo` + `workflow`. Fine-grained: Actions (Read and write), Contents (Read and write).
 
 ## Enable / disable
 
-- **Primary (Worker):** `USE_ADMIN_SCHEDULER=true` (default). Cron fires desks at minute `0` EAT (hourly news; every 2h entertainment).
+- **Primary (Worker):** `USE_ADMIN_SCHEDULER=true` (default). Cloudflare wakes the Worker every minute; it dispatches each enabled desk at the exact Africa/Nairobi cron in `worker.js`.
 - **Fallback only:** set `USE_ADMIN_SCHEDULER=false`. Desk schedules are not duplicated in GitHub.
-- **Disable GitHub cron entirely:** remove or comment `on.schedule` in each `za-*.yml` after confirming Worker dispatches succeed.
+- Desk schedules live in `worker.js`; `config/desk-schedules.json` is a documentation mirror. Keep them synchronized. The Celestine news workflow retains its hourly GitHub schedule as a separate fallback.
 
 ## Desk map
 
