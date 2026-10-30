@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "affe8dc9be4c0b55d4b136a4fba4717d",
     "31a65fb8a31357ed7352319c0fe71aa7",
     "56c12662ce6e2e35390cd0e3adeac5c1",
     "463c1536ff3fe191d7794c67d05e19a4",
@@ -799,10 +798,10 @@
     "260c42f0f47fc1b970fd265f6b39002c",
     "30faa6c077e91a2972bf5e3f8a701f9e",
     "bc5358605f9952d01c575d235afb4aa7",
-    "98aa576c117aa711c7bf431de02eef06"
+    "98aa576c117aa711c7bf431de02eef06",
+    "f378085f56e84f145e18caf9d1601da1"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1533,7 +1533,8 @@
     "https://kenyans.co.ke/news/128988-somali-national-fined-ksh370000-fraudulently-obtaining-kenyan-passport",
     "https://kenyans.co.ke/news/128989-tribunal-clears-way-registration-ukombozi-alliance",
     "https://kenyans.co.ke/news/128991-kamukunji-traders-take-streets-protest-evictions-after-eastleigh-building-collapse",
-    "https://kenyans.co.ke/news/128996-us-launches-major-crackdown-kenyans-linked-student-aid-fraud"
+    "https://kenyans.co.ke/news/128996-us-launches-major-crackdown-kenyans-linked-student-aid-fraud",
+    "https://kenyans.co.ke/news/128997-govt-reveals-ksh98-billion-owed-contractors-despite-funding-new-road-projects"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2157,7 +2158,8 @@
     "ksh370 000 fine deportation order somali national fake passport jkia",
     "tribunal discharges injunction ukombozi name clearing opposition rebrand",
     "safety buffer lockdown deadlocks kamukunji traders regional administration",
-    "doj exposes ksh16 student aid pipeline routed accounts crypto wallets"
+    "doj exposes ksh16 student aid pipeline routed accounts crypto wallets",
+    "securitisation cash influx leaves ksh98b road debt unresolved ministry adds works"
   ],
   "topic_keys": [
     "news tracker",
@@ -7044,6 +7046,15 @@
       "structure": "Attribution and scale lead -> Laundering mechanics and crypto seizure -> State-by-state pipeline indictments -> Administrative fallout and systemic account freeze",
       "source": "https://kenyans.co.ke/news/128996-us-launches-major-crackdown-kenyans-linked-student-aid-fraud",
       "published_at": "2026-10-30T05:02:13Z"
+    },
+    {
+      "title": "Securitisation Cash Influx Leaves Ksh98B Road Debt Unresolved as Ministry Adds New Works",
+      "angle": "The financial tension between aggressive off-Exchequer securitisation and entrenched contractor debt: despite pumping Ksh208.6 billion through asset-backed financing and posting near-total budget absorption, the state remains burdened by nearly Ksh100 billion in arrears while piling on fresh capital commitments.",
+      "angle_type": "money",
+      "opening": "Balance-sheet friction lead linking the Ksh208.6 billion securitisation cash injections directly to the stubborn Ksh98.17 billion contractor debt wall.",
+      "structure": "Balance sheet friction lead -> Naivasha parliamentary disclosure and tranche breakdown -> Securitisation mechanics versus legacy arrears -> Capital deployment and levy fund yields -> Forward pipeline commitments and World Bank partnership.",
+      "source": "https://kenyans.co.ke/news/128997-govt-reveals-ksh98-billion-owed-contractors-despite-funding-new-road-projects",
+      "published_at": "2026-10-30T06:02:35Z"
     }
   ]
 }
