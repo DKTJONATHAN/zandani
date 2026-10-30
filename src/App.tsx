@@ -38,6 +38,7 @@ const AuthorProfilePage = lazy(() => import("./pages/AuthorProfilePage"));
 const HubPage = lazy(() => import("./pages/HubPage"));
 const SearchPage = lazy(() => import("./pages/SearchPage"));
 const NewsletterPage = lazy(() => import("./pages/NewsletterPage"));
+const FAQPage = lazy(() => import("./pages/FAQPage"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const queryClient = new QueryClient({
@@ -133,6 +134,7 @@ const App = () => (
                 <Route path="/article/:slug" element={<ArticlePage />} />
                 <Route path="/search" element={<SearchPage />} />
                 <Route path="/newsletter" element={<NewsletterPage />} />
+                <Route path="/faq" element={<FAQPage />} />
                 <Route path="/category/:slug" element={<CategoryPage />} />
                 <Route path="/trending" element={<Trending />} />
                 <Route path="/live" element={<LiveWirePage />} />
