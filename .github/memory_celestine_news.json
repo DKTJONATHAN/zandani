@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f47f700c57c9e36877f8152ed630b85b",
     "779981a49b383309cfa6cbbe8b565494",
     "471930ace1bd1ff5154193d7fc883e9a",
     "1630b5b65c1b4c46b5e410144ee515ee",
@@ -799,10 +798,10 @@
     "23baa989ebe16a1bbe2108493089c013",
     "dd4af1b2410233cd79451fe404222a58",
     "59ff0ccd92187336564880d40f555fb7",
-    "c689afe9170efcce5ce53fc824a6f5bf"
+    "c689afe9170efcce5ce53fc824a6f5bf",
+    "2ce6a0d7a2a9c656671f78c95201f759"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1543,7 +1543,8 @@
     "https://kenyans.co.ke/news/129011-police-commission-takes-battle-over-recruitment-promotions-supreme-court",
     "https://kenyans.co.ke/news/129010-moh-release-46-ebola-contacts-quarantine-issues-notice",
     "https://kenyans.co.ke/news/129015-russia-compensate-kenyan-victims-recruited-military-after-ruto-putin-talks",
-    "https://kenyans.co.ke/news/129009-supreme-court-faults-nairobi-county-over-approval-high-rise-buildings"
+    "https://kenyans.co.ke/news/129009-supreme-court-faults-nairobi-county-over-approval-high-rise-buildings",
+    "https://kenyans.co.ke/news/129016-epra-proposes-mandatory-online-clearance-fuel-and-cooking-gas"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2177,7 +2178,8 @@
     "police commission escalates command dispute supreme court kanja 948 promotions",
     "ebola exit clock hinges isolation bed clearances quarantine net narrows",
     "posts defence attach moscow process military compensation repatriations",
-    "apex court voids nairobi high rise policy framework but spares towers demolition"
+    "apex court voids nairobi high rise policy framework but spares towers demolition",
+    "epra mandates digital clearance cross border fuel gas shipments"
   ],
   "topic_keys": [
     "news tracker",
@@ -7154,6 +7156,15 @@
       "structure": "Judicial paradox lead -> Legislative void and CJ Koome bench ruling -> Lower court errors and Westlands zoning baseline -> Demolition standard and evidentiary bar -> Remittal to Court of Appeal under the June 2026 framework",
       "source": "https://kenyans.co.ke/news/129009-supreme-court-faults-nairobi-county-over-approval-high-rise-buildings",
       "published_at": "2026-10-30T15:42:56Z"
+    },
+    {
+      "title": "EPRA Mandates Digital Clearance for Cross-Border Fuel and Gas Shipments",
+      "angle": "Attribution-led assessment of how shifting transit clearance and haulier journey plans to KenTrade's digital portal eliminates manual border discretion, turning driver and transporter licence verification into an automated pre-condition for cross-border cargo movement.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first statement establishing the regulatory directive and the immediate commercial compliance implications for hauliers.",
+      "structure": "Lead on regulatory mandate and transit impact -> Quote on licensing readiness -> Logistics mechanism (journey plans, KenTrade integration, phased LPG/fuel/coal scope) -> Stakeholder consultation pipeline and November regional rollout",
+      "source": "https://kenyans.co.ke/news/129016-epra-proposes-mandatory-online-clearance-fuel-and-cooking-gas",
+      "published_at": "2026-10-30T16:38:48Z"
     }
   ]
 }
