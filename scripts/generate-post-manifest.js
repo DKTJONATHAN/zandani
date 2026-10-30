@@ -142,10 +142,10 @@ for (const [name, authorPosts] of postsByAuthor) {
   const desk = /scoop|za ndani/i.test(name);
   authorProfiles[name] = {
     name,
-    role: desk ? 'Editorial Desk' : 'Contributing Writer',
+    role: desk ? 'Editorial Desk' : 'Editorial Contributor',
     bio: desk
       ? `${name} is a Za Ndani editorial byline for ${coverageText} updates. Its coverage prioritises clear attribution, useful context and confirmed developments.`
-      : `${name} contributes to Za Ndani coverage of ${coverageText}. The profile focuses on the subjects, developments and practical context readers need to follow each story.`,
+      : `The ${name} byline covers ${coverageText}, with attention to the subjects, developments and practical context readers need to follow each story.`,
     avatar: '',
     location: 'Kenya',
     socials: {},
