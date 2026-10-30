@@ -17,6 +17,7 @@ import { ArticleComments } from "@/components/articles/ArticleComments";
 import { shouldShowWhatWeKnow, splitLedeHtml } from "@/lib/what-we-know";
 import { authorColor, catColor, proxyImg, PLACEHOLDER_IMG } from "@/lib/utils";
 import { trackCategoryView } from "@/hooks/usePreferences";
+import authorProfiles from "../../public/content/authors.json";
 
 const SITE_URL = "https://zandani.co.ke";
 const DEFAULT_OG_IMAGE = `${SITE_URL}/images/default-og.svg`;
@@ -59,14 +60,7 @@ function cleanMetaDescription(raw: string, fallbackTitle: string): string {
   return d;
 }
 
-const AUTHOR_BIOS: Record<string, string> = {
-  "za ndani": "Sharp, cynical, and always first with the scoop. Za Ndani exposes what the mainstream won't touch.",
-  "mutheu ann": "Plugged into Kenya's entertainment circuit.",
-  "celestine nzioka": "Authoritative and unflinching. Celestine cuts through political spin.",
-  "wanjiku kuria": "Nairobi gossip desk. Receipts first, noise second.",
-  "martin kihara": "Showbiz beat for Kenyan stars.",
-  jaj: "Opinion desk. Arguments first, then the evidence from the street.",
-};
+type AuthorEditorialProfile = { name: string; role: string; bio: string; avatar?: string; location?: string };\nconst AUTHOR_PROFILES = authorProfiles as Record<string, AuthorEditorialProfile>;
 
 export default function ArticlePage() {
   const { slug } = useParams<{ slug: string }>();
@@ -158,8 +152,8 @@ export default function ArticlePage() {
     );
   }
 
-  const authorKey = (post.author || "Za Ndani").toLowerCase();
-  const authorBio = AUTHOR_BIOS[authorKey] || "Za Ndani journalist covering the stories that matter in Kenya.";
+  const authorProfile = AUTHOR_PROFILES[post.author] || { name: post.author || "Za Ndani", role: "Contributing Writer", bio: `${post.author || "Za Ndani"} contributes coverage for Za Ndani, with reporting focused on the story and its relevance to readers.` };
+  const authorBio = authorProfile.bio;
   const authorTint = authorColor(post.author);
   const authorInitials = (post.author || "ZN")
     .split(" ")
@@ -171,11 +165,13 @@ export default function ArticlePage() {
   const canonicalUrl = `${SITE_URL}/article/${post.slug}`;
   const metaDescription = cleanMetaDescription(post.excerpt || "", post.title);
   const categoryPaths: Record<string, string> = {
-    news: "/news", politics: "/news", entertainment: "/entertainment",
-    gossip: "/entertainment", showbiz: "/entertainment", sports: "/sports",
-    business: "/business", lifestyle: "/lifestyle",
+    news: "/news", politics: "/news", national: "/news", opinions: "/news",
+    entertainment: "/entertainment", gossip: "/entertainment", showbiz: "/entertainment", celebrity: "/entertainment", music: "/entertainment",
+    sports: "/sports", sport: "/sports", business: "/business", finance: "/business", economy: "/business",
+    lifestyle: "/lifestyle", fashion: "/lifestyle", health: "/lifestyle", travel: "/lifestyle",
   };
-  const categoryPath = categoryPaths[(post.category || "news").toLowerCase()] || "/news";
+  const categorySlug = (post.category || "news").toLowerCase().trim().replace(/[^a-z0-9\\s-]/g, "").replace(/\\s+/g, "-");
+  const categoryPath = categoryPaths[categorySlug] || `/category/${categorySlug}`;
   const categoryLabel = post.category || "News";
   const publishedDate = new Date(post.publishDate || post.date);
   const modifiedDate = new Date(post.dateModified || post.publishDate || post.date);
