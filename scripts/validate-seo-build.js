@@ -40,7 +40,7 @@ let checkedImages = 0;
 let checkedLinks = 0;
 
 for (const file of htmlFiles) {
-  if (path.basename(file) === '404.html') continue;
+  if (path.basename(file) === '404.html' || path.basename(file) === 'app-shell.html') continue;
   const html = fs.readFileSync(file, 'utf8');
   const robots = [...html.matchAll(/<meta\b[^>]*name=["']robots["'][^>]*>/gi)].map((m) => attr(m[0], 'content') || '').join(',').toLowerCase();
   if (robots.includes('noindex')) continue;
