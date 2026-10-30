@@ -4,6 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import App from "./App";
 import "./index.css";
+import "./editorial-unslop.css";
 import { installGlobalErrorHandlers } from "./lib/errors";
 
 installGlobalErrorHandlers();
