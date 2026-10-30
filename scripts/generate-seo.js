@@ -57,9 +57,10 @@ async function loadPosts() {
 }
 function urlBlock(pathname, lastmod) { return `  <url><loc>${escapeXml(assertCanonical(canonicalUrl(pathname)))}</loc><lastmod>${lastmod.toISOString()}</lastmod></url>`; }
 function urlset(blocks, extra = '') { return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"${extra}>\n${blocks.join('\n')}\n</urlset>\n`; }
-function staticSitemap() {
-  const paths = ['/', '/news', '/entertainment', '/sports', '/business', '/lifestyle', '/about', '/contact', '/privacy', '/terms', '/ethics', '/corrections', '/authors', '/tv'];
-  const now = new Date(); return urlset(paths.map((p) => urlBlock(p, now)));
+function staticSitemap(posts) {
+  const paths = ['/', '/news', '/entertainment', '/sports', '/business', '/lifestyle', '/about', '/contact', '/privacy', '/terms', '/ethics', '/corrections', '/authors', '/tv', '/advertise', '/careers', '/fact-check', '/trending', '/podcast', '/live', '/energy', '/education', '/finance', '/sports/live'];
+  const authorPaths = [...new Set(posts.map((post) => slugify(post.author)).filter(Boolean))].map((slug) => `/author/${slug}`);
+  return urlset([...new Set([...paths, ...authorPaths])].map((pathname) => urlBlock(pathname)));
 }
 function categoriesSitemap(posts) {
   const map = { news: '/news', politics: '/news', opinions: '/news', showbiz: '/entertainment', entertainment: '/entertainment', gossip: '/entertainment', sports: '/sports', business: '/business', lifestyle: '/lifestyle' };
@@ -84,7 +85,7 @@ async function writeBoth(name, content) { await fs.mkdir(publicDir, { recursive:
 
 const posts = await loadPosts();
 console.log(`SEO: ${posts.length} published posts included.`);
-await writeBoth('sitemap-static.xml', staticSitemap());
+await writeBoth('sitemap-static.xml', staticSitemap(posts));
 await writeBoth('sitemap-categories.xml', categoriesSitemap(posts));
 await writeBoth('sitemap-articles.xml', articlesSitemap(posts));
 await writeBoth('sitemap-tags.xml', tagsSitemap());
