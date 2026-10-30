@@ -170,6 +170,42 @@ export default function ArticlePage() {
   const postOgImage = ogImg(post.image);
   const canonicalUrl = `${SITE_URL}/article/${post.slug}`;
   const metaDescription = cleanMetaDescription(post.excerpt || "", post.title);
+  const categoryPaths: Record<string, string> = {
+    news: "/news", politics: "/news", entertainment: "/entertainment",
+    gossip: "/entertainment", showbiz: "/entertainment", sports: "/sports",
+    business: "/business", lifestyle: "/lifestyle",
+  };
+  const categoryPath = categoryPaths[(post.category || "news").toLowerCase()] || "/news";
+  const categoryLabel = post.category || "News";
+  const publishedDate = new Date(post.publishDate || post.date);
+  const modifiedDate = new Date(post.dateModified || post.publishDate || post.date);
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "@id": `${canonicalUrl}#article`,
+    headline: post.title,
+    description: metaDescription,
+    image: post.image ? [postOgImage] : undefined,
+    datePublished: Number.isNaN(publishedDate.getTime()) ? undefined : publishedDate.toISOString(),
+    dateModified: Number.isNaN(modifiedDate.getTime()) ? undefined : modifiedDate.toISOString(),
+    author: { "@type": "Person", name: post.author, url: `${SITE_URL}/author/${(post.author || "za-ndani").toLowerCase().replace(/\\s+/g, "-")}` },
+    publisher: {
+      "@type": "Organization",
+      name: "Za Ndani",
+      url: SITE_URL,
+      logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
+    },
+    mainEntityOfPage: { "@type": "WebPage", "@id": canonicalUrl },
+  };
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: categoryLabel, item: `${SITE_URL}${categoryPath}` },
+      { "@type": "ListItem", position: 3, name: post.title, item: canonicalUrl },
+    ],
+  };
   const dateObj = new Date(post.date);
   const formattedDate = isNaN(dateObj.getTime())
     ? post.date
@@ -199,6 +235,8 @@ export default function ArticlePage() {
         <meta name="twitter:title" content={post.title} />
         <meta name="twitter:description" content={metaDescription} />
         <meta name="twitter:image" content={postOgImage} />
+        <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       </Helmet>
 
       <div
