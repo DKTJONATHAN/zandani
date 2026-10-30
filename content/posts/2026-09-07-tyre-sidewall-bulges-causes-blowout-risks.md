@@ -25,7 +25,7 @@ On Monday, September 7, 2026, automotive safety experts in Nairobi issued a publ
 
 A tyre sidewall bulge occurs when the internal fabric layers woven inside the rubber casing rupture. Motorists frequently experience this issue after impacting deep potholes, striking raised kerbs, or driving over sharp road debris. Underinflated tyres are particularly vulnerable to this form of damage because reduced air pressure allows physical shocks to transfer directly into the inner structural plies.
 
-When these internal polyester or steel cords break, high pressure air escapes from the inner liner and pushes outward against the flexible outer layer of rubber. This process creates a visible bubble on the side of the tyre. While vehicle owners frequently manage routine personal paperwork, such as following [Huduma Kenya birth certificate county application rules](https://zandani.co.ke/article/huduma-kenya-birth-certificate-county-application-rules), visual checks of vehicle wheels are often overlooked until a road emergency happens.
+When these internal polyester or steel cords break, high-pressure air pushes outward against the flexible outer layer of rubber and creates a visible bubble on the tyre’s sidewall. Drivers should treat that bulge as a safety warning, not a cosmetic defect, and have the tyre inspected before returning the vehicle to service.
 
 ### How can drivers distinguish bulges from harmless indentations?
 
@@ -37,4 +37,4 @@ In contrast, a dangerous bulge always protrudes outward from the tyre surface. T
 
 Automotive mechanics urge drivers who detect a sidewall bulge to replace the damaged tyre with a spare immediately. Continuing to operate a vehicle on a compromised sidewall exposes occupants to severe blowout risks, particularly when travelling at elevated highway speeds or carrying heavy cargo.
 
-Drivers should also monitor their vehicles for subtle indicators of tyre failure, including unusual steering wheel vibrations or fine hairline cracks along the outer rubber. Conducting regular tire pressure checks at least once per month helps maintain proper structural tension. Ensuring vehicle safety remains an individual responsibility, operating alongside national industrial developments such as [Kenya pushing for local manufacturing and value addition](https://zandani.co.ke/article/kenya-pushes-for-local-manufacturing-and-value-addition) in automotive components.
+Drivers should also monitor their vehicles for subtle indicators of tyre failure, including unusual steering-wheel vibrations or fine cracks along the outer rubber. Regular pressure checks and visual inspections can help motorists spot damage early. A tyre with a sidewall bulge should be replaced rather than patched.
