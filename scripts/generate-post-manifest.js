@@ -59,6 +59,15 @@ function buildSnippet(data, bodyContent) {
   return truncateSnippet(paragraphs[0] || bodyContent || '');
 }
 
+function slugify(value) {
+  return String(value || '').toLowerCase().trim()
+    .replace(/[%']/g, ' ')
+    .replace(/[^a-z0-9\s-]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
 function safeTime(value) {
   const time = new Date(value || '').getTime();
   return Number.isNaN(time) ? 0 : time;
@@ -86,7 +95,10 @@ for (const file of files) {
 
   if (!publishTime || publishTime > now) continue;
 
-  const slug = String(data.slug || file.replace(/\.md$/, '')).trim();
+  const rawSlug = String(data.slug || file.replace(/\.md$/, '')).trim();
+  const slug = slugify(rawSlug);
+  if (!slug) { console.warn('Skipping post with an empty normalized slug:', file); continue; }
+  if (slug !== rawSlug) console.warn('Normalized post slug:', rawSlug, '→', slug);
   const category = String(data.category || 'News').trim();
   const author = String(data.author || 'Za Ndani').trim();
   const image = typeof data.image === 'string' && data.image.trim() ? data.image.trim() : '/images/placeholder.jpg';
