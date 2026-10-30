@@ -1,0 +1,272 @@
+/* Za Ndani — editorial design refinement
+   A contemporary Kenyan newsroom: confident typography, strict grids,
+   restrained orange, strong photography and purposeful editorial hierarchy.
+   Preserve the dark-only brand and all existing editorial content/components. */
+
+:root {
+  --radius: .35rem;
+  --editorial-rule: hsl(0 0% 17%);
+  --editorial-panel: hsl(0 0% 5.5%);
+  --editorial-panel-raised: hsl(0 0% 8%);
+  --editorial-orange: hsl(22 97% 46%);
+}
+
+html, body { background: hsl(0 0% 2%); }
+body { letter-spacing: -.005em; }
+::selection { background: hsl(22 97% 46% / .32); color: #fff; }
+h1, h2, h3, h4 { text-wrap: pretty; }
+a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible {
+  outline: 2px solid hsl(22 97% 58%);
+  outline-offset: 3px;
+}
+
+/* Newsroom header: clear hierarchy, minimal blur and no ornamental pill UI. */
+.brand-bar { height: 3px; background: var(--editorial-orange); }
+header.sticky {
+  background: hsl(0 0% 3% / .98) !important;
+  backdrop-filter: none !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid var(--editorial-rule) !important;
+}
+header .animate-header-marquee { animation-duration: 55s; }
+header .animate-header-marquee a { text-decoration: none; }
+header nav a { text-decoration: none; }
+header nav a:hover { color: var(--editorial-orange); }
+header img { border-radius: 0 !important; }
+header button { border-radius: 2px !important; box-shadow: none !important; }
+header .rounded-full { border-radius: 999px !important; }
+
+/* Global components: remove the default shadcn card-with-shadow appearance. */
+[data-radix-popper-content-wrapper] > *,
+[role="dialog"],
+[role="alertdialog"] {
+  box-shadow: 0 16px 48px rgba(0,0,0,.38);
+}
+.bg-card {
+  background-color: var(--editorial-panel) !important;
+}
+.border-border, .border-divider {
+  border-color: var(--editorial-rule) !important;
+}
+.shadow-sm, .shadow-md, .shadow-lg, .shadow-xl, .shadow-2xl {
+  box-shadow: none !important;
+}
+.rounded-3xl, .rounded-2xl {
+  border-radius: 3px !important;
+}
+.rounded-xl { border-radius: 3px !important; }
+.rounded-lg { border-radius: 3px !important; }
+.rounded-md { border-radius: 3px !important; }
+button, [role="button"] { box-shadow: none; }
+button:hover { filter: none; }
+button:active { transform: translateY(1px); }
+button:disabled { transform: none; }
+
+/* Buttons and fields: editorial controls, not glossy app chrome. */
+button[class*="bg-primary"],
+a[class*="bg-primary"] {
+  border-radius: 2px !important;
+  box-shadow: none !important;
+  font-weight: 750;
+}
+input, textarea, select {
+  border-radius: 2px !important;
+  box-shadow: none !important;
+}
+input:focus, textarea:focus, select:focus {
+  border-color: var(--editorial-orange) !important;
+}
+input::placeholder, textarea::placeholder {
+  color: hsl(32 8% 53%);
+}
+form { gap: 1rem; }
+form label { line-height: 1.4; }
+
+/* Editorial homepage: clear masthead, rules and consistent story rhythm. */
+.news-home { background: hsl(0 0% 2%); }
+.news-home__masthead {
+  border-bottom: 1px solid var(--editorial-rule);
+  padding-bottom: 1rem;
+}
+.news-home__masthead h1 {
+  letter-spacing: -.075em;
+  line-height: .88;
+}
+.news-home__masthead .edition,
+.news-home__masthead .date {
+  color: hsl(32 10% 60%);
+}
+.news-home .section-kicker {
+  letter-spacing: .16em;
+  font-size: .66rem;
+  font-weight: 800;
+}
+.news-home .hero-grid { gap: 1.4rem; }
+.news-home .hero-title {
+  letter-spacing: -.055em;
+  line-height: 1.02;
+}
+.news-home .latest-story {
+  border-bottom: 1px solid var(--editorial-rule);
+}
+.news-home .latest-story img,
+.news-home .hero-image,
+.news-home img {
+  border-radius: 0 !important;
+}
+.news-home .latest-story img { aspect-ratio: 4 / 3; object-fit: cover; }
+.news-home .hero-image { overflow: hidden; }
+.news-home .hero-image img {
+  transition: transform .35s ease;
+}
+.news-home a:hover .hero-image img { transform: scale(1.02); }
+.news-home .group:hover h2,
+.news-home .group:hover h3 { color: var(--editorial-orange); }
+.news-home .border-b { border-color: var(--editorial-rule); }
+.news-home .bg-card { background: var(--editorial-panel); }
+
+/* Featured story: keep the image legible, remove stacked glass badges and motion gimmicks. */
+article.rounded-3xl,
+article[class*="rounded-3xl"] {
+  border-radius: 3px !important;
+}
+article .backdrop-blur-md,
+article .backdrop-blur-sm {
+  backdrop-filter: none !important;
+}
+article .shadow-lg { box-shadow: none !important; }
+article .group-hover\:scale-110:hover img { transform: scale(1.025); }
+article .group-hover\:scale-105:hover img { transform: scale(1.02); }
+article .group-hover\:scale-105 img { transition-duration: .35s; }
+article .rounded-full:not(img) {
+  border-radius: 2px !important;
+}
+article .drop-shadow-lg { filter: none !important; }
+
+/* Article reading experience: strong measure, generous leading, calm metadata. */
+.news-article .article-shell { max-width: 1320px; }
+.news-article .article-headline {
+  max-width: 18ch;
+  font-size: clamp(2.2rem, 5vw, 4.2rem);
+  letter-spacing: -.06em;
+  line-height: .99;
+  text-wrap: balance;
+}
+.news-article .article-byline {
+  border-color: var(--editorial-rule);
+  font-size: .82rem;
+}
+.news-article .article-hero {
+  max-height: 44rem;
+  object-fit: cover;
+}
+.news-article .prose-article {
+  font-size: clamp(1.04rem, 1.25vw, 1.16rem);
+  line-height: 1.82;
+  letter-spacing: 0;
+}
+.news-article .prose-article p { margin-block: 1.25em; }
+.news-article .prose-article h2,
+.news-article .prose-article h3 {
+  margin-top: 2em;
+  letter-spacing: -.04em;
+  line-height: 1.12;
+}
+.news-article .prose-article blockquote {
+  border-left: 3px solid var(--editorial-orange);
+  background: var(--editorial-panel);
+  padding: 1rem 1.25rem;
+}
+.news-article .prose-article img { border-radius: 0; }
+.news-article .article-aside { border-color: var(--editorial-rule); }
+.news-article .article-share-rail button {
+  border-radius: 2px !important;
+}
+
+/* Story cards: rely on image, headline and metadata instead of containers. */
+article.group, .group.block {
+  box-shadow: none !important;
+}
+article.group img, .group.block img {
+  border-radius: 0 !important;
+}
+article.group h2, article.group h3,
+.group.block h2, .group.block h3 {
+  letter-spacing: -.035em;
+  line-height: 1.12;
+}
+article.group a:hover h2, article.group a:hover h3,
+.group.block:hover h2, .group.block:hover h3 {
+  color: var(--editorial-orange);
+}
+article.group .line-clamp-2,
+.group.block .line-clamp-2 { line-height: 1.25; }
+
+/* Sidebar, live desk, polls, comments and search. */
+.news-article .border,
+.news-article [class*="border-"] {
+  border-color: var(--editorial-rule);
+}
+.news-article .bg-card,
+.news-article [class*="bg-card"] { background: var(--editorial-panel); }
+.news-article .article-aside .rounded-xl,
+.news-article .article-aside .rounded-lg { border-radius: 2px !important; }
+.news-article .article-aside > *,
+.news-article .article-reading-grid > * { min-width: 0; }
+[role="dialog"] { border: 1px solid var(--editorial-rule); border-radius: 3px !important; }
+[role="dialog"] button { border-radius: 2px !important; }
+
+/* Forms and newsletter: quiet field chrome and obvious submit action. */
+form input:not([type="checkbox"]):not([type="radio"]),
+form textarea, form select {
+  min-height: 44px;
+  border: 1px solid var(--editorial-rule);
+  background: hsl(0 0% 5%);
+  color: hsl(36 33% 92%);
+  padding: .7rem .8rem;
+}
+form textarea { min-height: 120px; }
+form button[type="submit"] {
+  min-height: 44px;
+  border-radius: 2px !important;
+  font-weight: 800;
+}
+form .text-destructive { color: #ff8d83; }
+
+/* Footer and mobile bottom navigation. */
+footer { border-top: 1px solid var(--editorial-rule); }
+footer a { text-decoration: none; }
+footer a:hover { color: var(--editorial-orange); }
+.mobile-bottom-nav, nav[aria-label="Mobile navigation"] {
+  border-top: 1px solid var(--editorial-rule);
+  box-shadow: none !important;
+}
+
+/* Motion is limited to meaningful state changes; no perpetual ornamental animation. */
+.animate-pulse { animation-duration: 2.4s; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Mobile editorial layout: readable headlines, no squeezed multi-column cards. */
+@media (max-width: 767px) {
+  .news-home .news-home__masthead h1 { font-size: clamp(2.6rem, 15vw, 3.4rem); }
+  .news-home .hero-title { font-size: clamp(1.9rem, 8vw, 2.5rem); }
+  .news-article .article-headline { font-size: clamp(2.15rem, 10vw, 3rem); }
+  .news-article .article-shell { padding-top: 1rem; }
+  .news-article .prose-article { font-size: 1.03rem; line-height: 1.78; }
+  .news-article .article-byline { padding-bottom: 1rem; margin-bottom: 1rem; }
+  .news-home .latest-story { gap: .75rem; padding-block: .8rem; }
+  .news-home .latest-story img { width: 6.5rem; height: 5.2rem; }
+}
+@media (max-width: 420px) {
+  .news-article .article-headline { font-size: 2.05rem; }
+  .news-home .latest-story { grid-template-columns: 6rem minmax(0,1fr); }
+  .news-home .latest-story img { width: 6rem; height: 4.8rem; }
+}
