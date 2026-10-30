@@ -16,6 +16,8 @@ if (!fs.existsSync(indexHtmlPath)) {
 }
 
 const baseHtml = fs.readFileSync(indexHtmlPath, 'utf8');
+const authorProfilesPath = path.join(process.cwd(), 'public/content/authors.json');
+const authorProfiles = fs.existsSync(authorProfilesPath) ? JSON.parse(fs.readFileSync(authorProfilesPath, 'utf8')) : {};
 
 function escapeHtml(value) {
   return String(value ?? '')
@@ -112,32 +114,59 @@ const baseRoutes = [
   '/advertise', '/careers', '/ethics', '/corrections', '/fact-check',
   '/trending', '/news', '/entertainment', '/sports', '/business', '/lifestyle',
   '/sports/live', '/sitemap', '/authors', '/podcast', '/tv', '/energy',
-  '/education', '/finance', '/live'
+  '/education', '/finance', '/live', '/faq'
 ];
 
 const staticMeta = {
-  '/': ['Za Ndani | Kenya News, Gossip & Entertainment', 'Breaking Kenyan news, celebrity gossip, entertainment, politics and sports — delivered daily by Za Ndani.'],
-  '/news': ['Kenya Breaking News | Za Ndani', 'Latest breaking news and national stories from Kenya.'],
-  '/entertainment': ['Kenya Entertainment News | Za Ndani', 'Celebrity, music, television and entertainment news from Kenya and beyond.'],
-  '/sports': ['Kenya Sports News | Za Ndani', 'Latest Kenyan sports news, football, athletics and major sporting updates.'],
-  '/business': ['Kenya Business News | Za Ndani', 'Kenya economy, markets, business and financial news from Za Ndani.'],
-  '/lifestyle': ['Kenya Lifestyle News | Za Ndani', 'Lifestyle, culture, health, travel and everyday life stories from Kenya.'],
-  '/trending': ['Trending News Kenya | Za Ndani', 'The stories people are talking about across Kenya right now.'],
-  '/about': ['About Za Ndani | Kenya News & Entertainment', 'Learn about Za Ndani, a Kenya-first digital publisher covering news and entertainment.'],
-  '/contact': ['Contact Za Ndani', 'Contact the Za Ndani newsroom and editorial team.'],
-  '/ethics': ['Editorial Ethics | Za Ndani', 'Za Ndani editorial standards and commitment to accurate reporting.'],
-  '/corrections': ['Corrections Policy | Za Ndani', 'How Za Ndani handles corrections and updates to published stories.']
+  '/': ['Za Ndani | Kenya News, Politics, Sports & Entertainment', 'Independent-minded coverage of Kenya news, public affairs, business, sports, entertainment and culture, with context on the stories shaping everyday life.'],
+  '/news': ['Kenya Breaking News & National Affairs | Za Ndani', 'Follow breaking news, national developments, public institutions and current affairs from Kenya, with clear context and timely updates.'],
+  '/entertainment': ['Kenya Entertainment, Music & Celebrity News | Za Ndani', 'The latest on Kenyan entertainment, music, film, television, celebrity culture and the creative industries across East Africa.'],
+  '/sports': ['Kenya Sports News, Football & Athletics | Za Ndani', 'Kenyan football, athletics and other sports coverage, including match reports, team developments and major international competitions.'],
+  '/business': ['Kenya Business, Markets & Economy News | Za Ndani', 'Business and economic reporting on Kenyan companies, markets, entrepreneurship, finance, jobs and policy affecting consumers.'],
+  '/lifestyle': ['Kenya Lifestyle, Culture & Society | Za Ndani', 'Stories on lifestyle, culture, wellbeing, travel and the social trends shaping how people live across Kenya.'],
+  '/trending': ['Trending Stories in Kenya Today | Za Ndani', 'Explore developing and widely discussed stories across Kenya, from public affairs and entertainment to sport and culture.'],
+  '/about': ['About Za Ndani | Our Newsroom & Editorial Mission', 'Learn about Za Ndani, its Kenya-focused coverage, editorial mission and approach to news, entertainment and public-interest reporting.'],
+  '/contact': ['Contact the Za Ndani Newsroom | Story Tips & Enquiries', 'Contact Za Ndani with story tips, corrections, right-of-reply requests, editorial enquiries and partnership questions.'],
+  '/privacy': ['Privacy Policy | Za Ndani', 'Read how Za Ndani handles website data, cookies, contact enquiries, newsletter subscriptions and privacy requests.'],
+  '/privacy-policy': ['Privacy Policy | Za Ndani', 'Understand the information Za Ndani collects through its website, why it is used and how visitors can make privacy requests.'],
+  '/terms': ['Terms of Use | Za Ndani', 'Review the terms that apply when accessing Za Ndani, using its website features and engaging with published content.'],
+  '/advertise': ['Advertise with Za Ndani | Reach Kenyan Readers', 'Explore advertising and partnership enquiries with Za Ndani, a digital publisher covering Kenyan news, culture and entertainment.'],
+  '/careers': ['Careers & Contributions | Za Ndani', 'Find out how to contact Za Ndani about editorial contributions, opportunities and collaboration with the newsroom.'],
+  '/ethics': ['Editorial Ethics & Standards | Za Ndani', 'Read Za Ndani’s standards on accuracy, attribution, fairness, editorial independence, source protection and conflicts of interest.'],
+  '/corrections': ['Corrections & Accountability Policy | Za Ndani', 'Learn how to report an error, how Za Ndani reviews corrections and how substantive changes to published stories are explained.'],
+  '/fact-check': ['Fact-Check & Verification | Za Ndani', 'Explore Za Ndani’s approach to checking claims, evaluating sources and adding context to information circulating in public debate.'],
+  '/sports/live': ['Live Sports Scores & Updates | Za Ndani', 'Follow live sports scores, fixtures and match updates through Za Ndani’s sports coverage.'],
+  '/sitemap': ['HTML Sitemap | Za Ndani', 'Browse Za Ndani sections, editorial resources and recent articles through this human-readable site directory.'],
+  '/authors': ['Za Ndani Authors & Editorial Desks | Meet the Contributors', 'Browse Za Ndani contributor profiles, editorial coverage areas and the latest stories published under each byline.'],
+  '/podcast': ['Za Ndani Podcasts | Audio Stories & Conversations', 'Discover audio projects and podcast updates from Za Ndani covering Kenyan news, culture and current affairs.'],
+  '/tv': ['Za Ndani TV | Video News & Entertainment', 'Watch video updates and visual stories from Za Ndani, covering Kenyan news, entertainment and culture.'],
+  '/energy': ['Energy News & Policy in Kenya | Za Ndani', 'Follow energy, electricity, fuel, renewables and policy developments affecting households and businesses in Kenya.'],
+  '/education': ['Education News & Policy in Kenya | Za Ndani', 'Follow education policy, schools, universities, examinations and developments affecting learners, families and educators in Kenya.'],
+  '/finance': ['Personal Finance & Financial News | Za Ndani', 'Understand finance, money, banking, markets and economic decisions affecting individuals and businesses in Kenya.'],
+  '/live': ['Live News Updates | Za Ndani', 'Follow developing news and live updates from Kenya and across the region as important stories unfold.'],
+  '/faq': ['Frequently Asked Questions | Za Ndani', 'Answers about Za Ndani coverage, editorial standards, corrections, story tips, contributor bylines and how to contact the newsroom.']
 };
-
-function genericPage(route) {
-  const [title, description] = staticMeta[route] || [`${route.replace(/^\//, '').replace(/-/g, ' ')} | Za Ndani`, 'Za Ndani — Kenyan news, entertainment and current affairs.'];
-  const url = `${SITE_URL}${route === '/' ? '' : route}`;
-  const meta = `\n<title>${escapeHtml(title)}</title>\n<meta name="description" content="${escapeHtml(description)}">\n<link rel="canonical" href="${escapeHtml(url)}">\n<meta property="og:title" content="${escapeHtml(title)}">\n<meta property="og:description" content="${escapeHtml(description)}">\n<meta property="og:url" content="${escapeHtml(url)}">\n<meta property="og:type" content="website">\n`;
-  const links = posts.slice(0, 12).map((p) => `<li><a href="/article/${encodeURIComponent(p.slug)}">${escapeHtml(p.title)}</a></li>`).join('');
-  const body = `<main><section><h1>${escapeHtml(title.split(' | ')[0])}</h1><p>${escapeHtml(description)}</p><nav aria-label="Latest stories"><ul>${links}</ul></nav></section></main>`;
-  return injectRoot(injectHead(baseHtml, meta), body);
+function siteNavHtml() {
+  const links = baseRoutes.filter((route) => route !== '/privacy-policy' && route !== '/sitemap')
+    .map((route) => {
+      const label = route === '/' ? 'Home' : route.replace(/^\//, '').replace(/-/g, ' ').replace(/\//g, ' · ');
+      return '<li><a href="' + route + '">' + escapeHtml(label) + '</a></li>';
+    }).join('');
+  return '<nav aria-label="Site sections"><ul>' + links + '</ul></nav>';
 }
 
+function genericPage(route) {
+  const [title, description] = staticMeta[route] || [route.replace(/^\//, '').replace(/-/g, ' ') + ' | Za Ndani', 'Explore ' + route.replace(/^\//, '').replace(/-/g, ' ') + ' coverage from Za Ndani, including related news and useful context.'];
+  const url = SITE_URL + (route === '/' ? '' : route);
+  const meta = '\n<title>' + escapeHtml(title) + '</title>\n<meta name="description" content="' + escapeHtml(description) + '">\n<link rel="canonical" href="' + escapeHtml(url) + '">\n<meta property="og:title" content="' + escapeHtml(title) + '">\n<meta property="og:description" content="' + escapeHtml(description) + '">\n<meta property="og:url" content="' + escapeHtml(url) + '">\n<meta property="og:type" content="website">\n';
+  const links = posts.slice(0, 12).map((p) => '<li><a href="/article/' + encodeURIComponent(p.slug) + '">' + escapeHtml(p.title) + '</a></li>').join('');
+  let extra = '';
+  if (route === '/authors') {
+    extra = '<section><h2>Contributor profiles</h2><ul>' + Object.values(authorProfiles).map((profile) => '<li><a href="/author/' + slugify(profile.name) + '">' + escapeHtml(profile.name) + '</a> — ' + escapeHtml(profile.role || 'Contributor') + '</li>').join('') + '</ul></section>';
+  }
+  const body = '<main><section><h1>' + escapeHtml(title.split(' | ')[0]) + '</h1><p>' + escapeHtml(description) + '</p>' + siteNavHtml() + '<nav aria-label="Latest stories"><h2>Latest stories</h2><ul>' + links + '</ul></nav>' + extra + '</section></main>';
+  return injectRoot(injectHead(baseHtml, meta), body);
+}
 for (const route of baseRoutes) writeRoute(route, genericPage(route));
 
 const categoryNames = [...new Set(posts.map((p) => p.category))].sort();
