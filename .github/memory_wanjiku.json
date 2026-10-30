@@ -319,7 +319,8 @@
     "343e70e4c6c1f01d5be5276542afb4b63e59340fe96bb9d92c21c661a39ab2f2",
     "662f39eee6803a6e357afc2993d3ef0037217da458dbd9e918c7c8eadfe4ab3b",
     "472056c76442e97c685c2cb9ea2b19d0ce847a0ca032be1c16c642703534edcb",
-    "0fae973d0b924d1e99cb07974553c30f55135c4859f7cc7cbd4756d11fd2b7c9"
+    "0fae973d0b924d1e99cb07974553c30f55135c4859f7cc7cbd4756d11fd2b7c9",
+    "70f2a9d32d35fa6e2ac812abbb280c38ed2f7fc49c9f7b5d0880d2a85d68fa5e"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -641,17 +642,10 @@
     "https://www.ghafla.co.ke/geoffrey-mosiria-laments-city-hall-dismissal-and-officially-accepts-call-to-challenge-sakaja-in-2027-nairobi-gubernatorial-race/",
     "https://www.ghafla.co.ke/sportpesa-ceo-ronald-karauri-promises-job-to-dismissed-chief-officer-geoffrey-mosiria/",
     "https://www.ghafla.co.ke/fans-pour-out-support-for-actress-sandra-dacha-following-illness-announcement/",
-    "https://www.ghafla.co.ke/geoffrey-mosiria-vows-to-challenge-sakaja-in-2027-following-dismissal-claims-hard-work-cost-him-his-job/"
+    "https://www.ghafla.co.ke/geoffrey-mosiria-vows-to-challenge-sakaja-in-2027-following-dismissal-claims-hard-work-cost-him-his-job/",
+    "https://www.ghafla.co.ke/frida-knows-me-babu-owino-dismisses-mosirias-allegations-of-secret-wife/"
   ],
   "published_angles": [
-    {
-      "title": "Kenya Power Cuts Monday Supply Across Nairobi\u2019s Peponi Strip, Olepolos, and Regional Belts in 9-Hour Maintenance",
-      "angle": "Framing the shutdown through its direct impact on high-traffic suburban lifestyle strips, commercial nodes, and regional processing hubs rather than a passive listicle.",
-      "angle_type": "lifestyle and commercial infrastructure impact",
-      "opening": "Direct focus on the daytime shutdown hitting Nairobi's high-end residential and dining belt alongside five regional counties.",
-      "structure": "Capital lifestyle corridor lead -> Kajiado and peri-urban breakdown -> Mount Kenya institutional and tea belt disruption -> West Pokot frontier stretch -> Grid maintenance advisory close",
-      "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-five-areas-on-october-12/"
-    },
     {
       "title": "Maurice Ogeta Lays Bare Final India Hours: Why He Blocked Hospital Counselors and Demanded Raw Truth for Winnie Odinga",
       "angle": "Maurice Ogeta acting as the protective inner-circle gatekeeper\u2014reading the silent clues of candles and Bibles, cutting through clinical protocols, and firmly blocking hospital grief counselors to demand raw medical truth for Winnie and Ruth Odinga.",
@@ -1443,6 +1437,14 @@
       "opening": "Personality lead opening directly on Geoffrey Mosiria reaching into the digital archives to pull out Johnson Sakaja's own recorded compliments as ammunition against the man who fired him.",
       "structure": "Receipt hook (the archival ICU video) -> The paradox of praise versus dismissal -> Mosiria's direct workplace warning -> Appeal to Nairobi's 23,000 county workforce -> Political roadmap toward August 2027.",
       "source": "https://www.ghafla.co.ke/geoffrey-mosiria-vows-to-challenge-sakaja-in-2027-following-dismissal-claims-hard-work-cost-him-his-job/"
+    },
+    {
+      "title": "Babu Owino Challenges Geoffrey Mosiria to Produce \u2018Secret Wife\u2019 in Public",
+      "angle": "Focusing on Babu Owino's unusual demand for public proof and his framing of single-parent upbringing as the anchor for his personal integrity.",
+      "angle_type": "public figure accountability and domestic challenge",
+      "opening": "Personality lead focusing directly on Babu Owino turning the tables on Geoffrey Mosiria with a public challenge.",
+      "structure": "Challenge hook -> Frida Muthoni Ongili context -> Single mother upbringing flashback -> Fatherhood responsibility stance.",
+      "source": "https://www.ghafla.co.ke/frida-knows-me-babu-owino-dismisses-mosirias-allegations-of-secret-wife/"
     }
   ],
   "style_history": [
