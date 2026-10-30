@@ -43,12 +43,13 @@ def _download_image(url, source_url=""):
         return raw, im.width, im.height
     return raw, 0, 0
 
-def upload_to_imgbb(url, source_url=""):
+def upload_to_imgbb(url, source_url="", allow_source_fallback=False):
     api=os.environ.get("IMGBB_API_KEY") or os.environ.get("IMGBB_KEY")
-    if not api: return ""
+    verified_source=False
     try:
         raw,w,h=_download_image(url,source_url)
         if w and h and (w<250 or h<150): raise ValueError("image dimensions too small")
+        verified_source=True
         if Image is not None:
             im=Image.open(io.BytesIO(raw))
             if im.mode in ("RGBA","LA","P"): im=im.convert("RGB")
@@ -57,6 +58,11 @@ def upload_to_imgbb(url, source_url=""):
                 im=im.resize((1600,max(1,int(im.height*ratio))),Image.LANCZOS)
             buf=io.BytesIO(); im.save(buf,format="WEBP",quality=84,method=4)
             raw=buf.getvalue()
+        if not api:
+            if allow_source_fallback and verified_source:
+                print("Image host key unavailable; using verified original source image:",url)
+                return url
+            return ""
         res=requests.post("https://api.imgbb.com/1/upload",
                           data={"key":api,"image":base64.b64encode(raw).decode()},
                           timeout=35)
@@ -67,21 +73,24 @@ def upload_to_imgbb(url, source_url=""):
         _download_image(hosted)
         return hosted
     except Exception as exc:
-        print("image rejected:",url,exc)
+        print("image host/upload failed:",url,exc)
+        if allow_source_fallback and verified_source:
+            print("Using verified original source image as fallback:",url)
+            return url
         return ""
 
-def prepare_featured(featured, source_url=""):
+def prepare_featured(featured, source_url="", allow_source_fallback=False):
     if _bad(featured): return ""
-    return upload_to_imgbb(featured,source_url)
+    return upload_to_imgbb(featured,source_url,allow_source_fallback)
 
-def prepare_images(candidates, source_url="", featured=""):
+def prepare_images(candidates, source_url="", featured="", allow_source_fallback=False):
     out=[]; seen=set(); featured_norm=str(featured or "").split("?")[0].rstrip("/").lower()
     for item in candidates or []:
         if not isinstance(item,dict): continue
         source=str(item.get("url") or "").strip()
         if not source or source in seen or source.split("?")[0].rstrip("/").lower()==featured_norm or _bad(source,item.get("alt",""),item.get("caption","")): continue
         seen.add(source)
-        hosted=upload_to_imgbb(source,source_url)
+        hosted=upload_to_imgbb(source,source_url,allow_source_fallback)
         if not hosted: continue
         out.append({**item,"source_url":source,"url":hosted,
                     "selected_alt":str(item.get("alt") or item.get("caption") or "Story image").strip()[:180] or "Story image",
