@@ -13,7 +13,7 @@ from desk_image_pipeline import prepare_featured, prepare_images, inject_images,
 from voice_guard import mentions_stale_year
 
 AUTHOR="Martin Kihara"; CATEGORY="Showbiz"; DOMAIN="mpasho.co.ke"
-LISTINGS=["https://www.mpasho.co.ke/"]
+LISTINGS=list(dict.fromkeys([os.environ.get("DESK_SOURCE", "https://www.mpasho.co.ke/entertainment"), "https://www.mpasho.co.ke/"]))
 POSTS=os.environ.get("POSTS_DIR","content/posts"); MEMORY=os.environ.get("MEMORY_FILE",".github/memory_martin_mpasho.json")
 FRESH=int(os.environ.get("FRESH_HOURS","24")); MAX=30
 HEAD={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/128 Safari/537.36","Accept":"text/html,application/xhtml+xml"}
@@ -40,6 +40,10 @@ def article_path(url):
     if any(x in p for x in ("/author/","/tag/","/category/","/page/","/feed","/search","/about","/contact")): return False
     return bool(re.search(r"/20\d{2}-\d{2}-\d{2}-[a-z0-9-]{10,}",p)) or any(x in p for x in ("/entertainment/","/relationships/","/exclusives/"))
 
+def is_mpasho_host(host):
+    host=(host or "").lower().split(":")[0]
+    return host.removeprefix("www.") == DOMAIN
+
 def candidates():
     out=[]; seen=set()
     for listing in LISTINGS:
@@ -49,7 +53,7 @@ def candidates():
             for a in soup.select("a[href]"):
                 href=urllib.parse.urljoin(listing,(a.get("href") or "").strip())
                 parsed=urllib.parse.urlparse(href)
-                if parsed.netloc!=DOMAIN or not article_path(href): continue
+                if not is_mpasho_host(parsed.hostname) or not article_path(href): continue
                 # Mpasho is the discovery source; this desk publishes entertainment only.
                 if not parsed.path.lower().startswith("/entertainment/"): continue
                 k=story_key(href)
@@ -70,12 +74,13 @@ def candidates():
                     for a in soup.select("a[href]"):
                         href=urllib.parse.urljoin(listing,(a.get("href") or "").strip())
                         parsed=urllib.parse.urlparse(href)
-                        if parsed.netloc==DOMAIN and article_path(href) and parsed.path.lower().startswith("/entertainment/") and story_key(href) not in seen:
+                        if is_mpasho_host(parsed.hostname) and article_path(href) and parsed.path.lower().startswith("/entertainment/") and story_key(href) not in seen:
                             seen.add(story_key(href)); out.append(href)
                 except Exception as e:
                     print("Mpasho browser listing failed:",listing,e)
             b.close()
     except Exception as e: print("Mpasho Playwright listing fallback failed:",e)
+    print(f"Mpasho discovery: {len(out)} candidate links across {len(LISTINGS)} listings")
     return out[:MAX]
 
 def publish_dt(html):
