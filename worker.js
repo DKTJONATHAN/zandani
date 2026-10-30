@@ -587,6 +587,31 @@ async function sendWelcome(env, email, suppliedName = "") {
   return body;
 }
 
+async function verifyTurnstile(request, env, token, expectedAction) {
+  const secret = String(env.TURNSTILE_SECRET || "").trim();
+  if (!secret) return { ok: false, status: 503, error: "Security verification is not configured on the server." };
+  if (typeof token !== "string" || !token.trim() || token.length > 2048) return { ok: false, status: 400, error: "Please complete the security check." };
+  const form = new URLSearchParams({ secret, response: token.trim() });
+  const remoteIp = request.headers.get("CF-Connecting-IP");
+  if (remoteIp) form.set("remoteip", remoteIp);
+  try {
+    const response = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
+      method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: form, signal: AbortSignal.timeout(10_000),
+    });
+    const result = await response.json().catch(() => ({}));
+    const allowedHosts = String(env.TURNSTILE_HOSTNAMES || "zandani.co.ke").split(",").map((host) => host.trim().toLowerCase()).filter(Boolean);
+    const hostname = String(result.hostname || "").toLowerCase();
+    if (!response.ok || result.success !== true || result.action !== expectedAction || !allowedHosts.includes(hostname)) {
+      return { ok: false, status: 403, error: "Security check failed. Please try again." };
+    }
+    return { ok: true };
+  } catch (error) {
+    console.error("Turnstile verification unavailable", error);
+    return { ok: false, status: 503, error: "Security verification is temporarily unavailable. Please try again." };
+  }
+}
+
 async function handleSubscribe(request, env) {
   if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: corsHeaders() });
   if (request.method !== "POST") return json({ error: "POST only" }, 405);
@@ -596,6 +621,8 @@ async function handleSubscribe(request, env) {
     try { body = await request.json(); } catch { return json({ error: "Enter a valid email." }, 400); }
     const email = validEmail(body?.email);
     if (!email) return json({ error: "Enter a valid email." }, 400);
+    const verification = await verifyTurnstile(request, env, body?.turnstileToken, "newsletter_subscribe");
+    if (!verification.ok) return json({ error: verification.error }, verification.status);
 
     const { already } = await upsertSubscriber(env, email);
 
@@ -659,6 +686,44 @@ async function handleUnsubscribe(request, env) {
     return new Response(thanksPage(), { status: 200, headers: corsHeaders({ "Content-Type": "text/html; charset=utf-8" }) });
   }
   return json({ ok: true });
+}
+
+async function handleContact(request, env) {
+  if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: corsHeaders() });
+  if (request.method !== "POST") return json({ error: "POST only" }, 405);
+  let body;
+  try { body = await request.json(); } catch { return json({ error: "Invalid form submission." }, 400); }
+  const verification = await verifyTurnstile(request, env, body?.turnstileToken, "contact_submit");
+  if (!verification.ok) return json({ error: verification.error }, verification.status);
+  const name = String(body?.name || "").trim().replace(/\s+/g, " ");
+  const email = validEmail(body?.email);
+  const subject = String(body?.subject || "").trim();
+  const message = String(body?.message || "").trim();
+  if (!name || name.length > 120 || !email || !subject || subject.length > 180 || !message || message.length > 8000) {
+    return json({ error: "Please check the form fields and try again." }, 400);
+  }
+  const key = String(env.RESEND_API_KEY || "").trim();
+  if (!key) return json({ error: "The newsroom contact service is not configured. Please email contact@zandani.co.ke." }, 503);
+  try {
+    const response = await fetch(`${RESEND}/emails`, {
+      method: "POST",
+      headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json" },
+      body: JSON.stringify({
+        from: FROM_DEFAULT, to: ["contact@zandani.co.ke"], reply_to: email,
+        subject: `Website contact: ${subject}`,
+        text: `Name: ${name}\nEmail: ${email}\n\n${message}`,
+      }),
+      signal: AbortSignal.timeout(10_000),
+    });
+    if (!response.ok) {
+      console.error("contact email provider rejected message", response.status);
+      return json({ error: "Could not send your message. Please try again later." }, 502);
+    }
+    return json({ ok: true });
+  } catch (error) {
+    console.error("contact email delivery failed", error);
+    return json({ error: "Could not send your message. Please try again later." }, 502);
+  }
 }
 
 // ---- Admin API protection -------------------------------------------------
@@ -827,10 +892,15 @@ export default {
 
     if (path === "/api/push-subscribe") return handlePushSubscribe(request, env);
     if (path === "/api/subscribe") return handleSubscribe(request, env);
+    if (path === "/api/contact") return handleContact(request, env);
     if (path === "/api/unsubscribe") return handleUnsubscribe(request, env);
     if (path === "/api/admin/verify") {
       if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: corsHeaders() });
-      return isAdminAuthorized(request, env) ? json({ ok: true }) : adminDenied(env);
+      if (request.method !== "POST") return json({ error: "POST only" }, 405);
+      let body;
+      try { body = await request.json(); } catch { return json({ error: "Invalid request." }, 400); }
+      const verification = await verifyTurnstile(request, env, body?.turnstileToken, "admin_login");
+      return verification.ok ? json({ ok: true }) : json({ error: verification.error }, verification.status);
     }
     if (path === "/api/github" || path.startsWith("/api/scheduler/")) {
       if (request.method !== "OPTIONS" && !isAdminAuthorized(request, env)) return adminDenied(env);
