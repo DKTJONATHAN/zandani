@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "463c1536ff3fe191d7794c67d05e19a4",
     "cbe2b3ded0c24cd5816a153126d9a054",
     "f7a825a47a3551cfcb0f09e302701875",
     "ac82e7ad106db6a419f811b41ede025e",
@@ -799,10 +798,10 @@
     "98aa576c117aa711c7bf431de02eef06",
     "f378085f56e84f145e18caf9d1601da1",
     "6eb0451036a2061a1167c75e2cd6c43a",
-    "ee3cdaf0b06ff68d945153eaaba4e987"
+    "ee3cdaf0b06ff68d945153eaaba4e987",
+    "e9d660a2bde0b1e53caea16911ea1faf"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1536,7 +1536,8 @@
     "https://kenyans.co.ke/news/128996-us-launches-major-crackdown-kenyans-linked-student-aid-fraud",
     "https://kenyans.co.ke/news/128997-govt-reveals-ksh98-billion-owed-contractors-despite-funding-new-road-projects",
     "https://kenyans.co.ke/news/128999-standard-media-group-appoints-dr-naim-bilal-ceo",
-    "https://kenyans.co.ke/news/128998-ntsa-issues-warning-motorists-over-fake-traffic-offence-notices"
+    "https://kenyans.co.ke/news/128998-ntsa-issues-warning-motorists-over-fake-traffic-offence-notices",
+    "https://kenyans.co.ke/news/129004-transport-costs-surge-17-october-inflation-hits-73-knbs"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2163,7 +2164,8 @@
     "doj exposes ksh16 student aid pipeline routed accounts crypto wallets",
     "securitisation cash influx leaves ksh98b road debt unresolved ministry adds works",
     "standard group hands naim bilal substantive helm halt executive instability",
-    "ntsa flags counterfeit fine slips highway crackdown spawns roadside scams"
+    "ntsa flags counterfeit fine slips highway crackdown spawns roadside scams",
+    "transport surge pushes inflation leaving cbk basis point buffer"
   ],
   "topic_keys": [
     "news tracker",
@@ -7077,6 +7079,15 @@
       "structure": "Enforcement vulnerability lead -> Anatomy of the counterfeit slips and extortion tactics -> Legal notice mechanisms under the Traffic Act -> Campaign context and operational scope -> Systemic verification gap.",
       "source": "https://kenyans.co.ke/news/128998-ntsa-issues-warning-motorists-over-fake-traffic-offence-notices",
       "published_at": "2026-10-30T08:14:33Z"
+    },
+    {
+      "title": "Transport Surge Pushes Inflation to 7.3%, Leaving CBK With 20-Basis-Point Buffer",
+      "angle": "The macroeconomic and regulatory squeeze on the Central Bank of Kenya: October's jump to 7.3 per cent leaves an ultra-thin 20-basis-point cushion beneath the regulator's 7.5 per cent statutory ceiling, driven by an accelerating fuel-to-fare shock and a rising core inflation baseline.",
+      "angle_type": "institutional pressure",
+      "opening": "Macroeconomic ceiling lead framing the 20-basis-point regulatory buffer remaining before inflation breaches the CBK upper target limit.",
+      "structure": "Statutory limit lead -> KNBS factual core and multi-month trajectory -> Anatomy of the 17.1% transport and fuel pass-through -> Core and non-core contagion across the household basket -> Forward monetary policy exposure.",
+      "source": "https://kenyans.co.ke/news/129004-transport-costs-surge-17-october-inflation-hits-73-knbs",
+      "published_at": "2026-10-30T09:02:06Z"
     }
   ]
 }
