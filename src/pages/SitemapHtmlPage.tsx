@@ -59,7 +59,7 @@ const SitemapHtmlPage = () => {
               };
               return (
                 <li key={cat.slug}>
-                  <Link to={sectionRoutes[cat.slug] || \`/category/\${cat.slug}\`} className="text-primary hover:underline">
+                  <Link to={sectionRoutes[cat.slug] || "/category/" + cat.slug} className="text-primary hover:underline">
                     {cat.name}
                   </Link>
                 </li>
