@@ -58,15 +58,26 @@ async function loadPosts() {
 function urlBlock(pathname, lastmod) { return `  <url><loc>${escapeXml(assertCanonical(canonicalUrl(pathname)))}</loc>${lastmod ? `<lastmod>${lastmod.toISOString()}</lastmod>` : ''}</url>`; }
 function urlset(blocks, extra = '') { return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"${extra}>\n${blocks.join('\n')}\n</urlset>\n`; }
 function staticSitemap(posts) {
-  const paths = ['/', '/news', '/entertainment', '/sports', '/business', '/lifestyle', '/about', '/contact', '/privacy', '/terms', '/ethics', '/corrections', '/authors', '/tv', '/advertise', '/careers', '/fact-check', '/trending', '/podcast', '/live', '/energy', '/education', '/finance', '/sports/live'];
+  const paths = ['/', '/news', '/entertainment', '/sports', '/business', '/lifestyle', '/about', '/contact', '/privacy', '/terms', '/ethics', '/corrections', '/authors', '/tv', '/advertise', '/careers', '/fact-check', '/trending', '/podcast', '/live', '/energy', '/education', '/finance', '/sports/live', '/faq'];
   const authorPaths = [...new Set(posts.map((post) => slugify(post.author)).filter(Boolean))].map((slug) => `/author/${slug}`);
   return urlset([...new Set([...paths, ...authorPaths])].map((pathname) => urlBlock(pathname)));
 }
 function categoriesSitemap(posts) {
-  const map = { news: '/news', politics: '/news', opinions: '/news', showbiz: '/entertainment', entertainment: '/entertainment', gossip: '/entertainment', sports: '/sports', business: '/business', lifestyle: '/lifestyle' };
-  const dests = [...new Set([...posts.map((p) => map[slugify(p.category)]).filter(Boolean), '/news', '/entertainment', '/sports', '/business', '/lifestyle'])];
-  const now = new Date();
-  return urlset(dests.map((p) => urlBlock(p, now)));
+  const map = {
+    news: '/news', politics: '/news', national: '/news', opinions: '/news',
+    showbiz: '/entertainment', entertainment: '/entertainment', gossip: '/entertainment', celebrity: '/entertainment', music: '/entertainment',
+    sports: '/sports', sport: '/sports',
+    business: '/business', finance: '/business', economy: '/business',
+    lifestyle: '/lifestyle', fashion: '/lifestyle', health: '/lifestyle', travel: '/lifestyle',
+  };
+  const destinations = new Set(['/news', '/entertainment', '/sports', '/business', '/lifestyle']);
+  for (const post of posts) {
+    const slug = slugify(post.category);
+    if (!slug) continue;
+    destinations.add(map[slug] || '/category/' + slug);
+  }
+  // Do not publish artificial last-modified timestamps for category pages.
+  return urlset([...destinations].map((pathname) => urlBlock(pathname)));
 }
 function articlesSitemap(posts) { return urlset(posts.map((p) => urlBlock(`/article/${encodeURIComponent(p.slug)}`, p.lastmod || p.date))); }
 function tagsSitemap() { return urlset([]);
