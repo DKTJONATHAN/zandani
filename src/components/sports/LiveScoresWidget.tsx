@@ -119,7 +119,7 @@ function LiveMatchRow({ match }: LiveMatchRowProps) {
       {/* Home Team */}
       <div className="flex items-center gap-2 flex-1 min-w-0">
         {match.homeTeam.crest && (
-          <img src={match.homeTeam.crest} alt="" className="w-5 h-5 object-contain" />
+          <img src={match.homeTeam.crest} alt={`${match.homeTeam.name} crest`} className="w-5 h-5 object-contain" />
         )}
         <span className="text-xs font-bold text-zinc-200 truncate">
           {match.homeTeam.shortName || match.homeTeam.name.slice(0, 15)}
@@ -142,7 +142,7 @@ function LiveMatchRow({ match }: LiveMatchRowProps) {
           {match.awayTeam.shortName || match.awayTeam.name.slice(0, 15)}
         </span>
         {match.awayTeam.crest && (
-          <img src={match.awayTeam.crest} alt="" className="w-5 h-5 object-contain" />
+          <img src={match.awayTeam.crest} alt={`${match.awayTeam.name} crest`} className="w-5 h-5 object-contain" />
         )}
       </div>
 
