@@ -27,6 +27,28 @@ function pageFile(pathname) {
     : [path.join(dist, clean.slice(1), 'index.html'), path.join(dist, clean.slice(1) + '.html'), path.join(dist, clean.slice(1))];
   return candidates.find((candidate) => fs.existsSync(candidate) && fs.statSync(candidate).isFile());
 }
+const redirectRules = fs.existsSync('public/_redirects')
+  ? fs.readFileSync('public/_redirects', 'utf8').split(/\r?\n/).map((line) => line.trim()).filter((line) => line && !line.startsWith('#')).map((line) => line.split(/\s+/)).filter((parts) => parts.length >= 2 && !parts[0].includes(':'))
+  : [];
+const workerCategoryRedirects = {
+  '/category/news': '/news', '/category/politics': '/news', '/category/national': '/news', '/category/opinions': '/news',
+  '/category/entertainment': '/entertainment', '/category/gossip': '/entertainment', '/category/showbiz': '/entertainment', '/category/celebrity': '/entertainment', '/category/music': '/entertainment',
+  '/category/sports': '/sports', '/category/sport': '/sports',
+  '/category/business': '/business', '/category/finance': '/business', '/category/economy': '/business',
+  '/category/lifestyle': '/lifestyle', '/category/fashion': '/lifestyle', '/category/health': '/lifestyle', '/category/travel': '/lifestyle',
+  '/privacy-policy': '/privacy',
+};
+function oneHopRedirect(pathname) {
+  if (workerCategoryRedirects[pathname]) return workerCategoryRedirects[pathname];
+  if (pathname.length > 1 && pathname.endsWith('/')) return pathname.replace(/\/+$/, '');
+  const rule = redirectRules.find((parts) => parts[0] === pathname);
+  return rule ? rule[1] : null;
+}
+function pageOrOneHopRedirect(pathname) {
+  if (pageFile(pathname)) return true;
+  const target = oneHopRedirect(pathname);
+  return Boolean(target && pageFile(target));
+}
 function decodeXml(value) {
   return value.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&apos;/g, "'");
 }
@@ -107,7 +129,7 @@ for (const file of htmlFiles) {
     let target;
     try { target = new URL(href, origin); } catch { failures.push(label + ': malformed link ' + href); continue; }
     if (target.origin !== origin) continue;
-    if (!pageFile(target.pathname)) failures.push(label + ': broken internal link ' + href);
+    if (!pageOrOneHopRedirect(target.pathname)) failures.push(label + ': broken internal link or redirect target ' + href);
     checkedLinks += 1;
   }
   checkedPages += 1;
