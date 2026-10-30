@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "56c12662ce6e2e35390cd0e3adeac5c1",
     "463c1536ff3fe191d7794c67d05e19a4",
     "cbe2b3ded0c24cd5816a153126d9a054",
     "f7a825a47a3551cfcb0f09e302701875",
@@ -799,10 +798,10 @@
     "bc5358605f9952d01c575d235afb4aa7",
     "98aa576c117aa711c7bf431de02eef06",
     "f378085f56e84f145e18caf9d1601da1",
-    "6eb0451036a2061a1167c75e2cd6c43a"
+    "6eb0451036a2061a1167c75e2cd6c43a",
+    "ee3cdaf0b06ff68d945153eaaba4e987"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1535,7 +1535,8 @@
     "https://kenyans.co.ke/news/128991-kamukunji-traders-take-streets-protest-evictions-after-eastleigh-building-collapse",
     "https://kenyans.co.ke/news/128996-us-launches-major-crackdown-kenyans-linked-student-aid-fraud",
     "https://kenyans.co.ke/news/128997-govt-reveals-ksh98-billion-owed-contractors-despite-funding-new-road-projects",
-    "https://kenyans.co.ke/news/128999-standard-media-group-appoints-dr-naim-bilal-ceo"
+    "https://kenyans.co.ke/news/128999-standard-media-group-appoints-dr-naim-bilal-ceo",
+    "https://kenyans.co.ke/news/128998-ntsa-issues-warning-motorists-over-fake-traffic-offence-notices"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2161,7 +2162,8 @@
     "safety buffer lockdown deadlocks kamukunji traders regional administration",
     "doj exposes ksh16 student aid pipeline routed accounts crypto wallets",
     "securitisation cash influx leaves ksh98b road debt unresolved ministry adds works",
-    "standard group hands naim bilal substantive helm halt executive instability"
+    "standard group hands naim bilal substantive helm halt executive instability",
+    "ntsa flags counterfeit fine slips highway crackdown spawns roadside scams"
   ],
   "topic_keys": [
     "news tracker",
@@ -7066,6 +7068,15 @@
       "structure": "Institutional stabilization lead -> Factual recruitment timeline and confirmation terms -> Dual commercial-digital mandate versus editorial safeguards -> Resume analysis reflecting state, regulatory, and commercial media background -> Predecessor turnover context and forward operational test.",
       "source": "https://kenyans.co.ke/news/128999-standard-media-group-appoints-dr-naim-bilal-ceo",
       "published_at": "2026-10-30T07:02:06Z"
+    },
+    {
+      "title": "NTSA Flags Counterfeit Fine Slips as Highway Crackdown Spawns Roadside Scams",
+      "angle": "The procedural vulnerability exposed by the collision between lawful physical offence notices under the Traffic Act and predatory roadside shakedowns, where intense highway enforcement creates cover for scammers issuing handwritten demands.",
+      "angle_type": "practical change",
+      "opening": "Practical-vulnerability lead connecting the intensified multi-agency road safety sweep directly to the emergence of fraudulent fine notices targeting intimidated drivers.",
+      "structure": "Enforcement vulnerability lead -> Anatomy of the counterfeit slips and extortion tactics -> Legal notice mechanisms under the Traffic Act -> Campaign context and operational scope -> Systemic verification gap.",
+      "source": "https://kenyans.co.ke/news/128998-ntsa-issues-warning-motorists-over-fake-traffic-offence-notices",
+      "published_at": "2026-10-30T08:14:33Z"
     }
   ]
 }
