@@ -261,15 +261,15 @@ const Index = () => {
     <Layout>
       <div className="news-home">
       <Helmet>
-        <title>Zandani | Kenya Breaking News, Politics, Sports & Entertainment</title>
-        <meta name="description" content="Kenya-first news, gossip and showbiz from Nairobi. Breaking local stories, sports, politics and entertainment — bold and unbiased." />
+        <title>Za Ndani | Kenya News, Politics, Sports & Entertainment</title>
+        <meta name="description" content="Za Ndani covers Kenya’s latest news, politics, business, sport and entertainment, with reporting and context from Nairobi and across the country." />
         <meta name="robots" content="index, follow, max-image-preview:large" />
         <link rel="canonical" href={SITE_URL} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={SITE_URL} />
         <meta property="og:site_name" content="Za Ndani" />
         <meta property="og:locale" content="en_KE" />
-        <meta property="og:title" content="Za Ndani | Kenya News, Gossip & Entertainment" />
+        <meta property="og:title" content="Za Ndani | Kenya News, Politics, Sports & Entertainment" />
         <meta property="og:description" content="Kenya-first news, gossip and showbiz from Nairobi. Breaking local stories, sports, politics and entertainment." />
         <meta property="og:image" content={homeOgImage} />
         <meta property="og:image:width" content="1200" />
