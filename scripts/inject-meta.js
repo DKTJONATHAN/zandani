@@ -116,7 +116,7 @@ const baseRoutes = [
   '/advertise', '/careers', '/ethics', '/corrections', '/fact-check',
   '/trending', '/news', '/entertainment', '/sports', '/business', '/lifestyle',
   '/sports/live', '/sitemap', '/authors', '/podcast', '/tv', '/energy',
-  '/education', '/finance', '/live', '/faq'
+  '/education', '/finance', '/live', '/faq', '/newsletter'
 ];
 
 const staticMeta = {
@@ -146,7 +146,8 @@ const staticMeta = {
   '/education': ['Education News & Policy in Kenya | Za Ndani', 'Follow education policy, schools, universities, examinations and developments affecting learners, families and educators in Kenya.'],
   '/finance': ['Personal Finance & Financial News | Za Ndani', 'Understand finance, money, banking, markets and economic decisions affecting individuals and businesses in Kenya.'],
   '/live': ['Live News Updates | Za Ndani', 'Follow developing news and live updates from Kenya and across the region as important stories unfold.'],
-  '/faq': ['Frequently Asked Questions | Za Ndani', 'Answers about Za Ndani coverage, editorial standards, corrections, story tips, contributor bylines and how to contact the newsroom.']
+  '/faq': ['Frequently Asked Questions | Za Ndani', 'Answers about Za Ndani coverage, editorial standards, corrections, story tips, contributor bylines and how to contact the newsroom.'],
+  '/newsletter': ['Za Ndani Briefing | Get the Latest Kenya News by Email', 'Sign up for the Za Ndani briefing for selected Kenyan news, public affairs, business, sports and entertainment stories delivered by email.']
 };
 function siteNavHtml() {
   const links = baseRoutes.filter((route) => route !== '/privacy-policy')
@@ -165,6 +166,9 @@ function genericPage(route) {
   let extra = '';
   if (route === '/authors') {
     extra = '<section><h2>Contributor profiles</h2><ul>' + [...new Set(posts.map((post) => post.author).filter(Boolean))].map((name) => { const profile = authorProfiles[name] || { name, role: 'Contributing Writer' }; return '<li><a href="/author/' + slugify(name) + '">' + escapeHtml(name) + '</a> — ' + escapeHtml(profile.role || 'Contributor') + '</li>'; }).join('') + '</ul></section>';
+  }
+  if (route === '/newsletter') {
+    extra = '<section><h2>Get the Za Ndani briefing</h2><p>Receive selected stories on Kenyan news, public affairs, business, sport and entertainment. Visit the newsletter page to manage your subscription.</p><p><a href="/newsletter">Open the newsletter sign-up</a></p></section>';
   }
   if (route === '/sitemap') {
     extra = '<section><h2>All published stories</h2><ul>' + posts.map((post) => '<li><a href="/article/' + encodeURIComponent(post.slug) + '">' + escapeHtml(post.title) + '</a></li>').join('') + '</ul></section>';
@@ -273,7 +277,7 @@ for (const tag of tags) {
 }
 
 // Search/admin/newsletter are application utilities, not search landing pages.
-for (const route of ['/search', '/admin', '/newsletter']) {
+for (const route of ['/search', '/admin']) {
   const title = `${route.slice(1) || 'Home'} | Za Ndani`;
   const meta = `<title>${escapeHtml(title)}</title><meta name="robots" content="noindex,follow"><link rel="canonical" href="${SITE_URL}${route}">`;
   writeRoute(route, injectHead(baseHtml, meta));
