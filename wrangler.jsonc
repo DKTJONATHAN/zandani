@@ -12,7 +12,8 @@
     "crons": ["* * * * *"]
   },
   "vars": {
-    "USE_ADMIN_SCHEDULER": "true"
+    "USE_ADMIN_SCHEDULER": "true",
+    "TURNSTILE_HOSTNAMES": "zandani.co.ke"
   },
   "assets": {
     "directory": "./dist",
@@ -24,6 +25,7 @@
       "/google4a7d26b466f41330",
       "/968a6d115d3240a3acbc3448c398978d.txt",
       "/api/subscribe",
+      "/api/contact",
       "/api/push-subscribe",
       "/api/unsubscribe",
       "/api/github",
