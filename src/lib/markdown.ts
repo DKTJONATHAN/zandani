@@ -30,8 +30,9 @@ export interface Post extends PostMetadata {
   knowFacts: string[];
 }
 
-function sanitizeArticleHtml(html: string): string {
+function sanitizeArticleHtml(html: string, fallbackAlt: string): string {
   const normalizedHeadings = html.replace(/<h1\b/gi, "<h2").replace(/<\/h1>/gi, "</h2>");
+  const safeAlt = fallbackAlt.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
   return normalizedHeadings.replace(/<img\b[^>]*>/gi, (tag) => {
     const srcMatch = tag.match(/\bsrc=["']([^"']+)["']/i);
     if (!srcMatch) return "";
@@ -39,15 +40,22 @@ function sanitizeArticleHtml(html: string): string {
     try {
       const parsed = new URL(src, "https://zandani.co.ke");
       const host = parsed.hostname.replace(/^www\./, "").toLowerCase();
-      const path = parsed.pathname.toLowerCase();
+      const imagePath = parsed.pathname.toLowerCase();
       const blockedHost = host === "zandani.co.ke" || host.endsWith(".zandani.co.ke");
-      const blockedPath = /(^|\/)(logo|favicon|icon|brand|wordmark|site-logo|default-og|placeholder)([-_.\/]|$)/i.test(path);
+      const blockedPath = /(^|\/)(logo|favicon|icon|brand|wordmark|site-logo|default-og|placeholder)([-_.\/]|$)/i.test(imagePath);
       const blockedQuery = /(logo|favicon|brand|wordmark|site[-_]?icon)/i.test(parsed.search);
       if (blockedHost || blockedPath || blockedQuery) return "";
     } catch {
       return "";
     }
-    return tag;
+    let nextTag = tag;
+    if (!/\balt\s*=/.test(nextTag)) nextTag = nextTag.replace(/<img\b/i, '<img alt="' + safeAlt + '"');
+    else nextTag = nextTag.replace(/\balt\s*=\s*(["'])\s*\1/i, 'alt="' + safeAlt + '"');
+    if (!/\bloading\s*=/.test(nextTag)) nextTag = nextTag.replace(/<img\b/i, '<img loading="lazy"');
+    if (!/\bdecoding\s*=/.test(nextTag)) nextTag = nextTag.replace(/<img\b/i, '<img decoding="async"');
+    if (!/\bwidth\s*=/.test(nextTag)) nextTag = nextTag.replace(/<img\b/i, '<img width="800"');
+    if (!/\bheight\s*=/.test(nextTag)) nextTag = nextTag.replace(/<img\b/i, '<img height="450"');
+    return nextTag;
   });
 }
 
@@ -115,7 +123,7 @@ export async function getPostBySlug(slug: string, fetcher: typeof fetch = fetch)
     const rawContent = await res.text();
     const { content } = parseFrontmatter(rawContent);
     const { facts, body } = extractWhatWeKnow(content);
-    return { ...metadata, content, htmlContent: sanitizeArticleHtml(marked(body) as string), knowFacts: facts, imageAlt: metadata.title };
+    return { ...metadata, content, htmlContent: sanitizeArticleHtml(marked(body) as string, metadata.title), knowFacts: facts, imageAlt: metadata.title };
   } catch (error) {
     console.error(`Error loading post content for ${slug}:`, error);
     return undefined;
