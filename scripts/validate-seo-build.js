@@ -14,8 +14,9 @@ function walk(dir) {
   }
 }
 function attr(tag, name) {
-  const match = tag.match(new RegExp("\\\\b" + name + "\\\\s*=\\\\s*([\\\"'])(.*?)\\\\1", 'i'));
-  return match ? match[2] : null;
+  const attributes = [...tag.matchAll(/([a-zA-Z_:][-a-zA-Z0-9_:.]*)\s*=\s*(?:"([^"]*)"|'([^']*)')/g)];
+  const found = attributes.find((match) => match[1].toLowerCase() === name.toLowerCase());
+  return found ? (found[2] ?? found[3] ?? '') : null;
 }
 function pageFile(pathname) {
   let decoded;
