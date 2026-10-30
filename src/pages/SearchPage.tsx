@@ -112,7 +112,7 @@ export default function SearchPage() {
                 <div className="w-24 sm:w-32 flex-shrink-0 aspect-[4/3] overflow-hidden bg-muted rounded-md">
                   <img
                     src={img(post.image, 320)}
-                    alt=""
+                    alt={post.title}
                     loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
