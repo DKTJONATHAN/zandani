@@ -30,7 +30,9 @@
       "/api/admin/verify",
       "/api/scheduler/*",
       "/",
-      "/article/*"
+      "/article/*",
+      "/author/*",
+      "/category/*"
     ]
   }
 }
