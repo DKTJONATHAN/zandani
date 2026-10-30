@@ -5,8 +5,13 @@ import { XIcon } from "@/components/XIcon";
 import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { PageHero } from "@/components/layout/PageHero";
+import { TurnstileWidget } from "@/components/TurnstileWidget";
 
 export default function ContactPage() {
+  const [turnstileToken, setTurnstileToken] = useState("");
+  const [widgetResetKey, setWidgetResetKey] = useState(0);
+  const [isSending, setIsSending] = useState(false);
+  const [formMessage, setFormMessage] = useState("");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -14,10 +19,31 @@ export default function ContactPage() {
     message: ""
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    const mailtoLink = `mailto:contact@zandani.co.ke?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`)}`;
-    window.location.href = mailtoLink;
+    if (!turnstileToken) {
+      setFormMessage("Please complete the security check.");
+      return;
+    }
+    setIsSending(true);
+    setFormMessage("");
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...formData, turnstileToken }),
+      });
+      const result = await response.json().catch(() => ({}));
+      if (!response.ok || !result.ok) throw new Error(result.error || "Could not send your message. Please try again.");
+      setFormData({ name: "", email: "", subject: "", message: "" });
+      setFormMessage("Your message has been sent to the newsroom. Thank you.");
+    } catch (error) {
+      setFormMessage(error instanceof Error ? error.message : "Could not send your message. Please try again.");
+    } finally {
+      setIsSending(false);
+      setTurnstileToken("");
+      setWidgetResetKey((value) => value + 1);
+    }
   };
 
   return (
@@ -133,9 +159,11 @@ export default function ContactPage() {
                 placeholder="What happened, where, who saw it."
               />
             </div>
-            <Button type="submit" className="w-full bg-primary text-primary-foreground py-6 text-lg font-bold">
+            <div className="mb-4 flex justify-center"><TurnstileWidget action="contact_submit" onToken={setTurnstileToken} resetKey={widgetResetKey} /></div>
+            {formMessage && <p role="status" className="mb-4 text-sm text-center text-muted-foreground">{formMessage}</p>}
+            <Button type="submit" disabled={isSending} className="w-full bg-primary text-primary-foreground py-6 text-lg font-bold">
               <Send className="w-5 h-5 mr-2" />
-              Send message
+              {isSending ? "Sending…" : "Send message"}
             </Button>
           </form>
         </div>
