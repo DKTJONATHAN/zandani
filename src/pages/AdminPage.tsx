@@ -19,6 +19,7 @@ import {
 import { generateSlug } from "@/admin/utils/helpers";
 import { ConfirmDialog } from "@/admin/components/ConfirmDialog";
 import { SchedulerPanel } from "@/admin/components/SchedulerPanel";
+import { TurnstileWidget } from "@/components/TurnstileWidget";
 
 function catColor(_cat: string): string {
   return "bg-primary text-primary-foreground";
@@ -46,6 +47,8 @@ export default function AdminPage() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [pin, setPin] = useState("");
   const [pinError, setPinError] = useState("");
+  const [turnstileToken, setTurnstileToken] = useState("");
+  const [widgetResetKey, setWidgetResetKey] = useState(0);
   const [posts, setPosts] = useState<PostMetadata[]>([]);
   const [activeTab, setActiveTab] = useState<Tab>("dashboard");
   const [isPublishing, setIsPublishing] = useState(false);
@@ -106,11 +109,32 @@ export default function AdminPage() {
     return { totalViews, topPosts, recentCount };
   }, [postsWithViews, posts]);
 
-  const handleLogin = (e: React.FormEvent) => {
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (validatePin(pin)) {
-      setIsAuthenticated(true); setAdminAuthenticated(true); loadData(); setPinError("");
-    } else { setPinError("Invalid PIN. Try again."); setPin(""); }
+    if (!turnstileToken) {
+      setPinError("Complete the security check before unlocking.");
+      return;
+    }
+    try {
+      const response = await fetch("/api/admin/verify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ turnstileToken }),
+      });
+      const result = await response.json().catch(() => ({}));
+      if (!response.ok || !result.ok) throw new Error(result.error || "Security verification failed. Try again.");
+      if (validatePin(pin)) {
+        setIsAuthenticated(true); setAdminAuthenticated(true); loadData(); setPinError("");
+      } else {
+        setPinError("Invalid PIN. Try again.");
+        setPin("");
+      }
+    } catch (error) {
+      setPinError(error instanceof Error ? error.message : "Security verification failed.");
+    } finally {
+      setTurnstileToken("");
+      setWidgetResetKey((value) => value + 1);
+    }
   };
 
   const handleLogout = () => {
@@ -216,6 +240,7 @@ export default function AdminPage() {
                   className="w-full px-4 py-4 bg-zinc-800 border border-zinc-700 text-white text-center text-3xl font-mono tracking-[0.5em] focus:border-primary outline-none transition-colors"
                   maxLength={4} autoFocus />
               </div>
+              <div className="flex justify-center"><TurnstileWidget action="admin_login" onToken={setTurnstileToken} resetKey={widgetResetKey} /></div>
               {pinError && <p className="text-primary text-xs text-center font-bold">{pinError}</p>}
               <button type="submit"
                 className="w-full py-4 bg-primary text-white font-black uppercase tracking-wider text-sm hover:opacity-90 transition-opacity">
