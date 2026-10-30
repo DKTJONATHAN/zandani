@@ -90,7 +90,8 @@ const posts = files.map((file) => {
   const raw = fs.readFileSync(path.join(postsDir, file), 'utf8');
   const parsed = matter(raw);
   const data = parsed.data || {};
-  const slug = String(data.slug || file.replace(/\.md$/, '')).trim();
+  const rawSlug = String(data.slug || file.replace(/\.md$/, '')).trim();
+  const slug = slugify(rawSlug);
   const title = String(data.title || 'Za Ndani Article').trim();
   const description = String(data.description || data.excerpt || parsed.content.replace(/[#>*_~`]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 180)).trim();
   return {
