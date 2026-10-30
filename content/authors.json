@@ -2,120 +2,142 @@
   "Za Ndani": {
     "name": "Za Ndani",
     "role": "Newsroom Desk",
-    "bio": "The Za Ndani newsroom desk publishes verified breaking news, entertainment and national stories from Nairobi for readers across Kenya.",
+    "bio": "The Za Ndani newsroom desk brings together breaking updates, public-interest reporting and explainers across Kenya. Desk bylines are used for stories prepared or reviewed as newsroom coverage rather than assigned to a single specialist section.",
     "avatar": "",
     "location": "Nairobi, Kenya",
     "socials": {
-      "twitter": "https://twitter.com/zandani_ke",
+      "twitter": "https://x.com/zandani_ke",
       "email": "contact@zandani.co.ke"
     }
   },
   "Jonathan Mwaniki": {
     "name": "Jonathan Mwaniki",
-    "role": "Editor & Publisher",
-    "bio": "Founder and publisher of Za Ndani. Covers national affairs, media and the stories shaping Kenya from inside the newsroom.",
+    "role": "Publisher & Editorial Lead",
+    "bio": "Oversees Za Ndani’s editorial direction and publishing priorities, with a focus on clear reporting, useful context and a strong connection to the issues shaping Kenya’s public conversation.",
     "avatar": "",
-    "location": "Nairobi, Kenya",
+    "location": "Kenya",
     "socials": {
-      "twitter": "",
-      "linkedin": "",
       "email": "contact@zandani.co.ke"
     }
   },
   "Celestine Nzioka": {
     "name": "Celestine Nzioka",
-    "role": "News Correspondent",
-    "bio": "Reports breaking and national news for Za Ndani, focusing on politics, public institutions and stories that matter to Kenyans daily.",
+    "role": "News & Public Affairs",
+    "bio": "Covers national developments, public institutions and governance. The reporting focus is on what decisions mean for citizens, how public services are affected and what readers need to know next.",
     "avatar": "",
     "location": "Kenya",
-    "socials": { "twitter": "", "linkedin": "", "email": "" }
+    "socials": {}
   },
   "Mutheu Ann": {
     "name": "Mutheu Ann",
-    "role": "Entertainment Writer",
-    "bio": "Covers Kenyan entertainment, music and celebrity culture for Za Ndani with a focus on industry moves and exclusive showbiz stories.",
+    "role": "Entertainment & Culture",
+    "bio": "Tracks Kenya’s entertainment industry, music releases, celebrity developments and the business behind popular culture. Coverage puts public statements and confirmed developments ahead of online speculation.",
     "avatar": "",
-    "location": "Nairobi, Kenya",
-    "socials": { "twitter": "", "linkedin": "", "email": "" }
+    "location": "Kenya",
+    "socials": {}
   },
   "Martin Mutwiri": {
     "name": "Martin Mutwiri",
     "role": "Showbiz Reporter",
-    "bio": "Follows celebrity news, events and entertainment headlines across Kenya for the Za Ndani audience.",
+    "bio": "Follows performers, screen culture, live events and the changing business of entertainment in Kenya. Stories connect headline moments with the wider context behind the industry.",
     "avatar": "",
     "location": "Kenya",
-    "socials": { "twitter": "", "linkedin": "", "email": "" }
+    "socials": {}
   },
   "Timothy Muli": {
     "name": "Timothy Muli",
     "role": "Agriculture & Rural Affairs",
-    "bio": "Writes on agriculture, rural livelihoods and environment policy affecting farmers and communities across Kenya.",
+    "bio": "Covers farming, food systems, rural livelihoods and environmental issues. The focus is on practical consequences for producers, households and communities beyond major towns.",
     "avatar": "",
     "location": "Kenya",
-    "socials": { "twitter": "", "linkedin": "", "email": "" }
+    "socials": {}
   },
   "Amara Ndlovu": {
     "name": "Amara Ndlovu",
-    "role": "Pan-Africa Entertainment",
-    "bio": "Covers African entertainment trends, music and culture beyond Kenya for Za Ndani readers.",
+    "role": "African Arts & Culture",
+    "bio": "Explores music, film, creative industries and cultural movements across Africa, connecting regional stories with the people, audiences and ideas shaping them.",
     "avatar": "",
     "location": "East Africa",
-    "socials": { "twitter": "", "linkedin": "", "email": "" }
+    "socials": {}
   },
   "Elizabeth Muthoni": {
     "name": "Elizabeth Muthoni",
-    "role": "Technology Writer",
-    "bio": "Reports on technology, digital policy and innovation stories relevant to Kenya and the region.",
+    "role": "Technology & Digital Policy",
+    "bio": "Follows technology, digital services, online safety and policy changes affecting people and businesses in Kenya. Coverage explains both the innovation and the real-world implications.",
     "avatar": "",
-    "location": "Nairobi, Kenya",
-    "socials": { "twitter": "", "linkedin": "", "email": "" }
+    "location": "Kenya",
+    "socials": {}
   },
   "Grace Mkamburi": {
     "name": "Grace Mkamburi",
-    "role": "Business Correspondent",
-    "bio": "Covers business, economy and market developments for Za Ndani, from startups to national economic policy.",
+    "role": "Business & Economy",
+    "bio": "Reports on companies, markets, entrepreneurship and economic policy. Stories look beyond announcements to explain the commercial decisions, consumer effects and wider economic context.",
     "avatar": "",
-    "location": "Nairobi, Kenya",
-    "socials": { "twitter": "", "linkedin": "", "email": "" }
+    "location": "Kenya",
+    "socials": {}
   },
   "Ann Mwende": {
     "name": "Ann Mwende",
-    "role": "Lifestyle Writer",
-    "bio": "Writes lifestyle, culture and living stories that reflect everyday Kenya for Za Ndani readers.",
+    "role": "Lifestyle & Society",
+    "bio": "Covers everyday life, culture, wellbeing, travel and changing social trends in Kenya. The emphasis is on useful information, relatable experiences and the context behind lifestyle conversations.",
     "avatar": "",
     "location": "Kenya",
-    "socials": { "twitter": "", "linkedin": "", "email": "" }
+    "socials": {}
   },
   "Kendi Kawira": {
     "name": "Kendi Kawira",
-    "role": "Contributing Writer",
-    "bio": "Contributing writer for Za Ndani covering news and features from across Kenya.",
+    "role": "Features & Community",
+    "bio": "Develops people-centred features and community stories from across Kenya, highlighting local perspectives, emerging issues and the details that can be missed in fast-moving headlines.",
     "avatar": "",
     "location": "Kenya",
-    "socials": { "twitter": "", "linkedin": "", "email": "" }
+    "socials": {}
   },
   "Okwonko Ben": {
     "name": "Okwonko Ben",
-    "role": "Contributing Writer",
-    "bio": "Contributing writer for Za Ndani bringing reporting and analysis on national and entertainment stories.",
+    "role": "News & Entertainment Features",
+    "bio": "Covers the overlap between public affairs, popular culture and the personalities shaping national conversations. The approach pairs accessible storytelling with context and careful attribution.",
     "avatar": "",
     "location": "Kenya",
-    "socials": { "twitter": "", "linkedin": "", "email": "" }
+    "socials": {}
   },
   "The Scoop KE": {
     "name": "The Scoop KE",
-    "role": "Desk Byline",
-    "bio": "Desk byline used for collaborative and wire-style entertainment updates published on Za Ndani.",
+    "role": "Entertainment Desk",
+    "bio": "A Za Ndani desk byline for concise entertainment updates, industry announcements and developing showbiz stories. Coverage prioritises clear attribution and the latest confirmed details.",
     "avatar": "",
-    "location": "Nairobi, Kenya",
-    "socials": { "twitter": "", "linkedin": "", "email": "" }
+    "location": "Kenya",
+    "socials": {}
   },
   "The Scoop Kenya": {
     "name": "The Scoop Kenya",
-    "role": "Desk Byline",
-    "bio": "Desk byline for entertainment and showbiz updates carried on Za Ndani.",
+    "role": "Showbiz Desk",
+    "bio": "A Za Ndani desk byline focused on Kenyan showbiz, celebrity culture and entertainment developments. Stories are presented with the available context and a clear distinction between confirmed information and claims.",
     "avatar": "",
-    "location": "Nairobi, Kenya",
-    "socials": { "twitter": "", "linkedin": "", "email": "" }
+    "location": "Kenya",
+    "socials": {}
+  },
+  "Wanjiku Kuria": {
+    "name": "Wanjiku Kuria",
+    "role": "Public Affairs & Current News",
+    "bio": "Follows public figures, national developments and stories moving through Kenya’s civic conversation. Coverage aims to separate verified developments from reaction and explain why an issue matters to readers.",
+    "avatar": "",
+    "location": "Kenya",
+    "socials": {}
+  },
+  "Martin Kihara": {
+    "name": "Martin Kihara",
+    "role": "Entertainment & Showbiz",
+    "bio": "Covers music, performers, screen culture and the business of entertainment across Kenya and the region. Reporting follows the people and decisions behind the headlines, not just the viral moment.",
+    "avatar": "",
+    "location": "Kenya",
+    "socials": {}
+  },
+  "Jaj": {
+    "name": "Jaj",
+    "role": "Opinion & Analysis Desk",
+    "bio": "Publishes commentary on public affairs, policy and the issues shaping everyday life. The opinion desk makes its argument explicit, distinguishes analysis from straight news and grounds its perspective in the available facts.",
+    "avatar": "",
+    "location": "Kenya",
+    "socials": {}
   }
 }
