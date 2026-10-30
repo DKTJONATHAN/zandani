@@ -174,7 +174,19 @@ function genericPage(route) {
   if (route === '/sitemap') {
     extra = '<section><h2>All published stories</h2><ul>' + posts.map((post) => '<li><a href="/article/' + encodeURIComponent(post.slug) + '">' + escapeHtml(post.title) + '</a></li>').join('') + '</ul></section>';
   }
-  const body = '<main><section><h1>' + escapeHtml(title.split(' | ')[0]) + '</h1><p>' + escapeHtml(description) + '</p>' + siteNavHtml() + '<nav aria-label="Latest stories"><h2>Latest stories</h2><ul>' + links + '</ul></nav>' + extra + '</section></main>';
+  const pageLabel = route === '/' ? 'Home' : route.slice(1).replace(/-/g, ' ').replace(/\//g, ' · ').replace(/\b\w/g, (letter) => letter.toUpperCase());
+  const breadcrumb = route === '/'
+    ? ''
+    : '<nav aria-label="Breadcrumb"><a href="/">Home</a> / <span>' + escapeHtml(pageLabel) + '</span></nav>';
+  const breadcrumbSchema = route === '/' ? '' : '<script type="application/ld+json">' + JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+      { '@type': 'ListItem', position: 2, name: pageLabel, item: url },
+    ],
+  }).replace(/</g, '\\u003c') + '</script>';
+  const body = '<main>' + breadcrumb + '<section><h1>' + escapeHtml(title.split(' | ')[0]) + '</h1><p>' + escapeHtml(description) + '</p>' + siteNavHtml() + '<nav aria-label="Latest stories"><h2>Latest stories</h2><ul>' + links + '</ul></nav>' + extra + '</section></main>' + breadcrumbSchema;
   return injectRoot(injectHead(baseHtml, meta), body);
 }
 for (const route of baseRoutes) writeRoute(route, genericPage(route));
