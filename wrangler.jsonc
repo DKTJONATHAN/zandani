@@ -29,6 +29,7 @@
       "/api/github",
       "/api/admin/verify",
       "/api/scheduler/*",
+      "/",
       "/article/*"
     ]
   }
