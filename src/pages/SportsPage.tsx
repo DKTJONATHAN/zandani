@@ -230,7 +230,7 @@ export default function SportsPage() {
                   <div className="flex-1 flex flex-col items-center gap-4">
                     {selectedMatch.homeTeam.crest && (
                       <div className="w-20 h-20 bg-white/5 rounded-2xl p-3 backdrop-blur-sm">
-                        <img src={selectedMatch.homeTeam.crest} alt="" className="w-full h-full object-contain" />
+                        <img src={selectedMatch.homeTeam.crest} alt={`${selectedMatch.homeTeam.name} crest`} className="w-full h-full object-contain" />
                       </div>
                     )}
                     <span className="font-bold text-lg tracking-tight text-zinc-200">{selectedMatch.homeTeam.name}</span>
@@ -248,7 +248,7 @@ export default function SportsPage() {
                   <div className="flex-1 flex flex-col items-center gap-4">
                     {selectedMatch.awayTeam.crest && (
                       <div className="w-20 h-20 bg-white/5 rounded-2xl p-3 backdrop-blur-sm">
-                        <img src={selectedMatch.awayTeam.crest} alt="" className="w-full h-full object-contain" />
+                        <img src={selectedMatch.awayTeam.crest} alt={`${selectedMatch.awayTeam.name} crest`} className="w-full h-full object-contain" />
                       </div>
                     )}
                     <span className="font-bold text-lg tracking-tight text-zinc-200">{selectedMatch.awayTeam.name}</span>
