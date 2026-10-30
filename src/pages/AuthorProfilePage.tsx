@@ -156,7 +156,7 @@ export default function AuthorProfilePage() {
   return (
     <Layout>
       <Helmet>
-        <title>{actualAuthorName} — Author | Za Ndani</title>
+        <title>{actualAuthorName} | Editorial Profile | Za Ndani</title>
         <meta name="description" content={`${actualAuthorName}: ${profile.role}. ${profile.bio}`.slice(0, 157)} />
         <link rel="canonical" href={`https://zandani.co.ke/author/${authorName}`} />
         <meta property="og:title" content={`${actualAuthorName} | Za Ndani`} />
@@ -174,7 +174,7 @@ export default function AuthorProfilePage() {
           "description": profile.bio,
           "url": `https://zandani.co.ke/author/${authorName}`,
           "image": profile.avatar || undefined,
-          "jobTitle": profile.role
+          "knowsAbout": profile.role
         })}</script>
       </Helmet>
 
