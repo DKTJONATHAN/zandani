@@ -82,10 +82,11 @@ for (const file of htmlFiles) {
     .map((match) => { try { return JSON.parse(match[1]); } catch { failures.push(label + ': invalid JSON-LD'); return null; } })
     .filter(Boolean);
   const schemaTypes = jsonLd.flatMap((entry) => Array.isArray(entry['@graph']) ? entry['@graph'].map((node) => node['@type']) : [entry['@type']]).flat();
-  if (label.includes(path.sep + 'article' + path.sep) && (!schemaTypes.includes('NewsArticle') || !schemaTypes.includes('BreadcrumbList'))) failures.push(label + ': missing NewsArticle or BreadcrumbList schema');
-  if (label.includes(path.sep + 'author' + path.sep) && !schemaTypes.includes('ProfilePage')) failures.push(label + ': missing ProfilePage schema');
-  if (label.includes(path.sep + 'faq' + path.sep) && !schemaTypes.includes('FAQPage')) failures.push(label + ': missing FAQPage schema');
-  if (label.includes(path.sep + 'category' + path.sep) && !schemaTypes.includes('BreadcrumbList')) failures.push(label + ': missing category breadcrumb schema');
+  const routePrefix = label.split(path.sep)[0];
+  if (routePrefix === 'article' && (!schemaTypes.includes('NewsArticle') || !schemaTypes.includes('BreadcrumbList'))) failures.push(label + ': missing NewsArticle or BreadcrumbList schema');
+  if (routePrefix === 'author' && !schemaTypes.includes('ProfilePage')) failures.push(label + ': missing ProfilePage schema');
+  if (routePrefix === 'faq' && !schemaTypes.includes('FAQPage')) failures.push(label + ': missing FAQPage schema');
+  if (routePrefix === 'category' && !schemaTypes.includes('BreadcrumbList')) failures.push(label + ': missing category breadcrumb schema');
 
   for (const match of html.matchAll(/<img\b[^>]*>/gi)) {
     const alt = attr(match[0], 'alt');
