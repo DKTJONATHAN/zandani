@@ -34,6 +34,7 @@ if (!fs.existsSync(dist)) throw new Error('dist/ does not exist. Run the product
 walk(dist);
 
 const titles = new Map();
+const descriptionsSeen = new Map();
 const canonicals = new Map();
 let checkedPages = 0;
 let checkedImages = 0;
@@ -56,6 +57,12 @@ for (const file of htmlFiles) {
   if (canonicalTags.length !== 1) failures.push(label + ': expected exactly one canonical link');
   if (h1Count !== 1) failures.push(label + ': expected exactly one H1, found ' + h1Count);
 
+  const descriptionText = attr(descriptions[0]?.[0] || '', 'content')?.trim();
+  if (descriptionText) {
+    if (descriptionsSeen.has(descriptionText)) failures.push(label + ': duplicate meta description also used by ' + descriptionsSeen.get(descriptionText));
+    else descriptionsSeen.set(descriptionText, label);
+  }
+
   const title = titlesOnPage[0]?.[1]?.replace(/<[^>]+>/g, '').trim();
   if (title) {
     if (titles.has(title)) failures.push(label + ': duplicate title also used by ' + titles.get(title));
@@ -70,6 +77,15 @@ for (const file of htmlFiles) {
       else canonicals.set(canonical.href, label);
     } catch { failures.push(label + ': malformed canonical URL'); }
   }
+
+  const jsonLd = [...html.matchAll(/<script[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)]
+    .map((match) => { try { return JSON.parse(match[1]); } catch { failures.push(label + ': invalid JSON-LD'); return null; } })
+    .filter(Boolean);
+  const schemaTypes = jsonLd.flatMap((entry) => Array.isArray(entry['@graph']) ? entry['@graph'].map((node) => node['@type']) : [entry['@type']]).flat();
+  if (label.includes(path.sep + 'article' + path.sep) && (!schemaTypes.includes('NewsArticle') || !schemaTypes.includes('BreadcrumbList'))) failures.push(label + ': missing NewsArticle or BreadcrumbList schema');
+  if (label.includes(path.sep + 'author' + path.sep) && !schemaTypes.includes('ProfilePage')) failures.push(label + ': missing ProfilePage schema');
+  if (label.includes(path.sep + 'faq' + path.sep) && !schemaTypes.includes('FAQPage')) failures.push(label + ': missing FAQPage schema');
+  if (label.includes(path.sep + 'category' + path.sep) && !schemaTypes.includes('BreadcrumbList')) failures.push(label + ': missing category breadcrumb schema');
 
   for (const match of html.matchAll(/<img\b[^>]*>/gi)) {
     const alt = attr(match[0], 'alt');
@@ -112,6 +128,24 @@ for (const sitemap of ['sitemap.xml', 'sitemap-static.xml', 'sitemap-categories.
     } catch { failures.push(sitemap + ': invalid URL ' + url); }
   }
 }
+const manifestFile = path.resolve('public/posts-manifest.json');
+const authorFile = path.resolve('public/content/authors.json');
+if (!fs.existsSync(manifestFile)) failures.push('Missing public/posts-manifest.json');
+if (!fs.existsSync(authorFile)) failures.push('Missing generated public/content/authors.json');
+if (fs.existsSync(manifestFile) && fs.existsSync(authorFile)) {
+  const manifest = JSON.parse(fs.readFileSync(manifestFile, 'utf8'));
+  const authors = JSON.parse(fs.readFileSync(authorFile, 'utf8'));
+  for (const author of new Set(manifest.map((post) => post.author).filter(Boolean))) {
+    if (!authors[author]?.bio?.trim()) failures.push('Published author has no unique editorial bio: ' + author);
+    const profilePage = pageFile('/author/' + String(author).toLowerCase().trim().replace(/[%']/g, ' ').replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-'));
+    if (!profilePage) failures.push('Published author has no generated profile page: ' + author);
+  }
+  for (const post of manifest) {
+    if (!pageFile('/article/' + encodeURIComponent(post.slug))) failures.push('Published article has no prerendered page: ' + post.slug);
+  }
+}
+if (!fs.existsSync(path.join(dist, 'content', 'authors.json'))) failures.push('Generated author profiles are not publicly served from /content/authors.json');
+
 const robotsFile = path.join(dist, 'robots.txt');
 if (!fs.existsSync(robotsFile)) failures.push('Missing robots.txt');
 else {
