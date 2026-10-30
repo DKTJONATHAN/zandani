@@ -831,7 +831,7 @@ export default {
       try {
         const rendered = await render(request.url, env);
         if (rendered?.appHtml) {
-          const shellResponse = await env.ASSETS.fetch(new Request(new URL("/", request.url), request));
+          const shellResponse = await env.ASSETS.fetch(new Request(new URL("/app-shell.html", request.url), request));
           if (shellResponse.ok) {
             let html = await shellResponse.text();
             const safeInitialData = JSON.stringify({ post: rendered.post }).replace(/</g, "\\u003c");
