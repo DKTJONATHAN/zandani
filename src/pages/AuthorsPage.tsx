@@ -54,8 +54,8 @@ export interface AuthorProfile {
 
 const DEFAULT_PROFILE: AuthorProfile = {
   name: "Guest Contributor",
-  role: "Contributing Writer",
-  bio: "Contributing writer for Za Ndani bringing you the latest stories from Kenya.",
+  role: "Editorial Contributor",
+  bio: "This Za Ndani byline covers stories and developments from Kenya.",
   avatar: "",
   location: "Kenya",
 };
@@ -116,8 +116,8 @@ export default function AuthorsPage() {
   return (
     <Layout>
       <Helmet>
-        <title>Our Authors | Za Ndani — Kenya News & Entertainment</title>
-        <meta name="description" content="Meet the journalists and writers behind Za Ndani — Kenya's sharpest entertainment and news site." />
+        <title>Za Ndani Editorial Contributors & Desks | Authors</title>
+        <meta name="description" content="Explore Za Ndani editorial profiles, coverage areas and the latest published stories across news, public affairs, sport and culture." />
         <link rel="canonical" href="https://zandani.co.ke/authors" />
         <meta property="og:title" content="Our Authors | Za Ndani" />
         <meta property="og:description" content="Meet the journalists and writers behind Za Ndani — Kenya's sharpest entertainment and news site." />
@@ -131,10 +131,10 @@ export default function AuthorsPage() {
         <div className="container max-w-6xl mx-auto px-4 py-12 md:py-14">
           <p className="text-[10px] font-black tracking-[0.28em] uppercase text-primary mb-4">The desk</p>
           <h1 className="text-4xl md:text-6xl font-serif font-black leading-[0.95] mb-4">
-            Meet the writers
+            Editorial contributors & desks
           </h1>
           <p className="text-muted-foreground text-lg max-w-xl">
-            The journalists and pop-culture desks bringing Kenya the stories that will not wait for a press conference.
+            Explore the editorial coverage areas behind Za Ndani’s reporting, from public affairs and business to sport, culture and entertainment.
           </p>
         </div>
       </section>
