@@ -827,7 +827,7 @@ export default {
     const triggerMatch = path.match(/^\/api\/scheduler\/trigger\/([a-z0-9-]+)$/i);
     if (triggerMatch) return handleSchedulerTrigger(request, env, triggerMatch[1].toLowerCase());
 
-    if (env.ASSETS && request.method === "GET" && /^\/article\/[^/]+\/?$/.test(path)) {
+    if (env.ASSETS && request.method === "GET" && (path === "/" || /^\/article\/[^/]+\/?$/.test(path))) {
       try {
         const rendered = await render(request.url, env);
         if (rendered?.appHtml) {
