@@ -164,7 +164,7 @@ function genericPage(route) {
   const links = posts.slice(0, 12).map((p) => '<li><a href="/article/' + encodeURIComponent(p.slug) + '">' + escapeHtml(p.title) + '</a></li>').join('');
   let extra = '';
   if (route === '/authors') {
-    extra = '<section><h2>Contributor profiles</h2><ul>' + Object.values(authorProfiles).map((profile) => '<li><a href="/author/' + slugify(profile.name) + '">' + escapeHtml(profile.name) + '</a> — ' + escapeHtml(profile.role || 'Contributor') + '</li>').join('') + '</ul></section>';
+    extra = '<section><h2>Contributor profiles</h2><ul>' + [...new Set(posts.map((post) => post.author).filter(Boolean))].map((name) => { const profile = authorProfiles[name] || { name, role: 'Contributing Writer' }; return '<li><a href="/author/' + slugify(name) + '">' + escapeHtml(name) + '</a> — ' + escapeHtml(profile.role || 'Contributor') + '</li>'; }).join('') + '</ul></section>';
   }
   if (route === '/sitemap') {
     extra = '<section><h2>All published stories</h2><ul>' + posts.map((post) => '<li><a href="/article/' + encodeURIComponent(post.slug) + '">' + escapeHtml(post.title) + '</a></li>').join('') + '</ul></section>';
