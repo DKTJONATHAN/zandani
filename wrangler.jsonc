@@ -32,7 +32,8 @@
       "/",
       "/article/*",
       "/author/*",
-      "/category/*"
+      "/category/*",
+      "/privacy-policy"
     ]
   }
 }
