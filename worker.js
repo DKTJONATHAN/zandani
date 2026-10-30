@@ -198,10 +198,10 @@ function fromBase64(b64) {
 }
 
 function ghHeaders(env) {
-  let token = String(env.PERSONAL_GITHUB_TOKEN || "").trim();
+  let token = String(env.PERSONAL_GITHUB_TOKEN || env.ACTIONS_GITHUB_TOKEN || env.GITHUB_TOKEN || "").trim();
   if (/^bearer\s+/i.test(token)) token = token.replace(/^bearer\s+/i, "").trim();
   if (!token) {
-    const err = new Error("PERSONAL_GITHUB_TOKEN is not configured");
+    const err = new Error("PERSONAL_GITHUB_TOKEN (or ACTIONS_GITHUB_TOKEN) is not configured");
     err.status = 503;
     throw err;
   }
@@ -265,16 +265,23 @@ function nairobiParts(date = new Date()) {
 function cronMatches(expr, parts) {
   const fields = String(expr || "").trim().split(/\s+/);
   if (fields.length !== 5) return false;
-  const [minF, hourF] = fields;
+  const values = [parts.minute, parts.hour, parts.day, parts.month, parts.dow];
   const matchField = (field, value) => {
     if (field === "*") return true;
-    if (field.startsWith("*/")) {
-      const step = Number(field.slice(2));
-      return Number.isFinite(step) && step > 0 && value % step === 0;
-    }
-    return field.split(",").some((tok) => Number(tok) === value);
+    return field.split(",").some((token) => {
+      const [base, stepText] = token.split("/");
+      const step = stepText === undefined ? 1 : Number(stepText);
+      if (!Number.isInteger(step) || step < 1) return false;
+      if (base === "*") return value % step === 0;
+      const range = base.split("-").map(Number);
+      if (range.length === 2 && range.every(Number.isFinite)) {
+        return value >= range[0] && value <= range[1] && (value - range[0]) % step === 0;
+      }
+      const exact = Number(base);
+      return Number.isFinite(exact) && value === exact;
+    });
   };
-  return matchField(minF, parts.minute) && matchField(hourF, parts.hour);
+  return fields.every((field, index) => matchField(field, values[index]));
 }
 
 function nextRunIso(cron, from = new Date()) {
@@ -389,9 +396,19 @@ async function triggerDesk(env, deskId, source = "cron", scheduledFor = null) {
   if (!desk) return { ok: false, error: "Unknown desk" };
   const dispatchedAt = new Date().toISOString();
   const result = await dispatchWorkflow(env, desk.workflow);
-  await recordAutomationRun(env, deskId, source, scheduledFor || dispatchedAt, result);
-  await updateAutomationDesk(env, deskId, { last_triggered_at: dispatchedAt,
-    last_status: result.ok ? "ok" : "failed", last_error: result.error || null, last_source: source });
+  // GitHub dispatch is the primary action. Supabase is telemetry/state only:
+  // a database logging outage must never prevent other desks from dispatching.
+  try {
+    await recordAutomationRun(env, deskId, source, scheduledFor || dispatchedAt, result);
+  } catch (error) {
+    console.error("scheduler run logging failed", deskId, String(error?.message || error));
+  }
+  try {
+    await updateAutomationDesk(env, deskId, { last_triggered_at: dispatchedAt,
+      last_status: result.ok ? "ok" : "failed", last_error: result.error || null, last_source: source });
+  } catch (error) {
+    console.error("scheduler desk status update failed", deskId, String(error?.message || error));
+  }
   return { ...result, desk: deskId };
 }
 
@@ -412,9 +429,19 @@ async function runDueDesks(env) {
     if (!cronMatches(desk.cron, parts)) continue;
     const slot = parts.slotKey;
     if (state.get(id)?.last_slot === slot) continue;
-    const res = await triggerDesk(env, id, "cron", parts.display);
-    await updateAutomationDesk(env, id, { last_slot: slot });
-    if (res.ok) triggered.push(id);
+    try {
+      const res = await triggerDesk(env, id, "cron", parts.display);
+      if (res.ok) {
+        triggered.push(id);
+        try { await updateAutomationDesk(env, id, { last_slot: slot }); }
+        catch (error) { console.error("scheduler slot update failed", id, String(error?.message || error)); }
+      } else {
+        console.error("scheduler dispatch failed", id, res.status || "", res.error || "");
+      }
+    } catch (error) {
+      // Isolate one desk's failure; keep dispatching other desks due in this tick.
+      console.error("scheduler desk dispatch threw", id, String(error?.message || error));
+    }
   }
   return { triggered, now: parts.display };
 }
