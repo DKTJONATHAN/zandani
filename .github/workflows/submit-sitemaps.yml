@@ -1,4 +1,4 @@
-name: Verify and submit sitemaps
+name: Verify public sitemaps
 
 on:
   push:
@@ -13,8 +13,8 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: submit-sitemaps
-  cancel-in-progress: false
+  group: verify-public-sitemaps
+  cancel-in-progress: true
 
 jobs:
   verify:
@@ -39,28 +39,18 @@ jobs:
           grep -q 'news-sitemap.xml' /tmp/sitemap.xml
 
       - name: Verify live news sitemap
+        shell: bash
         run: |
           set -euo pipefail
           code=$(curl -L -sS -o /tmp/news-sitemap.xml -w "%{http_code}" https://zandani.co.ke/news-sitemap.xml)
           test "$code" = "200"
-          grep -q 'news.google.com' /tmp/news-sitemap.xml || grep -q 'schemas/sitemap-news/0.9' /tmp/news-sitemap.xml
+          grep -q 'schemas/sitemap-news/0.9' /tmp/news-sitemap.xml
 
-      - name: Submit sitemap index to Google Search Console
-        env:
-          GSC_KEY_RAW: ${{ secrets.GSC_JSON_KEY }}
+      - name: Confirm sitemap is discoverable
+        shell: bash
         run: |
-          if [ -z "${GSC_KEY_RAW:-}" ]; then
-            echo "GSC_JSON_KEY is not configured; sitemap remains discoverable via robots.txt."
-            exit 0
-          fi
-          npm install googleapis --no-save
-          node <<'NODE'
-          const { google } = require('googleapis');
-          const keys = JSON.parse(process.env.GSC_KEY_RAW);
-          keys.private_key = keys.private_key.replace(/\\n/g, '\n');
-          const auth = new google.auth.GoogleAuth({ credentials: keys, scopes: ['https://www.googleapis.com/auth/webmasters'] });
-          const searchconsole = google.searchconsole({ version: 'v1', auth });
-          searchconsole.sitemaps.submit({ siteUrl: 'https://zandani.co.ke/', feedpath: 'https://zandani.co.ke/sitemap.xml' })
-            .then(() => console.log('Google Search Console sitemap submitted.'))
-            .catch((error) => { console.error(error.message); process.exitCode = 1; });
-          NODE
+          set -euo pipefail
+          code=$(curl -L -sS -o /tmp/robots.txt -w "%{http_code}" https://zandani.co.ke/robots.txt)
+          test "$code" = "200"
+          grep -q 'Sitemap: https://zandani.co.ke/sitemap.xml' /tmp/robots.txt
+          echo "Public sitemap index, news sitemap and robots discovery checks passed."
