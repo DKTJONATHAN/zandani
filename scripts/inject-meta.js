@@ -149,7 +149,7 @@ const staticMeta = {
   '/faq': ['Frequently Asked Questions | Za Ndani', 'Answers about Za Ndani coverage, editorial standards, corrections, story tips, contributor bylines and how to contact the newsroom.']
 };
 function siteNavHtml() {
-  const links = baseRoutes.filter((route) => route !== '/privacy-policy' && route !== '/sitemap')
+  const links = baseRoutes.filter((route) => route !== '/privacy-policy')
     .map((route) => {
       const label = route === '/' ? 'Home' : route.replace(/^\//, '').replace(/-/g, ' ').replace(/\//g, ' · ');
       return '<li><a href="' + route + '">' + escapeHtml(label) + '</a></li>';
@@ -165,6 +165,9 @@ function genericPage(route) {
   let extra = '';
   if (route === '/authors') {
     extra = '<section><h2>Contributor profiles</h2><ul>' + Object.values(authorProfiles).map((profile) => '<li><a href="/author/' + slugify(profile.name) + '">' + escapeHtml(profile.name) + '</a> — ' + escapeHtml(profile.role || 'Contributor') + '</li>').join('') + '</ul></section>';
+  }
+  if (route === '/sitemap') {
+    extra = '<section><h2>All published stories</h2><ul>' + posts.map((post) => '<li><a href="/article/' + encodeURIComponent(post.slug) + '">' + escapeHtml(post.title) + '</a></li>').join('') + '</ul></section>';
   }
   const body = '<main><section><h1>' + escapeHtml(title.split(' | ')[0]) + '</h1><p>' + escapeHtml(description) + '</p>' + siteNavHtml() + '<nav aria-label="Latest stories"><h2>Latest stories</h2><ul>' + links + '</ul></nav>' + extra + '</section></main>';
   return injectRoot(injectHead(baseHtml, meta), body);
