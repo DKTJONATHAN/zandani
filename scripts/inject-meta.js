@@ -223,7 +223,7 @@ for (const [route, groupPosts] of categoryGroups) {
     { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
     { '@type': 'ListItem', position: 2, name: label, item: url },
   ] };
-  const body = '<main><section>' + breadcrumb + '<h1>' + escapeHtml(title) + '</h1><p>' + escapeHtml(description) + '</p>' + nav + '<ul>' + list + '</ul></section></main><script type="application/ld+json">' + JSON.stringify(schema).replace(/</g, '\\u003c') + '</script><script type="application/ld+json">' + JSON.stringify(breadcrumbSchema).replace(/</g, '\\u003c') + '</script>';
+  const body = '<main><section>' + breadcrumb + '<h1>' + escapeHtml(title) + '</h1><p>' + escapeHtml(description) + '</p>' + nav + '<ul>' + list + '</ul></section></main><script type="application/ld+json">' + JSON.stringify(schema).replace(/</g, '\\u003c') + '</script>';
   writeRoute(route, injectRoot(injectHead(baseHtml, meta), body));
 }
 
