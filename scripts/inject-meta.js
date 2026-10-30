@@ -223,7 +223,7 @@ for (const [route, groupPosts] of categoryGroups) {
     { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
     { '@type': 'ListItem', position: 2, name: label, item: url },
   ] };
-  const body = '<main><section>' + breadcrumb + '<h1>' + escapeHtml(title) + '</h1><p>' + escapeHtml(description) + '</p>' + nav + '<ul>' + list + '</ul></section></main><script type="application/ld+json">' + JSON.stringify(schema).replace(/</g, '\\u003c') + '</script>';
+  const body = '<main><section>' + breadcrumb + '<h1>' + escapeHtml(title) + '</h1><p>' + escapeHtml(description) + '</p>' + nav + '<ul>' + list + '</ul></section></main><script type="application/ld+json">' + JSON.stringify(schema).replace(/</g, '\\u003c') + '</script><script type="application/ld+json">' + JSON.stringify(breadcrumbSchema).replace(/</g, '\\u003c') + '</script>';
   writeRoute(route, injectRoot(injectHead(baseHtml, meta), body));
 }
 
@@ -253,6 +253,11 @@ for (const author of authors) {
     knowsAbout: role,
   };
   const schema = { '@context': 'https://schema.org', '@type': 'ProfilePage', name: title, url, description, mainEntity: entity };
+  const breadcrumbSchema = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+    { '@type': 'ListItem', position: 2, name: 'Authors', item: SITE_URL + '/authors' },
+    { '@type': 'ListItem', position: 3, name: author, item: url },
+  ] };
   const breadcrumb = '<nav aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/authors">Authors</a> / <span>' + escapeHtml(author) + '</span></nav>';
   const meta = '<title>' + escapeHtml(title) + '</title><meta name="description" content="' + escapeHtml(description) + '"><link rel="canonical" href="' + escapeHtml(url) + '"><meta property="og:title" content="' + escapeHtml(title) + '"><meta property="og:description" content="' + escapeHtml(description) + '"><meta property="og:url" content="' + escapeHtml(url) + '"><meta property="og:type" content="profile">';
   const body = '<main><article>' + breadcrumb + '<h1>' + escapeHtml(author) + '</h1><p><strong>' + escapeHtml(role) + '</strong></p><p>' + escapeHtml(bio) + '</p><nav aria-label="Site sections">' + siteNavHtml() + '</nav><section><h2>Latest stories by ' + escapeHtml(author) + '</h2><ul>' + list + '</ul></section><p><a href="/authors">Browse all Za Ndani contributors</a></p></article></main><script type="application/ld+json">' + JSON.stringify(schema).replace(/</g, '\\u003c') + '</script>';
