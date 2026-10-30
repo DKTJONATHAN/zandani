@@ -106,6 +106,7 @@ for (const file of htmlFiles) {
     .map((match) => { try { return JSON.parse(match[1]); } catch { failures.push(label + ': invalid JSON-LD'); return null; } })
     .filter(Boolean);
   const schemaTypes = jsonLd.flatMap((entry) => Array.isArray(entry['@graph']) ? entry['@graph'].map((node) => node['@type']) : [entry['@type']]).flat();
+  if (label !== 'index.html' && !schemaTypes.includes('BreadcrumbList')) failures.push(label + ': missing BreadcrumbList schema');
   const routePrefix = label.split(path.sep)[0];
   if (routePrefix === 'article' && (!schemaTypes.includes('NewsArticle') || !schemaTypes.includes('BreadcrumbList'))) failures.push(label + ': missing NewsArticle or BreadcrumbList schema');
   if (routePrefix === 'author' && !schemaTypes.includes('ProfilePage')) failures.push(label + ': missing ProfilePage schema');
