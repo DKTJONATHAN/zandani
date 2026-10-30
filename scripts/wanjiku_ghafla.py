@@ -102,8 +102,10 @@ def slug(s): return re.sub(r"[^a-z0-9]+","-",s.lower()).strip("-")[:90]
 
 def publish(result,src):
     title=result["title"].strip(); body=result["body"].strip()
-    featured=prepare_featured(src.get("featured",""),src["url"])
-    body_images=prepare_images(src.get("images",[]),src["url"],src.get("featured",""))
+    # Ghafla's original WordPress media URLs can be valid even when ImgBB
+    # times out. Fall back only after downloading and decoding the source image.
+    featured=prepare_featured(src.get("featured",""),src["url"],allow_source_fallback=True)
+    body_images=prepare_images(src.get("images",[]),src["url"],src.get("featured",""),allow_source_fallback=True)
     body=inject_images(body,body_images)
     if not featured:
         print("Ghafla: no source image could be verified/re-hosted; publishing without an image rather than inventing one")
