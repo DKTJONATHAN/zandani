@@ -57,7 +57,7 @@ export function ForYouRail({ limit = 6 }: { limit?: number }) {
               <div className="relative aspect-[4/3] overflow-hidden bg-muted border-t-[3px] border-primary">
                 <img
                   src={img(post.image, 360)}
-                  alt=""
+                  alt={post.title}
                   loading="lazy"
                   decoding="async"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
