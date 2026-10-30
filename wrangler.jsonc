@@ -13,7 +13,7 @@
   },
   "vars": {
     "USE_ADMIN_SCHEDULER": "true",
-    "TURNSTILE_HOSTNAMES": "zandani.co.ke"
+    "TURNSTILE_HOSTNAMES": "zandani.co.ke,www.zandani.co.ke"
   },
   "assets": {
     "directory": "./dist",
