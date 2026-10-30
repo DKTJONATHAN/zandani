@@ -358,7 +358,7 @@ export default function ArticlePage() {
                       <div className="aspect-[16/10] overflow-hidden bg-muted">
                         <img
                           src={proxyImg(rp.image, 400)}
-                          alt=""
+                          alt={rp.title}
                           width={400}
                           height={250}
                           loading="lazy"
