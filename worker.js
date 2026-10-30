@@ -787,13 +787,6 @@ export default {
     const url = new URL(request.url);
     const path = url.pathname;
 
-    // Normalize trailing-slash variants once, without touching API endpoints.
-    if (!path.startsWith("/api/") && path.length > 1 && path.endsWith("/")) {
-      const normalized = new URL(url);
-      normalized.pathname = path.replace(/\/+$/, "");
-      return Response.redirect(normalized.toString(), 301);
-    }
-
     // Collapse legacy category aliases directly to their canonical section URL.
     const categoryAlias = path.match(/^\/category\/([^/]+)\/?$/i);
     if (categoryAlias) {
@@ -807,6 +800,13 @@ export default {
       };
       const destination = canonicalSections[slug];
       if (destination) return Response.redirect(new URL(destination, url).toString(), 301);
+    }
+
+    // Normalize trailing-slash variants once, without touching API endpoints.
+    if (!path.startsWith("/api/") && path.length > 1 && path.endsWith("/")) {
+      const normalized = new URL(url);
+      normalized.pathname = path.replace(/\/+$/, "");
+      return Response.redirect(normalized.toString(), 301);
     }
 
     if (path === "/google4a7d26b466f41330.html" || path === "/google4a7d26b466f41330") {
