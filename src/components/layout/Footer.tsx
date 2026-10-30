@@ -123,6 +123,7 @@ export function Footer() {
                 { name: "Ethics", path: "/ethics" },
                 { name: "Corrections", path: "/corrections" },
                 { name: "Fact-Check", path: "/fact-check" },
+                { name: "FAQs", path: "/faq" },
                 { name: "Advertise", path: "/advertise" },
                 { name: "Privacy", path: "/privacy-policy" },
                 { name: "Terms", path: "/terms" },
