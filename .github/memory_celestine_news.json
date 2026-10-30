@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "cbe2b3ded0c24cd5816a153126d9a054",
     "f7a825a47a3551cfcb0f09e302701875",
     "ac82e7ad106db6a419f811b41ede025e",
     "0cfc2a5d4cf91a0598d9ae9c168d43d7",
@@ -799,10 +798,10 @@
     "f378085f56e84f145e18caf9d1601da1",
     "6eb0451036a2061a1167c75e2cd6c43a",
     "ee3cdaf0b06ff68d945153eaaba4e987",
-    "e9d660a2bde0b1e53caea16911ea1faf"
+    "e9d660a2bde0b1e53caea16911ea1faf",
+    "c993ee68506f8d66885a4b96d316b1b3"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1537,7 +1537,8 @@
     "https://kenyans.co.ke/news/128997-govt-reveals-ksh98-billion-owed-contractors-despite-funding-new-road-projects",
     "https://kenyans.co.ke/news/128999-standard-media-group-appoints-dr-naim-bilal-ceo",
     "https://kenyans.co.ke/news/128998-ntsa-issues-warning-motorists-over-fake-traffic-offence-notices",
-    "https://kenyans.co.ke/news/129004-transport-costs-surge-17-october-inflation-hits-73-knbs"
+    "https://kenyans.co.ke/news/129004-transport-costs-surge-17-october-inflation-hits-73-knbs",
+    "https://kenyans.co.ke/news/129007-sifuna-picks-mwangaza-osotsi-key-linda-mwananchi-movement-party-positions"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2165,7 +2166,8 @@
     "securitisation cash influx leaves ksh98b road debt unresolved ministry adds works",
     "standard group hands naim bilal substantive helm halt executive instability",
     "ntsa flags counterfeit fine slips highway crackdown spawns roadside scams",
-    "transport surge pushes inflation leaving cbk basis point buffer"
+    "transport surge pushes inflation leaving cbk basis point buffer",
+    "sifuna distributes regional levers four deputy linda mwananchi roster"
   ],
   "topic_keys": [
     "news tracker",
@@ -7088,6 +7090,15 @@
       "structure": "Statutory limit lead -> KNBS factual core and multi-month trajectory -> Anatomy of the 17.1% transport and fuel pass-through -> Core and non-core contagion across the household basket -> Forward monetary policy exposure.",
       "source": "https://kenyans.co.ke/news/129004-transport-costs-surge-17-october-inflation-hits-73-knbs",
       "published_at": "2026-10-30T09:02:06Z"
+    },
+    {
+      "title": "Sifuna Distributes Regional Levers in Four-Deputy Linda Mwananchi Roster",
+      "angle": "Attribution-first dissection of how the four-deputy structure and strategic secretariat appointments distribute regional levers to political defectors and cross-faction figures ahead of formal NDC ratification.",
+      "angle_type": "institutional pressure",
+      "opening": "Attribution-first statement lead pinpointing Sifuna's structural blueprint and the immediate regional power beneficiaries.",
+      "structure": "Attribution lead -> Proposed four-deputy executive architecture -> Secretariat administrative and regional lineup -> Strategic gubernatorial deployment -> NDC ratification hurdle",
+      "source": "https://kenyans.co.ke/news/129007-sifuna-picks-mwangaza-osotsi-key-linda-mwananchi-movement-party-positions",
+      "published_at": "2026-10-30T10:09:25Z"
     }
   ]
 }
