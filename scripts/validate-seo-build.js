@@ -40,6 +40,8 @@ const workerCategoryRedirects = {
 };
 function oneHopRedirect(pathname) {
   if (workerCategoryRedirects[pathname]) return workerCategoryRedirects[pathname];
+  const legacyArticle = pathname.match(/^\/article\/(.+?)-+$/);
+  if (legacyArticle) return '/article/' + legacyArticle[1];
   if (pathname.length > 1 && pathname.endsWith('/')) return pathname.replace(/\/+$/, '');
   const rule = redirectRules.find((parts) => parts[0] === pathname);
   return rule ? rule[1] : null;
@@ -63,7 +65,7 @@ let checkedImages = 0;
 let checkedLinks = 0;
 
 for (const file of htmlFiles) {
-  if (path.basename(file) === '404.html' || path.basename(file) === 'app-shell.html') continue;
+  if (['404.html', 'app-shell.html', 'google4a7d26b466f41330.html'].includes(path.basename(file))) continue;
   const html = fs.readFileSync(file, 'utf8');
   const robots = [...html.matchAll(/<meta\b[^>]*name=["']robots["'][^>]*>/gi)].map((m) => attr(m[0], 'content') || '').join(',').toLowerCase();
   if (robots.includes('noindex')) continue;
