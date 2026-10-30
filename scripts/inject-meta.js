@@ -219,7 +219,7 @@ for (const author of authors) {
   const role = profile.role || 'Contributing Writer';
   const bio = profile.bio || (author + ' contributes reporting and features for Za Ndani.');
   const title = author + ' | ' + role + ' | Za Ndani';
-  const description = (bio.length > 145 ? bio.slice(0, 142).replace(/\s+\S*$/, '') + '…' : bio) + ' Read the latest stories by ' + author + ' on Za Ndani.';
+  const description = (bio + ' Read the latest stories by ' + author + ' on Za Ndani.').replace(/\s+/g, ' ').slice(0, 157).replace(/\s+\S*$/, '');
   const url = SITE_URL + route;
   const list = items.map((p) => '<li><a href="/article/' + encodeURIComponent(p.slug) + '">' + escapeHtml(p.title) + '</a></li>').join('');
   const isDesk = /desk/i.test(role);
@@ -261,7 +261,7 @@ for (const tag of tags) {
   const items = posts.filter((p) => p.tags.some((t) => slugify(t) === tag)).slice(0, 30);
   const title = `${tag.replace(/-/g, ' ')} | Za Ndani`;
   const description = `Latest Za Ndani stories tagged ${tag.replace(/-/g, ' ')}.`;
-  const meta = `<title>${escapeHtml(title)}</title><meta name="description" content="${escapeHtml(description)}"><link rel="canonical" href="${SITE_URL}${route}"><meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:url" content="${SITE_URL}${route}"><meta property="og:type" content="website">`;
+  const meta = `<title>${escapeHtml(title)}</title><meta name="description" content="${escapeHtml(description)}"><meta name="robots" content="noindex,follow"><link rel="canonical" href="${SITE_URL}${route}"><meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:url" content="${SITE_URL}${route}"><meta property="og:type" content="website">`;
   const list = items.map((p) => `<li><a href="/article/${encodeURIComponent(p.slug)}">${escapeHtml(p.title)}</a></li>`).join('');
   const body = `<main><section><h1>${escapeHtml(title)}</h1><p>${escapeHtml(description)}</p><ul>${list}</ul></section></main>`;
   writeRoute(route, injectRoot(injectHead(baseHtml, meta), body));
@@ -289,7 +289,7 @@ for (const post of posts) {
   const categoryPath = sectionRoutes[categorySlug] || '/category/' + categorySlug;
   const authorSlug = slugify(post.author) || 'za-ndani';
   const authorProfile = authorProfiles[post.author] || { role: 'Contributing Writer', bio: post.author + ' contributes reporting and features for Za Ndani.' };
-  const description = post.description || post.title;
+  const description = (post.description || post.title).replace(/\s+/g, ' ').slice(0, 157).replace(/\s+\S*$/, '');
   const normalizedBody = (post.body || '').replace(/^#\s+/gm, '## ');
   const articleHtml = marked.parse(normalizedBody).replace(/<img\b([^>]*)>/gi, (tag, attrs) => {
     let nextAttrs = attrs;
