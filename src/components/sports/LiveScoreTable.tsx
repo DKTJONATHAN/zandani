@@ -134,7 +134,7 @@ function MatchRow({ match }: { match: Match }) {
         <div className="flex flex-col gap-2 py-2">
           <div className="flex items-center gap-3">
             {match.homeTeam.crest && (
-              <img src={match.homeTeam.crest} alt="" className="w-4 h-4 object-contain" />
+              <img src={match.homeTeam.crest} alt={`${match.homeTeam.name} crest`} className="w-4 h-4 object-contain" />
             )}
             <span className="text-sm font-bold text-zinc-100 group-hover:text-white transition-colors">
               {match.homeTeam.name}
@@ -142,7 +142,7 @@ function MatchRow({ match }: { match: Match }) {
           </div>
           <div className="flex items-center gap-3">
             {match.awayTeam.crest && (
-              <img src={match.awayTeam.crest} alt="" className="w-4 h-4 object-contain" />
+              <img src={match.awayTeam.crest} alt={`${match.awayTeam.name} crest`} className="w-4 h-4 object-contain" />
             )}
             <span className="text-sm font-bold text-zinc-100 group-hover:text-white transition-colors">
               {match.awayTeam.name}

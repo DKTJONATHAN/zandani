@@ -110,7 +110,7 @@ export default function LiveWirePage() {
                 <li key={post.slug}>
                   <Link to={`/article/${post.slug}`} className="flex gap-4 py-4 group">
                     <span className="w-8 shrink-0 text-zinc-600 font-mono text-sm pt-1">{index + 2}</span>
-                    <img src={proxyImg(post.image, 240)} alt="" className="w-24 h-16 object-cover rounded-lg bg-zinc-900 shrink-0" />
+                    <img src={proxyImg(post.image, 240)} alt={post.title} className="w-24 h-16 object-cover rounded-lg bg-zinc-900 shrink-0" />
                     <div className="min-w-0">
                       <p className="text-[10px] uppercase tracking-widest text-zinc-500 font-bold">
                         {post.category} · {timeLabel(post.date)}

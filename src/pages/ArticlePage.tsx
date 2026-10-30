@@ -55,7 +55,8 @@ function cleanMetaDescription(raw: string, fallbackTitle: string): string {
   return d;
 }
 
-type AuthorEditorialProfile = { name: string; role: string; bio: string; avatar?: string; location?: string };\nconst AUTHOR_PROFILES = authorProfiles as Record<string, AuthorEditorialProfile>;
+type AuthorEditorialProfile = { name: string; role: string; bio: string; avatar?: string; location?: string };
+const AUTHOR_PROFILES = authorProfiles as Record<string, AuthorEditorialProfile>;
 
 export default function ArticlePage() {
   const { slug } = useParams<{ slug: string }>();
@@ -147,7 +148,7 @@ export default function ArticlePage() {
     );
   }
 
-  const authorProfile = AUTHOR_PROFILES[post.author] || { name: post.author || "Za Ndani", role: "Contributing Writer", bio: `${post.author || "Za Ndani"} contributes coverage for Za Ndani, with reporting focused on the story and its relevance to readers.` };
+  const authorProfile = AUTHOR_PROFILES[post.author] || { name: post.author || "Za Ndani", role: "Editorial Contributor", bio: `The ${post.author || "Za Ndani"} byline covers the story and its relevance to readers.` };
   const authorBio = authorProfile.bio;
   const authorTint = authorColor(post.author);
   const authorInitials = (post.author || "ZN")
@@ -179,7 +180,7 @@ export default function ArticlePage() {
     image: post.image ? [postOgImage] : undefined,
     datePublished: Number.isNaN(publishedDate.getTime()) ? undefined : publishedDate.toISOString(),
     dateModified: Number.isNaN(modifiedDate.getTime()) ? undefined : modifiedDate.toISOString(),
-    author: { "@type": /desk/i.test(authorProfile.role) ? "Organization" : "Person", name: post.author, description: authorBio, url: `${SITE_URL}/author/${(post.author || "za-ndani").toLowerCase().replace(/\s+/g, "-")}` },
+    author: { "@type": "Organization", name: post.author, description: authorBio, url: `${SITE_URL}/author/${(post.author || "za-ndani").toLowerCase().replace(/\s+/g, "-")}` },
     publisher: {
       "@type": "Organization",
       name: "Za Ndani",
@@ -327,7 +328,7 @@ export default function ArticlePage() {
                   {authorInitials}
                 </div>
                 <div>
-                  <p className="text-[10px] font-black uppercase tracking-[0.2em] text-primary mb-1">The writer</p>
+                  <p className="text-[10px] font-black uppercase tracking-[0.2em] text-primary mb-1">About this byline</p>
                   <h3 className="font-serif font-bold text-lg">
                     <Link to={`/author/${(post.author || "za-ndani").toLowerCase().replace(/\s+/g, "-")}`} className="hover:text-primary">
                       {post.author}
@@ -358,7 +359,7 @@ export default function ArticlePage() {
                       <div className="aspect-[16/10] overflow-hidden bg-muted">
                         <img
                           src={proxyImg(rp.image, 400)}
-                          alt=""
+                          alt={rp.title}
                           width={400}
                           height={250}
                           loading="lazy"

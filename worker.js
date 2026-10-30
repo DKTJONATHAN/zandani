@@ -787,6 +787,11 @@ export default {
     const url = new URL(request.url);
     const path = url.pathname;
 
+    const legacyArticleSlug = path.match(/^\/article\/(.+?)-+\/?$/);
+    if (legacyArticleSlug) {
+      return Response.redirect(new URL("/article/" + legacyArticleSlug[1], url).toString(), 301);
+    }
+
     if (path === "/privacy-policy" || path === "/privacy-policy/") {
       return Response.redirect(new URL("/privacy", url).toString(), 301);
     }

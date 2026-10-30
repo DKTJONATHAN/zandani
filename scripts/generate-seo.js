@@ -44,8 +44,10 @@ async function loadPosts() {
       const parsed = matter(raw); const data = parsed.data || {};
       const published = publishedAt(data);
       if (!published || published.getTime() > Date.now()) continue;
-      const slug = String(data.slug || file.replace(/\.md$/, '')).trim();
-      if (!slug || slugify(slug) !== slug) throw new Error(`Invalid slug; use a URL-safe slug: ${slug}`);
+      const rawSlug = String(data.slug || file.replace(/\.md$/, '')).trim();
+      const slug = slugify(rawSlug);
+      if (!slug) throw new Error('Empty slug after normalization');
+      if (slug !== rawSlug) console.warn(`Normalized slug in ${file}: ${rawSlug} -> ${slug}`);
       if (!data.title || !data.category || !data.author || !(data.publishDate || data.date)) {
         throw new Error('Missing required publication metadata');
       }
@@ -58,7 +60,7 @@ async function loadPosts() {
 function urlBlock(pathname, lastmod) { return `  <url><loc>${escapeXml(assertCanonical(canonicalUrl(pathname)))}</loc>${lastmod ? `<lastmod>${lastmod.toISOString()}</lastmod>` : ''}</url>`; }
 function urlset(blocks, extra = '') { return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"${extra}>\n${blocks.join('\n')}\n</urlset>\n`; }
 function staticSitemap(posts) {
-  const paths = ['/', '/news', '/entertainment', '/sports', '/business', '/lifestyle', '/about', '/contact', '/privacy', '/terms', '/ethics', '/corrections', '/authors', '/tv', '/advertise', '/careers', '/fact-check', '/trending', '/podcast', '/live', '/energy', '/education', '/finance', '/sports/live', '/faq'];
+  const paths = ['/', '/news', '/entertainment', '/sports', '/business', '/lifestyle', '/about', '/contact', '/privacy', '/terms', '/ethics', '/corrections', '/authors', '/sitemap', '/tv', '/advertise', '/careers', '/fact-check', '/trending', '/podcast', '/live', '/energy', '/education', '/finance', '/sports/live', '/faq', '/newsletter'];
   const authorPaths = [...new Set(posts.map((post) => slugify(post.author)).filter(Boolean))].map((slug) => `/author/${slug}`);
   return urlset([...new Set([...paths, ...authorPaths])].map((pathname) => urlBlock(pathname)));
 }
@@ -90,7 +92,7 @@ function sitemapIndex(posts) {
   return `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${files.map((file) => `  <sitemap><loc>${escapeXml(assertCanonical(canonicalUrl(`/${file}`)))}</loc><lastmod>${now}</lastmod></sitemap>`).join('\n')}\n</sitemapindex>\n`;
 }
 function rss(posts) { const items = posts.slice(0, 100).map((p) => { const url = canonicalUrl(`/article/${encodeURIComponent(p.slug)}`); return `    <item><title><![CDATA[${p.title}]]></title><link>${url}</link><guid isPermaLink="true">${url}</guid><pubDate>${p.date.toUTCString()}</pubDate><dc:creator><![CDATA[${p.author}]]></dc:creator><description><![CDATA[${p.description}]]></description></item>`; }).join('\n'); return `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>${escapeXml(PUBLICATION_NAME)}</title><link>${SITE_URL}</link><description>Kenya and world news, politics, sports and entertainment.</description><language>en-KE</language><atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="${SITE_URL}/feed.xml" rel="self" type="application/rss+xml"/>\n${items}\n</channel></rss>\n`; }
-function robots() { return `User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /search\nDisallow: /search?\nDisallow: /admin\nDisallow: /newsletter\nDisallow: /*?page=\n\nUser-agent: Googlebot\nAllow: /\nDisallow: /search\nDisallow: /admin\nDisallow: /newsletter\nDisallow: /api/\n\nUser-agent: Bingbot\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\nSitemap: ${SITE_URL}/news-sitemap.xml\n`; }
+function robots() { return `User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /*?page=\n\nUser-agent: Googlebot\nAllow: /\nDisallow: /api/\n\nUser-agent: Bingbot\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\nSitemap: ${SITE_URL}/news-sitemap.xml\n`; }
 function llms(posts) { const recent = posts.slice(0, 20).map((p) => `- [${p.title}](${canonicalUrl(`/article/${encodeURIComponent(p.slug)}`)}): ${p.description}`).join('\n'); return `# Za Ndani\n\nSite: ${SITE_URL}\nLanguage: en-KE\nPublisher: Za Ndani (Nairobi, Kenya)\n\n## Sections\n- [Home](${SITE_URL}/)\n- [News](${SITE_URL}/news)\n- [Entertainment](${SITE_URL}/entertainment)\n- [Sports](${SITE_URL}/sports)\n- [Business](${SITE_URL}/business)\n- [Lifestyle](${SITE_URL}/lifestyle)\n\n## Recent stories\n${recent}\n\n## Discovery\n- Sitemap: ${SITE_URL}/sitemap.xml\n- News sitemap: ${SITE_URL}/news-sitemap.xml\n- RSS: ${SITE_URL}/feed.xml\n`; }
 async function writeBoth(name, content) { await fs.mkdir(publicDir, { recursive: true }); await fs.mkdir(distDir, { recursive: true }); await Promise.all([fs.writeFile(path.join(publicDir, name), content, 'utf8'), fs.writeFile(path.join(distDir, name), content, 'utf8')]); }
 

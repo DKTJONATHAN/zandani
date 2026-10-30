@@ -278,7 +278,7 @@ export default function NewsPage() {
                       </h3>
                       <p className="text-[11px] text-muted-foreground line-clamp-1 mt-0.5">{post.excerpt}</p>
                     </div>
-                    <img src={proxyImg(post.image, 120)} alt="" loading="lazy"
+                    <img src={proxyImg(post.image, 120)} alt={post.title} loading="lazy"
                       className="w-16 h-12 object-cover flex-shrink-0 opacity-80 group-hover:opacity-100 transition-opacity" />
                   </div>
                 </Link>

@@ -104,7 +104,7 @@ export function LiveUpdatesTimeline({
               </div>
               <img
                 src={proxyImg(post.image, 80)}
-                alt=""
+                alt={post.title}
                 loading="lazy"
                 className="w-14 h-10 object-cover flex-shrink-0 opacity-80 group-hover:opacity-100 transition-opacity"
               />

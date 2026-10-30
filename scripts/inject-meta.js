@@ -90,7 +90,8 @@ const posts = files.map((file) => {
   const raw = fs.readFileSync(path.join(postsDir, file), 'utf8');
   const parsed = matter(raw);
   const data = parsed.data || {};
-  const slug = String(data.slug || file.replace(/\.md$/, '')).trim();
+  const rawSlug = String(data.slug || file.replace(/\.md$/, '')).trim();
+  const slug = slugify(rawSlug);
   const title = String(data.title || 'Za Ndani Article').trim();
   const description = String(data.description || data.excerpt || parsed.content.replace(/[#>*_~`]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 180)).trim();
   return {
@@ -116,7 +117,7 @@ const baseRoutes = [
   '/advertise', '/careers', '/ethics', '/corrections', '/fact-check',
   '/trending', '/news', '/entertainment', '/sports', '/business', '/lifestyle',
   '/sports/live', '/sitemap', '/authors', '/podcast', '/tv', '/energy',
-  '/education', '/finance', '/live', '/faq'
+  '/education', '/finance', '/live', '/faq', '/newsletter'
 ];
 
 const staticMeta = {
@@ -146,7 +147,8 @@ const staticMeta = {
   '/education': ['Education News & Policy in Kenya | Za Ndani', 'Follow education policy, schools, universities, examinations and developments affecting learners, families and educators in Kenya.'],
   '/finance': ['Personal Finance & Financial News | Za Ndani', 'Understand finance, money, banking, markets and economic decisions affecting individuals and businesses in Kenya.'],
   '/live': ['Live News Updates | Za Ndani', 'Follow developing news and live updates from Kenya and across the region as important stories unfold.'],
-  '/faq': ['Frequently Asked Questions | Za Ndani', 'Answers about Za Ndani coverage, editorial standards, corrections, story tips, contributor bylines and how to contact the newsroom.']
+  '/faq': ['Frequently Asked Questions | Za Ndani', 'Answers about Za Ndani coverage, editorial standards, corrections, story tips, contributor bylines and how to contact the newsroom.'],
+  '/newsletter': ['Za Ndani Briefing | Get the Latest Kenya News by Email', 'Sign up for the Za Ndani briefing for selected Kenyan news, public affairs, business, sports and entertainment stories delivered by email.']
 };
 function siteNavHtml() {
   const links = baseRoutes.filter((route) => route !== '/privacy-policy')
@@ -164,12 +166,27 @@ function genericPage(route) {
   const links = posts.slice(0, 12).map((p) => '<li><a href="/article/' + encodeURIComponent(p.slug) + '">' + escapeHtml(p.title) + '</a></li>').join('');
   let extra = '';
   if (route === '/authors') {
-    extra = '<section><h2>Contributor profiles</h2><ul>' + [...new Set(posts.map((post) => post.author).filter(Boolean))].map((name) => { const profile = authorProfiles[name] || { name, role: 'Contributing Writer' }; return '<li><a href="/author/' + slugify(name) + '">' + escapeHtml(name) + '</a> — ' + escapeHtml(profile.role || 'Contributor') + '</li>'; }).join('') + '</ul></section>';
+    extra = '<section><h2>Contributor profiles</h2><ul>' + [...new Set(posts.map((post) => post.author).filter(Boolean))].map((name) => { const profile = authorProfiles[name] || { name, role: 'Editorial Contributor' }; return '<li><a href="/author/' + slugify(name) + '">' + escapeHtml(name) + '</a> — ' + escapeHtml(profile.role || 'Contributor') + '</li>'; }).join('') + '</ul></section>';
+  }
+  if (route === '/newsletter') {
+    extra = '<section><h2>Get the Za Ndani briefing</h2><p>Receive selected stories on Kenyan news, public affairs, business, sport and entertainment. Visit the newsletter page to manage your subscription.</p><p><a href="/newsletter">Open the newsletter sign-up</a></p></section>';
   }
   if (route === '/sitemap') {
     extra = '<section><h2>All published stories</h2><ul>' + posts.map((post) => '<li><a href="/article/' + encodeURIComponent(post.slug) + '">' + escapeHtml(post.title) + '</a></li>').join('') + '</ul></section>';
   }
-  const body = '<main><section><h1>' + escapeHtml(title.split(' | ')[0]) + '</h1><p>' + escapeHtml(description) + '</p>' + siteNavHtml() + '<nav aria-label="Latest stories"><h2>Latest stories</h2><ul>' + links + '</ul></nav>' + extra + '</section></main>';
+  const pageLabel = route === '/' ? 'Home' : route.slice(1).replace(/-/g, ' ').replace(/\//g, ' · ').replace(/\b\w/g, (letter) => letter.toUpperCase());
+  const breadcrumb = route === '/'
+    ? ''
+    : '<nav aria-label="Breadcrumb"><a href="/">Home</a> / <span>' + escapeHtml(pageLabel) + '</span></nav>';
+  const breadcrumbSchema = route === '/' ? '' : '<script type="application/ld+json">' + JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+      { '@type': 'ListItem', position: 2, name: pageLabel, item: url },
+    ],
+  }).replace(/</g, '\\u003c') + '</script>';
+  const body = '<main>' + breadcrumb + '<section><h1>' + escapeHtml(title.split(' | ')[0]) + '</h1><p>' + escapeHtml(description) + '</p>' + siteNavHtml() + '<nav aria-label="Latest stories"><h2>Latest stories</h2><ul>' + links + '</ul></nav>' + extra + '</section></main>' + breadcrumbSchema;
   return injectRoot(injectHead(baseHtml, meta), body);
 }
 for (const route of baseRoutes) writeRoute(route, genericPage(route));
@@ -206,7 +223,7 @@ for (const [route, groupPosts] of categoryGroups) {
     { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
     { '@type': 'ListItem', position: 2, name: label, item: url },
   ] };
-  const body = '<main><section>' + breadcrumb + '<h1>' + escapeHtml(title) + '</h1><p>' + escapeHtml(description) + '</p>' + nav + '<ul>' + list + '</ul></section></main><script type="application/ld+json">' + JSON.stringify(schema).replace(/</g, '\\u003c') + '</script>';
+  const body = '<main><section>' + breadcrumb + '<h1>' + escapeHtml(title) + '</h1><p>' + escapeHtml(description) + '</p>' + nav + '<ul>' + list + '</ul></section></main><script type="application/ld+json">' + JSON.stringify(schema).replace(/</g, '\\u003c') + '</script><script type="application/ld+json">' + JSON.stringify(breadcrumbSchema).replace(/</g, '\\u003c') + '</script>';
   writeRoute(route, injectRoot(injectHead(baseHtml, meta), body));
 }
 
@@ -217,7 +234,7 @@ for (const author of authors) {
   const items = posts.filter((p) => p.author === author).slice(0, 40);
   const profile = authorProfiles[author] || {
     name: author,
-    role: 'Contributing Writer',
+    role: 'Editorial Contributor',
     bio: author + ' contributes to Za Ndani coverage, with reporting focused on the subjects and context readers need to follow.',
     location: 'Kenya',
   };
@@ -229,16 +246,21 @@ for (const author of authors) {
   const list = items.map((p) => '<li><a href="/article/' + encodeURIComponent(p.slug) + '">' + escapeHtml(p.title) + '</a></li>').join('');
   const isDesk = /desk/i.test(role);
   const entity = {
-    '@type': isDesk ? 'Organization' : 'Person',
+    '@type': 'Organization',
     name: author,
     description: bio,
     url,
-    jobTitle: isDesk ? undefined : role,
+    knowsAbout: role,
   };
   const schema = { '@context': 'https://schema.org', '@type': 'ProfilePage', name: title, url, description, mainEntity: entity };
+  const breadcrumbSchema = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+    { '@type': 'ListItem', position: 2, name: 'Authors', item: SITE_URL + '/authors' },
+    { '@type': 'ListItem', position: 3, name: author, item: url },
+  ] };
   const breadcrumb = '<nav aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/authors">Authors</a> / <span>' + escapeHtml(author) + '</span></nav>';
   const meta = '<title>' + escapeHtml(title) + '</title><meta name="description" content="' + escapeHtml(description) + '"><link rel="canonical" href="' + escapeHtml(url) + '"><meta property="og:title" content="' + escapeHtml(title) + '"><meta property="og:description" content="' + escapeHtml(description) + '"><meta property="og:url" content="' + escapeHtml(url) + '"><meta property="og:type" content="profile">';
-  const body = '<main><article>' + breadcrumb + '<h1>' + escapeHtml(author) + '</h1><p><strong>' + escapeHtml(role) + '</strong></p><p>' + escapeHtml(bio) + '</p><nav aria-label="Site sections">' + siteNavHtml() + '</nav><section><h2>Latest stories by ' + escapeHtml(author) + '</h2><ul>' + list + '</ul></section><p><a href="/authors">Browse all Za Ndani contributors</a></p></article></main><script type="application/ld+json">' + JSON.stringify(schema).replace(/</g, '\\u003c') + '</script>';
+  const body = '<main><article>' + breadcrumb + '<h1>' + escapeHtml(author) + '</h1><p><strong>' + escapeHtml(role) + '</strong></p><p>' + escapeHtml(bio) + '</p><nav aria-label="Site sections">' + siteNavHtml() + '</nav><section><h2>Latest stories by ' + escapeHtml(author) + '</h2><ul>' + list + '</ul></section><p><a href="/authors">Browse all Za Ndani contributors</a></p></article></main><script type="application/ld+json">' + JSON.stringify(schema).replace(/</g, '\\u003c') + '</script><script type="application/ld+json">' + JSON.stringify(breadcrumbSchema).replace(/</g, '\\u003c') + '</script>';
   writeRoute(route, injectRoot(injectHead(baseHtml, meta), body));
 }
 
@@ -273,7 +295,7 @@ for (const tag of tags) {
 }
 
 // Search/admin/newsletter are application utilities, not search landing pages.
-for (const route of ['/search', '/admin', '/newsletter']) {
+for (const route of ['/search', '/admin']) {
   const title = `${route.slice(1) || 'Home'} | Za Ndani`;
   const meta = `<title>${escapeHtml(title)}</title><meta name="robots" content="noindex,follow"><link rel="canonical" href="${SITE_URL}${route}">`;
   writeRoute(route, injectHead(baseHtml, meta));
@@ -293,7 +315,7 @@ for (const post of posts) {
   };
   const categoryPath = sectionRoutes[categorySlug] || '/category/' + categorySlug;
   const authorSlug = slugify(post.author) || 'za-ndani';
-  const authorProfile = authorProfiles[post.author] || { role: 'Contributing Writer', bio: post.author + ' contributes reporting and features for Za Ndani.' };
+  const authorProfile = authorProfiles[post.author] || { role: 'Editorial Contributor', bio: 'The ' + post.author + ' byline covers news and current affairs for Za Ndani.' };
   const description = post.description || post.title;
   const metaDescription = (description.toLowerCase().includes(post.title.toLowerCase()) ? description : post.title + '. ' + description).replace(/\s+/g, ' ').slice(0, 157).replace(/\s+\S*$/, '');
   const normalizedBody = (post.body || '').replace(/^#\s+/gm, '## ');
@@ -315,7 +337,7 @@ for (const post of posts) {
     { '@type': 'ListItem', position: 3, name: post.title, item: url },
   ] };
   const authorSchema = {
-    '@type': /desk/i.test(authorProfile.role || '') ? 'Organization' : 'Person',
+    '@type': 'Organization',
     name: post.author,
     description: authorProfile.bio,
     url: SITE_URL + '/author/' + authorSlug,

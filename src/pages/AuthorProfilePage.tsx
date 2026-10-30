@@ -54,8 +54,8 @@ export interface AuthorProfile {
 
 const DEFAULT_PROFILE: AuthorProfile = {
   name: "Guest Contributor",
-  role: "Contributing Writer",
-  bio: "Contributing writer for Za Ndani bringing you the latest stories from Kenya.",
+  role: "Editorial Contributor",
+  bio: "This Za Ndani byline covers stories and developments from Kenya.",
   avatar: "",
   location: "Kenya",
 };
@@ -156,8 +156,8 @@ export default function AuthorProfilePage() {
   return (
     <Layout>
       <Helmet>
-        <title>{actualAuthorName} — Author | Za Ndani</title>
-        <meta name="description" content={`Read all articles by ${actualAuthorName} on Za Ndani — ${profile.role}. ${profile.bio.slice(0, 100)}`} />
+        <title>{actualAuthorName} | Editorial Profile | Za Ndani</title>
+        <meta name="description" content={`${actualAuthorName}: ${profile.role}. ${profile.bio}`.slice(0, 157)} />
         <link rel="canonical" href={`https://zandani.co.ke/author/${authorName}`} />
         <meta property="og:title" content={`${actualAuthorName} | Za Ndani`} />
         <meta property="og:description" content={profile.bio} />
@@ -169,12 +169,12 @@ export default function AuthorProfilePage() {
         <meta name="twitter:description" content={profile.bio} />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
-          "@type": /desk/i.test(profile.role) ? "Organization" : "Person",
+          "@type": "Organization",
           "name": actualAuthorName,
           "description": profile.bio,
           "url": `https://zandani.co.ke/author/${authorName}`,
           "image": profile.avatar || undefined,
-          "jobTitle": profile.role
+          "knowsAbout": profile.role
         })}</script>
       </Helmet>
 

@@ -17,7 +17,7 @@ Esther Passaris took the stage at the ESMANDA Baby Shop opening to pivot away fr
 
 The WaJesus family frequently shares their journey of family expansion for an audience that consumes parenthood as a performative aesthetic. During the recent launch on Biashara Street, the conversation shifted from baby products to the mechanics of growing a family. While the public often views adoption through a sentimental lens, the legal framework under the Children Act remains a rigid, complex obstacle course.
 
-Prospective parents in Kenya must contend with stringent vetting, home visits, and a judicial process that can span years. This is a far cry from the instantaneous, curated updates that dominate social media feeds. When celebrities discuss their family plans, they rarely mention the legal realities that [Huduma Kenya explains regarding birth certificate rules](https://zandani.co.ke/article/huduma-kenya-birth-certificate-county-application-rules), nor do they touch on the arduous foster-to-adopt pathway. Passaris used the platform to strip away the glossy finish, emphasizing that bringing a child into a home is a sovereign, policy-heavy commitment rather than a lifestyle choice.
+Prospective parents in Kenya must contend with a formal adoption process that receives far less attention than the public conversation around family life. The legal and practical steps involved are not captured by a launch-day announcement or a social media update; they require careful consideration by the people and institutions involved. Passaris used the platform to strip away the glossy finish, emphasizing that bringing a child into a home is a sovereign, policy-heavy commitment rather than a lifestyle choice.
 
 ### A Legacy Born from Grief
 
