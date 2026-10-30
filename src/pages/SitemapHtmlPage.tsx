@@ -49,13 +49,22 @@ const SitemapHtmlPage = () => {
             <Folder className="w-5 h-5 text-primary" /> Categories
           </h2>
           <ul className="space-y-1 pl-7 list-disc text-muted-foreground">
-            {categories.map((cat) => (
-              <li key={cat.slug}>
-                <Link to={`/category/${cat.slug}`} className="text-primary hover:underline">
-                  {cat.name}
-                </Link>
-              </li>
-            ))}
+            {categories.map((cat) => {
+              const sectionRoutes: Record<string, string> = {
+                news: "/news", politics: "/news", national: "/news", opinions: "/news",
+                entertainment: "/entertainment", gossip: "/entertainment", showbiz: "/entertainment", celebrity: "/entertainment", music: "/entertainment",
+                sports: "/sports", sport: "/sports",
+                business: "/business", finance: "/business", economy: "/business",
+                lifestyle: "/lifestyle", fashion: "/lifestyle", health: "/lifestyle", travel: "/lifestyle",
+              };
+              return (
+                <li key={cat.slug}>
+                  <Link to={sectionRoutes[cat.slug] || \`/category/\${cat.slug}\`} className="text-primary hover:underline">
+                    {cat.name}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </section>
 
