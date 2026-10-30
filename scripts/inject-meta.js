@@ -294,7 +294,8 @@ for (const post of posts) {
   const categoryPath = sectionRoutes[categorySlug] || '/category/' + categorySlug;
   const authorSlug = slugify(post.author) || 'za-ndani';
   const authorProfile = authorProfiles[post.author] || { role: 'Contributing Writer', bio: post.author + ' contributes reporting and features for Za Ndani.' };
-  const description = (post.description || post.title).replace(/\s+/g, ' ').slice(0, 157).replace(/\s+\S*$/, '');
+  const description = post.description || post.title;
+  const metaDescription = (description.toLowerCase().includes(post.title.toLowerCase()) ? description : post.title + '. ' + description).replace(/\s+/g, ' ').slice(0, 157).replace(/\s+\S*$/, '');
   const normalizedBody = (post.body || '').replace(/^#\s+/gm, '## ');
   const articleHtml = marked.parse(normalizedBody).replace(/<img\b([^>]*)>/gi, (tag, attrs) => {
     let nextAttrs = attrs;
@@ -321,14 +322,14 @@ for (const post of posts) {
   };
   const schema = {
     '@context': 'https://schema.org', '@type': 'NewsArticle', headline: post.title,
-    description, image: [post.image], datePublished: published.toISOString(), dateModified: modified.toISOString(),
+    description: metaDescription, image: [post.image], datePublished: published.toISOString(), dateModified: modified.toISOString(),
     author: authorSchema,
     publisher: { '@type': 'Organization', name: 'Za Ndani', url: SITE_URL, logo: { '@type': 'ImageObject', url: SITE_URL + '/logo.png' } },
     mainEntityOfPage: { '@type': 'WebPage', '@id': url }
   };
   const breadcrumb = '<nav aria-label="Breadcrumb"><a href="/">Home</a> / <a href="' + categoryPath + '">' + escapeHtml(post.category) + '</a> / <span>' + escapeHtml(post.title) + '</span></nav>';
   const body = '<main><article>' + breadcrumb + '<header><h1>' + escapeHtml(post.title) + '</h1><p>' + escapeHtml(description) + '</p><p>By <a href="/author/' + authorSlug + '">' + escapeHtml(post.author) + '</a> · <time datetime="' + published.toISOString() + '">' + published.toLocaleString('en-KE') + '</time></p><img src="' + escapeHtml(post.image) + '" alt="' + escapeHtml(post.title) + '" width="1200" height="630" loading="eager" fetchpriority="high" decoding="async"></header><div class="article-body">' + articleHtml + '</div><footer><h2>More from Za Ndani</h2><ul>' + relatedHtml + '</ul></footer></article></main>';
-  const meta = '<title>' + escapeHtml(post.title) + ' | Za Ndani</title><meta name="description" content="' + escapeHtml(description) + '"><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"><link rel="canonical" href="' + escapeHtml(url) + '"><meta property="og:title" content="' + escapeHtml(post.title) + '"><meta property="og:description" content="' + escapeHtml(description) + '"><meta property="og:image" content="' + escapeHtml(post.image) + '"><meta property="og:url" content="' + escapeHtml(url) + '"><meta property="og:type" content="article"><meta property="article:published_time" content="' + published.toISOString() + '"><meta property="article:modified_time" content="' + modified.toISOString() + '"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="' + escapeHtml(post.title) + '"><meta name="twitter:description" content="' + escapeHtml(description) + '"><meta name="twitter:image" content="' + escapeHtml(post.image) + '">';
+  const meta = '<title>' + escapeHtml(post.title) + ' | Za Ndani</title><meta name="description" content="' + escapeHtml(metaDescription) + '"><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"><link rel="canonical" href="' + escapeHtml(url) + '"><meta property="og:title" content="' + escapeHtml(post.title) + '"><meta property="og:description" content="' + escapeHtml(metaDescription) + '"><meta property="og:image" content="' + escapeHtml(post.image) + '"><meta property="og:url" content="' + escapeHtml(url) + '"><meta property="og:type" content="article"><meta property="article:published_time" content="' + published.toISOString() + '"><meta property="article:modified_time" content="' + modified.toISOString() + '"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="' + escapeHtml(post.title) + '"><meta name="twitter:description" content="' + escapeHtml(metaDescription) + '"><meta name="twitter:image" content="' + escapeHtml(post.image) + '">';
   const articleJsonLd = '<script type="application/ld+json">' + JSON.stringify(schema).replace(/</g, '\\u003c') + '</script><script type="application/ld+json">' + JSON.stringify(breadcrumbSchema).replace(/</g, '\\u003c') + '</script>';
   writeRoute(route, injectRoot(injectHead(baseHtml, meta), body + articleJsonLd));
 }
