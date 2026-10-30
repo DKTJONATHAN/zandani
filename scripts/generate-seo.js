@@ -44,8 +44,10 @@ async function loadPosts() {
       const parsed = matter(raw); const data = parsed.data || {};
       const published = publishedAt(data);
       if (!published || published.getTime() > Date.now()) continue;
-      const slug = String(data.slug || file.replace(/\.md$/, '')).trim();
-      if (!slug || slugify(slug) !== slug) throw new Error(`Invalid slug; use a URL-safe slug: ${slug}`);
+      const rawSlug = String(data.slug || file.replace(/\.md$/, '')).trim();
+      const slug = slugify(rawSlug);
+      if (!slug) throw new Error('Empty slug after normalization');
+      if (slug !== rawSlug) console.warn(`Normalized slug in ${file}: ${rawSlug} -> ${slug}`);
       if (!data.title || !data.category || !data.author || !(data.publishDate || data.date)) {
         throw new Error('Missing required publication metadata');
       }
