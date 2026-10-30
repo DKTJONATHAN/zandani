@@ -4,7 +4,6 @@ import path from 'node:path';
 const dist = path.resolve('dist');
 const origin = 'https://zandani.co.ke';
 const failures = [];
-const warnings = [];
 const htmlFiles = [];
 
 function walk(dir) {
@@ -15,13 +14,13 @@ function walk(dir) {
   }
 }
 function attr(tag, name) {
-  const match = tag.match(new RegExp('\\\\b' + name + '\\\\s*=\\\\s*(["\\\\'])(.*?)\\\\1', 'i'));
+  const match = tag.match(new RegExp("\\\\b" + name + "\\\\s*=\\\\s*([\\\"'])(.*?)\\\\1", 'i'));
   return match ? match[2] : null;
 }
 function pageFile(pathname) {
   let decoded;
   try { decoded = decodeURIComponent(pathname); } catch { decoded = pathname; }
-  const clean = decoded.replace(/\\\\/+$/, '') || '/';
+  const clean = decoded.replace(/\/+$/, '') || '/';
   const candidates = clean === '/'
     ? [path.join(dist, 'index.html')]
     : [path.join(dist, clean.slice(1), 'index.html'), path.join(dist, clean.slice(1) + '.html'), path.join(dist, clean.slice(1))];
@@ -42,13 +41,13 @@ let checkedLinks = 0;
 for (const file of htmlFiles) {
   if (path.basename(file) === '404.html') continue;
   const html = fs.readFileSync(file, 'utf8');
-  const robots = [...html.matchAll(/<meta\\\\b[^>]*name=["']robots["'][^>]*>/gi)].map((m) => attr(m[0], 'content') || '').join(',').toLowerCase();
+  const robots = [...html.matchAll(/<meta\b[^>]*name=["']robots["'][^>]*>/gi)].map((m) => attr(m[0], 'content') || '').join(',').toLowerCase();
   if (robots.includes('noindex')) continue;
 
-  const titlesOnPage = [...html.matchAll(/<title\\\\b[^>]*>([\\\\s\\\\S]*?)<\\\\/title>/gi)];
-  const descriptions = [...html.matchAll(/<meta\\\\b[^>]*name=["']description["'][^>]*>/gi)];
-  const canonicalTags = [...html.matchAll(/<link\\\\b[^>]*rel=["']canonical["'][^>]*>/gi)];
-  const h1Count = [...html.matchAll(/<h1\\\\b/gi)].length;
+  const titlesOnPage = [...html.matchAll(/<title\b[^>]*>([\s\S]*?)<\/title>/gi)];
+  const descriptions = [...html.matchAll(/<meta\b[^>]*name=["']description["'][^>]*>/gi)];
+  const canonicalTags = [...html.matchAll(/<link\b[^>]*rel=["']canonical["'][^>]*>/gi)];
+  const h1Count = [...html.matchAll(/<h1\b/gi)].length;
   const label = path.relative(dist, file);
 
   if (titlesOnPage.length !== 1 || !titlesOnPage[0][1].trim()) failures.push(label + ': expected exactly one non-empty title');
@@ -71,18 +70,20 @@ for (const file of htmlFiles) {
     } catch { failures.push(label + ': malformed canonical URL'); }
   }
 
-  for (const match of html.matchAll(/<img\\\\b[^>]*>/gi)) {
+  for (const match of html.matchAll(/<img\b[^>]*>/gi)) {
     const alt = attr(match[0], 'alt');
     if (alt === null || !alt.trim()) failures.push(label + ': image is missing meaningful alt text: ' + match[0].slice(0, 140));
     checkedImages += 1;
     const src = attr(match[0], 'src');
     if (src && src.startsWith('/') && !src.startsWith('//')) {
-      const imagePath = path.join(dist, decodeURIComponent(src.split('?')[0]).replace(/^\\\\//, ''));
+      let localPath;
+      try { localPath = decodeURIComponent(src.split('?')[0]); } catch { localPath = src.split('?')[0]; }
+      const imagePath = path.join(dist, localPath.replace(/^\//, ''));
       if (!fs.existsSync(imagePath)) failures.push(label + ': missing local image ' + src);
     }
   }
 
-  for (const match of html.matchAll(/<a\\\\b[^>]*href=["']([^"']+)["'][^>]*>/gi)) {
+  for (const match of html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>/gi)) {
     const href = match[1].trim();
     if (!href || href.startsWith('#') || /^(mailto:|tel:|javascript:|data:)/i.test(href)) continue;
     let target;
@@ -99,7 +100,7 @@ for (const sitemap of ['sitemap.xml', 'sitemap-static.xml', 'sitemap-categories.
   if (!fs.existsSync(file)) { failures.push('Missing generated sitemap: ' + sitemap); continue; }
   const xml = fs.readFileSync(file, 'utf8');
   if (!xml.startsWith('<?xml')) failures.push(sitemap + ': missing XML declaration');
-  for (const match of xml.matchAll(/<loc>([\\\\s\\\\S]*?)<\\\\/loc>/gi)) {
+  for (const match of xml.matchAll(/<loc>([\s\S]*?)<\/loc>/gi)) {
     const url = decodeXml(match[1].trim());
     try {
       const parsed = new URL(url);
@@ -114,12 +115,11 @@ const robotsFile = path.join(dist, 'robots.txt');
 if (!fs.existsSync(robotsFile)) failures.push('Missing robots.txt');
 else {
   const robots = fs.readFileSync(robotsFile, 'utf8');
-  if (!/User-agent:\\\\s*Googlebot[\\\\s\\\\S]*?Allow:\\\\s*\\\\//i.test(robots)) failures.push('robots.txt does not explicitly allow Googlebot');
+  if (!/User-agent:\s*Googlebot[\s\S]*?Allow:\s*\//i.test(robots)) failures.push('robots.txt does not explicitly allow Googlebot');
   if (!robots.includes(origin + '/sitemap.xml')) failures.push('robots.txt does not advertise the sitemap index');
 }
 
 console.log('SEO build audit: ' + checkedPages + ' indexable HTML pages, ' + checkedImages + ' images, ' + checkedLinks + ' internal links checked.');
-if (warnings.length) warnings.forEach((warning) => console.warn('WARN: ' + warning));
 if (failures.length) {
   failures.forEach((failure) => console.error('FAIL: ' + failure));
   console.error('SEO build audit failed with ' + failures.length + ' issue(s).');
