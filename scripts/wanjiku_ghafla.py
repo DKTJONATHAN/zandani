@@ -42,7 +42,9 @@ def article_link(href):
 def candidates():
     seen=set(); out=[]
     try: html=fetch(SOURCE)
-    except Exception: html=""
+    except Exception as e:
+        print("Ghafla listing request failed; trying browser fallback:", e)
+        html=""
     soup=BeautifulSoup(html,"html.parser")
     for a in soup.select("a[href]"):
         href=urllib.parse.urljoin(SOURCE,(a.get("href") or "").strip())
