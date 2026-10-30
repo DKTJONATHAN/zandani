@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "2124b1c4dd256c9536904eca711988ad",
     "f47f700c57c9e36877f8152ed630b85b",
     "779981a49b383309cfa6cbbe8b565494",
     "471930ace1bd1ff5154193d7fc883e9a",
@@ -799,10 +798,10 @@
     "8b45b3dde1f01e787fa92bc65e53658a",
     "23baa989ebe16a1bbe2108493089c013",
     "dd4af1b2410233cd79451fe404222a58",
-    "59ff0ccd92187336564880d40f555fb7"
+    "59ff0ccd92187336564880d40f555fb7",
+    "c689afe9170efcce5ce53fc824a6f5bf"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1542,7 +1542,8 @@
     "https://kenyans.co.ke/news/129013-russia-closes-moscow-airports-over-drone-threat-putin-hosts-african-leaders",
     "https://kenyans.co.ke/news/129011-police-commission-takes-battle-over-recruitment-promotions-supreme-court",
     "https://kenyans.co.ke/news/129010-moh-release-46-ebola-contacts-quarantine-issues-notice",
-    "https://kenyans.co.ke/news/129015-russia-compensate-kenyan-victims-recruited-military-after-ruto-putin-talks"
+    "https://kenyans.co.ke/news/129015-russia-compensate-kenyan-victims-recruited-military-after-ruto-putin-talks",
+    "https://kenyans.co.ke/news/129009-supreme-court-faults-nairobi-county-over-approval-high-rise-buildings"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2175,7 +2176,8 @@
     "moscow airspace paralyzed drone barrage hours african leaders conclude summit",
     "police commission escalates command dispute supreme court kanja 948 promotions",
     "ebola exit clock hinges isolation bed clearances quarantine net narrows",
-    "posts defence attach moscow process military compensation repatriations"
+    "posts defence attach moscow process military compensation repatriations",
+    "apex court voids nairobi high rise policy framework but spares towers demolition"
   ],
   "topic_keys": [
     "news tracker",
@@ -7143,6 +7145,15 @@
       "structure": "Diplomatic mechanism lead -> Human and investigative scale of recruitment -> Operational role of the new Defence Attach\u00e9 -> Reclassification and civilian replacement framework -> Next administrative and repatriation hurdles.",
       "source": "https://kenyans.co.ke/news/129015-russia-compensate-kenyan-victims-recruited-military-after-ruto-putin-talks",
       "published_at": "2026-10-30T15:02:12Z"
+    },
+    {
+      "title": "Apex Court Voids Nairobi\u2019s High-Rise Policy Framework But Spares Towers From Demolition",
+      "angle": "The apex court created a regulatory paradox by ruling City Hall operated without legal planning authority for years while simultaneously shielding existing towers from demolition, forcing the appellate court to evaluate City Hall's freshly gazetted June 2026 policy.",
+      "angle_type": "unresolved factual question",
+      "opening": "Judicial-paradox lead establishing the invalidation of county approval powers alongside the structural immunity granted to existing towers.",
+      "structure": "Judicial paradox lead -> Legislative void and CJ Koome bench ruling -> Lower court errors and Westlands zoning baseline -> Demolition standard and evidentiary bar -> Remittal to Court of Appeal under the June 2026 framework",
+      "source": "https://kenyans.co.ke/news/129009-supreme-court-faults-nairobi-county-over-approval-high-rise-buildings",
+      "published_at": "2026-10-30T15:42:56Z"
     }
   ]
 }
