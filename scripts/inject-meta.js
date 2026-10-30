@@ -112,7 +112,7 @@ const posts = files.map((file) => {
 posts.sort((a, b) => (dateValue(b.publishDate)?.getTime() || 0) - (dateValue(a.publishDate)?.getTime() || 0));
 
 const baseRoutes = [
-  '/', '/about', '/contact', '/privacy', '/privacy-policy', '/terms',
+  '/', '/about', '/contact', '/privacy', '/terms',
   '/advertise', '/careers', '/ethics', '/corrections', '/fact-check',
   '/trending', '/news', '/entertainment', '/sports', '/business', '/lifestyle',
   '/sports/live', '/sitemap', '/authors', '/podcast', '/tv', '/energy',
