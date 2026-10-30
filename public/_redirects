@@ -38,9 +38,6 @@
 /category/business/ /business 301
 /category/lifestyle /lifestyle 301
 /category/lifestyle/ /lifestyle 301
-/category/:slug /news 301
-/category/:slug/ /news 301
-
 # Duplicate policy URL
 /privacy-policy /privacy 301
 /privacy-policy/ /privacy 301

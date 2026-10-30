@@ -25,6 +25,7 @@ export const staticSitePages = [
   { path: "/live", label: "Live Desk" },
   { path: "/sports/live", label: "Live Scores" },
   { path: "/authors", label: "Authors" },
+  { path: "/faq", label: "FAQs" },
   { path: "/podcast", label: "Podcast" },
   { path: "/tv", label: "TV" },
   { path: "/about", label: "About" },

@@ -29,7 +29,11 @@
       "/api/github",
       "/api/admin/verify",
       "/api/scheduler/*",
-      "/article/*"
+      "/",
+      "/article/*",
+      "/author/*",
+      "/category/*",
+      "/privacy-policy"
     ]
   }
 }

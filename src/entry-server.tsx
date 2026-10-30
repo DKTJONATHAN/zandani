@@ -10,14 +10,20 @@ declare global { var __INITIAL_DATA__: { post?: Post } | undefined; }
 
 export async function render(url: string, env: WorkerEnv) {
   const parsed = new URL(url, "https://zandani.co.ke");
+  const isHome = parsed.pathname === "/";
   const match = parsed.pathname.match(/^\/article\/([^/]+)\/?$/);
-  if (!match) return null;
-  let slug = "";
-  try { slug = decodeURIComponent(match[1]); } catch { return null; }
-  const post = await getPostBySlug(slug, (input) => env.ASSETS.fetch(new Request(new URL(input, parsed.origin))));
-  if (!post) return null;
+  if (!isHome && !match) return null;
+
+  let post: Post | undefined;
+  if (match) {
+    let slug = "";
+    try { slug = decodeURIComponent(match[1]); } catch { return null; }
+    post = await getPostBySlug(slug, (input) => env.ASSETS.fetch(new Request(new URL(input, parsed.origin))));
+    if (!post) return null;
+  }
+
   const context: { helmet?: any } = {};
-  globalThis.__INITIAL_DATA__ = { post };
+  globalThis.__INITIAL_DATA__ = post ? { post } : undefined;
   let appHtml = "";
   try {
     appHtml = renderToString(

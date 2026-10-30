@@ -4,12 +4,22 @@ import { ChevronRight, Home } from "lucide-react";
 const CATEGORY_PATH: Record<string, string> = {
   news: "/news",
   politics: "/news",
+  national: "/news",
+  opinions: "/news",
   entertainment: "/entertainment",
   gossip: "/entertainment",
   showbiz: "/entertainment",
+  celebrity: "/entertainment",
+  music: "/entertainment",
   sports: "/sports",
+  sport: "/sports",
   business: "/business",
+  finance: "/business",
+  economy: "/business",
   lifestyle: "/lifestyle",
+  fashion: "/lifestyle",
+  health: "/lifestyle",
+  travel: "/lifestyle",
 };
 
 export function ArticleBreadcrumbs({

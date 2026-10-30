@@ -31,7 +31,8 @@ export interface Post extends PostMetadata {
 }
 
 function sanitizeArticleHtml(html: string): string {
-  return html.replace(/<img\b[^>]*>/gi, (tag) => {
+  const normalizedHeadings = html.replace(/<h1\b/gi, "<h2").replace(/<\/h1>/gi, "</h2>");
+  return normalizedHeadings.replace(/<img\b[^>]*>/gi, (tag) => {
     const srcMatch = tag.match(/\bsrc=["']([^"']+)["']/i);
     if (!srcMatch) return "";
     const src = srcMatch[1].trim();

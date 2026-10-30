@@ -787,6 +787,32 @@ export default {
     const url = new URL(request.url);
     const path = url.pathname;
 
+    if (path === "/privacy-policy" || path === "/privacy-policy/") {
+      return Response.redirect(new URL("/privacy", url).toString(), 301);
+    }
+
+    // Collapse legacy category aliases directly to their canonical section URL.
+    const categoryAlias = path.match(/^\/category\/([^/]+)\/?$/i);
+    if (categoryAlias) {
+      const slug = categoryAlias[1].toLowerCase();
+      const canonicalSections = {
+        news: "/news", politics: "/news", national: "/news", opinions: "/news",
+        entertainment: "/entertainment", gossip: "/entertainment", showbiz: "/entertainment", celebrity: "/entertainment", music: "/entertainment",
+        sports: "/sports", sport: "/sports",
+        business: "/business", finance: "/business", economy: "/business",
+        lifestyle: "/lifestyle", fashion: "/lifestyle", health: "/lifestyle", travel: "/lifestyle",
+      };
+      const destination = canonicalSections[slug];
+      if (destination) return Response.redirect(new URL(destination, url).toString(), 301);
+    }
+
+    // Normalize trailing-slash variants once, without touching API endpoints.
+    if (!path.startsWith("/api/") && path.length > 1 && path.endsWith("/")) {
+      const normalized = new URL(url);
+      normalized.pathname = path.replace(/\/+$/, "");
+      return Response.redirect(normalized.toString(), 301);
+    }
+
     if (path === "/google4a7d26b466f41330.html" || path === "/google4a7d26b466f41330") {
       return new Response(GSC_HTML, { headers: { "Content-Type": "text/html; charset=utf-8" } });
     }
@@ -812,11 +838,11 @@ export default {
     const triggerMatch = path.match(/^\/api\/scheduler\/trigger\/([a-z0-9-]+)$/i);
     if (triggerMatch) return handleSchedulerTrigger(request, env, triggerMatch[1].toLowerCase());
 
-    if (env.ASSETS && request.method === "GET" && /^\/article\/[^/]+\/?$/.test(path)) {
+    if (env.ASSETS && request.method === "GET" && (path === "/" || /^\/article\/[^/]+\/?$/.test(path))) {
       try {
         const rendered = await render(request.url, env);
         if (rendered?.appHtml) {
-          const shellResponse = await env.ASSETS.fetch(new Request(new URL("/", request.url), request));
+          const shellResponse = await env.ASSETS.fetch(new Request(new URL("/app-shell.html", request.url), request));
           if (shellResponse.ok) {
             let html = await shellResponse.text();
             const safeInitialData = JSON.stringify({ post: rendered.post }).replace(/</g, "\\u003c");
@@ -824,6 +850,7 @@ export default {
               '<script>window.__INITIAL_DATA__=' + safeInitialData + ';</script>');
             const helmet = rendered.helmet;
             if (helmet) {
+              html = html.replace(/<link[^>]*rel=["']canonical["'][^>]*>/gi, "");
               html = html.replace(/<title>[\s\S]*?<\/title>/i, helmet.title?.toString() || "");
               html = html.replace(/<meta\s+name="description"[^>]*>/i, "");
               html = html.replace(/<meta\s+property="og:[^"]+"[^>]*>/gi, "");

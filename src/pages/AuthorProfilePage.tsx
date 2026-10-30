@@ -101,7 +101,7 @@ export default function AuthorProfilePage() {
     authorPosts.map(post => {
       const clean = post.slug.replace(/^\//, '').replace(/\.md$/, '');
       const v = viewCounts[`/article/${clean}`] || viewCounts[`/article/${clean}/`] || 0;
-      return { ...post, views: v > 0 ? v : 47 };
+      return { ...post, views: v > 0 ? v : 0 };
     }),
     [authorPosts, viewCounts]
   );
@@ -169,11 +169,11 @@ export default function AuthorProfilePage() {
         <meta name="twitter:description" content={profile.bio} />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "Person",
+          "@type": /desk/i.test(profile.role) ? "Organization" : "Person",
           "name": actualAuthorName,
           "description": profile.bio,
           "url": `https://zandani.co.ke/author/${authorName}`,
-          "image": profile.avatar || "https://zandani.co.ke/images/default-avatar.jpg",
+          "image": profile.avatar || undefined,
           "jobTitle": profile.role
         })}</script>
       </Helmet>

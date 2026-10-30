@@ -91,7 +91,7 @@ export default function AuthorsPage() {
     allPosts.forEach(post => {
       const clean = post.slug.replace(/^\//, '').replace(/\.md$/, '');
       const v = viewCounts[`/article/${clean}`] || viewCounts[`/article/${clean}/`] || 0;
-      const postViews = v > 0 ? v : 47;
+      const postViews = v > 0 ? v : 0;
 
       if (!map.has(post.author)) {
         map.set(post.author, {

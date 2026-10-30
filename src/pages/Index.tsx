@@ -104,7 +104,7 @@ const SidebarStoryList = React.memo(({ title, icon, posts, href }: { title: stri
       <div className="space-y-3">
         {posts.map((post) => (
           <Link key={post.slug} to={`/article/${post.slug}`} className="group flex gap-3">
-            <img src={img(post.image, 160)} alt="" loading="lazy" className="h-14 w-20 shrink-0 rounded-sm object-cover" />
+            <img src={img(post.image, 160)} alt={post.title} loading="lazy" className="h-14 w-20 shrink-0 rounded-sm object-cover" />
             <div className="min-w-0">
               <h4 className="text-xs font-bold leading-snug line-clamp-2 group-hover:text-primary">{post.title}</h4>
               <span className="text-[10px] text-muted-foreground flex items-center gap-1 mt-1">
@@ -261,15 +261,15 @@ const Index = () => {
     <Layout>
       <div className="news-home">
       <Helmet>
-        <title>Zandani | Kenya Breaking News, Politics, Sports & Entertainment</title>
-        <meta name="description" content="Kenya-first news, gossip and showbiz from Nairobi. Breaking local stories, sports, politics and entertainment — bold and unbiased." />
+        <title>Za Ndani | Kenya News, Politics, Sports & Entertainment</title>
+        <meta name="description" content="Za Ndani covers Kenya’s latest news, politics, business, sport and entertainment, with reporting and context from Nairobi and across the country." />
         <meta name="robots" content="index, follow, max-image-preview:large" />
         <link rel="canonical" href={SITE_URL} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={SITE_URL} />
         <meta property="og:site_name" content="Za Ndani" />
         <meta property="og:locale" content="en_KE" />
-        <meta property="og:title" content="Za Ndani | Kenya News, Gossip & Entertainment" />
+        <meta property="og:title" content="Za Ndani | Kenya News, Politics, Sports & Entertainment" />
         <meta property="og:description" content="Kenya-first news, gossip and showbiz from Nairobi. Breaking local stories, sports, politics and entertainment." />
         <meta property="og:image" content={homeOgImage} />
         <meta property="og:image:width" content="1200" />
@@ -288,7 +288,7 @@ const Index = () => {
       <div className="news-home__masthead">
         <div className="container max-w-7xl mx-auto px-3 sm:px-4">
           <div className="news-home__masthead-inner">
-            <div><div className="edition">The Kenya Newsroom</div><h1>ZA NDANI</h1></div>
+            <div><div className="edition">The Kenya Newsroom</div><p className="font-serif font-black text-2xl leading-none">ZA NDANI</p></div>
             <div className="date">Nairobi · Kenya<br/>News, Culture &amp; Conversation</div>
           </div>
         </div>
@@ -311,7 +311,7 @@ const Index = () => {
             <div>
               {heroSecondary.slice(0,4).map(post=>(
                 <Link key={post.slug} to={`/article/${post.slug}`} className="side-story group">
-                  <img src={img(post.image,400)} alt="" loading="lazy"/>
+                  <img src={img(post.image,400)} alt={post.title} loading="lazy" decoding="async" width={400} height={300}/>
                   <div><span className="section-kicker">{post.category}</span><h2>{post.title}</h2><span className="text-[10px] text-muted-foreground uppercase tracking-wider">{timeAgo(post.date)}</span></div>
                 </Link>
               ))}

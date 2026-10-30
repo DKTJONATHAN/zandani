@@ -17,6 +17,7 @@ import { ArticleComments } from "@/components/articles/ArticleComments";
 import { shouldShowWhatWeKnow, splitLedeHtml } from "@/lib/what-we-know";
 import { authorColor, catColor, proxyImg, PLACEHOLDER_IMG } from "@/lib/utils";
 import { trackCategoryView } from "@/hooks/usePreferences";
+import authorProfiles from "../../public/content/authors.json";
 
 const SITE_URL = "https://zandani.co.ke";
 const DEFAULT_OG_IMAGE = `${SITE_URL}/images/default-og.svg`;
@@ -47,26 +48,14 @@ function ogImg(url: string): string {
 function cleanMetaDescription(raw: string, fallbackTitle: string): string {
   let d = (raw || "").replace(/\s+/g, " ").trim();
   d = d.replace(/^([a-z0-9][a-z0-9\s\-]{8,80}?):\s+/i, "");
-  if (d && d[0] === d[0].toLowerCase()) {
-    d = d[0].toUpperCase() + d.slice(1);
-  }
-  if (!d || d.length < 40) {
-    d = `${fallbackTitle}. Latest reporting from Kenya on Za Ndani.`;
-  }
-  if (d.length > 157) {
-    d = d.slice(0, 158).replace(/\s+\S*$/, "").replace(/[.,;:]+$/, "") + ".";
-  }
+  if (d && d[0] === d[0].toLowerCase()) d = d[0].toUpperCase() + d.slice(1);
+  if (!d || d.length < 40) d = fallbackTitle + ". Latest reporting from Kenya on Za Ndani.";
+  else if (!d.toLowerCase().includes(fallbackTitle.toLowerCase())) d = fallbackTitle + ". " + d;
+  if (d.length > 157) d = d.slice(0, 158).replace(/\s+\S*$/, "").replace(/[.,;:]+$/, "") + ".";
   return d;
 }
 
-const AUTHOR_BIOS: Record<string, string> = {
-  "za ndani": "Sharp, cynical, and always first with the scoop. Za Ndani exposes what the mainstream won't touch.",
-  "mutheu ann": "Plugged into Kenya's entertainment circuit.",
-  "celestine nzioka": "Authoritative and unflinching. Celestine cuts through political spin.",
-  "wanjiku kuria": "Nairobi gossip desk. Receipts first, noise second.",
-  "martin kihara": "Showbiz beat for Kenyan stars.",
-  jaj: "Opinion desk. Arguments first, then the evidence from the street.",
-};
+type AuthorEditorialProfile = { name: string; role: string; bio: string; avatar?: string; location?: string };\nconst AUTHOR_PROFILES = authorProfiles as Record<string, AuthorEditorialProfile>;
 
 export default function ArticlePage() {
   const { slug } = useParams<{ slug: string }>();
@@ -158,8 +147,8 @@ export default function ArticlePage() {
     );
   }
 
-  const authorKey = (post.author || "Za Ndani").toLowerCase();
-  const authorBio = AUTHOR_BIOS[authorKey] || "Za Ndani journalist covering the stories that matter in Kenya.";
+  const authorProfile = AUTHOR_PROFILES[post.author] || { name: post.author || "Za Ndani", role: "Contributing Writer", bio: `${post.author || "Za Ndani"} contributes coverage for Za Ndani, with reporting focused on the story and its relevance to readers.` };
+  const authorBio = authorProfile.bio;
   const authorTint = authorColor(post.author);
   const authorInitials = (post.author || "ZN")
     .split(" ")
@@ -170,6 +159,44 @@ export default function ArticlePage() {
   const postOgImage = ogImg(post.image);
   const canonicalUrl = `${SITE_URL}/article/${post.slug}`;
   const metaDescription = cleanMetaDescription(post.excerpt || "", post.title);
+  const categoryPaths: Record<string, string> = {
+    news: "/news", politics: "/news", national: "/news", opinions: "/news",
+    entertainment: "/entertainment", gossip: "/entertainment", showbiz: "/entertainment", celebrity: "/entertainment", music: "/entertainment",
+    sports: "/sports", sport: "/sports", business: "/business", finance: "/business", economy: "/business",
+    lifestyle: "/lifestyle", fashion: "/lifestyle", health: "/lifestyle", travel: "/lifestyle",
+  };
+  const categorySlug = (post.category || "news").toLowerCase().trim().replace(/[^a-z0-9\s-]/g, "").replace(/\s+/g, "-");
+  const categoryPath = categoryPaths[categorySlug] || `/category/${categorySlug}`;
+  const categoryLabel = post.category || "News";
+  const publishedDate = new Date(post.publishDate || post.date);
+  const modifiedDate = new Date(post.dateModified || post.publishDate || post.date);
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "@id": `${canonicalUrl}#article`,
+    headline: post.title,
+    description: metaDescription,
+    image: post.image ? [postOgImage] : undefined,
+    datePublished: Number.isNaN(publishedDate.getTime()) ? undefined : publishedDate.toISOString(),
+    dateModified: Number.isNaN(modifiedDate.getTime()) ? undefined : modifiedDate.toISOString(),
+    author: { "@type": /desk/i.test(authorProfile.role) ? "Organization" : "Person", name: post.author, description: authorBio, url: `${SITE_URL}/author/${(post.author || "za-ndani").toLowerCase().replace(/\s+/g, "-")}` },
+    publisher: {
+      "@type": "Organization",
+      name: "Za Ndani",
+      url: SITE_URL,
+      logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
+    },
+    mainEntityOfPage: { "@type": "WebPage", "@id": canonicalUrl },
+  };
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: categoryLabel, item: `${SITE_URL}${categoryPath}` },
+      { "@type": "ListItem", position: 3, name: post.title, item: canonicalUrl },
+    ],
+  };
   const dateObj = new Date(post.date);
   const formattedDate = isNaN(dateObj.getTime())
     ? post.date
@@ -199,6 +226,8 @@ export default function ArticlePage() {
         <meta name="twitter:title" content={post.title} />
         <meta name="twitter:description" content={metaDescription} />
         <meta name="twitter:image" content={postOgImage} />
+        <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       </Helmet>
 
       <div

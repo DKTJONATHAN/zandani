@@ -115,5 +115,43 @@ for (const file of files) {
 }
 
 manifest.sort((a, b) => safeTime(b.publishDate) - safeTime(a.publishDate));
+
+// Publish the editorial author directory as a static asset so author pages and
+// article bylines do not depend on a client-only request to a non-public folder.
+const AUTHORS_SOURCE = path.join(process.cwd(), 'content/authors.json');
+const PUBLIC_CONTENT_DIR = path.join(process.cwd(), 'public/content');
+const AUTHORS_OUTPUT = path.join(PUBLIC_CONTENT_DIR, 'authors.json');
+const authorProfiles = JSON.parse(fs.readFileSync(AUTHORS_SOURCE, 'utf8'));
+const postsByAuthor = new Map();
+for (const post of manifest) {
+  const group = postsByAuthor.get(post.author) || [];
+  group.push(post);
+  postsByAuthor.set(post.author, group);
+}
+for (const [name, authorPosts] of postsByAuthor) {
+  if (authorProfiles[name]?.bio?.trim()) continue;
+  const categoryCounts = new Map();
+  for (const post of authorPosts) categoryCounts.set(post.category, (categoryCounts.get(post.category) || 0) + 1);
+  const coverage = [...categoryCounts.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 3)
+    .map(([category]) => category.toLowerCase());
+  const coverageText = coverage.length > 1
+    ? `${coverage.slice(0, -1).join(', ')} and ${coverage.at(-1)}`
+    : coverage[0] || 'news and current affairs';
+  const desk = /scoop|za ndani/i.test(name);
+  authorProfiles[name] = {
+    name,
+    role: desk ? 'Editorial Desk' : 'Contributing Writer',
+    bio: desk
+      ? `${name} is a Za Ndani editorial byline for ${coverageText} updates. Its coverage prioritises clear attribution, useful context and confirmed developments.`
+      : `${name} contributes to Za Ndani coverage of ${coverageText}. The profile focuses on the subjects, developments and practical context readers need to follow each story.`,
+    avatar: '',
+    location: 'Kenya',
+    socials: {},
+  };
+}
+fs.mkdirSync(PUBLIC_CONTENT_DIR, { recursive: true });
+fs.writeFileSync(AUTHORS_OUTPUT, JSON.stringify(authorProfiles, null, 2) + '\n');
 fs.writeFileSync(OUTPUT_FILE, JSON.stringify(manifest, null, 2));
-console.log(`Published ${manifest.length} due posts into manifest; future posts remain hidden.`);
+console.log(`Published ${manifest.length} due posts and ${Object.keys(authorProfiles).length} author profiles; future posts remain hidden.`);
