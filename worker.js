@@ -787,6 +787,10 @@ export default {
     const url = new URL(request.url);
     const path = url.pathname;
 
+    if (path === "/privacy-policy" || path === "/privacy-policy/") {
+      return Response.redirect(new URL("/privacy", url).toString(), 301);
+    }
+
     // Collapse legacy category aliases directly to their canonical section URL.
     const categoryAlias = path.match(/^\/category\/([^/]+)\/?$/i);
     if (categoryAlias) {
