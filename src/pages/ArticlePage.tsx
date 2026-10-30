@@ -55,7 +55,8 @@ function cleanMetaDescription(raw: string, fallbackTitle: string): string {
   return d;
 }
 
-type AuthorEditorialProfile = { name: string; role: string; bio: string; avatar?: string; location?: string };\nconst AUTHOR_PROFILES = authorProfiles as Record<string, AuthorEditorialProfile>;
+type AuthorEditorialProfile = { name: string; role: string; bio: string; avatar?: string; location?: string };
+const AUTHOR_PROFILES = authorProfiles as Record<string, AuthorEditorialProfile>;
 
 export default function ArticlePage() {
   const { slug } = useParams<{ slug: string }>();
