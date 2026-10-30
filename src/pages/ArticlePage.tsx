@@ -188,7 +188,7 @@ export default function ArticlePage() {
     image: post.image ? [postOgImage] : undefined,
     datePublished: Number.isNaN(publishedDate.getTime()) ? undefined : publishedDate.toISOString(),
     dateModified: Number.isNaN(modifiedDate.getTime()) ? undefined : modifiedDate.toISOString(),
-    author: { "@type": "Person", name: post.author, url: `${SITE_URL}/author/${(post.author || "za-ndani").toLowerCase().replace(/\\s+/g, "-")}` },
+    author: { "@type": "Person", name: post.author, url: `${SITE_URL}/author/${(post.author || "za-ndani").toLowerCase().replace(/\s+/g, "-")}` },
     publisher: {
       "@type": "Organization",
       name: "Za Ndani",
