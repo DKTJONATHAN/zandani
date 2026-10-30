@@ -280,21 +280,52 @@ for (const post of posts) {
   const published = dateValue(post.publishDate) || new Date();
   const modified = dateValue(post.dateModified) || published;
   const categorySlug = slugify(post.category) || 'news';
+  const sectionRoutes = {
+    news: '/news', politics: '/news', national: '/news', opinions: '/news',
+    entertainment: '/entertainment', gossip: '/entertainment', showbiz: '/entertainment', celebrity: '/entertainment', music: '/entertainment',
+    sports: '/sports', sport: '/sports', business: '/business', finance: '/business', economy: '/business',
+    lifestyle: '/lifestyle', fashion: '/lifestyle', health: '/lifestyle', travel: '/lifestyle',
+  };
+  const categoryPath = sectionRoutes[categorySlug] || '/category/' + categorySlug;
   const authorSlug = slugify(post.author) || 'za-ndani';
+  const authorProfile = authorProfiles[post.author] || { role: 'Contributing Writer', bio: post.author + ' contributes reporting and features for Za Ndani.' };
   const description = post.description || post.title;
-  const articleHtml = marked.parse(post.body || '');
+  const normalizedBody = (post.body || '').replace(/^#\s+/gm, '## ');
+  const articleHtml = marked.parse(normalizedBody).replace(/<img\b([^>]*)>/gi, (tag, attrs) => {
+    let nextAttrs = attrs;
+    if (!/\balt\s*=/.test(nextAttrs)) nextAttrs += ' alt="' + escapeHtml(post.title) + '"';
+    else nextAttrs = nextAttrs.replace(/\balt\s*=\s*(["'])\s*\1/i, 'alt="' + escapeHtml(post.title) + '"');
+    if (!/\bloading\s*=/.test(nextAttrs)) nextAttrs += ' loading="lazy"';
+    if (!/\bdecoding\s*=/.test(nextAttrs)) nextAttrs += ' decoding="async"';
+    if (!/\bwidth\s*=/.test(nextAttrs)) nextAttrs += ' width="800"';
+    if (!/\bheight\s*=/.test(nextAttrs)) nextAttrs += ' height="450"';
+    return '<img' + nextAttrs + '>';
+  });
   const related = posts.filter((p) => p.slug !== post.slug && (slugify(p.category) === categorySlug || p.tags.some((tag) => post.tags.includes(tag)))).slice(0, 6);
-  const relatedHtml = related.map((p) => `<li><a href="/article/${encodeURIComponent(p.slug)}">${escapeHtml(p.title)}</a></li>`).join('');
-  const body = `<main><article><header><p><a href="/category/${categorySlug}">${escapeHtml(post.category)}</a></p><h1>${escapeHtml(post.title)}</h1><p>${escapeHtml(description)}</p><p>By <a href="/author/${authorSlug}">${escapeHtml(post.author)}</a> · <time datetime="${published.toISOString()}">${published.toLocaleString('en-KE')}</time></p><img src="${escapeHtml(post.image)}" alt="${escapeHtml(post.title)}" width="1200" height="630" loading="eager"></header><div class="article-body">${articleHtml}</div><footer><h2>More from Za Ndani</h2><ul>${relatedHtml}</ul></footer></article></main>`;
+  const relatedHtml = related.map((p) => '<li><a href="/article/' + encodeURIComponent(p.slug) + '">' + escapeHtml(p.title) + '</a></li>').join('');
+  const breadcrumbSchema = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+    { '@type': 'ListItem', position: 2, name: post.category, item: SITE_URL + categoryPath },
+    { '@type': 'ListItem', position: 3, name: post.title, item: url },
+  ] };
+  const authorSchema = {
+    '@type': /desk/i.test(authorProfile.role || '') ? 'Organization' : 'Person',
+    name: post.author,
+    description: authorProfile.bio,
+    url: SITE_URL + '/author/' + authorSlug,
+  };
   const schema = {
     '@context': 'https://schema.org', '@type': 'NewsArticle', headline: post.title,
     description, image: [post.image], datePublished: published.toISOString(), dateModified: modified.toISOString(),
-    author: { '@type': 'Person', name: post.author, url: `${SITE_URL}/author/${authorSlug}` },
-    publisher: { '@type': 'Organization', name: 'Za Ndani', url: SITE_URL, logo: { '@type': 'ImageObject', url: `${SITE_URL}/logo.png` } },
+    author: authorSchema,
+    publisher: { '@type': 'Organization', name: 'Za Ndani', url: SITE_URL, logo: { '@type': 'ImageObject', url: SITE_URL + '/logo.png' } },
     mainEntityOfPage: { '@type': 'WebPage', '@id': url }
   };
-  const meta = `<title>${escapeHtml(post.title)} | Za Ndani</title><meta name="description" content="${escapeHtml(description)}"><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"><link rel="canonical" href="${escapeHtml(url)}"><meta property="og:title" content="${escapeHtml(post.title)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:image" content="${escapeHtml(post.image)}"><meta property="og:url" content="${escapeHtml(url)}"><meta property="og:type" content="article"><meta property="article:published_time" content="${published.toISOString()}"><meta property="article:modified_time" content="${modified.toISOString()}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${escapeHtml(post.title)}"><meta name="twitter:description" content="${escapeHtml(description)}"><meta name="twitter:image" content="${escapeHtml(post.image)}"><script type="application/ld+json">${JSON.stringify(schema).replace(/</g, '\\u003c')}</script>`;
-  writeRoute(route, injectRoot(injectHead(baseHtml, meta), body));
+  const breadcrumb = '<nav aria-label="Breadcrumb"><a href="/">Home</a> / <a href="' + categoryPath + '">' + escapeHtml(post.category) + '</a> / <span>' + escapeHtml(post.title) + '</span></nav>';
+  const body = '<main><article>' + breadcrumb + '<header><h1>' + escapeHtml(post.title) + '</h1><p>' + escapeHtml(description) + '</p><p>By <a href="/author/' + authorSlug + '">' + escapeHtml(post.author) + '</a> · <time datetime="' + published.toISOString() + '">' + published.toLocaleString('en-KE') + '</time></p><img src="' + escapeHtml(post.image) + '" alt="' + escapeHtml(post.title) + '" width="1200" height="630" loading="eager" fetchpriority="high" decoding="async"></header><div class="article-body">' + articleHtml + '</div><footer><h2>More from Za Ndani</h2><ul>' + relatedHtml + '</ul></footer></article></main>';
+  const meta = '<title>' + escapeHtml(post.title) + ' | Za Ndani</title><meta name="description" content="' + escapeHtml(description) + '"><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"><link rel="canonical" href="' + escapeHtml(url) + '"><meta property="og:title" content="' + escapeHtml(post.title) + '"><meta property="og:description" content="' + escapeHtml(description) + '"><meta property="og:image" content="' + escapeHtml(post.image) + '"><meta property="og:url" content="' + escapeHtml(url) + '"><meta property="og:type" content="article"><meta property="article:published_time" content="' + published.toISOString() + '"><meta property="article:modified_time" content="' + modified.toISOString() + '"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="' + escapeHtml(post.title) + '"><meta name="twitter:description" content="' + escapeHtml(description) + '"><meta name="twitter:image" content="' + escapeHtml(post.image) + '">';
+  const articleJsonLd = '<script type="application/ld+json">' + JSON.stringify(schema).replace(/</g, '\\u003c') + '</script><script type="application/ld+json">' + JSON.stringify(breadcrumbSchema).replace(/</g, '\\u003c') + '</script>';
+  writeRoute(route, injectRoot(injectHead(baseHtml, meta), body + articleJsonLd));
 }
 
 // A real 404 response prevents Cloudflare's old SPA fallback from turning unknown URLs into soft-404s.
