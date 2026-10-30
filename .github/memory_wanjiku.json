@@ -320,7 +320,8 @@
     "662f39eee6803a6e357afc2993d3ef0037217da458dbd9e918c7c8eadfe4ab3b",
     "472056c76442e97c685c2cb9ea2b19d0ce847a0ca032be1c16c642703534edcb",
     "0fae973d0b924d1e99cb07974553c30f55135c4859f7cc7cbd4756d11fd2b7c9",
-    "70f2a9d32d35fa6e2ac812abbb280c38ed2f7fc49c9f7b5d0880d2a85d68fa5e"
+    "70f2a9d32d35fa6e2ac812abbb280c38ed2f7fc49c9f7b5d0880d2a85d68fa5e",
+    "c91cfc3178c0e497f88b3ada2bb59b288e48a50544834aa7422690653c29b742"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -643,17 +644,10 @@
     "https://www.ghafla.co.ke/sportpesa-ceo-ronald-karauri-promises-job-to-dismissed-chief-officer-geoffrey-mosiria/",
     "https://www.ghafla.co.ke/fans-pour-out-support-for-actress-sandra-dacha-following-illness-announcement/",
     "https://www.ghafla.co.ke/geoffrey-mosiria-vows-to-challenge-sakaja-in-2027-following-dismissal-claims-hard-work-cost-him-his-job/",
-    "https://www.ghafla.co.ke/frida-knows-me-babu-owino-dismisses-mosirias-allegations-of-secret-wife/"
+    "https://www.ghafla.co.ke/frida-knows-me-babu-owino-dismisses-mosirias-allegations-of-secret-wife/",
+    "https://www.ghafla.co.ke/kenya-met-department-maintains-el-nino-forecast-despite-prolonged-dry-spell/"
   ],
   "published_angles": [
-    {
-      "title": "Maurice Ogeta Lays Bare Final India Hours: Why He Blocked Hospital Counselors and Demanded Raw Truth for Winnie Odinga",
-      "angle": "Maurice Ogeta acting as the protective inner-circle gatekeeper\u2014reading the silent clues of candles and Bibles, cutting through clinical protocols, and firmly blocking hospital grief counselors to demand raw medical truth for Winnie and Ruth Odinga.",
-      "angle_type": "insider revelation and personal gatekeeping dynamic",
-      "opening": "Personality lead opening squarely on Maurice Ogeta stepping in front of medical staff to halt protocol and protect Winnie and Ruth Odinga from sugarcoated news.",
-      "structure": "Personality gatekeeper hook -> The immediate clash over grief counseling versus raw truth -> The silent giveaway of altar cloths, Bibles, and candles -> Dr. Olunya's explanation and the priest's sudden departure -> Contextual close on Ogeta's lifelong protective role",
-      "source": "https://www.ghafla.co.ke/i-knew-something-was-wrong-raila-odingas-bodyguard-recounts-final-hours-in-india-hospital/"
-    },
     {
       "title": "John Methu Unmasks Ndindi Nyoro as Ruto\u2019s Chief Mole, Admits He No Longer Recognizes Friend Fred Matiang\u2019i",
       "angle": "Focusing on John Methu's direct personal unmasking of Ndindi Nyoro as a State House operative and his admission that his friendship with Fred Matiang'i has completely fractured over public alliances.",
@@ -1445,6 +1439,14 @@
       "opening": "Personality lead focusing directly on Babu Owino turning the tables on Geoffrey Mosiria with a public challenge.",
       "structure": "Challenge hook -> Frida Muthoni Ongili context -> Single mother upbringing flashback -> Fatherhood responsibility stance.",
       "source": "https://www.ghafla.co.ke/frida-knows-me-babu-owino-dismisses-mosirias-allegations-of-secret-wife/"
+    },
+    {
+      "title": "\u2018Don\u2019t Let the Heat Fool You\u2019: Kenya Met Department Holds Firm on El Ni\u00f1o Forecast as Dry Spell Sparks Public Skepticism",
+      "angle": "Reframing the forecast as an institutional stand by state forecasters holding firm to a 99 percent probability calculation against mounting public skepticism during a scorching heatwave.",
+      "angle_type": "institutional credibility and public forecast tension",
+      "opening": "Personality-institutional lead opening directly on weather forecasters standing their ground despite public doubts over the dry spell.",
+      "structure": "Forecaster stance hook -> 99% probability and seasonal extension -> Regional onset map -> Indian Ocean Dipole explanation -> Health advisory context -> Regional wrap close.",
+      "source": "https://www.ghafla.co.ke/kenya-met-department-maintains-el-nino-forecast-despite-prolonged-dry-spell/"
     }
   ],
   "style_history": [
