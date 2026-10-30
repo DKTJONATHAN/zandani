@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "0cfc2a5d4cf91a0598d9ae9c168d43d7",
     "ccd3ac477d79428a31a7b4178f541dc0",
     "2124b1c4dd256c9536904eca711988ad",
     "f47f700c57c9e36877f8152ed630b85b",
@@ -799,10 +798,10 @@
     "e9d660a2bde0b1e53caea16911ea1faf",
     "c993ee68506f8d66885a4b96d316b1b3",
     "8b45b3dde1f01e787fa92bc65e53658a",
-    "23baa989ebe16a1bbe2108493089c013"
+    "23baa989ebe16a1bbe2108493089c013",
+    "dd4af1b2410233cd79451fe404222a58"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1540,7 +1540,8 @@
     "https://kenyans.co.ke/news/129004-transport-costs-surge-17-october-inflation-hits-73-knbs",
     "https://kenyans.co.ke/news/129007-sifuna-picks-mwangaza-osotsi-key-linda-mwananchi-movement-party-positions",
     "https://kenyans.co.ke/news/129013-russia-closes-moscow-airports-over-drone-threat-putin-hosts-african-leaders",
-    "https://kenyans.co.ke/news/129011-police-commission-takes-battle-over-recruitment-promotions-supreme-court"
+    "https://kenyans.co.ke/news/129011-police-commission-takes-battle-over-recruitment-promotions-supreme-court",
+    "https://kenyans.co.ke/news/129010-moh-release-46-ebola-contacts-quarantine-issues-notice"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2171,7 +2172,8 @@
     "transport surge pushes inflation leaving cbk basis point buffer",
     "sifuna distributes regional levers four deputy linda mwananchi roster",
     "moscow airspace paralyzed drone barrage hours african leaders conclude summit",
-    "police commission escalates command dispute supreme court kanja 948 promotions"
+    "police commission escalates command dispute supreme court kanja 948 promotions",
+    "ebola exit clock hinges isolation bed clearances quarantine net narrows"
   ],
   "topic_keys": [
     "news tracker",
@@ -7121,6 +7123,15 @@
       "structure": "Apex court escalation lead -> Immediate operational fallout (the 1,948 promotions) -> Factual breakdown of the 13-month legal lineage from ELRC to Court of Appeal -> The constitutional collision between Articles 245 and 246 -> Forward legal stakes facing the Supreme Court bench",
       "source": "https://kenyans.co.ke/news/129011-police-commission-takes-battle-over-recruitment-promotions-supreme-court",
       "published_at": "2026-10-30T13:02:25Z"
+    },
+    {
+      "title": "Kenya\u2019s Ebola Exit Clock Hinges on Isolation Bed Clearances as Quarantine Net Narrows",
+      "angle": "The operational timeline and procedural hurdles governing Kenya's exit path from the outbreak: why the 42-day countdown clock remains frozen until the final active isolation beds clear, even as the contact tracing net unwinds.",
+      "angle_type": "timing",
+      "opening": "Milestone-driven lead establishing the twin clinical requirements that stand between Kenya's 10-day infection lull and the activation of the statutory 42-day countdown.",
+      "structure": "Operational timeline lead -> Isolation ward status and contact release phases -> Contact tracing logistics (domestic and cross-border) -> Epidemiological benchmarks and point-of-entry surveillance",
+      "source": "https://kenyans.co.ke/news/129010-moh-release-46-ebola-contacts-quarantine-issues-notice",
+      "published_at": "2026-10-30T14:02:01Z"
     }
   ]
 }
