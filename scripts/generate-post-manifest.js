@@ -152,6 +152,6 @@ for (const [name, authorPosts] of postsByAuthor) {
   };
 }
 fs.mkdirSync(PUBLIC_CONTENT_DIR, { recursive: true });
-fs.writeFileSync(AUTHORS_OUTPUT, JSON.stringify(authorProfiles, null, 2) + '\\n');
+fs.writeFileSync(AUTHORS_OUTPUT, JSON.stringify(authorProfiles, null, 2) + '\n');
 fs.writeFileSync(OUTPUT_FILE, JSON.stringify(manifest, null, 2));
 console.log(`Published ${manifest.length} due posts and ${Object.keys(authorProfiles).length} author profiles; future posts remain hidden.`);
