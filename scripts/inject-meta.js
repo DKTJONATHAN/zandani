@@ -170,35 +170,91 @@ function genericPage(route) {
 for (const route of baseRoutes) writeRoute(route, genericPage(route));
 
 const categoryNames = [...new Set(posts.map((p) => p.category))].sort();
-for (const category of categoryNames) {
-  const slug = slugify(category) || 'news';
-  const route = `/category/${slug}`;
-  const url = `${SITE_URL}${route}`;
-  const items = posts.filter((p) => slugify(p.category) === slug).slice(0, 30);
-  const list = items.map((p) => `<li><a href="/article/${encodeURIComponent(p.slug)}">${escapeHtml(p.title)}</a><time datetime="${escapeHtml(new Date(p.publishDate).toISOString())}">${escapeHtml(new Date(p.publishDate).toLocaleDateString('en-KE'))}</time></li>`).join('');
-  const title = `${category} News | Za Ndani`;
-  const description = `Latest ${category} news, breaking stories and updates from Kenya and around the world.`;
-  const meta = `<title>${escapeHtml(title)}</title><meta name="description" content="${escapeHtml(description)}"><link rel="canonical" href="${escapeHtml(url)}"><meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:url" content="${escapeHtml(url)}"><meta property="og:type" content="website">`;
-  const body = `<main><section><h1>${escapeHtml(title)}</h1><p>${escapeHtml(description)}</p><ul>${list}</ul></section></main>`;
+const sectionRoutes = {
+  news: '/news', politics: '/news', national: '/news', opinions: '/news',
+  entertainment: '/entertainment', gossip: '/entertainment', showbiz: '/entertainment', celebrity: '/entertainment', music: '/entertainment',
+  sports: '/sports', sport: '/sports',
+  business: '/business', finance: '/business', economy: '/business',
+  lifestyle: '/lifestyle', fashion: '/lifestyle', health: '/lifestyle', travel: '/lifestyle',
+};
+const categoryGroups = new Map();
+for (const post of posts) {
+  const slug = slugify(post.category) || 'news';
+  const route = sectionRoutes[slug] || '/category/' + slug;
+  const group = categoryGroups.get(route) || [];
+  group.push(post);
+  categoryGroups.set(route, group);
+}
+for (const [route, groupPosts] of categoryGroups) {
+  const label = route.startsWith('/category/')
+    ? route.slice('/category/'.length).replace(/-/g, ' ')
+    : route.slice(1).replace(/-/g, ' ');
+  const title = (label.charAt(0).toUpperCase() + label.slice(1)) + ' News & Updates | Za Ndani';
+  const description = 'Read the latest ' + label + ' reporting from Za Ndani, with news, developments and context from Kenya and the region.';
+  const url = SITE_URL + route;
+  const items = groupPosts.sort((a, b) => dateValue(b.publishDate) - dateValue(a.publishDate)).slice(0, 50);
+  const list = items.map((p) => '<li><a href="/article/' + encodeURIComponent(p.slug) + '">' + escapeHtml(p.title) + '</a><time datetime="' + escapeHtml(new Date(p.publishDate).toISOString()) + '">' + escapeHtml(new Date(p.publishDate).toLocaleDateString('en-KE')) + '</time></li>').join('');
+  const meta = '<title>' + escapeHtml(title) + '</title><meta name="description" content="' + escapeHtml(description) + '"><link rel="canonical" href="' + escapeHtml(url) + '"><meta property="og:title" content="' + escapeHtml(title) + '"><meta property="og:description" content="' + escapeHtml(description) + '"><meta property="og:url" content="' + escapeHtml(url) + '"><meta property="og:type" content="website">';
+  const nav = siteNavHtml();
+  const breadcrumb = '<nav aria-label="Breadcrumb"><a href="/">Home</a> / <span>' + escapeHtml(label) + '</span></nav>';
+  const schema = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+    { '@type': 'ListItem', position: 2, name: label, item: url },
+  ] };
+  const body = '<main><section>' + breadcrumb + '<h1>' + escapeHtml(title) + '</h1><p>' + escapeHtml(description) + '</p>' + nav + '<ul>' + list + '</ul></section></main><script type="application/ld+json">' + JSON.stringify(schema).replace(/</g, '\\u003c') + '</script>';
   writeRoute(route, injectRoot(injectHead(baseHtml, meta), body));
-  if (['news','entertainment','sports','business','lifestyle','politics'].includes(slug)) {
-    writeRoute(`/${slug}`, injectRoot(injectHead(baseHtml, meta.replace(`/category/${slug}`, `/${slug}`)), body));
-  }
 }
 
 const authors = [...new Set(posts.map((p) => p.author).filter(Boolean))];
 for (const author of authors) {
   const slug = slugify(author);
-  const route = `/author/${slug}`;
-  const items = posts.filter((p) => p.author === author).slice(0, 30);
-  const list = items.map((p) => `<li><a href="/article/${encodeURIComponent(p.slug)}">${escapeHtml(p.title)}</a></li>`).join('');
-  const title = `${author} | Za Ndani`;
-  const description = `Stories by ${author} published by Za Ndani.`;
-  const meta = `<title>${escapeHtml(title)}</title><meta name="description" content="${escapeHtml(description)}"><link rel="canonical" href="${SITE_URL}${route}"><meta property="og:title" content="${escapeHtml(title)}"><meta property="og:description" content="${escapeHtml(description)}"><meta property="og:url" content="${SITE_URL}${route}"><meta property="og:type" content="profile">`;
-  const body = `<main><section><h1>${escapeHtml(author)}</h1><p>${escapeHtml(description)}</p><ul>${list}</ul></section></main>`;
+  const route = '/author/' + slug;
+  const items = posts.filter((p) => p.author === author).slice(0, 40);
+  const profile = authorProfiles[author] || {
+    name: author,
+    role: 'Contributing Writer',
+    bio: author + ' contributes to Za Ndani coverage, with reporting focused on the subjects and context readers need to follow.',
+    location: 'Kenya',
+  };
+  const role = profile.role || 'Contributing Writer';
+  const bio = profile.bio || (author + ' contributes reporting and features for Za Ndani.');
+  const title = author + ' | ' + role + ' | Za Ndani';
+  const description = (bio.length > 145 ? bio.slice(0, 142).replace(/\s+\S*$/, '') + '…' : bio) + ' Read the latest stories by ' + author + ' on Za Ndani.';
+  const url = SITE_URL + route;
+  const list = items.map((p) => '<li><a href="/article/' + encodeURIComponent(p.slug) + '">' + escapeHtml(p.title) + '</a></li>').join('');
+  const isDesk = /desk/i.test(role);
+  const entity = {
+    '@type': isDesk ? 'Organization' : 'Person',
+    name: author,
+    description: bio,
+    url,
+    jobTitle: isDesk ? undefined : role,
+  };
+  const schema = { '@context': 'https://schema.org', '@type': 'ProfilePage', name: title, url, description, mainEntity: entity };
+  const breadcrumb = '<nav aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/authors">Authors</a> / <span>' + escapeHtml(author) + '</span></nav>';
+  const meta = '<title>' + escapeHtml(title) + '</title><meta name="description" content="' + escapeHtml(description) + '"><link rel="canonical" href="' + escapeHtml(url) + '"><meta property="og:title" content="' + escapeHtml(title) + '"><meta property="og:description" content="' + escapeHtml(description) + '"><meta property="og:url" content="' + escapeHtml(url) + '"><meta property="og:type" content="profile">';
+  const body = '<main><article>' + breadcrumb + '<h1>' + escapeHtml(author) + '</h1><p><strong>' + escapeHtml(role) + '</strong></p><p>' + escapeHtml(bio) + '</p><nav aria-label="Site sections">' + siteNavHtml() + '</nav><section><h2>Latest stories by ' + escapeHtml(author) + '</h2><ul>' + list + '</ul></section><p><a href="/authors">Browse all Za Ndani contributors</a></p></article></main><script type="application/ld+json">' + JSON.stringify(schema).replace(/</g, '\\u003c') + '</script>';
   writeRoute(route, injectRoot(injectHead(baseHtml, meta), body));
 }
 
+const faqItems = [
+  { question: 'What does Za Ndani cover?', answer: 'Za Ndani publishes coverage of Kenyan news and public affairs, business, sports, entertainment, lifestyle and developments across the region.' },
+  { question: 'How can I send a story tip or information to the newsroom?', answer: 'Send story tips, documents for editorial review and general newsroom enquiries to contact@zandani.co.ke. Include links or supporting context where available.' },
+  { question: 'How do I report an error in a published story?', answer: 'Email contact@zandani.co.ke with the article link, the passage you believe is inaccurate and any supporting information. Za Ndani reviews correction requests under its published Corrections Policy.' },
+  { question: 'How does Za Ndani handle corrections?', answer: 'When a substantive error is confirmed, the article is corrected and an explanatory correction note is added. Minor typographical fixes that do not change meaning may be corrected without a separate note.' },
+  { question: 'How can I contact an editor or request a right of reply?', answer: 'Contact the newsroom at contact@zandani.co.ke and identify the article or issue concerned. Include the relevant facts, documents and a reliable way for the newsroom to follow up.' },
+  { question: 'How can I find more stories by a contributor?', answer: 'Select the byline on an article or visit the Authors page to open a contributor profile and browse stories published under that byline.' },
+  { question: 'Does advertising determine editorial coverage?', answer: 'Za Ndani’s published editorial standards state that editorial decisions are made independently and are not directed by advertisers, political interests or corporate partners.' },
+];
+const faqUrl = SITE_URL + '/faq';
+const faqTitle = 'Frequently Asked Questions | Za Ndani';
+const faqDescription = 'Answers about Za Ndani coverage, editorial standards, corrections, story tips, contributor bylines and how to contact the newsroom.';
+const faqSchema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqItems.map((item) => ({
+  '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer },
+})) };
+const faqMeta = '<title>' + escapeHtml(faqTitle) + '</title><meta name="description" content="' + escapeHtml(faqDescription) + '"><link rel="canonical" href="' + faqUrl + '"><meta property="og:title" content="' + escapeHtml(faqTitle) + '"><meta property="og:description" content="' + escapeHtml(faqDescription) + '"><meta property="og:url" content="' + faqUrl + '"><meta property="og:type" content="website">';
+const faqBody = '<main><nav aria-label="Breadcrumb"><a href="/">Home</a> / <span>Frequently asked questions</span></nav><h1>Frequently asked questions</h1><p>' + escapeHtml(faqDescription) + '</p>' + siteNavHtml() + '<section>' + faqItems.map((item) => '<article><h2>' + escapeHtml(item.question) + '</h2><p>' + escapeHtml(item.answer) + '</p></article>').join('') + '</section><p>For more detail, read our <a href="/ethics">Editorial Ethics</a> and <a href="/corrections">Corrections Policy</a>, or <a href="/contact">contact the newsroom</a>.</p></main><script type="application/ld+json">' + JSON.stringify(faqSchema).replace(/</g, '\\u003c') + '</script>';
+writeRoute('/faq', injectRoot(injectHead(baseHtml, faqMeta), faqBody));
 const tags = [...new Set(posts.flatMap((p) => p.tags.map(slugify)).filter(Boolean))];
 for (const tag of tags) {
   const route = `/tag/${tag}`;
