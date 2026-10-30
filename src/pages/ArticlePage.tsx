@@ -170,7 +170,7 @@ export default function ArticlePage() {
     sports: "/sports", sport: "/sports", business: "/business", finance: "/business", economy: "/business",
     lifestyle: "/lifestyle", fashion: "/lifestyle", health: "/lifestyle", travel: "/lifestyle",
   };
-  const categorySlug = (post.category || "news").toLowerCase().trim().replace(/[^a-z0-9\\s-]/g, "").replace(/\\s+/g, "-");
+  const categorySlug = (post.category || "news").toLowerCase().trim().replace(/[^a-z0-9\s-]/g, "").replace(/\s+/g, "-");
   const categoryPath = categoryPaths[categorySlug] || `/category/${categorySlug}`;
   const categoryLabel = post.category || "News";
   const publishedDate = new Date(post.publishDate || post.date);
