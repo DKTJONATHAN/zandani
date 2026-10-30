@@ -63,14 +63,21 @@ export default function PrivacyPage() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-serif font-bold text-headline mb-4">5. Data Security</h2>
+            <h2 className="text-2xl font-serif font-bold text-headline mb-4">5. Security and abuse prevention</h2>
+            <p className="text-muted-foreground">
+              We use Cloudflare Turnstile on newsletter subscriptions, the administrator sign-in form, and the newsroom contact form to help distinguish people from automated traffic and prevent spam and abuse. When you use these forms, Cloudflare may process technical information such as your IP address, browser and device characteristics, and interaction signals to assess the security check. Turnstile verification tokens are sent to our server and checked with Cloudflare; we do not use them for advertising. For more information, see the <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Cloudflare Privacy Policy</a>.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-serif font-bold text-headline mb-4">6. Data Security</h2>
             <p className="text-muted-foreground">
               The security of your data is important to us, but remember that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your personal data, we cannot guarantee its absolute security.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-serif font-bold text-headline mb-4">6. Your Rights</h2>
+            <h2 className="text-2xl font-serif font-bold text-headline mb-4">7. Your Rights</h2>
             <p className="text-muted-foreground mb-4">
               You have the right to:
             </p>
@@ -83,7 +90,7 @@ export default function PrivacyPage() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-serif font-bold text-headline mb-4">7. Contact Us</h2>
+            <h2 className="text-2xl font-serif font-bold text-headline mb-4">8. Contact Us</h2>
             <p className="text-muted-foreground">
               If you have any questions about this Privacy Policy, please contact us at{" "}
               <a href="mailto:contact@zandani.co.ke" className="text-primary hover:underline">
