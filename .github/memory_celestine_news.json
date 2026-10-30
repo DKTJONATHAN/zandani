@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "31a65fb8a31357ed7352319c0fe71aa7",
     "56c12662ce6e2e35390cd0e3adeac5c1",
     "463c1536ff3fe191d7794c67d05e19a4",
     "cbe2b3ded0c24cd5816a153126d9a054",
@@ -799,10 +798,10 @@
     "30faa6c077e91a2972bf5e3f8a701f9e",
     "bc5358605f9952d01c575d235afb4aa7",
     "98aa576c117aa711c7bf431de02eef06",
-    "f378085f56e84f145e18caf9d1601da1"
+    "f378085f56e84f145e18caf9d1601da1",
+    "6eb0451036a2061a1167c75e2cd6c43a"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1534,7 +1534,8 @@
     "https://kenyans.co.ke/news/128989-tribunal-clears-way-registration-ukombozi-alliance",
     "https://kenyans.co.ke/news/128991-kamukunji-traders-take-streets-protest-evictions-after-eastleigh-building-collapse",
     "https://kenyans.co.ke/news/128996-us-launches-major-crackdown-kenyans-linked-student-aid-fraud",
-    "https://kenyans.co.ke/news/128997-govt-reveals-ksh98-billion-owed-contractors-despite-funding-new-road-projects"
+    "https://kenyans.co.ke/news/128997-govt-reveals-ksh98-billion-owed-contractors-despite-funding-new-road-projects",
+    "https://kenyans.co.ke/news/128999-standard-media-group-appoints-dr-naim-bilal-ceo"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2159,7 +2160,8 @@
     "tribunal discharges injunction ukombozi name clearing opposition rebrand",
     "safety buffer lockdown deadlocks kamukunji traders regional administration",
     "doj exposes ksh16 student aid pipeline routed accounts crypto wallets",
-    "securitisation cash influx leaves ksh98b road debt unresolved ministry adds works"
+    "securitisation cash influx leaves ksh98b road debt unresolved ministry adds works",
+    "standard group hands naim bilal substantive helm halt executive instability"
   ],
   "topic_keys": [
     "news tracker",
@@ -7055,6 +7057,15 @@
       "structure": "Balance sheet friction lead -> Naivasha parliamentary disclosure and tranche breakdown -> Securitisation mechanics versus legacy arrears -> Capital deployment and levy fund yields -> Forward pipeline commitments and World Bank partnership.",
       "source": "https://kenyans.co.ke/news/128997-govt-reveals-ksh98-billion-owed-contractors-despite-funding-new-road-projects",
       "published_at": "2026-10-30T06:02:35Z"
+    },
+    {
+      "title": "Standard Group Hands Dr Naim Bilal Substantive Helm to Halt Executive Instability",
+      "angle": "Focusing on the institutional urgency and commercial stabilization mandate at Mombasa Road, where the board moved quickly to end executive instability after Chaacha Mwita's unelaborated exit after just seven months.",
+      "angle_type": "institutional pressure",
+      "opening": "Mandate-led opening that links Bilal's substantive confirmation directly to the urgent task of steadying the Mombasa Road media house after his predecessor's seven-month tenure.",
+      "structure": "Institutional stabilization lead -> Factual recruitment timeline and confirmation terms -> Dual commercial-digital mandate versus editorial safeguards -> Resume analysis reflecting state, regulatory, and commercial media background -> Predecessor turnover context and forward operational test.",
+      "source": "https://kenyans.co.ke/news/128999-standard-media-group-appoints-dr-naim-bilal-ceo",
+      "published_at": "2026-10-30T07:02:06Z"
     }
   ]
 }
