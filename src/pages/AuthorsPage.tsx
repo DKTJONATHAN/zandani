@@ -120,7 +120,7 @@ export default function AuthorsPage() {
         <meta name="description" content="Explore Za Ndani editorial profiles, coverage areas and the latest published stories across news, public affairs, sport and culture." />
         <link rel="canonical" href="https://zandani.co.ke/authors" />
         <meta property="og:title" content="Our Authors | Za Ndani" />
-        <meta property="og:description" content="Meet the journalists and writers behind Za Ndani — Kenya's sharpest entertainment and news site." />
+        <meta property="og:description" content="Explore Za Ndani editorial profiles, coverage areas and the latest published stories across news, public affairs, sport and culture." />
         <meta property="og:url" content="https://zandani.co.ke/authors" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Za Ndani" />
