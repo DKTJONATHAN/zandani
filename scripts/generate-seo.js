@@ -58,7 +58,7 @@ async function loadPosts() {
 function urlBlock(pathname, lastmod) { return `  <url><loc>${escapeXml(assertCanonical(canonicalUrl(pathname)))}</loc>${lastmod ? `<lastmod>${lastmod.toISOString()}</lastmod>` : ''}</url>`; }
 function urlset(blocks, extra = '') { return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"${extra}>\n${blocks.join('\n')}\n</urlset>\n`; }
 function staticSitemap(posts) {
-  const paths = ['/', '/news', '/entertainment', '/sports', '/business', '/lifestyle', '/about', '/contact', '/privacy', '/terms', '/ethics', '/corrections', '/authors', '/tv', '/advertise', '/careers', '/fact-check', '/trending', '/podcast', '/live', '/energy', '/education', '/finance', '/sports/live', '/faq', '/newsletter'];
+  const paths = ['/', '/news', '/entertainment', '/sports', '/business', '/lifestyle', '/about', '/contact', '/privacy', '/terms', '/ethics', '/corrections', '/authors', '/sitemap', '/tv', '/advertise', '/careers', '/fact-check', '/trending', '/podcast', '/live', '/energy', '/education', '/finance', '/sports/live', '/faq', '/newsletter'];
   const authorPaths = [...new Set(posts.map((post) => slugify(post.author)).filter(Boolean))].map((slug) => `/author/${slug}`);
   return urlset([...new Set([...paths, ...authorPaths])].map((pathname) => urlBlock(pathname)));
 }
