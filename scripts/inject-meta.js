@@ -16,6 +16,8 @@ if (!fs.existsSync(indexHtmlPath)) {
 }
 
 const baseHtml = fs.readFileSync(indexHtmlPath, 'utf8');
+// Preserve the untouched Vite shell for Worker SSR; prerendered index.html is a crawler fallback.
+fs.writeFileSync(path.join(distDir, 'app-shell.html'), baseHtml, 'utf8');
 const authorProfilesPath = path.join(process.cwd(), 'public/content/authors.json');
 const authorProfiles = fs.existsSync(authorProfilesPath) ? JSON.parse(fs.readFileSync(authorProfilesPath, 'utf8')) : {};
 
