@@ -78,7 +78,7 @@ export function XTimeline({ outlet, height = 720 }: { outlet: KenyaWireOutlet; h
     <div className="overflow-hidden rounded-xl border border-zinc-800 bg-zinc-950 shadow-2xl">
       <div className="flex items-center justify-between gap-3 px-4 py-3 border-b border-zinc-800 bg-zinc-900/80">
         <div className="flex items-center gap-3 min-w-0">
-          <img src={avatarUrl(outlet.handle)} alt="" className="w-10 h-10 rounded-full object-cover bg-zinc-800" />
+          <img src={avatarUrl(outlet.handle)} alt={outlet.name} className="w-10 h-10 rounded-full object-cover bg-zinc-800" />
           <div className="min-w-0">
             <p className="text-sm font-black text-white truncate">{outlet.name}</p>
             <p className="text-xs text-zinc-400 truncate">@{outlet.handle} · {outlet.note}</p>
@@ -138,7 +138,7 @@ export function KenyaWireBoard({ compact = false }: { compact?: boolean }) {
                 }`}
               >
                 <span className={`w-2 h-2 rounded-full ${item.accent}`} />
-                <img src={avatarUrl(item.handle)} alt="" className="w-8 h-8 rounded-full object-cover hidden sm:block" />
+                <img src={avatarUrl(item.handle)} alt={item.name} className="w-8 h-8 rounded-full object-cover hidden sm:block" />
                 <span className="min-w-0">
                   <span className="block text-xs font-black uppercase tracking-wide truncate">{item.name}</span>
                   <span className="block text-[11px] text-zinc-500 truncate">@{item.handle}</span>
