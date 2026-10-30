@@ -285,7 +285,7 @@ function cronMatches(expr, parts) {
 }
 
 function nextRunIso(cron, from = new Date()) {
-  for (let i = 1; i <= 48 * 60; i += 1) {
+  for (let i = 1; i <= 8 * 24 * 60; i += 1) {
     const d = new Date(from.getTime() + i * 60_000);
     if (cronMatches(cron, nairobiParts(d))) return d.toISOString();
   }
