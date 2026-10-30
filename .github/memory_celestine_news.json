@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ccd3ac477d79428a31a7b4178f541dc0",
     "2124b1c4dd256c9536904eca711988ad",
     "f47f700c57c9e36877f8152ed630b85b",
     "779981a49b383309cfa6cbbe8b565494",
@@ -799,10 +798,10 @@
     "c993ee68506f8d66885a4b96d316b1b3",
     "8b45b3dde1f01e787fa92bc65e53658a",
     "23baa989ebe16a1bbe2108493089c013",
-    "dd4af1b2410233cd79451fe404222a58"
+    "dd4af1b2410233cd79451fe404222a58",
+    "59ff0ccd92187336564880d40f555fb7"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1541,7 +1541,8 @@
     "https://kenyans.co.ke/news/129007-sifuna-picks-mwangaza-osotsi-key-linda-mwananchi-movement-party-positions",
     "https://kenyans.co.ke/news/129013-russia-closes-moscow-airports-over-drone-threat-putin-hosts-african-leaders",
     "https://kenyans.co.ke/news/129011-police-commission-takes-battle-over-recruitment-promotions-supreme-court",
-    "https://kenyans.co.ke/news/129010-moh-release-46-ebola-contacts-quarantine-issues-notice"
+    "https://kenyans.co.ke/news/129010-moh-release-46-ebola-contacts-quarantine-issues-notice",
+    "https://kenyans.co.ke/news/129015-russia-compensate-kenyan-victims-recruited-military-after-ruto-putin-talks"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2173,7 +2174,8 @@
     "sifuna distributes regional levers four deputy linda mwananchi roster",
     "moscow airspace paralyzed drone barrage hours african leaders conclude summit",
     "police commission escalates command dispute supreme court kanja 948 promotions",
-    "ebola exit clock hinges isolation bed clearances quarantine net narrows"
+    "ebola exit clock hinges isolation bed clearances quarantine net narrows",
+    "posts defence attach moscow process military compensation repatriations"
   ],
   "topic_keys": [
     "news tracker",
@@ -7132,6 +7134,15 @@
       "structure": "Operational timeline lead -> Isolation ward status and contact release phases -> Contact tracing logistics (domestic and cross-border) -> Epidemiological benchmarks and point-of-entry surveillance",
       "source": "https://kenyans.co.ke/news/129010-moh-release-46-ebola-contacts-quarantine-issues-notice",
       "published_at": "2026-10-30T14:02:01Z"
+    },
+    {
+      "title": "Kenya Posts Defence Attach\u00e9 to Moscow to Process Military Compensation and Repatriations",
+      "angle": "Focus on the practical transition from underground mercenary pipelines to official diplomatic accountability: specifically how establishing a Defence Attach\u00e9 office in Moscow creates an operational mechanism to trace missing recruits, process death/disability compensation, and replace illegal military enlistment with structured civilian labor accords.",
+      "angle_type": "practical change",
+      "opening": "Mechanism-first lead highlighting the immediate deployment of a military diplomatic post in Moscow to oversee repatriations and compensation processing.",
+      "structure": "Diplomatic mechanism lead -> Human and investigative scale of recruitment -> Operational role of the new Defence Attach\u00e9 -> Reclassification and civilian replacement framework -> Next administrative and repatriation hurdles.",
+      "source": "https://kenyans.co.ke/news/129015-russia-compensate-kenyan-victims-recruited-military-after-ruto-putin-talks",
+      "published_at": "2026-10-30T15:02:12Z"
     }
   ]
 }
