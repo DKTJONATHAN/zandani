@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f7a825a47a3551cfcb0f09e302701875",
     "ac82e7ad106db6a419f811b41ede025e",
     "0cfc2a5d4cf91a0598d9ae9c168d43d7",
     "ccd3ac477d79428a31a7b4178f541dc0",
@@ -799,10 +798,10 @@
     "6eb0451036a2061a1167c75e2cd6c43a",
     "ee3cdaf0b06ff68d945153eaaba4e987",
     "e9d660a2bde0b1e53caea16911ea1faf",
-    "c993ee68506f8d66885a4b96d316b1b3"
+    "c993ee68506f8d66885a4b96d316b1b3",
+    "8b45b3dde1f01e787fa92bc65e53658a"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1538,7 +1538,8 @@
     "https://kenyans.co.ke/news/128999-standard-media-group-appoints-dr-naim-bilal-ceo",
     "https://kenyans.co.ke/news/128998-ntsa-issues-warning-motorists-over-fake-traffic-offence-notices",
     "https://kenyans.co.ke/news/129004-transport-costs-surge-17-october-inflation-hits-73-knbs",
-    "https://kenyans.co.ke/news/129007-sifuna-picks-mwangaza-osotsi-key-linda-mwananchi-movement-party-positions"
+    "https://kenyans.co.ke/news/129007-sifuna-picks-mwangaza-osotsi-key-linda-mwananchi-movement-party-positions",
+    "https://kenyans.co.ke/news/129013-russia-closes-moscow-airports-over-drone-threat-putin-hosts-african-leaders"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2167,7 +2168,8 @@
     "standard group hands naim bilal substantive helm halt executive instability",
     "ntsa flags counterfeit fine slips highway crackdown spawns roadside scams",
     "transport surge pushes inflation leaving cbk basis point buffer",
-    "sifuna distributes regional levers four deputy linda mwananchi roster"
+    "sifuna distributes regional levers four deputy linda mwananchi roster",
+    "moscow airspace paralyzed drone barrage hours african leaders conclude summit"
   ],
   "topic_keys": [
     "news tracker",
@@ -7099,6 +7101,15 @@
       "structure": "Attribution lead -> Proposed four-deputy executive architecture -> Secretariat administrative and regional lineup -> Strategic gubernatorial deployment -> NDC ratification hurdle",
       "source": "https://kenyans.co.ke/news/129007-sifuna-picks-mwangaza-osotsi-key-linda-mwananchi-movement-party-positions",
       "published_at": "2026-10-30T10:09:25Z"
+    },
+    {
+      "title": "Moscow Airspace Paralyzed by Drone Barrage Hours After African Leaders Conclude Summit",
+      "angle": "The acute operational and diplomatic contrast between the Kremlin's high-profile summitry with African leaders and the sudden vulnerability of Moscow's civil aviation network, illustrating the practical disruption of the conflict inside Russia's borders even as 48 visiting African delegations conducted bilateral trade talks.",
+      "angle_type": "consequence",
+      "opening": "Operational contrast lead highlighting the swift transition from high-level diplomatic diplomacy to air traffic paralysis in the host capital.",
+      "structure": "Airspace shutdown lead -> Factual breakdown of flight cancellations and airport clearances -> Scale of the drone assault and air defence claims -> African summit diplomatic context and Kenyan delegation details -> Security reality check and forward horizon for post-summit departures.",
+      "source": "https://kenyans.co.ke/news/129013-russia-closes-moscow-airports-over-drone-threat-putin-hosts-african-leaders",
+      "published_at": "2026-10-30T12:07:09Z"
     }
   ]
 }
