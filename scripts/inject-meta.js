@@ -165,7 +165,7 @@ function genericPage(route) {
   const links = posts.slice(0, 12).map((p) => '<li><a href="/article/' + encodeURIComponent(p.slug) + '">' + escapeHtml(p.title) + '</a></li>').join('');
   let extra = '';
   if (route === '/authors') {
-    extra = '<section><h2>Contributor profiles</h2><ul>' + [...new Set(posts.map((post) => post.author).filter(Boolean))].map((name) => { const profile = authorProfiles[name] || { name, role: 'Contributing Writer' }; return '<li><a href="/author/' + slugify(name) + '">' + escapeHtml(name) + '</a> — ' + escapeHtml(profile.role || 'Contributor') + '</li>'; }).join('') + '</ul></section>';
+    extra = '<section><h2>Contributor profiles</h2><ul>' + [...new Set(posts.map((post) => post.author).filter(Boolean))].map((name) => { const profile = authorProfiles[name] || { name, role: 'Editorial Contributor' }; return '<li><a href="/author/' + slugify(name) + '">' + escapeHtml(name) + '</a> — ' + escapeHtml(profile.role || 'Contributor') + '</li>'; }).join('') + '</ul></section>';
   }
   if (route === '/newsletter') {
     extra = '<section><h2>Get the Za Ndani briefing</h2><p>Receive selected stories on Kenyan news, public affairs, business, sport and entertainment. Visit the newsletter page to manage your subscription.</p><p><a href="/newsletter">Open the newsletter sign-up</a></p></section>';
@@ -221,7 +221,7 @@ for (const author of authors) {
   const items = posts.filter((p) => p.author === author).slice(0, 40);
   const profile = authorProfiles[author] || {
     name: author,
-    role: 'Contributing Writer',
+    role: 'Editorial Contributor',
     bio: author + ' contributes to Za Ndani coverage, with reporting focused on the subjects and context readers need to follow.',
     location: 'Kenya',
   };
@@ -233,11 +233,11 @@ for (const author of authors) {
   const list = items.map((p) => '<li><a href="/article/' + encodeURIComponent(p.slug) + '">' + escapeHtml(p.title) + '</a></li>').join('');
   const isDesk = /desk/i.test(role);
   const entity = {
-    '@type': isDesk ? 'Organization' : 'Person',
+    '@type': 'Organization',
     name: author,
     description: bio,
     url,
-    jobTitle: isDesk ? undefined : role,
+    knowsAbout: role,
   };
   const schema = { '@context': 'https://schema.org', '@type': 'ProfilePage', name: title, url, description, mainEntity: entity };
   const breadcrumb = '<nav aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/authors">Authors</a> / <span>' + escapeHtml(author) + '</span></nav>';
@@ -297,7 +297,7 @@ for (const post of posts) {
   };
   const categoryPath = sectionRoutes[categorySlug] || '/category/' + categorySlug;
   const authorSlug = slugify(post.author) || 'za-ndani';
-  const authorProfile = authorProfiles[post.author] || { role: 'Contributing Writer', bio: post.author + ' contributes reporting and features for Za Ndani.' };
+  const authorProfile = authorProfiles[post.author] || { role: 'Editorial Contributor', bio: 'The ' + post.author + ' byline covers news and current affairs for Za Ndani.' };
   const description = post.description || post.title;
   const metaDescription = (description.toLowerCase().includes(post.title.toLowerCase()) ? description : post.title + '. ' + description).replace(/\s+/g, ' ').slice(0, 157).replace(/\s+\S*$/, '');
   const normalizedBody = (post.body || '').replace(/^#\s+/gm, '## ');
@@ -319,7 +319,7 @@ for (const post of posts) {
     { '@type': 'ListItem', position: 3, name: post.title, item: url },
   ] };
   const authorSchema = {
-    '@type': /desk/i.test(authorProfile.role || '') ? 'Organization' : 'Person',
+    '@type': 'Organization',
     name: post.author,
     description: authorProfile.bio,
     url: SITE_URL + '/author/' + authorSlug,
