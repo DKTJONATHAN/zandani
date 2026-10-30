@@ -787,6 +787,21 @@ export default {
     const url = new URL(request.url);
     const path = url.pathname;
 
+    // Collapse legacy category aliases directly to their canonical section URL.
+    const categoryAlias = path.match(/^\/category\/([^/]+)\/?$/i);
+    if (categoryAlias) {
+      const slug = categoryAlias[1].toLowerCase();
+      const canonicalSections = {
+        news: "/news", politics: "/news", national: "/news", opinions: "/news",
+        entertainment: "/entertainment", gossip: "/entertainment", showbiz: "/entertainment", celebrity: "/entertainment", music: "/entertainment",
+        sports: "/sports", sport: "/sports",
+        business: "/business", finance: "/business", economy: "/business",
+        lifestyle: "/lifestyle", fashion: "/lifestyle", health: "/lifestyle", travel: "/lifestyle",
+      };
+      const destination = canonicalSections[slug];
+      if (destination) return Response.redirect(new URL(destination, url).toString(), 301);
+    }
+
     if (path === "/google4a7d26b466f41330.html" || path === "/google4a7d26b466f41330") {
       return new Response(GSC_HTML, { headers: { "Content-Type": "text/html; charset=utf-8" } });
     }
@@ -824,6 +839,7 @@ export default {
               '<script>window.__INITIAL_DATA__=' + safeInitialData + ';</script>');
             const helmet = rendered.helmet;
             if (helmet) {
+              html = html.replace(/<link[^>]*rel=["']canonical["'][^>]*>/gi, "");
               html = html.replace(/<title>[\s\S]*?<\/title>/i, helmet.title?.toString() || "");
               html = html.replace(/<meta\s+name="description"[^>]*>/i, "");
               html = html.replace(/<meta\s+property="og:[^"]+"[^>]*>/gi, "");
