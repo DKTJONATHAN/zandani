@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "356359ee7f40d74d7313d8e13ef6c50c",
     "cab234c48e80634b062e6bfcf1e3d01e",
     "ddb7d774f1b413a7bd2540b22f1c48a8",
     "bcedbd88c66d57a798b23b878f355814",
@@ -799,10 +798,10 @@
     "2ce6a0d7a2a9c656671f78c95201f759",
     "c429f1dc06bd33a745a99a414e2889ba",
     "724a20363714e9fa8bdbb59bd706ac9b",
-    "2d2fbcdc33443a16e0d4f8848dc1d3b8"
+    "2d2fbcdc33443a16e0d4f8848dc1d3b8",
+    "393e01be17c6e1aa1896f328ecb7d7fa"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1547,7 +1547,8 @@
     "https://kenyans.co.ke/news/129016-epra-proposes-mandatory-online-clearance-fuel-and-cooking-gas",
     "https://kenyans.co.ke/news/129017-chirchir-pushes-rironi-naivasha-road-opening-december",
     "https://kenyans.co.ke/news/129020-several-feared-dead-after-psv-collides-head-lorry-along-eldoret-nakuru-highway",
-    "https://kenyans.co.ke/news/129019-saudi-arabia-imposes-travel-ban-kenya-amid-ebola-fears"
+    "https://kenyans.co.ke/news/129019-saudi-arabia-imposes-travel-ban-kenya-amid-ebola-fears",
+    "https://kenyans.co.ke/news/129022-iebc-confirms-foreign-applicants-were-disqualified-initial-stage-ceo-recruitment"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2185,7 +2186,8 @@
     "epra mandates digital clearance cross border fuel gas shipments",
     "rironi naivasha highway sets early december opening paving pushes past missed target",
     "midnight kondoo highway crash adds urgency ntsa national disaster push",
-    "saudi arabia shuts travel corridor ebola cordon expands"
+    "saudi arabia shuts travel corridor ebola cordon expands",
+    "open intake rules spark online alarm foreign iebc ceo applicants"
   ],
   "topic_keys": [
     "news tracker",
@@ -7198,6 +7200,15 @@
       "structure": "Border-cordon lead -> Three-pronged restriction mechanics and transit lockout -> Regional policy lineage from June's DRC-Uganda-South Sudan bans -> Domestic epidemiological baseline (Bundibugyo cluster metrics) -> Point-of-entry surveillance response.",
       "source": "https://kenyans.co.ke/news/129019-saudi-arabia-imposes-travel-ban-kenya-amid-ebola-fears",
       "published_at": "2026-10-31T06:48:20Z"
+    },
+    {
+      "title": "Open-Intake Rules Spark Online Alarm Over Foreign IEBC CEO Applicants",
+      "angle": "The operational collision between constitutional disclosure rules\u2014which forced the publishing of the unvetted 304-applicant intake\u2014and the hyper-sensitive security scrutiny surrounding IEBC's executive leadership ahead of the 2027 polls.",
+      "angle_type": "accountability",
+      "opening": "Transparency-paradox lead focusing on how unredacted intake disclosures collided with heightened election-security anxieties.",
+      "structure": "Procedural friction lead -> Statement and citizenship filter evidence -> External vetting mechanics under KPMG -> Shortlist profiles and acting secretariat context -> Interview calendar forward edge",
+      "source": "https://kenyans.co.ke/news/129022-iebc-confirms-foreign-applicants-were-disqualified-initial-stage-ceo-recruitment",
+      "published_at": "2026-10-31T08:02:08Z"
     }
   ]
 }
