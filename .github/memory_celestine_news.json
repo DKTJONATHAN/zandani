@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "cab234c48e80634b062e6bfcf1e3d01e",
     "ddb7d774f1b413a7bd2540b22f1c48a8",
     "bcedbd88c66d57a798b23b878f355814",
     "994a0207ee8272e5b8cb44f48f7acfd1",
@@ -799,10 +798,10 @@
     "c429f1dc06bd33a745a99a414e2889ba",
     "724a20363714e9fa8bdbb59bd706ac9b",
     "2d2fbcdc33443a16e0d4f8848dc1d3b8",
-    "393e01be17c6e1aa1896f328ecb7d7fa"
+    "393e01be17c6e1aa1896f328ecb7d7fa",
+    "857caec6c1ce59e13d60f70c47c3797b"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1548,7 +1548,8 @@
     "https://kenyans.co.ke/news/129017-chirchir-pushes-rironi-naivasha-road-opening-december",
     "https://kenyans.co.ke/news/129020-several-feared-dead-after-psv-collides-head-lorry-along-eldoret-nakuru-highway",
     "https://kenyans.co.ke/news/129019-saudi-arabia-imposes-travel-ban-kenya-amid-ebola-fears",
-    "https://kenyans.co.ke/news/129022-iebc-confirms-foreign-applicants-were-disqualified-initial-stage-ceo-recruitment"
+    "https://kenyans.co.ke/news/129022-iebc-confirms-foreign-applicants-were-disqualified-initial-stage-ceo-recruitment",
+    "https://kenyans.co.ke/news/129023-another-kenyan-features-new-minnesota-fraud-probe-days-after-us-student-aid-scandal"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2187,7 +2188,8 @@
     "rironi naivasha highway sets early december opening paving pushes past missed target",
     "midnight kondoo highway crash adds urgency ntsa national disaster push",
     "saudi arabia shuts travel corridor ebola cordon expands",
-    "open intake rules spark online alarm foreign iebc ceo applicants"
+    "open intake rules spark online alarm foreign iebc ceo applicants",
+    "traces ksh142m child meal fraud real estate fugitive arrested"
   ],
   "topic_keys": [
     "news tracker",
@@ -7209,6 +7211,15 @@
       "structure": "Procedural friction lead -> Statement and citizenship filter evidence -> External vetting mechanics under KPMG -> Shortlist profiles and acting secretariat context -> Interview calendar forward edge",
       "source": "https://kenyans.co.ke/news/129022-iebc-confirms-foreign-applicants-were-disqualified-initial-stage-ceo-recruitment",
       "published_at": "2026-10-31T08:02:08Z"
+    },
+    {
+      "title": "US Traces Ksh142M Child Meal Fraud to Kenyan Real Estate as Fugitive Arrested",
+      "angle": "Attribution-led scrutiny of the financial laundering pipeline back to Kenya\u2014specifically how sham welfare claims were swiftly converted into Kenyan real estate and family cash distributions before law enforcement terminated the suspect's 10-month fugitive run.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first statement lead detailing the cross-border asset trail and the immediate beneficiaries of the laundered child nutrition funds.",
+      "structure": "Attribution statement lead -> Factual breakdown of the 6,000-meal fabrication scheme -> Mechanics of domestic and cross-border money laundering -> Federal cross-border crackdown context following Operation Ghostbusters -> Legal and extradition forward edge",
+      "source": "https://kenyans.co.ke/news/129023-another-kenyan-features-new-minnesota-fraud-probe-days-after-us-student-aid-scandal",
+      "published_at": "2026-10-31T09:02:05Z"
     }
   ]
 }
