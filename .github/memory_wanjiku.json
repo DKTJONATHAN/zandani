@@ -326,7 +326,8 @@
     "8b4d1588e297992bb913d4f3f02f83191ea6b8bfa26ea6f104a10f76dd2aa519",
     "5f0362032d4c292e2bf231dc81c86c796113ee744a90705841a361f23fc9e6f6",
     "98702eac901fe093e7d8e667525c1bba70995113791df0236e3cbf6a52c0c48c",
-    "9e659e7e806d2bedc99b3bdf17d902b1b025b5c06ca5a690cb46d2a51d50fcf3"
+    "9e659e7e806d2bedc99b3bdf17d902b1b025b5c06ca5a690cb46d2a51d50fcf3",
+    "9ce2f918ec6a91ad85dcc223004beefd066c1235158d066248303e74026e58cd"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -655,17 +656,10 @@
     "https://www.ghafla.co.ke/spare-us-your-advice-oburu-oginga-warns-outsiders-against-meddling-in-odm-uda-talks/",
     "https://www.ghafla.co.ke/kenya-power-announces-saturday-outages-in-kajiado-siaya-and-nyeri-counties/",
     "https://www.ghafla.co.ke/kalonzo-musyoka-heckled-as-sifuna-supporters-disrupt-linda-mwananchi-launch-speech/",
-    "https://www.ghafla.co.ke/gachagua-shares-his-take-on-talanta-stadium-featuring-bayern-munich-vs-ajax-match/"
+    "https://www.ghafla.co.ke/gachagua-shares-his-take-on-talanta-stadium-featuring-bayern-munich-vs-ajax-match/",
+    "https://www.ghafla.co.ke/gideon-ochanda-says-ruto-is-restoring-nyanzas-place-in-national-leadership/"
   ],
   "published_angles": [
-    {
-      "title": "Geoffrey Mosiria Courts Bishop Margaret Wanjiru for Deputy Slot on \u2018Mr Fix It\u2019 Nairobi Ticket",
-      "angle": "Reframing the pulpit encounter through the sheer political cheek of Mosiria's Sunday church move\u2014walking into Bishop Wanjiru's own sanctuary alongside Fred Matiang'i, then publicly inviting the veteran church founder and seasoned politician to play second fiddle on his self-branded 'Mr Fix It' ticket.",
-      "angle_type": "personality audacity and political theater",
-      "opening": "Personality lead opening directly on Geoffrey Mosiria pitching Bishop Margaret Wanjiru to step aside from her own City Hall ambitions and take the backseat as his running mate.",
-      "structure": "Personality audacity hook -> The Sunday church setting with Fred Matiang'i -> Breakdown of the 'Mr Fix It' self-branding and deputy offer -> The competing ambitions and voter registration warning -> Unresolved church-pulpit dynamic close",
-      "source": "https://www.ghafla.co.ke/geoffrey-mosiria-wants-bishop-margaret-wanjiru-as-his-deputy-in-2027-nairobi-governor-race/"
-    },
     {
       "title": "William Ruto Roasts Opposition Over \u2018One Term\u2019 Choir, Dares Rivals to Drop Slogans for Real Work",
       "angle": "Reframing the confrontation through political celebrity banter: Ruto roasting his rivals for running an amateur musical tour of 'one term' chants and podium name-calling while demanding they produce a tangible portfolio instead of hit pieces fueled by raw envy.",
@@ -1457,6 +1451,14 @@
       "opening": "Personality lead opening directly on Rigathi Gachagua taking aim at the state's choice of foreign exhibition teams for a domestic stadium launch.",
       "structure": "Gachagua's opening quote and nationalist hook -> The Ksh 145 billion taxpayer financing context -> The suggested local alternatives (Gor Mahia, AFC Leopards, Harambee Stars) -> The broader tensions surrounding AFCON 2027 commercial positioning.",
       "source": "https://www.ghafla.co.ke/gachagua-shares-his-take-on-talanta-stadium-featuring-bayern-munich-vs-ajax-match/"
+    },
+    {
+      "title": "Gideon Ochanda Tells Elite Dealmakers Grassroots Nyanza Has Already Chosen Ruto Pact",
+      "angle": "Spotlighting Ochanda's direct contrast between boardroom political elite negotiations and ordinary grassroots voters, arguing that while national figures debate alliances, local residents have pragmatically abandoned old rigid stances without losing cultural identity.",
+      "angle_type": "personality ideological break and grassroots reality check",
+      "opening": "Personality lead opening directly on Gideon Ochanda Ogolla calling out elite political negotiators and declaring that ordinary voters on the ground have already made their decision.",
+      "structure": "Personality hook -> The 'Reintegrating Nyanza' statement breakdown -> The dignity vs. partnership argument -> Critique of past rigid political exclusion -> Friction between boardroom talks and grassroots economic demands.",
+      "source": "https://www.ghafla.co.ke/gideon-ochanda-says-ruto-is-restoring-nyanzas-place-in-national-leadership/"
     }
   ],
   "style_history": [
