@@ -323,7 +323,8 @@
     "70f2a9d32d35fa6e2ac812abbb280c38ed2f7fc49c9f7b5d0880d2a85d68fa5e",
     "c91cfc3178c0e497f88b3ada2bb59b288e48a50544834aa7422690653c29b742",
     "03fa4a9ed3ae6e8479558102ab2bee69f965bdb34a30a5978845a563d05c7f38",
-    "8b4d1588e297992bb913d4f3f02f83191ea6b8bfa26ea6f104a10f76dd2aa519"
+    "8b4d1588e297992bb913d4f3f02f83191ea6b8bfa26ea6f104a10f76dd2aa519",
+    "5f0362032d4c292e2bf231dc81c86c796113ee744a90705841a361f23fc9e6f6"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -649,17 +650,10 @@
     "https://www.ghafla.co.ke/frida-knows-me-babu-owino-dismisses-mosirias-allegations-of-secret-wife/",
     "https://www.ghafla.co.ke/kenya-met-department-maintains-el-nino-forecast-despite-prolonged-dry-spell/",
     "https://www.ghafla.co.ke/pastor-kanyari-leaks-private-whatsapp-chats-with-daughter-sky-to-prove-financial-support/",
-    "https://www.ghafla.co.ke/spare-us-your-advice-oburu-oginga-warns-outsiders-against-meddling-in-odm-uda-talks/"
+    "https://www.ghafla.co.ke/spare-us-your-advice-oburu-oginga-warns-outsiders-against-meddling-in-odm-uda-talks/",
+    "https://www.ghafla.co.ke/kenya-power-announces-saturday-outages-in-kajiado-siaya-and-nyeri-counties/"
   ],
   "published_angles": [
-    {
-      "title": "Johnson Sakaja Rules Out Nairobi IDP Camps, Insists Displaced Residents \u2018Will Never Leave\u2019 If Given Free Food",
-      "angle": "Sakaja's blunt personal philosophy rejecting traditional IDP camps in favor of direct cash handouts, candidly arguing that providing free food and shelter creates permanent urban dependency because displaced city residents 'will never leave.'",
-      "angle_type": "personality candid stance and urban survival philosophy",
-      "opening": "Personality lead opening directly on Governor Johnson Sakaja laying down his unfiltered view on Nairobi survival and refusing to set up long-term displacement camps.",
-      "structure": "Personality lead hook -> The 'they will never leave' dependency remark -> Cash transfer mechanics via Red Cross and schools -> The KSh 5.17 billion drainage arithmetic -> Met Department skepticism callout and downpour reality close",
-      "source": "https://www.ghafla.co.ke/nairobi-maps-227-flood-hotspots-as-el-nino-threatens-100000-residents/"
-    },
     {
       "title": "Brayo Swaps Weekend Football Banter for Home Porridge as Sharon and Chantelle\u2019s Offside Trap Lands in DCI Custody",
       "angle": "Reframing the weekend drama through Brayo's abrupt transition from lively football banter to domestic recuperation under his wife Phyllis's care, detailing the tactical distraction trap set by Sharon and Chantelle and how club staff dismantled it.",
@@ -1451,6 +1445,14 @@
       "opening": "Personality lead opening directly on Oburu Oginga drawing a hard line in the sand.",
       "structure": "Personality hook on Oburu's warning -> The controversy over written vs unwritten power-sharing deals -> The non-negotiable 10-point agenda -> Medical recovery context and final warning to outsiders.",
       "source": "https://www.ghafla.co.ke/spare-us-your-advice-oburu-oginga-warns-outsiders-against-meddling-in-odm-uda-talks/"
+    },
+    {
+      "title": "Safaricom and Airtel Towers Caught in Kenya Power\u2019s Saturday Grid Shutdown Across Three Counties",
+      "angle": "The direct vulnerability of modern mobile connectivity infrastructure during routine grid maintenance, focusing on how telecom giants Safaricom and Airtel find their rural and regional booster networks knocked offline alongside local coffee factories and households.",
+      "angle_type": "infrastructure vulnerability and telecom impact",
+      "opening": "Opening directly on the digital blackout footprint hitting telecommunications towers in Nyeri alongside local rural enterprises.",
+      "structure": "Cellular blackout hook -> Nyeri booster station exposure -> Kajiado and Siaya regional maintenance scope -> Concrete closing on the specific operational window.",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-saturday-outages-in-kajiado-siaya-and-nyeri-counties/"
     }
   ],
   "style_history": [
