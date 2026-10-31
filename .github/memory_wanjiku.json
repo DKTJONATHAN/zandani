@@ -322,7 +322,8 @@
     "0fae973d0b924d1e99cb07974553c30f55135c4859f7cc7cbd4756d11fd2b7c9",
     "70f2a9d32d35fa6e2ac812abbb280c38ed2f7fc49c9f7b5d0880d2a85d68fa5e",
     "c91cfc3178c0e497f88b3ada2bb59b288e48a50544834aa7422690653c29b742",
-    "03fa4a9ed3ae6e8479558102ab2bee69f965bdb34a30a5978845a563d05c7f38"
+    "03fa4a9ed3ae6e8479558102ab2bee69f965bdb34a30a5978845a563d05c7f38",
+    "8b4d1588e297992bb913d4f3f02f83191ea6b8bfa26ea6f104a10f76dd2aa519"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -647,17 +648,10 @@
     "https://www.ghafla.co.ke/geoffrey-mosiria-vows-to-challenge-sakaja-in-2027-following-dismissal-claims-hard-work-cost-him-his-job/",
     "https://www.ghafla.co.ke/frida-knows-me-babu-owino-dismisses-mosirias-allegations-of-secret-wife/",
     "https://www.ghafla.co.ke/kenya-met-department-maintains-el-nino-forecast-despite-prolonged-dry-spell/",
-    "https://www.ghafla.co.ke/pastor-kanyari-leaks-private-whatsapp-chats-with-daughter-sky-to-prove-financial-support/"
+    "https://www.ghafla.co.ke/pastor-kanyari-leaks-private-whatsapp-chats-with-daughter-sky-to-prove-financial-support/",
+    "https://www.ghafla.co.ke/spare-us-your-advice-oburu-oginga-warns-outsiders-against-meddling-in-odm-uda-talks/"
   ],
   "published_angles": [
-    {
-      "title": "William Ruto Pitches Nine-Storey Skyline to Rural Kaptumo, Declaring \u2018A Promise Is a Debt\u2019 on Nandi Tour",
-      "angle": "William Ruto taking his trademark podium showmanship to Nandi, pitching urban high-rise living to the quiet market centre of Kaptumo with a nine-storey residential tower alongside his 'promise is a debt' tour rhetoric.",
-      "angle_type": "personality-driven lifestyle transformation and tour theater",
-      "opening": "Personality lead opening squarely on William Ruto pitching a nine-storey skyline to rural Kaptumo residents on his Nandi tour stop.",
-      "structure": "Personality lifestyle hook -> The Kaptumo nine-storey tower pitch -> Ground pledges and 'promise is a debt' tour doctrine -> Aldai's six-project road windfall -> Power grid countdown to May 2027.",
-      "source": "https://www.ghafla.co.ke/ruto-announces-ksh25-billion-for-road-projects-in-nandi-county/"
-    },
     {
       "title": "Johnson Sakaja Rules Out Nairobi IDP Camps, Insists Displaced Residents \u2018Will Never Leave\u2019 If Given Free Food",
       "angle": "Sakaja's blunt personal philosophy rejecting traditional IDP camps in favor of direct cash handouts, candidly arguing that providing free food and shelter creates permanent urban dependency because displaced city residents 'will never leave.'",
@@ -1449,6 +1443,14 @@
       "opening": "Personality lead opening directly on Kanyari reaching into his chat archives from October 2023 to push back against public criticism over his fatherhood role.",
       "structure": "Personality receipt hook -> Anatomy of the leaked WhatsApp messages -> The KSh 500,000 claim and digital proof pattern -> Custody ruling and Sky's plea to President Ruto -> Context of Betty Bayo's death and family dynamics.",
       "source": "https://www.ghafla.co.ke/pastor-kanyari-leaks-private-whatsapp-chats-with-daughter-sky-to-prove-financial-support/"
+    },
+    {
+      "title": "\u2018Spare Us Your Advice\u2019: Oburu Oginga Draws a Hard Line Against Outsiders Meddling in ODM-UDA Talks",
+      "angle": "Focusing on Oburu's sharp public dismissal of external meddling and media commentary regarding the secret nature of the coalition pact, framing it as a strict boundary-setting exercise while he recovers from illness.",
+      "angle_type": "personality boundary-setting and internal party control",
+      "opening": "Personality lead opening directly on Oburu Oginga drawing a hard line in the sand.",
+      "structure": "Personality hook on Oburu's warning -> The controversy over written vs unwritten power-sharing deals -> The non-negotiable 10-point agenda -> Medical recovery context and final warning to outsiders.",
+      "source": "https://www.ghafla.co.ke/spare-us-your-advice-oburu-oginga-warns-outsiders-against-meddling-in-odm-uda-talks/"
     }
   ],
   "style_history": [
