@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "3f844b4b305f01852a1806b8fb7d1b07",
     "ec840cf1cbeb1785fa5108ef6b7782a1",
     "8f72b246dade30a2575b46bc7fb61ef3",
     "542ddd022ea18c857c314644639c92d1",
@@ -799,10 +798,10 @@
     "a8f7abf3d6a37580705fb6a38965d757",
     "ef98df2b9c6418c7e072756e21d7383a",
     "632905068af1935170954516bb8ecd00",
-    "0bf8f4401f5365c50627c592c1251755"
+    "0bf8f4401f5365c50627c592c1251755",
+    "435f95e13fa15297a0c38b5d8451fbbc"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1556,7 +1556,8 @@
     "https://kenyans.co.ke/news/129026-chinese-firms-withdraw-kenyas-critical-minerals-race-us-companies-intensify-bids",
     "https://kenyans.co.ke/news/129031-cbk-considering-ai-tools-improve-inflation-tracking-economic-forecasts",
     "https://kenyans.co.ke/news/129032-ministry-health-defends-kenyas-ebola-response-amid-saudi-arabia-restrictions",
-    "https://kenyans.co.ke/news/129034-chaos-suspected-goons-storm-odm-rally-nairobi-forcing-leaders-flee"
+    "https://kenyans.co.ke/news/129034-chaos-suspected-goons-storm-odm-rally-nairobi-forcing-leaders-flee",
+    "https://kenyans.co.ke/news/129036-family-says-missing-daughters-phone-being-answered-beneath-eastleigh-building-rubble"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2203,7 +2204,8 @@
     "western consortia take sole control kwale minerals race chinese bidders exit",
     "cbk turns satellite data web scraping bridge three month gdp lag",
     "afya house deploys day infection plateau challenge saudi travel embargo",
-    "police guarantees falter jacaranda odm stage breach scrambles cabinet secretaries top brass"
+    "police guarantees falter jacaranda odm stage breach scrambles cabinet secretaries top brass",
+    "eastleigh collapse enters final hours dci probes live rubble phone signal"
   ],
   "topic_keys": [
     "news tracker",
@@ -7297,6 +7299,15 @@
       "structure": "Attribution-first security failure lead -> Factual breakdown of the podium breach and VIP presence -> Detailed mechanics of the aspirant security clashes and microphone grab -> Police deployment backdrop under Commander Issa Mohamud -> Immediate silence from authorities and unconfirmed casualty status.",
       "source": "https://kenyans.co.ke/news/129034-chaos-suspected-goons-storm-odm-rally-nairobi-forcing-leaders-flee",
       "published_at": "2026-10-31T15:02:07Z"
+    },
+    {
+      "title": "Eastleigh Collapse Enters Final Hours as DCI Probes Live Rubble Phone Signal",
+      "angle": "The operational and investigative friction between rescue teams setting a firm Sunday conclusion to the ten-day recovery effort and the DCI's active forensic probe into live cellular signals from a victim among the 16 still missing.",
+      "angle_type": "unresolved factual question",
+      "opening": "Operational-timeline lead contrasting the emergency response unit's scheduled Sunday exit against an unresolved DCI telecommunications trace.",
+      "structure": "Operational timeline lead -> Forensic phone evidence and family attempts -> Site operational mechanics and the 16 missing -> Forensic escalation to DCI -> Final push to rear section and forward closure deadline",
+      "source": "https://kenyans.co.ke/news/129036-family-says-missing-daughters-phone-being-answered-beneath-eastleigh-building-rubble",
+      "published_at": "2026-10-31T17:01:52Z"
     }
   ]
 }
