@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "779981a49b383309cfa6cbbe8b565494",
     "471930ace1bd1ff5154193d7fc883e9a",
     "1630b5b65c1b4c46b5e410144ee515ee",
     "356359ee7f40d74d7313d8e13ef6c50c",
@@ -799,10 +798,10 @@
     "dd4af1b2410233cd79451fe404222a58",
     "59ff0ccd92187336564880d40f555fb7",
     "c689afe9170efcce5ce53fc824a6f5bf",
-    "2ce6a0d7a2a9c656671f78c95201f759"
+    "2ce6a0d7a2a9c656671f78c95201f759",
+    "c429f1dc06bd33a745a99a414e2889ba"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1544,7 +1544,8 @@
     "https://kenyans.co.ke/news/129010-moh-release-46-ebola-contacts-quarantine-issues-notice",
     "https://kenyans.co.ke/news/129015-russia-compensate-kenyan-victims-recruited-military-after-ruto-putin-talks",
     "https://kenyans.co.ke/news/129009-supreme-court-faults-nairobi-county-over-approval-high-rise-buildings",
-    "https://kenyans.co.ke/news/129016-epra-proposes-mandatory-online-clearance-fuel-and-cooking-gas"
+    "https://kenyans.co.ke/news/129016-epra-proposes-mandatory-online-clearance-fuel-and-cooking-gas",
+    "https://kenyans.co.ke/news/129017-chirchir-pushes-rironi-naivasha-road-opening-december"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2179,7 +2180,8 @@
     "ebola exit clock hinges isolation bed clearances quarantine net narrows",
     "posts defence attach moscow process military compensation repatriations",
     "apex court voids nairobi high rise policy framework but spares towers demolition",
-    "epra mandates digital clearance cross border fuel gas shipments"
+    "epra mandates digital clearance cross border fuel gas shipments",
+    "rironi naivasha highway sets early december opening paving pushes past missed target"
   ],
   "topic_keys": [
     "news tracker",
@@ -7165,6 +7167,15 @@
       "structure": "Lead on regulatory mandate and transit impact -> Quote on licensing readiness -> Logistics mechanism (journey plans, KenTrade integration, phased LPG/fuel/coal scope) -> Stakeholder consultation pipeline and November regional rollout",
       "source": "https://kenyans.co.ke/news/129016-epra-proposes-mandatory-online-clearance-fuel-and-cooking-gas",
       "published_at": "2026-10-30T16:38:48Z"
+    },
+    {
+      "title": "Rironi-Naivasha Highway Sets Early December Opening as Paving Pushes Past Missed Target",
+      "angle": "Analyzing the operational transition of moving heavy freight traffic onto 60 kilometres of four-lane road before key civil structures like the Naivasha Junction overpass-underpass are completed, setting up the practical test for Kenya's first major PPP corridor tolling framework.",
+      "angle_type": "practical change",
+      "opening": "Operational-transition lead linking the revised early December opening directly to the physical deployment of four-lane traffic flow into Nakuru County.",
+      "structure": "Operational transition lead -> Factual site inspection core and missed timeline -> Civil engineering realities and material logistics -> PPP framework and tolling breakdown -> Forward edge on December traffic handover and phase two civil works",
+      "source": "https://kenyans.co.ke/news/129017-chirchir-pushes-rironi-naivasha-road-opening-december",
+      "published_at": "2026-10-31T05:01:28Z"
     }
   ]
 }
