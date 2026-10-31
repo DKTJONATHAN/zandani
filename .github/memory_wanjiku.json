@@ -325,7 +325,8 @@
     "03fa4a9ed3ae6e8479558102ab2bee69f965bdb34a30a5978845a563d05c7f38",
     "8b4d1588e297992bb913d4f3f02f83191ea6b8bfa26ea6f104a10f76dd2aa519",
     "5f0362032d4c292e2bf231dc81c86c796113ee744a90705841a361f23fc9e6f6",
-    "98702eac901fe093e7d8e667525c1bba70995113791df0236e3cbf6a52c0c48c"
+    "98702eac901fe093e7d8e667525c1bba70995113791df0236e3cbf6a52c0c48c",
+    "9e659e7e806d2bedc99b3bdf17d902b1b025b5c06ca5a690cb46d2a51d50fcf3"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -653,17 +654,10 @@
     "https://www.ghafla.co.ke/pastor-kanyari-leaks-private-whatsapp-chats-with-daughter-sky-to-prove-financial-support/",
     "https://www.ghafla.co.ke/spare-us-your-advice-oburu-oginga-warns-outsiders-against-meddling-in-odm-uda-talks/",
     "https://www.ghafla.co.ke/kenya-power-announces-saturday-outages-in-kajiado-siaya-and-nyeri-counties/",
-    "https://www.ghafla.co.ke/kalonzo-musyoka-heckled-as-sifuna-supporters-disrupt-linda-mwananchi-launch-speech/"
+    "https://www.ghafla.co.ke/kalonzo-musyoka-heckled-as-sifuna-supporters-disrupt-linda-mwananchi-launch-speech/",
+    "https://www.ghafla.co.ke/gachagua-shares-his-take-on-talanta-stadium-featuring-bayern-munich-vs-ajax-match/"
   ],
   "published_angles": [
-    {
-      "title": "William Ruto Unveils \u2018Usawa Ni Sawa\u2019 Podium Chant, Tells Off Rivals Over Catchphrases While Pitching 10-Year Run",
-      "angle": "The podium contradiction and rebranding theater: Ruto introducing a brand-new campaign chant to lock down a 10-year tenure while simultaneously telling supporters that leadership cannot be measured by opposition catchphrases.",
-      "angle_type": "podium rhetoric and political rebranding theater",
-      "opening": "Personality lead opening directly on Ruto testing out his new podium catchphrase across the rally circuit while taking aim at rivals' slogans.",
-      "structure": "Personality podium hook -> Breakdown of the 'Usawa ni Sawa' branding and its regional messaging -> The ten-year continuity argument tied to SHA and housing -> The sharp contrast between his anti-slogan remarks and his own rebrand strategy -> Rally trail context and 2027 trajectory close",
-      "source": "https://www.ghafla.co.ke/ruto-launches-usawa-ni-sawa-slogan-to-highlight-regional-equity-ahead-of-2027/"
-    },
     {
       "title": "Geoffrey Mosiria Courts Bishop Margaret Wanjiru for Deputy Slot on \u2018Mr Fix It\u2019 Nairobi Ticket",
       "angle": "Reframing the pulpit encounter through the sheer political cheek of Mosiria's Sunday church move\u2014walking into Bishop Wanjiru's own sanctuary alongside Fred Matiang'i, then publicly inviting the veteran church founder and seasoned politician to play second fiddle on his self-branded 'Mr Fix It' ticket.",
@@ -1455,6 +1449,14 @@
       "opening": "Personality lead opening directly on Kalonzo Musyoka taking the microphone to correct Edwin Sifuna's legal status as a presidential candidate.",
       "structure": "Podium legal correction hook -> Sequence of Wamalwa's endorsement and Kalonzo's technical breakdown -> Crowd disruption and Kalonzo's ultimatum -> Sifuna's referee intervention -> Rigathi Gachagua transition and stage return close.",
       "source": "https://www.ghafla.co.ke/kalonzo-musyoka-heckled-as-sifuna-supporters-disrupt-linda-mwananchi-launch-speech/"
+    },
+    {
+      "title": "Rigathi Gachagua Rips Into Plan to Fly In Bayern Munich and Ajax for Ksh 145B Talanta Stadium Opening",
+      "angle": "Gachagua's direct nationalist critique centering on public financing versus foreign exhibition teams, spotlighting local heavyweights like Gor Mahia and AFC Leopards being sidelined for a Ksh 145 billion taxpayer-funded asset.",
+      "angle_type": "celebrity political friction and nationalist cultural debate",
+      "opening": "Personality lead opening directly on Rigathi Gachagua taking aim at the state's choice of foreign exhibition teams for a domestic stadium launch.",
+      "structure": "Gachagua's opening quote and nationalist hook -> The Ksh 145 billion taxpayer financing context -> The suggested local alternatives (Gor Mahia, AFC Leopards, Harambee Stars) -> The broader tensions surrounding AFCON 2027 commercial positioning.",
+      "source": "https://www.ghafla.co.ke/gachagua-shares-his-take-on-talanta-stadium-featuring-bayern-munich-vs-ajax-match/"
     }
   ],
   "style_history": [
