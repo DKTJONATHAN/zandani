@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "e208a4d2adc5dd77ed6983c9ae5daa01",
     "3f844b4b305f01852a1806b8fb7d1b07",
     "ec840cf1cbeb1785fa5108ef6b7782a1",
     "8f72b246dade30a2575b46bc7fb61ef3",
@@ -799,10 +798,10 @@
     "14b6b22d1b5e0fb53d6431b83c501cd5",
     "a8f7abf3d6a37580705fb6a38965d757",
     "ef98df2b9c6418c7e072756e21d7383a",
-    "632905068af1935170954516bb8ecd00"
+    "632905068af1935170954516bb8ecd00",
+    "0bf8f4401f5365c50627c592c1251755"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1555,7 +1555,8 @@
     "https://kenyans.co.ke/news/129029-veteran-journalist-kitavi-mutua-dies-while-icu",
     "https://kenyans.co.ke/news/129026-chinese-firms-withdraw-kenyas-critical-minerals-race-us-companies-intensify-bids",
     "https://kenyans.co.ke/news/129031-cbk-considering-ai-tools-improve-inflation-tracking-economic-forecasts",
-    "https://kenyans.co.ke/news/129032-ministry-health-defends-kenyas-ebola-response-amid-saudi-arabia-restrictions"
+    "https://kenyans.co.ke/news/129032-ministry-health-defends-kenyas-ebola-response-amid-saudi-arabia-restrictions",
+    "https://kenyans.co.ke/news/129034-chaos-suspected-goons-storm-odm-rally-nairobi-forcing-leaders-flee"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2201,7 +2202,8 @@
     "kitavi mutua succumbs icu week long battle venomous snakebite",
     "western consortia take sole control kwale minerals race chinese bidders exit",
     "cbk turns satellite data web scraping bridge three month gdp lag",
-    "afya house deploys day infection plateau challenge saudi travel embargo"
+    "afya house deploys day infection plateau challenge saudi travel embargo",
+    "police guarantees falter jacaranda odm stage breach scrambles cabinet secretaries top brass"
   ],
   "topic_keys": [
     "news tracker",
@@ -7286,6 +7288,15 @@
       "structure": "Clinical milestone lead -> Rebuttal mechanics and epidemiological baseline -> Contact tracing and isolation metrics -> Diplomatic handover to Foreign Affairs -> November 2\u20133 verification horizon",
       "source": "https://kenyans.co.ke/news/129032-ministry-health-defends-kenyas-ebola-response-amid-saudi-arabia-restrictions",
       "published_at": "2026-10-31T14:01:38Z"
+    },
+    {
+      "title": "Police Guarantees Falter as Jacaranda ODM Stage Breach Scrambles Cabinet Secretaries, Top Brass",
+      "angle": "Examining the acute collapse of perimeter security at Jacaranda Grounds barely 24 hours after Nairobi Regional Police Commander Issa Mohamud formally guaranteed state protection, exposing two sitting Cabinet Secretaries and senior party leadership to unchecked private political retinues.",
+      "angle_type": "accountability",
+      "opening": "Attribution-first lead focusing on the breach of Nairobi police security guarantees and the immediate exposure of top government and party officials.",
+      "structure": "Attribution-first security failure lead -> Factual breakdown of the podium breach and VIP presence -> Detailed mechanics of the aspirant security clashes and microphone grab -> Police deployment backdrop under Commander Issa Mohamud -> Immediate silence from authorities and unconfirmed casualty status.",
+      "source": "https://kenyans.co.ke/news/129034-chaos-suspected-goons-storm-odm-rally-nairobi-forcing-leaders-flee",
+      "published_at": "2026-10-31T15:02:07Z"
     }
   ]
 }
