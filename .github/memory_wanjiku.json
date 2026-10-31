@@ -328,7 +328,8 @@
     "98702eac901fe093e7d8e667525c1bba70995113791df0236e3cbf6a52c0c48c",
     "9e659e7e806d2bedc99b3bdf17d902b1b025b5c06ca5a690cb46d2a51d50fcf3",
     "9ce2f918ec6a91ad85dcc223004beefd066c1235158d066248303e74026e58cd",
-    "bf39c77af47e530c3aa6c15b6ccbfc52b6c4dda28bd190f0cc385748c558950d"
+    "bf39c77af47e530c3aa6c15b6ccbfc52b6c4dda28bd190f0cc385748c558950d",
+    "00274f32fa3883b5da88d448ff45c0d7d4b804434dfa21b6f7a25dbf82a071c9"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -659,17 +660,10 @@
     "https://www.ghafla.co.ke/kalonzo-musyoka-heckled-as-sifuna-supporters-disrupt-linda-mwananchi-launch-speech/",
     "https://www.ghafla.co.ke/gachagua-shares-his-take-on-talanta-stadium-featuring-bayern-munich-vs-ajax-match/",
     "https://www.ghafla.co.ke/gideon-ochanda-says-ruto-is-restoring-nyanzas-place-in-national-leadership/",
-    "https://www.ghafla.co.ke/broad-based-government-uniting-kenya-flexible-coalitions-and-equitable-representation/"
+    "https://www.ghafla.co.ke/broad-based-government-uniting-kenya-flexible-coalitions-and-equitable-representation/",
+    "https://www.ghafla.co.ke/tim-wanyonyi-joins-edwin-sifunas-linda-mwananchi-movement-ahead-of-2027-elections/"
   ],
   "published_angles": [
-    {
-      "title": "Festus Ng\u2019eno Cheats Death on the Fairway as KFS Chopper Splits in Kericho Golf Club Crash",
-      "angle": "Focusing squarely on Principal Secretary Festus Ng'eno's narrow VIP escape on the Kericho green\u2014tracing how a routine high-level official departure unraveled in seconds on the fairway into a severed fuselage, hospital transfer, and urgent safety questions.",
-      "angle_type": "personality escape and high-profile survival",
-      "opening": "Personality lead opening directly on Environment PS Festus Ng'eno walking away with injuries after his official helicopter split open during takeoff.",
-      "structure": "Personality survival hook -> The golf course takeoff failure and severed fuselage -> Hospitalization and police verification by Kivindu Kilonzo -> National aviation safety backdrop -> Crash investigation status",
-      "source": "https://www.ghafla.co.ke/breakingenvironment-ps-festus-ngeno-injured-as-kfs-helicopter-crashes-ii-kericho/"
-    },
     {
       "title": "Justice Kossy Bor Pulls the Plug on KSh 5B Bungoma Housing Scheme, Hands State 45-Day Cleanup Bill",
       "angle": "Spotlighting Justice Kossy Bor's sharp exposure of the state's backwards sequence\u2014signing away a KSh 5.02 billion contract before holding a single public forum, capped with a mandatory 45-day deadline to undo the groundwork at taxpayer expense.",
@@ -1461,6 +1455,14 @@
       "opening": "Personality lead focusing on content creator Dennis Elnino's strategic push for flexible coalitions.",
       "structure": "Creator commentary hook -> The critique of rigid spreadsheets -> The regional inclusion argument under 'Usawa' -> Close on the open-door policy implications.",
       "source": "https://www.ghafla.co.ke/broad-based-government-uniting-kenya-flexible-coalitions-and-equitable-representation/"
+    },
+    {
+      "title": "Tim Wanyonyi Bypasses Wetangula\u2019s FORD Kenya to Align With Sifuna\u2019s Movement for Bungoma Bid",
+      "angle": "The domestic and political strain of brotherly rivalry, spotlighting how Tim Wanyonyi's alliance with Sifuna directly sidelines his brother Moses Wetangula's FORD Kenya stronghold in Bungoma.",
+      "angle_type": "celebrity political realignment and family factional friction",
+      "opening": "Personality lead opening directly on Tim Wanyonyi's concrete party realignment away from his brother's camp.",
+      "structure": "Family rift hook -> The Linda Mwananchi secretariat launch detail -> The Bungoma gubernatorial battle against Barasa and Lusaka's FORD Kenya legacy -> Historical party divergence -> Concrete closing on the unsettled local contest.",
+      "source": "https://www.ghafla.co.ke/tim-wanyonyi-joins-edwin-sifunas-linda-mwananchi-movement-ahead-of-2027-elections/"
     }
   ],
   "style_history": [
