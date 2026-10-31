@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "bcedbd88c66d57a798b23b878f355814",
     "994a0207ee8272e5b8cb44f48f7acfd1",
     "4ac62e1baeaf41237f9f561c10daa470",
     "2c1393c92389a3e4ea6533550349ca08",
@@ -799,10 +798,10 @@
     "2d2fbcdc33443a16e0d4f8848dc1d3b8",
     "393e01be17c6e1aa1896f328ecb7d7fa",
     "857caec6c1ce59e13d60f70c47c3797b",
-    "3865ed7ed0716178a0716a409eb467a7"
+    "3865ed7ed0716178a0716a409eb467a7",
+    "15e52aff2d72d8be98b85573750e36f1"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1550,7 +1550,8 @@
     "https://kenyans.co.ke/news/129019-saudi-arabia-imposes-travel-ban-kenya-amid-ebola-fears",
     "https://kenyans.co.ke/news/129022-iebc-confirms-foreign-applicants-were-disqualified-initial-stage-ceo-recruitment",
     "https://kenyans.co.ke/news/129023-another-kenyan-features-new-minnesota-fraud-probe-days-after-us-student-aid-scandal",
-    "https://kenyans.co.ke/news/129027-nairobi-among-counties-receive-rainfall-over-next-5-days-kenya-met"
+    "https://kenyans.co.ke/news/129027-nairobi-among-counties-receive-rainfall-over-next-5-days-kenya-met",
+    "https://kenyans.co.ke/news/129028-russia-advances-nuclear-power-talks-uganda-ethiopia-ghana-and-egypt"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2191,7 +2192,8 @@
     "saudi arabia shuts travel corridor ebola cordon expands",
     "open intake rules spark online alarm foreign iebc ceo applicants",
     "traces ksh142m child meal fraud real estate fugitive arrested",
-    "flooded commuter arteries face five day test rain hits nairobi regions"
+    "flooded commuter arteries face five day test rain hits nairobi regions",
+    "russia nuclear push anchors uganda ethiopia bypassing 2027 grid plans"
   ],
   "topic_keys": [
     "news tracker",
@@ -7231,6 +7233,15 @@
       "structure": "Commuter arterial lead -> KMSA forecast breakdown by region -> Nairobi urban drainage stress -> Regional rainfall and thunderstorm coverage -> Forward monitoring edge",
       "source": "https://kenyans.co.ke/news/129027-nairobi-among-counties-receive-rainfall-over-next-5-days-kenya-met",
       "published_at": "2026-10-31T10:01:57Z"
+    },
+    {
+      "title": "Russia\u2019s Nuclear Push Anchors in Uganda and Ethiopia, Bypassing Kenya\u2019s 2027 Grid Plans",
+      "angle": "East Africa's emerging nuclear power map is realigning around Russian technology across Uganda, Ethiopia, and Tanzania, leaving Kenya's 2027 civil nuclear roadmap at Siaya and Konza unanchored to Moscow's commercial reactor pipeline despite top-level diplomatic engagement at the Kremlin.",
+      "angle_type": "consequence",
+      "opening": "Regional corridor realignment lead contrasting Kenya's domestic nuclear timetable with the cross-border footprint being established by Rosatom in neighbouring states.",
+      "structure": "Regional realignment lead -> Factual breakdown of Rosatom's large-scale and floating reactor talks -> Ruto-Putin bilateral summit context -> Kenya's domestic 2027 build schedule at Siaya and Konza -> Continental operating baselines and vendor landscape",
+      "source": "https://kenyans.co.ke/news/129028-russia-advances-nuclear-power-talks-uganda-ethiopia-ghana-and-egypt",
+      "published_at": "2026-10-31T11:01:59Z"
     }
   ]
 }
