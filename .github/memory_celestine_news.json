@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "994a0207ee8272e5b8cb44f48f7acfd1",
     "4ac62e1baeaf41237f9f561c10daa470",
     "2c1393c92389a3e4ea6533550349ca08",
     "290935edc928f12c7d69be0774d54fff",
@@ -799,10 +798,10 @@
     "393e01be17c6e1aa1896f328ecb7d7fa",
     "857caec6c1ce59e13d60f70c47c3797b",
     "3865ed7ed0716178a0716a409eb467a7",
-    "15e52aff2d72d8be98b85573750e36f1"
+    "15e52aff2d72d8be98b85573750e36f1",
+    "14b6b22d1b5e0fb53d6431b83c501cd5"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1551,7 +1551,8 @@
     "https://kenyans.co.ke/news/129022-iebc-confirms-foreign-applicants-were-disqualified-initial-stage-ceo-recruitment",
     "https://kenyans.co.ke/news/129023-another-kenyan-features-new-minnesota-fraud-probe-days-after-us-student-aid-scandal",
     "https://kenyans.co.ke/news/129027-nairobi-among-counties-receive-rainfall-over-next-5-days-kenya-met",
-    "https://kenyans.co.ke/news/129028-russia-advances-nuclear-power-talks-uganda-ethiopia-ghana-and-egypt"
+    "https://kenyans.co.ke/news/129028-russia-advances-nuclear-power-talks-uganda-ethiopia-ghana-and-egypt",
+    "https://kenyans.co.ke/news/129029-veteran-journalist-kitavi-mutua-dies-while-icu"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2193,7 +2194,8 @@
     "open intake rules spark online alarm foreign iebc ceo applicants",
     "traces ksh142m child meal fraud real estate fugitive arrested",
     "flooded commuter arteries face five day test rain hits nairobi regions",
-    "russia nuclear push anchors uganda ethiopia bypassing 2027 grid plans"
+    "russia nuclear push anchors uganda ethiopia bypassing 2027 grid plans",
+    "kitavi mutua succumbs icu week long battle venomous snakebite"
   ],
   "topic_keys": [
     "news tracker",
@@ -7242,6 +7244,15 @@
       "structure": "Regional realignment lead -> Factual breakdown of Rosatom's large-scale and floating reactor talks -> Ruto-Putin bilateral summit context -> Kenya's domestic 2027 build schedule at Siaya and Konza -> Continental operating baselines and vendor landscape",
       "source": "https://kenyans.co.ke/news/129028-russia-advances-nuclear-power-talks-uganda-ethiopia-ghana-and-egypt",
       "published_at": "2026-10-31T11:01:59Z"
+    },
+    {
+      "title": "Kitavi Mutua Succumbs in ICU After Week-Long Battle With Venomous Snakebite",
+      "angle": "The acute medical trajectory and referral escalation: how a venomous bite sustained during sleep in rural Kitui South deteriorated over seven days into multiple organ failure, necessitating tertiary intensive care at KUTRRH.",
+      "angle_type": "consequence",
+      "opening": "Clinical-trajectory lead connecting the seven-day medical transfer from Kitui South to the fatal organ complications diagnosed at Kenyatta University hospital.",
+      "structure": "Clinical trajectory lead -> Critical care timeline and organ failure core -> Professional profile and regional correspondence role -> Political mentorship record (Kasalu tribute) -> Closing factual status on funeral arrangements and regional loss",
+      "source": "https://kenyans.co.ke/news/129029-veteran-journalist-kitavi-mutua-dies-while-icu",
+      "published_at": "2026-10-31T12:02:11Z"
     }
   ]
 }
