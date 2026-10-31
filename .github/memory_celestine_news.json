@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "471930ace1bd1ff5154193d7fc883e9a",
     "1630b5b65c1b4c46b5e410144ee515ee",
     "356359ee7f40d74d7313d8e13ef6c50c",
     "cab234c48e80634b062e6bfcf1e3d01e",
@@ -799,10 +798,10 @@
     "59ff0ccd92187336564880d40f555fb7",
     "c689afe9170efcce5ce53fc824a6f5bf",
     "2ce6a0d7a2a9c656671f78c95201f759",
-    "c429f1dc06bd33a745a99a414e2889ba"
+    "c429f1dc06bd33a745a99a414e2889ba",
+    "724a20363714e9fa8bdbb59bd706ac9b"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1545,7 +1545,8 @@
     "https://kenyans.co.ke/news/129015-russia-compensate-kenyan-victims-recruited-military-after-ruto-putin-talks",
     "https://kenyans.co.ke/news/129009-supreme-court-faults-nairobi-county-over-approval-high-rise-buildings",
     "https://kenyans.co.ke/news/129016-epra-proposes-mandatory-online-clearance-fuel-and-cooking-gas",
-    "https://kenyans.co.ke/news/129017-chirchir-pushes-rironi-naivasha-road-opening-december"
+    "https://kenyans.co.ke/news/129017-chirchir-pushes-rironi-naivasha-road-opening-december",
+    "https://kenyans.co.ke/news/129020-several-feared-dead-after-psv-collides-head-lorry-along-eldoret-nakuru-highway"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2181,7 +2182,8 @@
     "posts defence attach moscow process military compensation repatriations",
     "apex court voids nairobi high rise policy framework but spares towers demolition",
     "epra mandates digital clearance cross border fuel gas shipments",
-    "rironi naivasha highway sets early december opening paving pushes past missed target"
+    "rironi naivasha highway sets early december opening paving pushes past missed target",
+    "midnight kondoo highway crash adds urgency ntsa national disaster push"
   ],
   "topic_keys": [
     "news tracker",
@@ -7176,6 +7178,15 @@
       "structure": "Operational transition lead -> Factual site inspection core and missed timeline -> Civil engineering realities and material logistics -> PPP framework and tolling breakdown -> Forward edge on December traffic handover and phase two civil works",
       "source": "https://kenyans.co.ke/news/129017-chirchir-pushes-rironi-naivasha-road-opening-december",
       "published_at": "2026-10-31T05:01:28Z"
+    },
+    {
+      "title": "Midnight Kondoo Highway Crash Adds Urgency to NTSA\u2019s National Disaster Push",
+      "angle": "Framing the midnight disaster at Kondoo through the regulatory accountability deficit highlighted by NTSA's push just six days earlier to declare road carnage a national disaster, exposing how nighttime passenger transit remains caught between fragmented policing, heavy freight movements, and overburdened county health networks.",
+      "angle_type": "accountability",
+      "opening": "Policy-friction lead linking the midnight casualty count directly to the regulatory debate over declaring highway fatalities an official national disaster.",
+      "structure": "Accountability lead -> Kondoo collision factual breakdown and vehicle damage -> Regulatory context of NTSA's national disaster petition -> Multi-crash sequence including Umoja junction -> Institutional coordination hurdles facing traffic enforcement",
+      "source": "https://kenyans.co.ke/news/129020-several-feared-dead-after-psv-collides-head-lorry-along-eldoret-nakuru-highway",
+      "published_at": "2026-10-31T06:01:50Z"
     }
   ]
 }
