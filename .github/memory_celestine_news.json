@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "2c1393c92389a3e4ea6533550349ca08",
     "290935edc928f12c7d69be0774d54fff",
     "e208a4d2adc5dd77ed6983c9ae5daa01",
     "3f844b4b305f01852a1806b8fb7d1b07",
@@ -799,10 +798,10 @@
     "3865ed7ed0716178a0716a409eb467a7",
     "15e52aff2d72d8be98b85573750e36f1",
     "14b6b22d1b5e0fb53d6431b83c501cd5",
-    "a8f7abf3d6a37580705fb6a38965d757"
+    "a8f7abf3d6a37580705fb6a38965d757",
+    "ef98df2b9c6418c7e072756e21d7383a"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1553,7 +1553,8 @@
     "https://kenyans.co.ke/news/129027-nairobi-among-counties-receive-rainfall-over-next-5-days-kenya-met",
     "https://kenyans.co.ke/news/129028-russia-advances-nuclear-power-talks-uganda-ethiopia-ghana-and-egypt",
     "https://kenyans.co.ke/news/129029-veteran-journalist-kitavi-mutua-dies-while-icu",
-    "https://kenyans.co.ke/news/129026-chinese-firms-withdraw-kenyas-critical-minerals-race-us-companies-intensify-bids"
+    "https://kenyans.co.ke/news/129026-chinese-firms-withdraw-kenyas-critical-minerals-race-us-companies-intensify-bids",
+    "https://kenyans.co.ke/news/129031-cbk-considering-ai-tools-improve-inflation-tracking-economic-forecasts"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2197,7 +2198,8 @@
     "flooded commuter arteries face five day test rain hits nairobi regions",
     "russia nuclear push anchors uganda ethiopia bypassing 2027 grid plans",
     "kitavi mutua succumbs icu week long battle venomous snakebite",
-    "western consortia take sole control kwale minerals race chinese bidders exit"
+    "western consortia take sole control kwale minerals race chinese bidders exit",
+    "cbk turns satellite data web scraping bridge three month gdp lag"
   ],
   "topic_keys": [
     "news tracker",
@@ -7264,6 +7266,15 @@
       "structure": "Statement lead with attribution and beneficiary mapping -> Core tender roster and the sudden Chinese exit -> Technical viability gap versus geopolitical rush -> Concession terms and next procurement milestones",
       "source": "https://kenyans.co.ke/news/129026-chinese-firms-withdraw-kenyas-critical-minerals-race-us-companies-intensify-bids",
       "published_at": "2026-10-31T13:02:08Z"
+    },
+    {
+      "title": "CBK Turns to Satellite Data and Web Scraping to Bridge Three-Month GDP Lag",
+      "angle": "The practical operational shift to eliminate monetary policy blind spots\u2014specifically bridging the three-month lag in official GDP figures and monthly inflation intervals by feeding satellite data and automated retail price tracking directly into rate-setting evaluations.",
+      "angle_type": "practical change",
+      "opening": "Operational-gap lead connecting the three-month delay in national economic accounting directly to the central bank's deployment of algorithmic nowcasting.",
+      "structure": "Data-lag problem lead -> Core AI deployment scale across 14 departments -> High-frequency mechanisms (retail scraping, satellite nowcasting, mobile money flows) -> Volatility lessons from the energy crisis -> Internal adoption versus September regulatory mandates on commercial lenders",
+      "source": "https://kenyans.co.ke/news/129031-cbk-considering-ai-tools-improve-inflation-tracking-economic-forecasts",
+      "published_at": "2026-10-31T13:33:58Z"
     }
   ]
 }
