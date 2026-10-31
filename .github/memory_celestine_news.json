@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "4ac62e1baeaf41237f9f561c10daa470",
     "2c1393c92389a3e4ea6533550349ca08",
     "290935edc928f12c7d69be0774d54fff",
     "e208a4d2adc5dd77ed6983c9ae5daa01",
@@ -799,10 +798,10 @@
     "857caec6c1ce59e13d60f70c47c3797b",
     "3865ed7ed0716178a0716a409eb467a7",
     "15e52aff2d72d8be98b85573750e36f1",
-    "14b6b22d1b5e0fb53d6431b83c501cd5"
+    "14b6b22d1b5e0fb53d6431b83c501cd5",
+    "a8f7abf3d6a37580705fb6a38965d757"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1552,7 +1552,8 @@
     "https://kenyans.co.ke/news/129023-another-kenyan-features-new-minnesota-fraud-probe-days-after-us-student-aid-scandal",
     "https://kenyans.co.ke/news/129027-nairobi-among-counties-receive-rainfall-over-next-5-days-kenya-met",
     "https://kenyans.co.ke/news/129028-russia-advances-nuclear-power-talks-uganda-ethiopia-ghana-and-egypt",
-    "https://kenyans.co.ke/news/129029-veteran-journalist-kitavi-mutua-dies-while-icu"
+    "https://kenyans.co.ke/news/129029-veteran-journalist-kitavi-mutua-dies-while-icu",
+    "https://kenyans.co.ke/news/129026-chinese-firms-withdraw-kenyas-critical-minerals-race-us-companies-intensify-bids"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2195,7 +2196,8 @@
     "traces ksh142m child meal fraud real estate fugitive arrested",
     "flooded commuter arteries face five day test rain hits nairobi regions",
     "russia nuclear push anchors uganda ethiopia bypassing 2027 grid plans",
-    "kitavi mutua succumbs icu week long battle venomous snakebite"
+    "kitavi mutua succumbs icu week long battle venomous snakebite",
+    "western consortia take sole control kwale minerals race chinese bidders exit"
   ],
   "topic_keys": [
     "news tracker",
@@ -7253,6 +7255,15 @@
       "structure": "Clinical trajectory lead -> Critical care timeline and organ failure core -> Professional profile and regional correspondence role -> Political mentorship record (Kasalu tribute) -> Closing factual status on funeral arrangements and regional loss",
       "source": "https://kenyans.co.ke/news/129029-veteran-journalist-kitavi-mutua-dies-while-icu",
       "published_at": "2026-10-31T12:02:11Z"
+    },
+    {
+      "title": "Western Consortia Take Sole Control of Kwale Minerals Race as Chinese Bidders Exit",
+      "angle": "Attribution-first scrutiny of how the sudden Chinese exit hands exclusive commercial positioning to five Western and allied bidders, who now face a rapid three-week award window for a multibillion-dollar site whose commercial viability the government has not yet independently established.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first statement establishing the three-week procurement deadline and identifying which corporate alliances stand to benefit from the Chinese withdrawal.",
+      "structure": "Statement lead with attribution and beneficiary mapping -> Core tender roster and the sudden Chinese exit -> Technical viability gap versus geopolitical rush -> Concession terms and next procurement milestones",
+      "source": "https://kenyans.co.ke/news/129026-chinese-firms-withdraw-kenyas-critical-minerals-race-us-companies-intensify-bids",
+      "published_at": "2026-10-31T13:02:08Z"
     }
   ]
 }
