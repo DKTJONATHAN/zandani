@@ -324,7 +324,8 @@
     "c91cfc3178c0e497f88b3ada2bb59b288e48a50544834aa7422690653c29b742",
     "03fa4a9ed3ae6e8479558102ab2bee69f965bdb34a30a5978845a563d05c7f38",
     "8b4d1588e297992bb913d4f3f02f83191ea6b8bfa26ea6f104a10f76dd2aa519",
-    "5f0362032d4c292e2bf231dc81c86c796113ee744a90705841a361f23fc9e6f6"
+    "5f0362032d4c292e2bf231dc81c86c796113ee744a90705841a361f23fc9e6f6",
+    "98702eac901fe093e7d8e667525c1bba70995113791df0236e3cbf6a52c0c48c"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -651,17 +652,10 @@
     "https://www.ghafla.co.ke/kenya-met-department-maintains-el-nino-forecast-despite-prolonged-dry-spell/",
     "https://www.ghafla.co.ke/pastor-kanyari-leaks-private-whatsapp-chats-with-daughter-sky-to-prove-financial-support/",
     "https://www.ghafla.co.ke/spare-us-your-advice-oburu-oginga-warns-outsiders-against-meddling-in-odm-uda-talks/",
-    "https://www.ghafla.co.ke/kenya-power-announces-saturday-outages-in-kajiado-siaya-and-nyeri-counties/"
+    "https://www.ghafla.co.ke/kenya-power-announces-saturday-outages-in-kajiado-siaya-and-nyeri-counties/",
+    "https://www.ghafla.co.ke/kalonzo-musyoka-heckled-as-sifuna-supporters-disrupt-linda-mwananchi-launch-speech/"
   ],
   "published_angles": [
-    {
-      "title": "Brayo Swaps Weekend Football Banter for Home Porridge as Sharon and Chantelle\u2019s Offside Trap Lands in DCI Custody",
-      "angle": "Reframing the weekend drama through Brayo's abrupt transition from lively football banter to domestic recuperation under his wife Phyllis's care, detailing the tactical distraction trap set by Sharon and Chantelle and how club staff dismantled it.",
-      "angle_type": "personality-driven nightlife expose and reality check",
-      "opening": "Personality lead opening directly on Brayo recovering at home with his wife Phyllis after an evening of offside football analysis unraveled into a spiked drink and police intervention.",
-      "structure": "Personality hook -> The tactical setup at the counter -> The moment of the drop and Brayo's collapse -> The supervisor's intervention and club scuffle -> Domestic aftermath and legal status",
-      "source": "https://www.ghafla.co.ke/two-women-arrested-over-alleged-drink-spiking-incident-at-local-club/"
-    },
     {
       "title": "William Ruto Unveils \u2018Usawa Ni Sawa\u2019 Podium Chant, Tells Off Rivals Over Catchphrases While Pitching 10-Year Run",
       "angle": "The podium contradiction and rebranding theater: Ruto introducing a brand-new campaign chant to lock down a 10-year tenure while simultaneously telling supporters that leadership cannot be measured by opposition catchphrases.",
@@ -1453,6 +1447,14 @@
       "opening": "Opening directly on the digital blackout footprint hitting telecommunications towers in Nyeri alongside local rural enterprises.",
       "structure": "Cellular blackout hook -> Nyeri booster station exposure -> Kajiado and Siaya regional maintenance scope -> Concrete closing on the specific operational window.",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-saturday-outages-in-kajiado-siaya-and-nyeri-counties/"
+    },
+    {
+      "title": "Kalonzo Musyoka\u2019s Podium \u2018Legal Lecture\u2019 to Edwin Sifuna Backfires as Linda Mwananchi Launch Turns Hostile",
+      "angle": "Focusing on Kalonzo's unsolicited stage lesson on legal campaign protocol\u2014specifically citing the November 13 milestone to curb Sifuna's presidential endorsement\u2014and how that technical reprimand instantly backfired into a crowd revolt.",
+      "angle_type": "personality friction and podium protocol clash",
+      "opening": "Personality lead opening directly on Kalonzo Musyoka taking the microphone to correct Edwin Sifuna's legal status as a presidential candidate.",
+      "structure": "Podium legal correction hook -> Sequence of Wamalwa's endorsement and Kalonzo's technical breakdown -> Crowd disruption and Kalonzo's ultimatum -> Sifuna's referee intervention -> Rigathi Gachagua transition and stage return close.",
+      "source": "https://www.ghafla.co.ke/kalonzo-musyoka-heckled-as-sifuna-supporters-disrupt-linda-mwananchi-launch-speech/"
     }
   ],
   "style_history": [
