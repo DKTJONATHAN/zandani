@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ddb7d774f1b413a7bd2540b22f1c48a8",
     "bcedbd88c66d57a798b23b878f355814",
     "994a0207ee8272e5b8cb44f48f7acfd1",
     "4ac62e1baeaf41237f9f561c10daa470",
@@ -799,10 +798,10 @@
     "724a20363714e9fa8bdbb59bd706ac9b",
     "2d2fbcdc33443a16e0d4f8848dc1d3b8",
     "393e01be17c6e1aa1896f328ecb7d7fa",
-    "857caec6c1ce59e13d60f70c47c3797b"
+    "857caec6c1ce59e13d60f70c47c3797b",
+    "3865ed7ed0716178a0716a409eb467a7"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1549,7 +1549,8 @@
     "https://kenyans.co.ke/news/129020-several-feared-dead-after-psv-collides-head-lorry-along-eldoret-nakuru-highway",
     "https://kenyans.co.ke/news/129019-saudi-arabia-imposes-travel-ban-kenya-amid-ebola-fears",
     "https://kenyans.co.ke/news/129022-iebc-confirms-foreign-applicants-were-disqualified-initial-stage-ceo-recruitment",
-    "https://kenyans.co.ke/news/129023-another-kenyan-features-new-minnesota-fraud-probe-days-after-us-student-aid-scandal"
+    "https://kenyans.co.ke/news/129023-another-kenyan-features-new-minnesota-fraud-probe-days-after-us-student-aid-scandal",
+    "https://kenyans.co.ke/news/129027-nairobi-among-counties-receive-rainfall-over-next-5-days-kenya-met"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2189,7 +2190,8 @@
     "midnight kondoo highway crash adds urgency ntsa national disaster push",
     "saudi arabia shuts travel corridor ebola cordon expands",
     "open intake rules spark online alarm foreign iebc ceo applicants",
-    "traces ksh142m child meal fraud real estate fugitive arrested"
+    "traces ksh142m child meal fraud real estate fugitive arrested",
+    "flooded commuter arteries face five day test rain hits nairobi regions"
   ],
   "topic_keys": [
     "news tracker",
@@ -7220,6 +7222,15 @@
       "structure": "Attribution statement lead -> Factual breakdown of the 6,000-meal fabrication scheme -> Mechanics of domestic and cross-border money laundering -> Federal cross-border crackdown context following Operation Ghostbusters -> Legal and extradition forward edge",
       "source": "https://kenyans.co.ke/news/129023-another-kenyan-features-new-minnesota-fraud-probe-days-after-us-student-aid-scandal",
       "published_at": "2026-10-31T09:02:05Z"
+    },
+    {
+      "title": "Flooded Commuter Arteries Face Five-Day Test as Rain Hits Nairobi, Regions",
+      "angle": "Focusing on the immediate operational pressure facing Nairobi's main transit corridors, where overnight flash floods have already compromised drainage infrastructure right as a four-episode rain cycle begins.",
+      "angle_type": "consequence",
+      "opening": "Infrastructure-impact lead linking overnight flooding on primary commuter arteries directly to the five-day rainfall cycle.",
+      "structure": "Commuter arterial lead -> KMSA forecast breakdown by region -> Nairobi urban drainage stress -> Regional rainfall and thunderstorm coverage -> Forward monitoring edge",
+      "source": "https://kenyans.co.ke/news/129027-nairobi-among-counties-receive-rainfall-over-next-5-days-kenya-met",
+      "published_at": "2026-10-31T10:01:57Z"
     }
   ]
 }
