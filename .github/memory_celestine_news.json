@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "26ef6bbc794df958d2d9b636e5ea8d51",
     "b0cb77d1fe03ba90d5e6dbaf06bd556d",
     "6c45f405eb1222787afa05b37f9cdfeb",
     "19447de151168d58b9081b0ef886160b",
@@ -799,10 +798,10 @@
     "f7f138197ac906a73ca6c230a1b012f1",
     "d098d766d263ccbbc8a28c0f549f3df1",
     "2fa86a737cb7a0b3bec41e56e4bb90b1",
-    "547931793e0c8b49cb7dddd6d1aaf5b5"
+    "547931793e0c8b49cb7dddd6d1aaf5b5",
+    "5a1be7e258c86982b8df30eaa11796b2"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1567,7 +1567,8 @@
     "https://kenyans.co.ke/news/129048-kenyatta-avenue-viaduct-crosses-50-completion-mark-ruto-announces",
     "https://kenyans.co.ke/news/129050-nairobi-among-counties-experience-hot-november-el-nino-starts-kenya-met",
     "https://kenyans.co.ke/news/129047-four-political-parties-announce-changes-leadership-headquarters-and-identity",
-    "https://kenyans.co.ke/news/129051-gachagua-disputes-chirchirs-explanation-rironi-mau-summit-road-delays"
+    "https://kenyans.co.ke/news/129051-gachagua-disputes-chirchirs-explanation-rironi-mau-summit-road-delays",
+    "https://kenyans.co.ke/news/129053-chaos-goons-disrupt-radio-citizen-event"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2225,7 +2226,8 @@
     "kenyatta avenue viaduct crosses halfway mark engineering hurdles push opening mid 2027",
     "met warns urban corridors face flash floods amid unseasonal november heat",
     "parties face seven day window orpp gazettes nairobi relocations leadership sweeps",
-    "chirchir supply chain defense faces scrutiny gachagua claims credit freeze ksh200b mau summit highway"
+    "chirchir supply chain defense faces scrutiny gachagua claims credit freeze ksh200b mau summit highway",
+    "busia ecde query sparks broadcast clash goons test nps gang crackdown"
   ],
   "topic_keys": [
     "news tracker",
@@ -7418,6 +7420,15 @@
       "structure": "Conflicting explanations lead -> Operational timeline and Senate revisions (Chirchir) -> Financing freeze allegations and election-risk claims (Gachagua) -> Corridor stakes and physical progress on site -> Unanswered financial and diplomatic questions.",
       "source": "https://kenyans.co.ke/news/129051-gachagua-disputes-chirchirs-explanation-rironi-mau-summit-road-delays",
       "published_at": "2026-11-01T13:02:11Z"
+    },
+    {
+      "title": "Busia ECDE Query Sparks Broadcast Clash as Goons Test NPS Gang Crackdown",
+      "angle": "The direct suppression of grassroots fiscal accountability: a routine question regarding county-funded ECDE classrooms triggered organized violence, immediately testing the National Police Service's directive holding local commanders personally responsible for failing to curb political gangs.",
+      "angle_type": "accountability",
+      "opening": "Accountability-test lead connecting the violent shutdown of an ECDE spending inquiry directly to police enforcement obligations against political retinues.",
+      "structure": "Lead on silenced devolved oversight -> Factual reconstruction of the Alupe University disruption and the ECDE trigger question -> Broadcaster evacuation and police intervention -> Wider pattern of media hostility and NPS command liability",
+      "source": "https://kenyans.co.ke/news/129053-chaos-goons-disrupt-radio-citizen-event",
+      "published_at": "2026-11-01T14:02:06Z"
     }
   ]
 }
