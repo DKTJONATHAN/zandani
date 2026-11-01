@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "dfdc1ef6e39b2cdc5bd2a59a048449c9",
     "f0a9040494898494ab628fd26da72260",
     "0100a633411ca6fe819def9a16153c8b",
     "4e635ff0569ccec791916c6fee2a9e71",
@@ -799,10 +798,10 @@
     "e3b80da4029171c360ca4e5422042e16",
     "66134b074176272575a027191a7baba1",
     "4bc3b75e3f5993858e97718858b0ce2b",
-    "af2d35f9c0c5a9e0c98e50e517d6c9a3"
+    "af2d35f9c0c5a9e0c98e50e517d6c9a3",
+    "fe01922109461724f1da349660ddd9a5"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1561,7 +1561,8 @@
     "https://kenyans.co.ke/news/129038-cofek-moves-court-challenge-lusakas-planned-honorary-degree",
     "https://kenyans.co.ke/news/129040-ruto-appoints-former-minister-njeru-ndwiga-coffee-board-chair",
     "https://kenyans.co.ke/news/129039-kra-recover-unpaid-business-taxes-through-government-pending-bills",
-    "https://kenyans.co.ke/news/129045-interior-ministry-warns-kcse-exam-frauderster-says-police-close"
+    "https://kenyans.co.ke/news/129045-interior-ministry-warns-kcse-exam-frauderster-says-police-close",
+    "https://kenyans.co.ke/news/129046-nlc-eyes-private-land-new-military-air-base"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2213,7 +2214,8 @@
     "high court clocks tick down kibabii university honorary degree governor lusaka",
     "state house realigns coffee value chain ndwiga kinyua take parastatal helms",
     "kra targets ksh175b state pending bills back taxes while carrying ksh5 debt",
-    "state tracks exam fraud syndicates penultimate kcse gets underway"
+    "state tracks exam fraud syndicates penultimate kcse gets underway",
+    "nlc gazettes multi county land seizures military bases transport corridors"
   ],
   "topic_keys": [
     "news tracker",
@@ -7352,6 +7354,15 @@
       "structure": "Enforcement shift lead -> Dual-ministry security framework -> Mechanics of the fake-paper black market -> High-stakes transition context (8-4-4 phaseout) -> Forward investigative posture",
       "source": "https://kenyans.co.ke/news/129045-interior-ministry-warns-kcse-exam-frauderster-says-police-close",
       "published_at": "2026-11-01T08:02:12Z"
+    },
+    {
+      "title": "NLC Gazettes Multi-County Land Seizures for Military Bases, Transport Corridors",
+      "angle": "Framing the notices as a synchronized push by the state to secure strategic military and infrastructure corridors across five counties, highlighting the statutory verification demands placed on private landowners ahead of grassroots hearings at local chiefs' offices.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first statement detailing the NLC gazette declaration and identifying the state beneficiaries before mapping the compliance obligations for private landowners.",
+      "structure": "Attribution and beneficiary lead -> Defence footprint expansion (Wajir and Nakuru) -> Major infrastructure acquisitions (LAPSSET, Mugenu Bridge, Mahor River) -> Grassroots inquiry mechanics and mandatory documentation rules",
+      "source": "https://kenyans.co.ke/news/129046-nlc-eyes-private-land-new-military-air-base",
+      "published_at": "2026-11-01T09:02:13Z"
     }
   ]
 }
