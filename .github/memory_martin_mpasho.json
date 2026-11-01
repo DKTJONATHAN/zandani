@@ -109,7 +109,8 @@
     "06ee3e7194c9375fbc55a5f1bddbc0846efb2eb2319eaf11f874041d768c75af",
     "a97591084bf864b19cd95bf738d5d85be54f288d2d1e3bb4d04a4d4f5ada144a",
     "579a8cc24bf43003cee47a041ee61843ea51fa40a90579f0dd06b76acbf55677",
-    "6e21aa15630230bae3beebcfb206b0421fb6cac5e3a7c13325dc4fa68f7014a7"
+    "6e21aa15630230bae3beebcfb206b0421fb6cac5e3a7c13325dc4fa68f7014a7",
+    "d46250e4804c87d0bb0132938f912c94e960f70793f81efe2cbd1caf8b5b6428"
   ],
   "style_history": [
     "Event Report",
@@ -244,6 +245,10 @@
     {
       "key": "2026-11-01-popular-comedian-kufai-marries-longtime-lover-lucy-muthoni-in-a-beautiful-church-wedding-in-naivasha",
       "ts": "2026-11-01T15:24:43.604553+00:00"
+    },
+    {
+      "key": "2026-11-01-nihan-reveals-flossin-registered-mercedes-benz-gifted-to-her-under-his-name",
+      "ts": "2026-11-01T17:22:23.628137+00:00"
     }
   ],
   "urls": [
@@ -257,7 +262,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-01-patrick-rianga-calls-out-goliath-wa-bungoma-for-begging-online-despite-giving-him-a-job",
     "https://www.mpasho.co.ke/entertainment/2026-11-01-alex-mwakideu-questions-wantam-vs-tutam-politics-after-sifuna-supporter-suggests-linda-mwananchi-dress-code-at-football-match",
     "https://www.mpasho.co.ke/entertainment/2026-11-01-eric-omondi-pens-emotional-birthday-tribute-to-churchill-calls-him-a-true-father",
-    "https://www.mpasho.co.ke/entertainment/2026-11-01-popular-comedian-kufai-marries-longtime-lover-lucy-muthoni-in-a-beautiful-church-wedding-in-naivasha"
+    "https://www.mpasho.co.ke/entertainment/2026-11-01-popular-comedian-kufai-marries-longtime-lover-lucy-muthoni-in-a-beautiful-church-wedding-in-naivasha",
+    "https://www.mpasho.co.ke/entertainment/2026-11-01-nihan-reveals-flossin-registered-mercedes-benz-gifted-to-her-under-his-name"
   ],
   "published_angles": [
     {
@@ -339,6 +345,14 @@
       "opening": "Personality-led opening focusing on Kufai taking center stage in Naivasha alongside key regional creators.",
       "structure": "Person and milestone hook, verified wedding and church details, guest list breakdown showing regional creative solidarity, career context, and reception close.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-01-popular-comedian-kufai-marries-longtime-lover-lucy-muthoni-in-a-beautiful-church-wedding-in-naivasha"
+    },
+    {
+      "title": "Nihan Clarifies Logbook Details on Luxury Mercedes-Benz, Revealing Car Remains Registered to Flossin",
+      "angle": "Focusing on the distinction between driving access and legal logbook ownership in high-profile creator relationships, contrasting visual lifestyle flexes with asset control.",
+      "angle_type": "asset ownership",
+      "opening": "Personality lead focusing directly on Nihan clarifying the vehicle's logbook status.",
+      "structure": "Person lead -> TikTok Live admission -> Legal registration reality vs driving privileges -> Historical context involving ex YBK -> Public reaction split -> Concrete status close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-01-nihan-reveals-flossin-registered-mercedes-benz-gifted-to-her-under-his-name"
     }
   ]
 }
