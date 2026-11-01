@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ec840cf1cbeb1785fa5108ef6b7782a1",
     "8f72b246dade30a2575b46bc7fb61ef3",
     "542ddd022ea18c857c314644639c92d1",
     "e0f81c71cfb7d68698806306c5c94d67",
@@ -799,10 +798,10 @@
     "ef98df2b9c6418c7e072756e21d7383a",
     "632905068af1935170954516bb8ecd00",
     "0bf8f4401f5365c50627c592c1251755",
-    "435f95e13fa15297a0c38b5d8451fbbc"
+    "435f95e13fa15297a0c38b5d8451fbbc",
+    "e3b80da4029171c360ca4e5422042e16"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1557,7 +1557,8 @@
     "https://kenyans.co.ke/news/129031-cbk-considering-ai-tools-improve-inflation-tracking-economic-forecasts",
     "https://kenyans.co.ke/news/129032-ministry-health-defends-kenyas-ebola-response-amid-saudi-arabia-restrictions",
     "https://kenyans.co.ke/news/129034-chaos-suspected-goons-storm-odm-rally-nairobi-forcing-leaders-flee",
-    "https://kenyans.co.ke/news/129036-family-says-missing-daughters-phone-being-answered-beneath-eastleigh-building-rubble"
+    "https://kenyans.co.ke/news/129036-family-says-missing-daughters-phone-being-answered-beneath-eastleigh-building-rubble",
+    "https://kenyans.co.ke/news/129038-cofek-moves-court-challenge-lusakas-planned-honorary-degree"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2205,7 +2206,8 @@
     "cbk turns satellite data web scraping bridge three month gdp lag",
     "afya house deploys day infection plateau challenge saudi travel embargo",
     "police guarantees falter jacaranda odm stage breach scrambles cabinet secretaries top brass",
-    "eastleigh collapse enters final hours dci probes live rubble phone signal"
+    "eastleigh collapse enters final hours dci probes live rubble phone signal",
+    "high court clocks tick down kibabii university honorary degree governor lusaka"
   ],
   "topic_keys": [
     "news tracker",
@@ -7308,6 +7310,15 @@
       "structure": "Operational timeline lead -> Forensic phone evidence and family attempts -> Site operational mechanics and the 16 missing -> Forensic escalation to DCI -> Final push to rear section and forward closure deadline",
       "source": "https://kenyans.co.ke/news/129036-family-says-missing-daughters-phone-being-answered-beneath-eastleigh-building-rubble",
       "published_at": "2026-10-31T17:01:52Z"
+    },
+    {
+      "title": "High Court Clocks Tick Down on Kibabii University's Honorary Degree for Governor Lusaka",
+      "angle": "Examining the institutional friction between public university senate autonomy and consumer rights oversight regarding the timing of political honors right ahead of graduation ceremonies.",
+      "angle_type": "institutional pressure",
+      "opening": "Procedural friction lead highlighting the high-stakes courtroom timeline versus the fast-approaching graduation date.",
+      "structure": "Courtroom timeline lead -> Statutory backing and university rationale -> CUE guideline compliance debate -> Forward procedural milestones.",
+      "source": "https://kenyans.co.ke/news/129038-cofek-moves-court-challenge-lusakas-planned-honorary-degree",
+      "published_at": "2026-11-01T05:02:15Z"
     }
   ]
 }
