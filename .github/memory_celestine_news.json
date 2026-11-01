@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "19447de151168d58b9081b0ef886160b",
     "2f9bbc147db552955aeb35dbfd72df02",
     "b57b8a7f44c4cc4bf9aae51b315dd59b",
     "7a6c0cd9de49b79d2983066c5f5eee97",
@@ -799,10 +798,10 @@
     "547931793e0c8b49cb7dddd6d1aaf5b5",
     "5a1be7e258c86982b8df30eaa11796b2",
     "93cc10aff5b7375aeb0e9726271c4e1a",
-    "5c58e8ebd07a601a53006a1c60853359"
+    "5c58e8ebd07a601a53006a1c60853359",
+    "317bd77e62561f3b141c402bab588019"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1570,7 +1570,8 @@
     "https://kenyans.co.ke/news/129051-gachagua-disputes-chirchirs-explanation-rironi-mau-summit-road-delays",
     "https://kenyans.co.ke/news/129053-chaos-goons-disrupt-radio-citizen-event",
     "https://kenyans.co.ke/news/129054-knec-adds-wristwatches-list-items-banned-during-national-exams",
-    "https://kenyans.co.ke/news/129052-explained-what-bitumen-material-behind-rironi-mau-road-delays"
+    "https://kenyans.co.ke/news/129052-explained-what-bitumen-material-behind-rironi-mau-road-delays",
+    "https://kenyans.co.ke/news/129055-industry-ps-juma-mukwana-urges-millers-introduce-flavored-ugali-export-markets"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2231,7 +2232,8 @@
     "chirchir supply chain defense faces scrutiny gachagua claims credit freeze ksh200b mau summit highway",
     "busia ecde query sparks broadcast clash goons test nps gang crackdown",
     "knec strips candidates personal watches shifting exam timekeeping centre clocks",
-    "bitumen deficit stalls rironi naivasha opening 2013 refinery exit leaves paving reliant imports"
+    "bitumen deficit stalls rironi naivasha opening 2013 refinery exit leaves paving reliant imports",
+    "state urges flavoured ugali export millers face empty strategic silos"
   ],
   "topic_keys": [
     "news tracker",
@@ -7451,6 +7453,15 @@
       "structure": "Deadline lapse lead -> Domestic supply vacuum and the 2013 Mombasa refinery exit -> Chemical mechanics and structural role in pavement engineering -> Global import network exposure (Middle East and Asia) -> Forward infrastructure implications for active transport corridors.",
       "source": "https://kenyans.co.ke/news/129052-explained-what-bitumen-material-behind-rironi-mau-road-delays",
       "published_at": "2026-11-01T16:01:38Z"
+    },
+    {
+      "title": "State Urges Flavoured Ugali for Export as Millers Face Empty Strategic Silos",
+      "angle": "The operational disconnect between the state's export-oriented product innovation push and the acute domestic supply deficit, where millers face depleted strategic food reserves and a 25-million-bag shortfall.",
+      "angle_type": "accountability",
+      "opening": "Industrial reality-check lead contrasting high-concept state export ambitions with empty domestic silos and imminent import reliance.",
+      "structure": "Policy-versus-reserve contrast lead -> Millers' direct pushback on NCPB depletion -> Mechanics of the 25-million-bag national deficit -> State's long-term demographic and innovation thesis -> Forward look on regional cross-border imports.",
+      "source": "https://kenyans.co.ke/news/129055-industry-ps-juma-mukwana-urges-millers-introduce-flavored-ugali-export-markets",
+      "published_at": "2026-11-01T17:02:11Z"
     }
   ]
 }
