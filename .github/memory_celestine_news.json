@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f0a9040494898494ab628fd26da72260",
     "0100a633411ca6fe819def9a16153c8b",
     "4e635ff0569ccec791916c6fee2a9e71",
     "f2956faa3b559bc19510147cda7b5788",
@@ -799,10 +798,10 @@
     "66134b074176272575a027191a7baba1",
     "4bc3b75e3f5993858e97718858b0ce2b",
     "af2d35f9c0c5a9e0c98e50e517d6c9a3",
-    "fe01922109461724f1da349660ddd9a5"
+    "fe01922109461724f1da349660ddd9a5",
+    "c1207281716d0d59a519674e3642f8da"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1562,7 +1562,8 @@
     "https://kenyans.co.ke/news/129040-ruto-appoints-former-minister-njeru-ndwiga-coffee-board-chair",
     "https://kenyans.co.ke/news/129039-kra-recover-unpaid-business-taxes-through-government-pending-bills",
     "https://kenyans.co.ke/news/129045-interior-ministry-warns-kcse-exam-frauderster-says-police-close",
-    "https://kenyans.co.ke/news/129046-nlc-eyes-private-land-new-military-air-base"
+    "https://kenyans.co.ke/news/129046-nlc-eyes-private-land-new-military-air-base",
+    "https://kenyans.co.ke/news/129044-how-much-kenyas-highest-paid-teachers-earn-under-new-tsc-salary-structure"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2215,7 +2216,8 @@
     "state house realigns coffee value chain ndwiga kinyua take parastatal helms",
     "kra targets ksh175b state pending bills back taxes while carrying ksh5 debt",
     "state tracks exam fraud syndicates penultimate kcse gets underway",
-    "nlc gazettes multi county land seizures military bases transport corridors"
+    "nlc gazettes multi county land seizures military bases transport corridors",
+    "geographic allowances drive top school administrators pay toward ksh270 000 under phase two cba"
   ],
   "topic_keys": [
     "news tracker",
@@ -7363,6 +7365,15 @@
       "structure": "Attribution and beneficiary lead -> Defence footprint expansion (Wajir and Nakuru) -> Major infrastructure acquisitions (LAPSSET, Mugenu Bridge, Mahor River) -> Grassroots inquiry mechanics and mandatory documentation rules",
       "source": "https://kenyans.co.ke/news/129046-nlc-eyes-private-land-new-military-air-base",
       "published_at": "2026-11-01T09:02:13Z"
+    },
+    {
+      "title": "Geographic Allowances Drive Top School Administrators' Pay Toward Ksh270,000 Under Phase Two CBA",
+      "angle": "Examining the compensation architecture of the CBA's second phase, specifically how geographic location and allowance tiers create substantial earnings divergences among senior institutional heads while explicitly cordoning off intern teachers.",
+      "angle_type": "money",
+      "opening": "Allowance-divergence lead establishing how geographic deployment and post classifications reshape senior administrators' earnings under the Phase Two rollout.",
+      "structure": "Geographic pay disparity lead -> Factual breakdown of the apex D5 pay scale and allowances -> Secondary administrative tiers (D4 and D3) -> Structural terms, incremental rules, and intern exclusion -> Multi-stage CBA context",
+      "source": "https://kenyans.co.ke/news/129044-how-much-kenyas-highest-paid-teachers-earn-under-new-tsc-salary-structure",
+      "published_at": "2026-11-01T09:06:37Z"
     }
   ]
 }
