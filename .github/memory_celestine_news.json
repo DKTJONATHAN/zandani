@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "e0f81c71cfb7d68698806306c5c94d67",
     "dfdc1ef6e39b2cdc5bd2a59a048449c9",
     "f0a9040494898494ab628fd26da72260",
     "0100a633411ca6fe819def9a16153c8b",
@@ -799,10 +798,10 @@
     "435f95e13fa15297a0c38b5d8451fbbc",
     "e3b80da4029171c360ca4e5422042e16",
     "66134b074176272575a027191a7baba1",
-    "4bc3b75e3f5993858e97718858b0ce2b"
+    "4bc3b75e3f5993858e97718858b0ce2b",
+    "af2d35f9c0c5a9e0c98e50e517d6c9a3"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1560,7 +1560,8 @@
     "https://kenyans.co.ke/news/129036-family-says-missing-daughters-phone-being-answered-beneath-eastleigh-building-rubble",
     "https://kenyans.co.ke/news/129038-cofek-moves-court-challenge-lusakas-planned-honorary-degree",
     "https://kenyans.co.ke/news/129040-ruto-appoints-former-minister-njeru-ndwiga-coffee-board-chair",
-    "https://kenyans.co.ke/news/129039-kra-recover-unpaid-business-taxes-through-government-pending-bills"
+    "https://kenyans.co.ke/news/129039-kra-recover-unpaid-business-taxes-through-government-pending-bills",
+    "https://kenyans.co.ke/news/129045-interior-ministry-warns-kcse-exam-frauderster-says-police-close"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2211,7 +2212,8 @@
     "eastleigh collapse enters final hours dci probes live rubble phone signal",
     "high court clocks tick down kibabii university honorary degree governor lusaka",
     "state house realigns coffee value chain ndwiga kinyua take parastatal helms",
-    "kra targets ksh175b state pending bills back taxes while carrying ksh5 debt"
+    "kra targets ksh175b state pending bills back taxes while carrying ksh5 debt",
+    "state tracks exam fraud syndicates penultimate kcse gets underway"
   ],
   "topic_keys": [
     "news tracker",
@@ -7341,6 +7343,15 @@
       "structure": "Enforcement interception lead -> Core revenue numbers and parliamentary submission -> Technical mechanics of IFMIS matching and refund offsets -> Scrutiny of KRA's own Ksh5.58 billion pending debt portfolio -> Forward implementation and supplier exposure edge",
       "source": "https://kenyans.co.ke/news/129039-kra-recover-unpaid-business-taxes-through-government-pending-bills",
       "published_at": "2026-11-01T07:02:04Z"
+    },
+    {
+      "title": "State Tracks Exam Fraud Syndicates as Penultimate 8-4-4 KCSE Gets Underway",
+      "angle": "The state's pre-exam enforcement posture has shifted focus from candidate-level cheating to adult-driven commercial fraud, explicitly warning parents and educators that advance-leakage promises are extortion schemes targeting anxiety during the second-to-last 8-4-4 examination cycle.",
+      "angle_type": "accountability",
+      "opening": "Enforcement-target lead zeroing in on the state's warning to parents and teachers purchasing fraudulent test papers hours before the national examination begins.",
+      "structure": "Enforcement shift lead -> Dual-ministry security framework -> Mechanics of the fake-paper black market -> High-stakes transition context (8-4-4 phaseout) -> Forward investigative posture",
+      "source": "https://kenyans.co.ke/news/129045-interior-ministry-warns-kcse-exam-frauderster-says-police-close",
+      "published_at": "2026-11-01T08:02:12Z"
     }
   ]
 }
