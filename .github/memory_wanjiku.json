@@ -331,7 +331,8 @@
     "bf39c77af47e530c3aa6c15b6ccbfc52b6c4dda28bd190f0cc385748c558950d",
     "00274f32fa3883b5da88d448ff45c0d7d4b804434dfa21b6f7a25dbf82a071c9",
     "0688790a8ddf7a00d0d9366987bd8a7a4a4b9ecd32558915ec705899ffe7abac",
-    "63dfd1874c7b4b61bd0dee2b293c5e044fd9b49ca5502d2f3e0c463cc83e14ee"
+    "63dfd1874c7b4b61bd0dee2b293c5e044fd9b49ca5502d2f3e0c463cc83e14ee",
+    "de504474dac7ee90188a6e2ec6436ef51bc345f3dba914bf1b00b0933e4bdafd"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -665,17 +666,10 @@
     "https://www.ghafla.co.ke/broad-based-government-uniting-kenya-flexible-coalitions-and-equitable-representation/",
     "https://www.ghafla.co.ke/tim-wanyonyi-joins-edwin-sifunas-linda-mwananchi-movement-ahead-of-2027-elections/",
     "https://www.ghafla.co.ke/we-are-not-there-blindly-oburu-oginga-defends-odms-role-in-broad-based-government-2/",
-    "https://www.ghafla.co.ke/sifuna-unveils-linda-mwananchi-leadership-lineup-ahead-of-national-delegates-conference/"
+    "https://www.ghafla.co.ke/sifuna-unveils-linda-mwananchi-leadership-lineup-ahead-of-national-delegates-conference/",
+    "https://www.ghafla.co.ke/we-are-not-there-blindly-oburu-oginga-defends-odms-role-in-broad-based-government/"
   ],
   "published_angles": [
-    {
-      "title": "Prof. Adams Oloo Shifts Raila Anniversary Tone From Mourning to Intergenerational Dialogues",
-      "angle": "Focusing on the deliberate cultural and intergenerational programming led by Prof. Adams Oloo\u2014contrasting traditional political mourning with a structured week of youth arts, blood donations, and community dialogue at Ofafa Memorial Hall.",
-      "angle_type": "cultural programming and public legacy curation",
-      "opening": "Personality and event-led opening focusing on Prof. Adams Oloo framing the week as a celebration of gratitude rather than traditional grief.",
-      "structure": "Personality/Organizer hook -> Ofafa Memorial Hall intergenerational conclave -> Artistic and public health integration -> Itinerary scope spanning Kisumu, Kang'o ka Jaramogi, and Bondo.",
-      "source": "https://www.ghafla.co.ke/decades-of-service-a-week-of-gratitude-raila-odingas-first-anniversary-begins/"
-    },
     {
       "title": "William Ruto Pulls Out Four-Vote Loyalty Receipt on Uhuru, Brands Broken \u201910-10\u2019 Pact a Con Ahead of 2027",
       "angle": "Reframing the North Rift podium address as an unvarnished relationship post-mortem, spotlighting Ruto brandishing his personal four-vote loyalty receipt and the broken 'kumi-kumi' covenant as a cautionary buyer-beware tale for Uhuru's current political suitors.",
@@ -1467,6 +1461,14 @@
       "opening": "Personality lead opening directly on Kawira Mwangaza and Faith Odhiambo landing top deputy party leader slots in Sifuna's proposed lineup.",
       "structure": "Star lineup opening -> Secretariat launch context and 1+4 executive formula -> Spotlight on Mwangaza, Odhiambo, and Pauline Njoroge -> Breakdown of core party posts (Osotsi, Omondi, Onyonka, Ndolo) -> NDC ratification close.",
       "source": "https://www.ghafla.co.ke/sifuna-unveils-linda-mwananchi-leadership-lineup-ahead-of-national-delegates-conference/"
+    },
+    {
+      "title": "Oburu Oginga Beams Into Jacaranda Rally from Recovery to Read Discipline Act to ODM Heavyweights",
+      "angle": "Focusing on Oburu's virtual stage presence from illness recovery during the emotional climax of the Mwezi wa Baba finale, using the platform to issue a direct discipline reprimand to high-profile leaders assembled on stage.",
+      "angle_type": "personality lead and public reprimand",
+      "opening": "Personality lead opening directly on Oburu Oginga making a virtual appearance at Jacaranda Grounds during his health recovery.",
+      "structure": "Virtual appearance hook -> Jacaranda rally stage lineup -> Party discipline reprimand -> Broad-based strategy framing -> Closing on February 2027 roadmap",
+      "source": "https://www.ghafla.co.ke/we-are-not-there-blindly-oburu-oginga-defends-odms-role-in-broad-based-government/"
     }
   ],
   "style_history": [
