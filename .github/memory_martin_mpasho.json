@@ -111,7 +111,8 @@
     "579a8cc24bf43003cee47a041ee61843ea51fa40a90579f0dd06b76acbf55677",
     "6e21aa15630230bae3beebcfb206b0421fb6cac5e3a7c13325dc4fa68f7014a7",
     "d46250e4804c87d0bb0132938f912c94e960f70793f81efe2cbd1caf8b5b6428",
-    "6d330834e1945b7c6c5e9253d3c21bb357dd05f70f036dedc20d83aa09464ab9"
+    "6d330834e1945b7c6c5e9253d3c21bb357dd05f70f036dedc20d83aa09464ab9",
+    "5a0310b4172099cb90c21dc75146414a9bc9cf80079eeade35843e63eed661af"
   ],
   "style_history": [
     "Event Report",
@@ -254,6 +255,10 @@
     {
       "key": "2026-11-01-flaqo-raz-breaks-silence-on-alma-mutheu-pregnancy-rumours-says-he-is-ready-to-ride-the-clout-wave",
       "ts": "2026-11-01T19:27:03.819075+00:00"
+    },
+    {
+      "key": "2026-11-01-kenyan-shenseea-lookalike-wanjema-warns-fans-against-skincare-after-skin-damage",
+      "ts": "2026-11-01T21:23:30.463780+00:00"
     }
   ],
   "urls": [
@@ -269,7 +274,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-01-eric-omondi-pens-emotional-birthday-tribute-to-churchill-calls-him-a-true-father",
     "https://www.mpasho.co.ke/entertainment/2026-11-01-popular-comedian-kufai-marries-longtime-lover-lucy-muthoni-in-a-beautiful-church-wedding-in-naivasha",
     "https://www.mpasho.co.ke/entertainment/2026-11-01-nihan-reveals-flossin-registered-mercedes-benz-gifted-to-her-under-his-name",
-    "https://www.mpasho.co.ke/entertainment/2026-11-01-flaqo-raz-breaks-silence-on-alma-mutheu-pregnancy-rumours-says-he-is-ready-to-ride-the-clout-wave"
+    "https://www.mpasho.co.ke/entertainment/2026-11-01-flaqo-raz-breaks-silence-on-alma-mutheu-pregnancy-rumours-says-he-is-ready-to-ride-the-clout-wave",
+    "https://www.mpasho.co.ke/entertainment/2026-11-01-kenyan-shenseea-lookalike-wanjema-warns-fans-against-skincare-after-skin-damage"
   ],
   "published_angles": [
     {
@@ -367,6 +373,14 @@
       "opening": "Personality lead focusing on Flaqo drawing a firm line on paternity before pivoting to algorithmic opportunism.",
       "structure": "Person and hook -> On-air exchange with Ankali Ray -> Origins of the rumour via BNN Premium -> Algorithmic opportunism vs boundary setting -> Close on the unresolved pregnancy speculation.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-01-flaqo-raz-breaks-silence-on-alma-mutheu-pregnancy-rumours-says-he-is-ready-to-ride-the-clout-wave"
+    },
+    {
+      "title": "Wanjema Breaks Beauty Playbook, Urges Followers to Drop Skincare Regimens After Face Damage",
+      "angle": "The collision between viral lookalike aesthetics and unsupervised digital beauty routines, examining how Wanjema\u2019s sudden rise based on facial resemblance led to an aggressive regimen that backfired on camera.",
+      "angle_type": "creator reality",
+      "opening": "Personality lead focusing on Wanjema rejecting the digital beauty playbook and instructing her audience to quit skincare entirely.",
+      "structure": "Personality hook -> Verbatim TikTok admission -> Lookalike branding context -> Analysis of digital beauty pressure -> Dermatological caution close",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-01-kenyan-shenseea-lookalike-wanjema-warns-fans-against-skincare-after-skin-damage"
     }
   ]
 }
