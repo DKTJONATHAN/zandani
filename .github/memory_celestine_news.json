@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "8f72b246dade30a2575b46bc7fb61ef3",
     "542ddd022ea18c857c314644639c92d1",
     "e0f81c71cfb7d68698806306c5c94d67",
     "dfdc1ef6e39b2cdc5bd2a59a048449c9",
@@ -799,10 +798,10 @@
     "632905068af1935170954516bb8ecd00",
     "0bf8f4401f5365c50627c592c1251755",
     "435f95e13fa15297a0c38b5d8451fbbc",
-    "e3b80da4029171c360ca4e5422042e16"
+    "e3b80da4029171c360ca4e5422042e16",
+    "66134b074176272575a027191a7baba1"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1558,7 +1558,8 @@
     "https://kenyans.co.ke/news/129032-ministry-health-defends-kenyas-ebola-response-amid-saudi-arabia-restrictions",
     "https://kenyans.co.ke/news/129034-chaos-suspected-goons-storm-odm-rally-nairobi-forcing-leaders-flee",
     "https://kenyans.co.ke/news/129036-family-says-missing-daughters-phone-being-answered-beneath-eastleigh-building-rubble",
-    "https://kenyans.co.ke/news/129038-cofek-moves-court-challenge-lusakas-planned-honorary-degree"
+    "https://kenyans.co.ke/news/129038-cofek-moves-court-challenge-lusakas-planned-honorary-degree",
+    "https://kenyans.co.ke/news/129040-ruto-appoints-former-minister-njeru-ndwiga-coffee-board-chair"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2207,7 +2208,8 @@
     "afya house deploys day infection plateau challenge saudi travel embargo",
     "police guarantees falter jacaranda odm stage breach scrambles cabinet secretaries top brass",
     "eastleigh collapse enters final hours dci probes live rubble phone signal",
-    "high court clocks tick down kibabii university honorary degree governor lusaka"
+    "high court clocks tick down kibabii university honorary degree governor lusaka",
+    "state house realigns coffee value chain ndwiga kinyua take parastatal helms"
   ],
   "topic_keys": [
     "news tracker",
@@ -7319,6 +7321,15 @@
       "structure": "Courtroom timeline lead -> Statutory backing and university rationale -> CUE guideline compliance debate -> Forward procedural milestones.",
       "source": "https://kenyans.co.ke/news/129038-cofek-moves-court-challenge-lusakas-planned-honorary-degree",
       "published_at": "2026-11-01T05:02:15Z"
+    },
+    {
+      "title": "State House Realigns Coffee Value Chain as Ndwiga, Kinyua Take Parastatal Helms",
+      "angle": "Attribution-first scrutiny of the dual consolidation of the coffee regulatory and research apparatus under cooperative-era veterans, paired with targeted governance realignments across education and public bodies.",
+      "angle_type": "practical change",
+      "opening": "Attribution-first regulatory lead establishing the twin leadership appointments over Kenya's coffee oversight institutions.",
+      "structure": "Attribution-first statutory lead -> Coffee sector dual-helm mechanics -> Multi-ministry appointments breakdown (Treasury, Education, Health) -> Mandate implications for sector boards",
+      "source": "https://kenyans.co.ke/news/129040-ruto-appoints-former-minister-njeru-ndwiga-coffee-board-chair",
+      "published_at": "2026-11-01T06:02:15Z"
     }
   ]
 }
