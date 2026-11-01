@@ -102,7 +102,8 @@
     "5e985c8922390b97a065457a4730a6f15d49e517f6c14b468e3527b083d6d857",
     "669d09701dd880515da2e0a0e0fc56c9cce5b906ac38a68352cdc6a43bed7266",
     "fa363c7cda6d0125a31591d58b7fea8bb507a7c37d387fb85a21a9905884bf0b",
-    "0b8649716eda3743f7d95ffbeede46cbdd13e2e9eac616bd6a407e59a9515726"
+    "0b8649716eda3743f7d95ffbeede46cbdd13e2e9eac616bd6a407e59a9515726",
+    "d03745d39c9b7590a1aeda2815b5655d47b5cb4ac732c78b0ccb1335a6801648"
   ],
   "style_history": [
     "Event Report",
@@ -209,13 +210,18 @@
     {
       "key": "2026-10-31-terence-creative-issues-expensive-challenge-to-forex-traders",
       "ts": "2026-11-01T01:22:50.907693+00:00"
+    },
+    {
+      "key": "2026-10-31-shenseea-stuns-fans-with-guardians-of-the-galaxy-mantis-costume",
+      "ts": "2026-11-01T03:22:59.827997+00:00"
     }
   ],
   "urls": [
     "https://www.mpasho.co.ke/quickfire",
     "https://www.mpasho.co.ke/lifestyle-yetu",
     "https://www.mpasho.co.ke/human-interest",
-    "https://www.mpasho.co.ke/entertainment/2026-10-31-terence-creative-issues-expensive-challenge-to-forex-traders"
+    "https://www.mpasho.co.ke/entertainment/2026-10-31-terence-creative-issues-expensive-challenge-to-forex-traders",
+    "https://www.mpasho.co.ke/entertainment/2026-10-31-shenseea-stuns-fans-with-guardians-of-the-galaxy-mantis-costume"
   ],
   "published_angles": [
     {
@@ -241,6 +247,14 @@
       "opening": "Personality-led focus on Terence Creative using his public platform to call out high-rolling traders splashing premium spirits.",
       "structure": "Creator challenge lead, mechanics of the viral nightlife hand-washing trend, club locations and luxury spirits involved, public reaction breakdown, concrete close on the clout-versus-liquidity debate.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-10-31-terence-creative-issues-expensive-challenge-to-forex-traders"
+    },
+    {
+      "title": "Shenseea Swaps Horror Tropes for Marvel Sci-Fi with Detailed \u2018Mantis\u2019 Halloween Look",
+      "angle": "Analyzing Shenseea's decision to bypass traditional Halloween horror tropes in favor of precise Marvel sci-fi cosplay as part of her broader visual branding strategy on digital platforms.",
+      "angle_type": "practical change",
+      "opening": "Personality-led focus on Shenseea breaking away from traditional spooky themes to unveil a precise sci-fi transformation.",
+      "structure": "Celebrity lead, detailed look breakdown, character context, audience engagement, and broader visual branding context.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-10-31-shenseea-stuns-fans-with-guardians-of-the-galaxy-mantis-costume"
     }
   ]
 }
