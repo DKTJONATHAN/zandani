@@ -334,7 +334,8 @@
     "63dfd1874c7b4b61bd0dee2b293c5e044fd9b49ca5502d2f3e0c463cc83e14ee",
     "de504474dac7ee90188a6e2ec6436ef51bc345f3dba914bf1b00b0933e4bdafd",
     "a939243e5dc1002c6f967f3a42980c398c85ebb7cf9654787e0e76a73ac79f5f",
-    "4d802fde024749c1c8388111213ce188027def65e3dc72f618f0607f29b6e757"
+    "4d802fde024749c1c8388111213ce188027def65e3dc72f618f0607f29b6e757",
+    "9b69048c1c54fb3c1faa4b65a2c36eb0c9beefa3176a48c970410b5516d69ebb"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -671,17 +672,10 @@
     "https://www.ghafla.co.ke/sifuna-unveils-linda-mwananchi-leadership-lineup-ahead-of-national-delegates-conference/",
     "https://www.ghafla.co.ke/we-are-not-there-blindly-oburu-oginga-defends-odms-role-in-broad-based-government/",
     "https://www.ghafla.co.ke/okiya-omtatah-dismisses-viral-card-claiming-he-will-challenge-linda-mwananchi-movement/",
-    "https://www.ghafla.co.ke/chaos-as-suspected-goons-disrupt-odm-rally-at-jacaranda-grounds/"
+    "https://www.ghafla.co.ke/chaos-as-suspected-goons-disrupt-odm-rally-at-jacaranda-grounds/",
+    "https://www.ghafla.co.ke/government-recovers-2600-illegal-firearms-17000-livestock-in-anti-banditry-operations/"
   ],
   "published_angles": [
-    {
-      "title": "Beyond the Podium: How the North Rift is Stitching Three Counties Together for Mashujaa Day",
-      "angle": "The logistical and sporting 'tri-county' experiment; how the state is using a major national holiday to rebrand the North Rift as an integrated sports-economy hub rather than just a political power base.",
-      "angle_type": "Logistical integration and regional branding strategy.",
-      "opening": "Event-led lead focusing on the specific regional tri-county coalition for the holiday.",
-      "structure": "The 'hub' geography -> The logistical split between Eldoret, Iten, and Kapsabet -> The infrastructure pivot -> The economic expo context.",
-      "source": "https://www.ghafla.co.ke/eldoret-to-host-2026-mashujaa-day-as-uasin-gishu-nandi-and-elgeyo-marakwet-jointly-stage-national-celebrations/"
-    },
     {
       "title": "Esther Arunga Strikes \u2018Timberlake\u2019 From Legal Record, Reclaiming Maiden Name 16 Years Later",
       "angle": "Framing the legal filing through the quiet, bureaucratic dismantling of a 16-year marital saga that derailed her prime-time broadcast career, highlighted by the Nairobi legal paper trail and a local postal box while Timberlake remains in Australian immigration custody.",
@@ -1473,6 +1467,14 @@
       "opening": "Personality-led stage moment focusing on the live-mic capture and the intruder barking 'Msitoroke' into the PA system mid-introduction.",
       "structure": "Stage hijack hook -> The mic grab during VIP introductions -> Scramble for safety and venue panic -> Commemorative 'Mwezi wa Baba' context -> Factional tension and Ruto cooperation backdrop",
       "source": "https://www.ghafla.co.ke/chaos-as-suspected-goons-disrupt-odm-rally-at-jacaranda-grounds/"
+    },
+    {
+      "title": "Raymond Omollo Pushes Past Gun Tallies to Pitch Classrooms and Ksh 4.2B Tarmac as Real Victory in North Rift",
+      "angle": "Raymond Omollo's deliberate effort to redefine state security metrics\u2014shifting attention away from sensational firearm seizures toward civilian life markers such as KDF-rebuilt desks in Laikipia and Ksh 4.2 billion worth of tarmac.",
+      "angle_type": "personality scorecard reframing",
+      "opening": "Personality lead opening directly on Raymond Omollo challenging the public's obsession with gun-haul tallies.",
+      "structure": "Personality lead on Omollo's scorecard pivot -> The Sh4.2 billion infrastructure footprint and 520km road rollout -> The civilian reality check at Ngarachi Comprehensive School -> The shift toward hunting raid financiers and middlemen -> Mashujaa Day Eldoret backdrop.",
+      "source": "https://www.ghafla.co.ke/government-recovers-2600-illegal-firearms-17000-livestock-in-anti-banditry-operations/"
     }
   ],
   "style_history": [
