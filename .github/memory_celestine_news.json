@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "2f9e2062fa3d9d1c151cddacb0c544f0",
     "26ef6bbc794df958d2d9b636e5ea8d51",
     "b0cb77d1fe03ba90d5e6dbaf06bd556d",
     "6c45f405eb1222787afa05b37f9cdfeb",
@@ -799,10 +798,10 @@
     "c1207281716d0d59a519674e3642f8da",
     "f7f138197ac906a73ca6c230a1b012f1",
     "d098d766d263ccbbc8a28c0f549f3df1",
-    "2fa86a737cb7a0b3bec41e56e4bb90b1"
+    "2fa86a737cb7a0b3bec41e56e4bb90b1",
+    "547931793e0c8b49cb7dddd6d1aaf5b5"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1566,7 +1566,8 @@
     "https://kenyans.co.ke/news/129044-how-much-kenyas-highest-paid-teachers-earn-under-new-tsc-salary-structure",
     "https://kenyans.co.ke/news/129048-kenyatta-avenue-viaduct-crosses-50-completion-mark-ruto-announces",
     "https://kenyans.co.ke/news/129050-nairobi-among-counties-experience-hot-november-el-nino-starts-kenya-met",
-    "https://kenyans.co.ke/news/129047-four-political-parties-announce-changes-leadership-headquarters-and-identity"
+    "https://kenyans.co.ke/news/129047-four-political-parties-announce-changes-leadership-headquarters-and-identity",
+    "https://kenyans.co.ke/news/129051-gachagua-disputes-chirchirs-explanation-rironi-mau-summit-road-delays"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2223,7 +2224,8 @@
     "geographic allowances drive top school administrators pay toward ksh270 000 under phase two cba",
     "kenyatta avenue viaduct crosses halfway mark engineering hurdles push opening mid 2027",
     "met warns urban corridors face flash floods amid unseasonal november heat",
-    "parties face seven day window orpp gazettes nairobi relocations leadership sweeps"
+    "parties face seven day window orpp gazettes nairobi relocations leadership sweeps",
+    "chirchir supply chain defense faces scrutiny gachagua claims credit freeze ksh200b mau summit highway"
   ],
   "topic_keys": [
     "news tracker",
@@ -7407,6 +7409,15 @@
       "structure": "Statutory timeline lead -> Geographic migration across Nairobi nodes -> Identity and iconography overhauls -> Executive roster reshuffles -> Seven-day objection window and compliance threshold",
       "source": "https://kenyans.co.ke/news/129047-four-political-parties-announce-changes-leadership-headquarters-and-identity",
       "published_at": "2026-11-01T12:01:38Z"
+    },
+    {
+      "title": "Chirchir's Supply-Chain Defense Faces Scrutiny as Gachagua Claims Credit Freeze on Ksh200B Mau Summit Highway",
+      "angle": "The accountability gap surrounding the Ksh200 billion Northern Corridor expansion, where conflicting narratives\u2014an official global supply chain crisis versus an unverified sovereign financing freeze\u2014leave motorists and contractors facing a revised December deadline without financial clarity.",
+      "angle_type": "accountability",
+      "opening": "Accountability-divergence lead juxtaposing the state's logistical defense against mounting allegations of an external credit freeze on Kenya's most critical transit artery.",
+      "structure": "Conflicting explanations lead -> Operational timeline and Senate revisions (Chirchir) -> Financing freeze allegations and election-risk claims (Gachagua) -> Corridor stakes and physical progress on site -> Unanswered financial and diplomatic questions.",
+      "source": "https://kenyans.co.ke/news/129051-gachagua-disputes-chirchirs-explanation-rironi-mau-summit-road-delays",
+      "published_at": "2026-11-01T13:02:11Z"
     }
   ]
 }
