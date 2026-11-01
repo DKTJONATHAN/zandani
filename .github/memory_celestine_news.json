@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "4e635ff0569ccec791916c6fee2a9e71",
     "f2956faa3b559bc19510147cda7b5788",
     "2f9e2062fa3d9d1c151cddacb0c544f0",
     "26ef6bbc794df958d2d9b636e5ea8d51",
@@ -799,10 +798,10 @@
     "af2d35f9c0c5a9e0c98e50e517d6c9a3",
     "fe01922109461724f1da349660ddd9a5",
     "c1207281716d0d59a519674e3642f8da",
-    "f7f138197ac906a73ca6c230a1b012f1"
+    "f7f138197ac906a73ca6c230a1b012f1",
+    "d098d766d263ccbbc8a28c0f549f3df1"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1564,7 +1564,8 @@
     "https://kenyans.co.ke/news/129045-interior-ministry-warns-kcse-exam-frauderster-says-police-close",
     "https://kenyans.co.ke/news/129046-nlc-eyes-private-land-new-military-air-base",
     "https://kenyans.co.ke/news/129044-how-much-kenyas-highest-paid-teachers-earn-under-new-tsc-salary-structure",
-    "https://kenyans.co.ke/news/129048-kenyatta-avenue-viaduct-crosses-50-completion-mark-ruto-announces"
+    "https://kenyans.co.ke/news/129048-kenyatta-avenue-viaduct-crosses-50-completion-mark-ruto-announces",
+    "https://kenyans.co.ke/news/129050-nairobi-among-counties-experience-hot-november-el-nino-starts-kenya-met"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2219,7 +2220,8 @@
     "state tracks exam fraud syndicates penultimate kcse gets underway",
     "nlc gazettes multi county land seizures military bases transport corridors",
     "geographic allowances drive top school administrators pay toward ksh270 000 under phase two cba",
-    "kenyatta avenue viaduct crosses halfway mark engineering hurdles push opening mid 2027"
+    "kenyatta avenue viaduct crosses halfway mark engineering hurdles push opening mid 2027",
+    "met warns urban corridors face flash floods amid unseasonal november heat"
   ],
   "topic_keys": [
     "news tracker",
@@ -7385,6 +7387,15 @@
       "structure": "Delivery milestone and schedule slippage lead -> Structural complexity and engineering constraints (KURA) -> Financial and historical delays (2020-2025 freeze) -> Network integration (Valley Road, Haile Selassie overpass) -> Pointed close on corridor congestion until May 2027.",
       "source": "https://kenyans.co.ke/news/129048-kenyatta-avenue-viaduct-crosses-50-completion-mark-ruto-announces",
       "published_at": "2026-11-01T10:01:55Z"
+    },
+    {
+      "title": "Kenya Met Warns Urban Corridors Face Flash Floods Amid Unseasonal November Heat",
+      "angle": "Attribution-first scrutiny of the dual climatic strain facing urban transport corridors and infrastructure: high atmospheric heat and humidity driving thermal discomfort while heightened rainfall threatens to overload fragile metropolitan drainage networks.",
+      "angle_type": "consequence",
+      "opening": "Attribution-first statement detailing KMSA's forecast and identifying the commuters, urban residents, and county authorities facing simultaneous heat stress and flood risks.",
+      "structure": "Attribution-first forecast lead -> Climatological mechanics (ITCZ migration, humidity, temperature bands) -> Urban infrastructure vulnerability and flash-flood risks -> Geographic temperature disparities across the highlands, ASAL, and coast -> Immediate logistical outlook for urban centers.",
+      "source": "https://kenyans.co.ke/news/129050-nairobi-among-counties-experience-hot-november-el-nino-starts-kenya-met",
+      "published_at": "2026-11-01T11:02:03Z"
     }
   ]
 }
