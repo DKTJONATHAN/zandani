@@ -107,7 +107,8 @@
     "4c4be7b5f4a6df9726a0c531f1cd60ac018bf46255ba4b76e56588d7305c4f7e",
     "adf38293ba8fee6b4862693a94858d74c234d9d6dfe25aa99bfae42c4ac6f587",
     "06ee3e7194c9375fbc55a5f1bddbc0846efb2eb2319eaf11f874041d768c75af",
-    "a97591084bf864b19cd95bf738d5d85be54f288d2d1e3bb4d04a4d4f5ada144a"
+    "a97591084bf864b19cd95bf738d5d85be54f288d2d1e3bb4d04a4d4f5ada144a",
+    "579a8cc24bf43003cee47a041ee61843ea51fa40a90579f0dd06b76acbf55677"
   ],
   "style_history": [
     "Event Report",
@@ -234,6 +235,10 @@
     {
       "key": "2026-11-01-alex-mwakideu-questions-wantam-vs-tutam-politics-after-sifuna-supporter-suggests-linda-mwananchi-dress-code-at-football-match",
       "ts": "2026-11-01T11:22:58.898939+00:00"
+    },
+    {
+      "key": "2026-11-01-eric-omondi-pens-emotional-birthday-tribute-to-churchill-calls-him-a-true-father",
+      "ts": "2026-11-01T13:23:01.380183+00:00"
     }
   ],
   "urls": [
@@ -245,7 +250,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-10-31-machabe-demands-ksh-10m-for-dna-test-with-dragon-junior",
     "https://www.mpasho.co.ke/entertainment/2026-11-01-carey-priscilla-and-husband-ben-murio-worry-fans-with-risky-mountain-adventure-in-china",
     "https://www.mpasho.co.ke/entertainment/2026-11-01-patrick-rianga-calls-out-goliath-wa-bungoma-for-begging-online-despite-giving-him-a-job",
-    "https://www.mpasho.co.ke/entertainment/2026-11-01-alex-mwakideu-questions-wantam-vs-tutam-politics-after-sifuna-supporter-suggests-linda-mwananchi-dress-code-at-football-match"
+    "https://www.mpasho.co.ke/entertainment/2026-11-01-alex-mwakideu-questions-wantam-vs-tutam-politics-after-sifuna-supporter-suggests-linda-mwananchi-dress-code-at-football-match",
+    "https://www.mpasho.co.ke/entertainment/2026-11-01-eric-omondi-pens-emotional-birthday-tribute-to-churchill-calls-him-a-true-father"
   ],
   "published_angles": [
     {
@@ -311,6 +317,14 @@
       "opening": "Personality-led critique of political dress codes invading neutral sports spaces.",
       "structure": "Lead on Mwakideu's stadium boundary pushback, detail on the 'Linda Mwananchi' merchandise proposal following Ruto's match announcement, direct quote breakdown on the 'Wantam vs Tutam' binary, context on sports as common ground, and factual forward-looking conclusion.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-01-alex-mwakideu-questions-wantam-vs-tutam-politics-after-sifuna-supporter-suggests-linda-mwananchi-dress-code-at-football-match"
+    },
+    {
+      "title": "Eric Omondi Traces Stand-Up Stardom Back to Churchill in Birthday Tribute",
+      "angle": "Focusing on the creative lineage and debt of gratitude in Kenyan comedy\u2014contrasting Eric Omondi's current status as an independent solo force with his public acknowledgement of Daniel Ndambuki's foundational mentorship platform.",
+      "angle_type": "career lineage and mentorship",
+      "opening": "Personality-led lead establishing Omondi's tribute against the backdrop of his independent career trajectory.",
+      "structure": "Person, hook, verified detail, career context, institutional significance, and concrete close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-01-eric-omondi-pens-emotional-birthday-tribute-to-churchill-calls-him-a-true-father"
     }
   ]
 }
