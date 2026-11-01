@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "542ddd022ea18c857c314644639c92d1",
     "e0f81c71cfb7d68698806306c5c94d67",
     "dfdc1ef6e39b2cdc5bd2a59a048449c9",
     "f0a9040494898494ab628fd26da72260",
@@ -799,10 +798,10 @@
     "0bf8f4401f5365c50627c592c1251755",
     "435f95e13fa15297a0c38b5d8451fbbc",
     "e3b80da4029171c360ca4e5422042e16",
-    "66134b074176272575a027191a7baba1"
+    "66134b074176272575a027191a7baba1",
+    "4bc3b75e3f5993858e97718858b0ce2b"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1559,7 +1559,8 @@
     "https://kenyans.co.ke/news/129034-chaos-suspected-goons-storm-odm-rally-nairobi-forcing-leaders-flee",
     "https://kenyans.co.ke/news/129036-family-says-missing-daughters-phone-being-answered-beneath-eastleigh-building-rubble",
     "https://kenyans.co.ke/news/129038-cofek-moves-court-challenge-lusakas-planned-honorary-degree",
-    "https://kenyans.co.ke/news/129040-ruto-appoints-former-minister-njeru-ndwiga-coffee-board-chair"
+    "https://kenyans.co.ke/news/129040-ruto-appoints-former-minister-njeru-ndwiga-coffee-board-chair",
+    "https://kenyans.co.ke/news/129039-kra-recover-unpaid-business-taxes-through-government-pending-bills"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2209,7 +2210,8 @@
     "police guarantees falter jacaranda odm stage breach scrambles cabinet secretaries top brass",
     "eastleigh collapse enters final hours dci probes live rubble phone signal",
     "high court clocks tick down kibabii university honorary degree governor lusaka",
-    "state house realigns coffee value chain ndwiga kinyua take parastatal helms"
+    "state house realigns coffee value chain ndwiga kinyua take parastatal helms",
+    "kra targets ksh175b state pending bills back taxes while carrying ksh5 debt"
   ],
   "topic_keys": [
     "news tracker",
@@ -7330,6 +7332,15 @@
       "structure": "Attribution-first statutory lead -> Coffee sector dual-helm mechanics -> Multi-ministry appointments breakdown (Treasury, Education, Health) -> Mandate implications for sector boards",
       "source": "https://kenyans.co.ke/news/129040-ruto-appoints-former-minister-njeru-ndwiga-coffee-board-chair",
       "published_at": "2026-11-01T06:02:15Z"
+    },
+    {
+      "title": "KRA Targets Ksh175B State Pending Bills for Back Taxes While Carrying Ksh5.5B Debt",
+      "angle": "The operational and financial contradiction of KRA deploying automated cross-checks to intercept suppliers' overdue payments from the state's Ksh175 billion debt pile while the revenue agency itself carries Ksh5.58 billion in unpaid vendor and state-agency arrears.",
+      "angle_type": "accountability",
+      "opening": "Hard news lead focusing on the financial intersection where contractor debt recovery meets KRA's internal ledger obligations.",
+      "structure": "Enforcement interception lead -> Core revenue numbers and parliamentary submission -> Technical mechanics of IFMIS matching and refund offsets -> Scrutiny of KRA's own Ksh5.58 billion pending debt portfolio -> Forward implementation and supplier exposure edge",
+      "source": "https://kenyans.co.ke/news/129039-kra-recover-unpaid-business-taxes-through-government-pending-bills",
+      "published_at": "2026-11-01T07:02:04Z"
     }
   ]
 }
