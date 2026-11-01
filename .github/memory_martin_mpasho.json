@@ -103,7 +103,8 @@
     "669d09701dd880515da2e0a0e0fc56c9cce5b906ac38a68352cdc6a43bed7266",
     "fa363c7cda6d0125a31591d58b7fea8bb507a7c37d387fb85a21a9905884bf0b",
     "0b8649716eda3743f7d95ffbeede46cbdd13e2e9eac616bd6a407e59a9515726",
-    "d03745d39c9b7590a1aeda2815b5655d47b5cb4ac732c78b0ccb1335a6801648"
+    "d03745d39c9b7590a1aeda2815b5655d47b5cb4ac732c78b0ccb1335a6801648",
+    "4c4be7b5f4a6df9726a0c531f1cd60ac018bf46255ba4b76e56588d7305c4f7e"
   ],
   "style_history": [
     "Event Report",
@@ -214,6 +215,10 @@
     {
       "key": "2026-10-31-shenseea-stuns-fans-with-guardians-of-the-galaxy-mantis-costume",
       "ts": "2026-11-01T03:22:59.827997+00:00"
+    },
+    {
+      "key": "2026-10-31-machabe-demands-ksh-10m-for-dna-test-with-dragon-junior",
+      "ts": "2026-11-01T05:23:05.787570+00:00"
     }
   ],
   "urls": [
@@ -221,7 +226,8 @@
     "https://www.mpasho.co.ke/lifestyle-yetu",
     "https://www.mpasho.co.ke/human-interest",
     "https://www.mpasho.co.ke/entertainment/2026-10-31-terence-creative-issues-expensive-challenge-to-forex-traders",
-    "https://www.mpasho.co.ke/entertainment/2026-10-31-shenseea-stuns-fans-with-guardians-of-the-galaxy-mantis-costume"
+    "https://www.mpasho.co.ke/entertainment/2026-10-31-shenseea-stuns-fans-with-guardians-of-the-galaxy-mantis-costume",
+    "https://www.mpasho.co.ke/entertainment/2026-10-31-machabe-demands-ksh-10m-for-dna-test-with-dragon-junior"
   ],
   "published_angles": [
     {
@@ -255,6 +261,14 @@
       "opening": "Personality-led focus on Shenseea breaking away from traditional spooky themes to unveil a precise sci-fi transformation.",
       "structure": "Celebrity lead, detailed look breakdown, character context, audience engagement, and broader visual branding context.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-10-31-shenseea-stuns-fans-with-guardians-of-the-galaxy-mantis-costume"
+    },
+    {
+      "title": "Machabe Sets KSh 10 Million DNA Test Condition as Stevo Simple Boy Paternity Drama Escalates Online",
+      "angle": "Focusing on Machabe setting a concrete financial threshold for public paternity claims, using his stated personal earnings to reframe online commentary into an expensive challenge.",
+      "angle_type": "money",
+      "opening": "Personality lead introducing Machabe's KSh 10 million condition to clear public paternity claims.",
+      "structure": "Person lead, verified financial condition and interview statements, income defense, underlying background of Stevo Simple Boy's test result, and clear status close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-10-31-machabe-demands-ksh-10m-for-dna-test-with-dragon-junior"
     }
   ]
 }
