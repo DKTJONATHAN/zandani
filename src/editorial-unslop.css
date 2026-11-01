@@ -624,3 +624,50 @@ select:focus-visible {
     transition: none !important;
   }
 }
+
+
+/* Fix: prevent page content from showing through the fixed mobile tab bar.
+   The previous translucent background + backdrop blur allowed text and icons
+   behind the bar to remain visible on some Android browsers. */
+@media (max-width: 1023px) {
+  .mobile-bottom-nav {
+    background: #080808 !important;
+    background-color: #080808 !important;
+    background-image: none !important;
+    opacity: 1 !important;
+    isolation: isolate;
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+    box-shadow: 0 -1px 0 #302b26 !important;
+  }
+
+  .mobile-bottom-nav::before,
+  .mobile-bottom-nav::after {
+    content: none !important;
+    display: none !important;
+  }
+
+  .mobile-bottom-nav__inner {
+    position: relative;
+    z-index: 1;
+    background: #080808 !important;
+    opacity: 1 !important;
+  }
+
+  .mobile-bottom-nav__tab {
+    background-color: transparent;
+    opacity: 1 !important;
+  }
+
+  .mobile-bottom-nav__tab.is-active {
+    color: #ff6a2a !important;
+  }
+
+  .mobile-bottom-nav__tab:not(.is-active) {
+    color: #d2cbc1 !important;
+  }
+
+  .mobile-bottom-nav__tab.is-active .mobile-bottom-nav__icon-wrap {
+    background: #281307 !important;
+  }
+}
