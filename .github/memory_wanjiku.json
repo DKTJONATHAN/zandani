@@ -333,7 +333,8 @@
     "0688790a8ddf7a00d0d9366987bd8a7a4a4b9ecd32558915ec705899ffe7abac",
     "63dfd1874c7b4b61bd0dee2b293c5e044fd9b49ca5502d2f3e0c463cc83e14ee",
     "de504474dac7ee90188a6e2ec6436ef51bc345f3dba914bf1b00b0933e4bdafd",
-    "a939243e5dc1002c6f967f3a42980c398c85ebb7cf9654787e0e76a73ac79f5f"
+    "a939243e5dc1002c6f967f3a42980c398c85ebb7cf9654787e0e76a73ac79f5f",
+    "4d802fde024749c1c8388111213ce188027def65e3dc72f618f0607f29b6e757"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -669,17 +670,10 @@
     "https://www.ghafla.co.ke/we-are-not-there-blindly-oburu-oginga-defends-odms-role-in-broad-based-government-2/",
     "https://www.ghafla.co.ke/sifuna-unveils-linda-mwananchi-leadership-lineup-ahead-of-national-delegates-conference/",
     "https://www.ghafla.co.ke/we-are-not-there-blindly-oburu-oginga-defends-odms-role-in-broad-based-government/",
-    "https://www.ghafla.co.ke/okiya-omtatah-dismisses-viral-card-claiming-he-will-challenge-linda-mwananchi-movement/"
+    "https://www.ghafla.co.ke/okiya-omtatah-dismisses-viral-card-claiming-he-will-challenge-linda-mwananchi-movement/",
+    "https://www.ghafla.co.ke/chaos-as-suspected-goons-disrupt-odm-rally-at-jacaranda-grounds/"
   ],
   "published_angles": [
-    {
-      "title": "William Ruto Slaps \u2018Primitive\u2019 Tag on Rivals, Daring Ethnic Math Planners to Bring Real Agendas to the Ballot",
-      "angle": "Reframing the statement through Ruto's personality-driven rhetoric, focusing on his deliberate branding of rivals' tactics as 'primitive and outdated' and his gauntlet challenging them to an agenda-only showdown at the ballot box.",
-      "angle_type": "celebrity political clapback and rhetorical duel",
-      "opening": "Personality lead opening directly on William Ruto cutting through political pleasantries to slap a 'primitive' label on his rivals' strategy.",
-      "structure": "Personality hook -> Verbatim takedown of 'tribal arithmetic' -> Anatomy of the 'primitive and outdated' diagnosis -> Ballot box challenge -> Confidence in the discerning electorate -> Closing on the policy battle lines",
-      "source": "https://www.ghafla.co.ke/ruto-says-kenyans-want-development-agenda-not-tribal-politics/"
-    },
     {
       "title": "Beyond the Podium: How the North Rift is Stitching Three Counties Together for Mashujaa Day",
       "angle": "The logistical and sporting 'tri-county' experiment; how the state is using a major national holiday to rebrand the North Rift as an integrated sports-economy hub rather than just a political power base.",
@@ -1471,6 +1465,14 @@
       "opening": "Personality lead opening directly on Okiya Omtatah dismantling the viral graphic fabricated in his name.",
       "structure": "Personality hook -> Anatomy of the fake card and the misspelt surname -> Omtatah's clapback on digital clout-chasing -> Political backdrop of Sifuna's Linda Mwananchi rollout -> Forward-looking NDC milestone.",
       "source": "https://www.ghafla.co.ke/okiya-omtatah-dismisses-viral-card-claiming-he-will-challenge-linda-mwananchi-movement/"
+    },
+    {
+      "title": "\u2018Msitoroke!\u2019: Stage Invader Grabs Live Mic as Jacaranda ODM Showcase Descends into Chaos",
+      "angle": "Spotlighting the surreal live-podium takeover during the VIP roll call, where an intruder seized the PA system to shout 'Msitoroke' to an already fleeing crowd while party heavyweights scrambled off the stage.",
+      "angle_type": "podium spectacle and live stage disruption",
+      "opening": "Personality-led stage moment focusing on the live-mic capture and the intruder barking 'Msitoroke' into the PA system mid-introduction.",
+      "structure": "Stage hijack hook -> The mic grab during VIP introductions -> Scramble for safety and venue panic -> Commemorative 'Mwezi wa Baba' context -> Factional tension and Ruto cooperation backdrop",
+      "source": "https://www.ghafla.co.ke/chaos-as-suspected-goons-disrupt-odm-rally-at-jacaranda-grounds/"
     }
   ],
   "style_history": [
