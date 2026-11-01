@@ -112,7 +112,8 @@
     "6e21aa15630230bae3beebcfb206b0421fb6cac5e3a7c13325dc4fa68f7014a7",
     "d46250e4804c87d0bb0132938f912c94e960f70793f81efe2cbd1caf8b5b6428",
     "6d330834e1945b7c6c5e9253d3c21bb357dd05f70f036dedc20d83aa09464ab9",
-    "5a0310b4172099cb90c21dc75146414a9bc9cf80079eeade35843e63eed661af"
+    "5a0310b4172099cb90c21dc75146414a9bc9cf80079eeade35843e63eed661af",
+    "9c4dd4f205c19f776660e4807ea35872f0c213c8736e3c5c8b034e6566ea1359"
   ],
   "style_history": [
     "Event Report",
@@ -259,6 +260,10 @@
     {
       "key": "2026-11-01-kenyan-shenseea-lookalike-wanjema-warns-fans-against-skincare-after-skin-damage",
       "ts": "2026-11-01T21:23:30.463780+00:00"
+    },
+    {
+      "key": "2026-11-01-aisha-saringe-reveals-bahati-paid-her-the-least-while-bien-paid-her-the-most",
+      "ts": "2026-11-01T23:23:21.541247+00:00"
     }
   ],
   "urls": [
@@ -275,7 +280,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-01-popular-comedian-kufai-marries-longtime-lover-lucy-muthoni-in-a-beautiful-church-wedding-in-naivasha",
     "https://www.mpasho.co.ke/entertainment/2026-11-01-nihan-reveals-flossin-registered-mercedes-benz-gifted-to-her-under-his-name",
     "https://www.mpasho.co.ke/entertainment/2026-11-01-flaqo-raz-breaks-silence-on-alma-mutheu-pregnancy-rumours-says-he-is-ready-to-ride-the-clout-wave",
-    "https://www.mpasho.co.ke/entertainment/2026-11-01-kenyan-shenseea-lookalike-wanjema-warns-fans-against-skincare-after-skin-damage"
+    "https://www.mpasho.co.ke/entertainment/2026-11-01-kenyan-shenseea-lookalike-wanjema-warns-fans-against-skincare-after-skin-damage",
+    "https://www.mpasho.co.ke/entertainment/2026-11-01-aisha-saringe-reveals-bahati-paid-her-the-least-while-bien-paid-her-the-most"
   ],
   "published_angles": [
     {
@@ -381,6 +387,14 @@
       "opening": "Personality lead focusing on Wanjema rejecting the digital beauty playbook and instructing her audience to quit skincare entirely.",
       "structure": "Personality hook -> Verbatim TikTok admission -> Lookalike branding context -> Analysis of digital beauty pressure -> Dermatological caution close",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-01-kenyan-shenseea-lookalike-wanjema-warns-fans-against-skincare-after-skin-damage"
+    },
+    {
+      "title": "Aisha Saringe Names Bahati as Lowest Video Payday, Credits Bien With Career High",
+      "angle": "The commercial disparity and opaque wage structure facing on-screen talent in Nairobi\u2019s music video production sector.",
+      "angle_type": "money",
+      "opening": "Personality lead introducing Saringe directly naming top-tier artists at opposing ends of her professional balance sheet.",
+      "structure": "Personality hook -> Verbatim disclosure -> Commercial context of video set compensation -> Profile of the two artists' production approaches -> Industry wage opacity close",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-01-aisha-saringe-reveals-bahati-paid-her-the-least-while-bien-paid-her-the-most"
     }
   ]
 }
