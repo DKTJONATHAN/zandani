@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "b0cb77d1fe03ba90d5e6dbaf06bd556d",
     "6c45f405eb1222787afa05b37f9cdfeb",
     "19447de151168d58b9081b0ef886160b",
     "2f9bbc147db552955aeb35dbfd72df02",
@@ -799,10 +798,10 @@
     "d098d766d263ccbbc8a28c0f549f3df1",
     "2fa86a737cb7a0b3bec41e56e4bb90b1",
     "547931793e0c8b49cb7dddd6d1aaf5b5",
-    "5a1be7e258c86982b8df30eaa11796b2"
+    "5a1be7e258c86982b8df30eaa11796b2",
+    "93cc10aff5b7375aeb0e9726271c4e1a"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1568,7 +1568,8 @@
     "https://kenyans.co.ke/news/129050-nairobi-among-counties-experience-hot-november-el-nino-starts-kenya-met",
     "https://kenyans.co.ke/news/129047-four-political-parties-announce-changes-leadership-headquarters-and-identity",
     "https://kenyans.co.ke/news/129051-gachagua-disputes-chirchirs-explanation-rironi-mau-summit-road-delays",
-    "https://kenyans.co.ke/news/129053-chaos-goons-disrupt-radio-citizen-event"
+    "https://kenyans.co.ke/news/129053-chaos-goons-disrupt-radio-citizen-event",
+    "https://kenyans.co.ke/news/129054-knec-adds-wristwatches-list-items-banned-during-national-exams"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2227,7 +2228,8 @@
     "met warns urban corridors face flash floods amid unseasonal november heat",
     "parties face seven day window orpp gazettes nairobi relocations leadership sweeps",
     "chirchir supply chain defense faces scrutiny gachagua claims credit freeze ksh200b mau summit highway",
-    "busia ecde query sparks broadcast clash goons test nps gang crackdown"
+    "busia ecde query sparks broadcast clash goons test nps gang crackdown",
+    "knec strips candidates personal watches shifting exam timekeeping centre clocks"
   ],
   "topic_keys": [
     "news tracker",
@@ -7429,6 +7431,15 @@
       "structure": "Lead on silenced devolved oversight -> Factual reconstruction of the Alupe University disruption and the ECDE trigger question -> Broadcaster evacuation and police intervention -> Wider pattern of media hostility and NPS command liability",
       "source": "https://kenyans.co.ke/news/129053-chaos-goons-disrupt-radio-citizen-event",
       "published_at": "2026-11-01T14:02:06Z"
+    },
+    {
+      "title": "KNEC Strips Candidates of Personal Watches, Shifting Exam Timekeeping to Centre Clocks",
+      "angle": "Focusing on the operational shift of timekeeping liability from candidates to exam centre managers, who must now guarantee facility-level wall clock coverage across all rooms right as high-volume subject papers begin in week three.",
+      "angle_type": "practical change",
+      "opening": "Operational-mandate lead establishing the immediate withdrawal of candidate wristwear and the corresponding requirement for room-by-room facility wall clocks.",
+      "structure": "Operational-mandate lead -> Core factual scope of the analogue ban expansion -> Infrastructure shift to centre managers during week-three high-volume papers -> Broader restricted gear baseline -> Mandatory daily container and personnel compliance.",
+      "source": "https://kenyans.co.ke/news/129054-knec-adds-wristwatches-list-items-banned-during-national-exams",
+      "published_at": "2026-11-01T15:02:06Z"
     }
   ]
 }
