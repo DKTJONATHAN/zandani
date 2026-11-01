@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f2956faa3b559bc19510147cda7b5788",
     "2f9e2062fa3d9d1c151cddacb0c544f0",
     "26ef6bbc794df958d2d9b636e5ea8d51",
     "b0cb77d1fe03ba90d5e6dbaf06bd556d",
@@ -799,10 +798,10 @@
     "fe01922109461724f1da349660ddd9a5",
     "c1207281716d0d59a519674e3642f8da",
     "f7f138197ac906a73ca6c230a1b012f1",
-    "d098d766d263ccbbc8a28c0f549f3df1"
+    "d098d766d263ccbbc8a28c0f549f3df1",
+    "2fa86a737cb7a0b3bec41e56e4bb90b1"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1565,7 +1565,8 @@
     "https://kenyans.co.ke/news/129046-nlc-eyes-private-land-new-military-air-base",
     "https://kenyans.co.ke/news/129044-how-much-kenyas-highest-paid-teachers-earn-under-new-tsc-salary-structure",
     "https://kenyans.co.ke/news/129048-kenyatta-avenue-viaduct-crosses-50-completion-mark-ruto-announces",
-    "https://kenyans.co.ke/news/129050-nairobi-among-counties-experience-hot-november-el-nino-starts-kenya-met"
+    "https://kenyans.co.ke/news/129050-nairobi-among-counties-experience-hot-november-el-nino-starts-kenya-met",
+    "https://kenyans.co.ke/news/129047-four-political-parties-announce-changes-leadership-headquarters-and-identity"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2221,7 +2222,8 @@
     "nlc gazettes multi county land seizures military bases transport corridors",
     "geographic allowances drive top school administrators pay toward ksh270 000 under phase two cba",
     "kenyatta avenue viaduct crosses halfway mark engineering hurdles push opening mid 2027",
-    "met warns urban corridors face flash floods amid unseasonal november heat"
+    "met warns urban corridors face flash floods amid unseasonal november heat",
+    "parties face seven day window orpp gazettes nairobi relocations leadership sweeps"
   ],
   "topic_keys": [
     "news tracker",
@@ -7396,6 +7398,15 @@
       "structure": "Attribution-first forecast lead -> Climatological mechanics (ITCZ migration, humidity, temperature bands) -> Urban infrastructure vulnerability and flash-flood risks -> Geographic temperature disparities across the highlands, ASAL, and coast -> Immediate logistical outlook for urban centers.",
       "source": "https://kenyans.co.ke/news/129050-nairobi-among-counties-experience-hot-november-el-nino-starts-kenya-met",
       "published_at": "2026-11-01T11:02:03Z"
+    },
+    {
+      "title": "Parties Face Seven-Day Window as ORPP Gazettes Nairobi Relocations, Leadership Sweeps",
+      "angle": "The operational and geographic realignment underway across mid-tier and fringe political outfits as they initiate the statutory seven-day public review window, shedding old ballot iconography and relocating across Nairobi's diplomatic and suburban corridors to reposition themselves before coalition bargaining solidifies.",
+      "angle_type": "practical change",
+      "opening": "Statutory-countdown lead linking the ORPP gazettement to the operational restructuring and geographic relocation of four political parties across Nairobi.",
+      "structure": "Statutory timeline lead -> Geographic migration across Nairobi nodes -> Identity and iconography overhauls -> Executive roster reshuffles -> Seven-day objection window and compliance threshold",
+      "source": "https://kenyans.co.ke/news/129047-four-political-parties-announce-changes-leadership-headquarters-and-identity",
+      "published_at": "2026-11-01T12:01:38Z"
     }
   ]
 }
