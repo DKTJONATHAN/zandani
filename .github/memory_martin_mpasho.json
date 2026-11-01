@@ -110,7 +110,8 @@
     "a97591084bf864b19cd95bf738d5d85be54f288d2d1e3bb4d04a4d4f5ada144a",
     "579a8cc24bf43003cee47a041ee61843ea51fa40a90579f0dd06b76acbf55677",
     "6e21aa15630230bae3beebcfb206b0421fb6cac5e3a7c13325dc4fa68f7014a7",
-    "d46250e4804c87d0bb0132938f912c94e960f70793f81efe2cbd1caf8b5b6428"
+    "d46250e4804c87d0bb0132938f912c94e960f70793f81efe2cbd1caf8b5b6428",
+    "6d330834e1945b7c6c5e9253d3c21bb357dd05f70f036dedc20d83aa09464ab9"
   ],
   "style_history": [
     "Event Report",
@@ -249,6 +250,10 @@
     {
       "key": "2026-11-01-nihan-reveals-flossin-registered-mercedes-benz-gifted-to-her-under-his-name",
       "ts": "2026-11-01T17:22:23.628137+00:00"
+    },
+    {
+      "key": "2026-11-01-flaqo-raz-breaks-silence-on-alma-mutheu-pregnancy-rumours-says-he-is-ready-to-ride-the-clout-wave",
+      "ts": "2026-11-01T19:27:03.819075+00:00"
     }
   ],
   "urls": [
@@ -263,7 +268,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-01-alex-mwakideu-questions-wantam-vs-tutam-politics-after-sifuna-supporter-suggests-linda-mwananchi-dress-code-at-football-match",
     "https://www.mpasho.co.ke/entertainment/2026-11-01-eric-omondi-pens-emotional-birthday-tribute-to-churchill-calls-him-a-true-father",
     "https://www.mpasho.co.ke/entertainment/2026-11-01-popular-comedian-kufai-marries-longtime-lover-lucy-muthoni-in-a-beautiful-church-wedding-in-naivasha",
-    "https://www.mpasho.co.ke/entertainment/2026-11-01-nihan-reveals-flossin-registered-mercedes-benz-gifted-to-her-under-his-name"
+    "https://www.mpasho.co.ke/entertainment/2026-11-01-nihan-reveals-flossin-registered-mercedes-benz-gifted-to-her-under-his-name",
+    "https://www.mpasho.co.ke/entertainment/2026-11-01-flaqo-raz-breaks-silence-on-alma-mutheu-pregnancy-rumours-says-he-is-ready-to-ride-the-clout-wave"
   ],
   "published_angles": [
     {
@@ -353,6 +359,14 @@
       "opening": "Personality lead focusing directly on Nihan clarifying the vehicle's logbook status.",
       "structure": "Person lead -> TikTok Live admission -> Legal registration reality vs driving privileges -> Historical context involving ex YBK -> Public reaction split -> Concrete status close.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-01-nihan-reveals-flossin-registered-mercedes-benz-gifted-to-her-under-his-name"
+    },
+    {
+      "title": "Flaqo Denies Fathering Alma Mutheu\u2019s Baby, Offers to \u2018Go With the Flow\u2019 on Viral Gossip",
+      "angle": "Framing Flaqo's response around his pragmatic commodification of personal scandal, where an outright paternity denial sits alongside an open willingness to feed Kenya's viral influencer algorithm.",
+      "angle_type": "creator strategy",
+      "opening": "Personality lead focusing on Flaqo drawing a firm line on paternity before pivoting to algorithmic opportunism.",
+      "structure": "Person and hook -> On-air exchange with Ankali Ray -> Origins of the rumour via BNN Premium -> Algorithmic opportunism vs boundary setting -> Close on the unresolved pregnancy speculation.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-01-flaqo-raz-breaks-silence-on-alma-mutheu-pregnancy-rumours-says-he-is-ready-to-ride-the-clout-wave"
     }
   ]
 }
