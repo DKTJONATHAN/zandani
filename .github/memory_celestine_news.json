@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "0100a633411ca6fe819def9a16153c8b",
     "4e635ff0569ccec791916c6fee2a9e71",
     "f2956faa3b559bc19510147cda7b5788",
     "2f9e2062fa3d9d1c151cddacb0c544f0",
@@ -799,10 +798,10 @@
     "4bc3b75e3f5993858e97718858b0ce2b",
     "af2d35f9c0c5a9e0c98e50e517d6c9a3",
     "fe01922109461724f1da349660ddd9a5",
-    "c1207281716d0d59a519674e3642f8da"
+    "c1207281716d0d59a519674e3642f8da",
+    "f7f138197ac906a73ca6c230a1b012f1"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1563,7 +1563,8 @@
     "https://kenyans.co.ke/news/129039-kra-recover-unpaid-business-taxes-through-government-pending-bills",
     "https://kenyans.co.ke/news/129045-interior-ministry-warns-kcse-exam-frauderster-says-police-close",
     "https://kenyans.co.ke/news/129046-nlc-eyes-private-land-new-military-air-base",
-    "https://kenyans.co.ke/news/129044-how-much-kenyas-highest-paid-teachers-earn-under-new-tsc-salary-structure"
+    "https://kenyans.co.ke/news/129044-how-much-kenyas-highest-paid-teachers-earn-under-new-tsc-salary-structure",
+    "https://kenyans.co.ke/news/129048-kenyatta-avenue-viaduct-crosses-50-completion-mark-ruto-announces"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2217,7 +2218,8 @@
     "kra targets ksh175b state pending bills back taxes while carrying ksh5 debt",
     "state tracks exam fraud syndicates penultimate kcse gets underway",
     "nlc gazettes multi county land seizures military bases transport corridors",
-    "geographic allowances drive top school administrators pay toward ksh270 000 under phase two cba"
+    "geographic allowances drive top school administrators pay toward ksh270 000 under phase two cba",
+    "kenyatta avenue viaduct crosses halfway mark engineering hurdles push opening mid 2027"
   ],
   "topic_keys": [
     "news tracker",
@@ -7374,6 +7376,15 @@
       "structure": "Geographic pay disparity lead -> Factual breakdown of the apex D5 pay scale and allowances -> Secondary administrative tiers (D4 and D3) -> Structural terms, incremental rules, and intern exclusion -> Multi-stage CBA context",
       "source": "https://kenyans.co.ke/news/129044-how-much-kenyas-highest-paid-teachers-earn-under-new-tsc-salary-structure",
       "published_at": "2026-11-01T09:06:37Z"
+    },
+    {
+      "title": "Kenyatta Avenue Viaduct Crosses Halfway Mark as Engineering Hurdles Push Opening to Mid-2027",
+      "angle": "Focusing on the project delivery timeline: the viaduct crossing the halfway mark coincides with a formal five-month delay past its December 2026 target into mid-2027, driven by complex structural engineering after years of stalled progress over contractor payment disputes.",
+      "angle_type": "timing",
+      "opening": "Milestone-versus-schedule lead juxtaposing the 50 percent structural threshold against the five-month delay pushing final delivery into mid-2027.",
+      "structure": "Delivery milestone and schedule slippage lead -> Structural complexity and engineering constraints (KURA) -> Financial and historical delays (2020-2025 freeze) -> Network integration (Valley Road, Haile Selassie overpass) -> Pointed close on corridor congestion until May 2027.",
+      "source": "https://kenyans.co.ke/news/129048-kenyatta-avenue-viaduct-crosses-50-completion-mark-ruto-announces",
+      "published_at": "2026-11-01T10:01:55Z"
     }
   ]
 }
