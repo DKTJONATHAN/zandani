@@ -335,7 +335,8 @@
     "de504474dac7ee90188a6e2ec6436ef51bc345f3dba914bf1b00b0933e4bdafd",
     "a939243e5dc1002c6f967f3a42980c398c85ebb7cf9654787e0e76a73ac79f5f",
     "4d802fde024749c1c8388111213ce188027def65e3dc72f618f0607f29b6e757",
-    "9b69048c1c54fb3c1faa4b65a2c36eb0c9beefa3176a48c970410b5516d69ebb"
+    "9b69048c1c54fb3c1faa4b65a2c36eb0c9beefa3176a48c970410b5516d69ebb",
+    "666d87bd3c7c60cf7f8649cec8e864fc87589d7401f5603626a485f056c5f7d0"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -673,17 +674,10 @@
     "https://www.ghafla.co.ke/we-are-not-there-blindly-oburu-oginga-defends-odms-role-in-broad-based-government/",
     "https://www.ghafla.co.ke/okiya-omtatah-dismisses-viral-card-claiming-he-will-challenge-linda-mwananchi-movement/",
     "https://www.ghafla.co.ke/chaos-as-suspected-goons-disrupt-odm-rally-at-jacaranda-grounds/",
-    "https://www.ghafla.co.ke/government-recovers-2600-illegal-firearms-17000-livestock-in-anti-banditry-operations/"
+    "https://www.ghafla.co.ke/government-recovers-2600-illegal-firearms-17000-livestock-in-anti-banditry-operations/",
+    "https://www.ghafla.co.ke/kenya-power-announces-sunday-outages-in-nairobi-eight-counties/"
   ],
   "published_angles": [
-    {
-      "title": "Esther Arunga Strikes \u2018Timberlake\u2019 From Legal Record, Reclaiming Maiden Name 16 Years Later",
-      "angle": "Framing the legal filing through the quiet, bureaucratic dismantling of a 16-year marital saga that derailed her prime-time broadcast career, highlighted by the Nairobi legal paper trail and a local postal box while Timberlake remains in Australian immigration custody.",
-      "angle_type": "celebrity legal reset and personal closure",
-      "opening": "Personality lead opening directly on Esther Arunga using a registered Nairobi deed poll to strike out the surname that defined sixteen years of scandal and tragedy.",
-      "structure": "Personality hook -> Specifics of the deed poll filing via LAK Advocates -> The 2010 marriage and Australian tragedy -> Judicial outcomes and Timberlake's detention status -> The Nairobi postal trail and unanswered location question.",
-      "source": "https://www.ghafla.co.ke/former-news-anchor-esther-arunga-formally-drops-name-timberlake-via-gazette-notice/"
-    },
     {
       "title": "Catherine Omanyo Slams Online Death-Wish Trolls as Dr. Oburu Oginga Nears Hospital Discharge",
       "angle": "Focusing on the personal friction between political hospital gossip cycles and Omanyo's sharp rebuke of death-wish commentators while detailing Dr. Oburu's local versus UK medical recovery timeline.",
@@ -1475,6 +1469,14 @@
       "opening": "Personality lead opening directly on Raymond Omollo challenging the public's obsession with gun-haul tallies.",
       "structure": "Personality lead on Omollo's scorecard pivot -> The Sh4.2 billion infrastructure footprint and 520km road rollout -> The civilian reality check at Ngarachi Comprehensive School -> The shift toward hunting raid financiers and middlemen -> Mashujaa Day Eldoret backdrop.",
       "source": "https://www.ghafla.co.ke/government-recovers-2600-illegal-firearms-17000-livestock-in-anti-banditry-operations/"
+    },
+    {
+      "title": "Sunday Outages Hit Key Weekend Hotspots as Kenya Power Schedules Grid Shutoff Across Eight Counties",
+      "angle": "Focusing on the operational burden placed on Sunday leisure, hospitality, and commercial retail corridors\u2014specifically major resort destinations, regional shopping centers, and coastal weekend spots\u2014during an eight-to-nine-hour grid shutdown.",
+      "angle_type": "hospitality and commercial leisure disruption",
+      "opening": "Direct focus on the commercial leisure footprint impacted by the multi-county Sunday blackout schedule.",
+      "structure": "Hospitality and retail blackout hook -> Kiambu and Machakos leisure belt breakdown -> Coastal hospitality strip in Kilifi -> Extended multi-county regional coverage (Kitui, Kisumu, Siaya, Bungoma) -> Concrete timeline and operational wrap-up.",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-sunday-outages-in-nairobi-eight-counties/"
     }
   ],
   "style_history": [
