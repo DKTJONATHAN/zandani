@@ -108,7 +108,8 @@
     "adf38293ba8fee6b4862693a94858d74c234d9d6dfe25aa99bfae42c4ac6f587",
     "06ee3e7194c9375fbc55a5f1bddbc0846efb2eb2319eaf11f874041d768c75af",
     "a97591084bf864b19cd95bf738d5d85be54f288d2d1e3bb4d04a4d4f5ada144a",
-    "579a8cc24bf43003cee47a041ee61843ea51fa40a90579f0dd06b76acbf55677"
+    "579a8cc24bf43003cee47a041ee61843ea51fa40a90579f0dd06b76acbf55677",
+    "6e21aa15630230bae3beebcfb206b0421fb6cac5e3a7c13325dc4fa68f7014a7"
   ],
   "style_history": [
     "Event Report",
@@ -239,6 +240,10 @@
     {
       "key": "2026-11-01-eric-omondi-pens-emotional-birthday-tribute-to-churchill-calls-him-a-true-father",
       "ts": "2026-11-01T13:23:01.380183+00:00"
+    },
+    {
+      "key": "2026-11-01-popular-comedian-kufai-marries-longtime-lover-lucy-muthoni-in-a-beautiful-church-wedding-in-naivasha",
+      "ts": "2026-11-01T15:24:43.604553+00:00"
     }
   ],
   "urls": [
@@ -251,7 +256,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-01-carey-priscilla-and-husband-ben-murio-worry-fans-with-risky-mountain-adventure-in-china",
     "https://www.mpasho.co.ke/entertainment/2026-11-01-patrick-rianga-calls-out-goliath-wa-bungoma-for-begging-online-despite-giving-him-a-job",
     "https://www.mpasho.co.ke/entertainment/2026-11-01-alex-mwakideu-questions-wantam-vs-tutam-politics-after-sifuna-supporter-suggests-linda-mwananchi-dress-code-at-football-match",
-    "https://www.mpasho.co.ke/entertainment/2026-11-01-eric-omondi-pens-emotional-birthday-tribute-to-churchill-calls-him-a-true-father"
+    "https://www.mpasho.co.ke/entertainment/2026-11-01-eric-omondi-pens-emotional-birthday-tribute-to-churchill-calls-him-a-true-father",
+    "https://www.mpasho.co.ke/entertainment/2026-11-01-popular-comedian-kufai-marries-longtime-lover-lucy-muthoni-in-a-beautiful-church-wedding-in-naivasha"
   ],
   "published_angles": [
     {
@@ -325,6 +331,14 @@
       "opening": "Personality-led lead establishing Omondi's tribute against the backdrop of his independent career trajectory.",
       "structure": "Person, hook, verified detail, career context, institutional significance, and concrete close.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-01-eric-omondi-pens-emotional-birthday-tribute-to-churchill-calls-him-a-true-father"
+    },
+    {
+      "title": "Comedian Kufai Weds Lucy Muthoni in Naivasha as Kikuyu Creative Fraternity Shows Up in Force",
+      "angle": "Framing Kufai\u2019s Naivasha church wedding through the tight fraternity of Mount Kenya's digital comedy and gospel circuit, highlighting how his milestone drew key regional heavyweights to rally behind one of their core vernacular content creators.",
+      "angle_type": "creative community and industry kinship",
+      "opening": "Personality-led opening focusing on Kufai taking center stage in Naivasha alongside key regional creators.",
+      "structure": "Person and milestone hook, verified wedding and church details, guest list breakdown showing regional creative solidarity, career context, and reception close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-01-popular-comedian-kufai-marries-longtime-lover-lucy-muthoni-in-a-beautiful-church-wedding-in-naivasha"
     }
   ]
 }
