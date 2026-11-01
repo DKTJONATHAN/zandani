@@ -332,7 +332,8 @@
     "00274f32fa3883b5da88d448ff45c0d7d4b804434dfa21b6f7a25dbf82a071c9",
     "0688790a8ddf7a00d0d9366987bd8a7a4a4b9ecd32558915ec705899ffe7abac",
     "63dfd1874c7b4b61bd0dee2b293c5e044fd9b49ca5502d2f3e0c463cc83e14ee",
-    "de504474dac7ee90188a6e2ec6436ef51bc345f3dba914bf1b00b0933e4bdafd"
+    "de504474dac7ee90188a6e2ec6436ef51bc345f3dba914bf1b00b0933e4bdafd",
+    "a939243e5dc1002c6f967f3a42980c398c85ebb7cf9654787e0e76a73ac79f5f"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -667,17 +668,10 @@
     "https://www.ghafla.co.ke/tim-wanyonyi-joins-edwin-sifunas-linda-mwananchi-movement-ahead-of-2027-elections/",
     "https://www.ghafla.co.ke/we-are-not-there-blindly-oburu-oginga-defends-odms-role-in-broad-based-government-2/",
     "https://www.ghafla.co.ke/sifuna-unveils-linda-mwananchi-leadership-lineup-ahead-of-national-delegates-conference/",
-    "https://www.ghafla.co.ke/we-are-not-there-blindly-oburu-oginga-defends-odms-role-in-broad-based-government/"
+    "https://www.ghafla.co.ke/we-are-not-there-blindly-oburu-oginga-defends-odms-role-in-broad-based-government/",
+    "https://www.ghafla.co.ke/okiya-omtatah-dismisses-viral-card-claiming-he-will-challenge-linda-mwananchi-movement/"
   ],
   "published_angles": [
-    {
-      "title": "William Ruto Pulls Out Four-Vote Loyalty Receipt on Uhuru, Brands Broken \u201910-10\u2019 Pact a Con Ahead of 2027",
-      "angle": "Reframing the North Rift podium address as an unvarnished relationship post-mortem, spotlighting Ruto brandishing his personal four-vote loyalty receipt and the broken 'kumi-kumi' covenant as a cautionary buyer-beware tale for Uhuru's current political suitors.",
-      "angle_type": "personal betrayal ledger and political fallout",
-      "opening": "Personality lead opening squarely on William Ruto putting his broken brotherhood with Uhuru Kenyatta on full public display with a four-vote receipt.",
-      "structure": "Personality betrayal hook -> The exact 'ukanitapeli' ledger and broken 10-10 pact -> Warning to Uhuru's newest opposition partners -> Context of the North Rift tour -> Closing on the lingering political grudge heading toward 2027.",
-      "source": "https://www.ghafla.co.ke/you-betrayed-me-president-ruto-escalates-attack-on-uhuru-kenyatta-during-north-rift-tour/"
-    },
     {
       "title": "William Ruto Slaps \u2018Primitive\u2019 Tag on Rivals, Daring Ethnic Math Planners to Bring Real Agendas to the Ballot",
       "angle": "Reframing the statement through Ruto's personality-driven rhetoric, focusing on his deliberate branding of rivals' tactics as 'primitive and outdated' and his gauntlet challenging them to an agenda-only showdown at the ballot box.",
@@ -1469,6 +1463,14 @@
       "opening": "Personality lead opening directly on Oburu Oginga making a virtual appearance at Jacaranda Grounds during his health recovery.",
       "structure": "Virtual appearance hook -> Jacaranda rally stage lineup -> Party discipline reprimand -> Broad-based strategy framing -> Closing on February 2027 roadmap",
       "source": "https://www.ghafla.co.ke/we-are-not-there-blindly-oburu-oginga-defends-odms-role-in-broad-based-government/"
+    },
+    {
+      "title": "Okiya Omtatah Calls Out Online Clout-Chasers for Botched Fake Card Weaponising His Name Against Sifuna",
+      "angle": "Omtatah's sharp takedown of internet clout-chasers attempting to weaponise his courtroom reputation against Edwin Sifuna's newly unveiled outfit, punctuated by a glaring typo on his own surname.",
+      "angle_type": "celebrity reputation defense and digital misinformation takedown",
+      "opening": "Personality lead opening directly on Okiya Omtatah dismantling the viral graphic fabricated in his name.",
+      "structure": "Personality hook -> Anatomy of the fake card and the misspelt surname -> Omtatah's clapback on digital clout-chasing -> Political backdrop of Sifuna's Linda Mwananchi rollout -> Forward-looking NDC milestone.",
+      "source": "https://www.ghafla.co.ke/okiya-omtatah-dismisses-viral-card-claiming-he-will-challenge-linda-mwananchi-movement/"
     }
   ],
   "style_history": [
