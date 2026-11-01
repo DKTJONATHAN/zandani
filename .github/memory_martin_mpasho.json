@@ -104,7 +104,8 @@
     "fa363c7cda6d0125a31591d58b7fea8bb507a7c37d387fb85a21a9905884bf0b",
     "0b8649716eda3743f7d95ffbeede46cbdd13e2e9eac616bd6a407e59a9515726",
     "d03745d39c9b7590a1aeda2815b5655d47b5cb4ac732c78b0ccb1335a6801648",
-    "4c4be7b5f4a6df9726a0c531f1cd60ac018bf46255ba4b76e56588d7305c4f7e"
+    "4c4be7b5f4a6df9726a0c531f1cd60ac018bf46255ba4b76e56588d7305c4f7e",
+    "adf38293ba8fee6b4862693a94858d74c234d9d6dfe25aa99bfae42c4ac6f587"
   ],
   "style_history": [
     "Event Report",
@@ -219,6 +220,10 @@
     {
       "key": "2026-10-31-machabe-demands-ksh-10m-for-dna-test-with-dragon-junior",
       "ts": "2026-11-01T05:23:05.787570+00:00"
+    },
+    {
+      "key": "2026-11-01-carey-priscilla-and-husband-ben-murio-worry-fans-with-risky-mountain-adventure-in-china",
+      "ts": "2026-11-01T07:24:05.766893+00:00"
     }
   ],
   "urls": [
@@ -227,7 +232,8 @@
     "https://www.mpasho.co.ke/human-interest",
     "https://www.mpasho.co.ke/entertainment/2026-10-31-terence-creative-issues-expensive-challenge-to-forex-traders",
     "https://www.mpasho.co.ke/entertainment/2026-10-31-shenseea-stuns-fans-with-guardians-of-the-galaxy-mantis-costume",
-    "https://www.mpasho.co.ke/entertainment/2026-10-31-machabe-demands-ksh-10m-for-dna-test-with-dragon-junior"
+    "https://www.mpasho.co.ke/entertainment/2026-10-31-machabe-demands-ksh-10m-for-dna-test-with-dragon-junior",
+    "https://www.mpasho.co.ke/entertainment/2026-11-01-carey-priscilla-and-husband-ben-murio-worry-fans-with-risky-mountain-adventure-in-china"
   ],
   "published_angles": [
     {
@@ -269,6 +275,14 @@
       "opening": "Personality lead introducing Machabe's KSh 10 million condition to clear public paternity claims.",
       "structure": "Person lead, verified financial condition and interview statements, income defense, underlying background of Stevo Simple Boy's test result, and clear status close.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-10-31-machabe-demands-ksh-10m-for-dna-test-with-dragon-junior"
+    },
+    {
+      "title": "Ben Murio and Carey Priscilla Swap Lifestyle Vlogs for High-Altitude China Cliff Walk\u2014And KPLC Jokes",
+      "angle": "Reframing the high-adrenaline mountain expedition around Ben Murio's Kenya Power technician humor, exploring how the couple filtered extreme travel content through relatable Kenyan cultural references.",
+      "angle_type": "lifestyle culture",
+      "opening": "Personality-led opening focusing on Ben Murio and Carey Priscilla suspended off a Chinese mountain face and defusing tension with local humor.",
+      "structure": "Personality lead, technical breakdown of the via ferrata ascent, local humor quip detail, social media reaction split, travel context, and factual safety close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-01-carey-priscilla-and-husband-ben-murio-worry-fans-with-risky-mountain-adventure-in-china"
     }
   ]
 }
