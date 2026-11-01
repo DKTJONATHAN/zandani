@@ -270,3 +270,357 @@ footer a:hover { color: var(--editorial-orange); }
   .news-home .latest-story { grid-template-columns: 6rem minmax(0,1fr); }
   .news-home .latest-story img { width: 6rem; height: 4.8rem; }
 }
+
+
+/* -------------------------------------------------------------------------
+   ZA NDANI — Anti-Slop DURING refinement
+   Keep the existing charcoal/orange newsroom identity; improve contrast,
+   reading comfort, image consistency and mobile interaction clarity.
+   ------------------------------------------------------------------------- */
+
+/* Readable secondary text. Keep metadata secondary without making it faint. */
+:root,
+.dark {
+  --muted-foreground: 32 12% 70%;
+  --subtext: 32 10% 68%;
+  --border: 0 0% 20%;
+  --divider: 0 0% 20%;
+  --headline: 36 35% 96%;
+}
+
+.text-muted-foreground,
+.text-subtext {
+  color: hsl(var(--muted-foreground)) !important;
+}
+
+.news-home .hero-grid .hero-excerpt,
+.news-home .latest-story p,
+.news-category__header p,
+.news-category__hero-copy p,
+.news-category__hero-copy span,
+.news-category .category-story__body p,
+.news-category .category-story__meta,
+.news-article .article-dek,
+.news-article .article-byline,
+.news-article .prose-article,
+footer .text-muted-foreground {
+  color: #c3beb5;
+}
+
+/* Cleaner headline system: sans-serif for editorial UI, serif reserved for
+   the Za Ndani wordmark and intentional pull-quote/drop-cap moments. */
+.news-home__masthead h1,
+.news-home .hero-grid .hero-title,
+.news-home .hero-grid .side-story h2,
+.news-home .latest-story h3,
+.news-home .editorial-strip span,
+.news-article .article-headline,
+.news-category__hero-copy h2,
+.news-category .category-story__body h2,
+.news-category__section-title h2 {
+  font-family: Inter, system-ui, -apple-system, sans-serif !important;
+  font-weight: 800;
+  letter-spacing: -.045em;
+  text-wrap: balance;
+}
+
+.news-home .hero-grid .hero-title,
+.news-article .article-headline {
+  line-height: 1.02;
+}
+
+/* Article reading: comfortable measure, stable paragraph rhythm and clear
+   links, lists, quotations and inline media. */
+.news-article .prose-article {
+  max-width: 68ch;
+  color: #e9e5dd;
+  font-size: clamp(1.06rem, 1.15vw, 1.16rem);
+  line-height: 1.82;
+  letter-spacing: 0;
+}
+
+.news-article .prose-article p {
+  margin-block: 0 1.35em;
+  color: #e9e5dd;
+}
+
+.news-article .prose-article h2,
+.news-article .prose-article h3 {
+  color: #f5f1e9;
+  font-family: Inter, system-ui, sans-serif;
+  font-weight: 800;
+  line-height: 1.18;
+  letter-spacing: -.035em;
+}
+
+.news-article .prose-article a {
+  color: #ff854e;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.news-article .prose-article blockquote {
+  border-left: 3px solid var(--editorial-orange);
+  background: #101010;
+  color: #d5d0c7;
+  padding: 1rem 1.25rem;
+}
+
+.news-article .prose-article img,
+.news-article .article-hero {
+  border-radius: 0 !important;
+  background: #111;
+}
+
+.news-article .article-hero {
+  display: block;
+  width: 100%;
+  max-height: min(68vw, 680px);
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Stronger, calmer image treatment across editorial cards. */
+.news-home img,
+.news-category img,
+.news-article img {
+  background: #111;
+}
+
+.news-home .hero-grid .hero-image,
+.news-home .latest-story img,
+.news-home .hero-grid .side-story img,
+.news-category__hero > img,
+.category-story > img {
+  display: block;
+  object-fit: cover;
+  border-radius: 0 !important;
+}
+
+.news-home .hero-grid .hero-image,
+.news-category__hero > img {
+  aspect-ratio: 16 / 9;
+}
+
+.news-home .hero-grid .side-story img {
+  aspect-ratio: 4 / 3;
+}
+
+.news-home .latest-story img,
+.category-story > img {
+  aspect-ratio: 3 / 2;
+}
+
+.news-home .hero-grid .hero-image,
+.news-home .latest-story img,
+.news-home .hero-grid .side-story img,
+.news-category__hero > img,
+.category-story > img {
+  transition: filter .2s ease;
+}
+
+.news-home a:hover img,
+.news-category a:hover img {
+  filter: brightness(1.06);
+}
+
+/* The featured-story action must not depend on hover: touch users can see it. */
+.news-home .group > a,
+.news-home .group a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (hover: none) {
+  .news-home .group .opacity-0 {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+/* Remove decorative glow from the footer signup; keep one clear CTA. */
+footer .bg-gradient-to-br {
+  background: var(--editorial-orange) !important;
+  border: 0 !important;
+  border-radius: 2px !important;
+  box-shadow: none !important;
+}
+
+footer .blur-2xl {
+  display: none !important;
+}
+
+footer .bg-gradient-to-br h3,
+footer .bg-gradient-to-br p,
+footer .bg-gradient-to-br .text-primary-foreground {
+  color: #160d08 !important;
+}
+
+footer .bg-gradient-to-br input {
+  background: #fffaf5 !important;
+  color: #21150f !important;
+  border-color: rgba(22, 13, 8, .28) !important;
+}
+
+footer .bg-gradient-to-br input::placeholder {
+  color: #62554d !important;
+}
+
+footer .bg-gradient-to-br button {
+  background: #17100c !important;
+  color: #fff !important;
+  border-radius: 2px !important;
+}
+
+/* More usable navigation, controls and search fields on touch screens. */
+header nav a,
+header button,
+.news-article .article-share-rail button,
+.mobile-bottom-nav a,
+nav[aria-label="Mobile navigation"] a {
+  min-height: 44px;
+}
+
+header input,
+input,
+textarea,
+select {
+  color: #f4efe6;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa49a !important;
+  opacity: 1;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid #ff955f !important;
+  outline-offset: 3px;
+}
+
+.news-article .article-share-rail button {
+  background: #101010;
+  border-color: #49443d;
+  border-radius: 2px !important;
+}
+
+.news-article .article-share-rail button:hover {
+  border-color: var(--editorial-orange);
+  color: #ff955f;
+}
+
+/* Mobile: readable story lists, headlines and article controls without
+   squeezing the image column or creating horizontal overflow. */
+@media (max-width: 767px) {
+  .news-home .hero-grid .hero-title {
+    font-size: clamp(1.95rem, 8.2vw, 2.65rem);
+    line-height: 1.04;
+  }
+
+  .news-home .hero-grid .side-story {
+    grid-template-columns: 6.25rem minmax(0, 1fr);
+    gap: .8rem;
+    padding: .85rem 0;
+  }
+
+  .news-home .hero-grid .side-story img {
+    width: 6.25rem;
+    height: 4.7rem;
+  }
+
+  .news-home .hero-grid .side-story h2,
+  .news-home .latest-story h3 {
+    font-size: 1.02rem;
+    line-height: 1.25;
+  }
+
+  .news-home .latest-story {
+    grid-template-columns: 6.5rem minmax(0, 1fr);
+    gap: .8rem;
+    padding: .9rem 0;
+  }
+
+  .news-home .latest-story img {
+    width: 6.5rem;
+    height: 5rem;
+  }
+
+  .news-home .latest-story p {
+    display: none;
+  }
+
+  .news-article .article-headline {
+    font-size: clamp(2.1rem, 9.5vw, 3rem);
+    line-height: 1.04;
+    max-width: 100%;
+  }
+
+  .news-article .article-dek {
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
+
+  .news-article .article-byline {
+    font-size: .72rem;
+    line-height: 1.5;
+  }
+
+  .news-article .prose-article {
+    font-size: 1.06rem;
+    line-height: 1.8;
+  }
+
+  .news-article .article-share-rail button {
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+
+  .news-category__hero,
+  .news-category__hero > img {
+    min-height: 19rem;
+  }
+
+  .news-category__hero-copy h2 {
+    font-size: clamp(1.7rem, 7vw, 2.25rem);
+    line-height: 1.08;
+  }
+
+  .news-category .category-story__body h2 {
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+
+  footer .bg-gradient-to-br {
+    padding: 1.5rem 1rem !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .news-home .latest-story,
+  .news-home .hero-grid .side-story {
+    grid-template-columns: 5.6rem minmax(0, 1fr);
+  }
+
+  .news-home .latest-story img,
+  .news-home .hero-grid .side-story img {
+    width: 5.6rem;
+    height: 4.3rem;
+  }
+
+  .news-article .article-headline {
+    font-size: 2rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .news-home img,
+  .news-category img,
+  .news-article img {
+    transition: none !important;
+  }
+}
