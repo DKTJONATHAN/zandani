@@ -342,7 +342,8 @@
     "9362650681dec246b089508eae9d87b02dee6478f14b306d914b42bedf9bbd34",
     "8bf8f6cfccaf93ff6e695d70deb0a1136fe4c452019db859e5ae1ec43520a31b",
     "10183dc155db2d3e57bf3ebd916f6cbecf1c9814382dff5d3b93837ea1f5c659",
-    "39fc63180466e75b33ceb468d4c76c841f41bddf5e279a6367ed4ed9dc58f675"
+    "39fc63180466e75b33ceb468d4c76c841f41bddf5e279a6367ed4ed9dc58f675",
+    "42c22e4e173889d8414cd15c584cd23e16fcc69e2fa621c1c5fe7824239c88b8"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -687,17 +688,10 @@
     "https://www.ghafla.co.ke/cassypool-admits-supporting-ruto-cost-him-fans-destroyed-his-brand/",
     "https://www.ghafla.co.ke/kenya-met-issues-24-hour-weather-advisory-rain-expected-across-30-counties/",
     "https://www.ghafla.co.ke/samidoh-responds-to-edday-nderitus-heartfelt-birthday-message-amid-reconciliation/",
-    "https://www.ghafla.co.ke/gachagua-admits-using-a-probox-from-jkia-after-secret-return-from-us/"
+    "https://www.ghafla.co.ke/gachagua-admits-using-a-probox-from-jkia-after-secret-return-from-us/",
+    "https://www.ghafla.co.ke/former-kiambu-governor-ferdinand-waititu-handed-13-year-sentence-in-ksh588m-graft-case/"
   ],
   "published_angles": [
-    {
-      "title": "Dr. Martins Chibueze Takes to Citizen TV\u2019s Daybreak to Cool Viral Rumor Mills Over Single Ebola Case",
-      "angle": "Framing the broadcast through the personality lens of Dr. Martins Chibueze using his morning television platform on Citizen TV to confront runaway digital speculation and delineate containment reality from online rumors.",
-      "angle_type": "broadcast personality intervention and digital rumor debunking",
-      "opening": "Personality lead opening directly on Dr. Martins Chibueze stepping into Citizen TV's Daybreak studios to address circulating social media panic.",
-      "structure": "Personality broadcast hook -> Exact on-air statements and negative test ledger -> The October 6 DRC traveler context -> Rebuff of viral online rumor mills -> Border surveillance and institutional coordination close",
-      "source": "https://www.ghafla.co.ke/no-evidence-of-active-ebola-outbreak-in-kenya-confirms-world-health-organization/"
-    },
     {
       "title": "Edwin Sifuna Puts His KSh567,000 Payslip Haircut on Display in Frivolous Spending Takedown",
       "angle": "Framing the moment around Sifuna breaking high-office etiquette by putting his personal payslip math on public display\u2014itemizing a half-million-shilling monthly haircut to claim the state treats taxpayer deductions like petty cash for frivolous outings.",
@@ -1489,6 +1483,14 @@
       "opening": "Personality lead opening directly on Gachagua detailing his deliberate switch to a Toyota Probox at JKIA.",
       "structure": "Personality hook -> Operational secrecy tactics -> Vehicle swap strategy -> US departure and return timeline -> Wamunyoro political re-emergence close",
       "source": "https://www.ghafla.co.ke/gachagua-admits-using-a-probox-from-jkia-after-secret-return-from-us/"
+    },
+    {
+      "title": "Ferdinand Waititu Slapped With 13-Year Term That Adds Zero Prison Days as Wife Faces Ksh 22M Bill",
+      "angle": "Spotlighting the stark contrast inside the courtroom: Ferdinand Waititu dodging any additional time behind bars thanks to concurrent sentencing technicalities, while his wife Susan Wangari walks away facing an immediate Ksh 22 million cash bill across three counts.",
+      "angle_type": "celebrity legal reality check and spousal penalty split",
+      "opening": "Personality lead opening directly on Ferdinand Waititu walking out of court with a 13-year headline that leaves his prison calendar untouched while passing the immediate financial burden to his wife.",
+      "structure": "Personality hook on concurrent sentence cushion -> Breakdown of the 13-year counts and fine options -> Focus on Susan Wangari's Ksh 22M liability -> Legal grounding in Justice Rose Ougo's paragraph 317 concurrent ruling -> Closing on the joint courtroom aftermath.",
+      "source": "https://www.ghafla.co.ke/former-kiambu-governor-ferdinand-waititu-handed-13-year-sentence-in-ksh588m-graft-case/"
     }
   ],
   "style_history": [
