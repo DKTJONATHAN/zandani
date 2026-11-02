@@ -114,7 +114,8 @@
     "6d330834e1945b7c6c5e9253d3c21bb357dd05f70f036dedc20d83aa09464ab9",
     "5a0310b4172099cb90c21dc75146414a9bc9cf80079eeade35843e63eed661af",
     "9c4dd4f205c19f776660e4807ea35872f0c213c8736e3c5c8b034e6566ea1359",
-    "a334c062c5e40391767af1ff0c27c8932d0cd211256420ae73bcbad653ec20af"
+    "a334c062c5e40391767af1ff0c27c8932d0cd211256420ae73bcbad653ec20af",
+    "d91a211ec0d8087a8a12752f0b4cbf89679b9f62810fab58aaf8b207d8ac0351"
   ],
   "style_history": [
     "Event Report",
@@ -269,6 +270,10 @@
     {
       "key": "2026-11-01-kathy-kiuna-urges-mercy-masika-to-launch-marriage-masterclass-despite-backlash",
       "ts": "2026-11-02T01:24:12.952437+00:00"
+    },
+    {
+      "key": "2026-10-30-kisumu-entertainer-alfred-odipo-tells-nairobi-clubs-to-benchmark-after-quiver-kilimani-experience",
+      "ts": "2026-11-02T03:25:05.849767+00:00"
     }
   ],
   "urls": [
@@ -287,7 +292,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-01-flaqo-raz-breaks-silence-on-alma-mutheu-pregnancy-rumours-says-he-is-ready-to-ride-the-clout-wave",
     "https://www.mpasho.co.ke/entertainment/2026-11-01-kenyan-shenseea-lookalike-wanjema-warns-fans-against-skincare-after-skin-damage",
     "https://www.mpasho.co.ke/entertainment/2026-11-01-aisha-saringe-reveals-bahati-paid-her-the-least-while-bien-paid-her-the-most",
-    "https://www.mpasho.co.ke/entertainment/2026-11-01-kathy-kiuna-urges-mercy-masika-to-launch-marriage-masterclass-despite-backlash"
+    "https://www.mpasho.co.ke/entertainment/2026-11-01-kathy-kiuna-urges-mercy-masika-to-launch-marriage-masterclass-despite-backlash",
+    "https://www.mpasho.co.ke/entertainment/2026-10-30-kisumu-entertainer-alfred-odipo-tells-nairobi-clubs-to-benchmark-after-quiver-kilimani-experience"
   ],
   "published_angles": [
     {
@@ -409,6 +415,14 @@
       "opening": "Personality lead focusing on Kathy Kiuna issuing a direct pulpit command to Mercy Masika to defy public criticism.",
       "structure": "Personality lead -> Verbatim pulpit command and theological justification -> Curriculum and schedule mechanics of the masterclass -> Public critique led by Janet Mbugua vs defense by Lillian Nganga -> Concrete launch status close.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-01-kathy-kiuna-urges-mercy-masika-to-launch-marriage-masterclass-despite-backlash"
+    },
+    {
+      "title": "Alfred Odipo Demands Nairobi Clubs Benchmark in Kisumu After 7 AM Quiver Kilimani Lights-Up",
+      "angle": "Framing Odipo's pushback through the lens of regional nightlife stamina, highlighting how an entertainer from the lakeside circuit exposed Nairobi's high-end clubbing culture as commercially rigid compared to Kisumu's extended morning party endurance.",
+      "angle_type": "lifestyle culture",
+      "opening": "Personality lead introducing Alfred Odipo walking out of Quiver Kilimani at daybreak and challenging Nairobi's clubbing endurance.",
+      "structure": "Personality lead -> Verbatim video hook and the 7 AM shutdown -> Breakdown of Odipo's Kisumu nightlife comparison -> Institutional club operating reality -> Forward-looking close on regional party culture.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-10-30-kisumu-entertainer-alfred-odipo-tells-nairobi-clubs-to-benchmark-after-quiver-kilimani-experience"
     }
   ]
 }
