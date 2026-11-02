@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "7a6c0cd9de49b79d2983066c5f5eee97",
     "f95417e0f14d22e70e4ec48bad1e0ada",
     "e010220f36d913ddb30dfcecec056c6f",
     "1a18642c20cce2a00a7ed46c213e7f31",
@@ -799,10 +798,10 @@
     "5c58e8ebd07a601a53006a1c60853359",
     "317bd77e62561f3b141c402bab588019",
     "c6f543b0ce49692405233381c72f8a15",
-    "8bc94572811c4dec1295c88b0a2bf6a8"
+    "8bc94572811c4dec1295c88b0a2bf6a8",
+    "17e14cc301053b3e6d8ec6452239cc85"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1573,7 +1573,8 @@
     "https://kenyans.co.ke/news/129052-explained-what-bitumen-material-behind-rironi-mau-road-delays",
     "https://kenyans.co.ke/news/129055-industry-ps-juma-mukwana-urges-millers-introduce-flavored-ugali-export-markets",
     "https://kenyans.co.ke/news/129056-malala-explains-absence-dcp-rallies-amid-claims-rift-gachagua",
-    "https://kenyans.co.ke/news/129059-gachagua-vows-move-us-if-ruto-secures-second-term-2027"
+    "https://kenyans.co.ke/news/129059-gachagua-vows-move-us-if-ruto-secures-second-term-2027",
+    "https://kenyans.co.ke/news/129060-ntsa-threatens-legal-action-against-parents-allowing-minors-behind-wheel"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2237,7 +2238,8 @@
     "bitumen deficit stalls rironi naivasha opening 2013 refinery exit leaves paving reliant imports",
     "state urges flavoured ugali export millers face empty strategic silos",
     "malala cites regional turf division gachagua rift tests dcp leadership",
-    "gachagua exit threat strains mount unity bet opposition rifts deepen"
+    "gachagua exit threat strains mount unity bet opposition rifts deepen",
+    "ntsa invokes traffic act liability target car owners underage driving"
   ],
   "topic_keys": [
     "news tracker",
@@ -7484,6 +7486,15 @@
       "structure": "Coalition-strain lead -> Factual breakdown of the Inooro TV broadcast and US relocation plan -> Regional consolidation ultimatum versus opposition fragmentation -> The Matiang'i and Nairobi factional rifts -> Forward outlook on opposition unity ahead of 2027",
       "source": "https://kenyans.co.ke/news/129059-gachagua-vows-move-us-if-ruto-secures-second-term-2027",
       "published_at": "2026-11-02T06:01:59Z"
+    },
+    {
+      "title": "NTSA Invokes Traffic Act Liability to Target Car Owners Over Underage Driving",
+      "angle": "Focusing on the statutory legal liability created under Traffic Act CAP 403, where permissive custody or failing to secure car keys shifts direct criminal prosecution onto vehicle owners.",
+      "angle_type": "accountability",
+      "opening": "Legal exposure lead linking physical custody of vehicle keys to direct prosecution under Traffic Act CAP 403.",
+      "structure": "Statutory liability lead -> Regulatory mandate & key control directive -> Traffic Act age boundaries -> Judicial precedent breakdown -> Holiday travel enforcement outlook",
+      "source": "https://kenyans.co.ke/news/129060-ntsa-threatens-legal-action-against-parents-allowing-minors-behind-wheel",
+      "published_at": "2026-11-02T07:02:12Z"
     }
   ]
 }
