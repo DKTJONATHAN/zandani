@@ -117,7 +117,8 @@
     "a334c062c5e40391767af1ff0c27c8932d0cd211256420ae73bcbad653ec20af",
     "d91a211ec0d8087a8a12752f0b4cbf89679b9f62810fab58aaf8b207d8ac0351",
     "df41e22e005580af5e556a01f91c2ff54831624a3e52050a53027c8b88f001c3",
-    "8425da4d185197ba6acb01a3a18070a22a317dd6775eac2dba9a8014b9da73ec"
+    "8425da4d185197ba6acb01a3a18070a22a317dd6775eac2dba9a8014b9da73ec",
+    "3d084840620edda6bda397330a0b342060d8137ea6879f530c5f6e1db42bea5e"
   ],
   "style_history": [
     "Event Report",
@@ -284,6 +285,10 @@
     {
       "key": "2026-11-02-fans-react-as-presenter-muthoni-kirumba-cuts-off-18-year-dreadlocks",
       "ts": "2026-11-02T09:23:23.115951+00:00"
+    },
+    {
+      "key": "2026-11-02-king-kalala-calls-out-kenyans-celebrating-halloween-without-understanding-its-meaning",
+      "ts": "2026-11-02T11:55:07.866884+00:00"
     }
   ],
   "urls": [
@@ -305,7 +310,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-01-kathy-kiuna-urges-mercy-masika-to-launch-marriage-masterclass-despite-backlash",
     "https://www.mpasho.co.ke/entertainment/2026-10-30-kisumu-entertainer-alfred-odipo-tells-nairobi-clubs-to-benchmark-after-quiver-kilimani-experience",
     "https://www.mpasho.co.ke/entertainment/2026-11-02-kanyari-reflects-on-tiktok-days-regrets-remarks-made-for-views",
-    "https://www.mpasho.co.ke/entertainment/2026-11-02-fans-react-as-presenter-muthoni-kirumba-cuts-off-18-year-dreadlocks"
+    "https://www.mpasho.co.ke/entertainment/2026-11-02-fans-react-as-presenter-muthoni-kirumba-cuts-off-18-year-dreadlocks",
+    "https://www.mpasho.co.ke/entertainment/2026-11-02-king-kalala-calls-out-kenyans-celebrating-halloween-without-understanding-its-meaning"
   ],
   "published_angles": [
     {
@@ -451,6 +457,14 @@
       "opening": "Personality-led focus on Muthoni wa Kirumba severing an 18-year physical trademark that anchored her public radio persona.",
       "structure": "Personality lead -> Verified reveal and hair milestone -> Analysis of digital AI skepticism -> Broadcast context on Kameme FM -> On-air verification close.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-02-fans-react-as-presenter-muthoni-kirumba-cuts-off-18-year-dreadlocks"
+    },
+    {
+      "title": "King Kalala Calls Out Nairobi\u2019s Halloween Tropes, Targets \u2018La Casa de Papel\u2019 Mask Trend",
+      "angle": "Focusing specifically on Kalala's critique of Nairobi's pop-culture costume shortcuts, particularly the widespread reliance on 'La Casa de Papel' (Money Heist) masks as generic clubwear, highlighting the gap between visual trends and cultural awareness.",
+      "angle_type": "lifestyle culture",
+      "opening": "Personality lead opening directly on King Kalala calling out Nairobi revellers for reusing television props as generic Halloween disguises.",
+      "structure": "Person lead -> Verbatim critique and Money Heist prop target -> Breakdown of Dal\u00ed mask pop-culture origin -> Historical Samhain context -> Nightlife context close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-02-king-kalala-calls-out-kenyans-celebrating-halloween-without-understanding-its-meaning"
     }
   ]
 }
