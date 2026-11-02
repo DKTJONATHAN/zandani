@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "1a18642c20cce2a00a7ed46c213e7f31",
     "11a0e103119104587ff659e1fe1a03fe",
     "f7d9b96859f00f3766d1959edea79b51",
     "3db86b0fa423bf567dd762322cd33625",
@@ -799,10 +798,10 @@
     "8bc94572811c4dec1295c88b0a2bf6a8",
     "17e14cc301053b3e6d8ec6452239cc85",
     "0d453bbdac4033ffee091f3504e07b6f",
-    "a94d297379411253177d0e55894b901c"
+    "a94d297379411253177d0e55894b901c",
+    "33f74352acdd995039ae386c400c43fe"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1576,7 +1576,8 @@
     "https://kenyans.co.ke/news/129059-gachagua-vows-move-us-if-ruto-secures-second-term-2027",
     "https://kenyans.co.ke/news/129060-ntsa-threatens-legal-action-against-parents-allowing-minors-behind-wheel",
     "https://kenyans.co.ke/news/129062-petition-filed-block-govt-funding-bayern-munich-ajax-match-raila-odinga-stadium",
-    "https://kenyans.co.ke/news/129063-nairobi-governor-johnson-sakaja-ditches-uda-defend-seat-odm-ticket"
+    "https://kenyans.co.ke/news/129063-nairobi-governor-johnson-sakaja-ditches-uda-defend-seat-odm-ticket",
+    "https://kenyans.co.ke/news/129068-john-allan-namu-sounds-alarm-politicians-funding-podcasters-ahead-2027-elections"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2243,7 +2244,8 @@
     "gachagua exit threat strains mount unity bet opposition rifts deepen",
     "ntsa invokes traffic act liability target car owners underage driving",
     "high court petition demands state open commercial pacts bayern ajax friendly",
-    "nairobi math forces sakaja orange camp odm reclaims capital crown"
+    "nairobi math forces sakaja orange camp odm reclaims capital crown",
+    "namu flags ksh300 000 political handouts podcasters shield shows behind entertainment tag"
   ],
   "topic_keys": [
     "news tracker",
@@ -7517,6 +7519,15 @@
       "structure": "Electoral calculation lead -> Chungwa House reception and verified transition details -> ODM's months-long leverage and Junet's ultimatum -> Historical ties to Raila Odinga -> Shifting balance of power in City Hall.",
       "source": "https://kenyans.co.ke/news/129063-nairobi-governor-johnson-sakaja-ditches-uda-defend-seat-odm-ticket",
       "published_at": "2026-11-02T10:02:12Z"
+    },
+    {
+      "title": "Namu Flags Ksh300,000 Political Handouts as Podcasters Shield Shows Behind Entertainment Tag",
+      "angle": "The accountability collision between campaign financing and digital studio monetization, where content creators insulate their political interviews behind entertainment labels while running high-reach channels that capture hundreds of thousands of views without standard editorial disclosures.",
+      "angle_type": "accountability",
+      "opening": "Hard accountability lead tying political expenditure directly to digital studio influence and audience numbers ahead of the 2027 election.",
+      "structure": "Lead on cash-for-influence warning -> Core forum revelations and transaction brackets -> Creator corporate defense and disclaimer of journalism duties -> Audience distribution metrics showing reach leverage -> Pointed close on disclosure vacuums.",
+      "source": "https://kenyans.co.ke/news/129068-john-allan-namu-sounds-alarm-politicians-funding-podcasters-ahead-2027-elections",
+      "published_at": "2026-11-02T12:02:24Z"
     }
   ]
 }
