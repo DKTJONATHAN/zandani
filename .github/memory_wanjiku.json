@@ -341,7 +341,8 @@
     "bdba7e6fa772a66e84aac3c6e5409f11e05c624dbcd12211f0b618d6edbb4881",
     "9362650681dec246b089508eae9d87b02dee6478f14b306d914b42bedf9bbd34",
     "8bf8f6cfccaf93ff6e695d70deb0a1136fe4c452019db859e5ae1ec43520a31b",
-    "10183dc155db2d3e57bf3ebd916f6cbecf1c9814382dff5d3b93837ea1f5c659"
+    "10183dc155db2d3e57bf3ebd916f6cbecf1c9814382dff5d3b93837ea1f5c659",
+    "39fc63180466e75b33ceb468d4c76c841f41bddf5e279a6367ed4ed9dc58f675"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -685,17 +686,10 @@
     "https://www.ghafla.co.ke/alex-mwakideu-questions-kenyans-habit-of-mixing-politics-with-football/",
     "https://www.ghafla.co.ke/cassypool-admits-supporting-ruto-cost-him-fans-destroyed-his-brand/",
     "https://www.ghafla.co.ke/kenya-met-issues-24-hour-weather-advisory-rain-expected-across-30-counties/",
-    "https://www.ghafla.co.ke/samidoh-responds-to-edday-nderitus-heartfelt-birthday-message-amid-reconciliation/"
+    "https://www.ghafla.co.ke/samidoh-responds-to-edday-nderitus-heartfelt-birthday-message-amid-reconciliation/",
+    "https://www.ghafla.co.ke/gachagua-admits-using-a-probox-from-jkia-after-secret-return-from-us/"
   ],
   "published_angles": [
-    {
-      "title": "Esther Arunga Closes the Timberlake Chapter: Inside the Legal Name Reset of a Former Screen Queen",
-      "angle": "Reframing the Gazette notice as the definitive public identity reset for one of Kenya's defining 2000s media stars, contrasting the height of her 2008 CHAT Award celebrity status with the absolute legal erasure of the marital brand that dismantled her primetime career.",
-      "angle_type": "celebrity identity reclamation and career eclipse post-mortem",
-      "opening": "Celebrity lead contrasting Esther Arunga's 2008 golden-era broadcast fame with the finality of Gazette Notice No. 16203.",
-      "structure": "Celebrity hook on name erasure -> The legal terms of Gazette Notice 16203 -> The 2008 broadcast peak and sudden religious pivot -> The Kallangur tragedy and courtroom admissions -> The closing line of legal separation",
-      "source": "https://www.ghafla.co.ke/esther-arunga-officially-drops-timberlake-surname-in-legal-name-change/"
-    },
     {
       "title": "Dr. Martins Chibueze Takes to Citizen TV\u2019s Daybreak to Cool Viral Rumor Mills Over Single Ebola Case",
       "angle": "Framing the broadcast through the personality lens of Dr. Martins Chibueze using his morning television platform on Citizen TV to confront runaway digital speculation and delineate containment reality from online rumors.",
@@ -1487,6 +1481,14 @@
       "opening": "Personality lead opening directly on Samidoh's specific public comment reply to Edday Nderitu's birthday post.",
       "structure": "Instagram exchange hook -> Detailed quotes from Edday and Samidoh -> Contrast with 2023 US departure and polygamy stance -> 2026 tour reunion trajectory -> Concrete closing state.",
       "source": "https://www.ghafla.co.ke/samidoh-responds-to-edday-nderitus-heartfelt-birthday-message-amid-reconciliation/"
+    },
+    {
+      "title": "Rigathi Gachagua Swaps VIP Convoy for Probox in Secret JKIA Slip to Nyeri",
+      "angle": "Examining the operational mechanics of Gachagua's stealth travel maneuver\u2014swapping high-profile motorcades and standard security protocols for a basic utility vehicle and complete digital blackout to bypass tracking.",
+      "angle_type": "operational travel maneuver and low-profile security trade-off",
+      "opening": "Personality lead opening directly on Gachagua detailing his deliberate switch to a Toyota Probox at JKIA.",
+      "structure": "Personality hook -> Operational secrecy tactics -> Vehicle swap strategy -> US departure and return timeline -> Wamunyoro political re-emergence close",
+      "source": "https://www.ghafla.co.ke/gachagua-admits-using-a-probox-from-jkia-after-secret-return-from-us/"
     }
   ],
   "style_history": [
