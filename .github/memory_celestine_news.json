@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "61e540ad3cb252144a6e697916b4f7a3",
     "4ce3d3b9bf722443de6703a11102b7d5",
     "42fff807734252616761609af4204a2f",
     "f87e60057f41ef3646e0cabfa93f2180",
@@ -799,10 +798,10 @@
     "33f74352acdd995039ae386c400c43fe",
     "4eeba52e541b44a97dec18a9bc3a3d6d",
     "559350d33c1c9bf6bb59bfb2d2dac56b",
-    "6ea25605c13f6fe7aea2e60594987ca8"
+    "6ea25605c13f6fe7aea2e60594987ca8",
+    "5370cbe72f971a0a4a78faffcb887359"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1580,7 +1580,8 @@
     "https://kenyans.co.ke/news/129068-john-allan-namu-sounds-alarm-politicians-funding-podcasters-ahead-2027-elections",
     "https://kenyans.co.ke/news/129071-cs-ruku-threatens-action-against-public-servants-skipping-work-ahead-christmas",
     "https://kenyans.co.ke/news/129070-opposition-divisions-deepen-muturi-matiangi-accuse-gachagua-bullying-and-sabotage",
-    "https://kenyans.co.ke/news/129073-court-summons-ig-kanja-explain-disappearance-tanzanian-activist-twaha-mwaipaya"
+    "https://kenyans.co.ke/news/129073-court-summons-ig-kanja-explain-disappearance-tanzanian-activist-twaha-mwaipaya",
+    "https://kenyans.co.ke/news/129074-7-students-injured-5-arrested-after-stray-bullets-hit-moyale-schools"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2251,7 +2252,8 @@
     "namu flags ksh300 000 political handouts podcasters shield shows behind entertainment tag",
     "unsupervised interns left running deserted kajiado offices ruku orders crackdown",
     "muturi matiang challenge gachagua coalition strategy ahead nov deadline",
-    "high court pinpoints command responsibility kanja summoned missing tanzanian activist"
+    "high court pinpoints command responsibility kanja summoned missing tanzanian activist",
+    "moyale cross border clashes fracture kcse logistics across wards cells"
   ],
   "topic_keys": [
     "news tracker",
@@ -7561,6 +7563,15 @@
       "structure": "Command-responsibility lead -> Factual core of the disappearance and court order -> Judicial breakdown on Article 156 and cross-border deportation risks -> Courtroom argument breakdown (Karua vs State Counsel) -> Forward edge on Tuesday summons.",
       "source": "https://kenyans.co.ke/news/129073-court-summons-ig-kanja-explain-disappearance-tanzanian-activist-twaha-mwaipaya",
       "published_at": "2026-11-02T16:02:15Z"
+    },
+    {
+      "title": "Moyale Cross-Border Clashes Fracture KCSE Logistics Across Wards and Cells",
+      "angle": "Focusing on the acute operational crisis facing exam administrators along the northern frontier, where cross-border gunfire has fractured standard examination integrity protocols\u2014forcing invigilators into hospital wards, detention cells, and alternate relocated centres precisely as candidates face high-volume compulsory papers.",
+      "angle_type": "consequence",
+      "opening": "Logistical-strain lead contrasting the rigid operational schedule of national compulsory examinations with the emergency dispersal of invigilators into hospital wards and holding cells in Moyale.",
+      "structure": "Border emergency lead -> Verified casualty and detention breakdown across Moyale institutions -> Centre relocations and custodial paper delivery protocols -> Border security context and the compulsory paper phase -> KNEC reporting mechanisms and ongoing border alert",
+      "source": "https://kenyans.co.ke/news/129074-7-students-injured-5-arrested-after-stray-bullets-hit-moyale-schools",
+      "published_at": "2026-11-02T17:02:22Z"
     }
   ]
 }
