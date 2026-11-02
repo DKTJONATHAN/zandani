@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "b57b8a7f44c4cc4bf9aae51b315dd59b",
     "7a6c0cd9de49b79d2983066c5f5eee97",
     "f95417e0f14d22e70e4ec48bad1e0ada",
     "e010220f36d913ddb30dfcecec056c6f",
@@ -799,10 +798,10 @@
     "93cc10aff5b7375aeb0e9726271c4e1a",
     "5c58e8ebd07a601a53006a1c60853359",
     "317bd77e62561f3b141c402bab588019",
-    "c6f543b0ce49692405233381c72f8a15"
+    "c6f543b0ce49692405233381c72f8a15",
+    "8bc94572811c4dec1295c88b0a2bf6a8"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1572,7 +1572,8 @@
     "https://kenyans.co.ke/news/129054-knec-adds-wristwatches-list-items-banned-during-national-exams",
     "https://kenyans.co.ke/news/129052-explained-what-bitumen-material-behind-rironi-mau-road-delays",
     "https://kenyans.co.ke/news/129055-industry-ps-juma-mukwana-urges-millers-introduce-flavored-ugali-export-markets",
-    "https://kenyans.co.ke/news/129056-malala-explains-absence-dcp-rallies-amid-claims-rift-gachagua"
+    "https://kenyans.co.ke/news/129056-malala-explains-absence-dcp-rallies-amid-claims-rift-gachagua",
+    "https://kenyans.co.ke/news/129059-gachagua-vows-move-us-if-ruto-secures-second-term-2027"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2235,7 +2236,8 @@
     "knec strips candidates personal watches shifting exam timekeeping centre clocks",
     "bitumen deficit stalls rironi naivasha opening 2013 refinery exit leaves paving reliant imports",
     "state urges flavoured ugali export millers face empty strategic silos",
-    "malala cites regional turf division gachagua rift tests dcp leadership"
+    "malala cites regional turf division gachagua rift tests dcp leadership",
+    "gachagua exit threat strains mount unity bet opposition rifts deepen"
   ],
   "topic_keys": [
     "news tracker",
@@ -7473,6 +7475,15 @@
       "structure": "Divergent operations lead -> Factual breakdown of the Citizen TV defense and regional split -> The Sifuna contradiction and Gachagua's public repudiation -> Grassroots party-building versus leadership alignment -> Forward tension over party authority.",
       "source": "https://kenyans.co.ke/news/129056-malala-explains-absence-dcp-rallies-amid-claims-rift-gachagua",
       "published_at": "2026-11-02T05:02:03Z"
+    },
+    {
+      "title": "Gachagua's U.S. Exit Threat Strains Mount Kenya Unity Bet as Opposition Rifts Deepen",
+      "angle": "Gachagua's conditional exit declaration lays bare the fragile strategic bargain anchoring his opposition politics: by staking his entire domestic survival on an undivided Mount Kenya voting bloc, he has intensified ideological fractures with national coalition partners who reject ethnic consolidation.",
+      "angle_type": "institutional pressure",
+      "opening": "Strategic-faultline lead contrasting Gachagua's regional survival condition against the ideological pushback it has immediately provoked among national opposition allies.",
+      "structure": "Coalition-strain lead -> Factual breakdown of the Inooro TV broadcast and US relocation plan -> Regional consolidation ultimatum versus opposition fragmentation -> The Matiang'i and Nairobi factional rifts -> Forward outlook on opposition unity ahead of 2027",
+      "source": "https://kenyans.co.ke/news/129059-gachagua-vows-move-us-if-ruto-secures-second-term-2027",
+      "published_at": "2026-11-02T06:01:59Z"
     }
   ]
 }
