@@ -119,7 +119,8 @@
     "df41e22e005580af5e556a01f91c2ff54831624a3e52050a53027c8b88f001c3",
     "8425da4d185197ba6acb01a3a18070a22a317dd6775eac2dba9a8014b9da73ec",
     "3d084840620edda6bda397330a0b342060d8137ea6879f530c5f6e1db42bea5e",
-    "dbdcc195a196414ac47b1e39cf21c4dc5616fa48ee173942106f15042829e9eb"
+    "dbdcc195a196414ac47b1e39cf21c4dc5616fa48ee173942106f15042829e9eb",
+    "93e8caaea054c515b3192faabb3bd8cb4a1c0f6e5b3843f667e70ca06ed6df37"
   ],
   "style_history": [
     "Event Report",
@@ -294,6 +295,10 @@
     {
       "key": "2026-11-02-chebet-ronoh-admits-wasting-first-ksh-15m-on-alcohol-at-age-19",
       "ts": "2026-11-02T13:53:06.178949+00:00"
+    },
+    {
+      "key": "2026-11-02-rapper-khaligraph-jones-reacts-to-fan-calling-him-overrated-on-x",
+      "ts": "2026-11-02T15:23:52.868818+00:00"
     }
   ],
   "urls": [
@@ -317,7 +322,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-02-kanyari-reflects-on-tiktok-days-regrets-remarks-made-for-views",
     "https://www.mpasho.co.ke/entertainment/2026-11-02-fans-react-as-presenter-muthoni-kirumba-cuts-off-18-year-dreadlocks",
     "https://www.mpasho.co.ke/entertainment/2026-11-02-king-kalala-calls-out-kenyans-celebrating-halloween-without-understanding-its-meaning",
-    "https://www.mpasho.co.ke/entertainment/2026-11-02-chebet-ronoh-admits-wasting-first-ksh-15m-on-alcohol-at-age-19"
+    "https://www.mpasho.co.ke/entertainment/2026-11-02-chebet-ronoh-admits-wasting-first-ksh-15m-on-alcohol-at-age-19",
+    "https://www.mpasho.co.ke/entertainment/2026-11-02-rapper-khaligraph-jones-reacts-to-fan-calling-him-overrated-on-x"
   ],
   "published_angles": [
     {
@@ -479,6 +485,14 @@
       "opening": "Personality lead highlighting Ronoh's admission of walking away from maternal investment counsel at the peak of a KSh 1.5 million monthly brand run.",
       "structure": "Person and hook -> Mechanics of the KSh 1.5M month and rejected maternal counsel -> Structural context of Kenya's pioneer creator era -> The intersection of validation, public image, and alcohol -> Recovery close",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-02-chebet-ronoh-admits-wasting-first-ksh-15m-on-alcohol-at-age-19"
+    },
+    {
+      "title": "Khaligraph Jones Breaks Rap Playbook With Deadpan Concession to Online Critic",
+      "angle": "The tactical subversion of hip-hop machismo: how an artist who built a decade-long career on unshakeable lyrical supremacy and aggressive ego defense neutralized an online slight by weaponizing deadpan agreement instead of confrontation.",
+      "angle_type": "hip-hop persona and reputational subversion",
+      "opening": "Personality lead highlighting Khaligraph abruptly abandoning the combative posture of rap royalty to validate an internet critic.",
+      "structure": "Personality hook -> The verified exchange on X -> Deconstruction of the OG rap persona and combative precedent -> The mechanics of deadpan disarmament in digital hip-hop -> Status close on his silence.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-02-rapper-khaligraph-jones-reacts-to-fan-calling-him-overrated-on-x"
     }
   ]
 }
