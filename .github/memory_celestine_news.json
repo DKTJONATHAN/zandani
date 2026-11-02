@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "e010220f36d913ddb30dfcecec056c6f",
     "1a18642c20cce2a00a7ed46c213e7f31",
     "11a0e103119104587ff659e1fe1a03fe",
     "f7d9b96859f00f3766d1959edea79b51",
@@ -799,10 +798,10 @@
     "c6f543b0ce49692405233381c72f8a15",
     "8bc94572811c4dec1295c88b0a2bf6a8",
     "17e14cc301053b3e6d8ec6452239cc85",
-    "0d453bbdac4033ffee091f3504e07b6f"
+    "0d453bbdac4033ffee091f3504e07b6f",
+    "a94d297379411253177d0e55894b901c"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1575,7 +1575,8 @@
     "https://kenyans.co.ke/news/129056-malala-explains-absence-dcp-rallies-amid-claims-rift-gachagua",
     "https://kenyans.co.ke/news/129059-gachagua-vows-move-us-if-ruto-secures-second-term-2027",
     "https://kenyans.co.ke/news/129060-ntsa-threatens-legal-action-against-parents-allowing-minors-behind-wheel",
-    "https://kenyans.co.ke/news/129062-petition-filed-block-govt-funding-bayern-munich-ajax-match-raila-odinga-stadium"
+    "https://kenyans.co.ke/news/129062-petition-filed-block-govt-funding-bayern-munich-ajax-match-raila-odinga-stadium",
+    "https://kenyans.co.ke/news/129063-nairobi-governor-johnson-sakaja-ditches-uda-defend-seat-odm-ticket"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2241,7 +2242,8 @@
     "malala cites regional turf division gachagua rift tests dcp leadership",
     "gachagua exit threat strains mount unity bet opposition rifts deepen",
     "ntsa invokes traffic act liability target car owners underage driving",
-    "high court petition demands state open commercial pacts bayern ajax friendly"
+    "high court petition demands state open commercial pacts bayern ajax friendly",
+    "nairobi math forces sakaja orange camp odm reclaims capital crown"
   ],
   "topic_keys": [
     "news tracker",
@@ -7506,6 +7508,15 @@
       "structure": "Attribution-first legal filing lead -> Core disclosure demands (seven-day contract deadline and cost categories) -> Executive defense and private-funding claims (PS Mwangi) -> Financial exposure and unverified Ksh724M appearance estimates -> Venue preparation context and pending judicial review",
       "source": "https://kenyans.co.ke/news/129062-petition-filed-block-govt-funding-bayern-munich-ajax-match-raila-odinga-stadium",
       "published_at": "2026-11-02T09:02:09Z"
+    },
+    {
+      "title": "Nairobi Math Forces Sakaja to Orange Camp as ODM Reclaims Capital Crown",
+      "angle": "The municipal electoral calculation behind the defection: a sitting ruling-party governor bowing to the capital's persistent opposition demographic reality, conceding to ODM's institutional leverage after party leaders warned his incumbency could not withstand Nairobi's voter arithmetic on a UDA ticket.",
+      "angle_type": "consequence",
+      "opening": "Consequence-first lead establishing that Nairobi's entrenched opposition electoral arithmetic has forced a sitting ruling-party governor to surrender his party affiliation to safeguard his re-election bid.",
+      "structure": "Electoral calculation lead -> Chungwa House reception and verified transition details -> ODM's months-long leverage and Junet's ultimatum -> Historical ties to Raila Odinga -> Shifting balance of power in City Hall.",
+      "source": "https://kenyans.co.ke/news/129063-nairobi-governor-johnson-sakaja-ditches-uda-defend-seat-odm-ticket",
+      "published_at": "2026-11-02T10:02:12Z"
     }
   ]
 }
