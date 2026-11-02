@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "3db86b0fa423bf567dd762322cd33625",
     "61e540ad3cb252144a6e697916b4f7a3",
     "4ce3d3b9bf722443de6703a11102b7d5",
     "42fff807734252616761609af4204a2f",
@@ -799,10 +798,10 @@
     "a94d297379411253177d0e55894b901c",
     "33f74352acdd995039ae386c400c43fe",
     "4eeba52e541b44a97dec18a9bc3a3d6d",
-    "559350d33c1c9bf6bb59bfb2d2dac56b"
+    "559350d33c1c9bf6bb59bfb2d2dac56b",
+    "6ea25605c13f6fe7aea2e60594987ca8"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1579,7 +1579,8 @@
     "https://kenyans.co.ke/news/129063-nairobi-governor-johnson-sakaja-ditches-uda-defend-seat-odm-ticket",
     "https://kenyans.co.ke/news/129068-john-allan-namu-sounds-alarm-politicians-funding-podcasters-ahead-2027-elections",
     "https://kenyans.co.ke/news/129071-cs-ruku-threatens-action-against-public-servants-skipping-work-ahead-christmas",
-    "https://kenyans.co.ke/news/129070-opposition-divisions-deepen-muturi-matiangi-accuse-gachagua-bullying-and-sabotage"
+    "https://kenyans.co.ke/news/129070-opposition-divisions-deepen-muturi-matiangi-accuse-gachagua-bullying-and-sabotage",
+    "https://kenyans.co.ke/news/129073-court-summons-ig-kanja-explain-disappearance-tanzanian-activist-twaha-mwaipaya"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2249,7 +2250,8 @@
     "nairobi math forces sakaja orange camp odm reclaims capital crown",
     "namu flags ksh300 000 political handouts podcasters shield shows behind entertainment tag",
     "unsupervised interns left running deserted kajiado offices ruku orders crackdown",
-    "muturi matiang challenge gachagua coalition strategy ahead nov deadline"
+    "muturi matiang challenge gachagua coalition strategy ahead nov deadline",
+    "high court pinpoints command responsibility kanja summoned missing tanzanian activist"
   ],
   "topic_keys": [
     "news tracker",
@@ -7550,6 +7552,15 @@
       "structure": "Strategic split lead -> November 13 deadline context -> Direct accusations on seat control -> Tripartite bargaining warning -> Coalition cohesion outlook.",
       "source": "https://kenyans.co.ke/news/129070-opposition-divisions-deepen-muturi-matiangi-accuse-gachagua-bullying-and-sabotage",
       "published_at": "2026-11-02T15:02:14Z"
+    },
+    {
+      "title": "High Court Pinpoints Command Responsibility as IG Kanja Summoned Over Missing Tanzanian Activist",
+      "angle": "The High Court's refusal to allow police leadership to fragment liability across departments, establishing singular command accountability on the IG for potential cross-border extrajudicial removals.",
+      "angle_type": "accountability",
+      "opening": "Institutional accountability lead establishing the court's rejection of fragmented agency responsibility in abduction inquiries.",
+      "structure": "Command-responsibility lead -> Factual core of the disappearance and court order -> Judicial breakdown on Article 156 and cross-border deportation risks -> Courtroom argument breakdown (Karua vs State Counsel) -> Forward edge on Tuesday summons.",
+      "source": "https://kenyans.co.ke/news/129073-court-summons-ig-kanja-explain-disappearance-tanzanian-activist-twaha-mwaipaya",
+      "published_at": "2026-11-02T16:02:15Z"
     }
   ]
 }
