@@ -339,7 +339,8 @@
     "666d87bd3c7c60cf7f8649cec8e864fc87589d7401f5603626a485f056c5f7d0",
     "06ac8d875d7172027fd4319bf5a5b0279faadecc1551800156ba9173a16ea985",
     "bdba7e6fa772a66e84aac3c6e5409f11e05c624dbcd12211f0b618d6edbb4881",
-    "9362650681dec246b089508eae9d87b02dee6478f14b306d914b42bedf9bbd34"
+    "9362650681dec246b089508eae9d87b02dee6478f14b306d914b42bedf9bbd34",
+    "8bf8f6cfccaf93ff6e695d70deb0a1136fe4c452019db859e5ae1ec43520a31b"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -681,17 +682,10 @@
     "https://www.ghafla.co.ke/kenya-power-announces-sunday-outages-in-nairobi-eight-counties/",
     "https://www.ghafla.co.ke/kenya-weather-above-average-rainfall-expected-in-most-counties-in-november-2026/",
     "https://www.ghafla.co.ke/alex-mwakideu-questions-kenyans-habit-of-mixing-politics-with-football/",
-    "https://www.ghafla.co.ke/cassypool-admits-supporting-ruto-cost-him-fans-destroyed-his-brand/"
+    "https://www.ghafla.co.ke/cassypool-admits-supporting-ruto-cost-him-fans-destroyed-his-brand/",
+    "https://www.ghafla.co.ke/kenya-met-issues-24-hour-weather-advisory-rain-expected-across-30-counties/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018Not a Single Shilling\u2019: John Methu Swears Off Uhuru\u2019s \u2018Sponyo\u2019 Millions on Live Radio",
-      "angle": "Reframing the confrontation through political celebrity banter and the viral 'Sponyo' nickname economy, spotlighting Methu taking an on-air oath to swear off phantom sponsor cash while calling out the state's fixation on turning the retired president into a convenient sugar-daddy bogeyman.",
-      "angle_type": "political celebrity banter and nickname debunking",
-      "opening": "Personality lead opening squarely on Senator John Methu swearing an on-air oath to clear his pockets of Uhuru Kenyatta's rumored 'Sponyo' cash.",
-      "structure": "Personality sworn-denial hook -> The radio airwaves breakdown and 'not a single shilling' oath -> Anatomy of the 'Sponyo' moniker and the 'bogeyman' diagnosis -> Uhuru's Murang'a microphone clapback -> Methu's retirement advisory close",
-      "source": "https://www.ghafla.co.ke/not-a-single-shilling-senator-methu-strongly-denies-receiving-funding-from-uhuru-kenyatta/"
-    },
     {
       "title": "\u2018Mr Fix It\u2019 Geoffrey Mosiria Tests Church Pulpit Waters with Margaret Wanjiru for Nairobi Boss",
       "angle": "The friction between his self-styled 'Mr Fix It' persona, his unorthodox running-mate floating at Jesus Is Alive Ministries, and his running battle with paid internet bloggers.",
@@ -1483,6 +1477,14 @@
       "opening": "Personality lead opening directly on Cassypool Capon addressing his audience with a public apology for destroying his commercial brand before adding a contradictory rider.",
       "structure": "Apology and brand damage hook -> Personal and mental health toll -> History of pro-government stance and industry friction -> Unresolved paradox of influencer politics.",
       "source": "https://www.ghafla.co.ke/cassypool-admits-supporting-ruto-cost-him-fans-destroyed-his-brand/"
+    },
+    {
+      "title": "Dennis Elnino Highlights 25-Knot Wind Alert as Kenya Met Tracks 27-Degree Temperature Gap",
+      "angle": "Spotlighting the high-wind hazard alert exceeding 25 knots in northern pastoral counties alongside the extreme 27-degree national temperature gap between Turkana and Nyandarua.",
+      "angle_type": "wind hazard and thermal variance",
+      "opening": "Personality lead featuring creator/developer Dennis Elnino detailing the severe wind alert and temperature split.",
+      "structure": "Creator hook -> Northern high-wind advisory -> National temperature variance -> Regional afternoon rain acceleration -> Lowland showers breakdown -> Coastal and night forecast close.",
+      "source": "https://www.ghafla.co.ke/kenya-met-issues-24-hour-weather-advisory-rain-expected-across-30-counties/"
     }
   ],
   "style_history": [
