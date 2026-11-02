@@ -343,7 +343,8 @@
     "8bf8f6cfccaf93ff6e695d70deb0a1136fe4c452019db859e5ae1ec43520a31b",
     "10183dc155db2d3e57bf3ebd916f6cbecf1c9814382dff5d3b93837ea1f5c659",
     "39fc63180466e75b33ceb468d4c76c841f41bddf5e279a6367ed4ed9dc58f675",
-    "42c22e4e173889d8414cd15c584cd23e16fcc69e2fa621c1c5fe7824239c88b8"
+    "42c22e4e173889d8414cd15c584cd23e16fcc69e2fa621c1c5fe7824239c88b8",
+    "d8f4694d402c5960108902f22401026078309130a1f38aae3c0fe83ad71f5c95"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -689,17 +690,10 @@
     "https://www.ghafla.co.ke/kenya-met-issues-24-hour-weather-advisory-rain-expected-across-30-counties/",
     "https://www.ghafla.co.ke/samidoh-responds-to-edday-nderitus-heartfelt-birthday-message-amid-reconciliation/",
     "https://www.ghafla.co.ke/gachagua-admits-using-a-probox-from-jkia-after-secret-return-from-us/",
-    "https://www.ghafla.co.ke/former-kiambu-governor-ferdinand-waititu-handed-13-year-sentence-in-ksh588m-graft-case/"
+    "https://www.ghafla.co.ke/former-kiambu-governor-ferdinand-waititu-handed-13-year-sentence-in-ksh588m-graft-case/",
+    "https://www.ghafla.co.ke/sakaja-officially-defects-from-uda-to-odm-ahead-of-2027-nairobi-gubernatorial-race/"
   ],
   "published_angles": [
-    {
-      "title": "Edwin Sifuna Puts His KSh567,000 Payslip Haircut on Display in Frivolous Spending Takedown",
-      "angle": "Framing the moment around Sifuna breaking high-office etiquette by putting his personal payslip math on public display\u2014itemizing a half-million-shilling monthly haircut to claim the state treats taxpayer deductions like petty cash for frivolous outings.",
-      "angle_type": "celebrity politician payslip disclosure and spending takedown",
-      "opening": "Personality lead opening directly on Edwin Sifuna peeling back his own financial paperwork to spotlight a KSh 567,000 monthly deduction bill.",
-      "structure": "Personality payslip hook -> Itemized breakdown of the KSh 567k ledger -> Frivolous spending accusation -> Broad political and lifestyle context around SHA and housing levy -> Concrete close on public fund accountability",
-      "source": "https://www.ghafla.co.ke/sifuna-takes-aim-at-ruto-over-ksh567000-in-monthly-deductions/"
-    },
     {
       "title": "\u2018Leave Those Bad Manners Away\u2019: Mama Ida Odinga Pleads for Peace in Bondo as Babu Owino Flags Memorial Ambush",
       "angle": "Reframing the Bondo preparations around Mama Ida Odinga's direct personal plea to banish political 'bad manners' and keep hired disruptions far away from her late husband's memorial, especially as Babu Owino sounds alarms over planned heckling.",
@@ -1491,6 +1485,14 @@
       "opening": "Personality lead opening directly on Ferdinand Waititu walking out of court with a 13-year headline that leaves his prison calendar untouched while passing the immediate financial burden to his wife.",
       "structure": "Personality hook on concurrent sentence cushion -> Breakdown of the 13-year counts and fine options -> Focus on Susan Wangari's Ksh 22M liability -> Legal grounding in Justice Rose Ougo's paragraph 317 concurrent ruling -> Closing on the joint courtroom aftermath.",
       "source": "https://www.ghafla.co.ke/former-kiambu-governor-ferdinand-waititu-handed-13-year-sentence-in-ksh588m-graft-case/"
+    },
+    {
+      "title": "Johnson Sakaja Completes ODM Switch at Chungwa House Months After Junet Mohamed\u2019s Reelection Warning",
+      "angle": "Focusing on how Sakaja's official move to Chungwa House fulfills Junet Mohamed's earlier Kileleshwa warning and completes the political shift set in motion by late Raila Odinga's late-2025 backing.",
+      "angle_type": "political relocation and strategic endorsement path",
+      "opening": "Personality lead opening directly on Johnson Sakaja completing his political jump from UDA to ODM at Chungwa House.",
+      "structure": "Personality hook on Sakaja's Chungwa House handover -> Simba Arati reception and 2027 ticket confirmation -> Junet Mohamed's Kileleshwa warning context -> Late Raila Odinga's late-2025 endorsement lineage -> Jacaranda Grounds crowd poll catalyst -> Concrete political close on the 2027 Nairobi race",
+      "source": "https://www.ghafla.co.ke/sakaja-officially-defects-from-uda-to-odm-ahead-of-2027-nairobi-gubernatorial-race/"
     }
   ],
   "style_history": [
