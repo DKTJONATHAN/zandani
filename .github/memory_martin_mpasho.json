@@ -122,7 +122,8 @@
     "dbdcc195a196414ac47b1e39cf21c4dc5616fa48ee173942106f15042829e9eb",
     "93e8caaea054c515b3192faabb3bd8cb4a1c0f6e5b3843f667e70ca06ed6df37",
     "c144f5904fb1138fff2fb7613cbf51758ac18a95f6ca0cc0431a62f933b8d0af",
-    "fe162d4b5148b2e63cf52c34b9fc233c30dda6f46ca0a5082f696cd2c3cf6dc7"
+    "fe162d4b5148b2e63cf52c34b9fc233c30dda6f46ca0a5082f696cd2c3cf6dc7",
+    "044d8528288c2becadcb9c489211950aa109245f438fdde000d98e4879f89f77"
   ],
   "style_history": [
     "Event Report",
@@ -309,6 +310,10 @@
     {
       "key": "2026-11-02-mbavu-destroyer-and-truphena-muthoni-target-1b-trees-in-24-hrs",
       "ts": "2026-11-02T19:27:47.681272+00:00"
+    },
+    {
+      "key": "2026-11-02-ukipata-mtu-anateseka-achana-na-yeye-riangas-cryptic-message",
+      "ts": "2026-11-02T21:22:45.569187+00:00"
     }
   ],
   "urls": [
@@ -335,7 +340,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-02-chebet-ronoh-admits-wasting-first-ksh-15m-on-alcohol-at-age-19",
     "https://www.mpasho.co.ke/entertainment/2026-11-02-rapper-khaligraph-jones-reacts-to-fan-calling-him-overrated-on-x",
     "https://www.mpasho.co.ke/entertainment/2026-11-02-nairobi-set-for-unique-orchestral-music-experience-as-the-bar-symphony-makes-debut",
-    "https://www.mpasho.co.ke/entertainment/2026-11-02-mbavu-destroyer-and-truphena-muthoni-target-1b-trees-in-24-hrs"
+    "https://www.mpasho.co.ke/entertainment/2026-11-02-mbavu-destroyer-and-truphena-muthoni-target-1b-trees-in-24-hrs",
+    "https://www.mpasho.co.ke/entertainment/2026-11-02-ukipata-mtu-anateseka-achana-na-yeye-riangas-cryptic-message"
   ],
   "published_angles": [
     {
@@ -521,6 +527,14 @@
       "opening": "Personality lead introducing Mbavu Destroyer pairing his online physical persona with Truphena Muthoni's record-holding activism.",
       "structure": "Personality hook -> Immediate 24-hour solo attempt by Jimi Cohen -> Deconstruction of Muthoni's endurance history -> Mbavu Destroyer's demographic role -> Earth Day 2027 operational horizon close.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-02-mbavu-destroyer-and-truphena-muthoni-target-1b-trees-in-24-hrs"
+    },
+    {
+      "title": "Patrick Riang\u2019a Washes Hands of Goliath wa Bungoma With Blunt Warning on Aiding the Struggling",
+      "angle": "Examining the breakdown of influencer patronage and corporate rehabilitation, where a benefactor washes his hands after trying and failing to steer a viral personality away from livestream begging and into formal commercial branding.",
+      "angle_type": "patronage breakdown and creator discipline",
+      "opening": "Personality lead opening directly on Patrick Riang'a drawing an unyielding line on personal intervention.",
+      "structure": "Personality hook -> The philosophical declaration and linguistic meaning -> Breakdown of the Car Soko intervention -> The friction of TikTok livestream gifting vs brand decorum -> The final withdrawal and unresolved dynamic.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-02-ukipata-mtu-anateseka-achana-na-yeye-riangas-cryptic-message"
     }
   ]
 }
