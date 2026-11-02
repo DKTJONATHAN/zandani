@@ -123,7 +123,8 @@
     "93e8caaea054c515b3192faabb3bd8cb4a1c0f6e5b3843f667e70ca06ed6df37",
     "c144f5904fb1138fff2fb7613cbf51758ac18a95f6ca0cc0431a62f933b8d0af",
     "fe162d4b5148b2e63cf52c34b9fc233c30dda6f46ca0a5082f696cd2c3cf6dc7",
-    "044d8528288c2becadcb9c489211950aa109245f438fdde000d98e4879f89f77"
+    "044d8528288c2becadcb9c489211950aa109245f438fdde000d98e4879f89f77",
+    "ec73ecc2eca497e69edb8fee6e006236bcf4772b4355195c8a54523267bb6f14"
   ],
   "style_history": [
     "Event Report",
@@ -314,6 +315,10 @@
     {
       "key": "2026-11-02-ukipata-mtu-anateseka-achana-na-yeye-riangas-cryptic-message",
       "ts": "2026-11-02T21:22:45.569187+00:00"
+    },
+    {
+      "key": "2026-11-02-kenyans-react-to-public-clash-between-patrick-and-goliath-wa-bungoma",
+      "ts": "2026-11-02T23:26:49.831955+00:00"
     }
   ],
   "urls": [
@@ -341,7 +346,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-02-rapper-khaligraph-jones-reacts-to-fan-calling-him-overrated-on-x",
     "https://www.mpasho.co.ke/entertainment/2026-11-02-nairobi-set-for-unique-orchestral-music-experience-as-the-bar-symphony-makes-debut",
     "https://www.mpasho.co.ke/entertainment/2026-11-02-mbavu-destroyer-and-truphena-muthoni-target-1b-trees-in-24-hrs",
-    "https://www.mpasho.co.ke/entertainment/2026-11-02-ukipata-mtu-anateseka-achana-na-yeye-riangas-cryptic-message"
+    "https://www.mpasho.co.ke/entertainment/2026-11-02-ukipata-mtu-anateseka-achana-na-yeye-riangas-cryptic-message",
+    "https://www.mpasho.co.ke/entertainment/2026-11-02-kenyans-react-to-public-clash-between-patrick-and-goliath-wa-bungoma"
   ],
   "published_angles": [
     {
@@ -535,6 +541,14 @@
       "opening": "Personality lead opening directly on Patrick Riang'a drawing an unyielding line on personal intervention.",
       "structure": "Personality hook -> The philosophical declaration and linguistic meaning -> Breakdown of the Car Soko intervention -> The friction of TikTok livestream gifting vs brand decorum -> The final withdrawal and unresolved dynamic.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-02-ukipata-mtu-anateseka-achana-na-yeye-riangas-cryptic-message"
+    },
+    {
+      "title": "Goliath wa Bungoma\u2019s TikTok Gifting Drive Triggers Sharp Debate Over Creator ROI and Dealership Sales",
+      "angle": "Examining the public interrogation of creator commercial ROI, specifically whether viral clout actually drives dealership vehicle sales or simply functions as corporate philanthropy.",
+      "angle_type": "creator commercial viability",
+      "opening": "Personality lead opening directly on Isaac Otesa (Goliath wa Bungoma) facing an intense public re-evaluation of his commercial impact at Car Soko.",
+      "structure": "Personality hook -> TikTok Live confrontation mechanics -> Commercial ROI and sales conversion debate -> Audience breakdown of creator decorum -> Forward-looking status close",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-02-kenyans-react-to-public-clash-between-patrick-and-goliath-wa-bungoma"
     }
   ]
 }
