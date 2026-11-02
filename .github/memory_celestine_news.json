@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "42fff807734252616761609af4204a2f",
     "f87e60057f41ef3646e0cabfa93f2180",
     "f56efafdcbb468019f051dcd9c07a53c",
     "c3c7f77dce98362ae6e1aa8f459726a3",
@@ -799,10 +798,10 @@
     "559350d33c1c9bf6bb59bfb2d2dac56b",
     "6ea25605c13f6fe7aea2e60594987ca8",
     "5370cbe72f971a0a4a78faffcb887359",
-    "9d227e16da57c5e9ede116ff274345a8"
+    "9d227e16da57c5e9ede116ff274345a8",
+    "05314e69b24e99b6c235b039f773a48d"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1582,7 +1582,8 @@
     "https://kenyans.co.ke/news/129070-opposition-divisions-deepen-muturi-matiangi-accuse-gachagua-bullying-and-sabotage",
     "https://kenyans.co.ke/news/129073-court-summons-ig-kanja-explain-disappearance-tanzanian-activist-twaha-mwaipaya",
     "https://kenyans.co.ke/news/129074-7-students-injured-5-arrested-after-stray-bullets-hit-moyale-schools",
-    "https://kenyans.co.ke/news/129072-court-orders-actress-3-others-detained-over-murder-86-year-old-woman"
+    "https://kenyans.co.ke/news/129072-court-orders-actress-3-others-detained-over-murder-86-year-old-woman",
+    "https://kenyans.co.ke/news/129069-helb-sets-january-timeline-semester-2-disbursement-cautions-students-against-re"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2255,7 +2256,8 @@
     "muturi matiang challenge gachagua coalition strategy ahead nov deadline",
     "high court pinpoints command responsibility kanja summoned missing tanzanian activist",
     "moyale cross border clashes fracture kcse logistics across wards cells",
-    "loresho homicide probe triggers day custody order scene tampering claims"
+    "loresho homicide probe triggers day custody order scene tampering claims",
+    "students face funding gap january helb locks second semester release"
   ],
   "topic_keys": [
     "news tracker",
@@ -7583,6 +7585,15 @@
       "structure": "Evidentiary risk lead -> Victim and crime details -> Detailed police allegations in court -> Defense constitutional counter-arguments -> Context on suspect and past work -> Next procedural deadlines.",
       "source": "https://kenyans.co.ke/news/129072-court-orders-actress-3-others-detained-over-murder-86-year-old-woman",
       "published_at": "2026-11-02T18:00:59Z"
+    },
+    {
+      "title": "Students Face Funding Gap to January as HELB Locks Second-Semester Release",
+      "angle": "The operational mismatch between HELB's rigid calendar-based disbursement schedule and the unplanned living expenses forced onto students by prolonged academic terms following lecturer industrial action.",
+      "angle_type": "consequence",
+      "opening": "Hard news impact lead establishing the timeline restriction and the out-of-pocket financial strain facing university households.",
+      "structure": "Disbursement timeline lock lead -> Breakdown of the single-application policy and January schedule -> Escalating living costs stemming from strike-lengthened terms -> Rolling status of delayed Semester 1 batches -> Verification directive on student bank accounts.",
+      "source": "https://kenyans.co.ke/news/129069-helb-sets-january-timeline-semester-2-disbursement-cautions-students-against-re",
+      "published_at": "2026-11-02T18:09:37Z"
     }
   ]
 }
