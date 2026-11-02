@@ -336,7 +336,8 @@
     "a939243e5dc1002c6f967f3a42980c398c85ebb7cf9654787e0e76a73ac79f5f",
     "4d802fde024749c1c8388111213ce188027def65e3dc72f618f0607f29b6e757",
     "9b69048c1c54fb3c1faa4b65a2c36eb0c9beefa3176a48c970410b5516d69ebb",
-    "666d87bd3c7c60cf7f8649cec8e864fc87589d7401f5603626a485f056c5f7d0"
+    "666d87bd3c7c60cf7f8649cec8e864fc87589d7401f5603626a485f056c5f7d0",
+    "06ac8d875d7172027fd4319bf5a5b0279faadecc1551800156ba9173a16ea985"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -675,17 +676,10 @@
     "https://www.ghafla.co.ke/okiya-omtatah-dismisses-viral-card-claiming-he-will-challenge-linda-mwananchi-movement/",
     "https://www.ghafla.co.ke/chaos-as-suspected-goons-disrupt-odm-rally-at-jacaranda-grounds/",
     "https://www.ghafla.co.ke/government-recovers-2600-illegal-firearms-17000-livestock-in-anti-banditry-operations/",
-    "https://www.ghafla.co.ke/kenya-power-announces-sunday-outages-in-nairobi-eight-counties/"
+    "https://www.ghafla.co.ke/kenya-power-announces-sunday-outages-in-nairobi-eight-counties/",
+    "https://www.ghafla.co.ke/kenya-weather-above-average-rainfall-expected-in-most-counties-in-november-2026/"
   ],
   "published_angles": [
-    {
-      "title": "Catherine Omanyo Slams Online Death-Wish Trolls as Dr. Oburu Oginga Nears Hospital Discharge",
-      "angle": "Focusing on the personal friction between political hospital gossip cycles and Omanyo's sharp rebuke of death-wish commentators while detailing Dr. Oburu's local versus UK medical recovery timeline.",
-      "angle_type": "personality-driven political health update and social media rebuke",
-      "opening": "Personality lead opening directly on Catherine Omanyo shutting down digital death rumors on air.",
-      "structure": "Omanyo's Radio Maisha hook -> The health reality check and discharge timeline -> Praise for local doctors vs UK consultation -> Sharp rebuke of death-wish trolls -> Closing on the impending trip home.",
-      "source": "https://www.ghafla.co.ke/he-is-fine-and-doing-well-odm-clears-misinformation-over-dr-oburu-ogingas-health/"
-    },
     {
       "title": "\u2018Whoever Tells You It\u2019s Easy Is Lying\u2019: Fred Matiang\u2019i Bursts the United Opposition\u2019s Coalition Bubble on Air",
       "angle": "Framing Matiang'i's candid radio remarks through the personality tension inside the opposition's crowded VIP boardroom\u2014calling out anyone claiming unity is smooth as an outright liar while openly contrasting high-stakes seat-sharing squabbles with the state's obsession with chasing social media kids.",
@@ -1477,6 +1471,14 @@
       "opening": "Direct focus on the commercial leisure footprint impacted by the multi-county Sunday blackout schedule.",
       "structure": "Hospitality and retail blackout hook -> Kiambu and Machakos leisure belt breakdown -> Coastal hospitality strip in Kilifi -> Extended multi-county regional coverage (Kitui, Kisumu, Siaya, Bungoma) -> Concrete timeline and operational wrap-up.",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-sunday-outages-in-nairobi-eight-counties/"
+    },
+    {
+      "title": "November 2026 Climate Outlook Pairs Elevated Rains With Countrywide Warmth Across 43 Counties",
+      "angle": "Focusing on the concurrent meteorological dynamic: widespread, above-average precipitation arriving alongside nationwide elevated thermal conditions throughout November 2026.",
+      "angle_type": "dual meteorological profile and thermal intensity",
+      "opening": "Direct focus on the dual climate forecast\u2014above-average rainfall spanning over 40 counties alongside warmer-than-normal temperatures across the entire country.",
+      "structure": "Dual forecast condition lead -> Regional rain distribution breakdown -> Northern pastoral zone specifics -> Nationwide thermal projection breakdown -> Closing fact on November weather conditions.",
+      "source": "https://www.ghafla.co.ke/kenya-weather-above-average-rainfall-expected-in-most-counties-in-november-2026/"
     }
   ],
   "style_history": [
