@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "4ce3d3b9bf722443de6703a11102b7d5",
     "42fff807734252616761609af4204a2f",
     "f87e60057f41ef3646e0cabfa93f2180",
     "f56efafdcbb468019f051dcd9c07a53c",
@@ -799,10 +798,10 @@
     "4eeba52e541b44a97dec18a9bc3a3d6d",
     "559350d33c1c9bf6bb59bfb2d2dac56b",
     "6ea25605c13f6fe7aea2e60594987ca8",
-    "5370cbe72f971a0a4a78faffcb887359"
+    "5370cbe72f971a0a4a78faffcb887359",
+    "9d227e16da57c5e9ede116ff274345a8"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1581,7 +1581,8 @@
     "https://kenyans.co.ke/news/129071-cs-ruku-threatens-action-against-public-servants-skipping-work-ahead-christmas",
     "https://kenyans.co.ke/news/129070-opposition-divisions-deepen-muturi-matiangi-accuse-gachagua-bullying-and-sabotage",
     "https://kenyans.co.ke/news/129073-court-summons-ig-kanja-explain-disappearance-tanzanian-activist-twaha-mwaipaya",
-    "https://kenyans.co.ke/news/129074-7-students-injured-5-arrested-after-stray-bullets-hit-moyale-schools"
+    "https://kenyans.co.ke/news/129074-7-students-injured-5-arrested-after-stray-bullets-hit-moyale-schools",
+    "https://kenyans.co.ke/news/129072-court-orders-actress-3-others-detained-over-murder-86-year-old-woman"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2253,7 +2254,8 @@
     "unsupervised interns left running deserted kajiado offices ruku orders crackdown",
     "muturi matiang challenge gachagua coalition strategy ahead nov deadline",
     "high court pinpoints command responsibility kanja summoned missing tanzanian activist",
-    "moyale cross border clashes fracture kcse logistics across wards cells"
+    "moyale cross border clashes fracture kcse logistics across wards cells",
+    "loresho homicide probe triggers day custody order scene tampering claims"
   ],
   "topic_keys": [
     "news tracker",
@@ -7572,6 +7574,15 @@
       "structure": "Border emergency lead -> Verified casualty and detention breakdown across Moyale institutions -> Centre relocations and custodial paper delivery protocols -> Border security context and the compulsory paper phase -> KNEC reporting mechanisms and ongoing border alert",
       "source": "https://kenyans.co.ke/news/129074-7-students-injured-5-arrested-after-stray-bullets-hit-moyale-schools",
       "published_at": "2026-11-02T17:02:22Z"
+    },
+    {
+      "title": "Loresho Homicide Probe Triggers 10-Day Custody Order Over Scene Tampering Claims",
+      "angle": "Focusing on the evidentiary race and legal mechanics surrounding alleged crime scene alteration in Loresho, contrasting constitutional liberty claims against forensic preservation needs.",
+      "angle_type": "procedural mechanics",
+      "opening": "Evidentiary risk lead linking crime scene alteration allegations directly to the judge's custodial order.",
+      "structure": "Evidentiary risk lead -> Victim and crime details -> Detailed police allegations in court -> Defense constitutional counter-arguments -> Context on suspect and past work -> Next procedural deadlines.",
+      "source": "https://kenyans.co.ke/news/129072-court-orders-actress-3-others-detained-over-murder-86-year-old-woman",
+      "published_at": "2026-11-02T18:00:59Z"
     }
   ]
 }
