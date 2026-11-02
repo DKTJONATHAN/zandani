@@ -118,7 +118,8 @@
     "d91a211ec0d8087a8a12752f0b4cbf89679b9f62810fab58aaf8b207d8ac0351",
     "df41e22e005580af5e556a01f91c2ff54831624a3e52050a53027c8b88f001c3",
     "8425da4d185197ba6acb01a3a18070a22a317dd6775eac2dba9a8014b9da73ec",
-    "3d084840620edda6bda397330a0b342060d8137ea6879f530c5f6e1db42bea5e"
+    "3d084840620edda6bda397330a0b342060d8137ea6879f530c5f6e1db42bea5e",
+    "dbdcc195a196414ac47b1e39cf21c4dc5616fa48ee173942106f15042829e9eb"
   ],
   "style_history": [
     "Event Report",
@@ -289,6 +290,10 @@
     {
       "key": "2026-11-02-king-kalala-calls-out-kenyans-celebrating-halloween-without-understanding-its-meaning",
       "ts": "2026-11-02T11:55:07.866884+00:00"
+    },
+    {
+      "key": "2026-11-02-chebet-ronoh-admits-wasting-first-ksh-15m-on-alcohol-at-age-19",
+      "ts": "2026-11-02T13:53:06.178949+00:00"
     }
   ],
   "urls": [
@@ -311,7 +316,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-10-30-kisumu-entertainer-alfred-odipo-tells-nairobi-clubs-to-benchmark-after-quiver-kilimani-experience",
     "https://www.mpasho.co.ke/entertainment/2026-11-02-kanyari-reflects-on-tiktok-days-regrets-remarks-made-for-views",
     "https://www.mpasho.co.ke/entertainment/2026-11-02-fans-react-as-presenter-muthoni-kirumba-cuts-off-18-year-dreadlocks",
-    "https://www.mpasho.co.ke/entertainment/2026-11-02-king-kalala-calls-out-kenyans-celebrating-halloween-without-understanding-its-meaning"
+    "https://www.mpasho.co.ke/entertainment/2026-11-02-king-kalala-calls-out-kenyans-celebrating-halloween-without-understanding-its-meaning",
+    "https://www.mpasho.co.ke/entertainment/2026-11-02-chebet-ronoh-admits-wasting-first-ksh-15m-on-alcohol-at-age-19"
   ],
   "published_angles": [
     {
@@ -465,6 +471,14 @@
       "opening": "Personality lead opening directly on King Kalala calling out Nairobi revellers for reusing television props as generic Halloween disguises.",
       "structure": "Person lead -> Verbatim critique and Money Heist prop target -> Breakdown of Dal\u00ed mask pop-culture origin -> Historical Samhain context -> Nightlife context close.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-02-king-kalala-calls-out-kenyans-celebrating-halloween-without-understanding-its-meaning"
+    },
+    {
+      "title": "Chebet Ronoh Recalls Rejecting Mother's Investment Advice After KSh 1.5M Brand Earnings Rush at 19",
+      "angle": "Reframing the disclosure around the tension between sudden multi-brand monetization and the complete absence of creator financial guardrails, specifically highlighting her rejection of her mother's investment advice during Kenya's pioneer content boom.",
+      "angle_type": "creator financial reality",
+      "opening": "Personality lead highlighting Ronoh's admission of walking away from maternal investment counsel at the peak of a KSh 1.5 million monthly brand run.",
+      "structure": "Person and hook -> Mechanics of the KSh 1.5M month and rejected maternal counsel -> Structural context of Kenya's pioneer creator era -> The intersection of validation, public image, and alcohol -> Recovery close",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-02-chebet-ronoh-admits-wasting-first-ksh-15m-on-alcohol-at-age-19"
     }
   ]
 }
