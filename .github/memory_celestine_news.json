@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "11a0e103119104587ff659e1fe1a03fe",
     "f7d9b96859f00f3766d1959edea79b51",
     "3db86b0fa423bf567dd762322cd33625",
     "61e540ad3cb252144a6e697916b4f7a3",
@@ -799,10 +798,10 @@
     "17e14cc301053b3e6d8ec6452239cc85",
     "0d453bbdac4033ffee091f3504e07b6f",
     "a94d297379411253177d0e55894b901c",
-    "33f74352acdd995039ae386c400c43fe"
+    "33f74352acdd995039ae386c400c43fe",
+    "4eeba52e541b44a97dec18a9bc3a3d6d"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1577,7 +1577,8 @@
     "https://kenyans.co.ke/news/129060-ntsa-threatens-legal-action-against-parents-allowing-minors-behind-wheel",
     "https://kenyans.co.ke/news/129062-petition-filed-block-govt-funding-bayern-munich-ajax-match-raila-odinga-stadium",
     "https://kenyans.co.ke/news/129063-nairobi-governor-johnson-sakaja-ditches-uda-defend-seat-odm-ticket",
-    "https://kenyans.co.ke/news/129068-john-allan-namu-sounds-alarm-politicians-funding-podcasters-ahead-2027-elections"
+    "https://kenyans.co.ke/news/129068-john-allan-namu-sounds-alarm-politicians-funding-podcasters-ahead-2027-elections",
+    "https://kenyans.co.ke/news/129071-cs-ruku-threatens-action-against-public-servants-skipping-work-ahead-christmas"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2245,7 +2246,8 @@
     "ntsa invokes traffic act liability target car owners underage driving",
     "high court petition demands state open commercial pacts bayern ajax friendly",
     "nairobi math forces sakaja orange camp odm reclaims capital crown",
-    "namu flags ksh300 000 political handouts podcasters shield shows behind entertainment tag"
+    "namu flags ksh300 000 political handouts podcasters shield shows behind entertainment tag",
+    "unsupervised interns left running deserted kajiado offices ruku orders crackdown"
   ],
   "topic_keys": [
     "news tracker",
@@ -7528,6 +7530,15 @@
       "structure": "Lead on cash-for-influence warning -> Core forum revelations and transaction brackets -> Creator corporate defense and disclaimer of journalism duties -> Audience distribution metrics showing reach leverage -> Pointed close on disclosure vacuums.",
       "source": "https://kenyans.co.ke/news/129068-john-allan-namu-sounds-alarm-politicians-funding-podcasters-ahead-2027-elections",
       "published_at": "2026-11-02T12:02:24Z"
+    },
+    {
+      "title": "Unsupervised Interns Left Running Deserted Kajiado Offices as Ruku Orders Crackdown",
+      "angle": "The systemic operational collapse where government offices are entirely reliant on unsupervised junior interns while senior bureaucrats and HR managers abandon their stations.",
+      "angle_type": "accountability",
+      "opening": "Accountability lead focusing on the operational reliance on unsupervised interns rather than just the minister's threat.",
+      "structure": "Internship reliance lead -> Factual breakdown of the Kajiado inspection -> National pattern in other counties -> HR management vacuum -> Upcoming holiday leave rules.",
+      "source": "https://kenyans.co.ke/news/129071-cs-ruku-threatens-action-against-public-servants-skipping-work-ahead-christmas",
+      "published_at": "2026-11-02T14:02:11Z"
     }
   ]
 }
