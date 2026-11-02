@@ -340,7 +340,8 @@
     "06ac8d875d7172027fd4319bf5a5b0279faadecc1551800156ba9173a16ea985",
     "bdba7e6fa772a66e84aac3c6e5409f11e05c624dbcd12211f0b618d6edbb4881",
     "9362650681dec246b089508eae9d87b02dee6478f14b306d914b42bedf9bbd34",
-    "8bf8f6cfccaf93ff6e695d70deb0a1136fe4c452019db859e5ae1ec43520a31b"
+    "8bf8f6cfccaf93ff6e695d70deb0a1136fe4c452019db859e5ae1ec43520a31b",
+    "10183dc155db2d3e57bf3ebd916f6cbecf1c9814382dff5d3b93837ea1f5c659"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -683,17 +684,10 @@
     "https://www.ghafla.co.ke/kenya-weather-above-average-rainfall-expected-in-most-counties-in-november-2026/",
     "https://www.ghafla.co.ke/alex-mwakideu-questions-kenyans-habit-of-mixing-politics-with-football/",
     "https://www.ghafla.co.ke/cassypool-admits-supporting-ruto-cost-him-fans-destroyed-his-brand/",
-    "https://www.ghafla.co.ke/kenya-met-issues-24-hour-weather-advisory-rain-expected-across-30-counties/"
+    "https://www.ghafla.co.ke/kenya-met-issues-24-hour-weather-advisory-rain-expected-across-30-counties/",
+    "https://www.ghafla.co.ke/samidoh-responds-to-edday-nderitus-heartfelt-birthday-message-amid-reconciliation/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018Mr Fix It\u2019 Geoffrey Mosiria Tests Church Pulpit Waters with Margaret Wanjiru for Nairobi Boss",
-      "angle": "The friction between his self-styled 'Mr Fix It' persona, his unorthodox running-mate floating at Jesus Is Alive Ministries, and his running battle with paid internet bloggers.",
-      "angle_type": "political personality clash and campaign branding",
-      "opening": "Personality-led opening focusing on the brand 'Mr Fix It' and his pulpit proposal.",
-      "structure": "Personality hook -> The Jesus Is Alive Ministries running-mate tease -> The 'Mr Fix It' one-term administrative pitch -> Clash with online critics over vulnerable residents -> Closing on the 2027 field realities.",
-      "source": "https://www.ghafla.co.ke/geoffrey-mosiria-says-one-term-is-enough-to-fix-nairobi-as-he-eyes-governor-seat/"
-    },
     {
       "title": "Esther Arunga Closes the Timberlake Chapter: Inside the Legal Name Reset of a Former Screen Queen",
       "angle": "Reframing the Gazette notice as the definitive public identity reset for one of Kenya's defining 2000s media stars, contrasting the height of her 2008 CHAT Award celebrity status with the absolute legal erasure of the marital brand that dismantled her primetime career.",
@@ -1485,6 +1479,14 @@
       "opening": "Personality lead featuring creator/developer Dennis Elnino detailing the severe wind alert and temperature split.",
       "structure": "Creator hook -> Northern high-wind advisory -> National temperature variance -> Regional afternoon rain acceleration -> Lowland showers breakdown -> Coastal and night forecast close.",
       "source": "https://www.ghafla.co.ke/kenya-met-issues-24-hour-weather-advisory-rain-expected-across-30-counties/"
+    },
+    {
+      "title": "\u2018Njambi wa Mhesh\u2019: Samidoh and Edday Nderitu Trade Warm Pet Names as US-Kenya Distance Thaws",
+      "angle": "Focusing on the shift in public rhetoric\u2014specifically how the online dialogue moved from a firm refusal of polygamy and a 2023 US relocation to explicit public affirmation of enduring spousal roles and shared pet names ('Njambi wa Mhesh').",
+      "angle_type": "celebrity relationship rhetoric shift",
+      "opening": "Personality lead opening directly on Samidoh's specific public comment reply to Edday Nderitu's birthday post.",
+      "structure": "Instagram exchange hook -> Detailed quotes from Edday and Samidoh -> Contrast with 2023 US departure and polygamy stance -> 2026 tour reunion trajectory -> Concrete closing state.",
+      "source": "https://www.ghafla.co.ke/samidoh-responds-to-edday-nderitus-heartfelt-birthday-message-amid-reconciliation/"
     }
   ],
   "style_history": [
