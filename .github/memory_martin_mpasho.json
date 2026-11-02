@@ -120,7 +120,8 @@
     "8425da4d185197ba6acb01a3a18070a22a317dd6775eac2dba9a8014b9da73ec",
     "3d084840620edda6bda397330a0b342060d8137ea6879f530c5f6e1db42bea5e",
     "dbdcc195a196414ac47b1e39cf21c4dc5616fa48ee173942106f15042829e9eb",
-    "93e8caaea054c515b3192faabb3bd8cb4a1c0f6e5b3843f667e70ca06ed6df37"
+    "93e8caaea054c515b3192faabb3bd8cb4a1c0f6e5b3843f667e70ca06ed6df37",
+    "c144f5904fb1138fff2fb7613cbf51758ac18a95f6ca0cc0431a62f933b8d0af"
   ],
   "style_history": [
     "Event Report",
@@ -299,6 +300,10 @@
     {
       "key": "2026-11-02-rapper-khaligraph-jones-reacts-to-fan-calling-him-overrated-on-x",
       "ts": "2026-11-02T15:23:52.868818+00:00"
+    },
+    {
+      "key": "2026-11-02-nairobi-set-for-unique-orchestral-music-experience-as-the-bar-symphony-makes-debut",
+      "ts": "2026-11-02T17:22:58.007960+00:00"
     }
   ],
   "urls": [
@@ -323,7 +328,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-02-fans-react-as-presenter-muthoni-kirumba-cuts-off-18-year-dreadlocks",
     "https://www.mpasho.co.ke/entertainment/2026-11-02-king-kalala-calls-out-kenyans-celebrating-halloween-without-understanding-its-meaning",
     "https://www.mpasho.co.ke/entertainment/2026-11-02-chebet-ronoh-admits-wasting-first-ksh-15m-on-alcohol-at-age-19",
-    "https://www.mpasho.co.ke/entertainment/2026-11-02-rapper-khaligraph-jones-reacts-to-fan-calling-him-overrated-on-x"
+    "https://www.mpasho.co.ke/entertainment/2026-11-02-rapper-khaligraph-jones-reacts-to-fan-calling-him-overrated-on-x",
+    "https://www.mpasho.co.ke/entertainment/2026-11-02-nairobi-set-for-unique-orchestral-music-experience-as-the-bar-symphony-makes-debut"
   ],
   "published_angles": [
     {
@@ -493,6 +499,14 @@
       "opening": "Personality lead highlighting Khaligraph abruptly abandoning the combative posture of rap royalty to validate an internet critic.",
       "structure": "Personality hook -> The verified exchange on X -> Deconstruction of the OG rap persona and combative precedent -> The mechanics of deadpan disarmament in digital hip-hop -> Status close on his silence.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-02-rapper-khaligraph-jones-reacts-to-fan-calling-him-overrated-on-x"
+    },
+    {
+      "title": "360 Immersive Founders Target Nairobi Nightlife Monotony With 12-Piece Orchestral Lounge Debut at Sarit Centre",
+      "angle": "Framing the event through the founders' deliberate attempt to counter acoustic monotony across East African nightlife by transplanting Kampala's classical-lounge hybrid model into Nairobi's Westlands club circuit.",
+      "angle_type": "nightlife curation and format innovation",
+      "opening": "Personality and concept lead focusing on 360 Immersive founders identifying nightclub audio fatigue.",
+      "structure": "Founders' diagnosis of club monotony -> Concept mechanics of the 12-piece orchestra -> Regional expansion from Kampala to Westlands -> Commercial tiering and venue shift -> Industry context close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-02-nairobi-set-for-unique-orchestral-music-experience-as-the-bar-symphony-makes-debut"
     }
   ]
 }
