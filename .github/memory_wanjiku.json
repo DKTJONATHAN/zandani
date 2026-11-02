@@ -337,7 +337,8 @@
     "4d802fde024749c1c8388111213ce188027def65e3dc72f618f0607f29b6e757",
     "9b69048c1c54fb3c1faa4b65a2c36eb0c9beefa3176a48c970410b5516d69ebb",
     "666d87bd3c7c60cf7f8649cec8e864fc87589d7401f5603626a485f056c5f7d0",
-    "06ac8d875d7172027fd4319bf5a5b0279faadecc1551800156ba9173a16ea985"
+    "06ac8d875d7172027fd4319bf5a5b0279faadecc1551800156ba9173a16ea985",
+    "bdba7e6fa772a66e84aac3c6e5409f11e05c624dbcd12211f0b618d6edbb4881"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -677,17 +678,10 @@
     "https://www.ghafla.co.ke/chaos-as-suspected-goons-disrupt-odm-rally-at-jacaranda-grounds/",
     "https://www.ghafla.co.ke/government-recovers-2600-illegal-firearms-17000-livestock-in-anti-banditry-operations/",
     "https://www.ghafla.co.ke/kenya-power-announces-sunday-outages-in-nairobi-eight-counties/",
-    "https://www.ghafla.co.ke/kenya-weather-above-average-rainfall-expected-in-most-counties-in-november-2026/"
+    "https://www.ghafla.co.ke/kenya-weather-above-average-rainfall-expected-in-most-counties-in-november-2026/",
+    "https://www.ghafla.co.ke/alex-mwakideu-questions-kenyans-habit-of-mixing-politics-with-football/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018Whoever Tells You It\u2019s Easy Is Lying\u2019: Fred Matiang\u2019i Bursts the United Opposition\u2019s Coalition Bubble on Air",
-      "angle": "Framing Matiang'i's candid radio remarks through the personality tension inside the opposition's crowded VIP boardroom\u2014calling out anyone claiming unity is smooth as an outright liar while openly contrasting high-stakes seat-sharing squabbles with the state's obsession with chasing social media kids.",
-      "angle_type": "political celebrity reality check and boardroom friction",
-      "opening": "Personality lead opening directly on Fred Matiang'i taking to the airwaves to burst the opposition's boardroom bubble with an unvarnished reality check.",
-      "structure": "Personality reality-check hook -> The blunt 'whoever tells you it's easy is lying' quote and boardroom friction -> The high-wattage lineup of competing ambition -> The sharp radio clapback over police hunting social media youth -> The grassroots ground game in pastoralist turf.",
-      "source": "https://www.ghafla.co.ke/matiangi-cautions-opposition-forming-a-coalition-government-is-not-easy/"
-    },
     {
       "title": "Pauline Njoroge Takes Edwin Sifuna\u2019s 2027 War Room Reins After Cutting 14-Year Jubilee Ties",
       "angle": "Spotlighting Pauline Njoroge's decisive personal and career reinvention\u2014walking away from a 14-year Jubilee Party tenure and her high-profile diplomatic tour with the late Raila Odinga to take full control of Sifuna's presidential megaphone.",
@@ -1479,6 +1473,14 @@
       "opening": "Direct focus on the dual climate forecast\u2014above-average rainfall spanning over 40 counties alongside warmer-than-normal temperatures across the entire country.",
       "structure": "Dual forecast condition lead -> Regional rain distribution breakdown -> Northern pastoral zone specifics -> Nationwide thermal projection breakdown -> Closing fact on November weather conditions.",
       "source": "https://www.ghafla.co.ke/kenya-weather-above-average-rainfall-expected-in-most-counties-in-november-2026/"
+    },
+    {
+      "title": "Alex Mwakideu Calls Out Fans Planning Political Merch Hijack at Bayern Munich vs Ajax Match",
+      "angle": "Framing Mwakideu's stance from an entertainment perspective\u2014calling out online fan zealotry that threatens to turn international stadium showcase culture into a 'Wantam vs Tutam' political arena, while defending Sifuna's right to just be an unbothered football fan.",
+      "angle_type": "celebrity commentary on stadium culture and fan zealotry",
+      "opening": "Personality lead opening directly on Alex Mwakideu taking to Instagram to push back against partisan fan merchandise at the upcoming fixture.",
+      "structure": "Personality hook -> Direct Instagram callout of the 'Linda Mwananchi' merch push -> Defense of pure stadium culture and Sifuna's own sports fandom -> Context of the Ruto-announced Bayern vs Ajax fixture -> Resolution on keeping political slogans out of matchday entertainment",
+      "source": "https://www.ghafla.co.ke/alex-mwakideu-questions-kenyans-habit-of-mixing-politics-with-football/"
     }
   ],
   "style_history": [
