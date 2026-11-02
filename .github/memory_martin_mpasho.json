@@ -116,7 +116,8 @@
     "9c4dd4f205c19f776660e4807ea35872f0c213c8736e3c5c8b034e6566ea1359",
     "a334c062c5e40391767af1ff0c27c8932d0cd211256420ae73bcbad653ec20af",
     "d91a211ec0d8087a8a12752f0b4cbf89679b9f62810fab58aaf8b207d8ac0351",
-    "df41e22e005580af5e556a01f91c2ff54831624a3e52050a53027c8b88f001c3"
+    "df41e22e005580af5e556a01f91c2ff54831624a3e52050a53027c8b88f001c3",
+    "8425da4d185197ba6acb01a3a18070a22a317dd6775eac2dba9a8014b9da73ec"
   ],
   "style_history": [
     "Event Report",
@@ -279,6 +280,10 @@
     {
       "key": "2026-11-02-kanyari-reflects-on-tiktok-days-regrets-remarks-made-for-views",
       "ts": "2026-11-02T07:26:01.139205+00:00"
+    },
+    {
+      "key": "2026-11-02-fans-react-as-presenter-muthoni-kirumba-cuts-off-18-year-dreadlocks",
+      "ts": "2026-11-02T09:23:23.115951+00:00"
     }
   ],
   "urls": [
@@ -299,7 +304,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-01-aisha-saringe-reveals-bahati-paid-her-the-least-while-bien-paid-her-the-most",
     "https://www.mpasho.co.ke/entertainment/2026-11-01-kathy-kiuna-urges-mercy-masika-to-launch-marriage-masterclass-despite-backlash",
     "https://www.mpasho.co.ke/entertainment/2026-10-30-kisumu-entertainer-alfred-odipo-tells-nairobi-clubs-to-benchmark-after-quiver-kilimani-experience",
-    "https://www.mpasho.co.ke/entertainment/2026-11-02-kanyari-reflects-on-tiktok-days-regrets-remarks-made-for-views"
+    "https://www.mpasho.co.ke/entertainment/2026-11-02-kanyari-reflects-on-tiktok-days-regrets-remarks-made-for-views",
+    "https://www.mpasho.co.ke/entertainment/2026-11-02-fans-react-as-presenter-muthoni-kirumba-cuts-off-18-year-dreadlocks"
   ],
   "published_angles": [
     {
@@ -437,6 +443,14 @@
       "opening": "Personality lead focusing on Kanyari tracing his controversial online footprint back to the late-night cash flow of TikTok gifting.",
       "structure": "Personality lead -> Financial hook and midnight streaming admission -> The algorithm dilemma of trending controversy -> Fallout during ongoing family custody scrutiny -> Grounded reputational close.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-02-kanyari-reflects-on-tiktok-days-regrets-remarks-made-for-views"
+    },
+    {
+      "title": "Muthoni Kirumba Dismantles 18-Year Media Image With Dreadlock Chop as Fans Demand Live Airwave Verification",
+      "angle": "Examining how an 18-year physical trademark became inseparable from a veteran broadcaster's media identity, creating widespread audience skepticism around digital image authenticity before her scheduled live radio return.",
+      "angle_type": "media identity and digital skepticism",
+      "opening": "Personality-led focus on Muthoni wa Kirumba severing an 18-year physical trademark that anchored her public radio persona.",
+      "structure": "Personality lead -> Verified reveal and hair milestone -> Analysis of digital AI skepticism -> Broadcast context on Kameme FM -> On-air verification close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-02-fans-react-as-presenter-muthoni-kirumba-cuts-off-18-year-dreadlocks"
     }
   ]
 }
