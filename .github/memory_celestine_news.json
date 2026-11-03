@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "96bda074db8a6201130dfb3bed0125fb",
     "ad5fdb97febaf79c4725eb0d56961bc2",
     "74528f762110a15fd4506b81a263aa50",
     "8ccf72c106bf45162e8d524151175ceb",
@@ -799,10 +798,10 @@
     "91563e41fa93a2998f424658e8d05b20",
     "ddeeadda17730c4231fe62b2abf098ee",
     "a3472200e0bb9b389042b36ea8cd67fe",
-    "0622b37026df30adac3a1a0eec86ba55"
+    "0622b37026df30adac3a1a0eec86ba55",
+    "2117926c2f6240d607e54bb7d0b282a2"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1594,7 +1594,8 @@
     "https://kenyans.co.ke/news/129099-five-ebola-patients-discharged-after-tests-confirm-recovery-ministry-says",
     "https://kenyans.co.ke/news/129103-matatu-boss-challenge-ntsa-over-number-plate-removal-during-crackdown",
     "https://kenyans.co.ke/news/129102-nakuru-begins-preparations-host-2027-madaraka-day-celebrations",
-    "https://kenyans.co.ke/news/129098-kenya-signs-deal-idris-elba-boost-creative-industry"
+    "https://kenyans.co.ke/news/129098-kenya-signs-deal-idris-elba-boost-creative-industry",
+    "https://kenyans.co.ke/news/129106-govt-considers-new-road-maintenance-tax-electric-vehicles-gain-popularity"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2279,7 +2280,8 @@
     "clearance milestones frame path outbreak free ebola countdown",
     "ntsa plate stripping crackdowns drive highway bribery loop transport operators warn",
     "nakuru 2027 madaraka bid triggers compressed citywide overhaul",
-    "filmmaking mentorship takes center stage formalizes akuna group pact"
+    "filmmaking mentorship takes center stage formalizes akuna group pact",
+    "000 electric vehicles expose fuel tax gap contractor bills near ksh100b"
   ],
   "topic_keys": [
     "news tracker",
@@ -7715,6 +7717,15 @@
       "structure": "Practical-change lead -> CHOGM agreement and institutional partners -> AI skilling and IP ownership mechanics -> Integration with Talanta Hela and upcoming IGF visit -> Unresolved implementation timeline.",
       "source": "https://kenyans.co.ke/news/129098-kenya-signs-deal-idris-elba-boost-creative-industry",
       "published_at": "2026-11-03T15:01:34Z"
+    },
+    {
+      "title": "Kenya\u2019s 35,000 Electric Vehicles Expose Fuel Tax Gap as Contractor Bills Near Ksh100B",
+      "angle": "Framing the proposed road tax as a structural fiscal collision between Kenya's green fleet push (35,000+ EVs) and an existing Ksh98.17 billion contractor debt burden.",
+      "angle_type": "fiscal dilemma",
+      "opening": "Fiscal-impact lead connecting the growth of the EV fleet directly to the cash-flow squeeze on national road infrastructure maintenance and pending bill clearance.",
+      "structure": "Revenue erosion lead -> Factual core of the ministry's proposal -> Intersecting Ksh98.17B contractor debt & securitisation mechanics -> Fuel levy formula vs. EV adoption growth -> Next operational steps for road funding policy",
+      "source": "https://kenyans.co.ke/news/129106-govt-considers-new-road-maintenance-tax-electric-vehicles-gain-popularity",
+      "published_at": "2026-11-03T15:59:06Z"
     }
   ]
 }
