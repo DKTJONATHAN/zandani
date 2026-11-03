@@ -352,7 +352,8 @@
     "4628aa66ca71ea399ae7cec3d97995bdad043fea7ef58105db0274c03414290c",
     "8feeb17b2931c7f22d66aee4117a3ddbe79d8845832fc8d50374d0680b08f136",
     "454434ec8b4924c964a490af84131e63f6e90731b7c68b4dcd8a1062308dd672",
-    "513956504dd6459920fb0fe54c3e7b1ab76c3b8c393a6a595b901082ab9802e2"
+    "513956504dd6459920fb0fe54c3e7b1ab76c3b8c393a6a595b901082ab9802e2",
+    "528bd1190f67ed0dc071fec776c18346505fe530249f40f00d4d561c6dc49b6f"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -707,17 +708,10 @@
     "https://www.ghafla.co.ke/who-is-regina-re-former-whos-smarter-now-presenter-held-over-mothers-death/",
     "https://www.ghafla.co.ke/kenya-power-announces-tuesday-outages-in-spring-valley-and-parts-of-kajiado/",
     "https://www.ghafla.co.ke/usije-ukasema-sorry-mejja-cautions-artists-over-career-risks-of-political-endorsements-ahead-of-2027/",
-    "https://www.ghafla.co.ke/i-tell-the-truth-rigathi-gachagua-rejects-bullying-allegations-by-opposition/"
+    "https://www.ghafla.co.ke/i-tell-the-truth-rigathi-gachagua-rejects-bullying-allegations-by-opposition/",
+    "https://www.ghafla.co.ke/identities-of-nine-victims-killed-in-florida-learjet-crash-revealed/"
   ],
   "published_angles": [
-    {
-      "title": "Hassan Joho Doubles Down on Maranello Steel With KSh 105M Ferrari Purosangue Addition",
-      "angle": "Framing Joho's latest acquisition through his deliberate curation of elite horsepower, specifically spotlighting his addition of Ferrari's first four-door utility vehicle alongside his existing stable of grand tourers, roadsters, and off-road staples.",
-      "angle_type": "celebrity lifestyle and luxury garage portfolio",
-      "opening": "Personality lead opening directly on Hassan Joho stepping out alongside Ferrari's KSh 105 million four-door utility flagship.",
-      "structure": "Personality hook -> The landed cost and Maranello specs -> Joho's established multi-tier luxury fleet -> Engineering distinction of the four-door utility layout -> Concrete customs and valuation close",
-      "source": "https://www.ghafla.co.ke/mining-cs-hassan-joho-expands-vehicle-collection-with-ksh-105m-ferrari-purosangue/"
-    },
     {
       "title": "From MP Shah to Membley: Kenya Power Sweeps 10 Counties in Heavy Maintenance Blackout",
       "angle": "Reframing the widespread utility interruption around its sharp institutional and commercial exposure\u2014highlighting how the maintenance net swept through critical referral health corridors, high-density gated suburbs, and regional agricultural backbone infrastructure rather than treating it as a generic estate advisory.",
@@ -1509,6 +1503,14 @@
       "opening": "Personality lead opening directly on Rigathi Gachagua at his Wamunyoro home framing his public clashes as deliberate 'truth-telling' against hotel-bound allies.",
       "structure": "Personality hook -> Counter to Justin Muturi's accusations -> Groundwork contrast featuring DCP's 27 rallies -> Tactical veto of Kalonzo's Nov 13 deadline -> Mt. Kenya bargaining terms close.",
       "source": "https://www.ghafla.co.ke/i-tell-the-truth-rigathi-gachagua-rejects-bullying-allegations-by-opposition/"
+    },
+    {
+      "title": "Tech Entrepreneur Adam Robinson, Wife and Two Children Among Nine Dead in Florida Learjet Tragedy",
+      "angle": "Focusing on the tragic intersection of high-flying tech entrepreneurship, family life, and the human identities behind the nine lives lost, moving beyond the technical flight data to examine the prominent Austin figures and crew involved.",
+      "angle_type": "profile and human impact accountability",
+      "opening": "Personality lead opening directly on the family joint statement and the identity of tech entrepreneur Adam Robinson.",
+      "structure": "Personal background hook -> Tech enterprise and PR business context -> Crew details including 20-year-old co-pilot -> Flight path and crash specifics -> Concrete ending on the flight recorder and air traffic logs.",
+      "source": "https://www.ghafla.co.ke/identities-of-nine-victims-killed-in-florida-learjet-crash-revealed/"
     }
   ],
   "style_history": [
