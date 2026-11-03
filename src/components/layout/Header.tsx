@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { SearchOverlay } from "@/components/SearchOverlay";
 import { getAllPosts } from "@/lib/markdown";
 import { primaryNavLinks } from "@/lib/site-links";
-import logoImg from "@/assets/logo.png";
 
 const allPostsFromMarkdown = getAllPosts();
 
@@ -34,7 +33,7 @@ export function Header() {
         <div className="container max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between gap-4 py-3">
             <Link to="/" className="shrink-0 group flex items-end gap-3">
-              <img src={logoImg} alt="Za Ndani" className="h-10 w-10 object-cover rounded-none md:h-12 md:w-auto" loading="eager" width={48} height={48}/>
+              <img src="/logo.png?v=20261103" alt="Za Ndani" className="h-11 w-11 shrink-0 object-contain md:h-12 md:w-12" loading="eager" decoding="async" width={48} height={48}/>
               <div>
                 <div className="font-serif font-bold text-[1.45rem] leading-none tracking-[-.04em]">Za Ndani</div>
                 <div className="mt-1 text-[9px] font-bold uppercase tracking-[.2em] text-muted-foreground">Independent Kenya Newsroom</div>
