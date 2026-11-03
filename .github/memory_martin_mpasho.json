@@ -126,7 +126,8 @@
     "044d8528288c2becadcb9c489211950aa109245f438fdde000d98e4879f89f77",
     "ec73ecc2eca497e69edb8fee6e006236bcf4772b4355195c8a54523267bb6f14",
     "7dc5f466ca16a56336627d7de4a6ede8c7f2fb085e9c167956072347722a5834",
-    "a2c0d37f1d30f99e0f9ef40c5af7f9eeada828a08a98da8678fe347ce62dccb9"
+    "a2c0d37f1d30f99e0f9ef40c5af7f9eeada828a08a98da8678fe347ce62dccb9",
+    "d059d47d63a25a52d802a070ee249ad5f5588b8c3ec3a9ac3b0c206047d590e5"
   ],
   "style_history": [
     "Event Report",
@@ -329,6 +330,10 @@
     {
       "key": "2026-11-02-why-eko-dydda-named-his-daughter-5-star-billions-increase-dydda",
       "ts": "2026-11-03T03:25:38.666664+00:00"
+    },
+    {
+      "key": "2026-11-03-pretty-privilege-aisha-saringe-speaks-on-cash-gifts-from-admirers",
+      "ts": "2026-11-03T07:50:07.514797+00:00"
     }
   ],
   "urls": [
@@ -359,7 +364,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-02-ukipata-mtu-anateseka-achana-na-yeye-riangas-cryptic-message",
     "https://www.mpasho.co.ke/entertainment/2026-11-02-kenyans-react-to-public-clash-between-patrick-and-goliath-wa-bungoma",
     "https://www.mpasho.co.ke/entertainment/2026-11-02-kenyan-prince-dares-us-government-and-interpol-to-arrest-him",
-    "https://www.mpasho.co.ke/entertainment/2026-11-02-why-eko-dydda-named-his-daughter-5-star-billions-increase-dydda"
+    "https://www.mpasho.co.ke/entertainment/2026-11-02-why-eko-dydda-named-his-daughter-5-star-billions-increase-dydda",
+    "https://www.mpasho.co.ke/entertainment/2026-11-03-pretty-privilege-aisha-saringe-speaks-on-cash-gifts-from-admirers"
   ],
   "published_angles": [
     {
@@ -577,6 +583,14 @@
       "opening": "Personality lead introducing Eko Dydda expanding his family's non-ethnic naming tradition with newborn daughter 5 Star Billions Increase Dydda.",
       "structure": "Personality lead -> Breakdown of the newborn's full name and lineage context -> Galia's rationale on de-tribalized sentence names -> Integration with the Tribe-All public campaign -> Grounded cultural takeaway on domestic identity",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-02-why-eko-dydda-named-his-daughter-5-star-billions-increase-dydda"
+    },
+    {
+      "title": "Aisha Saringe Details Unprompted Cash Gifts from Dubai and Thika Road After Bien Video Stardom",
+      "angle": "Exempting the abstract debate on beauty and focusing instead on the transactional economy of unprompted cash gifts and the filtering mechanism required when viral music video visibility collides with thousands of direct messages.",
+      "angle_type": "creator attention economy and cash-gifting dynamics",
+      "opening": "Personality lead opening directly on Aisha Saringe's unprompted cash-gifting encounters across Nairobi and Dubai.",
+      "structure": "Personality lead -> Thika Road and Dubai cash gift specifics -> Post-Bien music video DM surge and unusual fan requests -> Digital filtering and volume reality -> Concrete close on her social media reality.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-03-pretty-privilege-aisha-saringe-speaks-on-cash-gifts-from-admirers"
     }
   ]
 }
