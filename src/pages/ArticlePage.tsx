@@ -21,6 +21,17 @@ import authorProfiles from "../../public/content/authors.json";
 
 const SITE_URL = "https://zandani.co.ke";
 const DEFAULT_OG_IMAGE = `${SITE_URL}/images/default-og.svg`;
+
+// Keep browser titles concise for search results while preserving the full headline in the page, OG tags and NewsArticle markup.
+function searchTitle(headline: string): string {
+  const brand = " | Za Ndani";
+  const maxLength = 58;
+  const available = maxLength - brand.length;
+  const clean = String(headline || "").replace(/\\s+/g, " ").trim();
+  if (clean.length <= available) return clean + brand;
+  const shortened = clean.slice(0, available - 1).replace(/\\s+\\S*$/, "").replace(/[\\s.,;:!?-]+$/, "");
+  return (shortened || clean.slice(0, available - 1)) + "…" + brand;
+}
 // OG metadata is validated by host and URL structure; no generated image URLs are injected here.
 const BLOCKED_OG_HOSTS = [
   "kenyans.co.ke",
@@ -214,7 +225,7 @@ export default function ArticlePage() {
     <Layout>
       <div className="news-article">
       <Helmet>
-        <title>{post.title} | Za Ndani</title>
+        <title>{searchTitle(post.title)}</title>
         <meta name="description" content={metaDescription} />
         <meta name="author" content={post.author} />
         <link rel="canonical" href={canonicalUrl} />
