@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "790e0fb4883eced001c1af0cbc1dd430",
     "3cd267b4c139d2cc1cbe6cfc678b56b3",
     "4860671f9be7fae4d68bda9c4cc3e512",
     "ae7208c70968a2fa70b4cd1479e9be12",
@@ -799,10 +798,10 @@
     "1780e029d302bc7a71b8f5700d5fb920",
     "c54d22c06bc3c7699c638e26ffd42717",
     "6dc777121f49c302557c66fb261f4c16",
-    "bb99d7ccd53b625f0b7c78d00670aa3f"
+    "bb99d7ccd53b625f0b7c78d00670aa3f",
+    "d4a8b37731e8feeb9291558b42c4f50b"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1589,7 +1589,8 @@
     "https://kenyans.co.ke/news/129083-over-300-kenyan-workers-blocked-entry-saudi-arabia-over-ebola",
     "https://kenyans.co.ke/news/129084-uk-doubles-permanent-residency-wait-10-years-under-new-immigration-rules",
     "https://kenyans.co.ke/news/129088-psc-warns-ceos-over-mishandling-civil-servants-disciplinary-cases",
-    "https://kenyans.co.ke/news/129092-cctv-captures-alleged-abduction-city-lawyer-nairobi"
+    "https://kenyans.co.ke/news/129092-cctv-captures-alleged-abduction-city-lawyer-nairobi",
+    "https://kenyans.co.ke/news/129095-boma-yangu-explains-how-kenyans-can-change-preferred-affordable-housing-units"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2269,7 +2270,8 @@
     "visa expiry fears mount saudi ebola ban snares returning workers",
     "year residency rule draws economic line 144 000 britain",
     "state agency bosses face personal liability botched disciplinary firings",
-    "family casts wide legal net across five security organs kilimani lawyer abduction"
+    "family casts wide legal net across five security organs kilimani lawyer abduction",
+    "boma yangu opens unit swapping savers but questions remain post allocation portability"
   ],
   "topic_keys": [
     "news tracker",
@@ -7660,6 +7662,15 @@
       "structure": "Milimani High Court petition lead -> Factual breakdown of the November 1 CCTV abduction -> Underlying litigation context involving senior police officers -> Family demands and institutional silence -> Forward-looking judicial inquiry.",
       "source": "https://kenyans.co.ke/news/129092-cctv-captures-alleged-abduction-city-lawyer-nairobi",
       "published_at": "2026-11-03T10:02:26Z"
+    },
+    {
+      "title": "Boma Yangu Opens Unit Swapping for Savers, But Questions Remain Over Post-Allocation Portability",
+      "angle": "Focusing on the operational introduction of project-and-location mobility for prospective buyers within the Boma Yangu system, while highlighting the key procedural ambiguity regarding post-allocation binding terms vs. pre-allocation saving.",
+      "angle_type": "procedural mechanics",
+      "opening": "Policy mechanics lead framing the digital flexibility allowed to housing savers before formal allocation.",
+      "structure": "Portal flexibility lead -> Step-by-step digital process -> Multi-county location and typology dynamics -> Deposit rules and unresolved post-allocation status -> Forward outlook on administrative rules.",
+      "source": "https://kenyans.co.ke/news/129095-boma-yangu-explains-how-kenyans-can-change-preferred-affordable-housing-units",
+      "published_at": "2026-11-03T11:02:08Z"
     }
   ]
 }
