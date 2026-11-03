@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "4860671f9be7fae4d68bda9c4cc3e512",
     "ae7208c70968a2fa70b4cd1479e9be12",
     "0a6eb8a9ef7b2f15a4c4d5222de81c0c",
     "96bda074db8a6201130dfb3bed0125fb",
@@ -799,10 +798,10 @@
     "6dc777121f49c302557c66fb261f4c16",
     "bb99d7ccd53b625f0b7c78d00670aa3f",
     "d4a8b37731e8feeb9291558b42c4f50b",
-    "91563e41fa93a2998f424658e8d05b20"
+    "91563e41fa93a2998f424658e8d05b20",
+    "ddeeadda17730c4231fe62b2abf098ee"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1591,7 +1591,8 @@
     "https://kenyans.co.ke/news/129088-psc-warns-ceos-over-mishandling-civil-servants-disciplinary-cases",
     "https://kenyans.co.ke/news/129092-cctv-captures-alleged-abduction-city-lawyer-nairobi",
     "https://kenyans.co.ke/news/129095-boma-yangu-explains-how-kenyans-can-change-preferred-affordable-housing-units",
-    "https://kenyans.co.ke/news/129099-five-ebola-patients-discharged-after-tests-confirm-recovery-ministry-says"
+    "https://kenyans.co.ke/news/129099-five-ebola-patients-discharged-after-tests-confirm-recovery-ministry-says",
+    "https://kenyans.co.ke/news/129103-matatu-boss-challenge-ntsa-over-number-plate-removal-during-crackdown"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2273,7 +2274,8 @@
     "state agency bosses face personal liability botched disciplinary firings",
     "family casts wide legal net across five security organs kilimani lawyer abduction",
     "boma yangu opens unit swapping savers but questions remain post allocation portability",
-    "clearance milestones frame path outbreak free ebola countdown"
+    "clearance milestones frame path outbreak free ebola countdown",
+    "ntsa plate stripping crackdowns drive highway bribery loop transport operators warn"
   ],
   "topic_keys": [
     "news tracker",
@@ -7682,6 +7684,15 @@
       "structure": "Surveillance timeline lead -> Patient discharge and hospital distribution facts -> Dual clearance pipelines (clinical vs contact isolation) -> Anti-stigma and reintegration protocols -> Terminal countdown rules and reporting lines.",
       "source": "https://kenyans.co.ke/news/129099-five-ebola-patients-discharged-after-tests-confirm-recovery-ministry-says",
       "published_at": "2026-11-03T12:02:06Z"
+    },
+    {
+      "title": "NTSA's Plate-Stripping Crackdowns Drive Highway Bribery Loop, Transport Operators Warn",
+      "angle": "How NTSA's focus on physical vehicle penalties over individual driver accountability creates an enforcement loop on highways, where steep fines encourage bribery and fail to address driver behavior ahead of the December holiday travel surge.",
+      "angle_type": "perverse incentives",
+      "opening": "Enforcement-mechanics lead establishing how physical asset confiscation and steep fines create bargaining loops on major highways.",
+      "structure": "Enforcement loop lead -> Factual breakdown of Bosire's challenge to NTSA -> Analysis of fine economics and roadside bribery -> Holiday rental risks -> Campaign scope and next operational hurdles.",
+      "source": "https://kenyans.co.ke/news/129103-matatu-boss-challenge-ntsa-over-number-plate-removal-during-crackdown",
+      "published_at": "2026-11-03T13:02:07Z"
     }
   ]
 }
