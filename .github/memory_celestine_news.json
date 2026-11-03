@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "3cd267b4c139d2cc1cbe6cfc678b56b3",
     "4860671f9be7fae4d68bda9c4cc3e512",
     "ae7208c70968a2fa70b4cd1479e9be12",
     "0a6eb8a9ef7b2f15a4c4d5222de81c0c",
@@ -799,10 +798,10 @@
     "c54d22c06bc3c7699c638e26ffd42717",
     "6dc777121f49c302557c66fb261f4c16",
     "bb99d7ccd53b625f0b7c78d00670aa3f",
-    "d4a8b37731e8feeb9291558b42c4f50b"
+    "d4a8b37731e8feeb9291558b42c4f50b",
+    "91563e41fa93a2998f424658e8d05b20"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Desk Take",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1590,7 +1590,8 @@
     "https://kenyans.co.ke/news/129084-uk-doubles-permanent-residency-wait-10-years-under-new-immigration-rules",
     "https://kenyans.co.ke/news/129088-psc-warns-ceos-over-mishandling-civil-servants-disciplinary-cases",
     "https://kenyans.co.ke/news/129092-cctv-captures-alleged-abduction-city-lawyer-nairobi",
-    "https://kenyans.co.ke/news/129095-boma-yangu-explains-how-kenyans-can-change-preferred-affordable-housing-units"
+    "https://kenyans.co.ke/news/129095-boma-yangu-explains-how-kenyans-can-change-preferred-affordable-housing-units",
+    "https://kenyans.co.ke/news/129099-five-ebola-patients-discharged-after-tests-confirm-recovery-ministry-says"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2271,7 +2272,8 @@
     "year residency rule draws economic line 144 000 britain",
     "state agency bosses face personal liability botched disciplinary firings",
     "family casts wide legal net across five security organs kilimani lawyer abduction",
-    "boma yangu opens unit swapping savers but questions remain post allocation portability"
+    "boma yangu opens unit swapping savers but questions remain post allocation portability",
+    "clearance milestones frame path outbreak free ebola countdown"
   ],
   "topic_keys": [
     "news tracker",
@@ -7671,6 +7673,15 @@
       "structure": "Portal flexibility lead -> Step-by-step digital process -> Multi-county location and typology dynamics -> Deposit rules and unresolved post-allocation status -> Forward outlook on administrative rules.",
       "source": "https://kenyans.co.ke/news/129095-boma-yangu-explains-how-kenyans-can-change-preferred-affordable-housing-units",
       "published_at": "2026-11-03T11:02:08Z"
+    },
+    {
+      "title": "Clearance Milestones Frame Kenya's Path to Outbreak-Free Ebola Countdown",
+      "angle": "Focusing on the precise public health clearance mechanics and dual-track surveillance schedule that Kenya must navigate before it can initiate the mandatory 42-day clock to declare the outbreak officially over.",
+      "angle_type": "procedural mechanics",
+      "opening": "Milestone lead framing the twin clinical and contact-tracing clearance hurdles required before Kenya's official 42-day outbreak countdown can begin.",
+      "structure": "Surveillance timeline lead -> Patient discharge and hospital distribution facts -> Dual clearance pipelines (clinical vs contact isolation) -> Anti-stigma and reintegration protocols -> Terminal countdown rules and reporting lines.",
+      "source": "https://kenyans.co.ke/news/129099-five-ebola-patients-discharged-after-tests-confirm-recovery-ministry-says",
+      "published_at": "2026-11-03T12:02:06Z"
     }
   ]
 }
