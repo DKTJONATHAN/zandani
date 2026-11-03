@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "40d83429247f8e50894e656ffdf48629",
     "dede7ebd6264eb7e7f494705e05ece57",
     "790e0fb4883eced001c1af0cbc1dd430",
     "3cd267b4c139d2cc1cbe6cfc678b56b3",
@@ -799,10 +798,10 @@
     "e8a02d06b94aa1cd60678b8f936526a8",
     "6d3711324231fe7005547e93928d0693",
     "1780e029d302bc7a71b8f5700d5fb920",
-    "c54d22c06bc3c7699c638e26ffd42717"
+    "c54d22c06bc3c7699c638e26ffd42717",
+    "6dc777121f49c302557c66fb261f4c16"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1587,7 +1587,8 @@
     "https://kenyans.co.ke/news/129075-trans-nzoia-deputy-speaker-arrested-over-alleged-plot-block-ruto-motorcade",
     "https://kenyans.co.ke/news/129077-world-bank-urges-kenya-ease-building-height-limits-boost-housing",
     "https://kenyans.co.ke/news/129083-over-300-kenyan-workers-blocked-entry-saudi-arabia-over-ebola",
-    "https://kenyans.co.ke/news/129084-uk-doubles-permanent-residency-wait-10-years-under-new-immigration-rules"
+    "https://kenyans.co.ke/news/129084-uk-doubles-permanent-residency-wait-10-years-under-new-immigration-rules",
+    "https://kenyans.co.ke/news/129088-psc-warns-ceos-over-mishandling-civil-servants-disciplinary-cases"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2265,7 +2266,8 @@
     "state opens obstruction docket trans nzoia deputy speaker ruto kitale convoy clash",
     "world bank push taller apartments collides nairobi infrastructure legal limits",
     "visa expiry fears mount saudi ebola ban snares returning workers",
-    "year residency rule draws economic line 144 000 britain"
+    "year residency rule draws economic line 144 000 britain",
+    "state agency bosses face personal liability botched disciplinary firings"
   ],
   "topic_keys": [
     "news tracker",
@@ -7638,6 +7640,15 @@
       "structure": "Income-tier breakdown lead -> Earned Settlement policy mechanics -> Impact on the 144,000 Kenyan population -> Professional sector exemptions (care workers, NHS) -> Closing on transitional uncertainty.",
       "source": "https://kenyans.co.ke/news/129084-uk-doubles-permanent-residency-wait-10-years-under-new-immigration-rules",
       "published_at": "2026-11-03T08:02:08Z"
+    },
+    {
+      "title": "State Agency Bosses Face Personal Liability Over Botched Disciplinary Firings",
+      "angle": "The financial exposure and personal liability facing state agency leadership when flawed human resource dismissals boomerang into costly court battles and PSC appeals.",
+      "angle_type": "accountability",
+      "opening": "Accountability lead focusing on the financial and legal exposure of institutional bosses rather than standard ministerial warnings.",
+      "structure": "Financial exposure lead -> Workshop proceedings and appeal surge statistics -> Intersection with operational absenteeism and intern reliance -> HR vacuum analysis -> Forward outlook on compliance costs.",
+      "source": "https://kenyans.co.ke/news/129088-psc-warns-ceos-over-mishandling-civil-servants-disciplinary-cases",
+      "published_at": "2026-11-03T09:02:13Z"
     }
   ]
 }
