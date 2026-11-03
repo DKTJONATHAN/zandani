@@ -125,7 +125,8 @@
     "fe162d4b5148b2e63cf52c34b9fc233c30dda6f46ca0a5082f696cd2c3cf6dc7",
     "044d8528288c2becadcb9c489211950aa109245f438fdde000d98e4879f89f77",
     "ec73ecc2eca497e69edb8fee6e006236bcf4772b4355195c8a54523267bb6f14",
-    "7dc5f466ca16a56336627d7de4a6ede8c7f2fb085e9c167956072347722a5834"
+    "7dc5f466ca16a56336627d7de4a6ede8c7f2fb085e9c167956072347722a5834",
+    "a2c0d37f1d30f99e0f9ef40c5af7f9eeada828a08a98da8678fe347ce62dccb9"
   ],
   "style_history": [
     "Event Report",
@@ -324,6 +325,10 @@
     {
       "key": "2026-11-02-kenyan-prince-dares-us-government-and-interpol-to-arrest-him",
       "ts": "2026-11-03T01:23:29.777981+00:00"
+    },
+    {
+      "key": "2026-11-02-why-eko-dydda-named-his-daughter-5-star-billions-increase-dydda",
+      "ts": "2026-11-03T03:25:38.666664+00:00"
     }
   ],
   "urls": [
@@ -353,7 +358,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-02-mbavu-destroyer-and-truphena-muthoni-target-1b-trees-in-24-hrs",
     "https://www.mpasho.co.ke/entertainment/2026-11-02-ukipata-mtu-anateseka-achana-na-yeye-riangas-cryptic-message",
     "https://www.mpasho.co.ke/entertainment/2026-11-02-kenyans-react-to-public-clash-between-patrick-and-goliath-wa-bungoma",
-    "https://www.mpasho.co.ke/entertainment/2026-11-02-kenyan-prince-dares-us-government-and-interpol-to-arrest-him"
+    "https://www.mpasho.co.ke/entertainment/2026-11-02-kenyan-prince-dares-us-government-and-interpol-to-arrest-him",
+    "https://www.mpasho.co.ke/entertainment/2026-11-02-why-eko-dydda-named-his-daughter-5-star-billions-increase-dydda"
   ],
   "published_angles": [
     {
@@ -563,6 +569,14 @@
       "opening": "Personality lead opening directly on Raymond Omosa using his Dubai residency as a platform for challenging international law enforcement.",
       "structure": "Personality lead -> Verbatim taunt and foreign targets -> Dubai residency context and financial claims -> Context of international financial scrutiny -> Status close",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-02-kenyan-prince-dares-us-government-and-interpol-to-arrest-him"
+    },
+    {
+      "title": "Eko Dydda Strips Ethnic Surnames With \u2018Sentence Name\u2019 for Newborn Daughter",
+      "angle": "Reframing the name not as an eccentric celebrity publicity stunt, but as an ideological refusal of Kenya's ethnic classification system, where the couple uses 'sentence names' to deliberately strip tribal signifiers in favor of linguistic affirmations.",
+      "angle_type": "cultural identity and celebrity domestic doctrine",
+      "opening": "Personality lead introducing Eko Dydda expanding his family's non-ethnic naming tradition with newborn daughter 5 Star Billions Increase Dydda.",
+      "structure": "Personality lead -> Breakdown of the newborn's full name and lineage context -> Galia's rationale on de-tribalized sentence names -> Integration with the Tribe-All public campaign -> Grounded cultural takeaway on domestic identity",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-02-why-eko-dydda-named-his-daughter-5-star-billions-increase-dydda"
     }
   ]
 }
