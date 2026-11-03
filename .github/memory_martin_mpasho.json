@@ -130,7 +130,8 @@
     "d059d47d63a25a52d802a070ee249ad5f5588b8c3ec3a9ac3b0c206047d590e5",
     "7724eaf2a3e509b02a516263bee33f15d5ba8439318f122801f54db59bed77ad",
     "0145c0c11b355b94e42c9b8cc7e4a4b5a13a1f00447765644311053758c7c7f2",
-    "645a6ac82519abc3ec27f70dfd5be0f644b96ef1126abec2bef2415f48c44e28"
+    "645a6ac82519abc3ec27f70dfd5be0f644b96ef1126abec2bef2415f48c44e28",
+    "2ff9334cc4d618717ad63c7095be39947063afc6a75c490187652274ccfaf581"
   ],
   "style_history": [
     "Event Report",
@@ -349,6 +350,10 @@
     {
       "key": "2026-11-03-forex-trader-nyathira-shares-health-update-after-undergoing-surgery",
       "ts": "2026-11-03T13:22:46.440612+00:00"
+    },
+    {
+      "key": "2026-11-03-sueh-owino-shows-off-village-homestead-featuring-outdoor-kitchen",
+      "ts": "2026-11-03T15:23:47.844959+00:00"
     }
   ],
   "urls": [
@@ -383,7 +388,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-03-pretty-privilege-aisha-saringe-speaks-on-cash-gifts-from-admirers",
     "https://www.mpasho.co.ke/entertainment/2026-11-03-how-aisha-saringe-landed-lead-role-in-biens-ill-be-okay-video",
     "https://www.mpasho.co.ke/entertainment/2026-11-03-mercy-masika-women-have-more-emotional-intelligence-than-men",
-    "https://www.mpasho.co.ke/entertainment/2026-11-03-forex-trader-nyathira-shares-health-update-after-undergoing-surgery"
+    "https://www.mpasho.co.ke/entertainment/2026-11-03-forex-trader-nyathira-shares-health-update-after-undergoing-surgery",
+    "https://www.mpasho.co.ke/entertainment/2026-11-03-sueh-owino-shows-off-village-homestead-featuring-outdoor-kitchen"
   ],
   "published_angles": [
     {
@@ -633,6 +639,14 @@
       "opening": "Personality lead opening directly on Nyathira acknowledging her safe exit from the operating theatre.",
       "structure": "Personality lead -> Verbatim Swahili post-op statement -> Mechanics of selective disclosure in creator culture -> Shared digital profile with Nebz -> Focused recovery close.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-03-forex-trader-nyathira-shares-health-update-after-undergoing-surgery"
+    },
+    {
+      "title": "Sueh Owino Swaps City Footprint for Waterproof Mud House and Thatched Kitchen",
+      "angle": "The practical domestic economics and structural engineering choices behind moving away from urban rental dependency into natural, owner-built village infrastructure.",
+      "angle_type": "practical domestic architecture and lifestyle transition",
+      "opening": "Personality lead focusing directly on Sueh Owino trading urban consumer visibility for manual village construction.",
+      "structure": "Personality hook -> Material breakdown of the mud house and waterproof earthen floors -> The separate masonry and thatched outdoor kitchen mechanics -> Agricultural integration with raised vegetable beds -> Land acquisition context and structural close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-03-sueh-owino-shows-off-village-homestead-featuring-outdoor-kitchen"
     }
   ]
 }
