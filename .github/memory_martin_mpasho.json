@@ -132,7 +132,8 @@
     "0145c0c11b355b94e42c9b8cc7e4a4b5a13a1f00447765644311053758c7c7f2",
     "645a6ac82519abc3ec27f70dfd5be0f644b96ef1126abec2bef2415f48c44e28",
     "2ff9334cc4d618717ad63c7095be39947063afc6a75c490187652274ccfaf581",
-    "feba65ec595ec2f5608aaffb2821908b55a57e8fa7226804ad378cc6a69037c3"
+    "feba65ec595ec2f5608aaffb2821908b55a57e8fa7226804ad378cc6a69037c3",
+    "e461f83cde0bc8588513054a15be30334259c0a1a97a606c86965e8ec84fc5fa"
   ],
   "style_history": [
     "Event Report",
@@ -359,6 +360,10 @@
     {
       "key": "2026-11-03-african-films-in-focus-as-alternativa-festival-opens-2027-entries-with-15-million-prize-pool",
       "ts": "2026-11-03T17:54:57.830632+00:00"
+    },
+    {
+      "key": "2026-11-03-khaligraph-jones-boutross-and-maandy-thrill-fans-at-chrome-city-xo-tour-in-chuka",
+      "ts": "2026-11-03T19:23:02.729152+00:00"
     }
   ],
   "urls": [
@@ -395,7 +400,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-03-mercy-masika-women-have-more-emotional-intelligence-than-men",
     "https://www.mpasho.co.ke/entertainment/2026-11-03-forex-trader-nyathira-shares-health-update-after-undergoing-surgery",
     "https://www.mpasho.co.ke/entertainment/2026-11-03-sueh-owino-shows-off-village-homestead-featuring-outdoor-kitchen",
-    "https://www.mpasho.co.ke/entertainment/2026-11-03-african-films-in-focus-as-alternativa-festival-opens-2027-entries-with-15-million-prize-pool"
+    "https://www.mpasho.co.ke/entertainment/2026-11-03-african-films-in-focus-as-alternativa-festival-opens-2027-entries-with-15-million-prize-pool",
+    "https://www.mpasho.co.ke/entertainment/2026-11-03-khaligraph-jones-boutross-and-maandy-thrill-fans-at-chrome-city-xo-tour-in-chuka"
   ],
   "published_angles": [
     {
@@ -661,6 +667,14 @@
       "opening": "Personality and corporate strategy lead featuring inDrive CEO Arsen Tomsky addressing the structural inequalities of international film distribution.",
       "structure": "Corporate strategy lead -> Alternativa Distribution mechanics -> Prize pool and African category breakdown -> Global South nomadic footprint -> Concrete close on submission deadlines",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-03-african-films-in-focus-as-alternativa-festival-opens-2027-entries-with-15-million-prize-pool"
+    },
+    {
+      "title": "Boutross Leads Chuka Homecoming as Heavy Downpours Test Chrome City XO Tour Pull",
+      "angle": "Examining the corporate brand-activation machinery and homecoming economics that turn regional secondary towns into targeted experiential campaigns for national alcohol labels.",
+      "angle_type": "brand activation economics and regional artist homecoming strategy",
+      "opening": "Personality and homecoming lead centering on Boutross returning to his formative stamping ground under brand sponsorship.",
+      "structure": "Homecoming hook -> Ticket and attendance metrics under foul weather -> Brand messaging vs regional marketing strategy -> Lineup and supporting acts breakdown -> Concrete closing fact on regional tour positioning.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-03-khaligraph-jones-boutross-and-maandy-thrill-fans-at-chrome-city-xo-tour-in-chuka"
     }
   ]
 }
