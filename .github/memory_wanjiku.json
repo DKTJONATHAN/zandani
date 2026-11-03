@@ -354,7 +354,8 @@
     "454434ec8b4924c964a490af84131e63f6e90731b7c68b4dcd8a1062308dd672",
     "513956504dd6459920fb0fe54c3e7b1ab76c3b8c393a6a595b901082ab9802e2",
     "528bd1190f67ed0dc071fec776c18346505fe530249f40f00d4d561c6dc49b6f",
-    "ccd183c3af095f1025a5f221f44802362013f1f75270d9e1ab6204b181a14d91"
+    "ccd183c3af095f1025a5f221f44802362013f1f75270d9e1ab6204b181a14d91",
+    "341af75f0e14132450ee5a3302d35b0fbcc4088d040d6a3be2ca3491745add9c"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -711,17 +712,10 @@
     "https://www.ghafla.co.ke/usije-ukasema-sorry-mejja-cautions-artists-over-career-risks-of-political-endorsements-ahead-of-2027/",
     "https://www.ghafla.co.ke/i-tell-the-truth-rigathi-gachagua-rejects-bullying-allegations-by-opposition/",
     "https://www.ghafla.co.ke/identities-of-nine-victims-killed-in-florida-learjet-crash-revealed/",
-    "https://www.ghafla.co.ke/terence-creative-resigns-as-dccak-secretary-general-months-after-suspension/"
+    "https://www.ghafla.co.ke/terence-creative-resigns-as-dccak-secretary-general-months-after-suspension/",
+    "https://www.ghafla.co.ke/geoffrey-mosiria-criticizes-sakajas-claim-that-raila-urged-him-to-join-odm/"
   ],
   "published_angles": [
-    {
-      "title": "Mama Ida Odinga Rallies the Family Unit in Bondo as Opoda Farm Hosts Sifuna\u2019s Camp Ahead of Memorial",
-      "angle": "Reframing the anniversary through the Odinga family's personal choreography\u2014highlighting Mama Ida and siblings Raila Jnr, Rosemary, and Winnie opening Opoda Farm to Edwin Sifuna\u2019s faction and consolidating allied VIPs like Uhuru Kenyatta and Kalonzo Musyoka, set against notable high-level absentees.",
-      "angle_type": "family dynasty dynamic and VIP guest list contrast",
-      "opening": "Personality lead opening squarely on Mama Ida Odinga arriving at Migwena Cultural Grounds flanked by Raila Jnr, Rosemary, and Winnie.",
-      "structure": "Person and family arrival hook -> Opoda Farm pre-ceremony hosting of Sifuna and Linda Mwananchi -> High-profile VIP guest list (Uhuru and Kalonzo) -> The notable absentees ledger (Ruto, Mbadi, Wanga) -> Public memorial scale at Migwena.",
-      "source": "https://www.ghafla.co.ke/odinga-family-political-allies-gather-in-bondo-for-late-leaders-first-anniversary-memorial/"
-    },
     {
       "title": "Kamene Goro Draws the Line on Singlehood Rumors After Solitary Morning Post Sparks Online Panic",
       "angle": "Focusing on the mechanics of digital over-interpretation and how public figures navigate the trap of casual playlist sharing (Bien's 'I\u2019ll Be Okay') versus offline reality.",
@@ -1513,6 +1507,14 @@
       "opening": "Personality lead introducing Terence Creative's farewell announcement alongside DCCAK's instant timeline audit.",
       "structure": "Personality lead hook -> Breakdown of Terence's voluntary exit letter -> DCCAK's counter-statement and May 2026 suspension disclosure -> Analysis of the narrative disconnect -> Context on Terence's dual role as comedian and advocate -> Concrete administrative close.",
       "source": "https://www.ghafla.co.ke/terence-creative-resigns-as-dccak-secretary-general-months-after-suspension/"
+    },
+    {
+      "title": "Geoffrey Mosiria Draws the Line at Chungwa House, Warns ODM Over Sakaja Defection",
+      "angle": "Focusing on the internal party ideological collision and rebellion sparked by Sakaja's arrival, specifically Mosiria's direct challenge to ODM's executive organ over compromising leadership principles ahead of 2027.",
+      "angle_type": "internal party resistance and ideological accountability",
+      "opening": "Personality-led focus on Geoffrey Mosiria drawing a sharp ideological line in the sand at Chungwa House.",
+      "structure": "Hook on Mosiria's pushback -> Details of Sakaja's Monday defection and Raila endorsement claim -> Mosiria's specific integrity critique -> Appeal to party executives ahead of 2027.",
+      "source": "https://www.ghafla.co.ke/geoffrey-mosiria-criticizes-sakajas-claim-that-raila-urged-him-to-join-odm/"
     }
   ],
   "style_history": [
