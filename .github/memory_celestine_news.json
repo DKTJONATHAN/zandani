@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "0a6eb8a9ef7b2f15a4c4d5222de81c0c",
     "96bda074db8a6201130dfb3bed0125fb",
     "ad5fdb97febaf79c4725eb0d56961bc2",
     "74528f762110a15fd4506b81a263aa50",
@@ -799,10 +798,10 @@
     "d4a8b37731e8feeb9291558b42c4f50b",
     "91563e41fa93a2998f424658e8d05b20",
     "ddeeadda17730c4231fe62b2abf098ee",
-    "a3472200e0bb9b389042b36ea8cd67fe"
+    "a3472200e0bb9b389042b36ea8cd67fe",
+    "0622b37026df30adac3a1a0eec86ba55"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1593,7 +1593,8 @@
     "https://kenyans.co.ke/news/129095-boma-yangu-explains-how-kenyans-can-change-preferred-affordable-housing-units",
     "https://kenyans.co.ke/news/129099-five-ebola-patients-discharged-after-tests-confirm-recovery-ministry-says",
     "https://kenyans.co.ke/news/129103-matatu-boss-challenge-ntsa-over-number-plate-removal-during-crackdown",
-    "https://kenyans.co.ke/news/129102-nakuru-begins-preparations-host-2027-madaraka-day-celebrations"
+    "https://kenyans.co.ke/news/129102-nakuru-begins-preparations-host-2027-madaraka-day-celebrations",
+    "https://kenyans.co.ke/news/129098-kenya-signs-deal-idris-elba-boost-creative-industry"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2277,7 +2278,8 @@
     "boma yangu opens unit swapping savers but questions remain post allocation portability",
     "clearance milestones frame path outbreak free ebola countdown",
     "ntsa plate stripping crackdowns drive highway bribery loop transport operators warn",
-    "nakuru 2027 madaraka bid triggers compressed citywide overhaul"
+    "nakuru 2027 madaraka bid triggers compressed citywide overhaul",
+    "filmmaking mentorship takes center stage formalizes akuna group pact"
   ],
   "topic_keys": [
     "news tracker",
@@ -7704,6 +7706,15 @@
       "structure": "Rotational-policy pressure lead -> Technical committee and infrastructural work scope -> Non-motorized transport and environmental restoration specifics -> Context on prior host rotations (Homa Bay and Wajir) and future timelines.",
       "source": "https://kenyans.co.ke/news/129102-nakuru-begins-preparations-host-2027-madaraka-day-celebrations",
       "published_at": "2026-11-03T14:02:07Z"
+    },
+    {
+      "title": "AI Filmmaking Mentorship Takes Center Stage as Kenya Formalizes Akuna Group Pact",
+      "angle": "The practical integration of artificial intelligence filmmaking mentorship and production funding pipelines for local creators, bridging international enterprise agreements with ground-level technical skilling under the Talanta Hela framework.",
+      "angle_type": "practical change",
+      "opening": "Practical-change lead highlighting the convergence of AI filmmaking mentorship and state commercialization channels.",
+      "structure": "Practical-change lead -> CHOGM agreement and institutional partners -> AI skilling and IP ownership mechanics -> Integration with Talanta Hela and upcoming IGF visit -> Unresolved implementation timeline.",
+      "source": "https://kenyans.co.ke/news/129098-kenya-signs-deal-idris-elba-boost-creative-industry",
+      "published_at": "2026-11-03T15:01:34Z"
     }
   ]
 }
