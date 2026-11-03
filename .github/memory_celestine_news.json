@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "74528f762110a15fd4506b81a263aa50",
     "8ccf72c106bf45162e8d524151175ceb",
     "8faee3817c8e3eebcd320fb771bf3bf0",
     "756743218d98d27dda73004f1752d4f7",
@@ -799,10 +798,10 @@
     "a3472200e0bb9b389042b36ea8cd67fe",
     "0622b37026df30adac3a1a0eec86ba55",
     "2117926c2f6240d607e54bb7d0b282a2",
-    "6d0845417cf963b15c875c4071de8a35"
+    "6d0845417cf963b15c875c4071de8a35",
+    "e34169aa3c4ace51aa053f95588f7ef8"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1596,7 +1596,8 @@
     "https://kenyans.co.ke/news/129102-nakuru-begins-preparations-host-2027-madaraka-day-celebrations",
     "https://kenyans.co.ke/news/129098-kenya-signs-deal-idris-elba-boost-creative-industry",
     "https://kenyans.co.ke/news/129106-govt-considers-new-road-maintenance-tax-electric-vehicles-gain-popularity",
-    "https://kenyans.co.ke/news/129101-gachagua-hits-back-opposition-leaders-over-bullying-claims"
+    "https://kenyans.co.ke/news/129101-gachagua-hits-back-opposition-leaders-over-bullying-claims",
+    "https://kenyans.co.ke/news/129107-kpc-foils-attempted-fuel-theft-through-illegal-pipeline-connection-mombasa"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2283,7 +2284,8 @@
     "nakuru 2027 madaraka bid triggers compressed citywide overhaul",
     "filmmaking mentorship takes center stage formalizes akuna group pact",
     "000 electric vehicles expose fuel tax gap contractor bills near ksh100b",
-    "gachagua draws battle lines november flagbearer deadline united opposition"
+    "gachagua draws battle lines november flagbearer deadline united opposition",
+    "mombasa pipeline tap uncovered high fuel prices test infrastructure security"
   ],
   "topic_keys": [
     "news tracker",
@@ -7737,6 +7739,15 @@
       "structure": "Tactical-tension lead -> Electoral timeline clash (November 13 vs 280+ days) -> Grassroots vs. boardroom campaign methodology -> Mt Kenya voting bloc leverage -> Unresolved flagbearer convention outcome.",
       "source": "https://kenyans.co.ke/news/129101-gachagua-hits-back-opposition-leaders-over-bullying-claims",
       "published_at": "2026-11-03T16:03:27Z"
+    },
+    {
+      "title": "Mombasa Pipeline Tap Uncovered as High Fuel Prices Test Infrastructure Security",
+      "angle": "The economic pressure point: examining how the attempted diversion coincides with an acute retail fuel pricing cycle where pump prices sit at record highs following October adjustments.",
+      "angle_type": "consequence",
+      "opening": "Consequence-first lead establishing the economic pressure driving illegal infrastructure tampering against the backdrop of record pump prices.",
+      "structure": "Economic-pressure lead -> Operational details of the Mombasa discovery -> EPRA retail pricing context -> Police investigation and staff scrutiny -> Forward look on enforcement and price cycle expiry.",
+      "source": "https://kenyans.co.ke/news/129107-kpc-foils-attempted-fuel-theft-through-illegal-pipeline-connection-mombasa",
+      "published_at": "2026-11-03T18:02:16Z"
     }
   ]
 }
