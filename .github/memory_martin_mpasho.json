@@ -124,7 +124,8 @@
     "c144f5904fb1138fff2fb7613cbf51758ac18a95f6ca0cc0431a62f933b8d0af",
     "fe162d4b5148b2e63cf52c34b9fc233c30dda6f46ca0a5082f696cd2c3cf6dc7",
     "044d8528288c2becadcb9c489211950aa109245f438fdde000d98e4879f89f77",
-    "ec73ecc2eca497e69edb8fee6e006236bcf4772b4355195c8a54523267bb6f14"
+    "ec73ecc2eca497e69edb8fee6e006236bcf4772b4355195c8a54523267bb6f14",
+    "7dc5f466ca16a56336627d7de4a6ede8c7f2fb085e9c167956072347722a5834"
   ],
   "style_history": [
     "Event Report",
@@ -319,6 +320,10 @@
     {
       "key": "2026-11-02-kenyans-react-to-public-clash-between-patrick-and-goliath-wa-bungoma",
       "ts": "2026-11-02T23:26:49.831955+00:00"
+    },
+    {
+      "key": "2026-11-02-kenyan-prince-dares-us-government-and-interpol-to-arrest-him",
+      "ts": "2026-11-03T01:23:29.777981+00:00"
     }
   ],
   "urls": [
@@ -347,7 +352,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-02-nairobi-set-for-unique-orchestral-music-experience-as-the-bar-symphony-makes-debut",
     "https://www.mpasho.co.ke/entertainment/2026-11-02-mbavu-destroyer-and-truphena-muthoni-target-1b-trees-in-24-hrs",
     "https://www.mpasho.co.ke/entertainment/2026-11-02-ukipata-mtu-anateseka-achana-na-yeye-riangas-cryptic-message",
-    "https://www.mpasho.co.ke/entertainment/2026-11-02-kenyans-react-to-public-clash-between-patrick-and-goliath-wa-bungoma"
+    "https://www.mpasho.co.ke/entertainment/2026-11-02-kenyans-react-to-public-clash-between-patrick-and-goliath-wa-bungoma",
+    "https://www.mpasho.co.ke/entertainment/2026-11-02-kenyan-prince-dares-us-government-and-interpol-to-arrest-him"
   ],
   "published_angles": [
     {
@@ -549,6 +555,14 @@
       "opening": "Personality lead opening directly on Isaac Otesa (Goliath wa Bungoma) facing an intense public re-evaluation of his commercial impact at Car Soko.",
       "structure": "Personality hook -> TikTok Live confrontation mechanics -> Commercial ROI and sales conversion debate -> Audience breakdown of creator decorum -> Forward-looking status close",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-02-kenyans-react-to-public-clash-between-patrick-and-goliath-wa-bungoma"
+    },
+    {
+      "title": "Kenyan Prince Flaunts Dubai Residency and KSh 560M Net Worth in Direct Taunt to US Authorities and Interpol",
+      "angle": "Framing Omosa's outburst through the intersection of his August 2026 UAE residency shield and self-declared KSh 560 million balance sheet, highlighting how he uses offshore residency status as strategic immunity against widening global scrutiny of Kenyan financial operators.",
+      "angle_type": "defiance and financial posture",
+      "opening": "Personality lead opening directly on Raymond Omosa using his Dubai residency as a platform for challenging international law enforcement.",
+      "structure": "Personality lead -> Verbatim taunt and foreign targets -> Dubai residency context and financial claims -> Context of international financial scrutiny -> Status close",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-02-kenyan-prince-dares-us-government-and-interpol-to-arrest-him"
     }
   ]
 }
