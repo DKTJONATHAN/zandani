@@ -353,7 +353,8 @@
     "8feeb17b2931c7f22d66aee4117a3ddbe79d8845832fc8d50374d0680b08f136",
     "454434ec8b4924c964a490af84131e63f6e90731b7c68b4dcd8a1062308dd672",
     "513956504dd6459920fb0fe54c3e7b1ab76c3b8c393a6a595b901082ab9802e2",
-    "528bd1190f67ed0dc071fec776c18346505fe530249f40f00d4d561c6dc49b6f"
+    "528bd1190f67ed0dc071fec776c18346505fe530249f40f00d4d561c6dc49b6f",
+    "ccd183c3af095f1025a5f221f44802362013f1f75270d9e1ab6204b181a14d91"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -709,17 +710,10 @@
     "https://www.ghafla.co.ke/kenya-power-announces-tuesday-outages-in-spring-valley-and-parts-of-kajiado/",
     "https://www.ghafla.co.ke/usije-ukasema-sorry-mejja-cautions-artists-over-career-risks-of-political-endorsements-ahead-of-2027/",
     "https://www.ghafla.co.ke/i-tell-the-truth-rigathi-gachagua-rejects-bullying-allegations-by-opposition/",
-    "https://www.ghafla.co.ke/identities-of-nine-victims-killed-in-florida-learjet-crash-revealed/"
+    "https://www.ghafla.co.ke/identities-of-nine-victims-killed-in-florida-learjet-crash-revealed/",
+    "https://www.ghafla.co.ke/terence-creative-resigns-as-dccak-secretary-general-months-after-suspension/"
   ],
   "published_angles": [
-    {
-      "title": "From MP Shah to Membley: Kenya Power Sweeps 10 Counties in Heavy Maintenance Blackout",
-      "angle": "Reframing the widespread utility interruption around its sharp institutional and commercial exposure\u2014highlighting how the maintenance net swept through critical referral health corridors, high-density gated suburbs, and regional agricultural backbone infrastructure rather than treating it as a generic estate advisory.",
-      "angle_type": "infrastructure impact and institutional exposure",
-      "opening": "Direct institutional lead capturing the sweeping scale of Kenya Power's multi-county grid shutdown across key commercial, health, and residential lifelines.",
-      "structure": "Scope of the ten-county outage -> Urban health and suburban residential corridors -> Agricultural backbone and county administrative hubs -> Regional telecom and rural grid coverage -> Digital utility protocol and support access.",
-      "source": "https://www.ghafla.co.ke/kenya-power-announces-wednesday-blackouts-in-nairobi-kiambu-nyeri-meru-and-other-counties/"
-    },
     {
       "title": "Mama Ida Odinga Rallies the Family Unit in Bondo as Opoda Farm Hosts Sifuna\u2019s Camp Ahead of Memorial",
       "angle": "Reframing the anniversary through the Odinga family's personal choreography\u2014highlighting Mama Ida and siblings Raila Jnr, Rosemary, and Winnie opening Opoda Farm to Edwin Sifuna\u2019s faction and consolidating allied VIPs like Uhuru Kenyatta and Kalonzo Musyoka, set against notable high-level absentees.",
@@ -1511,6 +1505,14 @@
       "opening": "Personality lead opening directly on the family joint statement and the identity of tech entrepreneur Adam Robinson.",
       "structure": "Personal background hook -> Tech enterprise and PR business context -> Crew details including 20-year-old co-pilot -> Flight path and crash specifics -> Concrete ending on the flight recorder and air traffic logs.",
       "source": "https://www.ghafla.co.ke/identities-of-nine-victims-killed-in-florida-learjet-crash-revealed/"
+    },
+    {
+      "title": "Terence Creative\u2019s Voluntary Exit Statement Collides With DCCAK\u2019s Six-Month Suspension Paper Trail",
+      "angle": "The sharp narrative contradiction between Terence framing his exit as a fresh voluntary decision and DCCAK immediately publishing administrative records to establish he was suspended half a year ago.",
+      "angle_type": "timeline contradiction and executive narrative clash",
+      "opening": "Personality lead introducing Terence Creative's farewell announcement alongside DCCAK's instant timeline audit.",
+      "structure": "Personality lead hook -> Breakdown of Terence's voluntary exit letter -> DCCAK's counter-statement and May 2026 suspension disclosure -> Analysis of the narrative disconnect -> Context on Terence's dual role as comedian and advocate -> Concrete administrative close.",
+      "source": "https://www.ghafla.co.ke/terence-creative-resigns-as-dccak-secretary-general-months-after-suspension/"
     }
   ],
   "style_history": [
