@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f56efafdcbb468019f051dcd9c07a53c",
     "c3c7f77dce98362ae6e1aa8f459726a3",
     "6302bf3ebd31fdc51167b0e9a7d3c64b",
     "40d83429247f8e50894e656ffdf48629",
@@ -799,10 +798,10 @@
     "5370cbe72f971a0a4a78faffcb887359",
     "9d227e16da57c5e9ede116ff274345a8",
     "05314e69b24e99b6c235b039f773a48d",
-    "e8a02d06b94aa1cd60678b8f936526a8"
+    "e8a02d06b94aa1cd60678b8f936526a8",
+    "6d3711324231fe7005547e93928d0693"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1584,7 +1584,8 @@
     "https://kenyans.co.ke/news/129074-7-students-injured-5-arrested-after-stray-bullets-hit-moyale-schools",
     "https://kenyans.co.ke/news/129072-court-orders-actress-3-others-detained-over-murder-86-year-old-woman",
     "https://kenyans.co.ke/news/129069-helb-sets-january-timeline-semester-2-disbursement-cautions-students-against-re",
-    "https://kenyans.co.ke/news/129075-trans-nzoia-deputy-speaker-arrested-over-alleged-plot-block-ruto-motorcade"
+    "https://kenyans.co.ke/news/129075-trans-nzoia-deputy-speaker-arrested-over-alleged-plot-block-ruto-motorcade",
+    "https://kenyans.co.ke/news/129077-world-bank-urges-kenya-ease-building-height-limits-boost-housing"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2259,7 +2260,8 @@
     "moyale cross border clashes fracture kcse logistics across wards cells",
     "loresho homicide probe triggers day custody order scene tampering claims",
     "students face funding gap january helb locks second semester release",
-    "state opens obstruction docket trans nzoia deputy speaker ruto kitale convoy clash"
+    "state opens obstruction docket trans nzoia deputy speaker ruto kitale convoy clash",
+    "world bank push taller apartments collides nairobi infrastructure legal limits"
   ],
   "topic_keys": [
     "news tracker",
@@ -7605,6 +7607,15 @@
       "structure": "Retroactive prosecution lead -> Factual core of the detention and arraignment dockets -> Sequence of the October 16 Kitale flyover clash -> Broader institutional friction between Capitol Hill and County Hall -> Immediate courtroom test",
       "source": "https://kenyans.co.ke/news/129075-trans-nzoia-deputy-speaker-arrested-over-alleged-plot-block-ruto-motorcade",
       "published_at": "2026-11-03T05:02:22Z"
+    },
+    {
+      "title": "World Bank Push for Taller Apartments Collides With Nairobi's Infrastructure and Legal Limits",
+      "angle": "The operational collision between multilateral demands for vertical urban density and Nairobi's mounting infrastructural deficits, currently exacerbated by a pending Supreme Court challenge against the city's 2026 zoning policy.",
+      "angle_type": "policy friction",
+      "opening": "Policy friction lead framing the World Bank's calls for height deregulation against Nairobi's immediate infrastructure limits and legal gridlock.",
+      "structure": "Multilateral policy pressure lead -> Details of the World Bank's urban density mandate -> Local regulatory landscape under the 2026 Development Control Policy -> Infrastructure strain and community pushback -> Pending Supreme Court litigation.",
+      "source": "https://kenyans.co.ke/news/129077-world-bank-urges-kenya-ease-building-height-limits-boost-housing",
+      "published_at": "2026-11-03T06:01:51Z"
     }
   ]
 }
