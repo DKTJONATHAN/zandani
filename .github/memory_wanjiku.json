@@ -348,7 +348,8 @@
     "d23ca5fa42f8384da29ae6c3c9c419947acd857abba112968062a81d23f30d78",
     "bb686f9287d1647debf84145e30c26ded7fb2d094d84e9fc63a5b3e13017b37f",
     "6e06bbc6bc65b6e07e7cb27cf4d615b93ae81a3e047a862066f3ef6f3d09cd1a",
-    "b1e1f3b62823b956301167353ab0e6a1ae7ea0834a9f06670033ac54a4b793d3"
+    "b1e1f3b62823b956301167353ab0e6a1ae7ea0834a9f06670033ac54a4b793d3",
+    "4628aa66ca71ea399ae7cec3d97995bdad043fea7ef58105db0274c03414290c"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -699,17 +700,10 @@
     "https://www.ghafla.co.ke/chebet-ronoh-reveals-how-she-lost-deals-worth-millions-income-because-of-alcohol-addiction/",
     "https://www.ghafla.co.ke/im-not-a-journalist-oga-obinna-responds-to-critism-he-is-being-paid-for-political-content-critique/",
     "https://www.ghafla.co.ke/mp-nelson-koech-praises-ruto-for-stopping-recruitment-of-kenyans-into-russian-military/",
-    "https://www.ghafla.co.ke/nimechoma-pastor-kanyari-regrets-tiktok-antics-admits-chasing-clout/"
+    "https://www.ghafla.co.ke/nimechoma-pastor-kanyari-regrets-tiktok-antics-admits-chasing-clout/",
+    "https://www.ghafla.co.ke/who-is-regina-re-former-whos-smarter-now-presenter-held-over-mothers-death/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018Pure Lies and Conmanship\u2019: Rigathi Gachagua Fires at \u2018So-Called Expert\u2019 Opiyo Wandayi and \u2018Desperate\u2019 Ruto Over Pump Shock",
-      "angle": "Reframing the confrontation through Gachagua's sharp personal takedown of Energy CS Opiyo Wandayi as a scripted 'so-called expert' fronting 'pure lies and conmanship' for a 'desperate and angry' presidency hours before EPRA's official pricing cycle drop.",
-      "angle_type": "political celebrity clash and scripted-spokesperson takedown",
-      "opening": "Personality lead opening directly on Rigathi Gachagua tearing into Opiyo Wandayi and painting State House as running an election fundraising scheme at the fuel pump.",
-      "structure": "Personality broadside hook -> The specific 'so-called expert' Wandayi verbal clash -> The detailed KSh 9 and KSh 12 Gulf Energy fuel ledger and KSh 226 pump ceiling -> The 'desperate and angry' Ruto psychological framing -> Imminent EPRA pricing window close.",
-      "source": "https://www.ghafla.co.ke/rigathi-gachagua-accuses-president-ruto-of-fuel-price-manipulation-for-2027-campaign-cash/"
-    },
     {
       "title": "Karangu Muraya Draws the Line on Triza Gossip as Passport Reveals Heavy India Medical Miles",
       "angle": "Focusing on the surreal clash between digital relationship voyeurism and institutional philanthropy, highlighting how Muraya's passport data and medical runs to India collided with live-chat demands for gossip about another man's wife.",
@@ -1501,6 +1495,14 @@
       "opening": "Personality lead focusing on Kanyari's current viewership reality on Radio Maisha.",
       "structure": "Viewership drop hook -> Midnight TikTok broadcast strategy -> Reputational cost vs virtual gifts -> Current algorithm confusion and declining metrics.",
       "source": "https://www.ghafla.co.ke/nimechoma-pastor-kanyari-regrets-tiktok-antics-admits-chasing-clout/"
+    },
+    {
+      "title": "From Quiz Show Icon to Police Custody: How Regina Re\u2019s Life Reached a Tragic Legal Turning Point",
+      "angle": "Examining the specific police allegations regarding the crime scene tampering accusations and the familial dispute between the granddaughter and the mother, moving past mere biographical nostalgia to the active court proceedings.",
+      "angle_type": "police investigation and court-proceedings accountability",
+      "opening": "Personality lead focusing directly on Regina Re's shift from a beloved 2000s television fixture to the center of a homicide investigation.",
+      "structure": "Personality and career backdrop hook -> Discovery of the Loresho incident -> Courtroom allegations of the pre-incident argument and scene cleanup -> Detention terms and next court mention date.",
+      "source": "https://www.ghafla.co.ke/who-is-regina-re-former-whos-smarter-now-presenter-held-over-mothers-death/"
     }
   ],
   "style_history": [
