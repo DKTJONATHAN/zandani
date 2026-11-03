@@ -346,7 +346,8 @@
     "42c22e4e173889d8414cd15c584cd23e16fcc69e2fa621c1c5fe7824239c88b8",
     "d8f4694d402c5960108902f22401026078309130a1f38aae3c0fe83ad71f5c95",
     "d23ca5fa42f8384da29ae6c3c9c419947acd857abba112968062a81d23f30d78",
-    "bb686f9287d1647debf84145e30c26ded7fb2d094d84e9fc63a5b3e13017b37f"
+    "bb686f9287d1647debf84145e30c26ded7fb2d094d84e9fc63a5b3e13017b37f",
+    "6e06bbc6bc65b6e07e7cb27cf4d615b93ae81a3e047a862066f3ef6f3d09cd1a"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -695,17 +696,10 @@
     "https://www.ghafla.co.ke/former-kiambu-governor-ferdinand-waititu-handed-13-year-sentence-in-ksh588m-graft-case/",
     "https://www.ghafla.co.ke/sakaja-officially-defects-from-uda-to-odm-ahead-of-2027-nairobi-gubernatorial-race/",
     "https://www.ghafla.co.ke/chebet-ronoh-reveals-how-she-lost-deals-worth-millions-income-because-of-alcohol-addiction/",
-    "https://www.ghafla.co.ke/im-not-a-journalist-oga-obinna-responds-to-critism-he-is-being-paid-for-political-content-critique/"
+    "https://www.ghafla.co.ke/im-not-a-journalist-oga-obinna-responds-to-critism-he-is-being-paid-for-political-content-critique/",
+    "https://www.ghafla.co.ke/mp-nelson-koech-praises-ruto-for-stopping-recruitment-of-kenyans-into-russian-military/"
   ],
   "published_angles": [
-    {
-      "title": "DJ Bonez Closes TikTok Rumor Mill: \u2018I\u2019m a Married Person, Not in the Market\u2019",
-      "angle": "Focusing on the mechanics of their six-year union and Bonez's candid reality check on the labor of celebrity marriage versus online gossip cycles.",
-      "angle_type": "celebrity relationship reality check",
-      "opening": "Personality lead opening directly on DJ Bonez lounging in a tropical setting to bat away internet rumors.",
-      "structure": "Personality hook -> The six-year timeline and marriage reality check -> Addressing the single market rumors -> Fanbase dynamics and final confirmation.",
-      "source": "https://www.ghafla.co.ke/still-standing-strong-dj-bonez-sets-record-straight-on-marriage-to-kamene-goro/"
-    },
     {
       "title": "Dr. Patrick Amoth Draws the Line on Family Sleuths as Second Ebola Case Triggers Command Shield",
       "angle": "Framing the emergency declaration around Dr. Patrick Amoth directly confronting online rumor mills and invasive social sleuths, drawing a hard boundary around patient family privacy while ensuring the entertainment, social, and commercial scenes remain entirely unrestricted.",
@@ -1497,6 +1491,14 @@
       "opening": "Personality lead opening directly on Oga Obinna drawing a line between his comedy host identity and traditional editorial standards.",
       "structure": "Personality hook -> Obinna's 'employer vs journalist' firewall argument -> John Allan Namu's political patronage warning -> Editorial standards vs entertainment business breakdown -> Closing shift on creator accountability.",
       "source": "https://www.ghafla.co.ke/im-not-a-journalist-oga-obinna-responds-to-critism-he-is-being-paid-for-political-content-critique/"
+    },
+    {
+      "title": "Nelson Koech Details State Exit Route for Kenyans Trapped in Russian Military",
+      "angle": "Focusing on the operational dual response spotlighted by Koech: pairing a total enlistment freeze with a government repatriation corridor designed to retrieve active recruits and prisoners of war from Eastern European battlefields.",
+      "angle_type": "state repatriation pipeline and battlefield extraction breakdown",
+      "opening": "Personality lead opening directly on Belgut MP Nelson Koech detailing the state's intervention against foreign military enlistment.",
+      "structure": "Personality hook -> Human toll of POW captivity and bereavement -> Direct Koech quote -> Breakdown of the extraction mechanism -> Context of shadow recruitment pipelines -> Concrete operational close.",
+      "source": "https://www.ghafla.co.ke/mp-nelson-koech-praises-ruto-for-stopping-recruitment-of-kenyans-into-russian-military/"
     }
   ],
   "style_history": [
