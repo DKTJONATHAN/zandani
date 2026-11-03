@@ -127,7 +127,8 @@
     "ec73ecc2eca497e69edb8fee6e006236bcf4772b4355195c8a54523267bb6f14",
     "7dc5f466ca16a56336627d7de4a6ede8c7f2fb085e9c167956072347722a5834",
     "a2c0d37f1d30f99e0f9ef40c5af7f9eeada828a08a98da8678fe347ce62dccb9",
-    "d059d47d63a25a52d802a070ee249ad5f5588b8c3ec3a9ac3b0c206047d590e5"
+    "d059d47d63a25a52d802a070ee249ad5f5588b8c3ec3a9ac3b0c206047d590e5",
+    "7724eaf2a3e509b02a516263bee33f15d5ba8439318f122801f54db59bed77ad"
   ],
   "style_history": [
     "Event Report",
@@ -334,6 +335,10 @@
     {
       "key": "2026-11-03-pretty-privilege-aisha-saringe-speaks-on-cash-gifts-from-admirers",
       "ts": "2026-11-03T07:50:07.514797+00:00"
+    },
+    {
+      "key": "2026-11-03-how-aisha-saringe-landed-lead-role-in-biens-ill-be-okay-video",
+      "ts": "2026-11-03T09:23:30.039279+00:00"
     }
   ],
   "urls": [
@@ -365,7 +370,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-02-kenyans-react-to-public-clash-between-patrick-and-goliath-wa-bungoma",
     "https://www.mpasho.co.ke/entertainment/2026-11-02-kenyan-prince-dares-us-government-and-interpol-to-arrest-him",
     "https://www.mpasho.co.ke/entertainment/2026-11-02-why-eko-dydda-named-his-daughter-5-star-billions-increase-dydda",
-    "https://www.mpasho.co.ke/entertainment/2026-11-03-pretty-privilege-aisha-saringe-speaks-on-cash-gifts-from-admirers"
+    "https://www.mpasho.co.ke/entertainment/2026-11-03-pretty-privilege-aisha-saringe-speaks-on-cash-gifts-from-admirers",
+    "https://www.mpasho.co.ke/entertainment/2026-11-03-how-aisha-saringe-landed-lead-role-in-biens-ill-be-okay-video"
   ],
   "published_angles": [
     {
@@ -591,6 +597,14 @@
       "opening": "Personality lead opening directly on Aisha Saringe's unprompted cash-gifting encounters across Nairobi and Dubai.",
       "structure": "Personality lead -> Thika Road and Dubai cash gift specifics -> Post-Bien music video DM surge and unusual fan requests -> Digital filtering and volume reality -> Concrete close on her social media reality.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-03-pretty-privilege-aisha-saringe-speaks-on-cash-gifts-from-admirers"
+    },
+    {
+      "title": "Bien Bypassed Entertainment Regulars After a Single Passport Photo Locked Aisha Saringe\u2019s Lead Role in \u2018I\u2019ll Be Okay\u2019",
+      "angle": "Examining Bien's casting process through agency profiles and how an unedited passport photograph bypassed familiar showbiz talent in favor of a global visual fit.",
+      "angle_type": "casting mechanics and commercial vision",
+      "opening": "Personality lead opening directly on Bien Baraza detailing how an unedited agency passport photograph defined his casting decision.",
+      "structure": "Personality lead -> Agency selection mechanics and passport photo reveal -> Direct quotes on global visual fit -> Pop culture context on bypassing familiar industry regulars -> Concrete release context close",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-03-how-aisha-saringe-landed-lead-role-in-biens-ill-be-okay-video"
     }
   ]
 }
