@@ -133,7 +133,8 @@
     "645a6ac82519abc3ec27f70dfd5be0f644b96ef1126abec2bef2415f48c44e28",
     "2ff9334cc4d618717ad63c7095be39947063afc6a75c490187652274ccfaf581",
     "feba65ec595ec2f5608aaffb2821908b55a57e8fa7226804ad378cc6a69037c3",
-    "e461f83cde0bc8588513054a15be30334259c0a1a97a606c86965e8ec84fc5fa"
+    "e461f83cde0bc8588513054a15be30334259c0a1a97a606c86965e8ec84fc5fa",
+    "e48075d3bee60ca612902c48d92c55d012c085715f49300ce3b6d16c2a666e0f"
   ],
   "style_history": [
     "Event Report",
@@ -364,6 +365,10 @@
     {
       "key": "2026-11-03-khaligraph-jones-boutross-and-maandy-thrill-fans-at-chrome-city-xo-tour-in-chuka",
       "ts": "2026-11-03T19:23:02.729152+00:00"
+    },
+    {
+      "key": "2026-11-03-from-scale-to-category-authority-how-tcl-is-driving-the-evolution-of-mini-led-tvs",
+      "ts": "2026-11-03T21:23:58.757822+00:00"
     }
   ],
   "urls": [
@@ -401,7 +406,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-03-forex-trader-nyathira-shares-health-update-after-undergoing-surgery",
     "https://www.mpasho.co.ke/entertainment/2026-11-03-sueh-owino-shows-off-village-homestead-featuring-outdoor-kitchen",
     "https://www.mpasho.co.ke/entertainment/2026-11-03-african-films-in-focus-as-alternativa-festival-opens-2027-entries-with-15-million-prize-pool",
-    "https://www.mpasho.co.ke/entertainment/2026-11-03-khaligraph-jones-boutross-and-maandy-thrill-fans-at-chrome-city-xo-tour-in-chuka"
+    "https://www.mpasho.co.ke/entertainment/2026-11-03-khaligraph-jones-boutross-and-maandy-thrill-fans-at-chrome-city-xo-tour-in-chuka",
+    "https://www.mpasho.co.ke/entertainment/2026-11-03-from-scale-to-category-authority-how-tcl-is-driving-the-evolution-of-mini-led-tvs"
   ],
   "published_angles": [
     {
@@ -675,6 +681,14 @@
       "opening": "Personality and homecoming lead centering on Boutross returning to his formative stamping ground under brand sponsorship.",
       "structure": "Homecoming hook -> Ticket and attendance metrics under foul weather -> Brand messaging vs regional marketing strategy -> Lineup and supporting acts breakdown -> Concrete closing fact on regional tour positioning.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-03-khaligraph-jones-boutross-and-maandy-thrill-fans-at-chrome-city-xo-tour-in-chuka"
+    },
+    {
+      "title": "TCL Claims Global Mini LED Crown With 2.43 Million Units as Engineering Focus Shifts to Light Control",
+      "angle": "Examining how hardware engineering details\u2014specifically full-array local dimming and zone density\u2014are being leveraged by consumer electronics brands to transition basic sales volume into technical category authority.",
+      "angle_type": "technical hardware authority and market shift",
+      "opening": "Start directly with TCL's 2.43 million unit milestone and the engineering realities of light control.",
+      "structure": "Shipment scale metrics -> Hardware dimming mechanics -> Market share statistics -> Technical literacy challenge",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-03-from-scale-to-category-authority-how-tcl-is-driving-the-evolution-of-mini-led-tvs"
     }
   ]
 }
