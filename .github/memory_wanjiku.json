@@ -347,7 +347,8 @@
     "d8f4694d402c5960108902f22401026078309130a1f38aae3c0fe83ad71f5c95",
     "d23ca5fa42f8384da29ae6c3c9c419947acd857abba112968062a81d23f30d78",
     "bb686f9287d1647debf84145e30c26ded7fb2d094d84e9fc63a5b3e13017b37f",
-    "6e06bbc6bc65b6e07e7cb27cf4d615b93ae81a3e047a862066f3ef6f3d09cd1a"
+    "6e06bbc6bc65b6e07e7cb27cf4d615b93ae81a3e047a862066f3ef6f3d09cd1a",
+    "b1e1f3b62823b956301167353ab0e6a1ae7ea0834a9f06670033ac54a4b793d3"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -697,17 +698,10 @@
     "https://www.ghafla.co.ke/sakaja-officially-defects-from-uda-to-odm-ahead-of-2027-nairobi-gubernatorial-race/",
     "https://www.ghafla.co.ke/chebet-ronoh-reveals-how-she-lost-deals-worth-millions-income-because-of-alcohol-addiction/",
     "https://www.ghafla.co.ke/im-not-a-journalist-oga-obinna-responds-to-critism-he-is-being-paid-for-political-content-critique/",
-    "https://www.ghafla.co.ke/mp-nelson-koech-praises-ruto-for-stopping-recruitment-of-kenyans-into-russian-military/"
+    "https://www.ghafla.co.ke/mp-nelson-koech-praises-ruto-for-stopping-recruitment-of-kenyans-into-russian-military/",
+    "https://www.ghafla.co.ke/nimechoma-pastor-kanyari-regrets-tiktok-antics-admits-chasing-clout/"
   ],
   "published_angles": [
-    {
-      "title": "Dr. Patrick Amoth Draws the Line on Family Sleuths as Second Ebola Case Triggers Command Shield",
-      "angle": "Framing the emergency declaration around Dr. Patrick Amoth directly confronting online rumor mills and invasive social sleuths, drawing a hard boundary around patient family privacy while ensuring the entertainment, social, and commercial scenes remain entirely unrestricted.",
-      "angle_type": "public figure privacy mandate and social rumor rebuke",
-      "opening": "Personality lead opening directly on Dr. Patrick Amoth stepping before the nation to draw a strict privacy perimeter around affected households while putting the emergency command on war footing.",
-      "structure": "Personality hook on privacy demand -> The second case confirmation and emergency command activation under 2026 rules -> Reassurance protecting public life, gatherings, and commerce -> Public behavior check on transmission realities vs viral panic -> Administrative reporting ledger and 719 hotline.",
-      "source": "https://www.ghafla.co.ke/kenya-activates-national-command-structure-following-confirmation-of-second-ebola-case/"
-    },
     {
       "title": "\u2018Pure Lies and Conmanship\u2019: Rigathi Gachagua Fires at \u2018So-Called Expert\u2019 Opiyo Wandayi and \u2018Desperate\u2019 Ruto Over Pump Shock",
       "angle": "Reframing the confrontation through Gachagua's sharp personal takedown of Energy CS Opiyo Wandayi as a scripted 'so-called expert' fronting 'pure lies and conmanship' for a 'desperate and angry' presidency hours before EPRA's official pricing cycle drop.",
@@ -1499,6 +1493,14 @@
       "opening": "Personality lead opening directly on Belgut MP Nelson Koech detailing the state's intervention against foreign military enlistment.",
       "structure": "Personality hook -> Human toll of POW captivity and bereavement -> Direct Koech quote -> Breakdown of the extraction mechanism -> Context of shadow recruitment pipelines -> Concrete operational close.",
       "source": "https://www.ghafla.co.ke/mp-nelson-koech-praises-ruto-for-stopping-recruitment-of-kenyans-into-russian-military/"
+    },
+    {
+      "title": "From TikTok 'President' to 10k Views: Pastor Kanyari Puzzled Why His Clout Formula Broke",
+      "angle": "Focusing on the algorithm puzzle and viewership collapse: examining the stark commercial reality of Kanyari's drop from midnight 'TikTok presidency' crowds to struggling 10,000-viewer streams that no longer trigger the viral metrics he desires.",
+      "angle_type": "creator algorithm struggle and viewership decline",
+      "opening": "Personality lead focusing on Kanyari's current viewership reality on Radio Maisha.",
+      "structure": "Viewership drop hook -> Midnight TikTok broadcast strategy -> Reputational cost vs virtual gifts -> Current algorithm confusion and declining metrics.",
+      "source": "https://www.ghafla.co.ke/nimechoma-pastor-kanyari-regrets-tiktok-antics-admits-chasing-clout/"
     }
   ],
   "style_history": [
