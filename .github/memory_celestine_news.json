@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "dede7ebd6264eb7e7f494705e05ece57",
     "790e0fb4883eced001c1af0cbc1dd430",
     "3cd267b4c139d2cc1cbe6cfc678b56b3",
     "4860671f9be7fae4d68bda9c4cc3e512",
@@ -799,10 +798,10 @@
     "6d3711324231fe7005547e93928d0693",
     "1780e029d302bc7a71b8f5700d5fb920",
     "c54d22c06bc3c7699c638e26ffd42717",
-    "6dc777121f49c302557c66fb261f4c16"
+    "6dc777121f49c302557c66fb261f4c16",
+    "bb99d7ccd53b625f0b7c78d00670aa3f"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1588,7 +1588,8 @@
     "https://kenyans.co.ke/news/129077-world-bank-urges-kenya-ease-building-height-limits-boost-housing",
     "https://kenyans.co.ke/news/129083-over-300-kenyan-workers-blocked-entry-saudi-arabia-over-ebola",
     "https://kenyans.co.ke/news/129084-uk-doubles-permanent-residency-wait-10-years-under-new-immigration-rules",
-    "https://kenyans.co.ke/news/129088-psc-warns-ceos-over-mishandling-civil-servants-disciplinary-cases"
+    "https://kenyans.co.ke/news/129088-psc-warns-ceos-over-mishandling-civil-servants-disciplinary-cases",
+    "https://kenyans.co.ke/news/129092-cctv-captures-alleged-abduction-city-lawyer-nairobi"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2267,7 +2268,8 @@
     "world bank push taller apartments collides nairobi infrastructure legal limits",
     "visa expiry fears mount saudi ebola ban snares returning workers",
     "year residency rule draws economic line 144 000 britain",
-    "state agency bosses face personal liability botched disciplinary firings"
+    "state agency bosses face personal liability botched disciplinary firings",
+    "family casts wide legal net across five security organs kilimani lawyer abduction"
   ],
   "topic_keys": [
     "news tracker",
@@ -7649,6 +7651,15 @@
       "structure": "Financial exposure lead -> Workshop proceedings and appeal surge statistics -> Intersection with operational absenteeism and intern reliance -> HR vacuum analysis -> Forward outlook on compliance costs.",
       "source": "https://kenyans.co.ke/news/129088-psc-warns-ceos-over-mishandling-civil-servants-disciplinary-cases",
       "published_at": "2026-11-03T09:02:13Z"
+    },
+    {
+      "title": "Family Casts Wide Legal Net Across Five Security Organs Over Kilimani Lawyer Abduction",
+      "angle": "The sweeping institutional dragnet of the family's Milimani High Court petition, which names five distinct security apparatuses\u2014from regular police to military intelligence and counter-terrorism\u2014highlighting how accountability is pursued when an abduction occurs yards from a police facility amid active litigation against senior officers.",
+      "angle_type": "accountability",
+      "opening": "Institutional accountability lead focusing on the broad legal dragnet cast by the family across five security agencies following the Kilimani abduction.",
+      "structure": "Milimani High Court petition lead -> Factual breakdown of the November 1 CCTV abduction -> Underlying litigation context involving senior police officers -> Family demands and institutional silence -> Forward-looking judicial inquiry.",
+      "source": "https://kenyans.co.ke/news/129092-cctv-captures-alleged-abduction-city-lawyer-nairobi",
+      "published_at": "2026-11-03T10:02:26Z"
     }
   ]
 }
