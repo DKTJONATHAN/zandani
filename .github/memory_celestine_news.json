@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ae7208c70968a2fa70b4cd1479e9be12",
     "0a6eb8a9ef7b2f15a4c4d5222de81c0c",
     "96bda074db8a6201130dfb3bed0125fb",
     "ad5fdb97febaf79c4725eb0d56961bc2",
@@ -799,10 +798,10 @@
     "bb99d7ccd53b625f0b7c78d00670aa3f",
     "d4a8b37731e8feeb9291558b42c4f50b",
     "91563e41fa93a2998f424658e8d05b20",
-    "ddeeadda17730c4231fe62b2abf098ee"
+    "ddeeadda17730c4231fe62b2abf098ee",
+    "a3472200e0bb9b389042b36ea8cd67fe"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1592,7 +1592,8 @@
     "https://kenyans.co.ke/news/129092-cctv-captures-alleged-abduction-city-lawyer-nairobi",
     "https://kenyans.co.ke/news/129095-boma-yangu-explains-how-kenyans-can-change-preferred-affordable-housing-units",
     "https://kenyans.co.ke/news/129099-five-ebola-patients-discharged-after-tests-confirm-recovery-ministry-says",
-    "https://kenyans.co.ke/news/129103-matatu-boss-challenge-ntsa-over-number-plate-removal-during-crackdown"
+    "https://kenyans.co.ke/news/129103-matatu-boss-challenge-ntsa-over-number-plate-removal-during-crackdown",
+    "https://kenyans.co.ke/news/129102-nakuru-begins-preparations-host-2027-madaraka-day-celebrations"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2275,7 +2276,8 @@
     "family casts wide legal net across five security organs kilimani lawyer abduction",
     "boma yangu opens unit swapping savers but questions remain post allocation portability",
     "clearance milestones frame path outbreak free ebola countdown",
-    "ntsa plate stripping crackdowns drive highway bribery loop transport operators warn"
+    "ntsa plate stripping crackdowns drive highway bribery loop transport operators warn",
+    "nakuru 2027 madaraka bid triggers compressed citywide overhaul"
   ],
   "topic_keys": [
     "news tracker",
@@ -7693,6 +7695,15 @@
       "structure": "Enforcement loop lead -> Factual breakdown of Bosire's challenge to NTSA -> Analysis of fine economics and roadside bribery -> Holiday rental risks -> Campaign scope and next operational hurdles.",
       "source": "https://kenyans.co.ke/news/129103-matatu-boss-challenge-ntsa-over-number-plate-removal-during-crackdown",
       "published_at": "2026-11-03T13:02:07Z"
+    },
+    {
+      "title": "Nakuru\u2019s 2027 Madaraka Bid Triggers Compressed Citywide Overhaul",
+      "angle": "The operational and infrastructural scrambling tied to the 2015 rotational policy, specifically how short-window national holiday hosting mandates force municipalities into compressed urban overhaul timelines (roads, drainage, NMT facilities, and tree restoration).",
+      "angle_type": "practical change",
+      "opening": "Practical-change lead examining the compressed urban retrofit cycle triggered by national holiday hosting mandates.",
+      "structure": "Rotational-policy pressure lead -> Technical committee and infrastructural work scope -> Non-motorized transport and environmental restoration specifics -> Context on prior host rotations (Homa Bay and Wajir) and future timelines.",
+      "source": "https://kenyans.co.ke/news/129102-nakuru-begins-preparations-host-2027-madaraka-day-celebrations",
+      "published_at": "2026-11-03T14:02:07Z"
     }
   ]
 }
