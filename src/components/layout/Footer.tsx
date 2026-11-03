@@ -4,7 +4,6 @@ import { NewsletterForm } from "@/components/NewsletterForm";
 import { categories } from "@/lib/markdown";
 import { staticSitePages } from "@/lib/site-links";
 import { XIcon } from "@/components/XIcon";
-import logoImg from "@/assets/logo.png";
 
 export function Footer() {
   const navigate = useNavigate();
@@ -53,7 +52,7 @@ export function Footer() {
         <div className="grid grid-cols-2 gap-5 md:grid-cols-2 md:gap-6 lg:grid-cols-4">
           <div className="col-span-2 lg:col-span-1">
             <button onClick={() => handleLinkClick("/")} className="mb-2.5 block">
-              <img src={logoImg} alt="Za Ndani" className="h-9 w-auto" />
+              <img src="/logo.png?v=20261103" alt="Za Ndani" className="h-10 w-auto object-contain" loading="lazy" decoding="async" width={160} height={160} />
             </button>
             <p className="mb-3 text-sm leading-relaxed text-muted-foreground">
               Bold news and entertainment from Kenya — for a global audience.
