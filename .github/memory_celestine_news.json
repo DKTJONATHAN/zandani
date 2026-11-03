@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "6302bf3ebd31fdc51167b0e9a7d3c64b",
     "40d83429247f8e50894e656ffdf48629",
     "dede7ebd6264eb7e7f494705e05ece57",
     "790e0fb4883eced001c1af0cbc1dd430",
@@ -799,10 +798,10 @@
     "05314e69b24e99b6c235b039f773a48d",
     "e8a02d06b94aa1cd60678b8f936526a8",
     "6d3711324231fe7005547e93928d0693",
-    "1780e029d302bc7a71b8f5700d5fb920"
+    "1780e029d302bc7a71b8f5700d5fb920",
+    "c54d22c06bc3c7699c638e26ffd42717"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1586,7 +1586,8 @@
     "https://kenyans.co.ke/news/129069-helb-sets-january-timeline-semester-2-disbursement-cautions-students-against-re",
     "https://kenyans.co.ke/news/129075-trans-nzoia-deputy-speaker-arrested-over-alleged-plot-block-ruto-motorcade",
     "https://kenyans.co.ke/news/129077-world-bank-urges-kenya-ease-building-height-limits-boost-housing",
-    "https://kenyans.co.ke/news/129083-over-300-kenyan-workers-blocked-entry-saudi-arabia-over-ebola"
+    "https://kenyans.co.ke/news/129083-over-300-kenyan-workers-blocked-entry-saudi-arabia-over-ebola",
+    "https://kenyans.co.ke/news/129084-uk-doubles-permanent-residency-wait-10-years-under-new-immigration-rules"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2263,7 +2264,8 @@
     "students face funding gap january helb locks second semester release",
     "state opens obstruction docket trans nzoia deputy speaker ruto kitale convoy clash",
     "world bank push taller apartments collides nairobi infrastructure legal limits",
-    "visa expiry fears mount saudi ebola ban snares returning workers"
+    "visa expiry fears mount saudi ebola ban snares returning workers",
+    "year residency rule draws economic line 144 000 britain"
   ],
   "topic_keys": [
     "news tracker",
@@ -7627,6 +7629,15 @@
       "structure": "Diplomatic-risk lead -> Returnee arrival and Sharjah transit facts -> Saudi travel restriction criteria vs. Kenyan health data -> Ongoing diplomatic talks with Gulf states",
       "source": "https://kenyans.co.ke/news/129083-over-300-kenyan-workers-blocked-entry-saudi-arabia-over-ebola",
       "published_at": "2026-11-03T07:52:16Z"
+    },
+    {
+      "title": "UK's New 10-Year Residency Rule Draws Economic Line for 144,000 Kenyans in Britain",
+      "angle": "The financial stratification of residency rights, specifically how the income thresholds (\u00a350,271) split the Kenyan diaspora into fast-track and decade-long waiting categories.",
+      "angle_type": "consequence",
+      "opening": "Consequence-first lead establishing the economic stratification of the new UK residency rules for the Kenyan diaspora.",
+      "structure": "Income-tier breakdown lead -> Earned Settlement policy mechanics -> Impact on the 144,000 Kenyan population -> Professional sector exemptions (care workers, NHS) -> Closing on transitional uncertainty.",
+      "source": "https://kenyans.co.ke/news/129084-uk-doubles-permanent-residency-wait-10-years-under-new-immigration-rules",
+      "published_at": "2026-11-03T08:02:08Z"
     }
   ]
 }
