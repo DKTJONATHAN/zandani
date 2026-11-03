@@ -349,7 +349,8 @@
     "bb686f9287d1647debf84145e30c26ded7fb2d094d84e9fc63a5b3e13017b37f",
     "6e06bbc6bc65b6e07e7cb27cf4d615b93ae81a3e047a862066f3ef6f3d09cd1a",
     "b1e1f3b62823b956301167353ab0e6a1ae7ea0834a9f06670033ac54a4b793d3",
-    "4628aa66ca71ea399ae7cec3d97995bdad043fea7ef58105db0274c03414290c"
+    "4628aa66ca71ea399ae7cec3d97995bdad043fea7ef58105db0274c03414290c",
+    "8feeb17b2931c7f22d66aee4117a3ddbe79d8845832fc8d50374d0680b08f136"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -701,17 +702,10 @@
     "https://www.ghafla.co.ke/im-not-a-journalist-oga-obinna-responds-to-critism-he-is-being-paid-for-political-content-critique/",
     "https://www.ghafla.co.ke/mp-nelson-koech-praises-ruto-for-stopping-recruitment-of-kenyans-into-russian-military/",
     "https://www.ghafla.co.ke/nimechoma-pastor-kanyari-regrets-tiktok-antics-admits-chasing-clout/",
-    "https://www.ghafla.co.ke/who-is-regina-re-former-whos-smarter-now-presenter-held-over-mothers-death/"
+    "https://www.ghafla.co.ke/who-is-regina-re-former-whos-smarter-now-presenter-held-over-mothers-death/",
+    "https://www.ghafla.co.ke/kenya-power-announces-tuesday-outages-in-spring-valley-and-parts-of-kajiado/"
   ],
   "published_angles": [
-    {
-      "title": "Karangu Muraya Draws the Line on Triza Gossip as Passport Reveals Heavy India Medical Miles",
-      "angle": "Focusing on the surreal clash between digital relationship voyeurism and institutional philanthropy, highlighting how Muraya's passport data and medical runs to India collided with live-chat demands for gossip about another man's wife.",
-      "angle_type": "celebrity digital boundaries and international philanthropy reality check",
-      "opening": "Personality lead opening directly on Karangu Muraya sitting down at Obinna TV Studios to draw a hard line against live-chat voyeurism.",
-      "structure": "Personality studio hook -> The Triza boundary and live-chat clash -> The passport records and India medical missions -> The KSh 5 million on-air defense challenge -> Concrete close on passport status and public scrutiny.",
-      "source": "https://www.ghafla.co.ke/karangu-muraya-breaks-silence-on-ex-partner-triza-says-she-has-moved-on/"
-    },
     {
       "title": "Bahati Turns KSh1M Wedding Gate into a Forex Liquidity Test After Kenyan Prince Buys In",
       "angle": "Framing the stunt around Bahati turning his 100-seat wedding gate into an aggressive financial audit of Nairobi's flashy forex lifestyle, weaponizing Kenyan Prince\u2019s receipt to dare the trading scene into proving its wealth on his terms.",
@@ -1503,6 +1497,14 @@
       "opening": "Personality lead focusing directly on Regina Re's shift from a beloved 2000s television fixture to the center of a homicide investigation.",
       "structure": "Personality and career backdrop hook -> Discovery of the Loresho incident -> Courtroom allegations of the pre-incident argument and scene cleanup -> Detention terms and next court mention date.",
       "source": "https://www.ghafla.co.ke/who-is-regina-re-former-whos-smarter-now-presenter-held-over-mothers-death/"
+    },
+    {
+      "title": "Kenya Power Schedules 9-Hour Blackout Across Spring Valley and Kajiado Outposts on Tuesday",
+      "angle": "Focusing on the operational impact of the nine-hour shutdown across contrasting economic zones\u2014spanning Nairobi's upmarket Spring Valley residential district and Kajiado's southern trade and agricultural hubs of Loitoktok and Njukini.",
+      "angle_type": "operational disruption and regional coverage split",
+      "opening": "Direct focus on Kenya Power's nine-hour scheduled shutdown impacting key residential and commercial hubs across two counties.",
+      "structure": "Operational timeline hook -> Specific location breakdown (Spring Valley vs Kajiado) -> Advisory and alternative power implications -> Network maintenance context and concrete close.",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-tuesday-outages-in-spring-valley-and-parts-of-kajiado/"
     }
   ],
   "style_history": [
