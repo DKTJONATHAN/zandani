@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ad5fdb97febaf79c4725eb0d56961bc2",
     "74528f762110a15fd4506b81a263aa50",
     "8ccf72c106bf45162e8d524151175ceb",
     "8faee3817c8e3eebcd320fb771bf3bf0",
@@ -799,10 +798,10 @@
     "ddeeadda17730c4231fe62b2abf098ee",
     "a3472200e0bb9b389042b36ea8cd67fe",
     "0622b37026df30adac3a1a0eec86ba55",
-    "2117926c2f6240d607e54bb7d0b282a2"
+    "2117926c2f6240d607e54bb7d0b282a2",
+    "6d0845417cf963b15c875c4071de8a35"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1595,7 +1595,8 @@
     "https://kenyans.co.ke/news/129103-matatu-boss-challenge-ntsa-over-number-plate-removal-during-crackdown",
     "https://kenyans.co.ke/news/129102-nakuru-begins-preparations-host-2027-madaraka-day-celebrations",
     "https://kenyans.co.ke/news/129098-kenya-signs-deal-idris-elba-boost-creative-industry",
-    "https://kenyans.co.ke/news/129106-govt-considers-new-road-maintenance-tax-electric-vehicles-gain-popularity"
+    "https://kenyans.co.ke/news/129106-govt-considers-new-road-maintenance-tax-electric-vehicles-gain-popularity",
+    "https://kenyans.co.ke/news/129101-gachagua-hits-back-opposition-leaders-over-bullying-claims"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2281,7 +2282,8 @@
     "ntsa plate stripping crackdowns drive highway bribery loop transport operators warn",
     "nakuru 2027 madaraka bid triggers compressed citywide overhaul",
     "filmmaking mentorship takes center stage formalizes akuna group pact",
-    "000 electric vehicles expose fuel tax gap contractor bills near ksh100b"
+    "000 electric vehicles expose fuel tax gap contractor bills near ksh100b",
+    "gachagua draws battle lines november flagbearer deadline united opposition"
   ],
   "topic_keys": [
     "news tracker",
@@ -7726,6 +7728,15 @@
       "structure": "Revenue erosion lead -> Factual core of the ministry's proposal -> Intersecting Ksh98.17B contractor debt & securitisation mechanics -> Fuel levy formula vs. EV adoption growth -> Next operational steps for road funding policy",
       "source": "https://kenyans.co.ke/news/129106-govt-considers-new-road-maintenance-tax-electric-vehicles-gain-popularity",
       "published_at": "2026-11-03T15:59:06Z"
+    },
+    {
+      "title": "Gachagua Draws Battle Lines Over November 13 Flagbearer Deadline in United Opposition",
+      "angle": "The tactical rift over timing: how the early November 13 push to name a single opposition flagbearer directly clashes with Gachagua's strategy of prolonged grassroots mobilization ahead of the 2027 polls.",
+      "angle_type": "practical change",
+      "opening": "Tactical-tension lead focusing on the timeline collision between boardroom flagbearer selection and grassroots mobilization.",
+      "structure": "Tactical-tension lead -> Electoral timeline clash (November 13 vs 280+ days) -> Grassroots vs. boardroom campaign methodology -> Mt Kenya voting bloc leverage -> Unresolved flagbearer convention outcome.",
+      "source": "https://kenyans.co.ke/news/129101-gachagua-hits-back-opposition-leaders-over-bullying-claims",
+      "published_at": "2026-11-03T16:03:27Z"
     }
   ]
 }
