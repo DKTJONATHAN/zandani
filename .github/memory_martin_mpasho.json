@@ -128,7 +128,8 @@
     "7dc5f466ca16a56336627d7de4a6ede8c7f2fb085e9c167956072347722a5834",
     "a2c0d37f1d30f99e0f9ef40c5af7f9eeada828a08a98da8678fe347ce62dccb9",
     "d059d47d63a25a52d802a070ee249ad5f5588b8c3ec3a9ac3b0c206047d590e5",
-    "7724eaf2a3e509b02a516263bee33f15d5ba8439318f122801f54db59bed77ad"
+    "7724eaf2a3e509b02a516263bee33f15d5ba8439318f122801f54db59bed77ad",
+    "0145c0c11b355b94e42c9b8cc7e4a4b5a13a1f00447765644311053758c7c7f2"
   ],
   "style_history": [
     "Event Report",
@@ -339,6 +340,10 @@
     {
       "key": "2026-11-03-how-aisha-saringe-landed-lead-role-in-biens-ill-be-okay-video",
       "ts": "2026-11-03T09:23:30.039279+00:00"
+    },
+    {
+      "key": "2026-11-03-mercy-masika-women-have-more-emotional-intelligence-than-men",
+      "ts": "2026-11-03T11:29:10.240530+00:00"
     }
   ],
   "urls": [
@@ -371,7 +376,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-02-kenyan-prince-dares-us-government-and-interpol-to-arrest-him",
     "https://www.mpasho.co.ke/entertainment/2026-11-02-why-eko-dydda-named-his-daughter-5-star-billions-increase-dydda",
     "https://www.mpasho.co.ke/entertainment/2026-11-03-pretty-privilege-aisha-saringe-speaks-on-cash-gifts-from-admirers",
-    "https://www.mpasho.co.ke/entertainment/2026-11-03-how-aisha-saringe-landed-lead-role-in-biens-ill-be-okay-video"
+    "https://www.mpasho.co.ke/entertainment/2026-11-03-how-aisha-saringe-landed-lead-role-in-biens-ill-be-okay-video",
+    "https://www.mpasho.co.ke/entertainment/2026-11-03-mercy-masika-women-have-more-emotional-intelligence-than-men"
   ],
   "published_angles": [
     {
@@ -605,6 +611,14 @@
       "opening": "Personality lead opening directly on Bien Baraza detailing how an unedited agency passport photograph defined his casting decision.",
       "structure": "Personality lead -> Agency selection mechanics and passport photo reveal -> Direct quotes on global visual fit -> Pop culture context on bypassing familiar industry regulars -> Concrete release context close",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-03-how-aisha-saringe-landed-lead-role-in-biens-ill-be-okay-video"
+    },
+    {
+      "title": "Mercy Masika Counters Online Pushback Over \u2018Becoming a Wife\u2019 Class, Frames Female Emotional Intelligence as Key to Marital Survival",
+      "angle": "Reframing Masika's response to online pushback as a tactical defense of female marital stewardship, highlighting how she positions emotional discernment and extended-family boundaries over confrontational accountability.",
+      "angle_type": "marital doctrine and digital pushback",
+      "opening": "Personality lead opening on Mercy Masika addressing social media critics on Kerry Kagiri's podcast.",
+      "structure": "Personality lead -> Online pushback and EQ thesis -> Scriptural interpretation and non-confrontational tactics -> Masterclass format and guest lineup -> Extended family boundaries close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-03-mercy-masika-women-have-more-emotional-intelligence-than-men"
     }
   ]
 }
