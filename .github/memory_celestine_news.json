@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a5eb3dc7ca252541b0cbb5c77a9263f3",
     "dac5501c12f11897e766501109396e17",
     "c6d8ff7808c238e3dd0bde3f1f32eb20",
     "bbf2bc778f698a277d87545344bb958c",
@@ -799,10 +798,10 @@
     "166d36bbbeb1a3d5d3099a7cfda74fdb",
     "dfe1843419ef4dbae6e6c097c0f2a0d0",
     "d6c1cc2920b45b0eb42c1e2bee9f7bda",
-    "5369291f5bf3857cef5b8881980ffc68"
+    "5369291f5bf3857cef5b8881980ffc68",
+    "737a3a9f94897ede7a825d8955401136"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1608,7 +1608,8 @@
     "https://kenyans.co.ke/news/129128-3-candidates-die-during-2026-kcse-exams-cs-ogamba-confirms",
     "https://kenyans.co.ke/news/129131-uasu-warns-govt-over-ksh20-billion-lecturers-cba-deal",
     "https://kenyans.co.ke/news/129136-veteran-sports-journalist-jack-kwemba-dies-tragic-siaya-motorbike-accident",
-    "https://kenyans.co.ke/news/129134-ruto-says-govt-speeding-dualling-nairobi-mombasa-highway"
+    "https://kenyans.co.ke/news/129134-ruto-says-govt-speeding-dualling-nairobi-mombasa-highway",
+    "https://kenyans.co.ke/news/129138-ruto-announces-plan-manufacture-leather-shoes-14-million-students"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2307,7 +2308,8 @@
     "security scramble deepens kcse exams face absenteeism border crossfire",
     "uasu rejects student fee formula lecturer pay ksh20b deal hits parliament",
     "jack kwemba death siaya marks another field loss veteran newsrooms",
-    "highway safety crises force acceleration nairobi mombasa dualling talks"
+    "highway safety crises force acceleration nairobi mombasa dualling talks",
+    "state targets million school shoe market plug leather trade deficit"
   ],
   "topic_keys": [
     "news tracker",
@@ -7869,6 +7871,15 @@
       "structure": "Crisis-pressure lead -> Safety tragedies driving the agenda -> Financing and institutional mechanics -> Regional economic justification -> Unresolved project timeline outlook",
       "source": "https://kenyans.co.ke/news/129134-ruto-says-govt-speeding-dualling-nairobi-mombasa-highway",
       "published_at": "2026-11-04T14:02:11Z"
+    },
+    {
+      "title": "State Targets 14 Million School Shoe Market to Plug Kenya\u2019s Leather Trade Deficit",
+      "angle": "Framing the directive as a state-backed guaranteed-demand mechanism designed to cure Kenya's raw-material-to-finished-product trade deficit, where Africa's third-largest livestock herd produces under Ksh70 million in leather apparel exports while incurring four times as much in imports.",
+      "angle_type": "economic mechanism",
+      "opening": "Trade asymmetry and guaranteed-demand lead connecting the 14-million learner target directly to Kenya's livestock export gap.",
+      "structure": "Trade-deficit lead -> Core KICC announcement facts -> Security force boot prototype comparison -> Economic data breakdown (80M herd vs export/import gap) -> Machakos processing hub and devolution mechanics -> Scaling outlook",
+      "source": "https://kenyans.co.ke/news/129138-ruto-announces-plan-manufacture-leather-shoes-14-million-students",
+      "published_at": "2026-11-04T15:02:08Z"
     }
   ]
 }
