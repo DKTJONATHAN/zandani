@@ -143,7 +143,8 @@
     "a92ba27cefb8ecb652167462d1e0e19da977d047268c01db3d33ea47cd2ff863",
     "fec5e99e60606104e5eee8660b5ea99cdd7aa22fdb8b707e495f646647cebec0",
     "30f917c53860057308761c6f3d4fc71bd04308fcb48d353500cc8fff7f444da9",
-    "a71fc91e99f1eef000a823c3b130855523ec4083bd1be75212a77b3f8190b342"
+    "a71fc91e99f1eef000a823c3b130855523ec4083bd1be75212a77b3f8190b342",
+    "7b1a6bd5d9b8dd7c427dafe375a34ce0875e8538facd4b9fb38bf23559faf15d"
   ],
   "style_history": [
     "Event Report",
@@ -414,6 +415,10 @@
     {
       "key": "2026-11-04-prince-indah-takes-ohangla-to-mombasa-as-johnnie-walkers-afroexchange-celebrates-kenyan-culture",
       "ts": "2026-11-04T17:23:41.062068+00:00"
+    },
+    {
+      "key": "2026-11-04-andy-deh-draws-backlash-over-remarks-on-women",
+      "ts": "2026-11-04T19:24:20.305880+00:00"
     }
   ],
   "urls": [
@@ -461,7 +466,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-04-malu-breaks-down-in-tears-after-netizen-mocks-her-outfit",
     "https://www.mpasho.co.ke/entertainment/2026-11-04-the-sweet-words-rapudo-used-to-celebrate-amber-rays-birthday",
     "https://www.mpasho.co.ke/entertainment/2026-11-04-bien-has-a-message-for-otile-brown-and-its-peace",
-    "https://www.mpasho.co.ke/entertainment/2026-11-04-prince-indah-takes-ohangla-to-mombasa-as-johnnie-walkers-afroexchange-celebrates-kenyan-culture"
+    "https://www.mpasho.co.ke/entertainment/2026-11-04-prince-indah-takes-ohangla-to-mombasa-as-johnnie-walkers-afroexchange-celebrates-kenyan-culture",
+    "https://www.mpasho.co.ke/entertainment/2026-11-04-andy-deh-draws-backlash-over-remarks-on-women"
   ],
   "published_angles": [
     {
@@ -815,6 +821,14 @@
       "opening": "Personality and geographic juxtaposition lead focusing directly on Prince Indah shifting his Nyanza Ohangla base to a Swahili coastal backdrop under brand backing.",
       "structure": "Personality-geography hook -> Kingston Beach Resort venue and coastal-lake fusion -> Corporate brand strategy details via Elizabeth Otieno -> Tour footprint across Kisumu, Nanyuki, Nairobi, and Mombasa -> Concrete factual close on the tour's underlying philosophy.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-04-prince-indah-takes-ohangla-to-mombasa-as-johnnie-walkers-afroexchange-celebrates-kenyan-culture"
+    },
+    {
+      "title": "Andy Deh Sparks Outrage Over Claims That Women Only Respect Men Who 'Can Slap Them'",
+      "angle": "Examining how celebrity lineage and second-generation public visibility in Kenya intersect with digital provocation, contrasting raw online commentary against the backdrop of real-world assault discourse.",
+      "angle_type": "second-generation creator visibility and digital controversy dynamics",
+      "opening": "Personality and lineage hook focusing directly on Andy Deh leaning into digital controversy.",
+      "structure": "Lineage hook -> The exact Swahili quote and translation -> The timing against the Nihan-Flossin domestic violence debate -> Public social media split -> Concrete factual close on the ongoing online discussions.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-04-andy-deh-draws-backlash-over-remarks-on-women"
     }
   ]
 }
