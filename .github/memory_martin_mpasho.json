@@ -137,7 +137,8 @@
     "e48075d3bee60ca612902c48d92c55d012c085715f49300ce3b6d16c2a666e0f",
     "eeb18362a7774b55fea38b27a98b47f04a6859edb8cc21cc6dfb19e96e0c4cc3",
     "45844febbc655ccecaaaf8d853f79ebd2497ebec1e28199bd6a6de5c7af132b0",
-    "8dfb0d5797ab343572a882e1a42862b3bb453845fdc0ce7476b2e7048a54143a"
+    "8dfb0d5797ab343572a882e1a42862b3bb453845fdc0ce7476b2e7048a54143a",
+    "fdb721dbfca07faaddd9c2c58cc1f7de9676eb06dc62ac6eee800d6c76192ac4"
   ],
   "style_history": [
     "Event Report",
@@ -384,6 +385,10 @@
     {
       "key": "2026-11-03-dk-kwenye-beat-joins-massawe-japanni-and-muthoni-in-chopping-off-locs",
       "ts": "2026-11-04T05:23:42.336854+00:00"
+    },
+    {
+      "key": "2026-11-04-rue-baby-and-crazy-kennar-win-singing-competition-in-china",
+      "ts": "2026-11-04T07:24:56.139199+00:00"
     }
   ],
   "urls": [
@@ -425,7 +430,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-03-from-scale-to-category-authority-how-tcl-is-driving-the-evolution-of-mini-led-tvs",
     "https://www.mpasho.co.ke/entertainment/2026-11-03-dccak-clarifies-terence-creatives-resignation",
     "https://www.mpasho.co.ke/entertainment/2026-11-03-sky-victor-explains-why-she-is-single-and-refuses-to-date-until-she-turns-20",
-    "https://www.mpasho.co.ke/entertainment/2026-11-03-dk-kwenye-beat-joins-massawe-japanni-and-muthoni-in-chopping-off-locs"
+    "https://www.mpasho.co.ke/entertainment/2026-11-03-dk-kwenye-beat-joins-massawe-japanni-and-muthoni-in-chopping-off-locs",
+    "https://www.mpasho.co.ke/entertainment/2026-11-04-rue-baby-and-crazy-kennar-win-singing-competition-in-china"
   ],
   "published_angles": [
     {
@@ -731,6 +737,14 @@
       "opening": "Personality lead focusing directly on DK Kwenye Beat shedding his 15-year signature aesthetic.",
       "structure": "Personality lead -> Chronological breakdown of the three transformations -> Broadcast history and institutional context -> Close on the exact dates and public reception.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-03-dk-kwenye-beat-joins-massawe-japanni-and-muthoni-in-chopping-off-locs"
+    },
+    {
+      "title": "Rue Baby and Crazy Kennar Pivot to Live Stage Duo, Outperform 15 Chinese Vocalists in Talent Showcase",
+      "angle": "Examining the hybrid stage strategy that paired Rue Baby's vocals with Crazy Kennar's slapstick dance choreography to outperform 15 local vocalists in a foreign competition format.",
+      "angle_type": "cross-discipline performance strategy and international stage execution",
+      "opening": "Personality lead opening directly on the stage collaboration between Rue Baby and Crazy Kennar in China.",
+      "structure": "Personality lead -> Contest details and contestant lineup -> Analysis of the vocal-dance hybrid strategy -> Creator niche expansion context -> Concrete closing fact on international stage exposure.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-04-rue-baby-and-crazy-kennar-win-singing-competition-in-china"
     }
   ]
 }
