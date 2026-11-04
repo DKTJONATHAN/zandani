@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "756743218d98d27dda73004f1752d4f7",
     "97c3748db3bbdc1eb49b602348105f8a",
     "3e3c81781e9185c542cc178a71533240",
     "217d872c222e8c5af1e78f3f665aa7a9",
@@ -799,10 +798,10 @@
     "6d0845417cf963b15c875c4071de8a35",
     "e34169aa3c4ace51aa053f95588f7ef8",
     "71a3734a61879ffbafad28fe818eda6c",
-    "1e5761bf5feb79f5dc8527e1c768284b"
+    "1e5761bf5feb79f5dc8527e1c768284b",
+    "60da5bf5c3e92521b052706ed7444679"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1599,7 +1599,8 @@
     "https://kenyans.co.ke/news/129101-gachagua-hits-back-opposition-leaders-over-bullying-claims",
     "https://kenyans.co.ke/news/129107-kpc-foils-attempted-fuel-theft-through-illegal-pipeline-connection-mombasa",
     "https://kenyans.co.ke/news/129109-sakaja-reveals-ruto-raila-were-involved-earlier-talks-over-his-odm-move",
-    "https://kenyans.co.ke/news/129113-world-bank-flags-corruption-key-barrier-kenyas-economic-growth"
+    "https://kenyans.co.ke/news/129113-world-bank-flags-corruption-key-barrier-kenyas-economic-growth",
+    "https://kenyans.co.ke/news/129115-mps-demand-clear-rules-how-schools-should-punish-unruly-students"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2289,7 +2290,8 @@
     "gachagua draws battle lines november flagbearer deadline united opposition",
     "mombasa pipeline tap uncovered high fuel prices test infrastructure security",
     "sakaja odm shift exposes long running cross party management nairobi",
-    "governance tax borrowing penalties threaten upgraded growth engine"
+    "governance tax borrowing penalties threaten upgraded growth engine",
+    "basic education bill codifies penalties staff but leaves student discipline secondary rules"
   ],
   "topic_keys": [
     "news tracker",
@@ -7770,6 +7772,15 @@
       "structure": "Debt-pricing lead -> GDP growth upgrade vs leakage facts -> Long-term reform scenario modeling -> 2027 electoral spending risks -> Status of digital procurement and legislation.",
       "source": "https://kenyans.co.ke/news/129113-world-bank-flags-corruption-key-barrier-kenyas-economic-growth",
       "published_at": "2026-11-04T06:02:01Z"
+    },
+    {
+      "title": "Basic Education Bill Codifies Penalties for Staff but Leaves Student Discipline to Secondary Rules",
+      "angle": "The statutory asymmetry between explicit penal sanctions facing teachers who overstep (Ksh 100,000 fine / 6 months prison) and the complete absence of operational discipline mechanisms within the proposed Basic Education Bill 2026, forcing the Ministry to rely on secondary executive regulations.",
+      "angle_type": "statutory mechanics",
+      "opening": "Legal gap lead examining how two decades post-corporal punishment, major statutory reform still leaves discipline rules out of primary legislation.",
+      "structure": "Statutory void lead -> Tuesday parliamentary session facts -> Clause 19 asymmetry analysis -> Expert legal and executive response -> Unresolved regulatory requirement before final bill passage.",
+      "source": "https://kenyans.co.ke/news/129115-mps-demand-clear-rules-how-schools-should-punish-unruly-students",
+      "published_at": "2026-11-04T07:01:42Z"
     }
   ]
 }
