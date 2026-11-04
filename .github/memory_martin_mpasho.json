@@ -139,7 +139,8 @@
     "45844febbc655ccecaaaf8d853f79ebd2497ebec1e28199bd6a6de5c7af132b0",
     "8dfb0d5797ab343572a882e1a42862b3bb453845fdc0ce7476b2e7048a54143a",
     "fdb721dbfca07faaddd9c2c58cc1f7de9676eb06dc62ac6eee800d6c76192ac4",
-    "c00d025dcd78c58e5327c768363db6092a1d7b41ee6442fea245f4850c4d25a0"
+    "c00d025dcd78c58e5327c768363db6092a1d7b41ee6442fea245f4850c4d25a0",
+    "a92ba27cefb8ecb652167462d1e0e19da977d047268c01db3d33ea47cd2ff863"
   ],
   "style_history": [
     "Event Report",
@@ -394,6 +395,10 @@
     {
       "key": "2026-11-04-ngina-leaves-fans-stunned-with-her-cats-unusual-dinner-routine",
       "ts": "2026-11-04T09:29:19.395512+00:00"
+    },
+    {
+      "key": "2026-11-04-malu-breaks-down-in-tears-after-netizen-mocks-her-outfit",
+      "ts": "2026-11-04T11:23:50.324125+00:00"
     }
   ],
   "urls": [
@@ -437,7 +442,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-03-sky-victor-explains-why-she-is-single-and-refuses-to-date-until-she-turns-20",
     "https://www.mpasho.co.ke/entertainment/2026-11-03-dk-kwenye-beat-joins-massawe-japanni-and-muthoni-in-chopping-off-locs",
     "https://www.mpasho.co.ke/entertainment/2026-11-04-rue-baby-and-crazy-kennar-win-singing-competition-in-china",
-    "https://www.mpasho.co.ke/entertainment/2026-11-04-ngina-leaves-fans-stunned-with-her-cats-unusual-dinner-routine"
+    "https://www.mpasho.co.ke/entertainment/2026-11-04-ngina-leaves-fans-stunned-with-her-cats-unusual-dinner-routine",
+    "https://www.mpasho.co.ke/entertainment/2026-11-04-malu-breaks-down-in-tears-after-netizen-mocks-her-outfit"
   ],
   "published_angles": [
     {
@@ -759,6 +765,14 @@
       "opening": "Personality lead opening directly on Ngina assembling a customized feline dinner on TikTok.",
       "structure": "Personality lead -> Detailed breakdown of the cat meal ingredients and prep assembly -> Shift from commercial kibble to custom scratch feeding -> Pet humanization context in modern households -> Concluding factual status on digital pet care content.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-04-ngina-leaves-fans-stunned-with-her-cats-unusual-dinner-routine"
+    },
+    {
+      "title": "Malu Steps Out of Baggy Jeans Defense, Tearfully Confronts Commenter Over Capri Pants Remark",
+      "angle": "Framing the breakdown around Malu's deliberate attempt to break away from her signature concealing wardrobe\u2014trading baggy jeans for Capri pants\u2014and how a single online remark disrupted a personal milestone in body acceptance.",
+      "angle_type": "wardrobe milestone and vulnerability breakdown",
+      "opening": "Personality lead opening directly on Malu making a intentional shift out of her default baggy jeans fashion defense into Capri pants.",
+      "structure": "Personality lead -> Wardrobe transition milestone -> Specific comment and sarcastic video breakdown -> Raw quotes on body insecurity and female commentary -> Concrete factual close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-04-malu-breaks-down-in-tears-after-netizen-mocks-her-outfit"
     }
   ]
 }
