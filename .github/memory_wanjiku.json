@@ -359,7 +359,8 @@
     "be9b751c95b2cfa9b9c18ad7c9a3c2c14db66c1aba923120cc8c335b4a8bb248",
     "813614066641a6750cdc9f3a0fa9193e0720023fb3a289a9c79157347c2ecfbf",
     "9fa3cc584dbbc4e63753597757ecb84f2902fda8701956a397f71481c2e8e21b",
-    "5b98229a7375a6ba3d4426f293edbbb45ae56472c2832f9935e7f4fed0fa1d52"
+    "5b98229a7375a6ba3d4426f293edbbb45ae56472c2832f9935e7f4fed0fa1d52",
+    "6d87db68483e034864bb4a508b7dc2ce2d5572e705af00c9ada7a7132a22003b"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -721,17 +722,10 @@
     "https://www.ghafla.co.ke/betty-bayos-daughter-sky-victor-explains-why-she-is-not-interested-in-dating/",
     "https://www.ghafla.co.ke/ned-nwoko-breaks-silence-on-regina-daniels-death-rumours-threatens-legal-action-against-bloggers/",
     "https://www.ghafla.co.ke/kenya-power-announces-wednesday-outages-in-parts-of-nairobi-and-kwale/",
-    "https://www.ghafla.co.ke/autopsy-reveals-how-regina-res-mother-dorita-macharia-died/"
+    "https://www.ghafla.co.ke/autopsy-reveals-how-regina-res-mother-dorita-macharia-died/",
+    "https://www.ghafla.co.ke/chebet-ronoh-reveals-how-she-blew-her-first-ksh1-5-million-on-alcohol-at-19/"
   ],
   "published_angles": [
-    {
-      "title": "Winnie Odinga Eyes Nairobi Senate Seat as Edwin Sifuna Shifts Focus to State House",
-      "angle": "Reframing the declaration through Winnie's candid public maneuver of declaring Edwin Sifuna's Nairobi seat open because of his presidential ambitions under Linda Mwananchi, turning a solemn Bondo anniversary platform into an unapologetic political claim on City Hall's legislative post.",
-      "angle_type": "celebrity political realignment and seat claim",
-      "opening": "Personality lead opening directly on Winnie Odinga shutting down whispers at Migwena Grounds by staking an immediate claim on Nairobi's Senate seat.",
-      "structure": "Personality declaration hook -> The verified Migwena speech and Sifuna quote -> Sifuna's presidential posture and the open seat calculation -> The transition from Arusha's EALA desk to Nairobi street-level politics -> Concrete close on 2027 realignment",
-      "source": "https://www.ghafla.co.ke/winnie-odinga-officially-declares-2027-nairobi-senatorial-bid/"
-    },
     {
       "title": "Dr. Oburu Oginga\u2019s Empty Chair Steals Raila Memorial as Restless Crowd Chants Down Arati\u2019s Delegated Brief",
       "angle": "Focusing on the high-tension personal spotlight falling on Dr. Oburu Oginga's empty chair, where weeks of whispering about his hospital discharge collided head-on with an uncompromising home crowd that refused to take delegated speeches from Simba Arati at face value.",
@@ -1523,6 +1517,14 @@
       "opening": "Personality and event-led opening focusing on Regina Re's mother, Dorita Macharia, and the specific forensic details released following the postmortem examination.",
       "structure": "Forensic pathology hook -> Lee Funeral Home postmortem details -> Specific wound breakdown by Dr Midia -> Family and suspect legal representation presence -> Timeline of the October 30 death and subsequent court appearance of Regina Re and co-accused.",
       "source": "https://www.ghafla.co.ke/autopsy-reveals-how-regina-res-mother-dorita-macharia-died/"
+    },
+    {
+      "title": "How Chebet Ronoh Blew Her First KSh1.5 Million Brand Deal Windfall at 19 Against Her Mother's Advice",
+      "angle": "Examining the financial and generational friction between a teenager's sudden digital windfall and parental investment advice, specifically highlighting the precise KSh1.5 million monthly brand deal peak and her mother's unheeded counsel.",
+      "angle_type": "financial friction and generational advisory contrast",
+      "opening": "Personality lead focusing directly on Chebet Ronoh's teenage financial peak and her mother's ignored advice.",
+      "structure": "Financial peak hook -> Brand deal volume vs teenage reality -> Mother's rejected investment advice -> Alcohol expenditure and lack of Kenyan digital role models -> Current reflection and personal growth close.",
+      "source": "https://www.ghafla.co.ke/chebet-ronoh-reveals-how-she-blew-her-first-ksh1-5-million-on-alcohol-at-19/"
     }
   ],
   "style_history": [
