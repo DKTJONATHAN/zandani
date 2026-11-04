@@ -361,7 +361,8 @@
     "9fa3cc584dbbc4e63753597757ecb84f2902fda8701956a397f71481c2e8e21b",
     "5b98229a7375a6ba3d4426f293edbbb45ae56472c2832f9935e7f4fed0fa1d52",
     "6d87db68483e034864bb4a508b7dc2ce2d5572e705af00c9ada7a7132a22003b",
-    "1d2335643cc853d403f636c42701fc947dbfd3152acd6bb90126f6383aec1aef"
+    "1d2335643cc853d403f636c42701fc947dbfd3152acd6bb90126f6383aec1aef",
+    "dc9467423e41a0e7b0f4b26c461f2cf82fc565b558c65bca09f23931bbe92bcf"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -725,17 +726,10 @@
     "https://www.ghafla.co.ke/kenya-power-announces-wednesday-outages-in-parts-of-nairobi-and-kwale/",
     "https://www.ghafla.co.ke/autopsy-reveals-how-regina-res-mother-dorita-macharia-died/",
     "https://www.ghafla.co.ke/chebet-ronoh-reveals-how-she-blew-her-first-ksh1-5-million-on-alcohol-at-19/",
-    "https://www.ghafla.co.ke/kinango-road-under-construction-75-per-cent-of-work-already-complete/"
+    "https://www.ghafla.co.ke/kinango-road-under-construction-75-per-cent-of-work-already-complete/",
+    "https://www.ghafla.co.ke/government-to-expand-grassroots-administration-with-new-recruitment-drive/"
   ],
   "published_angles": [
-    {
-      "title": "Rigathi Gachagua Stokes Fuel Storm as Wandayi Clashes With Lobby Over KSh 227 EPRA Shock",
-      "angle": "Framing the showdown through former Deputy President Rigathi Gachagua's explosive public clash with Energy Cabinet Secretary Opiyo Wandayi over alleged 'artificially inflated fuel margins,' setting off a volatile confrontation as motorists seize on EPRA's unexplained kerosene arithmetic to threaten street action.",
-      "angle_type": "political celebrity clash and institutional accountability",
-      "opening": "Personality lead opening directly on Rigathi Gachagua's margin-rigging allegations blowing open the national conversation as pump prices hit record highs.",
-      "structure": "Personality clash hook -> Gachagua's margins allegations vs Wandayi's defense -> EPRA's October 15 pricing breakdown -> MAK's technical kerosene discrepancy audit -> G-to-G import transparency demands and demo countdown close",
-      "source": "https://www.ghafla.co.ke/explain-the-math-motorists-threaten-demos-over-latest-epra-fuel-increases/"
-    },
     {
       "title": "Kileleshwa to Kitui: Kenya Power\u2019s 8-Hour Grid Sweep Squeezes Midweek Business Schedules",
       "angle": "Examining the high-impact operational friction on urban businesses, medical clinics, and daily scheduling across five counties when a major grid corridor goes dark for an eight-hour workday stretch.",
@@ -1527,6 +1521,14 @@
       "opening": "Personality-led political friction lead opening on Edwin Sifuna's commentary.",
       "structure": "Sifuna critique hook -> Detailed Samburu and Moyeni road audit -> Coast region policy context (healthcare and KSh 2,000 fertilizer) -> February 2027 project timeline close.",
       "source": "https://www.ghafla.co.ke/kinango-road-under-construction-75-per-cent-of-work-already-complete/"
+    },
+    {
+      "title": "PS Raymond Omollo Takes Center Stage in Makueni as Government Equips Village Elders With Smartphones, SHA Cover and Ksh 3,000 Stipends",
+      "angle": "Focusing directly on PS Raymond Omollo's grassroots administrative upgrade package\u2014specifically highlighting the digital, financial, and healthcare perks (smartphones, SHA medical cover, Ksh 3,000 monthly stipends) promised to village elders alongside new career elevation routes for local chiefs.",
+      "angle_type": "administrative upgrade and grassroots welfare package",
+      "opening": "Personality-led focus on PS Dr. Raymond Omollo taking the mic in Kibwezi West to outline institutional career progression for local chiefs and modern perks for village elders.",
+      "structure": "Personality lead -> ACC recruitment and PSC clearance details -> Elder welfare package breakdown (smartphones, SHA, Ksh 3,000 stipend) -> Institutional geography of Kikumbulyu Division -> Administrative backlog fixes and national exam security directives close",
+      "source": "https://www.ghafla.co.ke/government-to-expand-grassroots-administration-with-new-recruitment-drive/"
     }
   ],
   "style_history": [
