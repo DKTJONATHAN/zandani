@@ -145,7 +145,8 @@
     "30f917c53860057308761c6f3d4fc71bd04308fcb48d353500cc8fff7f444da9",
     "a71fc91e99f1eef000a823c3b130855523ec4083bd1be75212a77b3f8190b342",
     "7b1a6bd5d9b8dd7c427dafe375a34ce0875e8538facd4b9fb38bf23559faf15d",
-    "822feabd919ed866924fef4320e5d09ba851dd175fb5360feb93c90515245e65"
+    "822feabd919ed866924fef4320e5d09ba851dd175fb5360feb93c90515245e65",
+    "2924f4444bec64a4c2c5d5bbc31bb56e6a476b9be773ee557c3a826214625ed6"
   ],
   "style_history": [
     "Event Report",
@@ -424,6 +425,10 @@
     {
       "key": "2026-11-04-keranta-covers-up-flaqos-name-tattoo-after-bitter-breakup",
       "ts": "2026-11-04T21:22:52.374599+00:00"
+    },
+    {
+      "key": "2026-11-04-allan-ademba-calls-for-regulation-of-churches-in-kenya-says-their-numbers-are-too-high",
+      "ts": "2026-11-04T23:32:22.469665+00:00"
     }
   ],
   "urls": [
@@ -473,7 +478,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-04-bien-has-a-message-for-otile-brown-and-its-peace",
     "https://www.mpasho.co.ke/entertainment/2026-11-04-prince-indah-takes-ohangla-to-mombasa-as-johnnie-walkers-afroexchange-celebrates-kenyan-culture",
     "https://www.mpasho.co.ke/entertainment/2026-11-04-andy-deh-draws-backlash-over-remarks-on-women",
-    "https://www.mpasho.co.ke/entertainment/2026-11-04-keranta-covers-up-flaqos-name-tattoo-after-bitter-breakup"
+    "https://www.mpasho.co.ke/entertainment/2026-11-04-keranta-covers-up-flaqos-name-tattoo-after-bitter-breakup",
+    "https://www.mpasho.co.ke/entertainment/2026-11-04-allan-ademba-calls-for-regulation-of-churches-in-kenya-says-their-numbers-are-too-high"
   ],
   "published_angles": [
     {
@@ -843,6 +849,14 @@
       "opening": "Personality lead opening directly on Keranta replacing Flaqo's name tattoo after a three-year interval.",
       "structure": "Personality lead -> Chronological context of the 3-year post-breakup timeline -> Matching ink history from their collaborative creator era -> Visual mechanics of the artwork cover-up -> Factual close on physical legacy versus instant digital erasure.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-04-keranta-covers-up-flaqos-name-tattoo-after-bitter-breakup"
+    },
+    {
+      "title": "Allan Ademba Backs Parliamentary Bill to Cap Residential Churches After Sunday House-Hunting Frustrations",
+      "angle": "Framing Ademba's stance through the lens of suburban residential livability and estate planning, connecting his personal Sunday house-hunting frustration directly to an explicit pledge to back parliamentary legislation.",
+      "angle_type": "residential livability and legislative lobbying",
+      "opening": "Personality lead opening directly on Allan Ademba framing church density through the practical frustration of Sunday house hunting in Nairobi estates.",
+      "structure": "Suburban house-hunting observation -> Specific noise and density concerns -> Proposed community consolidation model -> Personal faith shield -> Parliamentary legislative backing pledge.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-04-allan-ademba-calls-for-regulation-of-churches-in-kenya-says-their-numbers-are-too-high"
     }
   ]
 }
