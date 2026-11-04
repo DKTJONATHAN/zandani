@@ -134,7 +134,8 @@
     "2ff9334cc4d618717ad63c7095be39947063afc6a75c490187652274ccfaf581",
     "feba65ec595ec2f5608aaffb2821908b55a57e8fa7226804ad378cc6a69037c3",
     "e461f83cde0bc8588513054a15be30334259c0a1a97a606c86965e8ec84fc5fa",
-    "e48075d3bee60ca612902c48d92c55d012c085715f49300ce3b6d16c2a666e0f"
+    "e48075d3bee60ca612902c48d92c55d012c085715f49300ce3b6d16c2a666e0f",
+    "eeb18362a7774b55fea38b27a98b47f04a6859edb8cc21cc6dfb19e96e0c4cc3"
   ],
   "style_history": [
     "Event Report",
@@ -369,6 +370,10 @@
     {
       "key": "2026-11-03-from-scale-to-category-authority-how-tcl-is-driving-the-evolution-of-mini-led-tvs",
       "ts": "2026-11-03T21:23:58.757822+00:00"
+    },
+    {
+      "key": "2026-11-03-dccak-clarifies-terence-creatives-resignation",
+      "ts": "2026-11-04T01:25:21.985741+00:00"
     }
   ],
   "urls": [
@@ -407,7 +412,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-03-sueh-owino-shows-off-village-homestead-featuring-outdoor-kitchen",
     "https://www.mpasho.co.ke/entertainment/2026-11-03-african-films-in-focus-as-alternativa-festival-opens-2027-entries-with-15-million-prize-pool",
     "https://www.mpasho.co.ke/entertainment/2026-11-03-khaligraph-jones-boutross-and-maandy-thrill-fans-at-chrome-city-xo-tour-in-chuka",
-    "https://www.mpasho.co.ke/entertainment/2026-11-03-from-scale-to-category-authority-how-tcl-is-driving-the-evolution-of-mini-led-tvs"
+    "https://www.mpasho.co.ke/entertainment/2026-11-03-from-scale-to-category-authority-how-tcl-is-driving-the-evolution-of-mini-led-tvs",
+    "https://www.mpasho.co.ke/entertainment/2026-11-03-dccak-clarifies-terence-creatives-resignation"
   ],
   "published_angles": [
     {
@@ -689,6 +695,14 @@
       "opening": "Start directly with TCL's 2.43 million unit milestone and the engineering realities of light control.",
       "structure": "Shipment scale metrics -> Hardware dimming mechanics -> Market share statistics -> Technical literacy challenge",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-03-from-scale-to-category-authority-how-tcl-is-driving-the-evolution-of-mini-led-tvs"
+    },
+    {
+      "title": "Terence Creative\u2019s Voluntary Exit Collides With DCCAK Record of a Six-Month Suspension",
+      "angle": "Examining the public relations tension between a celebrity creator's voluntary exit narrative and an industry association's strict enforcement of institutional governance records dating back six months.",
+      "angle_type": "public relations narrative collision and institutional governance",
+      "opening": "Personality lead opening directly on Terence Creative issuing an immediate voluntary resignation notice, followed by the immediate counter-clarification from DCCAK.",
+      "structure": "Personality exit announcement -> The governance reality check by DCCAK -> Administrative timeline of the May 2026 suspension and Joan Wanjiku Waweru's appointment -> Terence's career context and stated creator mentorship stance -> Concrete forward-looking close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-03-dccak-clarifies-terence-creatives-resignation"
     }
   ]
 }
