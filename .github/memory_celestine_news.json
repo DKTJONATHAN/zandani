@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "8ccf72c106bf45162e8d524151175ceb",
     "8faee3817c8e3eebcd320fb771bf3bf0",
     "756743218d98d27dda73004f1752d4f7",
     "97c3748db3bbdc1eb49b602348105f8a",
@@ -799,10 +798,10 @@
     "0622b37026df30adac3a1a0eec86ba55",
     "2117926c2f6240d607e54bb7d0b282a2",
     "6d0845417cf963b15c875c4071de8a35",
-    "e34169aa3c4ace51aa053f95588f7ef8"
+    "e34169aa3c4ace51aa053f95588f7ef8",
+    "71a3734a61879ffbafad28fe818eda6c"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1597,7 +1597,8 @@
     "https://kenyans.co.ke/news/129098-kenya-signs-deal-idris-elba-boost-creative-industry",
     "https://kenyans.co.ke/news/129106-govt-considers-new-road-maintenance-tax-electric-vehicles-gain-popularity",
     "https://kenyans.co.ke/news/129101-gachagua-hits-back-opposition-leaders-over-bullying-claims",
-    "https://kenyans.co.ke/news/129107-kpc-foils-attempted-fuel-theft-through-illegal-pipeline-connection-mombasa"
+    "https://kenyans.co.ke/news/129107-kpc-foils-attempted-fuel-theft-through-illegal-pipeline-connection-mombasa",
+    "https://kenyans.co.ke/news/129109-sakaja-reveals-ruto-raila-were-involved-earlier-talks-over-his-odm-move"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2285,7 +2286,8 @@
     "filmmaking mentorship takes center stage formalizes akuna group pact",
     "000 electric vehicles expose fuel tax gap contractor bills near ksh100b",
     "gachagua draws battle lines november flagbearer deadline united opposition",
-    "mombasa pipeline tap uncovered high fuel prices test infrastructure security"
+    "mombasa pipeline tap uncovered high fuel prices test infrastructure security",
+    "sakaja odm shift exposes long running cross party management nairobi"
   ],
   "topic_keys": [
     "news tracker",
@@ -7748,6 +7750,15 @@
       "structure": "Economic-pressure lead -> Operational details of the Mombasa discovery -> EPRA retail pricing context -> Police investigation and staff scrutiny -> Forward look on enforcement and price cycle expiry.",
       "source": "https://kenyans.co.ke/news/129107-kpc-foils-attempted-fuel-theft-through-illegal-pipeline-connection-mombasa",
       "published_at": "2026-11-03T18:02:16Z"
+    },
+    {
+      "title": "Sakaja\u2019s ODM Shift Exposes Long-Running Cross-Party Management in Nairobi",
+      "angle": "Examining the revelation as a structural cross-party operational pact, where a sitting UDA governor was authorized at the highest executive levels to execute internal ODM party logistics in Nairobi long before his formal switch.",
+      "angle_type": "institutional alignment",
+      "opening": "Institutional alignment lead opening on the pre-arranged nature of Sakaja's party transition and cross-party election management.",
+      "structure": "Lead on structural cross-party management -> Detailed breakdown of the Ruto-Raila agreement timeline -> Mechanics of internal ODM election execution -> Contextual progression from August to November 2026 -> Forward look on Nairobi county governance dynamics.",
+      "source": "https://kenyans.co.ke/news/129109-sakaja-reveals-ruto-raila-were-involved-earlier-talks-over-his-odm-move",
+      "published_at": "2026-11-04T05:02:12Z"
     }
   ]
 }
