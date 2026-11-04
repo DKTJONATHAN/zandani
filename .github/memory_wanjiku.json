@@ -363,7 +363,8 @@
     "6d87db68483e034864bb4a508b7dc2ce2d5572e705af00c9ada7a7132a22003b",
     "1d2335643cc853d403f636c42701fc947dbfd3152acd6bb90126f6383aec1aef",
     "dc9467423e41a0e7b0f4b26c461f2cf82fc565b558c65bca09f23931bbe92bcf",
-    "f072a9c6e957f67ee3059e8c089c8940dd01514d8c4dca53ddc3f58cec09bfb8"
+    "f072a9c6e957f67ee3059e8c089c8940dd01514d8c4dca53ddc3f58cec09bfb8",
+    "80a177081c14f985c64bf66ede53cafb75eee8cb66c39751de206e400afe5ea7"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -729,17 +730,10 @@
     "https://www.ghafla.co.ke/chebet-ronoh-reveals-how-she-blew-her-first-ksh1-5-million-on-alcohol-at-19/",
     "https://www.ghafla.co.ke/kinango-road-under-construction-75-per-cent-of-work-already-complete/",
     "https://www.ghafla.co.ke/government-to-expand-grassroots-administration-with-new-recruitment-drive/",
-    "https://www.ghafla.co.ke/kabi-wa-jesus-shows-off-progress-of-new-family-home-opens-up-on-construction-struggles/"
+    "https://www.ghafla.co.ke/kabi-wa-jesus-shows-off-progress-of-new-family-home-opens-up-on-construction-struggles/",
+    "https://www.ghafla.co.ke/president-ruto-directs-local-leather-industry-to-supply-learners-with-free-shoes/"
   ],
   "published_angles": [
-    {
-      "title": "Winnie Odinga Clashes With Kenya Airways Over Last-Minute Flight Cancellation Ahead of Bondo Memorial",
-      "angle": "Examining the personal friction of flight cancellations for high-profile public figures right on the eve of a major national family milestone, and her public call-out of the national carrier.",
-      "angle_type": "celebrity digital friction and travel frustration",
-      "opening": "Personality lead opening directly on Winnie Odinga's sharp social media confrontation with Kenya Airways on the eve of a solemn family milestone.",
-      "structure": "Personality social media hook -> The specific flight cancellation and terse digital warning -> The high-stakes context of the Bondo anniversary timeline -> Closing on the scramble for alternative transit.",
-      "source": "https://www.ghafla.co.ke/winnie-odinga-faces-travel-delay-after-kenya-airways-cancels-flight-on-eve-of-raila-memorial/"
-    },
     {
       "title": "Jaymo Ule Msee Plants UDA Flag for Nairobi Senate, Setting Up Showbiz Showdown With Jalang\u2019o and Winnie Odinga",
       "angle": "Reframing the Nairobi Senate race through the direct clash of Kenya's digital entertainment heavyweights, focusing on Jaymo Ule Msee planting his flag in UDA colors to challenge comedy predecessor Jalang'o and political royalty Winnie Odinga for the capital's youth vote.",
@@ -1531,6 +1525,14 @@
       "opening": "Personality lead focusing directly on Kabi Wa Jesus integrating his secondary home build into his structured digital content schedule.",
       "structure": "Personality hook -> Site progress and construction admission -> Digital strategy & '50 Days of Thanksgiving' context -> Historical property timeline (2021 to 2022 vs current project) -> YouTube drop expectation close.",
       "source": "https://www.ghafla.co.ke/kabi-wa-jesus-shows-off-progress-of-new-family-home-opens-up-on-construction-struggles/"
+    },
+    {
+      "title": "President Ruto Orders Local Factories to Supply Free Shoes for Kenya\u2019s 14 Million School Children",
+      "angle": "The operational reality and massive economic scale behind shifting a procurement pipeline from foreign supply chains to local tanneries for 14 million pairs of school shoes.",
+      "angle_type": "industrial scale and economic policy execution",
+      "opening": "Personality and policy lead opening directly on President William Ruto laying down the manufacturing mandate at KICC.",
+      "structure": "Presidential mandate hook -> Kenani industrial park infrastructure and decentralization plan -> Historical export/import trade imbalance contrast -> Concrete closing on the domestic supply pipeline shift.",
+      "source": "https://www.ghafla.co.ke/president-ruto-directs-local-leather-industry-to-supply-learners-with-free-shoes/"
     }
   ],
   "style_history": [
