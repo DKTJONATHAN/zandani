@@ -364,7 +364,8 @@
     "1d2335643cc853d403f636c42701fc947dbfd3152acd6bb90126f6383aec1aef",
     "dc9467423e41a0e7b0f4b26c461f2cf82fc565b558c65bca09f23931bbe92bcf",
     "f072a9c6e957f67ee3059e8c089c8940dd01514d8c4dca53ddc3f58cec09bfb8",
-    "80a177081c14f985c64bf66ede53cafb75eee8cb66c39751de206e400afe5ea7"
+    "80a177081c14f985c64bf66ede53cafb75eee8cb66c39751de206e400afe5ea7",
+    "42e2f10ff44ed103ad17b1a36f160ceba409d9d8d73eb9b4ac9141ec7efb4a36"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -731,17 +732,10 @@
     "https://www.ghafla.co.ke/kinango-road-under-construction-75-per-cent-of-work-already-complete/",
     "https://www.ghafla.co.ke/government-to-expand-grassroots-administration-with-new-recruitment-drive/",
     "https://www.ghafla.co.ke/kabi-wa-jesus-shows-off-progress-of-new-family-home-opens-up-on-construction-struggles/",
-    "https://www.ghafla.co.ke/president-ruto-directs-local-leather-industry-to-supply-learners-with-free-shoes/"
+    "https://www.ghafla.co.ke/president-ruto-directs-local-leather-industry-to-supply-learners-with-free-shoes/",
+    "https://www.ghafla.co.ke/are-you-ready-winnie-odinga-teases-major-announcement-ahead-of-2027-nairobi-senate-bid/"
   ],
   "published_angles": [
-    {
-      "title": "Jaymo Ule Msee Plants UDA Flag for Nairobi Senate, Setting Up Showbiz Showdown With Jalang\u2019o and Winnie Odinga",
-      "angle": "Reframing the Nairobi Senate race through the direct clash of Kenya's digital entertainment heavyweights, focusing on Jaymo Ule Msee planting his flag in UDA colors to challenge comedy predecessor Jalang'o and political royalty Winnie Odinga for the capital's youth vote.",
-      "angle_type": "creator-to-politics crossover and showbiz rivalry",
-      "opening": "Personality lead opening directly on Jaymo Ule Msee launching his official UDA campaign artwork on social media to formalize his senatorial ambition.",
-      "structure": "Personality reveal hook -> The UDA campaign collateral and Ruto branding -> The contrast with comedy veteran Jalang'o's 'to the wire' declaration -> Winnie Odinga's youth mobilization pitch -> The open-field vacuum created by Sifuna's national repositioning",
-      "source": "https://www.ghafla.co.ke/battle-for-nairobi-jaymo-ule-msee-winnie-odinga-and-jalango-declare-bids-for-2027-senate-seat/"
-    },
     {
       "title": "Nairobi to Mombasa: Kamene Goro Lays Bare the Dual-City Routine Behind Her Marriage to DJ Bonez",
       "angle": "Reframing the revelation around the practical reality of an inter-city commuter marriage\u2014highlighting how 500 kilometers between Nairobi studios and coastal entertainment decks serves career demands rather than marital distress.",
@@ -1533,6 +1527,14 @@
       "opening": "Personality and policy lead opening directly on President William Ruto laying down the manufacturing mandate at KICC.",
       "structure": "Presidential mandate hook -> Kenani industrial park infrastructure and decentralization plan -> Historical export/import trade imbalance contrast -> Concrete closing on the domestic supply pipeline shift.",
       "source": "https://www.ghafla.co.ke/president-ruto-directs-local-leather-industry-to-supply-learners-with-free-shoes/"
+    },
+    {
+      "title": "Winnie Odinga Leans on 72% Instagram Poll Metric to Shape 2027 Nairobi Senate Bid",
+      "angle": "Examining the digital campaign infrastructure and constituency testing\u2014specifically how her social media polling ('Linda Mwananchi' securing 72%) is directly shaping her institutional positioning for the post-Raila era ahead of Edwin Sifuna's exit.",
+      "angle_type": "digital strategy and constituency polling transition",
+      "opening": "Personality lead focusing on the digital polling metrics and the specific social media teaser question.",
+      "structure": "Instagram poll results hook -> 'Linda Mwananchi' movement metrics -> Nairobi Senate declaration context following the October memorial -> Edwin Sifuna transition factor -> Concrete closing on campaign platform rollout.",
+      "source": "https://www.ghafla.co.ke/are-you-ready-winnie-odinga-teases-major-announcement-ahead-of-2027-nairobi-senate-bid/"
     }
   ],
   "style_history": [
