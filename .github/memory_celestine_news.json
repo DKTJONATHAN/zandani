@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "97c3748db3bbdc1eb49b602348105f8a",
     "3e3c81781e9185c542cc178a71533240",
     "217d872c222e8c5af1e78f3f665aa7a9",
     "678b65d0cd7a12828d291b2dfecbec2c",
@@ -799,10 +798,10 @@
     "e34169aa3c4ace51aa053f95588f7ef8",
     "71a3734a61879ffbafad28fe818eda6c",
     "1e5761bf5feb79f5dc8527e1c768284b",
-    "60da5bf5c3e92521b052706ed7444679"
+    "60da5bf5c3e92521b052706ed7444679",
+    "5c4700c3a2c0aa6ecc4e38073e268856"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1600,7 +1600,8 @@
     "https://kenyans.co.ke/news/129107-kpc-foils-attempted-fuel-theft-through-illegal-pipeline-connection-mombasa",
     "https://kenyans.co.ke/news/129109-sakaja-reveals-ruto-raila-were-involved-earlier-talks-over-his-odm-move",
     "https://kenyans.co.ke/news/129113-world-bank-flags-corruption-key-barrier-kenyas-economic-growth",
-    "https://kenyans.co.ke/news/129115-mps-demand-clear-rules-how-schools-should-punish-unruly-students"
+    "https://kenyans.co.ke/news/129115-mps-demand-clear-rules-how-schools-should-punish-unruly-students",
+    "https://kenyans.co.ke/news/129119-schools-open-january-4-education-ministry-releases-2027-school-calendar"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2291,7 +2292,8 @@
     "mombasa pipeline tap uncovered high fuel prices test infrastructure security",
     "sakaja odm shift exposes long running cross party management nairobi",
     "governance tax borrowing penalties threaten upgraded growth engine",
-    "basic education bill codifies penalties staff but leaves student discipline secondary rules"
+    "basic education bill codifies penalties staff but leaves student discipline secondary rules",
+    "2027 academic roadmap locks final national exam cycle"
   ],
   "topic_keys": [
     "news tracker",
@@ -7781,6 +7783,15 @@
       "structure": "Statutory void lead -> Tuesday parliamentary session facts -> Clause 19 asymmetry analysis -> Expert legal and executive response -> Unresolved regulatory requirement before final bill passage.",
       "source": "https://kenyans.co.ke/news/129115-mps-demand-clear-rules-how-schools-should-punish-unruly-students",
       "published_at": "2026-11-04T07:01:42Z"
+    },
+    {
+      "title": "2027 Academic Roadmap Locks In Final 8:4:4 National Exam Cycle",
+      "angle": "Framing the 2027 calendar through its systemic milestone: setting the formal operational timeline for the final exit of the 8:4:4 framework through the last KCSE sitting alongside four simultaneous CBE national assessments.",
+      "angle_type": "systemic milestone",
+      "opening": "Curricular milestone lead focusing on how the 2027 calendar formally anchors the conclusion of the legacy 8:4:4 secondary examination cycle.",
+      "structure": "Curricular transition lead -> Core opening dates and term lengths -> Examination schedule breakdown -> Multi-track assessment context -> Final timeline into full 2028 CBE operation",
+      "source": "https://kenyans.co.ke/news/129119-schools-open-january-4-education-ministry-releases-2027-school-calendar",
+      "published_at": "2026-11-04T08:02:30Z"
     }
   ]
 }
