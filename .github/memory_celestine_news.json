@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "217d872c222e8c5af1e78f3f665aa7a9",
     "678b65d0cd7a12828d291b2dfecbec2c",
     "6c8e1d025b60debf22ce66ec0d4f2817",
     "5cd0fecce9d05e57ba125812b4585675",
@@ -799,10 +798,10 @@
     "1e5761bf5feb79f5dc8527e1c768284b",
     "60da5bf5c3e92521b052706ed7444679",
     "5c4700c3a2c0aa6ecc4e38073e268856",
-    "75ca6317b21e8b5b5fd4bd178096e2f1"
+    "75ca6317b21e8b5b5fd4bd178096e2f1",
+    "945d4f63998f0dfceb409c340df7d2d0"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1602,7 +1602,8 @@
     "https://kenyans.co.ke/news/129113-world-bank-flags-corruption-key-barrier-kenyas-economic-growth",
     "https://kenyans.co.ke/news/129115-mps-demand-clear-rules-how-schools-should-punish-unruly-students",
     "https://kenyans.co.ke/news/129119-schools-open-january-4-education-ministry-releases-2027-school-calendar",
-    "https://kenyans.co.ke/news/129124-bolt-ranks-eighth-kenyas-2026-top-30-superbrands"
+    "https://kenyans.co.ke/news/129124-bolt-ranks-eighth-kenyas-2026-top-30-superbrands",
+    "https://kenyans.co.ke/news/129121-world-bank-flags-housing-levy-multiple-taxes-burdens-kenyan-businesses"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2295,7 +2296,8 @@
     "governance tax borrowing penalties threaten upgraded growth engine",
     "basic education bill codifies penalties staff but leaves student discipline secondary rules",
     "2027 academic roadmap locks final national exam cycle",
-    "inside bolt superbrands entry high distinction ratings contrast reliability gap"
+    "inside bolt superbrands entry high distinction ratings contrast reliability gap",
+    "discretionary touchpoints fuel bribery risk tax system world bank warns"
   ],
   "topic_keys": [
     "news tracker",
@@ -7803,6 +7805,15 @@
       "structure": "Evaluation metric lead -> Factual survey standings and score breakdown -> Structural comparison with traditional legacy brands -> Commercial weight of Superbrands accreditation -> Executive response and platform reliability challenge.",
       "source": "https://kenyans.co.ke/news/129124-bolt-ranks-eighth-kenyas-2026-top-30-superbrands",
       "published_at": "2026-11-04T09:00:13Z"
+    },
+    {
+      "title": "Discretionary Touchpoints Fuel Bribery Risk in Kenya's Tax System, World Bank Warns",
+      "angle": "Framing the report around the mechanism of official administrative discretion\u2014how multiplying separate statutory charges creates discretionary human touchpoints that foster bribery without delivering on baseline GDP revenue targets.",
+      "angle_type": "administrative friction",
+      "opening": "Administrative-risk lead examining how the multiplication of statutory charges creates touchpoints for official discretion and rent-seeking.",
+      "structure": "Discretionary touchpoint lead -> Core fiscal performance figures (12.8% vs 13.3% GDP) -> Analysis of levy proliferation vs VAT shortfall mechanics -> Specific World Bank digital administrative recommendations -> Policy dilemma forward look.",
+      "source": "https://kenyans.co.ke/news/129121-world-bank-flags-housing-levy-multiple-taxes-burdens-kenyan-businesses",
+      "published_at": "2026-11-04T09:06:30Z"
     }
   ]
 }
