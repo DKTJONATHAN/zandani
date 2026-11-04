@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "8a55ccb9b6330920b1ce3a1e6bae8406",
     "299a330414bc8f22b27e2df7c67781f9",
     "a5eb3dc7ca252541b0cbb5c77a9263f3",
     "dac5501c12f11897e766501109396e17",
@@ -799,10 +798,10 @@
     "945d4f63998f0dfceb409c340df7d2d0",
     "9646b17fb3e2f43addbf44ef03456a78",
     "166d36bbbeb1a3d5d3099a7cfda74fdb",
-    "dfe1843419ef4dbae6e6c097c0f2a0d0"
+    "dfe1843419ef4dbae6e6c097c0f2a0d0",
+    "d6c1cc2920b45b0eb42c1e2bee9f7bda"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Desk Take",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1606,7 +1606,8 @@
     "https://kenyans.co.ke/news/129121-world-bank-flags-housing-levy-multiple-taxes-burdens-kenyan-businesses",
     "https://kenyans.co.ke/news/129125-mps-consider-reserving-70-ambassador-jobs-career-diplomats",
     "https://kenyans.co.ke/news/129128-3-candidates-die-during-2026-kcse-exams-cs-ogamba-confirms",
-    "https://kenyans.co.ke/news/129131-uasu-warns-govt-over-ksh20-billion-lecturers-cba-deal"
+    "https://kenyans.co.ke/news/129131-uasu-warns-govt-over-ksh20-billion-lecturers-cba-deal",
+    "https://kenyans.co.ke/news/129136-veteran-sports-journalist-jack-kwemba-dies-tragic-siaya-motorbike-accident"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2303,7 +2304,8 @@
     "discretionary touchpoints fuel bribery risk tax system world bank warns",
     "diplomatic lobbies push hard quotas mps draft foreign service entry rules",
     "security scramble deepens kcse exams face absenteeism border crossfire",
-    "uasu rejects student fee formula lecturer pay ksh20b deal hits parliament"
+    "uasu rejects student fee formula lecturer pay ksh20b deal hits parliament",
+    "jack kwemba death siaya marks another field loss veteran newsrooms"
   ],
   "topic_keys": [
     "news tracker",
@@ -7847,6 +7849,15 @@
       "structure": "Policy lead -> Parliamentary committee session details -> Breakdown of the Ksh20B CBA tranches and salary terms -> Operational analysis of higher education funding mechanics -> Next fiscal allocation milestone.",
       "source": "https://kenyans.co.ke/news/129131-uasu-warns-govt-over-ksh20-billion-lecturers-cba-deal",
       "published_at": "2026-11-04T12:02:10Z"
+    },
+    {
+      "title": "Jack Kwemba\u2019s Death in Siaya Marks Another Field Loss for Kenya\u2019s Veteran Newsrooms",
+      "angle": "Tracing Kwemba's extensive career footprint across four major Kenyan print mastheads while highlighting the operational and field hazards facing veteran journalists operating outside major metropolitan bureaus.",
+      "angle_type": "institutional footprint",
+      "opening": "Career-footprint lead connecting Kwemba's journey across major print titles to the realities of county reporting.",
+      "structure": "Print legacy lead -> Accident facts in Siaya -> Newsroom footprint & industry tributes -> Comparative field hazard analysis citing Kitavi Mutua's death -> Forward look on burial planning.",
+      "source": "https://kenyans.co.ke/news/129136-veteran-sports-journalist-jack-kwemba-dies-tragic-siaya-motorbike-accident",
+      "published_at": "2026-11-04T13:02:32Z"
     }
   ]
 }
