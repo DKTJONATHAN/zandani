@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T20:18:33.298Z",
+  "updated": "2026-11-04T16:54:02.498Z",
   "subscriptions": [
     {
       "endpoint": "https://fcm.googleapis.com/fcm/send/eL0pGFjuPx4:APA91bGVVIzzrHsRAuCqNJmm2aGnLOPvZPS8aIlOBOd_xcTTVtgsX9vwYXfwljc-K680dMTi0GRHx4JqmAw1y3zqbmzxAytq3Gf2qbrnsEYWRtfj-HTyYZXA_5ZtoxIUemUklnP89Vbl",
@@ -78,7 +78,7 @@
         "auth": "VCRvxYTqN8iu6pxOp1Eagw"
       },
       "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/30.0 Chrome/143.0.0.0 Mobile Safari/537.36",
-      "updatedAt": "2026-11-03T20:18:32.973Z",
+      "updatedAt": "2026-11-04T16:54:01.932Z",
       "createdAt": "2026-11-03T20:18:33.298Z"
     }
   ]
