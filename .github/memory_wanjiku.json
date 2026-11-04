@@ -365,7 +365,8 @@
     "dc9467423e41a0e7b0f4b26c461f2cf82fc565b558c65bca09f23931bbe92bcf",
     "f072a9c6e957f67ee3059e8c089c8940dd01514d8c4dca53ddc3f58cec09bfb8",
     "80a177081c14f985c64bf66ede53cafb75eee8cb66c39751de206e400afe5ea7",
-    "42e2f10ff44ed103ad17b1a36f160ceba409d9d8d73eb9b4ac9141ec7efb4a36"
+    "42e2f10ff44ed103ad17b1a36f160ceba409d9d8d73eb9b4ac9141ec7efb4a36",
+    "8d458baf93f4f902a5075553f4a651c9082b366b7e5ebaf2de27ba146eb58bb0"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -733,17 +734,10 @@
     "https://www.ghafla.co.ke/government-to-expand-grassroots-administration-with-new-recruitment-drive/",
     "https://www.ghafla.co.ke/kabi-wa-jesus-shows-off-progress-of-new-family-home-opens-up-on-construction-struggles/",
     "https://www.ghafla.co.ke/president-ruto-directs-local-leather-industry-to-supply-learners-with-free-shoes/",
-    "https://www.ghafla.co.ke/are-you-ready-winnie-odinga-teases-major-announcement-ahead-of-2027-nairobi-senate-bid/"
+    "https://www.ghafla.co.ke/are-you-ready-winnie-odinga-teases-major-announcement-ahead-of-2027-nairobi-senate-bid/",
+    "https://www.ghafla.co.ke/millie-odhiambo-praises-ruto-for-promoting-equal-development-across-kenya/"
   ],
   "published_angles": [
-    {
-      "title": "Nairobi to Mombasa: Kamene Goro Lays Bare the Dual-City Routine Behind Her Marriage to DJ Bonez",
-      "angle": "Reframing the revelation around the practical reality of an inter-city commuter marriage\u2014highlighting how 500 kilometers between Nairobi studios and coastal entertainment decks serves career demands rather than marital distress.",
-      "angle_type": "inter-city commuter marriage logistics and career autonomy",
-      "opening": "Personality lead opening directly on Kamene Goro outlining the geographical boundaries of her marriage across the Nairobi-Mombasa corridor.",
-      "structure": "Inter-city career reality lead -> Milele FM phone interview verification -> Dissecting the co-habitation assumption versus professional geography -> Bonez's public track record and commitment -> Firm boundary closing on marital status.",
-      "source": "https://www.ghafla.co.ke/kamene-explains-why-she-doesnt-live-with-dj-bonez/"
-    },
     {
       "title": "Kenya Power Schedules Friday Grid Shutdown Across Pangani Transit Corridor and Meru Coffee Hubs",
       "angle": "Examining the operational exposure of contrasting economic nodes\u2014from Pangani's commercial and transit corridors to Meru's coffee processing plants and educational centers\u2014during a scheduled Friday maintenance run.",
@@ -1535,6 +1529,14 @@
       "opening": "Personality lead focusing on the digital polling metrics and the specific social media teaser question.",
       "structure": "Instagram poll results hook -> 'Linda Mwananchi' movement metrics -> Nairobi Senate declaration context following the October memorial -> Edwin Sifuna transition factor -> Concrete closing on campaign platform rollout.",
       "source": "https://www.ghafla.co.ke/are-you-ready-winnie-odinga-teases-major-announcement-ahead-of-2027-nairobi-senate-bid/"
+    },
+    {
+      "title": "Millie Odhiambo Backs Ruto\u2019s \u2018Usawa ni Sawa\u2019 Pitch in Push for Regional Equity",
+      "angle": "Examining the specific rhetorical shift and framing of Odhiambo aligning with the Executive's decentralized resource distribution platform ('Usawa ni Sawa'), separating her explicit endorsement from standard political cross-aisle rhetoric.",
+      "angle_type": "political rhetoric and ideological alignment",
+      "opening": "Personality lead focusing directly on Millie Odhiambo stepping into the spotlight with a distinct policy endorsement.",
+      "structure": "Personality lead hook -> Breakdown of the 'Usawa ni Sawa' framework and cited infrastructure investments -> Context of regional balance in Kenyan politics -> Concrete closing on the broader debate over equitable resource distribution.",
+      "source": "https://www.ghafla.co.ke/millie-odhiambo-praises-ruto-for-promoting-equal-development-across-kenya/"
     }
   ],
   "style_history": [
