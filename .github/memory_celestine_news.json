@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "8faee3817c8e3eebcd320fb771bf3bf0",
     "756743218d98d27dda73004f1752d4f7",
     "97c3748db3bbdc1eb49b602348105f8a",
     "3e3c81781e9185c542cc178a71533240",
@@ -799,10 +798,10 @@
     "2117926c2f6240d607e54bb7d0b282a2",
     "6d0845417cf963b15c875c4071de8a35",
     "e34169aa3c4ace51aa053f95588f7ef8",
-    "71a3734a61879ffbafad28fe818eda6c"
+    "71a3734a61879ffbafad28fe818eda6c",
+    "1e5761bf5feb79f5dc8527e1c768284b"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1598,7 +1598,8 @@
     "https://kenyans.co.ke/news/129106-govt-considers-new-road-maintenance-tax-electric-vehicles-gain-popularity",
     "https://kenyans.co.ke/news/129101-gachagua-hits-back-opposition-leaders-over-bullying-claims",
     "https://kenyans.co.ke/news/129107-kpc-foils-attempted-fuel-theft-through-illegal-pipeline-connection-mombasa",
-    "https://kenyans.co.ke/news/129109-sakaja-reveals-ruto-raila-were-involved-earlier-talks-over-his-odm-move"
+    "https://kenyans.co.ke/news/129109-sakaja-reveals-ruto-raila-were-involved-earlier-talks-over-his-odm-move",
+    "https://kenyans.co.ke/news/129113-world-bank-flags-corruption-key-barrier-kenyas-economic-growth"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2287,7 +2288,8 @@
     "000 electric vehicles expose fuel tax gap contractor bills near ksh100b",
     "gachagua draws battle lines november flagbearer deadline united opposition",
     "mombasa pipeline tap uncovered high fuel prices test infrastructure security",
-    "sakaja odm shift exposes long running cross party management nairobi"
+    "sakaja odm shift exposes long running cross party management nairobi",
+    "governance tax borrowing penalties threaten upgraded growth engine"
   ],
   "topic_keys": [
     "news tracker",
@@ -7759,6 +7761,15 @@
       "structure": "Lead on structural cross-party management -> Detailed breakdown of the Ruto-Raila agreement timeline -> Mechanics of internal ODM election execution -> Contextual progression from August to November 2026 -> Forward look on Nairobi county governance dynamics.",
       "source": "https://kenyans.co.ke/news/129109-sakaja-reveals-ruto-raila-were-involved-earlier-talks-over-his-odm-move",
       "published_at": "2026-11-04T05:02:12Z"
+    },
+    {
+      "title": "The Governance Tax: How Borrowing Penalties Threaten Kenya\u2019s Upgraded Growth Engine",
+      "angle": "Framing the report around the exact mechanism of the 'governance premium'\u2014how corruption converts directly into higher sovereign interest rates and fiscal deficits, counterbalancing short-term growth upgrades.",
+      "angle_type": "fiscal dilemma",
+      "opening": "Sovereign-borrowing lead connecting institutional corruption directly to state debt pricing and fiscal deficit gaps.",
+      "structure": "Debt-pricing lead -> GDP growth upgrade vs leakage facts -> Long-term reform scenario modeling -> 2027 electoral spending risks -> Status of digital procurement and legislation.",
+      "source": "https://kenyans.co.ke/news/129113-world-bank-flags-corruption-key-barrier-kenyas-economic-growth",
+      "published_at": "2026-11-04T06:02:01Z"
     }
   ]
 }
