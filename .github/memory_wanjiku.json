@@ -356,7 +356,8 @@
     "528bd1190f67ed0dc071fec776c18346505fe530249f40f00d4d561c6dc49b6f",
     "ccd183c3af095f1025a5f221f44802362013f1f75270d9e1ab6204b181a14d91",
     "341af75f0e14132450ee5a3302d35b0fbcc4088d040d6a3be2ca3491745add9c",
-    "be9b751c95b2cfa9b9c18ad7c9a3c2c14db66c1aba923120cc8c335b4a8bb248"
+    "be9b751c95b2cfa9b9c18ad7c9a3c2c14db66c1aba923120cc8c335b4a8bb248",
+    "813614066641a6750cdc9f3a0fa9193e0720023fb3a289a9c79157347c2ecfbf"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -715,17 +716,10 @@
     "https://www.ghafla.co.ke/identities-of-nine-victims-killed-in-florida-learjet-crash-revealed/",
     "https://www.ghafla.co.ke/terence-creative-resigns-as-dccak-secretary-general-months-after-suspension/",
     "https://www.ghafla.co.ke/geoffrey-mosiria-criticizes-sakajas-claim-that-raila-urged-him-to-join-odm/",
-    "https://www.ghafla.co.ke/betty-bayos-daughter-sky-victor-explains-why-she-is-not-interested-in-dating/"
+    "https://www.ghafla.co.ke/betty-bayos-daughter-sky-victor-explains-why-she-is-not-interested-in-dating/",
+    "https://www.ghafla.co.ke/ned-nwoko-breaks-silence-on-regina-daniels-death-rumours-threatens-legal-action-against-bloggers/"
   ],
   "published_angles": [
-    {
-      "title": "William Ruto Slams \u2018Wantam\u2019 and \u2018Must Go\u2019 Chants as Street-Level Slogans Void of Policy",
-      "angle": "Focusing on the linguistic dismissal of viral street slogans like 'Wantam' and how political branding shapes the 2027 cultural-political lexicon.",
-      "angle_type": "cultural-political lexicon and slogan critique",
-      "opening": "Personality lead focusing squarely on President William Ruto stepping into the cultural-political fray to dismantle viral street slogans.",
-      "structure": "Personality headline hook -> The specific dismissal of 'Wantam' and 'must go' -> The regional balkanization and ethnic division claims -> The 2027 political positioning context -> Concrete close on the ongoing cycle.",
-      "source": "https://www.ghafla.co.ke/ruto-hits-out-at-opponents-over-wantam-slogans-accuses-them-of-promoting-division/"
-    },
     {
       "title": "William Ruto Puts Personal Guarantee on KSh 1.5B Baringo Health Ledger as 410,000 Enter SHA Fold",
       "angle": "Framing the moment around Ruto stepping up on the Kabarnet stage to put his personal credibility behind the contentious healthcare transition, directly addressing local anxieties about missing funds with an explicit personal guarantee while drawing a class contrast between the old NHIF and grassroots SHA enrollment.",
@@ -1517,6 +1511,14 @@
       "opening": "Personality lead opening directly on Sky Victor applying her late mother's relationship advice as a strict boundary.",
       "structure": "Personality lead hook -> Specific quote on maternal rule -> June 2026 dating moratorium timeline -> Content creation focus -> Concrete close on operational boundary",
       "source": "https://www.ghafla.co.ke/betty-bayos-daughter-sky-victor-explains-why-she-is-not-interested-in-dating/"
+    },
+    {
+      "title": "Ned Nwoko Moves From Online Pleas to Legal Paper Trail Over Regina Daniels Death Hoaxes",
+      "angle": "The operational shift from online pleas to institutional documentation and legal paper trails, focusing on Nwoko's move to log and target digital publishers for litigation.",
+      "angle_type": "legal accountability and digital publisher liability",
+      "opening": "Personality-led focus on Prince Ned Nwoko drawing a definitive legal boundary against digital content creators.",
+      "structure": "Personality hook on legal threat -> Breakdown of the documented publications and liability warning -> Health and marital context behind the October 25th birthday video -> Concrete closing on the ongoing documentation process.",
+      "source": "https://www.ghafla.co.ke/ned-nwoko-breaks-silence-on-regina-daniels-death-rumours-threatens-legal-action-against-bloggers/"
     }
   ],
   "style_history": [
