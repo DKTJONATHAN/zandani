@@ -357,7 +357,8 @@
     "ccd183c3af095f1025a5f221f44802362013f1f75270d9e1ab6204b181a14d91",
     "341af75f0e14132450ee5a3302d35b0fbcc4088d040d6a3be2ca3491745add9c",
     "be9b751c95b2cfa9b9c18ad7c9a3c2c14db66c1aba923120cc8c335b4a8bb248",
-    "813614066641a6750cdc9f3a0fa9193e0720023fb3a289a9c79157347c2ecfbf"
+    "813614066641a6750cdc9f3a0fa9193e0720023fb3a289a9c79157347c2ecfbf",
+    "9fa3cc584dbbc4e63753597757ecb84f2902fda8701956a397f71481c2e8e21b"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -717,17 +718,10 @@
     "https://www.ghafla.co.ke/terence-creative-resigns-as-dccak-secretary-general-months-after-suspension/",
     "https://www.ghafla.co.ke/geoffrey-mosiria-criticizes-sakajas-claim-that-raila-urged-him-to-join-odm/",
     "https://www.ghafla.co.ke/betty-bayos-daughter-sky-victor-explains-why-she-is-not-interested-in-dating/",
-    "https://www.ghafla.co.ke/ned-nwoko-breaks-silence-on-regina-daniels-death-rumours-threatens-legal-action-against-bloggers/"
+    "https://www.ghafla.co.ke/ned-nwoko-breaks-silence-on-regina-daniels-death-rumours-threatens-legal-action-against-bloggers/",
+    "https://www.ghafla.co.ke/kenya-power-announces-wednesday-outages-in-parts-of-nairobi-and-kwale/"
   ],
   "published_angles": [
-    {
-      "title": "William Ruto Puts Personal Guarantee on KSh 1.5B Baringo Health Ledger as 410,000 Enter SHA Fold",
-      "angle": "Framing the moment around Ruto stepping up on the Kabarnet stage to put his personal credibility behind the contentious healthcare transition, directly addressing local anxieties about missing funds with an explicit personal guarantee while drawing a class contrast between the old NHIF and grassroots SHA enrollment.",
-      "angle_type": "political personality accountability and resource pledge",
-      "opening": "Personality lead opening squarely on President William Ruto taking the Kabarnet stage to place his personal word between suspicious grassroots scrutiny and the reality of county hospital cash flows.",
-      "structure": "Personality platform hook -> The specific Kabarnet security guarantee and KSh 1.5B direct ledger -> The class contrast: NHIF elite legacy vs Article 43 SHA reality -> Decentralization push to end long-distance medical runs -> Local SHA sign-up push close",
-      "source": "https://www.ghafla.co.ke/president-ruto-commits-ksh-1-5-billion-to-upgrade-baringo-healthcare-as-410000-residents-register-under-sha/"
-    },
     {
       "title": "Ferdinand Waititu and Wife Susan Wangari Land Back in Custody Crosshairs as High Court Reverses Laundering Win",
       "angle": "Framing the ruling around the shared courtroom fate of Ferdinand Waititu and his wife Susan Wangari\u2014spotlighting how her overturned acquittal pulls the couple back into the Chief Magistrate's sentencing dock together just as Waititu's bail is abruptly terminated.",
@@ -1519,6 +1513,14 @@
       "opening": "Personality-led focus on Prince Ned Nwoko drawing a definitive legal boundary against digital content creators.",
       "structure": "Personality hook on legal threat -> Breakdown of the documented publications and liability warning -> Health and marital context behind the October 25th birthday video -> Concrete closing on the ongoing documentation process.",
       "source": "https://www.ghafla.co.ke/ned-nwoko-breaks-silence-on-regina-daniels-death-rumours-threatens-legal-action-against-bloggers/"
+    },
+    {
+      "title": "St. Lucy Kiriri University and Kwale Industrial Belt Set for Kenya Power Maintenance Outages",
+      "angle": "Mapping the micro-economic and institutional footprint affected by the scheduled outages, contrasting the academic and residential enclave around St. Lucy Kiriri University in Nairobi with the energy and manufacturing corridor of Petrocity Bonje in Kwale.",
+      "angle_type": "institutional footprint and commercial corridor disruption",
+      "opening": "Campus and commercial anchor lead focusing directly on St. Lucy Kiriri University and the Bonje industrial stretch.",
+      "structure": "Institutional lead -> Mwihoko academic and residential pocket breakdown -> Kwale energy and manufacturing stretch breakdown -> Maintenance timetable context and concrete close.",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-wednesday-outages-in-parts-of-nairobi-and-kwale/"
     }
   ],
   "style_history": [
