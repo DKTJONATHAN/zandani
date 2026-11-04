@@ -136,7 +136,8 @@
     "e461f83cde0bc8588513054a15be30334259c0a1a97a606c86965e8ec84fc5fa",
     "e48075d3bee60ca612902c48d92c55d012c085715f49300ce3b6d16c2a666e0f",
     "eeb18362a7774b55fea38b27a98b47f04a6859edb8cc21cc6dfb19e96e0c4cc3",
-    "45844febbc655ccecaaaf8d853f79ebd2497ebec1e28199bd6a6de5c7af132b0"
+    "45844febbc655ccecaaaf8d853f79ebd2497ebec1e28199bd6a6de5c7af132b0",
+    "8dfb0d5797ab343572a882e1a42862b3bb453845fdc0ce7476b2e7048a54143a"
   ],
   "style_history": [
     "Event Report",
@@ -379,6 +380,10 @@
     {
       "key": "2026-11-03-sky-victor-explains-why-she-is-single-and-refuses-to-date-until-she-turns-20",
       "ts": "2026-11-04T03:25:59.277710+00:00"
+    },
+    {
+      "key": "2026-11-03-dk-kwenye-beat-joins-massawe-japanni-and-muthoni-in-chopping-off-locs",
+      "ts": "2026-11-04T05:23:42.336854+00:00"
     }
   ],
   "urls": [
@@ -419,7 +424,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-03-khaligraph-jones-boutross-and-maandy-thrill-fans-at-chrome-city-xo-tour-in-chuka",
     "https://www.mpasho.co.ke/entertainment/2026-11-03-from-scale-to-category-authority-how-tcl-is-driving-the-evolution-of-mini-led-tvs",
     "https://www.mpasho.co.ke/entertainment/2026-11-03-dccak-clarifies-terence-creatives-resignation",
-    "https://www.mpasho.co.ke/entertainment/2026-11-03-sky-victor-explains-why-she-is-single-and-refuses-to-date-until-she-turns-20"
+    "https://www.mpasho.co.ke/entertainment/2026-11-03-sky-victor-explains-why-she-is-single-and-refuses-to-date-until-she-turns-20",
+    "https://www.mpasho.co.ke/entertainment/2026-11-03-dk-kwenye-beat-joins-massawe-japanni-and-muthoni-in-chopping-off-locs"
   ],
   "published_angles": [
     {
@@ -717,6 +723,14 @@
       "opening": "Personality lead opening directly on Sky Victor enforcing a strict personal boundary based on her late mother's relationship advice.",
       "structure": "Personality hook -> Maternal counsel breakdown and quotes -> June 2026 milestone declaration -> Career focus over romantic distractions -> Forward status close",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-03-sky-victor-explains-why-she-is-single-and-refuses-to-date-until-she-turns-20"
+    },
+    {
+      "title": "DK Kwenye Beat, Massawe Japanni and Muthoni wa Kirumba Drop Decades of Locs in One Week",
+      "angle": "Examining the specific temporal milestone maths and institutional brand positioning behind these three distinct media personalities dropping decades of signature locs in a single week.",
+      "angle_type": "temporal milestone and brand identity reset",
+      "opening": "Personality lead focusing directly on DK Kwenye Beat shedding his 15-year signature aesthetic.",
+      "structure": "Personality lead -> Chronological breakdown of the three transformations -> Broadcast history and institutional context -> Close on the exact dates and public reception.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-03-dk-kwenye-beat-joins-massawe-japanni-and-muthoni-in-chopping-off-locs"
     }
   ]
 }
