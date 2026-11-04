@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "6c8e1d025b60debf22ce66ec0d4f2817",
     "5cd0fecce9d05e57ba125812b4585675",
     "8a55ccb9b6330920b1ce3a1e6bae8406",
     "299a330414bc8f22b27e2df7c67781f9",
@@ -799,10 +798,10 @@
     "5c4700c3a2c0aa6ecc4e38073e268856",
     "75ca6317b21e8b5b5fd4bd178096e2f1",
     "945d4f63998f0dfceb409c340df7d2d0",
-    "9646b17fb3e2f43addbf44ef03456a78"
+    "9646b17fb3e2f43addbf44ef03456a78",
+    "166d36bbbeb1a3d5d3099a7cfda74fdb"
   ],
   "style_history": [
-    "Statement Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1604,7 +1604,8 @@
     "https://kenyans.co.ke/news/129119-schools-open-january-4-education-ministry-releases-2027-school-calendar",
     "https://kenyans.co.ke/news/129124-bolt-ranks-eighth-kenyas-2026-top-30-superbrands",
     "https://kenyans.co.ke/news/129121-world-bank-flags-housing-levy-multiple-taxes-burdens-kenyan-businesses",
-    "https://kenyans.co.ke/news/129125-mps-consider-reserving-70-ambassador-jobs-career-diplomats"
+    "https://kenyans.co.ke/news/129125-mps-consider-reserving-70-ambassador-jobs-career-diplomats",
+    "https://kenyans.co.ke/news/129128-3-candidates-die-during-2026-kcse-exams-cs-ogamba-confirms"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2299,7 +2300,8 @@
     "2027 academic roadmap locks final national exam cycle",
     "inside bolt superbrands entry high distinction ratings contrast reliability gap",
     "discretionary touchpoints fuel bribery risk tax system world bank warns",
-    "diplomatic lobbies push hard quotas mps draft foreign service entry rules"
+    "diplomatic lobbies push hard quotas mps draft foreign service entry rules",
+    "security scramble deepens kcse exams face absenteeism border crossfire"
   ],
   "topic_keys": [
     "news tracker",
@@ -7825,6 +7827,15 @@
       "structure": "Legislative quota lead -> Core provisions of the 2026 Amendment Bill -> Stakeholder pushback on vague language -> Experience calculation and rank threshold debates -> Committee next steps.",
       "source": "https://kenyans.co.ke/news/129125-mps-consider-reserving-70-ambassador-jobs-career-diplomats",
       "published_at": "2026-11-04T10:02:36Z"
+    },
+    {
+      "title": "Security Scramble Deepens as KCSE Exams Face Absenteeism, Border Crossfire",
+      "angle": "The multi-agency enforcement scramble triggered by localized administrative crises (absenteeism in Nairobi and armed border crossfire in Moyale) that force local security networks into examination supervision.",
+      "angle_type": "institutional pressure",
+      "opening": "Institutional-pressure lead focusing on the operational shift where localized security crises compel administrative tracking networks to step in during national exams.",
+      "structure": "Security-pressure lead -> Regional crisis points (Moyale crossfire and Nairobi absenteeism) -> Administrative accountability and exam chain warnings -> Factual context of candidate casualties -> Forward look on calendar adjustments.",
+      "source": "https://kenyans.co.ke/news/129128-3-candidates-die-during-2026-kcse-exams-cs-ogamba-confirms",
+      "published_at": "2026-11-04T11:02:04Z"
     }
   ]
 }
