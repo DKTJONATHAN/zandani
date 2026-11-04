@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "299a330414bc8f22b27e2df7c67781f9",
     "a5eb3dc7ca252541b0cbb5c77a9263f3",
     "dac5501c12f11897e766501109396e17",
     "c6d8ff7808c238e3dd0bde3f1f32eb20",
@@ -799,10 +798,10 @@
     "9646b17fb3e2f43addbf44ef03456a78",
     "166d36bbbeb1a3d5d3099a7cfda74fdb",
     "dfe1843419ef4dbae6e6c097c0f2a0d0",
-    "d6c1cc2920b45b0eb42c1e2bee9f7bda"
+    "d6c1cc2920b45b0eb42c1e2bee9f7bda",
+    "5369291f5bf3857cef5b8881980ffc68"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1607,7 +1607,8 @@
     "https://kenyans.co.ke/news/129125-mps-consider-reserving-70-ambassador-jobs-career-diplomats",
     "https://kenyans.co.ke/news/129128-3-candidates-die-during-2026-kcse-exams-cs-ogamba-confirms",
     "https://kenyans.co.ke/news/129131-uasu-warns-govt-over-ksh20-billion-lecturers-cba-deal",
-    "https://kenyans.co.ke/news/129136-veteran-sports-journalist-jack-kwemba-dies-tragic-siaya-motorbike-accident"
+    "https://kenyans.co.ke/news/129136-veteran-sports-journalist-jack-kwemba-dies-tragic-siaya-motorbike-accident",
+    "https://kenyans.co.ke/news/129134-ruto-says-govt-speeding-dualling-nairobi-mombasa-highway"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2305,7 +2306,8 @@
     "diplomatic lobbies push hard quotas mps draft foreign service entry rules",
     "security scramble deepens kcse exams face absenteeism border crossfire",
     "uasu rejects student fee formula lecturer pay ksh20b deal hits parliament",
-    "jack kwemba death siaya marks another field loss veteran newsrooms"
+    "jack kwemba death siaya marks another field loss veteran newsrooms",
+    "highway safety crises force acceleration nairobi mombasa dualling talks"
   ],
   "topic_keys": [
     "news tracker",
@@ -7858,6 +7860,15 @@
       "structure": "Print legacy lead -> Accident facts in Siaya -> Newsroom footprint & industry tributes -> Comparative field hazard analysis citing Kitavi Mutua's death -> Forward look on burial planning.",
       "source": "https://kenyans.co.ke/news/129136-veteran-sports-journalist-jack-kwemba-dies-tragic-siaya-motorbike-accident",
       "published_at": "2026-11-04T13:02:32Z"
+    },
+    {
+      "title": "Highway Safety Crises Force Acceleration of Nairobi-Mombasa Dualling Talks",
+      "angle": "The reactive pressure from tragic road deaths and regional leadership demands (such as Makueni's Salama crash and Motorists Association pressure) forcing an acceleration of financing talks that had previously lingered in treasury assessments.",
+      "angle_type": "accountability",
+      "opening": "Accountability-driven lead focusing on the collision between mounting fatal highway crashes and government financing announcements.",
+      "structure": "Crisis-pressure lead -> Safety tragedies driving the agenda -> Financing and institutional mechanics -> Regional economic justification -> Unresolved project timeline outlook",
+      "source": "https://kenyans.co.ke/news/129134-ruto-says-govt-speeding-dualling-nairobi-mombasa-highway",
+      "published_at": "2026-11-04T14:02:11Z"
     }
   ]
 }
