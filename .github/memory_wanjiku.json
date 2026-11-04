@@ -358,7 +358,8 @@
     "341af75f0e14132450ee5a3302d35b0fbcc4088d040d6a3be2ca3491745add9c",
     "be9b751c95b2cfa9b9c18ad7c9a3c2c14db66c1aba923120cc8c335b4a8bb248",
     "813614066641a6750cdc9f3a0fa9193e0720023fb3a289a9c79157347c2ecfbf",
-    "9fa3cc584dbbc4e63753597757ecb84f2902fda8701956a397f71481c2e8e21b"
+    "9fa3cc584dbbc4e63753597757ecb84f2902fda8701956a397f71481c2e8e21b",
+    "5b98229a7375a6ba3d4426f293edbbb45ae56472c2832f9935e7f4fed0fa1d52"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -719,17 +720,10 @@
     "https://www.ghafla.co.ke/geoffrey-mosiria-criticizes-sakajas-claim-that-raila-urged-him-to-join-odm/",
     "https://www.ghafla.co.ke/betty-bayos-daughter-sky-victor-explains-why-she-is-not-interested-in-dating/",
     "https://www.ghafla.co.ke/ned-nwoko-breaks-silence-on-regina-daniels-death-rumours-threatens-legal-action-against-bloggers/",
-    "https://www.ghafla.co.ke/kenya-power-announces-wednesday-outages-in-parts-of-nairobi-and-kwale/"
+    "https://www.ghafla.co.ke/kenya-power-announces-wednesday-outages-in-parts-of-nairobi-and-kwale/",
+    "https://www.ghafla.co.ke/autopsy-reveals-how-regina-res-mother-dorita-macharia-died/"
   ],
   "published_angles": [
-    {
-      "title": "Ferdinand Waititu and Wife Susan Wangari Land Back in Custody Crosshairs as High Court Reverses Laundering Win",
-      "angle": "Framing the ruling around the shared courtroom fate of Ferdinand Waititu and his wife Susan Wangari\u2014spotlighting how her overturned acquittal pulls the couple back into the Chief Magistrate's sentencing dock together just as Waititu's bail is abruptly terminated.",
-      "angle_type": "high-profile couple legal reversal and custody reality",
-      "opening": "Personality lead focusing directly on Ferdinand Waititu and his wife Susan Wangari facing a joint sentencing dock as their legal defenses crumble simultaneously.",
-      "structure": "Personality hook on the couple's reversal -> The money laundering conviction against Susan Wangari and Waititu -> Cancellation of bail terms and immediate custody order -> The KSh 588.7M road tender and 12-year term details -> The 10-year public office ban and pending mitigation proceedings.",
-      "source": "https://www.ghafla.co.ke/waititus-12-year-jail-term-upheld-as-high-court-convicts-him-and-wife-of-money-laundering/"
-    },
     {
       "title": "Winnie Odinga Eyes Nairobi Senate Seat as Edwin Sifuna Shifts Focus to State House",
       "angle": "Reframing the declaration through Winnie's candid public maneuver of declaring Edwin Sifuna's Nairobi seat open because of his presidential ambitions under Linda Mwananchi, turning a solemn Bondo anniversary platform into an unapologetic political claim on City Hall's legislative post.",
@@ -1521,6 +1515,14 @@
       "opening": "Campus and commercial anchor lead focusing directly on St. Lucy Kiriri University and the Bonje industrial stretch.",
       "structure": "Institutional lead -> Mwihoko academic and residential pocket breakdown -> Kwale energy and manufacturing stretch breakdown -> Maintenance timetable context and concrete close.",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-wednesday-outages-in-parts-of-nairobi-and-kwale/"
+    },
+    {
+      "title": "Regina Re\u2019s Mother Suffered Severe Neck Trauma, Autopsy Reveals",
+      "angle": "Examining the specific forensic medical evidence revealed by government pathologist Dr Bernard Midia during the two-hour postmortem examination at Lee Funeral Home, moving past the initial celebrity headlines to detail the exact physical trauma documented.",
+      "angle_type": "forensic medical evidence and autopsy pathology breakdown",
+      "opening": "Personality and event-led opening focusing on Regina Re's mother, Dorita Macharia, and the specific forensic details released following the postmortem examination.",
+      "structure": "Forensic pathology hook -> Lee Funeral Home postmortem details -> Specific wound breakdown by Dr Midia -> Family and suspect legal representation presence -> Timeline of the October 30 death and subsequent court appearance of Regina Re and co-accused.",
+      "source": "https://www.ghafla.co.ke/autopsy-reveals-how-regina-res-mother-dorita-macharia-died/"
     }
   ],
   "style_history": [
