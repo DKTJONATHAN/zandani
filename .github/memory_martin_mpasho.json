@@ -141,7 +141,8 @@
     "fdb721dbfca07faaddd9c2c58cc1f7de9676eb06dc62ac6eee800d6c76192ac4",
     "c00d025dcd78c58e5327c768363db6092a1d7b41ee6442fea245f4850c4d25a0",
     "a92ba27cefb8ecb652167462d1e0e19da977d047268c01db3d33ea47cd2ff863",
-    "fec5e99e60606104e5eee8660b5ea99cdd7aa22fdb8b707e495f646647cebec0"
+    "fec5e99e60606104e5eee8660b5ea99cdd7aa22fdb8b707e495f646647cebec0",
+    "30f917c53860057308761c6f3d4fc71bd04308fcb48d353500cc8fff7f444da9"
   ],
   "style_history": [
     "Event Report",
@@ -404,6 +405,10 @@
     {
       "key": "2026-11-04-the-sweet-words-rapudo-used-to-celebrate-amber-rays-birthday",
       "ts": "2026-11-04T13:23:01.573832+00:00"
+    },
+    {
+      "key": "2026-11-04-bien-has-a-message-for-otile-brown-and-its-peace",
+      "ts": "2026-11-04T15:23:52.085472+00:00"
     }
   ],
   "urls": [
@@ -449,7 +454,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-04-rue-baby-and-crazy-kennar-win-singing-competition-in-china",
     "https://www.mpasho.co.ke/entertainment/2026-11-04-ngina-leaves-fans-stunned-with-her-cats-unusual-dinner-routine",
     "https://www.mpasho.co.ke/entertainment/2026-11-04-malu-breaks-down-in-tears-after-netizen-mocks-her-outfit",
-    "https://www.mpasho.co.ke/entertainment/2026-11-04-the-sweet-words-rapudo-used-to-celebrate-amber-rays-birthday"
+    "https://www.mpasho.co.ke/entertainment/2026-11-04-the-sweet-words-rapudo-used-to-celebrate-amber-rays-birthday",
+    "https://www.mpasho.co.ke/entertainment/2026-11-04-bien-has-a-message-for-otile-brown-and-its-peace"
   ],
   "published_angles": [
     {
@@ -787,6 +793,14 @@
       "opening": "Personality lead opening directly on Kennedy Rapudo using Amber Ray's birthday tribute to emphasize relationship longevity over past social media turbulence.",
       "structure": "Personality lead -> Verbatim tribute quotes and 'More Us' core message -> The 2020 Mountain View missed-connection origins -> August 2022 digital friction and November beach proposal -> May 2023 parenthood and four-year milestone close",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-04-the-sweet-words-rapudo-used-to-celebrate-amber-rays-birthday"
+    },
+    {
+      "title": "Bien Calls Time on Otile Brown Rivalry: 'No Need for Continued Feud'",
+      "angle": "Examining how Bien is actively redefining his public friction with contemporaries by treating past industry rivalries as professionally dead weight, rather than treating the feud as an unfolding soap opera.",
+      "angle_type": "public feud resolution and artist career repositioning",
+      "opening": "Personality lead focusing directly on Bien declaring his public rivalry with Otile Brown a closed chapter.",
+      "structure": "Personality hook -> The mechanics of Bien's interview comments and goodwill offer -> The contrast between traditional industry feuds and solo career focus -> Sauti Sol background vs Otile's romantic ballad niche -> Concrete factual close on their established individual industry paths.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-04-bien-has-a-message-for-otile-brown-and-its-peace"
     }
   ]
 }
