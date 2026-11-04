@@ -360,7 +360,8 @@
     "813614066641a6750cdc9f3a0fa9193e0720023fb3a289a9c79157347c2ecfbf",
     "9fa3cc584dbbc4e63753597757ecb84f2902fda8701956a397f71481c2e8e21b",
     "5b98229a7375a6ba3d4426f293edbbb45ae56472c2832f9935e7f4fed0fa1d52",
-    "6d87db68483e034864bb4a508b7dc2ce2d5572e705af00c9ada7a7132a22003b"
+    "6d87db68483e034864bb4a508b7dc2ce2d5572e705af00c9ada7a7132a22003b",
+    "1d2335643cc853d403f636c42701fc947dbfd3152acd6bb90126f6383aec1aef"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -723,17 +724,10 @@
     "https://www.ghafla.co.ke/ned-nwoko-breaks-silence-on-regina-daniels-death-rumours-threatens-legal-action-against-bloggers/",
     "https://www.ghafla.co.ke/kenya-power-announces-wednesday-outages-in-parts-of-nairobi-and-kwale/",
     "https://www.ghafla.co.ke/autopsy-reveals-how-regina-res-mother-dorita-macharia-died/",
-    "https://www.ghafla.co.ke/chebet-ronoh-reveals-how-she-blew-her-first-ksh1-5-million-on-alcohol-at-19/"
+    "https://www.ghafla.co.ke/chebet-ronoh-reveals-how-she-blew-her-first-ksh1-5-million-on-alcohol-at-19/",
+    "https://www.ghafla.co.ke/kinango-road-under-construction-75-per-cent-of-work-already-complete/"
   ],
   "published_angles": [
-    {
-      "title": "Dr. Oburu Oginga\u2019s Empty Chair Steals Raila Memorial as Restless Crowd Chants Down Arati\u2019s Delegated Brief",
-      "angle": "Focusing on the high-tension personal spotlight falling on Dr. Oburu Oginga's empty chair, where weeks of whispering about his hospital discharge collided head-on with an uncompromising home crowd that refused to take delegated speeches from Simba Arati at face value.",
-      "angle_type": "celebrity absence dynamic and public accountability confrontation",
-      "opening": "Personality lead opening directly on Dr. Oburu Oginga becoming the defining talking point at Migwena Grounds without stepping foot on the grass.",
-      "structure": "Personality hook on Oburu's high-stakes absence -> The verbatim crowd chants and stalled podium -> Simba Arati's vigil delegation role -> Catherine Omanyo's radio briefing on the hospital discharge -> The one-year succession milestone context",
-      "source": "https://www.ghafla.co.ke/crowd-demands-answers-over-oburu-ogingas-absence-at-raila-odingas-first-memorial/"
-    },
     {
       "title": "Rigathi Gachagua Stokes Fuel Storm as Wandayi Clashes With Lobby Over KSh 227 EPRA Shock",
       "angle": "Framing the showdown through former Deputy President Rigathi Gachagua's explosive public clash with Energy Cabinet Secretary Opiyo Wandayi over alleged 'artificially inflated fuel margins,' setting off a volatile confrontation as motorists seize on EPRA's unexplained kerosene arithmetic to threaten street action.",
@@ -1525,6 +1519,14 @@
       "opening": "Personality lead focusing directly on Chebet Ronoh's teenage financial peak and her mother's ignored advice.",
       "structure": "Financial peak hook -> Brand deal volume vs teenage reality -> Mother's rejected investment advice -> Alcohol expenditure and lack of Kenyan digital role models -> Current reflection and personal growth close.",
       "source": "https://www.ghafla.co.ke/chebet-ronoh-reveals-how-she-blew-her-first-ksh1-5-million-on-alcohol-at-19/"
+    },
+    {
+      "title": "Edwin Sifuna\u2019s Road Critique Triggers 75% Completion Defense on Kinango Corridor",
+      "angle": "Framing the project update as a direct counter-narrative against Senator Edwin Sifuna's public criticism, breaking down the specific completed sections against political claims.",
+      "angle_type": "political accountability and infrastructure reality check",
+      "opening": "Personality-led political friction lead opening on Edwin Sifuna's commentary.",
+      "structure": "Sifuna critique hook -> Detailed Samburu and Moyeni road audit -> Coast region policy context (healthcare and KSh 2,000 fertilizer) -> February 2027 project timeline close.",
+      "source": "https://www.ghafla.co.ke/kinango-road-under-construction-75-per-cent-of-work-already-complete/"
     }
   ],
   "style_history": [
