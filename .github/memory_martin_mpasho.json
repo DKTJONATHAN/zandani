@@ -135,7 +135,8 @@
     "feba65ec595ec2f5608aaffb2821908b55a57e8fa7226804ad378cc6a69037c3",
     "e461f83cde0bc8588513054a15be30334259c0a1a97a606c86965e8ec84fc5fa",
     "e48075d3bee60ca612902c48d92c55d012c085715f49300ce3b6d16c2a666e0f",
-    "eeb18362a7774b55fea38b27a98b47f04a6859edb8cc21cc6dfb19e96e0c4cc3"
+    "eeb18362a7774b55fea38b27a98b47f04a6859edb8cc21cc6dfb19e96e0c4cc3",
+    "45844febbc655ccecaaaf8d853f79ebd2497ebec1e28199bd6a6de5c7af132b0"
   ],
   "style_history": [
     "Event Report",
@@ -374,6 +375,10 @@
     {
       "key": "2026-11-03-dccak-clarifies-terence-creatives-resignation",
       "ts": "2026-11-04T01:25:21.985741+00:00"
+    },
+    {
+      "key": "2026-11-03-sky-victor-explains-why-she-is-single-and-refuses-to-date-until-she-turns-20",
+      "ts": "2026-11-04T03:25:59.277710+00:00"
     }
   ],
   "urls": [
@@ -413,7 +418,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-03-african-films-in-focus-as-alternativa-festival-opens-2027-entries-with-15-million-prize-pool",
     "https://www.mpasho.co.ke/entertainment/2026-11-03-khaligraph-jones-boutross-and-maandy-thrill-fans-at-chrome-city-xo-tour-in-chuka",
     "https://www.mpasho.co.ke/entertainment/2026-11-03-from-scale-to-category-authority-how-tcl-is-driving-the-evolution-of-mini-led-tvs",
-    "https://www.mpasho.co.ke/entertainment/2026-11-03-dccak-clarifies-terence-creatives-resignation"
+    "https://www.mpasho.co.ke/entertainment/2026-11-03-dccak-clarifies-terence-creatives-resignation",
+    "https://www.mpasho.co.ke/entertainment/2026-11-03-sky-victor-explains-why-she-is-single-and-refuses-to-date-until-she-turns-20"
   ],
   "published_angles": [
     {
@@ -703,6 +709,14 @@
       "opening": "Personality lead opening directly on Terence Creative issuing an immediate voluntary resignation notice, followed by the immediate counter-clarification from DCCAK.",
       "structure": "Personality exit announcement -> The governance reality check by DCCAK -> Administrative timeline of the May 2026 suspension and Joan Wanjiku Waweru's appointment -> Terence's career context and stated creator mentorship stance -> Concrete forward-looking close.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-03-dccak-clarifies-terence-creatives-resignation"
+    },
+    {
+      "title": "Sky Victor Sets 20-Year Dating Boundary, Cites Late Mother Betty Bayo\u2019s Warning on Distractions",
+      "angle": "Framing Sky's singlehood pledge through the lens of maternal legacy and self-regulated boundaries, highlighting how late Betty Bayo's personal advice actively shapes her digital career strategy and personal discipline amid public creator visibility.",
+      "angle_type": "maternal legacy and personal creator boundaries",
+      "opening": "Personality lead opening directly on Sky Victor enforcing a strict personal boundary based on her late mother's relationship advice.",
+      "structure": "Personality hook -> Maternal counsel breakdown and quotes -> June 2026 milestone declaration -> Career focus over romantic distractions -> Forward status close",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-03-sky-victor-explains-why-she-is-single-and-refuses-to-date-until-she-turns-20"
     }
   ]
 }
