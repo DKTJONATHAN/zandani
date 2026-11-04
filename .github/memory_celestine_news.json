@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "3e3c81781e9185c542cc178a71533240",
     "217d872c222e8c5af1e78f3f665aa7a9",
     "678b65d0cd7a12828d291b2dfecbec2c",
     "6c8e1d025b60debf22ce66ec0d4f2817",
@@ -799,10 +798,10 @@
     "71a3734a61879ffbafad28fe818eda6c",
     "1e5761bf5feb79f5dc8527e1c768284b",
     "60da5bf5c3e92521b052706ed7444679",
-    "5c4700c3a2c0aa6ecc4e38073e268856"
+    "5c4700c3a2c0aa6ecc4e38073e268856",
+    "75ca6317b21e8b5b5fd4bd178096e2f1"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1601,7 +1601,8 @@
     "https://kenyans.co.ke/news/129109-sakaja-reveals-ruto-raila-were-involved-earlier-talks-over-his-odm-move",
     "https://kenyans.co.ke/news/129113-world-bank-flags-corruption-key-barrier-kenyas-economic-growth",
     "https://kenyans.co.ke/news/129115-mps-demand-clear-rules-how-schools-should-punish-unruly-students",
-    "https://kenyans.co.ke/news/129119-schools-open-january-4-education-ministry-releases-2027-school-calendar"
+    "https://kenyans.co.ke/news/129119-schools-open-january-4-education-ministry-releases-2027-school-calendar",
+    "https://kenyans.co.ke/news/129124-bolt-ranks-eighth-kenyas-2026-top-30-superbrands"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2293,7 +2294,8 @@
     "sakaja odm shift exposes long running cross party management nairobi",
     "governance tax borrowing penalties threaten upgraded growth engine",
     "basic education bill codifies penalties staff but leaves student discipline secondary rules",
-    "2027 academic roadmap locks final national exam cycle"
+    "2027 academic roadmap locks final national exam cycle",
+    "inside bolt superbrands entry high distinction ratings contrast reliability gap"
   ],
   "topic_keys": [
     "news tracker",
@@ -7792,6 +7794,15 @@
       "structure": "Curricular transition lead -> Core opening dates and term lengths -> Examination schedule breakdown -> Multi-track assessment context -> Final timeline into full 2028 CBE operation",
       "source": "https://kenyans.co.ke/news/129119-schools-open-january-4-education-ministry-releases-2027-school-calendar",
       "published_at": "2026-11-04T08:02:30Z"
+    },
+    {
+      "title": "Inside Bolt\u2019s Superbrands Entry: High Distinction Ratings Contrast With Reliability Gap",
+      "angle": "Analyzing the specific breakdown of consumer evaluation metrics\u2014where high scores for app distinction and quality contrast with a lower reliability score\u2014reflecting the unique operational friction facing gig platforms inside an elite brand tier dominated by fixed utilities and consumer goods.",
+      "angle_type": "market evaluation",
+      "opening": "Metric-divergence lead highlighting how digital transport platforms perform across consumer quality and operational consistency indicators.",
+      "structure": "Evaluation metric lead -> Factual survey standings and score breakdown -> Structural comparison with traditional legacy brands -> Commercial weight of Superbrands accreditation -> Executive response and platform reliability challenge.",
+      "source": "https://kenyans.co.ke/news/129124-bolt-ranks-eighth-kenyas-2026-top-30-superbrands",
+      "published_at": "2026-11-04T09:00:13Z"
     }
   ]
 }
