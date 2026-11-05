@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "e6ff9ac404f211b6dbb86a928d143f09",
     "9256536dcf911231527df6be6137ab6c",
     "bfb038158760fb56919008cac69abb13",
     "702456d438109a631b2bb6d9bef1b5c5",
@@ -799,10 +798,10 @@
     "9d81024d284616bc589ca9f5d4bc7a2e",
     "0a427ba3effae22e4dc50b390b8f74bd",
     "c8bcf411ffb417298b45d9f8f3ab32e0",
-    "533b1e027e39575828663c429eb3e3a3"
+    "533b1e027e39575828663c429eb3e3a3",
+    "81c1f93f5c78bddec980f451b88909b2"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Hard News Lead",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1617,7 +1617,8 @@
     "https://kenyans.co.ke/news/129151-world-bank-ranks-mombasa-port-among-worlds-worst-performing-ports",
     "https://kenyans.co.ke/news/129153-psk-explains-risks-misusing-cetirizine-tablets-amid-viral-social-media-trend",
     "https://kenyans.co.ke/news/129156-earth-tremor-reported-nairobi-kiambu-and-kajiado-experts-confirm",
-    "https://kenyans.co.ke/news/129158-knec-announces-january-2027-assessments-teacher-trainees-who-failed-or-missed-exams"
+    "https://kenyans.co.ke/news/129158-knec-announces-january-2027-assessments-teacher-trainees-who-failed-or-missed-exams",
+    "https://kenyans.co.ke/news/129163-police-open-probe-after-attempt-steal-fuel-kpc-pipeline"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2325,7 +2326,8 @@
     "corridor inflation port friction cfs patronage drive inland freight rates",
     "cetirizine shortages hit pharmacies misuse frenzy spurs state tracking plan",
     "cross border seismic shock hits central following magnitude quake tanzania",
-    "knec sets ecitizen fee terms college consolidation rules march 2027 teacher resits"
+    "knec sets ecitizen fee terms college consolidation rules march 2027 teacher resits",
+    "high pressure pipeline breach mombasa exposes security risks along kpc fuel network"
   ],
   "topic_keys": [
     "news tracker",
@@ -7968,6 +7970,15 @@
       "structure": "Compliance framework lead -> Registration parameters and fee structure -> Institutional merger rules and administrative deadlines -> Association petition context and graduation timeline -> Ongoing online assessment status.",
       "source": "https://kenyans.co.ke/news/129158-knec-announces-january-2027-assessments-teacher-trainees-who-failed-or-missed-exams",
       "published_at": "2026-11-05T11:02:17Z"
+    },
+    {
+      "title": "High-Pressure Pipeline Breach in Mombasa Exposes Security Risks Along KPC\u2019s Fuel Network",
+      "angle": "Examine the technical sophistication and physical access vulnerabilities required to hot-tap a live high-pressure pipeline corridor, contextualized against KPC's Ksh600 million annual siphoning drain.",
+      "angle_type": "infrastructure security and operational vulnerability",
+      "opening": "Technical access and infrastructure breach lead focusing on the operational control failure required to penetrate high-pressure fuel mains.",
+      "structure": "Operational breach lead -> Technical facts of the pressure drop and discovery -> Insider inquiry & access controls -> Nationwide siphoning loss metrics (Ksh600M) & regional pattern -> Forensic next steps",
+      "source": "https://kenyans.co.ke/news/129163-police-open-probe-after-attempt-steal-fuel-kpc-pipeline",
+      "published_at": "2026-11-05T12:01:36Z"
     }
   ]
 }
