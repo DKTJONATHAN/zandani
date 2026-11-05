@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "bf3a33b8681cd8e5db2aba9fa5ef57bb",
     "407835ab70160726336b22bef9aee318",
     "a5a50dce9a7cdc2fd212f96eb7005355",
     "8a8be8328be7a344c71a448726492b77",
@@ -799,10 +798,10 @@
     "575c00756e005b598664244f9462d99f",
     "cde2905e28d42977b9f942bd11a7213a",
     "a9f3d18eaa19c627cd415b95601d1c62",
-    "349e277c10b7ecba81a0bfbaf9dcba82"
+    "349e277c10b7ecba81a0bfbaf9dcba82",
+    "84ddc0e71cfb0728266f20cdb84bb863"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1625,7 +1625,8 @@
     "https://kenyans.co.ke/news/129173-justin-muturis-convoy-attacked-during-campaign-trail-migori-county",
     "https://kenyans.co.ke/news/129174-azimio-announces-new-leadership-matiangi-and-orengo-take-council-roles",
     "https://kenyans.co.ke/news/129176-parliament-orders-probe-cracks-riruta-satellite-apartment-building",
-    "https://kenyans.co.ke/news/129175-high-court-blocks-iebc-conducting-interviews-ceo-position"
+    "https://kenyans.co.ke/news/129175-high-court-blocks-iebc-conducting-interviews-ceo-position",
+    "https://kenyans.co.ke/news/129169-kenya-tells-commonwealth-step-after-britain-rejects-slavery-reparations"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2341,7 +2342,8 @@
     "migori convoy stoning highlights rising friction nyanza campaign trail",
     "matiang orengo take council helm opposition restructure leaves gachagua out",
     "unapproved story riruta block exposes nairobi habitability enforcement gap",
-    "contrasting high court rulings freeze iebc ceo recruitment days ahead interviews"
+    "contrasting high court rulings freeze iebc ceo recruitment days ahead interviews",
+    "walls off slavery reparations battle inside commonwealth russia wades"
   ],
   "topic_keys": [
     "news tracker",
@@ -8056,6 +8058,15 @@
       "structure": "Divergent judicial rulings lead -> Details of Malindi emergency injunction -> IEBC response on citizenship vetting -> Milimani court ruling and outsourcing challenge -> Timeline impact on scheduled November interviews.",
       "source": "https://kenyans.co.ke/news/129175-high-court-blocks-iebc-conducting-interviews-ceo-position",
       "published_at": "2026-11-05T18:02:26Z"
+    },
+    {
+      "title": "Kenya Walls Off Slavery Reparations Battle Inside Commonwealth as Russia Wades In",
+      "angle": "Examining Kenya's diplomatic containment strategy\u2014how Nairobi deliberately pushed back against Russian geopolitical commentary to keep reparations talks strictly within the multilateral Commonwealth framework, insulating historical justice negotiations from broader East-West rivalry.",
+      "angle_type": "diplomatic containment and multilateral governance",
+      "opening": "Diplomatic strategy lead focusing on Nairobi's refusal to let external powers frame the Commonwealth reparations standoff.",
+      "structure": "Multilateral containment lead -> Diplomatic exchange and Russian statement facts -> Commonwealth CHOGM agreement vs UK financial veto -> AU-CARICOM institutional backdrop -> Forward outlook on structured talks timeline",
+      "source": "https://kenyans.co.ke/news/129169-kenya-tells-commonwealth-step-after-britain-rejects-slavery-reparations",
+      "published_at": "2026-11-05T19:02:10Z"
     }
   ]
 }
