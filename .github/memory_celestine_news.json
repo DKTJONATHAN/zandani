@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "d1e350b7ee5e1bb52cb405185b9c5b8e",
     "6ab57453f789a6835e3394f7aecbb8f5",
     "ff64d239607b8b3731394a13f4283739",
     "4561435313ff968e5b6a2966eb1942dd",
@@ -799,10 +798,10 @@
     "4f28766513ecd36453cd3837d50c3cee",
     "7ce359ac01aedce97a232823a355b6f4",
     "66d2ab690a8a748834eef731d25a98b8",
-    "619ba9e76bd11182709175d8ec55f3b3"
+    "619ba9e76bd11182709175d8ec55f3b3",
+    "9d81024d284616bc589ca9f5d4bc7a2e"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1613,7 +1613,8 @@
     "https://kenyans.co.ke/news/129143-kenya-power-records-ksh36-billion-profit-revenue-hits-ksh-238b-fy20252026",
     "https://kenyans.co.ke/news/129145-kenya-hold-new-trade-and-security-talks-trump-administration-december",
     "https://kenyans.co.ke/news/129146-world-bank-links-high-electricity-costs-opaque-power-deals-kenya",
-    "https://kenyans.co.ke/news/129149-dci-arrests-man-posing-gsu-officer-extort-nairobi-residents"
+    "https://kenyans.co.ke/news/129149-dci-arrests-man-posing-gsu-officer-extort-nairobi-residents",
+    "https://kenyans.co.ke/news/129151-world-bank-ranks-mombasa-port-among-worlds-worst-performing-ports"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2317,7 +2318,8 @@
     "power erases deficit ksh21b working capital turnaround",
     "prepares 2026 2030 roadmap aid reductions shift focus reciprocal trade",
     "uncompetitive deals insider conflicts drive high power tariffs world bank reports",
-    "mock badges handcuffs jogoo road arrest exposes vulnerabilities fake security authority"
+    "mock badges handcuffs jogoo road arrest exposes vulnerabilities fake security authority",
+    "corridor inflation port friction cfs patronage drive inland freight rates"
   ],
   "topic_keys": [
     "news tracker",
@@ -7924,6 +7926,15 @@
       "structure": "Simulated authority lead -> Arrest mechanics and recovered hardware -> Precinct verification process -> Broader pattern of enforcement impersonation in Nairobi and regions -> Forward look on court processing",
       "source": "https://kenyans.co.ke/news/129149-dci-arrests-man-posing-gsu-officer-extort-nairobi-residents",
       "published_at": "2026-11-05T07:02:16Z"
+    },
+    {
+      "title": "Corridor Inflation: How Port Friction and CFS Patronage Drive Up Kenya\u2019s Inland Freight Rates",
+      "angle": "Framing around the corridor cost asymmetry\u2014how administrative delays, KPA executive turnover, and connection-based CFS licensing inflate the 480km Mombasa-Nairobi leg to up to $2.60 per kilometer, far exceeding European haulage rates.",
+      "angle_type": "logistical cost asymmetry and administrative friction",
+      "opening": "Corridor cost disparity lead, contrasting ocean freight distance rates with the disproportionate price of moving containers overland to Nairobi.",
+      "structure": "Corridor cost breakdown -> Global CPPI ranking drop -> KPA leadership instability & CFS patronage -> Multi-agency clearance friction & bribery -> Roadblock Reduction Initiative and infrastructure outlook.",
+      "source": "https://kenyans.co.ke/news/129151-world-bank-ranks-mombasa-port-among-worlds-worst-performing-ports",
+      "published_at": "2026-11-05T08:02:33Z"
     }
   ]
 }
