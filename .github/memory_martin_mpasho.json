@@ -154,7 +154,8 @@
     "a4dbc512c3cecd6fff0d74b1a21ce7c9a1af6875eff42d6f138ad37f429cd71f",
     "a1dcc67c62b9eb1c9ab577f1a7d44270085fc72da46a76a3e6cc424f8b2ec59b",
     "264b31d61ddb6bc96967c91fd2a5184bdaf4e8293627a5bb02d5d332e8b43091",
-    "6c80108f37ff1bf1095d3300aeae610f19fdab6c07db6c0632e680c910e0c681"
+    "6c80108f37ff1bf1095d3300aeae610f19fdab6c07db6c0632e680c910e0c681",
+    "e0756666bcb2382ed6ed188fa46e63b88461dc51226639b04e73acd10e2f117d"
   ],
   "style_history": [
     "Event Report",
@@ -469,6 +470,10 @@
     {
       "key": "2026-11-05-dr-ben-kajwang-makes-history-as-first-kenyan-ceo-to-win-global-change-makers-award",
       "ts": "2026-11-05T19:24:08.475865+00:00"
+    },
+    {
+      "key": "2026-11-05-willy-m-tuva-recalls-journey-to-owning-mercedes-benz-featured-in-famous-ramogi-radio-advert",
+      "ts": "2026-11-05T21:23:19.065980+00:00"
     }
   ],
   "urls": [
@@ -527,7 +532,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-05-nana-owiti-addresses-king-kaka-finding-new-love",
     "https://www.mpasho.co.ke/entertainment/2026-11-05-wapendwa-muziki-reveal-they-use-suno-ai-to-create-music-mesh-says-he-pays-ksh-40000",
     "https://www.mpasho.co.ke/entertainment/2026-11-05-sammyboy-sparks-online-debate-after-gay-question",
-    "https://www.mpasho.co.ke/entertainment/2026-11-05-dr-ben-kajwang-makes-history-as-first-kenyan-ceo-to-win-global-change-makers-award"
+    "https://www.mpasho.co.ke/entertainment/2026-11-05-dr-ben-kajwang-makes-history-as-first-kenyan-ceo-to-win-global-change-makers-award",
+    "https://www.mpasho.co.ke/entertainment/2026-11-05-willy-m-tuva-recalls-journey-to-owning-mercedes-benz-featured-in-famous-ramogi-radio-advert"
   ],
   "published_angles": [
     {
@@ -969,6 +975,14 @@
       "opening": "Start with the specific shift of the College of Insurance from a local training institution to a regional commercial entity.",
       "structure": "Developmental arc: Infrastructure development -> regional expansion of training modules -> the recent validation by international bodies.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-05-dr-ben-kajwang-makes-history-as-first-kenyan-ceo-to-win-global-change-makers-award"
+    },
+    {
+      "title": "Willy M Tuva\u2019s Mercedes-Benz: More Than a Dream Car, It Was a Branding Tool",
+      "angle": "The intersection of media branding and physical assets\u2014how one vehicle acted as a cross-platform branding tool for both a major media house (Ramogi Radio) and an emerging artist (Dufla Diligon), bridging Tuva's personal career milestones with his professional influence.",
+      "angle_type": "cross-platform asset utility",
+      "opening": "Personality-led focus on the vehicle as a cross-industry prop.",
+      "structure": "Vehicle-centric hook -> Personal history of the car -> Professional crossover (Ramogi/Dufla) -> Mentorship context -> Closing with the reflection on ambition.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-05-willy-m-tuva-recalls-journey-to-owning-mercedes-benz-featured-in-famous-ramogi-radio-advert"
     }
   ]
 }
