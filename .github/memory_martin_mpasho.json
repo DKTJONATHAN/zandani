@@ -149,7 +149,8 @@
     "2924f4444bec64a4c2c5d5bbc31bb56e6a476b9be773ee557c3a826214625ed6",
     "f041cf437b58787c5f27b9706d6e4b0a57cc37dc9d80f7e7965f9d19591e0f72",
     "4ced192b192b773f51c1555470eed331247b9696ea19a571271ef6cb9c83dd69",
-    "5ddf6605fd72e7698b836bf4c7cf9ea60efb0bf41504bad8563efeac6d03d1d9"
+    "5ddf6605fd72e7698b836bf4c7cf9ea60efb0bf41504bad8563efeac6d03d1d9",
+    "71931916e5dc3715504773bb114126d9b99c459c6b8e187b8ed162dd197fe6e1"
   ],
   "style_history": [
     "Event Report",
@@ -444,6 +445,10 @@
     {
       "key": "2026-11-05-wapendwa-muziki-reveal-how-they-use-ai-to-create-music",
       "ts": "2026-11-05T09:25:24.189539+00:00"
+    },
+    {
+      "key": "2026-11-05-nana-owiti-speaks-on-moving-on-after-king-kaka-split-says-she-is-focused-on-bettering-herself",
+      "ts": "2026-11-05T11:23:06.028250+00:00"
     }
   ],
   "urls": [
@@ -497,7 +502,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-04-allan-ademba-calls-for-regulation-of-churches-in-kenya-says-their-numbers-are-too-high",
     "https://www.mpasho.co.ke/entertainment/2026-11-05-mama-ryan-meet-mary-goreti-the-actress-who-chose-entertainment-over-psychology",
     "https://www.mpasho.co.ke/entertainment/2026-11-05-dj-mo-explains-arrest-after-being-fined-over-traffic-offences",
-    "https://www.mpasho.co.ke/entertainment/2026-11-05-wapendwa-muziki-reveal-how-they-use-ai-to-create-music"
+    "https://www.mpasho.co.ke/entertainment/2026-11-05-wapendwa-muziki-reveal-how-they-use-ai-to-create-music",
+    "https://www.mpasho.co.ke/entertainment/2026-11-05-nana-owiti-speaks-on-moving-on-after-king-kaka-split-says-she-is-focused-on-bettering-herself"
   ],
   "published_angles": [
     {
@@ -899,6 +905,14 @@
       "opening": "Personality lead opening directly on Mesh and Ninah Mpendwa using Suno AI to resolve the long-standing headache of explaining arrangement visions to studio sound engineers.",
       "structure": "Personality lead -> Pre-production friction and communication breakdown with producers -> Breakdown of the Suno AI demo workflow -> The boundary between algorithmic blueprint and final human studio polish -> Practical implications for independent studio budgets",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-05-wapendwa-muziki-reveal-how-they-use-ai-to-create-music"
+    },
+    {
+      "title": "Nana Owiti Draws the Line on Post-Split Prying: 'Wacha Niinue Chuma Mimi'",
+      "angle": "Examining Nana Owiti's deliberate strategy of boundary control during broadcast interviews\u2014turning gossip-driven line-of-questioning away from past romance toward personal fitness, curated friendships, and domestic focus.",
+      "angle_type": "post-relationship boundary setting and personal self-investment",
+      "opening": "Personality lead opening directly on Nana Owiti cutting off Ankali Ray's line of inquiry during a phone call to pivot to personal betterment.",
+      "structure": "Personality lead -> Verbatim interview exchange -> Boundary mechanics and parenting priority -> Support circle dynamics -> Fitness and self-improvement commitment -> Concrete factual close",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-05-nana-owiti-speaks-on-moving-on-after-king-kaka-split-says-she-is-focused-on-bettering-herself"
     }
   ]
 }
