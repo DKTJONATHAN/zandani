@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "4498a8451691a6e44796f5f8e25e832a",
     "d1e350b7ee5e1bb52cb405185b9c5b8e",
     "6ab57453f789a6835e3394f7aecbb8f5",
     "ff64d239607b8b3731394a13f4283739",
@@ -799,10 +798,10 @@
     "737a3a9f94897ede7a825d8955401136",
     "4f28766513ecd36453cd3837d50c3cee",
     "7ce359ac01aedce97a232823a355b6f4",
-    "66d2ab690a8a748834eef731d25a98b8"
+    "66d2ab690a8a748834eef731d25a98b8",
+    "619ba9e76bd11182709175d8ec55f3b3"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1612,7 +1612,8 @@
     "https://kenyans.co.ke/news/129138-ruto-announces-plan-manufacture-leather-shoes-14-million-students",
     "https://kenyans.co.ke/news/129143-kenya-power-records-ksh36-billion-profit-revenue-hits-ksh-238b-fy20252026",
     "https://kenyans.co.ke/news/129145-kenya-hold-new-trade-and-security-talks-trump-administration-december",
-    "https://kenyans.co.ke/news/129146-world-bank-links-high-electricity-costs-opaque-power-deals-kenya"
+    "https://kenyans.co.ke/news/129146-world-bank-links-high-electricity-costs-opaque-power-deals-kenya",
+    "https://kenyans.co.ke/news/129149-dci-arrests-man-posing-gsu-officer-extort-nairobi-residents"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2315,7 +2316,8 @@
     "state targets million school shoe market plug leather trade deficit",
     "power erases deficit ksh21b working capital turnaround",
     "prepares 2026 2030 roadmap aid reductions shift focus reciprocal trade",
-    "uncompetitive deals insider conflicts drive high power tariffs world bank reports"
+    "uncompetitive deals insider conflicts drive high power tariffs world bank reports",
+    "mock badges handcuffs jogoo road arrest exposes vulnerabilities fake security authority"
   ],
   "topic_keys": [
     "news tracker",
@@ -7913,6 +7915,15 @@
       "structure": "Procurement mechanics lead -> Peer tariff comparison facts -> Contractual lock-in and conflict-of-interest analysis -> Grid efficiency gap and imports -> Regulatory reform outlook",
       "source": "https://kenyans.co.ke/news/129146-world-bank-links-high-electricity-costs-opaque-power-deals-kenya",
       "published_at": "2026-11-05T06:02:05Z"
+    },
+    {
+      "title": "Mock Badges and Handcuffs: How Jogoo Road Arrest Exposes Vulnerabilities to Fake Security Authority",
+      "angle": "Framing the incident around the operational mechanics of simulated police authority along Nairobi's high-density transit routes, highlighting how illicit access to security hardware and forged documentation enables street-level extortion until broken by precinct-level public tips.",
+      "angle_type": "simulated state authority and enforcement mechanics",
+      "opening": "Enforcement mechanics lead examining how counterfeit police hardware and credentials create vulnerable friction points for commuters along major urban transit corridors.",
+      "structure": "Simulated authority lead -> Arrest mechanics and recovered hardware -> Precinct verification process -> Broader pattern of enforcement impersonation in Nairobi and regions -> Forward look on court processing",
+      "source": "https://kenyans.co.ke/news/129149-dci-arrests-man-posing-gsu-officer-extort-nairobi-residents",
+      "published_at": "2026-11-05T07:02:16Z"
     }
   ]
 }
