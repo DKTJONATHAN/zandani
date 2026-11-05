@@ -148,7 +148,8 @@
     "822feabd919ed866924fef4320e5d09ba851dd175fb5360feb93c90515245e65",
     "2924f4444bec64a4c2c5d5bbc31bb56e6a476b9be773ee557c3a826214625ed6",
     "f041cf437b58787c5f27b9706d6e4b0a57cc37dc9d80f7e7965f9d19591e0f72",
-    "4ced192b192b773f51c1555470eed331247b9696ea19a571271ef6cb9c83dd69"
+    "4ced192b192b773f51c1555470eed331247b9696ea19a571271ef6cb9c83dd69",
+    "5ddf6605fd72e7698b836bf4c7cf9ea60efb0bf41504bad8563efeac6d03d1d9"
   ],
   "style_history": [
     "Event Report",
@@ -439,6 +440,10 @@
     {
       "key": "2026-11-05-dj-mo-explains-arrest-after-being-fined-over-traffic-offences",
       "ts": "2026-11-05T07:22:17.850672+00:00"
+    },
+    {
+      "key": "2026-11-05-wapendwa-muziki-reveal-how-they-use-ai-to-create-music",
+      "ts": "2026-11-05T09:25:24.189539+00:00"
     }
   ],
   "urls": [
@@ -491,7 +496,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-04-keranta-covers-up-flaqos-name-tattoo-after-bitter-breakup",
     "https://www.mpasho.co.ke/entertainment/2026-11-04-allan-ademba-calls-for-regulation-of-churches-in-kenya-says-their-numbers-are-too-high",
     "https://www.mpasho.co.ke/entertainment/2026-11-05-mama-ryan-meet-mary-goreti-the-actress-who-chose-entertainment-over-psychology",
-    "https://www.mpasho.co.ke/entertainment/2026-11-05-dj-mo-explains-arrest-after-being-fined-over-traffic-offences"
+    "https://www.mpasho.co.ke/entertainment/2026-11-05-dj-mo-explains-arrest-after-being-fined-over-traffic-offences",
+    "https://www.mpasho.co.ke/entertainment/2026-11-05-wapendwa-muziki-reveal-how-they-use-ai-to-create-music"
   ],
   "published_angles": [
     {
@@ -885,6 +891,14 @@
       "opening": "Personality lead focusing directly on DJ Mo's morning traffic stop near Roasters and the immediate collision between family urgency and administrative oversight.",
       "structure": "Personality-driven vehicle stop hook -> Courtroom breakdown of the two distinct charges and fines -> The family emergency justification and police instruction dispute -> Missed US travel flight consequence -> Concrete close on the administrative warning.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-05-dj-mo-explains-arrest-after-being-fined-over-traffic-offences"
+    },
+    {
+      "title": "Wapendwa Muziki Trade Studio Guesswork for AI Demos to Fix Producer Deadlock",
+      "angle": "Framing the workflow pivot around studio economics and artist-producer miscommunication\u2014how the duo adopted Suno AI specifically as a pre-production blueprint to bypass tedious chord negotiations and eliminate early-stage studio trial runs.",
+      "angle_type": "studio pre-production workflow and artist-producer communication efficiency",
+      "opening": "Personality lead opening directly on Mesh and Ninah Mpendwa using Suno AI to resolve the long-standing headache of explaining arrangement visions to studio sound engineers.",
+      "structure": "Personality lead -> Pre-production friction and communication breakdown with producers -> Breakdown of the Suno AI demo workflow -> The boundary between algorithmic blueprint and final human studio polish -> Practical implications for independent studio budgets",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-05-wapendwa-muziki-reveal-how-they-use-ai-to-create-music"
     }
   ]
 }
