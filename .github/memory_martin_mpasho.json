@@ -150,7 +150,8 @@
     "f041cf437b58787c5f27b9706d6e4b0a57cc37dc9d80f7e7965f9d19591e0f72",
     "4ced192b192b773f51c1555470eed331247b9696ea19a571271ef6cb9c83dd69",
     "5ddf6605fd72e7698b836bf4c7cf9ea60efb0bf41504bad8563efeac6d03d1d9",
-    "71931916e5dc3715504773bb114126d9b99c459c6b8e187b8ed162dd197fe6e1"
+    "71931916e5dc3715504773bb114126d9b99c459c6b8e187b8ed162dd197fe6e1",
+    "a4dbc512c3cecd6fff0d74b1a21ce7c9a1af6875eff42d6f138ad37f429cd71f"
   ],
   "style_history": [
     "Event Report",
@@ -449,6 +450,10 @@
     {
       "key": "2026-11-05-nana-owiti-speaks-on-moving-on-after-king-kaka-split-says-she-is-focused-on-bettering-herself",
       "ts": "2026-11-05T11:23:06.028250+00:00"
+    },
+    {
+      "key": "2026-11-05-nana-owiti-addresses-king-kaka-finding-new-love",
+      "ts": "2026-11-05T13:24:01.784938+00:00"
     }
   ],
   "urls": [
@@ -503,7 +508,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-05-mama-ryan-meet-mary-goreti-the-actress-who-chose-entertainment-over-psychology",
     "https://www.mpasho.co.ke/entertainment/2026-11-05-dj-mo-explains-arrest-after-being-fined-over-traffic-offences",
     "https://www.mpasho.co.ke/entertainment/2026-11-05-wapendwa-muziki-reveal-how-they-use-ai-to-create-music",
-    "https://www.mpasho.co.ke/entertainment/2026-11-05-nana-owiti-speaks-on-moving-on-after-king-kaka-split-says-she-is-focused-on-bettering-herself"
+    "https://www.mpasho.co.ke/entertainment/2026-11-05-nana-owiti-speaks-on-moving-on-after-king-kaka-split-says-she-is-focused-on-bettering-herself",
+    "https://www.mpasho.co.ke/entertainment/2026-11-05-nana-owiti-addresses-king-kaka-finding-new-love"
   ],
   "published_angles": [
     {
@@ -913,6 +919,14 @@
       "opening": "Personality lead opening directly on Nana Owiti cutting off Ankali Ray's line of inquiry during a phone call to pivot to personal betterment.",
       "structure": "Personality lead -> Verbatim interview exchange -> Boundary mechanics and parenting priority -> Support circle dynamics -> Fitness and self-improvement commitment -> Concrete factual close",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-05-nana-owiti-speaks-on-moving-on-after-king-kaka-split-says-she-is-focused-on-bettering-herself"
+    },
+    {
+      "title": "Nana Owiti Champions 'Wivu wa Maturity' as King Kaka Romance Rumors Surface",
+      "angle": "Framing the interview around Nana Owiti's explicit doctrine of 'wivu wa maturity'\u2014a model of emotional non-interference and self-advancement when navigating an ex-partner's romantic realignments in the public eye.",
+      "angle_type": "post-separation relationship philosophy and emotional non-interference",
+      "opening": "Personality lead opening directly on Nana Owiti framing her stance on post-split romance around the concept of mature jealousy.",
+      "structure": "Personality hook -> Phone interview mechanics with Ankali Ray -> The trigger clip featuring Kalekye -> Breakdown of 'wivu wa maturity' doctrine -> Broader post-split trajectory close",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-05-nana-owiti-addresses-king-kaka-finding-new-love"
     }
   ]
 }
