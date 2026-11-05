@@ -152,7 +152,8 @@
     "5ddf6605fd72e7698b836bf4c7cf9ea60efb0bf41504bad8563efeac6d03d1d9",
     "71931916e5dc3715504773bb114126d9b99c459c6b8e187b8ed162dd197fe6e1",
     "a4dbc512c3cecd6fff0d74b1a21ce7c9a1af6875eff42d6f138ad37f429cd71f",
-    "a1dcc67c62b9eb1c9ab577f1a7d44270085fc72da46a76a3e6cc424f8b2ec59b"
+    "a1dcc67c62b9eb1c9ab577f1a7d44270085fc72da46a76a3e6cc424f8b2ec59b",
+    "264b31d61ddb6bc96967c91fd2a5184bdaf4e8293627a5bb02d5d332e8b43091"
   ],
   "style_history": [
     "Event Report",
@@ -459,6 +460,10 @@
     {
       "key": "2026-11-05-wapendwa-muziki-reveal-they-use-suno-ai-to-create-music-mesh-says-he-pays-ksh-40000",
       "ts": "2026-11-05T15:23:35.203327+00:00"
+    },
+    {
+      "key": "2026-11-05-sammyboy-sparks-online-debate-after-gay-question",
+      "ts": "2026-11-05T17:22:57.637369+00:00"
     }
   ],
   "urls": [
@@ -515,7 +520,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-05-wapendwa-muziki-reveal-how-they-use-ai-to-create-music",
     "https://www.mpasho.co.ke/entertainment/2026-11-05-nana-owiti-speaks-on-moving-on-after-king-kaka-split-says-she-is-focused-on-bettering-herself",
     "https://www.mpasho.co.ke/entertainment/2026-11-05-nana-owiti-addresses-king-kaka-finding-new-love",
-    "https://www.mpasho.co.ke/entertainment/2026-11-05-wapendwa-muziki-reveal-they-use-suno-ai-to-create-music-mesh-says-he-pays-ksh-40000"
+    "https://www.mpasho.co.ke/entertainment/2026-11-05-wapendwa-muziki-reveal-they-use-suno-ai-to-create-music-mesh-says-he-pays-ksh-40000",
+    "https://www.mpasho.co.ke/entertainment/2026-11-05-sammyboy-sparks-online-debate-after-gay-question"
   ],
   "published_angles": [
     {
@@ -941,6 +947,14 @@
       "opening": "Personality lead focusing on the specific financial investment in software.",
       "structure": "Financial commitment hook -> Operational shift from traditional studios -> The mechanics of the AI-demo workflow -> Industry efficiency vs. creative authenticity balance -> Closing on the evolving cost of music production.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-05-wapendwa-muziki-reveal-they-use-suno-ai-to-create-music-mesh-says-he-pays-ksh-40000"
+    },
+    {
+      "title": "Sammyboy\u2019s Instagram Gut Check Boomerangs as Followers Turn 'Spotting' Query on Him",
+      "angle": "Examining the immediate boomerang effect of influencer crowd-baiting\u2014how Sammyboy's speculative prompt instantly reactivated unaddressed past controversies about his own private life, turning his audience inquiry into an intrusive mirror.",
+      "angle_type": "digital engagement boomerang and creator scrutiny",
+      "opening": "Personality lead opening directly on Sammyboy posing an observational question on Instagram and finding his own comment section turning it back into a personal interrogation.",
+      "structure": "Personality hook -> The exact mechanics of the Instagram video query -> The immediate audience reversal and specific follower clapbacks -> Context of past unverified leaked clips and persistent digital speculation -> Analytical observation on influencer crowd-sourcing backfires -> Unresolved close on creator silence.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-05-sammyboy-sparks-online-debate-after-gay-question"
     }
   ]
 }
