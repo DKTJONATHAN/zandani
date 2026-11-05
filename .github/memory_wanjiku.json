@@ -371,7 +371,8 @@
     "4b8972aa6622e6ef0b4575b3db5f7cb0787736a3e0ea1eeec84c8afbf0ed651b",
     "6ca6959c0b32c202fb4c461c0399fb28c6acb553498a2b5680ff08e535689e5f",
     "9490e0268974274a82342e59cffe7c6d96d9536006eaef65f03650ec446c451d",
-    "6241297fcbf8712660830035cf3703c1a81ac6c5116a94ca116f6ccac5baa986"
+    "6241297fcbf8712660830035cf3703c1a81ac6c5116a94ca116f6ccac5baa986",
+    "5fa30392e15156349199e63a249c5c2c5a43779a071dfd7ca0dd83c4dc285698"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -745,17 +746,10 @@
     "https://www.ghafla.co.ke/jaymo-ule-msee-apologises-to-gen-z-reveals-financial-struggles-after-political-fallout/",
     "https://www.ghafla.co.ke/mosiria-hosts-cre-lesson-in-comparison-with-with-babu-owinos-lessons/",
     "https://www.ghafla.co.ke/kenya-power-announces-thursday-blackouts-in-westlands-ngong-road-kisii-kiambu-mombasa-and-kilifi/",
-    "https://www.ghafla.co.ke/bernice-saroni-raises-alarm-after-son-junior-is-choked-by-fellow-student-in-us-school/"
+    "https://www.ghafla.co.ke/bernice-saroni-raises-alarm-after-son-junior-is-choked-by-fellow-student-in-us-school/",
+    "https://www.ghafla.co.ke/life-lazima-imove-on-nana-owiti-reacts-to-king-kaka-and-ema-kalekye-dating-rumors/"
   ],
   "published_angles": [
-    {
-      "title": "Jalang\u2019o Invokes Raila\u2019s KICC Playbook in Takedown of Sifuna\u2019s Presidential Launch",
-      "angle": "Reframing Jalang'o's critique around political stagecraft and event logistics\u2014focusing on how the former radio host invoked Raila Odinga's KICC delegate blueprint to argue that Sifuna's small-room unveiling failed as a visual statement of presidential power.",
-      "angle_type": "political stagecraft and campaign logistics breakdown",
-      "opening": "Personality lead opening directly on Jalang'o invoking Raila Odinga's event playbook to critique Sifuna's political execution.",
-      "structure": "Personality lead -> The verified critique and 2027 forecast -> The KICC delegate blueprint comparison -> Context of TEP rollout and Nairobi political friction -> Concrete closing on local rivalry dynamics.",
-      "source": "https://www.ghafla.co.ke/jalango-dismisses-sifunas-2027-presidential-bid-predicts-he-will-finish-fourth/"
-    },
     {
       "title": "Kamau Thugge Bets on Cheaper Food to Blunt KSh 129 Shilling Squeeze as Oil Marketers Hunt Dollars",
       "angle": "Reframing the forex movement around Central Bank Governor Kamau Thugge's personal policy gamble\u2014counting on falling food prices to neutralize a twin assault from double-digit landed fuel cost spikes and an aggressive importer run on commercial dollar desks.",
@@ -1547,6 +1541,14 @@
       "opening": "Personality lead opening directly on Bernice Saroni confronting US school administrators after CCTV footage confirmed the assault on her son Junior.",
       "structure": "Personality hook -> CCTV confirmation & traffic cone origin -> Bus room supervision gap -> Racial safety implications & parental stance -> Concrete resolution close",
       "source": "https://www.ghafla.co.ke/bernice-saroni-raises-alarm-after-son-junior-is-choked-by-fellow-student-in-us-school/"
+    },
+    {
+      "title": "Nana Owiti Draws Clear Boundary on King Kaka Dating Rumors as Ema Kalekye Clarifies Song Promo",
+      "angle": "Framing the response around post-breakup emotional boundary setting and self-improvement philosophy, contrasted against how digital music promotion strategy triggers exaggerated online romance rumors.",
+      "angle_type": "post-relationship maturity and music promotion reality check",
+      "opening": "Personality lead opening directly on Nana Owiti's stance on post-breakup emotional progression during her Milele FM call.",
+      "structure": "Personality stance hook -> Breakdown of Nana Owiti's interview remarks to Ankali Ray -> Music promo origin and Ema Kalekye's boundary clarification -> Co-parenting and 2024 relationship timeline close.",
+      "source": "https://www.ghafla.co.ke/life-lazima-imove-on-nana-owiti-reacts-to-king-kaka-and-ema-kalekye-dating-rumors/"
     }
   ],
   "style_history": [
