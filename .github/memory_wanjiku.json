@@ -377,7 +377,8 @@
     "411cf9421bfcd89cbdb2e51f618a213e134772d9ff50c82e44c07c123dda32c5",
     "34660b8049e34be3fdba98c9b870bcf4f7159c754e6b612246f8c67f30f4f972",
     "7072354ac8f49af963e93f1cada353cc074f90ae286c475835000be0218a52b5",
-    "c5949b846563baf746ec9548fd80d9256498c317ca541507a5767769c632c482"
+    "c5949b846563baf746ec9548fd80d9256498c317ca541507a5767769c632c482",
+    "1c9f0899b018d4323887d16c552a8e9b97707ec2fff2fcb1b32cf199baa25465"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -757,17 +758,10 @@
     "https://www.ghafla.co.ke/mp-david-ndakwa-warns-against-wrong-political-alliances-urges-kenyans-to-give-ruto-10-years/",
     "https://www.ghafla.co.ke/lady-in-red-diana-marua-celebrates-38th-birthday-in-glamorous-photoshoot-ahead-of-lavish-wedding-photo/",
     "https://www.ghafla.co.ke/tremor-reported-in-nairobi-and-surrounding-areas-amid-upcoming-elnino-prediction/",
-    "https://www.ghafla.co.ke/sarah-mtalii-claims-divorce-favours-financially-independent-women-as-men-struggle-to-move-on/"
+    "https://www.ghafla.co.ke/sarah-mtalii-claims-divorce-favours-financially-independent-women-as-men-struggle-to-move-on/",
+    "https://www.ghafla.co.ke/gospel-dj-mo-charged-with-three-traffic-offences-after-thika-road-incident/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018Jealousy and Anger Won\u2019t Build Kenya\u2019: Ruto Fires Back at Rivals from Nandi Podium",
-      "angle": "Framing the Nandi address through the sharp personal friction between Ruto and his political rivals\u2014specifically how the Head of State bypassed sterile policy language to accuse his critics of weaponizing personal jealousy and ethnic resentment against his five-point delivery scorecard.",
-      "angle_type": "political personality friction and public pushback",
-      "opening": "Personality lead opening directly on Ruto confronting political competitors over jealousy and resentment from the Nandi podium.",
-      "structure": "Personality clash hook -> Verified confrontation in Nandi -> The five-pillar delivery defense -> Direct quote dissection -> Closing on the demand for performance over factional noise",
-      "source": "https://www.ghafla.co.ke/i-made-a-firm-commitment-to-kenyans-with-a-clear-plan-president-ruto-answers-critics/"
-    },
     {
       "title": "William Ruto Pushes \u2018Usawa ni Sawa\u2019 Slogan as Shield Against \u2018Jealousy and Tribalism\u2019",
       "angle": "Reframing Ruto's address through the prism of political branding and podium rhetoric\u2014focusing on how the Head of State is deploying the rhythmic 'Usawa ni Sawa' catchphrase to transform a five-pillar infrastructure inventory into a direct moral rebuke against rivals accused of tribalism and jealousy.",
@@ -1559,6 +1553,14 @@
       "opening": "Personality lead opening directly on Sarah Mtalii asserting economic autonomy transforms divorce into exit leverage for women.",
       "structure": "Personality lead -> Economic exit leverage breakdown -> Reversal of traditional female victim trope -> Section on economic independence mechanics -> Section on male emotional vulnerability -> Concluding perspective on modern marital dynamics.",
       "source": "https://www.ghafla.co.ke/sarah-mtalii-claims-divorce-favours-financially-independent-women-as-men-struggle-to-move-on/"
+    },
+    {
+      "title": "Gospel DJ Mo Arraigned Over Thika Road Incident as Court Reads Triple Traffic Charge",
+      "angle": "Examining the specific statutory compliance requirements triggered by DJ Mo's highway stop\u2014tracing how a routine Thika Road enforcement check escalated into a triple-count court case covering third-party insurance, certificate display rules, and officer directive compliance.",
+      "angle_type": "legal compliance and celebrity traffic enforcement",
+      "opening": "Personality lead opening directly on Samuel Muraya appearing in court to face three specific statutory counts.",
+      "structure": "Personality court hook -> Breakdown of the three legal counts -> Highway enforcement context on Thika Road -> Profile and public standing context -> Legal proceeding close",
+      "source": "https://www.ghafla.co.ke/gospel-dj-mo-charged-with-three-traffic-offences-after-thika-road-incident/"
     }
   ],
   "style_history": [
