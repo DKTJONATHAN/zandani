@@ -153,7 +153,8 @@
     "71931916e5dc3715504773bb114126d9b99c459c6b8e187b8ed162dd197fe6e1",
     "a4dbc512c3cecd6fff0d74b1a21ce7c9a1af6875eff42d6f138ad37f429cd71f",
     "a1dcc67c62b9eb1c9ab577f1a7d44270085fc72da46a76a3e6cc424f8b2ec59b",
-    "264b31d61ddb6bc96967c91fd2a5184bdaf4e8293627a5bb02d5d332e8b43091"
+    "264b31d61ddb6bc96967c91fd2a5184bdaf4e8293627a5bb02d5d332e8b43091",
+    "6c80108f37ff1bf1095d3300aeae610f19fdab6c07db6c0632e680c910e0c681"
   ],
   "style_history": [
     "Event Report",
@@ -464,6 +465,10 @@
     {
       "key": "2026-11-05-sammyboy-sparks-online-debate-after-gay-question",
       "ts": "2026-11-05T17:22:57.637369+00:00"
+    },
+    {
+      "key": "2026-11-05-dr-ben-kajwang-makes-history-as-first-kenyan-ceo-to-win-global-change-makers-award",
+      "ts": "2026-11-05T19:24:08.475865+00:00"
     }
   ],
   "urls": [
@@ -521,7 +526,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-05-nana-owiti-speaks-on-moving-on-after-king-kaka-split-says-she-is-focused-on-bettering-herself",
     "https://www.mpasho.co.ke/entertainment/2026-11-05-nana-owiti-addresses-king-kaka-finding-new-love",
     "https://www.mpasho.co.ke/entertainment/2026-11-05-wapendwa-muziki-reveal-they-use-suno-ai-to-create-music-mesh-says-he-pays-ksh-40000",
-    "https://www.mpasho.co.ke/entertainment/2026-11-05-sammyboy-sparks-online-debate-after-gay-question"
+    "https://www.mpasho.co.ke/entertainment/2026-11-05-sammyboy-sparks-online-debate-after-gay-question",
+    "https://www.mpasho.co.ke/entertainment/2026-11-05-dr-ben-kajwang-makes-history-as-first-kenyan-ceo-to-win-global-change-makers-award"
   ],
   "published_angles": [
     {
@@ -955,6 +961,14 @@
       "opening": "Personality lead opening directly on Sammyboy posing an observational question on Instagram and finding his own comment section turning it back into a personal interrogation.",
       "structure": "Personality hook -> The exact mechanics of the Instagram video query -> The immediate audience reversal and specific follower clapbacks -> Context of past unverified leaked clips and persistent digital speculation -> Analytical observation on influencer crowd-sourcing backfires -> Unresolved close on creator silence.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-05-sammyboy-sparks-online-debate-after-gay-question"
+    },
+    {
+      "title": "Beyond the Accolades: How Dr. Ben Kajwang Turned the College of Insurance Into a Regional Powerhouse",
+      "angle": "The operational evolution of the College of Insurance into a commercial and regional education hub, and how these specific infrastructure projects\u2014like the Edge Hotel\u2014are driving the leadership awards Kajwang is receiving.",
+      "angle_type": "Institutional development and career strategy",
+      "opening": "Start with the specific shift of the College of Insurance from a local training institution to a regional commercial entity.",
+      "structure": "Developmental arc: Infrastructure development -> regional expansion of training modules -> the recent validation by international bodies.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-05-dr-ben-kajwang-makes-history-as-first-kenyan-ceo-to-win-global-change-makers-award"
     }
   ]
 }
