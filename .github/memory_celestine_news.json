@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f8a942a415f888e36a8b38f5a8a85c88",
     "53952295f52128986cff52aadf31ec60",
     "2fca5bb3d4d5bdbe57e8ce865874f873",
     "bf3a33b8681cd8e5db2aba9fa5ef57bb",
@@ -799,10 +798,10 @@
     "b362ed4836fd58ce3a225a23e731dcfa",
     "71fe6c346882341516c52ef65d7d8888",
     "d1d928f5aa42de28c6ca96b2564d7016",
-    "575c00756e005b598664244f9462d99f"
+    "575c00756e005b598664244f9462d99f",
+    "cde2905e28d42977b9f942bd11a7213a"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1622,7 +1622,8 @@
     "https://kenyans.co.ke/news/129165-kenyans-pay-low-ksh2500-watch-bayern-munich-vs-ajax-talanta-stadium-cs-mvurya-confirms",
     "https://kenyans.co.ke/news/129168-one-dead-several-injured-after-gold-mine-explosion-migori",
     "https://kenyans.co.ke/news/129170-ecitizen-go-through-maintenance-four-nights-november-treasury-announces",
-    "https://kenyans.co.ke/news/129173-justin-muturis-convoy-attacked-during-campaign-trail-migori-county"
+    "https://kenyans.co.ke/news/129173-justin-muturis-convoy-attacked-during-campaign-trail-migori-county",
+    "https://kenyans.co.ke/news/129174-azimio-announces-new-leadership-matiangi-and-orengo-take-council-roles"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2335,7 +2336,8 @@
     "talanta stadium sets ksh2 500 entry bayern ajax afcon dry run",
     "unannounced blasting shaft encroachment trigger fatal migori mine collapse",
     "treasury schedules four night ecitizen shutdowns centralized portal handles ksh1b daily",
-    "migori convoy stoning highlights rising friction nyanza campaign trail"
+    "migori convoy stoning highlights rising friction nyanza campaign trail",
+    "matiang orengo take council helm opposition restructure leaves gachagua out"
   ],
   "topic_keys": [
     "news tracker",
@@ -8023,6 +8025,15 @@
       "structure": "Regional campaign friction lead -> Attack facts and vehicle damage -> Political accusations against broad-based/ODM leaders -> Broad-based realignment context -> Police response and forward schedule",
       "source": "https://kenyans.co.ke/news/129173-justin-muturis-convoy-attacked-during-campaign-trail-migori-county",
       "published_at": "2026-11-05T15:02:21Z"
+    },
+    {
+      "title": "Matiang'i and Orengo Take Council Helm as Opposition Restructure Leaves Gachagua Out",
+      "angle": "Examining the institutional power shift that formalizes the exclusion of Rigathi Gachagua from executive coalition roles amid growing friction among opposition principals over the 2027 ticket.",
+      "angle_type": "coalition restructuring and political realignment",
+      "opening": "Power-realignment lead focusing on the formal governance shift within the opposition council and the isolation of competing factions.",
+      "structure": "Leadership shift lead -> Institutional vacancy context -> Gachagua exclusion and principal friction breakdown -> Rebranding and coalition strategy -> Flagbearer struggle outlook",
+      "source": "https://kenyans.co.ke/news/129174-azimio-announces-new-leadership-matiangi-and-orengo-take-council-roles",
+      "published_at": "2026-11-05T16:02:55Z"
     }
   ]
 }
