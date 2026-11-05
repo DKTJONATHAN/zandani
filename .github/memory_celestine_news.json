@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "bbf2bc778f698a277d87545344bb958c",
     "4498a8451691a6e44796f5f8e25e832a",
     "d1e350b7ee5e1bb52cb405185b9c5b8e",
     "6ab57453f789a6835e3394f7aecbb8f5",
@@ -799,10 +798,10 @@
     "5369291f5bf3857cef5b8881980ffc68",
     "737a3a9f94897ede7a825d8955401136",
     "4f28766513ecd36453cd3837d50c3cee",
-    "7ce359ac01aedce97a232823a355b6f4"
+    "7ce359ac01aedce97a232823a355b6f4",
+    "66d2ab690a8a748834eef731d25a98b8"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1611,7 +1611,8 @@
     "https://kenyans.co.ke/news/129134-ruto-says-govt-speeding-dualling-nairobi-mombasa-highway",
     "https://kenyans.co.ke/news/129138-ruto-announces-plan-manufacture-leather-shoes-14-million-students",
     "https://kenyans.co.ke/news/129143-kenya-power-records-ksh36-billion-profit-revenue-hits-ksh-238b-fy20252026",
-    "https://kenyans.co.ke/news/129145-kenya-hold-new-trade-and-security-talks-trump-administration-december"
+    "https://kenyans.co.ke/news/129145-kenya-hold-new-trade-and-security-talks-trump-administration-december",
+    "https://kenyans.co.ke/news/129146-world-bank-links-high-electricity-costs-opaque-power-deals-kenya"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2313,7 +2314,8 @@
     "highway safety crises force acceleration nairobi mombasa dualling talks",
     "state targets million school shoe market plug leather trade deficit",
     "power erases deficit ksh21b working capital turnaround",
-    "prepares 2026 2030 roadmap aid reductions shift focus reciprocal trade"
+    "prepares 2026 2030 roadmap aid reductions shift focus reciprocal trade",
+    "uncompetitive deals insider conflicts drive high power tariffs world bank reports"
   ],
   "topic_keys": [
     "news tracker",
@@ -7902,6 +7904,15 @@
       "structure": "Bilateral transition lead -> Preparatory session facts -> Aid contraction vs. market access trade-off -> Security and artificial intelligence scope -> Midterm timing and 2026-2030 framework outlook",
       "source": "https://kenyans.co.ke/news/129145-kenya-hold-new-trade-and-security-talks-trump-administration-december",
       "published_at": "2026-11-05T05:50:07Z"
+    },
+    {
+      "title": "Uncompetitive Deals and Insider Conflicts Drive Kenya\u2019s High Power Tariffs, World Bank Reports",
+      "angle": "Framing the report around the institutional mechanics of power procurement\u2014specifically how a 76 percent failure to run competitive tenders combined with revolving-door ownership by state regulators to lock in mandatory capacity charges.",
+      "angle_type": "procurement mechanics and governance accountability",
+      "opening": "Institutional governance lead analyzing how bypassed competitive procurement and regulator-to-owner transitions built high fixed costs into Kenya's power grid.",
+      "structure": "Procurement mechanics lead -> Peer tariff comparison facts -> Contractual lock-in and conflict-of-interest analysis -> Grid efficiency gap and imports -> Regulatory reform outlook",
+      "source": "https://kenyans.co.ke/news/129146-world-bank-links-high-electricity-costs-opaque-power-deals-kenya",
+      "published_at": "2026-11-05T06:02:05Z"
     }
   ]
 }
