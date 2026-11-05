@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "2afe587468ccbe8b2b8cc64ea5cc2531",
     "f8a942a415f888e36a8b38f5a8a85c88",
     "53952295f52128986cff52aadf31ec60",
     "2fca5bb3d4d5bdbe57e8ce865874f873",
@@ -799,10 +798,10 @@
     "81c1f93f5c78bddec980f451b88909b2",
     "b362ed4836fd58ce3a225a23e731dcfa",
     "71fe6c346882341516c52ef65d7d8888",
-    "d1d928f5aa42de28c6ca96b2564d7016"
+    "d1d928f5aa42de28c6ca96b2564d7016",
+    "575c00756e005b598664244f9462d99f"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1621,7 +1621,8 @@
     "https://kenyans.co.ke/news/129163-police-open-probe-after-attempt-steal-fuel-kpc-pipeline",
     "https://kenyans.co.ke/news/129165-kenyans-pay-low-ksh2500-watch-bayern-munich-vs-ajax-talanta-stadium-cs-mvurya-confirms",
     "https://kenyans.co.ke/news/129168-one-dead-several-injured-after-gold-mine-explosion-migori",
-    "https://kenyans.co.ke/news/129170-ecitizen-go-through-maintenance-four-nights-november-treasury-announces"
+    "https://kenyans.co.ke/news/129170-ecitizen-go-through-maintenance-four-nights-november-treasury-announces",
+    "https://kenyans.co.ke/news/129173-justin-muturis-convoy-attacked-during-campaign-trail-migori-county"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2333,7 +2334,8 @@
     "high pressure pipeline breach mombasa exposes security risks along kpc fuel network",
     "talanta stadium sets ksh2 500 entry bayern ajax afcon dry run",
     "unannounced blasting shaft encroachment trigger fatal migori mine collapse",
-    "treasury schedules four night ecitizen shutdowns centralized portal handles ksh1b daily"
+    "treasury schedules four night ecitizen shutdowns centralized portal handles ksh1b daily",
+    "migori convoy stoning highlights rising friction nyanza campaign trail"
   ],
   "topic_keys": [
     "news tracker",
@@ -8012,6 +8014,15 @@
       "structure": "Centralized vulnerability lead -> Technical upgrade schedule and hours -> Processing friction and transaction volumes -> Fiscal governance backdrop (PAC findings) -> Service exposure and forward compliance",
       "source": "https://kenyans.co.ke/news/129170-ecitizen-go-through-maintenance-four-nights-november-treasury-announces",
       "published_at": "2026-11-05T14:19:10Z"
+    },
+    {
+      "title": "Migori Convoy Stoning Highlights Rising Friction on Nyanza Campaign Trail",
+      "angle": "Framing the attack through the lens of heightened campaign territoriality and political friction as opposition leaders test the waters in Nyanza against the backdrop of broad-based political realignments.",
+      "angle_type": "political accountability and regional campaign friction",
+      "opening": "Political conflict lead examining regional campaign resistance faced by the opposition coalition.",
+      "structure": "Regional campaign friction lead -> Attack facts and vehicle damage -> Political accusations against broad-based/ODM leaders -> Broad-based realignment context -> Police response and forward schedule",
+      "source": "https://kenyans.co.ke/news/129173-justin-muturis-convoy-attacked-during-campaign-trail-migori-county",
+      "published_at": "2026-11-05T15:02:21Z"
     }
   ]
 }
