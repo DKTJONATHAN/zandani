@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "6ab57453f789a6835e3394f7aecbb8f5",
     "ff64d239607b8b3731394a13f4283739",
     "4561435313ff968e5b6a2966eb1942dd",
     "e6ff9ac404f211b6dbb86a928d143f09",
@@ -799,10 +798,10 @@
     "7ce359ac01aedce97a232823a355b6f4",
     "66d2ab690a8a748834eef731d25a98b8",
     "619ba9e76bd11182709175d8ec55f3b3",
-    "9d81024d284616bc589ca9f5d4bc7a2e"
+    "9d81024d284616bc589ca9f5d4bc7a2e",
+    "0a427ba3effae22e4dc50b390b8f74bd"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1614,7 +1614,8 @@
     "https://kenyans.co.ke/news/129145-kenya-hold-new-trade-and-security-talks-trump-administration-december",
     "https://kenyans.co.ke/news/129146-world-bank-links-high-electricity-costs-opaque-power-deals-kenya",
     "https://kenyans.co.ke/news/129149-dci-arrests-man-posing-gsu-officer-extort-nairobi-residents",
-    "https://kenyans.co.ke/news/129151-world-bank-ranks-mombasa-port-among-worlds-worst-performing-ports"
+    "https://kenyans.co.ke/news/129151-world-bank-ranks-mombasa-port-among-worlds-worst-performing-ports",
+    "https://kenyans.co.ke/news/129153-psk-explains-risks-misusing-cetirizine-tablets-amid-viral-social-media-trend"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2319,7 +2320,8 @@
     "prepares 2026 2030 roadmap aid reductions shift focus reciprocal trade",
     "uncompetitive deals insider conflicts drive high power tariffs world bank reports",
     "mock badges handcuffs jogoo road arrest exposes vulnerabilities fake security authority",
-    "corridor inflation port friction cfs patronage drive inland freight rates"
+    "corridor inflation port friction cfs patronage drive inland freight rates",
+    "cetirizine shortages hit pharmacies misuse frenzy spurs state tracking plan"
   ],
   "topic_keys": [
     "news tracker",
@@ -7935,6 +7937,15 @@
       "structure": "Corridor cost breakdown -> Global CPPI ranking drop -> KPA leadership instability & CFS patronage -> Multi-agency clearance friction & bribery -> Roadblock Reduction Initiative and infrastructure outlook.",
       "source": "https://kenyans.co.ke/news/129151-world-bank-ranks-mombasa-port-among-worlds-worst-performing-ports",
       "published_at": "2026-11-05T08:02:33Z"
+    },
+    {
+      "title": "Cetirizine Shortages Hit Pharmacies as Misuse Frenzy Spurs State Tracking Plan",
+      "angle": "Framing the crisis around retail pharmaceutical disruption and regulatory pressure\u2014examining how viral social media health claims have triggered pharmacy price gouging, stock-outs for chronic allergy sufferers, and state-backed supply chain surveillance proposals.",
+      "angle_type": "supply chain disruption and regulatory intervention",
+      "opening": "Market-strain opening connecting retail pharmacy price surges and stock shortages directly to the government's push for drug-tracking surveillance.",
+      "structure": "Retail impact lead -> Pharmacological reality vs viral claims -> Retail shortage and price inflation breakdown -> State surveillance mechanism (Oluga) -> Clinical guidance and next regulatory steps.",
+      "source": "https://kenyans.co.ke/news/129153-psk-explains-risks-misusing-cetirizine-tablets-amid-viral-social-media-trend",
+      "published_at": "2026-11-05T09:02:25Z"
     }
   ]
 }
