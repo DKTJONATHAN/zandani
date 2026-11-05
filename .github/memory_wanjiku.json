@@ -373,7 +373,8 @@
     "9490e0268974274a82342e59cffe7c6d96d9536006eaef65f03650ec446c451d",
     "6241297fcbf8712660830035cf3703c1a81ac6c5116a94ca116f6ccac5baa986",
     "5fa30392e15156349199e63a249c5c2c5a43779a071dfd7ca0dd83c4dc285698",
-    "29dae5313e8cad523969c39db844a8a3e9aee626ed3927a03895d3bbc3a3cf7c"
+    "29dae5313e8cad523969c39db844a8a3e9aee626ed3927a03895d3bbc3a3cf7c",
+    "411cf9421bfcd89cbdb2e51f618a213e134772d9ff50c82e44c07c123dda32c5"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -749,17 +750,10 @@
     "https://www.ghafla.co.ke/kenya-power-announces-thursday-blackouts-in-westlands-ngong-road-kisii-kiambu-mombasa-and-kilifi/",
     "https://www.ghafla.co.ke/bernice-saroni-raises-alarm-after-son-junior-is-choked-by-fellow-student-in-us-school/",
     "https://www.ghafla.co.ke/life-lazima-imove-on-nana-owiti-reacts-to-king-kaka-and-ema-kalekye-dating-rumors/",
-    "https://www.ghafla.co.ke/bahati-offers-to-pay-1-million-to-musician-who-performs-at-his-upcoming-wedding/"
+    "https://www.ghafla.co.ke/bahati-offers-to-pay-1-million-to-musician-who-performs-at-his-upcoming-wedding/",
+    "https://www.ghafla.co.ke/mp-david-ndakwa-warns-against-wrong-political-alliances-urges-kenyans-to-give-ruto-10-years/"
   ],
   "published_angles": [
-    {
-      "title": "Joshua Nyamori Lays Bare Nyanza Panic as Ruto Swallows Raila's Backyard Votes",
-      "angle": "Reframing Joshua Nyamori's revelation as an existential panic for Nyanza's political elite, exposing how sitting MPs and governors who long coasted on Raila Odinga's coattails are suddenly trapped by a voter revolt that rewards Ruto at the top while rejecting local incumbents.",
-      "angle_type": "political insider reveal and elite vulnerability",
-      "opening": "Personality lead opening directly on Joshua Nyamori laying bare the uncomfortable numbers terrifying sitting Nyanza politicians.",
-      "structure": "Personality reveal hook -> The stark 7-to-8 vs. 4-to-5 metric -> Breakdown of the broken coattail tradition -> The accountability test facing regional incumbents -> Grounded conclusion on the emerging survival scramble.",
-      "source": "https://www.ghafla.co.ke/william-ruto-has-inherited-railas-constituency-joshua-nyamori/"
-    },
     {
       "title": "Bypassing the Secretary: Pastor Kanyari Halts Church Office Schedule for School Crush Reunion",
       "angle": "Examining the specific workplace and protocol disruption behind the viral video\u2014how Kanyari abruptly dismissed his official church office routine, sidelined his secretary, and brushed aside scheduled meetings the moment his childhood crush walked through the door.",
@@ -1551,6 +1545,14 @@
       "opening": "Personality lead focusing directly on Kevin Bahati disrupting standard private wedding procurement by posting a KSh 1 million single-night performance budget on social media.",
       "structure": "Open-call hook -> Details of 'The Invite' black-tie event and fee -> Traditional booking contrast -> Content strategy and public profile context -> Unresolved performer selection close.",
       "source": "https://www.ghafla.co.ke/bahati-offers-to-pay-1-million-to-musician-who-performs-at-his-upcoming-wedding/"
+    },
+    {
+      "title": "David Ndakwa Cites Gachagua and Mwangaza Impeachments in Survival Warning to Politicians",
+      "angle": "Framing MP David Ndakwa's remarks around the specific political survival warning he delivered to colleagues, using the high-profile impeachment trail of Gachagua, Mwangaza, and Linturi as explicit cautionary evidence for political alignment ahead of 2027.",
+      "angle_type": "political survival and alignment strategy",
+      "opening": "Personality lead focusing directly on MP David Ndakwa citing the political falls of Gachagua, Mwangaza, and Linturi.",
+      "structure": "Personality hook on impeachment warning -> Breakdown of the three cited impeachment cases -> Ndakwa's direct quotes on political consequences -> Transition to the 10-year Ruto mandate argument -> Strategic context leading toward 2027",
+      "source": "https://www.ghafla.co.ke/mp-david-ndakwa-warns-against-wrong-political-alliances-urges-kenyans-to-give-ruto-10-years/"
     }
   ],
   "style_history": [
