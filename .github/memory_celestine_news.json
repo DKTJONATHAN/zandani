@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "702456d438109a631b2bb6d9bef1b5c5",
     "2afe587468ccbe8b2b8cc64ea5cc2531",
     "f8a942a415f888e36a8b38f5a8a85c88",
     "53952295f52128986cff52aadf31ec60",
@@ -799,10 +798,10 @@
     "533b1e027e39575828663c429eb3e3a3",
     "81c1f93f5c78bddec980f451b88909b2",
     "b362ed4836fd58ce3a225a23e731dcfa",
-    "71fe6c346882341516c52ef65d7d8888"
+    "71fe6c346882341516c52ef65d7d8888",
+    "d1d928f5aa42de28c6ca96b2564d7016"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1620,7 +1620,8 @@
     "https://kenyans.co.ke/news/129158-knec-announces-january-2027-assessments-teacher-trainees-who-failed-or-missed-exams",
     "https://kenyans.co.ke/news/129163-police-open-probe-after-attempt-steal-fuel-kpc-pipeline",
     "https://kenyans.co.ke/news/129165-kenyans-pay-low-ksh2500-watch-bayern-munich-vs-ajax-talanta-stadium-cs-mvurya-confirms",
-    "https://kenyans.co.ke/news/129168-one-dead-several-injured-after-gold-mine-explosion-migori"
+    "https://kenyans.co.ke/news/129168-one-dead-several-injured-after-gold-mine-explosion-migori",
+    "https://kenyans.co.ke/news/129170-ecitizen-go-through-maintenance-four-nights-november-treasury-announces"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2331,7 +2332,8 @@
     "knec sets ecitizen fee terms college consolidation rules march 2027 teacher resits",
     "high pressure pipeline breach mombasa exposes security risks along kpc fuel network",
     "talanta stadium sets ksh2 500 entry bayern ajax afcon dry run",
-    "unannounced blasting shaft encroachment trigger fatal migori mine collapse"
+    "unannounced blasting shaft encroachment trigger fatal migori mine collapse",
+    "treasury schedules four night ecitizen shutdowns centralized portal handles ksh1b daily"
   ],
   "topic_keys": [
     "news tracker",
@@ -8001,6 +8003,15 @@
       "structure": "Subterranean hazard lead -> Kabobo blast and casualty evidence -> Encroachment and communication breakdown analysis -> Regional safety and legal context -> Regulatory enforcement forward edge",
       "source": "https://kenyans.co.ke/news/129168-one-dead-several-injured-after-gold-mine-explosion-migori",
       "published_at": "2026-11-05T14:02:10Z"
+    },
+    {
+      "title": "Treasury Schedules Four-Night eCitizen Shutdowns as Centralized Portal Handles Ksh1B Daily",
+      "angle": "The infrastructural vulnerability of an all-in-one payment monopoly handling Ksh1 billion daily, where scheduled shutdowns to resolve basic latency occur alongside unresolved parliamentary scrutiny over diverted funds.",
+      "angle_type": "operational vulnerability and centralized fiscal risk",
+      "opening": "Concentration risk opening framing the planned maintenance around the massive daily cash flow and public service volume dependent on a single portal.",
+      "structure": "Centralized vulnerability lead -> Technical upgrade schedule and hours -> Processing friction and transaction volumes -> Fiscal governance backdrop (PAC findings) -> Service exposure and forward compliance",
+      "source": "https://kenyans.co.ke/news/129170-ecitizen-go-through-maintenance-four-nights-november-treasury-announces",
+      "published_at": "2026-11-05T14:19:10Z"
     }
   ]
 }
