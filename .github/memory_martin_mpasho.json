@@ -151,7 +151,8 @@
     "4ced192b192b773f51c1555470eed331247b9696ea19a571271ef6cb9c83dd69",
     "5ddf6605fd72e7698b836bf4c7cf9ea60efb0bf41504bad8563efeac6d03d1d9",
     "71931916e5dc3715504773bb114126d9b99c459c6b8e187b8ed162dd197fe6e1",
-    "a4dbc512c3cecd6fff0d74b1a21ce7c9a1af6875eff42d6f138ad37f429cd71f"
+    "a4dbc512c3cecd6fff0d74b1a21ce7c9a1af6875eff42d6f138ad37f429cd71f",
+    "a1dcc67c62b9eb1c9ab577f1a7d44270085fc72da46a76a3e6cc424f8b2ec59b"
   ],
   "style_history": [
     "Event Report",
@@ -454,6 +455,10 @@
     {
       "key": "2026-11-05-nana-owiti-addresses-king-kaka-finding-new-love",
       "ts": "2026-11-05T13:24:01.784938+00:00"
+    },
+    {
+      "key": "2026-11-05-wapendwa-muziki-reveal-they-use-suno-ai-to-create-music-mesh-says-he-pays-ksh-40000",
+      "ts": "2026-11-05T15:23:35.203327+00:00"
     }
   ],
   "urls": [
@@ -509,7 +514,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-05-dj-mo-explains-arrest-after-being-fined-over-traffic-offences",
     "https://www.mpasho.co.ke/entertainment/2026-11-05-wapendwa-muziki-reveal-how-they-use-ai-to-create-music",
     "https://www.mpasho.co.ke/entertainment/2026-11-05-nana-owiti-speaks-on-moving-on-after-king-kaka-split-says-she-is-focused-on-bettering-herself",
-    "https://www.mpasho.co.ke/entertainment/2026-11-05-nana-owiti-addresses-king-kaka-finding-new-love"
+    "https://www.mpasho.co.ke/entertainment/2026-11-05-nana-owiti-addresses-king-kaka-finding-new-love",
+    "https://www.mpasho.co.ke/entertainment/2026-11-05-wapendwa-muziki-reveal-they-use-suno-ai-to-create-music-mesh-says-he-pays-ksh-40000"
   ],
   "published_angles": [
     {
@@ -927,6 +933,14 @@
       "opening": "Personality lead opening directly on Nana Owiti framing her stance on post-split romance around the concept of mature jealousy.",
       "structure": "Personality hook -> Phone interview mechanics with Ankali Ray -> The trigger clip featuring Kalekye -> Breakdown of 'wivu wa maturity' doctrine -> Broader post-split trajectory close",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-05-nana-owiti-addresses-king-kaka-finding-new-love"
+    },
+    {
+      "title": "Wapendwa Muziki's KSh 40,000 Annual 'Creative Rent' in the Age of AI Demos",
+      "angle": "The financial and practical 'burn rate' of AI-driven creative tools; focusing on the KSh 40,000 subscription as a deliberate operational cost for independent artists rather than just a novelty.",
+      "angle_type": "studio budget and operational efficiency",
+      "opening": "Personality lead focusing on the specific financial investment in software.",
+      "structure": "Financial commitment hook -> Operational shift from traditional studios -> The mechanics of the AI-demo workflow -> Industry efficiency vs. creative authenticity balance -> Closing on the evolving cost of music production.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-05-wapendwa-muziki-reveal-they-use-suno-ai-to-create-music-mesh-says-he-pays-ksh-40000"
     }
   ]
 }
