@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "53952295f52128986cff52aadf31ec60",
     "2fca5bb3d4d5bdbe57e8ce865874f873",
     "bf3a33b8681cd8e5db2aba9fa5ef57bb",
     "407835ab70160726336b22bef9aee318",
@@ -799,10 +798,10 @@
     "71fe6c346882341516c52ef65d7d8888",
     "d1d928f5aa42de28c6ca96b2564d7016",
     "575c00756e005b598664244f9462d99f",
-    "cde2905e28d42977b9f942bd11a7213a"
+    "cde2905e28d42977b9f942bd11a7213a",
+    "a9f3d18eaa19c627cd415b95601d1c62"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1623,7 +1623,8 @@
     "https://kenyans.co.ke/news/129168-one-dead-several-injured-after-gold-mine-explosion-migori",
     "https://kenyans.co.ke/news/129170-ecitizen-go-through-maintenance-four-nights-november-treasury-announces",
     "https://kenyans.co.ke/news/129173-justin-muturis-convoy-attacked-during-campaign-trail-migori-county",
-    "https://kenyans.co.ke/news/129174-azimio-announces-new-leadership-matiangi-and-orengo-take-council-roles"
+    "https://kenyans.co.ke/news/129174-azimio-announces-new-leadership-matiangi-and-orengo-take-council-roles",
+    "https://kenyans.co.ke/news/129176-parliament-orders-probe-cracks-riruta-satellite-apartment-building"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2337,7 +2338,8 @@
     "unannounced blasting shaft encroachment trigger fatal migori mine collapse",
     "treasury schedules four night ecitizen shutdowns centralized portal handles ksh1b daily",
     "migori convoy stoning highlights rising friction nyanza campaign trail",
-    "matiang orengo take council helm opposition restructure leaves gachagua out"
+    "matiang orengo take council helm opposition restructure leaves gachagua out",
+    "unapproved story riruta block exposes nairobi habitability enforcement gap"
   ],
   "topic_keys": [
     "news tracker",
@@ -8034,6 +8036,15 @@
       "structure": "Leadership shift lead -> Institutional vacancy context -> Gachagua exclusion and principal friction breakdown -> Rebranding and coalition strategy -> Flagbearer struggle outlook",
       "source": "https://kenyans.co.ke/news/129174-azimio-announces-new-leadership-matiangi-and-orengo-take-council-roles",
       "published_at": "2026-11-05T16:02:55Z"
+    },
+    {
+      "title": "Unapproved 10-Story Riruta Block Exposes Nairobi's Habitability Enforcement Gap",
+      "angle": "Framing around unapproved residential occupation and structural loading risks\u2014examining how a 10-story development housed nearly 100 families without statutory planning approvals until structural failure and top-floor weight stresses forced emergency evacuations.",
+      "angle_type": "regulatory enforcement and structural oversight failure",
+      "opening": "Unapproved construction and habitability risk lead, highlighting how a 10-story block occupied by up to 100 families operated outside statutory planning frameworks until visible masonry failure forced emergency state intervention.",
+      "structure": "Unapproved occupancy lead -> Structural failure mechanics and load factors -> Parliamentary inspection and investigative directive -> Evacuation friction and asset recovery -> Broader safety context and Eastleigh mortality backdrop",
+      "source": "https://kenyans.co.ke/news/129176-parliament-orders-probe-cracks-riruta-satellite-apartment-building",
+      "published_at": "2026-11-05T17:02:05Z"
     }
   ]
 }
