@@ -368,7 +368,8 @@
     "42e2f10ff44ed103ad17b1a36f160ceba409d9d8d73eb9b4ac9141ec7efb4a36",
     "8d458baf93f4f902a5075553f4a651c9082b366b7e5ebaf2de27ba146eb58bb0",
     "7fe694d0c1b5a4634094be75eb4040d77375639068992cb0523d1acc5a79ce4a",
-    "4b8972aa6622e6ef0b4575b3db5f7cb0787736a3e0ea1eeec84c8afbf0ed651b"
+    "4b8972aa6622e6ef0b4575b3db5f7cb0787736a3e0ea1eeec84c8afbf0ed651b",
+    "6ca6959c0b32c202fb4c461c0399fb28c6acb553498a2b5680ff08e535689e5f"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -739,17 +740,10 @@
     "https://www.ghafla.co.ke/are-you-ready-winnie-odinga-teases-major-announcement-ahead-of-2027-nairobi-senate-bid/",
     "https://www.ghafla.co.ke/millie-odhiambo-praises-ruto-for-promoting-equal-development-across-kenya/",
     "https://www.ghafla.co.ke/cs-joho-warns-dealers-event-hosts-as-government-regulates-diwali-fireworks-displays/",
-    "https://www.ghafla.co.ke/jaymo-ule-msee-apologises-to-gen-z-reveals-financial-struggles-after-political-fallout/"
+    "https://www.ghafla.co.ke/jaymo-ule-msee-apologises-to-gen-z-reveals-financial-struggles-after-political-fallout/",
+    "https://www.ghafla.co.ke/mosiria-hosts-cre-lesson-in-comparison-with-with-babu-owinos-lessons/"
   ],
   "published_angles": [
-    {
-      "title": "US-Based Kenyan Learns the Hard Way That Four Years of 'Come-We-Stay' Doesn't Buy a Divorce",
-      "angle": "Examining the high financial and legal folly of a Diaspora-based partner trying to untangle a 'come-we-stay' arrangement through formal divorce courts when no legal union ever existed.",
-      "angle_type": "legal accountability and relationship reality",
-      "opening": "Personality-led focus on BMT's court gamble.",
-      "structure": "Personality litigation hook -> The Diaspora financial grievances -> The magistrate's legal dismissal -> The reality of Kenyan 'come-we-stay' jurisprudence",
-      "source": "https://www.ghafla.co.ke/nakuru-court-rules-four-years-of-cohabitation-do-not-automatically-make-a-couple-married/"
-    },
     {
       "title": "Mike Sonko's Vaults in Crosshairs as KRA Slaps First Community Bank With KSh 623M Agency Notice",
       "angle": "Focusing on Mike Sonko's high-visibility banking exposure, where the taxman has bypassed court theatrics to trigger a direct institutional collection order against his First Community Bank vaults\u2014escalating a financial squeeze that closely follows his August loss at the Tax Appeals Tribunal.",
@@ -1541,6 +1535,14 @@
       "opening": "Personality-led entry focusing directly on the creator's financial standing and public appeal mechanics.",
       "structure": "Personality financial hook -> June 25, 2025 retrospective apology -> M-Pesa public appeal and quiet humiliation detail -> 'Inside the Life of a Prodigal Creator' launch context -> Concrete release date close.",
       "source": "https://www.ghafla.co.ke/jaymo-ule-msee-apologises-to-gen-z-reveals-financial-struggles-after-political-fallout/"
+    },
+    {
+      "title": "Geoffrey Mosiria Steps Into Babu Owino\u2019s Virtual Classroom Playbook With KCSE CRE Revision Session",
+      "angle": "Examining the specific tactical transition from political stump speeches to virtual classroom pop-ups as a direct voter-engagement play targeting KCSE candidates and their households.",
+      "angle_type": "political engagement and digital campaign tactics",
+      "opening": "Personality-led focus on Geoffrey Mosiria stepping into the virtual classroom space with a Bible in hand.",
+      "structure": "Personality hook on Mosiria's virtual classroom -> Breakdown of the social media callout and Old Testament revision focus -> Comparison with Babu Owino's established COVID-era revision model -> Political positioning context for the 2027 Embakasi East race.",
+      "source": "https://www.ghafla.co.ke/mosiria-hosts-cre-lesson-in-comparison-with-with-babu-owinos-lessons/"
     }
   ],
   "style_history": [
