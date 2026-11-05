@@ -372,7 +372,8 @@
     "6ca6959c0b32c202fb4c461c0399fb28c6acb553498a2b5680ff08e535689e5f",
     "9490e0268974274a82342e59cffe7c6d96d9536006eaef65f03650ec446c451d",
     "6241297fcbf8712660830035cf3703c1a81ac6c5116a94ca116f6ccac5baa986",
-    "5fa30392e15156349199e63a249c5c2c5a43779a071dfd7ca0dd83c4dc285698"
+    "5fa30392e15156349199e63a249c5c2c5a43779a071dfd7ca0dd83c4dc285698",
+    "29dae5313e8cad523969c39db844a8a3e9aee626ed3927a03895d3bbc3a3cf7c"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -747,17 +748,10 @@
     "https://www.ghafla.co.ke/mosiria-hosts-cre-lesson-in-comparison-with-with-babu-owinos-lessons/",
     "https://www.ghafla.co.ke/kenya-power-announces-thursday-blackouts-in-westlands-ngong-road-kisii-kiambu-mombasa-and-kilifi/",
     "https://www.ghafla.co.ke/bernice-saroni-raises-alarm-after-son-junior-is-choked-by-fellow-student-in-us-school/",
-    "https://www.ghafla.co.ke/life-lazima-imove-on-nana-owiti-reacts-to-king-kaka-and-ema-kalekye-dating-rumors/"
+    "https://www.ghafla.co.ke/life-lazima-imove-on-nana-owiti-reacts-to-king-kaka-and-ema-kalekye-dating-rumors/",
+    "https://www.ghafla.co.ke/bahati-offers-to-pay-1-million-to-musician-who-performs-at-his-upcoming-wedding/"
   ],
   "published_angles": [
-    {
-      "title": "Kamau Thugge Bets on Cheaper Food to Blunt KSh 129 Shilling Squeeze as Oil Marketers Hunt Dollars",
-      "angle": "Reframing the forex movement around Central Bank Governor Kamau Thugge's personal policy gamble\u2014counting on falling food prices to neutralize a twin assault from double-digit landed fuel cost spikes and an aggressive importer run on commercial dollar desks.",
-      "angle_type": "public figure policy gamble and economic tension",
-      "opening": "Personality lead opening directly on Kamau Thugge's food-versus-fuel monetary calculation.",
-      "structure": "Personality policy hook -> The fragile KSh 129 bank quote band -> EPRA's September landed cost numbers -> The importer dollar pipeline -> Consumer spillover risk -> Closing unresolved monetary checkpoint.",
-      "source": "https://www.ghafla.co.ke/kenyan-shilling-risks-losing-value-in-coming-week/"
-    },
     {
       "title": "Joshua Nyamori Lays Bare Nyanza Panic as Ruto Swallows Raila's Backyard Votes",
       "angle": "Reframing Joshua Nyamori's revelation as an existential panic for Nyanza's political elite, exposing how sitting MPs and governors who long coasted on Raila Odinga's coattails are suddenly trapped by a voter revolt that rewards Ruto at the top while rejecting local incumbents.",
@@ -1549,6 +1543,14 @@
       "opening": "Personality lead opening directly on Nana Owiti's stance on post-breakup emotional progression during her Milele FM call.",
       "structure": "Personality stance hook -> Breakdown of Nana Owiti's interview remarks to Ankali Ray -> Music promo origin and Ema Kalekye's boundary clarification -> Co-parenting and 2024 relationship timeline close.",
       "source": "https://www.ghafla.co.ke/life-lazima-imove-on-nana-owiti-reacts-to-king-kaka-and-ema-kalekye-dating-rumors/"
+    },
+    {
+      "title": "Bahati Bypasses Private Booking With KSh 1 Million Public Pitch for \u2018The Invite\u2019 Wedding Gig",
+      "angle": "Examining how Bahati is bypassing traditional private event booking channels to turn his upcoming black-tie wedding into an open-call performance opportunity with a KSh 1 million payout.",
+      "angle_type": "event economics and gig booking strategy",
+      "opening": "Personality lead focusing directly on Kevin Bahati disrupting standard private wedding procurement by posting a KSh 1 million single-night performance budget on social media.",
+      "structure": "Open-call hook -> Details of 'The Invite' black-tie event and fee -> Traditional booking contrast -> Content strategy and public profile context -> Unresolved performer selection close.",
+      "source": "https://www.ghafla.co.ke/bahati-offers-to-pay-1-million-to-musician-who-performs-at-his-upcoming-wedding/"
     }
   ],
   "style_history": [
