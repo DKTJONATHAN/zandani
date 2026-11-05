@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "dac5501c12f11897e766501109396e17",
     "c6d8ff7808c238e3dd0bde3f1f32eb20",
     "bbf2bc778f698a277d87545344bb958c",
     "4498a8451691a6e44796f5f8e25e832a",
@@ -799,10 +798,10 @@
     "dfe1843419ef4dbae6e6c097c0f2a0d0",
     "d6c1cc2920b45b0eb42c1e2bee9f7bda",
     "5369291f5bf3857cef5b8881980ffc68",
-    "737a3a9f94897ede7a825d8955401136"
+    "737a3a9f94897ede7a825d8955401136",
+    "4f28766513ecd36453cd3837d50c3cee"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1609,7 +1609,8 @@
     "https://kenyans.co.ke/news/129131-uasu-warns-govt-over-ksh20-billion-lecturers-cba-deal",
     "https://kenyans.co.ke/news/129136-veteran-sports-journalist-jack-kwemba-dies-tragic-siaya-motorbike-accident",
     "https://kenyans.co.ke/news/129134-ruto-says-govt-speeding-dualling-nairobi-mombasa-highway",
-    "https://kenyans.co.ke/news/129138-ruto-announces-plan-manufacture-leather-shoes-14-million-students"
+    "https://kenyans.co.ke/news/129138-ruto-announces-plan-manufacture-leather-shoes-14-million-students",
+    "https://kenyans.co.ke/news/129143-kenya-power-records-ksh36-billion-profit-revenue-hits-ksh-238b-fy20252026"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2309,7 +2310,8 @@
     "uasu rejects student fee formula lecturer pay ksh20b deal hits parliament",
     "jack kwemba death siaya marks another field loss veteran newsrooms",
     "highway safety crises force acceleration nairobi mombasa dualling talks",
-    "state targets million school shoe market plug leather trade deficit"
+    "state targets million school shoe market plug leather trade deficit",
+    "power erases deficit ksh21b working capital turnaround"
   ],
   "topic_keys": [
     "news tracker",
@@ -7880,6 +7882,15 @@
       "structure": "Trade-deficit lead -> Core KICC announcement facts -> Security force boot prototype comparison -> Economic data breakdown (80M herd vs export/import gap) -> Machakos processing hub and devolution mechanics -> Scaling outlook",
       "source": "https://kenyans.co.ke/news/129138-ruto-announces-plan-manufacture-leather-shoes-14-million-students",
       "published_at": "2026-11-04T15:02:08Z"
+    },
+    {
+      "title": "Kenya Power Erases Deficit With Ksh21B Working Capital Turnaround",
+      "angle": "Analyzing the balance sheet turnaround, specifically the Ksh 21.1 billion shift in working capital from deficit to surplus, which restored corporate liquidity and equity valuation while absorbing higher bulk power purchase costs.",
+      "angle_type": "balance sheet mechanics",
+      "opening": "Liquidity lead focusing on the structural elimination of the working capital deficit rather than top-line profit claims.",
+      "structure": "Working capital turnaround lead -> Factual core on profit and revenue growth -> Balance sheet mechanics and stock market response -> Bulk procurement costs and grid stability challenges -> AGM timeline and dividend payout edge.",
+      "source": "https://kenyans.co.ke/news/129143-kenya-power-records-ksh36-billion-profit-revenue-hits-ksh-238b-fy20252026",
+      "published_at": "2026-11-05T05:02:23Z"
     }
   ]
 }
