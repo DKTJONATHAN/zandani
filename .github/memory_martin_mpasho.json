@@ -147,7 +147,8 @@
     "7b1a6bd5d9b8dd7c427dafe375a34ce0875e8538facd4b9fb38bf23559faf15d",
     "822feabd919ed866924fef4320e5d09ba851dd175fb5360feb93c90515245e65",
     "2924f4444bec64a4c2c5d5bbc31bb56e6a476b9be773ee557c3a826214625ed6",
-    "f041cf437b58787c5f27b9706d6e4b0a57cc37dc9d80f7e7965f9d19591e0f72"
+    "f041cf437b58787c5f27b9706d6e4b0a57cc37dc9d80f7e7965f9d19591e0f72",
+    "4ced192b192b773f51c1555470eed331247b9696ea19a571271ef6cb9c83dd69"
   ],
   "style_history": [
     "Event Report",
@@ -434,6 +435,10 @@
     {
       "key": "2026-11-05-mama-ryan-meet-mary-goreti-the-actress-who-chose-entertainment-over-psychology",
       "ts": "2026-11-05T05:23:10.645899+00:00"
+    },
+    {
+      "key": "2026-11-05-dj-mo-explains-arrest-after-being-fined-over-traffic-offences",
+      "ts": "2026-11-05T07:22:17.850672+00:00"
     }
   ],
   "urls": [
@@ -485,7 +490,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-04-andy-deh-draws-backlash-over-remarks-on-women",
     "https://www.mpasho.co.ke/entertainment/2026-11-04-keranta-covers-up-flaqos-name-tattoo-after-bitter-breakup",
     "https://www.mpasho.co.ke/entertainment/2026-11-04-allan-ademba-calls-for-regulation-of-churches-in-kenya-says-their-numbers-are-too-high",
-    "https://www.mpasho.co.ke/entertainment/2026-11-05-mama-ryan-meet-mary-goreti-the-actress-who-chose-entertainment-over-psychology"
+    "https://www.mpasho.co.ke/entertainment/2026-11-05-mama-ryan-meet-mary-goreti-the-actress-who-chose-entertainment-over-psychology",
+    "https://www.mpasho.co.ke/entertainment/2026-11-05-dj-mo-explains-arrest-after-being-fined-over-traffic-offences"
   ],
   "published_angles": [
     {
@@ -871,6 +877,14 @@
       "opening": "Personality lead opening directly on Mary Goreti balancing academic psychology as a pragmatic backup plan against her high school acting ambitions.",
       "structure": "Personality lead on academic backup vs creative drive -> Financial security motivation and attachment experience -> The origin of the 'Mama Ryan' brand identity -> Performance range from authoritative 'Katonge' to submissive roles -> Family support foundation and digital reach close",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-05-mama-ryan-meet-mary-goreti-the-actress-who-chose-entertainment-over-psychology"
+    },
+    {
+      "title": "DJ Mo\u2019s Missed US Flight and Court Date Sparked by a Single Day of Expired Insurance",
+      "angle": "Examining how a single administrative oversight\u2014an expired insurance certificate\u2014collided with a family medical emergency and compounded into a missed international flight and a courtroom appearance.",
+      "angle_type": "administrative oversight and travel disruption",
+      "opening": "Personality lead focusing directly on DJ Mo's morning traffic stop near Roasters and the immediate collision between family urgency and administrative oversight.",
+      "structure": "Personality-driven vehicle stop hook -> Courtroom breakdown of the two distinct charges and fines -> The family emergency justification and police instruction dispute -> Missed US travel flight consequence -> Concrete close on the administrative warning.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-05-dj-mo-explains-arrest-after-being-fined-over-traffic-offences"
     }
   ]
 }
