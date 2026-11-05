@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "9256536dcf911231527df6be6137ab6c",
     "bfb038158760fb56919008cac69abb13",
     "702456d438109a631b2bb6d9bef1b5c5",
     "2afe587468ccbe8b2b8cc64ea5cc2531",
@@ -799,10 +798,10 @@
     "0a427ba3effae22e4dc50b390b8f74bd",
     "c8bcf411ffb417298b45d9f8f3ab32e0",
     "533b1e027e39575828663c429eb3e3a3",
-    "81c1f93f5c78bddec980f451b88909b2"
+    "81c1f93f5c78bddec980f451b88909b2",
+    "b362ed4836fd58ce3a225a23e731dcfa"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1618,7 +1618,8 @@
     "https://kenyans.co.ke/news/129153-psk-explains-risks-misusing-cetirizine-tablets-amid-viral-social-media-trend",
     "https://kenyans.co.ke/news/129156-earth-tremor-reported-nairobi-kiambu-and-kajiado-experts-confirm",
     "https://kenyans.co.ke/news/129158-knec-announces-january-2027-assessments-teacher-trainees-who-failed-or-missed-exams",
-    "https://kenyans.co.ke/news/129163-police-open-probe-after-attempt-steal-fuel-kpc-pipeline"
+    "https://kenyans.co.ke/news/129163-police-open-probe-after-attempt-steal-fuel-kpc-pipeline",
+    "https://kenyans.co.ke/news/129165-kenyans-pay-low-ksh2500-watch-bayern-munich-vs-ajax-talanta-stadium-cs-mvurya-confirms"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2327,7 +2328,8 @@
     "cetirizine shortages hit pharmacies misuse frenzy spurs state tracking plan",
     "cross border seismic shock hits central following magnitude quake tanzania",
     "knec sets ecitizen fee terms college consolidation rules march 2027 teacher resits",
-    "high pressure pipeline breach mombasa exposes security risks along kpc fuel network"
+    "high pressure pipeline breach mombasa exposes security risks along kpc fuel network",
+    "talanta stadium sets ksh2 500 entry bayern ajax afcon dry run"
   ],
   "topic_keys": [
     "news tracker",
@@ -7979,6 +7981,15 @@
       "structure": "Operational breach lead -> Technical facts of the pressure drop and discovery -> Insider inquiry & access controls -> Nationwide siphoning loss metrics (Ksh600M) & regional pattern -> Forensic next steps",
       "source": "https://kenyans.co.ke/news/129163-police-open-probe-after-attempt-steal-fuel-kpc-pipeline",
       "published_at": "2026-11-05T12:01:36Z"
+    },
+    {
+      "title": "Talanta Stadium Sets Ksh2,500 Entry for Bayern-Ajax in AFCON Dry Run",
+      "angle": "Framing the fixture as a high-stakes operational and commercial dress rehearsal for AFCON 2027, where ministry officials are deploying private-sector financing models and written squad guarantees to validate the newly completed 60,000-seat arena against mounting funding questions.",
+      "angle_type": "operational readiness and commercial stress-test",
+      "opening": "Operational-readiness opening centering on the stadium's inaugural stress-test and contractual guarantees ahead of AFCON 2027.",
+      "structure": "Operational lead -> Ticketing rollout and platform controls -> Contractual squad guarantees -> Private financing and event economics -> AFCON 2027 timeline and stadium readiness",
+      "source": "https://kenyans.co.ke/news/129165-kenyans-pay-low-ksh2500-watch-bayern-munich-vs-ajax-talanta-stadium-cs-mvurya-confirms",
+      "published_at": "2026-11-05T13:02:19Z"
     }
   ]
 }
