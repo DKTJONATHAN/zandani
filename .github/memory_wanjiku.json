@@ -369,7 +369,8 @@
     "8d458baf93f4f902a5075553f4a651c9082b366b7e5ebaf2de27ba146eb58bb0",
     "7fe694d0c1b5a4634094be75eb4040d77375639068992cb0523d1acc5a79ce4a",
     "4b8972aa6622e6ef0b4575b3db5f7cb0787736a3e0ea1eeec84c8afbf0ed651b",
-    "6ca6959c0b32c202fb4c461c0399fb28c6acb553498a2b5680ff08e535689e5f"
+    "6ca6959c0b32c202fb4c461c0399fb28c6acb553498a2b5680ff08e535689e5f",
+    "9490e0268974274a82342e59cffe7c6d96d9536006eaef65f03650ec446c451d"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -741,17 +742,10 @@
     "https://www.ghafla.co.ke/millie-odhiambo-praises-ruto-for-promoting-equal-development-across-kenya/",
     "https://www.ghafla.co.ke/cs-joho-warns-dealers-event-hosts-as-government-regulates-diwali-fireworks-displays/",
     "https://www.ghafla.co.ke/jaymo-ule-msee-apologises-to-gen-z-reveals-financial-struggles-after-political-fallout/",
-    "https://www.ghafla.co.ke/mosiria-hosts-cre-lesson-in-comparison-with-with-babu-owinos-lessons/"
+    "https://www.ghafla.co.ke/mosiria-hosts-cre-lesson-in-comparison-with-with-babu-owinos-lessons/",
+    "https://www.ghafla.co.ke/kenya-power-announces-thursday-blackouts-in-westlands-ngong-road-kisii-kiambu-mombasa-and-kilifi/"
   ],
   "published_angles": [
-    {
-      "title": "Mike Sonko's Vaults in Crosshairs as KRA Slaps First Community Bank With KSh 623M Agency Notice",
-      "angle": "Focusing on Mike Sonko's high-visibility banking exposure, where the taxman has bypassed court theatrics to trigger a direct institutional collection order against his First Community Bank vaults\u2014escalating a financial squeeze that closely follows his August loss at the Tax Appeals Tribunal.",
-      "angle_type": "celebrity wealth exposure and tax enforcement collision",
-      "opening": "Personality lead opening directly on Mike Sonko facing an uncharacteristically direct squeeze on his liquid bank balances.",
-      "structure": "Personality bank hook -> Section 42 agency mechanism and KSh 623M detail -> Distinction from August KSh 385M Tribunal ruling -> Legal rights vs liquidity reality -> Concrete next steps.",
-      "source": "https://www.ghafla.co.ke/kra-reportedly-seeks-ksh623-million-from-mike-sonko-through-bank-notice/"
-    },
     {
       "title": "Betty Kyallo Marks Six Months of Baby Nova as Charlie Lemmy Co-Parenting Rhythm Settles In",
       "angle": "Framing the six-month mark through Betty Kyallo's transition into a grounded domestic rhythm alongside partner Charlie Lemmy, where candid public humor\u2014such as a botched petrol run turned KSh 3,000 cash gift\u2014coexists with the shared responsibilities of raising two young daughters.",
@@ -1543,6 +1537,14 @@
       "opening": "Personality-led focus on Geoffrey Mosiria stepping into the virtual classroom space with a Bible in hand.",
       "structure": "Personality hook on Mosiria's virtual classroom -> Breakdown of the social media callout and Old Testament revision focus -> Comparison with Babu Owino's established COVID-era revision model -> Political positioning context for the 2027 Embakasi East race.",
       "source": "https://www.ghafla.co.ke/mosiria-hosts-cre-lesson-in-comparison-with-with-babu-owinos-lessons/"
+    },
+    {
+      "title": "Gitaru to Ngong Road: Where Kenya Power\u2019s Eight-Hour Thursday Blackout Hits Hardest",
+      "angle": "Focusing on the specific logistical and geographic friction faced by small businesses and commuters along busy urban arteries like Ngong Road and Gitaru during an eight-hour workday blackout.",
+      "angle_type": "local urban impact and business disruption",
+      "opening": "Named geographic and business corridor lead detailing the exact daytime disruption window.",
+      "structure": "Urban corridor hook -> Specific Nairobi and satellite center breakdown -> Utility maintenance rationale -> Concrete closing on restoration timelines.",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-thursday-blackouts-in-westlands-ngong-road-kisii-kiambu-mombasa-and-kilifi/"
     }
   ],
   "style_history": [
