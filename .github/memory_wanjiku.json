@@ -376,7 +376,8 @@
     "29dae5313e8cad523969c39db844a8a3e9aee626ed3927a03895d3bbc3a3cf7c",
     "411cf9421bfcd89cbdb2e51f618a213e134772d9ff50c82e44c07c123dda32c5",
     "34660b8049e34be3fdba98c9b870bcf4f7159c754e6b612246f8c67f30f4f972",
-    "7072354ac8f49af963e93f1cada353cc074f90ae286c475835000be0218a52b5"
+    "7072354ac8f49af963e93f1cada353cc074f90ae286c475835000be0218a52b5",
+    "c5949b846563baf746ec9548fd80d9256498c317ca541507a5767769c632c482"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -755,17 +756,10 @@
     "https://www.ghafla.co.ke/bahati-offers-to-pay-1-million-to-musician-who-performs-at-his-upcoming-wedding/",
     "https://www.ghafla.co.ke/mp-david-ndakwa-warns-against-wrong-political-alliances-urges-kenyans-to-give-ruto-10-years/",
     "https://www.ghafla.co.ke/lady-in-red-diana-marua-celebrates-38th-birthday-in-glamorous-photoshoot-ahead-of-lavish-wedding-photo/",
-    "https://www.ghafla.co.ke/tremor-reported-in-nairobi-and-surrounding-areas-amid-upcoming-elnino-prediction/"
+    "https://www.ghafla.co.ke/tremor-reported-in-nairobi-and-surrounding-areas-amid-upcoming-elnino-prediction/",
+    "https://www.ghafla.co.ke/sarah-mtalii-claims-divorce-favours-financially-independent-women-as-men-struggle-to-move-on/"
   ],
   "published_angles": [
-    {
-      "title": "Gagged at the Pulpit, Dispersed in the Dark: Edwin Sifuna\u2019s High-Stakes Kitale Showdown",
-      "angle": "Reframing the Kitale showdown through the lens of high-voltage political street drama\u2014tracking how Edwin Sifuna's day unfolded from being silenced at a senior police boss's burial to a near head-on motorcade encounter with President Ruto and an impromptu rally dispersed by teargas in the dark.",
-      "angle_type": "political celebrity drama and street showdown logistics",
-      "opening": "Personality lead opening directly on Edwin Sifuna navigating an escalating gauntlet in Kitale that began with a confiscated microphone and ended in a teargas-choked night rally.",
-      "structure": "Personality tension lead -> The funeral podium muzzling -> The street-level motorcade intersection and crowd friction -> Nightfall confrontation and police teargas -> NPS accountability warning and damage report.",
-      "source": "https://www.ghafla.co.ke/ruto-vs-sifuna-police-probe-kitale-incident-after-two-officers-injured-government-vehicles-damaged/"
-    },
     {
       "title": "\u2018Jealousy and Anger Won\u2019t Build Kenya\u2019: Ruto Fires Back at Rivals from Nandi Podium",
       "angle": "Framing the Nandi address through the sharp personal friction between Ruto and his political rivals\u2014specifically how the Head of State bypassed sterile policy language to accuse his critics of weaponizing personal jealousy and ethnic resentment against his five-point delivery scorecard.",
@@ -1557,6 +1551,14 @@
       "opening": "Direct focus on the physical sensation and timing of the tremor in the Kenyan capital.",
       "structure": "Physical occurrence in Nairobi -> Geological data and epicenter verification -> De-bunking the climate-seismic link -> Public safety status.",
       "source": "https://www.ghafla.co.ke/tremor-reported-in-nairobi-and-surrounding-areas-amid-upcoming-elnino-prediction/"
+    },
+    {
+      "title": "Sarah Mtalii Reframes Marital Exit as Financial Victory, Citing Long-Term Emotional Toll on Men",
+      "angle": "Examining Mtalii's commentary through the lens of shifting marital power dynamics\u2014specifically how economic self-sufficiency removes financial entrapment for women while exposing post-divorce male vulnerability.",
+      "angle_type": "marital power dynamics and economic self-sufficiency",
+      "opening": "Personality lead opening directly on Sarah Mtalii asserting economic autonomy transforms divorce into exit leverage for women.",
+      "structure": "Personality lead -> Economic exit leverage breakdown -> Reversal of traditional female victim trope -> Section on economic independence mechanics -> Section on male emotional vulnerability -> Concluding perspective on modern marital dynamics.",
+      "source": "https://www.ghafla.co.ke/sarah-mtalii-claims-divorce-favours-financially-independent-women-as-men-struggle-to-move-on/"
     }
   ],
   "style_history": [
