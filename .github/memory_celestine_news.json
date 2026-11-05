@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "407835ab70160726336b22bef9aee318",
     "a5a50dce9a7cdc2fd212f96eb7005355",
     "8a8be8328be7a344c71a448726492b77",
     "3bea5ae82e041f482dd5ead919968207",
@@ -799,10 +798,10 @@
     "cde2905e28d42977b9f942bd11a7213a",
     "a9f3d18eaa19c627cd415b95601d1c62",
     "349e277c10b7ecba81a0bfbaf9dcba82",
-    "84ddc0e71cfb0728266f20cdb84bb863"
+    "84ddc0e71cfb0728266f20cdb84bb863",
+    "14b0958c8fd4b08b8ff0c86f3dabd1a8"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1626,7 +1626,8 @@
     "https://kenyans.co.ke/news/129174-azimio-announces-new-leadership-matiangi-and-orengo-take-council-roles",
     "https://kenyans.co.ke/news/129176-parliament-orders-probe-cracks-riruta-satellite-apartment-building",
     "https://kenyans.co.ke/news/129175-high-court-blocks-iebc-conducting-interviews-ceo-position",
-    "https://kenyans.co.ke/news/129169-kenya-tells-commonwealth-step-after-britain-rejects-slavery-reparations"
+    "https://kenyans.co.ke/news/129169-kenya-tells-commonwealth-step-after-britain-rejects-slavery-reparations",
+    "https://kenyans.co.ke/news/129172-ministry-turns-chiefs-trace-kenyans-yet-collect-their-national-id-cards"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2343,7 +2344,8 @@
     "matiang orengo take council helm opposition restructure leaves gachagua out",
     "unapproved story riruta block exposes nairobi habitability enforcement gap",
     "contrasting high court rulings freeze iebc ceo recruitment days ahead interviews",
-    "walls off slavery reparations battle inside commonwealth russia wades"
+    "walls off slavery reparations battle inside commonwealth russia wades",
+    "state deploys chiefs multi agency database matching hunt down 557 000 stranded ids"
   ],
   "topic_keys": [
     "news tracker",
@@ -8067,6 +8069,15 @@
       "structure": "Multilateral containment lead -> Diplomatic exchange and Russian statement facts -> Commonwealth CHOGM agreement vs UK financial veto -> AU-CARICOM institutional backdrop -> Forward outlook on structured talks timeline",
       "source": "https://kenyans.co.ke/news/129169-kenya-tells-commonwealth-step-after-britain-rejects-slavery-reparations",
       "published_at": "2026-11-05T19:02:10Z"
+    },
+    {
+      "title": "State Deploys Chiefs and Multi-Agency Database Matching to Hunt Down 557,000 Stranded IDs",
+      "angle": "The operational shift revealing the limits of digital-first governance: after automated SMS alerts and portal notifications failed to move more than half a million identity cards, the state is resorting to cross-database profiling (tax, voter, and welfare rolls) and physical, door-to-door tracking by newly militarized grassroots administrators.",
+      "angle_type": "administrative pivot and state tracking mechanics",
+      "opening": "Operational-pivot lead contrasting the stall in electronic notifications against the mobilization of physical grassroots administrators and multi-agency database cross-checks.",
+      "structure": "Operational pivot lead -> Committee disclosure and backlog scale -> Dual-track tracking mechanics (IPRS cross-referencing vs boots on the ground) -> Expanded grassroots administrative cadre -> Direct public retrieval channels and hardware investments",
+      "source": "https://kenyans.co.ke/news/129172-ministry-turns-chiefs-trace-kenyans-yet-collect-their-national-id-cards",
+      "published_at": "2026-11-05T20:02:10Z"
     }
   ]
 }
