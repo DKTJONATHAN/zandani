@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "2fca5bb3d4d5bdbe57e8ce865874f873",
     "bf3a33b8681cd8e5db2aba9fa5ef57bb",
     "407835ab70160726336b22bef9aee318",
     "a5a50dce9a7cdc2fd212f96eb7005355",
@@ -799,10 +798,10 @@
     "d1d928f5aa42de28c6ca96b2564d7016",
     "575c00756e005b598664244f9462d99f",
     "cde2905e28d42977b9f942bd11a7213a",
-    "a9f3d18eaa19c627cd415b95601d1c62"
+    "a9f3d18eaa19c627cd415b95601d1c62",
+    "349e277c10b7ecba81a0bfbaf9dcba82"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1624,7 +1624,8 @@
     "https://kenyans.co.ke/news/129170-ecitizen-go-through-maintenance-four-nights-november-treasury-announces",
     "https://kenyans.co.ke/news/129173-justin-muturis-convoy-attacked-during-campaign-trail-migori-county",
     "https://kenyans.co.ke/news/129174-azimio-announces-new-leadership-matiangi-and-orengo-take-council-roles",
-    "https://kenyans.co.ke/news/129176-parliament-orders-probe-cracks-riruta-satellite-apartment-building"
+    "https://kenyans.co.ke/news/129176-parliament-orders-probe-cracks-riruta-satellite-apartment-building",
+    "https://kenyans.co.ke/news/129175-high-court-blocks-iebc-conducting-interviews-ceo-position"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2339,7 +2340,8 @@
     "treasury schedules four night ecitizen shutdowns centralized portal handles ksh1b daily",
     "migori convoy stoning highlights rising friction nyanza campaign trail",
     "matiang orengo take council helm opposition restructure leaves gachagua out",
-    "unapproved story riruta block exposes nairobi habitability enforcement gap"
+    "unapproved story riruta block exposes nairobi habitability enforcement gap",
+    "contrasting high court rulings freeze iebc ceo recruitment days ahead interviews"
   ],
   "topic_keys": [
     "news tracker",
@@ -8045,6 +8047,15 @@
       "structure": "Unapproved occupancy lead -> Structural failure mechanics and load factors -> Parliamentary inspection and investigative directive -> Evacuation friction and asset recovery -> Broader safety context and Eastleigh mortality backdrop",
       "source": "https://kenyans.co.ke/news/129176-parliament-orders-probe-cracks-riruta-satellite-apartment-building",
       "published_at": "2026-11-05T17:02:05Z"
+    },
+    {
+      "title": "Contrasting High Court Rulings Freeze IEBC\u2019s CEO Recruitment Days Ahead of Interviews",
+      "angle": "Contrasting judicial determinations on urgency across High Court stations, comparing Malindi's emergency freeze over vetting transparency with Milimani's dismissal of urgency regarding private outsourcing.",
+      "angle_type": "judicial procedural divergence and administrative friction",
+      "opening": "Judicial divergence lead contrasting the immediate emergency freeze granted in Malindi against the dismissal of urgency in Nairobi 24 hours earlier.",
+      "structure": "Divergent judicial rulings lead -> Details of Malindi emergency injunction -> IEBC response on citizenship vetting -> Milimani court ruling and outsourcing challenge -> Timeline impact on scheduled November interviews.",
+      "source": "https://kenyans.co.ke/news/129175-high-court-blocks-iebc-conducting-interviews-ceo-position",
+      "published_at": "2026-11-05T18:02:26Z"
     }
   ]
 }
