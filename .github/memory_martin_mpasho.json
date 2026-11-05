@@ -146,7 +146,8 @@
     "a71fc91e99f1eef000a823c3b130855523ec4083bd1be75212a77b3f8190b342",
     "7b1a6bd5d9b8dd7c427dafe375a34ce0875e8538facd4b9fb38bf23559faf15d",
     "822feabd919ed866924fef4320e5d09ba851dd175fb5360feb93c90515245e65",
-    "2924f4444bec64a4c2c5d5bbc31bb56e6a476b9be773ee557c3a826214625ed6"
+    "2924f4444bec64a4c2c5d5bbc31bb56e6a476b9be773ee557c3a826214625ed6",
+    "f041cf437b58787c5f27b9706d6e4b0a57cc37dc9d80f7e7965f9d19591e0f72"
   ],
   "style_history": [
     "Event Report",
@@ -429,6 +430,10 @@
     {
       "key": "2026-11-04-allan-ademba-calls-for-regulation-of-churches-in-kenya-says-their-numbers-are-too-high",
       "ts": "2026-11-04T23:32:22.469665+00:00"
+    },
+    {
+      "key": "2026-11-05-mama-ryan-meet-mary-goreti-the-actress-who-chose-entertainment-over-psychology",
+      "ts": "2026-11-05T05:23:10.645899+00:00"
     }
   ],
   "urls": [
@@ -479,7 +484,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-04-prince-indah-takes-ohangla-to-mombasa-as-johnnie-walkers-afroexchange-celebrates-kenyan-culture",
     "https://www.mpasho.co.ke/entertainment/2026-11-04-andy-deh-draws-backlash-over-remarks-on-women",
     "https://www.mpasho.co.ke/entertainment/2026-11-04-keranta-covers-up-flaqos-name-tattoo-after-bitter-breakup",
-    "https://www.mpasho.co.ke/entertainment/2026-11-04-allan-ademba-calls-for-regulation-of-churches-in-kenya-says-their-numbers-are-too-high"
+    "https://www.mpasho.co.ke/entertainment/2026-11-04-allan-ademba-calls-for-regulation-of-churches-in-kenya-says-their-numbers-are-too-high",
+    "https://www.mpasho.co.ke/entertainment/2026-11-05-mama-ryan-meet-mary-goreti-the-actress-who-chose-entertainment-over-psychology"
   ],
   "published_angles": [
     {
@@ -857,6 +863,14 @@
       "opening": "Personality lead opening directly on Allan Ademba framing church density through the practical frustration of Sunday house hunting in Nairobi estates.",
       "structure": "Suburban house-hunting observation -> Specific noise and density concerns -> Proposed community consolidation model -> Personal faith shield -> Parliamentary legislative backing pledge.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-04-allan-ademba-calls-for-regulation-of-churches-in-kenya-says-their-numbers-are-too-high"
+    },
+    {
+      "title": "Mary Goreti Traded Psychology Attachment for Digital Skits, Building 'Mama Ryan' on Polar-Opposite Roles",
+      "angle": "Framing Goreti's trajectory through the pragmatic trade-off between pursuing a fallback psychology degree to earn a living and channeling that human behavior training into contrasting comedic personas like 'Katonge'.",
+      "angle_type": "career pivot pragmatism and performance versatility",
+      "opening": "Personality lead opening directly on Mary Goreti balancing academic psychology as a pragmatic backup plan against her high school acting ambitions.",
+      "structure": "Personality lead on academic backup vs creative drive -> Financial security motivation and attachment experience -> The origin of the 'Mama Ryan' brand identity -> Performance range from authoritative 'Katonge' to submissive roles -> Family support foundation and digital reach close",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-05-mama-ryan-meet-mary-goreti-the-actress-who-chose-entertainment-over-psychology"
     }
   ]
 }
