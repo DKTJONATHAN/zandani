@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "fdeeb100bded7d6c5c5cb407fa159e80",
     "2ce5b41657ee7ff6bb20e9e8662949f5",
     "8c90f9e156d5bdb9a3903209530813e2",
     "2231cd18504b7bedc343d5d825bcfa0d",
@@ -799,10 +798,10 @@
     "dd9a85545153ec1a9689f0f2fa10b864",
     "3f20b694fafd70eeb7a954f068866bc4",
     "6526a08cd73595c26b68fb786f93734b",
-    "0499e0150326d1ae6d3049e70098e3b8"
+    "0499e0150326d1ae6d3049e70098e3b8",
+    "c136e33fa37f4f960661536c67b5ffa8"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1636,7 +1636,8 @@
     "https://kenyans.co.ke/news/129187-kra-issues-9-point-checklist-employers-ahead-november-9-paye-deadline",
     "https://kenyans.co.ke/news/129188-lsk-stage-protests-vigilance-house-over-abduction-lawyer-abshir-abdi",
     "https://kenyans.co.ke/news/129190-ntsa-gives-psv-and-commercial-vehicle-owners-7-days-install-speed-limiters",
-    "https://kenyans.co.ke/news/129189-us-sanctions-criminal-networks-accused-trafficking-kenyans-abroad"
+    "https://kenyans.co.ke/news/129189-us-sanctions-criminal-networks-accused-trafficking-kenyans-abroad",
+    "https://kenyans.co.ke/news/129194-paul-mackenzie-sentenced-200-years-prison"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2363,7 +2364,8 @@
     "employers face steep section penalties kra target non cash benefits ahead paye cutoff",
     "lawyers march vigilance house police trade court orders uncharged claims",
     "ntsa imposes hard day digital expiry speed limiter applications",
-    "chokes financial pipelines behind cyber slavery networks luring asia"
+    "chokes financial pipelines behind cyber slavery networks luring asia",
+    "high court rejects voluntary starvation defense hands mackenzie 200 years shakahola murders"
   ],
   "topic_keys": [
     "news tracker",
@@ -8177,6 +8179,15 @@
       "structure": "Treasury asset freeze lead -> Scale of Kenyan rescues and recruitment mechanics -> Prince Group & Madagascar network details -> Kenya Tier 2 trafficking compliance context -> Legal and financial enforcement forward edge.",
       "source": "https://kenyans.co.ke/news/129189-us-sanctions-criminal-networks-accused-trafficking-kenyans-abroad",
       "published_at": "2026-11-06T11:02:11Z"
+    },
+    {
+      "title": "High Court Rejects \u2018Voluntary Starvation\u2019 Defense, Hands Mackenzie 200 Years for Shakahola Murders",
+      "angle": "The High Court's explicit legal finding that cult-led starvation is not protected or voluntary religious practice, but an organized apparatus of violent coercion targeting children first.",
+      "angle_type": "judicial liability and criminal coercion standards",
+      "opening": "Judicial standard lead centering on the court's rejection of voluntary fasting and its formal classification of cult-enforced starvation as organized murder.",
+      "structure": "Legal finding lead -> Sentencing mechanics and judicial objectives -> Breakdown of forced indoctrination and victim demography -> Co-accused convictions -> Retribution and legal outcome close.",
+      "source": "https://kenyans.co.ke/news/129194-paul-mackenzie-sentenced-200-years-prison",
+      "published_at": "2026-11-06T12:02:04Z"
     }
   ]
 }
