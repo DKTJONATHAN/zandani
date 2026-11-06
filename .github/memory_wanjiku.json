@@ -382,7 +382,8 @@
     "6b10f43fc310423140e824a0626c96249c153523d74bfa38af5e534a036fb355",
     "f60bf0477a7dc6063cd540be01d3b13d4483c25679f1f17fe715282e2e015f2e",
     "122bc83fd7a7307e52fad94f65b41b3e8cfd12bbd5905bc075344f5cd77df273",
-    "232fdca52790e247b6cd86a21299ee26cbec6190f2bcc2da9a094b6f6891c19c"
+    "232fdca52790e247b6cd86a21299ee26cbec6190f2bcc2da9a094b6f6891c19c",
+    "6e040a57d42663d31cb6bc834b415891d9a6c8096efee1824e935fa48955f442"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -767,17 +768,10 @@
     "https://www.ghafla.co.ke/mosiria-gains-confidence-in-nairobi-gubernatorial-bid-after-kenyan-born-politicians-us-election-win/",
     "https://www.ghafla.co.ke/pharmacists-warn-ladies-against-viral-cetirizine-misconceptions/",
     "https://www.ghafla.co.ke/charlene-ruto-flaunts-lavish-gown-fitting-moments-ahead-of-her-grand-wedding-photo/",
-    "https://www.ghafla.co.ke/babu-owino-geoffrey-mosiria-trade-insults-in-heated-online-exchange/"
+    "https://www.ghafla.co.ke/babu-owino-geoffrey-mosiria-trade-insults-in-heated-online-exchange/",
+    "https://www.ghafla.co.ke/oscar-sudi-shares-light-hearted-moment-walking-with-ruto-at-luxury-tanzania-hotel/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018Every Woman Can Birth a Leader\u2019: John Mbadi Rebuffs Odinga Dynasty Myth, Launches 2032 Ambition",
-      "angle": "Reframing Mbadi's funeral podium appearance through the lens of a direct rebellion against political royalty\u2014examining how he coupled a public snub of Ida Odinga's Bondo memorial with an explosive rejection of dynastic succession, instantly launching his own 2032 presidential claim.",
-      "angle_type": "political royalty rebellion and personal ambition declaration",
-      "opening": "Personality lead opening directly on John Mbadi drawing a line against political inheritance and pivoting straight into his own 2032 presidential ambition.",
-      "structure": "Personality confrontation hook -> The Bondo memorial boycott context -> Direct challenge to hereditary leadership and Ida Odinga's camp -> The 2032 State House declaration and 2027 litmus test -> Concrete closing on factional lines",
-      "source": "https://www.ghafla.co.ke/mbadi-says-luo-support-for-ruto-cannot-be-transferred-to-raila-odingas-family/"
-    },
     {
       "title": "KRA Ambushes Mike Sonko\u2019s Paying Clients to Seize KSh 623M Arrears",
       "angle": "Focusing on the operational commercial ambush: KRA quietly stepping directly between the flamboyant former governor and his paying business clients, cutting off his private income streams right at the invoice level.",
@@ -1569,6 +1563,14 @@
       "opening": "Personality lead opening directly on Babu Owino initiating the insult sequence with an ice cream metaphor on X.",
       "structure": "Metaphor opening -> Counter-attack breakdown -> Analysis of insult mechanics and evidence context -> Abrupt shift to policy messaging -> Unresolved digital decorum close",
       "source": "https://www.ghafla.co.ke/babu-owino-geoffrey-mosiria-trade-insults-in-heated-online-exchange/"
+    },
+    {
+      "title": "Oscar Sudi\u2019s Off-Duty Denim Walk With President Ruto in Mwanza Highlights Inner-Circle Access at Charlene\u2019s Wedding",
+      "angle": "Framing Sudi's informal presence and sartorial choices alongside President Ruto as an indicator of inner-circle access during high-profile cross-border family milestones.",
+      "angle_type": "sartorial contrast and inner-circle camaraderie",
+      "opening": "Personality-led opening establishing Sudi's casual leisure stance alongside Ruto at the Mwanza hotel.",
+      "structure": "Informal walk hook -> Visual sartorial contrast -> Context of the Mwanza wedding leg -> Precursor family ceremonies in Kilgoris and Nairobi -> Concrete close on delegation logistics.",
+      "source": "https://www.ghafla.co.ke/oscar-sudi-shares-light-hearted-moment-walking-with-ruto-at-luxury-tanzania-hotel/"
     }
   ],
   "style_history": [
