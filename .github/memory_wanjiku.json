@@ -390,7 +390,8 @@
     "207b606a62d28cbfab6995e35a22b979b661fd61c8952c22bed13801a735fd3d",
     "47b719ed0de8ad64d015bc0752997d7af90e2a5dd4270b34f98c51f34b8b7221",
     "ce4b47287657217b80b7b85884cc0341eae4d8ea78bb6476dc6ddd402b9e82c4",
-    "e2b56211613ddc284ef73418d6341e6cd7627c3ddd5236a9dc513526780aa20d"
+    "e2b56211613ddc284ef73418d6341e6cd7627c3ddd5236a9dc513526780aa20d",
+    "9bbc7fa96659259017a95bb90e6721b81857f093887dd5cd1d83cc56b463c023"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -783,17 +784,10 @@
     "https://www.ghafla.co.ke/200-year-prison-sentence-for-shakahola-cult-leader-paul-mackenzie-over-mass-child-murders/",
     "https://www.ghafla.co.ke/sandra-dacha-claps-back-at-critics-claiming-weight-loss-made-her-look-older/",
     "https://www.ghafla.co.ke/build-yours-oga-obinna-slams-kenyans-criticizing-size-8-and-dj-mos-new-mansion/",
-    "https://www.ghafla.co.ke/nicholas-kioko-announces-shift-to-full-time-forex-trading-offers-account-management-services/"
+    "https://www.ghafla.co.ke/nicholas-kioko-announces-shift-to-full-time-forex-trading-offers-account-management-services/",
+    "https://www.ghafla.co.ke/jaymo-ule-msee-drops-nairobi-senate-bid-endorses-jalango/"
   ],
   "published_angles": [
-    {
-      "title": "Mic in Hand: Interior PS Raymond Omollo Drops Civil Service Reserve to Lead Ruto\u2019s 2027 Re-election Chorus",
-      "angle": "Framing Omollo's public foray as a deliberate departure from the traditionally detached, behind-the-scenes posture of Harambee House's security brass, turning the spotlight onto a top bureaucrat actively playing campaign hype man in opposition territory and triggering scrutiny over public officers crossing into partisan politics.",
-      "angle_type": "political personality crossover and boundary friction",
-      "opening": "Personality lead opening directly on Dr. Raymond Omollo shedding the guarded reserve of the security docket to openly drum up campaign support for William Ruto's second term.",
-      "structure": "Personality hook and docket contrast -> The explicit reelection endorsement and development pitch -> The high-stakes Nyanza bridgehead operation -> The civil service neutrality fault line and opposing arguments -> Ground stakes heading into the campaign season",
-      "source": "https://www.ghafla.co.ke/interior-ps-dr-raymond-omollo-rallies-support-for-president-rutos-re-election-citing-inclusive-development/"
-    },
     {
       "title": "Paul Mackenzie's Moment of Reckoning: Inside the 191-Count Shakahola Murder Verdict",
       "angle": "Focusing squarely on Mackenzie's dockside posture\u2014his stubborn defense of total innocence set against the state's 121-witness breakdown of his insular compound machinery\u2014as he confronts the first major judgment in a wider web of nationwide prosecutions.",
@@ -1585,6 +1579,14 @@
       "opening": "Personality lead opening directly on Nicholas Kioko moving beyond his digital production setup to solicit client capital under a strict 'no overnight V8' warning.",
       "structure": "Personality pivot hook -> Third-party account management details -> Anti-hype risk parameters and trading disclaimers -> Creator payout context and 36-million view background -> Transition verification close",
       "source": "https://www.ghafla.co.ke/nicholas-kioko-announces-shift-to-full-time-forex-trading-offers-account-management-services/"
+    },
+    {
+      "title": "Jaymo Ule Msee Calls Nairobi Senate Bid a \u2018Social Media Poll\u2019, Backs Jalang\u2019o for 2027",
+      "angle": "Examining the mechanics of how digital creators test municipal political waters using casual social media 'opinion polls' before executing strategic pivot maneuvers under higher-level realignment.",
+      "angle_type": "creator political strategy and municipal testing",
+      "opening": "Personality-led entry focusing directly on Jaymo Ule Msee framing his two-day Nairobi senate exploratory run as an intelligent social media opinion poll before handing the baton to Jalang'o.",
+      "structure": "Social media poll hook -> Nairobi senate withdrawal and Jalang'o endorsement -> Gatundu South realignment and President Ruto's stated role -> Conclusion on local constituent engagement.",
+      "source": "https://www.ghafla.co.ke/jaymo-ule-msee-drops-nairobi-senate-bid-endorses-jalango/"
     }
   ],
   "style_history": [
