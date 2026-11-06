@@ -155,7 +155,8 @@
     "a1dcc67c62b9eb1c9ab577f1a7d44270085fc72da46a76a3e6cc424f8b2ec59b",
     "264b31d61ddb6bc96967c91fd2a5184bdaf4e8293627a5bb02d5d332e8b43091",
     "6c80108f37ff1bf1095d3300aeae610f19fdab6c07db6c0632e680c910e0c681",
-    "e0756666bcb2382ed6ed188fa46e63b88461dc51226639b04e73acd10e2f117d"
+    "e0756666bcb2382ed6ed188fa46e63b88461dc51226639b04e73acd10e2f117d",
+    "5b456d75ccadf88adf4496447512700e81464d035000ae5d9d0809eaec800e1b"
   ],
   "style_history": [
     "Event Report",
@@ -474,6 +475,10 @@
     {
       "key": "2026-11-05-willy-m-tuva-recalls-journey-to-owning-mercedes-benz-featured-in-famous-ramogi-radio-advert",
       "ts": "2026-11-05T21:23:19.065980+00:00"
+    },
+    {
+      "key": "2026-11-06-kenyan-prince-addresses-critics-advising-him-on-his-driving-skills",
+      "ts": "2026-11-06T07:23:11.631043+00:00"
     }
   ],
   "urls": [
@@ -533,7 +538,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-05-wapendwa-muziki-reveal-they-use-suno-ai-to-create-music-mesh-says-he-pays-ksh-40000",
     "https://www.mpasho.co.ke/entertainment/2026-11-05-sammyboy-sparks-online-debate-after-gay-question",
     "https://www.mpasho.co.ke/entertainment/2026-11-05-dr-ben-kajwang-makes-history-as-first-kenyan-ceo-to-win-global-change-makers-award",
-    "https://www.mpasho.co.ke/entertainment/2026-11-05-willy-m-tuva-recalls-journey-to-owning-mercedes-benz-featured-in-famous-ramogi-radio-advert"
+    "https://www.mpasho.co.ke/entertainment/2026-11-05-willy-m-tuva-recalls-journey-to-owning-mercedes-benz-featured-in-famous-ramogi-radio-advert",
+    "https://www.mpasho.co.ke/entertainment/2026-11-06-kenyan-prince-addresses-critics-advising-him-on-his-driving-skills"
   ],
   "published_angles": [
     {
@@ -983,6 +989,14 @@
       "opening": "Personality-led focus on the vehicle as a cross-industry prop.",
       "structure": "Vehicle-centric hook -> Personal history of the car -> Professional crossover (Ramogi/Dufla) -> Mentorship context -> Closing with the reflection on ambition.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-05-willy-m-tuva-recalls-journey-to-owning-mercedes-benz-featured-in-famous-ramogi-radio-advert"
+    },
+    {
+      "title": "Kenyan Prince Defends Expressway Driving Habits by Dismissing Critics Without Cars",
+      "angle": "Examining the recurring collision between luxury vehicle flexing on Nairobi's expressway and the accountability pressure digital influencers face regarding road safety rules.",
+      "angle_type": "accountability and public display dynamics",
+      "opening": "Personality lead opening directly on Kenyan Prince on the Milele FM set deflecting road safety questions with economic hierarchy.",
+      "structure": "Personality lead -> Verbatim Swahili retort -> Nairobi Expressway driving context -> Public safety discourse -> Concrete factual close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-06-kenyan-prince-addresses-critics-advising-him-on-his-driving-skills"
     }
   ]
 }
