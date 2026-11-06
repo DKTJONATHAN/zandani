@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "8c90f9e156d5bdb9a3903209530813e2",
     "2231cd18504b7bedc343d5d825bcfa0d",
     "7c274e9524ffad15da920d1e92203761",
     "12ef2f4a560dba3ca9c734084ed20fa2",
@@ -799,10 +798,10 @@
     "6526a08cd73595c26b68fb786f93734b",
     "0499e0150326d1ae6d3049e70098e3b8",
     "c136e33fa37f4f960661536c67b5ffa8",
-    "10c1fbf7ba73e2e25bd12d3f55ebb10a"
+    "10c1fbf7ba73e2e25bd12d3f55ebb10a",
+    "754649e99e8f47108725cf4d3d255957"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1638,7 +1638,8 @@
     "https://kenyans.co.ke/news/129190-ntsa-gives-psv-and-commercial-vehicle-owners-7-days-install-speed-limiters",
     "https://kenyans.co.ke/news/129189-us-sanctions-criminal-networks-accused-trafficking-kenyans-abroad",
     "https://kenyans.co.ke/news/129194-paul-mackenzie-sentenced-200-years-prison",
-    "https://kenyans.co.ke/news/129196-photos-inside-charlene-rutos-glamorous-wedding-tanzania"
+    "https://kenyans.co.ke/news/129196-photos-inside-charlene-rutos-glamorous-wedding-tanzania",
+    "https://kenyans.co.ke/news/129197-kenya-records-6th-ebola-recovery-ministry-outlines-42-day-countdown-ending-outbreak"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2367,7 +2368,8 @@
     "ntsa imposes hard day digital expiry speed limiter applications",
     "chokes financial pipelines behind cyber slavery networks luring asia",
     "high court rejects voluntary starvation defense hands mackenzie 200 years shakahola murders",
-    "cross border first family wedding draws political elite mwanza"
+    "cross border first family wedding draws political elite mwanza",
+    "single active case holds official day countdown end ebola outbreak"
   ],
   "topic_keys": [
     "news tracker",
@@ -8199,6 +8201,15 @@
       "structure": "Regional political presence lead -> Officiating and venue core -> Bipartisan guest distribution -> Family ceremony mechanics and attire -> Historical continuity from Kilgoris Koito.",
       "source": "https://kenyans.co.ke/news/129196-photos-inside-charlene-rutos-glamorous-wedding-tanzania",
       "published_at": "2026-11-06T13:11:53Z"
+    },
+    {
+      "title": "Single Active Case Holds Up Kenya\u2019s Official 42-Day Countdown to End Ebola Outbreak",
+      "angle": "Focusing on the epidemiological mechanics and dual-timeline clearance protocol, explaining why 18 days of zero community transmission cannot start the official 42-day clock until the final isolation bed is cleared.",
+      "angle_type": "containment protocol and outbreak-clearance mechanics",
+      "opening": "Operational protocol lead centering on how a single active patient pauses the formal countdown despite 18 days without a new infection.",
+      "structure": "Protocol opening -> Current clinical inventory and discharge facts -> Dual-timeline breakdown (21-day contact monitoring vs 42-day national countdown) -> Transmission chain containment facts -> Border surveillance and final clearance prerequisite close.",
+      "source": "https://kenyans.co.ke/news/129197-kenya-records-6th-ebola-recovery-ministry-outlines-42-day-countdown-ending-outbreak",
+      "published_at": "2026-11-06T14:02:29Z"
     }
   ]
 }
