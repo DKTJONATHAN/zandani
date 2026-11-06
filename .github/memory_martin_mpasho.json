@@ -159,7 +159,8 @@
     "5b456d75ccadf88adf4496447512700e81464d035000ae5d9d0809eaec800e1b",
     "f9cfb9d7856fc58a88f1ceb837ee9a8dc86cb539d44e57178de6696b131fe15d",
     "b5a1937812bb45dca819f6a5a9669a8736d4fcf805d1ad7a5c360e650082b3e5",
-    "071758345c9b599caf8f797a78b399b9cab62a6747c569010e2e6263733a0b04"
+    "071758345c9b599caf8f797a78b399b9cab62a6747c569010e2e6263733a0b04",
+    "7a3d22f83e3c2b5cce7a28c81c317850fce0b5497228251ff8fb0de25c2049d2"
   ],
   "style_history": [
     "Event Report",
@@ -494,6 +495,10 @@
     {
       "key": "2026-11-06-arnold-malcom-wonders-why-theres-no-none-luhya-forex-trader",
       "ts": "2026-11-06T13:22:58.244708+00:00"
+    },
+    {
+      "key": "2026-11-06-heha-movers-unveil-virtual-tour-of-their-planned-heha-mansion",
+      "ts": "2026-11-06T15:23:09.313303+00:00"
     }
   ],
   "urls": [
@@ -557,7 +562,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-06-kenyan-prince-addresses-critics-advising-him-on-his-driving-skills",
     "https://www.mpasho.co.ke/entertainment/2026-11-06-yy-comedian-calls-out-kenyans-attacking-wapendwa-muziki-over-ai-use",
     "https://www.mpasho.co.ke/entertainment/2026-11-06-call-me-peter-safaricom-ceo-stops-vindee-from-using-fancy-title",
-    "https://www.mpasho.co.ke/entertainment/2026-11-06-arnold-malcom-wonders-why-theres-no-none-luhya-forex-trader"
+    "https://www.mpasho.co.ke/entertainment/2026-11-06-arnold-malcom-wonders-why-theres-no-none-luhya-forex-trader",
+    "https://www.mpasho.co.ke/entertainment/2026-11-06-heha-movers-unveil-virtual-tour-of-their-planned-heha-mansion"
   ],
   "published_angles": [
     {
@@ -1039,6 +1045,14 @@
       "opening": "Personality lead directly introducing Arnold Malcom mapping his transit corridor from Webuye to Malava.",
       "structure": "Creator route hook -> Verbatim commentary and geographic call-outs -> Identity branding contrast across Kenya's trader ecosystem -> Retail mobile market expansion context -> Concrete concluding implication on regional digital penetration.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-06-arnold-malcom-wonders-why-theres-no-none-luhya-forex-trader"
+    },
+    {
+      "title": "Nicki Bigfish Anchors March 2027 Target for Heha Movers\u2019 Kangundo Road Mansion",
+      "angle": "Framing Nicki Bigfish's announcement around the transition of viral short-form dance success into permanent housing assets through formal foundation backing along Nairobi's Kangundo Road growth corridor.",
+      "angle_type": "digital creator real estate asset transition",
+      "opening": "Personality lead focusing directly on Nicki Bigfish unveiling the structural plan and setting the hard completion timeline for Heha Movers.",
+      "structure": "Personality lead hook -> Property layout and architectural specifications -> Foundation backing and partner ecosystem -> Structural shift from viral content to real estate assets -> Concrete timeline close",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-06-heha-movers-unveil-virtual-tour-of-their-planned-heha-mansion"
     }
   ]
 }
