@@ -384,7 +384,8 @@
     "122bc83fd7a7307e52fad94f65b41b3e8cfd12bbd5905bc075344f5cd77df273",
     "232fdca52790e247b6cd86a21299ee26cbec6190f2bcc2da9a094b6f6891c19c",
     "6e040a57d42663d31cb6bc834b415891d9a6c8096efee1824e935fa48955f442",
-    "7ccae67594870effc3c53b58bca740a0eab8546b19c3d69f3243fae8b61a4d9c"
+    "7ccae67594870effc3c53b58bca740a0eab8546b19c3d69f3243fae8b61a4d9c",
+    "63c0f8e8b16062a4c5ef5e0dcbbcf721be4963afca12338c992d7500a2c31407"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -771,17 +772,10 @@
     "https://www.ghafla.co.ke/charlene-ruto-flaunts-lavish-gown-fitting-moments-ahead-of-her-grand-wedding-photo/",
     "https://www.ghafla.co.ke/babu-owino-geoffrey-mosiria-trade-insults-in-heated-online-exchange/",
     "https://www.ghafla.co.ke/oscar-sudi-shares-light-hearted-moment-walking-with-ruto-at-luxury-tanzania-hotel/",
-    "https://www.ghafla.co.ke/overtaken-by-time-rigathi-gachagua-formally-withdraws-high-court-impeachment-challenge/"
+    "https://www.ghafla.co.ke/overtaken-by-time-rigathi-gachagua-formally-withdraws-high-court-impeachment-challenge/",
+    "https://www.ghafla.co.ke/couples-call-us-when-things-get-tough-dj-mo-size-8-reveal-celebrities-consult-them-on-marriage/"
   ],
   "published_angles": [
-    {
-      "title": "Vipingo Ridge to Presidential Escort: Kenya Power Dims Sunday Grid Across VIP Belts and Coastal Resorts",
-      "angle": "Reframing the outage notice through its direct hit on prominent leisure strips, VIP security installations, and weekend recreational hubs\u2014tracing how an eight-hour blackout lands on luxury coastal enclaves like Vipingo Ridge and Sun N Sand, Nairobi's Presidential Escort base, and popular social nodes.",
-      "angle_type": "VIP and leisure lifestyle corridor disruption",
-      "opening": "Personality and lifestyle lead opening directly on Kenya Power cutting the supply to high-security VIP installations and coastal luxury enclaves.",
-      "structure": "VIP and luxury leisure hook -> Coastal resort belt shutdown -> Nairobi security and social circuits -> Kiambu and Machakos weekend corridors -> Western recreational and institutional nodes -> Factual utility operational window close",
-      "source": "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackouts-in-juja-kilifi-nairobi-and-machakos/"
-    },
     {
       "title": "Alai's Nairobi Chessboard: Why Winnie Odinga\u2019s Senate Rumour Spells Trouble for Babu Owino, Not Jalang\u2019o",
       "angle": "Examining the specific political divergence Alai creates between Jalang'o and Babu Owino, detailing why Alai claims Jalang'o remains safe while Babu's gubernatorial path is singled out for neutralization by the Sifuna-aligned faction.",
@@ -1573,6 +1567,14 @@
       "opening": "Personality lead directly on Rigathi Gachagua withdrawing his lead anchor High Court lawsuit to channel all legal firepower into the appellate court.",
       "structure": "Personality exit hook -> History of Petition E522 and High Court consolidation -> Defense team's rationale for withdrawal -> The November 19 appellate battleground and Article 75(3) stakes.",
       "source": "https://www.ghafla.co.ke/overtaken-by-time-rigathi-gachagua-formally-withdraws-high-court-impeachment-challenge/"
+    },
+    {
+      "title": "Behind Curated Facades: How DJ Mo and Size 8 Became the Secret Helpline for High-Profile Marriages",
+      "angle": "Examining how DJ Mo and Size 8 leveraged their documented personal marital friction into an informal peer-counseling channel, exposing how high-status public figures hide relationship crises behind curated perfection until reaching breaking point.",
+      "angle_type": "celebrity peer counseling and public vulnerability",
+      "opening": "Personality lead opening directly on DJ Mo and Size 8 detailing how their unvarnished approach to their own marriage turned their personal phones into an informal counseling line for prominent figures.",
+      "structure": "Personality hook on peer counseling hotline -> Context of podcast session with Daddy Owen -> Breakdown of DJ Mo's statements on crisis calls ('kimeumana') -> Size 8's analysis of pride and perfectionism -> Factual conclusion on vulnerability over image control.",
+      "source": "https://www.ghafla.co.ke/couples-call-us-when-things-get-tough-dj-mo-size-8-reveal-celebrities-consult-them-on-marriage/"
     }
   ],
   "style_history": [
