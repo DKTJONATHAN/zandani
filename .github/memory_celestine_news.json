@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "8a8be8328be7a344c71a448726492b77",
     "3bea5ae82e041f482dd5ead919968207",
     "1c6801b30b0cd39285490f857c75621f",
     "ccf64ed5079734a34f9835987d444ec9",
@@ -799,10 +798,10 @@
     "349e277c10b7ecba81a0bfbaf9dcba82",
     "84ddc0e71cfb0728266f20cdb84bb863",
     "14b0958c8fd4b08b8ff0c86f3dabd1a8",
-    "ca9acb561e998f749705880dce9281b5"
+    "ca9acb561e998f749705880dce9281b5",
+    "7750a9e3bcd72d0e30ba7f1af791ed26"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1628,7 +1628,8 @@
     "https://kenyans.co.ke/news/129175-high-court-blocks-iebc-conducting-interviews-ceo-position",
     "https://kenyans.co.ke/news/129169-kenya-tells-commonwealth-step-after-britain-rejects-slavery-reparations",
     "https://kenyans.co.ke/news/129172-ministry-turns-chiefs-trace-kenyans-yet-collect-their-national-id-cards",
-    "https://kenyans.co.ke/news/129177-kra-excludes-smartphones-foodstuffs-and-used-clothes-cargo-clearance-plan"
+    "https://kenyans.co.ke/news/129177-kra-excludes-smartphones-foodstuffs-and-used-clothes-cargo-clearance-plan",
+    "https://kenyans.co.ke/news/129178-police-officer-goes-missing-after-students-attack-team-probing-kcse-exam-cheating"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2347,7 +2348,8 @@
     "contrasting high court rulings freeze iebc ceo recruitment days ahead interviews",
     "walls off slavery reparations battle inside commonwealth russia wades",
     "state deploys chiefs multi agency database matching hunt down 557 000 stranded ids",
-    "kra imposes volume cap itemized valuation consolidated cargo"
+    "kra imposes volume cap itemized valuation consolidated cargo",
+    "hidden laptop missing officer nyabisase kcse fraud raid turned violent"
   ],
   "topic_keys": [
     "news tracker",
@@ -8089,6 +8091,15 @@
       "structure": "Volumetric cap lead -> Complete exclusions vs conditional limits -> Presidential policy context -> Unit-valuation and manifest compliance requirements -> Market operational outlook.",
       "source": "https://kenyans.co.ke/news/129177-kra-excludes-smartphones-foodstuffs-and-used-clothes-cargo-clearance-plan",
       "published_at": "2026-11-06T04:01:59Z"
+    },
+    {
+      "title": "Hidden Laptop and Missing Officer: How Nyabisase KCSE Fraud Raid Turned Violent",
+      "angle": "Examine the security and operational failure that left a joint intelligence and examination monitoring unit exposed to coordinated student violence before backup arrived, shifting an examination integrity operation into an active search-and-rescue and criminal inquiry.",
+      "angle_type": "operational vulnerability and enforcement security",
+      "opening": "Operational-risk lead focusing on how the discovery of hidden digital hardware triggered violent resistance before reinforcement arrived, leaving an enforcement team overwhelmed.",
+      "structure": "Tactical breakdown lead -> Discovery of hidden hardware and invigilator alert -> Mob escalation and vehicle vandalism -> The missing officer and security implications -> Active DCI multi-track investigation",
+      "source": "https://kenyans.co.ke/news/129178-police-officer-goes-missing-after-students-attack-team-probing-kcse-exam-cheating",
+      "published_at": "2026-11-06T05:01:51Z"
     }
   ]
 }
