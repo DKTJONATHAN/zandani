@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a6c452a98fde4e3ed0f14ae7c5a6bf80",
     "f67888b93bdb25394d1fb8baeaefd0dd",
     "fdeeb100bded7d6c5c5cb407fa159e80",
     "2ce5b41657ee7ff6bb20e9e8662949f5",
@@ -799,10 +798,10 @@
     "fa749f000107730617cf50e7c7e7548f",
     "27852b858783104f05162f2ad89af0eb",
     "dd9a85545153ec1a9689f0f2fa10b864",
-    "3f20b694fafd70eeb7a954f068866bc4"
+    "3f20b694fafd70eeb7a954f068866bc4",
+    "6526a08cd73595c26b68fb786f93734b"
   ],
   "style_history": [
-    "Desk Take",
     "Hard News Lead",
     "Event Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1634,7 +1634,8 @@
     "https://kenyans.co.ke/news/129182-20000-students-miss-kmtc-admission-slots-over-lack-govt-funding",
     "https://kenyans.co.ke/news/129186-mp-residents-block-highway-protest-alleged-police-harassment-kainuk",
     "https://kenyans.co.ke/news/129187-kra-issues-9-point-checklist-employers-ahead-november-9-paye-deadline",
-    "https://kenyans.co.ke/news/129188-lsk-stage-protests-vigilance-house-over-abduction-lawyer-abshir-abdi"
+    "https://kenyans.co.ke/news/129188-lsk-stage-protests-vigilance-house-over-abduction-lawyer-abshir-abdi",
+    "https://kenyans.co.ke/news/129190-ntsa-gives-psv-and-commercial-vehicle-owners-7-days-install-speed-limiters"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2359,7 +2360,8 @@
     "departmental wall locks 000 medical trainees out state education pool",
     "kitale lodwar highway blockage highlights growing rift border disarmament tactics",
     "employers face steep section penalties kra target non cash benefits ahead paye cutoff",
-    "lawyers march vigilance house police trade court orders uncharged claims"
+    "lawyers march vigilance house police trade court orders uncharged claims",
+    "ntsa imposes hard day digital expiry speed limiter applications"
   ],
   "topic_keys": [
     "news tracker",
@@ -8155,6 +8157,15 @@
       "structure": "Habeas corpus defiance lead -> Milimani to Vigilance House mobilization -> The judicial ultimatum of Justice Muteti -> Analysis of police narrative pivot (extortion claims vs due process) -> Active DCI inquiry and legal accountability outlook",
       "source": "https://kenyans.co.ke/news/129188-lsk-stage-protests-vigilance-house-over-abduction-lawyer-abshir-abdi",
       "published_at": "2026-11-06T10:01:37Z"
+    },
+    {
+      "title": "NTSA Imposes Hard 7-Day Digital Expiry on Speed Limiter Applications",
+      "angle": "Examining the automated enforcement mechanics built into the IRSMS platform\u2014specifically the strict seven-day application expiration trigger and mandatory 15-minute telemetry test that strip out manual compliance extensions for transport operators.",
+      "angle_type": "operational compliance architecture and automated enforcement countdown",
+      "opening": "Automated countdown lead focusing on how the digital portal forces physical vehicle presentation within seven days or voids the application entirely.",
+      "structure": "Digital workflow lead -> Scope and vehicle threshold criteria -> Portal integration mechanics (KRA/TIMS cross-referencing) -> Live telemetry verification rules -> Vendor transfer limits and operational support details",
+      "source": "https://kenyans.co.ke/news/129190-ntsa-gives-psv-and-commercial-vehicle-owners-7-days-install-speed-limiters",
+      "published_at": "2026-11-06T10:35:32Z"
     }
   ]
 }
