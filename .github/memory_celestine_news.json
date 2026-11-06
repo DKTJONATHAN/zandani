@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "8f1d51fbfe5bcb4c5781f22053604d42",
     "a6c452a98fde4e3ed0f14ae7c5a6bf80",
     "f67888b93bdb25394d1fb8baeaefd0dd",
     "fdeeb100bded7d6c5c5cb407fa159e80",
@@ -799,10 +798,10 @@
     "349edc8178b063348c81da9a1d8e9c3c",
     "fa749f000107730617cf50e7c7e7548f",
     "27852b858783104f05162f2ad89af0eb",
-    "dd9a85545153ec1a9689f0f2fa10b864"
+    "dd9a85545153ec1a9689f0f2fa10b864",
+    "3f20b694fafd70eeb7a954f068866bc4"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1633,7 +1633,8 @@
     "https://kenyans.co.ke/news/129183-gachaguas-sister-eunice-nyangari-dies",
     "https://kenyans.co.ke/news/129182-20000-students-miss-kmtc-admission-slots-over-lack-govt-funding",
     "https://kenyans.co.ke/news/129186-mp-residents-block-highway-protest-alleged-police-harassment-kainuk",
-    "https://kenyans.co.ke/news/129187-kra-issues-9-point-checklist-employers-ahead-november-9-paye-deadline"
+    "https://kenyans.co.ke/news/129187-kra-issues-9-point-checklist-employers-ahead-november-9-paye-deadline",
+    "https://kenyans.co.ke/news/129188-lsk-stage-protests-vigilance-house-over-abduction-lawyer-abshir-abdi"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2357,7 +2358,8 @@
     "eunice nyangari gachagua matriarchal anchor gachagua family dies",
     "departmental wall locks 000 medical trainees out state education pool",
     "kitale lodwar highway blockage highlights growing rift border disarmament tactics",
-    "employers face steep section penalties kra target non cash benefits ahead paye cutoff"
+    "employers face steep section penalties kra target non cash benefits ahead paye cutoff",
+    "lawyers march vigilance house police trade court orders uncharged claims"
   ],
   "topic_keys": [
     "news tracker",
@@ -8144,6 +8146,15 @@
       "structure": "Statutory exposure opening -> Benefit valuation & 2026 tax band breakdown -> Operational filing workflow -> Penalty and interest breakdown close.",
       "source": "https://kenyans.co.ke/news/129187-kra-issues-9-point-checklist-employers-ahead-november-9-paye-deadline",
       "published_at": "2026-11-06T09:11:30Z"
+    },
+    {
+      "title": "Lawyers March on Vigilance House as Police Trade Court Orders for Uncharged Claims",
+      "angle": "Framing the protest around the breakdown of judicial compliance\u2014specifically how the security establishment substituted compliance with a mandatory High Court habeas corpus ultimatum with uncharged extortion claims against the missing advocate.",
+      "angle_type": "judicial enforcement standoff and institutional accountability",
+      "opening": "Judicial standoff lead focusing on the escalation from an unanswered court order to a street march on national police headquarters.",
+      "structure": "Habeas corpus defiance lead -> Milimani to Vigilance House mobilization -> The judicial ultimatum of Justice Muteti -> Analysis of police narrative pivot (extortion claims vs due process) -> Active DCI inquiry and legal accountability outlook",
+      "source": "https://kenyans.co.ke/news/129188-lsk-stage-protests-vigilance-house-over-abduction-lawyer-abshir-abdi",
+      "published_at": "2026-11-06T10:01:37Z"
     }
   ]
 }
