@@ -383,7 +383,8 @@
     "f60bf0477a7dc6063cd540be01d3b13d4483c25679f1f17fe715282e2e015f2e",
     "122bc83fd7a7307e52fad94f65b41b3e8cfd12bbd5905bc075344f5cd77df273",
     "232fdca52790e247b6cd86a21299ee26cbec6190f2bcc2da9a094b6f6891c19c",
-    "6e040a57d42663d31cb6bc834b415891d9a6c8096efee1824e935fa48955f442"
+    "6e040a57d42663d31cb6bc834b415891d9a6c8096efee1824e935fa48955f442",
+    "7ccae67594870effc3c53b58bca740a0eab8546b19c3d69f3243fae8b61a4d9c"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -769,17 +770,10 @@
     "https://www.ghafla.co.ke/pharmacists-warn-ladies-against-viral-cetirizine-misconceptions/",
     "https://www.ghafla.co.ke/charlene-ruto-flaunts-lavish-gown-fitting-moments-ahead-of-her-grand-wedding-photo/",
     "https://www.ghafla.co.ke/babu-owino-geoffrey-mosiria-trade-insults-in-heated-online-exchange/",
-    "https://www.ghafla.co.ke/oscar-sudi-shares-light-hearted-moment-walking-with-ruto-at-luxury-tanzania-hotel/"
+    "https://www.ghafla.co.ke/oscar-sudi-shares-light-hearted-moment-walking-with-ruto-at-luxury-tanzania-hotel/",
+    "https://www.ghafla.co.ke/overtaken-by-time-rigathi-gachagua-formally-withdraws-high-court-impeachment-challenge/"
   ],
   "published_angles": [
-    {
-      "title": "KRA Ambushes Mike Sonko\u2019s Paying Clients to Seize KSh 623M Arrears",
-      "angle": "Focusing on the operational commercial ambush: KRA quietly stepping directly between the flamboyant former governor and his paying business clients, cutting off his private income streams right at the invoice level.",
-      "angle_type": "celebrity wealth scrutiny and financial squeeze",
-      "opening": "Personality lead opening directly on Mike Sonko facing a direct intercept of his commercial revenue by tax enforcement officers.",
-      "structure": "Personality lead -> Intercepted customer notice mechanics -> Arithmetic of the KSh 623M claim and five-year audit window -> Section 42 enforcement muscle -> Unresolved settlement outlook",
-      "source": "https://www.ghafla.co.ke/kra-issues-agency-notice-to-recover-ksh-623-million-tax-debt-from-mike-sonko/"
-    },
     {
       "title": "Vipingo Ridge to Presidential Escort: Kenya Power Dims Sunday Grid Across VIP Belts and Coastal Resorts",
       "angle": "Reframing the outage notice through its direct hit on prominent leisure strips, VIP security installations, and weekend recreational hubs\u2014tracing how an eight-hour blackout lands on luxury coastal enclaves like Vipingo Ridge and Sun N Sand, Nairobi's Presidential Escort base, and popular social nodes.",
@@ -1571,6 +1565,14 @@
       "opening": "Personality-led opening establishing Sudi's casual leisure stance alongside Ruto at the Mwanza hotel.",
       "structure": "Informal walk hook -> Visual sartorial contrast -> Context of the Mwanza wedding leg -> Precursor family ceremonies in Kilgoris and Nairobi -> Concrete close on delegation logistics.",
       "source": "https://www.ghafla.co.ke/oscar-sudi-shares-light-hearted-moment-walking-with-ruto-at-luxury-tanzania-hotel/"
+    },
+    {
+      "title": "Rigathi Gachagua Drops High Court Anchor Petition to Focus Entirely on Appellate Battle",
+      "angle": "Framing Gachagua's High Court exit as a strategic legal streamlining move that strips away redundant multi-case litigation to focus exclusively on the upcoming November 19 Court of Appeal directions, where his 2027 election eligibility under Article 75(3) will ultimately be decided.",
+      "angle_type": "appellate strategy and political eligibility",
+      "opening": "Personality lead directly on Rigathi Gachagua withdrawing his lead anchor High Court lawsuit to channel all legal firepower into the appellate court.",
+      "structure": "Personality exit hook -> History of Petition E522 and High Court consolidation -> Defense team's rationale for withdrawal -> The November 19 appellate battleground and Article 75(3) stakes.",
+      "source": "https://www.ghafla.co.ke/overtaken-by-time-rigathi-gachagua-formally-withdraws-high-court-impeachment-challenge/"
     }
   ],
   "style_history": [
