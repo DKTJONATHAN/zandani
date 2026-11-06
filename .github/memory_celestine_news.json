@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a5a50dce9a7cdc2fd212f96eb7005355",
     "8a8be8328be7a344c71a448726492b77",
     "3bea5ae82e041f482dd5ead919968207",
     "1c6801b30b0cd39285490f857c75621f",
@@ -799,10 +798,10 @@
     "a9f3d18eaa19c627cd415b95601d1c62",
     "349e277c10b7ecba81a0bfbaf9dcba82",
     "84ddc0e71cfb0728266f20cdb84bb863",
-    "14b0958c8fd4b08b8ff0c86f3dabd1a8"
+    "14b0958c8fd4b08b8ff0c86f3dabd1a8",
+    "ca9acb561e998f749705880dce9281b5"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1627,7 +1627,8 @@
     "https://kenyans.co.ke/news/129176-parliament-orders-probe-cracks-riruta-satellite-apartment-building",
     "https://kenyans.co.ke/news/129175-high-court-blocks-iebc-conducting-interviews-ceo-position",
     "https://kenyans.co.ke/news/129169-kenya-tells-commonwealth-step-after-britain-rejects-slavery-reparations",
-    "https://kenyans.co.ke/news/129172-ministry-turns-chiefs-trace-kenyans-yet-collect-their-national-id-cards"
+    "https://kenyans.co.ke/news/129172-ministry-turns-chiefs-trace-kenyans-yet-collect-their-national-id-cards",
+    "https://kenyans.co.ke/news/129177-kra-excludes-smartphones-foodstuffs-and-used-clothes-cargo-clearance-plan"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2345,7 +2346,8 @@
     "unapproved story riruta block exposes nairobi habitability enforcement gap",
     "contrasting high court rulings freeze iebc ceo recruitment days ahead interviews",
     "walls off slavery reparations battle inside commonwealth russia wades",
-    "state deploys chiefs multi agency database matching hunt down 557 000 stranded ids"
+    "state deploys chiefs multi agency database matching hunt down 557 000 stranded ids",
+    "kra imposes volume cap itemized valuation consolidated cargo"
   ],
   "topic_keys": [
     "news tracker",
@@ -8078,6 +8080,15 @@
       "structure": "Operational pivot lead -> Committee disclosure and backlog scale -> Dual-track tracking mechanics (IPRS cross-referencing vs boots on the ground) -> Expanded grassroots administrative cadre -> Direct public retrieval channels and hardware investments",
       "source": "https://kenyans.co.ke/news/129172-ministry-turns-chiefs-trace-kenyans-yet-collect-their-national-id-cards",
       "published_at": "2026-11-05T20:02:10Z"
+    },
+    {
+      "title": "KRA Imposes 5% Volume Cap and Itemized Valuation on Consolidated Cargo",
+      "angle": "Examining the administrative mechanics and volumetric restrictions (the 5 percent CBM limit) KRA has implemented to operationalize President Ruto's directive, dismantling flat-rate tax arbitrage on high-turnover retail goods.",
+      "angle_type": "customs enforcement and volumetric compliance mechanics",
+      "opening": "Regulatory enforcement lead centering on the strict 5 percent volumetric cap and itemized valuation rules designed to ring-fence consolidated cargo.",
+      "structure": "Volumetric cap lead -> Complete exclusions vs conditional limits -> Presidential policy context -> Unit-valuation and manifest compliance requirements -> Market operational outlook.",
+      "source": "https://kenyans.co.ke/news/129177-kra-excludes-smartphones-foodstuffs-and-used-clothes-cargo-clearance-plan",
+      "published_at": "2026-11-06T04:01:59Z"
     }
   ]
 }
