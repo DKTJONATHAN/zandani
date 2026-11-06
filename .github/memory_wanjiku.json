@@ -388,7 +388,8 @@
     "63c0f8e8b16062a4c5ef5e0dcbbcf721be4963afca12338c992d7500a2c31407",
     "45546095b1fd1e35ee1f246d3fc6381c268bc452547745d7c7f7f5fcc12a85d1",
     "207b606a62d28cbfab6995e35a22b979b661fd61c8952c22bed13801a735fd3d",
-    "47b719ed0de8ad64d015bc0752997d7af90e2a5dd4270b34f98c51f34b8b7221"
+    "47b719ed0de8ad64d015bc0752997d7af90e2a5dd4270b34f98c51f34b8b7221",
+    "ce4b47287657217b80b7b85884cc0341eae4d8ea78bb6476dc6ddd402b9e82c4"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -779,17 +780,10 @@
     "https://www.ghafla.co.ke/couples-call-us-when-things-get-tough-dj-mo-size-8-reveal-celebrities-consult-them-on-marriage/",
     "https://www.ghafla.co.ke/government-announces-new-fish-landing-sites-patrol-boats-and-lake-victoria-ring-road/",
     "https://www.ghafla.co.ke/200-year-prison-sentence-for-shakahola-cult-leader-paul-mackenzie-over-mass-child-murders/",
-    "https://www.ghafla.co.ke/sandra-dacha-claps-back-at-critics-claiming-weight-loss-made-her-look-older/"
+    "https://www.ghafla.co.ke/sandra-dacha-claps-back-at-critics-claiming-weight-loss-made-her-look-older/",
+    "https://www.ghafla.co.ke/build-yours-oga-obinna-slams-kenyans-criticizing-size-8-and-dj-mos-new-mansion/"
   ],
   "published_angles": [
-    {
-      "title": "Ruto Dares Rivals from Eldoret: Stop the Slogans, Show Me Your 2027 Blueprint",
-      "angle": "Focusing on Ruto's podium dare from his Eldoret backyard\u2014treating 2027 not as a duel of slogans or ouster chants, but as a demand for a competing economic policy document, set against Simba Arati's simultaneous grassroots mobilization push.",
-      "angle_type": "political personality showdown and campaign terms challenge",
-      "opening": "Personality lead opening directly on William Ruto commanding the Eldoret podium and daring opposition rivals to swap their slogans for a verifiable economic plan.",
-      "structure": "Personality hook -> The Eldoret podium demand -> Direct critique of anti-incumbency slogans -> The President's infrastructure and subsidy defense -> Simba Arati's parallel ODM grassroots mobilization -> Closing on the 2027 clash of strategies.",
-      "source": "https://www.ghafla.co.ke/ruto-dismisses-opposition-ahead-of-2027-urging-rivals-to-present-real-policies-over-political-rhetoric/"
-    },
     {
       "title": "Ruto Shrugs Off Natembeya Feud to Force Trans Nzoia Hospital Build",
       "angle": "Framing the confrontation through Ruto's blunt executive brush-off of Natembeya\u2014treating the governor's resistance as a personal annoyance that will be steamrolled by national healthcare projects across Trans Nzoia and the wider western circuit.",
@@ -1581,6 +1575,14 @@
       "opening": "Personality lead opening directly on Sandra Dacha dismantling audience expectations about her post-weight-loss face and body.",
       "structure": "Personality opening -> Direct statement breakdown -> Throwback video context with Akuku Danger -> Medical and lifestyle routine background -> Boundary-setting close.",
       "source": "https://www.ghafla.co.ke/sandra-dacha-claps-back-at-critics-claiming-weight-loss-made-her-look-older/"
+    },
+    {
+      "title": "Oga Obinna Slams \u2018Zero-Shilling\u2019 Critics Nitpicking Size 8 and DJ Mo\u2019s Ksh 50M Mansion",
+      "angle": "Examining the financial reality of luxury celebrity real estate scrutiny in Kenya\u2014contrasting zero-shilling armchair critics with verified multi-million-shilling construction budgets and personal discipline.",
+      "angle_type": "celebrity real estate economics and social media entitlement",
+      "opening": "Personality lead opening directly on Oga Obinna calling out the entitlement of social media critics who contribute nothing financially.",
+      "structure": "Personality hook -> Financial scale and budget breakdown -> Historical parallel with Khaligraph Jones -> Construction discipline context -> Closing challenge on self-reliance.",
+      "source": "https://www.ghafla.co.ke/build-yours-oga-obinna-slams-kenyans-criticizing-size-8-and-dj-mos-new-mansion/"
     }
   ],
   "style_history": [
