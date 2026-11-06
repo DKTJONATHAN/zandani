@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "3bea5ae82e041f482dd5ead919968207",
     "1c6801b30b0cd39285490f857c75621f",
     "ccf64ed5079734a34f9835987d444ec9",
     "ab064a87b721a25929a20214e0f1ed44",
@@ -799,10 +798,10 @@
     "84ddc0e71cfb0728266f20cdb84bb863",
     "14b0958c8fd4b08b8ff0c86f3dabd1a8",
     "ca9acb561e998f749705880dce9281b5",
-    "7750a9e3bcd72d0e30ba7f1af791ed26"
+    "7750a9e3bcd72d0e30ba7f1af791ed26",
+    "349edc8178b063348c81da9a1d8e9c3c"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Desk Take",
     "Event Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1629,7 +1629,8 @@
     "https://kenyans.co.ke/news/129169-kenya-tells-commonwealth-step-after-britain-rejects-slavery-reparations",
     "https://kenyans.co.ke/news/129172-ministry-turns-chiefs-trace-kenyans-yet-collect-their-national-id-cards",
     "https://kenyans.co.ke/news/129177-kra-excludes-smartphones-foodstuffs-and-used-clothes-cargo-clearance-plan",
-    "https://kenyans.co.ke/news/129178-police-officer-goes-missing-after-students-attack-team-probing-kcse-exam-cheating"
+    "https://kenyans.co.ke/news/129178-police-officer-goes-missing-after-students-attack-team-probing-kcse-exam-cheating",
+    "https://kenyans.co.ke/news/129183-gachaguas-sister-eunice-nyangari-dies"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2349,7 +2350,8 @@
     "walls off slavery reparations battle inside commonwealth russia wades",
     "state deploys chiefs multi agency database matching hunt down 557 000 stranded ids",
     "kra imposes volume cap itemized valuation consolidated cargo",
-    "hidden laptop missing officer nyabisase kcse fraud raid turned violent"
+    "hidden laptop missing officer nyabisase kcse fraud raid turned violent",
+    "eunice nyangari gachagua matriarchal anchor gachagua family dies"
   ],
   "topic_keys": [
     "news tracker",
@@ -8100,6 +8102,15 @@
       "structure": "Tactical breakdown lead -> Discovery of hidden hardware and invigilator alert -> Mob escalation and vehicle vandalism -> The missing officer and security implications -> Active DCI multi-track investigation",
       "source": "https://kenyans.co.ke/news/129178-police-officer-goes-missing-after-students-attack-team-probing-kcse-exam-cheating",
       "published_at": "2026-11-06T05:01:51Z"
+    },
+    {
+      "title": "Eunice Nyangari Gachagua, Matriarchal Anchor of Gachagua Family, Dies at 77",
+      "angle": "Focusing on her specific role as the matriarchal anchor of the Gachagua family structure in Naro Moru over the seven years since the death of their mother Martha Kirigo.",
+      "angle_type": "family leadership and structural anchor",
+      "opening": "Matriarchal continuity lead highlighting her seven-year role guiding the family hierarchy in Naro Moru after the passing of their mother.",
+      "structure": "Matriarchal role lead -> Family statement and location facts -> Structural importance to surviving siblings -> Lineage and surviving descendants",
+      "source": "https://kenyans.co.ke/news/129183-gachaguas-sister-eunice-nyangari-dies",
+      "published_at": "2026-11-06T06:02:31Z"
     }
   ]
 }
