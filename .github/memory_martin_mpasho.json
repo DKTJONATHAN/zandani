@@ -163,7 +163,8 @@
     "7a3d22f83e3c2b5cce7a28c81c317850fce0b5497228251ff8fb0de25c2049d2",
     "c722fa2f85bc60532d63a86976ff2960e382d4cecf6b8a90ca98996a98c22fcc",
     "05f1275eb2c07247be4ebd44c068e0676d5c54c9cf63cc4ee32174564f9d4c7a",
-    "bc5bb1c9736228d72fa6a67fd2bac685a253856898bf6d4f728103f2ccd82a14"
+    "bc5bb1c9736228d72fa6a67fd2bac685a253856898bf6d4f728103f2ccd82a14",
+    "c6231d52d803c5558bcd4ca81bcf048af3cc96bfc56cbbb7ceb995939bbecd63"
   ],
   "style_history": [
     "Event Report",
@@ -514,6 +515,10 @@
     {
       "key": "2026-11-06-isaya-yunges-solo-walk-at-charlene-rutos-wedding-sparks-emotional-reactions",
       "ts": "2026-11-06T21:22:37.646031+00:00"
+    },
+    {
+      "key": "2026-11-06-kenyan-princes-helicopter-dream-before-marrying-in-2027",
+      "ts": "2026-11-06T23:22:34.782527+00:00"
     }
   ],
   "urls": [
@@ -581,7 +586,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-06-heha-movers-unveil-virtual-tour-of-their-planned-heha-mansion",
     "https://www.mpasho.co.ke/entertainment/2026-11-06-looking-for-more-than-just-a-betting-platform-here-are-7-reasons-why-pepeta-should-be-your-next-play",
     "https://www.mpasho.co.ke/entertainment/2026-11-06-akothee-calls-out-fashion-designer-for-keeping-her-dress-for-two-months-before-offering-a-refund",
-    "https://www.mpasho.co.ke/entertainment/2026-11-06-isaya-yunges-solo-walk-at-charlene-rutos-wedding-sparks-emotional-reactions"
+    "https://www.mpasho.co.ke/entertainment/2026-11-06-isaya-yunges-solo-walk-at-charlene-rutos-wedding-sparks-emotional-reactions",
+    "https://www.mpasho.co.ke/entertainment/2026-11-06-kenyan-princes-helicopter-dream-before-marrying-in-2027"
   ],
   "published_angles": [
     {
@@ -1095,6 +1101,14 @@
       "opening": "Personality lead opening directly on Isaya Yunge's solitary walk at the altar in Mwanza.",
       "structure": "Solitary walk hook -> Wedding details in Mwanza -> Breakdown of rural labor and foster history -> Relationship expert perspective -> Milestone contrast close",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-06-isaya-yunges-solo-walk-at-charlene-rutos-wedding-sparks-emotional-reactions"
+    },
+    {
+      "title": "Kenyan Prince Anchors 2027 Wedding Timeline to Personal Helicopter Acquisition Target",
+      "angle": "Framing the helicopter purchase as a self-imposed pre-wedding asset threshold, examining how Kenyan Prince ties personal milestone timelines directly to non-commercial luxury acquisitions while asserting forex trading as his sole wealth engine.",
+      "angle_type": "lifestyle benchmark and personal milestone threshold",
+      "opening": "Personality lead opening directly on Raymond Omosa anchoring his 2027 marriage timeline to a strict personal aviation acquisition deadline.",
+      "structure": "Marriage milestone hook -> Aircraft utility constraints (leisure vs commercial) -> Revenue defense (forex vs influencing) -> Historical asset claims (Lamborghini record) -> Relationship history and luxury gift progression -> Factual close",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-06-kenyan-princes-helicopter-dream-before-marrying-in-2027"
     }
   ]
 }
