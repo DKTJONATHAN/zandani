@@ -381,7 +381,8 @@
     "1c9f0899b018d4323887d16c552a8e9b97707ec2fff2fcb1b32cf199baa25465",
     "6b10f43fc310423140e824a0626c96249c153523d74bfa38af5e534a036fb355",
     "f60bf0477a7dc6063cd540be01d3b13d4483c25679f1f17fe715282e2e015f2e",
-    "122bc83fd7a7307e52fad94f65b41b3e8cfd12bbd5905bc075344f5cd77df273"
+    "122bc83fd7a7307e52fad94f65b41b3e8cfd12bbd5905bc075344f5cd77df273",
+    "232fdca52790e247b6cd86a21299ee26cbec6190f2bcc2da9a094b6f6891c19c"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -765,17 +766,10 @@
     "https://www.ghafla.co.ke/gospel-dj-mo-charged-with-three-traffic-offences-after-thika-road-incident/",
     "https://www.ghafla.co.ke/mosiria-gains-confidence-in-nairobi-gubernatorial-bid-after-kenyan-born-politicians-us-election-win/",
     "https://www.ghafla.co.ke/pharmacists-warn-ladies-against-viral-cetirizine-misconceptions/",
-    "https://www.ghafla.co.ke/charlene-ruto-flaunts-lavish-gown-fitting-moments-ahead-of-her-grand-wedding-photo/"
+    "https://www.ghafla.co.ke/charlene-ruto-flaunts-lavish-gown-fitting-moments-ahead-of-her-grand-wedding-photo/",
+    "https://www.ghafla.co.ke/babu-owino-geoffrey-mosiria-trade-insults-in-heated-online-exchange/"
   ],
   "published_angles": [
-    {
-      "title": "Albert Karakacha\u2019s 10% Matatu Fare Cap Collapses as Tarmac Crews Slap 50% Ambush on Commuters",
-      "angle": "The direct defiance of Matatu Owners Association boss Albert Karakacha by ground crews\u2014exposing how his boardroom 10 percent 'business profit' directive was instantly shredded at stages like Khoja and Parklands into an unvetted 50 percent shakedown.",
-      "angle_type": "industry figure authority clash and street-level defiance",
-      "opening": "Personality lead opening directly on Albert Karakacha having his national fare directive openly ignored on the tarmac within hours of issuing it.",
-      "structure": "Personality authority hook -> Ground defiance and route-specific fare jumps -> Commuter confrontations at Khoja and Parklands -> The mathematical disconnect between Karakacha's edict and per-passenger charges -> Broader EPRA and MAK fuel tension close",
-      "source": "https://www.ghafla.co.ke/matatu-fares-rise-by-up-to-50-per-cent-despite-10-per-cent-hike-directive/"
-    },
     {
       "title": "\u2018Every Woman Can Birth a Leader\u2019: John Mbadi Rebuffs Odinga Dynasty Myth, Launches 2032 Ambition",
       "angle": "Reframing Mbadi's funeral podium appearance through the lens of a direct rebellion against political royalty\u2014examining how he coupled a public snub of Ida Odinga's Bondo memorial with an explosive rejection of dynastic succession, instantly launching his own 2032 presidential claim.",
@@ -1567,6 +1561,14 @@
       "opening": "Personality lead opening directly on Charlene Ruto during her dress fitting alongside First Lady Rachel Ruto and Stephanie Ruto.",
       "structure": "Personality fitting hook -> Gown design and maternal/sisterly role -> Nairobi garden shower context -> Mwanza Airport welcome reception -> Traditional Kilgoris Koito foundation close.",
       "source": "https://www.ghafla.co.ke/charlene-ruto-flaunts-lavish-gown-fitting-moments-ahead-of-her-grand-wedding-photo/"
+    },
+    {
+      "title": "Ice Cream vs Stimulants: Inside Babu Owino and Geoffrey Mosiria\u2019s Personal X Feud",
+      "angle": "Focusing on the specific metabolic and chemical metaphors used in the exchange\u2014moving from 'ice cream brain cells' to unsourced stimulant claims\u2014and the abrupt transition from personal mudslinging to public policy messaging.",
+      "angle_type": "rhetoric and digital confrontation",
+      "opening": "Personality lead opening directly on Babu Owino initiating the insult sequence with an ice cream metaphor on X.",
+      "structure": "Metaphor opening -> Counter-attack breakdown -> Analysis of insult mechanics and evidence context -> Abrupt shift to policy messaging -> Unresolved digital decorum close",
+      "source": "https://www.ghafla.co.ke/babu-owino-geoffrey-mosiria-trade-insults-in-heated-online-exchange/"
     }
   ],
   "style_history": [
