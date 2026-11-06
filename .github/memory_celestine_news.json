@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "7c274e9524ffad15da920d1e92203761",
     "12ef2f4a560dba3ca9c734084ed20fa2",
     "0dc22b1f456212c5fbdd31b643334c3b",
     "93c9043982253266ecdb8e268e17ba2a",
@@ -799,10 +798,10 @@
     "c136e33fa37f4f960661536c67b5ffa8",
     "10c1fbf7ba73e2e25bd12d3f55ebb10a",
     "754649e99e8f47108725cf4d3d255957",
-    "3988b4d47236c40290ddf3afb35f5866"
+    "3988b4d47236c40290ddf3afb35f5866",
+    "5890e6c41e686f257d5dbaa0a8e29774"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1640,7 +1640,8 @@
     "https://kenyans.co.ke/news/129194-paul-mackenzie-sentenced-200-years-prison",
     "https://kenyans.co.ke/news/129196-photos-inside-charlene-rutos-glamorous-wedding-tanzania",
     "https://kenyans.co.ke/news/129197-kenya-records-6th-ebola-recovery-ministry-outlines-42-day-countdown-ending-outbreak",
-    "https://kenyans.co.ke/news/129193-ppp-committee-upholds-ksh8-km-toll-fee-rironi-mau-summit-highway"
+    "https://kenyans.co.ke/news/129193-ppp-committee-upholds-ksh8-km-toll-fee-rironi-mau-summit-highway",
+    "https://kenyans.co.ke/news/129192-lobby-groups-demand-answers-govt-over-delayed-imf-corruption-report"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2371,7 +2372,8 @@
     "high court rejects voluntary starvation defense hands mackenzie 200 years shakahola murders",
     "cross border first family wedding draws political elite mwanza",
     "single active case holds official day countdown end ebola outbreak",
-    "strict appeal window blocks legal challenge ksh200b mau summit highway toll details"
+    "strict appeal window blocks legal challenge ksh200b mau summit highway toll details",
+    "five month executive embargo imf governance audit deepens multilateral credit freeze"
   ],
   "topic_keys": [
     "news tracker",
@@ -8221,6 +8223,15 @@
       "structure": "Statutory lead -> Tribunal ruling details and time-bar logic -> Breakdown of COFEK's suppressed disclosure demands -> Concession rates and corridor construction framework -> Strategic implication for infrastructure transparency.",
       "source": "https://kenyans.co.ke/news/129193-ppp-committee-upholds-ksh8-km-toll-fee-rironi-mau-summit-highway",
       "published_at": "2026-11-06T15:02:09Z"
+    },
+    {
+      "title": "Five-Month Executive Embargo on IMF Governance Audit Deepens Kenya\u2019s Multilateral Credit Freeze",
+      "angle": "Framing the delay around the five-month executive withholding of a completed diagnostic requested after the 2024 youth-led protests, and how this transparency impasse directly correlates with Kenya's months-long exclusion from fresh IMF lending facilities following the April 2025 lapse of its Ksh467 billion program.",
+      "angle_type": "executive transparency bottleneck and institutional credit exposure",
+      "opening": "Timeline and institutional bottleneck opening centering on the five-month gap between the IMF's final document delivery in June 2026 and the executive's refusal to set a public release date.",
+      "structure": "Delivery timeline gap lead -> Fiscal consequences & loan program freeze -> Civil society joint demand & public resource argument -> Parliamentary action and 14-day deadline -> Next steps.",
+      "source": "https://kenyans.co.ke/news/129192-lobby-groups-demand-answers-govt-over-delayed-imf-corruption-report",
+      "published_at": "2026-11-06T16:02:32Z"
     }
   ]
 }
