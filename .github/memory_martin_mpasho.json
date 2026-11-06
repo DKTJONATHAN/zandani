@@ -157,7 +157,8 @@
     "6c80108f37ff1bf1095d3300aeae610f19fdab6c07db6c0632e680c910e0c681",
     "e0756666bcb2382ed6ed188fa46e63b88461dc51226639b04e73acd10e2f117d",
     "5b456d75ccadf88adf4496447512700e81464d035000ae5d9d0809eaec800e1b",
-    "f9cfb9d7856fc58a88f1ceb837ee9a8dc86cb539d44e57178de6696b131fe15d"
+    "f9cfb9d7856fc58a88f1ceb837ee9a8dc86cb539d44e57178de6696b131fe15d",
+    "b5a1937812bb45dca819f6a5a9669a8736d4fcf805d1ad7a5c360e650082b3e5"
   ],
   "style_history": [
     "Event Report",
@@ -484,6 +485,10 @@
     {
       "key": "2026-11-06-yy-comedian-calls-out-kenyans-attacking-wapendwa-muziki-over-ai-use",
       "ts": "2026-11-06T09:25:24.097442+00:00"
+    },
+    {
+      "key": "2026-11-06-call-me-peter-safaricom-ceo-stops-vindee-from-using-fancy-title",
+      "ts": "2026-11-06T11:23:00.162152+00:00"
     }
   ],
   "urls": [
@@ -545,7 +550,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-05-dr-ben-kajwang-makes-history-as-first-kenyan-ceo-to-win-global-change-makers-award",
     "https://www.mpasho.co.ke/entertainment/2026-11-05-willy-m-tuva-recalls-journey-to-owning-mercedes-benz-featured-in-famous-ramogi-radio-advert",
     "https://www.mpasho.co.ke/entertainment/2026-11-06-kenyan-prince-addresses-critics-advising-him-on-his-driving-skills",
-    "https://www.mpasho.co.ke/entertainment/2026-11-06-yy-comedian-calls-out-kenyans-attacking-wapendwa-muziki-over-ai-use"
+    "https://www.mpasho.co.ke/entertainment/2026-11-06-yy-comedian-calls-out-kenyans-attacking-wapendwa-muziki-over-ai-use",
+    "https://www.mpasho.co.ke/entertainment/2026-11-06-call-me-peter-safaricom-ceo-stops-vindee-from-using-fancy-title"
   ],
   "published_angles": [
     {
@@ -1011,6 +1017,14 @@
       "opening": "Personality lead opening on YY Comedian turning the mirror back on critics policing gospel music production.",
       "structure": "Personality lead -> Direct call-out of double standards -> Breakdown of daily ChatGPT reliance (invoices, romance, emails) -> Context of the music debate -> Factual close on evolving digital boundaries.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-06-yy-comedian-calls-out-kenyans-attacking-wapendwa-muziki-over-ai-use"
+    },
+    {
+      "title": "Vindee\u2019s KSh 300 Fuliza Limit Exposes the Gap Between Streamer Numbers and Telco Algorithms",
+      "angle": "The paradox between top-tier digital creator status claims and automated credit scoring realities, exposed when Peter Ndegwa questioned why East Africa's top streamer holds a KSh 300 overdraft cap.",
+      "angle_type": "creator economics and credit evaluation paradox",
+      "opening": "Personality lead opening on Vindee bringing his self-proclaimed regional streaming ranking to a direct meeting with Peter Ndegwa, only to face an immediate breakdown of his KSh 300 Fuliza limit.",
+      "structure": "Streamer credentials vs credit cap hook -> Executive title removal and informal protocol setting -> The Fuliza algorithm query and wealth banter -> Creator stats breakdown -> Practical algorithmic takeaway close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-06-call-me-peter-safaricom-ceo-stops-vindee-from-using-fancy-title"
     }
   ]
 }
