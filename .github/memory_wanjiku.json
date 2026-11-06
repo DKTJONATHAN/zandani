@@ -389,7 +389,8 @@
     "45546095b1fd1e35ee1f246d3fc6381c268bc452547745d7c7f7f5fcc12a85d1",
     "207b606a62d28cbfab6995e35a22b979b661fd61c8952c22bed13801a735fd3d",
     "47b719ed0de8ad64d015bc0752997d7af90e2a5dd4270b34f98c51f34b8b7221",
-    "ce4b47287657217b80b7b85884cc0341eae4d8ea78bb6476dc6ddd402b9e82c4"
+    "ce4b47287657217b80b7b85884cc0341eae4d8ea78bb6476dc6ddd402b9e82c4",
+    "e2b56211613ddc284ef73418d6341e6cd7627c3ddd5236a9dc513526780aa20d"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -781,17 +782,10 @@
     "https://www.ghafla.co.ke/government-announces-new-fish-landing-sites-patrol-boats-and-lake-victoria-ring-road/",
     "https://www.ghafla.co.ke/200-year-prison-sentence-for-shakahola-cult-leader-paul-mackenzie-over-mass-child-murders/",
     "https://www.ghafla.co.ke/sandra-dacha-claps-back-at-critics-claiming-weight-loss-made-her-look-older/",
-    "https://www.ghafla.co.ke/build-yours-oga-obinna-slams-kenyans-criticizing-size-8-and-dj-mos-new-mansion/"
+    "https://www.ghafla.co.ke/build-yours-oga-obinna-slams-kenyans-criticizing-size-8-and-dj-mos-new-mansion/",
+    "https://www.ghafla.co.ke/nicholas-kioko-announces-shift-to-full-time-forex-trading-offers-account-management-services/"
   ],
   "published_angles": [
-    {
-      "title": "Ruto Shrugs Off Natembeya Feud to Force Trans Nzoia Hospital Build",
-      "angle": "Framing the confrontation through Ruto's blunt executive brush-off of Natembeya\u2014treating the governor's resistance as a personal annoyance that will be steamrolled by national healthcare projects across Trans Nzoia and the wider western circuit.",
-      "angle_type": "political personality showdown and executive pushback",
-      "opening": "Personality lead opening directly on Ruto's public dismissal of George Natembeya's standoff over the Trans Nzoia hospital project.",
-      "structure": "Personality hook -> The direct verbal brush-off -> The Western and Rift Valley medical project footprint -> Broader 10-county construction slate and the 2027 horizon -> Ground-level access stakes",
-      "source": "https://www.ghafla.co.ke/ruto-vows-to-build-trans-nzoia-hospital-despite-differences-with-natembeya/"
-    },
     {
       "title": "Mic in Hand: Interior PS Raymond Omollo Drops Civil Service Reserve to Lead Ruto\u2019s 2027 Re-election Chorus",
       "angle": "Framing Omollo's public foray as a deliberate departure from the traditionally detached, behind-the-scenes posture of Harambee House's security brass, turning the spotlight onto a top bureaucrat actively playing campaign hype man in opposition territory and triggering scrutiny over public officers crossing into partisan politics.",
@@ -1583,6 +1577,14 @@
       "opening": "Personality lead opening directly on Oga Obinna calling out the entitlement of social media critics who contribute nothing financially.",
       "structure": "Personality hook -> Financial scale and budget breakdown -> Historical parallel with Khaligraph Jones -> Construction discipline context -> Closing challenge on self-reliance.",
       "source": "https://www.ghafla.co.ke/build-yours-oga-obinna-slams-kenyans-criticizing-size-8-and-dj-mos-new-mansion/"
+    },
+    {
+      "title": "Nicholas Kioko Swaps Mic for Currency Charts, Launches Client Trading Desk",
+      "angle": "Framing the shift as a creator economy monetization leap\u2014tracing how Kioko is converting his massive 600,000-subscriber digital following into a retail client book for third-party fund management, spurred by the stark local ad payout ceiling of KSh80,000 per million views he previously documented.",
+      "angle_type": "creator economy monetization and financial pivot",
+      "opening": "Personality lead opening directly on Nicholas Kioko moving beyond his digital production setup to solicit client capital under a strict 'no overnight V8' warning.",
+      "structure": "Personality pivot hook -> Third-party account management details -> Anti-hype risk parameters and trading disclaimers -> Creator payout context and 36-million view background -> Transition verification close",
+      "source": "https://www.ghafla.co.ke/nicholas-kioko-announces-shift-to-full-time-forex-trading-offers-account-management-services/"
     }
   ],
   "style_history": [
