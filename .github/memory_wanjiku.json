@@ -385,7 +385,8 @@
     "232fdca52790e247b6cd86a21299ee26cbec6190f2bcc2da9a094b6f6891c19c",
     "6e040a57d42663d31cb6bc834b415891d9a6c8096efee1824e935fa48955f442",
     "7ccae67594870effc3c53b58bca740a0eab8546b19c3d69f3243fae8b61a4d9c",
-    "63c0f8e8b16062a4c5ef5e0dcbbcf721be4963afca12338c992d7500a2c31407"
+    "63c0f8e8b16062a4c5ef5e0dcbbcf721be4963afca12338c992d7500a2c31407",
+    "45546095b1fd1e35ee1f246d3fc6381c268bc452547745d7c7f7f5fcc12a85d1"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -773,17 +774,10 @@
     "https://www.ghafla.co.ke/babu-owino-geoffrey-mosiria-trade-insults-in-heated-online-exchange/",
     "https://www.ghafla.co.ke/oscar-sudi-shares-light-hearted-moment-walking-with-ruto-at-luxury-tanzania-hotel/",
     "https://www.ghafla.co.ke/overtaken-by-time-rigathi-gachagua-formally-withdraws-high-court-impeachment-challenge/",
-    "https://www.ghafla.co.ke/couples-call-us-when-things-get-tough-dj-mo-size-8-reveal-celebrities-consult-them-on-marriage/"
+    "https://www.ghafla.co.ke/couples-call-us-when-things-get-tough-dj-mo-size-8-reveal-celebrities-consult-them-on-marriage/",
+    "https://www.ghafla.co.ke/government-announces-new-fish-landing-sites-patrol-boats-and-lake-victoria-ring-road/"
   ],
   "published_angles": [
-    {
-      "title": "Alai's Nairobi Chessboard: Why Winnie Odinga\u2019s Senate Rumour Spells Trouble for Babu Owino, Not Jalang\u2019o",
-      "angle": "Examining the specific political divergence Alai creates between Jalang'o and Babu Owino, detailing why Alai claims Jalang'o remains safe while Babu's gubernatorial path is singled out for neutralization by the Sifuna-aligned faction.",
-      "angle_type": "celebrity political friction and strategic rivalry",
-      "opening": "Personality lead opening directly on Robert Alai drawing a sharp line between the political fates of Jalang'o and Babu Owino amidst Winnie Odinga's rumoured Senate run.",
-      "structure": "Personality lead -> The Jalang'o vs. Babu political calculus -> Factional alignment under Sifuna's Linda Mwananchi banner -> Unverified claims vs. 2027 Nairobi lineup realities -> Grounded closing on upcoming alignments.",
-      "source": "https://www.ghafla.co.ke/alai-claims-winnie-odingas-senate-bid-targets-babu-owinos-nairobi-governor-ambitions/"
-    },
     {
       "title": "Dr. Patrick Amoth Rules Out Social and Travel Curbs as Kenya Isolates 4 New Ebola Cases",
       "angle": "Focusing on Dr. Patrick Amoth's high-stakes public balance\u2014delivering sobering clinical news regarding infected hospital staff while issuing a firm operational guarantee that shields the country's travel, social gatherings, and commercial life from disruption.",
@@ -1575,6 +1569,14 @@
       "opening": "Personality lead opening directly on DJ Mo and Size 8 detailing how their unvarnished approach to their own marriage turned their personal phones into an informal counseling line for prominent figures.",
       "structure": "Personality hook on peer counseling hotline -> Context of podcast session with Daddy Owen -> Breakdown of DJ Mo's statements on crisis calls ('kimeumana') -> Size 8's analysis of pride and perfectionism -> Factual conclusion on vulnerability over image control.",
       "source": "https://www.ghafla.co.ke/couples-call-us-when-things-get-tough-dj-mo-size-8-reveal-celebrities-consult-them-on-marriage/"
+    },
+    {
+      "title": "Raymond Omollo Demands Equity for Lake Victoria Fishermen, Pledges Armed Patrol Vessel Overhaul by End of 2026",
+      "angle": "Framing Raymond Omollo's Lake Victoria pitch around his explicit parity argument\u2014demanding fishing receive the same state investment as tea and coffee\u2014tied directly to an end-of-2026 security deadline to replace risky wooden patrol craft around Migingo Island.",
+      "angle_type": "institutional parity and security deadline focus",
+      "opening": "Personality lead opening directly on Dr. Raymond Omollo presenting an economic parity pitch to Lake Victoria fishermen.",
+      "structure": "Personality opening -> Cash-crop economic parity pitch -> Migingo security overhaul and 2026 deadline -> Pier and blue economy infrastructure breakdown -> BMU SACCO governance and diversification demands -> Presidential Lake Victoria Ring Road close.",
+      "source": "https://www.ghafla.co.ke/government-announces-new-fish-landing-sites-patrol-boats-and-lake-victoria-ring-road/"
     }
   ],
   "style_history": [
