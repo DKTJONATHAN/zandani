@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ab064a87b721a25929a20214e0f1ed44",
     "8f1d51fbfe5bcb4c5781f22053604d42",
     "a6c452a98fde4e3ed0f14ae7c5a6bf80",
     "f67888b93bdb25394d1fb8baeaefd0dd",
@@ -799,10 +798,10 @@
     "7750a9e3bcd72d0e30ba7f1af791ed26",
     "349edc8178b063348c81da9a1d8e9c3c",
     "fa749f000107730617cf50e7c7e7548f",
-    "27852b858783104f05162f2ad89af0eb"
+    "27852b858783104f05162f2ad89af0eb",
+    "dd9a85545153ec1a9689f0f2fa10b864"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Desk Take",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Statement Report",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1632,7 +1632,8 @@
     "https://kenyans.co.ke/news/129178-police-officer-goes-missing-after-students-attack-team-probing-kcse-exam-cheating",
     "https://kenyans.co.ke/news/129183-gachaguas-sister-eunice-nyangari-dies",
     "https://kenyans.co.ke/news/129182-20000-students-miss-kmtc-admission-slots-over-lack-govt-funding",
-    "https://kenyans.co.ke/news/129186-mp-residents-block-highway-protest-alleged-police-harassment-kainuk"
+    "https://kenyans.co.ke/news/129186-mp-residents-block-highway-protest-alleged-police-harassment-kainuk",
+    "https://kenyans.co.ke/news/129187-kra-issues-9-point-checklist-employers-ahead-november-9-paye-deadline"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2355,7 +2356,8 @@
     "hidden laptop missing officer nyabisase kcse fraud raid turned violent",
     "eunice nyangari gachagua matriarchal anchor gachagua family dies",
     "departmental wall locks 000 medical trainees out state education pool",
-    "kitale lodwar highway blockage highlights growing rift border disarmament tactics"
+    "kitale lodwar highway blockage highlights growing rift border disarmament tactics",
+    "employers face steep section penalties kra target non cash benefits ahead paye cutoff"
   ],
   "topic_keys": [
     "news tracker",
@@ -8133,6 +8135,15 @@
       "structure": "Highway disruption opening -> Protests timeline and MP mobilization -> Analysis of SOG operation complaints and selective disarmament allegations -> Context of state security posture (Murkomen's September border directive) -> Unresolved community demands and corridor outlook.",
       "source": "https://kenyans.co.ke/news/129186-mp-residents-block-highway-protest-alleged-police-harassment-kainuk",
       "published_at": "2026-11-06T08:02:53Z"
+    },
+    {
+      "title": "Employers Face Steep Section 37 Penalties as KRA Target Non-Cash Benefits Ahead of PAYE Cutoff",
+      "angle": "Focuses on the financial liability and compliance friction employers face when valuing non-cash benefits like housing and vehicles under Section 37 enforcement mechanics.",
+      "angle_type": "payroll compliance exposure and penalty mechanics",
+      "opening": "Statutory exposure lead centering on the operational risks and financial penalties associated with non-cash benefit miscalculations.",
+      "structure": "Statutory exposure opening -> Benefit valuation & 2026 tax band breakdown -> Operational filing workflow -> Penalty and interest breakdown close.",
+      "source": "https://kenyans.co.ke/news/129187-kra-issues-9-point-checklist-employers-ahead-november-9-paye-deadline",
+      "published_at": "2026-11-06T09:11:30Z"
     }
   ]
 }
