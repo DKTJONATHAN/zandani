@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ccf64ed5079734a34f9835987d444ec9",
     "ab064a87b721a25929a20214e0f1ed44",
     "8f1d51fbfe5bcb4c5781f22053604d42",
     "a6c452a98fde4e3ed0f14ae7c5a6bf80",
@@ -799,10 +798,10 @@
     "ca9acb561e998f749705880dce9281b5",
     "7750a9e3bcd72d0e30ba7f1af791ed26",
     "349edc8178b063348c81da9a1d8e9c3c",
-    "fa749f000107730617cf50e7c7e7548f"
+    "fa749f000107730617cf50e7c7e7548f",
+    "27852b858783104f05162f2ad89af0eb"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Event Report",
     "Hard News Lead",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1631,7 +1631,8 @@
     "https://kenyans.co.ke/news/129177-kra-excludes-smartphones-foodstuffs-and-used-clothes-cargo-clearance-plan",
     "https://kenyans.co.ke/news/129178-police-officer-goes-missing-after-students-attack-team-probing-kcse-exam-cheating",
     "https://kenyans.co.ke/news/129183-gachaguas-sister-eunice-nyangari-dies",
-    "https://kenyans.co.ke/news/129182-20000-students-miss-kmtc-admission-slots-over-lack-govt-funding"
+    "https://kenyans.co.ke/news/129182-20000-students-miss-kmtc-admission-slots-over-lack-govt-funding",
+    "https://kenyans.co.ke/news/129186-mp-residents-block-highway-protest-alleged-police-harassment-kainuk"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2353,7 +2354,8 @@
     "kra imposes volume cap itemized valuation consolidated cargo",
     "hidden laptop missing officer nyabisase kcse fraud raid turned violent",
     "eunice nyangari gachagua matriarchal anchor gachagua family dies",
-    "departmental wall locks 000 medical trainees out state education pool"
+    "departmental wall locks 000 medical trainees out state education pool",
+    "kitale lodwar highway blockage highlights growing rift border disarmament tactics"
   ],
   "topic_keys": [
     "news tracker",
@@ -8122,6 +8124,15 @@
       "structure": "Jurisdictional barrier lead -> Parliamentary disclosures and admission forfeiture scale -> Clinical training defense vs statutory funding rules -> Placement portal friction and capacity lock -> Proposed Treasury funding reform.",
       "source": "https://kenyans.co.ke/news/129182-20000-students-miss-kmtc-admission-slots-over-lack-govt-funding",
       "published_at": "2026-11-06T07:02:17Z"
+    },
+    {
+      "title": "Kitale-Lodwar Highway Blockage Highlights Growing Rift Over Border Disarmament Tactics",
+      "angle": "Framing the protest through the operational rift between the Interior Ministry's border disarmament strategy and local community trust, highlighting how tactics by specialized units like the Special Operations Group (SOG) and allegations of selective disarming turned local leadership against state enforcement along a key transport corridor.",
+      "angle_type": "security policy friction and transport corridor disruption",
+      "opening": "Corridor disruption lead centering on how community pushback against state disarmament tactics brought transit on the Kitale-Lodwar Highway to a standstill.",
+      "structure": "Highway disruption opening -> Protests timeline and MP mobilization -> Analysis of SOG operation complaints and selective disarmament allegations -> Context of state security posture (Murkomen's September border directive) -> Unresolved community demands and corridor outlook.",
+      "source": "https://kenyans.co.ke/news/129186-mp-residents-block-highway-protest-alleged-police-harassment-kainuk",
+      "published_at": "2026-11-06T08:02:53Z"
     }
   ]
 }
