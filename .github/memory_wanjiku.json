@@ -386,7 +386,8 @@
     "6e040a57d42663d31cb6bc834b415891d9a6c8096efee1824e935fa48955f442",
     "7ccae67594870effc3c53b58bca740a0eab8546b19c3d69f3243fae8b61a4d9c",
     "63c0f8e8b16062a4c5ef5e0dcbbcf721be4963afca12338c992d7500a2c31407",
-    "45546095b1fd1e35ee1f246d3fc6381c268bc452547745d7c7f7f5fcc12a85d1"
+    "45546095b1fd1e35ee1f246d3fc6381c268bc452547745d7c7f7f5fcc12a85d1",
+    "207b606a62d28cbfab6995e35a22b979b661fd61c8952c22bed13801a735fd3d"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -775,17 +776,10 @@
     "https://www.ghafla.co.ke/oscar-sudi-shares-light-hearted-moment-walking-with-ruto-at-luxury-tanzania-hotel/",
     "https://www.ghafla.co.ke/overtaken-by-time-rigathi-gachagua-formally-withdraws-high-court-impeachment-challenge/",
     "https://www.ghafla.co.ke/couples-call-us-when-things-get-tough-dj-mo-size-8-reveal-celebrities-consult-them-on-marriage/",
-    "https://www.ghafla.co.ke/government-announces-new-fish-landing-sites-patrol-boats-and-lake-victoria-ring-road/"
+    "https://www.ghafla.co.ke/government-announces-new-fish-landing-sites-patrol-boats-and-lake-victoria-ring-road/",
+    "https://www.ghafla.co.ke/200-year-prison-sentence-for-shakahola-cult-leader-paul-mackenzie-over-mass-child-murders/"
   ],
   "published_angles": [
-    {
-      "title": "Dr. Patrick Amoth Rules Out Social and Travel Curbs as Kenya Isolates 4 New Ebola Cases",
-      "angle": "Focusing on Dr. Patrick Amoth's high-stakes public balance\u2014delivering sobering clinical news regarding infected hospital staff while issuing a firm operational guarantee that shields the country's travel, social gatherings, and commercial life from disruption.",
-      "angle_type": "public figure authority and social continuity",
-      "opening": "Personality lead opening directly on Dr. Patrick Amoth managing national public health anxiety with an explicit green light for open public gatherings and commerce.",
-      "structure": "Personality lead and public life assurance -> Specific clinical tally and infected medical personnel details -> Contact-tracing metrics and containment timeline -> Low community risk threshold and continuity of events.",
-      "source": "https://www.ghafla.co.ke/kenya-reports-4-new-ebola-cases-total-rises-to-7-as-health-ministry-intensifies-response/"
-    },
     {
       "title": "Raila Junior Breaks Ranks with Sister Winnie, Backs Jalang\u2019o for Nairobi Senate",
       "angle": "Framing the clash through Junior's twin political play: openly backing media personality-turned-MP Jalang\u2019o against his sister Winnie while weaponizing the demand for competitive party primaries to announce his own ground-up run for the Kibra seat.",
@@ -1577,6 +1571,14 @@
       "opening": "Personality lead opening directly on Dr. Raymond Omollo presenting an economic parity pitch to Lake Victoria fishermen.",
       "structure": "Personality opening -> Cash-crop economic parity pitch -> Migingo security overhaul and 2026 deadline -> Pier and blue economy infrastructure breakdown -> BMU SACCO governance and diversification demands -> Presidential Lake Victoria Ring Road close.",
       "source": "https://www.ghafla.co.ke/government-announces-new-fish-landing-sites-patrol-boats-and-lake-victoria-ring-road/"
+    },
+    {
+      "title": "Dan Mackenzie Backs 200-Year Sentence for Father Paul Mackenzie After Shakahola Massacre Decimates Family",
+      "angle": "Focusing on Dan Mackenzie's public stance backing the 200-year sentence against his father, highlighting the internal family collapse after losing his own younger brother to the cult.",
+      "angle_type": "family rupture and judicial accountability",
+      "opening": "Personality lead centered on Dan Mackenzie publicly aligning with the court verdict against his father.",
+      "structure": "Son's stance hook -> Verdict details and defense appeal plans -> Mechanism of televised recruitment and forest transition -> Court evidence on fasting bays -> Surviving family impact -> Institutional failure context -> Appellate close.",
+      "source": "https://www.ghafla.co.ke/200-year-prison-sentence-for-shakahola-cult-leader-paul-mackenzie-over-mass-child-murders/"
     }
   ],
   "style_history": [
