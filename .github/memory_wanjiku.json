@@ -380,7 +380,8 @@
     "c5949b846563baf746ec9548fd80d9256498c317ca541507a5767769c632c482",
     "1c9f0899b018d4323887d16c552a8e9b97707ec2fff2fcb1b32cf199baa25465",
     "6b10f43fc310423140e824a0626c96249c153523d74bfa38af5e534a036fb355",
-    "f60bf0477a7dc6063cd540be01d3b13d4483c25679f1f17fe715282e2e015f2e"
+    "f60bf0477a7dc6063cd540be01d3b13d4483c25679f1f17fe715282e2e015f2e",
+    "122bc83fd7a7307e52fad94f65b41b3e8cfd12bbd5905bc075344f5cd77df273"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -763,17 +764,10 @@
     "https://www.ghafla.co.ke/sarah-mtalii-claims-divorce-favours-financially-independent-women-as-men-struggle-to-move-on/",
     "https://www.ghafla.co.ke/gospel-dj-mo-charged-with-three-traffic-offences-after-thika-road-incident/",
     "https://www.ghafla.co.ke/mosiria-gains-confidence-in-nairobi-gubernatorial-bid-after-kenyan-born-politicians-us-election-win/",
-    "https://www.ghafla.co.ke/pharmacists-warn-ladies-against-viral-cetirizine-misconceptions/"
+    "https://www.ghafla.co.ke/pharmacists-warn-ladies-against-viral-cetirizine-misconceptions/",
+    "https://www.ghafla.co.ke/charlene-ruto-flaunts-lavish-gown-fitting-moments-ahead-of-her-grand-wedding-photo/"
   ],
   "published_angles": [
-    {
-      "title": "Diplomacy Meets the Timeline: Edwin Sifuna's Anniversary Tribute Draws Warm Reply from Indian Mission",
-      "angle": "Focusing on Sifuna's public roll-call of gratitude that pulled foreign diplomats, airline crew, and anonymous passengers into a shared digital spotlight on the first anniversary of Raila Odinga's death.",
-      "angle_type": "public personality exchange and tribute breakdown",
-      "opening": "Open directly on Edwin Sifuna triggering a rare, warm public exchange with India's diplomatic mission over the delicate details of the Mumbai repatriation mission.",
-      "structure": "Personality tribute lead -> India High Commission's direct social media reply -> Sifuna's specific roll-call of unsung actors, including ordinary passengers -> Kenya Airways' response -> First anniversary context and closing",
-      "source": "https://www.ghafla.co.ke/india-responds-to-sifunas-tribute-over-raila-odingas-repatriation/"
-    },
     {
       "title": "Albert Karakacha\u2019s 10% Matatu Fare Cap Collapses as Tarmac Crews Slap 50% Ambush on Commuters",
       "angle": "The direct defiance of Matatu Owners Association boss Albert Karakacha by ground crews\u2014exposing how his boardroom 10 percent 'business profit' directive was instantly shredded at stages like Khoja and Parklands into an unvetted 50 percent shakedown.",
@@ -1565,6 +1559,14 @@
       "opening": "Named entity economic and commercial hook focusing on the retail pharmacy shelves.",
       "structure": "Retail stockout hook -> Pharmaceutical Society of Kenya findings on price gouging -> Ministry of Health track-and-trace response -> Medical reality of oral antihistamines -> Factual close on policy enforcement.",
       "source": "https://www.ghafla.co.ke/pharmacists-warn-ladies-against-viral-cetirizine-misconceptions/"
+    },
+    {
+      "title": "Charlene Ruto Escalates Cross-Border Wedding Sequence With Nairobi Gown Fitting Ahead of Mwanza Ceremony",
+      "angle": "Framing the final gown fitting as the core transition point in a structured, multi-phase cross-border marital rollout\u2014moving from private family preparations in Nairobi to a high-profile reception in Mwanza.",
+      "angle_type": "cross-border lifestyle rollout and family involvement",
+      "opening": "Personality lead opening directly on Charlene Ruto during her dress fitting alongside First Lady Rachel Ruto and Stephanie Ruto.",
+      "structure": "Personality fitting hook -> Gown design and maternal/sisterly role -> Nairobi garden shower context -> Mwanza Airport welcome reception -> Traditional Kilgoris Koito foundation close.",
+      "source": "https://www.ghafla.co.ke/charlene-ruto-flaunts-lavish-gown-fitting-moments-ahead-of-her-grand-wedding-photo/"
     }
   ],
   "style_history": [
