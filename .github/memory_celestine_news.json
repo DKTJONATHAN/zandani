@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f67888b93bdb25394d1fb8baeaefd0dd",
     "fdeeb100bded7d6c5c5cb407fa159e80",
     "2ce5b41657ee7ff6bb20e9e8662949f5",
     "8c90f9e156d5bdb9a3903209530813e2",
@@ -799,10 +798,10 @@
     "27852b858783104f05162f2ad89af0eb",
     "dd9a85545153ec1a9689f0f2fa10b864",
     "3f20b694fafd70eeb7a954f068866bc4",
-    "6526a08cd73595c26b68fb786f93734b"
+    "6526a08cd73595c26b68fb786f93734b",
+    "0499e0150326d1ae6d3049e70098e3b8"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1635,7 +1635,8 @@
     "https://kenyans.co.ke/news/129186-mp-residents-block-highway-protest-alleged-police-harassment-kainuk",
     "https://kenyans.co.ke/news/129187-kra-issues-9-point-checklist-employers-ahead-november-9-paye-deadline",
     "https://kenyans.co.ke/news/129188-lsk-stage-protests-vigilance-house-over-abduction-lawyer-abshir-abdi",
-    "https://kenyans.co.ke/news/129190-ntsa-gives-psv-and-commercial-vehicle-owners-7-days-install-speed-limiters"
+    "https://kenyans.co.ke/news/129190-ntsa-gives-psv-and-commercial-vehicle-owners-7-days-install-speed-limiters",
+    "https://kenyans.co.ke/news/129189-us-sanctions-criminal-networks-accused-trafficking-kenyans-abroad"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2361,7 +2362,8 @@
     "kitale lodwar highway blockage highlights growing rift border disarmament tactics",
     "employers face steep section penalties kra target non cash benefits ahead paye cutoff",
     "lawyers march vigilance house police trade court orders uncharged claims",
-    "ntsa imposes hard day digital expiry speed limiter applications"
+    "ntsa imposes hard day digital expiry speed limiter applications",
+    "chokes financial pipelines behind cyber slavery networks luring asia"
   ],
   "topic_keys": [
     "news tracker",
@@ -8166,6 +8168,15 @@
       "structure": "Digital workflow lead -> Scope and vehicle threshold criteria -> Portal integration mechanics (KRA/TIMS cross-referencing) -> Live telemetry verification rules -> Vendor transfer limits and operational support details",
       "source": "https://kenyans.co.ke/news/129190-ntsa-gives-psv-and-commercial-vehicle-owners-7-days-install-speed-limiters",
       "published_at": "2026-11-06T10:35:32Z"
+    },
+    {
+      "title": "US Chokes Financial Pipelines Behind Cyber-Slavery Networks Luring Kenyans to Asia",
+      "angle": "Focusing on the Treasury's financial isolation mechanics\u2014choking 41 corporate entities and banking pipelines\u2014to dismantle the economic model that finances fake overseas job recruitment and forced cyber-slavery.",
+      "angle_type": "financial enforcement architecture and labor exploitation economics",
+      "opening": "Financial enforcement lead, framing the sanctions as a targeted choking of corporate shells used to fund cyber-slavery compounds.",
+      "structure": "Treasury asset freeze lead -> Scale of Kenyan rescues and recruitment mechanics -> Prince Group & Madagascar network details -> Kenya Tier 2 trafficking compliance context -> Legal and financial enforcement forward edge.",
+      "source": "https://kenyans.co.ke/news/129189-us-sanctions-criminal-networks-accused-trafficking-kenyans-abroad",
+      "published_at": "2026-11-06T11:02:11Z"
     }
   ]
 }
