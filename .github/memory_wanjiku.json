@@ -387,7 +387,8 @@
     "7ccae67594870effc3c53b58bca740a0eab8546b19c3d69f3243fae8b61a4d9c",
     "63c0f8e8b16062a4c5ef5e0dcbbcf721be4963afca12338c992d7500a2c31407",
     "45546095b1fd1e35ee1f246d3fc6381c268bc452547745d7c7f7f5fcc12a85d1",
-    "207b606a62d28cbfab6995e35a22b979b661fd61c8952c22bed13801a735fd3d"
+    "207b606a62d28cbfab6995e35a22b979b661fd61c8952c22bed13801a735fd3d",
+    "47b719ed0de8ad64d015bc0752997d7af90e2a5dd4270b34f98c51f34b8b7221"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -777,17 +778,10 @@
     "https://www.ghafla.co.ke/overtaken-by-time-rigathi-gachagua-formally-withdraws-high-court-impeachment-challenge/",
     "https://www.ghafla.co.ke/couples-call-us-when-things-get-tough-dj-mo-size-8-reveal-celebrities-consult-them-on-marriage/",
     "https://www.ghafla.co.ke/government-announces-new-fish-landing-sites-patrol-boats-and-lake-victoria-ring-road/",
-    "https://www.ghafla.co.ke/200-year-prison-sentence-for-shakahola-cult-leader-paul-mackenzie-over-mass-child-murders/"
+    "https://www.ghafla.co.ke/200-year-prison-sentence-for-shakahola-cult-leader-paul-mackenzie-over-mass-child-murders/",
+    "https://www.ghafla.co.ke/sandra-dacha-claps-back-at-critics-claiming-weight-loss-made-her-look-older/"
   ],
   "published_angles": [
-    {
-      "title": "Raila Junior Breaks Ranks with Sister Winnie, Backs Jalang\u2019o for Nairobi Senate",
-      "angle": "Framing the clash through Junior's twin political play: openly backing media personality-turned-MP Jalang\u2019o against his sister Winnie while weaponizing the demand for competitive party primaries to announce his own ground-up run for the Kibra seat.",
-      "angle_type": "celebrity political alignment and dynasty primary challenge",
-      "opening": "Personality lead opening directly on Raila Junior stepping onto the platform beside Jalang\u2019o to dismantle assumptions of an uncontested family coronation in Nairobi.",
-      "structure": "Personality hook and sibling clash -> The Friday endorsement details with Jalang'o and Passaris -> Primary ticket rebellion and anti-direct nomination stance -> Winnie's anniversary declaration context -> Junior's personal pivot to Kibra.",
-      "source": "https://www.ghafla.co.ke/raila-junior-backs-jalango-for-nairobi-senate-seat-against-sister-winnie/"
-    },
     {
       "title": "Ruto Dares Rivals from Eldoret: Stop the Slogans, Show Me Your 2027 Blueprint",
       "angle": "Focusing on Ruto's podium dare from his Eldoret backyard\u2014treating 2027 not as a duel of slogans or ouster chants, but as a demand for a competing economic policy document, set against Simba Arati's simultaneous grassroots mobilization push.",
@@ -1579,6 +1573,14 @@
       "opening": "Personality lead centered on Dan Mackenzie publicly aligning with the court verdict against his father.",
       "structure": "Son's stance hook -> Verdict details and defense appeal plans -> Mechanism of televised recruitment and forest transition -> Court evidence on fasting bays -> Surviving family impact -> Institutional failure context -> Appellate close.",
       "source": "https://www.ghafla.co.ke/200-year-prison-sentence-for-shakahola-cult-leader-paul-mackenzie-over-mass-child-murders/"
+    },
+    {
+      "title": "Sandra Dacha Challenges Transformation Critics: \u2018Mimi Nilipunguza Kilo, Si Umri\u2019",
+      "angle": "Examining the audience paradox of public physical transformations\u2014tracing Dacha's progression from a nostalgic Nov 4 throwback dance with Akuku Danger to her Nov 6 boundary-setting assertion that shedding weight does not freeze chronological age ('nilipunguza KILO, si umri').",
+      "angle_type": "audience paradox and physical transformation boundaries",
+      "opening": "Personality lead opening directly on Sandra Dacha dismantling audience expectations about her post-weight-loss face and body.",
+      "structure": "Personality opening -> Direct statement breakdown -> Throwback video context with Akuku Danger -> Medical and lifestyle routine background -> Boundary-setting close.",
+      "source": "https://www.ghafla.co.ke/sandra-dacha-claps-back-at-critics-claiming-weight-loss-made-her-look-older/"
     }
   ],
   "style_history": [
