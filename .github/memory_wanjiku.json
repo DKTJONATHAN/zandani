@@ -379,7 +379,8 @@
     "7072354ac8f49af963e93f1cada353cc074f90ae286c475835000be0218a52b5",
     "c5949b846563baf746ec9548fd80d9256498c317ca541507a5767769c632c482",
     "1c9f0899b018d4323887d16c552a8e9b97707ec2fff2fcb1b32cf199baa25465",
-    "6b10f43fc310423140e824a0626c96249c153523d74bfa38af5e534a036fb355"
+    "6b10f43fc310423140e824a0626c96249c153523d74bfa38af5e534a036fb355",
+    "f60bf0477a7dc6063cd540be01d3b13d4483c25679f1f17fe715282e2e015f2e"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -761,17 +762,10 @@
     "https://www.ghafla.co.ke/tremor-reported-in-nairobi-and-surrounding-areas-amid-upcoming-elnino-prediction/",
     "https://www.ghafla.co.ke/sarah-mtalii-claims-divorce-favours-financially-independent-women-as-men-struggle-to-move-on/",
     "https://www.ghafla.co.ke/gospel-dj-mo-charged-with-three-traffic-offences-after-thika-road-incident/",
-    "https://www.ghafla.co.ke/mosiria-gains-confidence-in-nairobi-gubernatorial-bid-after-kenyan-born-politicians-us-election-win/"
+    "https://www.ghafla.co.ke/mosiria-gains-confidence-in-nairobi-gubernatorial-bid-after-kenyan-born-politicians-us-election-win/",
+    "https://www.ghafla.co.ke/pharmacists-warn-ladies-against-viral-cetirizine-misconceptions/"
   ],
   "published_angles": [
-    {
-      "title": "Ndindi Nyoro Drops the Gloves at the Pump: Kiharu MP Demands Sh29 Fuel Slash in Bold PPK Maneuver",
-      "angle": "Framing the confrontation through Ndindi Nyoro's assertive political posturing\u2014stepping out under the PPK banner to mount a forensic, numbers-heavy challenge against energy sector profits and secretive refinery contracts.",
-      "angle_type": "political personality confrontation and economic counter-play",
-      "opening": "Personality lead opening directly on Ndindi Nyoro stepping up to the microphone with the People\u2019s Party of Kenya to challenge EPRA's latest pump review.",
-      "structure": "Personality hook and PPK stance -> The exact Sh29 arithmetic breakdown -> Diesel landed cost anomaly confrontation -> Industry margin and refinery transparency demands -> Grounded closing on public stakes",
-      "source": "https://www.ghafla.co.ke/cut-fuel-prices-by-sh29-ndindi-nyoros-ppk-proposes-sh5-5b-subsidy-and-margin-trims/"
-    },
     {
       "title": "Diplomacy Meets the Timeline: Edwin Sifuna's Anniversary Tribute Draws Warm Reply from Indian Mission",
       "angle": "Focusing on Sifuna's public roll-call of gratitude that pulled foreign diplomats, airline crew, and anonymous passengers into a shared digital spotlight on the first anniversary of Raila Odinga's death.",
@@ -1563,6 +1557,14 @@
       "opening": "Personality-led entry focusing directly on Geoffrey Mosiria's social media shoutout to the diaspora legislator.",
       "structure": "Diaspora electoral context -> Mosiria's congratulatory branding -> Local gubernatorial framing for 2027 -> Concrete factual close on Momanyi-Hiltsley's District 38A victory.",
       "source": "https://www.ghafla.co.ke/mosiria-gains-confidence-in-nairobi-gubernatorial-bid-after-kenyan-born-politicians-us-election-win/"
+    },
+    {
+      "title": "How Viral Cetirizine TikTok Trends Triggered Sudden Pharmacy Stockouts and Price Gouging",
+      "angle": "Examining the immediate commercial fallout in local retail pharmacies\u2014specifically how viral TikTok health hacks trigger rapid local stockouts, consumer panic, and predatory price gouging.",
+      "angle_type": "commercial exploitation and retail pharmaceutical impact",
+      "opening": "Named entity economic and commercial hook focusing on the retail pharmacy shelves.",
+      "structure": "Retail stockout hook -> Pharmaceutical Society of Kenya findings on price gouging -> Ministry of Health track-and-trace response -> Medical reality of oral antihistamines -> Factual close on policy enforcement.",
+      "source": "https://www.ghafla.co.ke/pharmacists-warn-ladies-against-viral-cetirizine-misconceptions/"
     }
   ],
   "style_history": [
