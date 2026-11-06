@@ -160,7 +160,8 @@
     "f9cfb9d7856fc58a88f1ceb837ee9a8dc86cb539d44e57178de6696b131fe15d",
     "b5a1937812bb45dca819f6a5a9669a8736d4fcf805d1ad7a5c360e650082b3e5",
     "071758345c9b599caf8f797a78b399b9cab62a6747c569010e2e6263733a0b04",
-    "7a3d22f83e3c2b5cce7a28c81c317850fce0b5497228251ff8fb0de25c2049d2"
+    "7a3d22f83e3c2b5cce7a28c81c317850fce0b5497228251ff8fb0de25c2049d2",
+    "c722fa2f85bc60532d63a86976ff2960e382d4cecf6b8a90ca98996a98c22fcc"
   ],
   "style_history": [
     "Event Report",
@@ -499,6 +500,10 @@
     {
       "key": "2026-11-06-heha-movers-unveil-virtual-tour-of-their-planned-heha-mansion",
       "ts": "2026-11-06T15:23:09.313303+00:00"
+    },
+    {
+      "key": "2026-11-06-looking-for-more-than-just-a-betting-platform-here-are-7-reasons-why-pepeta-should-be-your-next-play",
+      "ts": "2026-11-06T17:24:06.216561+00:00"
     }
   ],
   "urls": [
@@ -563,7 +568,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-06-yy-comedian-calls-out-kenyans-attacking-wapendwa-muziki-over-ai-use",
     "https://www.mpasho.co.ke/entertainment/2026-11-06-call-me-peter-safaricom-ceo-stops-vindee-from-using-fancy-title",
     "https://www.mpasho.co.ke/entertainment/2026-11-06-arnold-malcom-wonders-why-theres-no-none-luhya-forex-trader",
-    "https://www.mpasho.co.ke/entertainment/2026-11-06-heha-movers-unveil-virtual-tour-of-their-planned-heha-mansion"
+    "https://www.mpasho.co.ke/entertainment/2026-11-06-heha-movers-unveil-virtual-tour-of-their-planned-heha-mansion",
+    "https://www.mpasho.co.ke/entertainment/2026-11-06-looking-for-more-than-just-a-betting-platform-here-are-7-reasons-why-pepeta-should-be-your-next-play"
   ],
   "published_angles": [
     {
@@ -1053,6 +1059,14 @@
       "opening": "Personality lead focusing directly on Nicki Bigfish unveiling the structural plan and setting the hard completion timeline for Heha Movers.",
       "structure": "Personality lead hook -> Property layout and architectural specifications -> Foundation backing and partner ecosystem -> Structural shift from viral content to real estate assets -> Concrete timeline close",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-06-heha-movers-unveil-virtual-tour-of-their-planned-heha-mansion"
+    },
+    {
+      "title": "Pepeta Taps Dormant Bonga Points in Fresh Push to Capture Mobile Bettors",
+      "angle": "The practical intersection of loyalty gamification and telco infrastructure\u2014specifically how platforms are monetizing dormant Bonga points and micro-deposits to keep users active.",
+      "angle_type": "telco loyalty integration and platform deposit mechanics",
+      "opening": "Start directly with the shift from traditional cash deposits to loyalty-point redemption on the platform.",
+      "structure": "Loyalty deposit hook -> Bonga points and Paybill mechanism -> Safaricom data bundle promotion details -> 2UP early payout safeguard -> Concrete factual close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-06-looking-for-more-than-just-a-betting-platform-here-are-7-reasons-why-pepeta-should-be-your-next-play"
     }
   ]
 }
