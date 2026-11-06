@@ -161,7 +161,8 @@
     "b5a1937812bb45dca819f6a5a9669a8736d4fcf805d1ad7a5c360e650082b3e5",
     "071758345c9b599caf8f797a78b399b9cab62a6747c569010e2e6263733a0b04",
     "7a3d22f83e3c2b5cce7a28c81c317850fce0b5497228251ff8fb0de25c2049d2",
-    "c722fa2f85bc60532d63a86976ff2960e382d4cecf6b8a90ca98996a98c22fcc"
+    "c722fa2f85bc60532d63a86976ff2960e382d4cecf6b8a90ca98996a98c22fcc",
+    "05f1275eb2c07247be4ebd44c068e0676d5c54c9cf63cc4ee32174564f9d4c7a"
   ],
   "style_history": [
     "Event Report",
@@ -504,6 +505,10 @@
     {
       "key": "2026-11-06-looking-for-more-than-just-a-betting-platform-here-are-7-reasons-why-pepeta-should-be-your-next-play",
       "ts": "2026-11-06T17:24:06.216561+00:00"
+    },
+    {
+      "key": "2026-11-06-akothee-calls-out-fashion-designer-for-keeping-her-dress-for-two-months-before-offering-a-refund",
+      "ts": "2026-11-06T19:22:53.231925+00:00"
     }
   ],
   "urls": [
@@ -569,7 +574,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-06-call-me-peter-safaricom-ceo-stops-vindee-from-using-fancy-title",
     "https://www.mpasho.co.ke/entertainment/2026-11-06-arnold-malcom-wonders-why-theres-no-none-luhya-forex-trader",
     "https://www.mpasho.co.ke/entertainment/2026-11-06-heha-movers-unveil-virtual-tour-of-their-planned-heha-mansion",
-    "https://www.mpasho.co.ke/entertainment/2026-11-06-looking-for-more-than-just-a-betting-platform-here-are-7-reasons-why-pepeta-should-be-your-next-play"
+    "https://www.mpasho.co.ke/entertainment/2026-11-06-looking-for-more-than-just-a-betting-platform-here-are-7-reasons-why-pepeta-should-be-your-next-play",
+    "https://www.mpasho.co.ke/entertainment/2026-11-06-akothee-calls-out-fashion-designer-for-keeping-her-dress-for-two-months-before-offering-a-refund"
   ],
   "published_angles": [
     {
@@ -1067,6 +1073,14 @@
       "opening": "Start directly with the shift from traditional cash deposits to loyalty-point redemption on the platform.",
       "structure": "Loyalty deposit hook -> Bonga points and Paybill mechanism -> Safaricom data bundle promotion details -> 2UP early payout safeguard -> Concrete factual close.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-06-looking-for-more-than-just-a-betting-platform-here-are-7-reasons-why-pepeta-should-be-your-next-play"
+    },
+    {
+      "title": "Akothee\u2019s Two-Month Dress Wait Ends in a Refund Offer\u2014and a Custom Tailoring Dilemma",
+      "angle": "Examining the logistical friction of custom wear production timelines\u2014specifically how cash refunds fail to compensate for lost time when high-profile outfits are tied to immovable event dates.",
+      "angle_type": "custom fashion logistics and timeline accountability",
+      "opening": "Personality lead opening directly on Akothee confronting the reality of a two-month design turnaround ending in a cash refund offer.",
+      "structure": "Personality hook -> The timeline reality of custom design vs. ready-made clothing -> The logistical fallout for high-profile event planning -> Broader implications for designer-client contracts -> Concrete factual close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-06-akothee-calls-out-fashion-designer-for-keeping-her-dress-for-two-months-before-offering-a-refund"
     }
   ]
 }
