@@ -393,7 +393,8 @@
     "e2b56211613ddc284ef73418d6341e6cd7627c3ddd5236a9dc513526780aa20d",
     "9bbc7fa96659259017a95bb90e6721b81857f093887dd5cd1d83cc56b463c023",
     "6c8e2811a385c5e83c6cc7d78ba6e1be6321562f6f14d42c1baa56371decb501",
-    "66fa9e09f970d43b300719ea57eab16f5af8f8121740eca7ddf14e98d03a25ba"
+    "66fa9e09f970d43b300719ea57eab16f5af8f8121740eca7ddf14e98d03a25ba",
+    "022be34ae52c84c4e5aadd3e245465a78a0e98e0db4714c1378053dfab00d720"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -789,17 +790,10 @@
     "https://www.ghafla.co.ke/nicholas-kioko-announces-shift-to-full-time-forex-trading-offers-account-management-services/",
     "https://www.ghafla.co.ke/jaymo-ule-msee-drops-nairobi-senate-bid-endorses-jalango/",
     "https://www.ghafla.co.ke/nana-owiti-opens-up-about-life-after-separation-from-king-kaka/",
-    "https://www.ghafla.co.ke/kamene-goro-reveals-she-underwent-surgery-discharged-to-recover-at-home/"
+    "https://www.ghafla.co.ke/kamene-goro-reveals-she-underwent-surgery-discharged-to-recover-at-home/",
+    "https://www.ghafla.co.ke/kenya-power-announces-saturday-blackout-in-kiambu-and-nyeri-counties/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018They Say I\u2019m Young and Broke\u2019: Edwin Sifuna Laughs Off Billions Factor to Chase 2027 State House Crown",
-      "angle": "The brazen audacity of Sifuna laughing off the two biggest personal liabilities thrown at him by sceptics\u2014his youth and lack of billions\u2014to claim he will shatter Kenyan electoral precedent by leaping straight from a single Senate term straight into State House with a 10-month party startup.",
-      "angle_type": "political personality audacity and precedent-busting ambition",
-      "opening": "Personality lead opening directly on Edwin Sifuna seizing the church microphone in Donholm to address the whispers about his empty pockets and youthful resume before staking his claim on State House.",
-      "structure": "Personality hook confronting the money-and-age gossip -> The 10-month startup miracle claim and single-term senator precedent -> The mechanical shift from ODM to the Linda Mwananchi vehicle -> Babu Owino's parallel pulpit appeal for a multi-faction opposition front -> The confrontation over state muscle and withdrawn security.",
-      "source": "https://www.ghafla.co.ke/edwin-sifuna-brushes-criticism-about-his-age-declares-he-will-be-first-term-senator-to-become-president/"
-    },
     {
       "title": "Unblinking in Red and Black: Paul Mackenzie\u2019s Vow to \u2018Close Earth\u2019s Door\u2019 Laid Bare in Marathon 1,000-Page Verdict",
       "angle": "Focusing on the chilling performative duality inside the tented courtroom: Mackenzie's unblinking, flat stoicism in a casual striped T-shirt while the bench systematically exposed his messianic script\u2014specifically his promise to endure 'kicks and blows' and act as the final man to 'close the door on earth'\u2014before a battery of local and foreign cameras and DPP Renson Ingonga.",
@@ -1591,6 +1585,14 @@
       "opening": "Personality lead opening directly on Kamene Goro setting boundaries on her current physical state as she retreats to home care.",
       "structure": "Vulnerability hook and gentleness plea -> Verification of Monday surgery and discharge timeline -> Gratitude sequence and delayed communication explanation -> Context of earlier sepsis and peritonitis battle -> Concrete domestic recuperation close",
       "source": "https://www.ghafla.co.ke/kamene-goro-reveals-she-underwent-surgery-discharged-to-recover-at-home/"
+    },
+    {
+      "title": "Kenya Power Scheduled Eight-Hour Blackout Targets Kamakis and Eastern Bypass Commercial Belt",
+      "angle": "Focusing on the operational freeze along the Eastern Bypass commercial and weekend leisure belt\u2014specifically Kamakis, Exit 11, Green Sport, and Versity Ville\u2014where an eight-hour daytime blackout directly interrupts Saturday business activity.",
+      "angle_type": "commercial impact and weekend operational disruption",
+      "opening": "Corridor-focused operational hook highlighting the Saturday daytime power cutoff to the Kamakis and Versity Ville commercial belt.",
+      "structure": "Bypass commercial corridor hook -> Kiambu maintenance footprint details (Kamakis, Kinoo, Tinganga) -> Nyeri four-hour outage specs -> Utility timeframe and restoration window.",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-saturday-blackout-in-kiambu-and-nyeri-counties/"
     }
   ],
   "style_history": [
