@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "c605664019566013a5841230e3932054",
     "3971032661128ab523b92861b81f0442",
     "6182e32fbf67d0facc7f4dfbb9a6dba5",
     "f3f0f356318d05ddf14267f19d999673",
@@ -799,10 +798,10 @@
     "07fd583182e76239b3a8335e0853ca02",
     "058be49e0928eed091caf29a9c6f9450",
     "bd7b3b71beebd09e0247dd44fb8b51a8",
-    "cbb1ec621128863a04342ac5fd47dbba"
+    "cbb1ec621128863a04342ac5fd47dbba",
+    "3561498efde50a7d2956f251e34154a6"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1653,7 +1653,8 @@
     "https://kenyans.co.ke/news/129214-explained-how-invest-govt-bonds-and-kenya",
     "https://kenyans.co.ke/news/129217-kanja-orders-crackdown-unroadworthy-vehicles-motorcycles-and-drunk-driving-ahead",
     "https://kenyans.co.ke/news/129218-kilifi-activist-peter-komora-set-sentencing-wildlife-trophies-case",
-    "https://kenyans.co.ke/news/129220-cs-chirchir-unveils-new-plan-fast-track-rironi-naivasha-highway-works"
+    "https://kenyans.co.ke/news/129220-cs-chirchir-unveils-new-plan-fast-track-rironi-naivasha-highway-works",
+    "https://kenyans.co.ke/news/129216-mwarv-reveals-stories-behind-iconic-2017-uhuru-ruto-campaign-photos"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2397,7 +2398,8 @@
     "cbk auction framework locks retail bond buyers price taker role ksh50 000",
     "kanja merges police roadside patrols ntsa digital surveillance festive travel",
     "missing witness trail casts shadow kilifi activist ivory conviction",
-    "state bets imported pavers deferred fixtures salvage december rironi highway target"
+    "state bets imported pavers deferred fixtures salvage december rironi highway target",
+    "behind lens rhumba sos call salvaged jubilee 2017 campaign portraits"
   ],
   "topic_keys": [
     "news tracker",
@@ -8364,6 +8366,15 @@
       "structure": "Delivery target leap lead -> Equipment deployment and bitumen logistics -> Inspection context and missed October deadline -> Section role within Ksh200B Mau Summit PPP corridor -> Forward edge on December opening and tolling horizon.",
       "source": "https://kenyans.co.ke/news/129220-cs-chirchir-unveils-new-plan-fast-track-rironi-naivasha-highway-works",
       "published_at": "2026-11-07T17:02:10Z"
+    },
+    {
+      "title": "Behind the Lens: How Rhumba and an SOS Call Salvaged Jubilee\u2019s 2017 Campaign Portraits",
+      "angle": "The high-stakes mechanics of political image-making under rigid state security protocol, where equipment deficiencies and impending manifesto print deadlines were resolved through last-minute creative collaboration and unorthodox studio tactics.",
+      "angle_type": "political image craft and protocol pressure mechanics",
+      "opening": "Protocol-and-deadline tension lead framing the physical and logistical constraints inside State House before the cameras clicked.",
+      "structure": "High-stakes assignment lead -> Technical deficit and emergency collaboration -> Protocol tension and acoustic improvisation -> Political deadline and visual legacy -> Career arc forward edge",
+      "source": "https://kenyans.co.ke/news/129216-mwarv-reveals-stories-behind-iconic-2017-uhuru-ruto-campaign-photos",
+      "published_at": "2026-11-07T18:02:00Z"
     }
   ]
 }
