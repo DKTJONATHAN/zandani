@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "3971032661128ab523b92861b81f0442",
     "6182e32fbf67d0facc7f4dfbb9a6dba5",
     "f3f0f356318d05ddf14267f19d999673",
     "4d29e6a348b5e4411978d65e32ae4563",
@@ -799,10 +798,10 @@
     "058be49e0928eed091caf29a9c6f9450",
     "bd7b3b71beebd09e0247dd44fb8b51a8",
     "cbb1ec621128863a04342ac5fd47dbba",
-    "3561498efde50a7d2956f251e34154a6"
+    "3561498efde50a7d2956f251e34154a6",
+    "bbfc24c5144d3b9cd293d07166b0c412"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1654,7 +1654,8 @@
     "https://kenyans.co.ke/news/129217-kanja-orders-crackdown-unroadworthy-vehicles-motorcycles-and-drunk-driving-ahead",
     "https://kenyans.co.ke/news/129218-kilifi-activist-peter-komora-set-sentencing-wildlife-trophies-case",
     "https://kenyans.co.ke/news/129220-cs-chirchir-unveils-new-plan-fast-track-rironi-naivasha-highway-works",
-    "https://kenyans.co.ke/news/129216-mwarv-reveals-stories-behind-iconic-2017-uhuru-ruto-campaign-photos"
+    "https://kenyans.co.ke/news/129216-mwarv-reveals-stories-behind-iconic-2017-uhuru-ruto-campaign-photos",
+    "https://kenyans.co.ke/news/129219-eu-us-raise-alarm-over-tanzania-after-tundu-lissus-4-year-jail-sentence"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2399,7 +2400,8 @@
     "kanja merges police roadside patrols ntsa digital surveillance festive travel",
     "missing witness trail casts shadow kilifi activist ivory conviction",
     "state bets imported pavers deferred fixtures salvage december rironi highway target",
-    "behind lens rhumba sos call salvaged jubilee 2017 campaign portraits"
+    "behind lens rhumba sos call salvaged jubilee 2017 campaign portraits",
+    "lissu year incitement verdict puts tanzania bilateral ties under direct review"
   ],
   "topic_keys": [
     "news tracker",
@@ -8375,6 +8377,15 @@
       "structure": "High-stakes assignment lead -> Technical deficit and emergency collaboration -> Protocol tension and acoustic improvisation -> Political deadline and visual legacy -> Career arc forward edge",
       "source": "https://kenyans.co.ke/news/129216-mwarv-reveals-stories-behind-iconic-2017-uhuru-ruto-campaign-photos",
       "published_at": "2026-11-07T18:02:00Z"
+    },
+    {
+      "title": "Lissu\u2019s 4-Year Incitement Verdict Puts Tanzania\u2019s Bilateral Ties Under Direct Review",
+      "angle": "The operational collision between the High Court's incitement verdict and the conditional bilateral review launched by Washington in December 2025, which tied future US cooperation, trade protections, and investment to tangible human rights conduct.",
+      "angle_type": "diplomatic leverage and bilateral review exposure",
+      "opening": "Bilateral conditionality lead framing the domestic court outcome against pending diplomatic and economic reviews.",
+      "structure": "Bilateral review stakes lead -> Split verdict mechanics (treason acquittal vs. incitement penalty) -> Diplomatic escalation and Washington's formal policy review -> European legislative pressure and UN detention findings -> Forward appeal process and bilateral fallout",
+      "source": "https://kenyans.co.ke/news/129219-eu-us-raise-alarm-over-tanzania-after-tundu-lissus-4-year-jail-sentence",
+      "published_at": "2026-11-07T19:01:34Z"
     }
   ]
 }
