@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ffc7af3db7f1203d5be744a3a26aab46",
     "c40108083ca2eef58544f4b5d3e5be8b",
     "57beb65c9c373a7d487b6c6364185cae",
     "bffe8b148f0c3c373d5393406395e164",
@@ -799,10 +798,10 @@
     "f7ba331c4b42d0f5c914550e908176ba",
     "54df3615155975c014d381f216518e40",
     "a09706658b1d33240d06947fb5345474",
-    "e85d62b984e60cd50c3525ea0ac13ee6"
+    "e85d62b984e60cd50c3525ea0ac13ee6",
+    "38ff9e1871c23ffacbc53e0b6e0e394e"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Event Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1645,7 +1645,8 @@
     "https://kenyans.co.ke/news/129200-uk-issues-new-travel-warning-kenyan-town-ethiopia-conflict-escalates",
     "https://kenyans.co.ke/news/129201-kenyan-shilling-nears-ksh130-against-us-dollar-pound-hits-ksh175",
     "https://kenyans.co.ke/news/129204-kenya-met-lists-nairobi-nakuru-among-counties-receive-rains-over-next-five-days",
-    "https://kenyans.co.ke/news/129202-canada-announces-new-rules-kenyans-other-foreigners-seeking-jobs"
+    "https://kenyans.co.ke/news/129202-canada-announces-new-rules-kenyans-other-foreigners-seeking-jobs",
+    "https://kenyans.co.ke/news/129209-un-allocates-ksh387-million-support-50000-ethiopians-fleeing-kenya"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2381,7 +2382,8 @@
     "moyale buckles under supply squeeze refugee surge ethiopia border clashes spill",
     "cbk data reveals european currency surge shilling anchors ksh130 dollar mark",
     "western storms highland chill lead sharp five day weather split across counties",
-    "ottawa sets population jobless thresholds pinch low wage labor seekers"
+    "ottawa sets population jobless thresholds pinch low wage labor seekers",
+    "draws ksh387m emergency fund stem life support shortfall 000 moyale arrivals"
   ],
   "topic_keys": [
     "news tracker",
@@ -8276,6 +8278,15 @@
       "structure": "Geographic restriction lead -> LMIA administrative timeline shift -> Workforce percentage caps -> Ministerial rationale and enforcement date.",
       "source": "https://kenyans.co.ke/news/129202-canada-announces-new-rules-kenyans-other-foreigners-seeking-jobs",
       "published_at": "2026-11-07T08:02:33Z"
+    },
+    {
+      "title": "UN Draws Ksh387M Emergency Fund to Stem Life-Support Shortfall for 50,000 Moyale Arrivals",
+      "angle": "Attribution-first statement analysis examining how the UN's Ksh387 million CERF drawdown acts as an immediate liquidity bridge to finance critical life-support supplies for 50,000 displaced arrivals, while still leaving frontline agencies managing a Ksh700 million funding shortfall against their broader three-month emergency appeal.",
+      "angle_type": "emergency humanitarian financing and operational funding gap",
+      "opening": "Attribution-led opening identifying Tom Fletcher's emergency authorization and detailing the immediate relief recipients.",
+      "structure": "Emergency statement attribution -> Allocation breakdown and frontline recipients -> Joint agency appeal deficit comparison -> Cross-border security spillover context -> Unresolved funding and operational outlook",
+      "source": "https://kenyans.co.ke/news/129209-un-allocates-ksh387-million-support-50000-ethiopians-fleeing-kenya",
+      "published_at": "2026-11-07T09:52:17Z"
     }
   ]
 }
