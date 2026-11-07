@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f2b11b3711d5fc35544bc55821f72961",
     "9149425f5673ce287fe6b60c0da7070e",
     "39e5beb5f460d20037cd39c023c05c4c",
     "99ee60b1996495b4eacb6737eb38e7b1",
@@ -799,10 +798,10 @@
     "38ff9e1871c23ffacbc53e0b6e0e394e",
     "c639c58faea424c99d3ae7ea8feb0299",
     "5730dace19f365b1d0f0a336fa244eae",
-    "5ca8166ea98299fb1fa0329be8e1bf48"
+    "5ca8166ea98299fb1fa0329be8e1bf48",
+    "07fd583182e76239b3a8335e0853ca02"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Statement Report",
     "Hard News Lead",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Desk Take"
+    "Desk Take",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1649,7 +1649,8 @@
     "https://kenyans.co.ke/news/129209-un-allocates-ksh387-million-support-50000-ethiopians-fleeing-kenya",
     "https://kenyans.co.ke/news/129208-ppp-boss-responds-double-taxation-claims-over-rironi-mau-summit-toll",
     "https://kenyans.co.ke/news/129211-kra-auction-thousands-unclaimed-goods-naivasha-icd-other-warehouses",
-    "https://kenyans.co.ke/news/129210-nyeri-governor-mutahi-kahiga-appointed-chair-east-african-local-govts-association"
+    "https://kenyans.co.ke/news/129210-nyeri-governor-mutahi-kahiga-appointed-chair-east-african-local-govts-association",
+    "https://kenyans.co.ke/news/129214-explained-how-invest-govt-bonds-and-kenya"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2389,7 +2390,8 @@
     "draws ksh387m emergency fund stem life support shortfall 000 moyale arrivals",
     "state ties ksh8 mau summit toll full fuel levy funding cutoff",
     "kra triggers multi year forfeiture clock abandoned depot consignments",
-    "kahiga steps regional stage head east africa local govts body"
+    "kahiga steps regional stage head east africa local govts body",
+    "cbk auction framework locks retail bond buyers price taker role ksh50 000"
   ],
   "topic_keys": [
     "news tracker",
@@ -8320,6 +8322,15 @@
       "structure": "Political arc lead -> Handover mechanics in Nairobi -> Proxy representation and agenda priorities -> Mudavadi's fiscal and decentralization mandate -> Strategic roadmap (Nairobi 2026 Declaration).",
       "source": "https://kenyans.co.ke/news/129210-nyeri-governor-mutahi-kahiga-appointed-chair-east-african-local-govts-association",
       "published_at": "2026-11-07T12:02:30Z"
+    },
+    {
+      "title": "CBK Auction Framework Locks Retail Bond Buyers into Price-Taker Role at Ksh50,000",
+      "angle": "Focusing on the operational bifurcation between price-taking retail savers and yield-determining institutional bidders, alongside the secondary market liquidity risk on the Nairobi Securities Exchange when paper is liquidated before maturity.",
+      "angle_type": "institutional auction architecture and liquidity exposure",
+      "opening": "Attribution-first opening outlining the Central Bank of Kenya's structural separation between small non-competitive savers and institutional competitive bidders.",
+      "structure": "Auction hierarchy lead -> Capital thresholds and bidding mechanics -> Onboarding architecture on DhowCSD -> Payout cadence and tenor comparison -> Secondary market liquidity and pricing exposure",
+      "source": "https://kenyans.co.ke/news/129214-explained-how-invest-govt-bonds-and-kenya",
+      "published_at": "2026-11-07T14:02:12Z"
     }
   ]
 }
