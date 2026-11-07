@@ -166,7 +166,8 @@
     "bc5bb1c9736228d72fa6a67fd2bac685a253856898bf6d4f728103f2ccd82a14",
     "c6231d52d803c5558bcd4ca81bcf048af3cc96bfc56cbbb7ceb995939bbecd63",
     "419bf880ffd4c92d04c89d203b229dd332aaf29b5cfb83bd7e7055ff985b1355",
-    "a9a1ba29c7d6768268b9e1853710ab691dd386ca165280038d14097d1359b1da"
+    "a9a1ba29c7d6768268b9e1853710ab691dd386ca165280038d14097d1359b1da",
+    "3e4b7c38980b38352768e2fa95bee43ad239924c1f032a0142ae136790663941"
   ],
   "style_history": [
     "Event Report",
@@ -529,6 +530,10 @@
     {
       "key": "2026-11-06-mbavu-destroyers-alleged-girlfriend-keliah-reacts-to-cosy-videos-with-truphena-muthoni",
       "ts": "2026-11-07T03:22:48.753864+00:00"
+    },
+    {
+      "key": "2026-11-07-gk-serkals-marriage-advice-about-best-friends",
+      "ts": "2026-11-07T05:28:00.359991+00:00"
     }
   ],
   "urls": [
@@ -599,7 +604,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-06-isaya-yunges-solo-walk-at-charlene-rutos-wedding-sparks-emotional-reactions",
     "https://www.mpasho.co.ke/entertainment/2026-11-06-kenyan-princes-helicopter-dream-before-marrying-in-2027",
     "https://www.mpasho.co.ke/entertainment/2026-11-06-dj-mo-and-size-8s-multimillion-shilling-mansion-sparks-mixed-reactions-over-interior-design",
-    "https://www.mpasho.co.ke/entertainment/2026-11-06-mbavu-destroyers-alleged-girlfriend-keliah-reacts-to-cosy-videos-with-truphena-muthoni"
+    "https://www.mpasho.co.ke/entertainment/2026-11-06-mbavu-destroyers-alleged-girlfriend-keliah-reacts-to-cosy-videos-with-truphena-muthoni",
+    "https://www.mpasho.co.ke/entertainment/2026-11-07-gk-serkals-marriage-advice-about-best-friends"
   ],
   "published_angles": [
     {
@@ -1137,6 +1143,14 @@
       "opening": "Personality lead centered on Keliah using a livestream audience to display Mbavu's clips rather than answering questions about their status.",
       "structure": "Personality hook -> Livestream screen reveal breakdown (pool and plane clips) -> Keliah's stance on undefined relationship boundaries -> Co-host and online audience reaction -> Concrete factual close on Mbavu's pending explanation.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-06-mbavu-destroyers-alleged-girlfriend-keliah-reacts-to-cosy-videos-with-truphena-muthoni"
+    },
+    {
+      "title": "GK Serkal Grounds Marriage Advice in Nairobi Cash Crunch: 'Marry Someone Ready to Relocate When Broke'",
+      "angle": "Framing Serkal's advice around the urban survival test\u2014specifically using his scenario of retreating from Nairobi's high cost of living as the ultimate benchmark of spousal compatibility over cosmetic romance.",
+      "angle_type": "urban marital pragmatism and financial resilience",
+      "opening": "Personality lead opening directly on GK Serkal measuring marital strength by a partner's willingness to abandon Nairobi during a cash crunch.",
+      "structure": "Personality hook -> Nairobi relocation quote & urban cost context -> 'Best friend' baseline and ego removal -> The non-competition dynamic -> Concrete thematic close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-07-gk-serkals-marriage-advice-about-best-friends"
     }
   ]
 }
