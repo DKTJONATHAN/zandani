@@ -173,7 +173,8 @@
     "4c869c6dcdd26ecb8cab8c20b64ba5e85088fe711175337a6bc0caff17f2774f",
     "4a53c0d6aba6b00950b8b8e981f4f3c44a9259ad4cbca2f1bddb9546e47b3a38",
     "c9bd0d76d19fc1ce9bad8006ba20f02db952218c2ad49bf0ee624c90e46425b5",
-    "f818814e4728870ceff64a127370d7d711e529e52bf9e8146d2e9d995f034295"
+    "f818814e4728870ceff64a127370d7d711e529e52bf9e8146d2e9d995f034295",
+    "cb3f330d081a5dbbc849e879f8b5001cafcb4f46e28e1b95924056781d540990"
   ],
   "style_history": [
     "Event Report",
@@ -564,6 +565,10 @@
     {
       "key": "2026-11-07-mitch-ngojes-husband-explains-why-couples-should-open-joint-accounts-to-save-for-weddings",
       "ts": "2026-11-07T17:23:41.024762+00:00"
+    },
+    {
+      "key": "2026-11-07-oga-obinna-defends-size-8-and-dj-mo-after-kenyans-criticise-their-mansion",
+      "ts": "2026-11-07T19:31:44.719407+00:00"
     }
   ],
   "urls": [
@@ -641,7 +646,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-07-eko-dydda-addresses-critics-after-naming-daughter-5-star-billions-increase",
     "https://www.mpasho.co.ke/entertainment/2026-11-07-silvia-of-the-mziza-family-shocked-after-dealing-with-nairobi-landlords-demands",
     "https://www.mpasho.co.ke/entertainment/2026-11-07-morgan-bahati-speaks-on-online-trolls-thanks-father-bahati-for-standing-by-him",
-    "https://www.mpasho.co.ke/entertainment/2026-11-07-mitch-ngojes-husband-explains-why-couples-should-open-joint-accounts-to-save-for-weddings"
+    "https://www.mpasho.co.ke/entertainment/2026-11-07-mitch-ngojes-husband-explains-why-couples-should-open-joint-accounts-to-save-for-weddings",
+    "https://www.mpasho.co.ke/entertainment/2026-11-07-oga-obinna-defends-size-8-and-dj-mo-after-kenyans-criticise-their-mansion"
   ],
   "published_angles": [
     {
@@ -1235,6 +1241,14 @@
       "opening": "Personality lead opening directly on Mitch Ngoje drawing a hard boundary between romantic affection and financial action on the Joyride podcast mic.",
       "structure": "Personality hook -> Verbatim podcast thesis on affection vs action -> Mechanics of the pre-Ruracio joint account -> Shielding single partners from milestone debt -> Honest governance and operational trust close.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-07-mitch-ngojes-husband-explains-why-couples-should-open-joint-accounts-to-save-for-weddings"
+    },
+    {
+      "title": "Oga Obinna Challenges 'Crowd Contract' Entitlement Over Size 8 and DJ Mo\u2019s KSh 50M Mansion",
+      "angle": "Reframing Obinna's intervention around the illusion of crowd ownership in celebrity housing\u2014contrasting his eyewitness account of the couple's financial discipline across a KSh 50 million build against digital commentators asserting design rights without financial skin in the game.",
+      "angle_type": "celebrity financial boundaries and public entitlement critique",
+      "opening": "Personality lead opening directly on Oga Obinna calling out digital entitlement over Size 8 and DJ Mo's custom home.",
+      "structure": "Personality hook -> Entitlement quote & 'contract' satire -> Firsthand construction site testimony & KSh 50M figure -> Detail on specific decor critiques -> Concrete close on homeownership autonomy.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-07-oga-obinna-defends-size-8-and-dj-mo-after-kenyans-criticise-their-mansion"
     }
   ]
 }
