@@ -171,7 +171,8 @@
     "8c5c2c2b2a44e985f2e4565274bc3e2dbd5949cc1834dac4db27dd1f1a22e572",
     "30ab46d3ed970a27b35059666e9c388c4702b7359a94e18771b37408d5bc0468",
     "4c869c6dcdd26ecb8cab8c20b64ba5e85088fe711175337a6bc0caff17f2774f",
-    "4a53c0d6aba6b00950b8b8e981f4f3c44a9259ad4cbca2f1bddb9546e47b3a38"
+    "4a53c0d6aba6b00950b8b8e981f4f3c44a9259ad4cbca2f1bddb9546e47b3a38",
+    "c9bd0d76d19fc1ce9bad8006ba20f02db952218c2ad49bf0ee624c90e46425b5"
   ],
   "style_history": [
     "Event Report",
@@ -554,6 +555,10 @@
     {
       "key": "2026-11-07-silvia-of-the-mziza-family-shocked-after-dealing-with-nairobi-landlords-demands",
       "ts": "2026-11-07T13:23:30.998414+00:00"
+    },
+    {
+      "key": "2026-11-07-morgan-bahati-speaks-on-online-trolls-thanks-father-bahati-for-standing-by-him",
+      "ts": "2026-11-07T15:24:54.010732+00:00"
     }
   ],
   "urls": [
@@ -629,7 +634,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-07-nyathira-claims-bahati-owes-her-husband-ksh1-million",
     "https://www.mpasho.co.ke/entertainment/2026-11-07-bahatis-ksh1-million-wedding-turns-out-to-be-a-publicity-stunt",
     "https://www.mpasho.co.ke/entertainment/2026-11-07-eko-dydda-addresses-critics-after-naming-daughter-5-star-billions-increase",
-    "https://www.mpasho.co.ke/entertainment/2026-11-07-silvia-of-the-mziza-family-shocked-after-dealing-with-nairobi-landlords-demands"
+    "https://www.mpasho.co.ke/entertainment/2026-11-07-silvia-of-the-mziza-family-shocked-after-dealing-with-nairobi-landlords-demands",
+    "https://www.mpasho.co.ke/entertainment/2026-11-07-morgan-bahati-speaks-on-online-trolls-thanks-father-bahati-for-standing-by-him"
   ],
   "published_angles": [
     {
@@ -1207,6 +1213,14 @@
       "opening": "Personality lead opening directly on Silvia Gichuki calling out landlord payment terms.",
       "structure": "Personality hook -> Social video quote -> Upfront deposit math breakdown -> Secondary moving expenditure context -> Broader urban liquidity implication close.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-07-silvia-of-the-mziza-family-shocked-after-dealing-with-nairobi-landlords-demands"
+    },
+    {
+      "title": "Morgan Bahati Confronts Persistent 'Wanyama' Comparisons at Father's Friday Event",
+      "angle": "Morgan directly acknowledging and defusing the persistent, viral 'Wanyama lookalike' internet rumor on his father's live platform, turning an invasive social media trope into a public testament of family loyalty.",
+      "angle_type": "celebrity child scrutiny and public narrative reclamation",
+      "opening": "Personality lead opening directly on Morgan Bahati stepping up to the microphone to tackle the Wanyama family comparisons head-on.",
+      "structure": "Personality hook with the verbatim Wanyama remark -> The setting at Bahati's Friday event -> Context of digital paternity and resemblance policing -> Morgan's positioning of Bahati as his anchor -> Concrete close on growing up under high-visibility scrutiny.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-07-morgan-bahati-speaks-on-online-trolls-thanks-father-bahati-for-standing-by-him"
     }
   ]
 }
