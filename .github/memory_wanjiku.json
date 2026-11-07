@@ -394,7 +394,8 @@
     "9bbc7fa96659259017a95bb90e6721b81857f093887dd5cd1d83cc56b463c023",
     "6c8e2811a385c5e83c6cc7d78ba6e1be6321562f6f14d42c1baa56371decb501",
     "66fa9e09f970d43b300719ea57eab16f5af8f8121740eca7ddf14e98d03a25ba",
-    "022be34ae52c84c4e5aadd3e245465a78a0e98e0db4714c1378053dfab00d720"
+    "022be34ae52c84c4e5aadd3e245465a78a0e98e0db4714c1378053dfab00d720",
+    "bfb60000b09a55b6260f2a380c41e991af1cd2462bb0b60af4af8b96f1902807"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -791,17 +792,10 @@
     "https://www.ghafla.co.ke/jaymo-ule-msee-drops-nairobi-senate-bid-endorses-jalango/",
     "https://www.ghafla.co.ke/nana-owiti-opens-up-about-life-after-separation-from-king-kaka/",
     "https://www.ghafla.co.ke/kamene-goro-reveals-she-underwent-surgery-discharged-to-recover-at-home/",
-    "https://www.ghafla.co.ke/kenya-power-announces-saturday-blackout-in-kiambu-and-nyeri-counties/"
+    "https://www.ghafla.co.ke/kenya-power-announces-saturday-blackout-in-kiambu-and-nyeri-counties/",
+    "https://www.ghafla.co.ke/hii-nairobi-ilienda-babu-owino-rejects-reports-of-gachagua-urging-him-to-run-for-senate/"
   ],
   "published_angles": [
-    {
-      "title": "Unblinking in Red and Black: Paul Mackenzie\u2019s Vow to \u2018Close Earth\u2019s Door\u2019 Laid Bare in Marathon 1,000-Page Verdict",
-      "angle": "Focusing on the chilling performative duality inside the tented courtroom: Mackenzie's unblinking, flat stoicism in a casual striped T-shirt while the bench systematically exposed his messianic script\u2014specifically his promise to endure 'kicks and blows' and act as the final man to 'close the door on earth'\u2014before a battery of local and foreign cameras and DPP Renson Ingonga.",
-      "angle_type": "personality demeanor and doomsday doctrine exposure",
-      "opening": "Personality lead focusing directly on Mackenzie sitting stoic in his red-and-black striped shirt as his doomsday rhetoric is read back to him.",
-      "structure": "Personality dock hook -> The 'close the door' messianic promise and 'mangumi na mateke' revelation -> The scene inside the tented Mombasa courtroom and four-hour marathon -> The horrific reality of the 190 child victims -> Trial context and the bench's resumption.",
-      "source": "https://www.ghafla.co.ke/court-hears-harrowing-details-as-judge-reads-1000-page-judgment-in-paul-mackenzies-191-count-murder-trial/"
-    },
     {
       "title": "Why Edwin Sifuna\u2019s National Ambitions Handed Jaymo Ule Msee a 2027 Nairobi Senate Ticket Blueprint",
       "angle": "Focusing on Jaymo's direct criticism of incumbent Edwin Sifuna's national ambitions as the personal catalyst and design blueprint for his own UDA nomination campaign.",
@@ -1593,6 +1587,14 @@
       "opening": "Corridor-focused operational hook highlighting the Saturday daytime power cutoff to the Kamakis and Versity Ville commercial belt.",
       "structure": "Bypass commercial corridor hook -> Kiambu maintenance footprint details (Kamakis, Kinoo, Tinganga) -> Nyeri four-hour outage specs -> Utility timeframe and restoration window.",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-saturday-blackout-in-kiambu-and-nyeri-counties/"
+    },
+    {
+      "title": "\u2018Babu Owino vs Paul Ongili\u2019: Embakasi East MP Rejects Gachagua\u2019s Rumored Senate Deal to Keep Nairobi Governor Ambitions Alive",
+      "angle": "Framing Babu Owino's response through his self-referential political posture ('Babu Owino vs Paul Ongili') and his independent Mwananchi Party ward-level MCA strategy designed to bypass opposition alignment pressures.",
+      "angle_type": "political branding and electoral resistance",
+      "opening": "Personality lead centered on Babu Owino's self-referential statement framing the city contest around his own identity.",
+      "structure": "Self-referential statement hook -> Breakdown of rumored Gachagua negotiation -> Rebranded Mwananchi Party ward strategy -> Opposition lineup mechanics -> Concrete political close.",
+      "source": "https://www.ghafla.co.ke/hii-nairobi-ilienda-babu-owino-rejects-reports-of-gachagua-urging-him-to-run-for-senate/"
     }
   ],
   "style_history": [
