@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "93c9043982253266ecdb8e268e17ba2a",
     "0f0aab4eedc8e1fecd6fa1350abf9457",
     "ffc7af3db7f1203d5be744a3a26aab46",
     "c40108083ca2eef58544f4b5d3e5be8b",
@@ -799,10 +798,10 @@
     "3988b4d47236c40290ddf3afb35f5866",
     "5890e6c41e686f257d5dbaa0a8e29774",
     "f7ba331c4b42d0f5c914550e908176ba",
-    "54df3615155975c014d381f216518e40"
+    "54df3615155975c014d381f216518e40",
+    "a09706658b1d33240d06947fb5345474"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Event Report",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1643,7 +1643,8 @@
     "https://kenyans.co.ke/news/129193-ppp-committee-upholds-ksh8-km-toll-fee-rironi-mau-summit-highway",
     "https://kenyans.co.ke/news/129192-lobby-groups-demand-answers-govt-over-delayed-imf-corruption-report",
     "https://kenyans.co.ke/news/129200-uk-issues-new-travel-warning-kenyan-town-ethiopia-conflict-escalates",
-    "https://kenyans.co.ke/news/129201-kenyan-shilling-nears-ksh130-against-us-dollar-pound-hits-ksh175"
+    "https://kenyans.co.ke/news/129201-kenyan-shilling-nears-ksh130-against-us-dollar-pound-hits-ksh175",
+    "https://kenyans.co.ke/news/129204-kenya-met-lists-nairobi-nakuru-among-counties-receive-rains-over-next-five-days"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2377,7 +2378,8 @@
     "strict appeal window blocks legal challenge ksh200b mau summit highway toll details",
     "five month executive embargo imf governance audit deepens multilateral credit freeze",
     "moyale buckles under supply squeeze refugee surge ethiopia border clashes spill",
-    "cbk data reveals european currency surge shilling anchors ksh130 dollar mark"
+    "cbk data reveals european currency surge shilling anchors ksh130 dollar mark",
+    "western storms highland chill lead sharp five day weather split across counties"
   ],
   "topic_keys": [
     "news tracker",
@@ -8254,6 +8256,15 @@
       "structure": "CBK bulletin data lead -> Currency divergence breakdown (Pound and Euro spikes) -> Monetary driver (Bank of England policy hike) -> Commercial banking quotes vs reserve buffer -> Forward exposure on upcoming US payroll data.",
       "source": "https://kenyans.co.ke/news/129201-kenyan-shilling-nears-ksh130-against-us-dollar-pound-hits-ksh175",
       "published_at": "2026-11-07T06:02:37Z"
+    },
+    {
+      "title": "Western Storms and 7\u00b0C Highland Chill Lead Sharp Five-Day Weather Split Across 29 Counties",
+      "angle": "Framing the forecast around the sharp geographical divide: intense thunderstorm activity across western farming hubs paired with single-digit temperature drops in the central highlands, contrasting sharply against an excluded, bone-dry coastline and blistering northern heat.",
+      "angle_type": "regional weather divergence and temperature extremes",
+      "opening": "Contrasting divergence lead highlighting the sharp split between highland chill, western thunderstorms, and dry coastal heat.",
+      "structure": "Climatic divergence lead -> Storm and lightning exposure in Western/Lake Basin -> Highland nocturnal temperature drop mechanics -> Arid and coastal insulation -> Weekday outlook close",
+      "source": "https://kenyans.co.ke/news/129204-kenya-met-lists-nairobi-nakuru-among-counties-receive-rains-over-next-five-days",
+      "published_at": "2026-11-07T07:02:34Z"
     }
   ]
 }
