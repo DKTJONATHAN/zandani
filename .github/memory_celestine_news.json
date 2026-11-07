@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "bffe8b148f0c3c373d5393406395e164",
     "f2b11b3711d5fc35544bc55821f72961",
     "9149425f5673ce287fe6b60c0da7070e",
     "39e5beb5f460d20037cd39c023c05c4c",
@@ -799,10 +798,10 @@
     "e85d62b984e60cd50c3525ea0ac13ee6",
     "38ff9e1871c23ffacbc53e0b6e0e394e",
     "c639c58faea424c99d3ae7ea8feb0299",
-    "5730dace19f365b1d0f0a336fa244eae"
+    "5730dace19f365b1d0f0a336fa244eae",
+    "5ca8166ea98299fb1fa0329be8e1bf48"
   ],
   "style_history": [
-    "Hard News Lead",
     "Desk Take",
     "Event Report",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1648,7 +1648,8 @@
     "https://kenyans.co.ke/news/129202-canada-announces-new-rules-kenyans-other-foreigners-seeking-jobs",
     "https://kenyans.co.ke/news/129209-un-allocates-ksh387-million-support-50000-ethiopians-fleeing-kenya",
     "https://kenyans.co.ke/news/129208-ppp-boss-responds-double-taxation-claims-over-rironi-mau-summit-toll",
-    "https://kenyans.co.ke/news/129211-kra-auction-thousands-unclaimed-goods-naivasha-icd-other-warehouses"
+    "https://kenyans.co.ke/news/129211-kra-auction-thousands-unclaimed-goods-naivasha-icd-other-warehouses",
+    "https://kenyans.co.ke/news/129210-nyeri-governor-mutahi-kahiga-appointed-chair-east-african-local-govts-association"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2387,7 +2388,8 @@
     "ottawa sets population jobless thresholds pinch low wage labor seekers",
     "draws ksh387m emergency fund stem life support shortfall 000 moyale arrivals",
     "state ties ksh8 mau summit toll full fuel levy funding cutoff",
-    "kra triggers multi year forfeiture clock abandoned depot consignments"
+    "kra triggers multi year forfeiture clock abandoned depot consignments",
+    "kahiga steps regional stage head east africa local govts body"
   ],
   "topic_keys": [
     "news tracker",
@@ -8309,6 +8311,15 @@
       "structure": "Abandoned asset scale lead -> Multi-year inventory breakdown (Naivasha to Lodwar) -> Statutory forfeiture mechanism under EAC law -> Inspection and online bidding schedule.",
       "source": "https://kenyans.co.ke/news/129211-kra-auction-thousands-unclaimed-goods-naivasha-icd-other-warehouses",
       "published_at": "2026-11-07T11:02:06Z"
+    },
+    {
+      "title": "Kahiga Steps Into Regional Stage to Head East Africa Local Govts Body",
+      "angle": "The institutional paradox of Kahiga re-emerging at the helm of regional devolution diplomacy just 13 months after public outrage over remarks surrounding Raila Odinga's death forced his resignation from national Council of Governors leadership.",
+      "angle_type": "political rehabilitation and regional institutional governance",
+      "opening": "Accountability and career-arc lead framing his elevation against the backdrop of his forced exit from the national Council of Governors executive.",
+      "structure": "Political arc lead -> Handover mechanics in Nairobi -> Proxy representation and agenda priorities -> Mudavadi's fiscal and decentralization mandate -> Strategic roadmap (Nairobi 2026 Declaration).",
+      "source": "https://kenyans.co.ke/news/129210-nyeri-governor-mutahi-kahiga-appointed-chair-east-african-local-govts-association",
+      "published_at": "2026-11-07T12:02:30Z"
     }
   ]
 }
