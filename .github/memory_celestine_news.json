@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "c40108083ca2eef58544f4b5d3e5be8b",
     "57beb65c9c373a7d487b6c6364185cae",
     "bffe8b148f0c3c373d5393406395e164",
     "f2b11b3711d5fc35544bc55821f72961",
@@ -799,10 +798,10 @@
     "54df3615155975c014d381f216518e40",
     "a09706658b1d33240d06947fb5345474",
     "e85d62b984e60cd50c3525ea0ac13ee6",
-    "38ff9e1871c23ffacbc53e0b6e0e394e"
+    "38ff9e1871c23ffacbc53e0b6e0e394e",
+    "c639c58faea424c99d3ae7ea8feb0299"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1646,7 +1646,8 @@
     "https://kenyans.co.ke/news/129201-kenyan-shilling-nears-ksh130-against-us-dollar-pound-hits-ksh175",
     "https://kenyans.co.ke/news/129204-kenya-met-lists-nairobi-nakuru-among-counties-receive-rains-over-next-five-days",
     "https://kenyans.co.ke/news/129202-canada-announces-new-rules-kenyans-other-foreigners-seeking-jobs",
-    "https://kenyans.co.ke/news/129209-un-allocates-ksh387-million-support-50000-ethiopians-fleeing-kenya"
+    "https://kenyans.co.ke/news/129209-un-allocates-ksh387-million-support-50000-ethiopians-fleeing-kenya",
+    "https://kenyans.co.ke/news/129208-ppp-boss-responds-double-taxation-claims-over-rironi-mau-summit-toll"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2383,7 +2384,8 @@
     "cbk data reveals european currency surge shilling anchors ksh130 dollar mark",
     "western storms highland chill lead sharp five day weather split across counties",
     "ottawa sets population jobless thresholds pinch low wage labor seekers",
-    "draws ksh387m emergency fund stem life support shortfall 000 moyale arrivals"
+    "draws ksh387m emergency fund stem life support shortfall 000 moyale arrivals",
+    "state ties ksh8 mau summit toll full fuel levy funding cutoff"
   ],
   "topic_keys": [
     "news tracker",
@@ -8287,6 +8289,15 @@
       "structure": "Emergency statement attribution -> Allocation breakdown and frontline recipients -> Joint agency appeal deficit comparison -> Cross-border security spillover context -> Unresolved funding and operational outlook",
       "source": "https://kenyans.co.ke/news/129209-un-allocates-ksh387-million-support-50000-ethiopians-fleeing-kenya",
       "published_at": "2026-11-07T09:52:17Z"
+    },
+    {
+      "title": "State Ties Ksh8 Mau Summit Toll to Full Fuel-Levy Funding Cutoff",
+      "angle": "The statutory fiscal decoupling mechanism: how legal gazettement strips the highway of all public fuel levy (RMLF) allocations, converting the corridor from a tax-subsidized asset into a purely private fee-for-service model whose capital and upkeep depend entirely on direct user extraction.",
+      "angle_type": "fiscal ring-fencing and statutory revenue transition",
+      "opening": "Statutory fiscal cutoff lead, focusing on how official gazettement legally ends state maintenance allocations from fuel levies to justify the corridor's per-kilometre user charges.",
+      "structure": "Statutory funding shift lead -> Distinction between general taxation and transactional toll fees -> Ring-fenced capital recovery mechanics under PPP Act -> Lobby transparency push and procedural dismissal -> Unresolved route and tariff disclosure questions.",
+      "source": "https://kenyans.co.ke/news/129208-ppp-boss-responds-double-taxation-claims-over-rironi-mau-summit-toll",
+      "published_at": "2026-11-07T10:02:08Z"
     }
   ]
 }
