@@ -395,7 +395,8 @@
     "6c8e2811a385c5e83c6cc7d78ba6e1be6321562f6f14d42c1baa56371decb501",
     "66fa9e09f970d43b300719ea57eab16f5af8f8121740eca7ddf14e98d03a25ba",
     "022be34ae52c84c4e5aadd3e245465a78a0e98e0db4714c1378053dfab00d720",
-    "bfb60000b09a55b6260f2a380c41e991af1cd2462bb0b60af4af8b96f1902807"
+    "bfb60000b09a55b6260f2a380c41e991af1cd2462bb0b60af4af8b96f1902807",
+    "12c05581cc560a0f2d65c61df4101a79a335294d45ddb632efd4f1ebf1668644"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -793,17 +794,10 @@
     "https://www.ghafla.co.ke/nana-owiti-opens-up-about-life-after-separation-from-king-kaka/",
     "https://www.ghafla.co.ke/kamene-goro-reveals-she-underwent-surgery-discharged-to-recover-at-home/",
     "https://www.ghafla.co.ke/kenya-power-announces-saturday-blackout-in-kiambu-and-nyeri-counties/",
-    "https://www.ghafla.co.ke/hii-nairobi-ilienda-babu-owino-rejects-reports-of-gachagua-urging-him-to-run-for-senate/"
+    "https://www.ghafla.co.ke/hii-nairobi-ilienda-babu-owino-rejects-reports-of-gachagua-urging-him-to-run-for-senate/",
+    "https://www.ghafla.co.ke/babu-owino-names-ex-makueni-governor-kivutha-kibwana-as-mwananchi-party-patron/"
   ],
   "published_angles": [
-    {
-      "title": "Why Edwin Sifuna\u2019s National Ambitions Handed Jaymo Ule Msee a 2027 Nairobi Senate Ticket Blueprint",
-      "angle": "Focusing on Jaymo's direct criticism of incumbent Edwin Sifuna's national ambitions as the personal catalyst and design blueprint for his own UDA nomination campaign.",
-      "angle_type": "celebrity political motivation and opportunistic rivalry",
-      "opening": "Open directly on Jaymo Ule Msee's public attribution of his senatorial ambitions to Edwin Sifuna's focus on national politics.",
-      "structure": "Personality motivation hook -> The late-2025 timeline and 'double dealer' critique -> UDA digital poster and party alignment -> The crowded Nairobi Senate contest landscape",
-      "source": "https://www.ghafla.co.ke/jaymo-ule-msee-explains-how-sifunas-presidential-ambitions-inspired-his-2027-nairobi-senate-bid/"
-    },
     {
       "title": "How a Decade-Old Hit and an Office Visit Convinced Kanyari to Drop Ksh 1M on Bahati\u2019s Wedding",
       "angle": "Examining the transactional loyalty and nostalgia trade-off between the veteran controversial preacher and the gospel-turned-secular pop star, focusing on how a vintage 2012 hit ('Mama') and a closed-door office lobbying session unlocked a seven-figure personal payout.",
@@ -1595,6 +1589,14 @@
       "opening": "Personality lead centered on Babu Owino's self-referential statement framing the city contest around his own identity.",
       "structure": "Self-referential statement hook -> Breakdown of rumored Gachagua negotiation -> Rebranded Mwananchi Party ward strategy -> Opposition lineup mechanics -> Concrete political close.",
       "source": "https://www.ghafla.co.ke/hii-nairobi-ilienda-babu-owino-rejects-reports-of-gachagua-urging-him-to-run-for-senate/"
+    },
+    {
+      "title": "Babu Owino Pairs Street Bravado With Elder Gravitas, Taps Kivutha Kibwana to Anchor Mwananchi Party",
+      "angle": "Examining the stylistic and generational alliance between fiery, pop-political heavyweight Babu Owino and soft-spoken legal veteran Kivutha Kibwana, framing Kibwana's patronage as an intentional injection of institutional gravitas and policy polish into Babu's personal 2027 political machinery.",
+      "angle_type": "political personality pairing and institutional branding",
+      "opening": "Personality lead directly contrasting Babu Owino's flamboyant political persona with his calculated pick of soft-spoken constitutional scholar Kivutha Kibwana as party patron.",
+      "structure": "Personality hook on contrasting styles -> Appointment announcement and Babu's public endorsement -> Kibwana's advisory remit and governance pedigree -> The Sept 10 Muungano rebranding backstory -> Operational stakes for Babu's 2027 Nairobi governor drive.",
+      "source": "https://www.ghafla.co.ke/babu-owino-names-ex-makueni-governor-kivutha-kibwana-as-mwananchi-party-patron/"
     }
   ],
   "style_history": [
