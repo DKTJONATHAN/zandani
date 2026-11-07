@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "39e5beb5f460d20037cd39c023c05c4c",
     "99ee60b1996495b4eacb6737eb38e7b1",
     "c605664019566013a5841230e3932054",
     "3971032661128ab523b92861b81f0442",
@@ -799,10 +798,10 @@
     "5730dace19f365b1d0f0a336fa244eae",
     "5ca8166ea98299fb1fa0329be8e1bf48",
     "07fd583182e76239b3a8335e0853ca02",
-    "058be49e0928eed091caf29a9c6f9450"
+    "058be49e0928eed091caf29a9c6f9450",
+    "bd7b3b71beebd09e0247dd44fb8b51a8"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1651,7 +1651,8 @@
     "https://kenyans.co.ke/news/129211-kra-auction-thousands-unclaimed-goods-naivasha-icd-other-warehouses",
     "https://kenyans.co.ke/news/129210-nyeri-governor-mutahi-kahiga-appointed-chair-east-african-local-govts-association",
     "https://kenyans.co.ke/news/129214-explained-how-invest-govt-bonds-and-kenya",
-    "https://kenyans.co.ke/news/129217-kanja-orders-crackdown-unroadworthy-vehicles-motorcycles-and-drunk-driving-ahead"
+    "https://kenyans.co.ke/news/129217-kanja-orders-crackdown-unroadworthy-vehicles-motorcycles-and-drunk-driving-ahead",
+    "https://kenyans.co.ke/news/129218-kilifi-activist-peter-komora-set-sentencing-wildlife-trophies-case"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2393,7 +2394,8 @@
     "kra triggers multi year forfeiture clock abandoned depot consignments",
     "kahiga steps regional stage head east africa local govts body",
     "cbk auction framework locks retail bond buyers price taker role ksh50 000",
-    "kanja merges police roadside patrols ntsa digital surveillance festive travel"
+    "kanja merges police roadside patrols ntsa digital surveillance festive travel",
+    "missing witness trail casts shadow kilifi activist ivory conviction"
   ],
   "topic_keys": [
     "news tracker",
@@ -8342,6 +8344,15 @@
       "structure": "Enforcement alignment lead -> Basilica address and command directives -> Digital telemetry and NTSA technical layer -> Commercial fleet and bodaboda compliance demands -> Unresolved execution and night patrol coordination",
       "source": "https://kenyans.co.ke/news/129217-kanja-orders-crackdown-unroadworthy-vehicles-motorcycles-and-drunk-driving-ahead",
       "published_at": "2026-11-07T15:02:09Z"
+    },
+    {
+      "title": "Missing Witness Trail Casts Shadow Over Kilifi Activist\u2019s Ivory Conviction",
+      "angle": "The evidentiary and procedural vacuum behind the split verdict: the Mariakani court threw out the dealing charge but convicted Komora on possession despite prosecutors never calling named KWS-linked operatives to the stand or investigating bribery allegations, illustrating how sting operations collapse into criminal liability for grassroots monitors.",
+      "angle_type": "procedural evidentiary gaps and informant criminal liability",
+      "opening": "Evidentiary contradiction opening contrasting the court's split verdict with the absence of named state handlers on the witness stand.",
+      "structure": "Split verdict and missing witness lead -> Six-year legal genesis and sting operation defense -> Evidentiary defects flagged by civil society monitors -> Pattern of judicial pressure across grassroots defenders -> Monday sentencing stakes.",
+      "source": "https://kenyans.co.ke/news/129218-kilifi-activist-peter-komora-set-sentencing-wildlife-trophies-case",
+      "published_at": "2026-11-07T16:02:19Z"
     }
   ]
 }
