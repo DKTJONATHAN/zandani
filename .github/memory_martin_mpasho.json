@@ -165,7 +165,8 @@
     "05f1275eb2c07247be4ebd44c068e0676d5c54c9cf63cc4ee32174564f9d4c7a",
     "bc5bb1c9736228d72fa6a67fd2bac685a253856898bf6d4f728103f2ccd82a14",
     "c6231d52d803c5558bcd4ca81bcf048af3cc96bfc56cbbb7ceb995939bbecd63",
-    "419bf880ffd4c92d04c89d203b229dd332aaf29b5cfb83bd7e7055ff985b1355"
+    "419bf880ffd4c92d04c89d203b229dd332aaf29b5cfb83bd7e7055ff985b1355",
+    "a9a1ba29c7d6768268b9e1853710ab691dd386ca165280038d14097d1359b1da"
   ],
   "style_history": [
     "Event Report",
@@ -524,6 +525,10 @@
     {
       "key": "2026-11-06-dj-mo-and-size-8s-multimillion-shilling-mansion-sparks-mixed-reactions-over-interior-design",
       "ts": "2026-11-07T01:26:56.639923+00:00"
+    },
+    {
+      "key": "2026-11-06-mbavu-destroyers-alleged-girlfriend-keliah-reacts-to-cosy-videos-with-truphena-muthoni",
+      "ts": "2026-11-07T03:22:48.753864+00:00"
     }
   ],
   "urls": [
@@ -593,7 +598,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-06-akothee-calls-out-fashion-designer-for-keeping-her-dress-for-two-months-before-offering-a-refund",
     "https://www.mpasho.co.ke/entertainment/2026-11-06-isaya-yunges-solo-walk-at-charlene-rutos-wedding-sparks-emotional-reactions",
     "https://www.mpasho.co.ke/entertainment/2026-11-06-kenyan-princes-helicopter-dream-before-marrying-in-2027",
-    "https://www.mpasho.co.ke/entertainment/2026-11-06-dj-mo-and-size-8s-multimillion-shilling-mansion-sparks-mixed-reactions-over-interior-design"
+    "https://www.mpasho.co.ke/entertainment/2026-11-06-dj-mo-and-size-8s-multimillion-shilling-mansion-sparks-mixed-reactions-over-interior-design",
+    "https://www.mpasho.co.ke/entertainment/2026-11-06-mbavu-destroyers-alleged-girlfriend-keliah-reacts-to-cosy-videos-with-truphena-muthoni"
   ],
   "published_angles": [
     {
@@ -1123,6 +1129,14 @@
       "opening": "Personality lead opening directly on Size 8 and DJ Mo unveiling the interior of their finished Daykio residence.",
       "structure": "Personality hook -> Detailed tour breakdown and verified amenities -> Financial and timeline discipline (2022-2026) -> Contrast between online clinical critique and custom living space -> Practical concluding note.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-06-dj-mo-and-size-8s-multimillion-shilling-mansion-sparks-mixed-reactions-over-interior-design"
+    },
+    {
+      "title": "Keliah Uses Livestream to Turn Relationship Questions Back on Mbavu Destroyer After Cozy Truphena Clips Surface",
+      "angle": "Focusing on Keliah's tactical use of livestreaming to deflect direct relationship interrogation by presenting Mbavu's own flirtatious video archives with world-record tree hugger Truphena, turning the public spotlight back onto Mbavu's accountability.",
+      "angle_type": "creator livestream dynamics and boundary management",
+      "opening": "Personality lead centered on Keliah using a livestream audience to display Mbavu's clips rather than answering questions about their status.",
+      "structure": "Personality hook -> Livestream screen reveal breakdown (pool and plane clips) -> Keliah's stance on undefined relationship boundaries -> Co-host and online audience reaction -> Concrete factual close on Mbavu's pending explanation.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-06-mbavu-destroyers-alleged-girlfriend-keliah-reacts-to-cosy-videos-with-truphena-muthoni"
     }
   ]
 }
