@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "57beb65c9c373a7d487b6c6364185cae",
     "bffe8b148f0c3c373d5393406395e164",
     "f2b11b3711d5fc35544bc55821f72961",
     "9149425f5673ce287fe6b60c0da7070e",
@@ -799,10 +798,10 @@
     "a09706658b1d33240d06947fb5345474",
     "e85d62b984e60cd50c3525ea0ac13ee6",
     "38ff9e1871c23ffacbc53e0b6e0e394e",
-    "c639c58faea424c99d3ae7ea8feb0299"
+    "c639c58faea424c99d3ae7ea8feb0299",
+    "5730dace19f365b1d0f0a336fa244eae"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1647,7 +1647,8 @@
     "https://kenyans.co.ke/news/129204-kenya-met-lists-nairobi-nakuru-among-counties-receive-rains-over-next-five-days",
     "https://kenyans.co.ke/news/129202-canada-announces-new-rules-kenyans-other-foreigners-seeking-jobs",
     "https://kenyans.co.ke/news/129209-un-allocates-ksh387-million-support-50000-ethiopians-fleeing-kenya",
-    "https://kenyans.co.ke/news/129208-ppp-boss-responds-double-taxation-claims-over-rironi-mau-summit-toll"
+    "https://kenyans.co.ke/news/129208-ppp-boss-responds-double-taxation-claims-over-rironi-mau-summit-toll",
+    "https://kenyans.co.ke/news/129211-kra-auction-thousands-unclaimed-goods-naivasha-icd-other-warehouses"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2385,7 +2386,8 @@
     "western storms highland chill lead sharp five day weather split across counties",
     "ottawa sets population jobless thresholds pinch low wage labor seekers",
     "draws ksh387m emergency fund stem life support shortfall 000 moyale arrivals",
-    "state ties ksh8 mau summit toll full fuel levy funding cutoff"
+    "state ties ksh8 mau summit toll full fuel levy funding cutoff",
+    "kra triggers multi year forfeiture clock abandoned depot consignments"
   ],
   "topic_keys": [
     "news tracker",
@@ -8298,6 +8300,15 @@
       "structure": "Statutory funding shift lead -> Distinction between general taxation and transactional toll fees -> Ring-fenced capital recovery mechanics under PPP Act -> Lobby transparency push and procedural dismissal -> Unresolved route and tariff disclosure questions.",
       "source": "https://kenyans.co.ke/news/129208-ppp-boss-responds-double-taxation-claims-over-rironi-mau-summit-toll",
       "published_at": "2026-11-07T10:02:08Z"
+    },
+    {
+      "title": "KRA Triggers Multi-Year Forfeiture Clock on Abandoned Depot Consignments",
+      "angle": "The multi-year abandonment timeline (some items stuck since April 2022) and the financial liability trap where importers face complete asset forfeiture and storage penalties under the EAC Customs Management Act.",
+      "angle_type": "asset abandonment liability and multi-year warehouse congestion",
+      "opening": "Focus on the accumulation timeline and the looming legal forfeiture before introducing the specific depot inventories.",
+      "structure": "Abandoned asset scale lead -> Multi-year inventory breakdown (Naivasha to Lodwar) -> Statutory forfeiture mechanism under EAC law -> Inspection and online bidding schedule.",
+      "source": "https://kenyans.co.ke/news/129211-kra-auction-thousands-unclaimed-goods-naivasha-icd-other-warehouses",
+      "published_at": "2026-11-07T11:02:06Z"
     }
   ]
 }
