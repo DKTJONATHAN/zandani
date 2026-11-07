@@ -396,7 +396,8 @@
     "66fa9e09f970d43b300719ea57eab16f5af8f8121740eca7ddf14e98d03a25ba",
     "022be34ae52c84c4e5aadd3e245465a78a0e98e0db4714c1378053dfab00d720",
     "bfb60000b09a55b6260f2a380c41e991af1cd2462bb0b60af4af8b96f1902807",
-    "12c05581cc560a0f2d65c61df4101a79a335294d45ddb632efd4f1ebf1668644"
+    "12c05581cc560a0f2d65c61df4101a79a335294d45ddb632efd4f1ebf1668644",
+    "5c1bca683365b3a3b6cc6b46cc8fc38dafad8554862ebb6375cfb51b5bb60b4f"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -795,17 +796,10 @@
     "https://www.ghafla.co.ke/kamene-goro-reveals-she-underwent-surgery-discharged-to-recover-at-home/",
     "https://www.ghafla.co.ke/kenya-power-announces-saturday-blackout-in-kiambu-and-nyeri-counties/",
     "https://www.ghafla.co.ke/hii-nairobi-ilienda-babu-owino-rejects-reports-of-gachagua-urging-him-to-run-for-senate/",
-    "https://www.ghafla.co.ke/babu-owino-names-ex-makueni-governor-kivutha-kibwana-as-mwananchi-party-patron/"
+    "https://www.ghafla.co.ke/babu-owino-names-ex-makueni-governor-kivutha-kibwana-as-mwananchi-party-patron/",
+    "https://www.ghafla.co.ke/top-kenyan-leaders-shower-charlene-ruto-and-isaya-yunge-with-goodwill-following-mwanza-wedding/"
   ],
   "published_angles": [
-    {
-      "title": "How a Decade-Old Hit and an Office Visit Convinced Kanyari to Drop Ksh 1M on Bahati\u2019s Wedding",
-      "angle": "Examining the transactional loyalty and nostalgia trade-off between the veteran controversial preacher and the gospel-turned-secular pop star, focusing on how a vintage 2012 hit ('Mama') and a closed-door office lobbying session unlocked a seven-figure personal payout.",
-      "angle_type": "celebrity transactional loyalty and historical debt",
-      "opening": "Personality lead opening directly on Victor Kanyari balancing his public about-turn with the nostalgic debt owed to his early studio days with Bahati.",
-      "structure": "Personality hook -> The office lobbying session and vintage 'Mama' history -> The Ksh 1 million strict wedding guest constraints -> The preacher's unapologetic stance on changing his mind.",
-      "source": "https://www.ghafla.co.ke/pastor-victor-kanyari-explains-why-he-paid-ksh-1-million-for-bahati-and-dianas-wedding/"
-    },
     {
       "title": "\u2018Hata Simba Hupatikana\u2019: King Kalala Draws Tight Circle Around Newborn in Quiet Motherhood Arrival",
       "angle": "The deliberate protective wall Kalala built around her domestic circle\u2014announcing motherhood while strictly withholding the infant's name, gender, and partner's identity, completing a transition she humorously foretold with 'hata simba hupatikana'.",
@@ -1597,6 +1591,14 @@
       "opening": "Personality lead directly contrasting Babu Owino's flamboyant political persona with his calculated pick of soft-spoken constitutional scholar Kivutha Kibwana as party patron.",
       "structure": "Personality hook on contrasting styles -> Appointment announcement and Babu's public endorsement -> Kibwana's advisory remit and governance pedigree -> The Sept 10 Muungano rebranding backstory -> Operational stakes for Babu's 2027 Nairobi governor drive.",
       "source": "https://www.ghafla.co.ke/babu-owino-names-ex-makueni-governor-kivutha-kibwana-as-mwananchi-party-patron/"
+    },
+    {
+      "title": "Charlene Ruto Weds Isaya Yunge in Mwanza as Top State Officials Pivot to Cross-Border \u2018Mashemeji\u2019",
+      "angle": "Framing the Mwanza nuptials around the cross-border social shift, where senior Kenyan Cabinet members and lawmakers temporarily swapped formal state decorum for regional in-law ('mashemeji') camaraderie alongside President William Ruto in Tanzania.",
+      "angle_type": "cross-border social dynamics and high-profile nuptials",
+      "opening": "Personality lead opening directly on Charlene Ruto and Isaya Yunge taking their vows in Mwanza.",
+      "structure": "Personality hook -> Mwanza cross-border delegation breakdown -> Formal and informal 'mashemeji' reactions -> Scriptural and gubernatorial blessings -> Concrete closing on the regional union.",
+      "source": "https://www.ghafla.co.ke/top-kenyan-leaders-shower-charlene-ruto-and-isaya-yunge-with-goodwill-following-mwanza-wedding/"
     }
   ],
   "style_history": [
