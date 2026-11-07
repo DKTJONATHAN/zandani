@@ -164,7 +164,8 @@
     "c722fa2f85bc60532d63a86976ff2960e382d4cecf6b8a90ca98996a98c22fcc",
     "05f1275eb2c07247be4ebd44c068e0676d5c54c9cf63cc4ee32174564f9d4c7a",
     "bc5bb1c9736228d72fa6a67fd2bac685a253856898bf6d4f728103f2ccd82a14",
-    "c6231d52d803c5558bcd4ca81bcf048af3cc96bfc56cbbb7ceb995939bbecd63"
+    "c6231d52d803c5558bcd4ca81bcf048af3cc96bfc56cbbb7ceb995939bbecd63",
+    "419bf880ffd4c92d04c89d203b229dd332aaf29b5cfb83bd7e7055ff985b1355"
   ],
   "style_history": [
     "Event Report",
@@ -519,6 +520,10 @@
     {
       "key": "2026-11-06-kenyan-princes-helicopter-dream-before-marrying-in-2027",
       "ts": "2026-11-06T23:22:34.782527+00:00"
+    },
+    {
+      "key": "2026-11-06-dj-mo-and-size-8s-multimillion-shilling-mansion-sparks-mixed-reactions-over-interior-design",
+      "ts": "2026-11-07T01:26:56.639923+00:00"
     }
   ],
   "urls": [
@@ -587,7 +592,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-06-looking-for-more-than-just-a-betting-platform-here-are-7-reasons-why-pepeta-should-be-your-next-play",
     "https://www.mpasho.co.ke/entertainment/2026-11-06-akothee-calls-out-fashion-designer-for-keeping-her-dress-for-two-months-before-offering-a-refund",
     "https://www.mpasho.co.ke/entertainment/2026-11-06-isaya-yunges-solo-walk-at-charlene-rutos-wedding-sparks-emotional-reactions",
-    "https://www.mpasho.co.ke/entertainment/2026-11-06-kenyan-princes-helicopter-dream-before-marrying-in-2027"
+    "https://www.mpasho.co.ke/entertainment/2026-11-06-kenyan-princes-helicopter-dream-before-marrying-in-2027",
+    "https://www.mpasho.co.ke/entertainment/2026-11-06-dj-mo-and-size-8s-multimillion-shilling-mansion-sparks-mixed-reactions-over-interior-design"
   ],
   "published_angles": [
     {
@@ -1109,6 +1115,14 @@
       "opening": "Personality lead opening directly on Raymond Omosa anchoring his 2027 marriage timeline to a strict personal aviation acquisition deadline.",
       "structure": "Marriage milestone hook -> Aircraft utility constraints (leisure vs commercial) -> Revenue defense (forex vs influencing) -> Historical asset claims (Lamborghini record) -> Relationship history and luxury gift progression -> Factual close",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-06-kenyan-princes-helicopter-dream-before-marrying-in-2027"
+    },
+    {
+      "title": "DJ Mo and Size 8\u2019s KSh 46M Daykio Mansion Meets Ruthless Interior Critique",
+      "angle": "The collision between high-capital personal real estate milestones and immediate aesthetic scrutiny\u2014specifically how a four-year, lifestyle-altering build featuring recording studios and automation was instantly reduced to debates over clinical interior styling.",
+      "angle_type": "celebrity asset milestone and aesthetic scrutiny",
+      "opening": "Personality lead opening directly on Size 8 and DJ Mo unveiling the interior of their finished Daykio residence.",
+      "structure": "Personality hook -> Detailed tour breakdown and verified amenities -> Financial and timeline discipline (2022-2026) -> Contrast between online clinical critique and custom living space -> Practical concluding note.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-06-dj-mo-and-size-8s-multimillion-shilling-mansion-sparks-mixed-reactions-over-interior-design"
     }
   ]
 }
