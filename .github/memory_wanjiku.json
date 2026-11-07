@@ -397,7 +397,8 @@
     "022be34ae52c84c4e5aadd3e245465a78a0e98e0db4714c1378053dfab00d720",
     "bfb60000b09a55b6260f2a380c41e991af1cd2462bb0b60af4af8b96f1902807",
     "12c05581cc560a0f2d65c61df4101a79a335294d45ddb632efd4f1ebf1668644",
-    "5c1bca683365b3a3b6cc6b46cc8fc38dafad8554862ebb6375cfb51b5bb60b4f"
+    "5c1bca683365b3a3b6cc6b46cc8fc38dafad8554862ebb6375cfb51b5bb60b4f",
+    "8794221d1c960b80f67426719bfb4261d8b532b3dcd4407bed1e1c5ee672b211"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -797,17 +798,10 @@
     "https://www.ghafla.co.ke/kenya-power-announces-saturday-blackout-in-kiambu-and-nyeri-counties/",
     "https://www.ghafla.co.ke/hii-nairobi-ilienda-babu-owino-rejects-reports-of-gachagua-urging-him-to-run-for-senate/",
     "https://www.ghafla.co.ke/babu-owino-names-ex-makueni-governor-kivutha-kibwana-as-mwananchi-party-patron/",
-    "https://www.ghafla.co.ke/top-kenyan-leaders-shower-charlene-ruto-and-isaya-yunge-with-goodwill-following-mwanza-wedding/"
+    "https://www.ghafla.co.ke/top-kenyan-leaders-shower-charlene-ruto-and-isaya-yunge-with-goodwill-following-mwanza-wedding/",
+    "https://www.ghafla.co.ke/matiangi-sends-condolences-to-gachagua-following-death-of-elder-sister/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018Hata Simba Hupatikana\u2019: King Kalala Draws Tight Circle Around Newborn in Quiet Motherhood Arrival",
-      "angle": "The deliberate protective wall Kalala built around her domestic circle\u2014announcing motherhood while strictly withholding the infant's name, gender, and partner's identity, completing a transition she humorously foretold with 'hata simba hupatikana'.",
-      "angle_type": "celebrity persona evolution and boundary setting",
-      "opening": "Open directly on King Kalala's brief social media proclamation and the firm boundary line she drew around her newborn's identity.",
-      "structure": "Personality lead with the caption reveal -> The privacy boundary (withholding name, gender, partner) -> The July 2026 pregnancy backstory and the 'hata simba hupatikana' persona check -> Entertainment industry response -> Unapologetic career footing intact.",
-      "source": "https://www.ghafla.co.ke/king-kalala-announces-birth-of-her-first-born-child/"
-    },
     {
       "title": "Dr. Patrick Amoth Takes to TV Screens to Reassure KMPDU as Ebola Hits Hospital Staff",
       "angle": "Framing the broadcast through Dr. Patrick Amoth's high-visibility media intervention, directly addressing labor friction and safety jitters from KMPDU after hospital staff bore the brunt of new transmissions.",
@@ -1599,6 +1593,14 @@
       "opening": "Personality lead opening directly on Charlene Ruto and Isaya Yunge taking their vows in Mwanza.",
       "structure": "Personality hook -> Mwanza cross-border delegation breakdown -> Formal and informal 'mashemeji' reactions -> Scriptural and gubernatorial blessings -> Concrete closing on the regional union.",
       "source": "https://www.ghafla.co.ke/top-kenyan-leaders-shower-charlene-ruto-and-isaya-yunge-with-goodwill-following-mwanza-wedding/"
+    },
+    {
+      "title": "Fred Matiang\u2019i Reaches Out to Rigathi Gachagua Following Death of Reriani Family Matriarch Eunice Nyangari",
+      "angle": "Framing the moment around the personal executive outreach between Matiang'i and Gachagua, contrasting their high-stakes political histories with a unified public acknowledgment of Eunice Nyangari's seven-year tenure as the Reriani family matriarch in Naro Moru.",
+      "angle_type": "high-profile solidarity and matriarchal tribute",
+      "opening": "Personality lead opening directly on Fred Matiang'i extending a message of personal solidarity to Rigathi Gachagua.",
+      "structure": "Personality lead -> Matiang'i message and party framing -> Eunice Nyangari's background and Naro Moru matriarchal legacy -> Gachagua's family announcement details -> Historical family lineage context.",
+      "source": "https://www.ghafla.co.ke/matiangi-sends-condolences-to-gachagua-following-death-of-elder-sister/"
     }
   ],
   "style_history": [
