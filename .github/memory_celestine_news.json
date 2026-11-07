@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "9149425f5673ce287fe6b60c0da7070e",
     "39e5beb5f460d20037cd39c023c05c4c",
     "99ee60b1996495b4eacb6737eb38e7b1",
     "c605664019566013a5841230e3932054",
@@ -799,10 +798,10 @@
     "c639c58faea424c99d3ae7ea8feb0299",
     "5730dace19f365b1d0f0a336fa244eae",
     "5ca8166ea98299fb1fa0329be8e1bf48",
-    "07fd583182e76239b3a8335e0853ca02"
+    "07fd583182e76239b3a8335e0853ca02",
+    "058be49e0928eed091caf29a9c6f9450"
   ],
   "style_history": [
-    "Event Report",
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1650,7 +1650,8 @@
     "https://kenyans.co.ke/news/129208-ppp-boss-responds-double-taxation-claims-over-rironi-mau-summit-toll",
     "https://kenyans.co.ke/news/129211-kra-auction-thousands-unclaimed-goods-naivasha-icd-other-warehouses",
     "https://kenyans.co.ke/news/129210-nyeri-governor-mutahi-kahiga-appointed-chair-east-african-local-govts-association",
-    "https://kenyans.co.ke/news/129214-explained-how-invest-govt-bonds-and-kenya"
+    "https://kenyans.co.ke/news/129214-explained-how-invest-govt-bonds-and-kenya",
+    "https://kenyans.co.ke/news/129217-kanja-orders-crackdown-unroadworthy-vehicles-motorcycles-and-drunk-driving-ahead"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2391,7 +2392,8 @@
     "state ties ksh8 mau summit toll full fuel levy funding cutoff",
     "kra triggers multi year forfeiture clock abandoned depot consignments",
     "kahiga steps regional stage head east africa local govts body",
-    "cbk auction framework locks retail bond buyers price taker role ksh50 000"
+    "cbk auction framework locks retail bond buyers price taker role ksh50 000",
+    "kanja merges police roadside patrols ntsa digital surveillance festive travel"
   ],
   "topic_keys": [
     "news tracker",
@@ -8331,6 +8333,15 @@
       "structure": "Auction hierarchy lead -> Capital thresholds and bidding mechanics -> Onboarding architecture on DhowCSD -> Payout cadence and tenor comparison -> Secondary market liquidity and pricing exposure",
       "source": "https://kenyans.co.ke/news/129214-explained-how-invest-govt-bonds-and-kenya",
       "published_at": "2026-11-07T14:02:12Z"
+    },
+    {
+      "title": "Kanja Merges Police Roadside Patrols With NTSA Digital Surveillance for Festive Travel",
+      "angle": "Focusing on the operational merger between frontline police impoundment powers and NTSA's digital surveillance apparatus\u2014specifically how the multi-agency directive links physical roadside stops with real-time speed limiter telemetry and night-shift patrol rosters.",
+      "angle_type": "inter-agency enforcement architecture and digital telemetry integration",
+      "opening": "Operational alignment lead highlighting how police command authority is being paired with NTSA's live telemetry infrastructure ahead of December travel peaks.",
+      "structure": "Enforcement alignment lead -> Basilica address and command directives -> Digital telemetry and NTSA technical layer -> Commercial fleet and bodaboda compliance demands -> Unresolved execution and night patrol coordination",
+      "source": "https://kenyans.co.ke/news/129217-kanja-orders-crackdown-unroadworthy-vehicles-motorcycles-and-drunk-driving-ahead",
+      "published_at": "2026-11-07T15:02:09Z"
     }
   ]
 }
