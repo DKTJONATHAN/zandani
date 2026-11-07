@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "12ef2f4a560dba3ca9c734084ed20fa2",
     "0dc22b1f456212c5fbdd31b643334c3b",
     "93c9043982253266ecdb8e268e17ba2a",
     "0f0aab4eedc8e1fecd6fa1350abf9457",
@@ -799,10 +798,10 @@
     "10c1fbf7ba73e2e25bd12d3f55ebb10a",
     "754649e99e8f47108725cf4d3d255957",
     "3988b4d47236c40290ddf3afb35f5866",
-    "5890e6c41e686f257d5dbaa0a8e29774"
+    "5890e6c41e686f257d5dbaa0a8e29774",
+    "f7ba331c4b42d0f5c914550e908176ba"
   ],
   "style_history": [
-    "Statement Report",
     "Hard News Lead",
     "Desk Take",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Event Report"
+    "Event Report",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1641,7 +1641,8 @@
     "https://kenyans.co.ke/news/129196-photos-inside-charlene-rutos-glamorous-wedding-tanzania",
     "https://kenyans.co.ke/news/129197-kenya-records-6th-ebola-recovery-ministry-outlines-42-day-countdown-ending-outbreak",
     "https://kenyans.co.ke/news/129193-ppp-committee-upholds-ksh8-km-toll-fee-rironi-mau-summit-highway",
-    "https://kenyans.co.ke/news/129192-lobby-groups-demand-answers-govt-over-delayed-imf-corruption-report"
+    "https://kenyans.co.ke/news/129192-lobby-groups-demand-answers-govt-over-delayed-imf-corruption-report",
+    "https://kenyans.co.ke/news/129200-uk-issues-new-travel-warning-kenyan-town-ethiopia-conflict-escalates"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2373,7 +2374,8 @@
     "cross border first family wedding draws political elite mwanza",
     "single active case holds official day countdown end ebola outbreak",
     "strict appeal window blocks legal challenge ksh200b mau summit highway toll details",
-    "five month executive embargo imf governance audit deepens multilateral credit freeze"
+    "five month executive embargo imf governance audit deepens multilateral credit freeze",
+    "moyale buckles under supply squeeze refugee surge ethiopia border clashes spill"
   ],
   "topic_keys": [
     "news tracker",
@@ -8232,6 +8234,15 @@
       "structure": "Delivery timeline gap lead -> Fiscal consequences & loan program freeze -> Civil society joint demand & public resource argument -> Parliamentary action and 14-day deadline -> Next steps.",
       "source": "https://kenyans.co.ke/news/129192-lobby-groups-demand-answers-govt-over-delayed-imf-corruption-report",
       "published_at": "2026-11-06T16:02:32Z"
+    },
+    {
+      "title": "Moyale Buckles Under Supply Squeeze and Refugee Surge as Ethiopia Border Clashes Spill Over",
+      "angle": "The acute economic and logistical paralysis gripping Moyale, where an influx of 50,000 refugees, stray artillery, power failures, and doubling food costs have sparked a daily bus evacuation toward Nairobi, turning an international travel advisory into an afterthought for a town already in survival mode.",
+      "angle_type": "frontier displacement shock and municipal economic paralysis",
+      "opening": "Frontier paralysis lead highlighting the severe convergence of refugee arrivals, stray munitions, and supply chain failure in Moyale.",
+      "structure": "Municipal breakdown lead -> Supply shock and refugee burden -> Cross-border artillery casualties and security footprint -> UK blacklisting mechanics -> Forward edge on border stabilization talks",
+      "source": "https://kenyans.co.ke/news/129200-uk-issues-new-travel-warning-kenyan-town-ethiopia-conflict-escalates",
+      "published_at": "2026-11-07T05:02:02Z"
     }
   ]
 }
