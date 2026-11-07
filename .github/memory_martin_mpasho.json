@@ -168,7 +168,8 @@
     "419bf880ffd4c92d04c89d203b229dd332aaf29b5cfb83bd7e7055ff985b1355",
     "a9a1ba29c7d6768268b9e1853710ab691dd386ca165280038d14097d1359b1da",
     "3e4b7c38980b38352768e2fa95bee43ad239924c1f032a0142ae136790663941",
-    "8c5c2c2b2a44e985f2e4565274bc3e2dbd5949cc1834dac4db27dd1f1a22e572"
+    "8c5c2c2b2a44e985f2e4565274bc3e2dbd5949cc1834dac4db27dd1f1a22e572",
+    "30ab46d3ed970a27b35059666e9c388c4702b7359a94e18771b37408d5bc0468"
   ],
   "style_history": [
     "Event Report",
@@ -539,6 +540,10 @@
     {
       "key": "2026-11-07-nyathira-claims-bahati-owes-her-husband-ksh1-million",
       "ts": "2026-11-07T07:24:42.775258+00:00"
+    },
+    {
+      "key": "2026-11-07-bahatis-ksh1-million-wedding-turns-out-to-be-a-publicity-stunt",
+      "ts": "2026-11-07T09:23:36.359808+00:00"
     }
   ],
   "urls": [
@@ -611,7 +616,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-06-dj-mo-and-size-8s-multimillion-shilling-mansion-sparks-mixed-reactions-over-interior-design",
     "https://www.mpasho.co.ke/entertainment/2026-11-06-mbavu-destroyers-alleged-girlfriend-keliah-reacts-to-cosy-videos-with-truphena-muthoni",
     "https://www.mpasho.co.ke/entertainment/2026-11-07-gk-serkals-marriage-advice-about-best-friends",
-    "https://www.mpasho.co.ke/entertainment/2026-11-07-nyathira-claims-bahati-owes-her-husband-ksh1-million"
+    "https://www.mpasho.co.ke/entertainment/2026-11-07-nyathira-claims-bahati-owes-her-husband-ksh1-million",
+    "https://www.mpasho.co.ke/entertainment/2026-11-07-bahatis-ksh1-million-wedding-turns-out-to-be-a-publicity-stunt"
   ],
   "published_angles": [
     {
@@ -1165,6 +1171,14 @@
       "opening": "Open directly on Nyathira placing a KSh 1 million financial claim on Bahati following the Argyle Grand Hotel gathering.",
       "structure": "Personality lead with the ultimatum -> The commercial terms of the KSh 1M ticketed event -> The sudden shift from wedding altar to Mathare parliamentary campaign -> Public commercial friction and caller-accountability -> Grounded factual close on the transition into 2027 politics.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-07-nyathira-claims-bahati-owes-her-husband-ksh1-million"
+    },
+    {
+      "title": "Bahati Leverages KSh 1M Anniversary Gala to Reopen Mathare 2027 Parliamentary Race",
+      "angle": "Framing the event as a calculated conversion of personal brand mythology into political capital\u2014specifically how Bahati leveraged a month-long luxury anniversary rollout to assemble high-society figures before pivoting directly back to his unresolved 2022 Mathare electoral ambitions.",
+      "angle_type": "celebrity milestone repurposing and political campaign staging",
+      "opening": "Personality lead opening directly on Bahati transforming the Argyle Grand Hotel ballroom from an anniversary wedding venue into a 2027 campaign headquarters.",
+      "structure": "Personality hook at Argyle Grand Hotel -> The staging of the KSh 1M exclusivity roll-out -> Direct declaration verbatim and Mathare ambition -> Historical context of the 2022 defeat to Anthony Oluoch -> Factual close on the unresolved intersection of celebrity marketing and urban elective politics.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-07-bahatis-ksh1-million-wedding-turns-out-to-be-a-publicity-stunt"
     }
   ]
 }
