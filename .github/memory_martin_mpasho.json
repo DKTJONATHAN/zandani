@@ -169,7 +169,8 @@
     "a9a1ba29c7d6768268b9e1853710ab691dd386ca165280038d14097d1359b1da",
     "3e4b7c38980b38352768e2fa95bee43ad239924c1f032a0142ae136790663941",
     "8c5c2c2b2a44e985f2e4565274bc3e2dbd5949cc1834dac4db27dd1f1a22e572",
-    "30ab46d3ed970a27b35059666e9c388c4702b7359a94e18771b37408d5bc0468"
+    "30ab46d3ed970a27b35059666e9c388c4702b7359a94e18771b37408d5bc0468",
+    "4c869c6dcdd26ecb8cab8c20b64ba5e85088fe711175337a6bc0caff17f2774f"
   ],
   "style_history": [
     "Event Report",
@@ -544,6 +545,10 @@
     {
       "key": "2026-11-07-bahatis-ksh1-million-wedding-turns-out-to-be-a-publicity-stunt",
       "ts": "2026-11-07T09:23:36.359808+00:00"
+    },
+    {
+      "key": "2026-11-07-eko-dydda-addresses-critics-after-naming-daughter-5-star-billions-increase",
+      "ts": "2026-11-07T11:23:38.488069+00:00"
     }
   ],
   "urls": [
@@ -617,7 +622,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-06-mbavu-destroyers-alleged-girlfriend-keliah-reacts-to-cosy-videos-with-truphena-muthoni",
     "https://www.mpasho.co.ke/entertainment/2026-11-07-gk-serkals-marriage-advice-about-best-friends",
     "https://www.mpasho.co.ke/entertainment/2026-11-07-nyathira-claims-bahati-owes-her-husband-ksh1-million",
-    "https://www.mpasho.co.ke/entertainment/2026-11-07-bahatis-ksh1-million-wedding-turns-out-to-be-a-publicity-stunt"
+    "https://www.mpasho.co.ke/entertainment/2026-11-07-bahatis-ksh1-million-wedding-turns-out-to-be-a-publicity-stunt",
+    "https://www.mpasho.co.ke/entertainment/2026-11-07-eko-dydda-addresses-critics-after-naming-daughter-5-star-billions-increase"
   ],
   "published_angles": [
     {
@@ -1179,6 +1185,14 @@
       "opening": "Personality lead opening directly on Bahati transforming the Argyle Grand Hotel ballroom from an anniversary wedding venue into a 2027 campaign headquarters.",
       "structure": "Personality hook at Argyle Grand Hotel -> The staging of the KSh 1M exclusivity roll-out -> Direct declaration verbatim and Mathare ambition -> Historical context of the 2022 defeat to Anthony Oluoch -> Factual close on the unresolved intersection of celebrity marketing and urban elective politics.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-07-bahatis-ksh1-million-wedding-turns-out-to-be-a-publicity-stunt"
+    },
+    {
+      "title": "Eko Dydda Turns Naming Flak on Social Media Pseudonyms to Defend '5 Star Billions Increase'",
+      "angle": "Dydda pivots the naming controversy into an indictment of digital hypocrisy, contrasting parents' fear of ambitious names with the public's eagerness to adopt bold online pseudonyms over their real national identity cards.",
+      "angle_type": "celebrity parenting philosophy and digital identity hypocrisy",
+      "opening": "Personality lead focusing directly on Eko Dydda challenging Kenyans who mask their own legal names online while policing the ambitious title he gave his daughter.",
+      "structure": "Personality hook on digital alias hypocrisy -> The verified naming announcement and baby arrival -> Verbatim defense on fear of failure and enterprise names -> Song dedication and first-time girl dad dynamic -> Factual close on the naming philosophy",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-07-eko-dydda-addresses-critics-after-naming-daughter-5-star-billions-increase"
     }
   ]
 }
