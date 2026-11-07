@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "0f0aab4eedc8e1fecd6fa1350abf9457",
     "ffc7af3db7f1203d5be744a3a26aab46",
     "c40108083ca2eef58544f4b5d3e5be8b",
     "57beb65c9c373a7d487b6c6364185cae",
@@ -799,10 +798,10 @@
     "5890e6c41e686f257d5dbaa0a8e29774",
     "f7ba331c4b42d0f5c914550e908176ba",
     "54df3615155975c014d381f216518e40",
-    "a09706658b1d33240d06947fb5345474"
+    "a09706658b1d33240d06947fb5345474",
+    "e85d62b984e60cd50c3525ea0ac13ee6"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1644,7 +1644,8 @@
     "https://kenyans.co.ke/news/129192-lobby-groups-demand-answers-govt-over-delayed-imf-corruption-report",
     "https://kenyans.co.ke/news/129200-uk-issues-new-travel-warning-kenyan-town-ethiopia-conflict-escalates",
     "https://kenyans.co.ke/news/129201-kenyan-shilling-nears-ksh130-against-us-dollar-pound-hits-ksh175",
-    "https://kenyans.co.ke/news/129204-kenya-met-lists-nairobi-nakuru-among-counties-receive-rains-over-next-five-days"
+    "https://kenyans.co.ke/news/129204-kenya-met-lists-nairobi-nakuru-among-counties-receive-rains-over-next-five-days",
+    "https://kenyans.co.ke/news/129202-canada-announces-new-rules-kenyans-other-foreigners-seeking-jobs"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2379,7 +2380,8 @@
     "five month executive embargo imf governance audit deepens multilateral credit freeze",
     "moyale buckles under supply squeeze refugee surge ethiopia border clashes spill",
     "cbk data reveals european currency surge shilling anchors ksh130 dollar mark",
-    "western storms highland chill lead sharp five day weather split across counties"
+    "western storms highland chill lead sharp five day weather split across counties",
+    "ottawa sets population jobless thresholds pinch low wage labor seekers"
   ],
   "topic_keys": [
     "news tracker",
@@ -8265,6 +8267,15 @@
       "structure": "Climatic divergence lead -> Storm and lightning exposure in Western/Lake Basin -> Highland nocturnal temperature drop mechanics -> Arid and coastal insulation -> Weekday outlook close",
       "source": "https://kenyans.co.ke/news/129204-kenya-met-lists-nairobi-nakuru-among-counties-receive-rains-over-next-five-days",
       "published_at": "2026-11-07T07:02:34Z"
+    },
+    {
+      "title": "Ottawa Sets Population and Jobless Thresholds That Will Pinch Kenyan Low-Wage Labor Seekers",
+      "angle": "The operational squeeze on Kenyan low-wage applicants resulting from population-based and unemployment-rate thresholds in Canadian towns, contrasted against the 2-year administrative relief for high-demand sectors.",
+      "angle_type": "municipal employment thresholds and labor restriction mechanics",
+      "opening": "Threshold-driven opening focusing on the geographic carve-out taking effect in March 2027.",
+      "structure": "Geographic restriction lead -> LMIA administrative timeline shift -> Workforce percentage caps -> Ministerial rationale and enforcement date.",
+      "source": "https://kenyans.co.ke/news/129202-canada-announces-new-rules-kenyans-other-foreigners-seeking-jobs",
+      "published_at": "2026-11-07T08:02:33Z"
     }
   ]
 }
