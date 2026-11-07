@@ -399,7 +399,8 @@
     "12c05581cc560a0f2d65c61df4101a79a335294d45ddb632efd4f1ebf1668644",
     "5c1bca683365b3a3b6cc6b46cc8fc38dafad8554862ebb6375cfb51b5bb60b4f",
     "8794221d1c960b80f67426719bfb4261d8b532b3dcd4407bed1e1c5ee672b211",
-    "614d16337629902baa83aa9a3a66197a098bf500c2b3c9c09361a247f1aa2ec3"
+    "614d16337629902baa83aa9a3a66197a098bf500c2b3c9c09361a247f1aa2ec3",
+    "7a48fb24aa37fc92ca568d0aa92cbaf24e25e78c733674bc071df90e6ab31366"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -801,17 +802,10 @@
     "https://www.ghafla.co.ke/babu-owino-names-ex-makueni-governor-kivutha-kibwana-as-mwananchi-party-patron/",
     "https://www.ghafla.co.ke/top-kenyan-leaders-shower-charlene-ruto-and-isaya-yunge-with-goodwill-following-mwanza-wedding/",
     "https://www.ghafla.co.ke/matiangi-sends-condolences-to-gachagua-following-death-of-elder-sister/",
-    "https://www.ghafla.co.ke/nairobi-belongs-to-all-of-us-ps-raymond-omollo-calls-for-unity-and-inclusivity/"
+    "https://www.ghafla.co.ke/nairobi-belongs-to-all-of-us-ps-raymond-omollo-calls-for-unity-and-inclusivity/",
+    "https://www.ghafla.co.ke/kalonzo-muturi-blame-ruto-allies-after-opposition-convoy-attacked-in-migori/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018You Have Never Owned a Lambo\u2019: Kenyan Prince Invokes Supercar Brakes After Forcing Truck Off Tarmac",
-      "angle": "Focusing on Omosa using luxury supercar mechanics ('Lambo power') as a bizarre shield to justify forcing a commercial truck off the highway, contrasting his technical claims against basic traffic laws.",
-      "angle_type": "celebrity accountability and road safety stance",
-      "opening": "Personality lead opening directly on Raymond Omosa invoking luxury vehicle performance to brush off a near-miss head-on incident.",
-      "structure": "Personality hook -> Near-miss mechanics and video evidence -> Direct analysis of Omosa's supercar defense -> Public reaction to truck driver's reflexes -> Highway accountability conclusion.",
-      "source": "https://www.ghafla.co.ke/forex-trader-kenyan-prince-defends-reckless-overtaking-after-near-miss-with-truck/"
-    },
     {
       "title": "How Dr. Gideon Muriuki\u2019s Co-op Bank Quietly Crushed a Ksh 3B Water Target by Over a Billion",
       "angle": "Examining the stark financial contrast between the original three-year corporate target and the actual Ksh 4.39 billion deployment, revealing how commercial water credit demand quietly outpaced institutional projections.",
@@ -1603,6 +1597,14 @@
       "opening": "Personality lead opening directly on Raymond Omollo using modern Kenyan household dynamics to challenge tribal entitlement.",
       "structure": "Personality hook -> Forum setting and domestic bonds thesis -> Listing of ethnic diversity and intermarriage dynamics -> Grassroots directive to women coordinators -> Closing emphasis on non-exclusive civic identity.",
       "source": "https://www.ghafla.co.ke/nairobi-belongs-to-all-of-us-ps-raymond-omollo-calls-for-unity-and-inclusivity/"
+    },
+    {
+      "title": "Justin Muturi Calls Out Junet Mohamed by Name After Chaotic Stoning Cuts Short Migori Tour",
+      "angle": "Focusing on the sharp personal blame game ignited in the aftermath, led by Justin Muturi explicitly naming Suna East MP Junet Mohamed as the sponsor of the chaos on his home turf, alongside Kalonzo Musyoka targeting the police's tear gas tactics.",
+      "angle_type": "political feud and personal accountability",
+      "opening": "Personality lead opening directly on Justin Muturi refusing diplomatic political code and pointing a direct finger at Suna East MP Junet Mohamed.",
+      "structure": "Personality lead -> Direct allegations against Junet Mohamed -> Scene reconstruction in Migori town -> Kalonzo Musyoka's confrontation with police tactics -> Muturi's defiance and next steps.",
+      "source": "https://www.ghafla.co.ke/kalonzo-muturi-blame-ruto-allies-after-opposition-convoy-attacked-in-migori/"
     }
   ],
   "style_history": [
