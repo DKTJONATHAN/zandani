@@ -406,7 +406,8 @@
     "1f0e0bfdfe7abe2d199421b7c135087fb9e9b0a98a5dd5d3259ea4fe29824621",
     "9873de35a66577a2a6d08eb31c5c07b80f5d8d68c26ac5ca369a39e472f4843a",
     "8ce6bffae2661ca2d691a673ad06ae53d485df0beca1ba3b50108fece30fe358",
-    "5bf817197e80b5698eab1facd4e678e31cc2df736b2811d7bf87684b9887a863"
+    "5bf817197e80b5698eab1facd4e678e31cc2df736b2811d7bf87684b9887a863",
+    "652ef08ef30ffd211009f998fac81d8a32952b0af9ef1f4632f329c14e4b6982"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -815,17 +816,10 @@
     "https://www.ghafla.co.ke/we-make-no-apologies-rigathi-gachagua-rejects-tribalism-accusations-over-mt-kenya-cultural-gatherings/",
     "https://www.ghafla.co.ke/a-mother-figure-and-pillar-of-strength-fred-matiangi-mourns-rigathi-gachaguas-eldest-sister/",
     "https://www.ghafla.co.ke/do-not-entertain-conmen-president-william-ruto-challenges-opposition-to-show-2027-development-blueprint/",
-    "https://www.ghafla.co.ke/wetangula-urges-luhya-community-to-wait-until-2032-for-its-turn-to-produce-president/"
+    "https://www.ghafla.co.ke/wetangula-urges-luhya-community-to-wait-until-2032-for-its-turn-to-produce-president/",
+    "https://www.ghafla.co.ke/wiper-leaders-issue-ultimatum-to-opposition-back-kalonzo-or-face-him-at-ballot/"
   ],
   "published_angles": [
-    {
-      "title": "Rigathi Gachagua Turns Wamunyoro Tea Into a Roast Over Ruto\u2019s Buffalo Milk Pitch",
-      "angle": "Framing the Wamunyoro gathering through Gachagua's theatrical hospitality routine\u2014specifically weaponizing nearby Hombe Forest wildlife as a satirical hosting prop to roast the President's summit policy.",
-      "angle_type": "satirical hospitality and domestic political theater",
-      "opening": "Personality lead opening directly on Gachagua using Hombe Forest's buffalo herd as a comic culinary prop for his arriving political guests.",
-      "structure": "Personality punchline hook -> The Hombe Forest hospitality joke vs. Ruto's Jamhuri Park proposal -> The Wamunyoro lounge summit with Edwin Sifuna -> The DCP party targets and defense of Uhuru -> Teased guestlist for coming weeks.",
-      "source": "https://www.ghafla.co.ke/gachagua-mocks-rutos-buffalo-milk-proposal-during-high-profile-meeting-with-opposition-leaders/"
-    },
     {
       "title": "\u2018We Feel Despised\u2019: Brown Ashira Marches to Afya House With Two Hard Demands to End 92-Day Strike",
       "angle": "Focusing directly on union leader Brown Ashira's high-stakes ultimatum and public confrontation at Afya House, centering his core claim of official neglect against the backdrop of active Ebola surveillance and El Ni\u00f1o health risks.",
@@ -1617,6 +1611,14 @@
       "opening": "Personality lead opening directly on Moses Wetang\u2019ula reaching into clinical and native idioms at a Bungoma podium to protect his status against younger rivals.",
       "structure": "Personality idiom hook -> Deconstruction of the doctor's queue metaphor -> Lineage appeal (Muliro, Wamalwa, 'shenyu ni shenyu') -> Breakdown of the Linda Mwananchi challenge (Sifuna, Natembeya, Osotsi, Wamboka) -> Succession timeline reality close.",
       "source": "https://www.ghafla.co.ke/wetangula-urges-luhya-community-to-wait-until-2032-for-its-turn-to-produce-president/"
+    },
+    {
+      "title": "Wiper Invokes Kalonzo\u2019s \u2018Senior Counsel\u2019 Rank to Demand Respect From Sifuna\u2019s Rowdy Base",
+      "angle": "Framing the tension around courtroom pecking order and generational ego, zeroing in on Wiper elders invoking Kalonzo Musyoka's Senior Counsel status to demand Edwin Sifuna discipline his rowdy youth crowd after an embarrassing public disruption.",
+      "angle_type": "legal etiquette clash and political seniority",
+      "opening": "Personality lead opening directly on Kalonzo Musyoka's legal stature being deployed to reprimand Edwin Sifuna's lively street base.",
+      "structure": "Seniority hook -> Mombasa briefing scene and Sheikh Twaha's courtroom pecking-order lecture -> Linda Mwananchi rally embarrassment and Sifuna defense -> Chamia on Ruto non-alignment -> One-month coalition clock close.",
+      "source": "https://www.ghafla.co.ke/wiper-leaders-issue-ultimatum-to-opposition-back-kalonzo-or-face-him-at-ballot/"
     }
   ],
   "style_history": [
