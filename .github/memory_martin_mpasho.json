@@ -175,7 +175,8 @@
     "c9bd0d76d19fc1ce9bad8006ba20f02db952218c2ad49bf0ee624c90e46425b5",
     "f818814e4728870ceff64a127370d7d711e529e52bf9e8146d2e9d995f034295",
     "cb3f330d081a5dbbc849e879f8b5001cafcb4f46e28e1b95924056781d540990",
-    "1a23a473c90e689bbf5a24206521759a68c61cd979add4c8be1e32a32813c054"
+    "1a23a473c90e689bbf5a24206521759a68c61cd979add4c8be1e32a32813c054",
+    "0fc3526d57330aa0512d5310b93c36356e0e263cf3091b08f46a314cf1934cac"
   ],
   "style_history": [
     "Event Report",
@@ -574,6 +575,10 @@
     {
       "key": "2026-11-08-why-charlene-ruto-transported-kenyan-honey-to-tanzania-for-wedding",
       "ts": "2026-11-08T07:22:33.326693+00:00"
+    },
+    {
+      "key": "2026-11-08-why-sandra-mbuvi-can-never-date-or-marry-a-man-who-chews-jaba",
+      "ts": "2026-11-08T09:52:36.672776+00:00"
     }
   ],
   "urls": [
@@ -653,7 +658,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-07-morgan-bahati-speaks-on-online-trolls-thanks-father-bahati-for-standing-by-him",
     "https://www.mpasho.co.ke/entertainment/2026-11-07-mitch-ngojes-husband-explains-why-couples-should-open-joint-accounts-to-save-for-weddings",
     "https://www.mpasho.co.ke/entertainment/2026-11-07-oga-obinna-defends-size-8-and-dj-mo-after-kenyans-criticise-their-mansion",
-    "https://www.mpasho.co.ke/entertainment/2026-11-08-why-charlene-ruto-transported-kenyan-honey-to-tanzania-for-wedding"
+    "https://www.mpasho.co.ke/entertainment/2026-11-08-why-charlene-ruto-transported-kenyan-honey-to-tanzania-for-wedding",
+    "https://www.mpasho.co.ke/entertainment/2026-11-08-why-sandra-mbuvi-can-never-date-or-marry-a-man-who-chews-jaba"
   ],
   "published_angles": [
     {
@@ -1263,6 +1269,14 @@
       "opening": "Personality lead opening directly on Charlene Ruto executing her cross-border gifting strategy during wedding preparation in Mwanza.",
       "structure": "Gifting strategy lead -> Apiary transport & dual-country concept -> Mwanza market supply pivot -> Wedding ceremony details & venue -> Milestone timeline close",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-08-why-charlene-ruto-transported-kenyan-honey-to-tanzania-for-wedding"
+    },
+    {
+      "title": "Sandra Mbuvi Draws Hard Line on Romance: 'I Could Never Date or Marry a Man Who Chews Jaba'",
+      "angle": "Framing Sandra Mbuvi's stance as an uncompromising lifestyle vetting policy, examining how she aligns personal romantic dealbreakers with self-defined standards of ambition and brand discipline.",
+      "angle_type": "lifestyle standard enforcement and romantic vetting criteria",
+      "opening": "Personality lead opening directly on Sandra Mbuvi establishing a firm barrier against khat chewing as an automatic romantic disqualifier.",
+      "structure": "Personality hook -> Verbatim dealbreaker stance and relationship standards -> Alignment with self-concept and 'THAT girl' motivation -> Practical business guidance for beauty founders -> Thematic close on consistent personal boundaries.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-08-why-sandra-mbuvi-can-never-date-or-marry-a-man-who-chews-jaba"
     }
   ]
 }
