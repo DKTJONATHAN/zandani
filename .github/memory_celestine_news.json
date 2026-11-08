@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "4d29e6a348b5e4411978d65e32ae4563",
     "934609f4ee422e27ef82bb079e3d7886",
     "cdb436d1296c5481b10e34252443656a",
     "279205e4d1f248f70a075c5958cc0bf5",
@@ -799,10 +798,10 @@
     "3561498efde50a7d2956f251e34154a6",
     "bbfc24c5144d3b9cd293d07166b0c412",
     "8f7695e01674ca563d88958ebec28440",
-    "539099ec262253b7d409e560d63338c9"
+    "539099ec262253b7d409e560d63338c9",
+    "7b96cccdfdbb3e8ee232800ccdd7f25f"
   ],
   "style_history": [
-    "Event Report",
     "Hard News Lead",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Desk Take",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1657,7 +1657,8 @@
     "https://kenyans.co.ke/news/129216-mwarv-reveals-stories-behind-iconic-2017-uhuru-ruto-campaign-photos",
     "https://kenyans.co.ke/news/129219-eu-us-raise-alarm-over-tanzania-after-tundu-lissus-4-year-jail-sentence",
     "https://kenyans.co.ke/news/129222-ena-coach-warns-passengers-delays-traffic-snarl-hits-nakuru-nairobi-highway",
-    "https://kenyans.co.ke/news/129221-nandi-mca-apologises-over-remarks-targeting-sifuna-supporters-nandi"
+    "https://kenyans.co.ke/news/129221-nandi-mca-apologises-over-remarks-targeting-sifuna-supporters-nandi",
+    "https://kenyans.co.ke/news/129224-explained-how-foreigners-can-legally-acquire-land-and-property-kenya"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2405,7 +2406,8 @@
     "behind lens rhumba sos call salvaged jubilee 2017 campaign portraits",
     "lissu year incitement verdict puts tanzania bilateral ties under direct review",
     "ena coach alerts western travellers delays mary snarl strands highway traffic",
-    "nandi mca climbs down cross border eviction threat ncic closes"
+    "nandi mca climbs down cross border eviction threat ncic closes",
+    "setting local firm won bypass year land ceiling foreigners"
   ],
   "topic_keys": [
     "news tracker",
@@ -8408,6 +8410,15 @@
       "structure": "Borderland rhetoric lead -> Verbatim funeral statement and viral dissemination -> Peer assembly repudiation and constitutional friction -> Official apology and context defence -> NCIC regulatory summons and campaign calendar stakes.",
       "source": "https://kenyans.co.ke/news/129221-nandi-mca-apologises-over-remarks-targeting-sifuna-supporters-nandi",
       "published_at": "2026-11-08T06:02:18Z"
+    },
+    {
+      "title": "Why Setting Up a Local Firm Won't Bypass Kenya\u2019s 99-Year Land Ceiling for Foreigners",
+      "angle": "The legal limits of corporate workarounds: how foreign investors attempting to bypass the constitutional ban on freehold land through local company incorporation still face non-citizen reclassification, diminishing lease horizons, and Land Control Board veto powers on agricultural transactions.",
+      "angle_type": "statutory tenure restrictions and corporate pass-through limitations",
+      "opening": "Statutory barrier opening focusing on the legal fiction that incorporating a local entity shields offshore buyers from constitutional land tenure caps.",
+      "structure": "Corporate pass-through barrier -> Article 65 constitutional leasehold conversion mechanics -> Agricultural veto powers under Land Control Boards -> Practical due diligence and remaining lease horizons.",
+      "source": "https://kenyans.co.ke/news/129224-explained-how-foreigners-can-legally-acquire-land-and-property-kenya",
+      "published_at": "2026-11-08T07:01:21Z"
     }
   ]
 }
