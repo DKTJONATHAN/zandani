@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "b123c4fa0599728413b79d05f2302e12",
     "cd0a6579fa5ada8cbd3a0b0ab960ce4d",
     "fed7ab642ed21a846d858234871086b7",
     "876666eae8d191b815fb27af49d94be1",
@@ -799,10 +798,10 @@
     "3fbec7dfc0aec4970700921753141ac7",
     "72e2516c8039f4067a92a12dc5010da7",
     "d0effa13fc1d013bec60cc91d890aa44",
-    "72f803045c2a7cb7388bc6f1cb74ee4f"
+    "72f803045c2a7cb7388bc6f1cb74ee4f",
+    "04f2e535d5c124c7063c4f753ad62bc8"
   ],
   "style_history": [
-    "Event Report",
     "Desk Take",
     "Statement Report",
     "Event Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Statement Report",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Desk Take"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1664,7 +1664,8 @@
     "https://kenyans.co.ke/news/129226-ca-issues-notice-kenyans-several-companies-seek-tv-radio-licences",
     "https://kenyans.co.ke/news/129231-marigat-sub-county-level-4-hospital-develops-cracks-months-after-commissioning",
     "https://kenyans.co.ke/news/129232-traffic-disrupted-lorries-burst-flames-along-nairobi-mombasa-highway",
-    "https://kenyans.co.ke/news/129234-raila-odinga-stadium-could-host-man-united-vs-arsenal-july-2027-murkomen-claims"
+    "https://kenyans.co.ke/news/129234-raila-odinga-stadium-could-host-man-united-vs-arsenal-july-2027-murkomen-claims",
+    "https://kenyans.co.ke/news/129230-ruto-announces-plans-new-four-lane-highway-linking-mau-summit-kisumu"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2419,7 +2420,8 @@
     "opens day objection window telecom licences spectrum purge",
     "cracks force emergency wing evacuation marigat hospital weeks ksh1b upgrade pledge",
     "kiunduani truck inferno claims mombasa corridor fatality count tops",
-    "state plots july 2027 arsenal man united clash final dress rehearsal afcon"
+    "state plots july 2027 arsenal man united clash final dress rehearsal afcon",
+    "state ties western highway dualling rironi mau summit finish line"
   ],
   "topic_keys": [
     "news tracker",
@@ -8485,6 +8487,15 @@
       "structure": "Pre-tournament staging lead -> Announcement specifics and timing window -> January 2027 Bayern-Ajax operational precursor -> Infrastructure, crowd and commercial parameters -> Outstanding logistical and contractual hurdles",
       "source": "https://kenyans.co.ke/news/129234-raila-odinga-stadium-could-host-man-united-vs-arsenal-july-2027-murkomen-claims",
       "published_at": "2026-11-08T14:02:02Z"
+    },
+    {
+      "title": "State Ties Western Highway Dualling to Rironi-Mau Summit Finish Line",
+      "angle": "The strict capital and operational sequencing: the state is conditioning major western artery dual carriageway expansions on the prior handover of the Ksh200 billion Rironi-Mau Summit corridor, synchronising several massive trunk projects into an April 2027 delivery bottleneck.",
+      "angle_type": "infrastructure capital sequencing and delivery dependencies",
+      "opening": "Sequencing-lead opening establishing the conditional dependency between the existing Rironi-Mau Summit trunk and the proposed seven-county western expansion.",
+      "structure": "Sequencing lead -> Corridor routing and county alignment -> Dependency on Rironi-Mau Summit completion -> Concurrent PPP timelines (Eldoret-Malaba and Mombasa) -> Gusii tour commitments and institutional milestones",
+      "source": "https://kenyans.co.ke/news/129230-ruto-announces-plans-new-four-lane-highway-linking-mau-summit-kisumu",
+      "published_at": "2026-11-08T14:16:33Z"
     }
   ]
 }
