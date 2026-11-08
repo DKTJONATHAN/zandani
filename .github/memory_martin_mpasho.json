@@ -178,7 +178,8 @@
     "1a23a473c90e689bbf5a24206521759a68c61cd979add4c8be1e32a32813c054",
     "0fc3526d57330aa0512d5310b93c36356e0e263cf3091b08f46a314cf1934cac",
     "8c61ae1a83b21f0e6f2fc1d94be3ac15e5680d3cf93c0fed6e59a029a611df4a",
-    "12b2a3981ada4788ea0c350afd0636c03e14643420db3c0cd2b49c10ad12a2e3"
+    "12b2a3981ada4788ea0c350afd0636c03e14643420db3c0cd2b49c10ad12a2e3",
+    "aa5d8a743f5f6616881a53de8778705d285154cc2ce2877f465e9c146188bbbd"
   ],
   "style_history": [
     "Event Report",
@@ -589,6 +590,10 @@
     {
       "key": "2026-11-08-blueface-wipes-groin-and-throws-towel-to-fans-mid-performance-video",
       "ts": "2026-11-08T13:23:19.781996+00:00"
+    },
+    {
+      "key": "2026-11-08-konshens-confirms-december-18-concert-at-sarit-expo-centre",
+      "ts": "2026-11-08T15:27:40.969273+00:00"
     }
   ],
   "urls": [
@@ -671,7 +676,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-08-why-charlene-ruto-transported-kenyan-honey-to-tanzania-for-wedding",
     "https://www.mpasho.co.ke/entertainment/2026-11-08-why-sandra-mbuvi-can-never-date-or-marry-a-man-who-chews-jaba",
     "https://www.mpasho.co.ke/entertainment/2026-11-08-isaya-yunges-father-writes-heartfelt-message-to-charlene-ruto",
-    "https://www.mpasho.co.ke/entertainment/2026-11-08-blueface-wipes-groin-and-throws-towel-to-fans-mid-performance-video"
+    "https://www.mpasho.co.ke/entertainment/2026-11-08-blueface-wipes-groin-and-throws-towel-to-fans-mid-performance-video",
+    "https://www.mpasho.co.ke/entertainment/2026-11-08-konshens-confirms-december-18-concert-at-sarit-expo-centre"
   ],
   "published_angles": [
     {
@@ -1305,6 +1311,14 @@
       "opening": "Personality lead centered on Blueface executing a controversial towel toss during a club performance under venue lighting.",
       "structure": "Personality hook -> Venue stage breakdown -> Fan interaction details -> Public commentary on audience boundaries -> Broader debate on stage decorum close.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-08-blueface-wipes-groin-and-throws-towel-to-fans-mid-performance-video"
+    },
+    {
+      "title": "Konshens Flips Nairobi December Venue Scramble into High School Reunion Show at Sarit Expo",
+      "angle": "Framing the announcement around Konshens turning Nairobi's ruthless December venue crunch into a themed high-school nostalgia concept, leveraging his unique cultural capital in Kenya to mount a December 18 throwback show at Sarit Expo Centre.",
+      "angle_type": "event staging and cultural nostalgia monetization",
+      "opening": "Personality lead opening directly on Konshens defusing his deliberate East African tour snub with a playful reversal and a Sarit Expo Centre date.",
+      "structure": "Personality prank reveal -> Nairobi December venue scramble context -> 'Dancehall Detention' high school theme and ticketing mechanics -> Promoter infrastructure and regional touring footprint -> Billboard context and longstanding local loyalty close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-08-konshens-confirms-december-18-concert-at-sarit-expo-centre"
     }
   ]
 }
