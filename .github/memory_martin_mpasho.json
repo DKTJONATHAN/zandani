@@ -179,7 +179,8 @@
     "0fc3526d57330aa0512d5310b93c36356e0e263cf3091b08f46a314cf1934cac",
     "8c61ae1a83b21f0e6f2fc1d94be3ac15e5680d3cf93c0fed6e59a029a611df4a",
     "12b2a3981ada4788ea0c350afd0636c03e14643420db3c0cd2b49c10ad12a2e3",
-    "aa5d8a743f5f6616881a53de8778705d285154cc2ce2877f465e9c146188bbbd"
+    "aa5d8a743f5f6616881a53de8778705d285154cc2ce2877f465e9c146188bbbd",
+    "cf298125cf951be226737163d85b96414e1c45fc7be1369307b43bb3dfb0cb32"
   ],
   "style_history": [
     "Event Report",
@@ -594,6 +595,10 @@
     {
       "key": "2026-11-08-konshens-confirms-december-18-concert-at-sarit-expo-centre",
       "ts": "2026-11-08T15:27:40.969273+00:00"
+    },
+    {
+      "key": "2026-11-08-george-rutos-hilarious-reaction-to-sister-charlene-rutos-wedding",
+      "ts": "2026-11-08T17:23:18.119223+00:00"
     }
   ],
   "urls": [
@@ -677,7 +682,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-08-why-sandra-mbuvi-can-never-date-or-marry-a-man-who-chews-jaba",
     "https://www.mpasho.co.ke/entertainment/2026-11-08-isaya-yunges-father-writes-heartfelt-message-to-charlene-ruto",
     "https://www.mpasho.co.ke/entertainment/2026-11-08-blueface-wipes-groin-and-throws-towel-to-fans-mid-performance-video",
-    "https://www.mpasho.co.ke/entertainment/2026-11-08-konshens-confirms-december-18-concert-at-sarit-expo-centre"
+    "https://www.mpasho.co.ke/entertainment/2026-11-08-konshens-confirms-december-18-concert-at-sarit-expo-centre",
+    "https://www.mpasho.co.ke/entertainment/2026-11-08-george-rutos-hilarious-reaction-to-sister-charlene-rutos-wedding"
   ],
   "published_angles": [
     {
@@ -1319,6 +1325,14 @@
       "opening": "Personality lead opening directly on Konshens defusing his deliberate East African tour snub with a playful reversal and a Sarit Expo Centre date.",
       "structure": "Personality prank reveal -> Nairobi December venue scramble context -> 'Dancehall Detention' high school theme and ticketing mechanics -> Promoter infrastructure and regional touring footprint -> Billboard context and longstanding local loyalty close.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-08-konshens-confirms-december-18-concert-at-sarit-expo-centre"
+    },
+    {
+      "title": "George Ruto Cuts Through Mwanza Wedding Pomp with Livestock Verdict: 'The Herd Was Paid'",
+      "angle": "Framing George Ruto's quip as sibling levity cutting through the bilateral pomp of a high-society cross-border union, distilling months of formal pre-wedding protocol down to the straightforward vernacular of pastoral livestock settlement.",
+      "angle_type": "sibling humor and cultural protocol commentary",
+      "opening": "Open directly on George Ruto puncturing the solemn ceremony of the Mwanza nuptials with his livestock-and-deal bride price declaration.",
+      "structure": "Personality lead on George's caption -> The contrasting solemnity of the Mwanza setting and Ruto's aisle walk -> Visual breakdown of George and Isaya embracing in reception wear -> Chronological callback to the August Kilgoris Koito -> Digital public reaction and brotherly role close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-08-george-rutos-hilarious-reaction-to-sister-charlene-rutos-wedding"
     }
   ]
 }
