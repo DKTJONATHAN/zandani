@@ -181,7 +181,8 @@
     "12b2a3981ada4788ea0c350afd0636c03e14643420db3c0cd2b49c10ad12a2e3",
     "aa5d8a743f5f6616881a53de8778705d285154cc2ce2877f465e9c146188bbbd",
     "cf298125cf951be226737163d85b96414e1c45fc7be1369307b43bb3dfb0cb32",
-    "d88e877768452ceb4e5623715b334b3f05f7ebc47c995556abadac52ec672141"
+    "d88e877768452ceb4e5623715b334b3f05f7ebc47c995556abadac52ec672141",
+    "27e18ae5564428befa35d55d862f16ff9b461b6bff381e717c39ec7fd53f2942"
   ],
   "style_history": [
     "Event Report",
@@ -604,6 +605,10 @@
     {
       "key": "2026-11-08-raburus-key-takeaways-after-attending-biens-album-watch-party",
       "ts": "2026-11-08T19:27:11.185703+00:00"
+    },
+    {
+      "key": "2026-11-08-georgina-njenga-breaks-down-in-tears-ahead-of-hospital-discharge",
+      "ts": "2026-11-08T21:25:41.004691+00:00"
     }
   ],
   "urls": [
@@ -689,7 +694,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-08-blueface-wipes-groin-and-throws-towel-to-fans-mid-performance-video",
     "https://www.mpasho.co.ke/entertainment/2026-11-08-konshens-confirms-december-18-concert-at-sarit-expo-centre",
     "https://www.mpasho.co.ke/entertainment/2026-11-08-george-rutos-hilarious-reaction-to-sister-charlene-rutos-wedding",
-    "https://www.mpasho.co.ke/entertainment/2026-11-08-raburus-key-takeaways-after-attending-biens-album-watch-party"
+    "https://www.mpasho.co.ke/entertainment/2026-11-08-raburus-key-takeaways-after-attending-biens-album-watch-party",
+    "https://www.mpasho.co.ke/entertainment/2026-11-08-georgina-njenga-breaks-down-in-tears-ahead-of-hospital-discharge"
   ],
   "published_angles": [
     {
@@ -1347,6 +1353,14 @@
       "opening": "Personality lead opening directly on Willis Raburu recounting the gadget-free isolation of Bien's private listening party before delivering his verdict.",
       "structure": "Raburu's phone-surrender hook -> Emotional reaction and event setup -> Creative staging and Chiki Kuruka's team -> Tracklist breakdown and international collaborations -> November 20 release timeline and career trajectory context.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-08-raburus-key-takeaways-after-attending-biens-album-watch-party"
+    },
+    {
+      "title": "Georgina Njenga Cleared for Early Chiromo Discharge After 40-Day Turnaround Cuts 90-Day Stay",
+      "angle": "Focusing on the sharp timeline compression\u2014exiting inpatient care at Day 40 against an initial 90-day clinical roadmap\u2014and Georgina navigating the transition from early institutional resistance ('terrible' Day 15) to public gratitude and impending re-entry into the digital creator space.",
+      "angle_type": "clinical recovery timeline and digital re-entry",
+      "opening": "Personality lead opening directly on Georgina Njenga confirming her medical clearance for Monday or Tuesday, cutting short her planned three-month inpatient stay.",
+      "structure": "Personality hook with discharge timeline -> Verified 40-day vs 90-day math and admission origin -> The Day 15 institutional struggle contrast -> Eric Omondi and Sisi Kwa Sisi intervention role -> Creator re-entry and brand endorsement prospect close",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-08-georgina-njenga-breaks-down-in-tears-ahead-of-hospital-discharge"
     }
   ]
 }
