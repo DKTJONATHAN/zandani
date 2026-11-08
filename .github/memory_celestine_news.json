@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "fed7ab642ed21a846d858234871086b7",
     "876666eae8d191b815fb27af49d94be1",
     "772fd72b0b837d21a20fe786b4d51e3d",
     "87bcc0b6271c4d45bc3427771a560d9a",
@@ -799,10 +798,10 @@
     "d0effa13fc1d013bec60cc91d890aa44",
     "72f803045c2a7cb7388bc6f1cb74ee4f",
     "04f2e535d5c124c7063c4f753ad62bc8",
-    "96879ca3ca50c0210654a1d5862fcaaa"
+    "96879ca3ca50c0210654a1d5862fcaaa",
+    "b592972c96f305da81484140bca6d323"
   ],
   "style_history": [
-    "Statement Report",
     "Event Report",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Statement Report",
     "Hard News Lead",
     "Desk Take",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1666,7 +1666,8 @@
     "https://kenyans.co.ke/news/129232-traffic-disrupted-lorries-burst-flames-along-nairobi-mombasa-highway",
     "https://kenyans.co.ke/news/129234-raila-odinga-stadium-could-host-man-united-vs-arsenal-july-2027-murkomen-claims",
     "https://kenyans.co.ke/news/129230-ruto-announces-plans-new-four-lane-highway-linking-mau-summit-kisumu",
-    "https://kenyans.co.ke/news/129235-whatsapp-users-warned-over-files-could-steal-personal-and-banking-details"
+    "https://kenyans.co.ke/news/129235-whatsapp-users-warned-over-files-could-steal-personal-and-banking-details",
+    "https://kenyans.co.ke/news/129236-govt-compensates-samburu-residents-over-cattle-killed-during-security-operation"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2423,7 +2424,8 @@
     "kiunduani truck inferno claims mombasa corridor fatality count tops",
     "state plots july 2027 arsenal man united clash final dress rehearsal afcon",
     "state ties western highway dualling rironi mau summit finish line",
-    "recycled numbers familiar chats whatsapp files breach mobile banking"
+    "recycled numbers familiar chats whatsapp files breach mobile banking",
+    "samburu herders receive 435 cattle governors bypass state compensation impasse"
   ],
   "topic_keys": [
     "news tracker",
@@ -8507,6 +8509,15 @@
       "structure": "Contact-trust vector lead -> Infiltration mechanics (APKs, Trojans, spyware) -> Financial credential and OTP interception exposure -> Hardware-level operational indicators -> Market footprint and defence configuration.",
       "source": "https://kenyans.co.ke/news/129235-whatsapp-users-warned-over-files-could-steal-personal-and-banking-details",
       "published_at": "2026-11-08T16:02:22Z"
+    },
+    {
+      "title": "Samburu Herders Receive 435 Cattle as Governors Bypass State Compensation Impasse",
+      "angle": "The operational disconnect between regional leadership providing direct livestock restitution and the national security apparatus's contested casualty tally, where the 435-head handover bypasses the state's missing statutory compensation framework while a Ksh70 million formal claim remains unresolved before Parliament.",
+      "angle_type": "restitution mechanics, official liability, and tally discrepancies",
+      "opening": "Attribution-led statement opening establishing the handover orchestrated by pastoral governors to bridge immediate household livelihood loss ahead of state accountability mechanisms.",
+      "structure": "Attribution lead -> Direct beneficiary mechanics and Maa forum handover -> Disputed tallies (CS Murkomen's 237 vs Lelelit's 764) -> Statutory friction and Parliamentary petition background -> Unresolved Ksh70M claims and security operation context",
+      "source": "https://kenyans.co.ke/news/129236-govt-compensates-samburu-residents-over-cattle-killed-during-security-operation",
+      "published_at": "2026-11-08T17:02:23Z"
     }
   ]
 }
