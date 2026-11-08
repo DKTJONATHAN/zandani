@@ -400,7 +400,8 @@
     "5c1bca683365b3a3b6cc6b46cc8fc38dafad8554862ebb6375cfb51b5bb60b4f",
     "8794221d1c960b80f67426719bfb4261d8b532b3dcd4407bed1e1c5ee672b211",
     "614d16337629902baa83aa9a3a66197a098bf500c2b3c9c09361a247f1aa2ec3",
-    "7a48fb24aa37fc92ca568d0aa92cbaf24e25e78c733674bc071df90e6ab31366"
+    "7a48fb24aa37fc92ca568d0aa92cbaf24e25e78c733674bc071df90e6ab31366",
+    "e2d5e3e2eea2ed1431306244f00875b0044923060629cde5eba2ad5aa84b9805"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -803,17 +804,10 @@
     "https://www.ghafla.co.ke/top-kenyan-leaders-shower-charlene-ruto-and-isaya-yunge-with-goodwill-following-mwanza-wedding/",
     "https://www.ghafla.co.ke/matiangi-sends-condolences-to-gachagua-following-death-of-elder-sister/",
     "https://www.ghafla.co.ke/nairobi-belongs-to-all-of-us-ps-raymond-omollo-calls-for-unity-and-inclusivity/",
-    "https://www.ghafla.co.ke/kalonzo-muturi-blame-ruto-allies-after-opposition-convoy-attacked-in-migori/"
+    "https://www.ghafla.co.ke/kalonzo-muturi-blame-ruto-allies-after-opposition-convoy-attacked-in-migori/",
+    "https://www.ghafla.co.ke/mudavadi-tells-western-residents-to-back-ruto-allies-if-they-want-government-jobs-and-development/"
   ],
   "published_angles": [
-    {
-      "title": "How Dr. Gideon Muriuki\u2019s Co-op Bank Quietly Crushed a Ksh 3B Water Target by Over a Billion",
-      "angle": "Examining the stark financial contrast between the original three-year corporate target and the actual Ksh 4.39 billion deployment, revealing how commercial water credit demand quietly outpaced institutional projections.",
-      "angle_type": "financial performance and target-smashing accountability",
-      "opening": "Personality-led hook focusing on Dr. Gideon Muriuki and the sudden surge past the bank's original development targets.",
-      "structure": "Personality and numbers hook -> The multi-billion shilling discrepancy over the target -> Breakdown of the Co-op A Maji hardware ecosystem -> The Radisson Blu forum context -> Closing on the active loan portfolio scale.",
-      "source": "https://www.ghafla.co.ke/co-op-bank-wins-award-for-water-finance-at-africa-water-forum-2026/"
-    },
     {
       "title": "From Centralized Control to the Clinic Floor: The SHA\u2019s New KSh 107 Billion Decentralization Bet",
       "angle": "The pivot from a centralized bureaucratic 'black box' to a hyper-local procurement model where 10,000+ facility heads now have direct financial autonomy, shifting the point of failure (or success) from the Ministry to the clinic floor.",
@@ -1605,6 +1599,14 @@
       "opening": "Personality lead opening directly on Justin Muturi refusing diplomatic political code and pointing a direct finger at Suna East MP Junet Mohamed.",
       "structure": "Personality lead -> Direct allegations against Junet Mohamed -> Scene reconstruction in Migori town -> Kalonzo Musyoka's confrontation with police tactics -> Muturi's defiance and next steps.",
       "source": "https://www.ghafla.co.ke/kalonzo-muturi-blame-ruto-allies-after-opposition-convoy-attacked-in-migori/"
+    },
+    {
+      "title": "Musalia Mudavadi Serves Western Voters a Hard Truth on Budget Committee Chairs and the \u201830 Percent\u2019 Road Fund",
+      "angle": "Framing Mudavadi's remarks through the mechanics of parliamentary committee power\u2014exposing how holding only a watchdog committee (PAC) strips Western Kenya of direct budget and infrastructure bargaining power in Parliament.",
+      "angle_type": "parliamentary committee leverage and legislative budget mechanics",
+      "opening": "Personality lead opening directly on Musalia Mudavadi confronting church leaders in Nyang'ori over the legislative math of resource allocation.",
+      "structure": "Personality hook -> Legislative budget authority breakdown -> Committee chair shortfall analysis -> Grassroots MCA imperative -> Infrastructure reaction and 2027 close.",
+      "source": "https://www.ghafla.co.ke/mudavadi-tells-western-residents-to-back-ruto-allies-if-they-want-government-jobs-and-development/"
     }
   ],
   "style_history": [
