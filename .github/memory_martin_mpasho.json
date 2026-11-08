@@ -176,7 +176,8 @@
     "f818814e4728870ceff64a127370d7d711e529e52bf9e8146d2e9d995f034295",
     "cb3f330d081a5dbbc849e879f8b5001cafcb4f46e28e1b95924056781d540990",
     "1a23a473c90e689bbf5a24206521759a68c61cd979add4c8be1e32a32813c054",
-    "0fc3526d57330aa0512d5310b93c36356e0e263cf3091b08f46a314cf1934cac"
+    "0fc3526d57330aa0512d5310b93c36356e0e263cf3091b08f46a314cf1934cac",
+    "8c61ae1a83b21f0e6f2fc1d94be3ac15e5680d3cf93c0fed6e59a029a611df4a"
   ],
   "style_history": [
     "Event Report",
@@ -579,6 +580,10 @@
     {
       "key": "2026-11-08-why-sandra-mbuvi-can-never-date-or-marry-a-man-who-chews-jaba",
       "ts": "2026-11-08T09:52:36.672776+00:00"
+    },
+    {
+      "key": "2026-11-08-isaya-yunges-father-writes-heartfelt-message-to-charlene-ruto",
+      "ts": "2026-11-08T11:25:06.339122+00:00"
     }
   ],
   "urls": [
@@ -659,7 +664,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-07-mitch-ngojes-husband-explains-why-couples-should-open-joint-accounts-to-save-for-weddings",
     "https://www.mpasho.co.ke/entertainment/2026-11-07-oga-obinna-defends-size-8-and-dj-mo-after-kenyans-criticise-their-mansion",
     "https://www.mpasho.co.ke/entertainment/2026-11-08-why-charlene-ruto-transported-kenyan-honey-to-tanzania-for-wedding",
-    "https://www.mpasho.co.ke/entertainment/2026-11-08-why-sandra-mbuvi-can-never-date-or-marry-a-man-who-chews-jaba"
+    "https://www.mpasho.co.ke/entertainment/2026-11-08-why-sandra-mbuvi-can-never-date-or-marry-a-man-who-chews-jaba",
+    "https://www.mpasho.co.ke/entertainment/2026-11-08-isaya-yunges-father-writes-heartfelt-message-to-charlene-ruto"
   ],
   "published_angles": [
     {
@@ -1277,6 +1283,14 @@
       "opening": "Personality lead opening directly on Sandra Mbuvi establishing a firm barrier against khat chewing as an automatic romantic disqualifier.",
       "structure": "Personality hook -> Verbatim dealbreaker stance and relationship standards -> Alignment with self-concept and 'THAT girl' motivation -> Practical business guidance for beauty founders -> Thematic close on consistent personal boundaries.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-08-why-sandra-mbuvi-can-never-date-or-marry-a-man-who-chews-jaba"
+    },
+    {
+      "title": "Solomon Waigwa Ushers Charlene Ruto into Household After Anchoring Groom's Cross-Border Delegation",
+      "angle": "Examining Solomon Waigwa's patriarch role across the cross-border union\u2014specifically how the adoptive father anchored the groom's contingent from Nairobi to Narok and Mwanza, concluding the bilateral family rites by formally ushering the First Daughter into the Yunge household.",
+      "angle_type": "family integration and cross-border patriarchal stewardship",
+      "opening": "Personality lead opening directly on Solomon Waigwa sealing the cross-border nuptials by bringing Charlene Ruto into his family fold.",
+      "structure": "Personality lead on Waigwa's public welcome -> Adoption background and paternal stewardship -> Cross-border logistics and family delegation from Nairobi -> Kilgoris Koito foundation to Mwanza lakeside exchange -> Ceremony culmination close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-08-isaya-yunges-father-writes-heartfelt-message-to-charlene-ruto"
     }
   ]
 }
