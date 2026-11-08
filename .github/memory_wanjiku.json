@@ -403,7 +403,8 @@
     "7a48fb24aa37fc92ca568d0aa92cbaf24e25e78c733674bc071df90e6ab31366",
     "e2d5e3e2eea2ed1431306244f00875b0044923060629cde5eba2ad5aa84b9805",
     "a89770e39faa3413f11688f4e1bd0153056850aba1795f5a9d9571e738070ab6",
-    "1f0e0bfdfe7abe2d199421b7c135087fb9e9b0a98a5dd5d3259ea4fe29824621"
+    "1f0e0bfdfe7abe2d199421b7c135087fb9e9b0a98a5dd5d3259ea4fe29824621",
+    "9873de35a66577a2a6d08eb31c5c07b80f5d8d68c26ac5ca369a39e472f4843a"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -809,17 +810,10 @@
     "https://www.ghafla.co.ke/kalonzo-muturi-blame-ruto-allies-after-opposition-convoy-attacked-in-migori/",
     "https://www.ghafla.co.ke/mudavadi-tells-western-residents-to-back-ruto-allies-if-they-want-government-jobs-and-development/",
     "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackouts-in-parklands-and-parts-of-nyeri-county/",
-    "https://www.ghafla.co.ke/we-make-no-apologies-rigathi-gachagua-rejects-tribalism-accusations-over-mt-kenya-cultural-gatherings/"
+    "https://www.ghafla.co.ke/we-make-no-apologies-rigathi-gachagua-rejects-tribalism-accusations-over-mt-kenya-cultural-gatherings/",
+    "https://www.ghafla.co.ke/a-mother-figure-and-pillar-of-strength-fred-matiangi-mourns-rigathi-gachaguas-eldest-sister/"
   ],
   "published_angles": [
-    {
-      "title": "Blackout Map: Medical Strips, Tea Hubs, and Lamu Port Hit in 13-County Grid Shutdown",
-      "angle": "Examining the specific operational disruption hitting Kenya's critical medical, academic, and industrial nodes simultaneously\u2014from Mbagathi Way's tertiary corridor to coastal naval bases and Rift Valley tea processors.",
-      "angle_type": "infrastructure impact and institutional consequence",
-      "opening": "Direct focus on the heavy concentration of medical, higher-education, and industrial nerve centres forced offline simultaneously.",
-      "structure": "Institutional impact hook -> Nairobi Mbagathi and health-strip breakdown -> Coastal military and port zones -> Industrial and tea belts in Kericho and Western -> Detailed county coverage schedule",
-      "source": "https://www.ghafla.co.ke/kenya-power-announces-wednesday-blackouts-across-several-counties/"
-    },
     {
       "title": "Diana Marua Seals 10-Year Personal Milestone Ahead of Bahati\u2019s Ksh 1M-per-Ticket November Wedding",
       "angle": "Focusing on the precise calendar positioning\u2014Diana locking in October 20 as their definitive personal decade milestone just two weeks before Bahati\u2019s strictly rationed 100-guest, Ksh 1M-per-ticket wedding on November 6.",
@@ -1611,6 +1605,14 @@
       "opening": "Personality lead opening directly on Rigathi Gachagua pivoting a Kiambu legal-cultural forum into an election monitoring campaign pitch.",
       "structure": "Personality recruitment hook -> Thika gathering context and cross-party attendees -> Defense of regional assemblies -> Specific call to action for legal observers and Gen Z protest context -> Sagana State Lodge pledge close.",
       "source": "https://www.ghafla.co.ke/we-make-no-apologies-rigathi-gachagua-rejects-tribalism-accusations-over-mt-kenya-cultural-gatherings/"
+    },
+    {
+      "title": "Fred Matiang\u2019i Calls Rigathi Gachagua \u2018Brother,\u2019 Validates DCP Title in Sister Mourning Message",
+      "angle": "Examining Matiang'i's deliberate title diplomacy\u2014framing the condolence not just as personal sympathy, but using his Jubilee Party leadership perch to formally recognize Gachagua as 'brother, colleague' and 'DCP Party Leader' across four generations of family bereavement.",
+      "angle_type": "partisan title diplomacy and personal recognition",
+      "opening": "Personality lead opening directly on Fred Matiang\u2019i deploying formal title etiquette and fraternal warmth in his public message to Rigathi Gachagua.",
+      "structure": "Personality protocol hook -> Breakdown of the 'brother and colleague' framing -> Deconstruction of the Jubilee-to-DCP institutional sign-off -> Generational tribute to Eunice Nyangari across four generations -> Concrete close on the family bereavement.",
+      "source": "https://www.ghafla.co.ke/a-mother-figure-and-pillar-of-strength-fred-matiangi-mourns-rigathi-gachaguas-eldest-sister/"
     }
   ],
   "style_history": [
