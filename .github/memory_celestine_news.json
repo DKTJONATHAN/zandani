@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f3f0f356318d05ddf14267f19d999673",
     "4d29e6a348b5e4411978d65e32ae4563",
     "934609f4ee422e27ef82bb079e3d7886",
     "cdb436d1296c5481b10e34252443656a",
@@ -799,10 +798,10 @@
     "cbb1ec621128863a04342ac5fd47dbba",
     "3561498efde50a7d2956f251e34154a6",
     "bbfc24c5144d3b9cd293d07166b0c412",
-    "8f7695e01674ca563d88958ebec28440"
+    "8f7695e01674ca563d88958ebec28440",
+    "539099ec262253b7d409e560d63338c9"
   ],
   "style_history": [
-    "Desk Take",
     "Event Report",
     "Hard News Lead",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Hard News Lead",
     "Event Report",
     "Desk Take",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1656,7 +1656,8 @@
     "https://kenyans.co.ke/news/129220-cs-chirchir-unveils-new-plan-fast-track-rironi-naivasha-highway-works",
     "https://kenyans.co.ke/news/129216-mwarv-reveals-stories-behind-iconic-2017-uhuru-ruto-campaign-photos",
     "https://kenyans.co.ke/news/129219-eu-us-raise-alarm-over-tanzania-after-tundu-lissus-4-year-jail-sentence",
-    "https://kenyans.co.ke/news/129222-ena-coach-warns-passengers-delays-traffic-snarl-hits-nakuru-nairobi-highway"
+    "https://kenyans.co.ke/news/129222-ena-coach-warns-passengers-delays-traffic-snarl-hits-nakuru-nairobi-highway",
+    "https://kenyans.co.ke/news/129221-nandi-mca-apologises-over-remarks-targeting-sifuna-supporters-nandi"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2403,7 +2404,8 @@
     "state bets imported pavers deferred fixtures salvage december rironi highway target",
     "behind lens rhumba sos call salvaged jubilee 2017 campaign portraits",
     "lissu year incitement verdict puts tanzania bilateral ties under direct review",
-    "ena coach alerts western travellers delays mary snarl strands highway traffic"
+    "ena coach alerts western travellers delays mary snarl strands highway traffic",
+    "nandi mca climbs down cross border eviction threat ncic closes"
   ],
   "topic_keys": [
     "news tracker",
@@ -8397,6 +8399,15 @@
       "structure": "Attribution lead -> Verbatim carrier disclosure and passenger impact -> Choke point background and single-carriageway friction -> State dualling timelines and corridor delivery milestones",
       "source": "https://kenyans.co.ke/news/129222-ena-coach-warns-passengers-delays-traffic-snarl-hits-nakuru-nairobi-highway",
       "published_at": "2026-11-08T05:02:16Z"
+    },
+    {
+      "title": "Nandi MCA Climbs Down From Cross-Border Eviction Threat as NCIC Closes In",
+      "angle": "The speed with which inter-county territorial rhetoric\u2014specifically threatening forced relocation across the Nandi-Vihiga border over political affiliation\u2014triggered immediate peer repudiation from local MCAs to preempt legal exposure under NCIC monitors.",
+      "angle_type": "borderland political zoning and peer accountability",
+      "opening": "Hard news lead highlighting the rapid collapse of territorial expulsion rhetoric under local peer pressure and regulatory scrutiny.",
+      "structure": "Borderland rhetoric lead -> Verbatim funeral statement and viral dissemination -> Peer assembly repudiation and constitutional friction -> Official apology and context defence -> NCIC regulatory summons and campaign calendar stakes.",
+      "source": "https://kenyans.co.ke/news/129221-nandi-mca-apologises-over-remarks-targeting-sifuna-supporters-nandi",
+      "published_at": "2026-11-08T06:02:18Z"
     }
   ]
 }
