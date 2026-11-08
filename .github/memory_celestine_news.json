@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "cd0a6579fa5ada8cbd3a0b0ab960ce4d",
     "fed7ab642ed21a846d858234871086b7",
     "876666eae8d191b815fb27af49d94be1",
     "772fd72b0b837d21a20fe786b4d51e3d",
@@ -799,10 +798,10 @@
     "72e2516c8039f4067a92a12dc5010da7",
     "d0effa13fc1d013bec60cc91d890aa44",
     "72f803045c2a7cb7388bc6f1cb74ee4f",
-    "04f2e535d5c124c7063c4f753ad62bc8"
+    "04f2e535d5c124c7063c4f753ad62bc8",
+    "96879ca3ca50c0210654a1d5862fcaaa"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Hard News Lead",
-    "Desk Take"
+    "Desk Take",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1665,7 +1665,8 @@
     "https://kenyans.co.ke/news/129231-marigat-sub-county-level-4-hospital-develops-cracks-months-after-commissioning",
     "https://kenyans.co.ke/news/129232-traffic-disrupted-lorries-burst-flames-along-nairobi-mombasa-highway",
     "https://kenyans.co.ke/news/129234-raila-odinga-stadium-could-host-man-united-vs-arsenal-july-2027-murkomen-claims",
-    "https://kenyans.co.ke/news/129230-ruto-announces-plans-new-four-lane-highway-linking-mau-summit-kisumu"
+    "https://kenyans.co.ke/news/129230-ruto-announces-plans-new-four-lane-highway-linking-mau-summit-kisumu",
+    "https://kenyans.co.ke/news/129235-whatsapp-users-warned-over-files-could-steal-personal-and-banking-details"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2421,7 +2422,8 @@
     "cracks force emergency wing evacuation marigat hospital weeks ksh1b upgrade pledge",
     "kiunduani truck inferno claims mombasa corridor fatality count tops",
     "state plots july 2027 arsenal man united clash final dress rehearsal afcon",
-    "state ties western highway dualling rironi mau summit finish line"
+    "state ties western highway dualling rironi mau summit finish line",
+    "recycled numbers familiar chats whatsapp files breach mobile banking"
   ],
   "topic_keys": [
     "news tracker",
@@ -8496,6 +8498,15 @@
       "structure": "Sequencing lead -> Corridor routing and county alignment -> Dependency on Rironi-Mau Summit completion -> Concurrent PPP timelines (Eldoret-Malaba and Mombasa) -> Gusii tour commitments and institutional milestones",
       "source": "https://kenyans.co.ke/news/129230-ruto-announces-plans-new-four-lane-highway-linking-mau-summit-kisumu",
       "published_at": "2026-11-08T14:16:33Z"
+    },
+    {
+      "title": "Recycled Numbers and Familiar Chats: How New WhatsApp Files Breach Mobile Banking",
+      "angle": "The operational shift in mobile malware delivery from anonymous links to trusted contact lists and recycled phone numbers, directly threatening two-factor authentication and SMS-based financial clearing.",
+      "angle_type": "vector vulnerability and identity-trust exploitation",
+      "opening": "Mechanics-first lead focusing on the weaponisation of saved contact lists and recycled numbers rather than a generic advisory announcement.",
+      "structure": "Contact-trust vector lead -> Infiltration mechanics (APKs, Trojans, spyware) -> Financial credential and OTP interception exposure -> Hardware-level operational indicators -> Market footprint and defence configuration.",
+      "source": "https://kenyans.co.ke/news/129235-whatsapp-users-warned-over-files-could-steal-personal-and-banking-details",
+      "published_at": "2026-11-08T16:02:22Z"
     }
   ]
 }
