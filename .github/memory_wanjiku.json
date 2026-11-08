@@ -404,7 +404,8 @@
     "e2d5e3e2eea2ed1431306244f00875b0044923060629cde5eba2ad5aa84b9805",
     "a89770e39faa3413f11688f4e1bd0153056850aba1795f5a9d9571e738070ab6",
     "1f0e0bfdfe7abe2d199421b7c135087fb9e9b0a98a5dd5d3259ea4fe29824621",
-    "9873de35a66577a2a6d08eb31c5c07b80f5d8d68c26ac5ca369a39e472f4843a"
+    "9873de35a66577a2a6d08eb31c5c07b80f5d8d68c26ac5ca369a39e472f4843a",
+    "8ce6bffae2661ca2d691a673ad06ae53d485df0beca1ba3b50108fece30fe358"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -811,17 +812,10 @@
     "https://www.ghafla.co.ke/mudavadi-tells-western-residents-to-back-ruto-allies-if-they-want-government-jobs-and-development/",
     "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackouts-in-parklands-and-parts-of-nyeri-county/",
     "https://www.ghafla.co.ke/we-make-no-apologies-rigathi-gachagua-rejects-tribalism-accusations-over-mt-kenya-cultural-gatherings/",
-    "https://www.ghafla.co.ke/a-mother-figure-and-pillar-of-strength-fred-matiangi-mourns-rigathi-gachaguas-eldest-sister/"
+    "https://www.ghafla.co.ke/a-mother-figure-and-pillar-of-strength-fred-matiangi-mourns-rigathi-gachaguas-eldest-sister/",
+    "https://www.ghafla.co.ke/do-not-entertain-conmen-president-william-ruto-challenges-opposition-to-show-2027-development-blueprint/"
   ],
   "published_angles": [
-    {
-      "title": "Diana Marua Seals 10-Year Personal Milestone Ahead of Bahati\u2019s Ksh 1M-per-Ticket November Wedding",
-      "angle": "Focusing on the precise calendar positioning\u2014Diana locking in October 20 as their definitive personal decade milestone just two weeks before Bahati\u2019s strictly rationed 100-guest, Ksh 1M-per-ticket wedding on November 6.",
-      "angle_type": "celebrity relationship timeline and milestone positioning",
-      "opening": "Personality lead opening directly on Diana Marua placing the 10-year seal on October 20 as the personal emotional anchor before the November 6 ticketed ceremony.",
-      "structure": "Personality date hook -> Social media anniversary statement breakdown -> Transition to the Ksh 1M November 6 ceremony and guest limits -> Context of decade-long digital exposure -> Final countdown lookahead",
-      "source": "https://www.ghafla.co.ke/diana-marua-celebrates-decade-of-love-with-bahati-ahead-of-ksh1m-per-ticket-november-wedding/"
-    },
     {
       "title": "Three Months After KSh 1.18M Flex, Vindee Kneels on Obinna\u2019s Floor to Beg Ruto and Sonko for Cameras",
       "angle": "The financial and performative contradiction between Vindee's July 2026 KSh 1.18M analytics flex\u2014where he floated opening a streamers' university\u2014and his mid-October posture on Obinna's floor begging the political elite for a camera and a TV bag.",
@@ -1613,6 +1607,14 @@
       "opening": "Personality lead opening directly on Fred Matiang\u2019i deploying formal title etiquette and fraternal warmth in his public message to Rigathi Gachagua.",
       "structure": "Personality protocol hook -> Breakdown of the 'brother and colleague' framing -> Deconstruction of the Jubilee-to-DCP institutional sign-off -> Generational tribute to Eunice Nyangari across four generations -> Concrete close on the family bereavement.",
       "source": "https://www.ghafla.co.ke/a-mother-figure-and-pillar-of-strength-fred-matiangi-mourns-rigathi-gachaguas-eldest-sister/"
+    },
+    {
+      "title": "William Ruto Brands Rivals \u2018Conmen\u2019 in Nyamira, Triggers Instant Simba Arati Pushback on Tarmac",
+      "angle": "The high-voltage podium clash between Ruto's sharp 'conmen' tag on political rivals and Kisii Governor Simba Arati's direct, unvarnished pushback on neglected tarmac roads and tax equity right before the President.",
+      "angle_type": "podium sparring and political personality clash",
+      "opening": "Personality lead opening directly on President William Ruto using the church pulpit to drop the diplomatic filter and label his 2027 rivals 'conmen.'",
+      "structure": "Personality provocation hook -> Podium counter from Simba Arati on tarmac equity -> Breakdown of Ruto's specific jibes on roads, fertiliser, and brokers -> Local parliamentary lineup reactions (Osoro and Jhanda) -> Concrete presence and regional context close.",
+      "source": "https://www.ghafla.co.ke/do-not-entertain-conmen-president-william-ruto-challenges-opposition-to-show-2027-development-blueprint/"
     }
   ],
   "style_history": [
