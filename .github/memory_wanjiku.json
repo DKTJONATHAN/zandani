@@ -402,7 +402,8 @@
     "614d16337629902baa83aa9a3a66197a098bf500c2b3c9c09361a247f1aa2ec3",
     "7a48fb24aa37fc92ca568d0aa92cbaf24e25e78c733674bc071df90e6ab31366",
     "e2d5e3e2eea2ed1431306244f00875b0044923060629cde5eba2ad5aa84b9805",
-    "a89770e39faa3413f11688f4e1bd0153056850aba1795f5a9d9571e738070ab6"
+    "a89770e39faa3413f11688f4e1bd0153056850aba1795f5a9d9571e738070ab6",
+    "1f0e0bfdfe7abe2d199421b7c135087fb9e9b0a98a5dd5d3259ea4fe29824621"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -807,17 +808,10 @@
     "https://www.ghafla.co.ke/nairobi-belongs-to-all-of-us-ps-raymond-omollo-calls-for-unity-and-inclusivity/",
     "https://www.ghafla.co.ke/kalonzo-muturi-blame-ruto-allies-after-opposition-convoy-attacked-in-migori/",
     "https://www.ghafla.co.ke/mudavadi-tells-western-residents-to-back-ruto-allies-if-they-want-government-jobs-and-development/",
-    "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackouts-in-parklands-and-parts-of-nyeri-county/"
+    "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackouts-in-parklands-and-parts-of-nyeri-county/",
+    "https://www.ghafla.co.ke/we-make-no-apologies-rigathi-gachagua-rejects-tribalism-accusations-over-mt-kenya-cultural-gatherings/"
   ],
   "published_angles": [
-    {
-      "title": "Stevo Simple Boy Draws Firm Line Under Relationship After 11-Marker DNA Test Rules Out Paternity",
-      "angle": "Examining Stevo's clinical, camera-documented handling of the consultation\u2014receiving the stark 11-marker forensic exclusion directly from Dr. Ngumba\u2014and his deliberate move to issue a measured, dignified separation statement that shields his recording career from protracted rumor.",
-      "angle_type": "celebrity relationship resolution and clinical disclosure",
-      "opening": "Personality lead opening directly on Stephen Otieno confronting the clinical verdict across a consultation desk before executing a clean personal break.",
-      "structure": "Clinical consultation hook -> The forensic mismatch details -> The formal separation announcement and dignified posture -> The career pivot and boundary request.",
-      "source": "https://www.ghafla.co.ke/stevo-simple-boy-confirms-split-from-partner-after-dna-test-rules-out-paternity/"
-    },
     {
       "title": "Blackout Map: Medical Strips, Tea Hubs, and Lamu Port Hit in 13-County Grid Shutdown",
       "angle": "Examining the specific operational disruption hitting Kenya's critical medical, academic, and industrial nodes simultaneously\u2014from Mbagathi Way's tertiary corridor to coastal naval bases and Rift Valley tea processors.",
@@ -1609,6 +1603,14 @@
       "opening": "Location-focused operational hook detailing the Sunday daytime grid maintenance shutdown.",
       "structure": "Operational maintenance hook -> Nairobi Parklands zone specifics -> Nyeri County (Gatunguru and Mioro) footprint -> Utility operational advice close.",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackouts-in-parklands-and-parts-of-nyeri-county/"
+    },
+    {
+      "title": "Rigathi Gachagua Taps Gen Z Defense Lawyers in Thika Drive for 2027 Election Observers",
+      "angle": "Focusing on Gachagua's calculated pitch to the legal fraternity\u2014leveraging their goodwill from defending Gen Z protesters to recruit them as nationwide volunteer polling station observers for 2027.",
+      "angle_type": "legal recruitment and electoral strategy",
+      "opening": "Personality lead opening directly on Rigathi Gachagua pivoting a Kiambu legal-cultural forum into an election monitoring campaign pitch.",
+      "structure": "Personality recruitment hook -> Thika gathering context and cross-party attendees -> Defense of regional assemblies -> Specific call to action for legal observers and Gen Z protest context -> Sagana State Lodge pledge close.",
+      "source": "https://www.ghafla.co.ke/we-make-no-apologies-rigathi-gachagua-rejects-tribalism-accusations-over-mt-kenya-cultural-gatherings/"
     }
   ],
   "style_history": [
