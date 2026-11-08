@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "9c18c993439eb7e9f802ba9bfb2acedf",
     "706d7603e4178215b0f85bc84162f9e1",
     "0f6ad8a835f004caa0e70a3f93aee2e3",
     "b123c4fa0599728413b79d05f2302e12",
@@ -799,10 +798,10 @@
     "7b96cccdfdbb3e8ee232800ccdd7f25f",
     "30169708f2678221785d9a27e6b76466",
     "1696cbf68d330f40074b87484a4c7671",
-    "3fbec7dfc0aec4970700921753141ac7"
+    "3fbec7dfc0aec4970700921753141ac7",
+    "72e2516c8039f4067a92a12dc5010da7"
   ],
   "style_history": [
-    "Desk Take",
     "Statement Report",
     "Hard News Lead",
     "Event Report",
@@ -831,7 +830,8 @@
     "Event Report",
     "Statement Report",
     "Desk Take",
-    "Hard News Lead"
+    "Hard News Lead",
+    "Event Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1661,7 +1661,8 @@
     "https://kenyans.co.ke/news/129224-explained-how-foreigners-can-legally-acquire-land-and-property-kenya",
     "https://kenyans.co.ke/news/129225-dci-intercepts-suspected-car-theft-syndicate-nanyuki",
     "https://kenyans.co.ke/news/129229-police-recover-454kg-suspected-methamphetamine-worth-ksh36-billion-3-arrested",
-    "https://kenyans.co.ke/news/129226-ca-issues-notice-kenyans-several-companies-seek-tv-radio-licences"
+    "https://kenyans.co.ke/news/129226-ca-issues-notice-kenyans-several-companies-seek-tv-radio-licences",
+    "https://kenyans.co.ke/news/129231-marigat-sub-county-level-4-hospital-develops-cracks-months-after-commissioning"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2413,7 +2414,8 @@
     "setting local firm won bypass year land ceiling foreigners",
     "dci traces nanyuki probox syndicate western transit corridor route uganda",
     "lungalunga border handover unmasked ksh3 meth depot rural kwale",
-    "opens day objection window telecom licences spectrum purge"
+    "opens day objection window telecom licences spectrum purge",
+    "cracks force emergency wing evacuation marigat hospital weeks ksh1b upgrade pledge"
   ],
   "topic_keys": [
     "news tracker",
@@ -8452,6 +8454,15 @@
       "structure": "Regulatory screening lead -> Statutory framework and objection mechanics -> Profile of applicants (KUTV renewal, commercial TV, telecoms infrastructure) -> Context of the 22 revoked stations -> Pointed closing on the 30-day deadline.",
       "source": "https://kenyans.co.ke/news/129226-ca-issues-notice-kenyans-several-companies-seek-tv-radio-licences",
       "published_at": "2026-11-08T11:02:11Z"
+    },
+    {
+      "title": "Cracks Force Emergency Wing Evacuation at Marigat Hospital Weeks After Ksh1B Upgrade Pledge",
+      "angle": "Capital commitment versus structural integrity: The rapid emergence of structural failure at a newly commissioned public hospital complicates a planned Ksh1 billion Level 5 expansion, shifting the immediate operational problem from facility upgrading to baseline structural safety and oversight liability.",
+      "angle_type": "public infrastructure integrity and capital expansion risk",
+      "opening": "Operational-crisis opening focusing on the emergency evacuation inside a newly commissioned facility, contrasting state expansion pledges with structural failure.",
+      "structure": "Evacuation and structural risk lead -> Clinical displacement and administrative measures -> Timeline of commissioning and Ksh1B expansion pledges -> Community accountability demands -> Wider institutional scrutiny backdrop",
+      "source": "https://kenyans.co.ke/news/129231-marigat-sub-county-level-4-hospital-develops-cracks-months-after-commissioning",
+      "published_at": "2026-11-08T12:02:21Z"
     }
   ]
 }
