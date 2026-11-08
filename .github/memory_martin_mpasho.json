@@ -174,7 +174,8 @@
     "4a53c0d6aba6b00950b8b8e981f4f3c44a9259ad4cbca2f1bddb9546e47b3a38",
     "c9bd0d76d19fc1ce9bad8006ba20f02db952218c2ad49bf0ee624c90e46425b5",
     "f818814e4728870ceff64a127370d7d711e529e52bf9e8146d2e9d995f034295",
-    "cb3f330d081a5dbbc849e879f8b5001cafcb4f46e28e1b95924056781d540990"
+    "cb3f330d081a5dbbc849e879f8b5001cafcb4f46e28e1b95924056781d540990",
+    "1a23a473c90e689bbf5a24206521759a68c61cd979add4c8be1e32a32813c054"
   ],
   "style_history": [
     "Event Report",
@@ -569,6 +570,10 @@
     {
       "key": "2026-11-07-oga-obinna-defends-size-8-and-dj-mo-after-kenyans-criticise-their-mansion",
       "ts": "2026-11-07T19:31:44.719407+00:00"
+    },
+    {
+      "key": "2026-11-08-why-charlene-ruto-transported-kenyan-honey-to-tanzania-for-wedding",
+      "ts": "2026-11-08T07:22:33.326693+00:00"
     }
   ],
   "urls": [
@@ -647,7 +652,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-07-silvia-of-the-mziza-family-shocked-after-dealing-with-nairobi-landlords-demands",
     "https://www.mpasho.co.ke/entertainment/2026-11-07-morgan-bahati-speaks-on-online-trolls-thanks-father-bahati-for-standing-by-him",
     "https://www.mpasho.co.ke/entertainment/2026-11-07-mitch-ngojes-husband-explains-why-couples-should-open-joint-accounts-to-save-for-weddings",
-    "https://www.mpasho.co.ke/entertainment/2026-11-07-oga-obinna-defends-size-8-and-dj-mo-after-kenyans-criticise-their-mansion"
+    "https://www.mpasho.co.ke/entertainment/2026-11-07-oga-obinna-defends-size-8-and-dj-mo-after-kenyans-criticise-their-mansion",
+    "https://www.mpasho.co.ke/entertainment/2026-11-08-why-charlene-ruto-transported-kenyan-honey-to-tanzania-for-wedding"
   ],
   "published_angles": [
     {
@@ -1249,6 +1255,14 @@
       "opening": "Personality lead opening directly on Oga Obinna calling out digital entitlement over Size 8 and DJ Mo's custom home.",
       "structure": "Personality hook -> Entitlement quote & 'contract' satire -> Firsthand construction site testimony & KSh 50M figure -> Detail on specific decor critiques -> Concrete close on homeownership autonomy.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-07-oga-obinna-defends-size-8-and-dj-mo-after-kenyans-criticise-their-mansion"
+    },
+    {
+      "title": "Charlene Ruto Blends Kenyan Apiary Harvest with Mwanza Market Supply After Wedding Favours Run Short",
+      "angle": "Framing the gift assembly through cross-border trade synthesis and real-time event supply management\u2014specifically how Charlene combined her personal Kenyan apiary harvest with Tanzanian kangas, and stepped into Mwanza's local market when her stock ran out.",
+      "angle_type": "cross-border cultural synthesis and event supply management",
+      "opening": "Personality lead opening directly on Charlene Ruto executing her cross-border gifting strategy during wedding preparation in Mwanza.",
+      "structure": "Gifting strategy lead -> Apiary transport & dual-country concept -> Mwanza market supply pivot -> Wedding ceremony details & venue -> Milestone timeline close",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-08-why-charlene-ruto-transported-kenyan-honey-to-tanzania-for-wedding"
     }
   ]
 }
