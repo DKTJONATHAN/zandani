@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "934609f4ee422e27ef82bb079e3d7886",
     "cdb436d1296c5481b10e34252443656a",
     "279205e4d1f248f70a075c5958cc0bf5",
     "9c18c993439eb7e9f802ba9bfb2acedf",
@@ -799,10 +798,10 @@
     "bbfc24c5144d3b9cd293d07166b0c412",
     "8f7695e01674ca563d88958ebec28440",
     "539099ec262253b7d409e560d63338c9",
-    "7b96cccdfdbb3e8ee232800ccdd7f25f"
+    "7b96cccdfdbb3e8ee232800ccdd7f25f",
+    "30169708f2678221785d9a27e6b76466"
   ],
   "style_history": [
-    "Hard News Lead",
     "Statement Report",
     "Event Report",
     "Desk Take",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Statement Report",
     "Hard News Lead",
-    "Event Report"
+    "Event Report",
+    "Statement Report"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1658,7 +1658,8 @@
     "https://kenyans.co.ke/news/129219-eu-us-raise-alarm-over-tanzania-after-tundu-lissus-4-year-jail-sentence",
     "https://kenyans.co.ke/news/129222-ena-coach-warns-passengers-delays-traffic-snarl-hits-nakuru-nairobi-highway",
     "https://kenyans.co.ke/news/129221-nandi-mca-apologises-over-remarks-targeting-sifuna-supporters-nandi",
-    "https://kenyans.co.ke/news/129224-explained-how-foreigners-can-legally-acquire-land-and-property-kenya"
+    "https://kenyans.co.ke/news/129224-explained-how-foreigners-can-legally-acquire-land-and-property-kenya",
+    "https://kenyans.co.ke/news/129225-dci-intercepts-suspected-car-theft-syndicate-nanyuki"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2407,7 +2408,8 @@
     "lissu year incitement verdict puts tanzania bilateral ties under direct review",
     "ena coach alerts western travellers delays mary snarl strands highway traffic",
     "nandi mca climbs down cross border eviction threat ncic closes",
-    "setting local firm won bypass year land ceiling foreigners"
+    "setting local firm won bypass year land ceiling foreigners",
+    "dci traces nanyuki probox syndicate western transit corridor route uganda"
   ],
   "topic_keys": [
     "news tracker",
@@ -8419,6 +8421,15 @@
       "structure": "Corporate pass-through barrier -> Article 65 constitutional leasehold conversion mechanics -> Agricultural veto powers under Land Control Boards -> Practical due diligence and remaining lease horizons.",
       "source": "https://kenyans.co.ke/news/129224-explained-how-foreigners-can-legally-acquire-land-and-property-kenya",
       "published_at": "2026-11-08T07:01:21Z"
+    },
+    {
+      "title": "DCI Traces Nanyuki Probox Syndicate to Western Transit Corridor En Route to Uganda",
+      "angle": "The cross-border transit pipeline: how utilitarian commercial vehicles stolen in Mt. Kenya are driven across multiple county boundaries toward the western border before detection, and who benefits when this corridor is disrupted versus the regional syndicates profiting off untracked export markets.",
+      "angle_type": "cross-border supply chain disruption and transit pipeline exposure",
+      "opening": "Attribution-led disclosure framing the interception point in Naiberi against the cross-border pipeline originating in Nanyuki.",
+      "structure": "Attribution lead -> Interception mechanics and four-day transit window -> Beneficiary and black-market dynamics -> Statutory arraignment under Section 278A -> Wider vehicle fraud landscape and pending recoveries.",
+      "source": "https://kenyans.co.ke/news/129225-dci-intercepts-suspected-car-theft-syndicate-nanyuki",
+      "published_at": "2026-11-08T08:02:10Z"
     }
   ]
 }
