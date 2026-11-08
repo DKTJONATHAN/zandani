@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "0f6ad8a835f004caa0e70a3f93aee2e3",
     "b123c4fa0599728413b79d05f2302e12",
     "cd0a6579fa5ada8cbd3a0b0ab960ce4d",
     "fed7ab642ed21a846d858234871086b7",
@@ -799,10 +798,10 @@
     "1696cbf68d330f40074b87484a4c7671",
     "3fbec7dfc0aec4970700921753141ac7",
     "72e2516c8039f4067a92a12dc5010da7",
-    "d0effa13fc1d013bec60cc91d890aa44"
+    "d0effa13fc1d013bec60cc91d890aa44",
+    "72f803045c2a7cb7388bc6f1cb74ee4f"
   ],
   "style_history": [
-    "Hard News Lead",
     "Event Report",
     "Desk Take",
     "Statement Report",
@@ -831,7 +830,8 @@
     "Desk Take",
     "Hard News Lead",
     "Event Report",
-    "Statement Report"
+    "Statement Report",
+    "Hard News Lead"
   ],
   "angle_history": [
     "story_progression|aviation|Hard News Lead",
@@ -1663,7 +1663,8 @@
     "https://kenyans.co.ke/news/129229-police-recover-454kg-suspected-methamphetamine-worth-ksh36-billion-3-arrested",
     "https://kenyans.co.ke/news/129226-ca-issues-notice-kenyans-several-companies-seek-tv-radio-licences",
     "https://kenyans.co.ke/news/129231-marigat-sub-county-level-4-hospital-develops-cracks-months-after-commissioning",
-    "https://kenyans.co.ke/news/129232-traffic-disrupted-lorries-burst-flames-along-nairobi-mombasa-highway"
+    "https://kenyans.co.ke/news/129232-traffic-disrupted-lorries-burst-flames-along-nairobi-mombasa-highway",
+    "https://kenyans.co.ke/news/129234-raila-odinga-stadium-could-host-man-united-vs-arsenal-july-2027-murkomen-claims"
   ],
   "published_slugs": [
     "tyre-sidewall-bulges-causes-blowout-risks",
@@ -2417,7 +2418,8 @@
     "lungalunga border handover unmasked ksh3 meth depot rural kwale",
     "opens day objection window telecom licences spectrum purge",
     "cracks force emergency wing evacuation marigat hospital weeks ksh1b upgrade pledge",
-    "kiunduani truck inferno claims mombasa corridor fatality count tops"
+    "kiunduani truck inferno claims mombasa corridor fatality count tops",
+    "state plots july 2027 arsenal man united clash final dress rehearsal afcon"
   ],
   "topic_keys": [
     "news tracker",
@@ -8474,6 +8476,15 @@
       "structure": "Attribution and incident core -> On-scene emergency response vacuum and traffic gridlock -> Freight corridor fatality streak (40+ deaths) -> Financing and procurement reality of the Ksh300B dualling project",
       "source": "https://kenyans.co.ke/news/129232-traffic-disrupted-lorries-burst-flames-along-nairobi-mombasa-highway",
       "published_at": "2026-11-08T13:01:36Z"
+    },
+    {
+      "title": "State Plots July 2027 Arsenal-Man United Clash as Final Dress Rehearsal for AFCON",
+      "angle": "The state's use of high-profile European football exhibitions as a multi-stage operational testbed and global tourism dry run for the newly constructed 60,000-capacity facility ahead of AFCON 2027.",
+      "angle_type": "mega-event operational staging and pre-tournament stress-testing",
+      "opening": "Strategic calendar opening linking the proposed July 2027 fixture directly to AFCON readiness benchmarks.",
+      "structure": "Pre-tournament staging lead -> Announcement specifics and timing window -> January 2027 Bayern-Ajax operational precursor -> Infrastructure, crowd and commercial parameters -> Outstanding logistical and contractual hurdles",
+      "source": "https://kenyans.co.ke/news/129234-raila-odinga-stadium-could-host-man-united-vs-arsenal-july-2027-murkomen-claims",
+      "published_at": "2026-11-08T14:02:02Z"
     }
   ]
 }
