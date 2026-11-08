@@ -405,7 +405,8 @@
     "a89770e39faa3413f11688f4e1bd0153056850aba1795f5a9d9571e738070ab6",
     "1f0e0bfdfe7abe2d199421b7c135087fb9e9b0a98a5dd5d3259ea4fe29824621",
     "9873de35a66577a2a6d08eb31c5c07b80f5d8d68c26ac5ca369a39e472f4843a",
-    "8ce6bffae2661ca2d691a673ad06ae53d485df0beca1ba3b50108fece30fe358"
+    "8ce6bffae2661ca2d691a673ad06ae53d485df0beca1ba3b50108fece30fe358",
+    "5bf817197e80b5698eab1facd4e678e31cc2df736b2811d7bf87684b9887a863"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -813,17 +814,10 @@
     "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackouts-in-parklands-and-parts-of-nyeri-county/",
     "https://www.ghafla.co.ke/we-make-no-apologies-rigathi-gachagua-rejects-tribalism-accusations-over-mt-kenya-cultural-gatherings/",
     "https://www.ghafla.co.ke/a-mother-figure-and-pillar-of-strength-fred-matiangi-mourns-rigathi-gachaguas-eldest-sister/",
-    "https://www.ghafla.co.ke/do-not-entertain-conmen-president-william-ruto-challenges-opposition-to-show-2027-development-blueprint/"
+    "https://www.ghafla.co.ke/do-not-entertain-conmen-president-william-ruto-challenges-opposition-to-show-2027-development-blueprint/",
+    "https://www.ghafla.co.ke/wetangula-urges-luhya-community-to-wait-until-2032-for-its-turn-to-produce-president/"
   ],
   "published_angles": [
-    {
-      "title": "Three Months After KSh 1.18M Flex, Vindee Kneels on Obinna\u2019s Floor to Beg Ruto and Sonko for Cameras",
-      "angle": "The financial and performative contradiction between Vindee's July 2026 KSh 1.18M analytics flex\u2014where he floated opening a streamers' university\u2014and his mid-October posture on Obinna's floor begging the political elite for a camera and a TV bag.",
-      "angle_type": "celebrity financial contradiction and political patronage theater",
-      "opening": "Personality lead opening directly on Vindee dropping to his knees on Obinna TV Studios floor, juxtaposing the gesture against his July million-shilling payout boast.",
-      "structure": "Kneeling studio hook -> The direct quote to Ruto and the six-politician roll call -> The July KSh 1.18M earnings backstory and university proposal -> Production overheads reality vs creator clout -> Social media fallout and political boundaries.",
-      "source": "https://www.ghafla.co.ke/vindee-kneels-during-interview-begs-ruto-gachagua-and-sonko-for-streaming-equipment/"
-    },
     {
       "title": "Rigathi Gachagua Turns Wamunyoro Tea Into a Roast Over Ruto\u2019s Buffalo Milk Pitch",
       "angle": "Framing the Wamunyoro gathering through Gachagua's theatrical hospitality routine\u2014specifically weaponizing nearby Hombe Forest wildlife as a satirical hosting prop to roast the President's summit policy.",
@@ -1615,6 +1609,14 @@
       "opening": "Personality lead opening directly on President William Ruto using the church pulpit to drop the diplomatic filter and label his 2027 rivals 'conmen.'",
       "structure": "Personality provocation hook -> Podium counter from Simba Arati on tarmac equity -> Breakdown of Ruto's specific jibes on roads, fertiliser, and brokers -> Local parliamentary lineup reactions (Osoro and Jhanda) -> Concrete presence and regional context close.",
       "source": "https://www.ghafla.co.ke/do-not-entertain-conmen-president-william-ruto-challenges-opposition-to-show-2027-development-blueprint/"
+    },
+    {
+      "title": "Moses Wetang\u2019ula Deploys \u2018Doctor\u2019s Queue\u2019 Metaphor in Bungoma to Check Edwin Sifuna\u2019s 2027 Wave",
+      "angle": "Framing Wetang\u2019ula's podium appeal through his colorful rhetorical defense mechanism\u2014deploying a hospital waiting-room metaphor and ancestral lineage ('shenyu ni shenyu') to check the rising popularity of Edwin Sifuna and the Linda Mwananchi youth movement.",
+      "angle_type": "podium rhetoric and generational political rivalry",
+      "opening": "Personality lead opening directly on Moses Wetang\u2019ula reaching into clinical and native idioms at a Bungoma podium to protect his status against younger rivals.",
+      "structure": "Personality idiom hook -> Deconstruction of the doctor's queue metaphor -> Lineage appeal (Muliro, Wamalwa, 'shenyu ni shenyu') -> Breakdown of the Linda Mwananchi challenge (Sifuna, Natembeya, Osotsi, Wamboka) -> Succession timeline reality close.",
+      "source": "https://www.ghafla.co.ke/wetangula-urges-luhya-community-to-wait-until-2032-for-its-turn-to-produce-president/"
     }
   ],
   "style_history": [
