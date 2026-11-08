@@ -177,7 +177,8 @@
     "cb3f330d081a5dbbc849e879f8b5001cafcb4f46e28e1b95924056781d540990",
     "1a23a473c90e689bbf5a24206521759a68c61cd979add4c8be1e32a32813c054",
     "0fc3526d57330aa0512d5310b93c36356e0e263cf3091b08f46a314cf1934cac",
-    "8c61ae1a83b21f0e6f2fc1d94be3ac15e5680d3cf93c0fed6e59a029a611df4a"
+    "8c61ae1a83b21f0e6f2fc1d94be3ac15e5680d3cf93c0fed6e59a029a611df4a",
+    "12b2a3981ada4788ea0c350afd0636c03e14643420db3c0cd2b49c10ad12a2e3"
   ],
   "style_history": [
     "Event Report",
@@ -584,6 +585,10 @@
     {
       "key": "2026-11-08-isaya-yunges-father-writes-heartfelt-message-to-charlene-ruto",
       "ts": "2026-11-08T11:25:06.339122+00:00"
+    },
+    {
+      "key": "2026-11-08-blueface-wipes-groin-and-throws-towel-to-fans-mid-performance-video",
+      "ts": "2026-11-08T13:23:19.781996+00:00"
     }
   ],
   "urls": [
@@ -665,7 +670,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-07-oga-obinna-defends-size-8-and-dj-mo-after-kenyans-criticise-their-mansion",
     "https://www.mpasho.co.ke/entertainment/2026-11-08-why-charlene-ruto-transported-kenyan-honey-to-tanzania-for-wedding",
     "https://www.mpasho.co.ke/entertainment/2026-11-08-why-sandra-mbuvi-can-never-date-or-marry-a-man-who-chews-jaba",
-    "https://www.mpasho.co.ke/entertainment/2026-11-08-isaya-yunges-father-writes-heartfelt-message-to-charlene-ruto"
+    "https://www.mpasho.co.ke/entertainment/2026-11-08-isaya-yunges-father-writes-heartfelt-message-to-charlene-ruto",
+    "https://www.mpasho.co.ke/entertainment/2026-11-08-blueface-wipes-groin-and-throws-towel-to-fans-mid-performance-video"
   ],
   "published_angles": [
     {
@@ -1291,6 +1297,14 @@
       "opening": "Personality lead opening directly on Solomon Waigwa sealing the cross-border nuptials by bringing Charlene Ruto into his family fold.",
       "structure": "Personality lead on Waigwa's public welcome -> Adoption background and paternal stewardship -> Cross-border logistics and family delegation from Nairobi -> Kilgoris Koito foundation to Mwanza lakeside exchange -> Ceremony culmination close.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-08-isaya-yunges-father-writes-heartfelt-message-to-charlene-ruto"
+    },
+    {
+      "title": "Blueface Towel Toss Sparks Scrutiny Over Artist Provocation and Fan Boundaries",
+      "angle": "Reframing the incident around stage decorum limits and fan boundary dynamics, examining how the public backlash shifted scrutiny from the artist's shock tactics to the eager reception by venue attendees.",
+      "angle_type": "fan dynamics and stage decorum scrutiny",
+      "opening": "Personality lead centered on Blueface executing a controversial towel toss during a club performance under venue lighting.",
+      "structure": "Personality hook -> Venue stage breakdown -> Fan interaction details -> Public commentary on audience boundaries -> Broader debate on stage decorum close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-08-blueface-wipes-groin-and-throws-towel-to-fans-mid-performance-video"
     }
   ]
 }
