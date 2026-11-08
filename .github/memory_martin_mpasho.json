@@ -180,7 +180,8 @@
     "8c61ae1a83b21f0e6f2fc1d94be3ac15e5680d3cf93c0fed6e59a029a611df4a",
     "12b2a3981ada4788ea0c350afd0636c03e14643420db3c0cd2b49c10ad12a2e3",
     "aa5d8a743f5f6616881a53de8778705d285154cc2ce2877f465e9c146188bbbd",
-    "cf298125cf951be226737163d85b96414e1c45fc7be1369307b43bb3dfb0cb32"
+    "cf298125cf951be226737163d85b96414e1c45fc7be1369307b43bb3dfb0cb32",
+    "d88e877768452ceb4e5623715b334b3f05f7ebc47c995556abadac52ec672141"
   ],
   "style_history": [
     "Event Report",
@@ -599,6 +600,10 @@
     {
       "key": "2026-11-08-george-rutos-hilarious-reaction-to-sister-charlene-rutos-wedding",
       "ts": "2026-11-08T17:23:18.119223+00:00"
+    },
+    {
+      "key": "2026-11-08-raburus-key-takeaways-after-attending-biens-album-watch-party",
+      "ts": "2026-11-08T19:27:11.185703+00:00"
     }
   ],
   "urls": [
@@ -683,7 +688,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-08-isaya-yunges-father-writes-heartfelt-message-to-charlene-ruto",
     "https://www.mpasho.co.ke/entertainment/2026-11-08-blueface-wipes-groin-and-throws-towel-to-fans-mid-performance-video",
     "https://www.mpasho.co.ke/entertainment/2026-11-08-konshens-confirms-december-18-concert-at-sarit-expo-centre",
-    "https://www.mpasho.co.ke/entertainment/2026-11-08-george-rutos-hilarious-reaction-to-sister-charlene-rutos-wedding"
+    "https://www.mpasho.co.ke/entertainment/2026-11-08-george-rutos-hilarious-reaction-to-sister-charlene-rutos-wedding",
+    "https://www.mpasho.co.ke/entertainment/2026-11-08-raburus-key-takeaways-after-attending-biens-album-watch-party"
   ],
   "published_angles": [
     {
@@ -1333,6 +1339,14 @@
       "opening": "Open directly on George Ruto puncturing the solemn ceremony of the Mwanza nuptials with his livestock-and-deal bride price declaration.",
       "structure": "Personality lead on George's caption -> The contrasting solemnity of the Mwanza setting and Ruto's aisle walk -> Visual breakdown of George and Isaya embracing in reception wear -> Chronological callback to the August Kilgoris Koito -> Digital public reaction and brotherly role close.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-08-george-rutos-hilarious-reaction-to-sister-charlene-rutos-wedding"
+    },
+    {
+      "title": "Willis Raburu Details Phone-Free Lockdown at Bien\u2019s \u2018Alusa Continua\u2019 Private Preview",
+      "angle": "Focusing on the strict digital blackout strategy enforced at the private watch party\u2014requiring guests to surrender all devices at the door\u2014and how that enforced isolation amplified Raburu's visceral reaction to Bien's ambitious cross-continental tracklist.",
+      "angle_type": "event access protocol and listening experience scrutiny",
+      "opening": "Personality lead opening directly on Willis Raburu recounting the gadget-free isolation of Bien's private listening party before delivering his verdict.",
+      "structure": "Raburu's phone-surrender hook -> Emotional reaction and event setup -> Creative staging and Chiki Kuruka's team -> Tracklist breakdown and international collaborations -> November 20 release timeline and career trajectory context.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-08-raburus-key-takeaways-after-attending-biens-album-watch-party"
     }
   ]
 }
