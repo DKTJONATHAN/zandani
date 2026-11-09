@@ -415,7 +415,8 @@
     "bea14978d2d59dcb7f94439c177472b52d7199f09de8fdcfa910d5c7bab12599",
     "db44211ad6cd11c4632053ab1f7ca22a9389482fece8fc5e82838554530ea8c4",
     "f47395d8a7cae122b05338569e4099eff0719a67f3f0c57ac6e18abdf229617b",
-    "1f4b21793f423041fc1bcd0779f956ec573f73f359a9324f80359d9eacef9a34"
+    "1f4b21793f423041fc1bcd0779f956ec573f73f359a9324f80359d9eacef9a34",
+    "32c39913ddf27aa4ceb01f607acd2d6b884f62e83b87953003d75fa33ba55e6b"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -833,17 +834,10 @@
     "https://www.ghafla.co.ke/pastor-kanyari-offers-female-congregant-ksh5000-after-criticising-her-church-outfit/",
     "https://www.ghafla.co.ke/sonko-set-to-hand-over-shanzu-nightclub-to-gen-z-entrepreneur-brian-mungai-in-ksh160-million-deal-2/",
     "https://www.ghafla.co.ke/kamukunji-grounds-gets-a-major-makeover-inside-nairobis-new-recreation-park/",
-    "https://www.ghafla.co.ke/democracy-landmark-redefined-historic-kamukunji-grounds-transformation-95-complete-ahead-of-presidential-unveiling/"
+    "https://www.ghafla.co.ke/democracy-landmark-redefined-historic-kamukunji-grounds-transformation-95-complete-ahead-of-presidential-unveiling/",
+    "https://www.ghafla.co.ke/video-of-women-handling-suspected-human-bones-at-langata-cemetery-sparks-reactions/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018Tuko Same WhatsApp Group\u2019: Geoffrey Mosiria Roasts His Own City Hall Sacking Before Unveiling 2027 Slogans",
-      "angle": "Focusing on the comical administrative awkwardness of Mosiria's post-firing reality\u2014specifically being marooned in the executive WhatsApp group alongside the very leadership that fired him, likening the humiliation to Manchester United, before instantly flipping the digital humiliation into rhyming campaign theater.",
-      "angle_type": "celebrity fallout and social media theatrics",
-      "opening": "Personality lead opening directly on Geoffrey Mosiria airing the unique modern sting of being ousted from power while still stuck inside the bosses' WhatsApp group.",
-      "structure": "WhatsApp group punchline -> The Manchester United comparison -> The transition into rhyming slogans -> The official Waikenda dismissal letter and portfolio handover -> The Ksh 1.2B to Ksh 100M health budget backstory -> Close on the unsevered chat link and looming 2027 showdown.",
-      "source": "https://www.ghafla.co.ke/geoffrey-mosiria-laments-city-hall-dismissal-and-officially-accepts-call-to-challenge-sakaja-in-2027-nairobi-gubernatorial-race/"
-    },
     {
       "title": "\u2018Kazi ya Kweli\u2019: Ronald Karauri Offers Sacked Mosiria 2027 City Hall Job While Roasting Sakaja Over Purge",
       "angle": "Framing the moment around Karauri's audacious recruitment flex\u2014using Mosiria's firing to publicly test-run his 2027 gubernatorial shadow cabinet while cutting into City Hall's internal friction by alleging Mosiria spent three years parked in an office without real work.",
@@ -1635,6 +1629,14 @@
       "opening": "Personality lead opening directly on President William Ruto preparing to commission the 95 percent complete facility.",
       "structure": "Presidential hook -> Youth sports infrastructure breakdown -> Climate engineering and retaining wall integration -> Heritage balance and empowerment hub -> Final readiness close.",
       "source": "https://www.ghafla.co.ke/democracy-landmark-redefined-historic-kamukunji-grounds-transformation-95-complete-ahead-of-presidential-unveiling/"
+    },
+    {
+      "title": "Anatomy at the Graveyard: Creator Turns Lang\u2019ata Cemetery Bone Discovery into Viral \u2018Biology Lesson\u2019",
+      "angle": "Focusing on the creator's deadpan anatomical walkthrough framing of the exposed remains, contrasting her structured 'biology practical' narrative style with the underlying civic reality of surface-exposed remains at Nairobi's primary public graveyard.",
+      "angle_type": "creator walkthrough and cemetery grounds exposure",
+      "opening": "Personality lead opening directly on the woman behind the camera broadcasting an impromptu skeletal inventory at Lang'ata Cemetery.",
+      "structure": "Creator hook -> Monologue & bone inventory breakdown -> Online 'biology practical' banter & startup jokes -> Context on exposed remains & municipal cemetery realities.",
+      "source": "https://www.ghafla.co.ke/video-of-women-handling-suspected-human-bones-at-langata-cemetery-sparks-reactions/"
     }
   ],
   "style_history": [
