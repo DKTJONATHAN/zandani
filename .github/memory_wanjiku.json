@@ -414,7 +414,8 @@
     "7276a81adcfcb4a9818b8948df842d8be4ad6624cacaa2357f285c140bd60ec5",
     "bea14978d2d59dcb7f94439c177472b52d7199f09de8fdcfa910d5c7bab12599",
     "db44211ad6cd11c4632053ab1f7ca22a9389482fece8fc5e82838554530ea8c4",
-    "f47395d8a7cae122b05338569e4099eff0719a67f3f0c57ac6e18abdf229617b"
+    "f47395d8a7cae122b05338569e4099eff0719a67f3f0c57ac6e18abdf229617b",
+    "1f4b21793f423041fc1bcd0779f956ec573f73f359a9324f80359d9eacef9a34"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -831,17 +832,10 @@
     "https://www.ghafla.co.ke/konshens-confirms-nairobi-concert-after-leaving-kenyan-fans-guessing-over-east-africa-tour/",
     "https://www.ghafla.co.ke/pastor-kanyari-offers-female-congregant-ksh5000-after-criticising-her-church-outfit/",
     "https://www.ghafla.co.ke/sonko-set-to-hand-over-shanzu-nightclub-to-gen-z-entrepreneur-brian-mungai-in-ksh160-million-deal-2/",
-    "https://www.ghafla.co.ke/kamukunji-grounds-gets-a-major-makeover-inside-nairobis-new-recreation-park/"
+    "https://www.ghafla.co.ke/kamukunji-grounds-gets-a-major-makeover-inside-nairobis-new-recreation-park/",
+    "https://www.ghafla.co.ke/democracy-landmark-redefined-historic-kamukunji-grounds-transformation-95-complete-ahead-of-presidential-unveiling/"
   ],
   "published_angles": [
-    {
-      "title": "Dr. Patrick Amoth Demands End to Stigma as Kenya Prepares First Quarantine Release",
-      "angle": "Centering on Dr. Patrick Amoth's proactive anti-stigma appeal to communities, framing the upcoming October 25 release of the first quarantine cohort as a crucial social test backed by tight containment metrics.",
-      "angle_type": "public figure advocacy and stigma counter-narrative",
-      "opening": "Personality lead focusing directly on Dr. Patrick Amoth stepping forward to preempt public panic and social ostracism.",
-      "structure": "Personality hook on Amoth's anti-stigma appeal -> The upcoming October 25 discharge details -> The containment mechanics behind Case Nine -> Clinical progress of the eight surviving patients -> Surveillance tracking and laboratory ring-fencing -> Closing forward look on the community reintegration test.",
-      "source": "https://www.ghafla.co.ke/kenya-confirms-ninth-ebola-case-as-health-ministry-reports-first-quarantine-discharges/"
-    },
     {
       "title": "\u2018Tuko Same WhatsApp Group\u2019: Geoffrey Mosiria Roasts His Own City Hall Sacking Before Unveiling 2027 Slogans",
       "angle": "Focusing on the comical administrative awkwardness of Mosiria's post-firing reality\u2014specifically being marooned in the executive WhatsApp group alongside the very leadership that fired him, likening the humiliation to Manchester United, before instantly flipping the digital humiliation into rhyming campaign theater.",
@@ -1633,6 +1627,14 @@
       "opening": "Personality lead opening on President William Ruto preparing to commission the new park facilities, contrasting its political history with built-in music studios and performance stages.",
       "structure": "Presidential opening hook -> Creative and performance facility breakdown (studio, amphitheatre, boxing ring) -> Athletic and tech details -> Historical Saba Saba context and national heritage retention -> River regeneration context and concrete opening readiness close.",
       "source": "https://www.ghafla.co.ke/kamukunji-grounds-gets-a-major-makeover-inside-nairobis-new-recreation-park/"
+    },
+    {
+      "title": "William Ruto Set to Unveil 7.27-Acre Kamukunji Park with Eastlands Boxing Ring and Twin Football Pitches",
+      "angle": "Focusing specifically on President Ruto's upcoming launch of the 7.27-acre site through its new youth sports infrastructure\u2014including a boxing ring, twin football pitches, and basketball courts\u2014integrated alongside heavy flood protection retaining walls built under the Nairobi Rivers Regeneration push.",
+      "angle_type": "youth sports infrastructure and Eastlands urban makeover",
+      "opening": "Personality lead opening directly on President William Ruto preparing to commission the 95 percent complete facility.",
+      "structure": "Presidential hook -> Youth sports infrastructure breakdown -> Climate engineering and retaining wall integration -> Heritage balance and empowerment hub -> Final readiness close.",
+      "source": "https://www.ghafla.co.ke/democracy-landmark-redefined-historic-kamukunji-grounds-transformation-95-complete-ahead-of-presidential-unveiling/"
     }
   ],
   "style_history": [
