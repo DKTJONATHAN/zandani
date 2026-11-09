@@ -413,7 +413,8 @@
     "3a007bff9da5a1389f107138b4dd0d3c444ce8037a46c98c3d4955cd6721fd65",
     "7276a81adcfcb4a9818b8948df842d8be4ad6624cacaa2357f285c140bd60ec5",
     "bea14978d2d59dcb7f94439c177472b52d7199f09de8fdcfa910d5c7bab12599",
-    "db44211ad6cd11c4632053ab1f7ca22a9389482fece8fc5e82838554530ea8c4"
+    "db44211ad6cd11c4632053ab1f7ca22a9389482fece8fc5e82838554530ea8c4",
+    "f47395d8a7cae122b05338569e4099eff0719a67f3f0c57ac6e18abdf229617b"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -829,17 +830,10 @@
     "https://www.ghafla.co.ke/charlene-ruto-gets-emotional-as-she-admits-praying-for-a-husband-for-years-after-her-wedding/",
     "https://www.ghafla.co.ke/konshens-confirms-nairobi-concert-after-leaving-kenyan-fans-guessing-over-east-africa-tour/",
     "https://www.ghafla.co.ke/pastor-kanyari-offers-female-congregant-ksh5000-after-criticising-her-church-outfit/",
-    "https://www.ghafla.co.ke/sonko-set-to-hand-over-shanzu-nightclub-to-gen-z-entrepreneur-brian-mungai-in-ksh160-million-deal-2/"
+    "https://www.ghafla.co.ke/sonko-set-to-hand-over-shanzu-nightclub-to-gen-z-entrepreneur-brian-mungai-in-ksh160-million-deal-2/",
+    "https://www.ghafla.co.ke/kamukunji-grounds-gets-a-major-makeover-inside-nairobis-new-recreation-park/"
   ],
   "published_angles": [
-    {
-      "title": "Paul Nthenge Mackenzie Faces November 6 Sentencing After High Court Shatters 'Voluntary Fasting' Defense in 191-Count Murder Conviction",
-      "angle": "Focusing on Paul Nthenge Mackenzie as a public cult leader whose primary courtroom defense\u2014claiming his followers underwent 'voluntary' fasting\u2014was systematically dismantled by the High Court, establishing direct legal culpability for 190 child homicides ahead of his November 6 sentencing.",
-      "angle_type": "personality accountability and judicial rejection of defense strategy",
-      "opening": "Personality lead opening directly on Paul Nthenge Mackenzie facing the judicial collapse of his religious shield.",
-      "structure": "Preacher verdict hook -> Dismantling of 'voluntary fasting' defense -> Operational details of enforced radicalisation -> Scope of 190 child deaths and 400+ exhumations context -> November 6 sentencing close.",
-      "source": "https://www.ghafla.co.ke/mackenzie-28-co-accused-found-guilty-of-murdering-191-shakahola-victims/"
-    },
     {
       "title": "Dr. Patrick Amoth Demands End to Stigma as Kenya Prepares First Quarantine Release",
       "angle": "Centering on Dr. Patrick Amoth's proactive anti-stigma appeal to communities, framing the upcoming October 25 release of the first quarantine cohort as a crucial social test backed by tight containment metrics.",
@@ -1631,6 +1625,14 @@
       "opening": "Personality lead opening directly on George Ruto breaking family formality on social media with a blunt dowry settlement sign-off.",
       "structure": "Personality hook -> Caption breakdown and customary Koito context -> Mwanza visual reception and wardrobe details -> Public banter and sibling dynamic close.",
       "source": "https://www.ghafla.co.ke/sonko-set-to-hand-over-shanzu-nightclub-to-gen-z-entrepreneur-brian-mungai-in-ksh160-million-deal-2/"
+    },
+    {
+      "title": "President Ruto to Launch Revamped Kamukunji Grounds Featuring Recording Studio and Amphitheatre",
+      "angle": "Focusing on the creative infrastructure and youth cultural pivot\u2014highlighting how the historic political rally ground is being re-engineered with sound recording studios, a performance amphitheatre, and a boxing ring ahead of President Ruto's launch.",
+      "angle_type": "creative infrastructure and cultural site makeover",
+      "opening": "Personality lead opening on President William Ruto preparing to commission the new park facilities, contrasting its political history with built-in music studios and performance stages.",
+      "structure": "Presidential opening hook -> Creative and performance facility breakdown (studio, amphitheatre, boxing ring) -> Athletic and tech details -> Historical Saba Saba context and national heritage retention -> River regeneration context and concrete opening readiness close.",
+      "source": "https://www.ghafla.co.ke/kamukunji-grounds-gets-a-major-makeover-inside-nairobis-new-recreation-park/"
     }
   ],
   "style_history": [
