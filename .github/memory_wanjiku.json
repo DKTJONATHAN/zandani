@@ -407,7 +407,8 @@
     "9873de35a66577a2a6d08eb31c5c07b80f5d8d68c26ac5ca369a39e472f4843a",
     "8ce6bffae2661ca2d691a673ad06ae53d485df0beca1ba3b50108fece30fe358",
     "5bf817197e80b5698eab1facd4e678e31cc2df736b2811d7bf87684b9887a863",
-    "652ef08ef30ffd211009f998fac81d8a32952b0af9ef1f4632f329c14e4b6982"
+    "652ef08ef30ffd211009f998fac81d8a32952b0af9ef1f4632f329c14e4b6982",
+    "f9a49c6e1113c83a4d7b1c4f536593c1608a1b176712c4a56b0f4edff7b2e84e"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -817,17 +818,10 @@
     "https://www.ghafla.co.ke/a-mother-figure-and-pillar-of-strength-fred-matiangi-mourns-rigathi-gachaguas-eldest-sister/",
     "https://www.ghafla.co.ke/do-not-entertain-conmen-president-william-ruto-challenges-opposition-to-show-2027-development-blueprint/",
     "https://www.ghafla.co.ke/wetangula-urges-luhya-community-to-wait-until-2032-for-its-turn-to-produce-president/",
-    "https://www.ghafla.co.ke/wiper-leaders-issue-ultimatum-to-opposition-back-kalonzo-or-face-him-at-ballot/"
+    "https://www.ghafla.co.ke/wiper-leaders-issue-ultimatum-to-opposition-back-kalonzo-or-face-him-at-ballot/",
+    "https://www.ghafla.co.ke/i-made-my-first-millionat-24-esther-passaris-shares-career-advice-faith-lessons-for-youth/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018We Feel Despised\u2019: Brown Ashira Marches to Afya House With Two Hard Demands to End 92-Day Strike",
-      "angle": "Focusing directly on union leader Brown Ashira's high-stakes ultimatum and public confrontation at Afya House, centering his core claim of official neglect against the backdrop of active Ebola surveillance and El Ni\u00f1o health risks.",
-      "angle_type": "labor leadership confrontation and public accountability",
-      "opening": "Personality lead opening directly on Brown Ashira taking the microphone outside Afya House after marching through the CBD.",
-      "structure": "Confrontation hook at Afya House -> Ashira's direct quotes on feeling despised -> Monetary preconditions (interns and risk allowances) -> Policy critique on preventive vs curative healthcare -> Health crisis backdrop -> Unresolved labor stance.",
-      "source": "https://www.ghafla.co.ke/public-health-officers-paralyze-nairobi-cbd-as-92-day-strike-escalates-over-pay-recognition/"
-    },
     {
       "title": "Prince Indah Deploys Mashujaa Day Tribute to Sidestep Weeks of Marriage Rumours",
       "angle": "Focusing on the strategic timing of the public address\u2014using a national holiday dedicated to historical figures to reframe a domestic gossip cycle rather than issuing a direct press statement denying the rumors.",
@@ -1619,6 +1613,14 @@
       "opening": "Personality lead opening directly on Kalonzo Musyoka's legal stature being deployed to reprimand Edwin Sifuna's lively street base.",
       "structure": "Seniority hook -> Mombasa briefing scene and Sheikh Twaha's courtroom pecking-order lecture -> Linda Mwananchi rally embarrassment and Sifuna defense -> Chamia on Ruto non-alignment -> One-month coalition clock close.",
       "source": "https://www.ghafla.co.ke/wiper-leaders-issue-ultimatum-to-opposition-back-kalonzo-or-face-him-at-ballot/"
+    },
+    {
+      "title": "Esther Passaris Recalls Making Sh1 Million at 24, Rejects Politics as a Cash Cow While Driving 2017 Car",
+      "angle": "Framing the discussion around the contrast between Passaris' aggressive corporate sales earnings in her 20s and her self-imposed personal austerity in elective office, highlighted by her driving a 2017 car and warning youth off political cash grabs.",
+      "angle_type": "personal finance, lifestyle, and political ethics",
+      "opening": "Personality lead opening directly on Passaris contrasting her early commercial success with her personal financial restraint in public office.",
+      "structure": "Personality hook -> Corporate sales start and KSh 1M milestone -> Sales ethics quotes -> 2017 vehicle reveal & political warning -> 62-year-old wellness routines -> Concrete closing context",
+      "source": "https://www.ghafla.co.ke/i-made-my-first-millionat-24-esther-passaris-shares-career-advice-faith-lessons-for-youth/"
     }
   ],
   "style_history": [
