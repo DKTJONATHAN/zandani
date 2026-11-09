@@ -408,7 +408,8 @@
     "8ce6bffae2661ca2d691a673ad06ae53d485df0beca1ba3b50108fece30fe358",
     "5bf817197e80b5698eab1facd4e678e31cc2df736b2811d7bf87684b9887a863",
     "652ef08ef30ffd211009f998fac81d8a32952b0af9ef1f4632f329c14e4b6982",
-    "f9a49c6e1113c83a4d7b1c4f536593c1608a1b176712c4a56b0f4edff7b2e84e"
+    "f9a49c6e1113c83a4d7b1c4f536593c1608a1b176712c4a56b0f4edff7b2e84e",
+    "b701f32d2d637ac50f9bff9f865b34fb841ae78774cadfe0643e7df32f0d04bc"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -819,17 +820,10 @@
     "https://www.ghafla.co.ke/do-not-entertain-conmen-president-william-ruto-challenges-opposition-to-show-2027-development-blueprint/",
     "https://www.ghafla.co.ke/wetangula-urges-luhya-community-to-wait-until-2032-for-its-turn-to-produce-president/",
     "https://www.ghafla.co.ke/wiper-leaders-issue-ultimatum-to-opposition-back-kalonzo-or-face-him-at-ballot/",
-    "https://www.ghafla.co.ke/i-made-my-first-millionat-24-esther-passaris-shares-career-advice-faith-lessons-for-youth/"
+    "https://www.ghafla.co.ke/i-made-my-first-millionat-24-esther-passaris-shares-career-advice-faith-lessons-for-youth/",
+    "https://www.ghafla.co.ke/i-was-20-and-single-bahati-recounts-adopting-son-morgan-from-mathare-15-years-ago/"
   ],
   "published_angles": [
-    {
-      "title": "Prince Indah Deploys Mashujaa Day Tribute to Sidestep Weeks of Marriage Rumours",
-      "angle": "Focusing on the strategic timing of the public address\u2014using a national holiday dedicated to historical figures to reframe a domestic gossip cycle rather than issuing a direct press statement denying the rumors.",
-      "angle_type": "celebrity communication strategy and domestic boundary setting",
-      "opening": "Personality lead opening directly on the singer's tactical use of Mashujaa Day to pivot the narrative around his household.",
-      "structure": "Personality hook -> The weeks of unaddressed blogger speculation -> Breakdown of the Instagram tribute and Winnie's sparkling maroon velvet styling -> Context of Mashujaa Day national celebrations in Eldoret versus personal loyalty -> Close on the unaddressed rumors vs. public relationship framing.",
-      "source": "https://www.ghafla.co.ke/prince-indah-breaks-silence-on-marriage-rumours-with-emotional-tribute-to-wife/"
-    },
     {
       "title": "\u2018Let Me Make Today About Myself\u2019: Nick Kwach Marks 16-Year Creative Hustle With State Lodge Hero Medal",
       "angle": "Examining Kwach's self-deprecating framing ('Let me make today about myself') after a 16-year multi-hyphenate career across theatre, comedy, and production, highlighting how formal state honors validate long-term behind-the-scenes hustle in Kenya's creative sector.",
@@ -1621,6 +1615,14 @@
       "opening": "Personality lead opening directly on Passaris contrasting her early commercial success with her personal financial restraint in public office.",
       "structure": "Personality hook -> Corporate sales start and KSh 1M milestone -> Sales ethics quotes -> 2017 vehicle reveal & political warning -> 62-year-old wellness routines -> Concrete closing context",
       "source": "https://www.ghafla.co.ke/i-made-my-first-millionat-24-esther-passaris-shares-career-advice-faith-lessons-for-youth/"
+    },
+    {
+      "title": "Bahati Traces Full-Circle Journey from ABC Children\u2019s Home to Enrolling Son Morgan at Lenana School",
+      "angle": "Focus on the full-circle institutional rescue chain: how Bahati's own roots at ABC Children's Home directly shaped his decision to adopt Morgan from the same Mathare facility, culminating in Morgan's progression to Lenana School.",
+      "angle_type": "full-circle institutional journey and personal growth",
+      "opening": "Personality lead focusing on the institutional arc connecting Bahati's childhood shelter to his son's academic milestone at Lenana School.",
+      "structure": "Personality hook -> Mathare and ABC Children's Home shelter background -> Early parenthood domestic struggles -> Academic transformation at Lenana School close.",
+      "source": "https://www.ghafla.co.ke/i-was-20-and-single-bahati-recounts-adopting-son-morgan-from-mathare-15-years-ago/"
     }
   ],
   "style_history": [
