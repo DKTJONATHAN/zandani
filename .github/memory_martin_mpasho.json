@@ -182,7 +182,8 @@
     "aa5d8a743f5f6616881a53de8778705d285154cc2ce2877f465e9c146188bbbd",
     "cf298125cf951be226737163d85b96414e1c45fc7be1369307b43bb3dfb0cb32",
     "d88e877768452ceb4e5623715b334b3f05f7ebc47c995556abadac52ec672141",
-    "27e18ae5564428befa35d55d862f16ff9b461b6bff381e717c39ec7fd53f2942"
+    "27e18ae5564428befa35d55d862f16ff9b461b6bff381e717c39ec7fd53f2942",
+    "e4f5ac697ac0aa927f17dd109cec27d64ffc44cb4eb3beba565247e8aaa2e18b"
   ],
   "style_history": [
     "Event Report",
@@ -609,6 +610,10 @@
     {
       "key": "2026-11-08-georgina-njenga-breaks-down-in-tears-ahead-of-hospital-discharge",
       "ts": "2026-11-08T21:25:41.004691+00:00"
+    },
+    {
+      "key": "2026-11-09-natalie-tewa-displays-growing-baby-bump-weeks-after-nigerian-wedding",
+      "ts": "2026-11-09T07:23:13.932515+00:00"
     }
   ],
   "urls": [
@@ -695,7 +700,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-08-konshens-confirms-december-18-concert-at-sarit-expo-centre",
     "https://www.mpasho.co.ke/entertainment/2026-11-08-george-rutos-hilarious-reaction-to-sister-charlene-rutos-wedding",
     "https://www.mpasho.co.ke/entertainment/2026-11-08-raburus-key-takeaways-after-attending-biens-album-watch-party",
-    "https://www.mpasho.co.ke/entertainment/2026-11-08-georgina-njenga-breaks-down-in-tears-ahead-of-hospital-discharge"
+    "https://www.mpasho.co.ke/entertainment/2026-11-08-georgina-njenga-breaks-down-in-tears-ahead-of-hospital-discharge",
+    "https://www.mpasho.co.ke/entertainment/2026-11-09-natalie-tewa-displays-growing-baby-bump-weeks-after-nigerian-wedding"
   ],
   "published_angles": [
     {
@@ -1361,6 +1367,14 @@
       "opening": "Personality lead opening directly on Georgina Njenga confirming her medical clearance for Monday or Tuesday, cutting short her planned three-month inpatient stay.",
       "structure": "Personality hook with discharge timeline -> Verified 40-day vs 90-day math and admission origin -> The Day 15 institutional struggle contrast -> Eric Omondi and Sisi Kwa Sisi intervention role -> Creator re-entry and brand endorsement prospect close",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-08-georgina-njenga-breaks-down-in-tears-ahead-of-hospital-discharge"
+    },
+    {
+      "title": "Natalie Tewa Salvaged Nigerian Wedding Dress Emergency Before Unveiling 2026 Baby Bump",
+      "angle": "Examining how Natalie Tewa executed a high-stakes 24-hour fashion rescue from Nigeria to save her traditional wedding, anchoring a sequence of major 2026 milestones that concluded with her pregnancy reveal.",
+      "angle_type": "cross-border event logistics and lifestyle milestone sequencing",
+      "opening": "Personality lead focusing directly on Natalie Tewa navigating a last-minute cross-continental gown emergency before delivering her year-end pregnancy update.",
+      "structure": "Emergency fashion rescue hook -> 24-hour Nigerian gown flight details -> Two-day Kumenya Mucii cultural merger -> Mother-brokered relationship history & sunset proposal -> Year-end pregnancy update close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-09-natalie-tewa-displays-growing-baby-bump-weeks-after-nigerian-wedding"
     }
   ]
 }
