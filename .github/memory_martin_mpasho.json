@@ -188,7 +188,8 @@
     "a80743ee3a7e8640369e0fbadb6450cbae93e565a8d6214a0871547d2e3ac572",
     "798be71668e9e64d930fdbb00ea0ebc28a8e739d8bb9c0316c0816bc386eff57",
     "3e0fdfe8d75766f2c1d8e98b2c9d90a33c7db9c130fbeee7728e865758087b72",
-    "f9555628d4a8563d39fc4d875876cc102fb59b70e53cafe51d568167d166cd35"
+    "f9555628d4a8563d39fc4d875876cc102fb59b70e53cafe51d568167d166cd35",
+    "fee916833f99d2de5869555a89db9bf29653733ea795dc03abaa5e8c26d9ad0a"
   ],
   "style_history": [
     "Event Report",
@@ -639,6 +640,10 @@
     {
       "key": "2026-11-09-nigerian-team-retains-simon-kuseyo-polo-tournament-title-as-tusker-malt-elevates-the-experience",
       "ts": "2026-11-09T19:24:11.487508+00:00"
+    },
+    {
+      "key": "2026-11-09-ken-heman-opens-up-after-losing-2-daughters-in-gachie-fire",
+      "ts": "2026-11-09T21:24:52.578395+00:00"
     }
   ],
   "urls": [
@@ -731,7 +736,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-09-what-kenyan-artists-are-saying-about-biens-alusa-continua-album",
     "https://www.mpasho.co.ke/entertainment/2026-11-09-pastor-nganga-reacts-scathingly-to-mackenzies-200-year-jail-term",
     "https://www.mpasho.co.ke/entertainment/2026-11-09-nandy-unveils-new-house-as-advance-birthday-gift-to-herself",
-    "https://www.mpasho.co.ke/entertainment/2026-11-09-nigerian-team-retains-simon-kuseyo-polo-tournament-title-as-tusker-malt-elevates-the-experience"
+    "https://www.mpasho.co.ke/entertainment/2026-11-09-nigerian-team-retains-simon-kuseyo-polo-tournament-title-as-tusker-malt-elevates-the-experience",
+    "https://www.mpasho.co.ke/entertainment/2026-11-09-ken-heman-opens-up-after-losing-2-daughters-in-gachie-fire"
   ],
   "published_angles": [
     {
@@ -1445,6 +1451,14 @@
       "opening": "Personality lead opening directly on Naomi Kiema reviewing the weekend convergence of sport and Nairobi fashion at Jamhuri Park.",
       "structure": "Personality hook -> Nigerian title retention mechanics -> Pitch-side lifestyle and fashion atmosphere -> Simon Kuseyo pioneer legacy -> Brand alignment and social scene continuity",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-09-nigerian-team-retains-simon-kuseyo-polo-tournament-title-as-tusker-malt-elevates-the-experience"
+    },
+    {
+      "title": "Ken Heman Anchors Rebuilt Household Around Surviving Daughter Malaika After Gachie Fire Tragedy",
+      "angle": "Reframing Ken Heman's public reflection around the painful re-anchoring of his family structure\u2014specifically how the creator is navigating life as a solitary pair alongside his surviving daughter Malaika after the tragedy permanently altered their four-person household.",
+      "angle_type": "familial restructuring and private grief resilience",
+      "opening": "Personality lead opening directly on Ken Heman defining the stark arithmetic of his shrunken household before detailing how surviving daughter Malaika keeps his daily reality intact.",
+      "structure": "Personality hook on family arithmetic -> Verbatim reflection and emotional void -> Malaika's grounding role in the adjusted household -> Background on the Gachie apartment fire -> Community response and lasting absence close.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-09-ken-heman-opens-up-after-losing-2-daughters-in-gachie-fire"
     }
   ]
 }
