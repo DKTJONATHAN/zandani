@@ -185,7 +185,8 @@
     "27e18ae5564428befa35d55d862f16ff9b461b6bff381e717c39ec7fd53f2942",
     "e4f5ac697ac0aa927f17dd109cec27d64ffc44cb4eb3beba565247e8aaa2e18b",
     "0e68297d2a1f43272620ec6282f19fa13b046f6a50e6c9f05389ccd277394eae",
-    "a80743ee3a7e8640369e0fbadb6450cbae93e565a8d6214a0871547d2e3ac572"
+    "a80743ee3a7e8640369e0fbadb6450cbae93e565a8d6214a0871547d2e3ac572",
+    "798be71668e9e64d930fdbb00ea0ebc28a8e739d8bb9c0316c0816bc386eff57"
   ],
   "style_history": [
     "Event Report",
@@ -624,6 +625,10 @@
     {
       "key": "2026-11-09-what-kenyan-artists-are-saying-about-biens-alusa-continua-album",
       "ts": "2026-11-09T13:34:16.697240+00:00"
+    },
+    {
+      "key": "2026-11-09-pastor-nganga-reacts-scathingly-to-mackenzies-200-year-jail-term",
+      "ts": "2026-11-09T15:27:55.191038+00:00"
     }
   ],
   "urls": [
@@ -713,7 +718,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-08-georgina-njenga-breaks-down-in-tears-ahead-of-hospital-discharge",
     "https://www.mpasho.co.ke/entertainment/2026-11-09-natalie-tewa-displays-growing-baby-bump-weeks-after-nigerian-wedding",
     "https://www.mpasho.co.ke/entertainment/2026-11-09-you-will-not-walk-this-journey-alone-sonko-tells-ken-heman",
-    "https://www.mpasho.co.ke/entertainment/2026-11-09-what-kenyan-artists-are-saying-about-biens-alusa-continua-album"
+    "https://www.mpasho.co.ke/entertainment/2026-11-09-what-kenyan-artists-are-saying-about-biens-alusa-continua-album",
+    "https://www.mpasho.co.ke/entertainment/2026-11-09-pastor-nganga-reacts-scathingly-to-mackenzies-200-year-jail-term"
   ],
   "published_angles": [
     {
@@ -1403,6 +1409,14 @@
       "opening": "Personality lead opening directly on veteran pop artist Nameless dissecting Bien-Aim\u00e9 Baraza's relentless preparation before delivering his verdict on 'Alusa Continua'.",
       "structure": "Personality lead on Nameless -> Wahu's breakdown of Bien's research obsession -> 17-track scope and international feature mechanics -> Collaborator insights from Bensoul and Charisma -> Sauti Sol fraternity endorsement from Savara Mudigi.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-09-what-kenyan-artists-are-saying-about-biens-alusa-continua-album"
+    },
+    {
+      "title": "Pastor Ng'ang'a Demands Death Penalty for Mackenzie, Blasts Pulpit Deception After 200-Year Sentence",
+      "angle": "Framing Ng'ang'a's reaction as a deliberate line drawn between pulpit theatrics and lethal manipulation, focusing on his critique of soft legal penalties for religious exploitation and his nonchalant defense of his own ministry.",
+      "angle_type": "pulpit accountability and religious manipulation critique",
+      "opening": "Personality lead opening directly on Pastor James Ng'ang'a rejecting the 200-year sentence handed to Paul Mackenzie.",
+      "structure": "Personality lead -> Verbatim pulpit breakdown & execution stance -> Callout on false prophets & personal legal nonchalance -> Shakahola sentencing math & court specifics -> Familial contrast close",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-09-pastor-nganga-reacts-scathingly-to-mackenzies-200-year-jail-term"
     }
   ]
 }
