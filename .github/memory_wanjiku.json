@@ -419,7 +419,8 @@
     "32c39913ddf27aa4ceb01f607acd2d6b884f62e83b87953003d75fa33ba55e6b",
     "f4e0069baac080416026ca592b30d3a73dd2fb11ce23358c588cf0a1f875d2f5",
     "72622c14c40e685d76601dc3f101782eb45295c8a3522dbce730d8354e9ece55",
-    "ae14ac4b923b96b1c4ffce999c508250cc62a779f720af9294bc94e98ef897a5"
+    "ae14ac4b923b96b1c4ffce999c508250cc62a779f720af9294bc94e98ef897a5",
+    "fa84ac52f8665b462be0c954906ba241b3ede854bcff8574b07040711efde8d7"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -841,17 +842,10 @@
     "https://www.ghafla.co.ke/video-of-women-handling-suspected-human-bones-at-langata-cemetery-sparks-reactions/",
     "https://www.ghafla.co.ke/government-promotes-circular-farming-to-boost-food-security-and-create-jobs/",
     "https://www.ghafla.co.ke/why-ronald-karauri-chose-uda-instead-of-running-as-an-independent-candidate-for-nairobi-governor/",
-    "https://www.ghafla.co.ke/bahati-reveals-diana-marua-has-walked-out-of-matrimonial-home-several-times/"
+    "https://www.ghafla.co.ke/bahati-reveals-diana-marua-has-walked-out-of-matrimonial-home-several-times/",
+    "https://www.ghafla.co.ke/pastor-james-nganga-reacts-to-mackenzies-200-year-jail-sentence-calls-for-harsher-punishment/"
   ],
   "published_angles": [
-    {
-      "title": "Babu Owino Challenges Geoffrey Mosiria to Produce \u2018Secret Wife\u2019 in Public",
-      "angle": "Focusing on Babu Owino's unusual demand for public proof and his framing of single-parent upbringing as the anchor for his personal integrity.",
-      "angle_type": "public figure accountability and domestic challenge",
-      "opening": "Personality lead focusing directly on Babu Owino turning the tables on Geoffrey Mosiria with a public challenge.",
-      "structure": "Challenge hook -> Frida Muthoni Ongili context -> Single mother upbringing flashback -> Fatherhood responsibility stance.",
-      "source": "https://www.ghafla.co.ke/frida-knows-me-babu-owino-dismisses-mosirias-allegations-of-secret-wife/"
-    },
     {
       "title": "\u2018Don\u2019t Let the Heat Fool You\u2019: Kenya Met Department Holds Firm on El Ni\u00f1o Forecast as Dry Spell Sparks Public Skepticism",
       "angle": "Reframing the forecast as an institutional stand by state forecasters holding firm to a 99 percent probability calculation against mounting public skepticism during a scorching heatwave.",
@@ -1643,6 +1637,14 @@
       "opening": "Personality lead opening directly on Bahati's zero-overnight-stay rule when marital disputes spill over into packed bags.",
       "structure": "Personality hook -> Obinna interview disclosure & 2026 incident -> The same-day pursuit rule and direct quotes -> Thesis on conflict as honesty -> 10th anniversary context -> Intentional reconciliation close.",
       "source": "https://www.ghafla.co.ke/bahati-reveals-diana-marua-has-walked-out-of-matrimonial-home-several-times/"
+    },
+    {
+      "title": "Pastor Ng\u2019ang\u2019a Rejects Mackenzie\u2019s 200-Year Term, Demands Death Sentence for \u2018Agent of Satan\u2019",
+      "angle": "Framing Ng'ang'a's reaction around his sharp critique of cult hypocrisies\u2014demanding the gallows for leaders who starve followers while staying fed\u2014alongside his own boast of age-based immunity to legal threats.",
+      "angle_type": "pulpit critique and celebrity posture",
+      "opening": "Personality lead opening directly on Pastor James Ng'ang'a rejecting the court's 200-year sentence in favor of execution.",
+      "structure": "Personality hook -> Gallows demand & hypocrisy critique -> False prophet warning & age immunity boast -> High Court sentencing facts -> Family appeal & son's rebellion close",
+      "source": "https://www.ghafla.co.ke/pastor-james-nganga-reacts-to-mackenzies-200-year-jail-sentence-calls-for-harsher-punishment/"
     }
   ],
   "style_history": [
