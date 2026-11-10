@@ -192,7 +192,8 @@
     "fee916833f99d2de5869555a89db9bf29653733ea795dc03abaa5e8c26d9ad0a",
     "41a43e2c80fb53512f1c4b9392be2920ab1498fa388488c20970099b9ce0100d",
     "1917eacf65523fef647931028921113a724b3ffa8bfa6ba315a4ef90ebf9b26f",
-    "da7536dfc1333bad5aedb9ba1c3e65cbd71357d45defc87cbce45c9d693cb77b"
+    "da7536dfc1333bad5aedb9ba1c3e65cbd71357d45defc87cbce45c9d693cb77b",
+    "f2fd514cd279579872fd10753df1155522b32b593db1905d6406f49982061c5b"
   ],
   "style_history": [
     "Event Report",
@@ -659,6 +660,10 @@
     {
       "key": "2026-11-10-why-musician-bahati-moved-son-morgan-to-village-boarding-school",
       "ts": "2026-11-10T07:39:09.655684+00:00"
+    },
+    {
+      "key": "2026-11-10-sandra-dacha-breaks-silence-40-days-after-75-stomach-removal",
+      "ts": "2026-11-10T09:28:18.344054+00:00"
     }
   ],
   "urls": [
@@ -755,7 +760,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-09-ken-heman-opens-up-after-losing-2-daughters-in-gachie-fire",
     "https://www.mpasho.co.ke/entertainment/2026-11-09-natalie-githinji-hospitalized-again-as-endometriosis-persists",
     "https://www.mpasho.co.ke/entertainment/2026-11-10-charlene-ruto-updates-instagram-bio-after-wedding-to-isaya-yunge",
-    "https://www.mpasho.co.ke/entertainment/2026-11-10-why-musician-bahati-moved-son-morgan-to-village-boarding-school"
+    "https://www.mpasho.co.ke/entertainment/2026-11-10-why-musician-bahati-moved-son-morgan-to-village-boarding-school",
+    "https://www.mpasho.co.ke/entertainment/2026-11-10-sandra-dacha-breaks-silence-40-days-after-75-stomach-removal"
   ],
   "published_angles": [
     {
@@ -1501,6 +1507,14 @@
       "opening": "Personality lead opening directly on Bahati confronting the failure of half-a-million-shilling schooling when his son began issuing formal household boundary notices.",
       "structure": "Personality hook on the boundary letter and elite school bubble -> Two-year soft parenting impasse and KES 500K fee reality -> The Makueni consultation with Governor Mutula -> The interview panic and rural boarding shock -> Academic rebound and Lenana School prefect appointment.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-10-why-musician-bahati-moved-son-morgan-to-village-boarding-school"
+    },
+    {
+      "title": "Sandra Dacha Crosses 40-Day Gastric Sleeve Milestone After 52-Kilo Lifestyle Reset",
+      "angle": "Framing Dacha's surgical procedure as the second phase of a deliberate two-stage health strategy, highlighting how her initial 52-kilogram weight loss through lifestyle changes preceded the medical decision to undergo Vertical Sleeve Gastrectomy.",
+      "angle_type": "lifestyle and surgical transition mechanics",
+      "opening": "Personality lead opening directly on Sandra Dacha evaluating her physical recovery 40 days after surgical intervention, contextualized by her earlier lifestyle weight loss.",
+      "structure": "40-day recovery milestone hook -> Pre-surgery lifestyle reduction (152kg to 100kg) -> Surgical decision & Sept 30 theatre video reflection -> Medical mechanics of VSG (75% removal, ghrelin reduction) -> Long-term wellness outlook.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-10-sandra-dacha-breaks-silence-40-days-after-75-stomach-removal"
     }
   ]
 }
