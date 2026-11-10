@@ -420,7 +420,8 @@
     "f4e0069baac080416026ca592b30d3a73dd2fb11ce23358c588cf0a1f875d2f5",
     "72622c14c40e685d76601dc3f101782eb45295c8a3522dbce730d8354e9ece55",
     "ae14ac4b923b96b1c4ffce999c508250cc62a779f720af9294bc94e98ef897a5",
-    "fa84ac52f8665b462be0c954906ba241b3ede854bcff8574b07040711efde8d7"
+    "fa84ac52f8665b462be0c954906ba241b3ede854bcff8574b07040711efde8d7",
+    "c459862cc4378fb785ef29b1a288591ea77434bfc61552043caa5bc6cd5a6755"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -843,17 +844,10 @@
     "https://www.ghafla.co.ke/government-promotes-circular-farming-to-boost-food-security-and-create-jobs/",
     "https://www.ghafla.co.ke/why-ronald-karauri-chose-uda-instead-of-running-as-an-independent-candidate-for-nairobi-governor/",
     "https://www.ghafla.co.ke/bahati-reveals-diana-marua-has-walked-out-of-matrimonial-home-several-times/",
-    "https://www.ghafla.co.ke/pastor-james-nganga-reacts-to-mackenzies-200-year-jail-sentence-calls-for-harsher-punishment/"
+    "https://www.ghafla.co.ke/pastor-james-nganga-reacts-to-mackenzies-200-year-jail-sentence-calls-for-harsher-punishment/",
+    "https://www.ghafla.co.ke/bishop-erick-mwangi-warns-tash-over-betty-bayos-children-urges-him-to-hand-them-to-kanyari/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018Don\u2019t Let the Heat Fool You\u2019: Kenya Met Department Holds Firm on El Ni\u00f1o Forecast as Dry Spell Sparks Public Skepticism",
-      "angle": "Reframing the forecast as an institutional stand by state forecasters holding firm to a 99 percent probability calculation against mounting public skepticism during a scorching heatwave.",
-      "angle_type": "institutional credibility and public forecast tension",
-      "opening": "Personality-institutional lead opening directly on weather forecasters standing their ground despite public doubts over the dry spell.",
-      "structure": "Forecaster stance hook -> 99% probability and seasonal extension -> Regional onset map -> Indian Ocean Dipole explanation -> Health advisory context -> Regional wrap close.",
-      "source": "https://www.ghafla.co.ke/kenya-met-department-maintains-el-nino-forecast-despite-prolonged-dry-spell/"
-    },
     {
       "title": "Kanyari Reaches for 2023 WhatsApp Receipts to Fight Off Custody Backlash Over Sky",
       "angle": "Focusing on Kanyari's tactical deployment of a three-year-old digital receipt from October 2023 as his primary defense against a bitter contemporary custody conflict triggered by his daughter's direct appeal to State House.",
@@ -1645,6 +1639,14 @@
       "opening": "Personality lead opening directly on Pastor James Ng'ang'a rejecting the court's 200-year sentence in favor of execution.",
       "structure": "Personality hook -> Gallows demand & hypocrisy critique -> False prophet warning & age immunity boast -> High Court sentencing facts -> Family appeal & son's rebellion close",
       "source": "https://www.ghafla.co.ke/pastor-james-nganga-reacts-to-mackenzies-200-year-jail-sentence-calls-for-harsher-punishment/"
+    },
+    {
+      "title": "Bishop Erick Mwangi Demands Immediate Child Handover to Kanyari, Challenging Court\u2019s Transition Plan",
+      "angle": "Contrasting the preacher's demand for an immediate hand-over against the active legal reality established by Dagoretti Law Courts, which explicitly ordered the children to stay with Tash while a Kiambu Children Officer drafts a transition plan.",
+      "angle_type": "legal vs pulpit conflict",
+      "opening": "Personality lead opening directly on Bishop Erick Mwangi bringing spiritual pressure onto Tash over Betty Bayo's children.",
+      "structure": "Personality lead hook -> Prophetic sermon quotes breakdown -> Contrast with Magistrate Obiero's Oct 26 court order -> Transition mechanics and children's testimony -> Current legal baseline close.",
+      "source": "https://www.ghafla.co.ke/bishop-erick-mwangi-warns-tash-over-betty-bayos-children-urges-him-to-hand-them-to-kanyari/"
     }
   ],
   "style_history": [
