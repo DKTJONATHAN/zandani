@@ -421,7 +421,8 @@
     "72622c14c40e685d76601dc3f101782eb45295c8a3522dbce730d8354e9ece55",
     "ae14ac4b923b96b1c4ffce999c508250cc62a779f720af9294bc94e98ef897a5",
     "fa84ac52f8665b462be0c954906ba241b3ede854bcff8574b07040711efde8d7",
-    "c459862cc4378fb785ef29b1a288591ea77434bfc61552043caa5bc6cd5a6755"
+    "c459862cc4378fb785ef29b1a288591ea77434bfc61552043caa5bc6cd5a6755",
+    "a5ec3d394ee098bcfade04318262f14183b3ab013617dd341906061132f8e314"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -845,17 +846,10 @@
     "https://www.ghafla.co.ke/why-ronald-karauri-chose-uda-instead-of-running-as-an-independent-candidate-for-nairobi-governor/",
     "https://www.ghafla.co.ke/bahati-reveals-diana-marua-has-walked-out-of-matrimonial-home-several-times/",
     "https://www.ghafla.co.ke/pastor-james-nganga-reacts-to-mackenzies-200-year-jail-sentence-calls-for-harsher-punishment/",
-    "https://www.ghafla.co.ke/bishop-erick-mwangi-warns-tash-over-betty-bayos-children-urges-him-to-hand-them-to-kanyari/"
+    "https://www.ghafla.co.ke/bishop-erick-mwangi-warns-tash-over-betty-bayos-children-urges-him-to-hand-them-to-kanyari/",
+    "https://www.ghafla.co.ke/kathy-kiuna-flaunts-luxury-private-jet-she-used-to-attend-charlene-rutos-wedding-in-tanzania/"
   ],
   "published_angles": [
-    {
-      "title": "Kanyari Reaches for 2023 WhatsApp Receipts to Fight Off Custody Backlash Over Sky",
-      "angle": "Focusing on Kanyari's tactical deployment of a three-year-old digital receipt from October 2023 as his primary defense against a bitter contemporary custody conflict triggered by his daughter's direct appeal to State House.",
-      "angle_type": "celebrity domestic receipts and legal custody friction",
-      "opening": "Personality lead opening directly on Kanyari reaching into his chat archives from October 2023 to push back against public criticism over his fatherhood role.",
-      "structure": "Personality receipt hook -> Anatomy of the leaked WhatsApp messages -> The KSh 500,000 claim and digital proof pattern -> Custody ruling and Sky's plea to President Ruto -> Context of Betty Bayo's death and family dynamics.",
-      "source": "https://www.ghafla.co.ke/pastor-kanyari-leaks-private-whatsapp-chats-with-daughter-sky-to-prove-financial-support/"
-    },
     {
       "title": "\u2018Spare Us Your Advice\u2019: Oburu Oginga Draws a Hard Line Against Outsiders Meddling in ODM-UDA Talks",
       "angle": "Focusing on Oburu's sharp public dismissal of external meddling and media commentary regarding the secret nature of the coalition pact, framing it as a strict boundary-setting exercise while he recovers from illness.",
@@ -1647,6 +1641,14 @@
       "opening": "Personality lead opening directly on Bishop Erick Mwangi bringing spiritual pressure onto Tash over Betty Bayo's children.",
       "structure": "Personality lead hook -> Prophetic sermon quotes breakdown -> Contrast with Magistrate Obiero's Oct 26 court order -> Transition mechanics and children's testimony -> Current legal baseline close.",
       "source": "https://www.ghafla.co.ke/bishop-erick-mwangi-warns-tash-over-betty-bayos-children-urges-him-to-hand-them-to-kanyari/"
+    },
+    {
+      "title": "Kathy Kiuna Attributes Private Jet Flight to Charlene Ruto\u2019s Mwanza Nuptials to Divine \u2018Favour\u2019",
+      "angle": "Framing Kathy Kiuna's private aviation updates around her theological assertion of divine favour while detailing the high-profile clergy entourage that made the Mwanza trip.",
+      "angle_type": "lifestyle and spiritual delegation narrative",
+      "opening": "Personality lead opening directly on Kathy Kiuna boarding a private jet to Mwanza and framing the luxury cabin as an assertion of divine favour.",
+      "structure": "Personality hook -> Aircraft & in-flight cabin specs -> Theological caption breakdown -> Delegation context (Julian Kyula & Vanessa Kiuna) -> Mwanza wedding event background and final context.",
+      "source": "https://www.ghafla.co.ke/kathy-kiuna-flaunts-luxury-private-jet-she-used-to-attend-charlene-rutos-wedding-in-tanzania/"
     }
   ],
   "style_history": [
