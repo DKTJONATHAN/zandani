@@ -416,7 +416,8 @@
     "db44211ad6cd11c4632053ab1f7ca22a9389482fece8fc5e82838554530ea8c4",
     "f47395d8a7cae122b05338569e4099eff0719a67f3f0c57ac6e18abdf229617b",
     "1f4b21793f423041fc1bcd0779f956ec573f73f359a9324f80359d9eacef9a34",
-    "32c39913ddf27aa4ceb01f607acd2d6b884f62e83b87953003d75fa33ba55e6b"
+    "32c39913ddf27aa4ceb01f607acd2d6b884f62e83b87953003d75fa33ba55e6b",
+    "f4e0069baac080416026ca592b30d3a73dd2fb11ce23358c588cf0a1f875d2f5"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -835,17 +836,10 @@
     "https://www.ghafla.co.ke/sonko-set-to-hand-over-shanzu-nightclub-to-gen-z-entrepreneur-brian-mungai-in-ksh160-million-deal-2/",
     "https://www.ghafla.co.ke/kamukunji-grounds-gets-a-major-makeover-inside-nairobis-new-recreation-park/",
     "https://www.ghafla.co.ke/democracy-landmark-redefined-historic-kamukunji-grounds-transformation-95-complete-ahead-of-presidential-unveiling/",
-    "https://www.ghafla.co.ke/video-of-women-handling-suspected-human-bones-at-langata-cemetery-sparks-reactions/"
+    "https://www.ghafla.co.ke/video-of-women-handling-suspected-human-bones-at-langata-cemetery-sparks-reactions/",
+    "https://www.ghafla.co.ke/government-promotes-circular-farming-to-boost-food-security-and-create-jobs/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018Kazi ya Kweli\u2019: Ronald Karauri Offers Sacked Mosiria 2027 City Hall Job While Roasting Sakaja Over Purge",
-      "angle": "Framing the moment around Karauri's audacious recruitment flex\u2014using Mosiria's firing to publicly test-run his 2027 gubernatorial shadow cabinet while cutting into City Hall's internal friction by alleging Mosiria spent three years parked in an office without real work.",
-      "angle_type": "celebrity political patronage and workplace shade",
-      "opening": "Personality lead opening directly on Ronald Karauri stepping into the City Hall drama with an advance job offer and a punchline.",
-      "structure": "Patronage hook -> Karauri's punchline and hyena proverb breakdown -> Allegation of Mosiria's 2023 sidelining and 2027 offer -> Institutional administrative context under notice NCC/CS/003/2026 -> Zipporah Mwangi's dual caretaker role.",
-      "source": "https://www.ghafla.co.ke/sportpesa-ceo-ronald-karauri-promises-job-to-dismissed-chief-officer-geoffrey-mosiria/"
-    },
     {
       "title": "Sandra Dacha Smiles in Inter Milan Jersey as Kenya Fans Association Checks In",
       "angle": "The intersection of club-fan solidarity culture and the physical realities of high-profile personalities managing public health transformations under the digital spotlight.",
@@ -1637,6 +1631,14 @@
       "opening": "Personality lead opening directly on the woman behind the camera broadcasting an impromptu skeletal inventory at Lang'ata Cemetery.",
       "structure": "Creator hook -> Monologue & bone inventory breakdown -> Online 'biology practical' banter & startup jokes -> Context on exposed remains & municipal cemetery realities.",
       "source": "https://www.ghafla.co.ke/video-of-women-handling-suspected-human-bones-at-langata-cemetery-sparks-reactions/"
+    },
+    {
+      "title": "Busia Backyard Innovators Turn Poultry Waste and Fish Ponds into Zero-Cost Farming Loop",
+      "angle": "The practical, hands-on micro-economics and zero-waste mechanics being applied by small-scale women farmers in Busia rather than a blanket institutional policy summary.",
+      "angle_type": "practical micro-economics and small-scale farming innovation",
+      "opening": "Personality and place-based hook introducing Miriam Ojakol and Rebecca Odalo's practical backyard setup in Busia County.",
+      "structure": "Farmer profile hook -> The zero-waste biological mechanics (manure to fish ponds, nutrient water to vegetables) -> Institutional backing (LBDA, Wezesha programme numbers, and Kisumu egg production) -> Concrete logistical close on feed production and market access.",
+      "source": "https://www.ghafla.co.ke/government-promotes-circular-farming-to-boost-food-security-and-create-jobs/"
     }
   ],
   "style_history": [
