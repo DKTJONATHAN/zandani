@@ -424,7 +424,8 @@
     "c459862cc4378fb785ef29b1a288591ea77434bfc61552043caa5bc6cd5a6755",
     "a5ec3d394ee098bcfade04318262f14183b3ab013617dd341906061132f8e314",
     "844544ac6caedcc12da9897cdf9bbd466cd8b71892313b0b66852f4184fbf012",
-    "67d3af49289b96ede3994ddd8094523bb6c430890d3f7848025d7d8f7c392082"
+    "67d3af49289b96ede3994ddd8094523bb6c430890d3f7848025d7d8f7c392082",
+    "7d38db3287c0ee98042960ae8476eec3b0aff051d39285067f7d6c78bffa97e8"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -851,17 +852,10 @@
     "https://www.ghafla.co.ke/bishop-erick-mwangi-warns-tash-over-betty-bayos-children-urges-him-to-hand-them-to-kanyari/",
     "https://www.ghafla.co.ke/kathy-kiuna-flaunts-luxury-private-jet-she-used-to-attend-charlene-rutos-wedding-in-tanzania/",
     "https://www.ghafla.co.ke/ruto-to-gachagua-kalonzo-we-will-retire-together-in-2032/",
-    "https://www.ghafla.co.ke/kenyan-prankster-vituko-za-difre-mourns-mother-after-fatal-hit-and-run-accident-in-ngong/"
+    "https://www.ghafla.co.ke/kenyan-prankster-vituko-za-difre-mourns-mother-after-fatal-hit-and-run-accident-in-ngong/",
+    "https://www.ghafla.co.ke/nameless-wahu-savara-and-other-stars-celebrate-biens-upcoming-album-alusa-continua/"
   ],
   "published_angles": [
-    {
-      "title": "Kalonzo Musyoka\u2019s Podium \u2018Legal Lecture\u2019 to Edwin Sifuna Backfires as Linda Mwananchi Launch Turns Hostile",
-      "angle": "Focusing on Kalonzo's unsolicited stage lesson on legal campaign protocol\u2014specifically citing the November 13 milestone to curb Sifuna's presidential endorsement\u2014and how that technical reprimand instantly backfired into a crowd revolt.",
-      "angle_type": "personality friction and podium protocol clash",
-      "opening": "Personality lead opening directly on Kalonzo Musyoka taking the microphone to correct Edwin Sifuna's legal status as a presidential candidate.",
-      "structure": "Podium legal correction hook -> Sequence of Wamalwa's endorsement and Kalonzo's technical breakdown -> Crowd disruption and Kalonzo's ultimatum -> Sifuna's referee intervention -> Rigathi Gachagua transition and stage return close.",
-      "source": "https://www.ghafla.co.ke/kalonzo-musyoka-heckled-as-sifuna-supporters-disrupt-linda-mwananchi-launch-speech/"
-    },
     {
       "title": "Rigathi Gachagua Rips Into Plan to Fly In Bayern Munich and Ajax for Ksh 145B Talanta Stadium Opening",
       "angle": "Gachagua's direct nationalist critique centering on public financing versus foreign exhibition teams, spotlighting local heavyweights like Gor Mahia and AFC Leopards being sidelined for a Ksh 145 billion taxpayer-funded asset.",
@@ -1653,6 +1647,14 @@
       "opening": "Personality lead opening directly on Vituko za Difre stepping away from online comedy into private family mourning following the fatal Ngong crash.",
       "structure": "Creator hook -> Details of the Tuesday morning Ngong hit-and-run -> Mortuary transfer and funeral arrangements -> The unresolved driver identity and legal vacuum -> Concluding focus on the creator's grief.",
       "source": "https://www.ghafla.co.ke/kenyan-prankster-vituko-za-difre-mourns-mother-after-fatal-hit-and-run-accident-in-ngong/"
+    },
+    {
+      "title": "Wahu and Nameless Back Bien\u2019s \u2018Artistic Obsession\u2019 as 17-Track Album Features 2 Chainz",
+      "angle": "Framing Bien's upcoming 17-track solo release around Wahu Kagwi and Nameless's insider breakdown of his artistic obsession and research discipline, alongside Sauti Sol bandmate Savara's peer endorsement.",
+      "angle_type": "veteran artistic validation and studio discipline",
+      "opening": "Personality lead opening directly on Wahu Kagwi spotlighting Bien's studio research habits during the weekend album sampling.",
+      "structure": "Wahu/Nameless artistic discipline hook -> Album scope and high-profile features breakdown -> Creative team and Sauti Sol brotherhood mechanics -> Industry reception and rollout close.",
+      "source": "https://www.ghafla.co.ke/nameless-wahu-savara-and-other-stars-celebrate-biens-upcoming-album-alusa-continua/"
     }
   ],
   "style_history": [
