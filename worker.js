@@ -615,8 +615,13 @@ async function sendWelcome(env, email, suppliedName = "") {
 }
 
 async function verifyTurnstile(request, env, token, expectedAction) {
-  const secret = String(env.TURNSTILE_SECRET || "").trim();
-  if (!secret) return { ok: false, status: 503, error: "Security verification is not configured on the server." };
+  // Accept the documented binding name and the common *_KEY alias so a
+  // dashboard secret stored under either name is actually used.
+  const secret = String(env.TURNSTILE_SECRET || env.TURNSTILE_SECRET_KEY || "").trim();
+  if (!secret) {
+    console.error("Turnstile Siteverify skipped: configure the Worker secret TURNSTILE_SECRET (or TURNSTILE_SECRET_KEY).");
+    return { ok: false, status: 503, error: "Security verification is not configured on the server." };
+  }
   if (typeof token !== "string" || !token.trim() || token.length > 2048) return { ok: false, status: 400, error: "Please complete the security check." };
   const form = new URLSearchParams({ secret, response: token.trim() });
   const remoteIp = request.headers.get("CF-Connecting-IP");
