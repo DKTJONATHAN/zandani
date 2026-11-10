@@ -199,7 +199,8 @@
     "a2535785d19ad7de879c955aff73f52f6581036092b883e1d624b9d83d31a908",
     "758418edfa284aaa68caec58c7ac52b0260f9ccdc903b500f804dfd47486624c",
     "b2fbcea8a9f6b3794815bccbf41e015529438f29bb32f7b421a1f3b0c8b4ed99",
-    "e3cd6506799a05b8c61e3bbde3ff8f93793dafa1ba268c5a4ca73a15d03df340"
+    "e3cd6506799a05b8c61e3bbde3ff8f93793dafa1ba268c5a4ca73a15d03df340",
+    "4e037fe4d97a91f6c44b6c0b19ac3dd1c4310b144127a4d908c1b35edbae0d7e"
   ],
   "style_history": [
     "Event Report",
@@ -694,6 +695,10 @@
     {
       "key": "2026-11-10-isaya-yunges-brother-pens-heartfelt-message-after-mwanza-wedding",
       "ts": "2026-11-10T21:29:12.716935+00:00"
+    },
+    {
+      "key": "2026-11-10-kwambox-questions-nairobi-air-quality-after-diwali-fireworks",
+      "ts": "2026-11-10T23:23:19.911439+00:00"
     }
   ],
   "urls": [
@@ -797,17 +802,10 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-10-karen-nyamu-admits-charlenes-wedding-left-her-wishing-for-one",
     "https://www.mpasho.co.ke/entertainment/2026-11-10-nicole-aiisi-and-family-hold-emotional-send-off-for-beloved-pet-cat",
     "https://www.mpasho.co.ke/entertainment/2026-11-10-kenyan-brian-obuchi-details-technical-role-at-wwe-crown-jewel",
-    "https://www.mpasho.co.ke/entertainment/2026-11-10-isaya-yunges-brother-pens-heartfelt-message-after-mwanza-wedding"
+    "https://www.mpasho.co.ke/entertainment/2026-11-10-isaya-yunges-brother-pens-heartfelt-message-after-mwanza-wedding",
+    "https://www.mpasho.co.ke/entertainment/2026-11-10-kwambox-questions-nairobi-air-quality-after-diwali-fireworks"
   ],
   "published_angles": [
-    {
-      "title": "Ne-Yo Ticket Rush and East FM\u2019s Mehfil Signal High-Demand September Live Circuit in Nairobi",
-      "angle": "Commercial speed and staging dynamics of Nairobi's September live event economy, contrasting international stadium-scale ticketing rushes with niche broadcast-backed live productions.",
-      "angle_type": "money and local impact",
-      "opening": "Attribution-first statement on ticket velocity, followed by analysis of beneficiary promoters and event platforms.",
-      "structure": "Statement lead, commercial breakdown of international booking velocity, localized broadcast event expansion, recent venue context, and concrete schedule close.",
-      "source": "https://www.mpasho.co.ke/lifestyle-yetu"
-    },
     {
       "title": "The Digital Safety Net: How Social Media Became Kenya\u2019s Volatile Court of Appeal",
       "angle": "Analyzing these diverse incidents collectively to expose a deeper structural shift: the rise of a volatile online attention economy as an ad-hoc substitute for failing institutional safety nets in Kenya.",
@@ -1599,6 +1597,14 @@
       "opening": "Personality lead opening directly on Wachira Yunge pulling back the curtain on the groom's side of the altar at Malaika Beach Resort.",
       "structure": "Personality hook on Wachira's intervention -> The patriarch Solomon Waigwa family portrait reveal -> Verbatim welcome message and brotherly bond -> Social banter and digital reactions -> Context of the Mwanza nuptials and Kilgoris Koito timeline",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-10-isaya-yunges-brother-pens-heartfelt-message-after-mwanza-wedding"
+    },
+    {
+      "title": "Kwambox Swaps Fireworks for Drones After Overnight Smog Triggers Physical Distress in Westlands",
+      "angle": "Focusing on Kwambox turning her immediate physical reaction into an urban air-quality intervention, linking pyrotechnic smog to Westlands' construction dust and proposing drone technology as a sustainable alternative.",
+      "angle_type": "celebrity environmental advocacy and urban wellness intervention",
+      "opening": "Personality lead opening directly on Kwambox experiencing immediate chest heaviness and sneezing upon entering Westlands after hours of continuous pyrotechnics.",
+      "structure": "Personality lead -> Environmental dynamics in Westlands corridor -> Verbatim boundary stance on public health vs. tradition -> AQI metric comparisons & county enforcement rules -> Technological alternative close (drone displays)",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-10-kwambox-questions-nairobi-air-quality-after-diwali-fireworks"
     }
   ]
 }
