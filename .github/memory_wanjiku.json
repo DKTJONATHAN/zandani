@@ -417,7 +417,8 @@
     "f47395d8a7cae122b05338569e4099eff0719a67f3f0c57ac6e18abdf229617b",
     "1f4b21793f423041fc1bcd0779f956ec573f73f359a9324f80359d9eacef9a34",
     "32c39913ddf27aa4ceb01f607acd2d6b884f62e83b87953003d75fa33ba55e6b",
-    "f4e0069baac080416026ca592b30d3a73dd2fb11ce23358c588cf0a1f875d2f5"
+    "f4e0069baac080416026ca592b30d3a73dd2fb11ce23358c588cf0a1f875d2f5",
+    "72622c14c40e685d76601dc3f101782eb45295c8a3522dbce730d8354e9ece55"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -837,17 +838,10 @@
     "https://www.ghafla.co.ke/kamukunji-grounds-gets-a-major-makeover-inside-nairobis-new-recreation-park/",
     "https://www.ghafla.co.ke/democracy-landmark-redefined-historic-kamukunji-grounds-transformation-95-complete-ahead-of-presidential-unveiling/",
     "https://www.ghafla.co.ke/video-of-women-handling-suspected-human-bones-at-langata-cemetery-sparks-reactions/",
-    "https://www.ghafla.co.ke/government-promotes-circular-farming-to-boost-food-security-and-create-jobs/"
+    "https://www.ghafla.co.ke/government-promotes-circular-farming-to-boost-food-security-and-create-jobs/",
+    "https://www.ghafla.co.ke/why-ronald-karauri-chose-uda-instead-of-running-as-an-independent-candidate-for-nairobi-governor/"
   ],
   "published_angles": [
-    {
-      "title": "Sandra Dacha Smiles in Inter Milan Jersey as Kenya Fans Association Checks In",
-      "angle": "The intersection of club-fan solidarity culture and the physical realities of high-profile personalities managing public health transformations under the digital spotlight.",
-      "angle_type": "celebrity health update and institutional football community solidarity",
-      "opening": "Personality-led opening centering directly on Sandra Dacha's response from her home alongside the visit from Kenya Fans Association leadership.",
-      "structure": "Home visit hook -> The association chairman's outreach details -> Dacha's social media response and Inter Milan jersey appearance -> Public observations on her physical transformation and weight loss -> Concrete close on her recovery timeline.",
-      "source": "https://www.ghafla.co.ke/fans-pour-out-support-for-actress-sandra-dacha-following-illness-announcement/"
-    },
     {
       "title": "\u2018Behind Kind Words Is a Plan to Replace You\u2019: Geoffrey Mosiria Pulls Out Sakaja\u2019s Praise Tape to Launch 2027 Revenge Run",
       "angle": "The tactical deployment of archival video receipts\u2014specifically Mosiria unearthing Sakaja's past praise of his zero-extra-budget ICU setup to frame his firing as the occupational hazard of outshining one's boss, packaged as cautionary career advice for City Hall's 23,000 workers.",
@@ -1639,6 +1633,14 @@
       "opening": "Personality and place-based hook introducing Miriam Ojakol and Rebecca Odalo's practical backyard setup in Busia County.",
       "structure": "Farmer profile hook -> The zero-waste biological mechanics (manure to fish ponds, nutrient water to vegetables) -> Institutional backing (LBDA, Wezesha programme numbers, and Kisumu egg production) -> Concrete logistical close on feed production and market access.",
       "source": "https://www.ghafla.co.ke/government-promotes-circular-farming-to-boost-food-security-and-create-jobs/"
+    },
+    {
+      "title": "Ronald Karauri Shelves Lone-Ranger Script, Bets on UDA Machine for Nairobi Governor Race",
+      "angle": "Examining the institutional calculation behind Karauri's shift\u2014specifically how the celebrity politician is abandoning the solitary outsider playbook to secure County Assembly leverage and MCA grassroots networks.",
+      "angle_type": "celebrity political strategy and grassroots party alignment",
+      "opening": "Personality lead opening directly on Ronald Karauri shelving the lone-ranger independent formula to anchor his Nairobi gubernatorial ambitions inside UDA's party apparatus.",
+      "structure": "Personality hook -> The independent run dilemma vs. UDA machine -> Assembly arithmetic and the MCA network reality -> Translating solo celebrity appeal into organized voting blocs -> Forward-looking race dynamics close.",
+      "source": "https://www.ghafla.co.ke/why-ronald-karauri-chose-uda-instead-of-running-as-an-independent-candidate-for-nairobi-governor/"
     }
   ],
   "style_history": [
