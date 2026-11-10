@@ -423,7 +423,8 @@
     "fa84ac52f8665b462be0c954906ba241b3ede854bcff8574b07040711efde8d7",
     "c459862cc4378fb785ef29b1a288591ea77434bfc61552043caa5bc6cd5a6755",
     "a5ec3d394ee098bcfade04318262f14183b3ab013617dd341906061132f8e314",
-    "844544ac6caedcc12da9897cdf9bbd466cd8b71892313b0b66852f4184fbf012"
+    "844544ac6caedcc12da9897cdf9bbd466cd8b71892313b0b66852f4184fbf012",
+    "67d3af49289b96ede3994ddd8094523bb6c430890d3f7848025d7d8f7c392082"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -849,17 +850,10 @@
     "https://www.ghafla.co.ke/pastor-james-nganga-reacts-to-mackenzies-200-year-jail-sentence-calls-for-harsher-punishment/",
     "https://www.ghafla.co.ke/bishop-erick-mwangi-warns-tash-over-betty-bayos-children-urges-him-to-hand-them-to-kanyari/",
     "https://www.ghafla.co.ke/kathy-kiuna-flaunts-luxury-private-jet-she-used-to-attend-charlene-rutos-wedding-in-tanzania/",
-    "https://www.ghafla.co.ke/ruto-to-gachagua-kalonzo-we-will-retire-together-in-2032/"
+    "https://www.ghafla.co.ke/ruto-to-gachagua-kalonzo-we-will-retire-together-in-2032/",
+    "https://www.ghafla.co.ke/kenyan-prankster-vituko-za-difre-mourns-mother-after-fatal-hit-and-run-accident-in-ngong/"
   ],
   "published_angles": [
-    {
-      "title": "Safaricom and Airtel Towers Caught in Kenya Power\u2019s Saturday Grid Shutdown Across Three Counties",
-      "angle": "The direct vulnerability of modern mobile connectivity infrastructure during routine grid maintenance, focusing on how telecom giants Safaricom and Airtel find their rural and regional booster networks knocked offline alongside local coffee factories and households.",
-      "angle_type": "infrastructure vulnerability and telecom impact",
-      "opening": "Opening directly on the digital blackout footprint hitting telecommunications towers in Nyeri alongside local rural enterprises.",
-      "structure": "Cellular blackout hook -> Nyeri booster station exposure -> Kajiado and Siaya regional maintenance scope -> Concrete closing on the specific operational window.",
-      "source": "https://www.ghafla.co.ke/kenya-power-announces-saturday-outages-in-kajiado-siaya-and-nyeri-counties/"
-    },
     {
       "title": "Kalonzo Musyoka\u2019s Podium \u2018Legal Lecture\u2019 to Edwin Sifuna Backfires as Linda Mwananchi Launch Turns Hostile",
       "angle": "Focusing on Kalonzo's unsolicited stage lesson on legal campaign protocol\u2014specifically citing the November 13 milestone to curb Sifuna's presidential endorsement\u2014and how that technical reprimand instantly backfired into a crowd revolt.",
@@ -1651,6 +1645,14 @@
       "opening": "Personality-led hook focusing on the specific 'retirement cohort' framing Ruto applied to his rivals.",
       "structure": "Rival retirement hook -> Breakdown of the 'Mr 40' and 'Bwana Texas' branding -> The Gusii tour context -> The opposition's actual consolidation efforts -> Final note on the 2032 timeline.",
       "source": "https://www.ghafla.co.ke/ruto-to-gachagua-kalonzo-we-will-retire-together-in-2032/"
+    },
+    {
+      "title": "Vituko za Difre Mourns Mother Killed in Unresolved Ngong Hit-and-Run",
+      "angle": "Focusing on the grim reality facing the street prankster as the sudden tragedy collides with an open investigation\u2014specifically highlighting the unidentified fleeing motorist in Ngong and the family's abrupt shift into City Mortuary arrangements.",
+      "angle_type": "personal tragedy and unresolved hit-and-run",
+      "opening": "Personality lead opening directly on Vituko za Difre stepping away from online comedy into private family mourning following the fatal Ngong crash.",
+      "structure": "Creator hook -> Details of the Tuesday morning Ngong hit-and-run -> Mortuary transfer and funeral arrangements -> The unresolved driver identity and legal vacuum -> Concluding focus on the creator's grief.",
+      "source": "https://www.ghafla.co.ke/kenyan-prankster-vituko-za-difre-mourns-mother-after-fatal-hit-and-run-accident-in-ngong/"
     }
   ],
   "style_history": [
