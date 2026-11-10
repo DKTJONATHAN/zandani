@@ -425,7 +425,8 @@
     "a5ec3d394ee098bcfade04318262f14183b3ab013617dd341906061132f8e314",
     "844544ac6caedcc12da9897cdf9bbd466cd8b71892313b0b66852f4184fbf012",
     "67d3af49289b96ede3994ddd8094523bb6c430890d3f7848025d7d8f7c392082",
-    "7d38db3287c0ee98042960ae8476eec3b0aff051d39285067f7d6c78bffa97e8"
+    "7d38db3287c0ee98042960ae8476eec3b0aff051d39285067f7d6c78bffa97e8",
+    "0fc61684f72cb97287257c6ce3900ed7c5c2f07973070ed193f9322ba0c02eb0"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -853,17 +854,10 @@
     "https://www.ghafla.co.ke/kathy-kiuna-flaunts-luxury-private-jet-she-used-to-attend-charlene-rutos-wedding-in-tanzania/",
     "https://www.ghafla.co.ke/ruto-to-gachagua-kalonzo-we-will-retire-together-in-2032/",
     "https://www.ghafla.co.ke/kenyan-prankster-vituko-za-difre-mourns-mother-after-fatal-hit-and-run-accident-in-ngong/",
-    "https://www.ghafla.co.ke/nameless-wahu-savara-and-other-stars-celebrate-biens-upcoming-album-alusa-continua/"
+    "https://www.ghafla.co.ke/nameless-wahu-savara-and-other-stars-celebrate-biens-upcoming-album-alusa-continua/",
+    "https://www.ghafla.co.ke/sailors-will-always-be-five-sailors-gang-breaks-long-silence-to-mourn-late-member-shalkido/"
   ],
   "published_angles": [
-    {
-      "title": "Rigathi Gachagua Rips Into Plan to Fly In Bayern Munich and Ajax for Ksh 145B Talanta Stadium Opening",
-      "angle": "Gachagua's direct nationalist critique centering on public financing versus foreign exhibition teams, spotlighting local heavyweights like Gor Mahia and AFC Leopards being sidelined for a Ksh 145 billion taxpayer-funded asset.",
-      "angle_type": "celebrity political friction and nationalist cultural debate",
-      "opening": "Personality lead opening directly on Rigathi Gachagua taking aim at the state's choice of foreign exhibition teams for a domestic stadium launch.",
-      "structure": "Gachagua's opening quote and nationalist hook -> The Ksh 145 billion taxpayer financing context -> The suggested local alternatives (Gor Mahia, AFC Leopards, Harambee Stars) -> The broader tensions surrounding AFCON 2027 commercial positioning.",
-      "source": "https://www.ghafla.co.ke/gachagua-shares-his-take-on-talanta-stadium-featuring-bayern-munich-vs-ajax-match/"
-    },
     {
       "title": "Gideon Ochanda Tells Elite Dealmakers Grassroots Nyanza Has Already Chosen Ruto Pact",
       "angle": "Spotlighting Ochanda's direct contrast between boardroom political elite negotiations and ordinary grassroots voters, arguing that while national figures debate alliances, local residents have pragmatically abandoned old rigid stances without losing cultural identity.",
@@ -1655,6 +1649,14 @@
       "opening": "Personality lead opening directly on Wahu Kagwi spotlighting Bien's studio research habits during the weekend album sampling.",
       "structure": "Wahu/Nameless artistic discipline hook -> Album scope and high-profile features breakdown -> Creative team and Sauti Sol brotherhood mechanics -> Industry reception and rollout close.",
       "source": "https://www.ghafla.co.ke/nameless-wahu-savara-and-other-stars-celebrate-biens-upcoming-album-alusa-continua/"
+    },
+    {
+      "title": "Sailors Gang Breaks Hiatus to Declare Permanent Five-Member Identity After Shalkido\u2019s Death",
+      "angle": "Focusing on the group's collective identity restructuring and behind-the-scenes toll\u2014examining how the remaining four members chose their return to public communication to formally lock their identity as five, confronting the fallout of their long hiatus after Shalkido's fatal crash on Thika Road.",
+      "angle_type": "group identity and hiatus reckoning",
+      "opening": "Personality lead focusing directly on the four surviving members of Sailors Gang stepping out of their prolonged silence to settle their collective identity.",
+      "structure": "Quartet return hook -> Group statement and behind-the-scenes struggle breakdown -> Specifics of Shalkido's October 2025 Thika Road fatal crash -> Gengetone breakout catalog context and fan relationship close.",
+      "source": "https://www.ghafla.co.ke/sailors-will-always-be-five-sailors-gang-breaks-long-silence-to-mourn-late-member-shalkido/"
     }
   ],
   "style_history": [
