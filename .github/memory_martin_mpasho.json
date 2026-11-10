@@ -197,7 +197,8 @@
     "d6bcf48e9628f21d435d4d5dda082bd7563d9162f312028cd4948c2c803a4555",
     "0c3c2ae61384c9461dc012a138d8d59a1e70ca26064ab886e83c044b3674eabe",
     "a2535785d19ad7de879c955aff73f52f6581036092b883e1d624b9d83d31a908",
-    "758418edfa284aaa68caec58c7ac52b0260f9ccdc903b500f804dfd47486624c"
+    "758418edfa284aaa68caec58c7ac52b0260f9ccdc903b500f804dfd47486624c",
+    "b2fbcea8a9f6b3794815bccbf41e015529438f29bb32f7b421a1f3b0c8b4ed99"
   ],
   "style_history": [
     "Event Report",
@@ -684,6 +685,10 @@
     {
       "key": "2026-11-10-nicole-aiisi-and-family-hold-emotional-send-off-for-beloved-pet-cat",
       "ts": "2026-11-10T17:23:22.156525+00:00"
+    },
+    {
+      "key": "2026-11-10-kenyan-brian-obuchi-details-technical-role-at-wwe-crown-jewel",
+      "ts": "2026-11-10T19:23:14.897440+00:00"
     }
   ],
   "urls": [
@@ -785,7 +790,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-10-wapendwa-muziki-leak-chats-over-performance-at-charlene-rutos-nuptials",
     "https://www.mpasho.co.ke/entertainment/2026-11-10-maureen-waititu-speaks-on-family-drama-surrounding-sky-and-danny",
     "https://www.mpasho.co.ke/entertainment/2026-11-10-karen-nyamu-admits-charlenes-wedding-left-her-wishing-for-one",
-    "https://www.mpasho.co.ke/entertainment/2026-11-10-nicole-aiisi-and-family-hold-emotional-send-off-for-beloved-pet-cat"
+    "https://www.mpasho.co.ke/entertainment/2026-11-10-nicole-aiisi-and-family-hold-emotional-send-off-for-beloved-pet-cat",
+    "https://www.mpasho.co.ke/entertainment/2026-11-10-kenyan-brian-obuchi-details-technical-role-at-wwe-crown-jewel"
   ],
   "published_angles": [
     {
@@ -1571,6 +1577,14 @@
       "opening": "Personality lead opening directly on Nicole Aiisi staging the farewell ceremony for Luna.",
       "structure": "Personality lead -> Details of the intimate memorial setup (white outfit, silver-framed photograph, makeshift resting area) -> The creator's shift from brand output to vulnerable personal loss -> The public resonance of documented pet mourning -> Closing on the permanent household absence.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-10-nicole-aiisi-and-family-hold-emotional-send-off-for-beloved-pet-cat"
+    },
+    {
+      "title": "Brian Obuchi Steps Behind WWE Crown Jewel Replay Engine as First Kenyan Broadcast Crew Operator",
+      "angle": "Deconstructing the technical EVS replay engine and high-stakes live television mechanics Obuchi operated at WWE Crown Jewel 2026, framing his trajectory from childhood television viewer to live international combat broadcast operator.",
+      "angle_type": "technical broadcast role and career transition",
+      "opening": "Personality lead opening directly on Brian Obuchi operating the live EVS replay system at WWE Crown Jewel 2026.",
+      "structure": "Personality lead on live EVS operation -> Walkthrough of EVS replay mechanics and broadcast desk setup -> Childhood wrestling fan context and Multimedia University foundation -> Live production stakes for combat entertainment -> Concrete future trajectory close",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-10-kenyan-brian-obuchi-details-technical-role-at-wwe-crown-jewel"
     }
   ]
 }
