@@ -191,7 +191,8 @@
     "f9555628d4a8563d39fc4d875876cc102fb59b70e53cafe51d568167d166cd35",
     "fee916833f99d2de5869555a89db9bf29653733ea795dc03abaa5e8c26d9ad0a",
     "41a43e2c80fb53512f1c4b9392be2920ab1498fa388488c20970099b9ce0100d",
-    "1917eacf65523fef647931028921113a724b3ffa8bfa6ba315a4ef90ebf9b26f"
+    "1917eacf65523fef647931028921113a724b3ffa8bfa6ba315a4ef90ebf9b26f",
+    "da7536dfc1333bad5aedb9ba1c3e65cbd71357d45defc87cbce45c9d693cb77b"
   ],
   "style_history": [
     "Event Report",
@@ -654,6 +655,10 @@
     {
       "key": "2026-11-10-charlene-ruto-updates-instagram-bio-after-wedding-to-isaya-yunge",
       "ts": "2026-11-10T05:24:38.331231+00:00"
+    },
+    {
+      "key": "2026-11-10-why-musician-bahati-moved-son-morgan-to-village-boarding-school",
+      "ts": "2026-11-10T07:39:09.655684+00:00"
     }
   ],
   "urls": [
@@ -749,7 +754,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-09-nigerian-team-retains-simon-kuseyo-polo-tournament-title-as-tusker-malt-elevates-the-experience",
     "https://www.mpasho.co.ke/entertainment/2026-11-09-ken-heman-opens-up-after-losing-2-daughters-in-gachie-fire",
     "https://www.mpasho.co.ke/entertainment/2026-11-09-natalie-githinji-hospitalized-again-as-endometriosis-persists",
-    "https://www.mpasho.co.ke/entertainment/2026-11-10-charlene-ruto-updates-instagram-bio-after-wedding-to-isaya-yunge"
+    "https://www.mpasho.co.ke/entertainment/2026-11-10-charlene-ruto-updates-instagram-bio-after-wedding-to-isaya-yunge",
+    "https://www.mpasho.co.ke/entertainment/2026-11-10-why-musician-bahati-moved-son-morgan-to-village-boarding-school"
   ],
   "published_angles": [
     {
@@ -1487,6 +1493,14 @@
       "opening": "Personality lead opening directly on Charlene Ruto's digital profile adjustment.",
       "structure": "Profile update hook -> Marriage timeline and Mwanza ceremony context -> Retention of professional advocacy titles -> Preceding traditional ceremonies and bridal events",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-10-charlene-ruto-updates-instagram-bio-after-wedding-to-isaya-yunge"
+    },
+    {
+      "title": "Bahati Traded KES 500K Elite School for Makueni Boarding After Son\u2019s Bedroom Privacy Letter",
+      "angle": "Framing Bahati's decision as a deliberate rupture of the KES 500,000 elite schooling bubble after soft parenting failed, choosing rural boarding discipline via Governor Mutula to reset his son's character before securing a Grade 10 leadership role at Lenana School.",
+      "angle_type": "parenting intervention and educational reset",
+      "opening": "Personality lead opening directly on Bahati confronting the failure of half-a-million-shilling schooling when his son began issuing formal household boundary notices.",
+      "structure": "Personality hook on the boundary letter and elite school bubble -> Two-year soft parenting impasse and KES 500K fee reality -> The Makueni consultation with Governor Mutula -> The interview panic and rural boarding shock -> Academic rebound and Lenana School prefect appointment.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-10-why-musician-bahati-moved-son-morgan-to-village-boarding-school"
     }
   ]
 }
