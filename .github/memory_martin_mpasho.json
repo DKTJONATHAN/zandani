@@ -195,7 +195,8 @@
     "da7536dfc1333bad5aedb9ba1c3e65cbd71357d45defc87cbce45c9d693cb77b",
     "f2fd514cd279579872fd10753df1155522b32b593db1905d6406f49982061c5b",
     "d6bcf48e9628f21d435d4d5dda082bd7563d9162f312028cd4948c2c803a4555",
-    "0c3c2ae61384c9461dc012a138d8d59a1e70ca26064ab886e83c044b3674eabe"
+    "0c3c2ae61384c9461dc012a138d8d59a1e70ca26064ab886e83c044b3674eabe",
+    "a2535785d19ad7de879c955aff73f52f6581036092b883e1d624b9d83d31a908"
   ],
   "style_history": [
     "Event Report",
@@ -674,6 +675,10 @@
     {
       "key": "2026-11-10-maureen-waititu-speaks-on-family-drama-surrounding-sky-and-danny",
       "ts": "2026-11-10T13:23:39.284925+00:00"
+    },
+    {
+      "key": "2026-11-10-karen-nyamu-admits-charlenes-wedding-left-her-wishing-for-one",
+      "ts": "2026-11-10T15:23:20.740454+00:00"
     }
   ],
   "urls": [
@@ -773,7 +778,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-10-why-musician-bahati-moved-son-morgan-to-village-boarding-school",
     "https://www.mpasho.co.ke/entertainment/2026-11-10-sandra-dacha-breaks-silence-40-days-after-75-stomach-removal",
     "https://www.mpasho.co.ke/entertainment/2026-11-10-wapendwa-muziki-leak-chats-over-performance-at-charlene-rutos-nuptials",
-    "https://www.mpasho.co.ke/entertainment/2026-11-10-maureen-waititu-speaks-on-family-drama-surrounding-sky-and-danny"
+    "https://www.mpasho.co.ke/entertainment/2026-11-10-maureen-waititu-speaks-on-family-drama-surrounding-sky-and-danny",
+    "https://www.mpasho.co.ke/entertainment/2026-11-10-karen-nyamu-admits-charlenes-wedding-left-her-wishing-for-one"
   ],
   "published_angles": [
     {
@@ -1543,6 +1549,14 @@
       "opening": "Personality lead opening directly on Maureen Waititu stepping into the online fallout to establish a strict boundary around children navigating loss.",
       "structure": "Personality lead & boundary stance -> Verbatim statement on unjust treatment -> Non-partisan stance & maternal perspective -> Long-term developmental risks -> Conclusion on child protection in public disputes",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-10-maureen-waititu-speaks-on-family-drama-surrounding-sky-and-danny"
+    },
+    {
+      "title": "Karen Nyamu Tags MP Colleagues in Romantic Interrogation After Charlene Ruto\u2019s Mwanza Photo Release",
+      "angle": "Framing Nyamu's social media reaction around the candid public peer-tagging of fellow female lawmakers, examining how the lawmaker used the backdrop of the high-profile Mwanza wedding photography release to spark a lighthearted reflection on singlehood and romantic longing among political peers.",
+      "angle_type": "celebrity social banter and peer reflection",
+      "opening": "Personality lead opening directly on Nominated Senator Karen Nyamu turning the release of Charlene Ruto\u2019s Mwanza wedding photos into a lighthearted public interrogation of her own love life.",
+      "structure": "Personality lead on Nyamu's Instagram post -> Verbatim Swahili reaction and direct tagging of MP colleagues Elachi and Mizighi -> Mwanza ceremony details and photography rollout -> VIP guest spectrum and cross-border significance -> Continuity from Kilgoris Koito to Mwanza altar.",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-10-karen-nyamu-admits-charlenes-wedding-left-her-wishing-for-one"
     }
   ]
 }
