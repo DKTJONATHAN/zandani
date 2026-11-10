@@ -198,7 +198,8 @@
     "0c3c2ae61384c9461dc012a138d8d59a1e70ca26064ab886e83c044b3674eabe",
     "a2535785d19ad7de879c955aff73f52f6581036092b883e1d624b9d83d31a908",
     "758418edfa284aaa68caec58c7ac52b0260f9ccdc903b500f804dfd47486624c",
-    "b2fbcea8a9f6b3794815bccbf41e015529438f29bb32f7b421a1f3b0c8b4ed99"
+    "b2fbcea8a9f6b3794815bccbf41e015529438f29bb32f7b421a1f3b0c8b4ed99",
+    "e3cd6506799a05b8c61e3bbde3ff8f93793dafa1ba268c5a4ca73a15d03df340"
   ],
   "style_history": [
     "Event Report",
@@ -689,6 +690,10 @@
     {
       "key": "2026-11-10-kenyan-brian-obuchi-details-technical-role-at-wwe-crown-jewel",
       "ts": "2026-11-10T19:23:14.897440+00:00"
+    },
+    {
+      "key": "2026-11-10-isaya-yunges-brother-pens-heartfelt-message-after-mwanza-wedding",
+      "ts": "2026-11-10T21:29:12.716935+00:00"
     }
   ],
   "urls": [
@@ -791,7 +796,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-10-maureen-waititu-speaks-on-family-drama-surrounding-sky-and-danny",
     "https://www.mpasho.co.ke/entertainment/2026-11-10-karen-nyamu-admits-charlenes-wedding-left-her-wishing-for-one",
     "https://www.mpasho.co.ke/entertainment/2026-11-10-nicole-aiisi-and-family-hold-emotional-send-off-for-beloved-pet-cat",
-    "https://www.mpasho.co.ke/entertainment/2026-11-10-kenyan-brian-obuchi-details-technical-role-at-wwe-crown-jewel"
+    "https://www.mpasho.co.ke/entertainment/2026-11-10-kenyan-brian-obuchi-details-technical-role-at-wwe-crown-jewel",
+    "https://www.mpasho.co.ke/entertainment/2026-11-10-isaya-yunges-brother-pens-heartfelt-message-after-mwanza-wedding"
   ],
   "published_angles": [
     {
@@ -1585,6 +1591,14 @@
       "opening": "Personality lead opening directly on Brian Obuchi operating the live EVS replay system at WWE Crown Jewel 2026.",
       "structure": "Personality lead on live EVS operation -> Walkthrough of EVS replay mechanics and broadcast desk setup -> Childhood wrestling fan context and Multimedia University foundation -> Live production stakes for combat entertainment -> Concrete future trajectory close",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-10-kenyan-brian-obuchi-details-technical-role-at-wwe-crown-jewel"
+    },
+    {
+      "title": "Wachira Yunge Opens Groom's Side of Mwanza Altar as Patriarch Solomon Waigwa Welcomes Charlene",
+      "angle": "While public attention has fixated almost exclusively on the First Family's presence and State House dynamics at the lakeside altar, Wachira Yunge shifted focus to the groom's private lineage, formally introducing patriarch Solomon Waigwa and detailing the Yunge household's ceremonial embrace of the First Daughter.",
+      "angle_type": "groom-side familial framing and public lineage reveal",
+      "opening": "Personality lead opening directly on Wachira Yunge pulling back the curtain on the groom's side of the altar at Malaika Beach Resort.",
+      "structure": "Personality hook on Wachira's intervention -> The patriarch Solomon Waigwa family portrait reveal -> Verbatim welcome message and brotherly bond -> Social banter and digital reactions -> Context of the Mwanza nuptials and Kilgoris Koito timeline",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-10-isaya-yunges-brother-pens-heartfelt-message-after-mwanza-wedding"
     }
   ]
 }
