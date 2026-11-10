@@ -190,7 +190,8 @@
     "3e0fdfe8d75766f2c1d8e98b2c9d90a33c7db9c130fbeee7728e865758087b72",
     "f9555628d4a8563d39fc4d875876cc102fb59b70e53cafe51d568167d166cd35",
     "fee916833f99d2de5869555a89db9bf29653733ea795dc03abaa5e8c26d9ad0a",
-    "41a43e2c80fb53512f1c4b9392be2920ab1498fa388488c20970099b9ce0100d"
+    "41a43e2c80fb53512f1c4b9392be2920ab1498fa388488c20970099b9ce0100d",
+    "1917eacf65523fef647931028921113a724b3ffa8bfa6ba315a4ef90ebf9b26f"
   ],
   "style_history": [
     "Event Report",
@@ -649,6 +650,10 @@
     {
       "key": "2026-11-09-natalie-githinji-hospitalized-again-as-endometriosis-persists",
       "ts": "2026-11-09T23:25:48.105781+00:00"
+    },
+    {
+      "key": "2026-11-10-charlene-ruto-updates-instagram-bio-after-wedding-to-isaya-yunge",
+      "ts": "2026-11-10T05:24:38.331231+00:00"
     }
   ],
   "urls": [
@@ -743,7 +748,8 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-09-nandy-unveils-new-house-as-advance-birthday-gift-to-herself",
     "https://www.mpasho.co.ke/entertainment/2026-11-09-nigerian-team-retains-simon-kuseyo-polo-tournament-title-as-tusker-malt-elevates-the-experience",
     "https://www.mpasho.co.ke/entertainment/2026-11-09-ken-heman-opens-up-after-losing-2-daughters-in-gachie-fire",
-    "https://www.mpasho.co.ke/entertainment/2026-11-09-natalie-githinji-hospitalized-again-as-endometriosis-persists"
+    "https://www.mpasho.co.ke/entertainment/2026-11-09-natalie-githinji-hospitalized-again-as-endometriosis-persists",
+    "https://www.mpasho.co.ke/entertainment/2026-11-10-charlene-ruto-updates-instagram-bio-after-wedding-to-isaya-yunge"
   ],
   "published_angles": [
     {
@@ -1473,6 +1479,14 @@
       "opening": "Personality lead opening directly on Natalie Githinji transitioning from holiday recovery to acute hospital admission within 24 hours.",
       "structure": "Personality lead on vacation-to-hospital transition -> The 'clean test' diagnostic paradox and physician verdict -> Verbatim details on painkiller management -> Stage 4 history and 17-year pre-diagnosis timeline -> Institutional context on parliamentary motion and Kenya's specialist deficit close.",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-09-natalie-githinji-hospitalized-again-as-endometriosis-persists"
+    },
+    {
+      "title": "Charlene Ruto Keeps Her Advocacy Titles Intact as She Stamps 'Joyfully Married' on Instagram",
+      "angle": "Examining how professional identities and digital branding are carefully recalibrated alongside high-profile personal milestones\u2014specifically how Charlene balances her corporate/advocacy credentials with her new marital status on social media.",
+      "angle_type": "digital branding and personal milestone integration",
+      "opening": "Personality lead opening directly on Charlene Ruto's digital profile adjustment.",
+      "structure": "Profile update hook -> Marriage timeline and Mwanza ceremony context -> Retention of professional advocacy titles -> Preceding traditional ceremonies and bridal events",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-10-charlene-ruto-updates-instagram-bio-after-wedding-to-isaya-yunge"
     }
   ]
 }
