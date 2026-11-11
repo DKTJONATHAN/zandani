@@ -427,7 +427,8 @@
     "67d3af49289b96ede3994ddd8094523bb6c430890d3f7848025d7d8f7c392082",
     "7d38db3287c0ee98042960ae8476eec3b0aff051d39285067f7d6c78bffa97e8",
     "0fc61684f72cb97287257c6ce3900ed7c5c2f07973070ed193f9322ba0c02eb0",
-    "044f2800aa6b559a777d16875d5da33899530fa6d3b111aa590040b7d0ef9193"
+    "044f2800aa6b559a777d16875d5da33899530fa6d3b111aa590040b7d0ef9193",
+    "48a6096ad4805d423e82a44a7ad33866fbb57730bd0f1a27961e95377bfab7b0"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -857,17 +858,10 @@
     "https://www.ghafla.co.ke/kenyan-prankster-vituko-za-difre-mourns-mother-after-fatal-hit-and-run-accident-in-ngong/",
     "https://www.ghafla.co.ke/nameless-wahu-savara-and-other-stars-celebrate-biens-upcoming-album-alusa-continua/",
     "https://www.ghafla.co.ke/sailors-will-always-be-five-sailors-gang-breaks-long-silence-to-mourn-late-member-shalkido/",
-    "https://www.ghafla.co.ke/tutamuapisha-talanta-stadium-eddie-butita-weighs-in-on-rutos-2027-re-election-chances-and-political-unity/"
+    "https://www.ghafla.co.ke/tutamuapisha-talanta-stadium-eddie-butita-weighs-in-on-rutos-2027-re-election-chances-and-political-unity/",
+    "https://www.ghafla.co.ke/size-8-reveals-doctors-feared-she-could-die-if-she-fell-asleep-during-childbirth/"
   ],
   "published_angles": [
-    {
-      "title": "Dennis Elnino Stakes Out Position on \u2018Usawa\u2019 Coalition Logic",
-      "angle": "The mechanics and messaging strategy of political commentators pitching flexibility over fixed quotas under the 'Usawa' banner.",
-      "angle_type": "political commentary and content creator messaging",
-      "opening": "Personality lead focusing on content creator Dennis Elnino's strategic push for flexible coalitions.",
-      "structure": "Creator commentary hook -> The critique of rigid spreadsheets -> The regional inclusion argument under 'Usawa' -> Close on the open-door policy implications.",
-      "source": "https://www.ghafla.co.ke/broad-based-government-uniting-kenya-flexible-coalitions-and-equitable-representation/"
-    },
     {
       "title": "Tim Wanyonyi Bypasses Wetangula\u2019s FORD Kenya to Align With Sifuna\u2019s Movement for Bungoma Bid",
       "angle": "The domestic and political strain of brotherly rivalry, spotlighting how Tim Wanyonyi's alliance with Sifuna directly sidelines his brother Moses Wetangula's FORD Kenya stronghold in Bungoma.",
@@ -1659,6 +1653,14 @@
       "opening": "Personality lead opening directly on Eddie Butita drawing clear boundaries on his political loyalties ahead of 2027.",
       "structure": "Creator stance hook -> Slogan pushback & Talanta Stadium declaration -> The Jalang'o endorsement breakdown -> Neutrality and manifesto test in the Sakaja-Babu-Mosiria race -> Context on close-range state engagements.",
       "source": "https://www.ghafla.co.ke/tutamuapisha-talanta-stadium-eddie-butita-weighs-in-on-rutos-2027-re-election-chances-and-political-unity/"
+    },
+    {
+      "title": "Size 8 Details Labour Ward Crisis Where DJ Mo Was Ordered to Joke Her Awake",
+      "angle": "Focusing on the harrowing bedside vigilance and psychological strain placed on DJ Mo, who was forced to use forced humour as a medical intervention while Size 8 battled nerve paralysis, haemoglobin deficiency, and a 28-week emergency delivery.",
+      "angle_type": "marital bedside crisis and reproductive trauma",
+      "opening": "Personality lead opening directly on the unusual medical instruction given to DJ Mo inside the labour ward to keep Size 8 conscious.",
+      "structure": "Labour ward vigil hook -> Bedside mechanics (forced jokes and magnesium drips) -> Medical timeline and Junior's 1.7kg premature birth -> Chronic haemoglobin complications and partial paralysis -> The cumulative marital toll across three pregnancies.",
+      "source": "https://www.ghafla.co.ke/size-8-reveals-doctors-feared-she-could-die-if-she-fell-asleep-during-childbirth/"
     }
   ],
   "style_history": [
