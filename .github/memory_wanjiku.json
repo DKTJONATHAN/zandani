@@ -433,7 +433,8 @@
     "206aa74688726b8b068992deeaaf93266314d09cee0e76d443cf024c3dd2bcda",
     "bf2c512f019e87fde93d58687cd11bc6c481750740721608c7cee42fbf6188c9",
     "f2262b23b3386b224b3cc8ab60fe9be19d0f926b32bce50f039533999889d8ea",
-    "ca95a1065e66479b4cb7a9b626e414c7bc8368896c84dc4e15922248c3c4f8f2"
+    "ca95a1065e66479b4cb7a9b626e414c7bc8368896c84dc4e15922248c3c4f8f2",
+    "bae5a1408372e8eb78b97a36322fcd25ecf5460fc28f5d57e4b5b9c56f20bfaa"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -869,17 +870,10 @@
     "https://www.ghafla.co.ke/if-i-slept-i-would-die-size-8-details-terrifying-complications-during-birth-of-her-son/",
     "https://www.ghafla.co.ke/comedian-yy-blames-kenyan-footbal-fans-for-poor-footballer-salaries/",
     "https://www.ghafla.co.ke/kenyan-domestic-worker-sentenced-to-100-lashes-in-saudi-arabia-for-birth-outside-marriage/",
-    "https://www.ghafla.co.ke/mike-sonko-hints-at-kalonzo-musyoka-working-with-ruto-ahead-of-2027/"
+    "https://www.ghafla.co.ke/mike-sonko-hints-at-kalonzo-musyoka-working-with-ruto-ahead-of-2027/",
+    "https://www.ghafla.co.ke/bahati-reveals-millions-he-raised-after-wedding-eventty/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018Msitoroke!\u2019: Stage Invader Grabs Live Mic as Jacaranda ODM Showcase Descends into Chaos",
-      "angle": "Spotlighting the surreal live-podium takeover during the VIP roll call, where an intruder seized the PA system to shout 'Msitoroke' to an already fleeing crowd while party heavyweights scrambled off the stage.",
-      "angle_type": "podium spectacle and live stage disruption",
-      "opening": "Personality-led stage moment focusing on the live-mic capture and the intruder barking 'Msitoroke' into the PA system mid-introduction.",
-      "structure": "Stage hijack hook -> The mic grab during VIP introductions -> Scramble for safety and venue panic -> Commemorative 'Mwezi wa Baba' context -> Factional tension and Ruto cooperation backdrop",
-      "source": "https://www.ghafla.co.ke/chaos-as-suspected-goons-disrupt-odm-rally-at-jacaranda-grounds/"
-    },
     {
       "title": "Raymond Omollo Pushes Past Gun Tallies to Pitch Classrooms and Ksh 4.2B Tarmac as Real Victory in North Rift",
       "angle": "Raymond Omollo's deliberate effort to redefine state security metrics\u2014shifting attention away from sensational firearm seizures toward civilian life markers such as KDF-rebuilt desks in Laikipia and Ksh 4.2 billion worth of tarmac.",
@@ -1671,6 +1665,14 @@
       "opening": "Personality lead focusing directly on Mike Sonko taking aim at Kalonzo Musyoka's handlers following consultations with Muthama and Mutua.",
       "structure": "Personality hook -> Social media warning and 'bogus noise makers' breakdown -> The Muthama and Mutua meeting timeline -> Strategic realignment and NEDP posture -> Unresolved coalition landscape close",
       "source": "https://www.ghafla.co.ke/mike-sonko-hints-at-kalonzo-musyoka-working-with-ruto-ahead-of-2027/"
+    },
+    {
+      "title": "Bahati Counters Ksh 100M Speculation With Ksh 10M Accounting After 'Big Day' Teaser Stunt",
+      "angle": "Focusing on Bahati's specific financial audit and publicity mechanics\u2014unpacking how he countered Ksh 100 million online rumors with an actual Ksh 10 million accounting for his foundation while defending his Ksh 1 million invitation tactic and political donor vetting on live television.",
+      "angle_type": "financial disclosure and publicity mechanics",
+      "opening": "Direct focus on Bahati presenting live television financial math to reset public expectations around his campaign.",
+      "structure": "Financial disclosure lead -> Clarification of wedding assumptions & NTV context -> Breakdown of Ksh 1M entry tag & business video numbers -> Ksh 10M foundation accounting vs Ksh 100M rumors -> Political vetting & CS invite defense -> Operational close on 2027 context.",
+      "source": "https://www.ghafla.co.ke/bahati-reveals-millions-he-raised-after-wedding-eventty/"
     }
   ],
   "style_history": [
