@@ -434,7 +434,8 @@
     "bf2c512f019e87fde93d58687cd11bc6c481750740721608c7cee42fbf6188c9",
     "f2262b23b3386b224b3cc8ab60fe9be19d0f926b32bce50f039533999889d8ea",
     "ca95a1065e66479b4cb7a9b626e414c7bc8368896c84dc4e15922248c3c4f8f2",
-    "bae5a1408372e8eb78b97a36322fcd25ecf5460fc28f5d57e4b5b9c56f20bfaa"
+    "bae5a1408372e8eb78b97a36322fcd25ecf5460fc28f5d57e4b5b9c56f20bfaa",
+    "74bb56375d0ecaad4670cd72c0b40dc0297dc6fdf12cb5af3118751e4bd08dd5"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -871,17 +872,10 @@
     "https://www.ghafla.co.ke/comedian-yy-blames-kenyan-footbal-fans-for-poor-footballer-salaries/",
     "https://www.ghafla.co.ke/kenyan-domestic-worker-sentenced-to-100-lashes-in-saudi-arabia-for-birth-outside-marriage/",
     "https://www.ghafla.co.ke/mike-sonko-hints-at-kalonzo-musyoka-working-with-ruto-ahead-of-2027/",
-    "https://www.ghafla.co.ke/bahati-reveals-millions-he-raised-after-wedding-eventty/"
+    "https://www.ghafla.co.ke/bahati-reveals-millions-he-raised-after-wedding-eventty/",
+    "https://www.ghafla.co.ke/how-to-diversify-a-business-in-kenya-entrepreneur-maureen-orangos-lessons/"
   ],
   "published_angles": [
-    {
-      "title": "Raymond Omollo Pushes Past Gun Tallies to Pitch Classrooms and Ksh 4.2B Tarmac as Real Victory in North Rift",
-      "angle": "Raymond Omollo's deliberate effort to redefine state security metrics\u2014shifting attention away from sensational firearm seizures toward civilian life markers such as KDF-rebuilt desks in Laikipia and Ksh 4.2 billion worth of tarmac.",
-      "angle_type": "personality scorecard reframing",
-      "opening": "Personality lead opening directly on Raymond Omollo challenging the public's obsession with gun-haul tallies.",
-      "structure": "Personality lead on Omollo's scorecard pivot -> The Sh4.2 billion infrastructure footprint and 520km road rollout -> The civilian reality check at Ngarachi Comprehensive School -> The shift toward hunting raid financiers and middlemen -> Mashujaa Day Eldoret backdrop.",
-      "source": "https://www.ghafla.co.ke/government-recovers-2600-illegal-firearms-17000-livestock-in-anti-banditry-operations/"
-    },
     {
       "title": "Sunday Outages Hit Key Weekend Hotspots as Kenya Power Schedules Grid Shutoff Across Eight Counties",
       "angle": "Focusing on the operational burden placed on Sunday leisure, hospitality, and commercial retail corridors\u2014specifically major resort destinations, regional shopping centers, and coastal weekend spots\u2014during an eight-to-nine-hour grid shutdown.",
@@ -1673,6 +1667,14 @@
       "opening": "Direct focus on Bahati presenting live television financial math to reset public expectations around his campaign.",
       "structure": "Financial disclosure lead -> Clarification of wedding assumptions & NTV context -> Breakdown of Ksh 1M entry tag & business video numbers -> Ksh 10M foundation accounting vs Ksh 100M rumors -> Political vetting & CS invite defense -> Operational close on 2027 context.",
       "source": "https://www.ghafla.co.ke/bahati-reveals-millions-he-raised-after-wedding-eventty/"
+    },
+    {
+      "title": "Maureen Orango Details Ksh 1M Profit Loss That Reshaped Her 7-Business Hustle Portfolio",
+      "angle": "Focusing on Maureen Orango's candid financial reckoning\u2014specifically how losing control of a Ksh 1 million profit windfall to personal spending forced her to build strict accounting rules across her seven-venture portfolio.",
+      "angle_type": "financial transparency and operational discipline",
+      "opening": "Personality lead opening directly on Orango's Ksh 1 million profit loss disclosure and her shift from high school perfume sales to multi-sector operations.",
+      "structure": "Personality hook -> The Ksh 1M financial misstep detail -> Evolution from Ksh 20 perfume sales to 7 ventures -> Operational & internal lending rules -> Macro MSME survival data -> Concrete concluding takeaway",
+      "source": "https://www.ghafla.co.ke/how-to-diversify-a-business-in-kenya-entrepreneur-maureen-orangos-lessons/"
     }
   ],
   "style_history": [
