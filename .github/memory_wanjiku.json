@@ -430,7 +430,8 @@
     "044f2800aa6b559a777d16875d5da33899530fa6d3b111aa590040b7d0ef9193",
     "48a6096ad4805d423e82a44a7ad33866fbb57730bd0f1a27961e95377bfab7b0",
     "718c9c6b2da0089557259da0b25514a4cee023711cb383ed3f98d4a0fe364982",
-    "206aa74688726b8b068992deeaaf93266314d09cee0e76d443cf024c3dd2bcda"
+    "206aa74688726b8b068992deeaaf93266314d09cee0e76d443cf024c3dd2bcda",
+    "bf2c512f019e87fde93d58687cd11bc6c481750740721608c7cee42fbf6188c9"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -863,17 +864,10 @@
     "https://www.ghafla.co.ke/tutamuapisha-talanta-stadium-eddie-butita-weighs-in-on-rutos-2027-re-election-chances-and-political-unity/",
     "https://www.ghafla.co.ke/size-8-reveals-doctors-feared-she-could-die-if-she-fell-asleep-during-childbirth/",
     "https://www.ghafla.co.ke/alex-mwakideu-questions-whether-kenya-should-take-tougher-action-against-lgbtq-community/",
-    "https://www.ghafla.co.ke/if-i-slept-i-would-die-size-8-details-terrifying-complications-during-birth-of-her-son/"
+    "https://www.ghafla.co.ke/if-i-slept-i-would-die-size-8-details-terrifying-complications-during-birth-of-her-son/",
+    "https://www.ghafla.co.ke/comedian-yy-blames-kenyan-footbal-fans-for-poor-footballer-salaries/"
   ],
   "published_angles": [
-    {
-      "title": "Kawira Mwangaza and Faith Odhiambo Drafted as Edwin Sifuna Unveils Star-Studded Linda Mwananchi Executive",
-      "angle": "Highlighting the strategic recruitment of high-profile personalities\u2014specifically featuring former Meru Governor Kawira Mwangaza, former LSK President Faith Odhiambo, and prominent digital commentator Pauline Njoroge\u2014as Edwin Sifuna transforms the movement into a celebrity-backed political executive.",
-      "angle_type": "celebrity political re-emergence and high-profile roster reveal",
-      "opening": "Personality lead opening directly on Kawira Mwangaza and Faith Odhiambo landing top deputy party leader slots in Sifuna's proposed lineup.",
-      "structure": "Star lineup opening -> Secretariat launch context and 1+4 executive formula -> Spotlight on Mwangaza, Odhiambo, and Pauline Njoroge -> Breakdown of core party posts (Osotsi, Omondi, Onyonka, Ndolo) -> NDC ratification close.",
-      "source": "https://www.ghafla.co.ke/sifuna-unveils-linda-mwananchi-leadership-lineup-ahead-of-national-delegates-conference/"
-    },
     {
       "title": "Oburu Oginga Beams Into Jacaranda Rally from Recovery to Read Discipline Act to ODM Heavyweights",
       "angle": "Focusing on Oburu's virtual stage presence from illness recovery during the emotional climax of the Mwezi wa Baba finale, using the platform to issue a direct discipline reprimand to high-profile leaders assembled on stage.",
@@ -1665,6 +1659,14 @@
       "opening": "Personality lead opening directly on Size 8 cataloguing the extreme physical breakdown\u2014including nerve damage, speech loss, and left-sided paralysis\u2014that pushed her body to the edge before delivering Muraya Junior at 28 weeks.",
       "structure": "Personality health hook -> Neurological breakdown and the 28-week threshold -> The dual-magnesium delivery and 1.7kg preterm birth -> The cumulative history across three pregnancies (ICU transfer & miscarriage) -> Daddy Owen sit-down context and long-term marital weight",
       "source": "https://www.ghafla.co.ke/if-i-slept-i-would-die-size-8-details-terrifying-complications-during-birth-of-her-son/"
+    },
+    {
+      "title": "Comedian YY Runs Kasarani Math on Football Wages, Blames Empty Terraces for Player Poverty",
+      "angle": "Framing YY's intervention as an economic audit of Kenyan football's couch culture\u2014specifically unpacking his Kasarani Ksh 60 million single-match model and Ksh 1 billion league projection to argue that fan absenteeism, not just administrative rot, keeps players underpaid.",
+      "angle_type": "celebrity economic critique and sports culture accountability",
+      "opening": "Personality lead opening directly on YY turning his online platform into a commercial blackboard to confront fans over domestic footballers' wages.",
+      "structure": "Personality lead hook -> The Kasarani Ksh 60M math and Ksh 1B league projection -> Corporate sponsor and broadcast rights ripple effect -> Hooliganism and teargas caveat -> Closing call to action at the turnstiles",
+      "source": "https://www.ghafla.co.ke/comedian-yy-blames-kenyan-footbal-fans-for-poor-footballer-salaries/"
     }
   ],
   "style_history": [
