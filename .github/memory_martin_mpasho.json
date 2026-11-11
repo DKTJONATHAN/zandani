@@ -200,7 +200,8 @@
     "758418edfa284aaa68caec58c7ac52b0260f9ccdc903b500f804dfd47486624c",
     "b2fbcea8a9f6b3794815bccbf41e015529438f29bb32f7b421a1f3b0c8b4ed99",
     "e3cd6506799a05b8c61e3bbde3ff8f93793dafa1ba268c5a4ca73a15d03df340",
-    "4e037fe4d97a91f6c44b6c0b19ac3dd1c4310b144127a4d908c1b35edbae0d7e"
+    "4e037fe4d97a91f6c44b6c0b19ac3dd1c4310b144127a4d908c1b35edbae0d7e",
+    "b9f73eb28812e599f5f1857a84065b0e297068a0017e9409e861464a97bdaf28"
   ],
   "style_history": [
     "Event Report",
@@ -699,6 +700,10 @@
     {
       "key": "2026-11-10-kwambox-questions-nairobi-air-quality-after-diwali-fireworks",
       "ts": "2026-11-10T23:23:19.911439+00:00"
+    },
+    {
+      "key": "2026-11-10-is-sailors-gang-making-a-music-comeback-surviving-members-re-emerge",
+      "ts": "2026-11-11T01:25:53.732185+00:00"
     }
   ],
   "urls": [
@@ -803,17 +808,10 @@
     "https://www.mpasho.co.ke/entertainment/2026-11-10-nicole-aiisi-and-family-hold-emotional-send-off-for-beloved-pet-cat",
     "https://www.mpasho.co.ke/entertainment/2026-11-10-kenyan-brian-obuchi-details-technical-role-at-wwe-crown-jewel",
     "https://www.mpasho.co.ke/entertainment/2026-11-10-isaya-yunges-brother-pens-heartfelt-message-after-mwanza-wedding",
-    "https://www.mpasho.co.ke/entertainment/2026-11-10-kwambox-questions-nairobi-air-quality-after-diwali-fireworks"
+    "https://www.mpasho.co.ke/entertainment/2026-11-10-kwambox-questions-nairobi-air-quality-after-diwali-fireworks",
+    "https://www.mpasho.co.ke/entertainment/2026-11-10-is-sailors-gang-making-a-music-comeback-surviving-members-re-emerge"
   ],
   "published_angles": [
-    {
-      "title": "The Digital Safety Net: How Social Media Became Kenya\u2019s Volatile Court of Appeal",
-      "angle": "Analyzing these diverse incidents collectively to expose a deeper structural shift: the rise of a volatile online attention economy as an ad-hoc substitute for failing institutional safety nets in Kenya.",
-      "angle_type": "local impact",
-      "opening": "Analytical lead establishing the shift of survival mechanisms to digital platforms due to institutional gaps.",
-      "structure": "Thematic breakdown focusing on crowd-funded survival, the rapid depreciation of viral attention, and the real-world security risks of public exposure.",
-      "source": "https://www.mpasho.co.ke/human-interest"
-    },
     {
       "title": "Terence Creative Challenges High-Rolling Forex Traders to Swap Nightclub Hennessy Rituals for 100 School Buses",
       "angle": "Framing Terence Creative's 100-bus challenge as a direct test of public accountability for Kenya's viral digital-wealth flex culture, contrasting wasteful nightlife rituals with tangible social utility.",
@@ -1605,6 +1603,14 @@
       "opening": "Personality lead opening directly on Kwambox experiencing immediate chest heaviness and sneezing upon entering Westlands after hours of continuous pyrotechnics.",
       "structure": "Personality lead -> Environmental dynamics in Westlands corridor -> Verbatim boundary stance on public health vs. tradition -> AQI metric comparisons & county enforcement rules -> Technological alternative close (drone displays)",
       "source": "https://www.mpasho.co.ke/entertainment/2026-11-10-kwambox-questions-nairobi-air-quality-after-diwali-fireworks"
+    },
+    {
+      "title": "Sailors Gang Locks Roster at Five as Surviving Quartet Breaks Four-Year Silence",
+      "angle": "Reframing the group's public re-emergence around their refusal to mathematically shrink into a four-piece ensemble, deliberately locking their brand identity permanently at five members around Shalkido's memory before entertaining any musical revival.",
+      "angle_type": "brand identity preservation and brotherhood arithmetic in grief",
+      "opening": "Personality lead opening directly on Sailors Gang setting their brand arithmetic at five despite four surviving members standing, anchoring their return statement on Shalkido's lasting footprint.",
+      "structure": "Personality hook on the 'always five' declaration -> Exact tribute wording and acknowledgment of quiet behind-the-scenes struggles -> Examination of the unannounced comeback teaser ('our story isn't over') -> Contextualizing their gengetone legacy and four-year silence -> Concrete industry status close",
+      "source": "https://www.mpasho.co.ke/entertainment/2026-11-10-is-sailors-gang-making-a-music-comeback-surviving-members-re-emerge"
     }
   ]
 }
