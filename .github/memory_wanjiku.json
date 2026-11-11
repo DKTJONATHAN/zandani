@@ -429,7 +429,8 @@
     "0fc61684f72cb97287257c6ce3900ed7c5c2f07973070ed193f9322ba0c02eb0",
     "044f2800aa6b559a777d16875d5da33899530fa6d3b111aa590040b7d0ef9193",
     "48a6096ad4805d423e82a44a7ad33866fbb57730bd0f1a27961e95377bfab7b0",
-    "718c9c6b2da0089557259da0b25514a4cee023711cb383ed3f98d4a0fe364982"
+    "718c9c6b2da0089557259da0b25514a4cee023711cb383ed3f98d4a0fe364982",
+    "206aa74688726b8b068992deeaaf93266314d09cee0e76d443cf024c3dd2bcda"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -861,17 +862,10 @@
     "https://www.ghafla.co.ke/sailors-will-always-be-five-sailors-gang-breaks-long-silence-to-mourn-late-member-shalkido/",
     "https://www.ghafla.co.ke/tutamuapisha-talanta-stadium-eddie-butita-weighs-in-on-rutos-2027-re-election-chances-and-political-unity/",
     "https://www.ghafla.co.ke/size-8-reveals-doctors-feared-she-could-die-if-she-fell-asleep-during-childbirth/",
-    "https://www.ghafla.co.ke/alex-mwakideu-questions-whether-kenya-should-take-tougher-action-against-lgbtq-community/"
+    "https://www.ghafla.co.ke/alex-mwakideu-questions-whether-kenya-should-take-tougher-action-against-lgbtq-community/",
+    "https://www.ghafla.co.ke/if-i-slept-i-would-die-size-8-details-terrifying-complications-during-birth-of-her-son/"
   ],
   "published_angles": [
-    {
-      "title": "Oburu Deploys Two-Tier Committee Playbook to Silence ODM Dissent Over Ruto Pact",
-      "angle": "The operational structure behind the party alignment, specifically the deployment of two separate committees\u2014a technical team and an upcoming coalition team\u2014to manage internal friction and legal boundaries before February 2027.",
-      "angle_type": "institutional structure and internal party discipline",
-      "opening": "Personality-led hook focusing directly on Oburu Oginga's virtual address and his sharp warning on internal party discipline.",
-      "structure": "Virtual address hook -> Dual-committee strategy (technical vs. coalition teams) -> Party discipline warning against public contradiction -> High-profile attendance list at Jacaranda Grounds.",
-      "source": "https://www.ghafla.co.ke/we-are-not-there-blindly-oburu-oginga-defends-odms-role-in-broad-based-government-2/"
-    },
     {
       "title": "Kawira Mwangaza and Faith Odhiambo Drafted as Edwin Sifuna Unveils Star-Studded Linda Mwananchi Executive",
       "angle": "Highlighting the strategic recruitment of high-profile personalities\u2014specifically featuring former Meru Governor Kawira Mwangaza, former LSK President Faith Odhiambo, and prominent digital commentator Pauline Njoroge\u2014as Edwin Sifuna transforms the movement into a celebrity-backed political executive.",
@@ -1663,6 +1657,14 @@
       "opening": "Personality lead opening directly on Alex Mwakideu cutting through morning radio routine to put Mohammed Ali's anti-LGBTQ campaign to his audience.",
       "structure": "Broadcaster hook -> Mwakideu's breakdown of Mohammed Ali's Coast delegation -> Direct quotes on state intervention -> The specific Penal Code provisions and 14-year threshold -> Broader broadcasting debate context",
       "source": "https://www.ghafla.co.ke/alex-mwakideu-questions-whether-kenya-should-take-tougher-action-against-lgbtq-community/"
+    },
+    {
+      "title": "Size 8 Recounts Neurological Breakdown and Speech Loss in 28-Week Delivery Crisis",
+      "angle": "Focusing on the cumulative physiological and neurological toll on Size 8\u2014specifically tracing how consecutive high-risk reproductive emergencies escalated from an ICU delivery and miscarriage to partial paralysis, speech loss, and a dual-magnesium rescue at 28 weeks.",
+      "angle_type": "celebrity maternal health and neurological trauma",
+      "opening": "Personality lead opening directly on Size 8 cataloguing the extreme physical breakdown\u2014including nerve damage, speech loss, and left-sided paralysis\u2014that pushed her body to the edge before delivering Muraya Junior at 28 weeks.",
+      "structure": "Personality health hook -> Neurological breakdown and the 28-week threshold -> The dual-magnesium delivery and 1.7kg preterm birth -> The cumulative history across three pregnancies (ICU transfer & miscarriage) -> Daddy Owen sit-down context and long-term marital weight",
+      "source": "https://www.ghafla.co.ke/if-i-slept-i-would-die-size-8-details-terrifying-complications-during-birth-of-her-son/"
     }
   ],
   "style_history": [
