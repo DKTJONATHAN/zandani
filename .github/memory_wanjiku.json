@@ -431,7 +431,8 @@
     "48a6096ad4805d423e82a44a7ad33866fbb57730bd0f1a27961e95377bfab7b0",
     "718c9c6b2da0089557259da0b25514a4cee023711cb383ed3f98d4a0fe364982",
     "206aa74688726b8b068992deeaaf93266314d09cee0e76d443cf024c3dd2bcda",
-    "bf2c512f019e87fde93d58687cd11bc6c481750740721608c7cee42fbf6188c9"
+    "bf2c512f019e87fde93d58687cd11bc6c481750740721608c7cee42fbf6188c9",
+    "f2262b23b3386b224b3cc8ab60fe9be19d0f926b32bce50f039533999889d8ea"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -865,17 +866,10 @@
     "https://www.ghafla.co.ke/size-8-reveals-doctors-feared-she-could-die-if-she-fell-asleep-during-childbirth/",
     "https://www.ghafla.co.ke/alex-mwakideu-questions-whether-kenya-should-take-tougher-action-against-lgbtq-community/",
     "https://www.ghafla.co.ke/if-i-slept-i-would-die-size-8-details-terrifying-complications-during-birth-of-her-son/",
-    "https://www.ghafla.co.ke/comedian-yy-blames-kenyan-footbal-fans-for-poor-footballer-salaries/"
+    "https://www.ghafla.co.ke/comedian-yy-blames-kenyan-footbal-fans-for-poor-footballer-salaries/",
+    "https://www.ghafla.co.ke/kenyan-domestic-worker-sentenced-to-100-lashes-in-saudi-arabia-for-birth-outside-marriage/"
   ],
   "published_angles": [
-    {
-      "title": "Oburu Oginga Beams Into Jacaranda Rally from Recovery to Read Discipline Act to ODM Heavyweights",
-      "angle": "Focusing on Oburu's virtual stage presence from illness recovery during the emotional climax of the Mwezi wa Baba finale, using the platform to issue a direct discipline reprimand to high-profile leaders assembled on stage.",
-      "angle_type": "personality lead and public reprimand",
-      "opening": "Personality lead opening directly on Oburu Oginga making a virtual appearance at Jacaranda Grounds during his health recovery.",
-      "structure": "Virtual appearance hook -> Jacaranda rally stage lineup -> Party discipline reprimand -> Broad-based strategy framing -> Closing on February 2027 roadmap",
-      "source": "https://www.ghafla.co.ke/we-are-not-there-blindly-oburu-oginga-defends-odms-role-in-broad-based-government/"
-    },
     {
       "title": "Okiya Omtatah Calls Out Online Clout-Chasers for Botched Fake Card Weaponising His Name Against Sifuna",
       "angle": "Omtatah's sharp takedown of internet clout-chasers attempting to weaponise his courtroom reputation against Edwin Sifuna's newly unveiled outfit, punctuated by a glaring typo on his own surname.",
@@ -1667,6 +1661,14 @@
       "opening": "Personality lead opening directly on YY turning his online platform into a commercial blackboard to confront fans over domestic footballers' wages.",
       "structure": "Personality lead hook -> The Kasarani Ksh 60M math and Ksh 1B league projection -> Corporate sponsor and broadcast rights ripple effect -> Hooliganism and teargas caveat -> Closing call to action at the turnstiles",
       "source": "https://www.ghafla.co.ke/comedian-yy-blames-kenyan-footbal-fans-for-poor-footballer-salaries/"
+    },
+    {
+      "title": "Muthoni Stranded at Riyadh Petrol Station as 100-Lash Sentence Hangs Over Out-of-Wedlock Birth",
+      "angle": "Focusing on the compounding cascade of abandonment\u2014tracing how an eviction and the quiet departure of her Egyptian partner forced Muthoni to seek shelter at a Riyadh filling station with an infant, while Kenyan consular officials remained entirely inactive.",
+      "angle_type": "personal ordeal and diplomatic abandonment",
+      "opening": "Personality lead opening directly on Muthoni nursing her newborn at a Riyadh filling station while facing a 100-lash sentence.",
+      "structure": "Personality hook at petrol station -> Hospital detention and pregnancy backstory -> Partner's departure and eviction -> Sharia court conviction and bamboo cane mechanics -> Diplomatic vacuum and expired travel document crisis close",
+      "source": "https://www.ghafla.co.ke/kenyan-domestic-worker-sentenced-to-100-lashes-in-saudi-arabia-for-birth-outside-marriage/"
     }
   ],
   "style_history": [
