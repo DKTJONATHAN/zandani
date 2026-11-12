@@ -440,7 +440,8 @@
     "eb7dee02dd859d8c71e384ccf49f5f4d7d07e90e8f5906ec4de689c14c5757ba",
     "86764af0e60233091c090ea2331b7f3c519ea67999acd94a2361b15be4ed099b",
     "59ec78eae220626f833a9496741fbbb863fbfa8b02cf7a79e429e923f8891a91",
-    "eccf4e48040b929e4ed16e1ad14072535dca4c17bd7095e4f088685d239a53b2"
+    "eccf4e48040b929e4ed16e1ad14072535dca4c17bd7095e4f088685d239a53b2",
+    "3837d18ae151b36e3e4b25c3a61cdd65d873405abde578b0b541b917904cd0b6"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -883,17 +884,10 @@
     "https://www.ghafla.co.ke/no-homegrown-mp-bahati-faults-outside-candidates-for-slow-development-in-mathare/",
     "https://www.ghafla.co.ke/he-should-have-been-sentenced-to-death-pastor-nganga-reacts-to-paul-mackenzies-200-year-jail-term/",
     "https://www.ghafla.co.ke/charlene-ruto-and-husband-isaya-yunge-impress-worshippers-with-humble-church-appearance/",
-    "https://www.ghafla.co.ke/toxic-lyrikali-confirms-performance-at-geoffrey-mosirias-free-10-year-humanitarian-celebration/"
+    "https://www.ghafla.co.ke/toxic-lyrikali-confirms-performance-at-geoffrey-mosirias-free-10-year-humanitarian-celebration/",
+    "https://www.ghafla.co.ke/kenya-met-forecasts-rainfall-across-nairobi-and-38-counties-this-thursday/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018Njambi wa Mhesh\u2019: Samidoh and Edday Nderitu Trade Warm Pet Names as US-Kenya Distance Thaws",
-      "angle": "Focusing on the shift in public rhetoric\u2014specifically how the online dialogue moved from a firm refusal of polygamy and a 2023 US relocation to explicit public affirmation of enduring spousal roles and shared pet names ('Njambi wa Mhesh').",
-      "angle_type": "celebrity relationship rhetoric shift",
-      "opening": "Personality lead opening directly on Samidoh's specific public comment reply to Edday Nderitu's birthday post.",
-      "structure": "Instagram exchange hook -> Detailed quotes from Edday and Samidoh -> Contrast with 2023 US departure and polygamy stance -> 2026 tour reunion trajectory -> Concrete closing state.",
-      "source": "https://www.ghafla.co.ke/samidoh-responds-to-edday-nderitus-heartfelt-birthday-message-amid-reconciliation/"
-    },
     {
       "title": "Rigathi Gachagua Swaps VIP Convoy for Probox in Secret JKIA Slip to Nyeri",
       "angle": "Examining the operational mechanics of Gachagua's stealth travel maneuver\u2014swapping high-profile motorcades and standard security protocols for a basic utility vehicle and complete digital blackout to bypass tracking.",
@@ -1685,6 +1679,14 @@
       "opening": "Personality lead opening directly on the TikTok announcement pairing Toxic Lyrikali's performance with Mosiria's 2027 gubernatorial messaging.",
       "structure": "TikTok mobilization hook -> The Thika Road venue and event economics -> Mosiria's humanitarian background -> City Hall fallout and Sakaja dismissal context -> Concrete close on the 2027 gubernatorial ballot challenge.",
       "source": "https://www.ghafla.co.ke/toxic-lyrikali-confirms-performance-at-geoffrey-mosirias-free-10-year-humanitarian-celebration/"
+    },
+    {
+      "title": "16-Degree Temperature Divide and 50mm Downpours: Inside Kenya Met\u2019s 39-County Thursday Outlook",
+      "angle": "Focusing on the severe regional microclimate divide\u2014contrasting the 16-degree temperature gap between Turkana and Nyandarua with heavy 50mm afternoon thunderstorm surges across the Rift Valley.",
+      "angle_type": "microclimate contrast and regional impact",
+      "opening": "Direct personality and regional lead opening on the 16-degree temperature contrast and high-volume thunderstorm alerts.",
+      "structure": "Regional temperature disparity hook -> Capital and Central morning-to-afternoon transition -> Rift Valley heavy rainfall escalation (21-50mm) -> Northern and Lake Victoria thunderstorm tracking -> Coastal sunny exception close.",
+      "source": "https://www.ghafla.co.ke/kenya-met-forecasts-rainfall-across-nairobi-and-38-counties-this-thursday/"
     }
   ],
   "style_history": [
