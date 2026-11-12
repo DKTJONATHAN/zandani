@@ -439,7 +439,8 @@
     "dfa5d03da5a3054ddea1115f1e62fbb0742121b97b62f9015f8ded46866bd6be",
     "eb7dee02dd859d8c71e384ccf49f5f4d7d07e90e8f5906ec4de689c14c5757ba",
     "86764af0e60233091c090ea2331b7f3c519ea67999acd94a2361b15be4ed099b",
-    "59ec78eae220626f833a9496741fbbb863fbfa8b02cf7a79e429e923f8891a91"
+    "59ec78eae220626f833a9496741fbbb863fbfa8b02cf7a79e429e923f8891a91",
+    "eccf4e48040b929e4ed16e1ad14072535dca4c17bd7095e4f088685d239a53b2"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -881,17 +882,10 @@
     "https://www.ghafla.co.ke/life-has-been-hard-without-you-tash-gitau-pens-emotional-one-year-tribute-to-late-wife-betty-bayo/",
     "https://www.ghafla.co.ke/no-homegrown-mp-bahati-faults-outside-candidates-for-slow-development-in-mathare/",
     "https://www.ghafla.co.ke/he-should-have-been-sentenced-to-death-pastor-nganga-reacts-to-paul-mackenzies-200-year-jail-term/",
-    "https://www.ghafla.co.ke/charlene-ruto-and-husband-isaya-yunge-impress-worshippers-with-humble-church-appearance/"
+    "https://www.ghafla.co.ke/charlene-ruto-and-husband-isaya-yunge-impress-worshippers-with-humble-church-appearance/",
+    "https://www.ghafla.co.ke/toxic-lyrikali-confirms-performance-at-geoffrey-mosirias-free-10-year-humanitarian-celebration/"
   ],
   "published_angles": [
-    {
-      "title": "Dennis Elnino Highlights 25-Knot Wind Alert as Kenya Met Tracks 27-Degree Temperature Gap",
-      "angle": "Spotlighting the high-wind hazard alert exceeding 25 knots in northern pastoral counties alongside the extreme 27-degree national temperature gap between Turkana and Nyandarua.",
-      "angle_type": "wind hazard and thermal variance",
-      "opening": "Personality lead featuring creator/developer Dennis Elnino detailing the severe wind alert and temperature split.",
-      "structure": "Creator hook -> Northern high-wind advisory -> National temperature variance -> Regional afternoon rain acceleration -> Lowland showers breakdown -> Coastal and night forecast close.",
-      "source": "https://www.ghafla.co.ke/kenya-met-issues-24-hour-weather-advisory-rain-expected-across-30-counties/"
-    },
     {
       "title": "\u2018Njambi wa Mhesh\u2019: Samidoh and Edday Nderitu Trade Warm Pet Names as US-Kenya Distance Thaws",
       "angle": "Focusing on the shift in public rhetoric\u2014specifically how the online dialogue moved from a firm refusal of polygamy and a 2023 US relocation to explicit public affirmation of enduring spousal roles and shared pet names ('Njambi wa Mhesh').",
@@ -1683,6 +1677,14 @@
       "opening": "Personality lead opening directly on the couple's arrival at the Mwanza church in a black G-Class SUV following their high-profile nuptials.",
       "structure": "SUV arrival hook -> The transition from Malaika Beach Hotel to AIC Nyanguge -> Back-row seating and Bible study mechanics -> Congregational prayer invocation -> Concrete close on their early public schedule.",
       "source": "https://www.ghafla.co.ke/charlene-ruto-and-husband-isaya-yunge-impress-worshippers-with-humble-church-appearance/"
+    },
+    {
+      "title": "Toxic Lyrikali Joins Ousted Official Geoffrey Mosiria\u2019s Free Concert as 2027 Gubernatorial Bid Takes Shape",
+      "angle": "The tactical pivot of an ousted county official leveraging public-facing grassroots philanthropy and free concert mobilization to anchor his 2027 gubernatorial ambitions against Governor Johnson Sakaja.",
+      "angle_type": "political positioning and event mobilization",
+      "opening": "Personality lead opening directly on the TikTok announcement pairing Toxic Lyrikali's performance with Mosiria's 2027 gubernatorial messaging.",
+      "structure": "TikTok mobilization hook -> The Thika Road venue and event economics -> Mosiria's humanitarian background -> City Hall fallout and Sakaja dismissal context -> Concrete close on the 2027 gubernatorial ballot challenge.",
+      "source": "https://www.ghafla.co.ke/toxic-lyrikali-confirms-performance-at-geoffrey-mosirias-free-10-year-humanitarian-celebration/"
     }
   ],
   "style_history": [
