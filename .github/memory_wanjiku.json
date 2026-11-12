@@ -441,7 +441,8 @@
     "86764af0e60233091c090ea2331b7f3c519ea67999acd94a2361b15be4ed099b",
     "59ec78eae220626f833a9496741fbbb863fbfa8b02cf7a79e429e923f8891a91",
     "eccf4e48040b929e4ed16e1ad14072535dca4c17bd7095e4f088685d239a53b2",
-    "3837d18ae151b36e3e4b25c3a61cdd65d873405abde578b0b541b917904cd0b6"
+    "3837d18ae151b36e3e4b25c3a61cdd65d873405abde578b0b541b917904cd0b6",
+    "ebd4b11313ee6b0d83a5f2f6b7df6a4547ab41ddacb576813d32bf3f7ca7e9da"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -885,17 +886,10 @@
     "https://www.ghafla.co.ke/he-should-have-been-sentenced-to-death-pastor-nganga-reacts-to-paul-mackenzies-200-year-jail-term/",
     "https://www.ghafla.co.ke/charlene-ruto-and-husband-isaya-yunge-impress-worshippers-with-humble-church-appearance/",
     "https://www.ghafla.co.ke/toxic-lyrikali-confirms-performance-at-geoffrey-mosirias-free-10-year-humanitarian-celebration/",
-    "https://www.ghafla.co.ke/kenya-met-forecasts-rainfall-across-nairobi-and-38-counties-this-thursday/"
+    "https://www.ghafla.co.ke/kenya-met-forecasts-rainfall-across-nairobi-and-38-counties-this-thursday/",
+    "https://www.ghafla.co.ke/willy-paul-hints-at-quitting-music-if-upcoming-album-fails-to-meet-expectations/"
   ],
   "published_angles": [
-    {
-      "title": "Rigathi Gachagua Swaps VIP Convoy for Probox in Secret JKIA Slip to Nyeri",
-      "angle": "Examining the operational mechanics of Gachagua's stealth travel maneuver\u2014swapping high-profile motorcades and standard security protocols for a basic utility vehicle and complete digital blackout to bypass tracking.",
-      "angle_type": "operational travel maneuver and low-profile security trade-off",
-      "opening": "Personality lead opening directly on Gachagua detailing his deliberate switch to a Toyota Probox at JKIA.",
-      "structure": "Personality hook -> Operational secrecy tactics -> Vehicle swap strategy -> US departure and return timeline -> Wamunyoro political re-emergence close",
-      "source": "https://www.ghafla.co.ke/gachagua-admits-using-a-probox-from-jkia-after-secret-return-from-us/"
-    },
     {
       "title": "Ferdinand Waititu Slapped With 13-Year Term That Adds Zero Prison Days as Wife Faces Ksh 22M Bill",
       "angle": "Spotlighting the stark contrast inside the courtroom: Ferdinand Waititu dodging any additional time behind bars thanks to concurrent sentencing technicalities, while his wife Susan Wangari walks away facing an immediate Ksh 22 million cash bill across three counts.",
@@ -1687,6 +1681,14 @@
       "opening": "Direct personality and regional lead opening on the 16-degree temperature contrast and high-volume thunderstorm alerts.",
       "structure": "Regional temperature disparity hook -> Capital and Central morning-to-afternoon transition -> Rift Valley heavy rainfall escalation (21-50mm) -> Northern and Lake Victoria thunderstorm tracking -> Coastal sunny exception close.",
       "source": "https://www.ghafla.co.ke/kenya-met-forecasts-rainfall-across-nairobi-and-38-counties-this-thursday/"
+    },
+    {
+      "title": "Willy Paul Stakes Music Career on Next Album in All-or-Nothing Exit Threat",
+      "angle": "Framing the ultimatum through the lens of artistic exhaustion\u2014specifically how Willy Paul has staked his continued presence in the industry on an undefined success benchmark for an untitled project to escape a draining production cycle.",
+      "angle_type": "career crossroads and industry burnout",
+      "opening": "Personality lead opening directly on Willy Paul placing his entire recording future on the line with a single high-stakes ultimatum.",
+      "structure": "Personality ultimatum lead -> The 'drained cycle' confession and verbatim warning -> Absence of release metrics and project specifics -> Context of career longevity vs industry treadmill -> Unresolved terms of exit",
+      "source": "https://www.ghafla.co.ke/willy-paul-hints-at-quitting-music-if-upcoming-album-fails-to-meet-expectations/"
     }
   ],
   "style_history": [
