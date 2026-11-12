@@ -444,7 +444,8 @@
     "3837d18ae151b36e3e4b25c3a61cdd65d873405abde578b0b541b917904cd0b6",
     "ebd4b11313ee6b0d83a5f2f6b7df6a4547ab41ddacb576813d32bf3f7ca7e9da",
     "f9372c021593284ff51ce4807dd307e5c95c84b81423d720ccc766ecc28e35f1",
-    "c300bcfb9280fb12fb0dc22e7b5b2259ab0f781bdd4f61a35797d191ca4b9db9"
+    "c300bcfb9280fb12fb0dc22e7b5b2259ab0f781bdd4f61a35797d191ca4b9db9",
+    "e7419a33151014e9ba5f81bd91b9df73673f4daae4f50496984bf3dd75103d55"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -891,17 +892,10 @@
     "https://www.ghafla.co.ke/kenya-met-forecasts-rainfall-across-nairobi-and-38-counties-this-thursday/",
     "https://www.ghafla.co.ke/willy-paul-hints-at-quitting-music-if-upcoming-album-fails-to-meet-expectations/",
     "https://www.ghafla.co.ke/el-nino-delay-explained-why-nairobi-and-parts-of-kenya-may-miss-anticipated-heavy-rains/",
-    "https://www.ghafla.co.ke/janet-mbugua-and-mercy-masika-meet-weeks-after-public-disagreement-over-marriage-masterclass/"
+    "https://www.ghafla.co.ke/janet-mbugua-and-mercy-masika-meet-weeks-after-public-disagreement-over-marriage-masterclass/",
+    "https://www.ghafla.co.ke/chebet-ronoh-to-face-sheila-kiguta-in-kenyas-first-female-celebrity-boxing-match/"
   ],
   "published_angles": [
-    {
-      "title": "Chebet Ronoh Details How Ksh 1.5M Monthly Brand Paydays Vanished Into Bar Tabs and Validation",
-      "angle": "The commercial boom-and-bust cycle of Kenya's pioneering creator economy\u2014focusing specifically on how sudden Ksh 1.5 million monthly corporate paydays were poured into barroom validation before an in-house family crisis triggered her journey to rehab.",
-      "angle_type": "creator financial reality and substance recovery",
-      "opening": "Direct personality lead introducing Chebet Ronoh confronting the financial and behavioral reality behind her peak influencer earnings.",
-      "structure": "Personality lead on peak earnings vs alcohol burn -> Breakdown of the Ksh 1.5 million monthly corporate windfall and validation trap -> The personal behavioral reckoning ('different drinker') -> The domestic crisis and family-directed rehab check-in -> Sobriety stance and public message.",
-      "source": "https://www.ghafla.co.ke/chebet-ronoh-reveals-how-she-lost-deals-worth-millions-income-because-of-alcohol-addiction/"
-    },
     {
       "title": "\u2018I Employ Journalists, I\u2019m Not One\u2019: Oga Obinna Shields Digital Empire From Political Monetisation Ethics",
       "angle": "Framing Obinna's response as a corporate firewall strategy\u2014using his dual status as a platform owner who hires journalists while remaining an unconstrained entertainment host to shield his political monetization from newsroom ethics.",
@@ -1693,6 +1687,14 @@
       "opening": "Personality lead opening directly on Janet Mbugua and Mercy Masika on a studio set.",
       "structure": "Studio sit-down hook -> Joint Instagram statement breakdown -> Mbugua's original critique on male accountability and GBV -> The public figure line-up split -> Masterclass timeline and broadcast close.",
       "source": "https://www.ghafla.co.ke/janet-mbugua-and-mercy-masika-meet-weeks-after-public-disagreement-over-marriage-masterclass/"
+    },
+    {
+      "title": "Chebet Ronoh and Sheila Kiguta Step Into The Alchemist Ring as Celebrity Fight Nights Expands",
+      "angle": "Examining the specific programming shift behind the card\u2014how HustleSasa and Barak Jacuzzi responded directly to podcaster Mariah's public call for female representation after the second edition.",
+      "angle_type": "institutional programming shift and public accountability demand",
+      "opening": "Personality lead focusing directly on Chebet Ronoh swapping online banter for the boxing ring alongside Sheila Kiguta.",
+      "structure": "Personality hook -> The promoter-creator pipeline and Mariah's catalyst call -> Event logistics at The Alchemist -> The broader fight card and series history -> Concrete close on the November 29 match date.",
+      "source": "https://www.ghafla.co.ke/chebet-ronoh-to-face-sheila-kiguta-in-kenyas-first-female-celebrity-boxing-match/"
     }
   ],
   "style_history": [
