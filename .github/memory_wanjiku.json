@@ -442,7 +442,8 @@
     "59ec78eae220626f833a9496741fbbb863fbfa8b02cf7a79e429e923f8891a91",
     "eccf4e48040b929e4ed16e1ad14072535dca4c17bd7095e4f088685d239a53b2",
     "3837d18ae151b36e3e4b25c3a61cdd65d873405abde578b0b541b917904cd0b6",
-    "ebd4b11313ee6b0d83a5f2f6b7df6a4547ab41ddacb576813d32bf3f7ca7e9da"
+    "ebd4b11313ee6b0d83a5f2f6b7df6a4547ab41ddacb576813d32bf3f7ca7e9da",
+    "f9372c021593284ff51ce4807dd307e5c95c84b81423d720ccc766ecc28e35f1"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -887,17 +888,10 @@
     "https://www.ghafla.co.ke/charlene-ruto-and-husband-isaya-yunge-impress-worshippers-with-humble-church-appearance/",
     "https://www.ghafla.co.ke/toxic-lyrikali-confirms-performance-at-geoffrey-mosirias-free-10-year-humanitarian-celebration/",
     "https://www.ghafla.co.ke/kenya-met-forecasts-rainfall-across-nairobi-and-38-counties-this-thursday/",
-    "https://www.ghafla.co.ke/willy-paul-hints-at-quitting-music-if-upcoming-album-fails-to-meet-expectations/"
+    "https://www.ghafla.co.ke/willy-paul-hints-at-quitting-music-if-upcoming-album-fails-to-meet-expectations/",
+    "https://www.ghafla.co.ke/el-nino-delay-explained-why-nairobi-and-parts-of-kenya-may-miss-anticipated-heavy-rains/"
   ],
   "published_angles": [
-    {
-      "title": "Ferdinand Waititu Slapped With 13-Year Term That Adds Zero Prison Days as Wife Faces Ksh 22M Bill",
-      "angle": "Spotlighting the stark contrast inside the courtroom: Ferdinand Waititu dodging any additional time behind bars thanks to concurrent sentencing technicalities, while his wife Susan Wangari walks away facing an immediate Ksh 22 million cash bill across three counts.",
-      "angle_type": "celebrity legal reality check and spousal penalty split",
-      "opening": "Personality lead opening directly on Ferdinand Waititu walking out of court with a 13-year headline that leaves his prison calendar untouched while passing the immediate financial burden to his wife.",
-      "structure": "Personality hook on concurrent sentence cushion -> Breakdown of the 13-year counts and fine options -> Focus on Susan Wangari's Ksh 22M liability -> Legal grounding in Justice Rose Ougo's paragraph 317 concurrent ruling -> Closing on the joint courtroom aftermath.",
-      "source": "https://www.ghafla.co.ke/former-kiambu-governor-ferdinand-waititu-handed-13-year-sentence-in-ksh588m-graft-case/"
-    },
     {
       "title": "Johnson Sakaja Completes ODM Switch at Chungwa House Months After Junet Mohamed\u2019s Reelection Warning",
       "angle": "Focusing on how Sakaja's official move to Chungwa House fulfills Junet Mohamed's earlier Kileleshwa warning and completes the political shift set in motion by late Raila Odinga's late-2025 backing.",
@@ -1689,6 +1683,14 @@
       "opening": "Personality lead opening directly on Willy Paul placing his entire recording future on the line with a single high-stakes ultimatum.",
       "structure": "Personality ultimatum lead -> The 'drained cycle' confession and verbatim warning -> Absence of release metrics and project specifics -> Context of career longevity vs industry treadmill -> Unresolved terms of exit",
       "source": "https://www.ghafla.co.ke/willy-paul-hints-at-quitting-music-if-upcoming-album-fails-to-meet-expectations/"
+    },
+    {
+      "title": "Richard Muita Hits Spice FM Mic to Unpack Why Nairobi\u2019s El Ni\u00f1o Downpours Misfired",
+      "angle": "Focus on meteorologist Richard Muita taking to the morning radio airwaves on Spice FM to directly dismantle the public assumption that a global El Ni\u00f1o signal automatically guarantees local downpours without Indian Ocean support.",
+      "angle_type": "personality radio breakdown and science communication reality check",
+      "opening": "Personality lead opening directly on Eastern Region Meteorological Services Deputy Director Richard Muita stepping up to the Spice FM studio microphone to address public confusion.",
+      "structure": "Radio interview personality hook -> The WMO global expectation vs reality -> Distinction between climate drivers and actual rainfall -> The Indian Ocean Dipole mechanics breakdown -> Concrete close on local atmospheric conditions.",
+      "source": "https://www.ghafla.co.ke/el-nino-delay-explained-why-nairobi-and-parts-of-kenya-may-miss-anticipated-heavy-rains/"
     }
   ],
   "style_history": [
