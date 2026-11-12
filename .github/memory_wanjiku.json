@@ -436,7 +436,8 @@
     "ca95a1065e66479b4cb7a9b626e414c7bc8368896c84dc4e15922248c3c4f8f2",
     "bae5a1408372e8eb78b97a36322fcd25ecf5460fc28f5d57e4b5b9c56f20bfaa",
     "74bb56375d0ecaad4670cd72c0b40dc0297dc6fdf12cb5af3118751e4bd08dd5",
-    "dfa5d03da5a3054ddea1115f1e62fbb0742121b97b62f9015f8ded46866bd6be"
+    "dfa5d03da5a3054ddea1115f1e62fbb0742121b97b62f9015f8ded46866bd6be",
+    "eb7dee02dd859d8c71e384ccf49f5f4d7d07e90e8f5906ec4de689c14c5757ba"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -875,17 +876,10 @@
     "https://www.ghafla.co.ke/mike-sonko-hints-at-kalonzo-musyoka-working-with-ruto-ahead-of-2027/",
     "https://www.ghafla.co.ke/bahati-reveals-millions-he-raised-after-wedding-eventty/",
     "https://www.ghafla.co.ke/how-to-diversify-a-business-in-kenya-entrepreneur-maureen-orangos-lessons/",
-    "https://www.ghafla.co.ke/life-has-been-hard-without-you-tash-gitau-pens-emotional-one-year-tribute-to-late-wife-betty-bayo/"
+    "https://www.ghafla.co.ke/life-has-been-hard-without-you-tash-gitau-pens-emotional-one-year-tribute-to-late-wife-betty-bayo/",
+    "https://www.ghafla.co.ke/no-homegrown-mp-bahati-faults-outside-candidates-for-slow-development-in-mathare/"
   ],
   "published_angles": [
-    {
-      "title": "November 2026 Climate Outlook Pairs Elevated Rains With Countrywide Warmth Across 43 Counties",
-      "angle": "Focusing on the concurrent meteorological dynamic: widespread, above-average precipitation arriving alongside nationwide elevated thermal conditions throughout November 2026.",
-      "angle_type": "dual meteorological profile and thermal intensity",
-      "opening": "Direct focus on the dual climate forecast\u2014above-average rainfall spanning over 40 counties alongside warmer-than-normal temperatures across the entire country.",
-      "structure": "Dual forecast condition lead -> Regional rain distribution breakdown -> Northern pastoral zone specifics -> Nationwide thermal projection breakdown -> Closing fact on November weather conditions.",
-      "source": "https://www.ghafla.co.ke/kenya-weather-above-average-rainfall-expected-in-most-counties-in-november-2026/"
-    },
     {
       "title": "Alex Mwakideu Calls Out Fans Planning Political Merch Hijack at Bayern Munich vs Ajax Match",
       "angle": "Framing Mwakideu's stance from an entertainment perspective\u2014calling out online fan zealotry that threatens to turn international stadium showcase culture into a 'Wantam vs Tutam' political arena, while defending Sifuna's right to just be an unbothered football fan.",
@@ -1677,6 +1671,14 @@
       "opening": "Personality lead opening directly on Tash Gitau confronting the twelve-month milestone of sole caregiving following Betty Bayo's passing.",
       "structure": "Widower's anniversary hook -> Custody and blended family dynamics with Pastor Kanyari -> Specific memorial reflections -> Concrete close on the ongoing family routine.",
       "source": "https://www.ghafla.co.ke/life-has-been-hard-without-you-tash-gitau-pens-emotional-one-year-tribute-to-late-wife-betty-bayo/"
+    },
+    {
+      "title": "Bahati Details Campaign Trail Epiphany: How VIP Gigs and Ghetto Goons Pushed Him Into Mathare Race",
+      "angle": "Centering on Bahati's backstage reckoning on the campaign trail\u2014specifically how the contrast between pocketing performance fees to endorse political elites and watching his former schoolmates hired as street goons drove his impulsive, ill-timed 2022 bid, reshaping his early tactical runway for 2027.",
+      "angle_type": "celebrity campaign trail awakening and political mechanics",
+      "opening": "Personality lead focusing on Bahati confronting the hypocrisy of his past lucrative campaign trail bookings versus the reality of Mathare's ground politics.",
+      "structure": "Campaign gig epiphany hook -> The goon economy vs VIP stage contrast -> Mechanism of coalition ticket-dumping in Mathare -> Dissecting the 2022 8,166-vote ballot reality -> Groundwork and timing reset for 2027",
+      "source": "https://www.ghafla.co.ke/no-homegrown-mp-bahati-faults-outside-candidates-for-slow-development-in-mathare/"
     }
   ],
   "style_history": [
