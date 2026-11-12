@@ -443,7 +443,8 @@
     "eccf4e48040b929e4ed16e1ad14072535dca4c17bd7095e4f088685d239a53b2",
     "3837d18ae151b36e3e4b25c3a61cdd65d873405abde578b0b541b917904cd0b6",
     "ebd4b11313ee6b0d83a5f2f6b7df6a4547ab41ddacb576813d32bf3f7ca7e9da",
-    "f9372c021593284ff51ce4807dd307e5c95c84b81423d720ccc766ecc28e35f1"
+    "f9372c021593284ff51ce4807dd307e5c95c84b81423d720ccc766ecc28e35f1",
+    "c300bcfb9280fb12fb0dc22e7b5b2259ab0f781bdd4f61a35797d191ca4b9db9"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -889,17 +890,10 @@
     "https://www.ghafla.co.ke/toxic-lyrikali-confirms-performance-at-geoffrey-mosirias-free-10-year-humanitarian-celebration/",
     "https://www.ghafla.co.ke/kenya-met-forecasts-rainfall-across-nairobi-and-38-counties-this-thursday/",
     "https://www.ghafla.co.ke/willy-paul-hints-at-quitting-music-if-upcoming-album-fails-to-meet-expectations/",
-    "https://www.ghafla.co.ke/el-nino-delay-explained-why-nairobi-and-parts-of-kenya-may-miss-anticipated-heavy-rains/"
+    "https://www.ghafla.co.ke/el-nino-delay-explained-why-nairobi-and-parts-of-kenya-may-miss-anticipated-heavy-rains/",
+    "https://www.ghafla.co.ke/janet-mbugua-and-mercy-masika-meet-weeks-after-public-disagreement-over-marriage-masterclass/"
   ],
   "published_angles": [
-    {
-      "title": "Johnson Sakaja Completes ODM Switch at Chungwa House Months After Junet Mohamed\u2019s Reelection Warning",
-      "angle": "Focusing on how Sakaja's official move to Chungwa House fulfills Junet Mohamed's earlier Kileleshwa warning and completes the political shift set in motion by late Raila Odinga's late-2025 backing.",
-      "angle_type": "political relocation and strategic endorsement path",
-      "opening": "Personality lead opening directly on Johnson Sakaja completing his political jump from UDA to ODM at Chungwa House.",
-      "structure": "Personality hook on Sakaja's Chungwa House handover -> Simba Arati reception and 2027 ticket confirmation -> Junet Mohamed's Kileleshwa warning context -> Late Raila Odinga's late-2025 endorsement lineage -> Jacaranda Grounds crowd poll catalyst -> Concrete political close on the 2027 Nairobi race",
-      "source": "https://www.ghafla.co.ke/sakaja-officially-defects-from-uda-to-odm-ahead-of-2027-nairobi-gubernatorial-race/"
-    },
     {
       "title": "Chebet Ronoh Details How Ksh 1.5M Monthly Brand Paydays Vanished Into Bar Tabs and Validation",
       "angle": "The commercial boom-and-bust cycle of Kenya's pioneering creator economy\u2014focusing specifically on how sudden Ksh 1.5 million monthly corporate paydays were poured into barroom validation before an in-house family crisis triggered her journey to rehab.",
@@ -1691,6 +1685,14 @@
       "opening": "Personality lead opening directly on Eastern Region Meteorological Services Deputy Director Richard Muita stepping up to the Spice FM studio microphone to address public confusion.",
       "structure": "Radio interview personality hook -> The WMO global expectation vs reality -> Distinction between climate drivers and actual rainfall -> The Indian Ocean Dipole mechanics breakdown -> Concrete close on local atmospheric conditions.",
       "source": "https://www.ghafla.co.ke/el-nino-delay-explained-why-nairobi-and-parts-of-kenya-may-miss-anticipated-heavy-rains/"
+    },
+    {
+      "title": "Janet Mbugua and Mercy Masika Sit Down to Reframe 'Becoming a Wife' Masterclass Controversy",
+      "angle": "Examining how the two public figures pivoted from a sharp online debate over female marital burden versus systemic GBV accountability into a structured studio sit-down reframing domestic safety ahead of the November 21 masterclass launch.",
+      "angle_type": "celebrity dialogue and cultural debate reconciliation",
+      "opening": "Personality lead opening directly on Janet Mbugua and Mercy Masika on a studio set.",
+      "structure": "Studio sit-down hook -> Joint Instagram statement breakdown -> Mbugua's original critique on male accountability and GBV -> The public figure line-up split -> Masterclass timeline and broadcast close.",
+      "source": "https://www.ghafla.co.ke/janet-mbugua-and-mercy-masika-meet-weeks-after-public-disagreement-over-marriage-masterclass/"
     }
   ],
   "style_history": [
