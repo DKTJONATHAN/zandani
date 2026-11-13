@@ -451,7 +451,8 @@
     "77972926123480700fc04f8a714916c87b468c25ea228be0d5eac369e60bb26b",
     "9ea37b479aeb3a86569ec938270d3fba9924da8b47ffba0b50376951190cf918",
     "5125c812575727765dc5a45c27a67e78c1ae0565e0b9c3a6614d1df5727368c0",
-    "373e6f888321d505c3c1d4de490e5124ba96f3d0552e636f7f42dd799ff1d29f"
+    "373e6f888321d505c3c1d4de490e5124ba96f3d0552e636f7f42dd799ff1d29f",
+    "fe2ff6d9a55576cdb79ed54d62bbaeb57e5fb4c70c5c89f0f19fef31c4b796b0"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -905,17 +906,10 @@
     "https://www.ghafla.co.ke/geoffrey-mosiria-declares-2027-governor-bid-after-meeting-gachagua-and-matiangi/",
     "https://www.ghafla.co.ke/kelvin-kinuthia-reacts-to-fda-blindness-warning-on-ozempic-surgery/",
     "https://www.ghafla.co.ke/kenya-on-high-alert-as-western-allies-warn-of-99-ebola-outbreak-risk-in-south-sudan/",
-    "https://www.ghafla.co.ke/tyler-mbaya-gifts-his-daughter-days-after-georgina-njengas-exit-from-rehab/"
+    "https://www.ghafla.co.ke/tyler-mbaya-gifts-his-daughter-days-after-georgina-njengas-exit-from-rehab/",
+    "https://www.ghafla.co.ke/five-feared-dead-after-another-building-collapses-near-sgr-terminus/"
   ],
   "published_angles": [
-    {
-      "title": "Rigathi Gachagua Slams 'Boardroom' Opposition Rivals and Rejects Kalonzo\u2019s Nov 13 Ticket Launch",
-      "angle": "Focusing on Gachagua's strategic attack on 'boardroom politicians' and his veto against Kalonzo Musyoka's early presidential nomination deadline, using his 'truth-teller' persona to set a grassroots ultimatum for any 2027 ticket candidate.",
-      "angle_type": "coalition tactical dispute and grassroots ultimatum",
-      "opening": "Personality lead opening directly on Rigathi Gachagua at his Wamunyoro home framing his public clashes as deliberate 'truth-telling' against hotel-bound allies.",
-      "structure": "Personality hook -> Counter to Justin Muturi's accusations -> Groundwork contrast featuring DCP's 27 rallies -> Tactical veto of Kalonzo's Nov 13 deadline -> Mt. Kenya bargaining terms close.",
-      "source": "https://www.ghafla.co.ke/i-tell-the-truth-rigathi-gachagua-rejects-bullying-allegations-by-opposition/"
-    },
     {
       "title": "Tech Entrepreneur Adam Robinson, Wife and Two Children Among Nine Dead in Florida Learjet Tragedy",
       "angle": "Focusing on the tragic intersection of high-flying tech entrepreneurship, family life, and the human identities behind the nine lives lost, moving beyond the technical flight data to examine the prominent Austin figures and crew involved.",
@@ -1707,6 +1701,14 @@
       "opening": "Personality lead opening directly on Mbaya seated in the dirt alongside Astra's pink bicycle.",
       "structure": "Dirt-ground hook -> Bicycle and gift bag breakdown -> Frame-by-frame snapshot analysis -> Grounded fatherhood narrative -> Concrete milestone close.",
       "source": "https://www.ghafla.co.ke/tyler-mbaya-gifts-his-daughter-days-after-georgina-njengas-exit-from-rehab/"
+    },
+    {
+      "title": "Formwork Failure Triggers Fatal Eight-Storey Syokimau Collapse Near Nairobi SGR Terminus",
+      "angle": "Focusing on the precise mechanical point of failure\u2014 formwork collapse during live upper-floor concrete pouring\u2014 and the ongoing multi-agency emergency search for the missing worker along the Mombasa Road corridor following recent structural failures in Eastleigh.",
+      "angle_type": "structural mechanics and emergency response focus",
+      "opening": "Direct focus on the active concreting operation and upper-floor formwork failure in Syokimau.",
+      "structure": "Formwork failure lead -> Emergency rescue and survivor extraction -> Regional failure context following Eastleigh -> Ongoing site search close",
+      "source": "https://www.ghafla.co.ke/five-feared-dead-after-another-building-collapses-near-sgr-terminus/"
     }
   ],
   "style_history": [
