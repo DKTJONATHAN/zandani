@@ -445,7 +445,8 @@
     "ebd4b11313ee6b0d83a5f2f6b7df6a4547ab41ddacb576813d32bf3f7ca7e9da",
     "f9372c021593284ff51ce4807dd307e5c95c84b81423d720ccc766ecc28e35f1",
     "c300bcfb9280fb12fb0dc22e7b5b2259ab0f781bdd4f61a35797d191ca4b9db9",
-    "e7419a33151014e9ba5f81bd91b9df73673f4daae4f50496984bf3dd75103d55"
+    "e7419a33151014e9ba5f81bd91b9df73673f4daae4f50496984bf3dd75103d55",
+    "0dc19f620affc70dbc3d7aff16c3d81cc15681f5790e693e6fb082d37f7b068a"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -893,17 +894,10 @@
     "https://www.ghafla.co.ke/willy-paul-hints-at-quitting-music-if-upcoming-album-fails-to-meet-expectations/",
     "https://www.ghafla.co.ke/el-nino-delay-explained-why-nairobi-and-parts-of-kenya-may-miss-anticipated-heavy-rains/",
     "https://www.ghafla.co.ke/janet-mbugua-and-mercy-masika-meet-weeks-after-public-disagreement-over-marriage-masterclass/",
-    "https://www.ghafla.co.ke/chebet-ronoh-to-face-sheila-kiguta-in-kenyas-first-female-celebrity-boxing-match/"
+    "https://www.ghafla.co.ke/chebet-ronoh-to-face-sheila-kiguta-in-kenyas-first-female-celebrity-boxing-match/",
+    "https://www.ghafla.co.ke/i-am-blessed-abundantly-isaya-yunge-celebrates-being-charlene-rutos-husband-in-emotional-post/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018I Employ Journalists, I\u2019m Not One\u2019: Oga Obinna Shields Digital Empire From Political Monetisation Ethics",
-      "angle": "Framing Obinna's response as a corporate firewall strategy\u2014using his dual status as a platform owner who hires journalists while remaining an unconstrained entertainment host to shield his political monetization from newsroom ethics.",
-      "angle_type": "creator business model and editorial liability shield",
-      "opening": "Personality lead opening directly on Oga Obinna drawing a line between his comedy host identity and traditional editorial standards.",
-      "structure": "Personality hook -> Obinna's 'employer vs journalist' firewall argument -> John Allan Namu's political patronage warning -> Editorial standards vs entertainment business breakdown -> Closing shift on creator accountability.",
-      "source": "https://www.ghafla.co.ke/im-not-a-journalist-oga-obinna-responds-to-critism-he-is-being-paid-for-political-content-critique/"
-    },
     {
       "title": "Nelson Koech Details State Exit Route for Kenyans Trapped in Russian Military",
       "angle": "Focusing on the operational dual response spotlighted by Koech: pairing a total enlistment freeze with a government repatriation corridor designed to retrieve active recruits and prisoners of war from Eastern European battlefields.",
@@ -1695,6 +1689,14 @@
       "opening": "Personality lead focusing directly on Chebet Ronoh swapping online banter for the boxing ring alongside Sheila Kiguta.",
       "structure": "Personality hook -> The promoter-creator pipeline and Mariah's catalyst call -> Event logistics at The Alchemist -> The broader fight card and series history -> Concrete close on the November 29 match date.",
       "source": "https://www.ghafla.co.ke/chebet-ronoh-to-face-sheila-kiguta-in-kenyas-first-female-celebrity-boxing-match/"
+    },
+    {
+      "title": "Isaya Yunge Steps Into Public View With Pastoral Note After Mwanza Nuptials",
+      "angle": "Examining how Yunge established his public persona as presidential son-in-law: bypassing conventional luxury wedding fanfare to deliver a pastoral benediction for struggling followers, directly following Charlene's disclosure that he took sole charge of the Mwanza white wedding logistics while Rachel Ruto managed the Narok traditional rites.",
+      "angle_type": "public persona debut and marital division of labor",
+      "opening": "Direct personality lead introducing Isaya Yunge stepping out publicly on social media post-nuptials with a spiritual declaration rather than society-page spectacle.",
+      "structure": "Personality lead on Yunge's public debut -> The November 12 post, photo, and pastoral benediction details -> Charlene's earlier disclosure on wedding division of labor (Mwanza vs. Kilgoris) -> The two-stage cross-border timeline -> Concrete close on the new marital public footing.",
+      "source": "https://www.ghafla.co.ke/i-am-blessed-abundantly-isaya-yunge-celebrates-being-charlene-rutos-husband-in-emotional-post/"
     }
   ],
   "style_history": [
