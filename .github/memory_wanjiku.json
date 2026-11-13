@@ -446,7 +446,8 @@
     "f9372c021593284ff51ce4807dd307e5c95c84b81423d720ccc766ecc28e35f1",
     "c300bcfb9280fb12fb0dc22e7b5b2259ab0f781bdd4f61a35797d191ca4b9db9",
     "e7419a33151014e9ba5f81bd91b9df73673f4daae4f50496984bf3dd75103d55",
-    "0dc19f620affc70dbc3d7aff16c3d81cc15681f5790e693e6fb082d37f7b068a"
+    "0dc19f620affc70dbc3d7aff16c3d81cc15681f5790e693e6fb082d37f7b068a",
+    "cf4b3921537411fbda2edebd4e7ac0a8051da05a58e765ddab91d31fdb8f526c"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -895,17 +896,10 @@
     "https://www.ghafla.co.ke/el-nino-delay-explained-why-nairobi-and-parts-of-kenya-may-miss-anticipated-heavy-rains/",
     "https://www.ghafla.co.ke/janet-mbugua-and-mercy-masika-meet-weeks-after-public-disagreement-over-marriage-masterclass/",
     "https://www.ghafla.co.ke/chebet-ronoh-to-face-sheila-kiguta-in-kenyas-first-female-celebrity-boxing-match/",
-    "https://www.ghafla.co.ke/i-am-blessed-abundantly-isaya-yunge-celebrates-being-charlene-rutos-husband-in-emotional-post/"
+    "https://www.ghafla.co.ke/i-am-blessed-abundantly-isaya-yunge-celebrates-being-charlene-rutos-husband-in-emotional-post/",
+    "https://www.ghafla.co.ke/mwanamke-si-samaki-wa-kuanikwa-juani-raila-junior-offers-poetic-swahili-advice-to-isaya-yunge-and-charlene-ruto/"
   ],
   "published_angles": [
-    {
-      "title": "Nelson Koech Details State Exit Route for Kenyans Trapped in Russian Military",
-      "angle": "Focusing on the operational dual response spotlighted by Koech: pairing a total enlistment freeze with a government repatriation corridor designed to retrieve active recruits and prisoners of war from Eastern European battlefields.",
-      "angle_type": "state repatriation pipeline and battlefield extraction breakdown",
-      "opening": "Personality lead opening directly on Belgut MP Nelson Koech detailing the state's intervention against foreign military enlistment.",
-      "structure": "Personality hook -> Human toll of POW captivity and bereavement -> Direct Koech quote -> Breakdown of the extraction mechanism -> Context of shadow recruitment pipelines -> Concrete operational close.",
-      "source": "https://www.ghafla.co.ke/mp-nelson-koech-praises-ruto-for-stopping-recruitment-of-kenyans-into-russian-military/"
-    },
     {
       "title": "From TikTok 'President' to 10k Views: Pastor Kanyari Puzzled Why His Clout Formula Broke",
       "angle": "Focusing on the algorithm puzzle and viewership collapse: examining the stark commercial reality of Kanyari's drop from midnight 'TikTok presidency' crowds to struggling 10,000-viewer streams that no longer trigger the viral metrics he desires.",
@@ -1697,6 +1691,14 @@
       "opening": "Direct personality lead introducing Isaya Yunge stepping out publicly on social media post-nuptials with a spiritual declaration rather than society-page spectacle.",
       "structure": "Personality lead on Yunge's public debut -> The November 12 post, photo, and pastoral benediction details -> Charlene's earlier disclosure on wedding division of labor (Mwanza vs. Kilgoris) -> The two-stage cross-border timeline -> Concrete close on the new marital public footing.",
       "source": "https://www.ghafla.co.ke/i-am-blessed-abundantly-isaya-yunge-celebrates-being-charlene-rutos-husband-in-emotional-post/"
+    },
+    {
+      "title": "Raila Junior Delivers Swahili Marital Counsel from Tanzania to Isaya Yunge Following Charlene Ruto Nuptials",
+      "angle": "Framing the video message around the traditional Swahili cultural proverbs and marital expectations delivered directly from Tanzania to the new presidential son-in-law.",
+      "angle_type": "cross-political cultural commentary and marital counsel",
+      "opening": "Personality lead opening directly on Raila Odinga Junior recording from Tanzania to deliver Swahili marital counsel to Isaya Yunge.",
+      "structure": "Personality hook -> Verbatim Swahili advice and breakdown -> Joint statement from Yvonne and Junior -> Context of regional union and public resonance close.",
+      "source": "https://www.ghafla.co.ke/mwanamke-si-samaki-wa-kuanikwa-juani-raila-junior-offers-poetic-swahili-advice-to-isaya-yunge-and-charlene-ruto/"
     }
   ],
   "style_history": [
