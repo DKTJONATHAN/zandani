@@ -1,18 +1,18 @@
 ---
 title: "Thomas Tuchel Drops Star Players in Controversial England Squad"
 slug: "thomas-tuchel-drops-star-players-in-controversial-england-squad"
-description: "England coach Thomas Tuchel left several high-profile names out of his 2026 World Cup squad, prioritising team balance and form over reputation."
+description: "Phil Foden and Cole Palmer were among the headline omissions from Thomas Tuchel's 26-man England squad for the 2026 World Cup."
 excerpt: "Phil Foden and Cole Palmer were among the headline omissions from Thomas Tuchel's 26-man England squad for the 2026 World Cup."
-date: 2026-05-22T12:00:00Z
-dateModified: 2026-11-13T08:00:00Z
 author: "Za Ndani Desk"
-category: "Sports"
 image: "https://zandani.co.ke/images/default-og.svg"
-readTime: 2
-source: "https://apnews.com/hub/fifa-world-cup"
+category: "Sports"
+date: "2026-05-22T12:00:00Z"
+dateModified: "2026-11-13T08:00:00Z"
+focusKeyword: "thomas tuchel drops star players controversial"
 schema: "NewsArticle"
+readTime: "2"
+source: "https://apnews.com/hub/fifa-world-cup"
 ---
-
 England manager Thomas Tuchel drew attention with a number of major omissions when he named his 26-player squad for the 2026 FIFA World Cup on May 22, 2026. Among the most notable players left out were Manchester City forward Phil Foden and Chelsea attacker Cole Palmer.
 
 The selection also did not include Real Madrid defender Trent Alexander-Arnold or Manchester United pair Harry Maguire and Luke Shaw. Maguire had already indicated that he would miss the tournament, describing his reaction to the decision as shock and disappointment.

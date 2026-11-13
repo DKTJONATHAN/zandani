@@ -1,18 +1,18 @@
 ---
 title: "Kamuoni Boys Parents Protest Repair Fee Demand, Seek Principal's Removal"
 slug: "kamuoni-boys-parents-protest-repair-fee-demand-principal-removal"
-description: "Parents at Kamuoni Boys High School challenged a compulsory KSh20,000 restoration levy and called for a change in school leadership after student unrest."
+description: "The parents questioned how the proposed KSh20,000 contribution would be accounted for against reported damage of about KSh23 million."
 excerpt: "The parents questioned how the proposed KSh20,000 contribution would be accounted for against reported damage of about KSh23 million."
-date: 2026-05-23T15:00:00Z
-dateModified: 2026-11-13T08:00:00Z
 author: "Za Ndani Desk"
-category: "News"
 image: "https://zandani.co.ke/images/default-og.svg"
-readTime: 2
-source: "https://www.kenyans.co.ke/news/123701-parents-kamuoni-boys-protest-demand-principals-transfer-over-ksh20000-fee"
+category: "News"
+date: "2026-05-23T15:00:00Z"
+dateModified: "2026-11-13T08:00:00Z"
+focusKeyword: "kamuoni boys parents protest repair fee"
 schema: "NewsArticle"
+readTime: "2"
+source: "https://www.kenyans.co.ke/news/123701-parents-kamuoni-boys-protest-demand-principals-transfer-over-ksh20000-fee"
 ---
-
 Parents at Kamuoni Boys High School in Makueni County protested against a compulsory KSh20,000 restoration contribution and called for the transfer or removal of the school's principal in May 2026.
 
 The proposed levy followed serious damage during student unrest reported to have begun on May 12. The school administration and its Board of Management put the repair bill at approximately KSh23 million. Reports described damage to a dormitory, furniture, office windows, the kitchen and other facilities. The school was closed while the damage was assessed and plans for reopening were considered.

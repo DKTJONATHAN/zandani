@@ -1,18 +1,18 @@
 ---
 title: "Miami Police Officers Sue Ben Affleck and Matt Damon Production Firm"
 slug: "miami-police-officers-sue-ben-affleck-matt-damon-production-firm"
-description: "Two Miami-Dade officers filed a defamation lawsuit over the Netflix film The Rip, alleging that its fictionalised story harmed their reputations."
+description: "The officers say details drawn from a real 2016 drug seizure make characters in The Rip identifiable with them; the production company disputes the claims."
 excerpt: "The officers say details drawn from a real 2016 drug seizure make characters in The Rip identifiable with them; the production company disputes the claims."
-date: 2026-05-11T20:00:00Z
-dateModified: 2026-11-13T08:00:00Z
 author: "Za Ndani Desk"
-category: "Entertainment"
 image: "https://zandani.co.ke/images/default-og.svg"
-readTime: 2
-source: "https://apnews.com/article/98647a282521fe01ce73d8a7afeb4400"
+category: "Entertainment"
+date: "2026-05-11T20:00:00Z"
+dateModified: "2026-11-13T08:00:00Z"
+focusKeyword: "miami police officers sue ben affleck"
 schema: "NewsArticle"
+readTime: "2"
+source: "https://apnews.com/article/98647a282521fe01ce73d8a7afeb4400"
 ---
-
 Two Miami-Dade Sheriff's Office sergeants filed a defamation lawsuit against the production company founded by actors Ben Affleck and Matt Damon, arguing that the Netflix crime film *The Rip* drew too closely on a real police operation and damaged their professional reputations.
 
 Jason Smith and Jonathan Santana filed the case in federal court in South Florida in May 2026. The defendants named in reporting on the complaint include Artists Equity, the company founded by Affleck and Damon, and production entity Falco Pictures.
