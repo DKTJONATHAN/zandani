@@ -763,18 +763,64 @@ async function handleContact(request, env) {
 // or trigger paid AI generation, so they MUST require a server-side secret.
 // Set it with:  npx wrangler secret put ADMIN_API_TOKEN   (use a long random value)
 // Fails CLOSED: if the secret is not configured, admin routes are disabled.
-function isAdminAuthorized(request, env) {
-  const expected = String(env.ADMIN_API_TOKEN || "").trim();
-  if (expected.length < 24) return false; // refuse weak/missing secrets
-  const supplied = String(request.headers.get("Authorization") || "").replace(/^Bearer\s+/i, "").trim();
-  if (supplied.length !== expected.length) return false;
-  let diff = 0;
-  for (let i = 0; i < expected.length; i++) diff |= expected.charCodeAt(i) ^ supplied.charCodeAt(i);
+function base64UrlEncodeBytes(bytes) {
+  let binary = "";
+  for (const byte of bytes) binary += String.fromCharCode(byte);
+  return btoa(binary).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/g, "");
+}
+function base64UrlDecodeBytes(value) {
+  const base64 = String(value || "").replace(/-/g, "+").replace(/_/g, "/");
+  const padded = base64.padEnd(Math.ceil(base64.length / 4) * 4, "=");
+  const binary = atob(padded);
+  return Uint8Array.from(binary, (character) => character.charCodeAt(0));
+}
+function constantTimeEqual(left, right) {
+  const a = new TextEncoder().encode(String(left || ""));
+  const b = new TextEncoder().encode(String(right || ""));
+  let diff = a.length ^ b.length;
+  const length = Math.max(a.length, b.length);
+  for (let i = 0; i < length; i++) diff |= (a[i] || 0) ^ (b[i] || 0);
   return diff === 0;
 }
+async function createAdminSessionToken(env) {
+  const secret = String(env.ADMIN_API_TOKEN || "").trim();
+  if (secret.length < 32) throw new Error("ADMIN_API_TOKEN must be at least 32 characters");
+  const now = Math.floor(Date.now() / 1000);
+  const claims = { sub: "zandani-admin", iat: now, exp: now + 30 * 60 };
+  const payload = base64UrlEncodeBytes(new TextEncoder().encode(JSON.stringify(claims)));
+  const key = await crypto.subtle.importKey(
+    "raw", new TextEncoder().encode(secret), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]
+  );
+  const signature = new Uint8Array(await crypto.subtle.sign("HMAC", key, new TextEncoder().encode(payload)));
+  return payload + "." + base64UrlEncodeBytes(signature);
+}
+async function verifyAdminSessionToken(token, env) {
+  const secret = String(env.ADMIN_API_TOKEN || "").trim();
+  if (secret.length < 32) return false;
+  const parts = String(token || "").split(".");
+  if (parts.length !== 2 || !parts[0] || !parts[1]) return false;
+  try {
+    const key = await crypto.subtle.importKey(
+      "raw", new TextEncoder().encode(secret), { name: "HMAC", hash: "SHA-256" }, false, ["verify"]
+    );
+    const valid = await crypto.subtle.verify(
+      "HMAC", key, base64UrlDecodeBytes(parts[1]), new TextEncoder().encode(parts[0])
+    );
+    if (!valid) return false;
+    const claims = JSON.parse(new TextDecoder().decode(base64UrlDecodeBytes(parts[0])));
+    const now = Math.floor(Date.now() / 1000);
+    return claims.sub === "zandani-admin" && Number(claims.exp) > now && Number(claims.iat) <= now + 60;
+  } catch {
+    return false;
+  }
+}
+async function isAdminAuthorized(request, env) {
+  const supplied = String(request.headers.get("Authorization") || "").replace(/^Bearer\s+/i, "").trim();
+  return verifyAdminSessionToken(supplied, env);
+}
 function adminDenied(env) {
-  const configured = String(env.ADMIN_API_TOKEN || "").trim().length >= 24;
-  return json({ error: configured ? "Unauthorized" : "Admin API disabled: ADMIN_API_TOKEN secret not configured" }, configured ? 401 : 503);
+  const configured = String(env.ADMIN_API_TOKEN || "").trim().length >= 32;
+  return json({ error: configured ? "Unauthorized or expired admin session" : "Admin API disabled: configure a 32+ character ADMIN_API_TOKEN secret" }, configured ? 401 : 503);
 }
 // Only content and public assets may be touched through the GitHub proxy. Never code, workflows or config.
 const GITHUB_WRITE_ALLOWLIST = [/^content\/posts\/[a-z0-9._-]+\.md$/i, /^content\/authors\.json$/, /^public\/authors\.json$/, /^public\/images\/[a-z0-9._-]+$/i];
@@ -932,10 +978,20 @@ export default {
       let body;
       try { body = await request.json(); } catch { return json({ error: "Invalid request." }, 400); }
       const verification = await verifyTurnstile(request, env, body?.turnstileToken, "admin_login");
-      return verification.ok ? json({ ok: true }) : json({ error: verification.error }, verification.status);
+      if (!verification.ok) return json({ error: verification.error }, verification.status);
+      const expectedPin = String(env.ADMIN_PIN || "").trim();
+      const signingSecret = String(env.ADMIN_API_TOKEN || "").trim();
+      if (expectedPin.length < 12 || signingSecret.length < 32) {
+        return json({ error: "Admin authentication is not configured. Set ADMIN_PIN (12+ characters) and ADMIN_API_TOKEN (32+ random characters) in Worker secrets." }, 503);
+      }
+      if (!constantTimeEqual(String(body?.pin || "").trim(), expectedPin)) {
+        return json({ error: "Invalid admin passphrase." }, 401);
+      }
+      const token = await createAdminSessionToken(env);
+      return json({ ok: true, token, expiresAt: Date.now() + 30 * 60 * 1000 });
     }
     if (path === "/api/github" || path.startsWith("/api/scheduler/")) {
-      if (request.method !== "OPTIONS" && !isAdminAuthorized(request, env)) return adminDenied(env);
+      if (request.method !== "OPTIONS" && !(await isAdminAuthorized(request, env))) return adminDenied(env);
     }
     if (path === "/api/github") return handleGithubApi(request, env);
 

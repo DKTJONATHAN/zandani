@@ -1,187 +1,178 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
-const corsHeaders = {
-  'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
-};
+const SITE = "https://zandani.co.ke";
+const ALLOWED_ORIGINS = new Set([SITE, "https://www.zandani.co.ke"]);
+const FOOTBALL_API_BASE = "https://api.football-data.org/v4";
+const generationLimits = new Map<string, { count: number; resetAt: number }>();
 
-interface MatchData {
-  id: number;
-  homeTeam: { name: string; crest?: string };
-  awayTeam: { name: string; crest?: string };
-  score?: { fullTime?: { home: number; away: number } };
-  status: string;
-  competition: { name: string; code: string };
-  utcDate: string;
+function corsHeaders(origin: string | null) {
+  return {
+    "Access-Control-Allow-Origin": origin && ALLOWED_ORIGINS.has(origin) ? origin : SITE,
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+    "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
+    "Cache-Control": "no-store",
+    "Vary": "Origin",
+  };
+}
+
+function json(data: unknown, status: number, origin: string | null) {
+  return new Response(JSON.stringify(data), {
+    status,
+    headers: { ...corsHeaders(origin), "Content-Type": "application/json" },
+  });
+}
+
+function allowGeneration(ip: string) {
+  const now = Date.now();
+  const current = generationLimits.get(ip);
+  if (!current || current.resetAt <= now) {
+    generationLimits.set(ip, { count: 1, resetAt: now + 60 * 60 * 1000 });
+    return true;
+  }
+  if (current.count >= 5) return false;
+  current.count += 1;
+  return true;
 }
 
 serve(async (req) => {
-  if (req.method === 'OPTIONS') {
-    return new Response(null, { headers: corsHeaders });
-  }
+  const origin = req.headers.get("origin");
+  if (req.method === "OPTIONS") return new Response(null, { status: 204, headers: corsHeaders(origin) });
+  if (req.method !== "POST") return json({ error: "POST required" }, 405, origin);
 
   try {
-    const LOVABLE_API_KEY = Deno.env.get('LOVABLE_API_KEY');
-    if (!LOVABLE_API_KEY) {
-      throw new Error('LOVABLE_API_KEY is not configured');
+    const rawBody = await req.text();
+    if (rawBody.length > 12000) return json({ error: "Request is too large" }, 413, origin);
+
+    let body: { type?: string; match?: { id?: unknown } };
+    try {
+      body = JSON.parse(rawBody);
+    } catch {
+      return json({ error: "Invalid JSON request" }, 400, origin);
     }
 
-    const supabaseUrl = Deno.env.get('SUPABASE_URL')!;
-    const secretKeysRaw = Deno.env.get('SUPABASE_SECRET_KEYS') || '{}';
+    const type = body.type;
+    if (type !== "review" && type !== "preview") {
+      return json({ error: "Only verified match previews and reviews are supported" }, 400, origin);
+    }
+
+    const matchIdNumber = Number(body.match?.id);
+    if (!Number.isSafeInteger(matchIdNumber) || matchIdNumber <= 0) {
+      return json({ error: "A valid football match ID is required" }, 400, origin);
+    }
+
+    const footballKey = Deno.env.get("FOOTBALL_DATA_API_KEY") || "";
+    if (!footballKey) return json({ error: "Football data verification is not configured" }, 503, origin);
+
+    const matchResponse = await fetch(\`\${FOOTBALL_API_BASE}/matches/\${matchIdNumber}\`, {
+      headers: { "X-Auth-Token": footballKey },
+      signal: AbortSignal.timeout(8000),
+    });
+    if (matchResponse.status === 429) return json({ error: "Football data rate limit reached. Try again shortly." }, 429, origin);
+    if (!matchResponse.ok) return json({ error: "Could not verify this match with the football data provider" }, 400, origin);
+
+    const matchPayload = await matchResponse.json();
+    const verifiedMatch = matchPayload.match || matchPayload;
+    const homeName = String(verifiedMatch.homeTeam?.name || "").trim().slice(0, 100);
+    const awayName = String(verifiedMatch.awayTeam?.name || "").trim().slice(0, 100);
+    const competitionName = String(verifiedMatch.competition?.name || "Football").trim().slice(0, 100);
+    const competitionCode = String(verifiedMatch.competition?.code || "").trim().slice(0, 20);
+    const utcDate = String(verifiedMatch.utcDate || "");
+    const parsedDate = new Date(utcDate);
+
+    if (!verifiedMatch.id || !homeName || !awayName || Number.isNaN(parsedDate.getTime())) {
+      return json({ error: "The football data provider returned an incomplete match" }, 502, origin);
+    }
+    const ageHours = (Date.now() - parsedDate.getTime()) / 3600000;
+    if (ageHours > 24 * 14 || ageHours < -24 * 14) {
+      return json({ error: "AI analysis is available only for recent and upcoming fixtures" }, 400, origin);
+    }
+    if (type === "review" && verifiedMatch.status !== "FINISHED") {
+      return json({ error: "A match review is available after the match is finished" }, 400, origin);
+    }
+    if (type === "preview" && ["FINISHED", "CANCELLED", "POSTPONED"].includes(verifiedMatch.status)) {
+      return json({ error: "A preview is not available for this match status" }, 400, origin);
+    }
+
+    const matchId = String(verifiedMatch.id);
+    const supabaseUrl = Deno.env.get("SUPABASE_URL") || "";
+    const secretKeysRaw = Deno.env.get("SUPABASE_SECRET_KEYS") || "{}";
     const secretKeys = JSON.parse(secretKeysRaw);
-    const supabaseKey = secretKeys.default;
-    if (!supabaseKey) {
-      throw new Error('SUPABASE_SECRET_KEYS.default is not configured');
+    const supabaseKey = Deno.env.get("SUPABASE_SECRET_KEY") || secretKeys.default || "";
+    const lovableKey = Deno.env.get("LOVABLE_API_KEY") || "";
+    if (!supabaseUrl || !supabaseKey || !lovableKey) {
+      return json({ error: "Sports analysis service is not configured" }, 503, origin);
     }
+
     const supabase = createClient(supabaseUrl, supabaseKey);
-
-    const { type, match, matches } = await req.json();
-
-    let prompt = '';
-    let matchId = '';
-    let contentType = type || 'headline';
-
-    if (type === 'review' && match) {
-      // Post-match review
-      matchId = String(match.id);
-      const homeTeam = match.homeTeam?.name || 'Home Team';
-      const awayTeam = match.awayTeam?.name || 'Away Team';
-      const homeScore = match.score?.fullTime?.home ?? 0;
-      const awayScore = match.score?.fullTime?.away ?? 0;
-      
-      prompt = `Write a brief, engaging football match review (2-3 paragraphs) for:
-${homeTeam} ${homeScore} - ${awayScore} ${awayTeam}
-Competition: ${match.competition?.name || 'Football Match'}
-Date: ${match.utcDate || 'Today'}
-
-Make it informative and exciting. Include:
-- Key talking points about the result
-- What this means for both teams
-- Forward-looking statement
-
-Keep the tone professional but engaging like a sports journalist.`;
-    } else if (type === 'preview' && match) {
-      // Pre-match preview
-      matchId = String(match.id);
-      const homeTeam = match.homeTeam?.name || 'Home Team';
-      const awayTeam = match.awayTeam?.name || 'Away Team';
-      
-      prompt = `Write a brief, engaging pre-match preview (2-3 paragraphs) for:
-${homeTeam} vs ${awayTeam}
-Competition: ${match.competition?.name || 'Football Match'}
-Date: ${match.utcDate || 'Today'}
-
-Include:
-- What's at stake for both teams
-- Key factors to watch
-- A prediction or talking point
-
-Keep it concise and exciting.`;
-    } else if (type === 'roundup' && matches) {
-      // Daily roundup
-      matchId = `roundup_${new Date().toISOString().split('T')[0]}`;
-      const matchSummaries = matches.slice(0, 5).map((m: MatchData) => 
-        `${m.homeTeam?.name || 'Home'} ${m.score?.fullTime?.home ?? '?'}-${m.score?.fullTime?.away ?? '?'} ${m.awayTeam?.name || 'Away'} (${m.competition?.name || 'Match'})`
-      ).join('\n');
-      
-      prompt = `Write a brief daily football roundup headline and summary (1-2 paragraphs) covering these results:
-${matchSummaries}
-
-Make it punchy and highlight the most significant result or story of the day.`;
-    } else {
-      // Generate engaging headline
-      matchId = `headline_${Date.now()}`;
-      prompt = `Generate 3 engaging football headline ideas for today's matches. Make them catchy, informative, and suitable for a sports news website. Format as a JSON array of strings.`;
-    }
-
-    // Check cache first
     const { data: cached } = await supabase
-      .from('sports_ai_content')
-      .select('*')
-      .eq('match_id', matchId)
-      .eq('content_type', contentType)
-      .gt('expires_at', new Date().toISOString())
-      .single();
+      .from("sports_ai_content")
+      .select("headline,content")
+      .eq("match_id", matchId)
+      .eq("content_type", type)
+      .gt("expires_at", new Date().toISOString())
+      .maybeSingle();
 
-    if (cached) {
-      console.log('Returning cached content for:', matchId);
-      return new Response(
-        JSON.stringify({ 
-          headline: cached.headline,
-          content: cached.content,
-          cached: true
-        }),
-        { headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
-      );
+    if (cached) return json({ headline: cached.headline, content: cached.content, cached: true }, 200, origin);
+
+    const ip = req.headers.get("cf-connecting-ip") || req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
+    if (!allowGeneration(ip)) {
+      return json({ error: "AI analysis limit reached for this hour. Please try again later." }, 429, origin);
     }
 
-    console.log('Generating AI content for:', matchId);
+    const homeScore = verifiedMatch.score?.fullTime?.home;
+    const awayScore = verifiedMatch.score?.fullTime?.away;
+    const prompt = type === "review"
+      ? \`Write a brief, accurate football match review (2-3 paragraphs) for:
+\${homeName} \${homeScore ?? "?"} - \${awayScore ?? "?"} \${awayName}
+Competition: \${competitionName}
+Date: \${utcDate}
 
-    const aiResponse = await fetch('https://ai.gateway.lovable.dev/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${LOVABLE_API_KEY}`,
-        'Content-Type': 'application/json',
-      },
+Include the key result, verified talking points, what the result means for both teams, and a forward-looking angle. Do not invent events, scorers or statistics not provided.\`
+      : \`Write a concise pre-match preview (2-3 paragraphs) for:
+\${homeName} vs \${awayName}
+Competition: \${competitionName}
+Date: \${utcDate}
+
+Explain what is at stake, the verified context, and two or three factors to watch. Do not invent injuries, line-ups, form or statistics not provided.\`;
+
+    const aiResponse = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
+      method: "POST",
+      headers: { Authorization: \`Bearer \${lovableKey}\`, "Content-Type": "application/json" },
       body: JSON.stringify({
-        model: 'google/gemini-3-flash-preview',
+        model: "google/gemini-3-flash-preview",
         messages: [
-          { 
-            role: 'system', 
-            content: 'You are a professional sports journalist specializing in football. Write engaging, accurate content that fans will enjoy reading. Be concise but informative.'
-          },
-          { role: 'user', content: prompt }
+          { role: "system", content: "You are a careful football journalist. Use only the verified match facts in the prompt. Never invent events, player names or statistics." },
+          { role: "user", content: prompt },
         ],
+        temperature: 0.5,
       }),
     });
 
-    if (!aiResponse.ok) {
-      if (aiResponse.status === 429) {
-        return new Response(
-          JSON.stringify({ error: 'AI rate limit exceeded. Please try again later.' }),
-          { status: 429, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
-        );
-      }
-      if (aiResponse.status === 402) {
-        return new Response(
-          JSON.stringify({ error: 'AI credits exhausted. Please add funds.' }),
-          { status: 402, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
-        );
-      }
-      throw new Error(`AI API error: ${aiResponse.status}`);
-    }
+    if (aiResponse.status === 429) return json({ error: "AI rate limit exceeded. Please try again later." }, 429, origin);
+    if (aiResponse.status === 402) return json({ error: "AI credits exhausted. Please contact the newsroom." }, 402, origin);
+    if (!aiResponse.ok) throw new Error(\`AI API error: \${aiResponse.status}\`);
 
     const aiData = await aiResponse.json();
-    const content = aiData.choices?.[0]?.message?.content || '';
+    const content = String(aiData.choices?.[0]?.message?.content || "").trim().slice(0, 6000);
+    if (!content) throw new Error("AI returned empty content");
+    const headline = content.split("\\n").find((line: string) => line.trim())?.replace(/^[#*]+\s*/, "").slice(0, 200) || "Football Update";
 
-    // Extract headline (first line or sentence)
-    const lines = content.split('\n').filter((l: string) => l.trim());
-    const headline = lines[0]?.replace(/^[#*]+\s*/, '').slice(0, 200) || 'Football Update';
+    await supabase.from("sports_ai_content").upsert({
+      match_id: matchId,
+      content_type: type,
+      headline,
+      content,
+      competition_code: competitionCode,
+      home_team: homeName,
+      away_team: awayName,
+      match_date: utcDate,
+      expires_at: new Date(Date.now() + 12 * 60 * 60 * 1000).toISOString(),
+    }, { onConflict: "match_id,content_type" });
 
-    // Cache the result
-    if (match) {
-      await supabase.from('sports_ai_content').upsert({
-        match_id: matchId,
-        content_type: contentType,
-        headline,
-        content,
-        competition_code: match.competition?.code,
-        home_team: match.homeTeam?.name,
-        away_team: match.awayTeam?.name,
-        match_date: match.utcDate,
-      }, { onConflict: 'match_id,content_type' });
-    }
-
-    return new Response(
-      JSON.stringify({ headline, content, cached: false }),
-      { headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
-    );
+    return json({ headline, content, cached: false }, 200, origin);
   } catch (error) {
-    console.error('Sports AI error:', error);
-    return new Response(
-      JSON.stringify({ error: error instanceof Error ? error.message : 'Unknown error' }),
-      { status: 500, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
-    );
+    console.error("Sports AI error:", error);
+    return json({ error: error instanceof Error ? error.message : "Unknown error" }, 500, origin);
   }
 });

@@ -1,3 +1,5 @@
+import { getAdminSessionToken } from "@/admin/utils/auth";
+
 export type DeskStatus = {
   id: string;
   label: string;
@@ -31,9 +33,14 @@ export type SchedulerLogEntry = {
 };
 
 async function api<T>(path: string, init?: RequestInit): Promise<T> {
+  const token = getAdminSessionToken();
   const res = await fetch(path, {
     ...init,
-    headers: { "Content-Type": "application/json", ...(init?.headers || {}) },
+    headers: {
+      "Content-Type": "application/json",
+      ...(token ? { Authorization: `Bearer ${token}` } : {}),
+      ...(init?.headers || {}),
+    },
   });
   const data = await res.json().catch(() => ({}));
   if (!res.ok) throw new Error((data as { error?: string }).error || `HTTP ${res.status}`);
