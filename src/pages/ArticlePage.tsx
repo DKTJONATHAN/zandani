@@ -29,6 +29,16 @@ function searchTitle(headline: string): string {
   const available = maxLength - brand.length;
   const clean = String(headline || "").replace(/\s+/g, " ").trim();
   if (clean.length <= available) return clean + brand;
+
+  // Preserve the headline ending so similar opening phrases remain distinct.
+  const words = clean.split(" ");
+  const ending = words.slice(-2).join(" ");
+  const prefixBudget = available - ending.length - 2;
+  const prefix = clean.slice(0, Math.max(0, prefixBudget))
+    .replace(/\s+\S*$/, "")
+    .replace(/[\s.,;:!?-]+$/, "");
+  if (prefix.length >= 12) return prefix + "… " + ending + brand;
+
   const shortened = clean.slice(0, available - 1).replace(/\s+\S*$/, "").replace(/[\s.,;:!?-]+$/, "");
   return (shortened || clean.slice(0, available - 1)) + "…" + brand;
 }
