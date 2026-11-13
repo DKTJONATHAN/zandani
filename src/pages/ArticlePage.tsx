@@ -25,7 +25,7 @@ const DEFAULT_OG_IMAGE = `${SITE_URL}/images/default-og.svg`;
 // Keep browser titles concise for search results while preserving the full headline in the page, OG tags and NewsArticle markup.
 function searchTitle(headline: string): string {
   const brand = " | Za Ndani";
-  const maxLength = 58;
+  const maxLength = 60;
   const available = maxLength - brand.length;
   const clean = String(headline || "").replace(/\s+/g, " ").trim();
   if (clean.length <= available) return clean + brand;
