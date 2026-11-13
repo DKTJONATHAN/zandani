@@ -11,7 +11,7 @@ import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/hooks/use-toast";
 import { AuthorsManager } from "@/admin/components/AuthorsManager";
 import { AuthorProfile } from "@/admin/types";
-import { validatePin, isAdminAuthenticated, setAdminAuthenticated } from "@/admin/utils/auth";
+import { getAdminSessionToken, isAdminAuthenticated, setAdminAuthenticated } from "@/admin/utils/auth";
 import {
   getGithubFileContent, getGithubFileSha,
   pushToGithub, deleteFromGithub,
@@ -119,19 +119,19 @@ export default function AdminPage() {
       const response = await fetch("/api/admin/verify", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ turnstileToken }),
+        body: JSON.stringify({ turnstileToken, pin }),
       });
       const result = await response.json().catch(() => ({}));
       if (!response.ok || !result.ok) throw new Error(result.error || "Security verification failed. Try again.");
-      if (validatePin(pin)) {
-        setIsAuthenticated(true); setAdminAuthenticated(true); loadData(); setPinError("");
-      } else {
-        setPinError("Invalid PIN. Try again.");
-        setPin("");
-      }
+      if (!result.token) throw new Error("Admin session was not issued. Check the passphrase and server configuration.");
+      setIsAuthenticated(true);
+      setAdminAuthenticated(result.token);
+      loadData();
+      setPinError("");
     } catch (error) {
       setPinError(error instanceof Error ? error.message : "Security verification failed.");
     } finally {
+      setPin("");
       setTurnstileToken("");
       setWidgetResetKey((value) => value + 1);
     }
@@ -143,7 +143,16 @@ export default function AdminPage() {
   };
 
   const submitToIndexNow = async (slug: string) => {
-    try { await supabase.functions.invoke('index-now', { body: { urls: [`/article/${slug}`] } }); } catch {}
+    const token = getAdminSessionToken();
+    if (!token) return;
+    try {
+      await supabase.functions.invoke('index-now', {
+        body: { urls: [`/article/${slug}`] },
+        headers: { Authorization: `Bearer ${token}` },
+      });
+    } catch (error) {
+      console.error("IndexNow submission failed", error);
+    }
   };
 
   const handlePublish = async (isUpdate: boolean) => {
@@ -235,10 +244,10 @@ export default function AdminPage() {
             </div>
             <form onSubmit={handleLogin} className="space-y-4">
               <div>
-                <label className="text-xs font-black uppercase tracking-widest text-zinc-500 block mb-2">Enter PIN</label>
+                <label className="text-xs font-black uppercase tracking-widest text-zinc-500 block mb-2">Admin passphrase</label>
                 <input type="password" value={pin} onChange={e => setPin(e.target.value)}
-                  className="w-full px-4 py-4 bg-zinc-800 border border-zinc-700 text-white text-center text-3xl font-mono tracking-[0.5em] focus:border-primary outline-none transition-colors"
-                  maxLength={4} autoFocus />
+                  className="w-full px-4 py-4 bg-zinc-800 border border-zinc-700 text-white text-center text-lg font-mono tracking-[0.12em] focus:border-primary outline-none transition-colors"
+                  minLength={12} maxLength={128} required autoComplete="current-password" autoFocus />
               </div>
               <div className="flex justify-center"><TurnstileWidget action="admin_login" onToken={setTurnstileToken} resetKey={widgetResetKey} /></div>
               {pinError && <p className="text-primary text-xs text-center font-bold">{pinError}</p>}
