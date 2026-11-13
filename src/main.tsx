@@ -5,6 +5,7 @@ import { HelmetProvider } from "react-helmet-async";
 import App from "./App";
 import "./index.css";
 import "./editorial-unslop.css";
+import "./newsroom-experience.css";
 import { installGlobalErrorHandlers } from "./lib/errors";
 
 installGlobalErrorHandlers();
