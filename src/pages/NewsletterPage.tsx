@@ -42,8 +42,8 @@ export default function NewsletterPage() {
         <meta property="og:url" content={`${SITE_URL}/newsletter`} />
       </Helmet>
 
-      <div className="border-b border-border bg-gradient-to-b from-primary/10 via-background to-background">
-        <div className="container max-w-3xl mx-auto px-4 py-14 md:py-20 text-center">
+      <div className="zn-newsletter-page border-b border-border bg-gradient-to-b from-primary/10 via-background to-background">
+        <div className="newsletter-hero container max-w-3xl mx-auto px-4 py-14 md:py-20 text-center">
           <div className="mb-4 inline-flex items-center gap-1.5 rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-primary">
             <Mail className="h-3 w-3" aria-hidden />
             Free newsletter
@@ -56,7 +56,7 @@ export default function NewsletterPage() {
             culture, and showbiz without the noise.
           </p>
 
-          <div className="mx-auto mt-8 max-w-md rounded-2xl border border-border bg-card p-5 shadow-sm sm:p-6">
+          <div className="newsletter-card mx-auto mt-8 max-w-md rounded-2xl border border-border bg-card p-5 shadow-sm sm:p-6">
             <NewsletterForm />
           </div>
 
