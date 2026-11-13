@@ -449,7 +449,8 @@
     "0dc19f620affc70dbc3d7aff16c3d81cc15681f5790e693e6fb082d37f7b068a",
     "cf4b3921537411fbda2edebd4e7ac0a8051da05a58e765ddab91d31fdb8f526c",
     "77972926123480700fc04f8a714916c87b468c25ea228be0d5eac369e60bb26b",
-    "9ea37b479aeb3a86569ec938270d3fba9924da8b47ffba0b50376951190cf918"
+    "9ea37b479aeb3a86569ec938270d3fba9924da8b47ffba0b50376951190cf918",
+    "5125c812575727765dc5a45c27a67e78c1ae0565e0b9c3a6614d1df5727368c0"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -901,17 +902,10 @@
     "https://www.ghafla.co.ke/i-am-blessed-abundantly-isaya-yunge-celebrates-being-charlene-rutos-husband-in-emotional-post/",
     "https://www.ghafla.co.ke/mwanamke-si-samaki-wa-kuanikwa-juani-raila-junior-offers-poetic-swahili-advice-to-isaya-yunge-and-charlene-ruto/",
     "https://www.ghafla.co.ke/geoffrey-mosiria-declares-2027-governor-bid-after-meeting-gachagua-and-matiangi/",
-    "https://www.ghafla.co.ke/kelvin-kinuthia-reacts-to-fda-blindness-warning-on-ozempic-surgery/"
+    "https://www.ghafla.co.ke/kelvin-kinuthia-reacts-to-fda-blindness-warning-on-ozempic-surgery/",
+    "https://www.ghafla.co.ke/kenya-on-high-alert-as-western-allies-warn-of-99-ebola-outbreak-risk-in-south-sudan/"
   ],
   "published_angles": [
-    {
-      "title": "Kenya Power Schedules 9-Hour Blackout Across Spring Valley and Kajiado Outposts on Tuesday",
-      "angle": "Focusing on the operational impact of the nine-hour shutdown across contrasting economic zones\u2014spanning Nairobi's upmarket Spring Valley residential district and Kajiado's southern trade and agricultural hubs of Loitoktok and Njukini.",
-      "angle_type": "operational disruption and regional coverage split",
-      "opening": "Direct focus on Kenya Power's nine-hour scheduled shutdown impacting key residential and commercial hubs across two counties.",
-      "structure": "Operational timeline hook -> Specific location breakdown (Spring Valley vs Kajiado) -> Advisory and alternative power implications -> Network maintenance context and concrete close.",
-      "source": "https://www.ghafla.co.ke/kenya-power-announces-tuesday-outages-in-spring-valley-and-parts-of-kajiado/"
-    },
     {
       "title": "Mejja Bans Post-Campaign \u2018Sorry\u2019 Tours as 2027 Political Money Hits Music Scene",
       "angle": "Framing Mejja's warning as a rejection of post-campaign 'apology press tours,' establishing that artists who accept Ksh 2M political deals must take full ownership of subsequent career damage without begging fans for forgiveness later.",
@@ -1703,6 +1697,14 @@
       "opening": "Personality lead introducing Kinuthia's witty comment directly against the backdrop of the global medical advisory.",
       "structure": "Social media reaction hook -> Multi-year weight transformation breakdown -> Specific FDA label directive and NAION medical details -> Clinical guidance and public context close.",
       "source": "https://www.ghafla.co.ke/kelvin-kinuthia-reacts-to-fda-blindness-warning-on-ozempic-surgery/"
+    },
+    {
+      "title": "Aden Duale Targets Dec 23 Ebola-Free Clearance as Western Powers Issue 99% Outbreak Risk Warning for South Sudan",
+      "angle": "Framing the health alert around Cabinet Secretary Aden Duale's precise December 23 clearance milestone following Kenya's contained October cluster, juxtaposed with cross-border trade exposure and six-nation diplomatic pressure on Juba.",
+      "angle_type": "personality countdown and border surveillance mechanics",
+      "opening": "Personality lead opening directly on Aden Duale establishing the December 23 Ebola-free clearance deadline.",
+      "structure": "CS countdown lead -> October cluster containment facts -> Six-nation diplomatic demand on Juba -> Cross-border trade exposure -> Facility readiness close.",
+      "source": "https://www.ghafla.co.ke/kenya-on-high-alert-as-western-allies-warn-of-99-ebola-outbreak-risk-in-south-sudan/"
     }
   ],
   "style_history": [
