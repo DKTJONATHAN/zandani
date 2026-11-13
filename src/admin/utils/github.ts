@@ -1,3 +1,5 @@
+import { getAdminSessionToken } from "@/admin/utils/auth";
+
 const utf8ToBase64 = (str: string) => {
   return window.btoa(unescape(encodeURIComponent(str)));
 };
@@ -7,9 +9,13 @@ const base64ToUtf8 = (base64: string): string => {
 };
 
 export async function callGithubApi(payload: Record<string, unknown>) {
+  const token = getAdminSessionToken();
   const res = await fetch('/api/github', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: {
+      'Content-Type': 'application/json',
+      ...(token ? { Authorization: `Bearer ${token}` } : {}),
+    },
     body: JSON.stringify(payload),
   });
   const data = await res.json();
