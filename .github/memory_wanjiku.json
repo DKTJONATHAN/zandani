@@ -452,7 +452,8 @@
     "9ea37b479aeb3a86569ec938270d3fba9924da8b47ffba0b50376951190cf918",
     "5125c812575727765dc5a45c27a67e78c1ae0565e0b9c3a6614d1df5727368c0",
     "373e6f888321d505c3c1d4de490e5124ba96f3d0552e636f7f42dd799ff1d29f",
-    "fe2ff6d9a55576cdb79ed54d62bbaeb57e5fb4c70c5c89f0f19fef31c4b796b0"
+    "fe2ff6d9a55576cdb79ed54d62bbaeb57e5fb4c70c5c89f0f19fef31c4b796b0",
+    "6d44ccc7f565bc4ee1d9d495612767c01e63510fa8078ddfd692a221d1480f6f"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -907,17 +908,10 @@
     "https://www.ghafla.co.ke/kelvin-kinuthia-reacts-to-fda-blindness-warning-on-ozempic-surgery/",
     "https://www.ghafla.co.ke/kenya-on-high-alert-as-western-allies-warn-of-99-ebola-outbreak-risk-in-south-sudan/",
     "https://www.ghafla.co.ke/tyler-mbaya-gifts-his-daughter-days-after-georgina-njengas-exit-from-rehab/",
-    "https://www.ghafla.co.ke/five-feared-dead-after-another-building-collapses-near-sgr-terminus/"
+    "https://www.ghafla.co.ke/five-feared-dead-after-another-building-collapses-near-sgr-terminus/",
+    "https://www.ghafla.co.ke/raymond-omollo-calls-for-leadership-training-to-strengthen-fishermen-cooperatives/"
   ],
   "published_angles": [
-    {
-      "title": "Tech Entrepreneur Adam Robinson, Wife and Two Children Among Nine Dead in Florida Learjet Tragedy",
-      "angle": "Focusing on the tragic intersection of high-flying tech entrepreneurship, family life, and the human identities behind the nine lives lost, moving beyond the technical flight data to examine the prominent Austin figures and crew involved.",
-      "angle_type": "profile and human impact accountability",
-      "opening": "Personality lead opening directly on the family joint statement and the identity of tech entrepreneur Adam Robinson.",
-      "structure": "Personal background hook -> Tech enterprise and PR business context -> Crew details including 20-year-old co-pilot -> Flight path and crash specifics -> Concrete ending on the flight recorder and air traffic logs.",
-      "source": "https://www.ghafla.co.ke/identities-of-nine-victims-killed-in-florida-learjet-crash-revealed/"
-    },
     {
       "title": "Terence Creative\u2019s Voluntary Exit Statement Collides With DCCAK\u2019s Six-Month Suspension Paper Trail",
       "angle": "The sharp narrative contradiction between Terence framing his exit as a fresh voluntary decision and DCCAK immediately publishing administrative records to establish he was suspended half a year ago.",
@@ -1709,6 +1703,14 @@
       "opening": "Direct focus on the active concreting operation and upper-floor formwork failure in Syokimau.",
       "structure": "Formwork failure lead -> Emergency rescue and survivor extraction -> Regional failure context following Eastleigh -> Ongoing site search close",
       "source": "https://www.ghafla.co.ke/five-feared-dead-after-another-building-collapses-near-sgr-terminus/"
+    },
+    {
+      "title": "Raymond Omollo Moves to Plug Savings Leaks Across Four Lake Fishing Cooperatives",
+      "angle": "Focusing on Omollo's direct challenge to cooperative leaders over the conversion of shared member savings into personal spending accounts, while clarifying the actual scale across four lake entities and detailing the revolving gear-financing mechanics.",
+      "angle_type": "cooperative governance and financial protection",
+      "opening": "Personality lead opening directly on Dr. Raymond Omollo calling out cooperative executives who treat member deposits as private funds.",
+      "structure": "Personality intervention hook -> Correction on cooperative scope (four vs. two) -> Mechanics of the official-use warning and joint training -> Revolving pool blueprint for fishing gear -> Broader economic context and operational close.",
+      "source": "https://www.ghafla.co.ke/raymond-omollo-calls-for-leadership-training-to-strengthen-fishermen-cooperatives/"
     }
   ],
   "style_history": [
