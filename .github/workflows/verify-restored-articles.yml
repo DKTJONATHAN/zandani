@@ -7,6 +7,7 @@ on:
       - "content/posts/**"
       - "index.html"
       - "scripts/generate-post-manifest.js"
+      - ".github/workflows/verify-restored-articles.yml"
   workflow_dispatch:
 
 permissions:
