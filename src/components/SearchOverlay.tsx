@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { Search, X, ArrowRight } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { searchPosts, PostMetadata } from "@/lib/markdown";
 
 interface SearchOverlayProps {
@@ -11,6 +11,7 @@ interface SearchOverlayProps {
 export function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<PostMetadata[]>([]);
+  const navigate = useNavigate();
   const dialogRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -94,6 +95,7 @@ export function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
       >
         <h2 id="search-overlay-title" className="sr-only">Search Za Ndani</h2>
         <div className="flex items-center gap-3 sm:gap-4 mb-8">
+          <form className="relative flex-1 min-w-0 flex gap-2" onSubmit={(event) => { event.preventDefault(); if (cleanQuery.length >= 2) { onClose(); navigate(`/search?q=${encodeURIComponent(cleanQuery)}`); } }}>
           <div className="relative flex-1 min-w-0">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" aria-hidden />
             <input
@@ -107,6 +109,10 @@ export function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
               autoComplete="off"
             />
           </div>
+          <button type="submit" disabled={cleanQuery.length < 2} className="min-h-14 px-4 bg-primary text-primary-foreground text-xs font-black uppercase tracking-wider disabled:opacity-40" aria-label="View all search results">
+            Search <ArrowRight className="inline w-4 h-4 ml-1" aria-hidden />
+          </button>
+          </form>
           <button
             type="button"
             onClick={onClose}
