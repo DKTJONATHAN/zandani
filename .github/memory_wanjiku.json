@@ -448,7 +448,8 @@
     "e7419a33151014e9ba5f81bd91b9df73673f4daae4f50496984bf3dd75103d55",
     "0dc19f620affc70dbc3d7aff16c3d81cc15681f5790e693e6fb082d37f7b068a",
     "cf4b3921537411fbda2edebd4e7ac0a8051da05a58e765ddab91d31fdb8f526c",
-    "77972926123480700fc04f8a714916c87b468c25ea228be0d5eac369e60bb26b"
+    "77972926123480700fc04f8a714916c87b468c25ea228be0d5eac369e60bb26b",
+    "9ea37b479aeb3a86569ec938270d3fba9924da8b47ffba0b50376951190cf918"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -899,17 +900,10 @@
     "https://www.ghafla.co.ke/chebet-ronoh-to-face-sheila-kiguta-in-kenyas-first-female-celebrity-boxing-match/",
     "https://www.ghafla.co.ke/i-am-blessed-abundantly-isaya-yunge-celebrates-being-charlene-rutos-husband-in-emotional-post/",
     "https://www.ghafla.co.ke/mwanamke-si-samaki-wa-kuanikwa-juani-raila-junior-offers-poetic-swahili-advice-to-isaya-yunge-and-charlene-ruto/",
-    "https://www.ghafla.co.ke/geoffrey-mosiria-declares-2027-governor-bid-after-meeting-gachagua-and-matiangi/"
+    "https://www.ghafla.co.ke/geoffrey-mosiria-declares-2027-governor-bid-after-meeting-gachagua-and-matiangi/",
+    "https://www.ghafla.co.ke/kelvin-kinuthia-reacts-to-fda-blindness-warning-on-ozempic-surgery/"
   ],
   "published_angles": [
-    {
-      "title": "From Quiz Show Icon to Police Custody: How Regina Re\u2019s Life Reached a Tragic Legal Turning Point",
-      "angle": "Examining the specific police allegations regarding the crime scene tampering accusations and the familial dispute between the granddaughter and the mother, moving past mere biographical nostalgia to the active court proceedings.",
-      "angle_type": "police investigation and court-proceedings accountability",
-      "opening": "Personality lead focusing directly on Regina Re's shift from a beloved 2000s television fixture to the center of a homicide investigation.",
-      "structure": "Personality and career backdrop hook -> Discovery of the Loresho incident -> Courtroom allegations of the pre-incident argument and scene cleanup -> Detention terms and next court mention date.",
-      "source": "https://www.ghafla.co.ke/who-is-regina-re-former-whos-smarter-now-presenter-held-over-mothers-death/"
-    },
     {
       "title": "Kenya Power Schedules 9-Hour Blackout Across Spring Valley and Kajiado Outposts on Tuesday",
       "angle": "Focusing on the operational impact of the nine-hour shutdown across contrasting economic zones\u2014spanning Nairobi's upmarket Spring Valley residential district and Kajiado's southern trade and agricultural hubs of Loitoktok and Njukini.",
@@ -1701,6 +1695,14 @@
       "opening": "Personality lead opening directly on Geoffrey Mosiria walking out of Rigathi Gachagua's Karen residence claiming informal endorsement for his 2027 Nairobi gubernatorial run.",
       "structure": "Karen meeting hook -> The 'Riggy G' quote and administrator narrative -> Cross-faction political maneuvering -> Details of the Sunday Thika Road launch.",
       "source": "https://www.ghafla.co.ke/geoffrey-mosiria-declares-2027-governor-bid-after-meeting-gachagua-and-matiangi/"
+    },
+    {
+      "title": "After Gastric Balloon, Ozempic, and Mounjaro, Kelvin Kinuthia Jokes Off FDA Vision Loss Advisory",
+      "angle": "Juxtaposing Kinuthia's lighthearted online reaction against the specific four-year documented timeline of his clinical weight-loss procedures, contrasting creator transparency with emerging global pharmaceutical safety alerts.",
+      "angle_type": "celebrity medical journey contrast",
+      "opening": "Personality lead introducing Kinuthia's witty comment directly against the backdrop of the global medical advisory.",
+      "structure": "Social media reaction hook -> Multi-year weight transformation breakdown -> Specific FDA label directive and NAION medical details -> Clinical guidance and public context close.",
+      "source": "https://www.ghafla.co.ke/kelvin-kinuthia-reacts-to-fda-blindness-warning-on-ozempic-surgery/"
     }
   ],
   "style_history": [
