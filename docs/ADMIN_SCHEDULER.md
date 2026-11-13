@@ -43,6 +43,8 @@ Config mirror: `config/desk-schedules.json`.
 4. Check **Dispatch log** for HTTP 204/OK rows.
 5. Optional: `curl -X POST https://zandani.co.ke/api/scheduler/tick`
 
+See [ADMIN_SECURITY.md](./ADMIN_SECURITY.md) for the required Cloudflare and Supabase secrets and the short-lived admin-session flow.
+
 ## API
 
 - `GET /api/scheduler/status`
