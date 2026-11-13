@@ -330,7 +330,7 @@ export default function ArticlePage() {
               {copied ? <span className="text-xs text-primary" role="status">Copied</span> : null}
             </div>
 
-            <div className="prose prose-lg dark:prose-invert measure max-w-[65ch] mx-auto prose-headings:font-serif prose-a:text-primary">
+            <div className="prose prose-lg prose-article dark:prose-invert measure max-w-[65ch] mx-auto prose-headings:font-serif prose-a:text-primary">
               {lede ? <div dangerouslySetInnerHTML={{ __html: lede }} /> : null}
               {showKnow ? <WhatWeKnow facts={post.knowFacts} /> : null}
               {rest ? <div dangerouslySetInnerHTML={{ __html: rest }} /> : null}
