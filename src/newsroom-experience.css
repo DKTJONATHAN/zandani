@@ -518,3 +518,69 @@ footer a { text-decoration: none; }
   #search-overlay,
   .mobile-bottom-nav { transition: none !important; animation: none !important; }
 }
+
+
+/* Trending and live desk pages use the same newsroom rhythm as the homepage. */
+.zn-trending__hero {
+  background:
+    radial-gradient(ellipse at 90% 0%, rgb(237 100 31 / .12), transparent 40%),
+    #0b0b0b;
+}
+.zn-trending__hero h1 {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: .98;
+  letter-spacing: -.055em;
+}
+.zn-trending__body .grid.lg\:grid-cols-12 { align-items: start; }
+.zn-trending__body .grid.lg\:grid-cols-12 > * { min-width: 0; }
+.zn-trending__body a { text-decoration: none; }
+.zn-trending__body a:hover h2,
+.zn-trending__body a:hover h3 { color: var(--zn-orange-bright); }
+.zn-trending__body .bg-muted { background: #171512; }
+.zn-trending__body .border-divider { border-color: var(--zn-rule); }
+
+.zn-live-wire__filters {
+  scrollbar-width: thin;
+  scrollbar-color: #554034 transparent;
+  overscroll-behavior-inline: contain;
+}
+.zn-live-wire__filters button {
+  min-height: 42px;
+  flex: 0 0 auto;
+  border-radius: 2px !important;
+  border-color: var(--zn-rule);
+  background: var(--zn-surface);
+  color: #c8c0b6;
+}
+.zn-live-wire__filters button[aria-pressed="true"] {
+  background: var(--zn-orange);
+  border-color: var(--zn-orange);
+  color: #160d08;
+}
+.zn-live-wire__filters button:hover:not([aria-pressed="true"]) {
+  border-color: var(--zn-orange);
+  color: #fff;
+}
+.zn-live-wire a { text-decoration: none; }
+.zn-live-wire a:hover h2,
+.zn-live-wire a:hover h3 { color: var(--zn-orange-bright); }
+
+.zn-newsletter-page .newsletter-hero { padding-block: clamp(3rem, 7vw, 5.5rem); }
+.zn-newsletter-page .newsletter-card {
+  border-radius: 2px !important;
+  border-color: var(--zn-rule);
+  background: #111;
+}
+.zn-newsletter-page .newsletter-card input {
+  min-height: 48px;
+  border-radius: 2px !important;
+}
+.zn-newsletter-page .newsletter-card button[type="submit"] {
+  min-height: 48px;
+  border-radius: 2px !important;
+}
+.zn-newsletter-page + section > .grid > div {
+  border-radius: 2px !important;
+  border-color: var(--zn-rule);
+  background: #101010;
+}
