@@ -11,14 +11,14 @@ type PageHeroProps = {
 export function PageHero({ kicker, title, dek, meta, align = "left" }: PageHeroProps) {
   const centered = align === "center";
   return (
-    <section className="border-b border-divider bg-background">
+    <section className="zn-page-hero border-b border-divider bg-background">
       <div className="h-[3px] w-full bg-primary" />
-      <div className={`container max-w-7xl mx-auto px-4 py-10 md:py-14 ${centered ? "text-center" : ""}`}>
+      <div className={`zn-page-hero__inner container max-w-7xl mx-auto px-4 py-10 md:py-14 ${centered ? "text-center" : ""}`}>
         {kicker ? (
-          <p className="text-[10px] font-black tracking-[0.28em] uppercase text-primary mb-4">{kicker}</p>
+          <p className="zn-page-hero__kicker text-[10px] font-black tracking-[0.28em] uppercase text-primary mb-4">{kicker}</p>
         ) : null}
         <h1
-          className={`font-serif font-black text-4xl md:text-6xl leading-[0.95] tracking-tight max-w-3xl ${
+          className={`zn-page-hero__title font-serif font-black text-4xl md:text-6xl leading-[0.95] tracking-tight max-w-3xl ${
             centered ? "mx-auto" : ""
           }`}
         >
@@ -26,7 +26,7 @@ export function PageHero({ kicker, title, dek, meta, align = "left" }: PageHeroP
         </h1>
         {dek ? (
           <p
-            className={`mt-5 text-base md:text-lg text-muted-foreground max-w-2xl leading-relaxed ${
+            className={`zn-page-hero__dek mt-5 text-base md:text-lg text-muted-foreground max-w-2xl leading-relaxed ${
               centered ? "mx-auto" : ""
             }`}
           >
