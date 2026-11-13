@@ -1,17 +1,12 @@
 User-agent: *
 Allow: /
 Disallow: /api/
-Disallow: /search
-Disallow: /search?
 Disallow: /admin
-Disallow: /newsletter
 Disallow: /*?page=
 
 User-agent: Googlebot
 Allow: /
-Disallow: /search
 Disallow: /admin
-Disallow: /newsletter
 Disallow: /api/
 
 User-agent: Bingbot
