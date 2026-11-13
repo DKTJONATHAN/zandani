@@ -1,5 +1,5 @@
-import { useState, useMemo } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useState, useMemo, useCallback } from "react";
+import { Link } from "react-router-dom";
 import { Menu, X, Search, Radio, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { SearchOverlay } from "@/components/SearchOverlay";
@@ -9,11 +9,10 @@ import { primaryNavLinks } from "@/lib/site-links";
 const allPostsFromMarkdown = getAllPosts();
 
 export function Header() {
-  const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
-  const [searchQuery, setSearchQuery] = useState("");
   const trendingPosts = useMemo(() => allPostsFromMarkdown.slice(0, 5), []);
+  const closeSearch = useCallback(() => setIsSearchOpen(false), []);
 
   return (
     <>
@@ -43,19 +42,16 @@ export function Header() {
               {primaryNavLinks.map(link=><Link key={link.path} to={link.path} className="px-3 py-2 text-[12px] font-bold uppercase tracking-[.07em] text-muted-foreground hover:text-primary transition-colors">{link.label}</Link>)}
             </nav>
             <div className="flex items-center gap-1">
-              <form className="hidden xl:flex items-center border-b border-divider px-1 py-1" onSubmit={e=>{e.preventDefault();const q=searchQuery.trim();q?navigate("/search?q="+encodeURIComponent(q)):setIsSearchOpen(true)}} role="search">
-                <Search className="w-4 h-4 text-muted-foreground mr-2"/><input type="search" value={searchQuery} onChange={e=>setSearchQuery(e.target.value)} placeholder="Search the newsroom" aria-label="Search articles" className="bg-transparent outline-none text-xs w-40"/>
-              </form>
-              <Button variant="ghost" size="icon" onClick={()=>setIsSearchOpen(true)} className="h-10 w-10 rounded-none hover:bg-primary/10 hover:text-primary" aria-label="Search"><Search className="w-5 h-5"/></Button>
+              <Button variant="ghost" size="icon" onClick={()=>setIsSearchOpen(true)} className="h-10 w-10 rounded-none hover:bg-primary/10 hover:text-primary" aria-label="Open search" aria-haspopup="dialog" aria-controls="search-overlay" aria-expanded={isSearchOpen}><Search className="w-5 h-5"/></Button>
               <Link to="/newsletter" className="hidden md:inline-flex items-center gap-1.5 border border-primary px-3 h-9 text-[10px] font-bold uppercase tracking-[.12em] text-primary hover:bg-primary hover:text-primary-foreground"><Mail className="w-3.5 h-3.5"/>Briefing</Link>
               <Link to="/tv" className="hidden sm:inline-flex items-center gap-2 bg-primary text-primary-foreground px-3.5 h-9 text-[10px] font-bold uppercase tracking-[.12em]"><Radio className="w-3.5 h-3.5"/>Live TV</Link>
-              <Button variant="ghost" size="icon" className="lg:hidden h-10 w-10 rounded-none hover:bg-primary/10" onClick={()=>setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu" aria-expanded={isMenuOpen}>{isMenuOpen?<X className="w-5 h-5"/>:<Menu className="w-5 h-5"/>}</Button>
+              <Button variant="ghost" size="icon" className="lg:hidden h-10 w-10 rounded-none hover:bg-primary/10" onClick={()=>setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu" aria-controls="mobile-primary-nav" aria-expanded={isMenuOpen}>{isMenuOpen?<X className="w-5 h-5"/>:<Menu className="w-5 h-5"/>}</Button>
             </div>
           </div>
         </div>
-        {isMenuOpen && <nav className="lg:hidden border-t border-divider bg-background animate-fade-in" aria-label="Mobile"><div className="container max-w-7xl mx-auto px-4 py-2 pb-5">{primaryNavLinks.map(link=><Link key={link.path} to={link.path} className="block border-b border-divider py-3.5 text-sm font-bold uppercase tracking-wider" onClick={()=>setIsMenuOpen(false)}>{link.label}</Link>)}<div className="grid grid-cols-2 gap-2 pt-3"><Link to="/newsletter" onClick={()=>setIsMenuOpen(false)} className="border border-primary px-3 py-3 text-center text-xs font-bold uppercase tracking-wider text-primary"><Mail className="inline w-4 h-4 mr-1"/>Briefing</Link><Link to="/tv" onClick={()=>setIsMenuOpen(false)} className="bg-primary px-3 py-3 text-center text-xs font-bold uppercase tracking-wider text-primary-foreground"><Radio className="inline w-4 h-4 mr-1"/>Live TV</Link></div></div></nav>}
+        {isMenuOpen && <nav id="mobile-primary-nav" className="lg:hidden border-t border-divider bg-background animate-fade-in" aria-label="Mobile"><div className="container max-w-7xl mx-auto px-4 py-2 pb-5">{primaryNavLinks.map(link=><Link key={link.path} to={link.path} className="block border-b border-divider py-3.5 text-sm font-bold uppercase tracking-wider" onClick={()=>setIsMenuOpen(false)}>{link.label}</Link>)}<div className="grid grid-cols-2 gap-2 pt-3"><Link to="/newsletter" onClick={()=>setIsMenuOpen(false)} className="border border-primary px-3 py-3 text-center text-xs font-bold uppercase tracking-wider text-primary"><Mail className="inline w-4 h-4 mr-1"/>Briefing</Link><Link to="/tv" onClick={()=>setIsMenuOpen(false)} className="bg-primary px-3 py-3 text-center text-xs font-bold uppercase tracking-wider text-primary-foreground"><Radio className="inline w-4 h-4 mr-1"/>Live TV</Link></div></div></nav>}
       </header>
-      <SearchOverlay isOpen={isSearchOpen} onClose={()=>setIsSearchOpen(false)}/>
+      <SearchOverlay isOpen={isSearchOpen} onClose={closeSearch}/>
       <style dangerouslySetInnerHTML={{__html:`@keyframes headerMarquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.animate-header-marquee{animation:headerMarquee 40s linear infinite}@media(prefers-reduced-motion:reduce){.animate-header-marquee{animation:none}}`}}/>
     </>
   );
