@@ -456,7 +456,8 @@
     "6d44ccc7f565bc4ee1d9d495612767c01e63510fa8078ddfd692a221d1480f6f",
     "23075fa9758cee136a28793205bb40c41bfeba4150e9a94063b065ff93ece5ec",
     "6a86a7f8dc2eb9dff11f5df45cb53d1366b56fc094d2d31cd8e7f426e644f737",
-    "432cd0e635b52997b0a9eb4e1e78534dbbc6382086c8a5287d072fd2c21fc6f5"
+    "432cd0e635b52997b0a9eb4e1e78534dbbc6382086c8a5287d072fd2c21fc6f5",
+    "dcc1bc6d1ed3b8b946b6498fe3ea155fa46dbea07075a3ca5dd6c88171c93641"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -915,17 +916,10 @@
     "https://www.ghafla.co.ke/raymond-omollo-calls-for-leadership-training-to-strengthen-fishermen-cooperatives/",
     "https://www.ghafla.co.ke/kenya-engages-uganda-to-permanently-end-harassment-of-local-fishermen-ps-omollo-says/",
     "https://www.ghafla.co.ke/kendi-q-confirms-breakup-with-dancer-josh-wonder-reveals-she-has-been-single-for-8-months/",
-    "https://www.ghafla.co.ke/sky-victor-loses-access-to-tiktok-account-with-more-than-1-4-million-followers/"
+    "https://www.ghafla.co.ke/sky-victor-loses-access-to-tiktok-account-with-more-than-1-4-million-followers/",
+    "https://www.ghafla.co.ke/sandra-dacha-hilariously-reflects-on-breathing-struggles-in-throwback-photo-before-gastric-sleeve-surgery/"
   ],
   "published_angles": [
-    {
-      "title": "Ned Nwoko Moves From Online Pleas to Legal Paper Trail Over Regina Daniels Death Hoaxes",
-      "angle": "The operational shift from online pleas to institutional documentation and legal paper trails, focusing on Nwoko's move to log and target digital publishers for litigation.",
-      "angle_type": "legal accountability and digital publisher liability",
-      "opening": "Personality-led focus on Prince Ned Nwoko drawing a definitive legal boundary against digital content creators.",
-      "structure": "Personality hook on legal threat -> Breakdown of the documented publications and liability warning -> Health and marital context behind the October 25th birthday video -> Concrete closing on the ongoing documentation process.",
-      "source": "https://www.ghafla.co.ke/ned-nwoko-breaks-silence-on-regina-daniels-death-rumours-threatens-legal-action-against-bloggers/"
-    },
     {
       "title": "St. Lucy Kiriri University and Kwale Industrial Belt Set for Kenya Power Maintenance Outages",
       "angle": "Mapping the micro-economic and institutional footprint affected by the scheduled outages, contrasting the academic and residential enclave around St. Lucy Kiriri University in Nairobi with the energy and manufacturing corridor of Petrocity Bonje in Kwale.",
@@ -1717,6 +1711,14 @@
       "opening": "Personality lead opening directly on Sky Victor's recent handle switch to 'This Is Sky' and the immediate profile erasure.",
       "structure": "Rebrand-to-erasure hook -> Profile state audit on Nov 11 -> Creator trajectory as Betty Bayo's daughter -> Platform mechanics and policy triggers -> Status and recovery hurdles close",
       "source": "https://www.ghafla.co.ke/sky-victor-loses-access-to-tiktok-account-with-more-than-1-4-million-followers/"
+    },
+    {
+      "title": "Sandra Dacha\u2019s Lung-Function Joke Highlights Her Post-Surgery Weight-Loss Journey",
+      "angle": "Examining the specific timeline and physical reality of her transformation\u2014contrasting her post-surgery openness about the September 30 procedure and stomach-reduction mechanics with the humorous self-deprecation of her pre-surgery physical state.",
+      "angle_type": "celebrity medical timeline and body transformation contrast",
+      "opening": "Personality lead opening directly on Dacha's self-deprecating online throwback and lung joke.",
+      "structure": "Throwback joke hook -> Surgical timeline breakdown of September 30 and November 9 reveal -> Medical mechanics of sleeve gastrectomy -> Continued transformation updates close.",
+      "source": "https://www.ghafla.co.ke/sandra-dacha-hilariously-reflects-on-breathing-struggles-in-throwback-photo-before-gastric-sleeve-surgery/"
     }
   ],
   "style_history": [
