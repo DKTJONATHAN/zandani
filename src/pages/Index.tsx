@@ -348,14 +348,16 @@ const Index = () => {
       )}
 
       <section className="container max-w-7xl mx-auto px-3 sm:px-4 pb-12">
-        <div className="flex flex-wrap items-center gap-2 mb-4 overflow-x-auto">
+        <div className="news-home__category-filters flex flex-wrap items-center gap-2 mb-4 overflow-x-auto" role="group" aria-label="Filter latest stories by category">
           {categories.map(cat => (
             <button
               key={cat}
+              type="button"
+              aria-pressed={activeCategory === cat}
               onClick={() => handleCategoryChange(cat)}
               className={`px-3 py-1.5 text-xs font-bold uppercase tracking-wider rounded-full border transition-colors ${activeCategory === cat ? "bg-primary text-primary-foreground border-primary" : "border-border text-muted-foreground hover:border-primary/50"}`}
             >
-              {cat}
+              {cat === 'all' ? 'All stories' : cat.replace(/\b\w/g, (letter) => letter.toUpperCase())}
             </button>
           ))}
         </div>
@@ -365,6 +367,7 @@ const Index = () => {
             <div className="flex items-center gap-2 mb-2">
               <Flame className="w-4 h-4 text-primary" />
               <h2 className="text-sm font-black uppercase tracking-widest">Latest from Kenya</h2>
+              <Link to="/news" className="news-home__all-news inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider text-primary hover:underline">All news <ArrowRight className="w-3.5 h-3.5" aria-hidden /></Link>
               <div className="h-px flex-1 bg-border" />
               <span className="text-[10px] uppercase tracking-wider text-muted-foreground">Last 48 hours</span>
             </div>
