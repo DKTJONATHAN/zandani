@@ -1,0 +1,52 @@
+name: Verify restored article pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/posts/**"
+      - "index.html"
+      - "scripts/generate-post-manifest.js"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-restored-article-pages
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for Cloudflare deployment
+        if: github.event_name == 'push'
+        run: sleep 75
+
+      - name: Verify restored article pages
+        shell: bash
+        run: |
+          set -euo pipefail
+          declare -A expected
+          expected["thomas-tuchel-drops-star-players-in-controversial-england-squad"]="Thomas Tuchel Drops Star Players"
+          expected["miami-police-officers-sue-ben-affleck-matt-damon-production-firm"]="Miami Police Officers Sue Ben Affleck"
+          expected["kamuoni-boys-parents-protest-repair-fee-demand-principal-removal"]="Kamuoni Boys Parents Protest"
+          for slug in "${!expected[@]}"; do
+            url="https://zandani.co.ke/article/$slug"
+            code=$(curl -L -sS -o "/tmp/$slug.html" -w "%{http_code}" "$url")
+            test "$code" = "200"
+            grep -Fq "${expected[$slug]}" "/tmp/$slug.html"
+            grep -Fq "rel=\"canonical\"" "/tmp/$slug.html"
+            echo "Verified $url"
+          done
+
+      - name: Verify homepage organization logo structured data
+        shell: bash
+        run: |
+          set -euo pipefail
+          code=$(curl -L -sS -o /tmp/zandani-home.html -w "%{http_code}" https://zandani.co.ke/)
+          test "$code" = "200"
+          grep -Fq '"@type": "Organization"' /tmp/zandani-home.html
+          grep -Fq 'https://zandani.co.ke/logo.png' /tmp/zandani-home.html
+          echo "Verified homepage Organization schema and logo URL."
