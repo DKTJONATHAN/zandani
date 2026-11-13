@@ -450,7 +450,8 @@
     "cf4b3921537411fbda2edebd4e7ac0a8051da05a58e765ddab91d31fdb8f526c",
     "77972926123480700fc04f8a714916c87b468c25ea228be0d5eac369e60bb26b",
     "9ea37b479aeb3a86569ec938270d3fba9924da8b47ffba0b50376951190cf918",
-    "5125c812575727765dc5a45c27a67e78c1ae0565e0b9c3a6614d1df5727368c0"
+    "5125c812575727765dc5a45c27a67e78c1ae0565e0b9c3a6614d1df5727368c0",
+    "373e6f888321d505c3c1d4de490e5124ba96f3d0552e636f7f42dd799ff1d29f"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -903,17 +904,10 @@
     "https://www.ghafla.co.ke/mwanamke-si-samaki-wa-kuanikwa-juani-raila-junior-offers-poetic-swahili-advice-to-isaya-yunge-and-charlene-ruto/",
     "https://www.ghafla.co.ke/geoffrey-mosiria-declares-2027-governor-bid-after-meeting-gachagua-and-matiangi/",
     "https://www.ghafla.co.ke/kelvin-kinuthia-reacts-to-fda-blindness-warning-on-ozempic-surgery/",
-    "https://www.ghafla.co.ke/kenya-on-high-alert-as-western-allies-warn-of-99-ebola-outbreak-risk-in-south-sudan/"
+    "https://www.ghafla.co.ke/kenya-on-high-alert-as-western-allies-warn-of-99-ebola-outbreak-risk-in-south-sudan/",
+    "https://www.ghafla.co.ke/tyler-mbaya-gifts-his-daughter-days-after-georgina-njengas-exit-from-rehab/"
   ],
   "published_angles": [
-    {
-      "title": "Mejja Bans Post-Campaign \u2018Sorry\u2019 Tours as 2027 Political Money Hits Music Scene",
-      "angle": "Framing Mejja's warning as a rejection of post-campaign 'apology press tours,' establishing that artists who accept Ksh 2M political deals must take full ownership of subsequent career damage without begging fans for forgiveness later.",
-      "angle_type": "artistic integrity and commercial accountability",
-      "opening": "Personality lead focusing directly on Mejja establishing a strict boundary against future media apology tours.",
-      "structure": "Personality hook -> Kwambox's Ksh 2M hypothetical scenario -> Breakdown of Mejja's 'no apology' rule -> Industry context of campaign music risks ahead of 2027 -> Concrete closing on creator accountability.",
-      "source": "https://www.ghafla.co.ke/usije-ukasema-sorry-mejja-cautions-artists-over-career-risks-of-political-endorsements-ahead-of-2027/"
-    },
     {
       "title": "Rigathi Gachagua Slams 'Boardroom' Opposition Rivals and Rejects Kalonzo\u2019s Nov 13 Ticket Launch",
       "angle": "Focusing on Gachagua's strategic attack on 'boardroom politicians' and his veto against Kalonzo Musyoka's early presidential nomination deadline, using his 'truth-teller' persona to set a grassroots ultimatum for any 2027 ticket candidate.",
@@ -1705,6 +1699,14 @@
       "opening": "Personality lead opening directly on Aden Duale establishing the December 23 Ebola-free clearance deadline.",
       "structure": "CS countdown lead -> October cluster containment facts -> Six-nation diplomatic demand on Juba -> Cross-border trade exposure -> Facility readiness close.",
       "source": "https://www.ghafla.co.ke/kenya-on-high-alert-as-western-allies-warn-of-99-ebola-outbreak-risk-in-south-sudan/"
+    },
+    {
+      "title": "Tyler Mbaya Swaps Studio Glitz for Red Dirt in Hands-On Bicycle Gift to Daughter Astra",
+      "angle": "Framing the exchange through Mbaya's deliberate focus on unpolished, dirt-ground parenting milestones rather than high-production social media spectacle.",
+      "angle_type": "celebrity fatherhood and domestic lifestyle",
+      "opening": "Personality lead opening directly on Mbaya seated in the dirt alongside Astra's pink bicycle.",
+      "structure": "Dirt-ground hook -> Bicycle and gift bag breakdown -> Frame-by-frame snapshot analysis -> Grounded fatherhood narrative -> Concrete milestone close.",
+      "source": "https://www.ghafla.co.ke/tyler-mbaya-gifts-his-daughter-days-after-georgina-njengas-exit-from-rehab/"
     }
   ],
   "style_history": [
