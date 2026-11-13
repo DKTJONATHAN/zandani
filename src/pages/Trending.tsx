@@ -86,7 +86,7 @@ const Trending = () => {
       </Helmet>
 
       {/* ── Page hero ── */}
-      <section className="bg-zinc-950 border-b border-zinc-800">
+      <section className="zn-trending__hero bg-zinc-950 border-b border-zinc-800">
         <div className="h-[3px] w-full bg-primary" />
         <div className="container max-w-7xl mx-auto px-4 py-10">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
@@ -109,7 +109,7 @@ const Trending = () => {
         </div>
       </section>
 
-      <section className="py-10 md:py-14 bg-background">
+      <section className="zn-trending__body py-10 md:py-14 bg-background">
         <div className="container max-w-7xl mx-auto px-4">
 
           {loading ? (
