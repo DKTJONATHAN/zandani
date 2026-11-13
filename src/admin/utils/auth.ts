@@ -1,27 +1,36 @@
-const hashPin = (pin: string): string => {
-  let hash = 0;
-  for (let i = 0; i < pin.length; i++) {
-    const char = pin.charCodeAt(i);
-    hash = ((hash << 5) - hash) + char;
-    hash = hash & hash;
+const SESSION_KEY = "admin_session";
+
+export function getAdminSessionToken(): string | null {
+  if (typeof window === "undefined") return null;
+  const token = sessionStorage.getItem(SESSION_KEY);
+  if (!token) return null;
+
+  try {
+    const encodedPayload = token.split(".")[0];
+    const base64 = encodedPayload.replace(/-/g, "+").replace(/_/g, "/");
+    const padded = base64.padEnd(Math.ceil(base64.length / 4) * 4, "=");
+    const binary = atob(padded);
+    const bytes = Uint8Array.from(binary, (character) => character.charCodeAt(0));
+    const claims = JSON.parse(new TextDecoder().decode(bytes)) as { exp?: number; sub?: string };
+    if (claims.sub !== "zandani-admin" || !claims.exp || claims.exp <= Math.floor(Date.now() / 1000)) {
+      sessionStorage.removeItem(SESSION_KEY);
+      return null;
+    }
+    return token;
+  } catch {
+    sessionStorage.removeItem(SESSION_KEY);
+    return null;
   }
-  return hash.toString();
-};
-
-const VALID_HASHES = [hashPin("1711"), hashPin("2000")];
-
-export function validatePin(pin: string): boolean {
-  return VALID_HASHES.includes(hashPin(pin));
 }
 
 export function isAdminAuthenticated(): boolean {
-  return sessionStorage.getItem("admin_auth") === "true";
+  return Boolean(getAdminSessionToken());
 }
 
-export function setAdminAuthenticated(value: boolean) {
-  if (value) {
-    sessionStorage.setItem("admin_auth", "true");
+export function setAdminAuthenticated(token: string | false) {
+  if (typeof token === "string" && token) {
+    sessionStorage.setItem(SESSION_KEY, token);
   } else {
-    sessionStorage.removeItem("admin_auth");
+    sessionStorage.removeItem(SESSION_KEY);
   }
 }
