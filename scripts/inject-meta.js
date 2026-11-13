@@ -56,7 +56,21 @@ function articleSearchTitle(headline) {
   const available = maxLength - brand.length;
   const clean = String(headline || '').replace(/\s+/g, ' ').trim();
   if (clean.length <= available) return clean + brand;
-  const shortened = clean.slice(0, available - 1).replace(/\s+\S*$/, '').replace(/[\s.,;:!?-]+$/, '');
+
+  // Keep a short lead for topic relevance and the headline's ending for
+  // distinction. Prefix-only truncation caused unrelated articles with
+  // similar openings to receive identical title tags.
+  const words = clean.split(' ');
+  const ending = words.slice(-2).join(' ');
+  const prefixBudget = available - ending.length - 2;
+  const prefix = clean.slice(0, Math.max(0, prefixBudget))
+    .replace(/\s+\S*$/, '')
+    .replace(/[\s.,;:!?-]+$/, '');
+  if (prefix.length >= 12) return prefix + '… ' + ending + brand;
+
+  const shortened = clean.slice(0, available - 1)
+    .replace(/\s+\S*$/, '')
+    .replace(/[\s.,;:!?-]+$/, '');
   return (shortened || clean.slice(0, available - 1)) + '…' + brand;
 }
 
