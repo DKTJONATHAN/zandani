@@ -455,7 +455,8 @@
     "fe2ff6d9a55576cdb79ed54d62bbaeb57e5fb4c70c5c89f0f19fef31c4b796b0",
     "6d44ccc7f565bc4ee1d9d495612767c01e63510fa8078ddfd692a221d1480f6f",
     "23075fa9758cee136a28793205bb40c41bfeba4150e9a94063b065ff93ece5ec",
-    "6a86a7f8dc2eb9dff11f5df45cb53d1366b56fc094d2d31cd8e7f426e644f737"
+    "6a86a7f8dc2eb9dff11f5df45cb53d1366b56fc094d2d31cd8e7f426e644f737",
+    "432cd0e635b52997b0a9eb4e1e78534dbbc6382086c8a5287d072fd2c21fc6f5"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -913,17 +914,10 @@
     "https://www.ghafla.co.ke/five-feared-dead-after-another-building-collapses-near-sgr-terminus/",
     "https://www.ghafla.co.ke/raymond-omollo-calls-for-leadership-training-to-strengthen-fishermen-cooperatives/",
     "https://www.ghafla.co.ke/kenya-engages-uganda-to-permanently-end-harassment-of-local-fishermen-ps-omollo-says/",
-    "https://www.ghafla.co.ke/kendi-q-confirms-breakup-with-dancer-josh-wonder-reveals-she-has-been-single-for-8-months/"
+    "https://www.ghafla.co.ke/kendi-q-confirms-breakup-with-dancer-josh-wonder-reveals-she-has-been-single-for-8-months/",
+    "https://www.ghafla.co.ke/sky-victor-loses-access-to-tiktok-account-with-more-than-1-4-million-followers/"
   ],
   "published_angles": [
-    {
-      "title": "Sky Victor Enforces Mother\u2019s 'No Boys' Rule to Shield Content Empire Until Age 20",
-      "angle": "Framing Sky Victor's dating moratorium as an intentional personal boundary guided by her mother's posthumous advice to protect her emerging digital content career.",
-      "angle_type": "career boundary discipline and maternal legacy advice",
-      "opening": "Personality lead opening directly on Sky Victor applying her late mother's relationship advice as a strict boundary.",
-      "structure": "Personality lead hook -> Specific quote on maternal rule -> June 2026 dating moratorium timeline -> Content creation focus -> Concrete close on operational boundary",
-      "source": "https://www.ghafla.co.ke/betty-bayos-daughter-sky-victor-explains-why-she-is-not-interested-in-dating/"
-    },
     {
       "title": "Ned Nwoko Moves From Online Pleas to Legal Paper Trail Over Regina Daniels Death Hoaxes",
       "angle": "The operational shift from online pleas to institutional documentation and legal paper trails, focusing on Nwoko's move to log and target digital publishers for litigation.",
@@ -1715,6 +1709,14 @@
       "opening": "Direct personality lead introducing Kendi Q's refusal to issue an official breakup statement while confirming an eight-month-old separation from Josh Wonder.",
       "structure": "Personality lead hook -> Direct message and IG statement breakdown -> Anti-harassment directive and reflections on past relationship -> Narrative timeline from late 2024 to 2026 -> Concrete close on forward-looking personal stance.",
       "source": "https://www.ghafla.co.ke/kendi-q-confirms-breakup-with-dancer-josh-wonder-reveals-she-has-been-single-for-8-months/"
+    },
+    {
+      "title": "Sky Victor\u2019s 1.4M TikTok Account Wiped Blank Days After 'This Is Sky' Rebrand",
+      "angle": "Focusing on the precise structural signals of the account wipeout\u2014occurring days after her handle transition from 'Sky V' to 'This Is Sky'\u2014where her 1.4M follower shell remains visible on an erased profile page.",
+      "angle_type": "creator infrastructure and rebrand setback",
+      "opening": "Personality lead opening directly on Sky Victor's recent handle switch to 'This Is Sky' and the immediate profile erasure.",
+      "structure": "Rebrand-to-erasure hook -> Profile state audit on Nov 11 -> Creator trajectory as Betty Bayo's daughter -> Platform mechanics and policy triggers -> Status and recovery hurdles close",
+      "source": "https://www.ghafla.co.ke/sky-victor-loses-access-to-tiktok-account-with-more-than-1-4-million-followers/"
     }
   ],
   "style_history": [
