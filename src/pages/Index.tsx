@@ -357,7 +357,7 @@ const Index = () => {
               onClick={() => handleCategoryChange(cat)}
               className={`px-3 py-1.5 text-xs font-bold uppercase tracking-wider rounded-full border transition-colors ${activeCategory === cat ? "bg-primary text-primary-foreground border-primary" : "border-border text-muted-foreground hover:border-primary/50"}`}
             >
-              {cat}
+              {cat === 'all' ? 'All stories' : cat.replace(/\b\w/g, (letter) => letter.toUpperCase())}
             </button>
           ))}
         </div>
