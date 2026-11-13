@@ -197,12 +197,6 @@ export function useTopScorers(competition: string = 'PL') {
   });
 }
 
-export function useAIHeadline() {
-  return useMutation({
-    mutationFn: () => fetchAIContent('headline', {}),
-  });
-}
-
 export function useMatchReview() {
   return useMutation({
     mutationFn: (match: Match) => fetchAIContent('review', { match }),
@@ -212,12 +206,6 @@ export function useMatchReview() {
 export function useMatchPreview() {
   return useMutation({
     mutationFn: (match: Match) => fetchAIContent('preview', { match }),
-  });
-}
-
-export function useDailyRoundup() {
-  return useMutation({
-    mutationFn: (matches: Match[]) => fetchAIContent('roundup', { matches }),
   });
 }
 
