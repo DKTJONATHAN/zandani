@@ -47,7 +47,7 @@ export default function LiveWirePage() {
         <link rel="canonical" href={`${SITE_URL}/live`} />
       </Helmet>
 
-      <div className="bg-background text-foreground min-h-screen">
+      <div className="zn-live-wire bg-background text-foreground min-h-screen">
         <section className="border-b border-divider">
           <div className="h-[3px] w-full bg-primary" />
           <div className="container max-w-7xl mx-auto px-3 sm:px-4 py-10 md:py-12">
@@ -68,11 +68,12 @@ export default function LiveWirePage() {
         </section>
 
         <section className="container max-w-7xl mx-auto px-3 sm:px-4 py-6 md:py-10">
-          <div className="flex gap-2 overflow-x-auto pb-4">
+          <div className="zn-live-wire__filters flex gap-2 overflow-x-auto pb-4" role="group" aria-label="Filter live desk stories">
             {FILTERS.map((item) => (
               <button
                 key={item}
                 type="button"
+                aria-pressed={filter === item}
                 onClick={() => setFilter(item)}
                 className={`flex-shrink-0 px-3 py-1.5 text-xs font-black uppercase tracking-wide border ${
                   filter === item
