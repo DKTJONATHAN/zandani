@@ -296,7 +296,7 @@ def run_writer(cfg):
             fresh, age_h = is_fresh_enough(soup, max_hours=FRESH_HOURS)
             if not fresh:
                 print(f"Skipping, age {age_h:.1f}h exceeds {FRESH_HOURS}h")
-                return "", ""
+                return "", "", []
             if age_h is None:
                 print("No structured date — allowing (unknown age)")
             else:
@@ -334,12 +334,12 @@ def run_writer(cfg):
             body = scrub_brands(body)[:6000]
             if mentions_stale_year(body, now_eat.year):
                 print("Skipping, source body cites an older year (likely a retrospective/reshare)")
-                return "", ""
+                return "", "", []
             images = extract_article_images(soup, url, article_root, limit=12)
             return body, og, images
         except Exception as e:
             print(f"Fetch article error: {e}")
-            return "", ""
+            return "", "", []
 
     def call_gemini(prompt):
         api_key = (
