@@ -27,9 +27,9 @@ function searchTitle(headline: string): string {
   const brand = " | Za Ndani";
   const maxLength = 58;
   const available = maxLength - brand.length;
-  const clean = String(headline || "").replace(/\\s+/g, " ").trim();
+  const clean = String(headline || "").replace(/\s+/g, " ").trim();
   if (clean.length <= available) return clean + brand;
-  const shortened = clean.slice(0, available - 1).replace(/\\s+\\S*$/, "").replace(/[\\s.,;:!?-]+$/, "");
+  const shortened = clean.slice(0, available - 1).replace(/\s+\S*$/, "").replace(/[\s.,;:!?-]+$/, "");
   return (shortened || clean.slice(0, available - 1)) + "…" + brand;
 }
 // OG metadata is validated by host and URL structure; no generated image URLs are injected here.
@@ -182,6 +182,16 @@ export default function ArticlePage() {
   const categoryLabel = post.category || "News";
   const publishedDate = new Date(post.publishDate || post.date);
   const modifiedDate = new Date(post.dateModified || post.publishDate || post.date);
+  const authorIsOrganization = /desk|za ndani|editorial team/i.test(post.author) || /desk|team/i.test(authorProfile.role || "");
+  const authorSchema = {
+    "@type": authorIsOrganization ? "Organization" : "Person",
+    name: post.author,
+    description: authorBio,
+    url: `${SITE_URL}/author/${(post.author || "za-ndani").toLowerCase().replace(/\s+/g, "-")}`,
+    ...(authorIsOrganization
+      ? { logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` } }
+      : { jobTitle: authorProfile.role }),
+  };
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
@@ -191,7 +201,7 @@ export default function ArticlePage() {
     image: post.image ? [postOgImage] : undefined,
     datePublished: Number.isNaN(publishedDate.getTime()) ? undefined : publishedDate.toISOString(),
     dateModified: Number.isNaN(modifiedDate.getTime()) ? undefined : modifiedDate.toISOString(),
-    author: { "@type": "Organization", name: post.author, description: authorBio, url: `${SITE_URL}/author/${(post.author || "za-ndani").toLowerCase().replace(/\s+/g, "-")}` },
+    author: authorSchema,
     publisher: {
       "@type": "Organization",
       name: "Za Ndani",
