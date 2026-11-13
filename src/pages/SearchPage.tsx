@@ -45,7 +45,7 @@ export default function SearchPage() {
         <meta name="robots" content="noindex" />
       </Helmet>
 
-      <div className="container max-w-3xl py-8 md:py-12">
+      <div className="zn-search-page container max-w-3xl py-8 md:py-12">
         <Link
           to="/"
           className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-primary mb-6"
