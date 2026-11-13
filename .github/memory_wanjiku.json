@@ -457,7 +457,8 @@
     "23075fa9758cee136a28793205bb40c41bfeba4150e9a94063b065ff93ece5ec",
     "6a86a7f8dc2eb9dff11f5df45cb53d1366b56fc094d2d31cd8e7f426e644f737",
     "432cd0e635b52997b0a9eb4e1e78534dbbc6382086c8a5287d072fd2c21fc6f5",
-    "dcc1bc6d1ed3b8b946b6498fe3ea155fa46dbea07075a3ca5dd6c88171c93641"
+    "dcc1bc6d1ed3b8b946b6498fe3ea155fa46dbea07075a3ca5dd6c88171c93641",
+    "20fe33bc81a4f18d984e990309c31332062bc2757b1a3dce3befe6622123b3b2"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -917,17 +918,10 @@
     "https://www.ghafla.co.ke/kenya-engages-uganda-to-permanently-end-harassment-of-local-fishermen-ps-omollo-says/",
     "https://www.ghafla.co.ke/kendi-q-confirms-breakup-with-dancer-josh-wonder-reveals-she-has-been-single-for-8-months/",
     "https://www.ghafla.co.ke/sky-victor-loses-access-to-tiktok-account-with-more-than-1-4-million-followers/",
-    "https://www.ghafla.co.ke/sandra-dacha-hilariously-reflects-on-breathing-struggles-in-throwback-photo-before-gastric-sleeve-surgery/"
+    "https://www.ghafla.co.ke/sandra-dacha-hilariously-reflects-on-breathing-struggles-in-throwback-photo-before-gastric-sleeve-surgery/",
+    "https://www.ghafla.co.ke/sandra-dacha-opens-up-about-struggling-to-breathe-when-she-was-overweight/"
   ],
   "published_angles": [
-    {
-      "title": "St. Lucy Kiriri University and Kwale Industrial Belt Set for Kenya Power Maintenance Outages",
-      "angle": "Mapping the micro-economic and institutional footprint affected by the scheduled outages, contrasting the academic and residential enclave around St. Lucy Kiriri University in Nairobi with the energy and manufacturing corridor of Petrocity Bonje in Kwale.",
-      "angle_type": "institutional footprint and commercial corridor disruption",
-      "opening": "Campus and commercial anchor lead focusing directly on St. Lucy Kiriri University and the Bonje industrial stretch.",
-      "structure": "Institutional lead -> Mwihoko academic and residential pocket breakdown -> Kwale energy and manufacturing stretch breakdown -> Maintenance timetable context and concrete close.",
-      "source": "https://www.ghafla.co.ke/kenya-power-announces-wednesday-outages-in-parts-of-nairobi-and-kwale/"
-    },
     {
       "title": "Regina Re\u2019s Mother Suffered Severe Neck Trauma, Autopsy Reveals",
       "angle": "Examining the specific forensic medical evidence revealed by government pathologist Dr Bernard Midia during the two-hour postmortem examination at Lee Funeral Home, moving past the initial celebrity headlines to detail the exact physical trauma documented.",
@@ -1719,6 +1713,14 @@
       "opening": "Personality lead opening directly on Dacha's self-deprecating online throwback and lung joke.",
       "structure": "Throwback joke hook -> Surgical timeline breakdown of September 30 and November 9 reveal -> Medical mechanics of sleeve gastrectomy -> Continued transformation updates close.",
       "source": "https://www.ghafla.co.ke/sandra-dacha-hilariously-reflects-on-breathing-struggles-in-throwback-photo-before-gastric-sleeve-surgery/"
+    },
+    {
+      "title": "Sandra Dacha Drops the Gurney Drama to Joke About Lungs \u2018Attending Meetings\u2019 Before Surgery",
+      "angle": "Examining how Dacha systematically deflated weeks of somber operating-room suspense by pivoting to blunt, self-directed comedy, exposing the raw physical discomfort of respiratory strain that prompted her September 30 surgical intervention.",
+      "angle_type": "celebrity narrative recalibration and vulnerability through humor",
+      "opening": "Personality lead focusing on Dacha dismantling weeks of dramatic health intrigue by replacing surgical solemnity with sharp self-mockery.",
+      "structure": "The narrative pivot from suspense to comedy -> Breakdown of the hospital video and November 9 disclosure -> The physical reality behind the lung-function quip -> Sleeve gastrectomy surgical mechanics -> Grounded close on candid recovery documentation.",
+      "source": "https://www.ghafla.co.ke/sandra-dacha-opens-up-about-struggling-to-breathe-when-she-was-overweight/"
     }
   ],
   "style_history": [
