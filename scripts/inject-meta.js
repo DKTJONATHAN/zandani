@@ -50,6 +50,16 @@ function isPublished(post) {
   return published && published.getTime() <= Date.now();
 }
 
+function articleSearchTitle(headline) {
+  const brand = ' | Za Ndani';
+  const maxLength = 60;
+  const available = maxLength - brand.length;
+  const clean = String(headline || '').replace(/\s+/g, ' ').trim();
+  if (clean.length <= available) return clean + brand;
+  const shortened = clean.slice(0, available - 1).replace(/\s+\S*$/, '').replace(/[\s.,;:!?-]+$/, '');
+  return (shortened || clean.slice(0, available - 1)) + '…' + brand;
+}
+
 function absoluteImage(image) {
   if (!image) return DEFAULT_IMAGE;
   return String(image).startsWith('http') ? String(image) : `${SITE_URL}${String(image).startsWith('/') ? '' : '/'}${image}`;
@@ -340,11 +350,15 @@ for (const post of posts) {
     { '@type': 'ListItem', position: 2, name: post.category, item: SITE_URL + categoryPath },
     { '@type': 'ListItem', position: 3, name: post.title, item: url },
   ] };
+  const authorIsOrganization = /desk|za ndani|editorial team/i.test(post.author) || /desk|team/i.test(authorProfile.role || '');
   const authorSchema = {
-    '@type': 'Organization',
+    '@type': authorIsOrganization ? 'Organization' : 'Person',
     name: post.author,
     description: authorProfile.bio,
     url: SITE_URL + '/author/' + authorSlug,
+    ...(authorIsOrganization
+      ? { logo: { '@type': 'ImageObject', url: SITE_URL + '/logo.png' } }
+      : { jobTitle: authorProfile.role }),
   };
   const schema = {
     '@context': 'https://schema.org', '@type': 'NewsArticle', headline: post.title,
@@ -355,7 +369,7 @@ for (const post of posts) {
   };
   const breadcrumb = '<nav aria-label="Breadcrumb"><a href="/">Home</a> / <a href="' + categoryPath + '">' + escapeHtml(post.category) + '</a> / <span>' + escapeHtml(post.title) + '</span></nav>';
   const body = '<main><article>' + breadcrumb + '<header><h1>' + escapeHtml(post.title) + '</h1><p>' + escapeHtml(description) + '</p><p>By <a href="/author/' + authorSlug + '">' + escapeHtml(post.author) + '</a> · <time datetime="' + published.toISOString() + '">' + published.toLocaleString('en-KE') + '</time></p><img src="' + escapeHtml(post.image) + '" alt="' + escapeHtml(post.title) + '" width="1200" height="630" loading="eager" fetchpriority="high" decoding="async"></header><div class="article-body">' + articleHtml + '</div><footer><h2>More from Za Ndani</h2><ul>' + relatedHtml + '</ul></footer></article></main>';
-  const meta = '<title>' + escapeHtml(post.title) + ' | Za Ndani</title><meta name="description" content="' + escapeHtml(metaDescription) + '"><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"><link rel="canonical" href="' + escapeHtml(url) + '"><meta property="og:title" content="' + escapeHtml(post.title) + '"><meta property="og:description" content="' + escapeHtml(metaDescription) + '"><meta property="og:image" content="' + escapeHtml(post.image) + '"><meta property="og:url" content="' + escapeHtml(url) + '"><meta property="og:type" content="article"><meta property="article:published_time" content="' + published.toISOString() + '"><meta property="article:modified_time" content="' + modified.toISOString() + '"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="' + escapeHtml(post.title) + '"><meta name="twitter:description" content="' + escapeHtml(metaDescription) + '"><meta name="twitter:image" content="' + escapeHtml(post.image) + '">';
+  const meta = '<title>' + escapeHtml(articleSearchTitle(post.title)) + '</title><meta name="description" content="' + escapeHtml(metaDescription) + '"><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"><link rel="canonical" href="' + escapeHtml(url) + '"><meta property="og:title" content="' + escapeHtml(post.title) + '"><meta property="og:description" content="' + escapeHtml(metaDescription) + '"><meta property="og:image" content="' + escapeHtml(post.image) + '"><meta property="og:url" content="' + escapeHtml(url) + '"><meta property="og:type" content="article"><meta property="article:published_time" content="' + published.toISOString() + '"><meta property="article:modified_time" content="' + modified.toISOString() + '"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="' + escapeHtml(post.title) + '"><meta name="twitter:description" content="' + escapeHtml(metaDescription) + '"><meta name="twitter:image" content="' + escapeHtml(post.image) + '">';
   const articleJsonLd = '<script type="application/ld+json">' + JSON.stringify(schema).replace(/</g, '\\u003c') + '</script><script type="application/ld+json">' + JSON.stringify(breadcrumbSchema).replace(/</g, '\\u003c') + '</script>';
   writeRoute(route, injectRoot(injectHead(baseHtml, meta), body + articleJsonLd));
 }
