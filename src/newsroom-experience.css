@@ -404,7 +404,8 @@ header .animate-header-marquee a { padding-block: 3px; }
 .news-article .article-shell .grid > aside { min-width: 0; }
 .news-article .article-shell aside { align-self: start; }
 .news-article .article-share-rail button,
-.news-article [aria-label="Share this story"] a {
+.news-article [aria-label="Share this story"] a,
+.news-article [aria-label="Share this story"] button {
   min-width: 44px;
   min-height: 44px;
   border-color: var(--zn-rule);
