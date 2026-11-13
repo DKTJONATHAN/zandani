@@ -447,7 +447,8 @@
     "c300bcfb9280fb12fb0dc22e7b5b2259ab0f781bdd4f61a35797d191ca4b9db9",
     "e7419a33151014e9ba5f81bd91b9df73673f4daae4f50496984bf3dd75103d55",
     "0dc19f620affc70dbc3d7aff16c3d81cc15681f5790e693e6fb082d37f7b068a",
-    "cf4b3921537411fbda2edebd4e7ac0a8051da05a58e765ddab91d31fdb8f526c"
+    "cf4b3921537411fbda2edebd4e7ac0a8051da05a58e765ddab91d31fdb8f526c",
+    "77972926123480700fc04f8a714916c87b468c25ea228be0d5eac369e60bb26b"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -897,17 +898,10 @@
     "https://www.ghafla.co.ke/janet-mbugua-and-mercy-masika-meet-weeks-after-public-disagreement-over-marriage-masterclass/",
     "https://www.ghafla.co.ke/chebet-ronoh-to-face-sheila-kiguta-in-kenyas-first-female-celebrity-boxing-match/",
     "https://www.ghafla.co.ke/i-am-blessed-abundantly-isaya-yunge-celebrates-being-charlene-rutos-husband-in-emotional-post/",
-    "https://www.ghafla.co.ke/mwanamke-si-samaki-wa-kuanikwa-juani-raila-junior-offers-poetic-swahili-advice-to-isaya-yunge-and-charlene-ruto/"
+    "https://www.ghafla.co.ke/mwanamke-si-samaki-wa-kuanikwa-juani-raila-junior-offers-poetic-swahili-advice-to-isaya-yunge-and-charlene-ruto/",
+    "https://www.ghafla.co.ke/geoffrey-mosiria-declares-2027-governor-bid-after-meeting-gachagua-and-matiangi/"
   ],
   "published_angles": [
-    {
-      "title": "From TikTok 'President' to 10k Views: Pastor Kanyari Puzzled Why His Clout Formula Broke",
-      "angle": "Focusing on the algorithm puzzle and viewership collapse: examining the stark commercial reality of Kanyari's drop from midnight 'TikTok presidency' crowds to struggling 10,000-viewer streams that no longer trigger the viral metrics he desires.",
-      "angle_type": "creator algorithm struggle and viewership decline",
-      "opening": "Personality lead focusing on Kanyari's current viewership reality on Radio Maisha.",
-      "structure": "Viewership drop hook -> Midnight TikTok broadcast strategy -> Reputational cost vs virtual gifts -> Current algorithm confusion and declining metrics.",
-      "source": "https://www.ghafla.co.ke/nimechoma-pastor-kanyari-regrets-tiktok-antics-admits-chasing-clout/"
-    },
     {
       "title": "From Quiz Show Icon to Police Custody: How Regina Re\u2019s Life Reached a Tragic Legal Turning Point",
       "angle": "Examining the specific police allegations regarding the crime scene tampering accusations and the familial dispute between the granddaughter and the mother, moving past mere biographical nostalgia to the active court proceedings.",
@@ -1699,6 +1693,14 @@
       "opening": "Personality lead opening directly on Raila Odinga Junior recording from Tanzania to deliver Swahili marital counsel to Isaya Yunge.",
       "structure": "Personality hook -> Verbatim Swahili advice and breakdown -> Joint statement from Yvonne and Junior -> Context of regional union and public resonance close.",
       "source": "https://www.ghafla.co.ke/mwanamke-si-samaki-wa-kuanikwa-juani-raila-junior-offers-poetic-swahili-advice-to-isaya-yunge-and-charlene-ruto/"
+    },
+    {
+      "title": "Geoffrey Mosiria Invokes \u2018Riggy G\u2019 Approval After Karen Sit-Down with Gachagua and Matiang\u2019i",
+      "angle": "Mosiria's tactical deployment of Gachagua's popular 'Riggy G' moniker to construct a 'worker over politician' candidate persona ahead of his upcoming Thika Road public mobilization.",
+      "angle_type": "political branding and strategic alignment",
+      "opening": "Personality lead opening directly on Geoffrey Mosiria walking out of Rigathi Gachagua's Karen residence claiming informal endorsement for his 2027 Nairobi gubernatorial run.",
+      "structure": "Karen meeting hook -> The 'Riggy G' quote and administrator narrative -> Cross-faction political maneuvering -> Details of the Sunday Thika Road launch.",
+      "source": "https://www.ghafla.co.ke/geoffrey-mosiria-declares-2027-governor-bid-after-meeting-gachagua-and-matiangi/"
     }
   ],
   "style_history": [
