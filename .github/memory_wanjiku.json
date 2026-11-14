@@ -462,7 +462,8 @@
     "7d7e6684d72af3e9218df56e997e2207ade5167b232463741212eed1fdedb9b9",
     "27387f2bedfd9a03814231b5add60b701dda3ead40dc31a729b9e41e00ee105a",
     "79fea4fd1bb74557a6aef4276943eceaf02e7503a3d8b5fd7b209786aa830794",
-    "330737c116abba660d5df8cbd20dc7d1f76f5416f3a2c1890ab33735931bdc9b"
+    "330737c116abba660d5df8cbd20dc7d1f76f5416f3a2c1890ab33735931bdc9b",
+    "9105a67c273521a0c3fdd45a2c07036d981bee35751f53a37437996a93c92987"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -927,17 +928,10 @@
     "https://www.ghafla.co.ke/mama-ida-odinga-declares-loyalty-to-odm-rules-out-leaving-broad-based-government/",
     "https://www.ghafla.co.ke/eric-omondi-announces-millions-that-have-been-raised-for-bungoma-teenager-battling-rare-skin-condition/",
     "https://www.ghafla.co.ke/politics-is-not-about-clout-chasing-jalango-tells-off-bahati-ahead-of-2027-mathare-parliamentary-bid/",
-    "https://www.ghafla.co.ke/kenya-power-announces-electricity-interruptions-in-nyeri-and-kiambu-counties-on-saturday/"
+    "https://www.ghafla.co.ke/kenya-power-announces-electricity-interruptions-in-nyeri-and-kiambu-counties-on-saturday/",
+    "https://www.ghafla.co.ke/things-changed-without-my-knowledge-babu-owino-reveals-alleged-power-sharing-deal-with-senator-edwin-sifuna/"
   ],
   "published_angles": [
-    {
-      "title": "Kabi Wa Jesus Anchors \u201850 Days of Thanksgiving\u2019 Drive With New Property Build",
-      "angle": "Framing the update around the creator's digital content strategy, specifically how he is using his '50 Days of Thanksgiving' series to document a secondary major real estate venture four years after their initial 2021 construction launch.",
-      "angle_type": "lifestyle portfolio expansion and digital storytelling",
-      "opening": "Personality lead focusing directly on Kabi Wa Jesus integrating his secondary home build into his structured digital content schedule.",
-      "structure": "Personality hook -> Site progress and construction admission -> Digital strategy & '50 Days of Thanksgiving' context -> Historical property timeline (2021 to 2022 vs current project) -> YouTube drop expectation close.",
-      "source": "https://www.ghafla.co.ke/kabi-wa-jesus-shows-off-progress-of-new-family-home-opens-up-on-construction-struggles/"
-    },
     {
       "title": "President Ruto Orders Local Factories to Supply Free Shoes for Kenya\u2019s 14 Million School Children",
       "angle": "The operational reality and massive economic scale behind shifting a procurement pipeline from foreign supply chains to local tanneries for 14 million pairs of school shoes.",
@@ -1729,6 +1723,14 @@
       "opening": "Commercial corridor lead framing the Saturday maintenance shut-off across Kiambu business hubs and Nyeri tea facilities.",
       "structure": "Commercial lead -> Kiambu Ruiru and Murera business/leisure breakdown -> Ruaka retail strip details -> Nyeri Ragati tea processing & telco disruption -> Operational notice close",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-electricity-interruptions-in-nyeri-and-kiambu-counties-on-saturday/"
+    },
+    {
+      "title": "Babu Owino Spills on Sifuna Fallout: How a Secret Flagbearer-Leader Deal Crumbled After ODM Exit",
+      "angle": "Examining the mechanics of their failed two-man power-sharing division\u2014Sifuna as presidential candidate and Owino controlling the party apparatus\u2014and how self-preservation fears shaped by Rigathi Gachagua's impeachment drove them to acquire separate vehicles.",
+      "angle_type": "political alliance breakdown and survival strategy",
+      "opening": "Personality lead opening directly on Babu Owino detailing the unravelling of his one-time frontline pact with Edwin Sifuna.",
+      "structure": "Personality lead on the pact reveal -> Mechanics of the division (presidency vs. party reins) -> The coup over party leadership -> The parallel scramble for political vehicles (TEP and Muungano) -> Gachagua cautionary tale close",
+      "source": "https://www.ghafla.co.ke/things-changed-without-my-knowledge-babu-owino-reveals-alleged-power-sharing-deal-with-senator-edwin-sifuna/"
     }
   ],
   "style_history": [
