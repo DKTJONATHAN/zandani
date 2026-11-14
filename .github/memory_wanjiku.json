@@ -466,7 +466,8 @@
     "9105a67c273521a0c3fdd45a2c07036d981bee35751f53a37437996a93c92987",
     "dca99c1eecd5ff5fbc9eb55b32a07b4e7ee4f0284cd058e89f44583c4797eb59",
     "c982a54208fb8229db21efac1947c5a8592a527bbe20917653e5afefed0e8ad3",
-    "029abe641a8268b08dd3242df7edc8e1e13b413380e6b06bb6ffdc73bdcec871"
+    "029abe641a8268b08dd3242df7edc8e1e13b413380e6b06bb6ffdc73bdcec871",
+    "d4f7ab36f1bc0c38e6fc131857293029e2f3b7559a885d62a4ed2dceb1936af8"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -935,17 +936,10 @@
     "https://www.ghafla.co.ke/things-changed-without-my-knowledge-babu-owino-reveals-alleged-power-sharing-deal-with-senator-edwin-sifuna/",
     "https://www.ghafla.co.ke/kalonzo-sifuna-and-maraga-join-mourners-at-burial-of-rigathi-gachaguas-sister-in-nyeri/",
     "https://www.ghafla.co.ke/chaos-interrupts-maa-cultural-festival-in-narok-as-president-ruto-arrives/",
-    "https://www.ghafla.co.ke/lulu-hassans-state-house-meeting-with-ruto-fuels-mvita-parliamentary-seat-speculation/"
+    "https://www.ghafla.co.ke/lulu-hassans-state-house-meeting-with-ruto-fuels-mvita-parliamentary-seat-speculation/",
+    "https://www.ghafla.co.ke/wiper-raises-alarm-over-alleged-online-campaign-targeting-kalonzo-as-sifuna-supporters-hit-back/"
   ],
   "published_angles": [
-    {
-      "title": "Hassan Joho Draws Tight Operational Line on Diwali Fireworks With Strict Urban Caps and Permit Mandates",
-      "angle": "Examining the strict regulatory squeeze on event organizers, urban venue caps, and legal liabilities facing dealers under the Explosives Act during the three-day festival window.",
-      "angle_type": "regulatory compliance and event accountability",
-      "opening": "Personality and directive lead opening on CS Hassan Joho's strict operational parameters.",
-      "structure": "Directive hook -> Venue and time restrictions -> Technical and sales penalties -> Holiday context and permit verification.",
-      "source": "https://www.ghafla.co.ke/cs-joho-warns-dealers-event-hosts-as-government-regulates-diwali-fireworks-displays/"
-    },
     {
       "title": "Jaymo Ule Msee Turns Financial Ruin and Gen Z Apology Into Content Comeback",
       "angle": "Examining the specific commercial pivot and monetised self-exposure of a creator turning personal financial collapse into a digital comeback project titled 'Inside the Life of a Prodigal Creator'.",
@@ -1737,6 +1731,14 @@
       "opening": "Personality lead opening directly on Lulu Hassan taking the floor at State House Mombasa in front of President Ruto and regional political heavyweights.",
       "structure": "Personality lead -> State House Mombasa meeting details -> Mvita constituency dynamics -> Royal Media Services talent wave -> MCK regulatory rules and mandatory exit context.",
       "source": "https://www.ghafla.co.ke/lulu-hassans-state-house-meeting-with-ruto-fuels-mvita-parliamentary-seat-speculation/"
+    },
+    {
+      "title": "Ndegwa Njiru\u2019s Online Abuse Complaint Backfires as Sifuna Base Swarms Wiper Timeline",
+      "angle": "Focusing on how Ndegwa Njiru\u2019s anonymous sub-tweet backfired on Wiper, inviting Sifuna's digital base to step into the target slot, own their online aggression, and openly mock Kalonzo's failure to capture the post-Raila opposition momentum.",
+      "angle_type": "digital culture battle and campaign narrative shift",
+      "opening": "Personality lead opening directly on Ndegwa Njiru's anonymous complaint and the instant social media counter-blitz.",
+      "structure": "Personality lead -> Wiper's statement breakdown -> Sifuna camp's timeline takeover -> Directly quoted fan commentary on Kalonzo's campaign inertia -> October 31 LMM event context -> 2027 opposition field close.",
+      "source": "https://www.ghafla.co.ke/wiper-raises-alarm-over-alleged-online-campaign-targeting-kalonzo-as-sifuna-supporters-hit-back/"
     }
   ],
   "style_history": [
