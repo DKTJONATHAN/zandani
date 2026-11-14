@@ -464,7 +464,8 @@
     "79fea4fd1bb74557a6aef4276943eceaf02e7503a3d8b5fd7b209786aa830794",
     "330737c116abba660d5df8cbd20dc7d1f76f5416f3a2c1890ab33735931bdc9b",
     "9105a67c273521a0c3fdd45a2c07036d981bee35751f53a37437996a93c92987",
-    "dca99c1eecd5ff5fbc9eb55b32a07b4e7ee4f0284cd058e89f44583c4797eb59"
+    "dca99c1eecd5ff5fbc9eb55b32a07b4e7ee4f0284cd058e89f44583c4797eb59",
+    "c982a54208fb8229db21efac1947c5a8592a527bbe20917653e5afefed0e8ad3"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -931,17 +932,10 @@
     "https://www.ghafla.co.ke/politics-is-not-about-clout-chasing-jalango-tells-off-bahati-ahead-of-2027-mathare-parliamentary-bid/",
     "https://www.ghafla.co.ke/kenya-power-announces-electricity-interruptions-in-nyeri-and-kiambu-counties-on-saturday/",
     "https://www.ghafla.co.ke/things-changed-without-my-knowledge-babu-owino-reveals-alleged-power-sharing-deal-with-senator-edwin-sifuna/",
-    "https://www.ghafla.co.ke/kalonzo-sifuna-and-maraga-join-mourners-at-burial-of-rigathi-gachaguas-sister-in-nyeri/"
+    "https://www.ghafla.co.ke/kalonzo-sifuna-and-maraga-join-mourners-at-burial-of-rigathi-gachaguas-sister-in-nyeri/",
+    "https://www.ghafla.co.ke/chaos-interrupts-maa-cultural-festival-in-narok-as-president-ruto-arrives/"
   ],
   "published_angles": [
-    {
-      "title": "Winnie Odinga Leans on 72% Instagram Poll Metric to Shape 2027 Nairobi Senate Bid",
-      "angle": "Examining the digital campaign infrastructure and constituency testing\u2014specifically how her social media polling ('Linda Mwananchi' securing 72%) is directly shaping her institutional positioning for the post-Raila era ahead of Edwin Sifuna's exit.",
-      "angle_type": "digital strategy and constituency polling transition",
-      "opening": "Personality lead focusing on the digital polling metrics and the specific social media teaser question.",
-      "structure": "Instagram poll results hook -> 'Linda Mwananchi' movement metrics -> Nairobi Senate declaration context following the October memorial -> Edwin Sifuna transition factor -> Concrete closing on campaign platform rollout.",
-      "source": "https://www.ghafla.co.ke/are-you-ready-winnie-odinga-teases-major-announcement-ahead-of-2027-nairobi-senate-bid/"
-    },
     {
       "title": "Millie Odhiambo Backs Ruto\u2019s \u2018Usawa ni Sawa\u2019 Pitch in Push for Regional Equity",
       "angle": "Examining the specific rhetorical shift and framing of Odhiambo aligning with the Executive's decentralized resource distribution platform ('Usawa ni Sawa'), separating her explicit endorsement from standard political cross-aisle rhetoric.",
@@ -1733,6 +1727,14 @@
       "opening": "Personality lead opening directly on Rigathi Gachagua's tribute to his elder sister as the family anchor.",
       "structure": "Personality lead -> Matriarchal role & family history -> Grassroots advocacy for Mau Mau families -> Cross-party delegation and Karen condolence visits -> Final burial details close",
       "source": "https://www.ghafla.co.ke/kalonzo-sifuna-and-maraga-join-mourners-at-burial-of-rigathi-gachaguas-sister-in-nyeri/"
+    },
+    {
+      "title": "Maa Cultural Showcase Shattered as Ole Ntutu and Ledama Step In to Stop Rungu-Wielding VIP Chaos",
+      "angle": "Focusing on how a cultural showcase turned into a factional spectacle near the main dais, where Governor Ole Ntutu and Senator Ledama Olekina were forced into immediate onstage mediation after supporters hurled chairs and brandished rungus.",
+      "angle_type": "cultural event disruption and local leadership mediation",
+      "opening": "Personality lead opening directly on Governor Patrick Ole Ntutu and Senator Ledama Olekina stepping up to calm a chaotic crowd at Sekenani Gate.",
+      "structure": "Personality intervention hook -> Details of the clash and media evacuation near the main dais -> Onstage mediation by local leaders -> Presidential Escort and GSU security response -> Historical security context and unresolved police action close.",
+      "source": "https://www.ghafla.co.ke/chaos-interrupts-maa-cultural-festival-in-narok-as-president-ruto-arrives/"
     }
   ],
   "style_history": [
