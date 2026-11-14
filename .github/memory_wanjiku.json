@@ -461,7 +461,8 @@
     "20fe33bc81a4f18d984e990309c31332062bc2757b1a3dce3befe6622123b3b2",
     "7d7e6684d72af3e9218df56e997e2207ade5167b232463741212eed1fdedb9b9",
     "27387f2bedfd9a03814231b5add60b701dda3ead40dc31a729b9e41e00ee105a",
-    "79fea4fd1bb74557a6aef4276943eceaf02e7503a3d8b5fd7b209786aa830794"
+    "79fea4fd1bb74557a6aef4276943eceaf02e7503a3d8b5fd7b209786aa830794",
+    "330737c116abba660d5df8cbd20dc7d1f76f5416f3a2c1890ab33735931bdc9b"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -925,17 +926,10 @@
     "https://www.ghafla.co.ke/sandra-dacha-opens-up-about-struggling-to-breathe-when-she-was-overweight/",
     "https://www.ghafla.co.ke/mama-ida-odinga-declares-loyalty-to-odm-rules-out-leaving-broad-based-government/",
     "https://www.ghafla.co.ke/eric-omondi-announces-millions-that-have-been-raised-for-bungoma-teenager-battling-rare-skin-condition/",
-    "https://www.ghafla.co.ke/politics-is-not-about-clout-chasing-jalango-tells-off-bahati-ahead-of-2027-mathare-parliamentary-bid/"
+    "https://www.ghafla.co.ke/politics-is-not-about-clout-chasing-jalango-tells-off-bahati-ahead-of-2027-mathare-parliamentary-bid/",
+    "https://www.ghafla.co.ke/kenya-power-announces-electricity-interruptions-in-nyeri-and-kiambu-counties-on-saturday/"
   ],
   "published_angles": [
-    {
-      "title": "PS Raymond Omollo Takes Center Stage in Makueni as Government Equips Village Elders With Smartphones, SHA Cover and Ksh 3,000 Stipends",
-      "angle": "Focusing directly on PS Raymond Omollo's grassroots administrative upgrade package\u2014specifically highlighting the digital, financial, and healthcare perks (smartphones, SHA medical cover, Ksh 3,000 monthly stipends) promised to village elders alongside new career elevation routes for local chiefs.",
-      "angle_type": "administrative upgrade and grassroots welfare package",
-      "opening": "Personality-led focus on PS Dr. Raymond Omollo taking the mic in Kibwezi West to outline institutional career progression for local chiefs and modern perks for village elders.",
-      "structure": "Personality lead -> ACC recruitment and PSC clearance details -> Elder welfare package breakdown (smartphones, SHA, Ksh 3,000 stipend) -> Institutional geography of Kikumbulyu Division -> Administrative backlog fixes and national exam security directives close",
-      "source": "https://www.ghafla.co.ke/government-to-expand-grassroots-administration-with-new-recruitment-drive/"
-    },
     {
       "title": "Kabi Wa Jesus Anchors \u201850 Days of Thanksgiving\u2019 Drive With New Property Build",
       "angle": "Framing the update around the creator's digital content strategy, specifically how he is using his '50 Days of Thanksgiving' series to document a secondary major real estate venture four years after their initial 2021 construction launch.",
@@ -1727,6 +1721,14 @@
       "opening": "Personality lead opening on Jalang'o drawing a hard line against Bahati's podcast claims regarding parliamentary representation for artists.",
       "structure": "Personality clash hook -> The specific 70-80% quota provocation on The Obinna Show -> Jalang'o's rebuttal on constituent delivery vs. clout -> Reality of transition from entertainer to aspirant -> Forward-looking 2027 race context.",
       "source": "https://www.ghafla.co.ke/politics-is-not-about-clout-chasing-jalango-tells-off-bahati-ahead-of-2027-mathare-parliamentary-bid/"
+    },
+    {
+      "title": "Kenya Power Maintenance Window Hits Ruaka, Spur Mall and Ragati Tea Hubs in Saturday Outage",
+      "angle": "Focusing on the operational pause across Kiambu's high-density retail and leisure corridors (Ruaka shopping strip, Spur Mall, Ruiru Golf Club) alongside Nyeri's primary tea processing operations at Ragati Tea Factory.",
+      "angle_type": "commercial impact and infrastructure disruption",
+      "opening": "Commercial corridor lead framing the Saturday maintenance shut-off across Kiambu business hubs and Nyeri tea facilities.",
+      "structure": "Commercial lead -> Kiambu Ruiru and Murera business/leisure breakdown -> Ruaka retail strip details -> Nyeri Ragati tea processing & telco disruption -> Operational notice close",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-electricity-interruptions-in-nyeri-and-kiambu-counties-on-saturday/"
     }
   ],
   "style_history": [
