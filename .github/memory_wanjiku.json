@@ -465,7 +465,8 @@
     "330737c116abba660d5df8cbd20dc7d1f76f5416f3a2c1890ab33735931bdc9b",
     "9105a67c273521a0c3fdd45a2c07036d981bee35751f53a37437996a93c92987",
     "dca99c1eecd5ff5fbc9eb55b32a07b4e7ee4f0284cd058e89f44583c4797eb59",
-    "c982a54208fb8229db21efac1947c5a8592a527bbe20917653e5afefed0e8ad3"
+    "c982a54208fb8229db21efac1947c5a8592a527bbe20917653e5afefed0e8ad3",
+    "029abe641a8268b08dd3242df7edc8e1e13b413380e6b06bb6ffdc73bdcec871"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -933,17 +934,10 @@
     "https://www.ghafla.co.ke/kenya-power-announces-electricity-interruptions-in-nyeri-and-kiambu-counties-on-saturday/",
     "https://www.ghafla.co.ke/things-changed-without-my-knowledge-babu-owino-reveals-alleged-power-sharing-deal-with-senator-edwin-sifuna/",
     "https://www.ghafla.co.ke/kalonzo-sifuna-and-maraga-join-mourners-at-burial-of-rigathi-gachaguas-sister-in-nyeri/",
-    "https://www.ghafla.co.ke/chaos-interrupts-maa-cultural-festival-in-narok-as-president-ruto-arrives/"
+    "https://www.ghafla.co.ke/chaos-interrupts-maa-cultural-festival-in-narok-as-president-ruto-arrives/",
+    "https://www.ghafla.co.ke/lulu-hassans-state-house-meeting-with-ruto-fuels-mvita-parliamentary-seat-speculation/"
   ],
   "published_angles": [
-    {
-      "title": "Millie Odhiambo Backs Ruto\u2019s \u2018Usawa ni Sawa\u2019 Pitch in Push for Regional Equity",
-      "angle": "Examining the specific rhetorical shift and framing of Odhiambo aligning with the Executive's decentralized resource distribution platform ('Usawa ni Sawa'), separating her explicit endorsement from standard political cross-aisle rhetoric.",
-      "angle_type": "political rhetoric and ideological alignment",
-      "opening": "Personality lead focusing directly on Millie Odhiambo stepping into the spotlight with a distinct policy endorsement.",
-      "structure": "Personality lead hook -> Breakdown of the 'Usawa ni Sawa' framework and cited infrastructure investments -> Context of regional balance in Kenyan politics -> Concrete closing on the broader debate over equitable resource distribution.",
-      "source": "https://www.ghafla.co.ke/millie-odhiambo-praises-ruto-for-promoting-equal-development-across-kenya/"
-    },
     {
       "title": "Hassan Joho Draws Tight Operational Line on Diwali Fireworks With Strict Urban Caps and Permit Mandates",
       "angle": "Examining the strict regulatory squeeze on event organizers, urban venue caps, and legal liabilities facing dealers under the Explosives Act during the three-day festival window.",
@@ -1735,6 +1729,14 @@
       "opening": "Personality lead opening directly on Governor Patrick Ole Ntutu and Senator Ledama Olekina stepping up to calm a chaotic crowd at Sekenani Gate.",
       "structure": "Personality intervention hook -> Details of the clash and media evacuation near the main dais -> Onstage mediation by local leaders -> Presidential Escort and GSU security response -> Historical security context and unresolved police action close.",
       "source": "https://www.ghafla.co.ke/chaos-interrupts-maa-cultural-festival-in-narok-as-president-ruto-arrives/"
+    },
+    {
+      "title": "Lulu Hassan Takes State House Floor as Mvita 2027 Ambition Moves Beyond Street Whispers",
+      "angle": "Framing Lulu Hassan's State House address in Mombasa as the moment her rumored Mvita candidacy crossed from social media chatter into active presidential politics, positioned within the broader shift of Royal Media Services talent moving from the anchor desk to elective campaigns under tightening regulatory oversight.",
+      "angle_type": "celebrity political transition and broadcasting conflict",
+      "opening": "Personality lead opening directly on Lulu Hassan taking the floor at State House Mombasa in front of President Ruto and regional political heavyweights.",
+      "structure": "Personality lead -> State House Mombasa meeting details -> Mvita constituency dynamics -> Royal Media Services talent wave -> MCK regulatory rules and mandatory exit context.",
+      "source": "https://www.ghafla.co.ke/lulu-hassans-state-house-meeting-with-ruto-fuels-mvita-parliamentary-seat-speculation/"
     }
   ],
   "style_history": [
