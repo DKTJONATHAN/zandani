@@ -467,7 +467,8 @@
     "dca99c1eecd5ff5fbc9eb55b32a07b4e7ee4f0284cd058e89f44583c4797eb59",
     "c982a54208fb8229db21efac1947c5a8592a527bbe20917653e5afefed0e8ad3",
     "029abe641a8268b08dd3242df7edc8e1e13b413380e6b06bb6ffdc73bdcec871",
-    "d4f7ab36f1bc0c38e6fc131857293029e2f3b7559a885d62a4ed2dceb1936af8"
+    "d4f7ab36f1bc0c38e6fc131857293029e2f3b7559a885d62a4ed2dceb1936af8",
+    "144eed43986cc06de49c20235675b05527d4fd73933fafb297690655cd806cb0"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -937,17 +938,10 @@
     "https://www.ghafla.co.ke/kalonzo-sifuna-and-maraga-join-mourners-at-burial-of-rigathi-gachaguas-sister-in-nyeri/",
     "https://www.ghafla.co.ke/chaos-interrupts-maa-cultural-festival-in-narok-as-president-ruto-arrives/",
     "https://www.ghafla.co.ke/lulu-hassans-state-house-meeting-with-ruto-fuels-mvita-parliamentary-seat-speculation/",
-    "https://www.ghafla.co.ke/wiper-raises-alarm-over-alleged-online-campaign-targeting-kalonzo-as-sifuna-supporters-hit-back/"
+    "https://www.ghafla.co.ke/wiper-raises-alarm-over-alleged-online-campaign-targeting-kalonzo-as-sifuna-supporters-hit-back/",
+    "https://www.ghafla.co.ke/ruto-meets-kiambu-elected-leaders-at-state-house-ahead-of-2027-elections/"
   ],
   "published_angles": [
-    {
-      "title": "Jaymo Ule Msee Turns Financial Ruin and Gen Z Apology Into Content Comeback",
-      "angle": "Examining the specific commercial pivot and monetised self-exposure of a creator turning personal financial collapse into a digital comeback project titled 'Inside the Life of a Prodigal Creator'.",
-      "angle_type": "commercial comeback strategy and financial accountability",
-      "opening": "Personality-led entry focusing directly on the creator's financial standing and public appeal mechanics.",
-      "structure": "Personality financial hook -> June 25, 2025 retrospective apology -> M-Pesa public appeal and quiet humiliation detail -> 'Inside the Life of a Prodigal Creator' launch context -> Concrete release date close.",
-      "source": "https://www.ghafla.co.ke/jaymo-ule-msee-apologises-to-gen-z-reveals-financial-struggles-after-political-fallout/"
-    },
     {
       "title": "Geoffrey Mosiria Steps Into Babu Owino\u2019s Virtual Classroom Playbook With KCSE CRE Revision Session",
       "angle": "Examining the specific tactical transition from political stump speeches to virtual classroom pop-ups as a direct voter-engagement play targeting KCSE candidates and their households.",
@@ -1739,6 +1733,14 @@
       "opening": "Personality lead opening directly on Ndegwa Njiru's anonymous complaint and the instant social media counter-blitz.",
       "structure": "Personality lead -> Wiper's statement breakdown -> Sifuna camp's timeline takeover -> Directly quoted fan commentary on Kalonzo's campaign inertia -> October 31 LMM event context -> 2027 opposition field close.",
       "source": "https://www.ghafla.co.ke/wiper-raises-alarm-over-alleged-online-campaign-targeting-kalonzo-as-sifuna-supporters-hit-back/"
+    },
+    {
+      "title": "Kimani Ichung\u2019wah Takes Center Stage at State House as Ruto Rallies Kiambu Leaders for 2027",
+      "angle": "Focusing on Kimani Ichung\u2019wah\u2019s personality and positioning as the administration\u2019s chief regional enforcer, shepherding Kiambu\u2019s elected caucus directly into State House to anchor political loyalty and project delivery ahead of 2027 Mt Kenya realignments.",
+      "angle_type": "political power positioning and delegation leadership",
+      "opening": "Personality lead opening directly on Kimani Ichung'wah leading Kiambu's elected representatives into State House Nairobi.",
+      "structure": "Personality delegation hook -> Meeting agenda on development and voter concerns -> Kiambu's strategic political weight -> Ruto's wider State House outreach pattern -> 2027 alignment outlook close.",
+      "source": "https://www.ghafla.co.ke/ruto-meets-kiambu-elected-leaders-at-state-house-ahead-of-2027-elections/"
     }
   ],
   "style_history": [
