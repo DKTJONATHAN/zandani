@@ -472,7 +472,8 @@
     "7bbcfac9105c9afca01f7a5a4cc7671cc85659367e6cf096aa6a571f260e658c",
     "245d03204bedf0d3a6f38aa534c25034f492207ee5a551784413f45cc44eb8ce",
     "3cac4948bab7b0def372a5f6ef976cd2c00cb1dae794e37e91a495d507a11637",
-    "55fd6b8faeb03c724feecf0d6ec63b7c889ed05f2d9f68d45dcc2fe9d7b443eb"
+    "55fd6b8faeb03c724feecf0d6ec63b7c889ed05f2d9f68d45dcc2fe9d7b443eb",
+    "db33d93b62d7f97de20b3bd653585f6fb22b8d58598a19c77017d876b767994c"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -947,17 +948,10 @@
     "https://www.ghafla.co.ke/epra-maintains-fuel-prices-for-november-december-despite-rising-import-costs/",
     "https://www.ghafla.co.ke/kenya-power-announces-sunday-electricity-interruptions-in-nairobi-machakos-and-three-other-counties/",
     "https://www.ghafla.co.ke/bunyala-residents-praise-ruto-government-for-security-and-fishing-investments/",
-    "https://www.ghafla.co.ke/ndindi-nyoro-defends-uhuru-gachagua-and-matiangi-against-rutos-rally-remarks/"
+    "https://www.ghafla.co.ke/ndindi-nyoro-defends-uhuru-gachagua-and-matiangi-against-rutos-rally-remarks/",
+    "https://www.ghafla.co.ke/msikubali-kubebewa-akili-president-ruto-addresses-recent-clashes-in-narok-rally/"
   ],
   "published_angles": [
-    {
-      "title": "Bahati Bypasses Private Booking With KSh 1 Million Public Pitch for \u2018The Invite\u2019 Wedding Gig",
-      "angle": "Examining how Bahati is bypassing traditional private event booking channels to turn his upcoming black-tie wedding into an open-call performance opportunity with a KSh 1 million payout.",
-      "angle_type": "event economics and gig booking strategy",
-      "opening": "Personality lead focusing directly on Kevin Bahati disrupting standard private wedding procurement by posting a KSh 1 million single-night performance budget on social media.",
-      "structure": "Open-call hook -> Details of 'The Invite' black-tie event and fee -> Traditional booking contrast -> Content strategy and public profile context -> Unresolved performer selection close.",
-      "source": "https://www.ghafla.co.ke/bahati-offers-to-pay-1-million-to-musician-who-performs-at-his-upcoming-wedding/"
-    },
     {
       "title": "David Ndakwa Cites Gachagua and Mwangaza Impeachments in Survival Warning to Politicians",
       "angle": "Framing MP David Ndakwa's remarks around the specific political survival warning he delivered to colleagues, using the high-profile impeachment trail of Gachagua, Mwangaza, and Linturi as explicit cautionary evidence for political alignment ahead of 2027.",
@@ -1749,6 +1743,14 @@
       "opening": "Personality lead opening directly on Ndindi Nyoro offering himself up as President William Ruto's primary political sparring partner.",
       "structure": "Personality challenge hook -> The Kisii church platform and direct remarks on Uhuru, Gachagua, and Matiang'i -> Nyoro's endorsement of Matiang'i on home ground -> Orengo's joint candidate disclosure -> Closing on the 2027 opposition alignment.",
       "source": "https://www.ghafla.co.ke/ndindi-nyoro-defends-uhuru-gachagua-and-matiangi-against-rutos-rally-remarks/"
+    },
+    {
+      "title": "Ruto Steps In as Patrick and Gabriel\u2019s Narok Turf War Disrupts Maa Festival",
+      "angle": "Focusing on Ruto stepping into the role of public mediator to call out the direct intra-party power tussle between his own UDA lieutenants, Patrick and Gabriel, after their gubernatorial ambition spilled over into violence during a cultural showcase.",
+      "angle_type": "intra-party political rivalry and public reprimand",
+      "opening": "Personality lead focusing directly on President Ruto calling out the political duel between Patrick and Gabriel onstage in Narok.",
+      "structure": "Ruto public call-out hook -> The confrontation at Sekenani Gate during the Ushanga hall launch -> Ruto's verbatim lecture to the two UDA aspirants -> Context of gubernatorial stakes and democratic choice -> Closing note on campaign discipline",
+      "source": "https://www.ghafla.co.ke/msikubali-kubebewa-akili-president-ruto-addresses-recent-clashes-in-narok-rally/"
     }
   ],
   "style_history": [
