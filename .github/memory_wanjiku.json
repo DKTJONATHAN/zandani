@@ -475,7 +475,8 @@
     "55fd6b8faeb03c724feecf0d6ec63b7c889ed05f2d9f68d45dcc2fe9d7b443eb",
     "db33d93b62d7f97de20b3bd653585f6fb22b8d58598a19c77017d876b767994c",
     "7c6d0c1e5377ce5aad14ad5ae82b6b48b43f5cd3a3dcc5926ff1eb4ffbafbd8b",
-    "0569f5bf5a6483933c106c44ab4461d1c7de011072333e54a50a7dfe9271fc74"
+    "0569f5bf5a6483933c106c44ab4461d1c7de011072333e54a50a7dfe9271fc74",
+    "5d6c3b89b8e288e3deb698d4b63e7d0967ed105e549206a71d4d53068897fe2c"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -953,17 +954,10 @@
     "https://www.ghafla.co.ke/ndindi-nyoro-defends-uhuru-gachagua-and-matiangi-against-rutos-rally-remarks/",
     "https://www.ghafla.co.ke/msikubali-kubebewa-akili-president-ruto-addresses-recent-clashes-in-narok-rally/",
     "https://www.ghafla.co.ke/kalonzo-musyoka-emerges-as-oppositions-most-preferred-2027-presidential-candidate-in-new-poll/",
-    "https://www.ghafla.co.ke/gachagua-tells-ruto-to-stop-wooing-opposition-leaders-says-they-have-agreed-to-back-one-candidate/"
+    "https://www.ghafla.co.ke/gachagua-tells-ruto-to-stop-wooing-opposition-leaders-says-they-have-agreed-to-back-one-candidate/",
+    "https://www.ghafla.co.ke/president-ruto-opens-st-marys-pre-school-before-attending-church-service-in-narok/"
   ],
   "published_angles": [
-    {
-      "title": "Nairobi\u2019s Midday Shake: Why the Tanzanian Tremor Has No Link to Kenya\u2019s El Ni\u00f1o Forecast",
-      "angle": "Distinguishing between genuine seismic activity and the often-misused 'El Nino' climate narrative to provide a strictly geological assessment of the event.",
-      "angle_type": "Fact-based geological clarification and public safety context",
-      "opening": "Direct focus on the physical sensation and timing of the tremor in the Kenyan capital.",
-      "structure": "Physical occurrence in Nairobi -> Geological data and epicenter verification -> De-bunking the climate-seismic link -> Public safety status.",
-      "source": "https://www.ghafla.co.ke/tremor-reported-in-nairobi-and-surrounding-areas-amid-upcoming-elnino-prediction/"
-    },
     {
       "title": "Sarah Mtalii Reframes Marital Exit as Financial Victory, Citing Long-Term Emotional Toll on Men",
       "angle": "Examining Mtalii's commentary through the lens of shifting marital power dynamics\u2014specifically how economic self-sufficiency removes financial entrapment for women while exposing post-divorce male vulnerability.",
@@ -1755,6 +1749,14 @@
       "opening": "Personality lead focusing directly on Gachagua mounting the pulpit at AIC Bathi to issue a roll call of politicians he claims are off-limits to State House.",
       "structure": "Personality roll-call hook -> The 'not available' list (Sifuna, Karua, Matiang'i) -> Gachagua's self-appointed broker role and Christmas deadline -> Direct confrontation with the 43% TIFA poll findings -> Grounded close on the 2027 flagbearer contest.",
       "source": "https://www.ghafla.co.ke/gachagua-tells-ruto-to-stop-wooing-opposition-leaders-says-they-have-agreed-to-back-one-candidate/"
+    },
+    {
+      "title": "Ole Ntutu and Ledama Flank Ruto as Narok Leaders Unite for St. Mary\u2019s School Launch",
+      "angle": "Focusing on the high-powered bipartisan local lineup flanking the Head of State at a remote educational launch\u2014bringing together Governor Patrick Ole Ntutu and opposition-leaning Senator Ledama Olekina side by side on an institutional inspection tour.",
+      "angle_type": "political personality accompaniment and bipartisan local optics",
+      "opening": "Personality lead opening directly on the high-stakes political pairing of Narok Governor Patrick Ole Ntutu and Senator Ledama Olekina sharing the spotlight with President William Ruto.",
+      "structure": "Bipartisan local lineup hook -> St. Mary's Pre-School infrastructure details -> The transition to the St. Mary's Girls High School Sunday service -> Narok County political development context",
+      "source": "https://www.ghafla.co.ke/president-ruto-opens-st-marys-pre-school-before-attending-church-service-in-narok/"
     }
   ],
   "style_history": [
