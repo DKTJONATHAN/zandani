@@ -471,7 +471,8 @@
     "144eed43986cc06de49c20235675b05527d4fd73933fafb297690655cd806cb0",
     "7bbcfac9105c9afca01f7a5a4cc7671cc85659367e6cf096aa6a571f260e658c",
     "245d03204bedf0d3a6f38aa534c25034f492207ee5a551784413f45cc44eb8ce",
-    "3cac4948bab7b0def372a5f6ef976cd2c00cb1dae794e37e91a495d507a11637"
+    "3cac4948bab7b0def372a5f6ef976cd2c00cb1dae794e37e91a495d507a11637",
+    "55fd6b8faeb03c724feecf0d6ec63b7c889ed05f2d9f68d45dcc2fe9d7b443eb"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -945,17 +946,10 @@
     "https://www.ghafla.co.ke/ruto-meets-kiambu-elected-leaders-at-state-house-ahead-of-2027-elections/",
     "https://www.ghafla.co.ke/epra-maintains-fuel-prices-for-november-december-despite-rising-import-costs/",
     "https://www.ghafla.co.ke/kenya-power-announces-sunday-electricity-interruptions-in-nairobi-machakos-and-three-other-counties/",
-    "https://www.ghafla.co.ke/bunyala-residents-praise-ruto-government-for-security-and-fishing-investments/"
+    "https://www.ghafla.co.ke/bunyala-residents-praise-ruto-government-for-security-and-fishing-investments/",
+    "https://www.ghafla.co.ke/ndindi-nyoro-defends-uhuru-gachagua-and-matiangi-against-rutos-rally-remarks/"
   ],
   "published_angles": [
-    {
-      "title": "Nana Owiti Draws Clear Boundary on King Kaka Dating Rumors as Ema Kalekye Clarifies Song Promo",
-      "angle": "Framing the response around post-breakup emotional boundary setting and self-improvement philosophy, contrasted against how digital music promotion strategy triggers exaggerated online romance rumors.",
-      "angle_type": "post-relationship maturity and music promotion reality check",
-      "opening": "Personality lead opening directly on Nana Owiti's stance on post-breakup emotional progression during her Milele FM call.",
-      "structure": "Personality stance hook -> Breakdown of Nana Owiti's interview remarks to Ankali Ray -> Music promo origin and Ema Kalekye's boundary clarification -> Co-parenting and 2024 relationship timeline close.",
-      "source": "https://www.ghafla.co.ke/life-lazima-imove-on-nana-owiti-reacts-to-king-kaka-and-ema-kalekye-dating-rumors/"
-    },
     {
       "title": "Bahati Bypasses Private Booking With KSh 1 Million Public Pitch for \u2018The Invite\u2019 Wedding Gig",
       "angle": "Examining how Bahati is bypassing traditional private event booking channels to turn his upcoming black-tie wedding into an open-call performance opportunity with a KSh 1 million payout.",
@@ -1747,6 +1741,14 @@
       "opening": "Personality lead opening on Dr Raymond Omollo pitching administrative accountability on the Marenga shoreline before fielding frank local accounts.",
       "structure": "Personality lead -> Lakeside reality hook -> Breakdown of BMU investments and economic ripple -> Confrontation over Ugandan patrols and fish depletion -> Omollo's accountability pledge",
       "source": "https://www.ghafla.co.ke/bunyala-residents-praise-ruto-government-for-security-and-fishing-investments/"
+    },
+    {
+      "title": "Ndindi Nyoro Dares Ruto to Fight Him Instead as He Steps Out in Kisii with Matiang\u2019i and Orengo",
+      "angle": "Focusing on Ndindi Nyoro's explicit self-positioning as a frontline political sparring partner for Ruto to shield elder figures, delivered during a strategic joint appearance alongside Fred Matiang'i and James Orengo on Kisii soil.",
+      "angle_type": "personality challenge and political alliance framing",
+      "opening": "Personality lead opening directly on Ndindi Nyoro offering himself up as President William Ruto's primary political sparring partner.",
+      "structure": "Personality challenge hook -> The Kisii church platform and direct remarks on Uhuru, Gachagua, and Matiang'i -> Nyoro's endorsement of Matiang'i on home ground -> Orengo's joint candidate disclosure -> Closing on the 2027 opposition alignment.",
+      "source": "https://www.ghafla.co.ke/ndindi-nyoro-defends-uhuru-gachagua-and-matiangi-against-rutos-rally-remarks/"
     }
   ],
   "style_history": [
