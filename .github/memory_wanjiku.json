@@ -470,7 +470,8 @@
     "d4f7ab36f1bc0c38e6fc131857293029e2f3b7559a885d62a4ed2dceb1936af8",
     "144eed43986cc06de49c20235675b05527d4fd73933fafb297690655cd806cb0",
     "7bbcfac9105c9afca01f7a5a4cc7671cc85659367e6cf096aa6a571f260e658c",
-    "245d03204bedf0d3a6f38aa534c25034f492207ee5a551784413f45cc44eb8ce"
+    "245d03204bedf0d3a6f38aa534c25034f492207ee5a551784413f45cc44eb8ce",
+    "3cac4948bab7b0def372a5f6ef976cd2c00cb1dae794e37e91a495d507a11637"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -943,17 +944,10 @@
     "https://www.ghafla.co.ke/wiper-raises-alarm-over-alleged-online-campaign-targeting-kalonzo-as-sifuna-supporters-hit-back/",
     "https://www.ghafla.co.ke/ruto-meets-kiambu-elected-leaders-at-state-house-ahead-of-2027-elections/",
     "https://www.ghafla.co.ke/epra-maintains-fuel-prices-for-november-december-despite-rising-import-costs/",
-    "https://www.ghafla.co.ke/kenya-power-announces-sunday-electricity-interruptions-in-nairobi-machakos-and-three-other-counties/"
+    "https://www.ghafla.co.ke/kenya-power-announces-sunday-electricity-interruptions-in-nairobi-machakos-and-three-other-counties/",
+    "https://www.ghafla.co.ke/bunyala-residents-praise-ruto-government-for-security-and-fishing-investments/"
   ],
   "published_angles": [
-    {
-      "title": "Bernice Saroni Secures CCTV Confirmation After Son Junior Assaulted in Unsupervised US School Room",
-      "angle": "Focusing on the institutional safety failure and CCTV verification\u2014how an administrative lapse in bus room supervision directly enabled the assault, and how security footage confirmed Saroni's account.",
-      "angle_type": "institutional accountability and administrative oversight",
-      "opening": "Personality lead opening directly on Bernice Saroni confronting US school administrators after CCTV footage confirmed the assault on her son Junior.",
-      "structure": "Personality hook -> CCTV confirmation & traffic cone origin -> Bus room supervision gap -> Racial safety implications & parental stance -> Concrete resolution close",
-      "source": "https://www.ghafla.co.ke/bernice-saroni-raises-alarm-after-son-junior-is-choked-by-fellow-student-in-us-school/"
-    },
     {
       "title": "Nana Owiti Draws Clear Boundary on King Kaka Dating Rumors as Ema Kalekye Clarifies Song Promo",
       "angle": "Framing the response around post-breakup emotional boundary setting and self-improvement philosophy, contrasted against how digital music promotion strategy triggers exaggerated online romance rumors.",
@@ -1745,6 +1739,14 @@
       "opening": "Lead on the distinct 12-hour shutdown hitting Machakos commuter estates and retail centres while other counties observe standard work shifts.",
       "structure": "Athi River extended-blackout focus -> Residential and retail exposure in Greatwall and Signature Mall -> Nairobi's dual commercial and residential cuts in Parklands and Industrial Area -> Upcountry maintenance lines in Turkana, Uasin Gishu, and Nyeri -> Utility advisory wrap.",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-sunday-electricity-interruptions-in-nairobi-machakos-and-three-other-counties/"
+    },
+    {
+      "title": "Raymond Omollo Steps Onto Marenga Beach Sands as Bunyala Fishers Take Ugandan Patrol Grievances Straight to His Face",
+      "angle": "Framing the Bunyala tour around Dr Raymond Omollo personally stepping onto the lakeside turf to swap boardroom decorum for unfiltered local realities, where fishermen praised new shore assets while laying raw accounts of cross-border harassment by Ugandan forces and net seizures squarely at his feet.",
+      "angle_type": "personality accountability and grassroots reality check",
+      "opening": "Personality lead opening on Dr Raymond Omollo pitching administrative accountability on the Marenga shoreline before fielding frank local accounts.",
+      "structure": "Personality lead -> Lakeside reality hook -> Breakdown of BMU investments and economic ripple -> Confrontation over Ugandan patrols and fish depletion -> Omollo's accountability pledge",
+      "source": "https://www.ghafla.co.ke/bunyala-residents-praise-ruto-government-for-security-and-fishing-investments/"
     }
   ],
   "style_history": [
