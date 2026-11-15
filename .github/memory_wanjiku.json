@@ -468,7 +468,8 @@
     "c982a54208fb8229db21efac1947c5a8592a527bbe20917653e5afefed0e8ad3",
     "029abe641a8268b08dd3242df7edc8e1e13b413380e6b06bb6ffdc73bdcec871",
     "d4f7ab36f1bc0c38e6fc131857293029e2f3b7559a885d62a4ed2dceb1936af8",
-    "144eed43986cc06de49c20235675b05527d4fd73933fafb297690655cd806cb0"
+    "144eed43986cc06de49c20235675b05527d4fd73933fafb297690655cd806cb0",
+    "7bbcfac9105c9afca01f7a5a4cc7671cc85659367e6cf096aa6a571f260e658c"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -939,17 +940,10 @@
     "https://www.ghafla.co.ke/chaos-interrupts-maa-cultural-festival-in-narok-as-president-ruto-arrives/",
     "https://www.ghafla.co.ke/lulu-hassans-state-house-meeting-with-ruto-fuels-mvita-parliamentary-seat-speculation/",
     "https://www.ghafla.co.ke/wiper-raises-alarm-over-alleged-online-campaign-targeting-kalonzo-as-sifuna-supporters-hit-back/",
-    "https://www.ghafla.co.ke/ruto-meets-kiambu-elected-leaders-at-state-house-ahead-of-2027-elections/"
+    "https://www.ghafla.co.ke/ruto-meets-kiambu-elected-leaders-at-state-house-ahead-of-2027-elections/",
+    "https://www.ghafla.co.ke/epra-maintains-fuel-prices-for-november-december-despite-rising-import-costs/"
   ],
   "published_angles": [
-    {
-      "title": "Geoffrey Mosiria Steps Into Babu Owino\u2019s Virtual Classroom Playbook With KCSE CRE Revision Session",
-      "angle": "Examining the specific tactical transition from political stump speeches to virtual classroom pop-ups as a direct voter-engagement play targeting KCSE candidates and their households.",
-      "angle_type": "political engagement and digital campaign tactics",
-      "opening": "Personality-led focus on Geoffrey Mosiria stepping into the virtual classroom space with a Bible in hand.",
-      "structure": "Personality hook on Mosiria's virtual classroom -> Breakdown of the social media callout and Old Testament revision focus -> Comparison with Babu Owino's established COVID-era revision model -> Political positioning context for the 2027 Embakasi East race.",
-      "source": "https://www.ghafla.co.ke/mosiria-hosts-cre-lesson-in-comparison-with-with-babu-owinos-lessons/"
-    },
     {
       "title": "Gitaru to Ngong Road: Where Kenya Power\u2019s Eight-Hour Thursday Blackout Hits Hardest",
       "angle": "Focusing on the specific logistical and geographic friction faced by small businesses and commuters along busy urban arteries like Ngong Road and Gitaru during an eight-hour workday blackout.",
@@ -1741,6 +1735,14 @@
       "opening": "Personality lead opening directly on Kimani Ichung'wah leading Kiambu's elected representatives into State House Nairobi.",
       "structure": "Personality delegation hook -> Meeting agenda on development and voter concerns -> Kiambu's strategic political weight -> Ruto's wider State House outreach pattern -> 2027 alignment outlook close.",
       "source": "https://www.ghafla.co.ke/ruto-meets-kiambu-elected-leaders-at-state-house-ahead-of-2027-elections/"
+    },
+    {
+      "title": "Nairobi Motorists Spare No Relief as Fuel Prices Hold Firm at KSh226 Despite Global Crude Slump",
+      "angle": "Examining the high-stakes financial mechanics and the exact cost reality facing Nairobi motorists despite global oil dips.",
+      "angle_type": "financial impact and consumer cost reality",
+      "opening": "Personality and scene-setter focus on the Nairobi pump price reality.",
+      "structure": "Nairobi pump price hook -> KSh4.6 billion bailout breakdown -> Landed cost vs international crude contradiction -> Conclusion on the December pricing window.",
+      "source": "https://www.ghafla.co.ke/epra-maintains-fuel-prices-for-november-december-despite-rising-import-costs/"
     }
   ],
   "style_history": [
