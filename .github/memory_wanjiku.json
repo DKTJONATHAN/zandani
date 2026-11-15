@@ -474,7 +474,8 @@
     "3cac4948bab7b0def372a5f6ef976cd2c00cb1dae794e37e91a495d507a11637",
     "55fd6b8faeb03c724feecf0d6ec63b7c889ed05f2d9f68d45dcc2fe9d7b443eb",
     "db33d93b62d7f97de20b3bd653585f6fb22b8d58598a19c77017d876b767994c",
-    "7c6d0c1e5377ce5aad14ad5ae82b6b48b43f5cd3a3dcc5926ff1eb4ffbafbd8b"
+    "7c6d0c1e5377ce5aad14ad5ae82b6b48b43f5cd3a3dcc5926ff1eb4ffbafbd8b",
+    "0569f5bf5a6483933c106c44ab4461d1c7de011072333e54a50a7dfe9271fc74"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -951,17 +952,10 @@
     "https://www.ghafla.co.ke/bunyala-residents-praise-ruto-government-for-security-and-fishing-investments/",
     "https://www.ghafla.co.ke/ndindi-nyoro-defends-uhuru-gachagua-and-matiangi-against-rutos-rally-remarks/",
     "https://www.ghafla.co.ke/msikubali-kubebewa-akili-president-ruto-addresses-recent-clashes-in-narok-rally/",
-    "https://www.ghafla.co.ke/kalonzo-musyoka-emerges-as-oppositions-most-preferred-2027-presidential-candidate-in-new-poll/"
+    "https://www.ghafla.co.ke/kalonzo-musyoka-emerges-as-oppositions-most-preferred-2027-presidential-candidate-in-new-poll/",
+    "https://www.ghafla.co.ke/gachagua-tells-ruto-to-stop-wooing-opposition-leaders-says-they-have-agreed-to-back-one-candidate/"
   ],
   "published_angles": [
-    {
-      "title": "Diana Marua\u2019s Birthday Pivot: Synchronizing the 38th Milestone With a Decade of Marriage",
-      "angle": "The intersection of personal brand milestones\u2014the birthday vs. the ten-year marriage renewal\u2014and how the couple is using back-to-back high-visibility events to anchor their content cycle.",
-      "angle_type": "Event orchestration and lifestyle content strategy",
-      "opening": "Personality lead focusing on the confluence of the two specific dates.",
-      "structure": "Milestone confluence hook -> Visual branding and aesthetic choices -> The mechanics of 'The Invite' as a decadal celebration -> Closing on the transition from birthday to public vow renewal.",
-      "source": "https://www.ghafla.co.ke/lady-in-red-diana-marua-celebrates-38th-birthday-in-glamorous-photoshoot-ahead-of-lavish-wedding-photo/"
-    },
     {
       "title": "Nairobi\u2019s Midday Shake: Why the Tanzanian Tremor Has No Link to Kenya\u2019s El Ni\u00f1o Forecast",
       "angle": "Distinguishing between genuine seismic activity and the often-misused 'El Nino' climate narrative to provide a strictly geological assessment of the event.",
@@ -1753,6 +1747,14 @@
       "opening": "Personality-led focus on Kalonzo Musyoka's dominance in the multi-name ticket permutations tested by Swiss Poll International.",
       "structure": "Personality ticket hook -> Three-way permutation breakdown (48% vs 23% vs 12%) -> The pollster's consolidation warning -> Party popularity contrast with individual rankings -> Close on the phone-survey sample demographics.",
       "source": "https://www.ghafla.co.ke/kalonzo-musyoka-emerges-as-oppositions-most-preferred-2027-presidential-candidate-in-new-poll/"
+    },
+    {
+      "title": "Rigathi Gachagua Plays Opposition Bouncer in Kimende, Tells Ruto Sifuna and Karua Are Off the Market",
+      "angle": "Framing Gachagua\u2019s Kimende pulpit appearance as a theatrical one-man gatekeeping blitz\u2014personally taking roll call for Sifuna, Karua, and Matiang'i to dismiss Ruto's advances, directly countering a fresh TIFA poll branding him the opposition's chief divider by staking his credibility on a Christmas breakthrough.",
+      "angle_type": "political personality gatekeeping and poll backlash",
+      "opening": "Personality lead focusing directly on Gachagua mounting the pulpit at AIC Bathi to issue a roll call of politicians he claims are off-limits to State House.",
+      "structure": "Personality roll-call hook -> The 'not available' list (Sifuna, Karua, Matiang'i) -> Gachagua's self-appointed broker role and Christmas deadline -> Direct confrontation with the 43% TIFA poll findings -> Grounded close on the 2027 flagbearer contest.",
+      "source": "https://www.ghafla.co.ke/gachagua-tells-ruto-to-stop-wooing-opposition-leaders-says-they-have-agreed-to-back-one-candidate/"
     }
   ],
   "style_history": [
