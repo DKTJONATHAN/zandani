@@ -469,7 +469,8 @@
     "029abe641a8268b08dd3242df7edc8e1e13b413380e6b06bb6ffdc73bdcec871",
     "d4f7ab36f1bc0c38e6fc131857293029e2f3b7559a885d62a4ed2dceb1936af8",
     "144eed43986cc06de49c20235675b05527d4fd73933fafb297690655cd806cb0",
-    "7bbcfac9105c9afca01f7a5a4cc7671cc85659367e6cf096aa6a571f260e658c"
+    "7bbcfac9105c9afca01f7a5a4cc7671cc85659367e6cf096aa6a571f260e658c",
+    "245d03204bedf0d3a6f38aa534c25034f492207ee5a551784413f45cc44eb8ce"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -941,17 +942,10 @@
     "https://www.ghafla.co.ke/lulu-hassans-state-house-meeting-with-ruto-fuels-mvita-parliamentary-seat-speculation/",
     "https://www.ghafla.co.ke/wiper-raises-alarm-over-alleged-online-campaign-targeting-kalonzo-as-sifuna-supporters-hit-back/",
     "https://www.ghafla.co.ke/ruto-meets-kiambu-elected-leaders-at-state-house-ahead-of-2027-elections/",
-    "https://www.ghafla.co.ke/epra-maintains-fuel-prices-for-november-december-despite-rising-import-costs/"
+    "https://www.ghafla.co.ke/epra-maintains-fuel-prices-for-november-december-despite-rising-import-costs/",
+    "https://www.ghafla.co.ke/kenya-power-announces-sunday-electricity-interruptions-in-nairobi-machakos-and-three-other-counties/"
   ],
   "published_angles": [
-    {
-      "title": "Gitaru to Ngong Road: Where Kenya Power\u2019s Eight-Hour Thursday Blackout Hits Hardest",
-      "angle": "Focusing on the specific logistical and geographic friction faced by small businesses and commuters along busy urban arteries like Ngong Road and Gitaru during an eight-hour workday blackout.",
-      "angle_type": "local urban impact and business disruption",
-      "opening": "Named geographic and business corridor lead detailing the exact daytime disruption window.",
-      "structure": "Urban corridor hook -> Specific Nairobi and satellite center breakdown -> Utility maintenance rationale -> Concrete closing on restoration timelines.",
-      "source": "https://www.ghafla.co.ke/kenya-power-announces-thursday-blackouts-in-westlands-ngong-road-kisii-kiambu-mombasa-and-kilifi/"
-    },
     {
       "title": "Bernice Saroni Secures CCTV Confirmation After Son Junior Assaulted in Unsupervised US School Room",
       "angle": "Focusing on the institutional safety failure and CCTV verification\u2014how an administrative lapse in bus room supervision directly enabled the assault, and how security footage confirmed Saroni's account.",
@@ -1743,6 +1737,14 @@
       "opening": "Personality and scene-setter focus on the Nairobi pump price reality.",
       "structure": "Nairobi pump price hook -> KSh4.6 billion bailout breakdown -> Landed cost vs international crude contradiction -> Conclusion on the December pricing window.",
       "source": "https://www.ghafla.co.ke/epra-maintains-fuel-prices-for-november-december-despite-rising-import-costs/"
+    },
+    {
+      "title": "Athi River Mega-Estates and Malls Face 12-Hour Sunday Power Freeze in Five-County Maintenance Sweep",
+      "angle": "Focusing on the severe 12-hour operational freeze concentrated on Athi River's high-density commuter estates and commercial nodes, contrasting with the standard eight-hour maintenance windows deployed across Nairobi, Nyeri, and Turkana.",
+      "angle_type": "suburban impact and operational duration disparity",
+      "opening": "Lead on the distinct 12-hour shutdown hitting Machakos commuter estates and retail centres while other counties observe standard work shifts.",
+      "structure": "Athi River extended-blackout focus -> Residential and retail exposure in Greatwall and Signature Mall -> Nairobi's dual commercial and residential cuts in Parklands and Industrial Area -> Upcountry maintenance lines in Turkana, Uasin Gishu, and Nyeri -> Utility advisory wrap.",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-sunday-electricity-interruptions-in-nairobi-machakos-and-three-other-counties/"
     }
   ],
   "style_history": [
