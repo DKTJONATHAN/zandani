@@ -477,7 +477,8 @@
     "7c6d0c1e5377ce5aad14ad5ae82b6b48b43f5cd3a3dcc5926ff1eb4ffbafbd8b",
     "0569f5bf5a6483933c106c44ab4461d1c7de011072333e54a50a7dfe9271fc74",
     "5d6c3b89b8e288e3deb698d4b63e7d0967ed105e549206a71d4d53068897fe2c",
-    "e8d1806b22e915ceb88f786243f2b285379d1ae9f9b733be77ab97b21cbf16ce"
+    "e8d1806b22e915ceb88f786243f2b285379d1ae9f9b733be77ab97b21cbf16ce",
+    "4761ab18799c51ed357451fdc3493bd3722f84bb65566888e82d442e0c22b34d"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -957,17 +958,10 @@
     "https://www.ghafla.co.ke/kalonzo-musyoka-emerges-as-oppositions-most-preferred-2027-presidential-candidate-in-new-poll/",
     "https://www.ghafla.co.ke/gachagua-tells-ruto-to-stop-wooing-opposition-leaders-says-they-have-agreed-to-back-one-candidate/",
     "https://www.ghafla.co.ke/president-ruto-opens-st-marys-pre-school-before-attending-church-service-in-narok/",
-    "https://www.ghafla.co.ke/kenya-weather-met-department-forecasts-rain-and-sunshine-across-several-counties-on-monday/"
+    "https://www.ghafla.co.ke/kenya-weather-met-department-forecasts-rain-and-sunshine-across-several-counties-on-monday/",
+    "https://www.ghafla.co.ke/nuru-okanga-praises-dorcas-rigathi-challenges-mama-rachel-to-defend-ruto-like-her/"
   ],
   "published_angles": [
-    {
-      "title": "Gospel DJ Mo Arraigned Over Thika Road Incident as Court Reads Triple Traffic Charge",
-      "angle": "Examining the specific statutory compliance requirements triggered by DJ Mo's highway stop\u2014tracing how a routine Thika Road enforcement check escalated into a triple-count court case covering third-party insurance, certificate display rules, and officer directive compliance.",
-      "angle_type": "legal compliance and celebrity traffic enforcement",
-      "opening": "Personality lead opening directly on Samuel Muraya appearing in court to face three specific statutory counts.",
-      "structure": "Personality court hook -> Breakdown of the three legal counts -> Highway enforcement context on Thika Road -> Profile and public standing context -> Legal proceeding close",
-      "source": "https://www.ghafla.co.ke/gospel-dj-mo-charged-with-three-traffic-offences-after-thika-road-incident/"
-    },
     {
       "title": "Geoffrey Mosiria Banks on Huldah Momanyi\u2019s Minnesota Win to Anchor 2027 Nairobi Bid",
       "angle": "Examining the specific political branding mechanics of local Kenyan officeholders hitching their domestic municipal campaigns to the electoral milestones of diaspora politicians abroad.",
@@ -1759,6 +1753,14 @@
       "opening": "Direct focus on the Kenya Meteorological Department's dual-front advisory warning of 25-knot gusts in the north alongside widespread afternoon storms down south and east.",
       "structure": "Advisory overview -> High-wind and thermal extremes in the north -> Coastal shower patterns and humidity -> Eastern interior thunderstorm belt -> Practical outlook and verifiable conditions",
       "source": "https://www.ghafla.co.ke/kenya-weather-met-department-forecasts-rain-and-sunshine-across-several-counties-on-monday/"
+    },
+    {
+      "title": "Pastor Dorcas Unpacks 37 Years of \u2018Teddy Bear\u2019 Riggy G as Okanga Questions Rachel Ruto\u2019s Silence",
+      "angle": "Dorcas Rigathi's direct pushback against critics who accuse her of hovering around her husband, contrasting Gachagua's fierce political branding with his private domestic rules\u2014amplified when political activist Nuru Okanga landed at her Wamunyoro doorstep to test her marital loyalty against State House.",
+      "angle_type": "celebrity marriage dynamics and political spouse contrast",
+      "opening": "Personality lead opening directly on Pastor Dorcas Rigathi dismantling the tough-guy caricature of Rigathi Gachagua and daring detractors to question why she walks everywhere with her spouse.",
+      "structure": "Personality lead -> Domestic reality and the 'teddy bear' revelation -> Unbroken phone call rule and university roots -> Pushback against public presence critics -> Nuru Okanga's Wamunyoro visit and social media challenge -> The two-year silence with Rachel Ruto -> Concrete unresolved dynamic.",
+      "source": "https://www.ghafla.co.ke/nuru-okanga-praises-dorcas-rigathi-challenges-mama-rachel-to-defend-ruto-like-her/"
     }
   ],
   "style_history": [
