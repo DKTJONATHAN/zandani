@@ -476,7 +476,8 @@
     "db33d93b62d7f97de20b3bd653585f6fb22b8d58598a19c77017d876b767994c",
     "7c6d0c1e5377ce5aad14ad5ae82b6b48b43f5cd3a3dcc5926ff1eb4ffbafbd8b",
     "0569f5bf5a6483933c106c44ab4461d1c7de011072333e54a50a7dfe9271fc74",
-    "5d6c3b89b8e288e3deb698d4b63e7d0967ed105e549206a71d4d53068897fe2c"
+    "5d6c3b89b8e288e3deb698d4b63e7d0967ed105e549206a71d4d53068897fe2c",
+    "e8d1806b22e915ceb88f786243f2b285379d1ae9f9b733be77ab97b21cbf16ce"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -955,17 +956,10 @@
     "https://www.ghafla.co.ke/msikubali-kubebewa-akili-president-ruto-addresses-recent-clashes-in-narok-rally/",
     "https://www.ghafla.co.ke/kalonzo-musyoka-emerges-as-oppositions-most-preferred-2027-presidential-candidate-in-new-poll/",
     "https://www.ghafla.co.ke/gachagua-tells-ruto-to-stop-wooing-opposition-leaders-says-they-have-agreed-to-back-one-candidate/",
-    "https://www.ghafla.co.ke/president-ruto-opens-st-marys-pre-school-before-attending-church-service-in-narok/"
+    "https://www.ghafla.co.ke/president-ruto-opens-st-marys-pre-school-before-attending-church-service-in-narok/",
+    "https://www.ghafla.co.ke/kenya-weather-met-department-forecasts-rain-and-sunshine-across-several-counties-on-monday/"
   ],
   "published_angles": [
-    {
-      "title": "Sarah Mtalii Reframes Marital Exit as Financial Victory, Citing Long-Term Emotional Toll on Men",
-      "angle": "Examining Mtalii's commentary through the lens of shifting marital power dynamics\u2014specifically how economic self-sufficiency removes financial entrapment for women while exposing post-divorce male vulnerability.",
-      "angle_type": "marital power dynamics and economic self-sufficiency",
-      "opening": "Personality lead opening directly on Sarah Mtalii asserting economic autonomy transforms divorce into exit leverage for women.",
-      "structure": "Personality lead -> Economic exit leverage breakdown -> Reversal of traditional female victim trope -> Section on economic independence mechanics -> Section on male emotional vulnerability -> Concluding perspective on modern marital dynamics.",
-      "source": "https://www.ghafla.co.ke/sarah-mtalii-claims-divorce-favours-financially-independent-women-as-men-struggle-to-move-on/"
-    },
     {
       "title": "Gospel DJ Mo Arraigned Over Thika Road Incident as Court Reads Triple Traffic Charge",
       "angle": "Examining the specific statutory compliance requirements triggered by DJ Mo's highway stop\u2014tracing how a routine Thika Road enforcement check escalated into a triple-count court case covering third-party insurance, certificate display rules, and officer directive compliance.",
@@ -1757,6 +1751,14 @@
       "opening": "Personality lead opening directly on the high-stakes political pairing of Narok Governor Patrick Ole Ntutu and Senator Ledama Olekina sharing the spotlight with President William Ruto.",
       "structure": "Bipartisan local lineup hook -> St. Mary's Pre-School infrastructure details -> The transition to the St. Mary's Girls High School Sunday service -> Narok County political development context",
       "source": "https://www.ghafla.co.ke/president-ruto-opens-st-marys-pre-school-before-attending-church-service-in-narok/"
+    },
+    {
+      "title": "Met Department Flags 25-Knot Gale Warnings for North as Thunderstorms Target Eastern and Coastal Hubs",
+      "angle": "Reframing the forecast around the sharp environmental contrast between the high-wind, scorching arid north and the thunderstorm-prone eastern and coastal belts, highlighting specific operational and outdoor disruptions across major transport and leisure corridors.",
+      "angle_type": "regional impact disparity and severe weather alert",
+      "opening": "Direct focus on the Kenya Meteorological Department's dual-front advisory warning of 25-knot gusts in the north alongside widespread afternoon storms down south and east.",
+      "structure": "Advisory overview -> High-wind and thermal extremes in the north -> Coastal shower patterns and humidity -> Eastern interior thunderstorm belt -> Practical outlook and verifiable conditions",
+      "source": "https://www.ghafla.co.ke/kenya-weather-met-department-forecasts-rain-and-sunshine-across-several-counties-on-monday/"
     }
   ],
   "style_history": [
