@@ -484,7 +484,8 @@
     "df3454afcc65f9dabb647725eb37ea5b723128f2dddd6b884847f7692cfe34b7",
     "f15682d28cddca24be6efbc7e54e4c644996eb91df1a9312c4a4a03a09a72123",
     "8dde805c50c3df344857d6195e371fb6361dfe84a3a70b5323438c408c59dc90",
-    "9f46536c7492cfb6e2b70afdc3bb0e6ae90f135959e13fad0277579ab564e5d3"
+    "9f46536c7492cfb6e2b70afdc3bb0e6ae90f135959e13fad0277579ab564e5d3",
+    "4913e58ff7a0a9b9958364626e2279572ef2494c14072cc5c4b94620db7d6263"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -971,17 +972,10 @@
     "https://www.ghafla.co.ke/ruto-declares-kenya-is-africas-top-milk-producer/",
     "https://www.ghafla.co.ke/karen-nyamu-inspired-after-charlene-rutos-wedding-opens-up-about-public-misconception-about-her/",
     "https://www.ghafla.co.ke/britam-golf-series-2026-building-a-golf-community-across-three-countries/",
-    "https://www.ghafla.co.ke/championing-inclusivity-ps-raymond-omollo-meets-nairobi-disability-coordinators-to-advance-equal-opportunities/"
+    "https://www.ghafla.co.ke/championing-inclusivity-ps-raymond-omollo-meets-nairobi-disability-coordinators-to-advance-equal-opportunities/",
+    "https://www.ghafla.co.ke/adult-websites-ranks-most-visited-site-in-kenya-ahead-of-tiktok-and-facebook/"
   ],
   "published_angles": [
-    {
-      "title": "Behind Curated Facades: How DJ Mo and Size 8 Became the Secret Helpline for High-Profile Marriages",
-      "angle": "Examining how DJ Mo and Size 8 leveraged their documented personal marital friction into an informal peer-counseling channel, exposing how high-status public figures hide relationship crises behind curated perfection until reaching breaking point.",
-      "angle_type": "celebrity peer counseling and public vulnerability",
-      "opening": "Personality lead opening directly on DJ Mo and Size 8 detailing how their unvarnished approach to their own marriage turned their personal phones into an informal counseling line for prominent figures.",
-      "structure": "Personality hook on peer counseling hotline -> Context of podcast session with Daddy Owen -> Breakdown of DJ Mo's statements on crisis calls ('kimeumana') -> Size 8's analysis of pride and perfectionism -> Factual conclusion on vulnerability over image control.",
-      "source": "https://www.ghafla.co.ke/couples-call-us-when-things-get-tough-dj-mo-size-8-reveal-celebrities-consult-them-on-marriage/"
-    },
     {
       "title": "Raymond Omollo Demands Equity for Lake Victoria Fishermen, Pledges Armed Patrol Vessel Overhaul by End of 2026",
       "angle": "Framing Raymond Omollo's Lake Victoria pitch around his explicit parity argument\u2014demanding fishing receive the same state investment as tea and coffee\u2014tied directly to an end-of-2026 security deadline to replace risky wooden patrol craft around Migingo Island.",
@@ -1773,6 +1767,14 @@
       "opening": "Personality lead focusing directly on Phelix Odiwuor Jalang\u2019o stepping into boardroom talks alongside Ronald Karauri and PS Raymond Omollo.",
       "structure": "Personality lead -> Coalition detail with Karauri and Omollo -> The Usawa ni Sawa framework and Omollo's stated directives -> Grassroots coordinator priorities -> Strategic capital implications",
       "source": "https://www.ghafla.co.ke/championing-inclusivity-ps-raymond-omollo-meets-nairobi-disability-coordinators-to-advance-equal-opportunities/"
+    },
+    {
+      "title": "Smartphones Drive Kenya\u2019s October Web Surge as Private Mobile Browsing Outpaces Social Media",
+      "angle": "Framing the data through mobile privacy behavior\u2014where 96.8 percent of visits originated from smartphones\u2014and contrasting Kenya's adult traffic surge with neighboring East African markets dominated by sports betting portals.",
+      "angle_type": "digital consumption habits and technology platform contrast",
+      "opening": "Direct focus on the overwhelming 96.81 percent mobile share powering Kenya's adult traffic bump in October.",
+      "structure": "Mobile-first traffic breakdown -> Social network vs adult platform comparisons -> Month-on-month trend metrics -> Regional East Africa betting contrast -> Semrush analytics methodology.",
+      "source": "https://www.ghafla.co.ke/adult-websites-ranks-most-visited-site-in-kenya-ahead-of-tiktok-and-facebook/"
     }
   ],
   "style_history": [
