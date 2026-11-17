@@ -481,7 +481,8 @@
     "4761ab18799c51ed357451fdc3493bd3722f84bb65566888e82d442e0c22b34d",
     "3a5962c3c1b42c88f8b485b02090a94a3bb6f0f9f1ebc73b330bd0c2fe560bc4",
     "fb4a728be9e9d4a7eee8968c12ca4f1d35ec3a1cbd2253fd938fe6516500b373",
-    "df3454afcc65f9dabb647725eb37ea5b723128f2dddd6b884847f7692cfe34b7"
+    "df3454afcc65f9dabb647725eb37ea5b723128f2dddd6b884847f7692cfe34b7",
+    "f15682d28cddca24be6efbc7e54e4c644996eb91df1a9312c4a4a03a09a72123"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -965,17 +966,10 @@
     "https://www.ghafla.co.ke/nuru-okanga-praises-dorcas-rigathi-challenges-mama-rachel-to-defend-ruto-like-her/",
     "https://www.ghafla.co.ke/kenyan-prince-nearly-hits-bystander-with-lamborghini-during-high-speed-mombasa-stunt/",
     "https://www.ghafla.co.ke/meru-man-accused-of-faking-childs-death-to-collect-ksh-20000-funeral-contributions/",
-    "https://www.ghafla.co.ke/ruto-declares-kenya-is-africas-top-milk-producer/"
+    "https://www.ghafla.co.ke/ruto-declares-kenya-is-africas-top-milk-producer/",
+    "https://www.ghafla.co.ke/karen-nyamu-inspired-after-charlene-rutos-wedding-opens-up-about-public-misconception-about-her/"
   ],
   "published_angles": [
-    {
-      "title": "Ice Cream vs Stimulants: Inside Babu Owino and Geoffrey Mosiria\u2019s Personal X Feud",
-      "angle": "Focusing on the specific metabolic and chemical metaphors used in the exchange\u2014moving from 'ice cream brain cells' to unsourced stimulant claims\u2014and the abrupt transition from personal mudslinging to public policy messaging.",
-      "angle_type": "rhetoric and digital confrontation",
-      "opening": "Personality lead opening directly on Babu Owino initiating the insult sequence with an ice cream metaphor on X.",
-      "structure": "Metaphor opening -> Counter-attack breakdown -> Analysis of insult mechanics and evidence context -> Abrupt shift to policy messaging -> Unresolved digital decorum close",
-      "source": "https://www.ghafla.co.ke/babu-owino-geoffrey-mosiria-trade-insults-in-heated-online-exchange/"
-    },
     {
       "title": "Oscar Sudi\u2019s Off-Duty Denim Walk With President Ruto in Mwanza Highlights Inner-Circle Access at Charlene\u2019s Wedding",
       "angle": "Framing Sudi's informal presence and sartorial choices alongside President Ruto as an indicator of inner-circle access during high-profile cross-border family milestones.",
@@ -1767,6 +1761,14 @@
       "opening": "Personality lead opening directly on President William Ruto delivering a bold continental flex to international delegates at Parliament Buildings.",
       "structure": "Personality podium hook -> Verbatim continental claim and Egypt comparison -> The awkward grocery aisle contradiction -> Kenya Dairy Board's dry weather paper trail -> Mid-speech sweetener: cane bonuses and digital crackdown on brokers.",
       "source": "https://www.ghafla.co.ke/ruto-declares-kenya-is-africas-top-milk-producer/"
+    },
+    {
+      "title": "Karen Nyamu Rejects \u2018Carefree\u2019 Label on Air, Ties UDA Loyalty Strictly to Development Results",
+      "angle": "Reframing Nyamu's broadcast appearance around her explicit defense against the 'don't care' label, contrasting her self-described workaholic ethic with her pragmatic, performance-contingent commitment to the ruling UDA party.",
+      "angle_type": "celebrity reputation defense and conditional political loyalty",
+      "opening": "Personality lead opening directly on Karen Nyamu confronting her 'carefree' public caricature during a live radio broadcast.",
+      "structure": "Broadcast confrontation on work ethic -> Conditional party loyalty stance -> Public perception vs legislative self-identity -> Connection to recent viral wedding commentary.",
+      "source": "https://www.ghafla.co.ke/karen-nyamu-inspired-after-charlene-rutos-wedding-opens-up-about-public-misconception-about-her/"
     }
   ],
   "style_history": [
