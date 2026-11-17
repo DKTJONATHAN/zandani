@@ -487,7 +487,8 @@
     "9f46536c7492cfb6e2b70afdc3bb0e6ae90f135959e13fad0277579ab564e5d3",
     "4913e58ff7a0a9b9958364626e2279572ef2494c14072cc5c4b94620db7d6263",
     "362e54629e2fa2a09ad20476ab46585fe4ca05631f7fbc9d92884472d0ead569",
-    "d14fae8dc6ae3e1da7726859ae0c03481707f1735baa4441b3a26c308a1e98f1"
+    "d14fae8dc6ae3e1da7726859ae0c03481707f1735baa4441b3a26c308a1e98f1",
+    "780e0b0f7b0f89e867c1ecfedc5b330d5a96ef9b0b00f856221ca796cdc598b1"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -977,17 +978,10 @@
     "https://www.ghafla.co.ke/championing-inclusivity-ps-raymond-omollo-meets-nairobi-disability-coordinators-to-advance-equal-opportunities/",
     "https://www.ghafla.co.ke/adult-websites-ranks-most-visited-site-in-kenya-ahead-of-tiktok-and-facebook/",
     "https://www.ghafla.co.ke/azziad-nasenya-opens-up-about-heartbreak-after-her-october-10-wedding-was-cancelled/",
-    "https://www.ghafla.co.ke/william-ruto-claps-back-at-gachaguas-criticism-over-expensive-outfit-he-wore-at-charlenes-wedding/"
+    "https://www.ghafla.co.ke/william-ruto-claps-back-at-gachaguas-criticism-over-expensive-outfit-he-wore-at-charlenes-wedding/",
+    "https://www.ghafla.co.ke/weather-experts-warn-2026-will-rank-among-four-warmest-years-ever-recorded-as-el-nino-intensifies/"
   ],
   "published_angles": [
-    {
-      "title": "Sandra Dacha Challenges Transformation Critics: \u2018Mimi Nilipunguza Kilo, Si Umri\u2019",
-      "angle": "Examining the audience paradox of public physical transformations\u2014tracing Dacha's progression from a nostalgic Nov 4 throwback dance with Akuku Danger to her Nov 6 boundary-setting assertion that shedding weight does not freeze chronological age ('nilipunguza KILO, si umri').",
-      "angle_type": "audience paradox and physical transformation boundaries",
-      "opening": "Personality lead opening directly on Sandra Dacha dismantling audience expectations about her post-weight-loss face and body.",
-      "structure": "Personality opening -> Direct statement breakdown -> Throwback video context with Akuku Danger -> Medical and lifestyle routine background -> Boundary-setting close.",
-      "source": "https://www.ghafla.co.ke/sandra-dacha-claps-back-at-critics-claiming-weight-loss-made-her-look-older/"
-    },
     {
       "title": "Oga Obinna Slams \u2018Zero-Shilling\u2019 Critics Nitpicking Size 8 and DJ Mo\u2019s Ksh 50M Mansion",
       "angle": "Examining the financial reality of luxury celebrity real estate scrutiny in Kenya\u2014contrasting zero-shilling armchair critics with verified multi-million-shilling construction budgets and personal discipline.",
@@ -1779,6 +1773,14 @@
       "opening": "Personality-led focus on the President\u2019s specific rebuttal regarding his wardrobe choice during the Sunday service.",
       "structure": "Ruto\u2019s defense hook -> The breakdown of Gachagua\u2019s KSh 100 million claim -> The contextual shift from the Mwanza wedding to the Narok church pulpit -> The broader tension between the two political figures.",
       "source": "https://www.ghafla.co.ke/william-ruto-claps-back-at-gachaguas-criticism-over-expensive-outfit-he-wore-at-charlenes-wedding/"
+    },
+    {
+      "title": "When Dennis Elnino Brings the Heat: WMO Flags 2026 as One of Warmest Years on Record",
+      "angle": "The literal naming coincidence where climate reporting meets personal digital identity, focusing on how meteorological updates collide with the digital handles of modern commentators during a record-shattering weather cycle.",
+      "angle_type": "cultural naming coincidence and personal branding under extreme global conditions",
+      "opening": "Personality and identity-led hook focusing on the person behind the desk delivering the bulletin against the backdrop of off-the-charts planetary metrics.",
+      "structure": "Identity/handle hook -> WMO Antalya conference metrics -> El Ni\u00f1o intensification data -> Global temperature and ocean heat baselines -> Concrete factual close.",
+      "source": "https://www.ghafla.co.ke/weather-experts-warn-2026-will-rank-among-four-warmest-years-ever-recorded-as-el-nino-intensifies/"
     }
   ],
   "style_history": [
