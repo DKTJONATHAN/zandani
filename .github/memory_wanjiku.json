@@ -480,7 +480,8 @@
     "e8d1806b22e915ceb88f786243f2b285379d1ae9f9b733be77ab97b21cbf16ce",
     "4761ab18799c51ed357451fdc3493bd3722f84bb65566888e82d442e0c22b34d",
     "3a5962c3c1b42c88f8b485b02090a94a3bb6f0f9f1ebc73b330bd0c2fe560bc4",
-    "fb4a728be9e9d4a7eee8968c12ca4f1d35ec3a1cbd2253fd938fe6516500b373"
+    "fb4a728be9e9d4a7eee8968c12ca4f1d35ec3a1cbd2253fd938fe6516500b373",
+    "df3454afcc65f9dabb647725eb37ea5b723128f2dddd6b884847f7692cfe34b7"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -963,17 +964,10 @@
     "https://www.ghafla.co.ke/kenya-weather-met-department-forecasts-rain-and-sunshine-across-several-counties-on-monday/",
     "https://www.ghafla.co.ke/nuru-okanga-praises-dorcas-rigathi-challenges-mama-rachel-to-defend-ruto-like-her/",
     "https://www.ghafla.co.ke/kenyan-prince-nearly-hits-bystander-with-lamborghini-during-high-speed-mombasa-stunt/",
-    "https://www.ghafla.co.ke/meru-man-accused-of-faking-childs-death-to-collect-ksh-20000-funeral-contributions/"
+    "https://www.ghafla.co.ke/meru-man-accused-of-faking-childs-death-to-collect-ksh-20000-funeral-contributions/",
+    "https://www.ghafla.co.ke/ruto-declares-kenya-is-africas-top-milk-producer/"
   ],
   "published_angles": [
-    {
-      "title": "Charlene Ruto Escalates Cross-Border Wedding Sequence With Nairobi Gown Fitting Ahead of Mwanza Ceremony",
-      "angle": "Framing the final gown fitting as the core transition point in a structured, multi-phase cross-border marital rollout\u2014moving from private family preparations in Nairobi to a high-profile reception in Mwanza.",
-      "angle_type": "cross-border lifestyle rollout and family involvement",
-      "opening": "Personality lead opening directly on Charlene Ruto during her dress fitting alongside First Lady Rachel Ruto and Stephanie Ruto.",
-      "structure": "Personality fitting hook -> Gown design and maternal/sisterly role -> Nairobi garden shower context -> Mwanza Airport welcome reception -> Traditional Kilgoris Koito foundation close.",
-      "source": "https://www.ghafla.co.ke/charlene-ruto-flaunts-lavish-gown-fitting-moments-ahead-of-her-grand-wedding-photo/"
-    },
     {
       "title": "Ice Cream vs Stimulants: Inside Babu Owino and Geoffrey Mosiria\u2019s Personal X Feud",
       "angle": "Focusing on the specific metabolic and chemical metaphors used in the exchange\u2014moving from 'ice cream brain cells' to unsourced stimulant claims\u2014and the abrupt transition from personal mudslinging to public policy messaging.",
@@ -1765,6 +1759,14 @@
       "opening": "Personality lead opening on Irene Daniels recounting the surreal confrontation in Meru where funeral wreaths were abandoned for an impromptu prayer service.",
       "structure": "Personality opening -> Daniels' sequence of financial contributions and transit -> Morgue record revelation -> Homestead confrontation and child discovery -> Rev Mainge Nathan's prayer and village fallout",
       "source": "https://www.ghafla.co.ke/meru-man-accused-of-faking-childs-death-to-collect-ksh-20000-funeral-contributions/"
+    },
+    {
+      "title": "William Ruto Takes Continental Flex to the Podium, Crowns Kenya Africa\u2019s Milk King After 1-Billion-Litre Surge",
+      "angle": "Framing Ruto's appearance through the lens of a classic high-profile personality flex\u2014claiming continental bragging rights over Egypt on an international stage while steering right through the awkward memory of recent empty supermarket milk shelves in Nairobi, Mombasa, and Kisumu.",
+      "angle_type": "personality podium flex vs consumer reality check",
+      "opening": "Personality lead opening directly on President William Ruto delivering a bold continental flex to international delegates at Parliament Buildings.",
+      "structure": "Personality podium hook -> Verbatim continental claim and Egypt comparison -> The awkward grocery aisle contradiction -> Kenya Dairy Board's dry weather paper trail -> Mid-speech sweetener: cane bonuses and digital crackdown on brokers.",
+      "source": "https://www.ghafla.co.ke/ruto-declares-kenya-is-africas-top-milk-producer/"
     }
   ],
   "style_history": [
