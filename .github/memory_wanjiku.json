@@ -483,7 +483,8 @@
     "fb4a728be9e9d4a7eee8968c12ca4f1d35ec3a1cbd2253fd938fe6516500b373",
     "df3454afcc65f9dabb647725eb37ea5b723128f2dddd6b884847f7692cfe34b7",
     "f15682d28cddca24be6efbc7e54e4c644996eb91df1a9312c4a4a03a09a72123",
-    "8dde805c50c3df344857d6195e371fb6361dfe84a3a70b5323438c408c59dc90"
+    "8dde805c50c3df344857d6195e371fb6361dfe84a3a70b5323438c408c59dc90",
+    "9f46536c7492cfb6e2b70afdc3bb0e6ae90f135959e13fad0277579ab564e5d3"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -969,17 +970,10 @@
     "https://www.ghafla.co.ke/meru-man-accused-of-faking-childs-death-to-collect-ksh-20000-funeral-contributions/",
     "https://www.ghafla.co.ke/ruto-declares-kenya-is-africas-top-milk-producer/",
     "https://www.ghafla.co.ke/karen-nyamu-inspired-after-charlene-rutos-wedding-opens-up-about-public-misconception-about-her/",
-    "https://www.ghafla.co.ke/britam-golf-series-2026-building-a-golf-community-across-three-countries/"
+    "https://www.ghafla.co.ke/britam-golf-series-2026-building-a-golf-community-across-three-countries/",
+    "https://www.ghafla.co.ke/championing-inclusivity-ps-raymond-omollo-meets-nairobi-disability-coordinators-to-advance-equal-opportunities/"
   ],
   "published_angles": [
-    {
-      "title": "Rigathi Gachagua Drops High Court Anchor Petition to Focus Entirely on Appellate Battle",
-      "angle": "Framing Gachagua's High Court exit as a strategic legal streamlining move that strips away redundant multi-case litigation to focus exclusively on the upcoming November 19 Court of Appeal directions, where his 2027 election eligibility under Article 75(3) will ultimately be decided.",
-      "angle_type": "appellate strategy and political eligibility",
-      "opening": "Personality lead directly on Rigathi Gachagua withdrawing his lead anchor High Court lawsuit to channel all legal firepower into the appellate court.",
-      "structure": "Personality exit hook -> History of Petition E522 and High Court consolidation -> Defense team's rationale for withdrawal -> The November 19 appellate battleground and Article 75(3) stakes.",
-      "source": "https://www.ghafla.co.ke/overtaken-by-time-rigathi-gachagua-formally-withdraws-high-court-impeachment-challenge/"
-    },
     {
       "title": "Behind Curated Facades: How DJ Mo and Size 8 Became the Secret Helpline for High-Profile Marriages",
       "angle": "Examining how DJ Mo and Size 8 leveraged their documented personal marital friction into an informal peer-counseling channel, exposing how high-status public figures hide relationship crises behind curated perfection until reaching breaking point.",
@@ -1771,6 +1765,14 @@
       "opening": "Personality lead opening directly on Ndanu Mutiso stepping onto the Muthaiga greens with modest expectations before walking away with the grand finale trophy.",
       "structure": "Personality upset hook -> Four-ball chemistry with Benjamin Mukhisa and Mutiso's verbatim post-win reflections -> Scorecard breakdown and countback drama -> Notable category winners -> Corporate lifestyle backdrop and regional tour context",
       "source": "https://www.ghafla.co.ke/britam-golf-series-2026-building-a-golf-community-across-three-countries/"
+    },
+    {
+      "title": "Jalang\u2019o and Ronald Karauri Join PS Raymond Omollo in Nairobi Usawa ni Sawa Push",
+      "angle": "Reframing the session through high-profile celebrity-politicians Jalang'o and Ronald Karauri stepping in alongside Interior's top administrator to bridge grassroots Nairobi constituency needs with national policy.",
+      "angle_type": "personality alliance and civic intervention",
+      "opening": "Personality lead focusing directly on Phelix Odiwuor Jalang\u2019o stepping into boardroom talks alongside Ronald Karauri and PS Raymond Omollo.",
+      "structure": "Personality lead -> Coalition detail with Karauri and Omollo -> The Usawa ni Sawa framework and Omollo's stated directives -> Grassroots coordinator priorities -> Strategic capital implications",
+      "source": "https://www.ghafla.co.ke/championing-inclusivity-ps-raymond-omollo-meets-nairobi-disability-coordinators-to-advance-equal-opportunities/"
     }
   ],
   "style_history": [
