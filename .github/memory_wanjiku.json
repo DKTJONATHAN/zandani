@@ -494,7 +494,8 @@
     "f97ae774f41c099774c5626fa4f194b31d8aa37e33637e728b35693a1ca99085",
     "29d9576cf64c6838f55aed9c4b00ac94e0032b1ac37d3b8469caa58eb00a5962",
     "05224909a576d07a128aade80675d566fb50759cc8d963f8b88f3a3aa46a6ed7",
-    "77894d09e817a095dd94466c74acd4848aa1d238114f3244fee00ed1cdefe4bf"
+    "77894d09e817a095dd94466c74acd4848aa1d238114f3244fee00ed1cdefe4bf",
+    "fa96bb26a5d53bcb8fffb00c907926daa0c7abbc9a9e1e54dd380dc9474eaead"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -991,17 +992,10 @@
     "https://www.ghafla.co.ke/jalango-reacts-to-oburu-ogingas-youthful-appearance-in-photos-with-president-ruto/",
     "https://www.ghafla.co.ke/oga-obinna-defends-babu-owinos-nairobi-governor-ambitions-dismisses-gauchos-claims/",
     "https://www.ghafla.co.ke/dj-joe-mfalme-reveals-dating-advice-he-plans-to-give-his-daughter-revisits-2021-radio-controversy/",
-    "https://www.ghafla.co.ke/sacco-vs-chama-how-kenyans-can-build-wealth-through-collective-savings/"
+    "https://www.ghafla.co.ke/sacco-vs-chama-how-kenyans-can-build-wealth-through-collective-savings/",
+    "https://www.ghafla.co.ke/president-ruto-pledges-to-shield-kenyans-from-medical-poverty-highlights-100000-teacher-hires-to-ease-school-costs/"
   ],
   "published_angles": [
-    {
-      "title": "\u2018Babu Owino vs Paul Ongili\u2019: Embakasi East MP Rejects Gachagua\u2019s Rumored Senate Deal to Keep Nairobi Governor Ambitions Alive",
-      "angle": "Framing Babu Owino's response through his self-referential political posture ('Babu Owino vs Paul Ongili') and his independent Mwananchi Party ward-level MCA strategy designed to bypass opposition alignment pressures.",
-      "angle_type": "political branding and electoral resistance",
-      "opening": "Personality lead centered on Babu Owino's self-referential statement framing the city contest around his own identity.",
-      "structure": "Self-referential statement hook -> Breakdown of rumored Gachagua negotiation -> Rebranded Mwananchi Party ward strategy -> Opposition lineup mechanics -> Concrete political close.",
-      "source": "https://www.ghafla.co.ke/hii-nairobi-ilienda-babu-owino-rejects-reports-of-gachagua-urging-him-to-run-for-senate/"
-    },
     {
       "title": "Babu Owino Pairs Street Bravado With Elder Gravitas, Taps Kivutha Kibwana to Anchor Mwananchi Party",
       "angle": "Examining the stylistic and generational alliance between fiery, pop-political heavyweight Babu Owino and soft-spoken legal veteran Kivutha Kibwana, framing Kibwana's patronage as an intentional injection of institutional gravitas and policy polish into Babu's personal 2027 political machinery.",
@@ -1793,6 +1787,14 @@
       "opening": "Personality and scale hook focusing on Nicholas Kamonye breaking down the arithmetic of small monthly contributions against national cooperative balance sheets.",
       "structure": "Micro-savings arithmetic hook -> National asset footprint and SASRA context -> Structural differences between informal chamas and formal SACCOs -> Due diligence and risk considerations -> Concrete closing on the ongoing Friday forum series.",
       "source": "https://www.ghafla.co.ke/sacco-vs-chama-how-kenyans-can-build-wealth-through-collective-savings/"
+    },
+    {
+      "title": "Ruto Targets Family Pocketbooks in State Address, Warns Schools Against Extra Fees as State Clears Sh34 Billion Arrears",
+      "angle": "Focusing on the household pocketbook angle\u2014specifically how Ruto framed state funding, teacher hiring, and medical bailout figures as a direct intervention to stop extra school fees and health bills from bankrupting Kenyan families.",
+      "angle_type": "personality lead and household financial impact",
+      "opening": "Personality lead opening directly on President William Ruto addressing lawmakers in Parliament about household economic strain.",
+      "structure": "Presidential address hook -> Health debt relief and Sh34B settlement breakdown -> Education deficit background and BoM parent levies -> 100,000 teacher milestone and December recruitment plans -> Classrooms, labs, and strict warning on illegal school fees.",
+      "source": "https://www.ghafla.co.ke/president-ruto-pledges-to-shield-kenyans-from-medical-poverty-highlights-100000-teacher-hires-to-ease-school-costs/"
     }
   ],
   "style_history": [
