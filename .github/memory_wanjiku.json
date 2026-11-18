@@ -489,7 +489,8 @@
     "362e54629e2fa2a09ad20476ab46585fe4ca05631f7fbc9d92884472d0ead569",
     "d14fae8dc6ae3e1da7726859ae0c03481707f1735baa4441b3a26c308a1e98f1",
     "780e0b0f7b0f89e867c1ecfedc5b330d5a96ef9b0b00f856221ca796cdc598b1",
-    "c8e81f2e4bea9c8f5f85b2cb68513ba24287bf65ca32a4f2b2f23a9407f279bc"
+    "c8e81f2e4bea9c8f5f85b2cb68513ba24287bf65ca32a4f2b2f23a9407f279bc",
+    "6de26e20f3b63140021b3d8dc0535c29ec8e2e3edd6f68e0375e6edadc40ab49"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -981,17 +982,10 @@
     "https://www.ghafla.co.ke/azziad-nasenya-opens-up-about-heartbreak-after-her-october-10-wedding-was-cancelled/",
     "https://www.ghafla.co.ke/william-ruto-claps-back-at-gachaguas-criticism-over-expensive-outfit-he-wore-at-charlenes-wedding/",
     "https://www.ghafla.co.ke/weather-experts-warn-2026-will-rank-among-four-warmest-years-ever-recorded-as-el-nino-intensifies/",
-    "https://www.ghafla.co.ke/she-bought-them-for-me-kelvin-kinuthia-opens-up-about-his-mothers-role-in-his-feminine-style/"
+    "https://www.ghafla.co.ke/she-bought-them-for-me-kelvin-kinuthia-opens-up-about-his-mothers-role-in-his-feminine-style/",
+    "https://www.ghafla.co.ke/anne-waiguru-declares-interest-in-deputy-president-seat-ahead-of-2027-election/"
   ],
   "published_angles": [
-    {
-      "title": "Nicholas Kioko Swaps Mic for Currency Charts, Launches Client Trading Desk",
-      "angle": "Framing the shift as a creator economy monetization leap\u2014tracing how Kioko is converting his massive 600,000-subscriber digital following into a retail client book for third-party fund management, spurred by the stark local ad payout ceiling of KSh80,000 per million views he previously documented.",
-      "angle_type": "creator economy monetization and financial pivot",
-      "opening": "Personality lead opening directly on Nicholas Kioko moving beyond his digital production setup to solicit client capital under a strict 'no overnight V8' warning.",
-      "structure": "Personality pivot hook -> Third-party account management details -> Anti-hype risk parameters and trading disclaimers -> Creator payout context and 36-million view background -> Transition verification close",
-      "source": "https://www.ghafla.co.ke/nicholas-kioko-announces-shift-to-full-time-forex-trading-offers-account-management-services/"
-    },
     {
       "title": "Jaymo Ule Msee Calls Nairobi Senate Bid a \u2018Social Media Poll\u2019, Backs Jalang\u2019o for 2027",
       "angle": "Examining the mechanics of how digital creators test municipal political waters using casual social media 'opinion polls' before executing strategic pivot maneuvers under higher-level realignment.",
@@ -1783,6 +1777,14 @@
       "opening": "Personality lead focusing directly on Kelvin Kinuthia's mother stepping into the role of personal stylist and wardrobe financier.",
       "structure": "Maternal wardrobe financing hook -> Clarification on brand-new purchases vs hand-me-downs -> The broader public washroom standoff and portable toilet announcement -> Jony the Hairdresser's parallel experiences on Kwambox's show -> Concrete factual close on ongoing creator logistics.",
       "source": "https://www.ghafla.co.ke/she-bought-them-for-me-kelvin-kinuthia-opens-up-about-his-mothers-role-in-his-feminine-style/"
+    },
+    {
+      "title": "Anne Waiguru Demands Open Battle for Ruto\u2019s 2027 DP Ticket, Flexes CS and Governor Resume",
+      "angle": "Reframing her announcement as a direct challenge to political incumbency norms\u2014demanding an open, competitive selection process for the DP ticket while flexing her dual record as Devolution CS and two-term Governor to contrast Mt Kenya West against incumbent Kithure Kindiki's Mt Kenya East base.",
+      "angle_type": "personality play and competitive ticket challenge",
+      "opening": "Personality lead opening directly on Kirinyaga Governor Anne Waiguru refusing to accept a closed running-mate selection process for 2027.",
+      "structure": "Personality lead -> Democratic selection framing and rivalry denial -> Devolution CS and Governor resume flex -> Mt Kenya West vs East demographic math -> National women voter appeal and concrete close.",
+      "source": "https://www.ghafla.co.ke/anne-waiguru-declares-interest-in-deputy-president-seat-ahead-of-2027-election/"
     }
   ],
   "style_history": [
