@@ -496,7 +496,8 @@
     "05224909a576d07a128aade80675d566fb50759cc8d963f8b88f3a3aa46a6ed7",
     "77894d09e817a095dd94466c74acd4848aa1d238114f3244fee00ed1cdefe4bf",
     "fa96bb26a5d53bcb8fffb00c907926daa0c7abbc9a9e1e54dd380dc9474eaead",
-    "61b9c39d04c9bca3a7f4f724300c0c73ae552b003fa8c320e293477e13288306"
+    "61b9c39d04c9bca3a7f4f724300c0c73ae552b003fa8c320e293477e13288306",
+    "dc7aad56033f364dc21fdfcc94140d30478c90f85aeee1fb4b3c9f69fa05c1e5"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -995,17 +996,10 @@
     "https://www.ghafla.co.ke/dj-joe-mfalme-reveals-dating-advice-he-plans-to-give-his-daughter-revisits-2021-radio-controversy/",
     "https://www.ghafla.co.ke/sacco-vs-chama-how-kenyans-can-build-wealth-through-collective-savings/",
     "https://www.ghafla.co.ke/president-ruto-pledges-to-shield-kenyans-from-medical-poverty-highlights-100000-teacher-hires-to-ease-school-costs/",
-    "https://www.ghafla.co.ke/bahati-teases-another-major-announcement-promises-ksh100000-to-fans-who-guess-correctly/"
+    "https://www.ghafla.co.ke/bahati-teases-another-major-announcement-promises-ksh100000-to-fans-who-guess-correctly/",
+    "https://www.ghafla.co.ke/prezzo-responds-to-claims-that-his-luxury-rolex-watch-is-fake/"
   ],
   "published_angles": [
-    {
-      "title": "Charlene Ruto Weds Isaya Yunge in Mwanza as Top State Officials Pivot to Cross-Border \u2018Mashemeji\u2019",
-      "angle": "Framing the Mwanza nuptials around the cross-border social shift, where senior Kenyan Cabinet members and lawmakers temporarily swapped formal state decorum for regional in-law ('mashemeji') camaraderie alongside President William Ruto in Tanzania.",
-      "angle_type": "cross-border social dynamics and high-profile nuptials",
-      "opening": "Personality lead opening directly on Charlene Ruto and Isaya Yunge taking their vows in Mwanza.",
-      "structure": "Personality hook -> Mwanza cross-border delegation breakdown -> Formal and informal 'mashemeji' reactions -> Scriptural and gubernatorial blessings -> Concrete closing on the regional union.",
-      "source": "https://www.ghafla.co.ke/top-kenyan-leaders-shower-charlene-ruto-and-isaya-yunge-with-goodwill-following-mwanza-wedding/"
-    },
     {
       "title": "Fred Matiang\u2019i Reaches Out to Rigathi Gachagua Following Death of Reriani Family Matriarch Eunice Nyangari",
       "angle": "Framing the moment around the personal executive outreach between Matiang'i and Gachagua, contrasting their high-stakes political histories with a unified public acknowledgment of Eunice Nyangari's seven-year tenure as the Reriani family matriarch in Naro Moru.",
@@ -1797,6 +1791,14 @@
       "opening": "Personality lead focusing directly on Bahati deploying a Sh100,000 crowd-sourcing bounty to stoke fresh speculation on his feeds.",
       "structure": "Personality lead -> The cash bounty and Friday 10 AM deadline -> The TV confession regarding the Argyle Grand wedding decoy -> Financial balance sheet of the hotel stunt (Sh10M vs Sh100M claims) -> 2027 Mathare political stakes against Anthony Oluoch -> Unresolved Friday reveal close",
       "source": "https://www.ghafla.co.ke/bahati-teases-another-major-announcement-promises-ksh100000-to-fans-who-guess-correctly/"
+    },
+    {
+      "title": "Prezzo\u2019s Diamond Tester Can\u2019t Save His Rolex from the Real Authenticity Test",
+      "angle": "Examining the specific technical limitations of using a diamond tester to verify a Rolex\u2014proving gemstone composition does not equal watch authenticity.",
+      "angle_type": "technical reality vs superficial celebrity defense",
+      "opening": "Personality lead focusing directly on Prezzo pulling out a diamond tester to counter internet slang.",
+      "structure": "Diamond tester hook -> The 'Mabati' social media slang context -> Technical breakdown of Rolex authentication -> Aftermarket modification reality -> Concrete factual close.",
+      "source": "https://www.ghafla.co.ke/prezzo-responds-to-claims-that-his-luxury-rolex-watch-is-fake/"
     }
   ],
   "style_history": [
