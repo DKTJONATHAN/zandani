@@ -490,7 +490,8 @@
     "d14fae8dc6ae3e1da7726859ae0c03481707f1735baa4441b3a26c308a1e98f1",
     "780e0b0f7b0f89e867c1ecfedc5b330d5a96ef9b0b00f856221ca796cdc598b1",
     "c8e81f2e4bea9c8f5f85b2cb68513ba24287bf65ca32a4f2b2f23a9407f279bc",
-    "6de26e20f3b63140021b3d8dc0535c29ec8e2e3edd6f68e0375e6edadc40ab49"
+    "6de26e20f3b63140021b3d8dc0535c29ec8e2e3edd6f68e0375e6edadc40ab49",
+    "f97ae774f41c099774c5626fa4f194b31d8aa37e33637e728b35693a1ca99085"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -983,17 +984,10 @@
     "https://www.ghafla.co.ke/william-ruto-claps-back-at-gachaguas-criticism-over-expensive-outfit-he-wore-at-charlenes-wedding/",
     "https://www.ghafla.co.ke/weather-experts-warn-2026-will-rank-among-four-warmest-years-ever-recorded-as-el-nino-intensifies/",
     "https://www.ghafla.co.ke/she-bought-them-for-me-kelvin-kinuthia-opens-up-about-his-mothers-role-in-his-feminine-style/",
-    "https://www.ghafla.co.ke/anne-waiguru-declares-interest-in-deputy-president-seat-ahead-of-2027-election/"
+    "https://www.ghafla.co.ke/anne-waiguru-declares-interest-in-deputy-president-seat-ahead-of-2027-election/",
+    "https://www.ghafla.co.ke/jalango-reacts-to-oburu-ogingas-youthful-appearance-in-photos-with-president-ruto/"
   ],
   "published_angles": [
-    {
-      "title": "Jaymo Ule Msee Calls Nairobi Senate Bid a \u2018Social Media Poll\u2019, Backs Jalang\u2019o for 2027",
-      "angle": "Examining the mechanics of how digital creators test municipal political waters using casual social media 'opinion polls' before executing strategic pivot maneuvers under higher-level realignment.",
-      "angle_type": "creator political strategy and municipal testing",
-      "opening": "Personality-led entry focusing directly on Jaymo Ule Msee framing his two-day Nairobi senate exploratory run as an intelligent social media opinion poll before handing the baton to Jalang'o.",
-      "structure": "Social media poll hook -> Nairobi senate withdrawal and Jalang'o endorsement -> Gatundu South realignment and President Ruto's stated role -> Conclusion on local constituent engagement.",
-      "source": "https://www.ghafla.co.ke/jaymo-ule-msee-drops-nairobi-senate-bid-endorses-jalango/"
-    },
     {
       "title": "'Wacha Niinue Chuma': Nana Owiti Draws Line on Post-Separation Media Probes to Focus on Gym Discipline",
       "angle": "Focusing on Nana Owiti's strategic boundary-setting during a call-in interview, where she shut down romantic relationship probes to highlight physical fitness ('kuinua chuma') and a handpicked inner support network.",
@@ -1785,6 +1779,14 @@
       "opening": "Personality lead opening directly on Kirinyaga Governor Anne Waiguru refusing to accept a closed running-mate selection process for 2027.",
       "structure": "Personality lead -> Democratic selection framing and rivalry denial -> Devolution CS and Governor resume flex -> Mt Kenya West vs East demographic math -> National women voter appeal and concrete close.",
       "source": "https://www.ghafla.co.ke/anne-waiguru-declares-interest-in-deputy-president-seat-ahead-of-2027-election/"
+    },
+    {
+      "title": "Jalang\u2019o Bypasses Ruto\u2019s Broad-Based Speech to Crown \u2018Mr Pawa\u2019 Oburu Oginga in Visual Punch Against Death Hoaxes",
+      "angle": "Reframing the story around Jalang'o using his entertainer-politician persona to completely bypass formal broad-based alliance jargon, turning a State House communique into a visual debunking of online death hoaxes while dubbing Oburu 'Mr. Pawa.'",
+      "angle_type": "celebrity social banter vs state diplomacy framing",
+      "opening": "Personality lead opening directly on Phelix Odiwuor (Jalang'o) stepping onto his feed to rewrite the focus of a major political photoshoot.",
+      "structure": "Personality lead -> Verbatim Instagram quote and 'Mr. Pawa' reference -> Context of online death hoaxes -> Contrast with Ruto's broad-based government release -> Political backdrop of Jalang'o's dual identity as MP and media personality.",
+      "source": "https://www.ghafla.co.ke/jalango-reacts-to-oburu-ogingas-youthful-appearance-in-photos-with-president-ruto/"
     }
   ],
   "style_history": [
