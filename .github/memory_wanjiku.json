@@ -493,7 +493,8 @@
     "6de26e20f3b63140021b3d8dc0535c29ec8e2e3edd6f68e0375e6edadc40ab49",
     "f97ae774f41c099774c5626fa4f194b31d8aa37e33637e728b35693a1ca99085",
     "29d9576cf64c6838f55aed9c4b00ac94e0032b1ac37d3b8469caa58eb00a5962",
-    "05224909a576d07a128aade80675d566fb50759cc8d963f8b88f3a3aa46a6ed7"
+    "05224909a576d07a128aade80675d566fb50759cc8d963f8b88f3a3aa46a6ed7",
+    "77894d09e817a095dd94466c74acd4848aa1d238114f3244fee00ed1cdefe4bf"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -989,17 +990,10 @@
     "https://www.ghafla.co.ke/anne-waiguru-declares-interest-in-deputy-president-seat-ahead-of-2027-election/",
     "https://www.ghafla.co.ke/jalango-reacts-to-oburu-ogingas-youthful-appearance-in-photos-with-president-ruto/",
     "https://www.ghafla.co.ke/oga-obinna-defends-babu-owinos-nairobi-governor-ambitions-dismisses-gauchos-claims/",
-    "https://www.ghafla.co.ke/dj-joe-mfalme-reveals-dating-advice-he-plans-to-give-his-daughter-revisits-2021-radio-controversy/"
+    "https://www.ghafla.co.ke/dj-joe-mfalme-reveals-dating-advice-he-plans-to-give-his-daughter-revisits-2021-radio-controversy/",
+    "https://www.ghafla.co.ke/sacco-vs-chama-how-kenyans-can-build-wealth-through-collective-savings/"
   ],
   "published_angles": [
-    {
-      "title": "Kenya Power Scheduled Eight-Hour Blackout Targets Kamakis and Eastern Bypass Commercial Belt",
-      "angle": "Focusing on the operational freeze along the Eastern Bypass commercial and weekend leisure belt\u2014specifically Kamakis, Exit 11, Green Sport, and Versity Ville\u2014where an eight-hour daytime blackout directly interrupts Saturday business activity.",
-      "angle_type": "commercial impact and weekend operational disruption",
-      "opening": "Corridor-focused operational hook highlighting the Saturday daytime power cutoff to the Kamakis and Versity Ville commercial belt.",
-      "structure": "Bypass commercial corridor hook -> Kiambu maintenance footprint details (Kamakis, Kinoo, Tinganga) -> Nyeri four-hour outage specs -> Utility timeframe and restoration window.",
-      "source": "https://www.ghafla.co.ke/kenya-power-announces-saturday-blackout-in-kiambu-and-nyeri-counties/"
-    },
     {
       "title": "\u2018Babu Owino vs Paul Ongili\u2019: Embakasi East MP Rejects Gachagua\u2019s Rumored Senate Deal to Keep Nairobi Governor Ambitions Alive",
       "angle": "Framing Babu Owino's response through his self-referential political posture ('Babu Owino vs Paul Ongili') and his independent Mwananchi Party ward-level MCA strategy designed to bypass opposition alignment pressures.",
@@ -1791,6 +1785,14 @@
       "opening": "Personality lead opening directly on DJ Joe Mfalme sitting down for an interview to lay out the exact dating rules he plans to hand down to his daughter.",
       "structure": "Personality parenting hook -> The 2021 Homeboyz Radio context and dismissal -> Verbatim defense of the 'not too available' rule -> Reflection on modern Kenyan dating realities and femicide -> Concrete close on his unwavering support for Shaffie Weru.",
       "source": "https://www.ghafla.co.ke/dj-joe-mfalme-reveals-dating-advice-he-plans-to-give-his-daughter-revisits-2021-radio-controversy/"
+    },
+    {
+      "title": "From Sh1,000 Monthly Pools to a Trillion-Shilling Empire: Inside Kenya\u2019s Cooperative Balance Sheet",
+      "angle": "Examining the massive institutional scale behind these grassroots pools\u2014specifically contrasting the informal micro-contributions of everyday Kenyans with the staggering Sh1.08 trillion asset base managed by regulated SACCOs.",
+      "angle_type": "institutional wealth scale vs grassroots micro-savings",
+      "opening": "Personality and scale hook focusing on Nicholas Kamonye breaking down the arithmetic of small monthly contributions against national cooperative balance sheets.",
+      "structure": "Micro-savings arithmetic hook -> National asset footprint and SASRA context -> Structural differences between informal chamas and formal SACCOs -> Due diligence and risk considerations -> Concrete closing on the ongoing Friday forum series.",
+      "source": "https://www.ghafla.co.ke/sacco-vs-chama-how-kenyans-can-build-wealth-through-collective-savings/"
     }
   ],
   "style_history": [
