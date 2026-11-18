@@ -491,7 +491,8 @@
     "780e0b0f7b0f89e867c1ecfedc5b330d5a96ef9b0b00f856221ca796cdc598b1",
     "c8e81f2e4bea9c8f5f85b2cb68513ba24287bf65ca32a4f2b2f23a9407f279bc",
     "6de26e20f3b63140021b3d8dc0535c29ec8e2e3edd6f68e0375e6edadc40ab49",
-    "f97ae774f41c099774c5626fa4f194b31d8aa37e33637e728b35693a1ca99085"
+    "f97ae774f41c099774c5626fa4f194b31d8aa37e33637e728b35693a1ca99085",
+    "29d9576cf64c6838f55aed9c4b00ac94e0032b1ac37d3b8469caa58eb00a5962"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -985,17 +986,10 @@
     "https://www.ghafla.co.ke/weather-experts-warn-2026-will-rank-among-four-warmest-years-ever-recorded-as-el-nino-intensifies/",
     "https://www.ghafla.co.ke/she-bought-them-for-me-kelvin-kinuthia-opens-up-about-his-mothers-role-in-his-feminine-style/",
     "https://www.ghafla.co.ke/anne-waiguru-declares-interest-in-deputy-president-seat-ahead-of-2027-election/",
-    "https://www.ghafla.co.ke/jalango-reacts-to-oburu-ogingas-youthful-appearance-in-photos-with-president-ruto/"
+    "https://www.ghafla.co.ke/jalango-reacts-to-oburu-ogingas-youthful-appearance-in-photos-with-president-ruto/",
+    "https://www.ghafla.co.ke/oga-obinna-defends-babu-owinos-nairobi-governor-ambitions-dismisses-gauchos-claims/"
   ],
   "published_angles": [
-    {
-      "title": "'Wacha Niinue Chuma': Nana Owiti Draws Line on Post-Separation Media Probes to Focus on Gym Discipline",
-      "angle": "Focusing on Nana Owiti's strategic boundary-setting during a call-in interview, where she shut down romantic relationship probes to highlight physical fitness ('kuinua chuma') and a handpicked inner support network.",
-      "angle_type": "media boundary-setting and personal betterment",
-      "opening": "Personality lead focused directly on Nana Owiti establishing firm boundaries during Ankali Ray's call-in probe.",
-      "structure": "Personality boundary hook -> Direct quote breakdown on interview call redirection -> Intentional support circle analysis -> Gym discipline focus -> Concrete closing on personal trajectory.",
-      "source": "https://www.ghafla.co.ke/nana-owiti-opens-up-about-life-after-separation-from-king-kaka/"
-    },
     {
       "title": "\u2018Be Gentle With Me\u2019: Kamene Goro Navigates Fresh Surgery Recovery Months After Surviving Sepsis Scare",
       "angle": "Examining Kamene Goro's deliberate appeal for gentleness ('I\u2019m a bit delicate right now') as she manages home convalescence against the backdrop of her harrowing survival of abdominal sepsis earlier in the year.",
@@ -1787,6 +1781,14 @@
       "opening": "Personality lead opening directly on Phelix Odiwuor (Jalang'o) stepping onto his feed to rewrite the focus of a major political photoshoot.",
       "structure": "Personality lead -> Verbatim Instagram quote and 'Mr. Pawa' reference -> Context of online death hoaxes -> Contrast with Ruto's broad-based government release -> Political backdrop of Jalang'o's dual identity as MP and media personality.",
       "source": "https://www.ghafla.co.ke/jalango-reacts-to-oburu-ogingas-youthful-appearance-in-photos-with-president-ruto/"
+    },
+    {
+      "title": "Oga Obinna Rejects Gaucho\u2019s \u2018Lone Fan\u2019 Label, Claims Nairobi Governor Race Lacks a \u2018Proper Opponent\u2019 for Babu Owino",
+      "angle": "Reframing the feud around Obinna actively rejecting Gaucho's 'lone fan' caricature on Mwafreeka's broadcast, turning the critique around to assert that the real issue in the 2027 Nairobi race is the absence of a 'proper opponent' for Babu.",
+      "angle_type": "celebrity clapback and political narrative shift",
+      "opening": "Personality lead opening directly on Oga Obinna confronting Gaucho's podcast claims.",
+      "structure": "Personality hook -> Podcast origins on Mwafreeka's show -> Direct social media clapback and verbatim statement -> Political context of the 2027 Nairobi race -> Concrete factual close.",
+      "source": "https://www.ghafla.co.ke/oga-obinna-defends-babu-owinos-nairobi-governor-ambitions-dismisses-gauchos-claims/"
     }
   ],
   "style_history": [
