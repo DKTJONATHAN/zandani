@@ -495,7 +495,8 @@
     "29d9576cf64c6838f55aed9c4b00ac94e0032b1ac37d3b8469caa58eb00a5962",
     "05224909a576d07a128aade80675d566fb50759cc8d963f8b88f3a3aa46a6ed7",
     "77894d09e817a095dd94466c74acd4848aa1d238114f3244fee00ed1cdefe4bf",
-    "fa96bb26a5d53bcb8fffb00c907926daa0c7abbc9a9e1e54dd380dc9474eaead"
+    "fa96bb26a5d53bcb8fffb00c907926daa0c7abbc9a9e1e54dd380dc9474eaead",
+    "61b9c39d04c9bca3a7f4f724300c0c73ae552b003fa8c320e293477e13288306"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -993,17 +994,10 @@
     "https://www.ghafla.co.ke/oga-obinna-defends-babu-owinos-nairobi-governor-ambitions-dismisses-gauchos-claims/",
     "https://www.ghafla.co.ke/dj-joe-mfalme-reveals-dating-advice-he-plans-to-give-his-daughter-revisits-2021-radio-controversy/",
     "https://www.ghafla.co.ke/sacco-vs-chama-how-kenyans-can-build-wealth-through-collective-savings/",
-    "https://www.ghafla.co.ke/president-ruto-pledges-to-shield-kenyans-from-medical-poverty-highlights-100000-teacher-hires-to-ease-school-costs/"
+    "https://www.ghafla.co.ke/president-ruto-pledges-to-shield-kenyans-from-medical-poverty-highlights-100000-teacher-hires-to-ease-school-costs/",
+    "https://www.ghafla.co.ke/bahati-teases-another-major-announcement-promises-ksh100000-to-fans-who-guess-correctly/"
   ],
   "published_angles": [
-    {
-      "title": "Babu Owino Pairs Street Bravado With Elder Gravitas, Taps Kivutha Kibwana to Anchor Mwananchi Party",
-      "angle": "Examining the stylistic and generational alliance between fiery, pop-political heavyweight Babu Owino and soft-spoken legal veteran Kivutha Kibwana, framing Kibwana's patronage as an intentional injection of institutional gravitas and policy polish into Babu's personal 2027 political machinery.",
-      "angle_type": "political personality pairing and institutional branding",
-      "opening": "Personality lead directly contrasting Babu Owino's flamboyant political persona with his calculated pick of soft-spoken constitutional scholar Kivutha Kibwana as party patron.",
-      "structure": "Personality hook on contrasting styles -> Appointment announcement and Babu's public endorsement -> Kibwana's advisory remit and governance pedigree -> The Sept 10 Muungano rebranding backstory -> Operational stakes for Babu's 2027 Nairobi governor drive.",
-      "source": "https://www.ghafla.co.ke/babu-owino-names-ex-makueni-governor-kivutha-kibwana-as-mwananchi-party-patron/"
-    },
     {
       "title": "Charlene Ruto Weds Isaya Yunge in Mwanza as Top State Officials Pivot to Cross-Border \u2018Mashemeji\u2019",
       "angle": "Framing the Mwanza nuptials around the cross-border social shift, where senior Kenyan Cabinet members and lawmakers temporarily swapped formal state decorum for regional in-law ('mashemeji') camaraderie alongside President William Ruto in Tanzania.",
@@ -1795,6 +1789,14 @@
       "opening": "Personality lead opening directly on President William Ruto addressing lawmakers in Parliament about household economic strain.",
       "structure": "Presidential address hook -> Health debt relief and Sh34B settlement breakdown -> Education deficit background and BoM parent levies -> 100,000 teacher milestone and December recruitment plans -> Classrooms, labs, and strict warning on illegal school fees.",
       "source": "https://www.ghafla.co.ke/president-ruto-pledges-to-shield-kenyans-from-medical-poverty-highlights-100000-teacher-hires-to-ease-school-costs/"
+    },
+    {
+      "title": "Bahati Dangles Sh100,000 Bounty for Guessing His Next Move, Days After Confessing to \u2018Wedding\u2019 Decoy",
+      "angle": "Reframing the teaser through Bahati's calculated attention playbook\u2014monetizing fan speculation with direct cash incentives barely a week after confessing on television that his Sh10 million Argyle Grand 'wedding' ruse was engineered strictly to hijack national focus for his 2027 Mathare parliamentary run.",
+      "angle_type": "personality rollout strategy and calculated public spectacle",
+      "opening": "Personality lead focusing directly on Bahati deploying a Sh100,000 crowd-sourcing bounty to stoke fresh speculation on his feeds.",
+      "structure": "Personality lead -> The cash bounty and Friday 10 AM deadline -> The TV confession regarding the Argyle Grand wedding decoy -> Financial balance sheet of the hotel stunt (Sh10M vs Sh100M claims) -> 2027 Mathare political stakes against Anthony Oluoch -> Unresolved Friday reveal close",
+      "source": "https://www.ghafla.co.ke/bahati-teases-another-major-announcement-promises-ksh100000-to-fans-who-guess-correctly/"
     }
   ],
   "style_history": [
