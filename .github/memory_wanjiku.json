@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "6da7c612d3b763d353cedd92409af2b3ec9289c510385c1c79dfd464bf1cd50a",
     "1662f2d3841d43f99c2d06a5cb0dbcbd96f3517e460c9e027be72a326d8330d3",
     "6b56d722e35a9f031896eaea8162791bc939a3895c116b544afa06f6984bb805",
     "63173ea64932de96653d38b13797eb9d302987e72831e07ce7df57eab3ed9efa",
@@ -499,10 +498,10 @@
     "bddfaac37ab83309c6f727dd14f702a678d034d5c4937794bc958c28ee147cad",
     "fde876e52f6dc4c596fd80d9c37603840f1f8030e573fe760b6bf2f60f1b0f19",
     "54a6f126627510b3b8ec8d522e93d1109aa1269f14d8d899e068fbcd83f6b22e",
-    "76024db1e8cc3b5a06d718b68c2ac52c86ea7301c25dd3c6039d84ae1b5e4aae"
+    "76024db1e8cc3b5a06d718b68c2ac52c86ea7301c25dd3c6039d84ae1b5e4aae",
+    "a26c14d2415b2d0aaa35c66562bc8e7c648b04a0a7ceadbc9903eec3fa1747fe"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/karachuonyo-aspirant-steve-okute-hails-government-projects-calls-for-stronger-oversight/",
     "https://www.ghafla.co.ke/rigathi-gachagua-reaches-out-to-sifuna-babu-owino-from-us-amid-linda-mwananchi-rift/",
     "https://www.ghafla.co.ke/sifuna-meets-us-charge-daffaires-susan-burns-at-her-nairobi-residence/",
     "https://www.ghafla.co.ke/sifuna-dismisses-claims-of-linda-mwananchi-collapse-amid-internal-tensions/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/baba-talisha-loses-sight-in-one-eye-doctors-refer-him-to-india-for-treatment/",
     "https://www.ghafla.co.ke/ruto-reveals-ksh340-billion-infrastructure-fund-as-government-targets-ksh5-trillion-investment/",
     "https://www.ghafla.co.ke/ruto-says-affordable-housing-programme-has-created-over-1-1-million-jobs/",
-    "https://www.ghafla.co.ke/sifuna-reveals-how-linda-mwananchi-paybill-contributions-are-being-spent/"
+    "https://www.ghafla.co.ke/sifuna-reveals-how-linda-mwananchi-paybill-contributions-are-being-spent/",
+    "https://www.ghafla.co.ke/prince-indah-pens-heartfelt-international-mens-day-letter-to-son-on-struggles-of-manhood/"
   ],
   "published_angles": [
-    {
-      "title": "William Ruto Brands Rivals \u2018Conmen\u2019 in Nyamira, Triggers Instant Simba Arati Pushback on Tarmac",
-      "angle": "The high-voltage podium clash between Ruto's sharp 'conmen' tag on political rivals and Kisii Governor Simba Arati's direct, unvarnished pushback on neglected tarmac roads and tax equity right before the President.",
-      "angle_type": "podium sparring and political personality clash",
-      "opening": "Personality lead opening directly on President William Ruto using the church pulpit to drop the diplomatic filter and label his 2027 rivals 'conmen.'",
-      "structure": "Personality provocation hook -> Podium counter from Simba Arati on tarmac equity -> Breakdown of Ruto's specific jibes on roads, fertiliser, and brokers -> Local parliamentary lineup reactions (Osoro and Jhanda) -> Concrete presence and regional context close.",
-      "source": "https://www.ghafla.co.ke/do-not-entertain-conmen-president-william-ruto-challenges-opposition-to-show-2027-development-blueprint/"
-    },
     {
       "title": "Moses Wetang\u2019ula Deploys \u2018Doctor\u2019s Queue\u2019 Metaphor in Bungoma to Check Edwin Sifuna\u2019s 2027 Wave",
       "angle": "Framing Wetang\u2019ula's podium appeal through his colorful rhetorical defense mechanism\u2014deploying a hospital waiting-room metaphor and ancestral lineage ('shenyu ni shenyu') to check the rising popularity of Edwin Sifuna and the Linda Mwananchi youth movement.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Edwin Sifuna itemising the movement's creative payroll on live radio.",
       "structure": "Personality hook -> The Joshua housing breakdown and Lishenga's lintel-stage report -> DJ Spider and rally operations payroll -> Ruto's nightlife accusations and Sifuna's rebuttal -> Micro-donation transparency and US tour schedule close.",
       "source": "https://www.ghafla.co.ke/sifuna-reveals-how-linda-mwananchi-paybill-contributions-are-being-spent/"
+    },
+    {
+      "title": "Prince Indah Hands Son Unvarnished Creed on Men\u2019s Day: \u2018You Toast It Alone\u2019",
+      "angle": "Deconstructing the harsh, unvarnished creed of silent endurance Prince Indah passed down to his son\u2014warning him that manhood means toasting victories alone, facing unearned judgment, and swallowing tears behind closed doors.",
+      "angle_type": "personality creed vs traditional emotional stoicism",
+      "opening": "Personality lead opening directly on Prince Indah dispensing with celebratory fanfare to hand his son an unvarnished manifesto on silent survival.",
+      "structure": "Personality creed hook -> Breakdown of the internal battles and solitary wins -> The reality of public scrutiny and unfair critique -> Cultural expectation of tearless resilience -> Closing holiday dedication to men holding the line",
+      "source": "https://www.ghafla.co.ke/prince-indah-pens-heartfelt-international-mens-day-letter-to-son-on-struggles-of-manhood/"
     }
   ],
   "style_history": [
