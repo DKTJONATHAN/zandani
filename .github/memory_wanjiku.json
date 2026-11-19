@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "6b56d722e35a9f031896eaea8162791bc939a3895c116b544afa06f6984bb805",
     "63173ea64932de96653d38b13797eb9d302987e72831e07ce7df57eab3ed9efa",
     "d2389082bfaf5556900aace49435dcf96332357e3c1e9253aee6cfd893520986",
     "f3f31fdad13f0313cdddec1c13d163ff5969fd2fa3e60a25ec6e511f2b10bd84",
@@ -499,10 +498,10 @@
     "54a6f126627510b3b8ec8d522e93d1109aa1269f14d8d899e068fbcd83f6b22e",
     "76024db1e8cc3b5a06d718b68c2ac52c86ea7301c25dd3c6039d84ae1b5e4aae",
     "a26c14d2415b2d0aaa35c66562bc8e7c648b04a0a7ceadbc9903eec3fa1747fe",
-    "c7f7f1882ba833ad9267fcef588f96df16ffcd930bc6d66f2e282990c554db71"
+    "c7f7f1882ba833ad9267fcef588f96df16ffcd930bc6d66f2e282990c554db71",
+    "8c71487dbc888685ebe28f0aa384b007c6780b1c186a7da6e12f3608567b8865"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/sifuna-meets-us-charge-daffaires-susan-burns-at-her-nairobi-residence/",
     "https://www.ghafla.co.ke/sifuna-dismisses-claims-of-linda-mwananchi-collapse-amid-internal-tensions/",
     "https://www.ghafla.co.ke/controller-of-budget-orders-increased-spending-audits-ahead-of-2027-polls/",
     "https://www.ghafla.co.ke/uhuru-kenyatta-breaks-silence-on-government-attacks-says-life-is-becoming-too-dangerous/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/ruto-says-affordable-housing-programme-has-created-over-1-1-million-jobs/",
     "https://www.ghafla.co.ke/sifuna-reveals-how-linda-mwananchi-paybill-contributions-are-being-spent/",
     "https://www.ghafla.co.ke/prince-indah-pens-heartfelt-international-mens-day-letter-to-son-on-struggles-of-manhood/",
-    "https://www.ghafla.co.ke/dorita-macharia-had-planned-to-move-into-new-nyari-home-weeks-before-brutal-murder/"
+    "https://www.ghafla.co.ke/dorita-macharia-had-planned-to-move-into-new-nyari-home-weeks-before-brutal-murder/",
+    "https://www.ghafla.co.ke/edwin-sifuna-alleges-death-threats-forced-him-to-carry-home-cooked-food-and-avoid-public-events/"
   ],
   "published_angles": [
-    {
-      "title": "Wiper Invokes Kalonzo\u2019s \u2018Senior Counsel\u2019 Rank to Demand Respect From Sifuna\u2019s Rowdy Base",
-      "angle": "Framing the tension around courtroom pecking order and generational ego, zeroing in on Wiper elders invoking Kalonzo Musyoka's Senior Counsel status to demand Edwin Sifuna discipline his rowdy youth crowd after an embarrassing public disruption.",
-      "angle_type": "legal etiquette clash and political seniority",
-      "opening": "Personality lead opening directly on Kalonzo Musyoka's legal stature being deployed to reprimand Edwin Sifuna's lively street base.",
-      "structure": "Seniority hook -> Mombasa briefing scene and Sheikh Twaha's courtroom pecking-order lecture -> Linda Mwananchi rally embarrassment and Sifuna defense -> Chamia on Ruto non-alignment -> One-month coalition clock close.",
-      "source": "https://www.ghafla.co.ke/wiper-leaders-issue-ultimatum-to-opposition-back-kalonzo-or-face-him-at-ballot/"
-    },
     {
       "title": "Esther Passaris Recalls Making Sh1 Million at 24, Rejects Politics as a Cash Cow While Driving 2017 Car",
       "angle": "Framing the discussion around the contrast between Passaris' aggressive corporate sales earnings in her 20s and her self-imposed personal austerity in elective office, highlighted by her driving a 2017 car and warning youth off political cash grabs.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality and narrative hook",
       "structure": "Domestic pivot/move narrative -> The specific tea promise -> The funeral attendance gap (family presence) -> Current status of the criminal proceedings.",
       "source": "https://www.ghafla.co.ke/dorita-macharia-had-planned-to-move-into-new-nyari-home-weeks-before-brutal-murder/"
+    },
+    {
+      "title": "Sifuna Swaps Nightspots for Packed Meals After Security Warnings Force Social Blackout",
+      "angle": "Examining the drastic personal lifestyle lockdown\u2014how safety warnings forced a high-profile public figure out of stadium stands, nightspots, and public catering into self-contained home meal routines.",
+      "angle_type": "lifestyle retreat and personal security protocol",
+      "opening": "Personality lead focusing directly on Sifuna describing his daily routine shift from public entertainment venues to packed home meals.",
+      "structure": "Lifestyle shift lead -> Radio Citizen reveal on dining and stadium restrictions -> Lack of named actors or tabled evidence -> Regional context and Linda Mwananchi statement -> Concrete factual close on current security posture.",
+      "source": "https://www.ghafla.co.ke/edwin-sifuna-alleges-death-threats-forced-him-to-carry-home-cooked-food-and-avoid-public-events/"
     }
   ],
   "style_history": [
