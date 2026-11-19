@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ad748d71ab1d97d2e95f714ff53b7806554dee251ffda6b016be0bc0e011afbc",
     "6da7c612d3b763d353cedd92409af2b3ec9289c510385c1c79dfd464bf1cd50a",
     "1662f2d3841d43f99c2d06a5cb0dbcbd96f3517e460c9e027be72a326d8330d3",
     "6b56d722e35a9f031896eaea8162791bc939a3895c116b544afa06f6984bb805",
@@ -499,10 +498,10 @@
     "5cceec03e0a90224131588cff3c95f9532676053d38d480e90639eca01ab4185",
     "bddfaac37ab83309c6f727dd14f702a678d034d5c4937794bc958c28ee147cad",
     "fde876e52f6dc4c596fd80d9c37603840f1f8030e573fe760b6bf2f60f1b0f19",
-    "54a6f126627510b3b8ec8d522e93d1109aa1269f14d8d899e068fbcd83f6b22e"
+    "54a6f126627510b3b8ec8d522e93d1109aa1269f14d8d899e068fbcd83f6b22e",
+    "76024db1e8cc3b5a06d718b68c2ac52c86ea7301c25dd3c6039d84ae1b5e4aae"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/millicent-omanga-denies-new-state-appointment/",
     "https://www.ghafla.co.ke/karachuonyo-aspirant-steve-okute-hails-government-projects-calls-for-stronger-oversight/",
     "https://www.ghafla.co.ke/rigathi-gachagua-reaches-out-to-sifuna-babu-owino-from-us-amid-linda-mwananchi-rift/",
     "https://www.ghafla.co.ke/sifuna-meets-us-charge-daffaires-susan-burns-at-her-nairobi-residence/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/pattern-of-arson-and-intimidation-linda-mwananchi-movement-speaks-out-after-attack-leaves-official-in-icu/",
     "https://www.ghafla.co.ke/baba-talisha-loses-sight-in-one-eye-doctors-refer-him-to-india-for-treatment/",
     "https://www.ghafla.co.ke/ruto-reveals-ksh340-billion-infrastructure-fund-as-government-targets-ksh5-trillion-investment/",
-    "https://www.ghafla.co.ke/ruto-says-affordable-housing-programme-has-created-over-1-1-million-jobs/"
+    "https://www.ghafla.co.ke/ruto-says-affordable-housing-programme-has-created-over-1-1-million-jobs/",
+    "https://www.ghafla.co.ke/sifuna-reveals-how-linda-mwananchi-paybill-contributions-are-being-spent/"
   ],
   "published_angles": [
-    {
-      "title": "Fred Matiang\u2019i Calls Rigathi Gachagua \u2018Brother,\u2019 Validates DCP Title in Sister Mourning Message",
-      "angle": "Examining Matiang'i's deliberate title diplomacy\u2014framing the condolence not just as personal sympathy, but using his Jubilee Party leadership perch to formally recognize Gachagua as 'brother, colleague' and 'DCP Party Leader' across four generations of family bereavement.",
-      "angle_type": "partisan title diplomacy and personal recognition",
-      "opening": "Personality lead opening directly on Fred Matiang\u2019i deploying formal title etiquette and fraternal warmth in his public message to Rigathi Gachagua.",
-      "structure": "Personality protocol hook -> Breakdown of the 'brother and colleague' framing -> Deconstruction of the Jubilee-to-DCP institutional sign-off -> Generational tribute to Eunice Nyangari across four generations -> Concrete close on the family bereavement.",
-      "source": "https://www.ghafla.co.ke/a-mother-figure-and-pillar-of-strength-fred-matiangi-mourns-rigathi-gachaguas-eldest-sister/"
-    },
     {
       "title": "William Ruto Brands Rivals \u2018Conmen\u2019 in Nyamira, Triggers Instant Simba Arati Pushback on Tarmac",
       "angle": "The high-voltage podium clash between Ruto's sharp 'conmen' tag on political rivals and Kisii Governor Simba Arati's direct, unvarnished pushback on neglected tarmac roads and tax equity right before the President.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Fanuel Anyanga Temba stepping into the national spotlight during the presidential address.",
       "structure": "Personality lead on Fanuel Anyanga Temba -> Personal site stories of Moses Wasike and Diana Mwange -> KSh 61 billion Jua Kali reservation context -> Affordable Housing Programme scale and Boma Yangu metrics -> Concrete factual close on county developments",
       "source": "https://www.ghafla.co.ke/ruto-says-affordable-housing-programme-has-created-over-1-1-million-jobs/"
+    },
+    {
+      "title": "Sifuna Puts Rally Poet Joshua\u2019s House and DJ Spider on Payroll to Rebut Ruto\u2019s \u2018Partying\u2019 Jab",
+      "angle": "Reframing Sifuna's operational audit around the grassroots rally talent\u2014specifically putting rally poet Joshua's Kakamega stone house and resident deckmaster DJ Spider's gig fees directly onto the public ledger to counter the Head of State's nightlife accusations.",
+      "angle_type": "celebrity accountability and grassroots rally economics",
+      "opening": "Personality lead opening directly on Edwin Sifuna itemising the movement's creative payroll on live radio.",
+      "structure": "Personality hook -> The Joshua housing breakdown and Lishenga's lintel-stage report -> DJ Spider and rally operations payroll -> Ruto's nightlife accusations and Sifuna's rebuttal -> Micro-donation transparency and US tour schedule close.",
+      "source": "https://www.ghafla.co.ke/sifuna-reveals-how-linda-mwananchi-paybill-contributions-are-being-spent/"
     }
   ],
   "style_history": [
