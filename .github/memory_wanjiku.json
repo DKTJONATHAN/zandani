@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "63173ea64932de96653d38b13797eb9d302987e72831e07ce7df57eab3ed9efa",
     "d2389082bfaf5556900aace49435dcf96332357e3c1e9253aee6cfd893520986",
     "f3f31fdad13f0313cdddec1c13d163ff5969fd2fa3e60a25ec6e511f2b10bd84",
     "5311b53865472b3af506d7de77908d652e58065b708697ea448cfacb41e25b43",
@@ -499,10 +498,10 @@
     "76024db1e8cc3b5a06d718b68c2ac52c86ea7301c25dd3c6039d84ae1b5e4aae",
     "a26c14d2415b2d0aaa35c66562bc8e7c648b04a0a7ceadbc9903eec3fa1747fe",
     "c7f7f1882ba833ad9267fcef588f96df16ffcd930bc6d66f2e282990c554db71",
-    "8c71487dbc888685ebe28f0aa384b007c6780b1c186a7da6e12f3608567b8865"
+    "8c71487dbc888685ebe28f0aa384b007c6780b1c186a7da6e12f3608567b8865",
+    "d529429f5facd06c0f87c7782519064fda43821da559e81f6a6a985fe4b508c7"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/sifuna-dismisses-claims-of-linda-mwananchi-collapse-amid-internal-tensions/",
     "https://www.ghafla.co.ke/controller-of-budget-orders-increased-spending-audits-ahead-of-2027-polls/",
     "https://www.ghafla.co.ke/uhuru-kenyatta-breaks-silence-on-government-attacks-says-life-is-becoming-too-dangerous/",
     "https://www.ghafla.co.ke/villages-see-the-light-as-electricity-transforms-rural-kenya/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/sifuna-reveals-how-linda-mwananchi-paybill-contributions-are-being-spent/",
     "https://www.ghafla.co.ke/prince-indah-pens-heartfelt-international-mens-day-letter-to-son-on-struggles-of-manhood/",
     "https://www.ghafla.co.ke/dorita-macharia-had-planned-to-move-into-new-nyari-home-weeks-before-brutal-murder/",
-    "https://www.ghafla.co.ke/edwin-sifuna-alleges-death-threats-forced-him-to-carry-home-cooked-food-and-avoid-public-events/"
+    "https://www.ghafla.co.ke/edwin-sifuna-alleges-death-threats-forced-him-to-carry-home-cooked-food-and-avoid-public-events/",
+    "https://www.ghafla.co.ke/unga-prices-drop-by-ksh-78-under-kenya-kwanza-administration-president-ruto-tells-parliament/"
   ],
   "published_angles": [
-    {
-      "title": "Esther Passaris Recalls Making Sh1 Million at 24, Rejects Politics as a Cash Cow While Driving 2017 Car",
-      "angle": "Framing the discussion around the contrast between Passaris' aggressive corporate sales earnings in her 20s and her self-imposed personal austerity in elective office, highlighted by her driving a 2017 car and warning youth off political cash grabs.",
-      "angle_type": "personal finance, lifestyle, and political ethics",
-      "opening": "Personality lead opening directly on Passaris contrasting her early commercial success with her personal financial restraint in public office.",
-      "structure": "Personality hook -> Corporate sales start and KSh 1M milestone -> Sales ethics quotes -> 2017 vehicle reveal & political warning -> 62-year-old wellness routines -> Concrete closing context",
-      "source": "https://www.ghafla.co.ke/i-made-my-first-millionat-24-esther-passaris-shares-career-advice-faith-lessons-for-youth/"
-    },
     {
       "title": "Bahati Traces Full-Circle Journey from ABC Children\u2019s Home to Enrolling Son Morgan at Lenana School",
       "angle": "Focus on the full-circle institutional rescue chain: how Bahati's own roots at ABC Children's Home directly shaped his decision to adopt Morgan from the same Mathare facility, culminating in Morgan's progression to Lenana School.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead focusing directly on Sifuna describing his daily routine shift from public entertainment venues to packed home meals.",
       "structure": "Lifestyle shift lead -> Radio Citizen reveal on dining and stadium restrictions -> Lack of named actors or tabled evidence -> Regional context and Linda Mwananchi statement -> Concrete factual close on current security posture.",
       "source": "https://www.ghafla.co.ke/edwin-sifuna-alleges-death-threats-forced-him-to-carry-home-cooked-food-and-avoid-public-events/"
+    },
+    {
+      "title": "William Ruto Puts Sh78 Unga Price Drop on the Record in Fourth Address to Parliament",
+      "angle": "Examining Ruto\u2019s personal decision to anchor his national accountability address on the exact shelf price of Kenya\u2019s primary food staple, contrasting his 2022 baseline against the 2025 production surge.",
+      "angle_type": "personality scorecard and household economics",
+      "opening": "Personality lead focusing directly on William Ruto stepping before Parliament to lay out his specific price audit on a 2kg packet of unga.",
+      "structure": "Personality hook -> Verified retail shelf comparison (KSh 230 to KSh 152) -> Harvest data breakdown (44M to 71M bags) -> Input subsidy mechanism -> Strategic close on the dual producer-consumer balance.",
+      "source": "https://www.ghafla.co.ke/unga-prices-drop-by-ksh-78-under-kenya-kwanza-administration-president-ruto-tells-parliament/"
     }
   ],
   "style_history": [
