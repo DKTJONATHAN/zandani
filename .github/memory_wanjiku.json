@@ -498,7 +498,8 @@
     "fa96bb26a5d53bcb8fffb00c907926daa0c7abbc9a9e1e54dd380dc9474eaead",
     "61b9c39d04c9bca3a7f4f724300c0c73ae552b003fa8c320e293477e13288306",
     "dc7aad56033f364dc21fdfcc94140d30478c90f85aeee1fb4b3c9f69fa05c1e5",
-    "ecb8ded1bb4ac08008dbb9cd1f783b4468a0d694e2109eef2099588521df9e1b"
+    "ecb8ded1bb4ac08008dbb9cd1f783b4468a0d694e2109eef2099588521df9e1b",
+    "d0b2b2c096afd9e7f6daf000d5c980b784ea5da26c425d3a2469d6fab352d9ed"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -999,17 +1000,10 @@
     "https://www.ghafla.co.ke/president-ruto-pledges-to-shield-kenyans-from-medical-poverty-highlights-100000-teacher-hires-to-ease-school-costs/",
     "https://www.ghafla.co.ke/bahati-teases-another-major-announcement-promises-ksh100000-to-fans-who-guess-correctly/",
     "https://www.ghafla.co.ke/prezzo-responds-to-claims-that-his-luxury-rolex-watch-is-fake/",
-    "https://www.ghafla.co.ke/zimbabweans-question-missing-black-box-in-fatal-helicopter-crash-as-report-sparks-outrage/"
+    "https://www.ghafla.co.ke/zimbabweans-question-missing-black-box-in-fatal-helicopter-crash-as-report-sparks-outrage/",
+    "https://www.ghafla.co.ke/state-department-cautions-against-using-vulnerable-minors-for-online-fundraising-amid-eric-omondis-recent-drives/"
   ],
   "published_angles": [
-    {
-      "title": "Raymond Omollo Cites Inter-Ethnic Marriages to Dismantle Nairobi Tribal Ownership Claims",
-      "angle": "Focusing on Omollo's social and cultural argument\u2014using the reality of inter-ethnic marriages and blended households as everyday proof that political claims of tribal ownership over Nairobi are detached from modern family life.",
-      "angle_type": "cultural cohesion and social demography",
-      "opening": "Personality lead opening directly on Raymond Omollo using modern Kenyan household dynamics to challenge tribal entitlement.",
-      "structure": "Personality hook -> Forum setting and domestic bonds thesis -> Listing of ethnic diversity and intermarriage dynamics -> Grassroots directive to women coordinators -> Closing emphasis on non-exclusive civic identity.",
-      "source": "https://www.ghafla.co.ke/nairobi-belongs-to-all-of-us-ps-raymond-omollo-calls-for-unity-and-inclusivity/"
-    },
     {
       "title": "Justin Muturi Calls Out Junet Mohamed by Name After Chaotic Stoning Cuts Short Migori Tour",
       "angle": "Focusing on the sharp personal blame game ignited in the aftermath, led by Justin Muturi explicitly naming Suna East MP Junet Mohamed as the sponsor of the chaos on his home turf, alongside Kalonzo Musyoka targeting the police's tear gas tactics.",
@@ -1801,6 +1795,14 @@
       "opening": "Personality lead opening directly on Wicknell Chivayo and the specific structural paradox in the official report.",
       "structure": "Personality hook -> Detailed flight path and weather divergence -> The structural finding vs missing CVR paradox -> Pilot profile and maintenance history -> Unresolved technical close",
       "source": "https://www.ghafla.co.ke/zimbabweans-question-missing-black-box-in-fatal-helicopter-crash-as-report-sparks-outrage/"
+    },
+    {
+      "title": "Eric Omondi\u2019s Raw Visual Fundraising Model Faces Strict Government Privacy Wall",
+      "angle": "Examining the collision between raw digital storytelling economics\u2014such as the KSh 10.2 million raised for 17-year-old Bryson Makokha\u2014and the strict new legal limits that ban broadcasting minors' private struggles even with parental consent.",
+      "angle_type": "charity economics vs regulatory compliance",
+      "opening": "Personality-led focus on Eric Omondi's signature fundraising model facing a regulatory wall.",
+      "structure": "Philanthropic visual model hook -> The KSh 10.2M Bryson Makokha campaign benchmark -> The State Department's parental consent loophole closure -> The privacy compliance shift for content creators.",
+      "source": "https://www.ghafla.co.ke/state-department-cautions-against-using-vulnerable-minors-for-online-fundraising-amid-eric-omondis-recent-drives/"
     }
   ],
   "style_history": [
