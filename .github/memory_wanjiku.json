@@ -497,7 +497,8 @@
     "77894d09e817a095dd94466c74acd4848aa1d238114f3244fee00ed1cdefe4bf",
     "fa96bb26a5d53bcb8fffb00c907926daa0c7abbc9a9e1e54dd380dc9474eaead",
     "61b9c39d04c9bca3a7f4f724300c0c73ae552b003fa8c320e293477e13288306",
-    "dc7aad56033f364dc21fdfcc94140d30478c90f85aeee1fb4b3c9f69fa05c1e5"
+    "dc7aad56033f364dc21fdfcc94140d30478c90f85aeee1fb4b3c9f69fa05c1e5",
+    "ecb8ded1bb4ac08008dbb9cd1f783b4468a0d694e2109eef2099588521df9e1b"
   ],
   "urls": [
     "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
@@ -997,17 +998,10 @@
     "https://www.ghafla.co.ke/sacco-vs-chama-how-kenyans-can-build-wealth-through-collective-savings/",
     "https://www.ghafla.co.ke/president-ruto-pledges-to-shield-kenyans-from-medical-poverty-highlights-100000-teacher-hires-to-ease-school-costs/",
     "https://www.ghafla.co.ke/bahati-teases-another-major-announcement-promises-ksh100000-to-fans-who-guess-correctly/",
-    "https://www.ghafla.co.ke/prezzo-responds-to-claims-that-his-luxury-rolex-watch-is-fake/"
+    "https://www.ghafla.co.ke/prezzo-responds-to-claims-that-his-luxury-rolex-watch-is-fake/",
+    "https://www.ghafla.co.ke/zimbabweans-question-missing-black-box-in-fatal-helicopter-crash-as-report-sparks-outrage/"
   ],
   "published_angles": [
-    {
-      "title": "Fred Matiang\u2019i Reaches Out to Rigathi Gachagua Following Death of Reriani Family Matriarch Eunice Nyangari",
-      "angle": "Framing the moment around the personal executive outreach between Matiang'i and Gachagua, contrasting their high-stakes political histories with a unified public acknowledgment of Eunice Nyangari's seven-year tenure as the Reriani family matriarch in Naro Moru.",
-      "angle_type": "high-profile solidarity and matriarchal tribute",
-      "opening": "Personality lead opening directly on Fred Matiang'i extending a message of personal solidarity to Rigathi Gachagua.",
-      "structure": "Personality lead -> Matiang'i message and party framing -> Eunice Nyangari's background and Naro Moru matriarchal legacy -> Gachagua's family announcement details -> Historical family lineage context.",
-      "source": "https://www.ghafla.co.ke/matiangi-sends-condolences-to-gachagua-following-death-of-elder-sister/"
-    },
     {
       "title": "Raymond Omollo Cites Inter-Ethnic Marriages to Dismantle Nairobi Tribal Ownership Claims",
       "angle": "Focusing on Omollo's social and cultural argument\u2014using the reality of inter-ethnic marriages and blended households as everyday proof that political claims of tribal ownership over Nairobi are detached from modern family life.",
@@ -1799,6 +1793,14 @@
       "opening": "Personality lead focusing directly on Prezzo pulling out a diamond tester to counter internet slang.",
       "structure": "Diamond tester hook -> The 'Mabati' social media slang context -> Technical breakdown of Rolex authentication -> Aftermarket modification reality -> Concrete factual close.",
       "source": "https://www.ghafla.co.ke/prezzo-responds-to-claims-that-his-luxury-rolex-watch-is-fake/"
+    },
+    {
+      "title": "Wicknell Chivayo Crash Findings Expose Mystery Over Missing Voice Recorder",
+      "angle": "Focusing on the technical contradiction inside the official 14-page findings: the report establishes that Wicknell Chivayo's Bell 430 remained fully intact right up to ground impact, making the failure to recover its cockpit voice recorder an unresolved aviation mystery.",
+      "angle_type": "technical contradiction and celebrity aviation audit",
+      "opening": "Personality lead opening directly on Wicknell Chivayo and the specific structural paradox in the official report.",
+      "structure": "Personality hook -> Detailed flight path and weather divergence -> The structural finding vs missing CVR paradox -> Pilot profile and maintenance history -> Unresolved technical close",
+      "source": "https://www.ghafla.co.ke/zimbabweans-question-missing-black-box-in-fatal-helicopter-crash-as-report-sparks-outrage/"
     }
   ],
   "style_history": [
