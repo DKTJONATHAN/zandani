@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "5f5b8e241e2e25322dafb1053b1f078f251c8967fb7e6d6eb45a21ef96220fb3",
     "ad748d71ab1d97d2e95f714ff53b7806554dee251ffda6b016be0bc0e011afbc",
     "6da7c612d3b763d353cedd92409af2b3ec9289c510385c1c79dfd464bf1cd50a",
     "1662f2d3841d43f99c2d06a5cb0dbcbd96f3517e460c9e027be72a326d8330d3",
@@ -499,10 +498,10 @@
     "d0b2b2c096afd9e7f6daf000d5c980b784ea5da26c425d3a2469d6fab352d9ed",
     "5cceec03e0a90224131588cff3c95f9532676053d38d480e90639eca01ab4185",
     "bddfaac37ab83309c6f727dd14f702a678d034d5c4937794bc958c28ee147cad",
-    "fde876e52f6dc4c596fd80d9c37603840f1f8030e573fe760b6bf2f60f1b0f19"
+    "fde876e52f6dc4c596fd80d9c37603840f1f8030e573fe760b6bf2f60f1b0f19",
+    "54a6f126627510b3b8ec8d522e93d1109aa1269f14d8d899e068fbcd83f6b22e"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-western-kenya-on-september-19/",
     "https://www.ghafla.co.ke/millicent-omanga-denies-new-state-appointment/",
     "https://www.ghafla.co.ke/karachuonyo-aspirant-steve-okute-hails-government-projects-calls-for-stronger-oversight/",
     "https://www.ghafla.co.ke/rigathi-gachagua-reaches-out-to-sifuna-babu-owino-from-us-amid-linda-mwananchi-rift/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/state-department-cautions-against-using-vulnerable-minors-for-online-fundraising-amid-eric-omondis-recent-drives/",
     "https://www.ghafla.co.ke/pattern-of-arson-and-intimidation-linda-mwananchi-movement-speaks-out-after-attack-leaves-official-in-icu/",
     "https://www.ghafla.co.ke/baba-talisha-loses-sight-in-one-eye-doctors-refer-him-to-india-for-treatment/",
-    "https://www.ghafla.co.ke/ruto-reveals-ksh340-billion-infrastructure-fund-as-government-targets-ksh5-trillion-investment/"
+    "https://www.ghafla.co.ke/ruto-reveals-ksh340-billion-infrastructure-fund-as-government-targets-ksh5-trillion-investment/",
+    "https://www.ghafla.co.ke/ruto-says-affordable-housing-programme-has-created-over-1-1-million-jobs/"
   ],
   "published_angles": [
-    {
-      "title": "Rigathi Gachagua Taps Gen Z Defense Lawyers in Thika Drive for 2027 Election Observers",
-      "angle": "Focusing on Gachagua's calculated pitch to the legal fraternity\u2014leveraging their goodwill from defending Gen Z protesters to recruit them as nationwide volunteer polling station observers for 2027.",
-      "angle_type": "legal recruitment and electoral strategy",
-      "opening": "Personality lead opening directly on Rigathi Gachagua pivoting a Kiambu legal-cultural forum into an election monitoring campaign pitch.",
-      "structure": "Personality recruitment hook -> Thika gathering context and cross-party attendees -> Defense of regional assemblies -> Specific call to action for legal observers and Gen Z protest context -> Sagana State Lodge pledge close.",
-      "source": "https://www.ghafla.co.ke/we-make-no-apologies-rigathi-gachagua-rejects-tribalism-accusations-over-mt-kenya-cultural-gatherings/"
-    },
     {
       "title": "Fred Matiang\u2019i Calls Rigathi Gachagua \u2018Brother,\u2019 Validates DCP Title in Sister Mourning Message",
       "angle": "Examining Matiang'i's deliberate title diplomacy\u2014framing the condolence not just as personal sympathy, but using his Jubilee Party leadership perch to formally recognize Gachagua as 'brother, colleague' and 'DCP Party Leader' across four generations of family bereavement.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead focusing on President William Ruto stepping to the podium with concrete numbers on workers' savings to sell his multi-trillion infrastructure playbook.",
       "structure": "Personality pitch hook -> NSSF 17% dividend and growth metrics flex -> The Sh340B asset sale seed capital -> Mobilising domestic pension capital for the Sh5T gap -> Long-term sovereign fund and governance close",
       "source": "https://www.ghafla.co.ke/ruto-reveals-ksh340-billion-infrastructure-fund-as-government-targets-ksh5-trillion-investment/"
+    },
+    {
+      "title": "Eldoret Artisan Fanuel Temba Scores KSh 30M Windfall as Ruto Spotlight Turns Local Hustlers into National Headliners",
+      "angle": "Reframing the State of the Nation address around the breakout personal turnarounds of local artisans and workers named by Ruto\u2014specifically Eldoret artisan Fanuel Anyanga Temba's KSh 30 million subcontract windfall and machine expansion.",
+      "angle_type": "personality spotlight and financial transformation",
+      "opening": "Personality lead opening directly on Fanuel Anyanga Temba stepping into the national spotlight during the presidential address.",
+      "structure": "Personality lead on Fanuel Anyanga Temba -> Personal site stories of Moses Wasike and Diana Mwange -> KSh 61 billion Jua Kali reservation context -> Affordable Housing Programme scale and Boma Yangu metrics -> Concrete factual close on county developments",
+      "source": "https://www.ghafla.co.ke/ruto-says-affordable-housing-programme-has-created-over-1-1-million-jobs/"
     }
   ],
   "style_history": [
