@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "2a04ccc9cda8ba08383c3b256308e7a0a0cc847898417e6d72a1613532bc07a9",
     "5bca425de4238a95b09178a1b9b8c5a7d307589a8fcca339548e8a4b336630ed",
     "ec7016c4ba268f1034a3150185275fcd66fce7f82dfbca79b17105fab59d52de",
     "5f5b8e241e2e25322dafb1053b1f078f251c8967fb7e6d6eb45a21ef96220fb3",
@@ -499,10 +498,10 @@
     "61b9c39d04c9bca3a7f4f724300c0c73ae552b003fa8c320e293477e13288306",
     "dc7aad56033f364dc21fdfcc94140d30478c90f85aeee1fb4b3c9f69fa05c1e5",
     "ecb8ded1bb4ac08008dbb9cd1f783b4468a0d694e2109eef2099588521df9e1b",
-    "d0b2b2c096afd9e7f6daf000d5c980b784ea5da26c425d3a2469d6fab352d9ed"
+    "d0b2b2c096afd9e7f6daf000d5c980b784ea5da26c425d3a2469d6fab352d9ed",
+    "5cceec03e0a90224131588cff3c95f9532676053d38d480e90639eca01ab4185"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/wp-content/uploads/2026/07/cropped-ghaflalogo.png",
     "https://www.ghafla.co.ke/",
     "https://ghafla.co.ke/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-western-kenya-on-september-19/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/bahati-teases-another-major-announcement-promises-ksh100000-to-fans-who-guess-correctly/",
     "https://www.ghafla.co.ke/prezzo-responds-to-claims-that-his-luxury-rolex-watch-is-fake/",
     "https://www.ghafla.co.ke/zimbabweans-question-missing-black-box-in-fatal-helicopter-crash-as-report-sparks-outrage/",
-    "https://www.ghafla.co.ke/state-department-cautions-against-using-vulnerable-minors-for-online-fundraising-amid-eric-omondis-recent-drives/"
+    "https://www.ghafla.co.ke/state-department-cautions-against-using-vulnerable-minors-for-online-fundraising-amid-eric-omondis-recent-drives/",
+    "https://www.ghafla.co.ke/pattern-of-arson-and-intimidation-linda-mwananchi-movement-speaks-out-after-attack-leaves-official-in-icu/"
   ],
   "published_angles": [
-    {
-      "title": "Justin Muturi Calls Out Junet Mohamed by Name After Chaotic Stoning Cuts Short Migori Tour",
-      "angle": "Focusing on the sharp personal blame game ignited in the aftermath, led by Justin Muturi explicitly naming Suna East MP Junet Mohamed as the sponsor of the chaos on his home turf, alongside Kalonzo Musyoka targeting the police's tear gas tactics.",
-      "angle_type": "political feud and personal accountability",
-      "opening": "Personality lead opening directly on Justin Muturi refusing diplomatic political code and pointing a direct finger at Suna East MP Junet Mohamed.",
-      "structure": "Personality lead -> Direct allegations against Junet Mohamed -> Scene reconstruction in Migori town -> Kalonzo Musyoka's confrontation with police tactics -> Muturi's defiance and next steps.",
-      "source": "https://www.ghafla.co.ke/kalonzo-muturi-blame-ruto-allies-after-opposition-convoy-attacked-in-migori/"
-    },
     {
       "title": "Musalia Mudavadi Serves Western Voters a Hard Truth on Budget Committee Chairs and the \u201830 Percent\u2019 Road Fund",
       "angle": "Framing Mudavadi's remarks through the mechanics of parliamentary committee power\u2014exposing how holding only a watchdog committee (PAC) strips Western Kenya of direct budget and infrastructure bargaining power in Parliament.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality-led focus on Eric Omondi's signature fundraising model facing a regulatory wall.",
       "structure": "Philanthropic visual model hook -> The KSh 10.2M Bryson Makokha campaign benchmark -> The State Department's parental consent loophole closure -> The privacy compliance shift for content creators.",
       "source": "https://www.ghafla.co.ke/state-department-cautions-against-using-vulnerable-minors-for-online-fundraising-amid-eric-omondis-recent-drives/"
+    },
+    {
+      "title": "George Natembeya\u2019s Camp in Crosshairs as Communications Aide Amos Masika Lands in ICU After Brutal Home Attack",
+      "angle": "Examining the violence as a targeted campaign against George Natembeya's personal public relations and administrative circle, highlighted by the brutal doorstep attack on his communications aide Amos Boaz Masika.",
+      "angle_type": "personality circle under siege and personal security fallout",
+      "opening": "Personality lead opening directly on the physical assault on Governor George Natembeya's communications operative Amos Boaz Masika.",
+      "structure": "Personality lead on Masika's hospitalization -> Graphic details of the doorstep raid and torched vehicle -> Broader offensive against Natembeya's inner circle and allies -> Institutional demands on IG Douglas Kanja -> National backdrop of Ruto's tolerance speech.",
+      "source": "https://www.ghafla.co.ke/pattern-of-arson-and-intimidation-linda-mwananchi-movement-speaks-out-after-attack-leaves-official-in-icu/"
     }
   ],
   "style_history": [
