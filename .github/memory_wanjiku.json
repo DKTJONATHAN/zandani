@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "e77b2d9463cd0a091f40c19cec4d3f58a9560e4556598407c827ef58d9490acc",
     "dffd3cdfa26a255c33feb03468a5a07cc3689820b2d9074b6744d8e543a51fe1",
     "a6b3b62386875176b3117cd02375eb25acae00013492fca40443999c43f4fed9",
     "54af774825077a44df312b057a03a79025fe51c93110f119dc3086a7ad796c61",
@@ -499,10 +498,10 @@
     "5ae57f7d503fddb2515ce1dc584ca2b9678c813623696d174527693a27053103",
     "c6216a02ed1679a9fbaf729a0c5ca5fb9dd72ebefc1ed540702128d14d810e29",
     "3beaa4c31df37f7bdfbc7b1ba0f143e8edd03f0ab96d702f409352c1489bbb6c",
-    "53cf3b3455e1d6f22b0ac5a25c043d8d8a5161b6d8b054c3de94496ada6bec3b"
+    "53cf3b3455e1d6f22b0ac5a25c043d8d8a5161b6d8b054c3de94496ada6bec3b",
+    "e0fce67ff87049b1338e0ba13bc27fe685acf0559a125d67a0385d8ac10a5b66"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/trevor-ombija-claims-gachagua-sought-his-firing-following-heated-interview/",
     "https://www.ghafla.co.ke/gachagua-accuses-ruto-of-seeking-to-divide-linda-mwananchi/",
     "https://www.ghafla.co.ke/how-the-g-to-g-petroleum-framework-eased-us-dollar-scarcity-and-stabilized-kenyas-economy/",
     "https://www.ghafla.co.ke/osotsi-says-linda-mwananchi-will-unveil-new-party-within-two-weeks/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/tep-founder-moves-to-tribunal-to-challenge-rebranding-as-linda-mwananchi-movement/",
     "https://www.ghafla.co.ke/akothee-complains-about-hotel-restrictions-after-daughter-rue-baby-checks-her-into-la-hotel/",
     "https://www.ghafla.co.ke/eric-omondi-announces-free-concert-to-celebrate-georgina-njengas-recovery/",
-    "https://www.ghafla.co.ke/charlene-rutos-husband-isaya-yunge-shares-five-principles-for-success-and-personal-growth/"
+    "https://www.ghafla.co.ke/charlene-rutos-husband-isaya-yunge-shares-five-principles-for-success-and-personal-growth/",
+    "https://www.ghafla.co.ke/bahati-reflects-on-fatherhood-as-he-introduces-son-morgan-to-music-industry/"
   ],
   "published_angles": [
-    {
-      "title": "George Ruto Seals Charlene\u2019s Mwanza Nuptials with \u2018Herd Was Paid\u2019 Cow Emoji Banter",
-      "angle": "Examining George Ruto's playful transactional framing of the union\u2014contrasting the solemnity of State House diplomacy with sibling dowry banter linking the August Kilgoris Koito to the Mwanza altar.",
-      "angle_type": "sibling humor and customary dowry banter",
-      "opening": "Personality lead opening directly on George Ruto breaking family formality on social media with a blunt dowry settlement sign-off.",
-      "structure": "Personality hook -> Caption breakdown and customary Koito context -> Mwanza visual reception and wardrobe details -> Public banter and sibling dynamic close.",
-      "source": "https://www.ghafla.co.ke/sonko-set-to-hand-over-shanzu-nightclub-to-gen-z-entrepreneur-brian-mungai-in-ksh160-million-deal-2/"
-    },
     {
       "title": "President Ruto to Launch Revamped Kamukunji Grounds Featuring Recording Studio and Amphitheatre",
       "angle": "Focusing on the creative infrastructure and youth cultural pivot\u2014highlighting how the historic political rally ground is being re-engineered with sound recording studios, a performance amphitheatre, and a boxing ring ahead of President Ruto's launch.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead focusing directly on Isaya Yunge issuing a public charter against living in silence or in anyone's shadow.",
       "structure": "Personality lead -> The 'caged bird' stance and anti-intimidation warning -> Video archive breakdown (farming to Buckingham Palace) -> Detailed 5 biblical principles -> Faith over human reliance -> Concrete close",
       "source": "https://www.ghafla.co.ke/charlene-rutos-husband-isaya-yunge-shares-five-principles-for-success-and-personal-growth/"
+    },
+    {
+      "title": "Bahati Hands Over Fanbase to Son Morgan in Music Exit for Mathare Parliamentary Run",
+      "angle": "Reframing the music debut around the calculated family baton pass\u2014Bahati using his political exit from recording to turn over his YouTube ecosystem and fanbase directly to his teenage son.",
+      "angle_type": "career handoff and political exit strategy",
+      "opening": "Personality lead focusing directly on Kevin Bahati stepping away from the recording studio for Mathare politics and handing his audience to his son.",
+      "structure": "Personality lead on political exit and audience transfer -> The 'Zoza (Nikifika 18)' premiere details -> Strategic delay and fatherhood reflection over 15 years -> Family entertainment footprint close.",
+      "source": "https://www.ghafla.co.ke/bahati-reflects-on-fatherhood-as-he-introduces-son-morgan-to-music-industry/"
     }
   ],
   "style_history": [
