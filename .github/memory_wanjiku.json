@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "19a7809e9dc40b22c7fc36b8186b729863fb1ffbe963ace51271f0bb3d5c9593",
     "db099b76b7939f3321239cf1acaed20b8fb22564925d51646bb29be2a4ac5675",
     "6ea63d01587a864b7768036c5a1ee7fd946fbb72a6e9538135b7ad20d193fc57",
     "92169a7cc156a39bf3dba872f7bae7a6dda8e80351e09253ae547d4c2b2012ef",
@@ -499,10 +498,10 @@
     "17693e374b3faeeb77d05c23b0e1c5e3623ae441070e1ebeac94edbd550ba1fb",
     "dad87dd00e8ae5cf6d4c3cc985d0297d10de7042d672422ad35e579772c4d295",
     "33397012426a967c01c6944e836e7bb4e0a00bb6b5a74679372c8e35b76ee882",
-    "08f3a96d90c534db1739ea8d0448c497aab54024bc56de0b211224c734b18d49"
+    "08f3a96d90c534db1739ea8d0448c497aab54024bc56de0b211224c734b18d49",
+    "0343f40e9f73d9c65469f7d00cc39c44ac0162baaa3c93daf0973aafa6665d31"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/linus-kaikai-rejects-trevor-ombijas-claim-that-gachagua-sought-his-removal-from-citizen-tv/",
     "https://www.ghafla.co.ke/terence-creative-publicly-asks-wife-milly-chebby-for-second-child/",
     "https://www.ghafla.co.ke/forex-trader-sammy-boy-involved-in-nairobi-road-accident-with-boda-boda-rider/",
     "https://www.ghafla.co.ke/mwai-kibakis-grandson-sean-andrew-admits-avoiding-to-learn-kiswahili/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/betty-bayos-family-locked-out-of-late-singers-mugumo-home-during-first-anniversary-memorial/",
     "https://www.ghafla.co.ke/nimepata-emergency-ya-haraka-pastor-kanyari-apologizes-to-betty-bayos-family-for-missing-memorial-service/",
     "https://www.ghafla.co.ke/kindiki-challenges-courts-to-clear-over-341000-backlog-cases-despite-103-clearance-rate/",
-    "https://www.ghafla.co.ke/ken-wa-maria-rushed-to-mlolongo-hospital-after-his-lexus-collides-with-lorry-near-sabaki/"
+    "https://www.ghafla.co.ke/ken-wa-maria-rushed-to-mlolongo-hospital-after-his-lexus-collides-with-lorry-near-sabaki/",
+    "https://www.ghafla.co.ke/love-after-heartbreak-austin-muigai-hints-at-new-romance-months-after-six-month-depression-battle/"
   ],
   "published_angles": [
-    {
-      "title": "Ronald Karauri Shelves Lone-Ranger Script, Bets on UDA Machine for Nairobi Governor Race",
-      "angle": "Examining the institutional calculation behind Karauri's shift\u2014specifically how the celebrity politician is abandoning the solitary outsider playbook to secure County Assembly leverage and MCA grassroots networks.",
-      "angle_type": "celebrity political strategy and grassroots party alignment",
-      "opening": "Personality lead opening directly on Ronald Karauri shelving the lone-ranger independent formula to anchor his Nairobi gubernatorial ambitions inside UDA's party apparatus.",
-      "structure": "Personality hook -> The independent run dilemma vs. UDA machine -> Assembly arithmetic and the MCA network reality -> Translating solo celebrity appeal into organized voting blocs -> Forward-looking race dynamics close.",
-      "source": "https://www.ghafla.co.ke/why-ronald-karauri-chose-uda-instead-of-running-as-an-independent-candidate-for-nairobi-governor/"
-    },
     {
       "title": "Bahati Details Same-Day Chase Rule After Diana Marua Walkouts in 10-Year Union",
       "angle": "Focusing on Bahati's strict domestic conflict protocol\u2014specifically his self-enforced 'same-day pursuit' rule\u2014and his broader philosophical argument that active physical confrontation and walkouts are essential metrics of an honest long-term marriage.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Ken Wa Maria escaping major harm after his Lexus struck an Isuzu lorry near Signature Mall.",
       "structure": "Crash sequence and exact locus -> Police commander's verified report -> Promoter update & hospital admission -> Fan and political reactions -> Career hit catalog context.",
       "source": "https://www.ghafla.co.ke/ken-wa-maria-rushed-to-mlolongo-hospital-after-his-lexus-collides-with-lorry-near-sabaki/"
+    },
+    {
+      "title": "Austin Muigai Swaps Open Heartbreak Venting for Emoji-Shielded Tease in Romantic Reset",
+      "angle": "Focusing on Muigai's shift from open, unvarnished public venting about his raw breakup struggle to a highly guarded, emoji-shielded privacy strategy in his new relationship phase.",
+      "angle_type": "lifestyle boundary and personal privacy shift",
+      "opening": "Personality lead opening directly on Austin Muigai setting new visual boundaries as he steps back into the romantic spotlight.",
+      "structure": "Personality lead on guarded romance -> The umbrella photo details -> Contrast with the August 2026 Obinna interview -> The classmate proximity struggle -> Concrete close on protected privacy in his comeback era.",
+      "source": "https://www.ghafla.co.ke/love-after-heartbreak-austin-muigai-hints-at-new-romance-months-after-six-month-depression-battle/"
     }
   ],
   "style_history": [
