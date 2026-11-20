@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f3f31fdad13f0313cdddec1c13d163ff5969fd2fa3e60a25ec6e511f2b10bd84",
     "5311b53865472b3af506d7de77908d652e58065b708697ea448cfacb41e25b43",
     "dadc90002f0f5ad47dd4d8ef607ba54ea20ae632b2717e12547b42501e0c60cb",
     "e77b2d9463cd0a091f40c19cec4d3f58a9560e4556598407c827ef58d9490acc",
@@ -499,10 +498,10 @@
     "c7f7f1882ba833ad9267fcef588f96df16ffcd930bc6d66f2e282990c554db71",
     "8c71487dbc888685ebe28f0aa384b007c6780b1c186a7da6e12f3608567b8865",
     "d529429f5facd06c0f87c7782519064fda43821da559e81f6a6a985fe4b508c7",
-    "5ae57f7d503fddb2515ce1dc584ca2b9678c813623696d174527693a27053103"
+    "5ae57f7d503fddb2515ce1dc584ca2b9678c813623696d174527693a27053103",
+    "c6216a02ed1679a9fbaf729a0c5ca5fb9dd72ebefc1ed540702128d14d810e29"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/uhuru-kenyatta-breaks-silence-on-government-attacks-says-life-is-becoming-too-dangerous/",
     "https://www.ghafla.co.ke/villages-see-the-light-as-electricity-transforms-rural-kenya/",
     "https://www.ghafla.co.ke/over-270000-newborns-registered-in-two-months-as-e-birth-system-gains-nationwide-momentum/",
     "https://www.ghafla.co.ke/trevor-ombija-claims-gachagua-sought-his-firing-following-heated-interview/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/dorita-macharia-had-planned-to-move-into-new-nyari-home-weeks-before-brutal-murder/",
     "https://www.ghafla.co.ke/edwin-sifuna-alleges-death-threats-forced-him-to-carry-home-cooked-food-and-avoid-public-events/",
     "https://www.ghafla.co.ke/unga-prices-drop-by-ksh-78-under-kenya-kwanza-administration-president-ruto-tells-parliament/",
-    "https://www.ghafla.co.ke/tep-founder-moves-to-tribunal-to-challenge-rebranding-as-linda-mwananchi-movement/"
+    "https://www.ghafla.co.ke/tep-founder-moves-to-tribunal-to-challenge-rebranding-as-linda-mwananchi-movement/",
+    "https://www.ghafla.co.ke/akothee-complains-about-hotel-restrictions-after-daughter-rue-baby-checks-her-into-la-hotel/"
   ],
   "published_angles": [
-    {
-      "title": "Charlene Ruto Confesses She Expected a Kenyan Husband Before Mwanza Union with Isaya Yunge",
-      "angle": "Focusing on Charlene's candid admission regarding geographic preconceptions\u2014how she anticipated a domestic Kenyan marriage before her courtship expanded into a multi-stage cross-border union spanning Kilgoris, Mwanza, and Ngorongoro.",
-      "angle_type": "cross-border marital expectations and personal testimony",
-      "opening": "Personality lead opening on Charlene Ruto admitting her initial assumption of marrying a Kenyan during her Ngorongoro church testimony.",
-      "structure": "Personality confession hook -> Ngorongoro testimony and direct quotes -> Mwanza community acknowledgment and Isaya Yunge's AIC tribute -> White wedding recap at Malaika Beach Resort -> Kilgoris Koito background and regional union close.",
-      "source": "https://www.ghafla.co.ke/charlene-ruto-gets-emotional-as-she-admits-praying-for-a-husband-for-years-after-her-wedding/"
-    },
     {
       "title": "Konshens Plays Nairobi with Tour Fakeout, Stakes December Return on High School Uniform Nostalgia",
       "angle": "Focusing on Konshens' deliberate fakeout regarding December venue scarcity before pivoting into a themed high-school detention reunion concept designed to tap into Kenyan nostalgic youth culture.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Sifuna brushing off legal opposition online while his political vehicle faces a freeze petition.",
       "structure": "Personality hook -> The social media dismissal vs actual December 1 hearing date -> The 26-day registration-to-rebrand timeline -> Khamala's behind-closed-doors allegations via Danstan Omari -> Sifuna's State House finger-pointing and next procedural step.",
       "source": "https://www.ghafla.co.ke/tep-founder-moves-to-tribunal-to-challenge-rebranding-as-linda-mwananchi-movement/"
+    },
+    {
+      "title": "Akothee Slams Daughter Rue Baby Over LA Hotel Lockdown, Tables Six Demands and USD 5,000 Bailout",
+      "angle": "Focusing on the detailed mechanics of the mother-daughter role reversal\u2014specifically the six-point ultimatum that transformed an American holiday lockdown into a USD 5,000 shopping dispute and hotel separation demand.",
+      "angle_type": "celebrity role-reversal and mock-custodial dispute",
+      "opening": "Personality lead opening directly on Esther Akoth finding herself quarantined in a Los Angeles hotel under security rules set by her own daughter.",
+      "structure": "Personality lead on the LA lockdown -> The front-desk standoff and dead landline -> The itemised six-point counter-charter -> The USD 5,000 stress relief demand -> Cultural role-reversal reflection",
+      "source": "https://www.ghafla.co.ke/akothee-complains-about-hotel-restrictions-after-daughter-rue-baby-checks-her-into-la-hotel/"
     }
   ],
   "style_history": [
