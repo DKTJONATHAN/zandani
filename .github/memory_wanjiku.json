@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "54af774825077a44df312b057a03a79025fe51c93110f119dc3086a7ad796c61",
     "2092b61fce61b369b9aa3ac7452a05859248ffe70a61a4e12ae098d53889c221",
     "19a7809e9dc40b22c7fc36b8186b729863fb1ffbe963ace51271f0bb3d5c9593",
     "db099b76b7939f3321239cf1acaed20b8fb22564925d51646bb29be2a4ac5675",
@@ -499,10 +498,10 @@
     "53cf3b3455e1d6f22b0ac5a25c043d8d8a5161b6d8b054c3de94496ada6bec3b",
     "e0fce67ff87049b1338e0ba13bc27fe685acf0559a125d67a0385d8ac10a5b66",
     "17693e374b3faeeb77d05c23b0e1c5e3623ae441070e1ebeac94edbd550ba1fb",
-    "dad87dd00e8ae5cf6d4c3cc985d0297d10de7042d672422ad35e579772c4d295"
+    "dad87dd00e8ae5cf6d4c3cc985d0297d10de7042d672422ad35e579772c4d295",
+    "33397012426a967c01c6944e836e7bb4e0a00bb6b5a74679372c8e35b76ee882"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/osotsi-says-linda-mwananchi-will-unveil-new-party-within-two-weeks/",
     "https://www.ghafla.co.ke/babu-owino-unveils-the-mwananchi-party-as-political-vehicle-ahead-of-2027/",
     "https://www.ghafla.co.ke/linus-kaikai-rejects-trevor-ombijas-claim-that-gachagua-sought-his-removal-from-citizen-tv/",
     "https://www.ghafla.co.ke/terence-creative-publicly-asks-wife-milly-chebby-for-second-child/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/charlene-rutos-husband-isaya-yunge-shares-five-principles-for-success-and-personal-growth/",
     "https://www.ghafla.co.ke/bahati-reflects-on-fatherhood-as-he-introduces-son-morgan-to-music-industry/",
     "https://www.ghafla.co.ke/betty-bayos-family-locked-out-of-late-singers-mugumo-home-during-first-anniversary-memorial/",
-    "https://www.ghafla.co.ke/nimepata-emergency-ya-haraka-pastor-kanyari-apologizes-to-betty-bayos-family-for-missing-memorial-service/"
+    "https://www.ghafla.co.ke/nimepata-emergency-ya-haraka-pastor-kanyari-apologizes-to-betty-bayos-family-for-missing-memorial-service/",
+    "https://www.ghafla.co.ke/kindiki-challenges-courts-to-clear-over-341000-backlog-cases-despite-103-clearance-rate/"
   ],
   "published_angles": [
-    {
-      "title": "Anatomy at the Graveyard: Creator Turns Lang\u2019ata Cemetery Bone Discovery into Viral \u2018Biology Lesson\u2019",
-      "angle": "Focusing on the creator's deadpan anatomical walkthrough framing of the exposed remains, contrasting her structured 'biology practical' narrative style with the underlying civic reality of surface-exposed remains at Nairobi's primary public graveyard.",
-      "angle_type": "creator walkthrough and cemetery grounds exposure",
-      "opening": "Personality lead opening directly on the woman behind the camera broadcasting an impromptu skeletal inventory at Lang'ata Cemetery.",
-      "structure": "Creator hook -> Monologue & bone inventory breakdown -> Online 'biology practical' banter & startup jokes -> Context on exposed remains & municipal cemetery realities.",
-      "source": "https://www.ghafla.co.ke/video-of-women-handling-suspected-human-bones-at-langata-cemetery-sparks-reactions/"
-    },
     {
       "title": "Busia Backyard Innovators Turn Poultry Waste and Fish Ponds into Zero-Cost Farming Loop",
       "angle": "The practical, hands-on micro-economics and zero-waste mechanics being applied by small-scale women farmers in Busia rather than a blanket institutional policy summary.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Pastor Victor Kanyari resorting to a Facebook apology to explain his empty seat at Betty Bayo's first memorial service.",
       "structure": "Personality lead -> Exact statement and emergency claim -> Dagoretti court custody ruling context -> Friction with widower Tash and the structured handover -> Alienation of Bayo's US-based mother -> Concrete close on pending transition",
       "source": "https://www.ghafla.co.ke/nimepata-emergency-ya-haraka-pastor-kanyari-apologizes-to-betty-bayos-family-for-missing-memorial-service/"
+    },
+    {
+      "title": "Kithure Kindiki Secures Supreme Court Titles and Sh30.4B Budget, Then Calls Out 341,000 Stalled Cases",
+      "angle": "Framing Kithure Kindiki's appearance around the sharp contrast between major Executive deliveries\u2014including long-overdue land ownership for the Supreme Court and a Sh30.4 billion budget\u2014and his direct challenge to judges over 37,757 cases lingering past the five-year mark.",
+      "angle_type": "personality challenge and institutional accountability",
+      "opening": "Personality lead opening directly on Kithure Kindiki taking the Nairobi podium with Supreme Court title deeds before delivering a strict reality check on courtroom delays.",
+      "structure": "Person -> Supreme Court title deeds hook -> Financial & resource allocation breakdown -> Operational metrics & clearance rates -> Backlog analysis & unresolved case close",
+      "source": "https://www.ghafla.co.ke/kindiki-challenges-courts-to-clear-over-341000-backlog-cases-despite-103-clearance-rate/"
     }
   ],
   "style_history": [
