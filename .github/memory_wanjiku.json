@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "6ea63d01587a864b7768036c5a1ee7fd946fbb72a6e9538135b7ad20d193fc57",
     "92169a7cc156a39bf3dba872f7bae7a6dda8e80351e09253ae547d4c2b2012ef",
     "4ea7cd60e2d0b88b8ea2bf0b3d55b61fddc414a4721c0d9235c74a2a88ad72f9",
     "9df8c97b6d5fb8d9d58bc68b02ad881afc627607927659c04f314c509089d5d6",
@@ -499,10 +498,10 @@
     "33397012426a967c01c6944e836e7bb4e0a00bb6b5a74679372c8e35b76ee882",
     "08f3a96d90c534db1739ea8d0448c497aab54024bc56de0b211224c734b18d49",
     "0343f40e9f73d9c65469f7d00cc39c44ac0162baaa3c93daf0973aafa6665d31",
-    "63efa7c7d372c2bb7cda3068d67953a31f73ebdcff08adc9cfa3eab9b68357ad"
+    "63efa7c7d372c2bb7cda3068d67953a31f73ebdcff08adc9cfa3eab9b68357ad",
+    "1ddb910d9ac45dab930b0efde012cab8dae2b0e61dd8e9dac9f94121d8189ec7"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/forex-trader-sammy-boy-involved-in-nairobi-road-accident-with-boda-boda-rider/",
     "https://www.ghafla.co.ke/mwai-kibakis-grandson-sean-andrew-admits-avoiding-to-learn-kiswahili/",
     "https://www.ghafla.co.ke/nadia-mukami-and-arrow-bwoy-set-to-release-new-song-after-break-up/",
     "https://www.ghafla.co.ke/court-denies-bail-to-8-utumishi-girls-academy-students-facing-16-counts-of-murder/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/kindiki-challenges-courts-to-clear-over-341000-backlog-cases-despite-103-clearance-rate/",
     "https://www.ghafla.co.ke/ken-wa-maria-rushed-to-mlolongo-hospital-after-his-lexus-collides-with-lorry-near-sabaki/",
     "https://www.ghafla.co.ke/love-after-heartbreak-austin-muigai-hints-at-new-romance-months-after-six-month-depression-battle/",
-    "https://www.ghafla.co.ke/edwin-sifuna-shares-emotional-story-of-humble-beginnings-before-risingto-national-politics/"
+    "https://www.ghafla.co.ke/edwin-sifuna-shares-emotional-story-of-humble-beginnings-before-risingto-national-politics/",
+    "https://www.ghafla.co.ke/si-pombe-i-was-born-a-natural-high-millie-odhiambo-sets-record-straight-on-her-energetic-persona/"
   ],
   "published_angles": [
-    {
-      "title": "Pastor Ng\u2019ang\u2019a Rejects Mackenzie\u2019s 200-Year Term, Demands Death Sentence for \u2018Agent of Satan\u2019",
-      "angle": "Framing Ng'ang'a's reaction around his sharp critique of cult hypocrisies\u2014demanding the gallows for leaders who starve followers while staying fed\u2014alongside his own boast of age-based immunity to legal threats.",
-      "angle_type": "pulpit critique and celebrity posture",
-      "opening": "Personality lead opening directly on Pastor James Ng'ang'a rejecting the court's 200-year sentence in favor of execution.",
-      "structure": "Personality hook -> Gallows demand & hypocrisy critique -> False prophet warning & age immunity boast -> High Court sentencing facts -> Family appeal & son's rebellion close",
-      "source": "https://www.ghafla.co.ke/pastor-james-nganga-reacts-to-mackenzies-200-year-jail-sentence-calls-for-harsher-punishment/"
-    },
     {
       "title": "Bishop Erick Mwangi Demands Immediate Child Handover to Kanyari, Challenging Court\u2019s Transition Plan",
       "angle": "Contrasting the preacher's demand for an immediate hand-over against the active legal reality established by Dagoretti Law Courts, which explicitly ordered the children to stay with Tash while a Kiambu Children Officer drafts a transition plan.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Sifuna introducing his former corporate benefactor at Linda Mwananchi headquarters.",
       "structure": "Person/Hook -> 2010 Roysambu rent crisis -> Rugby pitch encounter & recruitment guidance -> Matatu-to-car transformation quote -> Political HQ tribute close.",
       "source": "https://www.ghafla.co.ke/edwin-sifuna-shares-emotional-story-of-humble-beginnings-before-risingto-national-politics/"
+    },
+    {
+      "title": "Millie Odhiambo Credits Fanta Orange for Energy, Calls Out Parliament's '75 Percent Deceit' Culture",
+      "angle": "Framing her lifelong sobriety and soda-fueled exuberance against her blunt assessment that 75 percent of political survival depends on navigating deceit, establishing her raw directness as a sober anomaly in Parliament.",
+      "angle_type": "lifestyle reveal vs institutional culture friction",
+      "opening": "Personality lead opening directly on Millie Odhiambo tackling long-held public assumptions about her energetic parliamentary persona.",
+      "structure": "Personality lead -> Lifelong sobriety reveal and Fanta Orange confession -> Misconceptions vs natural temperament -> The 75 percent political dishonesty audit and 'swimming upstream' friction -> Concrete close on her unpolished directness.",
+      "source": "https://www.ghafla.co.ke/si-pombe-i-was-born-a-natural-high-millie-odhiambo-sets-record-straight-on-her-energetic-persona/"
     }
   ],
   "style_history": [
