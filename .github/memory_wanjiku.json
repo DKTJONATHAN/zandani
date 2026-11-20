@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "dadc90002f0f5ad47dd4d8ef607ba54ea20ae632b2717e12547b42501e0c60cb",
     "e77b2d9463cd0a091f40c19cec4d3f58a9560e4556598407c827ef58d9490acc",
     "dffd3cdfa26a255c33feb03468a5a07cc3689820b2d9074b6744d8e543a51fe1",
     "a6b3b62386875176b3117cd02375eb25acae00013492fca40443999c43f4fed9",
@@ -499,10 +498,10 @@
     "d529429f5facd06c0f87c7782519064fda43821da559e81f6a6a985fe4b508c7",
     "5ae57f7d503fddb2515ce1dc584ca2b9678c813623696d174527693a27053103",
     "c6216a02ed1679a9fbaf729a0c5ca5fb9dd72ebefc1ed540702128d14d810e29",
-    "3beaa4c31df37f7bdfbc7b1ba0f143e8edd03f0ab96d702f409352c1489bbb6c"
+    "3beaa4c31df37f7bdfbc7b1ba0f143e8edd03f0ab96d702f409352c1489bbb6c",
+    "53cf3b3455e1d6f22b0ac5a25c043d8d8a5161b6d8b054c3de94496ada6bec3b"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/over-270000-newborns-registered-in-two-months-as-e-birth-system-gains-nationwide-momentum/",
     "https://www.ghafla.co.ke/trevor-ombija-claims-gachagua-sought-his-firing-following-heated-interview/",
     "https://www.ghafla.co.ke/gachagua-accuses-ruto-of-seeking-to-divide-linda-mwananchi/",
     "https://www.ghafla.co.ke/how-the-g-to-g-petroleum-framework-eased-us-dollar-scarcity-and-stabilized-kenyas-economy/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/unga-prices-drop-by-ksh-78-under-kenya-kwanza-administration-president-ruto-tells-parliament/",
     "https://www.ghafla.co.ke/tep-founder-moves-to-tribunal-to-challenge-rebranding-as-linda-mwananchi-movement/",
     "https://www.ghafla.co.ke/akothee-complains-about-hotel-restrictions-after-daughter-rue-baby-checks-her-into-la-hotel/",
-    "https://www.ghafla.co.ke/eric-omondi-announces-free-concert-to-celebrate-georgina-njengas-recovery/"
+    "https://www.ghafla.co.ke/eric-omondi-announces-free-concert-to-celebrate-georgina-njengas-recovery/",
+    "https://www.ghafla.co.ke/charlene-rutos-husband-isaya-yunge-shares-five-principles-for-success-and-personal-growth/"
   ],
   "published_angles": [
-    {
-      "title": "Pastor Kanyari Halts Sunday Service Over Biker Shorts, Pledges KSh 5,000 Wardrobe Fix",
-      "angle": "The theatrical intersection of pulpit modesty policing and spontaneous philanthropy\u2014examining Kanyari's routine of putting a worshipper on physical display before turning the dress code rebuke into an on-the-spot KSh 5,000 wardrobe grant.",
-      "angle_type": "pulpit spectacle and celebrity church theatrics",
-      "opening": "Personality lead opening directly on Pastor Victor Kanyari pausing his Sunday service to conduct a live dress-code inspection from the altar.",
-      "structure": "Pulpit intervention hook -> The swimming costume comparison and wardrobe interrogation -> The 360-degree display demand -> The KSh 5,000 cash pledge and self-styled benevolence close.",
-      "source": "https://www.ghafla.co.ke/pastor-kanyari-offers-female-congregant-ksh5000-after-criticising-her-church-outfit/"
-    },
     {
       "title": "George Ruto Seals Charlene\u2019s Mwanza Nuptials with \u2018Herd Was Paid\u2019 Cow Emoji Banter",
       "angle": "Examining George Ruto's playful transactional framing of the union\u2014contrasting the solemnity of State House diplomacy with sibling dowry banter linking the August Kilgoris Koito to the Mwanza altar.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead focusing directly on Eric Omondi sweeping aside ticket booths and private hospital visits to summon fans to Carnivore grounds.",
       "structure": "Personality lead on the open-gate Carnivore takeover -> The visceral quote on almost losing Georgina and public memory -> The operational setup (free admission, 9 am to 5 pm schedule, undisclosed artist roster) -> The transition of creator health milestones from private convalescence to public mass rallies -> Ground reality for Georgina's social following.",
       "source": "https://www.ghafla.co.ke/eric-omondi-announces-free-concert-to-celebrate-georgina-njengas-recovery/"
+    },
+    {
+      "title": "Isaya Yunge Warns Against 'Living Like a Shadow' as He Tables Five-Point Life Charter",
+      "angle": "Reframing Yunge's post around his explicit warning against 'living like a shadow' or accepting a 'caged bird' existence\u2014anchoring his five biblical principles and Buckingham Palace throwback in a manifesto for personal autonomy.",
+      "angle_type": "presidential in-law manifesto and identity assertion",
+      "opening": "Personality lead focusing directly on Isaya Yunge issuing a public charter against living in silence or in anyone's shadow.",
+      "structure": "Personality lead -> The 'caged bird' stance and anti-intimidation warning -> Video archive breakdown (farming to Buckingham Palace) -> Detailed 5 biblical principles -> Faith over human reliance -> Concrete close",
+      "source": "https://www.ghafla.co.ke/charlene-rutos-husband-isaya-yunge-shares-five-principles-for-success-and-personal-growth/"
     }
   ],
   "style_history": [
