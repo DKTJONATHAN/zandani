@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "2092b61fce61b369b9aa3ac7452a05859248ffe70a61a4e12ae098d53889c221",
     "19a7809e9dc40b22c7fc36b8186b729863fb1ffbe963ace51271f0bb3d5c9593",
     "db099b76b7939f3321239cf1acaed20b8fb22564925d51646bb29be2a4ac5675",
     "6ea63d01587a864b7768036c5a1ee7fd946fbb72a6e9538135b7ad20d193fc57",
@@ -499,10 +498,10 @@
     "e0fce67ff87049b1338e0ba13bc27fe685acf0559a125d67a0385d8ac10a5b66",
     "17693e374b3faeeb77d05c23b0e1c5e3623ae441070e1ebeac94edbd550ba1fb",
     "dad87dd00e8ae5cf6d4c3cc985d0297d10de7042d672422ad35e579772c4d295",
-    "33397012426a967c01c6944e836e7bb4e0a00bb6b5a74679372c8e35b76ee882"
+    "33397012426a967c01c6944e836e7bb4e0a00bb6b5a74679372c8e35b76ee882",
+    "08f3a96d90c534db1739ea8d0448c497aab54024bc56de0b211224c734b18d49"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/babu-owino-unveils-the-mwananchi-party-as-political-vehicle-ahead-of-2027/",
     "https://www.ghafla.co.ke/linus-kaikai-rejects-trevor-ombijas-claim-that-gachagua-sought-his-removal-from-citizen-tv/",
     "https://www.ghafla.co.ke/terence-creative-publicly-asks-wife-milly-chebby-for-second-child/",
     "https://www.ghafla.co.ke/forex-trader-sammy-boy-involved-in-nairobi-road-accident-with-boda-boda-rider/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/bahati-reflects-on-fatherhood-as-he-introduces-son-morgan-to-music-industry/",
     "https://www.ghafla.co.ke/betty-bayos-family-locked-out-of-late-singers-mugumo-home-during-first-anniversary-memorial/",
     "https://www.ghafla.co.ke/nimepata-emergency-ya-haraka-pastor-kanyari-apologizes-to-betty-bayos-family-for-missing-memorial-service/",
-    "https://www.ghafla.co.ke/kindiki-challenges-courts-to-clear-over-341000-backlog-cases-despite-103-clearance-rate/"
+    "https://www.ghafla.co.ke/kindiki-challenges-courts-to-clear-over-341000-backlog-cases-despite-103-clearance-rate/",
+    "https://www.ghafla.co.ke/ken-wa-maria-rushed-to-mlolongo-hospital-after-his-lexus-collides-with-lorry-near-sabaki/"
   ],
   "published_angles": [
-    {
-      "title": "Busia Backyard Innovators Turn Poultry Waste and Fish Ponds into Zero-Cost Farming Loop",
-      "angle": "The practical, hands-on micro-economics and zero-waste mechanics being applied by small-scale women farmers in Busia rather than a blanket institutional policy summary.",
-      "angle_type": "practical micro-economics and small-scale farming innovation",
-      "opening": "Personality and place-based hook introducing Miriam Ojakol and Rebecca Odalo's practical backyard setup in Busia County.",
-      "structure": "Farmer profile hook -> The zero-waste biological mechanics (manure to fish ponds, nutrient water to vegetables) -> Institutional backing (LBDA, Wezesha programme numbers, and Kisumu egg production) -> Concrete logistical close on feed production and market access.",
-      "source": "https://www.ghafla.co.ke/government-promotes-circular-farming-to-boost-food-security-and-create-jobs/"
-    },
     {
       "title": "Ronald Karauri Shelves Lone-Ranger Script, Bets on UDA Machine for Nairobi Governor Race",
       "angle": "Examining the institutional calculation behind Karauri's shift\u2014specifically how the celebrity politician is abandoning the solitary outsider playbook to secure County Assembly leverage and MCA grassroots networks.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Kithure Kindiki taking the Nairobi podium with Supreme Court title deeds before delivering a strict reality check on courtroom delays.",
       "structure": "Person -> Supreme Court title deeds hook -> Financial & resource allocation breakdown -> Operational metrics & clearance rates -> Backlog analysis & unresolved case close",
       "source": "https://www.ghafla.co.ke/kindiki-challenges-courts-to-clear-over-341000-backlog-cases-despite-103-clearance-rate/"
+    },
+    {
+      "title": "Ken Wa Maria Escapes Serious Harm After Dawn Highway Collision Near Sabaki",
+      "angle": "Focusing specifically on the highway crash mechanics disclosed by Athi River police\u2014a dawn lane-change impact near Signature Mall\u2014and how immediate medical clearance at Mlolongo defused online concern.",
+      "angle_type": "early-morning highway collision mechanics and rapid medical clearance",
+      "opening": "Personality lead opening directly on Ken Wa Maria escaping major harm after his Lexus struck an Isuzu lorry near Signature Mall.",
+      "structure": "Crash sequence and exact locus -> Police commander's verified report -> Promoter update & hospital admission -> Fan and political reactions -> Career hit catalog context.",
+      "source": "https://www.ghafla.co.ke/ken-wa-maria-rushed-to-mlolongo-hospital-after-his-lexus-collides-with-lorry-near-sabaki/"
     }
   ],
   "style_history": [
