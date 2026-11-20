@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a6b3b62386875176b3117cd02375eb25acae00013492fca40443999c43f4fed9",
     "54af774825077a44df312b057a03a79025fe51c93110f119dc3086a7ad796c61",
     "2092b61fce61b369b9aa3ac7452a05859248ffe70a61a4e12ae098d53889c221",
     "19a7809e9dc40b22c7fc36b8186b729863fb1ffbe963ace51271f0bb3d5c9593",
@@ -499,10 +498,10 @@
     "3beaa4c31df37f7bdfbc7b1ba0f143e8edd03f0ab96d702f409352c1489bbb6c",
     "53cf3b3455e1d6f22b0ac5a25c043d8d8a5161b6d8b054c3de94496ada6bec3b",
     "e0fce67ff87049b1338e0ba13bc27fe685acf0559a125d67a0385d8ac10a5b66",
-    "17693e374b3faeeb77d05c23b0e1c5e3623ae441070e1ebeac94edbd550ba1fb"
+    "17693e374b3faeeb77d05c23b0e1c5e3623ae441070e1ebeac94edbd550ba1fb",
+    "dad87dd00e8ae5cf6d4c3cc985d0297d10de7042d672422ad35e579772c4d295"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/how-the-g-to-g-petroleum-framework-eased-us-dollar-scarcity-and-stabilized-kenyas-economy/",
     "https://www.ghafla.co.ke/osotsi-says-linda-mwananchi-will-unveil-new-party-within-two-weeks/",
     "https://www.ghafla.co.ke/babu-owino-unveils-the-mwananchi-party-as-political-vehicle-ahead-of-2027/",
     "https://www.ghafla.co.ke/linus-kaikai-rejects-trevor-ombijas-claim-that-gachagua-sought-his-removal-from-citizen-tv/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/eric-omondi-announces-free-concert-to-celebrate-georgina-njengas-recovery/",
     "https://www.ghafla.co.ke/charlene-rutos-husband-isaya-yunge-shares-five-principles-for-success-and-personal-growth/",
     "https://www.ghafla.co.ke/bahati-reflects-on-fatherhood-as-he-introduces-son-morgan-to-music-industry/",
-    "https://www.ghafla.co.ke/betty-bayos-family-locked-out-of-late-singers-mugumo-home-during-first-anniversary-memorial/"
+    "https://www.ghafla.co.ke/betty-bayos-family-locked-out-of-late-singers-mugumo-home-during-first-anniversary-memorial/",
+    "https://www.ghafla.co.ke/nimepata-emergency-ya-haraka-pastor-kanyari-apologizes-to-betty-bayos-family-for-missing-memorial-service/"
   ],
   "published_angles": [
-    {
-      "title": "William Ruto Set to Unveil 7.27-Acre Kamukunji Park with Eastlands Boxing Ring and Twin Football Pitches",
-      "angle": "Focusing specifically on President Ruto's upcoming launch of the 7.27-acre site through its new youth sports infrastructure\u2014including a boxing ring, twin football pitches, and basketball courts\u2014integrated alongside heavy flood protection retaining walls built under the Nairobi Rivers Regeneration push.",
-      "angle_type": "youth sports infrastructure and Eastlands urban makeover",
-      "opening": "Personality lead opening directly on President William Ruto preparing to commission the 95 percent complete facility.",
-      "structure": "Presidential hook -> Youth sports infrastructure breakdown -> Climate engineering and retaining wall integration -> Heritage balance and empowerment hub -> Final readiness close.",
-      "source": "https://www.ghafla.co.ke/democracy-landmark-redefined-historic-kamukunji-grounds-transformation-95-complete-ahead-of-presidential-unveiling/"
-    },
     {
       "title": "Anatomy at the Graveyard: Creator Turns Lang\u2019ata Cemetery Bone Discovery into Viral \u2018Biology Lesson\u2019",
       "angle": "Focusing on the creator's deadpan anatomical walkthrough framing of the exposed remains, contrasting her structured 'biology practical' narrative style with the underlying civic reality of surface-exposed remains at Nairobi's primary public graveyard.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on the late gospel star's first memorial milestone colliding with locked gates.",
       "structure": "Person -> Procedural preparation hook -> Physical lockout details -> Relative accounts -> Context and unresolved close",
       "source": "https://www.ghafla.co.ke/betty-bayos-family-locked-out-of-late-singers-mugumo-home-during-first-anniversary-memorial/"
+    },
+    {
+      "title": "Kanyari Cites Sudden Emergency to Explain Empty Seat at Betty Bayo\u2019s First Memorial Service",
+      "angle": "Framing Kanyari's hasty online apology against the high-stakes custodial transition: skipping the remembrance ceremony just weeks after securing legal custody of Sky and Danny at Dagoretti Magistrate's Court, where court-ordered transition terms still leave the children under widower Tash's roof amidst deep family rifts.",
+      "angle_type": "custodial victory vs ceremonial absence",
+      "opening": "Personality lead opening directly on Pastor Victor Kanyari resorting to a Facebook apology to explain his empty seat at Betty Bayo's first memorial service.",
+      "structure": "Personality lead -> Exact statement and emergency claim -> Dagoretti court custody ruling context -> Friction with widower Tash and the structured handover -> Alienation of Bayo's US-based mother -> Concrete close on pending transition",
+      "source": "https://www.ghafla.co.ke/nimepata-emergency-ya-haraka-pastor-kanyari-apologizes-to-betty-bayos-family-for-missing-memorial-service/"
     }
   ],
   "style_history": [
