@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "dffd3cdfa26a255c33feb03468a5a07cc3689820b2d9074b6744d8e543a51fe1",
     "a6b3b62386875176b3117cd02375eb25acae00013492fca40443999c43f4fed9",
     "54af774825077a44df312b057a03a79025fe51c93110f119dc3086a7ad796c61",
     "2092b61fce61b369b9aa3ac7452a05859248ffe70a61a4e12ae098d53889c221",
@@ -499,10 +498,10 @@
     "c6216a02ed1679a9fbaf729a0c5ca5fb9dd72ebefc1ed540702128d14d810e29",
     "3beaa4c31df37f7bdfbc7b1ba0f143e8edd03f0ab96d702f409352c1489bbb6c",
     "53cf3b3455e1d6f22b0ac5a25c043d8d8a5161b6d8b054c3de94496ada6bec3b",
-    "e0fce67ff87049b1338e0ba13bc27fe685acf0559a125d67a0385d8ac10a5b66"
+    "e0fce67ff87049b1338e0ba13bc27fe685acf0559a125d67a0385d8ac10a5b66",
+    "17693e374b3faeeb77d05c23b0e1c5e3623ae441070e1ebeac94edbd550ba1fb"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/gachagua-accuses-ruto-of-seeking-to-divide-linda-mwananchi/",
     "https://www.ghafla.co.ke/how-the-g-to-g-petroleum-framework-eased-us-dollar-scarcity-and-stabilized-kenyas-economy/",
     "https://www.ghafla.co.ke/osotsi-says-linda-mwananchi-will-unveil-new-party-within-two-weeks/",
     "https://www.ghafla.co.ke/babu-owino-unveils-the-mwananchi-party-as-political-vehicle-ahead-of-2027/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/akothee-complains-about-hotel-restrictions-after-daughter-rue-baby-checks-her-into-la-hotel/",
     "https://www.ghafla.co.ke/eric-omondi-announces-free-concert-to-celebrate-georgina-njengas-recovery/",
     "https://www.ghafla.co.ke/charlene-rutos-husband-isaya-yunge-shares-five-principles-for-success-and-personal-growth/",
-    "https://www.ghafla.co.ke/bahati-reflects-on-fatherhood-as-he-introduces-son-morgan-to-music-industry/"
+    "https://www.ghafla.co.ke/bahati-reflects-on-fatherhood-as-he-introduces-son-morgan-to-music-industry/",
+    "https://www.ghafla.co.ke/betty-bayos-family-locked-out-of-late-singers-mugumo-home-during-first-anniversary-memorial/"
   ],
   "published_angles": [
-    {
-      "title": "President Ruto to Launch Revamped Kamukunji Grounds Featuring Recording Studio and Amphitheatre",
-      "angle": "Focusing on the creative infrastructure and youth cultural pivot\u2014highlighting how the historic political rally ground is being re-engineered with sound recording studios, a performance amphitheatre, and a boxing ring ahead of President Ruto's launch.",
-      "angle_type": "creative infrastructure and cultural site makeover",
-      "opening": "Personality lead opening on President William Ruto preparing to commission the new park facilities, contrasting its political history with built-in music studios and performance stages.",
-      "structure": "Presidential opening hook -> Creative and performance facility breakdown (studio, amphitheatre, boxing ring) -> Athletic and tech details -> Historical Saba Saba context and national heritage retention -> River regeneration context and concrete opening readiness close.",
-      "source": "https://www.ghafla.co.ke/kamukunji-grounds-gets-a-major-makeover-inside-nairobis-new-recreation-park/"
-    },
     {
       "title": "William Ruto Set to Unveil 7.27-Acre Kamukunji Park with Eastlands Boxing Ring and Twin Football Pitches",
       "angle": "Focusing specifically on President Ruto's upcoming launch of the 7.27-acre site through its new youth sports infrastructure\u2014including a boxing ring, twin football pitches, and basketball courts\u2014integrated alongside heavy flood protection retaining walls built under the Nairobi Rivers Regeneration push.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead focusing directly on Kevin Bahati stepping away from the recording studio for Mathare politics and handing his audience to his son.",
       "structure": "Personality lead on political exit and audience transfer -> The 'Zoza (Nikifika 18)' premiere details -> Strategic delay and fatherhood reflection over 15 years -> Family entertainment footprint close.",
       "source": "https://www.ghafla.co.ke/bahati-reflects-on-fatherhood-as-he-introduces-son-morgan-to-music-industry/"
+    },
+    {
+      "title": "Betty Bayo\u2019s Family Turned Away at Locked Mugumo Gates Despite OCS Clearance for First Memorial",
+      "angle": "Framing the standoff around the paper trail contrast: the family securing formal OCS clearance and legal communication beforehand, only to face an absolute physical lockout by widower Hiram Gitau.",
+      "angle_type": "procedural clearance vs domestic lockout",
+      "opening": "Personality lead opening directly on the late gospel star's first memorial milestone colliding with locked gates.",
+      "structure": "Person -> Procedural preparation hook -> Physical lockout details -> Relative accounts -> Context and unresolved close",
+      "source": "https://www.ghafla.co.ke/betty-bayos-family-locked-out-of-late-singers-mugumo-home-during-first-anniversary-memorial/"
     }
   ],
   "style_history": [
