@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "341c6649cabfe9b7fc92412ed7419d9f25cf66a47a9b8c102ccd2967730daf4c",
     "ebd921ce94a06c01ae1a76f37d1a30057fcd98379e63a2106641612e8cb776aa",
     "636dc38d68de69558bb231101e1f7b106717abbcc03ccff0677d421699609899",
     "af0134e42eb3cc18e88a1685cb32c39fea422ca87171fa0ca754a490cc058d70",
@@ -499,10 +498,10 @@
     "1ddb910d9ac45dab930b0efde012cab8dae2b0e61dd8e9dac9f94121d8189ec7",
     "7b406ca6cac9af8871542c9e7bc069771c85c280ad79e0eac9f24df6037503f0",
     "ece6ded55043ca4bf452a0f2567f5355b6538f85986f914a01a9b6c47367e200",
-    "21c49475d0eb24cd1b07cac594ebcfa5f41f4355b641c92bb9c3d47095f871f3"
+    "21c49475d0eb24cd1b07cac594ebcfa5f41f4355b641c92bb9c3d47095f871f3",
+    "28a68b176a4ae9ca83ee67674fcd5e73906bf773c8874347f3ff8aab72c545ad"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/mungai-eve-responds-to-allegations-of-sponsors-funding-her-lifestyle-natafuta/",
     "https://www.ghafla.co.ke/atwoli-rejects-sifunas-presidential-ambitions/",
     "https://www.ghafla.co.ke/pastor-victor-kanyari-calls-out-church-congregants-for-offering-low-sadaka/",
     "https://www.ghafla.co.ke/rigathi-gachagua-slams-dp-kindikis-cultural-coronation-during-us-diaspora-meeting/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/si-pombe-i-was-born-a-natural-high-millie-odhiambo-sets-record-straight-on-her-energetic-persona/",
     "https://www.ghafla.co.ke/iebc-orders-uda-odm-and-92-other-parties-to-revise-nomination-rules-before-2027-polls/",
     "https://www.ghafla.co.ke/iebc-criticises-opposition-leaders-for-walking-out-of-electoral-preparedness-meeting/",
-    "https://www.ghafla.co.ke/babu-owino-eyes-nairobi-governor-seat-as-he-backs-edwin-sifunas-2027-presidential-bid/"
+    "https://www.ghafla.co.ke/babu-owino-eyes-nairobi-governor-seat-as-he-backs-edwin-sifunas-2027-presidential-bid/",
+    "https://www.ghafla.co.ke/pastor-victor-kanyari-joins-rigathi-gachaguas-dcp-party-ahead-of-2027-kasarani-mp-bid/"
   ],
   "published_angles": [
-    {
-      "title": "Vituko za Difre Mourns Mother Killed in Unresolved Ngong Hit-and-Run",
-      "angle": "Focusing on the grim reality facing the street prankster as the sudden tragedy collides with an open investigation\u2014specifically highlighting the unidentified fleeing motorist in Ngong and the family's abrupt shift into City Mortuary arrangements.",
-      "angle_type": "personal tragedy and unresolved hit-and-run",
-      "opening": "Personality lead opening directly on Vituko za Difre stepping away from online comedy into private family mourning following the fatal Ngong crash.",
-      "structure": "Creator hook -> Details of the Tuesday morning Ngong hit-and-run -> Mortuary transfer and funeral arrangements -> The unresolved driver identity and legal vacuum -> Concluding focus on the creator's grief.",
-      "source": "https://www.ghafla.co.ke/kenyan-prankster-vituko-za-difre-mourns-mother-after-fatal-hit-and-run-accident-in-ngong/"
-    },
     {
       "title": "Wahu and Nameless Back Bien\u2019s \u2018Artistic Obsession\u2019 as 17-Track Album Features 2 Chainz",
       "angle": "Framing Bien's upcoming 17-track solo release around Wahu Kagwi and Nameless's insider breakdown of his artistic obsession and research discipline, alongside Sauti Sol bandmate Savara's peer endorsement.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead focusing directly on Babu Owino staking his claim on Edwin Sifuna's political trajectory.",
       "structure": "Personality lead on the 99.9% career claim -> The 2027 ticket division (Governor vs Presidency) -> The Mwananchi Party vehicle rationale -> Concrete close on voter segmentation.",
       "source": "https://www.ghafla.co.ke/babu-owino-eyes-nairobi-governor-seat-as-he-backs-edwin-sifunas-2027-presidential-bid/"
+    },
+    {
+      "title": "Pastor Kanyari Deploys Branded Emergency Fleet for Kasarani Run as Gachagua Denies Preacher Direct DCP Ticket",
+      "angle": "Focusing on Kanyari's dual pulpit-and-politician campaign strategy\u2014deploying branded funeral and medical emergency vehicles while being denied a direct ticket by Gachagua, subjecting him to a March 2027 party primary fight.",
+      "angle_type": "pulpit-to-politics transition and primary hurdle",
+      "opening": "Personality lead opening directly on Pastor Victor Kanyari taking his pulpit persona into grassroots politics while being forced to fight for a DCP nomination ticket.",
+      "structure": "Person and primary condition hook -> Party announcement details -> Branded emergency fleet & manifesto breakdown -> Ruai genesis context -> Pulpit vs Parliament close",
+      "source": "https://www.ghafla.co.ke/pastor-victor-kanyari-joins-rigathi-gachaguas-dcp-party-ahead-of-2027-kasarani-mp-bid/"
     }
   ],
   "style_history": [
