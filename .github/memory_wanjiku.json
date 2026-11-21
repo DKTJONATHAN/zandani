@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "4ea7cd60e2d0b88b8ea2bf0b3d55b61fddc414a4721c0d9235c74a2a88ad72f9",
     "9df8c97b6d5fb8d9d58bc68b02ad881afc627607927659c04f314c509089d5d6",
     "341c6649cabfe9b7fc92412ed7419d9f25cf66a47a9b8c102ccd2967730daf4c",
     "ebd921ce94a06c01ae1a76f37d1a30057fcd98379e63a2106641612e8cb776aa",
@@ -499,10 +498,10 @@
     "0343f40e9f73d9c65469f7d00cc39c44ac0162baaa3c93daf0973aafa6665d31",
     "63efa7c7d372c2bb7cda3068d67953a31f73ebdcff08adc9cfa3eab9b68357ad",
     "1ddb910d9ac45dab930b0efde012cab8dae2b0e61dd8e9dac9f94121d8189ec7",
-    "7b406ca6cac9af8871542c9e7bc069771c85c280ad79e0eac9f24df6037503f0"
+    "7b406ca6cac9af8871542c9e7bc069771c85c280ad79e0eac9f24df6037503f0",
+    "ece6ded55043ca4bf452a0f2567f5355b6538f85986f914a01a9b6c47367e200"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/nadia-mukami-and-arrow-bwoy-set-to-release-new-song-after-break-up/",
     "https://www.ghafla.co.ke/court-denies-bail-to-8-utumishi-girls-academy-students-facing-16-counts-of-murder/",
     "https://www.ghafla.co.ke/mungai-eve-responds-to-allegations-of-sponsors-funding-her-lifestyle-natafuta/",
     "https://www.ghafla.co.ke/atwoli-rejects-sifunas-presidential-ambitions/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/love-after-heartbreak-austin-muigai-hints-at-new-romance-months-after-six-month-depression-battle/",
     "https://www.ghafla.co.ke/edwin-sifuna-shares-emotional-story-of-humble-beginnings-before-risingto-national-politics/",
     "https://www.ghafla.co.ke/si-pombe-i-was-born-a-natural-high-millie-odhiambo-sets-record-straight-on-her-energetic-persona/",
-    "https://www.ghafla.co.ke/iebc-orders-uda-odm-and-92-other-parties-to-revise-nomination-rules-before-2027-polls/"
+    "https://www.ghafla.co.ke/iebc-orders-uda-odm-and-92-other-parties-to-revise-nomination-rules-before-2027-polls/",
+    "https://www.ghafla.co.ke/iebc-criticises-opposition-leaders-for-walking-out-of-electoral-preparedness-meeting/"
   ],
   "published_angles": [
-    {
-      "title": "Kathy Kiuna Attributes Private Jet Flight to Charlene Ruto\u2019s Mwanza Nuptials to Divine \u2018Favour\u2019",
-      "angle": "Framing Kathy Kiuna's private aviation updates around her theological assertion of divine favour while detailing the high-profile clergy entourage that made the Mwanza trip.",
-      "angle_type": "lifestyle and spiritual delegation narrative",
-      "opening": "Personality lead opening directly on Kathy Kiuna boarding a private jet to Mwanza and framing the luxury cabin as an assertion of divine favour.",
-      "structure": "Personality hook -> Aircraft & in-flight cabin specs -> Theological caption breakdown -> Delegation context (Julian Kyula & Vanessa Kiuna) -> Mwanza wedding event background and final context.",
-      "source": "https://www.ghafla.co.ke/kathy-kiuna-flaunts-luxury-private-jet-she-used-to-attend-charlene-rutos-wedding-in-tanzania/"
-    },
     {
       "title": "Ruto\u2019s 2032 'Departure Lounge': Branding Gachagua and Kalonzo as the Sunset Cohort",
       "angle": "The focus on the 'retirement cohort' branding\u2014how the President is using age-group identity ('rika') to infantilize and dismiss his rivals\u2019 coalition-building as a terminal political act.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Babu Owino navigating the IEBC nomination audit hurdle that tripped up Kenya's political heavyweights.",
       "structure": "Person/Hook -> IEBC audit scorecard reveal -> High-profile casualty breakdown (UDA, ODM, Gachagua, Maraga) -> Detailed audit benchmarks -> Regulatory reprieve and next steps",
       "source": "https://www.ghafla.co.ke/iebc-orders-uda-odm-and-92-other-parties-to-revise-nomination-rules-before-2027-polls/"
+    },
+    {
+      "title": "Kalonzo Musyoka and Gachagua Pull Nairobi Boardroom Exit Before IEBC Can Open Slides",
+      "angle": "Reframing the confrontation around Kalonzo Musyoka and Rigathi Gachagua's calculated boardroom walkout\u2014delivering an ultimatum on four non-negotiables before exiting before the commission could even project its opening slide, despite IEBC delaying its start time to accommodate them.",
+      "angle_type": "political boardroom drama and calculated walkout",
+      "opening": "Personality lead opening directly on Kalonzo Musyoka and Rigathi Gachagua pulling off an abrupt boardroom exit before the IEBC could begin its official presentation.",
+      "structure": "Personality hook on the walkout -> Kalonzo's sharp 'good faith' declaration -> The four-point reform ultimatum from the Maraga-led coalition -> Ethekon's rescheduled timetable defence and missed opportunity rebuke -> Scrutiny over intimidation and code of conduct",
+      "source": "https://www.ghafla.co.ke/iebc-criticises-opposition-leaders-for-walking-out-of-electoral-preparedness-meeting/"
     }
   ],
   "style_history": [
