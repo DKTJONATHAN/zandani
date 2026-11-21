@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "92169a7cc156a39bf3dba872f7bae7a6dda8e80351e09253ae547d4c2b2012ef",
     "4ea7cd60e2d0b88b8ea2bf0b3d55b61fddc414a4721c0d9235c74a2a88ad72f9",
     "9df8c97b6d5fb8d9d58bc68b02ad881afc627607927659c04f314c509089d5d6",
     "341c6649cabfe9b7fc92412ed7419d9f25cf66a47a9b8c102ccd2967730daf4c",
@@ -499,10 +498,10 @@
     "08f3a96d90c534db1739ea8d0448c497aab54024bc56de0b211224c734b18d49",
     "0343f40e9f73d9c65469f7d00cc39c44ac0162baaa3c93daf0973aafa6665d31",
     "63efa7c7d372c2bb7cda3068d67953a31f73ebdcff08adc9cfa3eab9b68357ad",
-    "1ddb910d9ac45dab930b0efde012cab8dae2b0e61dd8e9dac9f94121d8189ec7"
+    "1ddb910d9ac45dab930b0efde012cab8dae2b0e61dd8e9dac9f94121d8189ec7",
+    "7b406ca6cac9af8871542c9e7bc069771c85c280ad79e0eac9f24df6037503f0"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/mwai-kibakis-grandson-sean-andrew-admits-avoiding-to-learn-kiswahili/",
     "https://www.ghafla.co.ke/nadia-mukami-and-arrow-bwoy-set-to-release-new-song-after-break-up/",
     "https://www.ghafla.co.ke/court-denies-bail-to-8-utumishi-girls-academy-students-facing-16-counts-of-murder/",
     "https://www.ghafla.co.ke/mungai-eve-responds-to-allegations-of-sponsors-funding-her-lifestyle-natafuta/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/ken-wa-maria-rushed-to-mlolongo-hospital-after-his-lexus-collides-with-lorry-near-sabaki/",
     "https://www.ghafla.co.ke/love-after-heartbreak-austin-muigai-hints-at-new-romance-months-after-six-month-depression-battle/",
     "https://www.ghafla.co.ke/edwin-sifuna-shares-emotional-story-of-humble-beginnings-before-risingto-national-politics/",
-    "https://www.ghafla.co.ke/si-pombe-i-was-born-a-natural-high-millie-odhiambo-sets-record-straight-on-her-energetic-persona/"
+    "https://www.ghafla.co.ke/si-pombe-i-was-born-a-natural-high-millie-odhiambo-sets-record-straight-on-her-energetic-persona/",
+    "https://www.ghafla.co.ke/iebc-orders-uda-odm-and-92-other-parties-to-revise-nomination-rules-before-2027-polls/"
   ],
   "published_angles": [
-    {
-      "title": "Bishop Erick Mwangi Demands Immediate Child Handover to Kanyari, Challenging Court\u2019s Transition Plan",
-      "angle": "Contrasting the preacher's demand for an immediate hand-over against the active legal reality established by Dagoretti Law Courts, which explicitly ordered the children to stay with Tash while a Kiambu Children Officer drafts a transition plan.",
-      "angle_type": "legal vs pulpit conflict",
-      "opening": "Personality lead opening directly on Bishop Erick Mwangi bringing spiritual pressure onto Tash over Betty Bayo's children.",
-      "structure": "Personality lead hook -> Prophetic sermon quotes breakdown -> Contrast with Magistrate Obiero's Oct 26 court order -> Transition mechanics and children's testimony -> Current legal baseline close.",
-      "source": "https://www.ghafla.co.ke/bishop-erick-mwangi-warns-tash-over-betty-bayos-children-urges-him-to-hand-them-to-kanyari/"
-    },
     {
       "title": "Kathy Kiuna Attributes Private Jet Flight to Charlene Ruto\u2019s Mwanza Nuptials to Divine \u2018Favour\u2019",
       "angle": "Framing Kathy Kiuna's private aviation updates around her theological assertion of divine favour while detailing the high-profile clergy entourage that made the Mwanza trip.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Millie Odhiambo tackling long-held public assumptions about her energetic parliamentary persona.",
       "structure": "Personality lead -> Lifelong sobriety reveal and Fanta Orange confession -> Misconceptions vs natural temperament -> The 75 percent political dishonesty audit and 'swimming upstream' friction -> Concrete close on her unpolished directness.",
       "source": "https://www.ghafla.co.ke/si-pombe-i-was-born-a-natural-high-millie-odhiambo-sets-record-straight-on-her-energetic-persona/"
+    },
+    {
+      "title": "Babu Owino and Fred Matiang\u2019i Clear IEBC Rulebook as Ruto, Gachagua, and ODM Flunk First Cut",
+      "angle": "Framing the IEBC audit around the sharp procedural contrast where Embakasi East MP Babu Owino's political vehicle and Fred Matiang'i's Jubilee cleanly passed the statutory hurdle that tripped up political heavyweights William Ruto, ODM, and Rigathi Gachagua.",
+      "angle_type": "personality scorecard and procedural upset",
+      "opening": "Personality lead opening directly on Babu Owino navigating the IEBC nomination audit hurdle that tripped up Kenya's political heavyweights.",
+      "structure": "Person/Hook -> IEBC audit scorecard reveal -> High-profile casualty breakdown (UDA, ODM, Gachagua, Maraga) -> Detailed audit benchmarks -> Regulatory reprieve and next steps",
+      "source": "https://www.ghafla.co.ke/iebc-orders-uda-odm-and-92-other-parties-to-revise-nomination-rules-before-2027-polls/"
     }
   ],
   "style_history": [
