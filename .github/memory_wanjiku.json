@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "9df8c97b6d5fb8d9d58bc68b02ad881afc627607927659c04f314c509089d5d6",
     "341c6649cabfe9b7fc92412ed7419d9f25cf66a47a9b8c102ccd2967730daf4c",
     "ebd921ce94a06c01ae1a76f37d1a30057fcd98379e63a2106641612e8cb776aa",
     "636dc38d68de69558bb231101e1f7b106717abbcc03ccff0677d421699609899",
@@ -499,10 +498,10 @@
     "63efa7c7d372c2bb7cda3068d67953a31f73ebdcff08adc9cfa3eab9b68357ad",
     "1ddb910d9ac45dab930b0efde012cab8dae2b0e61dd8e9dac9f94121d8189ec7",
     "7b406ca6cac9af8871542c9e7bc069771c85c280ad79e0eac9f24df6037503f0",
-    "ece6ded55043ca4bf452a0f2567f5355b6538f85986f914a01a9b6c47367e200"
+    "ece6ded55043ca4bf452a0f2567f5355b6538f85986f914a01a9b6c47367e200",
+    "21c49475d0eb24cd1b07cac594ebcfa5f41f4355b641c92bb9c3d47095f871f3"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/court-denies-bail-to-8-utumishi-girls-academy-students-facing-16-counts-of-murder/",
     "https://www.ghafla.co.ke/mungai-eve-responds-to-allegations-of-sponsors-funding-her-lifestyle-natafuta/",
     "https://www.ghafla.co.ke/atwoli-rejects-sifunas-presidential-ambitions/",
     "https://www.ghafla.co.ke/pastor-victor-kanyari-calls-out-church-congregants-for-offering-low-sadaka/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/edwin-sifuna-shares-emotional-story-of-humble-beginnings-before-risingto-national-politics/",
     "https://www.ghafla.co.ke/si-pombe-i-was-born-a-natural-high-millie-odhiambo-sets-record-straight-on-her-energetic-persona/",
     "https://www.ghafla.co.ke/iebc-orders-uda-odm-and-92-other-parties-to-revise-nomination-rules-before-2027-polls/",
-    "https://www.ghafla.co.ke/iebc-criticises-opposition-leaders-for-walking-out-of-electoral-preparedness-meeting/"
+    "https://www.ghafla.co.ke/iebc-criticises-opposition-leaders-for-walking-out-of-electoral-preparedness-meeting/",
+    "https://www.ghafla.co.ke/babu-owino-eyes-nairobi-governor-seat-as-he-backs-edwin-sifunas-2027-presidential-bid/"
   ],
   "published_angles": [
-    {
-      "title": "Ruto\u2019s 2032 'Departure Lounge': Branding Gachagua and Kalonzo as the Sunset Cohort",
-      "angle": "The focus on the 'retirement cohort' branding\u2014how the President is using age-group identity ('rika') to infantilize and dismiss his rivals\u2019 coalition-building as a terminal political act.",
-      "angle_type": "political branding and dismissive rhetoric",
-      "opening": "Personality-led hook focusing on the specific 'retirement cohort' framing Ruto applied to his rivals.",
-      "structure": "Rival retirement hook -> Breakdown of the 'Mr 40' and 'Bwana Texas' branding -> The Gusii tour context -> The opposition's actual consolidation efforts -> Final note on the 2032 timeline.",
-      "source": "https://www.ghafla.co.ke/ruto-to-gachagua-kalonzo-we-will-retire-together-in-2032/"
-    },
     {
       "title": "Vituko za Difre Mourns Mother Killed in Unresolved Ngong Hit-and-Run",
       "angle": "Focusing on the grim reality facing the street prankster as the sudden tragedy collides with an open investigation\u2014specifically highlighting the unidentified fleeing motorist in Ngong and the family's abrupt shift into City Mortuary arrangements.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Kalonzo Musyoka and Rigathi Gachagua pulling off an abrupt boardroom exit before the IEBC could begin its official presentation.",
       "structure": "Personality hook on the walkout -> Kalonzo's sharp 'good faith' declaration -> The four-point reform ultimatum from the Maraga-led coalition -> Ethekon's rescheduled timetable defence and missed opportunity rebuke -> Scrutiny over intimidation and code of conduct",
       "source": "https://www.ghafla.co.ke/iebc-criticises-opposition-leaders-for-walking-out-of-electoral-preparedness-meeting/"
+    },
+    {
+      "title": "Babu Owino Claims 99.9% Credit for Sifuna\u2019s Rise as Pair Map Out 2027 Nairobi-to-State House Tickets",
+      "angle": "Examining the mathematical weight and friction behind Owino's claim of a 99.9% contribution to Sifuna's political rise, alongside the strategic split-ticket mechanics of creating a separate party vehicle for voters who might back one leader but reject the other.",
+      "angle_type": "political partnership math and split-ticket strategy",
+      "opening": "Personality lead focusing directly on Babu Owino staking his claim on Edwin Sifuna's political trajectory.",
+      "structure": "Personality lead on the 99.9% career claim -> The 2027 ticket division (Governor vs Presidency) -> The Mwananchi Party vehicle rationale -> Concrete close on voter segmentation.",
+      "source": "https://www.ghafla.co.ke/babu-owino-eyes-nairobi-governor-seat-as-he-backs-edwin-sifunas-2027-presidential-bid/"
     }
   ],
   "style_history": [
