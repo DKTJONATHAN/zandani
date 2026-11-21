@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ebd921ce94a06c01ae1a76f37d1a30057fcd98379e63a2106641612e8cb776aa",
     "636dc38d68de69558bb231101e1f7b106717abbcc03ccff0677d421699609899",
     "af0134e42eb3cc18e88a1685cb32c39fea422ca87171fa0ca754a490cc058d70",
     "69a92cc670f0d5a9b199831e478c21ac1dd6cd886ba00a110dcf4b02379e44a0",
@@ -499,10 +498,10 @@
     "7b406ca6cac9af8871542c9e7bc069771c85c280ad79e0eac9f24df6037503f0",
     "ece6ded55043ca4bf452a0f2567f5355b6538f85986f914a01a9b6c47367e200",
     "21c49475d0eb24cd1b07cac594ebcfa5f41f4355b641c92bb9c3d47095f871f3",
-    "28a68b176a4ae9ca83ee67674fcd5e73906bf773c8874347f3ff8aab72c545ad"
+    "28a68b176a4ae9ca83ee67674fcd5e73906bf773c8874347f3ff8aab72c545ad",
+    "ab4df9201f20a7f4fddec9c8a42ecca7a1f3946863f3a19edc30409486c079a6"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/atwoli-rejects-sifunas-presidential-ambitions/",
     "https://www.ghafla.co.ke/pastor-victor-kanyari-calls-out-church-congregants-for-offering-low-sadaka/",
     "https://www.ghafla.co.ke/rigathi-gachagua-slams-dp-kindikis-cultural-coronation-during-us-diaspora-meeting/",
     "https://www.ghafla.co.ke/co-op-bank-youth-forum-how-young-kenyans-can-build-their-own-career-lane/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/iebc-orders-uda-odm-and-92-other-parties-to-revise-nomination-rules-before-2027-polls/",
     "https://www.ghafla.co.ke/iebc-criticises-opposition-leaders-for-walking-out-of-electoral-preparedness-meeting/",
     "https://www.ghafla.co.ke/babu-owino-eyes-nairobi-governor-seat-as-he-backs-edwin-sifunas-2027-presidential-bid/",
-    "https://www.ghafla.co.ke/pastor-victor-kanyari-joins-rigathi-gachaguas-dcp-party-ahead-of-2027-kasarani-mp-bid/"
+    "https://www.ghafla.co.ke/pastor-victor-kanyari-joins-rigathi-gachaguas-dcp-party-ahead-of-2027-kasarani-mp-bid/",
+    "https://www.ghafla.co.ke/millie-odhiambo-defends-odm-loyalty-says-speaking-against-party-is-a-matter-of-principle/"
   ],
   "published_angles": [
-    {
-      "title": "Wahu and Nameless Back Bien\u2019s \u2018Artistic Obsession\u2019 as 17-Track Album Features 2 Chainz",
-      "angle": "Framing Bien's upcoming 17-track solo release around Wahu Kagwi and Nameless's insider breakdown of his artistic obsession and research discipline, alongside Sauti Sol bandmate Savara's peer endorsement.",
-      "angle_type": "veteran artistic validation and studio discipline",
-      "opening": "Personality lead opening directly on Wahu Kagwi spotlighting Bien's studio research habits during the weekend album sampling.",
-      "structure": "Wahu/Nameless artistic discipline hook -> Album scope and high-profile features breakdown -> Creative team and Sauti Sol brotherhood mechanics -> Industry reception and rollout close.",
-      "source": "https://www.ghafla.co.ke/nameless-wahu-savara-and-other-stars-celebrate-biens-upcoming-album-alusa-continua/"
-    },
     {
       "title": "Sailors Gang Breaks Hiatus to Declare Permanent Five-Member Identity After Shalkido\u2019s Death",
       "angle": "Focusing on the group's collective identity restructuring and behind-the-scenes toll\u2014examining how the remaining four members chose their return to public communication to formally lock their identity as five, confronting the fallout of their long hiatus after Shalkido's fatal crash on Thika Road.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Pastor Victor Kanyari taking his pulpit persona into grassroots politics while being forced to fight for a DCP nomination ticket.",
       "structure": "Person and primary condition hook -> Party announcement details -> Branded emergency fleet & manifesto breakdown -> Ruai genesis context -> Pulpit vs Parliament close",
       "source": "https://www.ghafla.co.ke/pastor-victor-kanyari-joins-rigathi-gachaguas-dcp-party-ahead-of-2027-kasarani-mp-bid/"
+    },
+    {
+      "title": "Millie Odhiambo Rejects 2027 Governor Ambitions, Adopts \u2018Fence-Leaper\u2019 Tag to Deflect ODM Faction Battles",
+      "angle": "Reframing Odhiambo's political commentary around her sarcastic transition from 'fence-sitter' to 'fence-leaper,' using the television appearance to explicitly shut down Homa Bay governorship succession rumors following a public heckling incident in Kisumu.",
+      "angle_type": "political persona and career ambition clarification",
+      "opening": "Personality lead opening directly on Millie Odhiambo's rejection of a gubernatorial run and her cheeky self-description as a political 'fence-leaper'.",
+      "structure": "Person -> Gubernatorial clarification and 'fence-leaper' label hook -> Kisumu heckling reality & broad-based friction -> Wanga zoning dispute & Sifuna exit context -> Unity silence strategy close.",
+      "source": "https://www.ghafla.co.ke/millie-odhiambo-defends-odm-loyalty-says-speaking-against-party-is-a-matter-of-principle/"
     }
   ],
   "style_history": [
