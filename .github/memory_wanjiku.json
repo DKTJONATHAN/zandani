@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "69a92cc670f0d5a9b199831e478c21ac1dd6cd886ba00a110dcf4b02379e44a0",
     "a3ff18640bf1a961c126b8f3b9ceeaa3fa93830b7f878e7213a62961a3900b0a",
     "a177462a35ee588cbaff49e4689e9ab9688e1c4399162a3cc309dd975a82dcd4",
     "34c156620fccebfa51ff548835993ee370664c03036d74a1ed73a771af27c86e",
@@ -499,10 +498,10 @@
     "28a68b176a4ae9ca83ee67674fcd5e73906bf773c8874347f3ff8aab72c545ad",
     "ab4df9201f20a7f4fddec9c8a42ecca7a1f3946863f3a19edc30409486c079a6",
     "dac67baf18c73c866fe5e17177c96a011dec67339aaba07ee92888aed26862b4",
-    "c23daa2f9392ce83f246a6cbb144d3ef2c8cd691acc2ea85a1684274b3c2c729"
+    "c23daa2f9392ce83f246a6cbb144d3ef2c8cd691acc2ea85a1684274b3c2c729",
+    "48f280343df8220ceba76c3178236e94a21db88dde561da992e277300274d4a1"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/co-op-bank-youth-forum-how-young-kenyans-can-build-their-own-career-lane/",
     "https://www.ghafla.co.ke/epra-raises-electricity-charges-by-ksh4-16-per-unit-in-revised-september-tariffs/",
     "https://www.ghafla.co.ke/uhuru-kenyatta-hands-over-jubilee-party-leadership-to-fred-matiangi-ahead-of-ndc/",
     "https://www.ghafla.co.ke/uhuru-to-ruto-focus-on-serving-kenyans/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/pastor-victor-kanyari-joins-rigathi-gachaguas-dcp-party-ahead-of-2027-kasarani-mp-bid/",
     "https://www.ghafla.co.ke/millie-odhiambo-defends-odm-loyalty-says-speaking-against-party-is-a-matter-of-principle/",
     "https://www.ghafla.co.ke/onyonka-reveals-lmm-leadership-deals-made-before-coalition-plans-fell-apart/",
-    "https://www.ghafla.co.ke/sifuna-leads-november-2026-presidential-opinion-poll-ahead-of-ruto-and-matiangi/"
+    "https://www.ghafla.co.ke/sifuna-leads-november-2026-presidential-opinion-poll-ahead-of-ruto-and-matiangi/",
+    "https://www.ghafla.co.ke/ruto-mudavadi-land-in-republic-of-congo-for-crucial-summit-addressing-m23-rebel-tensions/"
   ],
   "published_angles": [
-    {
-      "title": "Size 8 Details Labour Ward Crisis Where DJ Mo Was Ordered to Joke Her Awake",
-      "angle": "Focusing on the harrowing bedside vigilance and psychological strain placed on DJ Mo, who was forced to use forced humour as a medical intervention while Size 8 battled nerve paralysis, haemoglobin deficiency, and a 28-week emergency delivery.",
-      "angle_type": "marital bedside crisis and reproductive trauma",
-      "opening": "Personality lead opening directly on the unusual medical instruction given to DJ Mo inside the labour ward to keep Size 8 conscious.",
-      "structure": "Labour ward vigil hook -> Bedside mechanics (forced jokes and magnesium drips) -> Medical timeline and Junior's 1.7kg premature birth -> Chronic haemoglobin complications and partial paralysis -> The cumulative marital toll across three pregnancies.",
-      "source": "https://www.ghafla.co.ke/size-8-reveals-doctors-feared-she-could-die-if-she-fell-asleep-during-childbirth/"
-    },
     {
       "title": "Alex Mwakideu Puts Mohammed Ali\u2019s Anti-LGBTQ Crackdown Drive to On-Air Test",
       "angle": "Focusing on Mwakideu's deliberate broadcast tactic of interrogating Mohammed Ali's Coast-rooted petition push\u2014putting the radio spotlight directly on the MP's religious delegation claims while demanding listeners weigh in on the reality of maximum prison sentences.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Edwin Sifuna riding high on an unweighted online poll victory before taking direct fire from party colleague Samuel Atandi.",
       "structure": "Person/Hook -> Mwelekeo Insights poll breakdown -> Atandi's dismissive insider reality check -> Comparative lineup & survey limitations -> Concrete close on party hierarchy friction.",
       "source": "https://www.ghafla.co.ke/sifuna-leads-november-2026-presidential-opinion-poll-ahead-of-ruto-and-matiangi/"
+    },
+    {
+      "title": "William Ruto Slips Out of Kisumu for Quiet Oyo Summit with Mudavadi and Tshisekedi",
+      "angle": "Spotlighting Ruto's silent departure from Kisumu without a State House communiqu\u00e9, pulling Musalia Mudavadi along for a quiet, high-stakes rendezvous in Oyo to face F\u00e9lix Tshisekedi following two years of diplomatic chill over Nairobi's opposition forums.",
+      "angle_type": "quiet diplomatic exit and high-stakes regional face-off",
+      "opening": "Personality lead tracking Ruto leaving the Kisumu tarmac without an official itinerary update to walk into Denis Sassou-N\u2019Guesso's northern enclave.",
+      "structure": "Quiet departure sequence -> Oyo arrival and Mudavadi's presence -> Summit attendees and four-party table setup -> The two-year Nairobi-Kinshasa friction (CRA and Kabila conclave) -> Stance defense and reconciliation outlook close",
+      "source": "https://www.ghafla.co.ke/ruto-mudavadi-land-in-republic-of-congo-for-crucial-summit-addressing-m23-rebel-tensions/"
     }
   ],
   "style_history": [
