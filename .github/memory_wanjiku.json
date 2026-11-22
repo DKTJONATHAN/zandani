@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a3ff18640bf1a961c126b8f3b9ceeaa3fa93830b7f878e7213a62961a3900b0a",
     "a177462a35ee588cbaff49e4689e9ab9688e1c4399162a3cc309dd975a82dcd4",
     "34c156620fccebfa51ff548835993ee370664c03036d74a1ed73a771af27c86e",
     "828fcfff0b49b9c427de4fdabef4cb2432e2a14344430a175d81c95aaea39cd0",
@@ -499,10 +498,10 @@
     "ab4df9201f20a7f4fddec9c8a42ecca7a1f3946863f3a19edc30409486c079a6",
     "dac67baf18c73c866fe5e17177c96a011dec67339aaba07ee92888aed26862b4",
     "c23daa2f9392ce83f246a6cbb144d3ef2c8cd691acc2ea85a1684274b3c2c729",
-    "48f280343df8220ceba76c3178236e94a21db88dde561da992e277300274d4a1"
+    "48f280343df8220ceba76c3178236e94a21db88dde561da992e277300274d4a1",
+    "6ceec4b6b5ae3dab821696ce9838f93379c029c510266fa7a40c1f659c484d52"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/epra-raises-electricity-charges-by-ksh4-16-per-unit-in-revised-september-tariffs/",
     "https://www.ghafla.co.ke/uhuru-kenyatta-hands-over-jubilee-party-leadership-to-fred-matiangi-ahead-of-ndc/",
     "https://www.ghafla.co.ke/uhuru-to-ruto-focus-on-serving-kenyans/",
     "https://www.ghafla.co.ke/lawyer-lewis-uriri-rejects-ksh32-million-range-rover-and-cash-gifts-from-wicknell-chivayo/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/millie-odhiambo-defends-odm-loyalty-says-speaking-against-party-is-a-matter-of-principle/",
     "https://www.ghafla.co.ke/onyonka-reveals-lmm-leadership-deals-made-before-coalition-plans-fell-apart/",
     "https://www.ghafla.co.ke/sifuna-leads-november-2026-presidential-opinion-poll-ahead-of-ruto-and-matiangi/",
-    "https://www.ghafla.co.ke/ruto-mudavadi-land-in-republic-of-congo-for-crucial-summit-addressing-m23-rebel-tensions/"
+    "https://www.ghafla.co.ke/ruto-mudavadi-land-in-republic-of-congo-for-crucial-summit-addressing-m23-rebel-tensions/",
+    "https://www.ghafla.co.ke/russian-cargo-ship-catches-fire-after-suspected-ukrainian-drone-attack-in-gulf-of-finland/"
   ],
   "published_angles": [
-    {
-      "title": "Alex Mwakideu Puts Mohammed Ali\u2019s Anti-LGBTQ Crackdown Drive to On-Air Test",
-      "angle": "Focusing on Mwakideu's deliberate broadcast tactic of interrogating Mohammed Ali's Coast-rooted petition push\u2014putting the radio spotlight directly on the MP's religious delegation claims while demanding listeners weigh in on the reality of maximum prison sentences.",
-      "angle_type": "celebrity broadcast intervention and political interrogation",
-      "opening": "Personality lead opening directly on Alex Mwakideu cutting through morning radio routine to put Mohammed Ali's anti-LGBTQ campaign to his audience.",
-      "structure": "Broadcaster hook -> Mwakideu's breakdown of Mohammed Ali's Coast delegation -> Direct quotes on state intervention -> The specific Penal Code provisions and 14-year threshold -> Broader broadcasting debate context",
-      "source": "https://www.ghafla.co.ke/alex-mwakideu-questions-whether-kenya-should-take-tougher-action-against-lgbtq-community/"
-    },
     {
       "title": "Size 8 Recounts Neurological Breakdown and Speech Loss in 28-Week Delivery Crisis",
       "angle": "Focusing on the cumulative physiological and neurological toll on Size 8\u2014specifically tracing how consecutive high-risk reproductive emergencies escalated from an ICU delivery and miscarriage to partial paralysis, speech loss, and a dual-magnesium rescue at 28 weeks.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead tracking Ruto leaving the Kisumu tarmac without an official itinerary update to walk into Denis Sassou-N\u2019Guesso's northern enclave.",
       "structure": "Quiet departure sequence -> Oyo arrival and Mudavadi's presence -> Summit attendees and four-party table setup -> The two-year Nairobi-Kinshasa friction (CRA and Kabila conclave) -> Stance defense and reconciliation outlook close",
       "source": "https://www.ghafla.co.ke/ruto-mudavadi-land-in-republic-of-congo-for-crucial-summit-addressing-m23-rebel-tensions/"
+    },
+    {
+      "title": "Alexei Besprozvannykh Downplays Sparta II Drone Strike as Baltic Rescue Exposes Hull Crisis",
+      "angle": "Examining Kaliningrad Governor Alexei Besprozvannykh's rapid Telegram narrative\u2014insisting the Sparta II crew needed no evacuation and would sail on\u2014against the immediate reality on the water as Finnish border authorities confirmed the crew had to abandon ship.",
+      "angle_type": "official narrative pushback and crisis contradiction",
+      "opening": "Personality lead opening directly on Alexei Besprozvannykh taking to Telegram to project calm and deny evacuation needs before Finnish authorities confirmed the vessel was abandoned.",
+      "structure": "Personality lead -> Governor's Telegram claims vs maritime reality -> Saturday morning strike details and Finnish airspace intrusion -> Sanctions pedigree and military ties -> Finnish border response and NATO briefing close.",
+      "source": "https://www.ghafla.co.ke/russian-cargo-ship-catches-fire-after-suspected-ukrainian-drone-attack-in-gulf-of-finland/"
     }
   ],
   "style_history": [
