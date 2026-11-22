@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a177462a35ee588cbaff49e4689e9ab9688e1c4399162a3cc309dd975a82dcd4",
     "34c156620fccebfa51ff548835993ee370664c03036d74a1ed73a771af27c86e",
     "828fcfff0b49b9c427de4fdabef4cb2432e2a14344430a175d81c95aaea39cd0",
     "c3dd3012cc8f5643cf678b7036b961825ce186a4adc365127d9bd395ae44fec8",
@@ -499,10 +498,10 @@
     "dac67baf18c73c866fe5e17177c96a011dec67339aaba07ee92888aed26862b4",
     "c23daa2f9392ce83f246a6cbb144d3ef2c8cd691acc2ea85a1684274b3c2c729",
     "48f280343df8220ceba76c3178236e94a21db88dde561da992e277300274d4a1",
-    "6ceec4b6b5ae3dab821696ce9838f93379c029c510266fa7a40c1f659c484d52"
+    "6ceec4b6b5ae3dab821696ce9838f93379c029c510266fa7a40c1f659c484d52",
+    "6fd6d9ced50b4089d76569b029d991f8802b82c106cecac227be343ba09743d7"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/uhuru-kenyatta-hands-over-jubilee-party-leadership-to-fred-matiangi-ahead-of-ndc/",
     "https://www.ghafla.co.ke/uhuru-to-ruto-focus-on-serving-kenyans/",
     "https://www.ghafla.co.ke/lawyer-lewis-uriri-rejects-ksh32-million-range-rover-and-cash-gifts-from-wicknell-chivayo/",
     "https://www.ghafla.co.ke/uhuru-kenyatta-insists-the-late-raila-odinga-won-the-2022-presidential-election/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/onyonka-reveals-lmm-leadership-deals-made-before-coalition-plans-fell-apart/",
     "https://www.ghafla.co.ke/sifuna-leads-november-2026-presidential-opinion-poll-ahead-of-ruto-and-matiangi/",
     "https://www.ghafla.co.ke/ruto-mudavadi-land-in-republic-of-congo-for-crucial-summit-addressing-m23-rebel-tensions/",
-    "https://www.ghafla.co.ke/russian-cargo-ship-catches-fire-after-suspected-ukrainian-drone-attack-in-gulf-of-finland/"
+    "https://www.ghafla.co.ke/russian-cargo-ship-catches-fire-after-suspected-ukrainian-drone-attack-in-gulf-of-finland/",
+    "https://www.ghafla.co.ke/ps-omollo-lauds-governments-deliberate-investment-in-youth-education-jobs-and-tvets-during-embu-tour/"
   ],
   "published_angles": [
-    {
-      "title": "Size 8 Recounts Neurological Breakdown and Speech Loss in 28-Week Delivery Crisis",
-      "angle": "Focusing on the cumulative physiological and neurological toll on Size 8\u2014specifically tracing how consecutive high-risk reproductive emergencies escalated from an ICU delivery and miscarriage to partial paralysis, speech loss, and a dual-magnesium rescue at 28 weeks.",
-      "angle_type": "celebrity maternal health and neurological trauma",
-      "opening": "Personality lead opening directly on Size 8 cataloguing the extreme physical breakdown\u2014including nerve damage, speech loss, and left-sided paralysis\u2014that pushed her body to the edge before delivering Muraya Junior at 28 weeks.",
-      "structure": "Personality health hook -> Neurological breakdown and the 28-week threshold -> The dual-magnesium delivery and 1.7kg preterm birth -> The cumulative history across three pregnancies (ICU transfer & miscarriage) -> Daddy Owen sit-down context and long-term marital weight",
-      "source": "https://www.ghafla.co.ke/if-i-slept-i-would-die-size-8-details-terrifying-complications-during-birth-of-her-son/"
-    },
     {
       "title": "Comedian YY Runs Kasarani Math on Football Wages, Blames Empty Terraces for Player Poverty",
       "angle": "Framing YY's intervention as an economic audit of Kenyan football's couch culture\u2014specifically unpacking his Kasarani Ksh 60 million single-match model and Ksh 1 billion league projection to argue that fan absenteeism, not just administrative rot, keeps players underpaid.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Alexei Besprozvannykh taking to Telegram to project calm and deny evacuation needs before Finnish authorities confirmed the vessel was abandoned.",
       "structure": "Personality lead -> Governor's Telegram claims vs maritime reality -> Saturday morning strike details and Finnish airspace intrusion -> Sanctions pedigree and military ties -> Finnish border response and NATO briefing close.",
       "source": "https://www.ghafla.co.ke/russian-cargo-ship-catches-fire-after-suspected-ukrainian-drone-attack-in-gulf-of-finland/"
+    },
+    {
+      "title": "Raymond Omollo Puts Pius Moria\u2019s Embu Roots on the Spot in Public TVET Rally",
+      "angle": "Focusing on Raymond Omollo leveraging Pius Moria's native Embu roots on stage to challenge local residents not to fall behind while their own son leads the national youth docket.",
+      "angle_type": "hometown accountability and peer endorsement",
+      "opening": "Personality lead opening directly on Raymond Omollo placing colleague Pius Moria on the spot before his home audience in Embu.",
+      "structure": "Personality lead on the Embu stage challenge -> Contrast of traditional political mobilization vs intentional youth policy -> Moria's TVET portfolio breakdown -> Local uptake call-to-action close.",
+      "source": "https://www.ghafla.co.ke/ps-omollo-lauds-governments-deliberate-investment-in-youth-education-jobs-and-tvets-during-embu-tour/"
     }
   ],
   "style_history": [
