@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "828fcfff0b49b9c427de4fdabef4cb2432e2a14344430a175d81c95aaea39cd0",
     "c3dd3012cc8f5643cf678b7036b961825ce186a4adc365127d9bd395ae44fec8",
     "9c504bd698a76a7d540b4b9025eaf41568b9040d7753cf39b96b02b3713e19eb",
     "8cd09673f8bf7962cce8d018a3fe5b6e58b364d1203811c32db275a67771c49c",
@@ -499,10 +498,10 @@
     "48f280343df8220ceba76c3178236e94a21db88dde561da992e277300274d4a1",
     "6ceec4b6b5ae3dab821696ce9838f93379c029c510266fa7a40c1f659c484d52",
     "6fd6d9ced50b4089d76569b029d991f8802b82c106cecac227be343ba09743d7",
-    "4a201455123b3835201b48c05b1789f3a124514d73033f666b9683cddc6d9a8d"
+    "4a201455123b3835201b48c05b1789f3a124514d73033f666b9683cddc6d9a8d",
+    "25a3e53bc9587259625318a95dd49fc08908e93054231fd3ce1a97415ecc6015"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/lawyer-lewis-uriri-rejects-ksh32-million-range-rover-and-cash-gifts-from-wicknell-chivayo/",
     "https://www.ghafla.co.ke/uhuru-kenyatta-insists-the-late-raila-odinga-won-the-2022-presidential-election/",
     "https://www.ghafla.co.ke/high-court-upholds-iebc-national-tallying-powers/",
     "https://www.ghafla.co.ke/advocate-lewis-uriri-declines-us350000-gift-package-from-wicknell-chivayo/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/ruto-mudavadi-land-in-republic-of-congo-for-crucial-summit-addressing-m23-rebel-tensions/",
     "https://www.ghafla.co.ke/russian-cargo-ship-catches-fire-after-suspected-ukrainian-drone-attack-in-gulf-of-finland/",
     "https://www.ghafla.co.ke/ps-omollo-lauds-governments-deliberate-investment-in-youth-education-jobs-and-tvets-during-embu-tour/",
-    "https://www.ghafla.co.ke/us-based-kenyans-pledge-sh100-million-towards-sifunas-2027-presidential-bid/"
+    "https://www.ghafla.co.ke/us-based-kenyans-pledge-sh100-million-towards-sifunas-2027-presidential-bid/",
+    "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackout-in-parts-of-nairobi-and-uasin-gishu/"
   ],
   "published_angles": [
-    {
-      "title": "Muthoni Stranded at Riyadh Petrol Station as 100-Lash Sentence Hangs Over Out-of-Wedlock Birth",
-      "angle": "Focusing on the compounding cascade of abandonment\u2014tracing how an eviction and the quiet departure of her Egyptian partner forced Muthoni to seek shelter at a Riyadh filling station with an infant, while Kenyan consular officials remained entirely inactive.",
-      "angle_type": "personal ordeal and diplomatic abandonment",
-      "opening": "Personality lead opening directly on Muthoni nursing her newborn at a Riyadh filling station while facing a 100-lash sentence.",
-      "structure": "Personality hook at petrol station -> Hospital detention and pregnancy backstory -> Partner's departure and eviction -> Sharia court conviction and bamboo cane mechanics -> Diplomatic vacuum and expired travel document crisis close",
-      "source": "https://www.ghafla.co.ke/kenyan-domestic-worker-sentenced-to-100-lashes-in-saudi-arabia-for-birth-outside-marriage/"
-    },
     {
       "title": "Mike Sonko Fires Warning at Kalonzo\u2019s Handlers After Back-to-Back Meetings With Muthama and Alfred Mutua",
       "angle": "Focusing on Sonko's political shuttle diplomacy and his direct call-out of Kalonzo's inner circle following back-to-back meetings with key Ukambani power brokers Muthama and Mutua.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on diaspora organizer George Njue detailing his nine-hour drive to the New Jersey meeting and laying down the terms for the Sh100 million war chest.",
       "structure": "Njue's nine-hour drive hook -> The New Jersey diaspora gathering and crowd confirmation -> The demand for a formal financial receiving structure -> Proposed Public-Private Partnership infrastructure framework -> Concrete close on the missing administrative mechanism.",
       "source": "https://www.ghafla.co.ke/us-based-kenyans-pledge-sh100-million-towards-sifunas-2027-presidential-bid/"
+    },
+    {
+      "title": "Panari Hotel, Ole Sereni, and Airtel HQ Face Eight-Hour Grid Shutdown in Kenya Power Sunday Maintenance",
+      "angle": "Focusing on the operational hit to Nairobi's flagship hospitality strip along Mombasa Road and healthcare hubs in Parklands during an eight-hour Sunday maintenance window.",
+      "angle_type": "commercial and infrastructure impact",
+      "opening": "Opening directly on top-tier leisure and corporate sites along Mombasa Road caught in the planned grid shutdown.",
+      "structure": "Hospitality/Corporate hook -> Mombasa Road and Industrial Area breakdown -> Central business district & Parklands medical zone -> Uasin Gishu North Rift coverage -> Utility advisory close.",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackout-in-parts-of-nairobi-and-uasin-gishu/"
     }
   ],
   "style_history": [
