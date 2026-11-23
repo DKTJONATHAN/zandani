@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "6e93a30691b5cdd14260742d6ecd26a24b65c75850b7a7c65d78fb9b997ef4ff",
     "8ddc704a795bc317c9ae78bfbc2c1a420118dce78b0e5fd07bf64c3d50eb098b",
     "e5da746f54073426c50eae5dd437167dc1b6552424d5f52ebedeedb09e338b4f",
     "ca1557889cde6edb4108575ee6e2068ed6765584d907ac9a77b09d09bbc67649",
@@ -499,10 +498,10 @@
     "323a86453dfffb9a918f287476b2ddca37eb2495664e768b0655b24280e6eb7b",
     "e47d2f9b3b9bcf33afd5484cc6e823bc19eaa9f1f48088b2aedb1a32713fc3e4",
     "d8ae0a5cb83f658b805281d0261e8c155cb3cda9a62fd7f8ed9404fc22ca1c32",
-    "4caee655644b253cde9d9fc3d9f6f8a4a1bb2487a1e15104094831e2efd32804"
+    "4caee655644b253cde9d9fc3d9f6f8a4a1bb2487a1e15104094831e2efd32804",
+    "cc8019a2ee77182032262dd9fea926e4c063c5c1db240ad4b64e591a1464544b"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/danstan-omari-explains-why-obado-could-compensate-sharon-otienos-family-and-still-go-to-jail/",
     "https://www.ghafla.co.ke/from-legislation-to-execution-how-sha-and-10000-accredited-facilities-are-driving-universal-health-care/",
     "https://www.ghafla.co.ke/president-william-ruto-calls-for-reforms-to-reduce-africas-high-cost-of-debts/",
     "https://www.ghafla.co.ke/raila-junior-inspects-late-fathers-memorial-site/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/high-court-summons-dci-boss-mohammed-amin-over-missing-tanzanian-activist-twaha-mwaipaya/",
     "https://www.ghafla.co.ke/gachagua-warns-oof-historical-election-violence-risk-as-he-petitions-un-to-intervene/",
     "https://www.ghafla.co.ke/geoffrey-mosiria-gives-positive-update-on-edu-maddoxs-recovery-from-drug-addiction/",
-    "https://www.ghafla.co.ke/pastor-kanyari-claims-muthoni-babytops-new-wig-costs-up-to-ksh800000/"
+    "https://www.ghafla.co.ke/pastor-kanyari-claims-muthoni-babytops-new-wig-costs-up-to-ksh800000/",
+    "https://www.ghafla.co.ke/nairobi-confirmed-as-kenyas-sole-host-city-for-afcon-2027/"
   ],
   "published_angles": [
-    {
-      "title": "Toxic Lyrikali Joins Ousted Official Geoffrey Mosiria\u2019s Free Concert as 2027 Gubernatorial Bid Takes Shape",
-      "angle": "The tactical pivot of an ousted county official leveraging public-facing grassroots philanthropy and free concert mobilization to anchor his 2027 gubernatorial ambitions against Governor Johnson Sakaja.",
-      "angle_type": "political positioning and event mobilization",
-      "opening": "Personality lead opening directly on the TikTok announcement pairing Toxic Lyrikali's performance with Mosiria's 2027 gubernatorial messaging.",
-      "structure": "TikTok mobilization hook -> The Thika Road venue and event economics -> Mosiria's humanitarian background -> City Hall fallout and Sakaja dismissal context -> Concrete close on the 2027 gubernatorial ballot challenge.",
-      "source": "https://www.ghafla.co.ke/toxic-lyrikali-confirms-performance-at-geoffrey-mosirias-free-10-year-humanitarian-celebration/"
-    },
     {
       "title": "16-Degree Temperature Divide and 50mm Downpours: Inside Kenya Met\u2019s 39-County Thursday Outlook",
       "angle": "Focusing on the severe regional microclimate divide\u2014contrasting the 16-degree temperature gap between Turkana and Nyandarua with heavy 50mm afternoon thunderstorm surges across the Rift Valley.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Pastor Victor Kanyari turning Muthoni Babytop's fresh makeover into an altar-side lecture on romance economics.",
       "structure": "Person/Hook -> Preacher's financial breakdown and estate call-outs -> The altar alternative (Marion Naipei) -> Babytop's 18-year dreadlock departure details -> Broadcast rollout and final note",
       "source": "https://www.ghafla.co.ke/pastor-kanyari-claims-muthoni-babytops-new-wig-costs-up-to-ksh800000/"
+    },
+    {
+      "title": "Patrice Motsepe\u2019s AFCON 2027 Map Trims Kenya to Single-City Party in Nairobi",
+      "angle": "Focusing on CAF President Patrice Motsepe's tournament blueprint putting the entire weight of Kenya's hosting responsibilities onto Nairobi's single urban hub, while regional co-hosts spread matchday fan culture across five distinct cities.",
+      "angle_type": "operational consolidation and regional hosting contrast",
+      "opening": "Personality lead opening directly on CAF President Patrice Motsepe and the finalized PAMOJA 2027 host city breakdown.",
+      "structure": "Person lead -> Kenya's single-city decision vs dropped regional venues -> Cross-border footprint comparison -> Capital stadium load -> CAF allocation governance and historic 1976 milestone.",
+      "source": "https://www.ghafla.co.ke/nairobi-confirmed-as-kenyas-sole-host-city-for-afcon-2027/"
     }
   ],
   "style_history": [
