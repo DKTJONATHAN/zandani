@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "1b46d5acdd66d08a7c56b6a6c436ccc22fc3cfacc1049724622ebec780771636",
     "3328cc9305fd96d7a3a132566e7f5688f7eb1b3c123438b12654cb1ef4937cba",
     "2d33f90d700c5222db3984baea56dc0095de37ec8c79668b8f74be628da5a7fa",
     "d7ad408ee8658a9cdd95bb6d19254f5579fdf00959272173132643d2ed16bd06",
@@ -499,10 +498,10 @@
     "25a3e53bc9587259625318a95dd49fc08908e93054231fd3ce1a97415ecc6015",
     "c7aa7c2fb6d593a59f161271863915ad0f8c8d345632bdbbe71ec6cd52204ff6",
     "a7cfd49dd28fd701eeb4ab7a749b3bfa027e5b53ec5a1c1b842c809bcbb4765f",
-    "b42cd4a5ad02947fda917819817a894a4dcfea9108de599b108f1743e02e2ee0"
+    "b42cd4a5ad02947fda917819817a894a4dcfea9108de599b108f1743e02e2ee0",
+    "323a86453dfffb9a918f287476b2ddca37eb2495664e768b0655b24280e6eb7b"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/akothee-hits-back-at-critics-over-outfit-worn-with-luo-leaders/",
     "https://www.ghafla.co.ke/mike-sonko-adds-maserati-levante-to-his-expansive-luxury-car-collection/",
     "https://www.ghafla.co.ke/boundaries-and-public-office-omangas-school-attire-trend-sparks-debate-online/",
     "https://www.ghafla.co.ke/from-subsidies-to-value-addition-how-four-years-of-reforms-are-reshaping-kenyas-tea-industry/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackout-in-parts-of-nairobi-and-uasin-gishu/",
     "https://www.ghafla.co.ke/isaya-yunge-shares-inspirational-message-weeks-after-wedding-to-charlene-ruto/",
     "https://www.ghafla.co.ke/baba-talisha-undergoes-successful-eye-surgery-ahead-of-india-trip/",
-    "https://www.ghafla.co.ke/eacc-warns-2027-aspirants-over-fake-academic-papers-as-agency-recovers-sh41-2m-in-forgery-crackdown/"
+    "https://www.ghafla.co.ke/eacc-warns-2027-aspirants-over-fake-academic-papers-as-agency-recovers-sh41-2m-in-forgery-crackdown/",
+    "https://www.ghafla.co.ke/high-court-summons-dci-boss-mohammed-amin-over-missing-tanzanian-activist-twaha-mwaipaya/"
   ],
   "published_angles": [
-    {
-      "title": "Tash Gitau Reflects on One Year of Sole Custody and Blended Family Realities Since Betty Bayo\u2019s Passing",
-      "angle": "The practical dynamics of the blended family's co-parenting arrangement and Tash's ongoing sole custody role alongside Pastor Kanyari one year post-tragedy.",
-      "angle_type": "custody accountability and blended family survival",
-      "opening": "Personality lead opening directly on Tash Gitau confronting the twelve-month milestone of sole caregiving following Betty Bayo's passing.",
-      "structure": "Widower's anniversary hook -> Custody and blended family dynamics with Pastor Kanyari -> Specific memorial reflections -> Concrete close on the ongoing family routine.",
-      "source": "https://www.ghafla.co.ke/life-has-been-hard-without-you-tash-gitau-pens-emotional-one-year-tribute-to-late-wife-betty-bayo/"
-    },
     {
       "title": "Bahati Details Campaign Trail Epiphany: How VIP Gigs and Ghetto Goons Pushed Him Into Mathare Race",
       "angle": "Centering on Bahati's backstage reckoning on the campaign trail\u2014specifically how the contrast between pocketing performance fees to endorse political elites and watching his former schoolmates hired as street goons drove his impulsive, ill-timed 2022 bid, reshaping his early tactical runway for 2027.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on EACC Director Pascal Mweu and Commissioner Alfred Mshimba addressing public pushback over controversial political figures remaining on the ballot.",
       "structure": "Personality lead on ballot clearance friction -> The 20,000-form vetting process vs IEBC authority -> Mshimba's breakdown of ignored 2017/2022 integrity reports -> The Sh41.2 million forgery recovery stats -> 2027 enforcement mechanics and voter desks close.",
       "source": "https://www.ghafla.co.ke/eacc-warns-2027-aspirants-over-fake-academic-papers-as-agency-recovers-sh41-2m-in-forgery-crackdown/"
+    },
+    {
+      "title": "Mohammed Amin Takes the Stand: High Court Demands DCI Boss Account for Missing Activist Twaha Mwaipaya",
+      "angle": "The unique angle is the direct, personal judicial pressure being exerted on DCI boss Mohammed Amin, forcing him to account for the missing activist, contrasting with earlier, more general police denials. This emphasizes individual accountability at the highest level of the investigative agency.",
+      "angle_type": "Personal/Institutional Accountability under Judicial Scrutiny",
+      "opening": "Personality lead opening directly on Mohammed Amin and the specific court order he faces.",
+      "structure": "Focus on Amin and the court's direct demand -> Context of previous police statements and denials -> Details of the abduction and legal proceedings -> The role of witnesses -> Next steps and specific date for Amin's appearance.",
+      "source": "https://www.ghafla.co.ke/high-court-summons-dci-boss-mohammed-amin-over-missing-tanzanian-activist-twaha-mwaipaya/"
     }
   ],
   "style_history": [
