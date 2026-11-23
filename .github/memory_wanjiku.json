@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "d7ad408ee8658a9cdd95bb6d19254f5579fdf00959272173132643d2ed16bd06",
     "6e93a30691b5cdd14260742d6ecd26a24b65c75850b7a7c65d78fb9b997ef4ff",
     "8ddc704a795bc317c9ae78bfbc2c1a420118dce78b0e5fd07bf64c3d50eb098b",
     "e5da746f54073426c50eae5dd437167dc1b6552424d5f52ebedeedb09e338b4f",
@@ -499,10 +498,10 @@
     "b42cd4a5ad02947fda917819817a894a4dcfea9108de599b108f1743e02e2ee0",
     "323a86453dfffb9a918f287476b2ddca37eb2495664e768b0655b24280e6eb7b",
     "e47d2f9b3b9bcf33afd5484cc6e823bc19eaa9f1f48088b2aedb1a32713fc3e4",
-    "d8ae0a5cb83f658b805281d0261e8c155cb3cda9a62fd7f8ed9404fc22ca1c32"
+    "d8ae0a5cb83f658b805281d0261e8c155cb3cda9a62fd7f8ed9404fc22ca1c32",
+    "4caee655644b253cde9d9fc3d9f6f8a4a1bb2487a1e15104094831e2efd32804"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/from-subsidies-to-value-addition-how-four-years-of-reforms-are-reshaping-kenyas-tea-industry/",
     "https://www.ghafla.co.ke/danstan-omari-explains-why-obado-could-compensate-sharon-otienos-family-and-still-go-to-jail/",
     "https://www.ghafla.co.ke/from-legislation-to-execution-how-sha-and-10000-accredited-facilities-are-driving-universal-health-care/",
     "https://www.ghafla.co.ke/president-william-ruto-calls-for-reforms-to-reduce-africas-high-cost-of-debts/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/eacc-warns-2027-aspirants-over-fake-academic-papers-as-agency-recovers-sh41-2m-in-forgery-crackdown/",
     "https://www.ghafla.co.ke/high-court-summons-dci-boss-mohammed-amin-over-missing-tanzanian-activist-twaha-mwaipaya/",
     "https://www.ghafla.co.ke/gachagua-warns-oof-historical-election-violence-risk-as-he-petitions-un-to-intervene/",
-    "https://www.ghafla.co.ke/geoffrey-mosiria-gives-positive-update-on-edu-maddoxs-recovery-from-drug-addiction/"
+    "https://www.ghafla.co.ke/geoffrey-mosiria-gives-positive-update-on-edu-maddoxs-recovery-from-drug-addiction/",
+    "https://www.ghafla.co.ke/pastor-kanyari-claims-muthoni-babytops-new-wig-costs-up-to-ksh800000/"
   ],
   "published_angles": [
-    {
-      "title": "Charlene Ruto and Isaya Yunge Swap Malaika Beach Luxury for Back-Row Pews in Mwanza",
-      "angle": "Examining the logistical and security reality of a high-profile cross-border presidential wedding footprint\u2014specifically how the newlywed couple transitioned from a luxury Malaika Beach Hotel reception to a quiet, back-row arrival in a Mercedes-Benz G-Class at a regional Tanzanian congregation.",
-      "angle_type": "cross-border celebrity logistics and public transition",
-      "opening": "Personality lead opening directly on the couple's arrival at the Mwanza church in a black G-Class SUV following their high-profile nuptials.",
-      "structure": "SUV arrival hook -> The transition from Malaika Beach Hotel to AIC Nyanguge -> Back-row seating and Bible study mechanics -> Congregational prayer invocation -> Concrete close on their early public schedule.",
-      "source": "https://www.ghafla.co.ke/charlene-ruto-and-husband-isaya-yunge-impress-worshippers-with-humble-church-appearance/"
-    },
     {
       "title": "Toxic Lyrikali Joins Ousted Official Geoffrey Mosiria\u2019s Free Concert as 2027 Gubernatorial Bid Takes Shape",
       "angle": "The tactical pivot of an ousted county official leveraging public-facing grassroots philanthropy and free concert mobilization to anchor his 2027 gubernatorial ambitions against Governor Johnson Sakaja.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Edu Maddox preparing for discharge after completing his recovery programme.",
       "structure": "Person and hook -> Mirema Drive distress call and rescue details -> Transformation and medical progress -> Mosiria's industry support appeal -> Institutional context and practical close",
       "source": "https://www.ghafla.co.ke/geoffrey-mosiria-gives-positive-update-on-edu-maddoxs-recovery-from-drug-addiction/"
+    },
+    {
+      "title": "Pastor Kanyari Turns Muthoni Babytop\u2019s KSh 800,000 Wig into Altar Lecture on Nairobi Dating Limits",
+      "angle": "Framing Kanyari's pulpit sermon as an impromptu financial audit of a high-profile media makeover, using Babytop's dramatic post-dreadlock era to draw sharp estate-based dating boundaries between Nairobi suburbs.",
+      "angle_type": "pulpit lifestyle audit and romance boundary coaching",
+      "opening": "Personality lead opening directly on Pastor Victor Kanyari turning Muthoni Babytop's fresh makeover into an altar-side lecture on romance economics.",
+      "structure": "Person/Hook -> Preacher's financial breakdown and estate call-outs -> The altar alternative (Marion Naipei) -> Babytop's 18-year dreadlock departure details -> Broadcast rollout and final note",
+      "source": "https://www.ghafla.co.ke/pastor-kanyari-claims-muthoni-babytops-new-wig-costs-up-to-ksh800000/"
     }
   ],
   "style_history": [
