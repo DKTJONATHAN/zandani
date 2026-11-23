@@ -1,8 +1,12 @@
 name: SEO Audit
 
-"on":
+on:
   schedule:
     - cron: "30 5 * * 1"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/seo-audit.yml"
   workflow_dispatch:
 
 permissions:
@@ -21,17 +25,19 @@ jobs:
           python-version: "3.11"
 
       - name: Run SEO audit
+        shell: bash
         run: |
+          set -euo pipefail
           if [ -f scripts/seo_audit.py ]; then
             python scripts/seo_audit.py
           else
             echo "No seo_audit.py — basic frontmatter check"
             python - <<'PY'
-import pathlib
-for p in pathlib.Path('content/posts').glob('*.md'):
-    t = p.read_text(encoding='utf-8', errors='replace')
-    if not t.startswith('---'):
-        print('no fm', p)
-print('done')
-PY
+            import pathlib
+            for p in pathlib.Path('content/posts').glob('*.md'):
+                t = p.read_text(encoding='utf-8', errors='replace')
+                if not t.startswith('---'):
+                    print('no fm', p)
+            print('done')
+            PY
           fi
