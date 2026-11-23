@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "c3dd3012cc8f5643cf678b7036b961825ce186a4adc365127d9bd395ae44fec8",
     "9c504bd698a76a7d540b4b9025eaf41568b9040d7753cf39b96b02b3713e19eb",
     "8cd09673f8bf7962cce8d018a3fe5b6e58b364d1203811c32db275a67771c49c",
     "1b46d5acdd66d08a7c56b6a6c436ccc22fc3cfacc1049724622ebec780771636",
@@ -499,10 +498,10 @@
     "6ceec4b6b5ae3dab821696ce9838f93379c029c510266fa7a40c1f659c484d52",
     "6fd6d9ced50b4089d76569b029d991f8802b82c106cecac227be343ba09743d7",
     "4a201455123b3835201b48c05b1789f3a124514d73033f666b9683cddc6d9a8d",
-    "25a3e53bc9587259625318a95dd49fc08908e93054231fd3ce1a97415ecc6015"
+    "25a3e53bc9587259625318a95dd49fc08908e93054231fd3ce1a97415ecc6015",
+    "c7aa7c2fb6d593a59f161271863915ad0f8c8d345632bdbbe71ec6cd52204ff6"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/uhuru-kenyatta-insists-the-late-raila-odinga-won-the-2022-presidential-election/",
     "https://www.ghafla.co.ke/high-court-upholds-iebc-national-tallying-powers/",
     "https://www.ghafla.co.ke/advocate-lewis-uriri-declines-us350000-gift-package-from-wicknell-chivayo/",
     "https://www.ghafla.co.ke/akothee-hits-back-at-critics-over-outfit-worn-with-luo-leaders/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/russian-cargo-ship-catches-fire-after-suspected-ukrainian-drone-attack-in-gulf-of-finland/",
     "https://www.ghafla.co.ke/ps-omollo-lauds-governments-deliberate-investment-in-youth-education-jobs-and-tvets-during-embu-tour/",
     "https://www.ghafla.co.ke/us-based-kenyans-pledge-sh100-million-towards-sifunas-2027-presidential-bid/",
-    "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackout-in-parts-of-nairobi-and-uasin-gishu/"
+    "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackout-in-parts-of-nairobi-and-uasin-gishu/",
+    "https://www.ghafla.co.ke/isaya-yunge-shares-inspirational-message-weeks-after-wedding-to-charlene-ruto/"
   ],
   "published_angles": [
-    {
-      "title": "Mike Sonko Fires Warning at Kalonzo\u2019s Handlers After Back-to-Back Meetings With Muthama and Alfred Mutua",
-      "angle": "Focusing on Sonko's political shuttle diplomacy and his direct call-out of Kalonzo's inner circle following back-to-back meetings with key Ukambani power brokers Muthama and Mutua.",
-      "angle_type": "personality intervention and regional alignment strategy",
-      "opening": "Personality lead focusing directly on Mike Sonko taking aim at Kalonzo Musyoka's handlers following consultations with Muthama and Mutua.",
-      "structure": "Personality hook -> Social media warning and 'bogus noise makers' breakdown -> The Muthama and Mutua meeting timeline -> Strategic realignment and NEDP posture -> Unresolved coalition landscape close",
-      "source": "https://www.ghafla.co.ke/mike-sonko-hints-at-kalonzo-musyoka-working-with-ruto-ahead-of-2027/"
-    },
     {
       "title": "Bahati Counters Ksh 100M Speculation With Ksh 10M Accounting After 'Big Day' Teaser Stunt",
       "angle": "Focusing on Bahati's specific financial audit and publicity mechanics\u2014unpacking how he countered Ksh 100 million online rumors with an actual Ksh 10 million accounting for his foundation while defending his Ksh 1 million invitation tactic and political donor vetting on live television.",
@@ -1803,6 +1795,14 @@
       "opening": "Opening directly on top-tier leisure and corporate sites along Mombasa Road caught in the planned grid shutdown.",
       "structure": "Hospitality/Corporate hook -> Mombasa Road and Industrial Area breakdown -> Central business district & Parklands medical zone -> Uasin Gishu North Rift coverage -> Utility advisory close.",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackout-in-parts-of-nairobi-and-uasin-gishu/"
+    },
+    {
+      "title": "Isaya Yunge Invokes Malawian Innovator\u2019s Story to Frame Public Persona After Charlene Ruto Wedding",
+      "angle": "Focusing on Yunge's deliberate public messaging strategy after joining Kenya's first family\u2014specifically his deployment of Malawian innovator William Kamkwamba's story to project personal resilience, ambition, and spiritual focus beyond his high-profile marriage.",
+      "angle_type": "public persona and motivational strategy",
+      "opening": "Personality lead opening directly on Isaya Yunge using the life story of Malawian inventor William Kamkwamba to anchor his social media message following his wedding to Charlene Ruto.",
+      "structure": "Person/Hook -> Social media message breakdown & Kamkwamba allegory -> Post-wedding timeline (Mwanza ceremony & Kalenjin traditional rite) -> Faith-centered public strategy -> Concrete close",
+      "source": "https://www.ghafla.co.ke/isaya-yunge-shares-inspirational-message-weeks-after-wedding-to-charlene-ruto/"
     }
   ],
   "style_history": [
