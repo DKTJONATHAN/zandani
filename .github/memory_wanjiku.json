@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "9c504bd698a76a7d540b4b9025eaf41568b9040d7753cf39b96b02b3713e19eb",
     "8cd09673f8bf7962cce8d018a3fe5b6e58b364d1203811c32db275a67771c49c",
     "1b46d5acdd66d08a7c56b6a6c436ccc22fc3cfacc1049724622ebec780771636",
     "3328cc9305fd96d7a3a132566e7f5688f7eb1b3c123438b12654cb1ef4937cba",
@@ -499,10 +498,10 @@
     "6fd6d9ced50b4089d76569b029d991f8802b82c106cecac227be343ba09743d7",
     "4a201455123b3835201b48c05b1789f3a124514d73033f666b9683cddc6d9a8d",
     "25a3e53bc9587259625318a95dd49fc08908e93054231fd3ce1a97415ecc6015",
-    "c7aa7c2fb6d593a59f161271863915ad0f8c8d345632bdbbe71ec6cd52204ff6"
+    "c7aa7c2fb6d593a59f161271863915ad0f8c8d345632bdbbe71ec6cd52204ff6",
+    "a7cfd49dd28fd701eeb4ab7a749b3bfa027e5b53ec5a1c1b842c809bcbb4765f"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/high-court-upholds-iebc-national-tallying-powers/",
     "https://www.ghafla.co.ke/advocate-lewis-uriri-declines-us350000-gift-package-from-wicknell-chivayo/",
     "https://www.ghafla.co.ke/akothee-hits-back-at-critics-over-outfit-worn-with-luo-leaders/",
     "https://www.ghafla.co.ke/mike-sonko-adds-maserati-levante-to-his-expansive-luxury-car-collection/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/ps-omollo-lauds-governments-deliberate-investment-in-youth-education-jobs-and-tvets-during-embu-tour/",
     "https://www.ghafla.co.ke/us-based-kenyans-pledge-sh100-million-towards-sifunas-2027-presidential-bid/",
     "https://www.ghafla.co.ke/kenya-power-announces-sunday-blackout-in-parts-of-nairobi-and-uasin-gishu/",
-    "https://www.ghafla.co.ke/isaya-yunge-shares-inspirational-message-weeks-after-wedding-to-charlene-ruto/"
+    "https://www.ghafla.co.ke/isaya-yunge-shares-inspirational-message-weeks-after-wedding-to-charlene-ruto/",
+    "https://www.ghafla.co.ke/baba-talisha-undergoes-successful-eye-surgery-ahead-of-india-trip/"
   ],
   "published_angles": [
-    {
-      "title": "Bahati Counters Ksh 100M Speculation With Ksh 10M Accounting After 'Big Day' Teaser Stunt",
-      "angle": "Focusing on Bahati's specific financial audit and publicity mechanics\u2014unpacking how he countered Ksh 100 million online rumors with an actual Ksh 10 million accounting for his foundation while defending his Ksh 1 million invitation tactic and political donor vetting on live television.",
-      "angle_type": "financial disclosure and publicity mechanics",
-      "opening": "Direct focus on Bahati presenting live television financial math to reset public expectations around his campaign.",
-      "structure": "Financial disclosure lead -> Clarification of wedding assumptions & NTV context -> Breakdown of Ksh 1M entry tag & business video numbers -> Ksh 10M foundation accounting vs Ksh 100M rumors -> Political vetting & CS invite defense -> Operational close on 2027 context.",
-      "source": "https://www.ghafla.co.ke/bahati-reveals-millions-he-raised-after-wedding-eventty/"
-    },
     {
       "title": "Maureen Orango Details Ksh 1M Profit Loss That Reshaped Her 7-Business Hustle Portfolio",
       "angle": "Focusing on Maureen Orango's candid financial reckoning\u2014specifically how losing control of a Ksh 1 million profit windfall to personal spending forced her to build strict accounting rules across her seven-venture portfolio.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Isaya Yunge using the life story of Malawian inventor William Kamkwamba to anchor his social media message following his wedding to Charlene Ruto.",
       "structure": "Person/Hook -> Social media message breakdown & Kamkwamba allegory -> Post-wedding timeline (Mwanza ceremony & Kalenjin traditional rite) -> Faith-centered public strategy -> Concrete close",
       "source": "https://www.ghafla.co.ke/isaya-yunge-shares-inspirational-message-weeks-after-wedding-to-charlene-ruto/"
+    },
+    {
+      "title": "Baba Talisha Secures Local Cornea Graft as Family Maps Out Diagnostic India Trip",
+      "angle": "Reframing the story around the multi-stage medical strategy revealed by the family\u2014explaining how the local transplant was an urgent measure to arrest legal blindness, while the upcoming India trip targets pathogen identification to prevent tissue rejection.",
+      "angle_type": "medical strategy and treatment sequence",
+      "opening": "Personality lead focusing directly on Baba Talisha securing a crucial local cornea transplant in Kenya to save his sight while preparing for diagnostic care abroad.",
+      "structure": "Person lead & local surgery outcome -> Details of the Saturday cornea transplant -> Miss Wanjey's breakdown of the India diagnostic plan vs surgery -> Risks of rejection, infection, and financial support -> Concrete close on travel clearance.",
+      "source": "https://www.ghafla.co.ke/baba-talisha-undergoes-successful-eye-surgery-ahead-of-india-trip/"
     }
   ],
   "style_history": [
