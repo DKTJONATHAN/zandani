@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "3328cc9305fd96d7a3a132566e7f5688f7eb1b3c123438b12654cb1ef4937cba",
     "2d33f90d700c5222db3984baea56dc0095de37ec8c79668b8f74be628da5a7fa",
     "d7ad408ee8658a9cdd95bb6d19254f5579fdf00959272173132643d2ed16bd06",
     "6e93a30691b5cdd14260742d6ecd26a24b65c75850b7a7c65d78fb9b997ef4ff",
@@ -499,10 +498,10 @@
     "c7aa7c2fb6d593a59f161271863915ad0f8c8d345632bdbbe71ec6cd52204ff6",
     "a7cfd49dd28fd701eeb4ab7a749b3bfa027e5b53ec5a1c1b842c809bcbb4765f",
     "b42cd4a5ad02947fda917819817a894a4dcfea9108de599b108f1743e02e2ee0",
-    "323a86453dfffb9a918f287476b2ddca37eb2495664e768b0655b24280e6eb7b"
+    "323a86453dfffb9a918f287476b2ddca37eb2495664e768b0655b24280e6eb7b",
+    "e47d2f9b3b9bcf33afd5484cc6e823bc19eaa9f1f48088b2aedb1a32713fc3e4"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/mike-sonko-adds-maserati-levante-to-his-expansive-luxury-car-collection/",
     "https://www.ghafla.co.ke/boundaries-and-public-office-omangas-school-attire-trend-sparks-debate-online/",
     "https://www.ghafla.co.ke/from-subsidies-to-value-addition-how-four-years-of-reforms-are-reshaping-kenyas-tea-industry/",
     "https://www.ghafla.co.ke/danstan-omari-explains-why-obado-could-compensate-sharon-otienos-family-and-still-go-to-jail/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/isaya-yunge-shares-inspirational-message-weeks-after-wedding-to-charlene-ruto/",
     "https://www.ghafla.co.ke/baba-talisha-undergoes-successful-eye-surgery-ahead-of-india-trip/",
     "https://www.ghafla.co.ke/eacc-warns-2027-aspirants-over-fake-academic-papers-as-agency-recovers-sh41-2m-in-forgery-crackdown/",
-    "https://www.ghafla.co.ke/high-court-summons-dci-boss-mohammed-amin-over-missing-tanzanian-activist-twaha-mwaipaya/"
+    "https://www.ghafla.co.ke/high-court-summons-dci-boss-mohammed-amin-over-missing-tanzanian-activist-twaha-mwaipaya/",
+    "https://www.ghafla.co.ke/gachagua-warns-oof-historical-election-violence-risk-as-he-petitions-un-to-intervene/"
   ],
   "published_angles": [
-    {
-      "title": "Bahati Details Campaign Trail Epiphany: How VIP Gigs and Ghetto Goons Pushed Him Into Mathare Race",
-      "angle": "Centering on Bahati's backstage reckoning on the campaign trail\u2014specifically how the contrast between pocketing performance fees to endorse political elites and watching his former schoolmates hired as street goons drove his impulsive, ill-timed 2022 bid, reshaping his early tactical runway for 2027.",
-      "angle_type": "celebrity campaign trail awakening and political mechanics",
-      "opening": "Personality lead focusing on Bahati confronting the hypocrisy of his past lucrative campaign trail bookings versus the reality of Mathare's ground politics.",
-      "structure": "Campaign gig epiphany hook -> The goon economy vs VIP stage contrast -> Mechanism of coalition ticket-dumping in Mathare -> Dissecting the 2022 8,166-vote ballot reality -> Groundwork and timing reset for 2027",
-      "source": "https://www.ghafla.co.ke/no-homegrown-mp-bahati-faults-outside-candidates-for-slow-development-in-mathare/"
-    },
     {
       "title": "Pastor Ng\u2019ang\u2019a Invokes 20-Year Prison Past to Scorn Mackenzie\u2019s 200-Year Term",
       "angle": "Focusing on Ng'ang'a's strategic pulpit maneuver: weaponizing his own two-decade criminal record and prison survival (1972\u20131992) to draw a hard theological and personal line against Mackenzie, framing the Shakahola starvation orders as cowardly hypocrisy rather than true ministry.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Mohammed Amin and the specific court order he faces.",
       "structure": "Focus on Amin and the court's direct demand -> Context of previous police statements and denials -> Details of the abduction and legal proceedings -> The role of witnesses -> Next steps and specific date for Amin's appearance.",
       "source": "https://www.ghafla.co.ke/high-court-summons-dci-boss-mohammed-amin-over-missing-tanzanian-activist-twaha-mwaipaya/"
+    },
+    {
+      "title": "Rigathi Gachagua Takes Confrontational 2027 Election Warnings Straight to UN Office in Nairobi",
+      "angle": "The source details Gachagua's allegations, but an entertainment desk can frame this as a calculated, high-stakes public performance by a prominent political figure, underscoring his confrontational political brand and the deliberate escalation of grievances to an international audience.",
+      "angle_type": "political persona and strategic public action",
+      "opening": "Personality lead opening directly on the prominent figure and their most significant public action/statement.",
+      "structure": "Person, hook, verified detail, context, close (focusing on the persona's actions and the controversy generated).",
+      "source": "https://www.ghafla.co.ke/gachagua-warns-oof-historical-election-violence-risk-as-he-petitions-un-to-intervene/"
     }
   ],
   "style_history": [
