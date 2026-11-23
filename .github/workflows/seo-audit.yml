@@ -33,11 +33,11 @@ jobs:
           else
             echo "No seo_audit.py — basic frontmatter check"
             python - <<'PY'
-            import pathlib
-            for p in pathlib.Path('content/posts').glob('*.md'):
-                t = p.read_text(encoding='utf-8', errors='replace')
-                if not t.startswith('---'):
-                    print('no fm', p)
-            print('done')
-            PY
+          import pathlib
+          for p in pathlib.Path('content/posts').glob('*.md'):
+              t = p.read_text(encoding='utf-8', errors='replace')
+              if not t.startswith('---'):
+                  print('no fm', p)
+          print('done')
+          PY
           fi
