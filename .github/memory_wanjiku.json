@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "8f09e7e16b5251b4ae3809c69128ec2ec4685634268954cb8b5c0f19a6990998",
     "a697aea7474ef3580e930ce0282e2994ba435fc581bac3658b337d2b86f6f671",
     "d7fc54890c21ecd8b05099dc3a7f64490fc8591fdf6a877e58e2e7bc96084f67",
     "437b6488974875105567311c412a348c73318e231b48a009d37fbe0ed8938eea",
@@ -499,10 +498,10 @@
     "5ad9def94179a6a34c780182a6590b5c6a9b65c61483ad729216ea502755f889",
     "a397d9170a7ccff81e1ddf6c9b8146858236ef71a07575e6931ded7d63d10dda",
     "dc45a78a512b8df2e0969d91211a1c4f32f43b8650afa89fdcf632d9d7567ff7",
-    "931d9defbe2e7278e620ec74feed77ae785884b9ae6fa8089885d90335dc468b"
+    "931d9defbe2e7278e620ec74feed77ae785884b9ae6fa8089885d90335dc468b",
+    "20cd3dbddea5384c1083a3ae9e7a68c704b7d34538c39c468563e8410052b57e"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/mosiria-warns-sifuna-against-reconciliation-with-babu-owino/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-five-counties-on-september-23/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-six-counties-on-september-24/",
     "https://www.ghafla.co.ke/eve-mungai-opens-up-about-body-shaming-during-her-43kg-phase/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/kenya-power-announces-tuesday-blackout-in-parts-of-nairobi-kiambu-garissa-and-coast/",
     "https://www.ghafla.co.ke/viral-clip-shows-frida-kajala-refusing-harmonizes-hug-at-nairobi-event/",
     "https://www.ghafla.co.ke/khaligraph-jones-praises-willy-paul-calls-him-one-of-the-most-talented-artistes-of-his-generation/",
-    "https://www.ghafla.co.ke/our-youths-are-not-a-lost-generation-pastor-kanyari-pledges-to-tackle-drug-abuse-and-joblessness-in-kasarani/"
+    "https://www.ghafla.co.ke/our-youths-are-not-a-lost-generation-pastor-kanyari-pledges-to-tackle-drug-abuse-and-joblessness-in-kasarani/",
+    "https://www.ghafla.co.ke/what-a-man-can-do-a-woman-can-do-better-ruto-praises-first-lady-rachel-for-mobilizing-women-across-45-counties/"
   ],
   "published_angles": [
-    {
-      "title": "After Gastric Balloon, Ozempic, and Mounjaro, Kelvin Kinuthia Jokes Off FDA Vision Loss Advisory",
-      "angle": "Juxtaposing Kinuthia's lighthearted online reaction against the specific four-year documented timeline of his clinical weight-loss procedures, contrasting creator transparency with emerging global pharmaceutical safety alerts.",
-      "angle_type": "celebrity medical journey contrast",
-      "opening": "Personality lead introducing Kinuthia's witty comment directly against the backdrop of the global medical advisory.",
-      "structure": "Social media reaction hook -> Multi-year weight transformation breakdown -> Specific FDA label directive and NAION medical details -> Clinical guidance and public context close.",
-      "source": "https://www.ghafla.co.ke/kelvin-kinuthia-reacts-to-fda-blindness-warning-on-ozempic-surgery/"
-    },
     {
       "title": "Aden Duale Targets Dec 23 Ebola-Free Clearance as Western Powers Issue 99% Outbreak Risk Warning for South Sudan",
       "angle": "Framing the health alert around Cabinet Secretary Aden Duale's precise December 23 clearance milestone following Kenya's contained October cluster, juxtaposed with cross-border trade exposure and six-nation diplomatic pressure on Juba.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Pastor Kanyari's political aspirations and the verifiable gap in his announced plan.",
       "structure": "Lead on Kanyari's pledge and the noted implementation gap -> Detail Kanyari's specific policy priorities and motivations -> Quote his reframing of youth -> Reiterate the source's observation about missing operational details and its significance for a political aspirant -> Contextualize his transition from pulpit to politics -> Conclude on the immediate implications of this specific policy presentation.",
       "source": "https://www.ghafla.co.ke/our-youths-are-not-a-lost-generation-pastor-kanyari-pledges-to-tackle-drug-abuse-and-joblessness-in-kasarani/"
+    },
+    {
+      "title": "William Ruto Concedes Ground to Rachel: How First Lady Outdid His Eldoret North Playbook",
+      "angle": "Reframing the State House address around Ruto's rare public surrender of his political organizing bragging rights to his wife, centering on his candid admission of personal defeat at the constituency level in Eldoret North compared to Rachel's nationwide table-banking footprint.",
+      "angle_type": "marital dynamic and public admission of grassroots outmaneuvering",
+      "opening": "Personality lead opening directly on William Ruto conceding ground on political organizing to Rachel Ruto before a State House audience.",
+      "structure": "Person and hook -> Eldoret North mobilization confession -> The State House quote and gender remark -> Background of JOYWO's 17-year table banking network -> Ground reach comparison and closing factual marker.",
+      "source": "https://www.ghafla.co.ke/what-a-man-can-do-a-woman-can-do-better-ruto-praises-first-lady-rachel-for-mobilizing-women-across-45-counties/"
     }
   ],
   "style_history": [
