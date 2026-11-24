@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "9b3e41107b3f809b6786b4e7eb6e04b75e88daaf8df1b869de80c10c5a8bc288",
     "9c4d80027f1305d8f159f6a60e17cb623309e932cde9f48eb8991bd54678b84e",
     "cce326f97c27b1d7b4ac51db73562c59f2dd5c837d2f9bb54d01b8dc1b6dad5c",
     "932b063c6795577069cc24bda884b941b88e8d5d5bae077d8e863a499dd2d3a7",
@@ -499,10 +498,10 @@
     "cc8019a2ee77182032262dd9fea926e4c063c5c1db240ad4b64e591a1464544b",
     "d87fe344771e9de5de0674af7391bac5ec1c66f77abc0150bf749f8baaa632fd",
     "0a7ec66193eefc7b64cbb0befb6f2300bf131107d2f572794113912dc8949569",
-    "9d628af28d5faf406d247bef5ffcacde3496ca0be32b0da908a9f611d105d57f"
+    "9d628af28d5faf406d247bef5ffcacde3496ca0be32b0da908a9f611d105d57f",
+    "82f9779d5ec24bcefd85b75691d5538c50f8d644919377c27de9dc771a8905de"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/okello-max-reveals-first-job-salary-and-school-struggles/",
     "https://www.ghafla.co.ke/tanzanian-fans-praise-charlene-ruto-as-she-attends-unga-in-new-york/",
     "https://www.ghafla.co.ke/eacc-warns-voters-against-ethnicity-and-bribes-ahead-of-2027-general-election/",
     "https://www.ghafla.co.ke/victor-kanyari-admits-ministry-began-as-a-financial-decision-not-divine-calling/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/nairobi-confirmed-as-kenyas-sole-host-city-for-afcon-2027/",
     "https://www.ghafla.co.ke/natembeya-slams-babu-owino-over-sifuna-deal-says-he-is-not-part-of-linda-mwananchi/",
     "https://www.ghafla.co.ke/kanyari-explains-why-he-ditched-other-parties-for-gachaguas-dcp/",
-    "https://www.ghafla.co.ke/pastor-kanyari-defends-morgan-bahati-against-critics-over-debut-song-zoza/"
+    "https://www.ghafla.co.ke/pastor-kanyari-defends-morgan-bahati-against-critics-over-debut-song-zoza/",
+    "https://www.ghafla.co.ke/creme-de-la-creme-opens-up-about-four-year-ordeal-before-2015-video-leak/"
   ],
   "published_angles": [
-    {
-      "title": "Janet Mbugua and Mercy Masika Sit Down to Reframe 'Becoming a Wife' Masterclass Controversy",
-      "angle": "Examining how the two public figures pivoted from a sharp online debate over female marital burden versus systemic GBV accountability into a structured studio sit-down reframing domestic safety ahead of the November 21 masterclass launch.",
-      "angle_type": "celebrity dialogue and cultural debate reconciliation",
-      "opening": "Personality lead opening directly on Janet Mbugua and Mercy Masika on a studio set.",
-      "structure": "Studio sit-down hook -> Joint Instagram statement breakdown -> Mbugua's original critique on male accountability and GBV -> The public figure line-up split -> Masterclass timeline and broadcast close.",
-      "source": "https://www.ghafla.co.ke/janet-mbugua-and-mercy-masika-meet-weeks-after-public-disagreement-over-marriage-masterclass/"
-    },
     {
       "title": "Chebet Ronoh and Sheila Kiguta Step Into The Alchemist Ring as Celebrity Fight Nights Expands",
       "angle": "Examining the specific programming shift behind the card\u2014how HustleSasa and Barak Jacuzzi responded directly to podcaster Mariah's public call for female representation after the second edition.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Pastor Victor Kanyari stepping in from the pulpit to endorse Morgan Bahati as the family brand transitions to politics.",
       "structure": "Kanyari pulpit co-sign -> Direct sermon quotes -> Kevin Bahati's multi-year holding strategy -> Political hiatus and Mathare 2027 campaign context -> Next steps for the debut project.",
       "source": "https://www.ghafla.co.ke/pastor-kanyari-defends-morgan-bahati-against-critics-over-debut-song-zoza/"
+    },
+    {
+      "title": "DJ Creme De La Creme Reveals 4-Year Blackmail Ordeal Preceded 2015 Tape Leak",
+      "angle": "Reframing the infamous 2015 scandal not as a sudden public shock, but as the explosive climax of a silent, four-year extortion ordeal where the entertainer operated under active threats long before the footage hit the internet.",
+      "angle_type": "behind-the-scenes timeline revelation",
+      "opening": "Personality lead opening directly on DJ Creme De La Creme detailing the hidden four-year timeline of extortion preceding the November 5, 2015 leak.",
+      "structure": "Person and hook -> Extortion timeline revelation -> 2015 fallout and public admission -> The 2021 marital test and reconciliation philosophy -> Concrete close",
+      "source": "https://www.ghafla.co.ke/creme-de-la-creme-opens-up-about-four-year-ordeal-before-2015-video-leak/"
     }
   ],
   "style_history": [
