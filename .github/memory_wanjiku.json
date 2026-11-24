@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "cce326f97c27b1d7b4ac51db73562c59f2dd5c837d2f9bb54d01b8dc1b6dad5c",
     "932b063c6795577069cc24bda884b941b88e8d5d5bae077d8e863a499dd2d3a7",
     "0c6d88aeb08a6c8876c05b878e70e25db9a09f60e38a3ec92f9fade4f4d6f775",
     "8f09e7e16b5251b4ae3809c69128ec2ec4685634268954cb8b5c0f19a6990998",
@@ -499,10 +498,10 @@
     "0a7ec66193eefc7b64cbb0befb6f2300bf131107d2f572794113912dc8949569",
     "9d628af28d5faf406d247bef5ffcacde3496ca0be32b0da908a9f611d105d57f",
     "82f9779d5ec24bcefd85b75691d5538c50f8d644919377c27de9dc771a8905de",
-    "5ad9def94179a6a34c780182a6590b5c6a9b65c61483ad729216ea502755f889"
+    "5ad9def94179a6a34c780182a6590b5c6a9b65c61483ad729216ea502755f889",
+    "a397d9170a7ccff81e1ddf6c9b8146858236ef71a07575e6931ded7d63d10dda"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/eacc-warns-voters-against-ethnicity-and-bribes-ahead-of-2027-general-election/",
     "https://www.ghafla.co.ke/victor-kanyari-admits-ministry-began-as-a-financial-decision-not-divine-calling/",
     "https://www.ghafla.co.ke/who-is-lewis-uriri-the-zimbabwean-lawyer-who-turned-down-chivayos-ksh45-million-gift/",
     "https://www.ghafla.co.ke/mosiria-warns-sifuna-against-reconciliation-with-babu-owino/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/kanyari-explains-why-he-ditched-other-parties-for-gachaguas-dcp/",
     "https://www.ghafla.co.ke/pastor-kanyari-defends-morgan-bahati-against-critics-over-debut-song-zoza/",
     "https://www.ghafla.co.ke/creme-de-la-creme-opens-up-about-four-year-ordeal-before-2015-video-leak/",
-    "https://www.ghafla.co.ke/kenya-power-announces-tuesday-blackout-in-parts-of-nairobi-kiambu-garissa-and-coast/"
+    "https://www.ghafla.co.ke/kenya-power-announces-tuesday-blackout-in-parts-of-nairobi-kiambu-garissa-and-coast/",
+    "https://www.ghafla.co.ke/viral-clip-shows-frida-kajala-refusing-harmonizes-hug-at-nairobi-event/"
   ],
   "published_angles": [
-    {
-      "title": "Isaya Yunge Steps Into Public View With Pastoral Note After Mwanza Nuptials",
-      "angle": "Examining how Yunge established his public persona as presidential son-in-law: bypassing conventional luxury wedding fanfare to deliver a pastoral benediction for struggling followers, directly following Charlene's disclosure that he took sole charge of the Mwanza white wedding logistics while Rachel Ruto managed the Narok traditional rites.",
-      "angle_type": "public persona debut and marital division of labor",
-      "opening": "Direct personality lead introducing Isaya Yunge stepping out publicly on social media post-nuptials with a spiritual declaration rather than society-page spectacle.",
-      "structure": "Personality lead on Yunge's public debut -> The November 12 post, photo, and pastoral benediction details -> Charlene's earlier disclosure on wedding division of labor (Mwanza vs. Kilgoris) -> The two-stage cross-border timeline -> Concrete close on the new marital public footing.",
-      "source": "https://www.ghafla.co.ke/i-am-blessed-abundantly-isaya-yunge-celebrates-being-charlene-rutos-husband-in-emotional-post/"
-    },
     {
       "title": "Raila Junior Delivers Swahili Marital Counsel from Tanzania to Isaya Yunge Following Charlene Ruto Nuptials",
       "angle": "Framing the video message around the traditional Swahili cultural proverbs and marital expectations delivered directly from Tanzania to the new presidential son-in-law.",
@@ -1803,6 +1795,14 @@
       "opening": "Direct focus on the geographic footprint and operational toll of the Tuesday power interruptions.",
       "structure": "Regional impact overview -> Coastal and Northern county specifics -> Nairobi and Kiambu scheduling -> Concrete close on alternative planning.",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-tuesday-blackout-in-parts-of-nairobi-kiambu-garissa-and-coast/"
+    },
+    {
+      "title": "Frida Kajala Rebuffs Harmonize Courtside in Nairobi Months After Confirmed Third Split",
+      "angle": "Focusing on the public boundary enforcement by Kajala during an international sporting event in Nairobi, examining how their public reunion unfolded in real time against the backdrop of Dar City's BAL tournament campaign just two months after their third split.",
+      "angle_type": "post-breakup public boundary and sports event context",
+      "opening": "Personality lead opening directly on Harmonize's courtside approach in Nairobi and Kajala's decisive physical rejection.",
+      "structure": "Personality hook -> Detailed breakdown of the video interaction -> Sporting context and reason for Nairobi visit -> Relationship timeline and September split context -> Concrete close on tournament schedule.",
+      "source": "https://www.ghafla.co.ke/viral-clip-shows-frida-kajala-refusing-harmonizes-hug-at-nairobi-event/"
     }
   ],
   "style_history": [
