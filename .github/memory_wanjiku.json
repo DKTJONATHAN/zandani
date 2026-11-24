@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "0c6d88aeb08a6c8876c05b878e70e25db9a09f60e38a3ec92f9fade4f4d6f775",
     "8f09e7e16b5251b4ae3809c69128ec2ec4685634268954cb8b5c0f19a6990998",
     "a697aea7474ef3580e930ce0282e2994ba435fc581bac3658b337d2b86f6f671",
     "d7fc54890c21ecd8b05099dc3a7f64490fc8591fdf6a877e58e2e7bc96084f67",
@@ -499,10 +498,10 @@
     "82f9779d5ec24bcefd85b75691d5538c50f8d644919377c27de9dc771a8905de",
     "5ad9def94179a6a34c780182a6590b5c6a9b65c61483ad729216ea502755f889",
     "a397d9170a7ccff81e1ddf6c9b8146858236ef71a07575e6931ded7d63d10dda",
-    "dc45a78a512b8df2e0969d91211a1c4f32f43b8650afa89fdcf632d9d7567ff7"
+    "dc45a78a512b8df2e0969d91211a1c4f32f43b8650afa89fdcf632d9d7567ff7",
+    "931d9defbe2e7278e620ec74feed77ae785884b9ae6fa8089885d90335dc468b"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/who-is-lewis-uriri-the-zimbabwean-lawyer-who-turned-down-chivayos-ksh45-million-gift/",
     "https://www.ghafla.co.ke/mosiria-warns-sifuna-against-reconciliation-with-babu-owino/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-five-counties-on-september-23/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-six-counties-on-september-24/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/creme-de-la-creme-opens-up-about-four-year-ordeal-before-2015-video-leak/",
     "https://www.ghafla.co.ke/kenya-power-announces-tuesday-blackout-in-parts-of-nairobi-kiambu-garissa-and-coast/",
     "https://www.ghafla.co.ke/viral-clip-shows-frida-kajala-refusing-harmonizes-hug-at-nairobi-event/",
-    "https://www.ghafla.co.ke/khaligraph-jones-praises-willy-paul-calls-him-one-of-the-most-talented-artistes-of-his-generation/"
+    "https://www.ghafla.co.ke/khaligraph-jones-praises-willy-paul-calls-him-one-of-the-most-talented-artistes-of-his-generation/",
+    "https://www.ghafla.co.ke/our-youths-are-not-a-lost-generation-pastor-kanyari-pledges-to-tackle-drug-abuse-and-joblessness-in-kasarani/"
   ],
   "published_angles": [
-    {
-      "title": "Geoffrey Mosiria Invokes \u2018Riggy G\u2019 Approval After Karen Sit-Down with Gachagua and Matiang\u2019i",
-      "angle": "Mosiria's tactical deployment of Gachagua's popular 'Riggy G' moniker to construct a 'worker over politician' candidate persona ahead of his upcoming Thika Road public mobilization.",
-      "angle_type": "political branding and strategic alignment",
-      "opening": "Personality lead opening directly on Geoffrey Mosiria walking out of Rigathi Gachagua's Karen residence claiming informal endorsement for his 2027 Nairobi gubernatorial run.",
-      "structure": "Karen meeting hook -> The 'Riggy G' quote and administrator narrative -> Cross-faction political maneuvering -> Details of the Sunday Thika Road launch.",
-      "source": "https://www.ghafla.co.ke/geoffrey-mosiria-declares-2027-governor-bid-after-meeting-gachagua-and-matiangi/"
-    },
     {
       "title": "After Gastric Balloon, Ozempic, and Mounjaro, Kelvin Kinuthia Jokes Off FDA Vision Loss Advisory",
       "angle": "Juxtaposing Kinuthia's lighthearted online reaction against the specific four-year documented timeline of his clinical weight-loss procedures, contrasting creator transparency with emerging global pharmaceutical safety alerts.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Khaligraph Jones pulling back the curtain on his private phone calls to Willy Paul.",
       "structure": "Person lead on phone call revelations -> Breakdown of talent vs divine grace quotes -> Context of industry turbulence and 'nine lives' observation -> Willy Paul's direct response -> Concrete close on peer solidarity.",
       "source": "https://www.ghafla.co.ke/khaligraph-jones-praises-willy-paul-calls-him-one-of-the-most-talented-artistes-of-his-generation/"
+    },
+    {
+      "title": "Pastor Kanyari\u2019s Kasarani Youth Plan: Grand Vision, Missing Blueprint for Funding and Jobs",
+      "angle": "While Kanyari presented a detailed vision for Kasarani youth, his public statement explicitly lacked any outline of the specific funding mechanisms or implementation frameworks for his proposed programs.",
+      "angle_type": "Unresolved Factual Question / Practical Implementation Gap",
+      "opening": "Personality lead opening directly on Pastor Kanyari's political aspirations and the verifiable gap in his announced plan.",
+      "structure": "Lead on Kanyari's pledge and the noted implementation gap -> Detail Kanyari's specific policy priorities and motivations -> Quote his reframing of youth -> Reiterate the source's observation about missing operational details and its significance for a political aspirant -> Contextualize his transition from pulpit to politics -> Conclude on the immediate implications of this specific policy presentation.",
+      "source": "https://www.ghafla.co.ke/our-youths-are-not-a-lost-generation-pastor-kanyari-pledges-to-tackle-drug-abuse-and-joblessness-in-kasarani/"
     }
   ],
   "style_history": [
