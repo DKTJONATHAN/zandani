@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "932b063c6795577069cc24bda884b941b88e8d5d5bae077d8e863a499dd2d3a7",
     "0c6d88aeb08a6c8876c05b878e70e25db9a09f60e38a3ec92f9fade4f4d6f775",
     "8f09e7e16b5251b4ae3809c69128ec2ec4685634268954cb8b5c0f19a6990998",
     "a697aea7474ef3580e930ce0282e2994ba435fc581bac3658b337d2b86f6f671",
@@ -499,10 +498,10 @@
     "9d628af28d5faf406d247bef5ffcacde3496ca0be32b0da908a9f611d105d57f",
     "82f9779d5ec24bcefd85b75691d5538c50f8d644919377c27de9dc771a8905de",
     "5ad9def94179a6a34c780182a6590b5c6a9b65c61483ad729216ea502755f889",
-    "a397d9170a7ccff81e1ddf6c9b8146858236ef71a07575e6931ded7d63d10dda"
+    "a397d9170a7ccff81e1ddf6c9b8146858236ef71a07575e6931ded7d63d10dda",
+    "dc45a78a512b8df2e0969d91211a1c4f32f43b8650afa89fdcf632d9d7567ff7"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/victor-kanyari-admits-ministry-began-as-a-financial-decision-not-divine-calling/",
     "https://www.ghafla.co.ke/who-is-lewis-uriri-the-zimbabwean-lawyer-who-turned-down-chivayos-ksh45-million-gift/",
     "https://www.ghafla.co.ke/mosiria-warns-sifuna-against-reconciliation-with-babu-owino/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-five-counties-on-september-23/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/pastor-kanyari-defends-morgan-bahati-against-critics-over-debut-song-zoza/",
     "https://www.ghafla.co.ke/creme-de-la-creme-opens-up-about-four-year-ordeal-before-2015-video-leak/",
     "https://www.ghafla.co.ke/kenya-power-announces-tuesday-blackout-in-parts-of-nairobi-kiambu-garissa-and-coast/",
-    "https://www.ghafla.co.ke/viral-clip-shows-frida-kajala-refusing-harmonizes-hug-at-nairobi-event/"
+    "https://www.ghafla.co.ke/viral-clip-shows-frida-kajala-refusing-harmonizes-hug-at-nairobi-event/",
+    "https://www.ghafla.co.ke/khaligraph-jones-praises-willy-paul-calls-him-one-of-the-most-talented-artistes-of-his-generation/"
   ],
   "published_angles": [
-    {
-      "title": "Raila Junior Delivers Swahili Marital Counsel from Tanzania to Isaya Yunge Following Charlene Ruto Nuptials",
-      "angle": "Framing the video message around the traditional Swahili cultural proverbs and marital expectations delivered directly from Tanzania to the new presidential son-in-law.",
-      "angle_type": "cross-political cultural commentary and marital counsel",
-      "opening": "Personality lead opening directly on Raila Odinga Junior recording from Tanzania to deliver Swahili marital counsel to Isaya Yunge.",
-      "structure": "Personality hook -> Verbatim Swahili advice and breakdown -> Joint statement from Yvonne and Junior -> Context of regional union and public resonance close.",
-      "source": "https://www.ghafla.co.ke/mwanamke-si-samaki-wa-kuanikwa-juani-raila-junior-offers-poetic-swahili-advice-to-isaya-yunge-and-charlene-ruto/"
-    },
     {
       "title": "Geoffrey Mosiria Invokes \u2018Riggy G\u2019 Approval After Karen Sit-Down with Gachagua and Matiang\u2019i",
       "angle": "Mosiria's tactical deployment of Gachagua's popular 'Riggy G' moniker to construct a 'worker over politician' candidate persona ahead of his upcoming Thika Road public mobilization.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Harmonize's courtside approach in Nairobi and Kajala's decisive physical rejection.",
       "structure": "Personality hook -> Detailed breakdown of the video interaction -> Sporting context and reason for Nairobi visit -> Relationship timeline and September split context -> Concrete close on tournament schedule.",
       "source": "https://www.ghafla.co.ke/viral-clip-shows-frida-kajala-refusing-harmonizes-hug-at-nairobi-event/"
+    },
+    {
+      "title": "Beyond the Hits: Khaligraph Jones Lifts Lid on Private Support Line to Willy Paul Amid Industry Storms",
+      "angle": "Reframing the story around Khaligraph's role as a behind-the-scenes mentor and direct check-in line, contrasting Willy Paul's stormy public career with the private solidarity offered by rap's elder statesman.",
+      "angle_type": "behind-the-scenes mentorship and industry support line",
+      "opening": "Personality lead opening directly on Khaligraph Jones pulling back the curtain on his private phone calls to Willy Paul.",
+      "structure": "Person lead on phone call revelations -> Breakdown of talent vs divine grace quotes -> Context of industry turbulence and 'nine lives' observation -> Willy Paul's direct response -> Concrete close on peer solidarity.",
+      "source": "https://www.ghafla.co.ke/khaligraph-jones-praises-willy-paul-calls-him-one-of-the-most-talented-artistes-of-his-generation/"
     }
   ],
   "style_history": [
