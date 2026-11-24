@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "a697aea7474ef3580e930ce0282e2994ba435fc581bac3658b337d2b86f6f671",
     "d7fc54890c21ecd8b05099dc3a7f64490fc8591fdf6a877e58e2e7bc96084f67",
     "437b6488974875105567311c412a348c73318e231b48a009d37fbe0ed8938eea",
     "bde178dfb1dc2a620bce79efa6539b1712d832cef30af1b6ae95f03c0ea0b73e",
@@ -499,10 +498,10 @@
     "a397d9170a7ccff81e1ddf6c9b8146858236ef71a07575e6931ded7d63d10dda",
     "dc45a78a512b8df2e0969d91211a1c4f32f43b8650afa89fdcf632d9d7567ff7",
     "931d9defbe2e7278e620ec74feed77ae785884b9ae6fa8089885d90335dc468b",
-    "20cd3dbddea5384c1083a3ae9e7a68c704b7d34538c39c468563e8410052b57e"
+    "20cd3dbddea5384c1083a3ae9e7a68c704b7d34538c39c468563e8410052b57e",
+    "3e3949037d3d97f9f87e9a5468f9a2369176b7b35378ff123cec1767268c6929"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-five-counties-on-september-23/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-electricity-maintenance-in-six-counties-on-september-24/",
     "https://www.ghafla.co.ke/eve-mungai-opens-up-about-body-shaming-during-her-43kg-phase/",
     "https://www.ghafla.co.ke/odm-leader-oburu-oginga-demands-answers-from-uhuru-kenyatta-over-2022-election-claims/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/viral-clip-shows-frida-kajala-refusing-harmonizes-hug-at-nairobi-event/",
     "https://www.ghafla.co.ke/khaligraph-jones-praises-willy-paul-calls-him-one-of-the-most-talented-artistes-of-his-generation/",
     "https://www.ghafla.co.ke/our-youths-are-not-a-lost-generation-pastor-kanyari-pledges-to-tackle-drug-abuse-and-joblessness-in-kasarani/",
-    "https://www.ghafla.co.ke/what-a-man-can-do-a-woman-can-do-better-ruto-praises-first-lady-rachel-for-mobilizing-women-across-45-counties/"
+    "https://www.ghafla.co.ke/what-a-man-can-do-a-woman-can-do-better-ruto-praises-first-lady-rachel-for-mobilizing-women-across-45-counties/",
+    "https://www.ghafla.co.ke/harmonize-appears-to-be-snubbed-by-ex-girlfriend-frida-kajala-during-nairobi-basketball-event/"
   ],
   "published_angles": [
-    {
-      "title": "Aden Duale Targets Dec 23 Ebola-Free Clearance as Western Powers Issue 99% Outbreak Risk Warning for South Sudan",
-      "angle": "Framing the health alert around Cabinet Secretary Aden Duale's precise December 23 clearance milestone following Kenya's contained October cluster, juxtaposed with cross-border trade exposure and six-nation diplomatic pressure on Juba.",
-      "angle_type": "personality countdown and border surveillance mechanics",
-      "opening": "Personality lead opening directly on Aden Duale establishing the December 23 Ebola-free clearance deadline.",
-      "structure": "CS countdown lead -> October cluster containment facts -> Six-nation diplomatic demand on Juba -> Cross-border trade exposure -> Facility readiness close.",
-      "source": "https://www.ghafla.co.ke/kenya-on-high-alert-as-western-allies-warn-of-99-ebola-outbreak-risk-in-south-sudan/"
-    },
     {
       "title": "Tyler Mbaya Swaps Studio Glitz for Red Dirt in Hands-On Bicycle Gift to Daughter Astra",
       "angle": "Framing the exchange through Mbaya's deliberate focus on unpolished, dirt-ground parenting milestones rather than high-production social media spectacle.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on William Ruto conceding ground on political organizing to Rachel Ruto before a State House audience.",
       "structure": "Person and hook -> Eldoret North mobilization confession -> The State House quote and gender remark -> Background of JOYWO's 17-year table banking network -> Ground reach comparison and closing factual marker.",
       "source": "https://www.ghafla.co.ke/what-a-man-can-do-a-woman-can-do-better-ruto-praises-first-lady-rachel-for-mobilizing-women-across-45-counties/"
+    },
+    {
+      "title": "Harmonize\u2019s \u2018You Acting Funny\u2019 Line Captures Courtside Friction With Frida Kajala in Nairobi",
+      "angle": "Centering on Harmonize's five-word audible remark ('You acting funny') and his rapid deflection to surrounding spectators to cover the courtside friction during Dar City's tournament opener.",
+      "angle_type": "verbal fallout and spectator pivot",
+      "opening": "Personality lead opening directly on Harmonize's verbal line as he attempted to pivot away from the awkward exchange.",
+      "structure": "Personality hook on Harmonize's remark -> Breakdown of the physical motion and pivot to surrounding fans -> Tournament backdrop details -> Timeline context of the 2026 split -> Closing on the remaining tournament schedule.",
+      "source": "https://www.ghafla.co.ke/harmonize-appears-to-be-snubbed-by-ex-girlfriend-frida-kajala-during-nairobi-basketball-event/"
     }
   ],
   "style_history": [
