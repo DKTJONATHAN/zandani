@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "e3a0b98d3cd6bdd4c73a20ddfb0010a0fc9ab3ca66eb81397a6a32b7707c42bb",
     "94042c735f0a1c06e457a9ea27a0f040c1d015c35f457bdfba92dbe5c730c222",
     "71163bbe30e812fb6d38aac573c78040338e51908713616b0b548e9c879a893b",
     "399fad367dfb4951c4b14beb30952d9f9ce72480d07791df4be25276d99d62fc",
@@ -499,10 +498,10 @@
     "571e592de7933e60187755d411620873ca8dbcb95fbddc9b64404d01af158dd8",
     "c17966a097b53657c12e6a5c4e393190864601ba193b7a7b5ca8d6aaac8a57a9",
     "b53c9331a80d4a2a715f6be2e7fe2e973dedad9cdf8de6df87a1f7fc2ec1ce96",
-    "164db79896e8522a0aa7c37a13e3d2cd71c722263786d9ccb00c3be030b2a460"
+    "164db79896e8522a0aa7c37a13e3d2cd71c722263786d9ccb00c3be030b2a460",
+    "c26cfd5f6a257c80a23d8ee2e64032f813ae3c0ac7f4dda31cd0e6593ebc5b9b"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/linus-kaikai-claims-kenya-is-a-one-term-nation-cites-electoral-manipulation-in-second-term-bids/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-nairobi-nyeri-and-meru/",
     "https://www.ghafla.co.ke/babu-owino-sets-record-straight-on-linda-mwananchi-partys-name-transition/",
     "https://www.ghafla.co.ke/mashujaa-day-preparations-gain-momentum-as-kipchoge-keino-stadium-reaches-68-per-cent-completion/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/bado-tunapepeta-festive-giveaway-2026-win-electronics-home-appliances-and-over-sh3-million-in-cash-prizes/",
     "https://www.ghafla.co.ke/kenya-power-announces-wednesday-outages-in-nairobi-machakos-kisii-and-other-counties/",
     "https://www.ghafla.co.ke/what-do-you-take-our-mothers-for-dr-ofweneke-slams-politician-distributing-branded-underwear-as-campaign-merch/",
-    "https://www.ghafla.co.ke/iebc-denies-clearing-rigathi-gachagua-to-contest-2027-presidential-election/"
+    "https://www.ghafla.co.ke/iebc-denies-clearing-rigathi-gachagua-to-contest-2027-presidential-election/",
+    "https://www.ghafla.co.ke/lavish-love-zuchu-thanks-diamond-platnumz-after-receiving-ksh1-05-million-lady-dior-bag/"
   ],
   "published_angles": [
-    {
-      "title": "Eric Omondi Locks Ksh 5.6M Sisi Kwa Sisi Fund for Bungoma Teen\u2019s Treatment and Business Start",
-      "angle": "The financial breakdown and operational mechanics of how the Sisi Kwa Sisi initiative is structuring the funds between medical treatment, schooling, and family business capital.",
-      "angle_type": "financial allocation and practical livelihood restructuring",
-      "opening": "Personality lead focusing directly on Eric Omondi's social media milestone declaration and the exact figures raised.",
-      "structure": "Fund milestone hook -> Background of the viral banana-selling video and Bungoma stigma -> Breakdown of the Sisi Kwa Sisi allocation plan (medical, education, livelihood) -> Direct family payout mechanism -> Concluding on the active deployment of funds.",
-      "source": "https://www.ghafla.co.ke/eric-omondi-announces-millions-that-have-been-raised-for-bungoma-teenager-battling-rare-skin-condition/"
-    },
     {
       "title": "Jalang\u2019o Draws the Line on Bahati\u2019s 2027 Bid Over 70% Airplay Blame Game",
       "angle": "Focusing on the collision between studio-era celebrity tactics and parliamentary realities\u2014specifically unpacking Jalang'o's direct demarcation that entering elective politics strips away entertainment immunity, after Bahati centered his 2027 campaign pitch on Jalang'o and Jaguar's failure to enact a 70-80% local airplay quota bill.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Rigathi Gachagua becoming the focus of nationwide presidential clearance speculation following an IEBC legal briefing in Nairobi.",
       "structure": "Personality hook on Gachagua's premature clearance storm -> Specific mechanics of Chrispine Owiye's Nov 24 media presentation on Articles 99 & 193 -> Breakdown of what was missing (Article 75 impeachment rules) -> Chair Erastus Edung Ethekon's formal corrective stance -> Nomination timelines and legal framework close.",
       "source": "https://www.ghafla.co.ke/iebc-denies-clearing-rigathi-gachagua-to-contest-2027-presidential-election/"
+    },
+    {
+      "title": "Zuchu Turns Diamond\u2019s Ksh1.05M Dubai Dior Purchase Into Prayer for Financial Bounty",
+      "angle": "Focusing on Zuchu\u2019s explicit choice to reframe the AED 30,000 expenditure as a public spiritual prayer for financial multiplication ('Allah Akurejeshee Pakubwa'), supported by insider eyewitness verification from Baba Levo during their Dubai shopping trip.",
+      "angle_type": "Spiritual framing of luxury spending and insider verification dynamic",
+      "opening": "Personality lead opening directly on Zuchu framing Diamond Platnumz's Ksh1.05M Dior purchase through a public prayer for wealth replenishment.",
+      "structure": "Person and hook -> Verified purchase metrics in Dubai -> Exact quote and spiritual framing -> Eyewitness role of Baba Levo -> Relationship and WCB context -> Strategic close.",
+      "source": "https://www.ghafla.co.ke/lavish-love-zuchu-thanks-diamond-platnumz-after-receiving-ksh1-05-million-lady-dior-bag/"
     }
   ],
   "style_history": [
