@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "4405cc436590b5c516d855781c5b0169e13e85858a868ca9ea52870c122d2da1",
     "d9c505c23ba1ed193f4aac38c6715ceb89d31e3e734181075f952556370a8c5b",
     "e3a0b98d3cd6bdd4c73a20ddfb0010a0fc9ab3ca66eb81397a6a32b7707c42bb",
     "94042c735f0a1c06e457a9ea27a0f040c1d015c35f457bdfba92dbe5c730c222",
@@ -499,10 +498,10 @@
     "5a05aa4a1f8b5b5f3df1f5f01b3197be076e9c9d2c6f881d819d4e2468c6be01",
     "c9da565dd77ec224543245a744519b006890222771df855a622ea01f28377427",
     "571e592de7933e60187755d411620873ca8dbcb95fbddc9b64404d01af158dd8",
-    "c17966a097b53657c12e6a5c4e393190864601ba193b7a7b5ca8d6aaac8a57a9"
+    "c17966a097b53657c12e6a5c4e393190864601ba193b7a7b5ca8d6aaac8a57a9",
+    "b53c9331a80d4a2a715f6be2e7fe2e973dedad9cdf8de6df87a1f7fc2ec1ce96"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/tanasha-donna-celebrates-zari-hassan-on-her-birthday/",
     "https://www.ghafla.co.ke/tumi-mathenge-and-jakes-nyanjom-hint-at-relationship-during-radio-interview/",
     "https://www.ghafla.co.ke/linus-kaikai-claims-kenya-is-a-one-term-nation-cites-electoral-manipulation-in-second-term-bids/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-nairobi-nyeri-and-meru/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/otile-brown-and-timmy-tdat-reunite-after-years-apart-leaving-fans-curious/",
     "https://www.ghafla.co.ke/zuchu-accuses-nandy-of-copying-her-style-as-rift-between-singers-resurfaces/",
     "https://www.ghafla.co.ke/bado-tunapepeta-festive-giveaway-2026-win-electronics-home-appliances-and-over-sh3-million-in-cash-prizes/",
-    "https://www.ghafla.co.ke/kenya-power-announces-wednesday-outages-in-nairobi-machakos-kisii-and-other-counties/"
+    "https://www.ghafla.co.ke/kenya-power-announces-wednesday-outages-in-nairobi-machakos-kisii-and-other-counties/",
+    "https://www.ghafla.co.ke/what-do-you-take-our-mothers-for-dr-ofweneke-slams-politician-distributing-branded-underwear-as-campaign-merch/"
   ],
   "published_angles": [
-    {
-      "title": "Sandra Dacha Drops the Gurney Drama to Joke About Lungs \u2018Attending Meetings\u2019 Before Surgery",
-      "angle": "Examining how Dacha systematically deflated weeks of somber operating-room suspense by pivoting to blunt, self-directed comedy, exposing the raw physical discomfort of respiratory strain that prompted her September 30 surgical intervention.",
-      "angle_type": "celebrity narrative recalibration and vulnerability through humor",
-      "opening": "Personality lead focusing on Dacha dismantling weeks of dramatic health intrigue by replacing surgical solemnity with sharp self-mockery.",
-      "structure": "The narrative pivot from suspense to comedy -> Breakdown of the hospital video and November 9 disclosure -> The physical reality behind the lung-function quip -> Sleeve gastrectomy surgical mechanics -> Grounded close on candid recovery documentation.",
-      "source": "https://www.ghafla.co.ke/sandra-dacha-opens-up-about-struggling-to-breathe-when-she-was-overweight/"
-    },
     {
       "title": "Mama Ida Odinga Draws the Line on ODM, Doubling Down on Ruto\u2019s Broad-Based Deal",
       "angle": "Framing Ida Odinga's intervention through her role as political matriarch and custodian of her late husband's legacy, actively shutting down party defection rumors by treating Raila's broad-based pact as a binding family and movement directive.",
@@ -1803,6 +1795,14 @@
       "opening": "Direct focus on the contrasting downtime hours faced by businesses and residents across the nine targeted counties.",
       "structure": "Scheduling contrast lead -> The 9-hour vs short-window breakdown -> Geographic footprint across the nine counties -> Operational warning close.",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-wednesday-outages-in-nairobi-machakos-kisii-and-other-counties/"
+    },
+    {
+      "title": "Dr. Ofweneke Calls on Gen Z and Millennials to Stop Rural Parents Taking Branded Campaign Underwear",
+      "angle": "Examining Dr. Ofweneke's specific mandate deputizing millennials and Gen Z to serve as rural household gatekeepers, challenging young Kenyans to block their parents from accepting face-branded intimate garments from political PR handlers.",
+      "angle_type": "generational gatekeeping and campaign PR accountability",
+      "opening": "Personality lead opening directly on Dr. Ofweneke calling on young urban Kenyans to police the campaign merchandise entering rural family homes.",
+      "structure": "Personality hook on Gen Z/millennial mandate -> Verifiable statements detailing the branded intimate wear -> Scrutiny of campaign PR handlers and creative deficits -> The Kevin Nyamari Kisii campaign backdrop and defense -> Unresolved campaign culture close.",
+      "source": "https://www.ghafla.co.ke/what-do-you-take-our-mothers-for-dr-ofweneke-slams-politician-distributing-branded-underwear-as-campaign-merch/"
     }
   ],
   "style_history": [
