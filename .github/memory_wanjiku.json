@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "fc352514a28364ae4b7b64c644cf1eaf38256b24f0620fc7b71a6dddefa91351",
     "c24a7c29799a6d822d5f452a11ab600480bbfb0f536def4acf23cc84fd64c90a",
     "14b67525c1f62a1d283bc85edc1ee48809384cb94dfdd0986beafaf835ce2c1e",
     "57a942836f1345e5f4fa4a3b25ff182a9ed9b674f37d0972bafcadff9e879634",
@@ -499,10 +498,10 @@
     "c26cfd5f6a257c80a23d8ee2e64032f813ae3c0ac7f4dda31cd0e6593ebc5b9b",
     "7249a778437e622d0f08877ae9a86d905b81d8d6c604cec2e16ccc9929e5d042",
     "8e7cf9387ab0be77ccb7673639b093aa22e4e7852127289ddbfeb63ccf88b76f",
-    "49505a5a37fe9b70c6b72b35b6b48d4d614e4ab5f43b3e97f8e7a25809ac2a89"
+    "49505a5a37fe9b70c6b72b35b6b48d4d614e4ab5f43b3e97f8e7a25809ac2a89",
+    "e59ebecc4b0ee934da4f0b6d151f4f2dead349b6e9e703927630a6c50acb2862"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/he-made-you-question-everything-winnie-odinga-pays-moving-tribute-to-late-father/",
     "https://www.ghafla.co.ke/super-el-nino-projected-to-cause-over-450000-global-deaths-by-early-2027/",
     "https://www.ghafla.co.ke/almasi-tells-fans-to-leave-him-alone-in-playful-public-service-announcement/",
     "https://www.ghafla.co.ke/boniface-mwangi-backs-babu-owino-and-edwin-sifuna-as-key-figures-in-opposition-strategy/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/lavish-love-zuchu-thanks-diamond-platnumz-after-receiving-ksh1-05-million-lady-dior-bag/",
     "https://www.ghafla.co.ke/nani-hawa-tulichagua-oga-obinna-pokes-fun-at-mps-after-surveillance-video-exposes-parliament-phone-theft/",
     "https://www.ghafla.co.ke/khaligraph-jones-becomes-first-east-african-hip-hop-artist-to-hit-1-million-youtube-subscribers/",
-    "https://www.ghafla.co.ke/willis-raburu-urges-edwin-sifuna-to-ignore-mockery-over-2027-presidential-bid/"
+    "https://www.ghafla.co.ke/willis-raburu-urges-edwin-sifuna-to-ignore-mockery-over-2027-presidential-bid/",
+    "https://www.ghafla.co.ke/what-happens-if-el-nino-does-not-happen-lawmakers-demand-answers-over-unused-emergency-allocations/"
   ],
   "published_angles": [
-    {
-      "title": "Rigathi Gachagua Bids Farewell to Sister Eunice Nyangari, Matriarch and Mau Mau Advocate",
-      "angle": "Focusing on Eunice Nyangari Gachagua's personal legacy as the family's matriarchal anchor following their mother's death seven years ago and her quiet lifetime crusade for Mau Mau survivors and displaced land claimants in Naro Moru.",
-      "angle_type": "personality portrait and grassroots legacy focus",
-      "opening": "Personality lead opening directly on Rigathi Gachagua's tribute to his elder sister as the family anchor.",
-      "structure": "Personality lead -> Matriarchal role & family history -> Grassroots advocacy for Mau Mau families -> Cross-party delegation and Karen condolence visits -> Final burial details close",
-      "source": "https://www.ghafla.co.ke/kalonzo-sifuna-and-maraga-join-mourners-at-burial-of-rigathi-gachaguas-sister-in-nyeri/"
-    },
     {
       "title": "Maa Cultural Showcase Shattered as Ole Ntutu and Ledama Step In to Stop Rungu-Wielding VIP Chaos",
       "angle": "Focusing on how a cultural showcase turned into a factional spectacle near the main dais, where Governor Ole Ntutu and Senator Ledama Olekina were forced into immediate onstage mediation after supporters hurled chairs and brandished rungus.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Willis Raburu dissecting the financial and image-based attacks levelled against Edwin Sifuna's presidential aspirations.",
       "structure": "Personality hook on financial attacks -> Dr Ofweneke interview context -> Specific pejorative terms ('shiny', 'moto ya gazeti') -> Broader youth political mobilization and party alignments (Babu Owino's party) -> Concrete close on Raburu's own 2027 senatorial bid.",
       "source": "https://www.ghafla.co.ke/willis-raburu-urges-edwin-sifuna-to-ignore-mockery-over-2027-presidential-bid/"
+    },
+    {
+      "title": "Moses Mbaruku Sweats Out El Ni\u00f1o Cash Trail as Parliament Demands Answers on Unspent Millions",
+      "angle": "Examining the administrative disconnect where coordination offices wash their hands of financial tracking while billions sit on the line\u2014focusing on Moses Mbaruku's defense that the Office of the Deputy President doesn't actually hold the cash.",
+      "angle_type": "institutional accountability and financial tracking gap",
+      "opening": "Personality-led focus on Moses Mbaruku stepping before parliamentary committee members without the numbers.",
+      "structure": "Principal official's committee appearance -> Saku MP Ali Dido Rasso's specific questions on unspent funds -> Mbaruku's defense of non-custodial coordination -> Broader context of multi-agency preparedness and World Bank funding.",
+      "source": "https://www.ghafla.co.ke/what-happens-if-el-nino-does-not-happen-lawmakers-demand-answers-over-unused-emergency-allocations/"
     }
   ],
   "style_history": [
