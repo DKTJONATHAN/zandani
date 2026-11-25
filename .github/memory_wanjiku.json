@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "d9c505c23ba1ed193f4aac38c6715ceb89d31e3e734181075f952556370a8c5b",
     "e3a0b98d3cd6bdd4c73a20ddfb0010a0fc9ab3ca66eb81397a6a32b7707c42bb",
     "94042c735f0a1c06e457a9ea27a0f040c1d015c35f457bdfba92dbe5c730c222",
     "71163bbe30e812fb6d38aac573c78040338e51908713616b0b548e9c879a893b",
@@ -499,10 +498,10 @@
     "c9da565dd77ec224543245a744519b006890222771df855a622ea01f28377427",
     "571e592de7933e60187755d411620873ca8dbcb95fbddc9b64404d01af158dd8",
     "c17966a097b53657c12e6a5c4e393190864601ba193b7a7b5ca8d6aaac8a57a9",
-    "b53c9331a80d4a2a715f6be2e7fe2e973dedad9cdf8de6df87a1f7fc2ec1ce96"
+    "b53c9331a80d4a2a715f6be2e7fe2e973dedad9cdf8de6df87a1f7fc2ec1ce96",
+    "164db79896e8522a0aa7c37a13e3d2cd71c722263786d9ccb00c3be030b2a460"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/tumi-mathenge-and-jakes-nyanjom-hint-at-relationship-during-radio-interview/",
     "https://www.ghafla.co.ke/linus-kaikai-claims-kenya-is-a-one-term-nation-cites-electoral-manipulation-in-second-term-bids/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-nairobi-nyeri-and-meru/",
     "https://www.ghafla.co.ke/babu-owino-sets-record-straight-on-linda-mwananchi-partys-name-transition/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/zuchu-accuses-nandy-of-copying-her-style-as-rift-between-singers-resurfaces/",
     "https://www.ghafla.co.ke/bado-tunapepeta-festive-giveaway-2026-win-electronics-home-appliances-and-over-sh3-million-in-cash-prizes/",
     "https://www.ghafla.co.ke/kenya-power-announces-wednesday-outages-in-nairobi-machakos-kisii-and-other-counties/",
-    "https://www.ghafla.co.ke/what-do-you-take-our-mothers-for-dr-ofweneke-slams-politician-distributing-branded-underwear-as-campaign-merch/"
+    "https://www.ghafla.co.ke/what-do-you-take-our-mothers-for-dr-ofweneke-slams-politician-distributing-branded-underwear-as-campaign-merch/",
+    "https://www.ghafla.co.ke/iebc-denies-clearing-rigathi-gachagua-to-contest-2027-presidential-election/"
   ],
   "published_angles": [
-    {
-      "title": "Mama Ida Odinga Draws the Line on ODM, Doubling Down on Ruto\u2019s Broad-Based Deal",
-      "angle": "Framing Ida Odinga's intervention through her role as political matriarch and custodian of her late husband's legacy, actively shutting down party defection rumors by treating Raila's broad-based pact as a binding family and movement directive.",
-      "angle_type": "matriarchal political authority and legacy continuity",
-      "opening": "Personality lead opening directly on Mama Ida Odinga shutting down speculation around her political direction by invoking Raila's final political placement.",
-      "structure": "Personality declaration lead -> Matriarchal custodian hook -> Examination of the broad-based government commitment -> Direct appeal against factional splintering -> Context of ODM's leadership transition close.",
-      "source": "https://www.ghafla.co.ke/mama-ida-odinga-declares-loyalty-to-odm-rules-out-leaving-broad-based-government/"
-    },
     {
       "title": "Eric Omondi Locks Ksh 5.6M Sisi Kwa Sisi Fund for Bungoma Teen\u2019s Treatment and Business Start",
       "angle": "The financial breakdown and operational mechanics of how the Sisi Kwa Sisi initiative is structuring the funds between medical treatment, schooling, and family business capital.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Dr. Ofweneke calling on young urban Kenyans to police the campaign merchandise entering rural family homes.",
       "structure": "Personality hook on Gen Z/millennial mandate -> Verifiable statements detailing the branded intimate wear -> Scrutiny of campaign PR handlers and creative deficits -> The Kevin Nyamari Kisii campaign backdrop and defense -> Unresolved campaign culture close.",
       "source": "https://www.ghafla.co.ke/what-do-you-take-our-mothers-for-dr-ofweneke-slams-politician-distributing-branded-underwear-as-campaign-merch/"
+    },
+    {
+      "title": "Rigathi Gachagua Presidential Clearance Reports Denied Following IEBC Legal Briefing Confusion",
+      "angle": "Examining how a routine media briefing on constitutional appeal rules by IEBC legal director Chrispine Owiye sparked premature presidential clearance headlines for Rigathi Gachagua, forcing chairman Erastus Edung Ethekon to clarify that Article 75 impeachment parameters were never addressed.",
+      "angle_type": "legal briefing misstep and official narrative correction",
+      "opening": "Personality lead opening directly on Rigathi Gachagua becoming the focus of nationwide presidential clearance speculation following an IEBC legal briefing in Nairobi.",
+      "structure": "Personality hook on Gachagua's premature clearance storm -> Specific mechanics of Chrispine Owiye's Nov 24 media presentation on Articles 99 & 193 -> Breakdown of what was missing (Article 75 impeachment rules) -> Chair Erastus Edung Ethekon's formal corrective stance -> Nomination timelines and legal framework close.",
+      "source": "https://www.ghafla.co.ke/iebc-denies-clearing-rigathi-gachagua-to-contest-2027-presidential-election/"
     }
   ],
   "style_history": [
