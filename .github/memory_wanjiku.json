@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "399fad367dfb4951c4b14beb30952d9f9ce72480d07791df4be25276d99d62fc",
     "fc352514a28364ae4b7b64c644cf1eaf38256b24f0620fc7b71a6dddefa91351",
     "c24a7c29799a6d822d5f452a11ab600480bbfb0f536def4acf23cc84fd64c90a",
     "14b67525c1f62a1d283bc85edc1ee48809384cb94dfdd0986beafaf835ce2c1e",
@@ -499,10 +498,10 @@
     "164db79896e8522a0aa7c37a13e3d2cd71c722263786d9ccb00c3be030b2a460",
     "c26cfd5f6a257c80a23d8ee2e64032f813ae3c0ac7f4dda31cd0e6593ebc5b9b",
     "7249a778437e622d0f08877ae9a86d905b81d8d6c604cec2e16ccc9929e5d042",
-    "8e7cf9387ab0be77ccb7673639b093aa22e4e7852127289ddbfeb63ccf88b76f"
+    "8e7cf9387ab0be77ccb7673639b093aa22e4e7852127289ddbfeb63ccf88b76f",
+    "49505a5a37fe9b70c6b72b35b6b48d4d614e4ab5f43b3e97f8e7a25809ac2a89"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/mashujaa-day-preparations-gain-momentum-as-kipchoge-keino-stadium-reaches-68-per-cent-completion/",
     "https://www.ghafla.co.ke/he-made-you-question-everything-winnie-odinga-pays-moving-tribute-to-late-father/",
     "https://www.ghafla.co.ke/super-el-nino-projected-to-cause-over-450000-global-deaths-by-early-2027/",
     "https://www.ghafla.co.ke/almasi-tells-fans-to-leave-him-alone-in-playful-public-service-announcement/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/iebc-denies-clearing-rigathi-gachagua-to-contest-2027-presidential-election/",
     "https://www.ghafla.co.ke/lavish-love-zuchu-thanks-diamond-platnumz-after-receiving-ksh1-05-million-lady-dior-bag/",
     "https://www.ghafla.co.ke/nani-hawa-tulichagua-oga-obinna-pokes-fun-at-mps-after-surveillance-video-exposes-parliament-phone-theft/",
-    "https://www.ghafla.co.ke/khaligraph-jones-becomes-first-east-african-hip-hop-artist-to-hit-1-million-youtube-subscribers/"
+    "https://www.ghafla.co.ke/khaligraph-jones-becomes-first-east-african-hip-hop-artist-to-hit-1-million-youtube-subscribers/",
+    "https://www.ghafla.co.ke/willis-raburu-urges-edwin-sifuna-to-ignore-mockery-over-2027-presidential-bid/"
   ],
   "published_angles": [
-    {
-      "title": "Babu Owino Spills on Sifuna Fallout: How a Secret Flagbearer-Leader Deal Crumbled After ODM Exit",
-      "angle": "Examining the mechanics of their failed two-man power-sharing division\u2014Sifuna as presidential candidate and Owino controlling the party apparatus\u2014and how self-preservation fears shaped by Rigathi Gachagua's impeachment drove them to acquire separate vehicles.",
-      "angle_type": "political alliance breakdown and survival strategy",
-      "opening": "Personality lead opening directly on Babu Owino detailing the unravelling of his one-time frontline pact with Edwin Sifuna.",
-      "structure": "Personality lead on the pact reveal -> Mechanics of the division (presidency vs. party reins) -> The coup over party leadership -> The parallel scramble for political vehicles (TEP and Muungano) -> Gachagua cautionary tale close",
-      "source": "https://www.ghafla.co.ke/things-changed-without-my-knowledge-babu-owino-reveals-alleged-power-sharing-deal-with-senator-edwin-sifuna/"
-    },
     {
       "title": "Rigathi Gachagua Bids Farewell to Sister Eunice Nyangari, Matriarch and Mau Mau Advocate",
       "angle": "Focusing on Eunice Nyangari Gachagua's personal legacy as the family's matriarchal anchor following their mother's death seven years ago and her quiet lifetime crusade for Mau Mau survivors and displaced land claimants in Naro Moru.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Khaligraph Jones crossing the seven-figure threshold on YouTube.",
       "structure": "Personality hook on the subscriber milestone -> Release velocity analysis featuring 'Prototype' -> Regional hip-hop pioneering context -> Instagram promotional graphic and stakeholder credits -> Concrete close on his ongoing streaming schedule.",
       "source": "https://www.ghafla.co.ke/khaligraph-jones-becomes-first-east-african-hip-hop-artist-to-hit-1-million-youtube-subscribers/"
+    },
+    {
+      "title": "Willis Raburu Defends Edwin Sifuna Against 2027 'Moto ya Gazeti' and Funding Mockery",
+      "angle": "Focusing on the specific dismissal of class-based and financial gatekeeping tactics ('moto ya gazeti', 'shiny', and campaign funding doubts) cited by Raburu, highlighting how online political banter targets resource constraints.",
+      "angle_type": "financial and class gatekeeping in political branding",
+      "opening": "Personality lead opening directly on Willis Raburu dissecting the financial and image-based attacks levelled against Edwin Sifuna's presidential aspirations.",
+      "structure": "Personality hook on financial attacks -> Dr Ofweneke interview context -> Specific pejorative terms ('shiny', 'moto ya gazeti') -> Broader youth political mobilization and party alignments (Babu Owino's party) -> Concrete close on Raburu's own 2027 senatorial bid.",
+      "source": "https://www.ghafla.co.ke/willis-raburu-urges-edwin-sifuna-to-ignore-mockery-over-2027-presidential-bid/"
     }
   ],
   "style_history": [
