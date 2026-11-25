@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "d6e2fd18a53076fe01eadc9dc4561233f2c3daac5201f051a36cdda2a6d7c5e6",
     "4405cc436590b5c516d855781c5b0169e13e85858a868ca9ea52870c122d2da1",
     "d9c505c23ba1ed193f4aac38c6715ceb89d31e3e734181075f952556370a8c5b",
     "e3a0b98d3cd6bdd4c73a20ddfb0010a0fc9ab3ca66eb81397a6a32b7707c42bb",
@@ -499,10 +498,10 @@
     "09fe5e5eeeec2ddbfe61c421c914add3ef1ec606ffbc52b80e746524dd510386",
     "5a05aa4a1f8b5b5f3df1f5f01b3197be076e9c9d2c6f881d819d4e2468c6be01",
     "c9da565dd77ec224543245a744519b006890222771df855a622ea01f28377427",
-    "571e592de7933e60187755d411620873ca8dbcb95fbddc9b64404d01af158dd8"
+    "571e592de7933e60187755d411620873ca8dbcb95fbddc9b64404d01af158dd8",
+    "c17966a097b53657c12e6a5c4e393190864601ba193b7a7b5ca8d6aaac8a57a9"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/amber-rays-turkey-makeover-rekindles-debate-over-cosmetic-surgery-and-social-media/",
     "https://www.ghafla.co.ke/tanasha-donna-celebrates-zari-hassan-on-her-birthday/",
     "https://www.ghafla.co.ke/tumi-mathenge-and-jakes-nyanjom-hint-at-relationship-during-radio-interview/",
     "https://www.ghafla.co.ke/linus-kaikai-claims-kenya-is-a-one-term-nation-cites-electoral-manipulation-in-second-term-bids/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/kenyans-raise-ksh2-19-million-in-five-hours-for-baba-talishas-specialized-eye-care-in-india/",
     "https://www.ghafla.co.ke/otile-brown-and-timmy-tdat-reunite-after-years-apart-leaving-fans-curious/",
     "https://www.ghafla.co.ke/zuchu-accuses-nandy-of-copying-her-style-as-rift-between-singers-resurfaces/",
-    "https://www.ghafla.co.ke/bado-tunapepeta-festive-giveaway-2026-win-electronics-home-appliances-and-over-sh3-million-in-cash-prizes/"
+    "https://www.ghafla.co.ke/bado-tunapepeta-festive-giveaway-2026-win-electronics-home-appliances-and-over-sh3-million-in-cash-prizes/",
+    "https://www.ghafla.co.ke/kenya-power-announces-wednesday-outages-in-nairobi-machakos-kisii-and-other-counties/"
   ],
   "published_angles": [
-    {
-      "title": "Sandra Dacha\u2019s Lung-Function Joke Highlights Her Post-Surgery Weight-Loss Journey",
-      "angle": "Examining the specific timeline and physical reality of her transformation\u2014contrasting her post-surgery openness about the September 30 procedure and stomach-reduction mechanics with the humorous self-deprecation of her pre-surgery physical state.",
-      "angle_type": "celebrity medical timeline and body transformation contrast",
-      "opening": "Personality lead opening directly on Dacha's self-deprecating online throwback and lung joke.",
-      "structure": "Throwback joke hook -> Surgical timeline breakdown of September 30 and November 9 reveal -> Medical mechanics of sleeve gastrectomy -> Continued transformation updates close.",
-      "source": "https://www.ghafla.co.ke/sandra-dacha-hilariously-reflects-on-breathing-struggles-in-throwback-photo-before-gastric-sleeve-surgery/"
-    },
     {
       "title": "Sandra Dacha Drops the Gurney Drama to Joke About Lungs \u2018Attending Meetings\u2019 Before Surgery",
       "angle": "Examining how Dacha systematically deflated weeks of somber operating-room suspense by pivoting to blunt, self-directed comedy, exposing the raw physical discomfort of respiratory strain that prompted her September 30 surgical intervention.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality-free infrastructure lead opening directly on the USSD code and offline financial mechanics.",
       "structure": "Offline USSD integration lead -> Prize pool and tiered multiplier mechanics -> Minimum stakes and offline financial rails -> Campaign timeline and regulatory closing",
       "source": "https://www.ghafla.co.ke/bado-tunapepeta-festive-giveaway-2026-win-electronics-home-appliances-and-over-sh3-million-in-cash-prizes/"
+    },
+    {
+      "title": "Inside Kenya Power\u2019s Uneven Wednesday Blackout Map Across Nine Counties",
+      "angle": "Examining the administrative disparity and friction of the uneven downtime distribution\u2014contrasting full 9-hour regional lockdowns with short two-hour local windows like Munyaka and Hawai\u2014while cutting through a corrupted source text.",
+      "angle_type": "administrative disparity and scheduling friction",
+      "opening": "Direct focus on the contrasting downtime hours faced by businesses and residents across the nine targeted counties.",
+      "structure": "Scheduling contrast lead -> The 9-hour vs short-window breakdown -> Geographic footprint across the nine counties -> Operational warning close.",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-wednesday-outages-in-nairobi-machakos-kisii-and-other-counties/"
     }
   ],
   "style_history": [
