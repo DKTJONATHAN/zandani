@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "94042c735f0a1c06e457a9ea27a0f040c1d015c35f457bdfba92dbe5c730c222",
     "71163bbe30e812fb6d38aac573c78040338e51908713616b0b548e9c879a893b",
     "399fad367dfb4951c4b14beb30952d9f9ce72480d07791df4be25276d99d62fc",
     "fc352514a28364ae4b7b64c644cf1eaf38256b24f0620fc7b71a6dddefa91351",
@@ -499,10 +498,10 @@
     "c17966a097b53657c12e6a5c4e393190864601ba193b7a7b5ca8d6aaac8a57a9",
     "b53c9331a80d4a2a715f6be2e7fe2e973dedad9cdf8de6df87a1f7fc2ec1ce96",
     "164db79896e8522a0aa7c37a13e3d2cd71c722263786d9ccb00c3be030b2a460",
-    "c26cfd5f6a257c80a23d8ee2e64032f813ae3c0ac7f4dda31cd0e6593ebc5b9b"
+    "c26cfd5f6a257c80a23d8ee2e64032f813ae3c0ac7f4dda31cd0e6593ebc5b9b",
+    "7249a778437e622d0f08877ae9a86d905b81d8d6c604cec2e16ccc9929e5d042"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-nairobi-nyeri-and-meru/",
     "https://www.ghafla.co.ke/babu-owino-sets-record-straight-on-linda-mwananchi-partys-name-transition/",
     "https://www.ghafla.co.ke/mashujaa-day-preparations-gain-momentum-as-kipchoge-keino-stadium-reaches-68-per-cent-completion/",
     "https://www.ghafla.co.ke/he-made-you-question-everything-winnie-odinga-pays-moving-tribute-to-late-father/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/kenya-power-announces-wednesday-outages-in-nairobi-machakos-kisii-and-other-counties/",
     "https://www.ghafla.co.ke/what-do-you-take-our-mothers-for-dr-ofweneke-slams-politician-distributing-branded-underwear-as-campaign-merch/",
     "https://www.ghafla.co.ke/iebc-denies-clearing-rigathi-gachagua-to-contest-2027-presidential-election/",
-    "https://www.ghafla.co.ke/lavish-love-zuchu-thanks-diamond-platnumz-after-receiving-ksh1-05-million-lady-dior-bag/"
+    "https://www.ghafla.co.ke/lavish-love-zuchu-thanks-diamond-platnumz-after-receiving-ksh1-05-million-lady-dior-bag/",
+    "https://www.ghafla.co.ke/nani-hawa-tulichagua-oga-obinna-pokes-fun-at-mps-after-surveillance-video-exposes-parliament-phone-theft/"
   ],
   "published_angles": [
-    {
-      "title": "Jalang\u2019o Draws the Line on Bahati\u2019s 2027 Bid Over 70% Airplay Blame Game",
-      "angle": "Focusing on the collision between studio-era celebrity tactics and parliamentary realities\u2014specifically unpacking Jalang'o's direct demarcation that entering elective politics strips away entertainment immunity, after Bahati centered his 2027 campaign pitch on Jalang'o and Jaguar's failure to enact a 70-80% local airplay quota bill.",
-      "angle_type": "celebrity transition to elective accountability",
-      "opening": "Personality lead opening on Jalang'o drawing a hard line against Bahati's podcast claims regarding parliamentary representation for artists.",
-      "structure": "Personality clash hook -> The specific 70-80% quota provocation on The Obinna Show -> Jalang'o's rebuttal on constituent delivery vs. clout -> Reality of transition from entertainer to aspirant -> Forward-looking 2027 race context.",
-      "source": "https://www.ghafla.co.ke/politics-is-not-about-clout-chasing-jalango-tells-off-bahati-ahead-of-2027-mathare-parliamentary-bid/"
-    },
     {
       "title": "Kenya Power Maintenance Window Hits Ruaka, Spur Mall and Ragati Tea Hubs in Saturday Outage",
       "angle": "Focusing on the operational pause across Kiambu's high-density retail and leisure corridors (Ruaka shopping strip, Spur Mall, Ruiru Golf Club) alongside Nyeri's primary tea processing operations at Ragati Tea Factory.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Zuchu framing Diamond Platnumz's Ksh1.05M Dior purchase through a public prayer for wealth replenishment.",
       "structure": "Person and hook -> Verified purchase metrics in Dubai -> Exact quote and spiritual framing -> Eyewitness role of Baba Levo -> Relationship and WCB context -> Strategic close.",
       "source": "https://www.ghafla.co.ke/lavish-love-zuchu-thanks-diamond-platnumz-after-receiving-ksh1-05-million-lady-dior-bag/"
+    },
+    {
+      "title": "Oga Obinna Turns Parliament Phone Theft CCTV Into Interactive Detective Game for Kenyans",
+      "angle": "Focusing on the surreal intersection where legislative halls morph into petty crime scenes, and how comedians weaponize raw CCTV footage to ridicule institutional integrity.",
+      "angle_type": "institutional absurdity and digital satirical confrontation",
+      "opening": "Personality lead opening directly on Oga Obinna turning a surveillance leak into a public guessing game about parliamentary misconduct.",
+      "structure": "Personality hook on Obinna's Instagram video -> Breakdown of the CCTV confrontation details quoted by Obinna -> The satirical jab on electoral integrity -> Context of Parliament's security and public accountability debate.",
+      "source": "https://www.ghafla.co.ke/nani-hawa-tulichagua-oga-obinna-pokes-fun-at-mps-after-surveillance-video-exposes-parliament-phone-theft/"
     }
   ],
   "style_history": [
