@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "dad578fd71cb1ba6d2976ebd01b5287013dc8f69d0a37dfc9df0ded43518c11c",
     "3cfec6761e829abeaadaab966134fcfd3128d4715883baac3fe940e41568318e",
     "ff8a8223d23aa7c889a92ba7c15c15dd6ca1d85b1a90bf695aa03ec0128b3a33",
     "2ebcbb750047f825760d1070f0db5dba5bbb7057d5018989eca2112fd9e69afc",
@@ -499,10 +498,10 @@
     "0a3f6610cb6cc3488f6b84bf10a337d4217ac5ea86dc08076fed56c09c865124",
     "07f15fff63ebbb0fea78c8ca100a6bde51f534d1bf5728beef9ee4b4d9948a9a",
     "de9c54aa83af0f6ff1fd17a96821037421e7cce1852ee7e900704001a54ff3ed",
-    "7ccb0f9991365dde5db5d24cad761018ef6ed807074e71d6961769e5669a67f0"
+    "7ccb0f9991365dde5db5d24cad761018ef6ed807074e71d6961769e5669a67f0",
+    "1501845cfc8afc9f67c286851c1ec6e117e5c78c9296b108083f83cdd8e93231"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/paul-waiganjo-resigns-as-rutos-development-adviser-cites-limits-of-role/",
     "https://www.ghafla.co.ke/deputy-president-kindiki-outlines-strategic-plan-to-tackle-expected-el-nino-flooding/",
     "https://www.ghafla.co.ke/president-william-ruto-tours-dangote-refinery-in-nigeria-ahead-of-lamu-groundbreaking/",
     "https://www.ghafla.co.ke/president-ruto-and-fifa-boss-gianni-infantino-discuss-proposed-fifa-standard-stadium-in-mombasa/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/kenya-power-announces-planned-outages-in-nairobi-kiambu-nyeri-kwale-and-kilifi-on-november-26/",
     "https://www.ghafla.co.ke/rigathi-gachagua-denies-holding-talks-with-ndindi-nyoro-after-brief-nairobi-encounter-praises-sifuna-and-babu-owino/",
     "https://www.ghafla.co.ke/willis-raburu-slams-government-over-state-houses-ksh-8-4-billion-funding-request/",
-    "https://www.ghafla.co.ke/court-blocks-operations-at-laikipia-air-base-ebola-center-over-secrecy-and-lack-of-public-participation/"
+    "https://www.ghafla.co.ke/court-blocks-operations-at-laikipia-air-base-ebola-center-over-secrecy-and-lack-of-public-participation/",
+    "https://www.ghafla.co.ke/diamond-platnumz-recalls-emotional-moments-in-past-relationship-with-wema-sepetu/"
   ],
   "published_angles": [
-    {
-      "title": "Raymond Omollo Steps Onto Marenga Beach Sands as Bunyala Fishers Take Ugandan Patrol Grievances Straight to His Face",
-      "angle": "Framing the Bunyala tour around Dr Raymond Omollo personally stepping onto the lakeside turf to swap boardroom decorum for unfiltered local realities, where fishermen praised new shore assets while laying raw accounts of cross-border harassment by Ugandan forces and net seizures squarely at his feet.",
-      "angle_type": "personality accountability and grassroots reality check",
-      "opening": "Personality lead opening on Dr Raymond Omollo pitching administrative accountability on the Marenga shoreline before fielding frank local accounts.",
-      "structure": "Personality lead -> Lakeside reality hook -> Breakdown of BMU investments and economic ripple -> Confrontation over Ugandan patrols and fish depletion -> Omollo's accountability pledge",
-      "source": "https://www.ghafla.co.ke/bunyala-residents-praise-ruto-government-for-security-and-fishing-investments/"
-    },
     {
       "title": "Ndindi Nyoro Dares Ruto to Fight Him Instead as He Steps Out in Kisii with Matiang\u2019i and Orengo",
       "angle": "Focusing on Ndindi Nyoro's explicit self-positioning as a frontline political sparring partner for Ruto to shield elder figures, delivered during a strategic joint appearance alongside Fred Matiang'i and James Orengo on Kisii soil.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Health CS Aden Duale coming under a strict 45-day High Court mandate.",
       "structure": "Personality hook on Duale -> Ruling mechanics by Justice Nyaundi -> Specific documents ordered for release within 45 days -> Katiba Institute response -> Legal timeline from May to June 2026 contempt citation -> Next verified compliance check.",
       "source": "https://www.ghafla.co.ke/court-blocks-operations-at-laikipia-air-base-ebola-center-over-secrecy-and-lack-of-public-participation/"
+    },
+    {
+      "title": "How Babu Tale Tried to Talk Diamond Platnumz Out of His Tumultuous Wema Sepetu Romance",
+      "angle": "Examining the specific internal management intervention\u2014Babu Tale\u2019s direct advice to walk away\u2014as a window into how Wasafi's early inner circle tried to manage the personal toll of high-stakes East African celebrity romances.",
+      "angle_type": "management intervention and personal toll in early celebrity relationships",
+      "opening": "Personality lead focusing directly on Diamond Platnumz recalling the personal toll and tears of his past romance with Wema Sepetu.",
+      "structure": "Personality hook on past tears -> Babu Tale's managerial intervention and advice to walk away -> Diamond's counter-admission of feeling 'like heaven' -> Context of both figures moving on with Whozu and Zuchu by 2026.",
+      "source": "https://www.ghafla.co.ke/diamond-platnumz-recalls-emotional-moments-in-past-relationship-with-wema-sepetu/"
     }
   ],
   "style_history": [
