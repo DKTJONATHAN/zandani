@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f6ffc845ab6274d706750d06d51dd3175242831d4291f5b072cdaf1965f016cc",
     "8bdd1c3b2ee5253bfb30d69a110718fb2bbd975da34f8b887c3693ae693fed65",
     "ed3bd5b314bc81f549ac0fa38cffb8c7f97f5633b20d6db9bb6981104b47a222",
     "5a64919bc3c2469ab2a39c56e45347be74f193abb482d10097e1512f368c2ed6",
@@ -499,10 +498,10 @@
     "f39c4230f364c902924bea26c47f119dc946c3c2ad6a595c0f6df0f5447ca445",
     "e8bb046e05be1cfdeeb054e01bec29360ad9d2f038a2d101e6b788fa3b62d962",
     "708855ee80356e769c4c4035085587fc42937872530c60fbb09d22290eac63d6",
-    "ac332045ac274e743e21f0c87a1f4ee7674598e12469498998c2191b36ee6c5c"
+    "ac332045ac274e743e21f0c87a1f4ee7674598e12469498998c2191b36ee6c5c",
+    "bebad3b96440de650584dbcb15a19630a91b5be789035c60c608e8e1b5a10b42"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/kalonzo-tops-opposition-flagbearer-poll-as-sifuna-camp-pushes-2027-bid/",
     "https://www.ghafla.co.ke/wamalwa-offers-dap-k-leadership-and-presidential-ticket-to-sifuna/",
     "https://www.ghafla.co.ke/moses-kuria-poll-sparks-debate-as-sifuna-tops-2027-presidential-survey/",
     "https://www.ghafla.co.ke/interior-cs-kipchumba-murkomen-orders-decisive-crackdown-on-illegal-firearms-in-samburu/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/kenyas-billions-under-audit-what-the-numbers-say-about-three-presidents/",
     "https://www.ghafla.co.ke/alex-mwakideu-shares-humorous-tips-for-surviving-december-festivities/",
     "https://www.ghafla.co.ke/baba-talisha-hits-back-at-critics-twisting-narrative-around-his-ksh2-19m-tiktok-eye-surgery-fundraiser/",
-    "https://www.ghafla.co.ke/baba-talisha-breaks-silence-amid-online-discussions-over-ksh-2-2-million-medical-fundraiser/"
+    "https://www.ghafla.co.ke/baba-talisha-breaks-silence-amid-online-discussions-over-ksh-2-2-million-medical-fundraiser/",
+    "https://www.ghafla.co.ke/karangu-muraya-laments-after-sister-damages-his-suv-while-learning-to-drive/"
   ],
   "published_angles": [
-    {
-      "title": "Ole Ntutu and Ledama Flank Ruto as Narok Leaders Unite for St. Mary\u2019s School Launch",
-      "angle": "Focusing on the high-powered bipartisan local lineup flanking the Head of State at a remote educational launch\u2014bringing together Governor Patrick Ole Ntutu and opposition-leaning Senator Ledama Olekina side by side on an institutional inspection tour.",
-      "angle_type": "political personality accompaniment and bipartisan local optics",
-      "opening": "Personality lead opening directly on the high-stakes political pairing of Narok Governor Patrick Ole Ntutu and Senator Ledama Olekina sharing the spotlight with President William Ruto.",
-      "structure": "Bipartisan local lineup hook -> St. Mary's Pre-School infrastructure details -> The transition to the St. Mary's Girls High School Sunday service -> Narok County political development context",
-      "source": "https://www.ghafla.co.ke/president-ruto-opens-st-marys-pre-school-before-attending-church-service-in-narok/"
-    },
     {
       "title": "Met Department Flags 25-Knot Gale Warnings for North as Thunderstorms Target Eastern and Coastal Hubs",
       "angle": "Reframing the forecast around the sharp environmental contrast between the high-wind, scorching arid north and the thunderstorm-prone eastern and coastal belts, highlighting specific operational and outdoor disruptions across major transport and leisure corridors.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead focusing directly on the five-hour TikTok fundraising sprint and the clinical emergency behind it.",
       "structure": "Fundraising speed and figures hook -> Medical diagnosis of Acanthamoeba keratitis and insurance exhaustion -> Baba Talisha's pushback against critics -> Concrete close on the upcoming specialized trip to India.",
       "source": "https://www.ghafla.co.ke/baba-talisha-breaks-silence-amid-online-discussions-over-ksh-2-2-million-medical-fundraiser/"
+    },
+    {
+      "title": "Karangu Muraya Turns Sister\u2019s SUV Driving Mishap Into Gorgeous Technical Institute Enrollment",
+      "angle": "Focusing on the domestic logistics and institutional turning point: how Karangu converted a casual family driving mishap into a professional enrollment solution at his own technical institute while navigating auto insurance bureaucracy.",
+      "angle_type": "practical institutional resolution and family logistics",
+      "opening": "Personality-led focus on the vehicle damage aftermath in Nyandarua before introducing the institutional solution.",
+      "structure": "Vehicle damage discovery -> The public social media terms -> Gorgeous Technical Institute enrollment plan -> Mellis Insurance administrative tag.",
+      "source": "https://www.ghafla.co.ke/karangu-muraya-laments-after-sister-damages-his-suv-while-learning-to-drive/"
     }
   ],
   "style_history": [
