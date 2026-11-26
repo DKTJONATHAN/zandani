@@ -226,7 +226,8 @@ const Index = () => {
     "@type": "WebSite",
     "name": "Za Ndani",
     "url": SITE_URL,
-    "description": "Za Ndani (Zandani) covers Kenya’s latest news, politics, business, sports and entertainment.",\n    "alternateName": ["Zandani"],
+    "description": "Za Ndani (Zandani) covers Kenya’s latest news, politics, business, sports and entertainment.",
+    "alternateName": ["Zandani"],
     "inLanguage": "en-KE",
     "potentialAction": {
       "@type": "SearchAction",
@@ -238,7 +239,8 @@ const Index = () => {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Zandani",
+    "name": "Za Ndani",
+    "alternateName": ["Zandani"],
     "url": SITE_URL,
     "logo": `${SITE_URL}/logo.png`,
     "sameAs": ["https://x.com/zandani_ke", "https://facebook.com/zandanike", "https://instagram.com/zandani_ke"]
