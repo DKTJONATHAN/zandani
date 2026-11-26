@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "14b67525c1f62a1d283bc85edc1ee48809384cb94dfdd0986beafaf835ce2c1e",
     "57a942836f1345e5f4fa4a3b25ff182a9ed9b674f37d0972bafcadff9e879634",
     "3d9b8e18011c3250f31638d3126205ea23837cfbbc075bc22bb858389e90c9cb",
     "8045d52e68ff0f5bdb5e3d0a53ecb589e046f661bb6e35e7eaf470ac94886386",
@@ -499,10 +498,10 @@
     "8e7cf9387ab0be77ccb7673639b093aa22e4e7852127289ddbfeb63ccf88b76f",
     "49505a5a37fe9b70c6b72b35b6b48d4d614e4ab5f43b3e97f8e7a25809ac2a89",
     "e59ebecc4b0ee934da4f0b6d151f4f2dead349b6e9e703927630a6c50acb2862",
-    "8ac2c0ff807cd69107647840bc3f34dc2df6cbade55398ace0449a35a6fd092d"
+    "8ac2c0ff807cd69107647840bc3f34dc2df6cbade55398ace0449a35a6fd092d",
+    "bb58337f7ed0835d335ae3e8ca1b2e10d8a3350a7e89657bf3f79025e8d8efa2"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/almasi-tells-fans-to-leave-him-alone-in-playful-public-service-announcement/",
     "https://www.ghafla.co.ke/boniface-mwangi-backs-babu-owino-and-edwin-sifuna-as-key-figures-in-opposition-strategy/",
     "https://www.ghafla.co.ke/na-mzoee-mapema-mapema-herman-manyora-declares-ruto-a-tutam-president/",
     "https://www.ghafla.co.ke/flossin-and-girlfriend-nihan-spark-reactions-after-tattooing-each-others-names/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/khaligraph-jones-becomes-first-east-african-hip-hop-artist-to-hit-1-million-youtube-subscribers/",
     "https://www.ghafla.co.ke/willis-raburu-urges-edwin-sifuna-to-ignore-mockery-over-2027-presidential-bid/",
     "https://www.ghafla.co.ke/what-happens-if-el-nino-does-not-happen-lawmakers-demand-answers-over-unused-emergency-allocations/",
-    "https://www.ghafla.co.ke/knh-appeals-to-striking-staff-to-resume-work-promises-first-batch-of-salary-arrears-by-friday/"
+    "https://www.ghafla.co.ke/knh-appeals-to-striking-staff-to-resume-work-promises-first-batch-of-salary-arrears-by-friday/",
+    "https://www.ghafla.co.ke/crazy-kennar-celebrates-birthday-by-gifting-himself-a-sleek-black-bmw-photo/"
   ],
   "published_angles": [
-    {
-      "title": "Lulu Hassan Takes State House Floor as Mvita 2027 Ambition Moves Beyond Street Whispers",
-      "angle": "Framing Lulu Hassan's State House address in Mombasa as the moment her rumored Mvita candidacy crossed from social media chatter into active presidential politics, positioned within the broader shift of Royal Media Services talent moving from the anchor desk to elective campaigns under tightening regulatory oversight.",
-      "angle_type": "celebrity political transition and broadcasting conflict",
-      "opening": "Personality lead opening directly on Lulu Hassan taking the floor at State House Mombasa in front of President Ruto and regional political heavyweights.",
-      "structure": "Personality lead -> State House Mombasa meeting details -> Mvita constituency dynamics -> Royal Media Services talent wave -> MCK regulatory rules and mandatory exit context.",
-      "source": "https://www.ghafla.co.ke/lulu-hassans-state-house-meeting-with-ruto-fuels-mvita-parliamentary-seat-speculation/"
-    },
     {
       "title": "Ndegwa Njiru\u2019s Online Abuse Complaint Backfires as Sifuna Base Swarms Wiper Timeline",
       "angle": "Focusing on how Ndegwa Njiru\u2019s anonymous sub-tweet backfired on Wiper, inviting Sifuna's digital base to step into the target slot, own their online aggression, and openly mock Kalonzo's failure to capture the post-Raila opposition momentum.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality-free institutional accountability lead focusing on the exact payout dates wrung from management.",
       "structure": "Union pressure leverage -> Phased payment schedule breakdown -> Unremitted statutory deductions context -> Impact on patient service continuation.",
       "source": "https://www.ghafla.co.ke/knh-appeals-to-striking-staff-to-resume-work-promises-first-batch-of-salary-arrears-by-friday/"
+    },
+    {
+      "title": "Crazy Kennar Adds BMW 'Keya' to Production Fleet as Content Cartel Scales Up",
+      "angle": "Focusing on the operational transition of independent digital comedy into formalized enterprise infrastructure\u2014specifically how Kennar's luxury purchase is explicitly utility-driven for his production crew's scriptwriting logistics rather than purely decorative prestige.",
+      "angle_type": "operational infrastructure and creative enterprise scaling",
+      "opening": "Personality lead opening directly on the utility-driven naming of the comedian's new asset.",
+      "structure": "Vehicle utility hook -> Expansion of the Content Cartel production logistics -> Evolution from relatable skits to high-budget cinematic collaborations -> Continental footprint and Kigali forum context -> Concrete career trajectory close.",
+      "source": "https://www.ghafla.co.ke/crazy-kennar-celebrates-birthday-by-gifting-himself-a-sleek-black-bmw-photo/"
     }
   ],
   "style_history": [
