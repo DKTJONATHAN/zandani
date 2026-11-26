@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "30694c7629d5d77b001de336b3a6e765c9bef07a65cefb477d2acf204a069432",
     "f6ffc845ab6274d706750d06d51dd3175242831d4291f5b072cdaf1965f016cc",
     "8bdd1c3b2ee5253bfb30d69a110718fb2bbd975da34f8b887c3693ae693fed65",
     "ed3bd5b314bc81f549ac0fa38cffb8c7f97f5633b20d6db9bb6981104b47a222",
@@ -499,10 +498,10 @@
     "1501845cfc8afc9f67c286851c1ec6e117e5c78c9296b108083f83cdd8e93231",
     "f39c4230f364c902924bea26c47f119dc946c3c2ad6a595c0f6df0f5447ca445",
     "e8bb046e05be1cfdeeb054e01bec29360ad9d2f038a2d101e6b788fa3b62d962",
-    "708855ee80356e769c4c4035085587fc42937872530c60fbb09d22290eac63d6"
+    "708855ee80356e769c4c4035085587fc42937872530c60fbb09d22290eac63d6",
+    "ac332045ac274e743e21f0c87a1f4ee7674598e12469498998c2191b36ee6c5c"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/detectives-recover-motorcycle-allegedly-used-to-ferry-gunman-in-kyalo-mbobu-murder/",
     "https://www.ghafla.co.ke/kalonzo-tops-opposition-flagbearer-poll-as-sifuna-camp-pushes-2027-bid/",
     "https://www.ghafla.co.ke/wamalwa-offers-dap-k-leadership-and-presidential-ticket-to-sifuna/",
     "https://www.ghafla.co.ke/moses-kuria-poll-sparks-debate-as-sifuna-tops-2027-presidential-survey/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/diamond-platnumz-recalls-emotional-moments-in-past-relationship-with-wema-sepetu/",
     "https://www.ghafla.co.ke/kenyas-billions-under-audit-what-the-numbers-say-about-three-presidents/",
     "https://www.ghafla.co.ke/alex-mwakideu-shares-humorous-tips-for-surviving-december-festivities/",
-    "https://www.ghafla.co.ke/baba-talisha-hits-back-at-critics-twisting-narrative-around-his-ksh2-19m-tiktok-eye-surgery-fundraiser/"
+    "https://www.ghafla.co.ke/baba-talisha-hits-back-at-critics-twisting-narrative-around-his-ksh2-19m-tiktok-eye-surgery-fundraiser/",
+    "https://www.ghafla.co.ke/baba-talisha-breaks-silence-amid-online-discussions-over-ksh-2-2-million-medical-fundraiser/"
   ],
   "published_angles": [
-    {
-      "title": "Rigathi Gachagua Plays Opposition Bouncer in Kimende, Tells Ruto Sifuna and Karua Are Off the Market",
-      "angle": "Framing Gachagua\u2019s Kimende pulpit appearance as a theatrical one-man gatekeeping blitz\u2014personally taking roll call for Sifuna, Karua, and Matiang'i to dismiss Ruto's advances, directly countering a fresh TIFA poll branding him the opposition's chief divider by staking his credibility on a Christmas breakthrough.",
-      "angle_type": "political personality gatekeeping and poll backlash",
-      "opening": "Personality lead focusing directly on Gachagua mounting the pulpit at AIC Bathi to issue a roll call of politicians he claims are off-limits to State House.",
-      "structure": "Personality roll-call hook -> The 'not available' list (Sifuna, Karua, Matiang'i) -> Gachagua's self-appointed broker role and Christmas deadline -> Direct confrontation with the 43% TIFA poll findings -> Grounded close on the 2027 flagbearer contest.",
-      "source": "https://www.ghafla.co.ke/gachagua-tells-ruto-to-stop-wooing-opposition-leaders-says-they-have-agreed-to-back-one-candidate/"
-    },
     {
       "title": "Ole Ntutu and Ledama Flank Ruto as Narok Leaders Unite for St. Mary\u2019s School Launch",
       "angle": "Focusing on the high-powered bipartisan local lineup flanking the Head of State at a remote educational launch\u2014bringing together Governor Patrick Ole Ntutu and opposition-leaning Senator Ledama Olekina side by side on an institutional inspection tour.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Baba Talisha's social media pushback against critics of his medical fund.",
       "structure": "Personality hook on the statement -> Breakdown of the TikTok fund numbers and insurance exhaustion -> Medical context of Acanthamoeba Keratitis -> Close on the upcoming trip to India.",
       "source": "https://www.ghafla.co.ke/baba-talisha-hits-back-at-critics-twisting-narrative-around-his-ksh2-19m-tiktok-eye-surgery-fundraiser/"
+    },
+    {
+      "title": "How a Five-Hour TikTok Stream Outran Baba Talisha\u2019s Medical Bills Before the Trolls Moved In",
+      "angle": "The operational speed of the digital fundraising apparatus versus the severe medical reality of Acanthamoeba keratitis and exhausted private insurance that necessitated it.",
+      "angle_type": "digital fundraising speed versus medical reality",
+      "opening": "Personality lead focusing directly on the five-hour TikTok fundraising sprint and the clinical emergency behind it.",
+      "structure": "Fundraising speed and figures hook -> Medical diagnosis of Acanthamoeba keratitis and insurance exhaustion -> Baba Talisha's pushback against critics -> Concrete close on the upcoming specialized trip to India.",
+      "source": "https://www.ghafla.co.ke/baba-talisha-breaks-silence-amid-online-discussions-over-ksh-2-2-million-medical-fundraiser/"
     }
   ],
   "style_history": [
