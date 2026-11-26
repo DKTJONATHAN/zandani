@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "8045d52e68ff0f5bdb5e3d0a53ecb589e046f661bb6e35e7eaf470ac94886386",
     "1cf89e0ea32546c15c5f6957e81ed37b7a36d62b93c846431369527ea19fecb6",
     "dad578fd71cb1ba6d2976ebd01b5287013dc8f69d0a37dfc9df0ded43518c11c",
     "3cfec6761e829abeaadaab966134fcfd3128d4715883baac3fe940e41568318e",
@@ -499,10 +498,10 @@
     "8ac2c0ff807cd69107647840bc3f34dc2df6cbade55398ace0449a35a6fd092d",
     "bb58337f7ed0835d335ae3e8ca1b2e10d8a3350a7e89657bf3f79025e8d8efa2",
     "0a3f6610cb6cc3488f6b84bf10a337d4217ac5ea86dc08076fed56c09c865124",
-    "07f15fff63ebbb0fea78c8ca100a6bde51f534d1bf5728beef9ee4b4d9948a9a"
+    "07f15fff63ebbb0fea78c8ca100a6bde51f534d1bf5728beef9ee4b4d9948a9a",
+    "de9c54aa83af0f6ff1fd17a96821037421e7cce1852ee7e900704001a54ff3ed"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/flossin-and-girlfriend-nihan-spark-reactions-after-tattooing-each-others-names/",
     "https://www.ghafla.co.ke/celestine-ndinda-tries-to-rehabilitate-her-image-after-being-accused-of-cheating-on-njugush/",
     "https://www.ghafla.co.ke/paul-waiganjo-resigns-as-rutos-development-adviser-cites-limits-of-role/",
     "https://www.ghafla.co.ke/deputy-president-kindiki-outlines-strategic-plan-to-tackle-expected-el-nino-flooding/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/knh-appeals-to-striking-staff-to-resume-work-promises-first-batch-of-salary-arrears-by-friday/",
     "https://www.ghafla.co.ke/crazy-kennar-celebrates-birthday-by-gifting-himself-a-sleek-black-bmw-photo/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-outages-in-nairobi-kiambu-nyeri-kwale-and-kilifi-on-november-26/",
-    "https://www.ghafla.co.ke/rigathi-gachagua-denies-holding-talks-with-ndindi-nyoro-after-brief-nairobi-encounter-praises-sifuna-and-babu-owino/"
+    "https://www.ghafla.co.ke/rigathi-gachagua-denies-holding-talks-with-ndindi-nyoro-after-brief-nairobi-encounter-praises-sifuna-and-babu-owino/",
+    "https://www.ghafla.co.ke/willis-raburu-slams-government-over-state-houses-ksh-8-4-billion-funding-request/"
   ],
   "published_angles": [
-    {
-      "title": "Nairobi Motorists Spare No Relief as Fuel Prices Hold Firm at KSh226 Despite Global Crude Slump",
-      "angle": "Examining the high-stakes financial mechanics and the exact cost reality facing Nairobi motorists despite global oil dips.",
-      "angle_type": "financial impact and consumer cost reality",
-      "opening": "Personality and scene-setter focus on the Nairobi pump price reality.",
-      "structure": "Nairobi pump price hook -> KSh4.6 billion bailout breakdown -> Landed cost vs international crude contradiction -> Conclusion on the December pricing window.",
-      "source": "https://www.ghafla.co.ke/epra-maintains-fuel-prices-for-november-december-despite-rising-import-costs/"
-    },
     {
       "title": "Athi River Mega-Estates and Malls Face 12-Hour Sunday Power Freeze in Five-County Maintenance Sweep",
       "angle": "Focusing on the severe 12-hour operational freeze concentrated on Athi River's high-density commuter estates and commercial nodes, contrasting with the standard eight-hour maintenance windows deployed across Nairobi, Nyeri, and Turkana.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead focusing directly on Gachagua's cultural protocol edict regarding younger politicians seeking his mentorship.",
       "structure": "Protocol hook -> The Nairobi opposition briefing context -> Dismissal of Nyoro talks -> The Sifuna and Babu Owino endorsement details",
       "source": "https://www.ghafla.co.ke/rigathi-gachagua-denies-holding-talks-with-ndindi-nyoro-after-brief-nairobi-encounter-praises-sifuna-and-babu-owino/"
+    },
+    {
+      "title": "Willis Raburu Zeroes In on State House\u2019s KSh 40M Chair Budget in Scathing Cost-of-Living Rebuke",
+      "angle": "Examining Raburu's targeted critique of the KSh 40.4 million furniture funding gap\u2014using the 'new chairs' line item to highlight the stark divide between executive operational requests and household utility inflation.",
+      "angle_type": "line-item scrutiny and lifestyle cost friction",
+      "opening": "Personality lead opening directly on Raburu isolating the KSh 40.4 million furniture deficit from parliamentary budget documents.",
+      "structure": "Personality lead on the furniture quote -> Parliamentary breakdown of Katoo Ole Metito's committee figures -> Analysis of the KSh 8.42 billion total operational request -> Macroeconomic context close.",
+      "source": "https://www.ghafla.co.ke/willis-raburu-slams-government-over-state-houses-ksh-8-4-billion-funding-request/"
     }
   ],
   "style_history": [
