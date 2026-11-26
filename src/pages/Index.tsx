@@ -226,7 +226,8 @@ const Index = () => {
     "@type": "WebSite",
     "name": "Za Ndani",
     "url": SITE_URL,
-    "description": "Kenya news, gossip, showbiz, sports and politics — bold, local, first.",
+    "description": "Za Ndani (Zandani) covers Kenya’s latest news, politics, business, sports and entertainment.",
+    "alternateName": ["Zandani"],
     "inLanguage": "en-KE",
     "potentialAction": {
       "@type": "SearchAction",
@@ -238,7 +239,8 @@ const Index = () => {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Zandani",
+    "name": "Za Ndani",
+    "alternateName": ["Zandani"],
     "url": SITE_URL,
     "logo": `${SITE_URL}/logo.png`,
     "sameAs": ["https://x.com/zandani_ke", "https://facebook.com/zandanike", "https://instagram.com/zandani_ke"]
@@ -261,23 +263,23 @@ const Index = () => {
     <Layout>
       <div className="news-home">
       <Helmet>
-        <title>Za Ndani | Kenya News, Politics, Sports & Entertainment</title>
-        <meta name="description" content="Za Ndani covers Kenya’s latest news, politics, business, sport and entertainment, with reporting and context from Nairobi and across the country." />
+        <title>Za Ndani (Zandani) | Kenya News, Politics &amp; Showbiz</title>
+        <meta name="description" content="Za Ndani (Zandani) covers Kenya’s latest news, politics, business, sports and entertainment, with local reporting and context from Nairobi and across Kenya." />
         <meta name="robots" content="index, follow, max-image-preview:large" />
         <link rel="canonical" href={SITE_URL} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={SITE_URL} />
         <meta property="og:site_name" content="Za Ndani" />
         <meta property="og:locale" content="en_KE" />
-        <meta property="og:title" content="Za Ndani | Kenya News, Politics, Sports & Entertainment" />
-        <meta property="og:description" content="Kenya-first news, gossip and showbiz from Nairobi. Breaking local stories, sports, politics and entertainment." />
+        <meta property="og:title" content="Za Ndani (Zandani) | Kenya News, Politics &amp; Showbiz" />
+        <meta property="og:description" content="Za Ndani (Zandani) covers Kenya’s latest news, politics, business, sports and entertainment, with local reporting and context from Nairobi and across Kenya." />
         <meta property="og:image" content={homeOgImage} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@zandanikenya" />
-        <meta name="twitter:title" content="Za Ndani | Kenya News, Gossip & Entertainment" />
-        <meta name="twitter:description" content="Kenya-first news, gossip and showbiz from Nairobi." />
+        <meta name="twitter:title" content="Za Ndani (Zandani) | Kenya News, Politics &amp; Showbiz" />
+        <meta name="twitter:description" content="Za Ndani (Zandani) covers Kenya’s latest news, politics, business, sports and entertainment, with local reporting and context from Nairobi and across Kenya." />
         <meta name="twitter:image" content={homeOgImage} />
         {heroLead && <link rel="preload" as="image" href={optimizedHeroImage} imageSrcSet={heroImageSrcSet} imageSizes={heroImageSizes} fetchPriority="high" />}
         <script type="application/ld+json">{JSON.stringify(websiteSchema)}</script>
