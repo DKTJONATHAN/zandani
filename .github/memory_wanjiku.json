@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "3cfec6761e829abeaadaab966134fcfd3128d4715883baac3fe940e41568318e",
     "ff8a8223d23aa7c889a92ba7c15c15dd6ca1d85b1a90bf695aa03ec0128b3a33",
     "2ebcbb750047f825760d1070f0db5dba5bbb7057d5018989eca2112fd9e69afc",
     "30694c7629d5d77b001de336b3a6e765c9bef07a65cefb477d2acf204a069432",
@@ -499,10 +498,10 @@
     "07f15fff63ebbb0fea78c8ca100a6bde51f534d1bf5728beef9ee4b4d9948a9a",
     "de9c54aa83af0f6ff1fd17a96821037421e7cce1852ee7e900704001a54ff3ed",
     "7ccb0f9991365dde5db5d24cad761018ef6ed807074e71d6961769e5669a67f0",
-    "1501845cfc8afc9f67c286851c1ec6e117e5c78c9296b108083f83cdd8e93231"
+    "1501845cfc8afc9f67c286851c1ec6e117e5c78c9296b108083f83cdd8e93231",
+    "f39c4230f364c902924bea26c47f119dc946c3c2ad6a595c0f6df0f5447ca445"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/deputy-president-kindiki-outlines-strategic-plan-to-tackle-expected-el-nino-flooding/",
     "https://www.ghafla.co.ke/president-william-ruto-tours-dangote-refinery-in-nigeria-ahead-of-lamu-groundbreaking/",
     "https://www.ghafla.co.ke/president-ruto-and-fifa-boss-gianni-infantino-discuss-proposed-fifa-standard-stadium-in-mombasa/",
     "https://www.ghafla.co.ke/detectives-recover-motorcycle-allegedly-used-to-ferry-gunman-in-kyalo-mbobu-murder/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/rigathi-gachagua-denies-holding-talks-with-ndindi-nyoro-after-brief-nairobi-encounter-praises-sifuna-and-babu-owino/",
     "https://www.ghafla.co.ke/willis-raburu-slams-government-over-state-houses-ksh-8-4-billion-funding-request/",
     "https://www.ghafla.co.ke/court-blocks-operations-at-laikipia-air-base-ebola-center-over-secrecy-and-lack-of-public-participation/",
-    "https://www.ghafla.co.ke/diamond-platnumz-recalls-emotional-moments-in-past-relationship-with-wema-sepetu/"
+    "https://www.ghafla.co.ke/diamond-platnumz-recalls-emotional-moments-in-past-relationship-with-wema-sepetu/",
+    "https://www.ghafla.co.ke/kenyas-billions-under-audit-what-the-numbers-say-about-three-presidents/"
   ],
   "published_angles": [
-    {
-      "title": "Ndindi Nyoro Dares Ruto to Fight Him Instead as He Steps Out in Kisii with Matiang\u2019i and Orengo",
-      "angle": "Focusing on Ndindi Nyoro's explicit self-positioning as a frontline political sparring partner for Ruto to shield elder figures, delivered during a strategic joint appearance alongside Fred Matiang'i and James Orengo on Kisii soil.",
-      "angle_type": "personality challenge and political alliance framing",
-      "opening": "Personality lead opening directly on Ndindi Nyoro offering himself up as President William Ruto's primary political sparring partner.",
-      "structure": "Personality challenge hook -> The Kisii church platform and direct remarks on Uhuru, Gachagua, and Matiang'i -> Nyoro's endorsement of Matiang'i on home ground -> Orengo's joint candidate disclosure -> Closing on the 2027 opposition alignment.",
-      "source": "https://www.ghafla.co.ke/ndindi-nyoro-defends-uhuru-gachagua-and-matiangi-against-rutos-rally-remarks/"
-    },
     {
       "title": "Ruto Steps In as Patrick and Gabriel\u2019s Narok Turf War Disrupts Maa Festival",
       "angle": "Focusing on Ruto stepping into the role of public mediator to call out the direct intra-party power tussle between his own UDA lieutenants, Patrick and Gabriel, after their gubernatorial ambition spilled over into violence during a cultural showcase.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead focusing directly on Diamond Platnumz recalling the personal toll and tears of his past romance with Wema Sepetu.",
       "structure": "Personality hook on past tears -> Babu Tale's managerial intervention and advice to walk away -> Diamond's counter-admission of feeling 'like heaven' -> Context of both figures moving on with Whozu and Zuchu by 2026.",
       "source": "https://www.ghafla.co.ke/diamond-platnumz-recalls-emotional-moments-in-past-relationship-with-wema-sepetu/"
+    },
+    {
+      "title": "Tracing Kenya\u2019s Audit Billions Across Three Presidencies: Why Raw Shilling Figures Miss the Point",
+      "angle": "The mechanics of how shifting budget sizes completely distort raw audit figures, and why a Sh380 billion query under one regime means something entirely different than it did a decade prior.",
+      "angle_type": "proportional fiscal analysis and budget scale reality",
+      "opening": "A sharp, direct focus on the numerical illusion of public finance audits rather than a generic summary of government spending.",
+      "structure": "Numerical illusion hook -> Kibaki vs Uhuru vs Ruto absolute shilling breakdown -> The proportional percentage shift -> Documentation and data gaps -> Concrete final observation on accounting responses.",
+      "source": "https://www.ghafla.co.ke/kenyas-billions-under-audit-what-the-numbers-say-about-three-presidents/"
     }
   ],
   "style_history": [
