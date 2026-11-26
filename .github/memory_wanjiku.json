@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "1cf89e0ea32546c15c5f6957e81ed37b7a36d62b93c846431369527ea19fecb6",
     "dad578fd71cb1ba6d2976ebd01b5287013dc8f69d0a37dfc9df0ded43518c11c",
     "3cfec6761e829abeaadaab966134fcfd3128d4715883baac3fe940e41568318e",
     "ff8a8223d23aa7c889a92ba7c15c15dd6ca1d85b1a90bf695aa03ec0128b3a33",
@@ -499,10 +498,10 @@
     "bb58337f7ed0835d335ae3e8ca1b2e10d8a3350a7e89657bf3f79025e8d8efa2",
     "0a3f6610cb6cc3488f6b84bf10a337d4217ac5ea86dc08076fed56c09c865124",
     "07f15fff63ebbb0fea78c8ca100a6bde51f534d1bf5728beef9ee4b4d9948a9a",
-    "de9c54aa83af0f6ff1fd17a96821037421e7cce1852ee7e900704001a54ff3ed"
+    "de9c54aa83af0f6ff1fd17a96821037421e7cce1852ee7e900704001a54ff3ed",
+    "7ccb0f9991365dde5db5d24cad761018ef6ed807074e71d6961769e5669a67f0"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/celestine-ndinda-tries-to-rehabilitate-her-image-after-being-accused-of-cheating-on-njugush/",
     "https://www.ghafla.co.ke/paul-waiganjo-resigns-as-rutos-development-adviser-cites-limits-of-role/",
     "https://www.ghafla.co.ke/deputy-president-kindiki-outlines-strategic-plan-to-tackle-expected-el-nino-flooding/",
     "https://www.ghafla.co.ke/president-william-ruto-tours-dangote-refinery-in-nigeria-ahead-of-lamu-groundbreaking/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/crazy-kennar-celebrates-birthday-by-gifting-himself-a-sleek-black-bmw-photo/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-outages-in-nairobi-kiambu-nyeri-kwale-and-kilifi-on-november-26/",
     "https://www.ghafla.co.ke/rigathi-gachagua-denies-holding-talks-with-ndindi-nyoro-after-brief-nairobi-encounter-praises-sifuna-and-babu-owino/",
-    "https://www.ghafla.co.ke/willis-raburu-slams-government-over-state-houses-ksh-8-4-billion-funding-request/"
+    "https://www.ghafla.co.ke/willis-raburu-slams-government-over-state-houses-ksh-8-4-billion-funding-request/",
+    "https://www.ghafla.co.ke/court-blocks-operations-at-laikipia-air-base-ebola-center-over-secrecy-and-lack-of-public-participation/"
   ],
   "published_angles": [
-    {
-      "title": "Athi River Mega-Estates and Malls Face 12-Hour Sunday Power Freeze in Five-County Maintenance Sweep",
-      "angle": "Focusing on the severe 12-hour operational freeze concentrated on Athi River's high-density commuter estates and commercial nodes, contrasting with the standard eight-hour maintenance windows deployed across Nairobi, Nyeri, and Turkana.",
-      "angle_type": "suburban impact and operational duration disparity",
-      "opening": "Lead on the distinct 12-hour shutdown hitting Machakos commuter estates and retail centres while other counties observe standard work shifts.",
-      "structure": "Athi River extended-blackout focus -> Residential and retail exposure in Greatwall and Signature Mall -> Nairobi's dual commercial and residential cuts in Parklands and Industrial Area -> Upcountry maintenance lines in Turkana, Uasin Gishu, and Nyeri -> Utility advisory wrap.",
-      "source": "https://www.ghafla.co.ke/kenya-power-announces-sunday-electricity-interruptions-in-nairobi-machakos-and-three-other-counties/"
-    },
     {
       "title": "Raymond Omollo Steps Onto Marenga Beach Sands as Bunyala Fishers Take Ugandan Patrol Grievances Straight to His Face",
       "angle": "Framing the Bunyala tour around Dr Raymond Omollo personally stepping onto the lakeside turf to swap boardroom decorum for unfiltered local realities, where fishermen praised new shore assets while laying raw accounts of cross-border harassment by Ugandan forces and net seizures squarely at his feet.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Raburu isolating the KSh 40.4 million furniture deficit from parliamentary budget documents.",
       "structure": "Personality lead on the furniture quote -> Parliamentary breakdown of Katoo Ole Metito's committee figures -> Analysis of the KSh 8.42 billion total operational request -> Macroeconomic context close.",
       "source": "https://www.ghafla.co.ke/willis-raburu-slams-government-over-state-houses-ksh-8-4-billion-funding-request/"
+    },
+    {
+      "title": "Aden Duale Facing 45-Day Court Order to Expose Secret US Ebola Deal in Laikipia",
+      "angle": "Focusing on Health CS Aden Duale's personal executive exposure and the strict 45-day judicial countdown forcing disclosure of the secret US deal, contextualized by his prior June 2026 contempt citation.",
+      "angle_type": "executive accountability and disclosure countdown",
+      "opening": "Personality lead opening directly on Health CS Aden Duale coming under a strict 45-day High Court mandate.",
+      "structure": "Personality hook on Duale -> Ruling mechanics by Justice Nyaundi -> Specific documents ordered for release within 45 days -> Katiba Institute response -> Legal timeline from May to June 2026 contempt citation -> Next verified compliance check.",
+      "source": "https://www.ghafla.co.ke/court-blocks-operations-at-laikipia-air-base-ebola-center-over-secrecy-and-lack-of-public-participation/"
     }
   ],
   "style_history": [
