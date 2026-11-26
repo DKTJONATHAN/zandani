@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "2ebcbb750047f825760d1070f0db5dba5bbb7057d5018989eca2112fd9e69afc",
     "30694c7629d5d77b001de336b3a6e765c9bef07a65cefb477d2acf204a069432",
     "f6ffc845ab6274d706750d06d51dd3175242831d4291f5b072cdaf1965f016cc",
     "8bdd1c3b2ee5253bfb30d69a110718fb2bbd975da34f8b887c3693ae693fed65",
@@ -499,10 +498,10 @@
     "7ccb0f9991365dde5db5d24cad761018ef6ed807074e71d6961769e5669a67f0",
     "1501845cfc8afc9f67c286851c1ec6e117e5c78c9296b108083f83cdd8e93231",
     "f39c4230f364c902924bea26c47f119dc946c3c2ad6a595c0f6df0f5447ca445",
-    "e8bb046e05be1cfdeeb054e01bec29360ad9d2f038a2d101e6b788fa3b62d962"
+    "e8bb046e05be1cfdeeb054e01bec29360ad9d2f038a2d101e6b788fa3b62d962",
+    "708855ee80356e769c4c4035085587fc42937872530c60fbb09d22290eac63d6"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/president-ruto-and-fifa-boss-gianni-infantino-discuss-proposed-fifa-standard-stadium-in-mombasa/",
     "https://www.ghafla.co.ke/detectives-recover-motorcycle-allegedly-used-to-ferry-gunman-in-kyalo-mbobu-murder/",
     "https://www.ghafla.co.ke/kalonzo-tops-opposition-flagbearer-poll-as-sifuna-camp-pushes-2027-bid/",
     "https://www.ghafla.co.ke/wamalwa-offers-dap-k-leadership-and-presidential-ticket-to-sifuna/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/court-blocks-operations-at-laikipia-air-base-ebola-center-over-secrecy-and-lack-of-public-participation/",
     "https://www.ghafla.co.ke/diamond-platnumz-recalls-emotional-moments-in-past-relationship-with-wema-sepetu/",
     "https://www.ghafla.co.ke/kenyas-billions-under-audit-what-the-numbers-say-about-three-presidents/",
-    "https://www.ghafla.co.ke/alex-mwakideu-shares-humorous-tips-for-surviving-december-festivities/"
+    "https://www.ghafla.co.ke/alex-mwakideu-shares-humorous-tips-for-surviving-december-festivities/",
+    "https://www.ghafla.co.ke/baba-talisha-hits-back-at-critics-twisting-narrative-around-his-ksh2-19m-tiktok-eye-surgery-fundraiser/"
   ],
   "published_angles": [
-    {
-      "title": "Kalonzo, Sifuna and Matiang\u2019i Ticket Shakes Up Opposition Math in New Swiss Poll Survey",
-      "angle": "Examining the specific ticket arithmetic where Kalonzo, Sifuna, and Matiang'i dominate 48% of hypothetical coalition combinations, highlighting the tension between personal poll ratings and the pollster's warning that opposition numbers won't automatically consolidate.",
-      "angle_type": "political alliance arithmetic and coalition pairing dynamics",
-      "opening": "Personality-led focus on Kalonzo Musyoka's dominance in the multi-name ticket permutations tested by Swiss Poll International.",
-      "structure": "Personality ticket hook -> Three-way permutation breakdown (48% vs 23% vs 12%) -> The pollster's consolidation warning -> Party popularity contrast with individual rankings -> Close on the phone-survey sample demographics.",
-      "source": "https://www.ghafla.co.ke/kalonzo-musyoka-emerges-as-oppositions-most-preferred-2027-presidential-candidate-in-new-poll/"
-    },
     {
       "title": "Rigathi Gachagua Plays Opposition Bouncer in Kimende, Tells Ruto Sifuna and Karua Are Off the Market",
       "angle": "Framing Gachagua\u2019s Kimende pulpit appearance as a theatrical one-man gatekeeping blitz\u2014personally taking roll call for Sifuna, Karua, and Matiang'i to dismiss Ruto's advances, directly countering a fresh TIFA poll branding him the opposition's chief divider by staking his credibility on a Christmas breakthrough.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead focusing directly on the eccentric inventory items Mwakideu prescribed for holiday tables.",
       "structure": "Personality hook on survival items -> Breakdown of festive eating advice and stomach meds -> Nostalgic detour into vintage Marlboro plastic bags -> Closing on the pragmatic reality of holiday excess.",
       "source": "https://www.ghafla.co.ke/alex-mwakideu-shares-humorous-tips-for-surviving-december-festivities/"
+    },
+    {
+      "title": "Baba Talisha Fires Back Over Ksh2.19M TikTok Medical Kitty Critics",
+      "angle": "Examining the specific friction between online crowdfunding accountability and the creator's pushback against armchair critics questioning the integrity of the medical kitty.",
+      "angle_type": "crowdfunding accountability and digital scrutiny friction",
+      "opening": "Personality lead opening directly on Baba Talisha's social media pushback against critics of his medical fund.",
+      "structure": "Personality hook on the statement -> Breakdown of the TikTok fund numbers and insurance exhaustion -> Medical context of Acanthamoeba Keratitis -> Close on the upcoming trip to India.",
+      "source": "https://www.ghafla.co.ke/baba-talisha-hits-back-at-critics-twisting-narrative-around-his-ksh2-19m-tiktok-eye-surgery-fundraiser/"
     }
   ],
   "style_history": [
