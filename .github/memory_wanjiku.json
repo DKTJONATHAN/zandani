@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ff8a8223d23aa7c889a92ba7c15c15dd6ca1d85b1a90bf695aa03ec0128b3a33",
     "2ebcbb750047f825760d1070f0db5dba5bbb7057d5018989eca2112fd9e69afc",
     "30694c7629d5d77b001de336b3a6e765c9bef07a65cefb477d2acf204a069432",
     "f6ffc845ab6274d706750d06d51dd3175242831d4291f5b072cdaf1965f016cc",
@@ -499,10 +498,10 @@
     "de9c54aa83af0f6ff1fd17a96821037421e7cce1852ee7e900704001a54ff3ed",
     "7ccb0f9991365dde5db5d24cad761018ef6ed807074e71d6961769e5669a67f0",
     "1501845cfc8afc9f67c286851c1ec6e117e5c78c9296b108083f83cdd8e93231",
-    "f39c4230f364c902924bea26c47f119dc946c3c2ad6a595c0f6df0f5447ca445"
+    "f39c4230f364c902924bea26c47f119dc946c3c2ad6a595c0f6df0f5447ca445",
+    "e8bb046e05be1cfdeeb054e01bec29360ad9d2f038a2d101e6b788fa3b62d962"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/president-william-ruto-tours-dangote-refinery-in-nigeria-ahead-of-lamu-groundbreaking/",
     "https://www.ghafla.co.ke/president-ruto-and-fifa-boss-gianni-infantino-discuss-proposed-fifa-standard-stadium-in-mombasa/",
     "https://www.ghafla.co.ke/detectives-recover-motorcycle-allegedly-used-to-ferry-gunman-in-kyalo-mbobu-murder/",
     "https://www.ghafla.co.ke/kalonzo-tops-opposition-flagbearer-poll-as-sifuna-camp-pushes-2027-bid/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/willis-raburu-slams-government-over-state-houses-ksh-8-4-billion-funding-request/",
     "https://www.ghafla.co.ke/court-blocks-operations-at-laikipia-air-base-ebola-center-over-secrecy-and-lack-of-public-participation/",
     "https://www.ghafla.co.ke/diamond-platnumz-recalls-emotional-moments-in-past-relationship-with-wema-sepetu/",
-    "https://www.ghafla.co.ke/kenyas-billions-under-audit-what-the-numbers-say-about-three-presidents/"
+    "https://www.ghafla.co.ke/kenyas-billions-under-audit-what-the-numbers-say-about-three-presidents/",
+    "https://www.ghafla.co.ke/alex-mwakideu-shares-humorous-tips-for-surviving-december-festivities/"
   ],
   "published_angles": [
-    {
-      "title": "Ruto Steps In as Patrick and Gabriel\u2019s Narok Turf War Disrupts Maa Festival",
-      "angle": "Focusing on Ruto stepping into the role of public mediator to call out the direct intra-party power tussle between his own UDA lieutenants, Patrick and Gabriel, after their gubernatorial ambition spilled over into violence during a cultural showcase.",
-      "angle_type": "intra-party political rivalry and public reprimand",
-      "opening": "Personality lead focusing directly on President Ruto calling out the political duel between Patrick and Gabriel onstage in Narok.",
-      "structure": "Ruto public call-out hook -> The confrontation at Sekenani Gate during the Ushanga hall launch -> Ruto's verbatim lecture to the two UDA aspirants -> Context of gubernatorial stakes and democratic choice -> Closing note on campaign discipline",
-      "source": "https://www.ghafla.co.ke/msikubali-kubebewa-akili-president-ruto-addresses-recent-clashes-in-narok-rally/"
-    },
     {
       "title": "Kalonzo, Sifuna and Matiang\u2019i Ticket Shakes Up Opposition Math in New Swiss Poll Survey",
       "angle": "Examining the specific ticket arithmetic where Kalonzo, Sifuna, and Matiang'i dominate 48% of hypothetical coalition combinations, highlighting the tension between personal poll ratings and the pollster's warning that opposition numbers won't automatically consolidate.",
@@ -1803,6 +1795,14 @@
       "opening": "A sharp, direct focus on the numerical illusion of public finance audits rather than a generic summary of government spending.",
       "structure": "Numerical illusion hook -> Kibaki vs Uhuru vs Ruto absolute shilling breakdown -> The proportional percentage shift -> Documentation and data gaps -> Concrete final observation on accounting responses.",
       "source": "https://www.ghafla.co.ke/kenyas-billions-under-audit-what-the-numbers-say-about-three-presidents/"
+    },
+    {
+      "title": "Alex Mwakideu\u2019s December Survival Kit: Eno, Chili, and Vintage Marlboro Bags",
+      "angle": "Focusing on the practical, nostalgic humor of his specific survival kit items\u2014such as Eno, carried chili, and durable Marlboro plastic bags\u2014rather than a generic holiday spending warning.",
+      "angle_type": "humorous lifestyle logistics and nostalgia",
+      "opening": "Personality lead focusing directly on the eccentric inventory items Mwakideu prescribed for holiday tables.",
+      "structure": "Personality hook on survival items -> Breakdown of festive eating advice and stomach meds -> Nostalgic detour into vintage Marlboro plastic bags -> Closing on the pragmatic reality of holiday excess.",
+      "source": "https://www.ghafla.co.ke/alex-mwakideu-shares-humorous-tips-for-surviving-december-festivities/"
     }
   ],
   "style_history": [
