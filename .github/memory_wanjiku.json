@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "3d9b8e18011c3250f31638d3126205ea23837cfbbc075bc22bb858389e90c9cb",
     "8045d52e68ff0f5bdb5e3d0a53ecb589e046f661bb6e35e7eaf470ac94886386",
     "1cf89e0ea32546c15c5f6957e81ed37b7a36d62b93c846431369527ea19fecb6",
     "dad578fd71cb1ba6d2976ebd01b5287013dc8f69d0a37dfc9df0ded43518c11c",
@@ -499,10 +498,10 @@
     "e59ebecc4b0ee934da4f0b6d151f4f2dead349b6e9e703927630a6c50acb2862",
     "8ac2c0ff807cd69107647840bc3f34dc2df6cbade55398ace0449a35a6fd092d",
     "bb58337f7ed0835d335ae3e8ca1b2e10d8a3350a7e89657bf3f79025e8d8efa2",
-    "0a3f6610cb6cc3488f6b84bf10a337d4217ac5ea86dc08076fed56c09c865124"
+    "0a3f6610cb6cc3488f6b84bf10a337d4217ac5ea86dc08076fed56c09c865124",
+    "07f15fff63ebbb0fea78c8ca100a6bde51f534d1bf5728beef9ee4b4d9948a9a"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/na-mzoee-mapema-mapema-herman-manyora-declares-ruto-a-tutam-president/",
     "https://www.ghafla.co.ke/flossin-and-girlfriend-nihan-spark-reactions-after-tattooing-each-others-names/",
     "https://www.ghafla.co.ke/celestine-ndinda-tries-to-rehabilitate-her-image-after-being-accused-of-cheating-on-njugush/",
     "https://www.ghafla.co.ke/paul-waiganjo-resigns-as-rutos-development-adviser-cites-limits-of-role/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/what-happens-if-el-nino-does-not-happen-lawmakers-demand-answers-over-unused-emergency-allocations/",
     "https://www.ghafla.co.ke/knh-appeals-to-striking-staff-to-resume-work-promises-first-batch-of-salary-arrears-by-friday/",
     "https://www.ghafla.co.ke/crazy-kennar-celebrates-birthday-by-gifting-himself-a-sleek-black-bmw-photo/",
-    "https://www.ghafla.co.ke/kenya-power-announces-planned-outages-in-nairobi-kiambu-nyeri-kwale-and-kilifi-on-november-26/"
+    "https://www.ghafla.co.ke/kenya-power-announces-planned-outages-in-nairobi-kiambu-nyeri-kwale-and-kilifi-on-november-26/",
+    "https://www.ghafla.co.ke/rigathi-gachagua-denies-holding-talks-with-ndindi-nyoro-after-brief-nairobi-encounter-praises-sifuna-and-babu-owino/"
   ],
   "published_angles": [
-    {
-      "title": "Kimani Ichung\u2019wah Takes Center Stage at State House as Ruto Rallies Kiambu Leaders for 2027",
-      "angle": "Focusing on Kimani Ichung\u2019wah\u2019s personality and positioning as the administration\u2019s chief regional enforcer, shepherding Kiambu\u2019s elected caucus directly into State House to anchor political loyalty and project delivery ahead of 2027 Mt Kenya realignments.",
-      "angle_type": "political power positioning and delegation leadership",
-      "opening": "Personality lead opening directly on Kimani Ichung'wah leading Kiambu's elected representatives into State House Nairobi.",
-      "structure": "Personality delegation hook -> Meeting agenda on development and voter concerns -> Kiambu's strategic political weight -> Ruto's wider State House outreach pattern -> 2027 alignment outlook close.",
-      "source": "https://www.ghafla.co.ke/ruto-meets-kiambu-elected-leaders-at-state-house-ahead-of-2027-elections/"
-    },
     {
       "title": "Nairobi Motorists Spare No Relief as Fuel Prices Hold Firm at KSh226 Despite Global Crude Slump",
       "angle": "Examining the high-stakes financial mechanics and the exact cost reality facing Nairobi motorists despite global oil dips.",
@@ -1803,6 +1795,14 @@
       "opening": "Direct focus on the commercial friction points and operating hours faced by businesses during the Thursday maintenance window.",
       "structure": "Commercial impact lead -> Kilifi industrial corridor breakdown -> Regional multi-county timeline -> Operational close.",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-outages-in-nairobi-kiambu-nyeri-kwale-and-kilifi-on-november-26/"
+    },
+    {
+      "title": "Rigathi Gachagua Sets Cultural Ground Rules for Ndindi Nyoro While Praising Sifuna and Babu Owino",
+      "angle": "Examining Gachagua's explicit cultural protocol conditions and his sudden, contrasting endorsement of opposition figures Sifuna and Babu Owino as mentorship material.",
+      "angle_type": "political hierarchy and generational mentorship terms",
+      "opening": "Personality lead focusing directly on Gachagua's cultural protocol edict regarding younger politicians seeking his mentorship.",
+      "structure": "Protocol hook -> The Nairobi opposition briefing context -> Dismissal of Nyoro talks -> The Sifuna and Babu Owino endorsement details",
+      "source": "https://www.ghafla.co.ke/rigathi-gachagua-denies-holding-talks-with-ndindi-nyoro-after-brief-nairobi-encounter-praises-sifuna-and-babu-owino/"
     }
   ],
   "style_history": [
