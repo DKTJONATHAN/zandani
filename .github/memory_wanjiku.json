@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "57a942836f1345e5f4fa4a3b25ff182a9ed9b674f37d0972bafcadff9e879634",
     "3d9b8e18011c3250f31638d3126205ea23837cfbbc075bc22bb858389e90c9cb",
     "8045d52e68ff0f5bdb5e3d0a53ecb589e046f661bb6e35e7eaf470ac94886386",
     "1cf89e0ea32546c15c5f6957e81ed37b7a36d62b93c846431369527ea19fecb6",
@@ -499,10 +498,10 @@
     "49505a5a37fe9b70c6b72b35b6b48d4d614e4ab5f43b3e97f8e7a25809ac2a89",
     "e59ebecc4b0ee934da4f0b6d151f4f2dead349b6e9e703927630a6c50acb2862",
     "8ac2c0ff807cd69107647840bc3f34dc2df6cbade55398ace0449a35a6fd092d",
-    "bb58337f7ed0835d335ae3e8ca1b2e10d8a3350a7e89657bf3f79025e8d8efa2"
+    "bb58337f7ed0835d335ae3e8ca1b2e10d8a3350a7e89657bf3f79025e8d8efa2",
+    "0a3f6610cb6cc3488f6b84bf10a337d4217ac5ea86dc08076fed56c09c865124"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/boniface-mwangi-backs-babu-owino-and-edwin-sifuna-as-key-figures-in-opposition-strategy/",
     "https://www.ghafla.co.ke/na-mzoee-mapema-mapema-herman-manyora-declares-ruto-a-tutam-president/",
     "https://www.ghafla.co.ke/flossin-and-girlfriend-nihan-spark-reactions-after-tattooing-each-others-names/",
     "https://www.ghafla.co.ke/celestine-ndinda-tries-to-rehabilitate-her-image-after-being-accused-of-cheating-on-njugush/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/willis-raburu-urges-edwin-sifuna-to-ignore-mockery-over-2027-presidential-bid/",
     "https://www.ghafla.co.ke/what-happens-if-el-nino-does-not-happen-lawmakers-demand-answers-over-unused-emergency-allocations/",
     "https://www.ghafla.co.ke/knh-appeals-to-striking-staff-to-resume-work-promises-first-batch-of-salary-arrears-by-friday/",
-    "https://www.ghafla.co.ke/crazy-kennar-celebrates-birthday-by-gifting-himself-a-sleek-black-bmw-photo/"
+    "https://www.ghafla.co.ke/crazy-kennar-celebrates-birthday-by-gifting-himself-a-sleek-black-bmw-photo/",
+    "https://www.ghafla.co.ke/kenya-power-announces-planned-outages-in-nairobi-kiambu-nyeri-kwale-and-kilifi-on-november-26/"
   ],
   "published_angles": [
-    {
-      "title": "Ndegwa Njiru\u2019s Online Abuse Complaint Backfires as Sifuna Base Swarms Wiper Timeline",
-      "angle": "Focusing on how Ndegwa Njiru\u2019s anonymous sub-tweet backfired on Wiper, inviting Sifuna's digital base to step into the target slot, own their online aggression, and openly mock Kalonzo's failure to capture the post-Raila opposition momentum.",
-      "angle_type": "digital culture battle and campaign narrative shift",
-      "opening": "Personality lead opening directly on Ndegwa Njiru's anonymous complaint and the instant social media counter-blitz.",
-      "structure": "Personality lead -> Wiper's statement breakdown -> Sifuna camp's timeline takeover -> Directly quoted fan commentary on Kalonzo's campaign inertia -> October 31 LMM event context -> 2027 opposition field close.",
-      "source": "https://www.ghafla.co.ke/wiper-raises-alarm-over-alleged-online-campaign-targeting-kalonzo-as-sifuna-supporters-hit-back/"
-    },
     {
       "title": "Kimani Ichung\u2019wah Takes Center Stage at State House as Ruto Rallies Kiambu Leaders for 2027",
       "angle": "Focusing on Kimani Ichung\u2019wah\u2019s personality and positioning as the administration\u2019s chief regional enforcer, shepherding Kiambu\u2019s elected caucus directly into State House to anchor political loyalty and project delivery ahead of 2027 Mt Kenya realignments.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on the utility-driven naming of the comedian's new asset.",
       "structure": "Vehicle utility hook -> Expansion of the Content Cartel production logistics -> Evolution from relatable skits to high-budget cinematic collaborations -> Continental footprint and Kigali forum context -> Concrete career trajectory close.",
       "source": "https://www.ghafla.co.ke/crazy-kennar-celebrates-birthday-by-gifting-himself-a-sleek-black-bmw-photo/"
+    },
+    {
+      "title": "Kenya Power Thursday Grid Maintenance Hits Galana Energies and Mwawasco Along Coast",
+      "angle": "Focusing on the specific operational footprint and supply chain disruption for commercial entities\u2014such as Galana Energies and Mwawasco in Kilifi\u2014rather than a generic regional schedule.",
+      "angle_type": "commercial and industrial operational impact",
+      "opening": "Direct focus on the commercial friction points and operating hours faced by businesses during the Thursday maintenance window.",
+      "structure": "Commercial impact lead -> Kilifi industrial corridor breakdown -> Regional multi-county timeline -> Operational close.",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-outages-in-nairobi-kiambu-nyeri-kwale-and-kilifi-on-november-26/"
     }
   ],
   "style_history": [
