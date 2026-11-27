@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "4e2e25499cdafb9f99954e77183a7bdd9657abc515472ccda41c04ad7e9fb279",
     "4c874af65aace6e8a5758301562c223e49b0387a5a76b3cd05489bb722e05841",
     "b7000b07346063ace8d39e465ff08cfee7b800c91a902d8cf222f7f0f01434f9",
     "f9eff0bbba7ab60dfe5d1c9fcd3366f33ffa5b2e617720023494ac9af28aa2e2",
@@ -499,10 +498,10 @@
     "f4022dc89933834c74516b5b1995d6dd85345c6842003368c4370e59ce955c57",
     "f3d967c69839ddd13ed91de059f3343234f56ebbb8ad33fc3e44d21723aaf193",
     "7590d61316fbe92274a18f5090e1b49bc9651a8644207d8f6185ecc37ebb4a51",
-    "e1a4fd91a2c32b9cb747e238f67989a58c29c21331afafc7c9f35723685ad672"
+    "e1a4fd91a2c32b9cb747e238f67989a58c29c21331afafc7c9f35723685ad672",
+    "0263b85d1f82134d184c8a0d271726a4bcdc4ef592e82379b60975629086c260"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/linda-mwananchi-endorses-sifuna-as-2027-presidential-candidate/",
     "https://www.ghafla.co.ke/murkomen-vows-to-end-banditry-as-government-recovers-3000-illegal-guns/",
     "https://www.ghafla.co.ke/linda-mwananchi-movement-endorses-sifuna-as-2027-presidential-candidate/",
     "https://www.ghafla.co.ke/opposition-questions-murkomens-uganda-voter-drive-remarks/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/stevo-simple-boy-unveils-impressive-day-4-progress-on-mothers-new-home-in-oyugis/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-power-interruptions-in-four-regions-on-friday/",
     "https://www.ghafla.co.ke/ex-migori-governor-okoth-obado-sentenced-to-25-years-in-prison-over-sharon-otieno-murder/",
-    "https://www.ghafla.co.ke/ilikuwa-mbaya-lakini-hatukuwacha-dk-kwenye-beat-shares-throwback-photos-showing-impressive-weight-loss-transformation/"
+    "https://www.ghafla.co.ke/ilikuwa-mbaya-lakini-hatukuwacha-dk-kwenye-beat-shares-throwback-photos-showing-impressive-weight-loss-transformation/",
+    "https://www.ghafla.co.ke/pritty-vishy-shares-glimpse-of-another-plastic-surgery-procedure/"
   ],
   "published_angles": [
-    {
-      "title": "William Ruto Takes Continental Flex to the Podium, Crowns Kenya Africa\u2019s Milk King After 1-Billion-Litre Surge",
-      "angle": "Framing Ruto's appearance through the lens of a classic high-profile personality flex\u2014claiming continental bragging rights over Egypt on an international stage while steering right through the awkward memory of recent empty supermarket milk shelves in Nairobi, Mombasa, and Kisumu.",
-      "angle_type": "personality podium flex vs consumer reality check",
-      "opening": "Personality lead opening directly on President William Ruto delivering a bold continental flex to international delegates at Parliament Buildings.",
-      "structure": "Personality podium hook -> Verbatim continental claim and Egypt comparison -> The awkward grocery aisle contradiction -> Kenya Dairy Board's dry weather paper trail -> Mid-speech sweetener: cane bonuses and digital crackdown on brokers.",
-      "source": "https://www.ghafla.co.ke/ruto-declares-kenya-is-africas-top-milk-producer/"
-    },
     {
       "title": "Karen Nyamu Rejects \u2018Carefree\u2019 Label on Air, Ties UDA Loyalty Strictly to Development Results",
       "angle": "Reframing Nyamu's broadcast appearance around her explicit defense against the 'don't care' label, contrasting her self-described workaholic ethic with her pragmatic, performance-contingent commitment to the ruling UDA party.",
@@ -1803,6 +1795,14 @@
       "opening": "Direct personality lead on David Kilonzo confronting his past physical frame while completing a multi-stage identity reset.",
       "structure": "Transformation reveal hook -> Social media carousel details and quote analysis -> Final slide comedic breakdown -> Historical locs haircut context -> Strategic evaluation of his image shift.",
       "source": "https://www.ghafla.co.ke/ilikuwa-mbaya-lakini-hatukuwacha-dk-kwenye-beat-shares-throwback-photos-showing-impressive-weight-loss-transformation/"
+    },
+    {
+      "title": "Inside Pritty Vishy\u2019s Pre-Op Theatre Routine as Creator Expands Cosmetic Surgery Trail",
+      "angle": "Focusing on Vishy's deliberate pre-op routine documentation\u2014from yellow gown dancing to clinical bed prep\u2014as a transparent serial archive of her ongoing body modification journey rather than just focusing on mystery procedure speculation.",
+      "angle_type": "procedural transparency and celebrity documentation",
+      "opening": "Personality lead opening directly on Vishy's pre-op hospital walk and yellow gown dance routine.",
+      "structure": "Pre-op hospital footage details -> Context of her 2026 surgical history (arm lift, brachioplasty, tummy tuck, breast enhancement) -> Strategic documentation style -> Concrete factual close on what remains unconfirmed.",
+      "source": "https://www.ghafla.co.ke/pritty-vishy-shares-glimpse-of-another-plastic-surgery-procedure/"
     }
   ],
   "style_history": [
