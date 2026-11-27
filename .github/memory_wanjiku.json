@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "11bb51fbe4c495728e48de6135be3d77356cc7c29a312092680c0d0b8059f33a",
     "5994e0d6f5b5ccb0c2a334bb170589ec7ab0fa48119af0fb71e16b9a84735168",
     "54d843e071cd62c59df52615b304229637bd40c23e7868f397284af3450fe9bd",
     "638e892ec1d43f01d18f14de74549e279c1ac6c9dd072d96035370f205033ea6",
@@ -499,10 +498,10 @@
     "0263b85d1f82134d184c8a0d271726a4bcdc4ef592e82379b60975629086c260",
     "0684be1e2fcbd7690b50a967e2e01c8285b3b4da07bfffb1bc320ec8239f24e4",
     "e1e6c513bc1a85b3b1a0942a0f7b561f1b19d13e51cafebfd6a281d098501d37",
-    "5aa4eca34eea333f2d9210a25c432f2de6023ddd3526e5ed3880d03af9a436e8"
+    "5aa4eca34eea333f2d9210a25c432f2de6023ddd3526e5ed3880d03af9a436e8",
+    "b6ee7d40b25f54af611e6a504b755ffa32a07b0534196d72494bb7c0a350ed06"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/healthcare-facilities-on-high-alert-as-current-sha-contracts-expire-september-30/",
     "https://www.ghafla.co.ke/rigathi-gachagua-expresses-doubts-over-opposition-unity-ahead-of-2027-polls/",
     "https://www.ghafla.co.ke/residents-of-kwale-county-receive-title-deeds-as-rutos-coast-tour-begins/",
     "https://www.ghafla.co.ke/ig-douglas-kanja-escapes-jail-time-as-high-court-issues-final-warning-on-protest-roadblocks/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/pritty-vishy-shares-glimpse-of-another-plastic-surgery-procedure/",
     "https://www.ghafla.co.ke/bahati-unveils-morgan-bahatis-rate-card-sets-endorsement-fee-at-ksh10-million/",
     "https://www.ghafla.co.ke/cs-aden-duale-clashes-with-rigathi-gachagua-over-eastleigh-traders-accuses-him-of-tribal-politics/",
-    "https://www.ghafla.co.ke/ama-ni-punishment-bolo-bespoke-hesitant-to-enter-theatre-room-as-wife-mueni-prepares-to-give-birth/"
+    "https://www.ghafla.co.ke/ama-ni-punishment-bolo-bespoke-hesitant-to-enter-theatre-room-as-wife-mueni-prepares-to-give-birth/",
+    "https://www.ghafla.co.ke/co-op-banks-sam-ngigi-understanding-money-market-funds-and-expected-returns/"
   ],
   "published_angles": [
-    {
-      "title": "Smartphones Drive Kenya\u2019s October Web Surge as Private Mobile Browsing Outpaces Social Media",
-      "angle": "Framing the data through mobile privacy behavior\u2014where 96.8 percent of visits originated from smartphones\u2014and contrasting Kenya's adult traffic surge with neighboring East African markets dominated by sports betting portals.",
-      "angle_type": "digital consumption habits and technology platform contrast",
-      "opening": "Direct focus on the overwhelming 96.81 percent mobile share powering Kenya's adult traffic bump in October.",
-      "structure": "Mobile-first traffic breakdown -> Social network vs adult platform comparisons -> Month-on-month trend metrics -> Regional East Africa betting contrast -> Semrush analytics methodology.",
-      "source": "https://www.ghafla.co.ke/adult-websites-ranks-most-visited-site-in-kenya-ahead-of-tiktok-and-facebook/"
-    },
     {
       "title": "Azziad Nasenya Halts Emotional Reveal After Calling Off Scheduled October 10 Wedding",
       "angle": "Framing the reveal around Azziad's abrupt mid-confession boundary, contrasting her three-and-a-half years of guarded privacy with the calculated decision to pull back before digital scrutiny took over.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Austin Bolo establishing the theatre threshold as a non-negotiable cultural boundary.",
       "structure": "Personality hook -> Mueni's appeal and physical context -> Doctor's advice and Bolo's cultural refusal -> Male peer callout -> Structural clash between modern creator trends and traditional norms close.",
       "source": "https://www.ghafla.co.ke/ama-ni-punishment-bolo-bespoke-hesitant-to-enter-theatre-room-as-wife-mueni-prepares-to-give-birth/"
+    },
+    {
+      "title": "Sam Ngigi Delivers Reality Check to Youth Chasing 17% MMF Dreams: 'Not a Shortcut'",
+      "angle": "Framing the forum through Samuel Ngigi's direct reality check to young savers who treated MMFs as high-yield, money-doubling hustle engines during the anomalous 17% windfall era.",
+      "angle_type": "lifestyle finance reality check and youth expectation reset",
+      "opening": "Personality lead opening directly on Samuel Ngigi puncturing the illusion of MMFs as quick money-doubling schemes before young urban savers.",
+      "structure": "Personality reality-check hook -> Breakdown of the 14-17% peak versus the current 9-11% baseline -> Technical explanation of CBK rate cuts and the inverted yield curve -> Warning on flashy advertised yields and fund fact sheets -> CMA regulatory backdrop close.",
+      "source": "https://www.ghafla.co.ke/co-op-banks-sam-ngigi-understanding-money-market-funds-and-expected-returns/"
     }
   ],
   "style_history": [
