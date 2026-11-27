@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "ed3bd5b314bc81f549ac0fa38cffb8c7f97f5633b20d6db9bb6981104b47a222",
     "5a64919bc3c2469ab2a39c56e45347be74f193abb482d10097e1512f368c2ed6",
     "fe0a37d36ffb5da99bf1d7f934980a1df0f5755d0cb628812d9fe3ba1e66b2f6",
     "4e2e25499cdafb9f99954e77183a7bdd9657abc515472ccda41c04ad7e9fb279",
@@ -499,10 +498,10 @@
     "708855ee80356e769c4c4035085587fc42937872530c60fbb09d22290eac63d6",
     "ac332045ac274e743e21f0c87a1f4ee7674598e12469498998c2191b36ee6c5c",
     "bebad3b96440de650584dbcb15a19630a91b5be789035c60c608e8e1b5a10b42",
-    "f4022dc89933834c74516b5b1995d6dd85345c6842003368c4370e59ce955c57"
+    "f4022dc89933834c74516b5b1995d6dd85345c6842003368c4370e59ce955c57",
+    "f3d967c69839ddd13ed91de059f3343234f56ebbb8ad33fc3e44d21723aaf193"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/moses-kuria-poll-sparks-debate-as-sifuna-tops-2027-presidential-survey/",
     "https://www.ghafla.co.ke/interior-cs-kipchumba-murkomen-orders-decisive-crackdown-on-illegal-firearms-in-samburu/",
     "https://www.ghafla.co.ke/gachagua-predicts-opposition-split-after-2027-flagbearer-selection/",
     "https://www.ghafla.co.ke/linda-mwananchi-endorses-sifuna-as-2027-presidential-candidate/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/baba-talisha-hits-back-at-critics-twisting-narrative-around-his-ksh2-19m-tiktok-eye-surgery-fundraiser/",
     "https://www.ghafla.co.ke/baba-talisha-breaks-silence-amid-online-discussions-over-ksh-2-2-million-medical-fundraiser/",
     "https://www.ghafla.co.ke/karangu-muraya-laments-after-sister-damages-his-suv-while-learning-to-drive/",
-    "https://www.ghafla.co.ke/stevo-simple-boy-unveils-impressive-day-4-progress-on-mothers-new-home-in-oyugis/"
+    "https://www.ghafla.co.ke/stevo-simple-boy-unveils-impressive-day-4-progress-on-mothers-new-home-in-oyugis/",
+    "https://www.ghafla.co.ke/kenya-power-announces-planned-power-interruptions-in-four-regions-on-friday/"
   ],
   "published_angles": [
-    {
-      "title": "Pastor Dorcas Unpacks 37 Years of \u2018Teddy Bear\u2019 Riggy G as Okanga Questions Rachel Ruto\u2019s Silence",
-      "angle": "Dorcas Rigathi's direct pushback against critics who accuse her of hovering around her husband, contrasting Gachagua's fierce political branding with his private domestic rules\u2014amplified when political activist Nuru Okanga landed at her Wamunyoro doorstep to test her marital loyalty against State House.",
-      "angle_type": "celebrity marriage dynamics and political spouse contrast",
-      "opening": "Personality lead opening directly on Pastor Dorcas Rigathi dismantling the tough-guy caricature of Rigathi Gachagua and daring detractors to question why she walks everywhere with her spouse.",
-      "structure": "Personality lead -> Domestic reality and the 'teddy bear' revelation -> Unbroken phone call rule and university roots -> Pushback against public presence critics -> Nuru Okanga's Wamunyoro visit and social media challenge -> The two-year silence with Rachel Ruto -> Concrete unresolved dynamic.",
-      "source": "https://www.ghafla.co.ke/nuru-okanga-praises-dorcas-rigathi-challenges-mama-rachel-to-defend-ruto-like-her/"
-    },
     {
       "title": "Kenyan Prince\u2019s Mombasa Flex Takes a Turn as Lamborghini Urus Stunt Nearly Clips Fan at Petrol Station",
       "angle": "Framing the petrol station near-miss as a high-stakes vanity flex that spiraled out of control: Kenyan Prince hauled the luxury SUV to the coast specifically to refute viral repossession claims, only to turn his triumphant car-unloading moment into an immediate public safety hazard at the pump.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead focusing directly on the physical milestone of the Oyugis structure and the shift to precast assembly.",
       "structure": "Precast technology pivot -> Contractor Amos Kibaru partnership -> Public critique context by Alex Mwakideu -> Personal family motivation -> Current Day 4 physical status.",
       "source": "https://www.ghafla.co.ke/stevo-simple-boy-unveils-impressive-day-4-progress-on-mothers-new-home-in-oyugis/"
+    },
+    {
+      "title": "Kenyatta University, Farmers Choice and Sukari Industries Brace for Friday Grid Freeze",
+      "angle": "Focusing on the high-stakes commercial and institutional supply chain nodes\u2014such as Kenyatta University's School of Engineering, Farmers Choice, and Sukari Industries\u2014facing a full eight-hour workday lockdown on Friday, November 27, 2026.",
+      "angle_type": "institutional and commercial operational friction",
+      "opening": "Direct focus on the heavy economic and academic hubs braced for the workday power blackout.",
+      "structure": "Commercial friction hook -> Academic and processing plant breakdown -> Regional geographic scale -> Concrete utility advisory close.",
+      "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-power-interruptions-in-four-regions-on-friday/"
     }
   ],
   "style_history": [
