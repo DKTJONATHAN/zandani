@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "5a64919bc3c2469ab2a39c56e45347be74f193abb482d10097e1512f368c2ed6",
     "fe0a37d36ffb5da99bf1d7f934980a1df0f5755d0cb628812d9fe3ba1e66b2f6",
     "4e2e25499cdafb9f99954e77183a7bdd9657abc515472ccda41c04ad7e9fb279",
     "4c874af65aace6e8a5758301562c223e49b0387a5a76b3cd05489bb722e05841",
@@ -499,10 +498,10 @@
     "ac332045ac274e743e21f0c87a1f4ee7674598e12469498998c2191b36ee6c5c",
     "bebad3b96440de650584dbcb15a19630a91b5be789035c60c608e8e1b5a10b42",
     "f4022dc89933834c74516b5b1995d6dd85345c6842003368c4370e59ce955c57",
-    "f3d967c69839ddd13ed91de059f3343234f56ebbb8ad33fc3e44d21723aaf193"
+    "f3d967c69839ddd13ed91de059f3343234f56ebbb8ad33fc3e44d21723aaf193",
+    "7590d61316fbe92274a18f5090e1b49bc9651a8644207d8f6185ecc37ebb4a51"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/interior-cs-kipchumba-murkomen-orders-decisive-crackdown-on-illegal-firearms-in-samburu/",
     "https://www.ghafla.co.ke/gachagua-predicts-opposition-split-after-2027-flagbearer-selection/",
     "https://www.ghafla.co.ke/linda-mwananchi-endorses-sifuna-as-2027-presidential-candidate/",
     "https://www.ghafla.co.ke/murkomen-vows-to-end-banditry-as-government-recovers-3000-illegal-guns/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/baba-talisha-breaks-silence-amid-online-discussions-over-ksh-2-2-million-medical-fundraiser/",
     "https://www.ghafla.co.ke/karangu-muraya-laments-after-sister-damages-his-suv-while-learning-to-drive/",
     "https://www.ghafla.co.ke/stevo-simple-boy-unveils-impressive-day-4-progress-on-mothers-new-home-in-oyugis/",
-    "https://www.ghafla.co.ke/kenya-power-announces-planned-power-interruptions-in-four-regions-on-friday/"
+    "https://www.ghafla.co.ke/kenya-power-announces-planned-power-interruptions-in-four-regions-on-friday/",
+    "https://www.ghafla.co.ke/ex-migori-governor-okoth-obado-sentenced-to-25-years-in-prison-over-sharon-otieno-murder/"
   ],
   "published_angles": [
-    {
-      "title": "Kenyan Prince\u2019s Mombasa Flex Takes a Turn as Lamborghini Urus Stunt Nearly Clips Fan at Petrol Station",
-      "angle": "Framing the petrol station near-miss as a high-stakes vanity flex that spiraled out of control: Kenyan Prince hauled the luxury SUV to the coast specifically to refute viral repossession claims, only to turn his triumphant car-unloading moment into an immediate public safety hazard at the pump.",
-      "angle_type": "celebrity reputation flex and public safety hazard",
-      "opening": "Personality lead opening on Raymond Omosa taking his Lamborghini Urus to Mombasa to silence car-loan repossession rumours, directly triggering a near-disaster at a petrol station forecourt.",
-      "structure": "Personality lead -> Petrol station stunt and near-hit details -> Car hauler context and online auction rumours -> Omosa's Sunday YouTube rebuttal alongside Mushkert -> Forecourt safety fallout.",
-      "source": "https://www.ghafla.co.ke/kenyan-prince-nearly-hits-bystander-with-lamborghini-during-high-speed-mombasa-stunt/"
-    },
     {
       "title": "Irene Daniels Recounts Bizarre Meru Funeral Trip as Pastor Rebukes KSh 20,000 \u2018Burial\u2019 Scam",
       "angle": "Focusing on Irene Daniels' firsthand account of the bizarre social media exposure and Rev Mainge Nathan's dramatic yard prayer turning a scheduled mourning session into an impromptu celebration after unmasking the deception.",
@@ -1803,6 +1795,14 @@
       "opening": "Direct focus on the heavy economic and academic hubs braced for the workday power blackout.",
       "structure": "Commercial friction hook -> Academic and processing plant breakdown -> Regional geographic scale -> Concrete utility advisory close.",
       "source": "https://www.ghafla.co.ke/kenya-power-announces-planned-power-interruptions-in-four-regions-on-friday/"
+    },
+    {
+      "title": "Okoth Obado Handed 25 Years as Court Rejects Family\u2019s Financial Support Leniency Deal",
+      "angle": "Focusing on the High Court's explicit refusal to allow a private family financial reconciliation to reduce Obado's criminal sentence, highlighting how the court drew a firm line between private child-support arrangements and state justice.",
+      "angle_type": "legal boundary and financial leniency rejection",
+      "opening": "Personality lead opening directly on Okoth Obado facing a quarter-century in prison after the court struck down his private financial support agreement with the victim's family.",
+      "structure": "Leniency rejection hook -> Sentence breakdown and legal reasoning -> Details of the family reconciliation plea -> Crime timeline and forensic trail -> Custodial status close.",
+      "source": "https://www.ghafla.co.ke/ex-migori-governor-okoth-obado-sentenced-to-25-years-in-prison-over-sharon-otieno-murder/"
     }
   ],
   "style_history": [
