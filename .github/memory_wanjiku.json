@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "4c874af65aace6e8a5758301562c223e49b0387a5a76b3cd05489bb722e05841",
     "b7000b07346063ace8d39e465ff08cfee7b800c91a902d8cf222f7f0f01434f9",
     "f9eff0bbba7ab60dfe5d1c9fcd3366f33ffa5b2e617720023494ac9af28aa2e2",
     "11bb51fbe4c495728e48de6135be3d77356cc7c29a312092680c0d0b8059f33a",
@@ -499,10 +498,10 @@
     "f3d967c69839ddd13ed91de059f3343234f56ebbb8ad33fc3e44d21723aaf193",
     "7590d61316fbe92274a18f5090e1b49bc9651a8644207d8f6185ecc37ebb4a51",
     "e1a4fd91a2c32b9cb747e238f67989a58c29c21331afafc7c9f35723685ad672",
-    "0263b85d1f82134d184c8a0d271726a4bcdc4ef592e82379b60975629086c260"
+    "0263b85d1f82134d184c8a0d271726a4bcdc4ef592e82379b60975629086c260",
+    "0684be1e2fcbd7690b50a967e2e01c8285b3b4da07bfffb1bc320ec8239f24e4"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/murkomen-vows-to-end-banditry-as-government-recovers-3000-illegal-guns/",
     "https://www.ghafla.co.ke/linda-mwananchi-movement-endorses-sifuna-as-2027-presidential-candidate/",
     "https://www.ghafla.co.ke/opposition-questions-murkomens-uganda-voter-drive-remarks/",
     "https://www.ghafla.co.ke/healthcare-facilities-on-high-alert-as-current-sha-contracts-expire-september-30/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/kenya-power-announces-planned-power-interruptions-in-four-regions-on-friday/",
     "https://www.ghafla.co.ke/ex-migori-governor-okoth-obado-sentenced-to-25-years-in-prison-over-sharon-otieno-murder/",
     "https://www.ghafla.co.ke/ilikuwa-mbaya-lakini-hatukuwacha-dk-kwenye-beat-shares-throwback-photos-showing-impressive-weight-loss-transformation/",
-    "https://www.ghafla.co.ke/pritty-vishy-shares-glimpse-of-another-plastic-surgery-procedure/"
+    "https://www.ghafla.co.ke/pritty-vishy-shares-glimpse-of-another-plastic-surgery-procedure/",
+    "https://www.ghafla.co.ke/bahati-unveils-morgan-bahatis-rate-card-sets-endorsement-fee-at-ksh10-million/"
   ],
   "published_angles": [
-    {
-      "title": "Karen Nyamu Rejects \u2018Carefree\u2019 Label on Air, Ties UDA Loyalty Strictly to Development Results",
-      "angle": "Reframing Nyamu's broadcast appearance around her explicit defense against the 'don't care' label, contrasting her self-described workaholic ethic with her pragmatic, performance-contingent commitment to the ruling UDA party.",
-      "angle_type": "celebrity reputation defense and conditional political loyalty",
-      "opening": "Personality lead opening directly on Karen Nyamu confronting her 'carefree' public caricature during a live radio broadcast.",
-      "structure": "Broadcast confrontation on work ethic -> Conditional party loyalty stance -> Public perception vs legislative self-identity -> Connection to recent viral wedding commentary.",
-      "source": "https://www.ghafla.co.ke/karen-nyamu-inspired-after-charlene-rutos-wedding-opens-up-about-public-misconception-about-her/"
-    },
     {
       "title": "Ndanu Mutiso Shakes Up Muthaiga Greens to Snatch Britam Grand Finale Crown from 280-Golfer Field",
       "angle": "Reframing the Muthaiga finale around underdog handicap-22 golfer Ndanu Mutiso, who arrived with zero victory expectations and simply wanted a fun round, only to outshine 280 players and sweep the overall silverware on countback alongside Kigali champion Benjamin Mukhisa.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Vishy's pre-op hospital walk and yellow gown dance routine.",
       "structure": "Pre-op hospital footage details -> Context of her 2026 surgical history (arm lift, brachioplasty, tummy tuck, breast enhancement) -> Strategic documentation style -> Concrete factual close on what remains unconfirmed.",
       "source": "https://www.ghafla.co.ke/pritty-vishy-shares-glimpse-of-another-plastic-surgery-procedure/"
+    },
+    {
+      "title": "Bahati Stakes Son Morgan\u2019s Music Debut on KSh 10M Rate Card as Career Handover Takes Shape",
+      "angle": "Examining the commercial transition strategy where Bahati leverages Morgan's immediate chart debut to establish high-value commercial tiers while stepping back from recording to focus on his political ambitions.",
+      "angle_type": "commercial talent management and career transition pricing",
+      "opening": "Personality lead opening directly on Bahati publishing the complete rate structure for Morgan Bahati on November 26, 2026.",
+      "structure": "Rate card tier breakdown -> Debut single chart metrics -> Strategic management timing and holdback rationale -> Bahati's political pivot -> Concrete operational challenge close.",
+      "source": "https://www.ghafla.co.ke/bahati-unveils-morgan-bahatis-rate-card-sets-endorsement-fee-at-ksh10-million/"
     }
   ],
   "style_history": [
