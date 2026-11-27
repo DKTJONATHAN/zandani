@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "f9eff0bbba7ab60dfe5d1c9fcd3366f33ffa5b2e617720023494ac9af28aa2e2",
     "11bb51fbe4c495728e48de6135be3d77356cc7c29a312092680c0d0b8059f33a",
     "5994e0d6f5b5ccb0c2a334bb170589ec7ab0fa48119af0fb71e16b9a84735168",
     "54d843e071cd62c59df52615b304229637bd40c23e7868f397284af3450fe9bd",
@@ -499,10 +498,10 @@
     "e1a4fd91a2c32b9cb747e238f67989a58c29c21331afafc7c9f35723685ad672",
     "0263b85d1f82134d184c8a0d271726a4bcdc4ef592e82379b60975629086c260",
     "0684be1e2fcbd7690b50a967e2e01c8285b3b4da07bfffb1bc320ec8239f24e4",
-    "e1e6c513bc1a85b3b1a0942a0f7b561f1b19d13e51cafebfd6a281d098501d37"
+    "e1e6c513bc1a85b3b1a0942a0f7b561f1b19d13e51cafebfd6a281d098501d37",
+    "5aa4eca34eea333f2d9210a25c432f2de6023ddd3526e5ed3880d03af9a436e8"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/opposition-questions-murkomens-uganda-voter-drive-remarks/",
     "https://www.ghafla.co.ke/healthcare-facilities-on-high-alert-as-current-sha-contracts-expire-september-30/",
     "https://www.ghafla.co.ke/rigathi-gachagua-expresses-doubts-over-opposition-unity-ahead-of-2027-polls/",
     "https://www.ghafla.co.ke/residents-of-kwale-county-receive-title-deeds-as-rutos-coast-tour-begins/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/ilikuwa-mbaya-lakini-hatukuwacha-dk-kwenye-beat-shares-throwback-photos-showing-impressive-weight-loss-transformation/",
     "https://www.ghafla.co.ke/pritty-vishy-shares-glimpse-of-another-plastic-surgery-procedure/",
     "https://www.ghafla.co.ke/bahati-unveils-morgan-bahatis-rate-card-sets-endorsement-fee-at-ksh10-million/",
-    "https://www.ghafla.co.ke/cs-aden-duale-clashes-with-rigathi-gachagua-over-eastleigh-traders-accuses-him-of-tribal-politics/"
+    "https://www.ghafla.co.ke/cs-aden-duale-clashes-with-rigathi-gachagua-over-eastleigh-traders-accuses-him-of-tribal-politics/",
+    "https://www.ghafla.co.ke/ama-ni-punishment-bolo-bespoke-hesitant-to-enter-theatre-room-as-wife-mueni-prepares-to-give-birth/"
   ],
   "published_angles": [
-    {
-      "title": "Jalang\u2019o and Ronald Karauri Join PS Raymond Omollo in Nairobi Usawa ni Sawa Push",
-      "angle": "Reframing the session through high-profile celebrity-politicians Jalang'o and Ronald Karauri stepping in alongside Interior's top administrator to bridge grassroots Nairobi constituency needs with national policy.",
-      "angle_type": "personality alliance and civic intervention",
-      "opening": "Personality lead focusing directly on Phelix Odiwuor Jalang\u2019o stepping into boardroom talks alongside Ronald Karauri and PS Raymond Omollo.",
-      "structure": "Personality lead -> Coalition detail with Karauri and Omollo -> The Usawa ni Sawa framework and Omollo's stated directives -> Grassroots coordinator priorities -> Strategic capital implications",
-      "source": "https://www.ghafla.co.ke/championing-inclusivity-ps-raymond-omollo-meets-nairobi-disability-coordinators-to-advance-equal-opportunities/"
-    },
     {
       "title": "Smartphones Drive Kenya\u2019s October Web Surge as Private Mobile Browsing Outpaces Social Media",
       "angle": "Framing the data through mobile privacy behavior\u2014where 96.8 percent of visits originated from smartphones\u2014and contrasting Kenya's adult traffic surge with neighboring East African markets dominated by sports betting portals.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Aden Duale deploying the moniker 'Mr Impeached Gachagua' in a public defense of Eastleigh's business empire.",
       "structure": "Personality hook on Duale's moniker -> Detailed breakdown of Duale's statement on business protection -> Context of Gachagua's initial Thursday remarks -> Background on Eastleigh's commercial standing and political friction -> Fact-based conclusion on the public feud.",
       "source": "https://www.ghafla.co.ke/cs-aden-duale-clashes-with-rigathi-gachagua-over-eastleigh-traders-accuses-him-of-tribal-politics/"
+    },
+    {
+      "title": "Bolo Bespoke Draws Line at Theatre Door as Wife Mueni Requests C-Section Support",
+      "angle": "The direct confrontation between modern clinical/spousal expectations of birthing support and Bolo's firm boundary rooted in traditional African male identity at the surgical theatre door.",
+      "angle_type": "cultural identity versus clinical birthing protocol",
+      "opening": "Personality lead opening directly on Austin Bolo establishing the theatre threshold as a non-negotiable cultural boundary.",
+      "structure": "Personality hook -> Mueni's appeal and physical context -> Doctor's advice and Bolo's cultural refusal -> Male peer callout -> Structural clash between modern creator trends and traditional norms close.",
+      "source": "https://www.ghafla.co.ke/ama-ni-punishment-bolo-bespoke-hesitant-to-enter-theatre-room-as-wife-mueni-prepares-to-give-birth/"
     }
   ],
   "style_history": [
