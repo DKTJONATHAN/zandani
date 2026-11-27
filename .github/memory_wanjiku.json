@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "fe0a37d36ffb5da99bf1d7f934980a1df0f5755d0cb628812d9fe3ba1e66b2f6",
     "4e2e25499cdafb9f99954e77183a7bdd9657abc515472ccda41c04ad7e9fb279",
     "4c874af65aace6e8a5758301562c223e49b0387a5a76b3cd05489bb722e05841",
     "b7000b07346063ace8d39e465ff08cfee7b800c91a902d8cf222f7f0f01434f9",
@@ -499,10 +498,10 @@
     "bebad3b96440de650584dbcb15a19630a91b5be789035c60c608e8e1b5a10b42",
     "f4022dc89933834c74516b5b1995d6dd85345c6842003368c4370e59ce955c57",
     "f3d967c69839ddd13ed91de059f3343234f56ebbb8ad33fc3e44d21723aaf193",
-    "7590d61316fbe92274a18f5090e1b49bc9651a8644207d8f6185ecc37ebb4a51"
+    "7590d61316fbe92274a18f5090e1b49bc9651a8644207d8f6185ecc37ebb4a51",
+    "e1a4fd91a2c32b9cb747e238f67989a58c29c21331afafc7c9f35723685ad672"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/gachagua-predicts-opposition-split-after-2027-flagbearer-selection/",
     "https://www.ghafla.co.ke/linda-mwananchi-endorses-sifuna-as-2027-presidential-candidate/",
     "https://www.ghafla.co.ke/murkomen-vows-to-end-banditry-as-government-recovers-3000-illegal-guns/",
     "https://www.ghafla.co.ke/linda-mwananchi-movement-endorses-sifuna-as-2027-presidential-candidate/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/karangu-muraya-laments-after-sister-damages-his-suv-while-learning-to-drive/",
     "https://www.ghafla.co.ke/stevo-simple-boy-unveils-impressive-day-4-progress-on-mothers-new-home-in-oyugis/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-power-interruptions-in-four-regions-on-friday/",
-    "https://www.ghafla.co.ke/ex-migori-governor-okoth-obado-sentenced-to-25-years-in-prison-over-sharon-otieno-murder/"
+    "https://www.ghafla.co.ke/ex-migori-governor-okoth-obado-sentenced-to-25-years-in-prison-over-sharon-otieno-murder/",
+    "https://www.ghafla.co.ke/ilikuwa-mbaya-lakini-hatukuwacha-dk-kwenye-beat-shares-throwback-photos-showing-impressive-weight-loss-transformation/"
   ],
   "published_angles": [
-    {
-      "title": "Irene Daniels Recounts Bizarre Meru Funeral Trip as Pastor Rebukes KSh 20,000 \u2018Burial\u2019 Scam",
-      "angle": "Focusing on Irene Daniels' firsthand account of the bizarre social media exposure and Rev Mainge Nathan's dramatic yard prayer turning a scheduled mourning session into an impromptu celebration after unmasking the deception.",
-      "angle_type": "social media exposure and dramatic grassroots confrontation",
-      "opening": "Personality lead opening on Irene Daniels recounting the surreal confrontation in Meru where funeral wreaths were abandoned for an impromptu prayer service.",
-      "structure": "Personality opening -> Daniels' sequence of financial contributions and transit -> Morgue record revelation -> Homestead confrontation and child discovery -> Rev Mainge Nathan's prayer and village fallout",
-      "source": "https://www.ghafla.co.ke/meru-man-accused-of-faking-childs-death-to-collect-ksh-20000-funeral-contributions/"
-    },
     {
       "title": "William Ruto Takes Continental Flex to the Podium, Crowns Kenya Africa\u2019s Milk King After 1-Billion-Litre Surge",
       "angle": "Framing Ruto's appearance through the lens of a classic high-profile personality flex\u2014claiming continental bragging rights over Egypt on an international stage while steering right through the awkward memory of recent empty supermarket milk shelves in Nairobi, Mombasa, and Kisumu.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Okoth Obado facing a quarter-century in prison after the court struck down his private financial support agreement with the victim's family.",
       "structure": "Leniency rejection hook -> Sentence breakdown and legal reasoning -> Details of the family reconciliation plea -> Crime timeline and forensic trail -> Custodial status close.",
       "source": "https://www.ghafla.co.ke/ex-migori-governor-okoth-obado-sentenced-to-25-years-in-prison-over-sharon-otieno-murder/"
+    },
+    {
+      "title": "DK Kwenye Beat Sheds 2010s Image as Weight Loss Carousel Follows 15-Year Dreadlock Chop",
+      "angle": "Framing the weight loss post as part of a deliberate two-stage personal and aesthetic overhaul, where David Kilonzo is systematically dismantling his mid-2010s 'Furi Furi' era image through humor and physical transformation.",
+      "angle_type": "aesthetic overhaul and celebrity image transformation",
+      "opening": "Direct personality lead on David Kilonzo confronting his past physical frame while completing a multi-stage identity reset.",
+      "structure": "Transformation reveal hook -> Social media carousel details and quote analysis -> Final slide comedic breakdown -> Historical locs haircut context -> Strategic evaluation of his image shift.",
+      "source": "https://www.ghafla.co.ke/ilikuwa-mbaya-lakini-hatukuwacha-dk-kwenye-beat-shares-throwback-photos-showing-impressive-weight-loss-transformation/"
     }
   ],
   "style_history": [
