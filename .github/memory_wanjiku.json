@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "8bdd1c3b2ee5253bfb30d69a110718fb2bbd975da34f8b887c3693ae693fed65",
     "ed3bd5b314bc81f549ac0fa38cffb8c7f97f5633b20d6db9bb6981104b47a222",
     "5a64919bc3c2469ab2a39c56e45347be74f193abb482d10097e1512f368c2ed6",
     "fe0a37d36ffb5da99bf1d7f934980a1df0f5755d0cb628812d9fe3ba1e66b2f6",
@@ -499,10 +498,10 @@
     "e8bb046e05be1cfdeeb054e01bec29360ad9d2f038a2d101e6b788fa3b62d962",
     "708855ee80356e769c4c4035085587fc42937872530c60fbb09d22290eac63d6",
     "ac332045ac274e743e21f0c87a1f4ee7674598e12469498998c2191b36ee6c5c",
-    "bebad3b96440de650584dbcb15a19630a91b5be789035c60c608e8e1b5a10b42"
+    "bebad3b96440de650584dbcb15a19630a91b5be789035c60c608e8e1b5a10b42",
+    "f4022dc89933834c74516b5b1995d6dd85345c6842003368c4370e59ce955c57"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/wamalwa-offers-dap-k-leadership-and-presidential-ticket-to-sifuna/",
     "https://www.ghafla.co.ke/moses-kuria-poll-sparks-debate-as-sifuna-tops-2027-presidential-survey/",
     "https://www.ghafla.co.ke/interior-cs-kipchumba-murkomen-orders-decisive-crackdown-on-illegal-firearms-in-samburu/",
     "https://www.ghafla.co.ke/gachagua-predicts-opposition-split-after-2027-flagbearer-selection/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/alex-mwakideu-shares-humorous-tips-for-surviving-december-festivities/",
     "https://www.ghafla.co.ke/baba-talisha-hits-back-at-critics-twisting-narrative-around-his-ksh2-19m-tiktok-eye-surgery-fundraiser/",
     "https://www.ghafla.co.ke/baba-talisha-breaks-silence-amid-online-discussions-over-ksh-2-2-million-medical-fundraiser/",
-    "https://www.ghafla.co.ke/karangu-muraya-laments-after-sister-damages-his-suv-while-learning-to-drive/"
+    "https://www.ghafla.co.ke/karangu-muraya-laments-after-sister-damages-his-suv-while-learning-to-drive/",
+    "https://www.ghafla.co.ke/stevo-simple-boy-unveils-impressive-day-4-progress-on-mothers-new-home-in-oyugis/"
   ],
   "published_angles": [
-    {
-      "title": "Met Department Flags 25-Knot Gale Warnings for North as Thunderstorms Target Eastern and Coastal Hubs",
-      "angle": "Reframing the forecast around the sharp environmental contrast between the high-wind, scorching arid north and the thunderstorm-prone eastern and coastal belts, highlighting specific operational and outdoor disruptions across major transport and leisure corridors.",
-      "angle_type": "regional impact disparity and severe weather alert",
-      "opening": "Direct focus on the Kenya Meteorological Department's dual-front advisory warning of 25-knot gusts in the north alongside widespread afternoon storms down south and east.",
-      "structure": "Advisory overview -> High-wind and thermal extremes in the north -> Coastal shower patterns and humidity -> Eastern interior thunderstorm belt -> Practical outlook and verifiable conditions",
-      "source": "https://www.ghafla.co.ke/kenya-weather-met-department-forecasts-rain-and-sunshine-across-several-counties-on-monday/"
-    },
     {
       "title": "Pastor Dorcas Unpacks 37 Years of \u2018Teddy Bear\u2019 Riggy G as Okanga Questions Rachel Ruto\u2019s Silence",
       "angle": "Dorcas Rigathi's direct pushback against critics who accuse her of hovering around her husband, contrasting Gachagua's fierce political branding with his private domestic rules\u2014amplified when political activist Nuru Okanga landed at her Wamunyoro doorstep to test her marital loyalty against State House.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality-led focus on the vehicle damage aftermath in Nyandarua before introducing the institutional solution.",
       "structure": "Vehicle damage discovery -> The public social media terms -> Gorgeous Technical Institute enrollment plan -> Mellis Insurance administrative tag.",
       "source": "https://www.ghafla.co.ke/karangu-muraya-laments-after-sister-damages-his-suv-while-learning-to-drive/"
+    },
+    {
+      "title": "Stevo Simple Boy Trades Quick Masonry for Precast Panels in Day 4 Oyugis Home Build",
+      "angle": "The structural engineering pivot: examining how public criticism from figures like Alex Mwakideu forced a blueprint overhaul from conventional masonry to factory-manufactured precast concrete panels handled by contractor Amos Kibaru.",
+      "angle_type": "architectural adaptation and contractor partnership",
+      "opening": "Personality lead focusing directly on the physical milestone of the Oyugis structure and the shift to precast assembly.",
+      "structure": "Precast technology pivot -> Contractor Amos Kibaru partnership -> Public critique context by Alex Mwakideu -> Personal family motivation -> Current Day 4 physical status.",
+      "source": "https://www.ghafla.co.ke/stevo-simple-boy-unveils-impressive-day-4-progress-on-mothers-new-home-in-oyugis/"
     }
   ],
   "style_history": [
