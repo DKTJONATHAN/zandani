@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "5994e0d6f5b5ccb0c2a334bb170589ec7ab0fa48119af0fb71e16b9a84735168",
     "54d843e071cd62c59df52615b304229637bd40c23e7868f397284af3450fe9bd",
     "638e892ec1d43f01d18f14de74549e279c1ac6c9dd072d96035370f205033ea6",
     "85d5212b752fe69dee1a74f82184a158b8e96acca24eaad9ecb88cadf003fdba",
@@ -499,10 +498,10 @@
     "0684be1e2fcbd7690b50a967e2e01c8285b3b4da07bfffb1bc320ec8239f24e4",
     "e1e6c513bc1a85b3b1a0942a0f7b561f1b19d13e51cafebfd6a281d098501d37",
     "5aa4eca34eea333f2d9210a25c432f2de6023ddd3526e5ed3880d03af9a436e8",
-    "b6ee7d40b25f54af611e6a504b755ffa32a07b0534196d72494bb7c0a350ed06"
+    "b6ee7d40b25f54af611e6a504b755ffa32a07b0534196d72494bb7c0a350ed06",
+    "72713e67c6e1ce862a2e81f6d3e2ccc6719b68ca83387bef6537a5af73fb2870"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/rigathi-gachagua-expresses-doubts-over-opposition-unity-ahead-of-2027-polls/",
     "https://www.ghafla.co.ke/residents-of-kwale-county-receive-title-deeds-as-rutos-coast-tour-begins/",
     "https://www.ghafla.co.ke/ig-douglas-kanja-escapes-jail-time-as-high-court-issues-final-warning-on-protest-roadblocks/",
     "https://www.ghafla.co.ke/pastor-kanyari-questions-manzi-wa-mombasa-after-she-misses-church-despite-receiving-fare/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/bahati-unveils-morgan-bahatis-rate-card-sets-endorsement-fee-at-ksh10-million/",
     "https://www.ghafla.co.ke/cs-aden-duale-clashes-with-rigathi-gachagua-over-eastleigh-traders-accuses-him-of-tribal-politics/",
     "https://www.ghafla.co.ke/ama-ni-punishment-bolo-bespoke-hesitant-to-enter-theatre-room-as-wife-mueni-prepares-to-give-birth/",
-    "https://www.ghafla.co.ke/co-op-banks-sam-ngigi-understanding-money-market-funds-and-expected-returns/"
+    "https://www.ghafla.co.ke/co-op-banks-sam-ngigi-understanding-money-market-funds-and-expected-returns/",
+    "https://www.ghafla.co.ke/co-op-banks-caroline-karimi-wins-top-woman-in-finance-in-east-africa/"
   ],
   "published_angles": [
-    {
-      "title": "Azziad Nasenya Halts Emotional Reveal After Calling Off Scheduled October 10 Wedding",
-      "angle": "Framing the reveal around Azziad's abrupt mid-confession boundary, contrasting her three-and-a-half years of guarded privacy with the calculated decision to pull back before digital scrutiny took over.",
-      "angle_type": "celebrity privacy boundaries and digital scrutiny",
-      "opening": "Personality lead opening directly on Azziad Nasenya drawing a sudden line between public openness and personal self-preservation.",
-      "structure": "Personality boundary hook -> Verified 3.5-year relationship and October 10 timeline -> Mid-stream retreat and direct quotes on public judgment -> Context on her romance privacy -> Concrete close on emotional self-preservation.",
-      "source": "https://www.ghafla.co.ke/azziad-nasenya-opens-up-about-heartbreak-after-her-october-10-wedding-was-cancelled/"
-    },
     {
       "title": "Ruto Breaks Silence on \u2018Expensive\u2019 Mwanza Wedding Attire, Tells Critics to Mind Their Own Wardrobe",
       "angle": "Reframing the incident as a clash of 'luxury versus lifestyle' accountability\u2014shifting the focus from the price tag to the President\u2019s defensive posture regarding his personal aesthetic choices amidst the ongoing political fallout.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Samuel Ngigi puncturing the illusion of MMFs as quick money-doubling schemes before young urban savers.",
       "structure": "Personality reality-check hook -> Breakdown of the 14-17% peak versus the current 9-11% baseline -> Technical explanation of CBK rate cuts and the inverted yield curve -> Warning on flashy advertised yields and fund fact sheets -> CMA regulatory backdrop close.",
       "source": "https://www.ghafla.co.ke/co-op-banks-sam-ngigi-understanding-money-market-funds-and-expected-returns/"
+    },
+    {
+      "title": "How Co-op Bank CFO Caroline Karimi\u2019s Sh1 Billion Revenue Sweep Claimed East Africa\u2019s Top Finance Crown",
+      "angle": "Examining the specific corporate mechanics behind her win\u2014specifically how her revenue assurance unit clawed back over Sh1 billion and steered capital debt-raising past $300 million to feed the bank's Sh1 trillion balance sheet goal.",
+      "angle_type": "financial accountability and corporate strategy mechanics",
+      "opening": "Personality-led opening focusing directly on Caroline Karimi taking the inaugural regional title at the Nairobi gala.",
+      "structure": "Award win hook -> Revenue assurance and Sh1 billion recovery figures -> Career journey from Toyota and Safaricom to Co-op Bank -> Strategic Sh1 trillion balance sheet target close.",
+      "source": "https://www.ghafla.co.ke/co-op-banks-caroline-karimi-wins-top-woman-in-finance-in-east-africa/"
     }
   ],
   "style_history": [
