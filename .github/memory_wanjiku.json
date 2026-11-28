@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "66cea60811041bdcd450ee7b89d94b09f0c984e2e3283954a8fe22d2683e771e",
     "e17b5bcc661778f399a106b3f3823e9de7220aece88d7064fff4edefcb834779",
     "ad8754fdb3852e742cc6fe1a5eca857dea707d160f64fa3cca29ad8ae818a314",
     "5d734eb143ccc2251d9d228dda252201df898070644b21f4db07f5c632ad7151",
@@ -499,10 +498,10 @@
     "1aee685e9ec17b6e66c16e0d82efc7d6dcd5dfbc38938d4624a23886b88bcf10",
     "3906675c8cc63c0ea3238f12852d34fcec9c2762cdd2ddde976d6cf7356ccfcf",
     "7e3816e749c5fd4b1160dd25cc222721153820b73fb769ef43e6bf82e317a445",
-    "353259ad887009d6b311f1b9d6a6de5e4c5dfae2bf63672e320d61a9e7158031"
+    "353259ad887009d6b311f1b9d6a6de5e4c5dfae2bf63672e320d61a9e7158031",
+    "124bc4192a377ebe185102897fb7c45aa491bf9de5724b9aae56a9b8575a4034"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/plo-lumumba-wantam-alone-is-not-a-presidential-agenda/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-several-counties-on-september-28/",
     "https://www.ghafla.co.ke/hostile-reception-as-crowd-heckles-senator-karen-nyamu-at-kicc-awareness-rally/",
     "https://www.ghafla.co.ke/i-had-babies-when-i-was-a-baby-zari-hassan-clarifies-being-just-46-years-despite-having-adult-sons/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/alex-mwakideu-questions-fairness-of-ntsa-speeding-fines-for-motorists/",
     "https://www.ghafla.co.ke/martha-karua-announces-intention-to-run-for-president-in-2027/",
     "https://www.ghafla.co.ke/gachagua-threatens-nationwide-campaign-against-iebc-over-electoral-reforms/",
-    "https://www.ghafla.co.ke/jalango-urges-edwin-sifuna-to-return-to-odm-amid-political-fallout/"
+    "https://www.ghafla.co.ke/jalango-urges-edwin-sifuna-to-return-to-odm-amid-political-fallout/",
+    "https://www.ghafla.co.ke/what-happened-to-el-nino-president-ruto-leaves-kindiki-cabinet-in-stitches-at-state-house/"
   ],
   "published_angles": [
-    {
-      "title": "DJ Joe Mfalme Doubles Down on Infamous Dating Advice, Vows to Teach Daughter the Same Rules",
-      "angle": "Examining how public figures selectively re-frame past professional downfalls through personal parenting philosophies, contrasting the ongoing societal conversation around femicide in Kenya with an unyielding personal dating creed.",
-      "angle_type": "personality accountability vs retrospective parenting philosophy",
-      "opening": "Personality lead opening directly on DJ Joe Mfalme sitting down for an interview to lay out the exact dating rules he plans to hand down to his daughter.",
-      "structure": "Personality parenting hook -> The 2021 Homeboyz Radio context and dismissal -> Verbatim defense of the 'not too available' rule -> Reflection on modern Kenyan dating realities and femicide -> Concrete close on his unwavering support for Shaffie Weru.",
-      "source": "https://www.ghafla.co.ke/dj-joe-mfalme-reveals-dating-advice-he-plans-to-give-his-daughter-revisits-2021-radio-controversy/"
-    },
     {
       "title": "From Sh1,000 Monthly Pools to a Trillion-Shilling Empire: Inside Kenya\u2019s Cooperative Balance Sheet",
       "angle": "Examining the massive institutional scale behind these grassroots pools\u2014specifically contrasting the informal micro-contributions of everyday Kenyans with the staggering Sh1.08 trillion asset base managed by regulated SACCOs.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Jalang'o using his trademark broadcaster punchline to disrupt Sifuna's overseas campaign itinerary.",
       "structure": "Celebrity social media callout hook -> The direct quote and diaspora tour backdrop -> Irony of Jalang'o's position versus Sifuna's ouster -> Linda Mwananchi splinter dynamics -> Concrete calendar marker close on Sifuna's December itinerary.",
       "source": "https://www.ghafla.co.ke/jalango-urges-edwin-sifuna-to-return-to-odm-amid-political-fallout/"
+    },
+    {
+      "title": "Ruto Puts Kindiki on the Spot at State House Over El Ni\u00f1o\u2019s No-Show",
+      "angle": "Framing the moment through corridor entertainment and power dynamics: Ruto using relaxed pre-ceremony banter to casually test Kindiki\u2019s improvisational footing in front of senior peers, touching on a sensitive administrative sore spot that once humbled his predecessor.",
+      "angle_type": "political personality banter and corridor dynamics",
+      "opening": "Personality lead opening directly on President William Ruto pivoting from formal reception greetings to put Deputy President Kithure Kindiki on the spot.",
+      "structure": "Corridor banter hook -> Kindiki's reaction and Mudavadi's burst of laughter -> Context of the state visit arrival -> The weather expectations versus sluggish reality -> Historical echo of the 2023 Met Department communications storm -> Concluding factual forecast update.",
+      "source": "https://www.ghafla.co.ke/what-happened-to-el-nino-president-ruto-leaves-kindiki-cabinet-in-stitches-at-state-house/"
     }
   ],
   "style_history": [
