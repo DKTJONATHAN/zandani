@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "85d5212b752fe69dee1a74f82184a158b8e96acca24eaad9ecb88cadf003fdba",
     "2b428b4f001f58fc30faff7bed33de247e6140638d443c78c86c01d0506aa8f0",
     "70e96c18b75f6ac81e9ffd2f59722929f2f423d33aac28999f20bcb3eaf86227",
     "baf05331985100474ab8c1dfa8912473b6d73a73e0d0ea76e4c6f0d7785d390f",
@@ -499,10 +498,10 @@
     "b6ee7d40b25f54af611e6a504b755ffa32a07b0534196d72494bb7c0a350ed06",
     "72713e67c6e1ce862a2e81f6d3e2ccc6719b68ca83387bef6537a5af73fb2870",
     "f0e63adfe7f628da75c96a54df284addfaf49de6a0899778deff170ceecddafb",
-    "10917c5ef0dad7ec52da7fd0461bef40ac9544022cfccd33d576d7849ebc741b"
+    "10917c5ef0dad7ec52da7fd0461bef40ac9544022cfccd33d576d7849ebc741b",
+    "1aee685e9ec17b6e66c16e0d82efc7d6dcd5dfbc38938d4624a23886b88bcf10"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/pastor-kanyari-questions-manzi-wa-mombasa-after-she-misses-church-despite-receiving-fare/",
     "https://www.ghafla.co.ke/karen-nyamu-speaks-after-being-booed-at-natalie-githinjis-endometriosis-concert/",
     "https://www.ghafla.co.ke/gen-z-marriage-debate-erupts-after-listener-proposes-living-separately/",
     "https://www.ghafla.co.ke/otile-brown-questions-biens-edge-over-willy-paul-sparks-fresh-debate/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/co-op-banks-sam-ngigi-understanding-money-market-funds-and-expected-returns/",
     "https://www.ghafla.co.ke/co-op-banks-caroline-karimi-wins-top-woman-in-finance-in-east-africa/",
     "https://www.ghafla.co.ke/how-kenyan-investors-can-access-local-and-global-markets-through-britam-multi-asset-special-fund/",
-    "https://www.ghafla.co.ke/andrew-kibe-surprised-after-meru-catholic-priest-reveals-he-prays-for-him/"
+    "https://www.ghafla.co.ke/andrew-kibe-surprised-after-meru-catholic-priest-reveals-he-prays-for-him/",
+    "https://www.ghafla.co.ke/alex-mwakideu-questions-fairness-of-ntsa-speeding-fines-for-motorists/"
   ],
   "published_angles": [
-    {
-      "title": "How Kelvin Kinuthia\u2019s Mum Became His First Personal Shopper in Feminine Style Journey",
-      "angle": "Shifting away from the washroom standoff to examine the domestic roots of his career\u2014specifically how his mother actively funded and championed his cross-dressing journey from day one, contrasted with the broader, friction-filled public landscape navigated by feminine-presenting creators like Jony the Hairdresser.",
-      "angle_type": "maternal support vs public friction",
-      "opening": "Personality lead focusing directly on Kelvin Kinuthia's mother stepping into the role of personal stylist and wardrobe financier.",
-      "structure": "Maternal wardrobe financing hook -> Clarification on brand-new purchases vs hand-me-downs -> The broader public washroom standoff and portable toilet announcement -> Jony the Hairdresser's parallel experiences on Kwambox's show -> Concrete factual close on ongoing creator logistics.",
-      "source": "https://www.ghafla.co.ke/she-bought-them-for-me-kelvin-kinuthia-opens-up-about-his-mothers-role-in-his-feminine-style/"
-    },
     {
       "title": "Anne Waiguru Demands Open Battle for Ruto\u2019s 2027 DP Ticket, Flexes CS and Governor Resume",
       "angle": "Reframing her announcement as a direct challenge to political incumbency norms\u2014demanding an open, competitive selection process for the DP ticket while flexing her dual record as Devolution CS and two-term Governor to contrast Mt Kenya West against incumbent Kithure Kindiki's Mt Kenya East base.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead focusing directly on the juxtaposition between Kibe's digital confrontations and the solemnity of a funeral weekend.",
       "structure": "The Meru priest encounter -> The funeral backdrop for Jonathan Chuchu Thairu -> Routing through Lee Funeral Home and St. Austin's -> The temporary pause on online disputes.",
       "source": "https://www.ghafla.co.ke/andrew-kibe-surprised-after-meru-catholic-priest-reveals-he-prays-for-him/"
+    },
+    {
+      "title": "Alex Mwakideu Pits NTSA Speed Cameras Against Nairobi\u2019s Ghost Cars",
+      "angle": "Examining the accountability paradox of automated traffic surveillance: how digital speed cameras disproportionately target registered motorists while effectively granting immunity to ghost cars missing number plates.",
+      "angle_type": "institutional accountability and traffic enforcement paradox",
+      "opening": "Personality lead focusing directly on Mwakideu confronting the enforcement loophole between registered plates and unnumbered vehicles.",
+      "structure": "Enforcement loophole hook -> NTSA's driver's licence freeze context -> Mwakideu's personal payment experience -> The unnumbered vehicle paradox -> Concrete closing on systemic enforcement questions.",
+      "source": "https://www.ghafla.co.ke/alex-mwakideu-questions-fairness-of-ntsa-speeding-fines-for-motorists/"
     }
   ],
   "style_history": [
