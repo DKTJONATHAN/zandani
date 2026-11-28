@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "70e96c18b75f6ac81e9ffd2f59722929f2f423d33aac28999f20bcb3eaf86227",
     "baf05331985100474ab8c1dfa8912473b6d73a73e0d0ea76e4c6f0d7785d390f",
     "66cea60811041bdcd450ee7b89d94b09f0c984e2e3283954a8fe22d2683e771e",
     "e17b5bcc661778f399a106b3f3823e9de7220aece88d7064fff4edefcb834779",
@@ -499,10 +498,10 @@
     "f0e63adfe7f628da75c96a54df284addfaf49de6a0899778deff170ceecddafb",
     "10917c5ef0dad7ec52da7fd0461bef40ac9544022cfccd33d576d7849ebc741b",
     "1aee685e9ec17b6e66c16e0d82efc7d6dcd5dfbc38938d4624a23886b88bcf10",
-    "3906675c8cc63c0ea3238f12852d34fcec9c2762cdd2ddde976d6cf7356ccfcf"
+    "3906675c8cc63c0ea3238f12852d34fcec9c2762cdd2ddde976d6cf7356ccfcf",
+    "7e3816e749c5fd4b1160dd25cc222721153820b73fb769ef43e6bf82e317a445"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/gen-z-marriage-debate-erupts-after-listener-proposes-living-separately/",
     "https://www.ghafla.co.ke/otile-brown-questions-biens-edge-over-willy-paul-sparks-fresh-debate/",
     "https://www.ghafla.co.ke/plo-lumumba-wantam-alone-is-not-a-presidential-agenda/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-several-counties-on-september-28/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/how-kenyan-investors-can-access-local-and-global-markets-through-britam-multi-asset-special-fund/",
     "https://www.ghafla.co.ke/andrew-kibe-surprised-after-meru-catholic-priest-reveals-he-prays-for-him/",
     "https://www.ghafla.co.ke/alex-mwakideu-questions-fairness-of-ntsa-speeding-fines-for-motorists/",
-    "https://www.ghafla.co.ke/martha-karua-announces-intention-to-run-for-president-in-2027/"
+    "https://www.ghafla.co.ke/martha-karua-announces-intention-to-run-for-president-in-2027/",
+    "https://www.ghafla.co.ke/gachagua-threatens-nationwide-campaign-against-iebc-over-electoral-reforms/"
   ],
   "published_angles": [
-    {
-      "title": "Jalang\u2019o Bypasses Ruto\u2019s Broad-Based Speech to Crown \u2018Mr Pawa\u2019 Oburu Oginga in Visual Punch Against Death Hoaxes",
-      "angle": "Reframing the story around Jalang'o using his entertainer-politician persona to completely bypass formal broad-based alliance jargon, turning a State House communique into a visual debunking of online death hoaxes while dubbing Oburu 'Mr. Pawa.'",
-      "angle_type": "celebrity social banter vs state diplomacy framing",
-      "opening": "Personality lead opening directly on Phelix Odiwuor (Jalang'o) stepping onto his feed to rewrite the focus of a major political photoshoot.",
-      "structure": "Personality lead -> Verbatim Instagram quote and 'Mr. Pawa' reference -> Context of online death hoaxes -> Contrast with Ruto's broad-based government release -> Political backdrop of Jalang'o's dual identity as MP and media personality.",
-      "source": "https://www.ghafla.co.ke/jalango-reacts-to-oburu-ogingas-youthful-appearance-in-photos-with-president-ruto/"
-    },
     {
       "title": "Oga Obinna Rejects Gaucho\u2019s \u2018Lone Fan\u2019 Label, Claims Nairobi Governor Race Lacks a \u2018Proper Opponent\u2019 for Babu Owino",
       "angle": "Reframing the feud around Obinna actively rejecting Gaucho's 'lone fan' caricature on Mwafreeka's broadcast, turning the critique around to assert that the real issue in the 2027 Nairobi race is the absence of a 'proper opponent' for Babu.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality-led opening focusing directly on Karua stepping forward under the PLP banner for the 2027 ballot.",
       "structure": "PLP banner hook -> Statement breakdown on duty and governance -> Strategic context of early 2027 political realignments -> Close on the call for civic participation.",
       "source": "https://www.ghafla.co.ke/martha-karua-announces-intention-to-run-for-president-in-2027/"
+    },
+    {
+      "title": "Gachagua Calls Out Ruto, Murkomen in Fiery IEBC 'Referee' Showdown",
+      "angle": "Focusing on Gachagua's sharp rhetorical confrontation questioning why President Ruto and Cabinet Secretary Murkomen are acting as spokespersons for the electoral referee, coupled with specific administrative vulnerabilities he flagged within the commission.",
+      "angle_type": "political rhetoric and institutional boundary clash",
+      "opening": "Personality lead opening directly on Rigathi Gachagua challenging the executive branch over speaking on behalf of the electoral referee.",
+      "structure": "Personality hook -> Source attribution and December deadline -> Specific operational critiques -> IEBC walkout perspective -> January grassroots roadmap close.",
+      "source": "https://www.ghafla.co.ke/gachagua-threatens-nationwide-campaign-against-iebc-over-electoral-reforms/"
     }
   ],
   "style_history": [
