@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "54d843e071cd62c59df52615b304229637bd40c23e7868f397284af3450fe9bd",
     "638e892ec1d43f01d18f14de74549e279c1ac6c9dd072d96035370f205033ea6",
     "85d5212b752fe69dee1a74f82184a158b8e96acca24eaad9ecb88cadf003fdba",
     "2b428b4f001f58fc30faff7bed33de247e6140638d443c78c86c01d0506aa8f0",
@@ -499,10 +498,10 @@
     "e1e6c513bc1a85b3b1a0942a0f7b561f1b19d13e51cafebfd6a281d098501d37",
     "5aa4eca34eea333f2d9210a25c432f2de6023ddd3526e5ed3880d03af9a436e8",
     "b6ee7d40b25f54af611e6a504b755ffa32a07b0534196d72494bb7c0a350ed06",
-    "72713e67c6e1ce862a2e81f6d3e2ccc6719b68ca83387bef6537a5af73fb2870"
+    "72713e67c6e1ce862a2e81f6d3e2ccc6719b68ca83387bef6537a5af73fb2870",
+    "f0e63adfe7f628da75c96a54df284addfaf49de6a0899778deff170ceecddafb"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/residents-of-kwale-county-receive-title-deeds-as-rutos-coast-tour-begins/",
     "https://www.ghafla.co.ke/ig-douglas-kanja-escapes-jail-time-as-high-court-issues-final-warning-on-protest-roadblocks/",
     "https://www.ghafla.co.ke/pastor-kanyari-questions-manzi-wa-mombasa-after-she-misses-church-despite-receiving-fare/",
     "https://www.ghafla.co.ke/karen-nyamu-speaks-after-being-booed-at-natalie-githinjis-endometriosis-concert/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/cs-aden-duale-clashes-with-rigathi-gachagua-over-eastleigh-traders-accuses-him-of-tribal-politics/",
     "https://www.ghafla.co.ke/ama-ni-punishment-bolo-bespoke-hesitant-to-enter-theatre-room-as-wife-mueni-prepares-to-give-birth/",
     "https://www.ghafla.co.ke/co-op-banks-sam-ngigi-understanding-money-market-funds-and-expected-returns/",
-    "https://www.ghafla.co.ke/co-op-banks-caroline-karimi-wins-top-woman-in-finance-in-east-africa/"
+    "https://www.ghafla.co.ke/co-op-banks-caroline-karimi-wins-top-woman-in-finance-in-east-africa/",
+    "https://www.ghafla.co.ke/how-kenyan-investors-can-access-local-and-global-markets-through-britam-multi-asset-special-fund/"
   ],
   "published_angles": [
-    {
-      "title": "Ruto Breaks Silence on \u2018Expensive\u2019 Mwanza Wedding Attire, Tells Critics to Mind Their Own Wardrobe",
-      "angle": "Reframing the incident as a clash of 'luxury versus lifestyle' accountability\u2014shifting the focus from the price tag to the President\u2019s defensive posture regarding his personal aesthetic choices amidst the ongoing political fallout.",
-      "angle_type": "political personality and luxury optics",
-      "opening": "Personality-led focus on the President\u2019s specific rebuttal regarding his wardrobe choice during the Sunday service.",
-      "structure": "Ruto\u2019s defense hook -> The breakdown of Gachagua\u2019s KSh 100 million claim -> The contextual shift from the Mwanza wedding to the Narok church pulpit -> The broader tension between the two political figures.",
-      "source": "https://www.ghafla.co.ke/william-ruto-claps-back-at-gachaguas-criticism-over-expensive-outfit-he-wore-at-charlenes-wedding/"
-    },
     {
       "title": "When Dennis Elnino Brings the Heat: WMO Flags 2026 as One of Warmest Years on Record",
       "angle": "The literal naming coincidence where climate reporting meets personal digital identity, focusing on how meteorological updates collide with the digital handles of modern commentators during a record-shattering weather cycle.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality-led opening focusing directly on Caroline Karimi taking the inaugural regional title at the Nairobi gala.",
       "structure": "Award win hook -> Revenue assurance and Sh1 billion recovery figures -> Career journey from Toyota and Safaricom to Co-op Bank -> Strategic Sh1 trillion balance sheet target close.",
       "source": "https://www.ghafla.co.ke/co-op-banks-caroline-karimi-wins-top-woman-in-finance-in-east-africa/"
+    },
+    {
+      "title": "Britam\u2019s New Multi-Asset Play Courts Kenyan Savers Chasing AI Stocks Over Local MMFs",
+      "angle": "Focusing on the high-stakes cultural pivot among urban Kenyan retail investors who are ditching traditional local savings buckets for AI-driven global tech equities and cross-border currency hedges.",
+      "angle_type": "retail investment behavior and global tech asset pivot",
+      "opening": "Personality and trend lead opening directly on the shift in retail investor habits away from standard bank accounts toward aggressive global tech exposure.",
+      "structure": "Retail investor behavioral shift hook -> CMA asset numbers and decline of MMF dominance -> Britam's multi-asset fund structure and AI tech allocation -> Comparative bond versus tech return metrics -> Concrete regulatory and custodial close.",
+      "source": "https://www.ghafla.co.ke/how-kenyan-investors-can-access-local-and-global-markets-through-britam-multi-asset-special-fund/"
     }
   ],
   "style_history": [
