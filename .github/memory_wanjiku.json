@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "e17b5bcc661778f399a106b3f3823e9de7220aece88d7064fff4edefcb834779",
     "ad8754fdb3852e742cc6fe1a5eca857dea707d160f64fa3cca29ad8ae818a314",
     "5d734eb143ccc2251d9d228dda252201df898070644b21f4db07f5c632ad7151",
     "9e636ca41583dbdf530e768e18b1e35e77fb8fb0057970f33540a2cdbd4bcf29",
@@ -499,10 +498,10 @@
     "3906675c8cc63c0ea3238f12852d34fcec9c2762cdd2ddde976d6cf7356ccfcf",
     "7e3816e749c5fd4b1160dd25cc222721153820b73fb769ef43e6bf82e317a445",
     "353259ad887009d6b311f1b9d6a6de5e4c5dfae2bf63672e320d61a9e7158031",
-    "124bc4192a377ebe185102897fb7c45aa491bf9de5724b9aae56a9b8575a4034"
+    "124bc4192a377ebe185102897fb7c45aa491bf9de5724b9aae56a9b8575a4034",
+    "745589f1c439defaa4342d58ff66f9707b354fa5e0614b9850df07d582fca92e"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-several-counties-on-september-28/",
     "https://www.ghafla.co.ke/hostile-reception-as-crowd-heckles-senator-karen-nyamu-at-kicc-awareness-rally/",
     "https://www.ghafla.co.ke/i-had-babies-when-i-was-a-baby-zari-hassan-clarifies-being-just-46-years-despite-having-adult-sons/",
     "https://www.ghafla.co.ke/dangote-group-proposes-regional-stake-in-planned-lamu-refinery-project/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/martha-karua-announces-intention-to-run-for-president-in-2027/",
     "https://www.ghafla.co.ke/gachagua-threatens-nationwide-campaign-against-iebc-over-electoral-reforms/",
     "https://www.ghafla.co.ke/jalango-urges-edwin-sifuna-to-return-to-odm-amid-political-fallout/",
-    "https://www.ghafla.co.ke/what-happened-to-el-nino-president-ruto-leaves-kindiki-cabinet-in-stitches-at-state-house/"
+    "https://www.ghafla.co.ke/what-happened-to-el-nino-president-ruto-leaves-kindiki-cabinet-in-stitches-at-state-house/",
+    "https://www.ghafla.co.ke/edwin-sifuna-slams-state-house-budget-over-furniture-and-repeated-renovation-costs/"
   ],
   "published_angles": [
-    {
-      "title": "From Sh1,000 Monthly Pools to a Trillion-Shilling Empire: Inside Kenya\u2019s Cooperative Balance Sheet",
-      "angle": "Examining the massive institutional scale behind these grassroots pools\u2014specifically contrasting the informal micro-contributions of everyday Kenyans with the staggering Sh1.08 trillion asset base managed by regulated SACCOs.",
-      "angle_type": "institutional wealth scale vs grassroots micro-savings",
-      "opening": "Personality and scale hook focusing on Nicholas Kamonye breaking down the arithmetic of small monthly contributions against national cooperative balance sheets.",
-      "structure": "Micro-savings arithmetic hook -> National asset footprint and SASRA context -> Structural differences between informal chamas and formal SACCOs -> Due diligence and risk considerations -> Concrete closing on the ongoing Friday forum series.",
-      "source": "https://www.ghafla.co.ke/sacco-vs-chama-how-kenyans-can-build-wealth-through-collective-savings/"
-    },
     {
       "title": "Ruto Targets Family Pocketbooks in State Address, Warns Schools Against Extra Fees as State Clears Sh34 Billion Arrears",
       "angle": "Focusing on the household pocketbook angle\u2014specifically how Ruto framed state funding, teacher hiring, and medical bailout figures as a direct intervention to stop extra school fees and health bills from bankrupting Kenyan families.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on President William Ruto pivoting from formal reception greetings to put Deputy President Kithure Kindiki on the spot.",
       "structure": "Corridor banter hook -> Kindiki's reaction and Mudavadi's burst of laughter -> Context of the state visit arrival -> The weather expectations versus sluggish reality -> Historical echo of the 2023 Met Department communications storm -> Concluding factual forecast update.",
       "source": "https://www.ghafla.co.ke/what-happened-to-el-nino-president-ruto-leaves-kindiki-cabinet-in-stitches-at-state-house/"
+    },
+    {
+      "title": "Edwin Sifuna Takes Sh24B State House Furniture Battle All the Way to Dallas",
+      "angle": "Focusing on the theatrical contrast of Sifuna trading Nairobi's corridors for a Texas diaspora stage to deliver stinging commentary on Sh24 billion interior refurbishments.",
+      "angle_type": "diaspora stage persona and budget critique",
+      "opening": "Personality lead opening directly on Sifuna taking his opposition platform to Dallas.",
+      "structure": "Dallas diaspora stage hook -> The Sh24 billion furniture claim -> Structural refurbishment critique on roofing -> Linda Mwananchi Party context -> Concrete closing fact on the election timeline.",
+      "source": "https://www.ghafla.co.ke/edwin-sifuna-slams-state-house-budget-over-furniture-and-repeated-renovation-costs/"
     }
   ],
   "style_history": [
