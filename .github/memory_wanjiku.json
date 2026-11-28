@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "638e892ec1d43f01d18f14de74549e279c1ac6c9dd072d96035370f205033ea6",
     "85d5212b752fe69dee1a74f82184a158b8e96acca24eaad9ecb88cadf003fdba",
     "2b428b4f001f58fc30faff7bed33de247e6140638d443c78c86c01d0506aa8f0",
     "70e96c18b75f6ac81e9ffd2f59722929f2f423d33aac28999f20bcb3eaf86227",
@@ -499,10 +498,10 @@
     "5aa4eca34eea333f2d9210a25c432f2de6023ddd3526e5ed3880d03af9a436e8",
     "b6ee7d40b25f54af611e6a504b755ffa32a07b0534196d72494bb7c0a350ed06",
     "72713e67c6e1ce862a2e81f6d3e2ccc6719b68ca83387bef6537a5af73fb2870",
-    "f0e63adfe7f628da75c96a54df284addfaf49de6a0899778deff170ceecddafb"
+    "f0e63adfe7f628da75c96a54df284addfaf49de6a0899778deff170ceecddafb",
+    "10917c5ef0dad7ec52da7fd0461bef40ac9544022cfccd33d576d7849ebc741b"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/ig-douglas-kanja-escapes-jail-time-as-high-court-issues-final-warning-on-protest-roadblocks/",
     "https://www.ghafla.co.ke/pastor-kanyari-questions-manzi-wa-mombasa-after-she-misses-church-despite-receiving-fare/",
     "https://www.ghafla.co.ke/karen-nyamu-speaks-after-being-booed-at-natalie-githinjis-endometriosis-concert/",
     "https://www.ghafla.co.ke/gen-z-marriage-debate-erupts-after-listener-proposes-living-separately/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/ama-ni-punishment-bolo-bespoke-hesitant-to-enter-theatre-room-as-wife-mueni-prepares-to-give-birth/",
     "https://www.ghafla.co.ke/co-op-banks-sam-ngigi-understanding-money-market-funds-and-expected-returns/",
     "https://www.ghafla.co.ke/co-op-banks-caroline-karimi-wins-top-woman-in-finance-in-east-africa/",
-    "https://www.ghafla.co.ke/how-kenyan-investors-can-access-local-and-global-markets-through-britam-multi-asset-special-fund/"
+    "https://www.ghafla.co.ke/how-kenyan-investors-can-access-local-and-global-markets-through-britam-multi-asset-special-fund/",
+    "https://www.ghafla.co.ke/andrew-kibe-surprised-after-meru-catholic-priest-reveals-he-prays-for-him/"
   ],
   "published_angles": [
-    {
-      "title": "When Dennis Elnino Brings the Heat: WMO Flags 2026 as One of Warmest Years on Record",
-      "angle": "The literal naming coincidence where climate reporting meets personal digital identity, focusing on how meteorological updates collide with the digital handles of modern commentators during a record-shattering weather cycle.",
-      "angle_type": "cultural naming coincidence and personal branding under extreme global conditions",
-      "opening": "Personality and identity-led hook focusing on the person behind the desk delivering the bulletin against the backdrop of off-the-charts planetary metrics.",
-      "structure": "Identity/handle hook -> WMO Antalya conference metrics -> El Ni\u00f1o intensification data -> Global temperature and ocean heat baselines -> Concrete factual close.",
-      "source": "https://www.ghafla.co.ke/weather-experts-warn-2026-will-rank-among-four-warmest-years-ever-recorded-as-el-nino-intensifies/"
-    },
     {
       "title": "How Kelvin Kinuthia\u2019s Mum Became His First Personal Shopper in Feminine Style Journey",
       "angle": "Shifting away from the washroom standoff to examine the domestic roots of his career\u2014specifically how his mother actively funded and championed his cross-dressing journey from day one, contrasted with the broader, friction-filled public landscape navigated by feminine-presenting creators like Jony the Hairdresser.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality and trend lead opening directly on the shift in retail investor habits away from standard bank accounts toward aggressive global tech exposure.",
       "structure": "Retail investor behavioral shift hook -> CMA asset numbers and decline of MMF dominance -> Britam's multi-asset fund structure and AI tech allocation -> Comparative bond versus tech return metrics -> Concrete regulatory and custodial close.",
       "source": "https://www.ghafla.co.ke/how-kenyan-investors-can-access-local-and-global-markets-through-britam-multi-asset-special-fund/"
+    },
+    {
+      "title": "Andrew Kibe Pauses Online Feuds for Friend\u2019s Funeral After Surreal Encounter with Meru Priest",
+      "angle": "The tonal juxtaposition between Kibe's abrasive, bare-knuckle online persona and the quiet, sobering reality of mourning a close friend at St. Austin\u2019s Catholic Church.",
+      "angle_type": "tonal contrast and personal bereavement",
+      "opening": "Personality lead focusing directly on the juxtaposition between Kibe's digital confrontations and the solemnity of a funeral weekend.",
+      "structure": "The Meru priest encounter -> The funeral backdrop for Jonathan Chuchu Thairu -> Routing through Lee Funeral Home and St. Austin's -> The temporary pause on online disputes.",
+      "source": "https://www.ghafla.co.ke/andrew-kibe-surprised-after-meru-catholic-priest-reveals-he-prays-for-him/"
     }
   ],
   "style_history": [
