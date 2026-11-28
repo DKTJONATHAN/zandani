@@ -1,6 +1,5 @@
 {
   "published_hashes": [
-    "baf05331985100474ab8c1dfa8912473b6d73a73e0d0ea76e4c6f0d7785d390f",
     "66cea60811041bdcd450ee7b89d94b09f0c984e2e3283954a8fe22d2683e771e",
     "e17b5bcc661778f399a106b3f3823e9de7220aece88d7064fff4edefcb834779",
     "ad8754fdb3852e742cc6fe1a5eca857dea707d160f64fa3cca29ad8ae818a314",
@@ -499,10 +498,10 @@
     "10917c5ef0dad7ec52da7fd0461bef40ac9544022cfccd33d576d7849ebc741b",
     "1aee685e9ec17b6e66c16e0d82efc7d6dcd5dfbc38938d4624a23886b88bcf10",
     "3906675c8cc63c0ea3238f12852d34fcec9c2762cdd2ddde976d6cf7356ccfcf",
-    "7e3816e749c5fd4b1160dd25cc222721153820b73fb769ef43e6bf82e317a445"
+    "7e3816e749c5fd4b1160dd25cc222721153820b73fb769ef43e6bf82e317a445",
+    "353259ad887009d6b311f1b9d6a6de5e4c5dfae2bf63672e320d61a9e7158031"
   ],
   "urls": [
-    "https://www.ghafla.co.ke/otile-brown-questions-biens-edge-over-willy-paul-sparks-fresh-debate/",
     "https://www.ghafla.co.ke/plo-lumumba-wantam-alone-is-not-a-presidential-agenda/",
     "https://www.ghafla.co.ke/kenya-power-announces-planned-power-maintenance-in-several-counties-on-september-28/",
     "https://www.ghafla.co.ke/hostile-reception-as-crowd-heckles-senator-karen-nyamu-at-kicc-awareness-rally/",
@@ -1001,17 +1000,10 @@
     "https://www.ghafla.co.ke/andrew-kibe-surprised-after-meru-catholic-priest-reveals-he-prays-for-him/",
     "https://www.ghafla.co.ke/alex-mwakideu-questions-fairness-of-ntsa-speeding-fines-for-motorists/",
     "https://www.ghafla.co.ke/martha-karua-announces-intention-to-run-for-president-in-2027/",
-    "https://www.ghafla.co.ke/gachagua-threatens-nationwide-campaign-against-iebc-over-electoral-reforms/"
+    "https://www.ghafla.co.ke/gachagua-threatens-nationwide-campaign-against-iebc-over-electoral-reforms/",
+    "https://www.ghafla.co.ke/jalango-urges-edwin-sifuna-to-return-to-odm-amid-political-fallout/"
   ],
   "published_angles": [
-    {
-      "title": "Oga Obinna Rejects Gaucho\u2019s \u2018Lone Fan\u2019 Label, Claims Nairobi Governor Race Lacks a \u2018Proper Opponent\u2019 for Babu Owino",
-      "angle": "Reframing the feud around Obinna actively rejecting Gaucho's 'lone fan' caricature on Mwafreeka's broadcast, turning the critique around to assert that the real issue in the 2027 Nairobi race is the absence of a 'proper opponent' for Babu.",
-      "angle_type": "celebrity clapback and political narrative shift",
-      "opening": "Personality lead opening directly on Oga Obinna confronting Gaucho's podcast claims.",
-      "structure": "Personality hook -> Podcast origins on Mwafreeka's show -> Direct social media clapback and verbatim statement -> Political context of the 2027 Nairobi race -> Concrete factual close.",
-      "source": "https://www.ghafla.co.ke/oga-obinna-defends-babu-owinos-nairobi-governor-ambitions-dismisses-gauchos-claims/"
-    },
     {
       "title": "DJ Joe Mfalme Doubles Down on Infamous Dating Advice, Vows to Teach Daughter the Same Rules",
       "angle": "Examining how public figures selectively re-frame past professional downfalls through personal parenting philosophies, contrasting the ongoing societal conversation around femicide in Kenya with an unyielding personal dating creed.",
@@ -1803,6 +1795,14 @@
       "opening": "Personality lead opening directly on Rigathi Gachagua challenging the executive branch over speaking on behalf of the electoral referee.",
       "structure": "Personality hook -> Source attribution and December deadline -> Specific operational critiques -> IEBC walkout perspective -> January grassroots roadmap close.",
       "source": "https://www.ghafla.co.ke/gachagua-threatens-nationwide-campaign-against-iebc-over-electoral-reforms/"
+    },
+    {
+      "title": "Jalang\u2019o Deploys 'Aloooo' Punchline to Summon Jet-Setting Edwin Sifuna Back to ODM Fold",
+      "angle": "The theatrical role reversal of entertainer-turned-politician Jalang'o deploying his signature radio banter ('Aloooo') to publicly summon former enforcer Edwin Sifuna back to the party fold while Sifuna stumps across the United States.",
+      "angle_type": "personality role reversal and public celebrity banter",
+      "opening": "Personality lead opening directly on Jalang'o using his trademark broadcaster punchline to disrupt Sifuna's overseas campaign itinerary.",
+      "structure": "Celebrity social media callout hook -> The direct quote and diaspora tour backdrop -> Irony of Jalang'o's position versus Sifuna's ouster -> Linda Mwananchi splinter dynamics -> Concrete calendar marker close on Sifuna's December itinerary.",
+      "source": "https://www.ghafla.co.ke/jalango-urges-edwin-sifuna-to-return-to-odm-amid-political-fallout/"
     }
   ],
   "style_history": [
